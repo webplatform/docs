@@ -72,13 +72,11 @@
 |LiveURL=http://dabblet.com/gist/5521520
 }}{{Single Example
 |Language=HTML
-|Description=The HTML for the example.
-|Code=<p class="example-one">Example One: We &hearts; WebPlatform Docs!</p>
+|Code=&lt;p class="example-one"&gt;Example One: We &hearts; WebPlatform Docs!&lt;/p&gt;
 
-<p class="example-two">Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!</p>
+&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
 
-<p class="example-three">Example 3: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.</p>
-|LiveURL=http://dabblet.com/gist/5521520
+&lt;p class="example-three"&gt;Example 3: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
 }}
 }}
 {{Notes_Section
