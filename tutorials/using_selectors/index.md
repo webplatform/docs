@@ -1,7 +1,7 @@
 {{Page_Title|Using selectors}}
 {{Flags
 |High-level issues=Move Candidate
-}}
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
@@ -167,12 +167,12 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
    </head>
    <body>
      <p id="first">
-       <strong class="carrot">C</strong>ascending
+       <strong class="carrot">C</strong>ascading
        <strong class="spinach">S</strong>tyle
        <strong class="spinach">S</strong>heets
      </p>
      <p id="second">
-           <strong>C</strong>ascending
+           <strong>C</strong>ascading
            <strong>S</strong>tyle
            <strong>S</strong>heets
          </p>
@@ -300,4 +300,5 @@ to be applied to an HTML structure like the following:
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Selectors
 |MSDN_link=
 |HTML5Rocks_link=
+}}
 }}
