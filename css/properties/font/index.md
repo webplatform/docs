@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Errors, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -52,17 +53,32 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=The following examples use the '''font''' attribute and the '''font''' property to change font characteristics.
+|Language=CSS
+|Description=The following example demonstrates some of the uses of the <code>font</code> property.
+|Code=.example-one {
+  /*    size  family    */
+  font: 1.5em sans-serif;
+}
 
-This example uses an inline style sheet to set the font attributes.
-|Code=&lt;span style{{=}}"font:italic normal bolder 12pt Arial"&gt;content&lt;/span&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font_h.htm
+.example-two {
+  /*    style  variant    weight size/line-height family    */
+  font: italic small-caps bold   1em/1.5em        sans-serif; 
+}
+
+.example-three {
+  /*    weight size/line-height family                         */
+  font: bold   1em/2em          "Times New Roman", Times, serif;
+}
+|LiveURL=http://dabblet.com/gist/5521520
 }}{{Single Example
 |Language=HTML
-|Description=This example uses inline scripting to set the font properties.
-|Code=&lt;div onmouseover{{=}}"this.style.font {{=}} 'italic small-caps bold 12pt serif'"&gt;content&lt;/div&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font_s.htm
+|Description=The HTML for the example.
+|Code=<p class="example-one">Example One: We &hearts; WebPlatform Docs!</p>
+
+<p class="example-two">Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!</p>
+
+<p class="example-three">Example 3: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.</p>
+|LiveURL=http://dabblet.com/gist/5521520
 }}
 }}
 {{Notes_Section
