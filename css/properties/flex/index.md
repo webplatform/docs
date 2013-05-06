@@ -15,12 +15,14 @@
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=<[[css/properties/flex-grow|flex-grow]]> <[[css/properties/flex-shrink|flex-shrink]]> <[[css/properties/flex-basis|flex-basis]]>
-|Description=* Value of the [[css/properties/flex-grow|flex-grow]] property.
+|Description=The shorthand value of this property includes the following values:
+* Value of the [[css/properties/flex-grow|flex-grow]] property.
 * Value of the [[css/properties/flex-shrink|flex-shrink]] property.
 * Value of the [[css/properties/flex-basis|flex-basis]] property.
 }}{{CSS Property Value
 |Data Type=3 1 60%
-|Description=* The flex item grows three times as much as the other flex items to fit a larger container.
+|Description=An example of the shorthand values.
+* The flex item grows three times as much as the other flex items to fit a larger container.
 * The flex item shrinks just as much as the other flex items to fit a smaller container.
 * The flex item's initial main size is 60% of its container.
 }}{{CSS Property Value
