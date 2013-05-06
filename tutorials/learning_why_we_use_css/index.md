@@ -1,5 +1,6 @@
 {{Page_Title|Why use CSS?}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This tutorial looks at why we should use CSS, and why using CSS for styling our documents is better than using presentational HTML.}}
@@ -40,7 +41,7 @@ In general with HTML, you use the markup language to describe the information co
    </head>
    <body>
      <p>
-       <strong>C</strong>ascending
+       <strong>C</strong>ascading
        <strong>S</strong>tyle
        <strong>S</strong>heets
      </p>
