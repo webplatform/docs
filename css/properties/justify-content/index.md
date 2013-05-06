@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''justify-content''' property aligns flex items along the main axis of the current line of the flex container, similarly to how [[css/properties/align-content|align-content]] aligns lines when there is extra space in the cross axis.}}
+{{Summary_Section|The '''justify-content''' property aligns flex items along the main axis of the current line of the flex container, similarly to how [[css/properties/align-items|align-items]] aligns items in the cross axis.}}
 {{CSS Property
 |Initial value=flex-start
 |Applies to=flex containers
