@@ -14,6 +14,16 @@
 |Computed value=See individual properties
 |Animatable=Yes
 |Values={{CSS Property Value
+|Data Type=<[[css/properties/flex-grow|flex-grow]]> <[[css/properties/flex-shrink|flex-shrink]]> <[[css/properties/flex-basis|flex-basis]]>
+|Description=* Value of the [[css/properties/flex-grow|flex-grow]] property.
+* Value of the [[css/properties/flex-shrink|flex-shrink]] property.
+* Value of the [[css/properties/flex-basis|flex-basis]] property.
+}}{{CSS Property Value
+|Data Type=3 1 60%
+|Description=* The flex item grows three times as much as the other flex items to fit a larger container.
+* The flex item shrinks just as much as the other flex items to fit a smaller container.
+* The flex item's initial main size is 60% of its container.
+}}{{CSS Property Value
 |Data Type=none
 |Description=Equivalent to '''0 0 auto'''
 * The flex item does not adjust its size to fit the container.
@@ -30,11 +40,6 @@
 * The flex item does not grow with the other flex items to fit a larger container.
 * The flex item shrinks proportional to the other flex items to fit a smaller container.
 * The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property.
-}}{{CSS Property Value
-|Data Type=3 1 60%
-|Description=* The flex item grows three times as much as the other flex items to fit a larger container.
-* The flex item shrinks just as much as the other flex items to fit a smaller container.
-* The flex item's initial main size is 60% of its container.
 }}
 }}
 {{Examples_Section
