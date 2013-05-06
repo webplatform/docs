@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''align-items''' property sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how [[css/properties/justify-content]] aligns items along the main axis.}}
+{{Summary_Section|The '''align-items''' property sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how [[css/properties/justify-content|justify-content]] aligns items along the main axis.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flex containers
