@@ -1,11 +1,13 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘order’ property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.}}
+{{API_Name}}
+{{Summary_Section|The '''order''' property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.}}
 {{CSS Property
 |Initial value=0
-|Applies to=flex items
+|Applies to=flex items and absolutely-positioned flex container children
 |Inherited=No
 |Media=visual
 |Computed value=specified value
@@ -36,7 +38,13 @@
 .list .third {
   order: 2;
 }
-|LiveURL=http://dabblet.com/gist/4741023
+|LiveURL=http://code.webplatform.org/gist/4741023
+}}{{Single Example
+|Language=CSS
+|Description=The Holy Grail Layout example.
+|Code=-webkit-order: 2;
+   -moz-order: 2;
+          order: 2;
 }}
 }}
 {{Notes_Section}}
@@ -57,9 +65,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Flexbox
+|Topic_clusters=Flexbox
 }}
-{{Topics|CSS}}
+{{Topics|CSS, Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
