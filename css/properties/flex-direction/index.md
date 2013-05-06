@@ -3,8 +3,8 @@
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The 'flex-direction' property specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis. This determines the direction that flex items are laid out in.}}
+{{API_Name}}
+{{Summary_Section|The '''flex-direction''' CSS property describes how flex items are placed in the flex container, by setting the direction of the flex container's main axis.}}
 {{CSS Property
 |Initial value=row
 |Applies to=flex containers
@@ -15,13 +15,13 @@
 |CSS object model property=flexDirection
 |Values={{CSS Property Value
 |Data Type=row
-|Description=The flex container's main axis has the same orientation as the inline axis of the current writing mode. The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current writing mode.
+|Description=The flex container's main axis has the same orientation as the inline axis of the current [[css/properties/writing-mode|writing mode]]. The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current [[css/properties/writing-mode|writing mode]].
 }}{{CSS Property Value
 |Data Type=row-reverse
 |Description=Same as 'row', except the main-start and main-end directions are swapped.
 }}{{CSS Property Value
 |Data Type=column
-|Description=The flex container's main axis has the same orientation as the block axis of the current writing mode. The main-start and main-end directions are equivalent to the before/head and after/foot directions, respectively, of the current writing mode.
+|Description=The flex container's main axis has the same orientation as the block axis of the current [[css/properties/writing-mode|writing mode]]. The main-start and main-end directions are equivalent to the before/head and after/foot directions, respectively, of the current [[css/properties/writing-mode|writing mode]].
 }}{{CSS Property Value
 |Data Type=column-reverse
 |Description=Same as 'column', except the main-start and main-end directions are swapped.
@@ -99,9 +99,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Flexbox
+|Topic_clusters=Flexbox
 }}
-{{Topics|CSS}}
+{{Topics|CSS, Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
