@@ -3,8 +3,8 @@
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|'align-items' sets the default alignment for all of the flex container's items, including anonymous flex items.}}
+{{API_Name}}
+{{Summary_Section|The '''align-items''' property sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how [[css/properties/justify-content]] aligns items along the main axis.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flex containers
@@ -23,12 +23,10 @@
 |Description=The flex item's margin box is centered in the cross axis within the line. (If the cross size of the flex line is less than that of the flex item, it will overflow equally in both directions.)
 }}{{CSS Property Value
 |Data Type=baseline
-|Description=If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'.
-
-Otherwise, it participates in baseline alignment: all participating flex items on the line are aligned such that their baselines align, and the item with the largest distance between its baseline and its cross-start margin edge is placed flush against the cross-start edge of the line.
+|Description=If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment: all participating flex items on the line are aligned such that their baselines align, and the item with the largest distance between its baseline and its cross-start margin edge is placed flush against the cross-start edge of the line.
 }}{{CSS Property Value
 |Data Type=stretch
-|Description=If the cross size property of the flex item is 'auto', its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by 'min/max-width/height'.
+|Description=If the cross size property of the flex item is '''auto''', its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by min/max-width/height.
 }}
 }}
 {{Examples_Section
@@ -45,7 +43,7 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4745348
+|LiveURL=http://code.webplatform.org/gist/4745348
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children centered vertically
@@ -59,7 +57,7 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4745341
+|LiveURL=http://code.webplatform.org/gist/4745341
 }}
 }}
 {{Notes_Section}}
@@ -80,7 +78,7 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Flexbox
+|Topic_clusters=Flexbox
 }}
 {{Topics|CSS}}
 {{External_Attribution
