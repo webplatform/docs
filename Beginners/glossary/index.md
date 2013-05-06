@@ -25,8 +25,11 @@ Networking Protocols:</dt>
 <dd> Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other. The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web.</dd>
 <dt>Server:</dt>
 <dd>A computer on which web sites are stored, ready for delivery to those who want to look at them.</dd>
-<dt>
-Transmission Protocols:</dt>
+<dt>Style Sheeet:</dt>
+<dd>A set of instructions for how the content of a markup file should be displayed.</dd>
+<dt>SVG:</dt>
+<dd>A markup language for graphics.</dd>
+<dt>Transmission Protocols:</dt>
 <dd>The various agreed upon methods for transporting data around the Web, the most common being FTP, File Transfer Protocol.</dd>
 <dt>User Agent:</dt>
 <dd>Any software that is used to access web pages on behalf of users. There is an important distinction to be made here—all types of desktop browser software (Internet Explorer, Opera, Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers such as Opera Mini and WebKit on the iPhone) are user agents, but not all user agents are browser software. The automated programs that Google and Yahoo! use to index the web to use in their search engines are also user agents, but no human being is controlling them directly.</dd>
@@ -37,6 +40,33 @@ Transmission Protocols:</dt>
 <dt>
 Web Technologies:</dt>
 <dd> these are the different types of code that web developers use to create web sites, which define things such as the text you want to show on the web page, the styles that text should have, etc. The web browser receives such code from a server and assembles it into a complete web page.
+</dd>
+<dt>XML:</dt>
+<dd>A markup language for structured documents in general.</dd>
+<dt>XUL:</dt>
+<dd>A markup language for user interfaces in Mozilla.</dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
+<dt></dt>
+<dd></dd>
 </dl>
 {{Notes_Section}}
 {{Topics}}
