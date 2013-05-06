@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘flex-wrap’ property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.}}
+{{API_Name}}
+{{Summary_Section|The '''flex-wrap''' property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.}}
 {{CSS Property
 |Initial value=nowrap
 |Applies to=flex containers
@@ -13,13 +15,13 @@
 |CSS object model property=flexWrap
 |Values={{CSS Property Value
 |Data Type=nowrap
-|Description=The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
+|Description=The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current [[css/properties/writing-mode|writing mode]], whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
 }}{{CSS Property Value
 |Data Type=wrap
-|Description=The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current writing mode, whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
+|Description=The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current [[css/properties/writing-mode|writing mode]], whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
 }}{{CSS Property Value
 |Data Type=wrap-reverse
-|Description=Same as ‘wrap’, except the cross-start and cross-end directions are swapped.
+|Description=Same as '''wrap''', except the cross-start and cross-end directions are swapped.
 }}
 }}
 {{Examples_Section
@@ -35,7 +37,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740662
+|LiveURL=http://code.webplatform.org/gist/4740662
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children in a row wrapping to the next line
@@ -47,7 +49,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740667
+|LiveURL=http://code.webplatform.org/gist/4740667
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children in a row wrapping to the previous line
@@ -59,7 +61,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740670
+|LiveURL=http://code.webplatform.org/gist/4740670
 }}
 }}
 {{Notes_Section}}
@@ -80,7 +82,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Flexbox
+|Topic_clusters=Flexbox
 }}
 {{Topics|CSS}}
 {{External_Attribution
