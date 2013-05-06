@@ -44,8 +44,8 @@
     <div class="long-topic">
 	<div class="image icon-dom"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/prototypes|Prototypes]]</h3>
-            <p>Try out these Pointer Event prototypes on different browser platforms.</p>
+	    <h3>[[concepts/Pointer_Events_sandbox/experimental|Experimental]]</h3>
+            <p>Try out Pointer Event experimental and prototype code on different browser platforms.  Note: not all code works with all test/demo features.  We will continue to update these over time.</p>
 	</div>
     </div>
 
