@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
