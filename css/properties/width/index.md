@@ -16,12 +16,11 @@
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Default width of the element, which varies based on the element's type.
-* Block-level, non-replaced elements are given a width such that the element's margins, borders, padding, and width add up to the width of the containing element. For example, if the containing element's width is <code>200px</code> and our element has, on both sides, <code>10px</code> margins, <code>1px</code> borders, and <code>5px</code> padding, a width of <code>auto</code> would effectively be 200 - (10 * 2) - (1 * 2) - (5 * 2) = 168px. If any of these conditions were to change, the effective width would change accordingly.
-* Inline-block, non-replaced elements are given a "shrink-to-fit" width: the element will be as narrow as the content allows, and no wider than the containing element allows.
-* Floating, non-replaced elements are also given a "shrink-to-fit" width.
-* Absolutely position, non-replaced elements are like block-level, non-replaced elements, but with the addition of <code>left</code> and <code>right</code> properties: our element's left value, right value, margins, borders, padding, and width will add up to the containing element's width.
-* Replaced elements (whether inline, block, inline-block, floating, or absolutely positioned) are tricky because their <code>auto</code> widths are calculated in relation to their heights. If our element has an intrinsic width (for example, an image), and the height is also <code>auto</code>, it maintains its intrinsic width. If our element's height is specified (not <code>auto</code>) and the element has an intrinsic ratio, it will be given a width of (used height) * (intrinsic ratio).
-
+* ''Block-level, non-replaced elements'' are given a width such that the element's margins, borders, padding, and width add up to the width of the containing element. For example, if the containing element's width is <code>200px</code> and our element has, on both sides, <code>10px</code> margins, <code>1px</code> borders, and <code>5px</code> padding, a width marked <code>auto</code> would produced a "used value" of 200 - (10 * 2) - (1 * 2) - (5 * 2) = <code>168px</code>. If any of these conditions were to change, our element's width would change accordingly.
+* ''Inline-block, non-replaced elements'' are given a "shrink-to-fit" width: our element will be as narrow as the content allows, and no wider than the containing element allows.
+* ''Floating, non-replaced elements'' are also given a "shrink-to-fit" width.
+* ''Absolutely positioned, non-replaced elements'' are treated like block-level, non-replaced elements, but with the addition of <code>left</code> and <code>right</code> properties: our element's left value, right value, margins, borders, padding, and width will add up to the containing element's width.
+* ''Replaced elements'' (whether inline, block, inline-block, floating, or absolutely positioned) are tricky because for them the "used value" of <code>auto</code> widths will be calculated in relation to the element's height. If our element has an ''intrinsic width'' (for example, an image), and the height is also <code>auto</code>, the "used value" will mirror the intrinsic width. If our element's height is specified (not <code>auto</code>) and the element has an ''intrinsic ratio'', it will be given a width of (used height) * (intrinsic ratio).
 }}{{CSS Property Value
 |Data Type=width
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
@@ -113,6 +112,7 @@ For more information about how to access the dimension and location of elements 
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Background, Box Model
+|External_links=* http://www.w3.org/TR/CSS2/visudet.html#the-width-property
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
