@@ -1,5 +1,6 @@
 {{Page_Title|Getting started with CSS}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, comments, and how to apply it to HTML.}}
@@ -34,7 +35,7 @@ CSS is not a programming language like JavaScript and it is not a markup languag
  
 == Defining style rules ==
  
-Without further ado, review this example of a CSS rule, and then dissect it:
+Style rules can operate on three different sets of items.  They can be directly applied to the pre-defined blocks and segments of markup code (body, article, nav, list, p, em, strong, etc.), or they can be applied to custom made classes or IDs .  When applied to the predefined blocks selector below is simply replaced by the name of that block.  For classes the syntax is .class, for IDs, #id.
 
 <syntaxhighlight lang="css">selector {
   property1:value;
@@ -292,38 +293,51 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=1
 |Android_prefixed_supported=Unknown
+|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=1.8
 |Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=1
 |Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=6
 |IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
 |Opera_mini_version=1
 |Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=1
 |Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
@@ -340,4 +354,7 @@ The first question you'll be asking is "why on earth do I need another way to ap
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
