@@ -33,7 +33,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740728
+|LiveURL=http://code.webplatform.org/gist/4740728
 }}{{Single Example
 |Language=CSS
 |Description=The Holy Grail Layout example.
