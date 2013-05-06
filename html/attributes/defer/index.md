@@ -91,6 +91,7 @@ Combining scrips both standard and with <code>defer</code> that depend on each o
 }}
 }}
 {{See_Also_Section
+|Manual_links=http://caniuse.com/#feat=script-defer
 |Manual_sections====Related pages (MSDN)===
 *<code>script</code>
 }}
