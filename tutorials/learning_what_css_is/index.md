@@ -43,7 +43,7 @@ For more information about documents and markup languages, see other parts of th
 
 In Part II of this tutorial you will see examples of these markup languages.
 
-''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, like Firefox, Chrome or Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
+''Presenting'' a document to a user means converting it into a form that humans can make use of. Browsers, such as Opera, Firefox, ior Internet Explorer, are designed to present documents visually — for example, on a computer screen, projector or printer.
 
 CSS is not just for browsers, and not just for visual presentation. In formal CSS terminology, the program that presents a document to a user is called a ''user agent'' (UA). A browser is just one kind of UA. However, in Part I of this tutorial you will only work with CSS in a browser.
  
