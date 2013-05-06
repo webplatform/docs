@@ -38,8 +38,8 @@
 |Language=CSS
 |Description=The Holy Grail Layout example.
 |Code=-webkit-flex-flow: row;
-      -moz-flex-flow: row;
-           flex-flow: row;
+    -moz-flex-flow: row;
+             flex-flow: row;
 |LiveURL=http://code.webplatform.org/gist/5506026
 }}
 }}
