@@ -40,7 +40,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740224
+|LiveURL=http://code.webplatform.org/gist/4740224
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children in a row in reversed order
@@ -52,7 +52,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740260
+|LiveURL=http://code.webplatform.org/gist/4740260
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children in a column
@@ -64,7 +64,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740271
+|LiveURL=http://code.webplatform.org/gist/4740271
 }}{{Single Example
 |Language=CSS
 |Description=Displaying children in a column in reversed order
@@ -76,7 +76,7 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://dabblet.com/gist/4740277
+|LiveURL=http://code.webplatform.org/gist/4740277
 }}
 }}
 {{Notes_Section
