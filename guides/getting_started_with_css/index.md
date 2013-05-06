@@ -146,7 +146,7 @@ You can join selectors together to define even more specific rules:
 * <code>div#example {}</code> matches the element with an <code>id</code> attribute of <code>example</code>, but only when it is a <code>div</code>. 
 * <code>p.info, li.highlight {}</code> matches paragraphs with a <code>class</code> of <code>info</code> and list items with a <code>class</code> of <code>highlight</code>.
 
-Note that this does not mean that you can use a shorthand for the definition of your elements in HTML.  For example, your HTML paragraph will still have to be in the form <code>&ltp class="classname"&rt</code>, but you can style it specially in your CSS with <code>p.classname {}</code>.
+Note that this does not mean that you can use a shorthand for the definition of your elements in HTML.  For example, your HTML paragraph will still have to be in the form <code>&lt;p class="classname"&gt;</code>, but you can style it specially in your CSS with <code>p.classname {}</code>.
   
 In the following example we are using these to differentiate between the different warning styles:
  
