@@ -31,11 +31,65 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=An example with the justify-content property. Open the live example, and substitute the value yourself to see the behavior.
+|Code=.container {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:      -o-flex;
+  display:         flex;
+  
+  width: 800px;
+  height: 100px;
+  background: #CCC;
+  
+  -webkit-justify-content: space-around;
+     -moz-justify-content: space-around;
+      -ms-justify-content: space-around;
+       -o-justify-content: space-around;
+          justify-content: space-around; 
+}
+
+.container div {
+  -webkit-flex: 0;
+     -moz-flex: 0;
+      -ms-flex: 0;
+       -o-flex: 0;
+          flex: 0;
+ 
+    height: 100px;
+    margin: 0px;
+    font-family: Bitter;
+    font-size: 24px;
+}
+
+.container .third-item {
+  width: 150px;
+  background: #CC3333;
+
+}
+
+.container .second-item {
+  width: 275px;
+  background: #FFFC33;
+}
+
+.container .first-item {
+  width: 200px;
+  background: #3333FF;
+}
+|LiveURL=http://code.webplatform.org/gist/5528710
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Flexible Box Layout Module
+|URL=http://dev.w3.org/csswg/css-flexbox/#justify-content-property
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -44,8 +98,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+}}
+{{Topics|CSS, Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
