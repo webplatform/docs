@@ -35,7 +35,7 @@ CSS is not a programming language like JavaScript and it is not a markup languag
  
 == Defining style rules ==
  
-Style rules can operate on three different sets of items.  They can be directly applied to the pre-defined blocks and segments of markup code (body, article, nav, list, p, em, strong, etc.), or they can be applied to custom made classes or IDs .  When applied to the predefined blocks selector below is simply replaced by the name of that block.  For classes the syntax is .class, for IDs, #id.
+Style rules can operate on three different sets of items.  They can be directly applied to the pre-defined blocks and segments of markup code (body, article, nav, list, p, em, strong, etc.), or they can be applied to custom made classes or IDs .  This is the basic form:
 
 <syntaxhighlight lang="css">selector {
   property1:value;
@@ -45,7 +45,7 @@ Style rules can operate on three different sets of items.  They can be directly 
  
 The pertinent parts are as follows:
 
-* The selector identifies which HTML elements are affected by the rule, using actual element names, such as <code>&lt;body&gt;</code>, or other identifiers such as <code>class</code> attribute values. Later in this article, a description of the different types of selectors is provided.
+* The selector identifies which HTML elements are affected by the rule, using actual element names, such as <code>&lt;body&gt;</code>, or other identifiers such as <code>class</code> attribute values. When applied to the actual element names, selector is simply replaced by the name of that block.  For classes the syntax is .classname, for IDs, #idname.  A more complete description comes later.
 * The curly braces contain the property/value pairs, which are separated from each other by semi-colons; the properties are separated from their respective values by colons.
 * The properties define what you want to do to the element(s) you have selected. These come in wide varieties, which can affect attributes such as text color, background color, the position of the element on the page, font type, border color and thickness, and many other appearance and layout controls.
 * The values are the settings that specify details of each property applied to elements. The values are dependent on the property. For example, properties that affect color can use hexadecimal colors like #336699, RGB values like rgb(12,134,22) or color names like red, green, or blue. Properties that affect position, margins, width, height, and others can be measured in pixels, ems, percentages, centimeters, or other units.
@@ -60,8 +60,6 @@ Review this specific example:
  
 The HTML element this rule affects is <code>&lt;p&gt;</code> — every <code>&lt;p&gt;</code> in the HTML document or documents that this CSS rule is applied to will display with these styles, unless they have more specific rules also applied to them, in which case the more specific rules will override this rule. The properties affected by this rule are the margins around the paragraphs, the font of the text inside the paragraph tags, and the color of that text. The margins are set to 5 pixels, the font is set as Arial, and the color of the text is set to blue.
 
-All of these specifics are discussed in more detail later — the main goal of this tutorial is to cover the basics of CSS rather than describing the granular details.
- 
 A whole set of CSS rules are added to a CSS document to form a style sheet. This is the most basic syntax when writing CSS rules. Some rules are more complex, but not much — probably the coolest thing about CSS is its simplicity.
  
 === Whitespace in CSS ===
@@ -147,6 +145,8 @@ You can join selectors together to define even more specific rules:
 * <code>p.warning {}</code> matches all paragraphs with a <code>class</code> of <code>warning</code>.
 * <code>div#example {}</code> matches the element with an <code>id</code> attribute of <code>example</code>, but only when it is a <code>div</code>. 
 * <code>p.info, li.highlight {}</code> matches paragraphs with a <code>class</code> of <code>info</code> and list items with a <code>class</code> of <code>highlight</code>.
+
+Note that this does not mean that you can use a shorthand for the definition of your elements in HTML.  For example, your HTML paragraph will still have to be in the form <code>&ltp class="classname"&rt</code>, but you can style it specially in your CSS with <code>p.classname {}</code>.
   
 In the following example we are using these to differentiate between the different warning styles:
  
@@ -286,7 +286,9 @@ The first question you'll be asking is "why on earth do I need another way to ap
 * As mentioned before, IE6 doesn't support putting the media type at the end of the <code>@import</code> line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 * You could argue that the code for multiple <code>@import</code> statements is smaller than the code for multiple <code>&lt;link&gt;</code> elements, but this is pretty negligible.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The comment about white space seems a bit daft.  These are rules and therefore non-display items in the first place.  And the truth is in some places they do matter, for instance, url (image.gif) will not display the image because of the space between the l and the (.
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
