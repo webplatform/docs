@@ -6,11 +6,11 @@
 {{API_Name}}
 {{Summary_Section|The '''flex-flow''' CSS property defines the flex container's main and cross axis. It is a shorthand property for the [[css/properties/flex-direction|flex-direction]] and [[css/properties/flex-wrap|flex-wrap]] properties.}}
 {{CSS Property
-|Initial value=See individual properties: [[css/properties/flex-direction|flex-direction]] [[css/properties/flex-wrap|flex-wrap]]
+|Initial value=See individual properties.
 |Applies to=flex containers
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties: [[css/properties/flex-direction|flex-direction]] [[css/properties/flex-wrap|flex-wrap]]
+|Computed value=See individual properties.
 |Animatable=No
 |CSS object model property=flexFlow
 |Values={{CSS Property Value
