@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name|CSS Flexible Box Layout Module}}
-{{Summary_Section|The ‘flex-flow’ property is a shorthand for setting the ‘flex-direction’ and ‘flex-wrap’ properties, which together define the flex container's main and cross axes. }}
+{{API_Name}}
+{{Summary_Section|The '''flex-flow''' CSS property defines the flex container's main and cross axis. It is a shorthand property for the [[css/properties/flex-direction|flex-direction]] and [[css/properties/flex-wrap|flex-wrap]] properties.}}
 {{CSS Property
 |Initial value=See individual properties: [[css/properties/flex-direction|flex-direction]] [[css/properties/flex-wrap|flex-wrap]]
 |Applies to=flex containers
@@ -13,14 +15,16 @@
 |CSS object model property=flexFlow
 |Values={{CSS Property Value
 |Data Type=<flex-direction> <flex-wrap>
-|Description=See individual properties: [[css/properties/flex-direction|flex-direction]] [[css/properties/flex-wrap|flex-wrap]]
+|Description=The shorthand value includes the values of the following properties: 
+* [[css/properties/flex-direction|flex-direction]]
+* [[css/properties/flex-wrap|flex-wrap]]
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Displaying children in a row wrapping to the next line
+|Description=Displaying children in a row wrapping to the next line.
 |Code=.list {
   display: flex;
   flex-flow: row wrap;
@@ -30,6 +34,13 @@
   flex: 1;
 }
 |LiveURL=http://dabblet.com/gist/4740728
+}}{{Single Example
+|Language=CSS
+|Description=The Holy Grail Layout example.
+|Code=-webkit-flex-flow: row;
+      -moz-flex-flow: row;
+           flex-flow: row;
+|LiveURL=http://code.webplatform.org/gist/5506026
 }}
 }}
 {{Notes_Section}}
@@ -50,7 +61,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Flexbox
+|Topic_clusters=Flexbox
 }}
 {{Topics|CSS}}
 {{External_Attribution
