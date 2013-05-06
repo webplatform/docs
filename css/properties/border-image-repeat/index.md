@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The <code>border-image-repeat</code> CSS property defines how the middle part of a border image is handled to match the size of the border. It has a one-value syntax which describes the behavior for all sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior.}}
@@ -55,6 +57,7 @@
 [[File:bi-space.png|border-image space demo]]
 
 /* Space is not supported by any browser */
+|LiveURL=http://code.webplatform.org/gist/5528406
 }}
 }}
 {{Notes_Section}}
