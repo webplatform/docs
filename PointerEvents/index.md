@@ -7,11 +7,8 @@
 	<div class="image icon-beginners"></div>
 
 	<div class="inner">
-	    <h3>Learn</h3>
-* [http://docs.webplatform.org/wiki/concepts/Pointer_Events Pointer Events Primer]
-* [http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx Hand.js Pointer Events Polyfill]
-* [http://www.youtube.com/watch?v=SCfVn4JY5yk Jacob Rossi ‘Pointing Forward’ at W3Conf 2013]
-* [http://blogs.msdn.com/b/davrous/archive/2013/02/20/handling-touch-in-your-html5-apps-thanks-to-the-pointer-events-of-ie10-and-windows-8.aspx Unifying Touch and Mouse]
+	    <h3>[[concepts/Pointer_Events_sandbox/learn|Learn]]</h3>
+            <p>Learn how easy it is to code for Pointer Events, including tips on migrating existing code, tutorials, videos, and code samples.</p>
 	</div>
     </div>
 
@@ -19,11 +16,8 @@
 
 	<div class="image icon-css"></div>
 	<div class="inner">
-	    <h3>Try</h3>
-* [http://touch.azurewebsites.net/touchtest.html Touch Tracker Marker]
-* [http://ie.microsoft.com/testdrive/Graphics/TouchEffects/ Touch Effects]
-* [http://msopentech.com/opentech-projects/pointer-events-prototype-for-webkit/ Pointer Events for Webkit]
-* [http://www.developer.nokia.com/Blogs/Code/2013/04/02/touchy-feely-with-dom-events-rethinking-cross-device-user-interaction/ Cross device interaction]
+	    <h3>[[concepts/Pointer_Events_sandbox/try|Try]]</h3>
+            <p>Try out Pointer Events for yourself in these demos of Pointer Events working in different application scenarios.</p>
 	</div>
     </div>
 
@@ -31,10 +25,8 @@
 
 	<div class="image icon-api"></div>
 	<div class="inner">
-	    <h3>Test</h3>
-* [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for Webkit on HTML5Labs]
-* [http://handjs.codeplex.com/ Hand.js project on CodePlex]
-* [http://www.w3.org/wiki/PointerEvents/TestAssertions Test Assertions for Pointer Events]
+	    <h3>[[concepts/Pointer_Events_sandbox/test|Test]]</h3>
+            <p>Test and validate Pointer Events implementations, including working code samples, and validation tests.</p>
 	</div>
     </div>
 
@@ -42,9 +34,8 @@
     <div class="long-topic">
 	<div class="image icon-svg"></div>
 	<div class="inner">
-	    <h3>Specifications</h3>
-* [http://www.w3.org/TR/pointerevents/ W3C Working Draft]
-* [https://msopentech.com/blog/2013/02/21/almost-there-last-call-working-draft-for-the-w3c-pointer-events-specification/ Pointer Events Achieves ‘Last Call’ Status]
+	    <h3>[[concepts/Pointer_Events_sandbox/specifications|Specifications]]</h3>
+            <p>Checkout the Pointer Events specifications at the W3C, learn more about the standardization process, and join the discussion.</p>
 	</div>
     </div>
 
@@ -53,9 +44,8 @@
     <div class="long-topic">
 	<div class="image icon-dom"></div>
 	<div class="inner">
-	    <h3>Prototypes</h3>
-* [https://msopentech.com/blog/2013/02/21/almost-there-last-call-working-draft-for-the-w3c-pointer-events-specification/ Pointer Events for Webkit]
-* [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Pointer Events for Chromium]
+	    <h3>[[concepts/Pointer_Events_sandbox/prototypes|Prototypes]]</h3>
+            <p>Try out these Pointer Event prototypes on different browser platforms.</p>
 	</div>
     </div>
 
@@ -64,10 +54,8 @@
     <div class="long-topic">
 	<div class="image icon-concept"></div>
 	<div class="inner">
-	    <h3>Docs</h3>
-* [http://docs.webplatform.org/wiki/dom/objects/PointerEvent Pointer Events DOM Object]
-* [http://msdn.microsoft.com/en-us/library/ie/hh673557%28v=vs.85%29.aspx Pointer Events on MSDN]
-
+	    <h3>[[concepts/Pointer_Events_sandbox/documentation|Docs]]</h3>
+            <p>Additional Pointer Events documentation and resources.</p>
 	</div>
     </div>
 
