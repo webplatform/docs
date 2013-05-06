@@ -1,6 +1,5 @@
 {{Page_Title|CSS text styling fundamentals}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.}}
