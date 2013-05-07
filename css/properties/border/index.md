@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']], or a subset of these. Note that as well as defining properties for all four sides of an element's border all once, you can also target borders on specific sides individually — for example [[css/properties/border-top|'''border-top''']] and [[css/properties/border-right|'''border-right''']] — or even specific properties of individual borders — for example [[css/properties/border-top-color|'''border-top-color''']] and [[css/properties/border-right-color|'''border-right-color''']]}}
+{{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']], or a subset of these. Note that as well as defining properties for all four sides of an element's border at once, you can also target borders on specific sides individually — for example [[css/properties/border-top|'''border-top''']] and [[css/properties/border-right|'''border-right''']] — or even specific properties of individual borders — for example [[css/properties/border-top-color|'''border-top-color''']] and [[css/properties/border-right-color|'''border-right-color''']]}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
