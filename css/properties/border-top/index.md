@@ -29,22 +29,62 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* When we don't set border-top-color, color of a text is used as a default */
+|Code=/**
+ * border-top example
+**/
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+  float: left;
+}
+
+p {
+  padding: 2rem;
+}
+
 .one {
-  color: #6CC644;
-  border-top: medium solid;
+  /* The most basic border-top example you can show. */ 
+  border-top: 1px solid black;
 }
 
-/* When we don't set border-top-style, default style <none> will be used - therefor no border-top will be rendered */
 .two {
-  border-top: 1px red;
+  /* If you don't explicitly set a color, currentColor is used, which
+     equates to the text colour of the element, in this case black.   */
+  border-top: 4px dashed;
 }
 
-/* Other border-top style example */
 .three {
-  border-top: dotted 2px red;
+  /* When no width is specified, the default width medium is used,
+     which computes to about 3px in most browsers */
+  border-top: dotted red;
 }
-|LiveURL=http://marcin-wosinek.github.com/border-top
+
+.four {
+  /* When no border style is specified, the border won't appear,
+     as the default border style is none. */
+  border-top: 10px black;
+}
+
+.five {
+  /* A more interesting border example to round things off,
+     showing a basic border being set, and then the top
+     border being overridden */
+  border: 1px solid black;
+  border-top: 10px inset rgba(234,190,50,0.75);
+}
+|LiveURL=http://code.webplatform.org/gist/5534715
+}}{{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-top</code> properties applied to them.
+|Code=<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+
+|LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
 {{Notes_Section
