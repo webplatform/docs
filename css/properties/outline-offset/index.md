@@ -3,7 +3,7 @@ Sets the offset of the outline frame outside of the border edge.
 
 == Syntax ==
 
-outline-offset: [number and unit]
+<code>outline-offset: [number and unit]</code>
 
 == Values ==
 
