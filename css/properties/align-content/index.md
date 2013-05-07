@@ -64,7 +64,7 @@
 }
 
 .container div {
-    height: 30px;
+    height: 30px;   /* set this to 'auto' to see how the lines respond to 'align-items: stretch' */
     margin: 0px;
 }
 
