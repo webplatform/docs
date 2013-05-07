@@ -85,11 +85,11 @@ body {
   margin: 0 auto;
   width: 80%;
 }
- 
+
 .box {
   border: 5px solid #efefef;
   
-  /* Extra styling for decoration! */
+  /* Extra styling for decoration. */
   font: bold 0.8em sans-serif;
   color: #444;
   text-shadow: 0 1px #dedede;
@@ -104,13 +104,13 @@ body {
 |LiveURL=http://dabblet.com/gist/5530689
 }}{{Single Example
 |Language=HTML
-|Code=<div class="box named-value">Named color value</div>
-<div class="box hex-value">Hexadecimal color value</div>
-<div class="box rgb-value">RGB color value</div>
-<div class="box rgb-percentage-value">RGB percentage color value</div>
-<div class="box hsl-value">HSL color value</div>
-<div class="box rgba-value">RGB with alpha color value</div>
-<div class="box hsla-value">HSL with alpha color value</div>
+|Code=&lt;div class="box named-value"&gt;Named color value&lt;/div&gt;
+&lt;div class="box hex-value"&gt;Hexadecimal color value&lt;/div&gt;
+&lt;div class="box rgb-value"&gt;RGB color value&lt;/div&gt;
+&lt;div class="box rgb-percentage-value"&gt;RGB percentage color value&lt;/div&gt;
+&lt;div class="box hsl-value"&gt;HSL color value&lt;/div&gt;
+&lt;div class="box rgba-value"&gt;RGB with alpha color value&lt;/div&gt;
+&lt;div class="box hsla-value"&gt;HSL with alpha color value&lt;/div&gt;
 }}
 }}
 {{Notes_Section
