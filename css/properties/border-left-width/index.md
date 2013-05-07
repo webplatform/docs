@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -29,28 +29,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-left-width''' attribute and the '''border-left-width''' property to specify the border width.
-
-This example uses a call to an embedded (global) style sheet to change the width of the left border width to 1 centimeter when a mouse click occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-left-width:3mm }
-    .changeborder1 { border-left-width:1cm }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onclick{{=}}"this.className{{=}}'changeborder1'"
-        ondblclick{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;
-    &lt;/TD&gt;
-&lt;/TR&gt;&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-left-width.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the width of the left border width to 1 centimeter when a mouse click occurs.
-|Code=&lt;TD onclick{{=}}"this.style.borderLeftWidth{{=}}'1cm'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderLeftWidth.htm
+|Language=CSS
+|Description=The following example demonstrates the <code>border-left-width</code> using the following example which sets the border width of that element to 0.8em..
+|Code=.box {
+  /* A border needs to be specified in order for the border-left-width to take effect. */
+  border: 6px solid #444;
+  
+  /* The border-left-width can be specified in px, em, cm, mm, in etc.*/
+  border-left-width: 0.8em;
+}
+|LiveURL=http://code.webplatform.org/gist/5535147
 }}
 }}
 {{Notes_Section
