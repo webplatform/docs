@@ -79,7 +79,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 .hsla-value {
   border-right-color: hsla(282, 100%, 41%, 0.8);
 }
-|LiveURL=http://dabblet.com/gist/5530809
+|LiveURL=http://code.webplatform.org/gist/5530809
 }}{{Single Example
 |Language=HTML
 |Code=&lt;div class="box named-value"&gt;
