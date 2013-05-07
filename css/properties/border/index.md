@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']], or a subset of these. Note that as well as defining properties for all four sides of an element's border at once, you can also target borders on specific sides individually — for example [[css/properties/border-top|'''border-top''']] and [[css/properties/border-right|'''border-right''']] — or even specific properties of individual borders — for example [[css/properties/border-top-color|'''border-top-color''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
 {{CSS Property
-|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, whihc is computed as about 3px in most browsers..
+|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers..
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -28,23 +28,60 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border</code> properties applied to them.
+|Code=&lt;div class="one"&gt;&lt;p&gt;One&lt;/p&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;p&gt;Two&lt;/p&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;p&gt;Three&lt;/p&gt;&lt;/div&gt;
+&lt;div class="four"&gt;&lt;p&gt;Four&lt;/p&gt;&lt;/div&gt;
+&lt;div class="five"&gt;&lt;p&gt;Five&lt;/p&gt;&lt;/div&gt;
+
+|LiveURL=http://code.webplatform.org/gist/5534182
+}}{{Single Example
 |Language=CSS
-|Code=/* When we don't set border-color, color of a text is used as a default */
+|Code=/**
+ * border example
+**/
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+  float: left;
+}
+
+p {
+  padding: 2rem;
+}
+
 .one {
-  color: blue;
-  border: medium solid;
+  /* The most basic border example you can show. */ 
+  border: 1px solid black;
 }
 
-/* When we don't set border-style, default style <none> will be used - therefor no border will be rendered */
 .two {
-  border: 1px red;
+  /* If you don't explicitly set a color, currentColor is used, which
+     equates to the text colour of the element, in this case black.   */
+  border: 4px dashed;
 }
 
-/* Other border style example */
 .three {
-  border: dotted 2px red;
+  /* When no width is specified, the default width medium is used,
+     which computes to about 3px in most browsers */
+  border: dotted red;
 }
-|LiveURL=http://marcin-wosinek.github.com/border/
+
+.four {
+  /* When no border style is specified, the border won't appear,
+     as the default border style is none. */
+  border: 10px black;
+}
+
+.five {
+  /* A more interesting border example to round things off. */
+  border: 10px inset rgba(234,190,50,0.75);
+}
+|LiveURL=http://code.webplatform.org/gist/5534182
 }}
 }}
 {{Notes_Section
