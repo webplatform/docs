@@ -163,8 +163,7 @@ p {
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530744(v=vs.85).aspx Windows Internet Explorer API reference]
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
