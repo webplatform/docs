@@ -7,7 +7,7 @@
 	<div class="image icon-beginners"></div>
 
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/learn|Learn]]</h3>
+	    <h3>[[PointerEvents/learn|Learn]]</h3>
             <p>Learn how easy it is to code for Pointer Events, including tips on migrating existing code, tutorials, videos, and code samples.</p>
 	</div>
     </div>
@@ -16,7 +16,7 @@
 
 	<div class="image icon-css"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/try|Try]]</h3>
+	    <h3>[[PointerEvents/try|Try]]</h3>
             <p>Try out Pointer Events for yourself in these demos of Pointer Events working in different application scenarios.</p>
 	</div>
     </div>
@@ -25,7 +25,7 @@
 
 	<div class="image icon-api"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/test|Test]]</h3>
+	    <h3>[[PointerEvents/test|Test]]</h3>
             <p>Test and validate Pointer Events implementations, including working code samples, and validation tests.</p>
 	</div>
     </div>
@@ -34,7 +34,7 @@
     <div class="long-topic">
 	<div class="image icon-svg"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/specifications|Specifications]]</h3>
+	    <h3>[[PointerEvents/specifications|Specifications]]</h3>
             <p>Checkout the Pointer Events specifications at the W3C, learn more about the standardization process, and join the discussion.</p>
 	</div>
     </div>
@@ -44,7 +44,7 @@
     <div class="long-topic">
 	<div class="image icon-dom"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/experimental|Experimental]]</h3>
+	    <h3>[[PointerEvents/experimental|Experimental]]</h3>
             <p>Try out Pointer Event experimental and prototype code on different browser platforms.  Note: not all code works with all test/demo features.  We will continue to update these over time.</p>
 	</div>
     </div>
@@ -54,7 +54,7 @@
     <div class="long-topic">
 	<div class="image icon-concept"></div>
 	<div class="inner">
-	    <h3>[[concepts/Pointer_Events_sandbox/documentation|Docs]]</h3>
+	    <h3>[[PointerEvents/documentation|Docs]]</h3>
             <p>Additional Pointer Events documentation and resources.</p>
 	</div>
     </div>
