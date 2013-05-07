@@ -48,7 +48,11 @@ This example uses a call to an embedded (global) style sheet to change the color
 }}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the use of <code>border-right-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
-|Code=.named-value {
+|Code=.box {
+  border: 5px solid #efefef;
+}
+
+.named-value {
   border-right-color: red;
 }
 
