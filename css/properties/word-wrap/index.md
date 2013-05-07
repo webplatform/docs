@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
