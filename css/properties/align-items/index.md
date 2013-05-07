@@ -33,7 +33,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Displaying children centered horizontally
+|Description=Displaying children centered horizontally.
 |Code=.list {
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@
 |LiveURL=http://code.webplatform.org/gist/4745348
 }}{{Single Example
 |Language=CSS
-|Description=Displaying children centered vertically
+|Description=Displaying children centered vertically.
 |Code=.list {
   display: flex;
   flex-direction: row;
@@ -58,6 +58,57 @@
   flex: 1;
 }
 |LiveURL=http://code.webplatform.org/gist/4745341
+}}{{Single Example
+|Language=CSS
+|Description=Alignment of flex items in a flex container. Change the values in the live example.
+|Code=.container {
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:     -ms-flex;
+  display:      -o-flex;
+  display:         flex;
+  
+  width: 400px;
+  height: 200px;
+  background: #CCC;
+  
+  -webkit-align-items: center; /* values: flex-start, flex-end, center, baseline, stretch */
+     -moz-align-items: center;
+      -ms-align-items: center;
+       -o-align-items: center;
+          align-items: center; 
+}
+
+.container div {
+  -webkit-flex: 1;
+     -moz-flex: 1;
+      -ms-flex: 1;
+       -o-flex: 1;
+          flex: 1;
+ 
+    width: 100px;
+    height: auto;        /* let this be set to see how the items respond to 'align-items: stretch' */
+    margin: 0px;
+    font-family: Bitter;
+    font-size: 24px;
+}
+
+.container .third-item {
+  height: 110px;         /* disable this to see how the item responds to 'align-items: stretch' */
+  background: #CC3333;
+  font-size: 14px;       /* over-loading the font size so this item will respond to 'align-items: baseline' */  
+}
+
+.container .second-item {
+  height: 140px;         /* disable this to see how the item responds to 'align-items: stretch' */
+  background: #FFFC33;
+}
+
+.container .first-item {
+  height: 160px;        /* disable this to see how the item responds to 'align-items: stretch' */
+  background: #3333FF;
+}
+|LiveURL=http://code.webplatform.org/gist/5533982
 }}
 }}
 {{Notes_Section}}
