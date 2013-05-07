@@ -15,14 +15,14 @@
 |CSS object model property=border
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<border-width> <border-style> <color>
-|Description=The <tt>border</tt> property is a shorthand property for setting the same width, color, and style for all four borders of a box.
-* Width - Any of the range of width values available to the [[css/properties/border-width|'''border-width''']] property. Default value is <tt>medium</tt>.
-* Style - Any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. Default value is <tt>none</tt>.
-* Color - Any of the range of color values available to the [[css/properties/border-color|'''border-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
+|Data Type=border-width border-style color
+|Description=The <code>border</code> property can contain up to three components:
+* <code>border-width</code>: This takes a numeric value with any of the standard length units.
+* <code>border-style</code>: This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property, which includes <code>none</code>, <code>hidden</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/border-style|'''border-style''']] page.
+* <code>color</code>: This can take any valid CSS color as its value.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=When we set the value to <tt>inherit</tt>, the element will use border values set on its parent
+|Description=When we set the value to <code>inherit</code>, the element will inherit the border values set on its parent.
 }}
 }}
 {{Examples_Section
