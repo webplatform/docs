@@ -35,7 +35,6 @@
 &lt;div class="three"&gt;&lt;p&gt;Three&lt;/p&gt;&lt;/div&gt;
 &lt;div class="four"&gt;&lt;p&gt;Four&lt;/p&gt;&lt;/div&gt;
 &lt;div class="five"&gt;&lt;p&gt;Five&lt;/p&gt;&lt;/div&gt;
-
 |LiveURL=http://code.webplatform.org/gist/5534182
 }}{{Single Example
 |Language=CSS
@@ -85,12 +84,8 @@ p {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''border''' property is a shorthand property that sets the '''width''', '''style''', and '''color''' values for all four sides of an object. All individual border properties, that are not set by the composite border property are set to their default values. 
-
-The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
-
-By setting '''border''', all other border properties are set to their default values; e.g. the value of [[css/properties/border-image|'''border-image''']]  is reset to default value <tt>none</tt>.
+|Usage=* It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propeties, such as <code>border-width</code> or <code>border-top-color</code>.
+* A common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
 }}
 {{Related_Specifications_Section
 |Specifications=
