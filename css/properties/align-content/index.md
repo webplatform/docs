@@ -84,6 +84,20 @@
   background: #3333FF;
 }
 |LiveURL=http://code.webplatform.org/gist/5536244
+}}{{Single Example
+|Language=HTML
+|Code=<div class="container">
+ <div class="second-item"></div>
+ <div class="third-item"></div>
+ <div class="first-item"></div>
+ <div class="first-item"></div>
+ <div class="second-item"></div>
+ <div class="third-item"></div>
+ <div class="third-item"></div>
+ <div class="first-item"></div>
+ <div class="second-item"></div>
+</div>
+|LiveURL=http://code.webplatform.org/gist/5536244
 }}
 }}
 {{Notes_Section
