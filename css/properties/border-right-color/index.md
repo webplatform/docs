@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -44,6 +45,73 @@ This example uses a call to an embedded (global) style sheet to change the color
 |Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
     this.style.borderRightColor{{=}}'blue';"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderRightColor.htm
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the use of <code>border-right-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
+|Code=.named-value {
+  border-right-color: red;
+}
+
+.hex-value {
+  border-right-color: #FD6C02;
+}
+
+.rgb-value {
+  border-right-color: rgb(255, 255, 0);
+}
+
+.rgb-percentage-value {
+  border-right-color: rgb(0%, 100%, 0%);
+}
+
+.hsl-value {
+  border-right-color: hsl(240, 100%, 50%);
+}
+
+.rgba-value {
+  border-right-color: rgba(75, 0, 130, 0.8);
+}
+
+.hsla-value {
+  border-right-color: hsla(282, 100%, 41%, 0.8);
+}
+|LiveURL=http://dabblet.com/gist/5530809
+}}{{Single Example
+|Language=HTML
+|Code=&lt;div class="box named-value"&gt;
+  &lt;h1&gt;Named color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;red&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box hex-value"&gt;
+  &lt;h1&gt;Hexadecimal color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;#FD6C02&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box rgb-value"&gt;
+  &lt;h1&gt;RGB color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgb(255, 255, 0)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box rgb-percentage-value"&gt;
+  &lt;h1&gt;RGB percentage color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgb(0%, 100%, 0%)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box hsl-value"&gt;
+  &lt;h1&gt;HSL color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;hsl(240, 100%, 50%)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box rgba-value"&gt;
+  &lt;h1&gt;RGB with alpha color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgba(75, 0, 130, 0.8)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="box hsla-value"&gt;
+  &lt;h1&gt;HSL with alpha color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;hsla(282, 100%, 41%, 0.8)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
 }}
 }}
 {{Notes_Section
