@@ -6,11 +6,11 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']], or a subset of these. Note that as well as defining properties for all four sides of an element's border at once, you can also target borders on specific sides individually — for example [[css/properties/border-top|'''border-top''']] and [[css/properties/border-right|'''border-right''']] — or even specific properties of individual borders — for example [[css/properties/border-top-color|'''border-top-color''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
 {{CSS Property
-|Initial value=*
+|Initial value=For <code>style</code> values, the initial value is <code>none</code>. For <code>color</code> values, the initial value is <code>currentColor</code>.  For <code>width</code> values, the initial value is <code>0</code>. 
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties
+|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.  
 |Animatable=No
 |CSS object model property=border
 |CSS percentages=N/A
