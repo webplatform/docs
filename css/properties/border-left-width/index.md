@@ -30,7 +30,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example demonstrates the <code>border-left-width</code> using the following example which sets the border width of that element to 0.8em..
+|Description=The following example sets the left border width of the <code>div</code> with a class of <code>box</code> to 0.8em.
 |Code=.box {
   /* A border needs to be specified in order for the border-left-width to take effect. */
   border: 6px solid #444;
