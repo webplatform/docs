@@ -33,33 +33,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Displaying children centered horizontally.
-|Code=.list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.list div {
-  flex: 1;
-}
-|LiveURL=http://code.webplatform.org/gist/4745348
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children centered vertically.
-|Code=.list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 100px;
-}
-
-.list div {
-  flex: 1;
-}
-|LiveURL=http://code.webplatform.org/gist/4745341
-}}{{Single Example
-|Language=CSS
 |Description=Alignment of flex items in a flex container. Change the values in the live example.
 |Code=.container {
   display: -webkit-flex;
@@ -109,6 +82,33 @@
   background: #3333FF;
 }
 |LiveURL=http://code.webplatform.org/gist/5533982
+}}{{Single Example
+|Language=CSS
+|Description=Displaying children centered horizontally.
+|Code=.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list div {
+  flex: 1;
+}
+|LiveURL=http://code.webplatform.org/gist/4745348
+}}{{Single Example
+|Language=CSS
+|Description=Displaying children centered vertically.
+|Code=.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
+
+.list div {
+  flex: 1;
+}
+|LiveURL=http://code.webplatform.org/gist/4745341
 }}
 }}
 {{Notes_Section}}
