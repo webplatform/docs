@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -49,6 +50,67 @@ This example uses a call to an embedded (global) style sheet to change the color
 |Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
     this.style.borderTopColor{{=}}'blue'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderTopColor.htm
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the use of <code>border-top-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation.
+|Code=.named-value {
+  border-top-color: red;
+}
+
+.hex-value {
+  border-top-color: #FD6C02;
+}
+
+.rgb-value {
+  border-top-color: rgb(255, 255, 0);
+}
+
+.rgb-percentage-value {
+  border-top-color: rgb(0%, 100%, 0%);
+}
+
+.hsl-value {
+  border-top-color: hsl(240, 100%, 50%);
+}
+
+.rgba-value {
+  border-top-color: rgba(75, 0, 130, 0.8);
+}
+
+.hsla-value {
+  border-top-color: hsla(282, 100%, 41%, 0.8);
+}
+
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+ 
+.box {
+  border: 5px solid #efefef;
+  
+  /* Extra styling for decoration! */
+  font: bold 0.8em sans-serif;
+  color: #444;
+  text-shadow: 0 1px #dedede;
+  width: 100px;
+  height: 100px;
+  margin: 50px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+}
+|LiveURL=http://dabblet.com/gist/5530689
+}}{{Single Example
+|Language=HTML
+|Code=<div class="box named-value">Named color value</div>
+<div class="box hex-value">Hexadecimal color value</div>
+<div class="box rgb-value">RGB color value</div>
+<div class="box rgb-percentage-value">RGB percentage color value</div>
+<div class="box hsl-value">HSL color value</div>
+<div class="box rgba-value">RGB with alpha color value</div>
+<div class="box hsla-value">HSL with alpha color value</div>
 }}
 }}
 {{Notes_Section
