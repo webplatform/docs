@@ -52,8 +52,12 @@ This example uses a call to an embedded (global) style sheet to change the color
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderTopColor.htm
 }}{{Single Example
 |Language=CSS
-|Description=The following example demonstrates the use of <code>border-top-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation.
-|Code=.named-value {
+|Description=The following example demonstrates the use of <code>border-top-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
+|Code=.box {
+  border: 5px solid #efefef;
+}
+
+.named-value {
   border-top-color: red;
 }
 
@@ -80,37 +84,37 @@ This example uses a call to an embedded (global) style sheet to change the color
 .hsla-value {
   border-top-color: hsla(282, 100%, 41%, 0.8);
 }
-
-body {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.box {
-  border: 5px solid #efefef;
-  
-  /* Extra styling for decoration. */
-  font: bold 0.8em sans-serif;
-  color: #444;
-  text-shadow: 0 1px #dedede;
-  width: 100px;
-  height: 100px;
-  margin: 50px 10px;
-  padding: 10px;
-  border-radius: 20px;
-  text-align: center;
-  float: left;
-}
 |LiveURL=http://dabblet.com/gist/5530689
 }}{{Single Example
 |Language=HTML
-|Code=&lt;div class="box named-value"&gt;Named color value&lt;/div&gt;
-&lt;div class="box hex-value"&gt;Hexadecimal color value&lt;/div&gt;
-&lt;div class="box rgb-value"&gt;RGB color value&lt;/div&gt;
-&lt;div class="box rgb-percentage-value"&gt;RGB percentage color value&lt;/div&gt;
-&lt;div class="box hsl-value"&gt;HSL color value&lt;/div&gt;
-&lt;div class="box rgba-value"&gt;RGB with alpha color value&lt;/div&gt;
-&lt;div class="box hsla-value"&gt;HSL with alpha color value&lt;/div&gt;
+|Code=&lt;div class="box named-value"&gt;
+  &lt;h1&gt;Named color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;red&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box hex-value"&gt;
+  &lt;h1&gt;Hexadecimal color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;#FD6C02&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box rgb-value"&gt;
+  &lt;h1&gt;RGB color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgb(255, 255, 0)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box rgb-percentage-value"&gt;
+  &lt;h1&gt;RGB percentage color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgb(0%, 100%, 0%)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box hsl-value"&gt;
+  &lt;h1&gt;HSL color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;hsl(240, 100%, 50%)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box rgba-value"&gt;
+  &lt;h1&gt;RGB with alpha color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;rgba(75, 0, 130, 0.8)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="box hsla-value"&gt;
+  &lt;h1&gt;HSL with alpha color&lt;/h1&gt;
+  &lt;p&gt;&lt;code&gt;hsla(282, 100%, 41%, 0.8)&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
 }}
 }}
 {{Notes_Section
