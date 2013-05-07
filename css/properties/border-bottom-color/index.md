@@ -127,11 +127,18 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 <code>'''border-bottom-color: '''''
 &lt;color&gt;
 ''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 8.5.2
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3, 4.1. Line Colors: the ‘border-color’ properties
+|URL=http://www.w3.org/TR/css3-background/#the-border-color
+|Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 8 Box model
+|URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
