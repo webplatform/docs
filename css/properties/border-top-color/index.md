@@ -26,6 +26,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following examples use the '''border-top-color''' attribute and the '''border-top-color''' property to specify the color of the top border.
 
 This example uses a call to an embedded (global) style sheet to change the color of the top border to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
@@ -46,6 +47,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 &lt;/TABLE&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-top-color.htm
 }}{{Single Example
+|Language=HTML
 |Description=This example uses inline scripting to change the color of the top border to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 |Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
     this.style.borderTopColor{{=}}'blue'"&gt;
@@ -91,26 +93,32 @@ This example uses a call to an embedded (global) style sheet to change the color
   &lt;h1&gt;Named color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;red&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box hex-value"&gt;
   &lt;h1&gt;Hexadecimal color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;#FD6C02&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box rgb-value"&gt;
   &lt;h1&gt;RGB color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;rgb(255, 255, 0)&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box rgb-percentage-value"&gt;
   &lt;h1&gt;RGB percentage color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;rgb(0%, 100%, 0%)&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box hsl-value"&gt;
   &lt;h1&gt;HSL color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;hsl(240, 100%, 50%)&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box rgba-value"&gt;
   &lt;h1&gt;RGB with alpha color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;rgba(75, 0, 130, 0.8)&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;div class="box hsla-value"&gt;
   &lt;h1&gt;HSL with alpha color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;hsla(282, 100%, 41%, 0.8)&lt;/code&gt;&lt;/p&gt;
