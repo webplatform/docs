@@ -28,6 +28,15 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-top</code> properties applied to them.
+|Code=<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+|LiveURL=http://code.webplatform.org/gist/5534715
+}}{{Single Example
 |Language=CSS
 |Code=/**
  * border-top example
@@ -75,16 +84,6 @@ p {
   border-top: 10px inset rgba(234,190,50,0.75);
 }
 |LiveURL=http://code.webplatform.org/gist/5534715
-}}{{Single Example
-|Language=HTML
-|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-top</code> properties applied to them.
-|Code=<div class="one"><p>One</p></div>
-<div class="two"><p>Two</p></div>
-<div class="three"><p>Three</p></div>
-<div class="four"><p>Four</p></div>
-<div class="five"><p>Five</p></div>
-
-|LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
 {{Notes_Section
@@ -113,8 +112,7 @@ p {
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530739(v=vs.85).aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
