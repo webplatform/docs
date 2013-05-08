@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's top border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the top border — [[css/properties/border-top-width|'''border-top-width''']], [[css/properties/border-top-style|'''border-top-style''']] and [[css/properties/border-top-color|'''border-top-color''']].}}
 {{CSS Property
@@ -83,8 +83,6 @@ p {
   border: 1px inset black;
   border-top: 10px inset rgba(234,190,50,0.75);
 }
-
-
 |LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
