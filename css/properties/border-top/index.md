@@ -11,7 +11,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=borderTop
 |CSS percentages=N/A
 |Values={{CSS Property Value
