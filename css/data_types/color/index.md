@@ -1,5 +1,7 @@
 {{Page_Title|Color units}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Specify color and opacity}}
 {{Concept_Page
@@ -21,8 +23,6 @@ The following variations on the above allow you to incorporate an
 * An '''hsla()''' function specifies hue, saturation, and luminance as described above, but with an additional ''alpha'' channel. For example, '''hsla(0%,100%,50%,0.5)''' specifies the same semi-transparent red as the '''rgba()''' example above.
 
 The recently introduced '''transparent''' color name specifies a full transparency.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -51,7 +51,10 @@ The recently introduced '''transparent''' color name specifies a full transparen
 |Status=Candidate Recommendation
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=* [[tutorials/setting_color_in_css Setting color in CSS]]
+* [[css/color color]]
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
