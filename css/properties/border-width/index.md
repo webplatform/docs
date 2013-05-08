@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the width of an element's four borders. This property can have from one to four values. This is a shorthand property for setting values simultaneously for [[css/properties/border-top-width{{|}}css/properties/border-top-width]], [[css/properties/border-right-width{{|}}css/properties/border-right-width]], [[css/properties/border-bottom-width{{|}}css/properties/border-bottom-width]], and [[css/properties/border-left-width{{|}}css/properties/border-left-width]].}}
+{{Summary_Section|Sets the width of an element's four borders. This property can have from one to four values. This is a shorthand property for setting values simultaneously for [[css/properties/border-top-width|border-top-width]], [[css/properties/border-right-width|border-right-width]], [[css/properties/border-bottom-width|border-bottom-width]], and [[css/properties/border-left-width|border-left-width]].}}
 {{CSS Property
 |Initial value=<code>medium</code> for all 4 values
 |Applies to=All elements
