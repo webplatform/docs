@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=Yes
+|CSS object model property=flexGrow
 |Values={{CSS Property Value
 |Data Type=number
 |Description=The flex grow factor, which describes the proportion by which the flex item will grow relative to the other flex items in the container. Negative numbers are invalid.
