@@ -8,7 +8,7 @@
 
 	<div class="inner">
 	    <h3>[[PointerEvents/learn|Learn]]</h3>
-            <p>Learn how easy it is to code for Pointer Events, including tips on migrating existing code, tutorials, videos, and code samples.</p>
+            <p>Learn how easy it is to code with Pointer Events, including tips on migrating existing code, tutorials, videos, and code samples.</p>
 	</div>
     </div>
 
