@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|border-right}}
 {{Flags
 |Checked_Out=No
 }}
@@ -83,8 +83,6 @@ p {
   border: 1px inset black;
   border-right: 10px inset rgba(234,190,50,0.75);
 }
-
-
 |LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
