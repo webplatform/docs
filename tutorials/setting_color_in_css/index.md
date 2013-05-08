@@ -1,7 +1,9 @@
 {{Page_Title|Setting color in CSS}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
-{{Summary_Section|This article explains in detail the different ways you can specify color in CSS.}}
+{{Summary_Section|This article explains in detail the different ways you can specify [[css/units/color|color]] in CSS.}}
 {{Tutorial
 |Content=== Information: Color ==
  
@@ -217,13 +219,16 @@ strong {
 
 <p class="note">Need to add screenshot of the result?</p>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=* [[css/units/color|color]]
 |Manual_sections====Exercise question===
  
 In your CSS file, change all the color names to 3-digit color codes without affecting the result (this cannot be done exactly, but you can get close. To do it exactly you need 6-digit codes, and you need to look up the CSS Specification or use a graphics tool to match the colors.)
