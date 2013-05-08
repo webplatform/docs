@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|border-top}}
 {{Flags
 |Checked_Out=No
 }}
@@ -50,7 +50,7 @@ div {
 }
 
 p {
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
 .one {
@@ -78,11 +78,13 @@ p {
 
 .five {
   /* A more interesting border example to round things off,
-     showing a basic border being set, and then the top
+     showing a basic border being set, and then the right
      border being overridden */
-  border: 1px solid black;
+  border: 1px inset black;
   border-top: 10px inset rgba(234,190,50,0.75);
 }
+
+
 |LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
