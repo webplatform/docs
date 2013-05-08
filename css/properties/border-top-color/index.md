@@ -1,17 +1,21 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the color of an element's top border.}}
+{{Summary_Section|Sets the color of an element's top border. 
+
+Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
+}}
 {{CSS Property
+|Initial value=The value of the 'color' property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
 |Description=One of the color names or RGB values in the Color Table.
@@ -126,11 +130,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
-|Import_Notes====Syntax===
-<code>'''border-top-color: ''''''[''' ''
+|Usage=<code>'''border-top-color: ''''''[''' ''
 &lt;color&gt;
 '' '''{{!}}''' transparent ''']''''''
 {1,4}
@@ -152,12 +152,15 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Microsoft Internet Explorer
+|Version=5.5
+|Note=This property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+}}{{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_sections=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
