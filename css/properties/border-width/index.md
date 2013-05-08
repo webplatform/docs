@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
