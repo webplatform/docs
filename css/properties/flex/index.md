@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=See individual properties
 |Animatable=Yes
+|CSS object model property=flex
 |Values={{CSS Property Value
 |Data Type=<[[css/properties/flex-grow|flex-grow]]> <[[css/properties/flex-shrink|flex-shrink]]> <[[css/properties/flex-basis|flex-basis]]>
 |Description=The shorthand value of this property includes the following values:
