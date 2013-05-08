@@ -44,13 +44,13 @@
 
 div {
   width: 150px;
-  height: 150px;
+  height: 50px;
   margin: 1rem;
   float: left;
 }
 
 p {
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .one {
