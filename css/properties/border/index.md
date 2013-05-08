@@ -85,6 +85,7 @@ p {
 }}
 {{Notes_Section
 |Usage=* It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propeties, such as <code>border-width</code> or <code>border-top-color</code>.
+* individual border properties such as <code>border-bottom</code> can be used as a divider between horizontally or vertically laid out items, such as a navigation menu items, or table cells.
 * A common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
 }}
 {{Related_Specifications_Section
