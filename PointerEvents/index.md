@@ -45,7 +45,7 @@
 	<div class="image icon-dom"></div>
 	<div class="inner">
 	    <h3>[[PointerEvents/experimental|Experimental]]</h3>
-            <p>Try out Pointer Event experimental and prototype code on different browser platforms.  Note: not all code works with all test/demo features.  We will continue to update these over time.</p>
+            <p>Try out Pointer Event experimental and prototype code on different browser platforms.  Note: not all code works with all test/demo features.</p>
 	</div>
     </div>
 
