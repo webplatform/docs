@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -12,7 +11,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=absolute length; ‘0’ if the border style is 'none' or 'hidden' 
+|Computed value=absolute length; ‘0’ if the border style is 'none' or 'hidden'
 |Animatable=No
 |CSS object model property=borderTopWidth
 |CSS percentages=N/A
@@ -59,8 +58,7 @@ This example uses a call to an embedded (global) style sheet to change the width
 }}
 }}
 {{Notes_Section
-|Notes=
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+|Notes=As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
