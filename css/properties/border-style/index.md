@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the style of an element's four borders. This property can have from one to four values.}}
+{{Summary_Section|Sets the style of an element's four borders. This property can have from one to four values. With only one value, the value will be applied to all four borders; otherwise, this works as a shorthand property for each of [[css/properties/border-top-style]], [[css/properties/border-right-style|border-right-style]], [[css/properties/border-bottom-style|border-bottom-style]], [[css/properties/border-left-style|border-left-style]], where each border style may be assigned a separate value. }}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -44,6 +45,9 @@
 }}{{CSS Property Value
 |Data Type=outset
 |Description=3-D outset is drawn in colors based on the value.
+}}{{CSS Property Value
+|Data Type=<border-style-top> <border-style-right> <border-style-bottom> <border-style-left>
+|Description=Shorthand values syntax.
 }}
 }}
 {{Examples_Section
