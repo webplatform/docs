@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -62,8 +63,11 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Flexbox
+|External_links=Also, check out the following live demo sites:
+* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
+* [http://the-echoplex.net/flexyboxes Flexy Boxes]
 }}
-{{Topics|CSS}}
+{{Topics|Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
