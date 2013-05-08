@@ -88,6 +88,7 @@ p {
 }}
 {{Notes_Section
 |Usage=* It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propeties, such as <code>border-width</code> or <code>border-top-color</code>.
+* <code>border-top</code> can be used as a divider between vertical items, such as a vertical navigation menu, or table cells.
 }}
 {{Related_Specifications_Section
 |Specifications=
