@@ -9,7 +9,7 @@
 Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 }}
 {{CSS Property
-|Initial value=The value of the 'color' property
+|Initial value=color - The value of the 'color' property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
