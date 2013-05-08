@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
 {{CSS Property
