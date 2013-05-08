@@ -35,25 +35,57 @@
 <div class="three"><p>Three</p></div>
 <div class="four"><p>Four</p></div>
 <div class="five"><p>Five</p></div>
+|LiveURL=http://code.webplatform.org/gist/5534715
 }}{{Single Example
 |Language=CSS
-|Code=/* When we don't set border-right-color, color of a text is used as a default */
+|Code=/**
+ * border-right example
+**/
+
+div {
+  width: 150px;
+  height: 50px;
+  margin: 1rem;
+  float: left;
+}
+
+p {
+  padding: 0.25rem;
+}
+
 .one {
-  color: #6CC644;
-  border-right: medium solid;
+  /* The most basic border-top example you can show. */ 
+  border-right: 1px solid black;
 }
 
-/* When we don't set border-right-style, default style <none> will be used - therefore 
-no border will be rendered */
 .two {
-  border-right: 1px red;
+  /* If you don't explicitly set a color, currentColor is used, which
+     equates to the text colour of the element, in this case black.   */
+  border-right: 4px dashed;
 }
 
-/* Other border-right style example */
 .three {
-  border-right: dotted 2px red;
+  /* When no width is specified, the default width medium is used,
+     which computes to about 3px in most browsers */
+  border-right: dotted red;
 }
-|LiveURL=http://kamila-wosinek.github.com/border-right/
+
+.four {
+  /* When no border style is specified, the border won't appear,
+     as the default border style is none. */
+  border-right: 10px black;
+}
+
+.five {
+  /* A more interesting border example to round things off,
+     showing a basic border being set, and then the right
+     border being overridden */
+  border: 1px inset black;
+  border-right: 10px inset rgba(234,190,50,0.75);
+}
+
+
+|LiveURL=http://code.webplatform.org/gist/5534715
 }}
 }}
 {{Notes_Section
