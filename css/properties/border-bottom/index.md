@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — [[css/properties/border-bottom-width|'''border-bottom-width''']], [[css/properties/border-bottom-style|'''border-bottom-style''']] and [[css/properties/border-bottom-color|'''border-bottom-color''']].}}
 {{CSS Property
@@ -29,23 +29,62 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* When we don't set border-bottom-color, color of a text is used as a default */
+|Code=/**
+ * border-bottom example
+**/
+
+div {
+  width: 150px;
+  height: 50px;
+  margin: 1rem;
+  float: left;
+}
+
+p {
+  padding: 0.25rem;
+}
+
 .one {
-  color: #6CC644;
-  border-bottom: medium solid;
+  /* The most basic border-bottom example you can show. */ 
+  border-bottom: 1px solid black;
 }
 
-/* When we don't set border-bottom-style, default style <none> will be used - therefore 
-no border will be rendered */
 .two {
-  border-bottom: 1px red;
+  /* If you don't explicitly set a color, currentColor is used, which
+     equates to the text colour of the element, in this case black.   */
+  border-bottom: 4px dashed;
 }
 
-/* Other border-bottom style example */
 .three {
-  border-bottom: dotted 2px red;
+  /* When no width is specified, the default width medium is used,
+     which computes to about 3px in most browsers */
+  border-bottom: dotted red;
 }
-|LiveURL=http://kamila-wosinek.github.com/border-bottom/
+
+.four {
+  /* When no border style is specified, the border won't appear,
+     as the default border style is none. */
+  border-bottom: 10px black;
+}
+
+.five {
+  /* A more interesting border example to round things off,
+     showing a basic border being set, and then the bottom
+     border being overridden */
+  border: 1px inset black;
+  border-bottom: 10px inset rgba(234,190,50,0.75);
+}
+|LiveURL=http://code.webplatform.org/gist/5539585
+}}{{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-bottom</code> properties applied to them.
+|Code=<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+
+|LiveURL=http://code.webplatform.org/gist/5539585
 }}
 }}
 {{Notes_Section
