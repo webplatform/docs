@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|The text-overflow-mode CSS property controls the presence and position of the hint on overflowed content that is not displayed is signaled to the users. The constitution of the hint is controlled with CSS property [[css/properties/text-overflow-ellipsis|text-overflow-ellipsis]]. Shorthand property is [[css/properties/text-overflow|text-overflow]].}}
 {{CSS Property
