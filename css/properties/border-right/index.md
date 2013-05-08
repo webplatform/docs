@@ -1,27 +1,41 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that sets the properties of an element's right border.It can be used to set one or more values (of those: [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']], [[css/properties/border-right-color|'''border-right-color''']]).}}
+{{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
 {{CSS Property
+|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties
+|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 |Animatable=No
 |CSS object model property=borderRight
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<border-width> <border-style> <color>
-|Description=The <tt>border-right</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: right.
-* '''Width''' - Any of the range of width values available to the [[css/properties/border-right-width|'''border-right-width''']] property. It's optional. Default value is <tt>medium</tt>.
-* '''Style''' - Any of the range of style values available to the [[css/properties/border-right-style|'''border-right-style''']] property. Default value is <tt>none</tt>.
-* '''Color''' - Any of the range of color values available to the [[css/properties/border-right-color|'''border-right-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
+|Data Type=border-width border-style color
+|Description=The <code>border-right</code> property can contain up to three components:
+* <code>border-width</code>: This takes a numeric value with any of the standard length units.
+* <code>border-style</code>: This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property, which includes <code>none</code>, <code>hidden</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/border-style|'''border-style''']] page.
+* <code>color</code>: This can take any valid CSS color as its value.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=When we set the value to <code>inherit</code>, the element will inherit the border values set on its parent.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-right</code> properties applied to them.
+|Code=<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+}}{{Single Example
 |Language=CSS
 |Code=/* When we don't set border-right-color, color of a text is used as a default */
 .one {
@@ -43,13 +57,8 @@ no border will be rendered */
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''border-right''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for the right border of an object.
-All individual border properties not set by the composite '''border-right''' property are set to their default values. 
-
-The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.19
+|Usage=* It is usual to use the <code>border-right</code> property to set the default state of a box's right border, and then override individual values using more specific propeties, such as <code>border-right-width</code> or <code>border-right-color</code>.
+* <code>border-right</code> can be used as a divider between horizontally laid out items, such as a horizontal navigation menu, or table cells.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -77,8 +86,7 @@ The default value for the [[css/properties/border-color|'''border-color''']] is 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-right
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
