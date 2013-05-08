@@ -28,30 +28,67 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-left</code> properties applied to them.
+|Code=<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+|LiveURL=http://code.webplatform.org/gist/5539642
+}}{{Single Example
 |Language=CSS
-|Code=/* When we don't set border-left-color, color of a text is used as a default */
+|Code=/**
+ * border-left example
+**/
+
+div {
+  width: 150px;
+  height: 50px;
+  margin: 1rem;
+  float: left;
+}
+
+p {
+  padding: 0.25rem;
+}
+
 .one {
-  color: #6CC644;
-  border-left: medium solid;
+  /* The most basic border-left example you can show. */ 
+  border-left: 1px solid black;
 }
 
-/* When we don't set border-left-style, default style <none> will be used - therefore 
-no border will be rendered */
 .two {
-  border-left: 1px red;
+  /* If you don't explicitly set a color, currentColor is used, which
+     equates to the text colour of the element, in this case black.   */
+  border-left: 4px dashed;
 }
 
-/* Other border-left style example */
 .three {
-  border-left: dotted 2px red;
+  /* When no width is specified, the default width medium is used,
+     which computes to about 3px in most browsers */
+  border-left: dotted red;
 }
-|LiveURL=http://kamila-wosinek.github.com/border-left/
+
+.four {
+  /* When no border style is specified, the border won't appear,
+     as the default border style is none. */
+  border-left: 10px black;
+}
+
+.five {
+  /* A more interesting border example to round things off,
+     showing a basic border being set, and then the left
+     border being overridden */
+  border: 1px inset black;
+  border-left: 10px inset rgba(234,190,50,0.75);
+}
+|LiveURL=http://code.webplatform.org/gist/5539642
 }}
 }}
 {{Notes_Section
 |Usage=* It is usual to use the <code>border-left</code> property to set the default state of a box's left border, and then override individual values using more specific properties, such as <code>border-left-width</code> or <code>border-left-color</code>.
 * <code>border-left</code> can be used as a divider between horizontally laid out items, such as horizontal navigation menu items, or table cells.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
