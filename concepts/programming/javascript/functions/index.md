@@ -1,6 +1,9 @@
 {{Page_Title|Functions}}
 {{Flags
+|High-level issues=Undescriptive Title
+|Content=Incomplete
 |Checked_Out=No
+|Editorial notes=It is not clear whether this article describes functions as a language construct in JS (as suggested by the beginning of the article) or if it is meant to be a reference (suggested by the parts at the end)
 }}
 {{Byline}}
 {{Summary_Section|Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.}}
