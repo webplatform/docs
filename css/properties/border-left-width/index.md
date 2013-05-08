@@ -1,17 +1,20 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS border-left-width property sets the width of an element's left border.}}
+{{Summary_Section|Sets the width of an element's left border.}}
 {{CSS Property
+|Initial value=medium
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=absolute length; 0 if the border style is 'none' or 'hidden'
 |Animatable=No
+|CSS object model property=borderLeftWidth
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=medium
 |Description=Default.  
@@ -22,7 +25,7 @@
 |Data Type=thick
 |Description=Greater than the default width.
 }}{{CSS Property Value
-|Data Type=width
+|Data Type=<width>
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
 }}
 }}
@@ -42,15 +45,15 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Notes=
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-left-width: '''thin '''{{!}}''' thick '''{{!}}''' medium '''{{!}}''' width</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.14
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-border-width
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
