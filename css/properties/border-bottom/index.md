@@ -1,22 +1,28 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|border-bottom}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that sets the properties of an element's bottom border.It can be used to set one or more values (of those: [[css/properties/border-bottom-width|'''border-bottom-width''']], [[css/properties/border-bottom-style|'''border-bottom-style''']], [[css/properties/border-bottom-color|'''border-bottom-color''']]).}}
+{{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — [[css/properties/border-bottom-width|'''border-bottom-width''']], [[css/properties/border-bottom-style|'''border-bottom-style''']] and [[css/properties/border-bottom-color|'''border-bottom-color''']].}}
 {{CSS Property
+|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties
-|Animatable=No
+|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
+|Animatable=Yes
 |CSS object model property=borderBottom
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<border-width> <border-style> <color>
-|Description=The <tt>border-bottom</tt> property is a shorthand property for setting the same width, color, and style for only one border of a box: bottom.
-* '''Width''' - Any of the range of width values available to the [[css/properties/border-bottom-width|'''border-bottom-width''']] property. It's optional. Default value is <tt>medium</tt>.
-* '''Style''' - Any of the range of style values available to the [[css/properties/border-bottom-style|'''border-bottom-style''']] property. Default value is <tt>none</tt>.
-* '''Color''' - Any of the range of color values available to the [[css/properties/border-bottom-color|'''border-bottom-color''']] property. Default value is the value of the element's [[css/properties/color|'''color''']] property - i.e. text color.
+|Data Type=border-width border-style color
+|Description=The <code>border-bottom</code> property can contain up to three components:
+* <code>border-width</code>: This takes a numeric value with any of the standard length units.
+* <code>border-style</code>: This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property, which includes <code>none</code>, <code>hidden</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/border-style|'''border-style''']] page.
+* <code>color</code>: This can take any valid CSS color as its value.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=When we set the value to <code>inherit</code>, the element will inherit the border values set on its parent.
 }}
 }}
 {{Examples_Section
@@ -43,13 +49,8 @@ no border will be rendered */
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''border-bottom''' property is a composite property that sets the '''width''', '''style''', and '''color''' values for the bottom border of an object.
-All individual border properties not set by the composite '''border-bottom''' property are set to their default values. 
-
-The default value for the [[css/properties/border-color|'''border-color''']] is the same as the text color, for [[css/properties/border-width|'''border-width''']] is <tt>medium</tt> and for [[css/properties/border-style|'''border-style''']] is <tt>none</tt>. Therefor you must specify a style when specifying a width or color; otherwise, the border will be invisible.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.20
+|Usage=* It is usual to use the <code>border-bottom</code> property to set the default state of a box's bottom border, and then override individual values using more specific propeties, such as <code>border-bottom-width</code> or <code>border-bottom-color</code>.
+* <code>border-bottom</code> can be used as a divider between vertically laid out items, such as a vertical navigation menu, or table cells.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -128,8 +129,7 @@ The default value for the [[css/properties/border-color|'''border-color''']] is 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms530724(v=vs.85).aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
