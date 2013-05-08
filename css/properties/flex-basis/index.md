@@ -13,13 +13,14 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=Yes
+|CSS object model property=flexBasis
 |CSS percentages=relative to the main size of the flex container
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property. Note that the value of the [[css/properties/width|width]] or [[css/properties/height|height]] property itself may be '''auto''', in which case the size is determined by the flex item's contents.
 }}{{CSS Property Value
 |Data Type=width
-|Description=In a horizontal writing mode; percentage values of '''flex-basis''' are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined. 
+|Description=In a horizontal writing mode; percentage values of '''flex-basis''' are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
 }}{{CSS Property Value
 |Data Type=height
 |Description=In a vertical writing mode; percentage values of '''flex-basis''' are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
