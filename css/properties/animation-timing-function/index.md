@@ -15,7 +15,6 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=animationTimingFunction
-|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=ease
 |Description=Default. Starts and stops gradually. 
