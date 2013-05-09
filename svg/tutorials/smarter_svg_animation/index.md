@@ -320,31 +320,31 @@ animation proceeds at that point:
 <div style="display:inline-block;max-width:170px">
  0.42 0 1 1
  ease-in
-[[Image:transitF_easein.png]]
+[[Image:transitF_easein.png|230px]]
 </div>
 
 <div style="display:inline-block;max-width:170px">
  0 0 0.58 1
  ease-out
-[[Image:transitF_easeout.png]]
+[[Image:transitF_easeout.png|230px]]
 </div>
 
 <div style="display:inline-block;max-width:170px">
  0.25 0.1 0.25 1
  ease
-[[Image:transitF_ease.png]]
+[[Image:transitF_ease.png|230px]]
 </div>
 
 <div style="display:inline-block;max-width:170px">
  0.42 0 0.58 1
  ease-in-out
-[[Image:transitF_easeinout.png]]
+[[Image:transitF_easeinout.png|230px]]
 </div>
 
 <div style="display:inline-block;max-width:170px">
  0 0 1 1
  linear
-[[Image:transitF_linear.png]]
+[[Image:transitF_linear.png|230px]]
 </div>
 
 These examples compare common
