@@ -139,7 +139,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 The color value can also be a numerical value, such as one of the following:
 
 * a basic color keyword, such as "red"
-* a numerical value, such as #ff0000
+* a hex value, such as #ff0000
 * an red-green-blue (RGB) value, such as rgb(255,0,0)
 * an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
 * a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
