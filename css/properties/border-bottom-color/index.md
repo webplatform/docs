@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either [[css/properties/border-bottom|border-bottom]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-bottom-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
@@ -28,7 +28,7 @@
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 }}{{CSS Property Value
 |Data Type=color
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-bottom-color#Usage|Usage]].
 }}
 }}
 {{Examples_Section
