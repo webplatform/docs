@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=animationTimingFunction
+|CSS percentages=???
 |Values={{CSS Property Value
 |Data Type=ease
 |Description=Default. A timing function, based on a cubic-bezier curve, that gradually increases in speed at the start, animates at full speed,  and then gradually decreases in speed at the end. This function is equivalent to <code>cubic-bezier(0.25,0.1,0.25,1)</code>. [[Image:msTransition-ease-cubic.png]]
