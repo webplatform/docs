@@ -133,13 +133,18 @@ This example uses a call to an embedded (global) style sheet to change the color
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.
-As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>'''border-bottom-color: '''''
-&lt;color&gt;
-''</code>
+|Usage=The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
+
+The color value can also be a numerical value, such as one of the following:
+
+* a basic color keyword, such as "red"
+* a numerical value, such as #ff0000
+* an red-green-blue (RGB) value, such as rgb(255,0,0)
+* an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+* a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+* HSLa, such as hsl(0, 100%, 50%, 1)
+
+The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color|CSS Color Module Level 3 spec], which is the consolidation of various specifications.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
