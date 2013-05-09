@@ -147,8 +147,8 @@ This example uses a call to an embedded (global) style sheet to change the color
 |URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
 |Status=W3C Recommendation
 }}{{Related Specification
-|Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface, 
-|URL=#dom-cssstyledeclaration-bordertopcolor
+|Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface,
+|URL=http://www.w3.org/TR/cssom/#the-cssstyledeclaration-interface
 |Status=W3C Working Draft
 }}
 }}
