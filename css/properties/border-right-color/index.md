@@ -9,13 +9,26 @@
 [[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-top-color#Usage|Usage]].
 }}
 {{CSS Property
+|Initial value=color - The value of the 'color' property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
+|Animatable=Yes
+|CSS object model property=borderTopColor
+|CSS percentages=N/A
 |Values={{CSS Property Value
+|Data Type=inherit
+|Description=currentColor, the color value inherited from parent object.
+}}{{CSS Property Value
+|Data Type=currentColor
+|Description=The same as ‘color: inherit’, the color value inherited from parent object.
+}}{{CSS Property Value
+|Data Type=transparent
+|Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
+}}{{CSS Property Value
 |Data Type=color
-|Description=A '''Variant''' that specifies or receives one of the color names or RGB values in the Color Table.
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
 }}
 }}
 {{Examples_Section
