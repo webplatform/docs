@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The CSS border-color property sets the color of an element's four borders. This property can have from one to four values.}}
@@ -13,44 +15,43 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<color>
-|Description=Specified color is applied to all four edges
-}}{{CSS Property Value
-|Data Type=<horizontal> <vertical>
-|Description=When two colors are specified, they are applied to horizontal and vertical  borders respectively.
-}}{{CSS Property Value
-|Data Type=<top> <vertical> <bottom>
-|Description=When three colors are specified, they are applied to top, vertical and bottom borders respectively.
-}}{{CSS Property Value
-|Data Type=<top> <right> <bottom> <left>
-|Description=When four colors are specified, they are applied to top, right, bottom and left borders respectively.
+|Description=Specify the color to use on all borders. This can be anywhere from one to four values representing the top, right, bottom, and left border respectively.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Is a keyword indicating that all four values are inherited from their parent's element calculated value.
+}}{{CSS Property Value
+|Data Type=transparent
+|Description=This will apply a border that is not visible but it can have a width applied.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* When we don't set border-color, color of a text is used as a default */
-.one {
-  color: #6CC644;
-  border: medium solid;
-}
+|Code=.one {
+		  color: #6CC644;
+		  border: medium solid;
+		}
 
-/* You can use other color on each side */
-.two {
-  border: 10px solid;
-  border-color: #6CC644 #FFC621 #DE6525 #256A84;
-}
+		/* You can use other color on each side */
+		.two {
+		  border: 10px solid;
+		  border-color: #6CC644 #FFC621 #DE6525 #256A84;
+		}
 
-/* You can use other color for other styles */
-.three {
-  border-width: 5px;
-  border-style: ridge dashed solid;
-  border-color: #6CC644 #DE6525;
-}
-|LiveURL=http://kamila-wosinek.github.com/border-color/
+		/* You can use other color for other styles */
+		.three {
+		  border-width: 5px;
+		  border-style: ridge dashed solid;
+		  border-color: #6CC644 #DE6525;
+		}
+		
+		/* You can set horizontal and vertical using just two color values (horizontal is first then vertical) */
+		.four {
+			border-width: 3px;
+			border-style: solid;
+			border-color: #ccc #666;
+		}
 }}
 }}
 {{Notes_Section
