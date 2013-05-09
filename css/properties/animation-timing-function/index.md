@@ -31,17 +31,17 @@
 |Data Type=ease-in-out
 |Description=Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.42,0,0.58,1)''']].
 }}{{CSS Property Value
+|Data Type=[[css/functions/cubic-bezier|'''cubic-bezier()''']]
+|Description=Function value specifying a customized response curve.
+}}{{CSS Property Value
 |Data Type=[[css/functions/steps|'''steps()''']]
 |Description=Function value specifying a series of discrete intervals.
 }}{{CSS Property Value
 |Data Type=step-start
-|Description=The change takes place at the start of the keyframe, equivalent to [[css/functions/steps|'''steps(1, start)''']].
+|Description=The change occurs instantly at the start of the keyframe, equivalent to [[css/functions/steps|'''steps(1, start)''']].
 }}{{CSS Property Value
 |Data Type=step-end
-|Description=The change takes place at the end of the keyframe, equivalent to [[css/functions/steps|'''steps(1, end)''']].
-}}{{CSS Property Value
-|Data Type=[[css/functions/cubic-bezier|'''cubic-bezier()''']]
-|Description=Function value specifying a customized response curve.
+|Description=The change occurs instantly at the end of the keyframe, equivalent to [[css/functions/steps|'''steps(1, end)''']].
 }}
 }}
 {{Examples_Section
