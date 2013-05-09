@@ -57,12 +57,11 @@
 }}
 {{Notes_Section
 |Usage=* Up to four different widths can be specified, in the following order: top, right, bottom, left. 
-
 * If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C CSS Backgrounds and Borders Module Level
+|Name=W3C CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/#border-width
 |Status=Candidate Recommendation
 }}
