@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -27,41 +27,38 @@
 }}{{CSS Property Value
 |Data Type=<width>
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+}}{{CSS Property Value
+|Data Type=<border-top-width> <border-right-width> <border-bottom-width> <border-left-width>
+|Description=Shorthand syntax. See notes below.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-width''' attribute and the '''border-width''' property to specify the width of the border.
+|Language=CSS
+|Description=CSS border width values.
+|Code=.medium {
+  border-width: medium;
+}
 
-This example uses a call to an embedded (global) style sheet to change the width of the border to 1 centimeter when a mouse click occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-width:3mm }
-    .changeborder1 { border-width:1cm }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt; 
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onclick{{=}}"this.className{{=}}'changeborder1'"
-        ondblclick{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-width.htm
-}}{{Single Example
-|Description=This example uses inline script to change the width of the border to 1 centimeter when a mouse click occurs.
-|Code=&lt;TD onclick{{=}}"this.style.borderWidth{{=}}'1cm'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderWidth.htm
+.thin {
+  border-width: thin;
+}
+
+.thick {
+  border-width: thick;
+}
+
+.width {
+  border-style: 10px;
+}
+|LiveURL=http://code.webplatform.org/gist/5549718
 }}
 }}
 {{Notes_Section
-|Usage=Up to four different widths can be specified, in the following order: top, right, bottom, left. 
+|Usage=* Up to four different widths can be specified, in the following order: top, right, bottom, left. 
 
-If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively.
-|Notes=As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-The '''border-width''' property does not render if the [[css/properties/border-style|'''border-style''']] property is set to '''none'''.
+* If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
