@@ -52,8 +52,9 @@ The recently introduced '''transparent''' color name specifies a full transparen
 }}
 }}
 {{See_Also_Section
-|Manual_links=* [[tutorials/setting_color_in_css Setting color in CSS]]
-* [[css/color color]]
+|Manual_links=* [[tutorials/setting_color_in_css|Setting color in CSS]]
+* [[css/color|color]]
+* [[css/properties/color|color]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
