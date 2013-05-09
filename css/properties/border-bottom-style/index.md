@@ -53,7 +53,7 @@
 |Language=CSS
 |Description=Border styles in CSS.
 |Code=.one {
-  border-right-style: none;
+  border-bottom-style: none;
 }
 
 .two {
@@ -91,7 +91,7 @@
 .ten {
   border-bottom-style: inset;
 }
-|LiveURL=http://code.webplatform.org/gist/5549254
+|LiveURL=http://code.webplatform.org/gist/5549378
 }}
 }}
 {{Notes_Section
