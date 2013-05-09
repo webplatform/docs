@@ -4,9 +4,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the color of an element's top border. 
+{{Summary_Section|Sets the color of an element's top border. This page explains the border-top-color value, but it is often used as part of a shorthand set, either [[css/properties/border-top|border-top]] or [[css/properties/border-color|border-color]].
 
-Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
+[[css/units/color|Colors]] can be defined several ways. Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
