@@ -97,7 +97,7 @@
 }}{{Single Example
 |Language=HTML
 |Description=Browsers place an outline around the element that currently has focus.
-|Code=&lt;p&gt;Press the TAB key to navigate throught the links below and focus them.&lt;/p&gt;
+|Code=&lt;p&gt;Press the TAB key to navigate through the links below and focus them.&lt;/p&gt;
 &lt;a href=&quot;http://webplatform.org&quot;&gt;I &amp;#9829; WebPlatform.org!&lt;/p&gt;
 &lt;a class=&quot;two&quot; href=&quot;http://webplatform.org&quot;&gt;I &amp;hearts; WebPlatform.org!&lt;/p&gt;
 |LiveURL=http://code.webplatform.org/gist/5547072
