@@ -33,11 +33,17 @@
 '''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
 </div>
 
+For properties unrelated to opacity and color, the function accepts ''y'' coordinates outside the standard range between 0 and 1. This allows for "elastic" effects in which positions or dimensions may oscillate over the course of the progression.
 
-'''Note'''  For properties other than opacity and color, the cubic-bezier curve function accepts y-coordinates outside the standard range of [0, 1]. This allows the ability to specify "elastic" effects for properties such as length and width, as shown in the following image.
-[[Image:msTransition-ease-in-out-elastic-cubic.png]]
+<div style="display:inline-block">
+[[Image:transitF_cubicBounce.png|230px]] <br/>
+'''cubic-bezier(0.25, -0.5, 0.75, 1.5)'''
+</div>
 
-
+<div style="display:inline-block">
+[[Image:transitF_cubicWave.png|230px]] <br/>
+'''cubic-bezier(0.5, 2, 0.5, -1)'''
+</div>
 
 }}
 {{Examples_Section
