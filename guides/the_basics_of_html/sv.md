@@ -1,4 +1,8 @@
-== Introduktion ==
+{{Page_Title|Grunderna i HTML}}
+{{Flags}}
+{{Byline}}
+{{Summary_Section|I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.}}
+{{Guide|Content=== Introduktion ==
 
 Denna artikel sammanfattar avsikten och strukturen av HTML på hög nivå. Den kommer bland annat att ta upp hur element fungerar samt vad de olika karaktärerna fyller för funktion i språket. Artiklarna som nedan följer kommer ge dig en detaljrik djupdykning i specifika delar av språket HTML.
 
@@ -43,3 +47,41 @@ När du tittar på detta dokument i en webbläsare kommer det se ut såhär:
 Början av dokumentet har ett dokumenttyp element, kallat doctype. Denna deklaration i dokumentet gör så att webbläsare renderar HTML i vad som kallas "standardläge", så att det fungerar korrekt. Den hjälper även validerings verktyg att se vilken version av HTML de skall validera emot. Oroa dig inte över vad allt detta har för mening för tillfället. Vi återkommer till det här senare. Det vi använder här är dokumenttypen HTML5.
 
 Efter detta, så kan du se starttaggen till <code>html</code> elementet. Denna fungerar som en wrapper runt hela dokumentet. Sluttaggen till <code>html</code> elementet är det sista som skall finnas i varje HTML dokument. Elementet bär alltid ha ett <code>lang</code>-attribut. Detta anger det primära språket för sidan. Till exempel, <code>sv</code> betyder "Svenska", <code>en</code> betyder "Engelska". Det finns verktyg som hjälper dig hitta rätt språkkod, såsom Richard Ishidas [http://rishida.net/utils/subtags/ Language Subtag Lookup tool].
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Languages|guides/the_basics_of_html}}
+
+
+
+
+
+
+
+
+
+{{API_Name}}
+
+
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+
+{{Related_Specifications_Section
+|Specifications=
+}}
