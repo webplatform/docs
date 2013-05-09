@@ -1,10 +1,10 @@
 {{Page_Title|Kontur (outline)}}
 {{Flags
-|High-level issues=Missing Relevant Sections
+|High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Enheten <code>outline</code> i CSS är en regel för att ställa in en eller fler individuella konturregler [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] och [[css/properties/outline-color|outline-color]] i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.}}
 {{CSS_Selector
@@ -23,7 +23,7 @@
 |Code=a:hover { outline: 0; }
 }}{{Single Example
 |Language=CSS
-|Description=Vanlig användade av outline regeln
+|Description=Vanligt användade av outline regeln
 |Code=:focus { outline: solid; } /* outline-width och outline-color har sin standardiserade stil när outline-style inte är angiven */
 
 :focus { outline: dashed red; } /* outline-style och outline-color */
@@ -54,9 +54,7 @@ IE8 Standards-läge.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Visuella Effekter
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -64,5 +62,4 @@ IE8 Standards-läge.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-
 {{Languages|css/properties/outline}}
