@@ -521,7 +521,7 @@ transition.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transistions
+|Topic_clusters=Animation, Transistions
 |External_links=* [http://www.w3.org/TR/css3-transitions/ CSS Transitions: W3C Working Draft]
 }}
 {{Topics|CSS}}
