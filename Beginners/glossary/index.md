@@ -8,7 +8,7 @@
 <dt>API (Application Program Interface):</dt>
 <dd>A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them.</dd>
 <dt>Attribute:</dt>
-<dd></dd>
+<dd>An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus &#60;tag HREF=&#8222;&#8222; Title=&#8222;the HREF and Title to the left are attributes&#8222;&#62;. </dd>
 <dt>Browser:</dt>
 <dd>A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</dd>
 <dt>CSS (Cascading Style Sheets):</dt>
@@ -20,7 +20,7 @@
 <dt>DNS (Domain Name Server):</dt>
 <dd> This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</dd>
 <dt>Element:</dt>
-<dd>Any basic part or definition, the first part between opening the &#60;brackets&#62;.</dd>
+<dd>Any basic part or definition, the first part between the opening &#60;brackets&#62;.</dd>
 <dt>Entity:</dt>
 <dd>A special character, such as &#182; or &#188;, best displayed by use of an escape code.</dd>
 <dt>Escape Code:</dt>
