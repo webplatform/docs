@@ -1,8 +1,13 @@
 {{Page_Title|Grunderna i HTML}}
-{{Flags}}
+{{Flags
+|High-level issues=Stub
+|Content=Incomplete
+|Checked_Out=Yes
+}}
 {{Byline}}
 {{Summary_Section|I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.}}
-{{Guide|Content=== Introduktion ==
+{{Guide
+|Content=== Introduktion ==
 
 Denna artikel sammanfattar avsikten och strukturen av HTML på hög nivå. Den kommer bland annat att ta upp hur element fungerar samt vad de olika karaktärerna fyller för funktion i språket. Artiklarna som nedan följer kommer ge dig en detaljrik djupdykning i specifika delar av språket HTML.
 
