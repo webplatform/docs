@@ -31,12 +31,16 @@
 <dd>A sequential listing of preferred fonts to display on a web page allowing a developer to specify alternatives in the case that a desired font is not available to a Client.</dd>
 <dt>FTP (File Transfer Protocol):</dt>
 <dd>A protocol that defines the manner in which files can be loaded to or from Servers such that there is a standard method that can be used by any of the many disparate devices that can connect to the Web.</dd>
+<dt>Hexadecimal:</dt>
+<dd>A base 16 counting system where the numbers 10 through 16 are represented by the letters A through F.</dd>
 <dt>HTML (Hyper Text Markup Language):</dt>
 <dd>A language to describe the contents of web documents. It uses a special syntax containing markers (called “elements”) which are wrapped around the text within the document to indicate how user agents (eg. web browsers) should interpret that portion of the document.</dd>
 <dt>Monospaced: </dt>
 <dd>Used to describe fonts in which every glyph takes up the same space, like in computer code</dd>
 <dt>Networking Protocols:</dt>
 <dd> Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other. The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web.</dd>
+<dt>RGB</dt>
+<dd>Literally, red, green and blue.  For our purposes a hexadecimal notation that provides levels for each of the colors red green and blue.</dd>
 <dt><Sans-serif:/dt>
 <dd>Sans meaning without in french, this describes fonts without serifs.</dd>
 <dt>Serif</dt>
