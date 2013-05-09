@@ -28,7 +28,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.one {
+|Description=A simple example showing how to use the border-color property on HTML div elements.
+|Code=              .one {
 		  color: #6CC644;
 		  border: medium solid;
 		}
@@ -52,6 +53,7 @@
 			border-style: solid;
 			border-color: #ccc #666;
 		}
+|LiveURL=http://code.webplatform.org/gist/5546053
 }}
 }}
 {{Notes_Section
