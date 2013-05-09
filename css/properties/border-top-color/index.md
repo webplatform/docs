@@ -22,13 +22,13 @@
 |Description=The color value inherited from parent object.
 }}{{CSS Property Value
 |Data Type=currentColor
-|Description=If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’, the color value inherited from parent object.
+|Description=The same as ‘color: inherit’, the color value inherited from parent object.
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 }}{{CSS Property Value
 |Data Type=color
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value.
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
 }}
 }}
 {{Examples_Section
@@ -160,6 +160,10 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 |Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface,
 |URL=http://www.w3.org/TR/cssom/#the-cssstyledeclaration-interface
 |Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Color Module Level 3
+|URL=http://www.w3.org/TR/css3-color
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
