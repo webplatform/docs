@@ -8,7 +8,7 @@
 <dt>API (Application Program Interface):</dt>
 <dd>A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them.</dd>
 <dt>Attribute:</dt>
-<dd>An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus &#60;tag HREF=&#8222;&#8222; Title=&#8222;the HREF and Title to the left are attributes&#8222;&#62;. </dd>
+<dd>An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus &#60;tag HREF=&#8220;&#8220; Title=&#8220;the HREF and Title to the left are attributes&#8220;&#62;. </dd>
 <dt>Browser:</dt>
 <dd>A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</dd>
 <dt>CSS (Cascading Style Sheets):</dt>
