@@ -35,21 +35,21 @@
 |Language=CSS
 |Description=CSS border width values.
 |Code=.medium {
-  border-width: medium;
+  border-top-width: medium;
 }
 
 .thin {
-  border-width: thin;
+  border-top-width: thin;
 }
 
 .thick {
-  border-width: thick;
+  border-top-width: thick;
 }
 
 .width {
-  border-style: 10px;
+  border-top-width: 10px;
 }
-|LiveURL=http://code.webplatform.org/gist/5549718
+|LiveURL=http://code.webplatform.org/gist/5550302
 }}
 }}
 {{Notes_Section}}
