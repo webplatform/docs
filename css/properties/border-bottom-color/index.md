@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the color of the bottom border.}}
+{{Summary_Section|Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either [[css/properties/border-bottom|border-bottom]] or [[css/properties/border-color|border-color]].
+
+[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+}}
 {{CSS Property
 |Initial value=#000000
 |Applies to=All elements
@@ -127,7 +130,6 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 <code>'''border-bottom-color: '''''
 &lt;color&gt;
 ''</code>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
