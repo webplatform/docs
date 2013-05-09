@@ -19,7 +19,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=inherit
-|Description=The color value inherited from parent object.
+|Description=currentColor, the color value inherited from parent object.
 }}{{CSS Property Value
 |Data Type=currentColor
 |Description=The same as ‘color: inherit’, the color value inherited from parent object.
