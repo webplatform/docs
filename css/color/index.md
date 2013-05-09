@@ -102,7 +102,7 @@ color: hsl(120, 75%, 75%)  /* pastel green */ </syntaxHighlight>
 
 ==System Colors==
 
-{{Note: CSS2 [http://www.w3.org/TR/css3-color/#css-system System Color values] have been deprecated in favor of the [http://www.w3.org/TR/css3-ui/#appearance CSS3 appearance property]. If you want to emulate the look of a user interface related element or control, please use the ‘appearance’ property instead of attempting to mimic a user interface element through a combination of system colors.}}
+{{Note | CSS2 [http://www.w3.org/TR/css3-color/#css-system System Color values] have been deprecated in favor of the [http://www.w3.org/TR/css3-ui/#appearance CSS3 appearance property]. If you want to emulate the look of a user interface related element or control, please use the ‘appearance’ property instead of attempting to mimic a user interface element through a combination of system colors.}}
 
 It is also possible to specify system colors, so you can specify for example that you want your text to be the same color as your highlighted text; these are only supported on Windows. Unlike the named colors, system colors have no numeric RGB equivalent because the exact color is not known until the Web page is viewed on the user's system. In this way, system colors are user-defined because users can choose their own system color scheme from the Windows Control Panel. The following table demonstrates appropriate text and background colors, as they would appear on a Windows Vista system with default colors.
 
@@ -140,6 +140,8 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 {{See_Also_Section
 |Topic_clusters=Visual Effects
 }}
+
+
 
 
 
