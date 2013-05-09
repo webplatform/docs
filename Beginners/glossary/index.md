@@ -19,7 +19,9 @@
 <dd> This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</dd>
 <dt>Fantasy: </dt>
 <dd>Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy</dd>
- <dt>FTP (File Transfer Protocol):</dt>
+<dt>Font Stack:</dt>
+<dd>A sequential listing of preferred fonts to display on a web page allowing a developer to specify alternatives in the case that a desired font is not available to a Client.</dd>
+<dt>FTP (File Transfer Protocol):</dt>
 <dd>A protocol that defines the manner in which files can be loaded to or from Servers such that there is a standard method that can be used by any of the many disparate devices that can connect to the Web.</dd>
 <dt>HTML (Hyper Text Markup Language):</dt>
 <dd>A language to describe the contents of web documents. It uses a special syntax containing markers (called “elements”) which are wrapped around the text within the document to indicate how user agents (eg. web browsers) should interpret that portion of the document.</dd>
@@ -54,8 +56,6 @@
 <dd>A markup language for structured documents in general.</dd>
 <dt>XUL:</dt>
 <dd>A markup language for user interfaces in Mozilla.</dd>
-<dt></dt>
-<dd></dd>
 <dt></dt>
 <dd></dd>
 <dt></dt>
