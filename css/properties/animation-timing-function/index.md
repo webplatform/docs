@@ -17,19 +17,19 @@
 |CSS object model property=animationTimingFunction
 |Values={{CSS Property Value
 |Data Type=ease
-|Description=Default. Starts and stops gradually.
+|Description=Default. Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.25,0.1,0.25,1)''']]
 }}{{CSS Property Value
 |Data Type=linear
-|Description=Starts and stops immediately, progressing at a constant rate.
+|Description=Starts and stops immediately, progressing at a constant rate, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0,0,1,1)''']].
 }}{{CSS Property Value
 |Data Type=ease-in
-|Description=Starts gradually and stops suddenly.
+|Description=Starts gradually and stops suddenly, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.42,0,1,1)''']].
 }}{{CSS Property Value
 |Data Type=ease-out
-|Description=Starts suddenly and stops gradually.
+|Description=Starts suddenly and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0,0,0.58,1)''']].
 }}{{CSS Property Value
 |Data Type=ease-in-out
-|Description=Starts and stops gradually.
+|Description=Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.42,0,0.58,1)''']].
 }}{{CSS Property Value
 |Data Type=[[css/functions/steps|'''steps()''']]
 |Description=Function value specifying a series of discrete intervals.
