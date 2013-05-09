@@ -6,6 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The CSS border-color property sets the color of an element's four borders. This property can have from one to four values.}}
 {{CSS Property
+|Initial value=color - The value of the 'color' property
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -22,6 +23,9 @@
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=This will apply a border that is not visible but it can have a width applied.
+}}{{CSS Property Value
+|Data Type=currentColor
+|Description=The same as ‘color: inherit’, the color value inherited from parent object.
 }}
 }}
 {{Examples_Section
@@ -57,13 +61,16 @@
 }}
 }}
 {{Notes_Section
-|Usage=Always declare the border-style property before the border-color property. An element must have borders before you can change the color.
-|Notes====Remarks===
-Up to four different colors can be specified in the following order: top, right, bottom, left. If one color is supplied, it is used for all four sides. If two colors are supplied, the first is used for the top and bottom, and the second is used for left and right. If three colors are supplied, they are used for top, right and left, and bottom, respectively.
+|Usage=The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
-The '''border-color''' property does not render if the [[css/properties/border-style|'''border-style''']] property is set to '''none'''.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.16
+The color value can also be a numerical value, such as one of the following:
+
+a basic color keyword, such as "red"
+a hex value, such as #ff0000
+an red-green-blue (RGB) value, such as rgb(255,0,0)
+an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+HSLa, such as hsl(0, 100%, 50%, 1)
 }}
 {{Related_Specifications_Section
 |Specifications=
