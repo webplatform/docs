@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of an element's right border. This page explains the border-right-color value, but often you will find it more convenient to fix the border's right color as part of a shorthand set, either [[css/properties/border-right|border-right]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-right-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
@@ -28,7 +28,7 @@
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 }}{{CSS Property Value
 |Data Type=color
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-right-color#Usage|Usage]].
 }}
 }}
 {{Examples_Section
