@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the style of an element's top border. To set all four borders, use the shorthand property,  [[css/properties/border-style|border-style]]. Otherwise, you can set the borders individually with [[css/properties/border-top-style|border-top-style]], [[css/properties/border-right-style|border-right-style]], [[css/properties/border-bottom-style|border-bottom-style]], [[css/properties/border-left-style|border-left-style]].}}
+{{Summary_Section|Sets the style of an element's right border. To set all four borders, use the shorthand property,  [[css/properties/border-style|border-style]]. Otherwise, you can set the borders individually with [[css/properties/border-top-style|border-top-style]], [[css/properties/border-right-style|border-right-style]], [[css/properties/border-bottom-style|border-bottom-style]], [[css/properties/border-left-style|border-left-style]].}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
