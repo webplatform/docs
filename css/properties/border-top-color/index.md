@@ -18,14 +18,17 @@
 |CSS object model property=borderTopColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=color
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value.
+|Data Type=inherit
+|Description=The color value inherited from parent object. 
+}}{{CSS Property Value
+|Data Type=currentColor
+|Description=If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’, the color value inherited from parent object. 
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 }}{{CSS Property Value
-|Data Type=inherit
-|Description=The color value inherited from parent object. If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’.
+|Data Type=color
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value.
 }}
 }}
 {{Examples_Section
@@ -131,13 +134,7 @@ This example uses a call to an embedded (global) style sheet to change the color
 }}
 }}
 {{Notes_Section
-|Usage=<code>'''border-top-color: ''''''[''' ''
-&lt;color&gt;
-'' '''{{!}}''' transparent ''']''''''
-{1,4}
-''' '''{{!}}''' inherit</code>
-
-The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
+|Usage=The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
 The color value can also be a numerical value, such as one of the following:
 
@@ -149,9 +146,6 @@ The color value can also be a numerical value, such as one of the following:
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color|CSS Color Module Level 3 spec], which is the consolidation of various specifications.
-
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -181,7 +175,9 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_sections=*<code>[[css/properties/border-top|border-top]]</code>
+*<code>[[css/properties/border-color|border-color]]</code>
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
