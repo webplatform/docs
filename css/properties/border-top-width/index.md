@@ -52,12 +52,10 @@
 |LiveURL=http://code.webplatform.org/gist/5549718
 }}
 }}
-{{Notes_Section
-|Usage=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C CSS Backgrounds and Borders Module Level
+|Name=W3C CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/#border-width
 |Status=Candidate Recommendation
 }}
