@@ -1,95 +1,111 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the style of an element's right border.}}
+{{Summary_Section|Sets the style of an element's top border. To set all four borders, use the shorthand property,  [[css/properties/border-style|border-style]]. Otherwise, you can set the borders individually with [[css/properties/border-top-style|border-top-style]], [[css/properties/border-right-style|border-right-style]], [[css/properties/border-bottom-style|border-bottom-style]], [[css/properties/border-left-style|border-left-style]].}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=borderStyleTop
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. Border is not drawn, regardless of any [[css/properties/border-width|'''border-width''']].
-}}{{CSS Property Value
-|Data Type=dotted
-|Description=Border is a dotted line.
-
-This value is supported on the Macintosh platform, as of Internet Explorer 4.01, and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
-}}{{CSS Property Value
-|Data Type=dashed
-|Description=Border is a dashed line. 
-
-This value is supported on the Macintosh platform as of Internet Explorer 4.01 and on the Windows platform, as of Internet Explorer 5.5. It renders as a solid line on UNIX platforms, and on Windows systems running earlier versions of Internet Explorer.
-}}{{CSS Property Value
-|Data Type=solid
-|Description=Border is a solid line.
-}}{{CSS Property Value
-|Data Type=double
-|Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''border-width''']] value. The border width must be at least 3 pixels wide to draw a double border.
-}}{{CSS Property Value
-|Data Type=groove
-|Description=3-D groove is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=ridge
-|Description=3-D ridge is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=inset
-|Description=3-D inset is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=outset
-|Description=3-D outset is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=window-inset
-|Description=Internet Explorer 6 and later. Same as <code>inset</code> with a thin outside border.
+|Description=Default. Border is not drawn, color and width are ignored. If the border is an image, the image layer counts but is not drawn. See [[css/properties/background-image|background-image]].
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Internet Explorer 8. Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
+|Description=Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
+}}{{CSS Property Value
+|Data Type=dotted
+|Description=A series of round or square dots.
+}}{{CSS Property Value
+|Data Type=dashed
+|Description=A series of square-ended dashes.
+}}{{CSS Property Value
+|Data Type=solid
+|Description=A single line segment.
+}}{{CSS Property Value
+|Data Type=double
+|Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|border-width]] value. The border width must be at least 3 pixels wide to draw a double border.
+}}{{CSS Property Value
+|Data Type=groove
+|Description=Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the [[css/properties/border-color|border-color]].)
+}}{{CSS Property Value
+|Data Type=ridge
+|Description=Looks as if it were coming out of the canvas.
+}}{{CSS Property Value
+|Data Type=inset
+|Description=Looks as if the content on the inside of the border is sunken into the canvas.
+}}{{CSS Property Value
+|Data Type=outset
+|Description=Looks as if the content on the inside of the border is coming out of the canvas.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-right-style''' attribute and the '''border-right-style''' property to specify the border style.
+|Language=CSS
+|Description=Border styles in CSS.
+|Code=.one {
+  border-top-style: none;
+}
 
-This example uses a call to an embedded (global) style sheet to change the style of the right border from '''solid''' to '''groove''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-right-style:solid; border-width:0.3cm }
-    .change { border-right-style:groove }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onmouseover{{=}}"this.className{{=}}'change'"
-        onmouseout{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;
-    &lt;/TD&gt;
-&lt;/TR&gt; 
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-right-style.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the style of the right border to '''groove''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-                 this.style.borderRightStyle{{=}}'groove'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderRightStyle.htm
+.two {
+  border-top-style: outset;
+}
+
+.three {
+  border-top-style: hidden;
+}
+
+.four {
+  border-top-style: dotted;
+}
+
+.five {
+  border-top-style: dashed;
+}
+
+.six {
+  border-top-style: solid;
+}
+
+.seven {
+  border-top-style: double;
+}
+
+.eight {
+  border-top-style: groove;
+}
+
+.nine {
+  border-top-style: ridge;
+}
+
+.ten {
+  border-top-style: inset;
+}
+|LiveURL=http://code.webplatform.org/gist/5549004
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-As of Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-An [[css/properties/border-width|'''border-width''']] greater than 0 must be set for the '''border-right-style''' attribute to render.
-|Import_Notes====Syntax===
-<code>'''border-right-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset '''{{!}}''' hidden</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 8.5.3
+|Notes=* Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
+* There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
+* How borders of different styles are joined in the corner may vary.
+* Rounded corners may cause the corners and the contents to overlap, if the padding is less than the radius of the corner.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#border-style
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,13 +116,6 @@ An [[css/properties/border-width|'''border-width''']] greater than 0 must be set
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/border|border]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
