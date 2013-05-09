@@ -18,7 +18,7 @@
 |CSS object model property=borderTopColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=color
+|Data Type=<color>
 |Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-right-color#Usage|Usage]].
 }}{{CSS Property Value
 |Data Type=inherit
