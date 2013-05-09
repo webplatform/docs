@@ -50,7 +50,7 @@
 }
 
 .width {
-  border-style: 10px;
+  border-width: 10px;
 }
 |LiveURL=http://code.webplatform.org/gist/5549718
 }}
