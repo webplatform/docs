@@ -338,7 +338,8 @@ the animation proceeds:
 </div>
 
 This useful [http://cubic-bezier.com cubic bezier function utility]
-allows you to create your own custom curve compare their progress with standard keyword values.
+allows you to create your own custom curves and compare them with
+standard timing keyword values.
 
 Timing functions can also be specified as part of the
 [[css/properties/transition|'''transition''']] shorthand
