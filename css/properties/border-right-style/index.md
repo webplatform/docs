@@ -89,7 +89,7 @@
 }
 
 .ten {
-  border--right-style: inset;
+  border-right-style: inset;
 }
 |LiveURL=http://code.webplatform.org/gist/5549254
 }}
