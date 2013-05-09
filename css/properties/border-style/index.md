@@ -46,7 +46,7 @@
 |Data Type=outset
 |Description=Looks as if the content on the inside of the border is coming out of the canvas.
 }}{{CSS Property Value
-|Data Type=<border-style-top> <border-style-right> <border-style-bottom> <border-style-left>
+|Data Type=<border-top-style> <border-right-style> <border-bottom-style> <border-left-style>
 |Description=Shorthand values syntax.
 }}
 }}
