@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of an element's top border. This page explains the border-top-color value, but often you will find it more convenient to fix the border's top color as part of a shorthand set, either [[css/properties/border-top|border-top]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
+[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-top-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
@@ -19,10 +19,10 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=inherit
-|Description=The color value inherited from parent object. 
+|Description=The color value inherited from parent object.
 }}{{CSS Property Value
 |Data Type=currentColor
-|Description=If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’, the color value inherited from parent object. 
+|Description=If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’, the color value inherited from parent object.
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
