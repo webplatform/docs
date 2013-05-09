@@ -1,23 +1,23 @@
 {{Page_Title}}
 {{Flags
-|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the width of an element's top border.}}
+{{Summary_Section|Sets the width of an element's top border. To set all four borders, use the [[css/properties/border-width|border-width]] shorthand property which sets the values simultaneously for [[css/properties/border-top-width|border-top-width]], [[css/properties/border-right-width|border-right-width]], [[css/properties/border-bottom-width|border-bottom-width]], and [[css/properties/border-left-width|border-left-width]].}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=absolute length; ‘0’ if the border style is 'none' or 'hidden'
+|Computed value=An absolute length; 0 if the border style is 'none' or 'hidden'
 |Animatable=No
 |CSS object model property=borderTopWidth
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=medium
-|Description=Default.
+|Description=Default.  
 }}{{CSS Property Value
 |Data Type=thin
 |Description=Less than the default width.
@@ -32,38 +32,33 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-top-width''' attribute and the '''border-top-width''' property to specify the width of the top border.
+|Language=CSS
+|Description=CSS border width values.
+|Code=.medium {
+  border-width: medium;
+}
 
-This example uses a call to an embedded (global) style sheet to change the width of the top border to 1 centimeter when a mouse click occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-top-width:3mm }
-    .changeborder1 { border-top-width:1cm }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onclick{{=}}"this.className{{=}}'changeborder1'"
-        ondblclick{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;
-    &lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-top-width.htm
-}}{{Single Example
-|Description=This example uses inline script to change the width of the top border to 1 centimeter when a mouse click occurs.
-|Code=&lt;TD onclick{{=}}"this.style.borderTopWidth{{=}}'1cm'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderTopWidth.htm
+.thin {
+  border-width: thin;
+}
+
+.thick {
+  border-width: thick;
+}
+
+.width {
+  border-style: 10px;
+}
+|LiveURL=http://code.webplatform.org/gist/5549718
 }}
 }}
 {{Notes_Section
-|Notes=As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
+|Usage=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/#the-border-width
+|Name=W3C CSS Backgrounds and Borders Module Level
+|URL=http://www.w3.org/TR/css3-background/#border-width
 |Status=Candidate Recommendation
 }}
 }}
@@ -76,16 +71,6 @@ This example uses a call to an embedded (global) style sheet to change the width
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/border|border]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
