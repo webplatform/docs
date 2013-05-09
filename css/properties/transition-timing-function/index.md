@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets the pace of a transition's progression}}
+{{Summary_Section|Sets the pace of action within a transition}}
 {{CSS Property
 |Initial value=ease
 |Applies to=all elements
