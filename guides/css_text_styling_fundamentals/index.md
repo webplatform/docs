@@ -1,5 +1,6 @@
 {{Page_Title|CSS text styling fundamentals}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.}}
@@ -117,7 +118,7 @@ See [http://people.opera.com/cmills/css-text-styling/zappa3.html zappa3.html] fo
 
 === Web fonts ===
 
-CSS3 introduces Web fonts, a feature that allows us to specify our own custom font files to download along with our web pages. This is great, as it complete gets around the problem of fonts not being available on user's machines. To specify a web font for download on a page, you reference the font in a special <code>@font-face</code> block that goes at the top of the page, and looks something like this:
+CSS3 introduces Web fonts, a feature that allows us to specify our own custom font files to download along with our web pages. This is great, as it completely gets around the problem of fonts not being available on user's machines. To specify a web font for download on a page, you reference the font in a special <code>@font-face</code> block that goes at the top of the page, and looks something like this:
 
 <syntaxhighlight lang="css">
 @font-face {
