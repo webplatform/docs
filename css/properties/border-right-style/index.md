@@ -53,45 +53,45 @@
 |Language=CSS
 |Description=Border styles in CSS.
 |Code=.one {
-  border-top-style: none;
+  border-right-style: none;
 }
 
 .two {
-  border-top-style: outset;
+  border-right-style: outset;
 }
 
 .three {
-  border-top-style: hidden;
+  border-right-style: hidden;
 }
 
 .four {
-  border-top-style: dotted;
+  border-right-style: dotted;
 }
 
 .five {
-  border-top-style: dashed;
+  border-right-style: dashed;
 }
 
 .six {
-  border-top-style: solid;
+  border-right-style: solid;
 }
 
 .seven {
-  border-top-style: double;
+  border-right-style: double;
 }
 
 .eight {
-  border-top-style: groove;
+  border-right-style: groove;
 }
 
 .nine {
-  border-top-style: ridge;
+  border-right-style: ridge;
 }
 
 .ten {
-  border-top-style: inset;
+  border--right-style: inset;
 }
-|LiveURL=http://code.webplatform.org/gist/5549004
+|LiveURL=http://code.webplatform.org/gist/5549254
 }}
 }}
 {{Notes_Section
