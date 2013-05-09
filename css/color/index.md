@@ -138,6 +138,12 @@ This value used to only be defined as an override value for the [[css/properties
 You can set the opacity of an entire element using the [[css/properties/opacity|opacity property]].
 
 {{See_Also_Section
+|Manual_links=* [[tutorials/setting_color_in_css|Setting color in CSS]]
+* [[css/properties/color|color]]
+* [[css/units/color|color]]
+|Manual_sections=*[http://www.w3.org/Style/CSS/Test/CSS3/Color/current/ W3 css3-color Conformance Test Suite]
+*[https://developer.mozilla.org/en-US/docs/CSS/color MDN color property]
+*[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
 |Topic_clusters=Visual Effects
 }}
 
