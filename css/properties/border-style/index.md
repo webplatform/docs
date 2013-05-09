@@ -98,6 +98,8 @@
 }}
 }}
 {{Notes_Section
+|Usage=* Up to four different styles can be specified, in the following order: top, right, bottom, left. 
+* If one style is specified, it is used for all four sides. If two styles are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three styles are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 |Notes=* Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
 * There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
 * How borders of different styles are joined in the corner may vary.
