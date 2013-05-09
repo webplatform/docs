@@ -19,13 +19,13 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
-|Description=One of the color names or RGB values in the Color Table.
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value.
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Use value inherited from parent object.
+|Description=The color value inherited from parent object. If the ‘currentColor’ keyword is set on the ‘color’ property itself, it is the same as ‘color: inherit’.
 }}
 }}
 {{Examples_Section
@@ -136,6 +136,22 @@ This example uses a call to an embedded (global) style sheet to change the color
 '' '''{{!}}''' transparent ''']''''''
 {1,4}
 ''' '''{{!}}''' inherit</code>
+
+The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
+
+The color value can also be a numerical value, such as one of the following:
+
+* a basic color keyword, such as "red"
+* a numerical value, such as #ff0000
+* an red-green-blue (RGB) value, such as rgb(255,0,0)
+* an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+* a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+* HSLa, such as hsl(0, 100%, 50%, 1)
+
+The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color|CSS Color Module Level 3 spec], which is the consolidation of various specifications.
+
+
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
