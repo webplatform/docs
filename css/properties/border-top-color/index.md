@@ -18,6 +18,9 @@
 |CSS object model property=borderTopColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
+|Data Type=color
+|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
+}}{{CSS Property Value
 |Data Type=inherit
 |Description=currentColor, the color value inherited from parent object.
 }}{{CSS Property Value
@@ -26,9 +29,6 @@
 }}{{CSS Property Value
 |Data Type=transparent
 |Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
-}}{{CSS Property Value
-|Data Type=color
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-top-color#Usage|Usage]].
 }}
 }}
 {{Examples_Section
