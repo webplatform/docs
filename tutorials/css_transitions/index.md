@@ -313,27 +313,27 @@ axes, so the more the line curves vertically along the way, the faster
 the animation proceeds:
 
 <div style="display:inline-block">
-[[Image:transitF_linear.png]] <br/>
+[[Image:transitF_linear.png|230px]] <br/>
 '''linear''' <br/> '''cubic-bezier(0.0, 0.0, 1.0, 1.0)'''
 </div>
 
 <div style="display:inline-block">
-[[Image:transitF_ease.png]] <br/>
+[[Image:transitF_ease.png|230px]] <br/>
 '''ease''' <br/> '''cubic-bezier(0.25, 0.1, 0.25, 1.0)'''
 </div>
 
 <div style="display:inline-block">
-[[Image:transitF_easeinout.png]] <br/>
+[[Image:transitF_easeinout.png|230px]] <br/>
 '''ease-in-out''' <br/> '''cubic-bezier(0.42, 0, 0.58, 1.0)'''
 </div>
 
 <div style="display:inline-block">
-[[Image:transitF_easein.png]] <br/>
+[[Image:transitF_easein.png|230px]] <br/>
 '''ease-in''' <br/> '''cubic-bezier(0.42, 0, 1.0, 1.0)'''
 </div>
 
 <div style="display:inline-block">
-[[Image:transitF_easeout.png]] <br/>
+[[Image:transitF_easeout.png|230px]] <br/>
 '''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
 </div>
 
