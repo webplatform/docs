@@ -17,7 +17,7 @@
 |CSS object model property=animationTimingFunction
 |Values={{CSS Property Value
 |Data Type=ease
-|Description=Default. Starts and stops gradually. 
+|Description=Default. Starts and stops gradually.
 }}{{CSS Property Value
 |Data Type=linear
 |Description=Starts and stops immediately, progressing at a constant rate.
@@ -31,8 +31,8 @@
 |Data Type=ease-in-out
 |Description=Starts and stops gradually.
 }}{{CSS Property Value
-|Data Type=steps(''number'', ''position'')
-|Description=A series of discrete intervals. See the [[css/functions/steps|'''steps()''']] function.
+|Data Type=[[css/functions/steps|'''steps()''']]
+|Description=Function value specifying a series of discrete intervals.
 }}{{CSS Property Value
 |Data Type=step-start
 |Description=The change takes place at the start of the keyframe, equivalent to [[css/functions/steps|'''steps(1, start)''']].
@@ -40,8 +40,8 @@
 |Data Type=step-end
 |Description=The change takes place at the end of the keyframe, equivalent to [[css/functions/steps|'''steps(1, end)''']].
 }}{{CSS Property Value
-|Data Type=cubic-bezier()
-|Description=A customized response curve. See the [[css/functions/cubic-bezier|'''cubic-bezier()''']] function.
+|Data Type=[[css/functions/cubic-bezier|'''cubic-bezier()''']]
+|Description=Function value specifying a customized response curve.
 }}
 }}
 {{Examples_Section
@@ -67,7 +67,6 @@ Along with other animation properties, multiple values separated by
 commas apply to animations in the same order as they are listed by the
 '''animation-name''' property. Excess values are ignored. If there are
 fewer values than animations, they're recycled in order of declaration.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
