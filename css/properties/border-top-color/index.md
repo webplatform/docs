@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the color of an element's top border. This page explains the border-top-color value, but it is often used as part of a shorthand set, either [[css/properties/border-top|border-top]] or [[css/properties/border-color|border-color]].
+{{Summary_Section|Sets the color of an element's top border. This page explains the border-top-color value, but the top border color is often set as part of a shorthand set, either [[css/properties/border-top|border-top]] or [[css/properties/border-color|border-color]].
 
 [[css/units/color|Colors]] can be defined several ways. Some browsers do not recognize color names, but all browsers should recognize RGB color values and display them correctly.
 }}
@@ -14,7 +14,8 @@
 |Inherited=No
 |Media=visual
 |Computed value=when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
-|Animatable=No
+|Animatable=Yes
+|CSS object model property=borderTopColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
@@ -145,6 +146,10 @@ This example uses a call to an embedded (global) style sheet to change the color
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 8 Box model
 |URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
 |Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface, 
+|URL=#dom-cssstyledeclaration-bordertopcolor
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
