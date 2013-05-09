@@ -337,9 +337,8 @@ the animation proceeds:
 '''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
 </div>
 
-This useful [http://cssglue.com/cubic cubic bezier function utility]
-allows you to create your own custom curve and the see the result
-applied to various animations.
+This useful [http://cubic-bezier.com cubic bezier function utility]
+allows you to create your own custom curve compare their progress with standard keyword values.
 
 Timing functions can also be specified as part of the
 [[css/properties/transition|'''transition''']] shorthand
