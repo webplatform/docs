@@ -65,8 +65,8 @@ no value is set, the default '''ease''' value applies.
 
 Along with other animation properties, multiple values separated by
 commas apply to animations in the same order as they are listed by the
-'''animation-name''' property. Excess values are ignored. If there are
-fewer values than animations, they're recycled in order of declaration.
+[[css/properties/animation-name|'''animation-name''']] property. Excess values are ignored. If there are
+fewer values than animations, they're recycled in order of declaration until their numbers match.
 }}
 {{Related_Specifications_Section
 |Specifications=
