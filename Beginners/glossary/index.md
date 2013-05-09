@@ -21,6 +21,10 @@
 <dd> This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</dd>
 <dt>Element:</dt>
 <dd>Any basic part or definition, the first part between opening the &#60;brackets&#62;.</dd>
+<dt>Entity:</dt>
+<dd>A special character, such as &#182; or &#188;, best displayed by use of an escape code.</dd>
+<dt>Escape Code:</dt>
+<dd>A means for displaying an Entity, such as &#60; without it having coding effect, typically by use of a string that begins &#.</dd>
 <dt>Fantasy: </dt>
 <dd>Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy</dd>
 <dt>Font Stack:</dt>
@@ -60,8 +64,6 @@
 <dd>A markup language for structured documents in general.</dd>
 <dt>XUL:</dt>
 <dd>A markup language for user interfaces in Mozilla.</dd>
-<dt></dt>
-<dd></dd>
 <dt></dt>
 <dd></dd>
 <dt></dt>
