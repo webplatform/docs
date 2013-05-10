@@ -48,7 +48,24 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/animation-timing-function] See MDN's CSS animation examples
+|Description=A fast-moving example requires linear timing to highlight an abrupt transition from a moving to a stopped state
+|Code=div {
+    animation-duration        : 0.5s;
+    animation-fill-mode       : both;
+    animation-iteration-count : 1;
+    animation-name            : fastSlide;
+    animation-timing-function : linear;
+    transform-origin          : bottom;
+}
+@keyframes fastSlide {
+    0%   { transform: translate(120%) skewX(-30deg) ; }
+    70%  { transform: translate(0%)   skewX(-30deg) ; }
+    80%  { transform: translate(0%)   skewX(20deg)  ; }
+    95%  { transform: translate(0%)   skewX(-10deg) ; }
+    100% { transform: translate(0%)   skewX(0deg)   ; }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_timing.html
 }}
 }}
 {{Notes_Section
