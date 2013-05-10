@@ -33,7 +33,7 @@
 '''ease-out''' <br/> '''cubic-bezier(0, 0, 0.58, 1.0)'''
 </div>
 
-For properties unrelated to opacity and color, the function accepts ''y'' coordinates outside the standard range between 0 and 1. This allows for "elastic" effects in which positions or dimensions may oscillate over the course of the progression.
+For properties unrelated to opacity and color, the function accepts ''y'' coordinates outside the standard range between 0 and 1. This allows for "elastic" effects in which positions or dimensions may cross over themselves during the course of the progression. The first example below bounces past its start and end points, while the second oscillates more dramatically:
 
 <div style="display:inline-block">
 [[Image:transitF_cubicBounce.png|230px]] <br/>
@@ -44,7 +44,6 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 [[Image:transitF_cubicWave.png|230px]] <br/>
 '''cubic-bezier(0.5, 2, 0.5, -1)'''
 </div>
-
 }}
 {{Examples_Section
 |Not_required=No
