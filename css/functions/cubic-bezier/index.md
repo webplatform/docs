@@ -53,6 +53,8 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 |Language=CSS
 |Description=A dramatically oscillating timing function whose ''y'' values lie far outside the 0-1 range:
 |Code=transition-timing-function: cubic-bezier(0.5,3.0,0.5,-2.0);
+}}{{Single Example
+|Language=Other
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html Modify the timing function for a sequence of two transitions
 }}
 }}
