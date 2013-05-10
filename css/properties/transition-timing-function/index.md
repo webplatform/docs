@@ -48,7 +48,14 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/animation-timing-function] See MDN's CSS animation examples
+|Description=Default transition timing
+|Code=transition-timing-function: ease;
+|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html Live example, in which a series of elements animate in progression]
+}}{{Single Example
+|Language=CSS
+|Description=No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
+|Code=transition-timing-function: linear;
+|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html Live example]
 }}
 }}
 {{Notes_Section
