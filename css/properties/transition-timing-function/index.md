@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
+|Editorial notes=adapted from animation-timing-function page
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
