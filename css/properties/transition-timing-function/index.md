@@ -65,7 +65,7 @@
 {{Notes_Section
 |Usage=Along with other transition properties, multiple values
 separated by commas apply to transitions in the same order as they are
-listed by the [[css/properties/transition-name|'''transition-name''']]
+listed by the [[css/properties/transition-property|'''transition-property''']]
 property. Excess values are ignored. If there are fewer timing values
 than transitions, they're recycled in order of declaration until their
 numbers match.
