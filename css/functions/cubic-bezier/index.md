@@ -49,7 +49,11 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=Other
+|Description=This sample page demonstrates a sequence of two transitions, whose timing function you can configure.
+|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
