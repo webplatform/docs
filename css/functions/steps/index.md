@@ -21,7 +21,7 @@
 }
 }}{{Single Example
 |Language=Other
-|Description=Modify the timing function for a sequence of two transitions                                                                    
+|Description=Modify the timing function for a sequence of two transitions
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
 }}
 }}
@@ -37,7 +37,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Animation, Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
