@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -59,7 +60,7 @@ For example, if an element is declared with a [[css/properties/min-width|'''min-
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transistions
+|Topic_clusters=Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
