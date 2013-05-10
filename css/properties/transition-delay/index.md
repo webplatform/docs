@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -62,7 +63,7 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transistions
+|Topic_clusters=Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
