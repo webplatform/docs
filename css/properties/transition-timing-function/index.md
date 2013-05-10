@@ -50,12 +50,12 @@
 |Language=CSS
 |Description=Default transition timing
 |Code=transition-timing-function: ease;
-|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html Live example, in which a series of elements animate in progression]
+|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html] A series of elements animate in progression
 }}{{Single Example
 |Language=CSS
 |Description=No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
 |Code=transition-timing-function: linear;
-|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html Live example]
+|LiveURL=[http://letmespellitoutforyou.com/samples/transit_delay.html]
 }}
 }}
 {{Notes_Section
