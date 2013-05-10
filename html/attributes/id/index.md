@@ -1,20 +1,20 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example gets the '''ID''' attribute of each cell of a table.  When the user clicks a cell, the object of the cell is passed to a function which returns the object's ID.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm
-|Code=
-&lt;script&gt;
+|Code=&lt;script&gt;
 function getID(oObject) 
 {
     var id {{=}} oObject.id;
@@ -28,19 +28,28 @@ function getID(oObject)
         &lt;td id{{=}}"thirdCell" onclick{{=}}"getID(this);"&gt;Table Cell 3&lt;/td&gt;
     &lt;/tr&gt;
 &lt;/table&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''id''' is an SGML identifier used as the target for hypertext links or for naming particular objects in associated style sheets.
 The '''id''' should be unique throughout the scope of the current document. If a document contains more than one object with the same identifier, the objects are exposed as a collection that can be referenced only in ordinal position.
 In versions earlier than Microsoft Internet Explorer 5, this property is read-only.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>style</code>
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
@@ -149,12 +158,12 @@ In versions earlier than Microsoft Internet Explorer 5, this property is read-o
 *<code>wbr</code>
 *<code>xml</code>
 *<code>xmp</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
