@@ -47,7 +47,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=A fast-moving example requires linear timing to highlight an abrupt transition from a moving to a stopped state
+|Description=A fast-moving sequence uses linear timing to highlight an abrupt transition within the keyframes, from a moving to a stopped state:
 |Code=div {
     animation-duration        : 0.5s;
     animation-fill-mode       : both;
