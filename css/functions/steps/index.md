@@ -12,7 +12,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Apply an un-smoothed ratchet effect to any font-size transitions:
+|Code=p {
+    transition: font-size 1s;
+    transition-timing-function: steps(5);
+}
+}}{{Single Example
+|Language=Other
+|Description=Modify the timing function for a sequence of two transitions                                                                    
+|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
