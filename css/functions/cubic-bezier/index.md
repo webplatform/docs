@@ -61,7 +61,7 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Topic_clusters=Animation, Transistions
 }}
 {{Topics|CSS}}
 {{External_Attribution
