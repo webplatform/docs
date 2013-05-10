@@ -152,7 +152,7 @@ fewer values than animations, they're recycled in order of declaration until the
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Animation, Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
