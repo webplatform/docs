@@ -56,6 +56,10 @@
 |Description=No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
 |Code=transition-timing-function: linear;
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_delay.html
+}}{{Single Example
+|Language=Other
+|Description=Modify the timing function for a sequence of two transitions
+|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html                                                                    
 }}
 }}
 {{Notes_Section
