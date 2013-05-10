@@ -55,7 +55,7 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 |Code=transition-timing-function: cubic-bezier(0.5,3.0,0.5,-2.0);
 }}{{Single Example
 |Language=Other
-|Description=Modify the timing function for a sequence of two transitions 
+|Description=Modify the timing function for a sequence of two transitions
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
 }}
 }}
@@ -71,7 +71,7 @@ For properties unrelated to opacity and color, the function accepts ''y'' coordi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Animation, Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
