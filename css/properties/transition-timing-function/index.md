@@ -139,7 +139,7 @@ numbers match.
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Animation, Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
