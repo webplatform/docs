@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -99,7 +100,7 @@ The version of this property using a vendor prefix, '''-ms-transition-property''
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transistions
+|Topic_clusters=Transitions
 }}
 {{Topics|CSS}}
 {{External_Attribution
