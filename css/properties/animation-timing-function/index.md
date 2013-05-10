@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -64,7 +63,6 @@
     95%  { transform: translate(0%)   skewX(-10deg) ; }
     100% { transform: translate(0%)   skewX(0deg)   ; }
 }
-
 |LiveURL=http://letmespellitoutforyou.com/samples/anim_timing.html
 }}
 }}
@@ -154,7 +152,7 @@ fewer values than animations, they're recycled in order of declaration until the
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Topic_clusters=Animation, Transistions
 }}
 {{Topics|CSS}}
 {{External_Attribution
