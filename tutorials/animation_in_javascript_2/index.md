@@ -23,7 +23,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transistions, Visual Effects
+|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transitions, Visual Effects
 }}
 {{Topics|CSS, JavaScript, UI}}
 {{External_Attribution
