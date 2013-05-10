@@ -58,8 +58,8 @@
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_delay.html
 }}{{Single Example
 |Language=Other
-|Description=Modify the timing function for a sequence of two transitions
-|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html                                                                    
+|Description=See how changing the timing value affects a sequence of two transitions
+|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
 }}
 }}
 {{Notes_Section
