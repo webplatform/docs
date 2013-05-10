@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics,Missing Relevant Sections,Data Not Semantic
-|Content=Incomplete,Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -114,7 +115,7 @@ div:hover {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transistions
+|Topic_clusters=Animation, Transitions
 }}
 {{Topics|CSS, Vendor Prefix}}
 {{External_Attribution
