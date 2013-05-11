@@ -12,7 +12,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=An absolute length, for all 4 values; 0 if the border style is 'none' or 'hidden'
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=borderWidth
 |CSS percentages=N/A
 |Values={{CSS Property Value
