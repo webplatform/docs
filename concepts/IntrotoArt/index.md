@@ -13,28 +13,30 @@ Graphic Design is meant to communicate the experience/message. Experience includ
 
 In General, Graphic Design can be broken down into these elements:
 
-*Typography
-*Negative space
-*Color
 *Line
 *Shape
-*Photography
-*Spacing
-*Positioning
+*Color
+*Texture
+*Pattern
+*Negative space
 *Mass
-*texture
-*Balance
-*Proximity
-*Consistency
 *Contrast
+*proportion
+*Proximity
+*Spacing
+*Balance
+*Photography
+*Positioning
+*variety/richness
+*Consistency
 *Movement
 * rhythm/tone Of message/Theme
-*variety/richness
-*proportion
+*Typography
+
 
 Your job as a graphic designer is to manipulate & add/remove these elements to deliver a message, an experience, and functionality.
 
-NOTE: This is meant to be step toward explaining design and art. Not UI, not App Design, not Web Design...all that comes later. Step by step is the best approach. Otherwise learner will be always half baked. Keep all that separate. Gradual progress is better. 
+NOTE: This is meant to be step toward explaining design and art. Not UI, not App Design, not Web Design...all that comes later. Step by step is the best approach. Otherwise learner will be always half baked. Keep all that separate. Gradual progress is better.
 }}
 {{Examples_Section
 |Not_required=No
