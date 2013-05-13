@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -39,8 +40,8 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=26
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=22
 |Firefox_supported=Yes
@@ -69,8 +70,8 @@
 |Blackberry_version=
 |Blackberry_prefixed_supported=Yes
 |Blackberry_prefixed_version=10.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=26
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=25
 |Firefox_mobile_supported=Yes
