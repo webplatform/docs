@@ -65,7 +65,7 @@
 |Code=/* Outlines do not take up space, they are drawn above the content */
 .outline { outline: 10px solid #f00; }
 
-/* Browsers do */
+/* Borders do */
 .border { border: 10px solid #f00; }
 |LiveURL=http://code.webplatform.org/gist/5546728
 }}{{Single Example
