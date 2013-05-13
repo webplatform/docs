@@ -34,33 +34,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=The following examples use the '''border-top-color''' attribute and the '''border-top-color''' property to specify the color of the top border.
-
-This example uses a call to an embedded (global) style sheet to change the color of the top border to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-top-color: red;
-        border-width: 0.5cm; border-style: groove }
-    .blue { border-top-color: blue }  
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onmouseover{{=}}"this.className{{=}}'blue'"
-        onmouseout{{=}}"this.className{{=}}''"&gt;
-    &lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-top-color.htm
-}}{{Single Example
-|Language=HTML
-|Description=This example uses inline scripting to change the color of the top border to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-    this.style.borderTopColor{{=}}'blue'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderTopColor.htm
-}}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the use of <code>border-top-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 |Code=.box {
