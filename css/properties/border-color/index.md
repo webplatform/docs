@@ -33,7 +33,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=A simple example showing how to use the border-color property on HTML div elements.
-|Code=              .one {
+|Code=.one {
 		  color: #6CC644;
 		  border: medium solid;
 		}
@@ -65,12 +65,14 @@
 
 The color value can also be a numerical value, such as one of the following:
 
-a basic color keyword, such as "red"
-a hex value, such as #ff0000
-an red-green-blue (RGB) value, such as rgb(255,0,0)
-an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
-a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
-HSLa, such as hsl(0, 100%, 50%, 1)
+* a basic color keyword, such as "red"
+* a hex value, such as #ff0000
+* an red-green-blue (RGB) value, such as rgb(255,0,0)
+* an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+* a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+* HSLa, such as hsl(0, 100%, 50%, 1)
+
+The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
 }}
 {{Related_Specifications_Section
 |Specifications=
