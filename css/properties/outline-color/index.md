@@ -41,7 +41,7 @@
 	/* outline invert */
 	outline-color: invert;
 }
-|LiveURL=http://code.webplatform.org/gist/5566688Sets the color of the outline frame.  The outline-color CSS property sets the color of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
+|LiveURL=http://code.webplatform.org/gist/5566688
 }}
 }}
 {{Notes_Section
