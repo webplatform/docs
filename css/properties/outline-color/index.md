@@ -15,7 +15,10 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=An example of using outline color
-|Code=&lt;div class=&quot;outline&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--blue&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--green&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--invert&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt;
+|Code=&lt;div class=&quot;outline&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; 
+&lt;div class=&quot;outline outline--blue&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt;
+&lt;div class=&quot;outline outline--green&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; 
+&lt;div class=&quot;outline outline--invert&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5566688
 }}{{Single Example
 |Language=CSS
