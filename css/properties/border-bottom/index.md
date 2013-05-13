@@ -78,12 +78,11 @@ p {
 }}{{Single Example
 |Language=HTML
 |Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-bottom</code> properties applied to them.
-|Code=<div class="one"><p>One</p></div>
-<div class="two"><p>Two</p></div>
-<div class="three"><p>Three</p></div>
-<div class="four"><p>Four</p></div>
-<div class="five"><p>Five</p></div>
-
+|Code=&lt;div class="one"&gt;&lt;p&gt;One&lt;/p&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;p&gt;Two&lt;/p&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;p&gt;Three&lt;/p&gt;&lt;/div&gt;
+&lt;div class="four"&gt;&lt;p&gt;Four&lt;/p&gt;&lt;/div&gt;
+&lt;div class="five"&gt;&lt;p&gt;Five&lt;/p&gt;&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5539585
 }}
 }}
