@@ -34,32 +34,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-bottom-color''' attribute and the '''border-bottom-color''' property to specify the border color.
-
-This example uses a call to an embedded (global) style sheet to change the color of the bottom border.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-bottom-color: red;
-         border-width: 0.5cm; border-style: groove}
-    .blue { border-bottom-color: blue}  
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-   TD onmouseover{{=}}"this.className{{=}}'blue'"
-      onmouseout{{=}}"this.className{{=}}''"&gt;
-   &lt;IMG src{{=}}"sphere.jpg"&gt;
-   &lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-bottom-color.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the color of the bottom border.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-    this.style.borderBottomColor{{=}}'blue'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderBottomColor.htm
-}}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the use of <code>border-bottom-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 |Code=.box {
