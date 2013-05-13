@@ -15,10 +15,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=An example of using outline color
-|Code=<div class="outline">I ♥ WebPlatform.org!</div>
-<div class="outline outline--blue">I ♥ WebPlatform.org!</div>
-<div class="outline outline--green">I ♥ WebPlatform.org!</div>
-<div class="outline outline--invert">I ♥ WebPlatform.org!</div>
+|Code=&lt;div class=&quot;outline&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--blue&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--green&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt; &lt;div class=&quot;outline outline--invert&quot;&gt;I &hearts; WebPlatform.org!&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5566688
 }}{{Single Example
 |Language=CSS
@@ -81,8 +78,8 @@ IE8 Standards mode rendering.
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
