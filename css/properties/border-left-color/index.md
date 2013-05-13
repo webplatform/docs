@@ -34,32 +34,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''border-left-color''' attribute and the '''border-left-color''' property to specify the color of the left border.
-
-This example uses a call to an embedded (global) style sheet to change the color of the left border from <code>red</code> to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;HEAD&gt;
-&lt;STYLE&gt;
-    TD { border-left-color: red;
-        border-width: 0.5cm; border-style: groove}
-    .blue { border-left-color: blue}
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;TABLE BORDER&gt;
-&lt;TR&gt;
-    &lt;TD onmouseover{{=}}"this.className{{=}}'blue'"
-        onmouseout{{=}}"this.className{{=}}''"&gt;
-        &lt;IMG src{{=}}"sphere.jpg"&gt;
-    &lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/border-left-color.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the color of the left border from <code>red</code> to <code>blue</code> when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;TD onmouseover{{=}}"this.style.borderWidth{{=}}'0.5cm';
-    this.style.borderLeftColor{{=}}'blue'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderLeftColor.htm
-}}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the use of <code>border-left-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 |Code=.box {
