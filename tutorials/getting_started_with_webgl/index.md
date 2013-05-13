@@ -102,16 +102,16 @@ var vertices = [];
 Now let's think about the shape we want to draw — in this case we will draw a simple triangle. In such situations, it is always easier to think about what you want to draw by first sketching it out on paper, or in this case using ASCII art!
 
  <nowiki>                   
-/*                    2 - (0, 0.5)
-                               / \
-                             /     \
+/*                 2 - (0, 0.5)
+                  / \
+                 /   \
 (-0.5, -0.5) - 0/_____\1 - (0.5, -0.5)
 */
 </nowiki>
 
 It is worth explaining at this point that OpenGL (and therefore, WebGL) uses a right hand coordinate system, so the x axis goes left to right, the y axis goes bottom to top, and the z axis goes out of the screen towards you. With that in mind, let's populate the array with the coordinates we need to locate the vertices of our triangle:
 
- <syntaxhighlight lang="javascript">var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];</syntaxhighligh>
+ <syntaxhighlight lang="javascript">var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];</syntaxhighlight>
 
 So here the three coordinates — (-0.5, -0.5), (0.5, -0.5) and (0, 0.5) represent points on a Cartesian plane. We are using only 2D coordinates for this example: we will move into 3D later on in the series!
 
