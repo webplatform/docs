@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
 {{CSS Property
-|Initial value=None
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -45,7 +45,7 @@
 |Description=Looks as if the content on the inside of the outline is coming out of the canvas.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=This is a keyword indicating that all four values are inherited from their parent's element calculated value.
+|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
 }}
 }}
 {{Examples_Section
@@ -99,15 +99,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
-|Manual_sections====Related pages (MSDN)===
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]
-*[[css/cssom/currentStyle|currentStyle]]
-*[[css/cssom/runtimeStyle|runtimeStyle]]
-*[[css/cssom/style|style]]
-*Reference
-*[[css/selectors/outline|outline]]
-*[[css/selectors/outline-color|outline-color]]
-*[[css/selectors/outline-width|outline-width]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
