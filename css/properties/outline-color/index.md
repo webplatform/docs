@@ -13,7 +13,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=The computed value for ‘invert’ is ‘invert’. For <color> values, the computed value is as defined for the ‘color’ property.
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=outlineColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
