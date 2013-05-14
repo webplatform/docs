@@ -7,9 +7,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets the color of the outline frame.}}
-{{CSS_Selector
-|Content=The outline-color CSS property sets the color of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
-}}
 {{CSS Property
 |Initial value=Invert
 |Applies to=All elements
