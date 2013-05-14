@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The outline-offset property offsets the [[css/properties/outline|outline]] and draw it beyond the border edge.}}
 {{CSS Property
