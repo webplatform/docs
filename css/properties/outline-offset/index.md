@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The outline-offset property sets the offset of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
+{{Summary_Section|The outline-offset property offsets the [[css/properties/outline|outline]] and draw it beyond the border edge.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
@@ -19,6 +19,9 @@
 |Values={{CSS Property Value
 |Data Type=<length>
 |Description=Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length). 
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
 }}
 }}
 {{Examples_Section
