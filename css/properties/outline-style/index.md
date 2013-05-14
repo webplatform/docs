@@ -52,9 +52,92 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Blog post showing the different outline styles
-|Code=Here is a blog post showing the differente outline styles.
-|LiveURL=http://www.netsi.dk/wordpress/index.php/2012/10/31/css-outline-the-border-which-will-not-break-your-layout/
+|Description=A simple showing multiple <span>s.
+|Code=<div class="all">
+<p>
+      <span class="one">One</span>
+    </p>
+    <p>
+      <span class="two">Two</span>
+    </p>
+    <p>
+      <span class="three">Three</span>
+    </p>
+    <p>
+      <span class="four">Four</span>
+    </p>
+    <p>
+      <span class="five">Five</span>
+    </p>
+    <p>
+      <span class="six">Six</span>
+    </p>
+    <p>
+      <span class="seven">Seven</span>
+    </p>
+    <p>
+      <span class="eight">Eight</span>
+    </p>
+    <p>
+      <span class="nine">Nine</span>
+    </p>
+</div>
+|LiveURL=http://code.webplatform.org/gist/5579124
+}}{{Single Example
+|Language=CSS
+|Description=Outline styles in CSS.
+|Code=.all {
+  background-color: lightgrey;
+}
+
+.all p {
+  padding: 20px;
+}
+  
+.all span {
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 36px;
+  font-family: Bitter;
+  outline-width: 5px;
+}
+
+.all .one {
+  outline-style: none;
+}
+
+.all .two {
+  outline-style: outset;
+}
+
+.all .three {
+  outline-style: dotted;
+}
+
+.all .four {
+  outline-style: dashed;
+}
+
+.all .five {
+  outline-style: solid;
+}
+
+.all .six {
+  outline-style: double;
+}
+
+.all .seven {
+  outline-style: groove;
+}
+
+.all .eight {
+  outline-style: ridge;
+}
+
+.all .nine {
+  outline-style: inset;
+}
+|LiveURL=http://code.webplatform.org/gist/5579124
 }}
 }}
 {{Notes_Section
