@@ -38,8 +38,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-Displaying an outline does not cause reflow, no matter how wide the
+|Notes=*Displaying an outline does not cause reflow, no matter how wide the
 outline is. The outline frame is drawn over an element, and does
 not influence the position or size of the box, or of any other boxes.
 }}
@@ -63,14 +62,6 @@ not influence the position or size of the box, or of any other boxes.
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/selectors/outline|outline]]</code>
-*<code>[[css/selectors/outline-color|outline-color]]</code>
-*<code>[[css/selectors/outline-style|outline-style]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
