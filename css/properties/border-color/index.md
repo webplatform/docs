@@ -16,7 +16,7 @@ The default color is the currentColor of each of these values.
 If you provide one value, it sets the color for the element. Two values set the horizontal and vertical values, respectively. Providing three values sets the top, vertical, and bottom values, in that order. Four values set all for sides: top, right, bottom, and left, in that order.
 }}
 {{CSS Property
-|Initial value=color - The value of the 'color' property
+|Initial value=color - The value of the 'color' property for each of the border sides [[css/properties/border-top-color|border-top-color]], [[css/properties/border-right-color|border-right-color]], [[css/properties/border-bottom-color|border-bottom-color]], and [[css/properties/border-left-color|border-left-color]]
 |Applies to=All elements
 |Inherited=No
 |Media=visual
