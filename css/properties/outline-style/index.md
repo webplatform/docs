@@ -52,7 +52,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A simple showing multiple &lt;span&gt;s.
+|Description=A simple example showing multiple &lt;span&gt;s.
 |Code=&lt;div class="all"&gt;
 &lt;p&gt;
       &lt;span class="one"&gt;One&lt;/span&gt;
