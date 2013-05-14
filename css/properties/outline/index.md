@@ -147,12 +147,9 @@ a:hover {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Displaying an outline does not cause reflow, no matter how wide the
+|Notes=Displaying an outline does not cause reflow, no matter how wide the
 outline is. The outline frame is drawn over an element, and does
 not influence the position or size of the box, or of any other boxes.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
