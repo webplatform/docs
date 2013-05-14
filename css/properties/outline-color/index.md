@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The outline-color CSS property sets the color of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
+{{Summary_Section|The outline-color property sets the color of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
 {{CSS Property
 |Initial value=Invert
 |Applies to=All elements
@@ -21,7 +21,7 @@
 |Description=Specify the color to use on all outlines. This can be anywhere from one to four values representing the top, right, bottom, and left outline respectively.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=This is a keyword indicating that all four values are inherited from their parent's element calculated value.
+|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
 }}{{CSS Property Value
 |Data Type=Invert
 |Description=This is expected to perform a color inversion on the pixels on the screen.
@@ -72,11 +72,7 @@
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
-|Notes====Remarks===
-A value of '''invert''' ensures that the outline
-is visible regardless of the background color.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
+|Notes=A value of '''invert''' ensures that the outline is visible regardless of the background color.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -98,14 +94,6 @@ IE8 Standards mode rendering.
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/selectors/outline|outline]]</code>
-*<code>[[css/selectors/outline-style|outline-style]]</code>
-*<code>[[css/selectors/outline-width|outline-width]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
