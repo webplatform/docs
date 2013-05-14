@@ -61,7 +61,7 @@
 |LiveURL=http://code.webplatform.org/gist/5546931
 }}{{Single Example
 |Language=CSS
-|Description=Even though the syntax of outline and border is similar they differ in the way how they are drawn
+|Description=Even though the syntax of outline and border is similar they differ in the way they are drawn.
 |Code=/* Outlines do not take up space, they are drawn above the content */
 .outline { outline: 10px solid #f00; }
 
@@ -70,7 +70,7 @@
 |LiveURL=http://code.webplatform.org/gist/5546728
 }}{{Single Example
 |Language=HTML
-|Description=An example of how outline and border behave when applied to an inline element which spans on multiple lines.
+|Description=An example of how outline and border behave when applied to an inline element spanning multiple lines.
 |Code=&lt;p&gt;Web Platform Docs is a community-driven site that aims to become &lt;span class=&quot;outline&quot;&gt;a comprehensive and authoritative source for web developer documentation.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Web Platform Docs is a community-driven site that aims to become &lt;span class=&quot;border&quot;&gt;a comprehensive and authoritative source for web developer documentation.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Web Platform Docs is a community-driven site that aims to become &lt;span class=&quot;outline border&quot;&gt;a comprehensive and authoritative source for web developer documentation.&lt;/span&gt;&lt;/p&gt;
