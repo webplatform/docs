@@ -62,20 +62,32 @@
 }}
 }}
 {{Notes_Section
+|Usage=The color value can be a numerical value, such as one of the following:
+
+* a basic color keyword, such as "red"
+* a hex value, such as #ff0000
+* an red-green-blue (RGB) value, such as rgb(255,0,0)
+* an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+* a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+* HSLa, such as hsl(0, 100%, 50%, 1)
+
+The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
 |Notes====Remarks===
 A value of '''invert''' ensures that the outline
 is visible regardless of the background color.
 This property requires Windows Internet Explorer to be in
 IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''outline-color: '''''
-&lt;color&gt;
-'' '''{{!}}''' invert</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 18.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 UI, 7.4. ‘outline-color’ property
+|URL=http://dev.w3.org/csswg/css-ui/#outline-color
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, 18.4 Dynamic outlines: the 'outline' property
+|URL=http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
