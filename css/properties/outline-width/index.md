@@ -38,8 +38,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=*Displaying an outline does not cause reflow, no matter how wide the
-outline is. The outline frame is drawn over an element, and does
+|Notes=Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does
 not influence the position or size of the box, or of any other boxes.
 }}
 {{Related_Specifications_Section
