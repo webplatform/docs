@@ -7,14 +7,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The CSS <code>outline</code> property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.}}
-{{CSS_Selector
-|Content=Outlines differ from [[css/properties/border|borders]] in the following ways:
-
-* Outlines do not take up space, they are drawn above the content.
-* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct like this:
-
-<strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
-}}
 {{CSS Property
 |Initial value=see individual properties
 |Applies to=All elements
@@ -156,14 +148,13 @@ outline is. The outline frame is drawn over an element, and does
 not influence the position or size of the box, or of any other boxes.
 This property requires Windows Internet Explorer to be in
 IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>outline:  [ &lt;outline-width&gt; {{!}}{{!}} &lt;outline-style&gt; {{!}}{{!}} &lt;outline-color&gt; ] {{!}} inherit</code>
-
-===Standards information===
-*[http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines CSS 2.1], Section 18.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
+|URL=http://dev.w3.org/csswg/css-ui/#outline
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -182,4 +173,20 @@ IE8 Standards mode rendering.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{CSS_Selector
+|Content=Outlines differ from [[css/properties/border|borders]] in the following ways:
+
+* Outlines do not take up space, they are drawn above the content.
+* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct like this:
+
+<strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
+}}
+
+
+
+
+
+
+
+
 {{Languages|css/properties/outline}}
