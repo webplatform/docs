@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-{{Languages}}
-
 = Pointer Events =
 
 <div class="topic-container">
