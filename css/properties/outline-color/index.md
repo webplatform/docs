@@ -72,7 +72,8 @@
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
-|Notes=A value of '''invert''' ensures that the outline is visible regardless of the background color.
+|Notes=* A value of '''invert''' ensures that the outline is visible regardless of the background color.
+* The [[css/properties/outline|outline]] property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
