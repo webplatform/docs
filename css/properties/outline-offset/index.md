@@ -26,7 +26,53 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple &lt;span&gt;s with border and outline.
+|Code=&lt;div class="all"&gt;
+    &lt;p&gt;
+      &lt;span class="one"&gt;One&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="two"&gt;Two&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="three"&gt;Three&lt;/span&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5579301
+}}{{Single Example
+|Language=CSS
+|Code=.all {
+  background-color: lightgrey;
+}
+
+.all p {
+  padding: 20px;
+}
+  
+.all span {
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 36px;
+  font-family: Bitter;
+  border: red solid 3px;
+  outline: blue solid 3px;
+}
+
+.all .one {
+  outline-offset: 0px;
+}
+
+.all .two {
+  outline-offset: 5px;
+}
+
+.all .three {
+  outline-offset: 0.2em;
+}
+|LiveURL=http://code.webplatform.org/gist/5579301
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
