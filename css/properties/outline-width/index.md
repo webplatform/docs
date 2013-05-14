@@ -38,8 +38,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does
-not influence the position or size of the box, or of any other boxes.
+|Notes=* Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does not influence the position or size of the box, or of any other boxes.
+* The [[css/properties/outline|outline]] property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
