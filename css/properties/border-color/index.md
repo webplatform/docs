@@ -21,7 +21,7 @@ If you provide one value, it sets the color for the element. Two values set the 
 |Inherited=No
 |Media=visual
 |Computed value=See individual properties
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=borderColor
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -83,13 +83,6 @@ The color value can also be a numerical value, such as one of the following:
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
-|Notes=border-color is not animatable, but its component values are:
-
-* [[css/properties/border-top-color|border-top-color]]
-* [[css/properties/border-right-color|border-right-color]]
-* [[css/properties/border-bottom-color|border-bottom-color]]
-* [[css/properties/border-left-color|border-left-color]]
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -103,7 +96,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
