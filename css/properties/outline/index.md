@@ -15,6 +15,26 @@
 
 <strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
 }}
+{{CSS Property
+|Initial value=see individual properties
+|Applies to=All elements
+|Inherited=No
+|Media=visual
+|Computed value=see individual properties
+|Animatable=Yes
+|CSS object model property=outline
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=outline-color outline-style outline-width
+|Description=The <code>outline</code> property can contain up to three components:
+* <code>outline-color</code>: This can take any valid CSS color as its value.
+* <code>outline-style</code>: This takes any of the range of style values available to the [[css/properties/outline-style|'''outline-style''']] property, which includes <code>none</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/outline-style|'''outline-style''']] page.
+* <code>outline-width</code>: This takes a numeric value with any of the standard length units.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
+}}
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
