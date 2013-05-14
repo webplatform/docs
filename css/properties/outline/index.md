@@ -173,20 +173,4 @@ IE8 Standards mode rendering.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-{{CSS_Selector
-|Content=Outlines differ from [[css/properties/border|borders]] in the following ways:
-
-* Outlines do not take up space, they are drawn above the content.
-* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct like this:
-
-<strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
-}}
-
-
-
-
-
-
-
-
 {{Languages|css/properties/outline}}
