@@ -7,12 +7,7 @@
 
 
 
-
-
-
-
-
-
+{{Languages}}
 
 = Pointer Events =
 
