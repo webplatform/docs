@@ -43,13 +43,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3 UI, 7.2. ‘outline-width’ property
+|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
 |URL=http://dev.w3.org/csswg/css-ui/#outline-width0
 |Status=Working Draft
-}}{{Related Specification
-|Name=CSS 2.1, 18.4 Dynamic outlines: the 'outline' property
-|URL=http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines
-|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
