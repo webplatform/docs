@@ -62,10 +62,13 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS 2.1
-|URL=http://www.w3.org/TR/CSS2/
-|Status=Recommendation
-|Relevant_changes=Section 18.4
+|Name=CSS3 UI, 7.3. ‘outline-style’ property
+|URL=http://dev.w3.org/csswg/css-ui/#outline-style0
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, 18.4 Dynamic outlines: the 'outline' property
+|URL=http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
