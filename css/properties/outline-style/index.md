@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -52,36 +52,36 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A simple showing multiple <span>s.
-|Code=<div class="all">
-<p>
-      <span class="one">One</span>
-    </p>
-    <p>
-      <span class="two">Two</span>
-    </p>
-    <p>
-      <span class="three">Three</span>
-    </p>
-    <p>
-      <span class="four">Four</span>
-    </p>
-    <p>
-      <span class="five">Five</span>
-    </p>
-    <p>
-      <span class="six">Six</span>
-    </p>
-    <p>
-      <span class="seven">Seven</span>
-    </p>
-    <p>
-      <span class="eight">Eight</span>
-    </p>
-    <p>
-      <span class="nine">Nine</span>
-    </p>
-</div>
+|Description=A simple showing multiple &lt;span&gt;s.
+|Code=&lt;div class="all"&gt;
+&lt;p&gt;
+      &lt;span class="one"&gt;One&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="two"&gt;Two&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="three"&gt;Three&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="four"&gt;Four&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="five"&gt;Five&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="six"&gt;Six&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="seven"&gt;Seven&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="eight"&gt;Eight&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="nine"&gt;Nine&lt;/span&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5579124
 }}{{Single Example
 |Language=CSS
