@@ -31,7 +31,7 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3 UI, 7.5. ‘outline-offset’ property
+|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
 |URL=http://dev.w3.org/csswg/css-ui/#outline-offset0
 |Status=Working Draft
 }}
