@@ -6,9 +6,49 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the style of an outline.}}
-{{CSS_Selector
-|Content====Syntax===
-<code>'''outline-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' outset '''{{!}}''' window-inset</code>
+{{CSS Property
+|Initial value=None
+|Applies to=All elements
+|Inherited=No
+|Media=visual
+|Computed value=Specified value
+|Animatable=No
+|CSS object model property=outlineStyle
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=auto
+|Description=
+}}{{CSS Property Value
+|Data Type=none
+|Description=Default. Outline is not drawn, color and width are ignored.
+}}{{CSS Property Value
+|Data Type=dotted
+|Description=A series of round or square dots.
+}}{{CSS Property Value
+|Data Type=dashed
+|Description=A series of square-ended dashes.
+}}{{CSS Property Value
+|Data Type=solid
+|Description=A single line segment.
+}}{{CSS Property Value
+|Data Type=double
+|Description=Outline is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/outline-width|outline-width]] value. The border width must be at least 3 pixels wide to draw a double outline.
+}}{{CSS Property Value
+|Data Type=groove
+|Description=Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the [[css/properties/outline-color|outline-color]].)
+}}{{CSS Property Value
+|Data Type=ridge
+|Description=Looks as if it were coming out of the canvas.
+}}{{CSS Property Value
+|Data Type=inset
+|Description=Looks as if the content on the inside of the outline is sunken into the canvas.
+}}{{CSS Property Value
+|Data Type=outset
+|Description=Looks as if the content on the inside of the outline is coming out of the canvas.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=This is a keyword indicating that all four values are inherited from their parent's element calculated value.
+}}
 }}
 {{Examples_Section
 |Not_required=No
