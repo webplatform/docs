@@ -9,11 +9,8 @@
 {{Summary_Section|The CSS <code>outline</code> property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
 Outlines differ from [[css/properties/border|borders]] in the following ways:
-
 * Outlines do not take up space, they are drawn above the content.
-* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct like this:
-
-&lt;strong style="color: green; outline: 1px dotted;"&gt;Web&lt;span style="font-size: xx-large;"&gt;Platform&lt;/span&gt;Docs&lt;/strong&gt;
+* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct.
 }}
 {{CSS Property
 |Initial value=see individual properties
