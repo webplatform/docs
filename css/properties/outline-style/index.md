@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies the style of an outline.}}
+{{Summary_Section|The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
 {{CSS Property
 |Initial value=None
 |Applies to=All elements
@@ -16,9 +17,6 @@
 |CSS object model property=outlineStyle
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=auto
-|Description=
-}}{{CSS Property Value
 |Data Type=none
 |Description=Default. Outline is not drawn, color and width are ignored.
 }}{{CSS Property Value
