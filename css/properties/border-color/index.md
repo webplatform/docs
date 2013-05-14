@@ -7,13 +7,13 @@
 {{Summary_Section|The CSS border-color property sets the color of an element's four borders. This property can have from one to four values, made up of the elementary properties: 
 
 * [[css/properties/border-top-color|border-top-color]]
-* [[css/properties/border-right-color|border-rig`ht-color]]
+* [[css/properties/border-right-color|border-right-color]]
 * [[css/properties/border-bottom-color|border-bottom-color]]
 * [[css/properties/border-left-color|border-left-color]]
 
-The default color is the currentColor of each of these values.
+The default color is the currentColor, or the color value of the parent object, of each of these values.
 
-If you provide one value, it provides the color for the element. Two values set the horizontal and vertical values, respectively. Providing three values set the top, vertical, and bottom values, in that order. Providing four values set all for sides: top, right, bottom, and left, in that order.
+If you provide one value, it sets the color for the element. Two values set the horizontal and vertical values, respectively. Providing three values set the top, vertical, and bottom values, in that order. Providing four values set all for sides: top, right, bottom, and left, in that order.
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
