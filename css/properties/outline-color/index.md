@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The outline-color property sets the color of the [[css/properties/outline|outline]] of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
 {{CSS Property
-|Initial value=Invert
+|Initial value=invert
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -20,11 +20,11 @@
 |Data Type=<color>
 |Description=Specify the color to use on all outlines. This can be anywhere from one to four values representing the top, right, bottom, and left outline respectively.
 }}{{CSS Property Value
+|Data Type=invert
+|Description=This is expected to perform a color inversion on the pixels on the screen.
+}}{{CSS Property Value
 |Data Type=inherit
 |Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
-}}{{CSS Property Value
-|Data Type=Invert
-|Description=This is expected to perform a color inversion on the pixels on the screen.
 }}
 }}
 {{Examples_Section
