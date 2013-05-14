@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -35,7 +35,60 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple &lt;span&gt;s.
+|Code=&lt;div class="all"&gt;
+    &lt;p&gt;
+      &lt;span class="medium"&gt;Medium&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="thin"&gt;Thin&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="thick"&gt;Thick&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      &lt;span class="width"&gt;10px&lt;/span&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5579241
+}}{{Single Example
+|Language=CSS
+|Description=CSS outline width values.
+|Code=.all {
+  background-color: lightgrey;
+}
+
+.all p {
+  padding: 20px;
+}
+  
+.all span {
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 36px;
+  font-family: Bitter;
+  outline-style: solid;
+}
+
+.all .medium {
+  outline-width: medium;
+}
+
+.all .thin {
+  outline-width: thin;
+}
+
+.all .thick {
+  outline-width: thick;
+}
+
+.all .width {
+  outline-width: 10px;
+}
+|LiveURL=http://code.webplatform.org/gist/5579241
+}}
 }}
 {{Notes_Section
 |Notes=* Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does not influence the position or size of the box, or of any other boxes.
