@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Review
+|High-level issues=Needs Review
 |Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
