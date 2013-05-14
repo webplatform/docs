@@ -57,7 +57,10 @@
 |LiveURL=http://www.netsi.dk/wordpress/index.php/2012/10/31/css-outline-the-border-which-will-not-break-your-layout/
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=* This property accepts the same values as [[css/properties/border-style|border-style]], ''except'' that ‘hidden’ is not a legal outline style.
+* The [[css/properties/outline|outline]] property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 UI, 7.3. ‘outline-style’ property
