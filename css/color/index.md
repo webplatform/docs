@@ -11,7 +11,6 @@ The [http://www.w3.org/TR/REC-html40/types.html#h-6.5 HTML 4.01 spec] defines 1
 
 <syntaxHighlight>color: red; /* color rendered pure red */</syntaxHighlight>
 
-
 The [http://www.w3.org/TR/CSS2/syndata.html#color-units Cascading Style Sheets, Level 2 Revision 1 (CSS2.1)] specification includes "orange" (#FFA500) for a total of 17 color keywords.
 
 ==Extended Color keywords==
@@ -147,6 +146,8 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 *[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
 |Topic_clusters=Visual Effects
 }}
+
+
 
 
 
