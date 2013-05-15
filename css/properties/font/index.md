@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|font}}
 {{Flags
 |Checked_Out=No
 }}
@@ -15,15 +15,24 @@
 |CSS object model property=font
 |Values={{CSS Property Value
 |Data Type=font-weight font-style font-variant font-size/line-height font-family
-|Description=Any of the range of font-style values available to the [[css/properties/font-style|'''font-style''']] property.
+|Description=<code>font</code> can take up to six separate parts in its value, which set six different longhand property values. The options are as follows:
+
+* <code>font-weight</code>: Sets boldness of font; can take values of <code>normal</code> (default), <code>bold</code> (standard bold weight), <code>lighter</code> or <code>bolder</code> (supposed to be a slightly lighter or bolder weight that standard <code>bold</code>), inherit, or various numerical values to indicate different degrees of boldness: <code>100</code>, <code>200</code>, <code>300</code>, <code>400</code>, <code>500</code>, <code>600</code>, <code>700</code>, <code>800</code>, or <code>900</code>.
+* <code>font-style</code>: Allows an italic or oblique font face to be applied; values options are <code>normal</code> (default), italic, oblique, or inherit.
+* <code>font-variant</code>: Allows a small caps font variant to be set. Value options are <code>normal</code> (default), <code>small-caps</code>, or <code>inherit</code>.
+* <code>font-size/</code>: Sets a size for the font. Options are absolute size keywords (<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code> (the default value), <code>large</code>, <code>x-large</code> or <code>xx-large</code>), relative size keywords (<code>smaller</code> or <code>larger</code>, which indicate a keyword size smaller or larger than the parent element's font size), length values (for example <code>12px</code>, or <code>5rem</code>), percentage values (for example <code>80%</code>), or <code>inherit</code>.
+* <code>line-height</code>: Sets the height of the line the font is sat on. Value options include <code>normal</code> (the default), unitless values (for example <code>1.7</code>), length values (for example <code>20px</code> or <code>3.5rem</code>), percentage values (for example <code>120%</code>), or <code>inherit</code>.
+* <code>font-family</code>: Allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.
 }}{{CSS Property Value
 |Data Type=system font
-|Description=caption: User-preference font used in objects that have captions—buttons, labels, and so on.
-icon: User-preference font used in icon labels.
-menu: User-preference font used in menus.
-message-box: User-preference font used in dialog boxes.
-small-caption: User-preference font used in small controls.
-status-bar: User-preference font used in small controls.
+|Description=Alternatively, you can set the value to be a single keyword that corresponds to a system font used to style a certain feature of the system the browser is running on (some browsers offer more, proprietary options. For more, see the links at the bottom of the document): 
+
+* <code>caption</code>: User-preference font used in objects that have captions—buttons, labels, and so on.
+* <code>icon</code>: User-preference font used in icon labels.
+* <code>menu</code>: User-preference font used in menus.
+* <code>message-box</code>: User-preference font used in dialog boxes.
+* <code>small-caption</code>: User-preference font used in small controls.
+* <code>status-bar</code>: User-preference font used in small controls.
 }}
 }}
 {{Examples_Section
@@ -56,11 +65,10 @@ status-bar: User-preference font used in small controls.
 }}
 }}
 {{Notes_Section
-|Notes=This is a composite property that specifies up to six font values. The '''font-style''', 
-'''font-variant''', and '''font-weight''' values may appear in any order before '''font-size'''. However, the '''font-size''', '''line-height''', and '''font-family''' properties must appear in the order listed. Setting the '''font''' property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only '''font-family''' may have more than one value. 
+|Notes=The '''font-style''', '''font-variant''', and '''font-weight''' values may appear in any order before '''font-size'''. However, the '''font-size''', '''line-height''', and '''font-family''' properties must appear in the order listed. Setting the '''font''' property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only '''font-family''' may have more than one value. 
 If the string does not contain a value for a component property, that property is set to its default, regardless of prior settings for that component property.
-|Import_Notes====Syntax===
-<code>'''font: ''''''[''' '''[''' font-style '''{{!}}{{!}}''' font-variant '''{{!}}{{!}}''' font-weight ''']''''''?''' font-size '''[''' / line-height ''']''''''?''' font-family ''']''' '''{{!}}''' caption '''{{!}}''' icon '''{{!}}''' menu '''{{!}}''' message-box '''{{!}}''' small-caption '''{{!}}''' status-bar</code>
+
+* Read https://developer.mozilla.org/en-US/docs/Web/CSS/font for more information on Firefox's additional proprietary system font settings.
 }}
 {{Related_Specifications_Section
 |Specifications=
