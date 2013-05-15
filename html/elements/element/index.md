@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
-|Content=Compatibility Incomplete, Examples Needed, Needs Summary
-|Checked_Out=No
+|Content=Compatibility Incomplete,Examples Needed,Needs Summary
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
