@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|HTMLElement is the interface that all DOM Nodes subclass from. It provides functionality specific to HTML that is not present in the basic Element interface.}}
 {{API_Object
 |Subclass_of=dom/Element
 }}
@@ -111,6 +112,9 @@ The '''HTMLElement''' object has these properties.
 {{!}}Specifies whether spell checking is applied to an editable text field.
 {{!}}}
  
+{{Editorial/Merge_Candidate
+|Other=dom/apis/HTMLElement
+}}
 }}
 {{Related_Specifications_Section
 |Specifications=
