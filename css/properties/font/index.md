@@ -1,53 +1,29 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Errors, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Font is a short-hand for setting most properties associated with a font, including font-style, font-size, font-family, in one single line.}}
+{{Summary_Section|the <code>font</code> property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.}}
 {{CSS Property
+|Initial value=<code>normal</code> for <code>font-style</code>, <code>font-variant</code> and <code>font-weight</code>. <code>medium</code> for <code>font-size</code>. <code>normal</code> for <code>line-height</code>. <code>font-family</code> initial value differs depending on the user agent.
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Animatable=No
+|Computed value=For <code>font-style</code> as specified. For <code>font-variant</code> as specified. For <code>font-weight</code> the keyword or the numerical value as specified, with bolder and lighter transformed to the real value. For <code>font-size</code> as specified, but with relative lengths converted into absolute lengths. For percentage and length values of <code>line-height</code>, the absolute length, otherwise as specified; </code>font-family</code> as specified.
+|Animatable=Yes
+|CSS object model property=font
 |Values={{CSS Property Value
-|Data Type=font-style
+|Data Type=font-weight font-style font-variant font-size/line-height font-family
 |Description=Any of the range of font-style values available to the [[css/properties/font-style|'''font-style''']] property.
 }}{{CSS Property Value
-|Data Type=font-variant
-|Description=Any of the range of font-variant values available to the [[css/fonts/font-variant|'''font-variant''']] property.
-}}{{CSS Property Value
-|Data Type=font-weight
-|Description=Any of the range of font-weight values available to the [[css/properties/font-weight|'''font-weight''']] property.
-}}{{CSS Property Value
-|Data Type=font-size
-|Description=Any of the range of font-size values available to the [[css/properties/font-size|'''font-size''']] property. When this value is an integer followed by a percent (%), the value is a percentage of the parent object's font size.
-}}{{CSS Property Value
-|Data Type=line-height
-|Description=Any of the range of line-height values available to the [[css/properties/line-height|'''line-height''']] property. When used with the '''font''' property, this attribute must include a slash (/) before the value. Line height percentage values are calculated as a percentage of the font size of the element itself, not of the parent.
-}}{{CSS Property Value
-|Data Type=font-family
-|Description=Any of the range of font-family values available to the [[css/properties/font-family|'''font-family''']] property. This property can be set to multiple comma-separated values. Its default value depends on user settings.
-}}{{CSS Property Value
-|Data Type=caption
-|Description=User-preference font used in objects that have captions—buttons, labels, and so on.
-}}{{CSS Property Value
-|Data Type=icon
-|Description=User-preference font used in icon labels.
-}}{{CSS Property Value
-|Data Type=menu
-|Description=User-preference font used in menus.
-}}{{CSS Property Value
-|Data Type=message-box
-|Description=User-preference font used in dialog boxes.
-}}{{CSS Property Value
-|Data Type=small-caption
-|Description=User-preference font used in small controls.
-}}{{CSS Property Value
-|Data Type=status-bar
-|Description=User-preference font used in window status bars.
+|Data Type=system font
+|Description=caption: User-preference font used in objects that have captions—buttons, labels, and so on.
+icon: User-preference font used in icon labels.
+menu: User-preference font used in menus.
+message-box: User-preference font used in dialog boxes.
+small-caption: User-preference font used in small controls.
+status-bar: User-preference font used in small controls.
 }}
 }}
 {{Examples_Section
