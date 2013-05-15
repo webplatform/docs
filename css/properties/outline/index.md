@@ -1,19 +1,36 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The CSS <code>outline</code> property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.}}
-{{CSS_Selector
-|Content=Outlines differ from [[css/properties/border|borders]] in the following ways:
+{{Summary_Section|The CSS <code>outline</code> property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
+Outlines differ from [[css/properties/border|borders]] in the following ways:
 * Outlines do not take up space, they are drawn above the content.
-* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct like this:
-
-<strong style="color: green; outline: 1px dotted;">Web<span style="font-size: xx-large;">Platform</span>Docs</strong>
+* Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct.
+}}
+{{CSS Property
+|Initial value=see individual properties
+|Applies to=All elements
+|Inherited=No
+|Media=visual
+|Computed value=see individual properties
+|Animatable=Yes
+|CSS object model property=outline
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=outline-color outline-style outline-width
+|Description=The <code>outline</code> property can contain up to three components:
+* <code>outline-color</code>: This can take any valid CSS color as its value.
+* <code>outline-style</code>: This takes any of the range of style values available to the [[css/properties/outline-style|'''outline-style''']] property, which includes <code>none</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/outline-style|'''outline-style''']] page.
+* <code>outline-width</code>: This takes a numeric value with any of the standard length units.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -130,20 +147,16 @@ a:hover {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Displaying an outline does not cause reflow, no matter how wide the
+|Notes=Displaying an outline does not cause reflow, no matter how wide the
 outline is. The outline frame is drawn over an element, and does
 not influence the position or size of the box, or of any other boxes.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>outline:  [ &lt;outline-width&gt; {{!}}{{!}} &lt;outline-style&gt; {{!}}{{!}} &lt;outline-color&gt; ] {{!}} inherit</code>
-
-===Standards information===
-*[http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines CSS 2.1], Section 18.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
+|URL=http://dev.w3.org/csswg/css-ui/#outline
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
