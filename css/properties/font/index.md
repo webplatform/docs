@@ -38,8 +38,15 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A selection of examples showing some typical uses of the <code>font</code> property.
+|Code=&lt;p class="example-one"&gt;Example One: We &hearts; WebPlatform Docs!&lt;/p&gt;
+
+&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
+
+&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
+}}{{Single Example
 |Language=CSS
-|Description=The following example demonstrates some of the uses of the <code>font</code> property.
 |Code=.example-one {
   /*    size  family    */
   font: 1.5em sans-serif;
@@ -57,17 +64,25 @@
 |LiveURL=http://dabblet.com/gist/5521520
 }}{{Single Example
 |Language=HTML
-|Code=&lt;p class="example-one"&gt;Example One: We &hearts; WebPlatform Docs!&lt;/p&gt;
+|Description=A couple of theoretical font examples, showing first a <code>font</code> property value with all possible longhand values included, and second, a system default font being used.
+|Code=.one {
+  font: bold italic small-caps 18px/24px georgia;
+}		
 
-&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
-
-&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
+.two {
+  font: status-bar;
+}
+|LiveURL=http://code.webplatform.org/gist/5586740
+}}{{Single Example
+|Language=CSS
+|Code=<p class="one">First font example.<br>This shows all possible longhand values being used at once.</p>
+<p class="two">Second font example.<br>This shows a system default being used.</p>
+|LiveURL=http://code.webplatform.org/gist/5586740
 }}
 }}
 {{Notes_Section
-|Notes=The '''font-style''', '''font-variant''', and '''font-weight''' values may appear in any order before '''font-size'''. However, the '''font-size''', '''line-height''', and '''font-family''' properties must appear in the order listed. Setting the '''font''' property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only '''font-family''' may have more than one value. 
+|Notes=*The '''font-style''', '''font-variant''', and '''font-weight''' values may appear in any order before '''font-size'''. However, the '''font-size''', '''line-height''', and '''font-family''' properties must appear in the order listed. Setting the '''font''' property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only '''font-family''' may have more than one value. 
 If the string does not contain a value for a component property, that property is set to its default, regardless of prior settings for that component property.
-
 * Read https://developer.mozilla.org/en-US/docs/Web/CSS/font for more information on Firefox's additional proprietary system font settings.
 }}
 {{Related_Specifications_Section
