@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|the <code>font</code> property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.}}
+{{Summary_Section|The <code>font</code> property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.}}
 {{CSS Property
 |Initial value=normal for font-style, font-variant and font-weight. medium for font-size. normal for line-height. font-family initial value differs depending on the user agent.
 |Applies to=All elements
