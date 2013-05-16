@@ -1,7 +1,9 @@
 {{Page_Title|Page layout with floats and clearing}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
-{{Summary_Section|In this article you will get acquainted with floating and clearing — two must-have tools for web pages layout.}}
+{{Summary_Section|In this article you will get acquainted with floating and clearing — two must-have tools for web page layout.}}
 {{Tutorial
 |Content=== What are float and clear for? ==
  
@@ -490,8 +492,10 @@ When an inline box is floated it becomes a block-level box. When a block-level b
  
 Centering a shrink-wrapped floating box is possible by adding a wrapper element and some judicious use of relative positioning.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
