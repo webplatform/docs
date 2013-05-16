@@ -404,7 +404,7 @@ Let’s try it. In the following example you’ll add a horizontal menu bar to y
 <li>
 <p>Add the following CSS rules to your style sheet, to style the menu:</p>
 
-<pre><code>#menu {
+<pre>#menu {
    margin: 0;
    padding: 0.5em;
    font-family: Verdana,sans-serif;
