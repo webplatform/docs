@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -16,7 +17,7 @@
 |Method_applies_to=dom/document
 |Example_object_name=document
 |Return_value_name=element
-|Javascript_data_type=DOM Node
+|Javascript_data_type=Element
 |Return_value_description=The created element.
 }}
 {{Examples_Section
@@ -77,6 +78,7 @@ document.addEventListener("change", create, false);
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
