@@ -1,10 +1,10 @@
-{{Page_Title}}
+{{Page_Title|font-family}}
 {{Flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property contains one or more font family names and/or generic family names. For each character that a user agent (browser) has to render, it iterates through the list of family names (first to last) until it matches a font available on the system that contains a glyph for that character.}}
+{{Summary_Section|The <code>font-family</code> property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.}}
 {{CSS Property
 |Initial value=depends on user agent
 |Applies to=All elements
@@ -15,7 +15,7 @@
 |CSS object model property=fontFamily
 |Values={{CSS Property Value
 |Data Type=family-name
-|Description=The name of a font family, such as <code>Courier</code> or <code>Arial</code>. You can reference the common fonts available on the system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it should be enclosed in quotes, for example <code>'Comic Sans'</code>.
+|Description=The name of a font family, such as <code>courier</code> or <code>arial</code>. You can reference fonts available on the user's system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it should be enclosed in quotes, for example <code>'Comic Sans'</code>.
 }}{{CSS Property Value
 |Data Type=generic-family
 |Description=generic families are not specific fonts, but a reference to fallback fonts of a general type that can be used when specific fonts are not available. The actual fonts used for each fallback type may differ between operating systems. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
@@ -63,7 +63,7 @@ h1 {
 {{Notes_Section
 |Usage=* If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
 * Generic font family names are values (keywords) and cannot appear in quotation marks
-* You can use <code>font-family</code> together with <code>@font-face</code> to import and use external web fonts
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -121,13 +121,6 @@ h1 {
 |Topic_clusters=CSS Font, Fonts
 |External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
 * [http://dev.w3.org/csswg/css3-fonts/#font-family-prop Basic Font Properties]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/font|font]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
