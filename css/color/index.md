@@ -28,9 +28,15 @@ An RGB color value can be specified in two ways:
 
 * A '#' immediately, followed by a triad of two-digit hexadecimal numbers specifying the intensity of the three component color channels: red, green, and blue, respectively.
 
-<syntaxHighlight>color: #FF0000 /* text rendered pure red because the red channel is set to its highest value, FF.*/</syntaxHighlight>
+<syntaxHighlight>color: #FF0000; /* Text rendered pure red because the red channel is set to its highest value, FF.*/</syntaxHighlight>
 
-Note that most browsers support abbreviated syntax for hex colors where both numbers are the same, in each channel. So for example, the above color could be written <code>#F00</code>. However, it is safest to use the full color definition.
+There is also a shorthand notation that is three digits long instead of six, for example #FFF. This syntax is supported by all old and new browser however, different browser, operating platforms, and monitors, sometimes display color a little differently. The three digit hex color palette is shorter then the six digit color palette. So while the shorthand will save a few bytes in size there are less color options available as a result. Consider the example for the color pure red:
+
+<syntaxHighlight>
+color: #FF0000; /* Six total, two hexadecimal digits in each of the three parts.  */
+color: #F00; /* Three total, one hexadecimal digits in each of the three parts. */
+</syntaxHighlight>
+
 
 * The RGB() function, which contains three values delimited by commas specifying the intensity of the three component color channels: red, green, and blue, respectively. The above red color can be specified by either of the following:
 
@@ -146,6 +152,8 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 *[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
 |Topic_clusters=Visual Effects
 }}
+
+
 
 
 
