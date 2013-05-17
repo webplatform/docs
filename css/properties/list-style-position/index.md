@@ -42,8 +42,8 @@ UL.compact { list-style-position:outside }
 |Code=/*
 	list-style-position example
 	notice the difference based on the background color
-	the <li> has a gray background to stand out
-	the border represents the <ul>
+	the &lt;li&gt; has a gray background to stand out
+	the border represents the &lt;ul&gt;
 */
 
 .list-position--outside {
