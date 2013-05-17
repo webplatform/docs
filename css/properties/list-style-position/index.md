@@ -74,12 +74,29 @@ ul {
 	border:1px solid #aaa;
 }
 |LiveURL=http://code.webplatform.org/gist/5597676
+}}{{Single Example
+|Language=CSS
+|Description=Using list-style-position to display otherwise hidden list markers
+|Code=/*
+If the left padding is set to 0 the list-item markers do not show
+This happens only if the list-style-position is set on outside (which is the default)
+A ul contained in a div with overflow hidden might run into this issue
+*/
+
+ul {
+	padding:0;
+}
+
+.list-position--inside {
+	list-style-position: inside;
+}
+|LiveURL=http://code.webplatform.org/gist/5598129
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
 The '''list-style-position''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
-If the left margin of a list item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show. The margin should be set to a minimum of 30 points.
+If the left padding of a list is set to 0 using one of the [[css/properties/padding|'''padding''']] properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
 |Import_Notes====Syntax===
 <code>'''list-style-position: '''inside '''{{!}}''' outside</code>
 ===Standards information===
