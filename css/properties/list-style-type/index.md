@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -91,6 +92,32 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
     ...
 &lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type_ie8.htm
+}}{{Single Example
+|Language=CSS
+|Description=Using the list-style-type on ordered lists
+|Code=/**
+ * using list-style-type on ordered lists
+ * the default for ol's is list-style-type: decimal
+ */
+
+.list-style--leading-zero {
+	list-style-type:  decimal-leading-zero;
+}
+
+.list-style--roman {
+	list-style-type:  upper-roman; /* you can also use lower-roman */
+}
+|LiveURL=http://code.webplatform.org/gist/5597602
+}}{{Single Example
+|Language=CSS
+|Description=If the left padding of a line item is set to 0 using one of the padding properties, the list-item markers do not show. The padding should be set to a minimum of 30 points.
+|Code=/*
+If the left padding is set to 0 the list-item markers do not show
+*/
+ul {
+	padding:0;
+}
+|LiveURL=http://code.webplatform.org/gist/5597612
 }}
 }}
 {{Notes_Section
@@ -102,6 +129,10 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 *The CSS specification does not define how alphabetic systems wrap at the end of the alphabet. For instance, after 26 list items, upper-alpha rendering is undefined. Firefox and other browsers will continue as AA, AB, AC,... For long lists, it is recommended that authors specify true numbers.
 
 *The list styles hebrew, cjk-ideographs, hiragana, katakana, hiragana-iroha and katakana-iroha are specified in CSS2 and removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
+
+* The property also supports a shorthand syntax which is list-style
+
+* If the left padding of a line item is set to 0 using one of the padding properties, the list-item markers do not show. The padding should be set to a minimum of 30 points.
 }}
 {{Related_Specifications_Section
 |Specifications=
