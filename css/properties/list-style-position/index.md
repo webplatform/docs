@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -29,13 +30,50 @@
 This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to set the position of the list-item markers.
 |Code=UL	{ list-style-position:inside }
 UL.compact { list-style-position:outside }
-
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-position.htm
 }}{{Single Example
 |Description=This example uses inline scripting to change the marker position when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 |Code=&lt;SPAN STYLE{{=}}"width:3cm" onmouseover{{=}}"this.style.listStylePosition{{=}}'inside'"
     onmouseout{{=}}"this.style.listStylePosition{{=}}'outside'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/listStylePosition.htm
+}}{{Single Example
+|Language=CSS
+|Description=list-style-position example using both values
+|Code=/*
+	list-style-position example
+	notice the difference based on the background color
+	the <li> has a gray background to stand out
+	the border represents the <ul>
+*/
+
+.list-position--outside {
+	list-style-position: outside; /* this is also the default value */
+}
+
+.list-position--inside {
+	list-style-position: inside;
+}
+
+/*
+	Example for unordered lists
+*/
+
+.list-style--circle {
+	list-style-type: circle;
+}
+
+.list-style--square {
+	list-style-type: square;
+}
+
+li {
+	background:#eee;
+}
+
+ul {
+	border:1px solid #aaa;
+}
+|LiveURL=http://code.webplatform.org/gist/5597676
 }}
 }}
 {{Notes_Section
@@ -88,8 +126,8 @@ If the left margin of a list item is set to 0 using one of the [[css/properties/
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
