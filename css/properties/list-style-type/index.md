@@ -110,14 +110,20 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 |LiveURL=http://code.webplatform.org/gist/5597602
 }}{{Single Example
 |Language=CSS
-|Description=If the left padding of a line item is set to 0 using one of the padding properties, the list-item markers do not show. The padding should be set to a minimum of 30 points.
+|Description=If the left padding of a line item is set to 0 and the list has list-style-position: outside; (which is the default) the list-item markers will not show.
 |Code=/*
 If the left padding is set to 0 the list-item markers do not show
+This happens only if the list-style-position is set on outside (which is the default)
 */
+
 ul {
 	padding:0;
 }
-|LiveURL=http://code.webplatform.org/gist/5597612
+
+.list-position--inside {
+	list-style-position: inside;
+}
+|LiveURL=http://code.webplatform.org/gist/5598129
 }}{{Single Example
 |Language=CSS
 |Description=Example for unordered lists
@@ -152,7 +158,7 @@ ul {
 
 * The property also supports a shorthand syntax which is list-style
 
-* If the left padding of a line item is set to 0 using one of the padding properties, the list-item markers do not show. The padding should be set to a minimum of 30 points.
+* If the left padding of a list is set to 0 using one of the padding properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
 }}
 {{Related_Specifications_Section
 |Specifications=
