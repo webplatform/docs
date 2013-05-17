@@ -140,7 +140,7 @@ ul {
 }}
 }}
 {{Notes_Section
-|Usage=The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a <li> element, but can be any element with this display value.
+|Usage=The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a &lt;li&gt; element, but can be any element with this display value.
 |Notes====Notes===
 *The color of the marker will be the same as the computed color of the element it applies to.
 
