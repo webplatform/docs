@@ -118,9 +118,29 @@ ul {
 	padding:0;
 }
 |LiveURL=http://code.webplatform.org/gist/5597612
+}}{{Single Example
+|Language=CSS
+|Description=Example for unordered lists
+|Code=/*
+	Example for unordered lists
+*/
+
+.list-style--circle {
+	list-style-type: circle;
+}
+
+.list-style--square {
+	list-style-type: square;
+}
+
+.list-style--square {
+	list-style-type: none; /* use none to remove the bullets */
+}
+|LiveURL=http://code.webplatform.org/gist/5597530
 }}
 }}
 {{Notes_Section
+|Usage=The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a <li> element, but can be any element with this display value.
 |Notes====Notes===
 *The color of the marker will be the same as the computed color of the element it applies to.
 
