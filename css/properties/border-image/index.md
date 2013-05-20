@@ -7,15 +7,31 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. Image can be transformed in different ways.}}
 {{CSS Property
-|Initial value=See individual properties
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Computed value=based on individual properties
 |Animatable=No
 |CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
-|CSS percentages=N/A
-|Values=
+|Values={{CSS Property Value
+|Data Type=none
+}}{{CSS Property Value
+|Data Type=border-image-source
+|Description=see [[css/properties/border-image-source|border-image-source]] for more information;
+}}{{CSS Property Value
+|Data Type=border-image-slice
+|Description=see [[css/properties/border-image-slice|border-image-slice]] for more information;
+}}{{CSS Property Value
+|Data Type=border-image-width
+|Description=see [[css/properties/border-image-width|border-image-width]] for more information;
+}}{{CSS Property Value
+|Data Type=border-image-outset
+|Description=see [[css/properties/border-image-outset|border-image-outset]] for more information;
+}}{{CSS Property Value
+|Data Type=border-image-repeat
+|Description=see [[css/properties/border-image-repeat|border-image-repeat]] for more information;
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -42,7 +58,7 @@ it will result in an output like this
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/
-|Status=W3C Candidate Recommendation
+|Status=W3C Candidate Recommendation 24 July 2012
 }}
 }}
 {{Compatibility_Section
