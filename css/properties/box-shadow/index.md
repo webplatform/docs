@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -60,7 +61,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Description=An example of a basic Drop Shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
 }
 |LiveURL=http://code.webplatform.org/gist/5259244
 }}{{Single Example
