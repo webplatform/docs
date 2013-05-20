@@ -7,7 +7,7 @@
 {{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by  [[css/properties/flow-from|'''flow-from''']].}}
 {{CSS Property
 |Initial value=none
-|Applies to=Any element. The ‘flow-into’ property does not apply to any pseudo-element such as ::first-line, ::first-letter, ::before or ::after.
+|Applies to=Any element. The flow-into property does not apply to any pseudo-element such as first-line, first-letter, before or after.
 |Inherited=No
 |Media=visual
 |Computed value=as specified
