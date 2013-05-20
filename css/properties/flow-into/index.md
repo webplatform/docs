@@ -4,10 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by  [[css/properties/flow-from|'''flow-from''']].
-
-
-}}
+{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by  [[css/properties/flow-from|'''flow-from''']].}}
 {{CSS Property
 |Initial value=none
 |Applies to=any element; the ‘flow-into’ property does not apply to any pseudo-element such as ::first-line, ::first-letter, ::before or ::after.
@@ -19,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<ident>
-|Description=identifier; specifies a named flow into which to place element's content.
+|Description=Identifier that specifies a named flow into which to place element's content.
 }}{{CSS Property Value
 |Data Type=none
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
