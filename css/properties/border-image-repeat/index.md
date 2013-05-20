@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Content=Compatibility Incomplete
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>border-image-repeat</code> CSS property defines how the middle part of a border image is handled to match the size of the border. It has a one-value syntax which describes the behavior for all sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior.}}
 {{CSS Property
@@ -62,7 +63,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-border-image-repeat
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
