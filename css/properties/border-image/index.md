@@ -7,16 +7,15 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. Image can be transformed in different ways.}}
 {{CSS Property
-|Initial value=none
+|Initial value=See individual properties
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Computed value=based on individual properties
 |Animatable=No
 |CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=none
-}}{{CSS Property Value
 |Data Type=border-image-source
 |Description=see [[css/properties/border-image-source|border-image-source]] for more information;
 }}{{CSS Property Value
