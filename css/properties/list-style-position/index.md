@@ -91,6 +91,16 @@ ul {
 	list-style-position: inside;
 }
 |LiveURL=http://code.webplatform.org/gist/5598129
+}}{{Single Example
+|Language=HTML
+|Description=Different behaviour with lists items containing block elements
+|Code=<ul>
+	<li>List item</li>
+	<li>List item</li>
+	<li><h1>Heading</h1></li> <!-- jumps to next line in some browsers -->
+	<li>List item</li>
+</ul>
+|LiveURL=http://code.webplatform.org/gist/5610773
 }}
 }}
 {{Notes_Section
