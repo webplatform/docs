@@ -15,22 +15,7 @@
 |Animatable=No
 |CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
 |CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=border-image-source
-|Description=see [[css/properties/border-image-source|border-image-source]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-slice
-|Description=see [[css/properties/border-image-slice|border-image-slice]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-width
-|Description=see [[css/properties/border-image-width|border-image-width]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-outset
-|Description=see [[css/properties/border-image-outset|border-image-outset]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-repeat
-|Description=see [[css/properties/border-image-repeat|border-image-repeat]] for more information;
-}}
+|Values=
 }}
 {{Examples_Section
 |Not_required=No
