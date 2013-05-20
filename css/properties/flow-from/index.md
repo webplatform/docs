@@ -1,20 +1,25 @@
 {{Page_Title|flow-from}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Flows content from a named flow (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic chain of layout ''regions''.}}
 {{CSS Property
 |Initial value=none
+|Applies to=Non-replaced block containers. (May expand in the future to include other containers.)
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |CSS object model property=flowFrom
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=identifier
-|Description=Replaces content from specified named flow, flowing it from one ''region'' element to another.
+|Data Type=<ident>
+|Description=Identifier that replaces content from specified named flow, flowing it from one ''region'' element to another.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Keeps element as is, and does not transform it into a region and replace its content.
+|Description=This container is not a region. Keeps element as is, and does not transform it into a region and replace its content.
 }}
 }}
 {{Examples_Section
