@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. Image can be transformed in different ways.}}
 {{CSS Property
@@ -14,23 +14,15 @@
 |Computed value=based on individual properties
 |Animatable=No
 |CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=none
-}}{{CSS Property Value
-|Data Type=border-image-source
-|Description=see [[css/properties/border-image-source|border-image-source]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-slice
-|Description=see [[css/properties/border-image-slice|border-image-slice]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-width
-|Description=see [[css/properties/border-image-width|border-image-width]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-outset
-|Description=see [[css/properties/border-image-outset|border-image-outset]] for more information;
-}}{{CSS Property Value
-|Data Type=border-image-repeat
-|Description=see [[css/properties/border-image-repeat|border-image-repeat]] for more information;
+|Data Type=border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
+|Description=The <code>border-image</code> property can contain up to five components:
+* <code>border-image-source</code>: This can take a valid [[css/functions/url()|"CSS images: url()"]] as its value.
+* <code>border-image-slice</code>: This takes any of the values available to the [[css/properties/border-image-slice|'''border-image-slice''']] property, which includes <number>, <percentage>, <code>fill</code>. For more details about each, see the [[css/properties/border-image-slice|'''border-image-slice''']] page.
+* <code>border-image-width</code>: This takes a numeric value with any of the standard length units.
+* <code>border-image-outset</code>: This takes a numeric value with any of the standard length units.
+* <code>border-image-repeat</code>: This takes any of the type of values available to the [[css/properties/border-image-repeat|'''border-image-repeat ''']] property, which includes <code>stretch</code>, <code>repeat</code>, <code>round</code>, <code>space</code>. For more details about each, see the [[css/properties/border-image-repeat|'''border-image-repeat''']] page.
 }}
 }}
 {{Examples_Section
@@ -58,7 +50,7 @@ it will result in an output like this
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/
-|Status=W3C Candidate Recommendation 24 July 2012
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
