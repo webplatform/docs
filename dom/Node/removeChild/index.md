@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -76,6 +77,9 @@ This method is accessible at run time. If elements are removed at run time, befo
 |Browser=Internet Explorer
 |Version=6
 |Note=This method also applies to the [[dom/attributes|'''attribute''']] object.
+}}{{Compatibility Notes Row
+|Browser=WebKit/Blink browsers
+|Note=If the oldChild has focus, 'blur' event for it dispatches.
 }}
 }}
 {{See_Also_Section
