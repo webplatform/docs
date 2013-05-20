@@ -19,10 +19,10 @@
 |Data Type=border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
 |Description=The <code>border-image</code> property can contain up to five components:
 * <code>border-image-source</code>: This can take a valid [[css/functions/url()|"CSS images: url()"]] as its value.
-* <code>border-image-slice</code>: This takes any of the values available to the [[css/properties/border-image-slice|'''border-image-slice''']] property, which includes <number>, <percentage>, <code>fill</code>. For more details about each, see the [[css/properties/border-image-slice|'''border-image-slice''']] page.
+* <code>border-image-slice</code>: This takes any of the values available to the [[css/properties/border-image-slice|'''border-image-slice''']] property, which includes <number>, <percentage> and <code>fill</code>. For more details about each, see the [[css/properties/border-image-slice|'''border-image-slice''']] page.
 * <code>border-image-width</code>: This takes a numeric value with any of the standard length units.
 * <code>border-image-outset</code>: This takes a numeric value with any of the standard length units.
-* <code>border-image-repeat</code>: This takes any of the type of values available to the [[css/properties/border-image-repeat|'''border-image-repeat ''']] property, which includes <code>stretch</code>, <code>repeat</code>, <code>round</code>, <code>space</code>. For more details about each, see the [[css/properties/border-image-repeat|'''border-image-repeat''']] page.
+* <code>border-image-repeat</code>: This takes any of the type of values available to the [[css/properties/border-image-repeat|'''border-image-repeat ''']] property, which includes <code>stretch</code>, <code>repeat</code>, <code>round</code> and <code>space</code>. For more details about each, see the [[css/properties/border-image-repeat|'''border-image-repeat''']] page.
 }}
 }}
 {{Examples_Section
