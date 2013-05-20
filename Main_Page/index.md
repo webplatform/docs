@@ -147,7 +147,6 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 
 == Stay in touch ==
 
-* Join our [http://talk.webplatform.org/forums/ Q&A]
 * Chat with other editors in IRC: we're on irc.freenode.org, the #webplatform channel.
 * Read our [http://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
