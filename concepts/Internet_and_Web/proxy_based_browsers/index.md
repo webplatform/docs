@@ -1,6 +1,7 @@
 {{Page_Title|Proxy-based browsers}}
 {{Flags
 |High-level issues=Stub, Deletion Candidate
+|Checked_Out=No
 |Editorial notes=This is not a web development concept topic, and will attract vendor spam.
 }}
 {{API_Name}}
@@ -28,7 +29,7 @@ To make a request:
 <blockquote>All of the browser subsystems are present on your Kindle Fire as well as on the AWS cloud computing platform.  Each time you load a web page, Silk makes a dynamic decision about which of these subsystems will run locally and which will execute remotely.</blockquote>
 * Bolt [http://boltbrowser.com/]
 * Skyfire [http://www.skyfire.com/]
-* Ovi Browser [http://www.nokia.com/global/support/nokia-browser]
+* Nokia Xpress Browser [http://www.nokia.com/ie-en/apps/apps-by-nokia/xpressbrowser/]
 * UC Browser [http://www.ucweb.com]
 }}
 {{Examples_Section
