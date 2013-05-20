@@ -58,7 +58,7 @@ it will result in an output like this
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/
-|Status=W3C Candidate Recommendation 24 July 2012
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
