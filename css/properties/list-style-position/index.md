@@ -96,7 +96,10 @@ ul {
 {{Notes_Section
 |Notes====Remarks===
 The '''list-style-position''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
-If the left padding of a list is set to 0 using one of the [[css/properties/padding|'''padding''']] properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
+
+If the left padding of a list is set to 0 using one of the [[css/properties/padding|'''padding''']] properties, the list-item markers do not show only if that list has the default list-style-position: outside; . For a better understanding see the examples.
+
+There is variance among browsers regarding behaviour when a block element is placed first within a list element declared as list-style-position:inside. Chrome and Safari both place this element on the same line as the marker box, whereas Firefox, Internet Explorer and Opera place it on the next line. There is also an example provided. [https://bugzilla.mozilla.org/show_bug.cgi?id{{=}}36854 Firefox bug report]
 |Import_Notes====Syntax===
 <code>'''list-style-position: '''inside '''{{!}}''' outside</code>
 ===Standards information===
