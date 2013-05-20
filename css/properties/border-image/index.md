@@ -13,7 +13,7 @@
 |Media=visual
 |Computed value=based on individual properties
 |Animatable=No
-|CSS object model property=http://dev.w3.org/csswg/css3-background/#border-image
+|CSS object model property=borderImage
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
