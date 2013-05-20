@@ -73,6 +73,7 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
