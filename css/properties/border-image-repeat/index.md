@@ -8,7 +8,7 @@
 {{Summary_Section|The <code>border-image-repeat</code> CSS property defines how the middle part of a border image is handled to match the size of the border. It has a one-value syntax which describes the behavior for all sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior.}}
 {{CSS Property
 |Initial value=stretch
-|Applies to=all elements, except table elements when [[css/properties/border-collapse|'''border-collapse''']] is collapse
+|Applies to=all elements, except table elements when border-collapse is collapse
 |Inherited=No
 |Media=visual
 |Computed value=as specified
