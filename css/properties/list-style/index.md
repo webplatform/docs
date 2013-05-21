@@ -127,6 +127,9 @@ The '''list-style''' property also applies to all elements on which the [[css/pr
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content
 |Manual_sections====Related pages===
+*<code>[[css/properties/list-style-type|'''list-style-type''']]</code>
+*<code>[[css/properties/list-style-position|'''list-style-position''']]</code>
+*<code>[[css/properties/list-style-image|'''list-style-image''']]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
