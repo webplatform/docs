@@ -8,11 +8,13 @@
 {{Summary_Section|The <code>border-image-repeat</code> CSS property defines how the middle part of a border image is handled to match the size of the border. It has a one-value syntax which describes the behavior for all sides, and a two-value syntax that sets a different value for the horizontal and vertical behavior.}}
 {{CSS Property
 |Initial value=stretch
-|Applies to=all elements, except table elements when border-collapse is collapse
+|Applies to=all elements, except table elements when [[css/properties/border-collapse|'''border-collapse''']] is collapse
 |Inherited=No
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=borderImageRepeat
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=stretch
 |Description=Is a keyword indicating that the image will be stretched to fit the gap between the borders.
@@ -34,7 +36,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A simple example showing multiple <div>s, identical in style except that they have different border-image-repeat properties applied to them.
+|Description=A simple example showing multiple &lt;div&gt;s, identical in style except that they have different border-image-repeat properties applied to them.
 |Code=&lt;div class="pattern repeat"&gt;Repeat&lt;/div&gt;
 &lt;div class="pattern stretch"&gt;Stretch&lt;/div&gt;
 &lt;div class="pattern round"&gt;Round&lt;/div&gt;
@@ -71,6 +73,7 @@
 .pattern.space{
 	border-image-repeat: space;
 }
+|LiveURL=http://code.webplatform.org/gist/5620804
 }}{{Single Example
 |Code=[[File:border-image.png|border-image demo image]]
 
