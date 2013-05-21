@@ -25,8 +25,8 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=A simple example showing a &lt;div&gt; that has border-image-source property and another border-image properties. See more detail of another border-image propeties; [[css/properties/border-image-slice|'''border-image-slice''']],  [[css/properties/border-image-width|'''border-image-width''']] and [[css/properties/border-image-outset|'''border-image-outset''']]
+|Language=HTML
+|Description=A simple example showing a &lt;div&gt; that has border-image-source property and another border-image properties. See more detail of another border-image propeties; [[css/properties/border-image-slice|'''border-image-slice''']],  [[css/properties/border-image-width|'''border-image-width''']] and [[css/properties/border-image-outset|'''border-image-outset''']].
 |Code=&lt;div class="pattern"&gt;border-image&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5621011
 }}{{Single Example
