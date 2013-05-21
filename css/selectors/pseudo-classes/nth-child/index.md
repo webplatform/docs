@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -88,6 +89,7 @@ The ''':nth-child''' pseudo-class is a structural pseudo-class. Structural pseud
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Classes, Selectors
+|External_links=*[http://css-tricks.com/how-nth-child-works/ How nth-child Works]
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[css/selectors/pseudo-classes/:root|:root]]</code>
