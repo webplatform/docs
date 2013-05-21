@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>border-image-outset</code> property describes, by which amount the border image area extends beyond the border box.}}
+{{Summary_Section|The <code>border-image-outset</code> property describes, by which amount the border image area extends beyond the border box.
+
+[[File:bi-outset.png|border-outset visualized]]
+}}
 {{CSS Property
 |Initial value=0
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
@@ -25,16 +28,44 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=[[File:bi-outset.png|border-outset visualized]]
-
-<code>border-image-outset: 15px;</code>
+|Language=HTML
+|Description=A simple example showing multiple &lt;div&gt;s, identical in style except that they have different border-image-outset properties applied to them.
+|Code=&lt;div class="pattern one"&gt;one&lt;/div&gt;
+&lt;div class="pattern two"&gt;two&lt;/div&gt;
+&lt;div class="pattern three"&gt;three&lt;/div&gt;
+&lt;div class="pattern four"&gt;four&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5622268
 }}{{Single Example
-|Code=<syntaxHighlight>
-border-image-outset: sides                  /* One-value syntax   */  E.g. border-image-slice: 30%; 
-border-image-outset: vertical horizontal    /* Two-value syntax   */  E.g. border-image-slice: 10% 30%; 
-border-image-outset: top vertical bottom    /* Three-value syntax */  E.g. border-image-slice: 30px 30% 45px; 
-border-image-outset: top right bottom left  /* Four-value syntax  */  E.g. border-image-slice: 7px 12px 14px 5px;
-</syntaxHighlight>
+|Language=CSS
+|Code=/* This general class will apply the pattern to the containers */
+.pattern {
+	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
+	border-image-slice: 30;
+	border-image-width: 6;
+	border-image-repeat: repeat;
+
+}
+
+/* One-value syntax */
+.pattern.one{
+	border-image-outset: 3;
+}
+
+/* Two-value syntax */
+.pattern.two{
+	border-image-outset: 1.2em 1.8em;
+}
+
+/* Three-value syntax */
+.pattern.three{
+	border-image-outset: 5px 3px 10px;
+}
+
+/* Four-value syntax */
+.pattern.four{
+	border-image-outset: 5 2em 10 3px; 
+}
+|LiveURL=http://code.webplatform.org/gist/5622268
 }}
 }}
 {{Notes_Section
