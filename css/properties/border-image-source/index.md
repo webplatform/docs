@@ -1,4 +1,4 @@
-{{Page_Title|border-image-source}}
+{{Page_Title}}
 {{Flags
 |Checked_Out=No
 }}
