@@ -1,8 +1,13 @@
 {{Page_Title|border-image-slice}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.}}
+{{Summary_Section|The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.
+
+[[File:slice.png|slicing]]
+}}
 {{CSS Property
 |Initial value=100%
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
@@ -10,27 +15,14 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=borderImageSlice
+|CSS percentages=refer to size of the border image
 |Values={{CSS Property Value
-|Data Type=slice
-|Description=Is a <code><number></code> or a <code><percentage></code> of the offset for the four slicing lines. Note that a <code><length></code> value is not allowed, and therefore invalid. The <code><number></code> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to 100%.
+|Data Type=<number>
+|Description=Represents pixels for raster images and coordinates for vector images.
 }}{{CSS Property Value
-|Data Type=horizontal
-|Description=Is a <code><number></code> or a <code><percentage></code> of the offset for the two horizontal slicing lines, the top and the bottom ones. Note that a <code><length></code> value is not allowed, and therefore invalid. The <code><number></code> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to <code>100%</code>.
-}}{{CSS Property Value
-|Data Type=vertical
-|Description=Is a <code><number></code> or a <code><percentage></code> of the offset for the two vertical slicing lines, the right and the left ones. Note that a <length> value is not allowed, and therefore invalid. The <code><number></code> represents pixels for raster images and coordinates for vector images. Also, <code><percentage></code> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to <code>100%</code>.
-}}{{CSS Property Value
-|Data Type=top
-|Description=Is a <number> or a <percentage> of the offset for the top slicing line. Note that a <length> value is not allowed, and therefore invalid. The <number> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to 100%.
-}}{{CSS Property Value
-|Data Type=bottom
-|Description=Is a <number> or a <percentage> of the offset for the bottom slicing line. Note that a <length> value is not allowed, and therefore invalid. The <number> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to 100%.
-}}{{CSS Property Value
-|Data Type=right
-|Description=Is a <number> or a <percentage> of the offset for the right slicing line. Note that a <length> value is not allowed, and therefore invalid. The <number> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to 100%.
-}}{{CSS Property Value
-|Data Type=left
-|Description=Is a <number> or a <percentage> of the offset for the left slicing line. Note that a <length> value is not allowed, and therefore invalid. The <number> represents pixels for raster images and coordinates for vector images. Also, <percentage> values are relative to the height or width of the image, whichever is adequate. Negative values are invalid and values greater than the relevant size, height or width, are clamped to 100%.
+|Data Type=<percentage>
+|Description=Percentages values are relative to the height or width of the image, whichever is adequate.
 }}{{CSS Property Value
 |Data Type=fill
 |Description=Is a keyword whose presence forces the use of the middle image slice to be displayed over the background image, its size and height are resized like those of the top and left image slices, respectively.
@@ -42,7 +34,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=[[File:slice.png|slicing]]
+|Code=
 
 When using the four-value syntax it is <code>border-image-slice: top right bottom left;</code>.
 
@@ -59,9 +51,16 @@ border-image-slice: 30 30% 45;            /* Three-value syntax */
 border-image-slice: 7 12 14 5;            /* Four-value syntax  */
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left.
+* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three values are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-border-image-slice
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,6 +71,7 @@ border-image-slice: 7 12 14 5;            /* Four-value syntax  */
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
