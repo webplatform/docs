@@ -28,9 +28,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example sets two different values on the [[list-style property]] of two separate lists. The first list has '''list-style''' set to <code>"outside url('bullet.png')"</code>. The second list has '''list-style''' set to <code>"inside circle"</code>. 
+|Description=The following example sets two different values on the [[css/properties/list-style]]  property of two separate lists. The first list has '''list-style''' set to <code>"outside url('bullet.png')"</code>. The second list has '''list-style''' set to <code>"inside circle"</code>. 
 
-This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to define the styles of two different unordered lists.  For <code>UL.compact</code> to override the image that is set with the '''ul''' selector, you must explicitly set the '''image''' attribute to '''none'''.
+This example uses <code>ul</code> and <code>ul.list2</code> as selectors to define the styles of two different unordered lists.  Note that for <code>ul.list2</code> to override the image that is set with the <code>ul</code> selector, you must explicitly set the '''image''' attribute to '''none'''.
 |Code=ul {  
  list-style: outside url('http://docs.webplatform.org/w/images/3/3f/bullet.png')  
  }  
@@ -38,7 +38,6 @@ This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedd
  ul.list2  {  
  list-style-image: none; list-style: inside circle  
  }
-
 |LiveURL=http://code.webplatform.org/gist/5617678
 }}{{Single Example
 |Language=HTML
@@ -53,7 +52,6 @@ This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedd
 	&lt;li&gt;first item of the second list&lt;/li&gt;  
 	&lt;li&gt;second item of the second list&lt;/li&gt; 
 &lt;/ul&gt;
-
 }}
 }}
 {{Notes_Section
