@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -112,6 +111,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
