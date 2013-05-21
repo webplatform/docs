@@ -76,7 +76,7 @@
 }}
 {{Notes_Section
 |Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left.
-* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom sides, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom sides, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom slice-lines, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom slice-lines, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
