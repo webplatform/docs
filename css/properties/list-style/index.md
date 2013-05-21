@@ -3,9 +3,9 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets  list-style-type, list-style-position, list-style-image properties in one declaration.}}
+{{Summary_Section|Shorthand property that sets the [[css/properties/list-style-type|'''list-style-type''']], [[css/properties/list-style-position|'''list-style-position''']], and [[css/properties/list-style-image|'''list-style-image''']] properties in one declaration.}}
 {{CSS Property
 |Initial value=disc outside none
 |Applies to=elements with display: list-item
@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=see individual properties
 |Animatable=No
+|CSS object model property=listStyle
 |Values={{CSS Property Value
 |Data Type=type
 |Description=Any of the range of type values available to the [[css/properties/list-style-type|'''list-style-type''']] property.
@@ -125,7 +126,7 @@ The '''list-style''' property also applies to all elements on which the [[css/pr
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
