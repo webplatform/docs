@@ -14,15 +14,6 @@
 |Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=type
-|Description=Is one of the <code>stretch</code>, <code>repeat</code>, <code>round</code>, and <code>space</code> keywords denoting the way of repeating the image. It is used only in the one-value syntax.
-}}{{CSS Property Value
-|Data Type=horizontal
-|Description=Is one of the <code>stretch</code>, <code>repeat</code>, <code>round</code>, and <code>space</code> keywords denoting the way of repeating the image. It is used only in the two-value syntax.
-}}{{CSS Property Value
-|Data Type=vertical
-|Description=Is one of the <code>stretch</code>, <code>repeat</code>, <code>round</code>, and <code>space</code> keywords denoting the way of repeating the image. It is used only in the two-value syntax.
-}}{{CSS Property Value
 |Data Type=stretch
 |Description=Is a keyword indicating that the image will be stretched to fit the gap between the borders.
 }}{{CSS Property Value
@@ -42,6 +33,45 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple <div>s, identical in style except that they have different border-image-repeat properties applied to them.
+|Code=&lt;div class="pattern repeat"&gt;Repeat&lt;/div&gt;
+&lt;div class="pattern stretch"&gt;Stretch&lt;/div&gt;
+&lt;div class="pattern round"&gt;Round&lt;/div&gt;
+&lt;div class="pattern space"&gt;Space&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5620804
+}}{{Single Example
+|Language=CSS
+|Code=/* This general class will apply the pattern to the containers */
+.pattern {
+	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
+	border-image-slice: 30;
+	border-image-width: 6;
+	border-image-outset: 3;	
+}
+
+/* Repeat Pattern */
+.pattern.repeat{
+	border-image-repeat: repeat;
+}
+
+/* Stretch Pattern */
+.pattern.stretch{
+	border-image-repeat: stretch;
+}
+
+/* Round Pattern
+   Currently available on Gecko browsers (eg: Firefox) */
+.pattern.round{
+	border-image-repeat: round;
+}
+
+/* Space Repeat Setting
+   Currently unavailable on all browsers */
+.pattern.space{
+	border-image-repeat: space;
+}
+}}{{Single Example
 |Code=[[File:border-image.png|border-image demo image]]
 
 <code>border-image-repeat: stretch;</code>
@@ -58,10 +88,11 @@
 [[File:bi-space.png|border-image space demo]]
 
 /* Space is not supported by any browser */
-|LiveURL=http://code.webplatform.org/gist/5528406
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=If one velue is specified, it is used for all four sides. If two values are specified, the first is used for the horizontal sides, and the second is used for vertical ones.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
