@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The property <code>border-image-source</code> is used to set the image to be used instead of the border style. If this is set to <code>none</code> the <code>border-style</code> is used instead.}}
 {{CSS Property
@@ -10,7 +10,10 @@
 |Applies to=all elements, except table elements where <code>border-collapse: collapse</code> is applied
 |Inherited=No
 |Media=visual
+|Computed value=‘none’ or the image with its URI made absolute
 |Animatable=No
+|CSS object model property=borderImageSource
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. <code>border-style</code> is used instead.
@@ -28,7 +31,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-border-image-source
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
