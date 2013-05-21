@@ -1,6 +1,8 @@
 {{Page_Title|border-image-outset}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>border-image-outset</code> property describes, by which amount the border image area extends beyond the border box.}}
 {{CSS Property
@@ -10,27 +12,11 @@
 |Media=visual
 |Computed value=all length made absolute, otherwise as specified
 |Animatable=No
+|CSS object model property=borderImageOutset
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=slice
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box in all four directions.
-}}{{CSS Property Value
-|Data Type=horizontal
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box in both horizontal directions, left and right.
-}}{{CSS Property Value
-|Data Type=vertical
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box in both vertical directions, top and bottom.
-}}{{CSS Property Value
-|Data Type=top
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box past its top edge.
-}}{{CSS Property Value
-|Data Type=bottom
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box past its bottom edge.
-}}{{CSS Property Value
-|Data Type=right
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box past its right edge.
-}}{{CSS Property Value
-|Data Type=left
-|Description=Is a [[css/data_types/length|length]] or a percentage of the amount by which the border image area extends beyond the border box past its left edge.
+|Data Type=<length>
+|Description=Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length). This length must not be negative.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Is a keyword indicating that all four values are inherited from their parent's element calculated value.
@@ -42,20 +28,25 @@
 |Code=[[File:bi-outset.png|border-outset visualized]]
 
 <code>border-image-outset: 15px;</code>
-}}
-}}
-{{Notes_Section
-|Usage=<syntaxHighlight>
+}}{{Single Example
+|Code=<syntaxHighlight>
 border-image-outset: sides                  /* One-value syntax   */  E.g. border-image-slice: 30%; 
 border-image-outset: vertical horizontal    /* Two-value syntax   */  E.g. border-image-slice: 10% 30%; 
 border-image-outset: top vertical bottom    /* Three-value syntax */  E.g. border-image-slice: 30px 30% 45px; 
 border-image-outset: top right bottom left  /* Four-value syntax  */  E.g. border-image-slice: 7px 12px 14px 5px;
 </syntaxHighlight>
-
-border-image-outset: inherit
+}}
+}}
+{{Notes_Section
+|Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left.
+* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three values are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-border-image-outset
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -66,6 +57,7 @@ border-image-outset: inherit
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
