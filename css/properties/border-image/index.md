@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. It can be used to set [[css/properties/border-image-source|'''border-image-source''']], [[css/properties/border-image-slice|'''border-image-slice''']], [[css/properties/border-image-width|'''border-image-width''']], [[css/properties/border-image-outset|'''border-image-outset''']] and [[css/properties/border-image-repeat|'''border-image-repeat''']], or a subset of these.}}
 {{CSS Property
-|Initial value=none
+|Initial value=based on individual properties
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -91,6 +91,7 @@ it will result in an output like this
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
