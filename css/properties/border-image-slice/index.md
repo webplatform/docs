@@ -34,26 +34,49 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=
+|Language=HTML
+|Description=A simple example showing multiple &lt;div&gt;s, identical in style except that they have different border-image-slice properties applied to them.
+|Code=&lt;div class="pattern one"&gt;one&lt;/div&gt;
+&lt;div class="pattern two"&gt;two&lt;/div&gt;
+&lt;div class="pattern three"&gt;three&lt;/div&gt;
+&lt;div class="pattern four"&gt;four&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5622431
+}}{{Single Example
+|Language=CSS
+|Code=/* This general class will apply the pattern to the containers */
+.pattern {
+	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
+	border-image-width: 6;
+	border-image-outset: 3;
+	border-image-repeat: repeat;
 
-When using the four-value syntax it is <code>border-image-slice: top right bottom left;</code>.
+}
 
-When using the three-value syntax it is <code>border-image-slice: top left/right bottom;</code>.
+/* One-value syntax */
+.pattern.one{
+	border-image-slice: 30;
+}
 
-When using the two-value syntax it is <code>border-image-slice: top/bottom left/right;</code>.
+/* Two-value syntax */
+.pattern.two{
+	border-image-slice: 30 20;
+}
 
-When using the two-value syntax it is <code>border-image-slice: top/bottom/left/right;</code>.
+/* Three-value syntax */
+.pattern.three{
+	border-image-slice: 20 15 30;
+}
 
-
-border-image-slice: 30%;           /* One-value syntax */
-border-image-slice: 10% 30%;           /* Two-value syntax */
-border-image-slice: 30 30% 45;            /* Three-value syntax */
-border-image-slice: 7 12 14 5;            /* Four-value syntax  */
+/* Four-value syntax */
+.pattern.four{
+	border-image-slice: 25 20 30 15; 
+}
+|LiveURL=http://code.webplatform.org/gist/5622431
 }}
 }}
 {{Notes_Section
 |Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left.
-* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three values are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+* If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom sides, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom sides, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
