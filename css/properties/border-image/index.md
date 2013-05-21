@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -29,15 +28,26 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=[[File:border-image.png|border-image demo image]]
+|Description=A simple example showing a &lt;div&gt;.
+|Code=&lt;div class="pattern"&gt;one&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5622521
+}}{{Single Example
+|Language=CSS
+|Code=/* General setup of the containers */
+div {
+	height: 100px;
+	width: 100px;
+	margin: 25px; 
+	text-align: center;
+	line-height: 100px;
+	font-family: sans-serif;
+}
 
-Using the image above as a border-image with the following settings
-
-<code>border-image: url("border-image.png") 30 30 repeat;</code>
-
-it will result in an output like this
-
-[[File:bi-repeat.png|example of a repeated background-image]]
+.pattern {
+	border: 30px solid transparent;
+	border-image: url(http://docs.webplatform.org/w/images/d/d8/border-image.png) 30 repeat;
+}
+|LiveURL=http://code.webplatform.org/gist/5622521
 }}
 }}
 {{Notes_Section
