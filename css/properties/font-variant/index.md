@@ -1,8 +1,10 @@
 {{Page_Title|font-variant}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property enables you to select the small-caps font within a font family.}}
+{{Summary_Section|The <code>font-variant</code> property enables you to select the small-caps font within a font family.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -11,6 +13,7 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=fontVariant
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Selects a font that is not a 'small-caps' font.
@@ -30,18 +33,18 @@
 }}
 }}
 {{Notes_Section
-|Notes=In CSS 3 ([http://www.w3.org/TR/css3-fonts/#propdef-font-variant CSS Fonts Module Level 3, W3C Working Draft 11 December 2012]) this property is extended. However, no browser seems to support these changes yet.
+|Notes=In ([http://www.w3.org/TR/css3-fonts/#propdef-font-variant CSS Fonts Module Level 3, W3C Working Draft 11 December 2012]), this property is extended. However, no browser seems to support these changes yet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
-|URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
-|Status=W3C Recommendation 07 June 2011
-}}{{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#propdef-font-variant
-|Status=W3C Working Draft 11 December 2012
+|Status=W3C Working Draft
 |Relevant_changes=Changes the property to an overall shorthand for font rendering. Extends the options that can be used as value. Not implemented in any browser as of yet.
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+|URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
+|Status= 07 June 2011
 }}
 }}
 {{Compatibility_Section
