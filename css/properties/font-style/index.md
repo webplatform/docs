@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property allows italic or oblique faces to be selected within a font-family.}}
+{{Summary_Section|The <code>font-style</code> property allows italic or oblique faces to be selected within a font-family.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -14,6 +13,7 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=fontStyle
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Selects a face that is classified as 'normal'.
@@ -28,25 +28,19 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Code=&lt;!DOCTYPE html&gt;
-	&lt;head&gt;
-		&lt;meta charset=&quot;utf-8&quot; /&gt;
-		&lt;title&gt;Font-style example&lt;/title&gt;
-		&lt;style&gt;
-			p { &quot;Trebuchet MS&quot;, &quot;Gill sans&quot;, serif; }
-			p.normal { font-style: normal; }
-			p.italic { font-style: italic; }
-			p.oblique { font-style: oblique; }
-		&lt;/style&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;p&gt;Regular ol&#39; P&lt;/p&gt;
-		&lt;p class=&quot;normal&quot;&gt;Normal P, no different from the regular ol&#39; P&lt;/p&gt;
-		&lt;p class=&quot;italic&quot;&gt;Italic P, the cursive version of the font&lt;/p&gt;
-		&lt;p class=&quot;oblique&quot;&gt;Oblique P, the sloped version of the font&lt;/p&gt;
-	&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://codepen.io/anon/pen/oqLgI
+|Language=HTML
+|Description=A selection of examples showing uses of the font-style property.
+|Code=&lt;p&gt;Regular ol' P&lt;/p&gt;
+&lt;p class="normal"&gt;Normal P, no different from the regular ol' P&lt;/p&gt;
+&lt;p class="italic"&gt;Italic P, the cursive version of the font&lt;/p&gt;
+&lt;p class="oblique"&gt;Oblique P, the sloped version of the font&lt;/p&gt;
+}}{{Single Example
+|Language=CSS
+|Code=p { font-family: "Trebuchet MS", "Gill sans", serif; }
+p.normal { font-style: normal; }
+p.italic { font-style: italic; }
+p.oblique { font-style: oblique; }
+|LiveURL=http://code.webplatform.org/gist/5628297
 }}
 }}
 {{Notes_Section
@@ -58,8 +52,8 @@ The '''oblique''' value is available as of Microsoft Internet Explorer 4.0. Int
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css3-fonts/
-|Status=W3C Working Draft 11 December 2012
+|URL=http://www.w3.org/TR/css3-fonts/#font-style-prop
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
