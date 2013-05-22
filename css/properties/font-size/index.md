@@ -31,6 +31,26 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A selection of examples showing some typical uses of the font-size property.
+|Code=&lt;p class="example-one"&gt;Example One: We ♥ WebPlatform Docs!&lt;/p&gt;
+&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
+&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
+}}{{Single Example
+|Language=CSS
+|Code=.example-one {
+	font-size: 1.2em;
+}		
+
+.example-two {
+	font-size: small;
+}
+
+.example-three {
+	font-size: 28px;
+}
+|LiveURL=http://code.webplatform.org/gist/5628042
+}}{{Single Example
 |Language=CSS
 |Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
 |Code=html { font-size: 62.5%; } 
@@ -38,14 +58,10 @@
 16 * 62.5% == 10 
 */
 
-h1 { font-size: 3.6rem }   /* 36px */
-h2 { font-size: 2.4rem }   /* 24px */
-p  { font-size: 1.4rem }   /* 14px */
-}}{{Single Example
-|Language=HTML
-|Description=The interactive utility demonstrates absolute values applied to a block of text, and relative values applied to the first sentence.
-|Code=See live example above.
-|LiveURL=http://letmespellitoutforyou.com/x/webplatform/fontSize.html
+.example-one { font-size: 3.6rem }   /* 36px */
+.example-two { font-size: 2.4rem }   /* 24px */
+.example-three  { font-size: 1.4rem }   /* 14px */
+|LiveURL=http://code.webplatform.org/gist/5628240
 }}
 }}
 {{Notes_Section
