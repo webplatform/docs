@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the weight or boldness of glyphs in the font (their degree of blackness or stroke thickness). However, some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
+{{Summary_Section|The <code>font-weight</code> property specifies the weight or boldness of glyphs in the font (their degree of blackness or stroke thickness). However, some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
