@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status|W3C Recommendation}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies the weight or boldness of glyphs in the font (their degree of blackness or stroke thickness). However, some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
 {{CSS Property
@@ -11,7 +13,7 @@
 |Computed value=One of the numeric values ('''100''', …), or one of the numeric values followed by one of the relative values ('''bolder''' or '''lighter''')
 |Animatable=Yes
 |CSS object model property=fontWeight
-|CSS percentages=???
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Normal font weight. Same as '''400'''.
@@ -32,17 +34,17 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A selection of examples showing some typical uses of the font-weight property.
+|Code=&lt;p class="example-one"&gt;Set text to be bold.&lt;/p&gt;
+&lt;p class="example-two"&gt;Set text to two step darker than normal but less than a standard bold.&lt;/p&gt;
+&lt;p class="example-three"&gt;Sets text to be one step lighter than the parent.&lt;/p&gt;
+}}{{Single Example
 |Language=CSS
-|Code=/* Set paragraph text to be bold. */
-p { font-weight: bold; }
-
-/* Set h1 (level 1 heading) text to one step darker than
-   normal but less than a standard bold. */
-h1 { font-weight: 500; }
-
-/* Sets text enclosed within span tag to be one step lighter
-   than the parent. */
-span { font-weight: lighter; }
+|Code=p.example-one { font-weight: bold; }
+p.example-two { font-weight: 600; }
+p.example-three { font-weight: lighter; }
+|LiveURL=http://code.webplatform.org/gist/5628518
 }}
 }}
 {{Notes_Section
@@ -70,22 +72,13 @@ These values form an ordered sequence, where each number indicates a weight that
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-weight-prop
-|Status=Working Draft
+|Status=W3C Working Draft
 |Relevant_changes=No change.
 }}{{Related Specification
 |Name=CSS Transitions
-|URL=http://dev.w3.org/csswg/css3-transitions/#animatable-css
-|Status=Working Draft
+|URL=http://www.w3.org/TR/css3-transitions/#animatable-css
+|Status=W3C Working Draft
 |Relevant_changes=Defines font-weight as animatable.
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/fonts.html#propdef-font-weight
-|Status=Recommendation
-|Relevant_changes=No change.
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#font-weight
-|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
