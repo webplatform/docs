@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -21,7 +19,7 @@
 |Description=Only use the font-size value to determine the size of the font.
 }}{{CSS Property Value
 |Data Type=number
-|Description=The aspect value used in calculating the size of the fallback fonts. For the adjusted font size calculation, see [[css/properties/font-size-adjust#Remarks|Remarks]].
+|Description=The aspect value used in calculating the size of the fallback fonts. For the adjusted font size calculation, see [[css/properties/font-size-adjust#Notes|Notes]].
 }}{{CSS Property Value
 |Data Type=auto
 |Description=The aspect value is calculated by the user agent for the first font in the font-family list, and used for every font in that list.
@@ -52,12 +50,11 @@ p.adjust {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-For any given font size, the apparent size and legibility of text varies across fonts. For scripts such as Latin or Cyrillic that distinguish between uppercase and lowercase letters, the relative height of lowercase letters compared to their uppercase counterparts is a determining factor of legibility. This is commonly referred to as the '''aspect value'''. Precisely defined, it is equal to the x-height of a font (the height of a font's lowercase 'x' character) divided by the font size.
+|Notes=For any given font size, the apparent size and legibility of text varies across fonts. For scripts such as Latin or Cyrillic that distinguish between uppercase and lowercase letters, the relative height of lowercase letters compared to their uppercase counterparts is a determining factor of legibility. This is commonly referred to as the '''aspect value'''. Precisely defined, it is equal to the x-height of a font (the height of a font's lowercase 'x' character) divided by the font size.
 In situations where font fallback occurs, fallback fonts cannot share the same aspect ratio as the desired font family and  thus appear less legible. Font fallback occurs when the specified font is not available and the client uses a fallback font, or a replacement font. The '''font-size-adjust''' property is a way to preserve the legibility of text when font fallback occurs. It does this by adjusting the font size so that the x-height is the same regardless of the font that is used.
 The following calculation uses the '''number''' value to calculate the adjusted font size: <code>c  {{=}}  ( a / a' ) s</code>
 In this equation, <code>s</code> is the font-size value, <code>a</code> is the '''number''' value of the '''font-size-adjust''' property, <code>a'</code> is the aspect value of the actual font, and <code>c</code> is the adjusted font size to use.
-This property applies to any font that is selected, but in typical usage it should be based on the aspect value of the first font in the font-family list. If this is specified accurately, the (<code>a/a'</code>) term in the formula listed previously is 1 for the first font and no adjustment occurs. 
+This property applies to any font that is selected, but in typical usage it should be based on the aspect value of the first font in the font-family list. If this is specified accurately, the (<code>a/a'</code>) term in the formula listed previously is 1 for the first font and no adjustment occurs.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
