@@ -86,7 +86,11 @@ If the string does not contain a value for a component property, that property i
 * Read https://developer.mozilla.org/en-US/docs/Web/CSS/font for more information on Firefox's additional proprietary system font settings.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fonts Module Level 3
+|URL=http://www.w3.org/TR/css3-fonts/#font-prop
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
