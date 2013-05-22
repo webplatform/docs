@@ -26,7 +26,27 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A selection of examples showing some typical uses of the font-feater-settings property.
+|Code=&lt;p class="smallcaps"&gt;Small caps&lt;/p&gt;
+
+&lt;p class="ligatures"&gt;Ligatures&lt;/p&gt;
+}}{{Single Example
+|Language=CSS
+|Code=@font-face {  
+    font-family: 'myMinion';  
+    src: url('MinionPro-Regular.otf') format('opentype');  
+}  
+  
+body {  
+    font-family: myMinion;  
+} 
+
+p.smallcaps { font-feature-settings: "smcp" 1; }
+
+p.ligatures{ font-feature-settings: "liga" on; }
+}}
 }}
 {{Notes_Section
 |Notes=OpenType specification defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.<br />
