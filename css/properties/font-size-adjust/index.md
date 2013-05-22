@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used. This preserves the readability of the text when fallback occurs.}}
+{{Summary_Section|The <code>font-size-adjust</code> property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used. This preserves the readability of the text when fallback occurs.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -14,12 +15,13 @@
 |Computed value=as specified
 |Animatable=Yes
 |CSS object model property=fontSizeAdjust
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Only use the font-size value to determine the size of the font.
 }}{{CSS Property Value
 |Data Type=number
-|Description=The aspect value used in calculating the size of the fallback fonts.. For the adjusted font size calculation, see Remarks.
+|Description=The aspect value used in calculating the size of the fallback fonts. For the adjusted font size calculation, see [[css/properties/font-size-adjust#Remarks|Remarks]].
 }}{{CSS Property Value
 |Data Type=auto
 |Description=The aspect value is calculated by the user agent for the first font in the font-family list, and used for every font in that list.
@@ -50,8 +52,8 @@ This property applies to any font that is selected, but in typical usage it shou
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
-|URL=http://dev.w3.org/csswg/css3-fonts/#propdef-font-size-adjust
-|Status=Editor's draft 6 February 2013
+|URL=http://www.w3.org/TR/css3-fonts/#propdef-font-size-adjust
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
