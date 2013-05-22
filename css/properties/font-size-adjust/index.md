@@ -30,24 +30,34 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Code=p { font-family: Courier, serif; font-size: 10pt; font-size-adjust: 0.4; }
-|LiveURL=http://dabblet.com/gist/4740493
+|Language=HTML
+|Code=&lt;p class="verdana"&gt;Normal "Verdana" font text. The x-height is 0.545.&lt;/p&gt;
+&lt;p class="times"&gt;Normal "Times New Roman" font text. This x-height is 0.448.&lt;/p&gt;
+&lt;p class="adjust"&gt;"Times New Roman" with font-size-adjust of 0.545.&lt;/p&gt;
 }}{{Single Example
-|Description=Transitioning a paragraph to a smaller font-size using font-size-adjust.
-|LiveURL=http://codepen.io/anon/pen/Gtuwa
+|Language=CSS
+|Code=p.verdana { 
+	font-family: Verdana,"Times New Roman", serif;
+}
+
+p.times {
+	font-family: "Times New Roman";
+}
+
+p.adjust {
+	font-family: hoge, "Times New Roman", serif;
+	font-size-adjust: 0.545;
+}
+|LiveURL=http://code.webplatform.org/gist/5628620
 }}
 }}
 {{Notes_Section
-|Usage=This property is only supported by Firefox, as of version 3.
 |Notes====Remarks===
 For any given font size, the apparent size and legibility of text varies across fonts. For scripts such as Latin or Cyrillic that distinguish between uppercase and lowercase letters, the relative height of lowercase letters compared to their uppercase counterparts is a determining factor of legibility. This is commonly referred to as the '''aspect value'''. Precisely defined, it is equal to the x-height of a font (the height of a font's lowercase 'x' character) divided by the font size.
 In situations where font fallback occurs, fallback fonts cannot share the same aspect ratio as the desired font family and  thus appear less legible. Font fallback occurs when the specified font is not available and the client uses a fallback font, or a replacement font. The '''font-size-adjust''' property is a way to preserve the legibility of text when font fallback occurs. It does this by adjusting the font size so that the x-height is the same regardless of the font that is used.
 The following calculation uses the '''number''' value to calculate the adjusted font size: <code>c  {{=}}  ( a / a' ) s</code>
 In this equation, <code>s</code> is the font-size value, <code>a</code> is the '''number''' value of the '''font-size-adjust''' property, <code>a'</code> is the aspect value of the actual font, and <code>c</code> is the adjusted font size to use.
-This property applies to any font that is selected, but in typical usage it should be based on the aspect value of the first font in the font-family list. If this is specified accurately, the (<code>a/a'</code>) term in the formula listed previously is 1 for the first font and no adjustment occurs. If the value is specified inaccurately, text that is rendered by using the first font in the family list displays differently in earlier versions of Windows Internet Explorer, which do not support the '''font-size-adjust''' property.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.10
+This property applies to any font that is selected, but in typical usage it should be based on the aspect value of the first font in the font-family list. If this is specified accurately, the (<code>a/a'</code>) term in the formula listed previously is 1 for the first font and no adjustment occurs. 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
