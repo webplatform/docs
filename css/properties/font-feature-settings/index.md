@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets or sets one or more values that specify glyph substitution and positioning in fonts that include OpenType layout features.}}
+{{Summary_Section|The <code>font-feature-settings</code> property gets or sets one or more values that specify glyph substitution and positioning in fonts that include OpenType layout features.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -13,12 +12,15 @@
 |Media=visual
 |Computed value=As specified
 |Animatable=No
+|CSS object model property=fontFeatureSettings
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default. No change in glyph substitution or positioning occurs.
 }}{{CSS Property Value
-|Data Type=feature-tag-value
-|Description=Comma-separated list of one or more OpenType layout feature tags (each with an optional toggle). See Remarks for examples of correct syntax, plus a table of the most common feature tags and their definitions.
+|Data Type=OpenType feature tag, Indicator
+|Description=* OpenType feature tag: Comma-separated list of one or more OpenType layout feature tags (each with an optional toggle). See [[css/properties/font-feature-settings#Notes|Notes]] for examples of correct syntax, plus a table of the most common feature tags and their definitions.
+* Indicator: 0 indicates that the feature is disabled. For boolean features, 1 indicates that feature is enabled. A value of ‘on’ is synonymous with 1 and ‘off’ is synonymous with 0. For non-boolean features, 1 or greater indicates the feature selection index.
 }}
 }}
 {{Examples_Section
@@ -26,33 +28,30 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-OpenType specification defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.<br />
+|Notes=OpenType specification defines many advanced typographic features that can be implemented by font designers. For instance, you can define vertical positioning for a font, substitute glyph forms with ligatures, contextual alternates, stylistic alternates, or swashes, include a set of small caps, and more.<br />
 Each defined feature has a corresponding feature tag that identifies its function and effects. Font developers can also define their own features. A feature's tag determines what the feature does and whether to implement it. The following table lists some of the most common feature tags and their definitions.<br />
 For the full list of OpenType layout features, see [http://go.microsoft.com/fwlink/p/?LinkId{{=}}236359 OpenType layout feature tag registry].
 
-* '''kern''' — Kerning
-* '''smcp''' — Small capitals
-* '''liga''' — Standard ligatures
-* '''dlig''' — Discretionary ligatures
-* '''ss01''', '''ss02''', '''ss03''' ... '''ss20''' — Stylistic sets (font-specific)
-* '''swsh''' — Swash
-* '''tnum''' — Tabular figures
-* '''lnum''' — Lining figures
-* '''onum''' — Oldstyle figures
+* <code>kern</code> — Kerning
+* <code>smcp</code> — Small capitals
+* <code>liga</code> — Standard ligatures
+* <code>dlig</code> — Discretionary ligatures
+* <code>ss01</code>, <code>ss02</code>, <code>ss03</code> ... <code>ss20</code> — Stylistic sets (font-specific)
+* <code>swsh</code> — Swash
+* <code>tnum</code> — Tabular figures
+* <code>lnum</code> — Lining figures
+* <code>onum</code> — Oldstyle figures
 
 If you are unfamiliar with the font features listed above, the CSS Fonts Module Level 3 specification has good explanations and visual examples of each feature in Section 6, "[http://go.microsoft.com/fwlink/?LinkID{{=}}236360 Font feature properties]." Be aware that, though the properties listed correspond to OpenType layout features that might be supported, the properties themselves ('''font-kerning''', '''font-variant-*''', and so on) are not supported.
 
-===Notes===
-Whenever possible, Web authors should use the '''font-variant''' property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature does exists.
-|Import_Notes====Syntax===
-<code>'''font-feature-settings: '''normal '''{{!}}''' ''feature-tag-value'' [, ''feature-tag-value'' ]*</code>
+
+Whenever possible, Web authors should use the <code>font-variant</code> property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature does exists.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
-|URL=http://dev.w3.org/csswg/css3-fonts/#propdef-font-feature-settings
-|Status=Editor's draft
+|URL=http://www.w3.org/TR/css3-fonts/#propdef-font-feature-settings
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
