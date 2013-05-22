@@ -19,7 +19,8 @@
 |Description=Default. No change in glyph substitution or positioning occurs.
 }}{{CSS Property Value
 |Data Type=OpenType feature tag, Indicator
-|Description=* OpenType feature tag: Comma-separated list of one or more OpenType layout feature tags (each with an optional toggle). See [[css/properties/font-feature-settings#Notes|Notes]] for examples of correct syntax, plus a table of the most common feature tags and their definitions.
+|Description=This property can take up to two separate parts in its value. The options are as follows:
+* OpenType feature tag: Comma-separated list of one or more OpenType layout feature tags (each with an optional toggle). See [[css/properties/font-feature-settings#Notes|Notes]] for examples of correct syntax, plus a table of the most common feature tags and their definitions.
 * Indicator: 0 indicates that the feature is disabled. For boolean features, 1 indicates that feature is enabled. A value of ‘on’ is synonymous with 1 and ‘off’ is synonymous with 0. For non-boolean features, 1 or greater indicates the feature selection index.
 }}
 }}
