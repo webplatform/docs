@@ -29,9 +29,10 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=&lt;p class="verdana"&gt;Normal "Verdana" font text. The x-height is 0.545.&lt;/p&gt;
-&lt;p class="times"&gt;Normal "Times New Roman" font text. This x-height is 0.448.&lt;/p&gt;
-&lt;p class="adjust"&gt;"Times New Roman" with font-size-adjust of 0.545.&lt;/p&gt;
+|Description=The popular font "Verdana" has an aspect value of 0.58. When Verdana's font size 100 %, its x-height is 58 units. For comparison, Times New Roman has an aspect value of 0.448. Verdana will therefore tend to remain legible at smaller sizes than Times New Roman. Conversely, Verdana will often look 'too big' if substituted for Times New Roman at a chosen size.
+|Code=&lt;p class="verdana"&gt;Normal "Verdana" font text. The x-height is 54.5.&lt;/p&gt;
+&lt;p class="times"&gt;Normal "Times New Roman" font text. This x-height is 44.8.&lt;/p&gt;
+&lt;p class="adjust"&gt;"Times New Roman" with font-size-adjust of 54.5.&lt;/p&gt;
 }}{{Single Example
 |Language=CSS
 |Code=p.verdana { 
