@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Mixed}}
 {{API_Name}}
-{{Summary_Section|offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
+{{Summary_Section|Offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
 
 Applies to both block and inline elements.
 }}
