@@ -86,7 +86,7 @@ Applies to both block and inline elements.
 }}
 }}
 {{Notes_Section
-|Usage=enables proper alignment of various languages such as chinese.
+|Usage=Enables proper alignment of various languages such as chinese.
 |Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-justify''' attribute is an extension to CSS, and can be used as a synonym for '''text-justify''' in IE8 Standards mode.
 For this property to affect text layout, the [[css/properties/text-align|'''text-align''']] property must be set to '''justify'''.
