@@ -44,7 +44,7 @@
 }}{{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
 |URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
-|Status= 07 June 2011
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
