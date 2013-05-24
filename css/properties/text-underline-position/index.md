@@ -2,27 +2,33 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=above
+|Data Type=auto
 |Description=Decoration appears above the text.
 }}{{CSS Property Value
-|Data Type=below
+|Data Type=alphabetic
 |Description=Decoration appears below the text.
 }}{{CSS Property Value
-|Data Type=auto
+|Data Type=under
 |Description=Default. Internet Explorer 6 and later. Decoration appears above the text if the [[html/attributes/lang|'''LANG''']] attribute is set to '''ja''', which is the language code abbreviation for the Japanese language, and the [[css/properties/writing-mode|'''-ms-writing-mode''']] attribute is set to '''tb-rl''', which causes vertical inline text progression.  If not, the decoration appears below the text.
 }}{{CSS Property Value
-|Data Type=auto-pos
+|Data Type=left
 |Description=Internet Explorer 6 and later. Identical to '''auto'''.
+}}{{CSS Property Value
+|Data Type=right
 }}
 }}
 {{Examples_Section
@@ -73,6 +79,7 @@ In Internet Explorer 6, The '''auto''' and '''auto-pos''' values apply to this 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
