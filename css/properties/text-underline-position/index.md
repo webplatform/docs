@@ -20,15 +20,16 @@
 |Description=Decoration appears above the text.
 }}{{CSS Property Value
 |Data Type=alphabetic
-|Description=Decoration appears below the text.
+|Description=The underline is positioned relative to the alphabetic baseline. In this case the underline is likely to cross some descenders. Decoration appears below the text.
 }}{{CSS Property Value
 |Data Type=under
-|Description=Default. Internet Explorer 6 and later. Decoration appears above the text if the [[html/attributes/lang|'''LANG''']] attribute is set to '''ja''', which is the language code abbreviation for the Japanese language, and the [[css/properties/writing-mode|'''-ms-writing-mode''']] attribute is set to '''tb-rl''', which causes vertical inline text progression.  If not, the decoration appears below the text.
+|Description=The underline is positioned under the element's text content. In this case the underline usually does not cross the descenders. (This is sometimes called "accounting" underline.) This value can be combined with ‘left’ or ‘right’ if a particular side is preferred in vertical writing modes. 
 }}{{CSS Property Value
 |Data Type=left
-|Description=Internet Explorer 6 and later. Identical to '''auto'''.
+|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side. 
 }}{{CSS Property Value
 |Data Type=right
+|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side. 
 }}
 }}
 {{Examples_Section
