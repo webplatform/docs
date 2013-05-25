@@ -2,16 +2,19 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the indentation of the first line of text in the object.}}
+{{Summary_Section|Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements
+|Applies to=Block, inline-block, and table cells
 |Inherited=Yes
 |Media=visual
+|Computed value=percentage or absolute length
 |Animatable=No
+|CSS percentages=refer to width of containing block
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px).
@@ -20,6 +23,16 @@
 |Description=Integer, followed by a percent sign (%). This value is a percentage of the width of the parent object.
 }}{{CSS Property Value
 |Data Type=inherit
+}}{{CSS Property Value
+|Data Type=each-line
+|Description=Will affect not only the first line of the block container but also any line that is after a forced line break. This does not have affect on soft wrap break.
+
+Currently experimental in CSS Text Level 3
+}}{{CSS Property Value
+|Data Type=hanging
+|Description=Inverts which lines are indented.
+
+Currently experimental in CSS Text Level 3
 }}
 }}
 {{Examples_Section
@@ -60,7 +73,11 @@ The property can be negative. An indent is not inserted in the middle of an obje
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.7
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -101,8 +118,8 @@ The property can be negative. An indent is not inserted in the middle of an obje
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
