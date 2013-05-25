@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the rendering of the text in the object.}}
+{{Summary_Section|The text-transform property controls capitalization effects of an element's text.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -27,9 +27,6 @@
 }}{{CSS Property Value
 |Data Type=lowercase
 |Description=Transforms all the characters to lowercase.
-}}{{CSS Property Value
-|Data Type=full-width
-|Description=Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters. [http://dev.w3.org/csswg/css-text/#text-transform0 See spec]
 }}
 }}
 {{Examples_Section
@@ -104,9 +101,8 @@ body {
 }
 
 .text--uppercase {
-	text-transform:uppercase; /* all uppercase characters */
+	text-transform:uppercase; /* works on non-latin characters as well */
 }
-
 |LiveURL=http://code.webplatform.org/gist/5651033
 }}
 }}
@@ -115,7 +111,7 @@ body {
 
 When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 |Import_Notes====Syntax===
-<code>'''text-transform: '''capitalize '''{{!}}''' uppercase '''{{!}}''' lowercase '''{{!}}''' none</code>
+<code>'''text-transform: '''capitalize '''{{!}}''' uppercase '''{{!}}''' lowercase '''{{!}}''' none '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.5
 }}
@@ -186,6 +182,8 @@ When using text-transform: capitalize; authors should not expect capitalize to f
 {{See_Also_Section
 |Topic_clusters=Text
 |External_links=http://www.w3.org/TR/CSS2/text.html#caps-prop
+
+http://www.w3.org/wiki/CSS/Properties/text-transform
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
