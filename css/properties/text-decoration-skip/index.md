@@ -37,7 +37,7 @@ Note: The UA also may skip over small distances on the right or the left side of
 |Data Type=box-decoration
 |Description=Will skip over the box's margin, border, and padding areas.
 
-**Note: It is not known yet if this is a needed value**
+Note: It is not known yet if this is a needed value
 }}
 }}
 {{Examples_Section
