@@ -61,10 +61,59 @@ This example uses three calls to an embedded (global) style sheet to transform t
 :
 &lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textTransform.htm
+}}{{Single Example
+|Language=CSS
+|Description=Examples using different values for text-transform
+|Code=/*
+	- text-transform property examples
+	- explanations inline
+*/
+
+body {
+	padding:50px;
+	font-size:22px;
+}
+
+.text--uppercase {
+	text-transform:uppercase; /* all uppercase characters */
+}
+
+.text--lowercase{
+	text-transform: lowercase; /* all lowercase characters */
+}
+
+.text--capitalize{
+	text-transform: capitalize; /* _first_ letter of each word is capitalized  */
+}
+
+.text--no-transform {
+	text-transform: none; /* disables any other inherited text-transform */
+}
+|LiveURL=http://code.webplatform.org/gist/5651013
+}}{{Single Example
+|Language=CSS
+|Description=Using text-transform also works on greek or german letters
+|Code=/*
+	- text-transform property examples
+	- explanations inline
+*/
+
+body {
+	padding:50px;
+	font-size:22px;
+}
+
+.text--uppercase {
+	text-transform:uppercase; /* all uppercase characters */
+}
+
+|LiveURL=http://code.webplatform.org/gist/5651033
 }}
 }}
 {{Notes_Section
-|Notes=When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
+|Notes=This property transforms text for styling purposes. (It has no effect on the underlying content.)
+
+When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 |Import_Notes====Syntax===
 <code>'''text-transform: '''capitalize '''{{!}}''' uppercase '''{{!}}''' lowercase '''{{!}}''' none</code>
 ===Standards information===
@@ -136,6 +185,7 @@ This example uses three calls to an embedded (global) style sheet to transform t
 }}
 {{See_Also_Section
 |Topic_clusters=Text
+|External_links=http://www.w3.org/TR/CSS2/text.html#caps-prop
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -147,7 +197,6 @@ This example uses three calls to an embedded (global) style sheet to transform t
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
