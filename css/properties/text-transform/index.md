@@ -2,15 +2,19 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets or retrieves the rendering of the text in the object.}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS percentages=no
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. Text is not transformed.
@@ -23,6 +27,9 @@
 }}{{CSS Property Value
 |Data Type=lowercase
 |Description=Transforms all the characters to lowercase.
+}}{{CSS Property Value
+|Data Type=full-width
+|Description=Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters. [http://dev.w3.org/csswg/css-text/#text-transform0 See spec]
 }}
 }}
 {{Examples_Section
@@ -57,6 +64,7 @@ This example uses three calls to an embedded (global) style sheet to transform t
 }}
 }}
 {{Notes_Section
+|Notes=When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 |Import_Notes====Syntax===
 <code>'''text-transform: '''capitalize '''{{!}}''' uppercase '''{{!}}''' lowercase '''{{!}}''' none</code>
 ===Standards information===
@@ -138,7 +146,7 @@ This example uses three calls to an embedded (global) style sheet to transform t
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MDN, MSDN
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
