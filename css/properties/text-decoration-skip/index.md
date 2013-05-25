@@ -22,12 +22,12 @@
 }}{{CSS Property Value
 |Data Type=spaces
 |Description=Will skip white space that can include:
-regular spaces - U+0020
-tabs - U+0009
-nbsp - U+00A0
-ideographic space - U+3000
-all fixed width spaces - examples: U+2000 to U+200A, U+202F and U+205F
-any adjacent letter-spacing or word-spacing
+* regular spaces - U+0020
+* tabs - U+0009
+* nbsp - U+00A0
+* ideographic space - U+3000
+* all fixed width spaces - examples: U+2000 to U+200A, U+202F and U+205F
+* any adjacent letter-spacing or word-spacing
 }}{{CSS Property Value
 |Data Type=ink
 |Description=Will skip over where any glyphs are drawn. Such is the case where it will interrupt the decoration line so that the text can show through where otherwise the text decoration would cross over. 
@@ -37,7 +37,7 @@ Note: The UA also may skip over small distances on the right or the left side of
 |Data Type=box-decoration
 |Description=Will skip over the box's margin, border, and padding areas.
 
-Note: It is not known yet if this is a needed value
+**Note: It is not known yet if this is a needed value**
 }}
 }}
 {{Examples_Section
