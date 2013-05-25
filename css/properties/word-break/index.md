@@ -2,15 +2,19 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|word-break is often used when there is long generated content that is strung together without and spaces or hyphens to beak apart. A common case of this is when there is a long URL that does not have any hyphens. This case could potentially cause the breaking of the layout as it could extend past the parent element.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS percentages=Not available
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default.
@@ -33,7 +37,26 @@ non-CJK text that includes small amounts of CJK text.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<div>
+  <a href="#">http://example.com/this_is_a_long_href/so_we_will_use_word_break/to_keep_inside_of_div</a>
+</div>
+|LiveURL=http://cdpn.io/covtd
+}}{{Single Example
+|Language=CSS
+|Code=div {
+  background: #ccc;
+  border: 1px solid #444;
+  margin: 2em;
+  padding: .5em;
+  width: 300px;
+  
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+|LiveURL=http://cdpn.io/covtd
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
