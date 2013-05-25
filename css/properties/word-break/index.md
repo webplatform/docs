@@ -39,7 +39,19 @@ non-CJK text that includes small amounts of CJK text.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<div>
+|Code=<style>
+.parent {
+  background: #ccc;
+  border: 1px solid #444;
+  margin: 2em;
+  padding: .5em;
+  width: 300px;
+  
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+</style>
+<div class="parent">
   <a href="#">http://example.com/this_is_a_long_href/so_we_will_use_word_break/to_keep_inside_of_div</a>
 </div>
 |LiveURL=http://cdpn.io/covtd
