@@ -63,8 +63,8 @@ Note: It is not known yet if this is a needed value
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|External_links=1. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
-2. http://www.w3.org/TR/css-text-decor-3/
+|External_links=* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+* http://www.w3.org/TR/css-text-decor-3/
 }}
 {{Topics|CSS}}
 {{External_Attribution
