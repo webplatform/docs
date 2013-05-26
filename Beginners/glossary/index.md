@@ -5,6 +5,10 @@
 {{Summary_Section|This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.}}
 {{Basic Page}}
 <dl>
+<dt>Alignment:</dt>
+<dd>
+The horizontal or vertical positioning of an element. Typical horizontal alignments include left, right, and center; typical vertical alignments include baseline, sub, super, top, text-top, middle, bottom, and text-bottom.
+</dd>
 <dt>API (Application Program Interface):</dt>
 <dd>A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them.</dd>
 <dt>Attribute:</dt>
@@ -37,6 +41,9 @@
 <dd>A base 16 counting system where the numbers 10 through 16 are represented by the letters A through F.</dd>
 <dt>HTML (Hyper Text Markup Language):</dt>
 <dd>A language to describe the contents of web documents. It uses a special syntax containing markers (called “elements”) which are wrapped around the text within the document to indicate how user agents (eg. web browsers) should interpret that portion of the document.</dd>
+<dt>Justification:</dt>
+<dd>
+The typographical practice of aligning multiple lines of text precisely to one or both of their common margins. Typically referred to in its individual forms as left, right, center, or full justification.</dd>
 <dt>Margin:</dt>
 <dd>The space surrounding an element box; the space between the border and the margin of an adjacent element.</dd>
 <dt>Monospaced: </dt>
@@ -48,9 +55,9 @@
 <dt>RGB</dt>
 <dd>Literally, red, green and blue.  For our purposes a hexadecimal notation that provides levels for each of the colors red green and blue.</dd>
 <dt>Sans-serif:</dt>
-<dd>Sans meaning without in french, this describes fonts without serifs.</dd>
+<dd>Sans meaning without in french, this describes fonts without serifs, the small projecting features at the ends of character strokes. Modern convention holds that sans-serif fonts are preferred over serif fonts for online text, while serif fonts are preferred for print.</dd>
 <dt>Serif</dt>
-<dd>Term used to describe fonts with small lines extending from the edges of letters and symbols</dd>
+<dd>Term used to describe fonts with small small projecting features at the ends of character strokes.</dd>
 <dt>Server:</dt>
 <dd>A computer on which web sites are stored, ready for delivery to those who want to look at them.</dd>
 <dt>Style Sheeet:</dt>
@@ -74,10 +81,6 @@
 <dd>A markup language for structured documents in general.</dd>
 <dt>XUL:</dt>
 <dd>A markup language for user interfaces in Mozilla.</dd>
-<dt></dt>
-<dd></dd>
-<dt></dt>
-<dd></dd>
 <dt></dt>
 <dd></dd>
 <dt></dt>
