@@ -24,6 +24,7 @@
 |Description=Integer, followed by a percent sign (%). This value is a percentage of the width of the parent object.
 }}{{CSS Property Value
 |Data Type=inherit
+|Description=Inherits the value from the cascade.
 }}{{CSS Property Value
 |Data Type=each-line
 |Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px each-line;</code>). It will affect not only the first line of the block container but also any line that is after a forced line break. This does not have affect on soft wrap break.
@@ -47,6 +48,7 @@ This example uses calls to an embedded style sheet to change the indent on the t
 |Code=&lt;DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
+ &lt;title&gt;Example&lt;/title&gt;
   &lt;style&gt;
 div {
  text-indent:2cm;
@@ -82,6 +84,7 @@ window.addEventListener("load", initialize, false);
 |Code=&lt;DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
+ &lt;title&gt;Example&lt;/title&gt;
   &lt;script&gt;
 function initialize() {
   var element = document.getElementById("example");
