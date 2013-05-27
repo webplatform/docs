@@ -23,13 +23,13 @@
 |Description=The underline is positioned relative to the alphabetic baseline. In this case the underline is likely to cross some descenders. Decoration appears below the text.
 }}{{CSS Property Value
 |Data Type=under
-|Description=The underline is positioned under the element's text content. In this case the underline usually does not cross the descenders. (This is sometimes called "accounting" underline.) This value can be combined with ‘left’ or ‘right’ if a particular side is preferred in vertical writing modes. 
+|Description=The underline is positioned under the element's text content. In this case the underline usually does not cross the descenders. (This is sometimes called "accounting" underline.) This value can be combined with ‘left’ or ‘right’ if a particular side is preferred in vertical writing modes.
 }}{{CSS Property Value
 |Data Type=left
-|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side. 
+|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the left edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.
 }}{{CSS Property Value
 |Data Type=right
-|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side. 
+|Description=In vertical writing modes, the underline is aligned as for ‘under’, except it is always aligned to the right edge of the text. If this causes the underline to be drawn on the "over" side of the text, then an overline also switches sides and is drawn on the "under" side.
 }}
 }}
 {{Examples_Section
@@ -76,7 +76,11 @@ In Internet Explorer 6, The '''auto''' and '''auto-pos''' values apply to this 
 <code>'''-ms-text-underline-position: '''above '''{{!}}''' below '''{{!}}''' auto '''{{!}}''' auto-pos</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Decoration Module Level 3
+|URL=http://www.w3.org/TR/css-text-decor-3/#text-underline-position-property
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
