@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=percentage or absolute length
 |Animatable=No
+|CSS object model property=textIndent
 |CSS percentages=refer to width of containing block
 |Values={{CSS Property Value
 |Data Type=length
@@ -25,12 +26,12 @@
 |Data Type=inherit
 }}{{CSS Property Value
 |Data Type=each-line
-|Description=Will affect not only the first line of the block container but also any line that is after a forced line break. This does not have affect on soft wrap break.
+|Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px each-line;</code>). It will affect not only the first line of the block container but also any line that is after a forced line break. This does not have affect on soft wrap break.
 
 Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=hanging
-|Description=Inverts which lines are indented.
+|Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. {{TODO|This needs clarification.}}
 
 Currently experimental in CSS Text Level 3
 }}
@@ -38,45 +39,85 @@ Currently experimental in CSS Text Level 3
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following examples use the '''text-indent''' attribute and the '''text-indent''' property to indent the object's text.
 
 This example uses calls to an embedded style sheet to change the indent on the text when an [[dom/events/click|'''onclick''']] event occurs. The text was originally indented 2 centimeters using '''div''' as a selector in the style sheet.
-|Code=&lt;STYLE&gt;
-    DIV { text-indent:2cm }
-    .click1 { text-indent:50% }
-    .click2 { text-indent: }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;DIV onclick{{=}}"this.className{{=}}'click1'"
-    ondblclick{{=}}"this.className{{=}}'click2'"&gt;
-. . . &lt;/DIV&gt;
+|Code=&lt;DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;style&gt;
+div {
+ text-indent:2cm;
+}
+.click1 {
+ text-indent:50%;
+}
+.click2 {
+ text-indent: 3cm;
+}
+  &lt;/style&gt;
+  &lt;script&gt;
+function initialize() {
+  var element = document.getElementById("example");
+  element.addEventListener("click", function () {
+    this.className = "click1";
+  }, false);
+  element.addEventListener("dblclick", function () {
+    this.className = "click2";
+  }, false);
+}
+window.addEventListener("load", initialize, false);
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;div id="example-1">&gt;&lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-indent.htm
 }}{{Single Example
+|Language=HTML
 |Description=This example uses inline scripting to indent the text within the '''div''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;DIV onmouseover{{=}}this.style.textIndent{{=}}"2cm"
-:
-&lt;/DIV&gt;
+|Code=&lt;DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
+function initialize() {
+  var element = document.getElementById("example");
+  element.addEventListener("mouseover", function () {
+    this.style.textIndent = "2cm";
+  }, false);
+}
+window.addEventListener("load", initialize, false);
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;div id="example-1">&gt;&lt;/div&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textIndent.htm
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as '''br''' in HTML.
+|Notes=The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as '''br''' in HTML.
 |Import_Notes====Syntax===
 <code>'''text-indent: '''''
 &lt;length&gt;
 '' '''{{!}}''' ''
 &lt;percentage&gt;
-'' '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.7
+'' '''{{!}}''' inherit && [ hanging || each-line ]?</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
 |URL=http://www.w3.org/TR/css3-text/
 |Status=Working Draft
+|Relevant_changes=Section 9.1. (Adds hanging and each-line as supplemental keywords)
+}}{{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/
+|Status=Recommendation
+|Relevant_changes=Section 5.4.7
 }}
 }}
 {{Compatibility_Section
@@ -103,16 +144,36 @@ The property can be negative. An indent is not inserted in the middle of an obje
 |Safari_version=1.0
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=hanging/each-line keywords
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=7 (unofficial yet)
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
 |Topic_clusters=Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|CSS}}
