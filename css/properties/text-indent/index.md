@@ -31,7 +31,8 @@
 Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=hanging
-|Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. {{TODO|This needs clarification.}}
+|Description={{TODO|This needs clarification.}}
+This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
 
 Currently experimental in CSS Text Level 3
 }}
@@ -42,7 +43,7 @@ Currently experimental in CSS Text Level 3
 |Language=HTML
 |Description=The following examples use the '''text-indent''' attribute and the '''text-indent''' property to indent the object's text.
 
-This example uses calls to an embedded style sheet to change the indent on the text when an [[dom/events/click|'''onclick''']] event occurs. The text was originally indented 2 centimeters using '''div''' as a selector in the style sheet.
+This example uses calls to an embedded style sheet to change the indent on the text when a [[dom/events/click|'''click''']] event occurs. The text was originally indented 2 centimeters using '''div''' as a selector in the style sheet.
 |Code=&lt;DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -71,13 +72,13 @@ window.addEventListener("load", initialize, false);
   &lt;/script&gt;
  &lt;/head&gt;
  &lt;body&gt;
-  &lt;div id="example-1">&gt;&lt;/div&gt;
+  &lt;div id="example-1"&gt;&lt;/div&gt;
  &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-indent.htm
 }}{{Single Example
 |Language=HTML
-|Description=This example uses inline scripting to indent the text within the '''div''' when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
+|Description=This example uses inline scripting to indent the text within the '''div''' when a [[dom/events/mouseover|'''mouseover''']] event occurs.
 |Code=&lt;DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -92,7 +93,7 @@ window.addEventListener("load", initialize, false);
   &lt;/script&gt;
  &lt;/head&gt;
  &lt;body&gt;
-  &lt;div id="example-1">&gt;&lt;/div&gt;
+  &lt;div id="example-1"&gt;&lt;/div&gt;
  &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textIndent.htm
@@ -168,7 +169,7 @@ window.addEventListener("load", initialize, false);
 |Safari_prefixed_version=7 (unofficial yet)
 }}
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Text
