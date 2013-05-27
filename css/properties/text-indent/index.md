@@ -32,7 +32,7 @@
 Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=&lt;length/percentage&gt; hanging
-|Description={{TODO|This needs clarification.}}
+|Description={{TODO|This needs validation, the specification has no example and no elaborated description other than five words that are also used here.}}
 This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
 
 Currently experimental in CSS Text Level 3
