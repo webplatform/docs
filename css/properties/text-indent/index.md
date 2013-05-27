@@ -149,7 +149,7 @@ window.addEventListener("load", initialize, false);
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
-|Feature=hanging/each-line keywords
+|Feature=<em>hanging</em> keyword
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=No
@@ -170,6 +170,28 @@ window.addEventListener("load", initialize, false);
 |Safari_version=
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=7 (unofficial yet)
+}}{{Compatibility Table Desktop Row
+|Feature=<em>each-line</em>
+|Chrome_supported=No
+|Chrome_version=
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=No
+|Opera_version=
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows=
 |Notes_rows=
