@@ -2,7 +2,10 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.}}
+
+==Resumo==
+Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
+
 {{Basic Page}}
 {{Languages}}
 {{Flags}}
