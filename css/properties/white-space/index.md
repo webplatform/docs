@@ -84,7 +84,7 @@ function fnSwitch(){
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/whitespace_1.htm
 }}{{Single Example
 |Language=CSS
-|Description=See the live example on jsbin. One of the few editors (from what I've seen) that takes into consideration the white-space CSS property.
+|Description=See the live example that has all the properties implemented side by side for comparison.
 |Code=/*
 See the link for a better understanding and live example of all the different properties compared side by side.
 */
@@ -108,7 +108,7 @@ See the link for a better understanding and live example of all the different pr
    .white-space--pre-line {
       white-space:pre-wrap;
     }
-|LiveURL=http://jsbin.com/uciquc/1
+|LiveURL=http://jsbin.com/uciquc/2/
 }}
 }}
 {{Notes_Section
