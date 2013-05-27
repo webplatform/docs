@@ -26,12 +26,12 @@
 |Data Type=inherit
 |Description=Inherits the value from the cascade.
 }}{{CSS Property Value
-|Data Type=each-line
+|Data Type=&lt;length/percentage&gt; each-line
 |Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px each-line;</code>). It will affect not only the first line of the block container but also any line that is after a forced line break. This does not have affect on soft wrap break.
 
 Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
-|Data Type=hanging
+|Data Type=&lt;length/percentage&gt; hanging
 |Description={{TODO|This needs clarification.}}
 This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
 
