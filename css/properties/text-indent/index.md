@@ -171,7 +171,7 @@ window.addEventListener("load", initialize, false);
 |Safari_prefixed_supported=Yes
 |Safari_prefixed_version=7 (unofficial yet)
 }}{{Compatibility Table Desktop Row
-|Feature=<em>each-line</em>
+|Feature=<em>each-line</em> keyword
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=No
