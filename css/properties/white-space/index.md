@@ -2,18 +2,21 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The white-space property controls if a white-space character within an element can wrap or if it must be preserved.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. Lines of text break automatically. Content wraps to the next line if it exceeds the width of the object.
+|Description=Lines of text break automatically. Content wraps to the next line if it exceeds the width of the object.
 }}{{CSS Property Value
 |Data Type=nowrap
 |Description=Line breaks are suppressed. Content does not wrap to the next line.
@@ -79,6 +82,33 @@ function fnSwitch(){
 &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/whitespace_1.htm
+}}{{Single Example
+|Language=CSS
+|Description=See the live example on jsbin. One of the few editors (from what I've seen) that takes into consideration the white-space CSS property.
+|Code=/*
+See the link for a better understanding and live example of all the different properties compared side by side.
+*/
+
+ .white-space--nowrap {
+       white-space:nowrap; 
+    }
+    
+    .white-space--normal {
+      white-space:normal;
+    }
+    
+    .white-space--pre {
+      white-space:pre;
+    }
+    
+    .white-space--pre-wrap {
+      white-space:pre-wrap;
+    }
+    
+   .white-space--pre-line {
+      white-space:pre-wrap;
+    }
+|LiveURL=http://jsbin.com/uciquc/1
 }}
 }}
 {{Notes_Section
@@ -138,8 +168,8 @@ Windows Internet Explorer 8. The '''pre-line''' and '''pre-wrap''' values are u
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
