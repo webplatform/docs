@@ -109,7 +109,7 @@ window.addEventListener("load", initialize, false);
 &lt;length&gt;
 '' '''{{!}}''' ''
 &lt;percentage&gt;
-'' '''{{!}}''' inherit && [ hanging || each-line ]?</code>
+'' '''{{!}}''' inherit && [ hanging {{|}}{{|}} each-line ]?</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
