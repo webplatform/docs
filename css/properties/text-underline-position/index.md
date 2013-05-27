@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property will add a underline position value to the element that has an underline defined.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements
