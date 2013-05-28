@@ -4,18 +4,17 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status|Mixed}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
-
-Applies to both block and inline elements.
-}}
+{{Summary_Section|The <code>text-justify</code> CSS property offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements
+|Applies to=block containers and, optionally, inline elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=textJustify
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Allows the browser to determine which justification algorithm to apply.
@@ -39,7 +38,7 @@ Applies to both block and inline elements.
 |Description=Aligns text by increasing the space between words. This value's spacing behavior is the fastest way to make all lines of text equal in length. Its justification behavior does not affect the last line of the paragraph.
 }}{{CSS Property Value
 |Data Type=kashida
-|Description=Justifies lines of text by elongating characters at chosen points.  This form of justification is intended for Arabic script languages. Supported starting in Internet Explorer 5.5.
+|Description=Justifies lines of text by elongating characters at chosen points.  This form of justification is intended for Arabic script languages.
 }}{{CSS Property Value
 |Data Type=newspaper
 |Description=Increases or decreases the spacing between letters and between words. It is the most sophisticated form of justification for Latin alphabets.
@@ -87,17 +86,13 @@ Applies to both block and inline elements.
 }}
 {{Notes_Section
 |Usage=Enables proper alignment of various languages such as chinese.
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-text-justify''' attribute is an extension to CSS, and can be used as a synonym for '''text-justify''' in IE8 Standards mode.
-For this property to affect text layout, the [[css/properties/text-align|'''text-align''']] property must be set to '''justify'''.
-The property applies to block elements.
-|Import_Notes====Syntax===
-<code>'''-ms-text-justify: '''auto '''{{!}}''' distribute '''{{!}}''' distribute-all-lines '''{{!}}''' distribute-center-last '''{{!}}''' inter-cluster '''{{!}}''' inter-ideograph '''{{!}}''' inter-word '''{{!}}''' kashida '''{{!}}''' newspaper</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 8.3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#text-justify0
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -128,8 +123,12 @@ The property applies to block elements.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, CSS Attributes, Text
-|Manual_sections====Related pages (MSDN)===
+|Topic_clusters=CSS Layout, Text
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+|Manual_sections=
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
