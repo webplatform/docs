@@ -2,26 +2,38 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>thead</code> tag is used to group header content in an HTML table.}}
+{{Summary_Section|The <code>thead</code> tag is used to group header content in an HTML table. Generally with have th tags with attribute of scope="col"}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following code example uses the ''thead''' element and the [[html/elements/table|'''table''']], [[html/elements/tbody|'''tbody''']], [[html/elements/td|'''td''']], and [[html/elements/tr|'''tr''']] elements to create a table that includes the first row in the table header and the second row in the table body.
 |Code=&lt;table&gt;
 &lt;thead&gt;
   &lt;tr&gt;
-    &lt;td&gt;This text is in the table header.&lt;/td&gt;
+    &lt;th scope="col"&gt;Player&lt;/th&gt;
+    &lt;th scope="col"&gt;Position&lt;/th&gt;
   &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
   &lt;tr&gt;
-    &lt;td&gt;This text is in the table body.&lt;/td&gt;
+    &lt;td&gt;James, Lebron&lt;/td&gt;
+    &lt;td&gt;SF&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Wade, Dwayne&lt;/td&gt;
+    &lt;td&gt;SG&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Bosh, Chris&lt;/td&gt;
+    &lt;td&gt;PF&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -30,12 +42,12 @@
 {{Notes_Section
 |Notes====Remarks===
 Valid tags within the '''THEAD''' element include:
-*'''td'''
+*'''td''' * chances are should be a th not a td, and scope of column
 *'''th'''
 *'''tr'''
 
 You can specify only one '''thead''' object specified for any given [[html/elements/table|'''table''']] object.
-The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  
+The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.3
@@ -760,9 +772,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
