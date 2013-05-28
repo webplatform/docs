@@ -1,13 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Review
-|Content=Compatibility Incomplete, Examples Needed
 |Checked_Out=No
-|Editorial notes=Needs information in the Usage section.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.}}
+{{Summary_Section|The <code>text-align</code> CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.}}
 {{CSS Property
 |Initial value=start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.
 |Applies to=block containers
@@ -18,10 +15,10 @@
 |CSS object model property=textAlign
 |Values={{CSS Property Value
 |Data Type=start
-|Description=The same as ''<code>left</code>'' if direction is left-to-right and ''<code>right</code>'' if direction is right-to-left. '''''Experimental'''
+|Description=The same as ''<code>left</code>'' if direction is left-to-right and ''<code>right</code>'' if direction is right-to-left.
 }}{{CSS Property Value
 |Data Type=end
-|Description=The same as ''<code>right</code>'' if direction is left-to-right and ''<code>left</code>'' if direction is right-to-left. '''''Experimental'''
+|Description=The same as ''<code>right</code>'' if direction is left-to-right and ''<code>left</code>'' if direction is right-to-left. 
 }}{{CSS Property Value
 |Data Type=left
 |Description=The inline contents are aligned to the left edge of the line box.
@@ -33,16 +30,16 @@
 |Description=The inline contents are centered within the line box.
 }}{{CSS Property Value
 |Data Type=<string>
-|Description=The first occurrence of the one-char string is the element used for alignment. the keyword that follows or precedes it indicates how it is aligned. This allows to align numeric values on the decimal point, for instance. '''''Experimental'''
+|Description=The first occurrence of the one-char string is the element used for alignment. the keyword that follows or precedes it indicates how it is aligned. This allows to align numeric values on the decimal point, for instance.
 }}{{CSS Property Value
 |Data Type=justify
 |Description=The text is justified. Text should line up their left and right edges to the left and right content edges of the paragraph.
 }}{{CSS Property Value
 |Data Type=match-parent
-|Description=Similar to inherit with the difference that the value ''<code>start</code>'' and ''<code>end</code>'' are calculated according the parent's direction and are replaced by the adequate ''<code>left</code>'' or ''<code>right</code>'' value. '''''Experimental'''
+|Description=Similar to inherit with the difference that the value ''<code>start</code>'' and ''<code>end</code>'' are calculated according the parent's direction and are replaced by the adequate ''<code>left</code>'' or ''<code>right</code>'' value.
 }}{{CSS Property Value
 |Data Type=start end
-|Description=Specifies ''<code>start</code>'' alignment of the first line and any line immediately after a forced line break; and ''<code>end</code>'' alignment of any remaining lines not affected by [[css/properties/text-align-last|'''text-align-last''']]. '''''Experimental'''
+|Description=Specifies ''<code>start</code>'' alignment of the first line and any line immediately after a forced line break; and ''<code>end</code>'' alignment of any remaining lines not affected by [[css/properties/text-align-last|'''text-align-last''']].
 }}
 }}
 {{Examples_Section
@@ -50,66 +47,20 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This just shows the four possible types of text-alignment.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt; Alignment examples &lt;/title&gt;
+|Code=&lt;p class="left"&gt; This paragraph is aligned to the left. &lt;/p&gt;
 
-        &lt;style&gt;
-            body{
-                padding : 10px;
-            }
-            .example{
-                border-bottom: 1px solid gray;
-            }
-            .justified{
-                width: 200px; /* We limit the width in order to show the justified text */
-            }
+&lt;p class="cenetered"&gt; This paragraph is ceneterd. &lt;/p&gt;
 
-        &lt;/style&gt;
-        &lt;style&gt;
-            .left { text-align: left;}
-            .cenetered{ text-align: center;}
-            .right { text-align: right;}
-            .justified { text-align: justify;}
-        &lt;/style&gt;
-    &lt;/head&gt;
+&lt;p class="right"&gt; This paragraph is aligned to the right. &lt;/p&gt;
 
-    &lt;body&gt;
-        &lt;p class=&quot;left-aligned example&quot;&gt; This paragraph is aligned to the left. &lt;/p&gt;
-
-        &lt;p class=&quot;cenetered example&quot;&gt; This paragraph is ceneterd. &lt;/p&gt;
-
-        &lt;p class=&quot;right example&quot;&gt; This paragraph is aligned to the right. &lt;/p&gt;
-
-        &lt;p class=&quot;justified example&quot;&gt;
-            This paragraph needs to be really long in order to show how to justify text.
-            It only works because we set a width for this paragraph though.
-        &lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://dabblet.com/gist/4739662
+&lt;p class="justified"&gt;This paragraph needs to be really long in order to show how to justify text. It only works because we set a width for this paragraph though.&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5664679
 }}{{Single Example
-|Description=This example uses inline scripting to change the alignment of the text when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;P STYLE{{=}}"font-size:14" 
-    onmouseover{{=}}"this.style.textAlign{{=}}'center'"&gt;
-. . . &lt;/P&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textAlign.htm
-}}{{Single Example
-|Description=The following examples use the '''text-align''' attribute and the '''text-align''' property to align text within the object.
-
-This example uses '''p''' as a selector and two classes to call an embedded style sheet that aligns the text according to the respective rule.
-|Code=&lt;STYLE&gt;
-    P { text-align:center }
-    .align1 { text-align:right }
-    .align2 { text-align:justify }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P onclick{{=}} "this.className{{=}}'align1'" 
-    ondblclick{{=}}"this.className{{=}}'align2'"&gt;
-. . . &lt;/P&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-align.htm
+|Language=CSS
+|Code=.left { text-align: left;}
+.cenetered{ text-align: center;}
+.right { text-align: right;}
+.justified { width: 200px; text-align: justify;}
 }}
 }}
 {{Notes_Section
@@ -122,16 +73,6 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 |URL=http://dev.w3.org/csswg/css3-text/#text-align
 |Status=Working Draft
 |Relevant_changes=Added the <code>start</code> and <code>end</code> keyword. Changed the unnamed initial value to <code>start</code> (which it was). Added the <code><string></code> value, the <code>match-parent</code> value and the <code>start end</code> double value.
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/text.html#alignment-prop
-|Status=Recommendation
-|Relevant_changes=No Changes
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#text-align
-|Status=Recommendation
-|Relevant_changes=Initial definition.
 }}
 }}
 {{Compatibility_Section
@@ -188,8 +129,7 @@ This example uses '''p''' as a selector and two classes to call an embedded styl
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
