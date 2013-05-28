@@ -1,5 +1,6 @@
 {{Page_Title|Web programming essentials}}
-{{Flags}}
+{{Flags
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
