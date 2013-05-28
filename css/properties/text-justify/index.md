@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -19,29 +17,22 @@
 |Data Type=auto
 |Description=Default. Allows the browser to determine which justification algorithm to apply.
 }}{{CSS Property Value
-|Data Type=distribute
-|Description=Handles spacing much like the '''newspaper''' value. This form of justification is optimized for documents in Asian languages, such as Thai.
-}}{{CSS Property Value
-|Data Type=distribute-all-lines
-|Description=Justifies lines of text in the same way as the '''distribute''' value, except that it also justifies the last line of the paragraph. This form of justification is intended for ideographic text.
-}}{{CSS Property Value
-|Data Type=distribute-center-last
-|Description=Not implemented.
-}}{{CSS Property Value
-|Data Type=inter-cluster
-|Description=Justifies lines of text that contain no inter-word spacing. This form of justification is optimized for documents in Asian languages.
-}}{{CSS Property Value
-|Data Type=inter-ideograph
-|Description=Justifies lines of ideographic text, and increases or decreases both inter-ideograph and inter-word spacing.
+|Data Type=none
 }}{{CSS Property Value
 |Data Type=inter-word
 |Description=Aligns text by increasing the space between words. This value's spacing behavior is the fastest way to make all lines of text equal in length. Its justification behavior does not affect the last line of the paragraph.
 }}{{CSS Property Value
+|Data Type=inter-ideograph
+|Description=Justifies lines of ideographic text, and increases or decreases both inter-ideograph and inter-word spacing.
+}}{{CSS Property Value
+|Data Type=inter-cluster
+|Description=Justifies lines of text that contain no inter-word spacing. This form of justification is optimized for documents in Asian languages.
+}}{{CSS Property Value
+|Data Type=distribute
+|Description=Handles spacing much like the '''newspaper''' value. This form of justification is optimized for documents in Asian languages, such as Thai.
+}}{{CSS Property Value
 |Data Type=kashida
 |Description=Justifies lines of text by elongating characters at chosen points.  This form of justification is intended for Arabic script languages.
-}}{{CSS Property Value
-|Data Type=newspaper
-|Description=Increases or decreases the spacing between letters and between words. It is the most sophisticated form of justification for Latin alphabets.
 }}
 }}
 {{Examples_Section
@@ -128,8 +119,7 @@
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Manual_sections=
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_sections=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
