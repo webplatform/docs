@@ -2,34 +2,40 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>text-align-last</code> CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block containers
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=textAlignLast
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Text is aligned like the other lines in the object, using the value of the [[css/properties/text-align|'''text-align''']] property.
 }}{{CSS Property Value
-|Data Type=center
-|Description=Text is centered.
+|Data Type=start
+|Description=The same as <code>left</code> if direction is left-to-right and <code>right</code> if direction is right-to-left.
 }}{{CSS Property Value
-|Data Type=inherit
-|Description=Text is aligned like the text in the parent object.
-}}{{CSS Property Value
-|Data Type=justify
-|Description=Text is justified.
+|Data Type=end
+|Description=The same as <code>right</code> if direction is left-to-right and <code>left</code> if direction is right-to-left.
 }}{{CSS Property Value
 |Data Type=left
 |Description=Text is aligned to the left.
 }}{{CSS Property Value
 |Data Type=right
 |Description=Text is aligned to the right.
+}}{{CSS Property Value
+|Data Type=center
+|Description=The text is centered within the line box.
+}}{{CSS Property Value
+|Data Type=justify
+|Description=Text is justified if ‘text-justify’ is ‘distribute’ and the same as <code>start</code> value if otherwise.
 }}
 }}
 {{Examples_Section
@@ -46,16 +52,17 @@
 {{Notes_Section
 |Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-align-last''' property is an extension to Cascading Style Sheets (CSS), and can be used as a synonym for the '''text-align-last''' property in IE8 Standards mode and higher.
-|Import_Notes====Syntax===
-<code>'''-ms-text-align-last: '''auto '''{{!}}''' center '''{{!}}''' inherit '''{{!}}''' justify '''{{!}}''' left '''{{!}}''' right</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 8.1
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#text-align-last
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
