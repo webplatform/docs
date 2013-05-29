@@ -4,17 +4,46 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The tab-size CSS property is used to customise the width of a tab (U+0009) character.}}
 {{CSS Property
-|Inherited=No
+|Initial value=8
+|Applies to=block containers
+|Inherited=Yes
+|Media=visual
+|Computed value=the specified integer or an absolute length
 |Animatable=No
 |Values=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Example of using different tab-size.
+|Code=/**
+Examples of using the tab-size prop
+*/
+
+.tab--size4 {
+	tab-size: 4;
+}
+
+.tab--size8 {
+	tab-size: 8;
+}
+
+.tab--size12 {
+	tab-size: 12;
+}
+
+.tab--size0 {
+	tab-size: 0;
+}
+|LiveURL=http://code.webplatform.org/gist/5673098
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=The tab character (unicode U+0009) is converted to space characters (unicode U+0020) by the white space rule (default is normal) which collapses multiple white space characters. Therefor this rule only makes sense inside a parent that cancels the white-space rule. For example the pre tag (which does this by default, setting it to pre-wrap) . See the example.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -29,7 +58,8 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size
 |MSDN_link=
 |HTML5Rocks_link=
 }}
