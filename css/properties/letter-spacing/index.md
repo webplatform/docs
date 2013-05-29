@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the spacing behavior between text characters.}}
+{{Summary_Section|The <code>letter-spacing</code> CSS property specifies the spacing behavior between text characters.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -10,50 +12,52 @@
 |Media=visual
 |Computed value=normal or absolute length
 |Animatable=No
+|CSS object model property=letterSpacing
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=The spacing is the normal spacing for the current font.
 }}{{CSS Property Value
 |Data Type=length
-|Description=Indicates inter-character space in addition to the default space between characters. Vakues may be negative, but there may be implementation-specific limits.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Takes the same specified value as the property for the element's parent.
+|Description=Indicates inter-character space in addition to the default space between characters, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). Values may be negative, but there may be implementation-specific limits.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=<p>This is a simple paragraph with the default value for letter-spacing.</p>
-<p style="letter-spacing: .3em;">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
-<p style="letter-spacing: -.1em;">This is a simple paragraph withe a altered letter-spacing value by -0.1em</p>
-<h3>Code examples</h3>
+|Language=HTML
+|Description=A selection of examples showing some typical uses of the letter-spacing property.
+|Code=&lt;p&gt;This is a simple paragraph with the default value for letter-spacing.&lt;/p&gt;
+
+&lt;p class="pos"&gt;This is a simple paragraph with a altered letter-spacing value by 0.3em.&lt;/p&gt;
+
+&lt;p class="neg"&gt;This is a simple paragraph withe a altered letter-spacing value by -0.1em&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5671141
+}}{{Single Example
+|Language=CSS
 |Code=p {
     letter-spacing: normal;
 }
 
-p {
+p.pos {
     letter-spacing: .3em;
 }
 
-p {
+p.neg {
     letter-spacing: -.1em;
 }
 }}
 }}
 {{Notes_Section
-|Usage=in, cm, mm, em, ex, pt, pc, px
-|Notes====Remarks===
-When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
-|Import_Notes====Syntax===
-<code>'''letter-spacing: '''normal '''{{!}}''' ''
-length '''{{!}}''' ''
-inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.2
+|Usage=* Up to three different values can be specified, in the following order: optimum, minimum, maximum
+* If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
+|Notes=When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#letter-spacing
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -118,8 +122,7 @@ inherit</code>
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
