@@ -4,11 +4,23 @@
 }}
 {{Standardization_Status|}}
 {{API_Name}}
-{{API_Object_Property
-|Property_applies_to=
-|Read_only=
+{{CSS Property
+|Initial value=normal
+|Applies to=All elements
+|Inherited=Yes
+|Media=visual
+|Computed value=normal or absolute length
+|Animatable=No
+|CSS object model property=letterSpacing
+|Values={{CSS Property Value
+|Data Type=normal
+|Description=The spacing is the normal spacing for the current font.
+}}{{CSS Property Value
+|Data Type=length
+|Description=Indicates inter-character space in addition to the default space between characters, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). Values may be negative, but there may be implementation-specific limits.
 }}
-{{Topics|DOM}}
+}}
+{{Topics|CSS}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single_Example
