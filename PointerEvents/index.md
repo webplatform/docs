@@ -1,9 +1,4 @@
 = Pointer Events =
-In the last few years, there has been an explosion of computing devices that use mechanisms other than a mouse for end user input. These input mechanisms include touch as on a smartphone or pen/stylus as on a slate. All of today’s web browsers support mouse events (mouseover, mousedown, mousemove, etc.) but many users aren’t using a mouse. Today’s user may be interacting with a web page using their fingers on a smartphone while riding public transit or using a pen on a slate/tablet while in a meeting. Pointer Events provides a unified model for all three of these input types without requiring web developers to write unique code for each. And Pointer Events is intended to be forward compatible covering future interaction paradigms.
- 
-Find out more using the resources and materials below. Also be sure to [http://wpd.mx/pediscuss Join the Discussion]
-
-{{Languages}}
 
 <div class="topic-container">
 
