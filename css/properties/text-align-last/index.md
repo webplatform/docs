@@ -1,10 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The <code>text-align-last</code> CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.}}
 {{CSS Property
@@ -41,18 +39,28 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows an embedded style rule that justifies all the lines in the document's '''p''' elements.  This is commonly found in East Asian typography.
-|Code=&lt;style&gt;
-    p.DistributeAllLines { text-align: justify;
-                           text-justify: distribute;                             
-                           text-align-last: justify }
-&lt;/style&gt;
+|Language=HTML
+|Description=The following example shows an embedded style rule that justifies all the lines in the document's '''p''' elements.  This is sometimes found in East Asian typography.
+|Code=&lt;p class="normal"&gt;Simple example with "auto" value of text-align-last property. This paragraph needs to be really long in order to show how to work with text-align-last property. It only works because we set a width for this paragraph though.&lt;/p&gt;
+
+&lt;p class="justified"&gt;Simple example with "justify" value of text-align-last property. In this case, the last line is also justified. This paragraph needs to be really long in order to show how to work with text-align-last property.&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5664996
+}}{{Single Example
+|Language=CSS
+|Code=.normal { 
+	width: 300px;
+	text-align: justify;
+	text-align-last: auto;
+}
+
+.justified { 
+	width: 300px;
+	text-align: justify;
+	text-align-last: justify;
+}
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-text-align-last''' property is an extension to Cascading Style Sheets (CSS), and can be used as a synonym for the '''text-align-last''' property in IE8 Standards mode and higher.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
@@ -123,8 +131,7 @@ Windows Internet Explorer 8. The '''-ms-text-align-last''' property is an exten
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
