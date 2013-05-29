@@ -33,7 +33,7 @@
 |Description=The text is centered within the line box.
 }}{{CSS Property Value
 |Data Type=justify
-|Description=Text is justified if ‘text-justify’ is ‘distribute’ and the same as <code>start</code> value if otherwise.
+|Description=Text is justified if ‘text-justify’ is ‘distribute’,  and the same as <code>start</code> value if otherwise.
 }}
 }}
 {{Examples_Section
