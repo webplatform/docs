@@ -1,16 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the level of embedding with respect to the bidirectional algorithm.}}
+{{Summary_Section|The <code>unicode-bidi</code> CSS property specifies the level of embedding with respect to the bidirectional algorithm.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=unicodeBidi
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default. Element does not open an additional level of embedding. For inline elements, implicit reordering works across element boundaries.
@@ -27,16 +29,15 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''unicode-bidi''' property is used with the [[css/properties/direction|'''direction''']] property.
+|Notes=The <code>unicode-bidi</code> property is used with the [[css/properties/direction|'''direction''']] property.
 The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right. If portions of a paragraph within the document contain a language with a right-to-left reading order, the direction of that language displays correctly right-to-left. The user agent applying the bidirectional algorithm correctly reverses the language direction.
-|Import_Notes====Syntax===
-<code>'''unicode-bidi: '''normal '''{{!}}''' embed '''{{!}}''' bidi-override</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.10
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1
+|URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-unicode-bidi
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -67,8 +68,7 @@ The Unicode bidirectional algorithm automatically reverses embedded character se
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
