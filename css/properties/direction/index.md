@@ -1,16 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the text direction/writing direction.}}
+{{Summary_Section|The <code>direction</code> CSS property specifies the text direction/writing direction.}}
 {{CSS Property
+|Initial value=ltr
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=direction
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=ltr
 |Description=Default. Content flows left to right.
@@ -51,16 +54,15 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents.
+|Notes=The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents.
 The property pertains only to the directional flow of an element's content. It has no effect on properties such as [[css/properties/left|'''left''']] or [[css/properties/right|'''right''']], [[css/properties/margin-left|'''margin-left''']] or [[css/properties/margin-right|'''margin-right''']].  The '''margin-left''' property, for example, sets or retrieves the width of the margin on the left side of the document regardless of the value of the '''direction''' property.
-|Import_Notes====Syntax===
-<code>'''direction: '''ltr '''{{!}}''' rtl</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.10
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1
+|URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-direction
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
