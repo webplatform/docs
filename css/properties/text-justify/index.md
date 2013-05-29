@@ -18,18 +18,19 @@
 |Description=Default. Allows the browser to determine which justification algorithm to apply.
 }}{{CSS Property Value
 |Data Type=none
+|Description=Justification is disabled.
 }}{{CSS Property Value
 |Data Type=inter-word
-|Description=Aligns text by increasing the space between words. This value's spacing behavior is the fastest way to make all lines of text equal in length. Its justification behavior does not affect the last line of the paragraph.
+|Description=Aligns text by increasing the space between words. This value's spacing behavior is the fastest way to make all lines of text equal in length. Its justification behavior does not affect the last line of the paragraph. This value is typically used for languages that separate words using spaces, like English or Korean.
 }}{{CSS Property Value
 |Data Type=inter-ideograph
-|Description=Justifies lines of ideographic text, and increases or decreases both inter-ideograph and inter-word spacing.
+|Description=Justifies lines of ideographic text, and increases or decreases both inter-ideograph and inter-word spacing. This value is typically used for CJK languages.
 }}{{CSS Property Value
 |Data Type=inter-cluster
-|Description=Justifies lines of text that contain no inter-word spacing. This form of justification is optimized for documents in Asian languages.
+|Description=Justifies lines of text that contain no inter-word spacing. This value is typically used for Southeast Asian scripts such as Thai.
 }}{{CSS Property Value
 |Data Type=distribute
-|Description=Handles spacing much like the '''newspaper''' value. This form of justification is optimized for documents in Asian languages, such as Thai.
+|Description=Aligns text by increasing the space between both of words and characters. This value is sometimes used in e.g. Japanese.
 }}{{CSS Property Value
 |Data Type=kashida
 |Description=Justifies lines of text by elongating characters at chosen points.  This form of justification is intended for Arabic script languages.
@@ -38,46 +39,30 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''-ms-text-justify''' attribute and the '''-ms-text-justify''' property to align text within the object.
-|Code=...
-&lt;DIV style{{=}}"text-align:justify; text-justify:distribute-all-lines;"&gt;
-    This example demonstrates how to use this property. This is
-    something. This example demonstrates how to use this property.
-    This is something. This example demonstrates how to this 
-    property. This is something. This example demonstrates how to use this
-    property. This is something. This example demonstrates how to
-    use this property. This is something. This example demonstrates
-    how to use this property. This is something. This example
-    demonstrates how to use this property. This is something.
-    This example demonstrates how to use this property. This is
-    something. This example demonstrates how to use this property.
-&lt;/DIV&gt;                
-...
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-justify.htm
+|Language=HTML
+|Description=The first paragraph is using <code>inter-word</code> as a value of text-justify property, in English. The second one is using <code>distribute</code> in Japanese paragraph.
+|Code=&lt;p class="english"&gt;This is a simple paragraph with a altered text-justify value by inter-word.&lt;/p&gt;
+
+&lt;p class="japanese"&gt;日本語では、どのように表示されるかを見てみましょう。日本語の場合にはdistributeが使用される場合があります。&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5671702
 }}{{Single Example
-|Description=This example uses inline scripting to change the alignment of the text when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=...
-&lt;DIV style{{=}}"cursor:hand; text-align:justify;"
-    onmouseover{{=}}"this.style.textJustify{{=}}'distribute-all-lines';"
-    onmouseout{{=}}"this.style.textJustify{{=}}'auto';"&gt;
-    This example demonstrates how to use this property. This is
-    something. This example demonstrates how to use this property.
-    This is something. This example demonstrates how to this 
-    property. This is something. This example demonstrates how to use this
-    property. This is something. This example demonstrates how to
-    use this property. This is something. This example demonstrates
-    how to use this property. This is something. This example
-    demonstrates how to use this property. This is something.
-    This example demonstrates how to use this property. This is
-    something. This example demonstrates how to use this property.
-&lt;/DIV&gt;                
-...
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textJustify.htm
+|Language=CSS
+|Code=p {
+	width: 300px;
+	text-align: justify;
+	text-align-last: justify;
+}
+
+p.english {
+    text-justify: inter-word;
+}
+
+p.japanese {
+	text-justify: distribute;
+}
 }}
 }}
-{{Notes_Section
-|Usage=Enables proper alignment of various languages such as chinese.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
