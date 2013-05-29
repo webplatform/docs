@@ -12,7 +12,13 @@
 |Media=visual
 |Computed value=the specified integer or an absolute length
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=<integer>
+|Description=The number of spaces in a tab. Must be positive.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Inherits from the parent element.
+}}
 }}
 {{Examples_Section
 |Not_required=No
