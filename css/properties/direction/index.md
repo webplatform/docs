@@ -72,8 +72,7 @@ The property pertains only to the directional flow of an element's content. It h
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
