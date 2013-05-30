@@ -1,9 +1,11 @@
 {{Summary_Section|캐스캐이딩 스타일시트 (CSS)는 마크업 콘텐츠(예: HTML, SVG, XML 등)을 꾸미는-스타일을 적용하는- 언어이다. 이 문서는 CSS를 학습하거나 고급 CSS 기법에 입문하려는 분들 모두에게 적합한 자습서 목록들로 구성된다.}}
 
+{{Languages}}
+
 ==CSS 시작하기==
 
 * [[tutorials/learning what css is|CSS 소개]]
-* [[tutorials/learning why we use css|CSS를 사용한느 이유?]]
+* [[tutorials/learning why we use css|CSS를 사용한는 이유?]]
 * [[guides/getting started with css|CSS 시작하기]]
 
 ==CSS 기초==
