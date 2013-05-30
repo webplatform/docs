@@ -440,7 +440,6 @@ var re = new RegExp("\\w+\\s", "g");
 <p>The following example illustrates the formation of regular expressions and the use of <code>string.split()</code> and <code>string.replace()</code>. It cleans a roughly formatted input string containing names (first name first) separated by blanks, tabs and exactly one semicolon. Finally, it reverses the name order (last name first) and sorts the list.</p>
 
 <syntaxhighlight lang="javascript">
-<pre >
 // The name string contains multiple spaces and tabs,
 // and may have multiple spaces between first and last names.
 var names = "Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ; Chris Hand ";
@@ -499,14 +498,12 @@ for (i = 0, len = bySurnameList.length; i &lt; len; i++){
 output.push("---------- End");
 
 console.log(output.join("\n"));
-</pre>
 </syntaxhighlight>
 <h3 id="Using_Special_Characters_to_Verify_Input">Using Special Characters to Verify Input</h3>
 <p>In the following example, the user is expected to enter a phone number. When the user presses the "Check" button, the script checks the validity of the number. If the number is valid (matches the character sequence specified by the regular expression), the script shows a message thanking the user and confirming the number. If the number is invalid, the script informs the user that the phone number is not valid at all.</p>
 <p>The regular expression looks for zero or one open parenthesis <code>\(?</code>, followed by three digits<code> \d{3}</code>, followed by zero or one close parenthesis <code>\)?</code>, followed by one dash, forward slash, or decimal point and when found, remember the character <code>([-\/\.])</code>, followed by three digits <code>\d{3}</code>, followed by the remembered match of a dash, forward slash, or decimal point <code>\1</code>, followed by four digits <code>\d{4}</code>.</p>
 <p>The <code>Change</code> event activated when the user presses Enter sets the value of <code>RegExp.input</code>.</p>
-<syntaxhighlight lang="html">
-<pre">
+<syntaxhighlight lang="html5">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;  
   &lt;head&gt;  
