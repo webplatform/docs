@@ -120,7 +120,16 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Border
+|Manual_links=Related CSS properties:
+* [[css/properties/border-top-style|border-top-style]]
+* [[css/properties/border-right-style|border-right-style]]
+* [[css/properties/border-bottom-style|border-bottom-style]]
+* [[css/properties/border-left-style|border-left-style]]
+
+Related tutorials:
+* [[css/tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
+|External_links=* [https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&ved=0CE4QFjAD&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Fborder-style&ei=um2mUb2QC6mliQKE-IHwDg&usg=AFQjCNHuEil-o7WWpH1wxOt_DzFDy_lm-A&sig2=Ifwz1_Fq4GzjkJct0EfFxw&bvm=bv.47244034,d.cGE CSS border-style property on MDN
+* [https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&ved=0CHIQFjAH&url=http%3A%2F%2Freference.sitepoint.com%2Fcss%2Fborder-style&ei=um2mUb2QC6mliQKE-IHwDg&usg=AFQjCNGjOxzgETcUxPFZD3txXZ3rgghK8Q&sig2=H8jwjVBXF55U1h_a6E3HsA&bvm=bv.47244034,d.cGE CSS border-style property on SitePoint
 }}
 {{Topics|CSS}}
 {{External_Attribution
