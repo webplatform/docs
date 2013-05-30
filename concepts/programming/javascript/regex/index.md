@@ -422,7 +422,7 @@ var str = "fee fi fo fum";
 var myArray = str.match(re);
 console.log(myArray);
 </pre>
-<s/yntaxhighlight>
+</syntaxhighlight>
 <p>This displays ["fee ", "fi ", "fo "]. In this example, you could replace the line:</p>
 <pre >
 var re = /\w+\s/g;
