@@ -415,12 +415,14 @@ var re = new RegExp("pattern", "flags");
 </pre>
 <p>Note that the flags are an integral part of a regular expression. They cannot be added or removed later.</p>
 <p>For example, <code>re = /\w+\s/g</code> creates a regular expression that looks for one or more characters followed by a space, and it looks for this combination throughout the string.</p>
+<syntaxhighlight lang="javascript">
 <pre >
 var re = /\w+\s/g;
 var str = "fee fi fo fum";
 var myArray = str.match(re);
 console.log(myArray);
 </pre>
+<s/yntaxhighlight>
 <p>This displays ["fee ", "fi ", "fo "]. In this example, you could replace the line:</p>
 <pre >
 var re = /\w+\s/g;
@@ -429,12 +431,15 @@ var re = /\w+\s/g;
 <pre >
 var re = new RegExp("\\w+\\s", "g");
 </pre>
+
 <p>and get the same result.</p>
 <p>The <code>m</code> flag is used to specify that a multiline input string should be treated as multiple lines. If the <code>m</code> flag is used, <code>^</code> and <code>$</code> match at the start or end of any line within the input string instead of the start or end of the entire string.</p>
 <h2 id="Examples">Examples</h2>
 <p>The following examples show some uses of regular expressions.</p>
 <h3 id="Changing_the_Order_in_an_Input_String">Changing the Order in an Input String</h3>
 <p>The following example illustrates the formation of regular expressions and the use of <code>string.split()</code> and <code>string.replace()</code>. It cleans a roughly formatted input string containing names (first name first) separated by blanks, tabs and exactly one semicolon. Finally, it reverses the name order (last name first) and sorts the list.</p>
+
+<syntaxhighlight lang="javascript">
 <pre >
 // The name string contains multiple spaces and tabs,
 // and may have multiple spaces between first and last names.
@@ -495,11 +500,13 @@ output.push("---------- End");
 
 console.log(output.join("\n"));
 </pre>
+</syntaxhighlight>
 <h3 id="Using_Special_Characters_to_Verify_Input">Using Special Characters to Verify Input</h3>
 <p>In the following example, the user is expected to enter a phone number. When the user presses the "Check" button, the script checks the validity of the number. If the number is valid (matches the character sequence specified by the regular expression), the script shows a message thanking the user and confirming the number. If the number is invalid, the script informs the user that the phone number is not valid at all.</p>
 <p>The regular expression looks for zero or one open parenthesis <code>\(?</code>, followed by three digits<code> \d{3}</code>, followed by zero or one close parenthesis <code>\)?</code>, followed by one dash, forward slash, or decimal point and when found, remember the character <code>([-\/\.])</code>, followed by three digits <code>\d{3}</code>, followed by the remembered match of a dash, forward slash, or decimal point <code>\1</code>, followed by four digits <code>\d{4}</code>.</p>
 <p>The <code>Change</code> event activated when the user presses Enter sets the value of <code>RegExp.input</code>.</p>
-<pre class="brush: html">
+<syntaxhighlight lang="html">
+<pre">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;  
   &lt;head&gt;  
@@ -525,6 +532,7 @@ console.log(output.join("\n"));
   &lt;/body&gt;  
 &lt;/html&gt;
 </pre>
+</syntaxhighlight>
 
 {{See_Also_Section}}
 {{Topics|JavaScript}}
