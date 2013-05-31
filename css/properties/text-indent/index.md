@@ -32,9 +32,8 @@
 Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=&lt;length/percentage&gt; hanging
-|Description={{TODO|This needs validation, the specification has no example and no elaborated description other than five words that are also used here.}}
-This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
-
+|Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
+{{TODO|This needs some validation, the specification has no example and no elaborated description other than "inverts which lines are indented".}}
 Currently experimental in CSS Text Level 3
 }}
 }}
@@ -74,7 +73,7 @@ window.addEventListener("load", initialize, false);
   &lt;/script&gt;
  &lt;/head&gt;
  &lt;body&gt;
-  &lt;div id="example"&gt;Some text&lt;/div&gt;
+  &lt;div id="example"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum malesuada quam, ut ullamcorper nunc posuere in. Duis ullamcorper fringilla lorem eget accumsan. Praesent neque ipsum, tincidunt eget aliquet sit amet, tempor eget felis. Duis nibh magna, vestibulum et molestie sed, porttitor vel tellus. Nunc suscipit justo ut magna imperdiet pharetra. Suspendisse potenti. Vivamus vestibulum, dui eu fermentum blandit, nunc dolor aliquet massa, non elementum arcu arcu ut risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tincidunt nibh at ipsum semper eu tempor nisi ornare. Nunc vestibulum elementum dapibus. Morbi pellentesque nulla non est adipiscing id commodo eros blandit. Suspendisse mauris tellus, auctor a sodales a, consequat nec diam.&lt;/div&gt;
  &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://code.webplatform.org/gist/5658605
@@ -96,7 +95,7 @@ window.addEventListener("load", initialize, false);
   &lt;/script&gt;
  &lt;/head&gt;
  &lt;body&gt;
-  &lt;div id="example"&gt;Some text&lt;/div&gt;
+  &lt;div id="example"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum malesuada quam, ut ullamcorper nunc posuere in. Duis ullamcorper fringilla lorem eget accumsan. Praesent neque ipsum, tincidunt eget aliquet sit amet, tempor eget felis. Duis nibh magna, vestibulum et molestie sed, porttitor vel tellus. Nunc suscipit justo ut magna imperdiet pharetra. Suspendisse potenti. Vivamus vestibulum, dui eu fermentum blandit, nunc dolor aliquet massa, non elementum arcu arcu ut risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tincidunt nibh at ipsum semper eu tempor nisi ornare. Nunc vestibulum elementum dapibus. Morbi pellentesque nulla non est adipiscing id commodo eros blandit. Suspendisse mauris tellus, auctor a sodales a, consequat nec diam.&lt;/div&gt;
  &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://code.webplatform.org/gist/5658652
