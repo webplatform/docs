@@ -66,7 +66,7 @@ La W3C tiene poco personal a tiempo completo, pero la mayoría de la gente que t
  
 Todo esto sonaba un poco negativo, pero la WaSP no solo se sentó a criticar personas ellos también ayudaron. Siete miembros formaron CSS Samurai, quienes identificaron los 10 problemas con el soporte CSS en Opera y otros navegadores. (Opera arregló sus problemas, los otros no lo hicieron).
 
-=== El surgimiento de los estándares web ===
+=== La llegada de los estándares web ===
 In el 2000, Microsoft lanzó Internet Explorer 5 Edición Macintosh. Esto fue un my importante hito, siendo el navegador instalado por defecto con el sistema operativo de la época, teniendo un razonable nivel de apoyo a las recomendaciones de la recomendaciones de la W3C. Junto con soporte decente de CSS y HTML en Opera. Eso contribuyo a un movimiento positivo, donde los desarrolladores web y diseñadores finalmente se sintieron cómodos diseñando sitios usando los estándares web, ya que sabían que trabajaría en múltiples navegadores.
 
 La WasP persuadió a Netscape de posponer el lanzamiento de la versión 5.0 del Navegador Netscape hasta que fue mucho más compatible(Este trabajo fue la base de lo que hoy es Firefox, un navegador muy popular. La WaSP también creó Dreamweaver un grupo de trabajo de Dreamweaver para alentar a Macromedia a cambiar su herramienta popular de creación de páginas web para fomentar y apoyar la creación de sitios compatibles.
