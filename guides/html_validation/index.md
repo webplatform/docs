@@ -1,6 +1,5 @@
 {{Page_Title|HTML validation}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
