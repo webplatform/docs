@@ -23,7 +23,7 @@
 |Description=Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of none have the lowest priority.
 }}{{CSS Property Value
 |Data Type=dotted
-|Description=A series of round or square dots.
+|Description=A series of round dots.
 }}{{CSS Property Value
 |Data Type=dashed
 |Description=A series of square-ended dashes.
