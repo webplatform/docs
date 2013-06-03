@@ -35,7 +35,7 @@ CSS is not a programming language like JavaScript and it is not a markup languag
  
 == Defining style rules ==
  
-Style rules can operate on three different sets of items.  They can be directly applied to the pre-defined blocks and segments of markup code (body, article, nav, list, p, em, strong, etc.), or they can be applied to custom made classes or IDs .  This is the basic form:
+Style rules can operate on different sets of items, selected in different ways. For example, they can be directly applied to HTML elements (body, article, nav, list, p, em, strong, etc.), or they can be applied to any elements with custom made classes or IDs .  This is the basic form:
 
 <syntaxhighlight lang="css">selector {
   property1:value;
