@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -68,15 +68,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the '''list-style-type''' attribute and the '''list-style-type''' property to set the markers.
+|Description=The following examples use the '''<code>list-style-type</code>''' attribute and the '''<code>list-style-type</code>''' property to set the markers.
 
-This example uses '''ul''' as a selector in an embedded (global) style sheet to change the marker type to '''circle'''.
+This example uses '''<code>ul</code>''' as a selector in an embedded (global) style sheet to change the marker type to '''<code>circle</code>'''.
 |Code=&lt;style&gt;
     ul { list-style-type:circle }
 &lt;/style&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type.htm
 }}{{Single Example
-|Description=This example demonstrates the newer line-item markers added for Internet Explorer 8.
+|Description=This example demonstrates the  use of <code>decimal-leading-zero</code>.
 |Code=&lt;style type{{=}}"text/css"&gt;
 .decleadzero {
 	list-style-type: decimal-leading-zero;
@@ -94,7 +94,7 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type_ie8.htm
 }}{{Single Example
 |Language=CSS
-|Description=Using the list-style-type on ordered lists
+|Description=Using the <code>list-style-type</code> on ordered lists
 |Code=/**
  * using list-style-type on ordered lists
  * the default for ol's is list-style-type: decimal
@@ -110,7 +110,7 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 |LiveURL=http://code.webplatform.org/gist/5597602
 }}{{Single Example
 |Language=CSS
-|Description=If the left padding of a line item is set to 0 and the list has list-style-position: outside; (which is the default) the list-item markers will not show.
+|Description=If the left padding of a line item is set to 0 and the list has <code>list-style-position: outside;</code> (which is the default) the list-item markers will not show.
 |Code=/*
 If the left padding is set to 0 the list-item markers do not show
 This happens only if the list-style-position is set on outside (which is the default)
@@ -145,7 +145,7 @@ ul {
 |LiveURL=http://code.webplatform.org/gist/5597530
 }}{{Single Example
 |Language=CSS
-|Description=Example for unordered lists with list-style-type set as none which removes the default bullet style of the unordered list.
+|Description=Example for unordered lists with <code>list-style-type</code> set as <code>none</code> which removes the default bullet style of the unordered list.
 |Code=/**
  * Example of list-style-type
  
@@ -190,15 +190,15 @@ a:visited{text-decoration:none;color:green;}
 }}
 }}
 {{Notes_Section
-|Usage=The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a &lt;li&gt; element, but can be any element with this display value.
+|Usage=The <code>list-style-type</code> CSS property specifies appearance of a list item element. As it is the only one who defaults to <code>display:list-item</code>, this is usually a <code>&lt;li&gt;</code> element, but can be any element with this display value.
 |Notes====Notes===
 *The color of the marker will be the same as the computed color of the element it applies to.
 
-*Some list-style-types require a suitable font installed to display as expected.
+*Some <code>list-style-type</code>s require a suitable font installed to display as expected.
 
 *The CSS specification does not define how alphabetic systems wrap at the end of the alphabet. For instance, after 26 list items, upper-alpha rendering is undefined. Firefox and other browsers will continue as AA, AB, AC,... For long lists, it is recommended that authors specify true numbers.
 
-*The list styles hebrew, cjk-ideographs, hiragana, katakana, hiragana-iroha and katakana-iroha are specified in CSS2 and removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
+*The list styles <code>hebrew</code>, <code>cjk-ideographs</code>, <code>hiragana</code>, <code>katakana</code>, <code>hiragana-iroha</code> and <code>katakana-iroha</code> were specified in CSS2 but removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
 
 * The property also supports a shorthand syntax which is list-style
 
@@ -249,7 +249,7 @@ a:visited{text-decoration:none;color:green;}
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
