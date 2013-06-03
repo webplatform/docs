@@ -143,6 +143,50 @@ ul {
 	list-style-type: none; /* use none to remove the bullets */
 }
 |LiveURL=http://code.webplatform.org/gist/5597530
+}}{{Single Example
+|Language=CSS
+|Description=Example for unordered lists with list-style-type set as none which removes the default bullet style of the unordered list.
+|Code=/**
+ * Example of list-style-type
+ 
+ One value for the list-style-type is none which just removes the bullets and all.
+ This example includes two unordered lists one with list-style-type set as none and other set as square bullets.
+ */
+
+#withBullets ul {
+	color: #f06;
+	font: italic 100% Georgia, serif;
+	width: 500px;
+	padding:10px;
+	margin:10px;
+	list-style-type:none;	/*To remove the default bullet style*/	
+}
+#withBullets li{
+	display:inline;
+	margin:8px;
+	padding:4px;
+}
+#withBullets li:hover{
+	border-bottom:3px solid black;
+	border-radius:4px;
+}
+
+ul{
+	color: #f06;
+	font: italic 100% Georgia, serif;
+	width: 500px;
+	padding:10px;
+	margin:10px;
+	list-style-type:square;	
+}
+li{
+	margin:8px;
+}
+a:link{text-decoration:none;color:green;}
+a:hover{text-decoration:none;color:green;}
+a:active{text-decoration:none;color:green;}
+a:visited{text-decoration:none;color:green;}
+|LiveURL=http://code.webplatform.org/gist/5697355
 }}
 }}
 {{Notes_Section
