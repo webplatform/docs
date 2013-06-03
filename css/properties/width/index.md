@@ -6,43 +6,51 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the width of an element.}}
+{{Summary_Section|Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements except inline, non-replaced elements, table rows, and row groups.
 |Inherited=No
 |Media=visual
+|Computed value=percentage or absolute length
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. Default width of the element, which varies based on the element's type.
-* ''Block-level, non-replaced elements'' are given a width such that the element's margins, borders, padding, and width add up to the width of the containing element. For example, if the containing element's width is <code>200px</code> and our element has, on both sides, <code>10px</code> margins, <code>1px</code> borders, and <code>5px</code> padding, a width marked <code>auto</code> would produced a "used value" of 200 - (10 * 2) - (1 * 2) - (5 * 2) = <code>168px</code>. If any of these conditions were to change, our element's width would change accordingly.
-* ''Inline-block, non-replaced elements'' are given a "shrink-to-fit" width: our element will be as narrow as the content allows, and no wider than the containing element allows.
-* ''Floating, non-replaced elements'' are also given a "shrink-to-fit" width.
-* ''Absolutely positioned, non-replaced elements'' are treated like block-level, non-replaced elements, but with the addition of <code>left</code> and <code>right</code> properties: our element's left value, right value, margins, borders, padding, and width will add up to the containing element's width.
-* ''Replaced elements'' (whether inline, block, inline-block, floating, or absolutely positioned) are tricky because for them the "used value" of <code>auto</code> widths will be calculated in relation to the element's height. If our element has an ''intrinsic width'' (for example, an image), and the height is also <code>auto</code>, the "used value" will mirror the intrinsic width. If our element's height is specified (not <code>auto</code>) and the element has an ''intrinsic ratio'', it will be given a width of (used height) * (intrinsic ratio).
+|Description=If auto is set for the elements width, the browser will determine the width for the element.
 }}{{CSS Property Value
-|Data Type=width
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Data Type=<length>
+|Description=Will take a number that is immediately followed by a length unit such as px, em, in,  etc. 
 }}{{CSS Property Value
-|Data Type=percentage
+|Data Type=<percentage>
 |Description=Integer, followed by a %. The value is a percentage of the width of the parent object, whether or not it is specified explicitly.  Negative values are not allowed.
+}}{{CSS Property Value
+|Data Type=border-box
+|Description=If border-box is used, the length or percentage defined will be applied to the element's border box.
+}}{{CSS Property Value
+|Data Type=content-box
+|Description=If content-box is used, the length or percentage defined will be applied to the element's content-box.
+}}{{CSS Property Value
+|Data Type=max-content
+|Description=The intrinsic preferred width
+}}{{CSS Property Value
+|Data Type=min-content
+|Description=The intrinsic minimum width
+}}{{CSS Property Value
+|Data Type=available
+|Description=The containing block width minus horizontal margin, border, and padding
+}}{{CSS Property Value
+|Data Type=fit-content
+|Description=This will be either the large of the minimum width or the smaller of the preferred width and the available width
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=This example uses an inline style sheet to set the width of an image.The following examples use the '''width''' attribute and the '''width''' property to change the width of the object.
-|Code=&lt;DIV STYLE{{=}}"position:absolute;top:10px;left:10px;width:1in"&gt;
-. . . &lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/width_h.htm
-}}{{Single Example
-|Language=CSS
-|Description=This example uses inline scripting to set the width of an image when an [[dom/events/click|'''onclick''']] event occurs.
-|Code=&lt;IMG SRC{{=}}"sphere.jpg" onclick{{=}}"this.style.width{{=}}'1cm'"
-    ondblclick{{=}}"this.style.width{{=}}''"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/width_s.htm
+|Code=div { width: 100% }
+h1 { width: 20em }
+section { width: auto }
+img { width: 100px }
 }}
 }}
 {{Notes_Section
@@ -55,7 +63,20 @@ For more information about how to access the dimension and location of elements 
 <code>'''width: '''auto '''{{!}}''' width '''{{!}}''' percentage</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Basic Box Model
+|URL=http://dev.w3.org/csswg/css-box/#the-width-and-height-properties
+|Status=Working Draft
+|Relevant_changes=Keywords max-content, min-content, fit-content, border-box, and content-box added
+}}{{Related Specification
+|Name=CSS Level 2
+|URL=http://www.w3.org/TR/CSS2/visudet.html#the-width-property
+|Status=Recommendation
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#width
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -126,8 +147,8 @@ For more information about how to access the dimension and location of elements 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/width
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
