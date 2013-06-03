@@ -76,7 +76,7 @@ Is functionally identical to this rule:
 
 <syntaxhighlight lang="css">p {margin: 5px;font-family: arial;color: blue;}</syntaxhighlight>
 
-* There are a few exceptions where whitespace matters. For example, inside CSS function syntax, adding whitespace matters. So the property value <code>url(background-image.png)</code> would not work properly if you put a space between url and the rest of it, for example <code>url (background-image.png)</code>.  But in general, as long as you include the necessary curly braces, colons, and semi-colons to separate out different parts, the browser understands the values you apply to properties. 
+ * There are a few exceptions where whitespace matters. For example, inside CSS function syntax, adding whitespace matters. So the property value <code>url(background-image.png)</code> would not work properly if you put a space between url and the rest of it, for example <code>url (background-image.png)</code>.  But in general, as long as you include the necessary curly braces, colons, and semi-colons to separate out different parts, the browser understands the values you apply to properties. 
 
 === CSS comments ===
  
