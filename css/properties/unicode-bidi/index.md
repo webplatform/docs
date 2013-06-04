@@ -26,7 +26,34 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing multiple &lt;p&gt;s, that they have different unicode-bidi properties applied to them.
+|Code=&lt;p class="rtl"&gt;This is a paragraph using right-to-left direction.&lt;/p&gt;
+
+&lt;p class="rtl" id="em"&gt;Sets the embed as the value unicode-bidi property.&lt;/p&gt;
+
+&lt;p class="rtl" id="bidi"&gt;Sets the bidi-override as the value of unicode-bidi property.&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5708639
+}}{{Single Example
+|Language=CSS
+|Code=p {
+	width: 300px;
+	background-color: #cccccc;
+}
+
+.rtl {
+	direction: rtl;
+}
+
+#em {
+	unicode-bidi: embed;
+}
+
+#bidi {
+	unicode-bidi: bidi-override;
+}
+}}
 }}
 {{Notes_Section
 |Notes=The <code>unicode-bidi</code> property is used with the [[css/properties/direction|'''direction''']] property.
