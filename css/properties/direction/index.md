@@ -29,9 +29,9 @@
 |Description=The following example demonstrates how to set and retrieve the value of the '''direction''' property.
 |Code=&lt;p&gt;This is a paragraph using default writting direction(ltr).&lt;/p&gt;
 
-&lt;p class="rtl"&gt;This is a paragraph using right-to-left direction(rtl).&lt;/p&gt;
+&lt;p class="rtl"&gt;This is a paragraph using right-to-left direction.&lt;/p&gt;
 
-&lt;p class="rtl" id="bidi"&gt;The paragraph using rtl and set the bidi-override value of unicode-bidi property.&lt;/p&gt;
+&lt;p class="rtl" id="bidi"&gt;The paragraph using rtl and sets the bidi-override as value of unicode-bidi property.&lt;/p&gt;
 |LiveURL=http://code.webplatform.org/gist/5708516
 }}{{Single Example
 |Language=CSS
