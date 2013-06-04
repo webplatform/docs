@@ -86,7 +86,21 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=x
+|Name=CSS Backgrounds and Borders Module Level 3, 4.1. Line Colors: the ‘border-color’ properties
+|URL=http://www.w3.org/TR/css3-background/#the-border-color
+|Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 8 Box model
+|URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface,
+|URL=http://www.w3.org/TR/cssom/#the-cssstyledeclaration-interface
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Color Module Level 3
+|URL=http://www.w3.org/TR/css3-color
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
