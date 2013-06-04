@@ -85,7 +85,9 @@ The color value can also be a numerical value, such as one of the following:
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=x
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
