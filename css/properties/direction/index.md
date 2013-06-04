@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>direction</code> CSS property specifies the text direction/writing direction.}}
+{{Summary_Section|The <code>direction</code> CSS property specifies the text direction/writing direction. The <code>rtl</code> is used for Hebrew or Arabic text, the <code>ltr</code> is for other languages.}}
 {{CSS Property
 |Initial value=ltr
 |Applies to=All elements
@@ -25,32 +25,28 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example demonstrates how to set and retrieve the value of the '''direction''' property.  When the user sets the value of the '''direction''' property of a '''div''' element, the value of the property is retrieved in a '''span''' element.
-|Code=&lt;HTML&gt;
-  &lt;HEAD&gt;
-    &lt;SCRIPT&gt;
-    function fnSwitch()
-    {
-      oDiv.style.direction {{=}} event.srcElement.innerText;
-      DirSpan.innerText {{=}} oDiv.style.direction;
-    }
-    &lt;/SCRIPT&gt;
-  &lt;/HEAD&gt;
-  &lt;BODY&gt;
-    &lt;H1&gt;direction Property Sample&lt;/H1&gt;
-    &lt;H2&gt;direction: 
-      &lt;SPAN id{{=}}"DirSpan" style{{=}}"color:red"&gt;&lt;/SPAN&gt;
-    &lt;/H2&gt;
-  [ &lt;A href{{=}}"#" onclick{{=}}fnSwitch()&gt;ltr&lt;/A&gt; {{!}} &lt;A href{{=}}"#" 
-  onclick{{=}}fnSwitch()&gt;rtl&lt;/A&gt; {{!}} &lt;A href{{=}}"#" onclick{{=}}fnSwitch()&gt;inherit&lt;/A&gt; ]&lt;/P&gt;
-  
-  &lt;DIV id{{=}}"oDiv"&gt;The quick brown fox jumps over the lazy yellow dog. The quick brown fox 
-  jumps over the lazy yellow dog. The quick brown fox jumps over the lazy yellow 
-  dog. The quick brown fox jumps over the lazy yellow dog. The quick brown fox 
-  jumps over the lazy yellow dog.&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/direction.htm
+|Language=HTML
+|Description=The following example demonstrates how to set and retrieve the value of the '''direction''' property.
+|Code=&lt;p&gt;This is a paragraph using default writting direction(ltr).&lt;/p&gt;
+
+&lt;p class="rtl"&gt;This is a paragraph using right-to-left direction(rtl).&lt;/p&gt;
+
+&lt;p class="rtl" id="bidi"&gt;The paragraph using rtl and set the bidi-override value of unicode-bidi property.&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/5708516
+}}{{Single Example
+|Language=CSS
+|Code=p {
+	width: 300px;
+	background-color: #cccccc;
+}
+
+.rtl {
+	direction: rtl;
+}
+
+#bidi {
+	unicode-bidi: bidi-override;
+}
 }}
 }}
 {{Notes_Section
