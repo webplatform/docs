@@ -84,6 +84,36 @@ p {
 &lt;div class="four"&gt;&lt;p&gt;Four&lt;/p&gt;&lt;/div&gt;
 &lt;div class="five"&gt;&lt;p&gt;Five&lt;/p&gt;&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5539585
+}}{{Single Example
+|Language=CSS
+|Description=An example showing the use of border-bottom property with the hover effect...It gives a beautiful result
+|Code=/**
+ * Example of border-bottom property
+ 
+ */
+
+#withoutBullets ul {
+	color: #f06;
+	font: italic 100% Georgia, serif;
+	width: 500px;
+	padding:10px;
+	margin:10px;
+	list-style-type:none;	/*To remove the default bullet style*/	
+}
+#withoutBullets li{
+	display:inline;
+	margin:8px;
+	padding:4px;
+}
+#withoutBullets li:hover{
+	border-bottom:3px solid black;
+	border-radius:4px;
+}
+a:link{text-decoration:none;color:green;}
+a:hover{text-decoration:none;color:green;}
+a:active{text-decoration:none;color:green;}
+a:visited{text-decoration:none;color:green;}
+|LiveURL=http://code.webplatform.org/gist/5704867
 }}
 }}
 {{Notes_Section
