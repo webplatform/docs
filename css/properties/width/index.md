@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.}}
+{{Summary_Section|Specifies the width of the content area of an element. The content area of the element width does not include the [[css/properties/padding|padding]], [[css/properties/border|border]], and [[css/properties/margin|margin]] of the element.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements except inline, non-replaced elements, table rows, and row groups.
@@ -60,7 +60,7 @@ When the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration does not specify standa
 To perform operations on the numeric value of this property, use [[css/cssom/properties/pixelWidth|'''pixelWidth''']] or [[css/cssom/properties/posWidth|'''posWidth''']].
 For more information about how to access the dimension and location of elements on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 |Import_Notes====Syntax===
-<code>'''width: '''auto '''{{!}}''' width '''{{!}}''' percentage</code>
+<code>width: [<length> &#124; <percentage>] &amp;&amp; [border-box &#124; content-box] &#63; &#124; available &#124; min-content &#124; max-content &#124; fit-content &#124; auto</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
