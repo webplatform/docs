@@ -19,7 +19,7 @@
 |Description=If auto is set for the elements width, the browser will determine the width for the element.
 }}{{CSS Property Value
 |Data Type=<length>
-|Description=Will take a number that is immediately followed by a length unit such as px, em, in,  etc. 
+|Description=Will take a number that is immediately followed by a length unit such as px, em, in,  etc.
 }}{{CSS Property Value
 |Data Type=<percentage>
 |Description=Integer, followed by a %. The value is a percentage of the width of the parent object, whether or not it is specified explicitly.  Negative values are not allowed.
@@ -51,9 +51,26 @@
 h1 { width: 20em }
 section { width: auto }
 img { width: 100px }
+}}{{Single Example
+|Language=CSS
+|Description=Example using new values that are part of the CSS Basic Box Model that is currently in working draft.  Use a background or border so you can see how the width changes depending on the value used
+|Code=div {
+width: 75%;
+}
+
+p {
+background: #000; 
+
+/* comment out one and uncomment another to see changes
+width: -webkit-min-content; /* vendor prefix needed */
+/*width: -webkit-max-content; */
+}
+|LiveURL=https://gist.github.com/5702862/f027736984a723b202c20218cf7c675c1ed40c7b
 }}
 }}
 {{Notes_Section
+|Usage====Newer Values===
+In the CSS Basic Box Model Working Draft, the values max-content, min-content, available, fit-content, border-box, and content-box were added. It would be a best practice to add the vendor prefix to these until the values are standardized.
 |Notes====Remarks===
 As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property specifies the distance between the left and right edges of the content box—that is, within the [[css/properties/padding|'''padding''']].
 When the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, this property includes the object's content box, plus the values of the following properties:  [[css/properties/border-left|'''border-left''']], [[css/properties/border-right|'''border-right''']], [[css/properties/padding-left|'''padding-left''']], and [[css/properties/padding-right|'''padding-right''']].  Subtracting the sum of the values of these properties from the value of the '''width''' property equals the width of the parent object's content box.
