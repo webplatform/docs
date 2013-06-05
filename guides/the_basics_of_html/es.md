@@ -9,13 +9,13 @@ La mayoría de las aplicaciones de escritorio que leen y escriben archivos, usan
  Un agente de usuario es cualquier software que es utilizado para acceder a páginas web en nombre de los usuarios. Hay una importante distinción que debe hacerse aquí —Todos los tipos de navegadores de escritorio (Internet Explorer, Opera, Firefox, Safari, Chrome etc.) y los navegadores alternativos para otros dispositivos(tales como el canal de internet de Wii, el navegador de un dispositivo móvil como Opera Mini y WebKit en el Iphone) son agentes de usuario, pero no todos los agente de usuario son web browsers. Los programas automáticos que Google y Yahoo! utilizan para indexar la web en sus motores de búsqueda, también son agentes de usuario, pero ningún ser humano lo está controlando directamente
 
 == ¿Qué aspecto tiene HTML?==
- HTML is sólo una representación sin formato del contenido y significado general. Por ejemplo
+ HTML is sólo una representación sin formato del contenido y su significado general. Por ejemplo
 
 <syntaxhighlight lang="html5"><p id="ejemplo">Esto es un parrafo.</p></syntaxhighlight>
  
-El  “<code>&lt;p&gt;</code>” es un marcador(Nos referimos a un“tag” o “etiqueta”) que significa que “lo que sigue debe considerarse como un párrafo. Debido a que se encuentre al principio del contenido que está afectando, esta particular etiqueta es una “etiqueta de apertura”. El“<code>&lt;/p&gt;</code>” es una etiqueta que indica donde termina el párrafo, nos referimos a este tag como “etiqueta de cierre”. La etiqueta de apertura, la etiqueta de cierre y todo lo que está entre las etiquetas es llamado un “elemento”. El <code>id="example"</code> es un atributo; aprenderás más de esto más adelante. Muchas personas usan el término elemento etiqueta y elemente indistintamente, sin embargo eso no es correcto. 
+El  “<code>&lt;p&gt;</code>” es un marcador(Nos referimos a un“tag” o “etiqueta”) que significa que “lo que sigue debe considerarse como un párrafo. Debido a que se encuentre al principio del contenido que está afectando, esta particular etiqueta es una “etiqueta de apertura”. El“<code>&lt;/p&gt;</code>” es una etiqueta que indica donde termina el párrafo, nos referimos a este tag como “etiqueta de cierre”. La etiqueta de apertura, la etiqueta de cierre y todo lo que está entre las etiquetas es llamado un “elemento”. Esto  es un atributo <code>id="example"</code>; aprenderás más de esto más adelante. Muchas personas usan el término elemento y etiqueta indistintamente, sin embargo eso no es correcto. 
 
-En la mayoría de los navegadores hay una opción “Código fuente” o “Ver código fuente”, comúnmente se encuentra en el menú “Ver”. Intentalo ahora - Ve a tu sitio favorito, y pasa un tiempo echándole un vistazo al HTML que compone la estructura de una página web.
+En la mayoría de los navegadores hay una opción "Código fuente" o "Ver código fuente", comúnmente se encuentra en el menú “Ver”. Inténtalo ahora - Ve a tu sitio web favorito, y pasa un tiempo echándole un vistazo al HTML que compone la estructura de una página web.
 
 ==La estructura de un documento HTML ==
 Un ejemplo típico de un documento HTML se parece a esto: 
