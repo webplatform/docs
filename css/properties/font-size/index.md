@@ -1,31 +1,33 @@
-{{Page_Title}}
+{{Page_Title|font-size}}
 {{Flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|<code>font-size</code> sets the font size of the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
+{{Summary_Section|<code>font-size</code> sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
 {{CSS Property
 |Initial value=medium
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Computed value=absolute size in '''px''' units
+|Computed value=as specified, but with relative lengths converted into absolute pixel values. 
 |Animatable=Yes
 |CSS object model property=fontSize
-|CSS percentages=???
 |Values={{CSS Property Value
-|Data Type=absolute-size
+|Data Type=absolute keywords
 |Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
 }}{{CSS Property Value
-|Data Type=relative-size
+|Data Type=relative keywords
 |Description=A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
 }}{{CSS Property Value
 |Data Type=length
-|Description=A positive numeric value followed by a string designating [[css/units/length|absolute or relative units of length]]. Proportional [[css/units/length|'''em''' and '''ex''']] measurements are based on the parent element's '''font-size''', while [[css/units/length|'''rem''']] measurements are based on that of the root element.
+|Description=An absolute or relative unit value: any of the standard [[css/units/length|css length units]] are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A positive integer followed by a percent ([[css/units/numeric|'''%''']]), indicating a percentage of the parent element's '''font-size'''.
+|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=the <code>inherit</code> keyword causes the element to adopt its parent element's font size.
 }}
 }}
 {{Examples_Section
@@ -52,7 +54,7 @@
 |LiveURL=http://code.webplatform.org/gist/5628042
 }}{{Single Example
 |Language=CSS
-|Description=Redefine the typical '''16px''' default '''medium''' value as '''10px''', then redefine other tags in proportion to the root:
+|Description=A redefinition of the typical '''16px''' browser default font size '''medium''' value as '''10px''', followed by a resizing of the text that follows proportionate to that.
 |Code=html { font-size: 62.5%; } 
 /* 
 16 * 62.5% == 10 
