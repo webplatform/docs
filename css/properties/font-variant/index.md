@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>font-variant</code> property enables you to select the small-caps font within a font family.}}
 {{CSS Property
@@ -16,10 +16,10 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Selects a font that is not a 'small-caps' font.
+|Description=Selects a font that is not a 'small-caps' font, usually the available 'normal' font. 
 }}{{CSS Property Value
 |Data Type=small-caps
-|Description=Selects a 'small-caps' font.
+|Description=Selects a 'small-caps' font. If not small caps variant is available, the browser generates a small caps approximation.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Inherits the font-variant setting from its parent.
@@ -28,8 +28,18 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example to show the effect achieved when small-caps are applied to a text paragraph.
+|Code=<p>I think WebPlatform rocks.</p>
+|LiveURL=http://code.webplatform.org/gist/5716625
+}}{{Single Example
 |Language=CSS
-|Code=p { font-variant: small-caps; }
+|Description=The CSS applied to the HTML above.
+|Code=p {
+  font-size: 300%;
+  font-variant: small-caps;	
+}
+|LiveURL=http://code.webplatform.org/gist/5716625
 }}
 }}
 {{Notes_Section
