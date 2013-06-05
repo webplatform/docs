@@ -22,7 +22,7 @@
 |Description=Selects a font that is labeled as 'italic' (cursive). If no font labeled 'italic' is available, a font that is labeled as 'oblique' is selected.
 }}{{CSS Property Value
 |Data Type=oblique
-|Description=Selects a font that is labeled as 'oblique' (sloped version of the regular face).
+|Description=Selects a font that is labeled as 'oblique' (sloped version of the regular face). If no italic or oblique font is available, the browser slopes the normal version of the font to produce an oblique approximation.
 }}
 }}
 {{Examples_Section
