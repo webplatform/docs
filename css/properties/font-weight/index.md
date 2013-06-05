@@ -2,15 +2,15 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>font-weight</code> property specifies the weight or boldness of glyphs in the font (their degree of blackness or stroke thickness). However, some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
+{{Summary_Section|The <code>font-weight</code> property specifies the weight or boldness of the font (their degree of blackness or stroke thickness). Note that some fonts are not available in all weights; some are available only on '''normal''' and '''bold'''.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Computed value=One of the numeric values ('''100''', …), or one of the numeric values followed by one of the relative values ('''bolder''' or '''lighter''')
+|Computed value=The keyword or the numerical value as specified, with bolder and lighter transformed to the real value.
 |Animatable=Yes
 |CSS object model property=fontWeight
 |CSS percentages=N/A
@@ -35,13 +35,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A selection of examples showing some typical uses of the font-weight property.
+|Description=A selection of examples showing some typical uses of the font-weight property. In practise, you most probably won't see much difference when using any  values except for <code>normal</code> and <code>bold</code>.
 |Code=&lt;p class="example-one"&gt;Set text to be bold.&lt;/p&gt;
 &lt;p class="example-two"&gt;Set text to two step darker than normal but less than a standard bold.&lt;/p&gt;
 &lt;p class="example-three"&gt;Sets text to be one step lighter than the parent.&lt;/p&gt;
 }}{{Single Example
 |Language=CSS
-|Code=p.example-one { font-weight: bold; }
+|Code=p { font-size: 150%; }
+
+p.example-one { font-weight: bold; }
 p.example-two { font-weight: 600; }
 p.example-three { font-weight: lighter; }
 |LiveURL=http://code.webplatform.org/gist/5628518
