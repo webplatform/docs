@@ -1,39 +1,32 @@
-{{Page_Title}}
-{{Flags}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets the margin for all four sides of an element. 
-
-The margin property is a shorthand to avoid setting each side separately with the other margin properties: margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.
+{{Page_Title|margin}}
+{{Flags
+|Checked_Out=No
 }}
+{{Standardization_Status|W3C Recommendation}}
+{{API_Name}}
+{{Summary_Section|The <code>margin</code> property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code> and <code>margin-left</code>. Negative values are also allowed.}}
 {{CSS Property
-|Initial value=See individual properties
+|Initial value=Depends on the particular element. Different elements have different default margins.
 |Applies to=All elements except elements with table display types other than table-caption, table, and inline-table
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties
-|Animatable=No
+|Computed value=As specified, but with relative lengths converted into absolute pixel values.
+|Animatable=Yes
+|CSS object model property=margin
 |Values={{CSS Property Value
-|Data Type=<margin-width>
-|Description=1-4 values using length, percentage, or the keywords '''auto''' or '''inherit'''
-
-*If one value is given, it applies to all four sides.
-*If two values are given, the first applies to the top and bottom, the second applies to the right and left.
-*If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
-*If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
-}}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative Values are allowed. See [http://docs.webplatform.org/wiki/css/units/length length] for possible units.
+|Description=Specifies a fixed width, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A <percentage> relative to the width of the containing block. Negative values are allowed.
+|Description=A percentage relative to the width of the containing block. Negative values are allowed.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=auto is replaced by some suitable value by the browser. For example, it can be used for centering of blocks.
-div { width:50%;  margin:0 auto; } centers the div container horizontally.
+|Description=<code>auto</code> is replaced by some suitable value by the browser. For example, it can be used for centering of blocks.
+
+<code>div { width:50%;  margin:0 auto; }</code> centers the <code>&lt;div&gt;</code> container horizontally.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Takes the same specified value as the property for the element's parent.
+|Description=Causes the element it is applied to to take on the same margin values as its parent.
 }}
 }}
 {{Examples_Section
@@ -47,15 +40,13 @@ div { width:50%;  margin:0 auto; } centers the div container horizontally.
 }}
 }}
 {{Notes_Section
-|Usage=This is a shorthand property that specifies up to four <margin-width> values.
-
-Negative margins are supported except for top and bottom margins on inline objects.
-
-Margins are always transparent.
-|Import_Notes====Syntax===
-<code>'''margin: '''top '''{{!}}''' right '''{{!}}''' bottom '''{{!}}''' left</code>
-===Standards information===
-[http://www.w3.org/TR/CSS21/box.html#margin-properties CSS2.1 Margin properties]
+|Usage=* <code>margin</code> can take 1-4 values for its value, including CSS length units, percentage values, or the keywords '''auto''' or '''inherit''':
+** If one value is given, it applies to all four sides.
+** If two values are given, the first applies to the top and bottom, the second applies to the right and left.
+** If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
+** If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
+* Negative margins are supported except for top and bottom margins on inline objects.
+* Margins are always transparent.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -141,6 +132,7 @@ Margins are always transparent.
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
