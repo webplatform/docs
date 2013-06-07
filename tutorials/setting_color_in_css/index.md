@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|This article explains in detail the different ways you can specify [[css/units/color|color]] in CSS.}}
+{{Summary_Section|This article explains in detail the different ways you can specify [[css/data_types/color|color]] in CSS.}}
 {{Tutorial
 |Content=== Information: Color ==
  
@@ -228,7 +228,7 @@ strong {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[css/units/color|color]]
+|Manual_links=* [[css/data_types/color|color]]
 * [http://www.w3.org/TR/CSS2/syndata.html#color-units Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 4 Syntax and basic data types, 4.3.6 Colors]
 * [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 , 4.3. Extended color keywords]
 
