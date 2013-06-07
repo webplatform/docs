@@ -45,22 +45,22 @@ If the property has a value different than none, a stacking context will be crea
 |Description=Specifies a scale operation using the vector [1, sy].
 }}{{CSS Property Value
 |Data Type=rotate(20deg)
-|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
+|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
 }}{{CSS Property Value
 |Data Type=skewX(40deg)
-|Description=Specifies a 2D skew transformation along the X axis by the given [[css/units/angle|angle]].
+|Description=Specifies a 2D skew transformation along the X axis by the given [[css/data_types/angle|angle]].
 }}{{CSS Property Value
 |Data Type=skewY(0.25turn)
-|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/units/angle|angle]].
+|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/data_types/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateX(20deg)
-|Description=Specifies a 3D rotation of the element around the X axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
+|Description=Specifies a 3D rotation of the element around the X axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateY(20deg)
-|Description=Specifies a 3D rotation of the element around the Y axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
+|Description=Specifies a 3D rotation of the element around the Y axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
 }}{{CSS Property Value
 |Data Type=rotateZ(20deg)
-|Description=Specifies a 3D rotation of the element around the Z axis at its origin (as specified by the transform-origin property) by the specified [[css/units/angle|angle]].
+|Description=Specifies a 3D rotation of the element around the Z axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
 }}
 }}
 {{Examples_Section
