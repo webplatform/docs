@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of an element's right border. This page explains the border-right-color value, but often you will find it more convenient to fix the border's right color as part of a shorthand set, either [[css/properties/border-right|border-right]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-right-color#Usage|Usage]].
+[[css/data_types/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-right-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
