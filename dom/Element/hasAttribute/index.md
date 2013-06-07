@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Determines whether a certain attribute exists on an element.}}
+{{Summary_Section|Determines whether a content attribute exists on an element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
