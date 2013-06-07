@@ -74,6 +74,59 @@ div {
   margin: -11em 0px 0px 210px;
 }
 |LiveURL=http://code.webplatform.org/gist/5727296
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the different ways of using the <code>margin</code> property.
+|Code=.text-margin {
+  /*
+  This uses the margin: {{value}} syntax.
+  {{value}} can be specified in em, px etc.
+  */
+  margin: 1em;
+}
+
+.text-vertical-horizontal {
+  /*
+  This uses the margin: {{horizontal}} {{vertical}} syntax.
+  {{horizontal}} is the amount of margin for both the side, left and side.
+  Similarly, {{vertical}} is for both, top and bottom sides.
+  */
+  margin: 2rem 50px;
+}
+
+.text-top-horizontal-bottom {
+  /*
+  This uses the margin: {{top}} {{horizontal}} {{bottom}} syntax.
+  */
+  margin: 10pt 1em 1cm;
+}
+
+.text-top-right-bottom-left {
+  /*
+  This uses the margin: {{top}} {{right}} {{bottom}} {{left}} syntax.
+  */
+  margin: 5mm 1in 5ex 10ch;
+}
+|LiveURL=http://code.webplatform.org/gist/5727295
+}}{{Single Example
+|Language=HTML
+|Description=The HTML accompanying the above example.
+|Code=<div class="container">
+  <p class="text-margin">This paragraph uses the <code>margin: {{value}}</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-vertical-horizontal">This paragraph uses the <code>margin: {{horizontal}} {{vertical}}</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-top-horizontal-bottom">This paragraph uses the <code>margin: {{top}} {{horizontal}} {{bottom}}</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-top-right-bottom-left">This paragraph uses the <code>margin: {{top}} {{right}} {{bottom}} {{left}}</code> syntax.</p>
+</div>
+
 }}
 }}
 {{Notes_Section
