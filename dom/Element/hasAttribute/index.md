@@ -33,7 +33,7 @@ if (element) {
 }}
 }}
 {{Notes_Section
-|Usage=Use this method to determine whether a certain attribute exists on an element.
+|Usage=Use this method to determine whether a content attribute exists on an element.
 |Notes=*This method does not get the value of the attribute, see [[dom/methods/getAttribute|'''getAttribute''']] for this purpose.
 *See [[dom/methods/hasAttributes|'''hasAttributes''']], which determines whether the element has any attributes at all.
 }}
@@ -62,11 +62,7 @@ if (element) {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/getAttribute|getAttribute]]</code>
-*<code>[[dom/methods/hasAttributes|hasAttributes]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
