@@ -15,7 +15,7 @@
 |CSS object model property=margin
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
+|Description=Specifies a fixed length, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A percentage relative to the width of the containing block. Negative values are allowed.
