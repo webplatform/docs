@@ -110,7 +110,7 @@ To apply transparencies, you can set the
 
 [[Image:svg_opacity.png]]
 
-Alternately, you can use [[css/units/color|'''rgba()''' and
+Alternately, you can use [[css/data_types/color|'''rgba()''' and
 '''hsla()''']] CSS colors to to incorpoarate opacity as part of
 [[svg/properties/fill|'''fill''']] and
 [[svg/properties/stroke|'''stroke''']] property values. The following
