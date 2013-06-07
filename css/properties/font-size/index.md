@@ -171,7 +171,7 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 |Note=Does not support [[css/data_types/length|'''rem''']] values; specify other supported values as fallback properties.
 }}{{Compatibility Notes Row
 |Browser=All
-|Note=Check compatibility for more recent [[css/units/length|viewport unit values]].
+|Note=Check compatibility for more recent [[css/data_types/length|viewport unit values]].
 }}
 }}
 {{See_Also_Section
