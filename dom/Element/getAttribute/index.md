@@ -50,14 +50,29 @@
 }}
 }}
 {{Notes_Section
-|Notes=If two or more attributes have the same name, this method retrieves values only for the last attribute created with this name, and ignores all other attributes with the same name.
+|Usage=Use this method to get the value of a content attribute of an element.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=DOM Level 2 HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
+|Name=Document Object Model (DOM) Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
-|Relevant_changes=Section 1.6.5
+|Relevant_changes=Section 1.4
+}}{{Related Specification
+|Name=Document Object Model (DOM) Level 2 Core
+|URL=http://www.w3.org/TR/DOM-Level-2-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}{{Related Specification
+|Name=Document Object Model (DOM) Level 1
+|URL=http://www.w3.org/TR/REC-DOM-Level-1
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}{{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/
+|Status=Living Standard
+|Relevant_changes=Section 6.8
 }}
 }}
 {{Compatibility_Section
