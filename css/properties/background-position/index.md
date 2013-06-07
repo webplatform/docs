@@ -16,7 +16,7 @@
 |CSS percentages=Refer to size of background positioning area minus size of background image
 |Values={{CSS Property Value
 |Data Type=20px 40px
-|Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/units/length|Length units]].
+|Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/data_types/length|Length units]].
 }}{{CSS Property Value
 |Data Type=30% 15%
 |Description=Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on percentages, read [[css/units/numeric|Numeric units]].
@@ -181,7 +181,7 @@ div div { /* all the inner divs are given the same width and height, background 
 }}
 }}
 {{Notes_Section
-|Usage=* <code>background-position</code> has good support across browsers. Be aware however that some [[css/units/length|CSS units]] are recent additions to the language and are not supported across older browsers.
+|Usage=* <code>background-position</code> has good support across browsers. Be aware however that some [[css/data_types/length|CSS data types]] are recent additions to the language and are not supported across older browsers.
 * CSS sprites is a very common technique used to display multiple small images on a web page while cutting down on file size and HTTP requests. The images in question are all stored in a single image file which is applied to multiple different elements on the page; different parts of that file are then displayed by varying the <code>background-position</code> values. See example 2 for this in action.
 * The four value syntax is not supported very widely across browsers.
 }}
