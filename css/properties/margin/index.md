@@ -112,19 +112,19 @@ div {
 |Language=HTML
 |Description=The HTML accompanying the above example.
 |Code=&lt;div class="container"&gt;
-  &lt;p class="text-margin"&gt;This paragraph uses the &lt;code&gt;margin: {{value}}&lt;/code&gt; syntax.&lt;/p&gt;
+  &lt;p class="text-margin"&gt;This paragraph uses the &lt;code&gt;margin: value&lt;/code&gt; syntax.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="container"&gt;
-  &lt;p class="text-vertical-horizontal"&gt;This paragraph uses the &lt;code&gt;margin: {{horizontal}} {{vertical}}&lt;/code&gt; syntax.&lt;/p&gt;
+  &lt;p class="text-vertical-horizontal"&gt;This paragraph uses the &lt;code&gt;margin: horizontal vertical&lt;/code&gt; syntax.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="container"&gt;
-  &lt;p class="text-top-horizontal-bottom"&gt;This paragraph uses the &lt;code&gt;margin: {{top}} {{horizontal}} {{bottom}}&lt;/code&gt; syntax.&lt;/p&gt;
+  &lt;p class="text-top-horizontal-bottom"&gt;This paragraph uses the &lt;code&gt;margin: top horizontal bottom&lt;/code&gt; syntax.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class="container"&gt;
-  &lt;p class="text-top-right-bottom-left"&gt;This paragraph uses the &lt;code&gt;margin: {{top}} {{right}} {{bottom}} {{left}}&lt;/code&gt; syntax.&lt;/p&gt;
+  &lt;p class="text-top-right-bottom-left"&gt;This paragraph uses the &lt;code&gt;margin: top right bottom left&lt;/code&gt; syntax.&lt;/p&gt;
 &lt;/div&gt;
 }}
 }}
