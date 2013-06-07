@@ -21,7 +21,7 @@
 }}
 |Method_applies_to=dom/Element
 |Example_object_name=element
-|Return_value_name=attributeExists 
+|Return_value_name=attributeExists
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the specified attribute exists.
 }}
@@ -34,9 +34,6 @@
 |Notes=*This method does not get the value of the attribute, see [[dom/methods/getAttributeNS|getAttributeNS]] for this purpose.
 *Where namespaces are irrelevant, [[dom/methods/hasAttribute|hasAttribute]] can be used instead.
 *See [[dom/methods/hasAttributes|hasAttributes]], which determines whether the element has any attributes at all.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
