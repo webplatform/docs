@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either [[css/properties/border-bottom|border-bottom]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-bottom-color#Usage|Usage]].
+[[css/data_types/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-bottom-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
