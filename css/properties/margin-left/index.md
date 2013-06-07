@@ -71,7 +71,6 @@
    background-color: green;
    margin-left: -10%;
  }
-
 |LiveURL=http://code.webplatform.org/gist/5727939
 }}
 }}
@@ -94,7 +93,7 @@ Negative margins are supported, except for top and bottom margins on inline obje
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2
-|URL=http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom
+|URL=http://www.w3.org/TR/CSS2/box.html#propdef-margin-left
 |Status=W3C Recommendation
 }}
 }}
