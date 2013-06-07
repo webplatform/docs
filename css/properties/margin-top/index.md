@@ -1,68 +1,87 @@
-{{Page_Title}}
+{{Page_Title|margin-top}}
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the top margin of an element.
-
-Margin-top creates space outside the outer edge of an element (beyond the top border). Margins are transparent.
-}}
+{{Summary_Section|<code>margin-top</code> sets the top margin of an element.}}
 {{CSS Property
-|Initial value=0
+|Initial value=Depends on the particular element. Different elements have different default margins.
 |Applies to=All elements except elements with table display types other than table-caption, table, and inline-table.
 |Inherited=No
 |Media=visual
-|Computed value=The percentage as specified or the absolute length.
-|Animatable=No
+|Computed value=As specified, but with relative lengths converted into absolute pixel values.
+|Animatable=Yes
+|CSS object model property=marginTop
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative values are allowed.
+|Description=Specifies a fixed length, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A percentage of the width of the containing block. Negative values are allowed. (Even though this is margin-top, the browser will take the percentage from the width, not the height of the containing block.)
 }}{{CSS Property Value
 |Data Type=auto
-|Description=The browser calculates a top margin.
+|Description=The browser calculates a bottom margin dependent on the space available.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Inherits the parent element's specified margin-top width.
+|Description=Inherits the parent element's specified <code>margin-top</code> width.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=Clearing the space above a paragraph element by 2cm (an example of length).
-|Code=p {
-     margin-top: 2cm;
-}
+|Language=HTML
+|Description=In this example there are three blocks, styled identically except for their <code>margin-top</code> values:
+
+* The first one has a <code>margin-top</code> of 2 centimeters, meaning that it is pushed down by 2cm, leaving a gap at the top of the content.
+* The second one has no <code>margin-top</code> of its own.
+* The bottom block has a <code>margin-top</code> of -1em set on it, meaning that it is pushed up to overlap the second block slightly.
+|Code=&lt;div class="one"&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5727907
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space above a paragraph element by 20% of its container's height (an example of percentage).
-|Code=p {
-     margin-top: 20%;
+|Description=CSS applied to the HTML shown in the first example.
+|Code=/**
+ * margin-bottom examples
+ */
+ 
+ * {
+   margin: 0;
+ }
+
+div {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0));
+  border-radius: 10px;
 }
-}}{{Single Example
-|Language=CSS
-|Description=Allowing the browser to decide how much clearance to give a paragraph element above its top edge (an example of auto).
-|Code=p {
-     margin-top: auto;
+
+.one {
+  background-color: red;
+  margin-top: 2cm;
 }
-}}{{Single Example
-|Language=CSS
-|Description=Inheriting the paragraph's parent element's margin-top specification (an example of inherit).
-|Code=p {
-     margin-top: inherit;
+
+.two {
+  background-color: blue;
 }
+
+.three {
+  background-color: green;
+  margin-top: -1em;
+}
+|LiveURL=http://code.webplatform.org/gist/5727907
 }}
 }}
 {{Notes_Section
 |Usage====Usage===
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
+* When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
+* Margins are always transparent. 
 
 ===Best Practices===
-* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-top if there is a specific reason to call attention to it (e.g. one element has a different top margin than the rest in its class, etc.).
+* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use <code>margin-bottom</code> if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
 |Notes=As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements. With earlier versions of Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
@@ -73,7 +92,11 @@ Negative margins are supported, except for top and bottom margins on inline obje
 *[http://www.w3.org/TR/CSS2/box.html#propdef-margin-top w3.org]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2
+|URL=http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
