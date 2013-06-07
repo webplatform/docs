@@ -32,11 +32,49 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=A simple example showing different combinations of margin values applied to three identically sized elements.
+* The first one has a margin of 50 pixels on all sides.
+* The second one has no margin on the top and bottom, but <code>auto</code> set on the left and right, causing it to center in the parent container.
+* The third one has four individual values, including a negative top margin, causing it to move up, above the level of the second container, and a large left margin, causing it to be shunted over to the right.
+|Code=&lt;div class="one"&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5727296
+}}{{Single Example
 |Language=CSS
-|Code=&lt;style&gt;
-    /* Apply a 10-pixel margin around each side of all images */
-    img { margin: 10px }
-&lt;/style&gt;
+|Description=The CSS applied to the above HTML.
+|Code=/**
+ * margin examples
+ */
+ 
+ * {
+   margin: 0;
+ }
+
+div {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0));
+  border-radius: 10px;
+}
+
+.one {
+  background-color: red;
+  margin: 50px
+}
+
+.two {
+  background-color: blue;
+  margin: 0px auto;
+}
+
+.three {
+  background-color: green;
+  margin: -19% 0px 0px 210px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/5727296
 }}
 }}
 {{Notes_Section
