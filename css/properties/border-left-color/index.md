@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either [[css/properties/border-left|border-left]] or [[css/properties/border-color|border-color]].
 
-[[css/units/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-left-color#Usage|Usage]].
+[[css/data_types/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-left-color#Usage|Usage]].
 }}
 {{CSS Property
 |Initial value=color - The value of the 'color' property
