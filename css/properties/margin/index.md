@@ -71,9 +71,8 @@ div {
 
 .three {
   background-color: green;
-  margin: -19% 0px 0px 210px;
+  margin: -11em 0px 0px 210px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/5727296
 }}
 }}
@@ -84,6 +83,7 @@ div {
 ** If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
 ** If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
 * Negative margins are supported except for top and bottom margins on inline objects.
+* When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
 * Margins are always transparent.
 }}
 {{Related_Specifications_Section
