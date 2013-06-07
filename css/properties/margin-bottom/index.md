@@ -30,29 +30,50 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=Clearing the space below a paragraph element by 2cm (an example of length).
-|Code=p {
-     margin-bottom: 2cm;
-}
+|Language=HTML
+|Description=In this example there are three blocks, styled identically except for their <code>margin-bottom</code> values:
+
+* The first one has a <code>margin-bottom</code> of 2 centimeters, meaning that everything else is pushed down by 2cm, leaving a gap between the top block and the rest of the content.
+* The second one has a <code>margin-bottom</code> of -1em, meaning that the bottom block is actually pulled upwards so it overlaps the second block slightly.
+* The bottom block has no <code>margin-bottom</code> of its own.
+|Code=&lt;div class="one"&gt;&lt;/div&gt;
+&lt;div class="two"&gt;&lt;/div&gt;
+&lt;div class="three"&gt;&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5727822
 }}{{Single Example
 |Language=CSS
-|Description=Clearing the space below a paragraph element by 20% of its container's height (an example of percentage).
-|Code=p {
-     margin-bottom: 20%;
+|Description=CSS applied to the HTML shown in the first example.
+|Code=/**
+ * margin-bottom examples
+ */
+ 
+ * {
+   margin: 0;
+ }
+
+div {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0));
+  border-radius: 10px;
 }
-}}{{Single Example
-|Language=CSS
-|Description=Allowing the browser to decide how much clearance to give a paragraph element below its lowest edge (an example of auto).
-|Code=p {
-     margin-bottom: auto;
+
+.one {
+  background-color: red;
+  margin-bottom: 2cm;
 }
-}}{{Single Example
-|Language=CSS
-|Description=Inheriting the paragraph's parent element's margin-bottom specification (an example of inherit).
-|Code=p {
-     margin-bottom: inherit;
+
+.two {
+  background-color: blue;
+  margin-bottom: -1em;
 }
+
+.three {
+  background-color: green;
+  margin-bottom: 0px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/5727822
 }}
 }}
 {{Notes_Section
