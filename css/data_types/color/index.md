@@ -13,7 +13,7 @@
 
 * An '''rgb()''' function specifies red, green and blue values either as integers between 0 and 255 (corresponding to the hex values above), or as percentages. For example, '''rgb(256,0,0)''' and '''rgb(100%,0%,0%)''' both correspond to '''red'''.
 
-* An '''hsl()''' function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/units/angle|angle within the color wheel]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, '''hsl(0%,100%,50%)''' also corresponds to '''red'''.
+* An '''hsl()''' function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/data_types/angle|angle within the color wheel]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, '''hsl(0%,100%,50%)''' also corresponds to '''red'''.
 
 The following variations on the above allow you to incorporate an
 ''alpha'' channel specifying transparencies:
