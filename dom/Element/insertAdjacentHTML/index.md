@@ -12,10 +12,23 @@
 |Name=where
 |Data type=String
 |Description=Where to insert the HTML text. Must be one of the following values:
-"beforebegin" - before the element itself.
-"afterbegin" - just inside the element, before its first child.
-"beforeend" - just inside the element, after its last child.
-"afterend" - after the element itself.
+{{{!}} class="wikitable"
+{{!}}-
+!Value
+!Description
+{{!}}-
+{{!}}"beforebegin"
+{{!}}Before the element itself.
+{{!}}-
+{{!}}"afterbegin"
+{{!}}Just inside the element, before its first child.
+{{!}}-
+{{!}}"beforeend"
+{{!}}Just inside the element, after its last child.
+{{!}}-
+{{!}}"afterend"
+{{!}}After the element itself.
+{{!}}}
 |Optional=No
 }}{{Method Parameter
 |Name=html
