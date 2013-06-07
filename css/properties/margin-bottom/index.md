@@ -1,32 +1,30 @@
-{{Page_Title}}
+{{Page_Title|margin-bottom}}
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the bottom margin of an element.
-
-Margin-bottom creates space outside the outer edge of an element (beyond the bottom border). Margins are transparent.
-}}
+{{Summary_Section|<code>margin-bottom</code> sets the bottom margin of an element.}}
 {{CSS Property
-|Initial value=0
+|Initial value=Depends on the particular element. Different elements have different default margins.
 |Applies to=All elements except elements with table display types other than table-caption, table, and inline-table.
 |Inherited=No
 |Media=visual
-|Computed value=The percentage as specified or the absolute length.
-|Animatable=No
+|Computed value=As specified, but with relative lengths converted into absolute pixel values.
+|Animatable=Yes
+|CSS object model property=marginBottom
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed width. Negative values are allowed.
+|Description=Specifies a fixed length, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A percentage of the width of the containing block. Negative values are allowed. (Even though this is margin-bottom, the browser will take the percentage from the width, not the height of the containing block.)
 }}{{CSS Property Value
 |Data Type=auto
-|Description=The browser calculates a bottom margin.
+|Description=The browser calculates a bottom margin dependent on the space available
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=Inherits the parent element's specified margin-bottom width.
+|Description=Inherits the parent element's specified <code>margin-bottom</code> width.
 }}
 }}
 {{Examples_Section
@@ -62,18 +60,19 @@ Margin-bottom creates space outside the outer edge of an element (beyond the bot
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
 
 ===Best Practices===
-* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use margin-bottom if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
+* When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use <code>margin-bottom</code> if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
 |Notes=As of Microsoft Internet Explorer 4.0 or later, you can specify possible length values relative to the height of the element's font (<code>em</code>) or the height of the letter "x" (<code>ex</code>).
 In Microsoft Internet Explorer 3.0, the specified margin value is added to the default value of the object. In Internet Explorer 4.0 or later, the margin value is absolute. The margin properties do not work with the '''td''' and '''tr''' objects in Internet Explorer 4.0, but they do work in Internet Explorer 3.0. To set margins in the cell for Internet Explorer 4.0 or later, apply the margin to an object, such as '''div''' or '''p''', within the '''td'''.
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements. With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 For inline elements, the value of this property is used to compute the border area of a surrounding inline element, if present. This value does not contribute to the height of a line.
 Negative margins are supported, except for top and bottom margins on inline objects.
-
-===Standards information===
-*[http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom w3.org]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2
+|URL=http://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
