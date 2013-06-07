@@ -1,161 +1,73 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|Gets a live HTMLCollection of the elements with the specified tag name and namespace.}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=pvarNS|Data type=VARIANT|Description=The namespace URI that defines the desired elements or an asterisk (*) to match all namespaces with the document.|Optional=}}
-{{Method Parameter|Name=bstrLocalName|Data type=BSTR|Description=The name of the desired element or  an asterisk (*) to match all elements with the specified namespace.|Optional=}}
-|Method_applies_to=dom/document,dom/Element
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLElementCollection'''
-
-
+|Parameters={{Method Parameter
+|Name=namespaceURI
+|Data type=String
+|Description=The namespace URI that defines the desired elements or an asterisk (*) to match all namespaces with the document, or null.
+|Optional=No
+}}{{Method Parameter
+|Name=localName
+|Data type=String
+|Description=The name of the desired element or an asterisk (*) to match all elements with the specified namespace.
+|Optional=No
 }}
-{{Topics|DOM}}
+|Method_applies_to=dom/document
+|Example_object_name=document
+|Return_value_name=elements
+|Javascript_data_type=Object
+|Return_value_description=A live HTMLCollection of elements.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
+|Usage=This method should not be used. For a more performant alternative, see the notes.
 
-
+Use this method to get a live list of elements with a specified name and namespace.
+|Notes=*For performance reasons, [[css/selectors_api/querySelectorAll|'''querySelectorAll'''] is preferred, because it gets a static list.
+*This method returns a live element list that gets updated whenever an element is added or removed from the document, this has performance implications and may result in unexpected errors (removing elements within a for loop while caching the length of the collection).
+*If namespaces are irrelevant in the context, [[dom/methods/getElementsByTagName|getElementsByTagName]] can be used (but it is also not recommended, see the first two notes).
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>article</code>
-*<code>aside</code>
-*<code>audio</code>
-*<code>b</code>
-*<code>base</code>
-*<code>baseFont</code>
-*<code>bdo</code>
-*<code>bgSound</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>br</code>
-*<code>button</code>
-*<code>[[canvas/objects/canvas|canvas]]</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>col</code>
-*<code>colGroup</code>
-*<code>comment</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>figcaption</code>
-*<code>figure</code>
-*<code>font</code>
-*<code>footer</code>
-*<code>form</code>
-*<code>frame</code>
-*<code>frameSet</code>
-*<code>head</code>
-*<code>header</code>
-*<code>hgroup</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>html</code>
-*<code>i</code>
-*<code>iframe</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>link</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>mark</code>
-*<code>marquee</code>
-*<code>[[html/elements/media|media]]</code>
-*<code>menu</code>
-*<code>meta</code>
-*<code>nav</code>
-*<code>[[html/elements/nextID|nextID]]</code>
-*<code>noBR</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>optGroup</code>
-*<code>option</code>
-*<code>p</code>
-*<code>param</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>rt</code>
-*<code>ruby</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>script</code>
-*<code>section</code>
-*<code>select</code>
-*<code>small</code>
-*<code>source</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>style</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>title</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>video</code>
-*<code>wbr</code>
-*<code>xmp</code>
-*<code>[[dom/methods/getElementsByTagName|getElementsByTagName]]</code>
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=Document Object Model (DOM) Level 3 Core 
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.4
+}}{{Related Specification
+|Name=Document Object Model (DOM) Level 2 Core 
+|URL=http://www.w3.org/TR/DOM-Level-2-Core/
+|Status=Recommendation
+|Relevant_changes=Section 1.2
+}}{{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/
+|Status=Living Standard
+|Relevant_changes=Section 6.5, 6.8
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
