@@ -22,7 +22,7 @@ It overrides both the height & the max-height property if any them is specified 
 |Description=Default. Behaves as 0 for non-flexbox elements. On [[css/flexbox|flexbox]]  acts as min-content.
 }}{{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed height. Negative values are not allowed. See [[css/units/length|length]] for possible units.
+|Description=Specifies a fixed height. Negative values are not allowed. See [[css/data_types/length|length]] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as 0. Negative values are not allowed
