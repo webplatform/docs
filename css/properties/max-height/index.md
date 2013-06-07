@@ -16,7 +16,7 @@
 |CSS percentages=Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 'none'.
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a fixed height. Negative values are not allowed. See [[css/units/length|length]] for possible units.
+|Description=Specifies a fixed height. Negative values are not allowed. See [[css/data_types/length|length]] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
