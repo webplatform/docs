@@ -1,4 +1,4 @@
-Properties that are ''animatable'' specify [[css/units/numeric|numeric
+Properties that are ''animatable'' specify [[css/data_types/numeric|numeric
 values]] or other values such as [[css/data_types/color|colors]] and
 various [[css/functions|functions]] that compute to numeric values.
 Keyword values accepted by many properties may also animate.  For
