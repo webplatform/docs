@@ -79,31 +79,31 @@ div {
 |Description=The following example demonstrates the different ways of using the <code>margin</code> property.
 |Code=.text-margin {
   /*
-  This uses the margin: {{value}} syntax.
-  {{value}} can be specified in em, px etc.
+  This uses the margin: value syntax.
+  value can be specified in em, px etc.
   */
   margin: 1em;
 }
 
 .text-vertical-horizontal {
   /*
-  This uses the margin: {{horizontal}} {{vertical}} syntax.
-  {{horizontal}} is the amount of margin for both the side, left and side.
-  Similarly, {{vertical}} is for both, top and bottom sides.
+  This uses the margin: horizontal vertical syntax.
+  horizontal is the amount of margin for both the side, left and side.
+  Similarly, vertical is for both, top and bottom sides.
   */
   margin: 2rem 50px;
 }
 
 .text-top-horizontal-bottom {
   /*
-  This uses the margin: {{top}} {{horizontal}} {{bottom}} syntax.
+  This uses the margin: top horizontal bottom syntax.
   */
   margin: 10pt 1em 1cm;
 }
 
 .text-top-right-bottom-left {
   /*
-  This uses the margin: {{top}} {{right}} {{bottom}} {{left}} syntax.
+  This uses the margin: top right bottom left syntax.
   */
   margin: 5mm 1in 5ex 10ch;
 }
@@ -111,22 +111,21 @@ div {
 }}{{Single Example
 |Language=HTML
 |Description=The HTML accompanying the above example.
-|Code=<div class="container">
-  <p class="text-margin">This paragraph uses the <code>margin: {{value}}</code> syntax.</p>
-</div>
+|Code=&lt;div class="container"&gt;
+  &lt;p class="text-margin"&gt;This paragraph uses the &lt;code&gt;margin: {{value}}&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;/div&gt;
 
-<div class="container">
-  <p class="text-vertical-horizontal">This paragraph uses the <code>margin: {{horizontal}} {{vertical}}</code> syntax.</p>
-</div>
+&lt;div class="container"&gt;
+  &lt;p class="text-vertical-horizontal"&gt;This paragraph uses the &lt;code&gt;margin: {{horizontal}} {{vertical}}&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;/div&gt;
 
-<div class="container">
-  <p class="text-top-horizontal-bottom">This paragraph uses the <code>margin: {{top}} {{horizontal}} {{bottom}}</code> syntax.</p>
-</div>
+&lt;div class="container"&gt;
+  &lt;p class="text-top-horizontal-bottom"&gt;This paragraph uses the &lt;code&gt;margin: {{top}} {{horizontal}} {{bottom}}&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;/div&gt;
 
-<div class="container">
-  <p class="text-top-right-bottom-left">This paragraph uses the <code>margin: {{top}} {{right}} {{bottom}} {{left}}</code> syntax.</p>
-</div>
-
+&lt;div class="container"&gt;
+  &lt;p class="text-top-right-bottom-left"&gt;This paragraph uses the &lt;code&gt;margin: {{top}} {{right}} {{bottom}} {{left}}&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;/div&gt;
 }}
 }}
 {{Notes_Section
