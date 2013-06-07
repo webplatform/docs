@@ -240,7 +240,7 @@ In order to make it easier for users to see and hear content including separatin
 {{See_Also_Section
 |Manual_links=* [[tutorials/setting_color_in_css|Setting color in CSS]]
 * [[css/color|color]]
-* [[css/units/color|color]]
+* [[css/data_types/color|color]]
 |Manual_sections=*[http://www.w3.org/Style/CSS/Test/CSS3/Color/current/ W3 css3-color Conformance Test Suite]
 *[https://developer.mozilla.org/en-US/docs/CSS/color MDN color property]
 *[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
