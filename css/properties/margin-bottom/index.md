@@ -58,6 +58,8 @@
 {{Notes_Section
 |Usage====Usage===
 * When calculating the height and width of an element, DO NOT include the margins in your calculations (i.e. include everything else: content area, padding, and border). However, DO include margin size when calculating available space within an element's containing element.
+* When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
+* Margins are always transparent. 
 
 ===Best Practices===
 * When possible, use [http://docs.webplatform.org/wiki/css/properties/margin margin] shorthand (i.e. {margin: 10px 15px 20px 15px;}) to specify margin-widths rather than writing out each margin's specifications as this clutters code and makes it difficult to read. Use <code>margin-bottom</code> if there is a specific reason to call attention to it (e.g. one element has a different bottom margin than the rest in its class, etc.).
