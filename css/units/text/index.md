@@ -1,1 +1,0 @@
-#REDIRECT [[css/data types/text]]
