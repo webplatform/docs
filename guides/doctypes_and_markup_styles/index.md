@@ -1,7 +1,8 @@
 {{Page_Title|DOCTYPES and markup styles}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Outdated,Incomplete,Errors
+|Content=Outdated, Incomplete, Errors
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we will explore the different doctypes you are likely to come across on your journey around the Web, as well as look at how XHTML and HTML differ.}}
@@ -112,7 +113,7 @@ This last rule is very important. If you don't do this, your HTML will not be we
 
 ==== A note for teachers ====
 
-A few teachers have asked us what style they should teach beginners, and what doctype they should recommend. HTML5 allows you to use loose HTML style syntax so validating against the HTML5 doctype won't pick up markup that would be considered erroneous in XHTML. this is a shame, as strict XHTML syntax is a good style to get beginners to stick to. So what should you do?
+A few teachers have asked us what style they should teach beginners, and what doctype they should recommend. HTML5 allows you to use loose HTML style syntax so validating against the HTML5 doctype won't pick up markup that would be considered erroneous in XHTML. This is a shame, as strict XHTML syntax is a good style to get beginners to stick to. So what should you do?
 
 Well, the whole point of HTML5 having such loose syntax is because a lot of it really doesn't actually matter in terms of pages working ok in browsers, and HTML5 reflects more what web developers have actually done historically, rather than what the W3C thinks they should be doing. So therefore, you don't really need to stick to most of these rules; you can go forward with HTML5 using whatever syntax style you are used to. But, obviously when teaching newcomers you need to teach them a style to stick to, otherwise all kinds of chaos could ensue. We would recommend that you use the HTML5 doctype and the new elements, but get them to stick to XHTML strict rules.
 
