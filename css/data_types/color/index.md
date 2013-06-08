@@ -7,7 +7,7 @@
 {{Concept_Page
 |Content=Several different ways are available to specify simple color values:
 
-* ''Keyword'' values specify common color names such as '''yellow''', '''black''', or '''transparent'''.
+* ''Keyword'' values specify common color names such as '''yellow''', '''black''', or '''transparent'''. (See the table below.)
 
 * Hexadecimal values specify opaque colors in the range of '''#000000''' ('''black''') to '''#ffffff''' ('''white'''), where  each pair of characters correspond to red, green, and blue.
 
