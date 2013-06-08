@@ -1,4 +1,4 @@
-{{Page_Title|CSS units}}
+{{Page_Title|CSS data types}}
 {{Flags
 |Checked_Out=No
 }}
