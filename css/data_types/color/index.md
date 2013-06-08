@@ -24,7 +24,26 @@ The following variations on the above allow you to incorporate an
 
 The recently introduced '''transparent''' color name specifies a full transparency.
 
-==Color Keywords==
+
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=CSS
+|Code=aside {
+    color: white;              /* white letterforms */
+    text-shadow: 0 0 4px red;  /* red backlight effect */
+    text-shadow: 0 0 4px rgb(100%, 0%, 0%);  /* same */
+    background-color: #777777; /* gray background */
+}
+.semitrans {
+    /* elements behind this show through */
+    background-color: rgba(50%, 50%, 50%, 0.5); 
+}
+}}
+}}
+{{Notes_Section
+|Usage===Color Keywords==
 
 .
 
@@ -327,23 +346,6 @@ The recently introduced '''transparent''' color name specifies a full transparen
 | <div style="background-color: yellowgreen; color: yellowgreen;">Non-visible-example</div> || yellowgreen || #9acd32 || rgb(60%,80%,20%) || hsl(80,61%,50%)
 |}
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=aside {
-    color: white;              /* white letterforms */
-    text-shadow: 0 0 4px red;  /* red backlight effect */
-    text-shadow: 0 0 4px rgb(100%, 0%, 0%);  /* same */
-    background-color: #777777; /* gray background */
-}
-.semitrans {
-    /* elements behind this show through */
-    background-color: rgba(50%, 50%, 50%, 0.5); 
-}
-}}
-}}
-{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Color Module Level 3
