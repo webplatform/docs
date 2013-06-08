@@ -31,6 +31,7 @@ The recently introduced '''transparent''' color name specifies a full transparen
 |Code=aside {
     color: white;              /* white letterforms */
     text-shadow: 0 0 4px red;  /* red backlight effect */
+    text-shadow: 0 0 4px rgb(100%, 0%, 0%);  /* same */
     background-color: #777777; /* gray background */
 }
 .semitrans {
