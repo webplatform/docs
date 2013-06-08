@@ -20,8 +20,8 @@
 | degrees, of which there are 360 in a full circle
 |-
 | <code id="em">em</code>
-| ''[[css/data_types/length#Relative_font_lengths|relative font length]]'') em, a unit equal to the point size (nominal height) of the current font.  This is historically based on the mechanical typeset width of the (square
-| letter "M"
+| ''[[css/data_types/length#Relative_font_lengths|relative font length]]''
+| em, a unit equal to the point size (nominal height) of the current font.  This is historically based on the mechanical typeset width of the (square letter "M")
 |-
 | <code id="ex">ex</code>
 | ''[[css/data_types/length#Relative_font_lengths|relative font length]]''
