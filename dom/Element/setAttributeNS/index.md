@@ -34,7 +34,8 @@
 }}
 {{Notes_Section
 |Usage=Use this method to set an attribute in a specified namespace.
-|Notes=*Where namespaces are irrelevant, [[dom/methods/setAttribute|setAttribute]] can be used instead.
+|Notes=*The attribute will be created, if it is not already present.
+*Where namespaces are irrelevant, [[dom/methods/setAttribute|setAttribute]] can be used instead.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
