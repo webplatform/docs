@@ -1,6 +1,8 @@
 {{Page_Title|Resolution units}}
-{{Flags}}
-
+{{Flags
+|Content=Incomplete
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Specify the display or print dot density}}
 {{Concept_Page
