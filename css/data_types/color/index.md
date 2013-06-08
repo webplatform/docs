@@ -24,7 +24,7 @@ The following variations on the above allow you to incorporate an
 
 The recently introduced '''transparent''' color name specifies a full transparency.
 
-==Color Keywords==
+===Color Keywords===
 
 .
 
