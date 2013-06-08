@@ -1,6 +1,7 @@
 {{Page_Title|Angle units}}
-{{Flags}}
-
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Specify angles used to rotate elements}}
 {{Concept_Page
@@ -13,7 +14,6 @@
 
 Measurements may be positive or negative, and may extend past the
 limit required to specify a full circle.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,7 +27,6 @@ limit required to specify a full circle.
 a:hover {
     /* spin link 3 times & return to original orientation */
     transform: rotateX(1080deg);
-}
 }
 }}
 }}
@@ -47,3 +46,9 @@ a:hover {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+}
