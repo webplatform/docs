@@ -1,44 +1,54 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_At_Rule
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following are examples of page selectors (declaration block intentionally left blank).
-|LiveURL=
-|Code=
-@page { ... }
+|Code=@page { ... }
 @page :left { ... }
 @page :right { ... }
 @page LandscapeTable { ... }
 @page CompanyLetterHead:first { ... } /*  identifier and pseudo page. */
 @page:first { ... };
-}}
-{{Single_Example
+}}{{Single Example
 |Description=The following are examples of margin boxes where the declaration blocks are intentionally left blank.
-|LiveURL=
-|Code=
-@page {
+|Code=@page {
     @top-left { ... /* document name */ }
     @bottom-center { ... /* page number */}
 }
-@page :left { @left-middle { ... /* page number in left margin */ }}
-@page :right{ @right-middle { ... /* page number in right margins of right pages */}}
-@page :left { @bottom-left-corner { ... /* left page numbers */ }}
-@page :right { @bottom-right-corner { ... /* right page numbers */ }}
-@page :first { @bottom-left-corner { ... /* empty footer on 1st page */ }
-               @bottom-right-corner { ... /* empty footer */ } }
-}}}}
+
+@page :left {
+    @left-middle { ... /* page number in left margin */ }
+}
+
+@page :right{
+    @right-middle { ... /* page number in right margins of right pages */}
+}
+
+@page :left {
+    @bottom-left-corner { ... /* left page numbers */ }
+}
+
+@page :right {
+    @bottom-right-corner { ... /* right page numbers */ }
+}
+
+@page :first {
+    @bottom-left-corner { ... /* empty footer on 1st page */ }
+    @bottom-right-corner { ... /* empty footer */ }
+}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 
 ====Page Boxes====
 In the page model, the document is transferred into one or more page boxes. The page box is a specialized Cascading Style Sheets (CSS) box that maps to a rectangular print media surface.  It is roughly analogous to the viewport.  As for other boxes, a page box consists of margin, border, padding, and content areas. The content and margin areas of a page box have special functions:
@@ -56,8 +66,7 @@ Margin boxes can be used to create page headers and footers, which are portions 
 Typically, a page header is located at the top of the page in documents with a predominately horizontal writing direction and on the side opposite the binding edge for documents with a predominately vertical writing direction. One possible design of page headers for horizontally written documents uses the '''top-left-corner''', '''top-left''', '''top-center''', '''top-right''', and '''top-right-corner''' margin boxes. Another design, for vertically written documents, could use the '''right-top''', '''right-middle''', and '''right-bottom''' margin boxes for right facing pages and '''left-top''', '''left-middle''', and '''left-bottom''' for left facing pages. However, there are no constraints placed on the use of margin boxes for page headers.
 Typically, the page footer is at the opposite end of the page from the page header. For example, the design of a horizontally written document with a page header at the top of the page could use the '''bottom-left-corner''', '''bottom-left''', '''bottom-center''', '''bottom-right''' and '''bottom-right-corner''' margin boxes as the page footer. The design of a vertically written document could use the margin boxes of the binding edge of the page for the page footer. However, there are no constraints placed on the use of margin boxes for page footers.
 Please note that the margin boxes are oriented with respect to the content and are independent of page orientation, for example the top margin boxes are above the page box in both portrait and landscape orientation.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''@page '''''page_selector'''''?''' { '''[''' ''page_declaration'' '''{{!}}''' ''margin_ruleset'' ''']''';'''*''' }</code>
 '''page_selector''':
 <code>''pageName'''''?''''''[''':left'''{{!}}''':right'''{{!}}''':first''']''''''?'''</code>
@@ -75,16 +84,25 @@ The ''page box'' contains portions of the document flow destined for rendering o
 ;''page_declaration'':A CSS property declaration applicable to the page area.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1]
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
