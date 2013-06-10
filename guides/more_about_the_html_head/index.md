@@ -1,6 +1,5 @@
 {{Page_Title|More about the HTML <head>}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article delves deeper into the possibilities the HTML <code><head></code> has to offer, looking at some less common uses.}}
