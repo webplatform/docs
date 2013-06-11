@@ -1,6 +1,5 @@
 {{Page_Title|display}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -17,7 +16,7 @@ In addition to specifying one of the many different display box types, setting t
 |Computed value=As specified, except for root element, floated elements, and absolutely positioned elements
 |Animatable=No
 |CSS object model property=display
-|CSS percentages=???
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=display-value
 |Description=A keyword that defines the rendering type to apply to the element. Possible values are '''none''', '''inline''', '''block''', '''list-item''', '''inline-block''', '''inline-table''', '''table''', '''table-caption''', '''table-cell''', '''table-column''', '''table-column-group''', '''table-footer-group''', '''table-header-group''', '''table-row''', '''table-row-group''', '''flex''', '''inline-flex''', '''grid''', '''inline-grid''', and '''run-in'''.
@@ -87,9 +86,6 @@ Note: At the time of this writing, most modern browsers do not support this prop
 * If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
 * If an inline box follows, the run-in box becomes a block box. .
 }}{{CSS Property Value
-|Data Type=block
-|Description=Generates a block element box. This is a basic value in CSS 1.
-}}{{CSS Property Value
 |Data Type=ruby
 |Description=Specifies that an element defines a '''ruby''' structure. This and the following values are from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module]. This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
 }}{{CSS Property Value
@@ -116,6 +112,9 @@ Note: At the time of this writing, most modern browsers do not support this prop
 }}{{CSS Property Value
 |Data Type=-ms-inline-grid
 |Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
+}}{{CSS Property Value
+|Data Type=block
+|Description=Generates a block element box. This is a basic value in CSS 1.
 }}
 }}
 {{Examples_Section
@@ -248,6 +247,10 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Name=CSS Level 1
 |URL=http://www.w3.org/TR/CSS1/#display
 |Status=Recommendation
+}}{{Related Specification
+|Name=CSS Display Module Level 3
+|URL=http://dev.w3.org/csswg/css-display-3/
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -538,9 +541,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font, Fonts, Text
 |External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
-* W3 Schools: [http://www.w3schools.com/cssref/pr_class_display.asp CSS display property]
 * Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Reference: The display property]
 }}
 {{Topics|CSS}}
