@@ -199,7 +199,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{!}}-
 {{!}} inline-table {{!}}{{!}} table
 {{!}}-
-{{!}} inline, run-in, table-row-group, table-column, <br />table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
+{{!}} inline, run-in, table-row-group, table-column, <br />table-column-group, table-header-group,<br /> table-footer-group, table-row, table-cell, <br />table-caption, inline-block {{!}}{{!}} block
 {{!}}-
 {{!}} others {{!}}{{!}} same as specified
 {{!}}}
