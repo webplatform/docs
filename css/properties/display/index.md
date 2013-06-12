@@ -27,6 +27,9 @@ In addition to specifying one of the many different display box types, setting t
 |Data Type=inline
 |Description=An element set to inline generates one or more inline element boxes.
 }}{{CSS Property Value
+|Data Type=block
+|Description=Generates a block element box. This is a basic value in CSS 1.
+}}{{CSS Property Value
 |Data Type=none
 |Description=Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden. This is a basic value in CSS 1.
 }}{{CSS Property Value
@@ -112,9 +115,6 @@ Note: At the time of this writing, most modern browsers do not support this prop
 }}{{CSS Property Value
 |Data Type=-ms-inline-grid
 |Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
-}}{{CSS Property Value
-|Data Type=block
-|Description=Generates a block element box. This is a basic value in CSS 1.
 }}
 }}
 {{Examples_Section
