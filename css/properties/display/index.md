@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the type of rendering box used for an element. In HTML, default display property values are based on behaviors listed in the HTML specifications or from the browser or user's default style sheet. The default value in XML is inline.}}
+{{Summary_Section|Specifies the type of rendering box used for an element.}}
 {{CSS Property
 |Initial value=inline
 |Applies to=All elements
@@ -204,7 +204,7 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{!}} others {{!}}{{!}} same as specified
 {{!}}}
 
-'''Table-designated elements'''
+'''Table-designated elements'''<br />
 The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 }}
 {{Related_Specifications_Section
