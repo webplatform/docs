@@ -36,7 +36,7 @@
 |Description=The element generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element. This is a basic value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table
-|Description=Behaves like the &#60;table&#62; HTML element. It defines a block-level box. This is a table model value in CSS 2.1.
+|Description=Behaves like the <code>&#60;table&#62;</code> HTML element. It defines a block-level box. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=inline-table
 |Description=The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
