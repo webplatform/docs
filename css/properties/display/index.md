@@ -41,11 +41,11 @@ To render an element box's dimensions, yet have its contents be invisible, set t
 |Data Type=inline-block
 |Description=The element generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element. This is a basic value in CSS 2.1.
 }}{{CSS Property Value
-|Data Type=inline-table
-|Description=The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
 |Data Type=table
 |Description=Behaves like the &#60;table&#62; HTML element. It defines a block-level box. This is a table model value in CSS 2.1.
+}}{{CSS Property Value
+|Data Type=inline-table
+|Description=The inline-table value does not have a direct mapping in HTML. It behaves like a &#60;table&#62; HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table-caption
 |Description=Behaves like the &#60;caption&#62; HTML element. This is a table model value in CSS 2.1.
@@ -83,40 +83,6 @@ Note: At the time of this writing, most modern browsers do not support this prop
 }}{{CSS Property Value
 |Data Type=inline-grid
 |Description=Behaves like an inline element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0).
-}}{{CSS Property Value
-|Data Type=run-in
-|Description=The behavior depends on the following conditions:
-
-* If the run-in box contains a block box, same as block.
-* If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
-* If an inline box follows, the run-in box becomes a block box. .
-}}{{CSS Property Value
-|Data Type=ruby
-|Description=Specifies that an element defines a '''ruby''' structure. This and the following values are from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module]. This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
-}}{{CSS Property Value
-|Data Type=ruby-base
-|Description=Specifies that an element defines a ruby base.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
-}}{{CSS Property Value
-|Data Type=ruby-text
-|Description=Specifies that an element defines a '''ruby text'''.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
-}}{{CSS Property Value
-|Data Type=ruby-base-container
-|Description=Specifies a container for one or more ruby base elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
-}}{{CSS Property Value
-|Data Type=ruby-text-container
-|Description=Specifies a container for one or more ruby text elements.  This value only applies to the supported ruby elements, '''rt''' and '''ruby'''.
-}}{{CSS Property Value
-|Data Type=-ms-flexbox
-|Description=Internet Explorer 10. Specifies a block-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].
-}}{{CSS Property Value
-|Data Type=-ms-inline-flexbox
-|Description=Internet Explorer 10. Specifies an inline-level flexible box ("flexbox") container. For more information on flexbox containers, see [[css/flexbox|Flexible Box ("Flexbox") Layout]].
-}}{{CSS Property Value
-|Data Type=-ms-grid
-|Description=Internet Explorer 10. Specifies a block-level Grid element. For more information on grid layout, see Grid Layout.
-}}{{CSS Property Value
-|Data Type=-ms-inline-grid
-|Description=Internet Explorer 10. Specifies an inline-level Grid element. For more information on grid layout, see Grid Layout.
 }}
 }}
 {{Examples_Section
@@ -191,18 +157,15 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 }}
 {{Notes_Section
 |Usage='''Basic values in CSS 1'''
-
 *none
 *inline
 *block
 *list-item
 
 '''Extended values in CSS 2.1'''
-
 *inline-block
 
 '''Table model values in CSS 2.1'''
-
 *inline-table
 *table
 *table-caption
@@ -215,17 +178,14 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 *table-row-group
 
 '''Flexbox model values in CSS3'''
-
 *flex
 *inline-flex
 
 '''Grid box model values (experimental in CSS3)'''
-
 *grid
 *inline-grid
 
 '''Experimental values'''
-
 *run-in
 }}
 {{Related_Specifications_Section
@@ -549,8 +509,9 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
 {{Notes_Section
