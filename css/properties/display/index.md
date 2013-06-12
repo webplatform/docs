@@ -21,9 +21,6 @@ In addition to specifying one of the many different display box types, setting t
 |Data Type=display-value
 |Description=A keyword that defines the rendering type to apply to the element. Possible values are '''none''', '''inline''', '''block''', '''list-item''', '''inline-block''', '''inline-table''', '''table''', '''table-caption''', '''table-cell''', '''table-column''', '''table-column-group''', '''table-footer-group''', '''table-header-group''', '''table-row''', '''table-row-group''', '''flex''', '''inline-flex''', '''grid''', '''inline-grid''', and '''run-in'''.
 }}{{CSS Property Value
-|Data Type=inherit
-|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.
-}}{{CSS Property Value
 |Data Type=inline
 |Description=An element set to inline generates one or more inline element boxes.
 }}{{CSS Property Value
@@ -31,7 +28,12 @@ In addition to specifying one of the many different display box types, setting t
 |Description=Generates a block element box. This is a basic value in CSS 1.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Turns off the display of an element (it has no effect on layout); all descendant elements also have their display turned off. The document is rendered as though the element did not exist. To render an element box's dimensions, yet have its contents be invisible, set the visibility property to hidden. This is a basic value in CSS 1.
+|Description=Turns off the display of an element so that the element has no effect on layout; all descendant elements also have their display turned off. The element is removed from the document, and the document is rendered as though the element does not exist. 
+
+To render an element box's dimensions, yet have its contents be invisible, set the <code>[[css/properties/visibility|visibility]]</code> property to <code>hidden</code>.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.
 }}{{CSS Property Value
 |Data Type=list-item
 |Description=Generates a block box for the content and a separate list-item. This is a basic value in CSS 1.
