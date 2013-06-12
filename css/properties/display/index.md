@@ -63,7 +63,7 @@
 |Description=Behaves like the <code>&#60;tr&#62;</code> HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table-row-group
-|Description=Behaves like the <code>&#60;tbody&#62;<code> HTML element. This is a table model value in CSS 2.1.
+|Description=Behaves like the <code>&#60;tbody&#62;</code> HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=flex
 |Description=Behaves like an block element for laying out content in the flexbox model. This is a flexbox model value in CSS3. See [[css/properties/flex|flex]].
