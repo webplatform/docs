@@ -45,7 +45,7 @@
 |Description=Behaves like the <code>&#60;caption&#62;</code> HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table-cell
-|Description=Behaves like the <code>&#60;td&#62;<./code> HTML element. This is a table model value in CSS 2.1.
+|Description=Behaves like the <code>&#60;td&#62;</code> HTML element. This is a table model value in CSS 2.1.
 }}{{CSS Property Value
 |Data Type=table-column
 |Description=Behaves like the <code>&#60;col&#62;</code> HTML element. This is a table model value in CSS 2.1.
