@@ -73,10 +73,16 @@
 }}{{CSS Property Value
 |Data Type=grid
 |Description=Behaves like a block element for laying out content in the grid model.
-Note: At the time of this writing, most modern browsers do not support this property. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
+: Note: At the time of this writing, most modern browsers do not support this property. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
 }}{{CSS Property Value
 |Data Type=inline-grid
 |Description=Behaves like an inline element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
+}}{{CSS Property Value
+|Data Type=run-in
+|Description=The behavior depends on the following conditions:
+:* If the run-in box contains a block box, same as block.
+:* If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
+:* If an inline box follows, the run-in box becomes a block box.
 }}
 }}
 {{Examples_Section
