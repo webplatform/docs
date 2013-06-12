@@ -199,12 +199,10 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{!}}-
 {{!}} inline-table {{!}}{{!}} table
 {{!}}-
-{{!}} inline, run-in, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
+{{!}} inline, run-in, table-row-group, table-column, <br />table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
 {{!}}-
 {{!}} others {{!}}{{!}} same as specified
 {{!}}}
-}}
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -531,4 +529,5 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
 }}
