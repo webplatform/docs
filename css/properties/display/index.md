@@ -514,18 +514,3 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-{{Notes_Section
-|Notes====Remarks===
-To render an element box's dimensions, yet have its contents be invisible, see the [[css/properties/visibility|visibility]] property.
-
-All visible HTML '''div''' object is a block element, and a '''span''' object is an inline element. Block elements typically start a new line and can contain other block elements and inline elements. Inline elements do not typically start a new line and can contain other inline elements or data. Changing the values for the '''display''' property affects the layout of the surrounding content by:
-*Adding a new line after the element with the value '''block'''.
-*Removing a line from the element with the value '''inline'''.
-*Hiding the data for the element with the value '''none'''.
-
-In contrast to the [[css/properties/visibility|visibility]] property, <code>display: none</code> reserves no space for the object on the screen.
-The <code>table-header-group</code> and <code>table-footer-group</code> values can be used to specify that the contents of the <code>thead</code> and <code>tfoot</code> elements are displayed on every page for a table that spans multiple pages.
-
-You can use <code>inline-block</code> to give an object a layout without specifying the object's height or width.
-
-The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
