@@ -529,15 +529,3 @@ The <code>table-header-group</code> and <code>table-footer-group</code> values c
 You can use <code>inline-block</code> to give an object a layout without specifying the object's height or width.
 
 The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
-
-===Rendering for floating or absolute positioned elements===
-{{{!}}
-! Specified value !! Computed value
-{{!}}-
-{{!}} inline-table {{!}}{{!}} table
-{{!}}-
-{{!}} inline, run-in, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
-{{!}}-
-{{!}} others {{!}}{{!}} same as specified
-{{!}}}
-}}
