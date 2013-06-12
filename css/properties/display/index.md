@@ -10,7 +10,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=As specified, except for root element, floated elements, and absolutely positioned elements
+|Computed value=As specified, except for root element, floated elements, and absolutely positioned elements (see below).
 |Animatable=No
 |CSS object model property=display
 |CSS percentages=N/A
@@ -187,6 +187,24 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 
 '''Experimental values'''
 *run-in
+|Notes='''Computed value and relationship between [[css/properties/display|display]], [[css/properties/position|position]], and [[css/properties/float|float]]'''
+* If 'display' has the value 'none', then 'position' and 'float' do not apply. In this case, the element generates no box.
+* Otherwise, if 'position' has the value 'absolute' or 'fixed', the box is absolutely positioned, the computed value of 'float' is 'none', and display is set according to the table below. The position of the box will be determined by the 'top', 'right', 'bottom' and 'left' properties and the box's containing block.
+* Otherwise, if 'float' has a value other than 'none', the box is floated and 'display' is set according to the table below.
+* Otherwise, if the element is the root element, 'display' is set according to the table below, except that it is undefined in CSS 2.1 whether a specified value of 'list-item' becomes a computed value of 'block' or 'list-item'.
+* Otherwise, the remaining 'display' property values apply as specified.
+
+{{{!}}
+! Specified value !! Computed value
+{{!}}-
+{{!}} inline-table {{!}}{{!}} table
+{{!}}-
+{{!}} inline, run-in, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption, inline-block {{!}}{{!}} block
+{{!}}-
+{{!}} others {{!}}{{!}} same as specified
+{{!}}}
+}}
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
