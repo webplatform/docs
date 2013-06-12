@@ -203,6 +203,9 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 {{!}}-
 {{!}} others {{!}}{{!}} same as specified
 {{!}}}
+
+'''Table-designated elements'''
+The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
