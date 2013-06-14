@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Grammar/Spelling, Compatibility Incomplete
+|Content=Grammar/Spelling, Compatibility Incomplete, Examples Errors
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -35,7 +35,11 @@ Possible values: auto/before-edge/alphabetic/after-edge
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=text-underline is actually (14.06.2013) not supported by any of listed new browsers (Chrome/FF/Opera/IE10)
+|LiveURL=http://code.webplatform.org/gist/5779274
+}}
 }}
 {{Notes_Section
 |Notes=The 'text-decoration' property has limitations stemming from its syntax, precluding fine control over each of those formatting effects. Specifically, it offers no way to control the color or line style of the underline, overline or line-through.
