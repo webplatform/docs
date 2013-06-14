@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property will set the underline style for text with a line value for underline, overline, and line-through.}}
+{{Summary_Section|After review this should be replaced by text-decoration should it not?
+
+This property will set the underline style for text with a line value for underline, overline, and line-through.
+}}
 {{CSS Property
 |Initial value=none
 |Applies to=All textual elements
