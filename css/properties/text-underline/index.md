@@ -9,7 +9,7 @@
 {{Summary_Section|The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.}}
 {{CSS Property
 |Initial value=not defined for shorthand properties
-|Applies to=all elements with and generated content with textual content
+|Applies to=all elements with textual content, including generated content
 |Inherited=No
 |Media=visual
 |Computed value=specified value (except for initial and inherit)
