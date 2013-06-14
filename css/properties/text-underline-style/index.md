@@ -15,20 +15,28 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
+|Description=This will produce no line.
 }}{{CSS Property Value
 |Data Type=solid
+|Description=This will produce a solid line.
 }}{{CSS Property Value
 |Data Type=double
+|Description=This will produce a double line.
 }}{{CSS Property Value
 |Data Type=dotted
+|Description=This will produce a dotted line.
 }}{{CSS Property Value
 |Data Type=dashed
+|Description=This will produce a dashed line
 }}{{CSS Property Value
 |Data Type=dot-dash
+|Description=This will produce a line that has a repeating pattern of a dot followed by a dash.
 }}{{CSS Property Value
 |Data Type=dot-dot-dash
+|Description=This will produce a line that has a repeating pattern of two dots followed by a dash.
 }}{{CSS Property Value
 |Data Type=wave
+|Description=This will produce a wavy line.
 }}
 }}
 {{Examples_Section
