@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Byline
 |Name=Avinash Zala
@@ -69,6 +70,7 @@ Other features may yield what are known as ''false positive'' results in some br
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
+|Android_version=1.5+
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
@@ -76,22 +78,27 @@ Other features may yield what are known as ''false positive'' results in some br
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18+
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=1
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=7.0+
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=8.65+
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
+|Opera_mini_version=3+
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=3.2+
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
