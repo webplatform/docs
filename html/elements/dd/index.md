@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -31,7 +32,9 @@
 &lt;/dl&gt;
 }}
 }}
-{{Notes_Section|}
+{{Notes_Section
+|Usage=Please add a section that deals with the default values that come with this element.  For instance, it is obvious that this element is indented, but do browsers automatically add padding, margin, or achieve the indent via some other mechanism? This is of course important because a person should know what codes to override if he wants to create a custom indent.
+|}
  ====Properties====
 The '''dd''' object has these properties.
 {
