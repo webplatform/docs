@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -38,6 +39,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=Please add a section that deals with the default values that come with this element.  For instance, it is obvious that this element is indented, but do browsers automatically add padding, margin, or achieve the indent via some other mechanism? This is of course important because a person should know what codes to override if he wants to create a custom indent.
 |Notes====Remarks===
 The [[html/attributes/type (ul,li,ol elements)|'''TYPE''']] attribute sets the list type for all ensuing lists unless a different type value is set.
 |Import_Notes====Standards information===
