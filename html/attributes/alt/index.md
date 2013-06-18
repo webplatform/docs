@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The "alt" property of images is used to specify a text replacement for graphics, to be displayed before loading has completed and in text-only browsers. The text also appears when the cursor hovers over a loaded image.}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLImageElement|HTMLImageElement]]
 |Property_applies_to=dom/HTMLElement
