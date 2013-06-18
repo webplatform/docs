@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Lightweight data interchange format that is useful for serializing data into a string.}}
 {{Concept_Page
 |Content='''JSON (JavaScript Object Notation)''' is designed to be a lightweight data interchange format. As its name implies, its syntax is based on a subset of the JavaScript programming language. However, it also shares some conventions with other languages, and is generally language-independent. JSON is useful for serializing data into a string, though it only can hold certain data types. All types are either data structures or values, and JSON inherits JavaScript's weak typing by allowing the use of different types in those structures.
 
