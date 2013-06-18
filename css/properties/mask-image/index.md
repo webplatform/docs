@@ -1,12 +1,12 @@
 {{Page_Title|Mask Images}}
 {{Flags
-|High-level issues=Undescriptive Title, Missing Relevant Sections
-|Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property sets the mask image(s) or the mask source of an element. Images are drawn such that the first one specified is on top (closest to the user) and each subsequent image is behind the previous one.}}
+{{Summary_Section|This property sets the mask image or the mask source of an element. Images are drawn such that the first one specified is on top (closest to the user) and each subsequent image is behind the previous one.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
