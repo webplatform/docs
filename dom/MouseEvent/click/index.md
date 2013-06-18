@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A mouse click event.}}
 {{Event
 |Event_applies_to=dom/Element
 |Interface=dom/objects/MouseEvent
