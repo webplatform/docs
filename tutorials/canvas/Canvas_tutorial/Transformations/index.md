@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
+|High-level issues=Undescriptive Title, Needs Topics
+|Content=Needs Summary
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -283,6 +285,7 @@ This method must reset the current transform to the identity matrix, and then in
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
