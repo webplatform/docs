@@ -1,27 +1,27 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first. }}
+{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=stretch
-|Description=The image is stretched to fill the area. 
+|Description=The image is stretched to fill the area.
 }}{{CSS Property Value
 |Data Type=repeat
 |Description=The image is tiled (repeated) to fill the area.
 }}{{CSS Property Value
 |Data Type=round
-|Description=The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the image is rescaled so that it does. 
+|Description=The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the image is rescaled so that it does.
 }}{{CSS Property Value
 |Data Type=space
-|Description=The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the extra space is distributed around the tiles. 
+|Description=The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the extra space is distributed around the tiles.
 }}
 }}
 {{Examples_Section
