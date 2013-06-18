@@ -25,3 +25,7 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Example}}
+Mouse Events:
+onclick event --
+<button onclick="console.log("Hello World");">Button</button> // logs "Hello World" in the console when button is clicked
