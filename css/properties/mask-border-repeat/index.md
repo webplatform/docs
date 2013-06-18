@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Unreviewed Import
+|Content=Incomplete, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first.}}
+{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
