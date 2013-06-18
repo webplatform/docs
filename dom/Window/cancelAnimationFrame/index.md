@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Non-Standard}}
@@ -42,6 +43,7 @@ This method does not return a value.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Animation
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/window|window]]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}258428 requestAnimationFrame API demo]</code>
