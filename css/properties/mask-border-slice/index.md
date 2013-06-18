@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Unreviewed Import
+|Content=Incomplete, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -15,7 +15,7 @@ When four values are specified, they set the offsets on the top, right, bottom a
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=length
-|Description=all <length>s made absolute, otherwise as specified
+|Description=All <length>s made absolute, otherwise as specified
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=Percentages refer to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets.
