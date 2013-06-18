@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The audio object is part of the HTML5 audio api. It extends the <audio> tag and allows users to access audio data. This enables the ability to process or create new audio data.}}
+{{Summary_Section|The audio object is part of the HTML5 audio api. It extends the <audio> tag and allows users to access audio data. This enables the ability to manipulate or create new audio data.}}
 {{API_Object
 |Subclass_of=dom/HTMLAudioElement
 }}
