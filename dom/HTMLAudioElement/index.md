@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The HTML <audio> element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a <source> element. There is also a fallback option for browsers which do not support this tag.}}
+{{Summary_Section|The HTML <audio> element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.}}
 {{API_Object
 |Subclass_of=dom/HTMLMediaElement
 }}
