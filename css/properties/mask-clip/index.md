@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
-|Content=Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
 |Checked_Out=Yes
 }}
 {{Standardization_Status}}
