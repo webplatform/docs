@@ -2,11 +2,12 @@
 {{Flags
 |High-level issues=Data Not Semantic
 |Content=Cleanup
+|Checked_Out=No
 }}
 {{Byline
 |Published=Aug. 5, 2011
 }}
-{{Summary_Section}}
+{{Summary_Section|This document gives an overview of the "internal browser operations and justifications behind development best practices." }}
 {{Tutorial
 |Content=By Tali Garsiel & Paul Irish
 
@@ -1110,6 +1111,7 @@ Although the red div precedes the green one in the markup, and would have been p
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
