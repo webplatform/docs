@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
+|High-level issues=Undescriptive Title
+|Content=Needs Summary
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -363,6 +365,7 @@ function roundedRect(ctx,x,y,width,height,radius){
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
