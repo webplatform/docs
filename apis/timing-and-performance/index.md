@@ -1,8 +1,8 @@
 {{Page_Title|Timing and performance}}
 {{Flags
-|High-level issues=Stub, Undescriptive Title, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Stub, Undescriptive Title, Missing Relevant Sections, Data Not Semantic, Needs Review
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Summary_Section}}
 {{Basic Page}}
@@ -26,11 +26,8 @@
 |}
  
  
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_timing\ie]:%20Timing and Performance APIs%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
 }}
-{{Topics|Performance, Timing}}
+{{Topics|API, Performance, Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
