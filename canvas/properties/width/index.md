@@ -2,13 +2,14 @@
 {{Flags
 |High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes={{Editorial/Move_Candidate
 | Probably should be under HTML5 canvas element. See [http://www.w3.org/html/wg/drafts/html/master/single-page.html#the-canvas-element HTML5 specification].
 }}
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Height property of canvas element.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLCanvasElement
 |Read_only=No
