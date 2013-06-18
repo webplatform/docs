@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Needs Summary
 |Checked_Out=No
 }}
