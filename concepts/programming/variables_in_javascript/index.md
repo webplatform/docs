@@ -1,8 +1,9 @@
 {{Page_Title|Variables in JavaScript}}
 {{Flags
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|JavaScript recognizes values such as integers and strings, which are represented with symbolic names by which they are referenced in the source code. Each variable is associated with a data type and has a scope, or area in which it is valid.}}
 {{Concept_Page
 |Content=This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
 
