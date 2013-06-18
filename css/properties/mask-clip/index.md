@@ -2,11 +2,11 @@
 {{Flags
 |High-level issues=Needs Flags, Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
 |Content=Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Determines the mask painting area, which determines the area that is affected by the mask. The painted content of an element may be resricted to this area. }}
+{{Summary_Section|Determines the mask painting area, which determines the area that is affected by the mask. The painted content of an element may be resricted to this area.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
