@@ -1,9 +1,10 @@
 {{Page_Title|Definitions / Types of disability}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The following article will list the disabilities that will affect their experience on the web.  }}
 {{Concept_Page}}
 {{Examples_Section
 |Not_required=No
