@@ -1,5 +1,7 @@
 {{Page_Title|JSON.parse}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Parse a JSON string to a JavaScript object.}}
@@ -16,7 +18,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=var json = '{"result":true,"count":1}',
+    obj = JSON && JSON.parse(json) || $.parseJSON(json);
+}}
 }}
 {{Notes_Section
 |Notes=This method will throw an error if the argument is not a valid JSON string. You should wrap the parse call in a try/catch block.
