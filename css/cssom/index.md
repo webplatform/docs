@@ -1,11 +1,16 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Listing
-|Use_page_title=No
+{{Summary_Section|cssom (CSS Object Model) defines APIs for Media Queries, Selectors, and of course CSS itself. APIs include generic parsing and serialization rules.}}
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
+}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
