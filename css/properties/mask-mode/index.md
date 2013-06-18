@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ‘mask-source-type’ property indicates whether the <mask-reference> is treated as luminescence mask or alpha mask. }}
+{{Summary_Section|The ‘mask-source-type’ property indicates whether the <mask-reference> is treated as a luminescence mask or a alpha mask.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
