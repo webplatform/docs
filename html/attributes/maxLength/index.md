@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This article outlines the HTML attribute "maxlength," which ensures the number of characters entered in an HTML element is not greater than the value specified by this attribute.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
@@ -72,6 +73,7 @@ The '''maxLength''' property limits the number of characters the user can enter.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>input type{{=}}text</code>
 *<code>input type{{=}}password</code>
