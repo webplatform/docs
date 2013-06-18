@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|This specification provides an API for representing file objects in web applications, as well as programmatically selecting them and accessing their data.}}
 {{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
