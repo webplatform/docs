@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Needs Summary
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
