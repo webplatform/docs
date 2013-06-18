@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Mask Images }}
 {{Flags
 |High-level issues=Undescriptive Title, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
