@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The HTML <video> element is used to embed video content in an HTML or XHTML document.}}
 {{API_Object
 |Subclass_of=dom/HTMLElement
 }}
