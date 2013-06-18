@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Errors
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Errors
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies an image to be used as mask. If the value is ‘none’ or if the image cannot be displayed (or the property doesn't apply), the content won't get masked. }}
+{{Summary_Section|Specifies an image to be used as mask. If the value is "none", the image cannot be displayed, or the property doesn't apply, the content will not be masked.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
