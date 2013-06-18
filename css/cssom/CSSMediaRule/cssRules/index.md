@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections
+|High-level issues=Stub, Undescriptive Title, Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete, Examples Needed, Accessibility
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -29,6 +31,7 @@ A list of all of the rules within the media block.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
