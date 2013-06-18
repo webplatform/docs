@@ -1,7 +1,7 @@
-{{Page_Title|Timing and performance}}
+{{Page_Title|Timing and performance standards supported by Internet Explorer and Metro style apps}}
 {{Flags
-|High-level issues=Stub, Undescriptive Title, Missing Relevant Sections, Data Not Semantic, Needs Review
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Stub, Undescriptive Title, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Summary_Section}}
@@ -27,7 +27,7 @@
  
  
 }}
-{{Topics|API, Performance, Timing}}
+{{Topics|Performance, Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
