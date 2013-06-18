@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Missing Relevant Sections, Data Not Semantic
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic, Needs Review
+|Content=Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -8,9 +10,12 @@
 
 Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on some form elements), or the position of the mouse (like :hover which lets you know if the mouse is over an element or not).
 }}
-{{API_Listing
-|Query=[[Topic_Cluster::Pseudo-Classes]]
+{{API_Listing|Query=[[Topic_Cluster::Pseudo-Classes]]
 |Use_page_title=Yes
+|List_all_subpages=No
+}}
+{{Concept_Listing
+|Use_page_title=No
 |List_all_subpages=No
 }}
 {{Notes_Section}}
