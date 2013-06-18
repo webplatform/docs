@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Accessibility, Needs Summary
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Accessibility, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -14,7 +14,12 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=img {
+  mask: url(#masking);
+}
+}}{{Single Example}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
