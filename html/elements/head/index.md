@@ -1,7 +1,8 @@
 {{Page_Title|head}}
 {{Flags
-|High-level issues=Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Data Not Semantic, Unreviewed Import
 |Content=Cleanup
+|Checked_Out=No
 }}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
@@ -505,7 +506,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure
+|Topic_clusters=Document Structure, HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
