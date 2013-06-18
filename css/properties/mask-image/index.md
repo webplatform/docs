@@ -27,8 +27,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Background, Border, CSS Attributes
+}}
+{{Topics|CSS, Graphics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
