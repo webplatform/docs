@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This article outlines the HTML attribute "size", which allows the user to specify a width in characters of an <input> element.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 |Content=The size attribute specifies the visible width, in characters, of an <input> element.
@@ -23,7 +24,6 @@ Tip: To specify the maximum number of characters allowed in the <input> element,
   PIN: <input type="text" name="pin" maxlength="4" size="4"><br>
   <input type="submit" value="Submit">
 </form>
-
 }}
 }}
 {{Notes_Section
@@ -37,11 +37,13 @@ Tip: To specify the maximum number of characters allowed in the <input> element,
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Fonts, HTML, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>baseFont</code>
 *<code>font</code>
