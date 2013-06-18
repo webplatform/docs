@@ -9,7 +9,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Height property of canvas element.}}
+{{Summary_Section|Width property of canvas element.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLCanvasElement
 |Read_only=No
