@@ -1,6 +1,6 @@
 {{Page_Title|Mask Images}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
+|High-level issues=Undescriptive Title, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
@@ -30,7 +30,7 @@
 {{See_Also_Section
 |Topic_clusters=Background, Border, CSS Attributes
 }}
-{{Topics|CSS, Graphics}}
+{{Topics|CSS, Design, Graphics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
