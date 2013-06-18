@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Stub
+|High-level issues=Stub, Missing Relevant Sections, Needs Review
+|Content=Incomplete, Examples Needed, Needs Summary
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,6 +20,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
