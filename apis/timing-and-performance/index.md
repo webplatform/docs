@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Stub, Undescriptive Title, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section}}
 {{Basic Page}}
