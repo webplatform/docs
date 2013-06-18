@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
+|High-level issues=Undescriptive Title, Needs Flags, Missing Relevant Sections
+|Content=Examples Best Practices, Needs Summary
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -266,6 +268,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
