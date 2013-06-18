@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Grammar/Spelling, Cleanup, Examples Needed, Needs Summary
+|Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
