@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
-|Content=Not Neutral
+|High-level issues=Needs Flags, Missing Relevant Sections
+|Content=Not Neutral, Grammar/Spelling, Needs Summary
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -487,6 +488,7 @@ This example draws a text string with a shadowing effect.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
