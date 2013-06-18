@@ -6,10 +6,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The values specify the amount by which the mask box image area extends beyond the border box. If it has four values, they set the outsets on the top, right, bottom and left sides in that order. If the left is missing, it is the same as the right; if the bottom is missing, it is the same as the top; if the right is missing, it is the same as the top. 
+{{Summary_Section|The values specify the amount image area of the mask box extends beyond the border box. If it has four values, they set the outsets on the top, right, bottom and left sides in that order. If the left is missing, it is the same as the right; if the bottom is missing, it is the same as the top; if the right is missing, it is the same as the top. 
 
 As with ‘mask-box-image-width’, a <number> represents a multiple of the corresponding ‘border-width’. Negative values are not allowed for any of the ‘mask-box-image-outset’ values.
- 
 }}
 {{CSS Property
 |Inherited=No
