@@ -2,12 +2,12 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies how mask images are tiled after they have been sized and positioned. Where 
-<repeat-style> = repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2}
+{{Summary_Section|repeat-y|Specifies how mask images are tiled after they have been sized and positioned_ Where 
+<repeat-style>=repeat-x
 }}
 {{CSS Property
 |Inherited=No
