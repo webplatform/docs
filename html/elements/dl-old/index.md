@@ -19,13 +19,39 @@ The items should always be placed before the descriptions.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''DL''' element with the '''DD''' and '''DT''' elements to create a definition list.
-|Code=&lt;DL&gt;
-&lt;DT&gt;Cat
-&lt;DD&gt;A small domesticated mammal.
-&lt;DT&gt;Lizard
-&lt;DD&gt;A reptile generally found in dry areas.
-&lt;/DL&gt;
+|Language=HTML
+|Description=Three different description list examples:
+* The first is a simple example with two item/description pairs.
+* The second shows an example with a single item but multiple descriptions for that item.
+* The third shows an example with a single description and multiple items fitting that description.
+|Code=<h2>Simple description list</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dt>Coca Cola</dt>
+  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
+</dl>
+
+<h2>One item, several descriptions</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dd>A mid brown colour</dd>
+  <dd>A common social invitation</dd>
+</dl>
+
+<h2>One description, several items</h2>
+
+<dl>
+  <dt>Coffee</dt>
+  <dt>Tea</dt>
+  <dt>Vimto (in the North of England)</dt>
+  <dd>A popular hot drink.</dd>
+</dl>
+
+|LiveURL=http://code.webplatform.org/gist/5821157
 }}
 }}
 {{Notes_Section
@@ -781,8 +807,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/dl
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
