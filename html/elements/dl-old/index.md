@@ -50,12 +50,20 @@ The items should always be placed before the descriptions.
   &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
   &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
 &lt;/dl&gt;
-
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Usage=* A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
+
+|Notes====Browser defaults===
+
+* The <code>&lt;dl&gt;</code> element has a small amount of top and bottom margin applied to it by default, usually around 16px.
+* Each <code>&lt;dd&gt;</code> element has a fairly large left margin applied to it to give it an indent. This is usually around 40px.
+
+===Remarks===
+
+* In HTML 4 and below, description lists were called definition lists. HTML5  renamed them to description lists. For a discussion of why, read http://html5doctor.com/the-dl-element/.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.3
@@ -791,7 +799,7 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
