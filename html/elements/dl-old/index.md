@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''dl''' element (&lt;dl&gt;) is used to define a ''definition list''. It encloses a list of definition items which consist of two parts, a term ([[html/elements/dt|&lt;dt&gt;]]) and a description ([[html/elements/dd|&lt;dd&gt;]]).}}
+{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one of more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
