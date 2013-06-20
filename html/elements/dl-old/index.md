@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one of more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
+{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 |Content=It is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
@@ -790,7 +790,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[dom/properties/uniqueNumber{{!}}'''uniqueNumber''']]
 {{!}}Retrieves the element's unique number.
 {{!}}}
- 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
