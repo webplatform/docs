@@ -45,11 +45,7 @@ Outlines differ from [[css/properties/border|borders]] in the following ways:
 |LiveURL=http://code.webplatform.org/gist/5546931
 }}{{Single Example
 |Language=CSS
-|Code=/**
- * outline example
- */
-
-.one {
+|Code=.one {
 	/* The most basic border example you can show. */ 
 	outline: 1px solid #000; 
 }
