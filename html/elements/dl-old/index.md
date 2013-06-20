@@ -24,32 +24,32 @@ The items should always be placed before the descriptions.
 * The first is a simple example with two item/description pairs.
 * The second shows an example with a single item but multiple descriptions for that item.
 * The third shows an example with a single description and multiple items fitting that description.
-|Code=<h2>Simple description list</h2>
+|Code=&lt;h2&gt;Simple description list&lt;/h2&gt;
 
-<dl>
-  <dt>Coffee</dt>
-  <dd>A popular hot drink.</dd>
-  <dt>Coca Cola</dt>
-  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
-</dl>
+&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dt&gt;Coca Cola&lt;/dt&gt;
+  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
+&lt;/dl&gt;
 
-<h2>One item, several descriptions</h2>
+&lt;h2&gt;One item, several descriptions&lt;/h2&gt;
 
-<dl>
-  <dt>Coffee</dt>
-  <dd>A popular hot drink.</dd>
-  <dd>A mid brown colour</dd>
-  <dd>A common social invitation</dd>
-</dl>
+&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
+  &lt;dd&gt;A common social invitation&lt;/dd&gt;
+&lt;/dl&gt;
 
-<h2>One description, several items</h2>
+&lt;h2&gt;One description, several items&lt;/h2&gt;
 
-<dl>
-  <dt>Coffee</dt>
-  <dt>Tea</dt>
-  <dt>Vimto (in the North of England)</dt>
-  <dd>A popular hot drink.</dd>
-</dl>
+&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dt&gt;Tea&lt;/dt&gt;
+  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+&lt;/dl&gt;
 
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}
