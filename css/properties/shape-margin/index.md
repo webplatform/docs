@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property adds a margin to a shape-outside.}}
+{{Summary_Section|This property adds a margin to a shape created using the [[css/properties/shape-outside|shape-outside]] property.}}
 {{CSS Property
 |Initial value=0
 |Applies to=floats
@@ -23,7 +23,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=This property takes on positive values only.
+|Notes=The specified <length> must be a positive value.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,7 +44,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=[[css/properties/shape-outside|shape-outside property]]
+|Manual_links=* [[css/properties/shape-outside|shape-outside]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
