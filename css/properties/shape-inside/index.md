@@ -2,9 +2,9 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Working Draft <http://www.w3.org/TR/css-shapes/#shapes>}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
@@ -26,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
