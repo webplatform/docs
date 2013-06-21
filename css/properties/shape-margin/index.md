@@ -1,14 +1,21 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The ‘shape-margin’ property adds a margin to a shape-outside. This defines a new shape where every point is the specified distance from the shape-outside. This property takes on positive values only.}}
 {{CSS Property
+|Initial value=0
+|Applies to=floats
 |Inherited=No
+|Media=visual
+|Computed value=the absolute length
 |Animatable=No
-|Values=
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=<length>
+}}
 }}
 {{Examples_Section
 |Not_required=No
