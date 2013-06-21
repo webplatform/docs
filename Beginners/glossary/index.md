@@ -25,6 +25,8 @@ The horizontal or vertical positioning of an element. Typical horizontal alignme
 <dd>Used to describe fonts that have a decorative, often handwritten-looking style</dd>
 <dt>DNS (Domain Name Server):</dt>
 <dd> This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</dd>
+<dt>DOM</dt>
+<dd>The Document Object Model (DOM) is an application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure.</dd>
 <dt>Element:</dt>
 <dd>Any basic part or definition, the first part between the opening &#60;brackets&#62;.</dd>
 <dt>Entity:</dt>
