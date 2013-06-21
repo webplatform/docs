@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property defines the float area for a float. }}
+{{Summary_Section|Wrap text around a given shape using floats.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=floats
