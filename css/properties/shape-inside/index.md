@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Working Draft <http://www.w3.org/TR/css-shapes/#shapes>}}
+{{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Working Draft <http://www.w3.org/TR/css-shapes/>}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
