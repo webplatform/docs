@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines the alpha channel threshold used to extract a shape using an image.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
@@ -26,7 +26,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
