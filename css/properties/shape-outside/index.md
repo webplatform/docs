@@ -26,7 +26,37 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<div style="text-align:center;">
+      <div id="float-left"></div>
+      <div id="float-right"></div>
+      <div>
+      Sometimes a web page's text content appears to be
+      funneling your attention towards a spot on the page
+      to drive you to follow a particular link.  Sometimes
+      you don't notice.
+      </div>
+</div>
+
+<!-- create the left float and right float triangle shapes -->
+<style type="text/css">
+#float-left {
+      shape-outside: polygon(0,0 100%,100% 0,100%);
+      float: left;
+      width: 40%;
+      height: 12ex;
+  }
+
+#float-right {
+      shape-outside: polygon(100%,0 100%,100% 0,100%);
+      float: right;
+      width: 40%;
+      height: 12ex;
+  }
+  </style>
+</div>
+}}
 }}
 {{Notes_Section
 |Notes=Shapes are declared with the ‘shape-outside’ property, with possible modifications from the ‘shape-margin’ property. The shape defined by the ‘shape-outside’ and ‘shape-margin’ properties changes the geometry of a float element's float area.
