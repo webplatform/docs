@@ -48,7 +48,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=See also: [[css/properties/shape-margin|shape-margin]] property
+|Manual_links=See also: [[css/properties/shape-margin|shape-margin]] property
 }}
 {{Topics|CSS}}
 {{External_Attribution
