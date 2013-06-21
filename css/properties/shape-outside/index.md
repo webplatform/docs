@@ -2,9 +2,9 @@
 {{Flags
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Shapes define arbitrary geometric contours around which inline content flows. The shape-outside property defines the float area for a float.}}
+{{Summary_Section|This property defines the float area for a float. }}
 {{CSS Property
 |Initial value=auto
 |Applies to=floats
@@ -26,13 +26,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=This is a working example pulled from the Editor's Draft.
+|LiveURL=http://code.webplatform.org/gist/5832982
 }}
-{{Notes_Section
-|Notes=Shapes are declared with the ‘shape-outside’ property, with possible modifications from the ‘shape-margin’ property. The shape defined by the ‘shape-outside’ and ‘shape-margin’ properties changes the geometry of a float element's float area.
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=http://dev.w3.org/csswg/css-shapes/
+|Status=Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -42,7 +47,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
