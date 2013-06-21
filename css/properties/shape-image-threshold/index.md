@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -39,7 +40,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=See also: [[css/properties/shape-outside|shape-outside]] property
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
