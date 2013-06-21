@@ -1,9 +1,10 @@
 {{Page_Title|Mobile-friendly web design and development overview}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Mobile friendly: web design and development Overview (start with a basis of semantic HTML, accessibility best practices are Making an app or site mobile friendly - do you create a different site, or do you adapt your existing site for mobile? A brief introduction to Adaptive design - graceful degradation, progressive enhancement, using media queries and viewport to adapt layout, using feature detection to server appropriate content and services, geolocation, multimedia, offline apps, don't use browser sniffing!) A lot of this will be covered elsewhere.}}
+{{Summary_Section|Mobile friendly: web design and development Overview (start with a basis of semantic HTML, accessibility best practices are Making an app or site mobile friendly. Do you create a different site, or do you adapt your existing site for mobile? A brief introduction to Adaptive design - graceful degradation, progressive enhancement, using media queries and viewport to adapt layout, using feature detection to server appropriate content and services, geolocation, multimedia, offline apps, don't use browser sniffing!) A lot of this will be covered elsewhere.}}
 {{Concept_Page}}
 {{Examples_Section
 |Not_required=Yes
