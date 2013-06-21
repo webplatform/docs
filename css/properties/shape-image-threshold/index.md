@@ -6,9 +6,16 @@
 {{API_Name}}
 {{Summary_Section|Defines the alpha channel threshold used to extract a shape using an image.}}
 {{CSS Property
+|Initial value=<alphavalue>
+|Applies to=floats
 |Inherited=No
+|Media=visual
 |Animatable=No
-|Values=
+|CSS percentages=alpha channel of the image specified by <uri>
+|Values={{CSS Property Value
+|Data Type=<alphavalue>
+|Description=A <number> value used to set the threshold used for extracting a shape from an image. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +23,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=http://dev.w3.org/csswg/css-shapes/#shape-image-threshold-property
+|Status=Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
