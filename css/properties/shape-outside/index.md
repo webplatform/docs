@@ -47,7 +47,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=See also: [[css/properties/shape-margin|shape-margin]] property
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
