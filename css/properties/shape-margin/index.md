@@ -44,7 +44,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=[[css/properties/shape-outside]]
+|External_links=[[css/properties/shape-outside|shape-outside property]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
