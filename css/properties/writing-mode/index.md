@@ -2,15 +2,20 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=horizontal-tb
+|Applies to=All elements except table row groups, table column groups, table rows, and table columns
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=writingMode
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=lr-tb
 |Description=Default. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
@@ -90,7 +95,11 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 <code>'''-ms-writing-mode: '''lr-tb '''{{!}}''' rl-tb '''{{!}}''' tb-rl '''{{!}}''' bt-rl '''{{!}}''' tb-lr '''{{!}}''' bt-lr '''{{!}}''' lr-bt '''{{!}}''' rl-bt '''{{!}}''' lr '''{{!}}''' rl '''{{!}}''' tb</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Writing Modes Module Level 3
+|URL=http://www.w3.org/TR/css3-writing-modes/#writing-mode
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -121,8 +130,8 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Topic_clusters=CSS Layout
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
