@@ -19,7 +19,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=Example from Editor's Draft
+|LiveURL=http://code.webplatform.org/gist/5833790
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
