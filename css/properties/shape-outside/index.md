@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Test}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
