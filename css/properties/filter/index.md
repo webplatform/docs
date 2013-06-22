@@ -52,7 +52,7 @@
     &lt;div class=&quot;foo baz&quot;&gt;&lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-|LiveURL=http://codepen.io/pverbeek/pen/etIyE
+|LiveURL=http://code.webplatform.org/gist/5842451
 }}
 }}
 {{Notes_Section
