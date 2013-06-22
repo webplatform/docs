@@ -8,9 +8,9 @@
 {{API_Name}}
 {{Summary_Section|Controls the visibility of an element. The <code>hidden</code> value hides an element but leaves space where it would have been.}}
 {{CSS Property
-|Initial value=visible
+|Initial value=inherit
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
 |Animatable=Yes
 |Values={{CSS Property Value
