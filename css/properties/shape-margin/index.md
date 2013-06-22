@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=the absolute length
 |Animatable=Yes
+|CSS object model property=shapeMargin
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<length>
@@ -30,6 +31,7 @@ shape-margin: 10px;
 }}
 }}
 {{Notes_Section
+|Usage=Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
 |Notes=The specified <length> must be a positive value.
 }}
 {{Related_Specifications_Section
