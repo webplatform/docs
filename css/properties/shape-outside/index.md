@@ -4,7 +4,7 @@
 |Content=Incomplete, Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Wrap text around a given shape using floats.}}
 {{CSS Property
