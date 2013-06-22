@@ -1,20 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Needs Review
+|Content=Incomplete, Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the type of quotation marks for embedded quotations.}}
 {{CSS Property
+|Initial value=depends on user agent
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<string>
-|Description=The "open-quote" and "close-quote" values are taken from the specified list of pairs of quotation marks.
+|Data Type=[&lt;string&gt;  &lt;string&gt;]+
+|Description=The "open-quote" and "close-quote" values are taken from the specified list of pairs of quotation marks. The first (leftmost) pair represents the outermost level of quotation, the second pair the first level of embedding, etc.
 }}{{CSS Property Value
 |Data Type=none
 |Description=The "open-quote" and "close-quote" values produce no quotation marks.
@@ -22,11 +24,30 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=8"/&gt;
+    &lt;title&gt;QUOTES Example&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+    /* Define quote characters */
+      q { quotes: '"' '"' }
+    /* Define pseudo-class triggers */
+      q:before { content: open-quote }
+      q:after  { content: close-quote }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;p&gt;&lt;q&gt;When I die, I'm donating my body to science fiction.&lt;/q&gt;&lt;em&gt; ~ Stephen Wright&lt;/em&gt;&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://code.webplatform.org/gist/5841933
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
-IE8 Standards mode rendering is required.
 Pairs of strings are required if the value is not <code>none</code>.
 |Import_Notes====Syntax===
 <code>'''quotes: ''''''[''' &lt;string&gt; &lt;string&gt; ''']''''''+''' '''{{!}}''' none</code>
