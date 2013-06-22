@@ -15,10 +15,10 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=top
-|Description=For horizontal tables (in horizontal writing modes), the caption is placed above the table. Not supported for vertical tables (in vertical writing modes).
+|Description=Positions the caption box above the table box.
 }}{{CSS Property Value
 |Data Type=bottom
-|Description=For horizontal tables, the caption is placed below the table. Not supported for vertical tables.
+|Description=Positions the caption box below the table box.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
