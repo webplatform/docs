@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=see padding-bottom
 }}
@@ -29,11 +28,10 @@
 |Language=CSS
 |Description=The following examples use the <code>padding-left</code> property to change the [[css/properties/padding|padding]] of the elements.
 |Code=h1 { padding-left: 5%; }
-p { padding-left: 10px; }
+
 }}{{Single Example
-|Language=HTML
-|Code=&lt;h1&gt;Hey there&lt;/h1&gt;
-&lt;p&gt;I think you are awesome!&lt;/p&gt;
+|Language=CSS
+|Code=p { padding-left: 10px; }
 }}
 }}
 {{Notes_Section
