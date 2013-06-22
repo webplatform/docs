@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=cut/paste samples to new dabblet
  remove ===Syntax=== vestige from conversion
@@ -34,6 +33,7 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 |Description=Padding set at 5% for all 4 sides.
 |Code=padding: 5% 5% 5% 5%; 
       /*  top, right, bottom, and left padding set at 5%   */
+|LiveURL=http://code.webplatform.org/gist/5842631
 }}{{Single Example
 |Language=CSS
 |Description=The padding style has three values. The left padding value is the inferred by the right padding value.
