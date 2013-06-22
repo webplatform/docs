@@ -29,7 +29,6 @@
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
-      &lt;meta http-equiv="X-UA-Compatible" content="IE=8"/&gt;
     &lt;title&gt;QUOTES Example&lt;/title&gt;
     &lt;style type="text/css"&gt;
     /* Define quote characters */
@@ -49,9 +48,7 @@
 {{Notes_Section
 |Notes====Remarks===
 Pairs of strings are required if the value is not <code>none</code>.
-|Import_Notes====Syntax===
-<code>'''quotes: ''''''[''' &lt;string&gt; &lt;string&gt; ''']''''''+''' '''{{!}}''' none</code>
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.3
 }}
 {{Related_Specifications_Section
