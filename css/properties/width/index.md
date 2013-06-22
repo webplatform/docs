@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -52,32 +50,63 @@ h1 { width: 20em }
 section { width: auto }
 img { width: 100px }
 }}{{Single Example
-|Language=CSS
-|Description=Example using new values that are part of the CSS Basic Box Model that is currently in working draft.  Use a background or border so you can see how the width changes depending on the value used
-|Code=div {
-width: 75%;
+|Language=HTML
+|Description=Example using new values that are part of the CSS Basic Box Model that is currently in working draft.
+|Code=&lt;style&gt;
+/* Width values of the CSS Box Model working draft */
+
+div {
+	box-sizing: border-box;
+	border: 1px solid #444;
+	width: 350px;
+	margin: 5px;
 }
 
 p {
-background: #000; 
-
-/* comment out one and uncomment another to see changes
-width: -webkit-min-content; /* vendor prefix needed */
-/*width: -webkit-max-content; */
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	font-family: Arial, sans-serif;
 }
-|LiveURL=https://gist.github.com/5702862/f027736984a723b202c20218cf7c675c1ed40c7b
+
+p.mincontent {
+	/* vendor prefix needed */
+	width: -webkit-min-content;
+}
+
+p.maxcontent {
+	/* vendor prefix needed */
+	width: -webkit-max-content;
+} 
+
+p.fitcontent {
+	/* vendor prefix needed */
+	width: -webkit-fit-content;
+}
+&lt;/style&gt;
+
+&lt;div&gt;
+&lt;p&gt;This is the content inside of the parent div.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;p class="mincontent"&gt;This is the content inside of the parent div.&lt;/p&gt;
+&lt;p class="mincontent"&gt;Min-content matches the widest single word like "Antidisestablishmentarianism".&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;p class="maxcontent"&gt;This is the content inside of the parent div. Max-content expands to fit the content.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;p class="fitcontent"&gt;This fits the content inside of the parent div.&lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5702862
 }}
 }}
 {{Notes_Section
 |Usage====Newer Values===
 In the CSS Basic Box Model Working Draft, the values max-content, min-content, available, fit-content, border-box, and content-box were added. It would be a best practice to add the vendor prefix to these until the values are standardized.
-|Notes====Remarks===
-As of Microsoft Internet Explorer 6, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property specifies the distance between the left and right edges of the content box—that is, within the [[css/properties/padding|'''padding''']].
-When the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, this property includes the object's content box, plus the values of the following properties:  [[css/properties/border-left|'''border-left''']], [[css/properties/border-right|'''border-right''']], [[css/properties/padding-left|'''padding-left''']], and [[css/properties/padding-right|'''padding-right''']].  Subtracting the sum of the values of these properties from the value of the '''width''' property equals the width of the parent object's content box.
-To perform operations on the numeric value of this property, use [[css/cssom/properties/pixelWidth|'''pixelWidth''']] or [[css/cssom/properties/posWidth|'''posWidth''']].
-For more information about how to access the dimension and location of elements on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes====Syntax===
-<code>width: [<length> &#124; <percentage>] &amp;&amp; [border-box &#124; content-box] &#63; &#124; available &#124; min-content &#124; max-content &#124; fit-content &#124; auto</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
