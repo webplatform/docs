@@ -80,11 +80,7 @@ Only the topmost elements will receive action from a pointing device such as a m
 *The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
 *The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
 
-As of Windows Internet Explorer 7, the '''select''' property is windowless and can make use of the '''z-index''' attribute and the '''z-index''' property.
 
-Windows Internet Explorer 8 and later. When you access a property that has not been explicitly set, Internet Explorer returns the default value of the property. The default value of the '''z-index''' property for the [[css/cssom/currentStyle|'''currentStyle''']] object depends on the document compatibility mode used to display the Web page. When a page is displayed in IE8 Standards mode, the default value is <code>auto</code>. The default value is <code>0</code> in IE7 Standards mode and an empty string (<code>""</code>) in IE5 (Quirks) mode. Applications that rely on specific default values for the '''z-index''' property of the '''currentStyle''' object should be modified to take the document compatibility mode into account.
-You can use the '''z-index''' property on Grid items.
-While the '''z-index''' property normally only applies to objects that have the [[css/properties/position|'''position''']] property not set to '''static''', the '''z-index''' property applies to Grid items even when the '''position''' property is set to '''static'''.
 |Import_Notes====Syntax===
 <code>'''z-index: '''auto '''{{!}}''' ''order''</code>
 }}
