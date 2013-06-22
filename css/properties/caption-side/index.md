@@ -68,15 +68,13 @@ attributes. This caption is also placed above its associated table.
 }}
 {{Notes_Section
 |Notes====Remarks===
-The supported possible values for '''caption-side''' depend on the orientation of the table. Horizontal tables ([[css/properties/writing-mode|'''-ms-writing-mode''']] set to <code>lr-*</code> or <code>rl-*</code>) support the <code>top</code> and <code>bottom</code> values. Vertical tables ('''-ms-writing-mode''' set to <code>tb-*</code> or <code>bt-*</code>) support the <code>left</code> and <code>right</code> values.
-Using an unsupported value for this property (for instance, <code>left</code> on a caption for a horizontal table) will cause the caption to appear at the "logical top" of the table. The logical top of a table depends on the writing mode of the text, and is parallel to and immediately precedes the first line of text in a table.
-Captions placed to the left or right of the table are not rotated so as to be read vertically. To do this, use the Rotation property of the BasicImage filter (Windows Internet Explorer only).
+The supported possible values for '''caption-side''' depend on the orientation of the table.  Horizontal tables support the top and bottom values. Vertical tables support the left and right values. Using an unsupported value for this property (for instance, <code>left</code> on a caption for a horizontal table) will cause the caption to appear at the "logical top" of the table. The logical top of a table depends on the writing mode of the text, and is parallel to and immediately precedes the first line of text in a table.
+Captions placed to the left or right of the table are not rotated so as to be read vertically. 
 This style attribute can be applied to any element with a
 [[css/properties/display|'''display''']]
 style of
 '''table-caption'''.
-This property requires Internet Explorer to be in
-IE8 Standards mode rendering.
+
 |Import_Notes====Syntax===
 <code>'''caption-side: '''top '''{{!}}''' bottom</code>
 ===Standards information===
