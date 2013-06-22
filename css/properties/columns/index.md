@@ -2,23 +2,24 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Shorthand property for setting [[css/properties/column-width|'''column-width''']] and [[css/properties/column-count|'''column-count''']]}}
+{{Summary_Section|This property describes the width of columns in multicolumn elements.}}
 {{CSS Property
-|Initial value=(see individual properties)
+|Initial value=auto
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
 |Inherited=No
 |Media=visual
+|Computed value=the absolute length, zero or larger
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=column-width
-|Description=Value of the [[css/properties/column-width|'''column-width''']] property.
+|Data Type=auto
+|Description=The column width will be determined by other properties (e.g., ‘column-count’, if it has a non-auto value).
 }}{{CSS Property Value
-|Data Type=column-count
-|Description=Value of the [[css/properties/column-count|'''column-count''']] property.
+|Data Type=length
+|Description=describes the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
 }}
 }}
 {{Examples_Section
