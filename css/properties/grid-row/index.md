@@ -1,21 +1,36 @@
-{{Page_Title}}
+{{Page_Title|grid-row}}
 {{Flags
-|Content=Outdated, Errors
-|Checked_Out=No
+|High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
+|Content=Compatibility Incomplete, Examples Needed, Needs Summary
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|Created by mistake.  Please delete it.}}
+{{Summary_Section|Integer value that identifies the specified row in a grid-container.}}
 {{CSS Property
+|Initial value=1
+|Applies to=grid item elements
 |Inherited=No
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=integer
+|Description=Integer value that identifies the specified row.
+}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes====Remarks===
+The row numbering system is a 1-based index, with 1 being the default. That is, row numbering does not begin with zero.
+|Import_Notes====Syntax===
+<code>'''-ms-grid-row: '''''
+&lt;integer&gt;
+''</code>
+===Standards information===
+*[http://www.w3.org/TR/css3-grid-layout/#grid-row CSS Grid Layout]
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -27,7 +42,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
