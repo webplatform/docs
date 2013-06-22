@@ -9,8 +9,9 @@
 {{Summary_Section|Shorthand for grid-before/after and grid-start/end.}}
 {{CSS Property
 |Initial value=1
-|Applies to=grid item elements
+|Applies to=grid items
 |Inherited=No
+|Media=visual
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=&lt;integer&gt; {{!}}{{!}} &lt;string&gt;
