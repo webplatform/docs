@@ -17,10 +17,10 @@ It sets an item's column positioning on a grid defined by "display: grid;"
 |Computed value=Specified value
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=<integer> [[||]] <string>
+|Data Type=&lt;integer&gt; {{!}}{{!}} &lt;string&gt;
 |Description=Integer or string value that identifies the specified column.
 }}{{CSS Property Value
-|Data Type=span && <integer> [[||]] <string>
+|Data Type=span && &lt;integer&gt; {{!}}{{!}} &lt;string&gt;
 |Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
 }}{{CSS Property Value
 |Data Type=auto
