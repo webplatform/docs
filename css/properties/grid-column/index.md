@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
+|Editorial notes=previously imported as ms-grid-column
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end}}
 {{CSS Property
 |Initial value=1
 |Applies to=grid item elements
@@ -35,6 +37,7 @@ The column numbering system is a 1-based index, with 1 being the default. That i
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
