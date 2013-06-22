@@ -15,8 +15,14 @@
 |Computed value=Specified value
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=integer
-|Description=Integer value that identifies the specified column.
+|Data Type=<integer> || <string> 
+|Description=Integer or string value that identifies the specified column.
+}}{{CSS Property Value
+|Data Type=span && <integer> || <string> 
+|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name. 
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Automatically places an item using the auto-placement algorithm. 
 }}
 }}
 {{Examples_Section
@@ -26,11 +32,9 @@
 |Description=Syntax
 |Code=<pre>
 <!DOCTYPE html>
-
 <html >
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <title>Simple grid example</title>
   <style type="text/css">
 	#mygrid { 
 		display: grid; 
@@ -57,6 +61,45 @@
 &lt;/html&gt;
 </pre>
 |LiveURL=http://code.webplatform.org/gist/5842103
+}}{{Single Example
+|Language=CSS
+|Description=Syntax
+|Code=<pre>
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Simple grid example</title>
+  <style type="text/css">
+	#mygrid { 
+		display: grid; 
+		grid-definition-columns: 
+                                        "title" auto
+                                        "editors"  200px 
+                                        "writers"  200px
+                                        "projects" 400px
+                                         ;
+		grid-definition-rows: 30px;
+	}
+	#title { grid-column: "titles"/ span 4;    grid-row: 1; }
+	#editor { grid-column: "editors";       grid-row: 2 }
+	#writer { grid-column: "writers";       grid-row: 2; }
+                #project{ grid-column: "projects" / span 2; grid-row: 2; }
+</style>
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="mygrid"&gt;
+	&lt;div id="title"&gt;&lt;h1&gt;"Writer - editor   
+ projects"&lt;/h1&gt;&lt;/div&gt;
+	&lt;div id="editor"&gt;John Sterling</div&gt;
+	&lt;div id="writer"&gt;Chuck Brown</div&gt;
+                 &lt;div id="project"&gt;Webplatform.org CSS property descriptions.&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+|LiveURL=http://code.webplatform.org/gist/5842400
 }}
 }}
 {{Notes_Section
