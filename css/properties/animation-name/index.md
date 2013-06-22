@@ -2,17 +2,20 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines one or more animations that apply to an element}}
+{{Summary_Section|Defines the list of animations that apply to the element}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements
+|Applies to=all elements, ::before and ::after pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=animationName
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=single-animation-name
 |Description=The name of an [[css/atrules/@keyframes|'''@keyframes''']] rule or the keyword <code>none</code> (default).
