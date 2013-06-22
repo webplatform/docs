@@ -2,15 +2,19 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets whether or not to display borders and background on empty cells in a table.}}
 {{CSS Property
-|Applies to=All elements
-|Inherited=No
+|Initial value=show
+|Applies to=table-cell elements
+|Inherited=Yes
 |Media=visual
+|Computed value=Same as specified
 |Animatable=No
+|CSS object model property=emptyCells
 |Values={{CSS Property Value
 |Data Type=show
 |Description=Renders empty cells with inherited borders and styles
@@ -21,7 +25,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/*
+  * This example hides any table cell that has no data in it
+  */
+
+td{
+    empty-cells: hide;
+}
+|LiveURL=http://code.webplatform.org/gist/5842874
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
