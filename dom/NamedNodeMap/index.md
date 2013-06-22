@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A collection of nodes that can be accessed by name. Objects contained in a NamedNodeMap may also be accessed by an ordinal index, but this is simply to allow convenient enumeration of the contents of a NamedNodeMap, and does not imply that the DOM specifies an order to these Nodes.}}
+{{Summary_Section|A collection of nodes that can be accessed by name. Objects contained in a '''NamedNodeMap''' may also be accessed by an ordinal index, but this is simply to allow convenient enumeration of the contents of a '''NamedNodeMap''', and does not imply that the DOM specifies an order to these nodes.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
