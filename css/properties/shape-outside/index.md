@@ -20,6 +20,12 @@
 }}{{CSS Property Value
 |Data Type=<basic-shape>
 |Description=The shape is computed based on the values of one of ‘rectangle’, ‘inset-rectangle’, ‘circle’, ‘ellipse’ or ‘polygon’.
+
+* <code>rectangle(&lt;x&gt;, &lt;y&gt;, &lt;width&gt;, &lt;height&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle with an origin and a size. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
+* <code>inset-rectangle(&lt;top&gt;, &lt;right&gt;, &lt;bottom&gt;, &lt;left&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle by top, right, bottom and left insets. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
+* <code>circle(<cx, <cy>, <r>)</code> defines a circle with a center point and a radius.
+* <code>ellipse(<cx, <cy>, <rx>, <ry>)</code> defines a circle with a center point and a radii for the horizontal and vertical directions.
+* <code>polygon(<x1> <y1>, <x2> <y2>, ..., <xn> <yn>)</code> defines a polygon based on a list of points
 }}{{CSS Property Value
 |Data Type=<uri>
 |Description=If the <uri> references an image, which is CORS-same-origin, the shape is extracted and computed based on the alpha channel of the specified image. If the <uri> does not reference an image or if it references an image which is not CORS-same-origin, the effect is as if the value ‘auto’ had been specified.
