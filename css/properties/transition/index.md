@@ -36,9 +36,6 @@
 |Description=When you hover over the div, the height property will gradually change from 100 to 500.
 |Code=div {
   height: 100px;
-  -webkit-transition: height 2s; /* Safari and Chrome */
-  -moz-transition: height 2s; /* Firefox */
-  -o-transition: height 2s; /* Opera */
   transition: height 2s;
 }
 
