@@ -7,7 +7,9 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end. It sets an item's column positioning on a grid defined by display: grid;}}
+{{Summary_Section|Grid column provides a shorthand for "grid-column-start" and "grid-column-end." 
+It sets an item's column positioning on a grid defined by "display: grid;"
+}}
 {{CSS Property
 |Initial value=1
 |Applies to=grid item elements
@@ -15,14 +17,14 @@
 |Computed value=Specified value
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=<integer> || <string> 
+|Data Type=<integer> [[||]] <string>
 |Description=Integer or string value that identifies the specified column.
 }}{{CSS Property Value
-|Data Type=span && <integer> || <string> 
-|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name. 
+|Data Type=span && <integer> [[||]]
+|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Automatically places an item using the auto-placement algorithm. 
+|Description=Automatically places an item using the auto-placement algorithm.
 }}
 }}
 {{Examples_Section
