@@ -1,16 +1,20 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|When non-ideographic characters (such as numbers) are presented alongside ideographic characters, many designers prefer to include spacing to separate it from the surrounding ideographs.  This property automates the creation of that space by introducing an in-line margin, the width of which corresponds to the width of existing ideographs.}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
-|Animatable=No
+|Computed value=specified value (except for initial and inherit)
+|Animatable=Yes
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. No effect takes place—that is, no extra space is added.
@@ -30,9 +34,31 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=By setting the '''text-autospace''' property to various keywords, one can easily modify the spacing standards of combinations of ideographic and non-ideographic characters.
+|Code=/**
+ * Using the CSS `text-autospace` property.
+ */
+
+tr:nth-child(3) {
+	text-autospace: ideograph-numeric;
+}
+
+tr:nth-child(4) {
+	text-autospace: ideograph-alpha;
+}
+
+tr:nth-child(5) {
+	text-autospace: ideograph-parenthesis;
+}
+|LiveURL=http://code.webplatform.org/gist/5842252
+}}
 }}
 {{Notes_Section
+|Usage=This property acts in addition to other properties such as [[css/properties/word-spacing]] and [[css/properties/letter-spacing]], meaning that you can use both properties and their effects will be compounded.
+
+This property is not currently supported by any major browser.
 |Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-text-autospace''' attribute is an extension to CSS, and can be used as a synonym for '''text-autospace''' in IE8 Standards mode.
 An ideograph is a character in an Asian writing system that represents a concept or an idea, but not a particular word or pronunciation.
@@ -46,6 +72,7 @@ An ideograph is a character in an Asian writing system that represents a concept
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
