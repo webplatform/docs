@@ -33,17 +33,17 @@ This setting can be helpful when using kerning, which does often not scale linea
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Let the user agent decide how to optimize text for speed, legibility and geometric precision. */
+|Code=/* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
 body {
 	text-rendering: auto;
 }
 
-/* The user agent will prioritize text rendering speed. */
+/* The user agent will prioritize the rendering speed of text. */
 body {
 	text-rendering: optimizeSpeed;
 }
 
-/* The user agent will prioritize text legibility. */
+/* The user agent will prioritize the legibility of text. */
 body {
 	text-rendering: optimizeLegibility;
 }
@@ -73,7 +73,7 @@ On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed opt
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font, CSS Attributes
+|Topic_clusters=CSS Font, CSS Attributes, Text
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
