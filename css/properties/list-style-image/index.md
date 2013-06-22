@@ -43,7 +43,7 @@ This example uses '''ul''' as a selector in an embedded (global) style sheet to 
 |Description=This example uses inline scripting to change the style of the list-item marker to an image when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 
 Additionally, when an [[dom/events/mouseout|'''onmouseout''']] event occurs, `list-style-type` is set to "none", setting it back to the browser's default.
-|Code=<ul onMouseOver="this.style.listStyleImage='url(favicon.ico)';" onMouseOut="this.style.listStyleImage='none';">
+|Code=&lt;ul onMouseOver="this.style.listStyleImage='url(favicon.ico)';" onMouseOut="this.style.listStyleImage='none';"&gt;
 |LiveURL=http://code.webplatform.org/gist/5841611
 }}
 }}
