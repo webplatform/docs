@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -27,7 +28,7 @@ It overrides both the height & the max-height property if any them is specified 
 |Data Type=percentage
 |Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as 0. Negative values are not allowed
 }}{{CSS Property Value
-|Data Type=calc()
+|Data Type=calc
 |Description=See [[css/functions/calc|css calc function]] for mode details.
 }}{{CSS Property Value
 |Data Type=inherit
@@ -49,6 +50,7 @@ It overrides both the height & the max-height property if any them is specified 
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following Internet Explorer 6 example shows the benefits of using the '''min-height''' attribute over the [[html/attributes/height|'''HEIGHT''']] attribute for a '''tr''' element.
 |Code=&lt;html&gt;
 &lt;head&gt;
@@ -75,6 +77,7 @@ It overrides both the height & the max-height property if any them is specified 
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/minheight.htm
 }}{{Single Example
+|Language=CSS
 |Description=The following Internet Explorer 7 example shows how the '''min-height''' and [[css/properties/max-height|'''max-height''']] attributes affect the layout of a '''div''' element. Internet Explorer 7 is required to view the example.
 |Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
 &lt;html&gt;
