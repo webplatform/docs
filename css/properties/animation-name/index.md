@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -121,15 +121,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_links=*<code>[[css/properties/animation-duration|animation-duration]]</code>
-*<code>[[css/properties/animation-timing-function|animation-timing-function]]</code>
-*<code>[[css/properties/animation-delay|animation-delay]]</code>
-*<code>[[css/properties/animation-iteration-count|animation-iteration-count]]</code>
-*<code>[[css/properties/animation-direction|animation-direction]]</code>
-*<code>[[css/properties/animation-fill-mode|animation-fill-mode]]</code>
-*<code>[[css/properties/animation-play-state|animation-play-state]]</code>
-*<code>[[css/properties/animation|animation]]</code>
-*<code>[[css/atrules/@keyframes|@keyframes]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
