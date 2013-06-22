@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the size of the mask images.}}
+{{Summary_Section|Specifies the size of the mask images. Follow the 'background-size' property. Allow user to interacts with other comma-separated mask properties from each mask image layer.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements.
+|Applies to=All elements. It applies to container elements without the <defs> and graphics elements in SVG. 
 |Inherited=No
 |Media=visual
 |Animatable=No
@@ -17,7 +17,7 @@
 |CSS percentages=See text
 |Values={{CSS Property Value
 |Data Type=<bg-size>#
-|Description=Follow Size-Images with 'background-size' property.  <bg-size>=[<length> | <percentage> | auto] {1, 2}
+|Description=Follow Size-Images with 'background-size' property.
 }}
 }}
 {{Examples_Section
