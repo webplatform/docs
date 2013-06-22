@@ -111,6 +111,11 @@ The column numbering system is a 1-based index, with 1 being the default. That i
 <code>'''grid-column: '''''
 &lt;integer&gt;
 ''</code>
+
+<code>'''grid-column: '''''
+&lt;string&gt;
+''</code>
+
 ===Standards information===
 "http://dev.w3.org/csswg/css-grid/#placement-shorthands"
 }}
