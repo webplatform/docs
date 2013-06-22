@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=see padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
 }}
@@ -12,12 +11,12 @@
 |Applies to=All elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
-|Computed value=the percentage as specified or the element's absolute length
+|Computed value=the percentage as specified or a absolute length
 |Animatable=Yes
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details.
+|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details.  Can not be a negative number.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=Calculated using the dimensions of the containing block or element.
@@ -29,7 +28,6 @@
 |Language=CSS
 |Description=The following examples use the <code>padding-bottom</code> property to change the [[css/properties/padding|padding]] of the elements.
 |Code=h1 { padding-bottom: 5%; }
-
 }}{{Single Example
 |Language=CSS
 |Code=p { padding-bottom: 10px; }
