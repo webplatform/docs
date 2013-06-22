@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Examples Needed
-|Checked_Out=Yes
+|Content=Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
