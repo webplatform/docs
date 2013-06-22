@@ -8,10 +8,12 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=not defined for shorthand properties
+|Applies to=inline-level and ‘table-cell’ elements
 |Inherited=No
 |Media=visual
 |Animatable=No
+|CSS percentages=refers to the ‘line-height’ of the element itself
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Aligns the contents of an object according to the value of the [[css/properties/layout-flow|'''-ms-layout-flow''']] attribute.
