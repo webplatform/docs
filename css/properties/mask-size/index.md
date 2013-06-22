@@ -34,32 +34,7 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Basic list of syntax examples for mask-size.
-|Code=/* Keywords syntax */
-mark-size: cover
-mark-size: contain
-
-/* One-value syntax: the value defines the width of the image, the height is implicitly set to 'auto' */
-mark-size: 50%
-mark-size: 3em
-mark-size: 12px
-mark-size: auto
-
-/* Two-value syntax: the first value defines the width of the image, the second its height */
-mark-size: 50% auto
-mark-size: 3em 25%
-mark-size: auto 6px
-mark-size: auto auto
-
-/* Values for the multiple backgrounds, defined by background-image, may be listed separated by commas */
-mark-size: auto, auto     /* Do not confuse this with background-size: auto auto */
-mark-size: 50%, 25%, 25%
-mark-size: 6px, auto, contain
-
-mark-size: inherit
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
