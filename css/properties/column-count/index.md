@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic
 |Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
@@ -77,9 +76,8 @@ To ensure the specified value is used, all length property values of the multi-c
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Yes
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_supported=Yes
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=No
