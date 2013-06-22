@@ -12,7 +12,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=computed lengths for <basic-shape>, the absolute URI for <uri>, otherwise as specified
-|Animatable=No
+|Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
