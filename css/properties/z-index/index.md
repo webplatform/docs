@@ -70,10 +70,13 @@ This example uses an inline style sheet to set the stacking order.
 {{Notes_Section
 |Usage=This property will only work with elements that are positioned absolute, relative or fixed.
 |Notes====Remarks===
-Positive '''z-index''' values are positioned above a negative (or lesser value) '''z-index'''. Two objects with the same '''z-index''' are stacked according to source order. A positive value positions the element above text that has no defined '''z-index''', and a negative value positions it below. Set this parameter to null to remove the attribute.
-The '''z-index''' property only applies to objects that have the [[css/properties/position|'''position''']] property set to '''relative''' or '''absolute'''.
+If two objects have the same '''z-index''', they are stacked according to their source order. 
+
+An element with a positive z-index will be placed above an element that does not have a defined z-index. An element with a negative z-index will be placed below an element with no defined z-index 
+
 The property does not apply to windowed controls, such as '''select''' objects.
-Input from pointing devices, such as a mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
+
+If the visibility of an element is set to '''hidden''' in CSS, input from a pointing device (such as a mouse) will not penetrate it. This is also true for positioned elements with a negative z-index unless:
 *The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
 *The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
 
