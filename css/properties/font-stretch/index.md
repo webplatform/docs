@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup, Compatibility Incomplete
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
