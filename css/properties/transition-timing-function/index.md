@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 |Editorial notes=adapted from animation-timing-function page
 }}
@@ -11,10 +10,11 @@
 |Initial value=ease
 |Applies to=all elements
 |Inherited=No
-|Media=visual
+|Media=interactive
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=transitionTimingFunction
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=ease
 |Description=Default. Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.25,0.1,0.25,1)''']]
