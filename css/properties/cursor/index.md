@@ -138,6 +138,12 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
  
 /* standard cursor value as fallback for url() must be provided (doesn't work without) */
 .baz { cursor: url(hyper.cur), auto }
+
+/* multiple url() functions for fallback in browsers */
+p { cursor: url(hyper.svg), url(hyper.cur), auto }
+
+/* url() function with custom cursor and X and Y hotspot coordinates */
+div { cursor: url(hyper.svg) 5 10, auto
 }}{{Single Example
 |Language=CSS
 |Description=This example shows a custom cursor image being used.
