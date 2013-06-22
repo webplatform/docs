@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -17,48 +16,89 @@
 |CSS percentages=yes
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Floating-point number followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, ch, rem, or px as well as vw, vh, vmin, vmax). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Specifies a fixed width. Negative values are not allowed. See [[css/data_types/length|length]] for possible units.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer followed by a % that specifies a percentage of the containing block width to use as the minimum width of the element. If the width of the containing block is not explicitly set, then the element has no minimum width and the min-width property is interpreted as 0. For more information on containing blocks and how their widths are computed, see the Cascading Style Sheets, Level 2.1 (CSS2.1) specification.
+|Description=A <percentage> relative to the width of the containing block. If the containing block has no width explicitly set then is is treated as none. Negative values are not allowed.
+}}{{CSS Property Value
+|Data Type=calc()
+|Description=See [[css/functions/calc|css calc function]] for mode details.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
+}}{{CSS Property Value
+|Data Type=none
+|Description=Default. Clears the min-width value. The width property can have any value.
+}}{{CSS Property Value
+|Data Type=max-content
+|Description=The narrowest space a box could take while fitting around its contents if none of the soft wrap opportunities within the box were taken.(Space/Punctuation in text are examples of a soft-wrap opportunity). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=min-content
+|Description=The narrowest measure a box could take that doesn't lead to inline-dimension overflow that could be avoided by choosing a larger measure. Roughly, the measure that would fit around its contents if all soft wrap opportunities within the box were taken. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=fill-available
+|Description=Fill the entire available space of from the containing block (Width minus vertical margin, border and padding of the containing block). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+}}{{CSS Property Value
+|Data Type=fit-content
+|Description=If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to constrain the width of a '''div''' element using '''min-width''' and [[css/properties/max-width|'''max-width''']] attributes.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style&gt;
+|Description=Use min-width with any CSS selector to apply it.
+|Code=/* Restrict all div elements to a min-width of 100px */
+div { min-width: 100px }
+}}{{Single Example
+|Language=HTML
+|Description=Constrain the width of a '''div''' element using '''min-width''' and [[css/properties/max-width|'''max-width''']] attributes.
+|Code=&lt;style&gt;
+/* Width set to 50% */
 .width {
     width:50%;
-    min-width:200px;
-    max-width:400px;
     background:#eee;
 }
+
+/* min-width set to 600px */
+.minwidth {
+	width: 50%;
+	min-width: 600px;
+	background: lightblue;
+}	
+
+/* max-width set to 600px */
+.maxwidth {
+	width: 50%;
+	max-width: 200px;
+	background: lightgreen
+}
+
+/* Content with border and padding */
 .content {
     border:1px solid #c00;
     padding:5px;
 }
 &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class{{=}}"width"&gt;
-&lt;div class{{=}}"content"&gt;
-        &lt;h2&gt;{ min-width:200px; max-width:400px }&lt;/h2&gt;
-        &lt;p&gt;This div also has a width of 50%. Resize the window
-         to grow and shrink the div from max to min width.&lt;br/&gt;&lt;br/&gt;
-         The outer div controls the width of the inner "content" div.
+
+&lt;h3&gt;Resize the window to grow and shrink the div from max to min width.&lt;/h3&gt;
+&lt;div class="width"&gt;
+        &lt;p class="content"&gt;This div also has a width of 50%. &lt;br/&gt;&lt;br/&gt;
          Note that the div height increases to accommodate the flow of text.&lt;/p&gt;
 &lt;/div&gt;
+&lt;div class="minwidth"&gt;
+	&lt;p class="content"&gt;This div also has a width of 50%.&lt;br /&gt;&lt;br /&gt; It also has a min-width of 600px.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/minWidth7.htm
+&lt;div class="maxwidth"&gt;
+	&lt;p class="content"&gt;This div also has a width of 50%.&lt;br /&gt;&lt;br /&gt; It also has a max-width of 200px.&lt;/p&gt;
+&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5842171
 }}
 }}
 {{Notes_Section
+|Usage=CSS min width is well supported across most browsers. A few things to consider while usage:
+* min-width overrides [[css/properties/max-width|max-width]]. If min-width supplied is greater than max-width, max-width does not have an impact.
+* max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
+* Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
 |Notes====Remarks===
 The '''min-width'''/[[css/properties/max-width|'''max-width''']] attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
 This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
@@ -68,11 +108,18 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 '' '''{{!}}''' ''
 &lt;percentage&gt;
 ''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 10.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1 (Section 10.7)
+|URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-widths
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
+|URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
+|Status=Working Draft
+|Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
