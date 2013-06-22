@@ -6,7 +6,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the page. This property is normally used to control how page breaks occur.}}
+{{Summary_Section|In typography terms, an orphan is the first line of a paragraph that is left behind on the old page while the paragraph continues on the next. The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the old page. This property is normally used to control how page breaks occur. This property only affects paged media such as print. 
+
+}}
 {{CSS Property
 |Initial value=2
 |Applies to=All elements
