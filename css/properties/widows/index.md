@@ -3,23 +3,27 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
-|Editorial notes=The "widows" CSS property helps to set or return the minimum number of lines for an element(for eg: paragraph) that must be visible at the top of a page. It affects on the block level elements. 
-It can have a number value or it can inherit the values from the parent element.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The widows CSS property defines how many minimum lines must be left on top of a new page, on a paged media. In typography, a widow is the last line of a paragraph appearing alone at the top of a page. Setting the widows property allows to prevent widows to be left.
+
+On a non-paged media, like screen, the widows CSS property has no effect.
+It can have a number value or it can inherit the values from the parent element.
+
+}}
 {{CSS Property
 |Initial value=2
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
+|Computed value=As specified
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=integer
-|Description=A '''VARIANT''' that specifies or receives
-the minimum number of lines to print at the top of a document.
-}}
+|Description=Denotes the minimum amount of lines that can stay alone on the top of a new page. If the value is not positive, the declaration is invalid.
+}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
