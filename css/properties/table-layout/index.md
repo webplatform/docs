@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|table layout}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -19,11 +19,15 @@
 }}{{CSS Property Value
 |Data Type=fixed
 |Description=Table and column widths are set either by the sum of the widths on the '''col''' objects or, if these are not specified, by the width of the first row of cells. If no width is specified for the table, it renders by default with width{{=}}100%.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description= This features inherits table-layout property  from the parent element (Internet Explorer 7 and earlier versions don’t support the value inherit for any properties other than direction and visibility)
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=This example uses the CSS attribute to set the table layout to '''fixed'''.
 |Code=&lt;TABLE STYLE{{=}}"table-layout:fixed" WIDTH{{=}}600&gt;
 &lt;COL WIDTH{{=}}100&gt;&lt;COL WIDTH{{=}}300&gt;&lt;COL WIDTH{{=}}200&gt;
@@ -32,6 +36,18 @@
 &lt;/TR&gt;
 :
 &lt;/TABLE&gt;
+|LiveURL=http://www.w3schools.com/cssref/playit.asp?filename=playcss_table-layout&preval=fixed
+}}{{Single Example
+|Language=CSS
+|Description=This example uses the CSS attribute  to set the table layout to "auto".
+|Code=&lt;TABLE STYLE{{=}}"table-layout:auto" WIDTH{{=}}600&gt;
+&lt;COL WIDTH{{=}}100&gt;&lt;COL WIDTH{{=}}300&gt;&lt;COL WIDTH{{=}}200&gt;
+&lt;TR HEIGHT{{=}}20&gt;
+&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;
+&lt;/TR&gt;
+:
+&lt;/TABLE&gt;
+|LiveURL=http://www.w3schools.com/cssref/playit.asp?filename=playcss_table-layout
 }}
 }}
 {{Notes_Section
@@ -123,6 +139,7 @@ Setting row height further improves rendering speed, again enabling the parser t
 }}
 {{See_Also_Section
 |Topic_clusters=Tables
+|External_links=http://www.w3schools.com/cssref/pr_tab_table-layout.asp
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
