@@ -7,20 +7,41 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end}}
+{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end. It sets an item's column positioning on a grid defined by display: grid; }}
 {{CSS Property
 |Initial value=1
 |Applies to=grid item elements
 |Inherited=No
+|Computed value=Specified value
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=integer
-|Description=Integer value that identifies the specified column.
+|Description=Integer value that identifies the specified column. 
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Syntax 
+|Code=<style type="text/css">
+	#mygrid { 
+		display: grid; 
+		grid-definition-columns: 50px; 
+		grid-definition-rows: 30px;
+                }
+	#title { grid-column: 1/ span 4;    grid-row: 1; }
+	#editor { grid-column: 1;       grid-row: 2 }
+	#writer { grid-column: 2;       grid-row: 2; }
+                #project{ grid-column: 3 / span 2; grid-row: 2; }
+</style>
+
+<div id="mygrid">
+	<div id="A">A</div>
+	<div id="B">B</div>
+	<div id="C">C</div>
+</div>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
