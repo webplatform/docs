@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
