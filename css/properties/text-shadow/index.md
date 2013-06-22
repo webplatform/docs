@@ -35,18 +35,18 @@ The secont is the vertical distance, with positive values moving the shadow down
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example creates a duplicate text, a solid text-shadow, 10px to the bottom right. The color shows the default color based on the UA.
-|Code=#foo {
-  text-shadow: 10px 10px;
+|Description=This example uses all four values of the text-shadow property in the following order: <offset-x>, <offset-y>, <blur-radius>, and <color>.
+|Code=p {
+  text-shadow: 2px 2px 2px grey;
 }
-|LiveURL=http://codepen.io/pverbeek/pen/BkcLe
+|LiveURL=http://code.webplatform.org/gist/5842702
 }}{{Single Example
 |Language=CSS
-|Description=The following example creates a duplicate text, a solid text-shadow, 10px to the top right. With a greenish color.
-|Code=#foo {
-  text-shadow: 10px -10px OliveDrab;
+|Description=This example places a text shadow to the left and above the element's text. Since no color is specified the shadow will inherit the same color as the element, and since no blur radius is specified, the text shadow will not be blurred:
+|Code=p {
+  text-shadow: -0.1em -0.1em;
 }
-|LiveURL=http://codepen.io/pverbeek/pen/GKIgi
+|LiveURL=http://code.webplatform.org/gist/5842702
 }}{{Single Example
 |Language=CSS
 |Description=The following example creates a greenish blurred text-shadow without an offset.
