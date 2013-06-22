@@ -24,7 +24,8 @@
 |Description=An absolute unit value: any of the standard [[css/data_types/length|css length units]] are allowed. Negative lengths are illegal.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''. 
+|Description=A percentage value specifies an absolute font size relative to the parent element's  '''font-size'''.
+
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=The <code>inherit</code> keyword causes the element to adopt its parent element's font size.
