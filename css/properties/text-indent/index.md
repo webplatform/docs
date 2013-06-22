@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -197,9 +196,6 @@ window.addEventListener("load", initialize, false);
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
