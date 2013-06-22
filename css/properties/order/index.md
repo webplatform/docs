@@ -15,6 +15,7 @@
 |CSS object model property=order
 |Values={{CSS Property Value
 |Data Type=<integer>
+|Description=The ordinal group for this flex item.
 }}
 }}
 {{Examples_Section
