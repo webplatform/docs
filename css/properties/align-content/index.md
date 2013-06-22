@@ -87,7 +87,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=Note, this property has no effect when the flexbox has only a single line. Only flex containers with multiple lines ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
+|Notes=This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
