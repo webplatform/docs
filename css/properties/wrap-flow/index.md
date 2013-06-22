@@ -4,7 +4,7 @@
 |Content=Examples Needed
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies how exclusions impact inline content within block-level elements}}
 {{CSS Property
@@ -62,7 +62,15 @@
 An exclusion affects the inline flow content descended from the exclusion's containing block and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the  [[css/properties/wrap-through|wrap-through]] property can be used.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Exclusions Module Level 1
+|URL=http://dev.w3.org/csswg/css-exclusions/
+|Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS Exclusions Module Level 1
+|URL=http://www.w3.org/TR/css3-exclusions/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -71,7 +79,9 @@ An exclusion affects the inline flow content descended from the exclusion's cont
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=See also: [[css/properties/wrap-through|wrap-through]] property
+}}
 {{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
