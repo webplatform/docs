@@ -12,7 +12,7 @@
 
 The capture attribute applies to input elements when the type attribute's value is file and its accept attribute is specified. If the accept attribute's value is set to a MIME type that has no associated capture control type, the user agent acts as if there was no capture attribute.
 
-The media capture mechanism builds upon the security and privacy protections provided by the <input type="file"> and the File API specifications; in particular, it is expected that any offer to start capturing content from the user’s device would require a specific user interaction on an HTML element that is entirely controlled by the user agent.
+The media capture mechanism builds upon the security and privacy protections provided by the <input type="file"> and the File API specifications; in particular, any offer to start capturing content from the user’s device requires a specific user interaction on an HTML element that is entirely controlled by the user agent.
 }}
 {{Examples_Section
 |Not_required=No
