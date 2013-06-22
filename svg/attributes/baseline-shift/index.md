@@ -1,17 +1,28 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline. }}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=Name:	baseline-shift
+Value:	baseline | sub | super | <percentage> | <length>
+Initial:	baseline
+Applies to:	inline-level elements
+Inherited:	no
+Percentages:	refers to the ‘line-height’ of the parent element
+Media:	visual
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 The '''baseline-shift''' property allows repositioning of the dominant
 baseline relative to the dominant baseline of the parent text content
@@ -24,21 +35,27 @@ of the following:
 *the subscript or superscript offset from the nominal font of the parent text content element
 *the percent of the '''line-height''' of the parent text content element
 *an absolute value.
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
  '''baseline-shift: '''baseline '''{{!}}''' sub '''{{!}}''' super '''{{!}}''' ''percentage'' '''{{!}}''' ''length''
 
 ===Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.2
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-
-===Related pages (MSDN)===
+|Topic_clusters=CSS Layout, CSS Attributes
+|Manual_sections====Related pages (MSDN)===
 
 *[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
 *[[css/cssom/currentStyle|'''currentStyle''']]
@@ -47,10 +64,11 @@ of the following:
 *[[svg/elements/textPath|'''SVGTextPathElement''']]
 *[[svg/attributes/dominant-baseline|'''dominantBaseline''']]
 }}
+{{Topics|DOM, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
