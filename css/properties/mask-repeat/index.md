@@ -11,10 +11,10 @@
 }}
 {{CSS Property
 |Initial value=repeat
-|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements. 
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
-|Computed value=A list, each item consisting of: two keywords, one per dimension 
+|Computed value=A list, each item consisting of: two keywords, one per dimension
 |Animatable=No
 |Values=
 }}
@@ -24,11 +24,10 @@
 |Language=CSS
 |Code=body {
   background-color: white;
-  mask-image: url("pendant.png") ;
+  mask-image: mask-image: linear-gradient(black 100%, transparent 0%) ;
   mask-position: center;
   mask-repeat: repeat-y;
 }
-
 }}
 }}
 {{Notes_Section}}
