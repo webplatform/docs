@@ -2,11 +2,15 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
+|Editorial notes=The "widows" CSS property helps to set or return the minimum number of lines for an element(for eg: paragraph) that must be visible at the top of a page. It affects on the block level elements. 
+It can have a number value or it can inherit the values from the parent element.
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=2
 |Applies to=All elements
 |Inherited=No
 |Media=visual
@@ -81,6 +85,8 @@ IE8 Standards mode rendering.
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
+|External_links=http://www.w3schools.com/jsref/prop_style_widows.asp
+http://xhtml.com/en/css/reference/widows/
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
