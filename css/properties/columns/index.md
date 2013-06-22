@@ -8,17 +8,17 @@
 {{API_Name}}
 {{Summary_Section|This property describes the width of columns in multicolumn elements.}}
 {{CSS Property
-|Initial value=auto
-|Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
+|Initial value=Auto
+|Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements
 |Inherited=No
 |Media=visual
-|Computed value=the absolute length, zero or larger
+|Computed value=The absolute length, zero or larger
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=auto
+|Data Type=Auto
 |Description=The column width will be determined by other properties (e.g., ‘column-count’, if it has a non-auto value).
 }}{{CSS Property Value
-|Data Type=length
+|Data Type=Length
 |Description=Describes the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
 }}
 }}
