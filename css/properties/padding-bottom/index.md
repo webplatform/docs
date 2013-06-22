@@ -1,18 +1,18 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Examples Best Practices
+|Content=Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=see padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding-bottom</code> CSS property of an element sets the [[css/properties/padding|padding]] space required below an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.}}
+{{Summary_Section|The <code>padding-bottom</code> is an optional CSS property of an element that sets the [[css/properties/padding|padding]] space required below an element.  The padding area is the space between an element and its border. Negative values are not allowed but decimal values are permitted. The element size is treated as fixed, and the content of the element shifts toward the center as padding is increased.  Negative values are not permitted.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements (except table-*-group, table-row and table-column)
+|Applies to=All elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
-|Computed value=the percentage as specified or the absolute length
+|Computed value=the percentage as specified or the element's absolute length
 |Animatable=Yes
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
@@ -20,7 +20,7 @@
 |Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage with respect to the height of the containing block.
+|Description=Calculated using the dimensions of the containing block or element.
 }}
 }}
 {{Examples_Section
@@ -29,11 +29,10 @@
 |Language=CSS
 |Description=The following examples use the <code>padding-bottom</code> property to change the [[css/properties/padding|padding]] of the elements.
 |Code=h1 { padding-bottom: 5%; }
-p { padding-bottom: 10px; }
+
 }}{{Single Example
-|Language=HTML
-|Code=&lt;h1&gt;Hey there&lt;/h1&gt;
-&lt;p&gt;I think you are awesome!&lt;/p&gt;
+|Language=CSS
+|Code=p { padding-bottom: 10px; }
 }}
 }}
 {{Notes_Section}}
