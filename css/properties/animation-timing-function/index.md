@@ -33,14 +33,14 @@
 |Data Type=cubic-bezier(0,0,1,1)
 |Description=Specifies a cubic bezier curve. The four values specify points P1 and P2 of the curve as (x1, y1, x2, y2). Both x values must be in the range [0, 1] or the definition is invalid. The y values can exceed this range. This function is used to specify custom timing functions.
 }}{{CSS Property Value
-|Data Type=[[css/functions/steps|'''steps()''']]
-|Description=Function value specifying a series of discrete intervals.
+|Data Type=steps(3, end)
+|Description=Specifies a stepping function using two parameters. The first parameter specifies the number of intervals in the function. It must be a positive integer greater than 0. The second optional is either the value <code>start</code> or <code>end</code> and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value <code>end</code>.
 }}{{CSS Property Value
 |Data Type=step-start
-|Description=The change occurs instantly at the start of the keyframe, equivalent to [[css/functions/steps|'''steps(1, start)''']].
+|Description=Equivalent to steps(1,start).
 }}{{CSS Property Value
 |Data Type=step-end
-|Description=The change occurs instantly at the end of the keyframe, equivalent to [[css/functions/steps|'''steps(1, end)''']].
+|Description=Equivalent to steps(1,end).
 }}
 }}
 {{Examples_Section
