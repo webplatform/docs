@@ -2,12 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Specifies the placement of a table caption.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=top
+|Applies to=Table-caption elements
 |Inherited=Yes
 |Media=visual
 |Animatable=No
@@ -18,11 +20,8 @@
 |Data Type=bottom
 |Description=For horizontal tables, the caption is placed below the table. Not supported for vertical tables.
 }}{{CSS Property Value
-|Data Type=left
-|Description=For vertical tables, the caption is placed at the left of the table. Not supported for horizontal tables.
-}}{{CSS Property Value
-|Data Type=right
-|Description=For vertical tables, the caption is placed at the right of the table. Not supported for horizontal tables.
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
