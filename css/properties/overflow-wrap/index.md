@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property specifies whether or not particularly long words will be 'broken' (separated into multiple lines) if necessary in order to fit in within its container. }}
+{{Summary_Section|This property specifies whether or not particularly long words will be 'broken' (separated into multiple lines) if necessary in order to fit in within its container.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=all elements
@@ -34,19 +34,19 @@ p {
 	float: left;
 	margin-right: 3em;
 }
-:
+
 p:nth-child(1) {
 	overflow-wrap: normal;
 }
 
-p:nth-child(2):hover {
+p:nth-child(2) {
 	overflow-wrap: break-word;
 }
 |LiveURL=http://code.webplatform.org/gist/5842405
 }}
 }}
 {{Notes_Section
-|Usage=This property is only in use when [[css/property/white-space]] allows '''wrapping'''.
+|Usage=This property is only in use when [[css/properties/white-space|'''white-space''']] allows '''wrapping'''.
 |Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
 }}
 {{Related_Specifications_Section
