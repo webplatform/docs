@@ -1,21 +1,26 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the page. This property is normally used to control how page breaks occur.}}
 {{CSS Property
-|Initial value=0
+|Initial value=2
 |Applies to=All elements
-|Inherited=No
+|Inherited=Yes
 |Media=visual
+|Computed value=As specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=integer
-|Description=A '''String''' that specifies or receives 
-the minimum number of lines to print at the bottom of a page.
+|Description=Only positive values are allowed.
+A '''String''' that specifies or receives the minimum number of lines to print at the bottom of a page.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
@@ -50,10 +55,19 @@ IE8 Standards mode rendering.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/page.html#propdef-orphans
+|Status=Reccomendation
+}}{{Related Specification
+|Name=CSS Paged Media Module Level 3
+|URL=http://dev.w3.org/csswg/css-page/#orphans
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
