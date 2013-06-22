@@ -49,7 +49,7 @@
 |Notes====Remarks===
 Pairs of strings are required if the value is not <code>none</code>.
 |Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.3
+*[http://www.w3.org/TR/CSS21/generate.html#quotes CSS 2.1], Section 12.3
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -63,7 +63,7 @@ Pairs of strings are required if the value is not <code>none</code>.
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
