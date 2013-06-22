@@ -48,8 +48,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=*<code>animation-name</code> has good support across browsers. 
-*Note that <code>animation-name</code> is not sufficient to run an animation. The <code>[[css/properties/animation-duration|animation-duration]]</code> property also needs to be set to a non-zero duration.
+|Usage=*Note that <code>animation-name</code> is not sufficient to run an animation. The <code>[[css/properties/animation-duration|animation-duration]]</code> property also needs to be set to a non-zero duration.
 *When <code>animation-name</code> specifies a list of names, other animation properties such as <code>[[css/properties/animation-duration|animation-duration]]</code> should define values corresponding to each name. If the lists of values for the other animation properties do not have the same number of values as <code>animation-name</code>, the length of the <code>animation-name</code> list determines the number of items in each list examined when starting animations. The lists are matched up from the first value: excess values at the end are not used. If one of the other properties doesn't have enough comma-separated values to match the number of values of <code>animation-name</code>, the UA must calculate its used value by repeating the list of values until there are enough. This truncation or repetition does not affect the computed value. Note: This is analogous to the behavior of the background properties, with <code>[[css/properties/background-image|background-image]]</code> analogous to <code>[[css/properties/animation-name|animation-name]]</code>.
 }}
 {{Related_Specifications_Section
