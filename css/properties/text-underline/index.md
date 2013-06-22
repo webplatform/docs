@@ -4,7 +4,7 @@
 |Content=Grammar/Spelling, Compatibility Incomplete, Examples Errors
 |Checked_Out=Yes
 |Editorial notes={{Editorial/Deletion_Candidate
-| This property is a candidate for deletion because it was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
+| This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
 }}
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
