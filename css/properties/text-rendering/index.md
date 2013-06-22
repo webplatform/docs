@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.}}
@@ -31,14 +33,24 @@ This setting can be helpful when using kerning, which does often not scale linea
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Force the browser to display fonts with all its font-features to make them look good on big sized headlines but avoid using inadequate ligatures on copy text */
+|Code=/* Let the user agent decide how to optimize text for speed, legibility and geometric precision. */
+body {
+	text-rendering: auto;
+}
 
+/* The user agent will prioritize text rendering speed. */
 body {
 	text-rendering: optimizeSpeed;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	text-rendering: optimizeSpeed;
+/* The user agent will prioritize text legibility. */
+body {
+	text-rendering: optimizeLegibility;
+}
+
+/* The user agent will prioritize the geometric precision of text. */
+body {
+	text-rendering: optimizePrecision;
 }
 }}
 }}
