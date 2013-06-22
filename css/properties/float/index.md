@@ -1,15 +1,15 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Examples Best Practices
+|Content=Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Elements which get <code>float</code> applied with a value other than <code>none</code> are taken from the normal flow and get wrapped on the left or right side of the parent element. Other elements get wrapped around it.}}
+{{Summary_Section|Elements which have the style <code>float</code>  are floated horizontally.  These elements can move as far to the <code> left</code> or <code>right</code>  of the containing element.  All elements after the floating element will flow around it, but elements before the floating element are not impacted.  If several floating elements are placed after each other, they will float next to each other as long as there is room.}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements; but absolutely positioned, replaced elements
+|Applies to=all elements except absolutely positioned, replaced elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
@@ -19,10 +19,10 @@
 |Description=<code>none</code> indicates that the element does not contain any float at all. This is the initial value of the <code>float</code> property.
 }}{{CSS Property Value
 |Data Type=left
-|Description=The <code>left</code> value indicates that the element must float to the left side of its containing block.
+|Description=The <code>left</code> value indicates that the element must float to the far left side of its containing block.
 }}{{CSS Property Value
 |Data Type=right
-|Description=The <code>right</code> value indicates that the element must float to the right side of its containing block.
+|Description=The <code>right</code> value indicates that the element must float to the far right side of its containing block.
 }}
 }}
 {{Examples_Section
@@ -32,25 +32,17 @@
 |Description='''First example'''
 
 This example shows how the <code>float</code> attribute affects the flow of the text. The sphere image floats to the left of the text, and the cone floats to the right.
-|Code=&lt;img src{{=}}"sphere.jpg" style{{=}}"float: left;"&gt;
-&lt;img src{{=}}"cone.jpg" style{{=}}"float: right;"&gt;
+|Code=<img src="sphere.jpg" style="float: left">
+<img src=" style="float: left">
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/float_h.htm
 }}{{Single Example
 |Language=HTML
-|Description='''Second example''
-
-Let's assume the following markup.
-|Code=&lt;div class="parent"&gt;
-	&lt;div class="floated"&gt;&lt;/div&gt;
-	&lt;p&gt;…&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;…&lt;/p&gt;
-|LiveURL=http://dabblet.com/gist/4744777
+|Code=<div class="floated"</div>
+<img src="sphere.jpg" >
+</div>
 }}{{Single Example
 |Language=CSS
-|Description=[[File:Screen_Shot_2013-02-09_at_11.34.34.png]]
-
-The element with the class <code>floated</code> flows to the left of the page while the content within the <code>&lt;p&gt;</code>-element flows around the floated content.
+|Description=The element with the class <code>floated</code> flows to the left of the page while the content within the element flows around the floated content.
 |Code=.floated {
 	float: left;
 	width: 150px;
