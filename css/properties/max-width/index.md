@@ -103,12 +103,6 @@ div { max-width: 100px }
 |Notes====Remarks===
 The [[css/properties/min-width|'''min-width''']]/'''max-width''' attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
 This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
-|Import_Notes====Syntax===
-<code>'''max-width: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
