@@ -58,7 +58,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The column numbering system is a 1-based index, with 1 being the default. That is, column numbering does not begin with zero.
+The column numbering system is a 1-based index, with 1 being the default. Column numbering does not begin with zero.
 |Import_Notes====Syntax===
 <code>'''grid-column: '''''
 &lt;integer&gt;
