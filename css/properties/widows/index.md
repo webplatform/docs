@@ -22,6 +22,9 @@ It can have a number value or it can inherit the values from the parent element.
 |Values={{CSS Property Value
 |Data Type=integer
 |Description=Denotes the minimum amount of lines that can stay alone on the top of a new page. If the value is not positive, the declaration is invalid.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent. 
 }}
 }}
 {{Examples_Section
