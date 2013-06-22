@@ -1,18 +1,18 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
-|Content=Not Neutral, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed, Needs Summary
-|Checked_Out=Yes
+|Content=Not Neutral, Grammar/Spelling, Cleanup
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The "mask-position" property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords top, left, center, right, or bottom.}}
 {{CSS Property
 |Initial value=0% 0%
-|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements. 
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
-|Computed value=A list, each item consisting of: two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage. 
+|Computed value=A list, each item consisting of: two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage.
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=<percentage>
