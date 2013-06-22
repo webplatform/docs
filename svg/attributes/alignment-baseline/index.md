@@ -1,36 +1,58 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
+|Checked_Out=Yes
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|"alignment-baseline" specifies how an inline-level element( the element does not influence the extended block-progression dimension of the line) is aligned with respect to its parent.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=Name:	alignment-baseline
+Value:	baseline | use-script | before-edge | text-before-edge | after-edge | text-after-edge |
+central | middle | ideographic | alphabetic | hanging | mathematical
+Initial:	baseline
+Applies to:	inline-level elements
+Inherited:	no
+Percentages:	N/A
+Media:	visual
+Computed value:	specified value (except for initial and inherit)
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This property specifies how an object is aligned with respect to its parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the alignment-baseline property. That is, the position of "ideographic" alignment-point in the block-progression-direction is the position of the "ideographic" baseline in the baseline-table of the object being aligned.
 One of the characteristics of international text is that there are different baselines (different alignment points) for glyphs in different scripts. For example, in horizontal writing, ideographic scripts, such as Han Ideographs, Katakana, Hiragana, and Hangul, alignment occurs with a baseline near the bottoms of the glyphs; alphabetic based scripts, such as Latin, Cyrillic, Hebrew, Arabic, align a point that is the bottom of most glyphs, but some glyphs descend below the baseline; and Indic based scripts are aligned at a point that is near the top of the glyphs.
 The "EM box" is a relative measure of the height of the glyphs in the font. The "M" character fits in a box 1 EM high and 1 EM wide.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''alignment-baseline: '''auto '''{{!}}''' baseline '''{{!}}''' before-edge '''{{!}}''' text-before-edge '''{{!}}''' middle '''{{!}}''' central '''{{!}}''' after-edge '''{{!}}''' text-after-edge '''{{!}}''' ideographic '''{{!}}''' alphabetic '''{{!}}''' hanging '''{{!}}''' mathematical '''{{!}}''' inherit</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSS Attributes, Fonts
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
+{{Topics|CSS, SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
