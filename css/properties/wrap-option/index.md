@@ -4,10 +4,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This CSS property controls the text when it reaches the end of the block in which it is enclosed.}}
 {{CSS Property
-|Inherited=No
-|Animatable=No
+|Initial value=wrap
+|Applies to=all elements and generated content
+|Inherited=Yes
+|Media=visual
+|Computed value=as specified
+|Animatable=Yes
+|CSS percentages=N/A
 |Values=
 }}
 {{Examples_Section
