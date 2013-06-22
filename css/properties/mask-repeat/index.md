@@ -11,13 +11,25 @@
 }}
 {{CSS Property
 |Initial value=repeat
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements. 
 |Inherited=No
+|Media=visual
+|Computed value=A list, each item consisting of: two keywords, one per dimension 
 |Animatable=No
 |Values=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=body {
+  background-color: white;
+  mask-image: url("pendant.png") ;
+  mask-position: center;
+  mask-repeat: repeat-y;
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
