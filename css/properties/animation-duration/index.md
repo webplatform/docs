@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|High-level issues=Missing Relevant Sections, Data Not Semantic
+|Content=Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -18,7 +18,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=0s
-|Description=The initial value of 0s means the animation takes no time. When the duration is 0s (or 0ms) [[css/properties/animation-fill-mode|animation-fill-mode]] still applies i.e. an animation filling backwards will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forwards will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]], even if the animation was instantaneous. Also, animation events are still fired. 
+|Description=The initial value of 0s means the animation takes no time. When the duration is 0s (or 0ms) [[css/properties/animation-fill-mode|animation-fill-mode]] still applies i.e. an animation filling backwards will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forwards will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]], even if the animation was instantaneous. Also, animation events are still fired.
 }}{{CSS Property Value
 |Data Type=1s
 |Description=The specified animation will run for one second.
@@ -27,6 +27,7 @@
 |Description=Animation duration can also be specified in milliseconds.
 }}{{CSS Property Value
 |Data Type=.25s, .5s
+|Description=<code>animation-duration</code> can specify a comma-separated list of durations; each duration is applied to the corresponding value of <code>[[css/properties/animation-name|animation-name]]</code>.
 }}
 }}
 {{Examples_Section
@@ -39,19 +40,8 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <code>animation-duration</code> property takes as its value one or more times as a comma-separated list. If multiple times are specified, they are applied to the animations in the same order as <code>animation-name</code>.
-
-If more '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess durations are ignored.
-If fewer  '''animation-duration''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of durations is repeated from the beginning until the '''animation-name''' values are exhausted.
-|Import_Notes====Syntax===
-<code>'''animation-duration: '''''
-&lt;time&gt;
-'' '''[''' ,  ''
-&lt;time&gt;
-'' ''']''' *</code>
-===Standards information===
-*[http://www.w3.org/TR/css3-animations/#animation-duration-property CSS Animations W3C Working Draft], Section 3.3
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.3
+|Usage=*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies more durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess durations are ignored.
+*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -123,65 +113,6 @@ If fewer  '''animation-duration''' values are declared than corresponding [[css/
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
