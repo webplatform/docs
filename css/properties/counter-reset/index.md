@@ -1,28 +1,29 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates or resets one or more counters.}}
+{{Summary_Section|The counter-reset property contains a list of one or more names of counters, each one optionally followed by an integer (otherwise, the integer defaults to 0.)  Each time the given element is invoked, the counters specified by the property are set to the given integer.}}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=identifier
-|Description=The name of the counter, optionally followed by an
-'''integer'''.
+|Description=The name of the counter, optionally followed by an integer.
 }}{{CSS Property Value
 |Data Type=integer
-|Description=The initial value of the counter. The default value is 0.
+|Description=The value to which the counter is set when the element is invoked. The default value is 0.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following example demonstrates automatic
 chapter and section numbering using
 '''counter-reset''',
@@ -30,42 +31,34 @@ chapter and section numbering using
 and [[css/properties/content|'''content''']].
 The <code>chapter</code> counter is set to zero for the
 '''body''' element,
-and then incremented for each '''hn'''
+and then incremented for each '''h1'''
 element encountered. The <code>section</code> counter is
-reset for each '''hn''' element and
-incremented for each '''hn''' element.
+reset for each '''h1''' element and
+incremented for each '''h2''' element.
 When the page is viewed, each
-'''hn''' element is preceded by
+'''h1''' element is preceded by
 a chapter heading of the form
 <code>"Chapter</code>''X''<code>."</code>,
-while each '''hn''' element is preceded by
+while each '''h2''' element is preceded by
 a section number of the form
 <code>"</code>''X.N''<code>"</code>.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-BODY {
+|Code=body {
     counter-reset: chapter;      /* Create a chapter counter */
 }
-H1 {
+h1 {
     counter-increment: chapter;  /* Add 1 to chapter */
     counter-reset: section;      /* Set section to 0 */
 }
-H1:before {
+h1:before {
     content: "Chapter " counter(chapter) ". ";
 }
-H2 {
+h2 {
     counter-increment: section;
 }
-H2:before {
+h2:before {
     content: counter(chapter) "." counter(section) " ";
 }
-&lt;/style&gt;
-}}{{Single Example
-|Description=Because of a conflicting set of style rules, in the following example
-only the <code>imagenum</code> counter is reset.
-To reset both counters, put them together in the same rule.
-|Code=H1 { counter-reset: section -1 }
-H1 { counter-reset: imagenum 99 }
+|LiveURL=http://code.webplatform.org/gist/5841988
 }}
 }}
 {{Notes_Section
@@ -96,11 +89,11 @@ attribute set to 'normal') cannot increment or reset a counter.
 This property requires Windows Internet Explorer to be in
 IE8 Standards mode rendering.
 |Import_Notes====Syntax===
-<code>'''counter-reset: ''''''[''' ''
+<code>'''counter-reset: ''''''[''' '''
 &lt;identifier&gt;
-'' ''
+''' '''
 &lt;integer&gt;
-'' ''']''''''+'''</code>
+''' ''']''''''+'''</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.4
 }}
