@@ -9,15 +9,15 @@
 {{Summary_Section|Specifies the size of the mask images.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements. 
+|Applies to=All elements.
 |Inherited=No
 |Media=visual
 |Animatable=No
 |CSS object model property=mask
 |CSS percentages=See text
 |Values={{CSS Property Value
-|Data Type=Integer
-|Description=Follow Size-Images with 'background-size' property.  <bg-size>=[<length> | <percentage> | auto] {1, 2} | cover | contain
+|Data Type=<bg-size>#
+|Description=Follow Size-Images with 'background-size' property.  <bg-size>=[<length> | <percentage> | auto] {1, 2}
 }}
 }}
 {{Examples_Section
@@ -26,7 +26,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=background-size
+|URL=https://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html#mask-size0
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -35,8 +39,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Background
+}}
+{{Topics|CSS, Graphics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
