@@ -27,37 +27,37 @@
 |Description=Lines of text are laid out vertically, and progress from the left to the right of the page. Mongolian-based writing systems typically use this writing mode.
 }}{{CSS Property Value
 |Data Type=lr-tb
-|Description=Deprecated value. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
+|Description='''Deprecated''' value. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
 }}{{CSS Property Value
 |Data Type=rl-tb
-|Description=Deprecated value. Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac. Maps to the horizontal-tb value, and direction: rtl; in the current spec. Maps to the horizontal-tb value, and direction: ltr; in the current spec.
+|Description='''Deprecated''' value. Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac. Maps to the horizontal-tb value, and direction: rtl; in the current spec. Maps to the horizontal-tb value, and direction: ltr; in the current spec.
 }}{{CSS Property Value
 |Data Type=tb-rl
-|Description=Deprecated value. Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography. Maps to the vertical-rl value in the current spec.
+|Description='''Deprecated''' value. Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography. Maps to the vertical-rl value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-rl
-|Description=Deprecated value. Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
+|Description='''Deprecated''' value. Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
 }}{{CSS Property Value
 |Data Type=tb-lr
-|Description=Deprecated value. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line. Maps to the vertical-lr value in the current spec.
+|Description='''Deprecated''' value. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line. Maps to the vertical-lr value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-lr
-|Description=Deprecated value. Content flows vertically from bottom to top, left to right.
+|Description='''Deprecated''' value. Content flows vertically from bottom to top, left to right.
 }}{{CSS Property Value
 |Data Type=lr-bt
-|Description=Deprecated value. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.
+|Description='''Deprecated''' value. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.
 }}{{CSS Property Value
 |Data Type=rl-bt
-|Description=Deprecated value. Content flows horizontally from bottom to top, right to left.
+|Description='''Deprecated''' value. Content flows horizontally from bottom to top, right to left.
 }}{{CSS Property Value
 |Data Type=lr
-|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.
+|Description='''Deprecated''' value. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.
 }}{{CSS Property Value
 |Data Type=rl
-|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.
+|Description='''Deprecated''' value. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.
 }}{{CSS Property Value
 |Data Type=tb
-|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.
+|Description='''Deprecated''' value. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.
 }}
 }}
 {{Examples_Section
