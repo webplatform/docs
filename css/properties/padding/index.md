@@ -11,16 +11,16 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding</code> CSS property sets the required padding space on all sides of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.  The element size is treated as fixed, and the content shrinks toward the center as padding is increased.
+{{Summary_Section|The <code>padding</code> optional CSS property sets the required padding space on one to four sides of an element. The padding area is the space between an element and its border. Negative values are not allowed but decimal values are permitted.  The element size is treated as fixed, and the content of the element shifts toward the center as padding is increased.
 
 The <code>padding</code> property is a shorthand to avoid setting each side separately ([[css/properties/padding-top|padding-top]], [[css/properties/padding-right|padding-right]], [[css/properties/padding-bottom|padding-bottom]], [[css/properties/padding-left|padding-left]]).
 }}
 {{CSS Property
 |Initial value=0
-|Applies to=all elements (except table-*-group, table-row and table-column)
+|Applies to=all elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
-|Computed value=the percentage as specified or the absolute length
+|Computed value=the percentage or the absolute length
 |Animatable=Yes
 |CSS percentages=relative to the 'width' of the containing block
 |Values={{CSS Property Value
@@ -35,7 +35,8 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=padding: 5%;               /* on all sides 5% padding */
+|Description=Padding set at 5% for all 4 sides.
+|Code=padding: 5%; 
 }}{{Single Example
 |Language=CSS
 |Code=padding: 10px;              /* on all sides 10px padding */
