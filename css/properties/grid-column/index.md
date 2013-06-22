@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end. It sets an item's column positioning on a grid defined by display: grid; }}
+{{Summary_Section|Grid column provides a short hand for grid-column-start and grid-column-end. It sets an item's column positioning on a grid defined by display: grid;}}
 {{CSS Property
 |Initial value=1
 |Applies to=grid item elements
@@ -16,42 +16,54 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=integer
-|Description=Integer value that identifies the specified column. 
+|Description=Integer value that identifies the specified column.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Syntax 
-|Code=<style type="text/css">
+|Description=Syntax
+|Code=<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+  <style type="text/css">
 	#mygrid { 
 		display: grid; 
 		grid-definition-columns: 50px; 
 		grid-definition-rows: 30px;
-                }
+	}
 	#title { grid-column: 1/ span 4;    grid-row: 1; }
 	#editor { grid-column: 1;       grid-row: 2 }
 	#writer { grid-column: 2;       grid-row: 2; }
-                #project{ grid-column: 3 / span 2; grid-row: 2; }
+  #project{ grid-column: 3 / span 2; grid-row: 2; }
 </style>
 
+</head>
+<body>
 <div id="mygrid">
-	<div id="A">A</div>
-	<div id="B">B</div>
-	<div id="C">C</div>
+	<div id="title"><h1>Writer - editor projects</h1></div>
+	<div id="editor">John Sterling</div>
+	<div id="writer">Chuck Brown</div>
+  <div id="project">Webplatform.org CSS property descriptions.</div>
 </div>
+
+</body>
+</html>
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
 The column numbering system is a 1-based index, with 1 being the default. That is, column numbering does not begin with zero.
 |Import_Notes====Syntax===
-<code>'''-ms-grid-column: '''''
+<code>'''grid-column: '''''
 &lt;integer&gt;
 ''</code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}215213 CSS Grid Layout], Section 6
+"http://dev.w3.org/csswg/css-grid/#placement-shorthands"
 }}
 {{Related_Specifications_Section
 |Specifications=
