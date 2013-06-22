@@ -8,13 +8,13 @@
 {{API_Name}}
 {{Summary_Section|The z-index controls the stacking order of an element. Elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of the z-index ordering, so beware.}}
 {{CSS Property
-|Initial value=auto
+|Initial value=Auto
 |Applies to=Positioned elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=auto
+|Data Type=Auto
 |Description=Default. String that specifies the stacking order of the positioned objects based on the order in which the objects appear in the HTML source.
 }}{{CSS Property Value
 |Data Type=Integer
@@ -76,7 +76,6 @@ The property does not apply to windowed controls, such as '''select''' objects.
 Input from pointing devices, such as a mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
 *The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
 *The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
-
 
 As of Windows Internet Explorer 7, the '''select''' property is windowless and can make use of the '''z-index''' attribute and the '''z-index''' property.
 
