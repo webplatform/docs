@@ -2,12 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The z-index controls the stacking order of an element. Elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of the z-index ordering, so beware.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=auto
+|Applies to=Positioned elements
 |Inherited=No
 |Media=visual
 |Animatable=No
@@ -15,8 +17,11 @@
 |Data Type=auto
 |Description=Default. String that specifies the stacking order of the positioned objects based on the order in which the objects appear in the HTML source.
 }}{{CSS Property Value
-|Data Type=order
+|Data Type=Integer
 |Description=Integer that specifies the position of the object in the stacking order.
+}}{{CSS Property Value
+|Data Type=Inherit
+|Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
 {{Examples_Section
@@ -85,6 +90,7 @@ While the '''z-index''' property normally only applies to objects that have the 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Negative values (CSS2.1 behavior, not allowed in CSS2 and earlier)
 |Chrome_supported=Yes
