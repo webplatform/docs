@@ -15,7 +15,7 @@
 |CSS object model property=fontSize
 |Values={{CSS Property Value
 |Data Type=absolute keywords
-|Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
+|Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From smallest to largest, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
 }}{{CSS Property Value
 |Data Type=relative keywords
 |Description=A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
