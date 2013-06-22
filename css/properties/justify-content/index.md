@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -34,7 +33,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=An example with the justify-content property. Open the live example, and substitute the value yourself to see the behavior.
+|Description=An example with the justify-content property, demonstrating the different options.
 |Code=.container {
   display: -webkit-flex;
   display:    -moz-flex;
@@ -45,12 +44,6 @@
   width: 800px;
   height: 100px;
   background: #CCC;
-  
-  -webkit-justify-content: space-around;
-     -moz-justify-content: space-around;
-      -ms-justify-content: space-around;
-       -o-justify-content: space-around;
-          justify-content: space-around; 
 }
 
 .container div {
@@ -66,22 +59,96 @@
     font-size: 24px;
 }
 
-.container .third-item {
+.third-item {
   width: 150px;
   background: #CC3333;
 
 }
 
-.container .second-item {
+.second-item {
   width: 275px;
   background: #FFFC33;
 }
 
-.container .first-item {
+.first-item {
   width: 200px;
   background: #3333FF;
 }
-|LiveURL=http://code.webplatform.org/gist/5528710
+
+.flex-start {
+  -webkit-justify-content: flex-start;
+     -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+       -o-justify-content: flex-start;
+          justify-content: flex-start; 
+}
+
+.flex-end {
+  -webkit-justify-content: flex-end;
+     -moz-justify-content: flex-end;
+      -ms-justify-content: flex-end;
+       -o-justify-content: flex-end;
+          justify-content: flex-end; 
+}
+
+.justifycenter {
+  -webkit-justify-content: center;
+     -moz-justify-content: center;
+      -ms-justify-content: center;
+       -o-justify-content: center;
+          justify-content: center; 
+}
+
+.space-around {
+  -webkit-justify-content: space-around;
+     -moz-justify-content: space-around;
+      -ms-justify-content: space-around;
+       -o-justify-content: space-around;
+          justify-content: space-around; 
+}
+
+.space-between {
+  -webkit-justify-content: space-between;
+     -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+       -o-justify-content: space-between;
+          justify-content: space-between; 
+}
+
+|LiveURL=http://code.webplatform.org/gist/5842739
+}}{{Single Example
+|Language=HTML
+|Code=<p>justify-content: flex-start</p>
+<div class="container flex-start">
+  <div class="first-item">first-item</div>
+  <div class="second-item">second-item</div>
+  <div class="third-item">third-item</div>
+</div>
+<p>justify-content: flex-end</p>
+<div class="container flex-end">
+  <div class="first-item">first-item</div>
+  <div class="second-item">second-item</div>
+  <div class="third-item">third-item</div>
+</div>
+<p>justify-content: center</p>
+<div class="container justifycenter">
+  <div class="first-item">first-item</div>
+  <div class="second-item">second-item</div>
+  <div class="third-item">third-item</div>
+</div>
+<p>justify-content: space-around</p>
+<div class="container space-around">
+  <div class="first-item">first-item</div>
+  <div class="second-item">second-item</div>
+  <div class="third-item">third-item</div>
+</div>
+<p>justify-content: space-between</p>
+<div class="container space-between">
+  <div class="first-item">first-item</div>
+  <div class="second-item">second-item</div>
+  <div class="third-item">third-item</div>
+</div>
+
 }}
 }}
 {{Notes_Section}}
