@@ -31,7 +31,6 @@ It sets an item's column positioning on a grid defined by "display: grid;"
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Syntax
 |Code=<pre>
 <!DOCTYPE html>
 <html >
@@ -65,7 +64,6 @@ It sets an item's column positioning on a grid defined by "display: grid;"
 |LiveURL=http://code.webplatform.org/gist/5842103
 }}{{Single Example
 |Language=CSS
-|Description=Syntax
 |Code=<pre>
 <!DOCTYPE html>
 <html >
@@ -116,6 +114,10 @@ The column numbering system is a 1-based index, with 1 being the default. That i
 &lt;string&gt;
 ''</code>
 
+
+<code>'''grid-column: '''''
+&lt;integer&gt; / ""span""
+''</code>
 ===Standards information===
 "http://dev.w3.org/csswg/css-grid/#placement-shorthands"
 }}
