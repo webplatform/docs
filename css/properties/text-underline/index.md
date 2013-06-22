@@ -46,6 +46,8 @@ Possible values: auto/before-edge/alphabetic/after-edge
 {{Notes_Section
 |Usage=The property text-underline is not supported by any of listed new browsers (Chrome/FF/Opera/IE10). 
 Instead use '''text-decoration: underline'''.
+
+The exception is '''text-underline-position'''.
 |Notes=The 'text-decoration' property has limitations stemming from its syntax, precluding fine control over each of those formatting effects. Specifically, it offers no way to control the color or line style of the underline, overline or line-through.
 CSS3 extends the model by introducing new properties allowing additional controls over those formatting effects. CSS3 also makes turning these formatting effects on or off possible without affecting any other 'text-decoration' settings.
 }}
