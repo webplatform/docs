@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
@@ -60,12 +59,12 @@ ul {
 }}{{Single Example
 |Language=HTML
 |Description=Different behaviour with lists items containing block elements
-|Code=<ul>
-	<li>List item</li>
-	<li>List item</li>
-	<li><h1>Heading</h1></li> <!-- jumps to next line in some browsers -->
-	<li>List item</li>
-</ul>
+|Code=&lt;ul>
+	&lt;li&gt;List item&lt;/li&gt;
+	&lt;li&gt;List item&lt;/li&gt;
+	&lt;li&gt;&lt;h1&gt;Heading&lt;/h1&gt;&lt;/li&gt; &lt;!-- jumps to next line in some browsers --&gt;
+	&lt;li&gt;List item&lt;/li&gt;
+&lt;/ul&gt;
 |LiveURL=http://code.webplatform.org/gist/5610773
 }}
 }}
