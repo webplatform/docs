@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -32,7 +31,6 @@ Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=&lt;length/percentage&gt; hanging
 |Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
-{{TODO|This needs some validation, the specification has no example and no elaborated description other than "inverts which lines are indented".}}
 Currently experimental in CSS Text Level 3
 }}
 }}
@@ -102,12 +100,6 @@ window.addEventListener("load", initialize, false);
 }}
 {{Notes_Section
 |Notes=The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as '''br''' in HTML.
-|Import_Notes====Syntax===
-<code>'''text-indent: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' inherit && [ hanging &#124;&#124; each-line ]?</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
