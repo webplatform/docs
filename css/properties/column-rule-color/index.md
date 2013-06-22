@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -30,12 +29,7 @@
 }
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''column-rule-color: '''''
-&lt;color&gt;
-''</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
