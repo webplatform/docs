@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Applies various image processing effects.}}
+{{Summary_Section|Applies various image processing effects.  This property is largely unsupported.  See [[#Compatibility|Compatibility]] section for more information.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
