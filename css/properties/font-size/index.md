@@ -1,6 +1,6 @@
 {{Page_Title|font-size}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,7 +10,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Computed value=as specified, but with relative lengths converted into absolute pixel values. 
+|Computed value=as specified, but with relative lengths converted into absolute pixel values.
 |Animatable=Yes
 |CSS object model property=fontSize
 |Values={{CSS Property Value
