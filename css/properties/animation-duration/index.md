@@ -44,7 +44,11 @@
 *If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animations
+|URL=http://www.w3.org/TR/css3-animations/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
