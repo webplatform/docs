@@ -1,6 +1,6 @@
 {{Page_Title|Timing and performance standards supported by Internet Explorer and HTML Windows Store Apps}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Not Neutral, Compatibility Incomplete
 |Checked_Out=No
 }}
@@ -19,6 +19,8 @@ As of this writing, these include (but are not limited to):
 * Efficient Script Yielding[https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html] (editor's draft, 28 July 2011)
 
 The implementation of these specifications by Internet Explorer depends, in part, on the state of the specification at the time support was added to the browser. Because specifications can (and frequently do) change before they are finalized, refer to the current version of the specification for the latest information.
+
+Needs topics from: http://msdn.microsoft.com/en-us/library/ie/hh772738(v=vs.85).aspx
 {{Notes_Section
 |Import_Notes====In this section===
 {| class="wikitable"
