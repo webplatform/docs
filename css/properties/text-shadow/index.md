@@ -34,18 +34,6 @@ The secont is the vertical distance, with positive values moving the shadow down
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=The following examples use the HTML as described below:
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Text-shadow example&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div id=&quot;foo&quot;&gt;bar&lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-}}{{Single Example
 |Language=CSS
 |Description=The following example creates a duplicate text, a solid text-shadow, 10px to the bottom right. The color shows the default color based on the UA.
 |Code=#foo {
