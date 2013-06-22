@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Incomplete, Examples Needed
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -61,6 +60,10 @@
 |Language=CSS
 |Description=shape-outside using a diamond described as a polygon
 |Code=shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a shape from the alpha channel of an image
+|Code=shape-outside: url(path/to/image.png);
 }}
 }}
 {{Notes_Section}}
