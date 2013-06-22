@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -12,7 +10,10 @@
 |Applies to=all elements, :before and :after pseudo elements
 |Inherited=No
 |Media=interactive
+|Computed value=Same as specified value
 |Animatable=No
+|CSS object model property=N/A
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=time
 |Description=Floating-point number, followed by a time units designator (<code>ms</code> or <code>s</code>). For more information about the supported time units, see '''CSS Values and Units Reference'''.
@@ -25,7 +26,22 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/*
+ * This example show a transition delay after hovering
+ *  over a div for the specified delay time.
+ * 
+ * In this example the background color will change 
+ * to red after hovering over a div for 3 seconds. 
+ */
+
+div:hover{
+    background-color: red;
+    transition-delay: 3s;
+}
+|LiveURL=http://code.webplatform.org/gist/5841921
+}}
 }}
 {{Notes_Section
 |Import_Notes====Standards information===
