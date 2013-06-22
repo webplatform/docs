@@ -25,7 +25,7 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 |CSS percentages=relative to the 'width' of the containing block
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a non-negative fixed width. See [[css/data_types/length|length]] for details.
+|Description=Specifies a non-negative fixed width defined in pixels, pt, em, etc. . See [[css/data_types/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=With respect to the 'width' of the containing block.
