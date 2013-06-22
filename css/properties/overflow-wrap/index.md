@@ -4,17 +4,51 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property specifies whether or not particularly long words will be 'broken' (separated into multiple lines) if necessary in order to fit in within its container. }}
 {{CSS Property
-|Inherited=No
+|Initial value=normal
+|Applies to=all elements
+|Inherited=Yes
+|Media=visual
+|Computed value=specified value
 |Animatable=No
-|Values=
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=normal
+|Description=Lines can only be broken at normal break points (spaces, non-alphanumeric characters, etc.)
+
+This is the default option.
+}}{{CSS Property Value
+|Data Type=break-word
+|Description=Lines can be broken at any point if necessary to preverse the limits of the container element -- for example, "hamburger" can be broken into "ham" and "burger" across separate lines.
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=We can compare two identical blocks of texts and see how the two possible values of '''overflow-wrap''' change the display of lines which do not fit within the container.
+|Code=/* Using the CSS 'overflow-wrap' property. */
+p {
+	width: 5em;
+	float: left;
+	margin-right: 3em;
+}
+:
+p:nth-child(1) {
+	overflow-wrap: normal;
+}
+
+p:nth-child(2):hover {
+	overflow-wrap: break-word;
+}
+|LiveURL=http://code.webplatform.org/gist/5842405
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=This property is only in use when [[css/property/white-space]] allows '''wrapping'''.
+|Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -25,8 +59,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Text
+}}
+{{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
