@@ -43,7 +43,7 @@ div {
   background-position: 0px 0px, top right;
   background-origin: padding-box, content-box;
 }
-|LiveURL=[http://www.quackit.com/css/css3/properties/css_background-origin.cfm QuackIt's live example]
+|LiveURL=[http://code.webplatform.org/gist/5842945 live example]
 }}
 }}
 {{Notes_Section
