@@ -9,15 +9,27 @@
 {{Summary_Section|Specifies the size of the mask images. Follow the 'background-size' property. Allow user to interacts with other comma-separated mask properties from each mask image layer.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements. It applies to container elements without the <defs> and graphics elements in SVG. 
+|Applies to=All elements. It applies to container elements without the <defs> and graphics elements in SVG.
 |Inherited=No
 |Media=visual
 |Animatable=No
 |CSS object model property=mask
 |CSS percentages=See text
 |Values={{CSS Property Value
-|Data Type=<bg-size>#
-|Description=Follow Size-Images with 'background-size' property.
+|Data Type=auto
+|Description=Default. See text.
+}}{{CSS Property Value
+|Data Type=contain
+|Description=Scale the image, while preserving its intrinsic aspect ratio (if any), to the largest size such that both its width and its height can fit inside the background positioning area.
+}}{{CSS Property Value
+|Data Type=cover
+|Description=Scale the image, while preserving its intrinsic aspect ratio (if any), to the smallest size such that both its width and its height can completely cover the background positioning area.
+}}{{CSS Property Value
+|Data Type=length
+|Description=A floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px).
+}}{{CSS Property Value
+|Data Type=percentage
+|Description=An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
 }}
 }}
 {{Examples_Section
