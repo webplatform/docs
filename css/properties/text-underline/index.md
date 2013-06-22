@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Deletion Candidate, Needs Review
-|Content=Grammar/Spelling, Compatibility Incomplete, Examples Errors
+|Content=Compatibility Incomplete, Examples Errors
 |Checked_Out=Yes
 |Editorial notes={{Editorial/Deletion_Candidate
 | This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
@@ -40,11 +40,12 @@ Possible values: auto/before-edge/alphabetic/after-edge
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=text-underline is actually (14.06.2013) not supported by any of listed new browsers (Chrome/FF/Opera/IE10)
 |LiveURL=http://code.webplatform.org/gist/5779274
 }}
 }}
 {{Notes_Section
+|Usage=The property text-underline is not supported by any of listed new browsers (Chrome/FF/Opera/IE10). 
+Instead use '''text-decoration: underline'''.
 |Notes=The 'text-decoration' property has limitations stemming from its syntax, precluding fine control over each of those formatting effects. Specifically, it offers no way to control the color or line style of the underline, overline or line-through.
 CSS3 extends the model by introducing new properties allowing additional controls over those formatting effects. CSS3 also makes turning these formatting effects on or off possible without affecting any other 'text-decoration' settings.
 }}
@@ -58,7 +59,9 @@ CSS3 extends the model by introducing new properties allowing additional control
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=CSS Font
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
