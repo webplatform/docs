@@ -12,8 +12,8 @@
 |Applies to=All elements. It applies to container elements without the <defs> and graphics elements in SVG.
 |Inherited=No
 |Media=visual
+|Computed value=for <length> the absolute value, otherwise a percentage.
 |Animatable=No
-|CSS object model property=mask
 |CSS percentages=See text
 |Values={{CSS Property Value
 |Data Type=auto
