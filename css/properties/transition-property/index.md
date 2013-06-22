@@ -13,7 +13,7 @@
 |Computed value=Same as specified value
 |Animatable=No
 |CSS object model property=N/A
-|CSS percentages=N/A
+|CSS percentages=transitionProperty
 |Values={{CSS Property Value
 |Data Type=none
 |Description=No transition effect is applied (all transition properties are ignored) when a new property value is specified.
