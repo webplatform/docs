@@ -1,20 +1,18 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=dom/Node
-}}
-{{Topics|DOM}}
+{{Summary_Section}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''attribute''' object to create a list of attributes that are [[dom/properties/specified|'''specified''']].
-|LiveURL=
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function fnFind(){
    for(var i{{=}}0;i&lt;oList.attributes.length;i++){
       if(oList.attributes[i].specified){
@@ -27,16 +25,15 @@ function fnFind(){
 &lt;UL onclick{{=}}"fnFind()"&gt;
 &lt;LI ID {{=}} "oList" ACCESSKEY {{=}} "L"&gt;List Item 1
 &lt;/UL&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''attribute''' object is accessible through the [[dom/properties/attribute|'''attributes''']] collection.
 A valid attribute or property can be any Dynamic HTML (DHTML) property or event that applies to the object, or an [[dom/properties/expando|'''expando''']].
 When displaying a Web page in IE8 Standards mode, Windows Internet Explorer distinguishes between attribute values specified by the original page author and the representation of those values in the DOM. For more information, see Attribute Differences in Internet Explorer 8.
 This object is available in script as of Microsoft Internet Explorer 5.
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===Members===
@@ -185,12 +182,23 @@ The '''attribute''' object has these properties.
 |Gets or sets the value of the object.
 |}
  
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
