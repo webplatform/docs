@@ -13,7 +13,9 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=The same as the specified value after clipping the <alphavalue> to the range [0.0,1.0]
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=alpha-value
 |Description=A '''Floating-point''' value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive. Any values outside the range will be clamped to this range.
