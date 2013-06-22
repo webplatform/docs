@@ -114,40 +114,40 @@
        -o-justify-content: space-between;
           justify-content: space-between; 
 }
-
 |LiveURL=http://code.webplatform.org/gist/5842739
 }}{{Single Example
 |Language=HTML
-|Code=<p>justify-content: flex-start</p>
-<div class="container flex-start">
-  <div class="first-item">first-item</div>
-  <div class="second-item">second-item</div>
-  <div class="third-item">third-item</div>
-</div>
-<p>justify-content: flex-end</p>
-<div class="container flex-end">
-  <div class="first-item">first-item</div>
-  <div class="second-item">second-item</div>
-  <div class="third-item">third-item</div>
-</div>
-<p>justify-content: center</p>
-<div class="container justifycenter">
-  <div class="first-item">first-item</div>
-  <div class="second-item">second-item</div>
-  <div class="third-item">third-item</div>
-</div>
-<p>justify-content: space-around</p>
-<div class="container space-around">
-  <div class="first-item">first-item</div>
-  <div class="second-item">second-item</div>
-  <div class="third-item">third-item</div>
-</div>
-<p>justify-content: space-between</p>
-<div class="container space-between">
-  <div class="first-item">first-item</div>
-  <div class="second-item">second-item</div>
-  <div class="third-item">third-item</div>
-</div>
+|Code=
+&lt;p&gt;justify-content: flex-start&lt;/p&gt;
+&lt;div class="container flex-start"&gt;
+  &lt;div class="first-item"&gt;first-item&lt;/div&gt;
+  &lt;div class="second-item"&gt;second-item&lt;/div&gt;
+  &lt;div class="third-item"&gt;third-item&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;justify-content: flex-end&lt;/p&gt;
+&lt;div class="container flex-end"&gt;
+  &lt;div class="first-item"&gt;first-item&lt;/div&gt;
+  &lt;div class="second-item"&gt;second-item&lt;/div&gt;
+  &lt;div class="third-item"&gt;third-item&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;justify-content: center&lt;/p&gt;
+&lt;div class="container justifycenter"&gt;
+  &lt;div class="first-item"&gt;first-item&lt;/div&gt;
+  &lt;div class="second-item"&gt;second-item&lt;/div&gt;
+  &lt;div class="third-item"&gt;third-item&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;justify-content: space-around&lt;/p&gt;
+&lt;div class="container space-around"&gt;
+  &lt;div class="first-item"&gt;first-item&lt;/div&gt;
+  &lt;div class="second-item"&gt;second-item&lt;/div&gt;
+  &lt;div class="third-item"&gt;third-item&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;justify-content: space-between&lt;/p&gt;
+&lt;div class="container space-between"&gt;
+  &lt;div class="first-item"&gt;first-item&lt;/div&gt;
+  &lt;div class="second-item"&gt;second-item&lt;/div&gt;
+  &lt;div class="third-item"&gt;third-item&lt;/div&gt;
+&lt;/div&gt;
 
 }}
 }}
