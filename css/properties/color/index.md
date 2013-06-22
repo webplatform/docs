@@ -13,6 +13,7 @@
 |Computed value=For a non-translucent color, an hexadecimal equivalent is used. Otherwise it is the RGBa equivalent
 |Animatable=Yes
 |CSS object model property=color
+|CSS percentages=NA
 |Values={{CSS Property Value
 |Data Type=color
 |Description=[[css/color|CSS color value]]
