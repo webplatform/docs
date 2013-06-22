@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -21,7 +21,7 @@
 |Description=An integer value that specifies the number of columns in the multi-column element. Values must be greater than 0. When [[css/properties/column-width|'''column-width''']] is specified with [[css/properties/column-count|'''column-count''']] and both have non-auto values, the integer value defines the maximum number of columns.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''columnWidth''']].
+|Description=The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''column-width''']].
 }}
 }}
 {{Examples_Section
