@@ -17,8 +17,11 @@
 |CSS object model property=animationName
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=single-animation-name
+|Data Type=none
 |Description=The name of an [[css/atrules/@keyframes|'''@keyframes''']] rule or the keyword <code>none</code> (default).
+}}{{CSS Property Value
+|Data Type=<single-animation-name> [, <single-animation-name>]*
+|Description=One or more comma-separated animation names. Each name is used to select the @keyframes rule that defines the animation. If the specified name does not match any @keyframes rule then no animation will be run for this name. In addition, when multiple animations update the same property the animation closest to the end of the list wins.
 }}
 }}
 {{Examples_Section
@@ -45,13 +48,8 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <code>animation-name</code> property accepts the name of one or more animations defined in <code>@keyframes</code> rules, and applies the animation(s) to the selected element. Multiple values should be separated by commas.
-
-For an animation to run, you must also specify a value for <code>animation-duration</code>.
-|Import_Notes====Syntax===
-<code>'''animation-name: '''none '''{{!}}''' ''identifier'' '''[''' ,  none '''{{!}}''' ''identifier'' ''']''' *</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.2
+|Usage=*<code>animation-name</code> has good support across browsers. 
+*Note that <code>animation-name</code> is not sufficient to run an animation. The [[css/properties/animation-duration|animation-duration]] property also needs to be set to a non-zero duration.
 }}
 {{Related_Specifications_Section
 |Specifications=
