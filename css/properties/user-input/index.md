@@ -5,11 +5,17 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Needs content}}
+{{Summary_Section|For inputing user content}}
 {{CSS Property
-|Inherited=No
-|Animatable=No
-|Values=
+|Initial value=null
+|Applies to=Text boxes, input areas, buttons, links, etc.
+|Inherited=Yes
+|Media=visual
+|Animatable=Yes
+|Values={{CSS Property Value
+|Data Type=text
+|Description=Any alpha numeric data can be entered, usually in text boxes, or address fields.
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,7 +32,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Audio, Text, Touch
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
