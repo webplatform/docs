@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|<code>writing-mode</code> specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress. }}
 {{CSS Property
 |Initial value=horizontal-tb
 |Applies to=All elements except table row groups, table column groups, table rows, and table columns
