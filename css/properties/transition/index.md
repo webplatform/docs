@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
