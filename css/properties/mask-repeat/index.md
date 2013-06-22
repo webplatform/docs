@@ -2,14 +2,15 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|repeat-y|Specifies how mask images are tiled after they have been sized and positioned_ Where 
+{{Summary_Section|The "mask-repeat property" specifies whether a mask image is repeated (tiled), and how is repeated (round, space etc.).|Specifies how mask images are tiled after they have been sized and positioned_ Where 
 <repeat-style>=repeat-x
 }}
 {{CSS Property
+|Initial value=repeat
 |Inherited=No
 |Animatable=No
 |Values=
