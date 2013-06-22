@@ -67,24 +67,16 @@
 }}
 }}
 {{Notes_Section
-|Usage=The property controls how the browser calculates intermediate
-values between each keyframe, not the course of the entire animation.
-
-It can be added to individual keyframes within a
-[[css/atrules/@keyframes|'''@keyframes''']] rule, or to a style rule
-that applies an animation to an element. When specified in a style
-rule, this property sets the default timing function for each
-keyframe, but values specified within a
-[[css/atrules/@keyframes|'''@keyframes''']] rule take precedence. If
-no value is set, the default '''ease''' value applies.
-
-Along with other animation properties, multiple values separated by
-commas apply to animations in the same order as they are listed by the
-[[css/properties/animation-name|'''animation-name''']] property. Excess values are ignored. If there are
-fewer values than animations, they're recycled in order of declaration until their numbers match.
+|Usage=* The timing functions supported by <code>animation-timing-function</code> are defined by <code>[[css/properties/transition-timing-function|transition-timing-function]]</code>.
+*If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies more timing functions than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess functions are ignored.
+*If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of functions is repeated as many times as necessary to ensure each animation has a duration.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animations
+|URL=http://www.w3.org/TR/css3-animations/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
