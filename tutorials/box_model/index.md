@@ -1,6 +1,7 @@
 {{Page_Title|Exploring the CSS box model}}
 {{Flags
-|Content=Cleanup
+|Content=Incomplete, Cleanup
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article describes how you can use CSS to control the space that an element takes up when it is displayed.}}
@@ -164,8 +165,10 @@ To get the result you want, you might have to change your document's markup. The
 
 <p class="note">Need to add in a screenshot to show what this should look like.</p>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
