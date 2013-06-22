@@ -17,7 +17,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=No exclusion is created. Inline flow content interacts with the element as usual. 
+|Description=No exclusion is created. Inline flow content interacts with the element as usual.
 }}{{CSS Property Value
 |Data Type=both
 |Description=Inline flow content can flow on all sides of the exclusion.
@@ -45,7 +45,7 @@
 {{Notes_Section
 |Usage=If the property's computed value is ‘auto’, the element does not become an exclusion.
 
-An exclusion affects the inline flow content descended from the exclusion's containing block and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the ‘wrap-through’ property can be used.
+An exclusion affects the inline flow content descended from the exclusion's containing block and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the  [[css/properties/wrap-through|wrap-through]] property can be used.
 }}
 {{Related_Specifications_Section
 |Specifications=
