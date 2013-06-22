@@ -47,7 +47,7 @@ This property will set the underline style for text with a line value for underl
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
