@@ -37,13 +37,12 @@ grid-row: 3;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The row numbering system is a 1-based index, with 1 being the default. That is, row numbering does not begin with zero.
-|Import_Notes====Syntax===
-<code>'''grid-row: '''''
+|Usage=<code>'''grid-row: '''''
 &lt;integer&gt;
 ''</code>
-===Standards information===
+|Notes====Remarks===
+The row numbering system is a 1-based index, with 1 being the default. That is, row numbering does not begin with zero.
+|Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-grid-layout/#grid-row CSS Grid Layout]
 }}
 {{Related_Specifications_Section
