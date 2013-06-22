@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
+|Content=Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -21,7 +21,7 @@
 |Description=No animation applies to the element. This is the initial value of the property.
 }}{{CSS Property Value
 |Data Type=<single-animation-name> [, <single-animation-name>]*
-|Description=One or more comma-separated animation names. Each name is used to select the [[css/atrules/@keyframes|'''@keyframes''']] rule that defines the animation. If the specified name does not match any [[css/atrules/@keyframes|'''@keyframes''']] rule then no animation will be run for this name. In addition, when multiple animations update the same property the animation closest to the end of the list wins.
+|Description=One or more comma-separated animation names. Each name is used to select the <code>[[css/atrules/@keyframes|'''@keyframes''']]</code> rule that defines the animation. If the specified name does not match any <code>[[css/atrules/@keyframes|'''@keyframes''']]</code> rule then no animation will be run for this name. In addition, when multiple animations update the same property the animation closest to the end of the list wins.
 }}
 }}
 {{Examples_Section
@@ -49,7 +49,7 @@
 }}
 {{Notes_Section
 |Usage=*<code>animation-name</code> has good support across browsers. 
-*Note that <code>animation-name</code> is not sufficient to run an animation. The [[css/properties/animation-duration|animation-duration]] property also needs to be set to a non-zero duration.
+*Note that <code>animation-name</code> is not sufficient to run an animation. The <code>[[css/properties/animation-duration|animation-duration]]</code> property also needs to be set to a non-zero duration.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -121,66 +121,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-*<code>ms-fill</code>
+|Manual_links=*<code>[[css/properties/animation-duration|animation-duration]]</code>
 *<code>[[css/atrules/@keyframes|@keyframes]]</code>
 }}
 {{Topics|CSS}}
