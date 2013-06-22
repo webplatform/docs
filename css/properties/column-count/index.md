@@ -92,7 +92,7 @@ To ensure the specified value is used, all length property values of the multi-c
 |Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model, Multi-Column, Responsive Web Design
+|Topic_clusters=Multi-Column, Responsive Web Design
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
