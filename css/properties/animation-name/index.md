@@ -9,7 +9,7 @@
 {{Summary_Section|Defines the list of animations that apply to the element}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements, "::before" and "::after" pseudo-elements
+|Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
