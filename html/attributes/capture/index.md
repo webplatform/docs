@@ -1,14 +1,18 @@
 {{Page_Title|capture}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=this article is currently being worked on
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The capture attribute is a boolean attribute that, if specified, indicates that the capture of media directly from the device's environment using a media capture mechanism is preferred.}}
+{{API_Name|HTML Media Capture}}
+{{Summary_Section|The capture attribute facilitates user access to a device's media capture mechanism, such as a camera, or microphone, from within a file upload control, for capturing media on the spot.}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=The capture attribute is a boolean attribute that, if specified, indicates that the capture of media directly from the device's environment using a media capture mechanism is preferred.
+
+The capture attribute applies to input elements when the type attribute's value is file and its accept attribute is specified. If the accept attribute's value is set to a MIME type that has no associated capture control type, the user agent acts as if there was no capture attribute.
+
+The media capture mechanism builds upon the security and privacy protections provided by the <input type="file"> and the File API specifications; in particular, it is expected that any offer to start capturing content from the user’s device would require a specific user interaction on an HTML element that is entirely controlled by the user agent.
 }}
 {{Examples_Section
 |Not_required=No
