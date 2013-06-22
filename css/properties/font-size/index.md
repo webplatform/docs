@@ -21,7 +21,7 @@
 |Description=A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
 }}{{CSS Property Value
 |Data Type=length
-|Description=An absolute or relative unit value: any of the standard [[css/data_types/length|css length units]] are allowed.
+|Description=An absolute unit value: any of the standard [[css/data_types/length|css length units]] are allowed. Negative lengths are illegal.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=A percentage value, indicating a percentage of the parent element's '''font-size'''.
