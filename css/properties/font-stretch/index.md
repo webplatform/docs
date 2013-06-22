@@ -2,71 +2,91 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Allows you to make text wider or narrower.}}
+{{Summary_Section|Allows you to expand or condense the widths for a normal, condensed, or expanded font face.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Animatable=No
+|Computed value=as specified
+|Animatable=Yes
 |Values={{CSS Property Value
-|Data Type=normal
-|Description=Default. Indicates the face is neither condensed nor expanded.
-}}{{CSS Property Value
-|Data Type=wider
-|Description=Indicates a wider value relative to the width of the parent element.
-}}{{CSS Property Value
-|Data Type=narrower
-|Description=Indicates a narrower value relative to the width of the parent element.
-}}{{CSS Property Value
 |Data Type=ultra-condensed
-|Description=Indicates the most condensed font face.
+|Description=This is the most condensed setting.
 }}{{CSS Property Value
 |Data Type=extra-condensed
-|Description=Indicates the second most condensed font face.
+|Description=This is the second most condensed setting.
 }}{{CSS Property Value
 |Data Type=condensed
-|Description=Indicates a condensed font face.
+|Description=Some font faces incorporate a condensed option, this is the equivalent of that setting.
 }}{{CSS Property Value
 |Data Type=semi-condensed
-|Description=Indicates a slightly condensed font face.
+|Description=This is the least condensed setting.
+}}{{CSS Property Value
+|Data Type=normal
+|Description=This is the default setting.
 }}{{CSS Property Value
 |Data Type=semi-expanded
-|Description=Indicates a slightly expanded font face.
+|Description=This is the least expanded setting.
 }}{{CSS Property Value
 |Data Type=expanded
-|Description=Indicates an expanded font face.
+|Description=Some font faces incorporate an expanded option, this is the equivalent of that setting.
 }}{{CSS Property Value
 |Data Type=extra-expanded
-|Description=Indicates the second most expanded font face.
+|Description=This is the second most expanded setting.
 }}{{CSS Property Value
 |Data Type=ultra-expanded
-|Description=Indicates the most expanded font face.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Indicates that the property takes the same computed value as the property for the element's parent.
+|Description=This is the most expanded setting.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Currently not supported in any browser.
+|Code=.ultra-condensed{
+	-webkit-font-stretch:ultra-condensed;
+	-ms-font-stretch:ultra-condensed;
+	-moz-font-stretch:ultra-condensed;
+	-o-font-stretch:ultra-condensed;
+	font-stretch:ultra-condensed;
+	}
+.condensed{
+	-webkit-font-stretch:condensed;
+	-ms-font-stretch:condensed;
+	-moz-font-stretch:condensed;
+	-o-font-stretch:condensed;
+	font-stretch:condensed;
+	}
+.normal{
+	-webkit-font-stretch:normal;
+	-ms-font-stretch:normal;
+	-moz-font-stretch:normal;
+	-o-font-stretch:normal;
+	font-stretch:normal;
+	}
+.expanded{
+	-webkit-font-stretch:expanded;
+	-ms-font-stretch:expanded;
+	-moz-font-stretch:expanded;
+	-o-font-stretch:expanded;
+	font-stretch:expanded;
+	}
+.ultra-expanded{
+	-webkit-font-stretch:ultra-expanded;
+	-ms-font-stretch:ultra-expanded;
+	-moz-font-stretch:ultra-expanded;
+	-o-font-stretch:ultra-expanded;
+	font-stretch:ultra-expanded;
+	}
+|LiveURL=http://code.webplatform.org/gist/5842671
+}}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Absolute keyword values have the following order, from narrowest to widest:
-*Ultra condensed
-*Extra condensed
-*Condensed
-*Semi condensed
-*Normal
-*Semi expanded
-*Expanded
-*Extra expanded
-*Ultra expanded
-
-The scale is relative, so a font face that has a font-stretch value  higher in the previous list above should never appear wider. When a font face does not exist for a given width, normal or condensed values map to a narrower font face. Otherwise, they map to a wider font face. Conversely, expanded values map to a wider font face; otherwise, a narrower face.
 |Import_Notes====Syntax===
 <code>'''font-stretch: '''normal '''{{!}}''' wider '''{{!}}''' narrower '''{{!}}''' ultra-condensed '''{{!}}''' extra-condensed '''{{!}}''' condensed '''{{!}}''' semi-condensed '''{{!}}''' semi-expanded '''{{!}}''' expanded '''{{!}}''' extra-expanded '''{{!}}''' ultra-expanded '''{{!}}''' inherit</code>
 ===Standards information===
