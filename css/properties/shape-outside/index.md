@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Content=Incomplete, Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -36,6 +37,30 @@
 |Examples={{Single Example
 |Description=This is a working example pulled from the Editor's Draft.
 |LiveURL=http://code.webplatform.org/gist/5832982
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a rectangle equal to the content box
+|Code=shape-outside: rectangle (0, 0, 100%, 100%);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using an inset rectangle 10px smaller than the content box in each dimension
+|Code=shape-outside: inset-rectangle (5px, 5px, 5px, 5px);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a rounded rectangle
+|Code=shape-outside: rectangle (0 ,0, 100%, 100%, 10px, 10px);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a circle filling the content box
+|Code=shape-outside: circle (0, 0, 50%);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a ellipse wider than it is tall
+|Code=shape-outside: ellipse (0, 0, 50%, 30%);
+}}{{Single Example
+|Language=CSS
+|Description=shape-outside using a diamond described as a polygon
+|Code=shape-outside: polygon (50% 0, 100% 50%, 50% 100%, 0 50%);
 }}
 }}
 {{Notes_Section}}
