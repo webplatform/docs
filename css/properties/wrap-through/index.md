@@ -11,7 +11,10 @@
 |Initial value=wrap
 |Applies to=block-level elements
 |Inherited=No
+|Media=visual
+|Computed value=as specified
 |Animatable=Yes
+|CSS object model property=wrapThrough
 |Values={{CSS Property Value
 |Data Type=wrap
 |Description=This element's inline content respects its parent's wrapping context. Content will wrap around exclusions defined outside this element and inside this element
