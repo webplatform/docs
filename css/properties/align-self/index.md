@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -56,7 +55,9 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 |LiveURL=http://code.webplatform.org/gist/4745364
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This property will have no effect if the flex-item's cross axis margins are set to auto.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
