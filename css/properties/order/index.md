@@ -15,7 +15,6 @@
 |CSS object model property=order
 |Values={{CSS Property Value
 |Data Type=<integer>
-|Description=Negative numbers are invalid.
 }}
 }}
 {{Examples_Section
@@ -41,10 +40,10 @@
 |LiveURL=http://code.webplatform.org/gist/4741023
 }}{{Single Example
 |Language=CSS
-|Description=The Holy Grail Layout example.
-|Code=-webkit-order: 2;
-   -moz-order: 2;
-          order: 2;
+|Description=The Holy Grail Layout example. Given a source order of article-nav-aside, use order to rearrange these elements as flex items into nav-article-aside
+|Code=article { order: 2; }
+nav { order: 1; }
+aside { order: 3; }
 }}
 }}
 {{Notes_Section}}
