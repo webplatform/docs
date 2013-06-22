@@ -17,13 +17,13 @@
 |CSS object model property=textShadow
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. Indicates there is no shadow.
+|Description=None is a default value if unspecified. No shadow is displayed. 
 }}{{CSS Property Value
 |Data Type=<color>
-|Description=Optional. See [[css/color|CSS color values]] for possible keywords and notations. If not specified, the color used depends on the browser. The color value can be specified either before or after the offset values.
+|Description=Optional. See [[css/color|CSS color values]] for possible keywords and notations. If not specified, a default color is chosen by a user agent. The color value can be specified either before or after the offset values.
 }}{{CSS Property Value
 |Data Type=<offset-x> <offset-y>
-|Description=Required. Two [[css/data_types/length|<length>]] values that specify the shadow's distance from the text. 
+|Description=Offset values can be . Two [[css/data_types/length|<length>]] values that specify the shadow's distance from the text. 
 The first is the horizontal distance, with positive values moving it to the right, and negative values moving it to the left.
 The secont is the vertical distance, with positive values moving the shadow down, and negative values moving it up.
 }}{{CSS Property Value
