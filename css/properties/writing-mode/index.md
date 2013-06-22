@@ -18,7 +18,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=horizontal-tb
-|Description=Lines of text are laid out horizontally, and progress from the top to the bottom of the page. This is the writing mode used in many writing systems, such as Latin, Greek, Cyrillic, Arabic, Hebrew, etc.   
+|Description=Lines of text are laid out horizontally, and progress from the top to the bottom of the page. This is the writing mode used in many writing systems, such as Latin, Greek, Cyrillic, Arabic, Hebrew, etc.
 }}{{CSS Property Value
 |Data Type=vertical-rl
 |Description=Lines of text are laid out vertically, and progress from the right to the left of the page. Asian languages, such as Chinese or Japanese traditionally used this writing mode.
@@ -27,37 +27,37 @@
 |Description=Lines of text are laid out vertically, and progress from the left to the right of the page. Mongolian-based writing systems typically use this writing mode.
 }}{{CSS Property Value
 |Data Type=lr-tb
-|Description=Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems. 
+|Description=Deprecated value. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
 }}{{CSS Property Value
 |Data Type=rl-tb
-|Description=Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac. Maps to the horizontal-tb value, and direction: rtl; in the current spec. Maps to the horizontal-tb value, and direction: ltr; in the current spec.
+|Description=Deprecated value. Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac. Maps to the horizontal-tb value, and direction: rtl; in the current spec. Maps to the horizontal-tb value, and direction: ltr; in the current spec.
 }}{{CSS Property Value
 |Data Type=tb-rl
-|Description=Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography. Maps to the vertical-rl value in the current spec.
+|Description=Deprecated value. Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography. Maps to the vertical-rl value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-rl
-|Description=Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
+|Description=Deprecated value. Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
 }}{{CSS Property Value
 |Data Type=tb-lr
-|Description=Internet Explorer 8. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line. Maps to the vertical-lr value in the current spec.
+|Description=Deprecated value. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line. Maps to the vertical-lr value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-lr
-|Description=Internet Explorer 8.	Content flows vertically from bottom to top, left to right.
+|Description=Deprecated value. Content flows vertically from bottom to top, left to right.
 }}{{CSS Property Value
 |Data Type=lr-bt
-|Description=Internet Explorer 8. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.
+|Description=Deprecated value. Content flows horizontally from bottom to top, left to right. The next horizontal line is positioned above the previous line.
 }}{{CSS Property Value
 |Data Type=rl-bt
-|Description=Internet Explorer 8. Content flows horizontally from bottom to top, right to left.
+|Description=Deprecated value. Content flows horizontally from bottom to top, right to left.
 }}{{CSS Property Value
 |Data Type=lr
-|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.
+|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''lr-tb'''.
 }}{{CSS Property Value
 |Data Type=rl
-|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.
+|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''rl-tb'''.
 }}{{CSS Property Value
 |Data Type=tb
-|Description=Internet Explorer 9. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.
+|Description=Deprecated value. For use on SVG and HTML elements. Equivalent to '''tb-rl'''.
 }}
 }}
 {{Examples_Section
@@ -175,6 +175,14 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 |Browser=Internet Explorer
 |Version=5.5–current
 |Note=Supports a previous version of the spec with alternative value names
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9
+|Note=Added support for lr, rl and tb values
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=Added support for tb-lr, bt-lr, lr-bt, and rl-bt values
 }}{{Compatibility Notes Row
 |Browser=WebKit
 |Note=Currently requires the -webkit- prefix
