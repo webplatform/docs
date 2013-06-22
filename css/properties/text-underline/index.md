@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Deletion Candidate, Needs Review
 |Content=Grammar/Spelling, Compatibility Incomplete, Examples Errors
 |Checked_Out=Yes
+|Editorial notes=This was never implemented.
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
