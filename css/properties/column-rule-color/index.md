@@ -7,11 +7,14 @@
 {{API_Name}}
 {{Summary_Section|Specifies the color of the rule between columns.}}
 {{CSS Property
-|Initial value=black
+|Initial value=currentColor
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=as specified
+|Animatable=Yes
+|CSS object model property=columnRuleColor
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
 |Description=One of the color names or RGB values in the [[css/color/color table|Color Table]].
