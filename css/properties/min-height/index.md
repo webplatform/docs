@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -50,95 +48,60 @@ It overrides both the height & the max-height property if any them is specified 
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=The following Internet Explorer 6 example shows the benefits of using the '''min-height''' attribute over the [[html/attributes/height|'''HEIGHT''']] attribute for a '''tr''' element.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;min-height Attribute Example&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;table border{{=}}"1" style{{=}}"table-layout: fixed; width: 100%;"&gt;
-    &lt;tr&gt;
-        &lt;td style{{=}}"height: 35px; background-color: #99CCFF"&gt;This cell has the &lt;b&gt;
-        height&lt;/b&gt; attribute set to 35px. In Internet Explorer, overflow text is 
-        clipped when &lt;b&gt;height&lt;/b&gt; is set on cells or rows in fixed-layout tables. 
-        Setting the &lt;b&gt;min-height&lt;/b&gt; attribute, however, accommodates overflow text 
-        by increasing the cell or row height.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td style{{=}}"min-height: 35px; background-color: #99CCFF"&gt;This cell has the
-        &lt;b&gt;min-height&lt;/b&gt; attribute set to 35px. In Internet Explorer, overflow 
-        text is clipped when &lt;b&gt;height&lt;/b&gt; is set on cells or rows in fixed-layout 
-        tables. Setting the &lt;b&gt;min-height&lt;/b&gt; attribute, however, accommodates overflow 
-        text by increasing the cell or row height.&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/minheight.htm
-}}{{Single Example
 |Language=CSS
-|Description=The following Internet Explorer 7 example shows how the '''min-height''' and [[css/properties/max-height|'''max-height''']] attributes affect the layout of a '''div''' element. Internet Explorer 7 is required to view the example.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-.height {
-    float: left;
-    width: 300px;
-    background: #fff;
-    margin: 0 1em;
+|Description=Use min-height with any CSS selector to apply it.
+|Code=/* Ensure all div elements are a min-height of 100px */
+div { min-height: 100px }
+}}{{Single Example
+|Language=HTML
+|Description=min-height property overrides the height of an element.
+|Code=&lt;style&gt;
+/* min-height example */
+
+/*Default width. Height is based on the content*/
+.without-min-height, .with-min-height {
+    width: 100px;
 }
-#example1 {
-    min-height: 200px;
+
+/*Max height overrides height*/
+.with-min-height {
+    background: cyan;
+    min-height: 300px;
 }
-#example2 {
-    max-height: 100px;
+
+.without-min-height {
+	background: red;
 }
+
 .content {
-    border: 1px solid #c00;
-    padding: 5px;
+	border: 1px solid black;
+	padding: 10px;
 }
 &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class{{=}}"height" id{{=}}"example1"&gt;
-    &lt;div class{{=}}"content"&gt;
-        &lt;h2&gt;{ min-height:200px }&lt;/h2&gt;
-        &lt;p&gt;The height of this div is always at least 200px.&lt;br /&gt;
-        &lt;br /&gt;
-        The content does not fill the entire div.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class{{=}}"height" id{{=}}"example2"&gt;
-    &lt;div class{{=}}"content"&gt;
-        &lt;h2&gt;{ max-height:100px }&lt;/h2&gt;
-        &lt;p&gt;This div will not grow more than 100px in height.&lt;br /&gt;
-        &lt;br /&gt;
-        The content that does not fit in the div continues beyond it.&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/minHeight7.htm
+
+&lt;div class="without-min-height"&gt;&lt;p class="content"&gt;Without Min Height. Height taken from content (with black border).&lt;/p&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class="with-min-height"&gt;&lt;p class="content"&gt;With Min Height. Content (with black border) may not fill entirety of element.&lt;/p&gt;&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/5842440
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-In Internet Explorer 6, this property applies only to '''td''', '''th''', and '''tr''' elements in fixed-layout tables. To create a fixed-layout table, set the [[css/properties/table-layout|'''table-layout''']] property of a [[html/elements/table|'''table''']] element to <code>fixed</code>. The advantage of a fixed-layout table is that it renders faster than an auto-layout table. Auto-layout tables are the default.
-In Internet Explorer 7, the '''min-height'''/[[css/properties/max-height|'''max-height''']] attributes apply to floating and absolutely positioned block, inline-block elements, and some intrinsic controls. They do not apply to non-replaced inline elements, such as table columns and row/column groups. (A "replaced" element has intrinsic dimensions, such as an '''img''' or '''textArea'''.)
-In Internet Explorer 7, this property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE]].
-|Import_Notes====Syntax===
-<code>'''min-height: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 10.7
+|Usage=CSS min height is well supported across most browsers. A few things to consider while usage:
+* min-height overrides [[css/properties/max-height|max-height]]. If min-height supplied is greater than max-height, max-height does not have an impact.
+* max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
+* Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1 (Section 10.7)
+|URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
+|URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
+|Status=Working Draft
+|Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
