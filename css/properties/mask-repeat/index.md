@@ -24,7 +24,7 @@
 |Language=CSS
 |Code=body {
   background-color: white;
-  mask-image: mask-image: linear-gradient(black 100%, transparent 0%) ;
+  mask-image:  linear-gradient(black 100%, transparent 0%) ;
   mask-position: center;
   mask-repeat: repeat-y;
 }
