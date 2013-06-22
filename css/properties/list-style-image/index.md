@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -17,24 +17,34 @@
 |Data Type=none
 |Description=Default. No image is specified.
 }}{{CSS Property Value
-|Data Type=<uri>
-|Description=Location of the image, where <uri> is an absolute or relative URL.
+|Data Type=url(path/to/image.png)
+|Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the '''list-style-image''' attribute and the '''list-style-image''' property to set the image for markers.
+|Description=The following examples use the `list-style-image` property to modify the list item marker of an unordered list, specifying an absolute and a relative URL respectively.
 
 This example uses '''ul''' as a selector in an embedded (global) style sheet to set the marker to the dot.gif image.
-|Code=ul { list-style-image: url("images/dot.gif") }
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-image.htm
+|Code=/* Using an absolute URI to specify an image */
+.firstlist {
+	list-style-image: url(http://docs.webplatform.org/static/images/logo.png);
+} 
+
+/* Using a relative URI to specify an image */
+.secondlist {
+	list-style-image: url(special_icon.png);
+}
+|LiveURL=http://code.webplatform.org/gist/5841596
 }}{{Single Example
 |Language=JavaScript
 |Description=This example uses inline scripting to change the style of the list-item marker to an image when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;UL onmouseover{{=}}"this.style.listStyleImage{{=}}'url(dot.gif)'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/listStyleImage.htm
+
+Additionally, when an [[dom/events/mouseout|'''onmouseout''']] event occurs, `list-style-type` is set to "none", setting it back to the browser's default.
+|Code=<ul onMouseOver="this.style.listStyleImage='url(favicon.ico)';" onMouseOut="this.style.listStyleImage='none';">
+|LiveURL=http://code.webplatform.org/gist/5841611
 }}
 }}
 {{Notes_Section
