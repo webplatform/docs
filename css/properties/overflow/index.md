@@ -37,7 +37,7 @@ Setting the '''overflow''' property to '''hidden''' on a '''textArea''' object h
 Setting the '''overflow''' property to '''visible''' causes the content to clip to the size of the window or frame that contains the object.
 With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property applies to the '''html''' object.
 
-Vendor prefixes are available under the -ms-overflow-style property and the [http://code.webplatform.org/gist/5841978 -webkit-marquee] value. 
+Vendor prefixes are available under the <code>-ms-overflow-style</code> property and the [http://code.webplatform.org/gist/5841978 -webkit-marquee] value.  [http://www.w3.org/TR/css3-marquee/ Marquee] rendering is coupled with the following properties: <code>marquee-direction</code>, <code>marquee-speed</code>, and <code>marquee-style</code>.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
