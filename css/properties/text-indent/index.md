@@ -47,38 +47,20 @@ Currently an experimental feature.
 |Description=The following examples use the '''text-indent''' attribute and the '''text-indent''' property to indent the object's text.
 
 This example uses calls to an embedded style sheet to change the indent on the text when a [[dom/events/click|'''click''']] event occurs. The text was originally indented 2 centimeters using '''div''' as a selector in the style sheet.
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
- &lt;head&gt;
- &lt;title&gt;Example&lt;/title&gt;
-  &lt;style&gt;
-div {
- text-indent:2cm;
+|Code=/* Indenting a line by an absolute value. */
+p:nth-child(1) {
+	text-indent: 3em;
 }
-.click1 {
- text-indent:5%;
+
+/* Indenting a line by an absolute value, but with the `hanging` keyword. */
+p:nth-child(2) {
+	text-indent: 3em hanging;
 }
-.click2 {
- text-indent: 3cm;
+
+/* Indenting a line by a percentage (the width used is the distance from the beginning to the end of the line.) */
+p:nth-child(3) {
+	text-indent: 50%;
 }
-  &lt;/style&gt;
-  &lt;script&gt;
-function initialize() {
-  var element = document.getElementById("example");
-  element.addEventListener("click", function () {
-    this.className = "click1";
-  }, false);
-  element.addEventListener("dblclick", function () {
-    this.className = "click2";
-  }, false);
-}
-window.addEventListener("load", initialize, false);
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-  &lt;div id="example"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum malesuada quam, ut ullamcorper nunc posuere in. Duis ullamcorper fringilla lorem eget accumsan. Praesent neque ipsum, tincidunt eget aliquet sit amet, tempor eget felis. Duis nibh magna, vestibulum et molestie sed, porttitor vel tellus. Nunc suscipit justo ut magna imperdiet pharetra. Suspendisse potenti. Vivamus vestibulum, dui eu fermentum blandit, nunc dolor aliquet massa, non elementum arcu arcu ut risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tincidunt nibh at ipsum semper eu tempor nisi ornare. Nunc vestibulum elementum dapibus. Morbi pellentesque nulla non est adipiscing id commodo eros blandit. Suspendisse mauris tellus, auctor a sodales a, consequat nec diam.&lt;/div&gt;
- &lt;/body&gt;
-&lt;/html&gt;
 |LiveURL=http://code.webplatform.org/gist/5842068
 }}{{Single Example
 |Language=HTML
