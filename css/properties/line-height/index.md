@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -27,7 +26,10 @@ In most cases, it multiplies the height of the font by 1.2.
 |Description=The specified length is used in the calculation of the line box height: a number immediately followed by a length unit - <code>px</code>, <code>em</code>, <code>pc</code>, <code>in</code>, <code>mm</code>. Negative values cannot be used.
 }}{{CSS Property Value
 |Data Type=<percentage>
-|Description=The used value of the property is the percentage of the element's font size. Negative values cannot be used.
+|Description=The value of this property is determined by multiplying this number by the element's font size. Negative values cannot be used.
+}}{{CSS Property Value
+|Data Type=none
+|Description=This value has no effect on the rendering of the element and for block inline elements it is equivalent to 'normal.'
 }}
 }}
 {{Examples_Section
