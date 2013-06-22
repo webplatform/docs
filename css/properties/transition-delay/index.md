@@ -29,7 +29,7 @@ If fewer  '''transition-delay''' values are declared than corresponding object p
 |Examples={{Single Example
 |Language=CSS
 |Code=/*
- * This example show a transition delay after hovering
+ * This example shows a transition delay after hovering
  *  over a div for the specified delay time.
  * 
  * In this example the background color will change 
