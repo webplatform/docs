@@ -1,70 +1,76 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Increments one or more counter values.}}
+{{Summary_Section|The counter-increment property accepts one or more names of counters (identifiers), each one optionally followed by an integer which specifies the value by which the counter should be incremented (e.g. if the value is 2, the counter increases by 2 each time it is invoked). }}
 {{CSS Property
+|Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=identifier
-|Description=The name of the counter, optionally followed by an
-'''increment'''.
+|Description=The name of the counter.  The counter can then be invoked by using '''counter(<identifier>)'''.
 }}{{CSS Property Value
 |Data Type=integer
 |Description=An integer that indicates by how much the counter is
 incremented for every occurrence of the element.
-Zero and negative integers are allowed.
+Zero and negative integers are allowed.  If no value is specified, the value defaults to 1.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example demonstrates automatic
-chapter and section numbering using
-[[css/properties/counter-reset|'''counter-reset''']],
-'''counter-increment''',
-and [[css/properties/content|'''content''']].
-The <code>chapter</code> counter is set to zero for the
-'''body''' element,
-and then incremented for each '''hn'''
-element encountered. The <code>section</code> counter is
-reset for each '''hn''' element and
-incremented for each '''hn''' element.
-When the page is viewed, each
-'''hn''' element is preceded by
-a chapter heading of the form
-<code>"Chapter</code>''X''<code>."</code>,
-while each '''hn''' element is preceded by
-a section number of the form
-<code>"</code>''X.N''<code>"</code>.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-BODY {
-    counter-reset: chapter;      /* Create a chapter counter */
+|Language=CSS
+|Description=This example uses '''counter-increment''' and the '''content''' properties to prepend headers with an outline-esque, identifier, similar to an ordered list.  (Note that the numbering does not reset between the two headers: this can be handled with {{css/properties/counter-reset}}.)
+|Code=/*
+ * Using the CSS 'counter-increment' property.
+ */
+
+h1 {
+	counter-increment: header;
 }
-H1 {
-    counter-increment: chapter;  /* Add 1 to chapter */
-    counter-reset: section;      /* Set section to 0 */
+
+h1:before {
+ 	content: counter(header) ". ";
 }
-H1:before {
-    content: "Chapter " counter(chapter) ". ";
+
+h2 {
+	counter-increment: subheader;
 }
-H2 {
-    counter-increment: section;
+
+h2:before {
+	content: counter(header) "." counter(subheader) ". ";
+} 
+|LiveURL=http://code.webplatform.org/gist/5841845
+}}{{Single Example
+|Language=CSS
+|Description=This example shows how to specify an integer in the '''counter-increment''' property and allow the CSS to increment the counter by values besides 1.  
+|Code=/*
+ * Using the CSS 'counter-increment' property with a non-default increment JavaScript.
+ */
+
+/* In this example, we specify both an identifier and an integer -- the integer is the number
+ * which the counter is increased by every time it is used.
+ */
+h1 {
+	counter-increment: header 3;
 }
-H2:before {
-    content: counter(chapter) "." counter(section) " ";
+
+/* Using the pseudo-element `:after`, we place the counter after each valid `h1` tag. */
+h1:after {
+ 	content: counter(header) ". ";
 }
-&lt;/style&gt;
+|LiveURL=http://code.webplatform.org/gist/5841870
 }}
 }}
 {{Notes_Section
+|Usage=It is important to note that '''counter-increment''' can handle multiple counters and non-positive integers, though best practices often dictates that counters should be defined separately.
 |Notes====Remarks===
 The
 '''counter-increment'''
