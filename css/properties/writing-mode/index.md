@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
@@ -17,20 +17,29 @@
 |CSS object model property=writingMode
 |CSS percentages=N/A
 |Values={{CSS Property Value
+|Data Type=horizontal-tb
+|Description=Lines of text are laid out horizontally, and progress from the top to the bottom of the page. This is the writing mode used in many writing systems, such as Latin, Greek, Cyrillic, Arabic, Hebrew, etc.   
+}}{{CSS Property Value
+|Data Type=vertical-rl
+|Description=Lines of text are laid out vertically, and progress from the right to the left of the page. Asian languages, such as Chinese or Japanese traditionally used this writing mode.
+}}{{CSS Property Value
+|Data Type=vertical-lr
+|Description=Lines of text are laid out vertically, and progress from the left to the right of the page. Mongolian-based writing systems typically use this writing mode.
+}}{{CSS Property Value
 |Data Type=lr-tb
-|Description=Default. Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems.
+|Description=Content flows horizontally from left to right, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used by most writing systems. 
 }}{{CSS Property Value
 |Data Type=rl-tb
-|Description=Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac.
+|Description=Content flows horizontally from right to left, top to bottom. The next horizontal line is positioned underneath the previous line. All glyphs are positioned upright. This layout is used with right-to-left scripts like Arabic, Hebrew, Thaana, and Syriac. Maps to the horizontal-tb value, and direction: rtl; in the current spec. Maps to the horizontal-tb value, and direction: ltr; in the current spec.
 }}{{CSS Property Value
 |Data Type=tb-rl
-|Description=Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography.
+|Description=Content flows vertically from top to bottom, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used in East Asian typography. Maps to the vertical-rl value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-rl
 |Description=Content flows vertically from bottom to top, right to left. The next vertical line is positioned to the left of the previous line. Wide-cell glyphs are positioned upright; nonwide-cell glyphs (also known as narrow Latin or narrow Kana glyphs) are rotated 90° clockwise. This layout is used for right-to-left script blocks used in vertical East Asian typography.
 }}{{CSS Property Value
 |Data Type=tb-lr
-|Description=Internet Explorer 8. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line.
+|Description=Internet Explorer 8. Content flows vertically from top to bottom, left to right. The next vertical line is positioned to the right of the previous line. Maps to the vertical-lr value in the current spec.
 }}{{CSS Property Value
 |Data Type=bt-lr
 |Description=Internet Explorer 8.	Content flows vertically from bottom to top, left to right.
@@ -54,26 +63,63 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use the '''-ms-writing-mode''' property to nest horizontal text inside vertical text.
-|Code=&lt;html&gt;&lt;head&gt;&lt;style&gt;
-    .clsHorizLR { writing-mode:lr-tb }
-    .clsHorizRL { writing-mode:rl-tb }
-    .clsVertTB  { writing-mode:tb-rl }
-    .clsVertBT  { writing-mode:bt-rl }
-&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
-&lt;h1&gt;writing-mode Attribute&lt;/h1&gt;
-&lt;p&gt;This example shows how to use the &lt;b&gt;writing-mode&lt;/b&gt; attribute to display horizontal text (&lt;span&gt;lr-tb&lt;/span&gt;) 
-within vertical text (&lt;span&gt;tb-rl&lt;/span&gt;).&lt;/p&gt;
-&lt;p&gt;The following &lt;b&gt;div&lt;/b&gt; element has a &lt;b&gt;writing-mode&lt;/b&gt; of tb-rl and contains text and &lt;b&gt;span&lt;/b&gt; child elements. 
-The text flow alternates between vertical and horizontal. Be aware of the effect of the &lt;b&gt;BR&lt;/b&gt; element after the second 
-set of vertical text.&lt;/p&gt;
-&lt;div style{{=}}"writing-mode:tb-rl"&gt;First Set of Vertical Text&lt;span class{{=}}"clsHorizLR"&gt;First Set of Horizontal Text&lt;/span&gt;
-Second Set of Vertical Text plus a line break&lt;BR&gt;&lt;span style{{=}}"writing-mode:lr-tb"&gt;Second Set of Horizontal Text&lt;/span&gt;
-Third Set of Vertical Text&lt;span class{{=}}"clsHorizLR"&gt;Third Set of Horizontal Text&lt;/span&gt;
-&lt;/div&gt;&lt;p&gt;This example shows how to use the new &lt;b&gt;writing-mode&lt;/b&gt; attribute to display horizontal text (&lt;span&gt;rl-tb&lt;/span&gt;).&lt;div class{{=}}"clsHorizRL"&gt;Fourth Set of Horizontal Text&lt;/div&gt;&lt;p&gt;This example makes use of the new&lt;b&gt;writing-mode&lt;/b&gt; attribute to display vertical text (&lt;span&gt;bt-rl&lt;/span&gt;).&lt;div class{{=}}"clsVertBT"&gt;Fourth Set of 
-Vertical Text&lt;/div&gt;
-&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
-|LiveURL=Click to view sample.
+|Language=HTML
+|Code=&lt;style&gt;
+    #horizontal-tb {
+	-ms-writing-mode: lr-tb;  /* old syntax, supported by IE */		
+	writing-mode: horizontal-tb;  /* modern syntax */
+    }
+   #horizontal-tb-direction-rtl {
+	-ms-writing-mode: rl-tb;
+        writing-mode: horizontal-tb;
+	
+        direction: rtl; /* sets the direction of text in a line to right to left */
+   }
+   #vertical-rl {
+        -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    }
+    #vertical-lr {
+	-ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+    }	
+&lt;/style&gt;
+&lt;div id="horizontal-tb"&gt;
+    &lt;h1&gt;Writing-mode: horizontal-tb/lr-tb&lt;/h1&gt;
+    &lt;p&gt;This text should be horizontal, left to right, and &lt;em>under&lt;/em&gt; the heading.&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li>One&lt;/li&gt;
+	&lt;li>Two&lt;/li&gt;
+	&lt;li>Three&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="horizontal-tb-direction-rtl"&gt;
+    &lt;h1&gt;Writing-mode: horizontal-tb/rl-tb, direction: rtl&lt;/h1&gt;
+    &lt;p&gt;This text should be horizontal, right to left, and &lt;em&gt;under&lt;/em&gt; the heading.&lt;/p&gt;
+    &lt;ol>
+	&lt;li&gt;One&lt;/li&gt;
+	&lt;li&gt;Two&lt;/li&gt;
+	&lt;li&gt;Three&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="vertical-rl"&gt;
+        &lt;h1&gt;Writing-mode: vertical-rl/tb-rl&lt;/h1&gt;
+        &lt;p&gt;This text should be vertical, and to the &lt;em&gt;left&lt;/em&gt; of the heading.&lt;/p&gt;
+	 &lt;ol&gt;
+              &lt;li&gt;One&lt;/li&gt;
+              &lt;li&gt;Two&lt;/li&gt;
+	      &lt;li&gt;Three&lt;/li&gt;
+	 &lt;/ol&gt;
+&lt;/div&gt;	
+&lt;div id="vertical-lr"&gt;
+	&lt;h1&gt;Writing-mode: vertical-lr/tb-lr&lt;/h1&gt;
+	&lt;p&gt;This text should be vertical, and to the &lt;em&gt;right&lt;/em&gt; of the heading.&lt;/p&gt;
+	&lt;ol&gt;
+		&lt;li&gt;One&lt;/li&gt;
+		&lt;li&gt;Two&lt;/li&gt;
+		&lt;li&gt;Three&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
 }}
 }}
 {{Notes_Section
@@ -91,8 +137,6 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
      .clsHorizRL { -ms-writing-mode:rl-tb }
      .clsVertTB  { -ms-writing-mode:tb-rl }
      .clsVertBT  { -ms-writing-mode:bt-rl }</code>
-|Import_Notes====Syntax===
-<code>'''-ms-writing-mode: '''lr-tb '''{{!}}''' rl-tb '''{{!}}''' tb-rl '''{{!}}''' bt-rl '''{{!}}''' tb-lr '''{{!}}''' bt-lr '''{{!}}''' lr-bt '''{{!}}''' rl-bt '''{{!}}''' lr '''{{!}}''' rl '''{{!}}''' tb</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -127,7 +171,14 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5.5–current
+|Note=Supports a previous version of the spec with alternative value names
+}}{{Compatibility Notes Row
+|Browser=WebKit
+|Note=Currently requires the -webkit- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout
@@ -135,6 +186,7 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
+|External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
 }}
 {{Topics|CSS}}
 {{External_Attribution
