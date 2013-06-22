@@ -12,7 +12,7 @@
 |Media=interactive
 |Computed value=Same as specified value
 |Animatable=No
-|CSS object model property=N/A
+|CSS object model property=transitionDuration
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=time
