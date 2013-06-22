@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Incomplete, Examples Needed
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -30,7 +29,9 @@
 |Code=shape-image-threshold: 0.25;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
