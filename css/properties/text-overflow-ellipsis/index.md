@@ -34,7 +34,7 @@
 |LiveURL=http://dabblet.com/gist/4744982
 }}{{Single Example
 |Language=CSS
-|Code=.overflowed > p{
+|Code=.overflowed > p {
 	width: 10em;
 	height: 5em;
 	white-space: nowrap; 
