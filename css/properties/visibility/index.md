@@ -2,11 +2,13 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Controls the visibility of an element. The <code>hidden</code> value hides an element but leaves space where it would have been.}}
 {{CSS Property
+|Initial value=visible
 |Applies to=All elements
 |Inherited=No
 |Media=visual
