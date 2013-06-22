@@ -84,6 +84,7 @@
 }}
 {{See_Also_Section
 |Manual_links=See also: [[css/properties/shape-margin|shape-margin]] property
+See also: [[css/properties/shape-image-threshold|shape-image-threshold]] property
 }}
 {{Topics|CSS}}
 {{External_Attribution
