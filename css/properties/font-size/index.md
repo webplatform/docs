@@ -24,8 +24,7 @@
 |Description=An absolute unit value: any of the standard [[css/data_types/length|css length units]] are allowed. Negative lengths are illegal.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''. Use of percentage values, or values in ‘em’s, leads to more robust and cascadable style sheets.
-
+|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''. 
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=The <code>inherit</code> keyword causes the element to adopt its parent element's font size.
@@ -68,7 +67,9 @@
 }}
 }}
 {{Notes_Section
-|Usage=Keywords such as '''large''' and '''medium''', or relative '''em''' or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Otherwise, pixels offer the safest way to specify measurements, since [[css/concepts/CSS_pixels|CSS pixels]] are adjusted for variations in display pixel density.
+|Usage=Keywords such as '''large''' and '''medium''', or relative '''em''' or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Use of percentage values, or values in  '''em'''s, leads to more robust and cascadable style sheets.
+
+Otherwise, pixels offer the safest way to specify measurements, since [[css/concepts/CSS_pixels|CSS pixels]] are adjusted for variations in display pixel density.
 
 While the initial '''medium''' size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using [[css/properties/text-size-adjust|'''text-size-adjust''']], fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see [[tutorials/mobile_viewport|The Mobile Viewport and Orientation]].
 
