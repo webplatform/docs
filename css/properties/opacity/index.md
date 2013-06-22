@@ -1,9 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
-|Editorial notes=This page should be kept, and the data at http://docs.webplatform.org/wiki/css/Properties/opacity merged into it as appropriate.
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -14,11 +11,11 @@
 |Inherited=No
 |Media=visual
 |Computed value=The same as the specified value after clipping the <alphavalue> to the range [0.0,1.0]
-|Animatable=No
+|Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=alpha-value
-|Description=A '''Floating-point''' value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive. Any values outside the range will be clamped to this range.
+|Description=A '''floating-point''' value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive. Any values outside the range will be clamped to this range.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Indicates that the property takes the same computed value as the property for the element's parent.
@@ -31,6 +28,7 @@
 |Code=.example1 {
   opacity: 0.5;
 }
+|LiveURL=http://code.webplatform.org/gist/5842705
 }}{{Single Example
 |Language=CSS
 |Description=Internet Explorer 5-7
@@ -52,6 +50,8 @@
 }}
 {{Notes_Section
 |Usage=As an alternative to the visibility property, an element's opacity can be set to 0 to make the element take space but not appear.
+
+It's important to note that opacity affects not only a given element but all of the elements which it contains.
 |Notes=The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
 Object or group opacity can be thought of conceptually as a postprocessing operation. Conceptually, after the object or group is rendered into an RGBA offscreen image, the object or group opacity setting specifies how to blend the offscreen image into the current background.
 
