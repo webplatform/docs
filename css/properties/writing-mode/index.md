@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|<code>writing-mode</code> specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress. }}
+{{Summary_Section|<code>writing-mode</code> specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.}}
 {{CSS Property
 |Initial value=horizontal-tb
 |Applies to=All elements except table row groups, table column groups, table rows, and table columns
@@ -90,7 +90,7 @@ writing-mode: vertical-lr;
 |Code=&lt;style&gt;
     #horizontal-tb {
 	-ms-writing-mode: lr-tb;  /* old syntax, supported by IE */		
-	writing-mode: horizontal-tb;  /* modern syntax */
+	writing-mode: horizontal-tb;  /* modern syntax. WebKit currently requires prefix */
     }
    #horizontal-tb-direction-rtl {
 	-ms-writing-mode: rl-tb;
@@ -145,22 +145,7 @@ writing-mode: vertical-lr;
 &lt;/div&gt;
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The following diagram shows how the different values for the property appear on the screen.
-
-Internet Explorer 8. The '''-ms-writing-mode''' attribute is an extension to CSS and can be used as a synonym for '''writing-mode''' in IE8 Standards mode.
-The property does not accumulate.  That is, even if the '''-ms-writing-mode''' property, set to the same value, is applied to an object multiple times, the '''-ms-writing-mode''' property is effectively applied to the object only one time. For example, if a parent element has the '''-ms-writing-mode''' property set to '''tb-rl''', setting a child element's '''-ms-writing-mode''' property to '''tb-rl''' does not cause the child element to double the effect of the '''-ms-writing-mode''' property, or "rotate."
-An element has its own layout if the value for the '''-ms-writing-mode''' property is different than its parent. When a change in layout flow is specified for a child element, the maximum logical height requirement (height in this element's coordinate system) is determined by the available space (width measurement) in the parent's coordinate system.  Based on this information, a logical width (width in the child's coordinate system) is computed to meet the maximum logical height requirement.  Depending on the amount of space needed by the child element, the actual logical height of the element can be less than the maximum logical height requirement.
-When you use elements that have different values for the '''-ms-writing-mode''' property, you can have greater control over the layout of those elements by specifying fixed dimensions for each element.
-Windows Internet Explorer 7.  The '''rl-tb''', and '''bt-rl''' values are available to the '''-ms-writing-mode'''.
-Internet Explorer 7.  The '''-ms-writing-mode''' for the '''body''' element is limited to '''lr-tb''' and '''rl-tb'''.
-Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the World Wide Web Consortium (W3C) in a draft specification, '''-ms-writing-mode''' is preferred for style sheet validation, as in the following code example.
- <code>    .clsHorizLR { -ms-writing-mode:lr-tb }
-     .clsHorizRL { -ms-writing-mode:rl-tb }
-     .clsVertTB  { -ms-writing-mode:tb-rl }
-     .clsVertBT  { -ms-writing-mode:bt-rl }</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Writing Modes Module Level 3
@@ -197,7 +182,7 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5.5–current
-|Note=Supports a previous version of the spec with alternative value names
+|Note=Supports a previous version of the spec with alternative value names. Supported both with and without the -ms- prefix.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9
