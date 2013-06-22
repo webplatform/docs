@@ -145,13 +145,12 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Animation, Transitions
-|External_links=* A [https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function|detailed description of timing functions] (MDN)
+|External_links=* A https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function|detailed description of timing functions (MDN)
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
