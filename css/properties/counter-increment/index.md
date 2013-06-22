@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The counter-increment property accepts one or more names of counters (identifiers), each one optionally followed by an integer which specifies the value by which the counter should be incremented (e.g. if the value is 2, the counter increases by 2 each time it is invoked). }}
+{{Summary_Section|The counter-increment property accepts one or more names of counters (identifiers), each one optionally followed by an integer which specifies the value by which the counter should be incremented (e.g. if the value is 2, the counter increases by 2 each time it is invoked).}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -27,7 +27,8 @@ Zero and negative integers are allowed.  If no value is specified, the value def
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=This example uses '''counter-increment''' and the '''content''' properties to prepend headers with an outline-esque, identifier, similar to an ordered list.  (Note that the numbering does not reset between the two headers: this can be handled with {{css/properties/counter-reset}}.)
+|Description=This example uses '''counter-increment''' and the '''content''' properties to prepend headers with an outline-esque, identifier, similar to an ordered list.  (Note that the numbering does not reset between the two headers: this can be handled with 
+[[css/properties/counter-reset|'''counter-reset''']].)
 |Code=/*
  * Using the CSS 'counter-increment' property.
  */
@@ -46,11 +47,11 @@ h2 {
 
 h2:before {
 	content: counter(header) "." counter(subheader) ". ";
-} 
+}
 |LiveURL=http://code.webplatform.org/gist/5841845
 }}{{Single Example
 |Language=CSS
-|Description=This example shows how to specify an integer in the '''counter-increment''' property and allow the CSS to increment the counter by values besides 1.  
+|Description=This example shows how to specify an integer in the '''counter-increment''' property and allow the CSS to increment the counter by values besides 1.
 |Code=/*
  * Using the CSS 'counter-increment' property with a non-default increment JavaScript.
  */
