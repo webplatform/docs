@@ -5,11 +5,24 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Needs}}
+{{Summary_Section|This is for all the high level UX stuff.}}
 {{CSS Property
-|Inherited=No
+|Initial value=all
+|Applies to=visible elements
+|Inherited=Yes
+|Media=visual
+|Computed value=Specified value
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=none
+|Description=None of the descendants of the element can be brought under consideration or focus, neither text nor images.
+}}{{CSS Property Value
+|Data Type=text
+|Description=Only text of the element and its descendants can be focused or brought under consideration..
+}}{{CSS Property Value
+|Data Type=all
+|Description=Default.  Every single thing is under focus.
+}}
 }}
 {{Examples_Section
 |Not_required=No
