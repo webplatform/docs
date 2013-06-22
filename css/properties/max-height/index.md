@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -68,8 +69,10 @@ div { max-height: 10px }
 }
 &lt;/style&gt;
 &lt;div class=&quot;without-max-height&quot;&gt;Without Max Height. Height taken from content&lt;/div&gt;
-&lt;br&gt;
+&lt;br /&gt;
 &lt;div class=&quot;with-max-height&quot;&gt;With Max Height. Content may overflow if it goes beyond height.&lt;/div&gt;
+&lt;br /&lt;
+&lt;p&lt;&lt;strong&lt;Other elements&lt;/strong&lt; will flow overtop of objects that are overflowed from their max-height containers.&lt;/p&lt;
 |LiveURL=http://code.webplatform.org/gist/5070850
 }}
 }}
