@@ -19,7 +19,7 @@
 |Description=The column width will be determined by other properties (e.g., ‘column-count’, if it has a non-auto value).
 }}{{CSS Property Value
 |Data Type=length
-|Description=describes the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
+|Description=Describes the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
 }}
 }}
 {{Examples_Section
