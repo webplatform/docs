@@ -120,6 +120,28 @@
 		&lt;li&gt;Three&lt;/li&gt;
 	&lt;/ol&gt;
 &lt;/div&gt;
+}}{{Single Example
+|Language=CSS
+|Description=Sets the writing mode to horizontal and top to bottom, including a fallback for the previous version of the spec, supported by IE. This is the default. Used by writing systems such as Latin, Greek and Cyrillic. 
+|Code=-ms-writing-mode: lr-tb; 
+writing-mode: horizontal-tb; 
+}}{{Single Example
+|Language=CSS
+|Description=Sets the writing mode to horizontal and top to bottom, and the direction of text to right to left. Includes a fallback for the previous version of the spec, supported by IE. Used by writing systems such as Arabic and Hebrew.
+|Code=-ms-writing-mode: rl-tb; /* old spec includes the text direction in the writing-mode value */
+writing-mode: horizontal-tb;
+
+direction: rtl;
+}}{{Single Example
+|Language=CSS
+|Description=Sets the writing mode to vertical and to progress from right to left. Includes fallback to old version of the spec, supported by IE. Sometimes used by East Asian languages such as Chinese and Japanese. 
+|Code=-ms-writing-mode: tb-rl;
+writing-mode: vertical-rl; 
+}}{{Single Example
+|Language=CSS
+|Description=Sets the writing mode to vertical and to progress from left to right. Includes fallback to old version of the spec, supported by IE. Used by Mongolian scripts.
+|Code=-ms-writing-mode: tb-lr;
+writing-mode: vertical-lr;
 }}
 }}
 {{Notes_Section
