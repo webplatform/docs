@@ -76,7 +76,7 @@ An element with a positive z-index will be placed above an element that does not
 
 The property does not apply to windowed controls, such as '''select''' objects.
 
-If the visibility of an element is set to '''hidden''' in CSS, input from a pointing device (such as a mouse) will not penetrate it. This is also true for positioned elements with a negative z-index unless:
+Only the topmost elements will receive action from a pointing device such as a mouse, even if they have a set opacity or are made invisible through CSS. This is also true for positioned elements with a negative z-index unless:
 *The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
 *The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
 
