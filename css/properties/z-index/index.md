@@ -68,6 +68,7 @@ This example uses an inline style sheet to set the stacking order.
 }}
 }}
 {{Notes_Section
+|Usage=This property will only work with elements that are positioned absolute, relative or fixed.
 |Notes====Remarks===
 Positive '''z-index''' values are positioned above a negative (or lesser value) '''z-index'''. Two objects with the same '''z-index''' are stacked according to source order. A positive value positions the element above text that has no defined '''z-index''', and a negative value positions it below. Set this parameter to null to remove the attribute.
 The '''z-index''' property only applies to objects that have the [[css/properties/position|'''position''']] property set to '''relative''' or '''absolute'''.
