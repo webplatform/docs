@@ -5,7 +5,8 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies what the background-position property should be relative to.}}
+{{Summary_Section|Specifies what the background-position property should be relative to.  You should understand the CSS [[tutorials/box_model|Box Model]] before using this property.  Use this in conjunction with [[css/properties/background-image|background-image]] and optionally [[css/properties/background-position|background-position]].   See [[css/properties/background-position|background position]] for information about the coordinate system and positioning.
+}}
 {{CSS Property
 |Initial value=padding-box
 |Applies to=All elements
@@ -16,7 +17,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=padding-box
-|Description=Default. The position is relative to the padding box. For single boxes, "0 0" is the upper-left corner of the padding edge; "100% 100%" is the lower-right corner.
+|Description=Default. The position is relative to the padding box.
 }}{{CSS Property Value
 |Data Type=border-box
 |Description=The position is relative to the border box.
