@@ -44,6 +44,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Code=/* Height of div equal to 100% of the bounding element */
 div { height: 100% }
 
@@ -56,6 +57,7 @@ section { height: auto }
 /* Height of image set to 100px */
 img { height: 100px }
 }}{{Single Example
+|Language=HTML
 |Description=Example using new values that are part of the CSS Basic Box Model that is currently in working draft.
 |Code=&lt;style&gt;
 /**
@@ -120,7 +122,6 @@ p.height25solved {
 |Notes====Remarks===
 If you specify the '''height''' property of an '''img''' object but not the [[css/properties/width|'''width''']] property, the width is proportional to the height according to the dimensions of the image source file.
 To perform operations on the numeric value of this property, use [[css/cssom/properties/pixelHeight|'''pixelHeight''']] or [[css/cssom/properties/posHeight|'''posHeight''']].
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
