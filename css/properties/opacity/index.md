@@ -16,7 +16,7 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=alpha-value
-|Description=A '''Floating-point''' value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive.
+|Description=A '''Floating-point''' value between 0.0 (fully transparent) and 1.0 (fully opaque), inclusive. Any values outside the range will be clamped to this range.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Indicates that the property takes the same computed value as the property for the element's parent.
