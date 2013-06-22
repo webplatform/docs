@@ -13,10 +13,10 @@
 |Inherited=No
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=<pre><integer> || <string></pre>
+|Data Type=&lt;integer&gt; {{!}}{{!}} &lt;string&gt;
 |Description=Integer value or String that identifies the specified row.
 }}{{CSS Property Value
-|Data Type=span && <pre><integer> || <string></pre>
+|Data Type=span && &lt;integer&gt; {{!}}{{!}} &lt;string&gt;
 |Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
 }}{{CSS Property Value
 |Data Type=auto
