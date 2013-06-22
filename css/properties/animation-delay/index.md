@@ -2,21 +2,29 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The animation-delay CSS property specifies when the animation should start. This lets the animation sequence begin some time after it's applied to an element.}}
+{{Summary_Section|Defines the length of time that must elapse before an animation starts}}
 {{CSS Property
 |Initial value=0s
-|Applies to=all elements, '''before''' and '''after''' pseudo-elements
+|Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=animationDelay
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=time
-|Description=Floating-point number, followed by a time units designator (<code>ms</code> [milliseconds] or <code>s</code> [seconds]). For more information about the supported time units, see '''CSS Values and Units Reference'''.
+|Data Type=0s
+|Description=The initial value of 0s means the animation will start executing as soon as it is applied through the <code>[css/properties/animation-name|animation-name]</code> property.
+}}{{CSS Property Value
+|Data Type=.25s, 100ms
+|Description=This value defines the initial delay for two animations. Like durations, delays can be specified in seconds or milliseconds.
+}}{{CSS Property Value
+|Data Type=-1.5s
+|Description=If the value for <code>animation-delay</code> is negative then the animation will execute the moment it is applied but will begin execution at the specified offset. That is, the animation appears to begin part-way through its play cycle.
 }}
 }}
 {{Examples_Section
@@ -34,14 +42,6 @@
 Values are rounded up to the second decimal place. If multiple values are specified as a comma-separated list, each '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
 If more '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess '''animation-delay''' values are ignored.
 If fewer  '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of '''animation-delay''' values is repeated from the beginning until the '''animation-name''' values are exhausted.
-|Import_Notes====Syntax===
-<code>'''animation-delay: '''''
-&lt;time&gt;
-'' '''[''' ,  ''
-&lt;time&gt;
-'' ''']''' *</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.8
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -117,50 +117,6 @@ If fewer  '''animation-delay''' values are declared than corresponding [[css/pro
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|External_links=http://www.w3.org/TR/css3-animations/#animation-delay-property
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
