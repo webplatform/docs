@@ -1,21 +1,28 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Stub
 |Checked_Out=No
+|Editorial notes=Stub article until this is added back in to an editor's draft.
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Editor's Draft <http://dev.w3.org/csswg/css-shapes/> and CSSWG wiki page on next-level plans <http://wiki.csswg.org/spec/css-shapes>}}
 {{CSS Property
+|Initial value=auto
+|Applies to=block-level elements
 |Inherited=No
-|Animatable=No
+|Media=visual
+|Animatable=Yes
+|CSS object model property=shapeInside
 |Values=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
