@@ -211,7 +211,6 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout
 |External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
 }}
 {{Topics|CSS}}
