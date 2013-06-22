@@ -24,7 +24,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The below example shows the difference between the CSS box-shadow property and the drop-shadow filter function. Where the box-shadow property outlines the html box and the drop-shadow outlines the element parts.
+|Description=The example below shows the difference between the CSS box-shadow property and the drop-shadow filter function. The box-shadow property outlines the html box and the drop-shadow outlines the element parts.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -73,8 +73,8 @@ the image would appear completely gray rather than slightly yellowed.
 Filters apply to any graphic effect the element renders, such as
 borders, background images, scrollbars, letterforms, text selections,
 even videos.  Each filter also applies to the cumulative effect of
-previously declared filters. (The same function may be applied
-repeatedly.) Both the [[css/functions/blur|'''blur()''']] and
+previously declared filters (the same function may be applied
+repeatedly). Both the [[css/functions/blur|'''blur()''']] and
 [[css/functions/drop-shadow|'''drop-shadow()''']]
 filters may render pixels outside the original content box,
 and when paired with other CSS properties such as 
