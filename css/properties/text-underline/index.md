@@ -7,7 +7,7 @@
 | This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
 }}
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.}}
 {{CSS Property
