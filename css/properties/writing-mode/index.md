@@ -190,10 +190,6 @@ Internet Explorer 8. Because '''-ms-writing-mode''' is currently defined by the
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout
-|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
 |External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
 }}
 {{Topics|CSS}}
