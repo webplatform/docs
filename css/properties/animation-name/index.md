@@ -9,7 +9,7 @@
 {{Summary_Section|Defines the list of animations that apply to the element}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements, ::before and ::after pseudo-elements
+|Applies to=all elements, "::before" and "::after" pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
@@ -18,10 +18,10 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=The name of an [[css/atrules/@keyframes|'''@keyframes''']] rule or the keyword <code>none</code> (default).
+|Description=No animation applies to the element. This is the initial value of the property.
 }}{{CSS Property Value
 |Data Type=<single-animation-name> [, <single-animation-name>]*
-|Description=One or more comma-separated animation names. Each name is used to select the @keyframes rule that defines the animation. If the specified name does not match any @keyframes rule then no animation will be run for this name. In addition, when multiple animations update the same property the animation closest to the end of the list wins.
+|Description=One or more comma-separated animation names. Each name is used to select the [[css/atrules/@keyframes|'''@keyframes''']] rule that defines the animation. If the specified name does not match any [[css/atrules/@keyframes|'''@keyframes''']] rule then no animation will be run for this name. In addition, when multiple animations update the same property the animation closest to the end of the list wins.
 }}
 }}
 {{Examples_Section
