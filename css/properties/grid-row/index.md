@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
-{{Standardization_Status|N/A}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Shorthand for grid-before/after and grid-start/end.}}
 {{CSS Property
@@ -55,7 +55,9 @@ The row numbering system is a 1-based index, with 1 being the default. That is, 
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Grid Layout
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
