@@ -49,7 +49,7 @@ div:hover {
   height: 300px;
   transition: height 2s;
 }
-|LiveURL=http://03sq.net/examples/transition.html
+|LiveURL=http://code.webplatform.org/gist/5842511
 }}
 }}
 {{Notes_Section
