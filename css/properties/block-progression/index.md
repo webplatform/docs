@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the block progression and layout orientation.}}
+{{Summary_Section|Sets or retrieves the block progression and layout orientation..}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -44,6 +45,7 @@ There are no standards that apply here.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
