@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Incomplete, Examples Needed
+|Content=Examples Needed
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -22,7 +21,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The following creates a shape that is offset 10 pixels from the fully-opaque pixels in an image.
+|Code=shape-outside: url(path/to/image.png);
+shape-image-threshold: 1.0;
+shape-margin: 10px;
+}}
 }}
 {{Notes_Section
 |Notes=The specified <length> must be a positive value.
