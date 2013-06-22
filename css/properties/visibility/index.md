@@ -15,16 +15,16 @@
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=inherit
-|Description=Default. Object inherits the visibility of the next parent object.
+|Description=Takes the same specified value as the property for the element's parent.
 }}{{CSS Property Value
 |Data Type=visible
-|Description=Object is visible.
+|Description=The element is visible.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Object is hidden. The box is invisible (fully transparent, nothing is drawn), but still affects layout.  Descendants of the element will be visible if they have visibility:visible (this doesn't work in IE up to version 7).
+|Description=Object is hidden. The box is invisible (fully transparent, nothing is drawn), but still affects layout.  Descendants of the element will be visible if they have visibility:visible.
 }}{{CSS Property Value
 |Data Type=collapse
-|Description=Internet Explorer 8. Used in tables to remove '''tr''' and '''col'''; for all other elements, same as '''hidden'''.
+|Description=This value causes the entire row or column to be removed from the display, and the space normally taken up by the row or column to be made available for other content. This value is used for row, row group, column, and column group elements. If used on elements other than rows, row groups, columns, or column groups, 'collapse' has the same meaning as 'hidden'.
 }}
 }}
 {{Examples_Section
@@ -80,7 +80,7 @@ over this text to make the sphere disappear.&lt;/p&gt;
 {{Notes_Section
 |Notes====Remarks===
 Unlike [[css/properties/display|'''display''']], objects that are not visible still reserve the same physical space in the content layout as they would if they were visible. You can change the visibility through scripting to show and hide overlapping content based on user interaction. For document style scripting information, see Introduction to Dynamic Styles.
-A child object can be '''visible''' when its parent is '''hidden'''.  
+A child object can be '''visible''' when its parent is '''hidden'''.
 |Import_Notes====Syntax===
 <code>'''visibility: '''visible '''{{!}}''' hidden '''{{!}}''' collapse '''{{!}}''' inherit</code>
 }}
