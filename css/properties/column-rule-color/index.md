@@ -17,28 +17,17 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=color
-|Description=One of the color names or RGB values in the [[css/color/color table|Color Table]].
+|Description=One of the color names, RGB, RGBA, HSL, or HSLA values in the [[css/color/color table|Color Table]].
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Uses the column-rule attribute to set rule width, style and color
-|Code=#column3 {
-  column-width: 15em;
-  column-gap: 2em;
-/*
-The column-rule attribute is a shorthand for
-
-column-rule-width = 4px
-column-rule-style = solid
-column-rule-color = green
-*/
-  column-rule: 4px solid green;
-  padding: 5px;
+|Description=Uses the column-rule-color property to set the color of the rule between columns.
+|Code=#columns {
+    column-rule-color: green;
 }
-|LiveURL=http://code.webplatform.org/gist/5305898
 }}
 }}
 {{Notes_Section
