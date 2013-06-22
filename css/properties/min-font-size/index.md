@@ -6,9 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property is only used when the text-align-last property is set to size.  It controls allowed adjustments of font-size to fit line content.
-
-}}
+{{Summary_Section|This property is only used when the text-align-last property is set to size.  It controls allowed adjustments of font-size to fit line content.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=all elements and generated content
@@ -21,7 +19,6 @@
 |Values={{CSS Property Value
 |Data Type=font-size
 |Description=The font size of the last line of an element is restricted to being greater than either the computed font-size or this number, whichever is smaller.
-
 }}{{CSS Property Value
 |Data Type=auto
 |Description=The rendering agent determines the minium font size.
