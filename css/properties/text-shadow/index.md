@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The text-shadow property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and [[css/properties/text-decoration|text-decorations]] of the element.}}
+{{Summary_Section|The CSS text-shadow property adds one or more shadows to a specified text or HTML element. The text-shadow property accepts a comma-separated list of values that can be applied to the text and [[css/properties/text-decoration|text-decorations]].}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements and generated content
