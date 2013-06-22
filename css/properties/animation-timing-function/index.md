@@ -145,7 +145,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Animation, Transitions
-|External_links=* A [[https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function|detailed description of timing functions]] (MDN)
+|External_links=* A [https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function|detailed description of timing functions] (MDN)
 }}
 {{Topics|CSS}}
 {{External_Attribution
