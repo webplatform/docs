@@ -8,9 +8,17 @@
 {{API_Name}}
 {{Summary_Section|The ‘mask-source-type’ property indicates whether the <mask-reference> is treated as a luminescence mask or a alpha mask.}}
 {{CSS Property
+|Initial value=auto
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements. 
 |Inherited=No
+|Media=visual
+|Computed value=as specified 
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=<source-type>
+|Description="source type" has following values:
+"alpha"|"luminance"| "auto"
+}}
 }}
 {{Examples_Section
 |Not_required=No
