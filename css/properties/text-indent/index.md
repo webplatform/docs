@@ -31,7 +31,13 @@ Currently experimental in CSS Text Level 3
 }}{{CSS Property Value
 |Data Type=&lt;length/percentage&gt; hanging
 |Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px hanging;</code>). It inverts which lines are indented so that everything but the first formatted line is indented. 
-Currently experimental in CSS Text Level 3
+
+Currently an experimental feature.
+}}{{CSS Property Value
+|Data Type=&lt;length/percentage&gt; each-line
+|Description=This value can only be used in conjunction with a length or percentage value (<code>text-indent: 7px each-line;</code>). It indents all lines in the element, not just the first line.
+
+Currently an experimental feature.
 }}
 }}
 {{Examples_Section
@@ -73,7 +79,7 @@ window.addEventListener("load", initialize, false);
   &lt;div id="example"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin condimentum malesuada quam, ut ullamcorper nunc posuere in. Duis ullamcorper fringilla lorem eget accumsan. Praesent neque ipsum, tincidunt eget aliquet sit amet, tempor eget felis. Duis nibh magna, vestibulum et molestie sed, porttitor vel tellus. Nunc suscipit justo ut magna imperdiet pharetra. Suspendisse potenti. Vivamus vestibulum, dui eu fermentum blandit, nunc dolor aliquet massa, non elementum arcu arcu ut risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse tincidunt nibh at ipsum semper eu tempor nisi ornare. Nunc vestibulum elementum dapibus. Morbi pellentesque nulla non est adipiscing id commodo eros blandit. Suspendisse mauris tellus, auctor a sodales a, consequat nec diam.&lt;/div&gt;
  &lt;/body&gt;
 &lt;/html&gt;
-|LiveURL=http://code.webplatform.org/gist/5658605
+|LiveURL=http://code.webplatform.org/gist/5842068
 }}{{Single Example
 |Language=HTML
 |Description=This example uses JavaScript to indent the text within the '''div''' when a [[dom/events/mouseover|'''mouseover''']] event occurs.
@@ -99,6 +105,7 @@ window.addEventListener("load", initialize, false);
 }}
 }}
 {{Notes_Section
+|Usage=It is important to note that the keyword options ('''each-line''' and '''hanging''') are experimental features; exercise caution when using them, as there is no guarantee of cross-browser compatibility.
 |Notes=The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as '''br''' in HTML.
 }}
 {{Related_Specifications_Section
