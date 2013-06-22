@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The line-height property specifies the height of an inline block level element. The value of the line-height pr operty cannot be negative.}}
+{{Summary_Section|The line-height property specifies the height of an inline block level element. The value of the line-height property cannot be negative.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=all elements
