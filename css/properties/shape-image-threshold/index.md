@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Content=Incomplete, Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image.}}
 {{CSS Property
@@ -23,6 +24,10 @@
 |Examples={{Single Example
 |Description=Example from Editor's Draft
 |LiveURL=http://code.webplatform.org/gist/5833790
+}}{{Single Example
+|Language=CSS
+|Description=Extract a shape from an image by subtracting all pixels less than 25% opacity
+|Code=shape-image-threshold: 0.25;
 }}
 }}
 {{Notes_Section}}
@@ -31,6 +36,10 @@
 |Name=CSS Shapes Module Level 1
 |URL=http://dev.w3.org/csswg/css-shapes/#shape-image-threshold-property
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=http://www.w3.org/TR/css-shapes/
+|Status=First Public Working Draft
 }}
 }}
 {{Compatibility_Section
