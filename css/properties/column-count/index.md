@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the number of columns an element should be divided into.}}
 {{CSS Property
@@ -12,14 +12,16 @@
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=as specified
+|Animatable=Yes
+|CSS object model property=columnCount
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=count
-|Description=An integer value that specifies the number of columns in the multi-column element.
+|Description=An integer value that specifies the number of columns in the multi-column element. Values must be greater than 0. When [[css/properties/column-width|'''column-width''']] is specified with [[css/properties/column-count|'''column-count''']] and both have non-auto values, the integer value defines the maximum number of columns.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Default. 
-The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''columnWidth''']].
+|Description=The number of columns is determined by the values of other property values of the multi-column element, such as [[css/properties/column-width|'''columnWidth''']].
 }}
 }}
 {{Examples_Section
@@ -27,11 +29,8 @@ The number of columns is determined by the values of other property values of th
 |Examples={{Single Example
 |Language=CSS
 |Description=This example shows how to render text within the section.newspaper element in three columns.
-|Code=section.newspaper {
-  display: block;
+|Code=div {
   column-count: 3;
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
 }
 }}{{Single Example
 |Language=CSS
@@ -40,10 +39,18 @@ The number of columns is determined by the values of other property values of th
 3 columns, doesn't matter the width of the content,
 we will always display 3 columns
 */
-#column1 {
-border: 2px solid #000;  
-column-count: 3;}
+div {
+column-count: 3;
+}
 |LiveURL=http://code.webplatform.org/gist/5305530
+}}{{Single Example
+|Language=CSS
+|Description=Using auto for column-count will allow as many columns as are necessary or able to be generated.
+|Code=/* auto column-count allows n-columns of column-width */
+div {
+column-count: auto;
+column-width: 100px;
+}
 }}
 }}
 {{Notes_Section
@@ -85,7 +92,7 @@ To ensure the specified value is used, all length property values of the multi-c
 |Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
-|Topic_clusters=Multi-Column
+|Topic_clusters=Box Model, Multi-Column, Responsive Web Design
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
