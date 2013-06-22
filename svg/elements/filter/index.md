@@ -92,7 +92,7 @@ In the example below, we set the unit systems of both the filter and filter prim
 <svg width="600px" height="300px" viewbox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" version="1.1">
 <title>A basic filter example</title>
    <defs>
-     <filter filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox" id="BoxBox" x="0%%" y="0%" width="100%" height="100%">
+     <filter filterUnits="objectBoundingBox" primitiveUnits="objectBoundingBox" id="BoxBox" x="0%" y="0%" width="100%" height="100%">
         <feFlood x="20%" y="20%" width="50%" height="50%" flood-color="green" result="greenbox"/>
         <feMerge>
             <feMergeNode in="SourceGraphic"/>
