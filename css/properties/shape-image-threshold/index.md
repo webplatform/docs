@@ -5,13 +5,13 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Defines the alpha channel threshold used to extract a shape using an image.}}
+{{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image.}}
 {{CSS Property
 |Initial value=<alphavalue>
 |Applies to=floats
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Animatable=Yes
 |CSS percentages=alpha channel of the image specified by <uri>
 |Values={{CSS Property Value
 |Data Type=<alphavalue>
