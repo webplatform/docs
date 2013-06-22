@@ -20,7 +20,7 @@ It sets an item's column positioning on a grid defined by "display: grid;"
 |Data Type=<integer> [[||]] <string>
 |Description=Integer or string value that identifies the specified column.
 }}{{CSS Property Value
-|Data Type=span && <integer> [[||]]
+|Data Type=span && <integer> [[||]] <string>
 |Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
 }}{{CSS Property Value
 |Data Type=auto
