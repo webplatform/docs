@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|test}}
+{{Summary_Section|A grid area is the logical space used to lay out one or more grid items. It is bound by four grid lines, one on each side of the grid area, and participates in the sizing of the grid tracks it intersects. A grid area can be named explicitly using the ‘grid-template’ property of the grid container, or referenced implicitly by its bounding grid lines. A grid item is assigned to a grid area using the grid-placement properties.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
