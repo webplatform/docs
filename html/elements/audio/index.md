@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -32,10 +33,10 @@ The '''audio''' object has these events.
 {{!}}[[dom/events/blur{{!}}'''onblur''']]
 {{!}}Fires when the object loses the input focus.
 {{!}}-
-{{!}}[[apis/audio-video/events/canplay{{!}}'''oncanplay''']]
+{{!}}[[dom/apis/audio-video/events/canplay{{!}}'''oncanplay''']]
 {{!}}Occurs when playback is possible, but would require further buffering.
 {{!}}-
-{{!}}[[apis/audio-video/events/canplaythrough{{!}}'''oncanplaythrough''']]
+{{!}}[[dom/apis/audio-video/events/canplaythrough{{!}}'''oncanplaythrough''']]
 {{!}}Occurs when playback to end is possible without requiring a stop for further buffering.
 {{!}}-
 {{!}}[[dom/events/change{{!}}'''onchange''']]
@@ -62,13 +63,13 @@ The '''audio''' object has these events.
 {{!}}[[dom/events/drop{{!}}'''ondrop''']]
 {{!}}Fires on the target object when the mouse button is released during a drag-and-drop operation.
 {{!}}-
-{{!}}[[apis/audio-video/events/durationchange{{!}}'''ondurationchange''']]
-{{!}}Occurs when the [[apis/audio-video/properties/duration{{!}}'''duration''']] attribute is updated.
+{{!}}[[dom/apis/audio-video/events/durationchange{{!}}'''ondurationchange''']]
+{{!}}Occurs when the [[dom/apis/audio-video/properties/duration{{!}}'''duration''']] attribute is updated.
 {{!}}-
-{{!}}[[apis/audio-video/events/emptied{{!}}'''onemptied''']]
+{{!}}[[dom/apis/audio-video/events/emptied{{!}}'''onemptied''']]
 {{!}}Occurs when the media element is reset to its initial state.
 {{!}}-
-{{!}}[[apis/audio-video/events/ended{{!}}'''onended''']]
+{{!}}[[dom/apis/audio-video/events/ended{{!}}'''onended''']]
 {{!}}Occurs when the end of playback is reached.
 {{!}}-
 {{!}}[[dom/events/error{{!}}'''onerror''']]
@@ -98,13 +99,13 @@ The '''audio''' object has these events.
 {{!}}[[dom/events/load{{!}}'''onload''']]
 {{!}}Fires immediately after the client loads the object.
 {{!}}-
-{{!}}[[apis/audio-video/events/loadeddata{{!}}'''onloadeddata''']]
+{{!}}[[dom/apis/audio-video/events/loadeddata{{!}}'''onloadeddata''']]
 {{!}}Occurs when media data is loaded at the current playback position.
 {{!}}-
-{{!}}[[apis/audio-video/events/loadedmetadata{{!}}'''onloadedmetadata''']]
+{{!}}[[dom/apis/audio-video/events/loadedmetadata{{!}}'''onloadedmetadata''']]
 {{!}}Occurs when the duration and dimensions of the media have been determined.
 {{!}}-
-{{!}}[[apis/audio-video/events/loadstart{{!}}'''onloadstart''']]
+{{!}}[[dom/apis/audio-video/events/loadstart{{!}}'''onloadstart''']]
 {{!}}Occurs when Internet Explorer begins looking for media data.
 {{!}}-
 {{!}}[[dom/events/mousedown{{!}}'''onmousedown''']]
@@ -125,19 +126,19 @@ The '''audio''' object has these events.
 {{!}}[[dom/events/mousewheel{{!}}'''onmousewheel''']]
 {{!}}Fires when the wheel button is rotated.
 {{!}}-
-{{!}}[[apis/audio-video/events/pause{{!}}'''onpause''']]
+{{!}}[[dom/apis/audio-video/events/pause{{!}}'''onpause''']]
 {{!}}Occurs when playback is paused.
 {{!}}-
-{{!}}[[apis/audio-video/events/play{{!}}'''onplay''']]
-{{!}}Occurs when the [[apis/audio-video/methods/play{{!}}'''play''']] method is requested.
+{{!}}[[dom/apis/audio-video/events/play{{!}}'''onplay''']]
+{{!}}Occurs when the [[dom/apis/audio-video/methods/play{{!}}'''play''']] method is requested.
 {{!}}-
-{{!}}[[apis/audio-video/events/playing{{!}}'''onplaying''']]
+{{!}}[[dom/apis/audio-video/events/playing{{!}}'''onplaying''']]
 {{!}}Occurs when the audio or video has started playing.
 {{!}}-
-{{!}}[[apis/audio-video/events/progress{{!}}'''onprogress''']]
+{{!}}[[dom/apis/audio-video/events/progress{{!}}'''onprogress''']]
 {{!}}Occurs to indicate progress while downloading media data.
 {{!}}-
-{{!}}[[apis/audio-video/events/ratechange{{!}}'''onratechange''']]
+{{!}}[[dom/apis/audio-video/events/ratechange{{!}}'''onratechange''']]
 {{!}}Occurs when the playback rate is increased or decreased.
 {{!}}-
 {{!}}[[dom/events/readystatechange{{!}}'''onreadystatechange''']]
@@ -146,28 +147,28 @@ The '''audio''' object has these events.
 {{!}}[[dom/events/reset{{!}}'''onreset''']]
 {{!}}Fires when the user resets a form.
 {{!}}-
-{{!}}[[apis/audio-video/events/seeked{{!}}'''onseeked''']]
+{{!}}[[dom/apis/audio-video/events/seeked{{!}}'''onseeked''']]
 {{!}}Occurs when the seek operation ends.
 {{!}}-
-{{!}}[[apis/audio-video/events/seeking{{!}}'''onseeking''']]
+{{!}}[[dom/apis/audio-video/events/seeking{{!}}'''onseeking''']]
 {{!}}Occurs when the current playback position is moved.
 {{!}}-
 {{!}}[[dom/events/selectstart{{!}}'''onselect''']]
 {{!}}Fires when the current selection changes.
 {{!}}-
-{{!}}[[apis/audio-video/events/stalled{{!}}'''onstalled''']]
+{{!}}[[dom/apis/audio-video/events/stalled{{!}}'''onstalled''']]
 {{!}}Occurs when the download has stopped.
 {{!}}-
-{{!}}[[apis/audio-video/events/suspend{{!}}'''onsuspend''']]
+{{!}}[[dom/apis/audio-video/events/suspend{{!}}'''onsuspend''']]
 {{!}}Occurs if the load operation has been intentionally halted.
 {{!}}-
-{{!}}[[apis/audio-video/events/timeupdate{{!}}'''ontimeupdate''']]
+{{!}}[[dom/apis/audio-video/events/timeupdate{{!}}'''ontimeupdate''']]
 {{!}}Occurs to indicate the current playback position.
 {{!}}-
-{{!}}[[apis/audio-video/events/volumechange{{!}}'''onvolumechange''']]
+{{!}}[[dom/apis/audio-video/events/volumechange{{!}}'''onvolumechange''']]
 {{!}}Occurs when the volume is changed, or playback is muted or unmuted.
 {{!}}-
-{{!}}[[apis/audio-video/events/waiting{{!}}'''onwaiting''']]
+{{!}}[[dom/apis/audio-video/events/waiting{{!}}'''onwaiting''']]
 {{!}}Occurs when playback stops because the next frame of a video resource is not available.
 {{!}}}
  
@@ -179,7 +180,7 @@ The '''audio''' object has these methods.
 !Method
 !Description
 {{!}}-
-{{!}}[[apis/audio-video/methods/canPlayType{{!}}'''canPlayType''']]
+{{!}}[[dom/apis/audio-video/methods/canPlayType{{!}}'''canPlayType''']]
 {{!}}Returns a string that specifies whether the client can play a given media resource type.
 {{!}}-
 {{!}}[[dom/methods/compareDocumentPosition{{!}}'''compareDocumentPosition''']]
@@ -212,7 +213,7 @@ The '''audio''' object has these methods.
 {{!}}[[dom/methods/isSupported{{!}}'''isSupported''']]
 {{!}}Returns a value indicating whether or not the object supports a specific DOM standard.
 {{!}}-
-{{!}}[[apis/audio-video/methods/load{{!}}'''load''']]
+{{!}}[[dom/apis/audio-video/methods/load{{!}}'''load''']]
 {{!}}Resets the '''IHTMLMediaElement''' and loads a new media resource.
 {{!}}-
 {{!}}[[dom/methods/lookupNamespaceURI{{!}}'''lookupNamespaceURI''']]
@@ -224,10 +225,10 @@ The '''audio''' object has these methods.
 {{!}}[[dom/methods/matchesSelector{{!}}'''msMatchesSelector''']]
 {{!}}Determines whether an object matches the specified selector.
 {{!}}-
-{{!}}[[apis/audio-video/methods/pause{{!}}'''pause''']]
-{{!}}Pauses the current playback and sets [[apis/audio-video/properties/paused{{!}}'''paused''']] to TRUE.
+{{!}}[[dom/apis/audio-video/methods/pause{{!}}'''pause''']]
+{{!}}Pauses the current playback and sets [[dom/apis/audio-video/properties/paused{{!}}'''paused''']] to TRUE.
 {{!}}-
-{{!}}[[apis/audio-video/methods/play{{!}}'''play''']]
+{{!}}[[dom/apis/audio-video/methods/play{{!}}'''play''']]
 {{!}}Loads and starts playback of a media resource.
 {{!}}-
 {{!}}[[dom/methods/removeAttributeNS{{!}}'''removeAttributeNS''']]
@@ -248,82 +249,82 @@ The '''audio''' object has these properties.
 !Property
 !Description
 {{!}}-
-{{!}}[[apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']]
-{{!}}The [[apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']] element is not supported by Internet Explorer 9. Use the [[apis/audio-video/properties/preload{{!}}'''preload''']] element instead.
+{{!}}[[dom/apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']]
+{{!}}The [[dom/apis/audio-video/properties/autobuffer{{!}}'''autobuffer''']] element is not supported by Internet Explorer 9. Use the [[dom/apis/audio-video/properties/preload{{!}}'''preload''']] element instead.
 {{!}}-
-{{!}}[[apis/audio-video/properties/autoplay{{!}}'''autoplay''']]
+{{!}}[[dom/apis/audio-video/properties/autoplay{{!}}'''autoplay''']]
 {{!}}Gets or sets a value that indicates whether to start playing the media automatically.
 {{!}}-
-{{!}}[[apis/audio-video/properties/buffered{{!}}'''buffered''']]
+{{!}}[[dom/apis/audio-video/properties/buffered{{!}}'''buffered''']]
 {{!}}Gets a collection of buffered time ranges.
 {{!}}-
-{{!}}[[apis/audio-video/properties/controls{{!}}'''controls''']]
+{{!}}[[dom/apis/audio-video/properties/controls{{!}}'''controls''']]
 {{!}}Gets or sets a flag that indicates whether the client provides a set of controls for the media (in case the developer does not include controls for the player).
 {{!}}-
-{{!}}[[apis/audio-video/properties/currentSrc{{!}}'''currentSrc''']]
+{{!}}[[dom/apis/audio-video/properties/currentSrc{{!}}'''currentSrc''']]
 {{!}}Gets the address or URL of the current media resource ('''video''','''audio''') that is selected by '''IHTMLMediaElement'''.
 {{!}}-
-{{!}}[[apis/audio-video/properties/currentTime{{!}}'''currentTime''']]
+{{!}}[[dom/apis/audio-video/properties/currentTime{{!}}'''currentTime''']]
 {{!}}Gets or sets the current playback position, in seconds.
 {{!}}-
-{{!}}[[apis/audio-video/properties/defaultPlaybackRate{{!}}'''defaultPlaybackRate''']]
+{{!}}[[dom/apis/audio-video/properties/defaultPlaybackRate{{!}}'''defaultPlaybackRate''']]
 {{!}}Gets or sets the default playback rate when the user is not using fast foward or reverse for a video or audio resource.
 {{!}}-
-{{!}}[[apis/audio-video/properties/duration{{!}}'''duration''']]
+{{!}}[[dom/apis/audio-video/properties/duration{{!}}'''duration''']]
 {{!}}Gets the duration, in seconds, of the current media resource, a <code>NaN</code> value if duration is not available, or <code>Infinity</code> if the media resource is streaming.
 {{!}}-
-{{!}}[[apis/audio-video/properties/ended{{!}}'''ended''']]
+{{!}}[[dom/apis/audio-video/properties/ended{{!}}'''ended''']]
 {{!}}Gets information about whether the playback has ended or not.
 {{!}}-
-{{!}}[[apis/audio-video/properties/error{{!}}'''error''']]
+{{!}}[[dom/apis/audio-video/properties/error{{!}}'''error''']]
 {{!}}Gets an '''IHTMLMediaError''' object representing the current error state of the media element.
 {{!}}-
-{{!}}[[apis/audio-video/properties/initialTime{{!}}'''initialTime''']]
+{{!}}[[dom/apis/audio-video/properties/initialTime{{!}}'''initialTime''']]
 {{!}}Gets the earliest possible position, in seconds, that the playback can begin.
 {{!}}-
 {{!}}[[dom/properties/localName{{!}}'''localName''']]
 {{!}}Retrieves the local name of the fully qualified XML declaration for a node.
 {{!}}-
-{{!}}[[apis/audio-video/properties/loop{{!}}'''loop''']]
+{{!}}[[dom/apis/audio-video/properties/loop{{!}}'''loop''']]
 {{!}}Gets or sets a flag that specifies whether playback should restart after it completes.
 {{!}}-
-{{!}}[[apis/audio-video/properties/muted{{!}}'''muted''']]
+{{!}}[[dom/apis/audio-video/properties/muted{{!}}'''muted''']]
 {{!}}Gets or sets a flag that indicates whether the audio (either audio or the audio track on video media) is muted.
 {{!}}-
 {{!}}[[dom/properties/namespaceURI{{!}}'''namespaceURI''']]
 {{!}}Retrieves the namespace URI of the fully qualified XML declaration for a node.
 {{!}}-
-{{!}}[[apis/audio-video/properties/networkState{{!}}'''networkState''']]
+{{!}}[[dom/apis/audio-video/properties/networkState{{!}}'''networkState''']]
 {{!}}Gets the current network activity for the element.
 {{!}}-
-{{!}}[[apis/audio-video/properties/paused{{!}}'''paused''']]
+{{!}}[[dom/apis/audio-video/properties/paused{{!}}'''paused''']]
 {{!}}Gets a flag that specifies whether playback is paused.
 {{!}}-
-{{!}}[[apis/audio-video/properties/playbackRate{{!}}'''playbackRate''']]
+{{!}}[[dom/apis/audio-video/properties/playbackRate{{!}}'''playbackRate''']]
 {{!}}Gets or sets the current speed for the media resource to play. This speed is expressed as a multiple of the normal speed of the media resource.
 {{!}}-
-{{!}}[[apis/audio-video/properties/played{{!}}'''played''']]
-{{!}}Gets [[apis/audio-video/HTMLTimeRanges{{!}}'''TimeRanges''']] for the current media resource that has been played.
+{{!}}[[dom/apis/audio-video/properties/played{{!}}'''played''']]
+{{!}}Gets [[apis/audio-video/TimeRanges{{!}}'''TimeRanges''']] for the current media resource that has been played.
 {{!}}-
 {{!}}[[dom/properties/prefix{{!}}'''prefix''']]
 {{!}}Retrieves the local name of the fully qualified XML declaration for a node.
 {{!}}-
-{{!}}[[apis/audio-video/properties/preload{{!}}'''preload''']]
-{{!}}Gets or sets a hint to how much buffering is advisable for a media resource, even if [[apis/audio-video/properties/autoplay{{!}}'''autoplay''']] is not specified.
+{{!}}[[dom/apis/audio-video/properties/preload{{!}}'''preload''']]
+{{!}}Gets or sets a hint to how much buffering is advisable for a media resource, even if [[dom/apis/audio-video/properties/autoplay{{!}}'''autoplay''']] is not specified.
 {{!}}-
-{{!}}[[apis/audio-video/properties/seekable{{!}}'''seekable''']]
-{{!}}Returns a [[apis/audio-video/HTMLTimeRanges{{!}}'''TimeRanges''']] object that represents the ranges of the current media resource that can be seeked.
+{{!}}[[dom/apis/audio-video/properties/seekable{{!}}'''seekable''']]
+{{!}}Returns a [[apis/audio-video/TimeRanges{{!}}'''TimeRanges''']] object that represents the ranges of the current media resource that can be seeked.
 {{!}}-
-{{!}}[[apis/audio-video/properties/seeking{{!}}'''seeking''']]
+{{!}}[[dom/apis/audio-video/properties/seeking{{!}}'''seeking''']]
 {{!}}Gets a flag that indicates whether the the client is currently moving to a new playback position in the media resource.
 {{!}}-
-{{!}}[[apis/audio-video/properties/src{{!}}'''src''']]
+{{!}}[[dom/apis/audio-video/properties/src{{!}}'''src''']]
 {{!}}The address or URL of the a media resource ('''video''', '''audio''') that is to be considered.
 {{!}}-
 {{!}}[[dom/properties/textContent{{!}}'''textContent''']]
 {{!}}Sets or retrieves the text content of an object and any child objects.
 {{!}}-
-{{!}}[[apis/audio-video/properties/volume{{!}}'''volume''']]
+{{!}}[[dom/apis/audio-video/properties/volume{{!}}'''volume''']]
 {{!}}Gets or sets the volume level for audio portions of the media element.
 {{!}}}
 }}
