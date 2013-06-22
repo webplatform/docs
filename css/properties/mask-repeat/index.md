@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -16,7 +16,18 @@
 |Media=visual
 |Computed value=A list, each item consisting of: two keywords, one per dimension
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=<repeat-style>
+|Description=The repeating behavior of the mask.
+Single values for <repeat-style> are listed as follows:
+‘repeat-x’ : the tiling of the mask object will occur in x direction.
+‘repeat-y’: the tiling of the mask object will occur in y direction.
+‘repeat’: the tiling of the mask object will occur as often as needed to cover the background area.
+‘space’: 
+‘round’
+‘no-repeat’
+
+}}
 }}
 {{Examples_Section
 |Not_required=No
