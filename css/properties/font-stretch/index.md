@@ -13,7 +13,7 @@
 |Inherited=Yes
 |Media=visual
 |Computed value=as specified
-|Animatable=Yes
+|Animatable=No
 |Values={{CSS Property Value
 |Data Type=ultra-condensed
 |Description=This is the most condensed setting.
@@ -41,13 +41,18 @@
 }}{{CSS Property Value
 |Data Type=ultra-expanded
 |Description=This is the most expanded setting.
+}}{{CSS Property Value
+|Data Type=wider (Internet Explorer only)
+|Description=This expands the font face in Internet Explorer only.
+}}{{CSS Property Value
+|Data Type=narrower (Internet Explorer only)
+|Description=This condenses the font face in Internet Explorer only.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Currently not supported in any browser.
 |Code=.ultra-condensed{
 	-webkit-font-stretch:ultra-condensed;
 	-ms-font-stretch:ultra-condensed;
@@ -88,7 +93,7 @@
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
-<code>'''font-stretch: '''normal '''{{!}}''' wider '''{{!}}''' narrower '''{{!}}''' ultra-condensed '''{{!}}''' extra-condensed '''{{!}}''' condensed '''{{!}}''' semi-condensed '''{{!}}''' semi-expanded '''{{!}}''' expanded '''{{!}}''' extra-expanded '''{{!}}''' ultra-expanded '''{{!}}''' inherit</code>
+<code>'''font-stretch: '''normal '''{{!}}''' wider '''{{!}}''' narrower '''{{!}}''' ultra-condensed '''{{!}}''' extra-condensed '''{{!}}''' condensed '''{{!}}''' semi-condensed '''{{!}}''' semi-expanded '''{{!}}''' expanded '''{{!}}''' extra-expanded '''{{!}}''' ultra-expanded '''</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.10
 }}
