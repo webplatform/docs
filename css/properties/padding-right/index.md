@@ -29,11 +29,10 @@
 |Language=CSS
 |Description=The following examples use the <code>padding-right</code> property to change the [[css/properties/padding|padding]] of the elements.
 |Code=h1 { padding-right: 5%; }
-p { padding-right: 10px; }
+
 }}{{Single Example
 |Language=CSS
-|Code=&lt;h1&gt;Hey there&lt;/h1&gt;
-&lt;p&gt;I think you are awesome!&lt;/p&gt;
+|Code=p { padding-right: 10px; }
 }}
 }}
 {{Notes_Section
