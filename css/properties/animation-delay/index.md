@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete, Examples Needed, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -37,11 +37,8 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <code>animation-delay</code> property delays the start of an animation by the amount specified in seconds (<code>s</code>) or thousandths of a second (<code>ms</code>). If a negative value is specified, the animation starts immediately, but at the point it would have reached at the specified offset. So, if the animation is four seconds long, and the delay is set to minus two seconds, it begins halfway through.
-
-Values are rounded up to the second decimal place. If multiple values are specified as a comma-separated list, each '''animation-delay''' is paired with a corresponding [[css/properties/animation-name|'''animation-name''']].
-If more '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the excess '''animation-delay''' values are ignored.
-If fewer  '''animation-delay''' values are declared than corresponding [[css/properties/animation-name|'''animation-name''']] values, the list of '''animation-delay''' values is repeated from the beginning until the '''animation-name''' values are exhausted.
+|Usage=*If <code>[[css/properties/animation-deley|animation-delay]]</code> specifies more delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess delays are ignored.
+*If <code>[[css/properties/animation-delay|animation-delay]]</code> specifies fewer delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of delays is repeated as many times as needed to map each animation to a delay.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
