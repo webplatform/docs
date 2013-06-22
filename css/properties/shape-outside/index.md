@@ -44,6 +44,10 @@
 |Name=CSS Shapes Module Level 1
 |URL=http://dev.w3.org/csswg/css-shapes/
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=http://www.w3.org/TR/css-shapes/
+|Status=First Public Working Draft
 }}
 }}
 {{Compatibility_Section
