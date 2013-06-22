@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Working Draft <http://www.w3.org/TR/css-shapes/>}}
+{{Summary_Section|A future level of CSS Shapes will define a shape-inside property, which will define a shape to wrap content within the element. See Editor's Draft <http://dev.w3.org/csswg/css-shapes/> and CSSWG wiki page on next-level plans <http://wiki.csswg.org/spec/css-shapes>}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
