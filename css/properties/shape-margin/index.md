@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Content=Incomplete, Examples Needed
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property adds a margin to a shape created using the [[css/properties/shape-outside|shape-outside]] property.}}
 {{CSS Property
@@ -12,11 +13,11 @@
 |Inherited=No
 |Media=visual
 |Computed value=the absolute length
-|Animatable=No
+|Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<length>
-|Description=Lengths refer to distance measurements and are denoted by <length> in the property definitions.
+|Description=Adds a margin to a shape-outside. This defines a new shape where every point is the specified length from the shape-outside.
 }}
 }}
 {{Examples_Section
@@ -31,6 +32,10 @@
 |Name=CSS Shapes Module Level 1
 |URL=http://dev.w3.org/csswg/css-shapes/
 |Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=http://www.w3.org/TR/css-shapes/
+|Status=First Public Working Draft
 }}{{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/#lengths
