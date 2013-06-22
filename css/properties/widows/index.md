@@ -10,7 +10,6 @@
 
 On a non-paged media, like screen, the widows CSS property has no effect.
 It can have a number value or it can inherit the values from the parent element.
-
 }}
 {{CSS Property
 |Initial value=2
@@ -23,7 +22,7 @@ It can have a number value or it can inherit the values from the parent element.
 |Values={{CSS Property Value
 |Data Type=integer
 |Description=Denotes the minimum amount of lines that can stay alone on the top of a new page. If the value is not positive, the declaration is invalid.
-}}{{CSS Property Value}}
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -57,7 +56,19 @@ IE8 Standards mode rendering.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fragmentation Module Level 3
+|URL=http://dev.w3.org/csswg/css-break/#widows-orphans
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://dev.w3.org/csswg/css-multicol/#filling-columns
+|Status=Candidate Reccomendation
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/page.html#break-inside
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -89,8 +100,7 @@ IE8 Standards mode rendering.
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
-|External_links=http://www.w3schools.com/jsref/prop_style_widows.asp
-http://xhtml.com/en/css/reference/widows/
+|External_links=http://xhtml.com/en/css/reference/widows/
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
