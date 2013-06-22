@@ -16,10 +16,10 @@
 |Data Type=auto
 |Description=If auto is set for the elements width, the browser will determine the width for the element.
 }}{{CSS Property Value
-|Data Type=<length>
+|Data Type=length
 |Description=Will take a number that is immediately followed by a length unit such as px, em, in,  etc.
 }}{{CSS Property Value
-|Data Type=<percentage>
+|Data Type=percentage
 |Description=Integer, followed by a %. The value is a percentage of the width of the parent object, whether or not it is specified explicitly.  Negative values are not allowed.
 }}{{CSS Property Value
 |Data Type=border-box
