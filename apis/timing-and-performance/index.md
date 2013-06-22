@@ -8,15 +8,15 @@
 {{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-This section documents the timing and performance-based standards supported by Windows Internet Explorer and Windows Store apps. As of this writing, these include (but are not limited to):
 
+As of this writing, these include (but are not limited to):
 
-•Navigation Timing <ref>http://www.w3.org/TR/navigation-timing/</ref> (candidate recommendation, 13 March 2012)
-•Resource Timing <ref>http://www.w3.org/TR/resource-timing/</ref> (working draft, 11 August 2011)
-•User Timing<ref>http://www.w3.org/TR/user-timing/</ref> (working draft, 1 September 2011)
-•Page Visibility<ref>http://www.w3.org/TR/page-visibility/</ref> (working draft, 21 July 2011)
-•Animation Timing<ref>http://www.w3.org/TR/animation-timing/</ref> (working draft, 2 June 2011)
-•Efficient Script Yielding<ref>https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html</ref> (editor's draft, 28 July 2011)
+* Navigation Timing <ref>http://www.w3.org/TR/navigation-timing/</ref> (candidate recommendation, 13 March 2012)
+* Resource Timing <ref>http://www.w3.org/TR/resource-timing/</ref> (working draft, 11 August 2011)
+* User Timing<ref>http://www.w3.org/TR/user-timing/</ref> (working draft, 1 September 2011)
+* Page Visibility<ref>http://www.w3.org/TR/page-visibility/</ref> (working draft, 21 July 2011)
+* Animation Timing<ref>http://www.w3.org/TR/animation-timing/</ref> (working draft, 2 June 2011)
+* Efficient Script Yielding<ref>https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/setImmediate/Overview.html</ref> (editor's draft, 28 July 2011)
 
 The implementation of these specifications by Internet Explorer depends, in part, on the state of the specification at the time support was added to the browser. Because specifications can (and frequently do) change before they are finalized, refer to the current version of the specification for the latest information.
 
