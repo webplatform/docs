@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -16,64 +16,30 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=outside
-|Description=Default. Marker is placed outside the text, and any wrapping text is not aligned under the marker.
+|Description=Default. Marker is placed outside the list item, and any wrapping text is not aligned under the marker.
 }}{{CSS Property Value
 |Data Type=inside
 |Description=Marker is placed inside the text, and any wrapping text is aligned under the marker.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent.  (Acts similarly to other uses of inherit in CSS.)
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following examples use the '''list-style-position''' attribute and the '''list-style-position''' property to set the position for markers.
 
 This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to set the position of the list-item markers.
-|Code=UL	{ list-style-position:inside }
-UL.compact { list-style-position:outside }
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-position.htm
+|Code=.firstlist { list-style-position:inside }
+.secondlist { list-style-position:outside }
+|LiveURL=http://code.webplatform.org/gist/5841706
 }}{{Single Example
-|Description=This example uses inline scripting to change the marker position when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
-|Code=&lt;SPAN STYLE{{=}}"width:3cm" onmouseover{{=}}"this.style.listStylePosition{{=}}'inside'"
-    onmouseout{{=}}"this.style.listStylePosition{{=}}'outside'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/listStylePosition.htm
-}}{{Single Example
-|Language=CSS
-|Description=list-style-position example using both values
-|Code=/*
-	list-style-position example
-	notice the difference based on the background color
-	the &lt;li&gt; has a gray background to stand out
-	the border represents the &lt;ul&gt;
-*/
-
-.list-position--outside {
-	list-style-position: outside; /* this is also the default value */
-}
-
-.list-position--inside {
-	list-style-position: inside;
-}
-
-/*
-	Example for unordered lists
-*/
-
-.list-style--circle {
-	list-style-type: circle;
-}
-
-.list-style--square {
-	list-style-type: square;
-}
-
-li {
-	background:#eee;
-}
-
-ul {
-	border:1px solid #aaa;
-}
-|LiveURL=http://code.webplatform.org/gist/5597676
+|Language=JavaScript
+|Description=This example uses inline scripting to change the marker position to inside when an [[dom/events/mouseover|'''onmouseover''']] event occurs and revert the position to outside when an [[dom/events/mouseout|'''onmouseout''']] event occurs..
+|Code=&lt;ul onMouseOver="this.style.listStylePosition='inside';" onMouseOut="this.style.listStylePosition='outside';"&gt;
+|LiveURL=http://code.webplatform.org/gist/5841730
 }}{{Single Example
 |Language=CSS
 |Description=Using list-style-position to display otherwise hidden list markers
