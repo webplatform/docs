@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -13,7 +11,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=specified value
-|Animatable=No
+|Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=content-box
 |Description=The <code>width</code> and <code>height</code> properties (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) are calculated as the width/height of the content, but not the border, margin, or padding. This is the traditional behaviour of width and height as specified by CSS2.1.
