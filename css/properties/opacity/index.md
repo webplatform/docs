@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=This page should be kept, and the data at http://docs.webplatform.org/wiki/css/Properties/opacity merged into it as appropriate.
 }}
 {{Standardization_Status}}
