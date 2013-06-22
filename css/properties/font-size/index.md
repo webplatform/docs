@@ -24,10 +24,11 @@
 |Description=An absolute unit value: any of the standard [[css/data_types/length|css length units]] are allowed. Negative lengths are illegal.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''.
+|Description=A percentage value, indicating a percentage of the parent element's '''font-size'''. Use of percentage values, or values in ‘em’s, leads to more robust and cascadable style sheets.
+
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=the <code>inherit</code> keyword causes the element to adopt its parent element's font size.
+|Description=The <code>inherit</code> keyword causes the element to adopt its parent element's font size.
 }}
 }}
 {{Examples_Section
