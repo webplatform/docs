@@ -11,7 +11,9 @@
 |Applies to=floats
 |Inherited=No
 |Media=visual
+|Computed value=As specified, clamped to a 0.0-1.0 range
 |Animatable=Yes
+|CSS object model property=shapeImageThreshold
 |CSS percentages=alpha channel of the image specified by <uri>
 |Values={{CSS Property Value
 |Data Type=<alphavalue>
