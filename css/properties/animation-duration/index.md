@@ -40,7 +40,8 @@
 }}
 }}
 {{Notes_Section
-|Usage=*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies more durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess durations are ignored.
+|Usage=*Negative duration values are invalid and cause the entire property value to be ignored.
+*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies more durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess durations are ignored.
 *If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
 }}
 {{Related_Specifications_Section
