@@ -2,21 +2,31 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies how long an animation takes to complete one cycle}}
+{{Summary_Section|Defines the length of time an animation will take to complete one cycle}}
 {{CSS Property
 |Initial value=0s
-|Applies to=all elements
+|Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=animationDuration
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=time
-|Description=Floating-point number, followed by a time units designator (<code>ms</code> [milliseconds] or <code>s</code> [seconds]). For more information about the supported time units, see '''CSS Values and Units Reference'''.
+|Data Type=0s
+|Description=The initial value of 0s means the animation takes no time. When the duration is 0s (or 0ms) [[css/properties/animation-fill-mode|animation-fill-mode]] still applies i.e. an animation filling backwards will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forwards will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]], even if the animation was instantaneous. Also, animation events are still fired. 
+}}{{CSS Property Value
+|Data Type=1s
+|Description=The specified animation will run for one second.
+}}{{CSS Property Value
+|Data Type=150ms
+|Description=Animation duration can also be specified in milliseconds.
+}}{{CSS Property Value
+|Data Type=.25s, .5s
 }}
 }}
 {{Examples_Section
