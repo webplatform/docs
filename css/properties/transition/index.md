@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Examples Best Practices
+|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -12,7 +11,9 @@
 |Applies to=all elements, :before and :after pseudo elements
 |Inherited=No
 |Media=interactive
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=transition
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=transition-property
