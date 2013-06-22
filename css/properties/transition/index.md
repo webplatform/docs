@@ -34,13 +34,20 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=When you hover over the div, the height property will gradually change from 100 to 500.
-|Code=div {
-  height: 100px;
-  transition: height 2s;
-}
+|Code=/*
+ * This example usage of the transition shorthand
+ * 
+ * In this example the height of a div will change 
+ * to 300px over 2 seconds. 
+ * 
+ * The non-shorthand equivalent would be:
+ * transition-property: height;
+ * transition-duration: 2s; 
+ */
 
 div:hover {
-  height: 500px;
+  height: 300px;
+  transition: height 2s;
 }
 |LiveURL=http://03sq.net/examples/transition.html
 }}
