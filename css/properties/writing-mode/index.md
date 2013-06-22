@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
