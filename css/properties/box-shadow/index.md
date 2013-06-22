@@ -71,7 +71,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
 }
-|LiveURL=http://code.webplatform.org/gist/5259299
+|LiveURL=http://code.webplatform.org/gist/5259244
 }}{{Single Example
 |Language=CSS
 |Description=An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
