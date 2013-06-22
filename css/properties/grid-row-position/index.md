@@ -1,5 +1,6 @@
-{{Page_Title}}
+{{Page_Title|grid-row-position}}
 {{Flags
+|Content=Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
