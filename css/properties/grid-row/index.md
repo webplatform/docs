@@ -6,26 +6,41 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|Integer value that identifies the specified row in a grid-container.}}
+{{Summary_Section|Shorthand for grid-before/after and grid-start/end.}}
 {{CSS Property
 |Initial value=1
 |Applies to=grid item elements
 |Inherited=No
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=integer
-|Description=Integer value that identifies the specified row.
+|Data Type=integer || string
+|Description=Integer value or String that identifies the specified row.
+}}{{CSS Property Value
+|Data Type=span && [integer || string]
+|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Automatically places an item using the auto-placement algorithm.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Places an element "#label" into the "labels" column on row 3.
+|Code=#label {
+
+grid-column: 'labels';
+grid-row: 3;
+
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
 The row numbering system is a 1-based index, with 1 being the default. That is, row numbering does not begin with zero.
 |Import_Notes====Syntax===
-<code>'''-ms-grid-row: '''''
+<code>'''grid-row: '''''
 &lt;integer&gt;
 ''</code>
 ===Standards information===
