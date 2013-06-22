@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image.}}
 {{CSS Property
-|Initial value=<alphavalue>
+|Initial value=0.5
 |Applies to=floats
 |Inherited=No
 |Media=visual
