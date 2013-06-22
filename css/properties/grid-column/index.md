@@ -39,20 +39,21 @@
 	#title { grid-column: 1/ span 4;    grid-row: 1; }
 	#editor { grid-column: 1;       grid-row: 2 }
 	#writer { grid-column: 2;       grid-row: 2; }
-  #project{ grid-column: 3 / span 2; grid-row: 2; }
+                #project{ grid-column: 3 / span 2; grid-row: 2; }
 </style>
 
-</head>
-<body>
-<div id="mygrid">
-	<div id="title"><h1>Writer - editor projects</h1></div>
-	<div id="editor">John Sterling</div>
-	<div id="writer">Chuck Brown</div>
-  <div id="project">Webplatform.org CSS property descriptions.</div>
-</div>
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="mygrid"&gt;
+	&lt;div id="title"&gt;&lt;h1&gt;"Writer - editor   
+ projects"&lt;/h1&gt;&lt;/div&gt;
+	&lt;div id="editor"&gt;John Sterling</div&gt;
+	&lt;div id="writer"&gt;Chuck Brown</div&gt;
+                 &lt;div id="project"&gt;Webplatform.org CSS property descriptions.&lt;/div&gt;
+&lt;/div&gt;
 
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
