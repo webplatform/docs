@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -12,7 +10,9 @@
 |Applies to=all elements, :before and :after pseudo elements
 |Inherited=No
 |Media=visual
-|Animatable=Yes
+|Computed value=Same as specified value
+|Animatable=No
+|CSS object model property=N/A
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
@@ -27,7 +27,27 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/*
+  * This example only applies "transition-" prefixed css
+  *  properties to those listed in "transition-property" css
+  *  property(height and width). 
+  *
+  * This example changes a hovered div's height and 
+  * width to 100px over a duration of 3s, any other css 
+  *  properties are applied happen instantly.
+  * 
+  */
+div:hover{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	transition-property: height, width;
+	transition-duration:3s;
+}
+|LiveURL=http://code.webplatform.org/gist/5842100
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
