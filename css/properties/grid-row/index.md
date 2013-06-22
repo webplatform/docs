@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Compatibility Incomplete, Examples Needed, Needs Summary
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
