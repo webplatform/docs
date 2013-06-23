@@ -30,7 +30,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=&gt;style&lt;
+|Code=&lt;style&gt;
 /**
 &nbsp;* Background-origin Example
 &nbsp;*/
@@ -55,11 +55,11 @@ div {
 &nbsp;&nbsp;background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/logo.svg");
 &nbsp;&nbsp;background-repeat: no-repeat;
 }
-&gt;/style&lt;
+&lt;/style&gt;
 
-&gt;div class="border-box"&lt;Border box!&gt;/div&lt;
-&gt;div class="padding-box"&lt;Padding box!&gt;/div&lt;
-&gt;div class="content-box"&lt;Content box!&gt;/div&lt;
+&lt;div class="border-box"&gt;Border box!&lt;/div&gt;
+&lt;div class="padding-box"&gt;Padding box!&lt;/div&gt;
+&lt;div class="content-box"&gt;Content box!&lt;/div&gt;
 
 |LiveURL=[http://code.webplatform.org/gist/5842945 live example]
 }}
