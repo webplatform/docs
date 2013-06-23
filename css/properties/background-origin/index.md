@@ -2,11 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies what the background-position property should be relative to.  You should understand the CSS [[tutorials/box_model|Box Model]] before using this property.  Use this in conjunction with [[css/properties/background-image|background-image]] and optionally [[css/properties/background-position|background-position]].   See [[css/properties/background-position|background position]] for information about the coordinate system and positioning.
-}}
+{{Summary_Section|Specifies what the background-position property should be relative to.  You should understand the CSS [[tutorials/box_model|Box Model]] before using this property.  Use this in conjunction with [[css/properties/background-image|background-image]] and optionally [[css/properties/background-position|background-position]].   See [[css/properties/background-position|background position]] for information about the coordinate system and positioning.}}
 {{CSS Property
 |Initial value=padding-box
 |Applies to=All elements
@@ -30,20 +30,37 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.example {
-   border: 10px double;
-   padding: 10px;
-   background: url('image.jpg');
-   background-position: center left;
-   /* The background will be inside the padding */
-   background-origin: content-box;
+|Code=&gt;style&lt;
+/**
+&nbsp;* Background-origin Example
+&nbsp;*/
+.border-box {
+&nbsp; background-origin: border-box;
 }
-
+.content-box {
+&nbsp;&nbsp;background-origin: content-box;
+}
+.padding-box {
+&nbsp;&nbsp;background-origin: padding-box;
+}
 div {
-  background-image: url('mainback.png'), url('logo.jpg');
-  background-position: 0px 0px, top right;
-  background-origin: padding-box, content-box;
+&nbsp;&nbsp;display: inline-block;
+&nbsp;&nbsp;margin: 10px;
+&nbsp;&nbsp;width: 100px;
+&nbsp;&nbsp;height: 60px;
+&nbsp;&nbsp;background-color: hsl(0,50%,90%);
+&nbsp;&nbsp;padding: 20px;
+&nbsp;&nbsp;border: 10px solid black;
+&nbsp;&nbsp;background-origin: border-box;
+&nbsp;&nbsp;background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/logo.svg");
+&nbsp;&nbsp;background-repeat: no-repeat;
 }
+&gt;/style&lt;
+
+&gt;div class="border-box"&lt;Border box!&gt;/div&lt;
+&gt;div class="padding-box"&lt;Padding box!&gt;/div&lt;
+&gt;div class="content-box"&lt;Content box!&gt;/div&lt;
+
 |LiveURL=[http://code.webplatform.org/gist/5842945 live example]
 }}
 }}
