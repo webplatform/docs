@@ -85,13 +85,13 @@ p.height200 {
 	color: orange;
 }
 
-p.height25 {
+p.height50 {
 	/* vendor prefix needed */
 	height: 50px;
 	background: red;
 } 
 
-p.height25solved {
+p.height50solved {
 	/* vendor prefix needed */
 	height: 50px;
 	background: green;
@@ -108,12 +108,12 @@ p.height25solved {
 
 &lt;!-- You can solve the issue below by setting the overflow property --&gt;
 &lt;div&gt;
-&lt;p class="height25"&gt;This is the content inside of the parent div. The content extends beyond the bounding element and extends into elements below, interupting the flow.&lt;/p&gt;
+&lt;p class="height50"&gt;This is the content inside of the parent div. The content extends beyond the bounding element and extends into elements below, interupting the flow.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;!-- Solved by setting the overflow property to hidden --&gt;
 &lt;div&gt;
-&lt;p class="height25solved"&gt;This is the content inside of the parent div. The content extends beyond the bounding element and extends into elements below, interupting the flow.&lt;/p&gt;
+&lt;p class="height50solved"&gt;This is the content inside of the parent div. The content extends beyond the bounding element and extends into elements below, interupting the flow.&lt;/p&gt;
 &lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/5702862
 }}
