@@ -282,6 +282,3 @@ rgba(0%,0%,100%,0.5)
 *"transparent" (since CSS3)
 *"currentColor" (since CSS3) (same as "color: inherit")
 *CSS2 system colors (Deprecated)
-
-===More live examples===
-*[http://www.w3schools.com/cssref/tryit.asp?filename=trycss_color w3schools Tryit]
