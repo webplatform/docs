@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -11,10 +12,13 @@
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=absolute length; ‘0’ if the column rule style is ‘none’ or ‘hidden’
+|Animatable=Yes
+|CSS object model property=columnRuleWidth
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=medium
-|Description=Default.  
+|Description=Default. A medium width border. 
 }}{{CSS Property Value
 |Data Type=thin
 |Description=Width less than the default.
@@ -31,8 +35,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-<code>'''column-rule-width: '''medium '''{{!}}''' thin '''{{!}}''' thick '''{{!}}''' ''width''</code>
+|Usage=Negative length values are not allowed.
+|Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and not defined in the specification. 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -46,38 +50,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
