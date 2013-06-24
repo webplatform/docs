@@ -4,13 +4,16 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the style of the rule between columns.}}
+{{Summary_Section|Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.}}
 {{CSS Property
 |Initial value=none
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=columnRuleStyle
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. No border is drawn, regardless of any specified [[css/properties/border-width|'''borderWidth''']].
@@ -58,7 +61,6 @@ Same as <code>none</code>, except in terms of conflict resolution of collapsed b
 column-rule-width = 4px
 column-rule-style = solid
 column-rule-color = green
-
 |Code=#column3 {
   column-width: 15em;
   column-gap: 2em;
