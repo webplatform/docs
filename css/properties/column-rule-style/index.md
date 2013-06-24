@@ -16,22 +16,22 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. No border is drawn, regardless of any specified [[css/properties/border-width|'''borderWidth''']].
+|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0.
 }}{{CSS Property Value
 |Data Type=dotted
-|Description=Border is a dotted line.
+|Description=Column rule is a dotted line.
 }}{{CSS Property Value
 |Data Type=dashed
-|Description=Border is a dashed line.
+|Description=Column rule is a dashed line.
 }}{{CSS Property Value
 |Data Type=solid
-|Description=Border is a solid line.
+|Description=Column rule is a solid line.
 }}{{CSS Property Value
 |Data Type=double
-|Description=Border is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/border-width|'''borderWidth''']] value. The border width must be at least 3 pixels wide to draw a double border.
+|Description=Column rule is two parallel solid lines with a space between. The sum of the two single lines and the space between equals the <code>column-rule-width</code> value. The column rule width must be at least 3 pixels wide to draw a double rule.
 }}{{CSS Property Value
 |Data Type=groove
-|Description=3-D groove is drawn in colors based on the value. The [[css/properties/border-width|'''borderWidth''']] property of the object must be specified for the style to render correctly.
+|Description=3-D groove is drawn in colors slightly lighter and darker than the value. 
 }}{{CSS Property Value
 |Data Type=ridge
 |Description=3-D ridge is drawn in colors based on the value.
@@ -39,48 +39,33 @@
 |Data Type=inset
 |Description=3-D inset is drawn in colors based on the value.
 }}{{CSS Property Value
-|Data Type=window-inset
-|Description=Internet Explorer 6 and later. 
-
-Border is the same as inset, but is surrounded by an additional single line, drawn in colors based on the value.
-}}{{CSS Property Value
 |Data Type=outset
 |Description=3-D outset is drawn in colors based on the value.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Internet Explorer 8.
-
-Same as <code>none</code>, except in terms of conflict resolution of collapsed borders. Any element with a <code>hidden</code> border suppresses all shared borders at that location. Borders with a style of <code>none</code> have the lowest priority.
-}}{{CSS Property Value}}
+|Description=Same as <code>none</code>.
+}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=Uses the column-rule attribute to set multiple attributes at the same time. The column-rule attribute is a shorthand for
+|Language=CSS
+|Description=Uses the <code>column-rule</code> shorthand to set multiple properties at the same time. The <code>column-rule</code> property used is the equivalent of:
 
-column-rule-width = 4px
-column-rule-style = solid
-column-rule-color = green
+<code><pre>column-rule-width: 4px;
+column-rule-style: solid;
+column-rule-color: green;</pre></code>
 |Code=#column3 {
   column-width: 15em;
   column-gap: 2em;
-/*
-The column-rule attribute is a shorthand for
 
-column-rule-width = 4px
-column-rule-style = solid
-column-rule-color = green
-*/
   column-rule: 4px solid green;
   padding: 5px;
 }
 |LiveURL=http://code.webplatform.org/gist/5305898
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''column-rule-style: '''none '''{{!}}''' dotted '''{{!}}''' dashed '''{{!}}''' solid '''{{!}}''' double '''{{!}}''' groove '''{{!}}''' ridge '''{{!}}''' inset '''{{!}}''' window-inset '''{{!}}''' outset '''{{!}}''' hidden</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -93,38 +78,6 @@ column-rule-color = green
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
