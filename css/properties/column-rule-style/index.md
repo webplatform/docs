@@ -31,7 +31,7 @@
 |Description=Column rule is two parallel solid lines with a space between. The sum of the two single lines and the space between equals the <code>column-rule-width</code> value. The column rule width must be at least 3 pixels wide to draw a double rule.
 }}{{CSS Property Value
 |Data Type=groove
-|Description=3-D groove is drawn in colors slightly lighter and darker than the value. 
+|Description=3-D groove is drawn in colors slightly lighter and darker than the value.
 }}{{CSS Property Value
 |Data Type=ridge
 |Description=3-D ridge is drawn in colors based on the value.
@@ -65,7 +65,9 @@ column-rule-color: green;</pre></code>
 |LiveURL=http://code.webplatform.org/gist/5305898
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Currently requires prefixes for Blink, WebKit, and Gecko-based browsers. No prefix is needed for IE and Opera 10.50–12.10.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
