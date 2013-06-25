@@ -65,14 +65,12 @@ column-rule-color: green;</pre></code>
 |LiveURL=http://code.webplatform.org/gist/5305898
 }}
 }}
-{{Notes_Section
-|Notes=Currently requires prefixes for Blink, WebKit, and Gecko-based browsers. No prefix is needed for IE and Opera 10.50–12.10.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation 
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -80,7 +78,20 @@ column-rule-color: green;</pre></code>
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=14–Current
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Requires -moz- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
