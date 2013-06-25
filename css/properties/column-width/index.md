@@ -6,13 +6,16 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies the width of the columns.}}
+{{Summary_Section|Specifies the width of columns in multi-column elements}}
 {{CSS Property
 |Initial value=auto
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=the absolute length, zero or larger
+|Animatable=Yes
+|CSS object model property=columnWidth
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=length
 |Description=A floating-point number, followed by either an absolute units designator
