@@ -12,7 +12,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example implements the '''@charset''' rule.
+|Description=Set the character encoding of the style sheet to Unicode UTF-8 (recommended)
+|Code=@charset "UTF-8";
+}}{{Single Example
+|Language=CSS
+|Description=Set the character encoding of the style sheet to Cyrillic (Windows 1251)
 |Code=@charset "Windows-1251";
 }}
 }}
@@ -21,7 +25,6 @@
 You can use only one '''@charset''' rule in an external style sheet.  The rule must appear at the top of the file, cannot be preceded by any characters, and cannot be included in an embedded style sheet.
 
 The rule has no default value.
-
 |Import_Notes====Syntax===
 <code>'''@charset '''''CharSet-Description''</code>
 ===Parameters===
