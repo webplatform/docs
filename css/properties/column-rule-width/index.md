@@ -45,14 +45,13 @@
 }}
 {{Notes_Section
 |Usage=* Negative length values are not allowed.
-* Vendor prefixes are currently required for Blink, WebKit, and Gecko-based browsers.
 |Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and is not defined in the specification.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation 
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -60,7 +59,19 @@
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Requires -moz- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
