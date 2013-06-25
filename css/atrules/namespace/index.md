@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Declares the default namespace and binds a namespace to a namespace prefix.}}
 {{CSS_At_Rule}}
@@ -41,11 +41,14 @@ The scope of an '''@namespace''' rule is the style sheet  that  it is declared i
 ===Parameters===
 ;''prfx'':Optional. A '''String'''  value that specifies a namespace prefix.
 ;''sUrl'':A URL '''String'''value that specifies a namespace name.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 3
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Namespaces Module
+|URL=http://www.w3.org/TR/css3-namespace/#declaration
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -56,10 +59,6 @@ The scope of an '''@namespace''' rule is the style sheet  that  it is declared i
 }}
 {{See_Also_Section
 |Topic_clusters=Syntax
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/cssom/styleSheet|styleSheet]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
