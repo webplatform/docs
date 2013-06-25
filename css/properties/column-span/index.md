@@ -4,13 +4,16 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.}}
+{{Summary_Section|The <code>column-span</code> CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.}}
 {{CSS Property
-|Initial value=1
+|Initial value=none
 |Applies to=block-level elements, except floating and absolutely positioned elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=columnSpan
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=1
 |Description=Default. 
