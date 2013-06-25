@@ -48,7 +48,7 @@ Makes 4 columns and creates a span that crosses thorugh columns
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation 
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -106,7 +106,17 @@ Makes 4 columns and creates a span that crosses thorugh columns
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=14–Current
+|Note=Requires -webkit- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
