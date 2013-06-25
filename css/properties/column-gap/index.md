@@ -6,17 +6,19 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The column-gap attribute allows CSS developers to control the distance between columns in a multi-column layout.}}
+{{Summary_Section|The <code>column-gap</code> property controls the width of the gap between columns in multi-column elements.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=absolute length or ‘normal’
+|Animatable=Yes
+|CSS object model property=columnGap
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. 
-The default width is <code>1em</code>.
+|Description=Default. The width of the <code>normal</code> value is user-agent specific, but <code>1em</code> is suggested.
 }}{{CSS Property Value
 |Data Type=length
 |Description=A floating-point number, followed by either an absolute units designator
@@ -34,7 +36,7 @@ see CSS Length Units Reference.
 
 
 Negative values are not valid.
-}}{{CSS Property Value}}
+}}
 }}
 {{Examples_Section
 |Not_required=No
