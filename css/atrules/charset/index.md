@@ -18,13 +18,14 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Dynamic HTML (DHTML) expressions can be used in place of the preceding value(s). As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties.
-The rule has no default value.
 You can use only one '''@charset''' rule in an external style sheet.  The rule must appear at the top of the file, cannot be preceded by any characters, and cannot be included in an embedded style sheet.
+
+The rule has no default value.
+
 |Import_Notes====Syntax===
 <code>'''@charset '''''CharSet-Description''</code>
 ===Parameters===
-;''CharSet-Description'':'''String''' that specifies the HTML Character Sets.
+;''CharSet-Description'':'''String''' that specifies the name of the character encoding.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 4.4
 }}
