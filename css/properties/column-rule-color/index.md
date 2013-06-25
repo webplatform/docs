@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the color of the rule between columns.}}
 {{CSS Property
@@ -31,49 +31,34 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=14–Current
+|Note=Requires -webkit-prefix
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Requires -moz- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
