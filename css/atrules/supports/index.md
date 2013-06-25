@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The CSS <code>@supports</code> at-rule lets authors detect support of CSS features directly in CSS.}}
 {{CSS_At_Rule
@@ -55,7 +56,11 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 |Usage=Browser support for this feature is still pretty limited.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Conditional Rules Module Level 3
+|URL=http://www.w3.org/TR/css3-conditional/
+|Status=Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -86,7 +91,7 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 |Notes_rows={{Compatibility Notes Row
 |Browser=Firefox
 |Version=17+
-|Note=It's disabled by default in the release and beta builds. 
+|Note=It's disabled by default in the release and beta builds.
 }}
 }}
 {{See_Also_Section
