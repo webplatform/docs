@@ -15,13 +15,11 @@
 |CSS object model property=columnSpan
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=1
-|Description=Default. 
-The content block does not span multiple columns.
+|Data Type=none
+|Description=Default. The content block does not span multiple columns.
 }}{{CSS Property Value
 |Data Type=all
-|Description=The content block spans all columns on a page.
-All content that is declared before the content block is shown before the content block.
+|Description=The content block spans all columns on a page. All content that is declared before the content block is shown before the content block.
 }}
 }}
 {{Examples_Section
