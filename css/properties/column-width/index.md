@@ -45,9 +45,9 @@ in the browser.
 Makes as many columns that are 15em as there is space 
 in the browser.
 */
-#column2{
-border: 2px solid #000;
-column-width: 15em;
+#column2 {
+    border: 2px solid #000;
+    column-width: 15em;
 }
 |LiveURL=http://code.webplatform.org/gist/5305475
 }}
@@ -56,10 +56,6 @@ column-width: 15em;
 |Notes====Remarks===
 The actual column width may vary from the value specified due to available space.
 To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
-|Import_Notes====Syntax===
-<code>'''column-width: '''''
-&lt;length&gt;
-'' '''{{!}}''' auto</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -73,38 +69,6 @@ To ensure that the exact value specified for this property is used, all property
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
