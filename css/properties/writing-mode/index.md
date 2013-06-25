@@ -171,6 +171,8 @@ writing-mode: vertical-lr;
 }}
 }}
 {{See_Also_Section
+|Manual_links=* [[css/properties/direction|direction]]
+* [[css/properties/unicode-bidi|unicode-bidi]]
 |External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
 }}
 {{Topics|CSS}}
