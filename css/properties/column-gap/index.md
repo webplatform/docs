@@ -44,26 +44,24 @@ Negative values are not valid.
 |Language=CSS
 |Description=This example demonstrates how you can eliminate those nasty white-spaces in between your columns in your page for maximum content effect.
 |Code=section.newspaper {
-  column-count: 5;
-  -moz-column-count: 5;
-  column-gap: 0px;
-  -moz-column-gap: 0px;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+ 
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
 }
 }}{{Single Example
 |Language=CSS
 |Description=Makes as many columns that are 15em as the browser lets
-you. Put a green line between the columns and padd the 
+you. Put a green line between the columns and pad the 
 content
-|Code=/*
-Makes as many columns that are 15em as the browser lets
-you. Put a green line between the columns and padd the 
-content
-*/
-#column3 {
-  column-width: 15em;
-  column-gap: 2em;          
-  column-rule: 4px solid green;
-  padding: 5px;
+|Code=#column3 {
+    column-width: 15em;
+    column-gap: 2em;          
+    column-rule: 4px solid green;
+    padding: 5px;
 }
 |LiveURL=http://code.webplatform.org/gist/5305647
 }}
