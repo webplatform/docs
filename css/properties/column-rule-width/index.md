@@ -4,7 +4,7 @@
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the width of the rule between columns.}}
 {{CSS Property
@@ -46,10 +46,14 @@
 {{Notes_Section
 |Usage=* Negative length values are not allowed.
 * Vendor prefixes are currently required for Blink, WebKit, and Gecko-based browsers.
-|Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and not defined in the specification.
+|Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and is not defined in the specification.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
