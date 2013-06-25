@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the character set for an external style sheet.}}
+{{Summary_Section|Specifies the character encoding of the style sheet.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
