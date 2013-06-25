@@ -69,7 +69,11 @@ column-rule-color: green;</pre></code>
 |Notes=Currently requires prefixes for Blink, WebKit, and Gecko-based browsers. No prefix is needed for IE and Opera 10.50–12.10.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
