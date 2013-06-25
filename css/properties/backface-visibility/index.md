@@ -37,7 +37,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Transforms Level 1
+|URL=http://www.w3.org/TR/css3-transforms/#backface-visibility-property
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -98,7 +102,7 @@
 |Safari_mobile_prefixed_supported=Yes
 |Safari_mobile_prefixed_version=4.0
 }}
-|Notes_rows={{Compatibility Notes Row}}
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
