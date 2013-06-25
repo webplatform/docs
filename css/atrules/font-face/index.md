@@ -87,7 +87,11 @@ The '''@font-face''' rule acts differently from the behavior that is specified i
 Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). As of Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fonts Module Level 3
+|URL=http://www.w3.org/TR/css3-fonts/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -265,7 +269,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font, Fonts, Syntax
+|Topic_clusters=Fonts, Syntax
 }}
 {{Topics|CSS}}
 {{External_Attribution
