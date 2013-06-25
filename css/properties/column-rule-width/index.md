@@ -38,7 +38,7 @@
 |Code=div {
     column-count: 2;
     column-rule-style: solid;
-    <em>column-rule-width: medium;</em>
+    column-rule-width: medium;
 }
 |LiveURL=http://jsfiddle.net/dstorey/K6X54/
 }}
