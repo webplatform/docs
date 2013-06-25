@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the size, zoom factor, and orientation of the viewport.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
