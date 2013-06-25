@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the media types for a set of rules in a [[css/cssom/properties/styleSheet|styleSheet]] object.}}
 {{CSS_At_Rule}}
@@ -58,7 +58,11 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 ;''sRules'':'''String''' that specifies one or more rules in a [[css/cssom/styleSheet|'''styleSheet''']] object.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Queries
+|URL=http://www.w3.org/TR/css3-mediaqueries/
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -91,7 +95,7 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=7.0 and 10.0 
+|Blackberry_version=7.0 and 10.0
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
@@ -107,15 +111,15 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
-|Opera_mobile_version=10.0 - 12.1 
+|Opera_mobile_version=10.0 - 12.1
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
-|Opera_mini_version=5.0 - 7.0 
+|Opera_mini_version=5.0 - 7.0
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2 - 6.2 
+|Safari_mobile_version=3.2 - 6.2
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
