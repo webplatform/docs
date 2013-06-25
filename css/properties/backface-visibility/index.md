@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property property determines whether or not the "back" side of a transformed element is visible when facing the viewer.}}
+{{Summary_Section|Determines whether or not the “back” side of a transformed element is visible when facing the viewer.}}
 {{CSS Property
 |Initial value=visible
 |Applies to=transformable elements
@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=Same as specified value.
 |Animatable=Yes
+|CSS object model property=backfaceVisibility
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=visible
