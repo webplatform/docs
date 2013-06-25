@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the width of columns in multi-column elements}}
 {{CSS Property
@@ -58,7 +58,11 @@ The actual column width may vary from the value specified due to available space
 To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
