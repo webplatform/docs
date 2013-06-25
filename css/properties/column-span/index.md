@@ -45,7 +45,11 @@ Makes 4 columns and creates a span that crosses thorugh columns
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/
+|Status=W3C Candidate Recommendation 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
