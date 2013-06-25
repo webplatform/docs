@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -79,7 +79,20 @@ content
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=14–Current
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Requires -moz- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
