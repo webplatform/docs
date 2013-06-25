@@ -61,7 +61,7 @@ To ensure that the exact value specified for this property is used, all property
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
-|Status=Candidate Recommendation 
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -69,7 +69,20 @@ To ensure that the exact value specified for this property is used, all property
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=14–Current
+|Note=Requires -webkit- prefix
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Requires -moz- prefix
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column
