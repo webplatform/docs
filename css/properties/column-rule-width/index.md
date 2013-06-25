@@ -32,7 +32,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=A div with two columns. The column rule is set to <code>medium</code>, which is the default value.
+|Code=div {
+    column-count: 2;
+    column-rule-style: solid;
+    <em>column-rule-width: medium;</em>
+}
+|LiveURL=http://jsfiddle.net/dstorey/K6X54/
+}}
 }}
 {{Notes_Section
 |Usage=* Negative length values are not allowed.
