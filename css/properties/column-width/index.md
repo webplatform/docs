@@ -32,8 +32,7 @@ For more information about the supported length units,
 see CSS Length Units Reference.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Default. 
-The optimal column width is determined through other property values of the multi-column element, such as [[css/properties/column-count|'''columnCount''']].
+|Description=Default. The optimal column width is determined through other property values of the multi-column element, such as [[css/properties/column-count|'''columnCount''']].
 }}
 }}
 {{Examples_Section
