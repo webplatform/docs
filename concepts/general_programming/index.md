@@ -1,8 +1,8 @@
-{{Page_Title|General Programming Concepts}}
+{{Page_Title|I AM FURAHA}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
+|High-level issues=Copyright Issue, Needs Topics, Needs Review
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 |Editorial notes=This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.
 
 To explain, I have tried to break down the subjects by level of required background knowledge and essentially develop a syllabus. The first level of the bulleted list is intended to be the link to the concept page and the second level outlines the intended content of the associated concept page.
