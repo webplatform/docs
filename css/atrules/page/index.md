@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies properties of a page box, such as its dimensions, orientation, and margins. This is used for paged media, such as the printed page.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
