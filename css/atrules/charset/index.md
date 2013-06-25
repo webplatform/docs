@@ -2,14 +2,16 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the character set for an external style sheet.}}
 {{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following example implements the '''@charset''' rule.
 |Code=@charset "Windows-1251";
 }}
@@ -27,7 +29,11 @@ You can use only one '''@charset''' rule in an external style sheet.  The rule m
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 4.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1)
+|URL=http://www.w3.org/TR/CSS2/
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
