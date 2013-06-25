@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -32,7 +30,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Sets the writing mode to vertical and to progress from right to left. Sometimes used by East Asian, especially Japanese and Chinese. This example is Japanese use case.
-|Code=<p>日本では、新聞や書籍などで縦書きを使用することがあります。これは、縦書きのシンプルな例です。</p>
+|Code=&lt;p&gt;日本では、新聞や書籍などで縦書きを使用することがあります。これは、縦書きのシンプルな例です。&lt;/p&gt;
 |LiveURL=http://code.webplatform.org/gist/5833192
 }}{{Single Example
 |Language=CSS
@@ -59,6 +57,65 @@ writing-mode: vertical-rl;
 /* vertical and to progress from left to right */
 writing-mode: vertical-lr;
 -ms-writing-mode: tb-lr;
+}}{{Single Example
+|Language=CSS
+|Description=Complete example, including HTML.
+|Code=&lt;style&gt;
+    #horizontal-tb {
+	-ms-writing-mode: lr-tb;  /* old syntax, supported by IE */		
+	writing-mode: horizontal-tb;  /* modern syntax. WebKit currently requires prefix */
+    }
+   #horizontal-tb-direction-rtl {
+	-ms-writing-mode: rl-tb;
+        writing-mode: horizontal-tb;
+	
+        direction: rtl; /* sets the direction of text in a line to right to left */
+   }
+   #vertical-rl {
+        -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl; 
+    }
+    #vertical-lr {
+	-ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+    }	
+&lt;/style&gt;
+&lt;div id="horizontal-tb"&gt;
+    &lt;h1&gt;Writing-mode: horizontal-tb/lr-tb&lt;/h1&gt;
+    &lt;p&gt;This text should be horizontal, left to right, and &lt;em&gt;under&lt;/em&gt; the heading.&lt;/p&gt;
+    &lt;ol&gt;
+        &lt;li&gt;One&lt;/li&gt;
+	&lt;li&gt;Two&lt;/li&gt;
+	&lt;li&gt;Three&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="horizontal-tb-direction-rtl"&gt;
+    &lt;h1&gt;Writing-mode: horizontal-tb/rl-tb, direction: rtl&lt;/h1&gt;
+    &lt;p&gt;This text should be horizontal, right to left, and &lt;em&gt;under&lt;/em&gt; the heading.&lt;/p&gt;
+    &lt;ol&gt;
+	&lt;li&gt;One&lt;/li&gt;
+	&lt;li&gt;Two&lt;/li&gt;
+	&lt;li&gt;Three&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id="vertical-rl"&gt;
+        &lt;h1&gt;Writing-mode: vertical-rl/tb-rl&lt;/h1&gt;
+        &lt;p&gt;This text should be vertical, and to the &lt;em&gt;left&lt;/em&gt; of the heading.&lt;/p&gt;
+	 &lt;ol&gt;
+              &lt;li&gt;One&lt;/li&gt;
+              &lt;li&gt;Two&lt;/li&gt;
+	      &lt;li&gt;Three&lt;/li&gt;
+	 &lt;/ol&gt;
+&lt;/div&gt;	
+&lt;div id="vertical-lr"&gt;
+	&lt;h1&gt;Writing-mode: vertical-lr/tb-lr&lt;/h1&gt;
+	&lt;p&gt;This text should be vertical, and to the &lt;em&gt;right&lt;/em&gt; of the heading.&lt;/p&gt;
+	&lt;ol&gt;
+		&lt;li&gt;One&lt;/li&gt;
+		&lt;li&gt;Two&lt;/li&gt;
+		&lt;li&gt;Three&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
 }}
 }}
 {{Notes_Section}}
