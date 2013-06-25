@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies properties of a page box, such as its dimensions, orientation, and margins. This is used for paged media, such as the printed page.}}
 {{CSS_At_Rule}}
@@ -86,7 +86,11 @@ The ''page box'' contains portions of the document flow destined for rendering o
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Paged Media Module Level 3
+|URL=http://www.w3.org/TR/css3-page/#at-page-rule
+|Status=W3C Working Draft 
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -96,7 +100,7 @@ The ''page box'' contains portions of the document flow destined for rendering o
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax
+|Topic_clusters=Paged Media, Syntax
 }}
 {{Topics|CSS}}
 {{External_Attribution
