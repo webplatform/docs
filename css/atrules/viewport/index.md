@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS_At_Rule}}
@@ -20,7 +22,6 @@
         width: device-width;
     }
 }
-
 }}
 }}
 {{Notes_Section
