@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The <code>@font-face</code> CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, <code>@font-face</code> eliminates the need to depend on the limited number of fonts users have installed on their computers.}}
 {{CSS_At_Rule
@@ -265,7 +265,7 @@ Dynamic HTML (DHTML) expressions can be used instead of the preceding value(s). 
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax
+|Topic_clusters=CSS Font, Fonts, Syntax
 }}
 {{Topics|CSS}}
 {{External_Attribution
