@@ -18,7 +18,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=medium
-|Description=Default. A medium width border. 
+|Description=Default. A medium width border.
 }}{{CSS Property Value
 |Data Type=thin
 |Description=Width less than the default.
@@ -35,8 +35,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Negative length values are not allowed.
-|Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and not defined in the specification. 
+|Usage=* Negative length values are not allowed.
+* Vendor prefixes are currently required for Blink, WebKit, and Gecko-based browsers.
+|Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and not defined in the specification.
 }}
 {{Related_Specifications_Section
 |Specifications=
