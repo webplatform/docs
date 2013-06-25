@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -127,11 +128,13 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 ===Parameters===
 ;''identifier'':The name of the animation.
 ;''keyframes_blocks'':A set of keyframes blocks, each of which is composed of keyframe selectors.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animations 
+|URL=http://www.w3.org/TR/css3-animations/#keyframes
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
