@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Imports an external style sheet.}}
 {{CSS_At_Rule}}
@@ -39,6 +40,11 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=CSS Cascading and Inheritance Level 3 
+|URL=http://www.w3.org/TR/css3-cascade/
+|Status=W3C Working Draft
+|Relevant_changes=None
+}}{{Related Specification
 |Name=CSS 2.1, section 6.3
 |URL=http://www.w3.org/TR/CSS2/cascade.html#at-import
 |Status=W3C Recommendation
