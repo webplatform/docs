@@ -21,59 +21,43 @@
 |Description=Default value.
 }}{{CSS Property Value
 |Data Type=<offset-x>
-|Description=Required. Specifies the horizontal <code>[[css/data_types/length|<length>]]</code> term to the right of the text. A negative horizontal <code>[[css/data_types/length|<length>]]</code> term will place the shadow to the left of the text. 
+|Description=Required. 
+
+Specifies the horizontal <code>[[css/data_types/length|<length>]]</code> term to the right of the text. A negative horizontal <code>[[css/data_types/length|<length>]]</code> term will place the shadow to the left of the text.
 }}{{CSS Property Value
 |Data Type=<offset-y>
-|Description=Required. Specifies the vertical <code>[[css/data_types/length|<length>]]</code> term below the text. A negative vertical <code>[[css/data_types/length|<length>]]</code> term will place the shadow above the text. 
+|Description=Required. 
+
+Specifies the vertical <code>[[css/data_types/length|<length>]]</code> value below the text. A negative vertical <code>[[css/data_types/length|<length>]]</code> term will place the shadow above the text.
 }}{{CSS Property Value
 |Data Type=<blur-radius>
 |Description=Optional.
 
- The blur radius is a [[css/data_types/length|<length>]] value that indicates the boundaries of the blur effect. Defaults to 0.
+The blur radius is a <code>[[css/data_types/length|<length>]]</code> term that indicates the boundaries of the blur effect.
+}}{{CSS Property Value
+|Data Type=<color>
+|Description=Optional.
+
+A color value may be applied before or after the <code>[[css/data_types/length|<length>]]</code> terms of both shadow effects. The color value will be inherited as the basis for the shadow. If a color is not specified by the user, the value of the color property will be used instead.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=This example uses all four values of the text-shadow property in the following order: <offset-x>, <offset-y>, <blur-radius>, and <color>.
-|Code=p {
+|Code=*/ This example uses all four values of the text-shadow property in the following order: <offset-x>, <offset-y>, <blur-radius>, and <color>. /*
+
+p {
   text-shadow: 2px 2px 2px grey;
 }
 |LiveURL=http://code.webplatform.org/gist/5842702
 }}{{Single Example
 |Language=CSS
-|Description=This example places a text shadow to the left and above the element's text. Since no color is specified the shadow will inherit the same color as the element, and since no blur radius is specified, the text shadow will not be blurred:
 |Code=p {
   text-shadow: -0.1em -0.1em;
 }
-|LiveURL=http://code.webplatform.org/gist/5842702
-}}{{Single Example
-|Language=CSS
-|Description=The following example creates a greenish blurred text-shadow without an offset.
-|Code=#foo {
-  text-shadow: #bada55 -10px -10px 2px;
-}
-|LiveURL=http://codepen.io/pverbeek/pen/cJLlz
-}}{{Single Example
-|Language=CSS
-|Description=The following example shows that text-decorations will also be shown in the shadow.
-|Code=#foo {
-  text-decoration: line-through;
-  text-shadow: rgb(0,0,0) 15px 15px 2px;
-}
-|LiveURL=http://codepen.io/pverbeek/pen/kaeKD
-}}{{Single Example
-|Language=CSS
-|Description=The following example demonstrates the multiple text-shadows.
-|Code=#foo {
-  text-shadow: hsl(0,0,0) 15px 15px 2px,
-               rgba(255,0,0,.5) -15px -15px,
-               navy -15px 15px 8px,
-               #00FF00 15px -15px;
-}
-|LiveURL=http://codepen.io/pverbeek/pen/HyrfE
-}}
+|LiveURL=http://code.webplatform.org/gist/5864800
+}}{{Single Example}}
 }}
 {{Notes_Section
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
