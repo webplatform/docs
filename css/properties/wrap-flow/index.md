@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -57,7 +56,8 @@
 |Examples={{Single Example
 |Description=An example running wrap-flow. Click on the demo link for a better understanding.
 |Code=/*
-At the time of writing only available by default in IE10. Can be enabled in Canary under Enable experimental WebKit features 
+At the time of writing only available by default in IE10.
+Can be enabled in Canary under Enable experimental WebKit features.
 */
 
 .flow-item {
