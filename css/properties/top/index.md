@@ -12,7 +12,7 @@
 |Applies to=Positioned elements
 |Inherited=No
 |Media=visual
-|Computed value=for 'position:relative', see Relative Positioning. For 'position:static', 'auto'. Otherwise: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
+|Computed value=If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
 |Animatable=No
 |CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
