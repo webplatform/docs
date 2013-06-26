@@ -6,12 +6,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets the top edge of an element}}
+{{Summary_Section|This property specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties). }}
 {{CSS Property
-|Applies to=All elements
+|Initial value=auto
+|Applies to=Positioned elements
 |Inherited=No
 |Media=visual
+|Computed value=for 'position:relative', see Relative Positioning. For 'position:static', 'auto'. Otherwise: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
 |Animatable=No
+|CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Default position according to the regular HTML layout of the document.
@@ -41,6 +44,7 @@ This example uses an inline style to set the position of a '''div''' object.
 }}
 }}
 {{Notes_Section
+|Usage=For absolutely positioned elements whose containing block is based on a block-level element, this property is an offset from the padding edge of that element.
 |Notes====Remarks===
 The '''top''' attribute should be used only when the [[css/properties/position|'''position''']] attribute is set; otherwise, the value of the '''top''' attribute is ignored.
 Because the value of the '''top''' property is a string, you cannot use the property in script to calculate the position of the object in the document; instead, use the [[css/cssom/properties/pixelTop|'''pixelTop''']] or the [[css/cssom/properties/posTop|'''posTop''']] property.
@@ -55,7 +59,11 @@ For more information about how to access the dimension and location of objects o
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+|URL=http://www.w3.org/TR/2007/CR-CSS21-20070719/visuren.html#position-props
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
