@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container.}}
+{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The '''word-wrap''' property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=Yes
@@ -38,25 +37,14 @@ LongWordLongWord...LongWordLongWord&lt;/P&gt;
 }}
 {{Notes_Section
 |Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-word-wrap''' attribute is an extension to CSS, and can be used as a synonym for '''word-wrap''' in IE8 Standards mode.
-Use this property to enable the browser to break up otherwise unbreakable strings.
+'''word-wrap''' attribute was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[overflow-wrap]].
+This property to enables the browser to break up otherwise unbreakable strings (words).
 This differs from the [[css/properties/white-space|'''white-space''']] 
 property, which turns wrapping of the text on and off.  
-The '''-ms-word-wrap''' 
-property addresses only whether wrapping is permitted to occur at a place in 
-the word that is not otherwise allowed by the language rules in effect.
-The standards referenced below define this property's behavior as being dependent on 
-the setting of the "text-wrap" property.  
+The '''word-wrap''' property permits only whether wrapping can occur at a place in the word that is not otherwise allowed by the language rules in effect.
 
-However, wordWrap settings are always effective in Windows Internet Explorer 
-because Internet Explorer does not support the "text-wrap" property.
-This property is read-only for the '''IHTMLCurrentStyle2''' interface.
-This property is read-only for the [[css/cssom/currentStyle|'''currentStyle''']] object.
-This property applies to elements that have layout.  An element has layout when it is absolutely positioned, is a block element, or is an inline element with a specified height or width.
-|Import_Notes====Syntax===
-<code>'''-ms-word-wrap: '''normal '''{{!}}''' break-word</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 7.2
+|Import_Notes====Standards information===
+*[http://www.w3.org/TR/css3-text/#overflow-wrap CSS Text Level 3], Section 6.2
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -124,15 +112,6 @@ This property applies to elements that have layout.  An element has layout when 
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/line-break|line-break]]</code>
-*<code>[[css/properties/word-break|-ms-word-break]]</code>
-*<code>[[css/properties/white-space|white-space]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
