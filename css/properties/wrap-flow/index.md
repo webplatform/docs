@@ -54,7 +54,32 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=An example running wrap-flow. Click on the demo link for a better understanding.
+|Code=/*
+At the time of writing only available by default in IE10. Can be enabled in Canary under Enable experimental WebKit features 
+*/
+
+.flow-item {
+  left: 5%;
+  top: 5%;
+  width: 200px;
+  position: absolute;
+}
+
+.flow--maximum{
+  -ms-wrap-flow:maximum;
+  -webkit-wrap-flow:maximum;
+  wrap-flow: maximum;
+}
+
+.flow--clear{
+  -ms-wrap-flow:clear;
+  -webkit-wrap-flow:clear;
+  wrap-flow: clear;
+}
+|LiveURL=http://code.webplatform.org/gist/5867597
+}}
 }}
 {{Notes_Section
 |Usage=If the property's computed value is ‘auto’, the element does not become an exclusion.
