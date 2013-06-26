@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS text-shadow property adds one or more shadows to a specified text or [[html|HTML]] element. The text-shadow property accepts a comma-separated list of values that can be applied to the text and [[css/properties/text-decoration|text-decorations]].}}
+{{Summary_Section|The CSS <code>text-shadow</code> property adds one or more shadows to a specified text or <code>[[html|HTML]]</code> element. The <code>text-shadow</code> property accepts a comma-separated list of values that can be applied to the text and <code>[[css/properties/text-decoration|text-decorations]]</code>.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements and generated content
@@ -17,7 +17,7 @@
 |CSS object model property=textShadow
 |Values={{CSS Property Value
 |Data Type=none
-|Description=None is a default value if unspecified. No shadow is displayed. 
+|Description=None is a default value if unspecified. No shadow is displayed.
 }}{{CSS Property Value
 |Data Type=<color>
 |Description=Optional. See [[css/color|CSS color values]] for possible keywords and notations. If not specified, a default color is chosen by a user agent. The color value can be specified either before or after the offset values.
