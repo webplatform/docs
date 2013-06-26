@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS <code>text-shadow</code> property adds one or more shadows to a specified text or <code>[[html|HTML]]</code> element. The <code>text-shadow</code> property accepts a comma-separated list of values that can be applied to the text and <code>[[css/properties/text-decoration|text-decorations]]</code>.}}
+{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows, outlines, or bevels, and numerous other effects to the text of an element. Each <code>text-shadow</code> property must contain both an x-offset and y-offset shadow value and, optionally, a blur radius and color value. The <code>text-shadow property</code> can include multiple comma-delimited shadow effects. Multiple shadow effects are applied in a first-to-last order, whereas the first shadow effect will appear at the top, and the last shadow effect at the bottom.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements and generated content
@@ -15,6 +15,7 @@
 |Computed value=as specified
 |Animatable=Yes
 |CSS object model property=textShadow
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=None is a default value if unspecified. No shadow is displayed.
