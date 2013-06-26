@@ -27,7 +27,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=[[Image:exclusion_wrap_through.png|alt=wrap-flow:start applied to grid positioned elements;]]
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Exclusions Module Level 1
