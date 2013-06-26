@@ -21,24 +21,16 @@
 |Description=Default value.
 }}{{CSS Property Value
 |Data Type=<offset-x>
-|Description=Required. 
-
-Specifies the horizontal <code>[[css/data_types/length|<length>]]</code> term to the right of the text. A negative horizontal <code>[[css/data_types/length|<length>]]</code> term will place the shadow to the left of the text.
+|Description=Required. Specifies the horizontal <code>[[css/data_types/length|<length>]]</code> term to the right of the text. A negative horizontal <code>[[css/data_types/length|<length>]]</code> term will place the shadow to the left of the text.
 }}{{CSS Property Value
 |Data Type=<offset-y>
-|Description=Required. 
-
-Specifies the vertical <code>[[css/data_types/length|<length>]]</code> value below the text. A negative vertical <code>[[css/data_types/length|<length>]]</code> term will place the shadow above the text.
+|Description=Required. Specifies the vertical <code>[[css/data_types/length|<length>]]</code> value below the text. A negative vertical <code>[[css/data_types/length|<length>]]</code> term will place the shadow above the text.
 }}{{CSS Property Value
 |Data Type=<blur-radius>
-|Description=Optional.
-
-The blur radius is a <code>[[css/data_types/length|<length>]]</code> term that indicates the boundaries of the blur effect.
+|Description=Optional. The blur radius is a <code>[[css/data_types/length|<length>]]</code> term that indicates the boundaries of the blur effect.
 }}{{CSS Property Value
 |Data Type=<color>
-|Description=Optional.
-
-A color value may be applied before or after the <code>[[css/data_types/length|<length>]]</code> terms of both shadow effects. The color value will be inherited as the basis for the shadow. If a color is not specified by the user, the value of the color property will be used instead.
+|Description=Optional. A color value may be applied before or after the <code>[[css/data_types/length|<length>]]</code> terms of both shadow effects. The color value will be inherited as the basis for the shadow. If a color is not specified by the user, the value of the color property will be used instead.
 }}
 }}
 {{Examples_Section
@@ -53,11 +45,21 @@ p {
 |LiveURL=http://code.webplatform.org/gist/5842702
 }}{{Single Example
 |Language=CSS
-|Code=p {
+|Code=*/ This example uses both required offset values, <offset-x> and <offset-y>, whereas the <blur-radius> and <color> values are omitted. /*
+
+p {
   text-shadow: -0.1em -0.1em;
 }
 |LiveURL=http://code.webplatform.org/gist/5864800
-}}{{Single Example}}
+}}{{Single Example
+|Language=CSS
+|Code=*/ This example shows multiple shadow effects separated by a comma. Note the use of various units and color models applied to the values. /*
+
+p {
+  text-shadow: -0.1em -0.1em 1em purple, 3px 3px 0.1em rgba(0, 0, 0, 0.5);
+}
+|LiveURL=http://code.webplatform.org/gist/5864841
+}}
 }}
 {{Notes_Section
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
