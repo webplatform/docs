@@ -45,7 +45,7 @@ p {
 |LiveURL=http://code.webplatform.org/gist/5842702
 }}{{Single Example
 |Language=CSS
-|Code=*/ This example uses both required offset values, <offset-x> and <offset-y>, whereas the <blur-radius> and <color> values are omitted. /*
+|Code=*/ This example uses both required offset values, <offset-x> and <offset-y>. The optional <blur-radius> and <color> values have been omitted. /*
 
 p {
   text-shadow: -0.1em -0.1em;
