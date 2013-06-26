@@ -37,12 +37,11 @@ LongWordLongWord...LongWordLongWord&lt;/P&gt;
 }}
 {{Notes_Section
 |Notes====Remarks===
-'''word-wrap''' attribute was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[overflow-wrap]].
+The '''word-wrap''' attribute was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[css/properties/overflow-wrap]].
 This property to enables the browser to break up otherwise unbreakable strings (words).
 This differs from the [[css/properties/white-space|'''white-space''']] 
 property, which turns wrapping of the text on and off.  
 The '''word-wrap''' property permits only whether wrapping can occur at a place in the word that is not otherwise allowed by the language rules in effect.
-
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-text/#overflow-wrap CSS Text Level 3], Section 6.2
 }}
