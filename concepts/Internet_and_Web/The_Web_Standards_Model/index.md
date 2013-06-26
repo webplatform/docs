@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Continuing with our course, the [[concepts/internet_and_web/how_does_the_internet_work|How does the Internet workoncepts/internet_and_web/how_does_the_internet_work]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a website.|== Introduction ==
+{{Summary_Section|Continuing with our course, the [[concepts/internet_and_web/how_does_the_internet_work|How does the Internet work]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a website.|== Introduction ==
  
 Continuing with our course, the [[How does the Internet work|basic building blocks of the Web]] — [[html|HTML]], [[css|CSS]] and [http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript] have been introduced. Now it’s time to dig a little deeper and to look at each of these — what they do, and how the three interact with each other to create a web site.
 }}
