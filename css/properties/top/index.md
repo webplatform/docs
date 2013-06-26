@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties). }}
+{{Summary_Section|This property specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties).}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Positioned elements
@@ -17,13 +17,13 @@
 |CSS percentages=refer to height of containing block
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. Default position according to the regular HTML layout of the document.
+|Description=For non-replaced elements, the effect of this value depends on which of related properties have the value 'auto' as well. See the sections on the width and height of absolutely positioned, non-replaced elements for details. For replaced elements, the effect of this value depends only on the intrinsic dimensions of the replaced content. See the sections on the width and height of absolutely positioned, replaced elements for details
 }}{{CSS Property Value
 |Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=The offset is a fixed distance from the reference edge. Negative values are allowed. For more information about the supported length units, see CSS Values and Units Reference.
 }}{{CSS Property Value
 |Data Type=percentage
-|Description=Integer, followed by a percent sign (%). This value is a percentage of the height of the parent object.
+|Description=The offset is a percentage of the containing block's width (for 'left' or 'right') or height (for 'top' and 'bottom'). Negative values are allowed.
 }}
 }}
 {{Examples_Section
@@ -44,8 +44,9 @@ This example uses an inline style to set the position of a '''div''' object.
 }}
 }}
 {{Notes_Section
-|Usage=For absolutely positioned elements whose containing block is based on a block-level element, this property is an offset from the padding edge of that element.
-|Notes====Remarks===
+|Notes=For absolutely positioned elements whose containing block is based on a block-level element, this property is an offset from the padding edge of that element.
+
+===Remarks===
 The '''top''' attribute should be used only when the [[css/properties/position|'''position''']] attribute is set; otherwise, the value of the '''top''' attribute is ignored.
 Because the value of the '''top''' property is a string, you cannot use the property in script to calculate the position of the object in the document; instead, use the [[css/cssom/properties/pixelTop|'''pixelTop''']] or the [[css/cssom/properties/posTop|'''posTop''']] property.
 For more information about how to access the dimension and location of objects on the document through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
