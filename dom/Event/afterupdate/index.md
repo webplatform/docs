@@ -1,23 +1,27 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
+|Event_applies_to=dom/proprietary
 |Interface=dom/objects/Event
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Events}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This event only fires when the object is databound and an [[dom/events/beforeupdate|'''onbeforeupdate''']] event has fired (for example, because the data has changed).
 Confirms that data has been transferred.
 To invoke this event, do one of the following:
@@ -48,19 +52,25 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -171,10 +181,11 @@ There are no standards that apply here.
 *<code>Conceptual</code>
 *<code>Introduction to Data Binding</code>
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
