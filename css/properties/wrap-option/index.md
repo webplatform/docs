@@ -23,7 +23,6 @@
 }}{{CSS Property Value
 |Data Type=soft-wrap
 |Description=The text is wrapped after the last character which can fit before the ending-edge of the line and where explicitly specified by preserved line feed characters. No line-breaking algorithm is invoked. The intended usage is the rendering of a character terminal emulation.
-
 }}{{CSS Property Value
 |Data Type=emergency
 |Description=The text is wrapped like for the 'wrap' case, except that the line-breaking algorithm will allow as a last resort option a text wrap after the last character which can fit before the ending edge of the line box, independently of 'line-break', 'word-break-cjk' and 'word-break-inside' properties. For example, this addresses the situation of very long words constrained in a fixed-width container with no scrolling allowed.
@@ -44,7 +43,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
