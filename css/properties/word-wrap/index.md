@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The [[css/properties/word-wrap word-wrap]] property is an alternate name for the [[css/properties/overflow-wrap overflow-wrap]] property.}}
+{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The [[css/properties/word-wrap]] property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -26,8 +26,8 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=This is the style rule that applies to the example.
-|Code=.NormalValue	{ word-wrap:normal;     background-color:lightgray; }
-.WithBreaks 	{ word-wrap:break-word; background-color:lightgray; }
+|Code=.NormalValue		{ word-wrap:normal;     background-color:lightgray; }
+.WithBreaks 		{ word-wrap:break-word; background-color:lightgray; }
 .NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
 .WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
 .WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
