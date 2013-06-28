@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Requests a new quota for the requesting application.}}
 {{API_Object_Method
@@ -41,9 +41,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Quota Management Specification
-|URL=https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html
-|Status=W3C Editor's Draft
+|Name=W3C Quota Management API
+|URL=http://www.w3.org/TR/quota-api/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
