@@ -7,10 +7,12 @@
 {{API_Name}}
 {{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The '''word-wrap''' property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
 {{CSS Property
+|Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS object model property=wordWrap
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default. Content exceeds the boundaries of its container.
@@ -22,16 +24,120 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The word "blonde" is not wrappable under typical English rules.  
-But, when wordWrap is set to break-word, 
-the word "blonde" can be split onto two lines in any way the browser chooses: 
-such as "b" and "londe", or "blo" and "nde".
+|Language=CSS
+|Description=The following examples show how the [[css/properties/wordWrap]] property can be used to break one long word into multiple words on multiple lines. The ''break-word'' value avoids horizontal scrolling and can be useful for printing. 
+
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;wordWrap property&lt;/title&gt;
+
+&lt;!-- This is the style rule that applies to the example. --&gt;
+&lt;style type="text/css"&gt;
+    .NormalValue		{ word-wrap:normal;     background-color:lightgray; }
+    .WithBreaks 		{ word-wrap:break-word; background-color:lightgray; }
+    .NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
+    .WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
+    .WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
+    .clsLiteral         { font-family: Courier New, Courier, monospace; }
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class="body"&gt;
+
+&lt;h1&gt;wordWrap property&lt;/h1&gt; 
+&lt;p&gt;
+	The following examples show how the &lt;strong&gt;wordWrap&lt;/strong&gt; property 
+	can be used to break one long word into multiple words on multiple lines. 
+	The &lt;span class="clsLiteral"&gt;break-word&lt;/span&gt; value avoids horizontal scrolling and can be useful for printing. 
+&lt;/p&gt; 
+
+&lt;p&gt;
+	&lt;strong&gt;Note&lt;/strong&gt; that the &lt;strong&gt;"p"&lt;/strong&gt; elements in the examples have layout because their widths are set.
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+	These examples shows the &lt;span class="clsLiteral"&gt;break-word&lt;/span&gt; value of the &lt;strong&gt;wordWrap&lt;/strong&gt; property.
+&lt;/p&gt;
+
+&lt;p class="WithBreaks"&gt;
+	LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
+&lt;/p&gt;
+
+&lt;p class="WithBreaksNarrow"&gt;
+	blonde
+&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;
+	These examples show the &lt;span class="clsLiteral"&gt;normal&lt;/span&gt; value of the &lt;strong&gt;wordWrap&lt;/strong&gt; property. 
+	In quirks mode (transitional DOCTYPE), the field width is extended to fit the word.
+&lt;/p&gt;
+
+&lt;p class="NormalValue"&gt;
+	LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
+&lt;/p&gt;
+
+&lt;p class="NormalValueNarrow"&gt;
+	blonde
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+	These examples show the &lt;span class="clsLiteral"&gt;break-word&lt;/span&gt; value of the 
+	&lt;strong&gt;wordWrap&lt;/strong&gt; property with &lt;span class="clsLiteral"&gt;white-space:nowrap&lt;/span&gt;.
+&lt;/p&gt;
+
+&lt;p class="WithBreaksNoWrap"&gt;
+	Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word Long Word 
+&lt;/p&gt;
+
+&lt;p class="WithBreaksNoWrap"&gt;
+	blonde
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;
+	To clip unwrapped text to the space provided, you can use &lt;span class="clsLiteral"&gt;overflow:hidden&lt;/span&gt; 
+	and &lt;span class="clsLiteral"&gt;text-overflow:ellipsis&lt;/span&gt;. 
+&lt;/p&gt;
+
+&lt;p class="NormalValue" style="overflow:hidden"&gt;
+	LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
+&lt;/p&gt;
+
+&lt;p class="NormalValue" style="overflow:hidden;text-overflow:ellipsis"&gt;
+	LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
+&lt;/p&gt;
+
+&lt;hr/&gt;
+&lt;/div&gt; 
+
+&lt;/body&gt;
+&lt;/html&gt;
 
 
 
-The following example shows how to use the '''break-word''' value of the '''-ms-word-wrap''' property to break one long word onto multiple lines. This value avoids horizontal scrolling and can be useful for printing.  The '''p''' element in this example has layout, because its width is set.
-|Code=&lt;P STYLE{{=}}"word-wrap:break-word;width:100%;left:0"&gt;
-LongWordLongWord...LongWordLongWord&lt;/P&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+&lt;title&gt;Untitled 1&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wordWrap.htm
 }}
 }}
