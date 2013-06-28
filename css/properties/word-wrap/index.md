@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -26,13 +26,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=This is the style rule that applies to the example.
-|Code=    .NormalValue	{ word-wrap:normal;     background-color:lightgray; }
-    .WithBreaks 	{ word-wrap:break-word; background-color:lightgray; }
-    .NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
-    .WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
-    .WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
-    .clsLiteral         { font-family: Courier New, Courier, monospace; }
-
+|Code=.NormalValue	{ word-wrap:normal;     background-color:lightgray; }
+.WithBreaks 	{ word-wrap:break-word; background-color:lightgray; }
+.NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
+.WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
+.WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
+.clsLiteral         { font-family: Courier New, Courier, monospace; }
 |LiveURL=http://code.webplatform.org/gist/5888667
 }}{{Single Example
 |Language=HTML
