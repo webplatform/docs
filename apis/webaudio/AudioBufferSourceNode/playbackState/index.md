@@ -15,7 +15,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// 1. Create an AudioBufferSourceNode and load data into it
+var soundSource = …
+
+// 2. Check to see if the sound has finished playing, once per second
+var timer = setInterval(function() {
+  if (soundSource.playbackState == soundSource.FINISHED_STATE) {
+    console.log("The sound has finished playing.");
+    clearInterval(timer);
+  }
+}, 1000);
+
+// 3. Play the sound
+soundSource.noteOn(…);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
