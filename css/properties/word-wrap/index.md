@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The [[css/properties/word-wrap]] property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
+{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The [[css/properties/word-wrap word-wrap]] property is an alternate name for the [[css/properties/overflow-wrap overflow-wrap]] property.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
