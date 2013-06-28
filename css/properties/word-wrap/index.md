@@ -25,21 +25,22 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples show how the [[css/properties/word-wrap]] property can be used to break one long word into multiple words on multiple lines. The ''break-word'' value avoids horizontal scrolling and can be useful for printing.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;wordWrap property&lt;/title&gt;
-
-&lt;!-- This is the style rule that applies to the example. --&gt;
-&lt;style type="text/css"&gt;
-    .NormalValue	{ word-wrap:normal;     background-color:lightgray; }
+|Description=This is the style rule that applies to the example.
+|Code=    .NormalValue	{ word-wrap:normal;     background-color:lightgray; }
     .WithBreaks 	{ word-wrap:break-word; background-color:lightgray; }
     .NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
     .WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
     .WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
     .clsLiteral         { font-family: Courier New, Courier, monospace; }
-&lt;/style&gt;
+
+|LiveURL=http://code.webplatform.org/gist/5888667
+}}{{Single Example
+|Language=HTML
+|Description=The following examples show how the [[css/properties/word-wrap]] property can be used to break one long word into multiple words on multiple lines. The ''break-word'' value avoids horizontal scrolling and can be useful for printing.
+|Code=&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;wordWrap property&lt;/title&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
@@ -113,7 +114,7 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 
 &lt;/body&gt;
 &lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wordWrap.htm
+|LiveURL=http://code.webplatform.org/gist/5888667
 }}
 }}
 {{Notes_Section
