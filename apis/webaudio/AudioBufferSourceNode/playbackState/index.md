@@ -29,7 +29,7 @@ var timer = setInterval(function() {
 }, 1000);
 
 // 3. Play the sound
-soundSource.noteOn(…);
+soundSource.start(…);
 }}
 }}
 {{Notes_Section}}
