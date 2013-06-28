@@ -30,8 +30,8 @@
 .WithBreaks 		{ word-wrap:break-word; background-color:lightgray; }
 .NormalValueNarrow	{ word-wrap:normal;     background-color:lightgray; width:10px }
 .WithBreaksNarrow 	{ word-wrap:break-word; background-color:lightgray; width:10px }
-.WithBreaksNoWrap   { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
-.clsLiteral         { font-family: Courier New, Courier, monospace; }
+.WithBreaksNoWrap  	 { word-wrap:break-word; background-color:lightgray; width:10px; white-space:nowrap; }
+.clsLiteral        	 { font-family: Courier New, Courier, monospace; }
 |LiveURL=http://code.webplatform.org/gist/5888667
 }}{{Single Example
 |Language=HTML
