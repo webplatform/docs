@@ -27,7 +27,7 @@
 |Description=If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment: all participating flex items on the line are aligned such that their baselines align, and the item with the largest distance between its baseline and its cross-start margin edge is placed flush against the cross-start edge of the line.
 }}{{CSS Property Value
 |Data Type=stretch
-|Description=If the cross size property of the flex item is '''auto''', its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by min/max-width/height. Note: that if the flex container's height is constrained the '''stretch''' value may cause the contents of the flex item to overflow the item.
+|Description=If the cross size property of the flex item is '''auto''', its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by [[css/properties/min-height|min-height]]/[[css/properties/min-width|min-width]]/[[css/properties/max-height|max-height]] /[[css/properties/max-width|max-width]]. Note: that if the flex container's height is constrained the '''stretch''' value may cause the contents of the flex item to overflow the item.
 }}
 }}
 {{Examples_Section
