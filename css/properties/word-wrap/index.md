@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The '''word-wrap''' property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
+{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The '''word-wrap''' property is an alternate name for the [[overflow-wrap]] property.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -25,8 +25,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples show how the [[css/properties/wordWrap]] property can be used to break one long word into multiple words on multiple lines. The ''break-word'' value avoids horizontal scrolling and can be useful for printing. 
-
+|Description=The following examples show how the [[css/properties/wordWrap]] property can be used to break one long word into multiple words on multiple lines. The ''break-word'' value avoids horizontal scrolling and can be useful for printing.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -137,7 +136,6 @@
 &lt;/body&gt;
 
 &lt;/html&gt;
-
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wordWrap.htm
 }}
 }}
