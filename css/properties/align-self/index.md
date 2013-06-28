@@ -10,7 +10,7 @@
 |Applies to=flex items
 |Inherited=No
 |Media=visual
-|Computed value='''auto''' computes to parent's [[css/properties/align-items|align-items]], or '''stretch''' if the element has no parent; otherwise as specified
+|Computed value='''auto''' computes to parent's '''align-items''', or '''stretch''' if the element has no parent; otherwise as specified
 |Animatable=No
 |CSS object model property=alignSelf
 |Values={{CSS Property Value
