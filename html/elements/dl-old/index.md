@@ -76,6 +76,8 @@ The items should always be placed before the descriptions.
 ===Remarks===
 
 * In HTML 4 and below, description lists were called definition lists. HTML5  renamed them to description lists. For a discussion of why, read http://html5doctor.com/the-dl-element/.
+
+* The <code>compact</code> attribute for the <code>&lg;dl&gt;</code> element is obsolete. [http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes|Use CSS instead].
 |Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
