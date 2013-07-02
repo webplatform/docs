@@ -16,7 +16,7 @@
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
 |-
 | Permitted&#160;parents
-| Any element can that contain [[html/concepts/flowContent|flow content]].
+| Any element that can contain [[html/concepts/flowContent|flow content]].
 |-
 | Tag&#160;omission
 |A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
