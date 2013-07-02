@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|dl – description list}}
 {{Flags
 |Content=Compatibility Incomplete
 |Checked_Out=Yes
