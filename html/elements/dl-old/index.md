@@ -29,9 +29,6 @@
 ; [[html/concepts/globalAttributes|Global attributes]]
 : Any attributes that are permitted globally.
 
-{{Markup_Element
-|DOM_interface=dom/HTMLDListElement
-}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
