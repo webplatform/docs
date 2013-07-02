@@ -14,11 +14,15 @@ One of the following:
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
 
-===Permitted parent elements===
-Any element can that contain [[html/concepts/flowContent|flow content]].
+===Permitted attributes===
+; [[html/concepts/globalAttributes|Global attributes]]
+: Any attributes that are permitted globally.
 
 ===Tag omission===
 A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
+
+===Permitted parent elements===
+Any element can that contain [[html/concepts/flowContent|flow content]].
 
 ===Details===
 It is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
