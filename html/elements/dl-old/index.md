@@ -10,9 +10,9 @@
 |DOM_interface=dom/HTMLDListElement
 |Content====Permitted contents===
 One of the following:
-* Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more dd elements; or:
-* A [[html/elements/template|<code>&lt;template&gt;</code>]] element; or:
-* A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more dd elements.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
 
 ===Permitted parent elements===
 Any element can that contain [[html/concepts/flowContent|flow content]].
