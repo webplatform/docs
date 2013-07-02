@@ -18,10 +18,10 @@
 | Any element can that contain [[html/concepts/flowContent|flow content]].
 |-
 | Tag omission
-A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
+|A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
 |-
 | DOM interface
-[[dom/HTMLDListElement|HTMLDListElement]
+[[dom/HTMLDListElement|HTMLDListElement]]
 |}
 
 ==Permitted attributes==
