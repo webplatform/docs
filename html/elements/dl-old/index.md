@@ -7,24 +7,26 @@
 {{API_Name}}
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
 
-==Permitted contents==
-One of the following:
+{|
+| Permitted contents
+| One of the following:
 * Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+|-
+| Permitted parents
+| Any element can that contain [[html/concepts/flowContent|flow content]].
+|-
+| Tag omission
+A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
+|-
+| DOM interface
+[[dom/HTMLDListElement|HTMLDListElement]
+|}
 
 ==Permitted attributes==
 ; [[html/concepts/globalAttributes|Global attributes]]
 : Any attributes that are permitted globally.
-
-==Permitted parents==
-Any element can that contain [[html/concepts/flowContent|flow content]].
-
-==Tag omission==
-A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
-
-==DOM interface==
-[[dom/HTMLDListElement|HTMLDListElement]
 
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
