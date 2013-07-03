@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g. a video or an image) is made to fit the dimensions of its containing box}}
@@ -58,7 +60,7 @@
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=Yes
-|Opera_prefixed_version=≥ 10.6
+|Opera_prefixed_version=≥ 10.6 ≤12.1
 |Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=No
@@ -88,7 +90,7 @@
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Yes
-|Opera_mobile_prefixed_version=≥ 11
+|Opera_mobile_prefixed_version=≥ 11 ≤12.1
 |Opera_mini_supported=No
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=No
