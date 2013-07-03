@@ -88,16 +88,9 @@ A description list is not used as commonly as other types of list, except in jou
 * In HTML 4 and below, description lists were called definition lists. HTML5  renamed them to description lists. For a discussion of why, read http://html5doctor.com/the-dl-element/.
 
 * The <code>compact</code> attribute for the <code>&lg;dl&gt;</code> element is obsolete. [http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes|Use CSS instead].
-|Import_Notes====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
+|Import_Notes
 
+<!--
 ===Members===
 The '''dl''' object has these types of members:
 *[#events Events]
@@ -814,6 +807,8 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}Retrieves the element's unique number.
 {{!}}}
 }}
+-->
+
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5.1
