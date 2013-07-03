@@ -28,9 +28,7 @@
 </tr>
 </table>
 }}
-{{Markup_Element
-|DOM_interface=dom/HTMLDListElement
-}}
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
