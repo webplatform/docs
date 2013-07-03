@@ -1,11 +1,17 @@
+{{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|CSS properties are the ways that you can change the styling of elements in your page.}}
-{{API_Listing
-|Query=[[Category:CSS Properties]]
+{{Summary_Section|CSS properties are the key to altering the styling of HTML elements in your web documents.}}
+{{API_Listing|Query=[[Category:CSS Properties]]
 }}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
