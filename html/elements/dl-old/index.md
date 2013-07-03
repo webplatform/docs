@@ -43,9 +43,9 @@ A description list is not used as commonly as other types of list, except in jou
 {{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element
-|Code=  display: block;
-  margin-top: 16px;
-  margin-bottom: 16px;
+|Code=display: block;
+margin-top: 16px;
+margin-bottom: 16px;
 }}
 
 {{Examples_Section
