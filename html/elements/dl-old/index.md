@@ -8,9 +8,9 @@
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
 ; Permitted&#160;contents
 : One of the following:
-: * Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
-: * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
-: * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+:* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
+:* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
+:* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
 ; Permitted&#160;parents
 : Any element that can contain [[html/concepts/flowContent|flow content]].
 ; Tag&#160;omission
@@ -18,43 +18,9 @@
 ; DOM&#160;interface
 : [[dom/HTMLDListElement|HTMLDListElement]]
 }}
-{| class="wikitable"
-|-  valign="top"
-| Permitted&#160;contents
-| One of the following:
-* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
-* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
-* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
-|-
-| Permitted&#160;parents
-| Any element that can contain [[html/concepts/flowContent|flow content]].
-|-
-| Tag&#160;omission
-|A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
-|-
-| DOM&#160;interface
-| [[dom/HTMLDListElement|HTMLDListElement]]
-|}
-
-==Permitted attributes==
-; [[html/concepts/globalAttributes|Global attributes]]
-: Any attributes that are permitted globally.
-
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
-
-==Usage==
-The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
-
-A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
-
-It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
-
-The items should always be placed before the descriptions.
-
-A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
-
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -861,3 +827,37 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{| class="wikitable"
+|-  valign="top"
+| Permitted&#160;contents
+| One of the following:
+* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+|-
+| Permitted&#160;parents
+| Any element that can contain [[html/concepts/flowContent|flow content]].
+|-
+| Tag&#160;omission
+|A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.
+|-
+| DOM&#160;interface
+| [[dom/HTMLDListElement|HTMLDListElement]]
+|}
+
+==Permitted attributes==
+; [[html/concepts/globalAttributes|Global attributes]]
+: Any attributes that are permitted globally.
+
+
+
+==Usage==
+The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
+
+A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
+
+It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
+
+The items should always be placed before the descriptions.
+
+A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
