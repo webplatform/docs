@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -14,6 +15,8 @@
 If the value or the member is not specified in the object, the value for the member defaults to false. The following demonstrates how to set the constraints for both audio and video:
 
  { video: true, audio: true }
+
+There are additional constraints available. http://simpl.info/getusermedia/constraints/ demonstrates the use of <code>maxWidth</code> and <code>maxHeight</code> constraints. There is a set of resolutions that is currently supported at the libjingle level. They are summarized [https://code.google.com/p/chromium/issues/detail?id=143631#c9 in this chromium ticket] and can be confirmed in the [http://libjingle.googlecode.com/svn/trunk/talk/app/webrtc/localvideosource.cc libjingle source code]
 |Optional=No
 }}{{Method Parameter
 |Name=successCallback
