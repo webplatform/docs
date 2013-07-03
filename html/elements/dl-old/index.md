@@ -40,7 +40,7 @@ The items should always be placed before the descriptions.
 A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 
 <h2 id="css">CSS</h2>
-Typical default CSS properties:
+Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
 <syntaxhighlight lang="css">
 display: block;
 margin-top: 16px;
