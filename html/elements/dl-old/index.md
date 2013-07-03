@@ -40,6 +40,14 @@ The items should always be placed before the descriptions.
 
 A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 
+==CSS==
+Typical default CSS properties:
+<pre>
+display: block;
+margin-top: 16px;
+margin-bottom: 16px;
+</pre>
+
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
