@@ -75,7 +75,6 @@ A description list is not used as commonly as other types of list, except in jou
 &lt;/dl&gt;
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}
-}}
 
 {{Notes_Section
 |Notes====Browser defaults===
