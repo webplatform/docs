@@ -6,14 +6,15 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
-
-<dfn style{{=}}"display: table-cell">Permitted contents</dfn> <span style{{=}}"display: table-cell">foo bar baz</span>
-
-; Permitted&#160;contents
-: One of the following:
-:* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
-:* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
-:* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+<dl style{{=}}"display: table-row">
+<dt style{{=}}"display: table-cell">Permitted&#160;contents</dfn>
+<dd style{{=}}"display: table-cell">
+One of the following:
+* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
+</dd>
+</dl>
 ; Permitted&#160;parents
 : Any element that can contain [[html/concepts/flowContent|flow content]].
 ; Tag&#160;omission
