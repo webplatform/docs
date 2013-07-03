@@ -6,12 +6,6 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
-<div style>
-This is <span>red</span> text.
-</div>
-<ul>
-<li>foo</li>
-</ul>
 ; Permitted&#160;contents
 : One of the following:
 :* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
@@ -27,6 +21,10 @@ This is <span>red</span> text.
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
+
+==Markup test==
+<ul style="display: table"> <li style="display: table-row"> <dfn style="display: table-cell">Permitted contents</dfn> <span style="display: table-cell">foo bar baz</span> </li> </ul>
+
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
