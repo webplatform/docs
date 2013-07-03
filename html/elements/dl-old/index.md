@@ -78,15 +78,8 @@ A description list is not used as commonly as other types of list, except in jou
 }}
 }}
 {{Notes_Section
-|Notes====Browser defaults===
-
-* The <code>&lt;dl&gt;</code> element has a small amount of top and bottom margin applied to it by default, usually around 16px.
-* Each <code>&lt;dd&gt;</code> element has a fairly large left margin applied to it to give it an indent. This is usually around 40px.
-
-===Remarks===
-
+|Notes
 * In HTML 4 and below, description lists were called definition lists. HTML5  renamed them to description lists. For a discussion of why, read http://html5doctor.com/the-dl-element/.
-
 * The <code>compact</code> attribute for the <code>&lg;dl&gt;</code> element is obsolete. [http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes|Use CSS instead].
 |Import_Notes
 }}
