@@ -828,8 +828,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section|
-* [https://developer.mozilla.org/en-US/docs/HTML/Element/dl Mozilla Developer Network]
+{{See_Also_Section
+|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dl Mozilla Developer Network]
 * [http://www.w3.org/TR/html4/struct/lists.html#h-10.3 W3C]
 }}
 {{Topics|HTML}}
