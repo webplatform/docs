@@ -9,7 +9,7 @@
 <table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top"><b>Permitted&#160;contents</b></th>
-<td style{{=}}"vertical-align: top">One of the following:
+<td style{{=}}"vertical-align: top; padding-top: 10px">One of the following:
 * Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.
