@@ -6,7 +6,8 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
-<ul class="table">
+<a href="http://meta.wikimedia.org/">Main Page</a>
+<ul>
 <li>foo</li>
 </ul>
 ; Permitted&#160;contents
