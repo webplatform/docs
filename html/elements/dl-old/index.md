@@ -42,13 +42,13 @@ A description list is not used as commonly as other types of list, except in jou
 
 ==CSS==
 Typical default CSS properties:
-<syntaxhighlight lang="css">
 <pre>
+<syntaxhighlight lang="css">
 display: block;
 margin-top: 16px;
 margin-bottom: 16px;
-</pre>
 </syntaxhighlight>
+</pre>
 
 {{Examples_Section
 |Not_required=No
