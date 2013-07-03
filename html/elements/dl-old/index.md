@@ -8,7 +8,7 @@
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
 <table class{{=}}"wikitable">
 <tr>
-<td style{{=}}"vertical-align: top"><b>Permitted&#160;contents</b></td>
+<th style{{=}}"vertical-align: top"><b>Permitted&#160;contents</b></th>
 <td style{{=}}"vertical-align: top">One of the following:
 * Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
 * Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
