@@ -6,6 +6,7 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''_ The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
+
 <table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -75,7 +76,7 @@ A description list is not used as commonly as other types of list, except in jou
 &lt;/dl&gt;
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}
-
+}}
 {{Notes_Section
 |Notes====Browser defaults===
 
@@ -88,7 +89,7 @@ A description list is not used as commonly as other types of list, except in jou
 
 * The <code>compact</code> attribute for the <code>&lg;dl&gt;</code> element is obsolete. [http://wiki.whatwg.org/wiki/Presentational_elements_and_attributes|Use CSS instead].
 |Import_Notes
-
+}}
 <!--
 ===Members===
 The '''dl''' object has these types of members:
