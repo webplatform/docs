@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
+{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
 {| class="wikitable"
 |-  valign="top"
 | Permitted&#160;contents
@@ -23,7 +23,7 @@
 | DOM&#160;interface
 | [[dom/HTMLDListElement|HTMLDListElement]]
 |}
-}}
+
 ==Permitted attributes==
 ; [[html/concepts/globalAttributes|Global attributes]]
 : Any attributes that are permitted globally.
