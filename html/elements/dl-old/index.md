@@ -42,7 +42,7 @@ A description list is not used as commonly as other types of list, except in jou
 <h2 id="css">CSS</h2>
 {{Single Example
 |Language=CSS
-|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element
+|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
 |Code=display: block;
 margin-top: 16px;
 margin-bottom: 16px;
