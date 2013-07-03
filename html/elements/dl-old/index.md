@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.
+{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''_ The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements_
 <table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top">Permitted&#160;contents</th>
@@ -31,18 +31,6 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 }}
-
-==Usage==
-The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
-
-A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
-
-It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
-
-The items should always be placed before the descriptions.
-
-A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
-
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -80,7 +68,6 @@ A description list is not used as commonly as other types of list, except in jou
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}
 }}
-
 {{Notes_Section
 |Notes====Browser defaults===
 
@@ -848,3 +835,13 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+==Usage==
+The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
+
+A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
+
+It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
+
+The items should always be placed before the descriptions.
+
+A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
