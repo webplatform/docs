@@ -105,9 +105,9 @@ If the property has a value different than none, a stacking context will be crea
 	-moz-transform: scale(3, 0.5);
 	transform: scale(3, 0.5);
 
-        width: 10em;
-        height: 10em;
-        background: green
+	width: 10em;
+	height: 10em;
+	background: green;
 }
 |LiveURL=http://dabblet.com/gist/4745494
 }}{{Single Example
