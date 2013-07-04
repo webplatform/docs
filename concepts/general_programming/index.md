@@ -32,6 +32,8 @@ As the first-level pages are written to cover the second-level topics, remove th
 * What is a protocol?
 * What protocols do websites rely on?
 ** ARP, TCP, IP (v4 and v6), HTTP, FTP, SSL
+* What is Http?
+*[[concepts/general_programming/NAT|What is NAT?]]
 ==Basic Programming Concepts==
 * How do I store information?
 ** Introduce scalar variables
