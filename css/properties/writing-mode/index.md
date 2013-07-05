@@ -58,7 +58,7 @@ writing-mode: vertical-rl;
 writing-mode: vertical-lr;
 -ms-writing-mode: tb-lr;
 }}{{Single Example
-|Language=CSS
+|Language=HTML
 |Description=Complete example, including HTML.
 |Code=&lt;style&gt;
     #horizontal-tb {
@@ -131,16 +131,15 @@ writing-mode: vertical-lr;
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
+|Internet_explorer_version=5.5
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Unknown
