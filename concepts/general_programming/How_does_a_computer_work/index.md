@@ -1,4 +1,4 @@
-{{Page_Title|General Programming Concepts}}
+{{Page_Title|How does a computer work?}}
 {{Flags
 |High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
