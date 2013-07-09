@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|HTMLElement is the interface that all DOM Nodes subclass from. It provides functionality specific to HTML that is not present in the basic Element interface.}}
 {{API_Object
-|Subclass_of=dom/Element
+|Subclass_of=dom/Element, dom/Node
 }}
 {{Examples_Section
 |Not_required=No
