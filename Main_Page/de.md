@@ -2,7 +2,7 @@
 
 == Zusammenfassung ==
 
-Web Platform Docs ist eine von der Community erstellte Website, welche das Ziel verfolgt, eine umfassende und verlässlich Quelle von Web-Dokumentationen für Entwickler zu sein.
+Web Platform Docs ist eine von der Community erstellte Website, welche das Ziel verfolgt, eine umfassende und verlässliche Quelle von Web-Dokumentationen für Entwickler zu sein.
 
 {{Languages}}
 
@@ -29,7 +29,7 @@ Web Platform Docs ist eine von der Community erstellte Website, welche das Ziel 
     <div class="inner">
     <h3>[[concepts | Generelle Web-Konzepte]]</h3>
     
-    <p>Konzeptionelle und Tutorial-Artikeln zu Themen wie „Wie funktioniert das Web?“, Informations-Architektur, Typografie und Webdesign.</p>
+    <p>Konzeptionelle Artikel und Tutorials zu Themen wie „Wie funktioniert das Web?“, Informations-Architektur, Typografie und Webdesign.</p>
     </div>
   
   </div>
@@ -133,14 +133,14 @@ Web Platform Docs ist eine von der Community erstellte Website, welche das Ziel 
 Web Platform Docs hat noch Alpha-Status, aber man findet schon viele wertvolle Inhalte auf der Website, einschließlich:
 
 * Wie man Merkmale des offenen Webs benutzt, mit Syntax und Beispielen
-* Auf welchen Plattformen und Geräte man welche Technologien verwenden kann
-* Die aktuelle Standardisierung, Stabilität und der Stand der Umsetzung der jeweiligen Technologie-Spezifikation
+* Auf welchen Plattformen und Geräten man welche Technologien verwenden kann
+* Die aktuelle Standardisierung, Stabilität und Stand der Umsetzung der jeweiligen Technologie-Spezifikation
 
-In Zukunft wird Web Platform Docs noch mehr Inhalte zur Erkundung bereitstellen: Live-Codebeispiele, Lehrmaterialien und vieles mehr. Um dies zu beschleunigen, möchten wir Sie einladen, sich uns anzuschließen und ihr Wissen beizutragen!
+In Zukunft wird Web Platform Docs noch mehr Inhalte zur Erkundung bereitstellen: Live-Codebeispiele, Lehrmaterialien und vieles mehr. Um dies zu beschleunigen, möchten wir Sie einladen, sich uns anzuschließen und Ihr Wissen beizutragen!
 
 == Beitragen zu Web Platform Docs ==
 
-Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! Selbst die geringste Unterstützung kann erhebliche Auswirkungen auf die Seite haben; von der Alarmierung über Fehler anderen Entwickler in unserer Dokumentation, über die Beseitigung dieser Fehler, die Portierung von bestehenden Artikeln oder sogar der Erstellung eines komplett neuen Artikels. Um mehr zu erfahren, lesen Sie bitte unser [[WPD:Editors_Guide|Editor-Handbuch.]]
+Wir würden uns über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! Selbst die geringste Unterstützung kann erhebliche Auswirkungen auf die Seite haben; von der Alarmierung über Fehler anderer Entwickler in unserer Dokumentation, über die Beseitigung dieser Fehler, die Portierung von bestehenden Artikeln oder sogar der Erstellung eines komplett neuen Artikels. Um mehr zu erfahren, lesen Sie bitte unser [[WPD:Editors_Guide|Editor-Handbuch.]]
 
 * Für Datei-Fehler auf webplatform, nutzen Sie unsere [http://project.webplatform.org Projekt Management Seite]. Lesen sie unsere [http://docs.webplatform.org/wiki/WPD:Filing_Bugs Bug-Annahme Seite] für mehr Informationen.
 * Falls sie Fragen zu webplatform.org haben, lesen sie bitte zunächst unsere [[WPD:FAQ|FAQ]].
@@ -148,7 +148,7 @@ Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! 
 == Web Platform Docs auf anderen Seiten ==
 
 * Werden Sie Mitglied unserer [http://talk.webplatform.org/forums/ Q&A]
-* Chaten Sie mit unseren Entwicklern im IRC: Wir sind auf irc.freenode.org, im #webplatform Channel.
+* Chatten Sie mit unseren Entwicklern im IRC: Wir sind auf irc.freenode.org, im #webplatform Channel.
 * Lesen Sie [http://blog.webplatform.org/ unseren Blog]
 * Folgen Sie [https://twitter.com/webplatform @WebPlatform] auf Twitter
 * Nutzen Sie unser [http://webplatform.org/logo Logo] und verlinken Sie zurück auf unsere Seite
