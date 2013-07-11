@@ -35,15 +35,19 @@ W3C is governed by its [http://www.w3.org/Consortium/Process/ Process Document].
 A specification progresses through several stages to become ratified by W3C, called the '''Recommendation track''':
 
 ===<span id="ed">Editor's Draft (ED)</span> ''(informal)''=== 
+{{Standardization_Status|W3C Editor’s Draft}}
 '''ED''' is the active draft before Working Group consensus; often, this is where the most up-to-date information may be found, but at the risk of being too cutting-edge, so some parts may still change. Every Working Draft starts as changes in the Editor's Draft.
 
 ===<span id="fpwd">First Public Working Draft (FPWD)</span>===
+{{Standardization_Status|W3C Working Draft}}
 '''FPWD''' is the first Working Draft that has Working Group consensus and is open for review. This is the first opportunity for participants to include or exclude their Royalty-Free patent commitments.
 
 ===<span id="wd">Working Draft (WD)</span>===
+{{Standardization_Status|W3C Working Draft}}
 A '''WD''' is any regular iteration of the specification that has Working Group consensus and incorporates feedback. Each specification is supposed to be updated regularly, around every three months (the ''heartbeat requirement'').
 
 ===<span id="lc">Last Call Working Draft (LC)</span>===
+{{Standardization_Status|W3C Last Call Working Draft}}
 '''LC''' is started once the Working Group has reached internal consensus that the specification is mature and needs only a final round of review from the community and other Working Groups, as well as any implementers who are not in the WG. Since most specifications do not get adequate early review, this is sometimes the first point at which a specification gets detailed review, and based on the feedback, the specification may go through several iterations of Last Call. During LC, the WG is required to record and address to all technical feedback (though not necessarily to change the specification to match that feedback, since there are many different approaches). The minimum duration for LC is 3 weeks, but it often lasts up to a couple of months.
 
 ===<span id="cr">Candidate Recommendation (CR)</span>===
@@ -55,9 +59,11 @@ At the end of CR, the Working Group produces an '''implementation report''', whi
 A specification that is changed during CR must return to Last Call, unless the changed feature was marked '''at risk''' before entering CR. This is the last opportunity for Working Group participants to include or exclude their Royalty-Free patent commitments for the technology defined in the specification.
 
 ===<span id="pr">Proposed Recommendation (PR)</span>===
+{{Standardization_Status|W3C Proposed Recommendation}}
 '''PR''' is the phase at which the specification has had adequate review and testing, and it is submitted to the W3C members for final approval.
 
 ===<span id="rec">Recommendation (Rec)</span>===
+{{Standardization_Status|W3C Recommendation}}
 A '''Recommendation''' is the specification has had final approval by the W3C membership and the W3C Director, and is adequately tested and interoperably implemented. This is the final stage of a specification, and it is considered to be a standard. Recommendations may still be revised through new editions or versions, which must pass through the whole Recommendation track again.
 
 As a simplified analogy, the standards process may be described in terms of the software development cycle (such as a browser lifecycle): Editor's Drafts are '''nightlies'''; Candidate Recommendation is a '''release candidate branch'''; Proposed Recommendation is an '''RTM''' (Release to Manufacturing or Marketing); a Recommendation is a '''General Availability release'''. The next version of an actively developed specification is like the '''trunk''' or '''master branch'''.
