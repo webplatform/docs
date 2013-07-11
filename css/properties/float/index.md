@@ -29,29 +29,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description='''First example'''
-
-This example shows how the <code>float</code> attribute affects the flow of the text. The sphere image floats to the left of the text, and the cone floats to the right.
-|Code=<img src="sphere.jpg" style="float: left">
-<img src=" style="float: left">
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/float_h.htm
-}}{{Single Example
-|Language=HTML
-|Code=<div class="floated"</div>
-<img src="sphere.jpg" >
-</div>
-}}{{Single Example
-|Language=CSS
-|Description=The element with the class <code>floated</code> flows to the left of the page while the content within the element flows around the floated content.
-|Code=.floated {
-	float: left;
-	width: 150px;
-	height: 170px;
-	margin-right: 20px;
-}
-}}{{Single Example
-|Language=HTML
-|Description=Here we create a simple layout containing a logo image and some textual content. Notice the use of the <code>clearfix</code> class on the <code>article</code> element below.
+|Description=In this example, we create a simple layout containing a title, a logo (image) and some textual content. Notice the use of the <code>clearfix</code> class on the <code>article</code> element below.
 |Code=&lt;article class="clearfix"&gt;
   &lt;img class="logo" src="http://www.webplatform.org/logo/wplogo_pillow_tan.png" alt="Web Platform Docs logo" /&gt;
   &lt;h1&gt;Web Platform Docs&lt;/h1&gt;
@@ -61,14 +39,15 @@ This example shows how the <code>float</code> attribute affects the flow of the 
 |LiveURL=http://code.webplatform.org/gist/5974883
 }}{{Single Example
 |Language=CSS
-|Code=.logo {
+|Description=The CSS for the above layout is described below. Notice the use of the <code>float</code>s.
+|Code=/* Some CSS rules remove for brevity; please see the live URL for the complete example. */
+
+.logo {
   float: left;
 }
 
 .desc {
   float: left;
-
-  /* We add a width to the paragraph because we want the text to be aligned with the title. */
   width: 60%;
 }
 |LiveURL=http://code.webplatform.org/gist/5974883
