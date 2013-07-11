@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Provides a Storage object for an origin.}}
 {{API_Object_Property
@@ -21,6 +23,10 @@
 |Name=W3C Web Storage Specification
 |URL=http://dev.w3.org/html5/webstorage
 |Status=W3C Editor's Draft
+}}{{Related Specification
+|Name=W3C Web Storage Specification
+|URL=http://www.w3.org/TR/webstorage/
+|Status=W3C Proposed Recommendation
 }}
 }}
 {{Compatibility_Section
