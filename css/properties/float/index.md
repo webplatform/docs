@@ -49,6 +49,29 @@ This example shows how the <code>float</code> attribute affects the flow of the 
 	height: 170px;
 	margin-right: 20px;
 }
+}}{{Single Example
+|Language=HTML
+|Description=Here we create a simple layout containing a logo image and some textual content. Notice the use of the <code>clearfix</code> class on the <code>article</code> element below.
+|Code=&lt;article class="clearfix"&gt;
+  &lt;img class="logo" src="http://www.webplatform.org/logo/wplogo_pillow_tan.png" alt="Web Platform Docs logo" /&gt;
+  &lt;h1&gt;Web Platform Docs&lt;/h1&gt;
+  &lt;p class="desc"&gt;Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. Learn more about &lt;a href="http://docs.webplatform.org"&gt;Web Platform Docs&lt;/a&gt;. To understand the &lt;a href="http://docs.webplatform.org/wiki/css/properties/float"&gt;&lt;code&gt;float&lt;/code&gt;&lt;/a&gt; and the &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float#Clearing_floats"&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/a&gt; property.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+|LiveURL=http://code.webplatform.org/gist/5974883
+}}{{Single Example
+|Language=CSS
+|Code=.logo {
+  float: left;
+}
+
+.desc {
+  float: left;
+
+  /* We add a width to the paragraph because we want the text to be aligned with the title. */
+  width: 60%;
+}
+|LiveURL=http://code.webplatform.org/gist/5974883
 }}
 }}
 {{Notes_Section
