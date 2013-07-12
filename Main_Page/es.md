@@ -136,11 +136,10 @@ En el futuro, Web Platform Docs incluirá aún más contenido para que explores:
 
 ==Contribuir con Web Platform Docs==
 
-Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso el más mínimo esfuerzo puede tener un impacto significativo sobre el sitio. Desde alertar a los colegas desarrolladores sobre errores en nuestra documentación, la corrección de estos errores, la adaptación de artículos existentes o incluso aportando contenido completamente nuevo. Para mayor información, por favor lee nuestra [[WPD:Getting_Started|Guía de Inicio]].
+Nos encantaría contar con tu ayuda en la mejora de Web Platform Docs. Incluso el más mínimo esfuerzo puede tener un impacto significativo sobre el sitio. Desde alertar a los colegas desarrolladores sobre errores en nuestra documentación, la corrección de estos errores, la adaptación de artículos existentes o incluso aportando contenido completamente nuevo. Para mayor información, por favor lee nuestra [[WPD:Getting_Started|Guía para Editores]].
 
 * Para reportar errores en la webplatform, usa el [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org Sistema de gestión de errores del W3C]. Lee nuestra [http://docs.webplatform.org/wiki/WPD:Filing_Bugs página sobre reportar errores] para mayor información.
 * Si tienes alguna pregunta acerca de webplatform.org, por favor [[WPD:FAQ|busca primero una respuesta en las FAQ]].
-
 
 ==Mantente en contacto==
 
