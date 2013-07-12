@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{Basic Page}}
-<span style="color: #F0EBDD; font-weigth: bold; background: #D02E27; padding: 1em;" >¡ATENCIÓN!  Este artículo se encuentra en poceso de traducción.</span>
+<span style="color: #F0EBDD; font-weight: bold; background: #D02E27; padding: .6em;" >¡ATENCIÓN!  Este artículo se encuentra en poceso de traducción.</span>
 
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
