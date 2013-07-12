@@ -2,9 +2,8 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|La accesibilidad está haciendo que la Web funcione para las personas con una amplia gama de habilidades. La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios y herramientas web de alta calidad sin excluir a algunas personas del uso de sus productos y servicios. La accesibilidad es fundamental para que las personas con discapacidad puedan participar por igual en la Web. Se trata de un requisito legal en algunos casos y de prácticas recomendadas en todos los casos.}}
 {{Basic Page}}
-<span style="background: red; padding: 1em;" >¡ATENCIÓN!  Este artículo se encuentra en poceso de traducción.</span>
+<span style="color: #F0EBDD; font-weigth: bold; background: #D02E27; padding: 1em;" >¡ATENCIÓN!  Este artículo se encuentra en poceso de traducción.</span>
 
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
