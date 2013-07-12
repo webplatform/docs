@@ -92,7 +92,7 @@ The tools that we use to create and use web content can help or hinder web acces
    <li><strong>Assistive technologies</strong> are software or hardware that people with disabilities use to improve interaction with the Web, e.g., screen readers that read aloud web pages, voice recognition software, alternative keyboards, etc. (Introduced in [http://www.w3.org/WAI/intro/people-use-web/browsing.html Tools|Techniques|Diversity in Web Use].) </li>
 </ul>
 
-===Personas - creadores de contenido web y usuarios web===
+===Personas - autores de contenido web y usuarios web===
 
 <p>In addition to web content and tools, people are an important component of web accessibility.</p>
 
