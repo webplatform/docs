@@ -2,11 +2,16 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.}}
-{{Basic Page}}
-<p>This page provides an overview of web accessibility and links to resources for more information. We suggest that you read through this whole page first, then go back and follow the links to learn more.</p>
 
-==The Web is for all people==
+==Resumen==
+Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.
+
+La accesibilidad está haciendo que la Web funcione para las personas con una amplia gama de habilidades. La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios web y herramientas web de alta calidad sin excluir a algunas personas del uso de sus productos y servicios. La accesibilidad es fundamental para que las personas con discapacidad puedan participar por igual en la Web. Se trata de un requisito legal en algunos casos y de prácticas recomendadas en todos los casos.
+
+{{Basic Page}}
+<p>Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos leer la página completa primero y luego regresar y visitar los enlaces para aprender más.</p>
+
+==La Web es ara todas las personas==
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability.
 
 When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability. Thus the impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world.
