@@ -2,10 +2,11 @@
 {{Flags
 |Checked_Out=No
 }}
-
+{{Summary_Section}}
+{{Basic Page}}
 ==Resumen==
 La accesibilidad está haciendo que la Web funcione para las personas con una amplia gama de habilidades. La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios y herramientas web de alta calidad sin excluir a algunas personas del uso de sus productos y servicios. La accesibilidad es fundamental para que las personas con discapacidad puedan participar por igual en la Web. Se trata de un requisito legal en algunos casos y de prácticas recomendadas en todos los casos.
-{{Basic Page}}
+
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
 ==La Web es para todas las personas==
@@ -30,7 +31,7 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <p>The Web is increasingly an essential resource for many aspects of life: education, employment, government, commerce, health care, recreation, social interaction, and more. The Web is used not only for receiving information, but also for providing information and interacting with society. Therefore, it is essential that the Web be accessible in order to provide equal access and equal opportunity to people with disabilities. Indeed, the United Nations recognizes web accessibility as a basic human right. Learn more from [http://www.w3.org/WAI/bcase/soc#social Web Accessibility is a Social Issue] in the Social Factors page.</p>
 
-==Comprende como las personas usan la web==
+==Entender como las personas usan la web==
 
 <p>Stories about people using the Web help to illustrate the everyday needs of people with disabilities. For example:</p>
 
@@ -131,7 +132,7 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
-Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation. 
+Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
 }}
 {{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
