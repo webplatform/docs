@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{Basic Page}}
-<span style="color: #F0EBDD; font-size: 1.1em; background: #D02E27; padding: .6em;" >¡ATENCIÓN!  Este artículo se encuentra en poceso de traducción por [http://docs.webplatform.org/wiki/User:Nestorrojas nestorrojas].</span>
+<span style="color: #F0EBDD; font-size: 1.1em; background: #D02E27; padding: .6em;" >¡ATENCIÓN!  Este artículo se encuentra en proceso de traducción por [http://docs.webplatform.org/wiki/User:Nestorrojas nestorrojas].</span>
 
 
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
