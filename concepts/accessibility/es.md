@@ -4,9 +4,9 @@
 }}
 
 ==Resumen==
-La accesibilidad está haciendo que la Web funcione para las personas con una amplia gama de habilidades. La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios web y herramientas web de alta calidad sin excluir a algunas personas del uso de sus productos y servicios. La accesibilidad es fundamental para que las personas con discapacidad puedan participar por igual en la Web. Se trata de un requisito legal en algunos casos y de prácticas recomendadas en todos los casos.
+La accesibilidad está haciendo que la Web funcione para las personas con una amplia gama de habilidades. La accesibilidad es esencial para los desarrolladores y las organizaciones que desean crear sitios y herramientas web de alta calidad sin excluir a algunas personas del uso de sus productos y servicios. La accesibilidad es fundamental para que las personas con discapacidad puedan participar por igual en la Web. Se trata de un requisito legal en algunos casos y de prácticas recomendadas en todos los casos.
 {{Basic Page}}
-Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas esta página completa primero y luego regreses y visites los enlaces para aprender más.
+Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
 ==La Web es para todas las personas==
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability.
@@ -18,7 +18,7 @@ However, when websites, web technologies, or web tools are badly designed, they 
 * prevent people with cognitive impairments from reading the content because of moving, blinking, or flickering images
 * prevent people with physical impairments from completing a transaction because they cannot use a mouse.
 
-===What is web accessibility?===
+===¿Qué es la accesibilidad web?===
 
 <p>Web accessibility means that people with disabilities can use the Web. More specifically, it means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web. For an introduction to <strong>why</strong> - the case for web accessibility, <strong>what</strong> - examples of web accessibility, and <strong>how</strong> to make your website and web tools accessible, see [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C].</p>
 
@@ -26,11 +26,11 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <p>While accessibility focuses on people with disabilities, it also benefits others, such as people using mobile devices and people in limiting situations (e.g., a loud environment where they cannot hear audio). <strong>Accessibility supports social inclusion</strong> for people with disabilities, older people, mobile users, people in rural areas, people with low bandwidth connections, people with low literacy, etc. More information is in [[#Mobile Web|Mobile Web]] below, [[#Older users|Older users]] below, and [http://www.w3.org/WAI/bcase/soc.html#groups Web Accessibility Benefits People With and Without Disabilities].</p>
 
-===Web accessibility is essential for equal opportunity===
+===La accesibilidad web es esencial para la igualdad de oportunidades===
 
 <p>The Web is increasingly an essential resource for many aspects of life: education, employment, government, commerce, health care, recreation, social interaction, and more. The Web is used not only for receiving information, but also for providing information and interacting with society. Therefore, it is essential that the Web be accessible in order to provide equal access and equal opportunity to people with disabilities. Indeed, the United Nations recognizes web accessibility as a basic human right. Learn more from [http://www.w3.org/WAI/bcase/soc#social Web Accessibility is a Social Issue] in the Social Factors page.</p>
 
-==Understand how people use the Web==
+==Comprende como las personas usan la web==
 
 <p>Stories about people using the Web help to illustrate the everyday needs of people with disabilities. For example:</p>
 
@@ -44,7 +44,7 @@ However, when websites, web technologies, or web tools are badly designed, they 
 <p>People have a diverse range of abilities that impact how they use the Web. Some people have temporary impairments, some have age-related impairments, some have disabilities from birth, some develop disabilities from injuries or health conditions, and some have multiple disabilities. Some people's abilities change based on fatigue, inflammation, medication, etc. To learn about the diversity of abilities, and about the types of web accessibility barriers that people commonly encounter from poorly designed websites and web tools, see [http://www.w3.org/WAI/intro/people-use-web/diversity Diversity of Web Users].</p>
 <p>People with disabilities access and navigate the Web in different ways. Sometimes people configure standard software and hardware according to their needs, and sometimes people use specialized software or hardware that help them perform certain tasks. To learn about the techniques and tools that people with disabilities use to interact with the Web, such as browser settings, text-to-speech, voice recognition, see [http://www.w3.org/WAI/intro/people-use-web/browsing Diversity in Web Use].<!-- @@ this page title will probably change -- update here when update in the linked document --></p>
 
-==Accessibility requirements==
+==Requisitos de accesibilidad==
 
 <p>In order for people with disabilities to be able to use the Web, there are certain things that websites and web tools need to do. These accessibility requirements fulfill four underlying principles:</p>
 
@@ -67,17 +67,17 @@ For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA e
 </p>
 <p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
 
-==The components of web accessibility==
+==Los componentes de la accesibilidad web==
 
 The accessibility principles apply to the components introduced below. It is essential that the components of web development and interaction work together in order for the Web to be accessible to people with disabilities. The W3C Web Accessibility Initiative (WAI) provides guidelines that cover the accessibility requirements of the technical components.
 
-===Web Content===
+===Contenido web===
 
 <p>Content is the information in a web page or web <strong>application</strong>, including: natural information such as text, images, and sounds; code or markup that defines structure, presentation, interaction, etc. Content requirements are covered in Web Content Accessibility Guidelines (<strong>WCAG</strong>).</p>
 
 <p>The WCAG documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see the <strong>[http://www.w3.org/WAI/intro/wcag.php WCAG Overview]</strong>.</p>
 
-===Tools===
+===Herramientas===
 
 The tools that we use to create and use web content can help or hinder web accessibility.
 <ul>
@@ -87,7 +87,7 @@ The tools that we use to create and use web content can help or hinder web acces
    <li><strong>Assistive technologies</strong> are software or hardware that people with disabilities use to improve interaction with the Web, e.g., screen readers that read aloud web pages, voice recognition software, alternative keyboards, etc. (Introduced in [http://www.w3.org/WAI/intro/people-use-web/browsing.html Tools|Techniques|Diversity in Web Use].) </li>
 </ul>
 
-===People - web content creators and web users===
+===Personas - creadores de contenido web y usuarios web===
 
 <p>In addition to web content and tools, people are an important component of web accessibility.</p>
 
@@ -97,7 +97,7 @@ The tools that we use to create and use web content can help or hinder web acces
 
 <p>For more information on these web content, tools, and people components, see the [http://www.w3.org/WAI/presentations/components/Overview.php &quot;Components of Web Accessibility&quot; Presentation] or [http://www.w3.org/WAI/intro/components.php Essential Components of Web Accessibility].</p>
 
-==Business case==
+==Argumento empresarial==
 
 In order for organizations to be willing to make the initial investment in accessibility, many need to understand the financial benefits of web accessibility. For an introduction, see [http://www.w3.org/WAI/presentations/bcase/Overview.php &quot;Web Accessibility is Smart Business&quot; Presentation].
 
@@ -105,23 +105,23 @@ To learn more about the social, technical, financial, and legal and policy facto
 
 For example, one aspect of the business case is reaching more users, including older users and mobile users.
 
-===Older users===
+===Usuarios de edad avanzada===
 
 <p>Older web users are an increasing market segment and an important target group for many businesses, governments, and other organizations. Many older people have age-related impairments that can affect how they use the Web, such as declining vision, physical ability, hearing, and cognitive ability. These issues overlap with the accessibility needs of people with disabilities. Thus, websites and tools that are accessible to people with disabilities are more accessible to older users as well. For more information, see [http://www.w3.org/WAI/older-users/Overview.php Web Accessibility and Older People: Meeting the Needs of Ageing Web Users].</p>
 
-===Mobile Web===
+===La web móvil===
 
 <p>With global mobile phone use at an all time high, there has been a surge of interest in developing websites that are accessible from a mobile device. Users of mobile devices and people with disabilities experience similar barriers when interacting with Web content.  Websites can more efficiently meet both goals when developers understand the significant overlap between making a website accessible for a mobile device and for people with disabilities. For more information, see [http://www.w3.org/WAI/mobile/ Web Content Accessibility and Mobile Web: Making a Web Site Accessible Both for People with Disabilities and for Mobile Devices].</p>
 
-==Learn more from W3C WAI==
+==Aprende más en la WAI del W3C==
 
 The W3C Web Accessibility Initiative (WAI) brings together people from industry, disability organizations, government, and research labs from around the world to develop guidelines and resources to help make the Web accessible to people with disabilities. We encourage you to look around the [http://www.w3.org/WAI/ WAI website] and find more information that is useful to you. See [http://www.w3.org/WAI/yourWAI Finding Your WAI ("way") to New Web Accessibility Resources].
 
-==References and acknowledgements==
+==Referencias y reconocimientos==
 
 <p>Referencing this information: Most of the text on this page comes from other documents, which are linked within each section. For references, please use the source document. (See [http://www.w3.org/WAI/about/usingWAImaterial.html Using WAI Material: Permission to Use with Attribution].)</p>
 
-==See also==
+==Consulta también==
 
 * [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Improving accessibility using HTML5 features]
