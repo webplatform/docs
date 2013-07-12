@@ -1,11 +1,7 @@
-<span style="padding: 1em; background-color: #E54E27; color: #FFFFFF; ">'''CAUTION!'''  In translation process! </span>
-
-
-{{Page_Title|Fundamentos de accesibilidad web}}
+{{Page_Title|Web accessibility basics}}
 {{Flags
 |Checked_Out=No
 }}
-
 {{Summary_Section|Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.}}
 {{Basic Page}}
 <p>This page provides an overview of web accessibility and links to resources for more information. We suggest that you read through this whole page first, then go back and follow the links to learn more.</p>
