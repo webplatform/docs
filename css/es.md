@@ -40,7 +40,7 @@ Las Hojas de estilo en cascada o <span lang="en">Cascading style sheets (CSS)</s
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/properties|Propiedades CSS Properties]]</h3>
+    <h3>[[css/properties|Propiedades CSS]]</h3>
     
     <p>Una guía de referencia de todas las propiedades CSS disponibles.</p>
     </div>
