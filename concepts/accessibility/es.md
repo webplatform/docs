@@ -14,9 +14,10 @@ La accesibilidad está haciendo que la Web funcione para las personas con una am
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
 ==La Web es para todas las personas==
-The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental ability.
 
-When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability. Thus the impact of disability is radically changed on the Web because the Web removes barriers to communication and interaction that many people face in the physical world.
+La Web está fundamentalmente diseñada para que sirva a todas las personas, independientemente de su hardware, software, idioma, cultura, localización o su capacidad física o mental.
+
+Cuando la Web cumple con este objetivo, es accesible a las personas con una diversa gama de capacidades auditivas,  motoras, visuales y cognitivas. Así, el impacto de la discapacidad cambia radicalmente en la Web porque la Web elimina barreras a la comunicación e interacción que muchas personas enfrentan en el mundo físico.
 
 However, when websites, web technologies, or web tools are badly designed, they can create barriers that exclude people from using the Web. For example, an inaccessible website could:
 * prevent people who are deaf from getting information from a podcast or video
