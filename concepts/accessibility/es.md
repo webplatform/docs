@@ -27,11 +27,15 @@ Sin embargo, cuando los sitios, tecnologías y herramientas web están mal dise�
 
 ===¿Qué es la accesibilidad web?===
 
-<p>Web accessibility means that people with disabilities can use the Web. More specifically, it means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web. For an introduction to <strong>why</strong> - the case for web accessibility, <strong>what</strong> - examples of web accessibility, and <strong>how</strong> to make your website and web tools accessible, see [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C].</p>
+Web accessibility means that people with disabilities can use the Web. More specifically, it means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web. For an introduction to <strong>why</strong> - the case for web accessibility, <strong>what</strong> - examples of web accessibility, and <strong>how</strong> to make your website and web tools accessible, see [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C].
 
-<p>Web accessibility encompasses all disabilities that affect access to the Web, including people with auditory, cognitive, neurological, physical, speech, and visual disabilities. Accessibility includes people with impairments due to ageing.</p>
+Accesibilidad Web significa que las personas con discapacidad puedan utilizar la Web. Más específicamente, esto significa que las personas con discapacidad puedan percibir, entender, navegar e interactuar con la Web y que puedan contribuir a la Web. Para una introducción a <strong>por  qué</strong> - el argumento de la accesibilidad web, <strong> qué </ strong> - ejemplos de accesibilidad web y <strong> cómo</strong> hacer tus sitios y herramientas web accesibles , visita [http://www.w3.org/standards/webdesign/accessibility Accesibilidad - W3C].
 
-<p>While accessibility focuses on people with disabilities, it also benefits others, such as people using mobile devices and people in limiting situations (e.g., a loud environment where they cannot hear audio). <strong>Accessibility supports social inclusion</strong> for people with disabilities, older people, mobile users, people in rural areas, people with low bandwidth connections, people with low literacy, etc. More information is in [[#Mobile Web|Mobile Web]] below, [[#Older users|Older users]] below, and [http://www.w3.org/WAI/bcase/soc.html#groups Web Accessibility Benefits People With and Without Disabilities].</p>
+La accesibilidad web abarca todas las discapacidades que afectan el acceso a la Web, incluidas las personas con discapacidad auditiva, cognitiva, neurológica, física, del habla y visual. La accesibilidad incluye a las personas con discapacidad debido al envejecimiento.
+
+While accessibility focuses on people with disabilities, it also benefits others, such as people using mobile devices and people in limiting situations (e.g., a loud environment where they cannot hear audio). <strong>Accessibility supports social inclusion</strong> for people with disabilities, older people, mobile users, people in rural areas, people with low bandwidth connections, people with low literacy, etc. More information is in [[#Mobile Web|Mobile Web]] below, [[#Older users|Older users]] below, and [http://www.w3.org/WAI/bcase/soc.html#groups Web Accessibility Benefits People With and Without Disabilities].
+
+Aunque la accesibilidad se centra en las personas con discapacidad, también beneficia a otras, como las personas que utilizan dispositivos móviles y personas en situaciones limitantes (por ejemplo, un ambiente ruidoso donde no pueden escuchar el audio). <strong>La accesibilidad apoya la inclusión social</strong> para las personas con discapacidad, las personas mayores, los usuarios móviles, las personas en zonas rurales, las personas con conexiones de bajo ancho de banda, las personas con bajo nivel de alfabetización, etc. Encontrarás más información en las secciones [[#Mobile Web|web móvil]] y [[#Older users|usuarios mayores]] más adelante, así como en [http://www.w3.org/WAI/bcase/soc.html#groups Beneficios de la accesibilidad web las personas con y sin discapacidad].
 
 ===La accesibilidad web es esencial para la igualdad de oportunidades===
 
@@ -112,7 +116,7 @@ To learn more about the social, technical, financial, and legal and policy facto
 
 For example, one aspect of the business case is reaching more users, including older users and mobile users.
 
-===Usuarios de edad avanzada===
+===Usuarios mayores===
 
 <p>Older web users are an increasing market segment and an important target group for many businesses, governments, and other organizations. Many older people have age-related impairments that can affect how they use the Web, such as declining vision, physical ability, hearing, and cognitive ability. These issues overlap with the accessibility needs of people with disabilities. Thus, websites and tools that are accessible to people with disabilities are more accessible to older users as well. For more information, see [http://www.w3.org/WAI/older-users/Overview.php Web Accessibility and Older People: Meeting the Needs of Ageing Web Users].</p>
 
