@@ -19,10 +19,11 @@ La Web está fundamentalmente diseñada para que sirva a todas las personas, ind
 
 Cuando la Web cumple con este objetivo, es accesible a las personas con una diversa gama de capacidades auditivas,  motoras, visuales y cognitivas. Así, el impacto de la discapacidad cambia radicalmente en la Web porque la Web elimina barreras a la comunicación e interacción que muchas personas enfrentan en el mundo físico.
 
-However, when websites, web technologies, or web tools are badly designed, they can create barriers that exclude people from using the Web. For example, an inaccessible website could:
-* prevent people who are deaf from getting information from a podcast or video
-* prevent people with cognitive impairments from reading the content because of moving, blinking, or flickering images
-* prevent people with physical impairments from completing a transaction because they cannot use a mouse.
+Sin embargo, cuando los sitios, tecnologías y herramientas web están mal diseñadas pueden crear barreras que excluyen a algunas personas del uso de la Web. Por ejemplo, un sitio web inaccesible podría:
+* Impedir que las personas sordas obtengan información de un podcast o video
+* Impedir que las personas con discapacidades cognitivas puedan leer el contenido por la presencia de imágenes en movimiento, parpadeantes o  cambiantes
+* Impedir que las personas con discapacidades físicas completen una transacción porque no pueden usar un ratón.
+
 
 ===¿Qué es la accesibilidad web?===
 
