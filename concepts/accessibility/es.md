@@ -62,30 +62,34 @@ Para que las personas con discapacidad puedan utilizar la Web hay ciertas cosas 
 # Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
 # Contenido <strong>Robusto</strong> e interpretación confiable.<br/>Los requerimientos de accesibilidad incluyen: maximizar la compatibilidad con las herramientas actuales y futuras (navegadores web, ayudas técnicas, etc.)
 
-'''Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].'''
+<strong>Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].<strong>
 
-Para una corta introducción a tres problemas de accesibilidad web (texto alternativo para imágenes, introducción de datos mediante teclado y transcripciones), visita [http://www.w3.org/standards/webdesign/accessibility#examples Qué: Ejemplos de Accesibilidad Web]
+Para una corta introducción a tres problemas de accesibilidad web (texto alternativo para imágenes, introducción de datos mediante teclado y transcripciones), visita [http://www.w3.org/standards/webdesign/accessibility#examples Qué: Ejemplos de Accesibilidad Web] [inglés].
 
 ==ARIA==
 
-"WAI-ARIA describes how to add semantics and other metadata to HTML content in order to make user interface controls and dynamic content more accessible. For example, with WAI-ARIA it is possible to identify a list of links as a navigation menu and to state whether it is expanded or collapsed." 
-For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA en.wikipedia.org/wiki/WAI-ARIA]
+"WAI-ARIA describe cómo añadir semántica y otros metadatos al contenido HTML con el fin de hacer los controles de interfaz de usuario y el contenido dinámico más accesible. Por ejemplo, con WAI-ARIA, es posible identificar una lista de enlaces como un menú de navegación e indicar si está expandida o contraída ".
 
-For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].
+
+Para mayor información, dirígete a [http://en.wikipedia.org/wiki/WAI-ARIA en.wikipedia.org/wiki/WAI-ARIA]
+
+Para una introducción a los retos y soluciones de accesibilidad para Aplicaciones Enriquecidas de Internet (RIAs, por sus iniciales en inglés), visita [http://www.w3.org/TR/wai-aria-primer/ Cartilla fundamental de WAI-ARIA 1.0].
 
 ==Los componentes de la accesibilidad web==
 
-The accessibility principles apply to the components introduced below. It is essential that the components of web development and interaction work together in order for the Web to be accessible to people with disabilities. The W3C Web Accessibility Initiative (WAI) provides guidelines that cover the accessibility requirements of the technical components.
+Los principios de accesibilidad se aplican a los componentes presentados a continuación. Es esencial que los componentes de desarrollo web e interacción trabajen juntos para que la Web sea accesible a las personas con discapacidad. La Iniciativa de Accesibilidad Web del W3C (WAI, por sus iniciales en inglés) proporciona las pautas que cubren los requerimientos de accesibilidad de los componentes técnicos.
 
 ===Contenido web===
 
-<p>Content is the information in a web page or web <strong>application</strong>, including: natural information such as text, images, and sounds; code or markup that defines structure, presentation, interaction, etc. Content requirements are covered in Web Content Accessibility Guidelines (<strong>WCAG</strong>).</p>
+El contenido es la información disponible en una página o <strong>aplicación</strong> web incluyendo: información natural como texto, imágenes y sonidos,  el código de etiquetado que define la estructura, presentación, interacción, etc. Los requerimientos de contenido se tratan en las Pautas de Accesibilidad para el Contenido Web (<strong>WCAG</strong>).
 
-<p>The WCAG documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see the <strong>[http://www.w3.org/WAI/intro/wcag.php WCAG Overview]</strong>.</p>
+The WCAG documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see the <strong>[http://www.w3.org/WAI/intro/wcag.php WCAG Overview]</strong>.
+
+Los documentos de las WCAG explican cómo hacer el contenido web (incluyendo las aplicaciones web) más accesible a las personas con discapacidad. Para aprender más acerca de cómo están estructuradas las WCAG y acerca de los documentos de apoyo que ofrecen consejos prácticos para cumplir con los requermientos de accesibilidad, consulta la <strong>[http://www.w3.org/WAI/intro/wcag.php Información general de las WCAG]</strong> [inglés].
 
 ===Herramientas===
 
-The tools that we use to create and use web content can help or hinder web accessibility.
+Las herramientas que utilizamos para crear y suar el contenido web pueden ayudar o dificultar la accesibildad web.
 <ul>
    <li><strong>Authoring tools</strong> are software and services that are used to create and edit websites; for example, content management systems (CMS), HTML editors, websites that let users add content (such as social media), and other tools. Tools should support people in making their web content accessible, and the tools should be accessible so that people with disabilities can use them. This is covered in Authoring Tool Accessibility Guidelines, see <strong>[http://www.w3.org/WAI/intro/atag.php ATAG Overview]</strong>.</li>
    <li><strong>Evaluation tools</strong> help check if websites meet standards. (Relevant information is in [http://www.w3.org/WAI/eval/selectingtools.html Selecting Web Accessibility Evaluation Tools].) </li>
@@ -117,23 +121,24 @@ For example, one aspect of the business case is reaching more users, including o
 
 ===La web móvil===
 
-<p>With global mobile phone use at an all time high, there has been a surge of interest in developing websites that are accessible from a mobile device. Users of mobile devices and people with disabilities experience similar barriers when interacting with Web content.  Websites can more efficiently meet both goals when developers understand the significant overlap between making a website accessible for a mobile device and for people with disabilities. For more information, see [http://www.w3.org/WAI/mobile/ Web Content Accessibility and Mobile Web: Making a Web Site Accessible Both for People with Disabilities and for Mobile Devices].</p>
+Con el uso mundial de telefonía móvil en su punto más alto, se ha producido un aumento del interés en el desarrollo de sitios web que son accesibles desde un dispositivo móvil. Los usuarios de dispositivos móviles y las personas con discapacidad se enfrentan a barreras similares al interactuar con el contenido web. Los sitios web pueden alcanzar más eficientemente ambos objetivos cuando los desarrolladores entienden la importante superposición entre hacer un sitio web accesible para un dispositivo móvil y para las personas con discapacidad. Para obtener más información, consulta [http://www.w3.org/WAI/mobile/ Accesibilidad del contenido web la web móvil: Hacer un sitio web accesible tanto para las personas con discapacidad como para los dispositivos móviles] [inglés].
 
 ==Aprende más en la WAI del W3C==
 
-The W3C Web Accessibility Initiative (WAI) brings together people from industry, disability organizations, government, and research labs from around the world to develop guidelines and resources to help make the Web accessible to people with disabilities. We encourage you to look around the [http://www.w3.org/WAI/ WAI website] and find more information that is useful to you. See [http://www.w3.org/WAI/yourWAI Finding Your WAI ("way") to New Web Accessibility Resources].
+La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industria, organizaciones sobre discapacidad, el gobierno y laboratorios de investigación de todo el mundo para desarrollar pautas y recursos que ayuden a hacer la Web accesible para las personas con discapacidad. Te recomendamos revisar el [http://www.w3.org/WAI/ sitio web de la WAI] y buscar más información que te sea útil. Lee  [http://www.w3.org/WAI/yourWAI Encontrando tu ruta hacia nuevos recursos de accesibilidad web] [inglés].
+
 
 ==Referencias y reconocimientos==
 
-<p>Referencing this information: Most of the text on this page comes from other documents, which are linked within each section. For references, please use the source document. (See [http://www.w3.org/WAI/about/usingWAImaterial.html Using WAI Material: Permission to Use with Attribution].)</p>
+Referencias de esta información: La mayor parte del texto de esta página procede de otros documentos que están enlazados dentro de cada sección. Para referencias, por favor, utiliza el documento de origen. (Consulta [http://www.w3.org/WAI/about/usingWAImaterial.html Usando el material de la WAI: Permisos de uso con Reconocimiento].)
 
 ==Consulta también==
 
-* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Improving accessibility using HTML5 features]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features] -- please a little explanation of what ARIA *is*
-* [http://www.w3.org/TR/WCAG20-TECHS/ HTML and CSS techniques for passing WCAG conformance criteria]
-* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Making Accessible Windows Store apps using JavaScript and HTML]
+* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics Esta página se encuentra originalmente en W3C WAI]
+* [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Mejorando la accesibilidad usando caracteristicas de HTML5]
+* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Mejorando la accesibilidad usando características de ARIA] -- please a little explanation of what ARIA *is*
+* [http://www.w3.org/TR/WCAG20-TECHS/ Técnicas de HTML y CSS para cumplir con los criterios de cumplimiento de las WCAG]
+* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer aplicaciones de Windows Store accesibles usando JavaScript y HTML]
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
