@@ -62,14 +62,13 @@ Para que las personas con discapacidad puedan utilizar la Web hay ciertas cosas 
 # Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
 # Contenido <strong>Robusto</strong> e interpretación confiable.<br/>Los requerimientos de accesibilidad incluyen: maximizar la compatibilidad con las herramientas actuales y futuras (navegadores web, ayudas técnicas, etc.)
 
-<strong>Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].</strong>
+<strong>Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] </strong> [inglés].
 
 Para una corta introducción a tres problemas de accesibilidad web (texto alternativo para imágenes, introducción de datos mediante teclado y transcripciones), visita [http://www.w3.org/standards/webdesign/accessibility#examples Qué: Ejemplos de Accesibilidad Web] [inglés].
 
 ==ARIA==
 
 "WAI-ARIA describe cómo añadir semántica y otros metadatos al contenido HTML con el fin de hacer los controles de interfaz de usuario y el contenido dinámico más accesible. Por ejemplo, con WAI-ARIA, es posible identificar una lista de enlaces como un menú de navegación e indicar si está expandida o contraída ".
-
 
 Para mayor información, dirígete a [http://en.wikipedia.org/wiki/WAI-ARIA en.wikipedia.org/wiki/WAI-ARIA]
 
@@ -83,19 +82,16 @@ Los principios de accesibilidad se aplican a los componentes presentados a conti
 
 El contenido es la información disponible en una página o <strong>aplicación</strong> web incluyendo: información natural como texto, imágenes y sonidos,  el código de etiquetado que define la estructura, presentación, interacción, etc. Los requerimientos de contenido se tratan en las Pautas de Accesibilidad para el Contenido Web (<strong>WCAG</strong>).
 
-The WCAG documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see the <strong>[http://www.w3.org/WAI/intro/wcag.php WCAG Overview]</strong>.
-
 Los documentos de las WCAG explican cómo hacer el contenido web (incluyendo las aplicaciones web) más accesible a las personas con discapacidad. Para aprender más acerca de cómo están estructuradas las WCAG y acerca de los documentos de apoyo que ofrecen consejos prácticos para cumplir con los requermientos de accesibilidad, consulta la <strong>[http://www.w3.org/WAI/intro/wcag.php Información general de las WCAG]</strong> [inglés].
 
 ===Herramientas===
 
-Las herramientas que utilizamos para crear y suar el contenido web pueden ayudar o dificultar la accesibildad web.
-<ul>
-   <li><strong>Authoring tools</strong> are software and services that are used to create and edit websites; for example, content management systems (CMS), HTML editors, websites that let users add content (such as social media), and other tools. Tools should support people in making their web content accessible, and the tools should be accessible so that people with disabilities can use them. This is covered in Authoring Tool Accessibility Guidelines, see <strong>[http://www.w3.org/WAI/intro/atag.php ATAG Overview]</strong>.</li>
-   <li><strong>Evaluation tools</strong> help check if websites meet standards. (Relevant information is in [http://www.w3.org/WAI/eval/selectingtools.html Selecting Web Accessibility Evaluation Tools].) </li>
-   <li><strong> Web browsers</strong>, media players, and other &quot;user agents&quot; that access web content are covered in User Agent Accessibility Guidelines, see <strong>[http://www.w3.org/WAI/intro/uaag.php UAAG Overview]</strong>. </li>
-   <li><strong>Assistive technologies</strong> are software or hardware that people with disabilities use to improve interaction with the Web, e.g., screen readers that read aloud web pages, voice recognition software, alternative keyboards, etc. (Introduced in [http://www.w3.org/WAI/intro/people-use-web/browsing.html Tools|Techniques|Diversity in Web Use].) </li>
-</ul>
+Las herramientas que utilizamos para crear y usar el contenido web pueden ayudar o dificultar la accesibildad web.
+
+*Las <strong>herramientas de creación</strong> son software y servicios que se utilizan para crear y editar sitios web, por ejemplo, los sistemas de gestión de contenidos (CMS, por sus iniciales en inglés), editores de HTML, sitios web que permiten a los usuarios agregar contenido (como las redes sociales) y otras herramientas. Las herramientas deben apoyar a las personas en hacer sus contenidos web accesibles y las herramientas, en sí, deben ser accesibles para que las personas con discapacidad puedan utilizarlas. Esto se trata en las Pautas de Accesibilidad para Herramientas de Creación (ATAG, por sus iniciales en inglés), consulta la <strong>[http://www.w3.org/WAI/intro/atag.php Información general de ATAG]</strong> [inglés].
+*Las <strong>Herramientas de evaluación</strong> ayudan a verificar si los sitios web cumplen con las normas. (La información relevante se encuentra en [http://www.w3.org/WAI/eval/selectingtools.html Seleccionar herramientas de evaluación de accesibilidad web] [inglés].)
+*Los <strong>Navegadores web</strong>, reproductores de medios y otros &quot;agentes de usuario&quot; que acceden a contenidos web se tratan en las Pautas de Accesibilidad para Agentes de Usuario (UAAG, por sus iniciales en inglés), consulta la <strong> [http://www.w3.org/WAI/intro/uaag.php Información general de UAAG]</strong> [inglés].
+*Las <strong>ayudas técnicas</strong> son software o hardware que las personas con discapacidad utilizan para mejorar la interacción con la Web, por ejemplo, los lectores de pantalla que leen en voz alta las páginas web, software de reconocimiento de voz, teclados alternativos, etc (Introducidas en [http://www.w3.org/WAI/intro/people-use-web/browsing.html Herramientas|Técnicas |Diversidad en el uso de la web]) [inglés].
 
 ===Personas - autores de contenido web y usuarios web===
 
