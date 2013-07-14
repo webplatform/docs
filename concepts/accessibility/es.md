@@ -62,7 +62,7 @@ Para que las personas con discapacidad puedan utilizar la Web hay ciertas cosas 
 # Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
 # Contenido <strong>Robusto</strong> e interpretación confiable.<br/>Los requerimientos de accesibilidad incluyen: maximizar la compatibilidad con las herramientas actuales y futuras (navegadores web, ayudas técnicas, etc.)
 
-<strong>Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].<strong>
+<strong>Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].</strong>
 
 Para una corta introducción a tres problemas de accesibilidad web (texto alternativo para imágenes, introducción de datos mediante teclado y transcripciones), visita [http://www.w3.org/standards/webdesign/accessibility#examples Qué: Ejemplos de Accesibilidad Web] [inglés].
 
@@ -111,7 +111,7 @@ Las herramientas que utilizamos para crear y suar el contenido web pueden ayudar
 
 Para que las organizaciones estén dispuestas a hacer la inversión inicial en accesibilidad muchos necesitan comprender los beneficios financieros de la accesibilidad web. Para una introducción al tema, consulta la [http://www.w3.org/WAI/presentations/bcase/Overview.php Presentación &quot;La acesibilidad web es negocio inteligente&quot;] [inglés].
 
-Para aprender más acerca de los factores sociales, técnicos, financieros, legales y de políticas, visita  [http://www.w3.org/WAI/bcase/Overview.html Desarrollando un argumento de negocios para la accesibilidad web en tu organización] [inglés]. Este conjunto de páginas presenta diferentes aspectos de la accesibilidad web junto con orientación en el desarrollo de un argumento de negocios personalizado.
+Para aprender más acerca de los factores sociales, técnicos, financieros, legales y de políticas, visita  [http://www.w3.org/WAI/bcase/Overview.html Desarrollando un argumento de negocios para la accesibilidad web en tu organización] [inglés]. Este conjunto de páginas presenta diferentes aspectos de la accesibilidad web junto con una orientación en el desarrollo de un argumento de negocios personalizado.
 
 Por ejemplo, uno de los aspectos del argumento de negocios es alcanzar a más usuarios, incluidos los usuarios de más edad y los usuarios móviles.
 
