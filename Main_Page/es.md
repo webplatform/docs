@@ -120,9 +120,7 @@ Web Platform Docs es un sitio gestionado por la comunidad que aspira a convertir
   </div>
 
 </div>
-
 <div class="clearfixboth"></div>
-
 
 ==Características de Web Platform Docs==
 
