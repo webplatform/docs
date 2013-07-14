@@ -8,7 +8,7 @@
 {{Summary_Section|Enables access to local devices (video cameras, microphones, Web cams) that can generate multimedia stream data (video, audio, or both).}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[Category:WebRTC]][[Category:API_Objects]]
+|Query=[[Category:media_capture_and_streams]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
@@ -28,17 +28,14 @@ The getUserMedia method takes 3 arguments:
 After calling navigator.getUserMedia the user is asked for permission to let the browser access the camera or the microphone.
 }}
 {{See_Also_Section
-|Manual_links=* [[dom/methods/getUserMedia|getUserMedia()]]
-* [[apis/webrtc|WebRTC]]
-
+|Topic_clusters=WebRTC
 |External_links=* [http://www.w3.org/TR/mediacapture-streams/ Media Capture and Streams API]
 * [http://www.w3.org/TR/2013/WD-mediacapture-streams-20130516/ Media Capture and Streams API - W3C Working Draft 16 May 2013]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/2011/04/webrtc/ WebRTC working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
-* [http://www.w3.org/TR/webrtc/ PeerConnection API] (includes DataChannel)
 }}
-{{Topics}}
+{{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
