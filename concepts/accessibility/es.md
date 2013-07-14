@@ -107,25 +107,27 @@ Las herramientas que utilizamos para crear y suar el contenido web pueden ayudar
 
 <p>For more information on these web content, tools, and people components, see the [http://www.w3.org/WAI/presentations/components/Overview.php &quot;Components of Web Accessibility&quot; Presentation] or [http://www.w3.org/WAI/intro/components.php Essential Components of Web Accessibility].</p>
 
-==Argumento empresarial==
+==Argumento de Negocios==
 
-In order for organizations to be willing to make the initial investment in accessibility, many need to understand the financial benefits of web accessibility. For an introduction, see [http://www.w3.org/WAI/presentations/bcase/Overview.php &quot;Web Accessibility is Smart Business&quot; Presentation].
+Para que las organizaciones estén dispuestas a hacer la inversión inicial en accesibilidad muchos necesitan comprender los beneficios financieros de la accesibilidad web. Para una introducción al tema, consulta la [http://www.w3.org/WAI/presentations/bcase/Overview.php Presentación &quot;La acesibilidad web es negocio inteligente&quot;] [inglés].
 
-To learn more about the social, technical, financial, and legal and policy factors, see [http://www.w3.org/WAI/bcase/Overview.html Developing a Web Accessibility Business Case for Your Organization]. This set of pages presents different aspects of web accessibility along with guidance on developing a customized business case.
+Para aprender más acerca de los factores sociales, técnicos, financieros, legales y de políticas, visita  [http://www.w3.org/WAI/bcase/Overview.html Desarrollando un argumento de negocios para la accesibilidad web en tu organización] [inglés]. Este conjunto de páginas presenta diferentes aspectos de la accesibilidad web junto con orientación en el desarrollo de un argumento de negocios personalizado.
 
-For example, one aspect of the business case is reaching more users, including older users and mobile users.
+Por ejemplo, uno de los aspectos del argumento de negocios es alcanzar a más usuarios, incluidos los usuarios de más edad y los usuarios móviles.
+
 
 ===Usuarios mayores===
 
-<p>Older web users are an increasing market segment and an important target group for many businesses, governments, and other organizations. Many older people have age-related impairments that can affect how they use the Web, such as declining vision, physical ability, hearing, and cognitive ability. These issues overlap with the accessibility needs of people with disabilities. Thus, websites and tools that are accessible to people with disabilities are more accessible to older users as well. For more information, see [http://www.w3.org/WAI/older-users/Overview.php Web Accessibility and Older People: Meeting the Needs of Ageing Web Users].</p>
+Los usuarios de Internet de edad avanzada son un segmento de mercado cada vez mayor y un grupo objetivo importante para muchas empresas  gobiernos y otras organizaciones. Muchas personas mayores tienen discapacidades relacionadas con la edad que pueden afectar la forma en que utilizan la Web, como disminución de la visión, capacidad física, la audición y la capacidad cognitiva. Estos problemas coinciden con las necesidades de accesibilidad de las personas con discapacidad. Por lo tanto, los sitios y herramientas web que son accesibles a las personas con discapacidad también son más accesibles a los usuarios mayores. Para obtener más información, visita [http://www.w3.org/WAI/older-users/Overview.php Accesibilidad web y personas de edad avanzada: Satisfacer las necesidades de usuarios web que envejecen] [inglés].
+
 
 ===La web móvil===
 
-Con el uso mundial de telefonía móvil en su punto más alto, se ha producido un aumento del interés en el desarrollo de sitios web que son accesibles desde un dispositivo móvil. Los usuarios de dispositivos móviles y las personas con discapacidad se enfrentan a barreras similares al interactuar con el contenido web. Los sitios web pueden alcanzar más eficientemente ambos objetivos cuando los desarrolladores entienden la importante superposición entre hacer un sitio web accesible para un dispositivo móvil y para las personas con discapacidad. Para obtener más información, consulta [http://www.w3.org/WAI/mobile/ Accesibilidad del contenido web y la web móvil: Hacer un sitio web accesible tanto para las personas con discapacidad como para los dispositivos móviles] [inglés].
+Con el uso mundial de la telefonía móvil en su punto más alto, se ha producido un aumento del interés en el desarrollo de sitios web que son accesibles desde un dispositivo móvil. Los usuarios de dispositivos móviles y las personas con discapacidad se enfrentan a barreras similares al interactuar con el contenido web. Los sitios web pueden alcanzar más eficientemente ambos objetivos cuando los desarrolladores entienden la importante superposición entre hacer un sitio web accesible para un dispositivo móvil y para las personas con discapacidad. Para obtener más información, consulta [http://www.w3.org/WAI/mobile/ Accesibilidad del contenido web y la web móvil: Hacer un sitio web accesible tanto para las personas con discapacidad como para los dispositivos móviles] [inglés].
 
 ==Aprende más en la WAI del W3C==
 
-La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industria, organizaciones sobre discapacidad, el gobierno y laboratorios de investigación de todo el mundo para desarrollar pautas y recursos que ayuden a hacer la Web accesible para las personas con discapacidad. Te recomendamos revisar el [http://www.w3.org/WAI/ sitio web de la WAI] [Inglés] y buscar más información que te sea útil. Lee  [http://www.w3.org/WAI/yourWAI Encontrando tu ruta hacia nuevos recursos de accesibilidad web] [inglés].
+La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industria, organizaciones sobre discapacidad, gobiernos y laboratorios de investigación de todo el mundo para desarrollar pautas y recursos que ayuden a hacer la Web accesible para las personas con discapacidad. Te recomendamos revisar el [http://www.w3.org/WAI/ sitio web de la WAI] [Inglés] y buscar más información que te sea útil. Lee  [http://www.w3.org/WAI/yourWAI Encontrando tu ruta hacia nuevos recursos de accesibilidad web] [inglés].
 
 
 ==Referencias y reconocimientos==
@@ -138,7 +140,7 @@ Referencias de esta información: La mayor parte del texto de esta página proce
 * [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Mejorando la accesibilidad usando caracteristicas de HTML5] [Inglés]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Mejorando la accesibilidad usando características de ARIA] [Inglés] -- por favor, colocar una pequeña explicación de lo que *es* ARIA
 * [http://www.w3.org/TR/WCAG20-TECHS/ Técnicas de HTML y CSS para cumplir con los criterios de cumplimiento de las WCAG] [Inglés]
-* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer aplicaciones de Windows Store accesibles usando JavaScript y HTML] [Inglés]
+* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer accesibles las aplicaciones de Windows Store usando JavaScript y HTML] [Inglés]
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
