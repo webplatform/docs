@@ -48,27 +48,24 @@ Historias sobre personas que utilizan la Web ayudan a ilustrar las necesidades c
    </ul>
 <p>Más detalles acerca de cómo estas y otras personas con discapacidad utilizan la Web en [http://www.w3.org/WAI/intro/people-use-web/stories Historias de usuarios de la Web] [inglés].</p>
 
-People have a diverse range of abilities that impact how they use the Web. Some people have temporary impairments, some have age-related impairments, some have disabilities from birth, some develop disabilities from injuries or health conditions, and some have multiple disabilities. Some people's abilities change based on fatigue, inflammation, medication, etc. To learn about the diversity of abilities, and about the types of web accessibility barriers that people commonly encounter from poorly designed websites and web tools, see [http://www.w3.org/WAI/intro/people-use-web/diversity Diversity of Web Users].
+La gente tiene una gran variedad de habilidades que afectan la forma en que utilizan la Web. Algunas personas tienen impedimentos temporales, algunos tienen discapacidades relacionadas con la edad, algunos tienen discapacidades desde el nacimiento, algunos desarrollan discapacidades por lesiones o problemas de salud y algunos tienen múltiples discapacidades. Las habilidades de algunas personas cambian dependiendo de la fatiga, inflamación, medicamentos, etc. Para conocer más acerca de la diversidad de capacidades y los tipos de barreras de accesibilidad web que la gente comúnmente enfrenta en los sitios y herramientas web mal diseñados, visita [http://www. w3.org/WAI/intro/people-use-web/diversity diversidad de usuarios de la Web] [inglés]. 
 
-La gente tiene una gran variedad de habilidades que afectan la forma en que utilizan la Web. Algunas personas tienen impedimentos temporales, algunos tienen discapacidades relacionadas con la edad, algunos tienen discapacidades desde el nacimiento, algunos desarrollan discapacidades por lesiones o problemas de salud y algunos tienen múltiples discapacidades. Las habilidades de algunas personas cambian dependiendo de la fatiga, inflamación, medicamentos, etc. Para más información sobre la diversidad de capacidades y sobre los tipos de barreras de accesibilidad web que la gente comúnmente enfrenta en los sitios y herramientas web mal diseñados, visita [http://www. w3.org/WAI/intro/people-use-web/diversity diversidad de usuarios de la Web]. 
-
-Las personas con discapacidad acceden y navegan la Web de diferentes maneras. A veces la gente configura el software y el hardware estándar de acuerdo a sus necesidades y a veces la gente utiliza software o hardware especializado que les ayuda a realizar ciertas tareas. Para más información sobre las técnicas y herramientas que las personas con discapacidad utilizan para interactuar con la Web, tales como la configuración del navegador, conversores de texto a voz y reconocimiento de voz, visita [http://www.w3.org/WAI/intro/people-use-web/browsing  diversidad en el uso de la Web].
+Las personas con discapacidad acceden y navegan la Web de diferentes maneras. A veces la gente configura el software y el hardware estándar de acuerdo a sus necesidades y a veces la gente utiliza software o hardware especializado que les ayuda a realizar ciertas tareas. Para más información sobre las técnicas y herramientas que las personas con discapacidad utilizan para interactuar con la Web, tales como la configuración del navegador, conversores de texto a voz y reconocimiento de voz, visita [http://www.w3.org/WAI/intro/people-use-web/browsing diversidad en el uso de la Web] [inglés].
 <!-- @@ this page title will probably change -- update here when update in the linked document -->
 
 ==Requisitos de accesibilidad==
 
 Para que las personas con discapacidad puedan utilizar la Web hay ciertas cosas que los sitios y herramientas web tienen que hacer. Estos requisitos de accesibilidad cumplen cuatro principios fundamentales:
 
-<ol>
-<li><strong>Perceivable</strong> information and user interface.<br />Accessibility requirements include: providing text alternative for images, providing captions or transcripts for video and audio, and providing sufficient color contrast between text and background.</li>
-<li><strong>Operable</strong> user interface and navigation.<br />Accessibility requirements include: enabling navigation using only a keyboard, providing meaningful hyperlinks, and allowing enough time for users to complete a task.</li>
-<li><strong>Understandable</strong> information and user interface.<br />Accessibility requirements include:  making content readable, providing predictable functionality, and helping users avoid and correct mistakes.</li>
-<li><strong>Robust</strong> content and reliable interpretation.<br />Accessibility requirements include: maximizing compatibility with current and future tools (web browsers, assistive technologies, etc.).</li>
-</ol>
+# Información e interfaz de usuario <strong>Perceptible</strong>.<br/>Los requerimienos de accesibilidad incluyen: proporcionar texto alternativo para las imágenes, proporcionar subtítulos o transcripciones de vídeo y audio y proporcionae suficiente contraste de color entre el texto y el fondo.
+# Interfaz de usuario y navegación <strong>Operable</strong>.<br/>Los requerimientos de accesibilidad incluyen: habilitar la navegación usando únicamente el teclado, proporcionar enlaces con significado y permitir suficiente tiempo para que los usuarios completen una tarea.
+# Ítem de lista numerada
+Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
+# Contenido <strong>Robusto</strong> e interpretación confiable.<br/>Los requerimientos de accesibilidad incluyen: maximizar la compatibilidad con las herramientas actuales y futuras (navegadores web, ayudas técnicas, etc.)
 
-<p><strong>To learn more about these web accessibility principles and requirements, see [http://www.w3.org/WAI/intro/people-use-web/principles Accessibility Principles].</strong></p>
+'''Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].'''
 
-<p>For a short introduction to three web accessibility issues (alternative text for images, keyboard input, and transcripts), see [http://www.w3.org/standards/webdesign/accessibility#examples What: Examples of Web Accessibility].</p>
+Para una corta introducción a tres problemas de accesibilidad web (texto alternativo para imágenes, introducción de datos mediante teclado y transcripciones), visita [http://www.w3.org/standards/webdesign/accessibility#examples Qué: Ejemplos de Accesibilidad Web]
 
 ==ARIA==
 
