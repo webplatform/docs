@@ -68,11 +68,11 @@ Para una corta introducción a tres problemas de accesibilidad web (texto altern
 
 ==ARIA==
 
-"WAI-ARIA describe cómo añadir semántica y otros metadatos al contenido HTML con el fin de hacer los controles de interfaz de usuario y el contenido dinámico más accesible. Por ejemplo, con WAI-ARIA, es posible identificar una lista de enlaces como un menú de navegación e indicar si está expandida o contraída ".
+"WAI-ARIA describe cómo añadir semántica y otros metadatos al contenido HTML con el fin de hacer los controles de interfaz de usuario y el contenido dinámico más accesible. Por ejemplo, con WAI-ARIA es posible identificar una lista de enlaces como un menú de navegación e indicar si está expandido o contraído ".
 
 Para mayor información, dirígete a [http://en.wikipedia.org/wiki/WAI-ARIA en.wikipedia.org/wiki/WAI-ARIA]
 
-Para una introducción a los retos y soluciones de accesibilidad para Aplicaciones Enriquecidas de Internet (RIAs, por sus iniciales en inglés), visita [http://www.w3.org/TR/wai-aria-primer/ Cartilla fundamental de WAI-ARIA 1.0].
+Para una introducción a los retos y soluciones de accesibilidad para las Aplicaciones Enriquecidas de Internet (RIAs, por sus iniciales en inglés), visita [http://www.w3.org/TR/wai-aria-primer/ Cartilla fundamental de WAI-ARIA 1.0].
 
 ==Los componentes de la accesibilidad web==
 
@@ -80,7 +80,7 @@ Los principios de accesibilidad se aplican a los componentes presentados a conti
 
 ===Contenido web===
 
-El contenido es la información disponible en una página o <strong>aplicación</strong> web incluyendo: información natural como texto, imágenes y sonidos,  el código de etiquetado que define la estructura, presentación, interacción, etc. Los requerimientos de contenido se tratan en las Pautas de Accesibilidad para el Contenido Web (<strong>WCAG</strong>).
+El contenido es la información disponible en una página o <strong>aplicación</strong> web incluyendo: información natural como texto, imágenes y sonidos,  el código de etiquetado que define la estructura, presentación, interacción, etc. Los requerimientos de contenido se tratan en las Pautas de Accesibilidad para el Contenido Web (<strong>WCAG</strong>, por sus iniciales en inglés).
 
 Los documentos de las WCAG explican cómo hacer el contenido web (incluyendo las aplicaciones web) más accesible a las personas con discapacidad. Para aprender más acerca de cómo están estructuradas las WCAG y acerca de los documentos de apoyo que ofrecen consejos prácticos para cumplir con los requermientos de accesibilidad, consulta la <strong>[http://www.w3.org/WAI/intro/wcag.php Información general de las WCAG]</strong> [inglés].
 
@@ -89,19 +89,19 @@ Los documentos de las WCAG explican cómo hacer el contenido web (incluyendo las
 Las herramientas que utilizamos para crear y usar el contenido web pueden ayudar o dificultar la accesibildad web.
 
 *Las <strong>herramientas de creación</strong> son software y servicios que se utilizan para crear y editar sitios web, por ejemplo, los sistemas de gestión de contenidos (CMS, por sus iniciales en inglés), editores de HTML, sitios web que permiten a los usuarios agregar contenido (como las redes sociales) y otras herramientas. Las herramientas deben apoyar a las personas en hacer sus contenidos web accesibles y las herramientas, en sí, deben ser accesibles para que las personas con discapacidad puedan utilizarlas. Esto se trata en las Pautas de Accesibilidad para Herramientas de Creación (ATAG, por sus iniciales en inglés), consulta la <strong>[http://www.w3.org/WAI/intro/atag.php Información general de ATAG]</strong> [inglés].
-*Las <strong>Herramientas de evaluación</strong> ayudan a verificar si los sitios web cumplen con las normas. (La información relevante se encuentra en [http://www.w3.org/WAI/eval/selectingtools.html Seleccionar herramientas de evaluación de accesibilidad web] [inglés].)
+*Las <strong>Herramientas de evaluación</strong> ayudan a verificar si los sitios web cumplen con las normas. (La información relevante se encuentra en [http://www.w3.org/WAI/eval/selectingtools.html Seleccionar herramientas de evaluación de accesibilidad web] [inglés]).
 *Los <strong>Navegadores web</strong>, reproductores de medios y otros &quot;agentes de usuario&quot; que acceden a contenidos web se tratan en las Pautas de Accesibilidad para Agentes de Usuario (UAAG, por sus iniciales en inglés), consulta la <strong> [http://www.w3.org/WAI/intro/uaag.php Información general de UAAG]</strong> [inglés].
 *Las <strong>ayudas técnicas</strong> son software o hardware que las personas con discapacidad utilizan para mejorar la interacción con la Web, por ejemplo, los lectores de pantalla que leen en voz alta las páginas web, software de reconocimiento de voz, teclados alternativos, etc (Introducidas en [http://www.w3.org/WAI/intro/people-use-web/browsing.html Herramientas|Técnicas |Diversidad en el uso de la web]) [inglés].
 
 ===Personas - autores de contenido web y usuarios web===
 
-<p>In addition to web content and tools, people are an important component of web accessibility.</p>
+Además del contenido web y las herramientas, las personas son un componente importante de la accesibilidad web.
 
-<p><strong>People who create content</strong> need to understand and implement accessibility. This includes developers, designers, authors, managers, etc., anyone who is involved with developing content (including applications), authoring tools, evaluation tools, browsers and other user agents.</p>
+Las <strong>personas que crean contenidos</strong> deben entender y poner en práctica la accesibilidad. Esto incluye a desarrolladores, diseñadores, escritores, directores, etc. Cualquier persona que esté involucrada en el desarrollo de contenidos (incluidas las aplicaciones), herramientas de creación, herramientas de evaluación, navegadores y otros agentes de usuario
 
-<p><strong>People who use the Web</strong> have different knowledge, experiences, and skill levels that affect accessibility; for example, how well a person knows how to use assistive technologies or adaptive strategies, and if they can get tools to meet their needs.</p>
+Las <strong>personas que utilizan la Web</strong> tienen diferentes conocimientos, experiencias y niveles de habilidad que afectan la accesibilidad, por ejemplo, qué tan bien una persona sabe utilizar las ayudas técnicas o estrategias de adaptación y si pueden obtener herramientas para satisfacer sus necesidades.
 
-<p>For more information on these web content, tools, and people components, see the [http://www.w3.org/WAI/presentations/components/Overview.php &quot;Components of Web Accessibility&quot; Presentation] or [http://www.w3.org/WAI/intro/components.php Essential Components of Web Accessibility].</p>
+Para obtener más información sobre estos componentes de contenidos web, herramientas y personas, consulta la [http://www.w3.org/WAI/presentations/components/Overview.php Presentación &quot;Componentes de la accesibilidad web&quot;] [inglés] o [http://www.w3.org/WAI/intro/components.php Componentes esenciales de la accesibilidad web] [inglés].
 
 ==Argumento de Negocios==
 
@@ -128,7 +128,7 @@ La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industr
 
 ==Referencias y reconocimientos==
 
-Referencias de esta información: La mayor parte del texto de esta página procede de otros documentos que están enlazados dentro de cada sección. Para referencias, por favor, utiliza el documento de origen. (Consulta [http://www.w3.org/WAI/about/usingWAImaterial.html Usando el material de la WAI: Permisos de uso con Reconocimiento] [Inglés].)
+Referencias de esta información: La mayor parte del texto de esta página procede de otros documentos que están enlazados dentro de cada sección. Para referencias, por favor, utiliza el documento de origen. (Consulta [http://www.w3.org/WAI/about/usingWAImaterial.html Usando el material de la WAI: Permisos de uso con Reconocimiento] [Inglés]).
 
 ==Consulta también==
 
