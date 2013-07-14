@@ -121,24 +121,24 @@ For example, one aspect of the business case is reaching more users, including o
 
 ===La web móvil===
 
-Con el uso mundial de telefonía móvil en su punto más alto, se ha producido un aumento del interés en el desarrollo de sitios web que son accesibles desde un dispositivo móvil. Los usuarios de dispositivos móviles y las personas con discapacidad se enfrentan a barreras similares al interactuar con el contenido web. Los sitios web pueden alcanzar más eficientemente ambos objetivos cuando los desarrolladores entienden la importante superposición entre hacer un sitio web accesible para un dispositivo móvil y para las personas con discapacidad. Para obtener más información, consulta [http://www.w3.org/WAI/mobile/ Accesibilidad del contenido web la web móvil: Hacer un sitio web accesible tanto para las personas con discapacidad como para los dispositivos móviles] [inglés].
+Con el uso mundial de telefonía móvil en su punto más alto, se ha producido un aumento del interés en el desarrollo de sitios web que son accesibles desde un dispositivo móvil. Los usuarios de dispositivos móviles y las personas con discapacidad se enfrentan a barreras similares al interactuar con el contenido web. Los sitios web pueden alcanzar más eficientemente ambos objetivos cuando los desarrolladores entienden la importante superposición entre hacer un sitio web accesible para un dispositivo móvil y para las personas con discapacidad. Para obtener más información, consulta [http://www.w3.org/WAI/mobile/ Accesibilidad del contenido web y la web móvil: Hacer un sitio web accesible tanto para las personas con discapacidad como para los dispositivos móviles] [inglés].
 
 ==Aprende más en la WAI del W3C==
 
-La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industria, organizaciones sobre discapacidad, el gobierno y laboratorios de investigación de todo el mundo para desarrollar pautas y recursos que ayuden a hacer la Web accesible para las personas con discapacidad. Te recomendamos revisar el [http://www.w3.org/WAI/ sitio web de la WAI] y buscar más información que te sea útil. Lee  [http://www.w3.org/WAI/yourWAI Encontrando tu ruta hacia nuevos recursos de accesibilidad web] [inglés].
+La Iniciativa de Accesibilidad Web del W3C (WAI) reúne a personas de la industria, organizaciones sobre discapacidad, el gobierno y laboratorios de investigación de todo el mundo para desarrollar pautas y recursos que ayuden a hacer la Web accesible para las personas con discapacidad. Te recomendamos revisar el [http://www.w3.org/WAI/ sitio web de la WAI] [Inglés] y buscar más información que te sea útil. Lee  [http://www.w3.org/WAI/yourWAI Encontrando tu ruta hacia nuevos recursos de accesibilidad web] [inglés].
 
 
 ==Referencias y reconocimientos==
 
-Referencias de esta información: La mayor parte del texto de esta página procede de otros documentos que están enlazados dentro de cada sección. Para referencias, por favor, utiliza el documento de origen. (Consulta [http://www.w3.org/WAI/about/usingWAImaterial.html Usando el material de la WAI: Permisos de uso con Reconocimiento].)
+Referencias de esta información: La mayor parte del texto de esta página procede de otros documentos que están enlazados dentro de cada sección. Para referencias, por favor, utiliza el documento de origen. (Consulta [http://www.w3.org/WAI/about/usingWAImaterial.html Usando el material de la WAI: Permisos de uso con Reconocimiento] [Inglés].)
 
 ==Consulta también==
 
-* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics Esta página se encuentra originalmente en W3C WAI]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Mejorando la accesibilidad usando caracteristicas de HTML5]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Mejorando la accesibilidad usando características de ARIA] -- please a little explanation of what ARIA *is*
-* [http://www.w3.org/TR/WCAG20-TECHS/ Técnicas de HTML y CSS para cumplir con los criterios de cumplimiento de las WCAG]
-* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer aplicaciones de Windows Store accesibles usando JavaScript y HTML]
+* [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics Esta página se encuentra originalmente en W3C WAI] [Inglés]
+* [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Mejorando la accesibilidad usando caracteristicas de HTML5] [Inglés]
+* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Mejorando la accesibilidad usando características de ARIA] [Inglés] -- por favor, colocar una pequeña explicación de lo que *es* ARIA
+* [http://www.w3.org/TR/WCAG20-TECHS/ Técnicas de HTML y CSS para cumplir con los criterios de cumplimiento de las WCAG] [Inglés]
+* [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer aplicaciones de Windows Store accesibles usando JavaScript y HTML] [Inglés]
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
