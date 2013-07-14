@@ -58,9 +58,8 @@ Las personas con discapacidad acceden y navegan la Web de diferentes maneras. A 
 Para que las personas con discapacidad puedan utilizar la Web hay ciertas cosas que los sitios y herramientas web tienen que hacer. Estos requisitos de accesibilidad cumplen cuatro principios fundamentales:
 
 # Información e interfaz de usuario <strong>Perceptible</strong>.<br/>Los requerimienos de accesibilidad incluyen: proporcionar texto alternativo para las imágenes, proporcionar subtítulos o transcripciones de vídeo y audio y proporcionae suficiente contraste de color entre el texto y el fondo.
-# Interfaz de usuario y navegación <strong>Operable</strong>.<br/>Los requerimientos de accesibilidad incluyen: habilitar la navegación usando únicamente el teclado, proporcionar enlaces con significado y permitir suficiente tiempo para que los usuarios completen una tarea.
-# Ítem de lista numerada
-Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
+# Interfaz de usuario y navegación <strong>Operable</strong>.<br/>Los requerimientos de accesibilidad incluyen: habilitar la navegación mediante uso exclusivo del teclado, proporcionar enlaces con significado y permitir suficiente tiempo para que los usuarios completen una tarea.
+# Información e interfaz de usuario <strong>Comprensible</strong>.<br/>Los requerimientos de accesibilidad incluyen: hacer el contenido fácil de leer, proporcionar funcionalidades predecibles y ayudar a los usuarios a evitar y corregir errores.
 # Contenido <strong>Robusto</strong> e interpretación confiable.<br/>Los requerimientos de accesibilidad incluyen: maximizar la compatibilidad con las herramientas actuales y futuras (navegadores web, ayudas técnicas, etc.)
 
 '''Para conocer más acerca de estos principios y requerimientos de accesibilidad web, visita [http://www.w3.org/WAI/intro/people-use-web/principles Principios de Accesibilidad] [inglés].'''
@@ -69,11 +68,10 @@ Para una corta introducción a tres problemas de accesibilidad web (texto altern
 
 ==ARIA==
 
-<p>
 "WAI-ARIA describes how to add semantics and other metadata to HTML content in order to make user interface controls and dynamic content more accessible. For example, with WAI-ARIA it is possible to identify a list of links as a navigation menu and to state whether it is expanded or collapsed." 
 For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA en.wikipedia.org/wiki/WAI-ARIA]
-</p>
-<p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
+
+For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].
 
 ==Los componentes de la accesibilidad web==
 
