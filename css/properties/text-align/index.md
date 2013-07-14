@@ -18,7 +18,7 @@
 |Description=The same as ''<code>left</code>'' if direction is left-to-right and ''<code>right</code>'' if direction is right-to-left.
 }}{{CSS Property Value
 |Data Type=end
-|Description=The same as ''<code>right</code>'' if direction is left-to-right and ''<code>left</code>'' if direction is right-to-left. 
+|Description=The same as ''<code>right</code>'' if direction is left-to-right and ''<code>left</code>'' if direction is right-to-left.
 }}{{CSS Property Value
 |Data Type=left
 |Description=The inline contents are aligned to the left edge of the line box.
@@ -49,7 +49,7 @@
 |Description=This just shows the four possible types of text-alignment.
 |Code=&lt;p class="left"&gt; This paragraph is aligned to the left. &lt;/p&gt;
 
-&lt;p class="cenetered"&gt; This paragraph is ceneterd. &lt;/p&gt;
+&lt;p class="centered"&gt; This paragraph is centered. &lt;/p&gt;
 
 &lt;p class="right"&gt; This paragraph is aligned to the right. &lt;/p&gt;
 
