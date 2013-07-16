@@ -1,8 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
-|Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
