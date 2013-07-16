@@ -1,12 +1,14 @@
 {{Page_Title|HTML5 hybrid applications}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section|A hybrid app is a native mobile app that is built using the web platform that use a native ‘shell’ to wrap the web content.  Hybrid apps are installed through an app store, run on the device and provide access to enhanced native device hardware, but are written primarily using HTML, CSS and JavaScript.  Instead of using the native SDK to create the application, hybrid apps typically wrap a web application with a native web view controller full screen, without the address bar or other normal browser controls.}}
+{{Summary_Section|A hybrid app is a native mobile app that is built using the web platform that uses a native ‘shell’ to wrap the web content.  Hybrid apps are installed through an app store, run on the device and provide access to enhanced native device hardware, but are written primarily using HTML, CSS and JavaScript.  Instead of using the native SDK to create the application, hybrid apps typically wrap a web application with a native web view controller full screen, without the address bar or other normal browser controls.}}
 {{Concept_Page
 |Content==What is a hybrid mobile app?=
 A hybrid app is a native mobile app that uses a native ‘shell’ to wrap web content.  Hybrid apps are installed through an app store, run on the device and provide access to enhanced native device hardware, but are written primarily using HTML, CSS and JavaScript.  Instead of using the native SDK to create the application, hybrid apps typically wrap a web application with a native web view controller full screen, without the address bar or other normal browser controls.
 
-Frameworks like Cordova (formerly PhoneGap) or Titanium have made development of hybrid apps much simpler by providing an easy to use template for the native app and a web-to-native abstraction layer that allows JavaScript access to the native APIs provided by the platform.
+Frameworks like Cordova (formerly PhoneGap) or Titanium have made development of hybrid apps much simpler by providing an easy-to-use template for the native app and a web-to-native abstraction layer that allows JavaScript access to the native APIs provided by the platform.
 
 =Why does building a hybrid app makes sense?=
 There are many reasons why building a hybrid application makes sense, such as native app store distribution, or access to native APIs that aren’t available to mobile web apps.
