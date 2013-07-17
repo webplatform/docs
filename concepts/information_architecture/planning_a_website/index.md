@@ -8,7 +8,7 @@
 {{Summary_Section|Common steps to planning a website before you start coding.}}
 {{Concept_Page
 |Content=The normal process behind planning a website is:
-# Have an idea for the sites content.  Sorry, but we can't help here.
+# Have an idea for the site's content.  Sorry, but we can't help here.
 # Wireframe the site's layout
 # Start designing the site
 # Build the site's front-end
