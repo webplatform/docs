@@ -1,5 +1,7 @@
 {{Page_Title|Styling XML data with CSS}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article shows how you can use CSS to style XML data.}}
 {{Tutorial
@@ -45,7 +47,7 @@ For more information about XML in Mozilla, see the [[XML]] page in this wiki.
 <li>
 <p>Make a new XML file, <code>doc9.xml</code>. Copy and paste the content from here, making sure that you scroll to get all of it:</p>
   
-<pre>
+<pre><code class="lang-markup">
 &lt;?xml version="1.0"?&gt;
 &lt;!-- XML demonstration --&gt;
 
@@ -84,12 +86,12 @@ For more information about XML in Mozilla, see the [[XML]] page in this wiki.
 &lt;depth&gt;4,500&lt;/depth&gt;
 &lt;/ocean&gt;
 
-&lt;/planet&gt;</pre>
+&lt;/planet&gt;</code></pre>
 </li>
 <li>
 <p>Make a new CSS file, <code>style9.css</code>. Copy and paste the content from here, making sure that you scroll to get all of it:</p>
   
-<pre>/*** XML demonstration ***/
+<pre><code class="lang-css">/*** XML demonstration ***/
 
 planet:before {
   display: block;
@@ -143,7 +145,7 @@ depth:before {
 
 depth:after {
   content: " m";
-}</pre>
+}</code></pre>
 </li>
 <li>
 <p>Open the document in your browser:</p>
@@ -154,8 +156,10 @@ Notes about this demonstration:
 * The superscript 2 (in "million km²") a Unicode character, coded as <code>\B2</code> in the CSS file.
 * The heading, "Oceans", has a negative top margin, moving it up so it is displayed on top of the border.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
