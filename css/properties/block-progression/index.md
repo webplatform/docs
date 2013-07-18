@@ -41,7 +41,12 @@ This property is based on the block-progression property of the [http://go.micro
 There are no standards that apply here.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Level 3
+|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/#block-progression
+|Status=[Obsolete] W3C Candidate Recommendation
+|Relevant_changes=Property was dropped in newer drafts
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
