@@ -19,7 +19,7 @@ Data in an XML document uses <code>&lt;INFO&gt;</code> tags. You want the docume
         
 In the document's stylesheet, you specify how INFO elements are to be displayed:
 
-<pre>INFO {
+<pre class="lang-css">INFO {
   display: block;
   margin: 1em 0;
 }</pre>
