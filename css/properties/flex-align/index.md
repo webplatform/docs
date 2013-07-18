@@ -6,9 +6,9 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Obsolete, do not use. This property has been renamed to [[align-items]].
+{{Summary_Section|Obsolete, do not use. This property has been renamed to [[css/properties/align-items|'''align-items''']].
 
-Specifies the alignment (perpendicular to the layout axis defined by the [[flex-direction property]]) of child elements of the object.
+Specifies the alignment (perpendicular to the layout axis defined by the [[css/properties/flex-direction|'''flex-direction''']] property) of child elements of the object.
 }}
 {{CSS Property
 |Initial value=stretch
@@ -18,14 +18,14 @@ Specifies the alignment (perpendicular to the layout axis defined by the [[flex-
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=start
-|Description=If the parent element has a computed value for [[css/properties/ms-flex-direction|'''-ms-flex-direction''']] of <code>row</code> or <code>column</code>, the leading edge (or baseline) of each child element is aligned with the leading edge of the object. Any remaining space, perpendicular to the layout axis, is placed after the trailing edge of each child element.
+|Description=If the parent element has a computed value for [[css/properties/flex-direction|'''flex-direction''']] of <code>row</code> or <code>column</code>, the leading edge (or baseline) of each child element is aligned with the leading edge of the object. Any remaining space, perpendicular to the layout axis, is placed after the trailing edge of each child element.
 
 If the parent element has a computed value for [[css/properties/ms-flex-direction|'''-ms-flex-direction''']] of <code>row-reverse</code> or <code>column-reverse</code>, the trailing edge (or baseline) of each child element is aligned with the trailing edge of the object. Any remaining space, perpendicular to the layout axis, is placed before the leading edge of each child element.
 }}{{CSS Property Value
 |Data Type=end
-|Description=If the parent element has a computed value for [[css/properties/ms-flex-direction|'''-ms-flex-direction''']] of <code>row</code> or <code>column</code>, the trailing edge of each child element is aligned with the trailing edge of the object. Any remaining space, perpendicular to the layout axis, is placed before the leading edge of each child element.
+|Description=If the parent element has a computed value for [[css/properties/ms-flex-direction|'''flex-direction''']] of <code>row</code> or <code>column</code>, the trailing edge of each child element is aligned with the trailing edge of the object. Any remaining space, perpendicular to the layout axis, is placed before the leading edge of each child element.
 
-If the parent element has a computed value for [[css/properties/ms-flex-direction|'''-ms-flex-direction''']] of <code>row-reverse</code> or <code>column-reverse</code>, the leading edge of each child element is aligned with the leading edge of the object. Any remaining space, perpendicular to the layout axis, is placed after the trailing edge of each child element.
+If the parent element has a computed value for [[css/properties/flex-direction|'''flex-direction''']] of <code>row-reverse</code> or <code>column-reverse</code>, the leading edge of each child element is aligned with the leading edge of the object. Any remaining space, perpendicular to the layout axis, is placed after the trailing edge of each child element.
 }}{{CSS Property Value
 |Data Type=center
 |Description=Each child element is centered between the leading and trailing edges of the object. Any remaining space, perpendicular to the layout axis, is evenly distributed before and after each child.
@@ -34,7 +34,7 @@ If the parent element has a computed value for [[css/properties/ms-flex-directio
 |Description=Initial value. Each child element is stretched to completely fill the space that is available perpendicular to the layout axis. If set, the [[css/properties/max-width|'''max-width''']] or [[css/properties/max-height|'''max-height''']] property for a child element takes precedence and layout follows the  <code>start</code> rule.
 }}{{CSS Property Value
 |Data Type=baseline
-|Description=The baselines (leading edge or trailing edge depending on the [[css/properties/ms-flex-direction|'''-ms-flex-direction''']] property)  of all child elements are aligned with each other. 
+|Description=The baselines (leading edge or trailing edge depending on the [[css/properties/flex-direction|'''-ms-flex-direction''']] property)  of all child elements are aligned with each other. 
 
 The child element that occupies the most space, perpendicular to the layout axis, follows the <code>start</code> rule; the baselines of all remaining elements are then aligned with the baseline of this element.
 }}
