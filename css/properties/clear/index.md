@@ -69,13 +69,13 @@ function fnClear2(){
 }}
 }}
 {{Notes_Section
-|Notes=The '''clear''' property applies to both [[css/properties/float|floating]] and non-floating elements.
+|Notes=<div class='license-cc-by-sa'>The '''clear''' property applies to both [[css/properties/float|floating]] and non-floating elements.
 
 When applied to non-floating blocks, it moves the [[css/properties/border|border]] edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
 
 When applied to floating elements, it moves the margin edge of the element below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
 
-The floats that are relevant to be cleared are the earlier floats within the same block formatting context.
+The floats that are relevant to be cleared are the earlier floats within the same block formatting context.</div>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
