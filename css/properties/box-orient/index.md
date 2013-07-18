@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
@@ -36,14 +36,16 @@ Child elements are displayed along the inline axis.
 |Examples=
 }}
 {{Notes_Section
-|Usage=Do not use. This property has been replaced by the [[-ms-flex-direction]] property, and is no longer recognized by Windows Internet Explorer. To ensure compatibility in the future, applications using this property should be updated accordingly. Gets or sets a value that specifies the orientation in the layout of all child elements of the object.
-|Import_Notes====Syntax===
-<code>'''&#150;ms-box-orient: '''horizontal '''{{!}}''' vertical '''{{!}}''' inline-axis '''{{!}}''' block-axis '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 2
+|Usage=Do not use. This property has been replaced by [[-ms-flex-direction]]
+
+Specifies the orientation in the layout of all child elements of the object.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+|Status=W3C Working Draft (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -53,7 +55,8 @@ Child elements are displayed along the inline axis.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+|Topic_clusters=CSS Layout
+|Manual_sections====Related pages ===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
