@@ -47,7 +47,11 @@ This property is read/write.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+|Status=W3C Working Draft (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
