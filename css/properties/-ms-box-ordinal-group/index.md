@@ -1,1 +1,0 @@
-#REDIRECT [[css/properties/box-ordinal-group]]
