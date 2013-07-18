@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[-ms-flex-direction property]]) of child elements of the object.}}
+{{Summary_Section|Obsolete, do not use. This property has been renamed to [[align-items]].
+
+Specifies the alignment (perpendicular to the layout axis defined by the [[flex-direction property]]) of child elements of the object.
+}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=flexbox elements
@@ -40,15 +43,13 @@ The child element that occupies the most space, perpendicular to the layout axis
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Usage=This property is read/write.
-|Import_Notes====Syntax===
-<code>'''-ms-flex-align: '''start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' baseline '''{{!}}''' stretch</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 8.2
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2012/WD-css3-flexbox-20120322/
+|Status=W3C Working Draft (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -58,8 +59,7 @@ The child element that occupies the most space, perpendicular to the layout axis
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Topic_clusters=CSS Layout
 }}
 {{Topics|CSS}}
 {{External_Attribution
