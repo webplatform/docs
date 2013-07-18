@@ -34,11 +34,13 @@ This property is read/write.
 <code>'''-ms-box-flex: '''''
 &lt;integer&gt;
 ''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 5
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+|Status=W3C Working Draft (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -48,6 +50,7 @@ This property is read/write.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=CSS Layout
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
