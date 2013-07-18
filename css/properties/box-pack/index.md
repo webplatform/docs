@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Deprecated}}
+{{Summary_Section|Do not use. This property has been replaced by [[flex-pack]].}}
 {{CSS Property
 |Initial value=start
 |Applies to=box elements
@@ -33,16 +33,14 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Do not use. This property has been replaced by the [[-ms-flex-pack property]], and is no longer recognized by Windows Internet Explorer.
-
 Be aware that these are [[css/properties/writing-mode|'''writing-mode''']] dependent keywords; the starting and ending edges of the parent element and child elements depend on the layout direction. For instance, for a left-to-right layout, the starting edge is the left edge of the parent element, for a top-to-bottom layout the starting edge is the top edge, and so on. Likewise, the ending edge of a child element is the right edge in a left-to-right layout, the bottom edge in a top-to-bottom layout, and so on.
-|Import_Notes====Syntax===
-<code>'''&#150;ms-box-pack: '''start '''{{!}}''' end '''{{!}}''' center '''{{!}}''' justify</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223142 Flexible Box Layout Module], Section 6
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Flexible Box Layout Module
+|URL=http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
+|Status=W3C Working Draft (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -52,7 +50,8 @@ Be aware that these are [[css/properties/writing-mode|'''writing-mode''']] depen
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+|Topic_clusters=CSS Layout
+|Manual_sections====Related pages ===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
 {{Topics|CSS}}
