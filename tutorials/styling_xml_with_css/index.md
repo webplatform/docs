@@ -47,7 +47,7 @@ For more information about XML in Mozilla, see the [[XML]] page in this wiki.
 <li>
 <p>Make a new XML file, <code>doc9.xml</code>. Copy and paste the content from here, making sure that you scroll to get all of it:</p>
   
-<pre><code class="lang-markup">
+<pre class="lang-markup">
 &lt;?xml version="1.0"?&gt;
 &lt;!-- XML demonstration --&gt;
 
@@ -86,12 +86,12 @@ For more information about XML in Mozilla, see the [[XML]] page in this wiki.
 &lt;depth&gt;4,500&lt;/depth&gt;
 &lt;/ocean&gt;
 
-&lt;/planet&gt;</code></pre>
+&lt;/planet&gt;</pre>
 </li>
 <li>
 <p>Make a new CSS file, <code>style9.css</code>. Copy and paste the content from here, making sure that you scroll to get all of it:</p>
   
-<pre><code class="lang-css">/*** XML demonstration ***/
+<pre class="lang-css">/*** XML demonstration ***/
 
 planet:before {
   display: block;
@@ -145,7 +145,7 @@ depth:before {
 
 depth:after {
   content: " m";
-}</code></pre>
+}</pre>
 </li>
 <li>
 <p>Open the document in your browser:</p>
