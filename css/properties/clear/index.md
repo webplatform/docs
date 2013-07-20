@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |Content=Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''clear''' CSS property specifies whether an element can be next to [[css/properties/float|floating]] elements that precede it or must be moved down (cleared) below them.}}
+{{Summary_Section|The '''clear''' CSS property specifies if an element can be positioned next to or must be positioned below the [[css/properties/float|floating]] elements that precede it in the markup. }}
 {{CSS Property
 |Initial value=none
 |Applies to=Block-level elements
@@ -17,7 +17,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=No constraint on the box's position with respect to floats.
+|Description=May have adjacent floats on both the left and right sides.
 }}{{CSS Property Value
 |Data Type=left
 |Description=Requires that the top border edge of the box be below the bottom outer edge of any left-floating boxes that resulted from elements earlier in the source document.
