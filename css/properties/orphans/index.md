@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|In typography terms, an orphan is the first line of a paragraph that is left behind on the old page while the paragraph continues on the next. The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the old page. This property is normally used to control how page breaks occur. This property only affects paged media such as print.
 For example, if a paragraph can't fit on one page in its entirety it is split wherever it is possible. In this way single lines of a paragraph can appear on page before it continues on the next page. This is usually unwanted, so many word processors require at least two lines to be left on an old page, instead of one. You can give it either a positive number (where 2 is the default) or inherit.
