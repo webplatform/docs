@@ -4,7 +4,7 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The widows CSS property defines how many minimum lines must be left on top of a new page, on a paged media. In typography, a widow is the last line of a paragraph appearing alone at the top of a page. Setting the widows property allows to prevent widows to be left.
 
@@ -74,7 +74,7 @@ property has precedence over the
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
