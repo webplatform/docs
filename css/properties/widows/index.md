@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The widows CSS property defines how many minimum lines must be left on top of a new page, on a paged media. In typography, a widow is the last line of a paragraph appearing alone at the top of a page. Setting the widows property allows to prevent widows to be left.
+{{Summary_Section|Defines the minimum number of lines that can appear in the beginning of a new page. In typography, a widow is the last line of a paragraph appearing alone at the top of a page, which is considered to look awkward. Setting the widows property to an integer higher than 1 prevents this.
 
 On a non-paged media, like screen, the widows CSS property has no effect.
 It can have a number value or it can inherit the values from the parent element.
@@ -30,42 +30,34 @@ It can have a number value or it can inherit the values from the parent element.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=CSS
 |Description=The following style rule ensures that at least three lines
 of a paragraph appear at the bottom and top of each printed document.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-@media print {
+|Code=@media print {
     p {
-        widows:3;
-        orphans:3;
+        widows: 3;
+        orphans: 3;
     }
 }
-&lt;/style&gt;
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-This property applies when the document is printed.
-If there are fewer lines than necessary to satisfy this rule,
-the lines are moved to the following page. The
-'''widows'''
-property has precedence over the
-[[css/properties/orphans|'''orphans''']] property.
+The '''widows''' property takes precedence over [[css/properties/orphans|'''orphans''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fragmentation Module Level 3
-|URL=http://dev.w3.org/csswg/css-break/#widows-orphans
-|Status=Working Draft
+|URL=http://www.w3.org/TR/css3-break/#widows-orphans
+|Status=W3C Working Draft
 }}{{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://dev.w3.org/csswg/css-multicol/#filling-columns
-|Status=Candidate Reccomendation
+|Status=W3C Candidate Reccomendation
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/page.html#break-inside
-|Status=Recommendation
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -78,11 +70,11 @@ property has precedence over the
 |Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Unknown
 |Opera_version=
