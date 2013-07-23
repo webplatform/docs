@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the width of columns in multi-column elements}}
+{{Summary_Section|Specifies the width of columns in multi-column elements.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
