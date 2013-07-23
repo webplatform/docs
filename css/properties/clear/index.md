@@ -36,6 +36,34 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Example of <code>clear:none;</code> in use.
+|Code=p{
+   clear: none;
+}
+|LiveURL=http://code.webplatform.org/gist/6042258
+}}{{Single Example
+|Language=CSS
+|Description=Example of <code>clear: left;</code> in use.
+|Code=p{
+   clear: left;
+}
+|LiveURL=http://code.webplatform.org/gist/6065677
+}}{{Single Example
+|Language=CSS
+|Description=Example of <code>clear: right;</code> in use.
+|Code=p{
+   clear: right;
+}
+|LiveURL=http://code.webplatform.org/gist/6065820
+}}{{Single Example
+|Language=CSS
+|Description=Example of <code>clear: both;</code> in use.
+|Code=p{
+   clear: both;
+}
+|LiveURL=http://code.webplatform.org/gist/6065831
+}}{{Single Example
+|Language=CSS
 |Description=Check the live example to see how these classes are applied to headlines.
 |Code=.left {
 	border: 1px solid black;
