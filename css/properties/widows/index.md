@@ -30,6 +30,7 @@ It can have a number value or it can inherit the values from the parent element.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following style rule ensures that at least three lines
 of a paragraph appear at the bottom and top of each printed document.
 |Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
@@ -47,16 +48,10 @@ of a paragraph appear at the bottom and top of each printed document.
 |Notes====Remarks===
 This property applies when the document is printed.
 If there are fewer lines than necessary to satisfy this rule,
-the lines are moved to the following document. The
+the lines are moved to the following page. The
 '''widows'''
 property has precedence over the
 [[css/properties/orphans|'''orphans''']] property.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''widows: '''integer</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -99,17 +94,21 @@ IE8 Standards mode rendering.
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
 |External_links=http://xhtml.com/en/css/reference/widows/
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages ===
+*<code>[[css/properties/orphans|orphans]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/orphans|orphans]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
