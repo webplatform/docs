@@ -30,33 +30,20 @@ A '''String''' that specifies or receives the minimum number of lines to print a
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following style rule ensures that at least three lines
 of a paragraph appear at the bottom and top of each printed page.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-@media print {
+|Code=@media print {
     p {
         widows:3;
         orphans:3;
     }
 }
-&lt;/style&gt;
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-This property applies when the document is printed. If there are
-fewer lines than necessary to satisfy this rule, the lines are
-moved to the following page. The
-[[css/properties/widows|'''widows''']]
-attribute takes precedence over the
-'''orphans''' attribute.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''orphans: '''integer</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3
+The [[css/properties/widows|'''widows''']] property takes precedence over '''orphans'''.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -74,16 +61,20 @@ IE8 Standards mode rendering.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages ===
+*<code>[[css/properties/widows|widows]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/widows|widows]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
