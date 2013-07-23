@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
