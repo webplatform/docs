@@ -47,13 +47,17 @@ The [[css/properties/widows|'''widows''']] property takes precedence over '''orp
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/page.html#propdef-orphans
-|Status=Reccomendation
+|Name=CSS Fragmentation Module Level 3
+|URL=http://www.w3.org/TR/css3-break/#widows-orphans
+|Status=W3C Working Draft
 }}{{Related Specification
 |Name=CSS Paged Media Module Level 3
 |URL=http://dev.w3.org/csswg/css-page/#orphans
-|Status=Working Draft
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/page.html#propdef-orphans
+|Status=W3C Reccomendation
 }}
 }}
 {{Compatibility_Section
