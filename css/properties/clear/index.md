@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''clear''' CSS property specifies if an element can be positioned next to or must be positioned below the [[css/properties/float|floating]] elements that precede it in the markup. }}
+{{Summary_Section|The '''clear''' CSS property specifies if an element can be positioned next to or must be positioned below the [[css/properties/float|floating]] elements that precede it in the markup.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Block-level elements
@@ -20,13 +20,13 @@
 |Description=May have adjacent floats on both the left and right sides.
 }}{{CSS Property Value
 |Data Type=left
-|Description=Requires that the top border edge of the box be below the bottom outer edge of any left-floating boxes that resulted from elements earlier in the source document.
+|Description=Floated elements that precede the cleared element are not allowed to the left of the cleared element. The cleared element must move below the floated element.
 }}{{CSS Property Value
 |Data Type=right
-|Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating boxes that resulted from elements earlier in the source document.
+|Description=Floated elements that precede the cleared element are not allowed to the right of the cleared element. The cleared element must move below the floated element.
 }}{{CSS Property Value
 |Data Type=both
-|Description=Requires that the top border edge of the box be below the bottom outer edge of any right-floating and left-floating boxes that resulted from elements earlier in the source document.
+|Description=Floated elements that precede the cleared element are not allowed to be adjacent to the cleared element. The cleared element must move below the floated elements.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
