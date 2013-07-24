@@ -94,6 +94,17 @@ function fnClear2(){
         &lt;input type{{=}}"button" value{{=}}"clear {{=}} none" onclick{{=}}"fnClear2()"&gt;
     &lt;/p&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clear_s.htm
+}}{{Single Example
+|Language=HTML
+|Description=Moving a footer below all floated content above.
+|Code=<h1>Clearing Floats</h1>
+<!-- Note that it is a good practice to have your floated items precede the elements they are floated around. -->
+<div id="box"><code>float:left</code></div>
+<p>Paragraphs are typically <code>clear: none;</code> by default, and are frequently used in conjuction with a floated image. In this example,
+pretend the black box labeled <code>float:left;</code> is an image floated left. </p>
+<p><a href="javascript:void()" id="toggleClear">Toggle the clear settings on the footer</a></p>
+<footer id="footer">This is a footer.</footer>
+|LiveURL=http://code.webplatform.org/gist/6072801
 }}
 }}
 {{Notes_Section
