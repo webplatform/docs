@@ -44,31 +44,24 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
  }
  
  .child {   
-   border: 30px solid rgba(0,0,0,0.5); 
-   float: left;
-   padding: 3rem;
-   background: blue;
-   width: 50%;
-   height: 100px;
-
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+	border: 30px solid rgba(0,0,0,0.5); 
+	float: left;
+	padding: 3rem;
+	background: blue;
+	width: 50%;
+	height: 100px;
+	box-sizing: border-box;
  }
 |LiveURL=http://code.webplatform.org/gist/5496267
 }}{{Single Example
 |Language=CSS
 |Description=Input elements with type <code>search</code> are rendered with <code>border-box</code> in Safari 5 and Chrome. You can normalize this behavior across all browsers using the following code.
 |Code=input[type="search"] {
-	-webkit-box-sizing: content-box;
-	        box-sizing: content-box;
+	box-sizing: content-box;
 }
 }}
 }}
-{{Notes_Section
-|Notes=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
-* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Basic User Interface Module Level 3
@@ -195,7 +188,10 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Visual Effects
+|Topic_clusters=Box Model
+|Manual_links=* [http://docs.webplatform.org/wiki/tutorials/box_model WebPlatform.org tutorial on Box Model]
+|External_links=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
+* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
 }}
 {{Topics|CSS}}
 {{External_Attribution
