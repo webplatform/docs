@@ -4,10 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.
-
-[[File:slice.png|slicing]]
-}}
+{{Summary_Section|The border-image-slice CSS property divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.}}
 {{CSS Property
 |Initial value=100%
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
@@ -75,7 +72,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left.
+|Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left. [[File:slice.png|slicing]]
 * If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom slice-lines, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom slice-lines, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 }}
 {{Related_Specifications_Section
