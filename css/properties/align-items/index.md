@@ -112,7 +112,9 @@
 |LiveURL=http://code.webplatform.org/gist/4745341
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This property was named '''flex-align''' in older drafts.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
