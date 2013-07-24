@@ -84,41 +84,24 @@
 }
 
 .flex-end {
-  -webkit-justify-content: flex-end;
-     -moz-justify-content: flex-end;
-      -ms-justify-content: flex-end;
-       -o-justify-content: flex-end;
-          justify-content: flex-end; 
+    justify-content: flex-end; 
 }
 
 .justifycenter {
-  -webkit-justify-content: center;
-     -moz-justify-content: center;
-      -ms-justify-content: center;
-       -o-justify-content: center;
-          justify-content: center; 
+    justify-content: center; 
 }
 
 .space-around {
-  -webkit-justify-content: space-around;
-     -moz-justify-content: space-around;
-      -ms-justify-content: space-around;
-       -o-justify-content: space-around;
-          justify-content: space-around; 
+    justify-content: space-around; 
 }
 
 .space-between {
-  -webkit-justify-content: space-between;
-     -moz-justify-content: space-between;
-      -ms-justify-content: space-between;
-       -o-justify-content: space-between;
-          justify-content: space-between; 
+    justify-content: space-between; 
 }
 |LiveURL=http://code.webplatform.org/gist/5842739
 }}{{Single Example
 |Language=HTML
-|Code=
-&lt;p&gt;justify-content: flex-start&lt;/p&gt;
+|Code=&lt;p&gt;justify-content: flex-start&lt;/p&gt;
 &lt;div class="container flex-start"&gt;
   &lt;div class="first-item"&gt;first-item&lt;/div&gt;
   &lt;div class="second-item"&gt;second-item&lt;/div&gt;
@@ -148,10 +131,11 @@
   &lt;div class="second-item"&gt;second-item&lt;/div&gt;
   &lt;div class="third-item"&gt;third-item&lt;/div&gt;
 &lt;/div&gt;
-
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This property was named '''flex-pack''' in earlier drafts.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
