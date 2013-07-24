@@ -1,3 +1,4 @@
+#REDIRECT [[css/properties/justify-content]]
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
