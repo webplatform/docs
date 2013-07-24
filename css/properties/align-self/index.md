@@ -57,7 +57,8 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 }}
 }}
 {{Notes_Section
-|Notes=This property will have no effect if the flex-item's cross axis margins are set to auto.
+|Notes=* This property will have no effect if the flex-item's cross axis margins are set to auto.
+* This property was named '''flex-item-align''' in older drafts.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
