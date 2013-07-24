@@ -27,9 +27,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=This property was formerly named '''region-overflow'''.
-
-In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
+|Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
 
 [[Image:region_fragment.png]]
 
@@ -38,6 +36,7 @@ Setting '''region-fragment''' to '''break''' suppresses display of the overset t
 The property only applies to the final element in a ''region chain'' that is not large enough to accomodate remaining content. To behave as a ''region'', the element's [[css/properties/flow-from|'''flow-from''']] must specify a named flow, and display content from a corresponding [[css/properties/flow-into|'''flow-into''']].
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
+|Notes=This property was formerly named '''region-overflow'''.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
