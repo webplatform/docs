@@ -1,5 +1,7 @@
 {{Page_Title|region-fragment}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Controls whether the last ''region'' in a chain displays additional ''overset'' content according its default [[css/properties/overflow|'''overflow''']] property, or	if it displays a fragment of content as if it were flowing into a subsequent region.}}
@@ -25,7 +27,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
+|Usage=This property was formerly named '''region-overflow'''.
+
+In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
 
 [[Image:region_fragment.png]]
 
