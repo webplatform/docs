@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''align-self''' property allows the default alignment to be overridden for individual flex items.}}
+{{Summary_Section|Allows the default alignment to be overridden for individual flex items.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=flex items
