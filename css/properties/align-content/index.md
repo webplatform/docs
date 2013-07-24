@@ -39,27 +39,12 @@
 |Language=CSS
 |Description=Spacing lines within a multi-line flex container. Change the values in the live example.
 |Code=.container {
-  display: -webkit-flex;
-  display:    -moz-flex;
-  display:     -ms-flex;
-  display:      -o-flex;
-  display:         flex;
-  
-  -webkit-flex-flow: row wrap;
-     -moz-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-       -o-flex-flow: row wrap;
-          flex-flow: row wrap;
-          
-  -webkit-align-content: space-around; /*  values: flex-start, flex-end, center, space-between, space-around, stretch */ 
-     -moz-align-content: space-around;
-      -ms-align-content: space-around;
-       -o-align-content: space-around;
-          align-content: space-around;
-  
-  width: 400px;
-  height: 200px;
-  background: #CCC;
+    display:         flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    width: 400px;
+    height: 200px;
+    background: #CCC;
 }
 
 .container div {
@@ -86,7 +71,8 @@
 }}
 }}
 {{Notes_Section
-|Notes=This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines can ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
+|Notes=* This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines can ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
+* This property was named '''flex-line-pack''' in earlier drafts.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
