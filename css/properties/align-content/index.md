@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''align-content''' property aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how [[css/properties/justify-content|justify-content]] aligns individual items within the main-axis.}}
+{{Summary_Section|Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how [[css/properties/justify-content|justify-content]] aligns individual items within the main-axis.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=multi-line flex containers
