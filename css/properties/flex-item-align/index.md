@@ -1,3 +1,4 @@
+#REDIRECT [[css/properties/align-self]]
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
