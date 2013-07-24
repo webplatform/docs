@@ -47,7 +47,9 @@ nav { order: 1; }
 aside { order: 3; }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This property was previously named '''flex-order''' in earlier drafts.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
