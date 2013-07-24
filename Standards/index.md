@@ -26,3 +26,6 @@ The [[Standards/ISO|International Organization for Standardization (ISO)]] is a 
 
 ===[[Standards/WHATWG|WHATWG]]===
 While not a formal standards organization, the [[Standards/WHATWG|Web Hypertext Application Technology Working Group (WHATWG)]] plays an active role in the standards ecosystem, with a focus on browser-specific technologies, like markup languages and client-side APIs, as well as Internet protocols. Their specifications include HTML, Server-Sent Events, Canvas, and more.
+
+==De facto Standards==
+Some features of the Open Web Platform are developed outside standards bodies, either as experimental features or through rapid prototyping or community collaboration. These are known as '''de facto standards''' or '''defacto standards''' (from the Latin phrase ''de facto'' meaning “concerning fact”), in contrast to '''de jure standards''' (from the Latin for “concerning law”), to reflect the voluntary adoption and market dominance of the feature. Sometimes, de facto standards are ratified by standards bodies.
