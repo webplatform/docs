@@ -4,29 +4,24 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The background-image property allows you to apply one or more background images to an element. These can be url() paths to image files, or CSS3 linear or radial gradients. For more information, consult [[tutorials/using_css_background_images|Using CSS background images]] and [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].}}
+{{Summary_Section|Applies one or more background images to an element. These can be any valid CSS image, including url() paths to image files or CSS gradients.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
 |Inherited=No
 |Media=visual
 |Computed value=As specified, but with URIs made absolute
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=backgroundImage
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. Color of the next parent through which the background is visible.
 }}{{CSS Property Value
-|Data Type=url(path/to/image.png)
-|Description=This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at [[css/functions/url()|CSS images: url()]].
+|Data Type=<image>
+|Description=Any valid CSS image value, including image files through [[css/functions/url()|CSS images: url()]] or CSS gradients.
 }}{{CSS Property Value
-|Data Type=linear-gradient(to bottom, #f00, #aaa)
-|Description=Programmatically creates a gradient that travels from one side of the element to the other. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
-}}{{CSS Property Value
-|Data Type=radial-gradient(50% 50%, circle, #f00, #aaa)
-|Description=Programmatically creates a gradient that radiates outwards from a specified point on the element's background. For more on the syntax, read [[tutorials/creating_gradients_in_css|Creating gradients in CSS]].
-}}{{CSS Property Value
-|Data Type=url(path/to/image.png), url(path/to/image2.png), url(path/to/image3.png)
+|Data Type=<image>, <image>, …
 |Description=You can apply multiple background images to a single element (image files, gradients, or a mixture) by including all the image references in the property value, with each one separated by a comma. Images referenced earlier in the property value appear in front of images referenced later.
 }}
 }}
@@ -340,7 +335,7 @@
 |Note=Doesn't support gradients.
 }}{{Compatibility Notes Row
 |Browser=Various
-|Note=Not all browsers support animation of background images. Recent -webkit- based browsers transition between background images by cross fading.
+|Note=Not all browsers support animation of background images. Recent WebKit or Blink-based browsers transition between background images by cross fading.
 }}
 }}
 {{See_Also_Section
