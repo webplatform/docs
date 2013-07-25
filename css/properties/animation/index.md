@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS3 Animation module describes a way for authors to animate CSS properties over time.}}
+{{Summary_Section|Shorthand to define a CSS animation, setting all parameters at once.}}
 {{CSS Property
 |Initial value=(see individual properties)
 |Applies to=all elements, :before and :after pseudo elements.
@@ -53,11 +53,13 @@ This module allows browser vendors to better support animations with hardware ac
 
 Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
 Also, see [[tutorials/css_animations|this CSS animations tutorial]]
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.9
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animations
+|URL=http://www.w3.org/TR/css3-animations/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
