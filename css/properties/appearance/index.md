@@ -1,6 +1,8 @@
 {{Page_Title}}
-{{Flags}}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
 {{CSS Property
@@ -59,7 +61,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 Basic User Interface Module
+|URL=http://www.w3.org/TR/2004/CR-css3-ui-20040511/#appearance
+|Status=W3C Candidate Recommendation (Obsolete)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
