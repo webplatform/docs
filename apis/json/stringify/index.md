@@ -1,5 +1,7 @@
 {{Page_Title|JSON.stringify}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Export a JavaScript object to a JSON string.}}
@@ -17,7 +19,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Returns string '{"type":"Mage","stats":[10,3,5]}'
+JSON.stringify({
+  type: 'Mage',
+  stats: [10, 3, 5]
+});
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
