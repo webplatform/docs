@@ -1,6 +1,5 @@
-{{Page_Title|Functions}}
+{{Page_Title|JavaScript Functions}}
 {{Flags
-|High-level issues=Undescriptive Title
 |Content=Incomplete
 |Checked_Out=No
 |Editorial notes=It is not clear whether this article describes functions as a language construct in JS (as suggested by the beginning of the article) or if it is meant to be a reference (suggested by the parts at the end)
