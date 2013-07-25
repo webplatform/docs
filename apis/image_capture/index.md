@@ -8,7 +8,7 @@
 {{Summary_Section|Allows users to take a photo via Javascript.}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[apis/image_capture/ImageCapture]]
+|Query=[[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
