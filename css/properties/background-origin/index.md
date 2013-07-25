@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies what the background-position property should be relative to.  You should understand the CSS [[tutorials/box_model|Box Model]] before using this property.  Use this in conjunction with [[css/properties/background-image|background-image]] and optionally [[css/properties/background-position|background-position]].   See [[css/properties/background-position|background position]] for information about the coordinate system and positioning.}}
+{{Summary_Section|Specifies what the background-position property is relative to.}}
 {{CSS Property
 |Initial value=padding-box
 |Applies to=All elements
@@ -23,13 +23,13 @@
 |Description=The position is relative to the border box.
 }}{{CSS Property Value
 |Data Type=content-box
-|Description=The position is relative to the content box.
+|Description=The position is relative to the content box. Useful for having background images automatically follow the padding.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
+|Language=HTML
 |Code=&lt;style&gt;
 /**
 &nbsp;* Background-origin Example
@@ -60,22 +60,22 @@ div {
 &lt;div class="border-box"&gt;Border box!&lt;/div&gt;
 &lt;div class="padding-box"&gt;Padding box!&lt;/div&gt;
 &lt;div class="content-box"&gt;Content box!&lt;/div&gt;
-
 |LiveURL=[http://code.webplatform.org/gist/5842945 live example]
 }}
 }}
 {{Notes_Section
+|Usage=You should understand the CSS [[tutorials/box_model|Box Model]] before using this property.  Use this in conjunction with [[css/properties/background-image|background-image]] and optionally [[css/properties/background-position|background-position]].   See [[css/properties/background-position|background position]] for information about the coordinate system and positioning.
 |Notes====Remarks===
 For elements rendered as a single box, the '''background-origin''' property specifies the background positioning area. For elements rendered as multiple boxes (for instance, inline boxes on several lines or boxes on several pages), this property specifies which boxes determine the background positioning areas.
 If the [[css/properties/background-attachment|'''background-attachment''']] value for this image is '''fixed''', then the '''background-origin''' property has no effect. In this case, the background positioning area is the initial containing block.
 In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], '''background-origin''', [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-|Import_Notes====Syntax===
-<code>'''background-origin: '''padding-box '''{{!}}''' border-box '''{{!}}''' content-box</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 3.8
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds & Borders Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-background-origin
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -107,23 +107,6 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>LayoutRect</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>style</code>
-*<code>Reference</code>
-*<code>[[css/properties/background-color|background-color]]</code>
-*<code>[[css/properties/background-image|background-image]]</code>
-*<code>[[css/properties/background-repeat|background-repeat]]</code>
-*<code>[[css/properties/background-attachment|background-attachment]]</code>
-*<code>[[css/properties/background-position|background-position]]</code>
-*<code>[[css/properties/background-clip|background-clip]]</code>
-*<code>[[css/properties/background-size|background-size]]</code>
-*<code>[[css/cssom/properties/background|background]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
