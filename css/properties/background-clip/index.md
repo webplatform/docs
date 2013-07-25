@@ -12,23 +12,26 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=backgroundClip
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=border-box
-|Description=Default. The background is painted within (clipped to) the border box.
+|Description=Default. The background extends underneath the element’s borders, which can be seen with semi-transparent or dotted or dashed border-styles.
 }}{{CSS Property Value
 |Data Type=padding-box
-|Description=The background is painted within (clipped to) the padding box.
+|Description=The background is clipped to the padding-box, i.e. it cannot be seen under the element’s borders.
 }}{{CSS Property Value
 |Data Type=content-box
-|Description=The background is painted within (clipped to) the content box.
+|Description=The background is clipped the element’s content box, so the paddings and borders have no background. This is mainly useful with multiple backgrounds with different background-clip values.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The yellow colored background will not extend underneath the border.
+|Description=The background will not extend underneath the semi-transparent black border, so the element’s borders will allow whatever is underneath the element to show through.
 |Code=div 
 {
    border: 5px solid rgba(0,0,0,.5);
@@ -47,12 +50,13 @@
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=http://caniuse.com/#feat=background-img-opts
+}}
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=10+
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
+|Chrome_prefixed_supported=Yes
 |Firefox_supported=Yes
 |Firefox_version=4+
 |Firefox_prefixed_supported=Unknown
@@ -112,21 +116,11 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages ===
-*<code>[[css/properties/background-color|background-color]]</code>
-*<code>[[css/properties/background-image|background-image]]</code>
-*<code>[[css/properties/background-repeat|background-repeat]]</code>
-*<code>[[css/properties/background-attachment|background-attachment]]</code>
-*<code>[[css/properties/background-position|background-position]]</code>
-*<code>[[css/properties/background-origin|background-origin]]</code>
-*<code>[[css/properties/background-size|background-size]]</code>
-*<code>[[css/cssom/properties/background|background]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
