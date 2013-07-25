@@ -3,9 +3,9 @@
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|<code>background-color</code> allows you to set a color to fill up the background of an element it is applied to. This background color can use any type of CSS color values, from keywords and hex values, to RGB(a) and HSL(a).}}
+{{Summary_Section|Sets a color to fill up the background of an element it is applied to and accepts any valid CSS color.}}
 {{CSS Property
 |Initial value=transparent
 |Applies to=All elements
@@ -14,6 +14,7 @@
 |Computed value=If the color you are setting is a solid color, the computed value will be the hex equivalent of whatever you set. If it is a translucent color, then the computed value will be the RGBa equivalent of whatever you set.
 |Animatable=Yes
 |CSS object model property=backgroundColor
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=transparent
 |Description=The default value; you will be able to see the elements behind the element in question showing through it.
@@ -122,22 +123,22 @@ etc
 }}
 }}
 {{Notes_Section
-|Usage=* A strongly contrasting combination of foreground and background color should be used to make sure your textual content is as readable as possible. To check whether your color contrast passes accessibility conformance criteria, you can use an online checker such as Juicy Studio's [http://juicystudio.com/services/luminositycontrastratio.php Luminosity Colour Contrast Ratio Analyser].
+|Usage=* A strongly contrasting combination of foreground and background color should be used to make sure your textual content is as readable as possible. To check whether your color contrast passes accessibility conformance criteria, you can use an online checker such as [http://leaverou.github.com/contrast-ratio Lea Verou’s Contrast Ratio] which accepts any valid CSS color.
 * When using a newer color value type such as RGBa, HSL or HSLa, be aware that older browsers such as IE6-8 don't support these, so you should provide a fallback colour value so that foreground text will still be readable, either in the same stylesheet, or hidden away behind a [http://dev.opera.com/articles/view/supporting-ie-with-conditional-comments/ conditional comment]. So for example:
-
+<pre class="lang-css">
 background-color: #ff0000;
 background-color: rgba(255,0,0,0.6);
+</pre>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS2 Colors and backgrounds
-|URL=http://www.w3.org/TR/CSS2/colors.html
-|Status=W3C Recommendation
+|Name=CSS Backgrounds & Borders Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-background-color
+|Status=W3C Candidate Recommendation
 }}{{Related Specification
-|Name=CSS Color Module level 3
-|URL=http://www.w3.org/TR/css3-color/
+|Name=CSS 2.1 Colors and backgrounds
+|URL=http://www.w3.org/TR/CSS21/colors.html
 |Status=W3C Recommendation
-|Relevant_changes=defines RGBa, HSL and HSLa modes, and opacity
 }}
 }}
 {{Compatibility_Section
@@ -357,7 +358,7 @@ background-color: rgba(255,0,0,0.6);
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Background, CSS Attributes
+|Topic_clusters=Background
 |External_links=* [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
 }}
 {{Topics|CSS}}
