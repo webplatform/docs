@@ -11,7 +11,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=If the color you are setting is a solid color, the computed value will be the hex equivalent of whatever you set. If it is a translucent color, then the computed value will be the RGBa equivalent of whatever you set.
+|Computed value=the computed color(s)
 |Animatable=Yes
 |CSS object model property=backgroundColor
 |CSS percentages=N/A
