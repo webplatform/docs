@@ -2,9 +2,9 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘background’ property is a shorthand property for setting most background properties at the same place in the style sheet.}}
+{{Summary_Section|A shorthand property for setting most background properties at once.}}
 {{CSS Property
 |Initial value=see individual properties
 |Applies to=all elements
@@ -109,7 +109,12 @@ For documents whose root element is an HTML HTML element [HTML401] or an XHTML h
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://www.w3.org/TR/css3-background/
-|Status=Candidate Recommendation
+|Status=W3C Candidate Recommendation
+|Relevant_changes=Introduced background-size, background-clip, background-origin, extended background-position and background-attachment
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 2 Revision 1
+|URL=http://www.w3.org/TR/CSS21/colors.html#propdef-background
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
