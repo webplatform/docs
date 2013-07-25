@@ -1,5 +1,7 @@
 {{Page_Title|window.location.pathname}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The path to the current document, relative to the root of the current host.}}
@@ -14,7 +16,12 @@ For example, <code>http://example.org/myyfolder/mypage.html</code> would return 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Returns the pathname part of the current window location.
+// For this page, for instance, this will return the string '/wiki/apis/location/pathname'
+window.location.pathname;
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
