@@ -19,7 +19,7 @@ For example, <code>http://example.org/myyfolder/mypage.html</code> would return 
 |Examples={{Single Example
 |Language=JavaScript
 |Code=// Returns the pathname part of the current window location.
-// For this page, for instance, this will return the string '/wiki/apis/location/pathname'
+// For this page, for instance, this will return the string '/wiki/apis/location/pathname'.
 window.location.pathname;
 }}
 }}
