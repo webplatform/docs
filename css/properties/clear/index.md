@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
