@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Property specifies whether an element's background, (color or image), extends underneath its border.}}
+{{Summary_Section|Specifies how an element’s background is clipped.}}
 {{CSS Property
 |Initial value=border-box
 |Applies to=All elements
@@ -26,29 +27,27 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The yellow colored background will not go behind the border.
+|Language=CSS
+|Description=The yellow colored background will not extend underneath the border.
 |Code=div 
 {
-   border: 5px solid red;
-   background: yellow;
-
+   border: 5px solid rgba(0,0,0,.5);
+   background: deeppink;
    background-clip: padding-box;
 }
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], '''background-clip''', [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-|Import_Notes====Syntax===
-<code>'''background-clip: '''border-box '''{{!}}''' padding-box '''{{!}}''' content-box</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}197157 CSS Backgrounds and Borders Module Level 3], Section 3.7
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#the-background-clip
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=10+
@@ -113,16 +112,7 @@ In Windows Internet Explorer 9, the background of a box can have multiple layer
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/style|style]]</code>
-*<code>style</code>
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>LayoutRect</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>style</code>
-*<code>Reference</code>
+|Manual_sections====Related pages ===
 *<code>[[css/properties/background-color|background-color]]</code>
 *<code>[[css/properties/background-image|background-image]]</code>
 *<code>[[css/properties/background-repeat|background-repeat]]</code>
