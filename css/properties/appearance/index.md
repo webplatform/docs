@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|With the appearance property any element can have the style of platform-based interface elements.}}
+{{Summary_Section|Allows changing the style of any element to platform-based interface elements or vice versa.}}
 {{CSS Property
 |Initial value=none
 |Applies to=all elements
