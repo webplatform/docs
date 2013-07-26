@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''a''' element (&lt;a&gt;) defines a hyperlink (a link) to any content, may be another page, another section of the same page, an image/file or it may invoke a JavaScript function.}}
+{{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 }}
@@ -15,28 +15,28 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following examples use the '''a''' element to link to files, open a file, include an image as part of a link, define an anchor, and invoke a function.
-|Code=&lt;!-- Link to a server. --&gt;
-&lt;a href{{=}}"http://www.microsoft.com"&gt;Microsoft home page.&lt;/a&gt;
+|Code=&lt;!-- Link to a server. -->
+&lt;a href{{=}}"http://www.microsoft.com">Microsoft home page.&lt;/a>
 
-&lt;!-- Link to a file in the same directory. --&gt;
-&lt;a href{{=}}"home.htm"&gt;home.htm&lt;/a&gt;
+&lt;!-- Link to a file in the same directory. -->
+&lt;a href{{=}}"home.htm"&gt;home.htm&lt;/a>
 
-&lt;!-- Open a file in the window specified by TARGET. --&gt;
-&lt;a target{{=}}"viewer" HREF{{=}}"sample.htm"&gt;Open in window&lt;/a&gt;
+&lt;!-- Open a file in the window specified by TARGET. -->
+&lt;a target{{=}}"viewer" HREF{{=}}"sample.htm">Open in window&lt;/a>
 
-&lt;!-- Include an IMG element as a part of the link. --&gt;
-&lt;a href{{=}}"http://www.microsoft.com"&gt;&lt;img src{{=}}"images/bullet.png"&gt;link&lt;/a&gt; 
+&lt;!-- Include an IMG element as a part of the link. -->
+&lt;a href{{=}}"http://www.microsoft.com"&gt;&lt;img src{{=}}"images/bullet.png"&gt;link&lt;/a>
 
-&lt;!-- Link to an anchor. --&gt;
-&lt;a href{{=}}"#anchor"&gt;anchor&lt;/a&gt;
+&lt;!-- Link to an anchor. -->
+&lt;a href{{=}}"#anchor"&gt;anchor&lt;/a>
 
-&lt;!-- Define an anchor. --&gt;
-&lt;a name{{=}}"anchor"&gt;
+&lt;!-- Define an anchor. -->
+&lt;a name{{=}}"anchor">
 
-&lt;!-- Invoke a JScript function. --&gt;
-&lt;a href{{=}}"javascript:window.open()"&gt;link&lt;/a&gt;
+&lt;!-- Invoke a JavaScript function (Not recommended) -->
+&lt;a href{{=}}"javascript:window.open()">link&lt;/a>
 
-&lt;!-- Links to a document and uses the ''rel'' attribute to add semantics to the link. --&gt;
+&lt;!-- Links to a document and uses the ''rel'' attribute to add semantics to the link. -->
 &lt;a href{{=}}"http://creativecommons.org/licenses/by/3.0/" rel{{=}}"license"&gt;cc by 3.0&lt;/a&gt;
 |LiveURL=http://code.webplatform.org/gist/5281100
 }}
