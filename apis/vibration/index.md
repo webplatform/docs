@@ -8,6 +8,7 @@
 {{Summary_Section|Provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.}}
 {{API_Listing}}
 {{Concept_Listing
+|Query=[[Category:Vibration]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
