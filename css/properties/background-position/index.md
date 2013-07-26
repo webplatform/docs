@@ -15,7 +15,7 @@
 |CSS object model property=backgroundPosition
 |CSS percentages=Refer to size of background positioning area minus size of background image
 |Values={{CSS Property Value
-|Data Type=20px 40px
+|Data Type=[[css/data_types/length|length]] [[css/data_types/length|length]]
 |Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/data_types/length|Length units]].
 }}{{CSS Property Value
 |Data Type=30% 15%
