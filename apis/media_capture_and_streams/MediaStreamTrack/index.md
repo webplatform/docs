@@ -25,9 +25,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Mobile, WebRTC
+|Topic_clusters=Mobile
 }}
-{{Topics|API, JavaScript, Media Capture and Streams}}
+{{Topics|Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
