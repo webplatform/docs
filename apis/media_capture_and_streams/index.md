@@ -1,14 +1,16 @@
 {{Page_Title|Media Capture and Streams}}
 {{Flags
-|Checked_Out=No
-|Editorial notes=this article is currently being worked on
+|Checked_Out=Yes
+|Editorial notes={{Editorial
+| this article is currently being worked on
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Enables access to local devices (video cameras, microphones, Web cams) that can generate multimedia stream data (video, audio, or both).}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=[[Category:Media_Capture_and_Streams]][[Category:API_Objects]]
+|Query=[[Category:Media_Capture_And_Streams]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
