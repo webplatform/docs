@@ -27,7 +27,7 @@
 {{See_Also_Section
 |Topic_clusters=Mobile
 }}
-{{Topics}}
+{{Topics|Image Capture}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
