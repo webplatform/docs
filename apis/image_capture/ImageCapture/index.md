@@ -31,7 +31,7 @@
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
 }}
-{{Topics|Image Capture}}
+{{Topics|API, Image Capture}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
