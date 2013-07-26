@@ -8,6 +8,7 @@
 {{Summary_Section|Provides information about the battery status of the hosting device.}}
 {{API_Listing}}
 {{Concept_Listing
+|Query=[[Category:Battery_Status]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
