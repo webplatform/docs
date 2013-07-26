@@ -1,1 +1,0 @@
-#REDIRECT [[apis/image capture/ImageCapture]]
