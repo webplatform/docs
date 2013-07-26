@@ -1,7 +1,9 @@
 {{Page_Title|Mediastream Image Capture}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=this article is currently being worked on
+|Editorial notes={{Editorial
+| this article is currently being worked on
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
