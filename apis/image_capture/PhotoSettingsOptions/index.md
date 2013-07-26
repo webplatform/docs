@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides the photo-specific settings options and current settings values.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
