@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=Yes
-|Editorial notes=this article is currently being worked on
+|Editorial notes=this article is currently being worked on (under review for media streams)
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
