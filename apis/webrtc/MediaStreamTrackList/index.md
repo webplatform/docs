@@ -1,6 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Deletion Candidate, Needs Review
+|Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate
+| The MediaStreamTrackList API object has been removed from the WebRTC Editor's Draft in Nov 13, 2012. Even if MediaStreamTrackList is still used in the WebRTC Working Draft, it is not defined in the Media Capture and Streams Working Drafts after Nov 15, 2012.
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
