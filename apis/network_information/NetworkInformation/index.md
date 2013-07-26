@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Is exposed on the Navigator object, and alll instances of the Navigator type are defined to also implement the NetworkInformation interface.}}
+{{Summary_Section|Is exposed on the Navigator object, and all instances of the Navigator type are defined to also implement the NetworkInformation interface.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
