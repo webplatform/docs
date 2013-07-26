@@ -27,7 +27,7 @@
 {{See_Also_Section
 |Topic_clusters=Mobile
 }}
-{{Topics|API, JavaScript, Mobile}}
+{{Topics|API, JavaScript, Mobile, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
