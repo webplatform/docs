@@ -8,6 +8,7 @@
 {{Summary_Section|Provides an interface for web applications to access the underlying connection information of the device.}}
 {{API_Listing}}
 {{Concept_Listing
+|Query=[[Category:Network_Information]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
