@@ -1,7 +1,9 @@
 {{Page_Title|Network Information API}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=this article is currently being worked on
+|Editorial notes={{Editorial
+| this article is currently being worked on
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -21,7 +23,7 @@
 * [http://www.w3.org/TR/2012/WD-netinfo-api-20121129/ Network Information API - W3C Working Draft 29 November 2012]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 }}
-{{Topics|API, JavaScript}}
+{{Topics|API, JavaScript, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
