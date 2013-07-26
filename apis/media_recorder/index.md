@@ -1,7 +1,9 @@
 {{Page_Title|MediaStream Recording}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=this article is currently being worked on
+|Editorial notes={{Editorial
+| this article is currently being worked on
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -22,7 +24,7 @@
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
 }}
-{{Topics|API, JavaScript}}
+{{Topics|API, JavaScript, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
