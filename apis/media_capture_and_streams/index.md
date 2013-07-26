@@ -8,6 +8,7 @@
 {{Summary_Section|Enables access to local devices (video cameras, microphones, Web cams) that can generate multimedia stream data (video, audio, or both).}}
 {{API_Listing}}
 {{Concept_Listing
+|Query=[[Category:Media_Capture_and_Streams]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
