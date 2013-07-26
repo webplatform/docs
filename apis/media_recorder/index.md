@@ -8,6 +8,7 @@
 {{Summary_Section|Allows users to record camera/microphone's streams}}
 {{API_Listing}}
 {{Concept_Listing
+|Query=[[Category:Media_Recorder]][[Category:API_Objects]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
