@@ -1,5 +1,7 @@
 {{Page_Title|Colors by Name}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|This page shows all defined colors with their name, hex, rgb and hsl values and also includes an example for each color.}}
 {{Basic Page}}
 ===Related topics===
@@ -12,7 +14,7 @@
 |-
 ! Example !! Name !! Hex !! RGB !! HSL
 |-
-| <div style="background-color: aliceblue; color: aliceblue;"> Example </div> || aliceblue || #f0f8ff || rgb(94%,97%,100%) || hsl(208,100%,97%)
+| <div style="background-color: aliceblue; color: aliceblue;"> Non-visible-example </div> || aliceblue || #f0f8ff || rgb(94%,97%,100%) || hsl(208,100%,97%)
 |-
 | <div style="background-color: antiquewhite; color: antiquewhite;">Non-visible-example</div> || antiquewhite || #faebd7 || rgb(98%,92%,84%) || hsl(34,78%,91%)
 |- 
