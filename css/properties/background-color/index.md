@@ -11,7 +11,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=the computed color(s)
+|Computed value=the computed color
 |Animatable=Yes
 |CSS object model property=backgroundColor
 |CSS percentages=N/A
