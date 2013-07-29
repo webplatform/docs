@@ -37,6 +37,7 @@
 |Language=CSS
 |Description=Example of <code>clear:none;</code> in use.
 |Code=p{
+   /* clear: value; */
    clear: none;
 }
 |LiveURL=http://code.webplatform.org/gist/6042258
@@ -44,6 +45,7 @@
 |Language=CSS
 |Description=Example of <code>clear: left;</code> in use.
 |Code=p{
+   /* clear: value; */
    clear: left;
 }
 |LiveURL=http://code.webplatform.org/gist/6065677
@@ -51,6 +53,7 @@
 |Language=CSS
 |Description=Example of <code>clear: right;</code> in use.
 |Code=p{
+   /* clear: value; */
    clear: right;
 }
 |LiveURL=http://code.webplatform.org/gist/6065820
@@ -58,6 +61,7 @@
 |Language=CSS
 |Description=Example of <code>clear: both;</code> in use.
 |Code=p{
+   /* clear: value; */
    clear: both;
 }
 |LiveURL=http://code.webplatform.org/gist/6065831
@@ -66,10 +70,12 @@
 |Description=Check the live example to see how these classes are applied to headlines.
 |Code=.left {
 	border: 1px solid black;
+        /* clear: value; */
 	clear: left;
 }
 .both {
 	border: 1px solid black;
+        /* clear: value; */
 	clear: both;
 }
 |LiveURL=https://developer.mozilla.org/samples/cssref/clear.html
