@@ -14,7 +14,7 @@ The background- properties provide fundamental styles to an element, such as col
 |Inherited=No
 |Media=visual
 |Computed value=see individual properties
-|Animatable=Yes
+|Animatable=No
 |CSS object model property=background
 |CSS percentages=see individual properties
 |Values={{CSS Property Value
