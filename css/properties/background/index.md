@@ -4,9 +4,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This background property is a shorthand property.
+{{Summary_Section|This background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and image of the element.
 
-The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background- properties can be set, at the same time, with this background property. 
+The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background- properties can be set, at the same time, with this background property.
 }}
 {{CSS Property
 |Initial value=see individual properties
@@ -14,20 +14,31 @@ The background- properties provide fundamental styles to an element, such as col
 |Inherited=No
 |Media=visual
 |Computed value=see individual properties
-|Animatable=No
+|Animatable=Yes
+|CSS object model property=background
 |CSS percentages=see individual properties
 |Values={{CSS Property Value
-|Data Type=<background-color> <background-position> <background-size> <background-repeat> <background-clip> <background-origin> <background-attachment> <background-image>
-|Description=The background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and/or image of the element.
+|Data Type=<bg-image>
+|Description=Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is <tt>none</tt>.
+}}{{CSS Property Value
+|Data Type=<position> [ / <bg-size> ]?
+|Description=Any of the values available to [[css/properties/background-position|'''background-position''']] property. specified color, if any, else set to its initial value The default value is <tt>0% 0%</tt>.
+}}{{CSS Property Value
+|Data Type=<repeat-style> 
+|Description=Any of the values available to [[css/properties/background-repeat|'''background-repeat''']] property. The default value is <tt>repeat</tt>.
+}}{{CSS Property Value
+|Data Type=<attachment>
+|Description=Any of the values available to [[css/properties/background-attachment|'''background-attachment''']] property. The default value is <tt>scroll</tt>.
+}}{{CSS Property Value
+|Data Type=<box>{1,2}
+|Description=If one <box> value is present then it sets both [[css/properties/background-origin|'''background-origin''']] and [[css/properties/background-clip|'''background-clip''']] to that value. If two values are present, then the first sets [[css/properties/background-origin|'''background-origin''']] and the second [[css/properties/background-clip|'''background-clip''']].
 
-* color - Any of the values available to [[css/properties/background-color|'''background-color''']] property. The default value is <tt>transparent</tt>.
-* position - Any of the values available to [[css/properties/background-position|'''background-position''']] property. The default value is <tt>0% 0%</tt>.
-* size - Any of the values available to [[css/properties/background-size|'''background-size''']] property. The default value is <tt>auto</tt>.
-* repeat - Any of the values available to [[css/properties/background-repeat|'''background-repeat''']] property. The default value is <tt>repeat</tt>.
-* clip - Any of the values available to [[css/properties/background-clip|'''background-clip''']] property. The default value is <tt>border-box</tt>.
-* origin - Any of the values available to [[css/properties/background-origin|'''background-origin''']] property. The default value is <tt>padding-box</tt>.
-* attachment - Any of the values available to [[css/properties/background-attachment|'''background-attachment''']] property. The default value is <tt>scroll</tt>.
-* image - Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is <tt>none</tt>.
+For background-clip, valid values are those available to [[css/properties/background-clip|'''background-clip''']] property. The default value is <tt>border-box</tt>.
+For background-origin, valid values are those  available to [[css/properties/background-origin|'''background-origin''']] property. The default value is <tt>padding-box</tt>.
+
+}}{{CSS Property Value
+|Data Type=<color>
+|Description=Any of the values available to [[css/properties/background-color|'''background-color''']] property. The default value is <tt>transparent</tt>.
 }}
 }}
 {{Examples_Section
