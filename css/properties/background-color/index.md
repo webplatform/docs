@@ -1,6 +1,5 @@
 {{Page_Title|background-color}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
