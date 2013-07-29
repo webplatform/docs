@@ -9,7 +9,7 @@
 The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background- properties can be set, at the same time, with this background property.
 }}
 {{CSS Property
-|Initial value=see individual properties:
+|Initial value=see individual properties: * [[css/properties/background-color|background-color]] * [[css/properties/background-position|background-position]] * [[css/properties/background-size|background-size]] * [[css/properties/background-repeat|background-repeat]] * [[css/properties/background-attachment|background-attachment]] * [[css/properties/background-clip|background-clip]] * [[css/properties/background-origin|background-origin]] * [[css/properties/background-image|background-image]]
 |Applies to=all elements
 |Inherited=No
 |Media=visual
