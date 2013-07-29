@@ -139,8 +139,8 @@ For documents whose root element is an HTML HTML element [HTML401] or an XHTML h
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Background
-|Manual_links=* [[/tutorials/using_css_multiple_background|Using Multiple Backgrounds]]
-* [[/tutorials/CSS_background_images|CSS_background_images]]
+|Manual_links=* [[/wiki/tutorials/using_css_multiple_background|Using Multiple Backgrounds]]
+* [[/wiki/tutorials/CSS_background_images|CSS_background_images]]
 |External_links=* [http://coding.smashingmagazine.com/2009/09/02/backgrounds-in-css-everything-you-need-to-know/ Backgrounds In CSS: Everything You Need To Know], By Michael Martin
 * [http://updates.html5rocks.com/2013/02/CSS-Background-shorthand-coming-to-mobile-WebKit-browsers CSS Background shorthand coming to mobile WebKit browsers], By Stephen Thomas
 * [http://mobile.smashingmagazine.com/2013/07/22/simple-responsive-images-with-css-backgrounds/ Simple Responsive Images With CSS Background Images], By Stephen Thomas
