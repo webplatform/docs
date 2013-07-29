@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|A shorthand property for setting most background properties at once.}}
+{{Summary_Section|This background property is a shorthand property.
+
+The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background- properties can be set, at the same time, with this background property. 
+}}
 {{CSS Property
 |Initial value=see individual properties
 |Applies to=all elements
