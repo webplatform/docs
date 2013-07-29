@@ -9,7 +9,7 @@
 The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background- properties can be set, at the same time, with this background property.
 }}
 {{CSS Property
-|Initial value=see individual properties
+|Initial value=see individual properties:
 |Applies to=all elements
 |Inherited=No
 |Media=visual
@@ -30,7 +30,7 @@ The background- properties provide fundamental styles to an element, such as col
 |Data Type=<attachment>
 |Description=Any of the values available to [[css/properties/background-attachment|'''background-attachment''']] property. The default value is <tt>scroll</tt>.
 }}{{CSS Property Value
-|Data Type=<box>{1,2}
+|Data Type=<box>&#123;1,2&#125;
 |Description=If one <box> value is present then it sets both [[css/properties/background-origin|'''background-origin''']] and [[css/properties/background-clip|'''background-clip''']] to that value. If two values are present, then the first sets [[css/properties/background-origin|'''background-origin''']] and the second [[css/properties/background-clip|'''background-clip''']].
 
 For background-clip, valid values are those available to [[css/properties/background-clip|'''background-clip''']] property. The default value is <tt>border-box</tt>.
