@@ -22,9 +22,9 @@ The background- properties provide fundamental styles to an element, such as col
 |Description=Any of the values available to [[css/properties/background-image|'''background-image''']] property. The default value is <tt>none</tt>.
 }}{{CSS Property Value
 |Data Type=<position> [ / <bg-size> ]?
-|Description=Any of the values available to [[css/properties/background-position|'''background-position''']] property. specified color, if any, else set to its initial value The default value is <tt>0% 0%</tt>.
+|Description=Any of the values available to [[css/properties/background-position|'''background-position''']] property. Otherwise, it is set to its initial value.
 }}{{CSS Property Value
-|Data Type=<repeat-style> 
+|Data Type=<repeat-style>
 |Description=Any of the values available to [[css/properties/background-repeat|'''background-repeat''']] property. The default value is <tt>repeat</tt>.
 }}{{CSS Property Value
 |Data Type=<attachment>
@@ -35,7 +35,6 @@ The background- properties provide fundamental styles to an element, such as col
 
 For background-clip, valid values are those available to [[css/properties/background-clip|'''background-clip''']] property. The default value is <tt>border-box</tt>.
 For background-origin, valid values are those  available to [[css/properties/background-origin|'''background-origin''']] property. The default value is <tt>padding-box</tt>.
-
 }}{{CSS Property Value
 |Data Type=<color>
 |Description=Any of the values available to [[css/properties/background-color|'''background-color''']] property. The default value is <tt>transparent</tt>.
@@ -139,7 +138,14 @@ For documents whose root element is an HTML HTML element [HTML401] or an XHTML h
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=CSS Layout, Background
+|Manual_links=* [[/tutorials/using_css_multiple_background|Using Multiple Backgrounds]]
+* [[/tutorials/CSS_background_images|CSS_background_images]]
+|External_links=* [http://coding.smashingmagazine.com/2009/09/02/backgrounds-in-css-everything-you-need-to-know/ Backgrounds In CSS: Everything You Need To Know], By Michael Martin
+* [http://updates.html5rocks.com/2013/02/CSS-Background-shorthand-coming-to-mobile-WebKit-browsers CSS Background shorthand coming to mobile WebKit browsers], By Stephen Thomas
+* [http://mobile.smashingmagazine.com/2013/07/22/simple-responsive-images-with-css-backgrounds/ Simple Responsive Images With CSS Background Images], By Stephen Thomas
+* [http://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ Just One of Those Weird Things About CSS: Background on body], By Chris Coyier
+* [http://css-tricks.com/almanac/properties/b/background/ background], By Chris Coyier
 }}
 {{Topics}}
 {{External_Attribution
