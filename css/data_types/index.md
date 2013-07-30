@@ -14,7 +14,7 @@ unit allowed as property values:
 * [[css/data_types/angle|''Angle'']] values specify degrees of rotation.
 * [[css/data_types/number|''Number'']] values specify integers or decimals.
 * [[css/data_types/integer|''Integer'']] values specify integers.
-* [[css/data_types/percentages|''Percentage'']] values specify percentages.
+* [[css/data_types/percentage|''Percentage'']] values specify percentages.
 * [[css/data_types/resolution|''Resolution'']] units specify display or print dot density, typically within CSS [[css/mediaqueries|media queries]]
 * [[css/data_types/time|''Time'']] units specify duration, typically for animations.
 * [[css/data_types/frequency|''Frequency'']] specify sound pitches. (Not currently applicable to any CSS property.)
