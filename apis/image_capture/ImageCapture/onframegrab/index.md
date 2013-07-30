@@ -29,7 +29,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, JavaScript, Image Capture}}
+{{Topics|API, Image Capture}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
