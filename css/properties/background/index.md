@@ -109,6 +109,13 @@ background-origin:     padding-box, padding-box,         padding-box;
 background-size:       auto auto,   100% 100%,           auto auto;
 background-attachment: scroll,      scroll,              scroll;
 background-color:      white;
+}}{{Single Example
+|Language=CSS
+|Description=The background property is set to the color #f06 on the p element.
+|Code=p {
+	background: #f06;
+}
+|LiveURL=http://code.webplatform.org/gist/6114809
 }}
 }}
 {{Notes_Section
