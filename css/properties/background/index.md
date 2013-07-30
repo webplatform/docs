@@ -44,78 +44,27 @@ For background-origin, valid values are those  available to [[css/properties/bac
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=In the first rule of the following example, only a value for ‘background-color’ has been given and the other individual properties are set to their initial values. In the second rule, many individual properties have been specified.
-|Code=body { background: red }
-p { background: url("chess.png") 40% / 10em gray
-       round fixed border-box; }
-}}{{Single Example
-|Language=CSS
-|Description=The first rule is equivalent to
-|Code=body {
-    background-color: red;
-    background-position: 0% 0%;
-    background-size: auto auto;
-    background-repeat: repeat repeat;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-attachment: scroll;
-    background-image: none }
-}}{{Single Example
-|Language=CSS
-|Description=The second is equivalent to
-|Code=p {
-    background-color: gray;
-    background-position: 40% 50%;
-    background-size: 10em 10em;
-    background-repeat: round round;
-    background-clip: border-box;
-    background-origin: border-box;
-    background-attachment: fixed;
-    background-image: url(chess.png) }
-}}{{Single Example
-|Language=CSS
-|Description=The following example shows how both a background color (#CCC) and a background image (url(metal.jpg)) are set. The image is rescaled to the full width of the element:
-|Code=E { background: #CCC url("metal.jpg") top left / 100% auto no-repeat}
-}}{{Single Example
-|Language=CSS
-|Description=The following
-|Code=div { background: padding-box url(paper.jpg) white center }
-}}{{Single Example
-|Language=CSS
-|Description=becomes
-|Code=div {
-    background-color: white;
-    background-image: url(paper.jpg);
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-clip: padding-box;
-    background-origin: padding-box;
-    background-size: auto auto }
-}}{{Single Example
-|Language=CSS
-|Description=The following declaration with multiple, comma-separated values
-|Code=background: url(a.png) top left no-repeat,
-            url(b.png) center / 100% 100% no-repeat,
-            url(c.png) white;
-}}{{Single Example
-|Language=CSS
-|Description=is equivalent to
-|Code=background-image:      url(a.png),  url(b.png),          url(c.png);
-background-position:   top left,    center,              top left;
-background-repeat:     no-repeat,   no-repeat no-repeat, repeat;
-background-clip:       border-box,  border-box,          border-box;
-background-origin:     padding-box, padding-box,         padding-box;
-background-size:       auto auto,   100% 100%,           auto auto;
-background-attachment: scroll,      scroll,              scroll;
-background-color:      white;
-}}{{Single Example
-|Language=CSS
 |Description=The background property is set to the color #f06 on the p element.
 |Code=p {
 	background: #f06;
 }
 |LiveURL=http://code.webplatform.org/gist/6114809
+}}{{Single Example
+|Language=CSS
+|Description=Only one background property is set on the body. Many individual properties have been specified for the p element, including a background image that only shows up on the p element.
+|Code=body { 
+	background: #90ee90;
+	font-family: 'Bitter';
+
+}
+p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png) 
+				40% / 20em
+				#ffffe0
+				round
+				fixed
+				border-box; 
+}
+|LiveURL=http://code.webplatform.org/gist/6115439
 }}
 }}
 {{Notes_Section
