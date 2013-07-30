@@ -12,6 +12,7 @@
 |Property_applies_to=apis/media_capture_and_streams/MediaStreamTrack
 |Read_only=Yes
 |Example_object_name=track
+|Return_value_description=MediaStreamTrackState
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Media Capture and Streams}}
+{{Topics|API, JavaScript, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
