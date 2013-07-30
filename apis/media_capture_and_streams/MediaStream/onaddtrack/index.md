@@ -5,13 +5,14 @@
 | this article is currently being worked on
 }}
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Handles the addtrack event when fired on the MediaStream object.}}
 {{API_Object_Property
 |Property_applies_to=apis/media_capture_and_streams/MediaStream
 |Read_only=No
 |Example_object_name=stream
+|Return_value_description=EventHandler
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Media Capture and Streams}}
+{{Topics|API, JavaScript, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
