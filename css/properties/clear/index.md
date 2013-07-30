@@ -126,6 +126,10 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
 |URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-clear
 |Status=Recomendation
+}}{{Related Specification
+|Name=Cascading Style Sheets Level 3 Working Draft 9 (CSS3) Specification
+|URL=http://www.w3.org/TR/css3-box/#the-lsquo2
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
