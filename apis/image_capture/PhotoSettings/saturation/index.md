@@ -30,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Image Capture}}
+{{Topics|API, Mobile, Image Capture}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
