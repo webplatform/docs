@@ -24,10 +24,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Mobile
-}}
-{{Topics|API, JavaScript, Mobile, Network Information}}
+{{See_Also_Section}}
+{{Topics|API, Network Information}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
