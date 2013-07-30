@@ -1,8 +1,9 @@
 {{Page_Title|Generating content with CSS}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|This article describes generated content — away in which you can use CSS to add content when a document is displayed.}}
+{{Summary_Section|This article describes generated content — a way in which you can use CSS to add content when a document is displayed.}}
 {{Tutorial
 |Content=== Information: Content ==
  
@@ -74,8 +75,10 @@ This image is a white square with a blue line at the bottom:
 
 [[Image:=Blue-rule-ground.png|Image:Blue-rule-ground.png]]     '''C'''ascading '''S'''tyle '''S'''heets     '''C'''ascading '''S'''tyle '''S'''heets
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
