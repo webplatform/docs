@@ -25,7 +25,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Network Information}}
+{{Topics|API, Mobile, Network Information}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
