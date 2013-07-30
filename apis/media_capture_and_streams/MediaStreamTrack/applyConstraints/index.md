@@ -9,7 +9,12 @@
 {{API_Name}}
 {{Summary_Section|Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=constraints
+|Data type=MediaTrackConstraints
+|Description=A new constraint structure to apply to this track.
+|Optional=Yes
+}}
 |Method_applies_to=apis/media_capture_and_streams/MediaStreamTrack
 |Example_object_name=track
 }}
