@@ -30,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, Media Capture and Streams}}
+{{Topics|API, JavaScript, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
