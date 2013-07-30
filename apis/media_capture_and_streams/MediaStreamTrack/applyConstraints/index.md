@@ -17,6 +17,7 @@
 }}
 |Method_applies_to=apis/media_capture_and_streams/MediaStreamTrack
 |Example_object_name=track
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
@@ -34,7 +35,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, JavaScript, Media Capture and Streams}}
+{{Topics|API, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
