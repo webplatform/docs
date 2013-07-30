@@ -18,19 +18,19 @@
 |Data Type=[[css/data_types/length|length]] [[css/data_types/length|length]]
 |Description=Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read [[css/data_types/length|Length units]].
 }}{{CSS Property Value
-|Data Type=30% 15%
-|Description=Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on percentages, read [[css/data_types/numeric|Numeric units]].
+|Data Type=[[css/data_types/percentage|percentage]] [[css/data_types/percentage|percentage]]
+|Description=Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element.
 }}{{CSS Property Value
 |Data Type=left top
 |Description=<code>background-position</code> can also be expressed as keywords: left top, top, right top, left, center, right, left bottom, bottom, right bottom. These values do not relate specifically to the position of the top left hand corner of the background image, but rather the overall position of the background image inside the element. So for example, a value of <code>right top</code> will make the background image site flush to the top and right sides of the element it is applied to; the top left corner ''won't'' be positioned at the top right of the element!
 }}{{CSS Property Value
-|Data Type=30%
+|Data Type=[[css/data_types/percentage|percentage]]
 |Description=If only a single value is included, that is taken as the horizontal value, and the vertical value is set as <code>center</code>.
 }}{{CSS Property Value
 |Data Type=30% 15%, 40% 80%, 10px 10px
 |Description=If you have applied multiple background images to an element, you can give each background image a different position by specifying multiple background position values delimited by commas. The values supplied will cycle so that all images are given a <code>background-position</code>, for example if four background images are specified and only two position values, position 1 will be applied to images 1 and 3, and position 2 to images 2 and 4.
 }}{{CSS Property Value
-|Data Type=bottom 10px right 15px
+|Data Type=bottom [[css/data_types/length|length]] right [[css/data_types/length|length]]
 |Description=CSS3 includes the new four value <code>background-position</code> syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.
 }}
 }}
