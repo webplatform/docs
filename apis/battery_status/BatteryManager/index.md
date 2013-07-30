@@ -27,7 +27,7 @@
 {{See_Also_Section
 |Topic_clusters=Mobile
 }}
-{{Topics|API, JavaScript, Mobile, Battery Status}}
+{{Topics|API, Mobile, Battery Status}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
