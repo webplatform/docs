@@ -29,7 +29,7 @@ A new MediaStream object can be created from accessible media sources using the 
 * [http://www.w3.org/2011/04/webrtc/ WebRTC working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
 }}
-{{Topics|API, JavaScript, WebRTC, Media Capture and Streams}}
+{{Topics|API, WebRTC, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
