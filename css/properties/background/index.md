@@ -68,11 +68,8 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 }}
 }}
 {{Notes_Section
-|Notes=Background of Special Elements
-
-The background of the root element becomes the background of the canvas and its background painting area extends to cover the entire canvas, although any images are sized and positioned relative to the root element as if they were painted for that element alone. (In other words, the background positioning area is determined as for the root element.) If the root's ‘background-color’ value is ‘transparent’, the canvas's background color is UA dependent. The root element does not paint this background again, i.e., the used value of its background is transparent.
-
-For documents whose root element is an HTML HTML element [HTML401] or an XHTML html element [XHTML11]: if the computed value of ‘background-image’ on the root element is ‘none’ and its ‘background-color’ is ‘transparent’, user agents must instead propagate the computed values of the background properties from that element's first HTML BODY or XHTML body child element. The used values of that BODY element's background properties are their initial values, and the propagated values are treated as if they were specified on the root element. It is recommended that authors of HTML documents specify the canvas background for the BODY element rather than the HTML element.
+|Usage=The background property is a shorthand property that can set almost all of the background- properties. The [http://www.w3.org/TR/css3-background/#background specification] has examples of how to use the shorthand property and what that usage translates to.
+|Notes=The background of the root element becomes the background of the canvas and extends to cover the entire canvas, but only for that element alone. For an example, see [http://code.webplatform.org/gist/6115439].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
