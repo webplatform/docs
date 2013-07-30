@@ -12,6 +12,7 @@
 |Property_applies_to=apis/media_capture_and_streams/MediaStreamTrack
 |Read_only=No
 |Example_object_name=track
+|Javascript_data_type=Boolean
 }}
 {{Examples_Section
 |Not_required=No
