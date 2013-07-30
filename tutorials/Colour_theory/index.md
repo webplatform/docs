@@ -1,3 +1,28 @@
+{{Page_Title}}
+{{Flags
+|High-level issues=Merge Candidate
+|Checked_Out=No
+|Editorial notes={{Editorial/concepts/color_theory}}
+}}
+{{Byline}}
+{{Summary_Section}}
+{{Tutorial}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 == Introduction ==
  
 Without much colour or graphics, every site would become [http://www.useit.com/ Jakob Nielsen]’s
