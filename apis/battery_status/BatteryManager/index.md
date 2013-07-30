@@ -24,9 +24,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Mobile
-}}
+{{See_Also_Section}}
 {{Topics|API, Mobile, Battery Status}}
 {{External_Attribution
 |Is_CC-BY-SA=No
