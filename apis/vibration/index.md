@@ -23,7 +23,7 @@
 * [http://www.w3.org/TR/2013/CR-vibration-20130723/ Vibration API - W3C Candidate Recommendation 23 July 2013]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 }}
-{{Topics|API, JavaScript}}
+{{Topics|API, Mobile, Vibration}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
