@@ -5,7 +5,7 @@
 | this article is currently being worked on
 }}
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Handles the removetrack event when fired on the MediaStream object.}}
 {{API_Object_Property
@@ -30,7 +30,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, JavaScript, Media Capture and Streams}}
+{{Topics|API, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
