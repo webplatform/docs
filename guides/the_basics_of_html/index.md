@@ -1,5 +1,6 @@
-{{Page_Title|The basics of HTML}}
+{{Page_Title|The Basics of HTML}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML in order to gain some insight into the structure and content of an HTML
@@ -77,7 +78,7 @@ After this, you can see the opening tag of the <code>html</code> element. This
 is a wrapper around the entire document. The closing <code>html</code> tag is the last thing in any HTML document. The html element should always have a <code>lang</code> attribute. This specifies the primary language for the page. For example, <code>en</code> means "English", <code>fr</code> means "French". There are tools available to help you find the right language tag, such as Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup tool].
  
 Inside the <code>html</code> element, there is the <code>[[html/elements/head|head]]</code> element. This is a
-wrapper to contain information about the document (the metadata). This is described in more detail in [[The HTML head element]]. Inside the head is the <code>[[html/elements/title|title]]</code> element, which defines the “Example page” heading in the menu bar. Your <code>head</code> element should always contain a <code>meta</code> element with a <code>charset</code> attribute that identifies the character encoding of the page. (The one exception is when the page is encoded in UTF-16, but you should avoid that encoding anyway.) You should use UTF-8 whenever possible. Read [http://www.w3.org/International/getting-started/characters more about character encodings].
+wrapper to contain information about the document (the metadata). This is described in more detail in [[html/elements/head|The HTML head element]]. Inside the head is the <code>[[html/elements/title|title]]</code> element, which defines the “Example page” heading in the menu bar. Your <code>head</code> element should always contain a <code>meta</code> element with a <code>charset</code> attribute that identifies the character encoding of the page. (The one exception is when the page is encoded in UTF-16, but you should avoid that encoding anyway.) You should use UTF-8 whenever possible. Read [http://www.w3.org/International/getting-started/characters more about character encodings].
  
 After the <code>[[html/elements/head|head]]</code> element there is a <code>[[html/elements/body|body]]</code> element, which is the
 wrapper to contain the actual content of the page—in this case, only a level-one header (<code>[[html/elements/hn|h1]]</code>) element, which contains the text “Hello world.”
