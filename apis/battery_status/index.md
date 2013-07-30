@@ -23,7 +23,7 @@
 * [http://www.w3.org/TR/2012/CR-battery-status-20120508/ Battery Status API - W3C Candidate Recommendation 08 May 2012]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 }}
-{{Topics|API, JavaScript, Mobile}}
+{{Topics|API, Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
