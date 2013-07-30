@@ -24,10 +24,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Mobile
-}}
-{{Topics|API, JavaScript, Media Capture and Streams}}
+{{See_Also_Section}}
+{{Topics|API, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
