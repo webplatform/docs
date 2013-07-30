@@ -12,6 +12,7 @@
 |Property_applies_to=apis/image_capture/ImageCapture
 |Read_only=Yes
 |Example_object_name=pictureDevice
+|Javascript_data_type=PhotoSettingsOptions
 }}
 {{Examples_Section
 |Not_required=No
