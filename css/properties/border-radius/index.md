@@ -47,7 +47,7 @@ border-bottom-left-radius: 1em;
 |Description=Multi value example
 |Code=border-radius: 20px 1em 1vw / 0.5em 3em;
 
-/*is equivalent to:*/
+/* is equivalent to: */
 
 border-top-left-radius: 20px 0.5em;
 border-top-right-radius: 1em 3em;
@@ -66,7 +66,7 @@ border-bottom-left-radius: 1em 3em;
 |Description=Shrinking curves to avoid overlapping
 |Code=border-radius: 100% 150%;
 
-/* equivalent to: */
+/* is equivalent to: */
 
 border-radius: 40% 60%;
 
