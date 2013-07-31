@@ -1,22 +1,25 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.}}
 {{CSS Property
 |Initial value=no-limit
 |Applies to=block containers
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=hyphenateLimitLines
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=no-limit
 |Description=Indicates that hyphenation is not limited based on the number of consecutive hyphenated lines. In the flow above the consecutive hyphenated lines limit would be an infinitely large positive number.
 }}{{CSS Property Value
-|Data Type=integer
+|Data Type=[[css/data_types/integer|integer]]
 |Description=Indicates the maximum number of successive hyphenated lines.
 
 For instance, if <code>2</code>, then no more than 2 successive lines may end with a hyphenated word. If <code>0</code> then no lines may end with a hyphenated word. (Hyphenation is effectively disabled.)
@@ -26,21 +29,23 @@ Negative values are not allowed.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* Do not allow more than 2 successive hyphenated lines */
+hyphenate-limit-lines: 2;
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''-ms-hyphenate-limit-lines: '''no-limit '''{{!}}''' ''
-&lt;integer&gt;
-''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.5
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Level 4
+|URL=http://dev.w3.org/csswg/css-text-4/#hyphenate-line-limits
+|Status=W3C Editor’s Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
