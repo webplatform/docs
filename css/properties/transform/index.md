@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -14,11 +12,12 @@ If the property has a value different than none, a stacking context will be crea
 }}
 {{CSS Property
 |Initial value=none
-|Applies to=any transformable element
+|Applies to=none | <transform-function> [ <transform-function> ]
 |Inherited=No
 |Media=visual
 |Computed value=As specified, but with relative lengths converted into absolute lengths.
 |Animatable=Yes
+|CSS object model property=transform
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
@@ -112,7 +111,7 @@ If the property has a value different than none, a stacking context will be crea
 |LiveURL=http://dabblet.com/gist/4745494
 }}{{Single Example
 |Language=CSS
-|Description=Rotate the object by 40deg along the X axis
+|Description=Rotate the object by 40deg along the X axis.
 |Code=.rotateX {
 	-ms-transform: rotateX(40deg);
 	-webkit-transform: rotateX(40deg);
@@ -124,9 +123,12 @@ If the property has a value different than none, a stacking context will be crea
 	height: 10em;
 	background-color: blue;
 }
+|LiveURL=http://dabblet.com/gist/6123429
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Any value other than ‘none’ for the transform results in the creation of both a stacking context and a containing block. The containing block is for fixed positioned descendants.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Transforms Module Level 3
