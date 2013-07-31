@@ -60,8 +60,28 @@
         opacity : 1;
     }
 }
-
 |LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
+}}{{Single Example
+|Language=CSS
+|Description=A variation of the ''pulse'' animation that specifies slightly different durations for two separate ''fade'' and ''shrink'' animations, which execute continuously so that they fall out of phase.
+|Code=div.selected {
+    animation-name: fade, shrink;
+    animation-duration: 0.49s, 0.52s;
+    animation-direction: alternate, alternate;
+    animation-iteration-count: infinite, infinite;
+}
+
+@keyframes fade {
+    from { opacity : 1; }
+    to { opacity : 0.25; }
+}
+
+@keyframes shrink {
+    from { -webkit-transform : scale(1) translateX(0); }
+    to { -webkit-transform : scale(0.75) translateX(0); }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse_multiple.html
 }}
 }}
 {{Notes_Section
