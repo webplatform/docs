@@ -1,25 +1,26 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the minimum number of characters in a hyphenated word}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=hyphenateLimitChars
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Corresponds to a value of <code>5 2 2</code>, indicating a 5-character word limit, 2 characters required before a hyphenation break, and 2 characters required following a hyphenation break.
 }}{{CSS Property Value
-|Data Type=integer
+|Data Type=[[css/data_types/integer|integer]]
 |Description=One to three integer values, corresponding to the word limit, the minimum number of characters required before a hyphenation break, and the minimum number of characters required following a hyphenation break, respectively.
-
-
 
 If the third value is missing it is equal to the second.
 
@@ -30,18 +31,19 @@ Negative values are not allowed.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* Only hyphenate words with >= 6 characters, leave at least 3 characters before the hyphen and at least 2 after it */
+hyphenate-limit-chars: 6 3 2;
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''-ms-hyphenate-limit-chars: '''auto '''{{!}}''' ''
-&lt;integer&gt;
-'' {1,3}</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.4
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Level 4
+|URL=http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-chars
+|Status=W3C Editor’s Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -52,7 +54,7 @@ Negative values are not allowed.
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages ===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
 {{Topics|CSS}}
