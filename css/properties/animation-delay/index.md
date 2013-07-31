@@ -18,13 +18,13 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=0s
-|Description=The initial value of 0s means the animation will start executing as soon as it is applied through the <code>[css/properties/animation-name|animation-name]</code> property.
+|Description=The initial value of 0s means the animation will start executing as soon as it is applied through the [css/properties/animation-name|'''animation-name'''] property.
 }}{{CSS Property Value
 |Data Type=.25s, 100ms
 |Description=This value defines the initial delay for two animations. Like durations, delays can be specified in seconds or milliseconds.
 }}{{CSS Property Value
 |Data Type=-1.5s
-|Description=If the value for <code>animation-delay</code> is negative then the animation will execute the moment it is applied but will begin execution at the specified offset. That is, the animation appears to begin part-way through its play cycle.
+|Description=If the value for '''animation-delay''' is negative then the animation will execute the moment it is applied but will begin execution at the specified offset. That is, the animation appears to begin part-way through its play cycle.
 }}
 }}
 {{Examples_Section
@@ -77,8 +77,7 @@ header {
     97%  { transform : translateX(-80%) }
     to   { transform : translateX(0%) }
 }
-
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html 
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html
 }}
 }}
 {{Notes_Section
