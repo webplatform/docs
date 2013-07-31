@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -11,7 +12,10 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified
 |Animatable=No
+|CSS object model property=scroll
+|CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=scroll
 |Description=Default. Background image scrolls with the object as the document is scrolled.
@@ -131,7 +135,7 @@ With CSS3 Backgrounds, the background of a box can have multiple layers. The num
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
