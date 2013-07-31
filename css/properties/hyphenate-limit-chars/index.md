@@ -33,7 +33,8 @@ Negative values are not allowed.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Only hyphenate words with >= 6 characters, leave at least 3 characters before the hyphen and at least 2 after it */
+|Code=/* Only hyphenate words with >= 6 characters,
+   leave at least 3 characters before the hyphen and at least 2 after it */
 hyphenate-limit-chars: 6 3 2;
 }}
 }}
