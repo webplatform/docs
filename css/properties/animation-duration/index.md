@@ -37,6 +37,31 @@
 |Description=An animation duration of 5 seconds.
 |Code=animation-duration: 5s;
 |LiveURL=http://03sq.net/examples/animation-duration.html
+}}{{Single Example
+|Language=CSS
+|Description=A repeating ''pulse'' animation that simultaneously shrinks and dims an icon, each iteration lasting 1 second.
+|Code=div.selected {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    50% {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+    to {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
 }}
 }}
 {{Notes_Section
