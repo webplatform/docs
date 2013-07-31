@@ -12,6 +12,7 @@
 |Property_applies_to=apis/battery_status/NavigatorBattery
 |Read_only=Yes
 |Example_object_name=navigator
+|Javascript_data_type=BatteryManager
 }}
 {{Examples_Section
 |Not_required=No
