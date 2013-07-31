@@ -11,7 +11,16 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function show() {
+  console.log(navigator.connection.bandwidth);
+}
+
+navigator.connection.addEventListener('change', show, false);
+
+show();
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
