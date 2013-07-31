@@ -28,6 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=A simple slide-in animation that executes once, much like a transition.
 |Code=h1 {
   animation-duration: 3s;
   animation-name: slidein;
@@ -45,6 +46,31 @@
   }
 }
 |LiveURL=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_animations
+}}{{Single Example
+|Language=CSS
+|Description=a repeating ''pulse'' animation that simultaneously shrinks and dims an icon
+|Code=div.selected {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from { 
+        -webkit-transform : scale(1) translateX(0);
+        opacity           : 1;
+    }
+    50% { 
+        -webkit-transform : scale(0.75) translateX(0);
+        opacity           : 0.25;
+    }
+    to { 
+        -webkit-transform : scale(1) translateX(0);
+        opacity           : 1;
+    }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
 }}
 }}
 {{Notes_Section
