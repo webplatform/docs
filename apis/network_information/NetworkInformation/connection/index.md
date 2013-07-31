@@ -12,6 +12,7 @@
 |Property_applies_to=apis/network_information/NetworkInformation
 |Read_only=Yes
 |Example_object_name=networkInformation
+|Javascript_data_type=Connection
 }}
 {{Examples_Section
 |Not_required=No
