@@ -36,7 +36,6 @@ navigator.vibrate(0);
 
 // or alternatively
 navigator.vibrate([]);
-
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
