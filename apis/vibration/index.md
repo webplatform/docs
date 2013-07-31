@@ -19,11 +19,7 @@
 
 In the following example the device will vibrate for 1000 milliseconds (ms):
 
-// vibrate for 1000 ms
-navigator.vibrate(1000);
-
-// or alternatively
-navigator.vibrate([1000]);
+navigator.vibrate(1000); // or alternatively navigator.vibrate([1000]);
 
 In the following example the pattern will cause the device to vibrate for 50 ms, be still for 100 ms, and then vibrate for 150 ms:
 
@@ -31,11 +27,7 @@ navigator.vibrate([50, 100, 150]);
 
 The following example cancels any existing vibrations:
 
-// cancel any existing vibrations
-navigator.vibrate(0);
-
-// or alternatively
-navigator.vibrate([]);
+navigator.vibrate(0); // or alternatively navigator.vibrate([]);
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
