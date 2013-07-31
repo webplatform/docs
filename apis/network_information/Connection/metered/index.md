@@ -12,6 +12,7 @@
 |Property_applies_to=apis/network_information/Connection
 |Read_only=Yes
 |Example_object_name=connection
+|Javascript_data_type=Boolean
 }}
 {{Examples_Section
 |Not_required=No
