@@ -1,12 +1,10 @@
 {{Page_Title|background-attachment}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines if a background image scrolls with the content or stays fixed}}
+{{Summary_Section|Defines if a background image scrolls with the content or stays fixed.}}
 {{CSS Property
 |Initial value=scroll
 |Applies to=All elements
