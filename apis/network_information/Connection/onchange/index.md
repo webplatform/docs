@@ -12,6 +12,7 @@
 |Property_applies_to=apis/network_information/Connection
 |Read_only=No
 |Example_object_name=connection
+|Javascript_data_type=EventHandler
 }}
 {{Examples_Section
 |Not_required=No
