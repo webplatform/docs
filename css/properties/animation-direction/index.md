@@ -34,6 +34,51 @@
 |Language=CSS
 |Code=animation-direction: alternate;
 |LiveURL=http://03sq.net/examples/animation-direction.html
+}}{{Single Example
+|Language=CSS
+|Description=A repeating ''pulse'' animation that simultaneously shrinks and dims an icon.
+|Code=div.selected {
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    to {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+}
+}}{{Single Example
+|Language=CSS
+|Description=The animation above progresses from one state to another, then uses '''animation-direction''' to reverse course on even-numbered iterations. The final effect matches this alternate version, which does ''not'' alternate direction, which specifies the entire sequence, and which requires twice the duration to execute.
+|Code=div.selected {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    50% {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+    to {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
 }}
 }}
 {{Notes_Section
