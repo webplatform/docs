@@ -11,7 +11,18 @@
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=navigator.battery.onlevelchange = function () {
+  console.log(navigator.battery.level);
+};
+
+/* or alternatively */
+
+navigator.battery.addEventListener('levelchange', function () {
+  console.log(navigator.battery.level);
+}, false);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
