@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -28,6 +29,30 @@
 |Examples={{Single Example
 |Language=CSS
 |LiveURL=[http://robertnyman.com/2010/05/06/css3-animations/ Robert Nyman's examples]
+}}{{Single Example
+|Language=CSS
+|Description=A ''pulse'' animation that simultaneously shrinks and dims an icon. Setting the iteration-count to '''infinite''' repeats it indefinitely.
+|Code=div.selected {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    50% {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+    to {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+}
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
 }}
 }}
 {{Notes_Section
