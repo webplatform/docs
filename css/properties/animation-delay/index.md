@@ -34,6 +34,51 @@
 |Description=A delay of half a second. Example shows a delay of 5 seconds.
 |Code=animation-delay: 500ms;
 |LiveURL=http://03sq.net/examples/animation-delay.html
+}}{{Single Example
+|Language=CSS
+|Description=An example of a mobile interface in which concurrent ''moveContent'' and ''insertBanner'' animations introduce a banner header after a 4-second delay. A subsequent ''scrollBanner'' animation uses a similar delay to start 5 seconds after the page loads.
+|Code=article {
+    animation-name : moveContent;
+    animation-duration : 1s;
+    animation-delay : 4s;
+    animation-iteration-count : 1;
+    animation-fill-mode : forwards;
+}
+
+header {
+    animation-name : insertBanner , scrollBanner;
+    animation-duration : 1s , 20s;
+    animation-delay : 4s , 5s;
+    animation-fill-mode : backwards , none;
+    animation-iteration-count : 1 , infinite;
+}
+
+
+@keyframes moveContent {
+    from { -webkit-transform : translateY(0em) }
+    to   { -webkit-transform : translateY(3em) }
+}
+
+@keyframes insertBanner {
+    from { transform : translateY(-6em) }
+    to   { transform : translateY(0em) }
+}
+
+@keyframes scrollBanner {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-20%) }
+    37%  { transform : translateX(-20%) }
+    40%  { transform : translateX(-40%) }
+    57%  { transform : translateX(-40%) }
+    60%  { transform : translateX(-60%) }
+    77%  { transform : translateX(-60%) }
+    80%  { transform : translateX(-80%) }
+    97%  { transform : translateX(-80%) }
+    to   { transform : translateX(0%) }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html 
 }}
 }}
 {{Notes_Section
