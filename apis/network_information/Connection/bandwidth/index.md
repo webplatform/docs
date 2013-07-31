@@ -12,8 +12,8 @@
 |Property_applies_to=apis/network_information/Connection
 |Read_only=Yes
 |Example_object_name=connection
+|Javascript_data_type=double
 |Return_value_description=Returns 0 if the user is currently offline, infinity if the bandwidth is unknown.
-
 }}
 {{Examples_Section
 |Not_required=No
