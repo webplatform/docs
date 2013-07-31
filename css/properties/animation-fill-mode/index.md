@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -37,6 +38,52 @@
   animation-fill-mode: forwards;
 }
 |LiveURL=[http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video]
+}}{{Single Example
+|Language=CSS
+|Description=A more complex example of a mobile interface in which two concurrent animations displace content with a banner header. Without any animations, both elements would share the same space on the screen. In the ''moveContent'' animation, the fill mode of '''forwards''' means its end state (moved downward) persists after it finishes executing. In the ''insertBanner'' animation, the fill mode of '''backwards''' means its start state (off-screen) takes precedence over the element's CSS during the delay before the animation executes. (In the subsequent ''scrollBanner'' animation, the fill-mode is explicitly set to '''none''' to keep its initial state from
+overriding that of the previous animation.)
+|Code=article {
+    animation-name : moveContent;
+    animation-duration : 1s;
+    animation-delay : 4s;
+    animation-iteration-count : 1;
+    animation-fill-mode : forwards;
+}
+
+header {
+    animation-name : insertBanner , scrollBanner;
+    animation-duration : 1s , 20s;
+    animation-delay : 4s , 5s;
+    animation-fill-mode : backwards , none;
+    animation-iteration-count : 1 , infinite;
+}
+
+@keyframes moveContent {
+    from { -webkit-transform : translateY(0em) }
+    to   { -webkit-transform : translateY(3em) }
+}
+
+@keyframes insertBanner {
+    from { transform : translateY(-6em) }
+    to   { transform : translateY(0em) }
+}
+
+
+@keyframes scrollBanner {
+    from { transform : translateX(0) }
+    17%  { transform : translateX(0%) }
+    20%  { transform : translateX(-20%) }
+    37%  { transform : translateX(-20%) }
+    40%  { transform : translateX(-40%) }
+    57%  { transform : translateX(-40%) }
+    60%  { transform : translateX(-60%) }
+    77%  { transform : translateX(-60%) }
+    80%  { transform : translateX(-80%) }
+    97%  { transform : translateX(-80%) }
+    to   { transform : translateX(0%) }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html 
 }}
 }}
 {{Notes_Section
