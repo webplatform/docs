@@ -1,67 +1,58 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.}}
 {{CSS Property
 |Initial value=0
 |Applies to=block containers
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=hyphenateLimitZone
+|CSS percentages=refer to width of the line box
 |Values={{CSS Property Value
 |Data Type=percentage
-|Description=Integer, followed by a percent sign (%) that specifies the width of the hyphenation zone, calculated with respect to the line box. 
-
-Negative values are not allowed.
+|Description=Specifies the width of the hyphenation zone, relative to the total line length. Negative values are not allowed.
 }}{{CSS Property Value
 |Data Type=length
-|Description=A floating-point number, followed by a relative units designator, that indicates the width of the hyphenation zone.
-For more information about supported length units,
-see CSS Values and Units.
-
-Negative values are not allowed.
+|Description=Indicates the width of the hyphenation zone. Lengths set in font-relative units (em, ex, ch) tend to be more useful here. Negative values are not allowed.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* Only hyphenate if the line would otherwise be <= 90% its maximum possible width */
+hyphenate-limit-zone: 10%;
 }}
-{{Notes_Section
-|Notes====Remarks===
-The '''-ms-hyphenate-limit-zone''' property enables you to control the amount of trailing whitespace permitted during hyphenation. The hyphenation zone is always at the logical right side of the padding box.
-A word is considered for hyphenation only if it begins at or outside of the logical left limit of the hyphenation zone.
-|Import_Notes====Syntax===
-<code>'''-ms-hyphenate-limit-zone: '''''
-&lt;percentage&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.3
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Level 4
+|URL=http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-zone
+|Status=W3C Editor’s Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
