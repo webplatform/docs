@@ -56,7 +56,7 @@
 }
 }}{{Single Example
 |Language=CSS
-|Description=The animation above progresses from one state to another, then uses '''animation-direction''' to reverse course on even-numbered iterations. The final effect matches this alternate version, which does ''not'' alternate direction, which specifies the entire sequence, and which requires twice the duration to execute.
+|Description=The animation above progresses from one state to another, then uses '''animation-direction''' to reverse course on even-numbered iterations. The final effect appears the same as the following version, which does ''not'' alternate direction, which specifies the entire sequence from beginning to end, and which requires twice the duration to execute.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
@@ -77,7 +77,6 @@
         opacity : 1;
     }
 }
-
 |LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
 }}
 }}
