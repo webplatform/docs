@@ -38,8 +38,8 @@
 |Data Type=sesame
 |Description=Displays sesames as marks
 }}{{CSS Property Value
-|Data Type="character"
-|Description=Displays the given character as mark. Wrapped in quotes.
+|Data Type=<string>
+|Description=Display the given string as marks. Authors should not specify more than one character in <string>. The UA may truncate or ignore strings consisting of more than one grapheme cluster.
 }}
 }}
 {{Examples_Section
@@ -54,13 +54,13 @@
 }}{{Single Example
 |Language=CSS
 |Code=p {
-  /*text-emphasis: "character";*/
+  /*text-emphasis: "string";*/
   text-emphasis: "*";
 }
 }}{{Single Example
 |Language=CSS
 |Code=p {
-  /*text-emphasis: "character" color;*/
+  /*text-emphasis: "string" color;*/
   text-emphasis: "^" #ccc;
 }
 }}
