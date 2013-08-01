@@ -38,7 +38,7 @@
 |Data Type=sesame
 |Description=Displays sesames as marks
 }}{{CSS Property Value
-|Data Type=string
+|Data Type="character"
 |Description=Displays the given character as mark. Wrapped in quotes.
 }}
 }}
@@ -51,6 +51,18 @@
   text-emphasis: triangle #f70;
 }
 |LiveURL=http://code.webplatform.org/gist/6133067
+}}{{Single Example
+|Language=CSS
+|Code=p {
+  /*text-emphasis: "character";*/
+  text-emphasis: "*";
+}
+}}{{Single Example
+|Language=CSS
+|Code=p {
+  /*text-emphasis: "character" color;*/
+  text-emphasis: "^" #ccc;
+}
 }}
 }}
 {{Notes_Section
@@ -70,9 +82,7 @@ Size of the marks will always scale to 50% of the container's actual font size.
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
+|Chrome_prefixed_supported=Yes
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -82,12 +92,10 @@ Size of the marks will always scale to 50% of the container's actual font size.
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
+|Opera_prefixed_supported=Yes
+|Safari_supported=Unknown
 |Safari_version=
-|Safari_prefixed_supported=No
+|Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
