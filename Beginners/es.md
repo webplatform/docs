@@ -18,7 +18,7 @@ Ahora, arremángate la camisa y preparémonos a aprender. [[tutorials|¡Explora 
 
 ==Fundamentos de la web==
 
-* [[concepts/internet and web/the history of the web|La Historia de la Web]]
+* [[concepts/internet and web/the history of the web/es|La Historia de la Web]]
 * [[concepts/internet and web/how does the internet work|¿Cómo funciona la Internet?]]
 * [[concepts/internet and web/the web standards model|El modelo de estándares web: HTML, CSS y JavaScript]]
 * [[tutorials/getting your content online|Colocando tu contenido en línea]]
