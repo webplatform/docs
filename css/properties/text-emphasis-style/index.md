@@ -45,7 +45,20 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=p {
+  /*text-emphasis-style: shape;*/
+  text-emphasis-style: dot;		
+}
+|LiveURL=http://code.webplatform.org/gist/6133332
+}}{{Single Example
+|Language=CSS
+|Code=p {
+  /*text-emphasis-style: <string>;*/
+  text-emphasis-style: "^";		
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -54,7 +67,24 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Yes
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
