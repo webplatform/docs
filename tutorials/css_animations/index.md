@@ -445,6 +445,8 @@ As in the following example, you would typically want to pause an
 animation if it becomes part of an interface element that is no longer
 in an active state:
 
+[[Image:anim_pause.png]]
+
 ([http://letmespellitoutforyou.com/samples/anim_pause.html View live sample])
 
 To dynamically initiate an animation, specify a different name. In
