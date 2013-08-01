@@ -1,5 +1,7 @@
 {{Page_Title|Making things move with CSS3 animations}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -438,6 +440,12 @@ Once an animation starts to execute, setting the
 [[css/properties/animation-play-state|'''animation-play-state''']]
 property to '''pause''' stops it, and a value of '''running''' resumes
 it.
+
+As in the following example, you would typically want to pause an
+animation if it becomes part of an interface element that is no longer
+in an active state:
+
+([http://letmespellitoutforyou.com/samples/anim_pause.html View live sample])
 
 To dynamically initiate an animation, specify a different name. In
 this example, applying an ''animate'' class overrides the
