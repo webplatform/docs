@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The text-emphasis property will apply special emphasis marks to the elements text. Slightly similar to the text-decoration property only that this property can have affect on the line-height. It also is noted that this is shorthand for text-emphasis-style and for text-emphasis-color.}}
 {{CSS Property
@@ -37,21 +37,39 @@
 }}{{CSS Property Value
 |Data Type=sesame
 |Description=Displays sesames as marks
+}}{{CSS Property Value
+|Data Type=string
+|Description=Displays the given character as mark. Wrapped in quotes.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=p {
+  /*text-emphasis: shape color;*/
+  text-emphasis: triangle #f70;
+}
+|LiveURL=http://code.webplatform.org/gist/6133067
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=Don't apply on special word separators like spaces.
+
+Size of the marks will always scale to 50% of the container's actual font size.
+}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Text Decoration Module Level 3
+|URL=http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks
+|Status=Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
+|Chrome_supported=Yes
 |Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
@@ -63,7 +81,7 @@
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
-|Opera_supported=No
+|Opera_supported=Yes
 |Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
