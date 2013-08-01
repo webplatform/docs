@@ -115,7 +115,7 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 |Language=CSS
 |Description=A mobile interface featuring a keyframe-animated pulsing icon.  When the application enters an interruption mode that presents another panel to the screen, the icon is paused to indicate it's inactive.
 |Code=div.selected {
-    animation: pulse 0.5s infinite alternate;
+    animation: pulse 0.5s infinite alternate running;
 }
 
 body.interrupt div.selected {
@@ -132,7 +132,6 @@ body.interrupt div.selected {
         opacity : 0.25;
     }
 }
-
 |LiveURL=http://letmespellitoutforyou.com/samples/anim_pause.html
 }}
 }}
