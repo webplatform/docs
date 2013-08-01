@@ -15,6 +15,8 @@
 |CSS percentages=Not available
 |Values={{CSS Property Value
 |Data Type=color
+|Description=Specify the foreground color of the emphasis marks.
+
 }}
 }}
 {{Examples_Section
@@ -34,14 +36,31 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Decoration Module Level 3
-|URL=http://www.w3.org/TR/css-text-decor-3/#text-emphasis-color-property
-|Status=Working Draft
+|URL=http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=No
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Yes
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
