@@ -1,3 +1,5 @@
+{{Languages}}
+
 == Introducción ==
 <blockquote> 
 ¿Por dónde debo empezar, Majestad? Empieza por el principio –dijo el rey solemnemente– y continúa hasta llegar al final. Entonces, detente. «Alicia en el País de las Maravillas, Lewis Caroll»
@@ -5,7 +7,7 @@
 
 Todo tiene que empezar en alguna parte, así que vamos a empezar con una lección enfocada de historia. A continuación te daremos una breve descripción de la creación de la Internet, la World Wide Web y los estándares web en los que se centra toda esta serie de artículos.
 
-Si cualquiera de los términos no es muy familiar para ti, no te preocupes: si son importantes para el aprendizaje del desarrollo web serán definidos en los artículos posteriores que van a profundizar en cada tema o, en cualquier caso, ¡siempre puedes buscarlos usando tu buscador preferido! Si ya estás familiarizado con la historia de la Internet o la World Wide Web, no dudes en saltar a la sección de los [[#La llegada de los estándares web estándares web]].
+Si cualquiera de los términos no es muy familiar para ti, no te preocupes: si son importantes para el aprendizaje del desarrollo web serán definidos en los artículos posteriores que van a profundizar en cada tema o, en cualquier caso, ¡siempre puedes buscarlos usando tu buscador preferido! Si ya estás familiarizado con la historia de la Internet o la World Wide Web, no dudes en saltar a la sección de los [[#La llegada de los estándares web|estándares web]].
 
 
 
