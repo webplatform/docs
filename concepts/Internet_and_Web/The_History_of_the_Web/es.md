@@ -1,3 +1,14 @@
+== Introducción ==
+<blockquote> 
+¿Por dónde debo empezar, Majestad? Empieza por el principio –dijo el rey solemnemente– y continúa hasta llegar al final. Entonces, detente. «Alicia en el País de las Maravillas, Lewis Caroll»
+ </blockquote> 
+
+Todo tiene que empezar en alguna parte, así que vamos a empezar con una lección enfocada de historia. A continuación te daremos una breve descripción de la creación de la Internet, la World Wide Web y los estándares web en los que se centra toda esta serie de artículos.
+
+Si cualquiera de los términos no es muy familiar para ti, no te preocupes: si son importantes para el aprendizaje del desarrollo web serán definidos en los artículos posteriores que van a profundizar en cada tema o, en cualquier caso, ¡siempre puedes buscarlos usando tu buscador preferido! Si ya estás familiarizado con la historia de la Internet o la World Wide Web, no dudes en saltar a la sección de los [[#La llegada de los estándares web estándares web]].
+
+
+
 == El origen del Internet ==
 El cuatro de octubre de 1957 ocurrió un evento que cambiaría el mundo.
 La Unión Soviética lazó con éxito el primer satélite en órbita terrestre.
@@ -49,7 +60,7 @@ En 1994, Tim Berners-Lee fundó la World Wide Web Consortium (W3C) en el Institu
 
 Durante los próximos años, la W3C publicó varias espeficicaciones (llamdas recomendaciones) incluyendo[http://www.w3.org/TR/html401/ HTML 4.01], el formato para [http://www.w3.org/TR/PNG/ PNG images], and [http://www.w3.org/Style/CSS/ Cascading Style Sheets] versiones 1 y 2.
  
-Sin embarco, la W3C no hicieron (y todavía no hacen) cumplir sus recomendaciones.
+Sin embargo, la W3C no hicieron (y todavía no hacen) cumplir sus recomendaciones.
 Los fabricantes sólo tenía que ajustarse a los documentos de la W3C si deseban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente le importaba, que la W3C era(este es todavía el caso, en gran medida). Por lo tanto, la guerra de los navegadores de los noventas continuó sin disminuir.
 
 === El proyecto de los estándares web ===
@@ -92,7 +103,6 @@ Cuando HTML 4 fue casi terminado, la W3C decidió  (en un [http://www.w3.org/Mar
 Entonces la w3c trazo una linea bajo HTML 4.01 y en lugar de concentrarse en las especificaciones de [http://www.w3.org/TR/xhtml1/ XHTML 1.0], finalizó cerca del 2000. XHTML 1.0 es lo mismo que HTML 4.01, excepto que usa sintaxi y reglas de marcado estrictas de XML(Más de esto luego). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] pronto siguieron, añadiendo un montón de nuevas características de gran alcance y aspiraban a ser la próxima grna cosa en la web.
 
 El problema con XHTML 2.0 es que no era compatible con el marcado que ya exitía en la web - los elmentos trabajaban diferente, XHTML no funcionaba apropiadamente en Internet Explorer, el cual todavía tenía la mayoría del mercado de los navegadores, las herramientas para desarrolladores disponibles no estaban listas para trabajar con XML, y eso no se reflejo en lo que los desarrolladores realmente estaban haciendo ahí afuera en la wild wild web.
-
  
 En el 2004, un grupo de desarrolladores y implementadores (incluyendo representantes de Opera, Mozilla y slightly y luego Aple) se reunieron y formaron un grupo llamado la[http://www.whatwg.org/ WHATWG], con el objetivo de escribir una mejor especificación que podría manejar la creación de aplicaciones web, sin romper la compatibilidad con lo anterior.
 
