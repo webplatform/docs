@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -110,6 +111,29 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 	0% {top: 0;}
 	100% {top: -180px;} 
 }
+}}{{Single Example
+|Language=CSS
+|Description=A mobile interface featuring a keyframe-animated pulsing icon.  When the application enters an interruption mode that presents another panel to the screen, the icon is paused to indicate it's inactive.
+|Code=div.selected {
+    animation: pulse 0.5s infinite alternate;
+}
+
+body.interrupt div.selected {
+    animation-play-state: paused;
+}
+
+@keyframes pulse {
+    from {
+        transform : scale(1) translateX(0);
+        opacity : 1;
+    }
+    to {
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
+    }
+}
+
+|LiveURL=http://letmespellitoutforyou.com/samples/anim_pause.html
 }}
 }}
 {{Notes_Section
@@ -126,6 +150,7 @@ In common with other animation properties, multiple values separated by commas a
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
