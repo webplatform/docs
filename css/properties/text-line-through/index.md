@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''text-overline''' property is the shorthand for [[css\properties\text-overline-style]], [[css\properties\text-overline-width]], [[css\properties\text-overline-color]] and [[css\properties\text-overline-mode]].}}
+{{Summary_Section|The '''text-overline''' property is the shorthand for [[css\properties\text-overline-style text-overline-style]], [[css\properties\text-overline-width text-overline-width]], [[css\properties\text-overline-color text-overline-color]] and [[css\properties\text-overline-mode text-overline-mode]].}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
