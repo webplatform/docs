@@ -1,7 +1,5 @@
 {{Page_Title|break-before}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -67,10 +65,7 @@ h2, h3 {
 }
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
