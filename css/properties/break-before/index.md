@@ -1,18 +1,20 @@
 {{Page_Title|break-before}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The break-before property is used to break the flow of content before the generated box.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
 |Inherited=No
-|Media=paged
+|Computed value=specified value
 |Animatable=No
+|CSS object model property=breakBefore
+|CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page break or column break is determined  by the flow of content.
@@ -73,6 +75,15 @@ h2, h3 {
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Fragmentation Module Level 3
+|URL=http://www.w3.org/TR/css3-break/#break-properties
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol/#column-breaks
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -83,48 +94,12 @@ h2, h3 {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Multi-Column, Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+|Topic_clusters=CSS Layout, Box Model, Flexbox, Multi-Column, Regions, Responsive Web Design, Shapes
+|External_links=* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-*<code>Reference</code>
-*<code>[[css/properties/break-after|breakAfter]]</code>
-*<code>[[css/properties/break-inside|breakInside]]</code>
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions, Flexbox, UI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
