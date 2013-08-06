@@ -63,6 +63,15 @@ h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
+}}{{Single Example
+|Language=CSS
+|Description=Forces h3s onto a new column.
+
+|Code=h3 {
+    break-inside: before;
+    -webkit-column-break-inside: before;        
+}
+|LiveURL=http://code.webplatform.org/gist/6158525
 }}
 }}
 {{Notes_Section}}
