@@ -66,10 +66,9 @@ h2, h3 {
 }}{{Single Example
 |Language=CSS
 |Description=Forces h3s onto a new column.
-
 |Code=h3 {
-    break-inside: before;
-    -webkit-column-break-inside: before;        
+    break-before: always;
+    -webkit-column-break-before: always; 
 }
 |LiveURL=http://code.webplatform.org/gist/6158525
 }}
