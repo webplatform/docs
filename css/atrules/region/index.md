@@ -8,8 +8,8 @@
 {{CSS_At_Rule
 |Content=The basic syntax is as follows:
 
- @region &lt;region_selector> {
-     &lt;content_selector> {
+ @region <region_selector> {
+     <content_selector> {
          /* ... CSS properties ... */
      }
  }
