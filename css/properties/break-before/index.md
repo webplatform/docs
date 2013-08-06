@@ -73,31 +73,23 @@ h2, h3 {
 |LiveURL=http://code.webplatform.org/gist/6158525
 }}{{Single Example
 |Language=CSS
-|Description=Assuming the main content is at <div class="main"> and contains <h3>s, and a <section class="page"> with <div class="region" id="region(number)">, they'll flow into 6 regions.
+|Description=Assuming the main content is at div class="main" and contains h3s, and a section class="page" with 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
 
     flow-from: main;
     -webkit-flow-from: main;
-        
-    width: 800px;
-    height: 300px;
-    border-style: solid;
-    border-color:red;
-
-    padding: 2px;
-    margin: 5px;
-    background-color: yellow;
-
+    .
+    .
+    .
 }
 
 .main {
     flow-into: main;
     -webkit-flow-into: main;
-
-    padding: 0;
-    margin: 0;
+    .
+    .
+    .
 }
-
 
 /* forces top-level headings into a new region */ 
 h3 {
@@ -106,7 +98,6 @@ h3 {
     -webkit-region-break-before: always;
     -ms-break-before: always;
     -ms-region-break-before: always;
-
 }
 |LiveURL=http://code.webplatform.org/gist/6167152
 }}
