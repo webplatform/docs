@@ -77,7 +77,6 @@ h2, h3 {
 
 Assuming the main content is at div class="main" and contains h3s, and 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
-
     flow-from: main;
     -webkit-flow-from: main;
     .
