@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,6 +12,8 @@
 |Media=visual
 |Computed value=A list, each item consisting of two keywords, one per dimension
 |Animatable=No
+|CSS object model property=backgroundRepeat
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<repeat-style>
 |Description=Keyword(s) indicating the repeat pattern.
@@ -69,10 +70,6 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 In CSS3, one or two keywords are permitted. One keyword affects both axes in the same way as CSS2.1 If two keywords are used, the first applies to the horizontal axis, and the second to the vertical axis.
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the <code>background-image</code> property.
-|Import_Notes====Syntax===
-<code>'''background-repeat: ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} '''[''' , ''' repeat-x '''{{!}}''' repeat-y '''{{!}}''' '''[''' repeat '''{{!}}''' space '''{{!}}''' round '''{{!}}'''   no-repeat ''']''' {1,2} ''']'''</code>
-===Standards information===
-[http://www.w3.org/TR/css3-background/#the-background-repeat CSS Backgrounds and Borders Module Level 3]
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -174,12 +171,6 @@ If an element has multiple background images, the repeat pattern for each image 
 }}
 {{See_Also_Section
 |Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
