@@ -1,6 +1,7 @@
 {{Page_Title|websocket API}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -19,17 +20,17 @@
 <syntaxhighlight lang="javascript">
   var socket = new WebSocket('ws://localhost:8080/');
   socket.onopen = function () {
-      alert('Connected!');
+      console.log('Connected!');
   };
   socket.onmessage = function (event) {
-      alert('Received data: ' + event.data);
+      console.log('Received data: ' + event.data);
       socket.close();
   };
   socket.onclose = function () {
-      alert('Lost connection!');
+      console.log('Lost connection!');
   };
   socket.onerror = function () {
-      alert('Error!');
+      console.log('Error!');
   };
   socket.send('hello, world!');
 </syntaxhighlight>
