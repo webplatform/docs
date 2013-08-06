@@ -73,7 +73,9 @@ h2, h3 {
 |LiveURL=http://code.webplatform.org/gist/6158525
 }}{{Single Example
 |Language=CSS
-|Description=Assuming the main content is at div class="main" and contains h3s, and a section class="page" with 6 div class="region", the content will flow into these 6 regions.
+|Description=Currently, must use WebKit Nightly or Chrome Canary with experimental features enabled. 
+
+Assuming the main content is at div class="main" and contains h3s, and a section class="page" with 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
 
     flow-from: main;
