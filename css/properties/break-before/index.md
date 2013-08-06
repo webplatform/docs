@@ -75,7 +75,7 @@ h2, h3 {
 |Language=CSS
 |Description=Currently, must use WebKit Nightly or Chrome Canary with experimental features enabled. 
 
-Assuming the main content is at div class="main" and contains h3s, and a section class="page" with 6 div class="region", the content will flow into these 6 regions.
+Assuming the main content is at div class="main" and contains h3s, and 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
 
     flow-from: main;
