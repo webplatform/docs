@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -14,6 +12,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=backgroundOrigin
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=padding-box
