@@ -128,12 +128,6 @@ background-size: inherit
 An <code>auto</code> value for one dimension is resolved by using the image's intrinsic ratio and the size of the other dimension. If either of these values is not available, the image's intrinsic size is used. If the image's intrinsic size is not available, it is assigned the value of 100%. If both values are <code>auto</code>, use the intrinsic width, height, or both, of the image. If the image has neither an intrinsic width nor an intrinsic height, its size is determined as for <code>contain</code>.
 Negative values are not allowed.
 In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and '''background-size'''). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-|Import_Notes====Syntax===
-<code>'''background-size: '''auto '''{{!}}''' contain '''{{!}}''' cover '''{{!}}''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-''</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
