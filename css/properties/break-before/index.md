@@ -93,7 +93,7 @@ Assuming the main content is at div class="main" and contains h3s, and 6 div cla
     .
 }
 
-/* forces top-level headings into a new region */ 
+/* forces h3s into a new region */ 
 h3 {
     break-before: always;
     -webkit-break-before: always;
