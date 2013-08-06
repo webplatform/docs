@@ -103,6 +103,10 @@ var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
 |Browser=Chrome on Android
 |Version=18
 |Note=while window.Blob is defined, it can't be used as a constructor; you should fallback on BlobBuilder
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=6
+|Note=Blob constructor does not work correctly with ArrayViews. You always have to pass concrete ArrayBuffer to the constructor.
 }}
 }}
 {{See_Also_Section}}
