@@ -1,4 +1,4 @@
-{{Page_Title|Region}}
+{{Page_Title}}
 {{Flags
 |Checked_Out=No
 }}
