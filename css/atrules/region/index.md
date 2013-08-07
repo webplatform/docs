@@ -1,6 +1,5 @@
 {{Page_Title|@region}}
 {{Flags
-|High-level issues=Deletion Candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
