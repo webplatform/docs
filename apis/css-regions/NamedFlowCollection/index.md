@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Static snapshot array of a document's available named flows}}
+{{Summary_Section|Static snapshot array of a document's available [[css/concepts/named_flow|named flows]]}}
 {{API_Object
 |Subclass_of=dom/StaticNodeList
 }}
@@ -16,7 +16,7 @@
 |Code=var flow = document.getNamedFlows().namedItem('main');
 }}{{Single Example
 |Language=JavaScript
-|Description=Same as above, but iterates over the '''NamedFlowCollection''' object represented in a ''flows'' variable: 
+|Description=Same as above, but iterates over the '''NamedFlowCollection''' object represented in a ''flows'' variable:
 |Code=var flow;
 var flows = document.getNamedFlows();
 for (var i = 0; i < flows.length; i++) {
@@ -30,7 +30,9 @@ for (var i = 0; i < flows.length; i++) {
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
 }}
 {{Compatibility_Section
 |Not_required=No
