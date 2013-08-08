@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -25,10 +26,75 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''bottom''' attribute to set a '''div''' object 50 pixels from the bottom of the client area.
-|Code=&lt;DIV STYLE {{=}} "position:absolute; bottom:50px"&gt;
-. . .
-&lt;/DIV&gt;
+|Language=CSS
+|Description=We demonstrate the `bottom` property by positioning these elements.
+|Code=.container {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   * @see http://docs.webplatform.org/wiki/css/properties/position
+   */
+  position: relative;
+}
+
+.absolutely-positioned-within-container {
+  /**
+   * Object is positioned relative to nearest positioned ancestor—or
+   * to the initial containing block if no positioned ancestor exists.
+   * Here, the nearest positioned ancestor is the `<div class="container">`.
+   * @see .container (above)
+   * @see http://docs.webplatform.org/wiki/css/properties/position
+   */
+  position: absolute;
+  /**
+   * Offsets this element 50px above the container's bottom edge.
+   * Note: `length` can also be specified in other units of measurements.
+   */
+  bottom: 50px;
+}
+
+.absolutely-positioned-within-body {
+  /**
+   * Here, the nearest positioned anscestor does not exist, hence
+   * the coordinate system reference becomes the initial containing block,
+   * i.e. the `<body>`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 100px above the initial containing
+   * block's bottom edge i.e. the `<body>`'s bottom edge.
+   */
+  bottom: 100px;
+}
+
+.relatively-positioned {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   * @see http://docs.webplatform.org/wiki/css/properties/position
+   */
+  position: relative;
+  /**
+   * The layout for this element happens according to the normal flow.
+   * But because this element is positioned relatively, it will be
+   * offset 20px towards the left from where it would have been in
+   * the normal flow.
+   */
+  bottom: 20px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/6181867
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above style rules.
+|Code=&lt;article&gt;
+  &lt;h1&gt;&lt;code&gt;bottom&lt;/code&gt; example&lt;/h1&gt;
+  &lt;p&gt;The following example demostrates the various uses of the &lt;code&gt;bottom&lt;/code&gt; property. Learn more about it at the &lt;a href="http://docs.webplatform.org/wiki/css/properties/bottom"&gt;&lt;code&gt;bottom&lt;/code&gt;&lt;/a&gt; CSS properties page on Web Platform Docs!&lt;/p&gt;
+  &lt;div class="container"&gt;
+    &lt;p class="box absolutely-positioned-within-container"&gt;Absolutely positioned within &lt;code&gt;div.container&lt;/code&gt; at 50px above the bottom edge.&lt;/p&gt;
+    &lt;p class="box relatively-positioned"&gt;This is relatively positioned at 20px from the bottom.&lt;/p&gt;
+  &lt;/div&gt;
+  
+  &lt;p class="box absolutely-positioned-within-body"&gt;This is absolutely positioned within the &lt;code&gt;body&lt;/code&gt; at 50px above the bottom edge.&lt;/p&gt;
+&lt;/article&gt;
 }}
 }}
 {{Notes_Section
