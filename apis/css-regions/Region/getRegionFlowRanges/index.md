@@ -20,7 +20,7 @@
 |Language=JavaScript
 |Description=Check a region for interruptions in source content:
 |Code=// get flow
-var flow = document.getNamedFlows()['main'];
+var flow = document.getNamedFlows().namedItem('main');
 
 // get second region that displays content
 var region = flow.getRegions()[1];
