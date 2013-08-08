@@ -19,14 +19,20 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Retrieve the ''main'' flow from the document:
+|Code=flow = document.getNamedFlows().namedItem('main');
+}}
 }}
 {{Notes_Section
-|Usage=###
-|Notes=###
+|Usage=The [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] object is an array snapshot of a document's named flows. This method allows you to access a specific flow directly by its name, rather than by iterating over the array.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -37,6 +43,11 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with \
+HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS-Regions}}
 {{External_Attribution
