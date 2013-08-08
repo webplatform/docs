@@ -29,7 +29,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Check if the formatting of an element's property varies within a [[css/concepts/region_chain|region chain]]
-|Code=var flow = document.getNamedFlows()['sidebar'];
+|Code=var flow = document.getNamedFlows().namedItem('sidebar');
 var regions = flow.getRegions();
 var contents = flow.getContent();
 
