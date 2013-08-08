@@ -1,10 +1,9 @@
-{{Page_Title|fragment}}
+{{Page_Title|content fragments}}
 {{Flags
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|A contiguous stretch of content.
-}}
+{{Summary_Section|A contiguous stretch of content.}}
 {{Concept_Page
 |Content=A 'range' (or 'fragment') is a contiguous stretch of content
 within a document, one that may traverse DOM nodes arbitrarily. For
@@ -20,28 +19,17 @@ from adjacent regions within the [[css/concepts/region_chain|chain]].
 
 You can use the [[dom/traversal/Range|DOM Range API]] to
 programatically access such arbitrary stretches of content.
-
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|Specifications=
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
 {{Topics|CSS-Regions}}
 {{External_Attribution
