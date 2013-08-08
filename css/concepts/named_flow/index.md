@@ -31,6 +31,8 @@ element via the [[css/properties/flow-into|'''flow-into''']] property,
 but they do so according to the order in which they appear in the
 document.  Use the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
 interface to programatically access the named flow's content.
+
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Examples_Section
 |Not_required=Yes
