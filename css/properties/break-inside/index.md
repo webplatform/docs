@@ -26,7 +26,7 @@
 |Description=A column break is not allowed within the content block.
 }}{{CSS Property Value
 |Data Type=avoid-region
-|Description=A region break is not allowed within the content block.
+|Description=A [[css/concepts/region|region]] break is not allowed within the content block.
 }}
 }}
 {{Examples_Section
@@ -38,7 +38,7 @@ h1 {
     break-before: always;
 }
 
-/* binds subheads to subsequent content, 
+/* binds subheads to subsequent content,
    without necessarily forcing a page break */
 h2, h3 {
     break-after: avoid;
