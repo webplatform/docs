@@ -3,8 +3,7 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|A series of [[css/concepts/region|''regions'']] that display the contents of a [[css/concepts/named_flow|''named flow'']].
-}}
+{{Summary_Section|A series of [[css/concepts/region|''regions'']] that display the contents of a [[css/concepts/named_flow|''named flow'']].}}
 {{Concept_Page
 |Content=The 'CSS Regions' feature allows content to flow dynamically
 through a series of presentational block elements, known as
@@ -39,15 +38,13 @@ examining regions within the chain, which are available via the named
 flow's [[apis/css-regions/NamedFlow/getRegions|'''getRegions()''']]
 method.
 
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
