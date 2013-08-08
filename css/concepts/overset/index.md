@@ -26,8 +26,7 @@ by the [[css/properties/overflow|'''overflow''']] property.
 
 There are two ways to programatically detect overset state:
 
-* From the content side, if the [[css/concepts/named_flow|named flow's]] [[apis/css-regions/NamedFlow/overset|'''overset''']] property is '''true''', it means that it doesn't fully display within the
-  [[css/concepts/region_chain|region chain]], or that it has not been placed within any [[css/concepts/region|regions]].
+* From the content side, if the [[css/concepts/named_flow|named flow's]] [[apis/css-regions/NamedFlow/overset|'''overset''']] property is '''true''', it means that it doesn't fully display within the  [[css/concepts/region_chain|region chain]], or that it has not been placed within any [[css/concepts/region|regions]].
 
 * On the presentation side, if the final region element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property is '''overset''', some of its content can flow into another region if available.
 }}
