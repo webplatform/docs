@@ -22,7 +22,7 @@
 
 // deletes any empty regions from the end of a flow:
 function trimRegions(flowName) {
-    var flow = document.getNamedFlows()[flowName];
+    var flow = document.getNamedFlows().namedItem(flowName);
     var index = flow.firstEmptyRegionIndex;
     var regions = flow.getRegions();
     if (index == -1) return(false); // no empty regions?
