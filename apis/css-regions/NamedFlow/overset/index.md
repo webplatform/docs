@@ -5,14 +5,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates whether a [[css/concepts/named_flow|flow's]] content exceeds available space within a [[css/concepts/region_chain|region chain]], or if no available region chain in which to flow content exists.}}
+{{Summary_Section|Indicates whether a [[css/concepts/named_flow|flow's]] content exceeds available space within a [[css/concepts/region_chain|region chain]], or if no available chain in which to flow content exists.}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=exceedsRegions
 |Javascript_data_type=Boolean
-|Return_value_description=Indicates whether a flow's content exceeds available space within a [[css/concepts/region_chain|region chain]]. Also indicates when no [[css/concepts/region_chain|region chain]] is available in which to flow content.
+|Return_value_description=Indicates whether a flow's content exceeds available space within a [[css/concepts/region_chain|region chain]]. Also indicates when no chain is available in which to flow content.
 }}
 {{Examples_Section
 |Not_required=No
