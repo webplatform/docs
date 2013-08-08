@@ -15,6 +15,7 @@
 |Method_applies_to=apis/css-regions/NamedFlowCollection
 |Example_object_name=flows
 |Return_value_name=flow
+|Javascript_data_type=DOM Node
 |Return_value_description=the [[apis/css-regions/NamedFlow|'''NamedFlow''']] object that corresponds to the specified name
 }}
 {{Examples_Section
