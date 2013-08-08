@@ -29,7 +29,7 @@ you to programatically identify the latter
 allows you to identify both cases, '''empty''' or '''overset''', by
 examining regions within the chain, which are available via the named
 flow's [[apis/css-regions/NamedFlow/getRegions|'''getRegions()''']]
-method.}}
+method.
 {{Examples_Section
 |Not_required=Yes
 |Examples=
