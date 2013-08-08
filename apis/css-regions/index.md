@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Programmatic interface to content that flows through a series of chained ''region'' elements, as specified by  [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] CSS properties.}}
+{{Summary_Section|Programmatic interface to [[css/concepts/named_flow|content that flows]] through a series of [[css/concepts/region_chain|chained]] [[css/concepts/region|'region']] elements.}}
 {{API_Listing|Query=[[Category:CSS-Regions]][[Category:API_Objects]]
 |Use_page_title=Yes
 |List_all_subpages=No
@@ -16,23 +16,24 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=CSS Regions are defined by
-[[css/properties/flow-into|'''flow-into''']] and
-[[css/properties/flow-from|'''flow-from''']] CSS properties.  The
+|Usage=CSS Regions are defined by two CSS properties.  The
 [[css/properties/flow-into|'''flow-into''']] property diverts content
-into a ''named flow'', while the
+into a [[css/concepts/named_flow|'named flow']], and the
 [[css/properties/flow-from|'''flow-from''']] property pours that
-flow's content through a dynamic chain of ''region'' elements.  The
-feature allows content to follow a path through arbitrarily placed
-magazine-style layout elements.
+flow's content through a dynamic [[css/concepts/region_chain|chain]]
+of [[css/concepts/region|'region']] elements.  The feature allows
+content to follow a path through arbitrarily placed magazine-style
+layout elements.
 
-The following interfaces allow programmatic access to the CSS Regions feature:
+Basic usage:
 
-* A [[apis/css-regions/Document/getNamedFlows|'''getNamedFlows()''']] method supplements the [[dom/apis/document|'''Document''']] interface.
+* The [[apis/css-regions/Document/getNamedFlows|'''getNamedFlows()''']] method, available via the [[dom/apis/document|'''Document''']] interface, retrieves all of a document's named flows as a [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']].
 
-* The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].  
+* Iterate over the [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] as an array, or use [[apis/css-regions/NamedFlowCollection/namedItem|'''namedItem''']] to access each [[apis/css-regions/NamedFlow|'''NamedFlow''']] by its name.
 
-* The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain.
+* The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']].
+
+* The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain, and allows access to [[css/concept/fragment|fragments]] of content that dynamically appear there.
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
