@@ -31,7 +31,6 @@
 |Code=.container {
   /**
    * Object is positioned according to the normal flow, and then offset.
-   * @see http://docs.webplatform.org/wiki/css/properties/position
    */
   position: relative;
 }
@@ -40,9 +39,7 @@
   /**
    * Object is positioned relative to nearest positioned ancestor—or
    * to the initial containing block if no positioned ancestor exists.
-   * Here, the nearest positioned ancestor is the `<div class="container">`.
-   * @see .container (above)
-   * @see http://docs.webplatform.org/wiki/css/properties/position
+   * Here, the nearest positioned ancestor is the `&lt;div class="container"^gt;`.
    */
   position: absolute;
   /**
@@ -56,12 +53,12 @@
   /**
    * Here, the nearest positioned anscestor does not exist, hence
    * the coordinate system reference becomes the initial containing block,
-   * i.e. the `<body>`.
+   * i.e. the `&lt;body&gt;`.
    */
   position: absolute;
   /**
    * Offsets this element 100px above the initial containing
-   * block's bottom edge i.e. the `<body>`'s bottom edge.
+   * block's bottom edge i.e. the `&lt;body&gt;`'s bottom edge.
    */
   bottom: 100px;
 }
@@ -69,7 +66,6 @@
 .relatively-positioned {
   /**
    * Object is positioned according to the normal flow, and then offset.
-   * @see http://docs.webplatform.org/wiki/css/properties/position
    */
   position: relative;
   /**
@@ -80,21 +76,7 @@
    */
   bottom: 20px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/6181867
-}}{{Single Example
-|Language=HTML
-|Description=The HTML for the above style rules.
-|Code=&lt;article&gt;
-  &lt;h1&gt;&lt;code&gt;bottom&lt;/code&gt; example&lt;/h1&gt;
-  &lt;p&gt;The following example demostrates the various uses of the &lt;code&gt;bottom&lt;/code&gt; property. Learn more about it at the &lt;a href="http://docs.webplatform.org/wiki/css/properties/bottom"&gt;&lt;code&gt;bottom&lt;/code&gt;&lt;/a&gt; CSS properties page on Web Platform Docs!&lt;/p&gt;
-  &lt;div class="container"&gt;
-    &lt;p class="box absolutely-positioned-within-container"&gt;Absolutely positioned within &lt;code&gt;div.container&lt;/code&gt; at 50px above the bottom edge.&lt;/p&gt;
-    &lt;p class="box relatively-positioned"&gt;This is relatively positioned at 20px from the bottom.&lt;/p&gt;
-  &lt;/div&gt;
-  
-  &lt;p class="box absolutely-positioned-within-body"&gt;This is absolutely positioned within the &lt;code&gt;body&lt;/code&gt; at 50px above the bottom edge.&lt;/p&gt;
-&lt;/article&gt;
 }}
 }}
 {{Notes_Section
