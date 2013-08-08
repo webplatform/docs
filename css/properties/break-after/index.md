@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -125,7 +126,7 @@ h2, h3 {
 *&amp;lt;code>[[css/properties/break-before|breakBefore]]&amp;lt;/code>
 *&amp;lt;code>[[css/properties/break-inside|breakInside]]&amp;lt;/code>
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
