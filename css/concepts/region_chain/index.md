@@ -54,6 +54,7 @@ method.
 |URL=http://dev.w3.org/csswg/css3-regions/
 |Status=W3C Editor's Draft
 }}
+}}
 {{See_Also_Section
 |Topic_clusters=Regions
 |External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
