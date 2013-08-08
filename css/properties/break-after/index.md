@@ -41,22 +41,22 @@
 |Description=A column break is not allowed after the content block.
 }}{{CSS Property Value
 |Data Type=region
-|Description=A region break is inserted (forced) after the content block.
+|Description=A [[css/concepts/region|region]] break is inserted (forced) after the content block.
 }}{{CSS Property Value
 |Data Type=avoid-region
-|Description=A region break is not allowed after the content block.
+|Description=A [[css/concepts/region|region]] break is not allowed after the content block.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* forces top-level headings onto a new page, column, or region */ 
+|Code=/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
 }
 
-/* binds subheads to subsequent content, 
+/* binds subheads to subsequent content,
    without necessarily forcing a page break */
 h2, h3 {
     break-after: avoid;
