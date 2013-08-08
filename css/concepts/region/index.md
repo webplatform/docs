@@ -5,7 +5,6 @@
 {{API_Name}}
 {{Summary_Section|The 'CSS Regions' feature allows content to flow dynamically through a series of presentational block elements, known as [[css/concepts/region|''regions'']], allowing for complex magazine-style layouts.}}
 {{Concept_Page
-
 |Content=Two CSS properties make it work. The
 [[css/properties/flow-into|'''flow-into''']] property diverts content
 into a [[css/concepts/named_flow|''named flow'']]. The
@@ -40,15 +39,13 @@ access each region within a chain, and the
 [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface to access the
 overall content that flows within the chain.
 
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
