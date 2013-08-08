@@ -23,7 +23,7 @@ object when there is 'any' change in how content flows through a
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=document.getNamedFlows()['main'].addEventListener('regionfragmentchange', modifyFlow);
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', modifyFlow);
 
 // dispatches functions to add/delete regions based on changes to how
 // content flows through a region chain:
@@ -40,7 +40,6 @@ function modifyFlow(e) {
 }}
 }}
 {{Notes_Section
-
 |Notes=The event fires when content shifts 'in any way' within the
 [[css/concepts/region_chain|region chain]], such as when linebreaks change. That is, when any
 [[css/concepts/region|region's]] [[apis/css-regions/Region/getRegionFlowRanges|collection of
@@ -49,7 +48,6 @@ with the
 [[apis/css-regions/NamedFlow/regionoversetchange|'''regionoversetchange''']]
 event, which fires much less frequently in response to changing
 content or dimensions.)
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
