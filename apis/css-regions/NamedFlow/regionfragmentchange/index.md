@@ -1,26 +1,29 @@
-{{Page_Title}}
+{{Page_Title|regionfragmentchange}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.}}
+{{Summary_Section|Fires on the  [[apis/css-regions/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a [[css/concepts/region_chain|region chain]].}}
 {{Event
 |Event_applies_to=apis/css-regions/NamedFlow
-|Content=Fires on the  [[css/cssom/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a region chain.
-|Interface=TBD
-|Target=dom/Element
-|Default_action=TBD
-|Synchronous=TBD
-|Bubbles=TBD
-|Cancelable=TBD
+|Content=Fires on the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
+object when there is 'any' change in how content flows through a
+[[css/concepts/region_chain|region chain]], even minor changes that don't affect the total number of
+[[css/concepts/region|regions]] the content requires.
+|Interface=UIEvent
+|Target=[[apis/css-regions/NamedFlow|'''NamedFlow''']]
+|Default_action=none
+|Synchronous=No
+|Bubbles=No
+|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFlow);
+|Code=document.getNamedFlows()['main'].addEventListener('regionfragmentchange', modifyFlow);
 
 // dispatches functions to add/delete regions based on changes to how
 // content flows through a region chain:
@@ -37,11 +40,16 @@ function modifyFlow(e) {
 }}
 }}
 {{Notes_Section
-|Notes=The event may fire under either of the following scenarios:
 
-* Less frequently, when content flows in to fill a new region, flows out to leave one empty, or exceeds the last available region's dimensions. That is, when any region's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] state changes.
+|Notes=The event fires when content shifts 'in any way' within the
+[[css/concepts/region_chain|region chain]], such as when linebreaks change. That is, when any
+[[css/concepts/region|region's]] [[apis/css-regions/Region/getRegionFlowRanges|collection of
+DOM Range fragments]] changes their dimensions or offsets.  (Compare
+with the
+[[apis/css-regions/NamedFlow/regionoversetchange|'''regionoversetchange''']]
+event, which fires much less frequently in response to changing
+content or dimensions.)
 
-* More frequently, when content shifts in any way within the region chain, such as when linebreaks change. That is, when any region's [[apis/css-regions/Region/getRegionFlowRanges|collection of DOM Range fragments]] changes their dimensions or offsets.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
