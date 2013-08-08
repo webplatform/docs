@@ -23,9 +23,7 @@ into a [[css/concepts/named_flow|''named flow'']], and the
 flow's content through a dynamic [[css/concepts/region_chain|chain]]
 of [[css/concepts/region|''region'']] elements.  The feature allows
 content to follow a path through arbitrarily placed magazine-style
-layout elements.
-
-Basic usage:
+layout elements. Use as follows:
 
 * The [[apis/css-regions/Document/getNamedFlows|'''getNamedFlows()''']] method, available via the [[dom/apis/document|'''Document''']] interface, retrieves all of a document's named flows as a [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']].
 
