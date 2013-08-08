@@ -1,18 +1,18 @@
-{{Page_Title}}
+{{Page_Title|getContent()}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a collection of nodes representing the flow's source content.}}
+{{Summary_Section|Returns a static collection of nodes representing the [[css/concepts/named_flow|flow's]] source content.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/NamedFlow
 |Example_object_name=flow
 |Return_value_name=elements
 |Javascript_data_type=function
-|Return_value_description=Returns a collection of nodes representing the flow's source content.
+|Return_value_description=Returns a static collection of nodes representing the flow's source content.
 }}
 {{Examples_Section
 |Not_required=No
