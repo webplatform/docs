@@ -20,7 +20,7 @@
 |Language=JavaScript
 |Description=Get the last source element whose [[css/properties/flow-into|'''flow-into''']] adds it to the flow:
 |Code=// get flow:
-var flow = document.getNamedFlows()['main'];
+var flow = document.getNamedFlows().namedItem('main');
 // get all flow-into elements:
 var elements = flow.getContent();
 // of these, get last element:
