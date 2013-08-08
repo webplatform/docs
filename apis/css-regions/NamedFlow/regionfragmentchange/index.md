@@ -23,20 +23,55 @@ object when there is 'any' change in how content flows through a
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', modifyFlow);
+|Description=L
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
 
-// dispatches functions to add/delete regions based on changes to how
-// content flows through a region chain:
+}}{{Single Example
+|Language=HTML
+|Code=<html>
+<body>
+<section class="page">
+    <div> <h1>Region #1</h1> </div>
+    <div> <h1>Region #2</h1> </div>
+    <aside></aside>
+</section>
+<article>
+<h1>Sample CSS Regions Layout</h1>
+<p>Riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.</p>
+<p>...</p>
+</article>
+</body>
+</html>
 
-function modifyFlow(e) {
-    var flow = e.target;
-    if (flow.overset) {
-      	appendRegion(flow.name); // custom function
-    }
-    else if (flow.firstEmptyRegionIndex !== -1)	{
-        trimRegions(flow.name); // custom function
-    }
+}}{{Single Example
+|Language=CSS
+|Code=body { background: #aaa; }
+article { flow-into: main; }
+
+div {
+    flow-from: main;
+    region-fragment: break;
+    top: 5%;
+    width: 40%;
+    height: 75%;
 }
+
+div, aside {
+    position: absolute;
+    background: #fff;    
+    padding: 1em;
+    border-radius: 1em;
+}
+
+aside {
+    min-width: 40%;
+    left: 5%;
+    top: 90%;
+}
+
+div:first-of-type { left: 5%; }
+div:last-of-type { left: 55%; }
+
 }}
 }}
 {{Notes_Section
