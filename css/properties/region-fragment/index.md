@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Controls whether the last ''region'' in a chain displays additional ''overset'' content according its default [[css/properties/overflow|'''overflow''']] property, or	if it displays a fragment of content as if it were flowing into a subsequent region.}}
+{{Summary_Section|Controls whether the last [[css/concepts/region|''region'']] in a [[css/concepts/region_chain|chain]] displays additional 'overset' content according its default [[css/properties/overflow|'''overflow''']] property, or	if it displays a [[css/concepts/fragment|fragment]] of content as if it were flowing into a subsequent region.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
@@ -16,10 +16,10 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Region element displays overset content according to its [[css/properties/overflow|'''overflow''']] property.
+|Description=Region element displays [[css/concepts/overset|overset]] content according to its [[css/properties/overflow|'''overflow''']] property.
 }}{{CSS Property Value
 |Data Type=break
-|Description=Region element overrides [[css/properties/overflow|'''overflow''']] property, displaying whatever fragment of overset content can fit within the region.
+|Description=Region element overrides [[css/properties/overflow|'''overflow''']] property, displaying whatever fragment of [[css/concepts/overset|overset]] content can fit within the region.
 }}
 }}
 {{Examples_Section
@@ -27,13 +27,13 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=In the following example, ''region_1'' can accommodate the article's gray text, ''region_2'' can	accommodate the blue text, and the red	''overset'' text does not fit within the region chain:
+|Usage=In the following example, 'region_1' can accommodate the article's gray text, 'region_2' can	accommodate the blue text, and the red	'overset' text does not fit within the [[css/concepts/region_chain|region chain]]:
 
 [[Image:region_fragment.png]]
 
-Setting '''region-fragment''' to '''break''' suppresses display of the overset text, as shown in the example at the bottom.  Setting '''region-fragment''' to its default '''auto''' value makes overset content display according to whatever [[css/properties/overflow|'''overflow''']] property is defined, as shown in the two examples on the right. Even '''overflow:hidden''' may display part of the first line of overset text.
+Setting '''region-fragment''' to '''break''' suppresses display of the [[css/concepts/overset|overset]] text, as shown in the example at the bottom.  Setting '''region-fragment''' to its default '''auto''' value makes overset content display according to whatever [[css/properties/overflow|'''overflow''']] property is defined, as shown in the two examples on the right. Even '''overflow:hidden''' may display part of the first line of overset text.
 
-The property only applies to the final element in a ''region chain'' that is not large enough to accomodate remaining content. To behave as a ''region'', the element's [[css/properties/flow-from|'''flow-from''']] must specify a named flow, and display content from a corresponding [[css/properties/flow-into|'''flow-into''']].
+The property only applies to the final element in a [[css/concepts/region_chain|''region chain'']] that is not large enough to accomodate remaining content. To behave as a 'region', the element's [[css/properties/flow-from|'''flow-from''']] must specify a [[css/concepts/named_flow|named flow]], and display content from a corresponding [[css/properties/flow-into|'''flow-into''']].
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 |Notes=This property was formerly named '''region-overflow'''.
