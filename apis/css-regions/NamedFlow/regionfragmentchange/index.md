@@ -22,11 +22,8 @@ object when there is 'any' change in how content flows through a
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=L
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
-}}{{Single Example
 |Language=HTML
+|Description=This HTML works with the CSS and JavaScript that follow. Define layout and content elements:
 |Code=&lt;html>
 &lt;body>
 &lt;section class="page">
@@ -43,6 +40,7 @@ object when there is 'any' change in how content flows through a
 &lt;/html>
 }}{{Single Example
 |Language=CSS
+|Description=Flow the content into the layout:
 |Code=body { background: #aaa; }
 article { flow-into: main; }
 
@@ -69,6 +67,10 @@ aside {
 
 div:first-of-type { left: 5%; }
 div:last-of-type { left: 55%; }
+}}{{Single Example
+|Language=JavaScript
+|Description=Log to console any shifts of content from one region to another that result when resizing the layout elements.
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
 }}
 }}
 {{Notes_Section
