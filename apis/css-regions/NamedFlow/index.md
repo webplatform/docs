@@ -5,15 +5,15 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Represents content to flow among various block ''region'' elements. The '''NamedFlow''' interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.}}
+{{Summary_Section|Represents content to flow among various block [[css/concepts/region|'region']] elements. The '''NamedFlow''' interface allows access to both the content of the [[css/concepts/named_flow|flow]] and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a region chain:
-|Code=document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFlow);
-document.getNamedFlows()['figures'].addEventListener('regionlayoutupdate', modifyFlow);
+|Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [[css/concepts/region_chain|region chain]]:
+|Code=document.getNamedFlows()['main'].addEventListener('regionoversetchange', modifyFlow);
+document.getNamedFlows()['figures'].addEventListener('regionoversetchange', modifyFlow);
 
 function modifyFlow(e) {
     var flow = e.target;
@@ -30,7 +30,7 @@ function modifyFlow(e) {
 |Language=JavaScript
 |Description=Check if the opening paragraph splits across layout elements:
 |Code=// get flow
-var flow = document.webkitGetNamedFlows()['main'];
+var flow = document.getNamedFlows()['main'];
 
 // get all top-level flow-into elements that contribute to flow:
 var elements = flow.getContent();
@@ -49,9 +49,9 @@ if (regions.length > 1) {
 }}
 }}
 {{Notes_Section
-|Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a chain of ''regions'' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
+|Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a [[css/concepts/region_chain|chain]] of 'regions' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
 
-Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather named flows from a document.
+Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather [[css/concepts/named_flow|named flows]] from a document.
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
