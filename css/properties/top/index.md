@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -29,18 +29,58 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''top''' attribute and the '''top''' property to change the position of the object.
+|Language=CSS
+|Description=We demonstrate the `top` property by positioning the elements.
+|Code=
+.container {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+}
 
-This example uses an inline style to set the position of a '''div''' object.
-|Code=&lt;DIV STYLE{{=}}"position:absolute;top:100px"&gt;
-. . . &lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/top_h.htm
-}}{{Single Example
-|Description=This example uses inline script to change the position of the image set by an inline style. The change occurs during [[dom/events/mouseover|'''onmouseover''']] and [[dom/events/mouseout|'''onmouseout''']] events.
-|Code=&lt;IMG SRC{{=}}"cone.jpg" STYLE{{=}}"position:absolute; 
-    top:80px;" onmouseover{{=}}"this.style.top{{=}}'100px''"    
-    onmouseout{{=}}"this.style.top{{=}}'80px'" &gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/top_s.htm
+.absolutely-positioned-within-container {
+  /**
+   * Object is positioned relative to nearest positioned ancestor—or
+   * to the initial containing block if no positioned ancestor exists.
+   * Here, the nearest positioned ancestor is the `div.container`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 25px below the container's top edge.
+   * Note: `length` can also be specified in other units of measurements.
+   */
+  top: 25px;
+}
+
+.absolutely-positioned-within-body {
+  /**
+   * Here, the nearest positioned anscestor does not exist, hence
+   * the coordinate system reference becomes the initial containing block,
+   * i.e. the `body`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 350px below the initial containing block's top edge,
+   * i.e. the `body`.
+   */
+  top: 350px;
+}
+
+.relatively-positioned {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+  /**
+   * The layout for this element happens according to the normal flow.
+   * But because this element is positioned relatively, it will be
+   * offset 100px below from where it would have been in the normal flow.
+   */
+  top: 100px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/6171243
 }}
 }}
 {{Notes_Section
