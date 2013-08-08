@@ -1,11 +1,11 @@
-{{Page_Title}}
+{{Page_Title|getComputedRegionStyle()}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
+{{Summary_Section|Returns styles calculated for an element as it appears within a [[css/concepts/region|region]], including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -28,7 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Check if the formatting of an element's property varies within a region chain
+|Description=Check if the formatting of an element's property varies within a [[css/concepts/region_chain|region chain]]
 |Code=var flow = document.getNamedFlows()['sidebar'];
 var regions = flow.getRegions();
 var contents = flow.getContent();
