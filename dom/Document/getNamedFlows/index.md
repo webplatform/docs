@@ -1,7 +1,6 @@
 {{Page_Title|getNamedFlows()}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -20,7 +19,7 @@
 |Language=JavaScript
 |Description=Various ways to access [[css/concepts/named_flow|named flows]]:
 |Code=var flow, flows;
-flow = document.getNamedFlows()["main"]; // typically by name
+flow = document.getNamedFlows().namedItem("main"); // typically by name
 flow = document.getNamedFlows().item(0);
 flow = document.getNamedFlows()[0];
 
@@ -106,7 +105,7 @@ for (var i = 0; i < flows.length; i++) {
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
