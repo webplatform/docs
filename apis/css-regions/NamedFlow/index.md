@@ -12,8 +12,8 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [[css/concepts/region_chain|region chain]]:
-|Code=document.getNamedFlows()['main'].addEventListener('regionoversetchange', modifyFlow);
-document.getNamedFlows()['figures'].addEventListener('regionoversetchange', modifyFlow);
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
+document.getNamedFlows().namedItem('figures').addEventListener('regionoversetchange', modifyFlow);
 
 function modifyFlow(e) {
     var flow = e.target;
@@ -30,7 +30,7 @@ function modifyFlow(e) {
 |Language=JavaScript
 |Description=Check if the opening paragraph splits across layout elements:
 |Code=// get flow
-var flow = document.getNamedFlows()['main'];
+var flow = document.getNamedFlows().namedItem('main');
 
 // get all top-level flow-into elements that contribute to flow:
 var elements = flow.getContent();
