@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -27,17 +27,59 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''left''' attribute and the '''left''' property to change the position of the object.
+|Language=CSS
+|Description=We demonstrate the `left` property by positioning the elements.
+|Code=
+.container {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+}
 
-This example uses an inline style sheet to set the position of an image 100 pixels to the right of the parent object's left edge.
-|Code=&lt;DIV STYLE{{=}}"position:absolute;left:100px"&gt;
-&lt;IMG SRC{{=}}"cone.jpg"&gt;&lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/left_h.htm
-}}{{Single Example
-|Description=This example uses inline scripting to change the position of two images when an [[dom/events/click|'''onclick''']] event occurs.
-|Code=&lt;BUTTON onclick{{=}}"cone.style.left{{=}}'100px'; sphere.style.left{{=}}'200px'"&gt;
-. . .&lt;/BUTTON&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/left_s.htm
+.absolutely-positioned-within-container {
+  /**
+   * Object is positioned relative to nearest positioned ancestor—or
+   * to the initial containing block if no positioned ancestor exists.
+   * Here, the nearest positioned ancestor is the `div.container`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 25px towards the left from the container's left edge.
+   * Note: `length` can also be specified in other units of measurements.
+   */
+  left: 25px;
+}
+
+.absolutely-positioned-within-body {
+  /**
+   * Here, the nearest positioned anscestor does not exist, hence
+   * the coordinate system reference becomes the initial containing block,
+   * i.e. the `body`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 350px towards the left of the initial containing
+   * block's left edge i.e. the `body`'s left edge.
+   */
+  left: 350px;
+}
+
+.relatively-positioned {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+  /**
+   * The layout for this element happens according to the normal flow.
+   * But because this element is positioned relatively, it will be
+   * offset 300px towards the left from where it would have been in
+   * the normal flow.
+   */
+  left: 300px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/6181854
 }}
 }}
 {{Notes_Section
