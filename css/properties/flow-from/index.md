@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Flows content from a named flow (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic chain of layout ''regions''.}}
+{{Summary_Section|Flows content from a [[css/concepts/named_flow|named flow]] (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic [[css/concepts/region_chain|chain]] of layout [[css/concepts/region|''regions'']].}}
 {{CSS Property
 |Initial value=none
 |Applies to=Non-replaced block containers. (May expand in the future to include other containers.)
@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<ident>
-|Description=Identifier that replaces content from specified named flow, flowing it from one ''region'' element to another.
+|Description=Identifier that replaces content from specified named flow, flowing it from one [[css/concepts/region|''region'']] element to another.
 }}{{CSS Property Value
 |Data Type=none
 |Description=This container is not a region. Keeps element as is, and does not transform it into a region and replace its content.
@@ -36,7 +36,7 @@ section.layout > div {
 }
 }}{{Single Example
 |Language=HTML
-|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
+|Description=...flows the article through the series of '''div''' elements, transforming them into [[css/concepts/region|''regions'']] and replacing the placeholder text:
 |Code=<!-- CONTENT -->
 
 <article class="content">
@@ -55,7 +55,7 @@ section.layout > div {
 }}
 }}
 {{Notes_Section
-|Usage=While regions can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
+|Usage=While [[css/concepts/region|regions]] can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
 
 Descendants of any element whose [[css/properties/flow-from|'''flow-from''']] specifies a named flow are suppressed from display, making their own [[css/properties/flow-from|'''flow-from''']] values irrelevant.
 
