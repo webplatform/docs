@@ -3,12 +3,9 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Refers to a situation in which the final [[css/concepts/region|''region'']] of a [[css/concepts/region_chain|''region chain'']] is unable to fully display remaining content of a [[css/concepts/named_flow|''named flow'']].
-}}
+{{Summary_Section|Refers to a situation in which the final [[css/concepts/region|''region'']] of a [[css/concepts/region_chain|''region chain'']] is unable to fully display remaining content of a [[css/concepts/named_flow|''named flow'']].}}
 {{Concept_Page
-|Content=
-
-The 'CSS Regions' feature allows content to flow dynamically through
+|Content=The 'CSS Regions' feature allows content to flow dynamically through
 a series of presentational block elements, known as
 [[css/concepts/region|''regions'']], allowing for complex
 magazine-style layouts. This [[css/concepts/region_chain|'region
@@ -33,30 +30,18 @@ There are two ways to programatically detect overset state:
 
 * On the presentation side, if the final region element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property is '''overset''', some of its content can flow into another region if available.
 
-
+For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|Specifications=
 }}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|CSS-Regions}}
+{{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
