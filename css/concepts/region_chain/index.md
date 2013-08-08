@@ -23,13 +23,15 @@ neatly display a [[css/concepts/named_flow|named flow]]'s content.
 The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface's
 [[apis/css-regions/NamedFlow/overset|'''overset''']] property allows
 you to programatically identify the latter
-[[css/concepts/overset|''overset''] case for a body of content.  The
+[[css/concepts/overset|''overset'']] case for a body of content.  The
 [[apis/css-regions/Region|'''Region''']] interface's
 [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property
 allows you to identify both cases, '''empty''' or '''overset''', by
 examining regions within the chain, which are available via the named
 flow's [[apis/css-regions/NamedFlow/getRegions|'''getRegions()''']]
 method.
+
+}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
