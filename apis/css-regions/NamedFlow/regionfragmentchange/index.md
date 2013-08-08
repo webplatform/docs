@@ -23,7 +23,7 @@ object when there is 'any' change in how content flows through a
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example works with the CSS and JavaScript that follow. Define layout and content elements:
+|Description=This simple example logs each time content reflows among regions, and works with the CSS and JavaScript that follow. Define layout and content elements:
 |Code=&lt;html>
 &lt;body>
 &lt;section class="page">
@@ -71,7 +71,7 @@ div:last-of-type { left: 55%; }
 |LiveURL=http://letmespellitoutforyou.com/samples/region_fragmentchange.html
 }}{{Single Example
 |Language=JavaScript
-|Description=Log to console any shifts of content from one region to another that result when resizing the layout elements.
+|Description=Log to console any shifts of content from one region to another that result when resizing the window, and thus the layout elements.
 |Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
 |LiveURL=http://letmespellitoutforyou.com/samples/region_fragmentchange.html
 }}
