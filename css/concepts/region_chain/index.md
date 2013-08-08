@@ -1,4 +1,4 @@
-{{Page_Title|region chain}}
+{{Page_Title|region chains}}
 {{Flags
 |Checked_Out=No
 }}
@@ -6,21 +6,29 @@
 {{Summary_Section|A series of [[css/concepts/region|''regions'']] that display the contents of a [[css/concepts/named_flow|''named flow'']].
 }}
 {{Concept_Page
-|Content=The ''CSS Regions'' feature allows content to flow
-dynamically through a series of presentational block elements, known
-as [[css/concepts/region|''regions'']], allowing for complex
-magazine-style layouts. Each available
-[[css/concepts/named_flow|''named flow'']], identified by content
-elements' [[css/properties/flow-into|'''flow-into''']] property,
-threads through a chain of block elements whose
+|Content=The 'CSS Regions' feature allows content to flow dynamically
+through a series of presentational block elements, known as
+[[css/concepts/region|''regions'']], allowing for complex magazine-style
+layouts. Each available [[css/concepts/named_flow|''named flow'']],
+identified by content elements'
+[[css/properties/flow-into|'''flow-into''']] property, threads through
+a [[css/concepts/region_chain|chain]] of block elements whose
 [[css/properties/flow-from|'''flow-from''']] property matches.
 Regardless of how each region is positioned, content threads through
-the region chain in ''DOM order'', the order in which regions are
-declared within the HTML document.
+the [[css/concepts/region_chain|region chain]] in 'DOM order', the
+order in which regions are declared within the HTML document.
 
-A region chain may have either not enough or too many elements to
-neatly display a [[css/concepts/named_flow|named flow]]'s content.
-The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface's
+The following shows a complex layout featuring a series of regions,
+with a named flow's content threading through regions ''1'' through
+''4'', which form a chain. A separate named flow is assigned to the
+single-element region chain labeled ''A'':
+
+[[Image:regions.png|400px]]
+
+A [[css/concepts/region_chain|region chain]] may have either not
+enough or too many elements to neatly display a
+[[css/concepts/named_flow|named flow]]'s content.  The
+[[apis/css-regions/NamedFlow|'''NamedFlow''']] interface's
 [[apis/css-regions/NamedFlow/overset|'''overset''']] property allows
 you to programatically identify the latter
 [[css/concepts/overset|''overset'']] case for a body of content.  The
@@ -41,7 +49,10 @@ method.
 |Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
