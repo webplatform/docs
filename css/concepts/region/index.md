@@ -8,6 +8,8 @@
 
 |Content=
 
+[[Image:regions.png|400px]]
+
 Two CSS properties make it work. The
 [[css/properties/flow-into|'''flow-into''']] property diverts content
 into a [[css/concepts/named_flow|''named flow'']]. The
