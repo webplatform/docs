@@ -21,7 +21,7 @@
 |Code=// adds a region element to a prescribed container
 // if there aren't already enough to display all content
 function appendRegion(flowName) {
-    var flow = document.getNamedFlows()[flowName];
+    var flow = document.getNamedFlows().namedItem(flowName);
     var layout = document.querySelector('#layout_wrapper');
     var region;
 
