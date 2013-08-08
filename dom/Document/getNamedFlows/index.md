@@ -1,31 +1,31 @@
 {{Page_Title|getNamedFlows()}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=NamedFlowCollection not in list of return value types
+|Editorial notes=
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Gathers [[apis/css-regions/NamedFlow|'''NamedFlow''']] objects, each representing a set of content that flows through various layout regions.}}
+{{Summary_Section|Gathers [[apis/css-regions/NamedFlow|'''NamedFlow''']] objects, each representing a set of content that flows through various layout [[css/concepts/region|regions]].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=flows
 |Javascript_data_type=DOM Node
-|Return_value_description=Returns a '''NamedFlowCollection''' object accessible via standard array methods. Each member is a [[apis/css-regions/NamedFlow|'''NamedFlow''']] instance representing a set of content that flows through various layout regions.
+|Return_value_description=Returns a static [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] object accessible via standard array methods. Each member is a [[apis/css-regions/NamedFlow|'''NamedFlow''']] instance representing a set of content that flows through various layout [[css/concepts/region|regions]].
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Various ways to access named flows:
+|Description=Various ways to access [[css/concepts/named_flow|named flows]]:
 |Code=var flow, flows;
 flow = document.getNamedFlows()["main"]; // typically by name
 flow = document.getNamedFlows().item(0);
 flow = document.getNamedFlows()[0];
 
 flows = document.getNamedFlows();
-for (var i = 0; i &lt; flows.length; i++) {
+for (var i = 0; i < flows.length; i++) {
     flow = flows[i];
     // do something with flow
 }
