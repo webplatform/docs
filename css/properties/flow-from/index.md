@@ -145,7 +145,7 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 * [http://codepen.io/collection/jabto Additional examples on codpen.io]. This experimental feature is in WebKit (Chrome and Safari) and Trident (Internet Explorer). Enable experimental features to see how CSS Regions works.
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
