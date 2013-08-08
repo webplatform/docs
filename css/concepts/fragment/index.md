@@ -6,9 +6,7 @@
 {{Summary_Section|A contiguous stretch of content.
 }}
 {{Concept_Page
-|Content=
-
-A ''range'' (or ''fragment'') is a contiguous stretch of content
+|Content=A 'range' (or 'fragment') is a contiguous stretch of content
 within a document, one that may traverse DOM nodes arbitrarily. For
 example, a user may select a stretch of text that starts in the middle
 of one paragraph, and ends in the middle of another. CSS styling may
@@ -33,7 +31,10 @@ programatically access such arbitrary stretches of content.
 |Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
