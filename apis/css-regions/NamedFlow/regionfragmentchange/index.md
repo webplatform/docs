@@ -25,24 +25,22 @@ object when there is 'any' change in how content flows through a
 |Language=JavaScript
 |Description=L
 |Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
-
 }}{{Single Example
 |Language=HTML
-|Code=<html>
-<body>
-<section class="page">
-    <div> <h1>Region #1</h1> </div>
-    <div> <h1>Region #2</h1> </div>
-    <aside></aside>
-</section>
-<article>
-<h1>Sample CSS Regions Layout</h1>
-<p>Riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.</p>
-<p>...</p>
-</article>
-</body>
-</html>
-
+|Code=&lt;html>
+&lt;body>
+&lt;section class="page">
+    &lt;div> &lt;h1>Region #1&lt;/h1> &lt;/div>
+    &lt;div> &lt;h1>Region #2&lt;/h1> &lt;/div>
+    &lt;aside>&lt;/aside>
+&lt;/section>
+&lt;article>
+&lt;h1>Sample CSS Regions Layout&lt;/h1>
+&lt;p>Riverrun, past Eve and Adam's, from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs.&lt;/p>
+&lt;p>...&lt;/p>
+&lt;/article>
+&lt;/body>
+&lt;/html>
 }}{{Single Example
 |Language=CSS
 |Code=body { background: #aaa; }
@@ -71,7 +69,6 @@ aside {
 
 div:first-of-type { left: 5%; }
 div:last-of-type { left: 55%; }
-
 }}
 }}
 {{Notes_Section
