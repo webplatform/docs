@@ -1,11 +1,11 @@
-{{Page_Title}}
+{{Page_Title|name}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Name of flow, as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.}}
+{{Summary_Section|Name of [[css/concepts/named_flow|flow]], as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
@@ -19,8 +19,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=// Generic event handler adds/deletes regions to fit content. The 'name' 
-// property might allow the handler to dispatch different functions for 
+|Code=// Generic event handler adds/deletes regions to fit content. The 'name'
+// property might allow the handler to dispatch different functions for
 // different flows.
 
 function modifyFlow(e) {
@@ -33,7 +33,7 @@ function modifyFlow(e) {
     }
 }
 
-document.getNamedFlows()['main'].addEventListener('regionlayoutupdate', modifyFlow);
+document.getNamedFlows()['main'].addEventListener('regionoversetchange', modifyFlow);
 }}
 }}
 {{Notes_Section}}
