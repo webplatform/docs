@@ -1,28 +1,28 @@
-{{Page_Title}}
+{{Page_Title|regionOverset}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A region's display state within a region chain.}}
+{{Summary_Section|A [[css/concepts/region|region's]] display state within a [[css/concepts/region_chain|region chain]].}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/Region
 |Read_only=Yes
 |Example_object_name=region
 |Return_value_name=regionState
 |Javascript_data_type=String
-|Return_value_description=A region's display state within a region chain:
+|Return_value_description=A [[css/concepts/region|region's]] display state within a [[css/concepts/region_chain|region chain]]:
 
-* '''overset''' indicates the region is the last in the chain, and does not have enough room to display remaining content. See [[css/properties/region-fragment|'''region-fragment''']] for display options.
+* '''overset''' indicates the region is the last in the [[css/concepts/region_chain|chain]], and does not have enough room to display remaining content. See [[css/properties/region-fragment|'''region-fragment''']] for display options.
 
-* '''empty''' indicates content was accommodated by previous regions in the chain, or that no content is available to flow into the chain.
+* '''empty''' indicates content was accommodated by previous regions in the [[css/concepts/region_chain|chain]], or that no content is available to flow into the [[css/concepts/region_chain|chain]].
 
 * '''fit''' indicates various scenarios:
 
-** When content appears within the last region in the chain but does not overflow it, as described above in '''overset'''  
+** When content appears within the last region in the [[css/concepts/region_chain|chain]] but does not overflow it, as described above in '''overset'''
 
-** For regions that flow content into subsequent regions in the chain
+** For regions that flow content into subsequent regions in the [[css/concepts/region_chain|chain]]
 
 ** For regions that are too small to display the next available item of content, such as an image, which gets pushed into a subsequent region
 
@@ -41,7 +41,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=Not to be confused with [[apis/css-regions/NamedFlow/overset|'''overset''']], which indicates whether the overall named flow features too few display regions.
+|Notes=Not to be confused with [[apis/css-regions/NamedFlow/overset|'''overset''']], which indicates whether the overall [[css/concepts/named_flow|named flow]] features too few display regions.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
