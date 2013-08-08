@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Retrieve a named flow by its name}}
+{{Summary_Section|Retrieve a [[css/concepts/named_flow|named flow]] by its name}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -22,8 +22,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Retrieve the ''main'' flow from the document, in one method-chained line:
-|Code=flow = document.getNamedFlows().namedItem('main');
+|Description=Retrieve the 'main' flow from the document, in one method-chained line:
+|Code=var flow = document.getNamedFlows().namedItem('main');
 }}
 }}
 {{Notes_Section
