@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=none
 |Animatable=No
+|CSS object model property=textEmphasis
 |CSS percentages=Not available
 |Values={{CSS Property Value
 |Data Type=none
