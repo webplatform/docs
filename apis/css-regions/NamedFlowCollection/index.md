@@ -6,17 +6,29 @@
 {{API_Name}}
 {{Summary_Section|Static snapshot array of a document's available named flows}}
 {{API_Object
-|Subclass_of=```
-|Overview=```
+|Subclass_of=dom/StaticNodeList
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Retrieve the ''main'' flow from the document, in one method-chained line:
+|Code=var flow = document.getNamedFlows().namedItem('main');
+}}{{Single Example
+|Language=JavaScript
+|Description=Same as above, but iterates over the '''NamedFlowCollection''' object represented in a ''flows'' variable: 
+|Code=var flow;
+var flows = document.getNamedFlows();
+for (var i = 0; i < flows.length; i++) {
+    if (flows[i].name == 'main') {
+        flow = flows[i];
+        break;
+    }
+}
+
 }}
-{{Notes_Section
-|Usage=```
-|Notes=```
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
