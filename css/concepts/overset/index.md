@@ -38,10 +38,20 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
-{{See_Also_Section}}
-{{Topics}}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+}}
+{{Topics|CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
