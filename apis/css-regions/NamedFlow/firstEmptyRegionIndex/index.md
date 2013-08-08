@@ -5,14 +5,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
+{{Summary_Section|Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=index
 |Javascript_data_type=Number
-|Return_value_description=Returns the integer index of the first empty element within a region chain. Returns -1 if the content fits within the region chain or if it exceeds available space.
+|Return_value_description=Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the [[css/concepts/region_chain|region chain]] or if it exceeds available space.
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,11 +35,14 @@ function trimRegions(flowName) {
 }}
 }}
 {{Notes_Section
-|Usage=The '''firstEmptyRegionIndex''' is the index of the first region
-within the flow's [[css/cssom/NamedFlow/getRegions|getRegions()]] collection whose
-[[css/cssom/Region/regionOverset|regionOverset]] is '''empty'''.  If
-all are set to '''fit''' or '''overset''', or if no regions are
-associated with the flow, the '''firstEmptyRegionIndex''' returns -1.
+|Usage=The '''firstEmptyRegionIndex''' is the index of the first
+[[css/concepts/region|region]] within the [[css/concepts/named_flow|flow's]]
+[[apis/css-regions/NamedFlow/getRegions|'''getRegions()''']]
+collection whose
+[[apis/css-regions/Region/regionOverset|'''regionOverset''']] is
+'''empty'''.  If all are set to '''fit''' or '''overset''', or if no
+regions are associated with the flow, the '''firstEmptyRegionIndex'''
+returns -1.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
