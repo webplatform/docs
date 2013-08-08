@@ -1,11 +1,11 @@
-{{Page_Title}}
+{{Page_Title|getRegions()}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the series of regions into which content flows.}}
+{{Summary_Section|Returns the series of [[css/concepts/region|regions]] into which content flows.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/NamedFlow
@@ -18,7 +18,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Remove the first empty node from a flow:
+|Description=Remove the first empty node from a [[css/concepts/named_flow|flow]]:
 |Code=var flow = document.getNamedFlows()['main'];
 var index = flow.firstEmptyRegionIndex;
 if (index !== -1) {
