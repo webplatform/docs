@@ -3,36 +3,40 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|The ''CSS Regions'' feature allows content to flow dynamically through a series of presentational block elements, known as [[css/concepts/region|''regions'']], allowing for complex magazine-style layouts.}}
+{{Summary_Section|The 'CSS Regions' feature allows content to flow dynamically through a series of presentational block elements, known as [[css/concepts/region|'regions']], allowing for complex magazine-style layouts.}}
 {{Concept_Page
 
-|Content=
-
-[[Image:regions.png|400px]]
-
-Two CSS properties make it work. The
+|Content=Two CSS properties make it work. The
 [[css/properties/flow-into|'''flow-into''']] property diverts content
-into a [[css/concepts/named_flow|''named flow'']]. The
+into a [[css/concepts/named_flow|'named flow']]. The
 [[css/properties/flow-from|'''flow-from''']] property threads that
 flow's content through a dynamic series of
-[[css/concepts/region|''region'']] elements, collectively known as a
-[[css/concepts/region_chain|''region chain'']].  The feature allows
+[[css/concepts/region|'region']] elements, collectively known as a
+[[css/concepts/region_chain|'region chain']].  The feature allows
 content to thread through a document's regions, magazine-style.
 Regions can be positioned using various other CSS techniques, such as
 [[tutorials/flexbox|flexible boxes]],
 [[tutorials/CSS_absolute_and_fixed_positioning|fixed positioning]],
 [[tutorials/floats_and_clearing|floats]], or grids.
 
+The following shows a complex layout featuring a series of regions,
+with a named flow's content threading through regions ''1'' through
+''4'', which form a chain. A separate named flow is assigned to the
+region labeled ''A'':
+
+[[Image:regions.png|400px]]
+
 Assigning [[css/properties/flow-from|'''flow-from''']] to a block
 element turns it into a region. As long as it serves as a region, any
-of its content is obscured by content diverted from other elements
-whose [[css/properties/flow-into|'''flow-into''']] property specifies
-the same [[css/concepts/named_flow|''named flow'']]. (If there is no
-corresponding [[css/properties/flow-into|'''flow-into''']] content,
-the region displays nothing.)
+of its nested content is obscured by content diverted from other
+elements whose [[css/properties/flow-into|'''flow-into''']] property
+specifies the same [[css/concepts/named_flow|'named flow']]. If there
+is no corresponding [[css/properties/flow-into|'''flow-into''']]
+content, the region displays empty content.
 
-Use the [[apis/css-regions/Region|'''Region''']] interface to
-programatically access each region within a chain, and the
+Use the [[apis/css-regions|region API's]]
+[[apis/css-regions/Region|'''Region''']] interface to programatically
+access each region within a chain, and the
 [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface to access the
 overall content that flows within the chain.
 
