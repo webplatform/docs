@@ -3,16 +3,16 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|The 'CSS Regions' feature allows content to flow dynamically through a series of presentational block elements, known as [[css/concepts/region|'regions']], allowing for complex magazine-style layouts.}}
+{{Summary_Section|The 'CSS Regions' feature allows content to flow dynamically through a series of presentational block elements, known as [[css/concepts/region|''regions'']], allowing for complex magazine-style layouts.}}
 {{Concept_Page
 
 |Content=Two CSS properties make it work. The
 [[css/properties/flow-into|'''flow-into''']] property diverts content
-into a [[css/concepts/named_flow|'named flow']]. The
+into a [[css/concepts/named_flow|''named flow'']]. The
 [[css/properties/flow-from|'''flow-from''']] property threads that
 flow's content through a dynamic series of
-[[css/concepts/region|'region']] elements, collectively known as a
-[[css/concepts/region_chain|'region chain']].  The feature allows
+[[css/concepts/region|''region'']] elements, collectively known as a
+[[css/concepts/region_chain|''region chain'']].  The feature allows
 content to thread through a document's regions, magazine-style.
 Regions can be positioned using various other CSS techniques, such as
 [[tutorials/flexbox|flexible boxes]],
@@ -30,7 +30,7 @@ Assigning [[css/properties/flow-from|'''flow-from''']] to a block
 element turns it into a region. As long as it serves as a region, any
 of its nested content is obscured by content diverted from other
 elements whose [[css/properties/flow-into|'''flow-into''']] property
-specifies the same [[css/concepts/named_flow|'named flow']]. If there
+specifies the same [[css/concepts/named_flow|''named flow'']]. If there
 is no corresponding [[css/properties/flow-into|'''flow-into''']]
 content, the region displays empty content.
 
@@ -50,7 +50,10 @@ overall content that flows within the chain.
 |Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 3
+|URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
