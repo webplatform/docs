@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -26,10 +27,58 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''right''' attribute to set a '''div''' object 50 pixels from the right of the client area.
-|Code=&lt;DIV STYLE {{=}} "position:absolute; right:50px"&gt;
-. . .
-&lt;/DIV&gt;
+|Language=CSS
+|Description=We demonstrate the `right` property by positioning the elements.
+|Code=.container {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+}
+
+.absolutely-positioned-within-container {
+  /**
+   * Object is positioned relative to nearest positioned ancestor—or
+   * to the initial containing block if no positioned ancestor exists.
+   * Here, the nearest positioned ancestor is the `div.container`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 50px to the left of the container's right edge.
+   * Note: `length` can also be specified in other units of measurements.
+   */
+  right: 50px;
+}
+
+.absolutely-positioned-within-body {
+  /**
+   * Here, the nearest positioned anscestor does not exist, hence
+   * the coordinate system reference becomes the initial containing block,
+   * i.e. the `body`.
+   */
+  position: absolute;
+  /**
+   * Offsets this element 150px to the left of the initial containing
+   * block's right edge i.e. the `body`'s right edge.
+   */
+  right: 150px;
+}
+
+.relatively-positioned {
+  /**
+   * Object is positioned according to the normal flow, and then offset.
+   */
+  position: relative;
+  /**
+   * The layout for this element happens according to the normal flow.
+   * But because this element is positioned relatively, it will be
+   * offset 30px towards the left from where it would have been in
+   * the normal flow.
+   */
+  right: 30px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/6181880
 }}
 }}
 {{Notes_Section
