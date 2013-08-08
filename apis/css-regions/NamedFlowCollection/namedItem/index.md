@@ -21,7 +21,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Retrieve the ''main'' flow from the document:
+|Description=Retrieve the ''main'' flow from the document, in one method-chained line:
 |Code=flow = document.getNamedFlows().namedItem('main');
 }}
 }}
