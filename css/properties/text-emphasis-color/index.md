@@ -12,11 +12,11 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=textEmphasisColor
 |CSS percentages=Not available
 |Values={{CSS Property Value
 |Data Type=color
 |Description=Specify the foreground color of the emphasis marks.
-
 }}
 }}
 {{Examples_Section
