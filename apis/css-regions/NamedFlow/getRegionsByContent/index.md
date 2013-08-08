@@ -1,11 +1,11 @@
-{{Page_Title}}
+{{Page_Title|getRegionsByContent()}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the series of regions that contain at least part of the supplied target content element.}}
+{{Summary_Section|Returns the series of [[css/concepts/region|regions]] that contain at least part of the supplied target content element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -22,7 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Checks if the last paragraph in a flow splits across more than one region
+|Description=Checks if the last paragraph in a [[css/concepts/named_flow|flow]] splits across more than one region
 |Code=// get flow:
 var flow = document.getNamedFlows()['main'];
 // get all top-level flow-into elements that contribute to flow:
