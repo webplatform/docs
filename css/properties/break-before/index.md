@@ -42,22 +42,22 @@
 |Description=A column break is not allowed before the content block.
 }}{{CSS Property Value
 |Data Type=region
-|Description=A region break is inserted (forced) before the content block.
+|Description=A [[css/concepts/region|region]] break is inserted (forced) before the content block.
 }}{{CSS Property Value
 |Data Type=avoid-region
-|Description=A region break is not allowed before the content block.
+|Description=A [[css/concepts/region|region]] break is not allowed before the content block.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* forces top-level headings onto a new page, column, or region */ 
+|Code=/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
 }
 
-/* binds subheads to subsequent content, 
+/* binds subheads to subsequent content,
     without necessarily forcing a page break */
 h2, h3 {
     break-after: avoid;
@@ -68,12 +68,12 @@ h2, h3 {
 |Description=Forces h3s onto a new column.
 |Code=h3 {
     break-before: always;
-    -webkit-column-break-before: always; 
+    -webkit-column-break-before: always;
 }
 |LiveURL=http://code.webplatform.org/gist/6158525
 }}{{Single Example
 |Language=CSS
-|Description=Currently, must use WebKit Nightly or Chrome Canary with experimental features enabled. 
+|Description=Currently, must use WebKit Nightly or Chrome Canary with experimental features enabled.
 
 Assuming the main content is at div class="main" and contains h3s, and 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
@@ -92,7 +92,7 @@ Assuming the main content is at div class="main" and contains h3s, and 6 div cla
     .
 }
 
-/* forces h3s into a new region */ 
+/* forces h3s into a new region */
 h3 {
     break-before: always;
     -webkit-break-before: always;
