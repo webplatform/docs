@@ -1,41 +1,41 @@
-{{Page_Title}}
+{{Page_Title|getRegionFlowRanges()}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.}}
+{{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the [[css/concepts/region|region]].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
 |Return_value_name=ranges
 |Javascript_data_type=function
-|Return_value_description=Returns a series of [[dom/apis/range|'''Range''']] objects that represent the fragments of DOM content that currently flow into the region.
+|Return_value_description=Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the region.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Check a region for interruptions in source content:
-|Code=// get flow                                                                                                                     
+|Code=// get flow
 var flow = document.getNamedFlows()['main'];
 
-// get second region that displays content                                                                                      
+// get second region that displays content
 var region = flow.getRegions()[1];
 
-// how many content fragments display there?                                                                                    
+// how many content fragments display there?
 var ranges = region.getRegionFlowRanges();
 
-// perhaps do something to fix layout if content has been interrupted:                                                          
+// perhaps do something to fix layout if content has been interrupted:
 if (ranges.length > 1) {
-    adjustlayout(region) // custom function                                                                                     
+    adjustlayout(region) // custom function
 }
 }}
 }}
 {{Notes_Section
-|Usage=By default, calling '''getRegionFlowRanges()''' on an overflowing region at the end of a chain (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''overset''') returns fragments representing all remaining content that may [[css/properties/overflow|'''overflow''']] out of view.  If the region's [[css/properties/region-fragment|'''region-fragment''']] property is set to '''break''', it returns only those fragments of content that fit neatly within the region.
+|Usage=By default, calling '''getRegionFlowRanges()''' on an overflowing region at the end of a [[css/concepts/region_chain|chain]] (one whose [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''overset''') returns [[css/concepts/fragment|fragments]] representing all remaining content that may [[css/properties/overflow|'''overflow''']] out of view.  If the region's [[css/properties/region-fragment|'''region-fragment''']] property is set to '''break''', it returns only those fragments of content that fit neatly within the region.
 
 If the region is too small to display the content, it returns a single collapsed range.
 
@@ -44,7 +44,7 @@ Calling it on an empty region (one whose [[apis/css-regions/Region/regionOverset
 Calling it on an element that is no longer a region (when its [[css/properties/flow-from|'''flow-from''']] property reverts to '''none''') returns '''null'''. The following tests whether the block element currently behaves as a region:
 
  isRegion = (element.getRegionFlowRanges() !== null);
-|Notes=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a flow, and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different named flow, thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details on these scenarios.)
+|Notes=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a [[css/concepts/named_flow|flow]], and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different [[css/concepts/named_flow|named flow]], thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details on these scenarios.)
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
