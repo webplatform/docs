@@ -3,12 +3,9 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Refers to a situation in which the final [[css/concepts/region|''region'']] of a [[css/concepts/region_chain|''region chain'']] is unable to fully display remaining content of a [[css/concepts/named_flow|''named flow'']].
-}}
+{{Summary_Section|Refers to a situation in which the final [[css/concepts/region|''region'']] of a [[css/concepts/region_chain|''region chain'']] is unable to fully display remaining content of a [[css/concepts/named_flow|''named flow'']].}}
 {{Concept_Page
-|Content=
-
-The ''CSS Regions'' feature allows content to flow dynamically through
+|Content=The ''CSS Regions'' feature allows content to flow dynamically through
 a series of presentational block elements, known as
 [[css/concepts/region|''regions'']], allowing for complex
 magazine-style layouts. This [[css/concepts/region_chain|''region
@@ -29,27 +26,16 @@ by the [[css/properties/overflow|'''overflow''']] property.
 
 There are two ways to programatically detect overset state:
 
-* From the content side, if the [[css/concepts/named_flow|named flow's]]
-  [[apis/css-regions/NamedFlow/overset|'''overset''']] property is
-  '''true''', it means that it doesn't fully display within the
-  [[css/concepts/region_chain|region chain]], or that it has not been
-  placed within any [[css/concepts/region|regions]].
+* From the content side, if the [[css/concepts/named_flow|named flow's]] [[apis/css-regions/NamedFlow/overset|'''overset''']] property is '''true''', it means that it doesn't fully display within the
+  [[css/concepts/region_chain|region chain]], or that it has not been placed within any [[css/concepts/region|regions]].
 
-* On the presentation side, if the final region element's
-  [[apis/css-regions/Region/regionOverset|'''regionOverset''']]
-  property is '''overset''', some of its content can flow into another
-  region if available.
-
-
+* On the presentation side, if the final region element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property is '''overset''', some of its content can flow into another region if available.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
