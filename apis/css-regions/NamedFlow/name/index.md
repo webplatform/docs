@@ -33,7 +33,7 @@ function modifyFlow(e) {
     }
 }
 
-document.getNamedFlows()['main'].addEventListener('regionoversetchange', modifyFlow);
+document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
 }}
 }}
 {{Notes_Section}}
