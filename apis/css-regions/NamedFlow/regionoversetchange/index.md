@@ -5,13 +5,11 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-
 {{Summary_Section|Fires on the
 [[apis/css-regions/NamedFlow|'''NamedFlow''']] object when a change in
 how its content flows through a [[css/concepts/region_chain|region chain]] renders any [[css/concepts/region|region]] empty or
 [[css/concepts/overset|''overset'']] (overfilled), or that reverses that state.
 }}
-
 {{Event
 |Event_applies_to=apis/css-regions/NamedFlow
 |Content=Fires on the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
@@ -29,10 +27,8 @@ that is empty or [[css/concepts/overset|''overset'']].
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=document.getNamedFlows()['main'].addEventListener('regionoversetchange', modifyFlow);
-
-// dispatches functions to add/delete regions based on changes to how
-// content flows through a region chain:
+|Description=dispatch functions to add or delete regions based on changes to how content flows through a region chain:
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
 
 function modifyFlow(e) {
     var flow = e.target;
