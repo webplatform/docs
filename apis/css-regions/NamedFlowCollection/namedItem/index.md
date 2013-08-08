@@ -6,11 +6,16 @@
 {{API_Name}}
 {{Summary_Section|Retrieve a named flow by its name}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Name=name
+|Data type=String
+|Description=the name of the named flow
+|Optional=No
+}}
 |Method_applies_to=apis/css-regions/NamedFlowCollection
 |Example_object_name=flows
 |Return_value_name=flow
-|Return_value_description=boo
+|Return_value_description=the [[apis/css-regions/NamedFlow|'''NamedFlow''']] object that corresponds to the specified name
 }}
 {{Examples_Section
 |Not_required=No
