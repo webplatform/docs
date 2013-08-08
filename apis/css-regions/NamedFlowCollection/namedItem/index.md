@@ -22,7 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Retrieve the 'main' flow from the document, in one method-chained line:
+|Description=Retrieve the ''main'' flow from the document, in one method-chained line:
 |Code=var flow = document.getNamedFlows().namedItem('main');
 }}
 }}
