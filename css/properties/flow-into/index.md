@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by  [[css/properties/flow-from|'''flow-from''']].}}
+{{Summary_Section|Diverts the selected element's content into a [[css/concepts/named_flow|named flow]], used to thread content through different layout [[css/concepts/region|regions]] specified by  [[css/properties/flow-from|'''flow-from''']].}}
 {{CSS Property
 |Initial value=none
 |Applies to=Any element. The flow-into property does not apply to any pseudo-element such as first-line, first-letter, before or after.
@@ -36,7 +36,7 @@ section.layout > div {
 }
 }}{{Single Example
 |Language=HTML
-|Description=...flows the article through the series of '''div''' elements, transforming them into ''regions'' and replacing the placeholder text:
+|Description=...flows the article through the series of '''div''' elements, transforming them into [[css/concepts/region|''regions'']] and replacing the placeholder text:
 |Code=<!-- CONTENT -->
 
 <article class="content">
@@ -55,7 +55,7 @@ section.layout > div {
 }}
 }}
 {{Notes_Section
-|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It reappears elsewhere flowing through a series of ''region'' elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
+|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a 'named flow'.  It reappears elsewhere flowing through a series of [[css/concepts/region|''region'']] elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
 
 An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named flow takes its descendents along with it by default, with two exceptions:
 
