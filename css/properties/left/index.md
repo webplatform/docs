@@ -29,8 +29,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=We demonstrate the `left` property by positioning the elements.
-|Code=
-.container {
+|Code=.container {
   /**
    * Object is positioned according to the normal flow, and then offset.
    */
@@ -78,8 +77,19 @@
    */
   left: 300px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/6181854
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<article>
+  <div class="container">
+    <p class="box absolutely-positioned-within-container">Absolutely positioned within <code>div.container</code> at 25px from the left.</p>
+    <p class="box relatively-positioned">This is relatively positioned at 300px from the left.</p>
+  </div>
+  
+  <p class="box absolutely-positioned-within-body">This is absolutely positioned within the <code>body</code> at 350px from the left.</p>
+</article></syntaxhighlight>
 }}
 }}
 {{Notes_Section
