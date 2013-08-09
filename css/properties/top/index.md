@@ -31,8 +31,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=We demonstrate the `top` property by positioning the elements.
-|Code=
-.container {
+|Code=.container {
   /**
    * Object is positioned according to the normal flow, and then offset.
    */
@@ -79,8 +78,20 @@
    */
   top: 100px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/6171243
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<article>
+  <div class="container">
+    <p class="box absolutely-positioned-within-container">Absolutely positioned within <code>div.container</code> at 25px from the top.</p>
+    <p class="box relatively-positioned">This is relatively positioned at 100px from the top.</p>
+  </div>
+  
+  <p class="box absolutely-positioned-within-body">This is absolutely positioned within the <code>body</code> at 350px from the top.</p>
+</article>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
