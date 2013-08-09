@@ -77,6 +77,19 @@
   bottom: 20px;
 }
 |LiveURL=http://code.webplatform.org/gist/6181867
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<article>
+  <div class="container">
+    <p class="box absolutely-positioned-within-container">Absolutely positioned within <code>div.container</code> at 50px above the bottom edge.</p>
+    <p class="box relatively-positioned">This is relatively positioned at 20px from the bottom.</p>
+  </div>
+  
+  <p class="box absolutely-positioned-within-body">This is absolutely positioned within the <code>body</code> at 50px above the bottom edge.</p>
+</article>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
