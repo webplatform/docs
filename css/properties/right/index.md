@@ -77,8 +77,20 @@
    */
   right: 30px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/6181880
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<article>
+  <div class="container">
+    <p class="box absolutely-positioned-within-container">Absolutely positioned within <code>div.container</code> at 50px left from the container's right edge.</p>
+    <p class="box relatively-positioned">This is relatively positioned at 30px from the right.</p>
+  </div>
+  
+  <p class="box absolutely-positioned-within-body">This is absolutely positioned within the <code>body</code> at 150px to the left of the body's right edge.</p>
+</article>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
