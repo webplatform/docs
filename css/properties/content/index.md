@@ -12,7 +12,7 @@
 |Applies to=pseudo-elements :before and :after
 |Inherited=No
 |Media=visual
-|Computed value=On elements, always computers to normal.  
+|Computed value=On elements, always computers to normal.
 |Animatable=Yes
 |Values={{CSS Property Value
 |Data Type=none
@@ -67,8 +67,6 @@ H1:after {
 }
 
 <p class=customalert data-message=”I have no idea what this means!”>Lorem ipsum dolor sit amet</p>
-    
-
 }}
 }}
 {{Notes_Section
@@ -109,7 +107,11 @@ to be in IE8 Standards mode rendering.
 * CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Generated content, automatic numbering and lists
+|URL=http://www.w3.org/TR/CSS21/generate.html#propdef-content
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
