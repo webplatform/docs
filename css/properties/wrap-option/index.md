@@ -3,9 +3,12 @@
 |Content=Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|This CSS property controls the text when it reaches the end of the block in which it is enclosed.}}
+{{Standardization_Status|N/A}}
+{{API_Name|wrap-option (Obsolete)}}
+{{Summary_Section|Obsolete and unsupported. Do not use.
+
+This CSS property controls the text when it reaches the end of the block in which it is enclosed.
+}}
 {{CSS Property
 |Initial value=wrap
 |Applies to=all elements and generated content
@@ -34,7 +37,12 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 Text Module
+|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514
+|Status=Obsolete (previously a Candidate Recommendation)
+|Relevant_changes=Section 7.1
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
