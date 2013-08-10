@@ -27,44 +27,48 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''z-index''' attribute and the '''z-index''' property to change the stacking order of objects.
+|Language=CSS
+|Description=The following example demonstrates the z-index property set to auto.
+|Code=.auto {
+  /**
+   * The elements with the class `.auto` are positioned absolutely
+   * so as to make them overlap on each other. This helps demonstrate
+   * the z-index property easily.
+   */
+  position: absolute;
+  /**
+   * The stacking order (z-index) is set to auto. Thus, the elements
+   * stack in the order in which they appear in the DOM.
+   */
+  z-index: auto;
+}
 
-This example uses an inline style sheet to set the stacking order.
-|Code=&lt;img src{{=}}"cone.jpg" 
-    alt{{=}}"cone"
-    style{{=}}"position: absolute; 
-        top: 100px; 
-        left: 100px; 
-        z-index: 4"&gt;
-&lt;div style{{=}}"position:absolute; 
-    top: 100px; 
-    left: 100px;
-    color: red; 
-    background-color: #999966; 
-    font-weight:bold; 
-    z-index: 1"&gt;
-...
-&lt;/div&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/z-index.htm
+/* We offset the elements a little so the stacking order is easily seen. */
+.bottom {
+  top: 50px;
+  left: 50px;
+}
+
+.middle {
+  top: 100px;
+  left: 60px;
+}
+
+.top {
+  top: 150px;
+  left: 70px;
+}
+|LiveURL=http://code.webplatform.org/gist/6199316
 }}{{Single Example
-|Description=This example uses inline scripting to set the stacking order.
-|Code=&lt;img id{{=}}"cone" 
-    alt{{=}}"cone"
-    src{{=}}"cone.jpeg"
-    style{{=}}"position: absolute;
-        top: 10px;
-        left: 10px;"
-    onclick{{=}}"cone.style.zIndex{{=}}1; 
-        sphere.style.zIndex{{=}}2"/&gt;
-&lt;img id{{=}}"sphere" 
-    alt{{=}}"sphere"
-    src{{=}}"sphere.jpg"
-    style{{=}}"position: absolute;
-        top: 1px;
-        left: 1px;"
-    onclick{{=}}"cone.style.zIndex{{=}}2; 
-        sphere.style.zIndex{{=}}1"/&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zIndex.htm
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<div class="container">
+    <div class="box auto bottom">This box is at the bottom with z-index set to auto.</div>
+    <div class="box auto middle">This box is in the middle with z-index set to auto.</div>
+    <div class="box auto top">This box is at the top with z-index set to auto.</div>
+</div>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
@@ -79,8 +83,6 @@ The property does not apply to windowed controls, such as '''select''' objects.
 Only the topmost elements will receive action from a pointing device such as a mouse, even if they have a set opacity or are made invisible through CSS. This is also true for positioned elements with a negative z-index unless:
 *The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
 *The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
-
-
 |Import_Notes====Syntax===
 <code>'''z-index: '''auto '''{{!}}''' ''order''</code>
 }}
