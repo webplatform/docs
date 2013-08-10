@@ -28,7 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example demonstrates the z-index property set to auto. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
+|Description=The following example demonstrates the <code>z-index</code> property set to <code>auto</code>. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 |Code=.box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -70,7 +70,7 @@
 </syntaxhighlight>
 }}{{Single Example
 |Language=CSS
-|Description=The following example demonstrates the z-index property set to an integer. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
+|Description=The following example demonstrates the <code>z-index</code> property set to an integer. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 |Code=.box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -132,7 +132,7 @@
 </syntaxhighlight>
 }}{{Single Example
 |Language=CSS
-|Description=The following example demonstrates the z-index property set to inherit. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
+|Description=The following example demonstrates the <code>z-index</code> property set to <code>inherit</code>. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 |Code=.box {
   /**
    * The elements with the class `.box` are positioned absolutely
