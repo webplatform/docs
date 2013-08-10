@@ -29,9 +29,9 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following example demonstrates the z-index property set to auto.
-|Code=.auto {
+|Code=.box {
   /**
-   * The elements with the class `.auto` are positioned absolutely
+   * The elements with the class `.box` are positioned absolutely
    * so as to make them overlap on each other. This helps demonstrate
    * the z-index property easily.
    */
@@ -64,9 +64,72 @@
 |Description=The HTML for the above example.
 |Code=<syntaxhighlight>
 <div class="container">
-    <div class="box auto bottom">This box is at the bottom with z-index set to auto.</div>
-    <div class="box auto middle">This box is in the middle with z-index set to auto.</div>
-    <div class="box auto top">This box is at the top with z-index set to auto.</div>
+    <div class="box bottom">This box is at the bottom with z-index set to auto.</div>
+    <div class="box middle">This box is in the middle with z-index set to auto.</div>
+    <div class="box top">This box is at the top with z-index set to auto.</div>
+</div>
+</syntaxhighlight>
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the z-index property set to an integer.
+|Code=.box {
+  /**
+   * The elements with the class `.box` are positioned absolutely
+   * so as to make them overlap on each other. This helps demonstrate
+   * the z-index property easily.
+   */
+  position: absolute;
+}
+
+/* We offset the elements a little so the stacking order is easily seen. */
+.bottom {
+  top: 10px;
+  left: 50px;
+  /**
+   * The stacking order position of this element is 10.
+   */
+  z-index: 10;
+}
+
+.middle-level-one {
+  top: 60px;
+  left: 60px;
+  /**
+   * The stacking order position of this element is greater than
+   * that of `div.bottom`, thus this element will appear above `div.bottom`.
+   */
+  z-index: 20;
+}
+
+.middle-level-two {
+  top: 120px;
+  left: 70px;
+  /**
+   * The stacking order of this element is same as that of `div.middle-level-one`.
+   * Thus, these two element will follow DOM order.
+   */
+  z-index: 20;
+}
+
+.top {
+  top: 180px;
+  left: 80px;
+  /**
+   * The stacking order of this element is greater than all the other elements.
+   * Thus this element will appear above all of them.
+   */
+  z-index: 30;
+}
+|LiveURL=http://code.webplatform.org/gist/6199504
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+<div class="container">
+    <div class="box integer top">This box is at the top with z-index set to 30.</div>
+    <div class="box integer middle-level-one">This box is in the middle level 1 with z-index set to 20.</div>
+    <div class="box integer middle-level-two">This box is in at middle level 2 with z-index set to 20.</div>    
+    <div class="box integer bottom">This box is at the bottom with z-index set to 10.</div>
 </div>
 </syntaxhighlight>
 }}
