@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status}}
@@ -28,7 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example demonstrates the z-index property set to auto.
+|Description=The following example demonstrates the z-index property set to auto. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 |Code=.box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -61,7 +61,6 @@
 |LiveURL=http://code.webplatform.org/gist/6199316
 }}{{Single Example
 |Language=HTML
-|Description=The HTML for the above example.
 |Code=<syntaxhighlight>
 <div class="container">
     <div class="box bottom">This box is at the bottom with z-index set to auto.</div>
@@ -71,7 +70,7 @@
 </syntaxhighlight>
 }}{{Single Example
 |Language=CSS
-|Description=The following example demonstrates the z-index property set to an integer.
+|Description=The following example demonstrates the z-index property set to an integer. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 |Code=.box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -106,7 +105,7 @@
   left: 70px;
   /**
    * The stacking order of this element is same as that of `div.middle-level-one`.
-   * Thus, these two element will follow DOM order.
+   * Thus, these two elements will follow DOM order.
    */
   z-index: 20;
 }
@@ -123,13 +122,73 @@
 |LiveURL=http://code.webplatform.org/gist/6199504
 }}{{Single Example
 |Language=HTML
-|Description=The HTML for the above example.
 |Code=<syntaxhighlight>
 <div class="container">
-    <div class="box integer top">This box is at the top with z-index set to 30.</div>
-    <div class="box integer middle-level-one">This box is in the middle level 1 with z-index set to 20.</div>
-    <div class="box integer middle-level-two">This box is in at middle level 2 with z-index set to 20.</div>    
-    <div class="box integer bottom">This box is at the bottom with z-index set to 10.</div>
+    <div class="box top">This box is at the top with z-index set to 30.</div>
+    <div class="box middle-level-one">This box is in the middle level 1 with z-index set to 20.</div>
+    <div class="box middle-level-two">This box is in at middle level 2 with z-index set to 20.</div>    
+    <div class="box bottom">This box is at the bottom with z-index set to 10.</div>
+</div>
+</syntaxhighlight>
+}}{{Single Example
+|Language=CSS
+|Description=The following example demonstrates the z-index property set to inherit. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
+|Code=.box {
+  /**
+   * The elements with the class `.box` are positioned absolutely
+   * so as to make them overlap on each other. This helps demonstrate
+   * the z-index property easily.
+   */
+  position: absolute;
+}
+
+/* We offset the elements a little so the stacking order is easily seen. */
+.bottom {
+  top: 10px;
+  left: 50px;
+  /**
+   * The stacking order position of this element is 10.
+   */
+  z-index: 10;
+}
+
+.middle {
+  top: 60px;
+  left: 60px;
+  /**
+   * The stacking order position of this element is greater than
+   * that of `div.bottom`, thus this element will appear above `div.bottom`.
+   */
+  z-index: 20;
+}
+
+.middle-child {
+  /**
+   * The stacking order of this element is inherited from its parent, `div.middle`.
+   * Thus, this will have the same stacking order as its parent.
+   */
+  z-index: inherit;
+}
+
+.top {
+  top: 130px;
+  left: 80px;
+  /**
+   * The stacking order of this element is greater than all the other elements.
+   * Thus this element will appear above all of them.
+   */
+  z-index: 30;
+}
+|LiveURL=http://code.webplatform.org/gist/6199565
+}}{{Single Example
+|Language=HTML
+|Code=<syntaxhighlight>
+<div class="container">
+  <div class="box top">This box is at the top with z-index set to 30.</div>
+  <div class="box middle">
+    <div class="box middle-child">This box is the child of <code>div.middle</code> with z-index set to inherit.</div>
+  </div>
+  <div class="box bottom">This box is at the bottom with z-index set to 10.</div>
 </div>
 </syntaxhighlight>
 }}
