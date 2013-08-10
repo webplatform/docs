@@ -122,6 +122,7 @@ to be in IE8 Standards mode rendering.
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content, Multi-Column
+|External_links=* CSS-Tricks: CSS Content [http://css-tricks.com/css-content/]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
