@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|A contiguous stretch of content.}}
+{{Summary_Section|A contiguous range of content, which may stretch arbitrarily across DOM nodes.}}
 {{Concept_Page
 |Content=A ''range'' (or ''fragment'') is a contiguous stretch of content
 within a document, one that may traverse DOM nodes arbitrarily. For
