@@ -19,9 +19,9 @@ Regions can be positioned using various other CSS techniques, such as
 [[tutorials/floats_and_clearing|floats]], or grids.
 
 The following shows a complex layout featuring a series of regions,
-with a named flow's content threading through regions ''1'' through
-''4'', which form a chain. A separate named flow is assigned to the
-region labeled ''A'':
+with a named flow's content threading through regions '''1''' through
+'''4''', which form a chain. A separate named flow is assigned to the
+region labeled '''A''':
 
 [[Image:regions.png|400px]]
 
