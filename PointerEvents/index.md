@@ -59,6 +59,13 @@
 	</div>
     </div>
 
+    <div class="long-topic">
+	<div class="image icon-concept"></div>
+	<div class="inner">
+	    <h3>[[PointerEvents/pointer_events_sites|Sites]]</h3>
+            <p>Web sites that have already implemented the W3C Pointer Events specification.</p>
+	</div>
+    </div>
 
 </div>
 <div class="clearfixboth"></div>
