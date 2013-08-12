@@ -5,7 +5,7 @@
 {{API_Name}}
 {{Summary_Section|A series of [[css/concepts/region|''regions'']] that display the contents of a [[css/concepts/named_flow|''named flow'']].}}
 {{Concept_Page
-|Content=The 'CSS Regions' feature allows content to flow dynamically
+|Content=The ''CSS Regions'' feature allows content to flow dynamically
 through a series of presentational block elements, known as
 [[css/concepts/region|''regions'']], allowing for complex magazine-style
 layouts. Each available [[css/concepts/named_flow|''named flow'']],
@@ -14,7 +14,7 @@ identified by content elements'
 a [[css/concepts/region_chain|chain]] of block elements whose
 [[css/properties/flow-from|'''flow-from''']] property matches.
 Regardless of how each region is positioned, content threads through
-the [[css/concepts/region_chain|region chain]] in 'DOM order', the
+the [[css/concepts/region_chain|region chain]] in ''DOM order'', the
 order in which regions are declared within the HTML document.
 
 The following shows a complex layout featuring a series of regions,
