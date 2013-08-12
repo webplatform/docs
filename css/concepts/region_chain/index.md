@@ -18,9 +18,9 @@ the [[css/concepts/region_chain|region chain]] in 'DOM order', the
 order in which regions are declared within the HTML document.
 
 The following shows a complex layout featuring a series of regions,
-with a named flow's content threading through regions ''1'' through
-''4'', which form a chain. A separate named flow is assigned to the
-single-element region chain labeled ''A'':
+with a named flow's content threading through regions '''1''' through
+'''4''', which form a chain. A separate named flow is assigned to the
+single-element region chain labeled '''A''':
 
 [[Image:regions.png|400px]]
 
