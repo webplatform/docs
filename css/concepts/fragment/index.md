@@ -5,7 +5,7 @@
 {{API_Name}}
 {{Summary_Section|A contiguous stretch of content.}}
 {{Concept_Page
-|Content=A 'range' (or 'fragment') is a contiguous stretch of content
+|Content=A ''range'' (or ''fragment'') is a contiguous stretch of content
 within a document, one that may traverse DOM nodes arbitrarily. For
 example, a user may select a stretch of text that starts in the middle
 of one paragraph, and ends in the middle of another. CSS styling may
