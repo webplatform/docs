@@ -27,7 +27,7 @@ layout elements. Use as follows:
 
 * The [[apis/css-regions/Document/getNamedFlows|'''getNamedFlows()''']] method, available via the [[dom/apis/document|'''Document''']] interface, retrieves all of a document's named flows as a [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']].
 
-* Iterate over the [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] as an array, or use [[apis/css-regions/NamedFlowCollection/namedItem|'''namedItem''']] to access each [[apis/css-regions/NamedFlow|'''NamedFlow''']] by its name.
+* Iterate over the [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] as an array, or call [[apis/css-regions/NamedFlowCollection/namedItem|'''namedItem''']] on it to access each [[apis/css-regions/NamedFlow|'''NamedFlow''']] by its name.
 
 * The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']]. Use it to check if the amount of content matches the allotted set of regions in which it appears.
 
