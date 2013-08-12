@@ -51,7 +51,7 @@ For some formal definitions of terminology relating to CSS, see [[Definitions]] 
 
 === Action: Creating a document ===
  
-# Create a new directory and open a text editor. 
+# Create a new directory and open a text editor
 # Copy and paste the HTML shown below. Save the file using the name <code>doc1.html</code>
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
