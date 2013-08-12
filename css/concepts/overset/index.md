@@ -5,11 +5,11 @@
 {{API_Name}}
 {{Summary_Section|Refers to a situation in which the final [[css/concepts/region|''region'']] of a [[css/concepts/region_chain|''region chain'']] is unable to fully display remaining content of a [[css/concepts/named_flow|''named flow'']].}}
 {{Concept_Page
-|Content=The 'CSS Regions' feature allows content to flow dynamically through
+|Content=The ''CSS Regions'' feature allows content to flow dynamically through
 a series of presentational block elements, known as
 [[css/concepts/region|''regions'']], allowing for complex
-magazine-style layouts. This [[css/concepts/region_chain|'region
-chain']] may not have enough room to accommodate all the content.  In
+magazine-style layouts. This [[css/concepts/region_chain|''region
+chain'']] may not have enough room to accommodate all the content.  In
 that case, the final region is in an
 [[css/concepts/overset|''overset'']] state, as is the
 [[css/concepts/named_flow|''named flow'']] that contains all the
