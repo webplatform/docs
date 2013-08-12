@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
+|Editorial notes=kick cache!
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
