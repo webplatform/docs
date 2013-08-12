@@ -5,7 +5,7 @@
 {{API_Name}}
 {{Summary_Section|An object that contains content diverted from one set of elements, which can then be threaded through another series of [[css/concepts/region|''regions'']] that display the content.}}
 {{Concept_Page
-|Content=The 'CSS Regions' feature allows content to flow
+|Content=The ''CSS Regions'' feature allows content to flow
 dynamically through a series of presentational block elements, known
 as [[css/concepts/region|''regions'']], allowing for complex
 magazine-style layouts.
@@ -19,9 +19,9 @@ flow's content through a dynamic series of
 [[css/concepts/region_chain|''region chain'']].
 
 The following shows a complex layout featuring a series of regions,
-with a named flow's content threading through regions ''1'' through
-''4'', which form a chain. A separate named flow is assigned to the
-single-element region chain labeled ''A'':
+with a named flow's content threading through regions '''1''' through
+'''4''', which form a chain. A separate named flow is assigned to the
+single-element region chain labeled '''A''':
 
 [[Image:regions.png|400px]]
 
