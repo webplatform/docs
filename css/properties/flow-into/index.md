@@ -15,18 +15,19 @@
 |CSS object model property=flowInto
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<ident>
-|Description=Identifier that specifies a named flow into which to place element's content.
-}}{{CSS Property Value
-|Data Type=<ident> element
-|Description=Same result as above, but explicitly specifies the entire element appears in the named flow, not just its contents.
-}}{{CSS Property Value
-|Data Type=<ident> content
-|Description=Overrides the default behavior described above, diverting only the element's nested content to the named flow.
-}}{{CSS Property Value
 |Data Type=none
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
-}}
+}}{{CSS Property Value
+|Data Type=<ident>
+|Description=Identifier that specifies a named flow into which to place element's content.
+
+If the keyword ‘element’ is present or neither keyword is present, then the element is taken out of its parent's flow and placed into the flow with the name ‘<ident>’. If the keyword ‘content’ is present, then only the element's contents are placed into the named flow. 
+
+<ident> element: Explicitly specifies the entire element appears in the named flow, not just its contents.
+<ident> content: Overrides the default behavior described above, diverting only the element's nested content to the named flow.
+
+The element or content is said to have a specified flow. The values ‘none’, ‘inherit’, ‘default’, ‘auto’ and ‘initial’ are invalid flow names.
+}}{{CSS Property Value}}{{CSS Property Value}}
 }}
 {{Examples_Section
 |Not_required=No
