@@ -18,6 +18,12 @@
 |Data Type=<ident>
 |Description=Identifier that specifies a named flow into which to place element's content.
 }}{{CSS Property Value
+|Data Type=<ident> element
+|Description=Same result as above, but explicitly specifies the entire element appears in the named flow, not just its contents.
+}}{{CSS Property Value
+|Data Type=<ident> content
+|Description=Overrides the default behavior described above, diverting only the element's nested content to the named flow.
+}}{{CSS Property Value
 |Data Type=none
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
 }}
