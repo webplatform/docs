@@ -212,7 +212,7 @@ as part of a separate flow.  This CSS diverts the pull-quote content:
  section.page > div {
      flow-from: main;
  }
-
+ 
  /* pullquote flow */
  article > aside {
      flow-into: pullquote;
@@ -245,7 +245,7 @@ modify the content's semantic structure:
  <style>
    article, aside.endnote { flow-into: main }
  </style>
-
+ 
  <article>
    ...
    <aside class="endnote">...</aside>
@@ -368,30 +368,30 @@ within the simpler layout:
 
  /* tablet &amp;amp; desktop browsers */
  @media screen and (min-width: 480px){
-
+ 
      /* pour article into section */
      article            { flow-into : main; }
      section.page > div { flow-from : main; }
-
+ 
      /* custom flow for pull quotes */
      aside    { flow-into : pullquote; }
      div#pull { flow-from : pullquote; }
-
+ 
      /* @region rules can be nested within @media rules */
      @region #intro {
          p:first-of-type { color : #fff; }
      }
  }
-
+ 
  /* mobile browsers */
  @media screen and (max-width: 480px){
-
+ 
      /* suppress layout based on CSS Regions */
      section.page { display : none; }
-
+ 
      /* suppress content inappropriate for mobile */
      aside { display : none; }
-
+ 
      /* style content simply for mobile */
      article {
          margin        : 1em 1em 10em 1em;
@@ -403,7 +403,7 @@ within the simpler layout:
          background    : #aaa;
          padding       : 0;
      }
-
+ 
      /* useful commentary */
      h1:first-of-type::after {
          display       : block;
@@ -432,7 +432,6 @@ allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -511,7 +510,7 @@ flows.
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
