@@ -56,7 +56,7 @@ In general with HTML, you use the markup language to describe the information co
 
 == What next? ==
  
-Now you have a sample document linked to a separate style sheet, you are ready to learn more about how your browser combines them when it displays the document.
+Now you have a sample document linked to a separate style sheet, you are ready to learn more about how your browser combines them when it displays the document
 }}
 {{Notes_Section}}
 {{Compatibility_Section
