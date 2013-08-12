@@ -27,7 +27,7 @@ If the keyword ‘element’ is present or neither keyword is present, then the 
 <ident> content: Overrides the default behavior described above, diverting only the element's nested content to the named flow.
 
 The element or content is said to have a specified flow. The values ‘none’, ‘inherit’, ‘default’, ‘auto’ and ‘initial’ are invalid flow names.
-}}{{CSS Property Value}}{{CSS Property Value}}
+}}
 }}
 {{Examples_Section
 |Not_required=No
