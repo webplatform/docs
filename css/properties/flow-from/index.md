@@ -37,7 +37,9 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into [[css/concepts/region|''regions'']] and replacing the placeholder text:
-|Code=<!-- CONTENT -->
+|Code=<syntaxhighlight language="html">
+
+<!-- CONTENT -->
 
 <article class="content">
   ...
@@ -52,6 +54,8 @@ section.layout > div {
   <div>Region #4</div>
   <div>Region #5</div>
 </section>
+
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
