@@ -1,8 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
 |Checked_Out=No
-|Editorial notes=Stub generated for a page listing examples of sites using pointer events
 }}
 {{Summary_Section|Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:}}
 {{Basic Page}}
