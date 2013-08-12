@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Static snapshot array of a document's available [[css/concepts/named_flow|named flows]]}}
 {{API_Object
@@ -27,11 +27,14 @@ for (var i = 0; i < flows.length; i++) {
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=For any flows in the collection that  disappear when they are no longer assigned to any content, '''item()''' and [[apis/css-regions/NamedFlowCollection/namedItem|'''namedItem()''']] yield '''null'''.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -41,8 +44,10 @@ for (var i = 0; i < flows.length; i++) {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Regions
+}}
+{{Topics|CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
