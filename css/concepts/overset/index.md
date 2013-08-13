@@ -20,9 +20,9 @@ Depending on its
 final [[css/concepts/region|region's]] content may appear as a
 [[css/concepts/fragment|''fragment'']], breaking cleanly as if there
 were subsequent regions in the chain into which content could flow.
-Otherwise it may simply 'overflow' the final element, either
-clipping, spilling or scrolling past the element's dimensions as set
-by the [[css/properties/overflow|'''overflow''']] property.
+Otherwise it may simply ''overflow'' the final element: either
+clipping, spilling, or scrolling past the element's dimensions as specified
+by the region's [[css/properties/overflow|'''overflow''']] property.
 
 There are two ways to programatically detect overset state:
 
