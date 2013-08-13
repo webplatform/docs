@@ -7,7 +7,7 @@
 {{Summary_Section|Diverts the selected element's content into a [[css/concepts/named_flow|named flow]], used to thread content through different layout [[css/concepts/region|regions]] specified by  [[css/properties/flow-from|'''flow-from''']].}}
 {{CSS Property
 |Initial value=none
-|Applies to=Any element. The flow-into property does not apply to any pseudo-element such as first-line, first-letter, before or after.
+|Applies to=Block elements, excluding pseudo-elements such as '''&#58;&#58;before''' or '''&#58;&#58;after'''.
 |Inherited=No
 |Media=visual
 |Computed value=as specified
@@ -19,15 +19,11 @@
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
 }}{{CSS Property Value
 |Data Type=<ident>
-|Description=Identifier that specifies a named flow into which to place element's content.
+|Description=String identifier that specifies a ''named flow'' into which to place element's content. Common keyword values such as '''none''', '''inherit''', '''default''', '''auto''' and '''initial''' are invalid flow names.
 
-If the keyword ‘element’ is present or neither keyword is present, then the element is taken out of its parent's flow and placed into the flow with the name ‘<ident>’. If the keyword ‘content’ is present, then only the element's contents are placed into the named flow. 
+* '''<ident> element''': The '''element''' keyword explicitly specifies the entire element diverts to the named flow, not just its contents. (This is the default behavior without the keyword.)
 
-<ident> element: Explicitly specifies the entire element appears in the named flow, not just its contents.
-
-<ident> content: Overrides the default behavior described above, diverting only the element's nested content to the named flow.
-
-The element or content is said to have a specified flow. The values ‘none’, ‘inherit’, ‘default’, ‘auto’ and ‘initial’ are invalid flow names.
+* '''<ident> content''': Adding the '''content''' keyword overrides the default behavior described above, diverting only the element's nested content to the named flow.
 }}
 }}
 {{Examples_Section
@@ -45,7 +41,8 @@ section.layout > div {
 }}{{Single Example
 |Language=HTML
 |Description=...flows the article through the series of '''div''' elements, transforming them into [[css/concepts/region|''regions'']] and replacing the placeholder text:
-|Code=<!-- CONTENT -->
+|Code=<syntaxhighlight language="html">
+<!-- CONTENT -->
 
 <article class="content">
   ...
@@ -60,6 +57,7 @@ section.layout > div {
   <div>Region #4</div>
   <div>Region #5</div>
 </section>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
