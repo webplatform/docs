@@ -58,7 +58,6 @@ section.layout > div {
   <div>Region #2</div>
   <div>Region #3</div>
   <div>Region #4</div>
-  <div>Region #5</div>
 </section>
 </syntaxhighlight>
 }}{{Single Example
@@ -73,9 +72,6 @@ section.layout > div {
   </div>
   <div>
               ...#2</p>
-  </div>
-  <div>
-              ...
   </div>
   <div>
               ...
@@ -97,9 +93,6 @@ section.layout > div {
   </div>
   <div>
               ...#2</p>
-  </div>
-  <div>
-              ...
   </div>
   <div>
               ...
