@@ -19,7 +19,7 @@
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
 }}{{CSS Property Value
 |Data Type=<ident>
-|Description=String identifier that specifies a ''named flow'' into which to place element's content. Common keyword values such as '''none''', '''inherit''', '''default''', '''auto''' and '''initial''' are invalid flow names, along with '''element''' and '''content''':
+|Description=String identifier that specifies a ''named flow'' into which to divert the element's content. Common keyword values such as '''none''', '''inherit''', '''default''', '''auto''', and '''initial''' are invalid flow names, as are '''element''' and '''content''':
 
 ** '''<ident> element''': The '''element''' keyword explicitly specifies the entire element diverts to the named flow, not just its contents. (This is the default behavior without the keyword.)
 
@@ -61,7 +61,7 @@ section.layout > div {
 }}
 }}
 {{Notes_Section
-|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a 'named flow'.  It reappears elsewhere flowing through a series of [[css/concepts/region|''region'']] elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
+|Usage=The [[css/properties/flow-into|'''flow-into''']] property diverts content from where it would ordinarily appear in the document to a ''named flow''.  It reappears elsewhere flowing through a series of [[css/concepts/region|''region'']] elements whose [[css/properties/flow-from|'''flow-from''']] specifies the same named flow.
 
 An element whose [[css/properties/flow-into|'''flow-into''']] specifies a named flow takes its descendents along with it by default, with two exceptions:
 
