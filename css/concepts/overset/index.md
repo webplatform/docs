@@ -23,8 +23,6 @@ were subsequent regions in the chain into which content could flow.
 Otherwise it may simply 'overflow' the final element, either
 clipping, spilling or scrolling past the element's dimensions as set
 by the [[css/properties/overflow|'''overflow''']] property.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -58,7 +56,7 @@ section.layout > div { flow-from: main; }
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=If the region provides enough area, the final content element appears within the final region:
+|Description=If the region provides enough area, the final content element appears within the final region. (Note this is not valid DOM structure, and simply illustrates how content [[css/concepts/fragment|''fragments'']] dynamically appear within the layout.)
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
