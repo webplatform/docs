@@ -36,7 +36,7 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This defines a set of content and a region chain into which to present it:
+|Description=The following example defines a set of content and a region chain into which to present it. Resulting layout scenarios are illustrated in subsequent examples:
 |Code=<syntaxhighlight language="html">
 <style>
 article.content { flow-into: main;}
