@@ -11,7 +11,7 @@
 |List_all_subpages=No
 }}
 {{Concept_Listing
-|Query=[[Category:CSS-Regions]][[Category:API_Objects]]
+|Query=[[Category:CSS-Regions]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
