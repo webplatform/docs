@@ -45,6 +45,8 @@ section.layout > div {
 <!-- CONTENT -->
 
 <article class="content">
+  <p>Content #1</p>
+  <p>Content #2</p>
   ...
 </article>
 
@@ -56,6 +58,32 @@ section.layout > div {
   <div>Region #3</div>
   <div>Region #4</div>
   <div>Region #5</div>
+</section>
+</syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=By default, or with the '''element''' keyword, content appears as if structured as follows, but dynamically [[css/concepts/fragment|''fragmenting'']] from one layout region to another:
+|Code=<syntaxhighlight language="html">
+<section class="layout">
+  <div>
+      	    <article class="content">
+              <p>Content #1</p>
+              <p>Content...
+  </div>
+  <div>
+               ...#2</p>
+               ...
+  </div>
+  <div>
+               ...
+  </div>
+  <div>
+               ...
+  </div>
+  <div>
+               ...
+      	     </article>
+  </div>
 </section>
 </syntaxhighlight>
 }}
