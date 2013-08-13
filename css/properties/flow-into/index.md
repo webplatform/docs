@@ -62,7 +62,7 @@ section.layout > div {
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=By default, or with the '''element''' keyword, content appears as if structured as follows, but dynamically [[css/concepts/fragment|''fragmenting'']] from one layout region to another. (Note that as presented, this is not a valid DOM structure.)
+|Description=By default, or with the '''element''' keyword, content appears as if structured as follows, but dynamically [[css/concepts/fragment|''fragmenting'']] from one layout region to another. (Note that as presented, this is not a valid DOM structure, and simply helps to visualize how content appears in output.)
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
