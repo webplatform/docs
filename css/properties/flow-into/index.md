@@ -48,6 +48,7 @@ section.layout > div {
   <p>Content #1</p>
   <p>Content #2</p>
   ...
+  <p>Content #n</p>
 </article>
 
 <!-- LAYOUT -->
@@ -62,7 +63,7 @@ section.layout > div {
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=By default, or with the '''element''' keyword, content appears as if structured as follows, but dynamically [[css/concepts/fragment|''fragmenting'']] from one layout region to another:
+|Description=By default, or with the '''element''' keyword, content appears as if structured as follows, but dynamically [[css/concepts/fragment|''fragmenting'']] from one layout region to another. (Note that as presented, this is not a valid DOM structure.)
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
@@ -71,18 +72,40 @@ section.layout > div {
               <p>Content...
   </div>
   <div>
-               ...#2</p>
-               ...
+              ...#2</p>
   </div>
   <div>
-               ...
+              ...
   </div>
   <div>
-               ...
+              ...
   </div>
   <div>
-               ...
+              <p>Content #n</p>
       	     </article>
+  </div>
+</section>
+</syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=With the '''content''' keyword specified, content fragments appear as if structured as follows, ''without'' the interim '''article''' element that serves as their container:
+|Code=<syntaxhighlight language="html">
+<section class="layout">
+  <div>
+              <p>Content #1</p>
+              <p>Content...
+  </div>
+  <div>
+              ...#2</p>
+  </div>
+  <div>
+              ...
+  </div>
+  <div>
+              ...
+  </div>
+  <div>
+      	     <p>Content #n</p>
   </div>
 </section>
 </syntaxhighlight>
