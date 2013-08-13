@@ -64,7 +64,7 @@ section.layout > div { flow-from: main; }
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=''Scenario #1:'' If the region provides enough area, the final content element appears within the final region. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property returns '''fit'''. Note that this is ''not'' valid DOM structure, and simply illustrates how content [[css/concepts/fragment|''fragments'']] appear dynamically within the region chain.
+|Description=''Scenario #1:'' If the region provides enough area, the final content element appears within the final region. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property returns '''fit'''. Note that this is ''not'' valid DOM structure, and simply illustrates how content [[css/concepts/fragment|''fragments'']] flow dynamically within the region chain.
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
