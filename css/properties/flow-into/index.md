@@ -19,11 +19,11 @@
 |Description=The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
 }}{{CSS Property Value
 |Data Type=<ident>
-|Description=String identifier that specifies a ''named flow'' into which to place element's content. Common keyword values such as '''none''', '''inherit''', '''default''', '''auto''' and '''initial''' are invalid flow names.
+|Description=String identifier that specifies a ''named flow'' into which to place element's content. Common keyword values such as '''none''', '''inherit''', '''default''', '''auto''' and '''initial''' are invalid flow names, along with '''element''' and '''content''':
 
-* '''<ident> element''': The '''element''' keyword explicitly specifies the entire element diverts to the named flow, not just its contents. (This is the default behavior without the keyword.)
+** '''<ident> element''': The '''element''' keyword explicitly specifies the entire element diverts to the named flow, not just its contents. (This is the default behavior without the keyword.)
 
-* '''<ident> content''': Adding the '''content''' keyword overrides the default behavior described above, diverting only the element's nested content to the named flow.
+** '''<ident> content''': Adding the '''content''' keyword overrides the default behavior described above, diverting only the element's nested content to the named flow.
 }}
 }}
 {{Examples_Section
