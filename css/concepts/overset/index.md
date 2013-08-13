@@ -56,7 +56,7 @@ section.layout > div { flow-from: main; }
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=If the region provides enough area, the final content element appears within the final region. (Note this is not valid DOM structure, and simply illustrates how content [[css/concepts/fragment|''fragments'']] dynamically appear within the layout.)
+|Description=''Scenario #1:'' If the region provides enough area, the final content element appears within the final region. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''fit'''. Note that this is ''not'' valid DOM structure, and simply illustrates how content [[css/concepts/fragment|''fragments'']] appear dynamically within the region chain.
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
@@ -79,7 +79,7 @@ section.layout > div { flow-from: main; }
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=This shows the same situation, but with not enough area in the region chain to display ''overset'' content:
+|Description=''Scenario #2:'' This shows the same situation, but with not enough area in the region chain to display ''overset'' content. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''overset'''.
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
@@ -95,7 +95,6 @@ section.layout > div { flow-from: main; }
   </div>
   <div>
               <p>Content #n</p>
-              ...
   </div>
 </section>
 
@@ -103,6 +102,29 @@ section.layout > div { flow-from: main; }
               <p>Final Content</p>
       	     </article>
 -->
+</syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=''Scenario #3:'' In this example, there is ''not enough'' content to fill the region chain. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] is '''empty'''.
+|Code=<syntaxhighlight language="html">
+<section class="layout">
+  <div>
+      	    <article class="content">
+              <p>Content #1</p>
+              <p>Content...
+  </div>
+  <div>
+              ...#2</p>
+              <p>Content #n</p>
+  </div>
+  <div>
+              <p>Final Content</p>
+      	     </article>
+  </div>
+  <div>
+              <!-- EMPTY REGION -->
+  </div>
+</section>
 </syntaxhighlight>
 }}
 }}
