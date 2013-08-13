@@ -87,7 +87,7 @@ section.layout > div { flow-from: main; }
 </syntaxhighlight>
 }}{{Single Example
 |Language=HTML
-|Description=''Scenario #2:'' This shows the same situation, but with not enough area in the region chain to display ''overset'' content. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property returns '''overset'''.
+|Description=''Scenario #2:'' This shows the same situation, but with not enough area in the region chain to display ''overset'' content. The final '''div''' element's [[apis/css-regions/Region/regionOverset|'''regionOverset''']] property returns '''overset'''. The named flow's [[apis/css-regions/NamedFlow/overset|'''overset''']] property likewise returns '''true'''.
 |Code=<syntaxhighlight language="html">
 <section class="layout">
   <div>
