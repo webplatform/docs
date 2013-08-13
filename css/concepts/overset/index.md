@@ -24,7 +24,92 @@ Otherwise it may simply 'overflow' the final element, either
 clipping, spilling or scrolling past the element's dimensions as set
 by the [[css/properties/overflow|'''overflow''']] property.
 
-There are two ways to programatically detect overset state:
+
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=HTML
+|Description=This defines a set of content and a region chain into which to present it:
+|Code=<syntaxhighlight language="html">
+<style>
+article.content { flow-into: main;}
+section.layout > div { flow-from: main; }
+</style>
+
+<!-- CONTENT -->
+
+<article class="content">
+  <p>Content #1</p>
+  <p>Content #2</p>
+  ...
+  <p>Content #n</p>
+  <p>Final Content</p>
+</article>
+
+<!-- LAYOUT -->
+
+<section class="layout">
+  <div>Region #1</div>
+  <div>Region #2</div>
+  <div>Region #3</div>
+  <div>Region #4</div>
+</section>
+</syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=If the region provides enough area, the final content element appears within the final region:
+|Code=<syntaxhighlight language="html">
+<section class="layout">
+  <div>
+      	    <article class="content">
+              <p>Content #1</p>
+              <p>Content...
+  </div>
+  <div>
+              ...#2</p>
+  </div>
+  <div>
+              ...
+              <p>Content #n</p>
+  </div>
+  <div>
+              <p>Final Content</p>
+      	     </article>
+  </div>
+</section>
+</syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=This shows the same situation, but with not enough area in the region chain to display ''overset'' content:
+|Code=<syntaxhighlight language="html">
+<section class="layout">
+  <div>
+      	    <article class="content">
+              <p>Content #1</p>
+              <p>Content...
+  </div>
+  <div>
+              ...#2</p>
+  </div>
+  <div>
+              ...
+  </div>
+  <div>
+              <p>Content #n</p>
+              ...
+  </div>
+</section>
+
+<!-- OVERSET CONTENT, DOES NOT DISPLAY:
+              <p>Final Content</p>
+      	     </article>
+-->
+</syntaxhighlight>
+}}
+}}
+{{Notes_Section
+|Usage=There are two ways to programatically detect overset state:
 
 * From the content side, if the [[css/concepts/named_flow|named flow's]] [[apis/css-regions/NamedFlow/overset|'''overset''']] property is '''true''', it means that it doesn't fully display within the [[css/concepts/region_chain|region chain]], or that it has not been placed within any [[css/concepts/region|regions]].
 
@@ -32,11 +117,6 @@ There are two ways to programatically detect overset state:
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
