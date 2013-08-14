@@ -6,13 +6,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Control page/column/region breaks within a block of content}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
 |Inherited=No
 |Media=paged
 |Animatable=No
+|CSS object model property=breakInside
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page/column/region break is determined  by the flow of content.
@@ -48,8 +49,7 @@ h2, h3 {
 }}
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-&amp;lt;code>'''break-inside: '''auto '''{{!}}''' avoid '''{{!}}''' avoid-page '''{{!}}''' avoid-column&amp;lt;/code>
+|Usage=This property replaces separate '''column-break-inside''', '''page-break-inside''', and '''region-break-inside''' properties, which may still be present in some browser implementations.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
