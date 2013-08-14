@@ -1,13 +1,14 @@
 {{Page_Title|CSS cross-fade() function}}
 {{Flags
 |Content=Errors
+|Checked_Out=No
 |Editorial notes={{Editorial/Errors
 | the syntax used in the article doesn't match what the spec says
 }}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The CSS cross-fade() function lets blend two images at a defined transparency.}}
+{{Summary_Section|The CSS cross-fade() function can be used to blend two images at a defined transparency.}}
 {{CSS_Function
 |Content===Introduction==
 The ability to overlay one image with another and see them both in semi-transparency is a fairly common technique in web pages.
@@ -154,6 +155,7 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
@@ -179,9 +181,9 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 |Notes_rows={{Compatibility Notes Row}}
 }}
 {{See_Also_Section
-|Topic_clusters=Visual Effects, Background
+|Topic_clusters=Background, Visual Effects
 }}
-{{Topics|Graphics, CSS}}
+{{Topics|CSS, Graphics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
