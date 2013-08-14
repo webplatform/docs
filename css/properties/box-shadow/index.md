@@ -31,9 +31,6 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 * blur-radius (optional): The third length is a blur radius, which can be a number of any length unit. The larger this value, the bigger the blur, meaning the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it defaults to 0 (the shadow's edge is sharp).
 * spread-distance (optional): The fourth length is a spread distance, which again can be a number of any unit. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it defaults to 0 (the shadow is the same size as the element). Note that setting the size of an outer shadow to 0 causes it to disappear, whereas a 0-sized inner shadow covers the entire padding-box. For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
 }}{{CSS Property Value
-|Data Type=inset 2px 2px 10px 1rem black;
-|Description=Real syntax example of a <code>box-shadow</code>.
-}}{{CSS Property Value
 |Data Type=offset-x offset-y blur-radius color, offset-x offset-y blur-radius color
 |Description=To apply multiple shadows to one element, write the <code>box-shadow</code> values out one after another, separated by commas.
 }}
