@@ -6,13 +6,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The CSS break-after property sets the page-breaking behavior after an element.}}
+{{Summary_Section|Control page/column/region breaks that fall below a block of content}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
 |Inherited=No
-|Media=paged
+|Media=visual
 |Animatable=No
+|CSS object model property=breakAfter
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page break or column break is determined  by the flow of content.
@@ -67,8 +68,8 @@ h2, h3 {
 }}
 {{Notes_Section
 |Usage=The break-after property is not supported for absolutely positioned elements.
-|Import_Notes====Syntax===
-&amp;lt;code>'''break-after: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' page '''{{!}}''' column '''{{!}}''' avoid-page '''{{!}}''' avoid-column&amp;lt;/code>
+
+This property replaces separate '''column-break-after''', '''page-break-after''', and '''region-break-after''' properties, which may still be present in some browser implementations.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
