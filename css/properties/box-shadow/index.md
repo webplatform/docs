@@ -197,7 +197,7 @@ See also:
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Box Model
 }}
-{{Topics|CSS, UI, Usability}}
+{{Topics|CSS, Design, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
