@@ -1,12 +1,11 @@
 {{Page_Title|break-inside}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Control page/column/region breaks within a block of content}}
+{{Summary_Section|Control page/column/region breaks that fall within a block of content}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
