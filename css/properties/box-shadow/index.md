@@ -119,6 +119,11 @@ See also:
 |Name=CSS Backgrounds and Borders Module Level 3
 |URL=http://dev.w3.org/csswg/css3-background/#box-shadow
 |Status=Editor's Draft
+|Relevant_changes=tests, animatable value, omitted color default value, spread distance behavior
+}}{{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://www.w3.org/TR/css3-background/#box-shadow
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
