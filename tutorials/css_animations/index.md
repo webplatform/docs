@@ -24,7 +24,7 @@ These key points serve as reference:
 
 * The required [[css/properties/animation-name|'''animation-name''']] property specifies the name of a keyframe animation, and must correspond to a [[css/atrules/@keyframes|'''@keyframes''']] rule. Loading the CSS or applying a new name causes the animation to execute.
 
-* Use the required [[css/properties/animation-duration|'''animation-duration''']] property to set the overall amount of time over which the animation executes, either in seconds or millseconds ('''1s''' == '''1000ms''').
+* Use the required [[css/properties/animation-duration|'''animation-duration''']] property to set the overall amount of time over which the animation executes, either in seconds or milliseconds ('''1s''' == '''1000ms''').
 
 * The [[css/atrules/@keyframes|'''@keyframes''']] rule declares the full sequence that corresponds to the [[css/properties/animation-name|'''animation-name''']]. Within the block, keyframes such as 0%, 50%, and 100% behave as selectors that manipulate CSS properties over the duration of the animation.
 
