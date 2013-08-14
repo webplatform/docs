@@ -10,7 +10,7 @@
 |Initial value=auto
 |Applies to=block-level elements
 |Inherited=No
-|Media=paged
+|Media=visual
 |Animatable=No
 |CSS object model property=breakInside
 |Values={{CSS Property Value
