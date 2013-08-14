@@ -1,10 +1,11 @@
 {{Page_Title|break-before}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The break-before property is used to break the flow of content before the generated box.}}
+{{Summary_Section|Control page/column/region breaks that fall above a block of content}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
@@ -103,7 +104,9 @@ h3 {
 |LiveURL=http://code.webplatform.org/gist/6167152
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=This property replaces separate '''column-break-before''', '''page-break-before''', and '''region-break-before''' properties, which may still be present in some browser implementations.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
