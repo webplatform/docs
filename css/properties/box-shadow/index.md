@@ -18,8 +18,9 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Inherited=No
 |Media=visual
 |Computed value=any length made absolute; any specified color computed; otherwise as specified
-|Animatable=No
+|Animatable=Yes
 |CSS object model property=boxShadow
+|CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=inset offset-x offset-y blur-radius spread-distance color
 |Description=<code>box-shadow</code> accepts a number of different components inside its value:
