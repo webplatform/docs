@@ -10,6 +10,7 @@
 |Initial value=auto
 |Applies to=block-level elements
 |Inherited=No
+|Media=visual
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=breakBefore
