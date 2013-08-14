@@ -194,8 +194,10 @@ See also:
 |Note=Since Firefox 13 (Gecko 13), -moz-box-shadow prefix was dropped and only the unprefixed version is supported.
 }}
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=CSS Layout, Box Model
+}}
+{{Topics|CSS, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
