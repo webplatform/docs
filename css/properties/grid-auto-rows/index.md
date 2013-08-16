@@ -10,13 +10,13 @@
 |Applies to=grid containers
 |Inherited=No
 |Media=visual
-|Computed value=see Track Sizing
+|Computed value=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’. 
 |Animatable=No
 |CSS object model property=gridAutoRows
-|CSS percentages=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’. (See Track Sizing.)
+|CSS percentages=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
 |Values={{CSS Property Value
 |Data Type=<track-minmax>
-|Description=The size range of the track. Greater than or equal to min and less than or equal to max. If max < min, then max is ignored and ‘minmax(min,max)’ is treated as min.
+|Description=The size range of the track. Greater than or equal to min and less than or equal to max. If max less than min, then max is ignored and ‘minmax(min,max)’ is treated as min.
 }}
 }}
 {{Examples_Section
