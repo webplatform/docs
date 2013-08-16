@@ -19,7 +19,15 @@
 |Description=No initial grid; any rows/columns will be implicitly generated, and their size will be determined by the ‘grid-auto-rows’ and ‘grid-auto-columns’ properties.
 }}{{CSS Property Value
 |Data Type=<track-list>
-|Description=* &lt;length&gt;
+|Description=The track-list syntax is:
+
+&lt;track-list&gt;    = &#91; &lt;string&gt;* &#91; &lt;track-size&gt; &#124; &lt;repeat-function&gt; &#93; &#93;+ &lt;string&gt;*
+&lt;track-size&gt;    = minmax( &lt;track-breadth&gt; , &lt;track-breadth&gt; ) &#124; auto &#124; &lt;track-breadth&gt;
+&lt;track-breadth&gt; = &lt;length&gt; &#124; &lt;percentage&gt; &#124; &lt;flex&gt; &#124; min-content &#124; max-content
+
+Where the values are described as:
+
+* &lt;length&gt;
 * &lt;percentage&gt;: Percentage values are relative to the measure (logical width) of the grid container in grid column tracks, and the extent (logical height) of the grid container in grid row tracks. If the measure or extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
 * &lt;flex&gt;: A non-negative dimension with the unit "fr". Each <flex> value takes a share of the remaining space in proportion to its value. See Flexible Lengths for more details.
 * max-content: Represents the largest max size contribution of the grid items occupying the grid track.
