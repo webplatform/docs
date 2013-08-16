@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The ‘grid-auto-flow’ property controls the direction to place content in unoccupied spaces: either by no default direction, by rows, or by columns.}}
+{{Summary_Section|The ‘grid-auto-flow’ property controls the direction to place content in unoccupied spaces: either by rows, or by columns, or without specification of rows or columns, in other words based on the next available space in order.}}
 {{CSS Property
 |Initial value=none
 |Applies to=grid containers
