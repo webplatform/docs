@@ -35,9 +35,9 @@
 |Name=CSS Grid Layout, 6.3. Automatic Placement: the ‘grid-auto-flow’ property
 |URL=http://dev.w3.org/csswg/css-grid/#grid-auto-flow-property
 |Status=W3C Editor's Draft
-|Relevant_changes=dense is proposed; removal of none value deletion proposed
+|Relevant_changes='dense' value is proposed; removal of 'none' value proposed
 }}{{Related Specification
-|Name=CSS Grid Layout, 
+|Name=CSS Grid Layout,
 |URL=http://www.w3.org/TR/css3-grid-layout/#grid-auto-flow-property
 |Status=W3C Working Draft
 }}
