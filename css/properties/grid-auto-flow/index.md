@@ -16,7 +16,7 @@
 |CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Causes items to be placed with it's before and start edges at the first grid line in the relevant dimension, and its after and end edges to the amount of span specified on the grid item. (If no span is specified, the default span is 1.)
+|Description=Causes items to be placed at the next available space that provides sufficient span. The slot selected will have its before and start edges at the first grid line in the relevant dimension, and its after and end edges to the amount of span specified on the grid item. (If no span is specified, the default span is 1.)
 }}{{CSS Property Value
 |Data Type=rows
 |Description=Causes items to be placed by filling each row in turn, adding new rows as necessary.
