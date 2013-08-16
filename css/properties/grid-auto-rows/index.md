@@ -4,13 +4,13 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The size of implicitly-created rows when row size has not been explicitly sized by ‘grid-definition-row’.}}
+{{Summary_Section|The size of rows when row size has not been explicitly sized by ‘grid-definition-row’.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=grid containers
 |Inherited=No
 |Media=visual
-|Computed value=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’. 
+|Computed value=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
 |Animatable=No
 |CSS object model property=gridAutoRows
 |CSS percentages=Relative to the height of the grid container. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
