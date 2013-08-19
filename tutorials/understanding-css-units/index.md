@@ -170,7 +170,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 
 </syntaxhighlight>
 
-[[Image: css-units-px-and-inch.png|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
+[[Image: css-units-px-and-inch.png|center|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
 {{TODO | Can we center this image and add a "Rendering in OSX Safari" caption?}}
 
 When we try render this document across different devices we see that:
