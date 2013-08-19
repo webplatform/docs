@@ -37,19 +37,19 @@ body {
 
 Several other CSS unit types support layout adaptation. The following table enumerates a number of them:
 
-{|
+{{{!}}
 ! head 1
 ! head 2
 ! head 3
-|-
-| column a1
-| column a2
-| column a3
-|-
-| column b1
-| column b2
-| column b3
-|}
+{{!}}-
+{{!}} column a1
+{{!}} column a2
+{{!}} column a3
+{{!}}-
+{{!}} column b1
+{{!}} column b2
+{{!}} column b3
+{{!}}}
 
 {|
 !Unit
