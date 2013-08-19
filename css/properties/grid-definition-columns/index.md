@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. It can specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.}}
+{{Summary_Section|This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
+
+As we as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
+}}
 {{CSS Property
 |Initial value=none
 |Applies to=none
@@ -16,7 +19,7 @@
 |CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=none
-|Description=No initial grid; any rows/columns will be implicitly generated, and their size will be determined by the ‘grid-auto-rows’ and ‘grid-auto-columns’ properties.
+|Description=No initial grid; any columns are implicitly generated with their size determined by the ‘grid-auto-columns’ property.
 }}{{CSS Property Value
 |Data Type=<track-list>
 |Description=The track-list syntax is:
