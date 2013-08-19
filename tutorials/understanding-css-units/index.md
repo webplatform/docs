@@ -169,6 +169,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 
 </pre>
 
+[[Image: css-units-px-and-inch.png|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
 Figure 1: Rendering in Mac OS Safari
 
 When we try render this document across different devices we see that:
