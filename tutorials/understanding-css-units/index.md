@@ -8,9 +8,7 @@
 }}
 {{Summary_Section|This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.}}
 {{Tutorial
-|Content={{TODO | [This is a description of items still missing on this page.] }}
-
-== Introduction ==
+|Content=== Introduction ==
 A growing number of CSS length units have provided new flexibility to web authors (see the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification]). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
 
 They help developers lay out content independently of display size and resolution.
@@ -174,6 +172,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 </syntaxhighlight>
 
 [[Image: css-units-px-and-inch.png|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
+{{TODO | [Can we center this image and add a "Rendering in OSX Safari" caption?] }}
 
 When we try render this document across different devices we see that:
 * In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
