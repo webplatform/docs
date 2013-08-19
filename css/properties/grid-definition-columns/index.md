@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. It can specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
