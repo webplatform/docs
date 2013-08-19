@@ -195,8 +195,10 @@ So what should keep in mind as web developers to have our content render nicely 
 # [http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that '''96 CSS pixels are always the same length as 1 CSS inch'''. 
 # Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
-
-Post Scriptum: Event though this blog did not talk as much about high resolution for the Canvas element, anybody doing development with Canvas should be aware of the behavior with high resolution screens, and there are great blog posts on the topic such as [http://www.html5rocks.com/en/tutorials/canvas/hidpi/ this HTML5 Rocks article] and this [http://phoboslab.org/log/2012/09/drawing-pixels-is-hard PhoboxLab] article.
+== See Also ==
+* [http://learn.shayhowe.com/advanced-html-css/responsive-web-design An Advanced Guide to HTML & CSS - Responsive Web Design] 
+* [http://www.html5rocks.com/en/tutorials/canvas/hidpi/ High DPI Canvas (html5rocks)]
+* [http://phoboslab.org/log/2012/09/drawing-pixels-is-hard Drawing pixels is hard]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
