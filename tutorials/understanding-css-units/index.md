@@ -16,9 +16,9 @@ Modern content needs to be ready for a variety of viewing environments: smart ph
 
 === Media queries and viewport settings ===
 
-Most developers are now familiar with the use of media queries. They enable the application of CSS rules depending on display media factors such as size or aspect ratio. They can be used to specify separate stylesheets for each target environments, or they can refine and adapt a primary stylesheet.
+Most developers are now familiar with the use of [http://www.w3.org/TR/css3-mediaqueries/ media queries]. They enable the application of CSS rules depending on display media factors such as size or aspect ratio. They can be used to specify separate stylesheets for each target environments, or they can refine and adapt a primary stylesheet.
 
-Understanding and setting up the display viewport is especially important for mobile clients as it allows your content to fit to the display of the user’s device.
+Understanding and setting up the [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag?redirectlocale=en-US&redirectslug=Mobile%2FViewport_meta_tag display viewport] is especially important for mobile clients as it allows your content to fit to the display of the user’s device.
 
 === Percentage units ===
 
@@ -48,7 +48,7 @@ ex
 Rarely used in practice. May be used to size inline images to fit the x-height of the current font for visual harmony.
 ch
 1 ch is the advance of the ‘0’ (zero) glyph in the current font. ‘ch’ stands for character.
-Can be used to style monospace text or braille.
+Can be used to [http://lists.w3.org/Archives/Public/www-style/1999Dec/0048.html style monospace text or braille].
 rem
 1 rem is the computed value of the font-size property for the document’s root element.
 This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.  For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level <li> but second-level <li> would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px <li> elements no matter their nesting level.
@@ -69,7 +69,7 @@ See vh/vw
 
 We have thus far focused on the styling of document elements using CSS. Some use-cases, however, require full application control over each drawn pixel e.g. in a video game.
 
-Both the Canvas 2D context and Scalable Vector Graphics can be used to address such requirements, as well as WebGL.  It is also possible to use absolutely positioned content to get faster performance under very specific circumstance (like gaming).
+Both the [http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/ Canvas 2D context] and [http://docs.webplatform.org/wiki/svg Scalable Vector Graphics] can be used to address such requirements, as well as [http://www.khronos.org/registry/webgl/specs/latest/ WebGL].  It is also possible to use absolutely positioned content to get [http://www.tricedesigns.com/2013/03/22/phonegap-legends-a-sample-game-app/ faster performance] under very specific circumstance (like gaming).
 
 While developers should not casually implement their own layout, there are use-cases where this is still a better option than moving to native application development.
 
@@ -88,7 +88,7 @@ This is especially important when the size and pixel density of output devices v
 
 To be resolution independent, a system must able to scale content based on rendering conditions. Postscript and PDF are examples of technologies based on the concept of units that can then be scaled as needed to accommodate the available display resolution. Both use the ‘point’ unit and define it as being 1/72th of an inch. 
 
-Scalable Vector Graphics (SVG) does the same and has a concept of user unit that all other units ultimately derive from; CSS defines CSS pixels, the unit all others resolve to (an SVG user unit is the same as a CSS ‘px’).
+Scalable Vector Graphics (SVG) does the same and has a concept of [http://www.w3.org/TR/SVG/coords.html#SVGInitialUserCoordinateSystem user unit] that all other units ultimately derive from; CSS defines CSS pixels, the unit all others resolve to (an SVG user unit is the same as a CSS ‘px’).
 
 In all these cases, objects’ positions and dimensions eventually resolve to a single unit which can then be mapped to a number of device pixels and scaled as desired e.g. when the user zooms the content.
 
@@ -98,7 +98,7 @@ Note - Icon fonts are another recent popular practice as of 2013 e.g. see http:/
 
 == On CSS pixels, physical units and scalability ==
 
-Though the CSS Values and Units specification defines all the CSS units in one single document, it can take some work to wrap one’s head around the way CSS relates its units to real-world measures, or physical units. All the specification says can be stated as:
+Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification] defines all the CSS units in one single document, it can take some work to wrap one’s head around the way CSS relates its units to real-world measures, or physical units. All the specification says can be stated as:
 
 96px = 1in
 
@@ -109,11 +109,11 @@ On a high-resolution device - laser printers today, screens in the future - CSS 
 border: 1px solid blue;
 ...its border should be 3.125 device pixel wide. Depending on the rasterizer - the part of the software that converts basic shapes to pixels - you could get blue covering 3 pixels fully and then partial coverage of the 4th pixel using anti-aliasing to blend with the background.
 
-On a low-resolution device, the specification recommends to “relate the pixel unit to the reference pixel and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.  In our earlier example, the blue border could be a full device pixel.
+On a low-resolution device, the specification recommends to “relate the pixel unit to the [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.  In our earlier example, the blue border could be a full device pixel.
 
 Until a few years ago, a CSS pixel was generally mapped to a single screen pixel. As a consequence, a CSS inch did not always map to an actual physical inch; if a laptop’s true resolution was 120dppi, a 96px-long inch would end up being 96/120 = 0.8 physical inch!
 
-With the advent of higher density screens, we are seeing devices with 2 device pixels per CSS pixel (the Apple Retina, for instance) as well as displays with fractional pixel ratios (see this MDN article). Note that fractional pixel ratios may introduce additional anti-aliasing in the rendering, as with high-resolution rendering.
+With the advent of higher density screens, we are seeing devices with 2 device pixels per CSS pixel (the Apple Retina, for instance) as well as displays with fractional pixel ratios (see [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag?redirectlocale=en-US&redirectslug=Mobile%2FViewport_meta_tag this MDN article]). Note that fractional pixel ratios may introduce additional anti-aliasing in the rendering, as with high-resolution rendering.
 
 == Simple Example ==
 
@@ -159,8 +159,8 @@ Figure 1: Rendering in Mac OS Safari
 
 When we try render this document across different devices we see that:
 In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
-On a MacBook Pro 15 inch display with a resolution of 110dpi, the physical width of a box is: 96 * 1 / 110 = 0.872 inch. This is because the CSSpx/device pixel ratio is 1. Using a ruler on my screen I measured 0.88 inch and the difference is my rudimentary ruler and approximate vision :-). So a CSS inch is off by 22.8% from the physical inch.
-On an iPhone 5 with a 326dpi resolution, the physical width of a box is 96 * 2 / 326 = 0.589 inch. This is because on this platform, the CSS px to device ratio is 2. Again using a ruler, I got 1.592inch. Again, measurement error. Here, a CSS inch is off by 41.1%
+On a MacBook Pro 15 inch display with a resolution of [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 110dpi], the physical width of a box is: 96 * 1 / 110 = 0.872 inch. This is because the CSSpx/device pixel ratio is 1. Using a ruler on my screen I measured 0.88 inch and the difference is my rudimentary ruler and approximate vision :-). So a CSS inch is off by 22.8% from the physical inch.
+On an iPhone 5 with a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 326dpi] resolution, the physical width of a box is 96 * 2 / 326 = 0.589 inch. This is because on this platform, the CSS px to device ratio is 2. Again using a ruler, I got 1.592inch. Again, measurement error. Here, a CSS inch is off by 41.1%
 On a printer (I used a Canon Pixma MP600), the physical inch of a box is .... 1.05 inch!! So that is a 5% error on this particular printer. 
 
 == So... a pixel is not a pixel and an inch is not an inch? == 
@@ -173,14 +173,14 @@ Scalability and adaptability is what matters most. The most important aspect for
 
 == Final thoughts ==
 So what should keep in mind as web developers to have our content render nicely on various display sizes, form factors and pixel densities? Here are a few take-aways:
-Use media queries to use the desired layout depending on the rendering conditions (e.g., small device screen, tablet type, desktop, large display).
-Set up your viewport for mobile display in a meta tag.
-Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, ‘vh’ and ‘vw’ (check their implementation status) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
-Understand that CSS pixels reference an abstract ‘reference pixel’ and that the key rule to remember is that 96 CSS pixels are always the same length as 1 CSS inch. 
-Use SVG (or icon fonts, more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
+Use [http://alistapart.com/article/responsive-web-design media queries] to use the desired layout depending on the rendering conditions (e.g., small device screen, tablet type, desktop, large display).
+Set up your [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport for mobile display in a meta tag].
+Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, [http://snook.ca/archives/html_and_css/vm-vh-units ‘vh’ and ‘vw’] (check their [http://caniuse.com/viewport-units implementation status]) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
+[http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that 96 CSS pixels are always the same length as 1 CSS inch. 
+Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
 
-Post Scriptum: Event though this blog did not talk as much about high resolution for the Canvas element, anybody doing development with Canvas should be aware of the behavior with high resolution screens, and there are great blog posts on the topic such as this HTML5 Rocks article and this PhoboxLab article.
+Post Scriptum: Event though this blog did not talk as much about high resolution for the Canvas element, anybody doing development with Canvas should be aware of the behavior with high resolution screens, and there are great blog posts on the topic such as [http://www.html5rocks.com/en/tutorials/canvas/hidpi/ this HTML5 Rocks article] and this [http://phoboslab.org/log/2012/09/drawing-pixels-is-hard PhoboxLab] article.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
