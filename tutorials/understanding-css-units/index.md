@@ -193,7 +193,7 @@ So what should keep in mind as web developers to have our content render nicely 
 # Set up your [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport for mobile display in a meta tag].
 # Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, [http://snook.ca/archives/html_and_css/vm-vh-units ‘vh’ and ‘vw’] (check their [http://caniuse.com/viewport-units implementation status]) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
 # [http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that '''96 CSS pixels are always the same length as 1 CSS inch'''. 
-# Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
+# Use [[svg|SVG]] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
 == See Also ==
 * [http://learn.shayhowe.com/advanced-html-css/responsive-web-design An Advanced Guide to HTML & CSS - Responsive Web Design] 
