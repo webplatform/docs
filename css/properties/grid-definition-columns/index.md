@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. It can specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. It can specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.}}
 {{CSS Property
 |Initial value=none
 |Applies to=none
@@ -43,7 +42,16 @@ Where the values are described as:
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties
+|URL=http://dev.w3.org/csswg/css-grid/#track-sizing
+|Status=W3C Editor's Draft
+|Relevant_changes=Significant changes, including property name & values
+}}{{Related Specification
+|Name=CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties
+|URL=http://www.w3.org/TR/css3-grid-layout/#track-sizing
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
