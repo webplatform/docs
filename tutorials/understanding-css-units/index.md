@@ -119,8 +119,7 @@ Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification
 Simple math guides the two possible behaviors allowed by the specification:
 
 # On a high-resolution device - laser printers today, screens in the future - CSS rendering should map an inch to its physical dimension (this is what the specification calls “relating the physical units to their physical measurements”). As a result, a CSS ‘px’ unit (because it is 1/96 of an inch) may resolve to a fractional number of device pixels. For example, on a 300dppi (device pixel per inch) screen the ratio of CSS pixels to device pixels is 300/96 = 3.125. As a consequence, if you styled an element with:
-<pre>border: 1px solid blue;</pre>
-...its border should be 3.125 device pixel wide. Depending on the rasterizer - the part of the software that converts basic shapes to pixels - you could get blue covering 3 pixels fully and then partial coverage of the 4th pixel using anti-aliasing to blend with the background.
+<pre>border: 1px solid blue;</pre>...its border should be 3.125 device pixel wide. Depending on the rasterizer - the part of the software that converts basic shapes to pixels - you could get blue covering 3 pixels fully and then partial coverage of the 4th pixel using anti-aliasing to blend with the background.
 # On a low-resolution device, the specification recommends to “relate the pixel unit to the [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.  In our earlier example, the blue border could be a full device pixel.
 
 Until a few years ago, a CSS pixel was generally mapped to a single screen pixel. As a consequence, a CSS inch did not always map to an actual physical inch; if a laptop’s true resolution was 120dppi, a 96px-long inch would end up being 96/120 = 0.8 physical inch!
