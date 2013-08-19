@@ -113,7 +113,9 @@ Before we dive deeper into CSS ‘px’ unit, we will not that scalable formats 
 
 == On CSS pixels, physical units and scalability ==
 
-Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification] defines all the CSS units in one single document, it can take some work to wrap one’s head around the way CSS relates its units to real-world measures, or physical units. All the specification says can be stated as ::: '''96px = 1in'''
+Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification] defines all the CSS units in one single document, it can take some work to wrap one’s head around the way CSS relates its units to real-world measures, or physical units. All the specification says can be stated as
+
+'''96px = 1in'''
 
 Simple math guides the two possible behaviors allowed by the specification:
 
