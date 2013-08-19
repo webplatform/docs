@@ -7,7 +7,7 @@
 }}
 {{Summary_Section}}
 {{Tutorial
-|Content=A growing number of CSS length units have provided new flexibility to web authors (see the CSS Values and Units specification). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
+|Content=A growing number of CSS length units have provided new flexibility to web authors (see the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification]). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
 
 They help developers lay out content independently of display size and resolution.
 
@@ -181,7 +181,6 @@ Use SVG (or icon fonts, more limited but more widely supported) wherever you can
 
 
 Post Scriptum: Event though this blog did not talk as much about high resolution for the Canvas element, anybody doing development with Canvas should be aware of the behavior with high resolution screens, and there are great blog posts on the topic such as this HTML5 Rocks article and this PhoboxLab article.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
