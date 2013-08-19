@@ -8,7 +8,9 @@
 }}
 {{Summary_Section|This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.}}
 {{Tutorial
-|Content=== Introduction ==
+|Content={{TODO | [This is a description of items still missing on this page.] }}
+
+== Introduction ==
 A growing number of CSS length units have provided new flexibility to web authors (see the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification]). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
 
 They help developers lay out content independently of display size and resolution.
