@@ -107,7 +107,7 @@ In all these cases, objects’ positions and dimensions eventually resolve to a 
 
 Before we dive deeper into CSS ‘px’ unit, we will not that scalable formats such as SVG are very effective way to achieve resolution independence, or responsiveness, for your image assets. 
 
-Note - Icon fonts are another recent popular practice as of 2013 e.g. see http://css-tricks.com/html-for-icon-font-usage/, or http://nimbupani.com/markup-free-icon-fonts-with-unicode-range.html. And then there are very clever hacks like Chartwell https://www.scribbletone.com/typefaces/ff-chartwell or Symbolset http://symbolset.com/. These are part of the scalable arsenal today.
+'''Note :''' Icon fonts are another recent popular practice as of 2013 e.g. see http://css-tricks.com/html-for-icon-font-usage/, or http://nimbupani.com/markup-free-icon-fonts-with-unicode-range.html. And then there are very clever OpenType hacks like [https://www.scribbletone.com/typefaces/ff-chartwell Chartwell]  or [http://symbolset.com/ Symbolset]. These are part of the scalable arsenal today.
 
 == On CSS pixels, physical units and scalability ==
 
@@ -181,16 +181,16 @@ When we try render this document across different devices we see that:
 
 Well, that is almost like that but it is not as bad as it seems. Here is why:
 
-* The CSS pixel is a ‘reference’ pixel, not a device pixel. This is misleading and, personally, I prefer the notion of ‘user unit’ that SVG uses because I think it is easier to then explain the mapping to physical units and device pixels. But once one understands that a ‘px’ is actually a reference, not a device pixel, things make more sense. The thing to remember is that a CSS px is an abstract unit and there is a ratio controlling how it a) maps to actual device pixels and b) maps to physical units (in a fixed way, the ratio is always 96 CSS px to an inch).
-* A CSS inch is exactly or  ‘close’ to an inch. On high resolution devices, and if no other parameters interfere (like user zoom or CSS transforms), an inch will be a physical inch as expected. On low resolution devices, there will be a margin of error, as explained above.
-* Scalability and adaptability is what matters most. The most important aspect for most developers is that content layout can reflow and adapt as units scale in a predictable and reasonable way. While the concept of keeping the exact aspect ratio on all devices might seem appealing, it has consequences that are not desirable on low resolution devices (such as unwanted antialiasing causing blurry rendering).
+* '''The CSS pixel is a ‘reference’ pixel, not a device pixel'''. This is misleading and, personally, I prefer the notion of ‘user unit’ that SVG uses because I think it is easier to then explain the mapping to physical units and device pixels. But once one understands that a ‘px’ is actually a reference, not a device pixel, things make more sense. The thing to remember is that a CSS px is an abstract unit and there is a ratio controlling how it a) maps to actual device pixels and b) maps to physical units (in a fixed way, the ratio is always 96 CSS px to an inch).
+* '''A CSS inch is exactly or  ‘close’ to an inch'''. On high resolution devices, and if no other parameters interfere (like user zoom or CSS transforms), an inch will be a physical inch as expected. On low resolution devices, there will be a margin of error, as explained above.
+* '''Scalability and adaptability is what matters most'''. The most important aspect for most developers is that content layout can reflow and adapt as units scale in a predictable and reasonable way. While the concept of keeping the exact aspect ratio on all devices might seem appealing, it has consequences that are not desirable on low resolution devices (such as unwanted antialiasing causing blurry rendering).
 
 == Final thoughts ==
 So what should keep in mind as web developers to have our content render nicely on various display sizes, form factors and pixel densities? Here are a few take-aways:
 # Use [http://alistapart.com/article/responsive-web-design media queries] to use the desired layout depending on the rendering conditions (e.g., small device screen, tablet type, desktop, large display).
 # Set up your [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport for mobile display in a meta tag].
 # Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, [http://snook.ca/archives/html_and_css/vm-vh-units ‘vh’ and ‘vw’] (check their [http://caniuse.com/viewport-units implementation status]) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
-# [http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that 96 CSS pixels are always the same length as 1 CSS inch. 
+# [http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that '''96 CSS pixels are always the same length as 1 CSS inch'''. 
 # Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
 
