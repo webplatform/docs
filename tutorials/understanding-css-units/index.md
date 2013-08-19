@@ -38,56 +38,42 @@ body {
 Several other CSS unit types support layout adaptation. The following table enumerates a number of them:
 
 {{{!}}
-! head 1
-! head 2
-! head 3
-{{!}}-
-{{!}} column a1
-{{!}} column a2
-{{!}} column a3
-{{!}}-
-{{!}} column b1
-{{!}} column b2
-{{!}} column b3
-{{!}}}
-
-{|
 !Unit
 !Description
 !Example use case
-|-
-|em
-|1 em is the computed value of the font-size on the element on which it is used.
-|For example, the font size <h1> heading elements may be set to 3em and the body kept at 1em, making sure that under all display conditions heading text will be 3 times as large as the body’s. It must be noted that when used as a font-size property value, the em unit refers to the font size of the parent element. Thus, in our example, a <span> element inside an <h1> with font-size: 2 em would end up with text 6 times larger than in the body.
-|-
-|ex
-|1 ex is the current font’s x-height. The x-height is usually (but not always, e.g., if there is no ‘x’ in the font) equal to the height of a lowercase ‘x’
-|Rarely used in practice. May be used to size inline images to fit the x-height of the current font for visual harmony.
-|-
-|ch
-|1 ch is the advance of the ‘0’ (zero) glyph in the current font. ‘ch’ stands for character.
-|Can be used to [http://lists.w3.org/Archives/Public/www-style/1999Dec/0048.html style monospace text or braille].
-|-
-|rem
-|1 rem is the computed value of the font-size property for the document’s root element.
-This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.  |For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level <li> but second-level <li> would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px <li> elements no matter their nesting level.
-|-
-|vw
-|1vw is 1% of the width of the viewport. ‘vw’ stands for ‘viewport width’.
-|Useful to size boxes that adapt to different viewport widths.
-|-
-|vh
-|1vw is 1% of the height of the viewport. ‘vh’ stands for ‘viewport height’.
-|Useful to size boxes that adapt to different viewport widths. For example, may be used to set a maximum width on an image so that it does not exceed the viewport dimensions.
-|-
-|vmin
-|Equal to the smaller of ‘vw’ or ‘vh’
-|See vh/vw
-|-
-|vmax
-|Equal to the larger of ‘vw’ or ‘vh’
-|See vh/vw
-|}
+{{!}}-
+{{!}}em
+{{!}}1 em is the computed value of the font-size on the element on which it is used.
+{{!}}For example, the font size <h1> heading elements may be set to 3em and the body kept at 1em, making sure that under all display conditions heading text will be 3 times as large as the body’s. It must be noted that when used as a font-size property value, the em unit refers to the font size of the parent element. Thus, in our example, a <span> element inside an <h1> with font-size: 2 em would end up with text 6 times larger than in the body.
+{{!}}-
+{{!}}ex
+{{!}}1 ex is the current font’s x-height. The x-height is usually (but not always, e.g., if there is no ‘x’ in the font) equal to the height of a lowercase ‘x’
+{{!}}Rarely used in practice. May be used to size inline images to fit the x-height of the current font for visual harmony.
+{{!}}-
+{{!}}ch
+{{!}}1 ch is the advance of the ‘0’ (zero) glyph in the current font. ‘ch’ stands for character.
+{{!}}Can be used to [http://lists.w3.org/Archives/Public/www-style/1999Dec/0048.html style monospace text or braille].
+{{!}}-
+{{!}}rem
+{{!}}1 rem is the computed value of the font-size property for the document’s root element.
+This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.  {{!}}For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level <li> but second-level <li> would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px <li> elements no matter their nesting level.
+{{!}}-
+{{!}}vw
+{{!}}1vw is 1% of the width of the viewport. ‘vw’ stands for ‘viewport width’.
+{{!}}Useful to size boxes that adapt to different viewport widths.
+{{!}}-
+{{!}}vh
+{{!}}1vw is 1% of the height of the viewport. ‘vh’ stands for ‘viewport height’.
+{{!}}Useful to size boxes that adapt to different viewport widths. For example, may be used to set a maximum width on an image so that it does not exceed the viewport dimensions.
+{{!}}-
+{{!}}vmin
+{{!}}Equal to the smaller of ‘vw’ or ‘vh’
+{{!}}See vh/vw
+{{!}}-
+{{!}}vmax
+{{!}}Equal to the larger of ‘vw’ or ‘vh’
+{{!}}See vh/vw
+{{!}}}
 === What about canvas and ‘full pixel control’  use-cases? ===
 
 We have thus far focused on the styling of document elements using CSS. Some use-cases, however, require full application control over each drawn pixel e.g. in a video game.
