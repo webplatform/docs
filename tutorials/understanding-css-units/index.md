@@ -1,6 +1,8 @@
 {{Page_Title|Understanding pixels and other CSS units}}
 {{Flags
 |Checked_Out=Yes
+|Editorial notes=- It'd be nice to center the screenshot. Not sure how to.
+- Also, add a caption for the screenshot: "Rendering in OSX Safari"
 }}
 {{Byline
 |Name=Vincent Hardy
@@ -172,7 +174,6 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 </pre>
 
 [[Image: css-units-px-and-inch.png|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
-Figure 1: Rendering in Mac OS Safari
 
 When we try render this document across different devices we see that:
 * In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
