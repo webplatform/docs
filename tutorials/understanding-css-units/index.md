@@ -1,4 +1,4 @@
-{{Page_Title|Understanding CSS units and pixels}}
+{{Page_Title|Understanding pixels and other CSS units}}
 {{Flags
 |Checked_Out=Yes
 }}
