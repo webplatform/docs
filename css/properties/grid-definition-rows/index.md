@@ -33,7 +33,7 @@ As well as referring to grid lines by their numerical index, you can also name l
 Where the values are described as:
 
 * &lt;length&gt;
-* &lt;percentage&gt;: Percentage values are relative to the grid container width in grid column tracks. If the grid container measure is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
+* &lt;percentage&gt;: Percentage values are relative to the extent (logical height) of the grid container in grid row tracks. If the extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
 * &lt;flex&gt;: A non-negative dimension with the unit "fr". Each <flex> value takes a share of the remaining space in proportion to its value. See Flexible Lengths for more details.
 * max-content: Largest max size contribution of the grid items occupying the grid track.
 * min-content: Largest min size contribution of the grid items occupying the grid track.
