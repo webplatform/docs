@@ -15,11 +15,11 @@ As well as referring to grid lines by their numerical index, you can also name l
 |Media=visual
 |Computed value=As specified, except for ‘auto’ (see prose)
 |Animatable=No
-|CSS object model property=gridDefinitionColumns
+|CSS object model property=gridDefinitionRows
 |CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=none
-|Description=No initial grid; any columns are implicitly generated with their size determined by the ‘grid-auto-rows’ property.
+|Description=No initial grid; any rows are implicitly generated with their size determined by the ‘grid-auto-rows’ property.
 }}{{CSS Property Value
 |Data Type=<track-list>
 |Description=The track-list syntax is:
