@@ -84,7 +84,7 @@ This unit is often easier to use than the ‘em’ unit because it is not affect
 
 We have thus far focused on the styling of document elements using CSS. Some use-cases, however, require full application control over each drawn pixel e.g. in a video game.
 
-Both the [http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/ Canvas 2D context] and [http://docs.webplatform.org/wiki/svg Scalable Vector Graphics] can be used to address such requirements, as well as [http://www.khronos.org/registry/webgl/specs/latest/ WebGL].  It is also possible to use absolutely positioned content to get [http://www.tricedesigns.com/2013/03/22/phonegap-legends-a-sample-game-app/ faster performance] under very specific circumstance (like gaming).
+Both the [http://www.w3.org/html/wg/drafts/2dcontext/html5_canvas/ Canvas 2D context] and [[svg|Scalable Vector Graphics]] can be used to address such requirements, as well as [http://www.khronos.org/registry/webgl/specs/latest/ WebGL].  It is also possible to use absolutely positioned content to get [http://www.tricedesigns.com/2013/03/22/phonegap-legends-a-sample-game-app/ faster performance] under very specific circumstance (like gaming).
 
 While developers should not casually implement their own layout, there are use-cases where this is still a better option than moving to native application development.
 
