@@ -118,11 +118,10 @@ Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification
 
 Simple math guides the two possible behaviors allowed by the specification:
 
-On a high-resolution device - laser printers today, screens in the future - CSS rendering should map an inch to its physical dimension (this is what the specification calls “relating the physical units to their physical measurements”). As a result, a CSS ‘px’ unit (because it is 1/96 of an inch) may resolve to a fractional number of device pixels. For example, on a 300dppi (device pixel per inch) screen the ratio of CSS pixels to device pixels is 300/96 = 3.125. As a consequence, if you styled an element with:
-border: 1px solid blue;
+# On a high-resolution device - laser printers today, screens in the future - CSS rendering should map an inch to its physical dimension (this is what the specification calls “relating the physical units to their physical measurements”). As a result, a CSS ‘px’ unit (because it is 1/96 of an inch) may resolve to a fractional number of device pixels. For example, on a 300dppi (device pixel per inch) screen the ratio of CSS pixels to device pixels is 300/96 = 3.125. As a consequence, if you styled an element with:
+<pre>border: 1px solid blue;</pre>
 ...its border should be 3.125 device pixel wide. Depending on the rasterizer - the part of the software that converts basic shapes to pixels - you could get blue covering 3 pixels fully and then partial coverage of the 4th pixel using anti-aliasing to blend with the background.
-
-On a low-resolution device, the specification recommends to “relate the pixel unit to the [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.  In our earlier example, the blue border could be a full device pixel.
+# On a low-resolution device, the specification recommends to “relate the pixel unit to the [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.  In our earlier example, the blue border could be a full device pixel.
 
 Until a few years ago, a CSS pixel was generally mapped to a single screen pixel. As a consequence, a CSS inch did not always map to an actual physical inch; if a laptop’s true resolution was 120dppi, a 96px-long inch would end up being 96/120 = 0.8 physical inch!
 
@@ -174,26 +173,26 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 Figure 1: Rendering in Mac OS Safari
 
 When we try render this document across different devices we see that:
-In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
-On a MacBook Pro 15 inch display with a resolution of [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 110dpi], the physical width of a box is: 96 * 1 / 110 = 0.872 inch. This is because the CSSpx/device pixel ratio is 1. Using a ruler on my screen I measured 0.88 inch and the difference is my rudimentary ruler and approximate vision :-). So a CSS inch is off by 22.8% from the physical inch.
-On an iPhone 5 with a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 326dpi] resolution, the physical width of a box is 96 * 2 / 326 = 0.589 inch. This is because on this platform, the CSS px to device ratio is 2. Again using a ruler, I got 1.592inch. Again, measurement error. Here, a CSS inch is off by 41.1%
-On a printer (I used a Canon Pixma MP600), the physical inch of a box is .... 1.05 inch!! So that is a 5% error on this particular printer. 
+* In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
+* On a MacBook Pro 15 inch display with a resolution of [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 110dpi], the physical width of a box is: 96 * 1 / 110 = 0.872 inch. This is because the CSSpx/device pixel ratio is 1. Using a ruler on my screen I measured 0.88 inch and the difference is my rudimentary ruler and approximate vision :-). So a CSS inch is off by 22.8% from the physical inch.
+* On an iPhone 5 with a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density#Apple 326dpi] resolution, the physical width of a box is 96 * 2 / 326 = 0.589 inch. This is because on this platform, the CSS px to device ratio is 2. Again using a ruler, I got 1.592inch. Again, measurement error. Here, a CSS inch is off by 41.1%
+* On a printer (I used a Canon Pixma MP600), the physical inch of a box is .... 1.05 inch!! So that is a 5% error on this particular printer. 
 
 == So... a pixel is not a pixel and an inch is not an inch? == 
 
 Well, that is almost like that but it is not as bad as it seems. Here is why:
 
-The CSS pixel is a ‘reference’ pixel, not a device pixel. This is misleading and, personally, I prefer the notion of ‘user unit’ that SVG uses because I think it is easier to then explain the mapping to physical units and device pixels. But once one understands that a ‘px’ is actually a reference, not a device pixel, things make more sense. The thing to remember is that a CSS px is an abstract unit and there is a ratio controlling how it a) maps to actual device pixels and b) maps to physical units (in a fixed way, the ratio is always 96 CSS px to an inch).
-A CSS inch is exactly or  ‘close’ to an inch. On high resolution devices, and if no other parameters interfere (like user zoom or CSS transforms), an inch will be a physical inch as expected. On low resolution devices, there will be a margin of error, as explained above.
-Scalability and adaptability is what matters most. The most important aspect for most developers is that content layout can reflow and adapt as units scale in a predictable and reasonable way. While the concept of keeping the exact aspect ratio on all devices might seem appealing, it has consequences that are not desirable on low resolution devices (such as unwanted antialiasing causing blurry rendering).
+* The CSS pixel is a ‘reference’ pixel, not a device pixel. This is misleading and, personally, I prefer the notion of ‘user unit’ that SVG uses because I think it is easier to then explain the mapping to physical units and device pixels. But once one understands that a ‘px’ is actually a reference, not a device pixel, things make more sense. The thing to remember is that a CSS px is an abstract unit and there is a ratio controlling how it a) maps to actual device pixels and b) maps to physical units (in a fixed way, the ratio is always 96 CSS px to an inch).
+* A CSS inch is exactly or  ‘close’ to an inch. On high resolution devices, and if no other parameters interfere (like user zoom or CSS transforms), an inch will be a physical inch as expected. On low resolution devices, there will be a margin of error, as explained above.
+* Scalability and adaptability is what matters most. The most important aspect for most developers is that content layout can reflow and adapt as units scale in a predictable and reasonable way. While the concept of keeping the exact aspect ratio on all devices might seem appealing, it has consequences that are not desirable on low resolution devices (such as unwanted antialiasing causing blurry rendering).
 
 == Final thoughts ==
 So what should keep in mind as web developers to have our content render nicely on various display sizes, form factors and pixel densities? Here are a few take-aways:
-Use [http://alistapart.com/article/responsive-web-design media queries] to use the desired layout depending on the rendering conditions (e.g., small device screen, tablet type, desktop, large display).
-Set up your [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport for mobile display in a meta tag].
-Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, [http://snook.ca/archives/html_and_css/vm-vh-units ‘vh’ and ‘vw’] (check their [http://caniuse.com/viewport-units implementation status]) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
-[http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that 96 CSS pixels are always the same length as 1 CSS inch. 
-Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
+# Use [http://alistapart.com/article/responsive-web-design media queries] to use the desired layout depending on the rendering conditions (e.g., small device screen, tablet type, desktop, large display).
+# Set up your [https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag viewport for mobile display in a meta tag].
+# Use CSS units and CSS layout to make your content flow and size as desired. Leverage latest units such as ‘rem’, [http://snook.ca/archives/html_and_css/vm-vh-units ‘vh’ and ‘vw’] (check their [http://caniuse.com/viewport-units implementation status]) or older but still as useful ones such as ‘percentages’, ‘em’ or ‘pt’.
+# [http://www.quirksmode.org/blog/archives/2010/04/a_pixel_is_not.html Understand] that CSS pixels reference an abstract [http://www.w3.org/TR/css3-values/#reference-pixel reference pixel] and that the key rule to remember is that 96 CSS pixels are always the same length as 1 CSS inch. 
+# Use [http://docs.webplatform.org/wiki/svg SVG] (or [icon fonts http://css-tricks.com/examples/IconFont/], more limited but more widely supported) wherever you can (depending on the image type and/or your target browsers) to have content that naturally scales up to higher pixel densities or sizes.
 
 
 Post Scriptum: Event though this blog did not talk as much about high resolution for the Canvas element, anybody doing development with Canvas should be aware of the behavior with high resolution screens, and there are great blog posts on the topic such as [http://www.html5rocks.com/en/tutorials/canvas/hidpi/ this HTML5 Rocks article] and this [http://phoboslab.org/log/2012/09/drawing-pixels-is-hard PhoboxLab] article.
