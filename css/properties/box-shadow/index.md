@@ -77,7 +77,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |LiveURL=http://code.webplatform.org/gist/5259463
 }}{{Single Example
 |Language=CSS
-|Description=If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates that the resulting shadow should be blurred, such as by a Gaussian filter.)
+|Description=If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates the resulting shadow should be blurred, such as by a Gaussian filter.)
 |Code=article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
