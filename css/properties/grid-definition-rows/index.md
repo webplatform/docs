@@ -2,13 +2,44 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
+
+As well as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
+}}
 {{CSS Property
+|Initial value=none
+|Applies to=none
 |Inherited=No
+|Media=visual
+|Computed value=As specified, except for ‘auto’ (see prose)
 |Animatable=No
-|Values=
+|CSS object model property=gridDefinitionColumns
+|CSS percentages=n/a
+|Values={{CSS Property Value
+|Data Type=none
+|Description=No initial grid; any columns are implicitly generated with their size determined by the ‘grid-auto-columns’ property.
+}}{{CSS Property Value
+|Data Type=<track-list>
+|Description=The track-list syntax is:
+
+&lt;track-list&gt;    = &#91; &lt;string&gt;* &#91; &lt;track-size&gt; &#124; &lt;repeat-function&gt; &#93; &#93;+ &lt;string&gt;*
+
+&lt;track-size&gt;    = minmax( &lt;track-breadth&gt; , &lt;track-breadth&gt; ) &#124; auto &#124; &lt;track-breadth&gt;
+
+&lt;track-breadth&gt; = &lt;length&gt; &#124; &lt;percentage&gt; &#124; &lt;flex&gt; &#124; min-content &#124; max-content
+
+Where the values are described as:
+
+* &lt;length&gt;
+* &lt;percentage&gt;: Percentage values are relative to the grid container width in grid column tracks. If the grid container measure is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
+* &lt;flex&gt;: A non-negative dimension with the unit "fr". Each <flex> value takes a share of the remaining space in proportion to its value. See Flexible Lengths for more details.
+* max-content: Largest max size contribution of the grid items occupying the grid track.
+* min-content: Largest min size contribution of the grid items occupying the grid track.
+* minmax(min, max): Defines a size range greater than or equal to min and less than or equal to max. If max < min, then max is ignored and ‘minmax(min,max)’ is treated as min.
+* auto: Computes to ‘minmax(min-content, max-content)’.
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +47,16 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties
+|URL=http://dev.w3.org/csswg/css-grid/#track-sizing
+|Status=W3C Editor's Draft
+|Relevant_changes=Significant changes, including property name & values
+}}{{Related Specification
+|Name=CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties
+|URL=http://www.w3.org/TR/css3-grid-layout/#track-sizing
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -25,8 +65,10 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=CSS Layout, Grid Layout
+}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
