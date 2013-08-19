@@ -4,6 +4,7 @@
 }}
 {{Byline
 |Name=Vincent Hardy
+|URL=http://blogs.adobe.com/digitalmedia/author/vhardy/
 }}
 {{Summary_Section|This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.}}
 {{Tutorial
@@ -200,7 +201,7 @@ Post Scriptum: Event though this blog did not talk as much about high resolution
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
