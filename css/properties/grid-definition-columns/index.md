@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
 
-As we as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
+As well as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
 }}
 {{CSS Property
 |Initial value=none
@@ -33,10 +33,10 @@ As we as referring to grid lines by their numerical index, you can also name lin
 Where the values are described as:
 
 * &lt;length&gt;
-* &lt;percentage&gt;: Percentage values are relative to the measure (logical width) of the grid container in grid column tracks, and the extent (logical height) of the grid container in grid row tracks. If the measure or extent of the grid container is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
+* &lt;percentage&gt;: Percentage values are relative to the grid container width in grid column tracks. If the grid container measure is an indefinite size, <percentage> values relative to that size are treated as ‘auto’.
 * &lt;flex&gt;: A non-negative dimension with the unit "fr". Each <flex> value takes a share of the remaining space in proportion to its value. See Flexible Lengths for more details.
-* max-content: Represents the largest max size contribution of the grid items occupying the grid track.
-* min-content: Represents the largest min size contribution of the grid items occupying the grid track.
+* max-content: Largest max size contribution of the grid items occupying the grid track.
+* min-content: Largest min size contribution of the grid items occupying the grid track.
 * minmax(min, max): Defines a size range greater than or equal to min and less than or equal to max. If max < min, then max is ignored and ‘minmax(min,max)’ is treated as min.
 * auto: Computes to ‘minmax(min-content, max-content)’.
 }}
