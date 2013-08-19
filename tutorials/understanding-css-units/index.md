@@ -202,7 +202,7 @@ So what should keep in mind as web developers to have our content render nicely 
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
