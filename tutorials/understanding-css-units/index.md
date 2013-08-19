@@ -1,8 +1,6 @@
 {{Page_Title|Understanding pixels and other CSS units}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=- It'd be nice to center the screenshot. Not sure how to.
-- Also, add a caption for the screenshot: "Rendering in OSX Safari"
 }}
 {{Byline
 |Name=Vincent Hardy
