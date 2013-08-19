@@ -44,7 +44,7 @@ Several other CSS unit types support layout adaptation. The following table enum
 {{!}}-
 {{!}}em
 {{!}}1 em is the computed value of the font-size on the element on which it is used.
-{{!}}For example, the font size <h1> heading elements may be set to 3em and the body kept at 1em, making sure that under all display conditions heading text will be 3 times as large as the body’s. It must be noted that when used as a font-size property value, the em unit refers to the font size of the parent element. Thus, in our example, a <span> element inside an <h1> with font-size: 2 em would end up with text 6 times larger than in the body.
+{{!}}For example, the font size &lt;h1&gt; heading elements may be set to 3em and the body kept at 1em, making sure that under all display conditions heading text will be 3 times as large as the body’s. It must be noted that when used as a font-size property value, the em unit refers to the font size of the parent element. Thus, in our example, a &lt;span&gt; element inside an &lt;h1&gt; with font-size: 2 em would end up with text 6 times larger than in the body.
 {{!}}-
 {{!}}ex
 {{!}}1 ex is the current font’s x-height. The x-height is usually (but not always, e.g., if there is no ‘x’ in the font) equal to the height of a lowercase ‘x’
@@ -56,7 +56,7 @@ Several other CSS unit types support layout adaptation. The following table enum
 {{!}}-
 {{!}}rem
 {{!}}1 rem is the computed value of the font-size property for the document’s root element.
-This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.  {{!}}For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level <li> but second-level <li> would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px <li> elements no matter their nesting level.
+This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.  {{!}}For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level &lt;li&gt; but second-level &lt;li&lt; would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px &lt;li&gt; elements no matter their nesting level.
 {{!}}-
 {{!}}vw
 {{!}}1vw is 1% of the width of the viewport. ‘vw’ stands for ‘viewport width’.
