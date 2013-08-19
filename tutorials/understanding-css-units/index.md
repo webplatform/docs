@@ -26,14 +26,14 @@ Understanding and setting up the [https://developer.mozilla.org/en-US/docs/Mozil
 
 Available since CSS1, percentages allow the sizing of elements relative to their containing block. For example, we can set up the body of a document like so:
 
-<pre>
+<syntaxhighlight>
 body {
        width: 80%;
        max-width: 900px;
        margin-left: auto;
        margin-right: auto;
 }
-</pre>
+</syntaxhighlight>
 
 ...to ensure the body is at most 900px and take 80% of the width of the viewport otherwise. (Note that CSS pixels are not device pixels; this will be discussed at length later)
 
@@ -130,7 +130,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 
 == Simple Example ==
 
-<pre>
+<syntaxhighlight>
 <!DOCTYPE html>
 <html>
     <head>
@@ -169,7 +169,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
     </body>
 </html>
 
-</pre>
+</syntaxhighlight>
 
 [[Image: css-units-px-and-inch.png|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
 
