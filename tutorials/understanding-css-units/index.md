@@ -117,7 +117,6 @@ Though the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification
 
 :::: '''96px = 1in'''
 
-
 Simple math guides the two possible behaviors allowed by the specification:
 
 * On a high-resolution device - laser printers today, screens in the future - CSS rendering should map an inch to its physical dimension (this is what the specification calls “relating the physical units to their physical measurements”). As a result, a CSS ‘px’ unit (because it is 1/96 of an inch) may resolve to a fractional number of device pixels. For example, on a 300dppi (device pixel per inch) screen the ratio of CSS pixels to device pixels is 300/96 = 3.125. As a consequence, if you styled an element with:
