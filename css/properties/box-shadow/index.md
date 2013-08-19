@@ -24,11 +24,9 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Values={{CSS Property Value
 |Data Type=inset (optional)
 |Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the <code>inset</code> keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
-
 }}{{CSS Property Value
 |Data Type=offset-x (optional)
 |Description=The first length is the horizontal offset of the shadow — offset-x specifies the horizontal offset of the shadow, which can be a number of any length unit. Positive values place the shadow to the right of the element, and negative values to the left. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
-
 }}{{CSS Property Value
 |Data Type=offset-y (optional)
 |Description=The second length is the vertical offset of the shadow — offset-y specifies the vertical offset of the shadow, which can be a number of any length unit. Positive values place the shadow below the element, and negative values above. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
@@ -47,7 +45,7 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=An example of a basic Drop Shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
+|Description=An example of a basic drop shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
