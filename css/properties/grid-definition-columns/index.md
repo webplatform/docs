@@ -65,6 +65,14 @@ Notice that we gave names on right lines of each columns. That way we can refer 
   display: grid;
   grid-definition-columns: 1fr "aside" minmax(min-content, 1fr) "main";
 }
+}}{{Single Example
+|Language=CSS
+|Description=At last, `repeat` function can be used to create a repeating sequence.
+|Code=#myGrid {
+  display: grid;
+  grid-definition-columns: repeat(3, 100px 1fr); // which equals to
+  grid-definition-columns: 100px, 1fr, 100px, 1fr, 100px, 1fr;
+}
 }}
 }}
 {{Notes_Section}}
