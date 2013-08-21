@@ -52,14 +52,14 @@ Where the values are described as:
 }
 }}{{Single Example
 |Language=CSS
-|Description=We define three columns where the first one will adapt to it's content, the second will take 250 pixels of the screen and third one will take 50% of it's container.
+|Description=We define three columns where the first one will adapt to its content, the second will take 250 pixels of the screen and third one will take 50% of its container.
 |Code=#myGrid {
   display: grid;
   grid-definitions-columns: auto 250px 50%
 }
 }}{{Single Example
 |Language=CSS
-|Description=We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of it's size, or the maximum value of 1fr.
+|Description=We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of its size, or the maximum value of 1fr.
 Notice that we gave names on right lines of each columns. That way we can refer to those lines when we define how space will take their contents.
 |Code=#myGrid {
   display: grid;
