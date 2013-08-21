@@ -155,7 +155,7 @@ var re = new RegExp("ab+c");
     </tr>
     <tr>
       <td><div id="special-backspace" name="special-backspace"><code>[\b]</code></div></td>
-      <td>Matches a backspace (U+0008). (Not to be confused with <code>\ b</code>.)</td>
+      <td>Matches a backspace (U+0008). (Not to be confused with <code>\b</code>.)</td>
     </tr>
     <tr>
       <td><div id="special-word-boundary" name="special-word-boundary"><code>\b</code></div></td>
@@ -415,14 +415,12 @@ var re = new RegExp("pattern", "flags");
 </pre>
 <p>Note that the flags are an integral part of a regular expression. They cannot be added or removed later.</p>
 <p>For example, <code>re = /\w+\s/g</code> creates a regular expression that looks for one or more characters followed by a space, and it looks for this combination throughout the string.</p>
-<syntaxhighlight lang="javascript">
 <pre >
 var re = /\w+\s/g;
 var str = "fee fi fo fum";
 var myArray = str.match(re);
 console.log(myArray);
 </pre>
-</syntaxhighlight>
 <p>This displays ["fee ", "fi ", "fo "]. In this example, you could replace the line:</p>
 <pre >
 var re = /\w+\s/g;
@@ -503,6 +501,7 @@ console.log(output.join("\n"));
 <p>In the following example, the user is expected to enter a phone number. When the user presses the "Check" button, the script checks the validity of the number. If the number is valid (matches the character sequence specified by the regular expression), the script shows a message thanking the user and confirming the number. If the number is invalid, the script informs the user that the phone number is not valid at all.</p>
 <p>The regular expression looks for zero or one open parenthesis <code>\(?</code>, followed by three digits<code> \d{3}</code>, followed by zero or one close parenthesis <code>\)?</code>, followed by one dash, forward slash, or decimal point and when found, remember the character <code>([-\/\.])</code>, followed by three digits <code>\d{3}</code>, followed by the remembered match of a dash, forward slash, or decimal point <code>\1</code>, followed by four digits <code>\d{4}</code>.</p>
 <p>The <code>Change</code> event activated when the user presses Enter sets the value of <code>RegExp.input</code>.</p>
+<pre >
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;  
   &lt;head&gt;  
