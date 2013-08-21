@@ -10,7 +10,7 @@ As well as referring to grid lines by their numerical index, you can also name l
 }}
 {{CSS Property
 |Initial value=none
-|Applies to=none
+|Applies to=grid containers
 |Inherited=No
 |Media=visual
 |Computed value=As specified, except for ‘auto’ (see prose)
@@ -43,7 +43,29 @@ Where the values are described as:
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=We define four values corresponding to each columns of our grid. First column will be exactly 100 pixels, second column will use flex units and will take one 'fr' of the remaining space but because of the third columns which takes up 2 'fr' that means that the remaining space will divide on three and second column will take 1/3 of this and third column will take 2/3.
+|Code=#myGrid {
+  display: grid;
+  grid-definitions-columns: 100px 1fr 2fr;
+}
+}}{{Single Example
+|Language=CSS
+|Description=We define three columns where the first one will adapt to it's content, the second will take 250 pixels of the screen and third one will also adapt to it's content.
+|Code=#myGrid {
+  display: grid;
+  grid-definitions-columns: auto 250px auto
+}
+}}{{Single Example
+|Language=CSS
+|Description=We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of it's size, or the maximum value of 1'fr'.
+Notice that we gave names on right lines of each columns. That way we can refer to those lines when we define how space will take their contents.
+|Code=#myGrid {
+  display: grid;
+  grid-definition-columns: 1fr "aside" minmax(min-content, 1fr) "main";
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
