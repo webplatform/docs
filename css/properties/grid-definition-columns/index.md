@@ -97,6 +97,9 @@ Notice that we gave names on right lines of each columns. That way we can refer 
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Grid Layout
+|External_links=<ul>
+<li>http://css-tricks.com/almanac/properties/g/grid/</li>
+</ul>
 }}
 {{Topics|CSS}}
 {{External_Attribution
