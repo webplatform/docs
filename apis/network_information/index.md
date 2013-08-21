@@ -1,9 +1,6 @@
 {{Page_Title|Network Information API}}
 {{Flags
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
