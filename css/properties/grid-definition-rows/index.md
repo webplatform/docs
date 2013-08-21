@@ -64,6 +64,14 @@ Where the values are described as:
   display: grid;
   grid-definition-rows: 1fr "aside" minmax(min-content, 1fr) "main";
 }
+}}{{Single Example
+|Language=CSS
+|Description=At last, `repeat` function can be used to create a repeating sequence.
+|Code=#myGrid {
+  display: grid;
+  grid-definition-rows: repeat(3, 100px 1fr); // which equals to
+  grid-definition-rows: 100px, 1fr, 100px, 1fr, 100px, 1fr;
+}
 }}
 }}
 {{Notes_Section}}
