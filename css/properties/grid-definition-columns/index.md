@@ -45,7 +45,7 @@ Where the values are described as:
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=We define four values corresponding to each columns of our grid. First column will be exactly 100 pixels, second column will use flex units and will take one 'fr' of the remaining space but because of the third columns which takes up 2 'fr' that means that the remaining space will divide on three and second column will take 1/3 of this and third column will take 2/3.
+|Description=We define four values corresponding to each columns of our grid. First column will be exactly 100 pixels, second column will use flex units and will take one 'fr' of the remaining space but because of the third columns which takes up two 'fr'. That means the remaining space will divide on three, and second column will take 1/3 of this, and third column will take 2/3.
 |Code=#myGrid {
   display: grid;
   grid-definitions-columns: 100px 1fr 2fr;
@@ -59,7 +59,7 @@ Where the values are described as:
 }
 }}{{Single Example
 |Language=CSS
-|Description=We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of it's size, or the maximum value of 1'fr'.
+|Description=We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of it's size, or the maximum value of 1fr.
 Notice that we gave names on right lines of each columns. That way we can refer to those lines when we define how space will take their contents.
 |Code=#myGrid {
   display: grid;
