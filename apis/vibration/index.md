@@ -1,9 +1,6 @@
 {{Page_Title|Vibration API}}
 {{Flags
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
