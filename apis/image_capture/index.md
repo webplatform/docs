@@ -1,9 +1,6 @@
 {{Page_Title|Mediastream Image Capture}}
 {{Flags
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -15,7 +12,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=This API takes a valid MediaStream and returns an encoded image in the form of a Blob. The image is provided by the capture device that provides the MediaStream. Moreover, picture-specific settings can be optionally provided as arguments that can be applied to the image being captured.
+|Usage=This API takes a valid [[apis/media_capture_and_streams/MediaStream|MediaStream]] and returns an encoded image in the form of a Blob. The image is provided by the capture device that provides the [[apis/media_capture_and_streams/MediaStream|MediaStream]]. Moreover, picture-specific settings can be optionally provided as arguments that can be applied to the image being captured.
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
