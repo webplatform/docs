@@ -1,13 +1,10 @@
 {{Page_Title|ImageCapture}}
 {{Flags
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with MediaStreams.}}
+{{Summary_Section|Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with [[apis/media_capture_and_streams/MediaStream|MediaStreams]].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
