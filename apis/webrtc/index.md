@@ -1,10 +1,7 @@
 {{Page_Title|WebRTC API}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on (under review for media streams)
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
