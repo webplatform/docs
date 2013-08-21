@@ -52,10 +52,10 @@ Where the values are described as:
 }
 }}{{Single Example
 |Language=CSS
-|Description=We define three columns where the first one will adapt to it's content, the second will take 250 pixels of the screen and third one will also adapt to it's content.
+|Description=We define three columns where the first one will adapt to it's content, the second will take 250 pixels of the screen and third one will take 50% of it's container.
 |Code=#myGrid {
   display: grid;
-  grid-definitions-columns: auto 250px auto
+  grid-definitions-columns: auto 250px 50%
 }
 }}{{Single Example
 |Language=CSS
