@@ -1,10 +1,8 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
-
 }}
-{{Summary_Section|Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
+{{Summary_Section|Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:|Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
 Want to add your own Pointer Events site? Click here …_
  
 Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
