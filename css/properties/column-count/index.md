@@ -28,20 +28,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=This example shows how to render text within the section.newspaper element in three columns.
-|Code=div {
+|Code=#columns {
+  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
   column-count: 3;
 }
-}}{{Single Example
-|Language=CSS
-|Description=We will always display 3 columns adjusting the width of the columns as needed
-|Code=/* 
-3 columns, doesn't matter the width of the content,
-we will always display 3 columns
-*/
-div {
-column-count: 3;
-}
-|LiveURL=http://code.webplatform.org/gist/5305530
+|LiveURL=http://code.webplatform.org/gist/6288917
 }}{{Single Example
 |Language=CSS
 |Description=Using auto for column-count will allow as many columns as are necessary or able to be generated.
