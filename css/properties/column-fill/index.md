@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -31,7 +30,6 @@ depending on other column property values.
 |Examples={{Single Example
 |Language=CSS
 |Description=Makes as many 15em columns but  restrict the heights of the columns to 400px
-
 |Code=/*
 Makes as many 15em columns but  restrict the heights of the columns to 400px
 */
