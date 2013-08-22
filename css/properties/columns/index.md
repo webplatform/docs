@@ -25,11 +25,14 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=Three columns, each with a width of 100 px
-|Code=div
-{
-    columns:100px 3;
+|Language=CSS
+|Description=Makes 3 columns at 100px width
+|Code=#columns {
+  -moz-columns: 100px 3;  /* Firefox */
+  -webkit-columns: 100px 3;  /* Safari and Chrome */
+  columns: 100px 3;
 }
+|LiveURL=http://code.webplatform.org/gist/6288803
 }}
 }}
 {{Notes_Section
