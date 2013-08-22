@@ -32,13 +32,19 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=A div with two columns. The column rule is set to <code>medium</code>, which is the default value.
-|Code=div {
-    column-count: 2;
-    column-rule-style: solid;
-    column-rule-width: medium;
+|Description=Makes 3 columns with 4px dashed green column-rule.
+|Code=#columns {
+  -moz-column-rule: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+  -moz-column-rule: dashed green; /* Firefox */
+  -webkit-column-rule: dashed green; /* Safari and Chrome */
+  column-rule: dashed green;
+  -moz-column-rule-width: 4px; /* Firefox */
+  -webkit-column-rule-width: 4px; /* Safari and Chrome */
+  column-rule-width: 4px;
 }
-|LiveURL=http://jsfiddle.net/dstorey/K6X54/
+|LiveURL=http://code.webplatform.org/gist/6311393
 }}
 }}
 {{Notes_Section
