@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
+
 }}
 {{Summary_Section|Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
-Want to add your own Pointer Events site? Click here ….
+Want to add your own Pointer Events site? Click here …_
  
 Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
  
-1.       Register on WPD here [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]
+1_       Register on WPD here [http://docs_webplatform_org/w/index_php?title=Special:UserLogin&returnto=WPD:Editors+Guide Register]
 2.       One the Top right of this page click Edit
 3.       Use this guide on how to use [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki Syntax]
 }}
