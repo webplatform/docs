@@ -25,8 +25,17 @@
 |Language=CSS
 |Description=Uses the column-rule-color property to set the color of the rule between columns.
 |Code=#columns {
-    column-rule-color: green;
+  -moz-column-rule: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+  -moz-column-rule: 4px dashed; /* Firefox */
+  -webkit-column-rule: 4px dashed; /* Safari and Chrome */
+  column-rule: 4px dashed;
+  -moz-column-rule-color: green; /* Firefox */
+  -webkit-column-rule-color: green; /* Safari and Chrome */
+  column-rule-color: green;
 }
+|LiveURL=http://code.webplatform.org/gist/6311315
 }}
 }}
 {{Notes_Section}}
@@ -34,7 +43,7 @@
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation 
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
