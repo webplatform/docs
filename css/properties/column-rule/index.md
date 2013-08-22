@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -28,7 +29,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Makes 3 columns with 4px dashed green column-rule.
+|Code=#columns {
+  -moz-column-rule: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+  -moz-column-rule: 4px dashed green; /* Firefox */
+  -webkit-column-rule: 4px dashed green; /* Safari and Chrome */
+  column-rule: 4px dashed green;
+}
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
