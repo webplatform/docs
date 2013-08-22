@@ -18,7 +18,7 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 1.       Register on WPD [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup&returnto=WPD:Editors+Guide here]<br/>
 2.       Click Edit on the top right of the page<br/>
 3.       Follow these helpful tips for using MediaWiki [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax]<br/>
-4.       Be aware that in order to upload a thumbnail image you have to have had at least 10 editorial contributions.  Image size needs to be no more than 75px wide.
+4.       Be aware that in order to upload a thumbnail image you have to have had at least 10 editorial contributions.  Image size needs to be  75px X 75px.
 
 
 [[File:flipboard.jpg|left ‎]] [http://flipboard.com Flipboard] - An interactive Web magazine experience that has an awesome touch and mouse support powered by Pointer Events. Use Flipboard to read and collect the news you care about, and curate your favorite stories into your own magazines on any topic imaginable, can be shared and enjoyed on the Web by anyone, anywhere.
