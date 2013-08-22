@@ -12,8 +12,7 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 3.       Use this guide on how to use [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki Syntax]
 }}
 {{Basic Page}}
-Want to add your own Pointer Events site? Click here ….
- 
+Want to add your own Pointer Events site? 
 Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
  
 1.       Register on WPD [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup&returnto=WPD:Editors+Guide here]<br/>
