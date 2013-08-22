@@ -50,19 +50,19 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Uses the <code>column-rule</code> shorthand to set multiple properties at the same time. The <code>column-rule</code> property used is the equivalent of:
-
-<code><pre>column-rule-width: 4px;
-column-rule-style: solid;
-column-rule-color: green;</pre></code>
-|Code=#column3 {
-  column-width: 15em;
-  column-gap: 2em;
-
-  column-rule: 4px solid green;
-  padding: 5px;
+|Description=Makes 3 columns with 4px dashed green column-rule.
+|Code=#columns {
+  -moz-column-rule: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+  -moz-column-rule: 4px green; /* Firefox */
+  -webkit-column-rule: 4px green; /* Safari and Chrome */
+  column-rule: 4px green;
+  -moz-column-rule-style: dashed; /* Firefox */
+  -webkit-column-rule-style: dashed; /* Safari and Chrome */
+  column-rule-style: dashed;
 }
-|LiveURL=http://code.webplatform.org/gist/5305898
+|LiveURL=http://code.webplatform.org/gist/6311519
 }}
 }}
 {{Notes_Section}}
