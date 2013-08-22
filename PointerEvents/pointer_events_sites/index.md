@@ -12,6 +12,15 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 3.       Use this guide on how to use [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet MediaWiki Syntax]
 }}
 {{Basic Page}}
+Want to add your own Pointer Events site? Click here ….
+ 
+Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
+ 
+1.       Register on WPD [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup&returnto=WPD:Editors+Guide here]<br/>
+2.       Click Edit on the top right of the page<br/>
+3.       Follow these helpful tips for using MediaWiki [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax]
+
+
 [http://flipboard.com Flipboard] - An interactive Web magazine experience that has an awesome touch and mouse support powered by Pointer Events. Use Flipboard to read and collect the news you care about, and curate your favorite stories into your own magazines on any topic imaginable, can be shared and enjoyed on the Web by anyone, anywhere.
 
 [http://glacierworks.org Everest: Rivers of Ice] - Interactive Web experience of Mount Everest and the Himalayas - the site showcases what modern browser technology can do, especially the W3C Pointer Events API for touch screens.
