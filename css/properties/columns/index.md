@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -26,11 +26,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes 3 columns at 100px width
+|Description=Makes 3 columns at auto width
 |Code=#columns {
-  -moz-columns: 100px 3;  /* Firefox */
-  -webkit-columns: 100px 3;  /* Safari and Chrome */
-  columns: 100px 3;
+  -moz-columns: 3 auto;  /* Firefox */
+  -webkit-columns: 3 auto;  /* Safari and Chrome */
+  columns: 3 auto;
 }
 |LiveURL=http://code.webplatform.org/gist/6288803
 }}
