@@ -22,7 +22,7 @@ sel
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=span:after { 
+|Code=span::after { 
   content: " Required";
 }
 }}
