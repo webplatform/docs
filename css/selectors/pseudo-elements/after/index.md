@@ -1,6 +1,8 @@
 {{Page_Title|&#58;&#58;after}}
 {{Flags
 |High-level issues=Data Not Semantic
+|Content=Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +20,12 @@ sel
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=span:after { 
+  content: " Required";
+}
+}}
 }}
 {{Notes_Section
 |Notes=Web authors are encouraged to use the two-colon form of the '''::after''' pseudo-element.
