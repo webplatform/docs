@@ -15,11 +15,11 @@
 |Computed value=The absolute length, zero or larger
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=Auto
-|Description=The column width will be determined by other properties (e.g., ‘column-count’, if it has a non-auto value).
+|Data Type=column-width
+|Description=Describes the <length> of the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0. Column count will be determined at *auto*.
 }}{{CSS Property Value
-|Data Type=Length
-|Description=Describes the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
+|Data Type=column-count
+|Description=Describes the ideal column count as a strictly positive <integer> where the content of the element will be flowed. The column width will be set at *auto*.
 }}
 }}
 {{Examples_Section
@@ -28,15 +28,15 @@
 |Language=CSS
 |Description=Makes 3 columns at auto width
 |Code=#columns {
-  -moz-columns: 3 auto;  /* Firefox */
-  -webkit-columns: 3 auto;  /* Safari and Chrome */
-  columns: 3 auto;
+  -moz-columns: auto 3;  /* Firefox */
+  -webkit-columns: auto 3;  /* Safari and Chrome */
+  columns: auto 3;
 }
 |LiveURL=http://code.webplatform.org/gist/6288803
 }}
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
+|Import_Notes====Formal syntax===
 <code>'''columns: '''''column-width'' '''{{!}}{{!}}''' ''column-count''</code>
 }}
 {{Related_Specifications_Section
@@ -78,7 +78,7 @@
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MDN, MSDN
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
