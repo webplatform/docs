@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property is a shorthand property for setting column-width or column-count. Omitted values are set to their initial value of auto.}}
+{{Summary_Section|This property is a shorthand property for setting column-width or column-count. Omitted values are set to their initial value of <tt>auto</tt>.}}
 {{CSS Property
 |Initial value=Auto
 |Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements
@@ -16,10 +16,10 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=column-width
-|Description=Describes the <length> of the optimal column width. The actual column width may be wider (to fill the available space), or narrower (only if the available space is smaller than the specified column width). Specified values must be greater than 0.
+|Description=Any of the values available to [[css/properties/column-width|'''column-width''']] property. The default value is <tt>auto</tt>.
 }}{{CSS Property Value
 |Data Type=column-count
-|Description=Describes the ideal column count as a strictly positive <integer> where the content of the element will be flowed.
+|Description=Any of the values available to [[css/properties/column-count|'''column-count''']] property. The default value is <tt>auto</tt>.
 }}
 }}
 {{Examples_Section
