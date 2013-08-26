@@ -12,7 +12,9 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=As specified
 |Animatable=Yes
+|CSS object model property=visibility
 |Values={{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
