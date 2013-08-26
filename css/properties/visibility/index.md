@@ -38,7 +38,10 @@
   visibility: hidden; /* Object is invisible, but still affects layout */
 }
 .inherit {
-  visibility: inherit; /* Default, inherits parent property */
+  visibility: inherit; /* Inherits parent property */
+}
+.collapse {
+  visibility: collapse; /* Collapses object on table elements. Browser support varies. */ 
 }
 |LiveURL=http://code.webplatform.org/gist/6337427
 }}
