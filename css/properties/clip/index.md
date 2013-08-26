@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -22,36 +23,43 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use an inline style to clip the image.
-|Code=&lt;HTML&gt;
-&lt;BODY&gt;
-&lt;DIV STYLE{{=}}"position:absolute;top:0;left:100;
-    clip:rect(15px, auto, auto, auto)"&gt;
-&lt;IMG SRC{{=}}"sphere.jpg"/&gt;
-&lt;/DIV&gt;
-&lt;DIV STYLE{{=}}"position:absolute;top:0;left:200;
-    clip:rect(auto, 15px, auto, auto)"&gt;
-&lt;IMG SRC{{=}}"sphere.jpg"/&gt;
-&lt;/DIV&gt;
-&lt;DIV STYLE{{=}}"position:absolute;top:0;left:300;
-    clip:rect(auto, auto, 15px, auto)"&gt;
-&lt;IMG SRC{{=}}"sphere.jpg"/&gt;
-&lt;/DIV&gt;
-&lt;DIV STYLE{{=}}"position:absolute;top:0;left:400;
-    clip:rect(auto, auto, auto, 15px)"&gt;
-&lt;IMG SRC{{=}}"sphere.jpg"/&gt;
-&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clip_h.htm
+|Language=CSS
+|Description=This example takes the Web Platform Docs logo and clips it in two ways: one shows the icon and the other shows the text.
+|Code=img.clippable {
+  /**
+   * The `clip` property applies only to absolutely positioned elements only.
+   * @see http://www.w3.org/TR/css-masking/#clip-property
+   */
+  position: absolute;
+  top: 100px;
+}
+
+img.clipped-icon {
+  left: 215px;
+  /**
+   * The rectangle clips the image leaving only the icon visible.
+   * For Internet Explorer 4-7, use `clip: rect(10px 68px 63px 3px);`
+   */
+  clip: rect(10px, 68px, 63px, 3px);
+}
+
+img.clipped-text {
+  left: 300px;
+  /**
+   * The rectangle clips the image leaving only the text visible.
+   * For Internet Explorer 4-7, use `clip: rect(10px 190px 63px 53px);`
+   */
+  clip: rect(10px, 190px, 63px, 53px);
+}
+|LiveURL=http://code.webplatform.org/gist/6338197
 }}{{Single Example
-|Description=The following example shows how to use inline scripting to clip the image.
-|Code=&lt;IMG ID{{=}}"sphere" SRC{{=}}"sphere.jpg" 
-    STYLE{{=}}"position:absolute;top:0cm;left:0cm;"&gt;
-&lt;BUTTON 
-    onclick{{=}}"sphere.style.clip{{=}}'rect(0.2cm, 0.6cm, 1cm, 0.1cm)'"&gt;
-    Clip Image&lt;/BUTTON&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clip_s.htm
+|Language=HTML
+|Description=The HTML for the above example.
+|Code=<syntaxhighlight>
+  <img class="clippable original" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo" />
+  <img class="clippable clipped-icon" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (icon only)" title="Web Platform Docs logo (icon only)" />
+  <img class="clippable clipped-text" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (text only)" title="Web Platform Docs logo (text only)" />
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section
