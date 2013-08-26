@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -31,50 +31,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=p        { visibility: hidden; }    /* paragraphs won't be visible */
-p.showme { visibility: visible; }   /* except of these with class showme */
-tr.col   { visibility: collapse; }  /* table rows with class col will collapse */
-}}{{Single Example
-|Description=The following examples use the '''visibility'''  attribute and the '''visibility''' property to determine whether the object is visible.
-
-This example uses two calls to an embedded (global) style sheet to hide and then show the image when the user moves the mouse over and off the text.
-|Code=&lt;head&gt;
-&lt;style&gt;
-.vis1 {
-    visibility: visible;
+|Code=.visible {
+  visibility: visible; /* Visible value */
 }
-.vis2 {
-    visibility: hidden;
+.hidden {
+  visibility: hidden; /* Object is invisible, but still affects layout */
 }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img id{{=}}"oSphere" src{{=}}"sphere.jpg" alt{{=}}"sphere"&gt;
-&lt;p onmouseover{{=}}"oSphere.className{{=}}'vis2'" 
-    onmouseout{{=}}"oSphere.className{{=}}'vis1'"&gt;
-Mouseover this text to make the sphere disappear.&lt;/p&gt;
-&lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/visibility_h.htm
-}}{{Single Example
-|Description=This example uses a call to a function to hide the image.
-|Code=&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function disappear()
-{
-    oSphere.style.visibility{{=}}"hidden"; 
-    }
-function reappear()
-{
-    oSphere.style.visibility{{=}}"visible"; 
-    }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;img src{{=}}"sphere.jpeg" id{{=}}"oSphere"&gt;
-&lt;p id{{=}}"oTxt" onmouseover{{=}}"disappear()" onmouseout{{=}}"reappear()"&gt;Move the mouse 
-over this text to make the sphere disappear.&lt;/p&gt;
-&lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/visibility_s.htm
+.inherit {
+  visibility: inherit; /* Default, inherits parent property */
+}
+|LiveURL=http://code.webplatform.org/gist/6337427
 }}
 }}
 {{Notes_Section
