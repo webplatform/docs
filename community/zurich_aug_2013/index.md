@@ -2,7 +2,7 @@
 
 ==Intro Talk, general==
 
-Hello, and welcome to the first WebPlatform.org European Doc Sprint!
+Hello, and welcome to the first Swiss WebPlatform.org Doc Sprint!
 
 You are making (a small part of) history!
 
