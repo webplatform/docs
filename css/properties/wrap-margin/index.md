@@ -2,7 +2,9 @@
 {{Flags
 |Content=Examples Needed
 |Checked_Out=No
-|Editorial notes=It seems like wrap-margin has been renamed to shape-margin. See this: http://www.w3.org/TR/css3-exclusions/#wrap-margin channel log:
+|Editorial notes=See [[css/properties/shape-margin]].
+
+It seems like wrap-margin has been renamed to shape-margin. See this: http://www.w3.org/TR/css3-exclusions/#wrap-margin channel log:
 
 Since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
 
