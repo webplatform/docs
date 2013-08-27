@@ -10,7 +10,7 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.  }}
+{{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.}}
 {{CSS Property
 |Initial value=0
 |Applies to=exclusion elements
@@ -24,7 +24,23 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=In the following example, we have an image with a CSS class and a paragraph wrapped in a P tag.
+|Code=&lt;p&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;http://docs.webplatform.org/w/skins/webplatform/images/logo.png&quot;/&gt;
+
+  We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+&lt;/p&gt;
+}}{{Single Example
+|Language=CSS
+|Description=In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 16px.
+|Code=.logo {
+    float  : left;
+    shape-outside : url("http://docs.webplatform.org/w/skins/webplatform/images/logo.png");
+    shape-margin : 16px;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
