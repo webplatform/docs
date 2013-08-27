@@ -55,6 +55,22 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 |Browser=Internet Explorer
 |Version=10
 |Note=Uses a vendor prefixed version of an old name of this property - wrap-margin.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=25.0.1364.160
+|Note=Using vendor prefix -webkit-
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=12.14
+|Note=Using vendor prefix -o- 
+}}{{Compatibility Notes Row
+|Browser=FireFox
+|Version=19
+|Note=Using vendor prefix -moz-
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=534.57.2
+|Note=Using vendor prefix -webkit-
 }}
 }}
 {{See_Also_Section
