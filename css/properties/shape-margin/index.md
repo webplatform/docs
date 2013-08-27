@@ -2,11 +2,6 @@
 {{Flags
 |Content=Examples Needed
 |Checked_Out=No
-|Editorial notes=It seems like wrap-margin has been renamed to shape-margin. See this: http://www.w3.org/TR/css3-exclusions/#wrap-margin channel log:
-
-Since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
-
-And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/#shape-margin-property
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -42,7 +37,9 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Import_Notes=shape-margin used to be called wrap-margin but was renamed since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -62,7 +59,7 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 }}{{Compatibility Notes Row
 |Browser=Opera
 |Version=12.14
-|Note=Using vendor prefix -o- 
+|Note=Using vendor prefix -o-
 }}{{Compatibility Notes Row
 |Browser=FireFox
 |Version=19
