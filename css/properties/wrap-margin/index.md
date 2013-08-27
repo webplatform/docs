@@ -3,7 +3,7 @@
 |Content=Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes.}}
 {{CSS Property
@@ -27,7 +27,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
