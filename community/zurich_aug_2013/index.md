@@ -1,6 +1,4 @@
-=Plan for Berlin Doc Sprint, February 8-9, 2013=
-
-''Note: This plan has been used at the Berlin Doc Sprint. You can also access [http://de.slideshare.net/klick_ass/webplatformorg-doc-sprint-berlin-feb-89-2013 the full slidedeck we've used here]''
+=Plan for Zurich Doc Sprint, August 28, 2013=
 
 ==Intro Talk, general==
 
@@ -10,7 +8,7 @@ You are making (a small part of) history!
 
 <Play the WPD video>
 
-We first need to say a big "thank you", for coming here today and offering to lend a hand with  creating documentation, building up WebPlatform, and generally contributing great things to the web community. We want this to eventually be the definitive client-side web documentation site, and we can't do it alone.
+We first need to say a big "thank you", for coming here today and offering to lend a hand with creating documentation, building up WebPlatform, and generally contributing great things to the web community. We want this to eventually be the definitive client-side web documentation site, and we can't do it alone.
 
 I'll keep this short so that we can get on with things. I first just want to say a few words about how to get started, what you can do, and who to go to for help. At this point, those who have used WebPlatform.org before can go off and do their thing.
 
@@ -23,64 +21,55 @@ So, find somewhere comfortable to sit, grab a drink, log on to the Wifi, and let
 
 So, the main focus groups we have for today are:
 
-* The APIs group
+* The HTML elements group
 * The CSS property references group
 
-We decided to provide two focus areas to choose from because well, some people hate CSS, and some people aren't very adept at scripting. Please choose one of these areas to focus on. Even if you are not interested in writing documentation at all, there will still be a good deal to do, in terms of testing, code example writing, and more.
+We decided to provide two focus areas to choose from because well, some people hate CSS, and some people find HTML boring. Please choose one of these areas to focus on. Even if you are not interested in writing documentation at all, there will still be a good deal to do, in terms of testing, code example writing, and more.
 
 Of course if you want to do something other than these two, you can be in the third group, which is technically titled:
 
 * The "do what you want" group ;-)
 
-===APIs===
+===HTML elements===
 
-There are a lot of APIs we want to cover on WebPlatform, and we have only really investigated the tip of the iceberg so far.
+There are a lot of HTML elements we want to cover on WebPlatform, and we have only really investigated the tip of the iceberg so far.
 
-To get started with APIs:
+To get started with HTML elements:
 
-* Read the API project plan at http://docs.webplatform.org/wiki/WPD:Proposals/api_docs, which includes a list of the main APIs we want to work on.
-* Read our guide to creating API pages at http://docs.webplatform.org/wiki/WPD:Creating_API_pages.
-* Choose what API you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
+* Read the HTML element milestone plan at http://docs.webplatform.org/wiki/WPD:Projects/HTML_Element_Milestone, which includes ideas of what to work on.
+* Read our guide to creating HTML element pages at http://docs.webplatform.org/wiki/WPD:HTML_Element_Guide.
+* Choose what HTML elements you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
 * Get started.
-
-Your main go to point for help and guidance with APIs is Scott Rowe.
-
 
 ===CSS Property references===
 
-There are a huge number of CSS properties to cover in our reference pages, and we need your help to cover them all! Well, specifically, we are going to cover the highest priority ones first, and then move down to lower priority ones later.
+We've worked on a lot of the CSS property pages already, but we need your help to get closer to finishing the job!
 
 To get started with CSS property references:
 
 * Read our guide to creating CSS property reference pages at http://docs.webplatform.org/wiki/WPD:CSS_property_guide
 * Read the CSS project plan, at http://docs.webplatform.org/wiki/WPD:Tasks/CSS_Property_Milestone
-* Have a look at our CSS property tracking sheets at https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE#gid=13
+* Have a look at our CSS Web Platform Wednesday docs at http://docs.webplatform.org/wiki/Meta:web_platform_wednesday for ideas of what to work on. The "Past reports" section at the bottom contains more ideas.
 * Choose a set of CSS properties you want to work on, and let us know — we'll track who is working on what, so that there are no overlaps.
-
-Bear in mind that we want to work on p0, p1 and p2 properties first of all, so please stick to those first, and go on to lower priorities if they are all completed.
-
-Your main go to point for help and guidance with CSS property references is Chris Mills.
 
 === Do what you want===
 
-If you don't like the idea of working on CSS or API docs, please have a think about what else you'd like to do. You could:
+If you don't like the idea of working on CSS or HTML docs, please have a think about what else you'd like to do. You could:
 
 * Write some code to fix your most hated WebPlatform bug
 * Work on a useful extension/template mod/other addition to WebPlatform
-* Work on some different documentation than CSS and APIs (there's a lot to do)
+* Work on some different documentation than CSS and HTML (there's a lot to do)
 * Work on some graphics/styling that will improve the look of the site
 
-Please let u know what you want to work on, and we'll keep track of your progress.
+Please let us know what you want to work on, and we'll keep track of your progress.
 
 
-===Other people you can go to for help===
+===People you can go to for help===
 
-* Julee Burdekin, Adobe
-* Janet Swisher, Mozilla
+* Chris Mills, Mozilla
 * Andre Jay Meissner, Adobe
-* David Kirstein (fr0zenice)
-* Scott Rowe, Google
-* Florian Scholz, MDN
+* Mike West, Google
+* Rodney Rehm, Rockstar
 
 ===Working practice, and getting help===
 
@@ -88,7 +77,7 @@ Different people work better in different ways. Therefore, how you work is entir
 
 Some of our attendees could also act as tutors too, sometimes, as well as writing some docs.
 
-We are planning to keep help methods pretty low fi for the doc sprint. If you want help, ask someone next to you, raise your hand, or just go and grab one of the organizers. And please, don't be worried about the quality of your English when talking to us non-natives. My German is terrible!
+We are planning to keep help methods pretty low fi for the doc sprint. If you want help, ask someone next to you, raise your hand, or just go and grab one of the organizers. And please, don't be worried about the quality of your English when talking to us non-natives. My Swiss German is non-existant!
 
 You can see a list of online help and communication mechanisms at http://docs.webplatform.org/wiki/WPD:Help. These will be more useful when we leave here, and start contributing at home, in the future.
 
