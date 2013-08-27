@@ -2,15 +2,9 @@
 {{Flags
 |Content=Examples Needed
 |Checked_Out=No
-|Editorial notes=See [[css/properties/shape-margin]].
-
-It seems like wrap-margin has been renamed to shape-margin. See this: http://www.w3.org/TR/css3-exclusions/#wrap-margin channel log:
-
-Since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
-
-And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/#shape-margin-property
+|Editorial notes=This property was renamed to shape-margin. See [[css/properties/shape-margin]] for complete information.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.}}
 {{CSS Property
