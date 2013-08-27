@@ -1,68 +1,66 @@
 {{Page_Title}}
 {{Flags
 |Content=Examples Needed
-|Checked_Out=Yes
+|Checked_Out=No
+|Editorial notes=It seems like wrap-margin has been renamed to shape-margin. See this: http://www.w3.org/TR/css3-exclusions/#wrap-margin channel log:
+
+Since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
+
+And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/#shape-margin-property
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property adds a margin to a shape created using the [[css/properties/shape-outside|shape-outside]] property.}}
+{{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.}}
 {{CSS Property
 |Initial value=0
-|Applies to=floats
+|Applies to=exclusion elements
 |Inherited=No
 |Media=visual
-|Computed value=the absolute length
-|Animatable=Yes
-|CSS object model property=shapeMargin
-|CSS percentages=N/A
+|Animatable=No
 |Values={{CSS Property Value
 |Data Type=<length>
-|Description=Adds a margin to a shape-outside. This defines a new shape where every point is the specified length from the shape-outside.
+|Description=The value that is used to offset the inner wrap shape from other shapes.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=In the following example, we have an image with a CSS class and a paragraph wrapped in a P tag.
+|Code=&lt;p&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;http://docs.webplatform.org/w/skins/webplatform/images/logo.png&quot;/&gt;
+
+  We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+&lt;/p&gt;
+}}{{Single Example
 |Language=CSS
-|Description=The following creates a shape that is offset 10 pixels from the fully-opaque pixels in an image.
-|Code=shape-outside: url(path/to/image.png);
-shape-image-threshold: 1.0;
-shape-margin: 10px;
+|Description=In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 16px.
+|Code=.logo {
+    float  : left;
+    shape-outside : url("http://docs.webplatform.org/w/skins/webplatform/images/logo.png");
+    shape-margin : 16px;
+}
 }}
 }}
-{{Notes_Section
-|Usage=Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
-|Notes=The specified <length> must be a positive value.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Shapes Module Level 1
-|URL=http://dev.w3.org/csswg/css-shapes/
-|Status=Editor's Draft
-}}{{Related Specification
-|Name=CSS Shapes Module Level 1
-|URL=http://www.w3.org/TR/css-shapes/
-|Status=First Public Working Draft
-}}{{Related Specification
-|Name=CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/#lengths
-|Status=Candidate Recommendation
-}}
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[css/properties/shape-outside|shape-outside]]
+|Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
 }}
-{{Topics|CSS}}
+{{Topics|CSS, CSS-Regions}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/windows/apps/hh466103.aspx
 |HTML5Rocks_link=
 }}
