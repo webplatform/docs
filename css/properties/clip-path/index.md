@@ -45,14 +45,42 @@
     clip-path: url(#clipping); 
 }
 }}{{Single Example
-|Language=HTML
+|Language=Other
 |Description=A <clipPath> element specifies a clipping region. Multiple shapes inside a <clipPath> element result in an additive clipping behavior.
 
 Any shape inside the <clipPath> element and the <clipPath> element itself can be clipped as well. This clipping is exclusive.
-|Code=<clipPath id="clipping">
-    <circle cx="150" cy="150" r="50" />
-    <rect x="150" y="150" width="100" height="100" />
-</clipPath>
+|Code=<syntaxhighlight>
+&lt;clipPath id="clipping"&gt;
+  &lt;circle cx="150" cy="150" r="50" /&gt;
+  &lt;rect x="150" y="150" width="100" height="100" /&gt;
+&lt;/clipPath&gt;
+</syntaxhighlight>
+}}{{Single Example
+|Language=CSS
+|Description=In this example, the Web Platform Docs logo is clipped in two ways; one shows the icon (clipped with a circle) and the other shows the text (clipped with an ellipse).
+|Code=img.clipped-icon {
+  /**
+   * This clips a circle around the image leaving only the icon visible.
+   */
+  clip-path: circle(35px, 35px, 30px);
+}
+
+img.clipped-text {
+  /**
+   * This clips the image leaving only the text visible.
+   */
+  clip-path: ellipse(125px, 40px, 65px, 30px);
+}
+
+|LiveURL=http://code.webplatform.org/gist/6338479
+}}{{Single Example
+|Language=HTML
+|Description=The three images that are clipped. The first one (<code>img.original</code>) is the original logo. The second one (<code>img.clipped-icon</code>) is clipped with a circle and the third one (<code>img.clipped-text</code>) is clipped with an ellipse.
+|Code=<syntaxhighlight>
+<img class="original" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (original)" title="Web Platform Docs logo (original)" />
+<img class="clipped-icon" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (icon only)" title="Web Platform Docs logo (icon only)" />
+<img class="clipped-text" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (text only)" title="Web Platform Docs logo (text only)" />
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
