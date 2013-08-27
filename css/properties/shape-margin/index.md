@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -72,6 +72,7 @@
 }}
 {{See_Also_Section
 |Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
+|External_links=* http://www.w3.org/TR/css-shapes/
 }}
 {{Topics|CSS, CSS-Regions}}
 {{External_Attribution
