@@ -50,10 +50,10 @@
 
 Any shape inside the <clipPath> element and the <clipPath> element itself can be clipped as well. This clipping is exclusive.
 |Code=<syntaxhighlight>
-&lt;clipPath id="clipping"&gt;
-  &lt;circle cx="150" cy="150" r="50" /&gt;
-  &lt;rect x="150" y="150" width="100" height="100" /&gt;
-&lt;/clipPath&gt;
+  <clipPath id="clipping">
+    <circle cx="150" cy="150" r="50" />
+    <rect x="150" y="150" width="100" height="100" />
+  </clipPath>
 </syntaxhighlight>
 }}{{Single Example
 |Language=CSS
@@ -71,7 +71,6 @@ img.clipped-text {
    */
   clip-path: ellipse(125px, 40px, 65px, 30px);
 }
-
 |LiveURL=http://code.webplatform.org/gist/6338479
 }}{{Single Example
 |Language=HTML
