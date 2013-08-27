@@ -51,7 +51,11 @@ And this seems to be the new specs: http://www.w3.org/TR/2013/WD-css-shapes-1-20
 |Imported_tables={{Imported Compatibility Table}}
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Uses a vendor prefixed version of an old name of this property - wrap-margin.
+}}
 }}
 {{See_Also_Section
 |Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
