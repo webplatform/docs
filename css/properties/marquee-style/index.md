@@ -27,10 +27,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=marquee {
-  marquee-style: alternate;
-}
+|Code=.scroll { marquee-style: scroll; }
+.slide { marquee-style: slide; }
+.alternate { marquee-style: alternate; }
 |LiveURL=http://code.webplatform.org/gist/6364703
+}}{{Single Example
+|Language=HTML
+|Code=<marquee class="scroll">This demonstrates the 'scroll' value of the 'marquee-style' property.</marquee>
+<marquee class="slide">This demonstrates the 'slide' value of the 'marquee-style' property.</marquee>
+<marquee class="alternate">This demonstrates the 'alternate' value of the 'marquee-style' property.</marquee>
 }}
 }}
 {{Notes_Section}}
