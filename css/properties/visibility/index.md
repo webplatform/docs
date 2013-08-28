@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -50,8 +49,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Unlike [[css/properties/display|'''display''']], objects that are not visible still reserve the same physical space in the content layout as they would if they were visible. You can change the visibility through scripting to show and hide overlapping content based on user interaction. For document style scripting information, see Introduction to Dynamic Styles.
-A child object can be '''visible''' when its parent is '''hidden'''.
+Unlike elements styled with the [[css/properties/display|'''display''']] property, elements that are not visible (<code>visibility: hidden</code>) still reserve the same physical space in the content layout as they would as if they were visible. You can change the visibility through scripting to show and hide overlapping content based on user interaction. Also, a child element can be '''visible''' when its parent is '''hidden'''.
 |Import_Notes====Syntax===
 <code>'''visibility: '''visible '''{{!}}''' hidden '''{{!}}''' collapse '''{{!}}''' inherit</code>
 }}
@@ -87,7 +85,6 @@ A child object can be '''visible''' when its parent is '''hidden'''.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Background, Visual Effects
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
