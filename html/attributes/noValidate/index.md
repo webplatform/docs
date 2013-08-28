@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|When present, it specifies that the form-data (input) should not be validated when submitted.}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
 |Content=The novalidate attribute is a boolean attribute.
 }}
