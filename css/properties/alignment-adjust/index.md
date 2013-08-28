@@ -15,7 +15,47 @@
 |Computed value=see text
 |Animatable=No
 |CSS percentages=refers to the 'line-height' of the element
-|Values=
+|Values={{CSS Property Value
+|Data Type=baseline
+|Description=The alignment point is at the intersection of the start-edge of the element and the dominant-baseline of the element.
+
+}}{{CSS Property Value
+|Data Type=before-edge
+|Description=The alignment point is at the intersection of the start-edge of the element and the before-edge of the extended inline box of the element. This may include or not the line-height of the element, depending on the line-stacking-strategy.
+}}{{CSS Property Value
+|Data Type=text-before-edge
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'text-before-edge' baseline of the element.
+}}{{CSS Property Value
+|Data Type=central
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'central' baseline of the element.
+}}{{CSS Property Value
+|Data Type=middle
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'middle' baseline of the element.
+}}{{CSS Property Value
+|Data Type=after-edge
+|Description=The alignment point is at the intersection of the start-edge of the element and the after-edge of the extended inline box of the element. This may include or not the line-height of the element, depending on the line-stacking-strategy.
+}}{{CSS Property Value
+|Data Type=text-after-edge
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'text-after-edge' baseline of the element.
+}}{{CSS Property Value
+|Data Type=ideographic
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'ideographic' baseline of the element.
+}}{{CSS Property Value
+|Data Type=alphabetic
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'alphabetic' baseline of the element.
+}}{{CSS Property Value
+|Data Type=hanging
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'hanging' baseline of the element.
+}}{{CSS Property Value
+|Data Type=mathematical
+|Description=The alignment point is at the intersection of the start-edge of the element and the 'mathematical' baseline of the element.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=The computed value of the property is this percentage multiplied by the computed 'line-height' of the element. The alignment point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the computed value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of '0%' makes the dominant-baseline the alignment point.
+}}{{CSS Property Value
+|Data Type=<length>
+|Description=The alignment-point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the <length> value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of '0cm' makes the dominant-baseline the alignment point.
+}}
 }}
 {{Examples_Section
 |Not_required=No
