@@ -18,7 +18,6 @@
 }}{{CSS Property Value
 |Data Type=slice
 |Description=No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; <code>border-radius</code> does not apply to its corners; and the <code>border-image</code> is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward.
-
 Backgrounds are drawn as if, after the element has been laid out (including any justification, reordering, page breaks, etc.), all the element's box fragments were taken and put one after the other in visual order. The background is applied to the bounding box of this composite box and then the fragments are put back, with each with its share of the background.
 }}
 }}
