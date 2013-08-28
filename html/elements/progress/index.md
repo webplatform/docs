@@ -26,12 +26,36 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Example of a basic progress element
+|Code=<progress value="165" max="200">165 of 200 finished</progress>
+|LiveURL=http://code.webplatform.org/gist/6365491
+}}{{Single Example
+|Language=HTML
+|Description=Example of progress without a maximum
+|Code=<progress value="0.72">72% done</progress>
+|LiveURL=http://code.webplatform.org/gist/6365520
+}}{{Single Example
+|Language=CSS
+|Description=Styling options for the progress bar
+|Code=progress {
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: lightgray;
+}
+
+progress::-webkit-progress-value {
+  background-color: lightgreen;
+}
+|LiveURL=http://code.webplatform.org/gist/6365564
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
 When the '''value''' attribute is omitted, the '''progress''' element becomes indeterminate, that is, it shows activity but not how much progress has actually been made. If the '''value''' attribute is used without a maximum value, the range is from 0 to 1. To change the appearance from a ring to a bar, use the [[css/properties/animation-name|'''animation-name''']] property  to style   the '''progress''' element's '''ms-fill''' pseudo-element. The progress element can be styled using CSS.
-'''Note'''  For code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
