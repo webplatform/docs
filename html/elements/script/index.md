@@ -278,7 +278,7 @@ Windows Internet Explorer 8 and later. The value of the [[html/attributes/src (
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=html/elements/noscript
+|Manual_links=[[html/elements/noscript|<noscript> tag]]
 |Manual_sections====Related pages (MSDN)===
 *<code>XML Data Islands</code>
 }}
