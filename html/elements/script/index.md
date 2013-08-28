@@ -10,8 +10,8 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
 |Content====Standards information===
-*[http://www.w3.org/TR/DOM-Level-2-HTML/html Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5.
-*[http://www.w3.org/TR/html401/ HTML 4.01 Specification], Section 18.2.1.
+*http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-81598695 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5.
+*[http://www.w3.org/TR/html401/interact/scripts.html#h-18.2.1 HTML 4.01 Specification], Section 18.2.1.
 *[http://www.w3.org/TR/html5/scripting-1.html HTML 5 Specification], Section 4.3.
 
 ===Members===
