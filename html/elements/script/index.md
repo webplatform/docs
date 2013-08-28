@@ -60,7 +60,7 @@ The '''script''' object has these properties.
 |Examples={{Single Example
 |Language=HTML
 |Description=Loading an external script.
-|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;application/Javascript&quot;&gt;&lt;/script&gt;               
+|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;application/Javascript&quot;&gt;&lt;/script&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Writing an inline script.
@@ -70,11 +70,7 @@ The '''script''' object has these properties.
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded. To keep scripts from being displayed, nest the '''script''' block within a '''comment''' block.
-Script appearing after a '''frameSet''' element is ignored.
-Whenever the [[html/attributes/language|'''language''']] attribute is not defined on the '''script''' object, then ''MSHTML'' attempts to select a suitable scripting engine. An error generally occurs if the wrong scripting engine is selected. When more than one '''script''' object is used in a document, it can be necessary to specify the ''language'' attribute for each '''script''' object, and doing so is always recommended. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. XML is legitimate content for the '''script''' object, but XML is not a scripting language. Therefore, an error can occur if ''MSHTML'' selects an XML data island as the '''script''' object that contains an event handler function. This can happen because ''MSHTML'' selects the first '''script''' object that has the '''language''' attribute defined as the default script block for event handlers. For more information, see the examples.
-Windows Internet Explorer 8 and later. The value of the [[html/attributes/src (script)|'''src''']] attribute depends on the current document compatibility mode.
+|Notes=Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded.[[html/attributes/Type|'''Type''']] attribute is not defined on the '''script''' object, then <code>text/javascript</code> is used. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document.
 }}
 {{Related_Specifications_Section
 |Specifications=
