@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Undescriptive Title, Needs Flags, Missing Relevant Sections
-|Content=Examples Best Practices, Needs Summary
+|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|Timing and movement of shapes are explained in this part of the canvas tutorial. There's a list of useful external examples at the end of the document.}}
 {{Tutorial
 |Content=Since we're using script to control <code>canvas</code> elements it's also very easy to make (interactive) animations. Unfortunately the canvas element was never designed to be used in this way (unlike Flash) so there are limitations.
 
