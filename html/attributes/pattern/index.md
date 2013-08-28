@@ -13,7 +13,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
