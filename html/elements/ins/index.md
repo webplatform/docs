@@ -46,7 +46,8 @@
 }}{{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
-|Code=text-decoration: underline;
+|Code=display: inline;
+text-decoration: underline;
 }}
 }}
 {{Notes_Section
