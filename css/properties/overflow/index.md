@@ -57,8 +57,7 @@ p {
 }}{{Single Example
 |Language=CSS
 |Description=Clearing floats with overflow
-|Code=
-.clear {
+|Code=.clear {
 	overflow: hidden;
 	background: green;
 }
