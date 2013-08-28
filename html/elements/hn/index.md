@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -22,21 +23,24 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=&lt;!-- 
+|Code=<!-- 
     The H1 element applies a
     level-1 heading syle to the
     contained text. 
---&gt;
-&lt;h1&gt;Welcome to Web Platform Docs!&lt;/h1&gt;
+-->
+<h1>Welcome to Web Platform Docs!</h1>
 
-&lt;!-- 
+<!-- 
     H2 is used for level-2 headings.
- --&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+ -->
+<h2>Introduction</h2>
 
-&lt;!-- etc. --&gt;
-&lt;h3&gt;Prologue&lt;/h2&gt;
-&lt;h4&gt;Level-4 Heading&lt;/h4&gt;
+<!-- etc. -->
+<h3>Prologue</h2>
+<h4>Level-4 Heading</h4>
+<h5>Level-5 Heading</h5>
+<h6>Level-6 heading, smallest heading avaliable</h6>
+|LiveURL=http://code.webplatform.org/gist/6363937
 }}
 }}
 {{Notes_Section
@@ -69,39 +73,42 @@ The '''hn''' object has these properties.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=Full Support
 |Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
+|Chrome_version=1.0
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
+|Opera_version=1.0
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
+|Safari_version=1.0
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
+|Feature=Full Support
+|Android_supported=Yes
+|Android_prefixed_supported=No
 |Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
+|Blackberry_supported=Yes
+|Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=1.0
+|Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
@@ -115,10 +122,10 @@ The '''hn''' object has these properties.
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=1.0
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=1.0
 }}
 |Notes_rows=
 }}
