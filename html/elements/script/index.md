@@ -10,8 +10,8 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
 |Content====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.1
+*[http://www.w3.org/TR/DOM-Level-2-HTML/html Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
+*[http://www.w3.org/TR/html401/ HTML 4.01 Specification], Section 18.2.1
 
 
 ===Members===
