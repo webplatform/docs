@@ -77,7 +77,7 @@
 	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 13&quot; class=&quot;image13&quot;&gt;
 	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 14&quot; class=&quot;image14&quot;&gt;
 &lt;/p&gt;
-|LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/d0ef8258ffbaeb05cc63cce62ba6be69870f837b/dabblet.html
+|LiveURL=http://code.webplatform.org/gist/6363838
 }}{{Single Example
 |Language=CSS
 |Code=/**
@@ -115,7 +115,6 @@ p img:first-child {
 .image12 { alignment-adjust: mathematical; }
 .image13 { alignment-adjust: 75%; }
 .image14 { alignment-adjust: -20px; }
-|LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/bc2aeab9cb0b67364694087b0124e5933984aa71/dabblet.css
 }}
 }}
 {{Notes_Section}}
