@@ -1,6 +1,7 @@
 {{Page_Title|dl – description list}}
 {{Flags
-|High-level issues=Needs Flags, Data Not Semantic
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -79,13 +80,13 @@ margin-bottom: 16px;
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML4
-|URL=http://www.w3.org/TR/html4/struct/lists.html#h-10.3
-|Status=Recommendation
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
+|Status=W3C Recommendation
 }}{{Related Specification
-|Name=HTML5.1
+|Name=HTML 5.1
 |URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dl-element
-|Status=Editor's Draft
+|Status=W3C Editor's Draft
 |Relevant_changes=In HTML5, definition list has been changed to description list
 }}
 }}
