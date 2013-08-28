@@ -27,7 +27,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=Add <syntaxhighlight lang="HTML">
+|Usage=Add <syntaxhighlight lang="HTML5">
 <!DOCTYPE html>
 </syntaxhighlight> to the start of your document.
 |Notes=The <!DOCTYPE> declaration must be the very first thing in an HTML document, before the <html> tag. 
