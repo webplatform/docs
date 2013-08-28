@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -9,7 +10,7 @@
 This element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.
 }}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLTableColElement
 }}
 {{Examples_Section
 |Not_required=No
