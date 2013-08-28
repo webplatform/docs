@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
-|Content=Compatibility Incomplete, Needs Summary
+|Content=Compatibility Incomplete
 |Checked_Out=No
+|Editorial notes=Here there is explained how to combine shapes. There are examples about logically add/subtract/layer shapes and about how to use clipping paths.
 }}
 {{Byline}}
 {{Summary_Section}}
