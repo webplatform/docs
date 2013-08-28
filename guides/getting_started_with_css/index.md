@@ -38,9 +38,9 @@ CSS is not a programming language like JavaScript and it is not a markup languag
 Style rules can operate on different sets of items, selected in different ways. For example, they can be directly applied to HTML elements (body, article, nav, list, p, em, strong, etc.), or they can be applied to any elements with custom made classes or IDs .  This is the basic form:
 
 <syntaxhighlight lang="css">selector {
-  property1:value;
-  property2:value;
-  property3:value;
+  property1: value;
+  property2: value;
+  property3: value;
 }</syntaxhighlight>
  
 The pertinent parts are as follows:
@@ -84,18 +84,18 @@ One thing to know early on is how to add comments in CSS. You add comments by en
  
 <syntaxhighlight lang="css">/* These are basic element selectors */
 selector{
-  property1:value;
-  property2:value;
-  property3:value;
+  property1: value;
+  property2: value;
+  property3: value;
 }</syntaxhighlight>
  
 You can add comments either between rules or inside the property block. For example, in the following CSS the second and third properties are enclosed inside comment delimiters, so they will be ignored by the browser. This is useful when you are testing the effect certain CSS rules have on your web page; just comment them out, save your CSS file, and reload the HTML page in a browser.
 
 <syntaxhighlight lang="css">selector{
-  property1:value;
+  property1: value;
   /* 
-  property2:value;
-  property3:value;
+  property2: value;
+  property3: value;
   */
 }</syntaxhighlight>
 
@@ -103,13 +103,19 @@ You can add comments either between rules or inside the property block. For exam
  
 You can also group different selectors. If you want to apply the same style to <code>h1</code> and <code>p</code>, you can write the following CSS:
  
-<syntaxhighlight lang="css">h1 {color:red;}
+<syntaxhighlight lang="css">h1 {
+  color: red;
+}
 
-p {color:red;}</syntaxhighlight>
+p {
+  color: red;
+}</syntaxhighlight>
  
 This however is not ideal, as you are repeating the same information. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the curly braces are applied to both selectors:
 
-<syntaxhighlight lang="css">h1, p {color:red;}</syntaxhighlight>
+<syntaxhighlight lang="css">h1, p {
+  color: red;
+}</syntaxhighlight>
 
 ===Basic types of selector===
  
@@ -232,9 +238,9 @@ Embedded styles are placed in the <code>&lt;head&gt;</code> of the document insi
  
 <syntaxhighlight lang="css"><style type="text/css" media="screen">
   p {
-    color:white;
-    background:blue; 
-    padding:5px;
+    color: white;
+    background: blue; 
+    padding: 5px;
   }
 </style></syntaxhighlight>
  
@@ -267,7 +273,7 @@ There is actually another way to import external style sheets into HTML files - 
 <syntaxhighlight lang="html5"><style type="text/css" media="screen">
   @import url("styles.css");
 
-  ...other import statements or CSS styles could go here...
+  /* ...other import statements or CSS styles could go here... */
    
 </style></syntaxhighlight>
  
@@ -276,7 +282,7 @@ Sometimes import statements are written without the brackets, but they achieve t
 <syntaxhighlight lang="html5"><style type="text/css">
   @import url("styles.css") screen;
 
-  ...other import statements or CSS styles could go here...
+  /* ...other import statements or CSS styles could go here... */
    
 </style></syntaxhighlight>
  
