@@ -116,11 +116,13 @@ The title attribute may be used to specify a unit.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/forms.html#the-meter-element
+|Name=HTML5.1
+|URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-meter-element
+|Status=Editor's Draft
 }}{{Related Specification
 |Name=WhatWG HTML Living Standard
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element
+|Status=Living Standard
 }}
 }}
 {{Compatibility_Section
