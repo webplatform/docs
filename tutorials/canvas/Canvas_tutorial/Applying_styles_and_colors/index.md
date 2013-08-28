@@ -3,10 +3,9 @@
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Not Neutral, Grammar/Spelling, Compatibility Incomplete
 |Checked_Out=No
-|Editorial notes=This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.}}
 {{Tutorial
 |Next_page=tutorials/canvas/Canvas_tutorial/Transformations
 |Prev_page=tutorials/canvas/Canvas_tutorial/Using_images
