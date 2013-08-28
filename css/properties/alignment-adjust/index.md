@@ -1,8 +1,8 @@
-{{Page_Title}}
+{{Page_Title|alignment-adjust}}
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -28,7 +28,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
