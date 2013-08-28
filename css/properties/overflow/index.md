@@ -54,6 +54,21 @@ p {
 	height: 60px;
 }
 |LiveURL=http://code.webplatform.org/gist/6365118
+}}{{Single Example
+|Language=CSS
+|Description=Clearing floats with overflow
+|Code=
+.clear {
+	overflow: hidden;
+	background: green;
+}
+
+/* A floating element that is bigger than its non-floating neighbor */
+.floating {
+	float: left;
+	width: 200px;
+}
+|LiveURL=http://code.webplatform.org/gist/6365403
 }}
 }}
 {{Notes_Section
