@@ -2,13 +2,22 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The 'marquee-style' property determines a marquee's scrolling behavior.}}
 {{CSS Property
+|Initial value=scroll
+|Applies to=non-replaced block-level elements, table cells, and inline-block elements
 |Inherited=No
+|Media=visual
 |Animatable=No
-|Values=
+|CSS object model property=marqueeStyle
+|Values={{CSS Property Value
+|Data Type=scroll
+|Description=Start completely off one side, scroll all the way across and completely off.
+}}{{CSS Property Value
+|Data Type=slide
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +25,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Marquee Module Level 3
+|URL=http://www.w3.org/TR/css3-marquee/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
