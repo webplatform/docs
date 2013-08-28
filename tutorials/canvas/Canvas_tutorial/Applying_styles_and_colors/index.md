@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Missing Relevant Sections
-|Content=Not Neutral, Grammar/Spelling, Needs Summary
+|High-level issues=Needs Topics, Missing Relevant Sections
+|Content=Not Neutral, Grammar/Spelling, Compatibility Incomplete, Needs Summary
 |Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
+|Next_page=tutorials/canvas/Canvas_tutorial/Transformations
+|Prev_page=tutorials/canvas/Canvas_tutorial/Using_images
 |Content=In the chapter about [[tutorials/canvas/Canvas_tutorial/Drawing_shapes|drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
  
 == Colors ==
