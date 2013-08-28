@@ -46,7 +46,8 @@
 }}{{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
-|Code=text-decoration: line-through;
+|Code=display: inline;
+text-decoration: line-through;
 }}
 }}
 {{Notes_Section
