@@ -58,7 +58,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|LiveURL=https://gist.github.com/6363838/2b75af2b68fe30f99c245e7b9e791b4bbad4b1a9
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
