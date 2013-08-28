@@ -15,16 +15,16 @@
 |CSS object model property=unicodeRange
 |Values={{CSS Property Value
 |Data Type=single codepoint
-|Description=A single unicode character codepoint, such as U+26.
+|Description=A single unicode character codepoint, for example <code>unicode-range: U+26</code>.
 }}{{CSS Property Value
 |Data Type=codepoint range
-|Description=A range of unicode codepoints. So for example, U+0025-00FF means "include all characters in the range U+0025 to U+00FF."
+|Description=A range of unicode codepoints. So for example, <code>unicode-range: U+0025-00FF</code> means "include all characters in the range U+0025 to U+00FF."
 }}{{CSS Property Value
 |Data Type=wildcard range
-|Description=You can specify wildcard characters using the "?" character, so for example U+4?? would mean "include all characters in the range U+400 to U+4FF."
+|Description=You can specify wildcard characters using the "?" character, so for example <code>unicode-range: U+4??</code> would mean "include all characters in the range U+400 to U+4FF."
 }}{{CSS Property Value
 |Data Type=multiple value declarations
-|Description=You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, unicode-range: U+00-FF, U+980-9FF;
+|Description=You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, <code>unicode-range: U+00-FF, U+980-9FF</code>.
 }}
 }}
 {{Examples_Section
