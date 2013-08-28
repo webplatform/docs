@@ -1,6 +1,5 @@
-{{Page_Title}}
+{{Page_Title|How to use transformations in canvas}}
 {{Flags
-|High-level issues=Undescriptive Title
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
