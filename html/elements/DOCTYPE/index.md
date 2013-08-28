@@ -1,14 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].
-
-}}
+{{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -29,8 +27,9 @@
 }}
 }}
 {{Notes_Section
-|Usage=<!DOCTYPE html>
-
+|Usage=Add <syntaxhighlight lang="HTML">
+<!DOCTYPE html>
+</syntaxhighlight> to the start of your document.
 |Notes=The <!DOCTYPE> declaration must be the very first thing in an HTML document, before the <html> tag. 
 
 This is not a HTML tag but an instruction for the browser about the version of the document.
@@ -38,7 +37,6 @@ This is not a HTML tag but an instruction for the browser about the version of t
 In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.
 
 [[HTML5]] is not based on SGML, and therefore does not require a reference to a DTD.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
