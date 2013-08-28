@@ -52,7 +52,6 @@ Many styles do not inherit to a '''table''' and its
 contents from its parent object. Among these are: <code>font-size; font-weight; line-height; text-align; font-style; font-variant</code>.
 Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
 |Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.1
 
 
@@ -924,7 +923,11 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/html/wg/drafts/html/master/tabular-data.html#the-table-element
+|Status=Editor's Draft
+}}{{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
