@@ -23,7 +23,7 @@ In general with HTML, you use the markup language to describe the information co
 <li><p>Create another text file in the same directory as before. This file will be your style sheet. Name it <code>style1.css</code></p></li>
 <li><p>In your CSS file, copy and paste this one line, then save the file:</p>
 
-<syntaxhighlight lang="css">strong {color: red;}</syntaxhighlight>
+<syntaxhighlight lang="css">strong { color: red; }</syntaxhighlight>
 </li>
 </ol>
  
