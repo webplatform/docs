@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
-|Content=Compatibility Incomplete, Needs Summary
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|The first part of this tutorial is going to explain how to create a canvas 2D context to draw within. Also discussed are some compatility decisons, which provide more granular browser support.}}
 {{Tutorial
 |Next_page=tutorials/canvas/Canvas_tutorial/Drawing_shapes
 |Prev_page=tutorials/canvas/Canvas_tutorial
