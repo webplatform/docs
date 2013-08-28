@@ -1,16 +1,15 @@
-{{Page_Title}}
+{{Page_Title|dt – description list topic}}
 {{Flags
 |High-level issues=Data Not Semantic
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
-{{API_Name}}
+{{Standardization_Status|W3C Recommendation}}
+{{API_Name|dt}}
 {{Summary_Section|The '''dt''' element (&lt;dt&gt;) indicates a definition term within a definition list ([[html/elements/dl|&lt;dl&gt;]]).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDTElement
-|Content=
-<table class{{=}}"wikitable">
+|Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
 <td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/flowContent|flow content]], but with no [[html/elements/header|header]], [[html/elements/footer|footer]], [[html/concepts/sectioningContent|sectioning content]], or [[html/concepts/headingContent|heading content]] descendants.</td>
@@ -47,9 +46,11 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML4
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
+|Status=W3C Recommendation
 }}{{Related Specification
-|Name=HTML5.1
+|Name=HTML 5.1
 |URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dt-element
 |Status=W3C Editor's Draft
 }}
