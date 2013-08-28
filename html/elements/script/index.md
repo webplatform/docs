@@ -9,62 +9,7 @@
 {{Summary_Section|The script element enables dynamic script and data blocks to be included in documents.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following code snippet provides a scenario where an error occurs.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
-&lt;offerings&gt;
- &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
-hr&lt;/time&gt;&lt;/class&gt;
-&lt;/offerings&gt;
-&lt;/SCRIPT&gt;
-&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
-function returnIslandRootName()
-{
-  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
-  console.log(islandRoot.nodeName);
-}
-&lt;/SCRIPT&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}{{Single Example
-|Description=Because the XML data island is the first instance of the '''script''' object that has the [[html/attributes/language|'''language''']] attribute defined, ''MSHTML'' attempts to locate the <code>returnIslandRootName</code> function in the XML and fails. To correct the sample, the order of the '''script''' objects can change, as shown by the following example:
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
-function returnIslandRootName()
-{
-  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
-  console.log(islandRoot.nodeName);
-}
-&lt;/SCRIPT&gt;
-&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
-&lt;offerings&gt;
- &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
-hr&lt;/time&gt;&lt;/class&gt;
-&lt;/offerings&gt;
-&lt;/SCRIPT&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded. To keep scripts from being displayed, nest the '''script''' block within a '''comment''' block.
-Script appearing after a '''frameSet''' element is ignored.
-Whenever the [[html/attributes/language|'''language''']] attribute is not defined on the '''script''' object, then ''MSHTML'' attempts to select a suitable scripting engine. An error generally occurs if the wrong scripting engine is selected. When more than one '''script''' object is used in a document, it can be necessary to specify the ''language'' attribute for each '''script''' object, and doing so is always recommended. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. XML is legitimate content for the '''script''' object, but XML is not a scripting language. Therefore, an error can occur if ''MSHTML'' selects an XML data island as the '''script''' object that contains an event handler function. This can happen because ''MSHTML'' selects the first '''script''' object that has the '''language''' attribute defined as the default script block for event handlers. For more information, see the examples.
-Windows Internet Explorer 8 and later. The value of the [[html/attributes/src (script)|'''src''']] attribute depends on the current document compatibility mode.
-|Import_Notes====Standards information===
+|Content====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.1
 
@@ -310,6 +255,61 @@ The '''script''' object has these properties.
 {{!}}[[html/attributes/async (script element){{!}}'''aync''']]
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously). Non-standard.
 {{!}}}
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Description=The following code snippet provides a scenario where an error occurs.
+|Code=&lt;html&gt;
+&lt;head&gt;
+&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
+&lt;offerings&gt;
+ &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
+hr&lt;/time&gt;&lt;/class&gt;
+&lt;/offerings&gt;
+&lt;/SCRIPT&gt;
+&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
+function returnIslandRootName()
+{
+  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
+  console.log(islandRoot.nodeName);
+}
+&lt;/SCRIPT&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+}}{{Single Example
+|Description=Because the XML data island is the first instance of the '''script''' object that has the [[html/attributes/language|'''language''']] attribute defined, ''MSHTML'' attempts to locate the <code>returnIslandRootName</code> function in the XML and fails. To correct the sample, the order of the '''script''' objects can change, as shown by the following example:
+|Code=&lt;html&gt;
+&lt;head&gt;
+&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
+function returnIslandRootName()
+{
+  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
+  console.log(islandRoot.nodeName);
+}
+&lt;/SCRIPT&gt;
+&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
+&lt;offerings&gt;
+ &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
+hr&lt;/time&gt;&lt;/class&gt;
+&lt;/offerings&gt;
+&lt;/SCRIPT&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+}}
+}}
+{{Notes_Section
+|Notes====Remarks===
+Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded. To keep scripts from being displayed, nest the '''script''' block within a '''comment''' block.
+Script appearing after a '''frameSet''' element is ignored.
+Whenever the [[html/attributes/language|'''language''']] attribute is not defined on the '''script''' object, then ''MSHTML'' attempts to select a suitable scripting engine. An error generally occurs if the wrong scripting engine is selected. When more than one '''script''' object is used in a document, it can be necessary to specify the ''language'' attribute for each '''script''' object, and doing so is always recommended. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. XML is legitimate content for the '''script''' object, but XML is not a scripting language. Therefore, an error can occur if ''MSHTML'' selects an XML data island as the '''script''' object that contains an event handler function. This can happen because ''MSHTML'' selects the first '''script''' object that has the '''language''' attribute defined as the default script block for event handlers. For more information, see the examples.
+Windows Internet Explorer 8 and later. The value of the [[html/attributes/src (script)|'''src''']] attribute depends on the current document compatibility mode.
 }}
 {{Related_Specifications_Section
 |Specifications=
