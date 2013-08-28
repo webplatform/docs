@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|button}}
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -10,23 +10,27 @@
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
-|Content=Inside a &lt;button&gt; element you can put content, like text or images.
-Always specify the type attribute for a &lt;button&gt; element. Different browsers use different default types for the &lt;button&gt; element.
+|Content=Inside a &lt;button&gt; element you can put content, like text or images. It generates a clickable button with the specific value of the element displayed on the button.
+
+The &lt;button&gt; element can also be used as submit button to send [[html/elements/form|'''form''']] data to the server. The usage is the same as with any other button.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=This examples uses the <code>&lt;button&gt;</code> element to display a clickable button.
 |Code=<button name="button">Click me</button>
 }}
 }}
 {{Notes_Section
-|Usage=Internet Explorer historically has had problems with the button element, especially when used in conjunction with type="submit".
+|Usage=Generally, a button can be used whenever there should be a button clickable by the user. 
+
+
+Please note that styling a submit button using the &lt;button&gt; element is easier than styling an [[html/elements/input|'''input''']] element with type <code>submit</code>.
 |Notes====Remarks===
-The default value of the [[html/attributes/type (button element)|'''type''']] attribute depends on the current document compatibility mode.  The default value is <code>submit</code>.  In other compatibility modes the default value is <code>button</code>.
-When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.
-Windows Internet Explorer 8 and later. The default value of the [[html/attributes/type (button element)|'''type''']] attribute depends on the current document compatibility mode.  In IE8 Standards mode, the default value is <code>submit</code>.  In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is <code>button</code>.
-Internet Explorer 8 and later.  When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.  In IE8 mode, the [[html/attributes/value (button element)|'''value''']] attribute is submitted.  In other document modes and earlier versions of Internet Explorer, the [[dom/properties/innerText|'''innerText''']] value is submitted.
+In general the default for the <code>type</code> attribute is <code>submit</code> and can be omitted if no other type needs to be used. Older browser versions may have different standard <code>type</code> values.
+
+Internet Explorer historically has had problems with the button element, especially when used in conjunction with type="submit".
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.5
 *[http://www.w3.org/TR/html401/ HTML5 Candidate Specification], Section 4.10.8
