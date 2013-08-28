@@ -29,7 +29,7 @@
 
 ===Attributes===
 
-This element supports the HTML5 [[html/global_attributes|global attributes]] and the [[html/event_attributes|event attributes]].
+This element supports the HTML5 [[html/global_attributes|global attributes]].
 <ul>
 <li id="attribute-value"><b>value</b>
 <ul>
