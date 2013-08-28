@@ -2,8 +2,9 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''iframe''' element (&lt;iframe&gt;) introduces a new nested browsing context.}}
 {{Markup_Element
@@ -13,11 +14,13 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''iframe''' element and an HTML fragment to create a frame containing the page sample.htm.
-|Code=&lt;IFRAME ID{{=}}IFrame1 FRAMEBORDER{{=}}0 SCROLLING{{=}}NO SRC{{=}}"sample.htm"&gt;&lt;/IFRAME&gt;
+|Language=HTML
+|Description=This example embeds <code>http://example.com/</code> via an IFrame element.
+|Code=&lt;iframe id{{=}}"theFrame" src{{=}}"http://example.com/"&gt;&lt;/iframe&gt;
 }}{{Single Example
-|Description=This example returns a reference to the [[dom/properties/all|'''all''']] collection of the document contained by the '''iframe'''.
-|Code=var collAll {{=}} document.frames("IFrame1").document.all
+|Language=JavaScript
+|Description=This example shows how to grab the Document contained within an IFrame element (note that you may only reach down into an IFrame if the page it has loaded is same-origin).
+|Code=var frameDoc {{=}} document.getElementById("theFrame").contentDocument;
 }}
 }}
 {{Notes_Section
