@@ -7,6 +7,8 @@
 {{Byline}}
 {{Summary_Section|This part of the canvas tutorial is going through 2D coordinate transformations. It gives examples for the three basic transformation methods [[tutorials/canvas/Canvas_tutorial/Transformations#Translating|translate]], [[tutorials/canvas/Canvas_tutorial/Transformations#Rotating|rotate]] and [[tutorials/canvas/Canvas_tutorial/Transformations#Scaling|scale]], which can be used stacked or all-in-one per [[tutorials/canvas/Canvas_tutorial/Transformations#Transforms|matrix multiplication]].}}
 {{Tutorial
+|Next_page=tutorials/canvas/Canvas_tutorial/Compositing
+|Prev_page=tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors
 |Content===Saving and restoring state==
 
 Before we look at the transformation methods, I'll introduce two other methods which are indispensable once you start generating ever more complex drawings.
