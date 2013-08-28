@@ -32,14 +32,38 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a <code>&lt;span&gt;</code> element because we want to use a different ampersand from a different font.
+|Code=&lt;p&gt;Me & You = Us&lt;/p&gt;
+|LiveURL=http://code.webplatform.org/gist/6366676
 }}{{Single Example
 |Language=CSS
-|Description=The CSS for the example above: you can see that we are in effect defining a completely separate <code>@font-face</code> that only includes a single character in it, meaning that we don't need to download the entire font to get what we want.
+|Description=The CSS for the example above: you can see that we are in effect defining a completely separate <code>@font-face</code> that only includes a single character in it, meaning that we don't need to download the entire font to get what we want if it is a hosted font, and if it is a local font as in this example, we can at least cut down on extra markup and styles (we could also do this by wrapping the ampersand in a <code>&lt;span&gt;</code> and applying a different font just to that, but that is an extra element and ruleset!)
+
+Be aware that Firefox does not yet support <code>unicode-range</code> properly, hence the reason for the second <code>@font-face</code> block. Here we are pointing to an obscure unicode codepoint that will likely never be used in our document, causing Firefox to stop applying the posh Eccentric font to the whole paragraph (definitely not what we want.) — just helvetica is a better fallback.
+|Code=@font-face {
+  font-family: 'Ampersand';
+  src: local('Eccentric STD');
+  unicode-range: U+26;
+}
+
+@font-face {
+    /* Ampersand fallback font */
+    font-family: 'Ampersand';
+    src: local('helvetica');
+    unicode-range: U+270C;
+}
+
+p {
+	color: #faf;
+	letter-spacing: -0.05em;
+	font-size: 64px;
+	font-family: Ampersand, helvetica, sans-serif;	
+}
 }}
 }}
 {{Notes_Section
 |Usage=* As the examples above show, you can use <code>unicode-range</code> to create a custom <code>@font-face</code> that contains only the characters you need to be downloaded, saving on bandwidth.
 * You should always include a fallback font that is acceptable in case your <code>unicode-range @font-face</code> is not supported.
+* Support for <code>unicode-range</code> is currently limited; Chrome and Safari supports it well, Firefox doesn't.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
