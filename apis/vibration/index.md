@@ -1,10 +1,11 @@
 {{Page_Title|Vibration API}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Last Call Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback.}}
+{{Summary_Section|The Vibration API provides access to the vibration mechanism of the hosting device. Vibration is a form of tactile feedback, often used by mobile phones.}}
 {{API_Listing}}
 {{Concept_Listing
 |Query=[[Category:Vibration]][[Category:API_Objects]]
@@ -12,19 +13,29 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=This API is specifically designed to address use cases that require simple tactile feedback only.
+|Usage=This API is specifically designed to address use cases that require simple tactile feedback only. This API is not meant to be used as a generic notification mechanism. Such use cases may be handled using the Web Notifications specification.
 
 In the following example the device will vibrate for 1000 milliseconds (ms):
 
-navigator.vibrate(1000); // or alternatively navigator.vibrate([1000]);
+<syntaxhighlight lang="javascript">
+navigator.vibrate(1000);
+// or alternatively
+navigator.vibrate([1000]);
+</syntaxhighlight>
 
 In the following example the pattern will cause the device to vibrate for 50 ms, be still for 100 ms, and then vibrate for 150 ms:
 
+<syntaxhighlight lang="javascript">
 navigator.vibrate([50, 100, 150]);
+</syntaxhighlight>
 
 The following example cancels any existing vibrations:
 
-navigator.vibrate(0); // or alternatively navigator.vibrate([]);
+<syntaxhighlight lang="javascript">
+navigator.vibrate(0);
+// or alternatively
+navigator.vibrate([]);
+</syntaxhighlight>
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
