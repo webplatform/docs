@@ -77,38 +77,6 @@ progress::-webkit-progress-value {
 }}
 {{Notes_Section
 |Usage=When the [[#attribute-value|value attribute]] is omitted, the <code>&lt;progress&gt;</code> element becomes indeterminate, that is, it shows activity but not how much progress has actually been made.
-|Notes====Remarks===
-When the '''value''' attribute is omitted, the '''progress''' element becomes indeterminate, that is, it shows activity but not how much progress has actually been made. If the '''value''' attribute is used without a maximum value, the range is from 0 to 1. To change the appearance from a ring to a bar, use the [[css/properties/animation-name|'''animation-name''']] property  to style   the '''progress''' element's '''ms-fill''' pseudo-element. The progress element can be styled using CSS.
-|Import_Notes====Syntax===
-
-===Members===
-The '''Progress''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''Progress''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/form|'''form''']]
-|Retrieves a reference to the form that the object is embedded in.
-|-
-|[[html/attributes/max(HTMLProgressElement)|'''max''']]
-|Defines the maximum, or "done" value for a progress element.
-|-
-|[[css/selectors/-ms-progress-appearance|'''msProgressAppearance''']]
-|This property is obsolete. Use [[css/properties/animation-name|'''animation-name''']] instead.
-|-
-|[[dom/properties/position|'''position''']]
-|Returns the quotient of [[html/attributes/value (HTMLProgressElement)|'''value''']]/[[html/attributes/max(HTMLProgressElement)|'''max''']] when the '''value''' attribute is set (determinate progress bar), or -1 when the '''value''' attribute is missing (indeterminate progress bar).
-|-
-|[[html/attributes/value (HTMLProgressElement)|'''value''']]
-|Sets or gets the current value of a progress element. The value must be a non-negative number between 0 and the [[html/attributes/max(HTMLProgressElement)|'''max''']] value.
-|}
- 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
