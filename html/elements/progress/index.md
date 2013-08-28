@@ -28,18 +28,15 @@
 
 ===Attributes===
 This element supports the HTML5 [[html/global_attributes|global attributes]].
-<ul>
-<li id="attribute-value"><b>value</b>
-<ul>
-<li>How much of the task has been completed. If [[#attribute-max|max]] is not set, this should be a value between 0 and 1, if [[#attribute-max|max]] is set, this should be a value between 0 and [[#attribute-max|max]].</li>
-</ul>
-</li>
-<li id="attribute-max"><b>max</b>
-<ul>
-<li>How much work the task requires in total. This is optional, if it's not set then [[#attribute-value|value]] is a percentage.</li>
-</ul>
-</li>
-</ul>
+
+
+<dl>
+    <dt id="attribute-value">[[html/attributes/value|value]]</dt>
+    <dd>How much of the task has been completed. If [[#attribute-max|max]] is not set, this should be a value between 0 and 1, if [[#attribute-max|max]] is set, this should be a value between 0 and [[#attribute-max|max]].</dd>
+
+    <dt id="attribute-max">[[html/attributes/max|max]]</dt>
+    <dd>How much work the task requires in total. This is optional, if it's not set then [[#attribute-value|value]] is a percentage.</dd>
+</dl>
 }}
 {{Examples_Section
 |Not_required=No
