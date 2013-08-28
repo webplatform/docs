@@ -60,7 +60,6 @@
 |Manual_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
 * [http://www.rishida.net/tools/conversion/ Unicode code converter]
 * [http://rishida.net/blog/?p=760 Using unicode-range in @font-face in CSS]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
