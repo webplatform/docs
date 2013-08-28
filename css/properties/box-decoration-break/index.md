@@ -17,11 +17,9 @@
 |Description=Each box fragment is independently wrapped with the border and padding. The <code>border-radius</code> and <code>border-image</code> and <code>box-shadow</code>, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.
 }}{{CSS Property Value
 |Data Type=slice
-|Description=
-No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; <code>border-radius</code> does not apply to its corners; and the <code>border-image</code> is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward.
+|Description=No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; <code>border-radius</code> does not apply to its corners; and the <code>border-image</code> is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward.
 
 Backgrounds are drawn as if, after the element has been laid out (including any justification, reordering, page breaks, etc.), all the element's box fragments were taken and put one after the other in visual order. The background is applied to the bounding box of this composite box and then the fragments are put back, with each with its share of the background.
-
 }}
 }}
 {{Examples_Section
@@ -58,7 +56,6 @@ Backgrounds are drawn as if, after the element has been laid out (including any 
 |Usage=This property comes in handy if you want to indicate how a box splits when, for example a user prints a page.
 When using CSS columns, grids or regions it is useful to decide how a box looks when it breaks.
 |Notes=In Firefox there is <code>-moz-background-inline-policy</code> which enables you to treat background images how you want to. This is only a partial implementation of <code>box-decoration-break</code>.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
