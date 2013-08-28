@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
-|Content=Compatibility Incomplete, Needs Summary
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Byline}}
