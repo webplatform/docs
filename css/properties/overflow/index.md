@@ -1,29 +1,36 @@
-{{Page_Title}}
+{{Page_Title|overflow}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The overflow property controls how extra text  exceeding the bounding box of an element is rendered. The overflow property can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
+{{Summary_Section|The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
 {{CSS Property
-|Applies to=All elements
+|Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified, except ‘visible’
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=visible
-|Description=Default. Content is not clipped and scroll bars are not added.
+|Description=Mostly the default value. Content is not clipped and a scroll mechanism is not added.
 }}{{CSS Property Value
 |Data Type=scroll
-|Description=Content is clipped and scroll bars are added, even if the content does not exceed the dimensions of the object.
+|Description=Content is clipped and a scroll mechanism is added, even if the content does not exceed the dimensions of the object.
 }}{{CSS Property Value
 |Data Type=hidden
-|Description=Content that exceeds the dimensions of the object is not shown.
+|Description=Content that exceeds the dimensions of the object is not shown. No scroll mechanism is applied.
 }}{{CSS Property Value
 |Data Type=auto
 |Description=Content is clipped and scrolling is added only when necessary.
+}}{{CSS Property Value
+|Data Type=no-display
+|Description=When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
+}}{{CSS Property Value
+|Data Type=no-content
+|Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 }}
 }}
 {{Examples_Section
@@ -31,15 +38,10 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The default value for the '''body''' element is '''auto'''.
-Setting the '''overflow''' property to '''hidden''' on a '''textArea''' object hides its scroll bars.
-Setting the '''overflow''' property to '''visible''' causes the content to clip to the size of the window or frame that contains the object.
-With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property applies to the '''html''' object.
+|Notes=The default value for the <code>html</code> element is <code>auto</code>.
+Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
 
-Vendor prefixes are available under the <code>-ms-overflow-style</code> property and the [http://code.webplatform.org/gist/5841978 -webkit-marquee] value.  [http://www.w3.org/TR/css3-marquee/ Marquee] rendering is coupled with the following properties: <code>marquee-direction</code>, <code>marquee-speed</code>, and <code>marquee-style</code>.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
+|Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -73,9 +75,8 @@ Vendor prefixes are available under the <code>-ms-overflow-style</code> property
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model, Visual Effects
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Topic_clusters=Box Model
+|Manual_sections=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
@@ -84,8 +85,7 @@ Vendor prefixes are available under the <code>-ms-overflow-style</code> property
 *<code>[[css/properties/overflow-x|-ms-overflow-x]]</code>
 *<code>[[css/properties/overflow-y|-ms-overflow-y]]</code>
 *<code>[[css/properties/position|position]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
