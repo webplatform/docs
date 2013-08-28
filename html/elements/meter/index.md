@@ -12,7 +12,7 @@
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/phrasingContent|Phrasing content]], but may not contain any &lt;meter&gt; elements itself.</td>
+<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/phrasingContent|Phrasing content]], but may not contain any <code>&lt;meter&gt;</code> elements itself.</td>
 </tr>
 <tr>
 <th id="permitted-parents">Permitted&#160;parents</th>
@@ -20,7 +20,7 @@
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
-<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+<td>A <code>&meter;dl&gt;</code> element must have both a start tag and an end tag.</td>
 </tr>
 </table>
 
