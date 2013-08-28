@@ -6,11 +6,9 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The formmethod attribute defines the HTTP method for sending form-data to the action URL.
-
-}}
+{{Summary_Section|The formmethod attribute defines the HTTP method for sending form-data to the action URL.}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
 |Content=The formmethod attribute overrides the method attribute of the <form> element.
 }}
