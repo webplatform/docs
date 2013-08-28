@@ -19,7 +19,7 @@
         The <code>&lt;cite&gt;</code> attribute may be used to specify the address of a document that explains the change. 
         When that document is long, for instance the minutes of a meeting, authors are encouraged to include a fragment 
         identifier pointing to the specific part of that document that discusses the change.
-        If present, it must be a [[html/data_types/url]] potentially surrounded by spaces that explains the change.
+        If present, it must be a [[html/data_types/url|URL]] potentially surrounded by spaces that explains the change.
     </dd>
     <dt>[[html/attributes/datetime|datetime]]</dt>
     <dd>
