@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLProgressElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -23,6 +23,22 @@
 <td>A <code>&lt;progress&gt;</code> element must have both a start tag and an end tag.</td>
 </tr>
 </table>
+
+
+===Attributes===
+This element supports the HTML5 [[html/global_attributes|global attributes]].
+<ul>
+<li id="attribute-value"><b>value</b>
+<ul>
+<li>How much of the task has been completed. If [[#attribute-max|max]] is not set, this should be a value between 0 and 1, if [[#attribute-max|max]] is set, this should be a value between 0 and [[#attribute-max|max]].</li>
+</ul>
+</li>
+<li id="attribute-max"><b>max</b>
+<ul>
+<li>How much work the task requires in total. This is optional, if it's not set then [[#attribute-value|value]] is a percentage.</li>
+</ul>
+</li>
+</ul>
 }}
 {{Examples_Section
 |Not_required=No
@@ -57,9 +73,6 @@ progress::-webkit-progress-value {
 |Notes====Remarks===
 When the '''value''' attribute is omitted, the '''progress''' element becomes indeterminate, that is, it shows activity but not how much progress has actually been made. If the '''value''' attribute is used without a maximum value, the range is from 0 to 1. To change the appearance from a ring to a bar, use the [[css/properties/animation-name|'''animation-name''']] property  to style   the '''progress''' element's '''ms-fill''' pseudo-element. The progress element can be styled using CSS.
 |Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
-
 
 ===Members===
 The '''Progress''' object has these types of members:
