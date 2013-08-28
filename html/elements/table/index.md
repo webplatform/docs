@@ -1,17 +1,22 @@
-{{Page_Title}}
+{{Page_Title|table}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines an HTML table.}}
+{{Summary_Section|The <code>&lt;table&gt;</code> element is a wrapper for an HTML table. It defines the start and end of a table, and as such can contain other table elements, such as <code>&lt;tr&gt;</code>.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableElement
+|Content=<p>The <code>&lt;table&gt;</code> element is a container for HTML tables, which are used to markup tabular data.</p>
+
+<p>Tables are also often used for laying out web pages, but this is a bad practice that should not be done anymore.</p>
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''TABLE''' element with '''THEAD''', '''TR''', and '''TH''' to create a table with three rows and two columns.
 |Code=&lt;TABLE BORDER{{=}}1 WIDTH{{=}}80%&gt;
 &lt;THEAD&gt;
@@ -919,7 +924,7 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
