@@ -109,19 +109,19 @@
 }}{{Single Example
 |Language=CSS
 |Description=Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
-|Code=p.block 
-{
-display:block; //Sets the element to display in a box model rendering type.
+|Code=p.block {
+    /* Sets the element to display in a box model rendering type. */
+    display:block;
 }
 
-p.inline 
-{
-display:inline; //Sets the element to display inline inside the current element.
+p.inline {
+    /* Sets the element to display inline inside the current element. */
+    display:inline;
 }
 
-p.inherit 
-{
-display:inherit; //Sets the display value to inherit its parent container's display values.
+p.inherit {
+    /* Sets the display value to inherit its parent container's display values. */
+    display:inherit;
 }
 }}{{Single Example
 |Language=CSS
