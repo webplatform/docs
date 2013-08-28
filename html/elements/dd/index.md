@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -9,15 +9,21 @@
 {{Summary_Section|The '''dd''' element (&lt;dd&gt;) represents the description, definition, or value, part of a term-description group in a description list ([[html/elements/dl|&lt;dl&gt;]] element).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
-|Content====HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|block
-|}
+|Content=
+<table class{{=}}"wikitable">
+<tr>
+<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
+<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/flowContent|flow content]].</td>
+</tr>
+<tr>
+<th id="permitted-parents">Permitted&#160;parents</th>
+<td>[[html/elements/dl|dl]].</td>
+</tr>
+<tr>
+<th id="tag-omission">Tag&#160;omission</th>
+<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+</tr>
+</table>
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,11 +36,14 @@
   &lt;dt&gt;Lizard&lt;/dt&gt;
   &lt;dd&gt;A reptile generally found in dry areas.&lt;/dd&gt;
 &lt;/dl&gt;
+}}{{Single Example
+|Language=CSS
+|Description=Typical browser default CSS properties for the <code>&lt;dd&gt;</code> element.
+|Code=display: block;
+margin-left: 40px; 
 }}
 }}
-{{Notes_Section
-|Usage=Please add a section that deals with the default values that come with this element.  For instance, it is obvious that this element is indented, but do browsers automatically add padding, margin, or achieve the indent via some other mechanism? This is of course important because a person should know what codes to override if he wants to create a custom indent.
-|}
+{{Notes_Section|}
  ====Properties====
 The '''dd''' object has these properties.
 {
@@ -43,13 +52,13 @@ The '''dd''' object has these properties.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML 4.01 Specification
+|Name=HTML4
 |URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
 |Status=W3C Recommendation
 }}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-dd-element.html#the-dd-element
-|Status=W3C Working Draft
+|Name=HTML5.1
+|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dd-element
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -101,7 +110,8 @@ The '''dd''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dd Mozilla Developer Network]
+* [http://msdn.microsoft.com/en-US/library/ie/ms535234.aspx Microsoft Developer Network]
 }}
 {{Topics|HTML}}
 {{External_Attribution
