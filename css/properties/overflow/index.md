@@ -141,6 +141,7 @@ Internet Explorer 4 to 6 enlarges an element with <code>overflow: visible</code>
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
