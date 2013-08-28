@@ -8,12 +8,11 @@
 {{API_Name}}
 {{Summary_Section|When present, it specifies that the <input> element should not be validated when submitted.}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
 |Content=The formnovalidate attribute is a boolean attribute.
 
 The formnovalidate attribute overrides the novalidate attribute of the <form> element.
-
 }}
 {{Examples_Section
 |Not_required=No
