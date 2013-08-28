@@ -1,6 +1,8 @@
 {{Page_Title|Learn to use HTML Lists}}
-{{Flags}}
-{{Summary_Section}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section|A step by step example to get used with list elements in html.}}
 {{Basic Page}}
 == Step by step example ==
  
