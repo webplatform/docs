@@ -14,7 +14,7 @@
 <p>Besides the [[html/global_attributes|universal attributes]] the following attributes are supported:</p>
 
 <dl>
-    <dt>[[html/attributes/cite|cite]</dt>
+    <dt>[[html/attributes/cite|cite]]</dt>
     <dd>
         The <code>&lt;cite&gt;</code> attribute may be used to specify the address of a document that explains the change. 
         When that document is long, for instance the minutes of a meeting, authors are encouraged to include a fragment 
@@ -24,7 +24,7 @@
     <dt>[[html/attributes/datetime|datetime]]</dt>
     <dd>
         The <code>&lt;datetime&gt;</code> attribute may be used to specify the time and date of the change.
-        If present, it must be a valid [[html/data_types/datetime]].
+        If present, it must be a valid [[html/data_types/datetime|date string with optional time]].
     </dd>
 </dl>
 }}
