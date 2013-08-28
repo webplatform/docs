@@ -2,49 +2,78 @@
 {{Flags
 |High-level issues=Needs Flags
 |Checked_Out=Yes
-|Editorial notes=The <code>&lt;dl&gt;</code> element is a wrapper for an HTML definition list. It defines the start and end of a definition list, and as such can contain other table elements, such as <code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code>.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name|dl}}
-{{Summary_Section|article summary content}}
+{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
-|Content=<p>The <code>&lt;dl&gt;</code> element is a container for HTML definition lists, which are used to markup name-value-group data.</p>
+|Content=<table class{{=}}"wikitable">
+<tr>
+<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
+<td style{{=}}"vertical-align: top; padding-top: 10px">One of the following:
+* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
+* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.</td>
+</tr>
+<tr>
+<th id="permitted-parents">Permitted&#160;parents</th>
+<td>Any element that can contain [[html/concepts/flowContent|flow content]].</td>
+</tr>
+<tr>
+<th id="tag-omission">Tag&#160;omission</th>
+<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+</tr>
+</table>
 
-<p>Definition lists are often used for glossaries.</p>
+The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
+
+A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
+
+It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
+
+The items should always be placed before the descriptions.
+
+A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The example shows a simple definition list with two item/description pairs.
-|Code=<dl>
-  <dt>Coffee</dt>
-  <dd>A popular hot drink.</dd>
-  <dt>Coca Cola</dt>
-  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
-</dl>
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dt&gt;Coca Cola&lt;/dt&gt;
+  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
+&lt;/dl&gt;
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=HTML
 |Description=The example shows a definition list with a single item but multiple descriptions for that item.
-|Code=<dl>
-  <dt>Coffee</dt>
-  <dd>A popular hot drink.</dd>
-  <dd>A mid brown colour</dd>
-  <dd>A common social invitation</dd>
-</dl>
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
+  &lt;dd&gt;A common social invitation&lt;/dd&gt;
+&lt;/dl&gt;
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=HTML
 |Description=The example shows a definition list with a single description and multiple items fitting that description.
-|Code=<dl>
-  <dt>Coffee</dt>
-  <dt>Tea</dt>
-  <dt>Vimto (in the North of England)</dt>
-  <dd>A popular hot drink.</dd>
-</dl>
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dt&gt;Tea&lt;/dt&gt;
+  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+&lt;/dl&gt;
 |LiveURL=http://code.webplatform.org/gist/5821157
+}}{{Single Example
+|Language=CSS
+|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element. 
+|Code=display: block;
+margin-top: 16px;
+margin-bottom: 16px;
 }}
 }}
 {{Notes_Section}}
@@ -57,7 +86,7 @@
 |Name=HTML5.1
 |URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dl-element
 |Status=Editor's Draft
-|Relevant_changes=In HTML5, definition list has been changed to description list 
+|Relevant_changes=In HTML5, definition list has been changed to description list
 }}
 }}
 {{Compatibility_Section
