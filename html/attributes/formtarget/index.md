@@ -1,11 +1,15 @@
 {{Page_Title|formtarget}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute}}
+{{Summary_Section|The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.}}
+{{Markup_Attribute
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Property_applies_to=dom/HTMLElement
+|Content=The formtarget attribute overrides the target attribute of the <form> element.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
