@@ -6,8 +6,13 @@
 {{API_Name}}
 {{Summary_Section|<code>unicode-range</code> allows you to set a specific range of characters to be downloaded from a font (embedded using <code>@font-face</code>) and made available for use on the current page.}}
 {{CSS Property
+|Initial value=U+0-10FFFF 
+|Applies to=The <code>@font-face</code> block the property is included inside.
 |Inherited=No
+|Media=visual
+|Computed value=Same as the inputted value
 |Animatable=No
+|CSS object model property=unicodeRange
 |Values=
 }}
 {{Examples_Section
