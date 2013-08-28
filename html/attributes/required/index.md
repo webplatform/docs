@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The required attribute is a boolean attribute.}}
 {{Markup_Attribute
+|Applies_to=html/elements/input
 |Property_applies_to=dom/HTMLElement
+|Content=When present, it specifies that an input field must be filled out before submitting the form.
 }}
 {{Examples_Section
 |Not_required=No
