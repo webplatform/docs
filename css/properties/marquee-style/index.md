@@ -17,11 +17,21 @@
 |Description=Start completely off one side, scroll all the way across and completely off.
 }}{{CSS Property Value
 |Data Type=slide
+|Description=Start completely off one side, scroll in, and stop as soon as no more content is off that side.
+}}{{CSS Property Value
+|Data Type=alternate
+|Description=Bounce back and forth.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=marquee {
+  marquee-style: alternate;
+}
+|LiveURL=http://code.webplatform.org/gist/6364703
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
