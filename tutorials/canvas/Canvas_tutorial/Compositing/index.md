@@ -3,10 +3,9 @@
 |High-level issues=Needs Topics
 |Content=Compatibility Incomplete
 |Checked_Out=No
-|Editorial notes=Here there is explained how to combine shapes. There are examples about logically add/subtract/layer shapes and about how to use clipping paths.
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|Here there is explained how to combine shapes. There are examples about logically add/subtract/layer shapes and about how to use clipping paths.}}
 {{Tutorial
 |Next_page=tutorials/canvas/Canvas_tutorial/Optimizing_canvas
 |Prev_page=tutorials/canvas/Canvas_tutorial/Transformations
