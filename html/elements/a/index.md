@@ -15,32 +15,32 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following examples use the '''a''' element to link to files, open a file, include an image as part of a link, define an anchor, and invoke a function.
-|Code=<!-- Link to an external website. -->
-<a href={{=}}"http://www.example.com">Example website</a>
+|Code=&lt;!-- Link to an external website. --&gt;
+&lt;a href{{=}}"http://www.example.com"&gt;Example website&lt;/a&gt;
 
-<!-- Link to an internal website in same directory. -->
-<a href{{=}}"home.html">Home</a>
+&lt;!-- Link to an internal website in same directory. --&gt;
+&lt;a href{{=}}"home.html"&gt;Home&lt;/a&gt;
 
-<!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name -->
-<a href{{=}}"someweirdname123.pdf" download="your.pdf">Download your pdf</a>
+&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name --&gt;
+&lt;a href{{=}}"someweirdname123.pdf" download="your.pdf"&gt;Download your pdf&lt;/a&gt;
 
-<!-- Open a link in the window specified by the attribute TARGET. -->
-<a href{{=}}"http://www.example.com" target{{=}}"_blank">Open example website in new window</a>
+&lt;!-- Open a link in the window specified by the attribute TARGET. --&gt;
+&lt;a href{{=}}"http://www.example.com" target{{=}}"_blank"&gt;Open example website in new window&lt;/a&gt;
 
-<!-- Include an IMG element as a part of the link. -->
-<a href{{=}}"http://www.example.com"><img src{{=}}"images/bullet.png">A link with an image</a>
+&lt;!-- Include an IMG element as a part of the link. --&gt;
+&lt;a href{{=}}"http://www.example.com"&gt;&lt;img src{{=}}"images/bullet.png"&gt;A link with an image&lt;/a&gt;
 
-<!-- Link to an anchor on the same page. -->
-<a href{{=}}"#top">Go to top</a>
+&lt;!-- Link to an anchor on the same page. --&gt;
+&lt;a href{{=}}"#top"&gt;Go to top&lt;/a&gt;
 
-<!-- Define an anchor. -->
-<a id{{=}}"top">
+&lt;!-- Define an anchor. --&gt;
+&lt;a id{{=}}"top"&gt;
 
-<!-- Invoke a JavaScript function (Not recommended) -->
-<a href{{=}}"javascript:alert('Link clicked')">Click this link</a>
+&lt;!-- Invoke a JavaScript function (Not recommended) --&gt;
+&lt;a href{{=}}"javascript:alert('Link clicked')"&gt;Click this link&lt;/a&gt;
 
-<!-- Links to a document and uses the ''rel'' attribute to specify the relationship to the linked document. -->
-<a href{{=}}"http://www.example.com/help" rel{{=}}"help">Link to help</a>
+&lt;!-- Links to a document and uses the ''rel'' attribute to specify the relationship to the linked document. --&gt;
+&lt;a href{{=}}"http://www.example.com/help" rel{{=}}"help"&gt;Link to help&lt;/a&gt;
 |LiveURL=http://code.webplatform.org/gist/5281100
 }}
 }}
