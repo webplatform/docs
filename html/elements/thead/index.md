@@ -6,9 +6,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>thead</code> tag is used to group header content in an HTML table. Generally with have th tags with attribute of scope="col"}}
+{{Summary_Section|The <code>thead</code> tag is used to group header content in an HTML table_ Generally with have th tags with attribute of scope="col"
+}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLTableSectionElement
 }}
 {{Examples_Section
 |Not_required=No
