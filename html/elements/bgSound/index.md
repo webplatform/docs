@@ -1,15 +1,28 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|The '''bgsound''' element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page.
-Don't use it. Use the [[html/elements/audio|audio]] element instead.
-}}
+{{Summary_Section|The '''bgsound''' element (<code>&lt;bgsound&gt;</code>) instructs the browser to load and play a sound file while the user is on that page. Don't use it. Use the [[html/elements/audio|audio]] element instead.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBGSoundElement
+|Content=If you want to use sound, please use the [[html/elements/audio|audio]] element:
+
+<syntaxhighlight language="html5">
+<audio autoplay id="bgsound">
+ <source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4"
+         type="audio/mp4">
+ <source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.oga"
+         type="audio/ogg; codecs=vorbis">
+ <p>Your user agent does not support the HTML5 Audio element.</p>
+</audio>
+<button type="button"
+        onclick="document.getElementById('bgsound').pause();">
+  Stop background sound
+</button>
+</syntaxhighlight>
 }}
 {{Examples_Section
 |Not_required=No
@@ -17,12 +30,8 @@ Don't use it. Use the [[html/elements/audio|audio]] element instead.
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''BGSOUND''' element can appear anywhere within the document.
-This element is not rendered.
-This element does not require a closing tag.
- 
- 
-Build date: 7/24/2012
+The <code>&lt;bgSound&gt;</code> element can appear anywhere within the document. This element is not rendered.
+This element does not require a closing tag. Do not use it! In HTML5 the <code>&lt;bgSound&gt;</code> is described as [http://www.w3.org/TR/html5/obsolete.html#non-conforming-features "non-conforming feature"].
 |Import_Notes====Standards information===
 There are no standards that apply here.
 
@@ -344,7 +353,9 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Audio
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
