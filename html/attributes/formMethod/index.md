@@ -2,12 +2,17 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Overrides the submit method attribute previously specified on a form element.}}
+{{Summary_Section|The formmethod attribute defines the HTTP method for sending form-data to the action URL.
+
+}}
 {{Markup_Attribute
+|Applies_to=html/elements/input
 |Property_applies_to=dom/HTMLElement
+|Content=The formmethod attribute overrides the method attribute of the <form> element.
 }}
 {{Examples_Section
 |Not_required=No
