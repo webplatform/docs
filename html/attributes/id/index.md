@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The id attribute is used for identifying elements in a document.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
