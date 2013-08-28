@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -135,7 +135,6 @@ p img:first-child {
 {{See_Also_Section
 |Topic_clusters=CSS Layout
 |External_links=* [http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust alignment-adjust by Eric Meyer]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
