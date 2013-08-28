@@ -29,7 +29,7 @@ Windows Internet Explorer 8 and later. The default value of the [[html/attribut
 Internet Explorer 8 and later.  When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.  In IE8 mode, the [[html/attributes/value (button element)|'''value''']] attribute is submitted.  In other document modes and earlier versions of Internet Explorer, the [[dom/properties/innerText|'''innerText''']] value is submitted.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.5
-*[http://www.w3.org/TR/html401/], Section 4.10.8
+*[http://www.w3.org/TR/html401/ HTML5 Candidate Specification], Section 4.10.8
 
 
 ===HTML information===
