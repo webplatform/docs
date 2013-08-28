@@ -4,12 +4,17 @@
 |Content=Incomplete, Examples Needed
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>alignment-adjust</code> property allows more precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the <code>alignment-adjust</code> property, the position of the baseline identified by the <code>alignment-adjust</code> can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element. The user agent should use heuristics to determine the position of a non existing baseline for a given element.}}
 {{CSS Property
+|Initial value=auto
+|Applies to=inline-level elements
 |Inherited=No
+|Media=visual
+|Computed value=see text
 |Animatable=No
+|CSS percentages=refers to the 'line-height' of the element
 |Values=
 }}
 {{Examples_Section
