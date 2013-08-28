@@ -13,16 +13,13 @@
 |Content=This is the one of the important attribute introduced in HTML5 in terms of UX. With this attribute we can focus required element without any JavaScript code. And all you need to do is place one attribute to HTML element.
 
 For example if we look at Facebook home page you can see that cursor is automatically pointed to email id field which makes user to just type in the credentials.
-
-Let's have an example for the same.
-
-<syntaxhighlight lang="php">
-  <input id="search_box" autofocus>
-</syntaxhighlight>
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<input id="search_box" autofocus>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
