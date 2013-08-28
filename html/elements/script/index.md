@@ -13,11 +13,7 @@
 *[http://www.w3.org/TR/html401/interact/scripts.html#h-18.2.1 HTML 4.01 Specification], Section 18.2.1.
 *[http://www.w3.org/TR/html5/scripting-1.html HTML 5 Specification], Section 4.3.
 
-===Members===
-The '''script''' object has this type of member:
-*[[#properties|Properties]]
-
-====Properties====
+===Properties===
 The '''script''' object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
