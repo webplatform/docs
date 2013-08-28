@@ -9,7 +9,23 @@
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=<p>The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [http://docs.webplatform.org/wiki/html/elements/progress progress element].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.</p>
+|Content=<table class{{=}}"wikitable">
+<tr>
+<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
+<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/phrasingContent|Phrasing content]], but may not contain any &lt;meter&gt; elements itself.</td>
+</tr>
+<tr>
+<th id="permitted-parents">Permitted&#160;parents</th>
+<td>Any element that can contain [[html/concepts/phrasingContent|phrasing content]].</td>
+</tr>
+<tr>
+<th id="tag-omission">Tag&#160;omission</th>
+<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+</tr>
+</table>
+
+
+<p>The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [http://docs.webplatform.org/wiki/html/elements/progress progress element].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.</p>
 <br>
 <b>Attributes:</b>
 <br>
