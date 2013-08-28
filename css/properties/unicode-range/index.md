@@ -6,14 +6,26 @@
 {{API_Name}}
 {{Summary_Section|<code>unicode-range</code> allows you to set a specific range of characters to be downloaded from a font (embedded using <code>@font-face</code>) and made available for use on the current page.}}
 {{CSS Property
-|Initial value=U+0-10FFFF 
+|Initial value=U+0-10FFFF
 |Applies to=The <code>@font-face</code> block the property is included inside.
 |Inherited=No
 |Media=visual
 |Computed value=Same as the inputted value
 |Animatable=No
 |CSS object model property=unicodeRange
-|Values=
+|Values={{CSS Property Value
+|Data Type=single codepoint
+|Description=A single unicode character codepoint, such as U+26.
+}}{{CSS Property Value
+|Data Type=codepoint range
+|Description=A range of unicode codepoints. So for example, U+0025-00FF means "include all characters in the range U+0025 to U+00FF."
+}}{{CSS Property Value
+|Data Type=wildcard range
+|Description=You can specify wildcard characters using the "?" character, so for example U+4?? would mean "include all characters in the range U+400 to U+4FF."
+}}{{CSS Property Value
+|Data Type=multiple value declarations
+|Description=You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, unicode-range: U+00-FF, U+980-9FF;
+}}
 }}
 {{Examples_Section
 |Not_required=No
