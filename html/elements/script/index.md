@@ -241,7 +241,7 @@ The '''script''' object has these properties.
 !Description
 {{!}}-
 {{!}}[[html/attributes/src (script){{!}}'''src''']]
-{{!}}Retrieves the URL to an external file that contains the source code or data(This is not necessary).
+{{!}}Retrieves the URL to an external file that contains the source code or data(This isn't necessary if you are using this is a inline script).
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
 {{!}}Sets or retrieves the MIME type for the associated scripting engine.
@@ -250,10 +250,10 @@ The '''script''' object has these properties.
 {{!}}Sets or retrieves the programming language for the associated scripting engine. Depracated, use type instead.
 {{!}}-  
 {{!}}[[html/attributes/defer{{!}}'''defer''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed synchronously).
+{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed synchronously)(This isn't necessary if you are using this is a inline script).
 {{!}}-
 {{!}}[[html/attributes/async{{!}}'''aync''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously). Non-standard.
+{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously)(This isn't necessary if you are using this is a inline script).
 {{!}}}
 }}
 {{Examples_Section
