@@ -27,26 +27,49 @@
 }}{{CSS Property Value
 |Data Type=no-display
 |Description=When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
-
 }}{{CSS Property Value
 |Data Type=no-content
 |Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
-
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Using <code>overflow-x</code> width its values.
+
+|Code=.hidden {
+	overflow-x: hidden;
+}
+.scroll {
+	overflow-x: scroll;
+}
+.auto {
+	overflow-x: auto;
+}
+.visible {
+	overflow-x: visible;
+}
+
+p {
+	white-space: nowrap;
+}
+
+/* Set some default styles */
+body {
+	width: 20em;
+	margin: 0 auto;
+}
+|LiveURL=http://code.webplatform.org/gist/6366308
+}}
 }}
 {{Notes_Section
 |Usage=The <code>overflow-y</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
-
 |Notes=Setting the overflow-y property to visible causes the content to clip to the size of the window or frame that contains the object.
 
 Firefox has a vendor specific extension:
 
 - <code>-moz-scrollbars-horizontal</code> – deprecated, use of overflow-x preferred.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
