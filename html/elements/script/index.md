@@ -239,24 +239,31 @@ The '''script''' object has these properties.
 {{!}}-
 !Property
 !Description
+!Used with inline scripts
 {{!}}-
 {{!}}[[html/attributes/src (script){{!}}'''src''']]
-{{!}}Retrieves the URL to an external file that contains the source code or data(This isn't necessary if you are using an inline script).
+{{!}}Retrieves the URL to an external file that contains the source code or data.
+{{!}}No
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
 {{!}}Sets or retrieves the MIME type for the associated scripting engine.
+{{!}}Yes
 {{!}}-
 {{!}}[[html/attributes/charset{{!}}'''charset''']]
-{{!}}Sets or retrieves the script's character encoding(This isn't necessary if you are using an inline script).
+{{!}}Sets or retrieves the script's character encoding.
+{{!}}No
 {{!}}-  
 {{!}}[[html/attributes/language{{!}}'''language''']]
 {{!}}Sets or retrieves the programming language for the associated scripting engine. Depracated, use type instead.
+{{!}}Yes
 {{!}}-  
 {{!}}[[html/attributes/defer{{!}}'''defer''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed synchronously)(This isn't necessary if you are using an inline script).
+{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed synchronously).
+{{!}}No
 {{!}}-
 {{!}}[[html/attributes/async{{!}}'''aync''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously)(This isn't necessary if you are using an inline script).
+{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously).
+{{!}}No
 {{!}}}
 }}
 {{Examples_Section
