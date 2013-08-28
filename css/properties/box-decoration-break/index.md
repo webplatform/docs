@@ -14,23 +14,52 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=clone
-|Description=Each box fragment is independently wrapped with the border and padding. The ‘border-radius’ and ‘border-image’ and ‘box-shadow’, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.
+|Description=Each box fragment is independently wrapped with the border and padding. The <code>border-radius</code> and <code>border-image</code> and <code>box-shadow</code>, if any, are applied to each fragment independently. The background is drawn independently in each fragment of the element. A no-repeat background image will thus be rendered once in each fragment of the element.
 }}{{CSS Property Value
 |Data Type=slice
-|Description=No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; ‘border-radius’ does not apply to its corners; and the ‘border-image’ is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward.
+|Description=
+No border and no padding are inserted at a break. No box-shadow is drawn at a broken edge; <code>border-radius</code> does not apply to its corners; and the <code>border-image</code> is rendered for the whole box as if it were unbroken. The effect is as though the element were rendered with no breaks present, and then sliced by the breaks afterward.
 
-Backgrounds are drawn as if, after the element has been laid out (including any justification, bidi reordering, page breaks, etc.), all the element's box fragments were taken and put one after the other in visual order. The background is applied to the bounding box of this composite box and then the fragments are put back, with each with its share of the background.
+Backgrounds are drawn as if, after the element has been laid out (including any justification, reordering, page breaks, etc.), all the element's box fragments were taken and put one after the other in visual order. The background is applied to the bounding box of this composite box and then the fragments are put back, with each with its share of the background.
 
-For boxes broken across lines, first fragments on the same line are connected in visual order. Then fragments on subsequent lines are ordered according to the element's inline progression direction and aligned on the baseline. For example in a left-to-right containing block (‘direction’ is ‘ltr’), the first fragment is the leftmost fragment on the first line and fragments from subsequent lines are put to the right of it. In a right-to-left containing block, the first fragment is the rightmost on the first line and subsequent fragments are put to the left of it.
-
-For boxes broken across columns, the columns are treated as one continuous element, as if the column boxes were glued together in the block progression direction of the multi-column element. For boxes broken across pages, the page content areas are glued together in the block progression direction of the root element. In these cases, if the box fragments have different widths (heights, if the root element / multi-column element is in a vertical writing mode), then each piece draws its background assuming that the whole element has the same width (height) as this piece. This ensures that right-aligned images stay aligned to the right edge, left-aligned images stay aligned to the left edge, and centered images stay centered.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=This is an example of CSS how you can use box-decoration-break for a given element <code>.clone</code> which is part of the element element with column breaks.
+|Code=/**
+ * box-decoration-break
+ *
+ * Please be aware that this demo uses prefix-free.js to
+ * remove the hassle of adding vendor prefixes.
+ * This is currently not working in any browser.
+ */
+.clone {
+	/* Set some values to be cloned */
+	background: #eee;
+	border: 1px solid #aaa;
+	padding: 5px;
+
+	/* Clone the box */
+	box-decoration-break: clone;
+}
+
+/* Creating a bunch of columns */
+.box {
+	column-count: 4;
+	column-gap: 1em;
+}
+|LiveURL=http://code.webplatform.org/gist/6363867
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=This property comes in handy if you want to indicate how a box splits when, for example a user prints a page.
+When using CSS columns, grids or regions it is useful to decide how a box looks when it breaks.
+|Notes=In Firefox there is <code>-moz-background-inline-policy</code> which enables you to treat background images how you want to. This is only a partial implementation of <code>box-decoration-break</code>.
+
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3
@@ -51,6 +80,8 @@ For boxes broken across columns, the columns are treated as one continuous eleme
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout
+|External_links=[[https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-background-inline-policy|Documentation on -moz-background-inline-policy]]
+[[http://bricss.net/post/24672339016/box-decoration-break-finally-coming-to-more-browsers|The state of box-decoration-break by Lennart Schoors]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
