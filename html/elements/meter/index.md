@@ -111,7 +111,7 @@ meter::-webkit-meter-even-less-good-value {
 }}
 }}
 {{Notes_Section
-|Usage=The meter element is intended to have descriptive text inside of it, similar to the alt tag of the [http://docs.webplatform.org/wiki/html/elements/img image element].  The ending tag is mandatory.
+|Usage=The meter element is intended to have descriptive text inside of it, similar to the alt tag of the [http://docs.webplatform.org/wiki/html/elements/img image element].
 The title attribute may be used to specify a unit.
 }}
 {{Related_Specifications_Section
