@@ -61,16 +61,15 @@ p {
 Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
 
 Firefox has several vendor specific extensions:
-- <code>-moz-scrollbars-none</code> – obsolete, use <code>overflow: hidden</code> instead.
-- <code>-moz-scrollbars-horizontal</code> and <code>-moz-scrollbars-vertical</code> – deprecated, use of <code>overflow-x</code> and <code>overflow-y</code> is preferred.
-- <code>-moz-hidden-unscrollable</code> non-standard, is intended mainly for internal use and by themes. Disables scrolling of XML root elements and <html>, <body> by arrow keys and mouse wheel.
+* <code>-moz-scrollbars-none</code> – obsolete, use <code>overflow: hidden</code> instead.
+* <code>-moz-scrollbars-horizontal</code> and <code>-moz-scrollbars-vertical</code> – deprecated, use of <code>overflow-x</code> and <code>overflow-y</code> is preferred.
+* <code>-moz-hidden-unscrollable</code> non-standard, is intended mainly for internal use and by themes. Disables scrolling of XML root elements and <html>, <body> by arrow keys and mouse wheel.
 
 === Firefox (Gecko) Notes ===
 Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (<thead> , <tbody> , <tfoot>). This behavior is corrected in later versions.
 
 === Internet Explorer Notes ===
 Internet Explorer 4 to 6 enlarges an element with <code>overflow: visible</code> (default value) to fit the content in it. height/width behaves like min-height/min-width.
-
 |Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
 {{Related_Specifications_Section
