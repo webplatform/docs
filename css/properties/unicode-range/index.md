@@ -29,7 +29,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a <code>&lt;span&gt;</code> element because we want to use a different ampersand from a different font.
+}}{{Single Example
+|Language=CSS
+|Description=The CSS for the example above: you can see that we are in effect defining a completely separate <code>@font-face</code> that only includes a single character in it, meaning that we don't need to download the entire font to get what we want.
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
