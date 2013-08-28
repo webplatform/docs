@@ -44,7 +44,7 @@ The &lt;button&gt; element can also be used as submit button to send [[html/elem
 </li>
 </ul>
 
-<b>Additional attributes (HTML 5, recommendation specification):</b>
+<b>Additional attributes (HTML 5, candidate specification):</b>
 <ul>
 <li><b>autofocus</b>
 <ul>
