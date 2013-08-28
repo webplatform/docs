@@ -66,11 +66,6 @@
 |Code=<meter min="0" max="1000" value="500" low="200" high="800" optimum="900">&#36;500 raised</meter>
 |LiveURL=http://code.webplatform.org/gist/5281393
 }}{{Single Example
-|Language=HTML
-|Description=An example of the meter element with a title attribute
-|Code=<meter min="0" max="120" value="75" title="seconds"></meter>
-|LiveURL=http://code.webplatform.org/gist/6364106
-}}{{Single Example
 |Language=CSS
 |Description=Styling options for the meter bar
 |Code=meter {
