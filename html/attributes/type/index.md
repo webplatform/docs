@@ -8,6 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The type attribute is used to define what sort of type an input or ordered list element is.}}
 {{Markup_Attribute
+|Applies_to=<a href="http://docs.webplatform.org/wiki/html/elements/ol">html/elements/ol</a> <a href="http://docs.webplatform.org/wiki/html/elements/input">html/elements/input</a>
 |Property_applies_to=dom/HTMLElement
 |Content=In general the type attribute is used for &lt;input&gt; and for &lt;ol&gt; elements.<br />
 As with HTML5 the attribute is no longer deprecated for &lt;ol&gt; elements.
