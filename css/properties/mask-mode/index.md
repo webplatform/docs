@@ -1,23 +1,23 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Copyright Issue, Missing Relevant Sections, Needs Review
-|Content=Incomplete, Grammar/Spelling, Cleanup, Compatibility Incomplete, Examples Needed
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ‘mask-source-type’ property indicates whether the <mask-reference> is treated as a luminescence mask or a alpha mask.}}
+{{Summary_Section|The ‘mask-source-type’ property indicates whether the <mask-reference> is treated as a luminescence mask or as an alpha mask.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements. 
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
-|Computed value=as specified 
+|Computed value=as specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=<source-type>
 |Description="source type" has following values:
-"alpha"|"luminance"| "auto"
+"alpha"
 }}
 }}
 {{Examples_Section
