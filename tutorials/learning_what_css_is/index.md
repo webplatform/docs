@@ -80,7 +80,7 @@ What you see in your browser might not look exactly the same as this, because of
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=CSS
