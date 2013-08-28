@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Undescriptive Title, Needs Topics
+|High-level issues=Undescriptive Title
 |Content=Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This part of the canvas tutorial is going through 2D coordinate transformations. It gives examples for the three basic transformation methods [[tutorials/canvas/Canvas_tutorial/Transformations#Translating|translate]], [[tutorials/canvas/Canvas_tutorial/Transformations#Rotating|rotate]] and [[tutorials/canvas/Canvas_tutorial/Transformations#Scaling|scale]], which can be used stacked or all-in-one per [[tutorials/canvas/Canvas_tutorial/Transformations#Transforms|matrix multiplication]].}}
@@ -291,7 +291,7 @@ This method must reset the current transform to the identity matrix, and then in
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|API, Canvas, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
