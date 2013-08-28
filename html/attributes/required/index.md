@@ -11,7 +11,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A required input field
+|Code=Username: <input type="text" name="username" required>
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
