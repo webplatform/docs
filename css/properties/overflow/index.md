@@ -59,6 +59,11 @@ p {
 {{Notes_Section
 |Notes=The default value for the <code>html</code> element is <code>auto</code>.
 Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
+
+Firefox has several vendor specific extensions:
+- <code>-moz-scrollbars-none</code> – obsolete, use <code>overflow: hidden</code> instead.
+- <code>-moz-scrollbars-horizontal</code> and <code>-moz-scrollbars-vertical</code> – deprecated, use of <code>overflow-x</code> and <code>overflow-y</code> is preferred.
+- <code>-moz-hidden-unscrollable</code> non-standard, is intended mainly for internal use and by themes. Disables scrolling of XML root elements and <html>, <body> by arrow keys and mouse wheel.
 |Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
 {{Related_Specifications_Section
