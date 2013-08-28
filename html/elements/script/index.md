@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Unreviewed Import
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -70,7 +69,7 @@ The '''script''' object has these properties.
 }}
 }}
 {{Notes_Section
-|Notes=Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded.When the [[html/attributes/Type|'''Type''']] attribute is unset on the '''script''' object, then <code>text/javascript</code> is used. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document.
+|Notes=Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded.When the [[html/attributes/Type|'''Type''']] attribute is unset on the '''script''' object, then <code>text/javascript</code> is used. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using <code lang="HTML">async="async"</code> didn't work in some older browser, instead <code lang="HTML">async="true"</code> was used.
 }}
 {{Related_Specifications_Section
 |Specifications=
