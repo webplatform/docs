@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Undescriptive Title, Needs Topics
 |Content=Needs Summary
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section}}
