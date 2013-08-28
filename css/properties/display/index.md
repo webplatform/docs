@@ -143,15 +143,15 @@ display:inherit; //Sets the display value to inherit its parent container's disp
 |Description=Stack generously sized links in mobile interface to extend the touch zone to the full width of the screen:
 |Code=@media (max-width:400px) {
     a[href] {
-        display             : block;
-        padding             : 12px;
-        border-radius       : 12px;
-        margin              : 6px;
-        text-decoration     : none;
-        color               : #000;
-        background-color    : #fff;
-        background-image    : url(/img/nav_icon.png);
-        background-position : 90% center;
+        display: block;
+        padding: 12px;
+        border-radius: 12px;
+        margin: 6px;
+        text-decoration: none;
+        color: #000;
+        background-color: #fff;
+        background-image: url(/img/nav_icon.png);
+        background-position: 90% center;
     }
 }
 }}
