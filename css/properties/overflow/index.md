@@ -68,13 +68,19 @@ Firefox has several vendor specific extensions:
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=http://www.w3.org/TR/css3-box/#overflow1
-|URL=CSS basic box model
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/#overflow1
 |Status=Working Draft
 |Relevant_changes=Add no-display and no-content
 }}{{Related Specification
-|Name=http://www.w3.org/TR/2002/WD-css3-box-20021024/
-|URL=CSS3 module: The box model
+|Name=CSS3 module: The box model
+|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|Status=Working Draft
+|Relevant_changes=No changes
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/visufx.html#overflow
+|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -111,8 +117,7 @@ Firefox has several vendor specific extensions:
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
