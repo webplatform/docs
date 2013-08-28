@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Unreviewed Import
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
