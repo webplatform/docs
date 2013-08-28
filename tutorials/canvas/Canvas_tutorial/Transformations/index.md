@@ -1,4 +1,4 @@
-{{Page_Title|How to use transformations in canvas}}
+{{Page_Title|Using transformations in canvas}}
 {{Flags
 |Content=Compatibility Incomplete
 |Checked_Out=No
