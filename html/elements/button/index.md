@@ -112,8 +112,6 @@ The ending tag is mandatory. The button should have a descriptive text inside it
 
 Please note that styling a submit button using the &lt;button&gt; element is easier than styling an [[html/elements/input|'''input''']] element with type <code>submit</code>.
 |Notes=Since the default for the <code>type</code> attribute is <code>submit</code>, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard <code>type</code> values.
-
-Internet Explorer historically has had problems with the button element, especially when used in conjunction with type="submit".  This is fixed with newer versions.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/html401/ HTML 4.01 Specification], Section 17.5
 *[http://http://www.w3.org/html/wg/drafts/html/CR HTML5 Candidate Specification], Section 4.10.8
