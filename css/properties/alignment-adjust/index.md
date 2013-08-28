@@ -18,7 +18,6 @@
 |Values={{CSS Property Value
 |Data Type=baseline
 |Description=The alignment point is at the intersection of the start-edge of the element and the dominant-baseline of the element.
-
 }}{{CSS Property Value
 |Data Type=before-edge
 |Description=The alignment point is at the intersection of the start-edge of the element and the before-edge of the extended inline box of the element. This may include or not the line-height of the element, depending on the line-stacking-strategy.
