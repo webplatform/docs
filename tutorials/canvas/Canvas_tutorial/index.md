@@ -1,6 +1,6 @@
 {{Page_Title|Introduction to Canvas}}
 {{Flags
-|High-level issues=Needs Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|'''<code><canvas></code>''' is an [[HTML]] element which can be used to draw graphics using scripting (usually [[javascript|JavaScript]]). It can, for instance, be used to draw graphs, make photo compositions or do simple (and not so simple) animations.}}
