@@ -241,7 +241,7 @@ The '''script''' object has these properties.
 !Description
 {{!}}-
 {{!}}[[html/attributes/src (script){{!}}'''src''']]
-{{!}}Retrieves the URL to an external file that contains the source code or data.
+{{!}}Retrieves the URL to an external file that contains the source code or data(This is not necessary).
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
 {{!}}Sets or retrieves the MIME type for the associated scripting engine.
