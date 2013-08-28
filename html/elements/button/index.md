@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''button''' element (&lt;button&gt;) defines a clickable button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
+{{Summary_Section|The '''button''' element (<code>&lt;button&gt;</code>) defines a clickable button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
@@ -27,13 +27,9 @@ The default value of the [[html/attributes/type (button element)|'''type''']] at
 When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.
 Windows Internet Explorer 8 and later. The default value of the [[html/attributes/type (button element)|'''type''']] attribute depends on the current document compatibility mode.  In IE8 Standards mode, the default value is <code>submit</code>.  In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is <code>button</code>.
 Internet Explorer 8 and later.  When the '''BUTTON''' element is submitted in a form, the value depends on the current document compatibility mode.  In IE8 mode, the [[html/attributes/value (button element)|'''value''']] attribute is submitted.  In other document modes and earlier versions of Internet Explorer, the [[dom/properties/innerText|'''innerText''']] value is submitted.
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_htmlref\ie]:%20button element {{!}} button object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.8
+*[http://www.w3.org/TR/html401/], Section 4.10.8
 
 
 ===HTML information===
@@ -830,7 +826,6 @@ This property is not supported for Metro style apps using JavaScript.
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
@@ -873,7 +868,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{See_Also_Section
 |Topic_clusters=Document Structure, HTML, Mobile
 }}
-{{Topics|HTML}}
+{{Topics|HTML, UI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
