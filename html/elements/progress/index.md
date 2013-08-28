@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.}}
+{{Summary_Section|The HTML <code>&lt;progress&gt;</code> element represents the completion progress of a task.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLProgressElement
 |Content=<table class{{=}}"wikitable">
@@ -24,6 +24,7 @@
 </tr>
 </table>
 
+<p>The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.</p>
 
 ===Attributes===
 This element supports the HTML5 [[html/global_attributes|global attributes]].
@@ -67,9 +68,15 @@ progress::-webkit-progress-value {
   background-color: lightgreen;
 }
 |LiveURL=http://code.webplatform.org/gist/6365564
+}}{{Single Example
+|Language=HTML
+|Description=Progress element without value
+|Code=<progress></progress>
+|LiveURL=http://code.webplatform.org/gist/6365909
 }}
 }}
 {{Notes_Section
+|Usage=When the [[#attribute-value|value attribute]] is omitted, the <code>&lt;progress&gt;</code> element becomes indeterminate, that is, it shows activity but not how much progress has actually been made.
 |Notes====Remarks===
 When the '''value''' attribute is omitted, the '''progress''' element becomes indeterminate, that is, it shows activity but not how much progress has actually been made. If the '''value''' attribute is used without a maximum value, the range is from 0 to 1. To change the appearance from a ring to a bar, use the [[css/properties/animation-name|'''animation-name''']] property  to style   the '''progress''' element's '''ms-fill''' pseudo-element. The progress element can be styled using CSS.
 |Import_Notes====Syntax===
