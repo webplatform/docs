@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Undescriptive Title, Needs Topics
-|Content=Compatibility Incomplete, Needs Summary
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This part of the tutorial explains how to draw lines and shapes. The article covers more complex paths, too.}}
 {{Tutorial
 |Next_page=tutorials/canvas/Canvas_tutorial/Using_images
 |Prev_page=tutorials/canvas/Canvas_tutorial/Basic_usage
