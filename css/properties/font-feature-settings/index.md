@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>font-feature-settings</code> property gets or sets one or more values that specify glyph substitution and positioning in fonts that include OpenType layout features.}}
+{{Summary_Section|The <code>font-feature-settings</code> property gets or sets one or more values that specify glyph substitution (special font characters such as ligatures and figures) and positioning in fonts that include OpenType layout features.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -148,6 +148,8 @@ Whenever possible, Web authors should use the <code>font-variant</code> property
 |External_links=* Mozilla: [http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/ Firefox 4: OpenType font feature support]
 * IEBlog: [https://blogs.msdn.com/b/ie/archive/2012/01/09/css-corner-using-the-whole-font.aspx?Redirected=true CSS Corner: Using the Whole Font]
 * FontDeck blog: [http://blog.fontdeck.com/post/15777165734/opentype-1 Using OpenType font features with CSS 3]
+* Mozilla font-feature-settings: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings]
+* More info on font special characters (glyphs substitutions): [http://www.typography.com/fonts/hoefler-text/features/hoefler-text-special-characters]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 }}
