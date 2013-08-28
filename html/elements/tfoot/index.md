@@ -2,12 +2,13 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The <code>tfoot</code> tag is used to group footer content in an HTML table.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLTableSectionElement
 }}
 {{Examples_Section
 |Not_required=No
