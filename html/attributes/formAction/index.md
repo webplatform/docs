@@ -14,7 +14,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<form action="login.php">
+  First name: <input type="text" name="name"><br>
+  Last name: <input type="text" name="surname"><br>
+  <input type="submit" value="Login"><br>
+  <input type="submit" formaction="admin_login.php"
+  value="Login as admin">
+</form>
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
