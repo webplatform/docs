@@ -37,7 +37,10 @@
 |Description=The CSS for the example above: you can see that we are in effect defining a completely separate <code>@font-face</code> that only includes a single character in it, meaning that we don't need to download the entire font to get what we want.
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=* As the examples above show, you can use <code>unicode-range</code> to create a custom <code>@font-face</code> that contains only the characters you need to be downloaded, saving on bandwidth.
+* You should always
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
@@ -54,7 +57,10 @@
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font
-|Manual_links=[http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
+|Manual_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
+* [http://www.rishida.net/tools/conversion/ Unicode code converter]
+* [http://rishida.net/blog/?p=760 Using unicode-range in @font-face in CSS]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
