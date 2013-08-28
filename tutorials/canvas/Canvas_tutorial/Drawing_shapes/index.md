@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Undescriptive Title, Needs Topics
+|High-level issues=Needs Topics
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
