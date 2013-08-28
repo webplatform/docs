@@ -55,11 +55,11 @@
 }
 
 .two {
-  background-image: -webkit-linear-gradient(top,#aaa,#eee);
-  background-image: -moz-linear-gradient(top,#aaa,#eee);
-  background-image: -ms-linear-gradient(top,#aaa,#eee);
-  background-image: -o-linear-gradient(top,#aaa,#eee);
-  background-image: linear-gradient(to bottom,#aaa,#eee);
+  background-image: -webkit-linear-gradient(top, #aaa, #eee);
+  background-image: -moz-linear-gradient(top, #aaa, #eee);
+  background-image: -ms-linear-gradient(top, #aaa, #eee);
+  background-image: -o-linear-gradient(top, #aaa, #eee);
+  background-image: linear-gradient(to bottom, #aaa, #eee);
   /* Here we are applying a linear gradient to our second block level container. */
   /* We have included a line with each different vendor prefix type, so that all supporting */
   /* browsers will have something they can apply. This includes a prefixless version of the */
@@ -69,11 +69,11 @@
 }
 
 .three {
-  background-image: url(images/icon.png), -webkit-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -moz-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -ms-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), -o-linear-gradient(top,#aaa,#eee);
-  background-image: url(images/icon.png), linear-gradient(to bottom,#aaa,#eee);
+  background-image: url(images/icon.png), -webkit-linear-gradient(top, #aaa, #eee);
+  background-image: url(images/icon.png), -moz-linear-gradient(top, #aaa, #eee);
+  background-image: url(images/icon.png), -ms-linear-gradient(top, #aaa, #eee);
+  background-image: url(images/icon.png), -o-linear-gradient(top, #aaa, #eee);
+  background-image: url(images/icon.png), linear-gradient(to bottom, #aaa, #eee);
   /* In this case we are applying both the background image and the gradient to our third block level container. */
 }
 |LiveURL=http://chrisdavidmills.github.com/background-image/background-image.html
