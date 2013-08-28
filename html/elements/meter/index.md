@@ -77,7 +77,13 @@
 |Usage=The meter element is intended to have descriptive text inside of it, similar to the alt tag of the [http://docs.webplatform.org/wiki/html/elements/img image element].  The ending tag is mandatory.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-meter-element
+}}{{Related Specification
+|Name=WhatWG HTML Living Standard
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
