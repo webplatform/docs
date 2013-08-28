@@ -39,7 +39,7 @@
 }}
 {{Notes_Section
 |Usage=* As the examples above show, you can use <code>unicode-range</code> to create a custom <code>@font-face</code> that contains only the characters you need to be downloaded, saving on bandwidth.
-* You should always
+* You should always include a fallback font that is acceptable in case your <code>unicode-range @font-face</code> is not supported.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
