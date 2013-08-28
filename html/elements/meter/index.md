@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLMeterElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -25,11 +25,11 @@
 </table>
 
 
-<p>The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [http://docs.webplatform.org/wiki/html/elements/progress progress element].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.</p>
-<br>
-<b>Attributes:</b>
-<br>
-<small>This element supports the HTML5 [http://docs.webplatform.org/wiki/html/global_attributes global attributes] and the [http://docs.webplatform.org/wiki/html/event_attributes event attributes].</small>
+<p>The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [[html/elements/progress|progress element]].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.</p>
+
+===Attributes===
+
+This element supports the HTML5 [[html/global_attributes|global attributes]] and the [[html/event_attributes|event attributes]].
 <ul>
 <li id="attribute-value"><b>value</b>
 <ul>
