@@ -14,17 +14,17 @@
 <p>Besides the [[html/global_attributes|universal attributes]] the following attributes are supported:</p>
 
 <dl>
-    <dt>cite</dt>
+    <dt>[[html/attributes/cite|cite]</dt>
     <dd>
         The <code>&lt;cite&gt;</code> attribute may be used to specify the address of a document that explains the change. 
         When that document is long, for instance the minutes of a meeting, authors are encouraged to include a fragment 
         identifier pointing to the specific part of that document that discusses the change.
-        If present, it must be a [http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-url-potentially-surrounded-by-spaces valid URL] potentially surrounded by spaces that explains the change.
+        If present, it must be a [[html/data_types/url]] potentially surrounded by spaces that explains the change.
     </dd>
-    <dt>datetime</dt>
+    <dt>[[html/attributes/datetime|datetime]]</dt>
     <dd>
         The <code>&lt;datetime&gt;</code> attribute may be used to specify the time and date of the change.
-        If present, it must be a valid [http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time date string with optional time].
+        If present, it must be a valid [[html/data_types/datetime]].
     </dd>
 </dl>
 }}
