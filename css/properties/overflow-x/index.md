@@ -1,16 +1,16 @@
-{{Page_Title}}
+{{Page_Title|overflow-x}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The overflow-x property is a specific case of the generic overflow property. It controls how extra text exceeding the x axys of the bounding box of an element is rendered.}}
+{{Summary_Section|The <code>overflow-x</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra text exceeding the x axys of the bounding box of an element is rendered.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=visible
+|Applies to=non-replaced block-level elements and non-replaced ‘inline-block’ elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified, except ‘visible’
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=visible
@@ -24,6 +24,14 @@
 }}{{CSS Property Value
 |Data Type=auto
 |Description=Content is clipped and scrolling is added only when necessary.
+}}{{CSS Property Value
+|Data Type=no-display
+|Description=When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
+
+}}{{CSS Property Value
+|Data Type=no-content
+|Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
+
 }}
 }}
 {{Examples_Section
@@ -31,16 +39,30 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-overflow-x''' attribute is an extension to CSS, and can be used as a synonym for '''overflow-x''' in IE8 Standards mode.
-With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property applies to the '''html''' object.
-|Import_Notes====Syntax===
-<code>'''-ms-overflow-x: '''visible '''{{!}}''' scroll '''{{!}}''' hidden '''{{!}}''' auto</code>
-===Standards information===
-There are no standards that apply here.
+|Usage=The <code>overflow-y</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
+
+|Notes=Setting the overflow-y property to visible causes the content to clip to the size of the window or frame that contains the object.
+
+Firefox has a vendor specific extension:
+
+- <code>-moz-scrollbars-horizontal</code> – deprecated, use of overflow-x preferred.
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://dev.w3.org/csswg/css-box/#overflow-x
+|Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/#overflow1
+|Status=Working Draft
+|Relevant_changes=Add no-display and no-content
+}}{{Related Specification
+|Name=CSS3 module: The box model
+|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,24 +94,12 @@ There are no standards that apply here.
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/overflow|overflow]]</code>
-*<code>[[css/properties/overflow-y|-ms-overflow-y]]</code>
-*<code>[[css/properties/position|position]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
