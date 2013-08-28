@@ -77,8 +77,8 @@ When using CSS columns, grids or regions it is useful to decide how a box looks 
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout
-|External_links=[[https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-background-inline-policy|Documentation on -moz-background-inline-policy]]
-[[http://bricss.net/post/24672339016/box-decoration-break-finally-coming-to-more-browsers|The state of box-decoration-break by Lennart Schoors]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-background-inline-policy Documentation on -moz-background-inline-policy]
+* [http://bricss.net/post/24672339016/box-decoration-break-finally-coming-to-more-browsers The state of box-decoration-break by Lennart Schoors]
 }}
 {{Topics|CSS}}
 {{External_Attribution
