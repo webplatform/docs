@@ -8,7 +8,7 @@
 {{API_Name|dd}}
 {{Summary_Section|The <code>&lt;dd&gt;</code> element represents the description, definition, or value, part of a term-description group in a definition list ([[html/elements/dl|<code>&lt;dl&gt;</code>]]). 
 
-A <code>&lt;dt&gt;</code> (topic) is usually followed by one or more [[html/elements/dd|<code>&lt;dd&gt;</code>]] (definition) elements. several consecutive [[html/elements/dt|<code>&lt;dt&gt;</code>]] are attributed to the [[html/elements/dd|<code>&lt;dd&gt;</code>]] element that immediately follows the group.
+A [[html/elements/dt|<code>&lt;dt&gt;</code>]] (topic) is usually followed by one or more [[html/elements/dd|<code>&lt;dd&gt;</code>]] (definition) elements. Several consecutive [[html/elements/dt|<code>&lt;dt&gt;</code>]] are attributed to the [[html/elements/dd|<code>&lt;dd&gt;</code>]] element that immediately follows the group.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
