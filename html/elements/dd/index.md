@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name|dd}}
-{{Summary_Section|The '''dd''' element (&lt;dd&gt;) represents the description, definition, or value, part of a term-description group in a description list ([[html/elements/dl|&lt;dl&gt;]] element).}}
+{{Summary_Section|The <code>&lt;dd&gt;</code> element represents the description, definition, or value, part of a term-description group in a definition list ([[html/elements/dl|<code>&lt;dl&gt;</code>]]). 
+
+A <code>&lt;dt&gt;</code> (topic) is usually followed by one or more [[html/elements/dd|<code>&lt;dd&gt;</code>]] (definition) elements. several consecutive [[html/elements/dt|<code>&lt;dt&gt;</code>]] are attributed to the [[html/elements/dd|<code>&lt;dd&gt;</code>]] element that immediately follows the group.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
 |Content=<table class{{=}}"wikitable">
@@ -28,13 +31,34 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''dd''' element with the '''dl''' and '''dt''' elements to create a definition list.
+|Description=The example shows a simple definition list with two item/description pairs.
 |Code=&lt;dl&gt;
-  &lt;dt&gt;Cat&lt;/dt&gt;
-  &lt;dd&gt;A small domesticated mammal.&lt;/dd&gt;
-  &lt;dt&gt;Lizard&lt;/dt&gt;
-  &lt;dd&gt;A reptile generally found in dry areas.&lt;/dd&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dt&gt;Coca Cola&lt;/dt&gt;
+  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
 &lt;/dl&gt;
+|LiveURL=http://code.webplatform.org/gist/5821157
+}}{{Single Example
+|Language=HTML
+|Description=The example shows a definition list with a single item but multiple descriptions for that item.
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
+  &lt;dd&gt;A common social invitation&lt;/dd&gt;
+&lt;/dl&gt;
+|LiveURL=http://code.webplatform.org/gist/5821157
+}}{{Single Example
+|Language=HTML
+|Description=The example shows a definition list with a single description and multiple items fitting that description.
+|Code=&lt;dl&gt;
+  &lt;dt&gt;Coffee&lt;/dt&gt;
+  &lt;dt&gt;Tea&lt;/dt&gt;
+  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
+  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
+&lt;/dl&gt;
+|LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the <code>&lt;dd&gt;</code> element.
@@ -42,7 +66,9 @@
 margin-left: 40px;
 }}
 }}
-{{Notes_Section|}
+{{Notes_Section
+|Notes=While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this element, most browsers currently use [[dom/HTMLElement|HTMLElement]] instead.
+|}
  ====Properties====
 The '''dd''' object has these properties.
 {
