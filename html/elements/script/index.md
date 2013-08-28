@@ -35,7 +35,7 @@ The '''script''' object has these properties.
 {{!}}Yes
 {{!}}-
 {{!}}[[html/attributes/charset{{!}}'''charset''']]
-{{!}}Sets or retrieves the script's character encoding. You can't use the type attribute with this attribute.
+{{!}}Sets or retrieves the script's character encoding.
 {{!}}No
 {{!}}-  
 {{!}}[[html/attributes/language{{!}}'''language''']]
