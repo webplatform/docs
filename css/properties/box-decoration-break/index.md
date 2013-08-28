@@ -1,6 +1,6 @@
 {{Page_Title|box-decoration-break}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
