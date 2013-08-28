@@ -40,7 +40,6 @@
 {{Notes_Section
 |Notes=The default value for the <code>html</code> element is <code>auto</code>.
 Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
-
 |Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
 {{Related_Specifications_Section
@@ -76,16 +75,13 @@ Setting the <code>overflow</code> property to <code>visible</code> causes the co
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/overflow-x|-ms-overflow-x]]</code>
-*<code>[[css/properties/overflow-y|-ms-overflow-y]]</code>
-*<code>[[css/properties/position|position]]</code>
-
+|Manual_sections=* [[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]
+* [[css/cssom/currentStyle|currentStyle]]
+* [[dom/defaultSelected|defaults]]
+* [[css/cssom/runtimeStyle|runtimeStyle]]
+* [[css/cssom/style|style]]
+* [[css/properties/overflow-x|-ms-overflow-x]]
+* [[css/properties/overflow-y|-ms-overflow-y]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
