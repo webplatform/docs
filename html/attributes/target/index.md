@@ -2,11 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Target is a link attribute, which defines where to open the link.}}
 {{Markup_Attribute
 |Applies_to=http://docs.webplatform.org/wiki/html/elements/a
 |Property_applies_to=dom/HTMLElement
