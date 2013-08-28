@@ -23,23 +23,23 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<!-- 
+|Code=&lt;!-- 
     The H1 element applies a
     level-1 heading syle to the
     contained text. 
--->
-<h1>Welcome to Web Platform Docs!</h1>
+--&gt;
+&lt;h1&gt;Welcome to Web Platform Docs!&lt;/h1&gt;
 
-<!-- 
+&lt;!-- 
     H2 is used for level-2 headings.
- -->
-<h2>Introduction</h2>
+ --&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
 
-<!-- etc. -->
-<h3>Prologue</h2>
-<h4>Level-4 Heading</h4>
-<h5>Level-5 Heading</h5>
-<h6>Level-6 heading, smallest heading avaliable</h6>
+&lt;!-- etc. --&gt;
+&lt;h3&gt;Prologue&lt;/h2&gt;
+&lt;h4&gt;Level-4 Heading&lt;/h4&gt;
+&lt;h5&gt;Level-5 Heading&lt;/h5&gt;
+&lt;h6&gt;Level-6 heading, smallest heading avaliable&lt;/h6&gt;
 |LiveURL=http://code.webplatform.org/gist/6363937
 }}
 }}
