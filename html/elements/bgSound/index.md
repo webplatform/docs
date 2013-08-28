@@ -8,9 +8,13 @@
 {{Summary_Section|The '''bgsound''' element (<code>&lt;bgsound&gt;</code>) instructs the browser to load and play a sound file while the user is on that page. Don't use it. Use the [[html/elements/audio|audio]] element instead.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBGSoundElement
-|Content=If you want to use sound, please use the [[html/elements/audio|audio]] element:
-
-<syntaxhighlight language="html5">
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=HTML
+|Description=If you want to use sound, please use the [[html/elements/audio|audio]] element:
+|Code=<syntaxhighlight language="html5">
 <audio autoplay id="bgsound">
  <source src="http://media.w3.org/2010/07/bunny/04-Death_Becomes_Fur.mp4"
          type="audio/mp4">
@@ -24,9 +28,6 @@
 </button>
 </syntaxhighlight>
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
 }}
 {{Notes_Section
 |Notes====Remarks===
