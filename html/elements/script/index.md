@@ -246,13 +246,13 @@ The '''script''' object has these properties.
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
 {{!}}Sets or retrieves the MIME type for the associated scripting engine.
 {{!}}-
-{{!}}[[html/attributes/language (script element){{!}}'''language''']]
+{{!}}[[html/attributes/language{{!}}'''language''']]
 {{!}}Sets or retrieves the programming language for the associated scripting engine. Depracated, use type instead.
 {{!}}-  
 {{!}}[[html/attributes/defer{{!}}'''defer''']]
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed synchronously).
 {{!}}-
-{{!}}[[html/attributes/async (script element){{!}}'''aync''']]
+{{!}}[[html/attributes/async{{!}}'''aync''']]
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously(but executed asynchronously). Non-standard.
 {{!}}}
 }}
