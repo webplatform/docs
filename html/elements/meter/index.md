@@ -20,7 +20,7 @@
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
-<td>A <code>&meter;dl&gt;</code> element must have both a start tag and an end tag.</td>
+<td>A <code>&lt;meter&gt;</code> element must have both a start tag and an end tag.</td>
 </tr>
 </table>
 
