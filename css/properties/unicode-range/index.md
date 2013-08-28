@@ -63,7 +63,7 @@ p {
 {{Notes_Section
 |Usage=* As the examples above show, you can use <code>unicode-range</code> to create a custom <code>@font-face</code> that contains only the characters you need to be downloaded, saving on bandwidth.
 * You should always include a fallback font that is acceptable in case your <code>unicode-range @font-face</code> is not supported.
-* Support for <code>unicode-range</code> is currently limited; Chrome and Safari supports it well, Firefox doesn't.
+* Support for <code>unicode-range</code> is currently limited; Chrome and Safari supports it well, Internet Explorer supports is as of version 9, Opera supports it, Firefox ''doesn't'' support it.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
