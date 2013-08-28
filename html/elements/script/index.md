@@ -2,11 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The script element enables dynamic script and data blocks to be included in documents.}}
+{{Summary_Section|The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
 |Content====Standards information===
@@ -16,9 +16,9 @@
 
 ===Members===
 The '''script''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
+*[[#events|Events]]
+*[[#methods|Methods]]
+*[[#properties|Properties]]
 
 
 ====Events====
