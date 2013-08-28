@@ -258,51 +258,7 @@ The '''script''' object has these properties.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Description=The following code snippet provides a scenario where an error occurs.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
-&lt;offerings&gt;
- &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
-hr&lt;/time&gt;&lt;/class&gt;
-&lt;/offerings&gt;
-&lt;/SCRIPT&gt;
-&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
-function returnIslandRootName()
-{
-  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
-  console.log(islandRoot.nodeName);
-}
-&lt;/SCRIPT&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}{{Single Example
-|Description=Because the XML data island is the first instance of the '''script''' object that has the [[html/attributes/language|'''language''']] attribute defined, ''MSHTML'' attempts to locate the <code>returnIslandRootName</code> function in the XML and fails. To correct the sample, the order of the '''script''' objects can change, as shown by the following example:
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;SCRIPT LANGUAGE{{=}}"javascript"&gt;
-function returnIslandRootName()
-{
-  var islandRoot {{=}} document.all["mySrc1"].XMLDocument;
-  console.log(islandRoot.nodeName);
-}
-&lt;/SCRIPT&gt;
-&lt;SCRIPT LANGUAGE{{=}}"XML" id{{=}}"mySrc1"&gt;
-&lt;offerings&gt;
- &lt;class&gt;&lt;materials&gt;This should render.&lt;/materials&gt;&lt;time&gt;1.5
-hr&lt;/time&gt;&lt;/class&gt;
-&lt;/offerings&gt;
-&lt;/SCRIPT&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick{{=}}"returnIslandRootName()"&gt;Test the XML Data Island&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}
+|Examples=
 }}
 {{Notes_Section
 |Notes====Remarks===
