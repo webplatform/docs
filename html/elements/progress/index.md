@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Progress is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the meter element is available for such use cases.}}
+{{Summary_Section|Progress is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -56,7 +57,15 @@ The '''Progress''' object has these properties.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5.1
+|URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element
+|Status=Editor's Draft
+}}{{Related Specification
+|Name=WhatWG HTML Living Standard
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element
+|Status=Living Standard
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
