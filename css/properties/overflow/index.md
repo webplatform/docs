@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
 {{CSS Property
@@ -35,7 +35,29 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Add different behavior for paragraphs via the <code>overflow</code> property.
+|Code=.hidden {
+	overflow: hidden;
+}
+.scroll {
+	overflow: scroll;
+}
+.auto {
+	overflow: auto;
+}
+.visible {
+	overflow: visible;
+}
+
+/* Helper for paragraphes */
+p {
+	height: 60px;
+}
+
+|LiveURL=http://code.webplatform.org/gist/6365118
+}}
 }}
 {{Notes_Section
 |Notes=The default value for the <code>html</code> element is <code>auto</code>.
@@ -43,7 +65,15 @@ Setting the <code>overflow</code> property to <code>visible</code> causes the co
 |Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=http://www.w3.org/TR/css3-box/#overflow1
+|URL=CSS basic box model
+|Status=Working Draft
+|Relevant_changes=Add no-display and no-content
+}}{{Related Specification
+|Name=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|URL=CSS3 module: The box model
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -75,13 +105,8 @@ Setting the <code>overflow</code> property to <code>visible</code> causes the co
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections=* [[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]
-* [[css/cssom/currentStyle|currentStyle]]
-* [[dom/defaultSelected|defaults]]
-* [[css/cssom/runtimeStyle|runtimeStyle]]
-* [[css/cssom/style|style]]
-* [[css/properties/overflow-x|-ms-overflow-x]]
-* [[css/properties/overflow-y|-ms-overflow-y]]
+|Manual_sections=
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
