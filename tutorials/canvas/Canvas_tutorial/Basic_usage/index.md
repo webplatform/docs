@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Topics
+|Content=Compatibility Incomplete, Needs Summary
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
+|Next_page=tutorials/canvas/Canvas_tutorial/Drawing_shapes
+|Prev_page=tutorials/canvas/Canvas_tutorial
 |Content=== The <canvas> element ==
  
 Let's start this tutorial by looking at the <code>&lt;canvas&gt;</code> element itself.
@@ -132,6 +138,7 @@ To start off, here's a simple example that draws two intersecting rectangles, on
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
