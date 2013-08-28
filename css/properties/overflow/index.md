@@ -68,6 +68,14 @@ p {
 	width: 200px;
 }
 |LiveURL=http://code.webplatform.org/gist/6365403
+}}{{Single Example
+|Language=CSS
+|Description=Two values for <code>overflow</code>.
+|Code=.overflow-y {
+	overflow: hidden auto;
+	height: 30px;
+}
+|LiveURL=http://code.webplatform.org/gist/6366211
 }}
 }}
 {{Notes_Section
@@ -83,6 +91,9 @@ Firefox has several vendor specific extensions:
 * <code>-moz-scrollbars-none</code> – obsolete, use <code>overflow: hidden</code> instead.
 * <code>-moz-scrollbars-horizontal</code> and <code>-moz-scrollbars-vertical</code> – deprecated, use of <code>overflow-x</code> and <code>overflow-y</code> is preferred.
 * <code>-moz-hidden-unscrollable</code> non-standard, is intended mainly for internal use and by themes. Disables scrolling of XML root elements and <html>, <body> by arrow keys and mouse wheel.
+
+=== CSS basic box model ===
+Specifying two values is currently not supported by browsers.
 
 === Firefox (Gecko) Notes ===
 Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (<thead> , <tbody> , <tfoot>). This behavior is corrected in later versions.
