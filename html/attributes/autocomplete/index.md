@@ -15,8 +15,18 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''AUTOCOMPLETE''' attribute to disable the AutoComplete feature.
-|Code=&lt;INPUT TYPE{{=}}"password" AUTOCOMPLETE{{=}}"off"&gt;
+|Code=<input type"password" autocomplete="off">
+}}{{Single Example
+|Language=HTML
+|Description=The following example shows an HTML form with autocomplete on. One of the inputs ha autocomplete off.
+|Code=<form action="submit.php" autocomplete="on">
+  First name:<input type="text" name="name"><br />
+  Last name: <input type="text" name="surname"><br />
+  E-mail: <input type="email" name="email" autocomplete="off"><br />
+  <input type="submit">
+</form>
 }}
 }}
 {{Notes_Section
