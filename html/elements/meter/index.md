@@ -27,12 +27,6 @@
 </li>
 </ul>
 </li>
-<li id="attribute-form"><b>form</b>
-<ul>
-<li>This attribute associates the meter with a form.  It is not required, even if the meter is associated with a form.  For example, it could be used with a donation form, and attached to an [http://docs.webplatform.org/wiki/html/elements/input input] of type [http://docs.webplatform.org/wiki/html/elements/input/type/range range] or [http://docs.webplatform.org/wiki/html/elements/input/type/number number].
-</li>
-</ul>
-</li>
 <li id="attribute-min"><b>min</b>
 <ul>
 <li>The minimum value of the meter.  This must be less than the [[#attribute-max|max]] attribute value.  If this attribute is not present, it defaults to 0.
