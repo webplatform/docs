@@ -8,6 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The autocomplete attribute specifies whether a form or input field should have autocomplete on or off.}}
 {{Markup_Attribute
+|Applies_to=html/elements/form
 |Property_applies_to=dom/HTMLElement
 |Content=When autocomplete is on, the browser automatically complete values based on values that the user has entered before.
 }}
