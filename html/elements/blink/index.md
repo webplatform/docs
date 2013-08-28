@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
@@ -9,16 +10,20 @@
 {{Markup_Element}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<blink>Blinky text is always awesome</blink>
+}}
 }}
 {{Notes_Section
-|Usage=This element is deprecated. 
+|Usage=This element is deprecated.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
