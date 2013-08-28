@@ -119,16 +119,24 @@ p img:first-child {
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 module: line
+|URL=http://www.w3.org/TR/css3-linebox/#alignment-adjust-prop
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=CSS Layout
+|External_links=* [http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust alignment-adjust by Eric Meyer]
+
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
