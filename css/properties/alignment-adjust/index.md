@@ -1,7 +1,7 @@
 {{Page_Title|alignment-adjust}}
 {{Flags
 |High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|Content=Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -59,8 +59,11 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/d0ef8258ffbaeb05cc63cce62ba6be69870f837b/dabblet.html
+}}{{Single Example
 |Language=CSS
-|LiveURL=https://gist.github.com/6363838/2b75af2b68fe30f99c245e7b9e791b4bbad4b1a9
+|LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/bc2aeab9cb0b67364694087b0124e5933984aa71/dabblet.css
 }}
 }}
 {{Notes_Section}}
