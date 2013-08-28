@@ -60,9 +60,61 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Code=&lt;p&gt;
+	alignment-adjust CSS property:
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 1&quot; class=&quot;image1&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 2&quot; class=&quot;image2&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 3&quot; class=&quot;image3&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 4&quot; class=&quot;image4&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 5&quot; class=&quot;image5&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 6&quot; class=&quot;image6&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 7&quot; class=&quot;image7&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 8&quot; class=&quot;image8&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 9&quot; class=&quot;image9&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 10&quot; class=&quot;image10&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 11&quot; class=&quot;image11&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 12&quot; class=&quot;image12&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 13&quot; class=&quot;image13&quot;&gt;
+	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 14&quot; class=&quot;image14&quot;&gt;
+&lt;/p&gt;
 |LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/d0ef8258ffbaeb05cc63cce62ba6be69870f837b/dabblet.html
 }}{{Single Example
 |Language=CSS
+|Code=/**
+ * alignment-adjust
+ * CSS3 property
+ * http://docs.webplatform.org/w/index.php?title=css/properties/alignment-adjust
+ */
+
+p {
+	border: 1px dotted #ddd;
+	color: #222;
+	font: 1em/5em 'Open Sans', sans-serif;
+	padding: 0.5em;
+}
+
+p img {
+	vertical-align: middle;
+}
+
+p img:first-child {
+	margin-left: 1em;
+}
+
+.image1 { alignment-adjust: auto; }
+.image2 { alignment-adjust: baseline; }
+.image3 { alignment-adjust: before-edge; }
+.image4 { alignment-adjust: text-before-edge; }
+.image5 { alignment-adjust: central; }
+.image6 { alignment-adjust: middle; }
+.image7 { alignment-adjust: after-edge; }
+.image8 { alignment-adjust: text-after-edge; }
+.image9 { alignment-adjust: ideographic; }
+.image10 { alignment-adjust: alphabetic; }
+.image11 { alignment-adjust: hanging; }
+.image12 { alignment-adjust: mathematical; }
+.image13 { alignment-adjust: 75%; }
+.image14 { alignment-adjust: -20px; }
 |LiveURL=https://gist.github.com/WebPlatformDocs/6363838/raw/bc2aeab9cb0b67364694087b0124e5933984aa71/dabblet.css
 }}
 }}
