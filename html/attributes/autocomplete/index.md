@@ -17,7 +17,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''AUTOCOMPLETE''' attribute to disable the AutoComplete feature.
-|Code=<input type"password" autocomplete="off">
+|Code=<input type="password" autocomplete="off">
 }}{{Single Example
 |Language=HTML
 |Description=The following example shows an HTML form with autocomplete on. One of the inputs ha autocomplete off.
