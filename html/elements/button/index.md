@@ -179,7 +179,11 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8 and later
+|Note=The default value of the type attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is submit. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is button. When the BUTTON element is submitted in a form, the value depends on the current document compatibility mode. In IE8 mode, the value attribute is submitted. In other document modes and earlier versions of Internet Explorer, the innerText value is submitted. 
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Document Structure, HTML, Mobile
