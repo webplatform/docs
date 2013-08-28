@@ -9,7 +9,7 @@
 {{Summary_Section|The type attribute is used to define what sort of type an input or ordered list element is.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=In general the type attribute is used for &lt;input&gt; and for &lt;ol&gt; elements.
+|Content=In general the type attribute is used for &lt;input&gt; and for &lt;ol&gt; elements.<br />
 As with HTML5 the attribute is no longer deprecated for &lt;ol&gt; elements.
 
 === &lt;input&gt; ===
@@ -19,14 +19,14 @@ The default type for an &lt;input&gt; element is: text.
 The attribute is not required, but it is recommended to include the attribute to prevent misunderstandings.
 
 === &lt;ol&gt; ===
-For &lt;ol&gt; elements the type attribute is used to specify the kind of marker to use in the list.
+For &lt;ol&gt; elements the type attribute is used to specify the kind of marker to use in the list.<br />
 As default the list will be marked with decimal numbers (1, 2, 3, ...).
 
-Possible attribute values are the following:
-"1" for decimal numbers (1, 2, 3, ...)
-"a" for lowercase, alphabetically ordered list (a, b, c, ...)
-"A" for uppercase, alphabetically ordered list (A, B, C, ...)
-"i" for lowercase, roman numbered list (i, ii, iii, iv, ...)
+Possible attribute values are the following:<br />
+"1" for decimal numbers (1, 2, 3, ...)<br />
+"a" for lowercase, alphabetically ordered list (a, b, c, ...)<br />
+"A" for uppercase, alphabetically ordered list (A, B, C, ...)<br />
+"i" for lowercase, roman numbered list (i, ii, iii, iv, ...)<br />
 "I" for uppercase, roman numbered list (I, II, III, IV, ...)
 }}
 {{Examples_Section
