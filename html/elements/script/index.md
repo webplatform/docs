@@ -49,6 +49,10 @@ The '''script''' object has these properties.
 {{!}}[[html/attributes/async{{!}}'''aync''']]
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously and executed asynchronously.
 {{!}}No
+{{!}}-
+{{!}}[[html/attributes/crossorigin{{!}}'''crossorigin''']]
+{{!}}Sets or retrieves the whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
+{{!}}No
 {{!}}}
 }}
 {{Examples_Section
