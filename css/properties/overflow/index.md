@@ -1,8 +1,6 @@
 {{Page_Title|overflow}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -55,7 +53,6 @@
 p {
 	height: 60px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/6365118
 }}
 }}
@@ -105,8 +102,6 @@ Setting the <code>overflow</code> property to <code>visible</code> causes the co
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections=
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
