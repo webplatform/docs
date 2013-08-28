@@ -14,76 +14,47 @@
 
 The &lt;button&gt; element can also be used as submit button to send [[html/elements/form|'''form''']] data to the server. The usage is the same as with any other button.
 
-<b>Attributes (HTML 4):</b>
-<ul>
-<li><b>name</b>
-<ul>
-<li>The name of the button. This can be used to identify which button was used to submit a form.</li>
-</ul>
-</li>
-<li><b>type</b>
-<ul>
-<li>This specifies the type of the button. If omitted, the type is <code>submit</code>. The following types are possible:
-<ul>
-<li>submit: the button submits the form it is associated with. This is the default value.</li>
-<li>reset: the button resets the form it is associated with. All form fields will be cleared.</li>
-<li>button: the button has no default action</li> 
-</ul>
-</li>
-</ul>
-</li>
-<li><b>value</b>
-<ul>
-<li>The initial value of the button.</li>
-</ul>
-</li>
-<li><b>disabled</b>
-<ul>
-<li>This specifies whether the button is disabled or not (true, false). A disabled button won't be clickable.</li>
-</ul>
-</li>
-</ul>
+===Attributes (HTML 4)===
+<dl>
+  <dt>name</dt>
+  <dd>The name of the button. This can be used to identify which button was used to submit a form.</dd>
+  <dt>type</dt>
+  <dd>This specifies the type of the button. If omitted, the type is <code>submit</code>. The following types are possible:
+    <ul>
+      <li><code>submit</code>: the button submits the form it is associated with. This is the default value.</li>
+      <li><code>reset</code>: the button resets the form it is associated with. All form fields will be cleared.</li>
+      <li><code>button</code>: the button has no default action</li> 
+    </ul>
+  </dd>
+  <dt>value</dt>
+  <dd>The initial value of the button.</dd>
+  <dt>disabled</dt>
+  <dd>This specifies whether the button is disabled or not (true, false). A disabled button won't be clickable.</dd>
+</dl>
 
-<b>Additional attributes (HTML 5, candidate specification):</b>
-<ul>
-<li><b>autofocus</b>
-<ul>
-<li>When this attribute is set to "true" the button will automatically be focused after the page load. Only one form-associated element can have this attribute set to "true".</li>
-</ul>
-</li>
-<li><b>form</b>
-<ul>
-<li>Specifies which form the button is associated with. The value of the attribute must be the id attribute of the form. If this attribute is not specified, the button must be a descendant of the form itself to be able to submit form data. Use this, if you don't want to put the submit button within the form itself.</li>
-</ul>
-</li>
-<li><b>formaction</b>
-<ul>
-<li>The URI of a programm that pocesses the information from the form. When present, it will override the action attribute of the form.</li>
-</ul>
-</li>
-<li><b>formmethod</b>
-<ul>
-<li>The HTTP method to send the form data. This can either be "post" or "get". If specified, it will override the form's method attribute.</li>
-</ul>
-</li>
-<li><b>formnovalidate</b>
-<ul>
-<li>If the button is a submit button, this attribute specifies whether the form should be validated or not. It overrides the novalidate attribute of the form it belongs to.</li>
-</ul>
-</li>
-<li><b>formtarget</b>
-<ul>
-<li>This attribute is a keyword, indicating where to display the response that is received after submitting the form. This can be one of the following:
-<ul>
-<li>_self: load the reponse into the same context as the form itself. This is the default value.</li>
-<li>_blank: load the reponse into a new, unnamed context</li>
-<li>_parent: loads the response into the parent context. If there is no parent, it will behave the same as _self.</li>
-<li>_top: loads the response into the top-most context. This is the browsing context of an ancestor of the current context. If there is no parent, it will behave the same as _self.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+===Additional attributes (HTML 5, candidate specification)===
+
+<dl>
+  <dt>autofocus</dt>
+  <dd>When this attribute is set to "true" the button will automatically be focused after the page load. Only one form-associated element can have this attribute set to "true".</dd>
+  <dt>form</dt>
+  <dd>Specifies which form the button is associated with. The value of the attribute must be the id attribute of the form. If this attribute is not specified, the button must be a descendant of the form itself to be able to submit form data. Use this, if you don't want to put the submit button within the form itself.</dd>
+  <dt>formaction</dt>
+  <dd>The URI of a programm that pocesses the information from the form. When present, it will override the action attribute of the form.</dd>
+  <dt>formmethod</dt>
+  <dd>The HTTP method to send the form data. This can either be "post" or "get". If specified, it will override the form's method attribute.</dd>
+  <dt>formnovalidate</dt>
+  <dd>If the button is a submit button, this attribute specifies whether the form should be validated or not. It overrides the novalidate attribute of the form it belongs to.</dd>
+  <dt>formtarget</dt>
+  <dd>This attribute is a keyword, indicating where to display the response that is received after submitting the form. This can be one of the following:
+    <ul>
+      <li><code>_self</code>: load the reponse into the same context as the form itself. This is the default value.</li>
+      <li><code>_blank</code>: load the reponse into a new, unnamed context</li>
+      <li><code>_parent</code>: loads the response into the parent context. If there is no parent, it will behave the same as _self.</li>
+      <li><code>_top</code>: loads the response into the top-most context. This is the browsing context of an ancestor of the current context. If there is no parent, it will behave the same as _self.</li>
+    </ul>
+  </dd>
+</dl>
 
 All these attributes, except <code>name</code>, have default values and can be omitted.
 }}
@@ -182,7 +153,7 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8 and later
-|Note=The default value of the type attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is submit. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is button. When the BUTTON element is submitted in a form, the value depends on the current document compatibility mode. In IE8 mode, the value attribute is submitted. In other document modes and earlier versions of Internet Explorer, the innerText value is submitted. 
+|Note=The default value of the type attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is submit. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is button. When the BUTTON element is submitted in a form, the value depends on the current document compatibility mode. In IE8 mode, the value attribute is submitted. In other document modes and earlier versions of Internet Explorer, the innerText value is submitted.
 }}
 }}
 {{See_Also_Section
