@@ -151,7 +151,7 @@ progress::-webkit-progress-value {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[html/elements/meter|&lt;meter%gt;]]
+|Manual_links=* [[html/elements/meter|HTML5 meter element]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
