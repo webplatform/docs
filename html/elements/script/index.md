@@ -246,6 +246,9 @@ The '''script''' object has these properties.
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
 {{!}}Sets or retrieves the MIME type for the associated scripting engine.
 {{!}}-
+{{!}}[[html/attributes/charset{{!}}'''charset''']]
+{{!}}Sets or retrieves the script's character encoding(This isn't necessary if you are using an inline script).
+{{!}}-  
 {{!}}[[html/attributes/language{{!}}'''language''']]
 {{!}}Sets or retrieves the programming language for the associated scripting engine. Depracated, use type instead.
 {{!}}-  
