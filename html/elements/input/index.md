@@ -51,20 +51,21 @@ The input element behavior varies depending on the value of its [[html/elements/
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''input''' element to create different types of input controls.
-|Code=&lt;form action{{=}}"http://example.org/survey" method{{=}}post&gt;
-&lt;p&gt;Name&lt;/p&gt;
-&lt;br&gt;&lt;input name{{=}}"control1" type{{=}}text value{{=}}"Your Name"&gt;
-&lt;P&gt;Password&lt;/P&gt;
-&lt;br&gt;&lt;input type{{=}}"password" name{{=}}"control2"&gt;
-&lt;p&gt;Color&lt;/p&gt;
-&lt;br&gt;&lt;input type{{=}}"radio" name{{=}}"control3" value{{=}}"0" checked&gt;Red
-&lt;input type{{=}}"radio" name{{=}}"control3" value{{=}}"1"&gt;Green
-&lt;input type{{=}}"radio" name{{=}}"control3" value{{=}}"2"&gt;Blue
-&lt;p&gt;Comments&lt;/p&gt;
-&lt;br&gt;&lt;input type{{=}}"TEXT" name{{=}}"control4" size{{=}}"20,5" maxlength{{=}}"250"&gt;
-&lt;p&gt;&lt;input name{{=}}"control5" type{{=}}checkbox checked&gt;Send receipt&lt;/p&gt;
-&lt;p&gt;&lt;input type{{=}}"submit" value{{=}}"OK"&gt;&lt;input type{{=}}"reset" value{{=}}"reset"&gt;&lt;/p&gt;
-&lt;/form&gt;
+|Code=<form action="http://example.org/survey" method=post>
+<p>Name</p>
+<br><input name="control1" type="text" value="Your Name">
+<P>Password</P>
+<br><input type="password" name="control2">
+<p>Color</p>
+<br><input type="radio" name="control3" value="0" checked>Red
+<input type="radio" name="control3" value="1">Green
+<input type="radio" name="control3" value="2">Blue
+<p>Comments</p>
+<br><input type="TEXT" name="control4" size="20,5" maxlength="250">
+<p><input name="control5" type=checkbox checked>Send receipt</p>
+<p><input type="submit" value="OK"><input type="reset" value="reset"></p>
+</form>
+|LiveURL=http://code.webplatform.org/gist/6364130
 }}
 }}
 {{Notes_Section
