@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Topics
+|Content=Compatibility Incomplete, Needs Summary
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
+|Next_page=tutorials/canvas/Canvas_tutorial/Optimizing_canvas
+|Prev_page=tutorials/canvas/Canvas_tutorial/Transformations
 |Content=In all of our previous examples, shapes were always drawn one on top of the other. This is more than adequate for most situations. This, for instance, limits in what order composite shapes are built up. We can however change this behaviour by setting the <code>globalCompositeOperation</code> property.
 
 ==<code>globalCompositeOperation</code>==
@@ -156,6 +162,7 @@ Everything that's drawn after creating the clipping path will only appear inside
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
