@@ -59,11 +59,11 @@ The '''script''' object has these properties.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Loading an external script
-|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;application/Javascript&quot;&gt;&lt;/script&gt;
+|Description=Loading an external script.
+|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;application/Javascript&quot;&gt;&lt;/script&gt;               
 }}{{Single Example
 |Language=HTML
-|Description=Placing an Inline script
+|Description=Writing an inline script.
 |Code=&lt;script type=&quot;application/Javascript&quot;&gt;
   //Do stuff...
 &lt;/script&gt;
