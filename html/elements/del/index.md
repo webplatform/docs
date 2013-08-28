@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -55,7 +55,15 @@
 For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cite''']] attribute depends on the current document compatibility mode.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-del
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/html/wg/drafts/html/master/edits.html#the-del-element
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -65,8 +73,9 @@ For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cit
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>ins</code>
+|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/del Mozilla Developer Network]
+* [http://msdn.microsoft.com/en-us/library/ie/ms535236%28v=vs.85%29.aspx Microsoft Developer Network]
+* http://www.w3.org/TR/html-markup/del.html#del
 }}
 {{Topics|HTML}}
 {{External_Attribution
