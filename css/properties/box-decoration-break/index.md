@@ -50,9 +50,9 @@ For boxes broken across columns, the columns are treated as one continuous eleme
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Background, Border
+|Topic_clusters=CSS Layout
 }}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
