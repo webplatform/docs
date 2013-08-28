@@ -70,6 +70,33 @@
 |Description=An example of the meter element with a title attribute
 |Code=<meter min="0" max="120" value="75" title="seconds"></meter>
 |LiveURL=http://code.webplatform.org/gist/6364106
+}}{{Single Example
+|Language=CSS
+|Description=Styling options for the meter bar
+|Code=meter {
+  -webkit-appearance: none;
+}
+
+meter::-webkit-meter-bar {
+  border: 2px solid black;
+}
+
+meter::-webkit-meter-bar {
+  background: lightblue;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: green;
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: orange;
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: red;
+}
+|LiveURL=http://jsbin.com/ometoTE/4/edit
 }}
 }}
 {{Notes_Section
