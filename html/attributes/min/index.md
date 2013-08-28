@@ -2,12 +2,15 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Reflects the min HTML attribute, containing the minimum (numeric or date-time) value for this item, which must not be greater than its maximum (max attribute) value.}}
+{{Summary_Section|The min attribute specifies the minimum  value for an <input> element.}}
 {{Markup_Attribute
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
+|Content=The min attribute works with the following input types: number, range, date, datetime, datetime-local, month, time and week.
 }}
 {{Examples_Section
 |Not_required=No
