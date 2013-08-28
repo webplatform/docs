@@ -81,9 +81,10 @@ p {
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font
-|Manual_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
+|External_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
 * [http://www.rishida.net/tools/conversion/ Unicode code converter]
 * [http://rishida.net/blog/?p=760 Using unicode-range in @font-face in CSS]
+* [http://en.wikipedia.org/wiki/List_of_Unicode_characters List of Unicode Characters]
 }}
 {{Topics|CSS}}
 {{External_Attribution
