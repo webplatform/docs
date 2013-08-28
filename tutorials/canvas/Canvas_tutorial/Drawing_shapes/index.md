@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Undescriptive Title
-|Content=Needs Summary
+|High-level issues=Undescriptive Title, Needs Topics
+|Content=Compatibility Incomplete, Needs Summary
 |Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
+|Next_page=tutorials/canvas/Canvas_tutorial/Using_images
+|Prev_page=tutorials/canvas/Canvas_tutorial/Basic_usage
 |Content=== The grid ==
  
 Before we can start drawing, we need to talk about the canvas grid or ''coordinate space''. The HTML template on the previous page had a canvas element 150 pixels wide and 150 pixels high. I've drawn this image with the default grid overlayed. Normally 1 unit in the grid corresponds to 1 pixel on the canvas. The origin of this grid is positioned in the top left corner (coordinate (0,0)). All elements are placed relative to this origin. So the position of the top left corner of the blue square becomes x pixels from the left and y pixels from the top (coordinate (x,y)). Later in this tutorial we'll see how we can translate the origin to a different position, rotate the grid and even scale it. For now we'll stick to the default.
