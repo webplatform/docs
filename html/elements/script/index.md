@@ -31,7 +31,7 @@ The '''script''' object has these properties.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
-{{!}}Sets or retrieves the MIME type for the associated scripting engine.
+{{!}}Sets or retrieves the MIME type for the script, the default is <code>text/javascript</code>. You can't use the charset attribute with this attribute.
 {{!}}Yes
 {{!}}-
 {{!}}[[html/attributes/charset{{!}}'''charset''']]
