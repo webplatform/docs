@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
 |Content=The formenctype attribute overrides the enctype attribute of the <form> element with method="post".
 }}
