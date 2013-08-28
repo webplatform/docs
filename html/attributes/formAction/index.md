@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.}}
 {{Markup_Attribute
-|Applies_to=html/elements/input
+|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
 |Property_applies_to=dom/HTMLElement
 |Content=The formaction attribute overrides the action attribute of the <form> element.
 }}
