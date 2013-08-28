@@ -188,6 +188,7 @@ The title attribute may be used to specify a unit.
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
+|Manual_links=* [[html/elements/progress|Progress]]
 }}
 {{Topics|DOM, HTML}}
 {{External_Attribution
