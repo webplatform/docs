@@ -11,8 +11,8 @@
 |DOM_interface=dom/HTMLSelectElement
 |Content=See also:
 
-* [http://www.w3.org/International/questions/qa-navigation-select Using &lt;select> to Link to Localized Content]
-* [http://www.w3.org/International/questions/qa-select-sorting Sorting select options]
+* [http://www.w3.org/International/questions/qa-navigation-select Using &lt;select> to Link to Localized Content] considers best practices for using pull-down menus based on the select element to direct visitors to localized content.
+* [http://www.w3.org/International/questions/qa-select-sorting Sorting select options] answers the question "As part of a form, I have a list of terms in a drop-down box. Why are they not correctly sorted when I translate the items in the list?"
 }}
 {{Examples_Section
 |Not_required=No
