@@ -2,12 +2,17 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
+|Content=See also:
+
+* [http://www.w3.org/International/questions/qa-navigation-select Using &lt;select> to Link to Localized Content]
+* [http://www.w3.org/International/questions/qa-select-sorting Sorting select options]
 }}
 {{Examples_Section
 |Not_required=No
