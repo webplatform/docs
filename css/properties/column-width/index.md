@@ -37,13 +37,13 @@ see CSS Length Units Reference.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes as many columns that are 100px as there is space 
-in the browser.
+|Description=Makes as many columns that are 100px as there is space in the browser.
 |Code=/*
-Makes as many columns that are 100px as there is space 
-in the browser.
+Makes as many columns that are 100px as there is space in the browser.
 */
+
 #column {
+  /* Prefix free example below, use vendor prefixes where needed */
   column-width: 100px;
 }
 |LiveURL=http://code.webplatform.org/gist/5305475
