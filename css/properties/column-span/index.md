@@ -26,12 +26,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes 4 columns and creates a span that crosses thorugh columns
+|Description=Makes 4 columns and creates a span that crosses through columns
 |Code=/*
 Makes 4 columns and creates a span that crosses through columns
 */
 
 #column {
+  /* Prefix free example below, use vendor prefixes where needed */
   column-count: 4;
   column-gap: 2em;          
   padding: 5px;
