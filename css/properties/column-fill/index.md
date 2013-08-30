@@ -14,34 +14,28 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. 
-Columns are filled sequentially such that the columns may differ in length,
-
-depending on other column property values.
+|Description=Default. Columns are filled sequentially such that the columns may differ in length, depending on other column property values.
 }}{{CSS Property Value
 |Data Type=balance
-|Description=Columns are filled sequentially such that the column heights are as balanced as possible,
-
-depending on other column property values.
+|Description=Columns are filled sequentially such that the column heights are as balanced as possible, depending on other column property values.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes as many 15em columns but  restrict the heights of the columns to 400px
+|Description=Makes as many 15em columns but restrict the heights of the columns to 400px with column-fill: balance
 |Code=/*
-Makes as many 15em columns but  restrict the heights of the columns to 400px
+Makes as many 15em columns but restrict the heights of the columns to 400px with column-fill: balance
 */
-#column4 {
+
+#columns {  
+  /* Prefix free example below, use vendor prefixes where needed */
   column-width: 15em;
-  column-gap: 2em;          
-  column-rule: 4px solid green;
-  padding: 5px;
   column-fill: balance;
   height: 400px;
 }
-|LiveURL=http://code.webplatform.org/gist/5305740
+|LiveURL=http://code.webplatform.org/gist/6393571
 }}
 }}
 {{Notes_Section
