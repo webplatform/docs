@@ -11,6 +11,7 @@
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
+|Computed value=As specified
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=auto
