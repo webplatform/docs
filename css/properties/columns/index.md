@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property is a shorthand property for setting column-width or column-count. Omitted values are set to their initial value of <tt>auto</tt>.}}
+{{Summary_Section|This property is a shorthand property for setting [[css/properties/column-width|'''column-width''']] or [[css/properties/column-count|'''column-count''']]. Omitted values are set to their initial value of <tt>auto</tt>.}}
 {{CSS Property
 |Initial value=Auto
 |Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements
