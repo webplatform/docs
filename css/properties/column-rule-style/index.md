@@ -51,18 +51,21 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=Makes 3 columns with 4px dashed green column-rule.
-|Code=#columns {
-  -moz-column-rule: 3; /* Firefox */
-  -webkit-column-count: 3; /* Safari and Chrome */
-  column-count: 3;
-  -moz-column-rule: 4px green; /* Firefox */
-  -webkit-column-rule: 4px green; /* Safari and Chrome */
-  column-rule: 4px green;
-  -moz-column-rule-style: dashed; /* Firefox */
-  -webkit-column-rule-style: dashed; /* Safari and Chrome */
+|Code=/*
+Makes 3 columns with 4px dashed green column-rule
+*/
+
+#columns {
+  -moz-columns: 3; /* Firefox */
+  -webkit-columns: 3; /* Safari and Chrome */
+  columns: 3;
+  
+  /* Prefix free example below, use vendor prefixes where needed */
   column-rule-style: dashed;
+  column-rule-color: green;
+  column-rule-width: 5px;
 }
-|LiveURL=http://code.webplatform.org/gist/6311519
+|LiveURL=http://code.webplatform.org/gist/6288958
 }}
 }}
 {{Notes_Section}}
