@@ -37,15 +37,14 @@ see CSS Length Units Reference.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes as many columns that are 15em as there is space 
+|Description=Makes as many columns that are 100px as there is space 
 in the browser.
 |Code=/*
-Makes as many columns that are 15em as there is space 
+Makes as many columns that are 100px as there is space 
 in the browser.
 */
-#column2 {
-    border: 2px solid #000;
-    column-width: 15em;
+#column {
+  column-width: 100px;
 }
 |LiveURL=http://code.webplatform.org/gist/5305475
 }}
