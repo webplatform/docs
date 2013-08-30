@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -54,12 +54,10 @@
 }
 
 .break-all {
-  -ms-word-break: break-all; 
   word-break: break-all;
 }
 
 .keep-all {
-  -ms-word-break: keep-all;
   word-break: keep-all;
 }
 |LiveURL=http://code.webplatform.org/gist/6392109
@@ -84,6 +82,7 @@ The behaviors of the parameter values are detailed in
 |Import_Notes====Syntax===
 <code>'''word-break: '''normal '''{{!}}''' break-all '''{{!}}''' keep-all</code>
 ===Standards information===
+*[http://www.w3.org/TR/css3-text/#word-break CSS Text Module Level 3 - word-break property]
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.2
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223137 Unicode Standard Annex #14 -- Unicode Line Breaking Algorithm]
 }}
