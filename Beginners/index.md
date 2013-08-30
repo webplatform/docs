@@ -63,6 +63,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[tutorials/creating and modifying html|Creating and modifying HTML]]
 * [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
 * [[tutorials/events in javascript|Events in JavaScript]]
+* [[/concepts/Pointer_Events|Pointer Events for mouse, touch, and pen input]]
 
 ==Applied techniques==
 
