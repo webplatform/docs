@@ -40,18 +40,16 @@ Negative values are not valid.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes as many 15em columns but restrict the heights of the columns to 400px with a column-gap of 4em
+|Description=Makes as many 15em columns with a column-gap of 4em
 |Code=/*
-Makes as many 15em columns but restrict the heights of the columns to 400px with a column-gap of 4em
+Makes as many 15em columns with a column-gap of 4em
 */
 
 #columns {  
   /* Prefix free example below, use vendor prefixes where needed */
   column-width: 15em;
   column-gap: 4em;          
-  column-rule: 4px solid green;
-  column-fill: balance;
-  height: 400px;
+  column-rule: 1px solid green;
 }
 |LiveURL=http://code.webplatform.org/gist/5305647
 }}
