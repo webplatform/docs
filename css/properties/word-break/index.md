@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|word-break is often used when there is long generated content that is strung together without and spaces or hyphens to beak apart. A common case of this is when there is a long URL that does not have any hyphens. This case could potentially cause the breaking of the layout as it could extend past the parent element.}}
+{{Summary_Section|The word-break property is often used when there is long generated content that is strung together without and spaces or hyphens to beak apart. A common case of this is when there is a long URL that does not have any hyphens. This case could potentially cause the breaking of the layout as it could extend past the parent element.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -14,48 +14,55 @@
 |Media=visual
 |Computed value=specified value
 |Animatable=No
+|CSS object model property=wordBreak
 |CSS percentages=Not available
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default.
-Allows line breaking within words.
+|Description=Default property. Words break according to their usual rules.
 }}{{CSS Property Value
 |Data Type=break-all
-|Description=Behaves as
-'''normal'''
-for CJK text, yet allows the line to break arbitrarily
-for non-CJK text. This value is suited to CJK text
-that contains small amounts of non-CJK text.
+|Description=In addition to <tt>normal</tt> soft wrap opportunities, lines may break between any two letters (except where forbidden by the [[css/properties/line-break|'''line-break''']] property). Hyphenation is not applied. This option is used mostly in a context where the text is predominantly using CJK (Chinese/Japanese/Korean) characters with few non-CJK excerpts and it is desired that the text be better distributed on each line.
 }}{{CSS Property Value
 |Data Type=keep-all
-|Description=Behaves as
-'''normal'''
-for non-CJK text, but disallows word breaking for
-CJK text. This value is suited to
-non-CJK text that includes small amounts of CJK text.
+|Description=Implicit soft wrap opportunities between letters are suppressed, i.e. breaks are prohibited between pairs of letters (except where opportunities exist due to dictionary-based breaking). Otherwise this option is equivalent to <tt>normal</tt>. In this style, sequences of CJK characters do not break.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<div>
-  <a href="#">http://example.com/this_is_a_long_href/so_we_will_use_word_break/to_keep_inside_of_div</a>
-</div>
-|LiveURL=http://cdpn.io/covtd
+|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>word-break</code> properties applied to them.
+|Code=&lt;p&gt;This example using break-all will stay within the box border.&lt;/p&gt;
+&lt;div class="break-all"&gt;
+  http://www.exampleurl.com/this-is-a-long-url/it-will-not-break-at-hypens
+&lt;/div&gt;
+
+&lt;p&gt;This example using keep-all will break where there are hyphens.&lt;/p&gt;
+&lt;div class="keep-all"&gt;
+  http://www.exampleurl.com/this-is-a-long-url/it-will-break-at-hypens
+&lt;/div&gt;
+|LiveURL=http://code.webplatform.org/gist/6392109
 }}{{Single Example
 |Language=CSS
 |Code=div {
-  background: #ccc;
+  background: yellow;
   border: 1px solid #444;
-  margin: 2em;
+  margin: 1em;
   padding: .5em;
-  width: 300px;
-  
-  -ms-word-break: break-all;
+  width: 200px;
+  font-family: sans-serif;
+}
+
+.break-all {
+  -ms-word-break: break-all; 
   word-break: break-all;
 }
-|LiveURL=http://cdpn.io/covtd
+
+.keep-all {
+  -ms-word-break: keep-all;
+  word-break: keep-all;
+}
+|LiveURL=http://code.webplatform.org/gist/6392109
 }}
 }}
 {{Notes_Section
@@ -75,7 +82,7 @@ The behaviors of the parameter values are detailed in
 [http://go.microsoft.com/fwlink/p/?linkid{{=}}203753 CSS Text Level 3: W3C Working Draft (6 March 2007), sec. 4.1, "Line Breaking Restrictions: The 'word-break' Property"]; and in
 [http://go.microsoft.com/fwlink/p/?linkid{{=}}203714 Unicode Standard Annex #14: Line Breaking Properties].
 |Import_Notes====Syntax===
-<code>'''-ms-word-break: '''normal '''{{!}}''' break-all '''{{!}}''' keep-all</code>
+<code>'''word-break: '''normal '''{{!}}''' break-all '''{{!}}''' keep-all</code>
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.2
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}223137 Unicode Standard Annex #14 -- Unicode Line Breaking Algorithm]
