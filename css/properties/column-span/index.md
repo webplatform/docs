@@ -28,17 +28,17 @@
 |Language=CSS
 |Description=Makes 4 columns and creates a span that crosses thorugh columns
 |Code=/*
-Makes 4 columns and creates a span that crosses thorugh columns
+Makes 4 columns and creates a span that crosses through columns
 */
-#column5 {
+
+#column {
   column-count: 4;
   column-gap: 2em;          
   padding: 5px;
 }
 
-#span-content {
-	column-span: all;
-	border: 5px solid #000;
+.span-content {
+  column-span: all;
 }
 |LiveURL=http://code.webplatform.org/gist/5306158
 }}
