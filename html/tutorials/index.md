@@ -1,5 +1,7 @@
 {{Page_Title|HTML tutorials}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|HTML is a markup language, used to give content structure and meaning. This page lists all of our HTML tutorials — perfect for learning HTML from scratch, or diving into learning more complex HTML topics.}}
 {{Basic Page|Content=PAGE CONTENT GOES HERE
 }}
@@ -29,6 +31,7 @@
 ==Applied techniques==
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
+* [[concepts/Pointer_Events|Input from mouse, touch, or pen with pointer events]]
 {{Notes_Section}}
 {{Topics|HTML}}
 {{External_Attribution
