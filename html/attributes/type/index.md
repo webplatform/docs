@@ -14,10 +14,56 @@
 As with HTML5 the attribute is no longer deprecated for &lt;ol&gt; elements.
 
 === &lt;input&gt; ===
-The type attribute specifies the type of an &lt;input&gt; element to display. There are several possible types like text, button or submit.<br />
-The default type for an &lt;input&gt; element is: text.
+The type attribute specifies the type of an &lt;input&gt; element to display. There are several possible types like text, button or submit.
 
-The attribute is not required, but it is recommended to include the attribute to prevent misunderstandings.
+The default type for an &lt;input&gt; element is: text. The attribute is not required, but it is recommended to include the attribute to prevent misunderstandings.
+
+An input element with a type attribute whose value is "button" represents a button with no default behavior.
+
+An input element with a type attribute whose value is "checkbox" represents a state or option that can be toggled.
+
+An input element with a type attribute whose value is "color" provides a widget for selecting a color value.
+
+An input element with a type attribute whose value is "date" represents a widget for specifying a date value (year, month, day), with no time zone or time information.
+
+An input element with a type attribute whose value is "datetime" represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) based on UTC time zone.
+
+An input element with a type attribute whose value is "datetime-local" represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information.
+
+An input element with a type attribute whose value is "email" represents a field for entering an e-mail address.
+
+An input element with a type attribute whose value is "file" represents a widget for specifying a file.
+
+An input element with a type attribute whose value is "hidden" represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.
+
+An input element with a type attribute whose value is "image" represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.
+
+An input element with a type attribute whose value is "month" represents a widget for entering a month value.
+
+An input element with a type attribute whose value is "number" represents a widget for entering a number.
+
+An input element with a type attribute whose value is "password" represents a one-line plain-text edit control for entering a password, which renders input text in such a way as to hide the characters (e.g., a series of asterisks).
+
+An input element with a type attribute whose value is "radio" represents a radio button control.
+
+An input element with a type attribute whose value is "range" represents a field for setting a number value that falls in a given range.
+
+An input element with a type attribute whose value is "reset" represents a form button that resets the form to default values.
+
+An input element with a type attribute whose value is "search" represents an input text field that is used for search queries.
+
+An input element with a type attribute whose value is "submit" represents a form button that submits the form data to the server.
+
+An input element with a type attribute whose value is "tel" represents an input field intended for entering a telephone number; does not enforce any syntax.
+
+An input element with a type attribute whose value is "text" represents a one-line plain text edit control for the input element’s value.
+
+An input element with a type attribute whose value is "radio" represents an input field for entering a specific time value.
+
+An input element with a type attribute whose value is "url" represents an input field for entering a single, absolute URL value.
+
+An input element with a type attribute whose value is "week" represents an input field for entering a value that represents a specific week.
+
 
 === &lt;ol&gt; ===
 For &lt;ol&gt; elements the type attribute is used to specify the kind of marker to use in the list.<br />
