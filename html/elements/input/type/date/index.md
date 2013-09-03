@@ -1,6 +1,11 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Merge Candidate
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=[[html/attributes/type]]
+}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
