@@ -1,5 +1,11 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Merge Candidate
+|Checked_Out=No
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=[[html/attributes/type]]
+}}
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The '''color''' type of the [[html/elements/input|&lt;input&gt;]] element provides a widget for selecting a color value.}}
