@@ -84,14 +84,14 @@ Possible attribute values are the following:<br />
 |Code=<form>
     Text: <input type="text" name="textInput"> <br/>
      <br/>	
-    Color: <input type="color" value="#ff0000" name=”colorInput”/> <br/>
-    Date: <input type="date" value="2013-09-03" name=”dateInput”> <br/>
+    Color: <input type="color" value="#ff0000" name="colorInput"/> <br/>
+    Date: <input type="date" value="2013-09-03" name="dateInput"> <br/>
     Datetime: <input type="datetime" name="datetimeInput"> <br/>
-    Datetime-local: <input type="datetime-local" value="2013-09-03T20:00" name=”datetime-local”> <br/>
+    Datetime-local: <input type="datetime-local" value="2013-09-03T20:00" name="datetime-local"> <br/>
     Email: <input type="email" name="emailInput"> <br/>
     File: <input type="file" name="fileInput"> <br/>
     Hidden: <input type="hidden" name="hiddenInput"> <br/>
-    Month: <input type="month" value="2013-09" name=”monthInput”> <br/>
+    Month: <input type="month" value="2013-09" name="monthInput"> <br/>
     Number: <input type="number" name="numberInput"> <br/>
     Password: <input type="password" name="passwordInput"> <br/>
     Checkbox: <input type="checkbox" name="checkboxInput" id="checkboxId1" checked><label for="checkboxId1">label 1</label>
