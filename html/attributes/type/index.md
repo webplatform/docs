@@ -81,10 +81,36 @@ Possible attribute values are the following:<br />
 |Examples={{Single Example
 |Language=HTML
 |Description=Type attributes used in a form.
-|Code=&lt;form&gt;
-Username: &lt;input type{{=}}"text" name{{=}}"username"&gt;&lt;br /&gt;
-&lt;input type{{=}}"submit" value{{=}}"Submit"&gt;
-&lt;/form&gt;
+|Code=<form>
+    Text: <input type="text" name="textInput"> <br/>
+     <br/>	
+    Color: <input type="color" value="#ff0000" name=”colorInput”/> <br/>
+    Date: <input type="date" value="2013-09-03" name=”dateInput”> <br/>
+    Datetime: <input type="datetime" name="datetimeInput"> <br/>
+    Datetime-local: <input type="datetime-local" value="2013-09-03T20:00" name=”datetime-local”> <br/>
+    Email: <input type="email" name="emailInput"> <br/>
+    File: <input type="file" name="fileInput"> <br/>
+    Hidden: <input type="hidden" name="hiddenInput"> <br/>
+    Month: <input type="month" value="2013-09" name=”monthInput”> <br/>
+    Number: <input type="number" name="numberInput"> <br/>
+    Password: <input type="password" name="passwordInput"> <br/>
+    Checkbox: <input type="checkbox" name="checkboxInput" id="checkboxId1" checked><label for="checkboxId1">label 1</label>
+    <input type="checkbox" name="checkboxInput" id="checkboxId2"><label for="checkboxId2">label 2</label> <br/>
+    Radio: <input type=radio name="radioInput" id="radioId1" checked><label for="radioId1">label 1</label>
+    <input type=radio name="radioInput" id="radioId2"><label for="radioId2">label 2</label> <br/>
+    Range: <input type="range" name="rangeInput"> <br/>
+    Search: <input type="search" name="searchInput"> <br/>
+    Tel: <input type="tel" name="telInput"> <br/>
+    Time: <input type="time" name="timeInput"> <br/>
+    Url: <input type="url" name="urlInput"> <br/>
+    Week: <input type="week" name="weekInput"> <br/>
+    <br/>
+    Image: <input type="image" name="imageInput"> <br/>
+    Button: <input type="button" value="Button" onclick="alert('This is a javascript alert')"> <br/>
+    Reset: <input type="reset" value="Reset"> <br/>
+    <br />
+    Submit: <input type="submit" value="Submit"> <br/>
+</form>
 }}{{Single Example
 |Language=HTML
 |Description=Type attribute for lowercase, roman numbering used in an ordered list.
