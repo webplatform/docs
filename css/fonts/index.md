@@ -18,13 +18,15 @@ The order is obligatory, not all options must be set.
 |Examples=
 }}
 {{Notes_Section
-|Usage= <nowiki>
-font: italic 1.2em/1.5 Georgia
+|Usage=<code>
+p {
+  font: italic 1.2em/1.5 Georgia;
+}
+</code>
 
-font: italic small-caps 1.2em/14px Georgia
+<code>font: italic small-caps 1.2em/14px "Times New Roman";</code>
 
-font: bold 1.2em/2ex Arial
-</nowiki>
+<code>font: bold 1.2em/2ex Arial;</code>
 |Import_Notes====In this section===
 {{{!}} class="wikitable"
 {{!}}-
