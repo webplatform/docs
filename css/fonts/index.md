@@ -1,17 +1,30 @@
 {{Page_Title|Font related properties}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration.}}
+{{Summary_Section|Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration. 
+
+The order is obligatory, not all options must be set.
+
+''font-size'' and ''font-family'' are required options.
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage= <nowiki>
+font: italic 1.2em/1.5 Georgia
+
+font: italic small-caps 1.2em/14px Georgia
+
+font: bold 1.2em/2ex Arial
+</nowiki>
 |Import_Notes====In this section===
 {{{!}} class="wikitable"
 {{!}}-
