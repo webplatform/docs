@@ -19,14 +19,15 @@ The order is obligatory, not all options must be set.
 }}
 {{Notes_Section
 |Usage=<code>
-p {
+  p {
   font: italic 1.2em/1.5 Georgia;
-}
+  }
 </code>
 
-<code>font: italic small-caps 1.2em/14px "Times New Roman";</code>
+<code>
+  font: italic small-caps 1.2em/14px "Times New Roman";</code>
 
-<code>font: bold 1.2em/2ex Arial;</code>
+  font: bold 1.2em/2ex Arial;
 |Import_Notes====In this section===
 {{{!}} class="wikitable"
 {{!}}-
