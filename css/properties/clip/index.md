@@ -1,12 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
+|Editorial notes=Deprecated; replaced by clip-path.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Lets you specify the dimensions of an absolutely positioned element that should be visible, and the element is clipped into this shape, and displayed.}}
+{{Summary_Section|'''Deprecated; see [css/properties/clip-path clip-path].'''
+
+Lets you specify the dimensions of an absolutely positioned element that should be visible, and the element is clipped into this shape, and displayed.
+}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
