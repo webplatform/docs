@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|'''Deprecated; see [[css/properties/clip-path clip-path]].'''
+{{Summary_Section|'''Deprecated; see [[css/properties/clip-path|clip-path]].'''
 
 Lets you specify the dimensions of an absolutely positioned element that should be visible, and the element is clipped into this shape, and displayed.
 }}
