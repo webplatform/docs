@@ -45,6 +45,13 @@ The input element behavior varies depending on the value of its [[html/elements/
 * '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
 * [[html/elements/input/type/url|type=url]]
 * [[html/elements/input/type/week|type=week]]
+
+
+Internationalization topics related to the <code>input</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
+* [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
+* [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
+
 }}
 {{Examples_Section
 |Not_required=No
