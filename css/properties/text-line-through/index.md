@@ -1,24 +1,40 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''text-overline''' property is the shorthand for [[css\properties\text-overline-style |text-overline-style]], [[css\properties\text-overline-width |text-overline-width]], [[css\properties\text-overline-color |text-overline-color]] and [[css\properties\text-overline-mode |text-overline-mode]].}}
+{{Summary_Section|The '''text-line-through''' property is a shorthand property for [[css\properties\text-line-through-style |text-line-through-style]], [[css\properties\text-line-through-color |text-line-through-color]] and [[css\properties\text--line-through-mode |text-line-through-mode]].  ('''Text-line-through''' is considered obsolete; use [[css\properties\text-line-through-style |text-decoration]] instead.)
+
+}}
 {{CSS Property
-|Inherited=No
+|Initial value=Not defined for shorthand properties
+|Applies to=all elements and generated content with textual content
+|Inherited=Yes
+|Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS percentages=N/A
 |Values=
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=This property is obsolete and has been replaced by the  [[css\properties\text-line-through-style |text-decoration]] property. 
+
+Originally defined in an earlier draft of the [http://www.w3.org/TR/2003/CR-css3-text-20030514/ CSS3 Text Module specification], the functionality controlled by this property has been moved to a new specification module ([http://www.w3.org/TR/css-text-decor-3/ CSS Text Decoration Level 3]).  Sites (and apps) relying on the earlier behavior should be updated accordingly.
+
+
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 Text Module (CR 2003)
+|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/
+|Status=Working Draft (current)
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
