@@ -1,8 +1,10 @@
-{{Page_Title| 网站开发的初学者}}
+{{Page_Title|网站开发的初学者}}
 {{Flags
+|Content=Grammar/Spelling
 |Checked_Out=No
+|Editorial notes=translation from english to chinese, has some problem
 }}
-{{Summary_Section|这组文章是完整的初学者信心通过努力，建立他们的基本技能，成为一个网页设计师或开发人员在开始的旅程。}}
+{{Summary_Section|这一系列的文章是为了让初学者，在他们成长为一个web设计师或者开发者的最初旅程上 ，能够信心满满的去完备他们的基本技能}}
 {{Basic Page}}
 {{Languages}}
 
@@ -74,4 +76,5 @@
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=}}
+|HTML5Rocks_link=
+}}
