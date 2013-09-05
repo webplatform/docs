@@ -8,13 +8,10 @@
 {{API_Name}}
 {{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.
 
-Internationalization topics related to the <code>a</code> element:
-* [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
-|Content=
-Internationalization topics related to the <code>a</code> element:
+|Content=Internationalization topics related to the <code>a</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
 }}
 {{Examples_Section
