@@ -15,14 +15,16 @@
 |Animatable=Yes
 |CSS percentages=As specified
 |Values={{CSS Property Value
-|Data Type=&lt;shape&gt;
-|Description=The following basic shapes can be used to define a clipping region:
+|Data Type=&lt;basic-shape&gt;
+|Description=The following basic shapes can be used to define a clipping region.
 
-* <code>rectangle(&lt;x&gt;, &lt;y&gt;, &lt;width&gt;, &lt;height&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle with an origin and a size. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
-* <code>inset-rectangle(&lt;top&gt;, &lt;right&gt;, &lt;bottom&gt;, &lt;left&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> defines a rectangle by top, right, bottom and left insets. The optional arguments '''rx''' and '''ry''' define the "rounded corners" in the horizontal and vertical direction.
+* <code>rectangle(&lt;x&gt;, &lt;y&gt;, &lt;width&gt;, &lt;height&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> Defines the origin and size of the bounding box of the rectangle. Optional arguments '''rx''' and '''ry''' define the x and y radius of an ellipse used to round the corners of the rectangle.
+* <code>inset-rectangle(&lt;top&gt;, &lt;right&gt;, &lt;bottom&gt;, &lt;left&gt; [, &lt;rx&gt;, &lt;ry&gt;])</code> Defines the origin and size of the bounding box of the inset rectangle. Optional arguments '''rx''' and '''ry''' define the x and y radius of an ellipse used to round the corners of the inset rectangle.
 * <code>circle(<cx, <cy>, <r>)</code> defines a circle with a center point and a radius.
-* <code>ellipse(<cx, <cy>, <rx>, <ry>)</code> defines a circle with a center point and a radii for the horizontal and vertical directions.
+* <code>ellipse(<cx>, <cy>, <rx>, <ry>)</code> defines a circle with a center point and a radii for the horizontal and vertical directions.
 * <code>polygon(<x1> <y1>, <x2> <y2>, ..., <xn> <yn>)</code> defines a polygon based on a list of points
+
+See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more information.
 }}{{CSS Property Value
 |Data Type=&lt;url&gt;
 |Description=URL reference to a &lt;clipPath&gt; element.
