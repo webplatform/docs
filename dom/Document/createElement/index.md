@@ -11,8 +11,13 @@
 |Parameters={{Method Parameter
 |Name=tagName
 |Data type=String
-|Description=The name of an element.
+|Description=The name of an element. The element may be be an existing DOM element or an extension of a DOM element.
 |Optional=No
+}}{{Method Parameter
+|Name=typeExtension
+|Data type=String
+|Description=Specifies the element that is extended with this method. The user specifies the extension with the element's <code>is=''</code> attribute. See examples.
+|Optional=Yes
 }}
 |Method_applies_to=dom/document
 |Example_object_name=document
@@ -62,6 +67,16 @@ document.addEventListener("change", create, false);
  &lt;body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
+}}{{Single Example
+|Language=HTML
+|Description=Declaring an extended custom element.
+|Code=<!-- <button> "is a" mega button -->
+<button is="mega-button">
+}}{{Single Example
+|Language=JavaScript
+|Description=Extending a DOM element.
+|Code=var megaButton = document.createElement('button', 'mega-button');
+// megaButton instanceof MegaButton === true
 }}
 }}
 {{Notes_Section
