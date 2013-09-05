@@ -6,7 +6,7 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The element element defines a custom element.
-Note: This element has been deprecated, and is not supported by any browser. See [[dom/apis/document/register|document.register] for the standard custom element definition.
+Note: This element has been deprecated, and is not supported by any browser. See [[dom/apis/document/register|document.register]] for the standard custom element definition.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElementElement
