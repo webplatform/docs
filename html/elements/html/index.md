@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics,Missing Relevant Sections,Data Not Semantic,Unreviewed Import
-|Content=Incomplete,Not Neutral,Cleanup,Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -25,6 +26,12 @@
   </body>
 </html>
 </syntaxhighlight>
+
+
+Internationalization topics related to the <code>a</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#textprocessing Declaring the overall language of a page]
+* [http://www.w3.org/International/techniques/authoring-html#using Setting up a right-to-left page]
+
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -493,6 +500,7 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
