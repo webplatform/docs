@@ -18,11 +18,11 @@
 |Data Type=&lt;basic-shape&gt;
 |Description=The following basic shapes can be used to define a clipping region.
 
-* <code>rectangle(<x>, <y>, <width>, <height> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the rectangle. Optional arguments '''rx''' and '''ry''' define the x and y radii of an ellipse used to round the corners of the rectangle.
-* <code>inset-rectangle(<top>, <right>, <bottom>, <left> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the inset rectangle. Optional arguments '''rx''' and '''ry''' define the x and y radius of an ellipse used to round the corners of the inset rectangle.
+* <code>rectangle(<x>, <y>, <width>, <height> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the rectangle. Optional arguments '''rx''' and '''ry''' define the x-axis radius and y-axis radius of an ellipse used to round the corners of the rectangle.
+* <code>inset-rectangle(<top>, <right>, <bottom>, <left> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the inset rectangle. Optional arguments '''rx''' and '''ry''' define the x-axis radius and y-axis radius of an ellipse used to round the corners of the inset rectangle.
 * <code>circle(<cx>, <cy>, <r>)</code> Defines a circle by the x and y axes of its center point and its radius.
 * <code>ellipse(<cx>, <cy>, <rx>, <ry>)</code> Defines an ellipsis by the x and y axes of its center point and the x and y axes of its radius.
-* <code>polygon(<fill-rule>, <x1> <y1>, <x2> <y2>, ..., <xn> <yn>)</code> Defines a polygon based on a filling rule (see [http://www.w3.org/TR/SVG/painting.html#FillRuleProperty SVG fill-rule property] for details) and a list of x and y axes for the vertices of the polygon.
+* <code>polygon(<fill-rule>, <x1> <y1>, <x2> <y2>, ..., <xn> <yn>)</code> Defines a polygon based on a filling rule (see [http://www.w3.org/TR/SVG/painting.html#FillRuleProperty SVG fill-rule property] for details) and a list of x and y axes of the polygon's vertices.
 
 See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more information.
 }}{{CSS Property Value
