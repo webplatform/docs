@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''text-line-through''' property is a shorthand property for [[css/properties/text-line-through-style |text-line-through-style]], [[css/properties/text-line-through-color |text-line-through-color]] and [[css/properties/text-line-through-mode |text-line-through-mode]].  (Considered obsolete; use [[css/properties/text-line-through-style |text-decoration]] instead.)}}
+{{Summary_Section|The '''text-line-through''' property is a shorthand property for [[css/properties/text-line-through-style |text-line-through-style]], [[css/properties/text-line-through-color |text-line-through-color]] and [[css/properties/text-line-through-mode |text-line-through-mode]].  (Considered obsolete; use [[css/properties/text-decoration|text-decoration]] instead.)}}
 {{CSS Property
 |Initial value=Not defined for shorthand properties
 |Applies to=all elements and generated content with textual content
