@@ -16,11 +16,8 @@
 |CSS object model property=N/A
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<style>
-|Description=A value supported by the [[css/properties/text-line-through-style|text-line-through-style]] property.
-}}{{CSS Property Value
-|Data Type=<color>
-|Description=A value supported by the [[css/properties/text-line-through-color|text-line-through-color]] property.
+|Data Type=<style> <color> <mode>
+|Description=Values supported by the [[css/properties/text-line-through-style|text-line-through-style]],  [[css/properties/text-line-through-color|text-line-through-color]], and [[css/properties/text-line-through-mode|text-line-through-mode]] properties.
 }}
 }}
 {{Examples_Section
