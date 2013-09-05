@@ -10,6 +10,13 @@
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 |Content=dir = "ltr" or "rtl" or "auto"
+
+Internationalization topics related to the <code>dir</code> attribute:
+* [http://www.w3.org/International/techniques/authoring-html#using Setting up a right-to-left page]
+* [http://www.w3.org/International/techniques/authoring-html#blocks Setting direction on block elements]
+* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
+* [http://www.w3.org/International/techniques/authoring-html#inline Mixing text direction inline]
+* [http://www.w3.org/International/techniques/authoring-html#bdo Overriding the Unicode bidirectional algorithm]
 }}
 {{Examples_Section
 |Not_required=No
