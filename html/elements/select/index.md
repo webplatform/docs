@@ -6,13 +6,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
+{{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.
+
+Internationalization topics related to the <code>select</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls]
+* [http://www.w3.org/International/techniques/authoring-html#linkloc Linking to localized content]
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
-|Content=See also:
-
-* [http://www.w3.org/International/questions/qa-navigation-select Using &lt;select> to Link to Localized Content] considers best practices for using pull-down menus based on the select element to direct visitors to localized content.
-* [http://www.w3.org/International/questions/qa-select-sorting Sorting select options] answers the question "As part of a form, I have a list of terms in a drop-down box. Why are they not correctly sorted when I translate the items in the list?"
 }}
 {{Examples_Section
 |Not_required=No
