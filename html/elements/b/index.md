@@ -2,10 +2,16 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''b''' element (&lt;b&gt;) historically was used to tell the browser to make the nested text bold. While the &lt;b&gt; element is widely supported in browsers, its use is not recommended, as CSS can be used to achieve the same effect. In HTML5, it merely signifies that the text should be stylistically distinguished in some way.}}
+{{Summary_Section|The '''b''' element (&lt;b&gt;) historically was used to tell the browser to make the nested text bold. While the &lt;b&gt; element is widely supported in browsers, its use is not recommended, as CSS can be used to achieve the same effect. In HTML5, it merely signifies that the text should be stylistically distinguished in some way.
+
+
+Internationalization topics related to the <code>b</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#bandi Using b and i tags]
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The &lt;b&gt; element is used to make the nested tag bolded. The use of the &lt;b&gt; is not recommended according to HTML 5 standards as the bold effect can achieved using CSS.
