@@ -11,7 +11,6 @@
 |Property_applies_to=dom/HTMLElement
 |Content=Internationalization topics related to the <code>hreflang</code> attribute:
 * [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +22,8 @@
 {{Notes_Section
 |Notes====Remarks===
 You must set the value of this property before you can retrieve it.
-Language codes identify natural languages that are spoken, written, or otherwise used for the communication of information among people, and are defined and explained in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203649 Tags for the Identification of Languages (RFC1766)].  Computer languages are explicitly excluded from language codes.
+Language codes identify natural languages that are spoken, written, or otherwise used for the communication of information among people, and are defined and explained in [http://www.rfc-editor.org/rfc/bcp/bcp47.txt Internet-Draft: BCP 47].  Computer languages are explicitly excluded from language codes.
+
 '''hreflang''' was introduced in Microsoft Internet Explorer 6
 |Import_Notes====Syntax===
 ===Standards information===
