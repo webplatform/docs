@@ -67,14 +67,14 @@ document.addEventListener("change", create, false);
  &lt;body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
-}}{{Single Example
+}}{{Single Example}}{{Single Example
 |Language=HTML
-|Description=Declaring an extended custom element.
+|Description=Extending a DOM element in HTML. Use this with [[dom/document/register|document.register]]
 |Code=<!-- <button> "is a" mega button -->
 <button is="mega-button">
 }}{{Single Example
 |Language=JavaScript
-|Description=Extending a DOM element.
+|Description=Extending a DOM element in JavaScript. Use this with [[dom/document/register|document.register]]
 |Code=var megaButton = document.createElement('button', 'mega-button');
 // megaButton instanceof MegaButton === true
 }}
