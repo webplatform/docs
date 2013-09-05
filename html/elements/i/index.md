@@ -2,12 +2,15 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''i''' element (&lt;i&gt;) historically was used to indicate that the text should be rendered in Italic type, where available. In HTML5, it indicates that the text is in a different voice or mood, or otherwise offset, from the surrounding text, }}
+{{Summary_Section|The '''i''' element (&lt;i&gt;) historically was used to indicate that the text should be rendered in Italic type, where available. In HTML5, it indicates that the text is in a different voice or mood, or otherwise offset, from the surrounding text,}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=Internationalization topics related to the <code>i</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#bandi Using b and i tags]
 }}
 {{Examples_Section
 |Not_required=No
