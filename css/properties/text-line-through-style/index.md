@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -34,6 +33,15 @@
 }}{{CSS Property Value
 |Data Type=dashed
 |Description=Produces a dashed line
+}}{{CSS Property Value
+|Data Type=dot-dash
+|Description=Produces a line that repeats a pattern where a dot is followed by a dash.
+}}{{CSS Property Value
+|Data Type=dot-dot-dash
+|Description=Produces a line that repeats a pattern where two dots are followed by a dash.
+}}{{CSS Property Value
+|Data Type=wave
+|Description=Produces a wavy line.
 }}
 }}
 {{Examples_Section
