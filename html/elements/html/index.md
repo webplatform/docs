@@ -28,10 +28,9 @@
 </syntaxhighlight>
 
 
-Internationalization topics related to the <code>a</code> element:
+Internationalization topics related to the <code>html</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#textprocessing Declaring the overall language of a page]
 * [http://www.w3.org/International/techniques/authoring-html#using Setting up a right-to-left page]
-
 }}
 {{Examples_Section
 |Not_required=Yes
