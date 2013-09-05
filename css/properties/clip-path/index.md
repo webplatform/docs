@@ -26,7 +26,7 @@
 
 See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more information.
 }}{{CSS Property Value
-|Data Type=&lt;url&gt;
+|Data Type=&lt;clip-source&gt;
 |Description=URL reference to a &lt;clipPath&gt; element.
 }}{{CSS Property Value
 |Data Type=none
