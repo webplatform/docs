@@ -27,9 +27,14 @@
 See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more information.
 }}{{CSS Property Value
 |Data Type=&lt;clip-source&gt;
-|Description=URL reference to a &lt;clipPath&gt; element.
+|Description=The <code><clip-source></code> value may be one of the following.
+
+* <code><url></code> A URL reference to a <code><clipPath></code> element.
+* <code>child</code> A keyword to indicate that the last direct child <code><clipPath></code> element of the element to which the <code>clip-path</code> property is applied should be used as the clip source. Equivalent to <code>select(clipPath:last-of-type)</code>.
+* <code><child-selector></code> A functional notation accepting a comma-separated list of compound selectors that represents the first matching <code><clipPath></code> element in tree order (as defined in [http://dev.w3.org/fxtf/masking/#DOM DOM]).
 }}{{CSS Property Value
 |Data Type=none
+|Description=No clipping path is created.
 }}
 }}
 {{Examples_Section
