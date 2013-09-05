@@ -1,43 +1,38 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=Internationalization topics related to the <code>http-equiv</code> attribute:
+* [http://www.w3.org/International/techniques/authoring-html#choosing  Choosing and applying a character encoding]
+* [http://www.w3.org/International/techniques/authoring-html#changing Changing to UTF-8]
+* [http://www.w3.org/International/techniques/authoring-html#indoc Declaring the character encoding for HTML]
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example causes the browser to reload the document every two seconds.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"refresh" content{{=}}"2"&gt;
-}}
-{{Single_Example
+|Code=&lt;meta http-equiv{{=}}"refresh" content{{=}}"2"&gt;
+}}{{Single Example
 |Description=This example sets the character set for the document.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"Content-Type"
+|Code=&lt;meta http-equiv{{=}}"Content-Type"
       content{{=}}"text/html; charset{{=}}utf-8"&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example disables theme support for the document.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"msthemecompatible" content{{=}}"no"&gt;
-}}
-{{Single_Example
+|Code=&lt;meta http-equiv{{=}}"msthemecompatible" content{{=}}"no"&gt;
+}}{{Single Example
 |Description=This example tells Internet Explorer to display a webpage in IE9 mode, if possible.
-|LiveURL=
-|Code=
-&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}9"&gt;
-}}}}
+|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}9"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If the property is omitted, the [[html/attributes/name (meta object)|'''name''']] property should be used to identify the meta-information. The '''httpEquiv''' property is not case-sensitive.
 Developers using the '''httpEquiv''' and '''content''' attributes to refresh documents from alternate URLs should treat the value of '''content''' as untrusted data.  For more information, please see Security Considerations: Dynamic HTML.
 
@@ -74,28 +69,34 @@ As of Windows Internet Explorer 8, the '''httpEquiv''' attribute also supports 
 |}
  
 When the content attribute specifies multiple document modes, Internet Explorer displays the page in the highest mode supported by the browser. For more information, see Defining Document Compatibility.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.4.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>content</code>
 *<code>meta</code>
 *<code>Conceptual</code>
 *<code>Defining Document Compatibility</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
