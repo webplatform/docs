@@ -67,7 +67,7 @@ document.addEventListener("change", create, false);
  &lt;body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
-}}{{Single Example}}{{Single Example
+}}{{Single Example
 |Language=HTML
 |Description=Extending a DOM element in HTML. Use this with [[dom/document/register|document.register]]
 |Code=<!-- <button> "is a" mega button -->
