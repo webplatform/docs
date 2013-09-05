@@ -17,7 +17,7 @@
 |Description=The object describing the element's prototype, public properties and methods.
 |Optional=Yes
 }}
-|Method_applies_to=dom/apis/document
+|Method_applies_to=dom/document
 |Example_object_name=document
 |Return_value_name=XFoo
 |Javascript_data_type=Object
