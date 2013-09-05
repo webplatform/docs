@@ -41,7 +41,7 @@ See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more in
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following clip-path definition creates a rectangular clip path with "rounded corners".
+|Description=The following clip-path definition creates a rectangular clip path with rounded corners.
 |Code=#image {
     clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); 
 }
