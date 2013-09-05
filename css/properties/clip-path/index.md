@@ -52,7 +52,7 @@ See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more in
     clip-path: url(#clipping); 
 }
 }}{{Single Example
-|Language=Other
+|Language=HTML
 |Description=A <clipPath> element specifies a clipping region. Multiple shapes inside a <clipPath> element result in an additive clipping behavior.
 
 Any shape inside the <clipPath> element and the <clipPath> element itself can be clipped as well. This clipping is exclusive.
@@ -62,6 +62,12 @@ Any shape inside the <clipPath> element and the <clipPath> element itself can be
     <rect x="150" y="150" width="100" height="100" />
   </clipPath>
 </syntaxhighlight>
+
+  <clipPath id="clipping">
+    <circle cx="150" cy="150" r="50" />
+    <rect x="150" y="150" width="100" height="100" />
+  </clipPath>
+
 }}{{Single Example
 |Language=CSS
 |Description=In this example, the Web Platform Docs logo is clipped in two ways; one shows the icon (clipped with a circle) and the other shows the text (clipped with an ellipse).
