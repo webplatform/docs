@@ -8,7 +8,7 @@
 {{Markup_Attribute
 |Applies_to=dom/HTMLElement
 |Property_applies_to=dom/HTMLElement
-|Content=Extending an element with [[dom/document/createElement|document.createElement]] creates a new element. To use that element in markup, you must describe the element with a tag and include the <code>is=''</code> attribute with the value of the base element from which the new element is extended. See examples.
+|Content=Extending an element with [[dom/document/createElement|document.createElement]] creates a new element. To use that element in markup, you must describe the element with a tag and include the <code>is=</code> attribute with the value of the base element from which the new element is extended. See examples.
 }}
 {{Examples_Section
 |Not_required=No
