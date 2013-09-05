@@ -1,20 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The clip-path property prevents portion of elements from drawing by a defined clipping region.}}
+{{Summary_Section|The clip-path property prevents a portion of an element from drawing by defining a clipping region.}}
 {{CSS Property
 |Initial value=none
-|Applies to=All elements. SVG container elements, graphics elements and ‘clipPath’
+|Applies to=All elements. In SVG, applies to container elements (without the <defs> element), all graphics elements, and <clipPath>
 |Inherited=No
 |Media=visual
-|Computed value=as specified, but with <url> values made absolute
+|Computed value=As specified, but with <url> values made absolute
 |Animatable=Yes
-|CSS percentages=as specified
+|CSS percentages=As specified
 |Values={{CSS Property Value
 |Data Type=&lt;shape&gt;
 |Description=The following basic shapes can be used to define a clipping region:
@@ -87,7 +86,7 @@ img.clipped-text {
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking
-|URL=http://dvcs.w3.org/hg/FXTF/raw-file/tip/masking/index.html
+|URL=http://dev.w3.org/fxtf/masking/
 |Status=Editor's Draft
 }}{{Related Specification
 |Name=SVG 1.1
@@ -96,7 +95,7 @@ img.clipped-text {
 }}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Basic support
@@ -124,10 +123,8 @@ img.clipped-text {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Visual Effects
-}}
-{{Topics|CSS, SVG}}
+{{See_Also_Section}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
