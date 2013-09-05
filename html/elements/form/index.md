@@ -2,12 +2,20 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The '''form''' element (&lt;form&gt;) defines an HTML form for user input, subsequently to be submitted to a website or service.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFormElement
+|Content=Internationalization topics related to the <code>form</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#formencoding Handling encoding issues in forms]
+* [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls]
+* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
+* [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
+* [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
+
 }}
 {{Examples_Section
 |Not_required=No
