@@ -13,6 +13,9 @@ Internationalization topics related to the <code>a</code> element:
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
+|Content=
+Internationalization topics related to the <code>a</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
 }}
 {{Examples_Section
 |Not_required=No
