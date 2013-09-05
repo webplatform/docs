@@ -27,7 +27,7 @@
 {{Notes_Section
 |Usage=This property is obsolete and has been replaced by the  [[css/properties/text-decoration|text-decoration]] property. 
 
-Originally defined in an earlier draft of the [http://www.w3.org/TR/2003/CR-css3-text-20030514/ CSS3 Text Module specification], the functionality controlled by this property is now defined in the ([http://www.w3.org/TR/css-text-decor-3 CSS Text Decoration Level 3]) module.  Sites (and apps) relying on the earlier behavior should be updated accordingly.
+Originally defined in an earlier draft of the [http://www.w3.org/TR/2003/CR-css3-text-20030514/ CSS3 Text Module specification], the functionality controlled by this property is now defined in the [http://www.w3.org/TR/css-text-decor-3 CSS Text Decoration Level 3] module.  Sites (and apps) relying on the earlier behavior should be updated accordingly.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
