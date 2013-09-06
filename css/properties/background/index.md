@@ -70,6 +70,9 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 {{Notes_Section
 |Usage=The background property is a shorthand property that can set almost all of the background- properties. The [http://www.w3.org/TR/css3-background/#background specification] has examples of how to use the shorthand property and what that usage translates to.
 |Notes=The background of the root element becomes the background of the canvas and extends to cover the entire canvas, but only for that element alone. For an example, see [http://code.webplatform.org/gist/6115439].
+
+Internationalization topics related to the <code>background</code> property:
+* [http://localhost/International/techniques/authoring-html#textexpansion Preparing for text expansion]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
