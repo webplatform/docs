@@ -16,12 +16,12 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=nonzero
-|Description=This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and summing the places where a segment of the shape crosses the ray. When a segment crosses the ray from left to right, the count is incremented; when a segment crosses the ray from right to left, the count is decremented. If the result is zero, the point is outside; if non-zero, it is inside.
+|Description=This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and counting the places where a shape segment crosses the ray in a specific direction. When a segment crosses the ray from left to right, the count is incremented; when a segment crosses the ray from right to left, the count is decremented. If the count is zero, the point is outside; if non-zero, it is inside.
 
 See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty SVG fill-rule property] for details.
 }}{{CSS Property Value
 |Data Type=evenodd
-|Description=This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and counting the number of the shape's path segments that the ray crosses. If the count is odd, the point is inside; if even, the point is outside.
+|Description=This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and counting the number of  shape segments that the ray crosses. If the count is odd, the point is inside; if even, the point is outside.
 
 See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty SVG fill-rule property] for details.
 }}
