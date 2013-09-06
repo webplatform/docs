@@ -28,7 +28,15 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Masking
+|URL=http://dev.w3.org/fxtf/masking/
+|Status=Editor's Draft
+}}{{Related Specification
+|Name=SVG 1.1
+|URL=http://www.w3.org/TR/SVG/
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
