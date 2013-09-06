@@ -9,6 +9,11 @@
 {{Summary_Section|Conveys hidden information about the document to the server and the client.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLMetaElement
+|Content=Internationalization topics related to the <code>meta</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#indoc Declaring the character encoding for HTML]
+* [http://www.w3.org/International/techniques/authoring-html#choosing Choosing and applying a character encoding]
+* [http://www.w3.org/International/techniques/authoring-html#changing Changing to UTF-8]
+
 }}
 {{Examples_Section
 |Not_required=No
