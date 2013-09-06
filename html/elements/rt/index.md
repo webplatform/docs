@@ -2,12 +2,16 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The rt element marks the ruby text component of a ruby annotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=Internationalization topics related to the <code>rt</code> element:
+* [http://localhost/International/techniques/authoring-html#ruby Using ruby markup]
+
 }}
 {{Examples_Section
 |Not_required=No
