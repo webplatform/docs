@@ -12,6 +12,11 @@
 |Content=<p>The <code>&lt;table&gt;</code> element is a container for HTML tables, which are used to markup tabular data.</p>
 
 <p>Tables are also often used for laying out web pages, but this is a bad practice that should not be done anymore.</p>
+
+
+Internationalization topics related to the <code>table</code> element:
+* [http://localhost/International/techniques/authoring-html#blocks Setting direction on block elements]
+
 }}
 {{Examples_Section
 |Not_required=No
