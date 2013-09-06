@@ -9,6 +9,9 @@
 {{Summary_Section|The ruby element allows one or more spans of phrasing content to be marked with ruby annotations. Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=Internationalization topics related to the <code>ruby</code> element:
+* [http://localhost/International/techniques/authoring-html#ruby Using ruby markup]
+
 }}
 {{Examples_Section
 |Not_required=No
