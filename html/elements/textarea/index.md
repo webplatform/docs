@@ -12,6 +12,10 @@ A text area can hold an unlimited number of characters, and the text renders in 
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLTextAreaElement
+|Content=Internationalization topics related to the <code>a</code> element:
+* [http://localhost/International/techniques/authoring-html#blocks  Setting direction on block elements]
+* [http://localhost/International/techniques/authoring-html#formdir Managing text direction in form controls]
+
 }}
 {{Examples_Section
 |Not_required=No
