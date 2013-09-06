@@ -9,6 +9,9 @@
 {{Summary_Section|The pre tag defines preformatted text. Text in a pre element is displayed in a fixed-width font and preserves both spaces and line breaks.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLPreElement
+|Content=Internationalization topics related to the <code>pre</code> element:
+* [http://localhost/International/techniques/authoring-html#blocks Setting direction on block elements]
+
 }}
 {{Examples_Section
 |Not_required=No
