@@ -11,7 +11,7 @@
 }}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements and generated content with textual content
+|Applies to=all elements with and generated content with textual content
 |Inherited=No
 |Media=visual
 |Computed value=specified value (except for initial and inherit)
