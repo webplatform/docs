@@ -9,6 +9,9 @@
 {{Summary_Section|Draws lines of text as a numbered list.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOListElement
+|Content=Internationalization topics related to the <code>ol</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#liststyle Styling lists]
+
 }}
 {{Examples_Section
 |Not_required=No
