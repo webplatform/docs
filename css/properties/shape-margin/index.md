@@ -43,7 +43,10 @@
 |Import_Notes=shape-margin used to be called wrap-margin but was renamed since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Shapes Module Level 1
+|URL=* http://www.w3.org/TR/css-shapes/
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -74,7 +77,6 @@
 }}
 {{See_Also_Section
 |Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
-|External_links=* http://www.w3.org/TR/css-shapes/
 }}
 {{Topics|CSS, CSS-Regions}}
 {{External_Attribution
