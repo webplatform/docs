@@ -29,8 +29,13 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description='''(example goes here)'''
+|Language=HTML
+|Description=In this code fragment, the ''evenodd'' clip-rule type will be applied to the rectangle, because the clip-rule type is specified on the <path> element that defines the clipping shape.
+|Code=<clipPath id="MyClip">
+  <path d="..." clip-rule="evenodd" />
+</clipPath>
+<rect clip-path="url(#MyClip)" ... />
+
 }}
 }}
 {{Notes_Section}}
