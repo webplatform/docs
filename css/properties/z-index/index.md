@@ -1,10 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The z-index controls the stacking order of an element. Elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of the z-index ordering, so beware.}}
 {{CSS Property
@@ -209,7 +207,11 @@ Only the topmost elements will receive action from a pointing device such as a m
 <code>'''z-index: '''auto '''{{!}}''' ''order''</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Visual formatting model
+|URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-z-index
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
