@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Sets the block progression and layout orientation: deprecated in favor of 'writing-mode'.}}
+{{Summary_Section|Sets the block progression and layout orientation: deprecated in favor of the [[css/properties/writing-mode|writing-mode]] property.}}
 {{CSS Property
 |Initial value=tb
 |Applies to=All elements
@@ -34,8 +32,6 @@
 {{Notes_Section
 |Usage====Deprecated===
 This property has been dropped from the current version of [http://dev.w3.org/csswg/css-writing-modes{{=}}the CSS Writing Modes specification]. You are encouraged to manipulate an element's writing mode via the [[css/properties/writing-mode|'''writing-mode''']] property instead.
-
-
 |Notes====Remarks===
 In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text.
 Only one block progression is active at a time; these values cannot be combined. See [[css/properties/writing-mode|'''-ms-writing-mode''']] for additive block progression values.
