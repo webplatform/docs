@@ -1,8 +1,6 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=Yes
-|Editorial notes=cut/paste samples to new dabblet
- remove ===Syntax=== vestige from conversion
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -65,8 +63,6 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 As of Microsoft Internet Explorer 5.5, this property applies to inline elements.  With earlier versions of  Windows Internet Explorer, inline elements must have an '''absolute''' [[css/properties/position|'''position''']] or layout to use this property. 
 
 Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
-|Import_Notes====Syntax===
-<code>padding: &lt;padding-width&gt;{1,4} {{!}} inherit</code>
 }}
 {{Related_Specifications_Section
 |Specifications=
