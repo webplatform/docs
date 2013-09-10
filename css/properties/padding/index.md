@@ -53,7 +53,7 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 }}{{Single Example
 |Language=CSS
 |Description=The padding style has one value. All the values are inferred to be equal to the top padding value of 20%.
-|Code=padding: 10px; 
+|Code=padding: 20%; 
        /* on all sides 20% padding */
 }}
 }}
