@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,11 +16,11 @@
 |Notes====Remarks===
 '''Note'''  Requires Windows Internet Explorer 7 or later.
 '''Note'''  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [[html/elements/!DOCTYPE|!DOCTYPE]] directive that specifies a standards-based document. For more information, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}125785 Defining Document Compatibility].
-Attributes are case-sensitive.
+Attributes are case-sensitive. Matches any E element whose "att" attribute value is a list of space-separated values, one of which is exactly equal to "val".
 If the target ''val'' contains whitespace, the rule will not match anything.
 |Import_Notes====Syntax===
 <code><strong/>
-[''att'''''~{{=}}'''''val'']
+E[''att'''''~{{=}}'''''val'']
 {...}</code>
 ===Parameters===
 ;''att'':Must be either an Identifier or a String.
@@ -28,10 +29,14 @@ If the target ''val'' contains whitespace, the rule will not match anything.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.8.1
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Attribute selectors
+|URL=http://www.w3.org/TR/CSS2/selector.html#attribute-selectors
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
