@@ -19,7 +19,7 @@
 Attributes are case-sensitive. Matches any E element whose "att" attribute value is a list of space-separated values, one of which is exactly equal to "val".
 If the target ''val'' contains whitespace, the rule will not match anything.
 |Import_Notes====Syntax===
-<code><strong/>
+<code>
 E[''att'''''~{{=}}'''''val'']
 {...}</code>
 ===Parameters===
