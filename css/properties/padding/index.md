@@ -43,7 +43,7 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
       /*  bottom 20px padding       */
 }}{{Single Example
 |Language=CSS
-|Description=The padding style has two values. The left padding value is the inferred by the right padding value.  The bottom value is inferred by the bottom value.
+|Description=The padding style has two values. The left padding value is the inferred by the right padding value.  The bottom value is inferred by the top value.
 |Code=padding: 10px 20%;  
       /*  top and bottom 10px padding  */
        /*  left and right 20% padding  */
