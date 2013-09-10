@@ -25,8 +25,6 @@ E[''att'''''~{{=}}'''''val'']
 ===Parameters===
 ;''att'':Must be either an Identifier or a String.
 ;''val'':Must be either an Identifier or a String.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.8.1
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
