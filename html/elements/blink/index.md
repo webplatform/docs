@@ -4,9 +4,9 @@
 |Content=Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status|Deprecated}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Causes text to blink. This element is deprecated; use CSS instead.}}
+{{Summary_Section|Causes text to blink. This element is non-standard and deprecated; use CSS instead.}}
 {{Markup_Element}}
 {{Examples_Section
 |Not_required=No
@@ -16,7 +16,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=This element is deprecated.
+|Usage=This element is non-standard and deprecated.
 }}
 {{Related_Specifications_Section
 |Specifications=
