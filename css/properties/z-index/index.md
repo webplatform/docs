@@ -195,7 +195,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=This property only works with elements that are positioned absolute, relative, or fixed.
+|Usage=This property only works with elements that are positioned '''absolute''', '''relative''', or '''fixed'''.
 |Notes=If two objects have the same '''z-index''', they are stacked according to their source order. 
 
 An element with a positive z-index will be placed above an element that does not have a defined z-index. An element with a negative z-index will be placed below an element with no defined z-index. 
