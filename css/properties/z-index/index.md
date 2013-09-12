@@ -202,7 +202,7 @@ An element with a positive z-index will be placed above an element that does not
 
 The property does not apply to windowed controls, such as '''select''' objects.
 
-Only the topmost elements will receive action from a pointing device such as a mouse, even if they have a set opacity or are made invisible through CSS. This is also true for positioned elements with a negative z-index, unless:
+When elements overlap, only the topmost element can receive action from a pointing device such as a mouse, even if it has a set opacity or is made invisible through CSS. This is also true for positioned elements with a negative z-index, unless:
 *the parent is a scrolling container (that is, its [[css/properties/overflow|overflow]] property is set to '''auto''' or '''scroll'''), or
 *the parent is positioned (that is, its [[css/properties/position|position]] property is set to '''absolute''', '''relative''', or '''fixed''').
 |Import_Notes====Syntax===
@@ -257,6 +257,6 @@ Only the topmost elements will receive action from a pointing device such as a m
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
