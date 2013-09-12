@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -28,21 +29,7 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=In this code fragment, the ''evenodd'' clip-rule type will be applied to the rectangle. Note that the clip-rule type is specified on the referenced <path> element that defines the clipping shape.
-|Code=<clipPath id="MyClip">
-  <path d="..." clip-rule="evenodd" />
-</clipPath>
-<rect clip-path="url(#MyClip)" ... />
-}}{{Single Example
-|Language=HTML
-|Description=In this code fragment, the ''nonzero'' clip-rule type will be applied to the rectangle. Note that the clip-rule type is specified directly on the <rect> element.
-|Code=<clipPath id="MyClip">
-  <path d="..." />
-</clipPath>
-<rect clip-path="url(#MyClip)" clip-rule="nonzero" ... />
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
