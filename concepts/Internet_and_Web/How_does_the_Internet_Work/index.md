@@ -90,7 +90,6 @@ We won’t be covering dynamic languages any further in this course, but I have 
 * [http://www.rubyonrails.org/screencasts Rails screencasts]
 * PHP: Powers, David (2006), PHP Solutions: Dynamic web development made easy, friends of ED.
 * [http://www.php.net/docs.php PHP Online documentation]
-* [http://www.remotestaff.com.au/rs/candidates/web_development/php_developers/ Hire PHP Developers]
 * ASP.NET: Lorenz, Patrick. (2003). ASP.NET 2.0 Revealed.  Apress.
 * ASP.NET: [[http://asp.net online ASP.NET documentation and tutorials.]]
 
