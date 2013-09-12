@@ -1,24 +1,27 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The z-index controls the stacking order of an element. Elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of the z-index ordering, so beware.}}
+{{Summary_Section|The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension, rising "out of" the screen toward you or descending "into" the screen away from you. The z-index property controls that dimension, stacking (layering) elements above or below others; thus. elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of z-index ordering, so beware.}}
 {{CSS Property
-|Initial value=Auto
+|Initial value=auto
 |Applies to=Positioned elements
 |Inherited=No
 |Media=visual
+|Computed value=As specified
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=Auto
-|Description=Default. String that specifies the stacking order of the positioned objects based on the order in which the objects appear in the HTML source.
+|Data Type=auto
+|Description=Default. Specifies the stacking order of the positioned objects based on the top-down order in which the objects appear in the HTML source.
 }}{{CSS Property Value
-|Data Type=Integer
-|Description=Integer that specifies the position of the object in the stacking order.
+|Data Type=<integer>
+|Description=Integer that specifies the position of the object in the stacking order. The value is arbitrary and may be negative, zero, or positive.
 }}{{CSS Property Value
-|Data Type=Inherit
+|Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
 }}
 }}
@@ -192,19 +195,18 @@
 }}
 }}
 {{Notes_Section
-|Usage=This property will only work with elements that are positioned absolute, relative or fixed.
-|Notes====Remarks===
-If two objects have the same '''z-index''', they are stacked according to their source order. 
+|Usage=This property only works with elements that are positioned absolute, relative, or fixed.
+|Notes=If two objects have the same '''z-index''', they are stacked according to their source order. 
 
-An element with a positive z-index will be placed above an element that does not have a defined z-index. An element with a negative z-index will be placed below an element with no defined z-index 
+An element with a positive z-index will be placed above an element that does not have a defined z-index. An element with a negative z-index will be placed below an element with no defined z-index. 
 
 The property does not apply to windowed controls, such as '''select''' objects.
 
-Only the topmost elements will receive action from a pointing device such as a mouse, even if they have a set opacity or are made invisible through CSS. This is also true for positioned elements with a negative z-index unless:
-*The parent is a scrolling container (that is, its [[css/properties/overflow|'''overflow''']] property is set to '''auto''' or '''scroll''').
-*The parent is positioned (that is, its [[css/properties/position|'''position''']] property is set to '''absolute''', '''relative''', or '''fixed''').
+Only the topmost elements will receive action from a pointing device such as a mouse, even if they have a set opacity or are made invisible through CSS. This is also true for positioned elements with a negative z-index, unless:
+*the parent is a scrolling container (that is, its [[css/properties/overflow|overflow]] property is set to '''auto''' or '''scroll'''), or
+*the parent is positioned (that is, its [[css/properties/position|position]] property is set to '''absolute''', '''relative''', or '''fixed''').
 |Import_Notes====Syntax===
-<code>'''z-index: '''auto '''{{!}}''' ''order''</code>
+<code>'''z-index: '''auto '''{{!}}''' ''integer'' '''{{!}}''' '''inherit'''</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -214,7 +216,7 @@ Only the topmost elements will receive action from a pointing device such as a m
 }}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Negative values (CSS2.1 behavior, not allowed in CSS2 and earlier)
@@ -243,7 +245,6 @@ Only the topmost elements will receive action from a pointing device such as a m
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
