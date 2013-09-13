@@ -12,7 +12,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=As specified
-|Animatable=No
+|Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
