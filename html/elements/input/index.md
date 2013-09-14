@@ -13,7 +13,7 @@
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
-{{!}}required
+{{!}}The input element is a void element. An input element must have a start tag but must not have an end tag
 {{!}}-
 !CSS Display
 {{!}}inline
@@ -51,7 +51,6 @@ Internationalization topics related to the <code>input</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
 * [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
 * [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
-
 }}
 {{Examples_Section
 |Not_required=No
