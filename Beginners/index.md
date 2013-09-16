@@ -68,7 +68,9 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 ==Applied techniques==
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Did't we say we do not add Sublime Text because it is not free?
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
