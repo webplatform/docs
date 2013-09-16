@@ -50,17 +50,15 @@ var style = window.getComputedStyle(elem1, null);
 }}
 {{Notes_Section
 |Notes=The first argument must be an Element (passing a non-Element Node, like a #text Node, will throw an error). 
-
-
+ 
+ 
 The returned object actually represents the CSS 2.1 resolved values, not the computed values. While those values are usually equal, some older CSS properties like 'width', 'height' or 'padding' will return their used value instead.
 
-Originally, CSS 2.0 defined the computed values to be the "ready to be used" final values of properties after cascading and inheritance, but CSS 2.1 redefined computed values as pre-layout, and added the used values as post-layout. 
+Originally, CSS 2.0 defined the computed values to be the "ready to be used" final values of properties after cascading and inheritance, but CSS 2.1 redefined computed values as pre-layout, and added the used values as post-layout. The differences between pre- and post-layout does include the resolution of percentages relative to the width or the height of an element (its layout).
 
-The differences between pre- and post-layout does include the resolution of percentages relative to the width or the height of an element (its layout).
-
-While the computed style will return percentages values untouched in this case, the getComputedStyle function will sometimes, due to backwards compatibility, return the old meaning of computed values (now called used values) for a specific set of CSS 2.0 properties and resolve those percentages anyway. 
-
-
+While the computed style will return percentages values untouched in this case, the getComputedStyle function will sometimes, to preserve backwards compatibility, return the old meaning of computed values (now called used values) for a specific set of CSS 2.0 properties and resolve those percentages anyway. 
+ 
+ 
 The returned value can, in certain known cases, be expressly inaccurate by deliberate intent. In particular, to avoid the so called CSS History Leak security issue, browsers may expressly "lie" about the used value for a link and always return values as if a user has never visited the linked site. See http://blog.mozilla.com/security/2010/03/31/plugging-the-css-history-leak/ and http://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/ for details of the examples of how this is implemented, most other modern browser have applied similar changes to the application of pseudo-selector styles and the values returned by getComputedStyle.
 
 During a CSS transition, getComputedStyle returns the original property value in FireFox, but the final property value in WebKit.
