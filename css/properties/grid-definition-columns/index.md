@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Deletion Candidate
 |Checked_Out=No
-|Editorial notes='''This property is no longer in the current specification.'''
+|Editorial notes='''This property is no longer in the W3C specification.'''
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
