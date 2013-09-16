@@ -2,10 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the final used values of all the CSS properties of an element. The returned object is of the same type that the object returned from the element's [[css/cssom/style|"style"]] property, however the two objects have different purposes. The object returned from getComputedStyle is read-only and can be used to inspect the element's style (including those set by a <style> element or an external stylesheet). The elt.style object should be used to set styles on a specific element.}}
+{{Summary_Section|Gets the values of all the CSS properties of an element after applying the active stylesheets and resolving the basic computations they may contain. 
+
+The returned object is of the same type that the object returned from the element's [[css/cssom/style|"style"]] property, however the two objects have different purposes. The object returned from getComputedStyle is read-only and can be used to inspect the element's style (including those set by a <style> element or an external stylesheet). The elt.style object should be used to set styles on a specific element.
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
@@ -24,7 +28,7 @@
 |Javascript_data_type=CSSStyleDeclaration
 |Return_value_description=A [[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']] object that contains the CSS settings applied to the desired object.
 
-The settings in the returned object account for all applicable style rules and represent the final values for the various CSS properties applied to the specified object.
+The settings in the returned object account for all applicable style rules and represent the resolved values for the various CSS properties applied to the specified object.
 }}
 {{Examples_Section
 |Not_required=No
@@ -45,15 +49,25 @@ var style = window.getComputedStyle(elem1, null);
 }}
 }}
 {{Notes_Section
-|Notes=The first argument must be an Element (passing a non-Element Node, like a #text Node, will throw an error). Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned URL values now have quotes around the URL, like this: url("http://foo.com/bar.jpg").
+|Notes=The first argument must be an Element (passing a non-Element Node, like a #text Node, will throw an error). 
 
-The returned object actually represents the CSS 2.1 used values, not the computed values. Originally, CSS 2.0 defined the computed values to be the "ready to be used" values of properties after cascading and inheritance, but CSS 2.1 redefined computed values as pre-layout, and used values as post-layout. The getComputedStyle function returns the old meaning of computed values, now called used values. There is no DOM API to get CSS 2.1 computed values.
 
-The returned value is, in certain known cases, expressly incorrect by deliberate intent. In particular, to avoid the so called CSS History Leak security issue, browsers may expressly "lie" about the used value for a link and always return values as if a user has never visited the linked site, and/or limit the styles that can be applied using the :visited pseudo-selector. See http://blog.mozilla.com/security/2010/03/31/plugging-the-css-history-leak/ and http://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/ for details of the examples of how this is implemented, most other modern browser have applied similar changes to the application of pseudo-selector styles and the values returned by getComputedStyle.
+The returned object actually represents the CSS 2.1 resolved values, not the computed values. While those values are usually equal, some older CSS properties like 'width', 'height' or 'padding' will return their used value instead.
+
+Originally, CSS 2.0 defined the computed values to be the "ready to be used" final values of properties after cascading and inheritance, but CSS 2.1 redefined computed values as pre-layout, and added the used values as post-layout. 
+
+The differences between pre- and post-layout does include the resolution of percentages relative to the width or the height of an element (its layout).
+
+While the computed style will return percentages values untouched in this case, the getComputedStyle function will sometimes, due to backwards compatibility, return the old meaning of computed values (now called used values) for a specific set of CSS 2.0 properties and resolve those percentages anyway. 
+
+
+The returned value can, in certain known cases, be expressly inaccurate by deliberate intent. In particular, to avoid the so called CSS History Leak security issue, browsers may expressly "lie" about the used value for a link and always return values as if a user has never visited the linked site. See http://blog.mozilla.com/security/2010/03/31/plugging-the-css-history-leak/ and http://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/ for details of the examples of how this is implemented, most other modern browser have applied similar changes to the application of pseudo-selector styles and the values returned by getComputedStyle.
 
 During a CSS transition, getComputedStyle returns the original property value in FireFox, but the final property value in WebKit.
 
 When the ''pseudoElementName'' is set to a value other than null, the value is interpreted as a CSS pseudo-element with respect to the object specified in the ''element'' parameter.
+
+Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned URL values now have quotes around the URL, like this: url("http://foo.com/bar.jpg").
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -61,6 +75,10 @@ When the ''pseudoElementName'' is set to a value other than null, the value is i
 |URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html
 |Status=Recommendation
 |Relevant_changes=Section 2.2.1
+}}{{Related Specification
+|Name=CSS Object Model (resolved style)
+|URL=http://dev.w3.org/csswg/cssom/#resolved-values
+|Status=Draft
 }}
 }}
 {{Compatibility_Section
