@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies (with grid-template-rows) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.}}
+{{Summary_Section|Specifies (with [[css/properties/grid-template-rows|grid-template-rows]]) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.}}
 {{CSS Property
 |Initial value=none
 |Applies to=grid containers
@@ -19,6 +19,7 @@
 |Description=Indicates that there is no explicit grid; any rows/columns will be implicitly generated, and their size will be determined by the grid-auto-rows and grid-auto-columns properties.
 }}{{CSS Property Value
 |Data Type=<track-list>
+|Description=Specifies the track list for the grid columns. See [http://www.w3.org/TR/css3-grid-layout specification] for complete syntax.
 }}{{CSS Property Value
 |Data Type=subgrid <line-name-list>
 |Description=Indicates that the grid will align to its parent grid in that axis. Rather than specifying the sizes of rows/columns explicitly, they will be taken from the parent grid’s definition. If the grid container is not a grid item, this value computes to "none".
