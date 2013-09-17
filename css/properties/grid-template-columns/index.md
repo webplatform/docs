@@ -19,7 +19,7 @@
 |Description=Indicates that there is no explicit grid; any rows/columns will be implicitly generated, and their size will be determined by the grid-auto-rows and grid-auto-columns properties.
 }}{{CSS Property Value
 |Data Type=<track-list>
-|Description=Specifies the track list for the grid columns. See [http://www.w3.org/TR/css3-grid-layout specification] for complete syntax.
+|Description=Specifies the track list for the grid columns. See [http://www.w3.org/TR/css3-grid-layout/#track-list specification] for complete syntax.
 }}{{CSS Property Value
 |Data Type=subgrid <line-name-list>
 |Description=Indicates that the grid will align to its parent grid in that axis. Rather than specifying the sizes of rows/columns explicitly, they will be taken from the parent grid’s definition. If the grid container is not a grid item, this value computes to "none".
