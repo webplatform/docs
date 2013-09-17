@@ -30,7 +30,7 @@
 Creates a page layout where areas are defined for header content (head), 
 navigational content (nav), footer content (foot), and main content (main). 
 Accordingly, the template creates three rows and two columns, with four named grid areas. 
-The head area spans both columns and the first row of the grid.
+The head area spans both columns in the first row of the grid.
 */
 
 <style type="text/css">
