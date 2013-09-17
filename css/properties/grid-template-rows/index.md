@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies (with [[css/properties/grid-template-columns|grid-template-columns]) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.}}
+{{Summary_Section|Specifies (with [[css/properties/grid-template-columns|grid-template-columns]]) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Grid containers
