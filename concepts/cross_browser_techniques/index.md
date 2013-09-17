@@ -11,6 +11,7 @@
 * [[concepts/progressive_enhancement|An introduction to progressive enhancement]]
 * [[concepts/graceful degradation|Graceful degradation]]
 * [[concepts/polyfill|Polyfill]]
+* [http://www.modern.ie modern.IE]
 * [[concepts/proprietary_internet_explorer_techniques|Proprietary Internet Explorer Techniques]]
 
 ==Working With New Features==
