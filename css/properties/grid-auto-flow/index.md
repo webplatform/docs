@@ -89,10 +89,7 @@ object sequence within the grid.
 </style>
 }}{{Single Example
 |Language=HTML
-|Code=<!-- 
-Form elements for the above example.
--->
-<form>
+|Code=<form>
   <label for="firstname">First name:</label>
   <input type="text" id="firstname" name="firstname" />
   <label for="lastname">Last name:</label>
@@ -125,6 +122,7 @@ Form elements for the above example.
     <button id="next">Next</button>
   </div>
 </form>
+
 }}
 }}
 {{Notes_Section}}
