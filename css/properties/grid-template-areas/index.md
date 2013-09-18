@@ -56,7 +56,7 @@ The head area spans both columns in the first row of the grid.
 }}
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
