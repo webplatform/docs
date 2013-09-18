@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Rather than use the auto-placement algorithm, auto-placed grid items are positioned according to the grid-auto-position property.
+|Description=Causes auto-placed grid items to be placed according to the grid-auto-position property, rather than using the auto-placement algorithm.
 }}{{CSS Property Value
 |Data Type=rows
 |Description=Causes items to be placed by filling each row in turn, adding new rows as necessary.
@@ -25,7 +25,7 @@
 |Description=Causes items to be placed by filling each column in turn, adding new columns as necessary.
 }}{{CSS Property Value
 |Data Type=dense
-|Description=If specified, the auto-placement algorithm uses a "dense" packing algorithm approach, which attempts to fill in holes in the grid if smaller items come up later. (By contract, the default auto-placement algorithm packing approach is "sparse", which permanently skips spaces that it cannot fill with the current grid item.)
+|Description=If specified, the auto-placement algorithm uses a "dense" packing algorithm approach, which attempts to fill in holes in the grid if smaller items come up later. (By contrast, the default auto-placement algorithm packing approach is "sparse", which permanently skips spaces that it cannot fill with the current grid item.)
 
 Note: This may cause items to appear out-of-order.
 }}
@@ -122,7 +122,6 @@ object sequence within the grid.
     <button id="next">Next</button>
   </div>
 </form>
-
 }}
 }}
 {{Notes_Section}}
