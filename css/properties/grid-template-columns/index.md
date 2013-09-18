@@ -33,9 +33,12 @@
 /* Creates five grid lines:
 1. At the start edge of the grid container
 2. 100px from the start edge of the grid container
-3. At a distance from the previous line equal to half the free space (the width of the grid container minus the width of the non-flexible grid tracks)
-4. At a distance from the previous line equal to the maximum size of any grid items belonging to the column between these two lines
-5. At a distance from the previous line at least as large as the largest minimum size of any grid items belonging to the column between these two lines, but no larger than the other half of the free space
+3. At a distance from the previous line equal to half the free space 
+   (the width of the grid container minus the width of the non-flexible grid tracks)
+4. At a distance from the previous line equal to the maximum size of any grid items 
+   belonging to the column between these two lines
+5. At a distance from the previous line at least as large as the largest minimum size of any grid items 
+   belonging to the column between these two lines, but no larger than the other half of the free space
 */
 }}
 }}
