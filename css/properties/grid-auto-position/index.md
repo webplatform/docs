@@ -30,7 +30,6 @@ will be placed at column 1, row 2.
 #grid{
     grid-auto-position: 1 / 2;
   }
-
 }}
 }}
 {{Notes_Section}}
@@ -42,7 +41,7 @@ will be placed at column 1, row 2.
 }}
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
