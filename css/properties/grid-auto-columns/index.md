@@ -24,7 +24,10 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/*
-In this example, grid item B is positioned in column 5, which creates four implicit columns (1-4) and one implicit row (2). The implicit (auto) columns and rows are sized at 20px.
+In this example, grid item B is positioned in column 5, 
+which creates four implicit columns (1-4) and one implicit row (2). 
+The implicit (auto) columns and rows are sized at 20px
+using grid-auto-columns and grid-column-rows.
 */
 <style type="text/css">
   #grid { 
