@@ -1,32 +1,65 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|When a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]), implicit grid tracks are created to hold it. This property (with [[css/properties/grid-auto-rows|grid-auto-rows]] specifies the size of such implicitly-created tracks.}}
 {{CSS Property
+|Initial value=auto
+|Applies to=Grid containers
 |Inherited=No
+|Media=visual
+|Computed value=See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification
 |Animatable=No
-|Values=
+|CSS percentages=See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification
+|Values={{CSS Property Value
+|Data Type=<track-size>
+|Description=A space-separated track list specifying the line names and track sizing functions of the grid. See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification for details.
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/*
+In this example, grid item B is positioned in column 5, which creates four implicit columns (1-4) and one implicit row (2).
+*/
+<style type="text/css">
+  #grid { 
+display: grid; 
+grid-template-columns: 20px; 
+grid-template-rows: 20px }
+  #A { grid-column: 1;          grid-row: 1; }
+  #B { grid-column: 5;          grid-row: 1 / span 2; }
+  #C { grid-column: 1 / span 2; grid-row: 2; }
+</style>
+
+<div id="grid">
+  <div id="A">A</div>
+  <div id="B">B</div>
+  <div id="C">C</div>
+</div>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Grid Layout Module
+|URL=http://www.w3.org/TR/css3-grid-layout
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
