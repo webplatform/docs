@@ -24,7 +24,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/*
-In this example, grid item B is positioned in column 5, which creates four implicit columns (1-4) and one implicit row (2).
+In this example, grid item B is positioned in column 5, which creates four implicit columns (1-4) and one implicit row (2). The implicit columns and rows are sized at 20px.
 */
 <style type="text/css">
   #grid { 
@@ -35,14 +35,6 @@ grid-auto-rows: 20px }
   #B { grid-column: 5;          grid-row: 1 / span 2; }
   #C { grid-column: 1 / span 2; grid-row: 2; }
 </style>
-
-}}{{Single Example
-|Language=HTML
-|Code=<div id="grid">
-  <div id="A">A</div>
-  <div id="B">B</div>
-  <div id="C">C</div>
-</div>
 }}
 }}
 {{Notes_Section}}
