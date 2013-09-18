@@ -1026,12 +1026,11 @@ Had enough?
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
-|Manual_links=* [svg/tutorials/smarter_svg_shapes] (SVG basic shapes and text)
-* [svg/tutorials/smarter_svg_graphics] (SVG graphic effects)
-* [svg/tutorials/smarter_svg_filters] (SVG filters)
-* [svg/tutorials/smarter_svg_animation] (SVG animation)
-* [svg/tutorials/smarter_svg_deploy] (SVG deployment)
-
+|Manual_links=* [[svg/tutorials/smarter_svg_shapes]] (SVG basic shapes and text)
+* [[svg/tutorials/smarter_svg_graphics]] (SVG graphic effects)
+* [[svg/tutorials/smarter_svg_filters]] (SVG filters)
+* [[svg/tutorials/smarter_svg_animation]] (SVG animation)
+* [[svg/tutorials/smarter_svg_deploy]] (SVG deployment)
 }}
 {{Topics|SVG}}
 {{External_Attribution
