@@ -1,10 +1,11 @@
 {{Page_Title|SVG grand tour}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
-{{Summary_Section|
-This guide shows you how to build a pair of animating eyeballs, providing a comprehensive tour of SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and provides essential context on SVG transforms and coordinate spaces.}}
+{{Summary_Section|This guide shows you how to build a pair of animating eyeballs, providing a comprehensive tour of SVG features detailed in other tutorials. It shows how to maintain a set of reusable graphic components, and provides essential context on SVG transforms and coordinate spaces.}}
 {{Tutorial
 |Content=SVG is a standard markup format, like HTML and XML, that
 renders ''Scalable Vector Graphics'' within web browsers.  ''Vector'' or
@@ -1014,7 +1015,6 @@ text properties.)
 Had enough?
 
 [[Image:svgGrandTour_eyeball_tired.png|600px]]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -1026,6 +1026,12 @@ Had enough?
 }}
 {{See_Also_Section
 |Topic_clusters=Filters
+|Manual_links=* [svg/tutorials/smarter_svg_shapes] (SVG basic shapes and text)
+* [svg/tutorials/smarter_svg_graphics] (SVG graphic effects)
+* [svg/tutorials/smarter_svg_filters] (SVG filters)
+* [svg/tutorials/smarter_svg_animation] (SVG animation)
+* [svg/tutorials/smarter_svg_deploy] (SVG deployment)
+
 }}
 {{Topics|SVG}}
 {{External_Attribution
