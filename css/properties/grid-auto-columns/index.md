@@ -29,14 +29,16 @@ In this example, grid item B is positioned in column 5, which creates four impli
 <style type="text/css">
   #grid { 
 display: grid; 
-grid-template-columns: 20px; 
-grid-template-rows: 20px }
+grid-auto-columns: 20px; 
+grid-auto-rows: 20px }
   #A { grid-column: 1;          grid-row: 1; }
   #B { grid-column: 5;          grid-row: 1 / span 2; }
   #C { grid-column: 1 / span 2; grid-row: 2; }
 </style>
 
-<div id="grid">
+}}{{Single Example
+|Language=HTML
+|Code=<div id="grid">
   <div id="A">A</div>
   <div id="B">B</div>
   <div id="C">C</div>
