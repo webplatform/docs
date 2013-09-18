@@ -11,9 +11,9 @@
 |Applies to=Grid containers
 |Inherited=No
 |Media=visual
-|Computed value=See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification
+|Computed value=As specified
 |Animatable=No
-|CSS percentages=See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification
+|CSS percentages=As specified
 |Values={{CSS Property Value
 |Data Type=<track-size>
 |Description=A space-separated track list specifying the line names and track sizing functions of the grid. See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification for details.
