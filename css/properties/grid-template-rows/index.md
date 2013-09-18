@@ -32,9 +32,12 @@
 |Code=grid-template-rows: 1fr minmax(min-content, 1fr);
 /* Creates four grid lines:
 1. At the start edge of the grid container
-2. At a distance from the previous line equal to half the free space (the width of the grid container minus the width of the non-flexible grid tracks)
-3. At a distance from the previous line equal to the maximum size of any grid items belonging to the column between these two lines
-4. At a distance from the previous line at least as large as the largest minimum size of any grid items belonging to the column between these two lines, but no larger than the other half of the free space
+2. At a distance from the previous line equal to half the free space 
+   (the width of the grid container minus the width of the non-flexible grid tracks)
+3. At a distance from the previous line equal to the maximum size of any grid items 
+   belonging to the column between these two lines
+4. At a distance from the previous line at least as large as the largest minimum size of any grid items 
+   belonging to the column between these two lines, but no larger than the other half of the free space
 */
 }}
 }}
