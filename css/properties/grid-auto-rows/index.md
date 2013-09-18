@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]), implicit grid tracks are created to hold it. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]] specifies the size of such implicitly-created tracks.}}
+{{Summary_Section|When a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]), implicit grid tracks are created to hold it. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]]) specifies the size of such implicitly-created tracks.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid containers
