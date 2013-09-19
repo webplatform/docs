@@ -9,14 +9,14 @@
 {{Summary_Section|Returns the value of the content attribute within a specified namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=name
-|Data type=String
-|Description=The name of the desired attribute within the specified namespace.
-|Optional=No
-}}{{Method Parameter
 |Name=namespaceURI
 |Data type=String
 |Description=The namespace URI that defines the desired attribute, or a null value.
+|Optional=No
+}}{{Method Parameter
+|Name=name
+|Data type=String
+|Description=The name of the desired attribute within the specified namespace.
 |Optional=No
 }}
 |Method_applies_to=dom/Element
