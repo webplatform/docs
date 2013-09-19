@@ -3,7 +3,7 @@
 |Checked_Out=No
 }}
 {{Byline
-|Name=Vincent Hardy, Sylvain Galineau
+|Name=Vincent Hardy
 |URL=http://blogs.adobe.com/digitalmedia/author/vhardy/
 }}
 {{Summary_Section|This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.}}
