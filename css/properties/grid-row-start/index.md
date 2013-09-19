@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|A grid item's placement in a grid area consists of a grid position and a grid span. The grid-row-start property (with [[css/properties/grid-column-start|grid-column-start]], [[css/properties/grid-row-end|grid-row-end]], and [[css/properties/grid-column-end|grid-column-end]]) determines a grid item's placement by specifying the grid lines of a grid item's grid area.}}
+{{Summary_Section|A grid item's placement in a grid area consists of a grid position and a grid span. The grid-row-start property (with [[css/properties/grid-row-end|grid-row-end]], [[css/properties/grid-column-start|grid-column-start]], and [[css/properties/grid-column-end|grid-column-end]]) determines a grid item's placement by specifying the grid lines of a grid item's grid area.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid items
