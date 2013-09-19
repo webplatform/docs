@@ -15,25 +15,12 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=auto
-|Description=The property contributes nothing to the grid item’s placement.
-}}{{CSS Property Value
-|Data Type=<ident>
-|Description=If there is a named grid area with the specified name, contributes a line to the placement by specifying the line at the corresponding edge of that named grid area. Otherwise, if there is a named line with the specified name, contributes a line to the placement by specifying the first line of that name. 
-Otherwise, contributes nothing to the placement.
-}}{{CSS Property Value
-|Data Type=<integer> <ident>
-|Description=Contributes a line to the placement by specifying the Nth grid line. (Negative integers are allowed, but zero is not; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, it instead specifies the first grid line (or the last, if <integer> is negative). If not enough lines of that name exist, it specifies the last such named line (or the first, if the <integer> is negative).
-}}{{CSS Property Value
-|Data Type=span [ <integer> ''or'' <ident> ]
-|Description=Contributes a grid span to the placement by specifying that the corresponding edge of the item’s grid area is N grid lines from the opposite edge of the item's grid area. (Negative integers and zero are not allowed; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, the name is ignored. If not enough lines of that name exist, it spans to the last such named line.
-}}{{CSS Property Value
 |Data Type=<grid-line>
 |Description=Contributes a line, a span, or nothing (automatic) to the item's row placement or column placement. Values have the following meanings:
-*'''auto''' The property contributes nothing to the grid item’s placement.
-*'''<ident>''' If there is a named grid area with the specified name, contributes a line to the placement by specifying the line at the corresponding edge of that named grid area. Otherwise, if there is a named line with the specified name, contributes a line to the placement by specifying the first line of that name. Otherwise, contributes nothing to the placement.
-*'''<integer> <ident>''' Contributes a line to the placement by specifying the Nth grid line. (Negative integers are allowed, but zero is not; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, it instead specifies the first grid line (or the last, if <integer> is negative). If not enough lines of that name exist, it specifies the last such named line (or the first, if the <integer> is negative).
-*'''span [ <integer>''' ''or'' '''<ident> ]''' Contributes a grid span to the placement by specifying that the corresponding edge of the item’s grid area is N grid lines from the opposite edge of the item's grid area. (Negative integers and zero are not allowed; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, the name is ignored. If not enough lines of that name exist, it spans to the last such named line.
+*'''auto''' - The property contributes nothing to the grid item’s placement.
+*'''<ident>''' - If there is a named grid area with the specified name, contributes a line to the placement by specifying the line at the corresponding edge of that named grid area. Otherwise, if there is a named line with the specified name, contributes a line to the placement by specifying the first line of that name. Otherwise, contributes nothing to the placement.
+*'''<integer> <ident>''' - Contributes a line to the placement by specifying the Nth grid line. (Negative integers are allowed, but zero is not; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, it instead specifies the first grid line (or the last, if <integer> is negative). If not enough lines of that name exist, it specifies the last such named line (or the first, if the <integer> is negative).
+*'''span''' [ '''<integer>''' ''or'' '''<ident>''' ] - Contributes a grid span to the placement by specifying that the corresponding edge of the item’s grid area is N grid lines from the opposite edge of the item's grid area. (Negative integers and zero are not allowed; if <integer> is omitted, it defaults to 1.) If a name is given as an <ident>, only lines with that name are counted. If no line with that name exists, the name is ignored. If not enough lines of that name exist, it spans to the last such named line.
 }}
 }}
 {{Examples_Section
