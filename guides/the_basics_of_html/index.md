@@ -150,7 +150,7 @@ appear in the document: they are the kind of elements that would
 appear in a paragraph of text. Some common inline elements include
 hypertext links, highlighted words or phrases and short quotations.
 
-Note: HTML5 redefines the element categories in HTML5: see [http://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories Element content categories]. While these definitions are more accurate and less ambiguous than the ones that went before, they are a lot more complicated to understand than "block" and "inline". We will therefore stick with these throughout this course.
+Note: HTML5 redefines the element categories in HTML: see [http://www.whatwg.org/specs/web-apps/current-work/complete/section-index.html#element-content-categories Element content categories]. While these definitions are more accurate and less ambiguous than the ones that went before, they are a lot more complicated to understand than "block" and "inline". We will therefore stick with these throughout this course.
 
 == Character references ==
  
