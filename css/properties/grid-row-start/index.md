@@ -28,19 +28,19 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/* auto */
-grid-row-start: auto
+grid-row-start: auto;
 
 /* <ident> */
-grid-row:start: "C";
+grid-row-start: "C";
 
 /* <integer> <ident> */
-grid-row:start: 2 "B";
+grid-row-start: 2 "B";
 
 /* span <integer> */
-grid-row:start: span 2;
+grid-row-start: span 2;
 
 /* span <ident> */
-grid-row:start: span "C";
+grid-row-start: span "C";
 }}
 }}
 {{Notes_Section}}
