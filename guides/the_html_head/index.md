@@ -1,6 +1,6 @@
 {{Page_Title|The HTML <head>}}
-{{Languages|guides/the_html_head}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code><head></code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
@@ -44,7 +44,7 @@ For a gentle introduction to character encodings, see the article [http://www.w3
 
 == Judging a document by its title ==
  
-One of the most important elements in the <code>head</code> is the <code>title</code>. The text contained within the <code>title</code> is displayed by pretty much all user agents/browsers in the browser application title bar (the bar bordering the top of the browser window. It is the first piece of content that web users will see when they visit your site, and therefore it is very important. In addition, assistive technologies like screen readers (software that reads out web pages to users with visual impairments) give this as a first hint of what visitors can expect from the document, and a lot of search engines work similarly too, so your chances to get found on the web increase drastically when you use a good title that is human readable and contains the right keywords. Let’s take the following HTML document ([http://dev.opera.com/articles/view/13-the-html-head-element/headexample.html headexample.html] in your zip file) and open it in a browser.
+One of the most important elements in the <code>head</code> is the <code>title</code>. The text contained within the <code>title</code> is displayed by pretty much all user agents/browsers in the browser application title bar (the bar bordering the top of the browser window). It is the first piece of content that web users will see when they visit your site, and therefore it is very important. In addition, assistive technologies like screen readers (software that reads out web pages to users with visual impairments) give this as a first hint of what visitors can expect from the document, and a lot of search engines work similarly too, so your chances to get found on the web increase drastically when you use a good title that is human readable and contains the right keywords. Let’s take the following HTML document ([http://dev.opera.com/articles/view/13-the-html-head-element/headexample.html headexample.html] in your zip file) and open it in a browser.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -72,7 +72,8 @@ The next thing to do might seem superfluous at first as it will never be directl
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <title>Yahoo! UK &amp; Ireland Eurosport—Sports News|Live Scores|Sport</title>
+  <title>Yahoo! UK &amp; Ireland Eurosport—Sports News
+|Sport</title>
   <meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more.">
   <meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo">
 </head>
@@ -251,6 +252,7 @@ The other benefits of keeping styles and scripts in their own files are:
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -272,3 +274,4 @@ The other benefits of keeping styles and scripts in their own files are:
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages|guides/the_html_head}}
