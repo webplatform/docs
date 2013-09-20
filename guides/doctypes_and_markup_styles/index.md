@@ -126,7 +126,7 @@ The below should give you some good arguments for why:
 * "HTML5 allows stray text (not in a container)":  No, this is a bad practice - it will be likely to form an unexpected DOM - less control of your code.
 * "HTML5 allows attribute values without quotes": Yes, but sometimes this will break down, eg when you have a <code>class</code> attribute containing two class names, for example <code>&lt;div class="one two"&gt;&lt;/div&gt;</code>. If you wrote <code>&lt;div class=one two&gt;</code> you may confuse the browser - it may think <code>two</code> is a new attribute.
 
-Validating HTML5 for XHTML style syntax a bit of a pain - as a suggestion, you could use http://validator.w3.org, but set the doctype to "XHTML 1.0" instead of "detect automatically". This will take your HTML5 document and validate it as XHTML 1.0, giving you error messages as appropriate. Of course, it will also give you error messages for the HTML5 elements, because they are undefined as far as XHTML 1.0 is concerned.
+Validating HTML5 for XHTML style syntax can be a bit of a pain - as a suggestion, you could use http://validator.w3.org, but set the doctype to "XHTML 1.0" instead of "detect automatically". This will take your HTML5 document and validate it as XHTML 1.0, giving you error messages as appropriate. Of course, it will also give you error messages for the HTML5 elements, because they are undefined as far as XHTML 1.0 is concerned.
 
 === Serving "real" XML ===
 
