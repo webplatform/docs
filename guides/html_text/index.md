@@ -1,5 +1,6 @@
 {{Page_Title|HTML text}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
@@ -209,7 +210,7 @@ so:
 
 === Small print ===
 
-Another element  that was presentational and therefore naughty in HTML4, but that has been redefined in HTML5 is <code>&lt;small&gt;</code>.  It used to be a presentational element for making text appear smaller, but in HTML5 it is now used to mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
+Another element  that was presentational and therefore naughty in HTML4, but has been redefined in HTML5 is <code>&lt;small&gt;</code>.  It used to be a presentational element for making text appear smaller, but in HTML5 it is now used to mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
 
 <syntaxhighlight lang="html5"><p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
 Creative Commons Attribution Share-alike license</a>.</small></p></syntaxhighlight>
