@@ -1,30 +1,24 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Compatibility Incomplete, Examples Needed
 |Checked_Out=No
-|Editorial notes=previously imported as ms-grid-column
+|Editorial notes=Previously imported as ms-grid-column.
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Grid column provides a shorthand for "grid-column-start" and "grid-column-end." 
-It sets an item's column positioning on a grid defined by "display: grid;"
-}}
+{{Summary_Section|Shorthand for setting [[css/properties/grid-column-start|grid-column-start]] and [[css/properties/grid-column-end|grid-column-end]] in a single declaration.}}
 {{CSS Property
-|Initial value=1
-|Applies to=grid item elements
+|Initial value=See individual properties
+|Applies to=Grid items
 |Inherited=No
-|Computed value=Specified value
+|Media=visual
+|Computed value=See individual properties
 |Animatable=No
+|CSS percentages=See individual properties
 |Values={{CSS Property Value
-|Data Type=&lt;integer&gt; {{!}}{{!}} &lt;string&gt;
-|Description=Integer or string value that identifies the specified column.
-}}{{CSS Property Value
-|Data Type=span && &lt;integer&gt; {{!}}{{!}} &lt;string&gt;
-|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Automatically places an item using the auto-placement algorithm.
+|Data Type=<grid-line> [ / <grid-line> ]
+|Description=If two <grid-line> values are specified, the grid-column-start property is set to the value before the slash, and the grid-column-end property is set to the value after the slash. If the second value is omitted, then if the first value is an identifier (<ident>), the grid-column-end property is also set to that <ident>; otherwise, it is set to "auto".
 }}
 }}
 {{Examples_Section
@@ -102,27 +96,13 @@ It sets an item's column positioning on a grid defined by "display: grid;"
 |LiveURL=http://code.webplatform.org/gist/5842400
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The column numbering system is a 1-based index, with 1 being the default. That is, column numbering does not begin with zero.
-|Import_Notes====Syntax===
-<code>'''grid-column: '''''
-&lt;integer&gt;
-''</code>
-
-<code>'''grid-column: '''''
-&lt;string&gt;
-''</code>
-
-
-<code>'''grid-column: '''''
-&lt;integer&gt; / span
-''</code>
-===Standards information===
-"http://dev.w3.org/csswg/css-grid/#placement-shorthands"
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Grid Layout Module
+|URL=http://www.w3.org/TR/css3-grid-layout
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -132,7 +112,6 @@ The column numbering system is a 1-based index, with 1 being the default. That i
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Grid Layout
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
