@@ -3,7 +3,7 @@
 |High-level issues=Stub
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the <code>successCallback</code> is invoked on the calling application with a [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object as its argument.}}
 {{API_Object_Method
