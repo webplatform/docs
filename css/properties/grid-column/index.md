@@ -25,75 +25,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=<pre>
-<!DOCTYPE html>
-<html >
-<head>
-    <title>Simple grid example</title>
-  <style type="text/css">
-	#mygrid { 
-		display: grid; 
-		grid-definition-columns: 50px; 
-		grid-definition-rows: 30px;
-	}
-	#title { grid-column: 1/ span 4;    grid-row: 1; }
-	#editor { grid-column: 1;       grid-row: 2 }
-	#writer { grid-column: 2;       grid-row: 2; }
-                #project{ grid-column: 3 / span 2; grid-row: 2; }
-</style>
+|Code=/*
+The shorthand syntax
+*/
+grid-column: 1 / 3;
+/*
+is equivalent to
+*/
+grid-column-start: 1
+grid-column-end: 3;
 
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id="mygrid"&gt;
-	&lt;div id="title"&gt;&lt;h1&gt;"Writer - editor   
- projects"&lt;/h1&gt;&lt;/div&gt;
-	&lt;div id="editor"&gt;John Sterling</div&gt;
-	&lt;div id="writer"&gt;Chuck Brown</div&gt;
-                 &lt;div id="project"&gt;Webplatform.org CSS property descriptions.&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-|LiveURL=http://code.webplatform.org/gist/5842103
-}}{{Single Example
-|Language=CSS
-|Code=<pre>
-<!DOCTYPE html>
-<html >
-<head>
-    <title>Simple grid example</title>
-  <style type="text/css">
-	#mygrid { 
-		display: grid; 
-		grid-definition-columns: 
-                                        "title" auto
-                                        "editors"  200px 
-                                        "writers"  200px
-                                        "projects" 400px
-                                         ;
-		grid-definition-rows: 30px;
-	}
-	#title { grid-column: "titles"/ span 4;    grid-row: 1; }
-	#editor { grid-column: "editors";       grid-row: 2 }
-	#writer { grid-column: "writers";       grid-row: 2; }
-                #project{ grid-column: "projects" / span 2; grid-row: 2; }
-</style>
-
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id="mygrid"&gt;
-	&lt;div id="title"&gt;&lt;h1&gt;"Writer - editor   
- projects"&lt;/h1&gt;&lt;/div&gt;
-	&lt;div id="editor"&gt;John Sterling</div&gt;
-	&lt;div id="writer"&gt;Chuck Brown</div&gt;
-                 &lt;div id="project"&gt;Webplatform.org CSS property descriptions.&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-|LiveURL=http://code.webplatform.org/gist/5842400
 }}
 }}
 {{Notes_Section}}
