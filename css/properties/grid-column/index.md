@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Compatibility Incomplete, Examples Needed
+|Content=Examples Needed
 |Checked_Out=No
 |Editorial notes=Previously imported as ms-grid-column.
 }}
