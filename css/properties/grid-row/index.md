@@ -8,16 +8,18 @@
 {{API_Name}}
 {{Summary_Section|Shorthand for setting [[css/properties/grid-row-start|grid-row-start]] and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
 {{CSS Property
-|Initial value=See individual properties 
+|Initial value=See individual properties
 |Applies to=Grid items
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties 
+|Computed value=See individual properties
 |Animatable=No
-|CSS percentages=See individual properties 
+|CSS percentages=See individual properties
 |Values={{CSS Property Value
 |Data Type=<grid-line> [ / <grid-line> ]
-|Description=If two <grid-line> values are specified, the grid-row-start property is set to the value before the slash, and the grid-row-end property is set to the value after the slash. If the second value is omitted, then if the first value is an identifier (<ident>), the grid-row-end property is also set to that <ident>; otherwise, it is set to "auto".
+|Description=If two <grid-line> values are specified, the grid-row-start property is set to the value before the slash, and the grid-row-end property is set to the value after the slash. 
+
+When the second value is omitted, then if the first value is an identifier (<ident>), the grid-row-end property is also set to that <ident>; otherwise, it is set to "auto".
 }}
 }}
 {{Examples_Section
@@ -33,7 +35,6 @@ is equivalent to
 */
 grid-row-start: 1
 grid-row-end: 3;
-
 }}
 }}
 {{Notes_Section}}
