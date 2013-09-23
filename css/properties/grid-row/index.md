@@ -1,53 +1,48 @@
 {{Page_Title|grid-row}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
-|Content=Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand for grid-before/after and grid-start/end.}}
+{{Summary_Section|Shorthand for setting [[css/properties/grid-row-start|grid-row-start]] and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
 {{CSS Property
-|Initial value=1
-|Applies to=grid items
+|Initial value=See individual properties 
+|Applies to=Grid items
 |Inherited=No
 |Media=visual
+|Computed value=See individual properties 
 |Animatable=No
+|CSS percentages=See individual properties 
 |Values={{CSS Property Value
-|Data Type=&lt;integer&gt; {{!}}{{!}} &lt;string&gt;
-|Description=Integer value or String that identifies the specified row.
-}}{{CSS Property Value
-|Data Type=span && &lt;integer&gt; {{!}}{{!}} &lt;string&gt;
-|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Automatically places an item using the auto-placement algorithm.
+|Data Type=<grid-line> [ / <grid-line> ]
+|Description=If two <grid-line> values are specified, the grid-row-start property is set to the value before the slash, and the grid-row-end property is set to the value after the slash. If the second value is omitted, then if the first value is an identifier (<ident>), the grid-row-end property is also set to that <ident>; otherwise, it is set to "auto".
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Places an element "#label" into the "labels" column on row 3.
-|Code=#label {
+|Code=/*
+The shorthand syntax
+*/
+grid-row: 1 / 3;
+/*
+is equivalent to
+*/
+grid-row-start: 1
+grid-row-end: 3;
 
-grid-column: 'labels';
-grid-row: 3;
-
-}
 }}
 }}
-{{Notes_Section
-|Usage=<code>'''grid-row: '''''
-&lt;integer&gt;
-''</code>
-|Notes====Remarks===
-The row numbering system is a 1-based index, with 1 being the default. That is, row numbering does not begin with zero.
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/css3-grid-layout/#grid-row CSS Grid Layout]
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Grid Layout Module
+|URL=http://www.w3.org/TR/css3-grid-layout
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -56,9 +51,7 @@ The row numbering system is a 1-based index, with 1 being the default. That is, 
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Grid Layout
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
