@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -12,7 +14,7 @@
 |Media=visual
 |Computed value=See individual properties
 |Animatable=No
-|CSS percentages=See individual properties 
+|CSS percentages=See individual properties
 |Values={{CSS Property Value
 |Data Type=<grid-template>
 |Description=Itself a shorthand property, see [[css/properties/grid-template|grid-template]] for details.
@@ -39,7 +41,6 @@ grid-template: none;
 grid-auto-columns: 1fr;
 grid-auto-rows: 1fr;
 grid-auto-flow: rows;
-
 }}{{Single Example
 |Language=CSS
 |Code=/*
@@ -53,7 +54,6 @@ grid-template: none;
 grid-auto-columns: 1fr;
 grid-auto-rows: auto;
 grid-auto-flow: columns;
-
 }}
 }}
 {{Notes_Section}}
