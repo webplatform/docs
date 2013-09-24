@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Stub, Deletion Candidate
 |Checked_Out=No
-|Editorial notes=Stub article until this is added back in to an editor's draft.
+|Editorial notes=Obsolete; not in current W3C spec.
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
