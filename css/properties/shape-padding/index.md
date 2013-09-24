@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Examples Needed
+|High-level issues=Deletion Candidate
 |Checked_Out=No
+|Editorial notes='''Obsolete; not in current W3C spec.'''
 }}
 {{Standardization_Status}}
 {{API_Name}}
