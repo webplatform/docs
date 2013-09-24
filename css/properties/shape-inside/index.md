@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Deletion Candidate
+|High-level issues=Deletion Candidate
 |Checked_Out=No
 |Editorial notes='''Obsolete; not in current W3C spec.'''
 }}
