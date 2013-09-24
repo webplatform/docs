@@ -1,21 +1,23 @@
-{{Page_Title|alignment-adjust}}
+{{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Review
-|Content=Incomplete
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>alignment-adjust</code> property allows more precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the <code>alignment-adjust</code> property, the position of the baseline identified by the <code>alignment-adjust</code> can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element. The user agent should use heuristics to determine the position of a non existing baseline for a given element.}}
+{{Summary_Section|This property allows precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the alignment-adjust property, the position of the baseline identified by the alignment-baseline can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=inline-level elements
+|Applies to=Inline-level elements
 |Inherited=No
 |Media=visual
-|Computed value=see text
+|Computed value=As specified
 |Animatable=No
-|CSS percentages=refers to the 'line-height' of the element
+|CSS percentages=Refers to the line-height of the element
 |Values={{CSS Property Value
+|Data Type=auto
+|Description=For each glyph corresponding to textual information within the element, the alignment-point is the intersection of the start-edge of the glyph box and the block-progression-direction position of the alignment point from the font. Padding, border or margin do not affect that alignment point. The alignment point of the inline-level element itself is at the intersection of the start-edge of the first inline box and the baseline identified by the ‘alignment-baseline’ property, if this baseline exists in the baseline-table for the element dominant-baseline. If that specific baseline does not exist, the user agent may use heuristics to determine where the missing baseline would be. 
+}}{{CSS Property Value
 |Data Type=baseline
 |Description=The alignment point is at the intersection of the start-edge of the element and the dominant-baseline of the element.
 }}{{CSS Property Value
@@ -23,37 +25,37 @@
 |Description=The alignment point is at the intersection of the start-edge of the element and the before-edge of the extended inline box of the element. This may include or not the line-height of the element, depending on the line-stacking-strategy.
 }}{{CSS Property Value
 |Data Type=text-before-edge
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'text-before-edge' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the text-before-edge baseline of the element.
 }}{{CSS Property Value
 |Data Type=central
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'central' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the central baseline of the element.
 }}{{CSS Property Value
 |Data Type=middle
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'middle' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the middle baseline of the element.
 }}{{CSS Property Value
 |Data Type=after-edge
 |Description=The alignment point is at the intersection of the start-edge of the element and the after-edge of the extended inline box of the element. This may include or not the line-height of the element, depending on the line-stacking-strategy.
 }}{{CSS Property Value
 |Data Type=text-after-edge
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'text-after-edge' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the text-after-edge baseline of the element.
 }}{{CSS Property Value
 |Data Type=ideographic
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'ideographic' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the ideographic baseline of the element.
 }}{{CSS Property Value
 |Data Type=alphabetic
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'alphabetic' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the alphabetic baseline of the element.
 }}{{CSS Property Value
 |Data Type=hanging
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'hanging' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the hanging baseline of the element.
 }}{{CSS Property Value
 |Data Type=mathematical
-|Description=The alignment point is at the intersection of the start-edge of the element and the 'mathematical' baseline of the element.
+|Description=The alignment point is at the intersection of the start-edge of the element and the mathematical baseline of the element.
 }}{{CSS Property Value
 |Data Type=<percentage>
-|Description=The computed value of the property is this percentage multiplied by the computed 'line-height' of the element. The alignment point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the computed value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of '0%' makes the dominant-baseline the alignment point.
+|Description=The computed value of the property is this percentage multiplied by the computed line-height of the element. The alignment point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the computed value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of "0%" makes the dominant-baseline the alignment point.
 }}{{CSS Property Value
 |Data Type=<length>
-|Description=The alignment-point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the <length> value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of '0cm' makes the dominant-baseline the alignment point.
+|Description=The alignment-point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the length value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of "0cm" makes the dominant-baseline the alignment point.
 }}
 }}
 {{Examples_Section
@@ -120,20 +122,19 @@ p img:first-child {
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3 module: line
-|URL=http://www.w3.org/TR/css3-linebox/#alignment-adjust-prop
-|Status=W3C Working Draft
+|Name=CSS Line Layout Module
+|URL=http://dev.w3.org/csswg/css-inline/
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout
 |External_links=* [http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust alignment-adjust by Eric Meyer]
 }}
 {{Topics|CSS}}
