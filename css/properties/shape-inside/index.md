@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Stub, Deletion Candidate
 |Checked_Out=No
-|Editorial notes=Obsolete; not in current W3C spec.
+|Editorial notes='''Obsolete; not in current W3C spec.'''
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
