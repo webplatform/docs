@@ -5,16 +5,18 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Set the value that is used to offset the inner wrap shape from other shapes. Inline content that intersects a shape with this property will be pushed by this shape's margin.}}
+{{Summary_Section|Adds a margin to a [[css/properties/shape-outside|shape-outside]]. In effect, defines a new shape that is the smallest contour around all the points that are the ''shape-margin'' distance outward perpendicular to each point on the underlying shape. For points where a perpendicular is not defined (e.g., a triangle's corner), takes all points on a circle centered at the point and with a radius of the ''shape-margin'' distance. This property accepts only non-negative values.}}
 {{CSS Property
 |Initial value=0
-|Applies to=exclusion elements
+|Applies to=Floats
 |Inherited=No
 |Media=visual
+|Computed value=The absolute length
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<length>
-|Description=The value that is used to offset the inner wrap shape from other shapes.
+|Description=The distance, in pixels, that is used to calculate the "outer margin" shape's offset from the original shape.
 }}
 }}
 {{Examples_Section
@@ -39,13 +41,12 @@
 |LiveURL=http://code.webplatform.org/gist/6500717
 }}
 }}
-{{Notes_Section
-|Import_Notes=shape-margin used to be called wrap-margin but was renamed since May 3rd 2012: "Changed wrap-margin and wrap-padding to shape-margin and shape-padding."
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
 |URL=* http://www.w3.org/TR/css-shapes/
+|Status=W3C Editor's Draft
 }}
 }}
 {{Compatibility_Section
@@ -76,9 +77,9 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
+|Manual_links=[[css/properties/wrap-flow|wrap-flow]]
 }}
-{{Topics|CSS, CSS-Regions}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
