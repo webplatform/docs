@@ -11,7 +11,7 @@
 |Applies to=Floats
 |Inherited=No
 |Media=visual
-|Computed value=Computed lengths for <basic-shape>, the absolute URI for <uri>, otherwise as specified.
+|Computed value=Computed lengths for <basic-shape>, the absolute URI for <image>, otherwise as specified.
 |Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -29,7 +29,6 @@
 }}{{CSS Property Value
 |Data Type=<image>
 |Description=If <image> references an image (fetched using the CORS-enabled fetch method defined by the HTML5 specification), the shape is extracted and computed based on the alpha channel of the image. If <image> does not reference an image or if the fetch attempt results in any error such that there is no fallback image, the effect is as if the value ''auto'' had been specified.
-
 }}
 }}
 {{Examples_Section
@@ -55,36 +54,8 @@ shape-outside: ellipse(0, 0, 50%, 30%);
 shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 
 /* shape used is the alpha channel of an image file */
-shape-outside: url(''path/to/image.png'');
+shape-outside: url(path/to/image.png);
 |LiveURL=http://code.webplatform.org/gist/5832982
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a rectangle equal to the content box
-|Code=shape-outside: rectangle(0, 0, 100%, 100%);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using an inset rectangle 10px smaller than the content box in each dimension
-|Code=shape-outside: inset-rectangle(5px, 5px, 5px, 5px);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a rounded rectangle
-|Code=shape-outside: rectangle(0 ,0, 100%, 100%, 10px, 10px);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a circle filling the content box
-|Code=shape-outside: circle(0, 0, 50%);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a ellipse wider than it is tall
-|Code=shape-outside: ellipse(0, 0, 50%, 30%);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a diamond described as a polygon
-|Code=shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-}}{{Single Example
-|Language=CSS
-|Description=shape-outside using a shape from the alpha channel of an image
-|Code=shape-outside: url(path/to/image.png);
 }}
 }}
 {{Notes_Section
