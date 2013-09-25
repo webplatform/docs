@@ -30,7 +30,6 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 #myimg {
   shape-image-threshold: 0.25;
 }
-
 |LiveURL=http://code.webplatform.org/gist/5833790
 }}
 }}
@@ -52,7 +51,7 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=See also: [[css/properties/shape-outside|shape-outside]].
+|Manual_links=[[css/properties/shape-outside|shape-outside]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
