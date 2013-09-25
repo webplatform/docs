@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Adds a margin to a [[css/properties/shape-outside|shape-outside]]. In effect, defines a new shape that is the smallest contour around all the points that are the ''shape-margin'' distance outward perpendicular to each point on the underlying shape. For points where a perpendicular direction is not defined (e.g., a triangle's corner), takes all points on a circle centered at the point and with a radius of the ''shape-margin'' distance. This property accepts only non-negative values.}}
+{{Summary_Section|Adds a margin to a [[css/properties/shape-outside|shape-outside]]. In effect, defines a new shape that is the smallest contour around all the points that are the ''shape-margin'' distance outward perpendicular to each point on the underlying shape. For points where a perpendicular direction is not defined (e.g., a triangle corner), takes all points on a circle centered at the point and with a radius of the ''shape-margin'' distance. This property accepts only non-negative values.}}
 {{CSS Property
 |Initial value=0
 |Applies to=Floats
@@ -45,7 +45,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
-|URL=* http://www.w3.org/TR/css-shapes/
+|URL=http://www.w3.org/TR/css-shapes/
 |Status=W3C Editor's Draft
 }}
 }}
