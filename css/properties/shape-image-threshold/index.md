@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a ''minimum opacity'' threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.}}
+{{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a "minimum opacity" threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.}}
 {{CSS Property
 |Initial value=0.0
 |Applies to=Floats
