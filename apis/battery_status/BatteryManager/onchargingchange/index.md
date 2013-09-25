@@ -1,9 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
-|Editorial notes={{Editorial
-| this article is currently being worked on
-}}
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
