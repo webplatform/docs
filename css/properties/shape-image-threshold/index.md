@@ -23,7 +23,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Note: Depends upon an image previously specified by [[css/properties/shape-outside|shape-outside].
+|Description=Note: Depends upon an image previously specified by [[css/properties/shape-outside|shape-outside]].
 |Code=/*
 Extract a shape from an image by enclosing all pixels greater than 25% opacity
 */
