@@ -1,17 +1,17 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies how exclusions impact inline content within block-level elements}}
+{{Summary_Section|Specifies how exclusions affect inline content within block-level elements. Elements lay out their inline content in their content area but wrap around exclusion areas.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=block-level elements
+|Applies to=Block-level elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified except for element's whose ‘float’ computed value is not none, in which case the computed value is ‘auto’.
+|Computed value=As specified except for elements whose float computed value is not "none", in which case the computed value is "auto".
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -46,7 +46,7 @@
 [[Image:exclusion_wrap_side_maximum.png|alt=wrap-flow:maximum applied to grid positioned elements;]]
 }}{{CSS Property Value
 |Data Type=clear
-|Description=Inline flow content can only flow before and after the exclusion in the flow content's block direction and must leave the areas next to the start and end edges of the exclusion empty.
+|Description=Inline flow content can only flow before and after the exclusion in the flow content's block direction, and must leave the areas next to the start and end edges of the exclusion empty.
 
 [[Image:exclusion_wrap_side_clear.png|alt=wrap-flow:clear applied to grid positioned elements;]]
 }}
@@ -54,10 +54,9 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=An example running wrap-flow. Click on the demo link for a better understanding.
 |Code=/*
 At the time of writing only available by default in IE10.
-Can be enabled in Canary under Enable experimental WebKit features.
+Can be enabled in Canary under "Enable experimental WebKit features".
 */
 
 .flow-item {
@@ -82,19 +81,15 @@ Can be enabled in Canary under Enable experimental WebKit features.
 }}
 }}
 {{Notes_Section
-|Usage=If the property's computed value is ‘auto’, the element does not become an exclusion.
+|Usage=If the property's computed value is "auto", the element does not become an exclusion.
 
-An exclusion affects the inline flow content descended from the exclusion's containing block and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the  [[css/properties/wrap-through|wrap-through]] property can be used.
+An exclusion affects the inline flow content descended from the exclusion's containing block, and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the  [[css/properties/wrap-through|wrap-through]] property can be used.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Exclusions Module Level 1
 |URL=http://dev.w3.org/csswg/css-exclusions/
 |Status=Editor's Draft
-}}{{Related Specification
-|Name=CSS Exclusions Module Level 1
-|URL=http://www.w3.org/TR/css3-exclusions/
-|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -105,9 +100,9 @@ An exclusion affects the inline flow content descended from the exclusion's cont
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=See also: [[css/properties/wrap-through|wrap-through]] property
+|Manual_links=[[css/properties/wrap-through|wrap-through]]
 }}
-{{Topics|CSS, CSS-Regions}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
