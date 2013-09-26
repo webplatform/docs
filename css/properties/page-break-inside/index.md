@@ -75,6 +75,7 @@ IE8 Standards mode rendering.
 |URL=http://www.w3.org/TR/CSS2/page.html#page-break-props
 |Status=W3C Recommendation
 }}
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
