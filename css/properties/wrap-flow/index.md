@@ -54,6 +54,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Code=/*
 At the time of writing only available by default in IE10.
 Can be enabled in Canary under "Enable experimental WebKit features".
