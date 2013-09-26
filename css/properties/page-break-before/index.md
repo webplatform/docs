@@ -36,60 +36,25 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following examples use the '''page-break-before''' attribute and the '''page-break-before''' property to start printing on a new page.
-
-This example uses the '''hn''' element as a selector in an embedded style sheet to break the page before all '''hn''' headings.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-h3 {
-	page-break-before: always;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;
-:
-&lt;/p&gt;
-&lt;h3&gt;Start New Section on New Page&lt;/h3&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/page-break-before.htm
-}}{{Single Example
-|Description=This example uses a button to turn off the page break before the object that has an [[html/attributes/id|'''ID''']] value of '''oPrgrph'''. When the page is printed or previewed, a page break occurs before the first paragraph unless the user clicks the button.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function offBreak()
-{
-    oPrgrph.style.pageBreakBefore{{=}}"";
-}
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;button onclick{{=}}"offBreak()"&gt;Turn Off Break&lt;/button&gt;
-&lt;p id{{=}}"oPrgrph" style{{=}}"page-break-before: always"&gt;
-: 
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pagebreakBefore.htm
+|Not_required=Yes
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property applies when printing the document. This property does not apply to the '''br''' or '''hr''' elements.
-If there are conflicts between the value of this property and the [[css/properties/page-break-after|'''page-break-after''']] property of the object previously displayed in the browser, the value that results in the largest number of page breaks is used.
-Page breaks are not permitted inside positioned objects.
-|Import_Notes====Syntax===
-<code>'''page-break-before: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3.1
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties
+|URL=http://www.w3.org/TR/css3-break/#page-break
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Paged Media Module Level 3, 9. Page Breaks
+|URL=http://www.w3.org/TR/css3-page/#page-breaks
+|Status=W3C Working Draft
+|Relevant_changes=The CSS Fragmentation Module module defines CSS box fragmentation, including across page breaks.
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1), 13.3.1 Page break properties: 'page-break-before', 'page-break-after', 'page-break-inside'
+|URL=http://www.w3.org/TR/CSS2/page.html#page-break-props
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,16 +65,6 @@ Page breaks are not permitted inside positioned objects.
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/page-break-inside|page-break-inside]]</code>
-*<code>[[css/properties/page-break-after|page-break-after]]</code>
-*<code>Conceptual</code>
-*<code>CSS How-to - Optimize Pages for Printing Using CSS</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
