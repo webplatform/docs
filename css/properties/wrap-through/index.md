@@ -12,7 +12,7 @@
 |Inherited=No
 |Media=visual
 |Computed value=As specified
-|Animatable=Yes
+|Animatable=No
 |Values={{CSS Property Value
 |Data Type=wrap
 |Description=The element inherits its parent node's wrapping context. Its descendant inline content wraps around exclusions defined outside the element.
@@ -30,7 +30,6 @@ wrap-through: wrap;
 
 /* none */
 wrap-through: none;
-
 }}
 }}
 {{Notes_Section
