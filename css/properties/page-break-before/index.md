@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|The page-break-before property sets the page-breaking behavior before an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The [http://www.w3.org/TR/css3-break/#page-break CSS3 Fragmentation spec] defines breaks for all CSS box fragmentation.}}
 {{CSS Property
