@@ -80,14 +80,19 @@ Page breaks are not permitted inside positioned objects.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3.1
 }}
 {{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|Specifications={{Related Specification
+|Name=CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties
+|URL=http://www.w3.org/TR/css3-break/#page-break
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS Paged Media Module Level 3, 9. Page Breaks
+|URL=http://www.w3.org/TR/css3-page/#page-breaks
+|Status=W3C Working Draft
+|Relevant_changes=The CSS Fragmentation Module module defines CSS box fragmentation, including across page breaks.
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1), 13.3.1 Page break properties: 'page-break-before', 'page-break-after', 'page-break-inside'
+|URL=http://www.w3.org/TR/CSS2/page.html#page-break-props
+|Status=W3C Recommendation
 }}
 {{See_Also_Section
 |Topic_clusters=Paged Media
