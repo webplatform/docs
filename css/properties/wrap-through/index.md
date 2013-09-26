@@ -1,31 +1,37 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies whether an element respects its parent's wrapping context (which is defined by the use of the [[css/properties/wrap-flow|wrap-flow]] property).}}
+{{Summary_Section|Specifies whether an element inherits its parent's wrapping context as defined by the [[css/properties/wrap-flow|wrap-flow]] property.}}
 {{CSS Property
 |Initial value=wrap
-|Applies to=block-level elements
+|Applies to=Block-level elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified
 |Animatable=Yes
-|CSS object model property=wrapThrough
 |Values={{CSS Property Value
 |Data Type=wrap
-|Description=This element's inline content respects its parent's wrapping context. Content will wrap around exclusions defined outside this element and inside this element
+|Description=The element inherits its parent node's wrapping context. Its descendant inline content wraps around exclusions defined outside the element.
 }}{{CSS Property Value
 |Data Type=none
-|Description=This element's inline content ignores its parent's wrapping context. Content will only wrap around exclusions defined inside this element
+|Description=This element's inline content ignores its parent's wrapping context. Its descendent inline content only wraps around exclusions defined inside this element.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* wrap */
+wrap-through: wrap;
+
+/* none */
+wrap-through: none;
+
+}}
 }}
 {{Notes_Section
 |Usage=[[Image:exclusion_wrap_through.png|alt=wrap-flow:start applied to grid positioned elements;]]
@@ -35,10 +41,6 @@
 |Name=CSS Exclusions Module Level 1
 |URL=http://dev.w3.org/csswg/css-exclusions/
 |Status=Editor's Draft
-}}{{Related Specification
-|Name=CSS Exclusions Module Level 1
-|URL=http://www.w3.org/TR/css3-exclusions/
-|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -49,9 +51,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=See also: [[css/properties/wrap-flow|wrap-flow]] property
+|Manual_links=[[css/properties/wrap-flow|wrap-flow]]
 }}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
