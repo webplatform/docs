@@ -37,7 +37,9 @@ wrap-through: none;
 }}
 }}
 {{Notes_Section
-|Usage=[[Image:exclusion_wrap_through.png|alt=wrap-flow:start applied to grid positioned elements;]]
+|Usage=Top half of image below illustrates "wrap-through:wrap"; bottom half illustrates "wrap-through:none".
+
+[[Image:exclusion_wrap_through.png|alt=wrap-flow:start applied to grid positioned elements]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
