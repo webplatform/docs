@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The page-break-before property sets the page-breaking behavior before an element.}}
+{{Summary_Section|The page-break-before property sets the page-breaking behavior before an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The [http://www.w3.org/TR/css3-break/#page-break CSS3 Fragmentation spec] defines breaks for all CSS box fragmentation.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -66,7 +64,7 @@
 {{See_Also_Section
 |Topic_clusters=Paged Media
 }}
-{{Topics|CSS}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
