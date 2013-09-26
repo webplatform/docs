@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Sets the page-breaking behavior inside an element.}}
+{{Summary_Section|Sets the page-breaking behavior inside an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The [http://www.w3.org/TR/css3-break/#page-break CSS3 Fragmentation spec] defines breaks for all CSS box fragmentation.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -27,39 +26,10 @@ Neither force nor forbid a page break inside the object.
 }}
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following style rule causes Internet Explorer
-to avoid breaking paragraphs across pages.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-@media print {
-    p {
-        page-break-inside: avoid;
-    }
-}
-&lt;/style&gt;
+|Not_required=Yes
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property applies when the document is printed.
-Normally, Windows Internet Explorer attempts to avoid page breaks
-inside tables, blocks with borders, and positioned or floated elements.
-The '''page-break-inside''' attribute extends this behavior to other elements. A value of '''avoid''' instructs the browser to start the element on the following page if there is not enough room for it on the current page.
-Page-break behavior is inherited from parent objects. A potential
-page-break location is also influenced by the
-[[css/properties/page-break-after|'''page-break-after''']]
-attribute of the preceding object, and/or the
-[[css/properties/page-break-before|'''page-break-before''']]
-attribute of the following object.
-This property requires Internet Explorer to be in
-IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''page-break-inside: '''avoid '''{{!}}''' auto '''{{!}}''' inherit '''{{!}}''' empty string</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties
