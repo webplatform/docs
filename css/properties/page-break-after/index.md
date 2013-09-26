@@ -94,6 +94,7 @@ Page breaks are not permitted inside positioned objects.
 |URL=http://www.w3.org/TR/CSS2/page.html#page-break-props
 |Status=W3C Recommendation
 }}
+}}
 {{See_Also_Section
 |Topic_clusters=Paged Media
 |Manual_sections====Related pages (MSDN)===
