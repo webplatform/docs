@@ -18,7 +18,7 @@
 |Description=The element inherits its parent node's wrapping context. Its descendant inline content wraps around exclusions defined outside the element.
 }}{{CSS Property Value
 |Data Type=none
-|Description=This element's inline content ignores its parent's wrapping context. Its descendent inline content only wraps around exclusions defined inside this element.
+|Description=The element ignores its parent's wrapping context. Its descendent inline content only wraps around exclusions defined inside this element.
 }}
 }}
 {{Examples_Section
