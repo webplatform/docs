@@ -26,10 +26,14 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/* wrap */
+.exelem1 {
 wrap-through: wrap;
+}
 
 /* none */
+.exelem2 {
 wrap-through: none;
+}
 }}
 }}
 {{Notes_Section
