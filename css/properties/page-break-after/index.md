@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The page-break-after property is supported in all major browsers.}}
+{{Summary_Section|The page-break-after property is supported in all major browsers. With CSS3, page-break-* properties are only aliases of the break-* properties. The [http://www.w3.org/TR/css3-break/#page-break CSS3 Fragmentation spec] defines breaks for all CSS box fragmentation.}}
 {{CSS Property
 |Applies to=All elements
 |Inherited=No
@@ -36,49 +34,10 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following examples use the '''page-break-after''' attribute and the '''page-break-after''' property to start printing on a new page.
-
-This example uses the '''p''' element as a selector in an embedded style sheet to break the page at the end of all paragraphs.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-P {
-	page-break-after: always;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;
-: 
-&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/page-break-after.htm
-}}{{Single Example
-|Description=This example uses a button to turn off the page break after the object that has an [[html/attributes/id|'''ID''']] value of '''oPrgrph'''. When the page is printed or previewed, a page break occurs after the first paragraph unless the user clicks the button.
-|Code=&lt;html&gt;
-&lt;body&gt;
-&lt;p id{{=}}"oPrgrph" style{{=}}"page-break-after: always;"&gt;If you print (or preview) this 
-page, there will be a page-break after this paragraph, unless you click the button.&lt;/p&gt;
-&lt;!-- CLICKING ON THIS BUTTON TURNS OFF BREAK --&gt;
-&lt;button onclick{{=}}"oPrgrph.style.pageBreakAfter{{=}}''"&gt;Turn Off Break&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pagebreakAfter.htm
+|Not_required=Yes
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property applies when printing the document. This property does not apply to the '''br''' or '''hr''' elements.
-If there are conflicts between this property and the [[css/properties/page-break-before|'''page-break-before''']] value on the object previously displayed in the browser, the value that results in the largest number of page breaks is used.
-Page breaks are not permitted inside positioned objects.
-|Import_Notes====Syntax===
-<code>'''page-break-after: '''auto '''{{!}}''' always '''{{!}}''' avoid '''{{!}}''' left '''{{!}}''' right '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 13.3.1
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties
@@ -95,20 +54,17 @@ Page breaks are not permitted inside positioned objects.
 |Status=W3C Recommendation
 }}
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |Topic_clusters=Paged Media
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/page-break-inside|page-break-inside]]</code>
-*<code>[[css/properties/page-break-before|page-break-before]]</code>
-*<code>Conceptual</code>
-*<code>CSS How-to - Optimize Pages for Printing Using CSS</code>
 }}
-{{Topics|CSS}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
