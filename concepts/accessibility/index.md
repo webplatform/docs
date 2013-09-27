@@ -65,6 +65,12 @@ For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA e
 </p>
 <p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
 
+===Learning Materials==
+
+[https://webaccessibility.withgoogle.com Introduction to Web Accessibility] is an online course from Google that introduces tools and techniques for web developers to easily ensure that websites are more accessible to users who are blind or have low vision.
+
+Learn the fundamentals of using ARIA within HTML5, and inspect the accessibility of websites using Google Chrome Extensions: ChromeVox and Accessibility Developer Tools. This course is a starting point for developers to learn how to build accessibility into websites to help users with visual impairments.
+
 ==The components of web accessibility==
 
 The accessibility principles apply to the components introduced below. It is essential that the components of web development and interaction work together in order for the Web to be accessible to people with disabilities. The W3C Web Accessibility Initiative (WAI) provides guidelines that cover the accessibility requirements of the technical components.
@@ -126,10 +132,11 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 * [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features] -- please a little explanation of what ARIA *is*
 * [http://www.w3.org/TR/WCAG20-TECHS/ HTML and CSS techniques for passing WCAG conformance criteria]
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Making Accessible Windows Store apps using JavaScript and HTML]
+*[https://webaccessibility.withgoogle.com Introduction to Web Accessibility by Google]
 {{Notes_Section
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
-Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation. 
+Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
 }}
 {{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
