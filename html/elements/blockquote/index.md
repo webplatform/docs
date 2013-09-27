@@ -25,9 +25,11 @@
 |Language=HTML
 |Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
 |Code=&lt;P&gt;He said,
-&lt;BLOCKQUOTE&gt;"Hi there!"&lt;/BLOCKQUOTE&gt;
+&lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}
 }}
+<P>He said,
+<blockquote cite="http://www.example.com">"Hi there!"</blockquote>
 {{Notes_Section
 |Notes====Remarks===
 |Import_Notes====Standards information===
