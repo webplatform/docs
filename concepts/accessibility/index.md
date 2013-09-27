@@ -65,7 +65,7 @@ For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA e
 </p>
 <p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
 
-===Learning Materials==
+===Learning Materials===
 
 [https://webaccessibility.withgoogle.com Introduction to Web Accessibility] is an online course from Google that introduces tools and techniques for web developers to easily ensure that websites are more accessible to users who are blind or have low vision.
 
