@@ -835,8 +835,8 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>q</code>
-*<code>cite</code>
+*<code>[[html/elements/q|q]]</code>
+*<code>[[html/elements/cite|cite]]</code>
 }}
 {{Topics|HTML}}
 {{External_Attribution
