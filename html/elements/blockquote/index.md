@@ -834,7 +834,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages (internal)===
 *<code>[[html/elements/q|q]]</code>
 *<code>[[html/elements/cite|cite]]</code>
 }}
