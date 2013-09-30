@@ -17,12 +17,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example shows how to create a style rule that sets the '''-ms-scrollbar-highlight-color''' property for a '''textArea''' element.
-|Code=<html>
-  <body>
-   <h1>Yo dude</h1> 
-  </body>
-</html>
-&lt;HTML&gt;
+|Code=&lt;HTML&gt;
   &lt;HEAD&gt;
     &lt;STYLE&gt;
         TEXTAREA.BlueHighlight  { scrollbar-highlight-color:blue }
