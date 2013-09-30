@@ -17,6 +17,7 @@
 {{See_Also_Section
 |Topic_clusters=Mobile
 |External_links=* [http://www.w3.org/TR/image-capture/ Mediastream Image Capture]
+* [http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/ Article on Dev.Opera - 26 September 2013]
 * [http://www.w3.org/TR/2013/WD-image-capture-20130709/ Mediastream Image Capture - W3C First Public Working Draft 09 July 2013]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
