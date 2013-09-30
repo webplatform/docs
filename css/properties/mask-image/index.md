@@ -24,9 +24,6 @@
 ** <url>: A URL reference to a <mask> element, e.g., <code>url(commonmasks.svg#mask)</code>, or to a CSS image.
 ** child: A keyword indicating that the last direct child <mask> element of the element the mask-image property is applied to should be used as the mask source. It is equivalent to <code>select(mask:last-of-type)</code>.
 ** <child-selector>: A functional notation accepting a comma-separated list of compound selectors that represents the first matching child <mask> element in DOM tree order.
-
-
-
 }}
 }}
 {{Examples_Section
@@ -58,9 +55,7 @@ div { mask-image: url(dot-mask.png) }
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Background, Border
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
