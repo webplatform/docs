@@ -25,8 +25,7 @@
 *repeat: Tiling of the mask object occurs in both the x and y directions as often as needed to cover the background area.
 *space: Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area without being clipped, and then the images are spaced out to fill the area.
 *round: Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area. If it does not fit a whole number of times, it is rescaled so that it does. 
-*no-repeat: Tiling of the mak object does not occur; that is, it is placed once and not repeated.
-
+*no-repeat: Tiling of the mask object does not occur; that is, it is placed once and not repeated.
 }}
 }}
 {{Examples_Section
@@ -40,7 +39,6 @@ body {
   mask-position: center;
   mask-repeat: repeat-y;
 }
-
 }}
 }}
 {{Notes_Section}}
