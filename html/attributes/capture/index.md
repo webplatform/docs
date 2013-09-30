@@ -65,12 +65,10 @@ The media capture mechanism builds upon the security and privacy protections pro
 {{See_Also_Section
 |Topic_clusters=Mobile
 |External_links=* [http://www.w3.org/TR/html-media-capture/ HTML Media Capture - W3C Page]
-* [http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/ - Article on Dev.Opera - 26 September 2013]
+* [http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/ Article on Dev.Opera - 26 September 2013]
 * [http://www.w3.org/TR/2013/CR-html-media-capture-20130509/ HTML Media Capture - W3C Candidate Recommendation 09 May 2013]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
-
-
 }}
 {{Topics|Mobile}}
 {{External_Attribution
