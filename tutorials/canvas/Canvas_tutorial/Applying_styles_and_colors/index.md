@@ -6,43 +6,50 @@
 }}
 {{Byline}}
 {{Summary_Section|This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.}}
-{{Tutorial
-|Next_page=tutorials/canvas/Canvas_tutorial/Transformations
-|Prev_page=tutorials/canvas/Canvas_tutorial/Using_images
-|Content=In the chapter about [[tutorials/canvas/Canvas_tutorial/Drawing_shapes|drawing shapes]] I used only the default line and fill styles. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
+
+In the chapter about [[tutorials/canvas/Canvas_tutorial/Drawing_shapes|drawing shapes]] only the default line and fill styles were used. In this chapter we will explore ''all'' the canvas options we have at our disposal to make our drawings a little more attractive.
  
 == Colors ==
  
 Up until now we've only seen methods of the drawing context. If we want to apply colors to a shape, there are two important properties we can use: <code>fillStyle</code> and <code>strokeStyle</code>.
   
-<code>'''fillStyle''' = color</code><br> <code>'''strokeStyle''' = color</code>
+<code>strokeStyle</code> is used for setting the shape outline color and <code>fillStyle</code> is for the fill color.  These properties can be set to a string representing a CSS color value, a [[#Gradients | gradient]] object, or a [[#Patterns|pattern]] object. By default, the stroke and fill color are set to black (CSS color value #000000).
   
-<code>strokeStyle</code> is used for setting the shape outline color and <code>fillStyle</code> is for the fill color. <code>color</code> can be a string representing a CSS color value, a gradient object, or a pattern object. We'll look at gradient and pattern objects later. By default, the stroke and fill color are set to black (CSS color value #000000).
- 
-The valid strings you can enter should, according to the specification, be [[CSS3 color values]]. Each of the following examples describe the same color.
+If you set the <code>strokeStyle</code> and/or <code>fillStyle</code> property, the new value becomes the default for all properties being drawn from then on. For every object you want in a different color, you will need to reassign the <code>fillStyle</code> or <code>strokeStyle</code> property with the new color value before that object is rendered.
+
+The valid strings these color properties accept are expressed by [[CSS3 color values]]. Each of the following examples describe the same color.
  
 <pre>// these all set the fillStyle to 'orange'
 ctx.fillStyle = "orange";
 ctx.fillStyle = "#FFA500";
-ctx.fillStyle = "rgb(255,165,0)";
-ctx.fillStyle = "rgba(255,165,0,1)";
+ctx.fillStyle = "rgb(255, 165, 0)";
+ctx.fillStyle = "rgba(255, 165, 0, 1)";
 </pre>
  
 {{Note|Currently not all CSS 3 color values are supported in the Gecko engine. For instance the color values <code>hsl(100%,25%,0)</code> or <code>rgb(0,100%,0)</code> are not allowed. If you stick to the ones above, you won't run into any problems.}}
  
-{{Note|If you set the <code>strokeStyle</code> and/or <code>fillStyle</code> property, the new value becomes the default for all shapes being drawn from then on. For every shape you want in a different color, you will need to reassign the <code>fillStyle</code> or <code>strokeStyle</code> property.}}
- 
 ==== A fillStyle example ====
  
-[[File:Canvas fillstyle.png|right|A canvas filled with different colored squares]]In this example, I once again use two <code>for</code> loops to draw a grid of rectangles, each in a different color. The resulting image should look something like the image on the right. There is nothing too spectacular happening here. I use the two variables <code>i</code> and <code>j</code> to generate a unique RGB color for each square. I only modify the red and green values. The blue channel has a fixed value. By modifying the channels, you can generate all kinds of palettes. By increasing the steps, you can achieve something that looks like the color palettes Photoshop uses.
+[[File:Canvas fillstyle.png|right|A canvas filled with different colored squares]]
+
+In this example, two <code>for</code> loops are used to draw a grid of rectangles, each in a different color. The iterators <code>i</code> and <code>j</code> modify the red and green values of the <code>rgb()</code> function creating a dynamic palette. By decreasing the step values and increasing the number of rectangles rendered smoother transitions between colors can be achieved. 
 
 <pre>function draw() {
+  var stepValue = 42.5;
+  var numRows = 6;
+  var numCols = 6;
+
   var ctx = document.getElementById('canvas').getContext('2d');
-  for (var i=0;i&lt;6;i++){
-    for (var j=0;j&lt;6;j++){
-      ctx.fillStyle = 'rgb(' + Math.floor(255-42.5*i) + ',' + 
-                       Math.floor(255-42.5*j) + ',0)';
-      ctx.fillRect(j*25,i*25,25,25);
+
+  for (var i=0; i&lt;numRows; i++){
+    for (var j=0; j&lt;numCols; j++){
+
+      //set the fill style for each rectangle drawn
+      //the rgb() function only takes integers
+      //use Math.floor to return whole numbers
+      ctx.fillStyle = 'rgb(' + Math.floor(255 - (stepValue*i)) + ',' 
+                              + Math.floor(255 - (stepValue*j)) + ',0)';
+      ctx.fillRect( j*25, i*25, 25, 25);
     }
   }
 }
@@ -50,16 +57,16 @@ ctx.fillStyle = "rgba(255,165,0,1)";
 
 ==== A strokeStyle example ====
  
-[[File:Canvas strokestyle.png|right|Canvas filled with empty circles with different colored lines]]This example is similar to the one above but now using the <code>strokeStyle</code> property. Here I use the <code>arc</code> method to draw circles instead of squares.
+[[File:Canvas strokestyle.png|right|Canvas filled with empty circles with different colored lines]]This example is similar to the one above but now using the <code>strokeStyle</code> property. Here the <code>arc</code> method is used to draw circles instead of squares.
 
 <pre>  function draw() {
     var ctx = document.getElementById('canvas').getContext('2d');
-    for (var i=0;i&lt;6;i++){
-      for (var j=0;j&lt;6;j++){
+    for (var i=0; i&lt;6; i++){
+      for (var j=0; j&lt;6; j++){
         ctx.strokeStyle = 'rgb(0,' + Math.floor(255-42.5*i) + ',' + 
                          Math.floor(255-42.5*j) + ')';
         ctx.beginPath();
-        ctx.arc(12.5+j*25,12.5+i*25,10,0,Math.PI*2,true);
+        ctx.arc(12.5+j*25, 12.5+i*25, 10, 0, Math.PI*2, true);
         ctx.stroke();
       }
     }
@@ -68,51 +75,47 @@ ctx.fillStyle = "rgba(255,165,0,1)";
  
 == Transparency ==
  
-Besides drawing opaque shapes to the canvas, we can also draw semi-transparent shapes. This is done by setting the <code>globalAlpha</code> property, or we could assign a semi-transparent color to the stroke and/or fill style.
-  
-<code>'''globalAlpha''' = transparency value</code>
-  
-This property applies a transparency value to all shapes drawn on the canvas. The valid range of values is from 0.0 (fully transparent) to 1.0 (fully opaque). By default, this property is set to 1.0 (fully opaque).
+Semi-transparent shapes can also be drawn to the canvas. This can be accomplished in one of two ways, by setting the <code>globalAlpha</code> property, or assigning an alpha value to the stroke/fill style.
  
-The <code>globalAlpha</code> property can be useful if you want to draw a lot of shapes on the canvas with similar transparency. I think, however, that the next option is a little more practical.
+syntax:: <code>''context''.'''globalAlpha''' = ''transparency value'';</code>
+  
+This property applies a transparency value to '''all shapes''' drawn on the canvas. The valid range of values is from 0.0 (fully transparent) to 1.0 (fully opaque). By default, this property is set to 1.0 (fully opaque).
  
-Because the <code>strokeStyle</code> and <code>fillStyle</code> properties accept CSS 3 color values, we can use the following notation to assign a transparent color to them.
+If you would like to assign transparency on a per shape basis, you can use the <code>strokeStyle</code> and <code>fillStyle</code> properties mentioned above. Using the CSS3 <code>rgba()</code> function, the following notation assigns transparent color.
  
 <pre>// Assigning transparent colors to stroke and fill style
-ctx.strokeStyle = "rgba(255,0,0,0.5)";
-ctx.fillStyle = "rgba(255,0,0,0.5)";
+ctx.strokeStyle = "rgba(255, 0, 0, 0.5)";
+ctx.fillStyle = "rgba(255, 0, 0, 0.5)";
 </pre>
  
-The <code>rgba()</code> function is similar to the <code>rgb()</code> function but it has one extra parameter. The last parameter sets the transparency value of this particular color. The valid range is again between 0.0 (fully transparent) and 1.0 (fully opaque).
+The <code>rgba()</code> function is similar to the <code>rgb()</code> function but it has one extra parameter. The last parameter sets the alpha value of color defined by the r, g, and b parameters. The valid range is between 0.0 (fully transparent) and 1.0 (fully opaque).
  
 ==== A globalAlpha example ====
  
-[[File:Canvas globalalpha.png|right|A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.]]In this example I've drawn a background of four different colored squares. On top of these, I've draw a set of semi-transparent circles. The <code>globalAlpha</code> property is set at 0.2 which will be used for all shapes from that point on. Every step in the <code>for</code> loop draws a set of circles with an increasing radius. The final result is a radial gradient. By overlaying ever more circles on top of each other, we effectively reduce the transparency of the circles that have already been drawn. By increasing the step count and in effect drawing more circles, the background would completely disappear from the center of the image.
+[[File:Canvas globalalpha.png|right|A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.]]
 
-{{Note|
-* This example doesn't work in Firefox 1.5 beta 1. You'll need a nightly branch build or wait for a newer release to see this in action.
-* This example is broken on Safari as the colour is not specified correctly. Colour in example is specified as '#09F)' which is invalid according to the specification. Firefox, however, accepts the malformed colour definition.}}
+In this example, a set of semi-transparent concentric circles are drawn on top of four opaque squares. By setting the <code>globalAlpha</code> property before the <code>for</code> loop, the circles inherit the transparency value while the background does not. Overlaying the decreasing circles forms a radial gradient as their opacity is additive.
   
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
   // draw background
-  ctx.fillStyle = '#FD0';
+  ctx.fillStyle = 'yellow';
   ctx.fillRect(0,0,75,75);
-  ctx.fillStyle = '#6C0';
+  ctx.fillStyle = 'green';
   ctx.fillRect(75,0,75,75);
-  ctx.fillStyle = '#09F';
+  ctx.fillStyle = 'red';
   ctx.fillRect(0,75,75,75);
-  ctx.fillStyle = '#F30';
+  ctx.fillStyle = 'blue';
   ctx.fillRect(75,75,75,75);
-  ctx.fillStyle = '#FFF';
+  ctx.fillStyle = 'white';
 
   // set transparency value
   ctx.globalAlpha = 0.2;
 
   // Draw semi transparent circles
-  for (var i=0;i&lt;7;i++){
+  for (var i=0; i&lt;7; i++){
       ctx.beginPath();
-      ctx.arc(75,75,10+10*i,0,Math.PI*2,true);
+      ctx.arc(75, 75,10+10*i,0, Math.PI*2, true);
       ctx.fill();
   }
 }
@@ -120,7 +123,7 @@ The <code>rgba()</code> function is similar to the <code>rgb()</code> function b
  
 ==== An example using rgba() ====
  
-[[File:Canvas rgba.png|right|Small rectangles with increasing opacity, on a canvas.]]In this second example I've done something similar to the one above, but instead of drawing circles on top of each other, I've drawn small rectangles with increasing opacity. Using <code>rgba()</code> gives you a little more control and flexibility because we can set the fill and stroke style individually.
+[[File:Canvas rgba.png|right|Small rectangles with increasing opacity, on a canvas.]]Here, instead of drawing circles on top of each other, small rectangles are drawn with increasing opacity. Using <code>rgba()</code> gives you a little more control and flexibility because the fill and stroke styles can be set individually.
  
 <pre>function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
@@ -484,9 +487,12 @@ This example draws a text string with a shadowing effect.
 }
 
 </pre>
- 
+
+
 [[tutorials/canvas/Canvas_tutorial/Using_images|&lt;&lt;Previous      ||    ]][[tutorials/canvas/Canvas_tutorial/Transformations|   Next&gt;&gt;]]
 }}
+
+
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
