@@ -1,8 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete, Examples Needed, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
