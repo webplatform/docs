@@ -19,12 +19,12 @@
 |Values={{CSS Property Value
 |Data Type=<mask-reference>
 |Description=May have the following values:
-* none: Counts as an image layer but does not mask the element.
-* <image>: A CSS image.
-* <mask-source>:
-** <url>: A URL reference to a <mask> element, e.g., <code>url(commonmasks.svg#mask)</code>, or to a CSS image.
-** child: A keyword indicating that the last direct child <mask> element of the element the mask-image property is applied to should be used as the mask source. It is equivalent to <code>select(mask:last-of-type)</code>.
-** <child-selector>: A functional notation accepting a comma-separated list of compound selectors that represents the first matching child <mask> element in DOM tree order.
+* '''none''': Counts as an image layer but does not mask the element.
+* '''<image>''': A CSS image.
+* '''<mask-source>''':
+** '''<url>''': A URL reference to a <mask> element, e.g., <code>url(commonmasks.svg#mask)</code>, or to a CSS image.
+** '''child''': A keyword indicating that the last direct child <mask> element of the element the mask-image property is applied to should be used as the mask source. It is equivalent to <code>select(mask:last-of-type)</code>.
+** '''<child-selector>''': A functional notation accepting a comma-separated list of compound selectors that represents the first matching child <mask> element in DOM tree order.
 }}
 }}
 {{Examples_Section
