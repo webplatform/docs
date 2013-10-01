@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -74,7 +72,6 @@ This style attribute can be applied to any element with a
 [[css/properties/display|'''display''']]
 style of
 '''table-caption'''.
-
 |Import_Notes====Syntax===
 <code>'''caption-side: '''top '''{{!}}''' bottom</code>
 ===Standards information===
