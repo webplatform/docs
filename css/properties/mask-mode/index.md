@@ -17,11 +17,14 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<source-type>
-|Description=May have the following values:
-*'''auto''': Implicitly sets alpha or luminance, depending on the <mask-reference> value of the mask-image property. If it is of type <mask-source>, the luminance values of the mask image should be used as the mask values; if it is of type <image>, the alpha values of the mask image should be used as the mask values.
-*'''alpha''': Indicates that the alpha values of the mask image should be used as the mask values. 
-*'''luminance''': Indicates that the luminance values of the mask image should be used as the mask values.
+|Data Type=auto
+|Description=Implicitly sets alpha or luminance, depending on the <mask-reference> value of the mask-image property. If it is of type <mask-source>, the luminance values of the mask image should be used as the mask values; if it is of type <image>, the alpha values of the mask image should be used as the mask values.
+}}{{CSS Property Value
+|Data Type=alpha
+|Description=Indicates that the alpha values of the mask image should be used as the mask values.
+}}{{CSS Property Value
+|Data Type=luminance
+|Description=Indicates that the luminance values of the mask image should be used as the mask values.
 }}
 }}
 {{Examples_Section
