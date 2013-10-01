@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
-|Content=Not Neutral, Cleanup
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
