@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
