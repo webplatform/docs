@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
 |Checked_Out=No
 }}
 {{Standardization_Status}}
