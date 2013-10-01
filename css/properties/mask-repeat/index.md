@@ -19,14 +19,23 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<repeat-style>
-|Description=The repeating behavior of the mask, as in the CSS <code>background-repeat</code> property. Single values for <repeat-style> are:
-*'''repeat-x''': Tiling of the mask object occurs in the x direction.
-*'''repeat-y''': Tiling of the mask object occurs in the y direction.
-*'''repeat''': Tiling of the mask object occurs in both the x and y directions as often as needed to cover the background area.
-*'''space''': Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area without being clipped, and then the images are spaced out to fill the area.
-*'''round''': Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area. If it does not fit a whole number of times, it is rescaled so that it does. 
-*'''no-repeat''': Tiling of the mask object does not occur; that is, it is placed once and not repeated.
+|Data Type=repeat-x
+|Description=Tiling of the mask object occurs in the x direction.
+}}{{CSS Property Value
+|Data Type=repeat-y
+|Description=Tiling of the mask object occurs in the y direction.
+}}{{CSS Property Value
+|Data Type=repeat
+|Description=Tiling of the mask object occurs in both the x and y directions as often as needed to cover the background area.
+}}{{CSS Property Value
+|Data Type=space
+|Description=Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area without being clipped, and then the images are spaced out to fill the area.
+}}{{CSS Property Value
+|Data Type=round
+|Description=Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area. If it does not fit a whole number of times, it is rescaled so that it does. 
+}}{{CSS Property Value
+|Data Type=no-repeat
+|Description=Tiling of the mask object does not occur; that is, it is placed once and not repeated.
 }}
 }}
 {{Examples_Section
