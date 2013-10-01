@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -80,7 +78,6 @@
     from { -webkit-transform : scale(1) translateX(0); }
     to { -webkit-transform : scale(0.75) translateX(0); }
 }
-
 |LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse_multiple.html
 }}
 }}
