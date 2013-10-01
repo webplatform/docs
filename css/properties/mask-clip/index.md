@@ -1,24 +1,56 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Unreviewed Import, Needs Review
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=Yes
+|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Determines the mask painting area, which determines the area that is affected by the mask. The painted content of an element may be restricted to this area.}}
+{{Summary_Section|Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.}}
 {{CSS Property
+|Initial value=no-clip
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
+|Media=visual
+|Computed value=As specified.
 |Animatable=No
-|Values=
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=no-clip
+|Description=The painted content is not restricted (not clipped). The mask painting area is set to the bounding client rect.
+}}{{CSS Property Value
+|Data Type=border-box
+|Description=The painted content is restricted (clipped) to the border box (painting box for objects without associated layout box).
+}}{{CSS Property Value
+|Data Type=padding-box
+|Description=The painted content is restricted (clipped) to the padding box.
+}}{{CSS Property Value
+|Data Type=content-box
+|Description=The painted content is restricted (clipped) to the content box (object bounding box for objects without associated layout box).
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* border-box */
+body {
+	background-color: white;
+	mask-image: url(big-black-dot.jpg);
+        mask-position: bottom right;
+	mask-repeat: no-repeat;
+        mask-clip: border-box;
+	}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Masking Level 1
+|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -28,7 +60,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
