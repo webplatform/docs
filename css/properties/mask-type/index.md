@@ -21,7 +21,7 @@
 |Description=Indicates that the luminance values of the mask should be used.
 }}{{CSS Property Value
 |Data Type=alpha
-|Description=Indicates that the alphs values of the mask should be used.
+|Description=Indicates that the alpha values of the mask should be used.
 }}
 }}
 {{Examples_Section
