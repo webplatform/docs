@@ -3,6 +3,7 @@
 |High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
+|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
