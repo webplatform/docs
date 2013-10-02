@@ -22,6 +22,7 @@
 <code>
 <mask-layer> = <mask-reference> <source-type>
 </code>
+See [[css/properties/mask-image|mask-image]] and [[css/properties/mask-source-type|mask-source-type]].
 }}
 }}
 {{Examples_Section
