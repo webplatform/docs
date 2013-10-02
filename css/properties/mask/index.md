@@ -20,9 +20,7 @@
 |Data Type=<mask-layer>
 |Description=Where
 <code>
-<mask-layer> = <mask-reference> <source-type>?
-              || <position> [ / <bg-size> ]? || <repeat-style>
-              || <box> || [ <box> | no-clip ]
+<mask-layer> = <mask-reference> <source-type>
 </code>
 }}
 }}
