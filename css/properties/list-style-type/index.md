@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -74,8 +72,9 @@ This example uses '''<code>ul</code>''' as a selector in an embedded (global) st
 |Code=&lt;style&gt;
     ul { list-style-type:circle }
 &lt;/style&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type.htm
+|LiveURL=http://code.webplatform.org/gist/6798718
 }}{{Single Example
+|Language=HTML
 |Description=This example demonstrates the  use of <code>decimal-leading-zero</code>.
 |Code=&lt;style type{{=}}"text/css"&gt;
 .decleadzero {
@@ -91,7 +90,7 @@ This example uses '''<code>ul</code>''' as a selector in an embedded (global) st
  &lt;/ol&gt;
     ...
 &lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/list-style-type_ie8.htm
+|LiveURL=http://code.webplatform.org/gist/6798718
 }}{{Single Example
 |Language=CSS
 |Description=Using the <code>list-style-type</code> on ordered lists
