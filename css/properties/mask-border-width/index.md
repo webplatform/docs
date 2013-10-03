@@ -7,10 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The mask image is drawn inside an area called the "mask box image area", an area whose boundaries by default correspond to the mask box. See also [[css/properties/mask-box-image-outset|mask-box-image-outset]]. 
-
-The four values of ‘mask-box-image-width’ specify offsets that are used to divide the mask box image area into nine parts. They represent inward distances from the the top, right, bottom, and left sides of the area, respectively. If the left width is missing, it is the same as the right; if the bottom is missing, it is the same as the top; if the right is missing, it is the same as the top.
-}}
+{{Summary_Section|This property sets the width of the mask box image, similar to the CSS [[css/properties/border-image-width|border-image-width]] property.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
@@ -20,6 +17,9 @@ The four values of ‘mask-box-image-width’ specify offsets that are used to d
 |Animatable=No
 |CSS percentages=Relative to width/height of the mask box image area.
 |Values={{CSS Property Value
+|Data Type=auto
+|Description=If specified, the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see [[css/properties/mask-box-image-slice|mask-box-image-slice]]). If the image does not have the required intrinsic dimension then the corresponding ''border-width'' is used.
+}}{{CSS Property Value
 |Data Type=length
 |Description=Represents pixels if the image is a raster image or vector coordinates if the image is a vector image.
 }}{{CSS Property Value
@@ -28,9 +28,6 @@ The four values of ‘mask-box-image-width’ specify offsets that are used to d
 }}{{CSS Property Value
 |Data Type=number
 |Description=Represents multiples of the corresponding computed ''border-width''.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=If specified, the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see [[css/properties/mask-box-image-slice|mask-box-image-slice]]). If the image does not have the required intrinsic dimension then the corresponding ''border-width'' is used.
 }}
 }}
 {{Examples_Section
