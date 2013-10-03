@@ -1,42 +1,55 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
-|Content=Incomplete, Compatibility Incomplete, Examples Needed, Needs Summary
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
+|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges and a middle. The middle image part is discarded and treated as fully transparent black unless the ‘fill’ keyword is present. 
-
-When four values are specified, they set the offsets on the top, right, bottom and left sides in that order. If the left is missing, it is the same as the right; if the bottom is missing, it is the same as the top; if the right is missing, it is the same as the top.
-}}
+{{Summary_Section|This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges and a middle. The middle image part is discarded and treated as fully transparent black unless the ''fill'' keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS [[css/properties/border-image-slice|border-image-slice]] property.}}
 {{CSS Property
+|Initial value=0 fill
+|Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
+|Media=visual
+|Computed value=As specified.
 |Animatable=No
+|CSS percentages=Refer to the size of the mask image.
 |Values={{CSS Property Value
-|Data Type=length
-|Description=All <length>s made absolute, otherwise as specified
+|Data Type=<percentage>
+|Description=Refers to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets.
 }}{{CSS Property Value
-|Data Type=percentage
-|Description=Percentages refer to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets.
-}}{{CSS Property Value
-|Data Type=number
-|Description=Numbers represent multiples of the corresponding computed ‘border-width’.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=If ‘auto’ is specified then the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see ‘mask-box-image-slice’). If the image does not have the required intrinsic dimension then the corresponding ‘border-width’ is used instead.
+|Data Type=<number>
+|Description=Represents multiples of the corresponding computed ''border-width''.
 }}{{CSS Property Value
 |Data Type=fill
-|Description=The ‘fill’ keyword, if present, causes the middle part of the mask image to be preserved. (By default it is discarded, i.e., treated as transparent black.)
+|Description=If present, causes the middle part of the mask image to be preserved. If omitted, the middle part of the mask image is discarded, i.e., treated as transparent black.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* numbers, fill */
+#maskbox1: {
+    mask-box-image-slice: 30 50 30 50 fill;
+}
+
+/* percentages, no fill */
+#maskbox2: {
+    mask-box-image-slice: 25% 10% 20% 25%;
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Masking Level 1
+|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -46,7 +59,7 @@ When four values are specified, they set the offsets on the top, right, bottom a
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
