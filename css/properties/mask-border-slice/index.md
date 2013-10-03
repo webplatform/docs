@@ -21,10 +21,10 @@
 |Description=Refers to the size of the mask box image area: the width of the area for horizontal offsets, the height for vertical offsets.
 }}{{CSS Property Value
 |Data Type=<number>
-|Description=Represents multiples of the corresponding computed ''border-width''.
+|Description=Represents pixels if the image is a raster image or vector coordinates if the image is a vector image.
 }}{{CSS Property Value
 |Data Type=fill
-|Description=If present, causes the middle part of the mask image to be preserved. If omitted, the middle part of the mask image is discarded, i.e., treated as transparent black.
+|Description=If present, causes the middle part of the mask image to be preserved. If omitted, the middle part of the mask image is discarded, i.e., treated as empty.
 }}
 }}
 {{Examples_Section
