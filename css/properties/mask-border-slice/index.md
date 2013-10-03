@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges and a middle. The middle image part is discarded and treated as fully transparent black unless the ''fill'' keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS [[css/properties/border-image-slice|border-image-slice]] property.}}
+{{Summary_Section|This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges, and a middle. The middle image part is discarded and treated as fully transparent black unless the ''fill'' keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS [[css/properties/border-image-slice|border-image-slice]] property.}}
 {{CSS Property
 |Initial value=0 fill
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
@@ -40,7 +40,6 @@
 #maskbox2: {
     mask-box-image-slice: 25% 10% 20% 25%;
 }
-
 }}
 }}
 {{Notes_Section}}
