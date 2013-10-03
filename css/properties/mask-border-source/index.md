@@ -1,24 +1,48 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Errors
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
+|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies an image to be used as mask. If the value is "none", the image cannot be displayed, or the property doesn't apply, the content will not be masked.}}
+{{Summary_Section|Specifies an image to be used as a mask. An image that is empty, fails to download, is non-existent, or cannot be displayed is ignored and does not mask the element.}}
 {{CSS Property
+|Initial value=none
+|Applies to=All elements. In SVG, it applies to container elements and graphics elements.
 |Inherited=No
+|Media=visual
+|Computed value="none" or the image with its URI made absolute.
 |Animatable=No
-|Values=
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=none
+|Description=Counts as an image layer but does not mask the element.
+}}{{CSS Property Value
+|Data Type=<image>
+|Description=A CSS image.
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* none */
+p { mask-box-image-source: none; }
+
+/* image */
+div { mask-box-image-source: url(#someMask); }
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Masking Level 1
+|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -28,7 +52,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
