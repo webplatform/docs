@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property is shorthand for setting [css/properties/mask-box-image-source|mask-box-image-source]], [[css/properties/mask-box-image-slice|mask-box-image-slice]], [[css/properties/mask-box-image-width|mask-box-image-width]], [[css/properties/mask-box-image-outset|mask-box-image-outset]], and [[css/properties/mask-box-image-repeat|mask-box-image-repeat]]. Omitted values are set to their original properties' initial values.}}
+{{Summary_Section|This property is shorthand for setting [[css/properties/mask-box-image-source|mask-box-image-source]], [[css/properties/mask-box-image-slice|mask-box-image-slice]], [[css/properties/mask-box-image-width|mask-box-image-width]], [[css/properties/mask-box-image-outset|mask-box-image-outset]], and [[css/properties/mask-box-image-repeat|mask-box-image-repeat]]. Omitted values are set to their original properties' initial values.}}
 {{CSS Property
 |Initial value=See individual properties.
 |Applies to=See individual properties.
@@ -19,7 +19,6 @@
 |Values={{CSS Property Value
 |Data Type=<mask-box-image-source>
 |Description=See [css/properties/mask-box-image-source|mask-box-image-source]].
-
 }}{{CSS Property Value
 |Data Type=<mask-box-image-slice>
 |Description=See [css/properties/mask-box-image-slice|mask-box-image-slice]].
