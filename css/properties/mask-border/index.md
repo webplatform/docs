@@ -18,19 +18,19 @@
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=<mask-box-image-source>
-|Description=See [css/properties/mask-box-image-source|mask-box-image-source]].
+|Description=See [[css/properties/mask-box-image-source|mask-box-image-source]].
 }}{{CSS Property Value
 |Data Type=<mask-box-image-slice>
-|Description=See [css/properties/mask-box-image-slice|mask-box-image-slice]].
+|Description=See [[css/properties/mask-box-image-slice|mask-box-image-slice]].
 }}{{CSS Property Value
 |Data Type=<mask-box-image-width>
-|Description=See [css/properties/mask-box-image-width|mask-box-image-width]].
+|Description=See [[css/properties/mask-box-image-width|mask-box-image-width]].
 }}{{CSS Property Value
 |Data Type=<mask-box-image-outset>
-|Description=See [css/properties/mask-box-image-outset|mask-box-image-outset]].
+|Description=See [[css/properties/mask-box-image-outset|mask-box-image-outset]].
 }}{{CSS Property Value
 |Data Type=<mask-box-image-repeat>
-|Description=See [css/properties/mask-box-image-repeat|mask-box-image-repeat]].
+|Description=See [[css/properties/mask-box-image-repeat|mask-box-image-repeat]].
 }}
 }}
 {{Examples_Section
