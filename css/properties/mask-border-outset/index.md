@@ -5,7 +5,7 @@
 |Checked_Out=No
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|This property specifies the amount by which the mask box image area extends beyond the border box, similar to the CSS [[css/properties/border-image-outset|border-image-outset]] property. The four values set the outsets on the top, right, bottom, and left sides in that order.}}
 {{CSS Property
