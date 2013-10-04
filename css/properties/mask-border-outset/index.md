@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Examples Needed, Needs Summary
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
@@ -32,7 +32,6 @@
 #maskbox1: {
     mask-box-image-outset: 30 50 30 50;
 }
-
 }}
 }}
 {{Notes_Section}}
