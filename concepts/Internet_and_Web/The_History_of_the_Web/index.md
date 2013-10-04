@@ -50,7 +50,7 @@ This specification reduced the role of the network and moved the responsibility 
 
 == The Creation of World Wide Web ==
  
-[http://en.wikipedia.org/wiki/Gopher Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organizations looking to centralize document storage and management.
+[http://en.wikipedia.org/wiki/Gopher_(protocol) Gopher] was an information retrieval system used in the early 1990s, providing a method of delivering menus of links to files, computer resources and other menus. These menus could cross the boundaries of the current computer and use the Internet to fetch menus from other systems. It was very popular with universities looking to provide campus-wide information and large organizations looking to centralize document storage and management.
  
 Gopher was created by the University of Minnesota. In February, 1993, they announced that it was going to charge licensing fees for the use of their reference implementation of the Gopher server. As a consequence, many organizations started to look for alternatives to Gopher.
  
