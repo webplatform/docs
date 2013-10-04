@@ -114,7 +114,7 @@ That was a little optimistic — not all sites, even today, are built with web s
  
 Also in 2003, Dave Shea launched a site called the [http://www.csszengarden.com/ CSS Zen Garden]. This was to have more impact on web professionals than anything else, by truly illustrating that the entire design can change just by changing the style of the page; the content could remain identical.
  
-Since then, web standards usage have become ''de rigueur''; in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, semantic, accessible and standards-compliant websites!
+Since then, web standards usage have become ''de rigueur''; in the professional web development community. And in this series, we will give you an excellent grounding in these techniques so that you can develop clean, [http://en.wikipedia.org/wiki/Semantic_Web semantic], accessible and standards-compliant websites!
 
 == The new breed of web standards ==
  
@@ -174,8 +174,5 @@ You might like to try researching further, by answering these questions:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Languages|concepts/internet_and_web/the_history_of_the_web}}
