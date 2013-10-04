@@ -7,7 +7,7 @@
 |Other=[[html/attributes/type]]
 }}
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''file''' type of the [[html/elements/input|&lt;input&gt;]] element represents widget for specifying a file.}}
 {{Markup_Element
@@ -809,8 +809,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -829,12 +829,16 @@ This property is not supported for Metro style apps using JavaScript.
 |Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=iOS6
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Google Chrome
+|Version=21+
+|Note='files' IDL attribute is writable.
+}}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
