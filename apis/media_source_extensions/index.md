@@ -11,12 +11,11 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section
-|Usage=
-}}
+{{Notes_Section}}
 {{See_Also_Section
-|Topic_clusters=Mobile, WebRTC
-|External_links=* [http://www.w3.org/TR/media-source/ Media Source Extensions API]}}
+|Topic_clusters=Multimedia, Mobile, Video
+|External_links=* [http://www.w3.org/TR/media-source/ Media Source Extensions API]
+}}
 {{Topics|API, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
