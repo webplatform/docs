@@ -14,7 +14,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Notes={{TODO Remove these notes once this page becomes more than a stub.}}
+|Notes={{TODO|Remove these notes once this page becomes more than a stub.}}
 General compatibility notes -
 - Internet Explorer 11 (on Windows 8.1 and later).
 - (Prefixed) Chrome 17 - 20 implements an older version, Chrome 21 - 30 implements a previous version.
