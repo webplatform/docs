@@ -43,8 +43,8 @@
 }}{{Single Example
 |Description=Internet Explorer 5-8
 |Code=.opaque {
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // first!
-	filter: alpha(opacity=50);					// second!
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // first!
+  filter: alpha(opacity=50);					// second!
 }
 }}
 }}
