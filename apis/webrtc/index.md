@@ -29,7 +29,8 @@ A [[apis/webrtc/MediaStream|MediaStream]] consists of zero or more [[apis/webrtc
 The PeerConnection API, represented chiefly by the [[apis/webrtc/RTCPeerConnection|RTCPeerConnection]] object, provides for the exchange of [[apis/webrtc/MediaStream|MediaStream]] object data between browser instances (peers) across a secure channel. The process starts with signaling from one peer to others through a server. The signaling protocol is determined by the application, and once established, encapsulated in the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] object.
 
 ==DataChannel API==
-Some nice things about the DataChannel API (coming soon!).
+{{TODO|Add more information here.}}
+The DataChannel API, leveraged through RTCPeerConnection, provides for the exchange of strings or binary streams. The streams can be reliable, semi reliable and not reliable.
 }}
 {{See_Also_Section
 |Topic_clusters=WebRTC
