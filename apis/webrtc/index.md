@@ -30,7 +30,7 @@ The PeerConnection API, represented chiefly by the [[apis/webrtc/RTCPeerConnecti
 
 ==DataChannel API==
 {{TODO|Add more information here.}}
-The DataChannel API, leveraged through RTCPeerConnection, provides for the exchange of strings or binary data between peers. A data channel can be reliable, semi reliable and not reliable.
+The DataChannel API, represented by the [[apis/webrtc/RTCDataChannel|RTCDataChannel]] and leveraged through RTCPeerConnection, provides for the exchange of strings or binary data between peers. A data channel can be reliable, semi reliable and not reliable.
 }}
 {{See_Also_Section
 |Topic_clusters=WebRTC
