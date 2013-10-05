@@ -21,8 +21,8 @@ General compatibility notes -
 *Internet Explorer 11 (on Windows 8.1 and later).
 *(Prefixed) Chrome 17 - 20 implements an older version, Chrome 21 - 30 implements a previous version.
 *Chrome 31.
-*(Prefixed) Chrome for Android 30 implements a previous version.
-*Chrome for Android 31.
+*(Prefixed) Chrome for Android 30 (on Android 4.1 and later) implements a previous version.
+*Chrome for Android 31 (on Android 4.1 and later).
 }}
 {{See_Also_Section
 |Topic_clusters=Multimedia, Mobile, Video
