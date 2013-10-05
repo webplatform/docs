@@ -157,7 +157,7 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure, HTML, Mobile
+|Topic_clusters=Document Structure, HTML
 }}
 {{Topics|HTML, UI}}
 {{External_Attribution
