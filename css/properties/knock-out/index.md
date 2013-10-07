@@ -17,7 +17,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=preserve
-|Description=Elements in the group composite normally and blend with other elements inside the group.
+|Description=Elements in the group composite normally and blend with other elements inside and outside the group.
 }}{{CSS Property Value
 |Data Type=knock-out
 |Description=Elements in the group only composite and blend with elements outside the group.
