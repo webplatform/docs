@@ -3,9 +3,9 @@
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies how to fill columns, balanced or not.}}
+{{Summary_Section|Specifies how to fill columns (balanced or sequential).}}
 {{CSS Property
 |Initial value=balance
 |Applies to=multi-column elements
@@ -14,20 +14,21 @@
 |Computed value=As specified
 |Animatable=No
 |Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. Columns are filled sequentially such that the columns may differ in length, depending on other column property values.
-}}{{CSS Property Value
 |Data Type=balance
-|Description=Columns are filled sequentially such that the column heights are as balanced as possible, depending on other column property values.
+|Description=Columns are filled sequentially such that the column heights are balanced as equally as possible, depending on other column property values.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Columns are filled sequentially such that the columns may differ in length, depending on other column property values.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes as many 15em columns but restrict the heights of the columns to 400px with column-fill: balance
 |Code=/*
-Makes as many 15em columns but restrict the heights of the columns to 400px with column-fill: balance
+Make as many 15em columns as possible 
+but restrict the heights of the columns to 400px 
+with column-fill: balance;
 */
 
 #columns {  
@@ -40,10 +41,13 @@ Makes as many 15em columns but restrict the heights of the columns to 400px with
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Column balancing is also dependent on the values of [[css/properties/orphans|'''orphans''']] and [[css/properties/widows|'''widows''']], if set.
-|Import_Notes====Syntax===
-<code>'''column-fill: '''auto '''{{!}}''' balance</code>
+|Notes=In continuous media, this property will only be consulted if the length of columns has been constrained. Otherwise, columns will automatically be balanced.
+
+In continous media, this property does not have any effect in overflow columns; in paged media, this property will only have effect on the last page the multicol element appears on.
+
+Column balancing is also dependent on the values of [[css/properties/orphans|orphans]] and [[css/properties/widows|widows]], if set.
+
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -59,46 +63,12 @@ Column balancing is also dependent on the values of [[css/properties/orphans|'''
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
