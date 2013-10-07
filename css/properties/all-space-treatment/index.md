@@ -30,13 +30,12 @@
 p.asis {
     all-space-treatment: preserve;
 }
-
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3 Test Module
+|Name=CSS3 Text Module
 |URL=http://www.w3.org/TR/2003/CR-css3-text-20030514
 |Status=W3C Candidate Recommendation
 }}
