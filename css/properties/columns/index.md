@@ -16,10 +16,10 @@
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=column-width
-|Description=Any of the values available to [[css/properties/column-width|'''column-width''']] property.
+|Description=Any of the values available to [[css/properties/column-width|column-width]] property.
 }}{{CSS Property Value
 |Data Type=column-count
-|Description=Any of the values available to [[css/properties/column-count|'''column-count''']] property.
+|Description=Any of the values available to [[css/properties/column-count|column-count]] property.
 }}
 }}
 {{Examples_Section
