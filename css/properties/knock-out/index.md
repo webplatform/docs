@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Defines whether an element group is a knock-out group. When a group is set to ''knock-out'', the elements in the group only composite and blend with elements outside the group. When a group is set to ''preserve'' (the default), the elements composite normally and blend with other elements inside the group.}}
+{{Summary_Section|Defines whether an element group is a knock-out group. When a group is set to ''knock-out'', the elements in the group only composite and blend with elements outside the group. When a group is set to ''preserve'' (the default), the elements composite normally and blend with other elements inside and outside the group.}}
 {{CSS Property
 |Initial value=preserve
 |Applies to=All HTML elements. In SVG, it applies to all container elements except ''mask''.
@@ -31,7 +31,6 @@
 div.ko {
     knock-out: knock-out;
 }
-
 }}
 }}
 {{Notes_Section}}
