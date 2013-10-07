@@ -15,24 +15,23 @@
 * [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
 * [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
 * [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''form''' element to create a basic form containing a text entry box for the user's name and a select control for choosing a favorite ice cream flavor. When the user clicks the '''Submit''' button, the form sends the data to the URL listed in the [[html/attributes/action|'''action''']] attribute. The value of the [[html/attributes/method|'''method''']] attribute determines how to send the data to the server.
-|Code=&lt;HTML&gt;
-    &lt;FORM ACTION{{=}}"http://example.microsoft.com/sample.asp" METHOD{{=}}"POST"&gt;
-        Enter your name: &lt;INPUT NAME{{=}}"FName"&gt;&lt;BR&gt;
+|Code=&lt;html&gt;
+    &lt;form action{{=}}"http://example.microsoft.com/sample.asp" method{{=}}"post"&gt;
+        Enter your name: &lt;input name{{=}}"FName"&gt;&lt;br/&gt;
         Favorite Ice Cream Flavor:
-        &lt;SELECT NAME{{=}}"Flavor"&gt;
-            &lt;OPTION VALUE{{=}}"Chocolate"&gt;Chocolate
-            &lt;OPTION VALUE{{=}}"Strawberry"&gt;Strawberry
-            &lt;OPTION VALUE{{=}}"Vanilla" SELECTED&gt;Vanilla
-        &lt;/SELECT&gt;
-        &lt;P&gt;&lt;INPUT TYPE{{=}}SUBMIT&gt;
-    &lt;/FORM&gt;
-&lt;/HTML&gt;
+        &lt;select name{{=}}"Flavor"&gt;
+            &lt;option value{{=}}"Chocolate"&gt;Chocolate&lt;/option&gt;
+            &lt;option value{{=}}"Strawberry"&gt;Strawberry&lt;/option&gt;
+            &lt;option value{=}}"Vanilla" SELECTED&gt;Vanilla&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;input type{{=}}"submit"&gt;&lt;/p&gt;
+    &lt;/form&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
