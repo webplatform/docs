@@ -1,32 +1,33 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property is a shorthand property for setting [[css/properties/column-width|'''column-width''']] or [[css/properties/column-count|'''column-count''']]. Omitted values are set to their initial value of <tt>auto</tt>.}}
+{{Summary_Section|This property is a shorthand property for setting [[css/properties/column-width|column-width]] and/or [[css/properties/column-count|column-count]].}}
 {{CSS Property
-|Initial value=Auto
-|Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements
+|Initial value=See individual properties.
+|Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements.
 |Inherited=No
 |Media=visual
-|Computed value=The absolute length, zero or larger
+|Computed value=See individual properties.
 |Animatable=No
+|CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=column-width
-|Description=Any of the values available to [[css/properties/column-width|'''column-width''']] property. The default value is <tt>auto</tt>.
+|Description=Any of the values available to [[css/properties/column-width|'''column-width''']] property.
 }}{{CSS Property Value
 |Data Type=column-count
-|Description=Any of the values available to [[css/properties/column-count|'''column-count''']] property. The default value is <tt>auto</tt>.
+|Description=Any of the values available to [[css/properties/column-count|'''column-count''']] property.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Makes 3 columns at auto width
-|Code=#columns {
+|Code=/* Make 3 columns at auto width */
+#columns {
   -moz-columns: auto 3;  /* Firefox */
   -webkit-columns: auto 3;  /* Safari and Chrome */
   columns: auto 3;
@@ -34,50 +35,26 @@
 |LiveURL=http://code.webplatform.org/gist/6288803
 }}
 }}
-{{Notes_Section
-|Import_Notes====Formal syntax===
-<code>'''columns: '''''column-width'' '''{{!}}{{!}}''' ''column-count''</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Multi-column Layout Module
+|URL=http://www.w3.org/TR/css3-multicol
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=14
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=5.1
-}}
+|Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
