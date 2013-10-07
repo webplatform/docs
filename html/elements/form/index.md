@@ -22,14 +22,14 @@
 |Description=This example uses the '''form''' element to create a basic form containing a text entry box for the user's name and a select control for choosing a favorite ice cream flavor. When the user clicks the '''Submit''' button, the form sends the data to the URL listed in the [[html/attributes/action|'''action''']] attribute. The value of the [[html/attributes/method|'''method''']] attribute determines how to send the data to the server.
 |Code=&lt;html&gt;
     &lt;form action{{=}}"http://example.microsoft.com/sample.asp" method{{=}}"post"&gt;
-        Enter your name: &lt;input name{{=}}"FName"&gt;&lt;br/&gt;
+        Enter your name: &lt;input name{{=}}"FName"/&gt;&lt;br/&gt;
         Favorite Ice Cream Flavor:
         &lt;select name{{=}}"Flavor"&gt;
             &lt;option value{{=}}"Chocolate"&gt;Chocolate&lt;/option&gt;
             &lt;option value{{=}}"Strawberry"&gt;Strawberry&lt;/option&gt;
             &lt;option value{{=}}"Vanilla" selected="selected"&gt;Vanilla&lt;/option&gt;
         &lt;/select&gt;
-        &lt;p&gt;&lt;input type{{=}}"submit"&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;input type{{=}}"submit"/&gt;&lt;/p&gt;
     &lt;/form&gt;
 &lt;/html&gt;
 }}
