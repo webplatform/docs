@@ -16,31 +16,30 @@
 
 Internationalization topics related to the <code>table</code> element:
 * [http://localhost/International/techniques/authoring-html#blocks Setting direction on block elements]
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''TABLE''' element with '''THEAD''', '''TR''', and '''TH''' to create a table with three rows and two columns.
-|Code=&lt;TABLE BORDER{{=}}1 WIDTH{{=}}80%&gt;
-&lt;THEAD&gt;
-&lt;TR&gt;
-&lt;TH&gt;Heading 1&lt;/TH&gt;
-&lt;TH&gt;Heading 2&lt;/TH&gt;
-&lt;/TR&gt;
-&lt;/THEAD&gt;
-&lt;TBODY&gt;
-&lt;TR&gt;
-&lt;TD&gt;Row 1, Column 1 text.&lt;/TD&gt;
-&lt;TD&gt;Row 1, Column 2 text.&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;TR&gt;
-&lt;TD&gt;Row 2, Column 1 text.&lt;/TD&gt;
-&lt;TD&gt;Row 2, Column 2 text.&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TBODY&gt;
-&lt;/TABLE&gt;
+|Code=&lt;table border{{=}}1 width{{=}}80%&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Heading 1&lt;/th&gt;
+      &lt;th&gt;Heading 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 1, Column 1 text.&lt;/td&gt;
+      &lt;td&gt;Row 1, Column 2 text.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 2, Column 1 text.&lt;/td&gt;
+      &lt;td&gt;Row 2, Column 2 text.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 }}
 }}
 {{Notes_Section
