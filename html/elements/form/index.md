@@ -27,7 +27,7 @@
         &lt;select name{{=}}"Flavor"&gt;
             &lt;option value{{=}}"Chocolate"&gt;Chocolate&lt;/option&gt;
             &lt;option value{{=}}"Strawberry"&gt;Strawberry&lt;/option&gt;
-            &lt;option value{=}}"Vanilla" SELECTED&gt;Vanilla&lt;/option&gt;
+            &lt;option value{{=}}"Vanilla" selected="selected"&gt;Vanilla&lt;/option&gt;
         &lt;/select&gt;
         &lt;p&gt;&lt;input type{{=}}"submit"&gt;&lt;/p&gt;
     &lt;/form&gt;
@@ -845,3 +845,10 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
+}
