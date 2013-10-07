@@ -22,7 +22,7 @@ Internationalization topics related to the <code>table</code> element:
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''TABLE''' element with '''THEAD''', '''TR''', and '''TH''' to create a table with three rows and two columns.
-|Code=&lt;table border{{=}}1 width{{=}}80%&gt;
+|Code=&lt;table border{{=}}"1" width{{=}}"80%"&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Heading 1&lt;/th&gt;
