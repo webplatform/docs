@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''aside''' element (&lt;aside&gt;) indicates content that is only tangentially relatedd to the rest of the content.}}
+{{Summary_Section|The '''aside''' element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content====HTML information===
