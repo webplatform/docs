@@ -291,60 +291,45 @@ The first question you'll be asking is "why on earth do I need another way to ap
 * As mentioned before, IE6 doesn't support putting the media type at the end of the <code>@import</code> line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 * You could argue that the code for multiple <code>@import</code> statements is smaller than the code for multiple <code>&lt;link&gt;</code> elements, but this is pretty negligible.
 }}
-{{Notes_Section
-|Notes=The comment about white space seems a bit daft.  These are rules and therefore non-display items in the first place.  And the truth is in some places they do matter, for instance, url (image.gif) will not display the image because of the space between the l and the (.
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=1
 |Android_prefixed_supported=Unknown
-|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=1.8
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=1
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=6
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
 |Opera_mini_version=1
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=1
 |Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
@@ -361,7 +346,4 @@ The first question you'll be asking is "why on earth do I need another way to ap
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
