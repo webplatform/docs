@@ -6,9 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.
-
-}}
+{{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 |Content=Internationalization topics related to the <code>a</code> element:
@@ -132,6 +130,10 @@ Optionally the [[html/attributes/rel|'''rel''']] element may be specified to pro
 |Browser=Internet Explorer
 |Version=8 and later
 |Note=A [[html/elements/table|'''table''']] object does not function properly when contained within an '''a''' tag. The value of the [[html/attributes/href|'''href''']] attribute depends on the current document compatibility mode.  Internet Explorer 8 and later. When Protected Mode is enabled and a Web page contains an '''anchor link''' with a named [[html/attributes/target|'''target''']], Windows Internet Explorer opens the target of the link in a new window when the target has a different integrity level than the Web page containing the link. For more information, see Understanding and Working in Protected Mode Internet Explorer.
+}}{{Compatibility Notes Row
+|Browser=Safari / Google Chrome
+|Version=any
+|Note=<code>A</code> elements with href don't get focus by mouse press by default.
 }}
 }}
 {{See_Also_Section
