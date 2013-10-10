@@ -1,89 +1,55 @@
-{{Page_Title|display}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the type of rendering box used for an element.}}
+{{Summary_Section|This property specifies the type of rendering box used for an element. It is a shorthand property for many other display properties.}}
 {{CSS Property
 |Initial value=inline
-|Applies to=All elements
+|Applies to=All elements.
 |Inherited=No
 |Media=visual
-|Computed value=As specified, except for root element, floated elements, and absolutely positioned elements (see below).
+|Computed value=See individual properties.
 |Animatable=No
-|CSS object model property=display
-|CSS percentages=N/A
+|CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=inline
-|Description=An element set to inline generates one or more inline element boxes.
+|Description=Generates one or more inline element boxes.
 }}{{CSS Property Value
 |Data Type=block
-|Description=Generates a block element box. This is a basic value in CSS 1.
-}}{{CSS Property Value
-|Data Type=none
-|Description=Turns off the display of an element so that the element has no effect on layout; all descendant elements also have their display turned off. The element is removed from the document, and the document is rendered as though the element does not exist, though it may still be in the HTML. 
-
-:To render an element box's dimensions, yet have its contents be invisible, set the <code>[[css/properties/visibility|visibility]]</code> property to <code>hidden</code>.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=By default, the CSS display property is not inherited ("Inherited: no"). However, when the inherited property has been specified on an element ("Inherited: Yes"), the element uses the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.
+|Description=Generates a block element box.
 }}{{CSS Property Value
 |Data Type=list-item
-|Description=Generates a block box for the content and a separate list-item. This is a basic value in CSS 1.
+|Description=Generates a principal block box and a marker box.
+}}{{CSS Property Value
+|Data Type=inline-list-item
+|Description=Generates an inline principal block box and a marker box.
 }}{{CSS Property Value
 |Data Type=inline-block
-|Description=The element generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element. This is a basic value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table
-|Description=Behaves like the <code>&#60;table&#62;</code> HTML element. It defines a block-level box. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=inline-table
-|Description=The inline-table value does not have a direct mapping in HTML. It behaves like a <code>&#60;table&#62;</code> HTML element, but as an inline box, rather than a block-level box. Inside the table box is a block-level context. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-caption
-|Description=Behaves like the <code>&#60;caption&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-cell
-|Description=Behaves like the <code>&#60;td&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-column
-|Description=Behaves like the <code>&#60;col&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-column-group
-|Description=Behaves like the <code>&#60;colgroup&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-footer-group
-|Description=Behaves like the <code>&#60;tfoot&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-header-group
-|Description=Behaves like the corresponding <code>&#60;thead&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-row
-|Description=Behaves like the <code>&#60;tr&#62;</code> HTML element. This is a table model value in CSS 2.1.
-}}{{CSS Property Value
-|Data Type=table-row-group
-|Description=Behaves like the <code>&#60;tbody&#62;</code> HTML element. This is a table model value in CSS 2.1.
+|Description=Generates a block element box that flows with surrounding content as if it were a single inline box--and behaves like a replaced element.
 }}{{CSS Property Value
 |Data Type=flex
-|Description=Behaves like an block element for laying out content in the flexbox model. This is a flexbox model value in CSS3. See [[css/properties/flex|flex]].
+|Description=Generates a block element for laying out content in the flexbox model. This is a flexbox model value in CSS3. See [[css/properties/flex|flex]].
 }}{{CSS Property Value
 |Data Type=inline-flex
-|Description=Behaves like an inline element for laying out content in the flexbox model. This is a flexbox model value in CSS3. See [[css/properties/flex|flex]].
+|Description=Generates an inline element for laying out content in the flexbox model. This is a flexbox model value in CSS3. See [[css/properties/flex|flex]].
 }}{{CSS Property Value
 |Data Type=grid
-|Description=Behaves like a block element for laying out content in the grid model.
-: Note: At the time of this writing, most modern browsers do not support this property. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
+|Description=Generates a block element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
 }}{{CSS Property Value
 |Data Type=inline-grid
-|Description=Behaves like an inline element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
+|Description=Generates an inline element for laying out content in the grid model. This is a grid box model value (an experimental tag in CSS 3.0). See [[css/properties/grid|grid]].
 }}{{CSS Property Value
-|Data Type=run-in
-|Description=The behavior depends on the following conditions:
-:* If the run-in box contains a block box, same as block.
-:* If a block box follows the run-in box, the run-in box becomes the first inline box of the block box.
-:* If an inline box follows, the run-in box becomes a block box.
+|Data Type=none
+|Description=Causes an element to not appear in the formatting structure and have no effect on layout. Descendant elements and their content are likewise removed from the formatting structure. (This behavior cannot be overridden by setting the ''display'' property on the descendants.) '''Note:''' A display value of "none" does not create an invisible box; it creates no box at all. To render an element box's dimensions, yet have its contents be invisible, use the ''visibility'' property; see [[css/properties/visibility|visibility]].
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Causes an element to use the specified or computed value of that property on its parent element.
+}}{{CSS Property Value
+|Data Type=table, inline-table, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption
+|Description=These values cause an element to behave like a table element, subject to certain restrictions. See the [http://www.w3.org/TR/CSS2/tables.html W3C tables specification].
 }}
 }}
 {{Examples_Section
@@ -157,37 +123,6 @@ p.inherit {
 }}
 }}
 {{Notes_Section
-|Usage='''Basic values in CSS 1'''
-*none
-*inline
-*block
-*list-item
-
-'''Extended values in CSS 2.1'''
-*inline-block
-
-'''Table model values in CSS 2.1'''
-*inline-table
-*table
-*table-caption
-*table-cell
-*table-column
-*table-column-group
-*table-footer-group
-*table-header-group
-*table-row
-*table-row-group
-
-'''Flexbox model values in CSS3'''
-*flex
-*inline-flex
-
-'''Grid box model values (experimental in CSS3)'''
-*grid
-*inline-grid
-
-'''Experimental values'''
-*run-in
 |Notes='''Computed value and relationship between [[css/properties/display|display]], [[css/properties/position|position]], and [[css/properties/float|float]]'''
 * If 'display' has the value 'none', then 'position' and 'float' do not apply. In this case, the element generates no box.
 * Otherwise, if 'position' has the value 'absolute' or 'fixed', the box is absolutely positioned, the computed value of 'float' is 'none', and display is set according to the table below. The position of the box will be determined by the 'top', 'right', 'bottom' and 'left' properties and the box's containing block.
@@ -210,322 +145,23 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Basic Box Model
-|URL=http://dev.w3.org/csswg/css3-box/#display
-|Status=Working Draft
-}}{{Related Specification
-|Name=CSS Grid Layout
-|URL=http://dev.w3.org/csswg/css3-grid-layout/#grid-declaration
-|Status=Working Draft
-}}{{Related Specification
-|Name=CSS Flexible Box Layout Module
-|URL=http://dev.w3.org/csswg/css3-flexbox/#flex-containers
-|Status=Candidate Recommendation
+|Name=CSS Display Module Level 3
+|URL=http://dev.w3.org/csswg/css-display-3/
+|Status=Editor's Draft
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
 |Status=Recommendation
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#display
-|Status=Recommendation
-}}{{Related Specification
-|Name=CSS Display Module Level 3
-|URL=http://dev.w3.org/csswg/css-display-3/
-|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=none, inline and block
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=inline-block
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3.0 (1.9)
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5 (to 7.0) natural inline elements only
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=list-item
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0 (1.0)
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=6.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=run-in
-|Chrome_supported=Yes
-|Chrome_version=1.0 Not before inline-elements
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85) Not before inline-elements
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=inline-table
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3.0 (1.9)
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=table, table-cell, table-column, table-colgroup, table-header-group, table-row-group, table-footer-group, table-row, and table-caption
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0 (1.0)
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=flex
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21.0
-|Firefox_supported=Yes
-|Firefox_version=18.0 (behind a preference),  20.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.10
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=inline-flex
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21.0
-|Firefox_supported=Yes
-|Firefox_version=18.0 (behind a preference),  20.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.10
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=grid
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=inline-grid
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.1+
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0+
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=5.0+
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=5.0+
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2+
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Firefox
-|Note=Supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=Does not support inline-block and table display.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=Only supports the display value on elements with the display set to inline.
-}}{{Compatibility Notes Row
-|Browser=Firefox
-|Version=16+
-|Note=Supports inline-block and table display.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=All
-|Note=Does not support flex or inline-flex.
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Version=All
-|Note=Does not support flex or inline-flex.
-}}{{Compatibility Notes Row
-|Browser=iOS Safari mobile
-|Version=3.2+
-|Note=Supports inline-block and table display.
-}}
-}}
-{{See_Also_Section
-|External_links=* Quirksmode: [http://www.quirksmode.org/css/display.html The display property]
-* Mozilla Developer Network: [https://developer.mozilla.org/en-US/docs/CSS/display CSS Reference: The display property]
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
