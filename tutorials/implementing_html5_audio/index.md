@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Deletion Candidate
+|Checked_Out=No
 |Editorial notes={{Editorial/Deletion_Candidate
 | Duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag
 }}
@@ -275,9 +276,9 @@ is licensed under a [[Creative Commons Attribution License]].
 |Firefox_supported=Yes
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
