@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Loads and starts playback of a media resource. }}
+{{Summary_Section|Loads and starts playback of a media resource.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLMediaElement
@@ -17,7 +17,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Play method example. 
+|Description=Play method example.
 |Code=<!DOCTYPE html>
 <html>
   <head>
@@ -64,14 +64,12 @@
   <button onclick="playVideo(this);">Play</button>
   <button onclick="hidecontrol(this);">Hide controls</button>
 </body>
-</html> 
+</html>
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-To change the URL that is currently playing, assign it to [[apis/audio-video/properties/src|'''src''']]. This method sets [[apis/audio-video/properties/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[apis/audio-video/methods/load|'''load''']] before calling '''play'''. 
-
-
+To change the URL that is currently playing, assign it to [[apis/audio-video/properties/src|'''src''']]. This method sets [[apis/audio-video/properties/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[apis/audio-video/methods/load|'''load''']] before calling '''play'''.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.8
@@ -82,7 +80,24 @@ To change the URL that is currently playing, assign it to [[apis/audio-video/pro
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
