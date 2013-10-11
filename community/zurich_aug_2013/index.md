@@ -93,4 +93,5 @@ To get started, you need to:
 * http://docs.webplatform.org/wiki/WPD:Editors_Guide contains a guide to show you how to edit and create pages on the Wiki
 
 ===Media Wiki crash course===
-[[WPD:Style Guide/Wiki markup crash course]]
+
+See [[WPD:Style Guide/Wiki markup crash course]], gives a good short syntax reminder.
