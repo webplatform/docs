@@ -24,12 +24,11 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font, CSS Layout, Box Model, CSS Attributes, CSSOM, Generated and Replaced Content, HTML, Media Queries, Pseudo-Classes, Pseudo-Elements, Selectors
 |External_links=* [http://24ways.org/2005/debugging-css-with-the-dom-inspector/  24 ways: Debugging CSS with the DOM inspector]
 * [http://bigemployee.com/4-simple-techniques-to-quickly-debug-and-fix-your-css-code-in-almost-any-browser/ Debugging HTML and CSS with the developer tools]
 |Manual_sections=* [http://www.w3.org/TR/CSS2/cascade.html#cascade CSS Level 2 : The cascade]
 }}
-{{Topics|CSS}}
+{{Topics|CSS, Developer Tools, HTML, Inheritance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
