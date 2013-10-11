@@ -4,30 +4,74 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Loads and starts playback of a media resource. }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLMediaElement
 |Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Play method example. 
+|Code=<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Video Example</title>
+     <script>
+         function hidecontrol(e) {
+           // Set controls to true or false based on their current state
+           var video = document.getElementById('video1');
+           if (video.controls == true) {
+             // Controls are binary, true if there, false if not
+             video.removeAttribute("controls"); 
+             e.innerHTML = "Show controls";
+           } else {
+             // Controls are binary, true if there, false if not
+             video.setAttribute("controls", true); 
+             e.innerHTML = "Hide controls";
+           }
+         }
+
+         function playVideo(e) {
+           var video = document.getElementById('video1');      //video element
+           //  Toggle between play and pause based on the paused property
+           if (video.paused) {
+             var input = document.getElementById('videoFile');   //text box
+             if (input.value) {
+               //  Only load a video file when the text field changes
+               if (input.value != video.src) {
+                 video.src = input.value;
+               }
+               video.play();
+               e.innerHTML = "Pause";
+             }
+           } else {
+             video.pause();
+             e.innerHTML = "Play";
+           }
+           
+         }
+     </script>
+</head>
+<body>
+<video id="video1" controls >HTML5 video is not supported</video><br />
+<input type="text" id="videoFile" size="60" placeholder="Enter video file URL here"/>
+  <button onclick="playVideo(this);">Play</button>
+  <button onclick="hidecontrol(this);">Hide controls</button>
+</body>
+</html> 
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
-To change the URL that is currently playing, assign it to [[apis/audio-video/properties/src|'''src''']]. This method sets [[apis/audio-video/properties/paused|'''paused''']] to false. To change the URL using the '''source''' element, call [[apis/audio-video/methods/load|'''load''']] before calling '''play'''.
+To change the URL that is currently playing, assign it to [[apis/audio-video/properties/src|'''src''']]. This method sets [[apis/audio-video/properties/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[apis/audio-video/methods/load|'''load''']] before calling '''play'''. 
+
+
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.8
