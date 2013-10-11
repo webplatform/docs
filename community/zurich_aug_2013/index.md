@@ -92,6 +92,6 @@ To get started, you need to:
 * Review the structure of the site, at our [[Meta:Editors_Guide/Topic_Hierarchy|Topic Hierarchy page]], to get familiar with where things go
 * http://docs.webplatform.org/wiki/WPD:Editors_Guide contains a guide to show you how to edit and create pages on the Wiki
 
-===Media Wiki crash course===
+=== Media Wiki crash course ===
 
 See [[WPD:Style Guide/Wiki markup crash course]], gives a good short syntax reminder.
