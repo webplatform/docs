@@ -31,27 +31,32 @@
 |Description=The following example sets two different values on the [[css/properties/list-style]]  property of two separate lists. The first list has '''list-style''' set to <code>"outside url('bullet.png')"</code>. The second list has '''list-style''' set to <code>"inside circle"</code>. 
 
 This example uses <code>ul</code> and <code>ul.list2</code> as selectors to define the styles of two different unordered lists.  Note that for <code>ul.list2</code> to override the image that is set with the <code>ul</code> selector, you must explicitly set the '''image''' attribute to '''none'''.
-|Code=ul {  
- list-style: outside url('http://docs.webplatform.org/w/images/3/3f/bullet.png')  
- }  
- 
- ul.list2  {  
- list-style-image: none; list-style: inside circle  
- }
-|LiveURL=http://code.webplatform.org/gist/5617678
-}}{{Single Example
-|Language=HTML
-|Code=&lt;p&gt;The first list:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;first item of the first list&lt;/li&gt;
-  &lt;li&gt;second item of the first list&lt;/li&gt; 
-&lt;/ul&gt; 
+|Code=/* Using an absolute URI to specify an image */
+.first-list {
+	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
+} 
 
-&lt;p&gt;The second list.:&lt;/p&gt; 
-&lt;ul class=list2&gt;  
-	&lt;li&gt;first item of the second list&lt;/li&gt;  
-	&lt;li&gt;second item of the second list&lt;/li&gt; 
-&lt;/ul&gt;
+/* Using a relative URI to specify an image */
+.second-list {
+	list-style-image: url(favicon.ico);
+}
+
+/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
+.third-list {
+	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
+}
+
+/* Setting the value to none we are breaking the inheritance */
+.third-list .third-list-inner-non-inherit {
+	list-style-image: none;
+}
+
+/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
+.fourth-list {
+	list-style-image: url(http://wrong.url.used.com);
+	list-style-type: disc; 
+}
+|LiveURL=http://code.webplatform.org/gist/6950114
 }}
 }}
 {{Notes_Section
