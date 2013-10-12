@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The required attribute is a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 }}
 {{Examples_Section
