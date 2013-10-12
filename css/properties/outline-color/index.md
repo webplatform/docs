@@ -45,7 +45,7 @@
 */
 
 .outline--green {
-  /* make the outline red */
+  /* make the outline green */
   outline-color: #00ff00;
 }
 
