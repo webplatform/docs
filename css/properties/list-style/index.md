@@ -19,6 +19,9 @@
 * <code>list-style-type</code>: This takes any of the range of style values available to the [[css/properties/list-style-type|'''list-style-type''']], which includes <code>circle</code>, <code>disc</code>, <code>decimal</code>, <code>upper-roman</code>, etc. To see a the full list of possible values, see the [[css/properties/list-style-type|'''list-style-type''']]. 
 * <code>list-style-position</code>: Specifies if the list-item markers should appear inside or outside the content flow.
 * <code>list-style-image</code>: This property sets the image that will be used as the list item marker.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 }}
 }}
 {{Examples_Section
@@ -52,7 +55,7 @@ This example uses <code>ul</code> and <code>ul.list2</code> as selectors to defi
 }}
 }}
 {{Notes_Section
-|Usage=The '''list-style''' property is a composite property. When specifying both the '''type''' and '''image''' values, the '''image''' value takes precedence, unless the '''image''' value is set to '''none''' or the image pointed to by the URL cannot display.
+|Usage=The '''list-style''' property is a composite property. When specifying both the '''type''' and '''image''' values, the '''image''' value takes precedence, unless the '''image''' value is set to '''none''' or the image pointed to by the URL is not available.
 The '''list-style''' property also applies to all elements on which the [[css/properties/display|'''display''']] property is set to '''list-item'''.  
 
 When the <code>list-style-position</code> value is set to '''outside''' and the [[css/properties/padding|'''padding''']] or [[css/properties/padding-left|'''padding-left''']] is set to 0, the list marker won't be displayed.
