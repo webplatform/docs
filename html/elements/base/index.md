@@ -28,7 +28,7 @@ A relative URL (<var>some/example.html</var>) needs to be transformed to a fully
 
 Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
 
-If a document is integrated in an [[html/attributes/iframe|<code>iframe</code>]], it may help to specify <code>&lt;base target="_parent"&gt;</code> in order to open the links within the iframe in the scope parent document. If <var>_parent</var> or <var>_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>_self</var>.
+If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], it may help to specify <code>&lt;base target="_parent"&gt;</code> in order to open the links within the iframe in the scope parent document. If <var>_parent</var> or <var>_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>_self</var>.
 }}
 {{Examples_Section
 |Not_required=No
@@ -42,6 +42,8 @@ If a document is integrated in an [[html/attributes/iframe|<code>iframe</code>]]
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;A &lt;a href=&quot;some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
+    &lt;!-- after resolving the above link equals to --&gt;
+    &lt;p&gt;A &lt;a href=&quot;http://www.example.org/deep/some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 }}{{Single Example
@@ -50,24 +52,78 @@ If a document is integrated in an [[html/attributes/iframe|<code>iframe</code>]]
 |Code=&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;base element example&lt;/title&gt;
-    &lt;base target=&quot;blank&quot;&gt;
+    &lt;base target=&quot;_blank&quot;&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;A &lt;a href=&quot;some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
+    &lt;!-- after resolving the above link equals to --&gt;
+    &lt;p&gt;A &lt;a href=&quot;some-file.html&quot; target=&quot;_blank&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The example shows that <code>&lt;base&gt;</code> only affects elements following it
+|Code=&lt;head&gt;
+  &lt;title&gt;base element example&lt;/title&gt;
+  &lt;link href=&quot;my-style.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;base href=&quot;http://example.com&quot;&gt;
+  &lt;link href=&quot;my-other-style.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;!--
+    resolves to
+    [current domain and directory]/my-style.css
+    http://example.com/my-other-style.css
+  --&gt;
+&lt;/head&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The example shows how multiple <code>&lt;base&gt;</code> occurrences are collapsed and ignored
+|Code=&lt;head&gt;
+  &lt;title&gt;base element example&lt;/title&gt;
+  &lt;base href=&quot;http://example.com&quot;&gt;
+  &lt;base target=&quot;_blank&quot;&gt;
+  &lt;base href=&quot;http://webplatform.org&quot; target=&quot;_top&quot;&gt;
+  &lt;!--
+    equals to the single definition:
+    &lt;base href=&quot;http://example.com/&quot; target=&quot;_blank&quot;&gt;
+    except for Internet Explorer, where only the first element is read:
+    &lt;base href=&quot;http://example.com/&quot; target=&quot;_self&quot;&gt;    
+  --&gt;
+&lt;/head&gt;
+
+}}{{Single Example
+|Language=HTML
+|Description=The example shows how a relative base URL can be made to work in Internet Explorer
+|Code=&lt;head&gt;
+  &lt;title&gt;base element example&lt;/title&gt;
+  &lt;base href=&quot;sub-directory/&quot;&gt;
+  &lt;script&gt;
+    (function() {
+      var base = document.getElementsByTagName('base')[0];
+      base.href = base.href + &quot;&quot;;
+    })();
+  &lt;/script&gt;
+  &lt;!--
+    if this URL of the document is 
+    http://example.com/index.html the 
+    resolved base href is
+    http://example.com/sub-directory/ 
+  --&gt;
+&lt;/head&gt;
 }}
 }}
 {{Notes_Section
-|Usage=TODO: Relative URLs aren't supported reliably across browsers. It was added as late as Firefox 4 …
-TODO: <svg> and url(#foo) problem
+|Usage=TODO: <svg> and url(#foo) problem
+|Notes=* Relative URLs within <code>&lt;base&gt;</code> don't work in every browser, resolving a relative base URL was introduced in Firefox 4 and Internet Explorer 10.
+* <code>&lt;base&gt;</code> only affects elements following it's declaration.
+* multiple <code>&lt;base&gt;</code> declarations are illegal, only the ''first'' [[html/attributes/href|<code>href</code>]] and [[html/attributes/target|<code>target</code>]] are used, the rest is discarded. Internet Explorer ignores all <code>&lt;base&gt;</code> instances after the first.
 
-TODO: explain multiple occurrence, and that it only applies AFTER the fact - use examples for this
-|Notes====Remarks===
-When used, the '''base''' element must appear within the '''head''' of the document, before any elements that refer to an external source.
-If more than one '''base''' element occurs,  only the first element will be recognized.
-Windows Internet Explorer 8 and later. When read, the value of the [[html/attributes/href (base)|'''href''']] attribute depends on the current document compatibility mode.  In addition, relative URL's are no longer supported by the '''base''' element.
-'''Note'''   Versions of Windows Internet Explorer prior to Windows Internet Explorer 7 would allow the '''base''' element to appear anywhere in the document tree, which caused relative paths to use the "nearest" '''base''' element as the base for the URL. Internet Explorer 7 strictly enforces the use of the '''base''' tag within the '''head''' of the document, and will ignore misplaced tags.
+In Internet Explorer 8 and later, when read, the value of the [[html/attributes/href (base)|'''href''']] attribute depends on the current document compatibility mode.  In addition, relative URL's are no longer supported by the '''base''' element.
+
+'''Note''' Internet Explorer 6 and older would allow the <code>&lt;base&gt;</code> element to appear anywhere in the document tree, which caused relative paths to use the "nearest" <code>&lt;base&gt;</code> element as the base for the URL. Internet Explorer 7 strictly enforces the use of the <code>&lt;base&gt;</code> tag within the [[html/elements/head|<code>&lt;head&gt;</code>]] of the document, and will ignore misplaced tags.
+
+Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not resolved in every version of Internet Explorer, they are properly resolved against the document's URL upon read. That in turn allows to set a fully qualified from within JavaScript: <code>base.href = base.href + "";</code>;
+
+'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. Unlike the CSS selector <code>#element-id</code>, <code>url(#element-id)</code> HERE
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
