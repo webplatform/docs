@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Replaces the list-item marker with an image.}}
 {{CSS Property
-|Initial value=none
+|Initial value=disc
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
