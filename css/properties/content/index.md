@@ -103,7 +103,7 @@ button[data-badge]:after {
 |LiveURL=http://code.webplatform.org/gist/6948854
 }}{{Single Example
 |Language=CSS
-|Description=Uses the counter data-type to show a automatic numbering for all h2 elements on the page. More information is available on the [[css/properties/counter-increment{{!}}'''counterIncrement''']] page.
+|Description=Uses the counter data-type to show a automatic numbering for all h2 elements on the page. More information is available on the [[css/properties/counter-increment{{!}}'''counter-increment''']] property page.
 |Code=h2 {
 /*  increment header counter per h2 element */
     counter-increment: header;
