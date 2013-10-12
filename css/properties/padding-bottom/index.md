@@ -16,7 +16,7 @@
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details.  Can not be a negative number.
+|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details. 
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=Calculated using the dimensions of the containing block or element.
