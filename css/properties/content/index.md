@@ -25,6 +25,9 @@
 |Data Type=string
 |Description=Text content, in either double quotation marks (") or single quotation marks (').
 }}{{CSS Property Value
+|Data Type=uri
+|Description=This is the url of an external resource, such as an image. If the user agent cannot display the resource it must either leave it out as if it were not specified or display some indication that the resource cannot be displayed.{{cn}}
+}}{{CSS Property Value
 |Data Type=counter
 |Description=Counters may be specified with two different functions: 'counter()' or 'counters()'.  'counter()' has two forms: 'counter(name)' or 'counter(name, style)'. The generated text is the value of the innermost counter of the given name in scope at this pseudo-element; it is formatted in the indicated style ('decimal' by default).  'counters()'  also has two forms: 'counters(name, string)' or 'counters(name, string, style)'. The generated text is the value of all counters with the given name in scope at this pseudo-element, from outermost to innermost separated by the specified string. 
 
@@ -41,9 +44,6 @@ The counters are rendered in the indicated style ('decimal' by default). The nam
 }}{{CSS Property Value
 |Data Type=no-close-quote
 |Description=If set, removes the closing quote from the content.
-}}{{CSS Property Value
-|Data Type=uri
-|Description=This is the url of an external resource, such as an image. If the user agent cannot display the resource it must either leave it out as if it were not specified or display some indication that the resource cannot be displayed.{{cn}}
 }}{{CSS Property Value
 |Data Type=attr( attribute-name )
 |Description=Value of an attribute of the subject of the selector. If attribute is not set on the subject an empty string will be returned.
