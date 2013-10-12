@@ -62,16 +62,6 @@ h1:after {
 }
 |LiveURL=http://code.webplatform.org/gist/6948299
 }}{{Single Example
-|Language=HTML
-|Code=&lt;style type{{=}}"text/css"&gt;
-.customalert::before {
-    content: “Alert: ” attr(data-message);
-    color: red;
-    font-weight: bold;
-}
-
-<p class=customalert data-message=”I have no idea what this means!”>Lorem ipsum dolor sit amet</p>
-}}{{Single Example
 |Language=CSS
 |Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute for a button element.
 |Code=button[data-badge] {
