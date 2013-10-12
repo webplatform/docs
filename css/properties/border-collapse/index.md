@@ -1,71 +1,56 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Border-collapse can be used for collapsing the borders between table cells.}}
 {{CSS Property
-|Applies to=All elements
-|Inherited=No
+|Initial value=separate
+|Applies to=Table and inline-table elements
+|Inherited=Yes
 |Media=visual
 |Animatable=No
+|CSS object model property=borderCollapse
 |Values={{CSS Property Value
 |Data Type=separate
-|Description=Default. Borders are detached (standard HTML).
+|Description=Default. Borders are detached (standard HTML). Each table cell has an individual border, with optional space between the borders.
 }}{{CSS Property Value
 |Data Type=collapse
-|Description=Borders are collapsed, where adjacent, into a single border.
+|Description=Adjacent borders and the space between them are collapsed into a single border.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example demonstrates how to use the '''border-collapse''' attribute and the '''border-collapse''' property to manipulate the border on a table.
-|Code=&lt;table id{{=}}"oID_1" style{{=}}"border-collapse: collapse"&gt;
-        &lt;tr&gt;
-            &lt;td&gt;EST&lt;/td&gt;
-            &lt;td&gt;9:00 a.m.&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;CST&lt;/td&gt;
-            &lt;td&gt;8:00 a.m.&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;PST&lt;/td&gt;
-            &lt;td&gt;6:00 a.m.&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/table&gt;
-    &lt;p&gt;
-    &lt;input type{{=}}"button" onclick{{=}}"oID_1.style.borderCollapse{{=}}'separate'" value{{=}}"separate"&gt;
-    &lt;input type{{=}}"button" onclick{{=}}"oID_1.style.borderCollapse{{=}}'collapse'" value{{=}}"collapse"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/borderCollapse.htm
+|Language=CSS
+|Description=Example of a basic border-collapse.
+|Code=table {
+	border-collapse: separate; /* default */
+}
+table.collapse {
+	border-collapse: collapse;
+}
+|LiveURL=http://code.webplatform.org/gist/6948189
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''border-collapse: '''collapse '''{{!}}''' separate</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1]
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2.1, section 17.6 Borders
+|URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Tables
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/border|border]]</code>
+|Manual_links=*<code>[[css/properties/border|border]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
