@@ -30,6 +30,18 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Sets the hyphens property different on each of the paragraph elements.
+|Code=p:nth-child(1) {
+  hyphens: none;
+}
+
+p:nth-child(2) {
+  hyphens: manual;
+}
+
+p:nth-child(3) {
+  hyphens: auto;
+}
 |LiveURL=http://code.webplatform.org/gist/6948199
 }}
 }}
