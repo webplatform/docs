@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -14,7 +14,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<form action="submit.php" method="post">
+  Input field: <input type="text" name="inputfield">
+  <input type="submit" value="Submit">
+  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+</form>
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
@@ -32,6 +39,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
 *<code>[[dom/HTMLBGSoundElement|HTMLButtonElement]]</code>
