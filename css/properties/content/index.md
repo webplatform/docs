@@ -51,19 +51,15 @@ The counters are rendered in the indicated style ('decimal' by default). The nam
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=CSS
 |Description=The following example generates braces before and after
 all the '''h1''' elements on a page.
-|Code=&lt;style type{{=}}"text/css"&gt;
-h1:before {
+|Code=h1:before {
     content: "{ ";
 }
 h1:after {
     content: " }";
 }
-&lt;/style&gt;
-
-&lt;h1&gt;Embrace this text!&lt;/h1&gt;
 |LiveURL=http://code.webplatform.org/gist/6948299
 }}{{Single Example
 |Language=HTML
@@ -103,7 +99,7 @@ button[data-badge]:after {
 |Description=Using the uri data-type the webplatform favicon is appended to all elements with the webplatform class.
 |Code=.webplatform:before {
     content: url('http://docs.webplatform.org/favicon.ico');
-} 
+}
 |LiveURL=http://code.webplatform.org/gist/6948854
 }}
 }}
