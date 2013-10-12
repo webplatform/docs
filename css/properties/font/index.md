@@ -10,7 +10,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
-|Computed value=For <code>font-style</code> as specified. For <code>font-variant</code> as specified. For <code>font-weight</code> the keyword or the numerical value as specified, with bolder and lighter transformed to the real value. For <code>font-size</code> as specified, but with relative lengths converted into absolute lengths. For percentage and length values of <code>line-height</code>, the absolute length, otherwise as specified; </code>font-family</code> as specified.
+|Computed value=See the individual properties
 |Animatable=Yes
 |CSS object model property=font
 |Values={{CSS Property Value
@@ -20,7 +20,7 @@
 * <code>font-weight</code>: Sets boldness of font; can take values of <code>normal</code> (default), <code>bold</code> (standard bold weight), <code>lighter</code> or <code>bolder</code> (supposed to be a slightly lighter or bolder weight that standard <code>bold</code>), inherit, or various numerical values to indicate different degrees of boldness: <code>100</code>, <code>200</code>, <code>300</code>, <code>400</code>, <code>500</code>, <code>600</code>, <code>700</code>, <code>800</code>, or <code>900</code>.
 * <code>font-style</code>: Allows an italic or oblique font face to be applied; values options are <code>normal</code> (default), italic, oblique, or inherit.
 * <code>font-variant</code>: Allows a small caps font variant to be set. Value options are <code>normal</code> (default), <code>small-caps</code>, or <code>inherit</code>.
-* <code>font-size/</code>: Sets a size for the font. Options are absolute size keywords (<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code> (the default value), <code>large</code>, <code>x-large</code> or <code>xx-large</code>), relative size keywords (<code>smaller</code> or <code>larger</code>, which indicate a keyword size smaller or larger than the parent element's font size), length values (for example <code>12px</code>, or <code>5rem</code>), percentage values (for example <code>80%</code>), or <code>inherit</code>.
+* <code>font-size</code>: Sets a size for the font. Options are absolute size keywords (<code>xx-small</code>, <code>x-small</code>, <code>small</code>, <code>medium</code> (the default value), <code>large</code>, <code>x-large</code> or <code>xx-large</code>), relative size keywords (<code>smaller</code> or <code>larger</code>, which indicate a keyword size smaller or larger than the parent element's font size), length values (for example <code>12px</code>, or <code>5rem</code>), percentage values (for example <code>80%</code>), or <code>inherit</code>.
 * <code>line-height</code>: Sets the height of the line the font is sat on. Value options include <code>normal</code> (the default), unitless values (for example <code>1.7</code>), length values (for example <code>20px</code> or <code>3.5rem</code>), percentage values (for example <code>120%</code>), or <code>inherit</code>.
 * <code>font-family</code>: Allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.
 }}{{CSS Property Value
