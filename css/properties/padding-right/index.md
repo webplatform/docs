@@ -1,15 +1,14 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=see padding-bottom
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding-right</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the right side of an element.}}
+{{Summary_Section|The <code>padding-right</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the right side of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-right|margin-right]] values, negative values of <code>padding-right</code> are invalid.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements (except table-*-group, table-row and table-column)
+|Applies to=All elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
 |Computed value=the percentage as specified or the absolute length
@@ -28,11 +27,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-right</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=h1 { padding-right: 5%; }
-
+|Code=TD { padding-right: 20%; }
+|LiveURL=http://code.webplatform.org/gist/6948655
 }}{{Single Example
 |Language=CSS
-|Code=p { padding-right: 10px; }
+|Code=TD { padding-right: 30px; }
+|LiveURL=http://code.webplatform.org/gist/6948661
 }}
 }}
 {{Notes_Section
