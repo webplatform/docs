@@ -37,10 +37,25 @@
 &lt;div class="pattern two"&gt;two&lt;/div&gt;
 &lt;div class="pattern three"&gt;three&lt;/div&gt;
 &lt;div class="pattern four"&gt;four&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5622431
+|LiveURL=http://code.webplatform.org/gist/6949408
 }}{{Single Example
 |Language=CSS
-|Code=/* This general class will apply the pattern to the containers */
+|Code=/**
+*	Border-image-slice Live Example
+*	@see http://docs.webplatform.org/wiki/css/properties/border-image-slice
+*/
+
+/* General setup of the containers */
+div {
+	height: 100px;
+	width: 100px;
+	margin: 25px; 
+	text-align: center;
+	line-height: 100px;
+	font-family: sans-serif;
+}
+
+/* This general class will apply the pattern to the containers */
 .pattern {
 	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
 	border-image-width: 6;
@@ -68,7 +83,7 @@
 .pattern.four{
 	border-image-slice: 25 20 30 15; 
 }
-|LiveURL=http://code.webplatform.org/gist/5622431
+|LiveURL=http://code.webplatform.org/gist/6949408
 }}
 }}
 {{Notes_Section
