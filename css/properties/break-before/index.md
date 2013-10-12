@@ -1,6 +1,5 @@
 {{Page_Title|break-before}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
