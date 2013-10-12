@@ -5,10 +5,10 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding-left</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the left side of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed.}}
+{{Summary_Section|The <code>padding-left</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the left of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-left|margin-left]] values, negative values of <code>padding-left</code> are invalid.}}
 {{CSS Property
 |Initial value=0
-|Applies to=All elements (except table-*-group, table-row and table-column)
+|Applies to=All elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
 |Computed value=the percentage as specified or the absolute length
@@ -27,11 +27,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-left</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=h1 { padding-left: 5%; }
-
+|Code=TD { padding-left: 20%; }
+|LiveURL=http://code.webplatform.org/gist/6948612
 }}{{Single Example
 |Language=CSS
-|Code=p { padding-left: 10px; }
+|Code=TD { padding-left: 30px; }
+|LiveURL=http://code.webplatform.org/gist/6948619
 }}
 }}
 {{Notes_Section
