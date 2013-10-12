@@ -63,7 +63,7 @@
 }
 |LiveURL=http://dabblet.com/gist/5521520
 }}{{Single Example
-|Language=HTML
+|Language=CSS
 |Description=A couple of theoretical font examples, showing first a <code>font</code> property value with all possible longhand values included, and second, a system default font being used.
 |Code=.one {
   font: bold italic small-caps 18px/24px georgia;
@@ -74,7 +74,7 @@
 }
 |LiveURL=http://code.webplatform.org/gist/5586740
 }}{{Single Example
-|Language=CSS
+|Language=HTML
 |Code=<p class="one">First font example.<br>This shows all possible longhand values being used at once.</p>
 <p class="two">Second font example.<br>This shows a system default being used.</p>
 |LiveURL=http://code.webplatform.org/gist/5586740
