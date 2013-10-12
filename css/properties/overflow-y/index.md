@@ -1,16 +1,16 @@
-{{Page_Title}}
+{{Page_Title|overflow-y}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The overflow-y property is a specific case of the generic overflow property. It controls how extra text exceeding the y axys of the bounding box of an element is rendered.}}
+{{Summary_Section|The <code>overflow-y</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra text exceeding the y axys of the bounding box of an element is rendered.}}
 {{CSS Property
-|Applies to=All elements
+|Initial value=visible
+|Applies to=non-replaced block-level elements and non-replaced ‘inline-block’ elements
 |Inherited=No
 |Media=visual
+|Computed value=as specified, except ‘visible’
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=visible
@@ -24,23 +24,50 @@
 }}{{CSS Property Value
 |Data Type=auto
 |Description=Content is clipped and scrolling is added only when necessary.
+}}{{CSS Property Value
+|Data Type=no-display
+|Description=When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
+}}{{CSS Property Value
+|Data Type=no-content
+|Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Using <code>overflow-y</code> with its values.
+|Code=.hidden {
+	overflow-y: hidden;
+}
+.scroll {
+	overflow-y: scroll;
+}
+.auto {
+	overflow-y: auto;
+}
+.visible {
+	overflow-y: visible;
+}
+|LiveURL=http://code.webplatform.org/gist/6947763
 }}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-overflow-y''' attribute is an extension to CSS, and can be used as a synonym for '''overflow-y''' in IE8 Standards mode.
-With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this property applies to the '''html''' object.
-|Import_Notes====Syntax===
-<code>'''-ms-overflow-y: '''visible '''{{!}}''' scroll '''{{!}}''' hidden '''{{!}}''' auto</code>
-===Standards information===
-There are no standards that apply here.
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://dev.w3.org/csswg/css-box/#overflow-x
+|Status=Editor's Draft
+}}{{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/#overflow1
+|Status=Working Draft
+|Relevant_changes=Add no-display and no-content
+}}{{Related Specification
+|Name=CSS3 module: The box model
+|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,18 +99,10 @@ There are no standards that apply here.
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
+|Manual_sections=*<code>Reference</code>
 *<code>[[css/properties/overflow|overflow]]</code>
-*<code>[[css/properties/overflow-x|-ms-overflow-x]]</code>
-*<code>[[css/properties/position|position]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
+*<code>[[css/properties/overflow-x|overflow-x]]</code>
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
