@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding-bottom</code> is an optional CSS property of an element that sets the [[css/properties/padding|padding]] space required below an element.  The padding area is the space between an element and its border. Negative values are not allowed but decimal values are permitted. The element size is treated as fixed, and the content of the element shifts toward the center as padding is increased.  Negative values are not permitted.}}
+{{Summary_Section|The <code>padding-bottom</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the bottom of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-bottom|margin-bottom]] values, negative values of <code>padding-bottom</code> are invalid.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements (except table-*-group, table-row and table-column, br)
