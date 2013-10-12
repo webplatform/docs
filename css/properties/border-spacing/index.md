@@ -34,6 +34,11 @@
 |Specifications={{Related Specification
 |Name=CSS 2.1, 17.6.1. The separated borders model
 |URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing
+|Status=Recommendation
+}}{{Related Specification
+|Name=CSS 3, 8.1. The separated borders model
+|URL=http://dev.w3.org/csswg/css3-tables/#border-spacing
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
