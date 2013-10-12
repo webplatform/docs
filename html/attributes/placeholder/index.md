@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The placeholder attribute specifies a short hint that describes the expected value of an input field (e.g. a sample value or a short description of the expected format).}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The short hint is displayed in the input field before the user enters a value.
 }}
