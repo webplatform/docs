@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The content property is used with the pseudo-elements ::before and ::after.}}
+{{Summary_Section|The content property is used to display content in the pseudo-elements ::before and ::after.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=pseudo-elements :before and :after
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=On elements, always computers to normal.
 |Animatable=Yes
+|CSS object model property=content
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Pseudo element is not generated.
