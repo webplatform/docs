@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>padding-left</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the left of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-left|margin-left]] values, negative values of <code>padding-left</code> are invalid.}}
+{{Summary_Section|The <code>padding-left</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the left side of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-left|margin-left]] values, negative values of <code>padding-left</code> are invalid.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements (except table-*-group, table-row and table-column, br)
