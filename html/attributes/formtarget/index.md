@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The formtarget attribute overrides the target attribute of the <form> element.
 }}
