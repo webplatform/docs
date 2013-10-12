@@ -1,60 +1,40 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets the distance between the borders of adjacent cells.}}
+{{Summary_Section|Specifies the distance between the borders of adjacent cells.}}
 {{CSS Property
-|Applies to=All elements
-|Inherited=No
+|Initial value=0
+|Applies to=Table and inline-table elements
+|Inherited=Yes
 |Media=visual
+|Computed value=Two absolute lengths
 |Animatable=No
+|CSS object model property=borderSpacing
 |Values={{CSS Property Value
 |Data Type=length
-|Description=A floating-point number, followed by either an absolute units designator
-(<code>cm</code>,
-<code>mm</code>,
-<code>in</code>,
-<code>pt</code>,
-or <code>pc</code>)
-or a relative units designator
-(<code>em</code>,
-<code>ex</code>,
-or <code>px</code>).
-For more information about the supported length units,
-see CSS Values and Units Reference.
+|Description=The distance that separates adjoining cell borders. If one length is specified, it gives both the horizontal and vertical spacing. If two are specified, the first gives the horizontal spacing and the second the vertical spacing. Lengths may not be negative.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=The same specified value as the property for the element's parent will be used.
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|LiveURL=http://code.webplatform.org/gist/6948537
+}}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The length values specify the distance that separates adjoining cell borders.
-If one length is specified, it represents both the horizontal and vertical spacing.
-If two are specified, the first represents the horizontal spacing,
-the second the vertical spacing. Negative lengths are ignored.
-The distance between the table border and the borders of the cells
-on the edge of the table is the
-[[css/properties/padding|'''padding''']]
-of the table for that side, plus the relevant
-'''border-spacing''' distance.
-For example, on the right side the distance is
-[[css/properties/padding-right|'''padding-right''']]
-plus the horizontal '''border-spacing'''.
-This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''border-spacing: '''''
-&lt;length&gt;
-''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 17.6
+|Notes=* The CSS2.1 specification states that user agents may apply this property to frameset elements (therefore replacing the framespacing attribute).
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1, 17.6.1. The separated borders model
+|URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -65,12 +45,6 @@ This property requires Windows Internet Explorer to be in IE8 Standards mode ren
 }}
 {{See_Also_Section
 |Topic_clusters=Tables
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/border-collapse|border-collapse]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
