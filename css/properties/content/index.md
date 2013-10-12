@@ -42,23 +42,29 @@ The counters are rendered in the indicated style ('decimal' by default). The nam
 |Description=If set, removes the closing quote from the content.
 }}{{CSS Property Value
 |Data Type=uri
-|Description=URI designates an external resource, such as an image. If the user agent cannot display the resource it must either leave it out as if it were not specified or display some indication that the resource cannot be displayed.{{cn}}
+|Description=This is the url of an external resource, such as an image. If the user agent cannot display the resource it must either leave it out as if it were not specified or display some indication that the resource cannot be displayed.{{cn}}
+}}{{CSS Property Value
+|Data Type=attr( attribute-name )
+|Description=Value of an attribute of the subject of the selector. If attribute is not set on the subject an empty string will be returned.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=Other
 |Description=The following example generates braces before and after
-all the '''hn''' elements on a page.
-|Code=&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;style type{{=}}"text/css"&gt;
-H1:before {
+all the '''h1''' elements on a page.
+|Code=&lt;style type{{=}}"text/css"&gt;
+h1:before {
     content: "{ ";
 }
-H1:after {
+h1:after {
 	content: " }";
 }
 &lt;/style&gt;
+
+&lt;h1&gt;Embrace this text!&lt;/h1&gt;
+
 }}{{Single Example
 |Code=.customalert::before {
     content: “Alert: ” attr(data-message);
