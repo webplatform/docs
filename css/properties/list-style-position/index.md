@@ -37,15 +37,7 @@ This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedd
 }}{{Single Example
 |Language=JavaScript
 |Description=This example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
-|Code=/**
- * List Style Position - Web Platform Docs Examples
- * An example to how to change dynamically using JavaScipt the style position of a list 
- *
- * @author	Jaime Vega
- * @see		http://docs.webplatform.org/wiki/css/properties/list-style-position 
- */
-
-var ul = document.getElementById('list-hover');
+|Code=var ul = document.getElementById('list-hover');
 
 // When the mouse is over the list, the position changes to inside
 ul.addEventListener('mouseover', function () {
@@ -59,30 +51,24 @@ ul.addEventListener('mouseout', function () {
 |LiveURL=http://code.webplatform.org/gist/6949116
 }}{{Single Example
 |Language=CSS
-|Description=An example to show how set padding to 0 when position is set to outside will produce 
- * the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue
- *
+|Description=An example to show how set padding to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 |Code=ul {
 	padding: 0;
 }
 
-.list-position--inside {
+.list-position-outside {
+	list-style-position: outside;
+}
+
+.list-position-inside {
 	list-style-position: inside;
 }
 |LiveURL=http://code.webplatform.org/gist/5598129
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''list-style-position''' property can be applied to any element when [[css/properties/margin|'''margin''']] and [[css/properties/display|'''display''']]:'''list-item''' are applied. The [[css/properties/display|'''display''']]:'''list-item''' property is available starting with Microsoft Internet Explorer 6.
-
-If the left padding of a list is set to 0 using one of the [[css/properties/padding|'''padding''']] properties, the list-item markers do not show only if that list has the default list-style-position: outside; . For a better understanding see the examples.
-
-There is variance among browsers regarding behaviour when a block element is placed first within a list element declared as list-style-position:inside. Chrome and Safari both place this element on the same line as the marker box, whereas Firefox, Internet Explorer and Opera place it on the next line. There is also an example provided. [https://bugzilla.mozilla.org/show_bug.cgi?id{{=}}36854 Firefox bug report]
-|Import_Notes====Syntax===
-<code>'''list-style-position: '''inside '''{{!}}''' outside</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.6.5
+|Usage====Remarks===
+If a list-style-position is set to outside and padding-left is set to 0, the marker will not show.
 }}
 {{Related_Specifications_Section
 |Specifications=
