@@ -99,10 +99,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections=*<code>Reference</code>
-*<code>[[css/properties/overflow|overflow]]</code>
-*<code>[[css/properties/overflow-x|overflow-x]]</code>
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
