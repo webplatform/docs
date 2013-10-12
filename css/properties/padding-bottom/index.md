@@ -16,7 +16,7 @@
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
-|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details. 
+|Description=Specifies a positive fixed distance. See [[css/data_types/length|length]] for details.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=Calculated using the dimensions of the containing block or element.
@@ -37,7 +37,15 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, 8 Box model
+|URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
