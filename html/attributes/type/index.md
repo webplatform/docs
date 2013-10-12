@@ -1,13 +1,13 @@
 {{Page_Title|type}}
 {{Flags
 |Content=Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The type attribute is used to define what sort of type an input or ordered list element is.}}
 {{Markup_Attribute
-|Applies_to=html/elements/ol html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]] [[html/elements/ol|OLElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=In general the type attribute is used for &lt;input&gt; and for &lt;ol&gt; elements.<br />
 As with HTML5 the attribute is no longer deprecated for &lt;ol&gt; elements.
