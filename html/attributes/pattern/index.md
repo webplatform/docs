@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The pattern attribute specifies a regular expression that the <input> element's value is checked against.}}
 {{Markup_Attribute
-|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 }}
 {{Examples_Section
