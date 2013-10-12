@@ -11,7 +11,7 @@
 |Applies to=All elements (except table-*-group, table-row and table-column, br)
 |Inherited=No
 |Media=visual
-|Computed value=the percentage as specified or a absolute length
+|Computed value=the percentage as specified or the absolute length
 |Animatable=Yes
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
@@ -27,10 +27,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-bottom</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=h1 { padding-bottom: 5%; }
+|Code=TD { padding-bottom: 20%; }
+|LiveURL=http://code.webplatform.org/gist/6948355
 }}{{Single Example
 |Language=CSS
-|Code=p { padding-bottom: 10px; }
+|Code=TD { padding-bottom: 30px; }
+|LiveURL=http://code.webplatform.org/gist/6948398
 }}
 }}
 {{Notes_Section}}
