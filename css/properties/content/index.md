@@ -23,7 +23,15 @@
 |Description=Equivalent to "none" for :before and :after pseudo-elements, which are the only places the content property currently applies.
 }}{{CSS Property Value
 |Data Type=string
-|Description=Text content, in either double quotation marks (") or single quotation marks (').
+|Description=Text content, in either double quotation marks (") or single quotation marks ('). 
+
+Double quotation marks cannot occur inside other double quotation marks, unless they are preceded by a backslash (\) escape character. For example, the string <code>"\""</code> is interpreted as containing one double quotation character.
+
+It is possible to break strings over several lines, for esthetic or other reasons, by use of the backslash as a continuation character; however, the newline character itself is ignored.
+
+Newlines can be used by writing the <code>\A</code> escape sequence in any of the strings after the '''content''' property. The generated line break is displayed in accordance with the value of the [[css/properties/white-space|'''white-space''']] attribute.
+
+The backslash is also used to generate escape characters that cannot be represented in the current character encoding. In this case, the backslash is followed by at most six hexadecimal digits (from the range 0–9 and A–F) to indicate the Unicode character with that number.
 }}{{CSS Property Value
 |Data Type=uri
 |Description=This is the url of an external resource, such as an image. If the user agent cannot display the resource it must either leave it out as if it were not specified or display some indication that the resource cannot be displayed.
@@ -119,41 +127,7 @@ blockquote:after {
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''content'''
-attribute is used in conjunction with
-[[css/selectors/pseudo-elements/::before|'''::before''']] and
-[[css/selectors/pseudo-elements/::after|'''::after''']] pseudo-classes
-to generate content in a document.
-Strings can written with either double quotation marks (") or
-with single quotation marks ('). Double quotation marks cannot occur
-inside other double quotation marks, unless they are preceded by
-a backslash (\) escape character. For example, the string
-<code>"\""</code> is interpreted as containing
-one double quotation character.
-It is possible to break strings over several lines, for esthetic or
-other reasons, by use of the backslash as a continuation character;
-however, the newline character itself is ignored.
-Authors may include line breaks in the generated content
-by writing the <code>\A</code> escape sequence in any
-of the strings after the
-'''content'''
-property. The generated line break is displayed in accordance
-with the value of the
-[[css/properties/white-space|'''white-space''']]
-attribute.
-The backslash is also used to generate escape characters that
-cannot be represented in the current character encoding.
-In this case, the backslash is followed by at most
-six hexadecimal digits (from the range 0–9 and A–F)
-to indicate the	Unicode character with that number.
-This property requires Windows Internet Explorer
-to be in IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''content: ''''''[''' string '''{{!}}''' counter ''']''''''+'''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.2
-* CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
+|Notes=* CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -167,7 +141,11 @@ to be in IE8 Standards mode rendering.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content, Multi-Column
