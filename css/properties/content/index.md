@@ -51,7 +51,7 @@ The counters are rendered in the indicated style ('decimal' by default). The nam
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=Other
+|Language=HTML
 |Description=The following example generates braces before and after
 all the '''h1''' elements on a page.
 |Code=&lt;style type{{=}}"text/css"&gt;
@@ -66,7 +66,9 @@ h1:after {
 &lt;h1&gt;Embrace this text!&lt;/h1&gt;
 |LiveURL=http://code.webplatform.org/gist/6948299
 }}{{Single Example
-|Code=.customalert::before {
+|Language=HTML
+|Code=&lt;style type{{=}}"text/css"&gt;
+.customalert::before {
     content: “Alert: ” attr(data-message);
     color: red;
     font-weight: bold;
@@ -74,9 +76,9 @@ h1:after {
 
 <p class=customalert data-message=”I have no idea what this means!”>Lorem ipsum dolor sit amet</p>
 }}{{Single Example
-|Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute.
-|Code=&lt;style type{{=}}"text/css"&gt;
-button[data-badge] {
+|Language=CSS
+|Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute for a button element. 
+|Code=button[data-badge] {
 	/* the badge is going to be positioned absolute in the 
 	 * button. Therefore the button needs a relative position */
 	position: relative;
@@ -95,9 +97,6 @@ button[data-badge]:after {
 	top: -4px;
 	padding: 1px 4px;
 }
-&lt;/style&gt;
-
-&lt;button data-badge{{=}}"1"&gt;inbox&lt;/button&gt;
 |LiveURL=http://code.webplatform.org/gist/6948575
 }}
 }}
