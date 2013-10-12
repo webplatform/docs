@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,26 +18,21 @@
 }}{{CSS Property Value
 |Data Type=collapse
 |Description=Adjacent borders and the space between them are collapsed into a single border.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=The same specified value as the property for the element's parent will be used.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=Example of a basic border-collapse.
-|Code=table {
-	border-collapse: separate; /* default */
-}
-table.collapse {
-	border-collapse: collapse;
-}
 |LiveURL=http://code.webplatform.org/gist/6948189
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS2.1, section 17.6 Borders
+|Name=CSS 2.1, section 17.6 Borders
 |URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse
 }}
 }}
