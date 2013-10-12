@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=Numeric field: <input type=”text” name=”numericField” pattern=”[0-9]*” />
+|Code=Numeric field: <input type="text" name="numericField" pattern="[0-9]*" />
 Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
 }}
 }}
