@@ -37,8 +37,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
-|URL=http://www.w3.org/TR/css3-text/#hyphenation
-|Status=W3C Working Draft
+|URL=http://www.w3.org/TR/css3-text/#hyphens-property
+|Status=WRC Last Call Working Draft
 }}
 }}
 {{Compatibility_Section
