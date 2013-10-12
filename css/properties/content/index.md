@@ -114,6 +114,17 @@ h2:before {
     content: counter(header) ". ";
 }
 |LiveURL=http://code.webplatform.org/gist/6949103
+}}{{Single Example
+|Language=CSS
+|Description=Uses the open-quote and close-quote data-type to add quoting around each blockquote element on the page.
+|Code=blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+|LiveURL=http://code.webplatform.org/gist/6949289
 }}
 }}
 {{Notes_Section
