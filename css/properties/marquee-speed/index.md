@@ -7,7 +7,7 @@
 {{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
 {{CSS Property
 |Initial value=normal
-|Applies to=same as [[css/properties/overflow]]
+|Applies to=same as overflow
 |Inherited=Yes
 |Media=visual
 |Computed value=as specified
@@ -27,7 +27,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=A basic example on how to use marquee-speed.
+|Code=h1 {
+	overflow: auto; 
+	overflow-style: marquee-line;
+	white-space: nowrap;
+	width: 200px;
+	marquee-speed: fast;
+}
+|LiveURL=http://code.webplatform.org/gist/6948165
+}}
 }}
 {{Notes_Section
 |Notes=The actual speed depends on the UA and the type of content.
