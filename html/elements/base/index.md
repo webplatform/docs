@@ -34,7 +34,8 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 |Examples={{Single Example
 |Language=HTML
 |Description=The example shows a link with the relative destination <var>some-file.html</var> that gets rewritten to <var>http://example.org/deep/some-file.html</var>
-|Code=&lt;html&gt;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;base element example&lt;/title&gt;
     &lt;base href=&quot;http://www.example.org/deep/&quot;&gt;
@@ -48,7 +49,8 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 }}{{Single Example
 |Language=HTML
 |Description=The example shows a link that is opened in a new window (or tab)
-|Code=&lt;html&gt;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;base element example&lt;/title&gt;
     &lt;base target=&quot;_blank&quot;&gt;
