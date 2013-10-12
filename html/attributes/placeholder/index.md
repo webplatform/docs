@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -14,7 +14,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=Address: <input type=”text” name=”address” placeholder=”Insert here your address” />
+Date of birth: <input type=”text” name=”day” placeholder=”DD” /><input type=”text” name=”month” placeholder=”MM” /><input type=”text” name=”year” placeholder=”YYYY” />
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
