@@ -27,11 +27,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the '''padding-top''' property to change the padding of the elements.
-|Code=h1 { padding-top: 5%; }
-
+|Code=TD { padding-top: 20%; }
+|LiveURL=http://code.webplatform.org/gist/6948436
 }}{{Single Example
 |Language=CSS
-|Code=p { padding-top: 10px; }
+|Code=TD { padding-top: 30px; }
+|LiveURL=http://code.webplatform.org/gist/6948429
 }}
 }}
 {{Notes_Section
