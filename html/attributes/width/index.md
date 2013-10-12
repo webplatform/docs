@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The '''width''' property is a standard HTML attribute. The value of this attribute is usually an integer. 
 
@@ -16,7 +18,6 @@ It is very common to see HTML tags like images, iframes or object elements have 
 |Examples={{Single Example
 |Language=HTML
 |Code=<img src="smiley.gif" alt="Smiley face" height="42" width="42">
-
 }}
 }}
 {{Notes_Section
@@ -28,6 +29,7 @@ In Microsoft Internet Explorer 5 it is possible to set the '''width''' property
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
