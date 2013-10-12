@@ -101,6 +101,17 @@ button[data-badge]:after {
     content: url('http://docs.webplatform.org/favicon.ico');
 }
 |LiveURL=http://code.webplatform.org/gist/6948854
+}}{{Single Example
+|Language=CSS
+|Description=Uses the counter data-type to show a automatic numbering for all h2 elements on the page.
+|Code=h2 {
+	counter-increment: header;
+}
+
+h2:before {
+ 	content: counter(header) ". ";
+}
+|LiveURL=http://code.webplatform.org/gist/6949103
 }}
 }}
 {{Notes_Section
