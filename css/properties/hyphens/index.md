@@ -33,8 +33,6 @@
 {{Notes_Section
 |Import_Notes====Syntax===
 <code>'''hyphens: '''none '''{{!}}''' manual '''{{!}}''' auto</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 5.1
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
