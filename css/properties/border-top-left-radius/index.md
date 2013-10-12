@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines the shape of the border of the top-left corner.}}
+{{Summary_Section|Sets the rounding of the top-left corner of the element.}}
 {{CSS Property
 |Initial value=0
 |Applies to=All elements
@@ -14,6 +13,7 @@
 |Computed value=two absolute <length> or percentages
 |Animatable=Yes
 |CSS object model property=object.style.borderTopLeftRadius
+|CSS percentages=Refer to the corresponding dimension of the border box
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [[css/data_types/length|CSS <length> data types]]. Negative values are invalid.
@@ -25,25 +25,13 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=One value example to use an arc of circle as the border on the top left corner.
-|Code=border-top-left-radius: 10px;
-
-/* is equivalent to: */
-border-top-left-radius: 10px 10px;
-}}{{Single Example
-|Language=CSS
-|Description=Two value example to use an arc of ellipse as the border on the top left corner.
-|Code=border-top-left-radius: 10px 5px;
-}}{{Single Example
-|Language=CSS
-|Description=One value percentage example on the top left corner. If the box is a square an arc of circle is used as the border, if the box is not a square an arc of ellipse is used as the border.
-|Code=border-top-left-radius: 30%;
+|LiveURL=http://code.webplatform.org/gist/6949445
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''border-top-left-radius''' property specifies the horizontal and vertical radii of the ellipse that defines the rounded upper-left corner for a border box. If there is only one value given, that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, the first value sets the horizontal radius and the second value sets the vertical radius.
+* The '''border-top-left-radius''' property specifies the horizontal and vertical radii of the ellipse that defines the rounded upper-left corner for a border box. If there is only one value given, that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, the first value sets the horizontal radius and the second value sets the vertical radius.
+* When animating this property (as a length, percentage or calc()): when both values are lengths, they are interpolated as lengths; when both values are percentages, they are interpolated as percentages; otherwise, both values are converted into a calc() function that is the sum of a length and a percentage (each possibly zero), and these calc() functions have each half interpolated as real numbers.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -163,17 +151,6 @@ The '''border-top-left-radius''' property specifies the horizontal and vertical 
 }}
 {{See_Also_Section
 |Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/border-radius|border-radius]]</code>
-*<code>[[css/properties/border-top-right-radius|border-top-right-radius]]</code>
-*<code>[[css/properties/border-bottom-right-radius|border-bottom-right-radius]]</code>
-*<code>[[css/properties/border-bottom-left-radius|border-bottom-left-radius]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
