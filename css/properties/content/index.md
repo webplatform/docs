@@ -77,7 +77,7 @@ h1:after {
 <p class=customalert data-message=”I have no idea what this means!”>Lorem ipsum dolor sit amet</p>
 }}{{Single Example
 |Language=CSS
-|Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute for a button element. 
+|Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute for a button element.
 |Code=button[data-badge] {
 	/* the badge is going to be positioned absolute in the 
 	 * button. Therefore the button needs a relative position */
@@ -98,6 +98,13 @@ button[data-badge]:after {
 	padding: 1px 4px;
 }
 |LiveURL=http://code.webplatform.org/gist/6948575
+}}{{Single Example
+|Language=CSS
+|Description=Using the uri data-type the webplatform favicon is appended to all elements with the webplatform class.
+|Code=.webplatform:before {
+    content: url('http://docs.webplatform.org/favicon.ico');
+} 
+|LiveURL=http://code.webplatform.org/gist/6948854
 }}
 }}
 {{Notes_Section
