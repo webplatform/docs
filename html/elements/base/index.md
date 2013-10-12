@@ -25,7 +25,7 @@
 
 A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>http://example.org/some/example.html</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [[dom/location|<code>location</code>]] object) is used as the base URL for resolving relative URLs. The <code>&lt;base&gt;</code> element allows you to override this default with the [[html/attributes/href|<code>href</code>]] attribute.
 
-Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
+Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and forms ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
 
 If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], it may help to specify <code>&lt;base target="_parent"&gt;</code> in order to open the links within the iframe in the scope parent document. If <var>_parent</var> or <var>_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>_self</var>.
 }}
