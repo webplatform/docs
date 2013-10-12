@@ -149,15 +149,11 @@ blockquote:after {
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content, Multi-Column
+|Manual_links=* [[css/properties/counter-increment|counter-increment]]
+* [[css/properties/counter-reset|counter-reset]]
+* [[css/selectors/pseudo-elements/::before|::before]]
+* [[css/selectors/pseudo-elements/::after|::after]]
 |External_links=* CSS-Tricks: CSS Content [http://css-tricks.com/css-content/]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/counter-increment|counter-increment]]</code>
-*<code>[[css/properties/counter-reset|counter-reset]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
