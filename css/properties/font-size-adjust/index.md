@@ -82,7 +82,6 @@ Where:
 * s = the font size
 
 As an abstract example, assume you specify a font-size-adjust value of 0.5, your fallback font's '''aspect value''' is .4, and the [[css/properties/font-size|font-size]] is 8px. The fallback font is rendered at 10px ((.5 /.4) * 8).
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -121,6 +120,7 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust font-size-adjust]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
