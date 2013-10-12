@@ -19,6 +19,9 @@
 }}{{CSS Property Value
 |Data Type=url(path/to/image.png)
 |Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=The value of the property will be set from the parent's element value
 }}
 }}
 {{Examples_Section
