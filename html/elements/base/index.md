@@ -38,7 +38,7 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 |Code=&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;base element example&lt;/title&gt;
-    &lt;base target=&quot;http://www.example.org/deep/ &quot;&gt;
+    &lt;base target=&quot;http://www.example.org/deep/&quot;&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;A &lt;a href=&quot;some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
