@@ -4,44 +4,59 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
+{{Summary_Section|The <code>marquee-direction</code> determines how fast the marquee content scrolls.}}
 {{CSS Property
-|Initial value=normal
+|Initial value=forward
 |Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
 |Inherited=Yes
 |Media=visual
 |Computed value=as specified
 |Animatable=No
-|CSS object model property=marqueeSpeed
+|CSS object model property=marqueeDirection
 |CSS percentages=n/a
 |Values={{CSS Property Value
-|Data Type=slow
-|Description=slower than normal
+|Data Type=forward
+|Description=moves the content in normal reading order
 }}{{CSS Property Value
-|Data Type=normal
-|Description=faster than slow, slower than fast
-}}{{CSS Property Value
-|Data Type=fast
-|Description=faster than normal
+|Data Type=reverse
+|Description=moves the content in reverse reading order
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Language=CSS
-|Description=A basic example on how to use marquee-speed.
+|Description=A basic example on how to use marquee-direction.
 |Code=h1 {
 	overflow: auto; 
 	overflow-style: marquee-line;
 	white-space: nowrap;
 	width: 200px;
-	marquee-speed: fast;
+	marquee-direction: reverse;
 }
-|LiveURL=http://code.webplatform.org/gist/6948165
+|LiveURL=http://code.webplatform.org/gist/6949190
 }}
 }}
 {{Notes_Section
-|Notes=The actual speed depends on the UA and the type of content.
+|Usage=The actual direction depends the '[[css/properties/direction|direction]]' and '[[css/properties/overflow-style|overflow-style]]', as follows:
+
+<code>overflow-style: inline; direction: ltr;marquee-direction:forward;</code><br>
+animation direction: right-to-left
+
+<code>overflow-style: inline; direction: ltr;marquee-direction:reverse;</code><br>
+animation direction: left-to-right
+
+<code>overflow-style: inline; direction: rtl;marquee-direction:forward;</code><br>
+animation direction: left-to-right
+
+<code>overflow-style: inline; direction: rtl;marquee-direction:reverse;</code><br>
+animation direction: right-to-left
+
+<code>overflow-style: block;marquee-direction:forward;</code><br>
+animation direction: bottom-to-top
+
+<code>overflow-style: block;marquee-direction:reverse;</code><br>
+animation direction: top-to-bottom
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
