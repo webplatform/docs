@@ -20,10 +20,10 @@
 |Description=Indicates that all word breaking is suppressed, even when explicitly specified with soft hyphens.
 }}{{CSS Property Value
 |Data Type=manual
-|Description=Indicates that word breaking is allowed only where word breaking opportunities are suggested. These suggestions may come in the form of soft hyphens or hard hyphens. Soft hyphens (Unicode U+00AD, HTML &amp;shy;) can be inserted on the desired place.
+|Description=Indicates that word breaking is allowed only where word breaking opportunities are suggested. These suggestions may come in the form of soft hyphens or hard hyphens. Soft hyphens (Unicode U+00AD, HTML <code>&amp;shy;</code>) can be inserted on the desired place.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties. By providing a language for the text (via the HTML lang attribute for example), a User Agent can determine the correct place to break a word.
+|Description=Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties. By providing a language for the text (via the HTML <code>lang</code> attribute for example), a User Agent can determine the correct place to break a word.
 }}
 }}
 {{Examples_Section
@@ -49,7 +49,7 @@ p:nth-child(3) {
 |Usage=When hyphenation is not pre-set in a document, the default value for the hyphens property might not suit all cases. In cases where the language is properly set in the document, the hyphenation dictionaries provided in user agents can be able to break up words on the best possible place for each line.
 
 The overall effect is that sentences run along almost the complete width of the box, and therefor can be slightly less high as end result.
-|Notes=Note that not all languages are supported by browsers which support the value auto for this property.
+|Notes=Note that not all languages are supported by browsers which support the value <code>auto</code> for this property.
 |Import_Notes====Syntax===
 <code>'''hyphens: '''none '''{{!}}''' manual '''{{!}}''' auto</code>
 }}
