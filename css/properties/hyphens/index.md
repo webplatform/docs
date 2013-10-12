@@ -31,6 +31,10 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=When hyphenation is not pre-set in a document, the default value for the hyphens property might not suit all cases. In cases where the language is properly set in the document, the hyphenation dictionaries provided in user agents can be able to break up words on the best possible place for each line.
+
+The overall effect is that sentences run along almost the complete width of the box, and therefor can be slightly less high as end result.
+|Notes=Note that not all languages are supported by browsers which support the value auto for this property.
 |Import_Notes====Syntax===
 <code>'''hyphens: '''none '''{{!}}''' manual '''{{!}}''' auto</code>
 }}
