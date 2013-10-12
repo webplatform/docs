@@ -28,9 +28,9 @@ The <code>padding</code> property is a shorthand to avoid setting each side sepa
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Padding set at 5% for all 4 sides.
-|Code=padding: 5% 5% 5% 5%; 
-      /*  top, right, bottom, and left padding set at 5%   */
+|Description=Padding set at 10% for all 4 sides.
+|Code=padding: 10% 10% 10% 10%; 
+      /*  top, right, bottom, and left padding set at 10%   */
 |LiveURL=http://code.webplatform.org/gist/5842631
 }}{{Single Example
 |Language=CSS
