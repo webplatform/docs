@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Shorthand property that sets the [[css/properties/list-style-type|'''list-style-type''']], [[css/properties/list-style-position|'''list-style-position''']], and [[css/properties/list-style-image|'''list-style-image''']] properties in one declaration.}}
+{{Summary_Section|Shorthand property that sets the [[css/properties/list-style-type|<code>list-style-type</code>]], [[css/properties/list-style-position|<code>list-style-position</code>]] and [[css/properties/list-style-image|<code>list-style-image</code>]] properties in one declaration.}}
 {{CSS Property
 |Initial value=disc outside none
 |Applies to=elements with display: list-item
@@ -55,8 +55,7 @@ This example uses <code>ul</code> and <code>ul.list2</code> as selectors to defi
 }}
 }}
 {{Notes_Section
-|Usage=The '''list-style''' property is a composite property. When specifying both the '''type''' and '''image''' values, the '''image''' value takes precedence, unless the '''image''' value is set to '''none''' or the image pointed to by the URL is not available.
-The '''list-style''' property also applies to all elements on which the [[css/properties/display|'''display''']] property is set to '''list-item'''.  
+|Usage=The <code>list-style</code> property is a composite property. You can omit one or more of the values. If both <code>list-style-type</code> and <code>list-style-image</code> are provided, and the value for this last one is different than '''none''' and links to an available image, the image takes precedence and it will be shown as the marker.
 
 When the <code>list-style-position</code> value is set to '''outside''' and the [[css/properties/padding|'''padding''']] or [[css/properties/padding-left|'''padding-left''']] is set to 0, the list marker won't be displayed.
 }}
