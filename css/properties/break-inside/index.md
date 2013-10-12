@@ -110,20 +110,20 @@ h2, h3 {
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]&amp;lt;/code>
-*<code>[[css/cssom/currentStyle|currentStyle]]&amp;lt;/code>
-*<code>[[css/cssom/style|style]]&amp;lt;/code>
-*<code>address&amp;lt;/code>
-*<code>blockQuote&amp;lt;/code>
-*<code>div&amp;lt;/code>
-*<code>dl&amp;lt;/code>
-*<code>fieldSet&amp;lt;/code>
-*<code>form&amp;lt;/code>
-*<code>noFrames&amp;lt;/code>
-*<code>noScript&amp;lt;/code>
-*<code>ol&amp;lt;/code>
-*<code>p&amp;lt;/code>
-*<code>pre&amp;lt;/code>
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>address</code>
+*<code>blockQuote</code>
+*<code>div</code>
+*<code>dl</code>
+*<code>fieldSet</code>
+*<code>form</code>
+*<code>noFrames</code>
+*<code>noScript</code>
+*<code>ol</code>
+*<code>p</code>
+*<code>pre</code>
 *<code>[[html/elements/table|table]]</code>
 *<code>ul</code>
 *<code>dd</code>
