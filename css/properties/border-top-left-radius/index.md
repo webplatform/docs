@@ -35,9 +35,13 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
+|Name=CSS Backgrounds and Borders Module Level 3; 5.1. Curve Radii: the ‘border-radius’ properties
 |URL=http://www.w3.org/TR/css3-background/#border-top-left-radius
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3; 5.1. Curve Radii: the ‘border-radius’ properties
+|URL=http://dev.w3.org/csswg/css-backgrounds/#border-top-left-radius
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
