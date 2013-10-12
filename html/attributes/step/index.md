@@ -2,12 +2,13 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specify the increment for <code>input</code> with types <code>number</code>, <code>time</code>, or <code>range</code>}}
 {{Markup_Attribute
-|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=When <code>input type="range"</code>, <code>input type="date"</code>, or <code>input type="number"</code> is specified, the default increment from <code>min</code> to <code>max</code> is 1.  Override this default with a value in <code>step</code>.
 }}
@@ -109,7 +110,6 @@ The following example shows the use of the [[html/attributes/min|'''min''']], [[
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
 *<code>[[html/elements/input/type/number|input type{{=}}number]]</code>
 *<code>[[html/elements/input/type/range|input type{{=}}range]]</code>
-
 }}
 {{Topics|HTML}}
 {{External_Attribution
