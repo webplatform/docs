@@ -99,13 +99,13 @@ The '''bottom''' attribute should be used only when the [[css/properties/positio
 attribute is set; otherwise, the value of the '''bottom''' attribute is ignored.
 Because the value of the '''bottom''' property is a string, the property cannot be used  in script to calculate the position of the object in the document; instead, the [[css/cssom/properties/pixelBottom|'''pixelBottom''']] property or the [[css/cssom/properties/posBottom|'''posBottom''']] property should be used.
 For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) object model, see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes====Syntax===
-<code>'''bottom: '''length '''{{!}}''' percentage '''{{!}}''' auto</code>
-===Standards information===
-*[http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom CSS2, Section 9.3.2]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1, Visual formatting model
+|URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
