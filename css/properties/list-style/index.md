@@ -136,7 +136,7 @@ When the <code>list-style-position</code> value is set to '''outside''' and the 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
+|Topic_clusters=CSS Attributes
 |Manual_sections====Related pages===
 *<code>[[css/properties/list-style-type|'''list-style-type''']]</code>
 *<code>[[css/properties/list-style-position|'''list-style-position''']]</code>
