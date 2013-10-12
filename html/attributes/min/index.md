@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The min attribute specifies the minimum  value for an <input> element.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The min attribute works with the following input types: number, range, date, datetime, datetime-local, month, time and week.
 }}
