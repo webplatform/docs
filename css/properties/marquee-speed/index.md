@@ -7,7 +7,7 @@
 {{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
 {{CSS Property
 |Initial value=normal
-|Applies to=same as overflow
+|Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
 |Inherited=Yes
 |Media=visual
 |Computed value=as specified
