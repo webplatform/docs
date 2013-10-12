@@ -4,14 +4,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Replaces the list-item marker with an image.}}
+{{Summary_Section|This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property}}
 {{CSS Property
-|Initial value=disc
+|Initial value=none
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
 |Computed value=absolute URI or 'none'
 |Animatable=No
+|CSS object model property=listStyleImage
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Default. No image is specified.
