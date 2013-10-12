@@ -42,7 +42,7 @@ The overall effect is that sentences run along almost the complete width of the 
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
 |URL=http://www.w3.org/TR/css3-text/#hyphens-property
-|Status=WRC Last Call Working Draft
+|Status=W3C Last Call Working Draft
 }}
 }}
 {{Compatibility_Section
