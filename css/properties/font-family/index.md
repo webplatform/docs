@@ -63,7 +63,6 @@ h1 {
 {{Notes_Section
 |Usage=* If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
 * Generic font family names are values (keywords) and cannot appear in quotation marks
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -121,6 +120,7 @@ h1 {
 |Topic_clusters=CSS Font, Fonts
 |External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
 * [http://dev.w3.org/csswg/css3-fonts/#font-family-prop Basic Font Properties]
+* [https://developer.mozilla.org/en-US/docs/Web/CSS/font-family font-family @ MDN]
 }}
 {{Topics|CSS}}
 {{External_Attribution
