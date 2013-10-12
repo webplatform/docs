@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
+{{Summary_Section|The <code>overflow</code> property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
 {{CSS Property
 |Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
 |Inherited=No
@@ -86,11 +86,6 @@ It takes up to two values defining the <code>overflow-x</code> and <code>overflo
 Using the overflow property with a value different than visible, its default, will create a new block formatting context. This is technically necessary as if a float would intersect with the scrolling element it would force to rewrap the content of the scrollable element around intruding floats. The rewrap would happen after each scroll step and would be lead to a far too slow scrolling experience. Note that, by programmatically setting scrollTop to the relevant HTML element, even when overflow has the hidden value an element may need to scroll.
 |Notes=The default value for the <code>html</code> element is <code>auto</code>.
 Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
-
-Firefox has several vendor specific extensions:
-* <code>-moz-scrollbars-none</code> – obsolete, use <code>overflow: hidden</code> instead.
-* <code>-moz-scrollbars-horizontal</code> and <code>-moz-scrollbars-vertical</code> – deprecated, use of <code>overflow-x</code> and <code>overflow-y</code> is preferred.
-* <code>-moz-hidden-unscrollable</code> non-standard, is intended mainly for internal use and by themes. Disables scrolling of XML root elements and <html>, <body> by arrow keys and mouse wheel.
 
 === CSS basic box model ===
 Specifying two values is currently not supported by browsers.
