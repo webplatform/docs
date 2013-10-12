@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The max attribute specifies the maximum value for an <input> element.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The max attribute works with the following input types: number, range, date, datetime, datetime-local, month, time and week.
 }}
