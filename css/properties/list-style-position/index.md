@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies if the list-item markers should appear inside or outside the content flow.}}
 {{CSS Property
@@ -112,7 +111,7 @@ There is variance among browsers regarding behaviour when a block element is pla
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
+|Topic_clusters=CSS Attributes
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
