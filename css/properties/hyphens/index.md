@@ -28,7 +28,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|LiveURL=http://code.webplatform.org/gist/6948199
+}}
 }}
 {{Notes_Section
 |Usage=When hyphenation is not pre-set in a document, the default value for the hyphens property might not suit all cases. In cases where the language is properly set in the document, the hyphenation dictionaries provided in user agents can be able to break up words on the best possible place for each line.
