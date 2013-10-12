@@ -185,6 +185,7 @@ Along with many other CSS properties, '''font-size''' can also be applied direct
 * Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
 * WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
 * CSS-Tricks: [http://css-tricks.com/css-font-size/ Font size keywords]
+* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size font-size]
 }}
 {{Topics|CSS}}
 {{External_Attribution
