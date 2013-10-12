@@ -73,6 +73,32 @@ h1:after {
 }
 
 <p class=customalert data-message=”I have no idea what this means!”>Lorem ipsum dolor sit amet</p>
+}}{{Single Example
+|Description=Using attr( element-name ) to display text from an attribute.  The following example adds a box displaying the value of the data-badge attribute.
+|Code=&lt;style type{{=}}"text/css"&gt;
+button[data-badge] {
+	/* the badge is going to be positioned absolute in the 
+	 * button. Therefore the button needs a relative position */
+	position: relative;
+}
+
+button[data-badge]:after {
+	/* use the data-badge attribute as value for the pseudo element */
+	content: attr( data-badge );
+	
+	/* give the badge some nice styling */
+	background: tomato;
+	display: block;
+	border-radius: 4px;
+	position: absolute;
+	right: -4px;
+	top: -4px;
+	padding: 1px 4px;
+}
+&lt;/style&gt;
+
+&lt;button data-badge{{=}}"1"&gt;inbox&lt;/button&gt;
+|LiveURL=http://code.webplatform.org/gist/6948575
 }}
 }}
 {{Notes_Section
