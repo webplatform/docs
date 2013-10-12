@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=listStylePosition
 |Values={{CSS Property Value
 |Data Type=outside
 |Description=Default. Marker is placed outside the list item, and any wrapping text is not aligned under the marker.
