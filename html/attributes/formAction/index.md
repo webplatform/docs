@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The formaction attribute overrides the action attribute of the <form> element.
 }}
