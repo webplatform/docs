@@ -2,15 +2,15 @@
 {{Flags
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property}}
+{{Summary_Section|This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the market set with the 'list-style-property'}}
 {{CSS Property
 |Initial value=none
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
-|Computed value=absolute URI or 'none'
+|Computed value=<uri> | none | inherit
 |Animatable=No
 |CSS object model property=listStyleImage
 |Values={{CSS Property Value
@@ -19,6 +19,9 @@
 }}{{CSS Property Value
 |Data Type=url(path/to/image.png)
 |Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
+}}{{CSS Property Value
+|Data Type=inherit
+|Description=The property value is taken from the value of the element's parent
 }}
 }}
 {{Examples_Section
@@ -48,11 +51,9 @@ Additionally, when an [[dom/events/mouseout|'''onmouseout''']] event occurs, `li
 }}
 }}
 {{Notes_Section
-|Usage=The property has limited positioning options for the background image, and in some circumstances doesn’t work at all in IE. 
-So it has become a far more common practice to simply set a background image on the list items.
-|Notes====Remarks===
-When the image is available, it replaces the marker that is set with the [[css/properties/list-style-type|'''list-style-type''']] marker.
-If the left margin of the list item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show.
+|Usage=When the image specified in the value is available, it will replace the market set by 'list-style-property'.
+
+'none' is the default value and it's only useful in case you have nested list-item elements and you want to stop inheriting the value from the parent list.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -124,7 +125,7 @@ If the left margin of the list item is set to 0 using one of the [[css/propertie
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
+|Topic_clusters=CSS Attributes
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
