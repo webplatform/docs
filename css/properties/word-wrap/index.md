@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines whether to break words when the content exceeds the boundaries of its container. The [[css/properties/word-wrap]] property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
+{{Summary_Section|An alias of [[css/properties/overflow-wrap]], word-wrap defines whether to break words when the content exceeds the boundaries of its container. This word-wrap property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -127,7 +126,11 @@ The '''word-wrap''' property permits only whether wrapping can occur at a place 
 *[http://www.w3.org/TR/css3-text/#overflow-wrap CSS Text Level 3], Section 6.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#overflow-wrap
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
