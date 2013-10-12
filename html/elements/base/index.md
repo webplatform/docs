@@ -120,7 +120,7 @@ In Internet Explorer 8 and later, when read, the value of the [[html/attributes/
 
 '''Note''' Internet Explorer 6 and older would allow the <code>&lt;base&gt;</code> element to appear anywhere in the document tree, which caused relative paths to use the "nearest" <code>&lt;base&gt;</code> element as the base for the URL. Internet Explorer 7 strictly enforces the use of the <code>&lt;base&gt;</code> tag within the [[html/elements/head|<code>&lt;head&gt;</code>]] of the document, and will ignore misplaced tags.
 
-Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not resolved in every version of Internet Explorer, they are properly resolved against the document's URL upon read. That in turn allows to set a fully qualified from within JavaScript: <code>base.href = base.href + "";</code>;
+Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not resolved in every version of Internet Explorer, they are properly resolved against the document's URL upon read. That in turn allows to set a fully qualified URL from within JavaScript: <code>base.href = base.href + "";</code>;
 
 '''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior. Internet Explorer doesn't fall for it.
 }}
