@@ -16,10 +16,10 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=Address: <input type=”text” name=”address” placeholder=”Insert here your address” />
-Date of birth: <input type=”text” name=”day” placeholder=”DD” />
-<input type=”text” name=”month” placeholder=”MM” />
-<input type=”text” name=”year” placeholder=”YYYY” />
+|Code=Address: <input type="text" name="address" placeholder="Insert here your address" />
+Date of birth: <input type="text" name="day" placeholder="DD" />
+<input type="text" name="month" placeholder="MM" />
+<input type="text" name="year" placeholder="YYYY" />
 }}
 }}
 {{Notes_Section
