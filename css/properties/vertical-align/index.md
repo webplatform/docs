@@ -3,44 +3,48 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
+|Editorial notes=The <code>vertical-align</code> property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
-|Initial value=not defined for shorthand properties
+|Initial value=baseline
 |Applies to=inline-level and ‘table-cell’ elements
 |Inherited=No
 |Media=visual
 |Animatable=No
 |CSS percentages=refers to the ‘line-height’ of the element itself
 |Values={{CSS Property Value
-|Data Type=auto
-|Description=Aligns the contents of an object according to the value of the [[css/properties/layout-flow|'''-ms-layout-flow''']] attribute.
-}}{{CSS Property Value
 |Data Type=baseline
-|Description=Default. Aligns the contents of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the base line.
-}}{{CSS Property Value
-|Data Type=sub
-|Description=Vertically aligns the text to subscript.
-}}{{CSS Property Value
-|Data Type=super
-|Description=Vertically aligns the text to superscript.
-}}{{CSS Property Value
-|Data Type=top
-|Description=Vertically aligns the contents of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the top of the object.
+|Description=Default. Vertically aligns the content with the baseline of its parent.
 }}{{CSS Property Value
 |Data Type=middle
-|Description=Vertically aligns the contents of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the middle of the object.
+|Description=Vertically aligns the content to the middle of its parent.
 }}{{CSS Property Value
-|Data Type=bottom
-|Description=Vertically aligns the contents of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the bottom of the object.
+|Data Type=sub
+|Description=Vertically aligns the content to subscript.
+}}{{CSS Property Value
+|Data Type=super
+|Description=Vertically aligns the content to superscript.
 }}{{CSS Property Value
 |Data Type=text-top
-|Description=Vertically aligns the text of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the top of the object.
+|Description=Vertically aligns the content to the top of its parent.
 }}{{CSS Property Value
 |Data Type=text-bottom
-|Description=Vertically aligns the text of an object supporting [[html/attributes/vAlign|'''VALIGN''']] to the bottom of the object.
+|Description=Vertically aligns the content to the bottom of its parent.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=Raises or lowers the content by a percentage of the line height. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
+}}{{CSS Property Value
+|Data Type=<length>
+|Description=Raises or lowers the content by the specified length. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
+}}{{CSS Property Value
+|Data Type=top
+|Description=Vertically aligns the content and its descendants to the top of the text line.
+}}{{CSS Property Value
+|Data Type=bottom
+|Description=Vertically aligns the content and its descendants to the bottom of the text line.
 }}
 }}
 {{Examples_Section
@@ -61,9 +65,6 @@
 |Notes====Remarks===
 The '''sub''' and <code>super</code> values are supported on text. The '''auto''' value is supported on the [[css/cssom/currentStyle|'''currentStyle''']] object.  The other values are supported on objects that support [[html/attributes/vAlign|'''VALIGN''']].
 The '''auto''' value is identical to the '''baseline''' value when the [[css/properties/layout-flow|'''-ms-layout-flow''']] is '''horizontal'''.  When the '''-ms-layout-flow''' is '''vertical-ideographic''', the '''auto''' value is identical to the '''middle''' value.
-|Import_Notes====Syntax===
-<code>'''vertical-align: '''baseline '''{{!}}''' sub '''{{!}}''' super '''{{!}}''' top '''{{!}}''' text-top '''{{!}}''' middle '''{{!}}''' bottom '''{{!}}''' text-bottom</code>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
