@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -16,7 +16,15 @@ The formnovalidate attribute overrides the novalidate attribute of the <form> el
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<form action="submit.php">
+  Input field: <input type="email" name="inputfield">
+  <input type="submit" value="Submit">
+  <input type="submit" formnovalidate value="Submit without validation">
+</form>
+
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
