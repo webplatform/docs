@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -10,11 +9,11 @@
 |Initial value=auto
 |Applies to=non-replaced block-level elements and non-replaced inline-block elements
 |Inherited=Yes
-|Media=interactive
+|Media=visual
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=overflowStyle
-|CSS percentages=N/A
+|CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Initial value. Indicates no preference.
@@ -49,7 +48,10 @@ overflow-style: panner, none;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Notes===IMPORTANT==
+CSS Basic Box Model and CSS Marquee Module Lelel 3 both specify a different overflow-style property. This page is based on the CSS Basic Box Model, because if marquee is going to be supported, that would have a bigger chance of being supported.
+
+===Remarks===
 The '''overflow-style''' property only has an effect on elements that overflow using the [[css/properties/overflow|'''overflow''']] property.
 When using auto-hiding scrollbars, you should ensure your content has sufficient padding to prevent interactive content from being obscured beneath the scrollbar.
 }}
@@ -57,7 +59,12 @@ When using auto-hiding scrollbars, you should ensure your content has sufficient
 |Specifications={{Related Specification
 |Name=CSS Basic Box Model
 |URL=http://www.w3.org/TR/css3-box/#the-lsquo3
-|Status=W3C Working Draft
+|Status=Working Draft
+}}{{Related Specification
+|Name=CSS Marquee Module Level 3
+|URL=http://www.w3.org/TR/2008/WD-css3-marquee-20080801/#the-overflow-style
+|Status=Working Draft
+|Relevant_changes=marquee-line, marquee-block
 }}
 }}
 {{Compatibility_Section
@@ -65,13 +72,10 @@ When using auto-hiding scrollbars, you should ensure your content has sufficient
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Note=In Internet Explorer for the desktop, on the root element, '''auto''' behaves like '''scrollbar'''.  In Internet Explorer, on the root element, '''auto''' behaves like '''-ms-autohiding-scrollbar'''.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model, Touch
+|Topic_clusters=Box Model
 }}
 {{Topics|CSS}}
 {{External_Attribution
