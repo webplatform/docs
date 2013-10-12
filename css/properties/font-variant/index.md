@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Selects a font that is not a 'small-caps' font, usually the available 'normal' font. 
+|Description=Selects a font that is not a 'small-caps' font, usually the available 'normal' font.
 }}{{CSS Property Value
 |Data Type=small-caps
 |Description=Selects a 'small-caps' font. If not small caps variant is available, the browser generates a small caps approximation.
@@ -88,6 +88,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant]
 }}
 {{Topics|CSS}}
 {{External_Attribution
