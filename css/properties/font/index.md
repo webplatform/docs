@@ -97,6 +97,7 @@ If the string does not contain a value for a component property, that property i
 }}
 {{See_Also_Section
 |Topic_clusters=Fonts
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font font @ MDN]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
