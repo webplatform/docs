@@ -17,13 +17,13 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Indicates that all word breaking is suppressed, including at soft hyphens.
+|Description=Indicates that all word breaking is suppressed, even when explicitly specified with soft hyphens.
 }}{{CSS Property Value
 |Data Type=manual
-|Description=Indicates that word breaking is allowed only where word breaking opportunities are suggested. These suggestions may come in the form of soft hyphens or hard hyphens.
+|Description=Indicates that word breaking is allowed only where word breaking opportunities are suggested. These suggestions may come in the form of soft hyphens or hard hyphens. Soft hyphens (Unicode U+00AD, HTML &shy;) can be inserted on the desired place.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties.
+|Description=Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties. By providing a language for the text (via the HTML lang attribute for example), a User Agent can determine the correct place to break a word.
 }}
 }}
 {{Examples_Section
