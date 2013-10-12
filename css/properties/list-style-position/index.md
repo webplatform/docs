@@ -28,15 +28,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the '''list-style-position''' attribute and the '''list-style-position''' property to set the position for markers.
-
-This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedded (global) style sheet to set the position of the list-item markers.
+|Description=The following example uses the '''list-style-position''' attribute and the '''list-style-position''' property to set the position for markers.
 |Code=.firstlist { list-style-position:inside }
 .secondlist { list-style-position:outside }
 |LiveURL=http://code.webplatform.org/gist/5841706
 }}{{Single Example
 |Language=JavaScript
-|Description=This example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
+|Description=The following example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
 |Code=var ul = document.getElementById('list-hover');
 
 // When the mouse is over the list, the position changes to inside
@@ -51,9 +49,9 @@ ul.addEventListener('mouseout', function () {
 |LiveURL=http://code.webplatform.org/gist/6949116
 }}{{Single Example
 |Language=CSS
-|Description=An example to show how set padding to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
+|Description=An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 |Code=ul {
-	padding: 0;
+	padding-left: 0;
 }
 
 .list-position-outside {
