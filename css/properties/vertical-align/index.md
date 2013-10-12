@@ -63,11 +63,14 @@ The '''sub''' and <code>super</code> values are supported on text. The '''auto''
 The '''auto''' value is identical to the '''baseline''' value when the [[css/properties/layout-flow|'''-ms-layout-flow''']] is '''horizontal'''.  When the '''-ms-layout-flow''' is '''vertical-ideographic''', the '''auto''' value is identical to the '''middle''' value.
 |Import_Notes====Syntax===
 <code>'''vertical-align: '''baseline '''{{!}}''' sub '''{{!}}''' super '''{{!}}''' top '''{{!}}''' text-top '''{{!}}''' middle '''{{!}}''' bottom '''{{!}}''' text-bottom</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.4
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
