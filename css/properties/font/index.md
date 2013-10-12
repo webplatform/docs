@@ -38,15 +38,8 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Description=A selection of examples showing some typical uses of the <code>font</code> property.
-|Code=&lt;p class="example-one"&gt;Example One: We &hearts; WebPlatform Docs!&lt;/p&gt;
-
-&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
-
-&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
-}}{{Single Example
 |Language=CSS
+|Description=A selection of examples showing some typical uses of the <code>font</code> property.
 |Code=.example-one {
   /*    size  family    */
   font: 1.5em sans-serif;
@@ -61,7 +54,7 @@
   /*    weight size/line-height family                         */
   font: bold   1em/2em          "Times New Roman", Times, serif;
 }
-|LiveURL=http://dabblet.com/gist/5521520
+|LiveURL=http://code.webplatform.org/gist/6947832
 }}{{Single Example
 |Language=CSS
 |Description=A couple of theoretical font examples, showing first a <code>font</code> property value with all possible longhand values included, and second, a system default font being used.
@@ -72,11 +65,6 @@
 .two {
   font: status-bar;
 }
-|LiveURL=http://code.webplatform.org/gist/5586740
-}}{{Single Example
-|Language=HTML
-|Code=<p class="one">First font example.<br>This shows all possible longhand values being used at once.</p>
-<p class="two">Second font example.<br>This shows a system default being used.</p>
 |LiveURL=http://code.webplatform.org/gist/5586740
 }}
 }}
