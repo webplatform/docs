@@ -38,6 +38,10 @@
 |Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
 |URL=http://www.w3.org/TR/css3-background/#border-top-right-radius
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Backgrounds and Borders Module Level 3
+|URL=http://dev.w3.org/csswg/css-backgrounds/
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
