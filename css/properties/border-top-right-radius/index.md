@@ -35,7 +35,7 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3: ; 5.1. Curve Radii: the ‘border-radius’ properties
+|Name=CSS Backgrounds and Borders Module Level 3; 5.1. Curve Radii: the ‘border-radius’ properties
 |URL=http://www.w3.org/TR/css3-background/#border-top-right-radius
 |Status=Candidate Recommendation
 }}{{Related Specification
