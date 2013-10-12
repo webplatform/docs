@@ -71,7 +71,11 @@ ul.addEventListener('mouseout', function () {
 If a list-style-position is set to outside and padding-left is set to 0, the marker will not show.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS21/generate.html#propdef-list-style-position
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
