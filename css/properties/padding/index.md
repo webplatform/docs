@@ -65,7 +65,15 @@ As of Microsoft Internet Explorer 5.5, this property applies to inline elements
 Element layout is set by providing a value for the [[css/properties/height|'''height''']] property or the [[css/properties/width|'''width''']] property.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, 8 Box model
+|URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
+|Status=W3C Recommendation
+}}{{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
