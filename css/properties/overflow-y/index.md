@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>overflow-y</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra text exceeding the y axys of the bounding box of an element is rendered.}}
+{{Summary_Section|The <code>overflow-y</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.}}
 {{CSS Property
 |Initial value=visible
 |Applies to=non-replaced block-level elements and non-replaced ‘inline-block’ elements
