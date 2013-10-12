@@ -10,7 +10,7 @@
 |Applies to=elements with 'display: list-item'
 |Inherited=Yes
 |Media=visual
-|Computed value=<uri> | none | inherit
+|Computed value=<uri>
 |Animatable=No
 |CSS object model property=listStyleImage
 |Values={{CSS Property Value
@@ -21,7 +21,7 @@
 |Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=The property value is taken from the value of the element's parent
+|Description=The property value is taken from parent element's value
 }}
 }}
 {{Examples_Section
