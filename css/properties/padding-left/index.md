@@ -40,7 +40,15 @@
 <code>padding-left: &lt;length&gt; {{!}} &lt;percentage&gt; {{!}} inherit;</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS basic box model
+|URL=http://www.w3.org/TR/css3-box/
+|Status=W3C Working Draft
+}}{{Related Specification
+|Name=CSS 2.1, 8 Box model
+|URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
