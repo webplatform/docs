@@ -1,17 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets the position of the bottom edge of an element.}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Animatable=No
+|Computed value=the specified absolute length, or the specified percentage, or 'auto'
+|Animatable=Yes
+|CSS object model property=bottom
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Default position, according to the regular HTML layout of the page.
@@ -101,7 +102,7 @@ For more information about how to access the dimension and location of objects o
 |Import_Notes====Syntax===
 <code>'''bottom: '''length '''{{!}}''' percentage '''{{!}}''' auto</code>
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.2
+*[http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom CSS2, Section 9.3.2]
 }}
 {{Related_Specifications_Section
 |Specifications=
