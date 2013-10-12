@@ -1,6 +1,7 @@
 {{Page_Title|formtarget}}
 {{Flags
-|Checked_Out=Yes
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -12,7 +13,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<form action="submit.php">
+  Input field: <input type="text" name="inputfield">
+  <input type="submit" value="Submit">
+  <input type="submit" formtarget="_blank" value="Submit to a new window">
+</form>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
