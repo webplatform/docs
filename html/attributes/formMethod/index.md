@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The formmethod attribute defines the HTTP method for sending form-data to the action URL.}}
 {{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
+|Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
 |Content=The formmethod attribute overrides the method attribute of the <form> element.
 }}
@@ -21,7 +21,6 @@
   <input type="submit" value="Submit">
   <input type="submit" formmethod="get" formaction="submit_get.asp" value="Submit using GET">
 </form>
-
 }}
 }}
 {{Notes_Section
