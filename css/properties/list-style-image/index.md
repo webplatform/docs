@@ -25,26 +25,33 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following examples use the `list-style-image` property to modify the list item marker of an unordered list, specifying an absolute and a relative URL respectively.
-
-This example uses '''ul''' as a selector in an embedded (global) style sheet to set the marker to the dot.gif image.
+|Description=The following examples shows the different possible values you can use for the list-style-image property. It also contains an example to show what happened when an unavailable image is not provided and how to use 'none' to break the inheritance.
 |Code=/* Using an absolute URI to specify an image */
-.firstlist {
-	list-style-image: url(http://docs.webplatform.org/static/images/logo.png);
+.first-list {
+	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
 } 
 
 /* Using a relative URI to specify an image */
-.secondlist {
-	list-style-image: url(special_icon.png);
+.second-list {
+	list-style-image: url(favicon.ico);
 }
-|LiveURL=http://code.webplatform.org/gist/5841596
-}}{{Single Example
-|Language=JavaScript
-|Description=This example uses inline scripting to change the style of the list-item marker to an image when an [[dom/events/mouseover|'''onmouseover''']] event occurs.
 
-Additionally, when an [[dom/events/mouseout|'''onmouseout''']] event occurs, `list-style-type` is set to "none", setting it back to the browser's default.
-|Code=&lt;ul onMouseOver="this.style.listStyleImage='url(favicon.ico)';" onMouseOut="this.style.listStyleImage='none';"&gt;
-|LiveURL=http://code.webplatform.org/gist/5841611
+/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
+.third-list {
+	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
+}
+
+/* Setting the value to none we are breaking the inheritance */
+.third-list .third-list-inner-non-inherit {
+	list-style-image: none;
+}
+
+/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
+.fourth-list {
+	list-style-image: url(http://wrong.url.used.com);
+	list-style-type: disc; 
+}
+|LiveURL=http://code.webplatform.org/gist/6948599
 }}
 }}
 {{Notes_Section
