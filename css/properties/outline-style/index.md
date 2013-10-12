@@ -45,6 +45,9 @@
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
+}}{{CSS Property Value
+|Data Type=auto
+|Description=Defined by the user agent (browser). Currently supported only in WebKit. The ‘auto’ value permits the user agent to render a custom outline style, typically a style which is either a user interface default for the platform, or perhaps a style that is richer than can be described in detail in CSS, e.g. a rounded edge outline with semi-translucent outer pixels that appears to glow. As such, this specification does not define how the ‘outline-color’ is incorporated or used (if at all) when rendering ‘auto’ style outlines. User agents may treat ‘auto’ as ‘solid’.
 }}
 }}
 {{Examples_Section
