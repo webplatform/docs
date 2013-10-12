@@ -7,7 +7,7 @@
 {{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
 {{CSS Property
 |Initial value=normal
-|Applies to=same as css/properties/overflow
+|Applies to=same as [[css/properties/overflow]]
 |Inherited=Yes
 |Media=visual
 |Computed value=as specified
@@ -30,7 +30,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The actual speed depends on the UA and the type of content. 
+|Notes=The actual speed depends on the UA and the type of content.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
