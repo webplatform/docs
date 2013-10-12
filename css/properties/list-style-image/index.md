@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property}}
 {{CSS Property
@@ -21,7 +21,7 @@
 |Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description=The value of the property will be set from the parent's element value
+|Description=Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 }}
 }}
 {{Examples_Section
