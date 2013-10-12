@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -36,36 +36,40 @@ This example uses '''ul''' and <code>UL.compact</code> as selectors in an embedd
 |LiveURL=http://code.webplatform.org/gist/5841706
 }}{{Single Example
 |Language=JavaScript
-|Description=This example uses inline scripting to change the marker position to inside when an [[dom/events/mouseover|'''onmouseover''']] event occurs and revert the position to outside when an [[dom/events/mouseout|'''onmouseout''']] event occurs..
-|Code=&lt;ul onMouseOver="this.style.listStylePosition='inside';" onMouseOut="this.style.listStylePosition='outside';"&gt;
-|LiveURL=http://code.webplatform.org/gist/5841730
+|Description=This example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
+|Code=/**
+ * List Style Position - Web Platform Docs Examples
+ * An example to how to change dynamically using JavaScipt the style position of a list 
+ *
+ * @author	Jaime Vega
+ * @see		http://docs.webplatform.org/wiki/css/properties/list-style-position 
+ */
+
+var ul = document.getElementById('list-hover');
+
+// When the mouse is over the list, the position changes to inside
+ul.addEventListener('mouseover', function () {
+	ul.style.listStylePosition = 'inside';
+});
+
+// When the mouse is not longer over the list, we revert back the value to outside
+ul.addEventListener('mouseout', function () {
+	ul.style.listStylePosition = 'outside';
+});
+|LiveURL=http://code.webplatform.org/gist/6949116
 }}{{Single Example
 |Language=CSS
-|Description=Using list-style-position to display otherwise hidden list markers
-|Code=/*
-If the left padding is set to 0 the list-item markers do not show
-This happens only if the list-style-position is set on outside (which is the default)
-A ul contained in a div with overflow hidden might run into this issue
-*/
-
-ul {
-	padding:0;
+|Description=An example to show how set padding to 0 when position is set to outside will produce 
+ * the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue
+ *
+|Code=ul {
+	padding: 0;
 }
 
 .list-position--inside {
 	list-style-position: inside;
 }
 |LiveURL=http://code.webplatform.org/gist/5598129
-}}{{Single Example
-|Language=HTML
-|Description=Different behaviour with lists items containing block elements
-|Code=&lt;ul>
-	&lt;li&gt;List item&lt;/li&gt;
-	&lt;li&gt;List item&lt;/li&gt;
-	&lt;li&gt;&lt;h1&gt;Heading&lt;/h1&gt;&lt;/li&gt; &lt;!-- jumps to next line in some browsers --&gt;
-	&lt;li&gt;List item&lt;/li&gt;
-&lt;/ul&gt;
-|LiveURL=http://code.webplatform.org/gist/5610773
 }}
 }}
 {{Notes_Section
