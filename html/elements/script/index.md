@@ -40,7 +40,7 @@ The '''script''' object has these properties.
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously and executed synchronously.
 {{!}}No
 {{!}}-
-{{!}}[[html/attributes/async{{!}}'''aync''']]
+{{!}}[[html/attributes/async{{!}}'''async''']]
 {{!}}Sets or retrieves the whether or not the script will be loaded asynchronously and executed asynchronously.
 {{!}}No
 {{!}}-
