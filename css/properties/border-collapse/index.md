@@ -32,8 +32,13 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS 2.1, section 17.6 Borders
+|Name=CSS 2.1, section 17.6. Borders
 |URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse
+|Status=Recommendation
+}}{{Related Specification
+|Name=CSS 3, section 8. Borders
+|URL=http://dev.w3.org/csswg/css3-tables/#border-collapse
+|Status=Editor's Draft
 }}
 }}
 {{Compatibility_Section
