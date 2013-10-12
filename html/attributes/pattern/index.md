@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|High-level issues=Unreviewed Import
+|Content=Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -15,7 +15,10 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+|Code=Numeric field: <input type=”text” name=”numericField” pattern=”[0-9]*” />
+Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" 
+title="Three letter country code">
+
 }}
 }}
 {{Notes_Section
