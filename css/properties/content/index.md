@@ -103,13 +103,15 @@ button[data-badge]:after {
 |LiveURL=http://code.webplatform.org/gist/6948854
 }}{{Single Example
 |Language=CSS
-|Description=Uses the counter data-type to show a automatic numbering for all h2 elements on the page.
+|Description=Uses the counter data-type to show a automatic numbering for all h2 elements on the page. More information is available on the [[css/properties/counter-increment{{!}}'''counterIncrement''']] page.
 |Code=h2 {
-	counter-increment: header;
+/*  increment header counter per h2 element */
+    counter-increment: header;
 }
 
 h2:before {
- 	content: counter(header) ". ";
+/*  show header counter before each h2 element */
+    content: counter(header) ". ";
 }
 |LiveURL=http://code.webplatform.org/gist/6949103
 }}
