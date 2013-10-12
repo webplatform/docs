@@ -89,7 +89,6 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
     &lt;base href=&quot;http://example.com/&quot; target=&quot;_self&quot;&gt;    
   --&gt;
 &lt;/head&gt;
-
 }}{{Single Example
 |Language=HTML
 |Description=The example shows how a relative base URL can be made to work in Internet Explorer
@@ -112,7 +111,6 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 }}
 }}
 {{Notes_Section
-|Usage=TODO: <svg> and url(#foo) problem
 |Notes=* Relative URLs within <code>&lt;base&gt;</code> don't work in every browser, resolving a relative base URL was introduced in Firefox 4 and Internet Explorer 10.
 * <code>&lt;base&gt;</code> only affects elements following it's declaration.
 * multiple <code>&lt;base&gt;</code> declarations are illegal, only the ''first'' [[html/attributes/href|<code>href</code>]] and [[html/attributes/target|<code>target</code>]] are used, the rest is discarded. Internet Explorer ignores all <code>&lt;base&gt;</code> instances after the first.
@@ -123,7 +121,7 @@ In Internet Explorer 8 and later, when read, the value of the [[html/attributes/
 
 Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not resolved in every version of Internet Explorer, they are properly resolved against the document's URL upon read. That in turn allows to set a fully qualified from within JavaScript: <code>base.href = base.href + "";</code>;
 
-'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. Unlike the CSS selector <code>#element-id</code>, <code>url(#element-id)</code> HERE
+'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior. Internet Explorer doesn't fall for it.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
