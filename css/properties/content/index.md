@@ -59,12 +59,12 @@ h1:before {
     content: "{ ";
 }
 h1:after {
-	content: " }";
+    content: " }";
 }
 &lt;/style&gt;
 
 &lt;h1&gt;Embrace this text!&lt;/h1&gt;
-
+|LiveURL=http://code.webplatform.org/gist/6948299
 }}{{Single Example
 |Code=.customalert::before {
     content: “Alert: ” attr(data-message);
