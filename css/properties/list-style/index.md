@@ -28,35 +28,42 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following example sets two different values on the [[css/properties/list-style]]  property of two separate lists. The first list has '''list-style''' set to <code>"outside url('bullet.png')"</code>. The second list has '''list-style''' set to <code>"inside circle"</code>. 
-
-This example uses <code>ul</code> and <code>ul.list2</code> as selectors to define the styles of two different unordered lists.  Note that for <code>ul.list2</code> to override the image that is set with the <code>ul</code> selector, you must explicitly set the '''image''' attribute to '''none'''.
-|Code=/* Using an absolute URI to specify an image */
-.first-list {
-	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
-} 
-
-/* Using a relative URI to specify an image */
-.second-list {
-	list-style-image: url(favicon.ico);
+|Description=The following example contains multiple examples of using this property, omitting some of the values.
+|Code=/* Specifying the list-style providing all the values */
+.first-list {  
+	list-style: disc inside url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);  
+}  
+ 
+ /* Omitting the position value it will use its default, 'outside' */
+.second-list {  
+ 	list-style: disc url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg); 
+}
+ 
+  /* When an available image is provided, it always takes precedence over type */
+.third-list {  
+ 	list-style: circle url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);  
 }
 
-/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
-.third-list {
-	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
-}
-
-/* Setting the value to none we are breaking the inheritance */
-.third-list .third-list-inner-non-inherit {
-	list-style-image: none;
-}
-
-/* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
-.fourth-list {
-	list-style-image: url(http://wrong.url.used.com);
-	list-style-type: disc; 
+/* When omitting image and type, it will use their default values: 'disc' for type and and 'none' for image*/
+.fourth-list {  
+ 	list-style: outside;  
 }
 |LiveURL=http://code.webplatform.org/gist/6950114
+}}{{Single Example
+|Language=CSS
+|Description=An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
+|Code=ul {
+	padding-left: 0;
+}
+
+.list-position-outside {
+	list-style-position: outside;
+}
+
+.list-position-inside {
+	list-style-position: inside;
+}
+|LiveURL=http://code.webplatform.org/gist/5598129
 }}
 }}
 {{Notes_Section
