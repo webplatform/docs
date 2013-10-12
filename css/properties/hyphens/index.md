@@ -6,13 +6,15 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies word wrapping behavior via the use of hyphens.}}
+{{Summary_Section|Specifies whether or not words in a sentence can be split by the use of a manual or automatic hyphenation mechanism.}}
 {{CSS Property
 |Initial value=manual
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Indicates that all word breaking is suppressed, including at soft hyphens.
