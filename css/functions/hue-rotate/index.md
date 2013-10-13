@@ -64,7 +64,8 @@ variable ''angle'' passed to the function:
 </filter>
 </syntaxhighlight>
 
-Note that while the hue rotation is only approximated in RGB space - the content is never actually converted to the HSL color space. This results in  brightness and saturation clipping for certain colors. Pure RGB colors, such as rgb(255,0,0) for example, do not produce expected results for rotations between 0 and 90 degrees in particular. A comparison of manually rotated colors, and their hue-rotate() equivalent using a base of pure RGB red (HSL equivalent: 0,100%,50%) is shown below.
+Note that the hue rotation algorithm for CSS filters only approximates a hue-rotation in HSL - the content is never actually converted to the HSL color space. This results in brightness and saturation clipping for saturated colors in certain ranges. For example, pure RGB colors, such as rgb(255,0,0), do not produce expected results, especially between 0 and 90 degrees. A comparison of manually rotated colors (outer ring) made by explicitly defining HSL colors, and their hue-rotate() equivalent (inner ring) using a base of pure RGB red (HSL equivalent: 0,100%,50%) is shown below. As you can see, the 60 degree hue rotation that should produce a bright saturated yellow, instead produces a color of the correct hue, but incorrect saturation and brightness. 
+
 
 [[Image:saturated_hue_rotation.JPG|400px]]
 }}
