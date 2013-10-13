@@ -1,13 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Examples Best Practices
 |Checked_Out=Yes
-|Editorial notes=The <code>vertical-align</code> property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>vertical-align</code> property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.}}
 {{CSS Property
 |Initial value=baseline
 |Applies to=inline-level and ‘table-cell’ elements
@@ -34,10 +32,10 @@
 |Data Type=text-bottom
 |Description=Vertically aligns the content to the bottom of its parent.
 }}{{CSS Property Value
-|Data Type=<percentage>
+|Data Type=&amp;lt;percentage>
 |Description=Raises or lowers the content by a percentage of the line height. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
 }}{{CSS Property Value
-|Data Type=<length>
+|Data Type=&amp;lt;length>
 |Description=Raises or lowers the content by the specified length. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
 }}{{CSS Property Value
 |Data Type=top
@@ -50,22 +48,18 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''vertical-align''' property to align text within a table cell.
-|Code=&lt;TABLE BORDER width{{=}}100&gt;
-&lt;TR&gt;
-    &lt;TD onmouseover{{=}}"this.style.verticalAlign{{=}}'bottom'" 
-    onmouseout{{=}}"this.style.verticalAlign{{=}}''"&gt;
-    text to align&lt;/TD&gt; 
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/verticalAlign.htm
+|Description=This example uses the <code>vertical-align</code> property to align text within a table cell.
+|Code=&amp;lt;table>
+  &amp;lt;tr>
+    &amp;lt;td style='vertical-align: top;'>Top aligned&amp;lt;/td>
+    &amp;lt;td style='vertical-align: middle;'>Middle aligned&amp;lt;/td>
+    &amp;lt;td style='vertical-align: bottom;'>Bottom aligned&amp;lt;/td>
+  &amp;lt;/tr>
+&amp;lt;/table>  
+|LiveURL=http://code.webplatform.org/gist/6960125
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The '''sub''' and <code>super</code> values are supported on text. The '''auto''' value is supported on the [[css/cssom/currentStyle|'''currentStyle''']] object.  The other values are supported on objects that support [[html/attributes/vAlign|'''VALIGN''']].
-The '''auto''' value is identical to the '''baseline''' value when the [[css/properties/layout-flow|'''-ms-layout-flow''']] is '''horizontal'''.  When the '''-ms-layout-flow''' is '''vertical-ideographic''', the '''auto''' value is identical to the '''middle''' value.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Level 2 (Revision 1)
@@ -103,13 +97,6 @@ The '''auto''' value is identical to the '''baseline''' value when the [[css/pro
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/attributes/vAlign|vAlign]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
