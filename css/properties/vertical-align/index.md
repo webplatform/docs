@@ -32,10 +32,10 @@
 |Data Type=text-bottom
 |Description=Vertically aligns the content to the bottom of its parent.
 }}{{CSS Property Value
-|Data Type=&amp;lt;percentage>
+|Data Type=&lt;percentage>
 |Description=Raises or lowers the content by a percentage of the line height. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
 }}{{CSS Property Value
-|Data Type=&amp;lt;length>
+|Data Type=&lt;length>
 |Description=Raises or lowers the content by the specified length. If this is set to a positive number the content is raised compared to the baseline of its parent. If this is set to a negative number the content is lowered compared to the baseline of its parent. If set to <code>0</code> it is equivalent to <code>baseline</code>.
 }}{{CSS Property Value
 |Data Type=top
@@ -49,13 +49,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the <code>vertical-align</code> property to align text within a table cell.
-|Code=&amp;lt;table>
-  &amp;lt;tr>
-    &amp;lt;td style='vertical-align: top;'>Top aligned&amp;lt;/td>
-    &amp;lt;td style='vertical-align: middle;'>Middle aligned&amp;lt;/td>
-    &amp;lt;td style='vertical-align: bottom;'>Bottom aligned&amp;lt;/td>
-  &amp;lt;/tr>
-&amp;lt;/table>  
+|Code=&lt;table>
+  &lt;tr>
+    &lt;td style='vertical-align: top;'>Top aligned&lt;/td>
+    &lt;td style='vertical-align: middle;'>Middle aligned&lt;/td>
+    &lt;td style='vertical-align: bottom;'>Bottom aligned&lt;/td>
+  &lt;/tr>
+&lt;/table>
 |LiveURL=http://code.webplatform.org/gist/6960125
 }}
 }}
