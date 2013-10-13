@@ -64,6 +64,8 @@ variable ''angle'' passed to the function:
 </filter>
 </syntaxhighlight>
 
+Note that while the hue rotation is only approximated in RGB space - the content is never actually converted to the HSL color space. This results in  brightness and saturation clipping for certain colors. Pure RGB colors, such as rgb(255,0,0) for example, do not produce expected results for rotations between 0 and 90 degrees in particular. A comparison of manually rotated colors, and their hue-rotate() equivalent using a base of pure RGB red (HSL equivalent: 0,100%,50%) is shown below.
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
