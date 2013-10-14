@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -45,18 +44,21 @@ The values <code>left</code>, <code>center</code>, and <code>right</code> are va
 #mytranselem {
     transform-origin: 25% 50%;
 }
+|LiveURL=http://code.webplatform.org/gist/6983020
 }}{{Single Example
 |Language=CSS
 |Code=/* 20px X offset, 25px Y offset, 30px Z offset */
 #mytranselem {
     transform-origin: 20px 25px 30px;
 }
+|LiveURL=http://code.webplatform.org/gist/6983052
 }}{{Single Example
 |Language=CSS
 |Code=/* right X offset, center Y offset, 0 Z offset */
 #mytranselem {
     transform-origin: right;
 }
+|LiveURL=http://code.webplatform.org/gist/6983069
 }}
 }}
 {{Notes_Section
