@@ -13,7 +13,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=if (window.localStorage) { // checks if browser support localStorage
+  if (localStorage['testKey']) { // checks if value exists
+    console.log('Value exist on page load in localstorage for key testKey : ', localStorage['testKey']);
+  }
+  localStorage['testKey'] = 'Hi again!'; // stores value in localstorage
+}
+else {
+ console.log('your browser dont support localstorage');
+}
+}}
 }}
 {{Notes_Section
 |Notes=The '''localStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
