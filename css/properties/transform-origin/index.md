@@ -39,7 +39,25 @@ The values <code>left</code>, <code>center</code>, and <code>right</code> are va
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* 25% X offset, 50% Y offset, 0 Z offset */
+#mytranselem {
+    transform-origin: 25% 50%;
+}
+}}{{Single Example
+|Language=CSS
+|Code=/* 20px X offset, 25px Y offset, 30px Z offset */
+#mytranselem {
+    transform-origin: 20px 25px 30px;
+}
+}}{{Single Example
+|Language=CSS
+|Code=/* right X offset, center Y offset, 0 Z offset */
+#mytranselem {
+    transform-origin: right;
+}
+}}
 }}
 {{Notes_Section
 |Notes=The origin may be moved along all three axes with this single property by specifying the relative position of each axis in X, Y, Z order. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
@@ -49,7 +67,6 @@ Microsoft deprecated <code>-ms-transform-origin</code>, the vendor-prefixed vers
 If the <code>transform-origin</code> property is not set, the transform begins in the center at screen level (equal to a <code>transform-origin</code> value of <code>50% 50% 0</code>).
 * If fewer than three values are provided, the third value (z-axis) is assumed to be <code>0</code> (screen level).
 * If only one value is specified, the second value (y-axis) is assumed to be <code>50%</code>.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
