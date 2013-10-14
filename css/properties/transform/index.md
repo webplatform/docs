@@ -86,7 +86,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Translate the object by 150 pixels along the x and y axes
+|Description=Translate the object by 150 pixels along the x and y axes.
 |Code=.matrix {
  	-webkit-transform:  matrix(1, 0, 0, 1, 150, 150);
  	-o-transform:  matrix(1, 0, 0, 1, 150, 150);
@@ -98,10 +98,10 @@
  	height: 10em;
  	background: #eee;
  }
-|LiveURL=http://dabblet.com/gist/4740688
+|LiveURL=http://code.webplatform.org/gist/6982577
 }}{{Single Example
 |Language=CSS
-|Description=Rotate the object by 40deg
+|Description=Rotate the object by 40deg.
 |Code=.rotate {
 	-ms-transform: rotate(40deg);
 	-webkit-transform: rotate(40deg);
@@ -113,10 +113,10 @@
 	height: 10em;
 	background-color: red;
 }
-|LiveURL=http://dabblet.com/gist/4744780
+|LiveURL=http://code.webplatform.org/gist/6982633
 }}{{Single Example
 |Language=CSS
-|Description=Scales the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
+|Description=Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
 |Code=.scale {
 	-ms-transform: scale(3, 0.5);
 	-webkit-transform: scale(3, 0.5);
@@ -128,10 +128,10 @@
 	height: 10em;
 	background: green;
 }
-|LiveURL=http://dabblet.com/gist/4745494
+|LiveURL=http://code.webplatform.org/gist/6982663
 }}{{Single Example
 |Language=CSS
-|Description=Rotate the object by 40deg along the X axis.
+|Description=3D rotate the object by 40deg along the X axis.
 |Code=.rotateX {
 	-ms-transform: rotateX(40deg);
 	-webkit-transform: rotateX(40deg);
@@ -143,7 +143,7 @@
 	height: 10em;
 	background-color: blue;
 }
-|LiveURL=http://dabblet.com/gist/6123429
+|LiveURL=http://code.webplatform.org/gist/6982706
 }}
 }}
 {{Notes_Section
