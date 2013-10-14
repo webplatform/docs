@@ -147,6 +147,8 @@ The [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html sp
 {{See_Also_Section
 |External_links=*[http://alistapart.com/article/application-cache-is-a-douchebag Application Cache is a Douchebag]
 *[http://www.html5rocks.com/en/tutorials/appcache/beginner/ HTML5Rocks - A Beginner's Guide to Using the Application Cache]
+*[http://www.webdirections.org/blog/get-offline/ Taking your web sites and apps offline with the HTML5 appcache]
+*[http://dev.opera.com/articles/view/offline-applications-html5-appcache/ Running your web applications offline with HTML5 AppCache]
 *[http://appcachefacts.info/ appcachefacts.info]
 *[http://manifest-validator.com Cache Manifest Validator]
 }}
