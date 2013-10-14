@@ -33,7 +33,7 @@ A valid key can be an [http://www.w3.org/TR/IndexedDB/#bib-ECMA-262 Array], [htt
 Every record has a value that contains the data for a record. A value must be supported by the [http://www.w3.org/TR/IndexedDB/#bib-HTML5 Structured Cloning Algorithm]. 
 
 ==== Index ====
-An index allows looking up records in an object store using properties of the values in the object stores records.An index is a specialized persistent key-value storage and has a referenced object store. The index has a list of records which hold the data stored in the index. The records in an index are automatically populated whenever records in the referenced object store are inserted, updated or deleted. There can be several indexes referencing the same object store, in which changes to the object store cause all such indexes to get updated.
+An index allows looking up records in an object store using properties of the values in the object stores records. An index is a specialized persistent key-value storage and has a referenced object store. The index has a list of records which hold the data stored in the index. The records in an index are automatically populated whenever records in the referenced object store are inserted, updated or deleted. There can be several indexes referencing the same object store, in which changes to the object store cause all such indexes to get updated.
 
 ==== Cursor ====
 A cursor is a transient construct to iterate over the records in a database. Cursors can be used on Object Stores or Indexes
