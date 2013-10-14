@@ -4,62 +4,81 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space.
-
-The CSS transform property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed according to the values set.
-
-If the property has a value different than none, a stacking context will be created. In that case the object will act as a containing block for position: fixed elements that it contains.
-}}
+{{Summary_Section|CSS transforms allows elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.}}
 {{CSS Property
 |Initial value=none
-|Applies to=none | <transform-function> [ <transform-function> ]
+|Applies to=Transformable elements.
 |Inherited=No
 |Media=visual
 |Computed value=As specified, but with relative lengths converted into absolute lengths.
 |Animatable=Yes
-|CSS object model property=transform
+|CSS percentages=Refer to the size of the element's bounding box.
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Specifies that no transform should be applied.
 }}{{CSS Property Value
-|Data Type=matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0)
-|Description=Specifies a 2D transformation matrix comprised of the specified six values. This is the equivalent to applying the transformation matrix [a b c d tx ty].
+|Data Type=matrix(a, b, c, d, e, f)
+|Description=Specifies a 2D transformation matrix in the form of a transformation matrix of the six values, a-f.
 }}{{CSS Property Value
-|Data Type=translate(12px, 50%)
-|Description=Specifies a 2D translation by the vector [tx, ty]. If ty isn't specified, its value is assumed to be zero.
+|Data Type=translate(tx, ty)
+|Description=Specifies a 2D translation by the vector [tx, ty]. If ty is not specified, its value is assumed to be zero.
 }}{{CSS Property Value
-|Data Type=translateX(2em)
+|Data Type=translateX(x)
 |Description=Translates the element by the given amount along the X axis.
 }}{{CSS Property Value
-|Data Type=translateY(50px)
+|Data Type=translateY(y)
 |Description=Translates the element by the given amount along the Y axis.
 }}{{CSS Property Value
-|Data Type=scale(2, 0.5)
-|Description=Specifies a 2D scaling operation described by [sx, sy]. If sy isn't specified, it is assumed to be equal to sx.
+|Data Type=scale(sx, sy)
+|Description=Specifies a 2D scaling operation described by [sx, sy]. If sy is not specified, it is assumed to be equal to sx.
 }}{{CSS Property Value
-|Data Type=scaleX(3)
+|Data Type=scaleX(sx)
 |Description=Specifies a scale operation using the vector [sx, 1].
 }}{{CSS Property Value
-|Data Type=scaleY(0.5)
+|Data Type=scaleY(sy)
 |Description=Specifies a scale operation using the vector [1, sy].
 }}{{CSS Property Value
-|Data Type=rotate(20deg)
-|Description=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
+|Data Type=rotate(a)
+|Description=Specifies a 2D rotation by the specified angle about the origin of the element, as defined by the [[css/properties/transform-origin|transform-origin]] property.
 }}{{CSS Property Value
-|Data Type=skewX(40deg)
-|Description=Specifies a 2D skew transformation along the X axis by the given [[css/data_types/angle|angle]].
+|Data Type=skew(ax, ay)
+|Description=Specifies a 2D skew by [ax,ay] for X and Y. If the second parameter is not provided, it is assumed to be zero.
 }}{{CSS Property Value
-|Data Type=skewY(0.25turn)
-|Description=Specifies a 2D skew transformation along the Y axis by the given [[css/data_types/angle|angle]].
+|Data Type=skewX(ax)
+|Description=Specifies a 2D skew transformation along the X axis by the given angle.
 }}{{CSS Property Value
-|Data Type=rotateX(20deg)
-|Description=Specifies a 3D rotation of the element around the X axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
+|Data Type=skewY(ay)
+|Description=Specifies a 2D skew transformation along the Y axis by the given angle.
 }}{{CSS Property Value
-|Data Type=rotateY(20deg)
-|Description=Specifies a 3D rotation of the element around the Y axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
+|Data Type=matrix3d(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p)
+|Description=Specifies a 3D transformation as a 4x4 homogeneous matrix of 16 values in column-major order.
 }}{{CSS Property Value
-|Data Type=rotateZ(20deg)
-|Description=Specifies a 3D rotation of the element around the Z axis at its origin (as specified by the transform-origin property) by the specified [[css/data_types/angle|angle]].
+|Data Type=translate3d(tx, ty, tz)
+|Description=Specifies a 3D translation by the vector [tx,ty,tz] in the X, Y, and Z directions.
+}}{{CSS Property Value
+|Data Type=translateZ(tz)
+|Description=Specifies a 3D translation by the vector [0,0,tz] in the Z direction.
+}}{{CSS Property Value
+|Data Type=scale3d(sx, sy, sz)
+|Description=Specifies a 3D scale operation by the [sx,sy,sz] scaling vector described by the three parameters.
+}}{{CSS Property Value
+|Data Type=scaleZ(sz)
+|Description=Specifies a 3D scale operation by the scaling vector [1,1,sz].
+}}{{CSS Property Value
+|Data Type=rotate3d(x, y, z, a)
+|Description=Specifies a 3D rotation by the angle specified in last parameter about the [x,y,z] direction vector described by the first three parameters.
+}}{{CSS Property Value
+|Data Type=rotateX(ax)
+|Description=Specifies a 3D rotation by the angle specified in the X direction. Equivalent to <code>rotate3d(1, 0, 0, ax)</code>.
+}}{{CSS Property Value
+|Data Type=rotateY(ay)
+|Description=Specifies a 3D rotation by the angle specified in the Y direction. Equivalent to <code>rotate3d(0, 1, 0, ay)</code>.
+}}{{CSS Property Value
+|Data Type=rotateZ(az)
+|Description=Specifies a 3D rotation by the angle specified in the Z direction. Equivalent to <code>rotate3d(0, 0, 1, az)</code>.
+}}{{CSS Property Value
+|Data Type=perspective(p)
+|Description=Specifies a perspective projection matrix, which scales points in the X and Y directions based on their Z value. Thus, points with positive Z values are scaled away from the origin, and those with negative Z values are scaked toward the origin.
 }}
 }}
 {{Examples_Section
@@ -127,7 +146,7 @@ If the property has a value different than none, a stacking context will be crea
 }}
 }}
 {{Notes_Section
-|Notes=Any value other than ‘none’ for the transform results in the creation of both a stacking context and a containing block. The containing block is for fixed positioned descendants.
+|Notes=Any value other than "none" results in the creation of both a stacking context and a containing block. The containing block is for fixed positioned descendants.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -139,95 +158,18 @@ If the property has a value different than none, a stacking context will be crea
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=1.0
-|Firefox_supported=Yes
-|Firefox_version=16
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=3.5
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=9.0
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=10.5
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.1
-}}{{Compatibility Table Desktop Row
-|Feature=3D transforms
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=12
-|Firefox_supported=Yes
-|Firefox_version=16
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=10
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16
-|Firefox_mobile_prefixed_supported=Yes
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.1
-}}
+|Desktop_rows=
+|Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=Cross Browser CSS Transforms – even in IE http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/
+|External_links=Cross Browser CSS Transforms – Even in IE http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/CSS/transform transform]
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/transform transform
 |MSDN_link=
 |HTML5Rocks_link=
 }}
