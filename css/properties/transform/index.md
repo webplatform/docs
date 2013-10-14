@@ -78,7 +78,7 @@
 |Description=Specifies a 3D rotation by the angle specified in the Z direction. Equivalent to <code>rotate3d(0, 0, 1, az)</code>.
 }}{{CSS Property Value
 |Data Type=perspective(p)
-|Description=Specifies a perspective projection matrix, which scales points in the X and Y directions based on their Z value. Thus, points with positive Z values are scaled away from the origin, and those with negative Z values are scaked toward the origin.
+|Description=Specifies a perspective projection matrix, which scales points in the X and Y directions based on their Z value. Thus, points with positive Z values are scaled away from the origin, and those with negative Z values are scaled toward the origin.
 }}
 }}
 {{Examples_Section
