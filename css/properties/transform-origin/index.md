@@ -42,7 +42,7 @@ The values <code>left</code>, <code>center</code>, and <code>right</code> are va
 |Examples=
 }}
 {{Notes_Section
-|Notes=The origin may be moved along all three axes with this single property by specifying the relative position of each axis in the following order: <code>x-axis y-axis z-axis</code>. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
+|Notes=The origin may be moved along all three axes with this single property by specifying the relative position of each axis in X, Y, Z order. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
 
 Microsoft deprecated <code>-ms-transform-origin</code>, the vendor-prefixed version of this property, with the release of Internet Explorer 10. It should only be included for compatibility with earlier versions.
 
@@ -50,9 +50,6 @@ If the <code>transform-origin</code> property is not set, the transform begins i
 * If fewer than three values are provided, the third value (z-axis) is assumed to be <code>0</code> (screen level).
 * If only one value is specified, the second value (y-axis) is assumed to be <code>50%</code>.
 
-The versions specified in the Compatibility Table indicate compatibility for 2-dimensional implementations of this property. To see compatibility for 3-dimensional implementations of this property, please refer to the Compatibility Table for <code>[[css/transforms/transform-origin-z | transform-origin-z]]</code>.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 8
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
