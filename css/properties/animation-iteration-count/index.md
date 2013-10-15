@@ -28,6 +28,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Robert Nyman introduces CSS Animations as a way to control animations, the number of times it should iterate and property values at certain keyframes.
+|Code=-webkit-animation-iteration-count: infinite;
 |LiveURL=[http://robertnyman.com/2010/05/06/css3-animations/ Robert Nyman's examples]
 }}{{Single Example
 |Language=CSS
@@ -138,65 +140,6 @@ Multiple values separated by commas are applied to the corresponding animations 
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
