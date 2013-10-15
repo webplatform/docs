@@ -43,7 +43,7 @@ Currently an experimental feature.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=CSS
 |Description=The following examples use the '''text-indent''' attribute and the '''text-indent''' property to indent the object's text.
 
 This example uses calls to an embedded style sheet to change the indent on the text when a [[dom/events/click|'''click''']] event occurs. The text was originally indented 2 centimeters using '''div''' as a selector in the style sheet.
