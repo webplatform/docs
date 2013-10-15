@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Controls whether an animation is running or paused}}
+{{Summary_Section|Controls whether an animation is running or paused.}}
 {{CSS Property
 |Initial value=running
 |Applies to=all elements
