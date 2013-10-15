@@ -4,11 +4,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser.
-
-
-This property is only used when the [[css/properties/text-align-last|'''text-align-last''']] property is set to '''size'''. It controls allowed adjustments of font-size to fit line content.
-}}
+{{Summary_Section|This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the [[css/properties/text-align-last|'''text-align-last''']] property is set to '''size'''. It controls allowed adjustments of [[css/properties/font-size|'''font-size''']] to fit line content.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=all elements and generated content
