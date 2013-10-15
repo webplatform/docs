@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -81,12 +79,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=The <code>animation-direction</code> property takes as its value a keyword indicating the direction of a single animation cycle. If multiple keywords are separated by commas, they are applied to each animation in the same order as specified in <code>animation-name</code>. The number of values specified for <code>animation-direction</code> doesn't need to match. If there are more values than for <code>animation-name</code>, the excess values are ignored. If there are fewer, the browser cycles through them again until each animation has been assigned a direction
-|Import_Notes====Syntax===
-<code>'''animation-direction: ''''''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' '''[''' ,  '''[''' normal '''{{!}}''' alternate '''{{!}}''' reverse '''{{!}}''' alternate-reverse ''']''' ''']''' *</code>
-===Standards information===
-*[http://www.w3.org/TR/css3-animations/#animation-duration-property CSS Animations W3C Working Draft], Section 3.3
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.6
+|Usage=The <code>animation-direction</code> property takes as its value a keyword indicating the direction of a single animation cycle. If multiple keywords are separated by commas, they are applied to each animation in the same order as specified in <code>animation-name</code>. The number of values specified for <code>animation-direction</code> doesn't need to match. If there are more values than for <code>animation-name</code>, the excess values are ignored. If there are fewer, the browser cycles through them again until each animation has been assigned a direction.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -170,65 +163,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>br</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>q</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>textArea</code>
-*<code>tt</code>
-*<code>var</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
