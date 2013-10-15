@@ -4,10 +4,12 @@
 |Content=Examples Needed
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|This property is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
+{{Summary_Section|This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser.
 
+
+This property is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
 }}
 {{CSS Property
 |Initial value=auto
@@ -30,10 +32,19 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=This property is only used when the text-align-last property is set to size.
+|Usage=This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser.
+
+The feature can be mimicked using JavaScript or similar.
+
+This property is only used when the text-align-last property is set to size.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 Text Module
+|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/
+|Status=Obsolete (previously Candidate Recommendation)
+|Relevant_changes=Section 4.4
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
