@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -95,20 +93,8 @@
 }}
 }}
 {{Notes_Section
-|Notes=For absolutely positioned elements whose containing block is based on a block-level element, this property is an offset from the padding edge of that element.
+|Notes=
 
-===Remarks===
-The '''top''' attribute should be used only when the [[css/properties/position|'''position''']] attribute is set; otherwise, the value of the '''top''' attribute is ignored.
-Because the value of the '''top''' property is a string, you cannot use the property in script to calculate the position of the object in the document; instead, use the [[css/cssom/properties/pixelTop|'''pixelTop''']] or the [[css/cssom/properties/posTop|'''posTop''']] property.
-For more information about how to access the dimension and location of objects on the document through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes====Syntax===
-<code>'''top: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' auto</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.2
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -147,15 +133,6 @@ For more information about how to access the dimension and location of objects o
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/cssom/properties/pixelTop|pixelTop]]</code>
-*<code>[[css/cssom/properties/posTop|posTop]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
