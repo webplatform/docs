@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property specifies how nested elements are rendered in 3D space.}}
+{{Summary_Section|This property specifies how nested elements are rendered in 3D space relative to their parent.}}
 {{CSS Property
 |Initial value=flat
 |Applies to=Transformable elements.
@@ -16,30 +16,44 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=flat
-|Description=Child elements will not preserve their 3D position.
+|Description=Child elements will not preserve their 3D position before applying a transform.
 }}{{CSS Property Value
 |Data Type=preserve-3d
-|Description=Child elements will preserve their 3D position.
+|Description=Child elements will preserve their 3D position before applying a transform.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Transformed child elements will preserve the 3D transformation */
-div {
-    transform: rotateY(60deg);
-    transform-style: preserve-3d;
-    -webkit-transform: rotateY(60deg);
-    -webkit-transform-style: preserve-3d;
+|Code=/* The transformed child div (green) will preserve 
+   the 3D position of the parent div (blue) 
+   before applying its own transform */
+#blue {
+width: 10em;
+height: 10em;
+background-color: blue;
+transform: rotateY(60deg);
+transform-style: preserve-3d;
+-webkit-transform: rotateY(60deg);
+-webkit-transform-style: preserve-3d;
 }
+
+#green {
+margin-left: 30px;
+width: 10em;
+height: 10em;
+background-color: green;
+transform: rotateY(60deg);
+-webkit-transform: rotateY(60deg);
+}
+
+|LiveURL=http://code.webplatform.org/gist/6995453
 }}
 }}
 {{Notes_Section
-|Notes=This property does not affect how the object is rendered.
-This property is only applied to child elements that have a [[css/transforms/transform|transform]] specified.
-The  object is the projection plane for the child elements.
-Child elements cannot intersect in <code>flat</code> mode.
+|Notes=This property is only applied to child elements that have a [[css/transforms/transform|transform]] specified.
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
