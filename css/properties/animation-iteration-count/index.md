@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies how many times an animation cycle should play}}
+{{Summary_Section|Specifies how many times an animation cycle should play.}}
 {{CSS Property
 |Initial value=1
 |Applies to=all elements
