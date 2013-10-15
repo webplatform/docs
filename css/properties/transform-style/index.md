@@ -27,7 +27,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/* The transformed child div (green) will preserve 
-   the 3D position of the parent div (blue) 
+   the 3D position applied by the parent div (blue) 
    before applying its own transform */
 #blue {
 width: 10em;
@@ -47,13 +47,11 @@ background-color: green;
 transform: rotateY(60deg);
 -webkit-transform: rotateY(60deg);
 }
-
 |LiveURL=http://code.webplatform.org/gist/6995453
 }}
 }}
 {{Notes_Section
 |Notes=This property is only applied to child elements that have a [[css/transforms/transform|transform]] specified.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
