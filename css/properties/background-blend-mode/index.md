@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Blending causes colors to be pulled up from the elements in layers below and mixed with the current layer. The name of the blend mode is based on the name of a formula that does the mixing.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All HTML elements
@@ -162,7 +162,9 @@ Non-separable blend modes consider all color components in combination as oppose
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* [http://www.adobe.com/devnet/html5/articles/css-blending.html Introducing CSS blending] by Rik Cabanier
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
