@@ -68,22 +68,22 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=A group of boxes to see the differents blend's effects.
-|Code=<div class='normal'><label>Normal</label></div>
-<div class='multiply'><label>Multiply</label></div>
-<div class='screen'><label>Screen</label></div>
-<div class='overlay'><label>Overlay</label></div>
-<div class='darken'><label>Darken</label></div>
-<div class='ligthen'><label>Ligthen</label></div>
-<div class='color-dodge'><label>Color-dodge</label></div>
-<div class='color-burn'><label>Color-burn</label></div>
-<div class='hard-light'><label>Hard-light</label></div>
-<div class='soft-light'><label>Soft-light</label></div>
-<div class='difference'><label>Difference</label></div>
-<div class='exclusion'><label>Exclusion</label></div>
-<div class='hue'><label>Hue</label></div>
-<div class='saturation'><label>Saturation</label></div>
-<div class='color'><label>Color</label></div>
-<div class='luminosity'><label>Luminosity</label></div>
+|Code=&lt;div class='normal'&gt;&lt;label&gt;Normal&lt;/label&gt;&lt;/div&gt;
+&lt;div class='multiply'&gt;&lt;label&gt;Multiply&lt;/label&gt;&lt;/div&gt;
+&lt;div class='screen'&gt;&lt;label&gt;Screen&lt;/label&gt;&lt;/div&gt;
+&lt;div class='overlay'&gt;&lt;label&gt;Overlay&lt;/label&gt;&lt;/div&gt;
+&lt;div class='darken'&gt;&lt;label&gt;Darken&lt;/label&gt;&lt;/div&gt;
+&lt;div class='ligthen'&gt;&lt;label&gt;Ligthen&lt;/label&gt;&lt;/div&gt;
+&lt;div class='color-dodge'&gt;&lt;label&gt;Color-dodge&lt;/label&gt;&lt;/div&gt;
+&lt;div class='color-burn'&gt;&lt;label&gt;Color-burn&lt;/label&gt;&lt;/div&gt;
+&lt;div class='hard-light'&gt;&lt;label&gt;Hard-light&lt;/label&gt;&lt;/div&gt;
+&lt;div class='soft-light'&gt;&lt;label&gt;Soft-light&lt;/label&gt;&lt;/div&gt;
+&lt;div class='difference'&gt;&lt;label&gt;Difference&lt;/label&gt;&lt;/div&gt;
+&lt;div class='exclusion'&gt;&lt;label&gt;Exclusion&lt;/label&gt;&lt;/div&gt;
+&lt;div class='hue'&gt;&lt;label&gt;Hue&lt;/label&gt;&lt;/div&gt;
+&lt;div class='saturation'&gt;&lt;label&gt;Saturation&lt;/label&gt;&lt;/div&gt;
+&lt;div class='color'&gt;&lt;label&gt;Color&lt;/label&gt;&lt;/div&gt;
+&lt;div class='luminosity'&gt;&lt;label&gt;Luminosity&lt;/label&gt;&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/7006023
 }}{{Single Example
 |Language=CSS
@@ -92,8 +92,8 @@
 }
  
 div {
-        // In the background of the element it's necessary to have two backgrounds (image, gradient, color)
-        // background: first-background properties, second-background-properties;
+/* In the background of the element it's necessary to have two backgrounds (image, gradient, color)
+background: first-background properties, second-background-properties; /*
 	background: url(imageB.png) no-repeat center, url(imageB.png) no-repeat center;
 	border-radius: 10px;
 	box-shadow: 5px 2px 10px #888;
@@ -113,76 +113,26 @@ label {
     text-shadow: .5px .7px .7px #EEE;
 }
 
-div:hover {
-	opacity: 1.0;
-}
+div:hover { opacity: 1.0; }
 
 // background-blend-mode: blend-mode;
 
-.normal {
-	background-blend-mode: normal;
-}
- 
-.multiply {
-	background-blend-mode: multiply;
-}
-
-.screen {
-	background-blend-mode: screen;
-} 
-
-.overlay {
-	background-blend-mode: overlay;
-}
-
-.darken {
-	background-blend-mode: darken;
-}
-
-.ligthen {
-	background-blend-mode: ligthen;
-}
-
-.color-dodge {
-	background-blend-mode: color-dodge;
- }
-
-.color-burn {
-	background-blend-mode: color-burn;
- }
-
-.hard-light {
-	background-blend-mode: hard-light;
- }
-
-.soft-light {
-	background-blend-mode: soft-light;
-}
-
-.difference {
-	background-blend-mode: difference;
- }
-
-.exclusion {
-	background-blend-mode: exclusion;
- }
-
-.hue {
-	background-blend-mode: hue;
- }
-
-.saturation {
-	background-blend-mode: saturation;
- }
-
-.color {
-	background-blend-mode: color;
- }
-
-.luminosity {
-	background-blend-mode: luminosity;
- }
-
+.normal { background-blend-mode: normal; }
+.multiply { background-blend-mode: multiply; }
+.screen { background-blend-mode: screen; } 
+.overlay { background-blend-mode: overlay; }
+.darken { background-blend-mode: darken; }
+.ligthen { background-blend-mode: ligthen; }
+.color-dodge { background-blend-mode: color-dodge; }
+.color-burn { background-blend-mode: color-burn; }
+.hard-light { background-blend-mode: hard-light; }
+.soft-light { background-blend-mode: soft-light; }
+.difference { background-blend-mode: difference; }
+.exclusion { background-blend-mode: exclusion; }
+.hue { background-blend-mode: hue; }
+.saturation { background-blend-mode: saturation; }
+.color { background-blend-mode: color; }
+.luminosity { background-blend-mode: luminosity; }
 }}
 }}
 {{Notes_Section
