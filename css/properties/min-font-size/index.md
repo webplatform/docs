@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This property is only used when the text-align-last property is set to size.  It controls allowed adjustments of font-size to fit line content.}}
+{{Summary_Section|Obsolete: unsupported.
+
+This property is only used when the text-align-last property is set to size.  It controls allowed adjustments of font-size to fit line content.
+}}
 {{CSS Property
 |Initial value=auto
 |Applies to=all elements and generated content
