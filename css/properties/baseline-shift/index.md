@@ -14,8 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Must be an inline-level element */
-/* Baseline is the default value */
+|Code=/* Baseline is the default value */
 span {
 	baseline-shift: baseline;
 }
@@ -36,7 +35,4 @@ span {
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
