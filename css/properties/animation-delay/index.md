@@ -15,15 +15,6 @@
 |CSS object model property=animationDelay
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=0s
-|Description=The initial value of 0s means the animation will start executing as soon as it is applied through the [css/properties/animation-name|'''animation-name'''] property.
-}}{{CSS Property Value
-|Data Type=.25s, 100ms
-|Description=This value defines the initial delay for two animations. Like durations, delays can be specified in seconds or milliseconds.
-}}{{CSS Property Value
-|Data Type=-1.5s
-|Description=If the value for '''animation-delay''' is negative then the animation will execute the moment it is applied but will begin execution at the specified offset. That is, the animation appears to begin part-way through its play cycle.
-}}{{CSS Property Value
 |Data Type=&#60;time&#62;
 |Description=Can be specified in seconds or milliseconds, e.g., '''2s''' or '''150ms'''. Can also be a comma-separated list of delays, e.g., '''.25s, .5s, 1s''', where each delay is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 
