@@ -93,7 +93,7 @@
  
 div {
 /* In the background of the element it's necessary to have two backgrounds (image, gradient, color)
-background: first-background properties, second-background-properties; /*
+	background: first-background properties, second-background-properties; */
 	background: url(imageB.png) no-repeat center, url(imageB.png) no-repeat center;
 	border-radius: 10px;
 	box-shadow: 5px 2px 10px #888;
@@ -116,23 +116,22 @@ label {
 div:hover { opacity: 1.0; }
 
 // background-blend-mode: blend-mode;
-
-.normal { background-blend-mode: normal; }
-.multiply { background-blend-mode: multiply; }
-.screen { background-blend-mode: screen; } 
-.overlay { background-blend-mode: overlay; }
-.darken { background-blend-mode: darken; }
-.ligthen { background-blend-mode: ligthen; }
+.normal 	 { background-blend-mode: normal; 	   }
+.multiply 	 { background-blend-mode: multiply;    }
+.screen 	 { background-blend-mode: screen; 	   } 
+.overlay 	 { background-blend-mode: overlay;     }
+.darken 	 { background-blend-mode: darken;      }
+.ligthen 	 { background-blend-mode: ligthen;     }
 .color-dodge { background-blend-mode: color-dodge; }
-.color-burn { background-blend-mode: color-burn; }
-.hard-light { background-blend-mode: hard-light; }
-.soft-light { background-blend-mode: soft-light; }
-.difference { background-blend-mode: difference; }
-.exclusion { background-blend-mode: exclusion; }
-.hue { background-blend-mode: hue; }
-.saturation { background-blend-mode: saturation; }
-.color { background-blend-mode: color; }
-.luminosity { background-blend-mode: luminosity; }
+.color-burn  { background-blend-mode: color-burn;  }
+.hard-light  { background-blend-mode: hard-light;  }
+.soft-light  { background-blend-mode: soft-light;  }
+.difference  { background-blend-mode: difference;  }
+.exclusion   { background-blend-mode: exclusion;   }
+.hue 		 { background-blend-mode: hue;   	   }
+.saturation  { background-blend-mode: saturation;  }
+.color 		 { background-blend-mode: color;       }
+.luminosity  { background-blend-mode: luminosity;  }
 }}
 }}
 {{Notes_Section
