@@ -65,7 +65,125 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A group of boxes to see the differents blend's effects.
+|Code=<div class='normal'><label>Normal</label></div>
+<div class='multiply'><label>Multiply</label></div>
+<div class='screen'><label>Screen</label></div>
+<div class='overlay'><label>Overlay</label></div>
+<div class='darken'><label>Darken</label></div>
+<div class='ligthen'><label>Ligthen</label></div>
+<div class='color-dodge'><label>Color-dodge</label></div>
+<div class='color-burn'><label>Color-burn</label></div>
+<div class='hard-light'><label>Hard-light</label></div>
+<div class='soft-light'><label>Soft-light</label></div>
+<div class='difference'><label>Difference</label></div>
+<div class='exclusion'><label>Exclusion</label></div>
+<div class='hue'><label>Hue</label></div>
+<div class='saturation'><label>Saturation</label></div>
+<div class='color'><label>Color</label></div>
+<div class='luminosity'><label>Luminosity</label></div>
+|LiveURL=http://code.webplatform.org/gist/7006023
+}}{{Single Example
+|Language=CSS
+|Code=body {
+ 	margin: 2em;
+}
+ 
+div {
+        // In the background of the element it's necessary to have two backgrounds (image, gradient, color)
+        // background: first-background properties, second-background-properties;
+	background: url(imageB.png) no-repeat center, url(imageB.png) no-repeat center;
+	border-radius: 10px;
+	box-shadow: 5px 2px 10px #888;
+	display: inline-block;
+	height:200px;
+	margin: 1em;
+	opacity: 0.50;
+	transition: opacity .25s ease-in-out;
+	width: 200px;
+}
+
+label {
+    display:block;
+    background: white;
+    font-family: Georgia, Garamond, serif;
+    text-align:center;
+    text-shadow: .5px .7px .7px #EEE;
+}
+
+div:hover {
+	opacity: 1.0;
+}
+
+// background-blend-mode: blend-mode;
+
+.normal {
+	background-blend-mode: normal;
+}
+ 
+.multiply {
+	background-blend-mode: multiply;
+}
+
+.screen {
+	background-blend-mode: screen;
+} 
+
+.overlay {
+	background-blend-mode: overlay;
+}
+
+.darken {
+	background-blend-mode: darken;
+}
+
+.ligthen {
+	background-blend-mode: ligthen;
+}
+
+.color-dodge {
+	background-blend-mode: color-dodge;
+ }
+
+.color-burn {
+	background-blend-mode: color-burn;
+ }
+
+.hard-light {
+	background-blend-mode: hard-light;
+ }
+
+.soft-light {
+	background-blend-mode: soft-light;
+}
+
+.difference {
+	background-blend-mode: difference;
+ }
+
+.exclusion {
+	background-blend-mode: exclusion;
+ }
+
+.hue {
+	background-blend-mode: hue;
+ }
+
+.saturation {
+	background-blend-mode: saturation;
+ }
+
+.color {
+	background-blend-mode: color;
+ }
+
+.luminosity {
+	background-blend-mode: luminosity;
+ }
+
+}}
 }}
 {{Notes_Section
 |Usage=The ‘background-blend-mode’ list must be applied in the same order as ‘background-image’. This means that the first element in the list will apply to the layer that is on top. If a property doesn't have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
