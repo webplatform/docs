@@ -30,7 +30,7 @@
 |LiveURL=http://code.webplatform.org/gist/7010824
 }}{{Single Example
 |Language=CSS
-|Description=A repeating ''pulse'' animation that simultaneously shrinks and dims an icon, each iteration lasting 1 second.
+|Description=A repeating pulse animation that shrinks and dims an element, then restores it.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
@@ -51,7 +51,7 @@
         opacity : 1;
     }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
+|LiveURL=http://code.webplatform.org/gist/7010365
 }}{{Single Example
 |Language=CSS
 |Description=A variation of the ''pulse'' animation that specifies slightly different durations for two separate ''fade'' and ''shrink'' animations, which execute continuously so that they fall out of phase.
