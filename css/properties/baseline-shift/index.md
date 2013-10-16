@@ -12,7 +12,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=/* Must be an inline-level element */
+/* Baseline is the default value */
+span {
+	baseline-shift: baseline;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
