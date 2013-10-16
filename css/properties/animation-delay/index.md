@@ -4,13 +4,13 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines the length of time that must elapse before an animation starts}}
+{{Summary_Section|Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.}}
 {{CSS Property
 |Initial value=0s
-|Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
+|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified.
 |Animatable=No
 |CSS object model property=animationDelay
 |CSS percentages=N/A
@@ -23,14 +23,21 @@
 }}{{CSS Property Value
 |Data Type=-1.5s
 |Description=If the value for '''animation-delay''' is negative then the animation will execute the moment it is applied but will begin execution at the specified offset. That is, the animation appears to begin part-way through its play cycle.
+}}{{CSS Property Value
+|Data Type=&#60;time&#62;
+|Description=Can be specified in seconds or milliseconds, e.g., '''2s''' or '''150ms'''. Can also be a comma-separated list of delays, e.g., '''.25s, .5s, 1s''', where each delay is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+
+''If the value is negative the animation will execute the moment it is applied, but will begin execution at the specified offset. That is, the animation appears to begin part-way through its cycle.''
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=A delay of half a second. Example shows a delay of 5 seconds.
-|Code=animation-delay: 500ms;
+|Description=A delay of 5 seconds.
+|Code=div.animationDelay {
+    animation-delay: 5s;
+}
 |LiveURL=http://03sq.net/examples/animation-delay.html
 }}{{Single Example
 |Language=CSS
@@ -92,76 +99,20 @@ header {
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12.0
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16.0
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Yes
-|IE_mobile_version=WP 8 (IE 10)
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
+|Desktop_rows=
+|Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10.0
 |Note=The -ms- prefixed property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Animation
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/animation-delay
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
