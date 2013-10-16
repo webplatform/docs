@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Blending causes colors to be pulled up from the elements in layers below and mixed with the current layer. The name of the blend mode is based on the name of a formula that does the mixing.}}
+{{Summary_Section|Blending causes colors to be pulled up from the elements in layers below and mixed with the current layer. The name of the blend mode is based on the name of a formula that does the mixing.
+
+This is an experimental feature. You'll need to view examples in Chrome Canary or WebKit nightly builds. And don't put this into production until it has been adopted.
+}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All HTML elements
