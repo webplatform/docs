@@ -93,7 +93,7 @@
  
 div {
 /* In the background of the element it's necessary to have two backgrounds (image, gradient, color)
-	background: first-background properties, second-background-properties; */
+	background: first-background properties, second-background properties; */
 	background: url(imageB.png) no-repeat center, url(imageB.png) no-repeat center;
 	border-radius: 10px;
 	box-shadow: 5px 2px 10px #888;
