@@ -4,28 +4,21 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines the length of time an animation will take to complete one cycle}}
+{{Summary_Section|Defines the length of time an animation takes to complete one cycle.}}
 {{CSS Property
 |Initial value=0s
 |Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified.
 |Animatable=No
 |CSS object model property=animationDuration
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=0s
-|Description=The initial value of 0s means the animation takes no time. When the duration is 0s (or 0ms) [[css/properties/animation-fill-mode|animation-fill-mode]] still applies i.e. an animation filling backwards will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forwards will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]], even if the animation was instantaneous. Also, animation events are still fired.
-}}{{CSS Property Value
-|Data Type=1s
-|Description=The specified animation will run for one second.
-}}{{CSS Property Value
-|Data Type=150ms
-|Description=Animation duration can also be specified in milliseconds.
-}}{{CSS Property Value
-|Data Type=.25s, .5s
-|Description=<code>animation-duration</code> can specify a comma-separated list of durations; each duration is applied to the corresponding value of <code>[[css/properties/animation-name|animation-name]]</code>.
+|Data Type=<time>
+|Description=Can be specified in seconds or milliseconds, e.g., <code>2s</code> or <code>150ms</code>. Can also be a comma-separated list of durations, e.g., <code>.25s, .5s, 1s</code>, where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+
+The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [[css/properties/animation-fill-mode|animation-fill-mode]] still applies, such that an animation filling backward will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forward will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]] even if the animation was instantaneous. Also, animation events are still fired.
 }}
 }}
 {{Examples_Section
@@ -96,76 +89,20 @@
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12.0
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16.0
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Yes
-|IE_mobile_version=WP 8 (IE 10)
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
+|Desktop_rows=
+|Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10.0
 |Note=The -ms- prefixed property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Animation
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
