@@ -16,9 +16,9 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=&#60;time&#62;
-|Description=Can be specified in seconds or milliseconds, e.g., <code>2s</code> or <code>150ms</code>. Can also be a comma-separated list of durations, e.g., <code>.25s, .5s, 1s</code>, where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+|Description=Can be specified in seconds or milliseconds, e.g., '''2s''' or '''150ms'''. Can also be a comma-separated list of durations, e.g., '''.25s, .5s, 1s''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 
-The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [[css/properties/animation-fill-mode|animation-fill-mode]] still applies, such that an animation filling backward will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forward will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]] even if the animation was instantaneous. Also, animation events are still fired.
+''The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [[css/properties/animation-fill-mode|animation-fill-mode]] still applies, such that an animation filling backward will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forward will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]] even if the animation was instantaneous. Also, animation events are still fired.''
 }}
 }}
 {{Examples_Section
