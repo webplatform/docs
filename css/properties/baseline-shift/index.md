@@ -14,7 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* Baseline is the default value */
+|Code=/* Baseline is the default value for this property*/
 span {
 	baseline-shift: baseline;
 }
