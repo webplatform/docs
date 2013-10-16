@@ -146,7 +146,7 @@ A blend mode is termed separable if each component of the result color is comple
 '''Non-separable blend modes'''
 ''(hue, saturation, color, luminosity)''
 
-Nonseparable blend modes consider all color components in combination as opposed to the seperable ones that look at each component individually.
+Non-separable blend modes consider all color components in combination as opposed to the seperable ones that look at each component individually.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
