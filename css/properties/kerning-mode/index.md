@@ -17,7 +17,7 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Status=unsupported
+|Status=Obsolete
 }}{{Related Specification}}
 }}
 {{Compatibility_Section
