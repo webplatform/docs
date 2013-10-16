@@ -81,13 +81,13 @@ Painting with white inverts the backdrop color; painting with black produces no 
 |Usage=The ‘background-blend-mode’ list must be applied in the same order as ‘background-image’. This means that the first element in the list will apply to the layer that is on top. If a property doesn't have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 
 If the ‘background’ shorthand is used, the ‘background-blend-mode’ property for that element must be reset to its initial value.
-|Notes=#Separable blend modes
-(normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion)
+|Notes=**Separable blend modes**
+*(normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion)*
 
 A blend mode is termed separable if each component of the result color is completely determined by the corresponding components of the constituent backdrop and source colors — that is, if the mixing formula is applied separately to each set of corresponding components.
 
-#Non-separable blend modes
-(hue, saturation, color, luminosity)
+**Non-separable blend modes**
+*(hue, saturation, color, luminosity)*
 
 Nonseparable blend modes consider all color components in combination as opposed to the seperable ones that look at each component individually.
 }}
