@@ -4,15 +4,16 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines how the intermediate property values used during an animation are calculated}}
+{{Summary_Section|Describes how the animation will progress over one cycle of its duration.}}
 {{CSS Property
 |Initial value=ease
 |Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified.
 |Animatable=No
 |CSS object model property=animationTimingFunction
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=ease
 |Description=Default. The animation begins and ends gradually; this value is equivalent to <code>[[css/functions/cubic-bezier|cubic-bezier(0.25,0.1,0.25,1)]]</code>.
@@ -150,6 +151,6 @@
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
