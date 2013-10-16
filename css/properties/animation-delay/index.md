@@ -32,7 +32,7 @@
 |LiveURL=http://code.webplatform.org/gist/7011569
 }}{{Single Example
 |Language=CSS
-|Description=An example of a mobile interface in which concurrent ''moveContent'' and ''insertBanner'' animations introduce a banner header after a 4-second delay. A subsequent ''scrollBanner'' animation uses a similar delay to start 5 seconds after the page loads.
+|Description=An example of a mobile-like interface in which concurrent ''moveContent'' and ''insertBanner'' animations introduce a colored banner header after a 4-second delay. A subsequent ''scrollBanner'' animation uses a similar delay to start 5 seconds after the page loads.
 |Code=article {
     animation-name : moveContent;
     animation-duration : 1s;
@@ -73,7 +73,7 @@ header {
     97%  { transform : translateX(-80%) }
     to   { transform : translateX(0%) }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html
+|LiveURL=http://code.webplatform.org/gist/7012307
 }}
 }}
 {{Notes_Section
