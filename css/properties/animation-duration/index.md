@@ -25,9 +25,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=An animation duration of 5 seconds.
+|Description=An animation duration of 5 seconds; runs once, does not repeat.
 |Code=animation-duration: 5s;
-|LiveURL=http://03sq.net/examples/animation-duration.html
+|LiveURL=http://code.webplatform.org/gist/7010824
 }}{{Single Example
 |Language=CSS
 |Description=A repeating ''pulse'' animation that simultaneously shrinks and dims an icon, each iteration lasting 1 second.
