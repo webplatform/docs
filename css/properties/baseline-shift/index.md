@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Obsoleted - spec retired, not implemented.}}
 {{CSS Property
 |Initial value=baseline
 |Applies to=inline-level elements
@@ -79,7 +79,7 @@ Using the "alignment-adjust" property is more suitable for positioning elements,
 |Specifications={{Related Specification
 |Name=CSS3 module: line
 |URL=http://www.w3.org/TR/css3-linebox/#baseline-shift
-|Status=Working Draft
+|Status=Obsoleted (Working Draft)
 }}
 }}
 {{Compatibility_Section
