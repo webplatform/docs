@@ -63,7 +63,7 @@
     95%  { transform: translate(0%)   skewX(-10deg) ; }
     100% { transform: translate(0%)   skewX(0deg)   ; }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_timing.html
+|LiveURL=http://code.webplatform.org/gist/7011239
 }}
 }}
 {{Notes_Section
