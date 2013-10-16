@@ -18,7 +18,7 @@
 |Data Type=&#60;time&#62;
 |Description=Can be specified in seconds or milliseconds, e.g., '''2s''' or '''150ms'''. Can also be a comma-separated list of delays, e.g., '''.25s, .5s, 1s''', where each delay is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 
-If the value is negative the animation will execute the moment it is applied, but will begin execution at the specified offset. That is, the animation appears to begin part-way through its cycle.
+''If the value is negative the animation will execute the moment it is applied, but will begin execution at the specified offset. That is, the animation appears to begin part-way through its cycle.''
 }}
 }}
 {{Examples_Section
