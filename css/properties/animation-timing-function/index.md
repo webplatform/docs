@@ -28,7 +28,7 @@
 |Description=The animation begins at a steady rate then gradually ends; this value is equivalent to <code>[[css/functions/cubic-bezier|cubic-bezier(0,0,0.58,1)]]</code>.
 }}{{CSS Property Value
 |Data Type=ease-in-out
-|Description=The animation begins and ends gradually; equivalent to [[css/functions/cubic-bezier|cubic-bezier(0.42,0,0.58,1)]]. Note that this timing function is similar to <code>ease</code> thought the latter starts faster than it ends.
+|Description=The animation begins and ends gradually; equivalent to <code>[[css/functions/cubic-bezier|cubic-bezier(0.42,0,0.58,1)]]</code>. Note that this timing function is similar to <code>ease</code>, although the latter starts faster than it ends.
 }}{{CSS Property Value
 |Data Type=cubic-bezier(0,0,1,1)
 |Description=Specifies a cubic bezier curve. The four values specify points P1 and P2 of the curve as (x1, y1, x2, y2). Both x values must be in the range [0, 1] or the definition is invalid. The y values can exceed this range. This function is used to specify custom timing functions.
