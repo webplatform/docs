@@ -26,7 +26,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=A simple slide-in animation that executes once, much like a transition.
+|Description=A slide-in animation that executes once, much like a transition.
 |Code=h1 {
   animation-duration: 3s;
   animation-name: slidein;
@@ -67,7 +67,7 @@
         opacity : 1;
     }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
+|LiveURL=http://code.webplatform.org/gist/7010365
 }}
 }}
 {{Notes_Section
