@@ -26,7 +26,9 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=An animation duration of 5 seconds; runs once, does not repeat.
-|Code=animation-duration: 5s;
+|Code=div.duration {
+    animation-duration: 5s;
+}
 |LiveURL=http://code.webplatform.org/gist/7010824
 }}{{Single Example
 |Language=CSS
