@@ -29,7 +29,7 @@
 |Code=div.animationDelay {
     animation-delay: 5s;
 }
-|LiveURL=http://03sq.net/examples/animation-delay.html
+|LiveURL=http://code.webplatform.org/gist/7011569
 }}{{Single Example
 |Language=CSS
 |Description=An example of a mobile interface in which concurrent ''moveContent'' and ''insertBanner'' animations introduce a banner header after a 4-second delay. A subsequent ''scrollBanner'' animation uses a similar delay to start 5 seconds after the page loads.
