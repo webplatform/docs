@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Obsolete: Unsupported}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
@@ -18,7 +16,9 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Status=unsupported
+}}{{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
