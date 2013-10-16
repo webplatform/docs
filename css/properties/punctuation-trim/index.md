@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property determines whether or not a full-width punctuation mark character should be trimmed if it appears at the beginning of a line, so that its "ink" lines up with the first glyph in the line above and below.}}
+{{Summary_Section|Obsolete: unsupported.
+
+This property determines whether or not a full-width punctuation mark character should be trimmed if it appears at the beginning of a line, so that its "ink" lines up with the first glyph in the line above and below.
+}}
 {{CSS Property
 |Initial value=none
 |Applies to=block-level and inline-block elements
@@ -32,7 +34,7 @@
 |Specifications={{Related Specification
 |Name=CSS3 Text Module
 |URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/#punctuation-trim
-|Status=Candidate Recommendation
+|Status=Obsolete (previously Candidate Recommendation)
 }}
 }}
 {{Compatibility_Section
