@@ -67,7 +67,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A group of boxes to see the differents blend's effects.
+|Description=A group of boxes that show different blend effects.
 |Code=&lt;div class='normal'&gt;&lt;label&gt;Normal&lt;/label&gt;&lt;/div&gt;
 &lt;div class='multiply'&gt;&lt;label&gt;Multiply&lt;/label&gt;&lt;/div&gt;
 &lt;div class='screen'&gt;&lt;label&gt;Screen&lt;/label&gt;&lt;/div&gt;
