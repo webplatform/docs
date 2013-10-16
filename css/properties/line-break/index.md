@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -20,7 +19,7 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -28,10 +27,6 @@
 This property is deprecated.  It is replaced by the 
 [[css/properties/word-break|'''-ms-word-break''']]
 property starting in Windows Internet Explorer 7.
-|Import_Notes====Syntax===
-<code>'''line-break: '''normal '''{{!}}''' strict</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223137 Unicode Standard Annex #14 -- Unicode Line Breaking Algorithm]
 }}
 {{Related_Specifications_Section
 |Specifications=
