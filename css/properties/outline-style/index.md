@@ -46,7 +46,7 @@
 |Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Defined by the user agent (browser). Currently supported only in WebKit. (Seems to map to the keyboard-focused link style.)
+|Description=Defined by the user agent (browser). Currently supported only in WebKit. (Seems to map to the keyboard-focused link style. At the Amsterdam doc sprint in October, 2013, we tested this on several browsers, without being able to discern a common implementation.)
 }}
 }}
 {{Examples_Section
