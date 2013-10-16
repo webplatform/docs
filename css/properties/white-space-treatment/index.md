@@ -1,12 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Obsolete: unsupported.}}
 {{CSS Property
 |Inherited=No
 |Animatable=No
