@@ -43,10 +43,10 @@
     width: 100%;
   }
 }
-|LiveURL=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_animations
+|LiveURL=http://code.webplatform.org/gist/7009934
 }}{{Single Example
 |Language=CSS
-|Description=a repeating ''pulse'' animation that simultaneously shrinks and dims an icon
+|Description=A repeating pulse animation that shrinks and dims an element, then restores it.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
