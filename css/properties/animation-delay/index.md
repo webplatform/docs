@@ -77,7 +77,7 @@ header {
 }}
 }}
 {{Notes_Section
-|Usage=*If <code>[[css/properties/animation-deley|animation-delay]]</code> specifies more delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess delays are ignored.
+|Usage=*If <code>[[css/properties/animation-delay|animation-delay]]</code> specifies more delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess delays are ignored.
 *If <code>[[css/properties/animation-delay|animation-delay]]</code> specifies fewer delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of delays is repeated as many times as needed to map each animation to a delay.
 }}
 {{Related_Specifications_Section
