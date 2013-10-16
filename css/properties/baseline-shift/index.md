@@ -50,7 +50,7 @@
 }
 }}{{Single Example
 |Language=CSS
-|Description=In this sample, the baseline-shift has the value 'suber', putting the text in the superscript position.
+|Description=In this sample, the baseline-shift has the value 'super', putting the text in the superscript position.
 |Code=span {
 	baseline-shift: super;
 }
