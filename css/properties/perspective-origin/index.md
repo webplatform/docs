@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Perspective in graphic arts is the representation on a flat surface of what the viewer's eye would see in a 3D space. The illusion of perspective on a flat surface, such as a computer screen, is created by creating points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking.
+{{Summary_Section|Perspective in graphic arts is the representation on a flat surface of what the viewer's eye would see in a 3D space. The illusion of perspective on a flat surface, such as a computer screen, is created by placing points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking.
 
 If there was a clear window pane between the viewer and the object, you could place points on that window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and diagrams.)
 
