@@ -24,25 +24,25 @@ When used with the [[css/properties/perspective|perspective]] property, the defa
 (em, ex, or px), that indicates the origin of transformation.
 }}{{CSS Property Value
 |Data Type=<percentage>
-|Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified).
+|Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified). The default is 50% 50%, as if the viewer was positioned directly in front of the object.
 }}{{CSS Property Value
 |Data Type=left
-|Description=First value only. Equal to 0% or a zero length.
+|Description=First value only. Equal to 0% or a zero length. Displays the object as if the viewer were looking from the left.
 }}{{CSS Property Value
 |Data Type=center
-|Description=First value only. Equal to 50% or half the length of the box.
+|Description=Equal to 50% or half the length of the box. When given as the first value, displays the object as if the viewer was positioned on par with the object, from left-to-right.
 }}{{CSS Property Value
 |Data Type=right
-|Description=First value only. Equal to 100% or the full box length.
+|Description=First value only. Equal to 100% or the full box length. Displays the object as if the viewer were looking from the right.
 }}{{CSS Property Value
 |Data Type=top
-|Description=Second value only. Equal to 0% or a zero height.
+|Description=Second value only. Equal to 0% or a zero height. Displays the object as if the viewer were looking from the top.
 }}{{CSS Property Value
 |Data Type=center
-|Description=Second value only. Equal to 50% or a half the height of the box.
+|Description=Equal to 50% or half the height of the box. When given as the second value, displays the object as if the viewer was positioned on par with the object, from top-to-bottom.
 }}{{CSS Property Value
 |Data Type=bottom
-|Description=Second value only. Equal to 100% or the full box height.
+|Description=Second value only. Equal to 100% or the full box height. Displays the object as if the viewer were looking from the bottom.
 }}
 }}
 {{Examples_Section
