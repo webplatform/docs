@@ -25,12 +25,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Robert Nyman introduces CSS Animations as a way to control animations, the number of times it should iterate and property values at certain keyframes.
-|Code=-webkit-animation-iteration-count: infinite;
-|LiveURL=[http://robertnyman.com/2010/05/06/css3-animations/ Robert Nyman's examples]
-}}{{Single Example
-|Language=CSS
-|Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the iteration-count from ''infinite'' to a number to see the effect.
+|Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the '''animation-iteration-count'' from ''infinite'' to a number to see the effect.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
@@ -51,7 +46,7 @@
         opacity : 1;
     }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_pulse.html
+|LiveURL=http://code.webplatform.org/gist/7010365
 }}
 }}
 {{Notes_Section
