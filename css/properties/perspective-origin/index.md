@@ -11,6 +11,11 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
 Perspective-origin is the location of the viewer's eye. For example, if the viewer is looking down at an object it appears differently than if the viewer is looking up at an object or from the side.
 
 The perspective-origin property virtually sets the x and y point location of the eye that is viewing an object. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
+The illusion of perspective on a flat surface, such as a computer screen, is created by placing points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking at the object.
+
+Perspective-origin is the location of the viewer's eye. For example, if the viewer is looking down at an object it appears differently than if the viewer is looking up at an object or from the side.
+
+The perspective-origin property virtually sets the x and y point location of the eye that is viewing an object. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
 }}
 {{CSS Property
 |Initial value=50% 50%
