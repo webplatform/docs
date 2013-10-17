@@ -72,7 +72,7 @@ This is an experimental feature. You'll need to view examples in Chrome Canary o
 |Language=HTML
 |Description=A group of boxes that show different blend effects.
 |Code=&lt;div class='normal'&gt;		&lt;label&gt;Normal&lt;/label&gt;		&lt;/div&gt;
-&lt;div class='multiply'&gt;	&lt;label&gt;Multiply&lt;/label&gt;		&lt;/div&gt;
+&lt;div class='multiply'&gt;		&lt;label&gt;Multiply&lt;/label&gt;		&lt;/div&gt;
 &lt;div class='screen'&gt;		&lt;label&gt;Screen&lt;/label&gt;		&lt;/div&gt;
 &lt;div class='overlay'&gt;		&lt;label&gt;Overlay&lt;/label&gt;		&lt;/div&gt;
 &lt;div class='darken'&gt;		&lt;label&gt;Darken&lt;/label&gt;		&lt;/div&gt;
@@ -82,10 +82,10 @@ This is an experimental feature. You'll need to view examples in Chrome Canary o
 &lt;div class='hard-light'&gt;	&lt;label&gt;Hard-light&lt;/label&gt;	&lt;/div&gt;
 &lt;div class='soft-light'&gt;	&lt;label&gt;Soft-light&lt;/label&gt;	&lt;/div&gt;
 &lt;div class='difference'&gt;	&lt;label&gt;Difference&lt;/label&gt;	&lt;/div&gt;
-&lt;div class='exclusion'&gt;	&lt;label&gt;Exclusion&lt;/label&gt;	&lt;/div&gt;
-&lt;div class='hue'&gt;		&lt;label&gt;Hue&lt;/label&gt;		&lt;/div&gt;
+&lt;div class='exclusion'&gt;		&lt;label&gt;Exclusion&lt;/label&gt;	&lt;/div&gt;
+&lt;div class='hue'&gt;			&lt;label&gt;Hue&lt;/label&gt;			&lt;/div&gt;
 &lt;div class='saturation'&gt;	&lt;label&gt;Saturation&lt;/label&gt;	&lt;/div&gt;
-&lt;div class='color'&gt;		&lt;label&gt;Color&lt;/label&gt;		&lt;/div&gt;
+&lt;div class='color'&gt;			&lt;label&gt;Color&lt;/label&gt;		&lt;/div&gt;
 &lt;div class='luminosity'&gt;	&lt;label&gt;Luminosity&lt;/label&gt;	&lt;/div&gt;
 |LiveURL=http://code.webplatform.org/gist/7006023
 }}{{Single Example
