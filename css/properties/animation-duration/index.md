@@ -7,7 +7,7 @@
 {{Summary_Section|Defines the length of time an animation takes to complete one cycle.}}
 {{CSS Property
 |Initial value=0s
-|Applies to=all elements, &#58;&#58;before and &#58;&#58;after pseudo-elements
+|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
 |Inherited=No
 |Media=visual
 |Computed value=As specified.
