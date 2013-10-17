@@ -62,10 +62,7 @@ or <code>px</code>), that indicates the origin of transformation.
 |Examples=
 }}
 {{Notes_Section
-|Notes====Remarks===
-The version of this property using a vendor prefix, '''-ms-perspective-origin''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
-This property does not affect how the object is rendered.
-This property has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
+|Notes=This property has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
