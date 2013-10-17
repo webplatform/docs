@@ -72,21 +72,18 @@ or <code>px</code>), that indicates the origin of transformation.
 The version of this property using a vendor prefix, '''-ms-perspective-origin''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 This property does not affect how the object is rendered.
 This property has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
-|Import_Notes====Syntax===
-<code>'''perspective-origin: ''''''[''' '''[''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-'' '''{{!}}''' left '''{{!}}''' center '''{{!}}''' right ''']''' '''[''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' ''
-&lt;length&gt;
-'' '''{{!}}''' top '''{{!}}''' center '''{{!}}''' bottom ''']''' ? ''']''' '''{{!}}''' '''[''' '''[''' left '''{{!}}''' center '''{{!}}''' right ''']''' {{!}}{{!}} '''[''' top '''{{!}}''' center '''{{!}}''' bottom ''']''' ''']'''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 11
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS3 Transforms, The ‘perspective-origin’ Property
+|URL=http://dev.w3.org/csswg/css-transforms/#perspective-origin-property
+|Status=W3C Editor's Draft
+|Relevant_changes=Order of values
+}}{{Related Specification
+|Name=CSS3 Transforms, The ‘perspective-origin’ Property
+|URL=http://www.w3.org/TR/css3-transforms/#perspective-origin-property
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
