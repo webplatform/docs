@@ -34,11 +34,11 @@ The simplest language tag value is a two-letter code, such as <code>en</code> fo
 
 One feature HTML includes is a special element for identifying the character encoding of your documents: the range of different characters you want to use. In HTML5 it looks like so: 
 
-<syntaxhighlight lang="html5"><meta charset="utf-8" /></syntaxhighlight>
+<syntaxhighlight lang="html5"><meta charset="utf-8"></syntaxhighlight>
 
 Don't worry too much about this for now. <code>utf-8</code> is the universal character encoding which includes pretty much any character that you might want to use on a web page, from any common human language, so it is a good idea to declare this to make sure your HTML has full international capabilities. In addition, HTML5 will only recognize your character encoding declaration if you include it in the first 1024 bytes of the page. So just below the <code>&lt;head></code> tag is fine. This is what all the below examples will do.
 
-It is, however, important to understand that just putting <code>&lt;meta charset="utf-8" /></code> in your title element doesn't magically convert your page to a UTF-8 encoding. It just helps browsers know what to do with it. You need to actually save your document as UTF-8 as well. Most editors will allow you to do that these days.
+It is, however, important to understand that just putting <code>&lt;meta charset="utf-8"></code> in your title element doesn't magically convert your page to a UTF-8 encoding. It just helps browsers know what to do with it. You need to actually save your document as UTF-8 as well. Most editors will allow you to do that these days.
 
 For a gentle introduction to character encodings, see the article [http://www.w3.org/International/getting-started/characters Introducing Character Sets and Encodings].
 
