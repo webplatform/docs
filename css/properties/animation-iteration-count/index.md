@@ -7,19 +7,18 @@
 {{Summary_Section|Specifies how many times an animation cycle should play.}}
 {{CSS Property
 |Initial value=1
-|Applies to=all elements
+|Applies to=All elements, ::before and ::after pseudo-elements.
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified.
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=single-animation-iteration-count
-|Description=<code>&lt;number&gt;</code> or <code>infinite</code>.
-
-;<code>&lt;number&gt;</code>
-:The default value is <code>1</code>, which plays the animation once, from beginning to end. Numbers other than <code>1</code> cause the animation to play the specified number of times. Non-integer numbers cause the animation to end part-way through a cycle.
-;<code>infinite</code>
-:The animation repeats forever.
+|Data Type=&#60;single-animation-iteration-count&#62;
+|Description=The animation plays the specified number of times. Can also be a comma-separated list of counts, e.g., '''5, 2, 10''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property. Negative values are not allowed.
+}}{{CSS Property Value
+|Data Type=infinite
+|Description=The animation repeats "forever" while the page is loaded.
 }}
 }}
 {{Examples_Section
@@ -31,7 +30,7 @@
 |LiveURL=[http://robertnyman.com/2010/05/06/css3-animations/ Robert Nyman's examples]
 }}{{Single Example
 |Language=CSS
-|Description=A ''pulse'' animation that simultaneously shrinks and dims an icon. Setting the iteration-count to '''infinite''' repeats it indefinitely.
+|Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the iteration-count from ''infinite'' to a number to see the effect.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
@@ -56,80 +55,21 @@
 }}
 }}
 {{Notes_Section
-|Usage=This property accepts non-integer values. If a non-integer value is specified, the animation terminates mid-cycle. If <code>0</code> is specified, no animation is applied. If a negative value is specifed, the value is ignored and <code>0</code> is used instead.
+|Usage=This property accepts non-integer values, although this is not specifically mentioned in the specification; use with caution. If a non-integer value is specified, the animation terminates mid-cycle.
 
-Multiple values separated by commas are applied to the corresponding animations listed in the <code>animation-name</code> property. Excess values are ignored. If fewer values are listed, the browser cycles through them again until each animation has been assigned an iteration count.
-|Import_Notes====Syntax===
-<code>'''animation-iteration-count : '''1 '''{{!}}''' ''
-&lt;number&gt;
-'' '''{{!}}''' infinite '''[''' ,  1 '''{{!}}''' ''
-&lt;number&gt;
-'' '''{{!}}''' infinite ''']''' *</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223144 CSS Animations Module Level 3], Section 3.5
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Animations
+|URL=http://www.w3.org/TR/css3-animations/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12.0
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16.0
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Yes
-|IE_mobile_version=WP 8 (IE 10)
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
+|Desktop_rows=
+|Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10.0
@@ -137,13 +77,13 @@ Multiple values separated by commas are applied to the corresponding animations 
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|External_links=*[http://robertnyman.com/2010/05/06/css3-animations Robert Nyman's examples]
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
