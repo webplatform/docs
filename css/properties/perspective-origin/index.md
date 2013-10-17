@@ -47,7 +47,34 @@ When used with the [[css/properties/perspective|perspective]] property, the defa
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=In this example, the object class is a container, and the viewer class its child. SVG just creates the images. The perspective property must be used. And the transform property on the child gives it enough of an angle so the perspective-origin change is apparent. You can play around with the example by changing the perspective-origin values to the ones listed above. If you do, save your changes as a new gist, and add your example below!
+|Code=.object {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    -moz-perspective: 1000px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    perspective-origin: left;
+    -moz-perspective-origin: left;
+    -webkit-perspective-origin: left;
+}
+
+.viewer {
+    -moz-transform: rotateY(45deg);
+    -webkit-transform: rotateY(45deg);
+    transform: rotateY(45deg);
+}
+|LiveURL=http://code.webplatform.org/gist/7033692
+}}
 }}
 {{Notes_Section
 |Usage=This property requires the [[css/properties/perspective|'''perspective''']] property. perspective-origin has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
