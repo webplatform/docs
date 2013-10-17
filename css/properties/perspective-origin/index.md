@@ -4,14 +4,9 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Perspective defines how an object is viewed. In graphic arts, perspective is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a window between the viewer and the object, you could project points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and for related illustrations.)
+{{Summary_Section|Perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin. An object appears differently if a viewer is looking directly at it versus looking down at it, looking up at it, or from the side.
 
-The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plan. 
-
-When used with the [[css/properties/perspective|perspective]] property, perspective-origin is the location of the viewer's eye. For example, if the viewer is looking down at an object it appears differently than if the viewer is looking up at an object or from the side.
-The perspective-origin property sets the x and y point location of the virtual eye that is viewing an object. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
-
-The default value of perspective origin is 50% 50%. This displays an object as if the viewer's eye was positioned directly at the center of the screen, both top-to-bottom and left-to-right.
+When used with the [[css/properties/perspective|perspective]] property, the default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if it were being viewed from the top left angle. A value of 100% 100% changes the appearance as if viewed from the bottom right angle.
 }}
 {{CSS Property
 |Initial value=50% 50%
@@ -33,7 +28,7 @@ or <code>pc</code>)
 or a relative units designator
 (<code>em</code>,
 <code>ex</code>,
-or <code>px</code>), that indicates the origin of transformation. 
+or <code>px</code>), that indicates the origin of transformation.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified).
@@ -62,6 +57,12 @@ or <code>px</code>), that indicates the origin of transformation.
 |Examples=
 }}
 {{Notes_Section
+|Usage=
+Perspective defines how an object is viewed. In graphic arts, perspective is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a window between the viewer and the object, you could project points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and for related illustrations.)
+
+The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane. 
+
+The perspective-origin sets the virtual position of the viewer. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
 |Notes=This property has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
 }}
 {{Related_Specifications_Section
