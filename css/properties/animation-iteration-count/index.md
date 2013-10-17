@@ -7,7 +7,7 @@
 {{Summary_Section|Specifies how many times an animation cycle should play.}}
 {{CSS Property
 |Initial value=1
-|Applies to=All elements, ::before and ::after pseudo-elements.
+|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
 |Inherited=No
 |Media=visual
 |Computed value=As specified.
@@ -56,7 +56,6 @@
 }}
 {{Notes_Section
 |Usage=This property accepts non-integer values, although this is not specifically mentioned in the specification; use with caution. If a non-integer value is specified, the animation terminates mid-cycle.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
