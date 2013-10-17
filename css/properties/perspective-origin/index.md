@@ -2,11 +2,11 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Perspective in graphic arts is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a clear window pane between the viewer and the object, you could place points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and diagrams.)
+{{Summary_Section|Perspective in graphic arts is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a clear window pane between the viewer and the object, you could project points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and diagrams.)
 
-The illusion of perspective on a flat surface, such as a computer screen, is created by placing points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking at the object.
+The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plan. 
 
 Perspective-origin is the location of the viewer's eye. For example, if the viewer is looking down at an object it appears differently than if the viewer is looking up at an object or from the side.
 
@@ -40,8 +40,6 @@ or a relative units designator
 (<code>em</code>,
 <code>ex</code>,
 or <code>px</code>), that indicates the origin of transformation.
-For more information about the supported length units,
-see CSS Values and Units.
 }}{{CSS Property Value
 |Data Type=percentage
 |Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified).
