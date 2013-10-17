@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When used with the [[css/properties/perspective|perspective]] property, perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin, towards a vanishing point. An object appears differently if a viewer is looking directly at it versus looking down at it, looking up at it, or from the side.
+{{Summary_Section|When used with the [[css/properties/perspective|perspective]] property, perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin. The perspective-origin is like a vanishing point. An object appears differently if a viewer is looking directly at it versus looking down at it, looking up at it, or from the side.
 
 The default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if the viewer was looking towards the top left angle. A value of 100% 100% changes the appearance as if viewed towards the bottom right angle.
 }}
