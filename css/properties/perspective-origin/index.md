@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin, towards a vanishing point. An object appears differently if a viewer is looking directly at it versus looking down at it, looking up at it, or from the side.
 
-When used with the [[css/properties/perspective|perspective]] property, the default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if it were being viewed from the top left angle. A value of 100% 100% changes the appearance as if viewed from the bottom right angle.
+When used with the [[css/properties/perspective|perspective]] property, the default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if it were being viewed towards the top left angle. A value of 100% 100% changes the appearance as if viewed towards the bottom right angle.
 }}
 {{CSS Property
 |Initial value=50% 50%
@@ -27,16 +27,16 @@ When used with the [[css/properties/perspective|perspective]] property, the defa
 |Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified). The default is 50% 50%, as if the viewer was positioned directly in front of the object.
 }}{{CSS Property Value
 |Data Type=left
-|Description=First value only. Equal to 0% or a zero length. This keyword displays the object as if the viewer were looking from the left.
+|Description=First value only. Equal to 0% or a zero length. This keyword displays the object as if the viewer were looking towards the left.
 }}{{CSS Property Value
 |Data Type=right
-|Description=First value only. Equal to 100% or the full box length. This keyword displays the object as if the viewer were looking from the right.
+|Description=First value only. Equal to 100% or the full box length. This keyword displays the object as if the viewer were looking towards the right.
 }}{{CSS Property Value
 |Data Type=top
-|Description=Second value only. Equal to 0% or a zero height. This keyword displays the object as if the viewer were looking from the top.
+|Description=Second value only. Equal to 0% or a zero height. This keyword displays the object as if the viewer were looking towards the top.
 }}{{CSS Property Value
 |Data Type=bottom
-|Description=Second value only. Equal to 100% or the full box height. This keyword displays the object as if the viewer were looking from the bottom.
+|Description=Second value only. Equal to 100% or the full box height. This keyword displays the object as if the viewer were looking towards the bottom.
 }}{{CSS Property Value
 |Data Type=center
 |Description=Equal to 50% or half the length of the box. When given as the first value, this keyword displays the object as if the viewer was positioned on par with the object, from left-to-right.
@@ -55,9 +55,7 @@ When used with the [[css/properties/perspective|perspective]] property, the defa
 If only one value is specified, the second value is assumed to be center. If at least one of the two values is not a keyword, then the first value represents the horizontal position (or offset) and the second represents the vertical position (or offset).
 |Notes=Perspective defines how an object is viewed. In graphic arts, perspective is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a window between the viewer and the object, you could project points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and for related illustrations.)
 
-The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane. And the position of the viewer is toward some vanishing point.
-
-The perspective-origin sets the virtual position of the viewer. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
+The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane. And the position of the viewer is towards some vanishing point. The perspective-origin sets the virtual gaze of the viewer towards some vanishing point.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
