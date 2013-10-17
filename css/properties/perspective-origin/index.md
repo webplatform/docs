@@ -1,11 +1,17 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines where a 3D element is based in the x- and the y-axis.}}
+{{Summary_Section|Perspective in graphic arts is the representation on a flat surface of what the viewer's eye would see in a 3D space. The illusion of perspective on a flat surface, such as a computer screen, is created by creating points on the flat surface as they would appear if the flat surface were a clear window pane through which the viewer was looking.
+
+If there was a clear window pane between the viewer and the object, you could place points on that window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and diagrams.)
+
+Perspective-origin is the location of the viewer's eye. For example, if the viewer is looking down at an object it appears differently than if the viewer is looking up at an object or from the side.
+
+The perspective-origin property virtually sets the x and y point location of the eye that is viewing an object. As perspective-origin-x changes, the virtual eye moves along the x axis (left or right of the center of the screen). As perspective-origin-y changes, the eye moves along the y axis (closer to the top or bottom of the screen).
+}}
 {{CSS Property
 |Initial value=50% 50%
 |Applies to=block-level and inline-level elements
