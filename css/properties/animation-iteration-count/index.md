@@ -26,7 +26,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the ''animation-iteration-count'' from ''infinite'' to a number to see the effect.
+|Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the '''animation-iteration-count''' from ''infinite'' to a number to see the effect.
 |Code=div.selected {
     animation-name: pulse;
     animation-duration: 1s;
