@@ -88,6 +88,8 @@ This property has no effect on the child elements if the [[css/properties/perspe
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
+|Manual_links=* [[/tutorials/css_transforms#You_need_some_perspective|Manipulating content with CSS3 transforms, You need some perspective]] by [[User:Sierra|Mike Sierra]]
+|External_links=* [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html CSS 3D Transforms: Interactive Demo] by [https://twitter.com/webprolific Lars Kappert]
 }}
 {{Topics|CSS}}
 {{External_Attribution
