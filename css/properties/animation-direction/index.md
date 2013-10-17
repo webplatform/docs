@@ -32,10 +32,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=animation-direction: alternate;
-|LiveURL=http://03sq.net/examples/animation-direction.html
-}}{{Single Example
-|Language=CSS
 |Description=A repeating pulse animation that shrinks and dims an element, then restores it. Change the '''animation-direction'' from ''normal'' to a different keyword value to see the effect.
 |Code=div.selected {
     animation-name: pulse;
