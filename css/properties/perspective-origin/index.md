@@ -21,10 +21,13 @@ The default value of perspective origin is 50% 50%. This displays an object as i
 }}
 {{CSS Property
 |Initial value=50% 50%
-|Applies to=block-level and inline-level elements
+|Applies to=transformable elements
 |Inherited=No
 |Media=visual
+|Computed value=length: the absolute value; otherwise, a percentage
 |Animatable=No
+|CSS object model property=perspectiveOrigin
+|CSS percentages=The size of the bounding box
 |Values={{CSS Property Value
 |Data Type=length
 |Description=A floating-point number, followed by either an absolute units designator
