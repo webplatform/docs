@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The HTML Navigation Element (<nav>) represents a section of a page that links to other pages or to parts within the page: a section with navigation links}}
 {{Markup_Element
