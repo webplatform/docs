@@ -29,20 +29,20 @@ When used with the [[css/properties/perspective|perspective]] property, the defa
 |Data Type=left
 |Description=First value only. Equal to 0% or a zero length. Displays the object as if the viewer were looking from the left.
 }}{{CSS Property Value
-|Data Type=center
-|Description=Equal to 50% or half the length of the box. When given as the first value, displays the object as if the viewer was positioned on par with the object, from left-to-right.
-}}{{CSS Property Value
 |Data Type=right
 |Description=First value only. Equal to 100% or the full box length. Displays the object as if the viewer were looking from the right.
 }}{{CSS Property Value
 |Data Type=top
 |Description=Second value only. Equal to 0% or a zero height. Displays the object as if the viewer were looking from the top.
 }}{{CSS Property Value
-|Data Type=center
-|Description=Equal to 50% or half the height of the box. When given as the second value, displays the object as if the viewer was positioned on par with the object, from top-to-bottom.
-}}{{CSS Property Value
 |Data Type=bottom
 |Description=Second value only. Equal to 100% or the full box height. Displays the object as if the viewer were looking from the bottom.
+}}{{CSS Property Value
+|Data Type=center
+|Description=Equal to 50% or half the length of the box. When given as the first value, displays the object as if the viewer was positioned on par with the object, from left-to-right.
+}}{{CSS Property Value
+|Data Type=center
+|Description=Equal to 50% or half the height of the box. When given as the second value, displays the object as if the viewer was positioned on par with the object, from top-to-bottom.
 }}
 }}
 {{Examples_Section
