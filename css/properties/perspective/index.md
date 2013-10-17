@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -136,6 +134,8 @@ The perspective property defines how far an element is placed from the view on t
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
+|Manual_links=* [[tutorials/css_transforms#You_need_some_perspective|Manipulating content with CSS3 transforms, You need some perspective]] by [[User:Sierra|Mike Sierra]]
+|External_links=* [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html CSS 3D Transforms: Interactive Demo] by [https://twitter.com/webprolific Lars Kappert]
 }}
 {{Topics|CSS}}
 {{External_Attribution
