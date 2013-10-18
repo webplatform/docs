@@ -27,6 +27,49 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stretches to encompass the largest unbreakable element. With 'fixed', the column gets the defined width, even though the content might not fit.
+|Code=&lt;p&gt;&lt;strong&gt;table-layout: auto&lt;/strong&gt;&lt;/p&gt; &lt;table border=&quot;1&quot;&gt; &lt;tr&gt; &lt;td class=&quot;first&quot;&gt;&lt;p&gt;cell 1, Lorem ipsum&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 2&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;p&gt;cell 3, Suspendisse in elit lectus.&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 4&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;p&gt;&lt;strong&gt;table-layout: fixed&lt;/strong&gt;&lt;/p&gt; &lt;table border=&quot;1&quot; class=&quot;fixed&quot;&gt; &lt;tr&gt; &lt;td class=&quot;first&quot;&gt;&lt;p&gt;cell 1, Lorem ipsum&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 2&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;p&gt;cell 3, Suspendisse in elit lectus.&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 4&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;p&gt;&lt;strong&gt;table-layout: fixed with overflow set to hidden&lt;/strong&gt;&lt;/p&gt; &lt;table border=&quot;1&quot; class=&quot;fixed2&quot;&gt; &lt;tr&gt; &lt;td class=&quot;first&quot;&gt;&lt;p&gt;cell 1, Lorem ipsum&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 2&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;&lt;p&gt;cell 3, Suspendisse in elit lectus.&lt;/p&gt;&lt;/td&gt; &lt;td&gt;&lt;p&gt;cell 4&lt;/p&gt;&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;
+
+|LiveURL=http://code.webplatform.org/gist/7044174
+}}{{Single Example
+|Language=CSS
+|Description=Here's the CSS for styling the table, above.
+|Code=/**
+ * Table-layout - Web Platform Docs Examples
+ * 
+ * An example of table-layout 'auto' and 'fixed'
+ * With 'auto', the column stretches to encompass the largest unbreakable element
+ * With 'fixed', the column gets the defined width, even though the content might not fit
+ *
+ * @author	Vivienne van Velzen
+ * @see		http://docs.webplatform.org/wiki/css/properties/table-layout 
+ */
+
+table {
+	border-color: #F00;
+	width: 400px;
+	table-layout: auto; /* default */
+}
+table.fixed,
+table.fixed2 {
+	table-layout: fixed;
+}
+td {
+	border-color: #00F;
+}
+td.first {
+	width: 50px;
+}
+table.fixed2 td {
+	overflow: hidden;
+}
+p {
+	margin: 15px 0 3px 0;
+}
+td p {
+	margin: 3px;
+}
 |LiveURL=http://code.webplatform.org/gist/7044174
 }}
 }}
