@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -29,7 +27,63 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=Other
+|Description=This example uses the SVG <code>clip-rule</code> property to show the difference in values for overlapping circles. With <code>nonzero</code>, the default, the overlapping area is filled in. With <code>evenodd</code> the overlapping area is removed.
+|Code=&lt;svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 140 110"&gt;
+
+  &lt;title&gt;'clip-rule' example&lt;/title&gt;
+  
+  &lt;style&gt;
+    .nonzero {
+      clip-rule: nonzero;
+    }
+
+    .evenodd {
+      clip-rule: evenodd;
+    }
+  &lt;/style&gt;
+  
+  &lt;defs&gt;
+    &lt;path id="circles"
+          d="M25,10 A20,20 0,1 0 25,50 A20,20 1,1 0 25,10 M45,10 A20,20 0,1 0 45,50 A20,20 1,1 0 45,10" /&gt;
+
+    &lt;clipPath id="clip-nonzero"&gt;
+      &lt;use class="nonzero"
+           xlink:href="#circles" /&gt;
+    &lt;/clipPath&gt;
+    
+    &lt;clipPath id="clip-evenodd"&gt;
+      &lt;use class="evenodd"
+           xlink:href="#circles" y="50"/&gt;
+    &lt;/clipPath&gt;    
+  &lt;/defs&gt;  
+  
+  &lt;!-- non-zero clip-rule --&gt;
+  &lt;rect clip-path="url(#clip-nonzero)"
+        x="0" y="5" width="70" height="50" 
+        fill="cornflowerblue"/&gt;
+
+  &lt;!-- equivalent non-zero fill-rule --&gt;
+  &lt;use fill-rule="nonzero" 
+       xlink:href="#circles" x="70" y="0" 
+       stroke="cornflowerblue" /&gt;
+  
+  
+  &lt;!-- even-odd clip-rule --&gt;
+  &lt;rect clip-path="url(#clip-evenodd)"
+        x="0" y="55" width="70" height="50" 
+        fill="goldenrod"/&gt;
+
+  &lt;!-- equivalent even-odd fill-rule --&gt;
+  &lt;use fill-rule="evenodd" 
+       xlink:href="#circles" x="70" y="50" 
+       stroke="goldenrod" /&gt;
+&lt;/svg&gt;
+|LiveURL=http://code.webplatform.org/gist/7037715
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
