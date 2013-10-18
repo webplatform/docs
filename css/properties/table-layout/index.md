@@ -1,72 +1,46 @@
 {{Page_Title|table layout}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The 'table-layout' property controls the algorithm used to lay out the table cells, rows, and columns.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=All elements
+|Applies to=Table and inline-table elements
 |Inherited=No
 |Media=visual
+|Computed value=As specified
 |Animatable=No
+|CSS object model property=object.style.tableLayout
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. Column width is set by the widest unbreakable content in the column cells.
+|Description=Default. Column width is set by the widest unbreakable content in the column cells. The width of the table and its cells depends on the content of the cells.
 }}{{CSS Property Value
 |Data Type=fixed
-|Description=Table and column widths are set either by the sum of the widths on the '''col''' objects or, if these are not specified, by the width of the first row of cells. If no width is specified for the table, it renders by default with width{{=}}100%.
+|Description=Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. It does not depend on the content of the cells.
+Rendering is faster as the user agent can begin to lay out the table once the entire first row has been received. Cells in subsequent rows do not affect column widths.
 }}{{CSS Property Value
 |Data Type=inherit
-|Description= This features inherits table-layout property  from the parent element (Internet Explorer 7 and earlier versions don’t support the value inherit for any properties other than direction and visibility)
+|Description=This features inherits table-layout property  from the parent element.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
-|Description=This example uses the CSS attribute to set the table layout to '''fixed'''.
-|Code=&lt;TABLE STYLE{{=}}"table-layout:fixed" WIDTH{{=}}600&gt;
-&lt;COL WIDTH{{=}}100&gt;&lt;COL WIDTH{{=}}300&gt;&lt;COL WIDTH{{=}}200&gt;
-&lt;TR HEIGHT{{=}}20&gt;
-&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;
-&lt;/TR&gt;
-:
-&lt;/TABLE&gt;
-|LiveURL=http://www.w3schools.com/cssref/playit.asp?filename=playcss_table-layout&preval=fixed
-}}{{Single Example
-|Language=CSS
-|Description=This example uses the CSS attribute  to set the table layout to "auto".
-|Code=&lt;TABLE STYLE{{=}}"table-layout:auto" WIDTH{{=}}600&gt;
-&lt;COL WIDTH{{=}}100&gt;&lt;COL WIDTH{{=}}300&gt;&lt;COL WIDTH{{=}}200&gt;
-&lt;TR HEIGHT{{=}}20&gt;
-&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;&lt;TD&gt;...&lt;/TD&gt;
-&lt;/TR&gt;
-:
-&lt;/TABLE&gt;
-|LiveURL=http://www.w3schools.com/cssref/playit.asp?filename=playcss_table-layout
+|LiveURL=http://code.webplatform.org/gist/7044174
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-You can optimize table rendering performance by specifying the '''table-layout''' property. This property causes the table to be rendered one row at a time, providing users with information at a faster pace. The '''table-layout''' property determines column widths for a table in the following order:
-#By using information in the [[html/attributes/width  (img, input elements)|'''width''']] property for the '''col''' or '''colGroup''' element.
-#By using information in the [[html/attributes/width  (img, input elements)|'''width''']] property for the '''td''' elements in the first row.
-#By dividing the table columns equally, regardless of the size of the content.
-
-If the content of a cell exceeds the fixed width of the column, the content is wrapped or, if wrapping is not possible, it is clipped. If the '''table-layout''' property is set to '''fixed''', the [[css/properties/overflow|'''overflow''']] property can be used to handle content that exceeds the width of a '''td''' element. If the row height is specified, wrapped text is clipped when it exceeds the set height.
-Setting the property to '''fixed''' significantly improves table rendering speed, particularly for longer tables.
-Setting row height further improves rendering speed, again enabling the parser to begin rendering the row without examining the content of each cell in the row to determine row height.
-|Import_Notes====Syntax===
-<code>'''table-layout: '''auto '''{{!}}''' fixed</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 17.5.2
+|Notes=* When using 'table-layout: fixed', authors should not omit columns from the first row. If a subsequent row has more columns than the greater of the number determined by the table-column elements and the number determined by the first row, then additional columns may not be rendered.
+* If 'table-layout: fixed', any cell that has content that overflows uses the overflow property to determine whether to clip the overflow content.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS2.1, 17.5.2 Table width algorithms: the 'table-layout' property
+|URL=http://www.w3.org/TR/CSS2/tables.html#width-layout
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -140,15 +114,6 @@ Setting row height further improves rendering speed, again enabling the parser t
 {{See_Also_Section
 |Topic_clusters=Tables
 |External_links=http://www.w3schools.com/cssref/pr_tab_table-layout.asp
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[html/attributes/width  (img, input elements)|width]]</code>
-*<code>Conceptual</code>
-*<code>Enhancing Table Presentation</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
