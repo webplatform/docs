@@ -18,8 +18,7 @@
 |Description=Default. Column width is set by the widest unbreakable content in the column cells. The width of the table and its cells depends on the content of the cells.
 }}{{CSS Property Value
 |Data Type=fixed
-|Description=Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. It does not depend on the content of the cells.
-Rendering is faster as the user agent can begin to lay out the table once the entire first row has been received. Cells in subsequent rows do not affect column widths.
+|Description=Table and column widths are set by the widths of table and col elements or by the width of the first row of cells. It does not depend on the content of the cells. Rendering is faster as the user agent can begin to lay out the table once the entire first row has been received. Cells in subsequent rows do not affect column widths.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=This features inherits table-layout property  from the parent element.
