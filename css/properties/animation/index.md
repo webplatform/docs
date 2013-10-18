@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -37,7 +37,7 @@
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -52,7 +52,8 @@ Values for a single animation are separated by spaces. Multiple animations can b
 This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or tween as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
 
 Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
-Also, see [[tutorials/css_animations|this CSS animations tutorial]]
+
+Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -77,7 +78,6 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]]
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax
 |Manual_links=*[[tutorials/css_animations|" the CSS animations tutorial"]]
 *[[css/atrules/@keyframes|'''@keyframes''']]
 }}
