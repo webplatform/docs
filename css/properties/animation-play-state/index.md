@@ -134,7 +134,7 @@ body.interrupt div.selected {
 }}
 }}
 {{Notes_Section
-|Usage=Can also be a comma-separated list of directions, e.g., '''reverse, normal, alternate''', where each direction is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+|Usage=Can also be a comma-separated list of play states, e.g., '''running, paused, running''', where each play state is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
