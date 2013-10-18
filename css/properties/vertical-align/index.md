@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -48,6 +47,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the <code>vertical-align</code> property to align text within a table cell.
 |Code=&lt;table>
   &lt;tr>
