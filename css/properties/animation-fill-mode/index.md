@@ -4,28 +4,27 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Controls the state of animated properties before and after an animation}}
+{{Summary_Section|Defines what values are applied by the animation outside the time it is executing (before and after the animation).}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements
+|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified.
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=single-animation-fill-mode
-|Description=One of the following values: <code>none</code> (default), <code>forwards, backwards, both</code>
- 
-;<code>none</code>
-:Property values do not change before the animation starts, and they return to their original state when the animation ends.
-;<code>forwards</code>
-:When the animation ends, properties retain the values set by the final keyframe.
-;<code>backwards</code>
-:If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
-;<code>both</code>
-:Values set by the first and last keyframes are applied before and after the animation.
-
-:The animation-fill-mode property can be specified on its own, or as a property of the animation element. (See http://docs.webplatform.org/wiki/css/properties/animation/animation )
+|Data Type=none
+|Description=Property values do not change before the animation starts, and they return to their original state when the animation ends.
+}}{{CSS Property Value
+|Data Type=forwards
+|Description=When the animation ends, properties retain the values set by the final keyframe.
+}}{{CSS Property Value
+|Data Type=backwards
+|Description=If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
+}}{{CSS Property Value
+|Data Type=both
+|Description=Values set by the first and last keyframes are applied before and after the animation.
 }}
 }}
 {{Examples_Section
@@ -84,87 +83,33 @@ header {
 }}
 }}
 {{Notes_Section
-|Usage=The <code>animation-fill-mode</code> property controls the state of an element's properties before and after an animation.
-
-If multiple values are set as a comma-separated list, each value is applied to the corresponding animation specified in the <code>animation-name</code> property. If the number of values exceeds the number of animations, excess values are ignored. If there are fewer values than animations, the browser cycles through them again until each animation has been assigned a fill mode.
+|Usage=Can also be a comma-separated list of fill modes, e.g., '''forwards, none, backwards''', where each fill mode is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 |Notes=This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Animation
+|URL=http://www.w3.org/TR/css3-animations/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12.0
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16.0
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Yes
-|IE_mobile_version=WP 8 (IE 10)
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
+|Desktop_rows=
+|Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10.0
 |Note=The -ms- prefix property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Animation
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
