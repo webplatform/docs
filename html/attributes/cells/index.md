@@ -13,7 +13,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''CELLSPACING''' attribute and the '''cellSpacing''' property to change the spacing between two cells.
+|Description=This example uses the '''cellspacing''' attribute and the '''cellSpacing''' property to change the spacing between two cells.
 |Code=&lt;table id{{=}}"oTable" border="0" cellspacing{{=}}"10"&gt;
     &lt;tr&gt;
         &lt;td&gt;Cell 1&lt;/td&gt;
