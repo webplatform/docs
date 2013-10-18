@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -31,14 +32,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=h1 {
-  animation-fill-mode: forwards;
-}
-|LiveURL=[http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video]
-}}{{Single Example
-|Language=CSS
-|Description=A more complex example of a mobile interface in which two concurrent animations displace content with a banner header. Without any animations, both elements would overlay the same screen area. In the ''moveContent'' animation, the fill mode of '''forwards''' means its end state (moved downward) persists after it finishes executing. In the ''insertBanner'' animation, the fill mode of '''backwards''' means its start state (off-screen) takes precedence over the element's CSS during the delay before the animation executes. (In the subsequent ''scrollBanner'' animation, the fill-mode is explicitly set to '''none''' to keep its initial state from
-overriding that of the previous animation.)
+|Description=An example of a mobile-like interface in which two concurrent animations displace content with a banner header. Without any animations, both elements would overlay the same screen area. In the ''moveContent'' animation, the fill mode of '''forwards''' means its end state (moved downward) persists after it finishes executing. In the ''insertBanner'' animation, the fill mode of '''backwards''' means its start state (off-screen) takes precedence over the element's CSS during the delay before the animation executes. (In the subsequent ''scrollBanner'' animation, the fill-mode is explicitly set to '''none''' to keep its initial state from overriding that of the previous animation.)
 |Code=article {
     animation-name : moveContent;
     animation-duration : 1s;
@@ -79,7 +73,7 @@ header {
     97%  { transform : translateX(-80%) }
     to   { transform : translateX(0%) }
 }
-|LiveURL=http://letmespellitoutforyou.com/samples/anim_banner.html
+|LiveURL=http://code.webplatform.org/gist/7012307
 }}
 }}
 {{Notes_Section
@@ -104,7 +98,9 @@ header {
 |Note=The -ms- prefix property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|External_links=* See also [http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video].
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
