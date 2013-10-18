@@ -112,7 +112,6 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Tables
-|External_links=http://www.w3schools.com/cssref/pr_tab_table-layout.asp
 }}
 {{Topics|CSS}}
 {{External_Attribution
