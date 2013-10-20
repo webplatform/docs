@@ -1,6 +1,8 @@
 {{Page_Title|web-storage API}}
-{{Flags}}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Flags
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The Web Storage API provides objects for storing temporary and permanent data on the client's device.}}
 {{API_Listing|Use_page_title=No
