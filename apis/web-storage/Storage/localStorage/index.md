@@ -32,12 +32,8 @@ else {
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Storage Specification
-|URL=http://dev.w3.org/html5/webstorage
-|Status=W3C Editor's Draft
-}}{{Related Specification
-|Name=W3C Web Storage Specification
 |URL=http://www.w3.org/TR/webstorage/
-|Status=W3C Proposed Recommendation
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
