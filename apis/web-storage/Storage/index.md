@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Provides access to a list of key/value pairs, sometimes called "items".}}
@@ -149,8 +151,8 @@ Each '''Storage''' object is associated with a list of key/value pairs when it i
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Storage Specification
-|URL=http://dev.w3.org/html5/webstorage
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/webstorage/
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
