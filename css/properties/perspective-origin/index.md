@@ -21,9 +21,7 @@ The default value of perspective-origin is 50% 50%. This displays an object as i
 |CSS percentages=The size of the bounding box.
 |Values={{CSS Property Value
 |Data Type=<length>
-|Description=A floating-point number, followed by either an absolute units designator
-(cm, mm, in, pt, or pc) or a relative units designator
-(em, ex, or px), that indicates the origin of transformation.
+|Description=A floating-point number, followed by either an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px), that indicates the origin of transformation.
 }}{{CSS Property Value
 |Data Type=<percentage>
 |Description=An integer, followed by a %. The value is a percentage of the total box length (for the first value) or the total box height (for the second value, if specified). The default is 50% 50%, as if the viewer was positioned directly in front of the object.
