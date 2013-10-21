@@ -9,7 +9,6 @@
 Perspective defines how an object is viewed. In graphic arts, perspective is the representation on a flat surface of what the viewer's eye would see in a 3D space. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and for related illustrations.)
 
 The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane.
-
 }}
 {{CSS Property
 |Initial value=none
@@ -30,7 +29,7 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows the difference with transforms, where one has a perspective set to it.
+|Description=The following example shows the difference with transforms, where the first image has a perspective set and the second does not.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -64,7 +63,7 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
     &lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-|LiveURL=http://codepen.io/pverbeek/pen/rgnla
+|LiveURL=http://code.webplatform.org/gist/7086839
 }}
 }}
 {{Notes_Section}}
