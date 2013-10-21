@@ -4,21 +4,21 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When used with the [[css/properties/perspective|perspective]] property, perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin. An object appears differently if a viewer is looking directly at it versus looking down at it, looking up at it, or from the side.
+{{Summary_Section|The perspective-origin property establishes the origin for the [[css/properties/perspective|perspective]] property. It effectively sets the X and Y position at which the viewer appears to be looking at the children of the element. 
 
-The perspective-origin is like a vanishing point. 
+When used with perspective, perspective-origin changes the appearance of an object, as if a viewer were looking at it from a different origin. An object appears differently if a viewer is looking directly at it versus looking at it from below, above, or from the side. Thus, the perspective-origin is like a vanishing point. 
 
-The default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if the viewer was looking towards the top left angle. A value of 100% 100% changes the appearance as if viewed towards the bottom right angle.
+The default value of perspective-origin is 50% 50%. This displays an object as if the viewer's eye were positioned directly at the center of the screen, both top-to-bottom and left-to-right. A value of 0% 0% changes the object as if the viewer was looking toward the top left angle. A value of 100% 100% changes the appearance as if viewed toward the bottom right angle.
 }}
 {{CSS Property
 |Initial value=50% 50%
-|Applies to=transformable elements
+|Applies to=Transformable elements.
 |Inherited=No
 |Media=visual
-|Computed value=length: the absolute value; otherwise, a percentage
+|Computed value=For length, the absolute value; otherwise, a percentage,
 |Animatable=No
 |CSS object model property=perspectiveOrigin
-|CSS percentages=The size of the bounding box
+|CSS percentages=The size of the bounding box.
 |Values={{CSS Property Value
 |Data Type=<length>
 |Description=A floating-point number, followed by either an absolute units designator
@@ -79,22 +79,17 @@ The default value of perspective-origin is 50% 50%. This displays an object as i
 }}
 }}
 {{Notes_Section
-|Usage=This property requires the [[css/properties/perspective|'''perspective''']] property. perspective-origin has no effect on the child elements if the [[css/properties/perspective|'''perspective''']] property is not set for the object.
+|Usage=This property requires the [[css/properties/perspective|perspective]] property. It has no effect on the child elements if the ''perspective'' property is not set for the object.
 
-If only one value is specified, the second value is assumed to be center. If at least one of the two values is not a keyword, then the first value represents the horizontal position (or offset) and the second represents the vertical position (or offset).
+If only one value is specified, the second value is assumed to be ''center''. If at least one of the two values is not a keyword, then the first value represents the horizontal position (or offset) and the second represents the vertical position (or offset).
 |Notes=Perspective defines how an object is viewed. In graphic arts, perspective is the representation on a flat surface of what the viewer's eye would see in a 3D space. If there were a window between the viewer and the object, you could project points on the window surface that correspond to the points that exist beyond the glass. (See [http://en.wikipedia.org/wiki/Perspective_(graphical) Wikipedia] for more information about graphical perspective and for related illustrations.)
 
 The illusion of perspective on a flat surface, such as a computer screen, is created by projecting points on the flat surface as they would appear if the flat surface were a window through which the viewer was looking at the object. In discussion of virtual environments, this flat surface is called a projection plane. And the position of the viewer is towards some vanishing point. The perspective-origin sets the virtual gaze of the viewer towards some vanishing point.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS3 Transforms, The ‘perspective-origin’ Property
-|URL=http://dev.w3.org/csswg/css-transforms/#perspective-origin-property
-|Status=W3C Editor's Draft
-|Relevant_changes=Order of values
-}}{{Related Specification
-|Name=CSS3 Transforms, The ‘perspective-origin’ Property
-|URL=http://www.w3.org/TR/css3-transforms/#perspective-origin-property
+|Name=CSS3 Transforms
+|URL=http://www.w3.org/TR/css3-transforms/
 |Status=W3C Working Draft
 }}
 }}
@@ -106,8 +101,7 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transforms
-|Manual_links=* [[tutorials/css_transforms#You_need_some_perspective|Manipulating content with CSS3 transforms, You need some perspective]] by [[User:Sierra|Mike Sierra]]
+|Manual_links=* [[tutorials/css_transforms - You_need_some_perspective|Manipulating content with CSS3 transforms, You need some perspective]] by [[User:Sierra|Mike Sierra]]
 |External_links=* [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html CSS 3D Transforms: Interactive Demo] by [https://twitter.com/webprolific Lars Kappert]
 }}
 {{Topics|CSS}}
@@ -115,6 +109,6 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
