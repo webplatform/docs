@@ -99,7 +99,7 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [[tutorials/css_transforms - You_need_some_perspective|Manipulating content with CSS3 transforms, You need some perspective]] by [[User:Sierra|Mike Sierra]]
+|Manual_links=* [[tutorials/css_transforms#You_need_some_perspective|Manipulating content with CSS3 transforms - You need some perspective]] by [[User:Sierra|Mike Sierra]]
 |External_links=* [http://sandbox.webpro.nl/css3/3d-transforms-interactive-demo.html CSS 3D Transforms: Interactive Demo] by [https://twitter.com/webprolific Lars Kappert]
 }}
 {{Topics|CSS}}
