@@ -7,7 +7,7 @@
 |Other=[[html/attributes/type]]
 }}
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|An input field for entering a specific time value.}}
 {{Markup_Element
@@ -17,7 +17,19 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<input type="time" value="01:00">
+|Description=Basic usage. Accepts no seconds.
+
+|Code=<input type="time" value="09:00" min="09:00" max="17:00">
+}}{{Single Example
+|Language=HTML
+|Description=Accepts seconds.
+|Code=<input type="time" step="1">
+
+}}{{Single Example
+|Language=HTML
+|Description=Accepts only hours.
+|Code=<input type="time" step="3600">
+
 }}
 }}
 {{Notes_Section}}
