@@ -46,9 +46,7 @@
 |Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
 }}{{CSS Property Value
 |Data Type=auto
-|Description=Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in
-an appropriate platform-native style, or in some other appropriate
-style if there is no platform-native style.
+|Description=Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in an appropriate platform-native style, or in some other appropriate style if there is no platform-native style.
 }}
 }}
 {{Examples_Section
