@@ -17,8 +17,6 @@ Notes taken to give an overview of what is coming on the Open Web and the Web Pl
 * Microsoft and HP, two big desktop companies, created Web based Operating systems (WebOS, Windows 8)
 * Mozilla creating a fork of Android and making it completely web based too
 * Microsoft contributing to open source in Blink (Chrome rendering engine) with Pointer Events
-* SVG web applications is getting more and more possible, look at this [1]
-* Accessibility and SVG (see [http://describler.com/ Describler])
 * Microsoft enforcing the DNT header
 * W3C, Adobe, Mozilla, Google, Facebook, Microsoft, Opera decided to team up together to solve the documentation for web developers problem
 
@@ -72,4 +70,6 @@ There are many very powerful things coming our way nowadays.
 * Touch Events,
 * Event Source ([http://www.w3.org/TR/eventsource/ W3C document]), see also [https://developer.mozilla.org/en-US/docs/Web/API/EventSource MDN],
 * Web workers
-* Better developer tools (not only Firebug)
+* Better developer tools (not only Firebug anymore, Chrome DevTools has so much things nowadays)
+* SVG web applications is getting more and more possible, [http://describler.com/ look at this way to "see" graphics ("Describler")]
+* Accessibility and SVG (see [http://describler.com/ Describler])
