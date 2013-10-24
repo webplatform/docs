@@ -59,7 +59,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 == The HTML body ==
 
-# [[Marking up textual content in HTML]]
+# [[html/tutorials/Marking_up_textual_content_in_HTML|up textual content in HTML]]
 #* [http://dev.opera.com/articles/view/15-szoveges-reszek-megjelolese/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud1/index.html Spanish translation]
 # [[guides/html lists|HTML Lists]]
 #* [http://dev.opera.com/articles/view/16-html-listak/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud2/index.html Spanish translation]
