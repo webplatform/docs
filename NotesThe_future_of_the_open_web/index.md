@@ -1,7 +1,7 @@
 == Summary ==
 Notes taken to give an overview of what is coming on the Open Web and the Web Platform as a whole.
 
-*Subjects*
+'''Subjects'''
 * Key historic events
 * Closing the gap with native
 * Better layout systems
