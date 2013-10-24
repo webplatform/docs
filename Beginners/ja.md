@@ -1,4 +1,4 @@
-{{Page_Title|はじめてのWeb開発}}
+{{Page_Title|はじめてのWebディベロップメント}}
 {{Flags
 |Checked_Out=No
 }}
