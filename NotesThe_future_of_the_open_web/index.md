@@ -50,6 +50,7 @@ What is coming in that realm:
 * Grid definition ([http://dev.w3.org/csswg/css-grid/ W3C/CSSWG])
 * Web components <gangnam-style /> ([https://www.youtube.com/watch?v=fqULJBBEVQE WebComponents at Google IO])
 * Live data binding ([http://wiki.ecmascript.org/doku.php?id=harmony:observe Object.observe]) (see also [http://derbyjs.com/ Derby], [http://knockoutjs.com/documentation/value-binding.html Knockout], [http://docs.angularjs.org/guide/dev_guide.templates.databinding AngularJS], [http://jquerymy.com/ jQuery.my], [http://rivetsjs.com/ rivetsjs])
+* document.querySelectorAll('#content ul > li'); 
 
 === The web as a database ===
 The web is more than just web pages in a browser. You can programatically ask for things and it can follow relationships.
