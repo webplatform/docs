@@ -18,7 +18,7 @@ Notes taken to give an overview of what is coming on the Open Web and the Web Pl
 * Mozilla creating a fork of Android and making it completely web based too
 * Microsoft contributing to open source in Blink (Chrome rendering engine) with Pointer Events
 * SVG web applications is getting more and more possible, look at this [1]
-* Accessibility and SVG (see [http://describler.com/ Describler] from my boss [http://twitter.com/shepazu @shepazu])
+* Accessibility and SVG (see [http://describler.com/ Describler])
 * Microsoft enforcing the DNT header
 * W3C, Adobe, Mozilla, Google, Facebook, Microsoft, Opera decided to team up together to solve the documentation for web developers problem
 
