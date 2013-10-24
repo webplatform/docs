@@ -47,8 +47,9 @@ Float was a temporary hack to allow images to be beside text. It grew to what we
 What is coming in that realm:
 * Flexible box, where we can play with ordering, orientation, how it spans, how it calculates its own size
 * Pixels is not a good unit of measurement: REMs and EMs
-* Grid definition (http://dev.w3.org/csswg/css-grid/)
-* Web components <gangnam-style />
+* Grid definition ([http://dev.w3.org/csswg/css-grid/ Module at CSSWG])
+* Web components <gangnam-style /> ([https://www.youtube.com/watch?v=fqULJBBEVQE WebComponents at Google IO])
+* Live data binding ([http://wiki.ecmascript.org/doku.php?id=harmony:observe Object.observe]) (see also [http://derbyjs.com/ Derby], [http://knockoutjs.com/documentation/value-binding.html Knockout], [http://docs.angularjs.org/guide/dev_guide.templates.databinding AngularJS], [http://jquerymy.com/ jQuery.my])
 
 === The web as a database ===
 The web is more than just web pages in a browser. You can programatically ask for things and it can follow relationships.
