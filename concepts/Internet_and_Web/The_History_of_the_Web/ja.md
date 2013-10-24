@@ -1,7 +1,8 @@
 {{Page_Title|Webの歴史}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Languages}}
 {{Summary_Section|<blockquote>
 「どこから始めればよろしいでしょうか、陛下？」
 「最初から始めよ」と、王様は重々しく口を開きます。「最後まで続け、そこで止めよ。」
@@ -14,7 +15,7 @@
 
 記事の中には、あなたの良く知らない単語が出てくるかもしれません。でも、そんなに心配しないでください。それが Web 開発を学ぶにあたって重要な概念であれば、後々の記事でその詳細を含めちゃんと説明してくれるはずです。もちろん、検索することだってできますし。
 
-ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ [[concepts/internet_and_web/the_web_standards_model/ja|Web 標準]]のセクションから始めてください。
+ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ [[#Web_.E6.A8.99.E6.BA.96.E3.81.AE.E5.88.B0.E6.9D.A5|Web 標準]]のセクションから始めてください。
 }}
 {{Concept_Page
 |Content=== インターネットのはじまり ==
@@ -187,3 +188,4 @@ CSS の発展については、HTML ほど息も長く、また賛否両論あ�
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Languages}}
