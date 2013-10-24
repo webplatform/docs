@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Specifies the algorithm used to determine which parts of a graphics element are affected by a fill operation.}}
+{{Summary_Section|Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the [[css/properties/clipPath|clipPath]] property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.}}
 {{CSS Property
 |Initial value=nonzero
 |Applies to=Graphics elements that are contained within a <clipPath> element.
@@ -85,7 +85,9 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 |LiveURL=http://code.webplatform.org/gist/7037715
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The clip-rule property only applies to graphics elements that are contained within a [[css/properties/clipPath|clipPath]] element.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking
