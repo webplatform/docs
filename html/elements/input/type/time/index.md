@@ -18,18 +18,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Basic usage. Accepts no seconds.
-
 |Code=<input type="time" value="09:00" min="09:00" max="17:00">
 }}{{Single Example
 |Language=HTML
 |Description=Accepts seconds.
 |Code=<input type="time" step="1">
-
 }}{{Single Example
 |Language=HTML
 |Description=Accepts only hours.
 |Code=<input type="time" step="3600">
-
 }}
 }}
 {{Notes_Section}}
@@ -94,6 +91,7 @@
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome for Android
+|Version=30 or earlier
 |Note=Users can't specify seconds or milliseconds.
 }}{{Compatibility Notes Row
 |Browser=Safari Mobile
