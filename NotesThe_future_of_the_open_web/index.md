@@ -71,5 +71,5 @@ There are many very powerful things coming our way nowadays.
 * Event Source ([http://www.w3.org/TR/eventsource/ W3C document]), see also [https://developer.mozilla.org/en-US/docs/Web/API/EventSource MDN],
 * Web workers
 * Better developer tools (not only Firebug anymore, Chrome DevTools has so much things nowadays)
-* SVG web applications is getting more and more possible, [http://describler.com/ look at this way to "see" graphics ("Describler")]
+* SVG web applications, how about "customize your logo" would be, without flash [http://www.webplatform.org/logo/#playground]
 * Accessibility and SVG (see [http://describler.com/ Describler])
