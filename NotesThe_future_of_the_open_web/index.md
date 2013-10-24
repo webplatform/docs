@@ -18,7 +18,7 @@ Notes taken to give an overview of what is coming on the Open Web and the Web Pl
 * Mozilla creating a fork of Android and making it completely web based too
 * Microsoft contributing to open source in Blink (Chrome rendering engine) with Pointer Events
 * SVG web applications is getting more and more possible, look at this [1]
-* Accessibility and SVG [2]
+* Accessibility and SVG (see [http://describler.com/ Describler] from my boss [http://twitter.com/shepazu @shepazu])
 * Microsoft enforcing the DNT header
 * W3C, Adobe, Mozilla, Google, Facebook, Microsoft, Opera decided to team up together to solve the documentation for web developers problem
 
@@ -47,9 +47,9 @@ Float was a temporary hack to allow images to be beside text. It grew to what we
 What is coming in that realm:
 * Flexible box, where we can play with ordering, orientation, how it spans, how it calculates its own size
 * Pixels is not a good unit of measurement: REMs and EMs
-* Grid definition ([http://dev.w3.org/csswg/css-grid/ Module at CSSWG])
+* Grid definition ([http://dev.w3.org/csswg/css-grid/ W3C/CSSWG])
 * Web components <gangnam-style /> ([https://www.youtube.com/watch?v=fqULJBBEVQE WebComponents at Google IO])
-* Live data binding ([http://wiki.ecmascript.org/doku.php?id=harmony:observe Object.observe]) (see also [http://derbyjs.com/ Derby], [http://knockoutjs.com/documentation/value-binding.html Knockout], [http://docs.angularjs.org/guide/dev_guide.templates.databinding AngularJS], [http://jquerymy.com/ jQuery.my])
+* Live data binding ([http://wiki.ecmascript.org/doku.php?id=harmony:observe Object.observe]) (see also [http://derbyjs.com/ Derby], [http://knockoutjs.com/documentation/value-binding.html Knockout], [http://docs.angularjs.org/guide/dev_guide.templates.databinding AngularJS], [http://jquerymy.com/ jQuery.my], [http://rivetsjs.com/ rivetsjs])
 
 === The web as a database ===
 The web is more than just web pages in a browser. You can programatically ask for things and it can follow relationships.
@@ -69,6 +69,6 @@ There are many very powerful things coming our way nowadays.
 * LocalStorage, 
 * AppCache,
 * Touch Events,
-* Event Source [5],
+* Event Source ([http://www.w3.org/TR/eventsource/ W3C document]), see also [https://developer.mozilla.org/en-US/docs/Web/API/EventSource MDN],
 * Web workers
 * Better developer tools (not only Firebug)
