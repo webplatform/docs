@@ -180,11 +180,11 @@ ten dpi
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=WebKit
-|Note=Webkit engine does not support CSS resolution query as in the specification, the use of the non-standard '''device-pixel-ratio'' query is needed for browsers Safari, see [https://bugs.webkit.org/show_bug.cgi?id=16832 bug 16832].
+|Note=Webkit engine does not support CSS resolution query as in the specification, the use of the non-standard '''device-pixel-ratio''' query is needed for browsers Safari, see [https://bugs.webkit.org/show_bug.cgi?id=16832 bug 16832].
 }}{{Compatibility Notes Row
 |Browser=Firefox
 |Version=< 8.0
-|Note=Before Firefox 8 (Gecko 8.0), it erroneously accepted only CSS dimensions that were <integer> followed by the unit. From that version, it supports any valid CSS dimensions (<number> immediately followed by the unit).
+|Note=Before Firefox 8 (Gecko 8.0), it erroneously accepted only CSS dimensions that were '''<integer>''' followed by the unit. From that version, it supports any valid CSS dimensions ('''<number>''' immediately followed by the unit).
 }}
 }}
 {{See_Also_Section
