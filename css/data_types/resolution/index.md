@@ -63,6 +63,148 @@ ten dpi
 |Status=Recommendation
 }}
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4.0
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=0.2
+|Firefox_supported=Yes
+|Firefox_version=4.0 (2.0)
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=1.0 (1.7 or earlier)
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=10.5
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.0
+}}{{Compatibility Table Desktop Row
+|Feature=Percentages
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=4
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=11.5
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.1
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=Elliptical borders
+|Chrome_supported=Yes
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.5 (1.9.1)
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=No
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=4 values for 4 corners
+|Chrome_supported=Yes
+|Chrome_version=4.0
+|Chrome_prefixed_supported=Yes
+|Firefox_supported=Yes
+|Firefox_prefixed_supported=Yes
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=9
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=5.0
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=2.2
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=2.1
+|Blackberry_supported=Yes
+|Blackberry_version=7.0
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0
+|Chrome_mobile_prefixed_supported=No
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=11.0
+|Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=4.0
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=3.2
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Version=< 3.6
+|Note=Used to treat percentage values as percentages of the width, for both axes
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=< 3.6
+|Note=Non-standard longhand names (-moz-border-radius-topleft etc)
+}}{{Compatibility Notes Row
+|Browser=WebKit
+|Version=< 532.5
+|Note=Supports only one value in border-radius. For different radii, the longhands need to be used. don't support the slash / notation. If two values are specified, they are interpreted as horizontal and vertical radii for all four corners.
+}}{{Compatibility Notes Row
+|Browser=WebKit
+|Version=< 532.5
+|Note=When the sum of two adjacent radii exceeds the length of the side they’re on, they are reduced to 0 instead of shrinking proportionally.
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=< 11.6
+|Note=border-radius has no effect in replaced elements (like images)
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=< 11.6
+|Note=Percentages are accepted in border-radius, but are treated incorrectly.
+}}
+}}
 {{See_Also_Section
 |Topic_clusters=Media Queries
 }}
