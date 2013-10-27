@@ -26,8 +26,7 @@ Even if all units represent the same resolution for the value '''0''', the unit 
 |Examples={{Single Example
 |Language=CSS
 |Description=Here are some correct uses of <resolution> values:
-|Code=
-/* Correct use: a <number> (here an <integer>) followed by the unit. */
+|Code=/* Correct use: a <number> (here an <integer>) followed by the unit. */
 96dpi
 
 /* Correct use in the context of a media query. */
@@ -35,8 +34,7 @@ Even if all units represent the same resolution for the value '''0''', the unit 
 }}{{Single Example
 |Language=CSS
 |Description=Here are some incorrect uses:
-|Code=
-/* Incorrect: no spaces allowed between the <number> and the unit. */
+|Code=/* Incorrect: no spaces allowed between the <number> and the unit. */
 72 dpi
 
 /* Incorrect: only digits must be used. */
@@ -62,6 +60,17 @@ ten dpi
 |URL=http://dev.w3.org/csswg/css3-mediaqueries/#resolution
 |Status=Recommendation
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Media Queries
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/resolution
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -186,15 +195,4 @@ ten dpi
 |Version=< 8.0
 |Note=Before Firefox 8 (Gecko 8.0), it erroneously accepted only CSS dimensions that were '''<integer>''' followed by the unit. From that version, it supports any valid CSS dimensions ('''<number>''' immediately followed by the unit).
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/resolution
-|MSDN_link=
-|HTML5Rocks_link=
 }}
