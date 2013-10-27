@@ -26,8 +26,24 @@ Even if all units represent the same resolution for the value '''0''', the unit 
 |Examples={{Single Example
 |Language=CSS
 |Description=Here are some correct uses of <resolution> values:
-|Code=96dpi                                              Correct use: a <number> (here an <integer>) followed by the unit.
-@media print and (min-resolution: 300dpi) { ... }  Correct use in the context of a media query.
+|Code=
+/* Correct use: a <number> (here an <integer>) followed by the unit. */
+96dpi
+
+/* Correct use in the context of a media query. */
+@media print and (min-resolution: 300dpi) { ... }
+}}{{Single Example
+|Language=CSS
+|Description=Here are some incorrect uses:
+|Code=
+/* Incorrect: no spaces allowed between the <number> and the unit. */
+72 dpi
+
+/* Incorrect: only digits must be used. */
+ten dpi
+
+/* Incorrect: the unit can be omitted for 0 values only for <length>. */
+0
 }}
 }}
 {{Notes_Section}}
@@ -36,9 +52,20 @@ Even if all units represent the same resolution for the value '''0''', the unit 
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Image Values and Replaced Content Module Level 3
+|URL=http://dev.w3.org/csswg/css3-images/#resolution-units
+|Status=Candidate Recommendation
+|Relevant_changes=Added the dppx unit
+}}{{Related Specification
+|Name=Media Queries
+|URL=http://dev.w3.org/csswg/css3-mediaqueries/#resolution
+|Status=Recommendation
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Media Queries
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
