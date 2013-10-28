@@ -35,7 +35,9 @@
 |LiveURL=http://code.webplatform.org/gist/5306757
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Import_Notes=This property disables position: fixed on Firefox, see related bug: https://bugzilla.mozilla.org/show_bug.cgi?id=876341
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Transforms Level 1
