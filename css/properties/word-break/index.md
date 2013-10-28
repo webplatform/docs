@@ -151,11 +151,6 @@ The behaviors of the parameter values are detailed in
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
