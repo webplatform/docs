@@ -66,40 +66,6 @@
 }
 |LiveURL=http://code.webplatform.org/gist/6065831
 }}{{Single Example
-|Language=CSS
-|Description=Check the live example to see how these classes are applied to headlines.
-|Code=.left {
-	border: 1px solid black;
-        /* clear: value; */
-	clear: left;
-}
-.both {
-	border: 1px solid black;
-        /* clear: value; */
-	clear: both;
-}
-|LiveURL=https://developer.mozilla.org/samples/cssref/clear.html
-}}{{Single Example
-|Language=HTML
-|Description=This example changes the position of the paragraph relative to the floating object on its left side.
-|Code=&lt;script&gt;
-function fnClear(){
-    oClear.style.clear{{=}}"left";
-}
-function fnClear2(){
-    oClear.style.clear{{=}}"none";
-}
-&lt;/script&gt;
-    &lt;img src{{=}}"/workshop/graphics/sphere.jpg" style{{=}}"float:left"&gt;
-    &lt;span id{{=}}"oClear"&gt;
-        &lt;p&gt;This is an example of the clear attribute.&lt;p&gt;
-    &lt;/span&gt;
-    &lt;p&gt;
-        &lt;input type{{=}}"button" value{{=}}"clear {{=}} left" onclick{{=}}"fnClear()"&gt; 
-        &lt;input type{{=}}"button" value{{=}}"clear {{=}} none" onclick{{=}}"fnClear2()"&gt;
-    &lt;/p&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clear_s.htm
-}}{{Single Example
 |Language=HTML
 |Description=Moving a footer below all floated content above.
 |Code=<h1>Clearing Floats</h1>
