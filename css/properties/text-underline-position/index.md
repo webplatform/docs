@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property will add a underline position value to the element that has an underline defined.}}
+{{Summary_Section|Unsupported.
+
+This property will add a underline position value to the element that has an underline defined.
+}}
 {{CSS Property
 |Initial value=auto
 |Applies to=All elements
@@ -34,47 +37,9 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Description=The following example shows how all of the elements in a document inherit the '''-ms-text-underline-position''' style rule from the parent '''HTML''' element. 
-Underline decorations throughout the document are positioned above the text, relative to the layout of the text.
-|Code=&lt;HTML STYLE{{=}}"text-underline-position:above"&gt;
-&lt;HEAD&gt;&lt;TITLE&gt;&lt;/TITLE&gt;&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P&gt;&lt;SPAN&gt;This horizontal SPAN element is not underlined.&lt;/SPAN&gt;  
-&lt;SPAN STYLE{{=}}"text-decoration:underline"&gt;This horizontal SPAN 
-element is underlined above the text.&lt;/SPAN&gt;&lt;/P&gt;
-&lt;P STYLE{{=}}"writing-mode:tb-rl"&gt;&lt;SPAN&gt;This vertical SPAN element is 
-not underlined.&lt;/SPAN&gt;  
-&lt;SPAN STYLE{{=}}"text-decoration:underline"&gt;This vertical SPAN element 
-is underlined above the text.&lt;/SPAN&gt;&lt;/P&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textUnderlinePosition.htm
-}}{{Single Example
-|Description=The following example demonstrates the effect of the '''auto''' value of the '''-ms-text-underline-position''' property when the [[html/attributes/lang|'''LANG''']] attribute of an object containing vertical inline text is set to '''ja'''.
-|Code=&lt;div style{{=}}"writing-mode:tb-rl; text-decoration:underline; 
-  text-underline-position:auto"&gt;     
-    &lt;p&gt;This element contains underlined vertical text.  
-      The LANG attribute of this element is not explicitly set.
-      The underline decoration appears below, or after, 
-      the text when text-underline-position is set to auto.&lt;/p&gt;
-    
-    &lt;p lang{{=}}"ja"&gt;This element also contains underlined vertical text.  
-      The LANG attribute of this element is set to ja.
-      The underline decoration in this element appears above, 
-      or before the text.&lt;/p&gt;
-&lt;/div&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textUnderlinePositionAuto.htm
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-text-underline-position''' attribute is an extension to CSS, and can be used as a synonym for '''text-underline-position''' in IE8 Standards mode.
-This property specifies the position of the underline decoration. To turn the decoration on or off, use the [[css/properties/text-decoration|'''text-decoration''']] property.
-The position of the underline decoration is relative to the layout of the text in the object.
-With vertical text, it is more accurate to say that the '''above''' value causes the underline decoration to be laid out before the text or that the decoration appears before the text. With the '''below''' value, then, the decoration appears after the text.
-In Internet Explorer 6, The '''auto''' and '''auto-pos''' values apply to this property as of Internet Explorer 6.  The default value of this property is '''auto''' as of Internet Explorer 6. With Microsoft Internet Explorer 5.5, the default value of this property is '''below'''.
-|Import_Notes====Syntax===
-<code>'''-ms-text-underline-position: '''above '''{{!}}''' below '''{{!}}''' auto '''{{!}}''' auto-pos</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Decoration Module Level 3
