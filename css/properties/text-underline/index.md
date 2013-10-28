@@ -9,7 +9,10 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.}}
+{{Summary_Section|Unsupported.
+
+The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.
+}}
 {{CSS Property
 |Initial value=not defined for shorthand properties
 |Applies to=all elements with textual content, including generated content
