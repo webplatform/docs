@@ -35,10 +35,7 @@
 |LiveURL=http://code.webplatform.org/gist/6948619
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>padding-left: &lt;length&gt; {{!}} &lt;percentage&gt; {{!}} inherit;</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS basic box model
