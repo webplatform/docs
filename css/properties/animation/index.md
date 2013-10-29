@@ -37,8 +37,19 @@
 }}
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=CSS
+|Description=See [[css/properties/animation-play-state|animation-play-state]] for an example that uses the animation shorthand property.
+|Code=.
+.
+.
+animation: moveten 1s steps(10, end) infinite;
+.
+.
+.
+|LiveURL=http://code.webplatform.org/gist/7044978
+}}{{Single Example}}
 }}
 {{Notes_Section
 |Usage=The <code>animation</code> shorthand property combines all animation properties except <code>animation-play-state</code> in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
@@ -78,6 +89,7 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=Animation
 |Manual_links=*[[tutorials/css_animations|" the CSS animations tutorial"]]
 *[[css/atrules/@keyframes|'''@keyframes''']]
 }}
