@@ -26,7 +26,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The CSS uses the animation property and the @keyframes property as well as the animation-play-state propery and more. 
+|Description=The CSS uses the animation property and the @keyframes property as well as the animation-play-state property and more. 
 
 The example show how to create a counter like function.
 By using the ":checked" selector for radio buttons we toggle the animation states for the counter
@@ -154,7 +154,9 @@ body.interrupt div.selected {
 |Note=The -ms- prefix property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Animation
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
