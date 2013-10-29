@@ -93,7 +93,9 @@
 |Note=The -ms- prefix property is deprecated and should not be used.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Animation
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
