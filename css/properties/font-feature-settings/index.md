@@ -66,7 +66,7 @@ For the full list of OpenType layout features, see [http://go.microsoft.com/fwli
 If you are unfamiliar with the font features listed above, the CSS Fonts Module Level 3 specification has good explanations and visual examples of each feature in Section 6, "[http://go.microsoft.com/fwlink/?LinkID{{=}}236360 Font feature properties]." Be aware that, though the properties listed correspond to OpenType layout features that might be supported, the properties themselves ('''font-kerning''', '''font-variant-*''', and so on) are not supported.
 
 
-Whenever possible, Web authors should use the <code>font-variant</code> property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature does exists.
+Whenever possible, Web authors should use the <code>font-variant</code> property. This property has been designed to handle special cases where no other way to enable or access an OpenType font feature exists.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
