@@ -312,17 +312,15 @@ but with the viewpoint shifted to the right:
 
  perspective-origin-x : 500px;
 
-Note that since percentages refer to the size of the transformed
-element, pixel units may be easier to use.
+Note that since percentages refer to the size of the transformed element, pixel units may be easier to use.  Fixed ''x''/''y'' values for [[css/properties/perspective-origin|'''perspective-origin''']] along with ''z'' values for [[css/properties/perspective|'''perspective''']] allow to maintain a Cartesian coordinate system.
 
-Keep in mind several things to help understand how perspective
-corresponds to rendering output:
+Keep in mind several things to help understand how perspective corresponds to how output actually renders:
 
 * The repositioned viewpoint affects the appearance of the transformed element, ''not'' the ancestor that specifies the perspective.
 
 * CSS transforms don't allow the viewer to look away from the scene, no matter from where the viewpoint is positioned.
 
-* Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed   bookcase. As you approach it, it appears larger, and its interior  angles appear more dramaticaly skewed towards a vanishing point. But   when you use CSS to reduce the value of   [[css/properties/perspective|'''perspective''']] to get closer to such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow   you to make the distance appear more realistic.)
+* Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed bookcase. As you approach it, it appears larger, and its interior angles appear more dramaticaly skewed towards a vanishing point. Conversely, when you use CSS to reduce the value of [[css/properties/perspective|'''perspective''']] to approach such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow you to make the distance appear more realistic.)
 
 ==3D transforms==
 
