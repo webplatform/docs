@@ -9,7 +9,7 @@
 |Target=dom/Element
 |Default_action=
 |Content=
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/DragEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
