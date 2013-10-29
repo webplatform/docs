@@ -269,9 +269,9 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
+|Opera_supported=Yes
+|Opera_version=15.0
+|Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.2
@@ -363,7 +363,7 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=<progress>
@@ -385,7 +385,7 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=5.2
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=required
@@ -503,8 +503,8 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Chrome_version=5.0
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=23
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -517,7 +517,7 @@ By design, browsers that don't understand the new input types (like <code>date</
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=3.1
-|Safari_prefixed_supported=Unknown
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=type="search"
