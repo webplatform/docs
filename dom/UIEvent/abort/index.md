@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/UIEvent
+|Interface=dom/UIEvent
 |Target=dom/Element
 |Default_action=
 |Content=
