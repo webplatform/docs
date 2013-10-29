@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/DragEvent
+|Interface=dom/DragEvent
 |Target=dom/Element
 |Default_action=
 |Content=
