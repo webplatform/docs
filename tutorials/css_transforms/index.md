@@ -312,7 +312,7 @@ but with the viewpoint shifted to the right:
 
  perspective-origin-x : 500px;
 
-Note that since percentages refer to the size of the transformed element, pixel units may be easier to use.  Fixed ''x''/''y'' values for [[css/properties/perspective-origin|'''perspective-origin''']] along with ''z'' values for [[css/properties/perspective|'''perspective''']] allow to maintain a Cartesian coordinate system.
+Note that since percentages refer to the size of the transformed element, pixel units may be easier to use.  Fixed ''x''/''y'' values for [[css/properties/perspective-origin|'''perspective-origin''']] along with ''z'' values for [[css/properties/perspective|'''perspective''']] allow you to maintain a Cartesian coordinate system.
 
 Keep in mind several things to help understand how perspective corresponds to how output actually renders:
 
