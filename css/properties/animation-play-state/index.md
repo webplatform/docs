@@ -26,7 +26,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The CSS uses the Animation property and the @keyframes property as well as the animation-play-state propery and more.
+|Description=The CSS uses the animation property and the @keyframes property as well as the animation-play-state propery and more. 
 
 The example show how to create a counter like function.
 By using the ":checked" selector for radio buttons we toggle the animation states for the counter
