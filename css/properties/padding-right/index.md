@@ -27,18 +27,15 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-right</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=TD { padding-right: 20%; }
+|Code=td { padding-right: 20%; }
 |LiveURL=http://code.webplatform.org/gist/6948655
 }}{{Single Example
 |Language=CSS
-|Code=TD { padding-right: 30px; }
+|Code=td { padding-right: 30px; }
 |LiveURL=http://code.webplatform.org/gist/6948661
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>padding-right: &lt;length&gt; {{!}} &lt;percentage&gt; {{!}} inherit;</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS basic box model
