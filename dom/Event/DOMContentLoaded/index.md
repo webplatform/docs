@@ -7,8 +7,8 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Event
-|Event_applies_to=dom/document
-|Interface=dom/objects/Event
+|Event_applies_to=dom/Event
+|Interface=dom/Event
 |Target=dom/document
 |Default_action=
 |Synchronous=No
