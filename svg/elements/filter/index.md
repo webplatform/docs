@@ -290,7 +290,11 @@ The '''SVGFilterElement''' object has these properties.
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Does not support the filterRes property
+}}
 }}
 {{See_Also_Section
 |External_links=SVG Filter Effects http://www.w3.org/TR/SVG/filters.html#FilterElement
