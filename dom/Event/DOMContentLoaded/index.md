@@ -9,7 +9,7 @@
 {{Event
 |Event_applies_to=dom/Event
 |Interface=dom/Event
-|Target=dom/document
+|Target=dom/Document
 |Default_action=
 |Synchronous=No
 |Bubbles=Yes
