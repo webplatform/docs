@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a user interface event, like [[dom/events/click|click]], [[dom/events/blur|blur]] and more.}}
 {{API_Object
-|Subclass_of=dom/objects/Event
+|Subclass_of=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
