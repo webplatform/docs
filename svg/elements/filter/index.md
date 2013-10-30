@@ -152,9 +152,9 @@ Note: that when we use '''userSpaceOnUse''', we calculate our filter and feFlood
 }}
 }}
 {{Notes_Section
-|Usage=Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically contain 10 or more individual filter elements in an input/output chain. Filters are also capable of inheriting from other filters via the xlink:href attribute, however, this is not widely supported in current browsers (Dec 2012).
+|Usage=Within the enclosing filter element, a filter effect is defined by taking inputs, applying transformation operations and feeding the results of those transformations into further operations. Advanced filters typically can contain 5or more individual filter primitives in an input/output chain. Filters are also capable of inheriting from other filters via the xlink:href attribute, however, this is not widely supported in current browsers (Dec 2012).
 
-Most filter attributes are animateable via the animate element, however animation performance for complex filters in current desktop browsers (Dec 2012) is uneven.
+Most filter attributes are animateable via the <animate> element (available in all browses except IE as of November 2012). With the increasing prevalence of GPU acceleration of filters, performance on many browsers is now acceptable.
 
 Child elements of the Filter element - filter primitives - have two optional attributes that specify the color space within which color interpolation calculations are performed: '''color-interpolation''' and '''color-interpolation-filters'''. The default for the former is sRGB, and the default for the latter is linearRGB. Manipulations that invert the color space (through feColorMatrix or feComponentTransfer) can result in "non-intuitive" results. For example, a color inversion of a greyscale image in linearRGB will result in a pronounced shift toward whiter tones. This can be corrected by setting the value of the primitive to sRGB. These attributes can be set on the individual filter primitives or inherited from the filter element itself.
 
@@ -193,11 +193,11 @@ Combinations:
 |Notes====Remarks===
 Although SVG is a vector graphics technology, it is important to emphasize that SVG Filters perform *pixel-level* operations on all inputs (including SVG shapes) and produce rasterized (bitmapped) outputs at a specified level of resolution. Applying a 10x scale transform (for example) on an plain SVG curve that has been filtered at normal screen resolution will produce pixelated edges since the anti-aliasing of the original graphic has been converted to pixels by the filter and scaled up. (It is unclear whether this is spec compliant or just a limitation of current implementations)
 
-Remember that you are writing XML when you write filters, so *don't forget to close all those tags* and don't omit required attributes or the filter won't execute at all.
+Remember that SVG is XML when you write filters, so all tags must be closed and many properties and attributes are required to be specified explicitly or the filter will not execute.  
 
 A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the '''filter''' element and elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, '''filter''' elements are available for referencing even when the'''display''' property on the '''filter'''element or any of its ancestors is set to "none".
 
-It is currently (Fall 2012) contemplated that in the future, SVG filters can be referenced via a [[CSS Filter]] and used to apply advanced effects to HTML elements. (Firefox currently (Dec '12) allows this through a different mechanism.)
+SVG filters can be referenced via a [[CSS Filter]], although as of November 2013, only a subset of primitives are supported via this mechanism. 
 |Import_Notes====Syntax===
 ===Standards information===
 * http://www.w3.org/TR/SVG/filters.html#FilterElement
