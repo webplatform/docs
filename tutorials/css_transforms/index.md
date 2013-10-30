@@ -322,6 +322,8 @@ Keep in mind several things to help understand how perspective corresponds to ho
 
 * Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed bookcase. As you approach it, it appears larger, and its interior angles appear more dramaticaly skewed towards a vanishing point. Conversely, when you use CSS to reduce the value of [[css/properties/perspective|'''perspective''']] to approach such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow you to make the distance appear more realistic.)
 
+* The [[css/properties/perspective|'''perspective''']] property doesn't allow negative values, so while you may start to simulate flying around the scene by offsetting the [[css/properties/perspective-origin|'''perspective-origin''']] while reducing the [[css/properties/perspective|'''perspective''']] value, you can't actually get to the other side.
+
 ==3D transforms==
 
 To extend into three-dimensional space, enhanced functions allow
