@@ -327,6 +327,9 @@ You can also use flash as a fallback for when the browser does not support any o
 |Browser=Android
 |Version=2.1 - 4.0
 |Note=Requires specific handling to run the video element to suport MPEG-4/H.264
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=Last versions of Firefox support MPEG-4/H.264 on Windows Vista, Windows 7, Windows 8, Linux, last versions of Android, and soon everywhere [https://blog.mozilla.org/blog/2013/10/30/video-interoperability-on-the-web-gets-a-boost-from-ciscos-h-264-codec/] 
 }}
 }}
 {{See_Also_Section
