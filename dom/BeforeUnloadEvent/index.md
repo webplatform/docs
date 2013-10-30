@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents the [[dom/events/beforeunload|beforeunload]] event which can be used to prevent a navigation from happening.}}
 {{API_Object
-|Subclass_of=dom/objects/Event
+|Subclass_of=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
