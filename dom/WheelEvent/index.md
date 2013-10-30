@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a [[dom/events/mousewheel|mousewheel]] event.}}
 {{API_Object
-|Subclass_of=dom/objects/MouseEvent, dom/objects/UIEvent, dom/objects/Event
+|Subclass_of=dom/MouseEvent, dom/UIEvent, dom/Event
 }}
 {{Examples_Section
 |Not_required=No
