@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a text event that usually occurs when text is actually inserted into the document.}}
 {{API_Object
-|Subclass_of=dom/objects/UIEvent
+|Subclass_of=dom/UIEvent
 }}
 {{Examples_Section
 |Not_required=No
