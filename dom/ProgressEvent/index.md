@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object
-|Subclass_of=dom/objects/Event
+|Subclass_of=dom/Event
 }}
 {{Topics|DOM}}
 {{Notes_Section
