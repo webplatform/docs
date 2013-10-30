@@ -197,7 +197,7 @@ Remember that SVG is XML when you write filters, so all tags must be closed and 
 
 A filter element is never rendered directly. It is only referenced using the filter property on the element to which the filter is applied. Note that the [[css/properties/display|'''display''']] property does not apply to the '''filter''' element and elements are not directly rendered even if the '''display''' property is set to a value other than "none".   Conversely, '''filter''' elements are available for referencing even when the'''display''' property on the '''filter'''element or any of its ancestors is set to "none".
 
-SVG filters can be referenced via a [[CSS Filter]], although as of November 2013, only a subset of primitives are supported via this mechanism. 
+SVG filters can be referenced via a [[CSS Filter]], although as of November 2013, only a subset of primitives are supported via this mechanism.
 |Import_Notes====Syntax===
 ===Standards information===
 * http://www.w3.org/TR/SVG/filters.html#FilterElement
@@ -240,34 +240,38 @@ The '''SVGFilterElement''' object has these properties.
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=<filter>
 |Chrome_supported=Yes
+|Chrome_version=8+
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=3.5+
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version=10
+|Internet_explorer_version=10+
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=9+
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=6+
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=<filter>
-|Android_supported=No
-|Android_version=
+|Android_supported=Yes
+|Android_version=4.2.2
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
-|Blackberry_version=RIM OS2
+|Blackberry_version=BB10+
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=1.0+
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
@@ -297,6 +301,7 @@ The '''SVGFilterElement''' object has these properties.
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=Visual Effects
 |External_links=SVG Filter Effects http://www.w3.org/TR/SVG/filters.html#FilterElement
 }}
 {{Topics|Graphics, SVG}}
