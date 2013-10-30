@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a close event of a [[apis/websocket/objects/WebSocket|WebSocket]] connection.}}
 {{API_Object
-|Subclass_of=dom/objects/Event
+|Subclass_of=dom/Event
 |Overview='''CloseEvent''' is sent to clients using [[apis/websocket/objects/WebSocket|'''WebSockets''']] when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [[apis/websocket/events/onclose|'''onclose''']] attribute.
 }}
 {{Examples_Section
