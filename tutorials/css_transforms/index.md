@@ -316,13 +316,17 @@ Note that since percentages refer to the size of the transformed element, pixel 
 
 Keep in mind several things to help understand how perspective corresponds to how output actually renders:
 
-* The repositioned viewpoint affects the appearance of the transformed element, ''not'' the ancestor that specifies the perspective.
+* Don't confuse the ''perspective'' point with the scene's three ''vanishing points.'' Changing the single perspective point from which you observe the scene may affect where these vanishing points appear to fall, but they are not the same thing.
 
-* CSS transforms don't allow the viewer to look away from the scene, no matter from where the viewpoint is positioned.
+* The repositioned perspective point affects the appearance of the transformed element, ''not'' the ancestor that specifies the perspective.
 
 * Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed bookcase. As you approach it, it appears larger, and its interior angles appear more dramaticaly skewed towards a vanishing point. Conversely, when you use CSS to reduce the value of [[css/properties/perspective|'''perspective''']] to approach such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow you to make the distance appear more realistic.)
 
-* The [[css/properties/perspective|'''perspective''']] property doesn't allow negative values, so while you may start to simulate flying around the scene by offsetting the [[css/properties/perspective-origin|'''perspective-origin''']] while reducing the [[css/properties/perspective|'''perspective''']] value, you can't actually get to the other side.
+* CSS transforms don't allow the viewer to look away from the scene, no matter from where the viewpoint is positioned.
+
+* From the perspective point, you're actually looking at the element's [[css/properties/transform-origin|'''transform-origin''']] point, which you may set to fall well ''outside'' the rendering element.
+
+* The [[css/properties/perspective|'''perspective''']] property doesn't allow negative values, so while you may start to simulate traveling around the scene by offsetting the [[css/properties/perspective-origin|'''perspective-origin''']] while reducing the [[css/properties/perspective|'''perspective''']] value, you can't actually get to the other side.
 
 ==3D transforms==
 
