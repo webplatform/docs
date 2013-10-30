@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
-|Subclass_of=dom/objects/MouseEvent, dom/objects/UIEvent, dom/objects/Event
+|Subclass_of=dom/MouseEvent
 }}
 {{Examples_Section
 |Not_required=No
