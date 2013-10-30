@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
-|Subclass_of=dom/objects/UIEvent, dom/objects/Event
+|Subclass_of=dom/UIEvent
 }}
 {{Examples_Section
 |Not_required=No
