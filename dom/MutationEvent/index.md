@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Represents events for tracking modifications, insertions and deletions of attributes and nodes in the DOM.}}
 {{API_Object
-|Subclass_of=dom/objects/Event
+|Subclass_of=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
