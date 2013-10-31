@@ -8,8 +8,8 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Event
-|Event_applies_to=dom/proprietary
-|Interface=dom/objects/Event
+|Event_applies_to=dom/Event
+|Interface=dom/Event
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
