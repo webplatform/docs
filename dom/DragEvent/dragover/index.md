@@ -5,11 +5,11 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/DragEvent
+|Interface=dom/DragEvent
 |Target=dom/Element
 |Default_action=
 |Content=
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/DragEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
