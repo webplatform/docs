@@ -13,7 +13,7 @@
 * 最新のブラウザー： インストールされていなければ、[http://www.google.co.jp/chrome Chrome]、[http://www.mozilla.jp/firefox Firefox]、[http://windows.microsoft.com/ja-JP/internet-explorer/download-ie Internet Explorer]、[http://www.opera.com/ja/ Opera]、[http://www.apple.com/jp/safari/ Safari]のホームページからダウンロードして下さい。
 * テキストエディター： Windows には [http://notepad-plus-plus.org/ Notepad++]、Mac OS には [http://www.barebones.com/products/TextWrangler/ Text Wrangler]、Linux には [http://bluefish.openoffice.nl/index.html Bluefish]などがあります。
 
-では始めましょうか！このページで紹介する記事を読み終え、もっと学びたい場合は[[tutorials/ja|すべての教材リスト]]をご覧下さい。
+では始めましょうか！このページで紹介する記事を読み終え、もっと学びたい場合は[[tutorials/ja|教材リスト]]をご覧下さい。
 
 == Web の基礎知識 ==
 
