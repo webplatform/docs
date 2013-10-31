@@ -5,11 +5,11 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/UIEvent
+|Interface=dom/UIEvent
 |Target=dom/Element
 |Default_action=
 |Content=
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/UIEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
