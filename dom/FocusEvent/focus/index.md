@@ -5,11 +5,11 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/FocusEvent
+|Interface=dom/FocusEvent
 |Target=dom/Element
 |Default_action=
 |Content=
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/FocusEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
