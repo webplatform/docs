@@ -27,7 +27,7 @@
 
 * [[guides/the basics of html/ja|HTMLの基礎]]
 * [[guides/doctypes and markup styles/ja|DOCTYPE宣言とマークアップ方法]]
-* [[guides/html validation/ja|HTML validation]]
+* [[guides/html validation/ja|HTMLの検証]]
 * [[guides/the html head/ja|HTMLの<head>要素]]
 * [[guides/html text/ja|HTMLのテキスト]]
 * [[guides/html lists/ja|HTMLのリスト]]
