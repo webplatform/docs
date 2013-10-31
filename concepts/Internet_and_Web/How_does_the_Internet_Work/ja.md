@@ -6,7 +6,7 @@
 {{Summary_Section}}
 {{Concept_Page}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
