@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{Event
-|Interface=dom/objects/FocusEvent
+|Interface=dom/FocusEvent
 |Target=dom/Element
 |Default_action=
 |Content=
