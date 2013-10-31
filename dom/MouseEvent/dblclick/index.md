@@ -8,8 +8,8 @@
 {{API_Name}}
 {{Summary_Section|A mouse double click event.}}
 {{Event
-|Event_applies_to=dom/Element
-|Interface=dom/objects/MouseEvent
+|Event_applies_to=dom/MouseEvent
+|Interface=dom/MouseEvent
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
