@@ -34,7 +34,7 @@
 * [[guides/images in html/ja|画像の表示]]
 * [[guides/html links/ja|リンクの貼り方]]
 * [[guides/html structural elements/ja|文書構造を決める要素]]
-* [[guides/html tables/ja|HTMLの表]]
+* [[guides/html tables/ja|表・テーブル]]
 * [[guides/html forms basics/ja|HTMLフォームの基礎]]
 * [[guides/html5 form features/ja|HTML5のフォーム機能]]
 * [[guides/lesser-known semantic elements/ja|あまり知られていない意味を記す要素]]
@@ -58,7 +58,7 @@
 * [[tutorials/javascript functions/ja|JavaScriptの関数]]
 * [[tutorials/objects in javascript/ja|JavaScriptのオブジェクト]]
 * [[tutorials/traversing the dom/ja|DOMの横断]]
-* [[tutorials/creating and modifying html/ja|HTMLを追加、修正]]
+* [[tutorials/creating and modifying html/ja|HTMLの追加、修正]]
 * [[tutorials/manipulating css with javascript/ja|JavaScriptでCSSを操作]]
 * [[tutorials/events in javascript/ja|JavaScriptのイベント]]
 {{Notes_Section}}
