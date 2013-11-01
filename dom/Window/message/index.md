@@ -8,7 +8,7 @@
 {{Summary_Section|Fires when the user sends a cross-document message or a message is sent from a Worker with postMessage.}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/objects/Event
+|Interface=dom/Element
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
