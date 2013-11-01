@@ -7,8 +7,8 @@
 {{API_Name}}
 {{Summary_Section}}
 {{Event
-|Event_applies_to=dom/Element
-|Interface=dom/objects/KeyboardEvent
+|Event_applies_to=dom/KeyboardEvent
+|Interface=dom/KeyboardEvent
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
