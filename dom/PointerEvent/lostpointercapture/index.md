@@ -9,7 +9,7 @@
 {{Event
 |Event_applies_to=dom/PointerEvent
 |Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/methods/releasePointerCapture|releasePointerCapture]].
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=None
 |Synchronous=No
