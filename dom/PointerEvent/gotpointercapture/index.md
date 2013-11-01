@@ -9,7 +9,7 @@
 {{Event
 |Event_applies_to=dom/PointerEvent
 |Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/methods/setPointerCapture|setPointerCapture]].
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=None
 |Synchronous=No
