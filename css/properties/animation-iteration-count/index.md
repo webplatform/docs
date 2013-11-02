@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -19,7 +18,7 @@
 |Description=The animation plays the specified number of times. Can also be a comma-separated list of counts, e.g., '''5, 2, 10''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property. Negative values are not allowed.
 }}{{CSS Property Value
 |Data Type=infinite
-|Description=The animation repeats "forever" while the page is loaded.
+|Description=Loop the animation indefinitely.
 }}
 }}
 {{Examples_Section
@@ -51,7 +50,9 @@
 }}
 }}
 {{Notes_Section
-|Usage=This property accepts non-integer values, although this is not specifically mentioned in the specification; use with caution. If a non-integer value is specified, the animation terminates mid-cycle.
+|Usage=This property accepts non-integer values, such as 1.5 or 2.75. If a non-integer value is specified, the animation terminates mid-cycle. Negative numbers are not valid.
+
+This property is often used in conjunction an [[css/properties/animation-direction|animation-direction]] value of '''alternate''', which will cause the animation to play in reverse on alternate cycles. 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -72,7 +73,16 @@
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=*[[tutorials/css_animations{{!}}Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes{{!}}@keyframes]]
+*[[css/properties/animation{{!}}animation]]
+*[[css/properties/animation-delay{{!}}animation-delay]]
+*[[css/properties/animation-direction{{!}}animation-direction]]
+*[[css/properties/animation-duration{{!}}animation-duration]]
+*[[css/properties/animation-fill-mode{{!}}animation-fill-mode]]
+*[[css/properties/animation-name{{!}}animation-name]]
+*[[css/properties/animation-timing-function{{!}}animation-timing-function]]
+
 |External_links=*[http://robertnyman.com/2010/05/06/css3-animations Robert Nyman's examples]
 }}
 {{Topics|CSS}}
