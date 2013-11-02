@@ -1,10 +1,11 @@
 {{Page_Title|break-after}}
 {{Flags
-|Checked_Out=No
+|Content=Examples Needed, Needs Summary
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Control page/column/region breaks that fall below a block of content}}
+{{Summary_Section|The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=block-level elements
@@ -15,12 +16,15 @@
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page break or column break is determined  by the flow of content.
+
 }}{{CSS Property Value
 |Data Type=always
 |Description=A page/column/region break is inserted (forced) after the content block.
+
 }}{{CSS Property Value
 |Data Type=avoid
 |Description=A page/column/region break is not allowed after the content block.
+
 }}{{CSS Property Value
 |Data Type=left
 |Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
@@ -62,12 +66,36 @@ h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
+}}{{Single Example
+|Language=CSS
+|Code=.multicol {
+background-color:lightyellow;
+padding:20px;
+
+/* CSS3 */
+column-count: 3; 
+column-rule: 5px dotted coral;
+vertical-align:text-top;
+}
+
+.multicol hr {
+break-after: column;
+}
+|LiveURL=http://code.webplatform.org/gist/7281550
 }}
 }}
 {{Notes_Section
 |Usage=The break-after property is not supported for absolutely positioned elements.
 
 This property replaces separate '''column-break-after''', '''page-break-after''', and '''region-break-after''' properties, which may still be present in some browser implementations.
+|Notes=The break-after property is ignored if there is no generated box or flows defined. So most of the times, you have to define a flow of content to test the property.
+|Import_Notes=Each possible break point, that is each element boundary, is under the influence of three properties, the break-after value of the previous element, the break-before value of the next element and the break-inside of the containing element.
+
+To define if a break must be done, the following rules are applied:
+
+If any of the three concerned values is a forced break value, that is always, left, right, page, column or region, it has precedence. If several of the concerned values is such a break, the one of the element that appears the latest in the flow is taken (that is the break-before value has precedence over the break-after value, which itself has precedence over the break-inside value).
+
+If any of the three concerned values is an avoid break value, that is avoid, avoid-page, avoid-region, avoid-column, no such break will be applied at that point.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
