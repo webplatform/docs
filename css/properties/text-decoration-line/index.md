@@ -1,10 +1,11 @@
 {{Page_Title|text-decoration-line}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The text-decoration-line CSS property sets what kind of line decorations are added to an element.}}
+{{Summary_Section|Sets what kind of line decorations are added to an element, such as underlines, overlines, etc.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -12,6 +13,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=textDecorationLine
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Produces no text decoration.
@@ -25,29 +27,25 @@
 |Data Type=line-through
 |Description=Each line of text has a line through the middle.
 }}{{CSS Property Value
-|Data Type=-moz-anchor-decoration
-|Description=Mozilla CSS Extension, not suitable for web content.
+|Data Type=blink
+|Description=The text alternates between visible and invisible.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Code=<p>This has no none</p>
-<p>This is underlined</p>
-<p>This is overlined</p>
-<p>This has a line-through</p>
-|LiveURL=http://cdpn.io/EtyDp
-}}{{Single Example
 |Language=CSS
-|Code=p:nth-child(1) { text-decoration: none; }
-p:nth-child(2) { text-decoration: underline; }
-p:nth-child(3) { text-decoration: overline; }
-p:nth-child(4) { text-decoration: line-through; }
-|LiveURL=http://cdpn.io/EtyDp
+|Code=p:nth-child(1) { text-decoration-line: none; }
+p:nth-child(2) { text-decoration-line: underline; }
+p:nth-child(3) { text-decoration-line: overline; }
+p:nth-child(4) { text-decoration-line: line-through; }
+p:nth-child(5) { text-decoration-line: blink; }
+|LiveURL=http://code.webplatform.org/gist/7283909
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The text-decoration-line property is the equivalent of the text-decoration property before it was converted to a shorthand property in CSS Text Decoration Level 3.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text-decoration Level 3
