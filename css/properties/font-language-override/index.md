@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections, Needs Review
-|Content=Examples Needed, Needs Summary
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>‘font-language-override’</code> property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language. }}
+{{Summary_Section|The <code>‘font-language-override’</code> property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=all elements
@@ -26,7 +26,7 @@
 |Usage=OpenType supports language-specific glyph selection and positioning, so that text can be displayed correctly in cases where the language dictates a specific display behavior. Authors can control the use of language-specific glyph substitutions and positioning by setting the content language of an element.
 
 <code>&lt;!-- Display text using S'gaw Karen specific features --&gt;
-&lt;p lang="ksw"&gt;...&lt;/p&gt;</code>
+&lt;p <bold>lang="ksw"</bold>&gt;...&lt;/p&gt;</code>
 |Notes=Use of invalid OpenType language system tags must not generate a parse error but must be ignored when doing glyph selection and placement.
 }}
 {{Related_Specifications_Section
