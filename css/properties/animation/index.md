@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -52,7 +51,7 @@ animation: moveten 1s steps(10, end) infinite;
 }}{{Single Example}}
 }}
 {{Notes_Section
-|Usage=The <code>animation</code> shorthand property combines all animation properties except <code>animation-play-state</code> in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
+|Usage=The <code>animation</code> shorthand property combines all animation properties except '''[[css/properties/animation-play-state|animation-play-state]]''' in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 |Notes=Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born. 
@@ -86,9 +85,16 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
 |Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
 *[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+*[[css/properties/animation-delay|animation-delay]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-fill-mode|animation-fill-mode]]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
