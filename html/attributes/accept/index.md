@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
-|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -16,7 +14,7 @@
 * The string <code>audio/*</code> indicates any audio file is allowed.
 * The string <code>video/*</code> indicates any video file is allowed.
 * The string <code>image/*</code> indicates any image file is allowed.
-* A [[http://www.w3.org/TR/html5/infrastructure.html#valid-mime-type-with-no-parameters|valid mime type]] with no attributes.
+* A valid [[http://docs.webplatform.org/wiki/concepts/internet_and_web/mime_types|mime type]] with no attributes.
 * A file extension starting with a <code>.</code> (period).
 
 Duplicates are not allowed (case insensitive).
