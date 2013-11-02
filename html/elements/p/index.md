@@ -1,6 +1,6 @@
 {{Page_Title|p}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -108,7 +108,7 @@
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure
+|Topic_clusters=Document Structure, HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
