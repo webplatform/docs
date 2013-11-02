@@ -17,26 +17,20 @@
 |Animatable=Yes
 |CSS percentages=Refer to size of mask painting area minus size of mask image.
 |Values={{CSS Property Value
-|Data Type=<percentage>
-|Description=The first number represents the percentage of distance away from the left side of the page, the second number represents the percentage of distance away from the upper side of the page. With an initial value pair of 0% 0%, the mask image is placed at the upper left corner of the page. With a value pair of 30% 70%, the mask image is be placed at the point 30% across and 70% down the page.
+|Data Type=[[css/data_types/length|length]] [[css/data_types/length|length]]
+|Description=Any standard CSS units are acceptable as <code>mask-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the mask is away from the top left corner of the element. For more details on these units, read [[css/data_types/length|Length units]].
 }}{{CSS Property Value
-|Data Type=<length>
-|Description=The first number represents the distance away from the left side of the page, the second number represents the distance away from the upper side of the page.
+|Data Type=[[css/data_types/percentage|percentage]] [[css/data_types/percentage|percentage]]
+|Description=Percentages are acceptable for <code>mask-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the mask is away from the top left corner of the element.
 }}{{CSS Property Value
-|Data Type=top
-|Description=Equivalent to 0% for second (vertical) number.
+|Data Type=left top
+|Description=<code>mask-position</code> can also be expressed as keywords: left top, top, right top, left, center, right, left bottom, bottom, right bottom. These values do not relate specifically to the position of the top left hand corner of the mask, but rather the overall position of the mask inside the element. So for example, a value of <code>right top</code> will make the right and top sides of the mask flush to the top and right sides of the element it is applied to; the top left corner ''won't'' be positioned at the top right of the element!
 }}{{CSS Property Value
-|Data Type=bottom
-|Description=Equivalent to 100% for second (vertical) number.
+|Data Type=[[css/data_types/percentage|percentage]]
+|Description=If only a single value is included, that is taken as the horizontal value, and the vertical value is set as <code>center</code>.
 }}{{CSS Property Value
-|Data Type=left
-|Description=Equivalent to 0% for first (horizontal) number.
-}}{{CSS Property Value
-|Data Type=right
-|Description=Equivalent to 100% for first (horizontal) number.
-}}{{CSS Property Value
-|Data Type=center
-|Description=Equivalent to 50% 50%.
+|Data Type=bottom [[css/data_types/length|length]] right [[css/data_types/length|length]]
+|Description=CSS3 includes the new four value <code>mask-position</code> syntax, which allows you to choose which sides of the element you are positioning the mask relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the mask 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.
 }}
 }}
 {{Examples_Section
