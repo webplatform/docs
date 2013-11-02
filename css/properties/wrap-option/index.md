@@ -36,7 +36,9 @@ This CSS property controls the text when it reaches the end of the block in whic
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Could not find any documentation that this is still relevant, concur that it should be deleted.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 Text Module
