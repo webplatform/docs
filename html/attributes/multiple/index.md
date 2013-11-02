@@ -10,22 +10,11 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=This attribute can be <code>true</code> or <code>false</code>.
+|Content=This attribute can be <code>true</code> or <code>false</code>. It's valid for inputs with the type [[html/elements/input/type/email|email]] and [[html/elements/input/type/file|file]].
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''MULTIPLE''' attribute and the '''multiple''' property to switch between allowing the user to select one item or multiple items from a list.
-|Code=&lt;SELECT ID{{=}}oSelect MULTIPLE&gt;
-&lt;OPTION&gt;Item 1&lt;/OPTION&gt;
-&lt;OPTION&gt;Item 2&lt;/OPTION&gt;
-&lt;OPTION&gt;Item 3&lt;/OPTION&gt;
-&lt;/SELECT&gt;
-:
-&lt;BUTTON onclick{{=}}"oSelect.multiple{{=}}false"&gt;One&lt;/BUTTON&gt;
-&lt;BUTTON onclick{{=}}"oSelect.multiple{{=}}true"&gt;Many&lt;/BUTTON&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/multiple.htm
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
