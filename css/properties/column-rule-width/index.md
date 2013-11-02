@@ -26,6 +26,9 @@
 }}{{CSS Property Value
 |Data Type=width
 |Description=Width consisting of a floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>)
+}}{{CSS Property Value
+|Data Type=0
+|Description=If the column rule style is ‘none’ or ‘hidden’
 }}
 }}
 {{Examples_Section
