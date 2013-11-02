@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Automatically places grid-items that do not have an explicit location into the grid layout.  Designates the direction of the flow.  Determines whether rows or columns must be added to accommodate an element.  }}
+{{Summary_Section|Places grid-items into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Grid containers
@@ -20,15 +19,18 @@
 |Description=Causes auto-placed grid items to be placed according to the grid-auto-position property, rather than using the auto-placement algorithm.
 }}{{CSS Property Value
 |Data Type=rows
-|Description=Causes items to be placed by filling each row in turn, adding new rows as necessary.
+|Description=Fills each row in turn, adding new rows as necessary.
 }}{{CSS Property Value
 |Data Type=columns
-|Description=Causes items to be placed by filling each column in turn, adding new columns as necessary.
+|Description=Fills each column in turn, adding new columns as necessary.
 }}{{CSS Property Value
 |Data Type=dense
-|Description=If specified, the auto-placement algorithm uses a "dense" packing algorithm approach, which attempts to fill in holes in the grid if smaller items come up later. (By contrast, the default auto-placement algorithm packing approach is "sparse", which permanently skips spaces that it cannot fill with the current grid item.)
+|Description=Uses a "dense" packing algorithm approach to fill in holes in the grid as smaller items appear. 
 
 Note: This may cause items to appear out-of-order.
+}}{{CSS Property Value
+|Data Type=sparse
+|Description=Permanently skips cells that are not filled with the current item.  The default auto-pacement algorithm packing approach.
 }}
 }}
 {{Examples_Section
