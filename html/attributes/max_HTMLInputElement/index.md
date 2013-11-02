@@ -94,6 +94,7 @@ Must be a number at least 1 and less than 101:
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
+|Manual_links=* [[html/attributes/min]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
