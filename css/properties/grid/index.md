@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand for setting all the explicit grid properties ([[css/properties/grid-template-rows|grid-template-rows]], [[css/properties/grid-template-columns|grid-template-columns]], and [[css/properties/grid-template-areas|grid-template-areas]]), as well as all the implicit grid properties ([[css/properties/grid-auto-rows|grid-auto-rows]], [[css/properties/grid-auto-columns|grid-auto-columns]], and [[css/properties/grid-auto-flow|grid-auto-flow]]), in a single declaration. If the <grid-auto-rows> value is omitted, it is set to the value specified for grid-auto-columns. Other omitted values are set to their initial values.}}
+{{Summary_Section|Foundation of the Grid Layout.  Defines an element as part of a grid and permits those elements to be displayed differently than the flow order.  Also used as a shorthand for setting all the explicit grid properties ([[css/properties/grid-template-rows|grid-template-rows]], [[css/properties/grid-template-columns|grid-template-columns]], and [[css/properties/grid-template-areas|grid-template-areas]]), as well as all the implicit grid properties ([[css/properties/grid-auto-rows|grid-auto-rows]], [[css/properties/grid-auto-columns|grid-auto-columns]], and [[css/properties/grid-auto-flow|grid-auto-flow]]), in a single declaration. If the <grid-auto-rows> value is omitted, it is set to the value specified for grid-auto-columns. Other omitted values are set to their initial values.}}
 {{CSS Property
 |Initial value=See individual properties
 |Applies to=Grid containers
@@ -29,21 +29,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=1 column grid
-|Code=<div class="grid">
-  <!-- 100% wide -->
-</div>
-}}{{Single Example
-|Language=CSS
-|Description=2 column grid
-|Code=<div class="grid">
-  <div class="col-2-3">
-     Main Content
-  </div>
-  <div class="col-1-3">
-     Sidebar
-  </div>
-</div>
+|Code= #grid {
+      display: grid;
+      grid-template-areas: "title stats"
+                           "product  name"
+                           "gross price"
+                           "ctrls ctrls";
+      grid-template-columns: auto minmax(min-content, 1fr);
+      grid-template-rows: auto auto minmax(min-content, 1fr) auto
+    }
 }}
 }}
 {{Notes_Section}}
