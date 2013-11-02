@@ -8,7 +8,6 @@
 {{Summary_Section|Defines a standard Cell in an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableDataCellElement
-|Content=Most attributes used in HTML4.1 with <code>&lt;td&gt;</code> has been deprecated with exception of ""colspan"" and ""headers""
 }}
 {{Examples_Section
 |Not_required=No
