@@ -104,12 +104,7 @@ Internet Explorer 4 to 6 enlarges an element with <code>overflow: visible</code>
 |Name=CSS basic box model
 |URL=http://www.w3.org/TR/css3-box/#overflow1
 |Status=Working Draft
-|Relevant_changes=Add no-display and no-content
-}}{{Related Specification
-|Name=CSS3 module: The box model
-|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
-|Status=Working Draft
-|Relevant_changes=No changes
+|Relevant_changes=Add no-display and no-content; accepts up to two values, one for overflow-x and the other for overflow-y
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/visufx.html#overflow
