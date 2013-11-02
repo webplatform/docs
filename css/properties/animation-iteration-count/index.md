@@ -15,7 +15,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=&#60;single-animation-iteration-count&#62;
-|Description=The animation plays the specified number of times. Can also be a comma-separated list of counts, e.g., '''5, 2, 10''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property. Negative values are not allowed.
+|Description=The animation plays the specified number of times. Can also be a comma-separated list of counts, e.g., '''5, 2, 10''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property. Negative values are not allowed. You may specify non-integer values to play part of an animation cycle (for example 0.5 will play half of the animation cycle).
 }}{{CSS Property Value
 |Data Type=infinite
 |Description=Loop the animation indefinitely.
