@@ -15,7 +15,7 @@
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
-|Computed value=A list, each item consisting of two keywords, one per dimension
+|Computed value=Two keywords, one per dimension
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -32,7 +32,7 @@
 |Description=Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area without being clipped, and then the images are spaced out to fill the area.
 }}{{CSS Property Value
 |Data Type=round
-|Description=Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area. If it does not fit a whole number of times, it is rescaled so that it does. 
+|Description=Tiling of the mask object occurs in both the x and y directions as often as will fit within the background positioning area. If it does not fit a whole number of times, it is rescaled so that it does.
 }}{{CSS Property Value
 |Data Type=no-repeat
 |Description=Tiling of the mask object does not occur; that is, it is placed once and not repeated.
