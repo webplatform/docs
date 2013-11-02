@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated. Consider a note talking about its usage.
+|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>marquee-direction</code> determines the initial direction in which the marquee content moves.}}
 {{CSS Property
