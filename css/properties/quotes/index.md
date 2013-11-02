@@ -24,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Here we demonstrate nested quotes.  Notice the syntax used to declare the quotes.  Any character can be used for a quote, but this example uses <code>'</code> and <code>"</code>.  If we wanted to declare <code>quotes: "«" "»" "!" "@"</code>, that would work, too.  You can also escape the characters (e.g. <code>quotes: "\"" '\''</code>), if that is your preference.
+|Description=Here we demonstrate nested quotes.  Notice the syntax used to declare the quotes.  Any character can be used for a quote, but this example uses <code>'</code> and <code>"</code>.  If we wanted to declare <code>quotes: "«" "»" "!" "@"</code>, that would work, too.  You can also escape the characters (e.g. <code>quotes: "\""</code>), if that is your preference.
 |Code=q { quotes: '"' '"' "'" "'" }
 q:before { content: open-quote }
 q:after  { content: close-quote }
