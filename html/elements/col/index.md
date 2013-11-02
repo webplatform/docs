@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -33,7 +34,6 @@ attribute to work, you must use COLSPAN to define the groups of columns.--&gt;
 &lt;/TABLE&gt;
 &lt;/BODY&gt;
 &lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colEX.htm
 }}
 }}
 {{Notes_Section
@@ -42,13 +42,7 @@ attribute to work, you must use COLSPAN to define the groups of columns.--&gt;
 You can use the '''COL''' and '''COLGROUP''' elements for similar purposes. However, you must use the '''COLGROUP''' element to determine where table internal dividing lines ([[html/attributes/rules|'''rules''']]) should go. This is illustrated in the following example.
 Use the [[html/attributes/span|'''SPAN''']] attribute to specify the number of table columns that the '''COLGROUP''' defines. This attribute has a default value equal to one.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information on the table object model, see Building Tables Dynamically.
-Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.4
-
-
-===HTML information===
+|Import_Notes====HTML information===
 {| class="wikitable"
 |-
 !Closing Tag
@@ -536,8 +530,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>colGroup</code>
+|Topic_clusters=HTML, Tables
+|Manual_sections=*<code>colGroup</code>
 }}
 {{Topics|HTML}}
 {{External_Attribution
