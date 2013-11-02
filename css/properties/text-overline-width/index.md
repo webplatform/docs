@@ -1,20 +1,54 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the line width for the overline text decoration.}}
 {{CSS Property
+|Initial value=auto
+|Applies to=all elements with and generated content with textual content
 |Inherited=No
+|Media=visual
+|Computed value=see prose
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=auto
+|Description=The user agent may use any algorithm to determine the text decoration width. The computed value is 'auto'.
+}}{{CSS Property Value
+|Data Type=normal
+|Description=The text decoration width is the normal text decoration width for the nominal font. The computed value is 'normal'.
+}}{{CSS Property Value
+|Data Type=<number>
+|Description=The text decoration width is the product of the <number> and the computed 'font-size'. The computed value is '<number>'.
+}}{{CSS Property Value
+|Data Type=<length>
+|Description=The text decoration width is the length. The computed value is the corresponding absolute <length>.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=The text decoration width is the product of the <percentage> and the computed 'font-size'. The computed value is the absolute <length>.
+}}{{CSS Property Value
+|Data Type=thin
+|Description=Generates a thin line. The computed value is 'thin'.
+}}{{CSS Property Value
+|Data Type=medium
+|Description=Generates a medium line. The computed value is 'medium'.
+}}{{CSS Property Value
+|Data Type=thick
+|Description=Generates a thick line. The computed value is 'thick'.
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Example incomplete because no browser implementation exists.
+|Code=p {
+  text-overline-width: thick;
+}
+|LiveURL=http://code.webplatform.org/gist/7284054
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
