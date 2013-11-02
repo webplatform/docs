@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -10,20 +9,26 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The max attribute works with the following input types: number, range, date, datetime, datetime-local, month, time and week.
+|Content=The max attribute works with the following input types: [[html/elements/input/type/number|number], [[html/elements/input/type/range|range]], [[html/elements/input/type/date|date]], [[html/elements/input/type/datetime|datetime]], [[html/elements/input/type/datetime-local|datetime-local]], [[html/elements/input/type/month|month]], [[html/elements/input/type/time|time]] and [[html/elements/input/type/week|week]].
+
+For datetime, datetime-local, month, time, and week the value of the attribute must be a valid string of the type.
+
+For number and range the value of the attribute must be a number: decimal or integer.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Two examples of max attributes on inputs.
+|Code=The following date control limits input to dates that are before the 1980s:
+<input name="start" type="date" max="1979-12-31">
+<br>
+Must be a number at least 1 and less than 101:
+<input name="quantity" required type="number" max="100" min="1">
+|LiveURL=http://code.webplatform.org
 }}
-{{Notes_Section
-|Notes====Remarks===
-The following example shows the use of the [[html/attributes/min|'''min''']], '''max''', and [[html/attributes/step|'''step''']] attributes.
-'''Note'''  For more  code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -88,11 +93,7 @@ The following example shows the use of the [[html/attributes/min|'''min''']], ''
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[html/elements/input/type/range|input type{{=}}range]]</code>
-*<code>[[html/attributes/min|Min]]</code>
-*<code>[[html/attributes/step|Step]]</code>
+|Topic_clusters=HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
