@@ -34,21 +34,31 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 ! Value
 ! Purpose
 ! Example
+! Validity
+{{!}}-
+{{!}} [[html/attributes/download|'''download''']]
+{{!}} text
+{{!}} File name to show in Save dialog
+{{!}} <pre>download="filename.pdf"</pre>
+{{!}} HTML5
 {{!}}-
 {{!}} [[html/attributes/href|'''href''']]
 {{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI] enclosed in double-quotes
 {{!}} Target of link
 {{!}} <pre>href="http://example.com"</pre> <pre>href="#TableOfContents"</pre>
+{{!}}
 {{!}}-
 {{!}} [[html/attributes/id|'''id''']]
-{{!}} URI fragment (# followed by identifier text)
+{{!}} identifier text
 {{!}} Creates an anchor in the page that can be referred to by href
 {{!}} <pre>id="TableOfContents"</pre>
+{{!}}
 {{!}}-
 {{!}} [[html/attributes/target|'''target''']]
 {{!}} [http://www.w3.org/TR/html5/browsers.html#valid-browsing-context-name-or-keyword Browsing context]
 {{!}} Tells where to open the link when it is followed
 {{!}} <pre>target="_blank"</pre>
+{{!}}
 {{!}}}
 
 ===Other Attributes===
@@ -58,7 +68,7 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 ! Value
 {{!}}-
 {{!}} [[html/attributes/hreflang|'''hreflang''']]
-{{!}} [http://www.ietf.org/rfc/bcp/bcp47.txt Language tag]
+{{!}} Language tag [http://www.ietf.org/rfc/bcp/bcp47.txt for HTML5] or [www.ietf.org/rfc/rfc1766.txt for HTML4]
 {{!}}}
 }}
 {{Examples_Section
@@ -72,8 +82,8 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 &lt;!-- Link to an internal website in same directory. --&gt;
 &lt;a href{{=}}"home.html"&gt;Home&lt;/a&gt;
 
-&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name --&gt;
-&lt;a href{{=}}"someweirdname123.pdf" download="your.pdf"&gt;Download your pdf&lt;/a&gt;
+&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name in Save dialog --&gt;
+&lt;a href{{=}}"filename_on_server.pdf" download="meaningful_filename.pdf"&gt;Download your pdf&lt;/a&gt;
 
 &lt;!-- Open a link in the window specified by the attribute TARGET. --&gt;
 &lt;a href{{=}}"http://www.example.com" target{{=}}"_blank"&gt;Open example website in new window&lt;/a&gt;
