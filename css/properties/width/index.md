@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -13,6 +13,7 @@
 |Computed value=percentage or absolute length
 |Animatable=Yes
 |CSS object model property=http://docs.webplatform.org/wiki/css/cssom/properties/width
+|CSS percentages=refer to width of containing block
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=If auto is set for the elements width, the browser will determine the width for the element.
@@ -179,8 +180,9 @@ In the CSS Basic Box Model Working Draft, the values max-content, min-content, a
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Background, Box Model
+|Topic_clusters=CSS Layout, Box Model, CSS Attributes
 |External_links=* http://www.w3.org/TR/CSS2/visudet.html#the-width-property
+* http://www.w3.org/TR/CSS21/visudet.html#propdef-width
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
