@@ -30,30 +30,23 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/*
-The shorthand 
-*/
-grid: rows 1fr;
-/* 
-is equivalent to
-*/
-grid-template: none;
-grid-auto-columns: 1fr;
-grid-auto-rows: 1fr;
-grid-auto-flow: rows;
+|Description=1 column grid
+|Code=<div class="grid">
+  <!-- 100% wide -->
+</div>
+
+
 }}{{Single Example
 |Language=CSS
-|Code=/*
-The shorthand 
-*/
-grid: columns 1fr / auto;
-/* 
-is equivalent to
-*/
-grid-template: none;
-grid-auto-columns: 1fr;
-grid-auto-rows: auto;
-grid-auto-flow: columns;
+|Description=2 column grid
+|Code=<div class="grid">
+  <div class="col-2-3">
+     Main Content
+  </div>
+  <div class="col-1-3">
+     Sidebar
+  </div>
+</div>
 }}
 }}
 {{Notes_Section}}
