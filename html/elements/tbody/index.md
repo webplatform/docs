@@ -18,15 +18,15 @@
 |Code=&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;TD&gt;
-        This text is in the THEAD.
-      &lt;/TD&gt;
+      &lt;td&gt;
+        This text is in the thead.
+      &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;
-        This text is in the TBODY.
+        This text is in the tbody.
       &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
