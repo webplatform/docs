@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Deletion Candidate
 |Checked_Out=No
 }}
 {{Standardization_Status}}
