@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 |Editorial notes=Supported by IE, Safari, and Chrome. But not appear in the Spec.
 }}
@@ -14,7 +14,7 @@
 |Inherited=No
 |Media=visual
 |Animatable=No
-|CSS percentages=Width or height of the element 
+|CSS percentages=Width or height of the element
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
