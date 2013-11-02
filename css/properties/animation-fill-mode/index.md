@@ -23,7 +23,7 @@ By default, an animation does not affect property values between the time it is 
 |Data Type=forwards
 |Description=When the animation ends (as determined by its [[css/properties/animation-iteration-count|animation-iteration-count]]), properties retain the values set by the final keyframe. If '''animation-iteration-count''' is zero, apply the values that would start the first iteration. 
 
-{{{!}} class="mw-datatable os-suggest-results filehistory"
+:{{{!}} class="mw-datatable os-suggest-results filehistory"
 {{!}}-
 ! [[css/properties/animation-direction|animation-direction]]
 ! [[css/properties/animation-iteration-count|animation-iteration-count]]
@@ -54,10 +54,22 @@ By default, an animation does not affect property values between the time it is 
 {{!}} 0% or <code>from</code>
 {{!}}}
 
-
 }}{{CSS Property Value
 |Data Type=backwards
 |Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. These are either the values of the ''from'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''normal''' or '''alternate'''’) or those of the ''to'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''reverse''' or '''alternate-reverse'''). When the animation ends, properties revert to their original state.
+
+:{{{!}} class="mw-datatable os-suggest-results filehistory"
+{{!}}-
+! [[css/properties/animation-direction|animation-direction]]
+! first relevant keyframe
+{{!}}-
+{{!}} <code>normal</code> or <code>alternate</code> 
+{{!}} 0% or <code>from</code>
+{{!}}-
+{{!}} <code>reverse</code> or <code>alternate-reverse</code> 
+{{!}} 100% or <code>to</code>
+{{!}}}
+
 }}{{CSS Property Value
 |Data Type=both
 |Description=Values set by the first and last keyframes are applied before and after the animation.
