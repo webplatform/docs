@@ -1,12 +1,10 @@
 {{Page_Title|grid-row}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets or sets a value that indicates which row child content within a Grid should appear in.  Shorthand for setting [[css/properties/grid-row-start|grid-row-start]] and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
+{{Summary_Section|Gets or sets a value that indicates which row an element within a Grid should appear in.  Shorthand for setting [[css/properties/grid-row-start|grid-row-start]] and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
 {{CSS Property
 |Initial value=See individual properties
 |Applies to=Grid items
