@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
