@@ -99,13 +99,16 @@ header {
 }}
 }}
 {{See_Also_Section
-|Manual_links=*[[css/properties/animation|animation]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-duration|animation-duration]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation|animation]]
 *[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-duration|animation-duration]]
 *[[css/properties/animation-fill-mode|animation-fill-mode]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+
 
 }}
 {{Topics|CSS}}
