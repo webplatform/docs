@@ -1,14 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This article outlines the HTML attribute "maxlength," which ensures the number of characters entered in an HTML element is not greater than the value specified by this attribute.}}
+{{Summary_Section|The '''maxLength''' attribute sets an upper limit on the number of characters that can be entered in an input element.}}
 {{Markup_Attribute
+|Applies_to=[[html/elements/input]]
 |Property_applies_to=dom/HTMLElement
+|Content=This attribute can be applied to inputs with the type [[html/elements/input/type/text|text]], [[html/elements/input/type/search|search]], [[html/elements/input/type/url|url]], [[html/elements/input/type/email|email]], [[html/elements/input/type/telephone|telephone]], and [[[[html/elements/input/type/password|password]].
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,15 +21,7 @@
 </form>
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The '''maxLength''' property limits the number of characters the user can enter. The property does not limit programmatic assignments to the [[html/attributes/value (button element)|'''value''']] property. The property's value can be larger than the [[html/attributes/size (control)|'''size''']] of the text box, in which case the text box scrolls as the user types.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.3.8
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -73,13 +66,7 @@ The '''maxLength''' property limits the number of characters the user can enter.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML, Text
-|Manual_sections====Related pages (MSDN)===
-*<code>input type{{=}}text</code>
-*<code>input type{{=}}password</code>
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
-*<code>[[html/attributes/size (control)|size]]</code>
+|Topic_clusters=HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
