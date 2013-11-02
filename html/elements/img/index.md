@@ -26,21 +26,22 @@
 }}
 }}
 {{Notes_Section
-|Usage=When using the '''img''' element to display a static image, specify the URL of the image file with the [[html/attributes/src (input, img)|'''src''']] attribute.  When using the '''img''' element to display a video clip or  VRML world, specify the URL with the '''dynsrc''' attribute.
-
+|Usage====Attributes===
+;alt = Normal character data
+: Gives the fallback content for the image.
+;src = URL potentially surrounded by spaces
+: Specifies a URL referencing a non-interactive, optionally animated, image that is neither paged nor scripted.
+;usemap = Hash-name reference
+: Specifies a hash-name reference to a map element with which to associate the object.
+;ismap = Boolean value
+: Specifies that its img element provides access to a server-side image map.
+;width = Non-negative integer
+: Give the width of the visual content of the element, in CSS pixels.
+;height = Non-negative integer
+: Give the height of the visual content of the element, in CSS pixels. 
 
 |Notes====Remarks===
-This element does not fire the [[dom/events/focus|'''onfocus''']] event when it receives the input focus, unless it has been associated with a '''MAP''' element.
-The following image and video file formats are supported:
-*.avi—Audio-Visual Interleaved (AVI)
-*.bmp—Windows Bitmap (BMP)
-*.emf—Windows Enhanced Metafile (EMF)
-*.gif—Graphics Interchange Format (GIF)
-*.png, .jpeg—Joint Photographic Experts Group (JPEG)
-*.mov—Apple QuickTime Movie (MOV)
-*.mpg, .mpeg—Motion Picture Experts Group (MPEG)
-*.png—Portable Network Graphics (PNG)
-*.wmf—Windows Metafile (WMF)
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
