@@ -336,6 +336,10 @@ The '''audio''' object has these properties.
 |Code=<audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
   Your browser does not support the audio element.
 </audio>
+}}{{Single Example
+|Language=HTML
+|Description=play an online mp4 on the webpage
+|LiveURL=http://code.webplatform.org/gist/7282145
 }}
 }}
 {{Notes_Section
