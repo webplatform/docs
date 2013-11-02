@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property specifies whether or not particularly long words will be 'broken' (separated into multiple lines) if necessary in order to fit in within its container.}}
 {{CSS Property
@@ -51,7 +51,11 @@ p:nth-child(2) {
 |Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, '''word-wrap'' was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#overflow-wrap-property
+|Status=Last Call Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
