@@ -9,7 +9,7 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLTableCaptionElement
 |Content=The '''caption''' element (&lt;caption&gt;) specifies a brief description for a table.
-The &lt;caption&gt; element must be inserted immediately after the (&lt;table&gt;) element.
+The &lt;caption&gt; element must be inserted immediately after the &lt;table&gt; element.
 
 ===HTML information===
 Closing tags are required. CSS display is inline.
@@ -43,10 +43,12 @@ Closing tags are required. CSS display is inline.
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''caption''' element should be a child of the <nowiki><table> element.
-The <table> object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information about the table object model, see Building Tables Dynamically.</nowiki>
+The '''caption''' element should be a child of the <nowiki><table> element.</nowiki>
 
-The '''caption-side''' property is the preferred way to position a table caption.
+A caption can introduce context for a table, making it significantly easier to understand.
+
+When a table element is the only content in a figure element other than the '''figcaption''', the caption element should be omitted in favor of the [http://docs.webplatform.org/wiki/html/elements/figcaption figcaption].
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -64,6 +66,7 @@ The '''caption-side''' property is the preferred way to position a table caption
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Text
+|External_links=http://www.w3.org/wiki/HTML/Elements/caption
 }}
 {{Topics|HTML}}
 {{External_Attribution
