@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
+|CSS object model property=whiteSpace
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds and carriage returns are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
