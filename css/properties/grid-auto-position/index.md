@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When a grid container does not specify an automatic-placement strategy (through [[css/properties/grid-auto-flow|grid-auto-flow]]), any grid items that must be automatically placed are all placed at the position specified by this property. That is, the two <grid-line> values are treated as though they were specified by [[css/properties/grid-column-start|grid-column-start]] and [[css/properties/grid-column-end|grid-column-end]].}}
+{{Summary_Section|Specifies the automatic default location if a grid container does not specify automatic-placement strategy via [[css/properties/grid-auto-flow|grid-auto-flow]].}}
 {{CSS Property
 |Initial value=1 / 1
 |Applies to=Grid containers
@@ -17,7 +17,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<grid-line> / <grid-line>
-|Description=Specifies the default starting grid column and grid row, respectively.
+|Description=Specifies the default starting grid column and grid row, respectively.  The two <grid-line> values are treated as though they were specified by [[css/properties/grid-column-start|grid-column-start]] and [[css/properties/grid-column-end|grid-column-end]].
 }}
 }}
 {{Examples_Section
