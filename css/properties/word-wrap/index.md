@@ -4,20 +4,21 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|An alias of [[css/properties/overflow-wrap]], word-wrap defines whether to break words when the content exceeds the boundaries of its container. This word-wrap property is an alternate name for the [[css/properties/overflow-wrap]] property.}}
+{{Summary_Section|An alias of [[css/properties/overflow-wrap]], word-wrap defines whether to break words when the content exceeds the boundaries of its container.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
 |CSS object model property=wordWrap
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Default. Content exceeds the boundaries of its container.
+|Description=Default. Lines can only be broken at normal break points (spaces, non-alphanumeric characters, etc.).
 }}{{CSS Property Value
 |Data Type=break-word
-|Description=Content wraps to next line, and a word-break occurs when necessary.
+|Description=Words that exceed the width of the container will be arbitrarily broken to fit within the container's bounds.
 }}
 }}
 {{Examples_Section
@@ -117,11 +118,11 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''word-wrap''' attribute was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[css/properties/overflow-wrap]].
+The '''word-wrap''' property was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[css/properties/overflow-wrap|'''overflow-wrap''']].
 This property to enables the browser to break up otherwise unbreakable strings (words).
 This differs from the [[css/properties/white-space|'''white-space''']] 
 property, which turns wrapping of the text on and off.  
-The '''word-wrap''' property permits only whether wrapping can occur at a place in the word that is not otherwise allowed by the language rules in effect.
+The '''word-wrap''' property specifies only whether wrapping can occur at a place in the word that is not otherwise allowed by the language rules in effect.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-text/#overflow-wrap CSS Text Level 3], Section 6.2
 }}
