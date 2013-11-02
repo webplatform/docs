@@ -1,7 +1,7 @@
 {{Page_Title|text-decoration-line}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
