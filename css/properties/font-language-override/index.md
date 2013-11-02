@@ -25,8 +25,8 @@
 {{Notes_Section
 |Usage=OpenType supports language-specific glyph selection and positioning, so that text can be displayed correctly in cases where the language dictates a specific display behavior. Authors can control the use of language-specific glyph substitutions and positioning by setting the content language of an element.
 
-&lt;!-- Display text using S'gaw Karen specific features --&gt;
-&lt;p lang="ksw"&gt;...&lt;/p&gt;
+<code>&lt;!-- Display text using S'gaw Karen specific features --&gt;
+&lt;p lang="ksw"&gt;...&lt;/p&gt;</code>
 |Notes=Use of invalid OpenType language system tags must not generate a parse error but must be ignored when doing glyph selection and placement.
 }}
 {{Related_Specifications_Section
