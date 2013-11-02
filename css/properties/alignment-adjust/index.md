@@ -84,7 +84,7 @@
 |Code=/**
  * alignment-adjust
  * CSS3 property
- * http://docs.webplatform.org/w/index.php?title=css/properties/alignment-adjust
+ * http://docs.webplatform.org/wiki/css/properties/alignment-adjust
  */
 
 p {
