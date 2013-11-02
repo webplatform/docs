@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property will specify what parts of content that must be skipped over that has text-decoration specified.}}
+{{Summary_Section|Specifies what parts of an element’s content are  skipped over when applying any text decoration.}}
 {{CSS Property
 |Initial value=objects
 |Applies to=All elements
@@ -12,16 +13,16 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
-|CSS percentages=Not available
+|CSS object model property=textDecorationSkip
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Will not skip anything and the text-decoration will be drawn for all text content
+|Description=Will not skip anything; the text decoration will be drawn for all text content
 }}{{CSS Property Value
-|Data Type=images
-|Description=Will skip an object such as image if it is an inline replacement
+|Data Type=object
+|Description=Will skip the element (including it’s margin) if it’s atomic inline
 }}{{CSS Property Value
 |Data Type=spaces
-|Description=Will skip white space that can include:
+|Description=Will skip white space,  including:
 * regular spaces - U+0020
 * tabs - U+0009
 * nbsp - U+00A0
@@ -30,7 +31,7 @@
 * any adjacent letter-spacing or word-spacing
 }}{{CSS Property Value
 |Data Type=ink
-|Description=Will skip over where any glyphs are drawn. Such is the case where it will interrupt the decoration line so that the text can show through where otherwise the text decoration would cross over. 
+|Description=Will skip over where any glyphs are drawn. It will interrupt the decoration line so that the text will show through where otherwise the decoration would cross through the text. This commonly includes ascenders and descenders of glyphs. 
 
 Note: The UA also may skip over small distances on the right or the left side of the glyph outline
 }}{{CSS Property Value
@@ -38,6 +39,9 @@ Note: The UA also may skip over small distances on the right or the left side of
 |Description=Will skip over the box's margin, border, and padding areas.
 
 Note: It is not known yet if this is a needed value
+}}{{CSS Property Value
+|Data Type=edges
+|Description=The text decoration will be inset slightly, so that two side by side elements do not appear to have a single continuous decoration. This is important for Chinese content, where underlining is a form of punctuation.
 }}
 }}
 {{Examples_Section
@@ -51,7 +55,7 @@ Note: It is not known yet if this is a needed value
 |Specifications={{Related Specification
 |Name=CSS Text Decoration Module Level 3
 |URL=http://www.w3.org/TR/css-text-decor-3/
-|Status=Working Draft
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -63,8 +67,6 @@ Note: It is not known yet if this is a needed value
 }}
 {{See_Also_Section
 |Topic_clusters=Text
-|External_links=* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
-* http://www.w3.org/TR/css-text-decor-3/
 }}
 {{Topics|CSS}}
 {{External_Attribution
