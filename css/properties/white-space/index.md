@@ -14,19 +14,19 @@
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Lines of text break automatically. Content wraps to the next line if it exceeds the width of the object.
+|Description=This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds and carriage returns are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
 }}{{CSS Property Value
 |Data Type=nowrap
-|Description=Line breaks are suppressed. Content does not wrap to the next line.
+|Description=Like <code>normal</code>, but content does not wrap to the next line.
 }}{{CSS Property Value
 |Data Type=pre
-|Description=Line breaks and other whitespace are preserved. This possible value is supported starting in Internet Explorer 6 when the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration specifies standards-compliant mode. When the !DOCTYPE declaration does not specify standards-compliant mode, you can retrieve this value, but it does not affect rendering—it functions like the '''normal''' value.
+|Description=Line breaks and other whitespace are preserved.
 }}{{CSS Property Value
 |Data Type=pre-line
-|Description=Sequences of line breaks are preserved.
+|Description=Like <code>normal</code>, this value collapses consecutive spaces and allows wrapping, but preserves segment breaks in the source as forced line breaks.
 }}{{CSS Property Value
 |Data Type=pre-wrap
-|Description=Sequences of line breaks are collapsed.
+|Description=Like <code>pre</code>, but allows wrapping (like <code>normal</code>'s wrapping).
 }}
 }}
 {{Examples_Section
