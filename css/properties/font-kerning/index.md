@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Missing Relevant Sections, Needs Review
-|Content=Incomplete, Examples Needed, Examples Best Practices, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -31,8 +29,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=*Kerning will only be visible when supported.
-|Code=<p class="normal">WAVAWAVAWAVAWAVA</p>
-<p class="none"    >WAVAWAVAWAVAWAVA</p>
+|Code=&lt;p class="normal"&gt;WAVAWAVAWAVAWAVA&lt;/p&gt;
+&lt;p class="none"    >WAVAWAVAWAVAWAVA&lt;/p&gt;
 |LiveURL=http://code.webplatform.org/gist/7283111
 }}{{Single Example
 |Language=CSS
@@ -41,8 +39,6 @@
 p { font-family: "Arial", serif; font-size: 3.6rem }
 p.normal {font-kerning: normal;}
 p.none {font-kerning: none;}
-
-
 |LiveURL=http://code.webplatform.org/gist/7283111
 }}
 }}
