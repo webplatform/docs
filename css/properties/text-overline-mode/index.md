@@ -8,15 +8,37 @@
 {{API_Name}}
 {{Summary_Section|Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.}}
 {{CSS Property
+|Initial value=continuous
+|Applies to=all elements with and generated content with textual content
 |Inherited=No
+|Media=visual
+|Computed value=specified value (except for initial and inherit)
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=continuous
+|Description=This value means that the line is continuous.
+
+}}{{CSS Property Value
+|Data Type=skip-white-space
+|Description=This means that space characters will not be lined.
+
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Currently not implemented in any browser, so example is incomplete.
+|Code=p {
+  text-overline-mode: skip-white-space;
+}
+
+|LiveURL=http://code.webplatform.org/gist/7283851
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=Not implemented in any browser, but Chrome has a placeholder property for it (which may fool any feature detectors into thinking it works).
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 Text Module
