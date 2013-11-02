@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]), implicit grid tracks are created to hold it. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]]) specifies the size of such implicitly-created tracks.}}
+{{Summary_Section|Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] ) or when the auto-placement algorithm has generated additional rows.. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]]) specifies the size of such implicitly-created tracks.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid containers
@@ -17,7 +16,7 @@
 |CSS percentages=As specified
 |Values={{CSS Property Value
 |Data Type=<track-size>
-|Description=A space-separated track list specifying the line names and track sizing functions of the grid. See [http://www.w3.org/TR/css3-grid-layout/#track-sizing track sizing] in specification for details.
+|Description=A space-separated track list specifying the line names and track sizing functions of the grid.
 }}
 }}
 {{Examples_Section
