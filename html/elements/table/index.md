@@ -11,7 +11,7 @@
 |DOM_interface=dom/HTMLTableElement
 |Content=The <code>&lt;table&gt;</code> element is a container for HTML tables, which are used to markup tabular data.
 
-Tables are also often used for laying out web pages, but this is a bad practice that should not be done anymore. Use <div> and <span> instead.
+Tables are also often used for laying out web pages, but this is a bad practice that should not be done anymore. Use <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> instead.
 }}
 {{Examples_Section
 |Not_required=No
@@ -54,7 +54,7 @@ Tables are also often used for laying out web pages, but this is a bad practice 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Tables
+|Topic_clusters=HTML, Tables
 }}
 {{Topics|HTML}}
 {{External_Attribution
