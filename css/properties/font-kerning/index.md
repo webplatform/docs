@@ -14,6 +14,7 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=font
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Used to specify kerning is at the discretion of the user agent.
