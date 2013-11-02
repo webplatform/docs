@@ -3,6 +3,11 @@
 |High-level issues=Deletion Candidate
 |Checked_Out=No
 }}
+
+{{Editorial/Deletion_Candidate
+| Duplicate of [[http://docs.webplatform.org/wiki/html/elements/input/type/tel]]. Confusion arose due to the fact that W3 uses the term telephone.
+}}
+
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Duplicate of [[html/elements/input/type/tel|input[type="tel"]]]}}
