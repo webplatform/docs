@@ -9,7 +9,7 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The max attribute works with the following input types: [[html/elements/input/type/number|number], [[html/elements/input/type/range|range]], [[html/elements/input/type/date|date]], [[html/elements/input/type/datetime|datetime]], [[html/elements/input/type/datetime-local|datetime-local]], [[html/elements/input/type/month|month]], [[html/elements/input/type/time|time]] and [[html/elements/input/type/week|week]].
+|Content=The max attribute works with the following input types: [[html/elements/input/type/number|number]], [[html/elements/input/type/range|range]], [[html/elements/input/type/date|date]], [[html/elements/input/type/datetime|datetime]], [[html/elements/input/type/datetime-local|datetime-local]], [[html/elements/input/type/month|month]], [[html/elements/input/type/time|time]] and [[html/elements/input/type/week|week]].
 
 For datetime, datetime-local, month, time, and week the value of the attribute must be a valid string of the type.
 
