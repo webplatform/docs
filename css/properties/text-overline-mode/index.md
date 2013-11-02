@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
-|Checked_Out=Yes
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -17,11 +16,9 @@
 |Values={{CSS Property Value
 |Data Type=continuous
 |Description=This value means that the line is continuous.
-
 }}{{CSS Property Value
 |Data Type=skip-white-space
 |Description=This means that space characters will not be lined.
-
 }}
 }}
 {{Examples_Section
@@ -32,7 +29,6 @@
 |Code=p {
   text-overline-mode: skip-white-space;
 }
-
 |LiveURL=http://code.webplatform.org/gist/7283851
 }}
 }}
