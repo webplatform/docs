@@ -33,7 +33,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=As an alternative to the <code>visibility</code> property, an element's opacity can be set to 0 to make the element take space but not appear.
+|Usage=As an alternative to the [[css/properties/visibility|'''visibility''']] property, an element's opacity can be set to 0 to make the element take space but not appear.
 
 It's important to note that opacity affects not only a given element, but all of the elements which it contains.
 |Notes=The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
