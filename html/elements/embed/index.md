@@ -1,15 +1,23 @@
-{{Page_Title}}
+{{Page_Title|EMBED}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''embed''' element (&lt;embed&gt;) defines a container for an external application or interactive content (a plug-in).
-The &lt;embed&gt; element is new in HTML5.
+{{Summary_Section|The HTML &lt;<embed&gt; Element represents an integration point for an external content- typically, non-HTML content such as an application or some other type of interactive content which involves use of a third-party plugin as a handler (rather than being natively supported by the UA).
+The &lt;embed&gt; element is new in HTML5. The embed element is a void element. It means that embed element must have a start tag but must not have an end tag.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLEmbedElement
+|Content=interface HTMLEmbedElement : HTMLElement {
+           attribute DOMString src;
+           attribute DOMString type;
+           attribute DOMString width;
+           attribute DOMString height;
+  legacycaller any (any... arguments);
+};
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,10 +27,16 @@ The &lt;embed&gt; element is new in HTML5.
 }}
 }}
 {{Notes_Section
+|Usage=The interactive element embed must not appear as a descendant of the a element.
+The interactive element embed must not appear as a descendant of the button element.
+The name attribute on the embed element is obsolete. Use the id attribute instead.
+The align attribute on the embed element is obsolete. Use CSS instead.
+The hspace attribute on the embed element is obsolete. Use CSS instead.
+The vspace attribute on the embed element is obsolete. Use CSS instead.
 |Notes====Remarks===
 The '''EMBED''' element must appear inside the '''BODY''' element of the document.
 Users need to have an application that can view the data installed on their computer.
-'''Tip:  ''' In some cases, you may achieve better results by adding the file name extension of the add-on as a query parameter to the file name specified in the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute. For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}204339 Build Flexible, Lightweight XML-Based Images for ASP.NET Using Scalable Vector Graphics].
+'''Tip:  ''' In some cases, you may achieve better results by adding the file name extension of the add-on as a query parameter to the file name specified in the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute. 
 
 '''Performance Note:  ''' Windows Internet Explorer relies on the MIME type of the resource specified in the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute to ultimately determine which application to use to display the embedded document. If the [[html/attributes/type type (a, link, embed)|'''TYPE''']] attribute has not been specified, a large portion (if not all) of the resource will be downloaded from the server twice; once to determine the MIME type, and again to retrieve the complete item for playback, display, or both. Specify the '''TYPE''' attribute to block this duplicate server request.
 Because the '''EMBED''' element loads external software programs (also called add-ons or plug-ins), the configuration of the user's software envionment can affect the way Internet Explorer interprets the '''EMBED''' element. For example, if the [[html/attributes/src (iframe, embed, xml)|'''SRC''']] attribute value specifies a file by using a file name extension different from the one typically associated with the add-on loaded by the '''EMBED''' element, Internet Explorer uses the value of the [[html/attributes/type type (a, link, embed)|'''TYPE''']] attribute to determine the add-on to load. As a result, Web developers should specify values for as many attributes as possible, including '''SRC''', '''TYPE''', and [[html/attributes/pluginspage|'''PLUGINSPAGE''']].
@@ -614,7 +628,11 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 5 specification
+|URL=http://www.w3.org/html/wg/drafts/html/CR/
+|Status=W3C Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -623,8 +641,10 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics|HTML}}
+{{See_Also_Section
+|Topic_clusters=HTML, Multimedia
+}}
+{{Topics|Audio, HTML, Media, Video, Media Capture and Streams}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
