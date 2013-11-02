@@ -23,36 +23,37 @@ By default, an animation does not affect property values between the time it is 
 |Data Type=forwards
 |Description=When the animation ends (as determined by its [[css/properties/animation-iteration-count|animation-iteration-count]]), properties retain the values set by the final keyframe. If '''animation-iteration-count''' is zero, apply the values that would start the first iteration. 
 
-{| style="border-collapse:collapse"
-|-
-! animation-direction !
-! animation-iteration-count !
-! last keyframe encountered !
-|-
-| <code>normal</code> 
-| <code>even</code> or <code>odd</code>  
-| 100% or <code>to</code> 
-|-
-| <code>reverse 
-| <code>even</code> or <code>odd</code> 
-| 0% or <code>from</code> 
-|-
-| <code>alternate</code> 
-| <code>even</code> 
-| 0% or <code>from</code> 
-|-
-| <code>alternate</code> 
-| <code>odd</code> 
-| 100% or <code>to</code>
-|-
-| <code>alternate-reverse</code> 
-| <code>even</code> 
-| 100% or <code>to</code>
-|-
-| <code>alternate-reverse</code> 
-| <code>odd</code> 
-| 0% or <code>from</code>
-|}
+{{{!}} class="mw-datatable os-suggest-results filehistory"
+{{!}}-
+! [[css/properties/animation-direction|animation-direction]]
+! [[css/properties/animation-iteration-count|animation-iteration-count]]
+! last keyframe encountered
+{{!}}-
+{{!}} <code>normal</code> 
+{{!}} <code>even</code> or <code>odd</code>  
+{{!}} 100% or <code>to</code> 
+{{!}}-
+{{!}} <code>reverse</code> 
+{{!}} <code>even</code> or <code>odd</code> 
+{{!}} 0% or <code>from</code> 
+{{!}}-
+{{!}} <code>alternate</code> 
+{{!}} <code>even</code> 
+{{!}} 0% or <code>from</code> 
+{{!}}-
+{{!}} <code>alternate</code> 
+{{!}} <code>odd</code> 
+{{!}} 100% or <code>to</code>
+{{!}}-
+{{!}} <code>alternate-reverse</code> 
+{{!}} <code>even</code> 
+{{!}} 100% or <code>to</code>
+{{!}}-
+{{!}} <code>alternate-reverse</code> 
+{{!}} <code>odd</code> 
+{{!}} 0% or <code>from</code>
+{{!}}}
+
 
 }}{{CSS Property Value
 |Data Type=backwards
