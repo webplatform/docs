@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated. Consider a note talking about its usage.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
 {{CSS Property
@@ -46,8 +47,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Marquee Module Level 3
-|URL=http://www.w3.org/TR/2008/WD-css3-marquee-20080801/#marquee-speed
-|Status=Working Draft
+|URL=http://www.w3.org/TR/css3-marquee/#marquee-speed
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
