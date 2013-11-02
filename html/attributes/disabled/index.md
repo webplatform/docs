@@ -1,20 +1,28 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
+{{Summary_Section|The disabled attribute prevents users from changing, clicking on, or submitting an element.}}
 {{Markup_Attribute
+|Applies_to=[[html/elements/input
 |Property_applies_to=dom/HTMLElement
+|Content=When an element has the disabled attribute set, it appears dimmed and does not respond to user input. Disabled elements do not respond to mouse events or the [[html/attributes/contentEditable|contentEditable]] property.
+
+If an element is contained within a disabled ([[html/attributes/fieldset|fieldset]], the fieldset will override its disabled attribute.
+
+The disabled attribute will prevent javascript click events on the element.
+
+If the disabled element is present without a value (<code><input disabled></code>) it will default to true. Other valid values are <code>true</code> and <code>false</code>.
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''disabled''' property to enable or disable a '''style''' object and a control.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/disabled.htm
-|Code=
-&lt;style type{{=}}"text/css" id{{=}}"oStyle"&gt;
+|Code=&lt;style type{{=}}"text/css" id{{=}}"oStyle"&gt;
 .styletest {
      background-color: black;
      color: white;
@@ -47,44 +55,28 @@ function fnSwitch(){
           &lt;input type{{=}}"button" id{{=}}"oDisableMe" class{{=}}"styletest" value{{=}}"Demonstration Button" onclick{{=}}"alert('Demonstration button')"&gt;
      &lt;/p&gt;
      &lt;input type{{=}}"button" id{{=}}"oButton" value{{=}}"Set disabled to true" onclick{{=}}"fnSwitch()"&gt;
-}}}}
-{{Notes_Section
-|Notes=
-===Remarks===
-When an element is disabled, it appears dimmed and does not respond to user input. Disabled elements do not respond to mouse events, nor will they respond to the [[html/attributes/contentEditable|'''contentEditable''']] property.
-If an element's '''disabled''' property is set to false but it is contained within a '''disabled''' element, it cannot override the  '''disabled''' state of its container.
-For '''link''', '''style''' and [[css/cssom/styleSheet|'''styleSheet''']], the attribute sets or retrieves whether a style sheet is applied to the object.
-'''Note'''  For '''OPTGROUP''' and '''OPTION''', the functionality specified by the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203769 HTML 4.01] standard is not currently implemented. You can define your own functionality.
-|Import_Notes=
-===Syntax===
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/disabled.htm
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>button</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>select</code>
-*<code>textArea</code>
-*<code>link</code>
-*<code>style</code>
-*<code>[[css/cssom/styleSheet|styleSheet]]</code>
-*<code>optGroup</code>
-*<code>option</code>
-*<code>[[dom/properties/disabled (redundant)|disabled]]</code>
-|Topic_clusters=html
+|Topic_clusters=HTML
 }}
+{{Topics|HTML, JavaScript, Security}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
