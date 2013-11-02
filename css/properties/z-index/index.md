@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension, rising "out of" the screen toward you or descending "into" the screen away from you. The z-index property controls that dimension, stacking (layering) elements above or below others; thus. elements with a higher z-index appear closer to the viewer, whereas those with a lower z-index appear further away. Different browsers have different interpretations of z-index ordering, so beware.}}
+{{Summary_Section|The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising "out of" the screen toward you or descending "into" the screen away from you. The z-index property controls that dimension, stacking (layering) elements above or below others; thus. elements with a higher z-index appear closer to the viewer overlapping other elements in the same space, whereas those with a lower z-index appear further away or behind other elements occupying the same space on the cartesian plane. Different browsers have different interpretations of z-index ordering, so beware.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Positioned elements
@@ -245,6 +244,9 @@ When elements overlap, only the topmost element can receive action from a pointi
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Visual Effects
+|External_links=* http://www.w3.org/TR/CSS2/visuren.html#z-index
+* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -255,8 +257,8 @@ When elements overlap, only the topmost element can receive action from a pointi
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
