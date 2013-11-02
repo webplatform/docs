@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand to define a CSS animation, setting all parameters at once.}}
+{{Summary_Section|Shorthand property to define a CSS animation, setting all parameters at once. }}
 {{CSS Property
 |Initial value=See individual properties.
 |Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
@@ -57,7 +57,7 @@ animation: moveten 1s steps(10, end) infinite;
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 
 ===Syntax===
-<code>'''animation: ''''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' ''']''' *</code>
+<code>''animation: '''''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' '''[''' ,  '''[''' ''animation-name'' '''{{!}}{{!}}''' ''animation-duration'' '''{{!}}{{!}}''' ''animation-timing-function'' '''{{!}}{{!}}''' ''animation-delay'' '''{{!}}{{!}}''' ''animation-iteration-count'' '''{{!}}{{!}}''' ''animation-direction'' '''{{!}}{{!}}''' ''animation-fill-mode'' ''']''' ''']''' *</code>
 |Notes=Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born. 
 
 This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or tween as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
