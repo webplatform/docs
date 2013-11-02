@@ -9,8 +9,6 @@
 {{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
-|Content=Internationalization topics related to the <code>a</code> element:
-* [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
 }}
 {{Examples_Section
 |Not_required=No
@@ -52,6 +50,9 @@ The '''a''' element requires the [[html/attributes/href|'''href''']] or the [[ht
 Both text and images can be included within an anchor. An image that is an anchor has a border whose color indicates whether the link has been visited.  To prevent this border from appearing, you can set the '''img''' element's [[html/attributes/border|'''border''']] attribute to 0 or omit the '''border''' attribute.  You can also use CSS attributes to override the default appearance of '''a''' and '''img''' elements.
 
 Optionally the [[html/attributes/rel|'''rel''']] element may be specified to provide semantic meaning to the link target.
+
+Internationalization topics related to the <code>a</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
 |Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
@@ -137,7 +138,6 @@ Optionally the [[html/attributes/rel|'''rel''']] element may be specified to pro
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |External_links=* [http://www.w3.org/TR/html4/struct/links.html#edef-A HTML 4.01 specification]
 * [http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element HTML 5 specification]
 * [http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element WHATWG specification]
