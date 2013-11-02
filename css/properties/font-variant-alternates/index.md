@@ -18,10 +18,10 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=None of the feature glyphs are enabled. 
+|Description=None of the feature glyphs are enabled.
 }}{{CSS Property Value
 |Data Type=stylistic(&lt;feature-value-name&gt;) || historical-forms || styleset(&lt;feature-value-name&gt; #) || character-variant(&lt;feature-value-name&gt; #) || swash(&lt;feature-value-name&gt;) || ornaments(&lt;feature-value-name&gt;) || annotation(&lt;feature-value-name&gt;)
-|Description=<bold>historical-forms</bold>
+|Description='''historical-forms'''
 Enables display of historical forms
 }}
 }}
