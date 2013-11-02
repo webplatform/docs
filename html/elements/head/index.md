@@ -1,7 +1,7 @@
 {{Page_Title|head}}
 {{Flags
-|High-level issues=Data Not Semantic, Unreviewed Import
-|Content=Cleanup
+|High-level issues=Data Not Semantic, Unreviewed Import, Needs Review
+|Content=Incomplete, Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|De Facto Standard}}
@@ -9,18 +9,18 @@
 {{Summary_Section|The '''head''' element (&lt;head&gt;) represents a collection of metadata for the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeadElement
-|Content=The <code>head</code> element provides information that does not affect the rendering of the document but could be of use to the application. 
+|Content=The <code>head</code> element provides information that does not affect the rendering of the document but could be of use to the application, such as: title of the document displayed in the tab of the web browser (&lt;title&gt;) and meta information useful for search engines (&lt;meta&gt;).
 
 The following tags are valid in this element:
-*<code>base</code>
-*<code>basefont</code>
+*[[html/elements/base|<code>base</code>]]
+*[[html/elements/basefont|<code>basefont</code>]]
 *<code>bgsound</code>
-*<code>link</code>
-*<code>meta</code>
+*[[html/elements/link|<code>link</code>]]
+*[[html/elements/meta|<code>meta</code>]]
 *[[html/elements/nextID|<code>nextID</code>]]
 *<code>script</code>
 *<code>style</code>
-*<code>title</code>
+*[[html/elements/title|<code>title</code>]]
 }}
 {{Examples_Section
 |Not_required=No
