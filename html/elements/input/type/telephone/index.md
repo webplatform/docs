@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Deletion Candidate
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Duplicate of [[html/elements/input/type/tel|input[type="tel"]]]}}
 {{Markup_Attribute}}
 {{Examples_Section
 |Not_required=No
