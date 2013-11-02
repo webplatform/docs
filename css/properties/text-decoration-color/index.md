@@ -1,42 +1,48 @@
 {{Page_Title|text-decoration-color}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|CSS property that sets the color that is used for line-through, underline, overline, or strike-through that is specified by the text-decoration-line. Avoiding using other HTML elements is preferred to the use of this property when coloring the text-decoration-line values.}}
+{{Summary_Section|Sets the color of any text decoration, such as underlines, overlines, and strike throughs.}}
 {{CSS Property
 |Initial value=currentColor
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=The computer color
-|Animatable=No
+|Computed value=The computed color
+|Animatable=Yes
+|CSS object model property=textDecorationColor
 |Values={{CSS Property Value
 |Data Type=color
-|Description=Accepts variations of keywords and numeric notations.
+|Description=The color data type value can be a named color keyword, or in hexadecimal, RGB, RGBa, HSL or HSLa notation. See the CSS color values page for more details.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Codepen example using the text-decoration-color
+|Description=Example using the text-decoration-color
 |Code=.text-decoration-color {
-  text-decoration-color: #000;
   text-decoration: line-through;
+  text-decoration-color: lime;
 }
 
 .text-decoration-color:hover {
-  text-decoration-color: #ff0;
   text-decoration: underline;
+  text-decoration-color: #ff0;
 }
-|LiveURL=http://cdpn.io/madxK
+|LiveURL=http://code.webplatform.org/gist/7281842
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Decoration Module Level 3
+|URL=http://www.w3.org/TR/css-text-decor-3/
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
