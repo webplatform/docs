@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -12,7 +11,7 @@
 |Property_applies_to=dom/HTMLElement
 |Content=When an element has the disabled attribute set, it appears dimmed and does not respond to user input. Disabled elements do not respond to mouse events or the [[html/attributes/contentEditable|contentEditable]] property.
 
-If an element is contained within a disabled ([[html/attributes/fieldset|fieldset]], the fieldset will override its disabled attribute.
+If an element is contained within a disabled ([[html/elements/fieldset|fieldset]], the fieldset will override its disabled attribute.
 
 The disabled attribute will prevent javascript click events on the element.
 
@@ -21,41 +20,19 @@ If the disabled element is present without a value (<code><input disabled></code
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''disabled''' property to enable or disable a '''style''' object and a control.
-|Code=&lt;style type{{=}}"text/css" id{{=}}"oStyle"&gt;
-.styletest {
-     background-color: black;
-     color: white;
-}
-.styletest2 {
-     background-color: black;
-     color: red;
-}
-&lt;/style&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function fnSwitch(){
-     if(oTest.enablement{{=}}{{=}}"enabled"){
-          // Use an arbitrary attribute to track the status.
-          oTest.enablement{{=}}"disabled";
-          oButton.value{{=}}"Set disabled to false";
-          oStyle.disabled{{=}}true;
-          oDisableMe.disabled{{=}}true;
-     }
-     else{
-          oButton.value{{=}}"Set disabled to true";
-          oTest.enablement{{=}}"enabled";
-          oStyle.disabled{{=}}false;
-          oDisableMe.disabled{{=}}false;
-     }
-}
-&lt;/script&gt;
-...     
-     &lt;p enablement{{=}}"enabled" id{{=}}"oTest" class{{=}}"styletest"&gt;
-     A paragraph of text.
-          &lt;input type{{=}}"button" id{{=}}"oDisableMe" class{{=}}"styletest" value{{=}}"Demonstration Button" onclick{{=}}"alert('Demonstration button')"&gt;
-     &lt;/p&gt;
-     &lt;input type{{=}}"button" id{{=}}"oButton" value{{=}}"Set disabled to true" onclick{{=}}"fnSwitch()"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/disabled.htm
+|Language=HTML
+|Description=This shows a basic form, with an email input and a submit button disabled.
+|Code=<form role="form">
+	<label for="name">Name</label>
+	<input type="text" name="name">
+	<br>
+	<label for="email">Email</label>
+	<input type="email" name="email" disabled>
+	<br>
+	<input type="submit" disabled>
+	<input type="button" value="cancel">
+</form>
+|LiveURL=http://code.webplatform.org/gist/7282815
 }}
 }}
 {{Notes_Section}}
