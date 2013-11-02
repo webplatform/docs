@@ -12,7 +12,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=A simple example of showing a video
+|LiveURL=http://code.webplatform.org/gist/7281780
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
