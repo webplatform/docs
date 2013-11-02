@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
