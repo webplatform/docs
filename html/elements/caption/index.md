@@ -17,7 +17,8 @@ The &lt;caption&gt; element must be inserted immediately after the (&lt;table&gt
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''caption''' element to provide a brief description for a table.
-|Code=<table>
+|Code=<nowiki>
+<table>
  <caption>Characteristics with positive and negative sides</caption>
  <thead>
   <tr>
@@ -34,6 +35,7 @@ The &lt;caption&gt; element must be inserted immediately after the (&lt;table&gt
    <td> Failing
    <td> Passing
 </table>
+</nowiki>
 |LiveURL=http://code.webplatform.org/gist/7282268
 }}
 }}
@@ -58,7 +60,11 @@ The '''caption-side''' property is the preferred way to position a table caption
 |-}
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 - 4.9 Tabular Data
+|URL=http://www.w3.org/TR/html5/tabular-data.html#the-caption-element
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
