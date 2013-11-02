@@ -100,6 +100,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
+|Manual_sections==== Related Properties ===
+* [[css/properties/overflow|overflow]]
+* [[css/properties/overflow-x|overflow-x]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
