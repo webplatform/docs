@@ -6,10 +6,14 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.}}
+{{Summary_Section|Creates a hyperlink or anchor.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
-|Content====Syntax===
+|Content====Description===
+
+Defines a hyperlink to any content, which could be an external site, another page on the same site, a section within the same page, an image, or a local file. It may even invoke a JavaScript function.
+
+===Syntax===
 
 <pre><a href="[URI]">[Anchor text or image tag]</a></pre>
 <pre><a id="#[identifier]">[Anchor text or image tag]</a></pre>
