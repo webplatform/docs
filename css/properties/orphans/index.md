@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|In typography terms, an orphan is the first line of a paragraph that is left behind on the old page while the paragraph continues on the next. The orphans CSS property refers to the minimum number of lines in a block container that must be left at the bottom of the old page. This property is normally used to control how page breaks occur. This property only affects paged media such as print.
 For example, if a paragraph can't fit on one page in its entirety it is split wherever it is possible. In this way single lines of a paragraph can appear on page before it continues on the next page. This is usually unwanted, so many word processors require at least two lines to be left on an old page, instead of one. You can give it either a positive number (where 2 is the default) or inherit.
@@ -12,11 +11,12 @@ Note that the orphan property does not generally affect non-paged media such as 
 }}
 {{CSS Property
 |Initial value=2
-|Applies to=All elements
+|Applies to=Block containers
 |Inherited=Yes
 |Media=visual
 |Computed value=As specified
 |Animatable=No
+|CSS object model property=orphans
 |Values={{CSS Property Value
 |Data Type=integer
 |Description=Only positive values are allowed.
@@ -34,8 +34,8 @@ A '''String''' that specifies or receives the minimum number of lines to print a
 of a paragraph appear at the bottom and top of each printed page.
 |Code=@media print {
     p {
-        widows:3;
-        orphans:3;
+        widows: 3;
+        orphans: 3;
     }
 }
 }}
@@ -52,7 +52,7 @@ The [[css/properties/widows|'''widows''']] property takes precedence over '''orp
 }}{{Related Specification
 |Name=CSS Paged Media Module Level 3
 |URL=http://dev.w3.org/csswg/css-page/#orphans
-|Status=W3C Working Draft
+|Status=W3C Editor's Draft
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/page.html#propdef-orphans
