@@ -1,15 +1,19 @@
 {{Page_Title|abbr}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Needs Review
-|Content=Incomplete, Cleanup
+|High-level issues=Needs Review
+|Content=Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''abbr''' element (&lt;abbr&gt;) represents an abbreviation or acronym, optionally with an attribute. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else.}}
+{{Summary_Section|The '''abbr''' element (&lt;abbr&gt;) represents an abbreviation or acronym.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements.
+|Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
+
+==Attributes==
+
+A '''abbr''' element may optionally have an [[html/attributes|attribute]]. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else. The '''abbr''' element can accept any attributes permitted globally. 
 }}
 {{Examples_Section
 |Not_required=No
