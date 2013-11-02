@@ -3,7 +3,6 @@
 |High-level issues=Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
-|Editorial notes=It needed fewer topics -- the only relevant topic was HTML, and it has that. Removing the topic cluster HTML got rid of all the extraneous "see also" links. Will enter useful links explicitly.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
