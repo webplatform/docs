@@ -16,7 +16,7 @@
 |CSS object model property=textDecorationColor
 |Values={{CSS Property Value
 |Data Type=color
-|Description=The color data type value can be a named color keyword, or in hexadecimal, RGB, RGBa, HSL or HSLa notation. See the CSS color values page for more details.
+|Description=The color data type value can be a named color keyword, or in hexadecimal, RGB, RGBa, HSL or HSLa notation. See the [[css/color|CSS color values]] page for more details.
 }}
 }}
 {{Examples_Section
