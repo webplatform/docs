@@ -67,9 +67,11 @@
 }}
 }}
 {{Notes_Section
-|Usage=* The timing functions supported by <code>animation-timing-function</code> are defined by <code>[[css/properties/transition-timing-function|transition-timing-function]]</code>.
-*If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies more timing functions than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess functions are ignored.
-*If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of functions is repeated as many times as necessary to ensure each animation has a duration.
+|Usage=The timing functions supported by <code>animation-timing-function</code> are defined by <code>[[css/properties/transition-timing-function|transition-timing-function]]</code>.
+
+If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies more timing functions than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess functions are ignored. If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of functions is repeated as many times as necessary to ensure each animation has a duration.
+
+For a keyframed animation, the '''animation-timing-function''' applies between keyframes, not over the entire animation. For example, in the case of an '''ease-in-out''' timing function, an animation will ease in at the start of the keyframe and ease out at the end of the keyframe. An '''animation-timing-function''' defined within a keyframe block applies to that keyframe, otherwise the timing function specified for the animation is used. 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -100,8 +102,6 @@
 *[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
-
-
 |External_links=* A [https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function detailed description of timing functions] (MDN)
 }}
 {{Topics|CSS}}
