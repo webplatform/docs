@@ -1,18 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides a way to direct a user to a specific field when a document loads. This can provide both direction and convenience for a user, reducing the need to click or tab to a field when a page opens. This attribute is true when present on an element, and false when missing.}}
+{{Summary_Section|Provides a way to direct a user to a specific field when a document loads.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=This is the one of the important attribute introduced in HTML5 in terms of UX. With this attribute we can focus required element without any JavaScript code. And all you need to do is place one attribute to HTML element.
+|Content=This is the one of the important attribute introduced in HTML5 for UX. When used on an element, focus is set on that element on page load or when its dialog is shown (such as when a modal window is shown).
 
-For example if we look at Facebook home page you can see that cursor is automatically pointed to email id field which makes user to just type in the credentials.
+This can provide both direction and convenience for a user, reducing the need to click or tab to a field when a page opens.
+
+This attribute is true when present on an element, and false when missing. Only one element on each page can have the autofocus field.
 }}
 {{Examples_Section
 |Not_required=No
@@ -21,17 +21,13 @@ For example if we look at Facebook home page you can see that cursor is automati
 |Code=<input id="search_box" autofocus>
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-Only one control in a document can have autofocus specified. If more than one element has the attribute, only the first one in the page will get the focus when the page opens. This is a boolean attribute, requiring only the presence of the attribute to be true.
-The following example shows a field that will receive focus when a page opens.
-'''Note'''  For more  code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.19.4
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#attr-fe-autofocus
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -62,6 +58,7 @@ The following example shows a field that will receive focus when a page opens.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |External_links=* [http://www.xpertdeveloper.com/2012/09/html5-autofocus/ HTML5 Autofocus Explained]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLBGSoundElement|HTMLButtonElement]]</code>
@@ -69,7 +66,7 @@ The following example shows a field that will receive focus when a page opens.
 *<code>[[dom/HTMLSelectElement|HTMLSelectElement]]</code>
 *<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
 }}
-{{Topics|HTML}}
+{{Topics|HTML, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
