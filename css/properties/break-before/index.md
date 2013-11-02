@@ -16,7 +16,7 @@
 |CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=Default. A page break or column break is determined  by the flow of content.
+|Description=Default. A page break or column break is determined by the flow of content.
 }}{{CSS Property Value
 |Data Type=always
 |Description=A page break is inserted (forced) before the content block.
@@ -106,6 +106,8 @@ h3 {
 }}
 {{Notes_Section
 |Usage=This property replaces separate '''column-break-before''', '''page-break-before''', and '''region-break-before''' properties, which may still be present in some browser implementations.
+
+Frequent use case is in a print stylesheet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -130,7 +132,7 @@ h3 {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model, Flexbox, Multi-Column, Regions, Responsive Web Design, Shapes
+|Topic_clusters=CSS Layout, Box Model, CSS Attributes, Flexbox, Multi-Column, Regions, Responsive Web Design, Shapes
 |External_links=* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
