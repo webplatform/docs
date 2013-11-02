@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=percentage or absolute length
 |Animatable=Yes
+|CSS object model property=http://docs.webplatform.org/wiki/css/cssom/properties/width
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=If auto is set for the elements width, the browser will determine the width for the element.
