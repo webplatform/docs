@@ -8,7 +8,7 @@
 {{CSS Property
 |Initial value=auto
 |Applies to=CSS Regions
-|Inherited=Yes
+|Inherited=No
 |Media=visual
 |Computed value=specified value
 |Animatable=No
@@ -23,8 +23,26 @@
 }}
 }}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=CSS
+|Code=<style>
+  article {
+    flow-into: article-flow;
+  }
+  #region-1, #region-2 {
+    flow-from: article-flow;
+    region-fragment: break; /* or auto */
+    overflow: visible; /* or hidden */
+  }
+</style>
+
+<body>
+  <article>...</article>
+  <div id="region-1"></div>
+  <div id="region-2"></div>
+</body>
+}}
 }}
 {{Notes_Section
 |Usage=In the following example, 'region_1' can accommodate the article's gray text, 'region_2' can	accommodate the blue text, and the red	'overset' text does not fit within the [[css/concepts/region_chain|region chain]]:
