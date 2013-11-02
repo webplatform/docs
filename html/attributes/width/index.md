@@ -1,29 +1,28 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies the width of certain content elements in pixels.}}
 {{Markup_Attribute
-|Applies_to=[[html/elements/input|HTMLInputElement]]
+|Applies_to=[[html/elements/img|HTMLImgElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The '''width''' property is a standard HTML attribute. The value of this attribute is usually an integer. 
+|Content=The '''width''' attribute specifies the visual width of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], and [[html/elements/input/type/image|input[type="image"]]] in pixels.
 
-It is very common to see HTML tags like images, iframes or object elements have '''width''' (and '''height''') attributes.
+If a width attribute is set, but no height, the image will scale to preserve its original aspect ratio. If both the width and height are zero, the element should not be intended to be visible by the user.
+
+Width values must be non-negative integers.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+|Code=<img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
+|LiveURL=http://code.webplatform.org/gist/7283238
 }}
 }}
-{{Notes_Section
-|Notes=This property is an integer value. Although an HTML author can specify the width as a percentage, this property always specifies the width in pixels in C++.
-In Microsoft Internet Explorer 5 it is possible to set the '''width''' property, but doing so has no effect on the rendering of the frame.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -34,7 +33,9 @@ In Microsoft Internet Explorer 5 it is possible to set the '''width''' property
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
