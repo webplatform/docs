@@ -102,6 +102,7 @@ When <code>animation-name</code> specifies a list of names, other animation prop
 *[[css/properties/animation-duration{{!}}animation-duration]]
 *[[css/properties/animation-fill-mode{{!}}animation-fill-mode]]
 *[[css/properties/animation-iteration-count{{!}}animation-iteration-count]]
+*[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function{{!}}animation-timing-function]]
 
 }}
