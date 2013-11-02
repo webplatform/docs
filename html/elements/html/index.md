@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
+|Content=Incomplete, Cleanup, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -40,8 +40,8 @@ Internationalization topics related to the <code>html</code> element:
 }}
 {{Notes_Section
 |Notes====Remarks===
-With Microsoft Internet Explorer 6 and later, when you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered.  When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the '''body''' object represents the entire surface onto which a document's contents can be rendered.
-In Internet Explorer 6, When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas, the entire surface onto which a document's contents can be rendered.
+When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered.  When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode,  the '''body''' object represents the entire surface onto which a document's contents can be rendered.
+
 |Import_Notes====Members===
 The '''html''' object has these types of members:
 *[#events Events]
