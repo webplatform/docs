@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The <code>overflow-y</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.}}
 {{CSS Property
@@ -59,14 +59,14 @@
 |URL=http://dev.w3.org/csswg/css-box/#overflow-x
 |Status=Editor's Draft
 }}{{Related Specification
+|Name=CSS3 module: The box model
+|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|Status=Working Draft
+}}{{Related Specification
 |Name=CSS basic box model
 |URL=http://www.w3.org/TR/css3-box/#overflow1
 |Status=Working Draft
 |Relevant_changes=Add no-display and no-content
-}}{{Related Specification
-|Name=CSS3 module: The box model
-|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
-|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
