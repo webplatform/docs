@@ -2,21 +2,34 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
-|Applies to=All elements
-|Inherited=No
+|Initial value=ruby-position
+|Applies to=ruby annotation containers
+|Inherited=Yes
 |Media=visual
+|Computed value=specified value
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=above
-|Description=Default. Ruby text is positioned above the base text.
+|Data Type=over
+|Description=The ruby text appears on top the base in horizontal text.
 }}{{CSS Property Value
-|Data Type=inline
-|Description=Ruby text is positioned inline with the base text.
+|Data Type=right
+|Description=The ruby text appears on the right side of the vertical text.
+}}{{CSS Property Value
+|Data Type=under
+|Description=The ruby text appears under the base in horizontal text. 
+}}{{CSS Property Value
+|Data Type=left
+|Description=The text appears on the left side of the text.
+}}{{CSS Property Value
+|Data Type=inter-character
+|Description=This value provided special character especially for traditional Chinese used in Taiwan (bopomofo). The text appears vertically on the right side of the text 
 }}
 }}
 {{Examples_Section
@@ -48,6 +61,7 @@ The '''ruby-position''' property specifies the position of the ruby text defined
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5.0
