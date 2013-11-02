@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|This property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords '''top, left, center, right''', or '''bottom''', similar to the CSS [[css/properties/background-position|background-position]] property.}}
 {{CSS Property
-|Initial value=0% 0%
+|Initial value=center
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
