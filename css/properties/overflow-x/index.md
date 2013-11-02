@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|Mixed}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The <code>overflow-x</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra content exceeding the x-axis of the bounding box of an element is rendered.}}
 {{CSS Property
