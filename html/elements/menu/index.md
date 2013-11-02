@@ -1,42 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics
+|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates an unordered list of items.}}
+{{Summary_Section|The '''menu''' element represents information as a list of items or commands.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLMenuElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''MENU''' element to create a menu with two items.
-|Code=&lt;MENU&gt;
-&lt;LI&gt;This is the first item in the menu.
-&lt;LI&gt;And this is the second item in the menu.
-&lt;/MENU&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.4 (Deprecated)
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|block
-|}
-
-===Members===
+|Content====Members===
 The '''menu''' object has these types of members:
 *[#events Events]
 *[#methods Methods]
@@ -637,9 +610,23 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
+
 }}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/
+|Status=Deprecated
+}}{{Related Specification
+|Name=DOM HTML
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html
+|Status=Redifined
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
