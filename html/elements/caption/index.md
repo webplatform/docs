@@ -46,17 +46,15 @@ The <table> object and its associated elements have a separate table object mode
 The '''caption-side''' property is the preferred way to position a table caption.
 
 ===HTML information===
+
 {| class="wikitable"
 |-
-!Closing Tag
-|required
+|Closing Tag
+|Required
 |-
-!CSS Display
-|inline
-|-
-!Element Type
-|$disp element
-|-}
+|CSS Display
+|Inline
+|}
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
