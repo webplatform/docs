@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|Content=Broken Links, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
