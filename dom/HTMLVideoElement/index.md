@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Stub
-|Content=Incomplete, Examples Needed, Needs Summary
+|Content=Incomplete, Compatibility Incomplete, Needs Summary
 |Checked_Out=No
 }}
 {{Standardization_Status}}
