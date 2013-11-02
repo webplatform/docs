@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -87,7 +86,16 @@
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation|animation]]
+*[[css/properties/animation-delay|animation-delay]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-fill-mode|animation-fill-mode]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
