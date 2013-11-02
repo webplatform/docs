@@ -25,57 +25,9 @@
     }
 }
 
-@-moz-keyframes fadeInAnimation {
-    /* starting state */
-    from {
-        opacity: 0;
-    }
-    /* ending state */
-    to {
-        opacity: 1;
-    }
-}
-
-@-ms-keyframes fadeInAnimation {
-    /* starting state */
-    from {
-        opacity: 0;
-    }
-    /* ending state */
-    to {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeInAnimation {
-    /* starting state */
-    from {
-        opacity: 0;
-    }
-    /* ending state */
-    to {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeInAnimation {
-    /* starting state */
-    from {
-        opacity: 0;
-    }
-    /* ending state */
-    to {
-        opacity: 1;
-    }
-}
-
 /* applying the animation */
 div {
     animation: fadeInAnimation linear;
-    -moz-animation: fadeInAnimation linear;
-    -ms-animation: fadeInAnimation linear;
-    -webkit-animation: fadeInAnimation linear;
-    -o-animation: fadeInAnimation linear;
 }
 |LiveURL=http://03sq.net/examples/animation.html
 }}{{Single Example
