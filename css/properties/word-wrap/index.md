@@ -118,7 +118,7 @@ LongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWordLongWord
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''word-wrap''' property was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[css/properties/overflow-wrap|'''overflow-wrap''']].
+The '''word-wrap''' property was originally a proprietary property developed for Internet Explorer, and is used as a synonym for the standardized [[css/properties/overflow-wrap|'''overflow-wrap''']] property.
 This property to enables the browser to break up otherwise unbreakable strings (words).
 This differs from the [[css/properties/white-space|'''white-space''']] 
 property, which turns wrapping of the text on and off.  
