@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=as specified, except ‘visible’
 |Animatable=No
+|CSS object model property=overflowY
 |Values={{CSS Property Value
 |Data Type=visible
 |Description=Default. Content is not clipped and scroll bars are not added. Elements are clipped to the size of the containing window or frame.
