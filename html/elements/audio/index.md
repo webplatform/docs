@@ -339,6 +339,9 @@ The '''audio''' object has these properties.
 }}{{Single Example
 |Language=HTML
 |Description=play an online mp4 on the webpage
+|Code=<audio controls>
+  <source src="http://freedownloads.last.fm/download/533190714/she%2Bso%2Bfly.mp3" type="audio/mp3">
+</audio>
 |LiveURL=http://code.webplatform.org/gist/7282145
 }}
 }}
