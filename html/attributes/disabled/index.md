@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The disabled attribute prevents users from changing, clicking on, or submitting an element.}}
 {{Markup_Attribute
-|Applies_to=[[html/elements/input
+|Applies_to=[[html/elements/input]]
 |Property_applies_to=dom/HTMLElement
 |Content=When an element has the disabled attribute set, it appears dimmed and does not respond to user input. Disabled elements do not respond to mouse events or the [[html/attributes/contentEditable|contentEditable]] property.
 
