@@ -2,7 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -17,7 +17,9 @@ The value of the form attribute should be the id of a form that exists on the sa
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Note that a document conforming to the HTML specifications will never have nested form elements (the primary use for this attribute). However, javascript can make this situation occur.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
