@@ -1,15 +1,25 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics
+|Content=Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|De Facto Standard}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves a comma-separated list of content types.|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.
+{{Summary_Section|This attribute supplies browsers with a hint about what filetypes its element will accept.|Restrict the kinds of data uploaded by <code>input type="file"</code> to certain types.
 }}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLInputElement|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=Accepts a comma separated list of file types. Valid file types can be any of the following.
+
+* The string <code>audio/*</code> indicates any audio file is allowed.
+* The string <code>video/*</code> indicates any video file is allowed.
+* The string <code>image/*</code> indicates any image file is allowed.
+* A [[http://www.w3.org/TR/html5/infrastructure.html#valid-mime-type-with-no-parameters|valid mime type]] with no attributes.
+* A file extension starting with a <code>.</code> (period).
+
+Duplicates are not allowed (case insensitive).
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,20 +29,11 @@
 |Code=<input type="file" accept="audio/*" />
 }}{{Single Example
 |Language=HTML
-|Description=Indicates that video files are accepted.
-|Code=<input type="file" accept="video/*" />
-}}{{Single Example
-|Language=HTML
-|Description=Indicates that image files are accepted.
-|Code=<input type="file" accept="image/*" />
-}}{{Single Example
-|Language=HTML
 |Description=Indicates that both PNG and GIF file formats are accepted.
 |Code=<input type="file" accept="image/png, image/gif" />
 }}
 }}
 {{Notes_Section
-|Usage=Value must be a MIME type in the format ''type/subtype''. Multiple values are valid if comma-separated.
 |Notes====Remarks===
 The information from the list can be used to filter out nonconforming files when prompting a user to select files to be sent to the server using the '''&lt;INPUT&gt; element with type{{=}}"file"'''.
 Examples of content types include "text/html", "image/png", "image/gif", "video/mpeg", "audio/basic", "text/tcl", "text/javascript", and "text/vbscript". For the current list of registered MIME types, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203647 MIME Media Types].
@@ -40,7 +41,11 @@ There is no functionality implemented for this property unless defined by the au
 '''accept''' was introduced in Microsoft Internet Explorer 6
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#attr-input-accept
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -105,7 +110,7 @@ There is no functionality implemented for this property unless defined by the au
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
-|External_links=* http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#attr-input-accept
+|External_links=* http://www.w3.org/TR/html5/forms.html#attr-input-accept
 |Manual_sections====Related pages (MSDN)===
 *<code>input</code>
 }}
