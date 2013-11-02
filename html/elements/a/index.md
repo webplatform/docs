@@ -11,11 +11,13 @@
 |DOM_interface=dom/HTMLAnchorElement
 |Content====Syntax===
 
-<a href="[URI]">[Anchor text]</a>
+<pre><a href="[URI]">[Anchor text or image tag]</a></pre>
+<pre><a id="#[identifier]">[Anchor text or image tag]</a></pre>
+<pre><a>[Anchor text or image tag]</a></pre>
 
 ===Value===
 
-The value is the enclosed anchor text, which is displayed in the page and rendered as a link.
+The value is the enclosed anchor text or image tag, which is displayed in the page and rendered as a link.
 
 ===Common Attributes===
 
@@ -24,13 +26,11 @@ The value is the enclosed anchor text, which is displayed in the page and render
 ! Value
 ! Purpose
 ! Example
-! Notes
 {{!}}-
 {{!}} [[html/attributes/href|'''href''']]
 {{!}} [[http://www.w3.org/Addressing/URL/uri-spec.html|'''URI''']] enclosed in double-quotes
 {{!}} Target of link
 {{!}} <pre>href="http://example.com"</pre> <pre>href="#SectionI"</pre>
-{{!}} May refer to any protocol, e.g. http, mailto, file. A fragment (# followed by text) refers to a location in the current page. href may be omitted to indicate a placeholder link, such as a reference to the current page in a menu.
 {{!}}-
 {{!}} [[html/attributes/id|'''id''']]
 {{!}} URI fragment (# followed by identifier text)
@@ -84,8 +84,11 @@ The value is the enclosed anchor text, which is displayed in the page and render
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''a''' element requires the [[html/attributes/href|'''href''']] or the [[html/attributes/name|'''name''']] attribute to be specified.
+For creating an anchor in the page, the [[html/attributes/name|'''name''']] attribute is obsolete and should be replaced by [[html/attributes/id|'''id''']] attribute.
+
 Both text and images can be included within an anchor. An image that is an anchor has a border whose color indicates whether the link has been visited.  To prevent this border from appearing, you can set the '''img''' element's [[html/attributes/border|'''border''']] attribute to 0 or omit the '''border''' attribute.  You can also use CSS attributes to override the default appearance of '''a''' and '''img''' elements.
+
+The URI may refer to any protocol, e.g. http, mailto, file. A fragment (# followed by text) refers to a location in the current page. href may be omitted to indicate a placeholder link, such as a reference to the current page in a menu.
 
 Optionally the [[html/attributes/rel|'''rel''']] element may be specified to provide semantic meaning to the link target.
 
