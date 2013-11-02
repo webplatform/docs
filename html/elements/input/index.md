@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
-|Content=Incomplete, Compatibility Incomplete
+|Content=Broken Links, Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''input''' element (&lt;input&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the <code>type</code> attribute.}}
 {{Markup_Element
@@ -46,7 +46,7 @@ The input element behavior varies depending on the value of its [[html/elements/
 * [[html/elements/input/type/url|type=url]]
 * [[html/elements/input/type/week|type=week]]
 
-Other valid attributes for the input element are <code>[[html/elements/input/type/accept|accept]]</code>, <code>[[html/elements/input/type/alt|alt]]</code>, <code>[[html/elements/input/type/autocomplete|autocomplete]]</code>, <code>[[html/elements/input/type/autofocus|autofocus]]</code>, <code>[[html/elements/input/type/checked|checked]]</code>, <code>[[html/elements/input/type/dirname|dirname]]</code>, <code>[[html/elements/input/type/disabled|disabled]]</code>, <code>[[html/elements/input/type/form|form]]</code>, <code>[[html/elements/input/type/formaction|formaction]]</code>, <code>[[html/elements/input/type/formenctype|formenctype]]</code>, <code>[[html/elements/input/type/formmethod|fommethod]]</code>, <code>[[html/elements/input/type/formnovalidate|formnovalidate]]</code>, <code>[[html/elements/input/type/formtarget|formtarget]]</code>, <code>[[html/elements/input/type/height|height]]</code>, <code>[[html/elements/input/type/list|list]]</code>, <code>[[html/elements/input/type/max|max]]</code>, <code>[[html/elements/input/type/maxlength|maxlength]]</code>, <code>[[html/elements/input/type/min|min]]</code>, <code>[[html/elements/input/type/multiple|multiple]]</code>, <code>[[html/elements/input/type/name|name]]</code>, <code>[[html/elements/input/type/pattern|pattern]]</code>, <code>[[html/elements/input/type/placeholder|placeholder]]</code>, <code>[[html/elements/input/type/readonly|readonly]]</code>, <code>[[html/elements/input/type/required|required]]</code>, <code>[[html/elements/input/type/size|size]]</code>, <code>[[html/elements/input/type/src|src]]</code>, <code>[[html/elements/input/type/step|step]]</code>, <code>[[html/elements/input/type/value|value]]</code>, <code>[[html/elements/input/type/width|width]]</code>, and global element attributes. Note that some attributes do not apply for certain types.
+Other valid attributes for the input element are <code>[[html/elements/input/accept|accept]]</code>, <code>[[html/elements/input/alt|alt]]</code>, <code>[[html/elements/input/autocomplete|autocomplete]]</code>, <code>[[html/elements/input/autofocus|autofocus]]</code>, <code>[[html/elements/input/checked|checked]]</code>, <code>[[html/elements/input/dirname|dirname]]</code>, <code>[[html/elements/input/disabled|disabled]]</code>, <code>[[html/elements/input/form|form]]</code>, <code>[[html/elements/input/formaction|formaction]]</code>, <code>[[html/elements/input/formenctype|formenctype]]</code>, <code>[[html/elements/input/formmethod|fommethod]]</code>, <code>[[html/elements/input/formnovalidate|formnovalidate]]</code>, <code>[[html/elements/input/formtarget|formtarget]]</code>, <code>[[html/elements/input/height|height]]</code>, <code>[[html/elements/input/list|list]]</code>, <code>[[html/elements/input/max|max]]</code>, <code>[[html/elements/input/maxlength|maxlength]]</code>, <code>[[html/elements/input/min|min]]</code>, <code>[[html/elements/input/multiple|multiple]]</code>, <code>[[html/elements/input/name|name]]</code>, <code>[[html/elements/input/pattern|pattern]]</code>, <code>[[html/elements/input/placeholder|placeholder]]</code>, <code>[[html/elements/input/readonly|readonly]]</code>, <code>[[html/elements/input/required|required]]</code>, <code>[[html/elements/input/size|size]]</code>, <code>[[html/elements/input/src|src]]</code>, <code>[[html/elements/input/step|step]]</code>, <code>[[html/elements/input/value|value]]</code>, <code>[[html/elements/input/width|width]]</code>, and global element attributes. Note that some attributes do not apply for certain types.
 
 Internationalization topics related to the <code>input</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
@@ -94,6 +94,7 @@ Internationalization topics related to the <code>input</code> element:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |External_links=http://www.w3.org/TR/html-markup/input.html#input
 }}
 {{Topics|HTML}}
