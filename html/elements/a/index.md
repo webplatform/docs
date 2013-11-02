@@ -19,9 +19,13 @@ Defines a hyperlink to any content, which could be an external site, another pag
 <pre><a id="#[identifier]">[Anchor text or image tag]</a></pre>
 <pre><a>[Anchor text or image tag]</a></pre>
 
+===Inner HTML===
+
+The inner HTML is the enclosed anchor text or image tag, which is displayed in the page and (if href is present) is rendered as a link.
+
 ===Value===
 
-The value is the enclosed anchor text or image tag, which is displayed in the page and (if href is present) is rendered as a link.
+(Rarely used.)
 
 ===Common Attributes===
 
