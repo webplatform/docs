@@ -18,7 +18,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=specifies that when rendering with OpenType fonts, the content language of the element is used to infer the OpenType language system 
+|Description=specifies that when rendering with OpenType fonts, the content language of the element is used to infer the OpenType language system
 }}{{CSS Property Value
 |Data Type=<string>
 |Description=single three-letter case-sensitive OpenType language system tag, specifies the OpenType language system to be used instead of the language system implied by the language of the element
@@ -47,7 +47,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
-|External_links=<a href="http://www.microsoft.com/typography/otspec/languagetags.htm">Microsoft OpenType Layout Tag Registry</a>
+|External_links=[http://www.microsoft.com/typography/otspec/languagetags.htm Microsoft OpenType Layout Tag Registry]
 }}
 {{Topics|CSS}}
 {{External_Attribution
