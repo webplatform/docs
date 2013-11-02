@@ -9,6 +9,27 @@
 {{Summary_Section|Defines a hyperlink (a link) to any content, which could be an external site, another page, a section within the same page, an image/file or it may even invoke a JavaScript function.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
+|Content====Syntax===
+
+<a href="[URI]">[Anchor text]</a>
+
+===Value===
+
+The value is the enclosed anchor text, which is displayed in the page and rendered as a link.
+
+===Attributes===
+
+{{{!}} class="wikitable"
+! Name
+! Value
+! Example
+! Notes
+{{!}}-
+{{!}} href
+{{!}} URI
+{{!}} href="http://example.com" href="#SectionI"
+{{!}} Enclose URI in double-quotes. May refer to any protocol, e.g. http, mailto, file. A fragment (# followed by text) identifies a location in the current page. href may be omitted to indicate a placeholder link, such as a reference to the current page in a menu.
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
