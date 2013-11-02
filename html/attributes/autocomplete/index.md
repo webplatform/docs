@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -16,7 +15,7 @@ For sensitive information or form content that is not repeated, autocomplete sho
 
 Autocomplete should also be turned off if the website provides its own mechanism for filling a field; for example, an autocomplete like shown in this site's search.
 
-Valid values for autocomplete are <code>on</code> or <code>off</code. The attribute is not required.
+Valid values for autocomplete are <code>on</code> or <code>off</code>. The attribute is not required.
 }}
 {{Examples_Section
 |Not_required=No
