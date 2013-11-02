@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Defines what values are applied by the animation outside the time it is executing (before and after the animation). 
 
-By default, an animation does not affect property values between the time it is applied (when the [[css/properties/animation-name|animation-name]] property is set on an element) and the time it begins execution (determined by the [[css/properties/animation-delay|animation-delay]] property). Also, by default an animation does not affect property values after the animation ends (determined by the [[css/properties/animation-duration|animation-duration]] property). The [[css/properties/animation-fill-mode|animation-fill-mode]] property can override this behavior. 
+By default, an animation does not affect property values between the time it is applied (when the [[css/properties/animation-name|animation-name]] property is set on an element) and the time it begins execution (determined by the [[css/properties/animation-delay|animation-delay]] property). Also, by default an animation does not affect property values after the animation ends (determined by the [[css/properties/animation-duration|animation-duration]] property). The [[css/properties/animation-fill-mode|animation-fill-mode]] property can override this behavior.
 }}
 {{CSS Property
 |Initial value=none
@@ -18,7 +18,7 @@ By default, an animation does not affect property values between the time it is 
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Property values do not change before the animation starts, and they return to their original state when the animation ends. This is the default behavior. 
+|Description=Property values do not change before the animation starts, and they return to their original state when the animation ends. This is the default behavior.
 }}{{CSS Property Value
 |Data Type=forwards
 |Description=When the animation ends (as determined by its [[css/properties/animation-iteration-count|animation-iteration-count]]), properties retain the values set by the final keyframe. If '''animation-iteration-count''' is zero, apply the values that would start the first iteration. 
@@ -53,7 +53,6 @@ By default, an animation does not affect property values between the time it is 
 {{!}} <code>odd</code> 
 {{!}} 0% or <code>from</code>
 {{!}}}
-
 }}{{CSS Property Value
 |Data Type=backwards
 |Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. These are either the values of the ''from'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''normal''' or '''alternate''') or those of the ''to'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''reverse''' or '''alternate-reverse'''). When the animation ends, properties revert to their original state.
@@ -69,7 +68,6 @@ By default, an animation does not affect property values between the time it is 
 {{!}} <code>reverse</code> or <code>alternate-reverse</code> 
 {{!}} 100% or <code>to</code>
 {{!}}}
-
 }}{{CSS Property Value
 |Data Type=both
 |Description=Values set by the first and last keyframes are applied before and after the animation.
@@ -159,8 +157,8 @@ header {
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
