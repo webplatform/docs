@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics, Needs Review
-|Content=Incomplete, Examples Needed, Needs Summary
+|High-level issues=Stub, Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -48,7 +48,7 @@
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts, Text
 }}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
