@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|This property specifies how many times the marquee content moves}}
 {{CSS Property
@@ -49,8 +50,8 @@ Now, the <code>h1</code> loops 2 times, until you hover over it. Then the loop c
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Marquee Module Level 3
-|URL=http://www.w3.org/TR/2008/WD-css3-marquee-20080801/#the-marquee-play-count
-|Status=Working Draft
+|URL=http://www.w3.org/TR/css3-marquee/#the-marquee-play-count
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
