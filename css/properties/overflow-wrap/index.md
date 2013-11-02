@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=specified value
 |Animatable=No
+|CSS object model property=overflowWrap
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
@@ -20,7 +21,7 @@
 This is the default option.
 }}{{CSS Property Value
 |Data Type=break-word
-|Description=Lines can be broken at any point if necessary to preverse the limits of the container element -- for example, "hamburger" can be broken into "ham" and "burger" across separate lines.
+|Description=Lines can be broken at any point if necessary to preserve the limits of the container element -- for example, "hamburger" can be broken into "ham" and "burger" across separate lines.
 }}
 }}
 {{Examples_Section
@@ -47,7 +48,7 @@ p:nth-child(2) {
 }}
 {{Notes_Section
 |Usage=This property is only in use when [[css/properties/white-space|'''white-space''']] allows '''wrapping'''.
-|Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
+|Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, '''word-wrap'' was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
 }}
 {{Related_Specifications_Section
 |Specifications=
