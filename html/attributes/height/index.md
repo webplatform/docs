@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -10,7 +9,7 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/img|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The '''height''' attribute specifies the visual height of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], and [[html/elements/input/image|input\[type="image"\]]] in pixels.
+|Content=The '''height''' attribute specifies the visual height of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], and [[html/elements/input/type/image|input[type="image"]]] in pixels.
 
 If a height attribute is set, but no width, the image will scale to preserve its original aspect ratio.
 
