@@ -6,11 +6,17 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The autocomplete attribute specifies whether a form or input field should have autocomplete on or off.}}
+{{Summary_Section|The autocomplete attribute specifies whether a browser should automatically provide values for a form element.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=When autocomplete is on, the browser automatically complete values based on values that the user has entered before.
+|Content=When autocomplete is on, the browser may automatically fill previously entered values, or match input [[html/attributes/name|names]] with values the user has provided.
+
+For sensitive information or form content that is not repeated, autocomplete should be turned off so the user is forced to fill the field every time. 
+
+Autocomplete should also be turned off if the website provides its own mechanism for filling a field; for example, an autocomplete like shown in this site's search.
+
+Valid values for autocomplete are <code>on</code> or <code>off</code. The attribute is not required.
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,20 +35,13 @@
 </form>
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The AutoComplete feature is highlighted in the Using AutoComplete in HTML Forms overview.
-When AutoComplete is enabled, suggestions are provided for the [[html/attributes/value (input elements)|'''VALUE''']] of a text field. Suggested values are mapped values based on the [[html/attributes/name|'''NAME''']] attribute or vCard schema specified by the [[html/attributes/vcard_name|'''VCARD_NAME''']] attribute.
-If AutoComplete is disabled, values are not stored and suggested values are not presented.
-Values in '''input type{{=}}password''' elements can be mapped for AutoComplete; however, the ability to store this information can be disabled in the browser, and the user is prompted for a confirmation before the value is stored.
-Information provided by the AutoComplete feature is not exposed to the object model, and is not visible to a Web page until the user selects one of the suggestions as a value for the text field.
-This attribute is not supported in HTML Applications (HTAs).
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#attr-form-autocomplete
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -52,10 +51,15 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML, Security
 |Manual_sections====Related pages (MSDN)===
 *<code>input type{{=}}password</code>
 *<code>input type{{=}}text</code>
 *<code>form</code>
+
+[[html/elements/input/password]]
+[[html/elements/input/text]]
+[[html/elements/form]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
