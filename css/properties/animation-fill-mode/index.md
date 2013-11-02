@@ -18,13 +18,45 @@ By default, an animation does not affect property values between the time it is 
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Property values do not change before the animation starts, and they return to their original state when the animation ends.
+|Description=Property values do not change before the animation starts, and they return to their original state when the animation ends. This is the default behavior. 
 }}{{CSS Property Value
 |Data Type=forwards
-|Description=When the animation ends, properties retain the values set by the final keyframe.
+|Description=When the animation ends (as determined by its [[css/properties/animation-iteration-count|animation-iteration-count]]), properties retain the values set by the final keyframe. If '''animation-iteration-count''' is zero, apply the values that would start the first iteration. 
+
+{| style="border-collapse:collapse"
+|-
+! animation-direction !
+! animation-iteration-count !
+! last keyframe encountered !
+|-
+| <code>normal</code> 
+| <code>even</code> or <code>odd</code>  
+| 100% or <code>to</code> 
+|-
+| <code>reverse 
+| <code>even</code> or <code>odd</code> 
+| 0% or <code>from</code> 
+|-
+| <code>alternate</code> 
+| <code>even</code> 
+| 0% or <code>from</code> 
+|-
+| <code>alternate</code> 
+| <code>odd</code> 
+| 100% or <code>to</code>
+|-
+| <code>alternate-reverse</code> 
+| <code>even</code> 
+| 100% or <code>to</code>
+|-
+| <code>alternate-reverse</code> 
+| <code>odd</code> 
+| 0% or <code>from</code>
+|}
+
 }}{{CSS Property Value
 |Data Type=backwards
-|Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
+|Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. These are either the values of the ''from'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''normal''' or '''alternate'''’) or those of the ''to'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''reverse''' or '''alternate-reverse'''). When the animation ends, properties revert to their original state.
 }}{{CSS Property Value
 |Data Type=both
 |Description=Values set by the first and last keyframes are applied before and after the animation.
