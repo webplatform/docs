@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -22,7 +21,7 @@
 |Description=When the animation ends, properties retain the values set by the final keyframe.
 }}{{CSS Property Value
 |Data Type=backwards
-|Description=If the animation is delayed by <code>animation-delay</code>, properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
+|Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. When the animation ends, properties revert to their original state.
 }}{{CSS Property Value
 |Data Type=both
 |Description=Values set by the first and last keyframes are applied before and after the animation.
@@ -99,7 +98,16 @@ header {
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation|animation]]
+*[[css/properties/animation-delay|animation-delay]]
+*[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+
 |External_links=* See also [http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video].
 }}
 {{Topics|CSS}}
