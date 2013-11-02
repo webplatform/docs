@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -12,6 +11,7 @@
 |Inherited=No
 |Media=visual
 |Animatable=No
+|CSS object model property=columnRule
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=column-rule-width
