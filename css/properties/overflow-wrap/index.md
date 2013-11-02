@@ -48,7 +48,7 @@ p:nth-child(2) {
 }}
 {{Notes_Section
 |Usage=This property is only in use when [[css/properties/white-space|'''white-space''']] allows '''wrapping'''.
-|Notes='''word-wrap''' is a commonly used alias for '''overflow-wrap'''; specifically, '''word-wrap'' was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
+|Notes=[[css/properties/word-wrap|'''word-wrap''']] is a commonly used alias for '''overflow-wrap'''; specifically, '''word-wrap''' was a prior iteration of the property.  Most browsers recognize '''word-wrap''', but usage of '''overflow-wrap''' should be encouraged.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
