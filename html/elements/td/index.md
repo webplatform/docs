@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
@@ -9,19 +8,14 @@
 {{Summary_Section|Defines a standard Cell in an HTML table.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableDataCellElement
+|Content=Most attributes used in HTML4.1 with <code>&lt;td&gt;</code> has been deprecated with exception of ""colspan"" and ""headers""
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''TABLE''' element with '''THEAD''', '''TR''', and '''TH''' to create a table with three rows and two columns.
+|Description=This example uses the '''table''' element with '''tr''' and '''th''' to create a table with three rows and two columns.
 |Code=&lt;table border{{=}}"1" width{{=}}"80%"&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Heading 1&lt;/th&gt;
-      &lt;th&gt;Heading 2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Row 1, Column 1 text.&lt;/td&gt;
@@ -46,7 +40,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=HTML, Tables
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
