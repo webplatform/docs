@@ -14,23 +14,23 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[html/elements/tbody|'''tbody''']] element with the [[html/elements/table|'''table''']], [[html/elements/td|'''td''']], '''thead'']]', and [[html/elements/tr|'''tr'']]' elements to create a table with the first row in the table head and the second row in the table body.
-|Code=&lt;TABLE&gt;
-  &lt;THEAD&gt;
-    &lt;TR&gt;
+|Description=This example uses the [[html/elements/tbody|'''tbody''']] element with the [[html/elements/table|'''table''']], [[html/elements/td|'''td''']], '''thead''']], and [[html/elements/tr|'''tr''']] elements to create a table with the first row in the table head and the second row in the table body.
+|Code=&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
       &lt;TD&gt;
         This text is in the THEAD.
       &lt;/TD&gt;
-    &lt;/TR&gt;
-  &lt;/THEAD&gt;
-  &lt;TBODY&gt;
-    &lt;TR&gt;
-      &lt;TD&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
         This text is in the TBODY.
-      &lt;/TD&gt;
-    &lt;/TR&gt;
-  &lt;/TBODY&gt;
-&lt;/TABLE&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 }}
 }}
 {{Notes_Section}}
