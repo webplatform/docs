@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0.
+|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0. 
 }}{{CSS Property Value
 |Data Type=dotted
 |Description=Column rule is a dotted line.
