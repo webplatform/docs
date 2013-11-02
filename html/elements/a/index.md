@@ -54,6 +54,17 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 {{!}} <pre>id="TableOfContents"</pre>
 {{!}}
 {{!}}-
+{{!}} [[html/attributes/hreflang|'''hreflang''']]
+{{!}} Language tag [http://www.ietf.org/rfc/bcp/bcp47.txt for HTML5] or [http://www.ietf.org/rfc/rfc1766.txt for HTML4]
+{{!}} Hint for language of target. May be used with rel="alternate" as a hint to the server for which language to provide.
+{{!}} <pre>reflang="ja"</pre>
+{{!}}-
+{{!}} [[html/attributes/rel|'''rel''']]
+{{!}} comma-separated list of keywords
+{{!}} Indicates the relationship of the link target to the current page
+{{!}} <pre>rel="help"</pre>
+{{!}}
+{{!}}-
 {{!}} [[html/attributes/target|'''target''']]
 {{!}} [http://www.w3.org/TR/html5/browsers.html#valid-browsing-context-name-or-keyword Browsing context]
 {{!}} Tells where to open the link when it is followed
@@ -66,9 +77,15 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 {{{!}} class="wikitable"
 ! Name
 ! Value
+! Purpose
+! Example
+! Validity
 {{!}}-
-{{!}} [[html/attributes/hreflang|'''hreflang''']]
-{{!}} Language tag [http://www.ietf.org/rfc/bcp/bcp47.txt for HTML5] or [www.ietf.org/rfc/rfc1766.txt for HTML4]
+{{!}} [[html/attributes/rel|'''rel''']]
+{{!}} text
+{{!}} Indicates the relationship of the current page to the link target
+{{!}} <pre>rev="index"</pre>
+{{!}} removed in HTML5
 {{!}}}
 }}
 {{Examples_Section
