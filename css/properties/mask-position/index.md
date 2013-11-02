@@ -13,7 +13,7 @@
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
-|Computed value=A list, each item consisting of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage.
+|Computed value=Two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage.
 |Animatable=Yes
 |CSS percentages=Refer to size of mask painting area minus size of mask image.
 |Values={{CSS Property Value
