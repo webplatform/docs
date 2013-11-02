@@ -13,7 +13,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
-|CSS object model property=maqueePlayCount
+|CSS object model property=marqueePlayCount
 |CSS percentages=n/a
 |Values={{CSS Property Value
 |Data Type=<non-negative-integer>
