@@ -12,7 +12,7 @@
 在这个过程中，你会写很多的代码，并在Web浏览器中测试它。在开始之前，你至少应该有以下安装：
 
 *最新浏览器。如果你尚未拥有，请从它们主页下载： 
-[http://www.google.com/chrome/| 酷容]，
+[http://www.google.com/chrome/ 酷容]，
 [http://www.mozilla.org/firefox/ 火狐]，
 [http://microsoft.com/ IE]，
 [http://www.opera.com/ 欧朋]，和
