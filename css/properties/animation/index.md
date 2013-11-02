@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand property to define a CSS animation, setting all parameters at once. }}
+{{Summary_Section|Shorthand property to define a CSS animation, setting all parameters at once.}}
 {{CSS Property
 |Initial value=See individual properties.
 |Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
@@ -90,8 +90,8 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
-|Manual_links=*[[tutorials/css_animations|" the CSS animations tutorial"]]
-*[[css/atrules/@keyframes|'''@keyframes''']]
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*'''[[css/atrules/@keyframes|@keyframes]]'''
 }}
 {{Topics|CSS}}
 {{External_Attribution
