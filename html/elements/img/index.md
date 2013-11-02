@@ -9,6 +9,25 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLImageElement
 |Content=The '''img''' element (&lt;img&gt;) embeds an image in a document. The &lt;img&gt; element can be nested in an [[html/elements/a|&lt;a&gt;]] element to create an image that links to another page or section. The value of the '''alt''' attribute (&lt;alt&gt;) provides equivalent content for those who cannot process images or who have image loading disabled.  Alternatives to the &lt;img&gt; element include setting the background-image property of an element.
+
+===Attributes===
+*[http://docs.webplatform.org/wiki/html/attributes/alt alt]
+*[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img) src]
+*[http://docs.webplatform.org/wiki/html/attributes/useMap usemap]
+*[http://docs.webplatform.org/wiki/html/attributes/isMap ismap]
+*[http://docs.webplatform.org/wiki/html/attributes/width_(img,_input_elements) width]
+*[http://docs.webplatform.org/wiki/html/attributes/height height]
+
+===States===
+An img is always in one of the following states:
+;Unavailable
+:The user agent hasn't obtained any image data.
+;Partially available
+:The user agent has obtained some of the image data.
+;Completely available
+:The user agent has obtained all of the image data and at least the image dimensions are available.
+;Broken
+:The user agent has obtained all of the image data that it can, but it cannot even decode the image enough to get the image dimensions (e.g. the image is corrupted, or the format is not supported, or no data could be obtained).
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,15 +44,7 @@
 |LiveURL=http://code.webplatform.org/gist/7283804
 }}
 }}
-{{Notes_Section
-|Usage====Attributes===
-*[http://docs.webplatform.org/wiki/html/attributes/alt alt]
-*[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img) src]
-*[http://docs.webplatform.org/wiki/html/attributes/useMap usemap]
-*[http://docs.webplatform.org/wiki/html/attributes/isMap ismap]
-*[http://docs.webplatform.org/wiki/html/attributes/width_(img,_input_elements) width]
-*[http://docs.webplatform.org/wiki/html/attributes/height height]
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 2.0
@@ -75,6 +86,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Multimedia
+|External_links=http://www.w3.org/wiki/HTML/Elements/img
 }}
 {{Topics|Graphics, HTML}}
 {{External_Attribution
