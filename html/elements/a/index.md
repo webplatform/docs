@@ -30,12 +30,12 @@ The value is the enclosed anchor text or image tag, which is displayed in the pa
 {{!}} [[html/attributes/href|'''href''']]
 {{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI] enclosed in double-quotes
 {{!}} Target of link
-{{!}} <pre>href="http://example.com"</pre> <pre>href="#SectionI"</pre>
+{{!}} <pre>href="http://example.com"</pre> <pre>href="#TableOfContents"</pre>
 {{!}}-
 {{!}} [[html/attributes/id|'''id''']]
 {{!}} URI fragment (# followed by identifier text)
 {{!}} Creates an anchor in the page that can be referred to by href
-{{!}} <pre>id="#TableOfContents"</pre>
+{{!}} <pre>id="TableOfContents"</pre>
 {{!}}-
 {{!}} [[html/attributes/target|'''target''']]
 {{!}} [http://www.w3.org/TR/html5/browsers.html#valid-browsing-context-name-or-keyword Browsing context]
