@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines what values are applied by the animation outside the time it is executing (before and after the animation).}}
+{{Summary_Section|Defines what values are applied by the animation outside the time it is executing (before and after the animation). 
+
+By default, an animation does not affect property values between the time it is applied (when the [[css/properties/animation-name|animation-name]] property is set on an element) and the time it begins execution (determined by the [[css/properties/animation-delay|animation-delay]] property). Also, by default an animation does not affect property values after the animation ends (determined by the [[css/properties/animation-duration|animation-duration]] property). The [[css/properties/animation-fill-mode|animation-fill-mode]] property can override this behavior. 
+}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
@@ -107,7 +110,6 @@ header {
 *[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 |External_links=* See also [http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video].
 }}
 {{Topics|CSS}}
