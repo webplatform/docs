@@ -11,6 +11,7 @@
 |Media=visual
 |Computed value=as specified, except ‘visible’
 |Animatable=No
+|CSS object model property=overflow
 |Values={{CSS Property Value
 |Data Type=visible
 |Description=Mostly the default value. Content is not clipped and a scroll mechanism is not added.
@@ -81,7 +82,7 @@ p {
 {{Notes_Section
 |Usage=The <code>overflow</code> CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element.
 
-It takes up to two values defining the <code>overflow-x</code> and <code>overflow-y</code> value of the element.
+The <code>overflow</code> property takes up to two values. If given one value, both <code>overflow-x</code> and <code>overflow-y</code> are set to that value. If given two values, the first value applies to <code>overflow-x</code> and the second applies to <code>overflow-y</code>.
 
 Using the overflow property with a value different than visible, its default, will create a new block formatting context. This is technically necessary as if a float would intersect with the scrolling element it would force to rewrap the content of the scrollable element around intruding floats. The rewrap would happen after each scroll step and would be lead to a far too slow scrolling experience. Note that, by programmatically setting scrollTop to the relevant HTML element, even when overflow has the hidden value an element may need to scroll.
 |Notes=The default value for the <code>html</code> element is <code>auto</code>.
