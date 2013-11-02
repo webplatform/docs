@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 |Editorial notes=Previously imported as ms-grid-column.
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand for setting [[css/properties/grid-column-start|grid-column-start]] and [[css/properties/grid-column-end|grid-column-end]] in a single declaration.}}
+{{Summary_Section|Controls a grid item's placement in a grid area, particularly grid position and a grid span.   Shorthand for setting [[css/properties/grid-column-start|grid-column-start]] and [[css/properties/grid-column-end|grid-column-end]] in a single declaration.}}
 {{CSS Property
 |Initial value=See individual properties
 |Applies to=Grid items
@@ -34,7 +33,6 @@ is equivalent to
 */
 grid-column-start: 1
 grid-column-end: 3;
-
 }}
 }}
 {{Notes_Section}}
