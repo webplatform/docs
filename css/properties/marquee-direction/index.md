@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated. Consider a note talking about its usage.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
