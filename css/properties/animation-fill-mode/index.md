@@ -56,7 +56,7 @@ By default, an animation does not affect property values between the time it is 
 
 }}{{CSS Property Value
 |Data Type=backwards
-|Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. These are either the values of the ''from'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''normal''' or '''alternate'''’) or those of the ''to'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''reverse''' or '''alternate-reverse'''). When the animation ends, properties revert to their original state.
+|Description=If the animation is delayed by [[css/properties/animation-delay|animation-delay]], properties assume values set by the first keyframe while waiting for the animation to start. These are either the values of the ''from'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''normal''' or '''alternate''') or those of the ''to'' keyframe (when [[css/properties/animation-direction|animation-direction]] is '''reverse''' or '''alternate-reverse'''). When the animation ends, properties revert to their original state.
 
 :{{{!}} class="mw-datatable os-suggest-results filehistory"
 {{!}}-
