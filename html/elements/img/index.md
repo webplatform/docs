@@ -27,21 +27,12 @@
 }}
 {{Notes_Section
 |Usage====Attributes===
-;alt = Normal character data
-: Gives the fallback content for the image.
-;src = URL potentially surrounded by spaces
-: Specifies a URL referencing a non-interactive, optionally animated, image that is neither paged nor scripted.
-;usemap = Hash-name reference
-: Specifies a hash-name reference to a map element with which to associate the object.
-;ismap = Boolean value
-: Specifies that its img element provides access to a server-side image map.
-;width = Non-negative integer
-: Give the width of the visual content of the element, in CSS pixels.
-;height = Non-negative integer
-: Give the height of the visual content of the element, in CSS pixels. 
-
-|Notes====Remarks===
-
+*[http://docs.webplatform.org/wiki/html/attributes/alt alt]
+*[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img) src]
+*[http://docs.webplatform.org/wiki/html/attributes/useMap usemap]
+*[http://docs.webplatform.org/wiki/html/attributes/isMap ismap]
+*[http://docs.webplatform.org/wiki/html/attributes/width_(img,_input_elements) width]
+*[http://docs.webplatform.org/wiki/html/attributes/height height]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
