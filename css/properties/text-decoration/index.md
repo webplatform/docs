@@ -44,14 +44,10 @@
 <p class="blink">Blinking text</p>
 <p class="mixed">Mixed decoration text</p>
 </pre>
-|LiveURL=http://dabblet.com/gist/4744959
+|LiveURL=http://code.webplatform.org/gist/7283381
 }}{{Single Example
 |Language=CSS
-|Code=/**
- * text-decoration property examples
- */
-
-.under   { text-decoration: underline; }
+|Code=.under   { text-decoration: underline; }
 .over    { text-decoration: overline; }
 .through { text-decoration: line-through; }
 .blink   { text-decoration: blink; }
