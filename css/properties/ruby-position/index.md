@@ -23,39 +23,20 @@
 |Description=The ruby text appears on the right side of the vertical text.
 }}{{CSS Property Value
 |Data Type=under
-|Description=The ruby text appears under the base in horizontal text. 
+|Description=The ruby text appears under the base in horizontal text.
 }}{{CSS Property Value
 |Data Type=left
 |Description=The text appears on the left side of the text.
 }}{{CSS Property Value
 |Data Type=inter-character
-|Description=This value provided special character especially for traditional Chinese used in Taiwan (bopomofo). The text appears vertically on the right side of the text 
+|Description=This value provided special character especially for traditional Chinese used in Taiwan (bopomofo). The text appears vertically on the right side of the text
 }}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''ruby-position''' attribute and the '''ruby-position''' property to set the position of the ruby text. It uses an inline style sheet to set the '''ruby-position''' attribute to '''inline'''.
-|Code=&lt;RUBY ID{{=}}oRuby STYLE {{=}} "ruby-position: inline"&gt;
-Ruby base.
-&lt;RT&gt;Ruby text.
-&lt;/RUBY&gt;
-&lt;P&gt;
-&lt;INPUT
-TYPE{{=}}button VALUE{{=}}"Above"
-onclick{{=}}"oRuby.style.rubyPosition{{=}}'above';"
-&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rubyPosition.htm
+|Examples=
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''ruby-position''' property specifies the position of the ruby text defined by the '''rt''' object, and is set on the '''ruby''' object.
-|Import_Notes====Syntax===
-<code>'''ruby-position: '''above '''{{!}}''' inline</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203763 CSS3 Ruby Module], Section 4.1
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
