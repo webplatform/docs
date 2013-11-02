@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=No animation applies to the element.
+|Description=No animation applies to the element. You can use this value to override any animations coming from the cascade.
 }}{{CSS Property Value
 |Data Type=<single-animation-name> [, <single-animation-name>]*
 |Description=One or more comma-separated animation names. Each name is used to select the <code>[[css/atrules/@keyframes|@keyframes]]</code> rule that defines the animation. If the specified name does not match any '''@keyframes''' rule then no animation will be run for this name. In addition, when multiple animations update the same property, the animation listed last wins.
