@@ -64,7 +64,7 @@ body {
 }}
 }}
 {{Notes_Section
-|Usage=The <code>overflow-y</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
+|Usage=The <code>overflow-x</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the left and right edges.
 |Notes=Setting the overflow-x property to visible causes the content to clip to the size of the window or frame that contains the object.
 }}
 {{Related_Specifications_Section
@@ -73,14 +73,14 @@ body {
 |URL=http://dev.w3.org/csswg/css-box/#overflow-x
 |Status=Editor's Draft
 }}{{Related Specification
+|Name=CSS3 module: The box model
+|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
+|Status=Working Draft
+}}{{Related Specification
 |Name=CSS basic box model
 |URL=http://www.w3.org/TR/css3-box/#overflow1
 |Status=Working Draft
 |Relevant_changes=Add no-display and no-content
-}}{{Related Specification
-|Name=CSS3 module: The box model
-|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/
-|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -113,6 +113,9 @@ body {
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
+|Manual_sections==== Related Properties ===
+* [[css/properties/overflow|overflow]]
+* [[css/properties/overflow-y|overflow-y]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
