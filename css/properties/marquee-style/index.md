@@ -1,6 +1,7 @@
 {{Page_Title|marquee-style}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=According to W3 specifications, this property should apply to all elements that accept the <code>overflow</code> property. However, it currently only works with the <code>marquee</code> tag. Perhaps this property has been deprecated.
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
