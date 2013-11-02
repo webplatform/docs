@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|<code>unicode-range</code> allows you to set a specific range of characters to be downloaded from a font (embedded using <code>@font-face</code>) and made available for use on the current page.}}
 {{CSS Property
@@ -68,8 +68,8 @@ p {
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
-|URL=http://dev.w3.org/csswg/css-fonts/#unicode-range-desc
-|Status=Editor's draft
+|URL=http://www.w3.org/TR/css-fonts-3/#descdef-unicode-range
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
