@@ -1,16 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|When present, it specifies that the user is allowed to enter more than one value in the <input> element.}}
+{{Summary_Section|The '''multiple''' attribute indicates that the user is allowed to enter more than one value in an <input> element.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The multiple attribute is a boolean attribute.
+|Content=This attribute can be <code>true</code> or <code>false</code>.
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,12 +27,7 @@
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/multiple.htm
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -44,9 +39,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>select</code>
-*<code>[[html/attributes/type (select element)|type]]</code>
+|Topic_clusters=HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
