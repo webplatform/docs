@@ -5,11 +5,11 @@
 |Checked_Out=Yes
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.}}
 {{CSS Property
-|Initial value=no-clip
+|Initial value=border-box
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
@@ -48,8 +48,8 @@ body {
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
