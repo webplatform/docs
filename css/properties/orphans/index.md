@@ -20,7 +20,7 @@ Note that the orphan property does not generally affect non-paged media such as 
 |Values={{CSS Property Value
 |Data Type=integer
 |Description=Only positive values are allowed.
-A '''String''' that specifies or receives the minimum number of lines to print at the bottom of a page.
+An '''Integer''' that specifies or receives the minimum number of lines to print at the bottom of a page.
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=Takes the same specified value as the property for the element's parent.
