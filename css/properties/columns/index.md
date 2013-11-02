@@ -31,6 +31,12 @@
   -moz-columns: auto 3;  /* Firefox */
   -webkit-columns: auto 3;  /* Safari and Chrome */
   columns: auto 3;
+  columns: 12em;      /* column-width: 12em; column-count: auto */
+  columns: auto 12em; /* column-width: 12em; column-count: auto */
+  columns: 2;         /* column-width: auto; column-count: 2 */
+  columns: 2 auto;    /* column-width: auto; column-count: 2 */
+  columns: auto;      /* column-width: auto; column-count: auto */
+  columns: auto auto; /* column-width: auto; column-count: auto */
 }
 |LiveURL=http://code.webplatform.org/gist/6288803
 }}
