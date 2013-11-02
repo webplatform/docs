@@ -15,10 +15,10 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=A simple example of showing a video
-|Code=<p>This is big buck bunny video.</p>
-<video width="350" height="240" controls>
-<source src="http://mirrorblender.top-ix.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_h264.mov">
-</video>
+|Code=&lt;p&gt;This is big buck bunny video.&lt;/p&gt;
+&lt;video width="350" height="240" controls&gt;
+  &lt;source src="http://mirrorblender.top-ix.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_h264.mov"gt;
+&lt;/videogt;
 |LiveURL=http://code.webplatform.org/gist/7281780
 }}
 }}
