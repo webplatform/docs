@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Places grid-items into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.}}
+{{Summary_Section|Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.}}
 {{CSS Property
 |Initial value=none
 |Applies to=Grid containers
