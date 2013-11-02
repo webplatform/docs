@@ -12,14 +12,7 @@
 The &lt;caption&gt; element must be inserted immediately after the (&lt;table&gt;) element.
 
 ===HTML information===
-{| class="wikitable"
-|-
-|Closing Tag
-|Required
-|-
-|CSS Display
-|Inline
-|}
+Closing tags are required. CSS display is inline.
 }}
 {{Examples_Section
 |Not_required=No
