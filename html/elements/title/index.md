@@ -19,10 +19,9 @@
 <html lang="en">
 <head>
 <title> WebPlatform.org - Your Web, documented </title>
-<!head>
+</head>
 </html>
 </syntaxhighlight>
-
 }}
 }}
 {{Notes_Section
