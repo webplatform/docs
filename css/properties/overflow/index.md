@@ -146,6 +146,9 @@ Internet Explorer 4 to 6 enlarges an element with <code>overflow: visible</code>
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
+|Manual_sections==== Related Properties ===
+* [[css/properties/overflow-x|overflow-x]]
+* [[css/properties/overflow-y|overflow-y]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
