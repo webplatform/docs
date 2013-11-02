@@ -4,9 +4,9 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The text-transform property controls capitalization effects of an element's text.}}
+{{Summary_Section|This property transforms text for styling purposes. (It has no effect on the underlying content.)}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -27,38 +27,14 @@
 }}{{CSS Property Value
 |Data Type=lowercase
 |Description=Transforms all the characters to lowercase.
+}}{{CSS Property Value
+|Data Type=full-width
+|Description=Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters.
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''text-transform''' attribute and the '''text-transform''' property to transform a block of text from lower case to upper case when the user moves the mouse over the text. The text transforms back to lower case when the user clicks the text.
-
-This example uses three calls to an embedded (global) style sheet to transform the text.
-|Code=&lt;STYLE&gt;
-    .transform1 { text-transform:uppercase }
-    .transform2 { text-transform:lowercase }
-    .transform3 { text-transform:none }
-&lt;/STYLE&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt; 
-&lt;DIV STYLE{{=}}"font-size:14" 
-    onmouseover{{=}}"this.className{{=}}'transform1'" 
-    onclick{{=}} "this.className{{=}}'transform2'"
-    ondblclick{{=}}"this.className{{=}}'transform3'"&gt; 
-:
-&lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/text-transform.htm
-}}{{Single Example
-|Description=This example uses inline scripting to transform the text when different mouse events occur.
-|Code=&lt;DIV STYLE{{=}}"font-size:14"
-    onmouseover{{=}}"this.style.textTransform{{=}}'uppercase'"
-    onmouseout{{=}}"this.style.textTransform{{=}}'lowercase'"
-    onclick{{=}}"this.style.textTransform{{=}}'none'"&gt;
-:
-&lt;/DIV&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/textTransform.htm
-}}{{Single Example
 |Language=CSS
 |Description=Examples using different values for text-transform
 |Code=/*
@@ -110,10 +86,6 @@ body {
 |Notes=This property transforms text for styling purposes. (It has no effect on the underlying content.)
 
 When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
-|Import_Notes====Syntax===
-<code>'''text-transform: '''capitalize '''{{!}}''' uppercase '''{{!}}''' lowercase '''{{!}}''' none '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.4.5
 }}
 {{Related_Specifications_Section
 |Specifications=
