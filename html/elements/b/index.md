@@ -22,7 +22,8 @@ The b element should be used as a last resort when no other element is more appr
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=In the following example, objects in a text adventure are highlighted as being special by use of the "b" element.
+|Description=
+In the following example, objects in a text adventure are highlighted as being special by use of the "b" element.
 |Code=<nowiki><p>You enter a small room. Your <b>sword</b> glows
 brighter. A <b>rat</b> scurries past the corner wall.</p></nowiki>
 |LiveURL=http://code.webplatform.org/gist/7281229
