@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|High-level issues=Copyright Issue
+|Checked_Out=Yes
+|Editorial notes=The new code should be added. The first blog of the code is from W3CSchool.
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
