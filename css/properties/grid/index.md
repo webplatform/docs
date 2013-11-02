@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -34,8 +33,6 @@
 |Code=<div class="grid">
   <!-- 100% wide -->
 </div>
-
-
 }}{{Single Example
 |Language=CSS
 |Description=2 column grid
