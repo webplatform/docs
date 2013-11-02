@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Missing Relevant Sections
 |Content=Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -80,7 +81,7 @@ UAs may therefore treat all links as unvisited links, or implement other measure
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
+|Topic_clusters=Pseudo-Classes, Selectors, Visual Effects
 }}
 {{Topics|CSS}}
 {{External_Attribution
