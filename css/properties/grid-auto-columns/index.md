@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|When a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]), implicit grid tracks are created to hold it. This property (with [[css/properties/grid-auto-rows|grid-auto-rows]]) specifies the size of such implicitly-created tracks.}}
+{{Summary_Section|Changes default size for columns.  Creates implicit grid tracks when a grid item is placed into a row or column that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] or [[css/properties/grid-template-columns|grid-template-columns]]).  This property (with [[css/properties/grid-auto-rows|grid-auto-rows]]) specifies the default size of such implicitly-created tracks.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid containers
@@ -25,8 +24,7 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/*
-In this example, grid item B is positioned in column 5, 
-which creates four implicit columns (1-4) and one implicit row (2). 
+Grid item B is positioned in column 5.  This automatically generates four implicit columns (1-4) and one implicit row (2). 
 The implicit (auto) columns and rows are sized at 20px
 using grid-auto-columns and grid-column-rows.
 */
