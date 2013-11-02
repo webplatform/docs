@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''html''' element (&lt;html&gt;) represents the root of an HTML document. The "'html"' tag is the container for all other HTML element (Except for the "'!DOCTYPE"' tag).}}
+{{Summary_Section|The '''html''' element (&lt;html&gt;) represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements; except for the &lt;!DOCTYPE&gt; tag.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHtmlElement
 |Content=The '''html''' element is used to contain a complete HTML document.
