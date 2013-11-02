@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -13,6 +12,7 @@
 |Inherited=No
 |Media=visual
 |Animatable=No
+|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=column-rule-width
 |Description=Value of the [[css/properties/column-rule-width|'''column-rule-width''']] property.
