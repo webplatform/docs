@@ -106,7 +106,6 @@ header {
     to   { transform : translateY(0em) }
 }
 
-
 @keyframes scrollBanner {
     from { transform : translateX(0) }
     17%  { transform : translateX(0%) }
