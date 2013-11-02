@@ -51,8 +51,8 @@ header {
 
 
 @keyframes moveContent {
-    from { -webkit-transform : translateY(0em) }
-    to   { -webkit-transform : translateY(3em) }
+    from { transform : translateY(0em) }
+    to   { transform : translateY(3em) }
 }
 
 @keyframes insertBanner {
