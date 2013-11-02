@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first.}}
+{{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS [[css/properties/border-image-repeat|border-image-repeat]] property.}}
 {{CSS Property
 |Initial value=stretch
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
