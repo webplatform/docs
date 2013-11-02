@@ -40,7 +40,6 @@
   font-size: 300%;
   font-variant: small-caps;	
 }
-|LiveURL=http://code.webplatform.org/gist/5716625
 }}
 }}
 {{Notes_Section
