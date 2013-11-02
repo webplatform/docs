@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|High-level issues=Needs Review
+|Checked_Out=No
+}}
 {{Standardization_Status|De Facto Standard}}
 {{API_Name}}
 {{Summary_Section|Defines the <code>title</code> of the current document.}}
@@ -11,9 +14,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''TITLE''' element to specify a title for the document.
-|Code=&lt;head&gt;
-&lt;title&gt;"WebPlatform.org — Your Web, documented"&lt;/title&gt;
-&lt;/head&gt;
+|Code=<syntaxhighlight lang="html5">
+<!doctype html>
+<html lang="en">
+<head>
+<title> WebPlatform.org - Your Web, documented </title>
+<!head>
+</html>
+</syntaxhighlight>
+
 }}
 }}
 {{Notes_Section
