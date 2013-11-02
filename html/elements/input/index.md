@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
 |Content=Broken Links, Compatibility Incomplete
 |Checked_Out=No
 }}
