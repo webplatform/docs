@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>font-style</code> property selects normal, italic, or oblique faces within a font-family.}}
+{{Summary_Section|The <code>font-style</code> property allows normal, italic, or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face. Oblique faces can be simulated by artificially sloping the glyphs of the regular face.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
-|Description=Selects a face that is classified as 'normal'.
+|Description=Selects a face that is classified as a normal face (one that is neither italic or oblique).
 }}{{CSS Property Value
 |Data Type=italic
 |Description=Selects a font that is labeled as 'italic' (cursive). If no font labeled 'italic' is available, a font that is labeled as 'oblique' is selected.
@@ -44,17 +44,18 @@ p.oblique { font-style: oblique; }
 }}
 }}
 {{Notes_Section
-|Usage=According to the specs, 'oblique' is a sloped version of the regular font. The example shows that the browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of the regular 'f' aligns with the bottom of the surrounding text. In the oblique line, this should be the case as well, but instead it shows the cursive 'f' that extends below the surrounding letters.
+|Usage=According to the specs, 'oblique' is a sloped version of the regular font. The example shows that browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of a regular 'f' aligns with the bottom of the surrounding text. In the oblique line this should be the case as well, but instead it shows a cursive 'f' that extends below the surrounding letters--proving that the browser is using the italic version instead of oblique.
 
 [[file:screenshot-font-style-example.png]]
-|Notes====Remarks===
-The '''oblique''' value is available as of Microsoft Internet Explorer 4.0. Internet Explorer 4.0 renders italic and oblique identically.
+|Notes=If no italic or oblique face is available, oblique faces can be synthesized by rendering non-obliqued faces with an artificial obliquing operation. The use of these artificially obliqued faces can be disabled using the ‘font-synthesis’ property.
+
+Authors should also be aware that synthesized approaches may not be suitable for scripts like Cyrillic, where italic forms are very different in shape. It is always better to use an actual italic font rather than rely on a synthetic version.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-style-prop
-|Status=W3C Working Draft
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
