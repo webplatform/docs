@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Grid items that are not explicitly placed into a grid cell are automatically placed into an unoccupied grid cell. This property controls the direction in which the search for unoccupied cells takes place, and whether rows or columns are added as needed to accommodate the content.}}
+{{Summary_Section|Automatically places grid-items that do not have an explicit location into the grid layout.  Designates the direction of the flow.  Determines whether rows or columns must be added to accommodate an element.  }}
 {{CSS Property
 |Initial value=none
 |Applies to=Grid containers
