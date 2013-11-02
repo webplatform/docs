@@ -54,11 +54,11 @@ The '''script''' object has these properties.
 |Examples={{Single Example
 |Language=HTML
 |Description=Loading an external script.
-|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;application/Javascript&quot;&gt;&lt;/script&gt;
+|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Writing an inline script.
-|Code=&lt;script type=&quot;application/Javascript&quot;&gt;
+|Code=&lt;script type=&quot;text/javascript&quot;&gt;
   //Do stuff...
 &lt;/script&gt;
 }}
@@ -127,11 +127,12 @@ The '''script''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_links=[[html/elements/noscript|<noscript> tag]]
 |Manual_sections====Related pages (MSDN)===
 *<code>XML Data Islands</code>
 }}
-{{Topics|HTML}}
+{{Topics|HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
