@@ -23,24 +23,19 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;title&gt;QUOTES Example&lt;/title&gt;
-    &lt;style type="text/css"&gt;
-    /* Define quote characters */
-      q { quotes: '"' '"' }
-    /* Define pseudo-class triggers */
-      q:before { content: open-quote }
-      q:after  { content: close-quote }
-    &lt;/style&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-  &lt;p&gt;&lt;q&gt;When I die, I'm donating my body to science fiction.&lt;/q&gt;&lt;em&gt; ~ Stephen Wright&lt;/em&gt;&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+|Language=CSS
+|Description=Here we demonstrate nested quotes.  Notice the syntax used to declare the quotes.  You can use any character for a quote, but here we used <code>'</code> and <code>"</code>.
+|Code=q { quotes: '"' '"' "'" "'" }
+q:before { content: open-quote }
+q:after  { content: close-quote }
 |LiveURL=http://code.webplatform.org/gist/5841933
+}}{{Single Example
+|Language=HTML
+|Description=The HTML for the example above.
+|Code=<p>
+  <q>When I die, I'm donating my <q>body</q> to science fiction.</q>
+  <em> ~ Stephen Wright</em>
+</p>
 }}
 }}
 {{Notes_Section
