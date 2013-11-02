@@ -14,16 +14,25 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<table border="1">
-  <tr>
-    <td>Row 1 Cell A</td>
-    <td>Row 1 Cell B</td>
-  </tr>
-<tr>
-    <td>Row 2 Cell A</td>
-    <td>Row 2 Cell B</td>
-  </tr>
-</table>
+|Description=This example uses the '''TABLE''' element with '''THEAD''', '''TR''', and '''TH''' to create a table with three rows and two columns.
+|Code=&lt;table border{{=}}"1" width{{=}}"80%"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Heading 1&lt;/th&gt;
+      &lt;th&gt;Heading 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 1, Column 1 text.&lt;/td&gt;
+      &lt;td&gt;Row 1, Column 2 text.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Row 2, Column 1 text.&lt;/td&gt;
+      &lt;td&gt;Row 2, Column 2 text.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 }}
 }}
 {{Notes_Section}}
@@ -37,16 +46,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>th</code>
-*<code>tr</code>
-*<code>[[css/properties/border-collapse|borderCollapse]]</code>
-*<code>Conceptual</code>
-*<code>Building Tables Dynamically</code>
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
