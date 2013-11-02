@@ -13,7 +13,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''table''' element with '''tr''' and '''th''' to create a table with three rows and two columns.
+|Description=This example uses the [[html/elements/table|'''table''']] element with [[html/elements/tr|'''tr''']] and [[html/elements/td|'''td''']] to create a table with three rows and two columns.
 |Code=&lt;table border{{=}}"1" width{{=}}"80%"&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
