@@ -15,8 +15,8 @@
 |Animatable=No
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
-|Data Type=single-animation [, single-animation]
-|Description=A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional.
+|Data Type=single-animation [, single-animation*]
+|Description=A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional. Multiple animations can be assigned as a comma-separated list.
 
 ;<code>&lt;single-animation-name&gt;</code>
 :Value of the [[css/properties/animation-name|'''animation-name''']] property.
@@ -57,7 +57,7 @@ animation: moveten 1s steps(10, end) infinite;
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
 |Notes=Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born. 
 
-This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or tween as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
+This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or ''tween'' as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
 
 Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
 
