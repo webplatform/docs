@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Specifies a row position based upon an integer location, string value, or desired row size. 
 
-[grid-row] is used as short-hand for grid-row-position and grid-row-position
+[[css/properties/grid-row]] is used as short-hand for grid-row-position and grid-row-position
 }}
 {{CSS Property
 |Initial value=1
