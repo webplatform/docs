@@ -53,7 +53,9 @@
 |LiveURL=http://code.webplatform.org/gist/6947763
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The <code>overflow-y</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS basic box model
