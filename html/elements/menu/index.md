@@ -15,15 +15,9 @@ The menu element is used to define a list as a menu of commands. The menu elemen
 
 ===Attributes===
 
-{ | class="wikitable"
-|-
-! Attribute !! Value !! Description
-|-
-| label || text || Specifies a visible label for the menu
-|-
-| type || context, toolbar, list || Specifies which type of menu to display. (Default value is list)
-|}
+The '''menu''' element will specifically accept the '''label''' attribute whose value is ''text'' and the '''type''' attribute whose value can be ''context'', ''toolbar'', or ''list''. ''list'' is the default value.
 
+The '''menu''' element also accepts [[html/global_attributes | global attributes]] and [[html/event_attributes | event attributes]].
 }}
 {{Examples_Section
 |Not_required=No
