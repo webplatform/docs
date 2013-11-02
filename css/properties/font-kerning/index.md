@@ -28,11 +28,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<p class="normal">The quick brown fox</p>
+<p class="none">The quick brown fox</p>
+}}
 }}
 {{Notes_Section
 |Usage=In <code>auto</code> setting, user agents can determine whether to apply kerning or not based on a number of factors like text size, script, or other factors that influence text processing speed. Authors who what proper kerning should use <code>'normal'</code> to explicitly enable kerning. Likewise, use <code>none</code> to explicitly disable kerning. There is a performance tradeoff when enabling kerning which might not have a large impact on text rendering speed for modern implementations.
-|Notes=Kerning data is a must for this property to take effect. When rendering OpenType fonts, the opentype specification states that kerning be enabled by default. When kerning is enabled, the OpenType <code>kern</code> feature is enabled. <code>vkern</code> is used for vertical text. User Agents must also support kerning via data contained in a <code>kern</code> font table, as detailed in the OpenType specification. When used in conjunction with <code>letter-spacing</code, kerning adjustments are considered part of the default spacing and letter spacing adjustments are made <bold>after</bold> kerning has been applied.
+|Notes=Kerning data is a must for this property to take effect. When rendering OpenType fonts, the opentype specification states that kerning be enabled by default. When kerning is enabled, the OpenType <code>kern</code> feature is enabled. <code>vkern</code> is used for vertical text. User Agents must also support kerning via data contained in a <code>kern</code> font table, as detailed in the OpenType specification. When used in conjunction with <code>letter-spacing</code>, kerning adjustments are considered part of the default spacing and letter spacing adjustments are made <bold>after</bold> kerning has been applied.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
