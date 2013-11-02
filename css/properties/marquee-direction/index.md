@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>marquee-direction</code> determines how fast the marquee content scrolls.}}
+{{Summary_Section|The <code>marquee-direction</code> determines the initial direction in which the marquee content moves.}}
 {{CSS Property
 |Initial value=forward
 |Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
@@ -62,8 +62,8 @@ animation direction: top-to-bottom
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Marquee Module Level 3
-|URL=http://www.w3.org/TR/2008/WD-css3-marquee-20080801/#marquee-speed
-|Status=Working Draft
+|URL=http://www.w3.org/TR/css3-marquee/#marquee-direction
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
