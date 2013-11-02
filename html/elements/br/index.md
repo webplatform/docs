@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
