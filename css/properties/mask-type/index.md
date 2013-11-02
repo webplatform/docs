@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Examples Needed
 |Checked_Out=No
 |Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
@@ -13,7 +12,7 @@
 |Applies to=<mask> elements.
 |Inherited=No
 |Media=visual
-|Computed value=As specified.
+|Computed value=the unique non-ambiguous order defined by the formal grammar
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -28,6 +27,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=Alpha mask type
 |Code=/* alpha */
 body {
         background-color: white;
@@ -35,6 +35,17 @@ body {
         mask-position: bottom right;
         mask-repeat: no-repeat;
         mask-type: alpha;
+	}
+}}{{Single Example
+|Language=CSS
+|Description=Luminance mask type
+|Code=/*luminance*/
+body {
+        background-color: white;
+        mask-image: url(big-red-dot.jpg);
+        mask-position: bottom right;
+        mask-repeat: no-repeat;
+        mask-type: luminance;
 	}
 }}
 }}
