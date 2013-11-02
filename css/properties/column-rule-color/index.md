@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Specifies the color of the rule between columns.}}
 {{CSS Property
-|Initial value=currentColor
+|Initial value=currentColor (same as for ‘color’ property)
 |Applies to=multi-column elements
 |Inherited=No
 |Media=visual
