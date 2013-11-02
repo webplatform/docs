@@ -14,7 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[html/elements/tbody|'''tbody''']] element with the [[html/elements/table|'''table''']], [[html/elements/td|'''td''']], '''thead''']], and [[html/elements/tr|'''tr''']] elements to create a table with the first row in the table head and the second row in the table body.
+|Description=This example uses the [[html/elements/tbody|'''tbody''']] element with the [[html/elements/table|'''table''']], [[html/elements/td|'''td''']], [[html/elements/thead|'''thead''']], and [[html/elements/tr|'''tr''']] elements to create a table with the first row in the table head and the second row in the table body.
 |Code=&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
