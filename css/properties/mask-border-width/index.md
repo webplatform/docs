@@ -43,6 +43,18 @@
 #maskbox2: {
     mask-box-image-width: 5%;
 }
+
+
+
+}}{{Single Example
+|Language=CSS
+|Code=.exampleone {
+    -webkit-mask-box-image: url('mask.png');
+}
+
+.exampletwo {
+    -webkit-mask-box-image: url('logo.png') 100 100 0 0 round round;
+}
 }}
 }}
 {{Notes_Section}}
