@@ -151,6 +151,7 @@ header {
 *[[css/properties/animation-duration|animation-duration]]
 *[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
 |External_links=* See also [http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video].
 }}
