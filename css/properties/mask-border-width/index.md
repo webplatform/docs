@@ -43,9 +43,6 @@
 #maskbox2: {
     mask-box-image-width: 5%;
 }
-
-
-
 }}{{Single Example
 |Language=CSS
 |Code=.exampleone {
