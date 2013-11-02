@@ -15,7 +15,7 @@
 |Animatable=No
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
-|Data Type=single-animation
+|Data Type=single-animation [, single-animation]
 |Description=A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional.
 
 ;<code>&lt;single-animation-name&gt;</code>
@@ -55,7 +55,6 @@ animation: moveten 1s steps(10, end) infinite;
 |Usage=The <code>animation</code> shorthand property combines all animation properties except <code>animation-play-state</code> in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
-
 |Notes=Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born. 
 
 This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or tween as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
