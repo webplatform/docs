@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] ) or when the auto-placement algorithm has generated additional rows.. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]]) specifies the size of such implicitly-created tracks.}}
+{{Summary_Section|Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by [[css/properties/grid-template-rows|grid-template-rows]] ) or when the auto-placement algorithm has generated additional rows. This property (with [[css/properties/grid-auto-columns|grid-auto-columns]]) specifies the size of such implicitly-created tracks.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid containers
