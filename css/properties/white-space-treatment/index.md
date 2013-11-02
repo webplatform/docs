@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Deletion Candidate
 |Checked_Out=No
+|Editorial notes=little content on this page, should be deleted because concept is obsolete and this page doesn't have any relevant information.
 }}
 {{Standardization_Status}}
 {{API_Name}}
