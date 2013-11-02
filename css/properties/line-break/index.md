@@ -6,6 +6,7 @@
 {{API_Name}}
 {{Summary_Section|Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.}}
 {{CSS Property
+|Initial value=auto
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
