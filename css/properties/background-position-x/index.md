@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|High-level issues=Needs Flags
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
