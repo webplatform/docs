@@ -4,7 +4,7 @@
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|grid-column-position}}
+{{API_Name}}
 {{Summary_Section|Specifies the column position to place a grid item  based upon integer location, string value, or column size.}}
 {{CSS Property
 |Initial value=auto
