@@ -1,8 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -34,81 +32,44 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how automatic line breaks are suppressed when the user places the mouse pointer over the paragraph. This is caused by toggling the value of the '''white-space''' attribute in the [[dom/events/mouseover|'''onmouseover''']] and [[dom/events/mouseout|'''onmouseout''']] events of the '''p''' element. When the '''white-space''' attribute is set to '''nowrap''' in the '''onmouseover''' event, line breaks are suppressed, and horizontal scrolling is required to view content wider than the element.  When the attribute is set to '''normal''' in the '''onmouseout''' event, lines break automatically, depending on the width of the element.
-|Code=&lt;html&gt;
-&lt;head&gt;
-&lt;style type{{=}}"text/css"&gt;
-.clsOneLiner {
-    white-space: nowrap;
-}
-.clsAutoBreak {
-    white-space: normal;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p onmouseover{{=}}"this.className{{=}}'clsOneLiner';" 
-    onmouseout{{=}}"this.className{{=}}'clsAutoBreak';"&gt;
-Long lines of text remain unbroken when the value of the whitespace attribute is 
-set to nowrap. Place your mouse over the text to suppress automatic line breaks.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/whitespace.htm
-}}{{Single Example
-|Description=The following example shows how to set and retrieve the value of the '''white-space''' property. When the user sets the value of the '''white-space''' property of a '''div''' element, the value of the property is retrieved in a '''span''' element.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function fnSwitch(){
-  oDiv.style.whiteSpace {{=}} event.srcElement.innerText;
-  document.all.oSpan.innerText {{=}} oDiv.currentStyle.whiteSpace;
-}
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;direction Property Sample&lt;/h1&gt;
-&lt;h2&gt;direction: 
-&lt;span id{{=}}"oSpan" style{{=}}"color: red"&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;[ &lt;a href{{=}}"#" onclick{{=}}"fnSwitch()"&gt;normal&lt;/a&gt; {{!}} 
-&lt;a href{{=}}"#" onclick{{=}}"fnSwitch()"&gt;nowrap&lt;/a&gt; {{!}} 
-&lt;a href{{=}}"#" onclick{{=}}"fnSwitch()"&gt;pre&lt;/a&gt; 
-]&lt;/p&gt;
-&lt;div id{{=}}"oDiv" style{{=}}"background: #e4e4e4; padding: 10px;"&gt;
-    In   the   source,   this   sentence   has   three   spaces   between   each   word. 
-    This sentence 
-    takes up three lines 
-    in the source. &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/whitespace_1.htm
-}}{{Single Example
 |Language=CSS
 |Description=See the live example that has all the properties implemented side by side for comparison.
-|Code=/*
-See the link for a better understanding and live example of all the different properties compared side by side.
-*/
+|Code=/**
+ * white-space
+ * CSS3 property
+ * http://docs.webplatform.org/wiki/css/properties/white-space
+ */
 
- .white-space--nowrap {
-       white-space:nowrap; 
-    }
-    
-    .white-space--normal {
-      white-space:normal;
-    }
-    
-    .white-space--pre {
-      white-space:pre;
-    }
-    
-    .white-space--pre-wrap {
-      white-space:pre-wrap;
-    }
-    
-   .white-space--pre-line {
-      white-space:pre-wrap;
-    }
-|LiveURL=http://jsbin.com/uciquc/2/
+.white-space--nowrap {
+  white-space:nowrap;
+}
+
+.white-space--normal {
+  white-space:normal;
+}
+
+.white-space--pre {
+  white-space:pre;
+}
+
+.white-space--pre-wrap {
+  white-space:pre-wrap;
+}
+
+.white-space--pre-line {
+  white-space:pre-wrap;
+}
+
+body {
+  font-size: large;
+  width: 500px;
+}
+
+p {
+  background-color: #ddd;
+}
+
+|LiveURL=http://code.webplatform.org/gist/7284477
 }}
 }}
 {{Notes_Section
@@ -121,7 +82,11 @@ Windows Internet Explorer 8. The '''pre-line''' and '''pre-wrap''' values are u
 <code>'''white-space: '''normal '''{{!}}''' pre '''{{!}}''' nowrap '''{{!}}''' pre-wrap '''{{!}}''' pre-line</code>
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/#white-space-property
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
