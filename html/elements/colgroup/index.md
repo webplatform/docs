@@ -73,12 +73,8 @@ Use the [[html/attributes/span|'''SPAN''']] attribute to specify the number of t
 '''COL''' elements can occur outside of a '''COLGROUP''' element, and these two elements can be used for similar purposes. However, you must use the '''COLGROUP''' element to determine where table internal dividing lines ([[html/attributes/rules|'''rules''']]) should go. This is illustrated in the first example .
 You should avoid using the [[html/attributes/span|'''SPAN''']] attribute inside the '''COLGROUP''' element if there are '''COL''' elements nested within it. This is because the '''SPAN''' attribute that belongs to the nested '''COL''' elements will override the attribute that belongs to the '''COLGROUP''' element. This can cause confusing code and possibly unintended results. This behavior is illustrated in the second example.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
-Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.2.4
 
-
-===HTML information===
+|Import_Notes====HTML information===
 {| class="wikitable"
 |-
 !Closing Tag
@@ -554,8 +550,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>col</code>
+|Topic_clusters=HTML, Tables
+|Manual_sections=*<code>col</code>
 }}
 {{Topics|HTML}}
 {{External_Attribution
