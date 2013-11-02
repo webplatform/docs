@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -16,7 +15,7 @@
 |CSS percentages=Refers to the line-height of the element
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=For each glyph corresponding to textual information within the element, the alignment-point is the intersection of the start-edge of the glyph box and the block-progression-direction position of the alignment point from the font. Padding, border or margin do not affect that alignment point. The alignment point of the inline-level element itself is at the intersection of the start-edge of the first inline box and the baseline identified by the ‘alignment-baseline’ property, if this baseline exists in the baseline-table for the element dominant-baseline. If that specific baseline does not exist, the user agent may use heuristics to determine where the missing baseline would be. 
+|Description=For each glyph corresponding to textual information within the element, the alignment-point is the intersection of the start-edge of the glyph box and the block-progression-direction position of the alignment point from the font. Padding, border or margin do not affect that alignment point. The alignment point of the inline-level element itself is at the intersection of the start-edge of the first inline box and the baseline identified by the ‘alignment-baseline’ property, if this baseline exists in the baseline-table for the element dominant-baseline. If that specific baseline does not exist, the user agent may use heuristics to determine where the missing baseline would be.
 }}{{CSS Property Value
 |Data Type=baseline
 |Description=The alignment point is at the intersection of the start-edge of the element and the dominant-baseline of the element.
