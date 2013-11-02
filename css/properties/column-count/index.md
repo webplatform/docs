@@ -122,6 +122,6 @@ To ensure the specified value is used, all length property values of the multi-c
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx
 |HTML5Rocks_link=
 }}
