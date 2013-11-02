@@ -1,20 +1,18 @@
 {{Page_Title|grid-area}}
 {{Flags
-|High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Shorthand for setting [[css/properties/grid-column-start|grid-column-start]], [[css/properties/grid-column-end|grid-column-end]], [[css/properties/grid-row-start|grid-row-start]], and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
+{{Summary_Section|Lays out one or more grid items bound by 4 grid lines. Shorthand for setting [[css/properties/grid-column-start|grid-column-start]], [[css/properties/grid-column-end|grid-column-end]], [[css/properties/grid-row-start|grid-row-start]], and [[css/properties/grid-row-end|grid-row-end]] in a single declaration.}}
 {{CSS Property
-|Initial value=See individual properties 
+|Initial value=See individual properties
 |Applies to=Grid items
 |Inherited=No
 |Media=visual
-|Computed value=See individual properties 
+|Computed value=See individual properties
 |Animatable=No
-|CSS percentages=See individual properties 
+|CSS percentages=See individual properties
 |Values={{CSS Property Value
 |Data Type=<grid-line> [ <grid-line> [ <grid-line> [ <grid-line> ] ] ]
 |Description=The resolution order of values for this shorthand is grid-row-start, grid-column-start, grid-row-end, grid-column-end. That is, if four <grid-line> values are specified, grid-row-start is set to the first value, grid-column-start is set to the second value, grid-row-end is set to the third value, and grid-column-end is set to the fourth value.
@@ -30,18 +28,18 @@ When grid-column-start is omitted, if grid-row-start is an <ident>, all four lon
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/*
-The shorthand syntax
-*/
-grid-area: 1 2 2 3;
-/*
-is equivalent to
-*/
+|Description=
+
+|Code=grid-area: 1 2 2 3;
+
+/*  Equivalent to :
+
 grid-row-start: 1
 grid-column-start: 2
 grid-row-end: 2;
 grid-column-end: 3;
 
+*/
 }}
 }}
 {{Notes_Section}}
