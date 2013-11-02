@@ -87,13 +87,14 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 {{See_Also_Section
 |Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
 *[[css/atrules/@keyframes|@keyframes]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-duration|animation-duration]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
 *[[css/properties/animation-delay|animation-delay]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-duration|animation-duration]]
 *[[css/properties/animation-fill-mode|animation-fill-mode]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+
 
 }}
 {{Topics|CSS}}
