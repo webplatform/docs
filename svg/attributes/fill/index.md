@@ -5,12 +5,11 @@
 |Checked_Out=Yes
 |Editorial notes=No clear examples.
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘fill’ property paints the interior of the given graphical element. The area to be painted consists of any areas inside the outline of the shape. To determine the inside of the shape, all subpaths are considered, and the interior is determined according to the rules associated with the current value of the ‘fill-rule’ property. The zero-width geometric outline of a shape is included in the area to be painted.}}
+{{Summary_Section|Please refer to http://docs.webplatform.org/wiki/css/properties/fill}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=The fill operation fills open subpaths by performing the fill operation as if an additional "closepath" command were added to the path to connect the last point of the subpath with the first point of the subpath. Thus, fill operations apply to both open subpaths within ‘path’ elements (i.e., subpaths without a closepath command) and ‘polyline’ elements.
 }}
 {{Examples_Section
 |Not_required=Yes
