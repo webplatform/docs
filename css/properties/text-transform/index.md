@@ -81,9 +81,7 @@ body {
 }}
 }}
 {{Notes_Section
-|Notes=This property transforms text for styling purposes. (It has no effect on the underlying content.)
-
-When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
+|Notes=When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 }}
 {{Related_Specifications_Section
 |Specifications=
