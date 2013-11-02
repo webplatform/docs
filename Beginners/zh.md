@@ -1,7 +1,6 @@
 {{Page_Title|网站开发的初学者}}
 {{Flags
-|Content=Grammar/Spelling
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes=translation from english to chinese, has some problem
 }}
 {{Summary_Section|这一系列的文章是为了让初学者，在他们成长为一个web设计师或者开发者的最初旅程上 ，能够信心满满的去完备他们的基本技能}}
@@ -52,7 +51,7 @@
 * [[tutorials/box model|探索CSS盒模型]]
 * [[tutorials/layout fundamentals|探索CSS布局模型]]
 * [[tutorials/making css easier to read|让CSS更容易阅读]]
-* [[tutorials/media queries|带注释的标记风格]]
+* [[tutorials/media queries|为不同平台设置不同的CSS样式]]
 
 ==JavaScript - 给您的网站添加动态行为==
 
