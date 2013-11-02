@@ -32,7 +32,7 @@
 |Data Type=no-content
 |Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 }}{{CSS Property Value
-|Data Type=&amp;lt;overflow-x&amp;gt; &amp;lt;overflow-y&amp;gt;
+|Data Type=&lt;overflow-x&gt; &lt;overflow-y&gt;
 |Description=Set overflow-x and overflow-y separately.
 }}
 }}
