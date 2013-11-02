@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>font-style</code> property allows italic or oblique faces to be selected within a font-family.}}
+{{Summary_Section|The <code>font-style</code> property selects normal, italic, or oblique faces within a font-family.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
