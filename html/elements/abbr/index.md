@@ -9,22 +9,21 @@
 {{Summary_Section|The '''abbr''' element (&lt;abbr&gt;) represents an abbreviation or acronym, optionally with an attribute. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
-
-
-
+|Content=The '''abbr''' element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows how to use the '''abbr''' element with an optional [[html/attributes/title|'''title''']] attribute.
-|Code=<!DOCTYPE html>
+|Code=<syntaxhighlight lang="html5">
+<!DOCTYPE html>
 <html>
 <head>
 <abbr title="Washington">WA</abbr>
 </head>
 </html>
+</syntaxhighlight>
 |LiveURL=http://code.webplatform.org/gist/7282841
 }}
 }}
