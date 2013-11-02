@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The opacity property controls transparency and opacity of an element. Its values range from 0 to 1. Assuming defaults at parent level, an element with an opacity of 1 is completely opaque, whereas and element with an opacity of 0 is completely transparent. The opacity used when rendering an element is the product of its opacity and the opacity of its ancestors.}}
 {{CSS Property
@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=The same as the specified value after clipping the <alphavalue> to the range [0.0,1.0]
 |Animatable=Yes
+|CSS object model property=opacity
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=alpha-value
@@ -29,30 +30,14 @@
   opacity: 0.5;
 }
 |LiveURL=http://code.webplatform.org/gist/5842705
-}}{{Single Example
-|Language=CSS
-|Description=Internet Explorer 5-7
-|Code=.example2 {	
-  filter: alpha(opacity=50);
-}
-}}{{Single Example
-|Description=Internet Explorer 8
-|Code=.example3 {
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-}
-}}{{Single Example
-|Description=Internet Explorer 5-8
-|Code=.opaque {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // first!
-    filter: alpha(opacity=50);  // second!
-}
 }}
 }}
 {{Notes_Section
-|Usage=As an alternative to the visibility property, an element's opacity can be set to 0 to make the element take space but not appear.
+|Usage=As an alternative to the <code>visibility</code> property, an element's opacity can be set to 0 to make the element take space but not appear.
 
-It's important to note that opacity affects not only a given element but all of the elements which it contains.
+It's important to note that opacity affects not only a given element, but all of the elements which it contains.
 |Notes=The opacity setting is applied uniformly across the entire object. Any values outside the range 0.0 to 1.0 will be clamped to this range.
+
 Object or group opacity can be thought of conceptually as a postprocessing operation. Conceptually, after the object or group is rendered into an RGBA offscreen image, the object or group opacity setting specifies how to blend the offscreen image into the current background.
 
 Note that setting a value smaller than 1 to this property creates a new stacking context. For more information, see [http://philipwalton.com/articles/what-no-one-told-you-about-z-index/ What No One Told You About Z-Index] by Philip Walton.
