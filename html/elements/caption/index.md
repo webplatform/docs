@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
@@ -41,8 +40,8 @@ The &lt;caption&gt; element must be inserted immediately after the (&lt;table&gt
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''caption''' element should be a child of the <table> element.
-The <table> object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information about the table object model, see Building Tables Dynamically.
+The '''caption''' element should be a child of the <nowiki><table> element.
+The <table> object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information about the table object model, see Building Tables Dynamically.</nowiki>
 
 The '''caption-side''' property is the preferred way to position a table caption.
 
@@ -54,7 +53,7 @@ The '''caption-side''' property is the preferred way to position a table caption
 |-
 !CSS Display
 |inline
-|
+|-
 !Element Type
 |$disp element
 |-}
