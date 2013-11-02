@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -100,7 +99,14 @@ header {
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=*[[css/properties/animation|animation]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-fill-mode|animation-fill-mode]]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
