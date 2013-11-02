@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Content=Incomplete
 |Checked_Out=No
+|Editorial notes=<length/percentage> hanging and <length/percentage> each-line currently an experimental feature in CSS Text Level 3 or just experimental, unclear
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
