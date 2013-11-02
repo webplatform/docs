@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -23,8 +23,8 @@ The b element should be used as a last resort when no other element is more appr
 |Examples={{Single Example
 |Language=HTML
 |Description=In the following example, objects in a text adventure are highlighted as being special by use of the ""b"" element.
-|Code=<p>You enter a small room. Your <b>sword</b> glows
-brighter. A <b>rat</b> scurries past the corner wall.</p>
+|Code=<nowiki><p>You enter a small room. Your <b>sword</b> glows
+brighter. A <b>rat</b> scurries past the corner wall.</p></nowiki>
 |LiveURL=http://code.webplatform.org/gist/7281229
 }}
 }}
