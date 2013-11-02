@@ -86,7 +86,7 @@ For number and range the value of the attribute must be a number: decimal or int
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
-|Manual_links=* [[html/attributes/max]]
+|Manual_links=* [[html/attributes/max_(HTMLInputElement)]]
 }}
 {{Topics|HTML}}
 {{External_Attribution
