@@ -1,15 +1,21 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|De Facto Standard}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The "alt" property of images is used to specify a text replacement for graphics, to be displayed before loading has completed and in text-only browsers. The text also appears when the cursor hovers over a loaded image.}}
+{{Summary_Section|The '''alt''' attribute is used as a textual representation for graphics and buttons in browsers that don't or can't render images, or when the resource is not found.}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLImageElement|HTMLImageElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images.
+
+The alt tag text should be displayed in place of the image if the resource is not found. When hovering over the element, the alt text will display in a tooltip.
+
+For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
+
+If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element. 
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,16 +25,7 @@
 |Code=&lt;img src{{=}}"http://example.microsoft.com/rw.png" alt{{=}}"Read/Write Property"&gt;
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The text is used to replace the graphic for text-only browsers and to display in the window before the graphic has loaded. The text also acts as a ToolTip if the [[html/attributes/title|'''title''']] is not set when the user hovers the mouse over the graphic - this dual behavior is not true for every browser, however; it is certainly the standard behavior for Microsoft Internet Explorer. 
-Alternate text should be provided whenever the graphic is not rendered. Alternate text is mandatory for Level 0 documents.
-In Microsoft Internet Explorer 6, This property now applies to the '''object''' object.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 13.8
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -94,16 +91,11 @@ In Microsoft Internet Explorer 6, This property now applies to the '''object'''
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
-|Manual_sections====Related pages (MSDN)===
-*<code>object</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>input</code>
-*<code>input type{{=}}image</code>
-*<code>img</code>
+|External_links=* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
+* http://dev.w3.org/html5/markup/img.html#img.attrs.alt
+* http://www.w3.org/TR/html5/forms.html#attr-input-alt
 }}
-{{Topics|HTML, Media}}
+{{Topics|Accessibility, HTML, Media, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
