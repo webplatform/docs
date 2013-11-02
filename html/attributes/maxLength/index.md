@@ -9,7 +9,7 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/input]]
 |Property_applies_to=dom/HTMLElement
-|Content=This attribute can be applied to inputs with the type [[html/elements/input/type/text|text]], [[html/elements/input/type/search|search]], [[html/elements/input/type/url|url]], [[html/elements/input/type/email|email]], [[html/elements/input/type/telephone|telephone]], and [[[[html/elements/input/type/password|password]].
+|Content=This attribute can be applied to inputs with the type [[html/elements/input/type/text|text]], [[html/elements/input/type/search|search]], [[html/elements/input/type/url|url]], [[html/elements/input/type/email|email]], [[html/elements/input/type/telephone|telephone]], and [[html/elements/input/type/password|password]].
 }}
 {{Examples_Section
 |Not_required=No
