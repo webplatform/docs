@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -73,7 +72,6 @@ Use the [[html/attributes/span|'''SPAN''']] attribute to specify the number of t
 '''COL''' elements can occur outside of a '''COLGROUP''' element, and these two elements can be used for similar purposes. However, you must use the '''COLGROUP''' element to determine where table internal dividing lines ([[html/attributes/rules|'''rules''']]) should go. This is illustrated in the first example .
 You should avoid using the [[html/attributes/span|'''SPAN''']] attribute inside the '''COLGROUP''' element if there are '''COL''' elements nested within it. This is because the '''SPAN''' attribute that belongs to the nested '''COL''' elements will override the attribute that belongs to the '''COLGROUP''' element. This can cause confusing code and possibly unintended results. This behavior is illustrated in the second example.
 The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
-
 |Import_Notes====HTML information===
 {| class="wikitable"
 |-
