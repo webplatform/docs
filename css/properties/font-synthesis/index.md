@@ -1,14 +1,34 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Stub, Needs Flags, Needs Topics, Needs Review
+|Content=Incomplete, Examples Needed, Needs Summary
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This value specifies whether the user agent is allowed to synthesize  bold or oblique font faces when a font family lacks bold or italic faces.}}
 {{CSS Property
-|Inherited=No
+|Initial value=weight style
+|Applies to=all elements
+|Inherited=Yes
+|Media=visual
+|Computed value=as specified
 |Animatable=No
-|Values=
+|CSS object model property=font
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=none
+|Description=user agent is not allowed to synthesize bold or oblique font when not available.
+}}{{CSS Property Value
+|Data Type=weight
+|Description=user agent is only allowed to synthesize bold font when not available but not oblique.
+}}{{CSS Property Value
+|Data Type=style
+|Description=user agent is only allowed to synthesize oblique font when not available but not bold.
+}}{{CSS Property Value
+|Data Type=weight style
+|Description=user agent is allowed to synthesize both bold and oblique.
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,7 +45,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=CSS Font, Fonts, Text
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
