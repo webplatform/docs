@@ -73,7 +73,9 @@
 |LiveURL=http://code.webplatform.org/gist/5579301
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=If the computed value of ‘outline-offset’ is anything other than 0, then the outline is outset from the border edge by that amount.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
