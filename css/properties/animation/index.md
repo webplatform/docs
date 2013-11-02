@@ -40,13 +40,10 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=See [[css/properties/animation-play-state|animation-play-state]] for an example that uses the animation shorthand property.
-|Code=.
-.
-.
-animation: moveten 1s steps(10, end) infinite;
-.
-.
-.
+|Code=nav.expanded > div.selected {
+    animation: pulse 1s infinite;
+}
+
 |LiveURL=http://code.webplatform.org/gist/7044978
 }}{{Single Example}}
 }}
