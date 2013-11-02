@@ -15,10 +15,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<form action="demo_form.asp">
-  Username: <input type="text" name="usrname" maxlength="10"><br>
-  <input type="submit" value="Submit">
-</form>
+|Description=The example text box has a max length of 12 characters.
+|Code=<input maxLength="12">
+|LiveURL=http://code.webplatform.org/gist/7284097
 }}
 }}
 {{Notes_Section}}
