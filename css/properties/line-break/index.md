@@ -10,6 +10,7 @@
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=auto | loose | normal | strict
 |Animatable=No
 |Values={{CSS Property Value
 |Data Type=normal
