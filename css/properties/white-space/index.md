@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The white-space property controls if a white-space character within an element can wrap or if it must be preserved.}}
+{{Summary_Section|The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced "soft wrap" opportunities.}}
 {{CSS Property
 |Initial value=normal
 |Applies to=All elements
@@ -68,18 +68,11 @@ body {
 p {
   background-color: #ddd;
 }
-
 |LiveURL=http://code.webplatform.org/gist/7284477
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HTML documents. You can use the nonbreaking space entity <code>(&amp;nbsp;)</code> to add extra spaces to an object when the '''white-space''' property is set to '''normal''' or '''nowrap'''.  You can add extra line breaks using the '''br''' element.
-This property affects content you access through the Document Object Model (DOM) the same way it affects the way Windows Internet Explorer displays the content.
-Still in Internet Explorer 6, this property applies to the [[css/cssom/currentStyle|'''currentStyle''']] element. The '''pre''' value of this property is now supported.
-Windows Internet Explorer 8. The '''pre-line''' and '''pre-wrap''' values are used to control sequences of whitespace. A value of '''pre-line''' instructs Windows Internet Explorer to combine multiple line breaks into a single line, whereas '''pre-wrap''' wraps each newline onto a separate line. Inside a '''pre''' block, lines breaks occur at newlines in the source, at occurrences of "\A" in generated content ([[css/selectors/pseudo-elements/::before|'''::before''']] and [[css/selectors/pseudo-elements/::after|'''::after''']]), and as necessary to fill line boxes.
-|Import_Notes====Syntax===
-<code>'''white-space: '''normal '''{{!}}''' pre '''{{!}}''' nowrap '''{{!}}''' pre-wrap '''{{!}}''' pre-line</code>
+|Notes=Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HTML documents. You can use the nonbreaking space entity <code>(&amp;nbsp;)</code> to add extra spaces to an object when the '''white-space''' property is set to '''normal''' or '''nowrap'''.  You can add extra line breaks using the '''br''' element.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
