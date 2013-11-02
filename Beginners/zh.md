@@ -3,7 +3,7 @@
 |Checked_Out=No
 |Editorial notes=translation from english to chinese, has some problem
 }}
-{{Summary_Section|这一系列的文章是为了让初学者，在他们成长为一个web设计师或者开发者的最初旅程上 ，能够信心满满的去完备他们的基本技能}}
+{{Summary_Section|这一系列的文章是为了让初学者，在他们成长为一个web设计师或者开发者的最初旅程上 ，能够信心满满地去完备他们的基本技能}}
 {{Basic Page}}
 {{Languages}}
 
