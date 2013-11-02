@@ -17,7 +17,7 @@
 
 ===Value===
 
-The value is the enclosed anchor text or image tag, which is displayed in the page and rendered as a link.
+The value is the enclosed anchor text or image tag, which is displayed in the page and (if href is present) is rendered as a link.
 
 ===Common Attributes===
 
@@ -28,14 +28,19 @@ The value is the enclosed anchor text or image tag, which is displayed in the pa
 ! Example
 {{!}}-
 {{!}} [[html/attributes/href|'''href''']]
-{{!}} [[http://www.w3.org/Addressing/URL/uri-spec.html|'''URI''']] enclosed in double-quotes
+{{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI] enclosed in double-quotes
 {{!}} Target of link
 {{!}} <pre>href="http://example.com"</pre> <pre>href="#SectionI"</pre>
 {{!}}-
 {{!}} [[html/attributes/id|'''id''']]
 {{!}} URI fragment (# followed by identifier text)
-{{!}} Creates an anchor in the page
-{{!}} <pre>href="#TableOfContents"</pre>
+{{!}} Creates an anchor in the page that can be referred to by href
+{{!}} <pre>id="#TableOfContents"</pre>
+{{!}}-
+{{!}} [[html/attributes/target|'''target''']]
+{{!}} [http://www.w3.org/TR/html5/browsers.html#valid-browsing-context-name-or-keyword Browsing context]
+{{!}} Tells where to open the link when it is followed
+{{!}} <pre>target="_blank"</pre>
 {{!}}}
 
 ===Other Attributes===
@@ -45,7 +50,7 @@ The value is the enclosed anchor text or image tag, which is displayed in the pa
 ! Value
 {{!}}-
 {{!}} [[html/attributes/hreflang|'''hreflang''']]
-{{!}} [[http://www.ietf.org/rfc/bcp/bcp47.txt|'''Language tag''']]
+{{!}} [http://www.ietf.org/rfc/bcp/bcp47.txt Language tag]
 {{!}}}
 }}
 {{Examples_Section
