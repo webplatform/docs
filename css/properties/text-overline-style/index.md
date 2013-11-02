@@ -1,22 +1,58 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
-|Content=Incomplete, Examples Needed
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Specifies the line style for overline text decoration.}}
 {{CSS Property
+|Initial value=none
+|Applies to=all elements with and generated content with textual content
 |Inherited=No
+|Media=visual
+|Computed value=specified value (except for initial and inherit)
 |Animatable=No
-|Values=
+|Values={{CSS Property Value
+|Data Type=none
+|Description=Produces no line.
+}}{{CSS Property Value
+|Data Type=solid
+|Description=Produces a solid line.
+}}{{CSS Property Value
+|Data Type=double
+|Description=Produces a double line.
+}}{{CSS Property Value
+|Data Type=dotted
+|Description=Produces a dotted line.
+}}{{CSS Property Value
+|Data Type=dashed
+|Description=Produces a dashed line style.
+}}{{CSS Property Value
+|Data Type=dot-dash
+|Description=Produces a line whose repeating pattern is a dot followed by a dash.
+}}{{CSS Property Value
+|Data Type=dot-dot-dash
+|Description=Produces a line whose repeating pattern is two dots followed by a dash.
+}}{{CSS Property Value
+|Data Type=wave
+|Description=Produces a wavy line.
+}}
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Incomplete because no browser has implemented this property.
+|Code=p {
+  text-overline-style: wavy;
+}
+|LiveURL=http://code.webplatform.org/gist/7283917
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=Not implemented in any browser.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 Text Module
