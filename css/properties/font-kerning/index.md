@@ -30,8 +30,20 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<p class="normal">The quick brown fox</p>
-<p class="none">The quick brown fox</p>
+|Description=*Kerning will only be visible when supported.
+|Code=<p class="normal">WAVAWAVAWAVAWAVA</p>
+<p class="none"    >WAVAWAVAWAVAWAVA</p>
+|LiveURL=http://code.webplatform.org/gist/7283111
+}}{{Single Example
+|Language=CSS
+|Description=*Kerning will only be visible when supported.
+|Code=html { font-size: 62.5%; } 
+p { font-family: "Arial", serif; font-size: 3.6rem }
+p.normal {font-kerning: normal;}
+p.none {font-kerning: none;}
+
+
+|LiveURL=http://code.webplatform.org/gist/7283111
 }}
 }}
 {{Notes_Section
