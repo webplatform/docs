@@ -1,5 +1,6 @@
 {{Page_Title|font-variant}}
 {{Flags
+|Content=Outdated
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -49,7 +50,7 @@
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#propdef-font-variant
-|Status=W3C Working Draft
+|Status=W3C Candidate Recommendation
 |Relevant_changes=Changes the property to an overall shorthand for font rendering. Extends the options that can be used as value. Not implemented in any browser as of yet.
 }}{{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
