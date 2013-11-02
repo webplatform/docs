@@ -1,7 +1,8 @@
 {{Page_Title|acronym}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
+|High-level issues=Deletion Candidate, Needs Review
+|Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate | Not compatible in HTML5}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,23 +11,16 @@
 |DOM_interface=dom/HTMLElement
 |Content=The acronym element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
 
-This element is '''obsolete''' in HTML5. Use the '''<code>[[html/elements/abbr|abbr]]</code>''' element instead.
+An equivalent to this element in HTML5 is the '''<code>[[html/elements/abbr|abbr]]</code>''' element.
 
-===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}inline
-{{!}}}
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example shows how to use the '''acronym''' element. A <code>title</code> attribute should be included for accessibility.
 |Code=<syntaxhighlight lang="html4strict"><acronym title="North Atlantic Treaty Organization">NATO</acronym></syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/7283566
 }}
 }}
 {{Notes_Section}}
