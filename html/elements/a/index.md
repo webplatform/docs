@@ -46,13 +46,13 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 {{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI] enclosed in double-quotes
 {{!}} Target of link
 {{!}} <pre>href="http://example.com"</pre> <pre>href="#TableOfContents"</pre>
-{{!}}
+{{!}} &nbsp;
 {{!}}-
 {{!}} [[html/attributes/id|'''id''']]
 {{!}} identifier text
 {{!}} Creates an anchor in the page that can be referred to by href
 {{!}} <pre>id="TableOfContents"</pre>
-{{!}}
+{{!}} &nbsp;
 {{!}}-
 {{!}} [[html/attributes/hreflang|'''hreflang''']]
 {{!}} Language tag [http://www.ietf.org/rfc/bcp/bcp47.txt for HTML5] or [http://www.ietf.org/rfc/rfc1766.txt for HTML4]
@@ -63,13 +63,13 @@ The inner HTML is the enclosed anchor text or image tag, which is displayed in t
 {{!}} comma-separated list of keywords
 {{!}} Indicates the relationship of the link target to the current page
 {{!}} <pre>rel="help"</pre>
-{{!}}
+{{!}} &nbsp;
 {{!}}-
 {{!}} [[html/attributes/target|'''target''']]
 {{!}} [http://www.w3.org/TR/html5/browsers.html#valid-browsing-context-name-or-keyword Browsing context]
 {{!}} Tells where to open the link when it is followed
 {{!}} <pre>target="_blank"</pre>
-{{!}}
+{{!}} &nbsp;
 {{!}}}
 
 ===Other Attributes===
