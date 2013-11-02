@@ -44,7 +44,9 @@ Makes 4 columns and creates a span that crosses through columns
 |LiveURL=http://code.webplatform.org/gist/5306158
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=An element that spans more than one column is called a spanning element.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
