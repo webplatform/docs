@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
+|Editorial notes=Example provided is not effective
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
