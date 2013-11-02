@@ -15,14 +15,16 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=A simple example of showing a video
-|Code=&lt;p&gt;This is big buck bunny video.&lt;/p&gt;
+|Code=&lt;p>This is big buck bunny video.&lt;/p&gt;
 &lt;video width="350" height="240" controls&gt;
-  &lt;source src="http://mirrorblender.top-ix.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_h264.mov"gt;
-&lt;/videogt;
+&lt;source src="http://mirrorblender.top-ix.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.ogg" type="video/ogg"&gt;
+&lt;/video&gt;
 |LiveURL=http://code.webplatform.org/gist/7281780
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Currently, there are 3 supported video formats for the <video> element: MP4, WebM, and Ogg
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -34,7 +36,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Video}}
+{{Topics|HTML, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
