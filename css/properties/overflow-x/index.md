@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|The <code>overflow-x</code> property is a specific case of the generic <code>overflow</code> property. It controls how extra content exceeding the x-axis of the bounding box of an element is rendered.}}
 {{CSS Property
@@ -12,6 +12,7 @@
 |Media=visual
 |Computed value=as specified, except ‘visible’
 |Animatable=No
+|CSS object model property=overflowX
 |Values={{CSS Property Value
 |Data Type=visible
 |Description=Default. Content is not clipped and scroll bars are not added. Elements are clipped to the size of the containing window or frame.
@@ -64,11 +65,7 @@ body {
 }}
 {{Notes_Section
 |Usage=The <code>overflow-y</code> CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
-|Notes=Setting the overflow-y property to visible causes the content to clip to the size of the window or frame that contains the object.
-
-Firefox has a vendor specific extension:
-
-- <code>-moz-scrollbars-horizontal</code> – deprecated, use of overflow-x preferred.
+|Notes=Setting the overflow-x property to visible causes the content to clip to the size of the window or frame that contains the object.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
