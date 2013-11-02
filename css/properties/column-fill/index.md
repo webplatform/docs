@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -46,8 +45,6 @@ with column-fill: balance;
 In continous media, this property does not have any effect in overflow columns; in paged media, this property will only have effect on the last page the multicol element appears on.
 
 Column balancing is also dependent on the values of [[css/properties/orphans|orphans]] and [[css/properties/widows|widows]], if set.
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -69,6 +66,6 @@ Column balancing is also dependent on the values of [[css/properties/orphans|orp
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh772197(v=vs.85).aspx
 |HTML5Rocks_link=
 }}
