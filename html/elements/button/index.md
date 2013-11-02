@@ -1,12 +1,11 @@
 {{Page_Title|button}}
 {{Flags
-|High-level issues=Needs Review
 |Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''button''' element (<code>&lt;button&gt;</code>) defines a clickable button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
+{{Summary_Section|The '''button''' element (&lt;button&gt;) defines a clickable button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
@@ -33,14 +32,13 @@ The &lt;button&gt; element can also be used as submit button to send [[html/elem
 </dl>
 
 ===Additional attributes (HTML 5, candidate specification)===
-
 <dl>
 <dt>autofocus</dt>
 <dd>When this attribute is set to "true" the button will automatically be focused after the page load. Only one form-associated element can have this attribute set to "true".</dd>
 <dt>form</dt>
 <dd>Specifies which form the button is associated with. The value of the attribute must be the id attribute of the form. If this attribute is not specified, the button must be a descendant of the form itself to be able to submit form data. Use this, if you don't want to put the submit button within the form itself.</dd>
 <dt>formaction</dt>
-<dd>The URI of a programm that pocesses the information from the form. When present, it will override the action attribute of the form.</dd>
+<dd>The URL of a program that processes the information from the form. When present, it will override the action attribute of the form.</dd>
 <dt>formmethod</dt>
 <dd>The HTTP method to send the form data. This can either be "post" or "get". If specified, it will override the form's method attribute.</dd>
 <dt>formnovalidate</dt>
@@ -48,8 +46,8 @@ The &lt;button&gt; element can also be used as submit button to send [[html/elem
 <dt>formtarget</dt>
 <dd>This attribute is a keyword, indicating where to display the response that is received after submitting the form. This can be one of the following:
 <ul>
-<li><code>_self</code>: load the reponse into the same context as the form itself. This is the default value.</li>
-<li><code>_blank</code>: load the reponse into a new, unnamed context</li>
+<li><code>_self</code>: load the response into the same context as the form itself. This is the default value.</li>
+<li><code>_blank</code>: load the response into a new, unnamed context</li>
 <li><code>_parent</code>: loads the response into the parent context. If there is no parent, it will behave the same as _self.</li>
 <li><code>_top</code>: loads the response into the top-most context. This is the browsing context of an ancestor of the current context. If there is no parent, it will behave the same as _self.</li>
 </ul>
@@ -79,7 +77,7 @@ All these attributes, except <code>name</code>, have default values and can be o
 {{Notes_Section
 |Usage=Generally, a button can be used whenever there should be a button clickable by the user. 
 
-The ending tag is mandatory. The button should have a descriptive text inside it, otherwise the button will be empty and the user doesn't know what the button will do.
+The ending tag is mandatory. The button should have a descriptive text inside it, otherwise the button will be empty and the user won't know what the button will do.
 
 Please note that styling a submit button using the &lt;button&gt; element is easier than styling an [[html/elements/input|'''input''']] element with type <code>submit</code>.
 |Notes=Since the default for the <code>type</code> attribute is <code>submit</code>, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard <code>type</code> values.
@@ -90,9 +88,9 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 |URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.5
 |Status=Recommendation
 }}{{Related Specification
-|Name=HTML 5.1 Working Draft
-|URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-button-element
-|Status=Editor's Draft
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-button-element
+|Status=W3C Candidate Recommendation
 }}{{Related Specification
 |Name=WhatWG HTML Living Standard
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-button-element
