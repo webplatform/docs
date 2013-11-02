@@ -15,7 +15,7 @@
 |Animatable=No
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
-|Data Type=single-animation [, single-animation*]
+|Data Type=single-animation [, single-animation]*
 |Description=A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional. Multiple animations can be assigned as a comma-separated list.
 
 ;<code>&lt;single-animation-name&gt;</code>
@@ -88,7 +88,7 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 {{See_Also_Section
 |Topic_clusters=Animation
 |Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
-*'''[[css/atrules/@keyframes|@keyframes]]'''
+*[[css/atrules/@keyframes|@keyframes]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
