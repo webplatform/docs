@@ -1,27 +1,24 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The list attribute refers to a <datalist> element that contains pre-defined options for an <input> element.}}
+{{Summary_Section|The list attribute refers to a [[html/elements/datalist|<datalist>]] element specifying possible values to suggest for an input element.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=This attribute allows for the developer to specify autofill values for an input element for the browser to present to a user.
+
+This can allow for things such as autocompletion, or faster site search. It would be possible to create an autocomplete such as on this site's search with a server side populated datalist.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Notes====Remarks===
-The following example creates a '''datalist''' called "quantity".
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.3.3
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -33,10 +30,11 @@ The following example creates a '''datalist''' called "quantity".
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
 }}
-{{Topics|HTML}}
+{{Topics|HTML, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
