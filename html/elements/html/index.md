@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''html''' element (&lt;html&gt;) represents the root of an HTML document.}}
+{{Summary_Section|The '''html''' element (&lt;html&gt;) represents the root of an HTML document. The "'html"' tag is the container for all other HTML element (Except for the "'!DOCTYPE"' tag).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHtmlElement
 |Content=The '''html''' element is used to contain a complete HTML document.
@@ -41,7 +41,6 @@ Internationalization topics related to the <code>html</code> element:
 {{Notes_Section
 |Notes====Remarks===
 When you use the [[html/elements/!DOCTYPE|!DOCTYPE]] declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered.  When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode,  the '''body''' object represents the entire surface onto which a document's contents can be rendered.
-
 |Import_Notes====Members===
 The '''html''' object has these types of members:
 *[#events Events]
