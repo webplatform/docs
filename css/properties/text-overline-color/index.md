@@ -8,9 +8,17 @@
 {{API_Name}}
 {{Summary_Section|Specifies the line color for the overline text decoration.}}
 {{CSS Property
+|Initial value=currentColor
+|Applies to=all elements with and generated content with textual content
 |Inherited=No
+|Media=visual
+|Computed value=<color>
 |Animatable=No
-|Values=
+|CSS percentages=N/A
+|Values={{CSS Property Value
+|Data Type=<color>
+|Description=Specifies a color value
+}}
 }}
 {{Examples_Section
 |Not_required=No
