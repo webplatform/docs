@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -20,7 +19,7 @@
 |Description=No animation applies to the element.
 }}{{CSS Property Value
 |Data Type=<single-animation-name> [, <single-animation-name>]*
-|Description=One or more comma-separated animation names. Each name is used to select the <code>[[css/atrules/@keyframes|@keyframes]]</code> rule that defines the animation. If the specified name does not match any @keyframes rule then no animation will be run for this name. In addition, when multiple animations update the same property, the animation closest to the end of the list wins.
+|Description=One or more comma-separated animation names. Each name is used to select the <code>[[css/atrules/@keyframes|@keyframes]]</code> rule that defines the animation. If the specified name does not match any '''@keyframes''' rule then no animation will be run for this name. In addition, when multiple animations update the same property, the animation closest to the end of the list wins.
 }}
 }}
 {{Examples_Section
@@ -94,7 +93,16 @@
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=*[[tutorials/css_animations{{!}}Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes{{!}}@keyframes]]
+*[[css/properties/animation{{!}}animation]]
+*[[css/properties/animation-delay{{!}}animation-delay]]
+*[[css/properties/animation-direction{{!}}animation-direction]]
+*[[css/properties/animation-duration{{!}}animation-duration]]
+*[[css/properties/animation-fill-mode{{!}}animation-fill-mode]]
+*[[css/properties/animation-iteration-count{{!}}animation-iteration-count]]
+*[[css/properties/animation-timing-function{{!}}animation-timing-function]]
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
