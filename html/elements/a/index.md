@@ -25,9 +25,9 @@ The value is the enclosed anchor text, which is displayed in the page and render
 ! Example
 ! Notes
 {{!}}-
-{{!}} href
+{{!}} [[html/attributes/href|'''href''']]
 {{!}} URI
-{{!}} href="http://example.com" href="#SectionI"
+{{!}} <pre>href="http://example.com"</pre> <pre>href="#SectionI"</pre>
 {{!}} Enclose URI in double-quotes. May refer to any protocol, e.g. http, mailto, file. A fragment (# followed by text) identifies a location in the current page. href may be omitted to indicate a placeholder link, such as a reference to the current page in a menu.
 {{!}}}
 }}
