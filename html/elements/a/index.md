@@ -19,13 +19,9 @@ Defines a hyperlink to any content, which could be an external site, another pag
 <pre><a id="#[identifier]">[Anchor text or image tag]</a></pre>
 <pre><a>[Anchor text or image tag]</a></pre>
 
-===Inner HTML===
+===Enclosed HTML===
 
-The inner HTML is the enclosed anchor text or image tag, which is displayed in the page and (if href is present) is rendered as a link.
-
-===Value===
-
-(Rarely used.)
+The HTML enclosed by the <a></a> element is typically text or an image tag.  It is displayed in the page and (if href is present) is rendered as a link.
 
 ===Common Attributes===
 
