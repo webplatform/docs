@@ -79,6 +79,10 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | Framework
 |Ext JS is a JavaScript framework for creating business application interfaces, it provides an MVC-style application architecture, a set of standard UI widgets such as grids and trees, a theming and templating system, a charting and drawing library and other utilities for creating rich data-oriented applications.
 |-
+|[http://www.glge.org/ GLGE]
+| Graphics
+|GLGE is a javascript library intended to ease the use of WebGL. It's aim is to mask the involved nature of WebGL from the web developer.
+|-
 |[http://jquery.com jQuery]
 | Tools and Utilites
 |jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.
