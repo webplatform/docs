@@ -11,7 +11,7 @@
 |Content=For mouse, this is when the device has at least one button depressed. For touch, this is when there is physical contact with the digitizer. For pen, this is when the pen has physical contact with the digitizer.
 
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mousedown|mousedown]] event
 |Synchronous=Yes
