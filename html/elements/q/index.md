@@ -20,7 +20,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-cite-element
+|Status=W3C Editor's Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
