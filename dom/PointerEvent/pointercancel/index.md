@@ -7,9 +7,9 @@
 {{API_Name}}
 {{Summary_Section|Dispatched when either (1) the user agent has determined that a pointer is unlikely to continue to produce events (e.g., due to a hardware event), or (2) after having fired the [[dom/objects/PointerEvent/pointerdown|pointerdown]] event, the pointer is subsequently used to manipulate the page viewport (e.g., panning or zooming).}}
 {{Event
-|Event_applies_to=dom/Element
+|Event_applies_to=dom/PointerEvent
 |Content=A user agent will also fire a [[dom/objects/PointerEvent/pointerout|pointerout]] event after firing the pointercancel event.
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=None
 |Synchronous=Yes
