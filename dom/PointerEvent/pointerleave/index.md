@@ -9,7 +9,7 @@
 {{Event
 |Event_applies_to=dom/PointerEvent
 |Content=This event type is similar to [[dom/objects/PointerEvent/pointerout|pointerout]], but differs in that it does not bubble and that it is not dispatched until the pointing device has left the boundaries of the element and the boundaries of all its children.
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseleave|mouseleave]] event
 |Synchronous=Yes
