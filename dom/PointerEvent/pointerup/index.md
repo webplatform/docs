@@ -11,7 +11,7 @@
 |Content=For mouse, this is when the device transitions from at least one button depressed to no buttons depressed. For touch, this is when physical contact is removed from the digitizer. For pen, this is when the pen is removed from physical contact with the digitizer. 
 
 For input devices that do not support hover, a user agent must also fire a pointerout event after firing the pointerup event.
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseup|mouseup]] event
 |Synchronous=Yes
