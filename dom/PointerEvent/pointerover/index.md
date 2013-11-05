@@ -8,7 +8,7 @@
 {{Summary_Section|Dispatched when a pointing device is moved into the hit test boundaries of an element. Also dispatched prior to a [[dom/objects/PointerEvent/pointerdown|pointerdown]] event for devices that do not support hover.}}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Interface=dom/objects/PointerEvent
+|Interface=dom/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseover|mouseover]] event
 |Synchronous=Yes
