@@ -11,7 +11,7 @@
 * After firing the [[dom/objects/PointerEvent/pointercancel|pointercancel]] event
 }}
 {{Event
-|Event_applies_to=dom/objects/PointerEvent
+|Event_applies_to=dom/PointerEvent
 |Interface=dom/objects/PointerEvent
 |Target=dom/Element
 |Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseout|mouseout]] event
