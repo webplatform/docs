@@ -16,29 +16,32 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to create a style rule that sets the '''-ms-scrollbar-highlight-color''' property for a '''textArea''' element.
-|Code=&lt;HTML&gt;
-  &lt;HEAD&gt;
-    &lt;STYLE&gt;
-        TEXTAREA.BlueHighlight  { scrollbar-highlight-color:blue }
-    &lt;/STYLE&gt;
-  &lt;/HEAD&gt;
-  &lt;BODY&gt;
-    &lt;TEXTAREA CLASS{{=}}"BlueHighlight"&gt;The scroll bar face for this 
-    element will turn blue when a scroll bar button is pressed.
-  &lt;/TEXTAREA&gt;
-  &lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/scrollbarColor.htm
+|Language=HTML
+|Description=The following example shows how to create a style rule that sets the '''-ms-scrollbar-highlight-color''' property.
+|Code=&lt;html&gt;
+  &lt;head&gt;
+    &lt;style&gt;
+        textarea  { scrollbar-highlight-color:blue }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;textarea&gt;The scroll bar face for this element will turn blue when a scroll bar button is pressed.
+  &lt;/textarea&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+|LiveURL=http://result.webplatform.org/gist/7331495
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-scrollbar-highlight-color''' attribute is an extension to CSS, and can be used as a synonym for '''scrollbar-highlight-color''' in IE8 Standards mode.
+This property is specific to Internet Explorer 8. The '''-ms-scrollbar-highlight-color''' attribute is an extension to CSS, and can be used as a synonym for '''scrollbar-highlight-color''' in IE8 Standards mode.
+
 The scroll box is the square box within a scroll bar that can be moved either up and down or left and right on a track to change the position of the content on the screen. The scroll arrows, located at each end of a scroll bar, are the square buttons containing the arrows that move the content on the screen in small increments, either up and down or left and right.
+
 This property applies to elements that display a scroll bar.  Cascading Style Sheets (CSS) enable scrolling on all objects through the [[css/properties/overflow|'''overflow''']] property.  These objects are not listed in the Applies To list for this property.
 |Import_Notes====Syntax===
 <code>'''-ms-scrollbar-highlight-color: '''variant</code>
+
 ===Standards information===
 There are no standards that apply here.
 }}
@@ -50,7 +53,10 @@ There are no standards that apply here.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Scrollbar
