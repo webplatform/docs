@@ -33,20 +33,14 @@
 }}
 }}
 {{Notes_Section
-|Usage=<syntaxhilight lang="css">
-.highlighted {
-  -ms-scrollbar-highlight-color: purple
-}
-</syntaxhighlight>
+|Usage=  -ms-scrollbar-highlight-color: purple
 |Notes====Remarks===
 This property is specific to Internet Explorer 8. The '''-ms-scrollbar-highlight-color''' attribute is an extension to CSS, and can be used as a synonym for '''scrollbar-highlight-color''' in IE8 Standards mode.
 
 The scroll box is the square box within a scroll bar that can be moved either up and down or left and right on a track to change the position of the content on the screen. The scroll arrows, located at each end of a scroll bar, are the square buttons containing the arrows that move the content on the screen in small increments, either up and down or left and right.
 
 This property applies to elements that display a scroll bar.  Cascading Style Sheets (CSS) enable scrolling on all objects through the [[css/properties/overflow|'''overflow''']] property.  These objects are not listed in the Applies To list for this property.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 }}
 {{Related_Specifications_Section
