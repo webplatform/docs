@@ -9,7 +9,7 @@
 {{Summary_Section|Fires when enough data is available to determine whether a media is playable at a normal rate without interruptions.}}
 {{Event
 |Event_applies_to=dom/HTMLMediaElement
-|Interface=dom/objects/Event
+|Interface=dom/HTMLMediaElement
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
