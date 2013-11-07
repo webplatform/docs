@@ -9,7 +9,7 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/objects/Event
+|Interface=dom/Element
 |Target=dom/Element
 |Default_action=
 }}
