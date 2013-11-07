@@ -9,7 +9,7 @@
 {{Summary_Section|Fires whenever enough data is available to determine whether a media is playable.}}
 {{Event
 |Event_applies_to=dom/HTMLMediaElement
-|Interface=dom/objects/Event
+|Interface=dom/HTMLMediaElement
 |Target=dom/Element
 |Default_action=
 |Synchronous=No
