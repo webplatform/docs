@@ -57,7 +57,6 @@ variable ''radius'' passed to the function:
   <feGaussianBlur stdDeviation="[radius radius]">
 </filter>
 </syntaxhighlight>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
