@@ -35,7 +35,7 @@ echo $celsius;
  
 Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html Fahrenheit to Celsius conversion example].
  
-Programming languages are ''interpreted'' to be turned into actions or results. Some languages, such as JavaScript are interpreted by a web browser; all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages, each fulfilling different tasks.
+Programming languages are ''interpreted'' to be turned into actions or results. Some languages, such as JavaScript, are interpreted by a web browser; all you need to do to make them “do stuff” is put them inside an HTML document and open this in a browser. Other programming languages need to be translated (compiled) in an extra step to become executable. Deep down, all computers only understand zeros and ones, but above that there are multiple levels of languages fulfilling different tasks.
 
 == Variables ==
  
@@ -425,7 +425,4 @@ Notice that you can use the value of <code>i</code> as the array counter inside 
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=DevOpera
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
