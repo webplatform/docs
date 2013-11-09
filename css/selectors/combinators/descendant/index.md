@@ -2,19 +2,30 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=Descendant selectors are handy for targeting specific elements within an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant selector which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
+
+
+
+
+
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=This rule would define the text color of every instance of an unordered list within a navigation element red.
+|Code=nav ul { color:red; }
+}}
 }}
 {{Notes_Section
-|Notes====Remarks===
-A descendant combinator is white space that separates two simple selectors. A selector of the form "E F" matches element F when it is an arbitrary descendant of some ancestor element E.
-'''Note'''  Descendant combinators were called contextual selectors in Cascading Style Sheets, Level 1 (CSS1).
+|Notes=Descendant combinators were called contextual selectors in Cascading Style Sheets, Level 1 (CSS1).
+
 To skip over a generation of elements and pass styles to descendants beyond child elements, combine the Universal (*) Selector with the Descendant Combinator. For example, the following selector matches any '''p''' elements that are not direct descendants (grandchildren or later) of a '''div''' element.
 <code>DIV * P {}</code>
 |Import_Notes====Syntax===
@@ -27,10 +38,11 @@ To skip over a generation of elements and pass styles to descendants beyond chil
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5+
