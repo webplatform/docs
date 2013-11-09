@@ -6,9 +6,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|A selector to target an element that is a descendant (child, grandchild and beyond) of another element.}}
+{{Summary_Section|Targets an element that is a descendant (child, grandchild and beyond) of another element.}}
 {{CSS_Selector
-|Content=Descendant selectors are handy for targeting specific elements of an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant selector which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
+|Content=Descendant combinators are handy for targeting specific elements of an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant combinator which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
 }}
 {{Examples_Section
 |Not_required=No
