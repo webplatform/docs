@@ -21,17 +21,17 @@ Programming in the most basic form is issuing commands and seeing that they get 
  
 For example, the following two code snippets fulfill the same task, but the former is JavaScript and the latter is PHP:
  
-<source lang="javascript">
+<syntaxhighlight lang="javascript">
 var fahrenheit = prompt('Enter temperature in Fahrenheit', 0);
 var celsius = (fahrenheit - 32) * 5 / 9;
 alert(celsius);
-</source>
+</syntaxhighlight>
 
-<source lang="php">
+<syntaxhighlight lang="php">
 $fahrenheit = $_GET['fahrenheit'];
 $celsius = ($fahrenheit - 32) * 5 / 9;
 echo $celsius;
-</source>
+</syntaxhighlight>
  
 Try out the JavaScript [http://dev.opera.com/articles/view/programming-the-real-basics/fahrenheit.html Fahrenheit to Celsius conversion example].
  
@@ -68,32 +68,25 @@ y = 5</pre>
  
 The same works with programming languages -— in programming, variables are containers for values that can vary. Variables can hold all kinds of values and also the results of calculations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
 
-To keep things easy, let us use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming!) The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
- 
-Note: The <code>&lt;script&gt;</code> tags are there to tell the browser that the text inside is a scripting language and that it should be interpreted as such.
+To keep things easy, let's use JavaScript as an example programming language in this article (logical, since this section of the web standards curriculum is all about JavaScript programming). The following defines two variables, calculates the result of adding the two and defines this result as a value of a third variable.
 
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var x = 5,
     y = 6,
     result = x + y;
-</script>
-</source>
+</syntaxhighlight>
  
 The interpreter goes through the code instruction by instruction, with each instruction ending in a semicolon. The semicolon notifies the interpreter of the end of an instruction, much like a full stop or an exclamation mark defines the end of a sentence in human languages.
  
 In English, this construct would be as follows:
  
-* Here comes something that is not HTML;
-* Define a new variable (that is the <code>var</code> keyword) called x and assign it the value 5. 
-* Define a new variable called y and assign it the value 6. 
-* Define a new variable called result and assign it the result of adding x and y as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of x, checks the value of y, adds the two and sets the value of result to the outcome -— 11).
-* Enough of this strange language -— go back to HTML and tell the translator to leave again.
+* Define a new variable (that is the <code>var</code> keyword) called <code>x</code> and assign it the value <code>5</code>. 
+* Define a new variable called <code>y</code> and assign it the value <code>6</code>. 
+* Define a new variable called result and assign it the result of adding <code>x</code> and <code>y</code> as its value. End of statement. (As there is a calculation in the assignment of the variable result the interpreter then checks the value of <code>x</code>, checks the value of <code>y</code>, adds the two and sets the value of result to the outcome — <code>11</code>.)
  
-You can do all kinds of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for division, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash // —- these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it: these are comments made for humans and not to be interpreted by the browser.
+You can do all kinds of calculations with variables by adding operators in between them. There are the classics like adding with a plus sign operator and subtracting with a minus sign operator. For multiplication you have to use an asterisk (*) and for division, a slash (/). The following example shows some calculations that are possible. Notice the texts preceded by a double slash (//) — these are JavaScript comments. When a JavaScript interpreter encounters these in a script it will not try to execute what follows on that line, and skips it: these are comments made for humans and not to be interpreted by the browser.
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var x = 5,
     y = 6,
     z = 20,
@@ -106,10 +99,9 @@ var addAndDivide = (x + z) / y;
 // addAndDivide = 4.166666666666667
 var half = (y + z) / 2;
 // half will be 13
-</script>
-</source>
+</syntaxhighlight>
  
-As you can see, you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parentheses to override the natural order of operators (parentheses first, then multiplication or division, then adding or subtracting and all those Math lesson classics).
+As you can see, you can mix and match any variable, and also use variables along with fixed values in calculations; you can also group them with parentheses to override the natural order of operators (parentheses first, then multiplication or division, then adding or subtracting and all those math lesson classics).
  
 === Variable types ===
  
@@ -128,13 +120,11 @@ JavaScript is a “loosely typed” language, which means that you do not have t
  
 There is nothing magical or strange going on with these. You define variables and set their values to any number type.
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var fahrenheit = 123,
     celsius = (fahrenheit - 32) * 5/9,
     clue = 0.123123;
-</script>
-</source>
+</syntaxhighlight>
  
 Floats and integers can be modified with any mathematical operators.
  
@@ -142,30 +132,25 @@ Floats and integers can be modified with any mathematical operators.
  
 Booleans are simple “yes or no” definitions. You assign them by using the <code>true</code> or <code>false</code> keywords.
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var doorClosed = true,
     catCanLeave = false;
-</script>
-</source>
+</syntaxhighlight>
  
 ==== Strings ====
  
 Strings are lines of text that can contain any character. You define them in JavaScript by enclosing the text in single quotes or double quotes.
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var surname = 'Heilmann',
     name = "Christian",
     age = '33',
     hair = 'Flickr famous';
-</script>
-</source>
+</syntaxhighlight>
  
 You can concatenate (a technical term that means “join together”) strings using the + operator but you cannot subtract strings from one another. For string modification you need to use functions the language provides you with. Simple concatenation, on the other hand, is as easy as this:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var surname = 'Heilmann',
     name = 'Christian',
     age = '33',
@@ -174,37 +159,32 @@ var surname = 'Heilmann',
 
 message += 'I am ' + age + ' years old and my hair is ' + hair;
 alert(message);
-</script>
-</source>
+</syntaxhighlight>
  
 Try out the [http://dev.opera.com/articles/view/programming-the-real-basics/flickrfamous.html string concatenation example].
  
 The += operator is a shortcut for "message = message +". The product of this script is the string “Hi, I am Christian Heilmann. I am 33 years old and [http://flickr.com/photos/tags/thehairofchristianheilmann/ my hair is Flickr famous]”.
  
-There is a catch to remember when using concatenation versus adding values. If you want to add two values you need to make sure that both are numbers, not strings. The [http://dev.opera.com/articles/view/programming-the-real-basics/concatvsadd.html concatenation versus addition] example shows the difference between the two. “5”+“3” is 53 and not 8! The easiest way to convert a string to a number is by prepending it with a "+", as shown in the example.
+There is a catch to remember when using concatenation versus adding values. If you want to add two values you need to make sure that both are numbers, not strings. The [http://dev.opera.com/articles/view/programming-the-real-basics/concatvsadd.html concatenation versus addition] example shows the difference between the two. “5”+“3” is 53 and not 8! The easiest way to convert a string to a number is by prepending it with a “+”, as shown in the example.
  
 Most languages will not care if you use single or double quotes to enclose the string, as long as you do not mix them. To stop the JavaScript interpreter from becoming confused about where the end of the string is, you need to comment out quotes contained in the string with a backslash:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 // this will cause an error, as the interpreter doesn't know 
 // what the things after the ' are. The string defined here is
 // 'Isn'.
 var stringWithError = 'Isn't it hard to get things right?';
 // This is not an error, all is fine
 var stringWithoutError = 'Isn\'t it hard to get things right?';
-</script>
-</source>
+</syntaxhighlight>
 
 ==== Arrays ====
  
 Arrays are very powerful constructs. An array is a collection of values, and each of the values can be a variable, or a real value. For example:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var pets = new Array('Boomer','Polly','Mr.Frisky');
-</script>
-</source>
+</syntaxhighlight>
  
 You can access each of the values with the '''array''' counter, which is the index number in the array -— think of it as being like looking up chapters in a book. The syntax is <code>arrayname[index]</code>. So for example <code>pets[1]</code> would give you the string “Polly”. But wait! I hear you ask—shouldn’t it be <code>pets[2]</code> for Polly, given that it is the '''second''' value in the array? '''No'''—the counter is not 2, as computers start counting at 0, not at 1! This is a very common cause of confusion and errors.
  
@@ -218,15 +198,13 @@ If you have a collection of items that need more detailed descriptions than just
  
 Objects are a big and very clever and versatile part of programming and explaining them in detail here would be beyond the scope of this article. Let’s just say that an object is a thing that has several properties. Say for example you have a person object; you can define the different properties by appending them with a dot:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var person = new Object();
 person.name = 'Chris';
 person.surname = 'Heilmann';
 person.age = 33;
 person.hair = 'Flickr famous';
-</script>
-</source>
+</syntaxhighlight>
  
 You can access the properties with dot notation (<code>person.age</code> would give you 33) or with the square bracket notation (<code>person['name']</code> gets you “Chris”). You will learn more about JavaScript objects later on in the course.
  
@@ -242,8 +220,7 @@ The other thing conditions can do for you is allow for branching. You might have
  
 The easiest condition is an <code>if</code> statement and its syntax is <code>if (condition) { do this … }</code>. The condition has to be true for the code inside the curly braces to be executed. You can for example test a string and set the value of another string dependent on its value:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var country = 'France',
     weather,
     food,
@@ -270,8 +247,7 @@ if (country === 'Germany') {
 
 message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
 alert(message);
-</script>
-</source>
+</syntaxhighlight>
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/weather.html Weather if statement example]. Change the value of the country variable to see the different messages.
  
@@ -279,16 +255,15 @@ The conditional part is the country followed by the three equal signs. Three equ
  
 Other conditional test examples:
  
-* x &gt; 0 - is x bigger than zero?
-* x &lt; 0 - is x less than zero?
-* x &lt;= 4 - is x less than or equal to four?
-* x != 'hello' - is x not 'hello'?
-* x - does x exist?
+* <code>x &gt; 0</code> - is x bigger than zero?
+* <code>x &lt; 0</code> - is x less than zero?
+* <code>x &lt;= 4</code> - is x less than or equal to four?
+* <code>x != 'hello'</code> - is x not 'hello'?
+* <code>x</code> - does x exist?
  
 Conditions can also be nested. Say for example you want to make sure that the country variable is set in the earlier example; you can do that this way:
  
-<source lang="javascript">
-<script>
+<syntaxhighlight lang="javascript">
 var country = 'Germany',
     weather,
     food,
@@ -317,8 +292,7 @@ if (country) {
     message = 'this is ' + country + ', the weather is ' + weather + ', the food is ' + food + ' and the ' + 'currency is ' + currency;
     alert(message);
 }
-</script>
-</source>
+</syntaxhighlight>
  
 Try it out yourself in my [http://dev.opera.com/articles/view/programming-the-real-basics/saferweather.html Safe-weather if statement example]. Change the value of the country variable to see the different messages.
  
@@ -329,40 +303,39 @@ Furthermore you can concatenate different conditions with “or” or “and” 
  
 There is also an <code>else</code> clause that will be applied every time the first condition isn’t true. This is very powerful if you want to react to any value, but single out one in particular for special treatment:
 
- 
-<pre>&lt;script type="text/javascript"&gt;
-  var umbrellaMandatory;
-  if(country == 'England'){
-    umbrellaMandatory = true;
-  } else {
-    umbrellaMandatory = false;
-  }
-&lt;/script&gt;</pre>
+<syntaxhighlight lang="javascript">
+var umbrellaMandatory;
+if(country == 'England'){
+  umbrellaMandatory = true;
+} else {
+  umbrellaMandatory = false;
+}
+</syntaxhighlight>
  
 Conditions are great, but they are a bit limited. What if you want to do something over and over again? Say your job is to add a paragraph tag around each of the values in an array? Using only conditions you’d need to hard-code cases for arrays of all the different lengths you'd be likely to come across:
  
-<pre>&lt;script type="text/javascript"&gt;
-  var names = new Array('Chris','Dion','Ben','Brendan');
-  var all = names.length;
-  if(all == 1){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-  }
-  if(all == 2){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
-  }
-  if(all == 3){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
-    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
-  }
-  if(all == 4){
-    names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
-    names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
-    names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
-    names[3] = '&lt;p&gt;' + names[3] + '&lt;/p&gt;';
-  }
-&lt;/script&gt;</pre>
+<syntaxhighlight lang="javascript">
+var names = new Array('Chris','Dion','Ben','Brendan');
+var all = names.length;
+if(all == 1){
+  names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+}
+if(all == 2){
+  names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+  names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+}
+if(all == 3){
+  names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+  names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+  names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
+}
+if(all == 4){
+  names[0] = '&lt;p&gt;' + names[0] + '&lt;/p&gt;';
+  names[1] = '&lt;p&gt;' + names[1] + '&lt;/p&gt;';
+  names[2] = '&lt;p&gt;' + names[2] + '&lt;/p&gt;';
+  names[3] = '&lt;p&gt;' + names[3] + '&lt;/p&gt;';
+}
+</syntaxhighlight>
  
 This is just terrible and inflexible. Programming is meant to make our life easier and if you find yourself writing the same code over and over again, you are probably doing something wrong. Good programming means leaving the boring tasks to the machines and focusing on what you want to achieve.
  
@@ -372,35 +345,37 @@ In this case we need a '''loop''' instead of a condition, as we are doing exactl
  
 Loops are repetitive conditions where one variable in the loop changes. The easiest form of a loop is the <code>for</code> statement. This one has a syntax that is similar to an <code>if</code> statement, but with more options:
  
-<pre>for(condition;end condition;change){
+<syntaxhighlight lang="javascript">
+for(condition;end condition;change){
   // do it, do it now
-}</pre>
+}
+</syntaxhighlight>
  
 Normally what you do with a <code>for</code> loop is to execute the code in the curly braces several times. For this you need to define an iterator variable and keep changing it during the loop until the variable value meets the end condition (which causes the interpreter to exit the loop and carry on to the next part of the code). For example:
  
-<pre>&lt;script type="text/javascript" charset="utf-8"&gt;
-  for(var i = 0;i &lt; 11;i = i + 1){
-    // do it, do it now
-  }
-&lt;/script&gt;</pre>
+<syntaxhighlight lang="javascript">
+for(var i = 0;i &lt; 11;i = i + 1){
+  // do it, do it now
+}
+</syntaxhighlight>
  
 Here we define a variable <code>i</code> as having an initial value of 0 and then do a check to see if it has reached 11 yet (is it smaller than 11?). The change equation—<code>i = i + 1</code>—adds one to <code>i</code> every time the loop executes and goes through another iteration. This means that this loop executes 11 times. If you add two to <code>i</code> on every iteration it executes only 6 times:
- 
-<pre>&lt;script type="text/javascript"&gt;
-  for(var i = 0;i &lt; 11;i = i + 2){
-    // do it, do it now
-  }
-&lt;/script&gt;</pre>
+
+<syntaxhighlight lang="javascript">
+for(var i = 0;i &lt; 11;i = i + 2){
+  // do it, do it now
+}
+</syntaxhighlight>
  
 Using a loop the paragraph adding example we saw above gets a lot shorter and simpler:
  
-<pre>&lt;script type="text/javascript"&gt;
-  var names = new Array('Chris','Dion','Ben','Brendan');
-  var all = names.length;
-  for(var i=0;i&lt;all;i=i+1){
-    names[i] = '&lt;p&gt;' + names[i] + '&lt;/p&gt;';
-  }
-&lt;/script&gt;</pre>
+<syntaxhighlight lang="javascript">
+var names = new Array('Chris','Dion','Ben','Brendan');
+var all = names.length;
+for(var i=0;i&lt;all;i=i+1){
+  names[i] = '&lt;p&gt;' + names[i] + '&lt;/p&gt;';
+}
+</syntaxhighlight>
  
 Notice that you can use the value of <code>i</code> as the array counter inside the loop. This is the power of loops—not only can you do the same thing over and over again; you also know in every iteration how many times you have already done it.
 }}
