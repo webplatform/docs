@@ -2,13 +2,13 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A selector to target an element that is a descendant (child, grandchild and beyond) of another element.}}
 {{CSS_Selector
-|Content=Descendant selectors are handy for targeting specific elements within an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant selector which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
+|Content=Descendant selectors are handy for targeting specific elements of an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant selector which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,8 +16,6 @@
 |Language=CSS
 |Description=The following rule defines the text color of all instances of unordered lists within navigation elements red.
 |Code=nav ul { color:red; }
-}}{{Single Example
-|Language=CSS
 }}
 }}
 {{Notes_Section
