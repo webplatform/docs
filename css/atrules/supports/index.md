@@ -59,15 +59,15 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 |Specifications={{Related Specification
 |Name=CSS Conditional Rules Module Level 3
 |URL=http://www.w3.org/TR/css3-conditional/
-|Status=Candidate Recommendation 
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=28
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -92,6 +92,14 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
 |Browser=Firefox
 |Version=17+
 |Note=It's disabled by default in the release and beta builds.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=28-29
+|Note=Using @supports on Chrome 28-29 breaks following :not selectors (http://crbug.com/257695)
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=15-16
+|Note=Using @supports on Opera 15-16 breaks following :not selectors (http://crbug.com/257695)
 }}
 }}
 {{See_Also_Section
