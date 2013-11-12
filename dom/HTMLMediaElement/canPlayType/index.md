@@ -8,7 +8,9 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter
+|Parameters=
+|Method_applies_to=dom/HTMLMediaElement
+{{Method Parameter
 |Name=type
 |Data type=any
 |Description=The type of media that the client can play.
