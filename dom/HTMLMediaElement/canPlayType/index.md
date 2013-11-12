@@ -10,8 +10,6 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLMediaElement
-|Interface=dom/HTMLMediaElement
-|Target=dom/Element
 {{Method Parameter
 |Name=type
 |Data type=any
