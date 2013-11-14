@@ -12,11 +12,11 @@
 在这个过程中，你会写很多的代码，并在Web浏览器中测试它。在开始之前，你至少应该有以下安装：
 
 *最新浏览器。如果你尚未拥有，请从它们主页下载： 
-[http://www.google.com/chrome/ 酷容]，
+[http://www.google.com/chrome/ Chrome]，
 [http://www.mozilla.org/firefox/ 火狐]，
 [http://microsoft.com/ IE]，
 [http://www.opera.com/ 欧朋]，和
-[http://www.apple.com/safari/ 猞猁]。
+[http://www.apple.com/safari/ Safari]。
 *一个体面的文本编辑器。推荐的选择有[http://notepad-plus-plus.org/ Notepad++]Windows，[http://www.sublimetext.com/2 Sublime Text] 为Mac，[http://bluefish.openoffice.nl/index.html Bluefish] Linux和 [http://brackets.io Brackets] 用于Mac和Windows（Linux版本即将推出）。
 现在卷起你的袖子，准备学习吧。 [[tutorials|了解更多，查看全部文章列表！]]
 
