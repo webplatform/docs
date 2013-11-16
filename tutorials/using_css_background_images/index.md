@@ -1,5 +1,6 @@
 {{Page_Title|Using CSS background images}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.}}
@@ -46,7 +47,7 @@ Valid values include a <code>colour</code> value, <code>transparent</code>, or <
 {{!}}Indicates the path'' or URL '' of the background image.
 {{!}}
 
-Set the <code>background-image</code> by showing the browser where to find the image, using the URL. For example; <code>url(alert.png)</code>. Note that the path is prefaced with they keyword <code>url</code> and wrapped in parenthesis. This syntax is important to the browser understanding that you mean to indicate a location.
+Set the <code>background-image</code> by showing the browser where to find the image, using the URL. For example; <code>url(alert.png)</code>. Note that the path is prefaced with they keyword <code>url</code> and wrapped in parenthesis. This syntax is important to the browser understanding that you mean to indicate a location. If your url contains special characters or white space, you may have to use apostrophes or quotations around the url inside of the parentheses.
  
 Valid values include a <code>URL</code>, <code>none</code>, or <code>inherit</code>.
 
