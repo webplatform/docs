@@ -9,7 +9,7 @@
 {{Method Parameter|Name=sourceRange|Data type=object|Description=[[dom/traversal/Range|'''Range''']] object
 
  that is compared to the range of the object on which '''compareBoundaryPoints''' is invoked.|Optional=}}
-|Method_applies_to=dom/traversal/Range
+|Method_applies_to=dom/Range
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
