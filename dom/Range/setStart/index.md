@@ -8,7 +8,7 @@
 |Parameters={{Method Parameter|Name=oNode|Data type=Node|Description=Node
 in the document hierarchy.|Optional=}}
 {{Method Parameter|Name=offset|Data type=Integer|Description=Specifies the offset value for the starting point.|Optional=}}
-|Method_applies_to=dom/traversal/Range
+|Method_applies_to=dom/Range
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
