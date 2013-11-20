@@ -8,7 +8,7 @@
 |Parameters={{Method Parameter|Name=oNode|Data type=Node|Description=The
 new node
 to insert.|Optional=}}
-|Method_applies_to=dom/traversal/Range
+|Method_applies_to=dom/Range
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
