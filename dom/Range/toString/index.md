@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=sRange|Data type=DOMString|Description=A Range expressed  as a string.|Optional=}}
-|Method_applies_to=dom/traversal/Range
+|Method_applies_to=dom/Range
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
