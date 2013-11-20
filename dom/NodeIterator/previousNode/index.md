@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=oNode|Data type=Node|Description= Object containing the previous node in the list.|Optional=}}
-|Method_applies_to=dom/traversal/NodeIterator
+|Method_applies_to=dom/NodeIterator
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
