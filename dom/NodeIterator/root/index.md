@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/traversal/NodeIterator
+|Property_applies_to=dom/NodeIterator
 |Read_only=
 }}
 {{Topics|DOM}}
