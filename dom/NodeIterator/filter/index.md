@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the currently applied '''NodeFilter''' to the traversal.}}
 {{API_Object_Property
-|Property_applies_to=dom/traversal/NodeIterator
+|Property_applies_to=dom/NodeIterator
 |Read_only=Yes
 |Example_object_name=nodeIterator
 |Return_value_name=nodeFilter
