@@ -96,7 +96,7 @@ counting from the last one */
 </syntaxhighlight>
 
 == <code>:nth-of-type()</code> pseudo-class ==
-The <code>:nth-of-type(an+b)</code> pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name before it in the document tree, for any zero or positive integer value of n, and has a parent element. See <code>:nth-child()</code> pseudo-class for the syntax of its argument. It also accepts the ‘<code>even</code>’ and ‘<cone>odd</code>’ values.
+The <code>:nth-of-type(an+b)</code> pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name before it in the document tree, for any zero or positive integer value of n, and has a parent element. See <code>:nth-child()</code> pseudo-class for the syntax of its argument. It also accepts the ‘<code>even</code>’ and ‘<code>odd</code>’ values.
 
 This allows an author to alternate the position of floated images:
 <syntaxhighlight lang="css">
