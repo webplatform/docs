@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/traversal/TextRange
+|Property_applies_to=dom/TextRange
 |Read_only=
 }}
 {{Topics|DOM}}
