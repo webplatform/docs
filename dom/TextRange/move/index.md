@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=Unit|Data type=BSTR|Description='''String''' that specifies the units to move, using one of the following values:|Optional=}}
 {{Method Parameter|Name=Count|Data type=Integer|Description='''Integer''' that specifies the number of units to move. This can be positive or negative. The default is '''1'''.|Optional=}}
-|Method_applies_to=dom/traversal/TextRange
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
