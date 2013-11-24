@@ -196,8 +196,8 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
+|Android_supported=Yes
+|Android_version=4.4 (4.2.2 - Samsung Android)
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
@@ -205,6 +205,7 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=31
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
