@@ -50,7 +50,7 @@ WebRTC implements three APIs:
 
 * MediaStream/getUserMedia: get access to data streams, such as from the user's camera and microphone. ([https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html specs], [[apis/webrtc/MediaStream|docs]])
 * RTCPeerConnection: audio or video calling, with facilities for encryption and bandwidth management. ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcpeerconnection-interface specs], [[apis/webrtc/RTCPeerConnection|docs]])
-* RTCDatatChannel: peer-to-peer communication of generic data. ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
+* RTCDataChannel: peer-to-peer communication of generic data. ([http://dev.w3.org/2011/webrtc/editor/webrtc.html#rtcdatachannel specs], [[apis/webrtc/RTCDataChannel|docs]])
 
 <tt>getUserMedia</tt> is available in Chrome, Opera and Firefox Nightly/Aurora. Take a look at the cross-browser demo of <tt>getUserMedia</tt> at [http://www.simpl.info/gum simpl.info/gum] (though for Firefox you'll need to [https://hacks.mozilla.org/2012/11/progress-update-on-webrtc-for-firefox-on-desktop/comment-page-1/#comment-1851192 set preferences]). Also check out Chris Wilson's [http://webaudiodemos.appspot.com/ amazing examples] of using <tt>getUserMedia</tt> as input for Web Audio.
 
