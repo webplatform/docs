@@ -229,8 +229,9 @@ The '''SVGFEComponentTransferElement''' object has these properties.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
-|Browser=Safari
-|Version=6
+|Browser=Internet Explorer
+|Version=10+
+|Note=Supports a maximum of 64 values in the tableValues array. If more than 64 values are specified, the entire filter is ignored.
 }}
 }}
 {{See_Also_Section
