@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=how|Data type=BSTR|Description='''String''' that specifies the endpoint to transfer using one of the following values.|Optional=}}
 {{Method Parameter|Name=SourceRange|Data type=IHTMLTxtRange|Description=[[dom/traversal/TextRange|'''TextRange''']] object from which the source endpoint is to be taken.|Optional=}}
-|Method_applies_to=dom/traversal/TextRange
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
