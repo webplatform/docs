@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=x|Data type=Integer|Description='''Integer''' that specifies the horizontal offset relative to the upper-left corner of the window, in pixels.|Optional=}}
 {{Method Parameter|Name=y|Data type=Integer|Description='''Integer''' that specifies the vertical offset relative to the upper-left corner of the window, in pixels.|Optional=}}
-|Method_applies_to=dom/traversal/TextRange
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
