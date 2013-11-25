@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=cmdID|Data type=BSTR|Description='''String''' that specifies a command identifier.|Optional=}}
-|Method_applies_to=dom/traversal/TextRange
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
