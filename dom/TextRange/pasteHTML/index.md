@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=html|Data type=BSTR|Description='''String''' that specifies the HTML text to paste. The string can contain text and any combination of the HTML tags described in HTML Elements.|Optional=}}
-|Method_applies_to=dom/traversal/TextRange
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
