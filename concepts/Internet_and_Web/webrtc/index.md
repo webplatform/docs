@@ -200,7 +200,7 @@ First up, Alice and Bob exchange network information. (The expression 'finding c
 WebRTC clients (known as '''peers''', aka Alice and Bob) also need to ascertain and exchange local and remote audio and video media information, such as resolution and codec capabilities. Signaling to exchange media configuration information proceeds by exchanging an ''offer'' and an ''answer'' using the Session Description Protocol (SDP):
 
 # Alice runs the RTCPeerConnection <tt>createOffer()</tt> method. The callback argument of this is passed an RTCSessionDescription: Alice's local session description.
-# In the callback, Alice sets the local description using <tt>setLocalDesecription()</tt> and then sends this session description to Bob via their signaling channel.
+# In the callback, Alice sets the local description using <tt>setLocalDescription()</tt> and then sends this session description to Bob via their signaling channel.
 # Bob sets the description Alice sent him as the remote description (using <tt>setRemoteDescription()</tt>).
 # Bob runs the RTCPeerConnection <tt>createAnswer()</tt> method, passing it the remote description he got from Alice, so a local session can be generated that is compatible with hers. The <tt>createAnswer()</tt> callback is passed an RTCSessionDescription: Bob sets that as the local description and sends it to Alice.
 # When Alice gets Bob's session description, she sets that as the remote description with <tt>setRemoteDescription</tt>.
