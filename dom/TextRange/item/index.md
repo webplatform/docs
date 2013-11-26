@@ -9,7 +9,7 @@
 the object. If this parameter is a string, all objects with matching
 [[html/attributes/name|'''name''']] or [[html/attributes/id|'''id''']]
 properties are retrieved, and a collection is returned if more than one match is made.|Optional=}}
-|Method_applies_to=dom/Element
+|Method_applies_to=dom/TextRange
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
