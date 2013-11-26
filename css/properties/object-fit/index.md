@@ -45,8 +45,8 @@
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table}}
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=32
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=No
@@ -60,7 +60,7 @@
 |Opera_supported=No
 |Opera_version=
 |Opera_prefixed_supported=Yes
-|Opera_prefixed_version=≥ 10.6 ≤12.1
+|Opera_prefixed_version=≥ 10.6 ≤12.1, 18+
 |Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=No
@@ -100,7 +100,11 @@
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Opera
+|Version=18+
+|Note=The feature can be enabled through experimental web features flag from 18+
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Generated and Replaced Content, Multimedia, Video
