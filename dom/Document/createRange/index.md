@@ -8,7 +8,7 @@
 {{Summary_Section|Creates an empty [[dom/traversal/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=range
 |Javascript_data_type=DOM Node
