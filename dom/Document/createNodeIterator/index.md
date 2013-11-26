@@ -28,7 +28,7 @@
 |Description=Whether entity reference nodes are expanded. For more information, see [[dom/traversal/properties/expandEntityReferences|'''expandEntityReferences''']].
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=nodeIterator
 |Javascript_data_type=DOM Node
