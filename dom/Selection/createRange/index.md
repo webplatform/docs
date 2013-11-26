@@ -8,7 +8,7 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/Element
+|Method_applies_to=dom/Selection
 |Example_object_name=element
 |Return_value_name=range
 |Javascript_data_type=DOM Node
