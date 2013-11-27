@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -79,8 +80,8 @@ The '''section''' element is not a generic container element. Authors are encour
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/the-section-element.html#the-section-element
-|Status=W3C Working Draft
+|URL=http://www.w3.org/TR/html5/sections.html#the-section-element
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
