@@ -31,7 +31,7 @@ Type the command &lt;kbd&gt;git status&lt;/kbd&gt; to see the working tree statu
 |Language=HTML
 |Description=This example illustrates using <code>kbd</code> to indicate keystrokes.
 |Code=&lt;p&gt;
-Press &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt; to save your document..
+Press &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt; to save your document.
 &lt;/p&gt;
 }}
 }}
