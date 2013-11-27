@@ -9,6 +9,15 @@
 {{Summary_Section|The kbd element represents user input.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content====HTML information===
+{{{!}} class="wikitable"
+{{!}}-
+!Closing Tag
+{{!}}required
+{{!}}-
+!CSS Display
+{{!}}inline
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -18,22 +27,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.1
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|inline
-|}
-
-===Members===
+|Import_Notes====Members===
 The '''kbd''' object has these types of members:
 *[#events Events]
 *[#methods Methods]
@@ -712,6 +706,10 @@ This property is not supported for Metro style apps using JavaScript.
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
 |Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-KBD
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
