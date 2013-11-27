@@ -24,11 +24,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the <code>kbd</code> element to convey a command line command to the user.
-|Code=&lt;p&gt;Type the command &lt;kbd&gt;git status&lt;/kbd&gt; to see the working tree status.&lt;/p&gt;
+|Code=&lt;p&gt;
+Type the command &lt;kbd&gt;git status&lt;/kbd&gt; to see the working tree status.
+&lt;/p&gt;
 }}{{Single Example
 |Language=HTML
 |Description=This example illustrates using <code>kbd</code> to indicate keystrokes.
-|Code=&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt; to save your document..&lt;/p&gt;
+|Code=&lt;p&gt;
+Press &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt; to save your document..
+&lt;/p&gt;
 }}
 }}
 {{Notes_Section
