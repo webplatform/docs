@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -707,7 +708,11 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
+|Status=W3C Candidate Recommendation
+}}{{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -716,10 +721,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|External_links=http://www.w3.org/TR/html-markup/kbd.html#kbd
-
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
