@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The kbd element represents user input.}}
+{{Summary_Section|The <code>kbd</code> element represents user input. Typically used to represent keyboard input, although it may be used to represent other user input, such as voice commands.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content====HTML information===
@@ -22,8 +22,13 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''KBD''' element to render text in a fixed-width font.
-|Code=&lt;KBD&gt;This text renders in a fixed-width font.&lt;/KBD&gt;
+|Language=HTML
+|Description=This example uses the <code>kbd</code> element to convey a command line command to the user.
+|Code=&lt;p&gt;Type the command &lt;kbd&gt;git status&lt;/kbd&gt; to see the working tree status.&lt;/p&gt;
+}}{{Single Example
+|Language=HTML
+|Description=This example illustrates using <code>kbd</code> to indicate keystrokes.
+|Code=&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;s&lt;/kbd&gt;&lt;/kbd&gt; to save your document..&lt;/p&gt;
 }}
 }}
 {{Notes_Section
@@ -703,13 +708,13 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
-|Status=W3C Candidate Recommendation
-}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-KBD
 |Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
