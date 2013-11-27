@@ -712,7 +712,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
 |Status=W3C Candidate Recommendation
-}}{{Related Specification}}
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
