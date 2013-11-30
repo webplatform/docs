@@ -53,7 +53,7 @@ The HTML enclosed by the <a></a> element is typically text or an image tag.  It 
 {{!}} [[html/attributes/hreflang|'''hreflang''']]
 {{!}} Language tag [http://www.ietf.org/rfc/bcp/bcp47.txt for HTML5] or [http://www.ietf.org/rfc/rfc1766.txt for HTML4]
 {{!}} Hint for language of target. May be used with rel="alternate" as a hint to the server for which language to provide.
-{{!}} <pre>reflang="ja"</pre>
+{{!}} <pre>hreflang="ja"</pre>
 {{!}}-
 {{!}} [[html/attributes/rel|'''rel''']]
 {{!}} comma-separated list of keywords
