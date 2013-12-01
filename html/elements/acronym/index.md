@@ -4,16 +4,17 @@
 |Checked_Out=No
 |Editorial notes={{Editorial/Deletion_Candidate | Not compatible in HTML5}}
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The '''acronym''' element (&lt;acronym&gt;) indicates an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.}}
+{{Summary_Section|The <code>acronym</code> element (&lt;acronym&gt;) indicates an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.
+
+The <code>acronym</code> element was deprecated in HTML5 and should no longer be used.
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The acronym element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
+|Content=The <code>acronym</code> element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
 
 An equivalent to this element in HTML5 is the '''<code>[[html/elements/abbr|abbr]]</code>''' element.
-
-
 }}
 {{Examples_Section
 |Not_required=No
