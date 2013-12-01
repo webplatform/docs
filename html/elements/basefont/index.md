@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|The <code>basefont</code> element (<code>&lt;basefont&gt;</code>)  allows specifying a default <code>[[css/properties/color|color]]</code> and <code>[[css/properties/font-size|font-size]]</code> for text on the entire page. 
  
