@@ -8,9 +8,10 @@
 {{API_Name}}
 {{Summary_Section|The <code>basefont</code> element (<code>&lt;basefont&gt;</code>)  allows specifying a default <code>[[css/properties/color|color]]</code> and <code>[[css/properties/font-size|font-size]]</code> for text on the entire page. 
  
-The <code>basefont</code> element is non-standard and should not be used. Use CSS instead.
+The <code>basefont</code> element was deprecated in HTML4 and should no longer be used.
 }}
 {{Markup_Element
+|DOM_interface=dom/HTMLBaseFontElement
 |Content=To specify the overall font for your page add the <code>basefont</code> element at the beginning of the <code>body</code> section. The <code>basefont</code> element is only supported by Internet Explorer.
 }}
 {{Examples_Section
@@ -19,7 +20,12 @@ The <code>basefont</code> element is non-standard and should not be used. Use CS
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML4
+|URL=http://www.w3.org/TR/1999/REC-html401-19991224/present/graphics.html#edef-BASEFONT
+|Status=W3C Recommendation
+|Relevant_changes=Deprecated
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
