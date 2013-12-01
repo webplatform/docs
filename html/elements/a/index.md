@@ -6,12 +6,12 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates a hyperlink or anchor.}}
+{{Summary_Section|The <code>a</code> element (<code>&lt;a&gt;</code>) defines a hyperlink, a destination of hyperlink, or both.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 |Content====Description===
 
-Defines a hyperlink to any content, which could be an external site, another page on the same site, a section within the same page, an image, or a local file. It may even invoke a JavaScript function.
+The <code>a</code> element defines a hyperlink to any content, which could be an external site, another page on the same site, a section within the same page, an image, or a local file.
 
 ===Syntax===
 
@@ -21,7 +21,7 @@ Defines a hyperlink to any content, which could be an external site, another pag
 
 ===Enclosed HTML===
 
-The HTML enclosed by the <a></a> element is typically text or an image tag.  It is displayed in the page and (if href is present) is rendered as a link.
+HTML enclosed by the <code>&lt;a&gt;&lt;/a&gt;</code> tags is typically text or an image. It is displayed in the page and (if the [[html/attributes/href|href]] attribute is present) is rendered as a link.
 
 ===Common Attributes===
 
@@ -145,12 +145,15 @@ Internationalization topics related to the <code>a</code> element:
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/
+|URL=http://www.w3.org/TR/html4/struct/links.html#edef-A
 |Status=W3C Recommendation
 }}{{Related Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
-|Status=W3C Working Draft
+|URL=http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element
+|Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=WHATWG Living Standard
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element
 }}
 }}
 {{Compatibility_Section
@@ -214,11 +217,7 @@ Internationalization topics related to the <code>a</code> element:
 |Note=<code>A</code> elements with href don't get focus by mouse press by default.
 }}
 }}
-{{See_Also_Section
-|External_links=* [http://www.w3.org/TR/html4/struct/links.html#edef-A HTML 4.01 specification]
-* [http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element HTML 5 specification]
-* [http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element WHATWG specification]
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
