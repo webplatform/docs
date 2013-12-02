@@ -20,9 +20,7 @@ Any content inside '''br''' elements must not be considered part of the surround
 |Language=HTML
 |Description=The following example is correct usage of the '''br''' element
 |Code=<nowiki>
-<p>P. Sherman<br>
-42 Wallaby Way<br>
-Sydney</p>
+<p>P. Sherman<br> 42 Wallaby Way<br> Sydney</p>
 </nowiki>
 |LiveURL=http://code.webplatform.org/gist/7282007
 }}
