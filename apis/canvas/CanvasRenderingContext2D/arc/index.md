@@ -1,20 +1,21 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Draws the specified arc.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=x
-|Data type=Number
-|Description=The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
-|Optional=No
-}}{{Method Parameter
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
+|Optional=No
+}}{{Method Parameter
+|Name=x
+|Data type=Number
+|Description=The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
 |Name=radius
@@ -37,10 +38,10 @@
 |Description=''true'': The arc is drawn in a counterclockwise direction from start to end.
 
 ''false'': The arc  is drawn in a clockwise direction from start to end.
-|Optional=No
+|Optional=Yes
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
-|Example_object_name=object
+|Example_object_name=context
 |Return_value_name=object
 |Javascript_data_type=String
 |Return_value_description=Type: '''string'''
