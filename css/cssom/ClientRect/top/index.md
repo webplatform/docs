@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=cssom/ClientRect
+|Property_applies_to=css/cssom/ClientRect
 |Read_only=Yes
 |Example_object_name=clientRect
 |Return_value_name=pixelsFromTop
