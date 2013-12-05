@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the object that has the focus when the parent document has focus.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=element
