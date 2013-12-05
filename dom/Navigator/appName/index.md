@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|appName Returns a string with the name of the browser/user agent.}}
 {{API_Object_Property
-|Property_applies_to=dom/navigator
+|Property_applies_to=dom/Navigator
 |Read_only=Yes
 |Javascript_data_type=String
 }}
