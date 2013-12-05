@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/selection
+|Property_applies_to=dom/Selection
 |Read_only=
 }}
 {{Topics|DOM}}
