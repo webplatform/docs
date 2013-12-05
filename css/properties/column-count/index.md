@@ -66,18 +66,23 @@ To ensure the specified value is used, all length property values of the multi-c
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=4.0
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=2.0
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=10
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
+|Opera_version=11.1
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=15
 |Safari_supported=No
 |Safari_version=
 |Safari_prefixed_supported=Yes
+|Safari_prefixed_version=3.1
 }}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row}}
