@@ -1,35 +1,35 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Unreviewed Import
+|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
+{{Summary_Section|Specifies the magnification scale of the object.}}
 {{CSS_Selector
-|Content=
+|Content====Syntax===
+<code>'''zoom: '''normal number percentage</code>
+
+===Remarks===
+Setting the value of the <code>zoom</code> property on a rendered object causes the content that surrounds the object to reflow.
+Even though the <code>zoom</code> property is not inherited, it affects its children.  This effect is similar to the transformation caused by the [[html/attributes/background (Body element)|'''background''']] and [[css/media queries/filter|'''-ms-filter''']] properties.
 }}
-{{Topics|CSS}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following examples use the '''-ms-zoom''' attribute and the '''-ms-zoom''' property to change the magnification scale of a '''p''' element.
-|LiveURL=This example uses a style rule in an embedded style sheet to set the '''-ms-zoom''' attribute to one-tenth of normal.
-|Code=
-&lt;STYLE&gt;
+|Code=&lt;STYLE&gt;
   .clsTeenyWeeny  { zoom: 0.10 }
 &lt;/STYLE&gt;
-}}
-{{Single_Example
+|LiveURL=This example uses a style rule in an embedded style sheet to set the '''-ms-zoom''' attribute to one-tenth of normal.
+}}{{Single Example
 |Description=This example uses inline scripting to set the '''-ms-zoom''' property to 200% when an [[dom/events/mouseover|'''onmouseover''']] event occurs.  The magnification scale returns to normal when the [[dom/events/mouseout|'''onmouseout''']] event occurs.
-|LiveURL=
-|Code=
-&lt;P onmouseover{{=}}"this.style.zoom{{=}}'200%'" 
+|Code=&lt;P onmouseover{{=}}"this.style.zoom{{=}}'200%'" 
    onmouseout{{=}}"this.style.zoom{{=}}'normal'"&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example provides controls that let the user adjust the '''-ms-zoom''' property.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zoom.htm
-|Code=
-&lt;html xmlns:control{{=}}""&gt;
+|Code=&lt;html xmlns:control{{=}}""&gt;
 &lt;head&gt;
 &lt;title&gt;Zoom Demo&lt;/title&gt;
 &lt;script type{{=}}"text/javascript"&gt; 
@@ -126,34 +126,37 @@ function changeZoom2(oSel) {
 &lt;/map&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zoom.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Windows Internet Explorer 8. The '''-ms-zoom''' attribute is an extension to CSS, and can be used as a synonym for '''zoom''' in IE8 Standards mode.
-Setting the value of the '''-ms-zoom''' property on a rendered object causes the content that surrounds the object to reflow.
-Even though the '''-ms-zoom''' property is not inherited, it affects its children.  This effect is similar to the transformation caused by the [[html/attributes/background (Body element)|'''background''']] and [[css/media queries/filter|'''-ms-filter''']] properties.
 |Import_Notes=
-===Syntax===
-<code>'''-ms-zoom: '''normal number percentage</code>
-===Standards information===
-There are no standards that apply here.
 
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+|Topic_clusters=Visual Effects
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>LayoutRect</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Topic_clusters=Visual Effects
+|Manual_sections=
+
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
