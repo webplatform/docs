@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets a value that indicates whether you can cancel an event's default action.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/Event
+|Property_applies_to=dom/Event
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=cancelable
