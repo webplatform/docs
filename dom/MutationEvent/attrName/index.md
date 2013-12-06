@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the name of the attribute that changed.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MutationEvent
+|Property_applies_to=dom/MutationEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=attributeName
