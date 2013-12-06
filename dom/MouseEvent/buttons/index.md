@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets a value that indicates which mouse buttons a user pressed.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MouseEvent
+|Property_applies_to=dom/MouseEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=pressedButtons
