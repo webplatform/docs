@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -14,7 +15,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
-    0<input type="range" name="b" value="50" />100 +
+    <input type="range" name="b" value="50" /> +
     <input type="number" name="a" value="10" /> =
     <output name="result"></output>
 </form>
