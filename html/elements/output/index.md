@@ -8,6 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <output> element represents the result of a calculation.}}
 {{Markup_Element
+|DOM_interface=HTMLOutputElement
 |Content=The HTML <output> element represents the result of a calculation.
 }}
 {{Examples_Section
