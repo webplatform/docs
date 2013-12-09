@@ -2,9 +2,10 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name|defaultSelected}}
+{{API_Name}}
 {{Summary_Section|Gets or sets the value of the [[html/attributes/selected|selected]] HTML attribute.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLOptionElement
@@ -20,8 +21,6 @@
 }}
 {{Notes_Section
 |Notes=The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [[dom/properties/selected|'''selected''']] property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
-|Import_Notes=
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
