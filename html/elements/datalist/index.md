@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,7 +16,7 @@
 {{!}}required
 {{!}}-
 !CSS Display
-{{!}}inline
+{{!}}none
 {{!}}}
 
 
@@ -86,8 +87,8 @@
 |Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=33
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
