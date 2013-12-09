@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets a value that indicates the unit of measurement for delta values.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/WheelEvent
+|Property_applies_to=dom/WheelEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=deltaMode
