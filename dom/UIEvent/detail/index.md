@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets additional, developer defined, information about an event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/UIEvent
+|Property_applies_to=dom/UIEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=eventDetails
