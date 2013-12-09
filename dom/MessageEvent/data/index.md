@@ -7,7 +7,7 @@
 {{API_Name|data}}
 {{Summary_Section|Gets the content of the message.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MessageEvent
+|Property_applies_to=dom/MessageEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=data
