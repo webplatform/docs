@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/DragEvent
+|Property_applies_to=dom/DragEvent
 |Read_only=
 }}
 {{Topics|DOM}}
