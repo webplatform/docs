@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the distance that a mouse wheel has rotated around the y-axis (vertical).}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/WheelEvent
+|Property_applies_to=dom/WheelEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=deltaY
