@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Retrieves additional information about an event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/CustomEvent
+|Property_applies_to=dom/CustomEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=eventDetails
