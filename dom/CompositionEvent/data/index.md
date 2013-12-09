@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the text affected by the event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/CompositionEvent
+|Property_applies_to=dom/CompositionEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=compositionData
