@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or gets a value that indicates whether the document can be edited.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=No
 |Example_object_name=document
 |Return_value_name=designMode
