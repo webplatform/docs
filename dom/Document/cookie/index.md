@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or gets the string value of a cookie.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=No
 |Example_object_name=document
 |Return_value_name=cookies
