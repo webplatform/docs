@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The connection close-code provided by the server.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/CloseEvent
+|Property_applies_to=dom/CloseEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=closeCode
