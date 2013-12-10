@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -16,13 +17,16 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
-|Description=The user agent determines the permitted touch behaviors, such as panning and zooming manipulations of the viewport, for touches that begin on the element.
+|Description=The user agent MAY determine any permitted touch behaviors, such as panning and zooming manipulations of the viewport, for touches that begin on the element.
 }}{{CSS Property Value
 |Data Type=none
-|Description=Touches that begin on the element do not trigger default touch behaviors.
+|Description=Touches that begin on the element MUST NOT trigger default touch behaviors.
 }}{{CSS Property Value
-|Data Type=inherit
-|Description=The property takes the same specified value as the property for the element's parent.
+|Data Type=pan-x
+|Description=The user agent MAY consider touches that begin on the element only for the purposes of horizontally scrolling the element's nearest ancestor with horizontally scrollable content.
+}}{{CSS Property Value
+|Data Type=pan-y
+|Description=The user agent MAY consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content.
 }}
 }}
 {{Examples_Section
@@ -33,15 +37,22 @@
 |Code=canvas#fingerpainter {
   touch-action: none;
 }
+}}{{Single Example
+|Language=HTML
+|Description=The application has content that extends horizontally beyond the viewport and the desired behavior is to allow the user to scroll content left and right as desired without the browser moving the entire page.
+|Code=<div style="touch-action: pan-x;">
+    This element receives pointer events when not panning in the horizontal direction.
+</div>
+|LiveURL=http://www.love2dev.com/
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=Section 6.1
+|URL=https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html#the-touch-action-css-property
+|Status=Editor's Draft
+|Relevant_changes=Section 9.1
 }}
 }}
 {{Compatibility_Section
@@ -56,8 +67,8 @@
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=IE11
 |Internet_explorer_prefixed_supported=Yes
 |Internet_explorer_prefixed_version=IE10
 |Opera_supported=Unknown
@@ -73,17 +84,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=Supported as [http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx -ms-touch-action] with the following additional values:
-;pan-x
-: The element permits touch-driven panning on the horizontal axis. The touch pan is performed on the nearest ancestor with horizontally scrollable content.
-;pan-y
-: The element permits touch-driven panning on the vertical axis. The touch pan is performed on the nearest ancestor with vertically scrollable content.
-;pinch-zoom
-: The element permits pinch-zooming. The pinch-zoom is performed on the nearest ancestor with zoomable content.
-;manipulation
-: The element permits touch-driven panning and pinch-zooming. This is the shorthand equivalent of "pan-x pan-y pinch-zoom".
-;double-tap-zoom
-: The element permits double-tap-zooming. The double-tap-zoom is performed on the full page.
+|Note=Supported as [http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx -ms-touch-action] with the following additional values:;pan-x: The element permits touch-driven panning on the horizontal axis. The touch pan is performed on the nearest ancestor with horizontally scrollable content.;pan-y: The element permits touch-driven panning on the vertical axis. The touch pan is performed on the nearest ancestor with vertically scrollable content.;pinch-zoom: The element permits pinch-zooming. The pinch-zoom is performed on the nearest ancestor with zoomable content.;manipulation: The element permits touch-driven panning and pinch-zooming. This is the shorthand equivalent of "pan-x pan-y pinch-zoom".;double-tap-zoom: The element permits double-tap-zooming. The double-tap-zoom is performed on the full page.
 }}
 }}
 {{See_Also_Section
