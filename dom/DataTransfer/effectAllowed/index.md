@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or gets which data transfer operations are allowed for the object on the source element.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/dataTransfer
+|Property_applies_to=dom/DataTransfer
 |Read_only=No
 |Example_object_name=event.dataTransfer
 |Return_value_name=effectAllowed
