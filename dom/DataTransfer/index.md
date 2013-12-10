@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=New listing page with proper capitalization; replaces '''dataTransfer'''.
+|Editorial notes=New listing page with proper object capitalization; replaces '''dataTransfer'''.
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
