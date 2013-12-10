@@ -4,11 +4,11 @@
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Represents an object associated with drag and drop or clipboard events, providing the utility operations. TEST LISTING PAGE - DAG}}
+{{Summary_Section|Represents an object associated with drag and drop or clipboard events, providing the utility operations.}}
 {{API_Object}}
 {{Concept_Listing
 |Use_page_title=No
-|List_all_subpages=Yes
+|List_all_subpages=No
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
