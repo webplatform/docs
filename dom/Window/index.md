@@ -7,8 +7,8 @@
 {{API_Name}}
 {{Summary_Section|The '''window''' object is the top level Javascript object in a page, and is the global scope for a browser tab.
 Global Javascript variables appear in the window object, as well as several important objects such as [[dom/Document|Document]].
-
-}}{{API_Object
+}}
+{{API_Object
 |Subclass_of=dom/EventTarget
 }}
 {{Concept_Listing
