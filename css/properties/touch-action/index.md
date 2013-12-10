@@ -59,13 +59,13 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
+|Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
-|Firefox_supported=Unknown
+|Firefox_supported=No
 |Firefox_version=
-|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=IE11
