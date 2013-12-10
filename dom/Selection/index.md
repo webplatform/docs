@@ -6,8 +6,9 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing}}
-{{Concept_Listing
+{{API_Object
+|Subclass_of=dom/Element
+}}{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=No
 }}
