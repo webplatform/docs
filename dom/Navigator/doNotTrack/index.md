@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=dom/navigator
+|Property_applies_to=dom/Navigator
 |Read_only=No
 }}
 {{Examples_Section
