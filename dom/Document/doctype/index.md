@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets an object that represents the [[html/elements/!DOCTYPE|document type declaration]] that is associated with the current '''document'''.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=doctype
