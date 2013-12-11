@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or retrieves the entire URL as a string.}}
 {{API_Object_Property
-|Property_applies_to=dom/location
+|Property_applies_to=dom/Location
 |Read_only=No
 |Example_object_name=location
 |Return_value_name=url
