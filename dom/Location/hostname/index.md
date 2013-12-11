@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or retrieves the host name part of the location or URL.}}
 {{API_Object_Property
-|Property_applies_to=dom/location
+|Property_applies_to=dom/Location
 |Read_only=No
 |Example_object_name=location
 |Return_value_name=hostName
