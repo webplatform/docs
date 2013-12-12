@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/ProgressEvent
+|Property_applies_to=dom/ProgressEvent
 |Read_only=
 }}
 {{Topics|DOM}}
