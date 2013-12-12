@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets a value that describes how text is entered.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/TextEvent
+|Property_applies_to=dom/TextEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=inputMethod
