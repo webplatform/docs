@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the date that the document was last modified, if the document supplies one.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=lastModified
