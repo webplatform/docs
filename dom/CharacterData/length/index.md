@@ -2,9 +2,10 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name|length}}
+{{API_Name}}
 {{Summary_Section|Gets the number of characters in a textual node.}}
 {{API_Object_Property
 |Property_applies_to=dom/CharacterData
@@ -46,6 +47,7 @@ function fnChangeValue(){
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
