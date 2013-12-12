@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MouseEvent
+|Property_applies_to=dom/MouseEvent
 |Read_only=
 }}
 {{Topics|DOM}}
