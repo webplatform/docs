@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the character encoding that is used for the text that is loaded into the '''document''' object.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=inputEncoding
