@@ -2,21 +2,22 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''code''' element (&lt;code&gt;) specifies a fragment of computer code.
-
-}}
+{{Summary_Section|The '''code''' element (&lt;code&gt;) specifies a fragment of computer code.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=Text within the code block is not interpreted by the browser.
+|Content=Content within a code block is interpreted as computer program code. Browsers will preserve white space within this element.
+
+Please remember that when displaying a less-than symbol that you will need to use the entity: &amp;lg;.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''CODE''' element to display text in a font used to represent computer code, such as values or variable names.
-|Code=&lt;CODE&gt;Here is some text in a small, fixed-width font.&lt;/CODE&gt;
+|Description=This example uses the '''code''' element to display text in a font used to represent computer code, such as values or variable names.
+|Code=&lt;code&gt;Here is some text in a small, fixed-width font.&lt;/code&gt;
 }}
 }}
 {{Notes_Section
