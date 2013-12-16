@@ -16,7 +16,9 @@ This article covers the underlying technologies that power the World Wide Web:
 While most of what is covered here will not help you to build a better website, it will give you the proper language to use when speaking with clients and with others about the Web. It is like a wise nun-turned-nanny once said in ''The Sound of Music'': “When we read we begin with ABC. When we sing we begin with Do Re Mi.” In this article I will briefly look at how computers actually communicate, then go on to look at the different languages that work together to create the web pages that make up the Web.
 }}
 {{Concept_Page
-|Content=== How do computers communicate via the Internet? ==
+|Content={{Languages}}
+
+== How do computers communicate via the Internet? ==
  
 Thankfully, we have kept things simple for computers. When it comes to the World Wide Web, most pages are written using the same language, HTML, which is passed around using a common protocol — HTTP. HTTP is the common internet language (dialect, or specification), allowing a Windows machine, for example, to sing in harmony with a machine running the latest and greatest version of Linux (Do Re Mi!). Through the use of a web browser, a special piece of software that interprets HTTP and renders HTML into a human-readable form, web pages authored in HTML on any type of computer can be read anywhere, including telephones, PDAs and even popular games consoles.
 
