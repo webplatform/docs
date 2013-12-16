@@ -5,7 +5,7 @@
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/TransitionEvent
+|Property_applies_to=dom/TransitionEvent
 |Read_only=
 }}
 {{Topics|DOM}}
