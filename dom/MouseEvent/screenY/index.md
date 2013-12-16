@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the screen.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MouseEvent
+|Property_applies_to=dom/MouseEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=yCoordinate
