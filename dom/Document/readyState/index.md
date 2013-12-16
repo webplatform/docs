@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Retrieves a value that indicates the current state of the object.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=node
 |Return_value_name=readyState
