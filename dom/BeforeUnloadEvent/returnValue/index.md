@@ -7,7 +7,7 @@
 {{API_Name|returnValue}}
 {{Summary_Section|Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/BeforeUnloadEvent
+|Property_applies_to=dom/BeforeUnloadEvent
 |Read_only=No
 |Example_object_name=event
 |Return_value_name=returnValue
