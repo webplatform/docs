@@ -12,9 +12,9 @@ Begin at the beginning, the King said gravely, and go on till you come to the en
 
  </blockquote> 
 
-Everything has to begin somewhere, so let's start with a focused history lesson. Below we'll give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.
+Everything has to begin somewhere, so let us start with a focused history lesson. Below we will give you a brief overview of the creation of the Internet, the World Wide Web, and the web standards that this entire series focuses upon.
  
-If any terms are unfamiliar to you, don’t worry: if they’re important for learning web development they’ll be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
+If any terms are unfamiliar to you, do not worry: if they are important for learning web development they will be defined in the later articles that go into more depth on each subject, and you can always search them out using your search engine of choice! If you are already familiar with the history of the Internet or the World Wide Web, feel free to skip to the section on [[http://www.w3.org/wiki/The_history_of_the_Web#The_coming_of_web_standards web standards]].
 |== Introduction ==
  <blockquote> 
 Where shall I begin, please your Majesty?
@@ -92,11 +92,11 @@ As a result, a group of professional web developers and designers banded togethe
  
 The early method of spreading the call to action was to use a traditional advertising technique called a roadblock, where a company would take out an advert on all broadcast channels at the same time, so no matter how a viewer would flick between channels, they would get exactly the same message. The WaSP published an article simultaneously on various web development focused sites including builder.com, Wired online, and some popular mailing lists.
  
-Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with. This doesn't mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
+Another technique the WaSP used was to ridicule the companies involved with the W3C (and other standards bodies) that focused more on creating new, often self-serving, features rather than working to get the basic existing standards supported correctly in their products to start with. This does not mean that the WaSP ridiculed the W3C themselves, rather they ridiculed the companies that became W3C members and then misbehaved.
  
 The W3C has a few full time staff, but most of the people who work on the standards are volunteers from member companies, eg. Microsoft, Opera, Mozilla, Apple, Google, IBM and Adobe, to name a few of the biggest ones.
  
-This all sounds a bit negative, but the WaSP didn’t just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
+This all sounds a bit negative, but the WaSP did not just sit there criticising people — they also helped. Seven members formed the CSS Samurai, who identified the top ten problems with the CSS support in Opera and other browsers (Opera fixed their problems, others did not).
 
 === The rise of web standards ===
  
@@ -118,11 +118,11 @@ Since then, web standards usage have become ''de rigueur''; in the professional 
 
 == The new breed of web standards ==
  
-After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable! 
+After 2003, web standards did not just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable! 
  
 When HTML 4 was nearing completion, the W3C decided (in a [http://www.w3.org/MarkUp/future/ workshop run in 1998]) that in terms of markup languages, the future of the Web was XML and XHTML, not HTML ([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). So the W3C drew a line under HTML 4.01 and instead concentrated on the [http://www.w3.org/TR/xhtml1/ XHTML 1.0] spec, finished in early 2000. XHTML 1.0 is just the same as HTML 4.01, except that it uses the stricter markup syntax rules of XML (more on this later). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] soon followed, which added a whole bunch of new powerful features, and aimed to be the next big thing on the Web.
 
-The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.
+The trouble with XHTML 2.0 is that it was not backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available were not ready for working with XML, and it did not reflect what web developers were REALLY doing out there in the wild wild web.
  
 In 2004, a group of like minded developers and implementers (including representatives from Opera, Mozilla and slightly later, Apple) got together and formed a breakaway spec group called the [http://www.whatwg.org/ WHATWG], with the aim of writing a better HTML markup spec that could handle authoring the new breed of web applications, without — crucially — breaking backwards compatibility.
  
@@ -130,7 +130,7 @@ The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applica
  
 HTML5 is a really good thing for web developers and designers, because it:
  
-* Is mostly backwards compatible with what's already there — you don't need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
+* Is mostly backwards compatible with what is already there — you do not need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
 * Adds powerful new features to HTML that were previously only available on the Web using plugin technologies like Flash, or with complex JavaScript and hacks. Form validation and video are prime examples.
 * Is better suited to writing dynamic applications than previous HTML versions (HTML was originally designed for creating static documents).
 * Has a clearly defined parsing algorithm so that all browsers implementing HTML5 will create the same DOM from the same markup, regardless of validity. This is a massive win for interoperability.
@@ -143,7 +143,7 @@ You can find more out about CSS3 and HTML5 later on in the course.
 
 == Summary ==
 
-In this article we’ve looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals than any other term applied by the [http://www.w3.org/ W3C] (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the ''standards'' way to build web sites.
+In this article we have looked at how the modern Internet was created as a result of the space race, how Tim Berners-Lee defined hypertext for a generation and how the commercial interests of two companies caused one of the most notable developer backlashes ever seen. The term web standards is now more widely used by web professionals than any other term applied by the [http://www.w3.org/ W3C] (in fact the W3C have started to use the term on their own pages), so that is what we are going to teach you — the ''standards'' way to build web sites.
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -174,5 +174,8 @@ You might like to try researching further, by answering these questions:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Languages|concepts/internet_and_web/the_history_of_the_web}}
