@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/window,dom/HTMLElement
+|Property_applies_to=dom/Window
 |Read_only=
 }}
 {{Topics|DOM}}
