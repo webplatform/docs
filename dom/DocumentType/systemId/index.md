@@ -5,7 +5,7 @@
 {{Standardization_Status|}}
 {{API_Name}}
 {{API_Object_Property
-|Property_applies_to=dom/documentType
+|Property_applies_to=dom/DocumentType
 |Read_only=
 }}
 {{Topics|DOM}}
