@@ -7,7 +7,7 @@
 {{API_Name|types}}
 {{Summary_Section|Returns a string list of formats that were sent in the [[dom/events/dragstart|'''ondragstart''']] event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/dataTransfer
+|Property_applies_to=dom/DataTransfer
 |Read_only=Yes
 |Example_object_name=event.dataTransfer
 |Return_value_name=dragTypes
