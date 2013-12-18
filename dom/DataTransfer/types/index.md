@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|types}}
+{{API_Name}}
 {{Summary_Section|Returns a string list of formats that were sent in the [[dom/events/dragstart|'''ondragstart''']] event.}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
