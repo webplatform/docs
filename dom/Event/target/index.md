@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the element that is the original target of the event.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/Event
+|Property_applies_to=dom/Event
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=originalTargetElement
