@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Indicates whether the server connection closed cleanly.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/CloseEvent
+|Property_applies_to=dom/CloseEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=wasClean
