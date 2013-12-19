@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets the '''window''' object that an event is generated from.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/UIEvent
+|Property_applies_to=dom/UIEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=eventWindow
