@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Gets a value that represents the character encoding that is specified in the declaration of an XML document.}}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=encoding
