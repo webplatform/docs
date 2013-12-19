@@ -4,10 +4,10 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|x}}
+{{API_Name}}
 {{Summary_Section|Gets the x-coordinate of the mouse cursor, relative to the last positioned ancestor element.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/MouseEvent
+|Property_applies_to=dom/MouseEvent
 |Read_only=Yes
 |Example_object_name=event
 |Return_value_name=xCoordinate
