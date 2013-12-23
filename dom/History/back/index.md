@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=pvargdistance|Data type=VARIANT|Description=|Optional=}}
-|Method_applies_to=dom/history
+|Method_applies_to=dom/History
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
