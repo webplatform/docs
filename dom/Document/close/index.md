@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name|close}}
+{{API_Name}}
 {{Summary_Section|Closes an output stream and forces the sent data to display.}}
 {{API_Object_Method
 |Parameters=
