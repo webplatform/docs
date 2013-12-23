@@ -15,7 +15,7 @@
 *'''Text'''
 |Optional=Yes
 }}
-|Method_applies_to=dom/objects/dataTransfer
+|Method_applies_to=dom/DataTransfer
 |Example_object_name=event.dataTransfer
 |Javascript_data_type=void
 }}
