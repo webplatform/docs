@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=timerID|Data type=Integer|Description='''Integer''' that specifies the interval to cancel. This value must have been previously returned by the [[dom/methods/setInterval|'''setInterval''']] method.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
