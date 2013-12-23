@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=oRange|Data type=IDispatch|Description=Range to add.|Optional=}}
-|Method_applies_to=dom/selection
+|Method_applies_to=dom/Selection
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
