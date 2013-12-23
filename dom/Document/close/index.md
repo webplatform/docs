@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -17,9 +18,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes={{TODO|The method name should be '''close''' and not '''close (document)'''.}}
-{{TODO|Clarify this weird note.}}
-When a function fired by an event on any object calls the 
+|Notes=When a function fired by an event on any object calls the 
 [[dom/methods/close|'''close''']] method, the window.'''close''' method is implied.
 When an event on any 
 object calls the [[dom/methods/close|'''close''']] method, the 
@@ -38,6 +37,7 @@ When [[dom/document|'''document''']].[[dom/methods/write|'''write''']] or '''doc
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
