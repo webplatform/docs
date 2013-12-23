@@ -13,7 +13,7 @@
 |Description=The URL of the document to load.
 |Optional=No
 }}
-|Method_applies_to=dom/location
+|Method_applies_to=dom/Location
 |Example_object_name=location
 |Javascript_data_type=void
 }}
