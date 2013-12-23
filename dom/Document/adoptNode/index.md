@@ -13,7 +13,7 @@
 |Description=The element to move.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=element
 |Javascript_data_type=DOM Node
