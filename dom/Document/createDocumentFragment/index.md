@@ -9,7 +9,7 @@
 {{Summary_Section|Creates a new document fragment (DocumentFragment) object.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=documentFragment
 |Javascript_data_type=DOM Node
