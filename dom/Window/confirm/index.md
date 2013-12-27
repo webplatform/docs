@@ -13,7 +13,7 @@
 |Description=The message to display in the confirmation dialog box. If no value is provided, the dialog box does not contain a message.
 |Optional=No
 }}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=window
 |Return_value_name=confirmed
 |Javascript_data_type=Boolean
