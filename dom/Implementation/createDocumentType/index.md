@@ -23,7 +23,7 @@
 |Description=The system identifier of the [[html/elements/!DOCTYPE|document type]] or null.
 |Optional=No
 }}
-|Method_applies_to=dom/implementation
+|Method_applies_to=dom/Implementation
 |Example_object_name=implementation
 |Return_value_name=object
 |Javascript_data_type=DOM Node
