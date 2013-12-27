@@ -11,7 +11,7 @@
 |Description=One of the following values. Case is not important.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=event
 |Javascript_data_type=DOM Node
