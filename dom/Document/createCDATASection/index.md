@@ -13,7 +13,7 @@
 |Description=The text to place inside the CDATA section.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=cdataSection
 |Javascript_data_type=DOM Node
