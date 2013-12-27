@@ -23,7 +23,7 @@
 |Description=The desired [[html/elements/!DOCTYPE|document type]] for the document or a null value.
 |Optional=No
 }}
-|Method_applies_to=dom/implementation
+|Method_applies_to=dom/Implementation
 |Example_object_name=implementation
 |Return_value_name=newDocument
 |Javascript_data_type=DOM Node
