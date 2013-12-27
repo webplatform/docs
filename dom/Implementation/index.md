@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
 |Checked_Out=No
+|Editorial notes=New listing page with proper object capitalization; replaces '''implementation'''.
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing}}
-{{Concept_Listing
+{{API_Object
+|Subclass_of=dom/DOMImplementation
+}}{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=No
 }}
