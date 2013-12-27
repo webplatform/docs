@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=parentNode|Data type=IDispatch|Description=The parent node that the selection is contained in.|Optional=}}
 {{Method Parameter|Name=offset|Data type=Integer|Description=The number of units from the start in which to place the caret or collapsed selection.|Optional=}}
-|Method_applies_to=dom/selection
+|Method_applies_to=dom/Selection
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
