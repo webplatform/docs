@@ -13,7 +13,7 @@
 |Description=The value of the '''title''' element in the HTML  document.
 |Optional=No
 }}
-|Method_applies_to=dom/implementation
+|Method_applies_to=dom/Implementation
 |Example_object_name=document
 |Return_value_name=htmlDocument
 |Javascript_data_type=DOM Node
