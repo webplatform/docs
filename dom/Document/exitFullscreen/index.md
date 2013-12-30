@@ -5,7 +5,7 @@
 {{Summary_Section|The exitFullscreen method provides a way for exiting the fullscreen mode enabled by [[dom/methods/requestFullscreen|requestFullscreen]].}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Javascript_data_type=void
 }}
