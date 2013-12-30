@@ -18,7 +18,7 @@
 |Description=The data for the processing instruction.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=processingInstruction
 |Javascript_data_type=DOM Node
