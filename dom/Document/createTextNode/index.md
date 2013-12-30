@@ -13,7 +13,7 @@
 |Description=The [[dom/properties/nodeValue|'''nodeValue''']] property of the text node.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=textNode
 |Javascript_data_type=DOM Node
