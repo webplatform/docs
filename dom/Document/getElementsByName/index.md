@@ -13,7 +13,7 @@
 |Description=The value of a [[html/attributes/name|'''NAME''']] attribute.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=elementList
 |Javascript_data_type=DOM Node
