@@ -41,7 +41,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 * MANDATORY_UNSATISFIED_ERROR - No media tracks of the type specified in the constraints are found.
 |Optional=Yes
 }}
-|Method_applies_to=dom/navigator
+|Method_applies_to=dom/Navigator
 |Example_object_name=navigator
 |Return_value_name=stream
 |Javascript_data_type=LocalMediaStream
