@@ -19,7 +19,7 @@
 |Description=The name of the desired element or an asterisk (*) to match all elements with the specified namespace.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=elements
 |Javascript_data_type=Object
