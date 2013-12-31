@@ -2,9 +2,8 @@
 {{Flags
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
-|Editorial notes=duplicate of dom/apis/document/getElementById
+|Checked_Out=No
 }}
-{{Editorial/Deletion_Candidate}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets an element with a specified ID.}}
@@ -140,3 +139,4 @@ function getID() {
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{Editorial/Deletion_Candidate}}
