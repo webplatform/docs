@@ -13,7 +13,7 @@
 |Description=The relative position of a URL in the history list. Out of bounds position (-1 when the current document is the first history record) does nothing.
 |Optional=No
 }}
-|Method_applies_to=dom/history
+|Method_applies_to=dom/History
 |Example_object_name=history
 |Javascript_data_type=void
 |Return_value_description=Type: '''HRESULT'''
