@@ -59,8 +59,8 @@ The '''input type{{=}}number''' object has these properties.
 |Chrome_version=7
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=28
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
@@ -88,8 +88,8 @@ The '''input type{{=}}number''' object has these properties.
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=28
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
@@ -108,7 +108,11 @@ The '''input type{{=}}number''' object has these properties.
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10
+|Note=Internet Explorer does not implement any user interface
+}}
 }}
 {{See_Also_Section
 |External_links=[http://caniuse.com/#feat=input-number Can I use - Number input]
