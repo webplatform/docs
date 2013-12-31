@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=ppIHTMLSelection|Data type=IHTMLSelection|Description=An [[dom/HTMLSelection|'''HTMLSelection''']] object that represents the current selection, if any.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
