@@ -29,7 +29,7 @@ For example -
 *'''Scroll''' - The Scroll Lock toggle.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/KeyboardEvent
+|Method_applies_to=dom/KeyboardEvent
 |Example_object_name=event
 |Return_value_name=modifierState
 |Javascript_data_type=Boolean
