@@ -37,7 +37,7 @@
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version=28
+|Firefox_version=27
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=No
