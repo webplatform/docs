@@ -36,8 +36,8 @@
 |Chrome_version=20
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=28
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=No
