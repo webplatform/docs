@@ -9,7 +9,7 @@
 {{Summary_Section|Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a [[apis/gamepad/Gamepad|Gamepad]] object.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/navigator
+|Method_applies_to=dom/Navigator
 |Example_object_name=object
 |Return_value_description=Gamepad. 
 }}
