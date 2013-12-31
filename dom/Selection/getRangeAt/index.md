@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=index|Data type=Integer|Description=An '''Integer''' that specifies the zero-based index of the Range to retrieve.|Optional=}}
 {{Method Parameter|Name=ppRange|Data type=IHTMLDOMRange|Description=|Optional=}}
-|Method_applies_to=dom/selection
+|Method_applies_to=dom/Selection
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
