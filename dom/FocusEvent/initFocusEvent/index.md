@@ -38,7 +38,7 @@
 |Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/FocusEvent
+|Method_applies_to=dom/FocusEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
