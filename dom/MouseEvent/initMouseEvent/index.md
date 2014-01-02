@@ -83,7 +83,7 @@
 |Description=A secondary element that is involved in the event.  Sets the value for the [[dom/properties/relatedTarget|'''relatedTarget''']] property.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/MouseEvent
+|Method_applies_to=dom/MouseEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
