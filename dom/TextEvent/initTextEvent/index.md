@@ -43,7 +43,7 @@
 |Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/TextEvent
+|Method_applies_to=dom/TextEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
