@@ -33,7 +33,7 @@
 |Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']]  property  of the event.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/UIEvent
+|Method_applies_to=dom/UIEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
