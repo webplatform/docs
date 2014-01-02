@@ -23,7 +23,7 @@
 |Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/Event
+|Method_applies_to=dom/Event
 |Example_object_name=event
 |Javascript_data_type=void
 }}
