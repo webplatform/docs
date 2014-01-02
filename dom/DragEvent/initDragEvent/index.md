@@ -88,7 +88,7 @@
 |Description=A [[dom/objects/dataTransfer|dataTransfer]] object.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/DragEvent
+|Method_applies_to=dom/DragEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
