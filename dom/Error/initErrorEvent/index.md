@@ -17,7 +17,7 @@ When false, the default action cannot be canceled.|Optional=}}
 {{Method Parameter|Name=messageArg|Data type=DOMString|Description=The error message string.|Optional=}}
 {{Method Parameter|Name=filenameArg|Data type=DOMString|Description=The absolute URL of the script in which the error originally occurred.|Optional=}}
 {{Method Parameter|Name=linenoArg|Data type=unsigned long|Description=The line number where the error occurred in the script.|Optional=}}
-|Method_applies_to=No Error event?
+|Method_applies_to=dom/Error
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
