@@ -15,7 +15,7 @@ the event does not propagate upward.|Optional=}}
 When true, the default action can be canceled. 
 When false, the default action cannot be canceled.|Optional=}}
 {{Method Parameter|Name=stateArg|Data type=any|Description=The object to be applied to the [[dom/properties/state|'''state''']] property.|Optional=}}
-|Method_applies_to=dom/objects/PopStateEvent
+|Method_applies_to=dom/PopStateEvent
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
