@@ -11,7 +11,7 @@
 {{Method Parameter|Name=lengthComputable|Data type=boolean|Description=Indicates whether the value of the [[dom/properties/total|'''total''']] attribute of the [[dom/objects/ProgressEvent|'''ProgressEvent''']] is accurate.|Optional=}}
 {{Method Parameter|Name=loadedArg|Data type=integer|Description=Specifies the number of bytes already loaded or zero if not known.|Optional=}}
 {{Method Parameter|Name=totalArg|Data type=integer|Description=Specifies the number of bytes to be loaded.  If ''lengthComputable'' is false, this must be zero ("0").|Optional=}}
-|Method_applies_to=dom/objects/ProgressEvent
+|Method_applies_to=dom/ProgressEvent
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
