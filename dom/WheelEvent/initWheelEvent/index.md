@@ -104,7 +104,7 @@ For example -
 |Description=The delta mode of the event. Sets the value for the [[dom/properties/deltaMode|'''deltaMode''']] property (see the property page for common values).
 |Optional=No
 }}
-|Method_applies_to=dom/objects/WheelEvent
+|Method_applies_to=dom/WheelEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
