@@ -10,7 +10,7 @@
 {{Method Parameter|Name=cancelableArg|Data type=boolean|Description=Specifies whether or not the event's default action can be prevented. Since a '''TransitionEvent''' is purely for notification, there is no default action.|Optional=}}
 {{Method Parameter|Name=propertyNameArg|Data type=DOMString|Description=Specifies the name of the property associated with the [[dom/objects/Event|'''Event''']].|Optional=}}
 {{Method Parameter|Name=elapsedTimeArg|Data type=float|Description=Specifies the amount of time, in seconds, the transition has been running at the time of initialization.|Optional=}}
-|Method_applies_to=dom/objects/TransitionEvent
+|Method_applies_to=dom/TransitionEvent
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
