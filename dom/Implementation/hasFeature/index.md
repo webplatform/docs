@@ -18,7 +18,7 @@
 |Description=The version number of the standard.
 |Optional=No
 }}
-|Method_applies_to=dom/implementation
+|Method_applies_to=dom/Implementation
 |Example_object_name=implementation
 |Return_value_name=featureImplemented
 |Javascript_data_type=Boolean
