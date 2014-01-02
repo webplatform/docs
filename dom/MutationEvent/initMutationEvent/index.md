@@ -48,7 +48,7 @@
 |Description=The type of modification in a '''DOMAttrModified''' event. Sets the value for the [[dom/properties/attrChange|'''attrChange''']] property.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/MutationEvent
+|Method_applies_to=dom/MutationEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
