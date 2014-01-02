@@ -69,7 +69,7 @@ For example -
 |Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/KeyboardEvent
+|Method_applies_to=dom/KeyboardEvent
 |Example_object_name=event
 |Javascript_data_type=void
 }}
