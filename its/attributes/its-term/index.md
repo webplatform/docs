@@ -20,7 +20,7 @@
     <title>Terminology test: default</title>
   </head>
   <body>
-    <p>We need a new <span its-term=yes>motherboard</span>
+    <p>We need a new <span its-term="yes">motherboard</span>
     </p>
   </body>
 </html>
