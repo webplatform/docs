@@ -14,13 +14,13 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=<!DOCTYPE html>
-<html lang=en>
+<html lang="en">
   <head>
-    <meta charset=utf-8>
+    <meta charset="utf-8">
     <title>Terminology test: default</title>
   </head>
   <body>
-    <p>We need a new <span class="yes">motherboard</span>
+    <p>We need a new <span its-term="yes">motherboard</span>
     </p>
   </body>
 </html>
