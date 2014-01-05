@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=Other
 |Code=<!DOCTYPE html>
 <html lang="en">
   <head>
