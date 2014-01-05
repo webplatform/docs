@@ -12,7 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=Other
+|Language=HTML
 |Code=<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,8 +20,7 @@
     <title>Terminology test: default</title>
   </head>
   <body>
-    <p>We need a new <span its-term="yes">motherboard</span>
-    </p>
+    <p>We need a new <span its-term="yes">motherboard</span></p>
   </body>
 </html>
 |LiveURL=http://www.w3.org/TR/its20/examples/html5/EX-term-html5-local-1.html
