@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=indexFrom|Data type=Integer|Description='''Integer''' that specifies the index in the [[dom/properties/rows (table)|'''rows''']] collection of the table row that is moved.|Optional=}}
 {{Method Parameter|Name=indexTo|Data type=Integer|Description='''Integer''' that specifies where the row is moved within the [[dom/properties/rows (table)|'''rows''']] collection.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
