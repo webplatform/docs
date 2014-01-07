@@ -1,5 +1,6 @@
 {{Page_Title|Creating and modifying HTML}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|when you've targetted an HTML element using JavaScript, how do modify it, and create new HTML nearby? This article shows you how.}}
@@ -285,7 +286,7 @@ The <code>init</code> function that does all this looks like so:
 
 <syntaxhighlight lang="javascript">init: function() {
   var ols = document.getElementsByTagName("ol");
-  for (var i=0; i&lt;ols.length; i++) {
+  for (var i=0; i<ols.length; i++) {
     var ol = ols[i];
     if (!/(^|\s)tablinks(\s|$)/.test(ol.className)) { continue; }
     tabify.addEvent(ol, "click", function(e) {
@@ -306,7 +307,7 @@ The <code>init</code> function that does all this looks like so:
 Let’s walk through this function step by step, looking at what each part does in turn:
 
 <syntaxhighlight lang="javascript">var ols = document.getElementsByTagName("ol");
-  for (var i=0; i&lt;ols.length; i++) {
+  for (var i=0; i<ols.length; i++) {
     var ol = ols[i];
     if (!/(^|\s)tablinks(\s|$)/.test(ol.className)) { continue; }
   }</syntaxhighlight>
@@ -544,6 +545,7 @@ way you need to.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
