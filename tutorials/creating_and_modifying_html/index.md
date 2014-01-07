@@ -109,7 +109,7 @@ var tabify = {
   },
   hideAllTabs: function(ol) {
     var links = ol.getElementsByTagName("a");
-    for (var i=0; i&lt;links.length; i++) {
+    for (var i=0; i<links.length; i++) {
       tabify.setTabFromLink(links[i], "none");
    }
   },
@@ -133,7 +133,7 @@ var tabify = {
   },  
   init: function() {
     var ols = document.getElementsByTagName("ol");
-    for (var i=0; i&lt;ols.length; i++) {
+    for (var i=0; i<ols.length; i++) {
       var ol = ols[i];
       if (!/(^|\s)tablinks(\s|$)/.test(ol.className)) { continue; }
       tabify.addEvent(ol, "click", function(e) {
