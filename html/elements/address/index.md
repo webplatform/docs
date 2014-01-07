@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,7 +19,18 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Windows Internet Explorer displays the content of an '''address''' element in italic type.
+
+Webkit and Trident userAgent defaults.
+address{
+	display:block;
+	font-style: italic;
+}
+Gecko userAgent defaults
+address, address[dir]{
+         unicode-bidi: -moz-isolate;
+         display:block;
+         font-style:italic;
+}
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.6
 
