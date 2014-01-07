@@ -380,7 +380,7 @@ new HTML that was never in your page to begin with. For example,
 on the tech news site Slashdot, a link in a comment displays the destination of
 the link in square brackets, so a link like 
 &lt;a href="http://opera.com"&gt;A web browser&lt;/a&gt; will display as 
-'''&lt;a href="http://opera.com"&gt;A web browser&lt;/a&gt; [opera.com]'''.
+[http://opera.com A web browser] [opera.com].
 (They did this to stop people being [http://www.youtube.com/watch?v=oHg5SJYRHA0 rickrolled], or worse.) 
 Adding this extra bit of HTML, displaying the destination domain of every link 
 on the page, will be easy to do with JavaScript.
@@ -412,7 +412,7 @@ var linksuffix = {
   },  
   init: function() {
     var links = document.getElementById("linksuffixtext").getElementsByTagName("a");
-    for (var i=0; i&lt;links.length; i++) {
+    for (var i=0; i<links.length; i++) {
       var matches = links[i].href.match(/^http:\/\/(.*?)\//);
       if (matches) {
         var linkdomain = matches[1];
@@ -431,7 +431,7 @@ linksuffix.addEvent(window, "load", linksuffix.init);
 The part of the script that does the work here is as follows:
  
 <syntaxhighlight lang="javascript">var links = document.getElementsByTagName("a");
-for (var i=0; i&lt;links.length; i++) {
+for (var i=0; i<links.length; i++) {
   var matches = links[i].href.match(/^http:\/\/(.*?)\//);
   if (matches) {
     var linkdomain = matches[1];
@@ -445,7 +445,7 @@ for (var i=0; i&lt;links.length; i++) {
 This breaks down like this:
  
 <syntaxhighlight lang="javascript">var links = document.getElementsByTagName("a");
-for (var i=0; i&lt;links.length; i++) {
+for (var i=0; i<links.length; i++) {
   ...
 }</syntaxhighlight>
  
