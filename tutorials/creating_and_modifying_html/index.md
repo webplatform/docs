@@ -92,8 +92,9 @@ div.tab {
   border: 2px solid red;
   border-width: 1px 2px 2px 2px;
 }
-</style>
+</style></syntaxhighlight>
 
+<syntaxhighlight lang="javascript">
 <script type="text/javascript">
 var tabify = {
   hasClass: function(el,c) {
@@ -109,7 +110,7 @@ var tabify = {
   },
   hideAllTabs: function(ol) {
     var links = ol.getElementsByTagName("a");
-    for (var i=0; i<links.length; i++) {
+    for (var i=0; i < links.length; i++) {
       tabify.setTabFromLink(links[i], "none");
    }
   },
@@ -133,7 +134,7 @@ var tabify = {
   },  
   init: function() {
     var ols = document.getElementsByTagName("ol");
-    for (var i=0; i<ols.length; i++) {
+    for (var i=0; i < ols.length; i++) {
       var ol = ols[i];
       if (!/(^|\s)tablinks(\s|$)/.test(ol.className)) { continue; }
       tabify.addEvent(ol, "click", function(e) {
