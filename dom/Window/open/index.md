@@ -9,7 +9,7 @@
 {{Method Parameter|Name=name|Data type=BSTR|Description='''String''' that specifies the name of the window. This name is used as the value for the [[html/attributes/target|'''TARGET''']] attribute on a '''form''' or an [[html/elements/a|'''anchor''']] element.|Optional=}}
 {{Method Parameter|Name=features|Data type=BSTR|Description='''String''' that contains a list of items separated by commas. Each item consists of an option and a value, separated by an equals sign (for example, "fullscreen{{=}}yes, toolbar{{=}}yes"). The following values are supported.|Optional=}}
 {{Method Parameter|Name=replace|Data type=VARIANT_BOOL|Description='''Boolean''' that specifies whether the ''url'' creates a new entry or replaces the current entry in the window's history list. This parameter only takes effect if the ''url'' is loaded into the same window.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
