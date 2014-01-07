@@ -9,7 +9,7 @@
 {{Method Parameter|Name=name|Data type=BSTR|Description='''Note'''  The following applies only if this method is used instead of window.[[dom/methods/open|'''open''']].|Optional=}}
 {{Method Parameter|Name=features|Data type=BSTR|Description='''Note'''  The following applies only if this method is used instead of window.[[dom/methods/open|'''open''']].|Optional=}}
 {{Method Parameter|Name=replace|Data type=Note|Description=|Optional=}}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
