@@ -8,7 +8,7 @@
 {{Summary_Section|Removes mouse capture from the object in the current document.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Javascript_data_type=void
 }}
