@@ -18,7 +18,7 @@
 |Description=The local name of the desired attribute within the specified namespace.
 |Optional=No
 }}
-|Method_applies_to=dom/attributes
+|Method_applies_to=dom/NamedNodeMap
 |Example_object_name=attributes
 |Return_value_name=attribute
 |Javascript_data_type=DOM Node
