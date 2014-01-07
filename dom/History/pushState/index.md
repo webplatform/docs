@@ -8,7 +8,7 @@
 |Parameters={{Method Parameter|Name=statedata|Data type=any|Description=The data to push onto the session history.|Optional=}}
 {{Method Parameter|Name=title|Data type=DOMString|Description=The desired title for the data.|Optional=}}
 {{Method Parameter|Name=url|Data type=DOMString|Description=An optional URL to associate with the data.|Optional=}}
-|Method_applies_to=dom/history
+|Method_applies_to=dom/History
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
