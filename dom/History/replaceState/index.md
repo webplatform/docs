@@ -24,7 +24,7 @@
 |Description=The data URL to update.
 |Optional=Yes
 }}
-|Method_applies_to=dom/history
+|Method_applies_to=dom/History
 |Example_object_name=history
 |Javascript_data_type=void
 }}
