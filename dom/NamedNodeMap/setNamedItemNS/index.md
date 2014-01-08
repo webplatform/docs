@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=pAttrNode|Data type=IHTMLDOMAttribute2|Description=The [[dom/attributes|'''attribute''']] to add.|Optional=}}
 {{Method Parameter|Name=ppNodeOut|Data type=IHTMLDOMAttribute2|Description=The [[dom/attributes|'''attribute''']] node that the ''pAttrNode'' node replaces, or a null value.|Optional=}}
-|Method_applies_to=dom/attributes
+|Method_applies_to=dom/NamedNodeMap
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
