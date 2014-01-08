@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=x|Data type=Integer|Description='''Integer''' that specifies the horizontal scroll offset, in pixels. Positive values scroll the window right, and negative values scroll it left.|Optional=}}
 {{Method Parameter|Name=y|Data type=Integer|Description='''Integer''' that specifies the vertical scroll offset, in pixels. Positive values scroll the window down, and negative values scroll it up.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
