@@ -1,6 +1,5 @@
 {{Page_Title|Web development for beginners}}
 {{Flags
-|Content=Outdated, Cleanup
 |Checked_Out=No
 }}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
