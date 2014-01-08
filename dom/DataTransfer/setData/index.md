@@ -20,7 +20,7 @@
 |Description=Specifies the data supplied by the source object. This information can be descriptive text, a source path to an image, or a URL for an anchor. When you pass "URL" as the ''format'' parameter, you must use the ''data'' parameter to provide the location of the object that is transferred.
 |Optional=No
 }}
-|Method_applies_to=dom/objects/dataTransfer
+|Method_applies_to=dom/DataTransfer
 |Example_object_name=event.dataTransfer
 |Javascript_data_type=void
 }}
