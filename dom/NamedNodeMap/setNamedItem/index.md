@@ -6,7 +6,7 @@
 {{API_Name}}
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=ppNode|Data type=IHTMLDOMAttribute|Description='''attribute'''|Optional=}}
-|Method_applies_to=dom/attributes
+|Method_applies_to=dom/NamedNodeMap
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
