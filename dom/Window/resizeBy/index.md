@@ -7,7 +7,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter|Name=x|Data type=Integer|Description='''Integer''' that specifies the horizontal offset in pixels. The value can be either positive or negative.|Optional=}}
 {{Method Parameter|Name=y|Data type=Integer|Description='''Integer''' that specifies the vertical offset in pixels. The value can be either positive or negative.|Optional=}}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
