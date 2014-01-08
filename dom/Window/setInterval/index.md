@@ -27,7 +27,7 @@ Note that there may be a minimum interval for this function. See [[dom/methods/s
 |Description='''String''' that specifies any one of the possible values for the [[html/attributes/language|'''LANGUAGE''']] attribute.
 |Optional=No
 }}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
