@@ -13,7 +13,7 @@
 |Description=A '''String''' that specifies the text and HTML tags to write.
 |Optional=No
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=void
