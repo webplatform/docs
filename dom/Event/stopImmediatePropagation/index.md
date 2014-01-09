@@ -8,7 +8,7 @@
 {{Summary_Section|Prevents any further propagation of an event.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/objects/Event
+|Method_applies_to=dom/Event
 |Example_object_name=event
 |Javascript_data_type=void
 }}
