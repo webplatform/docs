@@ -87,7 +87,6 @@
 * Because gradients are still supported in some browsers with prefixes and some not, and some with a slightly older syntax, you should use multiple background gradient properties with different syntaxes, as shown in the below examples.
 |Notes=Internationalization topics related to the <code>background-image</code> property:
 * [http://localhost/International/techniques/authoring-html#textexpansion Preparing for text expansion]
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -175,14 +174,14 @@
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
 |Chrome_prefixed_version=8.0
-|Firefox_supported=No
-|Firefox_version=
+|Firefox_supported=Yes
+|Firefox_version=16.0
 |Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=4.0
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=10.0
+|Firefox_prefixed_version=3.6
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=10.0
+|Internet_explorer_prefixed_supported=No
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=12.10
 |Opera_prefixed_supported=Yes
@@ -307,10 +306,10 @@
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
 |Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=1.0
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=16.0
+|Firefox_mobile_prefixed_supported=No
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=No
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Yes
