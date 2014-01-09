@@ -26,9 +26,12 @@ Type: String
 no - No border is drawn.
 
 yes - Inset border is drawn.
-
 |Notes====Remarks===
 Invalid settings default to displaying borders.
+The frameborder attribute is obsolete. Use CSS border rules instead.
+
+eg.
+iframe[seamless]{border:none}
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
