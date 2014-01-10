@@ -22,7 +22,7 @@ The returned object is of the same type that the object returned from the elemen
 |Description=The name of a CSS pseudo-element or a null value ("::before" or "::after"). Optional in WebKit based browsers.
 |Optional=Yes
 }}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=window
 |Return_value_name=declaration
 |Javascript_data_type=CSSStyleDeclaration
