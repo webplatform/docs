@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The [[css/media_queries/apis/StyleMedia|StyleMedia]] instance object.}}
 {{API_Object_Property
-|Property_applies_to=dom/window
+|Property_applies_to=dom/Window
 |Read_only=Yes
 |Example_object_name=window
 |Return_value_name=styleMedia
