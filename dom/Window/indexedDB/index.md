@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Provides access to the IndexedDB features supported by the browser and/or device.}}
 {{API_Object_Property
-|Property_applies_to=dom/window
+|Property_applies_to=dom/Window
 |Read_only=No
 |Example_object_name=window
 |Return_value_name=ixDBHandle
