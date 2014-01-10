@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -58,7 +59,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 |Firefox_supported=Yes
 |Firefox_version=16
 |Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=15
+|Firefox_prefixed_version=3.6
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=10
 |Internet_explorer_prefixed_supported=Yes
