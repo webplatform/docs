@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=dom/window
+|Property_applies_to=dom/Window
 |Read_only=Yes
 |Example_object_name=window
 |Return_value_name=xhr
