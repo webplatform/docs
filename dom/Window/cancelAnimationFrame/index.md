@@ -15,7 +15,7 @@
 |Description=A handle of the animation request to cancel. The handle is the value returned by [[apis/timing/methods/requestAnimationFrame|'''requestAnimationFrame''']].
 |Optional=No
 }}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
