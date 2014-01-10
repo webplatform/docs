@@ -19,7 +19,7 @@
 |Description=Specifies the element that is extended with this method. The user specifies the extension with the element's <code>is=''</code> attribute. See examples.
 |Optional=Yes
 }}
-|Method_applies_to=dom/document
+|Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=element
 |Javascript_data_type=Element
