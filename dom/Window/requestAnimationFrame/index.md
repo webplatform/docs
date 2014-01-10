@@ -14,7 +14,7 @@
 |Description=The animation code to be run when the system is ready.
 |Optional=No
 }}
-|Method_applies_to=dom/window
+|Method_applies_to=dom/Window
 |Example_object_name=window
 |Return_value_name=handle
 |Javascript_data_type=Number
