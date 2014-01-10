@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.}}
 {{API_Object_Property
-|Property_applies_to=dom/window
+|Property_applies_to=dom/Window
 |Read_only=Yes
 |Example_object_name=window
 |Return_value_name=height
