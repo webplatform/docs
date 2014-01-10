@@ -337,7 +337,7 @@
 |Note=Doesn't support gradients.
 }}{{Compatibility Notes Row
 |Browser=Various
-|Note=Not all browsers support animation of background images. Recent WebKit or Blink-based browsers transition between background images by cross fading.
+|Note=Not all browsers support animation of background images. Recent WebKit or Blink-based browsers transition between background images by cross fading. (Non standard)
 }}
 }}
 {{See_Also_Section
