@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The maximum number of simultaneous touch contacts supported by the device.}}
 {{API_Object_Property
-|Property_applies_to=dom/navigator
+|Property_applies_to=dom/Navigator
 |Read_only=Yes
 |Example_object_name=navigator
 |Javascript_data_type=Number
