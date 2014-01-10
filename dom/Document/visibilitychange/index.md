@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Set the visibility state of an element }}
 {{API_Object_Property
-|Property_applies_to=dom/document
+|Property_applies_to=dom/Document
 |Read_only=No
 }}
 {{Examples_Section
