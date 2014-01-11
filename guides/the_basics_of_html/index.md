@@ -19,7 +19,7 @@ Microsoft Excel understands “.xls”. These files contain the
 instructions on how to rebuild the documents next time you open 
 them, what the contents of that document are, and “metadata” about the
 article such as the author, the date the document was last modified,
-even things such a list of changes made so you can go back and forth
+even things such as a list of changes made so you can go back and forth
 between versions.
  
 [[html|HTML (“HyperText Markup Language”)]] is a language to describe the 
