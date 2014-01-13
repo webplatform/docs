@@ -27,7 +27,7 @@
 |Example_object_name=implementation
 |Return_value_name=newDocument
 |Javascript_data_type=DOM Node
-|Return_value_description=The resulting [[dom/document|'''document''']].
+|Return_value_description=The resulting document.
 }}
 {{Examples_Section
 |Not_required=No
