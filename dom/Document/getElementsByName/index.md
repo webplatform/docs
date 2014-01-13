@@ -55,7 +55,7 @@ function getFirstNames() {
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>About the W3C Document Object Model</code>
 }}
 {{Topics|DOM}}
