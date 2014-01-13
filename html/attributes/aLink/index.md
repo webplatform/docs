@@ -83,7 +83,7 @@ Some browsers do not recognize color names, but all browsers should recognize an
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[dom/properties/linkColor|linkColor]]</code>
 *<code>[[dom/properties/vlinkColor|vlinkColor]]</code>
