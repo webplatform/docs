@@ -65,7 +65,7 @@ As of Microsoft Internet Explorer 5, elements that expose the '''focus''' metho
 *<code>dfn</code>
 *<code>dir</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
