@@ -53,8 +53,8 @@ To invoke this event, do one of the following:
 *Navigate to another location by entering a new address or selecting a Favorite.
 *Click an [[html/elements/a|'''anchor''']] that refers to another document.
 *Invoke the [[html/elements/a|'''anchor''']].[[dom/methods/click|'''click''']] method.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/write|'''write''']] method.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/close (document)|'''close''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/close (document)|'''close''']] method.
 *Invoke the '''window'''.[[dom/methods/close|'''close''']] method.
 *Invoke the '''window'''.[[dom/methods/navigate|'''navigate''']] or '''NavigateAndFind''' method.
 *Invoke the [[dom/location|'''location''']].[[dom/methods/replace|'''replace''']] method.
@@ -62,7 +62,7 @@ To invoke this event, do one of the following:
 *Specify a new value for the [[dom/location|'''location''']].[[dom/properties/href|'''href''']] property.
 *Submit a '''form''' to the address specified in the [[html/attributes/action|'''ACTION''']] attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/methods/submit|'''submit''']] method.
 *Invoke the '''window'''.[[dom/methods/open|'''open''']] method, providing the possible value '''_self''' for the window name.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/open (document)|'''open''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/open (document)|'''open''']] method.
 *Click the Back, Forward, Refresh, or Home button.
 
 The ''pEvtObj'' parameter is required for the following interfaces:
