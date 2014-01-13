@@ -25,7 +25,7 @@
   </body>
 </html>
 </syntaxhighlight>
-|LiveURL=http://www.w3.org/TR/its20/examples/html5/EX-term-html5-local-1.html
+|LiveURL=http://code.webplatform.org/gist/8404173
 }}
 }}
 {{Notes_Section}}
