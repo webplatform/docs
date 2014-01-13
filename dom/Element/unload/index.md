@@ -47,9 +47,9 @@ To invoke this event, do one of the following:
 *Click the Back, Forward, Refresh, or Home button.
 *Click an [[html/elements/a|'''anchor''']] that refers the browser to another document.
 *Invoke the [[html/elements/a|'''anchor''']].[[dom/methods/click|'''click''']] method.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/write|'''write''']] method.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/open (document)|'''open''']] method.
-*Invoke the [[dom/document|'''document''']].[[dom/methods/close (document)|'''close''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/open (document)|'''open''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/methods/close (document)|'''close''']] method.
 *Invoke the '''window'''.[[dom/methods/close|'''close''']] method.
 *Invoke the '''window'''.[[dom/methods/open|'''open''']] method, providing the possible value '''_self''' for the window name.
 *Invoke the '''window'''.[[dom/methods/navigate|'''navigate''']] or '''NavigateAndFind''' method.
