@@ -48,7 +48,7 @@ the P element, which is outside the scope of the starting DIV element.
 }}
 {{Notes_Section
 |Notes=The document search order is depth-first. This method returns the first element found. To find all matching nodes, use [[css/selectors api/querySelectorAll|'''querySelectorAll''']].
-The scope of the returned element node is limited to the descendants of the starting element node. If the starting element is [[dom/document|'''document''']], the search returns nodes from the entire document.
+The scope of the returned element node is limited to the descendants of the starting element node. If the starting element is [[dom/Document|Document]], the search returns nodes from the entire document.
 This method does not return the starting element node. For example, <code>div.querySelector("p div")</code> will never return the '''DIV''' element that it starts with.
 The pseudo-class selectors
 [[css/selectors/pseudo-classes/:hover|''':hover''']],
