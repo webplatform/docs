@@ -21,7 +21,7 @@ Some text.
 {{Notes_Section
 |Notes=
 ===Remarks===
-[[dom/selection|'''selection''']] is a child object of the [[dom/document|'''document''']] object.
+[[dom/Selection|Selection]] is a child object of the [[dom/Document|Document]] object.
 |Import_Notes=
 ===Syntax===
 }}
