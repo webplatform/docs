@@ -48,7 +48,7 @@ The default namespace if '''prefix''' is null.
 *<code>audio</code>
 *<code>button</code>
 *<code>div</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/documentType|documentType]]</code>
 *<code>frame</code>
 *<code>iframe</code>
