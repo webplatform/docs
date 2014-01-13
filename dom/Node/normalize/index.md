@@ -59,7 +59,7 @@
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/attributes|attribute]]</code>
 *<code>[[dom/TextNode|TextNode]]</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
