@@ -13,16 +13,18 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<!DOCTYPE html>
+|Code=<syntaxhighlight>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Terminology test: default</title>
   </head>
   <body>
-    &lt;p>We need a new &lt;span its-term="yes">motherboard&lt;/span>&lt;/p>
+    <p>We need a new <span its-term="yes">motherboard</span></p>
   </body>
 </html>
+</syntaxhighlight>
 |LiveURL=http://www.w3.org/TR/its20/examples/html5/EX-term-html5-local-1.html
 }}
 }}
