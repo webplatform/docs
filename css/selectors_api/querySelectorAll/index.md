@@ -105,7 +105,7 @@ Calling this method with an unknown selector (due to the browser not implementin
 {{See_Also_Section
 |Topic_clusters=Selectors
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[html/elements/a|a]]</code>
 *<code>address</code>
 *<code>b</code>
