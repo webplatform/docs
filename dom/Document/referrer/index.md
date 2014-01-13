@@ -40,7 +40,7 @@ For example, if DocumentA.htm includes a link to DocumentB.htm, and the user cli
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
