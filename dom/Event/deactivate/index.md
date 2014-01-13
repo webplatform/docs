@@ -24,7 +24,7 @@ Using the [[dom/methods/focus|'''focus''']] method on a document that does not h
 For a given display, only one element has focus at any given time.  Striking a key directly affects only the element with focus.  Events fired by that keystroke may be scripted to affect other documents and child elements.
 For Microsoft Internet Explorer 6 and later, the '''event'''.'''toElement''' property is now exposed by the '''ondeactivate'''
 event.
-With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/document|'''document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''ondeactivate''' event to manage formatting changes when a element loses activation.
+With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''ondeactivate''' event to manage formatting changes when a element loses activation.
 Change activation from the '''event'''.'''srcElement''' to the '''event'''.'''toElement'''.
 To invoke this event, do one of the following:
 *Click an element, other than the [[dom/properties/activeElement|'''active''']] element of the document.
@@ -90,7 +90,7 @@ There are no standards that apply here.
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
