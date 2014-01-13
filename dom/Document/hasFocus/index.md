@@ -30,7 +30,7 @@ Document does not have focus.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single_Example
-|Description=The following example shows how to use the '''hasFocus''' method to determine if the [[dom/document|'''document''']] has focus.
+|Description=The following example shows how to use the '''hasFocus''' method to determine if the [[dom/Document|Document]] has focus.
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/callerWithHasFocusEX1.html
 |Code=
 &lt;HTML&gt;
@@ -78,7 +78,7 @@ There are no standards that apply here.
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
