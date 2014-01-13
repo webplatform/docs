@@ -13,7 +13,7 @@
 ===Remarks===
 A processing instruction provides direction to an XML parser. The following code example shows a processing instruction that is specified in markup.
  <code>&lt;?xml-stylesheet type{{=}}"text/css" href{{=}}"style.css"?&gt;</code>
-Use the [[dom/methods/createProcessingInstruction|'''createProcessingInstruction''']] method of a [[dom/document|'''document''']] to create an instance of an '''ProcessingInstruction''' object.
+Use the [[dom/methods/createProcessingInstruction|'''createProcessingInstruction''']] method of a [[dom/Document|Document]] to create an instance of an '''ProcessingInstruction''' object.
 |Import_Notes=
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.5
@@ -102,7 +102,7 @@ The '''processingInstruction''' object has these properties.
 |Gets or sets the value of a node.
 |-
 |[[dom/properties/ownerDocument|'''ownerDocument''']]
-|Retrieves the [[dom/document|'''document''']] object associated with the node.
+|Retrieves the [[dom/Document|Document]] object associated with the node.
 |-
 |[[dom/properties/parentNode|'''parentNode''']]
 |Retrieves the parent object in the document hierarchy.
