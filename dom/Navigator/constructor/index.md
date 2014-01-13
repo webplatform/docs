@@ -42,7 +42,7 @@ An object's constructor initializes the object's properties and provides access 
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>del</code>
 *<code>div</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/HTMLDocumentCompatibleInfo|DocumentCompatibleInfo]]</code>
 *<code>[[dom/documentCompatibleInfoCollection|documentCompatibleInfoCollection]]</code>
 *<code>dl</code>
