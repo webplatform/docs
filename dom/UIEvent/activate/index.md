@@ -49,7 +49,7 @@ Each document may have up to one active element.  Set the active element with th
 Using the [[dom/methods/focus|'''focus''']] method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus.
 The '''onactivate''' event fires before the [[dom/events/load|'''onload''']] event for any of the objects listed in the Applies To section.
 For Microsoft Internet Explorer 6 and later, the '''event'''.[[dom/properties/fromElement2|'''fromElement''']] property is now exposed by this event.
-For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/document|'''document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onactivate''' event to manage formatting changes when an element is made active.
+For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onactivate''' event to manage formatting changes when an element is made active.
 Change activation from the '''event'''.[[dom/properties/fromElement2|'''fromElement''']] to the '''event'''.'''srcElement'''.
 To invoke this event, do one of the following:
 *Click an element, other than the [[dom/properties/activeElement|'''active''']] element of the document.
@@ -115,7 +115,7 @@ There are no standards that apply here.
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
