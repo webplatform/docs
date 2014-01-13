@@ -42,7 +42,7 @@
 }}
 {{Notes_Section
 |Notes=*For '''releaseCapture''' to have an effect, you must set mouse capture through the [[dom/methods/setCapture|'''setCapture''']] method.
-*You can invoke the '''releaseCapture''' method on the [[dom/document|'''document''']] object.
+*You can invoke the '''releaseCapture''' method on the [[dom/Document|'''Document''']] object.
 *The '''releaseCapture''' method makes it unnecessary to determine which element has capture to programmatically release it.
 *Other actions that release document capture include displaying a modal dialog box and switching focus to another application or browser window.
 }}
@@ -78,7 +78,7 @@
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
