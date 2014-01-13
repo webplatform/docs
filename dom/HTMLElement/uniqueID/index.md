@@ -85,7 +85,7 @@ function init()
 {{Notes_Section
 |Notes=
 ===Remarks===
-When you apply this property to the [[dom/document|'''document''']] object, the client automatically generates a new ID that you can assign to an element's [[html/attributes/id|'''id''']] property.
+When you apply this property to the [[dom/Document|'''Document''']] object, the client automatically generates a new ID that you can assign to an element's [[html/attributes/id|'''id''']] property.
 A new ID is generated and assigned to the element the first time the property is retrieved. Every subsequent access to the property on the same element returns the same ID.
 '''Note'''  The unique ID generated is not guaranteed to be the same every time the document is loaded.
 |Import_Notes=
@@ -122,7 +122,7 @@ A new ID is generated and assigned to the element the first time the property is
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
