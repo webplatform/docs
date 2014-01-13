@@ -12,8 +12,8 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-The '''ownerDocument''' is the [[dom/document|'''document''']] object that is used to create new nodes.
-This property returns null when the node is a [[dom/document|'''document''']].
+The '''ownerDocument''' is the [[dom/Document|Document]] object that is used to create new nodes.
+This property returns null when the node is a [[dom/Document|Document]].
 '''ownerDocument''' was introduced in Microsoft Internet Explorer 6.
 |Import_Notes=
 ===Syntax===
