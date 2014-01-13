@@ -45,7 +45,7 @@ There are no standards that apply here.
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/properties/controlRange|controlRange]]</code>
 *<code>[[dom/traversal/TextRange|TextRange]]</code>
 *<code>Reference</code>
