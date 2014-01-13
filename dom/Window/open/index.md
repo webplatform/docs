@@ -60,7 +60,7 @@ Internet Explorer 6 for Windows XP SP2 places several restrictions on windows
 This method must use a user-initiated action, such as clicking on a link or tabbing to a link and pressing enter, to open a pop-up window. The Pop-up Blocker feature in Internet Explorer 6 blocks windows that are opened without being initiated by the user. The Pop-up Blocker also prevents windows from appearing if you call this method from an [[dom/events/unload|'''onunload''']] event.
 In Internet Explorer 6, the '''_media''' value of the ''name'' parameter specifies that this method loads a URL into the HTML content area of the Media Bar.
 Internet Explorer 5 allows further control over windows through the implementation of <code>title</code> in the ''features'' parameter of the '''open''' method. Turn off the title bar by opening the window from a trusted application, such as Microsoft Visual Basic or an HTML Application (HTA). These applications are considered trusted, because each uses Internet Explorer interfaces instead of the browser.
-In Windows CE, the [[dom/document|'''document''']] object is not available through scripting for a '''window''' opened using the '''open''' method.
+In Windows CE, the [[dom/Document|Document]] object is not available through scripting for a '''window''' opened using the '''open''' method.
 |Import_Notes=
 ===Syntax===
 ===Standards information===
