@@ -47,7 +47,7 @@ Sends the event notification to the object that is losing the mouse capture.
 To invoke this event, do one of the following:
 *Set mouse capture to a different object.
 *Change the active window so that the current document using mouse capture loses focus.
-*Invoke the [[dom/methods/releaseCapture|'''releaseCapture''']] method on the [[dom/document|'''document''']] or object.
+*Invoke the [[dom/methods/releaseCapture|'''releaseCapture''']] method on the [[dom/Document|'''Document''']] or object.
 
 The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLAnchorEvents2'''
