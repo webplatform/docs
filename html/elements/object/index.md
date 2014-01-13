@@ -38,7 +38,7 @@ Windows Internet Explorer 8 and later. IE8 mode enables several enhancements to
 *The values of the [[html/attributes/codeBase|'''codeBase''']] and [[html/attributes/data|'''data''']] attributes depend on the current document compatibility mode.
 *Object fallback is supported when an '''object''' fails to load for communication or cross-domain security failures.
 
-'''Note'''  Object fallback does not occur when the [[html/attributes/contentEditable|'''contentEditable''']] property of the [[dom/document|'''document''']]  object is set to <code>true</code>.
+'''Note'''  Object fallback does not occur when the [[html/attributes/contentEditable|'''contentEditable''']] property of the [[dom/Document|'''Document''']]  object is set to <code>true</code>.
 *The [[html/attributes/title|'''title''']] attribute is preferred over the [[html/attributes/alt|'''alt''']] attribute when specified as a pop-up tooltip.
 *When the value of the [[html/attributes/data|'''data''']] attribute specifies the data URI protocol, the value is not passed to Microsoft ActiveX controls upon instantiation. This preserves compatibility with older ActiveX controls that do not support the data URI protocol.
 |Import_Notes====Standards information===
@@ -562,7 +562,7 @@ The '''object''' object has these properties.
 |Returns a reference to the constructor of an object.
 |-
 |[[dom/properties/contentDocument|'''contentDocument''']]
-|Retrieves the [[dom/document|'''document''']] object of the page or frame.
+|Retrieves the [[dom/Document|'''Document''']] object of the page or frame.
 |-
 |[[html/attributes/data|'''data''']]
 |Sets or retrieves the URL that references the data of the object.
