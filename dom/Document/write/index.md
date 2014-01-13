@@ -24,7 +24,7 @@
 {{Notes_Section
 |Usage=Do not use the '''write''' method or the [[dom/methods/writeln|'''writeln''']] method on the current document after the document has finished loading unless you first call the [[dom/methods/open (document)|'''open''']] method, which clears the current document window and erases all variables.
 
-|Notes=When [[dom/document|'''document''']].'''write''' or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
+|Notes=When [[dom/Document|'''Document''']].'''write''' or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -42,7 +42,7 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/methods/writeln|writeln]]</code>
 *<code>[[dom/methods/open (document)|open]]</code>
 }}
