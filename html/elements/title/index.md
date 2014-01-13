@@ -37,7 +37,7 @@ Authors should use the TITLE element to identify the contents of a document
 
 It can only contain text and any contained tags are not interpreted.
 
-To set the title programmatically using script, use [[dom/document|'''document''']].'''title''' instead of setting the [[dom/properties/innerdom/innerHTML|'''innerHTML''']] property of the '''title''' object.  For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203600 BUG: Script Fails to Change the Document Title of a Web Page].
+To set the title programmatically using script, use [[dom/Document|'''Document''']].'''title''' instead of setting the [[dom/properties/innerdom/innerHTML|'''innerHTML''']] property of the '''title''' object.  For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203600 BUG: Script Fails to Change the Document Title of a Web Page].
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/html401/struct/global.html#h-7.4.2] W3C Recommendation
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
@@ -329,7 +329,7 @@ The '''title''' object has these properties.
 |Gets or sets the value of a node.
 |-
 |[[dom/properties/ownerDocument|'''ownerDocument''']]
-|Retrieves the [[dom/document|'''document''']] object associated with the node.
+|Retrieves the [[dom/Document|'''Document''']] object associated with the node.
 |-
 |[[dom/properties/parentNode|'''parentNode''']]
 |Retrieves the parent object in the document hierarchy.
