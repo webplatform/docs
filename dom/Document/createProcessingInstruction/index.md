@@ -55,7 +55,7 @@ var obj {{=}} document.createProcessingInstruction(sTarget, sData);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
