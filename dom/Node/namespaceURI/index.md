@@ -41,7 +41,7 @@
 *<code>audio</code>
 *<code>button</code>
 *<code>div</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/documentType|documentType]]</code>
 *<code>[[dom/processingInstruction|ProcessingInstruction]]</code>
 *<code>frame</code>
