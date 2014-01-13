@@ -47,7 +47,7 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/methods/createAttribute|createAttribute]]</code>
 }}
 {{Topics|DOM}}
