@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates a [[dom/document|document]] that is not attached to a window.}}
+{{Summary_Section|Creates a [[dom/Document|Document]] that is not attached to a window.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=namespace
