@@ -34,7 +34,7 @@ function fnStartInit()
 |Notes=
 ===Remarks===
 You can use the [[dom/properties/readyState (Link, Img, Input, Style...elements)|'''readyState''']] property to query the current state of the element when the '''onreadystatechange''' event fires.
-All elements expose an '''onreadystatechange''' event. The following objects always fire the event because they load data: '''applet''', [[dom/document|'''document''']], '''frame''', '''frameSet''', '''iframe''', '''img''', '''link''', '''object''', '''script''', and '''xml''' elements. Other objects will only fire the '''onreadystatechange''' event when a DHTML Behavior is attached.
+All elements expose an '''onreadystatechange''' event. The following objects always fire the event because they load data: '''applet''', [[dom/Document|'''Document''']], '''frame''', '''frameSet''', '''iframe''', '''img''', '''link''', '''object''', '''script''', and '''xml''' elements. Other objects will only fire the '''onreadystatechange''' event when a DHTML Behavior is attached.
 When working with behaviors, wait for the '''onreadystatechange''' event to fire and verify that the [[dom/properties/readyState (Link, Img, Input, Style...elements)|'''readyState''']] property of the element is set to '''complete''' to ensure that the behavior is completely downloaded and applied to the element. Until the '''onreadystatechange''' event fires, if you use any of the behavior-defined members before attaching the behavior to the element, a scripting error can result, indicating that the object does not support that particular property or method.
 Signals the ready state of the document.
 To invoke this event, do one of the following:
@@ -110,7 +110,7 @@ There are no standards that apply here.
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
