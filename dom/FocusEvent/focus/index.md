@@ -53,7 +53,7 @@ function fnSetStyle(){
 '''Note'''  Using the [[dom/methods/setActive|'''setActive''']] method has no effect on document focus. Using the [[dom/methods/focus|'''focus''']] method on an individual element causes the element to gain focus and become the active element.
 When one object loses activation and another object becomes the [[dom/properties/activeElement|'''activeElement''']], the '''onfocus''' event fires on the object becoming the '''activeElement''' only after the [[dom/events/blur|'''onblur''']] event fires on the object losing activation. Use the focus events to determine when to prepare an object to receive input from the user.
 Elements cannot receive focus until the document is finished loading.
-For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/document|'''document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately. The synchronous events [[dom/events/activate|'''onactivate''']] and [[dom/events/deactivate|'''ondeactivate''']] provide better control for managing activation changes.
+For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|Document]], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately. The synchronous events [[dom/events/activate|'''onactivate''']] and [[dom/events/deactivate|'''ondeactivate''']] provide better control for managing activation changes.
 As of Microsoft Internet Explorer 5, elebrowserments retain focus within the current  history when the user returns to a page. To avoid firing the '''onfocus''' event unintentionally for an element when the document loads, invoke the [[dom/methods/focus|'''focus''']] method on another element.
 As of Internet Explorer 5, you can force elements that do not implicitly receive focus to receive focus by adding them to the document tabbing order using the [[html/attributes/tabIndex|'''TABINDEX''']] attribute.
 Sets focus to an object.
@@ -126,7 +126,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
