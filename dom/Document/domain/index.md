@@ -30,7 +30,7 @@ For more information on domain security, see About Cross-Frame Scripting and Sec
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
