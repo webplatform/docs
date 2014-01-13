@@ -21,7 +21,7 @@ The value of '''dir''' property has no effect on the orientation of coordinates 
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[css/properties/direction|direction]]</code>
 *<code>Conceptual</code>
