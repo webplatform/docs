@@ -47,7 +47,7 @@ You cannot cancel some events. For more information, see the documentation for t
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*[[dom/document]]
+*[[dom/Document]]
 *[[dom/TextNode]]
 *[[dom/window]]
 *[[apis/xhr/objects/XMLHttpRequest]]
