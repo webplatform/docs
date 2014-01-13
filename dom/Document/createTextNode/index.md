@@ -52,7 +52,7 @@ Original Text
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[dom/methods/createElement|createElement]]</code>
 *<code>Conceptual</code>
