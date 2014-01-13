@@ -25,7 +25,7 @@ object calls the [[dom/methods/close|'''close''']] method, the
 document.'''close''' method is implied.
 
 
-When [[dom/document|'''document''']].[[dom/methods/write|'''write''']] or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, '''document'''.'''close''' should also be used.
+When [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, '''document'''.'''close''' should also be used.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,7 +44,7 @@ When [[dom/document|'''document''']].[[dom/methods/write|'''write''']] or '''doc
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/methods/open (document)|open]]</code>
 }}
 {{Topics|DOM}}
