@@ -26,7 +26,7 @@
 |Notes====Remarks===
 In HTML, the carriage return is ignored unless it occurs in preformatted text.
 Do not use the [[dom/methods/write|'''write''']] method or the '''writeln''' method on the current document after the document has finished loading unless you first call the [[dom/methods/open (document)|'''open''']] method, which clears the current document window and erases all variables.
-'''Note'''  When [[dom/document|'''document''']].[[dom/methods/write|'''write''']] or '''document'''.'''writeln''' is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
+'''Note'''  When [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] or '''document'''.'''writeln''' is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.5
@@ -43,7 +43,7 @@ Do not use the [[dom/methods/write|'''write''']] method or the '''writeln''' met
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[dom/methods/write|write]]</code>
 *<code>[[dom/methods/open (document)|open]]</code>
