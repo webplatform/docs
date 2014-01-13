@@ -22,7 +22,7 @@ The '''readyState''' property enables the status of an object to be tested. The 
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>frame</code>
 *<code>iframe</code>
 *<code>img</code>
