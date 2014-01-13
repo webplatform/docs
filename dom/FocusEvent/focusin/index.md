@@ -21,10 +21,10 @@
 Each document may have up to one active element.  Set the active element with the [[dom/methods/setActive|'''setActive''']] or [[dom/methods/focus|'''focus''']] methods.  Using the '''setActive''' method has no effect on document focus.  Using the '''focus''' method on an individual element causes the element to gain focus and become the active element, and this causes '''onfocusin''' to fire for this active element.
 Using the [[dom/methods/focus|'''focus''']] method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus, and this causes '''onfocusin''' to fire for this active element.
 For a given display, only one element has focus at any given time.  Striking a key directly affects only the element with focus.  Events fired by that keystroke may be scripted to affect other documents and child elements.
-With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/document|'''document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onfocusin''' event to manage formatting changes when an element gains focus.
+With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onfocusin''' event to manage formatting changes when an element gains focus.
 Change focus from the '''event'''.'''srcElement''' to the '''event'''.'''toElement'''.
 To invoke this event, do one of the following:
-*Click a [[dom/document|'''document''']], when the '''document''' does not have focus.
+*Click a [[dom/Document|'''Document''']], when the '''document''' does not have focus.
 *Click an element, when the element does not have focus.
 *Use the keyboard to move focus from the active element to another element.
 *Invoke the [[dom/methods/focus|'''focus''']] method on an element, when the element is not the active element.
@@ -65,7 +65,7 @@ There are no standards that apply here.
 *<code>dir</code>
 *<code>div</code>
 *<code>dl</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>dt</code>
 *<code>em</code>
 *<code>embed</code>
