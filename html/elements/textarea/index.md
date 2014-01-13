@@ -685,7 +685,7 @@ The '''textArea''' object has these properties.
 {{!}}Sets or retrieves the text of the object.
 {{!}}-
 {{!}}[[dom/properties/ownerDocument{{!}}'''ownerDocument''']]
-{{!}}Retrieves the [[dom/document{{!}}'''document''']] object associated with the node.
+{{!}}Retrieves the [[dom/Document{{!}}'''Document''']] object associated with the node.
 {{!}}-
 {{!}}[[dom/traversal/properties/parentElement{{!}}'''parentElement''']]
 {{!}}Retrieves the parent object in the object hierarchy.
