@@ -39,7 +39,7 @@ To invoke this event, do one of the following:
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>frameSet</code>
 *<code>window</code>
 *<code>Introduction to Web Storage</code>
