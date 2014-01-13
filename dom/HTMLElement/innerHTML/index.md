@@ -78,7 +78,7 @@ The '''innerHTML''' property takes a string that specifies a valid combination o
 This property is accessible at run time as the document is being parsed; however, removing elements at run time, before the document is fully loaded, could prevent other areas of the document from rendering.
 When using '''innerHTML''' to insert script, you must include the [[html/attributes/defer|'''DEFER''']] attribute in the '''script''' element.
 The '''innerHTML''' property is read-only on the '''col''', '''colGroup''', '''frameSet''', '''html''', '''head''', '''style''', [[html/elements/table|'''table''']], '''tBody''', '''tFoot''', '''tHead''', '''title''', and '''tr''' objects.
-You can change the value of the '''title''' element using the [[dom/document|'''document''']].title property.
+You can change the value of the '''title''' element using the [[dom/Document|'''Document''']].title property.
 To change the contents of the [[html/elements/table|'''table''']], '''tFoot''', '''tHead''', and '''tr''' elements, use the table object model described in Building Tables Dynamically. However, to change the content of a particular cell, you can use '''innerHTML'''.
 
 '''Security Warning:  ''' Improper handling of the '''innerHTML''' property can enable script-injection attacks. When accepting text from an untrusted source (such as the query string of a URL), use [[dom/methods/createTextNode|'''createTextNode''']] to convert the HTML to text, and append the element to the document using [[dom/methods/appendChild|'''appendChild''']]. Refer to the Examples section below for more information.
