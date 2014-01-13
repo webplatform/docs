@@ -19,7 +19,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The active element retains focus in the parent [[dom/document|'''document''']] even when focus is shifted from the parent to another application. If the focus returns to the parent '''document''', focus also returns to the same active element.
+|Notes=The active element retains focus in the parent [[dom/Document|'''Document''']] even when focus is shifted from the parent to another application. If the focus returns to the parent '''document''', focus also returns to the same active element.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -54,7 +54,7 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
