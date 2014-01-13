@@ -20,7 +20,7 @@
 |Notes====Remarks===
 In HTML 4, this element is deprecated; '''INPUT''' is recommended for use instead. The [[dom/properties/tagName|'''tagName''']] property for '''isIndex''' returns '''input'''.
 The '''ISINDEX''' element belongs in the '''body''' of the document.
-This element is treated as an '''input''' object inside a '''form''' object.  To access the element from script, you must use the [[dom/properties/all|'''all''']] collection of the [[dom/document|'''document''']] object.  For example, the syntax for accessing the [[html/attributes/disabled|'''disabled''']] property of a '''isIndex''' object is:
+This element is treated as an '''input''' object inside a '''form''' object.  To access the element from script, you must use the [[dom/properties/all|'''all''']] collection of the [[dom/Document|'''Document''']] object.  For example, the syntax for accessing the [[html/attributes/disabled|'''disabled''']] property of a '''isIndex''' object is:
  <code>document.all.oIsindex.disabled{{=}}false;</code>
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.8 (Deprecated)
