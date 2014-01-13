@@ -19,7 +19,7 @@ The '''linkColor''' property can be set by using the '''body''' object's [[dom/e
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[html/attributes/aLink|alinkColor]]</code>
 *<code>[[dom/properties/vlinkColor|vlinkColor]]</code>
