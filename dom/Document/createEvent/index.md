@@ -55,7 +55,7 @@ p.addEventListener("custom", reportEvent, false);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[dom/methods/initCompositionEvent|initCompositionEvent]]</code>
 *<code>[[dom/methods/initCustomEvent|initCustomEvent]]</code>
