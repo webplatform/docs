@@ -66,7 +66,7 @@ function CtrlUp() {
 |Notes=
 ===Remarks===
 This property is currently supported only in Microsoft Windows NT 4.0 and Windows 2000.
-The [[dom/document|'''document''']] must have 
+The [[dom/Document|Document]] must have 
 [[dom/methods/focus|'''focus''']]
 for this property to return true.
 |Import_Notes=
