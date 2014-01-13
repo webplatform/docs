@@ -55,7 +55,7 @@ To invoke this event, do one of the following:
 |Manual_sections====Related pages (MSDN)===
 *<code>audio</code>
 *<code>audio</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>source</code>
 *<code>video element</code>
 *<code>video object</code>
