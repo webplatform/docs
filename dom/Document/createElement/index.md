@@ -69,12 +69,12 @@ document.addEventListener("change", create, false);
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
 }}{{Single Example
 |Language=HTML
-|Description=Extending a DOM element in HTML. Use this with [[dom/document/register|document.register]]
+|Description=Extending a DOM element in HTML. Use this with [[dom/Document/register|document.register]]
 |Code=<!-- <button> "is a" mega button -->
 <button is="mega-button">
 }}{{Single Example
 |Language=JavaScript
-|Description=Extending a DOM element in JavaScript. Use this with [[dom/document/register|document.register]]
+|Description=Extending a DOM element in JavaScript. Use this with [[dom/Document/register|document.register]]
 |Code=var megaButton = document.createElement('button', 'mega-button');
 // megaButton instanceof MegaButton === true
 }}
@@ -132,7 +132,7 @@ document.addEventListener("change", create, false);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[dom/methods/cloneNode|cloneNode]]</code>
 *<code>[[dom/methods/removeNode|removeNode]]</code>
