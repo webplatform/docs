@@ -28,7 +28,7 @@ Some text.
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/selection|selection]]</code>
+*<code>[[dom/Selection|Selection]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
