@@ -64,7 +64,7 @@ SPAN can be edited: &lt;SPAN ID{{=}}"oCurrentValue"&gt;&lt;/SPAN&gt;
 {{Notes_Section
 |Notes====Remarks===
 Child elements do not inherit this attribute unless they have layout. Use the [[css/cssom/properties/hasLayout|'''hasLayout''']] property to determine if an object has layout.
-If this attribute is applied to a '''BODY''' element, it has the same effect as setting the [[dom/properties/designMode|'''designMode''']] property of the [[dom/document|'''document''']] object.
+If this attribute is applied to a '''BODY''' element, it has the same effect as setting the [[dom/properties/designMode|'''designMode''']] property of the [[dom/Document|'''Document''']] object.
 Elements with the [[dom/properties/disabled (redundant)|'''disabled''']] attribute set to <code>false</code> do not respond to the '''contentEditable''' attribute.
 If this attribute is applied to the [[html/elements/a|'''A''']] element, the default functionality of the '''A''' element will be lost while ''p'' is set to the value of <code>true</code>.
 If this attribute is applied to the '''MARQUEE''' element, the default functionality of the '''MARQUEE''' element will be lost while ''p'' is set to the value of <code>true</code>.
