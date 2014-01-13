@@ -72,9 +72,9 @@ If the arguments for '''removeEventListener'''  do not identify a  registered ev
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*[[dom/document]]
+*[[dom/Document]]
 *[[dom/TextNode]]
-*[[dom/window|window]]
+*[[dom/Window|Window]]
 *[[apis/xhr/objects/XMLHttpRequest]]
 *[[dom/methods/addEventListener|addEventListener]]
 }}
