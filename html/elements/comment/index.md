@@ -342,7 +342,7 @@ The '''comment''' object has these properties.
 {{!}}Gets or sets the value of a node.
 {{!}}-
 {{!}}[[dom/properties/ownerDocument|'''ownerDocument''']]
-{{!}}Retrieves the [[dom/document|'''document''']] object associated with the node.
+{{!}}Retrieves the [[dom/Document|'''Document''']] object associated with the node.
 {{!}}-
 {{!}}[[dom/properties/parentNode|'''parentNode''']]
 {{!}}Retrieves the parent object in the document hierarchy.
