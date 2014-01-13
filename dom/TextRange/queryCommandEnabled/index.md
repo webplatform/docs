@@ -33,7 +33,7 @@
 {{Notes_Section
 |Notes=
 ===Remarks===
-Using '''queryCommandEnabled''' ("delete") on a [[dom/traversal/TextRange|'''TextRange''']] object returns true, while '''queryCommandEnabled''' ("delete") on a [[dom/document|'''document''']] object returns false. However, '''execCommand''' ("delete") can still be used to delete the selected text.
+Using '''queryCommandEnabled''' ("delete") on a [[dom/traversal/TextRange|'''TextRange''']] object returns true, while '''queryCommandEnabled''' ("delete") on a [[dom/Document|Document]] object returns false. However, '''execCommand''' ("delete") can still be used to delete the selected text.
 This method is a wrapper function for the command constants. You can obtain an '''IHTMLDocument2''' interface using IID_IHTMLDocument2 for the IID.
 This method is a wrapper function for the command constants. You can obtain an '''IHTMLControlRange''' interface using IID_IHTMLControlRange for the IID.
 This method is a wrapper function for the command constants. You can obtain an '''IHTMLTxtRange''' interface using IID_IHTMLTxtRange for the IID.
@@ -46,7 +46,7 @@ There are no standards that apply here.
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>[[dom/properties/controlRange|controlRange]]</code>
 *<code>[[dom/traversal/TextRange|TextRange]]</code>
 *<code>Reference</code>
