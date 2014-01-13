@@ -19,7 +19,7 @@ Some browsers do not recognize color names, but all browsers should recognize RG
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code><b/></code>
 *<code>[[html/attributes/aLink|alinkColor]]</code>
 *<code>[[dom/properties/linkColor|linkColor]]</code>
