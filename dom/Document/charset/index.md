@@ -26,7 +26,7 @@ In Microsoft Internet Explorer 6, This property now applies to the [[html/eleme
 |Manual_sections=
 ===Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>link</code>
 *<code>meta</code>
 *<code>script</code>
