@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a modal or modeless child window of a window, with additional utility methods for arguments and return values.}}
 {{API_Object
-|Subclass_of=dom/window
+|Subclass_of=dom/Window
 }}
 {{Examples_Section
 |Not_required=No
