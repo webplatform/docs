@@ -22,7 +22,7 @@ HRESULT value {{=}} object.get_rootElement(ISVGSVGElement** p);
 
 ===Related pages (MSDN)===
 
-*[[dom/document|'''document''']]
+*[[dom/Document|'''Document''']]
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
