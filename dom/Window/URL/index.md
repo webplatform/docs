@@ -35,7 +35,7 @@ This property is an alias for the [[dom/location|'''location''']].[[dom/properti
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/document|document]]</code>
+*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
 *<code>[[html/attributes/urn|urn]]</code>
 *<code>[[dom/properties/URLUnencoded|URLUnencoded]]</code>
