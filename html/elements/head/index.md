@@ -378,7 +378,7 @@ The <code>head</code> object has these properties.
 {{!}}Sets or retrieves the text of the object.
 {{!}}-
 {{!}}[[dom/properties/ownerDocument|<code>ownerDocument</code>]]
-{{!}}Retrieves the [[dom/document|<code>document</code>]] object associated with the node.
+{{!}}Retrieves the [[dom/Document|<code>Document</code>]] object associated with the node.
 {{!}}-
 {{!}}[[dom/traversal/properties/parentElement|<code>parentElement</code>]]
 {{!}}Retrieves the parent object in the object hierarchy.
