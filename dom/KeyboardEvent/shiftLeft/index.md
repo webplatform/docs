@@ -65,7 +65,7 @@ function ShiftUp() {
 {{Notes_Section
 |Notes=
 ===Remarks===
-The [[dom/document|'''document''']] must have 
+The [[dom/Document|Document]] must have 
 [[dom/methods/focus|'''focus''']]
 for this property to return true.
 |Import_Notes=
