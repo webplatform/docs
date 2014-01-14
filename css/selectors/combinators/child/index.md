@@ -2,15 +2,22 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{CSS_Selector}}
+{{Summary_Section|Selects only the immediate child of a parent element.}}
+{{CSS_Selector
+|Content=Use a child combinator to select the direct children of a parent ancestor. Create a child combinator by placing a "greater-than sign" (&gt;) between two simple selectors. For example "ol &gt; li" will target every [[html/elements/li|list item]] element that is a direct child of an [[html/elements/ol|ordered list]] element. It will not match any further than the child in the document tree. For instance, if there were an [[html/elements/ul|unordered list]] nested inside an [[html/elements/ol|ordered list]] the [[html/elements/li|list items]] in the unordered list would not be matched.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The following rule defines the text color of list item elements which are direct children of an ordered list red.
+|Code=ol li {color: red;}
+|LiveURL=http://code.webplatform.org/gist/8413346
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
