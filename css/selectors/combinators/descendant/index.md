@@ -6,9 +6,12 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Targets an element that is a descendant (child, grandchild and beyond) of another element.}}
+{{Summary_Section|Selects any instance of an element that is a descendant (child, grandchild and beyond) of another element.}}
 {{CSS_Selector
-|Content=Descendant combinators are handy for targeting specific elements of an ancestor. Whitespace between simple selectors such as "nav ul" creates a descendant combinator which, in this case, will target every instance of an [[html/elements/ul|unordered list]] wrapped inside of a [[html/elements/nav|navigation]] element.
+|Content=Use a descendant combinator to select every instance of an element under its ancestor. Create a descendant combinator by adding a whitespace between two or more simple selectors. For example "nav ul" will target every instance of an [[html/elements/ul|unordered list]] found inside of a [[html/elements/nav|navigation]] element. 
+
+For performance considerations, take care to not over-qualify selectors. For instance, html and body are unnecessary in the following example: <code>html body article a {}</code> It's a given that an article will be found in the body which will be found in the html. There is no reason to require that the browser try to match any further than the article. 
+
 }}
 {{Examples_Section
 |Not_required=No
