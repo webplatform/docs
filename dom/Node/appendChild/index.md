@@ -103,7 +103,7 @@ Windows Internet Explorer 9. Exceptions are only supported when webpages are di
 *<code>div</code>
 *<code>dl</code>
 *<code>dt</code>
-*<code>[[dom/documentType|documentType]]</code>
+*<code>[[dom/DocumentType|DocumentType]]</code>
 *<code>em</code>
 *<code>figcaption</code>
 *<code>figure</code>
