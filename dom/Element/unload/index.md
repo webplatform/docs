@@ -46,7 +46,7 @@ To invoke this event, do one of the following:
 *Navigate to another location by entering a new address or selecting a Favorite.
 *Click the Back, Forward, Refresh, or Home button.
 *Click an [[html/elements/a|'''anchor''']] that refers the browser to another document.
-*Invoke the [[html/elements/a|'''anchor''']].[[dom/methods/click|'''click''']] method.
+*Invoke the [[html/elements/a|'''anchor''']].[[dom/HTMLElement/click|'''click''']] method.
 *Invoke the [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] method.
 *Invoke the [[dom/Document|'''Document''']].[[dom/Document/open|'''open''']] method.
 *Invoke the [[dom/Document|'''Document''']].[[dom/Document/close|'''close''']] method.
