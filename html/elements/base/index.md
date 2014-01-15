@@ -23,7 +23,7 @@
 </tr>
 </table>
 
-A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>http://example.org/some/example.html</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [[dom/location|<code>location</code>]] object) is used as the base URL for resolving relative URLs. The <code>&lt;base&gt;</code> element allows you to override this default with the [[html/attributes/href|<code>href</code>]] attribute.
+A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>http://example.org/some/example.html</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [[dom/Location|<code>location</code>]] object) is used as the base URL for resolving relative URLs. The <code>&lt;base&gt;</code> element allows you to override this default with the [[html/attributes/href|<code>href</code>]] attribute.
 
 Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and forms ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
 
