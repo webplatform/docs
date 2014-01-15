@@ -1,0 +1,20 @@
+{{Page_Title}}
+{{Flags}}
+{{Standardization_Status}}
+{{API_Name}}
+{{Summary_Section|Index page for ITS attributes.}}
+{{API_Listing
+|Query=[[Category:Markup_Attributes]][[Category:ITS]]
+|Use_page_title=Yes
+|List_all_subpages=Yes
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+[[Category:API_Listings]]
