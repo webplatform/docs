@@ -20,7 +20,7 @@
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/documentType|documentType]]</code>
+*<code>[[dom/DocumentType|DocumentType]]</code>
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
