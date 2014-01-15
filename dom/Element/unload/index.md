@@ -53,7 +53,7 @@ To invoke this event, do one of the following:
 *Invoke the '''window'''.[[dom/Window/close|'''close''']] method.
 *Invoke the '''window'''.[[dom/Window/open|'''open''']] method, providing the possible value '''_self''' for the window name.
 *Invoke the [[dom/Location|'''location''']].[[dom/Location/replace|'''replace''']] method.
-*Invoke the [[dom/location|'''Location''']].[[dom/Location/reload|'''reload''']] method.
+*Invoke the [[dom/Location|'''location''']].[[dom/Location/reload|'''reload''']] method.
 *Specify a new value for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property.
 *Submit a '''form''' to the address specified in the '''ACTION''' attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/HTMLFormElement/submit|'''submit''']] method.
 
