@@ -35,7 +35,7 @@ function getPort()
 {{Notes_Section
 |Notes=The port will resolve based on the default port for the protocol set in the HREF attribute:  <code>21</code> for FTP, <code>80</code> for HTTP, and so forth.
 Proprietary protocols that do not require a port return <code>0</code> or an empty string.
-[[dom/location|'''location''']].'''port''' returns an empty string when read in a page reached by the http protocol.
+[[dom/Location|'''location''']].'''port''' returns an empty string when read in a page reached by the http protocol.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -51,7 +51,6 @@ Proprietary protocols that do not require a port return <code>0</code> or an emp
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>[[html/elements/area|area]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
