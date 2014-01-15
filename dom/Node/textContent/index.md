@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -30,6 +31,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
@@ -57,45 +59,7 @@
 |Note=Supported a similar functionality using the [[dom/properties/innerText|innerText]] property.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>applet</code>
-*<code>[[dom/attributes|attribute]]</code>
-*<code>audio</code>
-*<code>button</code>
-*<code>div</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>[[dom/documentType|documentType]]</code>
-*<code>[[dom/processingInstruction|ProcessingInstruction]]</code>
-*<code>frame</code>
-*<code>iframe</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>marquee</code>
-*<code>[[html/elements/media|media]]</code>
-*<code>object</code>
-*<code>optGroup</code>
-*<code>option</code>
-*<code>select</code>
-*<code>source</code>
-*<code>span</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>textArea</code>
-*<code>[[dom/TextNode|TextNode]]</code>
-*<code>video</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
