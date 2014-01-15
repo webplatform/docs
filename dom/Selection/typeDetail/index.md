@@ -22,8 +22,6 @@ Host applications can provide a custom selection mechanism and can provide a val
 {{See_Also_Section
 |Manual_sections=
 ===Related pages (MSDN)===
-*<code>[[dom/selection|selection]]</code>
-*<code><b/></code>
 *<code>GetTypeDetail</code>
 }}
 {{External_Attribution
