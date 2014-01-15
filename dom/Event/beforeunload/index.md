@@ -52,11 +52,10 @@ To invoke this event, do one of the following:
 *Close the current window.
 *Navigate to another location by entering a new address or selecting a Favorite.
 *Click an [[html/elements/a|'''anchor''']] that refers to another document.
-*Invoke the [[html/elements/a|'''anchor''']].[[dom/methods/click|'''click''']] method.
+*Invoke the [[html/elements/a|'''anchor''']].[[dom/HTMLElement/click|'''click''']] method.
 *Invoke the [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] method.
 *Invoke the [[dom/Document|'''Document''']].[[dom/Document/close|'''close''']] method.
 *Invoke the '''window'''.[[dom/Window/close|'''close''']] method.
-*Invoke the '''window'''.[[dom/Window/navigate|'''navigate''']] or '''NavigateAndFind''' method.
 *Invoke the [[dom/Location|'''location''']].[[dom/Location/replace|'''replace''']] method.
 *Invoke the [[dom/Location|'''location''']].[[dom/Location/reload|'''reload''']] method.
 *Specify a new value for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property.
