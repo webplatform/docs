@@ -55,9 +55,8 @@ The value of the '''name''' property corresponds to the ''TopElement'' attribute
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/DocumentType|DocumentType]]</code>
-*<code>Reference</code>
-*<code>[[dom/properties/publicId|publicId]]</code>
-*<code>[[dom/properties/systemId|systemId]]</code>
+*<code>[[dom/DocumentType/publicId|publicId]]</code>
+*<code>[[dom/DocumentType/systemId|systemId]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
