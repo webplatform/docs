@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the subsection of the [[html/attributes/href|'''href''']] property that follows the number sign (#).}}
+{{Summary_Section|Sets or retrieves the subsection of the '''href''' property that follows the number sign (#).}}
 {{API_Object_Property
 |Property_applies_to=dom/Location
 |Read_only=No
@@ -47,7 +47,6 @@ This property is useful for moving to a bookmark within a document. Assigning an
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>[[html/elements/area|area]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
