@@ -1,27 +1,26 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
+|Event_applies_to=dom/Event
 |Interface=dom/Event
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/Event
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''onbeforeunload''' event to ask users whether they want to remain on the current document or navigate to a new URL. When the user clicks on the hyperlink or attempts to close the window, the '''onbeforeunload''' event fires on the '''body''' and a dialog box displays. If the user chooses '''OK''', the document navigates to the new URL (www.microsoft.com) or closes the window; if the user chooses '''Cancel''', the document remains the same.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm
-|Code=
-&lt;HTML&gt;
+|Code=&lt;HTML&gt;
 &lt;head&gt;
 &lt;script&gt;
 function closeIt()
@@ -37,10 +36,11 @@ window.onbeforeunload {{=}} closeIt;
       www.microsoft.com&lt;/a&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 When a string is assigned to the '''returnValue''' property of '''window'''.'''event''', a dialog box appears that gives users the option to stay on the current document and retain the string that was assigned to it. The default statement that appears in the dialog box, "<code>Are you sure you want to navigate away from this page? ... Press OK to continue, or Cancel to stay on the current page.</code>", cannot be removed or altered.
 
 ====onbeforeunload in Metro style apps using JavaScript====
@@ -53,16 +53,16 @@ To invoke this event, do one of the following:
 *Navigate to another location by entering a new address or selecting a Favorite.
 *Click an [[html/elements/a|'''anchor''']] that refers to another document.
 *Invoke the [[html/elements/a|'''anchor''']].[[dom/methods/click|'''click''']] method.
-*Invoke the [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] method.
-*Invoke the [[dom/Document|'''Document''']].[[dom/methods/close (document)|'''close''']] method.
-*Invoke the '''window'''.[[dom/methods/close|'''close''']] method.
-*Invoke the '''window'''.[[dom/methods/navigate|'''navigate''']] or '''NavigateAndFind''' method.
-*Invoke the [[dom/location|'''location''']].[[dom/methods/replace|'''replace''']] method.
-*Invoke the [[dom/location|'''location''']].[[dom/methods/reload|'''reload''']] method.
-*Specify a new value for the [[dom/location|'''location''']].[[dom/properties/href|'''href''']] property.
-*Submit a '''form''' to the address specified in the [[html/attributes/action|'''ACTION''']] attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/methods/submit|'''submit''']] method.
-*Invoke the '''window'''.[[dom/methods/open|'''open''']] method, providing the possible value '''_self''' for the window name.
-*Invoke the [[dom/Document|'''Document''']].[[dom/methods/open (document)|'''open''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] method.
+*Invoke the [[dom/Document|'''Document''']].[[dom/Document/close|'''close''']] method.
+*Invoke the '''window'''.[[dom/Window/close|'''close''']] method.
+*Invoke the '''window'''.[[dom/Window/navigate|'''navigate''']] or '''NavigateAndFind''' method.
+*Invoke the [[dom/Location|'''location''']].[[dom/Location/replace|'''replace''']] method.
+*Invoke the [[dom/Location|'''location''']].[[dom/Location/reload|'''reload''']] method.
+*Specify a new value for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property.
+*Submit a '''form''' to the address specified in the '''ACTION''' attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/HTMLFormElement/submit|'''submit''']] method.
+*Invoke the '''window'''.[[dom/Window/open|'''open''']] method, providing the possible value '''_self''' for the window name.
+*Invoke the [[dom/Document|'''Document''']].[[dom/Document/open|'''open''']] method.
 *Click the Back, Forward, Refresh, or Home button.
 
 The ''pEvtObj'' parameter is required for the following interfaces:
@@ -90,19 +90,25 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>body</code>
 *<code>frameSet</code>
 *<code>window</code>
@@ -112,10 +118,11 @@ There are no standards that apply here.
 *<code>Conceptual</code>
 *<code>Introduction to Data Binding</code>
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
