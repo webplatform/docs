@@ -4,7 +4,7 @@
 {{API_Name}}
 {{Summary_Section|Index page for ITS attributes.}}
 {{API_Listing
-|Query=[[Category:Markup_Attributes]][[Category:ITS]]
+|Query=[[Category:Markup_Attributes]][[Category:Internationalization]]
 |Use_page_title=Yes
 |List_all_subpages=Yes
 }}
