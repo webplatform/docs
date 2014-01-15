@@ -13,7 +13,7 @@
 |Example_object_name=element
 |Return_value_name=range
 |Javascript_data_type=DOM Node
-|Return_value_description=The created [[dom/traversal/TextRange|'''TextRange''']] instance object.
+|Return_value_description=The created [[dom/TextRange|'''TextRange''']] instance object.
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,10 +30,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/selection|selection]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
