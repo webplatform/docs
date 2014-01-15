@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -34,14 +35,14 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/implementation|implementation]]</code>
-*<code>Reference</code>
+*<code>[[dom/Implementation|Implementation]]</code>
 *<code>[[dom/methods/createDocument|createDocument]]</code>
 *<code>[[dom/methods/createDocumentType|createDocumentType]]</code>
 }}
