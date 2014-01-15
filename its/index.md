@@ -27,6 +27,8 @@ Internationalization Tag Set (ITS) is an extension of HTML markup which defines 
 
 == Tools ==
 
+List of tools supporting ITS is available at [http://www.w3.org/International/its/wiki/ITS_Implementations]
+
 == Additional Resources ==
 
 {{Standardization_Status|}}
