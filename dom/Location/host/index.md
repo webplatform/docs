@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves the [[dom/properties/hostname|'''hostname''']] and [[dom/properties/port|'''port''']] number of the location or URL.}}
+{{Summary_Section|Sets or retrieves the '''hostname''' and '''port''' number of the location or URL.}}
 {{API_Object_Property
 |Property_applies_to=dom/Location
 |Read_only=No
@@ -26,14 +27,15 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''host''' property is the concatenation of the [[dom/properties/hostname|'''hostname''']] and [[dom/properties/port|'''port''']] properties, separated by a colon (hostname:port). When the '''port''' property is '''null''', the '''host''' property is the same as the '''hostname''' property.
-The '''host''' property may be set at any time, although it is safer to set the [[dom/properties/href|'''href''']] property to change a location. If the specified host cannot be found, an error is returned.
+The '''host''' property is the concatenation of the [[dom/Location/hostname|'''hostname''']] and [[dom/Location/port|'''port''']] properties, separated by a colon (hostname:port). When the '''port''' property is '''null''', the '''host''' property is the same as the '''hostname''' property.
+The '''host''' property may be set at any time, although it is safer to set the [[dom/Location/href|'''href''']] property to change a location. If the specified host cannot be found, an error is returned.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -42,7 +44,7 @@ The '''host''' property may be set at any time, although it is safer to set the 
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>[[html/elements/area|area]]</code>
-*<code>[[dom/location|location]]</code>
+
 }}
 {{Topics|DOM}}
 {{External_Attribution
