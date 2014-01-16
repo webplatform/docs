@@ -28,9 +28,9 @@ The Document Object Model (DOM) is an application programming interface (API) fo
     <div class="image icon-dom"></div>
     
     <div class="inner">
-    <h3>[[dom/events|Events]]</h3>
+    <h3>Events</h3>
     
-    <p>A reference guide to the available core DOM events.</p>
+    <p>See table below.</p>
     </div>
   
   </div>
