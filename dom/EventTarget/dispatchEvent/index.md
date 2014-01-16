@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -17,7 +18,7 @@
 |Example_object_name=eventTarget
 |Return_value_name=defaultPrevented
 |Javascript_data_type=Boolean
-|Return_value_description=Whether any of the event handlers called [[dom/methods/preventDefault|'''preventDefault''']].
+|Return_value_description=Whether any of the event handlers called [[dom/Event/preventDefault|'''preventDefault''']].
 
 Default. The default action is permitted.
 
@@ -41,6 +42,7 @@ You cannot cancel some events. For more information, see the documentation for t
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -49,11 +51,11 @@ You cannot cancel some events. For more information, see the documentation for t
 |Manual_sections====Related pages (MSDN)===
 *[[dom/Document]]
 *[[dom/TextNode]]
-*[[dom/window]]
+*[[dom/Window]]
 *[[apis/xhr/objects/XMLHttpRequest]]
-*[[dom/methods/addEventListener]]
-*[[dom/methods/createEvent]]
-*[[dom/methods/initEvent]]
+*[[dom/EventTarget/addEventListener]]
+*[[dom/Document/createEvent]]
+*[[dom/Event/initEvent]]
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
