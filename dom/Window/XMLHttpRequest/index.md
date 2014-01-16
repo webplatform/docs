@@ -78,7 +78,6 @@
 {{See_Also_Section
 |Topic_clusters=XHR
 |Manual_sections====Related pages (MSDN)===
-*[[dom/window]]
 *<code>create</code>
 }}
 {{Topics|DOM, XHR}}
