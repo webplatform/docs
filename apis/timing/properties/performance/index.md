@@ -37,7 +37,7 @@ The '''performance''' property returns a hosting area for performance timing obj
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/window|Window]]</code>
+*<code>[[dom/Window|Window]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
