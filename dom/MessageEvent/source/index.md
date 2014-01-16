@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the [[dom/window|'''window''']] object that sent the message.}}
+{{Summary_Section|Gets the [[dom/Window|'''window''']] object that sent the message.}}
 {{API_Object_Property
 |Property_applies_to=dom/MessageEvent
 |Read_only=Yes
