@@ -30,7 +30,7 @@ The Document Object Model (DOM) is an application programming interface (API) fo
     <div class="inner">
     <h3>Events</h3>
     
-    <p>See table below.</p>
+    <p>See the table below.</p>
     </div>
   
   </div>
@@ -44,9 +44,9 @@ The Document Object Model (DOM) is an application programming interface (API) fo
     <div class="image icon-dom"></div>
     
     <div class="inner">
-    <h3>[[dom/methods|Methods]]</h3>
+    <h3>Methods</h3>
     
-    <p>A reference guide to the methods available for DOM manipulation.</p>
+    <p>See the table below.</p>
     </div>
   
   </div>
