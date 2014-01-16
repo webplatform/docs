@@ -107,7 +107,7 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 {{See_Also_Section
 |External_links=*[http://msdn.microsoft.com/en-us/library/jj154908.aspx How to create a tag cloud using IndexedDB]
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/window|window]]</code>
+*<code>[[dom/Window|window]]</code>
 *<code>[[apis/indexedDB/events/onsuccess|onsuccess]]</code>
 *<code>[[apis/indexedDB/events/onerror|onerror]]</code>
 *<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
@@ -120,24 +120,3 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-}
-
-
-
-
-
-
-}
-
-
-
-
-
-
-}
-
-
-
-
-
-}}}
