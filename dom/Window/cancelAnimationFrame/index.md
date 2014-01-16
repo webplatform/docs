@@ -45,7 +45,6 @@ This method does not return a value.
 {{See_Also_Section
 |Topic_clusters=Animation
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/window|window]]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}258428 requestAnimationFrame API demo]</code>
 *<code>[[apis/timing/methods/requestAnimationFrame|requestAnimationFrame]]</code>
 *<code>[[apis/timing/properties/animationStartTime|animationStartTime]]</code>
