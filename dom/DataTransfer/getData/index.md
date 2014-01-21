@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,13 +20,13 @@
 |Example_object_name=event.dataTransfer
 |Return_value_name=eventData
 |Javascript_data_type=String
-|Return_value_description=Returns the data in the format retrieved from the clipboard/drag and drop operation through the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the [[dom/clipboardData|'''clipboardData''']] object. Depending on the information contained in [[dom/methods/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
+|Return_value_description=Returns the data in the format retrieved from the clipboard/drag and drop operation through the [[dom/DataTransfer|'''DataTransfer''']] object or the [[dom/clipboardData|'''clipboardData''']] object. Depending on the information contained in [[dom/DataTransfer/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''getData''' method and the [[dom/methods/setData|'''setData''']] method with the [[dom/objects/dataTransfer|'''dataTransfer''']] object to create a shortcut to an image.
+|Description=This example uses the '''getData''' method and the [[dom/DataTransfer/setData|'''setData''']] method with the [[dom/DataTransfer|'''DataTransfer''']] object to create a shortcut to an image.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -64,7 +65,7 @@ window.addEventListener("load", initialize, false);
 }}
 {{Notes_Section
 |Notes=*The '''getData''' method enforces cross-frame security and allows data transfers only in the same domain. To the user, this means that a selection that is dragged between different security protocols, such as HTTP and HTTPS, fails. In addition, that a selection that is dragged between two instances of the application with different security levels, where the first instance is set to medium and the second is set to high, fails. Finally, that a selection that is dragged into the application from another drag-enabled application, such as Microsoft Word, also fails.
-*To use the '''getData''' method to get data from the clipboard in the '''oncopy''' event or the [[dom/events/cut|'''oncut''']] event, you must call [[dom/methods/preventDefault|<code>event.preventDefault()]] in the event handler script.
+*To use the '''getData''' method to get data from the clipboard in the '''oncopy''' event or the '''oncut''' event, you must call [[dom/Event/preventDefault|event.preventDefault()]] in the event handler script.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -89,12 +90,7 @@ window.addEventListener("load", initialize, false);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
-*<code>[[dom/objects/dataTransfer|dataTransfer]]</code>
-*<code>Reference</code>
-*<code>[[dom/methods/clearData|clearData]]</code>
-*<code>[[dom/methods/setData|setData]]</code>
-*<code>Conceptual</code>
-*<code>About DHTML Data Transfer</code>
+
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
