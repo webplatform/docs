@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,19 +14,14 @@
 }}
 {{Notes_Section
 |Notes=<code>someTokenList.value</code> returns the underlying string and can be set (to change the underlying string).
-|Import_Notes====Additional Members (MSDN)===
-The '''DOMSettableTokenList''' object has these types of members:
-[[#Additional_Properties|Additional Properties]]
-
-
-====Additional Properties====
+|Import_Notes=====Additional Properties====
 The '''DOMSettableTokenList''' object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
 !Property
 !Description
 {{!}}-
-{{!}}[[dom/properties/value|'''value''']]
+{{!}}[[dom/HTMLElement/value|'''value''']]
 {{!}}Returns the underlying string. Can be set, to change the underlying string.
 {{!}}}
  
