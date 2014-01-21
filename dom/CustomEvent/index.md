@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -14,7 +15,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use [[dom/methods/createEvent|<code>document.createEvent("CustomEvent")</code>]] to create this type of event and initialize it with [[dom/methods/initCustomEvent|initCustomEvent]].
+|Usage=Use [[dom/Document/createEvent|document.createEvent("CustomEvent")]] to create this type of event and initialize it with [[dom/CustomEvent/initCustomEvent|initCustomEvent]].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
