@@ -2,13 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a close event of a [[apis/websocket/objects/WebSocket|WebSocket]] connection.}}
+{{Summary_Section|Represents a close event of a [[apis/websocket/WebSocket|WebSocket]] connection.}}
 {{API_Object
 |Subclass_of=dom/Event
-|Overview='''CloseEvent''' is sent to clients using [[apis/websocket/objects/WebSocket|WebSockets]] when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [[apis/websocket/events/onclose|onclose]] attribute.
+|Overview='''CloseEvent''' is sent to clients using [[apis/websocket/WebSocket|WebSocket]] when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [[apis/websocket/WebSocket/onclose|onclose]] attribute.
 }}
 {{Examples_Section
 |Not_required=No
