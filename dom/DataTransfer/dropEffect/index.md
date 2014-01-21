@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|Sets or gets the type of drag-and-drop operation and the type of cursor to display.}}
 {{API_Object_Property
-|Property_applies_to=dom/objects/dataTransfer
+|Property_applies_to=dom/DataTransfer
 |Read_only=No
 |Example_object_name=event.dataTransfer
 |Return_value_name=dropEffect
@@ -23,8 +23,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''dropEffect''' and [[dom/properties/effectAllowed|'''effectAllowed''']] properties of the [[dom/objects/dataTransfer|'''dataTransfer''']] object to display the move cursor.
-{{TODO|Make sure this examples works and remove this comment (also in the [[dom/properties/effectAllowed|effectAllowed]] page).}}
+|Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
+{{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
 |Code=<!doctype html>
 <html>
  <head>
