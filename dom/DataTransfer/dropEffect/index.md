@@ -35,7 +35,7 @@
   <h1>Example of the effectAllowed and dropEffect Properties</h1>
   <p>The code in this example sets the <b>effectAllowed</b> property 
 to <span class="literal">move</span>. It sets the <b>dropEffect</b> 
-property to display the move cursor. The default action must be canceled in all events that are handled&amp;#151;in this example, 
+property to display the move cursor. The default action must be canceled in all events that are handled -- in this example, 
 <b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and 
 <b>ondrop</b>.</p>
 <b>
