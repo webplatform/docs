@@ -109,7 +109,7 @@ property to display the move cursor. The default action must be canceled in all 
   [not this text]
 </b>
 </p>
-<p>&nbsp;<p>
+<p>&nbsp;</p>
 <div id="oTarget">
 [drop text here]
   </div>
