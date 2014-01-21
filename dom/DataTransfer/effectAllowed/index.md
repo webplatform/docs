@@ -29,8 +29,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/properties/dropEffect|'''dropEffect''']] and '''effectAllowed''' properties of the [[dom/objects/dataTransfer|'''dataTransfer''']] object to display the move cursor.
-{{TODO|Make sure this examples works and remove this comment (also in the [[dom/properties/dropEffect|dropEffect]] page).}}
+|Description=This example uses the [[dom/DataTransfer/dropEffect|'''dropEffect''']] and '''effectAllowed''' properties of the [[dom/DataTransfer|'''DataTransfer''']] object to display the move cursor.
+{{TODO|Make sure this examples works and remove this comment (also in the dropEffect page).}}
 |Code=<!doctype html>
 <html>
  <head>
@@ -130,9 +130,9 @@ property to display the move cursor. The default action must be canceled in all 
 *'''all'''
 *'''uninitialized'''
 |Notes====Remarks===
-Set the '''effectAllowed''' property in the [[dom/events/dragstart|'''ondragstart''']] event. This property is used most effectively with the [[dom/properties/dropEffect|'''dropEffect''']] property.
+Set the '''effectAllowed''' property in the [[dom/DragEvent/dragstart|'''ondragstart''']] event. This property is used most effectively with the [[dom/DataTransfer/dropEffect|'''dropEffect''']] property.
 This property can be used to override the default behavior in other applications. For example, the script can set the '''effectAllowed''' property to '''copy''' for a text field and override the Microsoft Word default of '''move'''. In the application, '''copy''' is the default '''effectAllowed''' behavior; however,  anchors are set to '''link''' by default, and text fields are set to '''move''' by default.
-By setting '''effectAllowed''' to '''none''', dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [[dom/properties/returnValue|'''returnValue''']] of the [[dom/events/dragstart|'''ondragstart''']] window.
+By setting '''effectAllowed''' to '''none''', dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [[dom/BeforeUnloadEvent/returnValue|'''returnValue''']] of the [[dom/DragEvent/dragstart|'''ondragstart''']] window.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
