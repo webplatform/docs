@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a string list of formats that were sent in the [[dom/events/dragstart|'''ondragstart''']] event.}}
+{{Summary_Section|Returns a string list of formats that were sent in the [[dom/DragEvent/dragstart|'''ondragstart''']] event.}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
 |Read_only=Yes
