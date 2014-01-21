@@ -29,10 +29,6 @@
 |Code=<!doctype html>
 <html>
  <body>
-<p><br/><p>
-<div id="oTarget">
-(drop text here)
-  </div>
  </body>
 </html>
 }}
