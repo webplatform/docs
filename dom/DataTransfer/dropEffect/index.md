@@ -24,8 +24,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|dataTransfer]] object to display the move cursor.
-{{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
+|Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
+{{TODO|Make sure this example works and remove this comment (also in the effectAllowed page).}}
 |Code=<!doctype html>
 <html>
  <head>
