@@ -2,9 +2,10 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|returnValue}}
+{{API_Name}}
 {{Summary_Section|Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.}}
 {{API_Object_Property
 |Property_applies_to=dom/BeforeUnloadEvent
@@ -20,7 +21,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=The [[dom/events/beforeunload|'''onbeforeunload''']] event allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or '''Boolean''' value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
+|Usage=The [[dom/BeforeUnloadEvent|'''BeforeUnloadEvent''']] allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or '''Boolean''' value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
