@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -33,8 +34,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
