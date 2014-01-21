@@ -30,14 +30,6 @@
 <html>
  <head>
   <title>Example of the effectAllowed and dropEffect Properties</title>
-  <style>
-#oTarget {
-  background: beige;
-  height: 100px;
-  width: 200px;
-  border: solid black 1px;
-}
-  </style>
   <script>
 // This function is called when the user 
 // initiates a drag-and-drop operation.
@@ -108,7 +100,6 @@ property to display the move cursor. The default action must be canceled in all 
   </div>
  </body>
 </html>
-
 }}
 }}
 {{Notes_Section
