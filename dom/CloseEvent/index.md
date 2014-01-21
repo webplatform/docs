@@ -16,7 +16,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use this event to find the close [[dom/apis/websocket/CloseEvent/reason|reason]] and close [[dom/CloseEvent/code|code]] of a closed connection and whether it was closed cleanly.
+|Usage=Use this event to find the close [[apis/websocket/CloseEvent/reason|reason]] and close [[dom/CloseEvent/code|code]] of a closed connection and whether it was closed cleanly.
 }}
 {{Related_Specifications_Section
 |Specifications=
