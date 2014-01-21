@@ -104,10 +104,9 @@ property to display the move cursor. The default action must be canceled in all 
   [not this text]
 </b>
 </p>
-<p><br/><p>
-
  </body>
 </html>
+
 }}
 }}
 {{Notes_Section
