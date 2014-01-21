@@ -21,7 +21,7 @@ The '''DOMSettableTokenList''' object has these properties.
 !Property
 !Description
 {{!}}-
-{{!}}[[dom/HTMLElement/value|'''value''']]
+{{!}}[[dom/HTMLElement/value|value]]
 {{!}}Returns the underlying string. Can be set, to change the underlying string.
 {{!}}}
  
