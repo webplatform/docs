@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -36,9 +37,9 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/traversal/RangeException|RangeException]]</code>
-*<code>[[dom/objects/EventException|EventException]]</code>
-*<code>[[dom/properties/code|code]]</code>
+*<code>[[dom/RangeException|RangeException]]</code>
+*<code>[[dom/EventException|EventException]]</code>
+*<code>[[dom/Element/code|code]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
