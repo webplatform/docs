@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Removes an event handler that the [[dom/methods/addEventListener|addEventListener]] method registered.}}
+{{Summary_Section|Removes an event handler that the [[dom/EventTarget/addEventListener|addEventListener]] method registered.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=type
@@ -45,6 +46,7 @@ If the arguments for '''removeEventListener'''  do not identify a  registered ev
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
