@@ -19,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''length''' property to specify where a [[dom/TextNode|'''TextNode''']] is split by using the [[dom/methods/splitText|'''splitText''']] method.
+|Description=This example uses the '''length''' property to specify where a [[dom/TextNode|'''TextNode''']] is split by using the [[dom/TextNode/splitText|'''splitText''']] method.
 |Code=&lt;script&gt;
 function fnChangeValue(){
    var oListItem {{=}} document.createElement("LI");
