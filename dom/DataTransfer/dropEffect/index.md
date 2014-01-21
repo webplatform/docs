@@ -28,9 +28,6 @@
 {{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
 |Code=<!doctype html>
 <html>
- <head>
-  <title>Example of the effectAllowed and dropEffect Properties</title>
- </head>
  <body>
   <h1>Example of the effectAllowed and dropEffect Properties</h1>
   <p>The code in this example sets the <b>effectAllowed</b> property 
