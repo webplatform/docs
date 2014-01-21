@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Assigns data in a specified format to the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
+{{Summary_Section|Assigns data in a specified format to the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
@@ -28,7 +29,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''setData''' method and the [[dom/methods/getData|'''getData''']] method with the [[dom/objects/dataTransfer|'''dataTransfer''']] object to create a shortcut to an image.
+|Description=This example uses the '''setData''' method and the [[dom/DataTransfer/getData|'''getData''']] method with the [[dom/DataTransfer|'''dataTransfer''']] object to create a shortcut to an image.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -89,9 +90,7 @@ window.addEventListener("load", initialize, false);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
-*<code>[[dom/objects/dataTransfer|dataTransfer]]</code>
-*<code>[[dom/methods/clearData|clearData]]</code>
-*<code>[[dom/methods/getData|getData]]</code>
+
 }}
 {{Topics|DOM}}
 {{External_Attribution
