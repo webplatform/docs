@@ -44,7 +44,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9 and later
-|Note=The warning dialog box is easier to read  than in earlier versions.  In the improved dialog box, it is easier to distinguish the default text from text provided by the website, and large buttons clearly indicate how to stay on the page or navigate away. [[Image:ie9_onbeforeunload_dialog.png]]
+|Note=The warning dialog box is easier to read  than in earlier versions.  In the improved dialog box, it is easier to distinguish the default text from text provided by the website, and large buttons clearly indicate how to stay on the page or navigate away.
 }}
 }}
 {{See_Also_Section}}
