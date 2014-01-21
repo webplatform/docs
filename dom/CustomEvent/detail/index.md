@@ -20,7 +20,7 @@
 }}
 {{Notes_Section
 |Usage=Use this property to retrieve additional information about this developer generated custom event. It may not include any information.
-|Notes=After a custom event object is created, use the [[dom/methods/initCustomEvent|'''initCustomEvent''']] method to sets the value of the this property.
+|Notes=After a custom event object is created, use the [[dom/CustomEvent/initCustomEvent|initCustomEvent]] method to set the value of the this property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
