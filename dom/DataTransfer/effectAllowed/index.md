@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -106,7 +107,7 @@ property to display the move cursor. The default action must be canceled in all 
 </span>
   [not this text]
 </b>
-<p><br/><p>
+<p>&nbsp;<p>
 <div id="oTarget">
 [drop text here]
   </div>
@@ -151,12 +152,7 @@ By setting '''effectAllowed''' to '''none''', dropping is disabled but the no-dr
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/clearData|clearData]]</code>
-*<code>[[dom/methods/getData|getData]]</code>
-*<code>[[dom/methods/setData|setData]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
