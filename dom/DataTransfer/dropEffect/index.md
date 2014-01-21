@@ -29,13 +29,6 @@
 |Code=<!doctype html>
 <html>
  <body>
-<b>
-  (not this text)
-<span id="oSource">
-  (select and drag this text)
-</span>
-  (not this text)
-</b>
 <p><br/><p>
 <div id="oTarget">
 (drop text here)
