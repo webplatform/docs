@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -11,27 +12,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Additional Members (MSDN)===
-The '''DOMException''' object has these types of members:
-[[#Additional_Properties|Additional Properties]]
-
-
-====Additional Properties====
-The '''DOMException''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/code|'''code''']]
-{{!}}Sets or retrieves a number indicating the type of exception that occurred.
-{{!}}-
-{{!}}[[dom/properties/toString (DOMError)|'''name (DOMError, DOMException)''']]
-{{!}}Returns a '''DOMString''' value an error that occurred during a DOM operation.
-{{!}}}
- 
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
