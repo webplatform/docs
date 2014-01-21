@@ -22,7 +22,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
+{{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
+}}
 }}
 {{Notes_Section
 |Usage=Use this property to get or set the current operation, using one of the following values -
