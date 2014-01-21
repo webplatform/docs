@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Removes one or more data formats from the clipboard through the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
+{{Summary_Section|Removes one or more data formats from the clipboard through the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
@@ -23,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''clearData''' method, the [[dom/methods/setData|'''setData''']] method and the [[dom/methods/getData|'''getData''']] method with the [[dom/objects/dataTransfer|'''dataTransfer''']] object.
+|Description=This example uses the '''clearData''' method, the [[dom/DataTransfer/setData|setData]] method and the [[dom/DataTransfer/getData|getData]] method with the [[dom/DataTransfer|dataTransfer]] object.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -60,7 +61,7 @@ window.addEventListener("load", initialize, false);
 }}
 {{Notes_Section
 |Notes=*If no ''format'' parameter is passed, all of the data formats are cleared.
-*For drag-and-drop operations, the '''clearData''' method of the [[dom/objects/dataTransfer|'''dataTransfer''']] object is used generally in source events, such as [[dom/events/dragstart|'''ondragstart''']]. When you override the default behavior of the target, use '''clearData''' in the [[dom/events/drop|'''ondrop''']] event. It is particularly useful for selectively removing data formats when multiple formats are specified.
+*For drag-and-drop operations, the '''clearData''' method of the [[dom/DataTransfer|DataTransfer]] object is used generally in source events, such as [[dom/DragEvent/dragstart|dragstart]]. When you override the default behavior of the target, use '''clearData''' in the [[dom/DragEvent/drop|drop]] event. It is particularly useful for selectively removing data formats when multiple formats are specified.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -85,8 +86,7 @@ window.addEventListener("load", initialize, false);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
-*<code>[[dom/methods/getData|getData]]</code>
-*<code>[[dom/methods/setData|setData]]</code>
+
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
