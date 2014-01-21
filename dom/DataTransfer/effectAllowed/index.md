@@ -100,6 +100,7 @@ to <span class="literal">move</span>. It sets the <b>dropEffect</b>
 property to display the move cursor. The default action must be canceled in all events that are handled&amp;#151;in this example, 
 <b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and 
 <b>ondrop</b>.</p>
+<p>
 <b>
   [not this text]
 <span id="oSource">
@@ -107,6 +108,7 @@ property to display the move cursor. The default action must be canceled in all 
 </span>
   [not this text]
 </b>
+</p>
 <p>&nbsp;<p>
 <div id="oTarget">
 [drop text here]
