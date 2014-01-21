@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -131,13 +132,7 @@ There is a default drag-and-drop functionality for the following elements: [[htm
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/clearData|clearData]]</code>
-*<code>[[dom/properties/effectAllowed|effectAllowed]]</code>
-*<code>[[dom/methods/getData|getData]]</code>
-*<code>[[dom/methods/setData|setData]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
