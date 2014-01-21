@@ -26,6 +26,89 @@
 |Language=HTML
 |Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
 {{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
+|Code=<!doctype html>
+<html>
+ <head>
+  <title>Example of the effectAllowed and dropEffect Properties</title>
+  <style>
+#oTarget {
+  background: beige;
+  height: 100px;
+  width: 200px;
+  border: solid black 1px;
+}
+  </style>
+  <script>
+// This function is called when the user 
+// initiates a drag-and-drop operation.
+function fnHandleDragStart(e) {
+  var oData = e.dataTransfer;
+  // Set the effectAllowed on the source object.
+  oData.effectAllowed = "move";
+}
+
+// This function is called by the target 
+// object in the ondrop event.
+function fnHandleDrop(e) {
+  var oTarg = e.target;
+  var oData = e.dataTransfer;
+
+  // Cancel default action.
+  fnCancelDefault(e);
+
+  // Set the content of the oTarget to the information stored
+  // in the data transfer object in the desired format.
+  oTarg.textContent += oData.getData("Text");
+}
+
+// This function sets the dropEffect when the user moves the 
+// mouse over the target object.
+function fnHandleDragEnter(e) {
+  var oData = e.dataTransfer;
+
+  // Cancel default action.
+  fnCancelDefault(e);
+
+  // Set the dropEffect for the target object.
+  oData.dropEffect = "move";
+}
+
+function fnCancelDefault(e) {
+  // Cancel default action.
+  e.preventDefault();
+}
+function initialize() {
+ var target = document.getElementById("oTarget");
+ document.getElementById("oSource").addEventListener("dragstart", fnHandleDragStart, false);
+ target.addEventListener("drop", fnHandleDrop, false);
+ target.addEventListener("ondragover", fnCancelDefault, false);
+ target.addEventListener("ondragenter", fnHandleDragEnter, false);
+}
+
+window.addEventListener("load", initialize, false);
+  </script>
+ </head>
+ <body>
+  <h1>Example of the effectAllowed and dropEffect Properties</h1>
+  <p>The code in this example sets the <b>effectAllowed</b> property 
+to <span class="literal">move</span>. It sets the <b>dropEffect</b> 
+property to display the move cursor. The default action must be canceled in all events that are handled&amp;#151;in this example, 
+<b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and 
+<b>ondrop</b>.</p>
+<b>
+  (not this text)
+<span id="oSource">
+  (select and drag this text)
+</span>
+  (not this text)
+</b>
+<p><br/><p>
+<div id="oTarget">
+(drop text here)
+  </div>
+ </body>
+</html>
+
 }}
 }}
 {{Notes_Section
