@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -27,7 +28,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Upon success of this method, the [[html/attributes/data|'''data''']] and [[dom/properties/length|'''length''']] properties reflect the change.
+|Usage=Upon success of this method, the [[dom/CharacterData/data|'''data''']] and [[dom/CharacterData/length|'''length''']] properties reflect the change.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -39,6 +40,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
