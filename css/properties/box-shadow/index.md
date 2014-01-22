@@ -113,9 +113,10 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 }}
 }}
 {{Notes_Section
-|Usage=text input field
-|Notes=text input field
-|Import_Notes=text input field
+|Usage====Remarks===
+See also:
+* [[css/data_types/length]]
+* [[css/color]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
