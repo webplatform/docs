@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -41,7 +42,7 @@
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Note=You can set the active element with the [[dom/methods/setActive|'''setActive''']] method or the [[dom/methods/focus|'''focus''']] method; however, using the '''setActive''' method has no effect on document focus. Use the '''focus''' method to cause an individual element to gain focus and become the active element.
+|Note=You can set the active element with the [[dom/HTMLElement/setActive|'''setActive''']] method or the [[dom/HTMLElement/focus|'''focus''']] method; however, using the '''setActive''' method has no effect on document focus. Use the '''focus''' method to cause an individual element to gain focus and become the active element.
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=4
@@ -49,13 +50,10 @@
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=5 and later
-|Note=This property is not defined until a document is loaded. A value of null is given for this property, if it is accessed inline during the loading of a document. This property can be accessed in the [[dom/events/load|'''onload''']] event handler function.
+|Note=This property is not defined until a document is loaded. A value of null is given for this property, if it is accessed inline during the loading of a document. This property can be accessed in the [[dom/Element/load|'''onload''']] event handler function.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
