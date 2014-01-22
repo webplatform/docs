@@ -86,8 +86,6 @@ WebSockets is a relatively low level API that especially aims to be a two-way co
 |Usage=* Online multiplayer games
 * Chat applications
 * Online collaborative applications
-|Import_Notes===Other references==
-* [[websocket.org: About websocket|http://www.websocket.org/aboutwebsocket.html]]
 }}
 {{Topics|Web Services, WebSocket}}
 {{External_Attribution
