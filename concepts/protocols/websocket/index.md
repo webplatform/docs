@@ -83,9 +83,11 @@ console.log(connection.extensions);
 
 WebSockets is a relatively low level API that especially aims to be a two-way communication channel so it is most appropriate to use in applications that explicitly require two-way real-time communication, such as multiplayer games, chat, real-time text editors, etc. If one needs to get real-time updates from a server but does not need to send anything back such as getting stock information in real-time, [[tutorials/eventsource_basics | EventSource (Server-Sent Events)]] should be considered.
 {{Notes_Section
-|Usage=Online multiplayer games
-Chat applications
-Online collaborative applications
+|Usage=* Online multiplayer games
+* Chat applications
+* Online collaborative applications
+|Import_Notes===Other references==
+* [http://www.websocket.org/aboutwebsocket.html|websocket.org: About websocket]
 }}
 {{Topics|Web Services, WebSocket}}
 {{External_Attribution
