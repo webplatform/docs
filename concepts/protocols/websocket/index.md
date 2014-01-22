@@ -1,7 +1,8 @@
-{{Page_Title}}
+{{Page_Title|WebSockets concepts}}
 {{Flags
 |High-level issues=Needs Topics, Unreviewed Import
 |Content=Compatibility Incomplete
+|Checked_Out=Yes
 }}
 {{Summary_Section|A WebSocket is a persistent, low-latency, lightweight and two-way communication channel between the server and the browser.}}
 {{Basic Page}}
@@ -13,8 +14,8 @@ The web we know today is built on top of HTTP, which is by design a stateless, o
 
 To create a WebSocket connection, you need to call the <code>WebSocket</code> constructor with the URL to the WebSocket service:
 <syntaxhighlight lang="javascript">
-var connection = new WebSocket('ws://html5rocks.websocket.org/echo');
-// Just creating the object is enough to get connected.
+    var connection = new WebSocket('ws://html5rocks.websocket.org/echo');
+    // Just creating the object is enough to get connected.
 </syntaxhighlight>
 
 Although WebSockets are built on top of HTTP, they require different handling due to the major depart from the one-off nature of HTTP. This is why WebSocket URL's have a different protocol: <code>ws</code> instead of <code>http</code> and <code>wss</code> instead of <code>https</code>. They also require a special handshake triggered by the [http://en.wikipedia.org/wiki/HTTP/1.1_Upgrade_header | HTTP Upgrade Header] which sometimes get stripped by certain proxies, causing the connection to fail.
@@ -52,22 +53,24 @@ connection.onclose = function () {
 };
 </syntaxhighlight>
 
+
 ==Data Types and Extensions==
 
 WebSockets support sending binary messages, too. To send binary data, one can use either <code>Blob</code> or <code>ArrayBuffer</code> object. Instead of calling the <code>send</code> method with string, you can simply pass an <code>ArrayBuffer</code> or a <code>Blob</code>.
+
 <syntaxhighlight lang="javascript">
-// Sending file as Blob
-var file = document.querySelector('input[type="file"]').files[0];
-connection.send(file);
+  // Sending file as Blob
+  var file = document.querySelector('input[type="file"]').files[0];
+  connection.send(file);
 </syntaxhighlight>
 
 To receive binary data, the <code>binaryType</code> attribute of the WebSocket object should be set to either <code>'blob'</code> or <code>'arraybuffer'</code>.
 <syntaxhighlight lang="javascript">
-// Setting binaryType to accept received binary as either 'blob' or 'arraybuffer'
-connection.binaryType = 'arraybuffer';
-connection.onmessage = function(e) {
-  console.log(e.data.byteLength); // ArrayBuffer object if binary
-};
+  // Setting binaryType to accept received binary as either 'blob' or 'arraybuffer'
+  connection.binaryType = 'arraybuffer';
+  connection.onmessage = function(e) {
+      console.log(e.data.byteLength); // ArrayBuffer object if binary
+  };
 </syntaxhighlight>
 
 Extensions are also possible for the protocol such as "per frame compression". These are handled automatically between the browser and the server though so the only thing exposed on the object is the list of extensions that are in use.
