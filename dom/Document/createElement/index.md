@@ -80,7 +80,7 @@ document.addEventListener("change", create, false);
 }}
 }}
 {{Notes_Section
-|Usage=The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the [[dom/methods/insertBefore|'''insertBefore''']] method or the [[dom/methods/appendChild|'''appendChild''']] method.
+|Usage=The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the [[dom/Node/insertBefore|'''insertBefore''']] method or the [[dom/Node/appendChild|'''appendChild''']] method.
 |Notes=You must perform a second step when you use '''createElement''' to create the [[html/elements/input|'''input''']] element. The '''createElement''' method generates an input text box, because that is the default '''input''' [[html/attributes/type|'''type''']] property. To insert any other kind of '''input''' element, first invoke '''createElement''' for '''input''', and then set the '''type''' property to the appropriate value in the next line of code.
 }}
 {{Related_Specifications_Section
@@ -132,10 +132,8 @@ document.addEventListener("change", create, false);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
-*<code>[[dom/methods/cloneNode|cloneNode]]</code>
-*<code>[[dom/methods/removeNode|removeNode]]</code>
+*<code>[[dom/Node/cloneNode|cloneNode]]</code>
 *<code>Conceptual</code>
 *<code>About the W3C Document Object Model</code>
 }}
