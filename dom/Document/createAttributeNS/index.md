@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates a reference to an [[dom/attributes|'''attribute''']] object that is associated with an XML namespace.}}
+{{Summary_Section|Creates a reference to an [[html/attributes|'''attribute''']] object that is associated with an XML namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=namespace
@@ -41,14 +42,14 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-*<code>[[dom/methods/createAttribute|createAttribute]]</code>
+*<code>[[dom/Document/createAttribute|createAttribute]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
