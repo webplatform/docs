@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''documentElement''' property to get the [[dom/properties/innerdom/innerHTML|'''innerHTML''']] property of the entire document.
+|Description=This example uses the '''documentElement''' property to get the [[dom/HTMLElement/innerHTML|'''innerHTML''']] property of the entire document.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
