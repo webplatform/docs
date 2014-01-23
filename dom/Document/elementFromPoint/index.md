@@ -77,8 +77,8 @@
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
-*<code>[[dom/MouseEvent/clientX2|clientX]]</code>
-*<code>[[dom/MouseEvent/clientY2|clientY]]</code>
+*<code>[[dom/MouseEvent/clientX|clientX]]</code>
+*<code>[[dom/MouseEvent/clientY|clientY]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
