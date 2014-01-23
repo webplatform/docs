@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -36,8 +37,8 @@ p.addEventListener("custom", reportEvent, false);
 }}
 }}
 {{Notes_Section
-|Notes=If the event object is to be dispatched with [[dom/methods/dispatchEvent|'''dispatchEvent''']], the appropriate event initialization method must be called. For example, after creating an event of type '''UIEvent''', call [[dom/methods/initUIEvent|'''initUIEvent''']] to initialize the event object's values.
-'''Security Warning:  '''For security reasons, events generated with '''createEvent''' are untrusted and have a [[dom/properties/isTrusted|'''isTrusted''']] value of  false.
+|Notes=If the event object is to be dispatched with [[dom/EventTarget/dispatchEvent|'''dispatchEvent''']], the appropriate event initialization method must be called. For example, after creating an event of type '''UIEvent''', call [[dom/UIEvent/initUIEvent|'''initUIEvent''']] to initialize the event object's values.
+'''Security Warning:  '''For security reasons, events generated with '''createEvent''' are untrusted and have a [[dom/Event/isTrusted|'''isTrusted''']] value of  false.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -49,28 +50,26 @@ p.addEventListener("custom", reportEvent, false);
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
-*<code>[[dom/methods/initCompositionEvent|initCompositionEvent]]</code>
-*<code>[[dom/methods/initCustomEvent|initCustomEvent]]</code>
-*<code>[[dom/methods/initDragEvent|initDragEvent]]</code>
-*<code>[[dom/methods/initEvent|initEvent]]</code>
-*<code>[[dom/methods/initFocusEvent|initFocusEvent]]</code>
-*<code>[[dom/methods/initKeyboardEvent|initKeyboardEvent]]</code>
-*<code>[[dom/methods/initMessageEvent|initMessageEvent]]</code>
-*<code>[[dom/methods/initMouseEvent|initMouseEvent]]</code>
-*<code>[[dom/methods/initMouseWheelEvent|initMouseWheelEvent]]</code>
-*<code>[[dom/methods/initMutationEvent|initMutationEvent]]</code>
-*<code>[[apis/web-storage/methods/initStorageEvent|initStorageEvent]]</code>
-*<code>[[dom/methods/initTextEvent|initTextEvent]]</code>
-*<code>[[dom/methods/initUIEvent|initUIEvent]]</code>
-*<code>[[dom/methods/initWheelEvent|initWheelEvent]]</code>
+*<code>[[dom/CompositionEvent/initCompositionEvent|initCompositionEvent]]</code>
+*<code>[[dom/CustomEvent/initCustomEvent|initCustomEvent]]</code>
+*<code>[[dom/DragEvent/initDragEvent|initDragEvent]]</code>
+*<code>[[dom/Event/initEvent|initEvent]]</code>
+*<code>[[dom/FocusEvent/initFocusEvent|initFocusEvent]]</code>
+*<code>[[dom/KeyboardEvent/initKeyboardEvent|initKeyboardEvent]]</code>
+*<code>[[dom/MessageEvent/initMessageEvent|initMessageEvent]]</code>
+*<code>[[dom/MouseEvent/initMouseEvent|initMouseEvent]]</code>
+*<code>[[dom/MutationEvent/initMutationEvent|initMutationEvent]]</code>
+*<code>[[dom/TextEvent/initTextEvent|initTextEvent]]</code>
+*<code>[[dom/UIEvent/initUIEvent|initUIEvent]]</code>
+*<code>[[dom/WheelEvent/initWheelEvent|initWheelEvent]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
