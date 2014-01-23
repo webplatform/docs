@@ -21,6 +21,8 @@
 |Language=JavaScript
 |Code=var div, docFrag = document.createDocumentFragment(),  i = 0, thismany = 1000;
 
+while ( i < thismany) {
+
 }}
 }}
 {{Notes_Section}}
