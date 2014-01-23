@@ -40,7 +40,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use the '''createTreeWalker''' method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use [[dom/NodeIterator/createNodeIterator|'''createNodeIterator''']].
+|Usage=Use the '''createTreeWalker''' method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use [[dom/Document/createNodeIterator|'''createNodeIterator''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
