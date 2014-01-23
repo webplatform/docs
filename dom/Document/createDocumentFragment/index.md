@@ -25,7 +25,15 @@ var div, docFrag = document.createDocumentFragment(),  i = 0, thismany = 1000;
 while ( i < thismany) {
     // Creates a new <div> element if one doesn't exist. Clones it if one does.
     (div === undefined) ? document.createElement('div') : div.cloneNode(false);
+
+    // Appends div to the document fragment.
+    docFrag.appendChild(div); 
+
+    i++;
 }
+
+// Appends the fragment and child nodes to the document body.  Makes one DOM update instead of 1000
+document.body.appendChild(docFrag);
 </nowiki>
 }}
 }}
