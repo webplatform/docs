@@ -43,7 +43,7 @@ When [[dom/Document/write|'''document.write''']] or [[dom/Document/writeln|'''do
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document/open (document)|open]]</code>
+*<code>[[dom/Document/open|open]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
