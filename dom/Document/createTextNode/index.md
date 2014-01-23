@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=text
 |Data type=String
-|Description=The [[dom/properties/nodeValue|'''nodeValue''']] property of the text node.
+|Description=The [[dom/Node/nodeValue|'''nodeValue''']] property of the text node.
 |Optional=No
 }}
 |Method_applies_to=dom/Document
@@ -46,15 +47,15 @@ Original Text
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
-*<code>[[dom/methods/createElement|createElement]]</code>
+*<code>[[dom/Document/createElement|createElement]]</code>
 *<code>Conceptual</code>
 *<code>About the W3C Document Object Model</code>
 }}
