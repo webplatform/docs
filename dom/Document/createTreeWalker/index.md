@@ -59,7 +59,7 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/NodeIterator/createNodeIterator|createNodeIterator]]</code>
+*<code>[[dom/Document/createNodeIterator|createNodeIterator]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
