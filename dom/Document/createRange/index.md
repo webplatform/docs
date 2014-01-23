@@ -2,17 +2,18 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates an empty [[dom/traversal/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document.}}
+{{Summary_Section|Creates an empty [[dom/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=range
 |Javascript_data_type=DOM Node
-|Return_value_description=An empty [[dom/traversal/Range|'''Range''']] instance object.
+|Return_value_description=An empty [[dom/Range|'''Range''']] instance object.
 }}
 {{Examples_Section
 |Not_required=No
@@ -34,10 +35,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
