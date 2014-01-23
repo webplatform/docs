@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The exitFullscreen method provides a way for exiting the fullscreen mode enabled by [[dom/methods/requestFullscreen|requestFullscreen]].}}
+{{Summary_Section|The exitFullscreen method provides a way for exiting the fullscreen mode enabled by [[dom/Element/requestFullscreen|requestFullscreen]].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Document
@@ -23,6 +25,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
