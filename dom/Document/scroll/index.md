@@ -29,7 +29,7 @@ To invoke this event, do one of the following:
 *Click and drag the scroll box with the mouse.
 *Click the scroll arrow.
 *Click the scroll bar.
-*Invoke the [[dom/methods/doScroll|'''doScroll''']] method.
+*Invoke the [[dom/HTMLElement/doScroll|'''doScroll''']] method.
 *Press the HOME or END key
 *Press the SPACEBAR key.
 *Press the PAGE UP or PAGE DOWN key.
