@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates a [[dom/traversal/NodeIterator|'''NodeIterator''']] object that you can use to traverse filtered lists of nodes or elements in a document.}}
+{{Summary_Section|Creates a [[dom/NodeIterator|'''NodeIterator''']] object that you can use to traverse filtered lists of nodes or elements in a document.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=rootNode
@@ -15,30 +16,30 @@
 }}{{Method Parameter
 |Name=whatToShow
 |Data type=Number
-|Description=The type of nodes or elements to appear in the node list. For more information, see [[dom/traversal/properties/whatToShow|'''whatToShow''']].
+|Description=The type of nodes or elements to appear in the node list. For more information, see [[dom/NodeIterator/whatToShow|'''whatToShow''']].
 |Optional=No
 }}{{Method Parameter
 |Name=filter
 |Data type=DOM Node
-|Description=A custom NodeFilter function to use. For more information, see [[dom/traversal/properties/filter|'''filter''']]. Use null for no filter.
+|Description=A custom NodeFilter function to use. For more information, see [[dom/NodeIterator/filter|'''filter''']]. Use null for no filter.
 |Optional=No
 }}{{Method Parameter
 |Name=expandEntityReference
 |Data type=Boolean
-|Description=Whether entity reference nodes are expanded. For more information, see [[dom/traversal/properties/expandEntityReferences|'''expandEntityReferences''']].
+|Description=Whether entity reference nodes are expanded. For more information, see [[dom/NodeIterator/expandEntityReferences|'''expandEntityReferences''']].
 |Optional=No
 }}
 |Method_applies_to=dom/Document
 |Example_object_name=document
 |Return_value_name=nodeIterator
 |Javascript_data_type=DOM Node
-|Return_value_description=A [[dom/traversal/NodeIterator|'''NodeIterator''']] instance object.
+|Return_value_description=A [[dom/NodeIterator|'''NodeIterator''']] instance object.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following code example shows how to use [[dom/traversal/NodeIterator|'''NodeIterator''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/properties/wholeText|'''wholeText''']] object of the node.
+|Description=The following code example shows how to use [[dom/NodeIterator|'''NodeIterator''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/TextNode/wholeText|'''wholeText''']] object of the node.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -76,7 +77,7 @@ function refresh()
 }}
 }}
 {{Notes_Section
-|Notes=Use the '''createNodeIterator''' method when you want to focus on node content because [[dom/traversal/NodeIterator|'''NodeIterator''']] traverses a flat list of nodes in the document structure.
+|Notes=Use the '''createNodeIterator''' method when you want to focus on node content because [[dom/NodeIterator|'''NodeIterator''']] traverses a flat list of nodes in the document structure.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -88,6 +89,7 @@ function refresh()
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
