@@ -21,15 +21,6 @@
 |Language=JavaScript
 |Code=var div, docFrag = document.createDocumentFragment(),  i = 0, thismany = 1000;
 
-while ( i < thismany) {
-    // Creates a new <div> element if one doesn't exist. Clones it if one does.
-    (div === undefined) ? document.createElement('div') : div.cloneNode(false);
-
-    // Appends div to the document fragment.
-    docFrag.appendChild(div); 
-
-    i++;
-}
 }}
 }}
 {{Notes_Section}}
