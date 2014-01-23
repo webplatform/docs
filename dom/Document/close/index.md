@@ -19,13 +19,12 @@
 }}
 {{Notes_Section
 |Notes=When a function fired by an event on any object calls the 
-[[dom/methods/close|'''close''']] method, the window.'''close''' method is implied.
+[[dom/Window/close|'''close''']] method, the '''window.close''' method is implied.
 When an event on any 
-object calls the [[dom/methods/close|'''close''']] method, the 
-document.'''close''' method is implied.
+object calls the [[dom/Document/close|'''close''']] method, the 
+'''document.close''' method is implied.
 
-
-When [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, '''document'''.'''close''' should also be used.
+When [[dom/Document/write|'''document.write''']] or [[dom/Document/writeln|'''document.writeln''']] is used in an event handler, '''document.close''' should also be used.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,8 +43,7 @@ When [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] or '''doc
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-*<code>[[dom/methods/open (document)|open]]</code>
+*<code>[[dom/Document/open (document)|open]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
