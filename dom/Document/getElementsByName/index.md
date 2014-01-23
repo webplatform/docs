@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -46,16 +47,16 @@ function getFirstNames() {
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Note=When you use the '''getElementsByName''' method, all elements in the document that have the specified [[html/attributes/name|'''NAME''']] attribute or [[html/attributes/id|'''ID''']] attribute value are returned. Elements that support both the [[html/attributes/name|'''NAME''']] attribute and the [[html/attributes/id|'''ID''']] attribute are included in the collection returned by the '''getElementsByName''' method, but elements with a '''NAME''' [[dom/properties/expando|'''expando''']] are not included in the collection; therefore, this method cannot be used to retrieve custom tags by name.
+|Note=When you use the '''getElementsByName''' method, all elements in the document that have the specified [[html/attributes/name|'''NAME''']] attribute or [[html/attributes/id|'''ID''']] attribute value are returned. Elements that support both the [[html/attributes/name|'''NAME''']] attribute and the [[html/attributes/id|'''ID''']] attribute are included in the collection returned by the '''getElementsByName''' method, but elements with a '''NAME''' are not included in the collection; therefore, this method cannot be used to retrieve custom tags by name.
 }}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
 *<code>About the W3C Document Object Model</code>
 }}
 {{Topics|DOM}}
