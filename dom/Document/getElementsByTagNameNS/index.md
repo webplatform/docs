@@ -35,16 +35,16 @@
 Use this method to get a live list of elements with a specified name and namespace.
 |Notes=*For performance reasons, [[css/selectors_api/querySelectorAll|'''querySelectorAll''']] is preferred, because it gets a static list.
 *This method returns a live element list that gets updated whenever an element is added or removed from the document, this has performance implications and may result in unexpected errors (removing elements within a for loop while caching the length of the collection).
-*If namespaces are irrelevant in the context, [[dom/methods/getElementsByTagName|getElementsByTagName]] can be used (but it is also not recommended, see the first two notes).
+*If namespaces are irrelevant in the context, [[dom/HTMLElement/getElementsByTagName|getElementsByTagName]] can be used (but it is also not recommended; see the first two notes).
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 3 Core 
+|Name=Document Object Model (DOM) Level 3 Core
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 Core 
+|Name=Document Object Model (DOM) Level 2 Core
 |URL=http://www.w3.org/TR/DOM-Level-2-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.2
