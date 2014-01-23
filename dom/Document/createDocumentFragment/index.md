@@ -19,20 +19,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=var div, docFrag = document.createDocumentFragment(),  i = 0, thismany = 1000;
-
-while ( i < thismany) {
-    // Creates a new <div> element if one doesn't exist. Clones it if one does.
-    (div === undefined) ? document.createElement('div') : div.cloneNode(false);
-
-    // Appends div to the document fragment.
-    docFrag.appendChild(div); 
-
-    i++;
-}
-
-// Appends the fragment and child nodes to the document body.  Makes one DOM update instead of 1000
-document.body.appendChild(docFrag);
 }}
 }}
 {{Notes_Section}}
@@ -51,10 +37,7 @@ document.body.appendChild(docFrag);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
