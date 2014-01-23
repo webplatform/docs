@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates an [[dom/attributes|'''attribute''']] object with a specified [[html/attributes/name|'''name''']].}}
+{{Summary_Section|Creates an [[html/attributes|'''attribute''']] object with a specified [[html/attributes/name|'''name''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
@@ -25,8 +26,7 @@
 }}
 {{Notes_Section
 |Notes=This method will fail if the ''name'' parameter value contains invalid (non-Unicode Transformation Format (UTF)-16) characters.
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
 {{Related_Specifications_Section
@@ -39,6 +39,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
@@ -64,10 +65,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
