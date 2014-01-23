@@ -72,7 +72,7 @@ The DOM is being worked on by the [http://www.w3.org/2008/webapps/ Web Applicati
 
 == Index of all DOM topics ==
 
-{{Special:PrefixIndex/{{FULLPAGENAME}}/}}
+{{Special:PrefixIndex/dom/}}
 
 {{Standardization_Status|}}
 {{API_Name}}
