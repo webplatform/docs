@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status}}
@@ -20,7 +21,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=Use the [[apis/timing/properties/visibilitychange|'''visibilitychanged''']] event to track changes to the visibility state.
+|Notes=Use the [[dom/Document/visibilitychange|'''visibilitychange''']] property to track changes to the visibility state.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -38,9 +39,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-*<code>[[apis/timing/properties/hidden|hidden]]</code>
-*<code>[[apis/timing/properties/visibilitychange|visibilitychanged]]</code>
+*<code>[[dom/Document/hidden|hidden]]</code>
+*<code>[[dom/Document/visibilitychange|visibilitychange]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
