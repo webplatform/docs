@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Set the visibility state of an element }}
+{{Summary_Section|Set the visibility state of an element}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
@@ -37,10 +37,7 @@ This method has no parameters.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
