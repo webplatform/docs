@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -23,7 +24,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=Setting the value of the '''xmlStandalone''' property does not cause an XML document to validate.  Use the [[dom/methods/normalize|'''normalize''']] method instead.
+|Notes=Setting the value of the '''xmlStandalone''' property does not cause an XML document to validate.  Use the [[dom/Node/normalize|'''normalize''']] method instead.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -40,10 +41,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
