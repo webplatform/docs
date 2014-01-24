@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -25,8 +26,8 @@
 {{Notes_Section
 |Notes====Remarks===
 In HTML, the carriage return is ignored unless it occurs in preformatted text.
-Do not use the [[dom/methods/write|'''write''']] method or the '''writeln''' method on the current document after the document has finished loading unless you first call the [[dom/methods/open (document)|'''open''']] method, which clears the current document window and erases all variables.
-'''Note'''  When [[dom/Document|'''Document''']].[[dom/methods/write|'''write''']] or '''document'''.'''writeln''' is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
+Do not use the [[dom/Document/write|'''write''']] method or the '''writeln''' method on the current document after the document has finished loading unless you first call the [[dom/Document/open|'''open''']] method, which clears the current document window and erases all variables.
+'''Note'''  When [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] or '''document'''.'''writeln''' is used in an event handler, you must also use '''document'''.[[dom/Document/close|'''close''']].
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.5
@@ -43,10 +44,9 @@ Do not use the [[dom/methods/write|'''write''']] method or the '''writeln''' met
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
 *<code>Reference</code>
-*<code>[[dom/methods/write|write]]</code>
-*<code>[[dom/methods/open (document)|open]]</code>
+*<code>[[dom/Document/write|write]]</code>
+*<code>[[dom/Document/open|open]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
