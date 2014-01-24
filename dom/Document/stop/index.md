@@ -36,7 +36,7 @@ function fnTrapStop(){
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''onstop''' event fires after the [[dom/Event/beforeunload|'''beforeunload''']] event, and before the [[dom/Event/unload|'''unload''']] event.
+The '''onstop''' event fires after the [[dom/Event/beforeunload|'''beforeunload''']] event, and before the [[dom/Element/unload|'''unload''']] event.
 Initiates any action associated with this event.
 To invoke this event, do one of the following:
 *Click the Stop button.
