@@ -43,7 +43,6 @@
 |Code=nav.expanded > div.selected {
     animation: pulse 1s infinite;
 }
-
 |LiveURL=http://code.webplatform.org/gist/7044978
 }}{{Single Example}}
 }}
@@ -92,7 +91,6 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
