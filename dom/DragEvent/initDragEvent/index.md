@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -10,82 +11,82 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=String
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=DOM Node
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=detail
 |Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property  of the event.
+|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property  of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=screenX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenX|'''screenX''']] property of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/MouseEvent/screenX|'''screenX''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=screenY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/properties/screenY|'''screenY''']] property of the event.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/MouseEvent/screenY|'''screenY''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=clientX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientX|'''clientX''']] property of the event.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/MouseEvent/clientX|'''clientX''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=clientY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/properties/clientY|'''clientY''']] property of the event.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/MouseEvent/clientY|'''clientY''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=ctrlKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/ctrlKey|'''ctrlKey''']] property of the event.
+|Description=The value that is returned in the [[dom/KeyboardEvent/ctrlKey|'''ctrlKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=altKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/altKey|'''altKey''']] property of the event.
+|Description=The value that is returned in the [[dom/KeyboardEvent/altKey|'''altKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=shiftKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/shiftKey|'''shiftKey''']] property of the event.
+|Description=The value that is returned in the [[dom/KeyboardEvent/shiftKey|'''shiftKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=metaKey
 |Data type=Boolean
-|Description=The value that is returned in the [[dom/properties/metaKey|'''metaKey''']] property of the event.
+|Description=The value that is returned in the [[dom/KeyboardEvent/metaKey|'''metaKey''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=button
 |Data type=Number
-|Description=The mouse button that caused the event. This value is returned in the [[dom/properties/button|'''button''']] property of the event.
+|Description=The mouse button that caused the event. This value is returned in the [[dom/MouseEvent/button|'''button''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=relatedTarget
 |Data type=DOM Node
-|Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
+|Description=A secondary element that is involved in the event. This value is returned in the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=dataTransfer
 |Data type=String
-|Description=A [[dom/objects/dataTransfer|dataTransfer]] object.
+|Description=A [[dom/DataTransfer|DataTransfer]] object.
 |Optional=No
 }}
 |Method_applies_to=dom/DragEvent
@@ -112,11 +113,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/methods/createEvent|createEvent]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
