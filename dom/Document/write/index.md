@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,9 +23,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Do not use the '''write''' method or the [[dom/methods/writeln|'''writeln''']] method on the current document after the document has finished loading unless you first call the [[dom/methods/open (document)|'''open''']] method, which clears the current document window and erases all variables.
-
-|Notes=When [[dom/Document|'''Document''']].'''write''' or '''document'''.[[dom/methods/writeln|'''writeln''']] is used in an event handler, you must also use '''document'''.[[dom/methods/close (document)|'''close''']].
+|Usage=Do not use the '''write''' method or the [[dom/Document/writeln|'''writeln''']] method on the current document after the document has finished loading unless you first call the [[dom/Document/open|'''open''']] method, which clears the current document window and erases all variables.
+|Notes=When [[dom/Document|'''Document''']].'''write''' or '''document'''.[[dom/Document/writeln|'''writeln''']] is used in an event handler, you must also use '''document'''.[[dom/Document/close|'''close''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -42,9 +42,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages===
-*<code>[[dom/Document|Document]]</code>
-*<code>[[dom/methods/writeln|writeln]]</code>
-*<code>[[dom/methods/open (document)|open]]</code>
+*<code>[[dom/Document/writeln|writeln]]</code>
+*<code>[[dom/Document/open|open]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
