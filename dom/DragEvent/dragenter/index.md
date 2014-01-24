@@ -58,7 +58,7 @@ function ShowResults()
 |Notes====Remarks===
 You can handle the '''ondragenter''' event on the source or on the target object. Of the target events, it is the first to fire during a drag operation. Target events use the [[dom/DataTransfer/getData|'''getData''']] method to stipulate which data and data formats to retrieve. The list of drag-and-drop target events includes:
 *[[dom/Event/beforepaste|'''beforepaste''']]
-*[[dom/Event/paste|'''paste''']]
+*[[dom/Element/paste|'''paste''']]
 *[[dom/DragEvent/dragover|'''dragover''']]
 *[[dom/DragEvent/dragleave|'''dragleave''']]
 *[[dom/DragEvent/drop|'''ondrop''']]
