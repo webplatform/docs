@@ -1,27 +1,26 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
+|Event_applies_to=dom/DragEvent
 |Interface=dom/DragEvent
 |Target=dom/Element
 |Default_action=
-|Content=
-|Event_applies_to=dom/DragEvent
 |Synchronous=No
 |Bubbles=No
 |Cancelable=No
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example shows when and where each event fires during a drag-and-drop operation by listing each event and the name of the object firing it in a list box.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm
-|Code=
-&lt;HEAD&gt;
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 // Code for dynamically adding options to a select.
 function ShowResults()
@@ -52,116 +51,41 @@ function ShowResults()
   &lt;OPTION&gt;List of Events Fired
 &lt;/SELECT&gt;
 &lt;/BODY&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/DragDropEventsEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''ondrop''' event fires before the [[dom/events/dragleave|'''ondragleave''']] and [[dom/events/dragend|'''ondragend''']] events.
-When scripting custom functionality, use the [[dom/properties/returnValue|'''returnValue''']] property to disable the default action.
-You must cancel the default action for [[dom/events/dragenter|'''ondragenter''']] and [[dom/events/dragover|'''ondragover''']] in order for '''ondrop''' to fire. In the case of a '''div''', the default action is not to drop. This can be contrasted with the case of an '''input type{{=}}text''' element, where the default action is to drop.  In order to allow a drag-and-drop action on a '''div''', you must cancel the default action by specifying '''window.event.returnValue{{=}}false''' in both the '''ondragenter''' and '''ondragover''' event handlers. Only then will '''ondrop''' fire.
-As of Microsoft Internet Explorer 5, drag-and-drop events can be used to carry out drag-and-drop activities, not only with '''input type{{=}}text''' elements, but also with block and inline tags. For example, text can be selected, dragged, then dropped on a '''div''' target.  This causes several target events to fire, including [[dom/events/dragenter|'''ondragenter''']], [[dom/events/dragover|'''ondragover''']], and '''ondrop'''.  Because drag-and-drop actions are not directly supported on block and inline tags, you must use extra scripting to carry out the move or copy to the target using [[dom/properties/innerText|'''innerText''']], for example.
+|Notes====Remarks===
+The '''ondrop''' event fires before the [[dom/DragEvent/dragleave|'''dragleave''']] and [[dom/DragEvent/dragend|'''dragend''']] events.
+When scripting custom functionality, use the [[dom/BeforeUnloadEvent/returnValue|'''returnValue''']] property to disable the default action.
+You must cancel the default action for [[dom/DragEvent/dragenter|'''dragenter''']] and [[dom/DragEvent/dragover|'''dragover''']] in order for '''ondrop''' to fire. In the case of a '''div''', the default action is not to drop. This can be contrasted with the case of an '''input type{{=}}text''' element, where the default action is to drop.  In order to allow a drag-and-drop action on a '''div''', you must cancel the default action by specifying '''window.event.returnValue{{=}}false''' in both the '''ondragenter''' and '''ondragover''' event handlers. Only then will '''ondrop''' fire.
+As of Microsoft Internet Explorer 5, drag-and-drop events can be used to carry out drag-and-drop activities, not only with '''input type{{=}}text''' elements, but also with block and inline tags. For example, text can be selected, dragged, then dropped on a '''div''' target.  This causes several target events to fire, including [[dom/DragEvent/dragenter|'''dragenter''']], [[dom/DragEvent/dragover|'''dragover''']], and '''drop'''.  Because drag-and-drop actions are not directly supported on block and inline tags, you must use extra scripting to carry out the move or copy to the target using [[dom/HTMLElement/innerText|'''innerText''']], for example.
 Calls the associated event handler.
 To invoke this event, do one of the following:
 *Drag the selection over a valid drop target and release the mouse.
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>area</code>
-*<code>audio</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>[[canvas/objects/canvas|canvas]]</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>[[html/elements/media|media]]</code>
-*<code>menu</code>
-*<code>noBR</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>source</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>video</code>
-*<code>window</code>
-*<code>xmp</code>
-*<code>About DHTML Data Transfer</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
