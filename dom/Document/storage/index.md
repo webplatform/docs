@@ -22,7 +22,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The [[dom/Window/url|'''url''']] property specifies the URL of the Web page that made the update.
+The [[dom/Window/URL|'''URL''']] property specifies the URL of the Web page that made the update.
 For Windows Internet Explorer 9 standards mode, '''onstorage''' will only fire on window objects. Handlers attached to document.body or document objects will not receive the event. (Note this does not apply to the [[dom/Document/storagecommit|'''storagecommit''']] event.)
 The '''onstorage''' event will only fire on window objects. Handlers attached to document.body or document objects will not receive the event. (Note this does not apply to the [[dom/Document/storagecommit|'''storagecommit''']] event.)
 The '''onstorage''' event is specified in the W3C [http://go.microsoft.com/fwlink/?LinkId{{=}}217507 Web Storage] specification.
