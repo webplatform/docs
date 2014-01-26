@@ -89,8 +89,7 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
+|Manual_links=*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
 *<code>[[dom/KeyboardEvent/keyup|onkeyup]]</code>
 }}
 {{Topics|DOM, DOMEvents}}
