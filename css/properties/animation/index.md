@@ -43,9 +43,8 @@
 |Code=nav.expanded > div.selected {
     animation: pulse 1s infinite;
 }
-
 |LiveURL=http://code.webplatform.org/gist/7044978
-}}{{Single Example}}
+}}
 }}
 {{Notes_Section
 |Usage=The <code>animation</code> shorthand property combines all animation properties except '''[[css/properties/animation-play-state|animation-play-state]]''' in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
@@ -92,7 +91,6 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
