@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deprecated event for detecting when a key was pressed on the keyboard.}}
 {{Event
 |Event_applies_to=dom/KeyboardEvent
 |Synchronous=Yes
