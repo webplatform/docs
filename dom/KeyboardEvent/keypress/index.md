@@ -60,7 +60,14 @@
 |LiveURL=http://code.webplatform.org/gist/8631904
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage====Related event order===
+# keydown
+# beforeInput
+# keypress
+# input
+# keyup
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
