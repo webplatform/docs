@@ -1,14 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections
+|Content=Incomplete, Compatibility Incomplete
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/KeyboardEvent
+|Content=This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
 |Interface=dom/KeyboardEvent
 |Target=dom/Element
 |Default_action=
@@ -59,10 +60,7 @@
 |LiveURL=http://code.webplatform.org/gist/8631904
 }}
 }}
-{{Notes_Section
-|Import_Notes====Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -76,7 +74,6 @@
 {{See_Also_Section
 |Manual_links=*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
 *<code>[[dom/KeyboardEvent/keyup|onkeyup]]</code>
-
 |External_links=*[http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress DOM Level 3 Events]
 }}
 {{Topics|DOM, DOMEvents}}
