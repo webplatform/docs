@@ -15,6 +15,30 @@
 |Cancelable=Yes
 |Default_action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 |Content=This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
+
+=== Context information ===
+;<code>Event.target</code>
+: focused element which triggered the key event. This will be the root element if no suitable input element is focused.
+;<code>KeyboardEvent.charCode</code>
+: legacy character code value for the event
+;<code>KeyboardEvent.keyCode</code>
+: legacy numerical code for the key pressed
+;<code>KeyboardEvent.which</code>
+: legacy numerical code for the key pressed
+;<code>KeyboardEvent.key</code>
+: The key value of the key pressed
+; <code>KeybaordEvent.location</code>
+: The location of the key on the device
+; <code>KeyboardEvent.altKey</code>
+: true if 'Alt' modifier was active, otherwise false
+; <code>KeyboardEvent.shiftKey</code>
+: true if 'Shift' modifier was active, otherwise false
+; <code>KeyboardEvent.ctrlKey</code>
+: true if 'Control' modifier was active, otherwise false
+; <code>KeyboardEvent.metaKey</code>
+: true if 'Meta' modifier was active, otherwise false
+; <code>KeyboardEvent.repeat</code>
+: true if a key has been depressed long enough to trigger key repetition, otherwise false.
 |Default Action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 |Interface=dom/KeyboardEvent
 }}
