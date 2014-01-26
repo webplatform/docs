@@ -60,22 +60,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-As of Microsoft Internet Explorer 4.0, the '''onkeypress''' event fires and can be canceled for the following keys:
-*Letters: A - Z (uppercase and lowercase)
-*Numerals: 0 - 9
-*Symbols: ! @ # $ % ^ &amp; * ( ) _ - + {{=}} &lt; [ ] { } , . / ? \ {{!}} ' ` " ~
-*System: ESC, SPACEBAR, ENTER
-
-Returns a number specifying the Unicode value of the key that was pressed.
-To invoke this event, do one of the following:
-*Press any alphanumeric keyboard key.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress DOM Level 3 Events]
-
-
-===Event handler parameters===
+|Import_Notes====Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
 }}
 {{Related_Specifications_Section
@@ -91,12 +76,13 @@ To invoke this event, do one of the following:
 {{See_Also_Section
 |Manual_links=*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
 *<code>[[dom/KeyboardEvent/keyup|onkeyup]]</code>
+
+|External_links=*[http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress DOM Level 3 Events]
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
