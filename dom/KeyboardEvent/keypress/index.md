@@ -13,10 +13,10 @@
 |Bubbles=Yes
 |Target=dom/Element, dom/Document
 |Cancelable=Yes
-|Default Action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
+|Default_action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 |Content=This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
+|Default Action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 |Interface=dom/KeyboardEvent
-|Default_action=
 }}
 {{Examples_Section
 |Not_required=No
