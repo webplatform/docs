@@ -90,9 +90,8 @@ To invoke this event, do one of the following:
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/events/change|onchange]]</code>
-*<code>[[dom/events/keydown|onkeydown]]</code>
-*<code>[[dom/events/keyup|onkeyup]]</code>
+*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
+*<code>[[dom/KeyboardEvent/keyup|onkeyup]]</code>
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
