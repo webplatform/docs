@@ -9,13 +9,14 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/KeyboardEvent
+|Synchronous=Yes
+|Bubbles=Yes
+|Target=dom/Element, dom/Document
+|Cancelable=Yes
+|Default Action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 |Content=This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
 |Interface=dom/KeyboardEvent
-|Target=dom/Element
 |Default_action=
-|Synchronous=No
-|Bubbles=No
-|Cancelable=No
 }}
 {{Examples_Section
 |Not_required=No
