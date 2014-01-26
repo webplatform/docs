@@ -101,7 +101,10 @@
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Note=Firefox is the only browser which currently triggers the keypress event on the use of [http://www.w3.org/TR/DOM-Level-3-Events/#keys-editing editing keys].
+}}
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
