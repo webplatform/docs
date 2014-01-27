@@ -1,5 +1,6 @@
 {{Page_Title|Web development for beginners}}
 {{Flags
+|Content=Grammar/Spelling
 |Checked_Out=No
 }}
 {{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
@@ -69,7 +70,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
 {{Notes_Section
-|Notes=Did't we say we do not add Sublime Text because it is not free?
+|Notes=Didn't we say we do not add Sublime Text because it is not free?
 
 Is Bluefish still actively being developed?
 }}
