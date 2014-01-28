@@ -68,7 +68,7 @@ if (element) {
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=7 and earlier
-|Note=May return a number or a boolean value, if the attribute were set with [[dom/methods/setAttribute|'''setAttribute''']] and a number or boolean value, respectively (<code>element.setAttribute("wow", false)</code>).
+|Note=May return a number or a boolean value, if the attribute were set with [[dom/Element/setAttribute|'''setAttribute''']] and a number or boolean value, respectively (<code>element.setAttribute("wow", false)</code>).
 }}
 }}
 {{See_Also_Section
