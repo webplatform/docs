@@ -31,9 +31,9 @@
 }}
 {{Notes_Section
 |Usage=Use this method to determine whether a content attribute in a specified namespace exists on an element.
-|Notes=*This method does not get the value of the attribute, see [[dom/methods/getAttributeNS|getAttributeNS]] for this purpose.
-*Where namespaces are irrelevant, [[dom/methods/hasAttribute|hasAttribute]] can be used instead.
-*See [[dom/methods/hasAttributes|hasAttributes]], which determines whether the element has any attributes at all.
+|Notes=*This method does not get the value of the attribute, see [[dom/Element/getAttributeNS|getAttributeNS]] for this purpose.
+*Where namespaces are irrelevant, [[dom/Element/hasAttribute|hasAttribute]] can be used instead.
+*See [[dom/Node/hasAttributes|hasAttributes]], which determines whether the element has any attributes at all.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
