@@ -35,7 +35,7 @@ function durationChange()
 {{Notes_Section
 |Notes====Remarks===
 Use the [[dom/HTMLMediaElement/duration|'''duration''']] property to determine the new duration of the clip.
-This event occurs immediately after [[dom/Element/loadstart|'''loadstart''']] and before [[dom/Event/loadedmetadata|'''loadedmetadata''']].
+This event occurs immediately after [[dom/Element/loadstart|'''loadstart''']] and before [[dom/Element/loadedmetadata|'''loadedmetadata''']].
 To invoke this event, do one of the following:
 *Load a media resource.
 |Import_Notes====Syntax===
