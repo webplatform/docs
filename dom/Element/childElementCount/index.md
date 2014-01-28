@@ -14,7 +14,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example shows how to use '''childElementCount''' to get the number of ''immediate children'' of a div tag. Descendent children of the the div tag "divWithChildren" are ignored.
+|Description=This example shows how to use '''childElementCount''' to get the number of ''immediate'' children of a div tag. Descendent children of the the div tag "divWithChildren" are ignored.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
