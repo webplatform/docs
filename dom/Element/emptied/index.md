@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -22,9 +21,9 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-When the [[apis/audio-video/methods/load|'''load''']] method is called, the media element stops any previously running media and resets the element. Playback restarts immediately if the [[apis/audio-video/properties/autoplay|'''autoplay''']] attribute is specified.
+When the [[dom/HTMLMediaElement/load|'''load''']] method is called, the media element stops any previously running media and resets the element. Playback restarts immediately if the [[dom/HTMLMediaElement/autoplay|'''autoplay''']] attribute is specified.
 To invoke this event, do the following:
-*Call the media element's [[apis/audio-video/methods/load|'''load''']] method.
+*Call the media element's [[dom/HTMLMediaElement/load|'''load''']] method.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.12
@@ -53,8 +52,7 @@ To invoke this event, do the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[dom/events/abort|onabort]]</code>
-*<code>[[apis/audio-video/methods/load|load]]</code>
+*<code>[[dom/HTMLMediaElement/load|load]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
