@@ -91,7 +91,7 @@
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=7 and earlier
-|Note=There is an optional '''flag''' parameter that accepts one of the following values - <code>0</code> (default) - case insensitive attribute name search. 1 - case sensitive attribute name search. 2 - return the value as a string (as opposed to Boolean), however, note that what used to return as <code>true</code>, would not return as the name of the attribute, but a decimal representation of <code>true</code> in COM, which is <code>65535</code>. 4 - return the value as a fully expanded URL, which only works for URL attributes such as [[html/attributes/action|'''action''']],  [[html/attributes/background (Body element)|'''background''']],  [[html/attributes/BaseHref|'''BaseHref''']],  [[html/attributes/cite|'''cite''']],  [[html/attributes/codeBase|'''codeBase''']],  [[html/attributes/data|'''data''']],  '''dynsrc''',  [[html/attributes/href|'''href''']],  [[html/attributes/longDesc|'''longDesc''']],  [[html/attributes/lowsrc|'''lowsrc''']],  [[html/attributes/pluginspage|'''pluginspage''']],  '''profile''',  [[html/attributes/src (input, img)|'''src''']],  [[dom/properties/vrml|'''vrml''']].
+|Note=There is an optional '''flag''' parameter that accepts one of the following values - <code>0</code> (default) - case insensitive attribute name search. 1 - case sensitive attribute name search. 2 - return the value as a string (as opposed to Boolean), however, note that what used to return as <code>true</code>, would not return as the name of the attribute, but a decimal representation of <code>true</code> in COM, which is <code>65535</code>. 4 - return the value as a fully expanded URL, which only works for URL attributes such as [[html/attributes/action|'''action''']],  [[html/attributes/background (Body element)|'''background''']],  [[html/attributes/BaseHref|'''BaseHref''']],  [[html/attributes/cite|'''cite''']],  [[html/attributes/codeBase|'''codeBase''']],  [[html/attributes/data|'''data''']],  '''dynsrc''',  [[html/attributes/href|'''href''']],  [[html/attributes/longDesc|'''longDesc''']],  [[html/attributes/lowsrc|'''lowsrc''']],  [[html/attributes/pluginspage|'''pluginspage''']],  '''profile''',  [[html/attributes/src (input, img)|'''src''']],  [[dom/HTMLElement/vrml|'''vrml''']].
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=7 and earlier
@@ -104,8 +104,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/removeAttribute|removeAttribute]]</code>
-*<code>[[dom/methods/setAttribute|setAttribute]]</code>
+*<code>[[dom/Element/removeAttribute|removeAttribute]]</code>
+*<code>[[dom/Element/setAttribute|setAttribute]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
