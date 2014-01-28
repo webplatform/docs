@@ -9,9 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
+|Synchronous=No
+|Bubbles=No
 |Target=dom/Element
-|Default_action=
+|Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,7 +21,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-In the following example, when a cuechange event is received on the track element, the [[apis/audio-video/properties/activeCues|'''activeCue''']] is displayed as an HTML nodes that replace the '''span''' element.
+In the following example, when a cuechange event is received on the track element, the [[apis/audio-video/TextTrack/activeCues|'''activeCue''']] is displayed as an HTML nodes that replace the '''span''' element.
 '''Note'''  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251121 HTML5 Video Caption Maker] on the Windows Internet Explorer test drive site.
 |Import_Notes====Syntax===
 ===Standards information===
