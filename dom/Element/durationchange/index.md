@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,8 +34,8 @@ function durationChange()
 }}
 {{Notes_Section
 |Notes====Remarks===
-Use the [[apis/audio-video/properties/duration|'''duration''']] property to determine the new duration of the clip.
-This event occurs immediately after [[apis/audio-video/events/loadstart|'''onloadstart''']] and before [[apis/audio-video/events/loadedmetadata|'''onloadedmetadata''']].
+Use the [[dom/HTMLMediaElement/duration|'''duration''']] property to determine the new duration of the clip.
+This event occurs immediately after [[dom/Element/loadstart|'''loadstart''']] and before [[dom/Event/loadedmetadata|'''loadedmetadata''']].
 To invoke this event, do one of the following:
 *Load a media resource.
 |Import_Notes====Syntax===
@@ -67,8 +66,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/events/loadedmetadata|onloadedmetadata]]</code>
-*<code>[[apis/audio-video/events/timeupdate|ontimeupdate]]</code>
+*<code>[[dom/Element/loadedmetadata|loadedmetadata]]</code>
+*<code>[[dom/Element/timeupdate|timeupdate]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
