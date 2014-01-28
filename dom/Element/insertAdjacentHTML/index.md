@@ -81,8 +81,8 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Element/innerHTML|innerHTML]]</code>
-*<code>[[dom/Element/outerHTML|outerHTML]]</code>
+*<code>[[dom/HTMLElement/innerHTML|innerHTML]]</code>
+*<code>[[dom/HTMLElement/outerHTML|outerHTML]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
