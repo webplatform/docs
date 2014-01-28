@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Releases a pointer captured by an element (using the [[dom/methods/setPointerCapture|setPointerCapture]] method).}}
+{{Summary_Section|Releases a pointer captured by an element (using the [[dom/Element/setPointerCapture|setPointerCapture]] method).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=pointerId
