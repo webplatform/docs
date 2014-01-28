@@ -34,8 +34,8 @@ if (element) {
 }}
 {{Notes_Section
 |Usage=Use this method to determine whether a content attribute exists on an element.
-|Notes=*This method does not get the value of the attribute, see [[dom/methods/getAttribute|'''getAttribute''']] for this purpose.
-*See [[dom/methods/hasAttributes|'''hasAttributes''']], which determines whether the element has any attributes at all.
+|Notes=*This method does not get the value of the attribute, see [[dom/Element/getAttribute|'''getAttribute''']] for this purpose.
+*See [[dom/Node/hasAttributes|'''hasAttributes''']], which determines whether the element has any attributes at all.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
