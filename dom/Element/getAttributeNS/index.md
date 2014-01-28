@@ -73,7 +73,7 @@ if (element) {
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/getAttribute|getAttribute]]</code>
+*<code>[[dom/Element/getAttribute|getAttribute]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
