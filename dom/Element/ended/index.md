@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,7 +24,7 @@
 This is the last event raised by media playback.
 To invoke this event, do one of the following:
 *Play the media to its full duration.
-*Set [[apis/audio-video/properties/currentTime|'''currentTime''']] past the end of the media.
+*Set [[dom/HTMLMediaElement/currentTime|'''currentTime''']] past the end of the media.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.12
