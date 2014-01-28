@@ -20,14 +20,14 @@ Returns a [[dom/HTMLElement/controlRange|'''controlRange''']] collection if suce
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example creates a [[dom/Document/controlRange|'''controlRange''']] by using the '''createControlRange''' method.
+|Description=This example creates a [[dom/HTMLElement/controlRange|'''controlRange''']] by using the '''createControlRange''' method.
 |Code=oControlRange {{=}} document.body.createControlRange();
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
 Creates a selection range object for control-based selection rather than text-based selection.
-If a [[dom/Document/controlRange|'''controlRange''']] already exists, '''createControlRange''' overwrites the existing element; otherwise, it returns a pointer to the element created.
+If a [[dom/HTMLElement/controlRange|'''controlRange''']] already exists, '''createControlRange''' overwrites the existing element; otherwise, it returns a pointer to the element created.
 If there are currently controls selected in the text container, the control range is initialized with them; otherwise, it is created empty and controls need to be explicitly added to it. This is opposite of the text range, which defaults to the whole text container if there is no selection.
 |Import_Notes====Syntax===
 ===Standards information===
