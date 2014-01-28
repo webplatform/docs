@@ -2,9 +2,10 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name|children}}
+{{API_Name}}
 {{Summary_Section|Retrieves a live collection of child elements of an element.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
@@ -130,7 +131,7 @@ window.addEventListener("load", initialize, false);
 {{Notes_Section
 |Usage=Use this property to get a live collection of the child elements of an element.
 |Notes=*Since this is a live collection, its '''length''', as well as its content, will always change whenever child elements are added, removed, or reordered.
-*Similar to the objects contained in the [[dom/properties/all|'''all''']] collection, the objects contained in the '''children''' collection are undefined if the child elements are overlapping tags.
+*The objects contained in the '''children''' collection are undefined if the child elements are overlapping tags.
 *The '''children''' collection can contain HTML elements.
 }}
 {{Related_Specifications_Section
