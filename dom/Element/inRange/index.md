@@ -1,11 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=Range|Data type=IHTMLTxtRange|Description=[[dom/traversal/TextRange|'''TextRange''']] object that might be contained.|Optional=}}
+|Parameters={{Method Parameter
+|Name=Range
+|Data type=any
+|Description=[[dom/TextRange|'''TextRange''']] object that might be contained.
+|Optional=No
+}}
 |Method_applies_to=dom/Element
 |Example_object_name=object
 |Return_value_name=object
@@ -14,29 +22,24 @@
 
 '''Boolean''' that returns one of the following possible values.
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return value
 !Description
-|-
-|true
-|Range is contained within or is equal to the TextRange object on which the method is called.
-|-
-|false
-|Range is not contained within the TextRange object on which the method is called.
-|}
+{{!}}-
+{{!}}true
+{{!}}Range is contained within or is equal to the TextRange object on which the method is called.
+{{!}}-
+{{!}}false
+{{!}}Range is not contained within the TextRange object on which the method is called.
+{{!}}}
  
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following example shows how to use the '''inRange''' method to show that two [[dom/traversal/TextRange|'''TextRange''']] objects are equal.
-|LiveURL=
-|Code=
-&lt;html&gt;
+|Examples={{Single Example
+|Description=The following example shows how to use the '''inRange''' method to show that two [[dom/TextRange|'''TextRange''']] objects are equal.
+|Code=&lt;html&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 window.onload{{=}}fnCheck;
 function fnCheck(){
@@ -55,12 +58,9 @@ function fnCheck(){
     &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}
-{{Single_Example
+}}{{Single Example
 |Description=The following example shows how to use the '''inRange''' method to show that two contained ranges are not equal.
-|LiveURL=
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 window.onload{{=}}fnCheck;
 function fnCheck(){
@@ -82,13 +82,9 @@ function fnCheck(){
     &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-
-}}
-{{Single_Example
+}}{{Single Example
 |Description=The following example shows how to use the '''inRange''' method to show that a text range exists within another text range.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/inrange.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 window.onload{{=}}fnCheck;
 function fnCheck(){
@@ -107,27 +103,36 @@ function fnCheck(){
     &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/inrange.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 This feature might not be available on platforms other than Microsoft Win32.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/traversal/TextRange|TextRange]]</code>
-*<code>[[dom/traversal/methods/isEqual|isEqual]]</code>
+|Manual_sections====Related pages (MSDN)===
+*<code>[[dom/TextRange|TextRange]]</code>
+*<code>[[dom/Element/isEqual|isEqual]]</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
