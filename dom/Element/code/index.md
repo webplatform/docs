@@ -38,7 +38,7 @@ The <code>code</code> property returns one of the following file error codes.
 {{!}}-
 {{!}}AbortError
 {{!}}20
-{{!}}The read operation was aborted, typically with a call to [[apis/file/methods/abort|'''abort''']].
+{{!}}The read operation was aborted, typically with a call to [[apis/file/FileReader/abort|'''abort''']].
 {{!}}-
 {{!}}NotReadableError
 {{!}}0
