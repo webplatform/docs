@@ -61,7 +61,7 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 *This method will fail if "afterend" or "beforebegin" is used when the context is the root element of the document.
 *If the text contains HTML tags, the method parses and formats the text as it is inserted.
 {{TODO|The notes below need to be verified.}}
-*You cannot insert text while the document is loading. Wait for the [[dom/events/load|'''onload''']] event to fire before attempting to call this method.
+*You cannot insert text while the document is loading. Wait for the [[dom/Element/load|'''onload''']] event to fire before attempting to call this method.
 *When using the '''insertAdjacentHTML''' method to insert script, you must include the [[html/attributes/defer|'''DEFER''']] attribute in the [[html/elements/script|'''script''']] element.
 }}
 {{Related_Specifications_Section
@@ -81,9 +81,8 @@ ScriptDiv.insertAdjacentHTML("afterBegin",sHTML + sScript);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/innerdom/innerHTML|innerHTML]]</code>
-*<code>[[dom/methods/insertAdjacentText|insertAdjacentText]]</code>
-*<code>[[dom/properties/outerdom/outerHTML|outerHTML]]</code>
+*<code>[[dom/Element/innerHTML|innerHTML]]</code>
+*<code>[[dom/Element/outerHTML|outerHTML]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
