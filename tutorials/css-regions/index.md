@@ -7,13 +7,16 @@
 }}
 {{Summary_Section|The CSS Regions feature provides a way to implement complex
 magazine-style designs in which content flows through freely
-positioned layout elements. It allows you to dynamically flow
-content from one layout element to another, but does not specify how
-those elements are positioned. For that, use whatever CSS technique is
-most appropriate: floats, flexible boxes, grid layout, or absolute
-positioning. This guide shows you how to flow text, but does
-not discuss these various layout techniques. See
-[http://letmespellitoutforyou.com/samples/region_mq_sample.html this page] for the results, using one of the supporting browsers listed at the end of the article.
+positioned layout elements. It allows you to dynamically flow content
+from one layout element to another, but does not specify how those
+elements are presented. For that, use whatever CSS technique is most
+appropriate: flexible boxes, multi-column layout, grid layout, floats,
+or absolute positioning. This guide shows you how to flow text, but
+does not discuss these various layout techniques. See
+[http://letmespellitoutforyou.com/samples/region_mq_sample.html this
+page]
+for the results, using one of the supporting browsers listed at the
+end of the article.
 }}
 {{Tutorial
 |Content===Arranging a layout==
@@ -37,8 +40,9 @@ indicating how the content is supposed to flow:
  </section>
 </syntaxhighlight>
 
-Here is the CSS for the layout, which for the sake of this example
-uses a lot of absolute positioning and fixed heights:
+Here is the CSS for the layout, which for the sake of illustration
+uses a lot of absolute positioning and fixed heights, a fairly
+inflexible technique that's generally not recommended:
 
  section.page           { width: 8.5in; height: 11in; position: absolute; }
  section.page > div     { border: #777 medium solid }
