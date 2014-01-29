@@ -1,20 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate
+| Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.
 }}
-{{Standardization_Status}}
+}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Document
-|Interface=dom/Document
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Document
 }}
 {{Examples_Section
 |Not_required=No
