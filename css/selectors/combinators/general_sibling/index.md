@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
-{{CSS_Selector}}
+{{Summary_Section|A general sibling combinator selects instances of an element appearing anywhere after another element within the same parent.}}
+{{CSS_Selector
+|Content=A general sibling combinator selects instances of an element appearing anywhere after another sibling element and is created by placing a tilde (~) between two simple selectors. For example <code>p ~ span</code> will select every [[html/elements/p|paragraph]] following a [[html/elements/span|span]] as long as they are found within the same parent element. Unlike the [[CSS/Selectors/combinators/adjacent|adjacent sibling combinator]], the selected element can appear anywhere after the first element as long as they share the same parent element.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
