@@ -77,7 +77,7 @@ the content, and the main set of numbered boxes provides the layout:
 The [[css/properties/flow-into|'''flow-into''']] and
 [[css/properties/flow-from|'''flow-from''']] properties must both
 specify the same [[css/concepts/named_flow|''named flow'']] for the feature to work, in this case
-'main'. Once that is in place, elements assigned with
+''main''. Once that is in place, elements assigned with
 [[css/properties/flow-from|'''flow-from''']] behave as [[css/concepts/region|''regions'']]
 that flow content. The series of regions through which content flows
 is called the [[css/concepts/region_chain|''region chain'']]:
@@ -92,8 +92,8 @@ below, these problems can be fixed.
 
 ==How flows work==
 
-Flowing content into regions encourages you to keep 'semantic'
-content elements separate from the 'presentational' elements in which
+Flowing content into regions encourages you to keep ''semantic''
+content elements separate from the ''presentational'' elements in which
 they appear. Even without a corresponding region chain in which to
 flow, applying [[css/properties/flow-into|'''flow-into''']] makes the
 content element disappear from view, just as if you had assigned
@@ -105,7 +105,7 @@ While defining regions dramatically changes how content appears in the
 document, it is implemented entirely as CSS, and does not affect the
 underlying content of DOM elements.  In the example above, the
 [[dom/properties/innerdom/innerHTML|'''innerHTML''']] of the first
-'''div''' is still the 'Region #1' placeholder text.
+'''div''' is still the ''Region #1'' placeholder text.
 
 Regions may be positioned arbitrarily around the screen, but content
 flows through regions strictly according to the order in which they
@@ -118,7 +118,7 @@ modify their flow order is to rearrange them in the DOM tree.
 You may also specify more than one source of content, in which case
 again their order within the document determines the order in which
 they flow. The example below flows content sources #1-3 into
-the same chain of regions. Rearranging the 'article' nodes within
+the same chain of regions. Rearranging the ''article'' nodes within
 the document shuffles their order within the output region:
 
 <syntaxhighlight lang="xml">
@@ -139,7 +139,7 @@ With content flowing through complex layouts, web developers need to
 confront design problems traditionally reserved for desktop publishing
 applications. While most of an article's text can be allowed to flow
 from one region to another, some elements such as headings should not
-be allowed to 'break' so freely:
+be allowed to ''break'' so freely:
 
 [[File:region_badbreak.png]]
 
@@ -173,7 +173,7 @@ onto a new page rather than a new region.
 Check your target browsers' support for CSS3's
 [[css/properties/widows|'''widows''']] and
 [[css/properties/orphans|'''orphans''']] properties. They offer finer
-control over how many 'lines' of text are allowed to break into
+control over how many ''lines'' of text are allowed to break into
 another region. By default, individual lines may break into separate
 regions.
 
@@ -181,10 +181,10 @@ regions.
 
 ==Diverting content from a flow==
 
-The various 'break' properties shown above do not address a common
+The various ''break'' properties shown above do not address a common
 layout problem. Sometimes content needs to be diverted from a flow and
 moved somewhere else so that other content can flow in to take its
-place. In this example, '''aside''' tags represent 'pull-quote'
+place. In this example, '''aside''' tags represent ''pull-quote''
 content that needs to be diverted from the main flow:
 
 <syntaxhighlight lang="xml">
@@ -231,14 +231,14 @@ which it is the only one in the chain:
 
 In this case, the region's '''height''' is specified as '''auto''',
 which makes it expand vertically to accommodate the content that flows
-into it. This can be useful when designing 'flexbox'-based layouts in
+into it. This can be useful when designing ''flexbox''-based layouts in
 which a more flexible column shrinks to accommodate neighboring
 content such as the pull-quote.
 
 In this example, the parent '''article''' element is assigned to the
-'main' flow, while its child '''aside''' elements are assigned to a
-different flow named 'pullquote'. You can use the same technique to
-assign descendant elements to the 'same' flow, effectively
+''main'' flow, while its child '''aside''' elements are assigned to a
+different flow named ''pullquote''. You can use the same technique to
+assign descendant elements to the ''same'' flow, effectively
 un-nesting them from within content.  In this example, endnotes are
 extracted from wherever they happen to appear within the main flow of
 content, and appear instead appended to the content, with no need to
@@ -274,7 +274,7 @@ fragments of content that flow into specified regions can receive
 custom CSS styles.
 
 In this example, only the portion of paragraph text that flows into
-the 'intro' region has its text color inverted:
+the ''intro'' region has its text color inverted:
 
  @region #intro {
      p {
@@ -286,7 +286,7 @@ the 'intro' region has its text color inverted:
 
 To achieve the combined effect shown above, the region itself can
 specify its own styles. This CSS applies a different design to the
-'intro' element regardless of whether its
+''intro'' element regardless of whether its
 [[css/properties/flow-from|'''flow-from''']] specifies that it behaves
 as a region:
 
@@ -298,7 +298,7 @@ While it is possible to style the region as a block element, CSS that
 is ordinarily inherited by child elements does not apply to content
 that flows into the region from elsewhere in the document. The
 content's styling is still determined by standard CSS cascading and
-inheritance. So the following CSS does 'not' work, and cannot be
+inheritance. So the following CSS does ''not'' work, and cannot be
 used as an alternative to the [[css/atrules/@region|'''@region''']]
 rule:
 
@@ -357,7 +357,7 @@ event.
 
 CSS [[tutorials/media_queries|media queries]] allow you to target
 different designs to browsers on differently sized devices. Such
-'responsive' web pages should target complex CSS region-based
+''responsive'' web pages should target complex CSS region-based
 layouts only on larger-screen tablet or desktop browser interfaces.
 Mobile devices should rely on a much simpler one-column layout.
 
@@ -435,6 +435,7 @@ allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
