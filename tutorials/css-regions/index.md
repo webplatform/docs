@@ -13,8 +13,7 @@ elements are presented. For that, use whatever CSS technique is most
 appropriate: flexible boxes, multi-column layout, grid layout, floats,
 or absolute positioning. This guide shows you how to flow text, but
 does not discuss these various layout techniques. See
-[http://letmespellitoutforyou.com/samples/region_mq_sample.html this
-page]
+[http://letmespellitoutforyou.com/samples/region_mq_sample.html this page]
 for the results, using one of the supporting browsers listed at the
 end of the article.
 }}
