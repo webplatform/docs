@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -53,8 +52,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/events/loadeddata|onloadeddata]]</code>
-*<code>[[apis/audio-video/events/loadedmetadata|onloadedmetadata]]</code>
+*<code>[[dom/Element/loadeddata|onloadeddata]]</code>
+*<code>[[dom/Element/loadedmetadata|onloadedmetadata]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
