@@ -1,45 +1,50 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=
+|Read_only=No
 }}
-
-{{Topics|}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-This event fires when the [[apis/file/MSStreamReader|'''msStreamReader''']] is created or when the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method starts to read a [[apis/file/Blob|'''Blob''']] or [[apis/file/MSStream|'''msStream''']] object.
+|Notes====Remarks===
+This event fires when a method starts to read a [[apis/file/Blob|'''Blob''']] object.
 This event is dispatched first and occurs only one time.
-Indicates that the creation or load of an [[apis/file/MSStreamReader|'''msStreamReader''']] object is started.
-To invoke this event, do one of the following:
-*Create an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-*Invoke the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method.
+Indicates that the creation or load of an object is started.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*[[apis/file/MSStreamReader|'''msStreamReader''']]
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-*<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
-*<code>[[dom/methods/click|click]]</code>
+
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
