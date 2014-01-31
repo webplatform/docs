@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Stub
+|High-level issues=Stub, Needs Flags
 |Content=Errors
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|requestPointerLock lets lock the target of mouse events to a single element while hiding the cursor.}}
+{{Summary_Section|requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Element
@@ -25,6 +26,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
