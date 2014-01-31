@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +22,7 @@
 {{Notes_Section
 |Notes====Remarks===
 The '''onloadeddata''' event is raised when data for the immediate current playback position is available. However, it does not guarantee that enough data is available to successfully begin playback.
-This event occurs after [[apis/audio-video/events/loadedmetadata|'''onloadedmetadata''']] and before [[apis/audio-video/events/canplay|'''oncanplay''']].
+This event occurs after [[dom/Element/loadedmetadata|'''loadedmetadata''']] and before [[dom/HTMLMediaElement/canplay|'''canplay''']].
 To invoke this event, do one of the following:
 *Load a media resource.
 |Import_Notes====Syntax===
@@ -54,8 +53,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/events/canplay|oncanplay]]</code>
-*<code>[[apis/audio-video/events/canplaythrough|oncanplaythrough]]</code>
+*<code>[[dom/HTMLMediaElement/canplay|oncanplay]]</code>
+*<code>[[dom/HTMLMediaElement/canplaythrough|oncanplaythrough]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
