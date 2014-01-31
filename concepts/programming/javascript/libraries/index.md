@@ -1,3 +1,5 @@
+{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/libraries}}
+
 {{Page_Title|JavaScript libraries}}
 {{Flags
 |High-level issues=Stub, Missing Relevant Sections
