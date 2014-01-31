@@ -26,13 +26,7 @@
 {{Notes_Section
 |Notes====Remarks===
 This event reports back the number of bytes loaded from the stream so far. You can use this information to update a progress bar in your application.
-Indicates that the creation of, or read by, an [[apis/file/MSStreamReader|'''msStreamReader''']] is complete.
-To invoke this event, do one of the following:
-*Create an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-*Invoke the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*[[apis/file/MSStreamReader|'''msStreamReader''']]
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -50,8 +44,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-*<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
-*<code>[[dom/methods/click|click]]</code>
+
 }}
 {{Topics}}
 {{External_Attribution
