@@ -70,8 +70,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/getAttribute|getAttribute]]</code>
-*<code>[[dom/methods/setAttribute|setAttribute]]</code>
+*<code>[[dom/Element/getAttribute|getAttribute]]</code>
+*<code>[[dom/Element/setAttribute|setAttribute]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
