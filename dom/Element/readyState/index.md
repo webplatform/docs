@@ -32,7 +32,7 @@ The [[apis/file/FileReader|'''FileReader''']] object can be in one of three stat
 {{!}}1
 {{!}}A [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] is being read. One of the read methods is being processed, and no error has occurred during the read.
 {{!}}-
-|DONE
+{{!}}DONE
 {{!}}2
 {{!}}The entire [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] has been read into memory, a file error occurred during read, or the read was aborted using [[apis/file/methods/abort|'''abort''']]. The [[apis/file/FileReader|'''FileReader''']] is no longer reading a '''File''' or '''Blob'''. If <code>readyState</code> is set to <code>DONE</code> it means at least one of the read methods have been called on this '''FileReader''' object.
 {{!}}}
@@ -52,7 +52,6 @@ The [[apis/file/FileReader|'''FileReader''']] object can be in one of three stat
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
