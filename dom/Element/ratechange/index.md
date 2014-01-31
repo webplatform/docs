@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,9 +26,9 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This event is raised when the value of [[apis/audio-video/properties/playbackRate|'''playbackRate''']] changes. The playback rate can be increased to a maximum of <code>2</code> (200 percent), or decreased to <code>0</code>.
+This event is raised when the value of [[dom/HTMLMediaElement/playbackRate|'''playbackRate''']] changes. The playback rate can be increased to a maximum of <code>2</code> (200 percent), or decreased to <code>0</code>.
 To invoke this event, do one of the following:
-*Increase or decrease the value of [[apis/audio-video/properties/playbackRate|'''playbackRate''']].
+*Increase or decrease the value of '''playbackRate'''.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.12
@@ -58,7 +57,7 @@ To invoke this event, do one of the following:
 *<code>video element</code>
 *<code>video object</code>
 *<code>window</code>
-*<code>[[apis/audio-video/properties/playbackRate|playbackRate]]</code>
+*<code>[[dom/HTMLMediaElement/playbackRate|playbackRate]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
