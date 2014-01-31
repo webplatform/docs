@@ -17,14 +17,9 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This event fires when an error occurs during the creation of an [[apis/file/MSStreamReader|'''msStreamReader''']] or a read by the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method. When an error occurs, the operation is stopped, the [[apis/file/events/onloadend|'''onloadend''']] event fires, and the error is passed by the [[apis/file/properties/error|'''error''']] property.
+When an error occurs, the current operation is stopped and the error is passed by the [[dom/Element/error|'''error''']] property.
 Displays the error message when a problem occurs and executes any error handling routine associated with the event.
-To invoke this event, do one of the following:
-*Create an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-*Invoke the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*[[apis/file/MSStreamReader|'''msStreamReader''']]
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -39,12 +34,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/file/FileReader|FileReader]]</code>
-*<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
-*<code>[[dom/methods/click|click]]</code>
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
