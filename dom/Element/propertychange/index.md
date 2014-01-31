@@ -1,27 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
-|Content=
 |Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example demonstrates how to use the '''onpropertychange''' event to determine the name and value of an updated property.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onpropertychangeEX.htm
-|Code=
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 function changeProp()
@@ -66,13 +64,14 @@ function Results(){
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onpropertychangeEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-The '''onpropertychange''' event fires when properties of an object, [[dom/properties/expando|'''expando''']], or style sub-object change. To retrieve the name of the changed property, use the '''event''' object's [[dom/properties/propertyName2|'''propertyName''']] property. This property returns a read-only string of the name of the property that has changed. In the case of Cascading Style Sheets (CSS) properties, the property name is prefixed with <code>style</code>. For example, if the CSS property [[css/cssom/properties/pixelLeft|'''pixelLeft''']] is altered, the value of <code>window.event.propertyName</code> is '''style.left'''. By contrast, if the non-CSS property [[html/attributes/name (frames)|'''name''']] is altered, the value of <code>window.event.propertyName</code> is '''name'''.
+|Notes====Remarks===
+The '''onpropertychange''' event fires when properties of an object, expando, or style sub-object change. To retrieve the name of the changed property, use the '''TransitionEvent''' object's [[dom/TransitionEvent/propertyName|'''propertyName''']] property. This property returns a read-only string of the name of the property that has changed. In the case of Cascading Style Sheets (CSS) properties, the property name is prefixed with <code>style</code>. For example, if the CSS property [[css/cssom/properties/pixelLeft|'''pixelLeft''']] is altered, the value of <code>window.event.propertyName</code> is '''style.left'''. By contrast, if the non-CSS property [[html/attributes/name (frames)|'''name''']] is altered, the value of <code>window.event.propertyName</code> is '''name'''.
 When the '''onpropertychange''' event fires, the '''srcElement''' property of the '''event''' object is set to the object whose property has changed.
-'''Note'''  Changing the [[dom/properties/innerText|'''innerText''']] or [[dom/properties/innerdom/innerHTML|'''innerHTML''']] of child elements will not cause the '''onpropertychange''' event to fire for the parent element.
+'''Note'''  Changing the [[dom/HTMLElement/innerText|'''innerText''']] or [[dom/HTMLElement/innerHTML|'''innerHTML''']] of child elements will not cause the '''onpropertychange''' event to fire for the parent element.
 Sends notification when a property changes.
 To invoke this event, do one of the following:
 *Cause a property to change value.
@@ -102,107 +101,29 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>comment</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>noBR</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>option</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>script</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-*<code>Reference</code>
-*<code>[[dom/properties/propertyName2|propertyName]]</code>
-*<code>srcElement</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
