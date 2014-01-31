@@ -1,3 +1,4 @@
+{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/functions}}
 {{Page_Title|JavaScript Functions}}
 {{Flags
 |Content=Incomplete
