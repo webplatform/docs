@@ -34,7 +34,7 @@ The [[apis/file/FileReader|'''FileReader''']] object can be in one of three stat
 {{!}}-
 {{!}}DONE
 {{!}}2
-{{!}}The entire [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] has been read into memory, a file error occurred during read, or the read was aborted using [[apis/file/methods/abort|'''abort''']]. The [[apis/file/FileReader|'''FileReader''']] is no longer reading a '''File''' or '''Blob'''. If <code>readyState</code> is set to <code>DONE</code> it means at least one of the read methods have been called on this '''FileReader''' object.
+{{!}}The entire [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] has been read into memory, a file error occurred during read, or the read was aborted using [[apis/file/FileReader/abort|'''abort''']]. The [[apis/file/FileReader|'''FileReader''']] is no longer reading a '''File''' or '''Blob'''. If <code>readyState</code> is set to <code>DONE</code> it means at least one of the read methods have been called on this '''FileReader''' object.
 {{!}}}
  
 |Import_Notes====Syntax===
