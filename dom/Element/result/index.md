@@ -17,8 +17,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The format of the <code>result</code> data depends on which of the read methods was used to initiate the read operation. This property can also return partial [[apis/file/Blob|'''Blob''']] data. Partial '''Blob''' data is the part of the [[apis/file/File|'''File''']] or '''Blob''' that has been read into memory currently; when processing the read method [[apis/file/FileReader/readAsText (File and Blob)|'''readAsText''']], partial '''Blob''' data is a Document Object Model (DOM) string that is incremented as more bytes are loaded; and when processing [[apis/file/FileReader/readAsArrayBuffer|'''readAsArrayBuffer''']], partial '''Blob''' data is an array buffer object consisting of the bytes loaded so far.
-
+The format of the <code>result</code> data depends on which of the read methods was used to initiate the read operation. This property can also return partial [[apis/file/Blob|'''Blob''']] data. Partial '''Blob''' data is the part of the [[apis/file/File|'''File''']] or '''Blob''' that has been read into memory currently; when processing the read method [[apis/file/FileReader/readAsText|'''readAsText''']], partial '''Blob''' data is a Document Object Model (DOM) string that is incremented as more bytes are loaded; and when processing [[apis/file/FileReader/readAsArrayBuffer|'''readAsArrayBuffer''']], partial '''Blob''' data is an array buffer object consisting of the bytes loaded so far.
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
@@ -34,7 +33,6 @@ The format of the <code>result</code> data depends on which of the read methods 
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
