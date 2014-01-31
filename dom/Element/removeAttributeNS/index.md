@@ -30,7 +30,7 @@
 {{Notes_Section
 |Usage=Use this method to remove a content attribute in a specified namespace from an element.
 |Notes=*The attribute to remove may not exist in the first place.
-*Where namespaces are irrelevant, [[dom/methods/removeAttribute]] can be used instead.
+*Where namespaces are irrelevant, [[dom/Element/removeAttribute]] can be used instead.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
