@@ -25,14 +25,8 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This event fires when the [[apis/file/MSStreamReader|'''msStreamReader''']] is successfully created or when the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method finishes the read of a [[apis/file/Blob|'''Blob''']] or [[apis/file/MSStream|'''msStream''']] object. If the operation fails, [[dom/events/load|'''onload''']] does not fire, but instead, the [[apis/file/events/onloadend|'''onloadend''']] event and '''onerror''' events fire.
-Creates or loads an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-To invoke this event, do one of the following:
-*Create an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-*Invoke the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method.
+This event fires when a method finishes the read of a [[apis/file/Blob|'''Blob''']] object. If the operation fails, '''onload''' does not fire, but instead, the '''onloadend''' and '''onerror''' events fire.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*[[apis/file/MSStreamReader|'''msStreamReader''']]
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -50,8 +44,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-*<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
-*<code>[[dom/methods/click|click]]</code>
+
 }}
 {{Topics}}
 {{External_Attribution
