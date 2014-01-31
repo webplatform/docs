@@ -27,12 +27,7 @@
 |Notes====Remarks===
 This event is dispatched when the load ends due to an error or the load ends successfully. It occurs only one time.
 Indicates that the requested action is complete.
-To invoke this event, do one of the following:
-*Create an [[apis/file/MSStreamReader|'''msStreamReader''']] object.
-*Invoke the [[apis/file/methods/readAsBlob|'''readAsBlob''']] method.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*[[apis/file/MSStreamReader|'''msStreamReader''']]
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -50,8 +45,7 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-*<code>[[apis/file/MSStreamReader|msStreamReader]]</code>
-*<code>[[dom/methods/click|click]]</code>
+
 }}
 {{Topics}}
 {{External_Attribution
