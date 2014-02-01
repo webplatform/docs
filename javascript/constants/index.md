@@ -1,7 +1,18 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists predefined JavaScript constants that you can use in expressions.
+{{Flags
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists predefined JavaScript constants that you can use in expressions.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
 ==Constants==
 {| class='wikitable'
 |-
@@ -77,14 +88,14 @@
 | The value of a variable that has been declared but not initialized.
 | '''Global'''
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Global{{!}}Global Object]]
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/Number{{!}}Number Object]]
-* [[javascript/javascript reference{{!}}JavaScript Reference]]
+* [[javascript{{!}}JavaScript Reference]]
 }}
-{{Topics | JS Basic}}
-
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
