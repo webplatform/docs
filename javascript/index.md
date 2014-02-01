@@ -1,3 +1,18 @@
+{{Page_Title}}
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
 <div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
 
 {{Languages}}
@@ -52,3 +67,11 @@ To contribute to other JavaScript-related technologies such as HTML5, jQuery, an
 ; [http://go.microsoft.com/fwlink/?LinkId=148095 HTML and DHTML Reference]: Provides reference information about Dynamic HTML (DHTML) API.
 
 {{Topics | JS Basic}}
+{{See_Also_Section}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
+|HTML5Rocks_link=
+}}
