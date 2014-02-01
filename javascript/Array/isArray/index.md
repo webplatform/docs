@@ -23,11 +23,13 @@ If the object argument is not an object, false is returned.
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''Array.isArray''' function.
-|Code=var ar = [];
+|Code=// Using Array string litteral
+var ar = []; 
  var result = Array.isArray(ar);
  // Output: true
  
- var ar = new Array();
+// Using new Array with an empty set
+ var ar = new Array(); 
  var result = Array.isArray(ar);
  // Output: true
  
@@ -35,10 +37,12 @@ If the object argument is not an object, false is returned.
  var result = Array.isArray(ar);
  // Output: true
  
+// Testing with a string litteral "an array"
  var injectingString = Array.isArray("an array");
  document.write(injectingString);
  // Output: false
  
+// Testing with an object litteral
  var injectingObject = Array.isArray({});
  document.write(injectingObject);
  // Output: false
