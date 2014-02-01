@@ -56,10 +56,6 @@ To contribute to other JavaScript-related technologies such as HTML5, jQuery, an
 
 {{Special:PrefixIndex/javascript/}}
 
-==Related Sections==
-; JavaScript Fundamentals: Provides information about how to use JavaScript.
-; [http://go.microsoft.com/fwlink/?LinkId=148095 HTML and DHTML Reference]: Provides reference information about Dynamic HTML (DHTML) API.
-
 {{Topics | JS Basic}}
 {{See_Also_Section}}
 {{External_Attribution
