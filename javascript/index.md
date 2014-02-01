@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript}}
 {{Flags
+|Content=Incomplete
 |Checked_Out=No
 }}
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
@@ -18,7 +19,9 @@ Note: If you are completely new to web development, you may want to review [http
 |Examples=
 }}
 {{Remarks_Section}}
-<div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
+
+{{See_Also_Section
+|Manual_sections=<div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
 
 {{Languages}}
 
@@ -62,7 +65,7 @@ To contribute to other JavaScript-related technologies such as HTML5, jQuery, an
 ; [http://go.microsoft.com/fwlink/?LinkId=148095 HTML and DHTML Reference]: Provides reference information about Dynamic HTML (DHTML) API.
 
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
