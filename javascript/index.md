@@ -14,7 +14,7 @@ Note: If you are completely new to web development, you may want to review [http
 }}
 {{JS_Return_Value}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Remarks_Section}}
