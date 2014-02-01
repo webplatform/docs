@@ -4,7 +4,7 @@
 
 }}
 {{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= boolean.constructor([[ value ])}}
+|Format= boolean.constructor([ value ])}}
 |Values={{JS_Syntax_Parameter
 |Name=boolean
 |Required=
