@@ -1,8 +1,13 @@
-{{Page_Title}}
+{{Page_Title|JavaScript}}
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
+
+The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js] or [https://developer.mozilla.org/en-US/docs/Rhino Rhino].
+
+Note: If you are completely new to web development, you may want to review [http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/ JavaScript Beginner Tutorials].
+}}
 {{JS_Syntax
 |Formats=
 |Values=
@@ -16,16 +21,6 @@
 <div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
 
 {{Languages}}
-
-=JavaScript=
-
-==Summary==
-
-JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
-
-The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js] or [https://developer.mozilla.org/en-US/docs/Rhino Rhino].
-
-Note: If you are completely new to web development, you may want to review [http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/ JavaScript Beginner Tutorials].
 
 ==In This Section==
 ; Version Information: Provides a list of JavaScript language features and the Internet Explorer versions in which they were introduced.
