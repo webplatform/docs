@@ -1,7 +1,18 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript functions.
+{{Flags
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript functions.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
 ==Functions==
 {| class='wikitable'
 |-
@@ -205,15 +216,15 @@
 | Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the supplied date.
 | '''Date'''
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 * [[javascript/methods{{!}}JavaScript Methods]]
 * [[javascript/properties{{!}}JavaScript Properties]]
 * [[javascript/constants{{!}}JavaScript Constants]]
-* [[javascript/javascript reference{{!}}JavaScript Reference]]
+* [[javascript{{!}}JavaScript Reference]]
 }}
-{{Topics | JS Basic}}
-
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
