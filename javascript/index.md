@@ -1,6 +1,5 @@
 {{Page_Title|JavaScript}}
 {{Flags
-|High-level issues=Stub, Needs Review
 |Checked_Out=No
 }}
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
