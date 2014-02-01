@@ -32,7 +32,6 @@ Note: If you are completely new to web development, you may want to review [http
 ; [[javascript/operators|Operators]]: Provides a list of operators with links to information about each operator.
 ; [[javascript/statements|Statements]]: Provides a list of statements with links to information about each statement.
 ; [[javascript/directives|JavaScript Directives]]: Includes links to directives.
-; [[javascript/errors|Errors]]: Includes links to run-time and syntax errors.
 ; [[javascript/reserved words|JavaScript Reserved Words]]: Provides a list of reserved words. These words may not be used as identifiers.
 ; [[javascript/future reserved words|JavaScript Future Reserved Words]]: Provides a list of future reserved words. These words may not be used as identifiers.
 
