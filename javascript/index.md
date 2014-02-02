@@ -1,3 +1,7 @@
+<div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
+
+{{Languages}}
+
 {{Page_Title|JavaScript}}
 
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
@@ -7,9 +11,6 @@ The usage of JavaScript is not limited inside browsers. You can use it in server
 Note: If you are completely new to web development, you may want to review [http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/ JavaScript Beginner Tutorials].
 }}
 
-<div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
-
-{{Languages}}
 
 ==In This Section==
 ; [[javascript/objects|Objects]]: Provides a list of objects with links to information about each object.
