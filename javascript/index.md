@@ -42,7 +42,6 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 
 {{Special:PrefixIndex/javascript/}}
 
-{{Topics | JavaScript}}
 {{See_Also_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
