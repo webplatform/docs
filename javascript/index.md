@@ -1,23 +1,12 @@
 {{Page_Title|JavaScript}}
-{{Flags
-|Checked_Out=No
-}}
+
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
 
 The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js], [https://developer.mozilla.org/en-US/docs/Rhino Rhino], or [https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey SpiderMonkey].
 
 Note: If you are completely new to web development, you may want to review [http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/ JavaScript Beginner Tutorials].
 }}
-{{JS_Syntax
-|Formats=
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Remarks_Section}}
+
 <div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
 
 {{Languages}}
@@ -53,7 +42,7 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 
 {{Special:PrefixIndex/javascript/}}
 
-{{Topics | JS Basic}}
+{{Topics | Basic}}
 {{See_Also_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
