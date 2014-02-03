@@ -9,17 +9,16 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example implements buttons that change the [[apis/audio-video/properties/volume|'''volume''']] of a video element (v1) by increments of .2 and turn mute on and off. These actions cause the '''onvolumechange''' event to be raised.
+|Description=The following example implements buttons that change the [[dom/HTMLMediaElement/volume|'''volume''']] of a video element (v1) by increments of .2 and turn mute on and off. These actions cause the '''onvolumechange''' event to be raised.
 |Code=&lt;button onclick{{=}}"document.getElementById('v1').volume +{{=}} 0.2"&gt;Volume Up&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').volume -{{=}} 0.2"&gt;Volume Down&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').muted {{=}} true;"&gt;Mute&lt;/button&gt;
@@ -28,7 +27,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The [[apis/audio-video/properties/volume|'''volume''']] property of the element represents the current volume level.
+The [[dom/HTMLMediaElement/volume|'''volume''']] property of the element represents the current volume level.
 The default playback volume is <code>1</code> (100 percent). The playback volume cannot be increased beyond 100 percent.
 To invoke this event, do one of the following:
 *Increase or decrease the volume.
@@ -61,8 +60,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/properties/volume|volume]]</code>
-*<code>[[apis/audio-video/properties/muted|muted]]</code>
+*<code>[[dom/HTMLMediaElement/volume|volume]]</code>
+*<code>[[dom/HTMLMediaElement/muted|muted]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
