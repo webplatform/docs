@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -22,7 +21,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This event is raised when the [[apis/audio-video/properties/seeking|'''seeking''']] property changes to VARIANT_FALSE.
+This event is raised when the [[dom/Element/seeking|'''seeking''']] property changes to VARIANT_FALSE.
 To invoke this event, do one of the following:
 *Allow playback to resume at the new playback position.
 |Import_Notes====Syntax===
@@ -53,8 +52,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/events/seeking|onseeking]]</code>
-*<code>[[apis/audio-video/properties/seeking|seeking]]</code>
+*<code>[[dom/Element/seeking|seeking]]</code>
+
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
