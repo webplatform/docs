@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,7 +34,7 @@ function durationChange()
 }}
 {{Notes_Section
 |Notes====Remarks===
-Use the [[apis/audio-video/properties/currentTime|'''currentTime''']] property to retrieve the current playback position. For the total length of the audio or video clip, use [[apis/audio-video/properties/duration|'''duration''']].
+Use the [[dom/HTMLMediaElement/currentTime|'''currentTime''']] property to retrieve the current playback position. For the total length of the audio or video clip, use [[dom/HTMLMediaElement/duration|'''duration''']].
 To invoke this event, do one of the following:
 *Play the video.
 *Move the position indicator on the playback controls.
@@ -69,9 +68,9 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/properties/currentTime|currentTime]]</code>
-*<code>[[apis/audio-video/properties/duration|duration]]</code>
-*<code>[[apis/audio-video/events/durationchange|ondurationchange]]</code>
+*<code>[[dom/HTMLMediaElement/currentTime|currentTime]]</code>
+*<code>[[dom/HTMLMediaElement/duration|duration]]</code>
+*<code>[[dom/Element/durationchange|ondurationchange]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
