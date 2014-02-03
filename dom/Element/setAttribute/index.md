@@ -73,12 +73,12 @@
 }}{{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=7 and earlier
-|Note=The '''value''' parameter should be converted to string beforehand, or else using [[dom/methods/getAttribute|getAttribute]] might result in a number or a boolean value.
+|Note=The '''value''' parameter should be converted to string beforehand, or else using [[dom/Element/getAttribute|getAttribute]] might result in a number or a boolean value.
 }}
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/methods/removeAttribute|removeAttribute]]</code>
+*<code>[[dom/Element/removeAttribute|removeAttribute]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
