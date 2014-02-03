@@ -25,7 +25,7 @@
 |Usage=Capturing the current pointer can improve usability by reducing the touch precision required when interacting with an element. For example, if a button is touched and held, and the user's finger slides off the button before raising it (breaking the contact), the button might not receive the [[dom/PointerEvent/pointerup|pointerup]] event. This could cause the button to stay depressed forever. By assigning the pointer to the button element with ''setPointerCapture'', the button receives pointer events, including the ''pointerup'' event that signals the button to return to its initial state.
 
 The capture will be released when the pointer is removed (onpointerup) or explicitly released by calling the [[dom/Element/releasePointerCapture|releasePointerCapture]] method. There are cases the element could lose the capture. For example, if the touch moves outside the window or some other element captures the touch, then the element that had the capture will lose the capture. The element that lost the capture will receive a [[dom/PointerEvent/lostpointercapture|lostpointercapture]] event.
-|Notes=When a pointer is captured to an element, the parent and ancestor elements receive a [[dom/objects/PointerEvent/gotpointercapture|gotpointercapture]] event during capture and bubble phase.
+|Notes=When a pointer is captured to an element, the parent and ancestor elements receive a [[dom/PointerEvent/gotpointercapture|gotpointercapture]] event during capture and bubble phase.
 
 If the specified pointerId does not match any existing pointers, a [[dom/DOMException|DOMException]] is thrown with the name ''InvalidPointerId''.
 }}
