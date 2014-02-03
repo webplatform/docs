@@ -2,22 +2,23 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Dispatched when any of the following occurs:
 * A pointing device is moved out of the hit test boundaries of an element
-* After firing the [[dom/objects/PointerEvent/pointerup|pointerup]] event for a device that does not support hover
-* After firing the [[dom/objects/PointerEvent/pointercancel|pointercancel]] event
+* After firing the [[dom/PointerEvent/pointerup|pointerup]] event for a device that does not support hover
+* After firing the [[dom/PointerEvent/pointercancel|pointercancel]] event
 }}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Interface=dom/objects/PointerEvent
-|Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseout|mouseout]] event
 |Synchronous=Yes
 |Bubbles=Yes
+|Target=dom/Element
 |Cancelable=Yes
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseout|mouseout]] event
+|Interface=dom/objects/PointerEvent
 }}
 {{Examples_Section
 |Not_required=No
