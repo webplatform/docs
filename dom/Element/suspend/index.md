@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
@@ -54,8 +53,8 @@ To invoke this event, do one of the following:
 *<code>video object</code>
 *<code>window</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/events/stalled|onstalled]]</code>
-*<code>[[apis/audio-video/events/waiting|onwaiting]]</code>
+*<code>[[dom/Element/stalled|stalled]]</code>
+*<code>[[dom/Element/waiting|waiting]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
