@@ -28,7 +28,7 @@ For a given display, only one element has focus at any given time.  Striking a k
 With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/Document/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onbeforedeactivate''' event to cancel moving activation from the current element.
 Change activation from the '''event'''.'''srcElement''' to the '''event'''.'''toElement'''.
 To invoke this event, do one of the following:
-*Click an element, other than the [[dom/properties/activeElement|'''active''']] element of the document.
+*Click an element, other than the [[dom/Document/activeElement|'''active''']] element of the document.
 *Use the keyboard to move focus from the active element to another element.
 *Invoke the [[dom/HTMLElement/setActive|'''setActive''']] method on an element, when the element is not the active element.
 *Invoke the [[dom/HTMLElement/focus|'''focus''']] method on an element, when the element is not the active element.
