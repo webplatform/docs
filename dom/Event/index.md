@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -11,7 +12,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This examples uses [[dom/methods/addEventListener|addEventListener]] to listen to the [[dom/events/load|load]] event in order to change the title of the page to indicate that the page is done loading. It uses [[dom/properties/isTrusted|isTrusted]] to make sure the event was triggered by the user agent itself and not by some script.
+|Description=This example uses [[dom/EventTarget/addEventListener|addEventListener]] to listen to the '''load''' event in order to change the title of the page to indicate that the page is done loading. It uses [[dom/Event/isTrusted|isTrusted]] to make sure the event was triggered by the user agent itself and not by some script.
 |Code=function initialize(e) {
   if (e.isTrusted) {
     document.title = "The page is done loading.";
@@ -20,7 +21,7 @@
 window.addEventListener("load", initialize, false);
 }}{{Single Example
 |Language=JavaScript
-|Description=This examples uses [[dom/methods/addEventListener|addEventListener]] to listen to the [[dom/events/keydown|keydown]] event and suppress key down operations using the [[dom/methods/preventDefault|preventDefault]] method of the Event instance object. This causes any key presses that occurs within text fields not to emit text into the fields.
+|Description=This example uses [[dom/EventTarget/addEventListener|addEventListener]] to listen to the '''keydown''' event and suppress key down operations using the [[dom/Event/preventDefault|preventDefault]] method of the Event instance object. This causes any key presses that occurs within text fields not to emit text into the fields.
 |Code=function suppressPresses(e) {
   e.preventDefault();
 }
@@ -99,21 +100,20 @@ document.addEventListener("keydown", suppressPresses, false);
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/objects/MSSiteModeEvent|MSSiteModeEvent]]</code>
-*<code>[[dom/objects/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
-*<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
+*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
+*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
+*<code>[[dom/CustomEvent|CustomEvent]]</code>
+*<code>[[dom/DragEvent|DragEvent]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/MessageEvent|MessageEvent]]</code>
+*<code>[[dom/MouseEvent|MouseEvent]]</code>
+*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/MutationEvent|MutationEvent]]</code>
+*<code>[[dom/StorageEvent|StorageEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
+*<code>[[dom/UIEvent|UIEvent]]</code>
+*<code>[[dom/WheelEvent|WheelEvent]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
