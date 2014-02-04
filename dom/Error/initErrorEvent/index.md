@@ -1,22 +1,50 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=typeArg|Data type=DOMString|Description=The type of the event being created|Optional=}}
-{{Method Parameter|Name=canBubbleArg|Data type=boolean|Description=Indicates whether the event can bubble.
+|Parameters={{Method Parameter
+|Name=typeArg
+|Data type=any
+|Description=The type of the event being created
+|Optional=No
+}}{{Method Parameter
+|Name=canBubbleArg
+|Data type=any
+|Description=Indicates whether the event can bubble.
 When true
 the event should propagate upward. 
 When false
-the event does not propagate upward.|Optional=}}
-{{Method Parameter|Name=cancelableArg|Data type=boolean|Description=Indicates whether the event’s default action can be prevented.
+the event does not propagate upward.
+|Optional=No
+}}{{Method Parameter
+|Name=cancelableArg
+|Data type=any
+|Description=Indicates whether the event’s default action can be prevented.
 When true, the default action can be canceled. 
-When false, the default action cannot be canceled.|Optional=}}
-{{Method Parameter|Name=messageArg|Data type=DOMString|Description=The error message string.|Optional=}}
-{{Method Parameter|Name=filenameArg|Data type=DOMString|Description=The absolute URL of the script in which the error originally occurred.|Optional=}}
-{{Method Parameter|Name=linenoArg|Data type=unsigned long|Description=The line number where the error occurred in the script.|Optional=}}
+When false, the default action cannot be canceled.
+|Optional=No
+}}{{Method Parameter
+|Name=messageArg
+|Data type=any
+|Description=The error message string.
+|Optional=No
+}}{{Method Parameter
+|Name=filenameArg
+|Data type=any
+|Description=The absolute URL of the script in which the error originally occurred.
+|Optional=No
+}}{{Method Parameter
+|Name=linenoArg
+|Data type=unsigned long
+|Description=The line number where the error occurred in the script.
+|Optional=No
+}}
 |Method_applies_to=dom/Error
 |Example_object_name=object
 |Return_value_name=object
@@ -32,23 +60,30 @@ Type: '''HRESULT'''
 This method can return one of these values.
 
 S_OK
-
-
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/methods/initErrorEvent|ErrorEvent]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
