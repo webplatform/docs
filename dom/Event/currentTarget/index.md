@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -20,7 +21,7 @@
 }}
 {{Notes_Section
 |Usage=Use this property to get the element for which the current event handler is being processed, during the capturing and bubbling phases.
-|Notes=The [[dom/properties/target|'''target''']] property returns the element that originally received an event. At event phase <code>AT_TARGET</code>, the '''currentTarget''' and '''target''' objects are the same object.
+|Notes=The [[dom/Event/target|'''target''']] property returns the element that originally received an event. At event phase <code>AT_TARGET</code>, the '''currentTarget''' and '''target''' objects are the same object.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -61,22 +62,21 @@
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/objects/Event|Event]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/objects/MSSiteModeEvent|MSSiteModeEvent]]</code>
-*<code>[[dom/objects/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
-*<code>[[dom/properties/eventPhase|eventPhase]]</code>
+*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
+*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
+*<code>[[dom/CustomEvent|CustomEvent]]</code>
+*<code>[[dom/Event|Event]]</code>
+*<code>[[dom/DragEvent|DragEvent]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/MessageEvent|MessageEvent]]</code>
+*<code>[[dom/MouseEvent|MouseEvent]]</code>
+*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/MutationEvent|MutationEvent]]</code>
+*<code>[[dom/StorageEvent|StorageEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
+*<code>[[dom/UIEvent|UIEvent]]</code>
+*<code>[[dom/Event/eventPhase|eventPhase]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
