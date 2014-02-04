@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,8 +20,8 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=If you cannot cancel the event, calling [[dom/methods/preventDefault|'''preventDefault''']] has no effect.
-When you create a custom event by using the [[dom/methods/createEvent|'''createEvent''']] method, you can set the   '''cancelable'''   property by using the [[dom/methods/initEvent|'''initEvent''']] method.
+|Notes=If you cannot cancel the event, calling [[dom/Event/preventDefault|'''preventDefault''']] has no effect.
+When you create a custom event by using the [[dom/Document/createEvent|'''createEvent''']] method, you can set the   '''cancelable''' property by using the [[dom/Event/initEvent|'''initEvent''']] method.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -40,24 +41,23 @@ When you create a custom event by using the [[dom/methods/createEvent|'''createE
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/objects/Event|Event]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/objects/MSSiteModeEvent|MSSiteModeEvent]]</code>
-*<code>[[dom/objects/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
+*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
+*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
+*<code>[[dom/CustomEvent|CustomEvent]]</code>
+*<code>[[dom/Event|Event]]</code>
+*<code>[[dom/DragEvent|DragEvent]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/MessageEvent|MessageEvent]]</code>
+*<code>[[dom/MouseEvent|MouseEvent]]</code>
+*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/MutationEvent|MutationEvent]]</code>
+*<code>[[dom/StorageEvent|StorageEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
+*<code>[[dom/UIEvent|UIEvent]]</code>
 *<code>Reference</code>
-*<code>[[dom/properties/bubbles|bubbles]]</code>
-*<code>[[dom/methods/preventDefault|preventDefault]]</code>
+*<code>[[dom/Event/bubbles|bubbles]]</code>
+*<code>[[dom/Event/preventDefault|preventDefault]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
