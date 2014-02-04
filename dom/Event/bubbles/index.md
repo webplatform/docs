@@ -20,7 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=When you create a custom event by using the [[dom/Document/createEvent|'''createEvent''']] method, you can set the  '''bubbles''' property by using the [[dom/Document/initEvent|'''initEvent''']] method.
+|Notes=When you create a custom event by using the [[dom/Document/createEvent|'''createEvent''']] method, you can set the  '''bubbles''' property by using the [[dom/Event/initEvent|'''initEvent''']] method.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
