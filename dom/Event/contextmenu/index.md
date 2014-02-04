@@ -24,7 +24,7 @@
 The context menu never displays when you right-click in this box. &lt;/span&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/oncontextmenu.htm
 }}{{Single Example
-|Description=Although '''area''' elements inherit the '''oncontextmenu''' event by way of the object hierarchy, they do not respond to right-click events in Internet Explorer. However, it is possible to imitate the desired behavior by using the [[dom/HTLMElement/focus|'''onfocus''']] and [[dom/HTMLElement/blur|'''onblur''']] events to determine the currently selected region and trigger the appropriate action in the context menu handler of the '''img''' itself. Although it isn't used by Internet Explorer, retain the '''oncontextmenu''' event attribute on the '''area''' elements for a fully cross-client implementation.
+|Description=Although '''area''' elements inherit the '''oncontextmenu''' event by way of the object hierarchy, they do not respond to right-click events in Internet Explorer. However, it is possible to imitate the desired behavior by using the [[dom/HTMLElement/focus|'''onfocus''']] and [[dom/HTMLElement/blur|'''onblur''']] events to determine the currently selected region and trigger the appropriate action in the context menu handler of the '''img''' itself. Although it isn't used by Internet Explorer, retain the '''oncontextmenu''' event attribute on the '''area''' elements for a fully cross-client implementation.
 |Code=&lt;script type{{=}}"text/javascript"&gt;
 var selectedArea {{=}} null;
 function activate(e,f) {
