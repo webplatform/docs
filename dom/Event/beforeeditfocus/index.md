@@ -1,25 +1,28 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
-|Interface=dom/Event
-|Target=dom/Element
-|Default_action=
-|Content=
 |Event_applies_to=dom/Event
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Event
 }}
-{{Topics|Events}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-For the '''onbeforeeditfocus''' event to fire, document elements must be in edit mode. One way to invoke edit mode is to set the [[dom/properties/designMode|'''designMode''']] property to '''On'''.
-The '''onbeforeeditfocus''' event differs from the [[dom/events/focus|'''onfocus''']] event. The '''onbeforeeditfocus''' event fires before an object enters a ''UI Activation'' state, whereas the '''onfocus''' event fires when an object has focus.
+|Notes====Remarks===
+For the '''onbeforeeditfocus''' event to fire, document elements must be in edit mode. One way to invoke edit mode is to set the [[dom/Document/designMode|'''designMode''']] property to '''On'''.
+The '''onbeforeeditfocus''' event differs from the [[dom/HTMLElement/focus|'''onfocus''']] event. The '''onbeforeeditfocus''' event fires before an object enters a ''UI Activation'' state, whereas the '''onfocus''' event fires when an object has focus.
 '''Note'''  This event also fires when an '''input''' or '''textArea''' object gets the focus in browse mode.
 As of Microsoft Internet Explorer 5.5, Web authors can also set the [[html/attributes/contentEditable|'''contentEditable''']] attribute to '''true''' on the body element, and if necessary, to specific elements in the body, to invoke edit mode.
 Moves the object into a ''UI Activation'' state.
@@ -52,100 +55,29 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>i</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>noBR</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>rt</code>
-*<code>ruby</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
