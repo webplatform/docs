@@ -13,7 +13,7 @@
 |Bubbles=Yes
 |Target=dom/Document
 |Cancelable=Yes
-|Content=The '''DOMContentLoaded''' event fires when the markup of a webpage has been parsed, which means it also fires before the [[dom/events/load|'''onload''']] event.
+|Content=The '''DOMContentLoaded''' event fires when the markup of a webpage has been parsed, which means it also fires before the [[dom/Element/load|'''onload''']] event.
 '''DOMContentLoaded''' is a good place to perform initialization tasks for your webpage, such as registering event handlers, initializing handles to support objects, and so on.  This allows your initialization tasks to occur while the remaining resources for the webpage are being downloaded.
 For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}245080 DOMContentLoaded test drive demo.]
 |Interface=dom/Event
@@ -138,7 +138,7 @@ if(!window.addEventListener) {
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/events/load|onload]]</code>
+*<code>[[dom/Element/load|onload]]</code>
 }}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
