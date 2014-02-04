@@ -35,7 +35,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This event is fired when the contents are committed and not while the value is changing. For example, on a text box, this event is not fired while the user is typing, but rather when the user commits the change by leaving the text box that has focus. In addition, this event is executed before the code specified by [[dom/Element/blur|'''onblur''']] when the control is also losing the focus.
+This event is fired when the contents are committed and not while the value is changing. For example, on a text box, this event is not fired while the user is typing, but rather when the user commits the change by leaving the text box that has focus. In addition, this event is executed before the code specified by [[dom/HTMLElement/blur|'''onblur''']] when the control is also losing the focus.
 The '''onchange''' event does not fire when the selected option of the '''select''' object is changed programmatically.
 Changed text selection is committed.
 To invoke this event, do one of the following:
