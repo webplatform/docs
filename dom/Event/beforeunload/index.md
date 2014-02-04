@@ -9,12 +9,11 @@
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Event
-|Interface=dom/Event
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
@@ -106,17 +105,7 @@ There are no standards that apply here.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>body</code>
-*<code>frameSet</code>
-*<code>window</code>
-*<code>Reference</code>
-*<code>[[dom/events/load|onload]]</code>
-*<code>[[dom/events/unload|onunload]]</code>
-*<code>Conceptual</code>
-*<code>Introduction to Data Binding</code>
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
