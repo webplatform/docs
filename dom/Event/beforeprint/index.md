@@ -1,27 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
-|Interface=dom/Event
-|Target=dom/Element
-|Default_action=
-|Content=
 |Event_applies_to=dom/Event
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/Event
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example uses the '''onbeforeprint''' to make all hidden sections of the document visible just before the document prints. The [[dom/events/afterprint|'''onafterprint''']] event is processed after the document prints to return the document to its original state.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm
-|Code=
-function window.onbeforeprint()
+|Examples={{Single Example
+|Description=This example uses the '''onbeforeprint''' to make all hidden sections of the document visible just before the document prints. The [[dom/Event/afterprint|'''onafterprint''']] event is processed after the document prints to return the document to its original state.
+|Code=function window.onbeforeprint()
 {
     // Walk through all the elements in the document with
     // CLASS{{=}}"collapsed" and set it to "expanded" just for printing.
@@ -58,12 +56,13 @@ function window.onafterprint()
          }
    }
 }
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Use this event to modify the document just before it prints or previews for printing. In most cases it is used to make all the information on the document visible just before printing.
-Use the event in conjunction with the [[dom/events/afterprint|'''onafterprint''']] event to undo the changes made to the document in the '''onbeforeprint''' event.
+Use the event in conjunction with the [[dom/Event/afterprint|'''onafterprint''']] event to undo the changes made to the document in the '''onbeforeprint''' event.
 Prints the document associated with the object for which the event is specified.
 To invoke this event, do one of the following:
 *Choose Print or Print Preview from the File menu.
@@ -98,30 +97,29 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>window</code>
-*<code>body</code>
-*<code>frameSet</code>
-*<code>Reference</code>
-*<code>[[dom/events/afterprint|onafterprint]]</code>
-*<code>print</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
