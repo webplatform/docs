@@ -22,7 +22,7 @@
 {{Notes_Section
 |Notes====Remarks===
 '''Note'''  When focus leaves the document, the active element does not change and the [[dom/Event/beforedeactivate|'''onbeforedeactivate''']] event will not fire.
-Each document may have up to one active element.  Set the active element with the [[dom/HTMLElement/setActive|'''setActive''']] or [[dom/methods/focus|'''focus''']] methods.  Using the '''setActive''' method has no effect on document focus.  Using the '''focus''' method on an individual element causes the element to gain focus and become the active element.
+Each document may have up to one active element.  Set the active element with the [[dom/HTMLElement/setActive|'''setActive''']] or [[dom/HTMLElement/focus|'''focus''']] methods.  Using the '''setActive''' method has no effect on document focus.  Using the '''focus''' method on an individual element causes the element to gain focus and become the active element.
 Using the [[dom/HTMLElement/focus|'''focus''']] method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus.
 For a given display, only one element has focus at any given time.  Striking a key directly affects only the element with focus.  Events fired by that keystroke may be scripted to affect other documents and child elements.
 For Microsoft Internet Explorer 6 and later, the '''event'''.'''toElement''' property is now exposed by the '''ondeactivate'''
