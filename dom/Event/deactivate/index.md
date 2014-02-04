@@ -32,7 +32,7 @@ Change activation from the '''event'''.'''srcElement''' to the '''event'''.'''to
 To invoke this event, do one of the following:
 *Click an element, other than the [[dom/Document/activeElement|'''active''']] element of the document.
 *Use the keyboard to move focus from the active element to another element.
-*Invoke the [[dom/HTMLelement/setActive|'''setActive''']] method on an element, when the element is not the active element.
+*Invoke the [[dom/HTMLElement/setActive|'''setActive''']] method on an element, when the element is not the active element.
 
 The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLAnchorEvents2'''
