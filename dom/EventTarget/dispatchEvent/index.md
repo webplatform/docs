@@ -47,16 +47,7 @@ You cannot cancel some events. For more information, see the documentation for t
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*[[dom/Document]]
-*[[dom/TextNode]]
-*[[dom/Window]]
-*[[apis/xhr/objects/XMLHttpRequest]]
-*[[dom/EventTarget/addEventListener]]
-*[[dom/Document/createEvent]]
-*[[dom/Event/initEvent]]
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
