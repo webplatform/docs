@@ -2,40 +2,41 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Initializes a new [[dom/objects/FocusEvent|FocusEvent]] that the  [[dom/methods/createEvent|'''createEvent''']] method created.}}
+{{Summary_Section|Initializes a new [[dom/FocusEvent|FocusEvent]] that the  [[dom/Document/createEvent|createEvent]] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=Object
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=detail
 |Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property of the event.
+|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=relatedTarget
 |Data type=DOM Node
-|Description=A secondary element that is involved in the event. This value is returned in the [[dom/properties/relatedTarget|'''relatedTarget''']] property of the event.
+|Description=A secondary element that is involved in the event. This value is returned in the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property of the event.
 |Optional=No
 }}
 |Method_applies_to=dom/FocusEvent
@@ -64,8 +65,8 @@
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/methods/initUIEvent|initUIEvent]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/UIEvent/initUIEvent|initUIEvent]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
