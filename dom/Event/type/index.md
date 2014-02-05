@@ -20,7 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''type''' property of the event depends on the event. This property can be a standard event type, or it can be a custom user-defined event that you created by using the  [[dom/methods/createEvent|'''createEvent''']] and [[dom/methods/initEvent|'''initEvent''']] methods.
+|Notes=The '''type''' property of the event depends on the event. This property can be a standard event type, or it can be a custom user-defined event that you created by using the  [[dom/Document/createEvent|'''createEvent''']] and [[dom/Event/initEvent|'''initEvent''']] methods.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -40,22 +40,21 @@
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/objects/Event|Event]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/objects/MSSiteModeEvent|MSSiteModeEvent]]</code>
-*<code>[[dom/objects/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
-*<code>[[dom/methods/initEvent|initEvent]]</code>
+*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
+*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
+*<code>[[dom/CustomEvent|CustomEvent]]</code>
+*<code>[[dom/DragEvent|DragEvent]]</code>
+*<code>[[dom/Event|Event]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/MessageEvent|MessageEvent]]</code>
+*<code>[[dom/MouseEvent|MouseEvent]]</code>
+*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/MutationEvent|MutationEvent]]</code>
+*<code>[[dom/StorageEvent|StorageEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
+*<code>[[dom/UIEvent|UIEvent]]</code>
+
 }}
 {{Topics|DOM}}
 {{External_Attribution
