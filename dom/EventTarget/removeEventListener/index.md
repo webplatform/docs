@@ -11,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=type
 |Data type=String
-|Description=The event [[dom/properties/type (event)|'''type''']] that the event handler is registered for.
+|Description=The event [[dom/Event/type|'''type''']] that the event handler is registered for.
 |Optional=No
 }}{{Method Parameter
 |Name=listener
@@ -72,14 +72,7 @@ If the arguments for '''removeEventListener'''  do not identify a  registered ev
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*[[dom/Document]]
-*[[dom/TextNode]]
-*[[dom/Window|Window]]
-*[[apis/xhr/objects/XMLHttpRequest]]
-*[[dom/methods/addEventListener|addEventListener]]
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
