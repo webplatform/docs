@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=type
 |Data type=String
-|Description=The type of event [[dom/properties/type (event)|'''type''']] to register.
+|Description=The type of event [[dom/Event/type|'''type''']] to register.
 |Optional=No
 }}{{Method Parameter
 |Name=handler
@@ -43,8 +44,8 @@ While this parameter is officially optional, it may only be omitted in modern br
 }}
 }}
 {{Notes_Section
-|Notes=#Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/properties/eventPhase|'''eventPhase''']].
-#Some events, such as [[dom/events/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
+|Notes=#Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [[dom/Event/eventPhase|'''eventPhase''']].
+#Some events, such as [[dom/HTMLElement/focus|'''onfocus''']], do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
 #If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
 }}
 {{Related_Specifications_Section
@@ -57,6 +58,7 @@ While this parameter is officially optional, it may only be omitted in modern br
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
@@ -115,7 +117,7 @@ While this parameter is officially optional, it may only be omitted in modern br
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8 and earlier
-|Note=Use a legacy proprietary model of [[dom/methods/attachEvent|attachEvent]] and [[dom/methods/detachEvent|detachEvent]] instead.
+|Note=Use a legacy proprietary model of '''attachEvent''' and '''detachEvent''' instead.
 }}
 }}
 {{See_Also_Section}}
