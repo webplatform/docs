@@ -11,17 +11,17 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}
 |Method_applies_to=dom/Event
@@ -39,7 +39,7 @@ document.getElementById('target').dispatchEvent(evt);
 }}
 }}
 {{Notes_Section
-|Usage=Use this method before the   [[dom/methods/dispatchEvent|'''dispatchEvent''']] method dispatches the event object, to set some properties of the event.
+|Usage=Use this method before the   [[dom/EventTarget/dispatchEvent|'''dispatchEvent''']] method dispatches the event object, to set some properties of the event.
 |Notes=After the event is dispatched, its properties cannot be changed.
 }}
 {{Related_Specifications_Section
@@ -60,25 +60,21 @@ document.getElementById('target').dispatchEvent(evt);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/objects/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/objects/Event|Event]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/objects/MSSiteModeEvent|MSSiteModeEvent]]</code>
-*<code>[[dom/objects/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
-*<code>Reference</code>
-*<code>[[dom/properties/bubbles|bubbles]]</code>
-*<code>[[dom/properties/cancelable|cancelable]]</code>
-*<code>[[dom/methods/dispatchEvent|dispatchEvent]]</code>
+*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
+*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
+*<code>[[dom/CustomEvent|CustomEvent]]</code>
+*<code>[[dom/Event|Event]]</code>
+*<code>[[dom/DragEvent|DragEvent]]</code>
+*<code>[[dom/FocusEvent|FocusEvent]]</code>
+*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
+*<code>[[dom/MessageEvent|MessageEvent]]</code>
+*<code>[[dom/MouseEvent|MouseEvent]]</code>
+*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/MutationEvent|MutationEvent]]</code>
+*<code>[[dom/StorageEvent|StorageEvent]]</code>
+*<code>[[dom/TextEvent|TextEvent]]</code>
+*<code>[[dom/UIEvent|UIEvent]]</code>
+
 }}
 {{Topics|DOM}}
 {{External_Attribution
