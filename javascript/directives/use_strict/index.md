@@ -1,26 +1,33 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Restricts the use of some features in JavaScript. Supported in Internet Explorer 10 and Windows Store apps only.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= use strict}}
+{{Summary_Section|Restricts the use of some features in JavaScript. }}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=use strict
 }}
+|Values=
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following code causes a syntax error because in strict mode all variables must be declared with var.
-
-|Code= "use strict";
+|Code="use strict";
  function testFunction(){
     var testvar = 4;
      return testvar;
  }
  intvar = 5;
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=IE support: 10+
+}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
