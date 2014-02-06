@@ -14,16 +14,16 @@
 |Animatable=Yes
 |CSS percentages=As specified
 |Values={{CSS Property Value
-|Data Type=&lt;basic-shape&gt;
-|Description=The following basic shapes can be used to define a clipping region.
+||Data Type=<basic-shape>
+|Description=The shape is computed based on the values of one of ''inset, circle, ellipse'' or ''polygon''.  If shape-box is not supplied, then the reference box defaults to margin-box.
 
-* <code>rectangle(<x>, <y>, <width>, <height> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the rectangle. Optional arguments '''rx''' and '''ry''' define the x-axis radius and y-axis radius of an ellipse used to round the corners of the rectangle.
-* <code>inset-rectangle(<top>, <right>, <bottom>, <left> [, <rx>, <ry>])</code> Defines the origin and size of the bounding box of the inset rectangle. Optional arguments '''rx''' and '''ry''' define the x-axis radius and y-axis radius of an ellipse used to round the corners of the inset rectangle.
-* <code>circle(<cx>, <cy>, <r>)</code> Defines a circle by the x and y axes of its center point and its radius.
-* <code>ellipse(<cx>, <cy>, <rx>, <ry>)</code> Defines an ellipsis by the x and y axes of its center point and the x and y axes of its radius.
-* <code>polygon(<fill-rule>, <x1> <y1>, <x2> <y2>, ..., <xn> <yn>)</code> Defines a polygon based on a filling rule (see [http://www.w3.org/TR/SVG/painting.html#FillRuleProperty SVG fill-rule property] for details) and a list of x and y axes of the polygon's vertices.
+* <code>inset(&lt;shape-arg&gt;{1,4} [round&lt;border-radius&gt;])</code>. Defines an inset rectangle. The basic syntax for inset is the same as the margin shorthand syntax (see [[css/properties/margin|margin]] for details).  The optional border-radius argument  defines an inset's rounded corners using the border-radius shorthand syntax (see [[css/properties/border-radius|border-radius]] for details).
 
-See [http://www.w3.org/TR/2013/WD-css-shapes-1-20130620/ CSS Shapes] for more information.
+* <code>circle([&lt;shape-radius&gt;] [at &lt;position&gt;])</code> The shape-radius argument is the radius of the circle. The position argument defines the center point of the circle and has the same syntax as background-position (see [[css/properties/background-position|background-position]] for details).
+
+* <code>ellipse([&lt;shape-radius&gt;{2}] [at &lt;position&gt;])</code> The shape-radius argument is the radius of the circle. The position argument defines the center point of the circle and has the same syntax as background-position (see [[css/properties/background-position|background-position]] for details).
+
+* <code>polygon([&lt;fill-rule&gt;,] [&lt;shape-arg&gt; &lt;shape-arg&gt;]# )</code> The fill-rule is used to determine the interior of the polygon (see the SVG [[svg/attributes/fill-rule|fill-rule]] for details). Each pair in the shape-arg represents x and y coordinates of each vertex in the polygon.
 }}{{CSS Property Value
 |Data Type=&lt;clip-source&gt;
 |Description=The <code><clip-source></code> value may be one of the following.
