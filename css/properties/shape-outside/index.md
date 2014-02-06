@@ -18,7 +18,6 @@
 |Data Type=none
 |Description=The float area is unaffected.
 }}{{CSS Property Value
-
 |Data Type=<basic-shape>
 |Description=The shape is computed based on the values of one of ''inset, circle, ellipse'' or ''polygon''.  If shape-box is not supplied, then the reference box defaults to margin-box.
 
