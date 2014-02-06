@@ -1,22 +1,52 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Summary_Section|Provides support for creation of arrays of any data type.
 
+Array is an object used to list values together. When you create an array, you’re setting up a list that you can fill with key:value pairs. You can then refer to a whole list using just that one array name. You can also refer to one item in the list using the key, also called an index when the key is a number.
+Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression new Array(), as in:
+var myArray = new Array();
+But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets [] and list out what should be in the array:
+var myAnimals = ["cat", "dog", "rabbit"];
+Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression new Array(). (For more information, see Stoyan Stefanov's JavaScript Patterns.)
+Your array can consist of different values and types. Here's an array that provides describes my dog:
+var goodDog = ["Rover", 7, true];
+This array combines a string, a number and a Boolean value.
+An array is often called a zero-indexed, or zero-based index, because the numerical key, or index, starts at zero. (prof.dr. Edsger W. Dijkstra gives a reason why numbering should start at zero.) This means you can refer to the items in your array by referencing the index. So in goodDog, above, you reference the dog's name with goodDog[0], or his age with goodDog[1], or whether he is, indeed, a good dog with goodDog[3].
+Arrays can be dimensional as well. This helps when your setting up something that has row and column patterns, such as seats in a theatre or a checkerboard. So, for example, to describe a college dormitory that has 5 beds per floor and 2 floors, you can set up a two-dimensional array that looks like the following:
+
+var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5], 
+            [2,1], [2,2], [2,3], [2,4], [2,5]];
+Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have.
+
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= arrayObj = new Array()}}{{JS_Syntax_Format
-|Format= arrayObj = new Array([ size ])}}{{JS_Syntax_Format
-|Format= arrayObj = new Array([ element0 [, element1 [, ...[, elementN ]]]])}}
-|Values={{JS_Syntax_Parameter
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=arrayObj = new Array()
+}}{{JS Syntax Format
+|Format=arrayObj = new Array([ size ])
+}}{{JS Syntax Format
+|Format=arrayObj = new Array([ element0 [, element1 [, ...[, elementN ]]]])
+}}
+|Values={{JS Syntax Parameter
 |Name=arrayObj
 |Required=Required
-|Description=The variable name to which the '''Array''' object is assigned.}}{{JS_Syntax_Parameter
+|Description=The variable name to which the '''Array''' object is assigned.
+}}{{JS Syntax Parameter
 |Name=size
 |Required=Optional
-|Description=The size of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.}}{{JS_Syntax_Parameter
+|Description=The size of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
+}}{{JS Syntax Parameter
 |Name=element0,...,elementN
 |Required=Optional
-|Description=The elements to place in the array. This creates an array with n + 1 elements, and a '''length''' of n + 1. Using this syntax, you must supply more than one element.}}
+|Description=The elements to place in the array. This creates an array with n + 1 elements, and a '''length''' of n + 1. Using this syntax, you must supply more than one element.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in JavaScript are zero-based.
@@ -163,7 +193,7 @@ The following table lists the methods of the '''Array''' object.
 | Gets a reference to the array.
 |}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
