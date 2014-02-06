@@ -83,6 +83,22 @@ If a single value is passed to the '''Array''' constructor, and it is not a numb
  one
 JavaScript arrays are sparse arrays, which means that not all the elements in an array may contain data. In JavaScript, only the elements that actually contain data exist in the array. This reduces the amount of memory used by the array.
 }}
+Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
+<pre><code>var myArray = new Array();</code></pre>
+But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets <code>[]</code> and list out what should be in the array:
+<pre><code>var myAnimals = ["cat", "dog", "rabbit"];</code></pre>
+Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression new Array(). (For more information, see Stoyan Stefanov's JavaScript Patterns.)
+Your array can consist of different values and types. Here's an array that provides describes my dog:
+<pre><code>var goodDog = ["Rover", 7, true];</code></pre>
+This array combines a string, a number and a Boolean value.
+An array is often called a zero-indexed, or zero-based index, because the numerical key, or index, starts at zero. (prof.dr. Edsger W. Dijkstra gives a reason why numbering should start at zero.) This means you can refer to the items in your array by referencing the index. So in goodDog, above, you reference the dog's name with goodDog[0], or his age with goodDog[1], or whether he is, indeed, a good dog with goodDog[3].
+Arrays can be dimensional as well. This helps when your setting up something that has row and column patterns, such as seats in a theatre or a checkerboard. So, for example, to describe a college dormitory that has 5 beds per floor and 2 floors, you can set up a two-dimensional array that looks like the following:
+
+<pre><code>var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5], 
+            [2,1], [2,2], [2,3], [2,4], [2,5]];</code></pre>
+Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have.
+
+
 ==Properties==
 The following table lists the properties of the '''Array''' object.
 
