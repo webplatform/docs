@@ -5,8 +5,11 @@
 {{Summary_Section|Provides support for creation of arrays of any data type.
 
 Array is an object used to list values together. When you create an array, you’re setting up a list that you can fill with key:value pairs. You can then refer to a whole list using just that one array name. You can also refer to one item in the list using the key, also called an index when the key is a number.
-Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression new Array(), as in:
-var myArray = new Array();
+|Provides support for creation of arrays of any data type_
+
+Array is an object used to list values together_ When you create an array, you’re setting up a list that you can fill with key:value pairs_ You can then refer to a whole list using just that one array name_ You can also refer to one item in the list using the key, also called an index when the key is a number_
+Array is a standard, built-in object_ Among other things, this means you can create a new array by using the object creation expression new Array(), as in:
+var myArray=new Array();
 But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets [] and list out what should be in the array:
 var myAnimals = ["cat", "dog", "rabbit"];
 Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression new Array(). (For more information, see Stoyan Stefanov's JavaScript Patterns.)
@@ -19,7 +22,6 @@ Arrays can be dimensional as well. This helps when your setting up something tha
 var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5], 
             [2,1], [2,2], [2,3], [2,4], [2,5]];
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have.
-
 }}
 {{JS_Syntax
 |Formats={{JS Syntax Format
