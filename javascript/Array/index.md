@@ -25,11 +25,12 @@ Arrays are a useful kind of object for many reasons. For example, because the ke
 }}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj = new Array()
+|Format=[ element0 [, element1 [, ...[, elementN ]]]]
+
 }}{{JS Syntax Format
-|Format=arrayObj = new Array([ size ])
+|Format=new Array([ element0 [, element1 [, ...[, elementN ]]]])
 }}{{JS Syntax Format
-|Format=arrayObj = new Array([ element0 [, element1 [, ...[, elementN ]]]])
+|Format=new Array([ size ])
 }}
 |Values={{JS Syntax Parameter
 |Name=arrayObj
@@ -83,6 +84,7 @@ If a single value is passed to the '''Array''' constructor, and it is not a numb
  one
 JavaScript arrays are sparse arrays, which means that not all the elements in an array may contain data. In JavaScript, only the elements that actually contain data exist in the array. This reduces the amount of memory used by the array.
 }}
+{{Notes_Section}}
 Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
 <pre><code>var myArray = new Array();</code></pre>
 But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets <code>[]</code> and list out what should be in the array:
@@ -210,8 +212,8 @@ The following table lists the methods of the '''Array''' object.
 | [[javascript/Array/valueOf|valueOf Method]]
 | Gets a reference to the array.
 |}
-{{Topics | JS Basic}}
 {{See_Also_Section}}
+{{Topics|JS Basic}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
