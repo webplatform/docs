@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The clip-path property prevents a portion of an element from drawing by defining a clipping region.}}
 {{CSS Property
@@ -14,7 +14,7 @@
 |Animatable=Yes
 |CSS percentages=As specified
 |Values={{CSS Property Value
-||Data Type=<basic-shape>
+|Data Type=<basic-shape>
 |Description=The shape is computed based on the values of one of ''inset, circle, ellipse'' or ''polygon''.  If shape-box is not supplied, then the reference box defaults to margin-box.
 
 * <code>inset(&lt;shape-arg&gt;{1,4} [round&lt;border-radius&gt;])</code>. Defines an inset rectangle. The basic syntax for inset is the same as the margin shorthand syntax (see [[css/properties/margin|margin]] for details).  The optional border-radius argument  defines an inset's rounded corners using the border-radius shorthand syntax (see [[css/properties/border-radius|border-radius]] for details).
