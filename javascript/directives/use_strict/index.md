@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Restricts the use of some features in JavaScript. }}
+{{Summary_Section|Restricts the use of some potentially-harmful features of JavaScript (e.g. eval).}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=use strict
