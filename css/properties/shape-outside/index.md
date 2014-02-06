@@ -3,7 +3,7 @@
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|Declares a shape around which text should be wrapped, with possible modifications from the [[css/properties/shape-margin|shape-margin]] property. The shape defined by shape-outside and shape-margin changes the geometry of a float element's float area.}}
 {{CSS Property
@@ -11,7 +11,7 @@
 |Applies to=Floats
 |Inherited=No
 |Media=visual
-|Computed value= As defined for <basic-shape> (with <shape-box> following, if supplied), the <image> with its URI made absolute, otherwise as specified.
+|Computed value=As defined for <basic-shape> (with <shape-box> following, if supplied), the <image> with its URI made absolute, otherwise as specified.
 |Animatable=Yes
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -36,7 +36,6 @@
 * <code>border-box</code>
 * <code>padding-box</code>
 * <code>content-box</code>
-
 }}{{CSS Property Value
 |Data Type=<image>
 |Description=If <image> references an image (fetched using the CORS-enabled fetch method defined by the HTML5 specification), the shape is extracted and computed based on the alpha channel of the image as defined by [[css/properties/shape-image-threshold|shape-image-threshold]]. If <image> does not reference an image or if the fetch attempt results in any error such that there is no fallback image, the effect is as if the value ''auto'' had been specified.
