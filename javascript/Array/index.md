@@ -111,7 +111,7 @@ console.log(ponies[3]);
 |Usage=Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
 <pre>var myArray = new Array();</pre>
 
-But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets <code>[]</code> and list out what should be in the array:
+But a more efficient way is to use what’s called the literal notation. An array literal is created without using the <code>new</code> keyword. Instead, you use the square brackets <code>[]</code> and list out what should be in the array:
 
 <pre>var myAnimals = ["cat", "dog", "rabbit"];</pre>
 Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression <code>new Array()</code>. (For more information, see Stoyan Stefanov's [http://shop.oreilly.com/product/9780596806767.do JavaScript Patterns].)
