@@ -66,7 +66,7 @@ Any shape inside the <clipPath> element and the <clipPath> element itself can be
   /**
    * This clips a circle around the image leaving only the icon visible.
    */
-  clip-path: circle(35px, 35px, 30px);
+  clip-path: circle(30px at 35px 35px);
 }
 
 img.clipped-text {
