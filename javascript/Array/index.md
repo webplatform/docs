@@ -251,6 +251,8 @@ The following table lists the methods of the '''Array''' object.
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
+
+==Attribution==
 }}
 {{Topics|JS Basic}}
 {{External_Attribution
