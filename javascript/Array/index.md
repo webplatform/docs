@@ -244,9 +244,7 @@ The following table lists the methods of the '''Array''' object.
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
 
 ECMAScript® Language Specification
-
 Standard ECMA-262
-
 5.1 Edition / June 2011
 ==Recommended links==
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript, by Mozilla Developer Network]
@@ -258,8 +256,6 @@ Standard ECMA-262
 [http://shop.oreilly.com/product/9780596806767.do JavaScript Patterns: Build Better Applications with Coding and Design Patterns, By Stoyan Stefanov] 
 
 [http://www.manning.com/resig/ Secrets of the JavaScript Ninja, by John Resig and Bear Bibeault]
-
-
 }}
 {{Topics|JS Basic}}
 {{External_Attribution
