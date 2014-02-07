@@ -57,7 +57,7 @@ If the only argument is not a Number, then the length property of the newly cons
 |Examples={{Single Example
 |Language=JavaScript
 |Description=After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in JavaScript are zero-based.
-|Code= var my_array = new Array();
+|Code=var my_array = new Array();
  for (i = 0; i &lt; 10; i++) {
      my_array[i] = i;
  }
@@ -65,17 +65,13 @@ If the only argument is not a Number, then the length property of the newly cons
  document.write(x);
  
 // Output: 4
-
+|LiveURL=http://code.webplatform.org/gist/8856397
 }}{{Single Example
 |Language=JavaScript
-|Description=
+|Description=You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 
-}}{{Single Example}}
-}}
-{{Remarks_Section
-|Remarks=You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 
- var arr = new Array(10);
+|Code= var arr = new Array(10);
  document.write(arr.length
  
  // Output: 10
@@ -83,17 +79,41 @@ If the only argument is not a Number, then the length property of the newly cons
  // Don't do this
  var arr = new Array(-1);
  arr = new Array(1.50);
-If a single value is passed to the '''Array''' constructor, and it is not a number, the '''length''' property is set to 1, and the value of the only element becomes the single, passed-in argument.
-
- var arr = new Array("one");
+|LiveURL=http://code.webplatform.org/gist/8856471
+}}{{Single Example
+|Language=JavaScript
+|Description=If a single value is passed to the '''Array''' constructor, and it is not a number, the '''length''' property is set to 1, and the value of the only element becomes the single, passed-in argument.
+|Code= var arr = new Array("one");
  document.write(arr.length);
  document.write("&lt;br/&gt;");
  document.write(arr[0]);
  
  // Output:
- 1
- one
-JavaScript arrays are sparse arrays, which means that not all the elements in an array may contain data. In JavaScript, only the elements that actually contain data exist in the array. This reduces the amount of memory used by the array.
+ // 1
+ // one
+|LiveURL=http://code.webplatform.org/gist/8856494
+}}
+}}
+{{Remarks_Section
+|Remarks=Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
+<pre>var myArray = new Array();</pre>
+But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets [] and list out what should be in the array:
+<pre>var myAnimals = ["cat", "dog", "rabbit"];</pre>
+Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression new Array(). (For more information, see Stoyan Stefanov's JavaScript Patterns.)
+Your array can consist of different values and types. Here's an array that provides describes my dog:
+<pre>var goodDog = ["Rover", 7, true];</pre>
+This array combines a string, a number and a Boolean value.
+An array is often called a zero-indexed, or zero-based index, because the numerical key, or index, starts at zero. (prof.dr. Edsger W. Dijkstra gives a reason why numbering should start at zero.) This means you can refer to the items in your array by referencing the index. So in goodDog, above, you reference the dog's name with goodDog[0], or his age with goodDog[1], or whether he is, indeed, a good dog with goodDog[3].
+Arrays can be dimensional as well. This helps when your setting up something that has row and column patterns, such as seats in a theatre or a checkerboard. So, for example, to describe a college dormitory that has 5 beds per floor and 2 floors, you can set up a two-dimensional array that looks like the following:
+
+<pre>
+var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5], 
+            [2,1], [2,2], [2,3], [2,4], [2,5]];
+</pre>
+
+JavaScript arrays are referred to as "sparse," which means that not all the elements in an array may contain data. In JavaScript, only the elements that actually contain data exist in the array. This reduces the amount of memory used by the array.
+
+Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
 }}
 {{Notes_Section}}
 Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
