@@ -92,7 +92,7 @@ arr = new Array(1.50);
 |LiveURL=http://code.webplatform.org/gist/8856494
 }}{{Single Example
 |Language=JavaScript
-|Description=Adding members, to an array can be done by using the prototypal inheritance chain and call the <pre>push()</pre> method on it.
+|Description=Adding members, to an array can be done by using the prototypal inheritance chain and call the <code>push()</code> method on it.
 |Code=var ponies = ['Twilight Sparkle','Pinkie Pie','Rainbow Dash'];
 
 // Adding a new member
