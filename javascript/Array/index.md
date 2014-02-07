@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Unreviewed Import
 |Checked_Out=No
 }}
 {{Summary_Section|Provides support for creation of arrays of any data type.
@@ -56,13 +57,14 @@ If the only argument is not a Number, then the length property of the newly cons
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in JavaScript are zero-based.
-|Code=var my_array = new Array();
+|Description=After an array is created, you can access the individual elements of the array by using [n] notation. Note that unlike other programming languages, arrays keys are only numeric. Keys starts by 0.
+|Code=// Literal notation
+var my_array = [];
  for (i = 0; i &lt; 10; i++) {
      my_array[i] = i;
  }
  x = my_array[4];
- document.write(x);
+console.log(x);
  
 // Output: 4
 |LiveURL=http://code.webplatform.org/gist/8856397
@@ -70,20 +72,18 @@ If the only argument is not a Number, then the length property of the newly cons
 |Language=JavaScript
 |Description=You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 |Code=var arr = new Array(10);
- document.write(arr.length
+document.write(arr.length);
+// Output: 10
  
- // Output: 10
- 
- // Don't do this
- var arr = new Array(-1);
- arr = new Array(1.50);
+// Don't do this
+var arr = new Array(-1);
+arr = new Array(1.50);
 |LiveURL=http://code.webplatform.org/gist/8856471
 }}{{Single Example
 |Language=JavaScript
 |Description=If a single value is passed to the '''Array''' constructor, and it is not a number, the '''length''' property is set to 1, and the value of the only element becomes the single, passed-in argument.
 |Code=var arr = new Array("one");
  document.write(arr.length);
- document.write("&lt;br/&gt;");
  document.write(arr[0]);
  
  // Output:
@@ -98,7 +98,9 @@ If the only argument is not a Number, then the length property of the newly cons
 {{Notes_Section
 |Usage=Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
 <pre>var myArray = new Array();</pre>
+
 But a more efficient way is to use what’s called the literal notation. An array literal is created without using the new keyword. Instead, you use the square brackets <code>[]</code> and list out what should be in the array:
+
 <pre>var myAnimals = ["cat", "dog", "rabbit"];</pre>
 Using an array literal to declare your array this way avoids some of the quirkiness of the creation expression <code>new Array()</code>. (For more information, see Stoyan Stefanov's JavaScript Patterns.)
 Your array can consist of different values and types. Here's an array that provides describes my dog:
