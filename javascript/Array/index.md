@@ -33,13 +33,13 @@ Arrays are a useful kind of object for many reasons. For example, because the ke
 |Format=new Array([ len ])
 }}
 |Values={{JS Syntax Parameter
-|Name=length
-|Required=Optional
-|Description=The length of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
-}}{{JS Syntax Parameter
 |Name=element0,...,elementN
 |Required=Optional
 |Description=The elements to place in the array. This creates an array with n + 1 elements, and a '''length''' of n + 1. Using this syntax, you must supply more than one element.
+}}{{JS Syntax Parameter
+|Name=length
+|Required=Optional
+|Description=The length of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
 }}
 }}
 {{JS_Return_Value
