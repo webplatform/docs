@@ -17,7 +17,7 @@
 |Data Type=<basic-shape>
 |Description=The shape is computed based on the values of one of ''inset, circle, ellipse'' or ''polygon''.  If shape-box is not supplied, then the reference box defaults to margin-box.
 
-* <code>inset(&lt;shape-arg&gt;{1,4} [round&lt;border-radius&gt;])</code>. Defines an inset rectangle. The basic syntax for inset is the same as the margin shorthand syntax (see [[css/properties/margin|margin]] for details).  The optional border-radius argument  defines an inset's rounded corners using the border-radius shorthand syntax (see [[css/properties/border-radius|border-radius]] for details).
+* <code>inset(&lt;shape-arg&gt;{1,4} [round &lt;border-radius&gt;])</code>. Defines an inset rectangle. The basic syntax for inset is the same as the margin shorthand syntax (see [[css/properties/margin|margin]] for details).  The optional border-radius argument  defines an inset's rounded corners using the border-radius shorthand syntax (see [[css/properties/border-radius|border-radius]] for details).
 
 * <code>circle([&lt;shape-radius&gt;] [at &lt;position&gt;])</code> The shape-radius argument is the radius of the circle. The position argument defines the center point of the circle and has the same syntax as background-position (see [[css/properties/background-position|background-position]] for details).
 
@@ -40,9 +40,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following clip-path definition creates a rectangular clip path with rounded corners.
+|Description=The following clip-path definition creates a rectangular clipping path with rounded corners.
 |Code=#image {
-    clip-path: rectangle(0%, 0%, 100%, 100%, 20%, 20%); 
+    clip-path: inset(10% 10% 10% 10% round 20%, 20%); 
 }
 }}{{Single Example
 |Language=CSS
@@ -73,7 +73,7 @@ img.clipped-text {
   /**
    * This clips the image leaving only the text visible.
    */
-  clip-path: ellipse(125px, 40px, 65px, 30px);
+  clip-path: ellipse(65px 30px at 125px 40px);
 }
 |LiveURL=http://code.webplatform.org/gist/6338479
 }}{{Single Example
