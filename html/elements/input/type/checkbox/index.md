@@ -15,7 +15,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<input type="checkbox" name="FirstName" value="Test">
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
