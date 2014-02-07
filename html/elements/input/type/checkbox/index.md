@@ -17,7 +17,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<input type="checkbox" name="FirstName" value="Test">
+|Code=<input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car"> I have a car
 }}
 }}
 {{Notes_Section
