@@ -26,43 +26,54 @@ Arrays are a useful kind of object for many reasons. For example, because the ke
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=[ element0 [, element1 [, ...[, elementN ]]]]
-
 }}{{JS Syntax Format
 |Format=new Array([ element0 [, element1 [, ...[, elementN ]]]])
 }}{{JS Syntax Format
-|Format=new Array([ size ])
+|Format=new Array([ len ])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=The variable name to which the '''Array''' object is assigned.
-}}{{JS Syntax Parameter
-|Name=size
+|Name=length
 |Required=Optional
-|Description=The size of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
+|Description=The length of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
 }}{{JS Syntax Parameter
 |Name=element0,...,elementN
 |Required=Optional
 |Description=The elements to place in the array. This creates an array with n + 1 elements, and a '''length''' of n + 1. Using this syntax, you must supply more than one element.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=When no arguments are provided, creates and returns a new Array object, with a length property (whose initial value is +0).
+
+When multiple arguments are provided, creates and returns a new Array object with the elements provided, with a length property the number of arguments + 1.
+
+And if only one Number is provided as the argument, with argument len is a Number and ToUint32(len) (an unsigned 32-bit integer), then the length property of the newly constructed object is set to ToUint32(len).
+
+If the only argument is a Number and ToUint32(len) is not equal to len, a RangeError exception is thrown.
+
+If the only argument is not a Number, then the length property of the newly constructed object is set to 1 and the 0 property of the newly constructed object is set to len.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Remarks_Section
-|Remarks=After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in JavaScript are zero-based.
-
- var my_array = new Array();
+|Examples={{Single Example
+|Language=JavaScript
+|Description=After an array is created, you can access the individual elements of the array by using [ ] notation. Note that arrays in JavaScript are zero-based.
+|Code= var my_array = new Array();
  for (i = 0; i &lt; 10; i++) {
      my_array[i] = i;
  }
  x = my_array[4];
  document.write(x);
  
- // Output: 4
-You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
+// Output: 4
+
+}}{{Single Example
+|Language=JavaScript
+|Description=
+
+}}{{Single Example}}
+}}
+{{Remarks_Section
+|Remarks=You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 
  var arr = new Array(10);
  document.write(arr.length
