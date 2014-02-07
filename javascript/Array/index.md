@@ -93,8 +93,7 @@ If the only argument is not a Number, then the length property of the newly cons
 }}
 }}
 {{Remarks_Section
-|Remarks=JavaScript arrays are referred to as "sparse," which means that elements in an array can be undefined and deleted. 
-
+|Remarks=JavaScript arrays are referred to as "sparse," which means that elements in an array can be undefined and deleted. The keys, or index, are not reordered into a denser table, unless you do so, explicitly.
 }}
 {{Notes_Section
 |Usage=Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression <code>new Array()</code>, as in:
