@@ -13,7 +13,7 @@
 
 ==Attributes==
 
-A '''abbr''' element may optionally have an [[html/attributes|attribute]]. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else. The '''abbr''' element can accept any attributes permitted globally. 
+A '''abbr''' element may optionally have a title [[html/attributes|attribute]]. The attribute, if specified, must contain an expansion of the abbreviation, and nothing else. The '''abbr''' element can accept any attributes permitted globally. 
 }}
 {{Examples_Section
 |Not_required=No
