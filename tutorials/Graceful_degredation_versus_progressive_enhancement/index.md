@@ -2,7 +2,12 @@
  
 In this part of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] we discuss the difference between two development approaches: graceful degradation and progressive enhancement. Putting things simply, here are working definitions:
 
-Graceful degradation Providing an alternative version of your functionality or making the user aware of shortcomings of a product as a safety measure to ensure that the product is usable. Progressive enhancement Starting with a baseline of usable functionality, then increasing the richness of the user experience step by step by testing for support for enhancements before applying them.  
+'''Graceful degradation''' <br />
+Providing an alternative version of your functionality or making the user aware of shortcomings of a product as a safety measure to ensure that the product is usable. 
+
+'''Progressive enhancement'''<br />
+Starting with a baseline of usable functionality, then increasing the richness of the user experience step by step by testing for support for enhancements before applying them.  
+
 You may think that these two approaches sound very similar, and that they should give you pretty much the same result, but there are differences to take note of, which we’ll look at below.
  
 We’ll start by explaining the need for these techniques. Then we’ll look at a deeper definition, showing implementation examples and following up with a comparison and a guide to when you should use which. Let’s start by explaining why we need such special development approaches to web development.
