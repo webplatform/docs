@@ -423,7 +423,7 @@ Next you can create the CSS for the little logos. As usual, you can start by def
 /* general case */
 
 .navigation span {
-  '''background:url (sprite_logo.gif) no-repeat left top;'''
+  background:url(sprite_logo.gif) no-repeat left top;
   height:15px;
   width: 15px; 
   margin-right:20px;
@@ -438,15 +438,15 @@ With the basic formatting completed, you can now define the exceptions, or ''wha
 /* exceptions */
 
 #rss span {
-  '''background-position: -15px 0;'''
+  background-position: -15px 0;
 }
 
 #photos span {
-  '''background-position: -30px 0;'''
+  background-position: -30px 0;
 }
 
 #links span {
-  '''background-position: -45px 0;'''
+  background-position: -45px 0;
 }
 </syntaxhighlight>
  
@@ -454,7 +454,10 @@ This example might seem intimidating at first. Keep your focus on the background
  
 Experiment with the background position values in the [http://dev.opera.com/articles/view/31-css-background-images/sprite.html finished example], to better understand how to adjust sprite positioning.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=on 02/10/2014 arond 1500 central std time:
+hoffmant99 made minor changes to make sprite example work, though the student(reader of this page) needs to be aware that the file names don't match.  This can be fixed locally, change the name from "sprite_logo" to "sprite_l" and" sprite_gradient_bkg.jpg" to sprite_g.jpg".
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
