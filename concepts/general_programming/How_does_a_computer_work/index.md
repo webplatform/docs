@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 }}
-{{Summary_Section|So, you think your computer is smart? It can do math faster than most people, even complex physics and acocunting algorithms. How does it do that?}}
+{{Summary_Section|So, you think your computer is smart? It can do math faster than most people, even complex physics and accounting algorithms. How does it do that?}}
 {{Basic Page}}
 ==Computers are Stupid==
 Computers are actually pretty stupid. They are very good at following directions, but we still have not built the computer that can truly think for itself. The computers that look like they think for themselves are still following the directions given them by the developer. Even when a computer seems to be misbehaving, it is still following the directions (poor as they may be) the developer gave it.
