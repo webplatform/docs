@@ -1,21 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLElement
-|Read_only=
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example demonstrates how to use the [[dom/traversal/methods/createRange (selection)|'''createRange''']] method to retrieve the '''controlRange''' collection.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/controlrange.htm
-|Code=
-...
+|Examples={{Single Example
+|Description=This example demonstrates how to use the [[dom/Selection/createRange|'''createRange''']] method to retrieve the '''controlRange''' collection.
+|Code=...
 function fnChangeFontFamily    (){
   if (document.selection.type {{=}}{{=}} "Control"){ 
     var oControlRange {{=}} document.selection.createRange();
@@ -37,29 +37,33 @@ function fnChangeFontFamily    (){
         font-size:14pt; font-weight:normal; color:white"&gt;Verdana&lt;/DIV&gt;
 &lt;/SPAN&gt;&lt;BR/&gt;
 ...
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/controlrange.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-Instead of using the collection's [[dom/traversal/methods/item (controlRange)|'''item''']] method, you can use an index to directly access an element in the collection. For example, the element returned from the collection represented by <code>oColl(0)</code> is the same as the element returned by <code>oColl.item(0)</code>.
+|Notes====Remarks===
+Instead of using the collection's [[dom/HTMLCollection/item|'''item''']] method, you can use an index to directly access an element in the collection. For example, the element returned from the collection represented by <code>oColl(0)</code> is the same as the element returned by <code>oColl.item(0)</code>.
 The '''controlRange''' collection is available as of Microsoft Internet Explorer 5.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/traversal/methods/createControlRange|createControlRange]]</code>
-*<code>[[dom/traversal/methods/createRange (selection)|createRange]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
