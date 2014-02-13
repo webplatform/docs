@@ -19,7 +19,7 @@ In the late 19th century, George Boole defined a system of logical algebra. Esse
 There are four simple Boolean logic operations: <code>NOT</code>, <code>OR</code>, <code>AND</code>, and <code>XOR</code>. Each of these operations has an associated "truth table", a table that defines when, based on the input given it, the operation will result in a true value (and, conversely, a false value). <code>NOT A</code> returns the opposite of A: if A is true, the result is false; if A is false, the result is true. <code>A AND B</code> returns true only if <code>A</code> is true <u>and</u> <code>B</code> is true. <code>A OR B</code> returns true if at least <code>A</code> is true <u>or</u> <code>B</code> is true. <code>A XOR B</code> returns true only if <code>A</code> is true <u>or</u> <code>B</code> is true, but not if both are true.
 
 The last paragraph described the results of these operations. However, would it be called a truth table if it failed to look like a table? Here is a truth table for the <code>NOT</code> operation. The <code>NOT</code> operation is known as a unary operation because it only takes one input (thus the un- prefix).
-{| summary="Truth table for NOT operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for NOT operation"
 |+ <code>NOT</code> Truth Table
 |-
 ! A &rarr;
@@ -33,7 +33,7 @@ The last paragraph described the results of these operations. However, would it 
 How do I read this truth table? Across the top, you have the value of <code>A</code>. Underneath each value of <code>A</code>, you have the corresponding result. If the value of <code>A</code> is <code>False</code>, the result is <code>True</code>; if the value of <code>A</code> is <code>True</code>, the result is <code>False</code>.
 
 That should be pretty understandable, but the computer deals in ones and zeros, right? Now we translate that same truth table into ones and zeros.
-{| summary="Truth table for NOT operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for NOT operation"
 |+ <code>NOT</code> Truth Table
 |-
 ! A &rarr;
@@ -45,7 +45,7 @@ That should be pretty understandable, but the computer deals in ones and zeros, 
 | 0
 |}
 Pretty simple, yes? Take a look at the other truth tables. Notice that they take two inputs, <code>A</code> and <code>B</code>. The remaining operations are known as binary operations because they take two inputs (thus the bi- prefix). Notice that we now have a grid of results because we have two inputs and the axes are labeled across the top and down the left. Look at each value in the grid and see what value of <code>A</code> and what value of <code>B</code> produced that result. Does the truth table reflect the logic of the operation? If <code>A</code> is <code>1</code> <code>AND</code> <code>B</code> is <code>1</code>, is the result <code>1</code>?
-{| summary="Truth table for AND operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for AND operation"
 |+ <code>AND</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -60,7 +60,7 @@ Pretty simple, yes? Take a look at the other truth tables. Notice that they take
 | 0
 | 1
 |}
-{| summary="Truth table for OR operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for OR operation"
 |+ <code>OR</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -75,7 +75,7 @@ Pretty simple, yes? Take a look at the other truth tables. Notice that they take
 | 1
 | 1
 |}
-{| summary="Truth table for XOR operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for XOR operation"
 |+ <code>XOR</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -91,7 +91,7 @@ Pretty simple, yes? Take a look at the other truth tables. Notice that they take
 | 0
 |}
 So, those are the basic logic operations. Of course, Boole developed logic algebra, so we cannot leave it at simple operations, can we? However, everything else can be represented as a combination of these simple operations. Just as multiplication can be derived from addition and exponents can be derived from multiplication, so more complex Boolean logic operations can be derived from simple logic operations. Here are some slightly more complex logic operations: <code>NAND</code>, <code>NOR</code>, and <code>XNOR</code>. All of these operations are the result of a simple operation passed through the <code>NOT</code> operation, i.e., inverted.
-{| summary="Truth table for NAND operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for NAND operation"
 |+ <code>NAND</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -106,7 +106,7 @@ So, those are the basic logic operations. Of course, Boole developed logic algeb
 | 1
 | 0
 |}
-{| summary="Truth table for NOR operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for NOR operation"
 |+ <code>NOR</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -121,7 +121,7 @@ So, those are the basic logic operations. Of course, Boole developed logic algeb
 | 0
 | 0
 |}
-{| summary="Truth table for XNOR operation" style="white-space: nowrap; width: 1%"
+{| class="wikitable" summary="Truth table for XNOR operation"
 |+ <code>XNOR</code> Truth Table
 |-
 ! B &darr; A &rarr;
@@ -155,7 +155,7 @@ Now we extend this to octal. Just as decimal, base 10, has ten digits, so octal,
 Hexadecimal works much the same way, but we need to come up with more digits. Our decimal system only has ten digits, but a hexadecimal system, base 16, needs sixteen digits. As a result, we use the first six letters of the English alphabet to supplement, meaning that hexadecimal digits start at 0 and go to F. (Technically, case doesn't matter, so bd and BD are the same number. This article will use uppercase.) So you get to F<sub>16</sub> and the next number, 16<sub>10</sub>, is represented as 10<sub>16</sub> (1 &times; 16<sup>1</sup> + 0 &times; 16<sup>0</sup>). The next place is introduced when you get to 256<sub>10</sub>, which is written as 100<sub>16</sub> (1 &times; 16<sup>2</sup> + 0 &times; 16<sup>1</sup> + 0 &times; 16<sup>0</sup>).
 
 Do you remember how I said that octal and hexadecimal are used because they have these nice ratios to binary digits (one octal digit to three binary digits, one hexadecimal digit to four binary digits)? We can look at a couple of examples. Take a look at this table.
-{| style="white-space: nowrap; width: 1%" summary="Comparison of binary to octal and hexadecimal"
+{| summary="Comparison of binary to octal and hexadecimal"
 |+ Comparing binary to octal and hexadecimal
 ! Binary
 ! Octal
@@ -281,7 +281,7 @@ If you compare the binary and the octal, you will notice that the right-most oct
 Data and memory are measured in bits, nibbles, bytes, and pseudo-metric extensions of bits and bytes. A bit is stored with a single switch and its value can be represented by exactly one binary digit. A nibble is four bits and its value can be represented by exactly one hexadecimal digit. A byte is eight bits (two nibbles) and its value can be represented by two hexadecimal digits.
 ===Measuring bytes===
 What do I mean by pseudo-metric extensions of bits and bytes? A kilometer is 1,000 meters, right? When first measuring large amounts of memory, metric prefixes were used to represent powers of two approximately equal to the corresponding metric prefix. Thus, a kilobyte was 1,024 (2<sup>10</sup>) bytes, not 1,000 bytes. A megabyte was 1,024 kilobytes, not 1,000 kilobytes. Even though the <abbr title="International Electrotechnical Commission">IEC</abbr> has recommended the use of modified prefixes (kibi-, mebi-, gibi-, etc.), many people still use the standard metric prefixes.
-{| style="white-space: nowrap; width: 1%" summary="Metric prefixes used for memory quantities and their equivalents"
+{| class="wikitable" summary="Metric prefixes used for memory quantities and their equivalents"
 |+ Metric prefixes for memory
 ! Unit
 ! Exponent
