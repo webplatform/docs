@@ -14,7 +14,7 @@ As the first-level pages are written to cover the second-level topics, remove th
 ==Computer Organization and Architecture==
 * [[concepts/general_programming/What_is_in_a_Computer|What is in a computer?]]
 * [[concepts/general_programming/How_does_a_computer_work|How does a computer work?]]
-* How does a computer run applications?
+* [[concepts/general_programming/How_does_a_computer_run_applications|How does a computer run applications?]]
 ** Machine code [http://en.wikipedia.org/wiki/Machine_code]
 ** Registers, instruction address, heap, stack
 ** Introduce assembler language
