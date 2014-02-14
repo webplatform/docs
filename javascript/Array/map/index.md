@@ -1,25 +1,107 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Calls a defined callback function on each element of an array, and returns an array that contains the results.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array1.map( callbackfn [, thisArg ])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Calls a defined callback function on each element of an array, and returns an array that contains the results.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array1.map( callbackfn [, thisArg ])
+}}
+|Values={{JS Syntax Parameter
 |Name=array1
 |Required=Required
-|Description=An array object.}}{{JS_Syntax_Parameter
+|Description=An array object.
+}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
-|Description=A function that accepts up to three arguments. The '''map''' method calls the callbackfn function one time for each element in the array.}}{{JS_Syntax_Parameter
+|Description=A function that accepts up to three arguments. The '''map''' method calls the callbackfn function one time for each element in the array.
+}}{{JS Syntax Parameter
 |Name=thisArg
 |Required=Optional
-|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.}}
+|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+}}
 }}
 {{JS_Return_Value
-|Description=A new array in which each element is the callback function return value for the associated original array element.}}
-==Exceptions==
-If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
+|Description=A new array in which each element is the callback function return value for the associated original array element.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the '''map''' method.
+|Code=// Define the callback function.
+ function AreaOfCircle(radius) {
+     var area = Math.PI * (radius * radius);
+     return area.toFixed(0);
+ }
+ 
+ // Create an array.
+ var radii = [10, 20, 30];
+ 
+ // Get the areas from the radii.
+ var areas = radii.map(AreaOfCircle);
+ 
+ document.write(areas);
+ 
+ // Output:
+ // 314,1257,2827
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
+|Code=// Define an object that contains a divisor property and
+ // a remainder function.
+ var obj = {
+     divisor: 10,
+     remainder: function (value) {
+         return value % this.divisor;
+     }
+ }
+ 
+ // Create an array.
+ var numbers = [6, 12, 25, 30];
+ 
+ // Get the remainders.
+ // The obj argument specifies the this value in the callback function.
+ var result = numbers.map(obj.remainder, obj);
+ document.write(result);
+ 
+ // Output:
+ // 6,2,5,0
+}}{{Single Example
+|Language=JavaScript
+|Description=In the following example, a built-inJavaScript method is used as the callback function.
+|Code=// Apply Math.sqrt(value) to each element in an array.
+ var numbers = [9, 16];
+ var result = numbers.map(Math.sqrt);
+ 
+ document.write(result);
+ // Output: 3,4
+}}{{Single Example
+|Language=JavaScript
+|Description=The '''map''' method can be applied to a string. The following example illustrates this.
+|Code=// Define the callback function.
+ function threeChars(value, index, str) {
+     // Create a string that contains the previous, current,
+     // and next character.
+     return str.substring(index - 1, index + 2);
+ }
+ 
+ // Create a string.
+ var word = "Thursday";
+ 
+ // Apply the map method to the string.
+ // Each array element in the result contains a string that
+ // has the previous, current, and next character.
+ // The commented out statement shows an alternative syntax.
+ var result = [].map.call(word, threeChars);
+ // var result = Array.prototype.map.call(word, threeChars);
+ 
+ document.write(result);
+ 
+ // Output:
+ // Th,Thu,hur,urs,rsd,sda,day,ay
+}}
+}}
 {{Remarks_Section
 |Remarks=The '''map''' method calls the callbackfn function one time for each element in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -67,97 +149,23 @@ The following table describes the results of modifying the array object after th
 {{!}}-
 {{!}} Element is deleted from the array.
 {{!}} No, unless that element has already been passed to the callback function.
-{{!}}} 
+{{!}}}
+
+==Exceptions==
+If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''map''' method.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= // Define the callback function.
- function AreaOfCircle(radius) {
-     var area = Math.PI * (radius * radius);
-     return area.toFixed(0);
- }
- 
- // Create an array.
- var radii = [10, 20, 30];
- 
- // Get the areas from the radii.
- var areas = radii.map(AreaOfCircle);
- 
- document.write(areas);
- 
- // Output:
- // 314,1257,2827
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
-
-|Code= // Define an object that contains a divisor property and
- // a remainder function.
- var obj = {
-     divisor: 10,
-     remainder: function (value) {
-         return value % this.divisor;
-     }
- }
- 
- // Create an array.
- var numbers = [6, 12, 25, 30];
- 
- // Get the remainders.
- // The obj argument specifies the this value in the callback function.
- var result = numbers.map(obj.remainder, obj);
- document.write(result);
- 
- // Output:
- // 6,2,5,0
-}}{{Single_Example
-|Language=JavaScript
-|Description=In the following example, a built-inJavaScript method is used as the callback function.
-
-|Code= // Apply Math.sqrt(value) to each element in an array.
- var numbers = [9, 16];
- var result = numbers.map(Math.sqrt);
- 
- document.write(result);
- // Output: 3,4
-}}{{Single_Example
-|Language=JavaScript
-|Description=The '''map''' method can be applied to a string. The following example illustrates this.
-
-|Code= // Define the callback function.
- function threeChars(value, index, str) {
-     // Create a string that contains the previous, current,
-     // and next character.
-     return str.substring(index - 1, index + 2);
- }
- 
- // Create a string.
- var word = "Thursday";
- 
- // Apply the map method to the string.
- // Each array element in the result contains a string that
- // has the previous, current, and next character.
- // The commented out statement shows an alternative syntax.
- var result = [].map.call(word, threeChars);
- // var result = Array.prototype.map.call(word, threeChars);
- 
- document.write(result);
- 
- // Output:
- // Th,Thu,hur,urs,rsd,sda,day,ay
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/methods{{!}}JavaScript Methods]]
 * [[javascript/Array{{!}}Array Object]]
 * [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array/forEach{{!}}forEach Method (Array)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
