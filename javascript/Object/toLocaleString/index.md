@@ -1,10 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a date converted to a string using the current locale.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''toLocaleString()''' }}
+{{Summary_Section|Returns a date converted to a string using the current locale.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''toLocaleString()'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the '''toLocaleString''' method.
+|Code=function toLocaleStrDemo(){   
+    var d, s;                      //Declare variables.
+    d = new Date();                //Create Date object.
+    s = "Current setting is ";
+    s += d.toLocaleString() ;       //Convert to current locale.
+    return(s);                     //Return converted date
+ }
+}}
 }}
 {{Remarks_Section
 |Remarks=The required dateObj is any Date object.
@@ -17,25 +35,16 @@ For example, in the United States, '''toLocaleString''' returns "01/05/96 00:00:
 
 '''Note''' -- '''toLocaleString''' should only be used to display results to a user; it should never be used as the basis for computation within a script as the returned result is machine-specific.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''toLocaleString''' method.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= function toLocaleStrDemo(){   
-    var d, s;                      //Declare variables.
-    d = new Date();                //Create Date object.
-    s = "Current setting is ";
-    s += d.toLocaleString() ;       //Convert to current locale.
-    return(s);                     //Return converted date
- }
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+|Applies to=Array
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
