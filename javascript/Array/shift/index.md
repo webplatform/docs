@@ -1,17 +1,23 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Removes the first element from an array and returns it.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= arrayObj.shift( )}}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=The required arrayObj reference is an '''Array''' object.}}
+{{Summary_Section|Removes the first element from an array and returns it.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=arrayObj.shift( )
+}}
+|Values={{JS Syntax Parameter
+|Description=The required arrayObj reference is an '''Array''' object.
+}}
 }}
 {{JS_Return_Value
-|Description=Returns the element removed from the array.}}
+|Description=Returns the element removed from the array.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks=The following example illustrates the use of the shift method.
 
@@ -25,11 +31,15 @@
  // Output: 
  // 10 11 12
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+
 {{See_Also_Section
 |Manual_links=* [[javascript/Array/unshift{{!}}unshift Method (Array)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
