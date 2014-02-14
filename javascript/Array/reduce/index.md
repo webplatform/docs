@@ -1,28 +1,114 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array1.reduce( callbackfn [, initialValue ])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array1.reduce( callbackfn [, initialValue ])
+}}
+|Values={{JS Syntax Parameter
 |Name=array1
 |Required=Required
-|Description=An array object.}}{{JS_Syntax_Parameter
+|Description=An array object.
+}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
-|Description=A function that accepts up to four arguments. The '''reduce''' method calls the callbackfn function one time for each element in the array.}}{{JS_Syntax_Parameter
+|Description=A function that accepts up to four arguments. The '''reduce''' method calls the callbackfn function one time for each element in the array.
+}}{{JS Syntax Parameter
 |Name=initialValue
 |Required=Optional
-|Description=If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.}}
+|Description=If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
+}}
 }}
 {{JS_Return_Value
-|Description=The accumulated result from the last call to the callback function.}}
-==Exceptions==
-A '''TypeError''' exception is thrown when either of the following conditions is true:
-
-* The callbackfn argument is not a function object.
-* The array contains no elements and initialValue is not provided.
+|Description=The accumulated result from the last call to the callback function.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the '''reduce''' method, the first call to the callback function has "abc" as the previousValue argument and "def" as the currentValue argument.
+|Code=// Define the callback function.
+ function appendCurrent (previousValue, currentValue) {
+     return previousValue + "::" + currentValue;
+     }
+ 
+ // Create an array.
+ var elements = ["abc", "def", 123, 456];
+ 
+ // Call the reduce method, which calls the callback function
+ // for each array element.
+ var result = elements.reduce(appendCurrent);
+ 
+ document.write(result);
+ 
+ // Output:
+ //  abc::def::123::456
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example adds the values of an array after they have been rounded. The '''reduce''' method is called with an initial value of 0.
+|Code=// Define the callback function.
+ function addRounded (previousValue, currentValue) {
+     return previousValue + Math.round(currentValue);
+     }
+ 
+ // Create an array.
+ var numbers = [10.9, 15.4, 0.5];
+ 
+ // Call the reduce method, starting with an initial value of 0.
+ var result = numbers.reduce(addRounded, 0);
+ 
+ document.write (result);
+ // Output: 27
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example adds the values in an array. The currentIndex and array1 parameters are used in the callback function.
+|Code=function addDigitValue(previousValue, currentDigit, currentIndex, array) {
+     var exponent = (array.length - 1) - currentIndex;
+     var digitValue = currentDigit * Math.pow(10, exponent);
+     return previousValue + digitValue;
+     }
+ 
+ var digits = [4, 1, 2, 5];
+ 
+ // Determine an integer that is computed from values in the array.
+ var result = digits.reduce(addDigitValue, 0);
+ 
+ document.write (result);
+ // Output: 4125
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example gets an array that contains only those values that are between 1 and 10 in another array. The initial value provided to the '''reduce''' method is an empty array.
+|Code=function Process(previousArray, currentValue) {
+     // If currentValue is between 1 and 10, 
+     // append currentValue to the array.
+     var nextArray;
+     if (currentValue &gt;= 1 &amp;&amp; currentValue &lt;= 10)
+         nextArray = previousArray.concat(currentValue);
+     else
+         nextArray = previousArray;
+ 
+     // If this is not the last call by the reduce method,
+     // the returned array is previousArray on the next call.
+     // If this is the last call by the reduce method, the
+     // returned array is the return value of the reduce method.
+     return nextArray;
+ }
+ 
+ // Create an array.
+ var numbers = [20, 1, -5, 6, 50, 3];
+ 
+ // Call the reduce method, starting with an initial empty array.
+ var emptyArray = new Array();
+ var resultArray = numbers.reduce(Process, emptyArray);
+ 
+ document.write("result array=" + resultArray);
+ 
+ // Output:
+ // result array=1,6,3
+}}
+}}
 {{Remarks_Section
 |Remarks=If an initialValue is provided, the '''reduce''' method calls the callbackfn function one time for each element present in the array, in ascending index order. If an initialValue is not provided, the '''reduce''' method calls the callbackfn function on each element, starting with the second element.
 
@@ -87,101 +173,23 @@ The following table describes the results of modifying the array object after th
 {{!}}-
 {{!}} Element is deleted from the array.
 {{!}} No, unless that element has already been passed to the callback function.
-{{!}}} 
+{{!}}}
+
+==Exceptions==
+A '''TypeError''' exception is thrown when either of the following conditions is true:
+
+* The callbackfn argument is not a function object.
+* The array contains no elements and initialValue is not provided.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example concatenates array values into a string, separating the values with "::". Because no initial value is provided to the '''reduce''' method, the first call to the callback function has "abc" as the previousValue argument and "def" as the currentValue argument.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= // Define the callback function.
- function appendCurrent (previousValue, currentValue) {
-     return previousValue + "::" + currentValue;
-     }
- 
- // Create an array.
- var elements = ["abc", "def", 123, 456];
- 
- // Call the reduce method, which calls the callback function
- // for each array element.
- var result = elements.reduce(appendCurrent);
- 
- document.write(result);
- 
- // Output:
- //  abc::def::123::456
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example adds the values of an array after they have been rounded. The '''reduce''' method is called with an initial value of 0.
-
-|Code= // Define the callback function.
- function addRounded (previousValue, currentValue) {
-     return previousValue + Math.round(currentValue);
-     }
- 
- // Create an array.
- var numbers = [10.9, 15.4, 0.5];
- 
- // Call the reduce method, starting with an initial value of 0.
- var result = numbers.reduce(addRounded, 0);
- 
- document.write (result);
- // Output: 27
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example adds the values in an array. The currentIndex and array1 parameters are used in the callback function.
-
-|Code= function addDigitValue(previousValue, currentDigit, currentIndex, array) {
-     var exponent = (array.length - 1) - currentIndex;
-     var digitValue = currentDigit * Math.pow(10, exponent);
-     return previousValue + digitValue;
-     }
- 
- var digits = [4, 1, 2, 5];
- 
- // Determine an integer that is computed from values in the array.
- var result = digits.reduce(addDigitValue, 0);
- 
- document.write (result);
- // Output: 4125
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example gets an array that contains only those values that are between 1 and 10 in another array. The initial value provided to the '''reduce''' method is an empty array.
-
-|Code= function Process(previousArray, currentValue) {
-     // If currentValue is between 1 and 10, 
-     // append currentValue to the array.
-     var nextArray;
-     if (currentValue &gt;= 1 &amp;&amp; currentValue &lt;= 10)
-         nextArray = previousArray.concat(currentValue);
-     else
-         nextArray = previousArray;
- 
-     // If this is not the last call by the reduce method,
-     // the returned array is previousArray on the next call.
-     // If this is the last call by the reduce method, the
-     // returned array is the return value of the reduce method.
-     return nextArray;
- }
- 
- // Create an array.
- var numbers = [20, 1, -5, 6, 50, 3];
- 
- // Call the reduce method, starting with an initial empty array.
- var emptyArray = new Array();
- var resultArray = numbers.reduce(Process, emptyArray);
- 
- document.write("result array=" + resultArray);
- 
- // Output:
- // result array=1,6,3
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Array/reduceRight{{!}}reduceRight Method (Array)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
