@@ -1,17 +1,23 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the primitive value of the specified object.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array.valueOf()}}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=This method has no parameters.}}
+{{Summary_Section|Returns the primitive value of the specified object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array.valueOf()
+}}
+|Values={{JS Syntax Parameter
+|Description=This method has no parameters.
+}}
 }}
 {{JS_Return_Value
-|Description=Returns the array instance.}}
+|Description=Returns the array instance.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks=In the following example, the instantiated array object is the same as the return value of this method.
 
@@ -26,8 +32,13 @@
  // Output:
  // same
 }}
-{{Topics | JS Basic}}
+{{Notes_Section}}
+{{JS Object Listing}}
 
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
