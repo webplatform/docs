@@ -1,6 +1,7 @@
 {{Page_Title|Exploring the CSS layout model}}
 {{Flags
 |Content=Cleanup
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.}}
@@ -107,11 +108,25 @@ You can specify an element's position in four ways by specifying the {{ cssxref(
  
 These are advanced properties. It is possible to use them in simple ways—that is why they are mentioned in this basic tutorial. But using them for complex layouts can be difficult.
 
-   <code>relative</code> 
-    The element's position is shifted relative to its normal position. Use this to shift an element by a specified amount. You can sometimes use the element's margin to achieve the same effect.  <code>fixed</code> 
-    The element's position is fixed. Specify the element's position relative to the document window. Even if the rest of the document scrolls, the element remains fixed.  <code>absolute</code> 
-    The element's position is fixed relative to a parent element. Only a parent that is itself positioned with <code>relative</code>, <code>fixed</code> or <code>absolute</code> will do. You can make any parent element suitable by specifying <code>position: relative;</code> for it without specifying any shift.  <code>static</code> 
-    The default. Use this value if you need to turn positioning off explicitly.  
+<ul>
+<li>
+<p><code>relative</code></p>
+<p>The element's position is shifted relative to its normal position. Use this to shift an element by a specified amount. You can sometimes use the element's margin to achieve the same effect.</p>
+</li>
+<li>
+<p><code>fixed</code></p>
+<p>The element's position is fixed. Specify the element's position relative to the document window. Even if the rest of the document scrolls, the element remains fixed.</p>
+</li>
+<li>
+<p><code>absolute</code></p>
+<p>The element's position is fixed relative to a parent element. Only a parent that is itself positioned with <code>relative</code>, <code>fixed</code> or <code>absolute</code> will do. You can make any parent element suitable by specifying <code>position: relative;</code> for it without specifying any shift.</p>
+</li>
+<li>
+<p><code>static</code></p>
+<p>The default. Use this value if you need to turn positioning off explicitly.</p>
+</li>
+</ul>
+
 Along with these values of the <code>position</code> property (except for <code>static</code>), specify one or more of the properties: <code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code>, <code>width</code>, <code>height</code> to identify where you want the element to appear, and perhaps also its size.
  
 ===Positioning  example===
@@ -165,6 +180,7 @@ If you are designing stylesheets to work in many browsers, then you also need to
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
