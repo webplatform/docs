@@ -49,10 +49,15 @@ var ar = [];
 }}
 }}
 {{Remarks_Section}}
-{{Topics | JS Basic}}
+{{Notes_Section}}
+{{JS Object Listing}}
+
 {{See_Also_Section
 |Manual_links=* [[javascript/Array{{!}}Array Object]]
 * [[javascript/operators/typeof{{!}}typeof Operator]]
+}}
+{{JS Topics
+|JS Page Type=JS Function
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
