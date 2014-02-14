@@ -128,6 +128,7 @@ var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5],
 
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
 }}
+{{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''Array''' object.
 
@@ -239,6 +240,8 @@ The following table lists the methods of the '''Array''' object.
 | [[javascript/Array/valueOf|valueOf Method]]
 | Gets a reference to the array.
 |}
+
+{{Topics|JS Basic}}
 {{See_Also_Section
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript, by Mozilla Developer Network]
 * [http://eloquentjavascript.net/ Eloquent JavaScript: A Modern Introduction to Programming, by Marijn Haverbeke]
@@ -252,7 +255,10 @@ ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
 }}
-{{Topics|JS Basic}}
+{{JS Topics
+|JS Page Type=JS Object
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
