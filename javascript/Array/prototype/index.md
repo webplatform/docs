@@ -1,10 +1,18 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a reference to the prototype for a class of array.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array.prototype}}
+{{Summary_Section|Returns a reference to the prototype for a class of array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array.prototype
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The array argument is the name of an array.
@@ -32,8 +40,13 @@ All intrinsic JavaScript objects have a '''prototype''' property that is read-on
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 }}
-{{Topics | JS Basic}}
+{{Notes_Section}}
+{{JS Object Listing}}
 
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Property
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
