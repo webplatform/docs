@@ -1,17 +1,26 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= numVar = arrayObj.length }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=numVar = arrayObj.length
+}}
+|Values={{JS Syntax Parameter
 |Name=numVar
 |Required=Required
-|Description=Any number.}}{{JS_Syntax_Parameter
+|Description=Any number.
+}}{{JS Syntax Parameter
 |Name=arrayObj
 |Required=Required
-|Description=Any '''Array''' object.}}
+|Description=Any '''Array''' object.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=In JavaScript arrays are sparse, and the elements in an array do not have to be contiguous. The '''length''' property is not necessarily the number of elements in the array. For example, in the following array definition, <code>my_array.length</code> contains 7, not 2:
@@ -32,8 +41,13 @@ The following example illustrates the use of the '''length''' property:
  // Output
  // 5
 }}
-{{Topics | JS Basic}}
+{{Notes_Section}}
+{{JS Object Listing}}
 
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Property
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
