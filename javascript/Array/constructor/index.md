@@ -1,23 +1,21 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Specifies the function that creates an array.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array.constructor}}
+{{Summary_Section|Specifies the function that creates an array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array.constructor
 }}
-{{Remarks_Section
-|Remarks=The required array is the name of an array.
-
-The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. The '''constructor''' property contains a reference to the function that constructs instances of that particular object.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the constructor property.
-
-|Code= var x = new Array();
+|Code=var x = new Array();
  
  if (x.constructor == Array)
      document.write("Object is an Array.");
@@ -26,9 +24,20 @@ The '''constructor''' property is a member of the prototype of every object that
  
  // Output:
  // Object is an Array.
-}}}}
-{{Topics | JS Basic}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required array is the name of an array.
 
+The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. The '''constructor''' property contains a reference to the function that constructs instances of that particular object.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Property
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
