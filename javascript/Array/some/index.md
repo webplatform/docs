@@ -1,25 +1,67 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Determines whether the specified callback function returns true for any element of an array.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array1.some( callbackfn [, thisArg ])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Determines whether the specified callback function returns true for any element of an array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array1.some( callbackfn [, thisArg ])
+}}
+|Values={{JS Syntax Parameter
 |Name=array1
 |Required=Required
-|Description=An array object.}}{{JS_Syntax_Parameter
+|Description=An array object.
+}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
-|Description=A function that accepts up to three arguments. The '''some''' method calls the callbackfn function for each element in array1 until the callbackfn returns true , or until the end of the array.}}{{JS_Syntax_Parameter
+|Description=A function that accepts up to three arguments. The '''some''' method calls the callbackfn function for each element in array1 until the callbackfn returns true , or until the end of the array.
+}}{{JS Syntax Parameter
 |Name=thisArg
 |Required=Optional
-|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.}}
+|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+}}
 }}
 {{JS_Return_Value
-|Description=true if the callbackfn function returns true for any array element; otherwise, false.}}
-==Exceptions==
-If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
+|Description=true if the callbackfn function returns true for any array element; otherwise, false.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example uses the '''some''' method to find out if any elements in an array are even.
+|Code=// The callback function.
+ function CheckIfEven(value, index, ar) {
+     if (value % 2 == 0)
+         return true;
+ }
+ 
+ var numbers = [1, 15, 4, 10, 11, 22];
+ 
+ var evens = numbers.some(CheckIfEven);
+ document.write(evens);
+ 
+ // Output:
+ // true
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example shows how to use the thisArg parameter, which specifies an object to which the this keyword can refer. It checks whether any of the numbers in an array are outside the range provided by an object passed
+|Code=// Create a function that returns true if the value is 
+ // outside the range.
+ var isOutsideRange = function (value) {
+     return value &lt; this.minimum {{!}}{{!}} value &gt; this.maximum;
+ }
+ 
+ // Create an array of numbers.
+ var numbers = [6, 12, 16, 22, -12];
+ 
+ // The range object is to be the 'this' object.
+ var range = { minimum: 10, maximum: 20 };
+ 
+ document.write(numbers.some(isOutsideRange, range));
+ 
+ // Output: true
+}}
+}}
 {{Remarks_Section
 |Remarks=The '''some''' method calls the callbackfn function on each array element, in ascending index order, until the callbackfn function returns true. If an element that causes callbackfn to return true is found, the some method immediately returns true. If the callback does not return true on any element, the some method returns false.
 
@@ -71,54 +113,22 @@ The following table describes the results of modifying the array object after th
 {{!}}-
 {{!}} Element is deleted from the array.
 {{!}} No, unless that element has already been passed to the callback function.
-{{!}}} 
+{{!}}}
+
+==Exceptions==
+If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example uses the '''some''' method to find out if any elements in an array are even.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= // The callback function.
- function CheckIfEven(value, index, ar) {
-     if (value % 2 == 0)
-         return true;
- }
- 
- var numbers = [1, 15, 4, 10, 11, 22];
- 
- var evens = numbers.some(CheckIfEven);
- document.write(evens);
- 
- // Output:
- // true
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example shows how to use the thisArg parameter, which specifies an object to which the this keyword can refer. It checks whether any of the numbers in an array are outside the range provided by an object passed
-
-|Code= // Create a function that returns true if the value is 
- // outside the range.
- var isOutsideRange = function (value) {
-     return value &lt; this.minimum {{!}}{{!}} value &gt; this.maximum;
- }
- 
- // Create an array of numbers.
- var numbers = [6, 12, 16, 22, -12];
- 
- // The range object is to be the 'this' object.
- var range = { minimum: 10, maximum: 20 };
- 
- document.write(numbers.some(isOutsideRange, range));
- 
- // Output: true
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Array/every{{!}}every Method (Array)]]
 * [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array/map{{!}}map Method (Array)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
