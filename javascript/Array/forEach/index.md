@@ -1,23 +1,101 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Performs the specified action for each element in an array.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array1.forEach( callbackfn [, thisArg ])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Performs the specified action for each element in an array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array1.forEach( callbackfn [, thisArg ])
+}}
+|Values={{JS Syntax Parameter
 |Name=array1
 |Required=Required
-|Description=An array object.}}{{JS_Syntax_Parameter
+|Description=An array object.
+}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
-|Description=A function that accepts up to three arguments.'''forEach''' calls the callbackfn function one time for each element in the array.}}{{JS_Syntax_Parameter
+|Description=A function that accepts up to three arguments.'''forEach''' calls the callbackfn function one time for each element in the array.
+}}{{JS Syntax Parameter
 |Name=thisArg
 |Required=Optional
-|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.}}
+|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 }}
-==Exceptions==
-If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates use of the '''forEach''' method.
+|Code=// Define the callback function.
+ function ShowResults(value, index, ar) {
+     document.write("value: " + value);
+     document.write(" index: " + index);
+     document.write("&lt;br /&gt;");
+ }
+ 
+ // Create an array.
+ var letters = ['ab', 'cd', 'ef'];
+ 
+ // Call the ShowResults callback function for each
+ // array element.
+ letters.forEach(ShowResults);
+ 
+ // Output:
+ //  value: ab index: 0 
+ //  value: cd index: 1 
+ //  value: ef index: 2
+}}{{Single Example
+|Language=JavaScript
+|Description=In the following example, the callbackfn argument includes the code of the callback function.
+|Code=// Create an array.
+ var numbers = [10, 11, 12];
+ 
+ // Call the addNumber callback function for each array element.
+ var sum = 0;
+ numbers.forEach(
+     function addNumber(value) { sum += value; }
+ );
+ 
+ document.write(sum);
+ // Output: 33
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the thisArg argument, which specifies an object that can be referred to with the this keyword.
+|Code=// Define the object that contains the callback function.
+ var obj = {
+     showResults: function(value, index) {
+         // Call calcSquare by using the this value.
+         var squared = this.calcSquare(value);
+ 
+         document.write("value: " + value);
+         document.write(" index: " + index);
+         document.write(" squared: " + squared);
+         document.write("&lt;br /&gt;");
+     },
+     calcSquare: function(x) { return x * x }
+ };
+ 
+ // Define an array.
+ var numbers = [5, 6];
+ 
+ // Call the showResults callback function for each array element.
+ // The obj is the this value within the 
+ // callback function.
+ numbers.forEach(obj.showResults, obj);
+ 
+ // Embed the callback function in the forEach statement.
+ // The obj argument is the this value within the obj object.
+ // The output is the same as for the previous statement.
+ numbers.forEach(function(value, index) { this.showResults(value, index) }, obj);
+ 
+ // Output:
+ //  value: 5 index: 0 squared: 25
+ //  value: 6 index: 1 squared: 36
+ //  value: 5 index: 0 squared: 25
+ //  value: 6 index: 1 squared: 36
+}}
+}}
 {{Remarks_Section
 |Remarks=The '''forEach''' method calls the callbackfn function one time for each element present in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -63,92 +141,23 @@ The '''forEach''' method does not directly modify the original array, but the ca
 {{!}}-
 {{!}} Element is deleted from the array.
 {{!}} No, unless that element has already been passed to the callback function.
-{{!}}} 
+{{!}}}
+
+==Exceptions==
+If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates use of the '''forEach''' method.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= // Define the callback function.
- function ShowResults(value, index, ar) {
-     document.write("value: " + value);
-     document.write(" index: " + index);
-     document.write("&lt;br /&gt;");
- }
- 
- // Create an array.
- var letters = ['ab', 'cd', 'ef'];
- 
- // Call the ShowResults callback function for each
- // array element.
- letters.forEach(ShowResults);
- 
- // Output:
- //  value: ab index: 0 
- //  value: cd index: 1 
- //  value: ef index: 2
-}}{{Single_Example
-|Language=JavaScript
-|Description=In the following example, the callbackfn argument includes the code of the callback function.
-
-|Code= // Create an array.
- var numbers = [10, 11, 12];
- 
- // Call the addNumber callback function for each array element.
- var sum = 0;
- numbers.forEach(
-     function addNumber(value) { sum += value; }
- );
- 
- document.write(sum);
- // Output: 33
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the thisArg argument, which specifies an object that can be referred to with the this keyword.
-
-|Code= // Define the object that contains the callback function.
- var obj = {
-     showResults: function(value, index) {
-         // Call calcSquare by using the this value.
-         var squared = this.calcSquare(value);
- 
-         document.write("value: " + value);
-         document.write(" index: " + index);
-         document.write(" squared: " + squared);
-         document.write("&lt;br /&gt;");
-     },
-     calcSquare: function(x) { return x * x }
- };
- 
- // Define an array.
- var numbers = [5, 6];
- 
- // Call the showResults callback function for each array element.
- // The obj is the this value within the 
- // callback function.
- numbers.forEach(obj.showResults, obj);
- 
- // Embed the callback function in the forEach statement.
- // The obj argument is the this value within the obj object.
- // The output is the same as for the previous statement.
- numbers.forEach(function(value, index) { this.showResults(value, index) }, obj);
- 
- // Output:
- //  value: 5 index: 0 squared: 25
- //  value: 6 index: 1 squared: 36
- //  value: 5 index: 0 squared: 25
- //  value: 6 index: 1 squared: 36
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array/map{{!}}map Method (Array)]]
 * [[javascript/Array/some{{!}}some Method (Array)]]
 * [[javascript/Array{{!}}Array Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
