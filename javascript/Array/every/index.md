@@ -1,25 +1,87 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Determines whether all the members of an array satisfy the specified test.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= array1.every( callbackfn [, thisArg ])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Determines whether all the members of an array satisfy the specified test.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=array1.every( callbackfn [, thisArg ])
+}}
+|Values={{JS Syntax Parameter
 |Name=array1
 |Required=Required
-|Description=An array object.}}{{JS_Syntax_Parameter
+|Description=An array object.
+}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
-|Description=A function that accepts up to three arguments. The '''every''' method calls the callbackfn function for each element in array1 until the callbackfn returns false , or until the end of the array.}}{{JS_Syntax_Parameter
+|Description=A function that accepts up to three arguments. The '''every''' method calls the callbackfn function for each element in array1 until the callbackfn returns false , or until the end of the array.
+}}{{JS Syntax Parameter
 |Name=thisArg
 |Required=Optional
-|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.}}
+|Description=An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+}}
 }}
 {{JS_Return_Value
-|Description=true if the callbackfn function returns true for all array elements; otherwise, false. If the array is has no elements, the '''every''' method returns true.}}
-==Exceptions==
-If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
+|Description=true if the callbackfn function returns true for all array elements; otherwise, false. If the array is has no elements, the '''every''' method returns true.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the '''every''' method.
+|Code=// Define the callback function.
+ function CheckIfEven(value, index, ar) {
+     document.write(value + " ");
+ 
+     if (value % 2 == 0)
+         return true;
+     else
+         return false;
+ }
+ 
+ // Create an array.
+ var numbers = [2, 4, 5, 6, 8];
+ 
+ // Check whether the callback function returns true for all of the
+ // array values.
+ if (numbers.every(CheckIfEven))
+     document.write("All are even.");
+ else
+     document.write("Some are not even.");
+ 
+ // Output:
+ // 2 4 5 Some are not even.
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
+|Code=// Create a function that returns true if the value is
+ // numeric and within range.
+ var checkNumericRange = function(value) {
+     if (typeof value !== 'number')
+         return false;
+     else 
+         return value &gt;= this.minimum &amp;&amp; value &lt;= this.maximum;
+ }
+ 
+ // Create an array of numbers.
+ var numbers = [10, 15, 19];
+ 
+ // Check whether the callback function returns true for
+ // all of the array values.
+ // The obj argument enables use of the this value
+ // within the callback function.
+ 
+ var obj = { minimum: 10, maximum: 20 }
+ 
+ if (numbers.every(checkNumericRange, obj))
+     document.write ("All are within range.");
+ else
+     document.write ("Some are not within range.");
+ 
+ // Output:
+ //   All are within range.
+}}
+}}
 {{Remarks_Section
 |Remarks=The '''every''' method calls the callbackfn function one time for each array element, in ascending index order, until the callbackfn function returns false. If an element that causes callbackfn to return false is found, the '''every''' method immediately returns false. Otherwise, the every method returns true.
 
@@ -71,74 +133,22 @@ The following table describes the results of modifying the array object after th
 {{!}}-
 {{!}} Element is deleted from the array.
 {{!}} No, unless that element has already been passed to the callback function.
-{{!}}} 
+{{!}}}
+
+==Exceptions==
+If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''every''' method.
+{{Notes_Section}}
+{{JS Object Listing}}
 
-|Code= // Define the callback function.
- function CheckIfEven(value, index, ar) {
-     document.write(value + " ");
- 
-     if (value % 2 == 0)
-         return true;
-     else
-         return false;
- }
- 
- // Create an array.
- var numbers = [2, 4, 5, 6, 8];
- 
- // Check whether the callback function returns true for all of the
- // array values.
- if (numbers.every(CheckIfEven))
-     document.write("All are even.");
- else
-     document.write("Some are not even.");
- 
- // Output:
- // 2 4 5 Some are not even.
-}}{{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
-
-|Code= // Create a function that returns true if the value is
- // numeric and within range.
- var checkNumericRange = function(value) {
-     if (typeof value !== 'number')
-         return false;
-     else 
-         return value &gt;= this.minimum &amp;&amp; value &lt;= this.maximum;
- }
- 
- // Create an array of numbers.
- var numbers = [10, 15, 19];
- 
- // Check whether the callback function returns true for
- // all of the array values.
- // The obj argument enables use of the this value
- // within the callback function.
- 
- var obj = { minimum: 10, maximum: 20 }
- 
- if (numbers.every(checkNumericRange, obj))
-     document.write ("All are within range.");
- else
-     document.write ("Some are not within range.");
- 
- // Output:
- //   All are within range.
-}}}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Array/some{{!}}some Method (Array)]]
 * [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array{{!}}Array Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
