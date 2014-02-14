@@ -1,36 +1,31 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sorts an '''Array'''.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= arrayobj.sort( sortFunction ) }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sorts an '''Array'''.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=arrayobj.sort( sortFunction )
+}}
+|Values={{JS Syntax Parameter
 |Name=arrayObj
 |Required=Required
-|Description=Any '''Array''' object.}}{{JS_Syntax_Parameter
+|Description=Any '''Array''' object.
+}}{{JS Syntax Parameter
 |Name=sortFunction
 |Required=Optional
-|Description=The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.}}
+|Description=The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.
+}}
 }}
 {{JS_Return_Value
-|Description=The sorted array.}}
-{{Remarks_Section
-|Remarks=The '''sort''' method sorts the '''Array''' object in place; no new '''Array''' object is created during execution.
-
-If you supply a function in the sortFunction argument, it must return one of the following values:
-
-* A negative value if the first argument passed is less than the second argument.
-* Zero if the two arguments are equivalent.
-* A positive value if the first argument is greater than the second argument.
+|Description=The sorted array.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use the '''sort''' method.
-
-|Code= var a = new Array(4, 11, 2, 10, 3, 1);
+|Code=var a = new Array(4, 11, 2, 10, 3, 1);
  
  var b = a.sort();
  document.write(b);
@@ -55,9 +50,24 @@ If you supply a function in the sortFunction argument, it must return one of the
      else
          return 1; 
  }
-}}}}
-{{Topics | JS Basic}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''sort''' method sorts the '''Array''' object in place; no new '''Array''' object is created during execution.
 
+If you supply a function in the sortFunction argument, it must return one of the following values:
+
+* A negative value if the first argument passed is less than the second argument.
+* Zero if the two arguments are equivalent.
+* A positive value if the first argument is greater than the second argument.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Method
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
