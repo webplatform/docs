@@ -17,6 +17,10 @@
 ==Working With New Features==
 * [[concepts/experimental_features|Enabling experimental features]]
 * [[concepts/Pointer_Events|Pointer Events for mouse, touch, and pen input]]
+
+==HTML 5 Video Captioning==
+*[[concepts/VTT_Captioning|HTML5 Video Captioning Using WebVTT]]
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
