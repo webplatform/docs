@@ -130,10 +130,9 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=29
 |Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
@@ -164,10 +163,9 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=No
 |Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=29
 |Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=18
 |IE_mobile_supported=Unknown
 |IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
@@ -198,6 +196,6 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/box-sizing
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809 Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
