@@ -2,19 +2,25 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Gets or sets the length of the array. This is a number one higher than the highest element defined in an array.}}
+{{Summary_Section|Basically specifies the number of elements (AKA length) in an Array object. This means the length property represents a number one greater than the largest index defined in an Array object.
+
+The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
+
+The attributes of the length property are { [[Writable]]: true, [[Enumerable]]: false, [[Configurable]]: false }. So you can set the length property to extend or truncate an Array object at any time.
+}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=numVar = arrayObj.length
+|Format=arrayObj.length
+arrayObj.length = numVar;
 }}
 |Values={{JS Syntax Parameter
-|Name=numVar
-|Required=Required
-|Description=Any number.
-}}{{JS Syntax Parameter
 |Name=arrayObj
 |Required=Required
-|Description=Any '''Array''' object.
+|Description=Any Array object.
+}}{{JS Syntax Parameter
+|Name=numVar
+|Required=Required
+|Description=Any number less than 2 to the 32nd power.
 }}
 }}
 {{JS_Return_Value}}
@@ -28,23 +34,34 @@
  var my_array = new Array( );
  my_array[0] = "Test";
  my_array[6] = "Another Test";
-If you make the '''length''' property smaller than its previous value, the array is truncated, and any elements with array indexes equal to or greater than the new value of the '''length''' property are lost.
-
-If you make the length property larger than its previous value, the array is expanded, and any new elements created have the value undefined.
-
-The following example illustrates the use of the '''length''' property:
-
- var a;
- a = new Array(0,1,2,3,4);
- document.write(a.length);
+ console.log(my_array.length);
  
  // Output
- // 5
+ // 7
+Even if you set length to a number greater than its previous value, the number of actual elements does not increase.
+
+ console.log(my_array.length); // 7
+ my_array.length = 10;
+ console.log(Object.keys(my_array));
+ 
+ // Output
+ // ["0", "6"]
+On the other hand, when decreasing length, the array is truncated.
+
+ console.log(my_array.length); // 10
+ my_array.length = 1;
+ console.log(Object.keys(my_array));
+ 
+ // Output
+ // ["0"]
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank">JavaScript, by Mozilla Developer Network</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties" target="_blank">Relationship between length and numerical properties, by Mozilla Developer Network</a>
+}}
 {{JS Topics
 |JS Page Type=JS Property
 }}
