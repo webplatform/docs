@@ -17,7 +17,7 @@ Based on Silvia Pfeiffer's [http://www.w3.org/community/texttracks/2012/08/23/we
 |-
 ! Browser !! First supported !! Format Supported !! Notes
 |-
-| Internet Explorer || IE 10 Developer Preview 4 || VTT and TML ||
+| Internet Explorer || Version 10 || VTT and TML ||
 * [http://ie.microsoft.com/testdrive/Graphics/VideoCaptions/ Test Page ]
 * [http://html5labs.interoperabilitybridges.com/prototypes/video-captioning/video-captioning/info Documentation]
 * [http://ie.microsoft.com/testdrive/Graphics/CaptionMaker HTML5 Video Caption Maker]
