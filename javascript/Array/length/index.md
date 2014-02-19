@@ -36,6 +36,7 @@ document.write("This course includes:<br>");
 for (var i = 0, j = classes.length; i < j; i++) {
     document.write(classes[i] + "<br>");
 }
+// Output: 
 // This course includes:
 // HTML
 // CSS
