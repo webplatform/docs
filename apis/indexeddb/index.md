@@ -55,13 +55,13 @@ The IndexedDB storage follows the same-origin policy.
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
-|Manual_sections==== Wrappers ===
+|Manual_sections==== Library ===
 
-*IDBWrapper [https://github.com/jensarps/IDBWrapper]
-:#Ease the use of indexedDB and abstract away the differences between the existing implementations in Chrome, Firefox and IE10 (yes, it works in all three), and [https://github.com/jensarps/IDBWrapper]
-
-:#Show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
+*[https://github.com/jensarps/IDBWrapper IDBWrapper] Ease the use of indexedDB and abstract away the differences between the existing implementations in Chrome, Firefox and IE10 (yes, it works in all three). Show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
 }}
+
+*[https://github.com/yathit/ydn-db YDN-DB] Javascript database module for Indexeddb, Web SQL and localStorage storage mechanisms supporting version migration, advanced query, SQL and transaction.  [http://dev.yathit.com/api-reference/ydn-db/storage.html API Documentations] 
+
 {{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
