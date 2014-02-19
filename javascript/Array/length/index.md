@@ -59,8 +59,8 @@ On the other hand, when decreasing length, the array is truncated.
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length" target="_blank">JavaScript, by Mozilla Developer Network</a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties" target="_blank">Relationship between length and numerical properties, by Mozilla Developer Network</a>
+|Manual_links=[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length JavaScript, by Mozilla Developer Network]
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Relationship_between_length_and_numerical_properties Relationship between length and numerical properties, by Mozilla Developer Network]
 }}
 {{JS Topics
 |JS Page Type=JS Property
