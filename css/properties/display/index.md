@@ -1,4 +1,5 @@
 {{Page_Title}}
+{{Languages}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
