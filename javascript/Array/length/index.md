@@ -6,7 +6,7 @@
 
 The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
 
-The attributes of the length property are { [[Writable]]: true, [[Enumerable]]: false, [[Configurable]]: false }. So you can set the length property to extend or truncate an Array object at any time.
+The attributes of the length property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the length property to extend or truncate an Array object at any time.
 }}
 {{JS_Syntax
 |Formats={{JS Syntax Format
