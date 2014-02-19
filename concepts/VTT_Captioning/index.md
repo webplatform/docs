@@ -304,9 +304,9 @@ Save the file with a .vtt extension and link to it from a &lt;track&gt; element 
 
 ==== Validating A VTT File ====
 
-It is not hard to make mistakes when creating a VTT track fille. Fortunately there is an [online validator http://quuz.org/webvtt/] to help with authoring.
+It is not hard to make mistakes when creating a VTT track fille. Fortunately there is an [http://quuz.org/webvtt/ online validator] to help with authoring.
 
-[[File:![VTT Validator](images/vtt-validator.png "VTT validator screenshot")]]
+[[File:vtt-validator.png|none|center|Online VTT Validator]]
 
 It is essentially a two step process:
 
