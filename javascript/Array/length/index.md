@@ -23,10 +23,40 @@ arrayObj.length = numVar;
 |Description=Any number less than 2 to the 32nd power.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=Any number less than 2 to the 32nd power.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The array classes represents the content list of some training course. They are all displayed in the console by iterating over the array classes.
+|Code=var classes = ["HTML", "CSS", "JavaScript"];
+document.write("This course includes:<br>");
+for (var i = 0, j = classes.length; i < j; i++) {
+    document.write(classes[i] + "<br>");
+}
+// This course includes:
+// HTML
+// CSS
+// JavaScript
+|LiveURL=http://code.webplatform.org/gist/9086506
+}}{{Single Example
+|Language=JavaScript
+|Description=This shows how to limit the number of items added into a shopping cart. The length property shortens the array cart to a length of 3 if the current length is larger than 3.
+|Code=var cart = ["bread", "cheese", "coffee"];
+
+cart.push("salad"); // length = 4
+if (cart.length > 3) {
+    alert("Don't add more than 3 items!");
+    cart.length = 3;
+    document.write(cart);
+}
+
+// Output: bread,cheese,coffee
+
+|LiveURL=http://code.webplatform.org/gist/9086602
+}}
 }}
 {{Remarks_Section
 |Remarks=In JavaScript arrays are sparse, and the elements in an array do not have to be contiguous. The '''length''' property is not necessarily the number of elements in the array. For example, in the following array definition, <code>my_array.length</code> contains 7, not 2:
