@@ -1,5 +1,4 @@
 {{Page_Title}}
-{{Languages}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
@@ -171,3 +170,4 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
+{{Languages}}
