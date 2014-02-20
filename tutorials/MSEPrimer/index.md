@@ -434,7 +434,7 @@ Rather than writing all this code yourself, take a look at the dash.js library a
 {{Notes_Section
 |Usage=The sample runs in Internet Explorer 11, loads in Chrome but the video won't play (not WebM?)
 
-The example needs a DASH WebM mpd and video file. 
+The example needs a DASH WebM mpd and video file.
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -446,7 +446,7 @@ The example needs a DASH WebM mpd and video file.
 {{See_Also_Section
 |Topic_clusters=Video, XHR
 |Manual_links=*[http://www.w3.org/TR/media-source/ W3C Media Source Extensions]
-*[http://samples.msdn.microsoft.com/Workshop/samples/media/mpdParseExample.html Simple MPEG-DASH Streaming player example]
+
 }}
 {{Topics}}
 {{External_Attribution
