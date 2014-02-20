@@ -12,9 +12,9 @@ The example described here uses un-prefixed APIs, and runs in IE11. It loads in 
 ==MSE Overview==
 The primary addition to HTML5 media is the MediaSource object. The MediaSource object takes the place of a file URL as the src on a video object. 
       
-      mediaSource = new window.MediaSource();  // Create a new object
+<code>      mediaSource = new window.MediaSource();  // Create a new object
       var url = URL.createObjectURL(mediaSource); // Make a URL from it
-      videoElement.src = url; // Video is now pointing at the mediaSource object
+      videoElement.src = url; // Video is now pointing at the mediaSource object</code>
 
 Source buffers are added to the MediaSource object and filled with media data from segmented files. The HTML5 audio or video element does not know whether it's playing a file or a buffer.
  
@@ -78,7 +78,7 @@ In the example, to play a DASH file click the Play button. Because the intrinsic
 *	If the file name in the input field has changed, and the video is paused, the new file is loaded and then played. 
 *	If the video is playing, the pause method is called so the user can stop and start the video. 
 
-    playButton.addEventListener("click", function () {
+<code>    playButton.addEventListener("click", function () {
       //  If video is paused then check for file change
       if (videoElement.paused == true) {
         // Retrieve mpd file, and set up video
@@ -97,25 +97,25 @@ In the example, to play a DASH file click the Play button. Because the intrinsic
         //  Video was playing, now pause it
         videoElement.pause();
       }
-    }, false);
+    }, false);</code>
 
 To keep the button labels in sync with the state of the video element, the paused and playing events are used to handle switching the button's label between Play and Pause. 
 
-// handler to switch button text to Play
+<code>// handler to switch button text to Play
 videoElement.addEventListener("pause", function () {
   playButton.innerText = "Play";
-}, false);
+}, false);<c/ode>
 
-// handler to switch button text to pause
+<code>// handler to switch button text to pause
 videoElement.addEventListener("playing", function () {
   playButton.innerText = "Pause";
-}, false);
+}, false);</code>
 
 ===Getting the .mpd file and DASH parameters===
 
 The Media Presentation Description is an XML file that describes how the media is segmented, the type and codec (MP4 here), the bit rate, length, and basic segment size of the video. Some MPD files include audio info, and you can split content into separate streams for the video and audio players. The example shown here only uses a single buffer for both video and audio. 
 
-// gets the mpd file and parses it    
+<code>// gets the mpd file and parses it    
 function getData(url) {
   if (url !== "") {
     var xhr = new XMLHttpRequest(); // Set up xhr request
@@ -149,13 +149,13 @@ function getData(url) {
       log("Error: " + e + " Could not load url.");
     }, false);
   }
-}
+}</code>
 
 This example uses the XMLHttpRequest object to retrieve the MPD file into the response attribute, tempoutput. We create a DOMParser object and parse the MPD file data into an XML document. We want an XML document (xmlData) to use querySelectorAll and getAttribute methods to extract the value of the XML nodes in the file. 
 
 The following code queries our new XML document and pulls out the individual data points we want to display. The byte range segments are loaded into an array called segments. With the help of an index, we'll use the segments[] array to download the video segments. 
 
-// retrieve parameters from our stored .mpd file
+<code>// retrieve parameters from our stored .mpd file
 function getFileType(data) {
   try {
     adaptationSet = data.querySelectorAll("AdaptationSet");
@@ -204,9 +204,9 @@ function showTypes() {
   display.innerHTML += "Segment length: " + segDuration / 1000 + " seconds";
   document.getElementById("numIndexes").innerText = segments.length;
  
-}
+}</code>
 
-The getData() function calls getFileType() function fills global variables with the information from the MPD file. We then call the showTypes() function to display the parameters to the screen.
+The <code>getData()</code> function calls <code>getFileType()</code> function fills global variables with the information from the MPD file. We then call the <code>showTypes()</code> function to display the parameters to the screen.
 
 ===Setting up video and buffers===
 
