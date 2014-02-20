@@ -77,7 +77,7 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Flexbox
+|Topic_clusters=CSS Layout, Flexbox
 |External_links=Also, check out the following live demo sites:
 * [http://demo.agektmr.com/flexbox/ Flexbox Playground]
 * [http://the-echoplex.net/flexyboxes Flexy Boxes]
