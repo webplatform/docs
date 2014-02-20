@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The returned value is a collection of [[cssom/ClientRect|ClientRect]] objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
+{{Summary_Section|The returned value is a collection of [[css/cssom/ClientRect|ClientRect]] objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -24,7 +25,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to highlight text lines in an object.
+|Description=This example uses the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to highlight text lines in an object.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var rcts;
@@ -80,7 +81,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the '''getClientRects''' and [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
+|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
@@ -203,9 +204,7 @@ function End() {
 |Note=For inline elements, the returned ClientRectList contains ClientRect for every line as broken in the source code, in addition to the lines as broken in the rendered content. So if 2 words are broken into two lines in the source code -<br/><code>&lt;span&gt;hello<br/>world&lt;/span&gt;</code><br/>This method returns ClientRectList that contains 2 ClientRect objects. See [https://code.google.com/p/chromium/issues/detail?can=2&start=0&num=100&q=getclientrects&colspec=ID%20Pri%20Mstone%20ReleaseBlock%20OS%20Area%20Feature%20Status%20Owner%20Summary&groupby=&sort=&id=167261] for details. {{TODO|This bug may have been there since the beginning of Chrome/Safari, this needs verification.}}
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, CSSOM
-}}
+{{See_Also_Section}}
 {{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
