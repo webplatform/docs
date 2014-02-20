@@ -2,7 +2,9 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=Jay Munro [msft]
+}}
 {{Summary_Section|This guide gives you a basic look at Media Source Extensions, what they are, and how to use them to do add-on free video streaming. An example is presented that uses MSE and MPEG-DASH file to stream content from a single video file as source and used XMLHttpRequest to get segments. This is just one of several ways to stream content.}}
 {{Tutorial
 |Content=Introduction
@@ -429,7 +431,9 @@ Flash or Silverlight for browsers that don't support HTML5 video and MSE.
 
 Rather than writing all this code yourself, take a look at the dash.js library and reference player. Dash.js is an opensource library and player that is supported by many industry media companies, including Microsoft. Dash.js is a modular library with components that can be replaced or rewritten as needed. For large companies, this gives the flexibility of creating modules that handle special needs. For more info see dash.js on GitHub.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The sample runs in Internet Explorer 11, loads in Chrome but the video won't play (not WebM?)
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -437,7 +441,9 @@ Rather than writing all this code yourself, take a look at the dash.js library a
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Multimedia, Video, XHR
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
