@@ -322,11 +322,19 @@ function updateFunct() {
 
 To keep the video element playing, media segments are requested based on the time length of the current segment. The example uses a 20% fudge factor to ensure the content gets downloaded in time. If the current segment has 10 seconds of video, the next segment is requested after 8 seconds, or 80% of the segment total. This gives a small amount of extra time to request the segment, but doesn't eat up memory so quickly. This example gets the length of the segment (timeToDownload(range)) and multiplies it by .8, or 80%. The result is stored in the segCheck global variable used to calculate when to get the next segment. 
 
-xhr.addEventListener("readystatechange", function () {
-  if (xhr.readyState == xhr.DONE) { //  Only if video completes loading
-   //  Calculate when to get next segment based on time of current one
-   segCheck = (timeToDownload(range) * .8).toFixed(3); // Use .8 as fudge factor
-   segLength.textContent = segCheck; // Display current length
+          xhr.addEventListener("readystatechange", function () {
+            if (xhr.readyState == xhr.DONE) { //wait for video to load
+              //  Calculate when to get next segment based on time of current one
+                segCheck = (timeToDownload(range) * .8).toFixed(3); // Use .8 as fudge factor
+                segLength.textContent = segCheck;
+              // Add received content to the buffer
+              try {
+                videoSource.appendBuffer(new Uint8Array(xhr.response));
+              } catch (e) {
+                log('Exception while appending', e);
+              }
+            }
+          }, false);
 
 
 To calculate the time length of the current segment, we use the formula: time = (size * 8) / bitrate. The byte range is stored in the MPD file as xxxx-yyyy, or start-end. The example splits the string and subtracts the start from the end to get the size in bytes of the current segment. That value is multiplied by 8 to convert bytes to bits, and then divided by the bitrate. The bitrate of the media file is specified by the MPD file as bandwidth. The result is the time in seconds that the current segment takes to play. 
