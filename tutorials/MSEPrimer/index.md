@@ -29,7 +29,7 @@ With the MediaSource object connected to the video object, you can append data t
 
 If you're serving from a single video file like the example here, or all of your individual file segments have the exact same codec, bitrate, etc, then you just need to initialize once. If you change bitrates, or insert a commercial with different parameters, you'll need to load the initialization segment for the new stream. When you return to your regular content, you'll also have to re-initialize the video object. 
 
-===Using MSE on your page==
+===Using MSE on your page===
 
 The MSE API itself is a simple concept and basically follows these steps:
 #     Define an HTML5 video element in the HTML section of a page. 
