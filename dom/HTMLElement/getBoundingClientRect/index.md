@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -26,7 +27,7 @@ The returned value is a ClientRect object which is the union of the rectangles r
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to highlight text lines in an object.
+|Description=This example uses the [[dom/HTMLElement/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to highlight text lines in an object.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var rcts;
@@ -82,7 +83,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the [[dom/methods/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
+|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the [[dom/HTMLElement/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
@@ -198,9 +199,7 @@ The amount of scrolling that has been done of the viewport area (or any other sc
 |Note=Adds 2 to each coordinate (top, bottom, right, left), which must be subtracted in order to get the actual values (this is because the window's upper-left is at 2, 2 (pixels) with respect to the true client).
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model, Combinators
-}}
+{{See_Also_Section}}
 {{Topics|CSS, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
