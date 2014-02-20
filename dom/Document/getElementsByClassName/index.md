@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Use [[css/selectors_api/querySelectorAll|<code>elementOrDocument.querySelectorAll(".class-name.other-class-name")</code>]] instead. Gets a collection of all descendant elements with given classes.}}
+{{Summary_Section|Gets a collection of all descendant elements with given classes. Not recommended; see Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=classNames
@@ -28,8 +28,8 @@
 |Usage=The use of this property is discouraged. See the [[#Notes|Notes]] section for details.
 |Notes=The use of this property is discouraged, due to the performance implications (due to the live DOMCollection where any changes to the document must be reflected on the returned object immediately) and complexity (the removal of an element from the document will result in immediate changes to the collection).
 
-A close alternative -
-*[[css/selectors_api/querySelectorAll|<code>elementOrDocument.querySelectorAll(".class-name.other-class-name")</code>]]
+A close alternative is
+*[[css/selectors_api/querySelectorAll|querySelectorAll]]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
