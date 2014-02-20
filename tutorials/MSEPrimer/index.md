@@ -18,10 +18,11 @@ The primary addition to HTML5 media is the MediaSource object. The MediaSource o
 
 Source buffers are added to the MediaSource object and filled with media data from segmented files. The HTML5 audio or video element does not know whether it's playing a file or a buffer.
  
-    mediaSource.addEventListener('sourceopen', function (e) {
+ <code>   mediaSource.addEventListener('sourceopen', function (e) {
      var videoSource = mediaSource.addSourceBuffer('video/mp4');
      videoSource.appendBuffer(new Uint8Array([video content]));
     }, false);
+</code>
 
 Once the sourceBuffer is added, media content can be appended into the buffer. Content can be from a single source, or several sources or files. You can store files of different quality or resolution on different servers to provide load balancing or better connections. 
 
@@ -54,7 +55,7 @@ Since MSE is fairly basic, the majority of the example here is about getting vid
 
 The HTML that you need to use with MSE is very simple. It consists of a video element with any associated fall back code. The snippet below includes an Input Element field to define an MPD file, a play button, and some <div> areas to display results we get from the MPD file. The video element has the autoplay attribute set, but no src or controls attributes. The source for the video element is set in the script code by the information we'll get from the MPD file, and the play/pause control is done with the Play button. The Play button's click event is later handled in the JavaScript code with an addEventListener() rather than using the onclick() event on the element itself. In the online example, you can also click the video control to play or pause.
 
-   <label>Enter .mpd file: 
+<code>   <label>Enter .mpd file: 
       <input type="text" id="filename" value="di_dash.mpd" />
     </label>
     <button id="load">Play</button>
@@ -64,7 +65,7 @@ The HTML that you need to use with MSE is very simple. It consists of a video el
     <div id="dispIndexes" >Current index: <span id="curIndex"></span> of <span id="numIndexes"></span> </div> 
     <div id="DispSegs" >Current segment length: <span id="segLength"></span> </div> 
       <div id="curVidTime" >Current video time: <span id="curTime"></span></div>
-    <video id="myVideo" autoplay="autoplay" >No video available</video>
+    <video id="myVideo" autoplay="autoplay" >No video available</video></code>
 
 The architecture of the page puts the <script> tags below the HTML code in the <body> of the page. This adds efficiency by ensuring that the HTML elements have finished loading before the script starts. 
 
