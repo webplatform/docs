@@ -12,9 +12,9 @@ The example described here uses un-prefixed APIs, and runs in IE11. It loads in 
 ==MSE Overview==
 The primary addition to HTML5 media is the MediaSource object. The MediaSource object takes the place of a file URL as the src on a video object. 
       
-<code>      mediaSource = new window.MediaSource();  // Create a new object
+<syntaxhighlight lang="javascript">      mediaSource = new window.MediaSource();  // Create a new object
       var url = URL.createObjectURL(mediaSource); // Make a URL from it
-      videoElement.src = url; // Video is now pointing at the mediaSource object</code>
+      videoElement.src = url; // Video is now pointing at the mediaSource object</syntaxhighlight>
 
 Source buffers are added to the MediaSource object and filled with media data from segmented files. The HTML5 audio or video element does not know whether it's playing a file or a buffer.
  
