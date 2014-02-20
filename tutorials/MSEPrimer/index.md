@@ -5,11 +5,11 @@
 {{Byline
 |Name=Jay Munro [msft]
 }}
-{{Summary_Section|This guide gives you a basic look at Media Source Extensions, what they are, and how to use them to do add-on free video streaming. An example is presented that uses MSE and MPEG-DASH file to stream content from a single video file as source and used XMLHttpRequest to get segments. This is just one of several ways to stream content.}}
+{{Summary_Section|This guide gives you a basic look at Media Source Extensions(MSE), what they are, and how to use them to create add-on free video streaming. An example is presented that uses MSE and MPEG-DASH file to stream content from a single video file as source and used XMLHttpRequest to get segments. This is just one of several ways to stream content.}}
 {{Tutorial
 |Content====Introduction===
 [http://www.w3.org/TR/media-source/ Media Source Extensions (MSE)] as adds buffer-based source options to HTML5 media for streaming support. Previously, you had to download a complete video file to play, or use an add-on like Silverlight or Adobe Flash to stream media. With MSE, no client add-ons are required for streaming. Additionally, you can stream video from a standard HTTP server. A special media server is not required. 
-The example described here uses un-prefixed APIs, and runs in Internet Explorer 11. It loads in the latest Chrome, but won't load because the source video is MP4. 
+The [http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html example] described here uses un-prefixed APIs, and runs in Internet Explorer 11. It loads in the latest Chrome, but won't load the video, possibly because the source video is MP4. 
 
 ===MSE Overview===
 The primary addition to HTML5 media is the MediaSource object. The MediaSource object takes the place of a file URL as the src on a video object. 
@@ -446,7 +446,7 @@ The example needs a DASH WebM mpd and video file.
 {{See_Also_Section
 |Topic_clusters=Video, XHR
 |Manual_links=*[http://www.w3.org/TR/media-source/ W3C Media Source Extensions]
-
+*[http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html Simple MPEG-DASH streaming player]
 }}
 {{Topics}}
 {{External_Attribution
