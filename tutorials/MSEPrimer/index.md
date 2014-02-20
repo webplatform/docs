@@ -21,6 +21,7 @@ Source buffers are added to the MediaSource object and filled with media data fr
     mediaSource.addEventListener('sourceopen', function (e) {
      var videoSource = mediaSource.addSourceBuffer('video/mp4');
      videoSource.appendBuffer(new Uint8Array([video content]));
+	 },false);
 
 Once the sourceBuffer is added, media content can be appended into the buffer. Content can be from a single source, or several sources or files. You can store files of different quality or resolution on different servers to provide load balancing or better connections. 
 
@@ -53,8 +54,6 @@ The HTML5 video element
 
 The HTML that you need to use with MSE is very simple. It consists of a video element with any associated fall back code. The snippet below includes an Input Element field to define an MPD file, a play button, and some <div> areas to display results we get from the MPD file. The video element has the autoplay attribute set, but no src or controls attributes. The source for the video element is set in the script code by the information we'll get from the MPD file, and the play/pause control is done with the Play button. The Play button's click event is later handled in the JavaScript code with an addEventListener() rather than using the onclick() event on the element itself. In the online example, you can also click the video control to play or pause.
 
-<div id="grid">
-  <div id="col1">
    <label>Enter .mpd file: 
       <input type="text" id="filename" value="di_dash.mpd" />
     </label>
@@ -65,11 +64,7 @@ The HTML that you need to use with MSE is very simple. It consists of a video el
     <div id="dispIndexes" >Current index: <span id="curIndex"></span> of <span id="numIndexes"></span> </div> 
     <div id="DispSegs" >Current segment length: <span id="segLength"></span> </div> 
       <div id="curVidTime" >Current video time: <span id="curTime"></span></div>
-  </div>
-  <div id="col2">
     <video id="myVideo" autoplay="autoplay" >No video available</video>
-  </div>
-</div>
 
 The architecture of the page puts the <script> tags below the HTML code in the <body> of the page. This adds efficiency by ensuring that the HTML elements have finished loading before the script starts. 
 
@@ -247,11 +242,12 @@ DASH media segments are downloaded and appended to the buffer, which is then pla
           log('Exception calling addSourceBuffer for video', e);
           return;
         }
-      });
+      },false);
 
 To get individual segments from a single video file, we use setRequestHeader to specify a byte range for each segment in the file. These byte ranges are specified in the segment list we get from the MPD file. The XHR response property is typecast to a Uint8Array and appended to the source buffer. 
 
 The initVideo() function in the example downloads the initialization segment from the video file and puts it into the SourceBuffer. 
+
 The XHR request are asynchronous. To ensure functions are called at the right time, the readystatechange event is used. When readystatechange fires, the readyState property is checked. If it's equal to xhr.DONE, the response attribute (media data) is added to the source buffer as a Uint8Array.
 
     //  Load video's initialization segment 
@@ -405,20 +401,31 @@ function playSegment(range, url) {
   }
 }
 
-To sum up, after the initialization process is complete, the timeupdate event drives the download and playback of segments. When the current segment has played approximately 90% of the way through, another segment is downloaded and added to the buffer and the play method is called. 
+To sum up, after the initialization process is complete, the timeupdate event drives the download and playback of segments. When the current segment has played approximately 90% of the way through, another segment is downloaded and added to the buffer and the play method is called.
+ 
 Making DASH and Media presentation description (MPD) files
+
 The MPEG-DASH spec describes a how media files are segmented, and is relatively agnostic on codecs. MPEG-DASH is a container which can contain WebM or MP4 files. Segmented files can consist of a series of small single files, or a large file with indexed sections that are downloaded and played sequentially. When you use short segments of video, rather than long pieces, it's easier to do other tasks like inserting ads or changing quality. 
+
 The W3C spec on MSE doesn't state a specific codec, but in general, video file support can be WebM or ISO BMFF (segmented MP4) and can vary with browser.
+
 The MPEG-DASH MPD is an XML file that contains a description of all the info you'll need to play a video file. To get started, you need the video mime type, the list of segment urls, or the list of segment offsets (in bytes) if in a single file. Depending on what you're showing, you might want 
+
 One way to make an MPD file is with the MP4box command line utility. MP4Box is an open source multimedia packaging tool by GPAC that can create a DASH segmented MP4 and associated MPD file. For more info about MP4Box and to download binaries, see GPAC MP4Box or view documentation. 
+
 To create a single segmented MP4 and associated MPD file, start by installing MP4Box. Then, call MP4Box on the command line with this syntax: 
+
 mp4box -dash 10000 -frag 1000 -rap path\yourfile.mp4
 
 MP4Box creates two files with _dash appended to the name, an MP4 and an MPD file. In this example, it creates yourfile_dash.mp4 and yourfile_dashs.mpd with 10 second segments and 1 second fragments. The -rap flag tells MP4Box to try to make segments break on a keyframe or start of a decoding sequence. While we're asking for 10 second segments, the actual duration of each segment may vary. For more info about MPD files, see MPEG-DASH Tutorial.
 
 Where to go from here
+
 The example presented here shows how to create and attach buffers to the HTML5 video element and read one type of MPD file to get segments of video from a single file. As we've said, you can also use an MPD file to describe a number of small video files rather than segments in a single larger file. To work with that type of MPD setup, you can modify the code that reads the segment section of the MPD file to get individual URLs. This eliminates the need to use setRequestHeader because you'd be getting the whole file with XHR. 
-The code here uses only Media Source Extensions and HTML5 video elements. You might want to provide a fallback such as Adobe Flash or Silverlight for browsers that don't support HTML5 video and MSE. 
+
+The code here uses only Media Source Extensions and HTML5 video elements. You might want to provide a fallback such as Adobe 
+Flash or Silverlight for browsers that don't support HTML5 video and MSE. 
+
 Rather than writing all this code yourself, take a look at the dash.js library and reference player. Dash.js is an opensource library and player that is supported by many industry media companies, including Microsoft. Dash.js is a modular library with components that can be replaced or rewritten as needed. For large companies, this gives the flexibility of creating modules that handle special needs. For more info see dash.js on GitHub. 
 
 }}
