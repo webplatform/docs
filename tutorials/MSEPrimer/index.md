@@ -444,6 +444,8 @@ Rather than writing all this code yourself, take a look at the dash.js library a
 {{See_Also_Section
 |Topic_clusters=Video, XHR
 |Manual_links=[http://www.w3.org/TR/media-source/ W3C Media Source Extensions]
+[http://samples.msdn.microsoft.com/Workshop/samples/media/mpdParseExample.html Simple MPEG-DASH Streaming player example]
+
 }}
 {{Topics}}
 {{External_Attribution
