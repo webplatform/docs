@@ -4,11 +4,11 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name|MediaSource}}
-{{Summary_Section|Represents a source of media data (audio or video) for a media element. }}
+{{Summary_Section|Represents a source of media data (audio or video) for a media element.}}
 {{API_Object
 |Overview=Provides a buffer based source for a media object. The app creates a MediaSource object and adds it to the media (audio or video) object as a source for the src object. SourceBuffers are then added to the MediaSource object and media content is then appended to the buffers to provide streaming or multi-source playback.
 
-<code>var mediaSource = new MediaSource();</code> 
+<code>var mediaSource = new MediaSource();</code>
 }}
 {{Examples_Section
 |Not_required=No
@@ -16,9 +16,8 @@
 |Language=JavaScript
 |Description=This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content. 
 
-The link below goes to a sample that runs only on browser that support the W3C syntax and MP4 files. 
-|Code=
-// Create mediaSource and initialize video 
+The live sample only runs on a browser that support the W3C syntax and MP4 files.
+|Code=// Create mediaSource and initialize video 
 function setupVideo() {
   clearLog(); // Clear console log
 
@@ -42,15 +41,13 @@ function setupVideo() {
   mediaSource.addEventListener('sourceopen', function (e) {
     try {
       videoSource = mediaSource.addSourceBuffer('video/mp4');
-      initVideo(initialization, file);           
+      // go initialize and run your videos           
     } catch (e) {
-      log('Exception calling addSourceBuffer for video', e);
+      console('Exception calling addSourceBuffer for video: ' +  e);
       return;
     }
   },false);
-
 }
-
 |LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html
 }}
 }}
