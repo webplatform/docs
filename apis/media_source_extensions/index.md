@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Enables generating media streams for playback, for features like adaptive streaming and shifting live streams.}}
+{{Summary_Section|Provides a buffer based source for HTML5 Video elements to enable media streams for playback, for features like adaptive streaming and shifting live streams. }}
 {{API_Listing}}
 {{Concept_Listing
 |Query=[[Category:Media_Source_Extensions]][[Category:API_Objects]]
@@ -27,6 +27,7 @@ General compatibility notes -
 {{See_Also_Section
 |Topic_clusters=Multimedia, Mobile, Video
 |External_links=* [http://www.w3.org/TR/media-source/ Media Source Extensions API specification]
+*[http://docs.webplatform.org/wiki/tutorials/MSEPrimer MSE Primer]
 }}
 {{Topics|API, Media}}
 {{External_Attribution
