@@ -17,24 +17,12 @@
 |Description=This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content. 
 
 The live sample only runs on a browser that support the W3C syntax and MP4 files.
-|Code=// Create mediaSource and initialize video 
-function setupVideo() {
-  clearLog(); // Clear console log
-
-  //  Create the media source 
+|Code=  //  Create the media source 
   if (window.MediaSource) {
     mediaSource = new window.MediaSource();
-    //  mediaSource = new (window.MediaSource || window.WebKitMediaSource)();
-  } else {
-    log("mediasource or syntax not supported");
-    return;
-  }
-//      mediaSource = new (window.MediaSource || window.WebKitMediaSource)();
+  }      mediaSource = new (window.MediaSource || window.WebKitMediaSource)();
   var url = URL.createObjectURL(mediaSource);
-  videoElement.pause();
   videoElement.src = url;
-  videoElement.width = width;
-  videoElement.height = height;
 
   // Wait for event that tells us that our media source object is 
   //   ready for a buffer to be added.
