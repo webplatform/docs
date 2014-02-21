@@ -5,7 +5,7 @@
 {{Summary_Section|Returns a reference to the prototype for a class of array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array.prototype
+|Format=Array.prototype
 }}
 |Values=
 }}
@@ -40,7 +40,10 @@ All intrinsic JavaScript objects have a '''prototype''' property that is read-on
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Import_Notes===Requirements==
+Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information.
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section}}
