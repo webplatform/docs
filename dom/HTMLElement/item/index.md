@@ -68,7 +68,7 @@ if (oItem!{{=}}null) {
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''item''' method cannot retrieve '''input type{{=}}image''' elements from a '''form'''. To access all elements contained in a form, use the [[dom/properties/children (document)+B416|'''children''']] collection.
+The '''item''' method cannot retrieve '''input type{{=}}image''' elements from a '''form'''. To access all elements contained in a form, use the [[dom/Element/children|'''children''']] collection.
 Windows Internet Explorer 8 and later. In IE8 Standards mode, the ''index'' parameter is not used.  For more information, see Defining Document Compatibility.
 |Import_Notes====Syntax===
 ===Standards information===
@@ -84,29 +84,7 @@ Windows Internet Explorer 8 and later. In IE8 Standards mode, the ''index'' par
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/all|all]]</code>
-*<code>[[dom/properties/anchors|anchors]]</code>
-*<code>[[dom/properties/applet|applets]]</code>
-*<code>[[dom/properties/boundElements|boundElements]]</code>
-*<code>[[dom/properties/cellSpacing|cells]]</code>
-*<code>[[dom/properties/children (document)+B416|children]]</code>
-*<code>[[dom/properties/embeds|embeds]]</code>
-*<code>[[dom/properties/forms|forms]]</code>
-*<code>[[dom/properties/frames|frames]]</code>
-*<code>[[dom/properties/image|images]]</code>
-*<code>[[dom/properties/links|links]]</code>
-*<code>mimeTypes</code>
-*<code>[[dom/properties/rows (table)|rows]]</code>
-*<code>[[dom/properties/scripts|scripts]]</code>
-*<code>[[dom/properties/tBodies|tBodies]]</code>
-*<code>window</code>
-
-{{Editorial/Deletion_Candidate
-| This is a duplicate of [[dom/HTMLCollection/item]], and the examples are incorrect.
-}}
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
