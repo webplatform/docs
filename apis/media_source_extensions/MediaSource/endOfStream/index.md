@@ -8,7 +8,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=error
-|Data type=String
+|Data type=enum
 |Description=Type: EndOfStreamError
 
 If an error has occurred, this optional parameter can be used to send error information. 
@@ -29,7 +29,13 @@ EndOfStreamError error values
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=This method throws an <codeINVALID_STATE_ERR</code> exception under the following conditions:
+
+*If the readyState attribute is not open.
+*If the updating attribute is true on any SourceBuffer in sourceBuffers.
+ 
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
