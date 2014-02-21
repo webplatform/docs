@@ -1,21 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLElement
-|Read_only=
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example shows how to use the '''rows''' and [[dom/properties/cellSpacing|'''cells''']] collections to insert a number into each cell of the table.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rows-cells.htm
-|Code=
-&lt;HTML&gt;
+|Examples={{Single Example
+|Description=This example shows how to use the '''rows''' and '''cells''' collections to insert a number into each cell of the table.
+|Code=&lt;HTML&gt;
 &lt;SCRIPT type{{=}}"text/javascript"&gt;
 function numberCells()
 {
@@ -39,24 +39,35 @@ function numberCells()
 &lt;TR&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
 &lt;/TABLE&gt;
-&lt;/BODY&gt;&lt;/HTML&gt; 
-}}}}
+&lt;/BODY&gt;&lt;/HTML&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rows-cells.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The scope of the '''rows''' collection is for the '''tHead''', '''tBody''', or '''tFoot''' object of the table. In addition, there is also a '''rows''' collection for the [[html/elements/table|'''table''']] object, which contains all the rows for the entire table. A row that appears in one of the table sections also appears in the '''rows''' collection for the '''table'''.
-The '''tr''' object has two index properties, [[dom/properties/rowIndex|'''rowIndex''']] and [[dom/properties/sectionRowIndex|'''sectionRowIndex''']], that indicate where a given row appears. The '''rowIndex''' property indicates where the '''tr''' appears with respect to the '''rows''' collection for the whole table. By contrast, '''sectionRowIndex''' returns where the '''tr''' appears with respect to the '''rows''' collection for the specific table section in which it is located.
+The '''tr''' object has two index properties, [[dom/HTMLElement/rowIndex|'''rowIndex''']] and [[dom/HTMLElement/sectionRowIndex|'''sectionRowIndex''']], that indicate where a given row appears. The '''rowIndex''' property indicates where the '''tr''' appears with respect to the '''rows''' collection for the whole table. By contrast, '''sectionRowIndex''' returns where the '''tr''' appears with respect to the '''rows''' collection for the specific table section in which it is located.
 If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
