@@ -30,11 +30,10 @@ EndOfStreamError error values
 |Examples=
 }}
 {{Notes_Section
-|Usage=This method throws an <codeINVALID_STATE_ERR</code> exception under the following conditions:
+|Usage=This method throws an <code>INVALID_STATE_ERR</code> exception under the following conditions:
 
 *If the readyState attribute is not open.
 *If the updating attribute is true on any SourceBuffer in sourceBuffers.
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
