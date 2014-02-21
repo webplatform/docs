@@ -9,19 +9,15 @@
 |Parameters={{Method Parameter
 |Name=error
 |Data type=String
-|Description=MediaSource.endOfStream(error); 
-Type: EndOfStreamError
+|Description=Type: EndOfStreamError
 
 If an error has occurred, this optional parameter can be used to send error information. 
 
 EndOfStreamError error values
-network 
-A network error occurred.
- 
- decode 
-A decode error occurred.
- 
-
+;network 
+:A network error occurred.
+;decode 
+:A decode error occurred.
 |Optional=Yes
 }}
 |Method_applies_to=apis/media_source_extensions/MediaSource
