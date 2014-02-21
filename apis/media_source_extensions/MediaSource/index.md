@@ -17,7 +17,8 @@
 |Description=This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content. 
 
 The link below goes to a sample that runs only on browser that support the W3C syntax and MP4 files. 
-|Code=// Create mediaSource and initialize video 
+|Code=
+// Create mediaSource and initialize video 
 function setupVideo() {
   clearLog(); // Clear console log
 
@@ -46,7 +47,9 @@ function setupVideo() {
       log('Exception calling addSourceBuffer for video', e);
       return;
     }
-  });
+  },false);
+
+}
 
 |LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html
 }}
