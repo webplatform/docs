@@ -31,7 +31,7 @@
  var newArray = origArray.slice(0, -1);
  document.write(origArray);
  document.write("&lt;br/&gt;");
- newArray = origArray. slice(-2);
+ newArray = origArray.slice(-2);
  document.write(newArray);
  
  // Output:
