@@ -28,7 +28,7 @@
 |Language=JavaScript
 |Description=The following examples show how to use the slice method. In the first example, all but the last element of <code>myArray</code> is copied into <code>newArray</code>. In the second example, only the last two elements of <code>myArray</code> are copied into <code>newArray</code>.
 |Code=var origArray = [3, 5, 7, 9];
- var newArray = origArray. slice(0, -1);
+ var newArray = origArray.slice(0, -1);
  document.write(origArray);
  document.write("&lt;br/&gt;");
  newArray = origArray. slice(-2);
