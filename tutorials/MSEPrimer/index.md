@@ -12,7 +12,7 @@ This guide gives you a basic look at Media Source Extensions(MSE), what they are
 {{Tutorial
 |Content====Introduction===
 [http://www.w3.org/TR/media-source/ Media Source Extensions (MSE)] as adds buffer-based source options to HTML5 media for streaming support. Previously, you had to download a complete video file to play, or use an add-on like Silverlight or Adobe Flash to stream media. With MSE, no client add-ons are required for streaming. Additionally, you can stream video from a standard HTTP server. A special media server is not required. 
-The [http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html example] described here uses un-prefixed APIs, and runs in Internet Explorer 11. It loads in the latest Chrome, but won't load the video, possibly because the source video is MP4. 
+The [http://code.webplatform.org/gist/9144919/ example] described here uses un-prefixed APIs, and runs in Internet Explorer 11. It loads in the latest Chrome, but won't load the video, possibly because the source video is MP4. 
 
 ===MSE Overview===
 The primary addition to HTML5 media is the MediaSource object. The MediaSource object takes the place of a file URL as the src on a video object. 
