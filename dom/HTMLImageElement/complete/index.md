@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -48,8 +49,8 @@
 *<code>input</code>
 *<code>input type{{=}}image</code>
 *<code>Reference</code>
-*<code>[[dom/events/readystatechange|onreadystatechange]]</code>
-*<code>[[dom/properties/readyState (Link, Img, Input, Style...elements)|readyState]]</code>
+*<code>[[dom/Element/readystatechange|onreadystatechange]]</code>
+*<code>[[dom/Element/readyState|readyState]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
