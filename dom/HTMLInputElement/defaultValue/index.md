@@ -20,7 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The value of the property can be changed programmatically, but doing so has no effect on the appearance of the object or the submitted value - if the [[dom/properties/value|value]] property has been changed by a user or by a script. It does, however, change the initial value of the object when the form is reset.
+|Notes=The value of the property can be changed programmatically, but doing so has no effect on the appearance of the object or the submitted value - if the [[dom/HTMLElement/value|value]] property has been changed by a user or by a script. It does, however, change the initial value of the object when the form is reset.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
