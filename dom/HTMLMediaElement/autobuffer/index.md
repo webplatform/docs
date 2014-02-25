@@ -18,7 +18,7 @@
 {{Notes_Section
 |Notes====Remarks===
 The '''autobuffer''' method buffers the '''audio''' or '''video''' element to prepare for playback.
-The '''autobuffer''' attribute indicates that the media element is likely to be used, even though it does not have an [[apis/audio-video/properties/autoplay|'''autoplay''']] attribute. This attribute is ignored if '''autoplay''' is present. Buffering the media can improve responsiveness when the element is finally played.
+The '''autobuffer''' attribute indicates that the media element is likely to be used, even though it does not have an [[dom/HTMLMediaElement/autoplay|'''autoplay''']] attribute. This attribute is ignored if '''autoplay''' is present. Buffering the media can improve responsiveness when the element is finally played.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
@@ -41,8 +41,8 @@ The '''autobuffer''' attribute indicates that the media element is likely to be 
 *<code>video element</code>
 *<code>video object</code>
 *<code>Reference</code>
-*<code>[[apis/audio-video/properties/autoplay|autoplay]]</code>
-*<code>[[apis/audio-video/properties/preload|preload]]</code>
+*<code>[[dom/HTMLMediaElement/autoplay|autoplay]]</code>
+*<code>[[dom/HTMLMediaElement/preload|preload]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
