@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the value of the [[html/attributes/value|'''value''']] HTML attribute.}}
+{{Summary_Section|Gets or sets the value of the [[dom/HTMLElement/value|'''value''']] HTML attribute.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLInputElement
 |Read_only=No
