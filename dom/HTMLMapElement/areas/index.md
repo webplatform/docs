@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -20,7 +21,7 @@
 }}
 {{Notes_Section
 |Notes=Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
-To add elements to the collection, use the [[dom/methods/createElement|'''createElement''']] and [[dom/methods/add|'''add''']] methods.  Alternatively, use the [[dom/methods/insertAdjacentHTML|'''insertAdjacentHTML''']] method.
+To add elements to the collection, use the [[dom/Document/createElement|'''createElement''']] and [[dom/HTMLSelectElement/add|'''add''']] methods.  Alternatively, use the [[dom/Element/insertAdjacentHTML|'''insertAdjacentHTML''']] method.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
