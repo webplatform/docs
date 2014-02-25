@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics,Missing Relevant Sections,Data Not Semantic,Unreviewed Import
-|Content=Incomplete,Not Neutral,Cleanup,Compatibility Incomplete,Examples Best Practices
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -38,7 +39,7 @@ You can use the '''autoplay''' attribute rather than script to force the '''audi
 *<code>audio</code>
 *<code>video element</code>
 *<code>video object</code>
-*<code>[[apis/audio-video/properties/autobuffer|autobuffer]]</code>
+*<code>[[dom/HTMLMediaElement/autobuffer|autobuffer]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
