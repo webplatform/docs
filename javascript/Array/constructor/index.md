@@ -5,9 +5,13 @@
 {{Summary_Section|Specifies the function that creates an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array.constructor
+|Format=arrayObj.constructor
 }}
-|Values=
+|Values={{JS Syntax Parameter
+|Name=arrayObj
+|Required=Required
+|Description=Any Array object.
+}}
 }}
 {{JS_Return_Value
 |Description=The function object which constructed the Array instance.
