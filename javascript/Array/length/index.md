@@ -39,7 +39,7 @@ for (var i = 0, j = classes.length; i < j; i++) {
 |LiveURL=http://code.webplatform.org/gist/9086506
 }}{{Single Example
 |Language=JavaScript
-|Description=This shows how to limit the number of items added into a shopping cart. The length property shortens the array cart to a length of 3 if the current length is larger than 3.
+|Description=This shows how to limit the number of items added into a shopping cart. The length property shortens the array cart to a length of 3 if the current length is larger than 3. The attributes of the '''length''' property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the '''length''' property to extend or truncate an Array object at any time.
 |Code=var cart = ["bread", "cheese", "coffee"];
 
 cart.push("salad"); // length = 4
@@ -80,9 +80,7 @@ On the other hand, when decreasing length, the array is truncated.
  // Output
  // ["0"]
 }}
-{{Notes_Section
-|Notes=The attributes of the '''length''' property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the '''length''' property to extend or truncate an Array object at any time.
-}}
+{{Notes_Section}}
 {{JS Object Listing}}
 
 {{See_Also_Section
