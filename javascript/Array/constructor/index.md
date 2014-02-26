@@ -34,9 +34,7 @@
 }}
 }}
 {{Remarks_Section
-|Remarks=The required array is the name of an array.
-
-The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. If the JavaScript interpreter falls back to their prototype object, the '''constructor''' property references the native <code>Object.prototype.constructor</code>.
+|Remarks=The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. If the JavaScript interpreter falls back to their prototype object, the '''constructor''' property references the native <code>Object.prototype.constructor</code>.
 
  var my_obj = Math;
  document.write(my_obj.constructor === Math);
