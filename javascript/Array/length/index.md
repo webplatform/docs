@@ -2,12 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Basically specifies the number of elements (AKA length) in an '''Array''' object. This means the '''length''' property represents a number one greater than the largest index defined in an '''Array''' object.
-
-The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
-
-The attributes of the '''length''' property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the '''length''' property to extend or truncate an Array object at any time.
-}}
+{{Summary_Section|Basically specifies the number of elements (AKA length) in an '''Array''' object. This means the '''length''' property represents a number one greater than the largest index defined in an '''Array''' object.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=arrayObj.length
@@ -24,7 +19,7 @@ arrayObj.length = numVar;
 }}
 }}
 {{JS_Return_Value
-|Description=Any number less than 2 to the 32nd power.
+|Description=The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
 }}
 {{Examples_Section
 |Not_required=No
@@ -85,7 +80,9 @@ On the other hand, when decreasing length, the array is truncated.
  // Output
  // ["0"]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The attributes of the '''length''' property are { Writable: true, Enumerable: false, Configurable: false }. So you can set the '''length''' property to extend or truncate an Array object at any time.
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
