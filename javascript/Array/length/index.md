@@ -19,7 +19,7 @@ arrayObj.length = numVar;
 }}
 }}
 {{JS_Return_Value
-|Description=The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
+|Description=Any number less than 2 to the 32nd power. The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
 }}
 {{Examples_Section
 |Not_required=No
