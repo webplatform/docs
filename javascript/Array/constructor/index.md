@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|constructor}}
 {{Flags
 |Checked_Out=No
 }}
@@ -63,7 +63,6 @@ The '''constructor''' property is only read-only for primitive values such as 1,
 {{See_Also_Section
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript, by Mozilla Developer Network]
 * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor Object.prototype.constructor, by Mozilla Developer Network]
-
 |Manual_sections====Specification===
 * [http://www.ecma-international.org/ecma-262/5.1/#sec-4.3.4 4.3.4 constructor]
 * [http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.1 15.2.4.1 Object.prototype.constructor]
