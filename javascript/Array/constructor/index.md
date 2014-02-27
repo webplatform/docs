@@ -7,11 +7,7 @@
 |Formats={{JS Syntax Format
 |Format=arrayObj.constructor
 }}
-|Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=Any Array object.
-}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=The function object which constructed the Array instance.
