@@ -38,7 +38,7 @@ function createCORSRequest(method, url) {
     // XHR for Chrome/Firefox/Opera/Safari.
     xhr.open(method, url, true);
   } else if (typeof XDomainRequest != "undefined") {
-    // XDomainRequest for IE.
+    // XDomainRequest for IE 9 and earlier.
     xhr = new XDomainRequest();
     xhr.open(method, url);
   } else {
