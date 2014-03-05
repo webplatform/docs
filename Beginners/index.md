@@ -12,7 +12,15 @@
 
 In this course, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
-* The newest browsers you are able to install. If you do not have them already, grab them from the homepages of [http://www.google.com/chrome Chrome], [http://www.mozilla.org/firefox Firefox], [http://microsoft.com/ie Internet Explorer], [http://www.opera.com Opera], and [http://www.apple.com/safari/ Safari].
+* The newest browsers you are able to install. If you do not have them already, grab them from the homepages of 
+** All Platforms
+***[http://www.google.com/chrome Chrome]
+***[http://www.mozilla.org/firefox Firefox]
+***[http://www.opera.com Opera]
+** Windows
+***[http://microsoft.com/ie Internet Explorer]
+** Mac OS
+***[http://www.apple.com/safari/ Safari].
 * A decent text editor. Reasonable free options are [http://notepad-plus-plus.org/ Notepad++] (Windows), [http://bluefish.openoffice.nl/index.html Bluefish] (Windows, Mac, Linux), and [http://brackets.io Brackets] (Windows, Mac, Linux).
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
