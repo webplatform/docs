@@ -14,14 +14,24 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 
 * The newest browsers you are able to install. If you do not have them already, grab them from the homepages of 
 ** All Platforms
-***[http://www.google.com/chrome Chrome]
+***[https://www.google.com/chrome Chrome]
 ***[http://www.mozilla.org/firefox Firefox]
 ***[http://www.opera.com Opera]
 ** Windows
 ***[http://microsoft.com/ie Internet Explorer]
 ** Mac OS
 ***[http://www.apple.com/safari/ Safari].
-* A decent text editor. Reasonable free options are [http://notepad-plus-plus.org/ Notepad++] (Windows), [http://bluefish.openoffice.nl/index.html Bluefish] (Windows, Mac, Linux), and [http://brackets.io Brackets] (Windows, Mac, Linux).
+* A decent text editor. Reasonable free options are 
+** All Platforms
+***[http://brackets.io Brackets]
+***[http://bluefish.openoffice.nl/index.html Bluefish]
+** Windows
+***[http://notepad-plus-plus.org/ Notepad++]
+** Mac
+***[https://github.com/textmate/textmate Textmate]
+***[http://www.barebones.com/products/textwrangler/ TextWrangler]
+** Linux
+***[http://www.geany.org/ Geany]
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
 
