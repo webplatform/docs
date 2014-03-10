@@ -42,7 +42,7 @@ This property overrides a '''source''' element if both are used in a document.
 *<code>audio object</code>
 *<code>video element</code>
 *<code>video object</code>
-*<code>[[apis/audio-video/properties/currentSrc|currentSrc]]</code>
+*<code>[[dom/HTMLMediaElement/currentSrc|currentSrc]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
