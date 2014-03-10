@@ -9,12 +9,11 @@
 {{Summary_Section|Fires whenever enough data is available to determine whether a media is playable.}}
 {{Event
 |Event_applies_to=dom/HTMLMediaElement
-|Interface=dom/HTMLMediaElement
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/HTMLMediaElement
 }}
 {{Examples_Section
 |Not_required=No
@@ -22,7 +21,7 @@
 }}
 {{Notes_Section
 |Notes=The '''oncanplay''' event is raised when enough data is available to advance the playback position in the direction of playback.
-This event first occurs after [[apis/audio-video/events/loadeddata|'''onloadeddata''']] and before [[apis/audio-video/events/canplaythrough|'''oncanplaythrough''']].
+This event first occurs after [[dom/Element/loadeddata|'''onloadeddata''']] and before [[dom/HTMLMediaElement/canplaythrough|'''oncanplaythrough''']].
 To invoke this event, load a media resource.
 }}
 {{Related_Specifications_Section
