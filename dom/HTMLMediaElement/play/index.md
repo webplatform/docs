@@ -69,7 +69,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-To change the URL that is currently playing, assign it to [[apis/audio-video/properties/src|'''src''']]. This method sets [[apis/audio-video/properties/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[apis/audio-video/methods/load|'''load''']] before calling '''play'''.
+To change the URL that is currently playing, assign it to [[dom/HTMLMediaElement/src|'''src''']]. This method sets [[dom/HTMLMediaElement/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[dom/HTMLMediaElement/load|'''load''']] before calling '''play'''.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.8
