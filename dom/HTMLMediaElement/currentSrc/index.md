@@ -40,7 +40,7 @@
 *<code>audio</code>
 *<code>video element</code>
 *<code>video object</code>
-*<code>[[apis/audio-video/properties/src|src]]</code>
+*<code>[[dom/HTMLMediaElement/src|src]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
