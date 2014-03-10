@@ -17,7 +17,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-When the audio is muted, [[apis/audio-video/properties/volume|'''volume''']] is ignored.
+When the audio is muted, [[dom/HTMLMediaElement/volume|'''volume''']] is ignored.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.10
