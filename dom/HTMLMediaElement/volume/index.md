@@ -17,7 +17,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Volume ranges do not need to be linear. When [[apis/audio-video/properties/muted|'''muted''']] is applied, this property is ignored.
+Volume ranges do not need to be linear. When [[dom/HTMLMediaElement/muted|'''muted''']] is applied, this property is ignored.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.10
