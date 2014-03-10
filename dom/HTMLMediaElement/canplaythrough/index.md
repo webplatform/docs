@@ -9,20 +9,19 @@
 {{Summary_Section|Fires when enough data is available to determine whether a media is playable at a normal rate without interruptions.}}
 {{Event
 |Event_applies_to=dom/HTMLMediaElement
-|Interface=dom/HTMLMediaElement
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/HTMLMediaElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Notes=The '''oncanplaythrough''' event is raised when data is being fetched at a rate that would allow playback without interruption at the [[apis/audio-video/properties/defaultPlaybackRate|'''defaultPlaybackRate''']]. If the [[apis/audio-video/properties/autoplay|'''autoplay''']] attribute is specified, the video starts playing when '''oncanplaythrough''' is received.
-This event occurs after [[apis/audio-video/events/canplay|'''oncanplay''']] and before the first [[apis/audio-video/events/progress|'''onprogress''']] event is received.
+|Notes=The '''oncanplaythrough''' event is raised when data is being fetched at a rate that would allow playback without interruption at the [[dom/HTMLMediaElement/defaultPlaybackRate|'''defaultPlaybackRate''']]. If the [[dom/HTMLMediaElement/autoplay|'''autoplay''']] attribute is specified, the video starts playing when '''oncanplaythrough''' is received.
+This event occurs after [[dom/HTMLMediaElement/canplay|'''oncanplay''']] and before the first [[dom/HTMLMediaElement/progress|'''onprogress''']] event is received.
 To invoke this event, load a media resource.
 |Import_Notes====Syntax===
 ===Standards information===
