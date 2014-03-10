@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -28,7 +29,7 @@
 }}
 {{Notes_Section
 |Usage=This method adds an '''option''' element to a '''select''' block.
-|Notes=Before you can add an element to a collection, you must create it first by using the [[dom/methods/createElement|'''createElement''']] method.
+|Notes=Before you can add an element to a collection, you must create it first by using the [[dom/Document/createElement|'''createElement''']] method.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -48,14 +49,7 @@
 |Note=The '''before''' parameter can be the index position in the collection where the element is placed.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/areas|areas]]</code>
-*<code>[[dom/properties/controlRange|controlRange]]</code>
-*<code>[[dom/properties/options|options]]</code>
-*<code>select</code>
-*<code>[[dom/methods/remove|remove]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
