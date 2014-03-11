@@ -32,7 +32,14 @@ The '''propertyIsEnumerable''' method does not consider objects in the prototype
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.7 15.2.4.7 Object.prototype.propertyIsEnumerable (V)]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+
+}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=Array
