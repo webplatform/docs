@@ -4,7 +4,6 @@
 }}
 {{Summary_Section|'''Deprecated'''
 The deprecated '''unescape()''' function decodes a string that is usually encoded with the '''escape''' function.
-&lt;li&gt;sdgds
 }}
 {{JS_Syntax
 |Formats={{JS Syntax Format
