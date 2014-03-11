@@ -5,13 +5,9 @@
 {{Summary_Section|Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.splice( start, deleteCount,  [ item1 [, item2 [, . . . [, itemN ]]]])
+|Format=splice( start, deleteCount,  [ item1 [, item2 [, . . . [, itemN ]]]])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=An '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=start
 |Required=Required
 |Description=The zero-based location in the array from which to start removing elements.
