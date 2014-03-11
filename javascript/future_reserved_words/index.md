@@ -12,7 +12,7 @@ For a list of reserved words in JavaScript, see [[javascript/reserved words{{!}}
 }}
 {{JS_Return_Value}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Remarks_Section}}
