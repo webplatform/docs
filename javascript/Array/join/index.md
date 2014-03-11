@@ -5,13 +5,9 @@
 {{Summary_Section|Adds all the elements of an array separated by the specified separator string.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.join([ separator ])
+|Format=join([ separator ])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=An '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=separator
 |Required=Optional
 |Description=A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.
