@@ -55,7 +55,7 @@
 }}
 }}
 {{Remarks_Section
-|Remarks=The '''lastIndexOf''' method searches an array for a specified value. The method returns the index of the first occurrence, or -1 if the specified value is not found.
+|Remarks=The '''lastIndexOf''' method searches an array for a specified value. The method returns the index of the last occurrence, or -1 if the specified value is not found.
 
 The search occurs in descending index order (last member first). To search in ascending order, use the [[javascript/Array/indexOf{{!}}indexOf Method (Array)]].
 
