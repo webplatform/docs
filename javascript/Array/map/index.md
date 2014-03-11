@@ -153,12 +153,7 @@ If the callbackfn argument is not a function object, a '''TypeError''' exception
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/methods{{!}}JavaScript Methods]]
-* [[javascript/Array{{!}}Array Object]]
-* [[javascript/Array/filter{{!}}filter Method (Array)]]
-* [[javascript/Array/forEach{{!}}forEach Method (Array)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
