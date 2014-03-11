@@ -33,9 +33,7 @@
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Array/shift{{!}}shift Method (Array)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
