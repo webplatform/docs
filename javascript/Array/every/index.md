@@ -5,13 +5,9 @@
 {{Summary_Section|Determines whether all the members of an array satisfy the specified test.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.every( callbackfn [, thisArg ])
+|Format=every( callbackfn [, thisArg ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to three arguments. The '''every''' method calls the callbackfn function for each element in array1 until the callbackfn returns false , or until the end of the array.
@@ -138,16 +134,10 @@ The following table describes the results of modifying the array object after th
 ==Exceptions==
 If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Notes_Section
-|Import_Notes===Requirements==
-Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
-}}
+{{Notes_Section}}
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=* [[javascript/Array/some{{!}}some Method (Array)]]
-* [[javascript/Array/filter{{!}}filter Method (Array)]]
-* [[javascript/Array{{!}}Array Object]]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.16 15.4.4.16 Array.prototype.every ( callbackfn [ , thisArg ] )]
 
