@@ -5,13 +5,9 @@
 {{Summary_Section|Determines whether a specified property is enumerable.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=object. propertyIsEnumerable( proName )
+|Format=propertyIsEnumerable( proName )
 }}
 |Values={{JS Syntax Parameter
-|Name=object
-|Required=Required
-|Description=Instance of an object.
-}}{{JS Syntax Parameter
 |Name=proName
 |Required=Required
 |Description=String value of a property name.
