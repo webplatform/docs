@@ -38,9 +38,7 @@ For example, in the United States, '''toLocaleString''' returns "01/05/96 00:00:
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=Array
