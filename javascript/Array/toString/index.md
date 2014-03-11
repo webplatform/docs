@@ -5,13 +5,9 @@
 {{Summary_Section|Returns a string representation of an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array.toString()
+|Format=toString()
 }}
-|Values={{JS Syntax Parameter
-|Name=array
-|Required=Required
-|Description=The array to represent as a string.
-}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=The string representation of the array.
