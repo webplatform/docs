@@ -62,10 +62,7 @@ The optional fromIndex argument specifies the array index at which to begin the 
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Array/indexOf{{!}}indexOf Method (Array)]]
-* [[javascript/Array{{!}}Array Object]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
