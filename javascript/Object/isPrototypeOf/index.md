@@ -5,13 +5,9 @@
 {{Summary_Section|Determines whether an object exists in another object's prototype chain.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=object1. isPrototypeOf( object2 )
+|Format=isPrototypeOf( object2 )
 }}
 |Values={{JS Syntax Parameter
-|Name=object1
-|Required=Required
-|Description=Instance of an object.
-}}{{JS Syntax Parameter
 |Name=object2
 |Required=Required
 |Description=Another object whose prototype chain is to be checked.
