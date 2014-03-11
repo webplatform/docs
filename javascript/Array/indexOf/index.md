@@ -5,13 +5,9 @@
 {{Summary_Section|Returns the index of the first occurrence of a value in an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.indexOf( searchElement [, fromIndex ])
+|Format=indexOf( searchElement [, fromIndex ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=searchElement
 |Required=Required
 |Description=The value to locate in array1.
