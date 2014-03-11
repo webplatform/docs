@@ -5,13 +5,9 @@
 {{Summary_Section|Inserts new elements at the start of an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.unshift([ item1 [, item2 [, . . . [, itemN]]]])
+|Format=unshift([ item1 [, item2 [, . . . [, itemN]]]])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=An '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=item1, item2,. . ., itemN
 |Required=Optional
 |Description=Elements to insert at the start of the '''Array'''.
