@@ -149,7 +149,7 @@ Supported in the following document modes: Internet Explorer 9 standards, Intern
 * [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array{{!}}Array Object]]
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.16 15.4.4.16 Array Objects]
 
 ECMAScript® Language Specification
 Standard ECMA-262
