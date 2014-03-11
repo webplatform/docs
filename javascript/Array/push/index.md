@@ -5,13 +5,9 @@
 {{Summary_Section|Appends new elements to an array, and returns the new length of the array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.push([ item1  [ item2 [. . . [ itemN ]]]])
+|Format=push([ item1  [ item2 [. . . [ itemN ]]]])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=An '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=item, item2,. . ., itemN
 |Required=Optional
 |Description=New elements of the '''Array'''.
