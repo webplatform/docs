@@ -44,10 +44,7 @@ The '''push''' method appends elements in the order in which they appear. If one
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Array/concat{{!}}concat Method (Array)]]
-* [[javascript/Array/pop{{!}}pop Method (Array)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
