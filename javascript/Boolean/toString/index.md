@@ -1,30 +1,58 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a string representation of an object.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= boolean.toString()}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns a string representation of a Boolean object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=boolean.toString()
+}}
+|Values={{JS Syntax Parameter
 |Name=boolean
 |Required=Required
-|Description=An object for which to get a string representation.}}
+|Description=An object for which to get a string representation.
+}}
 }}
 {{JS_Return_Value
-|Description=If the Boolean value is true , returns "true". Otherwise, returns "false".}}
+|Description=If the Boolean value is true , returns "true". Otherwise, returns "false".
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''toString''' method.
-
-|Code= var s = new Boolean(0);
+|Code=var s = new Boolean(0);
  document.write(s.toString());
  
  // Output: false;
-}}}}
-{{Topics | JS Basic}}
+}}{{Single Example
+|Language=JavaScript
+|Description=Create a Boolean variable and convert it to a string
+|Code=// Create a Boolean Variable
+var flag = new Boolean(true);
+// Convert the variable to a string
+var myVar = flag.toString();
+// myVar returns the string "true"
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 
+{{See_Also_Section
+|Manual_sections=For example:
+
+===Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+
+}}
+{{JS Topics
+|JS Page Type=JS Method
+|Applies to=Boolean
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
