@@ -44,10 +44,7 @@ Elements of source arrays are copied to the resulting array as follows:
 * If an object is copied from any of the arrays being concatenated to the new array, the object reference continues to point to the same object. A change in either the new array or the original array will result in a change to the other.
 * If a number or string value is added to the new array, only the value is copied. Changing the value in one array does not affect the value in the other.
 }}
-{{Notes_Section
-|Import_Notes===Requirements==
-Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps.
-}}
+{{Notes_Section}}
 {{JS Object Listing}}
 
 {{See_Also_Section
