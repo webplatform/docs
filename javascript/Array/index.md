@@ -127,9 +127,6 @@ var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5],
 </pre>
 
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
-|Import_Notes===Requirements==
-Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information.
-Some members in the following lists were introduced in later versions. For more information, see JavaScript Version Information or the documentation for the individual members.
 }}
 {{JS Object Listing}}
 
