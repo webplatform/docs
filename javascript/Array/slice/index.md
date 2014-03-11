@@ -43,14 +43,18 @@ The '''slice''' method copies up to, but not including, the element indicated by
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.10 15.4.4.10 Array.prototype.slice (start, end)]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx
-|HTML5Rocks_link=
 }}
