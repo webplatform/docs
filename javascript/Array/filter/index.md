@@ -199,6 +199,17 @@ Supported in the following document modes: Internet Explorer 9 standards, Intern
 |Manual_links=* [[javascript/Array{{!}}Array Object]]
 * [[javascript/Array/map{{!}}map Method (Array)]]
 * [[javascript/Array/forEach{{!}}forEach Method (Array)]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.20 15.4.4.20 Array.prototype.filter ( callbackfn [ , thisArg ] )]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+
+
+
+
+Array.prototype.filter ( callbackfn [ , thisArg ] )
 }}
 {{JS Topics
 |JS Page Type=JS Method
