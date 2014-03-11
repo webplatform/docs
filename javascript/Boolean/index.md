@@ -14,7 +14,7 @@
 |Required=Required
 |Description=The initial Boolean value for the new object. Possible values are true and false.
 
-Other values (like 1 and 0) are converted to a Boolean expression. 
+Other values (like 1 and 0) are converted to a Boolean expression.
 }}
 }}
 {{JS_Return_Value
@@ -50,7 +50,7 @@ You rarely instantiate the '''Boolean''' object explicitly.
 
 {{See_Also_Section
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.6 Boolean Objects]
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
