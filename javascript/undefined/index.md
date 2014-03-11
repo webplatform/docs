@@ -20,7 +20,7 @@
 if (foo === undefined) {
     // executes
 } else {
-   //won't execute
+   // won't execute
 }
 }}{{Single Example
 |Language=JavaScript
@@ -30,7 +30,7 @@ if (foo === undefined) {
 if (typeof foo === "undefined") {
     // executes
 } else {
-   //won't execute
+   // won't execute
 }
 }}{{Single Example
 |Language=JavaScript
