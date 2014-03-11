@@ -5,7 +5,7 @@
 {{Summary_Section|Removes the last element from an array and returns it.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.pop( )
+|Format=pop( )
 }}
 |Values=
 }}
@@ -41,9 +41,7 @@ If the array is empty, undefined is returned.
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Array/push{{!}}push Method (Array)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
