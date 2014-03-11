@@ -148,10 +148,6 @@ If the callbackfn argument is not a function object, a '''TypeError''' exception
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=* [[javascript/Array/filter{{!}}filter Method (Array)]]
-* [[javascript/Array/map{{!}}map Method (Array)]]
-* [[javascript/Array/some{{!}}some Method (Array)]]
-* [[javascript/Array{{!}}Array Object]]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.18 15.4.4.18 Array.prototype.forEach ( callbackfn [ , thisArg ] )]
 ECMAScript® Language Specification
