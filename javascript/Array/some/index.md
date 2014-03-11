@@ -5,13 +5,9 @@
 {{Summary_Section|Determines whether the specified callback function returns true for any element of an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.some( callbackfn [, thisArg ])
+|Format=some( callbackfn [, thisArg ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to three arguments. The '''some''' method calls the callbackfn function for each element in array1 until the callbackfn returns true , or until the end of the array.
