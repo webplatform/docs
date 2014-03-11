@@ -5,13 +5,9 @@
 {{Summary_Section|Determines whether an object has a property with the specified name.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=object. hasOwnProperty( proName )
+|Format=hasOwnProperty( proName )
 }}
 |Values={{JS Syntax Parameter
-|Name=object
-|Required=Required
-|Description=Instance of an object.
-}}{{JS Syntax Parameter
 |Name=proName
 |Required=Required
 |Description=String value of a property name.
