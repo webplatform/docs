@@ -46,7 +46,7 @@ Elements of source arrays are copied to the resulting array as follows:
 }}
 {{Notes_Section
 |Notes=Requirements
-Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information.
+Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps. See <a href="http://msdn.microsoft.com/en-us/library/ie/s4esdbwz(v=vs.94).aspx">Version Information</a>.
 }}
 {{JS Object Listing}}
 
