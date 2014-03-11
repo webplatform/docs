@@ -32,7 +32,8 @@ unescape("%u65E5%u672C%u8A9E"); // "日本語"
 Characters encoded in '''%u''' xxxx format (Unicode characters) are replaced with the Unicode character with hexadecimal encoding xxxx.
 }}
 {{Notes_Section
-|Notes=Do not use the '''unescape''' function to decode URIs. Use '''decodeURI''' instead.
+|Notes=Do not use the '''unescape''' function to decode URIs. Use [[javascript/decodeURI{{!}}decodeURI]] and 
+[[javascript/decodeURIComponent{{!}}decodeURIComponent]] functions instead.
 |Import_Notes=This function is deprecated and not recommended for use in new projects. Use with caution.
 }}
 {{JS Object Listing}}
