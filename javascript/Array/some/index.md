@@ -26,36 +26,37 @@
 |Language=JavaScript
 |Description=The following example uses the '''some''' method to find out if any elements in an array are even.
 |Code=// The callback function.
- function CheckIfEven(value, index, ar) {
-     if (value % 2 == 0)
-         return true;
- }
+function CheckIfEven(value, index, ar) {
+    if (value % 2 == 0) {
+        return true;
+    }
+}
  
- var numbers = [1, 15, 4, 10, 11, 22];
+var numbers = [1, 15, 4, 10, 11, 22];
  
- var evens = numbers.some(CheckIfEven);
- document.write(evens);
+var evens = numbers.some(CheckIfEven);
+document.write(evens);
  
- // Output:
- // true
+// Output:
+// true
 }}{{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use the thisArg parameter, which specifies an object to which the this keyword can refer. It checks whether any of the numbers in an array are outside the range provided by an object passed
 |Code=// Create a function that returns true if the value is 
- // outside the range.
- var isOutsideRange = function (value) {
-     return value &lt; this.minimum {{!}}{{!}} value &gt; this.maximum;
- }
+// outside the range.
+var isOutsideRange = function (value) {
+    return value &lt; this.minimum {{!}}{{!}} value &gt; this.maximum;
+}
  
- // Create an array of numbers.
- var numbers = [6, 12, 16, 22, -12];
+// Create an array of numbers.
+var numbers = [6, 12, 16, 22, -12];
  
- // The range object is to be the 'this' object.
- var range = { minimum: 10, maximum: 20 };
+// The range object is to be the 'this' object.
+var range = { minimum: 10, maximum: 20 };
  
- document.write(numbers.some(isOutsideRange, range));
+document.write(numbers.some(isOutsideRange, range));
  
- // Output: true
+// Output: true
 }}
 }}
 {{Remarks_Section
@@ -130,5 +131,7 @@ Standard ECMA-262
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ff679978(v=vs.94).aspx
+|HTML5Rocks_link=
 }}
