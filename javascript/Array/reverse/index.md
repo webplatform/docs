@@ -5,13 +5,9 @@
 {{Summary_Section|Reverses the elements in an '''Array'''.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.reverse()
+|Format=reverse()
 }}
-|Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=Any '''Array''' object.
-}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=The reversed array.
