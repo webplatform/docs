@@ -5,13 +5,9 @@
 {{Summary_Section|Calls a defined callback function on each element of an array, and returns an array that contains the results.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.map( callbackfn [, thisArg ])
+|Format=map( callbackfn [, thisArg ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to three arguments. The '''map''' method calls the callbackfn function one time for each element in the array.
