@@ -146,7 +146,10 @@ The '''forEach''' method does not directly modify the original array, but the ca
 ==Exceptions==
 If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Import_Notes====Requirements===
+Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
