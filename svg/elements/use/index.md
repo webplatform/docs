@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub,Needs Topics,Missing Relevant Sections,Data Not Semantic,Unreviewed Import
-|Content=Incomplete,Not Neutral,Cleanup,Compatibility Incomplete,Examples Best Practices
+|High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -12,12 +13,8 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=In the following code example, the '''use''' element is used to create three instances of a rectange defined in a [[svg/elements/defs|'''defs''']] tag.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in a browser that supports inline SVG to see three instances of a rectangle.
-
-It should look like this:
-|Code=
-<syntaxhighlight lang="xml">
+|Description=Here, the '''use''' element is used to create three instances of a rectangle defined in a [[svg/elements/defs|'''defs''']] tag.
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE html>
 <html>
     <head></head>
@@ -33,19 +30,16 @@ It should look like this:
     </body>
 </html>
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/9492902
 }}
 }}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 For more information, see the [http://go.microsoft.com/fwlink/p/?LinkID{{=}}190918 SVG specification].
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.8
 
@@ -90,7 +84,6 @@ The '''SVGUseElement''' object has these properties:
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
