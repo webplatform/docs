@@ -45,7 +45,7 @@ Elements of source arrays are copied to the resulting array as follows:
 * If a number or string value is added to the new array, only the value is copied. Changing the value in one array does not affect the value in the other.
 }}
 {{Notes_Section
-|Notes=Requirements
+|Import_Notes===Requirements==
 Supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards, Internet Explorer 9 standards, Internet Explorer 10 standards, Internet Explorer 11 standards. Also supported in Windows Store apps.
 }}
 {{JS Object Listing}}
