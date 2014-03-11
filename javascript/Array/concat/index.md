@@ -54,7 +54,7 @@ Supported in the following document modes: Quirks, Internet Explorer 6 standards
 |Manual_links=* [[javascript/String/concat{{!}}concat Method (String)]]
 * [[javascript/Array/join{{!}}join Method (Array)]]
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.5.4.6 15.5.4.6 String.prototype.concat ( [ string1 [ , string2 [ , … ] ] ] )]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.4 15.4.4.4 Array.prototype.concat ( [ string1 [ , string2 [ , … ] ] ] )]
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
