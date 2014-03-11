@@ -13,18 +13,18 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''LI''' element to create individual items in a directory list.
+|Language=HTML
+|Description=This example uses the &lt;li&gt; element to create individual items in an unordered list.
 |Code=<syntaxhighlight>
-<DIR>
-<LI>Art
-<LI>History
-<LI>Literature
-<LI>Sports
-<LI>Entertainment
-<LI>Science
-</DIR>
+<ul>
+     <li>Art</li>
+     <li>History</li>
+     <li>Literature</li>
+     <li>Sports</li>
+     <li>Entertainment</li>
+     <li>Science</li>
+</ul>
 </syntaxhighlight>
-
 }}
 }}
 {{Notes_Section
