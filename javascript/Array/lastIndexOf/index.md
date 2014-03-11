@@ -5,13 +5,9 @@
 {{Summary_Section|Returns the index of the last occurrence of a specified value in an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.lastIndexOf( searchElement [, fromIndex ])
+|Format=lastIndexOf( searchElement [, fromIndex ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=The array object to search.
-}}{{JS Syntax Parameter
 |Name=searchElement
 |Required=Required
 |Description=The value to locate in array1.
