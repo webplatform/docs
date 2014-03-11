@@ -40,10 +40,8 @@ var myVar = flag.toString();
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_sections=For example:
-
-===Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.6 Boolean Objects]
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
