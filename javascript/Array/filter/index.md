@@ -191,7 +191,7 @@ If the callbackfn argument is not a function object, a '''TypeError''' exception
 }}
 {{Notes_Section
 |Import_Notes====Requirements===
-Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. See Version Information. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
+Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
 }}
 {{JS Object Listing}}
 
