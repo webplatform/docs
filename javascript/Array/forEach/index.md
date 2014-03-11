@@ -101,6 +101,7 @@
 
 In addition to array objects, the '''forEach''' method can be used by any object that has a length property and that has numerically indexed property names.
 
+'''Callback Function Syntax''
 The syntax of the callback function is as follows:
 
 <code>function callbackfn(value, index, array1)</code>
