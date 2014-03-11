@@ -8,10 +8,6 @@
 |Format=concat([ item1 [, item2 [, . . . [, itemN ]]]])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=The '''Array''' object to which the other arrays are concatenated.
-}}{{JS Syntax Parameter
 |Name=item1,. . ., itemN
 |Required=Optional
 |Description=Additional items to add to the end of array1.
