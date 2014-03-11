@@ -48,8 +48,6 @@ Elements of source arrays are copied to the resulting array as follows:
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=* [[javascript/String/concat{{!}}concat Method (String)]]
-* [[javascript/Array/join{{!}}join Method (Array)]]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.4 15.4.4.4 Array.prototype.concat ( [ string1 [ , string2 [ , … ] ] ] )]
 ECMAScript® Language Specification
