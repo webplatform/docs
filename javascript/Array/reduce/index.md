@@ -5,13 +5,9 @@
 {{Summary_Section|Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.reduce( callbackfn [, initialValue ])
+|Format=reduce( callbackfn [, initialValue ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to four arguments. The '''reduce''' method calls the callbackfn function one time for each element in the array.
