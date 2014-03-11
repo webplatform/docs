@@ -38,7 +38,13 @@ For example, in the United States, '''toLocaleString''' returns "01/05/96 00:00:
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.3 15.4.4.3 Array.prototype.toLocaleString ( )]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=Array
