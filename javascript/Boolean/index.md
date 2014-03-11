@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Summary_Section|Creates a new Boolean (True/False) value.}}
 {{JS_Syntax
@@ -10,7 +10,7 @@
 |Values={{JS Syntax Parameter
 |Name=boolValue
 |Required=Required
-|Description=The initial Boolean value for the new object. Possible values are true and false. 
+|Description=The initial Boolean value for the new object. Possible values are true and false.
 }}
 }}
 {{JS_Return_Value
@@ -34,7 +34,6 @@ if (x) {
 if (isLoggedIn) {
   // actions that are only done when isLoggedIn is true
 }
-
 }}
 }}
 {{Remarks_Section
@@ -53,7 +52,7 @@ Standard ECMA-262
 5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Basic
+|JS Page Type=JS Object
 |Applies to=
 }}
 {{External_Attribution
