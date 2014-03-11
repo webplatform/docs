@@ -30,7 +30,13 @@
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.2 15.4.4.2 Array.prototype.toString ( )]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
