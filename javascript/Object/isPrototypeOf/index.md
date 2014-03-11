@@ -31,9 +31,7 @@
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Object/prototype{{!}}prototype Property (Object)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=Array
