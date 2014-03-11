@@ -192,7 +192,13 @@ A '''TypeError''' exception is thrown when either of the following conditions is
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.22 15.4.4.22 Array.prototype.reduceRight ( callbackfn [ , initialValue ] )]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
