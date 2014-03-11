@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,14 +14,14 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''LI''' element to create individual items in a directory list.
-|Code=&lt;DIR&gt;
-&lt;LI&gt;Art
-&lt;LI&gt;History
-&lt;LI&gt;Literature
-&lt;LI&gt;Sports
-&lt;LI&gt;Entertainment
-&lt;LI&gt;Science
-&lt;/DIR&gt;
+|Code=<DIR>
+<LI>Art
+<LI>History
+<LI>Literature
+<LI>Sports
+<LI>Entertainment
+<LI>Science
+</DIR>
 }}
 }}
 {{Notes_Section
