@@ -5,13 +5,9 @@
 {{Summary_Section|Returns the elements of an array that meet the condition specified in a callback function.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.filter( callbackfn [, thisArg ])
+|Format=filter( callbackfn [, thisArg ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to three arguments. The '''filter''' method calls the callbackfn function one time for each element in the array.
@@ -196,9 +192,6 @@ Supported in the following document modes: Internet Explorer 9 standards, Intern
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=* [[javascript/Array{{!}}Array Object]]
-* [[javascript/Array/map{{!}}map Method (Array)]]
-* [[javascript/Array/forEach{{!}}forEach Method (Array)]]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.20 15.4.4.20 Array.prototype.filter ( callbackfn [ , thisArg ] )]
 
