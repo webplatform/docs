@@ -5,13 +5,9 @@
 {{Summary_Section|Returns a section of an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.slice( start , [ end ])
+|Format=slice( start , [ end ])
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=An '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=start
 |Required=Required
 |Description=The beginning of the specified portion of arrayObj.
