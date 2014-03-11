@@ -148,6 +148,12 @@ Supported in the following document modes: Internet Explorer 9 standards, Intern
 |Manual_links=* [[javascript/Array/some{{!}}some Method (Array)]]
 * [[javascript/Array/filter{{!}}filter Method (Array)]]
 * [[javascript/Array{{!}}Array Object]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4 15.4 Array Objects]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Method
