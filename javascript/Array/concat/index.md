@@ -5,7 +5,7 @@
 {{Summary_Section|Combines two or more arrays.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.concat([ item1 [, item2 [, . . . [, itemN ]]]])
+|Format=concat([ item1 [, item2 [, . . . [, itemN ]]]])
 }}
 |Values={{JS Syntax Parameter
 |Name=array1
