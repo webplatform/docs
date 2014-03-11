@@ -14,13 +14,34 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Usage of '''undefined''' with strict equality. 
+|Description=Usage of '''undefined''' with strict equality.
 |Code=var foo;
 
 if (foo === undefined) {
     // executes
 } else {
    //won't execute
+}
+}}{{Single Example
+|Language=JavaScript
+|Description=Usage of '''undefined''' with the [[javascript/operators/typeof{{!}}typeof Operator]].
+|Code=var foo;
+
+if (typeof foo === "undefined") {
+    // executes
+} else {
+   //won't execute
+}
+}}{{Single Example
+|Language=JavaScript
+|Description=Comparison of strict equality and the [[javascript/operators/typeof{{!}}typeof Operator]]. Typeof doesn't throw an error if the variable hasn't been defined.
+|Code=// foo variable is not defined
+if (typeof foo === "undefined") {
+    // executes
+}
+
+if (foo === undefined) {
+    // throws ReferenceError
 }
 }}
 }}
