@@ -154,6 +154,11 @@ If the callbackfn argument is not a function object, a '''TypeError''' exception
 * [[javascript/Array/map{{!}}map Method (Array)]]
 * [[javascript/Array/some{{!}}some Method (Array)]]
 * [[javascript/Array{{!}}Array Object]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.18 15.4.4.18 Array.prototype.forEach ( callbackfn [ , thisArg ] )]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Method
