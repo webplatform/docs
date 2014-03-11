@@ -26,7 +26,8 @@ arrayObj.length = numVar;
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The array classes represents the content list of some training course. They are all displayed in the console by iterating over the array classes.
-|Code=var classes = ["HTML", "CSS", "JavaScript"];
+|Code=<syntaxhighlight>
+var classes = ["HTML", "CSS", "JavaScript"];
 document.write("This course includes:<br>");
 for (var i = 0, j = classes.length; i < j; i++) {
     document.write(classes[i] + "<br>");
@@ -36,6 +37,7 @@ for (var i = 0, j = classes.length; i < j; i++) {
 // HTML
 // CSS
 // JavaScript
+</syntaxhighlight>
 |LiveURL=http://code.webplatform.org/gist/9086506
 }}{{Single Example
 |Language=JavaScript
