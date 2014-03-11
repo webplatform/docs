@@ -14,7 +14,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''LI''' element to create individual items in a directory list.
-|Code=<DIR>
+|Code=<syntaxhighlight>
+<DIR>
 <LI>Art
 <LI>History
 <LI>Literature
@@ -22,6 +23,8 @@
 <LI>Entertainment
 <LI>Science
 </DIR>
+</syntaxhighlight>
+
 }}
 }}
 {{Notes_Section
