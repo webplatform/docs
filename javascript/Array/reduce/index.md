@@ -180,9 +180,7 @@ A '''TypeError''' exception is thrown when either of the following conditions is
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/Array/reduceRight{{!}}reduceRight Method (Array)]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 }}
