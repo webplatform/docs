@@ -5,13 +5,9 @@
 {{Summary_Section|Performs the specified action for each element in an array.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=array1.forEach( callbackfn [, thisArg ])
+|Format=forEach( callbackfn [, thisArg ])
 }}
 |Values={{JS Syntax Parameter
-|Name=array1
-|Required=Required
-|Description=An array object.
-}}{{JS Syntax Parameter
 |Name=callbackfn
 |Required=Required
 |Description=A function that accepts up to three arguments.'''forEach''' calls the callbackfn function one time for each element in the array.
@@ -101,7 +97,7 @@
 
 In addition to array objects, the '''forEach''' method can be used by any object that has a length property and that has numerically indexed property names.
 
-'''Callback Function Syntax''
+'''Callback Function Syntax'''
 The syntax of the callback function is as follows:
 
 <code>function callbackfn(value, index, array1)</code>
@@ -147,10 +143,7 @@ The '''forEach''' method does not directly modify the original array, but the ca
 ==Exceptions==
 If the callbackfn argument is not a function object, a '''TypeError''' exception is thrown.
 }}
-{{Notes_Section
-|Import_Notes====Requirements===
-Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
-}}
+{{Notes_Section}}
 {{JS Object Listing}}
 
 {{See_Also_Section
