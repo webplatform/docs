@@ -42,7 +42,7 @@
 
 {{See_Also_Section
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.12 15.4.4.12 Array.prototype.sort (comparefn)Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , … ] ] ] )]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.12 15.4.4.12 Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , … ] ] ] )]
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
