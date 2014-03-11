@@ -35,9 +35,7 @@
 {{Notes_Section}}
 {{JS Object Listing}}
 
-{{See_Also_Section
-|Manual_links=* [[javascript/operators/in{{!}}in Operator]]
-}}
+{{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=Array
