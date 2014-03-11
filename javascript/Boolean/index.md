@@ -2,15 +2,19 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|Creates a new Boolean (True/False) value.}}
+{{Summary_Section|Creates a new Boolean (true/false) value.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=Boolean([ boolValue ])
+|Format=new Boolean ([ boolValue ])
+}}{{JS Syntax Format
+|Format=([ boolValue ])
 }}
 |Values={{JS Syntax Parameter
 |Name=boolValue
 |Required=Required
 |Description=The initial Boolean value for the new object. Possible values are true and false.
+
+Other values (like 1 and 0) are converted to a Boolean expression. 
 }}
 }}
 {{JS_Return_Value
@@ -29,8 +33,8 @@ if (x) {
 }}{{Single Example
 |Language=JavaScript
 |Description=Using implicit Boolean constructor
-|Code=var IsLoggedIn = true; 
-// Implicit use of new Boolean(true)
+|Code=// Implicit use of new Boolean(true)
+var IsLoggedIn = true; 
 if (isLoggedIn) {
   // actions that are only done when isLoggedIn is true
 }
