@@ -5,11 +5,9 @@
 {{Summary_Section|Removes the first element from an array and returns it.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.shift( )
+|Format=shift( )
 }}
-|Values={{JS Syntax Parameter
-|Description=The required arrayObj reference is an '''Array''' object.
-}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=Returns the element removed from the array.
