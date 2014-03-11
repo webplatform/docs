@@ -12,16 +12,10 @@
 {{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Remarks_Section
-|Remarks=The boolean argument is the name of an object.
-
-The '''prototype''' property provides a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object. Properties and methods may be added to the prototype, but builtin objects may not be assigned a different prototype.
-
-For example, to add a method to the '''Boolean''' object that returns the value of the largest element of the array, declare the function, add it to '''Boolean.prototype''' , and then use it.
-
- function isFalse( ){
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Defines a function and then adds it to Boolean.prototype
+|Code= function isFalse( ){
      if (this.toString() == "false")
           return true;
      else
@@ -33,10 +27,27 @@ For example, to add a method to the '''Boolean''' object that returns the value 
  
  // Output:
  // false
+}}{{Single Example
+|Language=JavaScript
+|Description=Adds a function directly to the Boolean object through its prototype
+|Code=//Creates a toggle function for Boolean objects
+// through its prototype. All new boolean objects will
+// have this method.
+Boolean.prototype.toggle = function (){
+  return !this.valueOf();
+}
+
 }}
-{{Notes_Section
-|Usage=Add properties and methods to an object. New objects inherit the new property or method added from the Boolean.prototype.
 }}
+{{Remarks_Section
+|Remarks=The boolean argument is the name of an object.
+
+The '''prototype''' property provides a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object. Properties and methods may be added to the prototype, but builtin objects may not be assigned a different prototype.
+
+For example, to add a method to the '''Boolean''' object that returns the value of the largest element of the array, declare the function, add it to '''Boolean.prototype''' , and then use it.
+
+}}
+{{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section}}
