@@ -5,13 +5,9 @@
 {{Summary_Section|Sorts an '''Array'''.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayobj.sort( sortFunction )
+|Format=sort( sortFunction )
 }}
 |Values={{JS Syntax Parameter
-|Name=arrayObj
-|Required=Required
-|Description=Any '''Array''' object.
-}}{{JS Syntax Parameter
 |Name=sortFunction
 |Required=Optional
 |Description=The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.
