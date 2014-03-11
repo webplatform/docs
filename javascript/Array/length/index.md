@@ -5,7 +5,7 @@
 {{Summary_Section|Basically specifies the number of elements (AKA length) in an '''Array''' object. This means the '''length''' property represents a number one greater than the largest index defined in an '''Array''' object.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=arrayObj.length
+|Format=arrayObj.length;
 arrayObj.length = numVar;
 }}
 |Values={{JS Syntax Parameter
@@ -15,11 +15,11 @@ arrayObj.length = numVar;
 }}{{JS Syntax Parameter
 |Name=numVar
 |Required=Required
-|Description=Any number less than 2 to the 32nd power.
+|Description=Any number less than 2 to the 32nd power (2^32).
 }}
 }}
 {{JS_Return_Value
-|Description=Any number less than 2 to the 32nd power. The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
+|Description=Any number less than 2 to the 32nd power (2^32). The type of its value must be the unsigned 32 bit integer in the range 0 through 4294967295, inclusive.
 }}
 {{Examples_Section
 |Not_required=No
