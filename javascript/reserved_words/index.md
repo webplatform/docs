@@ -1,48 +1,62 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|JavaScript has a number of reserved words that you cannot use as identifiers. Reserved words have a specific meaning to the JavaScript language, as they are part of the language syntax. Using a reserved word causes a compilation error when loading your script.
-
+{{Flags
+|Checked_Out=No
+}}
+{{Summary_Section|Reserved words are words that you cannot use as identifiers in JavaScript.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Remarks_Section
+|Remarks=JavaScript has a number of reserved words that you cannot use as identifiers. Reserved words have a specific meaning to the JavaScript language, as they are part of the language syntax. Using a reserved word causes a compilation error when loading your script.
+}}
+{{Notes_Section
+|Notes===Future reserved words==
 JavaScript also has a list of future reserved words. These words are not currently part of the JavaScript language, although they are reserved for future use. For more information about future reserved keywords in JavaScript, see [[javascript/future reserved words{{!}}JavaScript Future Reserved Words]].
 
-When choosing identifiers it is also important to avoid any words that are already the names of intrinsic JavaScript objects or functions, such as String or '''parseInt'''.
+==Intrinsic objects or functions== 
+When choosing identifiers it is also important to avoid any words that are already the names of intrinsic JavaScript objects or functions, such as '''String''' or '''parseInt'''.
 }}
+{{JS Object Listing}}
 ==Reserved Keywords==
-{| class='wikitable'
-|-
-| break
-| delete
-| if
-| this
-| while
-|-
-| case
-| do
-| in
-| throw
-| with
-|-
-| catch
-| else
-| instanceof
-| try
-|-
-| continue
-| finally
-| new
-| typeof
-|-
-| debugger
-| for
-| return
-| var
-|-
-| default
-| function
-| switch
-| void
-|}
-{{Topics | JS Basic}}
-
+* break
+* case
+* catch
+* continue
+* debugger
+* default
+* delete
+* do
+* else
+* finally
+* for
+* function
+* if
+* in
+* instanceof
+* new
+* return
+* switch
+* this
+* throw
+* try
+* typeof
+* var
+* void
+* while
+* with
+{{See_Also_Section
+|Manual_links=[[javascript/future reserved words{{!}}JavaScript Future Reserved Words]]
+}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
