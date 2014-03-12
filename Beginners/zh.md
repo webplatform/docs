@@ -24,7 +24,7 @@
 * [[concepts/internet and web/the history of the web|互联网的历史]]
 * [[concepts/internet and web/how does the internet work|互联网是如何工作的。]]
 * [[concepts/internet and web/the web standards model|web标准模型|网络标准模型 - HTML，CSS和JavaScript]]
-* [[tutorials/getting your content online|在线获取内容]]
+* [[tutorials/getting your content online|上传您的网站到网上]]
 * [[concepts/accessibility|无障碍]]
 
 == HTML - 构建您的网页内容==
