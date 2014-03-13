@@ -1,50 +1,51 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value that indicates whether a value is the reserved value '''NaN''' (not a number).
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= isNaN( numValue ) }}
+{{Summary_Section|Determines whether a supplied number is [[javascript/NaN{{!}}NaN]] (not a number).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=isNaN(numValue)
+}}
+|Values={{JS Syntax Parameter
+|Name=numValue
+|Required=Required
+|Description=the value to be tested against NaN
+}}
 }}
 {{JS_Return_Value
-|Description=true if the value converted to the Number type is the NaN , otherwise false.}}
-{{Remarks_Section
-|Remarks=The required numValue is the value to be tested against '''NaN'''.
-
-You typically use this method to test return values from the '''parseInt''' and '''parseFloat''' methods.
-
-Alternatively, a variable that contains '''NaN''' or another value could be compared to itself. If it compares as unequal, it is '''NaN'''. This is because '''NaN''' is the only value that is not equal to itself.
+|Description=true if the value converted to the Number type is the NaN , otherwise false.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
-|Code= // Returns false.
- isNaN(100);
- 
- // Returns false.
- isNaN("100");
- 
- // Returns true.
- isNaN("ABC");
- 
- // Returns true.
- isNaN("10C");
- 
- // Returns true.
- isNaN("abc123");
- 
- // Returns true.
- isNaN(Math.sqrt(-1));
-}}}}
+|Code=isNaN(100); // false
+isNaN("100"); // false
+isNaN("ABC"); // true
+isNaN("10C"); // true
+isNaN("abc123"); // true
+isNaN(Math.sqrt(-1)); // true
+}}
+}}
+{{Remarks_Section
+|Remarks=You typically use this method to test return values from the [[javascript/parseInt{{!}}parseInt]] and [[javascript/parseFloat{{!}}parseFloat]] functions.
+
+Alternatively, a variable that contains '''NaN''' or another value could be compared to itself. If it compares as unequal, it is '''NaN'''. This is because '''NaN''' is the only value that is not equal to itself.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+
 {{See_Also_Section
 |Manual_links=* [[javascript/isFinite{{!}}isFinite Function]]
 * [[javascript/NaN{{!}}NaN Constant]]
 * [[javascript/parseFloat{{!}}parseFloat Function]]
 * [[javascript/parseInt{{!}}parseInt Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
