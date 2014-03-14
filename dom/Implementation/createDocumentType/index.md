@@ -50,12 +50,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Implementation|Implementation]]</code>
-*<code>[[dom/methods/createDocument|createDocument]]</code>
-*<code>[[dom/methods/createHTMLDocument|createHTMLDocument]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
