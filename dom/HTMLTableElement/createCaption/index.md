@@ -1,9 +1,12 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLTableElement
@@ -13,47 +16,44 @@
 |Return_value_description='''IHTMLTableCaption'''
 
 '''caption'''
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''createCaption''' method to create a '''caption'''.
-|LiveURL=
-|Code=
-myCaption {{=}} document.all.myTable.createCaption()
-}}}}
+|Code=myCaption {{=}} document.all.myTable.createCaption()
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If no caption exists, the '''createCaption''' method 
 creates an empty table caption, adds it to the table, and returns a pointer to it. 
 If one or more captions already exist, the method returns a pointer to the first 
 one on the list.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/table|table]]</code>
-*<code>Reference</code>
-*<code>[[dom/methods/createTFoot|createTFoot]]</code>
-*<code>[[dom/methods/createTHead|createTHead]]</code>
-*<code>[[dom/methods/deleteCaption|deleteCaption]]</code>
-*<code>[[dom/methods/deleteTFoot|deleteTFoot]]</code>
-*<code>[[dom/methods/deleteTHead|deleteTHead]]</code>
+
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
