@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -17,143 +18,18 @@
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.6
 
-
-===Members===
-The '''KeyboardEvent''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Methods====
-The '''KeyboardEvent''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[dom/methods/getModifierState|'''getModifierState''']]
-|Queries the state of the specified modifier key.
-|-
-|[[dom/methods/initEvent|'''initEvent''']]
-|Initializes a new generic event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-|-
-|[[dom/methods/initKeyboardEvent|'''initKeyboardEvent''']]
-|Initializes a new keyboard event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-|-
-|[[dom/methods/initUIEvent|'''initUIEvent''']]
-|Initializes a new user interface event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-|-
-|[[dom/methods/preventDefault|'''preventDefault''']]
-|Cancels the default action of an event.
-|-
-|[[dom/methods/stopImmediatePropagation|'''stopImmediatePropagation''']]
-|Prevents any further propagation of an event.
-|-
-|[[dom/methods/stopPropagation|'''stopPropagation''']]
-|Prevents propagation of an event beyond the current target.
-|}
- 
-
-====Properties====
-The '''KeyboardEvent''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/altKey|'''altKey''']]
-|Gets a value that indicates whether the Alt key is pressed.
-|-
-|[[dom/properties/bubbles|'''bubbles''']]
-|Gets a value that  indicates whether an event propagates up from the event target.
-|-
-|[[dom/properties/cancelable|'''cancelable''']]
-|Gets a value that indicates whether you can cancel an event's default action.
-|-
-|[[dom/methods/cancelBubble|'''cancelBubble''']]
-|Gets or sets a value that indicates whether an event should be stopped from propagating up from the current target.
-|-
-|[[dom/properties/char|'''char''']]
-|Gets a character for a key that is pressed, if available.
-|-
-|[[dom/properties/charCode|'''charCode''']]
-|Gets the numeric key code of a key that is pressed.
-|-
-|[[dom/properties/ctrlKey|'''ctrlKey''']]
-|Gets a value that indicates whether the Ctrl key is pressed.
-|-
-|[[dom/properties/currentTarget|'''currentTarget''']]
-|Gets the event target that is currently being processed.
-|-
-|[[dom/properties/defaultPrevented|'''defaultPrevented''']]
-|Gets a value that indicates whether the default action should be canceled.
-|-
-|[[dom/properties/detail|'''detail''']]
-|Gets additional  information about  an event.
-|-
-|[[dom/properties/eventPhase|'''eventPhase''']]
-|Gets the event phase that is being evaluated.
-|-
-|[[dom/properties/isTrusted|'''isTrusted''']]
-|Gets a value that indicates whether a trusted event source created an event.
-|-
-|[[dom/properties/key|'''key''']]
-|Gets the [[dom/events/apis/constants/key identifiers|'''key identifier''']] of a key that is pressed.
-|-
-|[[dom/properties/keyCode|'''keyCode''']]
-|Gets the numeric key code of a key that is pressed.
-|-
-|[[dom/properties/locale|'''locale''']]
-|Gets the locale name for the event.
-|-
-|[[dom/properties/location|'''location''']]
-|Gets the location of a key on the keyboard or device.
-|-
-|[[dom/properties/metaKey|'''metaKey''']]
-|Gets a value that indicates whether the Meta/Control key is pressed.
-|-
-|[[dom/properties/repeat2|'''repeat''']]
-|Gets a value that indicates whether a key was pressed and held.
-|-
-|[[dom/properties/shiftKey|'''shiftKey''']]
-|Gets a value that indicates whether the Shift key is pressed.
-|-
-|[[dom/properties/srcElement|'''srcElement''']]
-|Gets the element that the event was originally dispatched to. Compare to [[dom/properties/target|'''target''']].
-|-
-|[[dom/properties/target|'''target''']]
-|Gets the element that is the target of the event.
-|-
-|[[dom/properties/timeStamp|'''timeStamp''']]
-|Gets the time, in milliseconds, when an event occurred.
-|-
-|[[dom/properties/type (event)|'''type''']]
-|Gets the name of an event.
-|-
-|[[dom/properties/view|'''view''']]
-|Gets  the '''window''' object  that an  event is generated from.
-|-
-|[[dom/properties/which (keyboard)|'''which''']]
-|Gets the numeric code of a key that is pressed.
-|}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/events/keydown|onkeydown]]</code>
-*<code>[[dom/events/keypress|onkeypress]]</code>
-*<code>[[dom/events/keyup|onkeyup]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
