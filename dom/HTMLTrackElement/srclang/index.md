@@ -17,7 +17,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The following example shows the [[apis/audio-video/properties/kind|'''kind''']] attribute defined for a '''track''' element.
+The following example shows the [[dom/HTMLTrackElement/kind|'''kind''']] attribute defined for a '''track''' element.
 '''Note'''  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251121 HTML5 Video Caption Maker] on the Windows Internet Explorer test drive site.
 |Import_Notes====Syntax===
 ===Standards information===
