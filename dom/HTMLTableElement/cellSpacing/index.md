@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example shows how to use the [[dom/properties/rows (table)|'''rows''']] collection on the [[html/elements/table|'''table''']] object and the '''cells''' collection to insert a number into each cell of the table.
+|Description=This example shows how to use the '''rows''' collection on the [[html/elements/table|'''table''']] object and the '''cells''' collection to insert a number into each cell of the table.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
