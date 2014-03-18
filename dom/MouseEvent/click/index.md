@@ -10,12 +10,11 @@
 {{Summary_Section|A mouse click event.}}
 {{Event
 |Event_applies_to=dom/MouseEvent
-|Interface=dom/MouseEvent
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/MouseEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -84,14 +83,14 @@ txtOutput.value {{=}} window.event.srcElement.value;
 }}
 {{Notes_Section
 |Notes====Remarks===
-If the user clicks the left mouse button, the '''onclick''' event for an object occurs only if the mouse pointer is over the object and an [[dom/events/mousedown|'''onmousedown''']] and an [[dom/events/mouseup|'''onmouseup''']] event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no '''onclick''' event occurs.
-The '''onclick''' event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the '''onclick''' event occurs after the [[dom/events/beforeupdate|'''onbeforeupdate''']] and [[dom/events/afterupdate|'''onafterupdate''']] events for the control group.
-If the user clicks an object that can receive the input focus but does not already have the focus, the [[dom/events/focus|'''onfocus''']] event occurs for that object before the '''onclick''' event. If the user double-clicks the left mouse button in a control, an [[dom/events/dblclick|'''ondblclick''']] event occurs immediately after the '''onclick''' event.
+If the user clicks the left mouse button, the '''onclick''' event for an object occurs only if the mouse pointer is over the object and an [[dom/MouseEvent/mousedown|'''onmousedown''']] and an [[dom/MouseEvent/mouseup|'''onmouseup''']] event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no '''onclick''' event occurs.
+The '''onclick''' event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the '''onclick''' event occurs after the [[dom/Event/beforeupdate|'''onbeforeupdate''']] and [[dom/Event/afterupdate|'''onafterupdate''']] events for the control group.
+If the user clicks an object that can receive the input focus but does not already have the focus, the [[dom/HTMLElement/focus|'''onfocus''']] event occurs for that object before the '''onclick''' event. If the user double-clicks the left mouse button in a control, an [[dom/MouseEvent/dblclick|'''ondblclick''']] event occurs immediately after the '''onclick''' event.
 Although the '''onclick''' event is available on a large number of HTML elements, if a document is to be accessible to keyboard users, you should restrict its use to the [[html/elements/a|'''a''']], '''input''', '''area''', and '''button''' elements. These elements automatically allow keyboard access through the TAB key, making documents that use the elements accessible to keyboard users. For more information, please see the section on writing accessible Dynamic HTML.
-Initiates any action associated with the object. For example, if the user clicks an [[html/elements/a|'''a''']] object, the client loads the document specified by the [[html/attributes/href|'''href''']] property. To cancel the default behavior, set the [[dom/properties/returnValue|'''returnValue''']] property of the '''event''' object to FALSE.
+Initiates any action associated with the object. For example, if the user clicks an [[html/elements/a|'''a''']] object, the client loads the document specified by the [[html/attributes/href|'''href''']] property. To cancel the default behavior, set the [[dom/BeforeUnloadEvent/returnValue|'''returnValue''']] property to FALSE.
 To invoke this event, do one of the following:
 *Click the object.
-*Invoke the [[dom/methods/click|'''click''']] method.
+*Invoke the [[dom/MouseEvent/click|'''click''']] method.
 *Press the ENTER key in a form.
 *Press the access key for a control.
 *Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.
@@ -114,7 +113,7 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
