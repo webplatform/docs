@@ -2,40 +2,41 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Initializes a new keyboard event that the  [[dom/methods/createEvent|'''createEvent''']] method created.}}
+{{Summary_Section|Initializes a new keyboard event that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=Object
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=key
 |Data type=Number
-|Description=The [[dom/events/apis/constants/key identifiers|'''key identifier''']]. Sets the value for the [[dom/properties/key|'''key''']] property.
+|Description=The '''key identifier'''. Sets the value for the [[dom/KeyboardEvent/key|'''key''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=location
 |Data type=Number
-|Description=The location of the key on the device. Sets the value for the [[dom/properties/location|'''location''']] property.
+|Description=The location of the key on the device. Sets the value for the [[dom/KeyboardEvent/location|'''location''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=modifiersList
@@ -61,12 +62,12 @@ For example -
 }}{{Method Parameter
 |Name=repeat
 |Data type=Number
-|Description=The number of times this key has been pressed. Sets the value for the [[dom/properties/repeat2|'''repeat''']] property.
+|Description=The number of times this key has been pressed. Sets the value for the [[dom/KeyboardEvent/repeat|'''repeat''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=locale
 |Data type=String
-|Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
+|Description=The locale name. Sets the value for the [[dom/CompositionEvent/locale|'''locale''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/KeyboardEvent
