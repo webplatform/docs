@@ -11,77 +11,77 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=DOM Node
-|Description=The window on which this event is occurring. Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring. Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=detail
 |Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property  of the event.
+|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property  of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=screenX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenX|'''screenX''']] property,
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenX|'''screenX''']] property,
 |Optional=No
 }}{{Method Parameter
 |Name=screenY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenY|'''screenY''']] property.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenY|'''screenY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientX|'''clientX''']] property.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientX|'''clientX''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientY|'''clientY''']] property.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientY|'''clientY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=ctrlKey
 |Data type=Boolean
-|Description=Whether the Control key is depressed. Sets the value for the [[dom/properties/ctrlKey|'''ctrlKey''']] property.
+|Description=Whether the Control key is depressed. Sets the value for the [[dom/KeyboardEvent/ctrlKey|'''ctrlKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=altKey
 |Data type=Boolean
-|Description=Whether the Alt key is depressed. Sets the value for the [[dom/properties/altKey|'''altKey''']] property.
+|Description=Whether the Alt key is depressed. Sets the value for the [[dom/KeyboardEvent/altKey|'''altKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=shiftKey
 |Data type=Boolean
-|Description=Whether the Shift key is depressed. Sets the value for the [[dom/properties/shiftKey|'''shiftKey''']] property.
+|Description=Whether the Shift key is depressed. Sets the value for the [[dom/KeyboardEvent/shiftKey|'''shiftKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=metaKey
 |Data type=Boolean
-|Description=Whether a meta key is depressed. Sets the value for the [[dom/properties/metaKey|'''metaKey''']] property.
+|Description=Whether a meta key is depressed. Sets the value for the [[dom/KeyboardEvent/metaKey|'''metaKey''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=button
 |Data type=Number
-|Description=The mouse button that caused the event. Sets the value for the [[dom/properties/button|'''button''']] property (see the property page for common values).
+|Description=The mouse button that caused the event. Sets the value for the [[dom/MouseEvent/button|'''button''']] property (see the property page for common values).
 |Optional=No
 }}{{Method Parameter
 |Name=relatedTarget
 |Data type=DOM Node
-|Description=A secondary element that is involved in the event.  Sets the value for the [[dom/properties/relatedTarget|'''relatedTarget''']] property.
+|Description=A secondary element that is involved in the event.  Sets the value for the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/MouseEvent
@@ -108,15 +108,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
-*<code>[[dom/methods/initPointerEvent|initPointerEvent]]</code>
-*<code>[[dom/methods/initGestureEvent|initGestureEvent]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
