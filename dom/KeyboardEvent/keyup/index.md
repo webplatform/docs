@@ -2,18 +2,18 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/KeyboardEvent
-|Interface=dom/KeyboardEvent
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/KeyboardEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -51,15 +51,12 @@ To invoke this event, do one of the following:
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages===
-*<code>[[dom/events/keydown|onkeydown]]</code>
-*<code>[[dom/events/keypress|onkeypress]]</code>
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
