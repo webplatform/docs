@@ -17,7 +17,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''location''' property is not set during [[dom/KeyboardEvent/keypress|'''onkeypress''']] events. It is available only during [[dom/KeyboardEvent/keydown|'''onkeydown''']] and [[dom/events/KeyboardEvent|'''onkeyup''']] events.
+The '''location''' property is not set during [[dom/KeyboardEvent/keypress|'''onkeypress''']] events. It is available only during [[dom/KeyboardEvent/keydown|'''onkeydown''']] and [[dom/KeyboardEvent/keyup|'''onkeyup''']] events.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.6
