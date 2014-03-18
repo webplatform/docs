@@ -90,7 +90,7 @@ Hypertext Markup Language (HTML) is the markup language for web pages. The [http
 
 
 
-Note: If you are completely new to web development, you may want to review [[http://volcano-vaporizer-reviews.com Web development for beginners]].
+Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
 
 == Background ==
 
