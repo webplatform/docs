@@ -2,50 +2,51 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Initializes a new DOM mutation (modification) event that the [[dom/methods/createEvent|'''createEvent''']] method created.}}
+{{Summary_Section|Initializes a new DOM mutation (modification) event that the [[dom/Document/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=relatedNode
 |Data type=DOM Node
-|Description=A secondary node that is related to the event. Sets the value for the [[dom/properties/relatedNode|'''relatedNode''']] property.
+|Description=A secondary node that is related to the event. Sets the value for the [[dom/MutationEvent/relatedNode|'''relatedNode''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=prevValue
 |Data type=String
-|Description=The previous value of the attribute or text node. Sets the value for the [[dom/properties/prevValue|'''prevValue''']] property.
+|Description=The previous value of the attribute or text node. Sets the value for the [[dom/MutationEvent/prevValue|'''prevValue''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=newValue
 |Data type=String
-|Description=The new value of the attribute or text node. Sets the value for the [[dom/properties/newValue|'''newValue''']] property.
+|Description=The new value of the attribute or text node. Sets the value for the [[dom/MutationEvent/newValue|'''newValue''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=attrName
 |Data type=String
-|Description=The name of the changed attribute in a '''DOMAttrModified''' event. Sets the value for the [[dom/properties/attrName|'''attrName''']] property.
+|Description=The name of the changed attribute in a '''DOMAttrModified''' event. Sets the value for the [[dom/MutationEvent/attrName|'''attrName''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=attrChange
 |Data type=String
-|Description=The type of modification in a '''DOMAttrModified''' event. Sets the value for the [[dom/properties/attrChange|'''attrChange''']] property.
+|Description=The type of modification in a '''DOMAttrModified''' event. Sets the value for the [[dom/MutationEvent/attrChange|'''attrChange''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/MutationEvent
