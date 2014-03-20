@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -36,18 +37,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
-*<code>Reference</code>
-*<code>[[dom/properties/clientY|clientY]]</code>
-*<code>[[css/cssom/properties/pageY|pageY]]</code>
-*<code>[[dom/properties/screenY|screenY]]</code>
-*<code>[[css/cssom/properties/y|y]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
