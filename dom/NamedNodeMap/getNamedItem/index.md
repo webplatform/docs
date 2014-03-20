@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=name
 |Data type=String
-|Description=The name of the [[dom/attributes|'''attribute''']] to get.
+|Description=The name of the [[dom/HTMLElement|'''attribute''']] to get.
 |Optional=No
 }}
 |Method_applies_to=dom/NamedNodeMap
@@ -23,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example shows how to use the '''getNamedItem''' method to retrieve the value of an [[dom/attributes|'''attribute''']].
+|Description=The following example shows how to use the '''getNamedItem''' method to retrieve the value of an [[dom/HTMLElement|'''attribute''']].
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -44,11 +45,10 @@ function Init()
 }}
 }}
 {{Notes_Section
-|Notes=If the [[dom/attributes|'''attribute''']] applies to an element but is not specified, this method returns the '''attribute''' with the specified name set to an empty string.
-If the [[dom/attributes|'''attribute''']] does not apply to the element and is not specified, then an error is returned.
-If the [[dom/attributes|'''attribute''']] does not apply to the element and is specified, then the '''attribute''' with the specified name is returned.
-Windows Internet Explorer 8 and later. In IE8 Standards mode, the '''getNamedItem''' method does not create [[dom/attributes|'''attribute''']] is not found. For more information on IE8 mode, see Defining Document Compatibility.
-'''getNamedItem''' was introduced in Microsoft Internet Explorer 6.
+|Notes=If the '''attribute''' applies to an element but is not specified, this method returns the '''attribute''' with the specified name set to an empty string.
+If the '''attribute''' does not apply to the element and is not specified, then an error is returned.
+If the '''attribute''' does not apply to the element and is specified, then the '''attribute''' with the specified name is returned.
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -60,14 +60,12 @@ Windows Internet Explorer 8 and later. In IE8 Standards mode, the '''getNamedIt
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/attribute|attributes]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
