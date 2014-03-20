@@ -48,6 +48,12 @@
  * margin examples
  */
  
+/**
+  * It is strongly rocommended to NOT do this, if you want to 
+  *   have an even styling for all browsers you should have a 
+  *   look at current CSS reset technique.   In the case of this
+  *   example, it is only to demonstrate cascading.
+  **/
  * {
    margin: 0;
  }
