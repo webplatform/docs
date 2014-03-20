@@ -6,11 +6,11 @@
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']], or a subset of these. Note that as well as defining properties for all four sides of an element's border at once, you can also target borders on specific sides individually — for example [[css/properties/border-top|'''border-top''']] and [[css/properties/border-right|'''border-right''']] — or even specific properties of individual borders — for example [[css/properties/border-top-color|'''border-top-color''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
 {{CSS Property
-|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers..
+|Initial value=medium none currentColor
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
+|Computed value=concatenation of <code>width</code> (the default <code>medium</code> is 3px in most browsers), <code>style</code> (<code>none</code> or <code>hidden</code>), and <code>color</code> (the equivalent RGB or RGBA value of the color).
 |Animatable=Yes
 |CSS object model property=border
 |CSS percentages=N/A
@@ -84,7 +84,9 @@ p {
 }}
 }}
 {{Notes_Section
-|Usage=* It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propeties, such as <code>border-width</code> or <code>border-top-color</code>.
+|Usage=
+* The initial value is the concatenated result of the 3 component values. For <code>border-width</code> the initial value is <code>medium</code>, which is computed as about 3px in most browsers. For <code>color</code>, the initial value is <code>currentColor</code>. For <code>boder-style</code>, the initial value is <code>none</code>.
+* It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propreties, such as <code>border-width</code> or <code>border-top-color</code>.
 * individual border properties such as <code>border-bottom</code> can be used as a divider between horizontally or vertically laid out items, such as a navigation menu items, or table cells.
 * A common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
 }}
