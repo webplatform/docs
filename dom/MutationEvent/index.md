@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
@@ -14,7 +15,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=Mutation events occur when DOM nodes are inserted and removed, or when character data or attributes are modified. For more information, see [[dom/methods/initMutationEvent|'''initMutationEvent''']].
+|Notes=Mutation events occur when DOM nodes are inserted and removed, or when character data or attributes are modified. For more information, see [[dom/MutationEvent/initMutationEvent|'''initMutationEvent''']].
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
