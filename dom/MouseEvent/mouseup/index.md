@@ -44,7 +44,7 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
