@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=name
 |Data type=String
-|Description=The name of an [[dom/attributes|'''attribute''']] to remove.
+|Description=The name of an [[dom/HTMLElement|'''attribute''']] to remove.
 |Optional=No
 }}
 |Method_applies_to=dom/NamedNodeMap
@@ -23,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example shows how to use this method to remove an [[dom/attributes|'''attribute''']] from an element.
+|Description=The following example shows how to use this method to remove an [[dom/HTMLElement|'''attribute''']] from an element.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -43,7 +44,7 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 }}
 }}
 {{Notes_Section
-|Notes=An [[dom/attributes|'''attribute''']] that is removed with this method reverts to the default value of the '''attribute''' when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node.
+|Notes=An '''attribute''' that is removed with this method reverts to the default value of the '''attribute''' when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node.
 '''removeNamedItem''' was introduced in Microsoft Internet Explorer 6.
 }}
 {{Related_Specifications_Section
@@ -56,6 +57,7 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1
@@ -81,10 +83,7 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/attribute|attributes]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
