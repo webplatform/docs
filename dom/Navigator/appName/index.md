@@ -33,16 +33,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/clientInformation|clientInformation]]</code>
-*<code>navigator</code>
-*<code>Reference</code>
-*<code>[[dom/properties/appCodeName|appCodeName]]</code>
-*<code>[[dom/properties/appMinorVersion|appMinorVersion]]</code>
-*<code>[[dom/properties/appVersion|appVersion]]</code>
-*<code>[[dom/properties/userAgent|userAgent]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
