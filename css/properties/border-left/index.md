@@ -10,6 +10,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=Depends of the value type, see [[#Computed value]] in [[#Notes]] for more details 
 |Animatable=Yes
 |CSS object model property=borderLeft
 |CSS percentages=N/A
@@ -22,7 +23,7 @@
 }}{{CSS Property Value
 |Data Type=inherit
 |Description=When we set the value to <code>inherit</code>, the element will inherit the border values set on its parent.
-}}{{CSS Property Value}}
+}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -88,7 +89,8 @@ p {
 {{Notes_Section
 |Usage=* It is usual to use the <code>border-left</code> property to set the default state of a box's left border, and then override individual values using more specific properties, such as <code>border-left-width</code> or <code>border-left-color</code>.
 * <code>border-left</code> can be used as a divider between horizontally laid out items, such as horizontal navigation menu items, or table cells.
-|Notes=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
+|Notes=== Computed value ==
+For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 }}
 {{Related_Specifications_Section
 |Specifications=
