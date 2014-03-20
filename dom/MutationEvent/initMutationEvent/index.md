@@ -21,7 +21,7 @@
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=relatedNode
