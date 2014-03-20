@@ -91,7 +91,7 @@ Cutting up a lot of JavaScript into different files, each dealing with one task 
 <script type="text/javascript" src="widgets.js"></script>
 </syntaxhighlight>
  
-However, the development benefits of this are diminished by the effect this has on the performance of your document. This differs slightly from browser to browser but the worst-case scenario (which is sadly enough still the most-used browser) does the following:
+However, the development benefits of this are diminished by the effect this has on the performance of your document. This differs slightly from browser to browser but the worst-case scenario (which is sadly enough still the second most-used browser) does the following:
  
 * Every time the browser encounters a <code>script</code> element, it will pause rendering (displaying) the document.
 * It will then load the JavaScript file defined in the <code>src</code> attribute (if you use a script on another server you also have to wait until the browser finds that server).
@@ -212,9 +212,6 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 [[Category:Tutorials]]
 [[Category:WSC]]
