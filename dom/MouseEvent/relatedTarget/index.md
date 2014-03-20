@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -21,10 +22,10 @@
 {{Notes_Section
 |Usage=Use this property to determine the secondary element that is involved in the event.
 The secondary element depends on the type of event:
-*In [[dom/events/mouseover|'''mouseover''']] events, the secondary element is the element that the mouse pointer left.
-*In [[dom/events/mouseout|'''mouseout''']] events, the secondary element is the element that the mouse pointer entered.
-*In [[dom/events/focusin|'''focusin''']] events, the secondary element is the element that lost focus.
-*In [[dom/events/focusout|'''focusout''']] events, the secondary element is the element that gained focus.
+*In [[dom/MouseEvent/mouseover|'''mouseover''']] events, the secondary element is the element that the mouse pointer left.
+*In [[dom/MouseEvent/mouseout|'''mouseout''']] events, the secondary element is the element that the mouse pointer entered.
+*In [[dom/FocusEvent/focusin|'''focusin''']] events, the secondary element is the element that lost focus.
+*In [[dom/FocusEvent/focusout|'''focusout''']] events, the secondary element is the element that gained focus.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -41,14 +42,7 @@ The secondary element depends on the type of event:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
