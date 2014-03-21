@@ -56,7 +56,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=8 and earlier
-|Note=Supported a similar functionality using the [[dom/properties/innerText|innerText]] property.
+|Note=Supported a similar functionality using the [[dom/HTMLElement/innerText|innerText]] property.
 }}
 }}
 {{See_Also_Section}}
