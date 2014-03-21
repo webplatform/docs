@@ -64,7 +64,7 @@ between bold and italic.&lt;/div&gt;
 }}
 }}
 {{Notes_Section
-|Notes=The node to be replaced must be an immediate child of the parent object. The new node must be created using the [[dom/methods/createElement|'''createElement''']] method.
+|Notes=The node to be replaced must be an immediate child of the parent object. The new node must be created using the [[dom/Document/createElement|'''createElement''']] method.
 This property is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 }}
 {{Related_Specifications_Section
@@ -84,10 +84,6 @@ This property is accessible at run time. If elements are removed at run time, be
 |Browser=Internet Explorer
 |Version=9
 |Note=Exceptions are supported.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6
-|Note=This method also applies to the [[dom/attributes|'''attribute''']] object.
 }}
 }}
 {{See_Also_Section}}
