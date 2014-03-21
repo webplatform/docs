@@ -48,9 +48,8 @@ function fnClone(){
 }}
 {{Notes_Section
 |Usage=Use this method to copy an node, its attributes and, if specified, its [[dom/Node/childNodes|'''childNodes''']] as well.
-|Notes=When you refer to the [[html/attributes/id|'''id''']] 
-of a cloned element, a collection is returned.
-'''cloneNode'''does not work on an '''IFRAME''' directly. You must call '''cloneNode'''through the [[dom/properties/all|'''all''']] collection. The following example demonstrates how to call '''cloneNode''' on an '''iframe'''.
+|Notes=When you refer to the '''id''' of a cloned element, a collection is returned. 
+'''cloneNode'''does not work on an '''IFRAME''' directly. You must call '''cloneNode'''through the '''all''' collection. The following example demonstrates how to call '''cloneNode''' on an '''iframe'''.
  <code>&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;script&gt;
