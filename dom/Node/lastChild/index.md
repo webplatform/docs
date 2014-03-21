@@ -28,8 +28,6 @@ var olastChild {{=}} oList.lastChild;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Microsoft Internet Explorer 6 and later.  The [[dom/attributes|'''attribute''']] object supports this property.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
