@@ -26,11 +26,11 @@
 }}
 {{Notes_Section
 |Usage=This method determines whether or not two nodes are equal.  Nodes are considered equal when the values of the following attributes are equal:
-*[[dom/properties/nodeType|'''nodeType''']]
-*[[dom/properties/nodeName|'''nodeName''']]
-*[[dom/properties/localName|'''localName''']]
-*[[dom/properties/namespaceURI|'''namespaceURI''']]
-|Notes=Nodes can be equal without being the same.  Use [[dom/methods/isSameNode|'''isSameNode''']] to determine if two nodes are the same.
+*[[dom/Node/nodeType|'''nodeType''']]
+*[[dom/Node/nodeName|'''nodeName''']]
+*[[dom/Node/localName|'''localName''']]
+*[[dom/Node/namespaceURI|'''namespaceURI''']]
+|Notes=Nodes can be equal without being the same.  Use [[dom/Node/isSameNode|'''isSameNode''']] to determine if two nodes are the same.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
