@@ -15,17 +15,17 @@
 |Javascript_data_type=DOM Node
 |Return_value_description=Boolean
 
-{| class="wikitable"
-|-
+{{{!}} class="wikitable"
+{{!}}-
 !Return value
 !Description
-|-
-|true
-|The object contains HTML Elements or TextNode objects.
-|-
-|false
-|The object does not contain HTML Elements or TextNodes.
-|}
+{{!}}-
+{{!}}true
+{{!}}The object contains HTML Elements or TextNode objects.
+{{!}}-
+{{!}}false
+{{!}}The object does not contain HTML Elements or TextNodes.
+{{!}}}
  
 }}
 {{Examples_Section
@@ -36,7 +36,6 @@
 |Notes====Remarks===
 If the object contains HTML Elements or [[dom/TextNode|'''TextNodes''']], they can be accessed from the 
 [[dom/Node/childNodes|'''childNodes''']] collection.
-
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
