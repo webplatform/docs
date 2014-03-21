@@ -20,7 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=In XML documents, elements can be declared using ''qualified names'', which consist of a [[dom/properties/prefix|'''prefix''']] and a local name. This property returns the latter value.
+|Usage=In XML documents, elements can be declared using ''qualified names'', which consist of a [[dom/Node/prefix|'''prefix''']] and a local name. This property returns the latter value.
 For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203781 W3C Namespaces in XML].
 }}
 {{Related_Specifications_Section
