@@ -74,10 +74,6 @@ This method is accessible at run time. If elements are removed at run time, befo
 |Version=9
 |Note=Exceptions are supported
 }}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6
-|Note=This method also applies to the [[dom/attributes|'''attribute''']] object.
-}}{{Compatibility Notes Row
 |Browser=WebKit/Blink browsers
 |Note=If the oldChild has focus, 'blur' event for it dispatches.
 }}
