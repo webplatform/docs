@@ -29,7 +29,7 @@ var oParent {{=}} document.getElementById("oSpan").parentNode;
 &lt;/body&gt;
 }}{{Single Example
 |Language=JavaScript
-|Description=This example assigns the '''parentNode''' of a node, created with the [[dom/methods/createElement|'''createElement''']] method, to a variable.
+|Description=This example assigns the '''parentNode''' of a node, created with the [[dom/Document/createElement|'''createElement''']] method, to a variable.
 |Code=var oNode {{=}} document.createElement("B");
 document.body.insertBefore(oNode);
 // This returns document.body.
