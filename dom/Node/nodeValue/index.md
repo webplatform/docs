@@ -51,8 +51,8 @@ function fnChangeValue(oList, iItem, sValue){
 {{Notes_Section
 |Notes=If the object is a [[dom/TextNode|'''TextNode''']] object, the '''nodeValue''' property returns a string that represents the text that the node contains.
 You cannot use expressions to change the '''nodeValue''' of a [[dom/TextNode|'''TextNode''']] object.
-If the object is an [[dom/attributes|'''attribute''']] object retrieved from the [[dom/properties/attribute|'''attributes''']] collection, the '''nodeValue''' property returns the value of the attribute if it has been specified, or <code>null</code> otherwise.
-If the object is an element, the '''nodeValue''' returns <code>null</code>. Use the [[dom/properties/nodeName|'''nodeName''']] property to determine the element name.
+If the object is an '''attribute''' object retrieved from the [[dom/Node/attributes|'''attributes''']] collection, the '''nodeValue''' property returns the value of the attribute if it has been specified, or <code>null</code> otherwise.
+If the object is an element, the '''nodeValue''' returns <code>null</code>. Use the [[dom/Node/nodeName|'''nodeName''']] property to determine the element name.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
