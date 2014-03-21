@@ -70,10 +70,6 @@ This method is accessible at run time. If elements are removed at run time, befo
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=6
-|Note=The [[dom/attributes|'''attribute''']] object supports this method.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
 |Version=9
 |Note=Exceptions are supported.
 }}
