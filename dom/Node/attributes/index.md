@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics
+|High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -25,13 +26,10 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6
-|Note=The [[dom/properties/expando|'''IHTMLDocument2::expando''']] properties of an object are included in the [[dom/properties/attribute|'''attributes''']] collection of the object as of Microsoft Internet Explorer 6.  To access the '''IHTMLDocument2::expando''' properties of an object in earlier versions of Windows Internet Explorer, use the Microsoft JScript '''for...in''' construct.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|DOM}}
