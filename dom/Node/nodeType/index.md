@@ -23,14 +23,14 @@
 |Code=var iType {{=}} document.body.nodeType;
 }}{{Single Example
 |Language=JavaScript
-|Description=This example assigns the '''nodeType''' property of a node created with the [[dom/methods/createElement|'''createElement''']] method to a variable.
+|Description=This example assigns the '''nodeType''' property of a node created with the [[dom/Document/createElement|'''createElement''']] method to a variable.
 |Code=var oNode {{=}} document.createElement("B");
 document.body.insertBefore(oNode);
 var iType {{=}} oNode.nodeType;
 }}
 }}
 {{Notes_Section
-|Notes=If the node represents an attribute retrieved from the [[dom/properties/attribute|'''attributes''']] collection, the '''nodeType''' returns <code>null</code>.
+|Notes=If the node represents an attribute retrieved from the [[dom/Node/attributes|'''attributes''']] collection, the '''nodeType''' returns <code>null</code>.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
