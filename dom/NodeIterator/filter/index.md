@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example searches for [[html/elements/table|'''table''']] and [[html/elements/a|'''anchor''']] tags and reports the value of the [[html/attributes/id|'''id''']] attribute. Although the [[dom/traversal/TreeWalker|'''TreeWalker''']] preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The '''NodeFilter''' function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
+|Description=The following example searches for [[html/elements/table|'''table''']] and [[html/elements/a|'''anchor''']] tags and reports the value of the [[html/attributes/id|'''id''']] attribute. Although the [[dom/TreeWalker|'''TreeWalker''']] preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The '''NodeFilter''' function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -67,8 +68,8 @@ function refresh()
 }}
 }}
 {{Notes_Section
-|Notes=*Appending content to the document while the [[dom/traversal/TreeWalker|'''TreeWalker''']] is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
-*The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/traversal/NodeIterator|'''NodeIterator''']] and [[dom/traversal/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
+|Notes=*Appending content to the document while the [[dom/TreeWalker|'''TreeWalker''']] is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
+*The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/NodeIterator|'''NodeIterator''']] and [[dom/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
  <code>function myFilter(node) {
      // NodeFilter function that returns one of the following flags:
      // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
@@ -84,15 +85,12 @@ function refresh()
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/traversal/TreeWalker|TreeWalker]]</code>
-*<code>[[dom/traversal/NodeIterator|NodeIterator]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
