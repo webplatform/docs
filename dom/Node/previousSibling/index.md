@@ -47,11 +47,7 @@ var oSibling {{=}} document.getElementById("oList").childNodes[1].previousSiblin
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6 and later
-|Note=This property applies to the [[dom/attributes|'''attribute''']] object.
-}}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|DOM}}
