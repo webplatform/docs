@@ -48,7 +48,7 @@ function fnAppend(){
 }}
 }}
 {{Notes_Section
-|Usage=Use this method to append elements to the end of the [[dom/properties/childNodes|'''childNodes''']] collection.
+|Usage=Use this method to append elements to the end of the [[dom/Node/childNodes|'''childNodes''']] collection.
 |Notes=To display new elements on the page, you must append them within the '''body''' element. For example, the following syntax demonstrates how to add a '''div''' element to the '''body'''.
  <code>var oDiv{{=}}document.createElement("DIV");
  document.body.appendChild(oDiv);</code>
@@ -71,7 +71,7 @@ Windows Internet Explorer 9. Exceptions are only supported when webpages are di
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=6
-|Note=This method applies to the [[dom/attributes|'''attribute''']] object.
+|Note=This method applies to the [[dom/HTMLElement/attribute|'''attribute''']] object.
 }}
 }}
 {{See_Also_Section}}
