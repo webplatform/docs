@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.}}
@@ -22,6 +24,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
@@ -33,8 +36,8 @@
 |Firefox_prefixed_version=14.0
 |Internet_explorer_supported=Unknown
 |Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=11
 |Opera_supported=Yes
 |Opera_version=12.1
 |Opera_prefixed_supported=Unknown
@@ -83,7 +86,7 @@
 {{See_Also_Section
 |Manual_links=* [[tutorials/using_the_full-screen_api]]
 }}
-{{Topics|JavaScript, DOM}}
+{{Topics|DOM, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
