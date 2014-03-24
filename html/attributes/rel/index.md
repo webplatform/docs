@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Describes the relationship from the current document to the anchor specified by the [[html/attributes/href|'''href''']] attribute.}}
 {{Markup_Attribute
