@@ -4,7 +4,7 @@
 |Checked_Out=No
 |Editorial notes=Needs information on codec support.
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various format support}}
 {{Markup_Element
@@ -30,7 +30,7 @@ Addition to declaring multiple encodings, the web server also needs to be instru
 See [[concepts/internet and web/mime types|MIME types]] to find more information about MIME types and [[tutorials/configuring_mimetypes_on_the_server|Setting up MIME types on your server]] for more information regarding server setup to deliver HTML5 audio and video content. 
 
 == Attributes == 
-The attributes (controls, preload, loop) go inside <code><video></code> tag to change the behavior of the embeded video.
+The attributes (controls, preload, loop) go inside <code><video></code> tag to change the behavior of the embedded video.
 
 == What about old browsers? ==
 
@@ -81,9 +81,9 @@ You can also use flash as a fallback for when the browser does not support any o
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/the-video-element.html#the-video-element
-|Status=W3C Working Draft
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-video-element
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -93,225 +93,150 @@ You can also use flash as a fallback for when the browser does not support any o
 |Chrome_supported=Yes
 |Chrome_version=3
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=3.5
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.50
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=4
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=MP4 (H.264 + AAC)
 |Chrome_supported=Yes
 |Chrome_version=3
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=No
-|Firefox_version=
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=9
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=No
-|Opera_version=
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=4
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=Ogg (Theora + Vorbis)
 |Chrome_supported=Yes
 |Chrome_version=3
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=3.6
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=No
-|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.50
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=No
-|Safari_version=
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=WebM (VP8 + Vorbis)
 |Chrome_supported=Yes
 |Chrome_version=6
 |Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=4
 |Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
 |Internet_explorer_supported=No
-|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=10.60
 |Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
 |Safari_supported=No
-|Safari_version=
 |Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=2.3
 |Android_prefixed_supported=Unknown
-|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=7.0
 |Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=4
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=9.0
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=11
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=No
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=MP4 (H.264 + AAC)
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=No
-|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_version=4.6
 |Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_version=18.0
 |Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=18.0
 |Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_version=9.0
 |IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=11.5
 |Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=No
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=Ogg (Theora + Vorbis)
 |Android_supported=No
-|Android_version=
 |Android_prefixed_supported=No
-|Android_prefixed_version=
 |Blackberry_supported=No
-|Blackberry_version=
 |Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=No
-|IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
-|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
-|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
 |Feature=WebM (VP8 + Vorbis)
 |Android_supported=Yes
 |Android_version=2.3
 |Android_prefixed_supported=Unknown
-|Android_prefixed_version=
 |Blackberry_supported=Unknown
-|Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=No
-|IE_mobile_version=
 |IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Unknown
-|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
-|Opera_mini_version=
 |Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
-|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome
@@ -329,7 +254,7 @@ You can also use flash as a fallback for when the browser does not support any o
 |Note=Requires specific handling to run the video element to suport MPEG-4/H.264
 }}{{Compatibility Notes Row
 |Browser=Firefox
-|Note=Last versions of Firefox support MPEG-4/H.264 on Windows Vista, Windows 7, Windows 8, Linux, last versions of Android, and soon everywhere [https://blog.mozilla.org/blog/2013/10/30/video-interoperability-on-the-web-gets-a-boost-from-ciscos-h-264-codec/] 
+|Note=Last versions of Firefox support MPEG-4/H.264 on Windows Vista, Windows 7, Windows 8, Linux, last versions of Android, and soon everywhere [https://blog.mozilla.org/blog/2013/10/30/video-interoperability-on-the-web-gets-a-boost-from-ciscos-h-264-codec/]
 }}
 }}
 {{See_Also_Section
@@ -341,7 +266,5 @@ You can also use flash as a fallback for when the browser does not support any o
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
