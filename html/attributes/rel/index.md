@@ -4,9 +4,9 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Describes the relationship from the current document to the anchor specified by the [[html/attributes/href|'''href''']] attribute.}}
 {{Markup_Attribute
 |Applies_to=http://docs.webplatform.org/wiki/html/elements/a
 |Property_applies_to=dom/HTMLElement
