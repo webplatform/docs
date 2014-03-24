@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <video> element is used to embed video content in an HTML or XHTML document.}}
 {{API_Object
-|Subclass_of=dom/HTMLElement
+|Subclass_of=dom/HTMLMediaElement
 }}
 {{Examples_Section
 |Not_required=No
