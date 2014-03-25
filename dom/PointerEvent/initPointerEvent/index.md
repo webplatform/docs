@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Initializes a new [[dom/objects/PointerEvent|PointerEvent]] created by the [[dom/methods/createEvent|createEvent]] method.}}
+{{Summary_Section|Initializes a new [[dom/PointerEvent|PointerEvent]] created by the [[dom/Document/createEvent|createEvent]] method.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=type
