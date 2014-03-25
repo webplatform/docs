@@ -45,7 +45,7 @@
 |LiveURL=http://code.webplatform.org/gist/6365735
 }}{{Single Example
 |Language=CSS
-|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
+|Description=Typical browser default CSS properties for the <code>&lt;del&gt;</code> element.
 |Code=display: inline;
 text-decoration: underline;
 }}
