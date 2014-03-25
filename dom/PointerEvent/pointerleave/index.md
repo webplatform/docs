@@ -22,7 +22,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=There are similarities between this event type, the [[dom/MouseEvent/mouseleave|mouseleave]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/objects/PointerEvent/pointerenter|pointerenter]] event.
+|Notes=There are similarities between this event type, the [[dom/MouseEvent/mouseleave|mouseleave]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/PointerEvent/pointerenter|pointerenter]] event.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
