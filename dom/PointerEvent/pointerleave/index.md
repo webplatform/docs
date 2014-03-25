@@ -13,7 +13,7 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=Yes
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseleave|mouseleave]] event
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mouseleave|mouseleave]] event.
 |Content=This event type is similar to [[dom/PointerEvent/pointerout|pointerout]], but differs in that it does not bubble and that it is not dispatched until the pointing device has left the boundaries of the element and the boundaries of all its children.
 |Interface=dom/PointerEvent
 }}
@@ -22,7 +22,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=There are similarities between this event type, the [[dom/events/mouseleave|mouseleave]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/objects/PointerEvent/pointerenter|pointerenter]] event.
+|Notes=There are similarities between this event type, the [[dom/MouseEvent/mouseleave|mouseleave]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/objects/PointerEvent/pointerenter|pointerenter]] event.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -39,10 +39,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
