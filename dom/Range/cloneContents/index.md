@@ -11,9 +11,7 @@
 |Parameters={{Method Parameter
 |Name=oDocumentFragment
 |Data type=any
-|Description=Returns a document fragment
-
-object.
+|Description=Returns a document fragment object.
 |Optional=No
 }}
 |Method_applies_to=dom/Range
@@ -38,11 +36,7 @@ This method can return one of these values.
 {{!}}W3Exception_DOM_HIERARCHY_REQUEST_ERR
 {{!}}A  document type node is included in the range  that is being cloned.
 {{!}}}
- 
 
-[[dom/document|'''document''']]
-
-Returns a document fragment object.
 }}
 {{Examples_Section
 |Not_required=No
