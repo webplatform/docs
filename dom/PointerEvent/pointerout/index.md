@@ -17,7 +17,7 @@
 |Bubbles=Yes
 |Target=dom/Element
 |Cancelable=Yes
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseout|mouseout]] event
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mouseout|mouseout]] event
 |Interface=dom/objects/PointerEvent
 }}
 {{Examples_Section
@@ -65,10 +65,8 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx MSPointerOut]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
