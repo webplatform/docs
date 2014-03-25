@@ -2,19 +2,20 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Dispatched after pointer capture is released for a pointer.}}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/methods/releasePointerCapture|releasePointerCapture]].
-|Interface=dom/PointerEvent
-|Target=dom/Element
-|Default_action=None
 |Synchronous=No
 |Bubbles=Yes
+|Target=dom/Element
 |Cancelable=No
+|Default_action=None
+|Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/Element/releasePointerCapture|releasePointerCapture]].
+|Interface=dom/PointerEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -61,10 +62,8 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSLostPointerCapture]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
