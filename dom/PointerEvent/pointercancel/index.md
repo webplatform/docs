@@ -2,19 +2,20 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Dispatched when either (1) the user agent has determined that a pointer is unlikely to continue to produce events (e.g., due to a hardware event), or (2) after having fired the [[dom/objects/PointerEvent/pointerdown|pointerdown]] event, the pointer is subsequently used to manipulate the page viewport (e.g., panning or zooming).}}
+{{Summary_Section|Dispatched when either (1) the user agent has determined that a pointer is unlikely to continue to produce events (e.g., due to a hardware event), or (2) after having fired the [[dom/PointerEvent/pointerdown|pointerdown]] event, the pointer is subsequently used to manipulate the page viewport (e.g., panning or zooming).}}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Content=A user agent will also fire a [[dom/objects/PointerEvent/pointerout|pointerout]] event after firing the pointercancel event.
-|Interface=dom/PointerEvent
-|Target=dom/Element
-|Default_action=None
 |Synchronous=Yes
 |Bubbles=Yes
+|Target=dom/Element
 |Cancelable=Yes
+|Default_action=None
+|Content=A user agent will also fire a [[dom/PointerEvent/pointerout|pointerout]] event after firing the pointercancel event.
+|Interface=dom/PointerEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -68,10 +69,8 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx MSPointerCancel]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
