@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer.}}
+{{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the [[dom/PointerEvent|PointerEvent]] object.}}
 {{Event
 |Event_applies_to=dom/PointerEvent
 |Synchronous=No
