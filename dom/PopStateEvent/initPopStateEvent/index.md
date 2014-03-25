@@ -32,7 +32,7 @@ When false, the default action cannot be canceled.
 }}{{Method Parameter
 |Name=stateArg
 |Data type=any
-|Description=The object to be applied to the [[dom/properties/state|'''state''']] property.
+|Description=The object to be applied to the [[dom/PopStateEvent/state|'''state''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/PopStateEvent
@@ -44,7 +44,6 @@ When false, the default action cannot be canceled.
 This method can return one of these values.
 
 S_OK
-
 }}
 {{Examples_Section
 |Not_required=No
