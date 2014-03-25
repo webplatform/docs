@@ -2,21 +2,22 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Dispatched when a pointer leaves the state of having a non-zero value for the [[dom/properties/buttons|buttons]] property.}}
+{{Summary_Section|Dispatched when a pointer leaves the state of having a non-zero value for the [[dom/MouseEvent/buttons|buttons]] property.}}
 {{Event
 |Event_applies_to=dom/PointerEvent
+|Synchronous=Yes
+|Bubbles=Yes
+|Target=dom/Element
+|Cancelable=Yes
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mouseup|mouseup]] event
 |Content=For mouse, this is when the device transitions from at least one button depressed to no buttons depressed. For touch, this is when physical contact is removed from the digitizer. For pen, this is when the pen is removed from physical contact with the digitizer. 
 
 For input devices that do not support hover, a user agent must also fire a pointerout event after firing the pointerup event.
 |Interface=dom/PointerEvent
-|Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mouseup|mouseup]] event
-|Synchronous=Yes
-|Bubbles=Yes
-|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
@@ -67,10 +68,8 @@ Pointer Events do not fire overlapping pointerdown and pointerup events when an 
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
