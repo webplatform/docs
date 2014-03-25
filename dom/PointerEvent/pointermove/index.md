@@ -2,18 +2,19 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. [[dom/objects/PointerEvent/width|width]] and [[dom/objects/PointerEvent/height|height]]).}}
+{{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. [[dom/PointerEvent/width|width]] and [[dom/PointerEvent/height|height]]).}}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Interface=dom/PointerEvent
-|Target=dom/Element
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/events/mousemove|mousemove]] event
 |Synchronous=Yes
 |Bubbles=Yes
+|Target=dom/Element
 |Cancelable=Yes
+|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mousemove|mousemove]] event
+|Interface=dom/PointerEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -60,10 +61,8 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx MSPointerMove]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
