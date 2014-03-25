@@ -62,9 +62,7 @@
 |Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771904(v=vs.85).aspx MSGotPointerCapture]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
