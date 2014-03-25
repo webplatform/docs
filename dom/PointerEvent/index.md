@@ -2,12 +2,13 @@
 {{Flags
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides contextual information associated with input events (for example, from mouse, touch or pen).}}
 {{API_Object
-|Subclass_of=dom/objects/MouseEvent, dom/objects/UIEvent, dom/objects/Event
+|Subclass_of=dom/MouseEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -51,17 +52,7 @@
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=10
-|Note=Pointer events are supported in IE10 with the following prefixes and casings:
-* [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSGotPointerCapture]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSLostPointerCapture]
-* [http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx MSPointerCancel]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771909(v=vs.85).aspx MSPointerDown]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771910(v=vs.85).aspx MSPointerHover]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx MSPointerMove]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx MSPointerOut]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771913(v=vs.85).aspx MSPointerOver]
-* [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
+|Note=Pointer events are supported in IE10 with the following prefixes and casings:* [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]* [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSGotPointerCapture]* [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSLostPointerCapture]* [http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx MSPointerCancel]* [http://msdn.microsoft.com/en-us/library/ie/hh771909(v=vs.85).aspx MSPointerDown]* [http://msdn.microsoft.com/en-us/library/ie/hh771910(v=vs.85).aspx MSPointerHover]* [http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx MSPointerMove]* [http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx MSPointerOut]* [http://msdn.microsoft.com/en-us/library/ie/hh771913(v=vs.85).aspx MSPointerOver]* [http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx MSPointerUp]
 }}
 }}
 {{See_Also_Section
