@@ -2,19 +2,20 @@
 {{Flags
 |High-level issues=Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer.}}
 {{Event
 |Event_applies_to=dom/PointerEvent
-|Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/methods/setPointerCapture|setPointerCapture]].
-|Interface=dom/PointerEvent
-|Target=dom/Element
-|Default_action=None
 |Synchronous=No
 |Bubbles=Yes
+|Target=dom/Element
 |Cancelable=No
+|Default_action=None
+|Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/Element/setPointerCapture|setPointerCapture]].
+|Interface=dom/PointerEvent
 }}
 {{Examples_Section
 |Not_required=No
@@ -64,7 +65,7 @@
 {{See_Also_Section
 |Topic_clusters=Pointer Events
 }}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
