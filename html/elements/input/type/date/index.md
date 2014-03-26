@@ -41,6 +41,7 @@
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=9
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=No
@@ -54,6 +55,7 @@
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=10
 |Blackberry_prefixed_supported=No
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
