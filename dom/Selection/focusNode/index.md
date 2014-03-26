@@ -46,7 +46,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Returns null if the selection does not exist. As a [[dom/Selection|'''selection''']] object consists of a list of Range objects, focusNode returns the value of the [[dom/Range/endContainer|'''endContainer''']] attribute of the last Range object in the list.
+Returns null if the selection does not exist. As a [[dom/Selection|'''Selection''']] object consists of a list of Range objects, focusNode returns the value of the [[dom/Range/endContainer|'''endContainer''']] attribute of the last Range object in the list.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
@@ -61,12 +61,7 @@ Returns null if the selection does not exist. As a [[dom/Selection|'''selection'
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Selection/anchorNode|anchorNode]]</code>
-*<code>[[dom/Selection/focusOffset|focusOffset]]</code>
-*<code>[[dom/Selection/anchorOffset|anchorOffset]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
