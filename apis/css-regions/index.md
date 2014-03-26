@@ -30,7 +30,7 @@ layout elements. Use as follows:
 
 * The [[apis/css-regions/NamedFlow|'''NamedFlow''']] interface provides access to the content defined as [[css/properties/flow-into|'''flow-into''']], and the series of layout regions defined as [[css/properties/flow-from|'''flow-from''']]. Use it to check if the amount of content matches the allotted set of regions in which it appears.
 
-* The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain, and allows access to [[css/concept/fragment|fragments]] of content that dynamically appear there.
+* The [[apis/css-regions/Region|'''Region''']] interface provides information on each region within the chain, and allows access to [[css/concepts/fragment|fragments]] of content that dynamically appear there.
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
 }}
