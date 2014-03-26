@@ -50,8 +50,8 @@
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
+|Android_supported=Yes
+|Android_version=4.4
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Yes
