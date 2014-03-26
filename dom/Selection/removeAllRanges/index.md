@@ -1,9 +1,12 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Selection
@@ -14,20 +17,12 @@
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses '''removeAllRanges''' to clear a selection from text or elements.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
     &lt;title&gt;Remove All Ranges Example&lt;/title&gt;        
@@ -48,28 +43,31 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 &lt;input type{{=}}"button" value{{=}}"Remove all Ranges" onclick{{=}}"removeAllRangesDemo()"   /&gt;   
     &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''removeAllRanges''' can remove invisible carets or insertion points that result when the '''Collapse''' method is applied to a selection.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
-
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/HTMLSelection|HTMLSelection]]</code>
-*<code>[[dom/methods/collapse|collapse]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
