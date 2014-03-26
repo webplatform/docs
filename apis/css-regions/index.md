@@ -24,7 +24,7 @@ of [[css/concepts/region|''region'']] elements.  The feature allows
 content to follow a path through arbitrarily placed magazine-style
 layout elements. Use as follows:
 
-* The [[apis/css-regions/Document/getNamedFlows|'''getNamedFlows()''']] method, available via the [[dom/apis/document|'''Document''']] interface, retrieves all of a document's named flows as a [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']].
+* The [[dom/Document/getNamedFlows|'''getNamedFlows()''']] method, available via the [[dom/Document|'''Document''']] interface, retrieves all of a document's named flows as a [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']].
 
 * Iterate over the [[apis/css-regions/NamedFlowCollection|'''NamedFlowCollection''']] as an array, or call [[apis/css-regions/NamedFlowCollection/namedItem|'''namedItem''']] on it to access each [[apis/css-regions/NamedFlow|'''NamedFlow''']] by its name.
 
