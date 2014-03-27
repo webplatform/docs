@@ -1,5 +1,7 @@
-{{Page_Title|Targetting styles with media queries}}
-{{Flags}}
+{{Page_Title|Targeting styles with media queries}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
