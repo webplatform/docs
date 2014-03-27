@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -23,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''splitText''' method to divide a text node in half in a '''ul''' object. When the text node splits, the [[dom/methods/createElement|'''createElement''']] method creates a new '''li''' object. The [[dom/methods/appendChild|'''appendChild''']] method appends the new '''li''' element and the split text node to the '''ul''' object.
+|Description=This example uses the '''splitText''' method to divide a text node in half in a '''ul''' object. When the text node splits, the [[dom/Document/createElement|'''createElement''']] method creates a new '''li''' object. The [[dom/Node/appendChild|'''appendChild''']] method appends the new '''li''' element and the split text node to the '''ul''' object.
 |Code=&lt;script&gt;
 function fnSplitNode(){
    var oNode{{=}}oList.firstChild.childNodes(0);
@@ -39,7 +40,7 @@ function fnSplitNode(){
 }}
 }}
 {{Notes_Section
-|Notes=The text node that invokes the '''splitText''' method has a [[dom/properties/nodeValue|'''nodeValue''']] equal to the substring of the value, from zero to ''offset''. The new text node has a '''nodeValue''' of the substring of the original value, from the specified index to the value length. Text node integrity is not preserved when the document is saved or persisted.
+|Notes=The text node that invokes the '''splitText''' method has a [[dom/Node/nodeValue|'''nodeValue''']] equal to the substring of the value, from zero to ''offset''. The new text node has a '''nodeValue''' of the substring of the original value, from the specified index to the value length. Text node integrity is not preserved when the document is saved or persisted.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -51,15 +52,12 @@ function fnSplitNode(){
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/TextNode|TextNode]]</code>
-*<code>[[dom/methods/createElement|createElement]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
