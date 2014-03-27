@@ -316,7 +316,7 @@ Unlike the conditional tests shown above, media query ''listeners''
 allow an application to dynamically respond whenever there is a
 change in a media query expression's matching state.
 
-As of this writing, there's not yet widespead support for media query
+As of this writing, there's not yet widespread support for media query
 listeners among mobile browsers, and not many supported properties
 that might be expected to change as an application executes.  Screen
 orientation may change, but that can also be detected with the
