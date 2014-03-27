@@ -157,7 +157,7 @@ As of this writing, this standardized flexbox syntax is not yet widely
 supported even on desktop browsers.  Otherwise you can use floats to
 achieve the same layout.
 
-The mobile interface is encapulated within a @media rule, which only
+The mobile interface is encapsulated within a @media rule, which only
 applies when the screen is narrow. In a desktop browser, resizing the
 window allows you to preview the mobile interface.  The CSS replaces
 flexbox with conventional stacked block formatting. It also suppresses
