@@ -1,5 +1,6 @@
 {{Page_Title|The Mobile Viewport and Orientation}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline
 |Name=Mike Sierra
@@ -289,7 +290,7 @@ If you are targeting a website for presentation on both mobile and
 desktop browsers, [[tutorials/media_queries|media queries]] are
 an indispensable tool that you should master.
 
-==Compatability==
+==Compatibility==
 
 The viewport meta tag is supported not only by the iPhone for which it
 was originally developed, but by Android, Fennec, and comparable
@@ -402,8 +403,6 @@ Here is most all of what you need to know about viewports:
 * quirksmode: A tale of two viewports, parts [http://www.quirksmode.org/mobile/viewports.html one (desktop)] and [http://www.quirksmode.org/mobile/viewports2.html two (mobile)]
 * W3C Editor's Draft: [http://dev.w3.org/csswg/css-device-adapt/ CSS Device Adaptation]
 * [http://generatedcontent.org/post/21279324555/viewportunits Viewport Units]
-
-
 }}
 {{Topics}}
 {{External_Attribution
