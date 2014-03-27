@@ -327,7 +327,7 @@ Here is the most widely applicable viewport:
 
 Here is most all of what you need to know about viewports:
 
-* For cross-device compatability, use flexible layout elements that adapt to available dimensions.
+* For cross-device compatibility, use flexible layout elements that adapt to available dimensions.
 
 * Set the viewport's '''width=device-width''' to fit this content to the screen dimensions.
 
