@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
@@ -47,10 +48,8 @@ One of the following values -
 }}
 {{See_Also_Section
 |Topic_clusters=Deprecated
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/data|data]]</code>
 }}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
