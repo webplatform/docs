@@ -456,7 +456,7 @@ and distorting its colors in various ways while it rotates in space:
 ([http://letmespellitoutforyou.com/samples/transit_filter_video.html View live sample])
 
 Unlike [[css/properties/transform|'''transform''']] functions,
-[[css/properties/filter|'''filter''']] functions must be explictly
+[[css/properties/filter|'''filter''']] functions must be explicitly
 declared in each style sheet in the exact same order if they are to
 transition.
 }}
