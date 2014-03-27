@@ -26,7 +26,7 @@
 }}{{Method Parameter
 |Name=view
 |Data type=Object
-|Description=The window on which this event is occurring. Sets the value for the [[dom/IUEvent/view|view]] property.
+|Description=The window on which this event is occurring. Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=data
