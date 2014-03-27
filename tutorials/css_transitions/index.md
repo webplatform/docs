@@ -372,7 +372,7 @@ panel appear:
 ([http://letmespellitoutforyou.com/samples/transit_end.html View live sample])
 
 The [[css/properties/opacity|'''opacity''']] property makes the
-element fade in, and is the only noticable change to its appearance. A
+element fade in, and is the only noticeable change to its appearance. A
 second transition executes over a longer span of time, and makes an
 imperceptible change to the background color. Here is the relevant
 CSS:
