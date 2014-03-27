@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
@@ -10,37 +11,37 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=Object
-|Description=The window on which this event is occurring. Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring. Sets the value for the [[dom/IUEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=data
 |Data type=String
-|Description=Character data. Sets the value for the [[dom/properties/data|'''data''']]  property.
+|Description=Character data. Sets the value for the [[dom/CompositionEvent/data|'''data''']]  property.
 |Optional=No
 }}{{Method Parameter
 |Name=inputMethod
 |Data type=Number
-|Description=The input mode for the text. Sets the value for the [[dom/properties/inputMethod|'''inputMethod''']] property.
+|Description=The input mode for the text. Sets the value for the [[dom/TextEvent/inputMethod|'''inputMethod''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=locale
 |Data type=String
-|Description=The locale name. Sets the value for the [[dom/properties/locale|'''locale''']] property.
+|Description=The locale name. Sets the value for the [[dom/CompositionEvent/locale|'''locale''']] property.
 |Optional=No
 }}
 |Method_applies_to=dom/TextEvent
@@ -67,10 +68,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Deprecated
-}}
-{{Topics|DOM, DOMEvents}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
