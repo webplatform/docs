@@ -459,7 +459,7 @@ executes each time the class is applied after having been absent:
  div.animate { -webkit-animation-name: sequence; }
 
 Once the ''animate'' class is applied, simply reapplying it has no
-effect, because the animation's name has to actualy change its
+effect, because the animation's name has to actually change its
 value. The same is true when applying the property directly to the
 element. The first button below only works once, but the second can be
 repeated because it responds to asynchronous mouse or touch input:
