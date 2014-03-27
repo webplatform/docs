@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -27,23 +28,14 @@ function fnChangeText(){
 }}
 }}
 {{Notes_Section
-|Notes=Use the [[dom/methods/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/methods/appendChild|'''appendChild''']], [[dom/methods/replaceNode|'''replaceNode''']], or [[dom/methods/insertBefore|'''insertBefore''']] methods.
-|Import_Notes=====MSDN Properties====
-The '''TextNode''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/constructor|'''constructor''']]
-{{!}}Returns a reference to the constructor of an object.
-{{!}}}
+|Notes=Use the [[dom/Document/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/Node/appendChild|'''appendChild''']], [[dom/Node/replaceNode|'''replaceNode''']], or [[dom/Node/insertBefore|'''insertBefore''']] methods.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
