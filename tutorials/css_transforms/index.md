@@ -320,7 +320,7 @@ Keep in mind several things to help understand how perspective corresponds to ho
 
 * The repositioned perspective point affects the appearance of the transformed element, ''not'' the ancestor that specifies the perspective.
 
-* Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed bookcase. As you approach it, it appears larger, and its interior angles appear more dramaticaly skewed towards a vanishing point. Conversely, when you use CSS to reduce the value of [[css/properties/perspective|'''perspective''']] to approach such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow you to make the distance appear more realistic.)
+* Unlike real life, changing the distance to the scene does ''not'' change its perceived size. Imagine walking towards a large, recessed bookcase. As you approach it, it appears larger, and its interior angles appear more dramatically skewed towards a vanishing point. Conversely, when you use CSS to reduce the value of [[css/properties/perspective|'''perspective''']] to approach such a scene, the angles still change, but the overall size appears  oddly constant. (The 3D translation functions discussed below allow you to make the distance appear more realistic.)
 
 * CSS transforms don't allow the viewer to look away from the scene, no matter from where the viewpoint is positioned.
 
@@ -661,7 +661,4 @@ writing, Canary requires the ''Enable CSS Shaders'' flag enabled under
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
