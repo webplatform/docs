@@ -259,7 +259,7 @@ Setting the [[svg/attributes/type|'''type''']] to '''gamma''' allows
 you to perform ''gamma correction'', a useful way to increase dark
 values. The function applies the following formula to produce a curve:
 ((''amplitude'' &times; ''value''<sup>''exponent''</sup>) +
-''offset''). The first example heightens the darkers greens, and the
+''offset''). The first example heightens the darker greens, and the
 second uses [[svg/attributes/offset|'''offset''']] to reduce the
 overall green level (the same way that
 [[svg/attributes/intercept|'''intercept''']] does for the '''linear'''
@@ -801,7 +801,7 @@ movement.
 
 ==Creating textures (feTurbulence)==
 
-Turbulence is indispensible for grain and weave textures, useful for
+Turbulence is indispensable for grain and weave textures, useful for
 background patterns.  Step through the following example:
 
 <syntaxhighlight lang="xml">
@@ -873,7 +873,7 @@ To create a lighting effect, you need to specify three things:
 * A light ''color'', specified by the [[svg/properties/lighting-color|'''lighting-color''']] property
 
 * A light ''source'', of which there are three kinds:
-** a ''distant'' light ([[svg/elements/feDistantLight|'''feDistantLight''']]) is arbirtarily far away, and so is specified in terms of its angle from the target. This is the most appropriate way to represent sunlight.
+** a ''distant'' light ([[svg/elements/feDistantLight|'''feDistantLight''']]) is arbitrarily far away, and so is specified in terms of its angle from the target. This is the most appropriate way to represent sunlight.
 ** a ''point'' light ([[svg/elements/fePointLight|'''fePointLight''']]) emanates from a specific point that is represented as a three-dimensional ''x''/''y''/''z'' coordinate. This is more appropriate when you need the perspective necessary to place a room light within a scene.
 ** a ''spot'' light ([[svg/elements/feSpotLight|'''feSpotLight''']]) behaves much like a point light, but its beam can be narrowed to a cone, and the light can pivot to other targets.
 
