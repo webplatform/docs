@@ -28,7 +28,7 @@ function fnChangeText(){
 }}
 }}
 {{Notes_Section
-|Notes=Use the [[dom/Document/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/Node/appendChild|'''appendChild''']], [[dom/Node/replaceNode|'''replaceNode''']], or [[dom/Node/insertBefore|'''insertBefore''']] methods.
+|Notes=Use the [[dom/Document/createTextNode|'''createTextNode''']] method to create a '''TextNode''' object. After you create the '''TextNode''', you can add to it using the [[dom/Node/appendChild|'''appendChild''']] or [[dom/Node/insertBefore|'''insertBefore''']] methods.
 }}
 {{Related_Specifications_Section
 |Specifications=
