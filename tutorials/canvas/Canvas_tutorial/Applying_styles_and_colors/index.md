@@ -179,7 +179,7 @@ In the example below, 10 straight lines are drawn with increasing line widths. T
 }
 </pre>
  
-Obtaining crisp lines requires understanding how paths are stroked. In the images below, the grid represents the canvas coordinate grid. The squares between gridlines are actual on-screen pixels. In the first grid image below, a rectangle from (2,1) to (5,5) is filled. The entire area between them (light red) falls on pixel boundaries, so the resulting filled rectangle will have crisp edges.
+Obtaining crisp lines requires understanding how paths are stroked. In the images below, the grid represents the canvas coordinate grid. The squares between grid lines are actual on-screen pixels. In the first grid image below, a rectangle from (2,1) to (5,5) is filled. The entire area between them (light red) falls on pixel boundaries, so the resulting filled rectangle will have crisp edges.
  
 [[File:canvas-grid.png|right|Three canvas elements on grids, showing aspects of line width.]]
  
@@ -187,7 +187,7 @@ If you consider a path from (3,1) to (3,5) with a line thickness of 1.0, you end
  
 To fix this, you have to be very precise in your path creation. Knowing that a 1.0 width line will extend half a unit to either side of the path, creating the path from (3.5,1) to (3.5,5) results in the situation in the third image — the 1.0 line width ends up completely and precisely filling a single pixel vertical line.
   
-{{Note|Be aware that in our vertical line example, the Y position still referenced an integer gridline position — if it hadn't, we would see pixels with half coverage at the endpoints (but note also that this behavior depends on the current <code>lineCap</code> style whose default value is <code>butt</code>; you may want to compute consistant strokes with half-pixel coordinates for odd-width lines, by setting the <code>lineCap</code> style to <code>square</code>, so that the outer border of the stroke around the endpoint will be automatically extended to cover the whole pixel exactly).
+{{Note|Be aware that in our vertical line example, the Y position still referenced an integer grid line position — if it hadn't, we would see pixels with half coverage at the endpoints (but note also that this behavior depends on the current <code>lineCap</code> style whose default value is <code>butt</code>; you may want to compute consistent strokes with half-pixel coordinates for odd-width lines, by setting the <code>lineCap</code> style to <code>square</code>, so that the outer border of the stroke around the endpoint will be automatically extended to cover the whole pixel exactly).
  
 Note also that only start and final endpoints of a path are affected: if a path is closed with <code>closePath()</code>, there's no start and final endpoint; instead, all endpoints in the path are connected to their attached previous and next segment using the current setting of the <code>lineJoin</code> style, whose default value is <code>miter</code>, with the effect of automatically extending the outer borders of the connected segments to their intersection point, so that the rendered stroke will exactly cover full pixels centered at each endpoint if those connected segments are horizontal and/or vertical). See the next two sections for demonstrations of these additional line styles.}}
   
@@ -264,7 +264,7 @@ Again I've drawn three different paths, each with a different <code>lineJoin</co
  
 The <code>miterLimit</code> property determines how far the outside connection point can be placed from the inside connection point. If two lines exceed this value, a bevel join will be drawn. Note that the maximum miter length is the product of the line width measured in the current coordinate system, by the value of this <code>miterLimit</code> property (whose default value is 10.0 in the HTML canvas), so the <code>miterLimit</code> can be set independantly from the current display scale or any affine transforms of paths: it only influences the effectively rendered shape of line edges.
  
-More exactly, the miter limit is the maximum allowed ratio of the extension length (in the HTML canvas, it is measured between the outside corner of the joined edges of the line and the common endpoint of connecting segments specified in the path) to half the line width. It can equivalently be defined as the maximum allowed ratio of the distance between the inside and outside points of jonction of edges, to the total line width. It is then equal to the cosecant of half the minimum inner angle of connecting segments below which no miter join will be rendered, but only a bevel join:
+More exactly, the miter limit is the maximum allowed ratio of the extension length (in the HTML canvas, it is measured between the outside corner of the joined edges of the line and the common endpoint of connecting segments specified in the path) to half the line width. It can equivalently be defined as the maximum allowed ratio of the distance between the inside and outside points of junction of edges, to the total line width. It is then equal to the constant of half the minimum inner angle of connecting segments below which no miter join will be rendered, but only a bevel join:
  
 * <code>miterLimit</code> = '''max''' <code>miterLength</code> / <code>lineWidth</code> = 1 / '''sin''' ( '''min''' ''θ'' / 2 )
 * The default miter limit of 10.0 will strip all miters for sharp angles below about 11 degrees.
@@ -283,7 +283,7 @@ If you specify a <code>miterLimit</code> value below 4.2 in this demo, none of t
   // Clear canvas
   ctx.clearRect(0, 0, 150, 150);
   // Draw the blue horizontal guides at y positions 50 and 100
-  ctx.strokeStyle = '#09f';
+  ctx.strokeStyle = '#0099ff';
   ctx.lineWidth   = 2;
   ctx.strokeRect(-5, 50, 160, 50);
   // check the miterLimit input and set it in canvas
@@ -334,7 +334,7 @@ lineargradient.addColorStop(1,'black');
  
 ==== A createLinearGradient example ====
  
-[[File:Canvas lineargradient.png|right|Canvas with two linear gradeients]]In this example, I've created two different gradients. In the first, I create the background gradient. As you can see, I've assigned two colors at the same position. You do this to make very sharp color transitions - in this case from white to green. Normally, it doesn't matter in what order you define the color stops, but in this special case, it does significantly. If you keep the assignments in the order you want them to appear, this won't be a problem.
+[[File:Canvas lineargradient.png|right|Canvas with two linear gradients]]In this example, I've created two different gradients. In the first, I create the background gradient. As you can see, I've assigned two colors at the same position. You do this to make very sharp color transitions - in this case from white to green. Normally, it doesn't matter in what order you define the color stops, but in this special case, it does significantly. If you keep the assignments in the order you want them to appear, this won't be a problem.
  
 In the second gradient, I didn't assign the starting color (at position 0.0) since it wasn't strictly necessary. Assigning the black color at position 0.5 automatically makes the gradient, from the start to this stop, black.
  
@@ -346,7 +346,7 @@ As you can see here, both the <code>strokeStyle</code> and <code>fillStyle</code
   // Create gradients
   var lingrad = ctx.createLinearGradient(0,0,0,150);
   lingrad.addColorStop(0, '#00ABEB');
-  lingrad.addColorStop(0.5, '#fff');
+  lingrad.addColorStop(0.5, '#FFFFFF');
   lingrad.addColorStop(0.5, '#26C000');
   lingrad.addColorStop(1, '#fff');
 
@@ -506,7 +506,7 @@ This example draws a text string with a shadowing effect.
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
-|MDN_link=https://developer.mozilla.org/en/Canvas_tutorial%3AApplying_styles_and_colors
+|MDN_link=https://developer.mozilla.org/en/Canvas_tutorial:Applying_styles_and_colors
 |MSDN_link=
 |HTML5Rocks_link=
 }}
