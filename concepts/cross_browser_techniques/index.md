@@ -21,11 +21,11 @@
 ==HTML 5 Video Captioning==
 *[[concepts/VTT_Captioning|HTML5 Video Captioning Using WebVTT]]
 
+==Working without JavaScript==
+*[[concepts/graceful_enhancement|Gracefully enhancing your site with JavaScript]]
+*[[concepts/redirect_no_javascript|Redirect browsers running without JavaScript to a special area catered to them]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
