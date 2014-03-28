@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
 |Checked_Out=No
 }}
 {{Summary_Section|Gets a substring beginning at the specified location and having the specified length.}}
