@@ -43,7 +43,7 @@ document.write("[" + ss + "] &lt;br&gt;");
  // [brown] 
  // [brown fox jumps over the lazy dog.] 
  // []
-// [dog.]
+ // [dog.]
 }}
 }}
 {{Remarks_Section
