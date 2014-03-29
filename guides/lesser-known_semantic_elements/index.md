@@ -1,5 +1,6 @@
 {{Page_Title|Lesser-known semantic elements}}
 {{Flags
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article discusses some of the lesser known and more
@@ -288,8 +289,8 @@ Opera Software ASA,<br>Waldemar Thranes gate 98,<br>
 NO-0175 OSLO,<br>NORWAY
 </address></syntaxhighlight>
 
-Of course, if you are writing XHTML syle syntax rather than HTML, the element
-should be self-closing, like so: &lt;br /&gt;.
+Of course, if you are writing XHTML style syntax rather than HTML, the element
+should be self-closing, like so: <syntaxhighlight><br /></syntaxhighlight>
 
 == Horizontal rules ==
  
@@ -355,8 +356,10 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 
 <syntaxhighlight lang="html5"><p><s>The president of the USA is currently Barack Obama</s>.</p></syntaxhighlight>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=<abbr>
 |Chrome_supported=Yes
@@ -418,59 +421,7 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=<abbr>
-|Android_supported=Yes
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}{{Compatibility Table Mobile Row
-|Feature=<address>
-|Android_supported=Yes
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}{{Compatibility Table Mobile Row
-|Feature=<code>
-|Android_supported=Yes
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
+|Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
