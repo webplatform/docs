@@ -87,7 +87,7 @@ an attribute or via CSS:
 [[Image:svgf_blurBoth.png]]
 
 The effect takes each pixel and moves it around randomly from its
-original location by a radius specified by the '''stdDeviation'''
+original location within a radius specified by the '''stdDeviation'''
 value.  Unlike the built-in CSS function, in SVG you can specify
 separate ''x'' and ''y'' values to produce a sideways motion effect
 that in this case is a bit more legible:
