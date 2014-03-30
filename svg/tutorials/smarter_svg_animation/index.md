@@ -397,7 +397,9 @@ that shines a light on a beveled surface:
 [[Image:svga_bevel.png]]
 
 One animation highlights different sides of the element by rotating
-the light source around it. Its
+the light source around it, using its
+[[svg/attributes/azimuth |'''azimuth''']]
+attribute to modify direction. Its
 [[svg/attributes/repeatCount|'''repeatCount''']] is set to
 '''indefinite''', so after it proceeds from '''0''' to '''360'''
 degrees, it restarts invisibly at '''0''':
