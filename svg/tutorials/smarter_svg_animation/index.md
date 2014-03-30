@@ -94,7 +94,7 @@ value from '''0s''' to '''1s''' delays the animation:
 
 Delaying the animation causes a problem, and the solution is
 highlighted.  The outer text element's '''x''' attribute is set to
-'''1000'''. If it started at '''0''', the text would display for a
+'''1000'''. If it were to start at '''0''', the text would display for a
 second, then awkwardly disappear once the animation starts to execute,
 slide in from the right, and reposition itself at its initial
 location.
