@@ -489,7 +489,10 @@ board:
 </syntaxhighlight>
 
 The board is defined as an 800&times;800 square, and the piece is
-positioned over one of those squares. The accompanying animation moves
+positioned over one of those squares. 
+(See [[svg/tutorials/smarter_svg_graphics|SVG graphic effects]]
+for information on how to use transforms and patterns to build a checker board.)
+The accompanying animation moves
 the piece three squares over to the right:
 
 <div style="display:inline-block;width:45%">
