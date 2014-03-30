@@ -241,8 +241,10 @@ shorthand keyword, which refers to the previously defined animation:
 The motion animation shown above animates a single value at a time,
 but the blur animation animates two, a pair of ''x''/''y''
 coordinates. SVG also allows you to animate long series of coordinates
-that make up [[svg/elements/path|'''path''']] definitions, resulting
-in curved morphing effects:
+that make up [[svg/elements/path|'''path''']] definitions,
+which are discussed in
+[[svg/tutorials/smarter_svg_shapes|SVG basic shapes and text]].
+This results in curved morphing effects:
 
 <div style="display:inline-block">
 [[Image:svga_morph1.png|200px]]
