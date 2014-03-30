@@ -93,22 +93,22 @@ value from '''0s''' to '''1s''' delays the animation:
 </syntaxhighlight>
 
 Delaying the animation causes a problem, and the solution is
-highlighted.  The outer text element's '''x''' attribute is now set to
-'''1000'''. If you kept it at '''0''', the text would display for a
+highlighted.  The outer text element's '''x''' attribute is set to
+'''1000'''. If it started at '''0''', the text would display for a
 second, then awkwardly disappear once the animation starts to execute,
 slide in from the right, and reposition itself at its initial
 location.
 
 Fixing that problem causes another problem, whose solution is also
-highlighted. Once the animation completes, the value of '''x'''
+highlighted. Once the animation completes, by default the value of '''x'''
 reverts to its initial value, '''1000''', thus making it disappear.
 Setting the [[svg/attributes/fill|'''fill''']] attribute to
 '''freeze''' maintains the attribute's value after the animation
 completes, effectively overriding whatever the text element specifies.
-(The [[svg/attributes/fill|'''fill''']] ''attribute'' is unfortunately
-named the same as SVG's [[svg/properties/fill|'''fill''']]
+(The [[svg/attributes/fill|'''fill''']] ''attribute'' used in animations
+is unfortunately named the same as SVG's [[svg/properties/fill|'''fill''']]
 ''property'', which specifies background colors and images. Do not
-get the two mixed up.)
+confuse the two.)
 
 [http://letmespellitoutforyou.com/samples/svg/anim_swipeDelay.svg View this animation]
 
