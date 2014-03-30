@@ -157,7 +157,9 @@ or the animation does not work.
 
 The example above manipulates a simple positioning attribute.
 Animations become far more interesting when applied to complex filter
-effects. This variation synchronizes two different animations, swiping
+effects, which are discussed in
+[[svg/tutorials/smarter_svg_filters|SVG Filters]].
+This variation synchronizes two different animations, swiping
 horizontally blurred text into view, then removing the blur once it
 has stopped:
 
