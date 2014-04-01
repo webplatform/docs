@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -20,7 +21,7 @@
 }}
 {{Notes_Section
 |Usage=Use this property to determine the window object on which the event has occurred.
-|Notes=Use [[dom/methods/initUIEvent|initUIEvent]] to set the value of this property.
+|Notes=Use [[dom/UIEvent/initUIEvent|initUIEvent]] to set the value of this property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -37,20 +38,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/objects/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/objects/DragEvent|DragEvent]]</code>
-*<code>[[dom/objects/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/objects/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/objects/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/objects/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/objects/TextEvent|TextEvent]]</code>
-*<code>[[dom/objects/UIEvent|UIEvent]]</code>
-*<code>[[dom/objects/WheelEvent|WheelEvent]]</code>
-*<code>[[dom/properties/detail|detail]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
