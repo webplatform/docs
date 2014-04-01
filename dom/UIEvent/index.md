@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Represents a user interface event, like [[dom/events/click|click]], [[dom/events/blur|blur]] and more.}}
+{{Summary_Section|Represents a user interface event, like '''click''', '''blur''', etc.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
@@ -29,14 +30,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/events/blur|onblur]]</code>
-*<code>[[dom/events/resize|onresize]]</code>
-*<code>[[dom/events/scroll|onscroll]]</code>
-}}
-{{Topics|DOM, DOMEvents}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
