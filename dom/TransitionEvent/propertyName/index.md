@@ -1,21 +1,21 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/TransitionEvent
-|Read_only=
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=This example uses the [[dom/events/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm
-|Code=
-&lt;HEAD&gt;
+|Examples={{Single Example
+|Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property.
+|Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 function changeProp()
 {
@@ -45,24 +45,30 @@ function changeCSSProp()
        onpropertychange{{=}}'alert(event.propertyName + " 
        property has changed value")'&gt;
 &lt;/BODY&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-You can alter the value of '''propertyName''' by using it with the [[dom/events/propertychange|'''onpropertychange''']] event.
-|Import_Notes=
-===Syntax===
+|Notes====Remarks===
+You can alter the value of '''propertyName''' by using it with the [[dom/Element/propertychange|'''onpropertychange''']] event.
+|Import_Notes====Syntax===
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>event</code>
-*<code>[[dom/events/propertychange|onpropertychange]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
