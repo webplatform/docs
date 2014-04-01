@@ -1,27 +1,25 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
-|Interface=dom/UIEvent
-|Target=dom/Element
-|Default_action=
-|Content=
 |Event_applies_to=dom/UIEvent
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/UIEvent
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following example demonstrates the order of event firing for the '''onactivate''' and [[dom/events/load|'''onload''']] events. As each event fires, it appends a string to the '''div''' element within the document. The '''onactivate''' event fires before the '''onload''' event.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm
-|Code=
-&lt;HTML&gt;
+|Examples={{Single Example
+|Description=The following example demonstrates the order of event firing for the '''onactivate''' and '''onload''' events. As each event fires, it appends a string to the '''div''' element within the document. The '''onactivate''' event fires before the '''onload''' event.
+|Code=&lt;HTML&gt;
 &lt;HEAD&gt;
 &lt;SCRIPT&gt;
 function fnActivate(){
@@ -39,22 +37,23 @@ function fnLoad(){
 &lt;DIV id{{=}}"oDIV1"&gt;&lt;/DIV&gt;
 &lt;/BODY&gt;
 &lt;/HTML&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
-'''Note'''  Using the [[dom/methods/setActive|'''setActive''']] method has no effect on document focus.  Using the [[dom/methods/focus|'''focus''']] method on an individual element causes the element to gain focus and become the active element.
-When one object loses activation and another object becomes the [[dom/properties/activeElement|'''activeElement''']], the [[dom/events/focus|'''onfocus''']] event fires on the object becoming the '''activeElement''' only after the [[dom/events/blur|'''onblur''']] event fires on the object losing activation.
-Each document may have up to one active element.  Set the active element with the [[dom/methods/setActive|'''setActive''']] or [[dom/methods/focus|'''focus''']] methods.
-Using the [[dom/methods/focus|'''focus''']] method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus.
-The '''onactivate''' event fires before the [[dom/events/load|'''onload''']] event for any of the objects listed in the Applies To section.
-For Microsoft Internet Explorer 6 and later, the '''event'''.[[dom/properties/fromElement2|'''fromElement''']] property is now exposed by this event.
-For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  Use the '''onactivate''' event to manage formatting changes when an element is made active.
-Change activation from the '''event'''.[[dom/properties/fromElement2|'''fromElement''']] to the '''event'''.'''srcElement'''.
+|Notes====Remarks===
+'''Note'''  Using the [[dom/HTMLElement/setActive|'''setActive''']] method has no effect on document focus.  Using the [[dom/HTMLElement/focus|'''focus''']] method on an individual element causes the element to gain focus and become the active element.
+When one object loses activation and another object becomes the [[dom/Document/activeElement|'''activeElement''']], the '''onfocus''' event fires on the object becoming the '''activeElement''' only after the [[dom/HTMLElement/blur|'''onblur''']] event fires on the object losing activation.
+Each document may have up to one active element.  Set the active element with the '''setActive''' or '''focus''' methods.
+Using the '''focus''' method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus.
+The '''onactivate''' event fires before the '''onload''' event for any of the objects listed in the Applies To section.
+For Microsoft Internet Explorer 6 and later, the '''event.fromElement''' property is now exposed by this event.
+For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the '''activeElement''' of a '''Document''' can be managed separately.  Use the '''onactivate''' event to manage formatting changes when an element is made active.
+Change activation from the '''event.fromElement''' to the '''event.srcElement'''.
 To invoke this event, do one of the following:
-*Click an element, other than the [[dom/properties/activeElement|'''active''']] element of the document.
+*Click an element other than the '''activeElement''' element of the document.
 *Use the keyboard to move focus from the active element to another element.
-*Invoke the [[dom/methods/setActive|'''setActive''']] method on an element, when the element is not the active element.
+*Invoke the '''setActive''' method on an element, when the element is not the active element.
 
 The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLAnchorEvents2'''
@@ -81,114 +80,29 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>frame</code>
-*<code>frameSet</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>i</code>
-*<code>iframe</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>rt</code>
-*<code>ruby</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-*<code>Reference</code>
-*<code>[[dom/events/beforeactivate|onbeforeactivate]]</code>
-*<code>[[dom/events/beforedeactivate|onbeforedeactivate]]</code>
-*<code>[[dom/events/deactivate|ondeactivate]]</code>
-*<code>[[dom/events/focusin|onfocusin]]</code>
-*<code>[[dom/events/focusout|onfocusout]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
