@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -10,57 +11,57 @@
 |Parameters={{Method Parameter
 |Name=eventType
 |Data type=String
-|Description=The name of the event. Sets the value for the [[dom/properties/type (event)|'''type''']] property.
+|Description=The name of the event. Sets the value for the [[dom/Event/type|type]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
 |Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/properties/bubbles|bubbles]] property.
+|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=cancelable
 |Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/methods/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/properties/cancelable|cancelable]] property.
+|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=view
 |Data type=Object
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/properties/view|view]] property.
+|Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
 |Name=detail
 |Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/properties/detail|'''detail''']] property  of the event.
+|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property  of the event.
 |Optional=No
 }}{{Method Parameter
 |Name=screenX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenX|'''screenX''']] property,
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenX|'''screenX''']] property,
 |Optional=No
 }}{{Method Parameter
 |Name=screenY
 |Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/properties/screenY|'''screenY''']] property.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenY|'''screenY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientX
 |Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientX|'''clientX''']] property.
+|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientX|'''clientX''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=clientY
 |Data type=any
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/properties/clientY|'''clientY''']] property.
+|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientY|'''clientY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=button
 |Data type=Number
-|Description=The mouse button that caused the event. Sets the value for the [[dom/properties/button|'''button''']] property (see the property page for common values).
+|Description=The mouse button that caused the event. Sets the value for the [[dom/MouseEvent/button|'''button''']] property (see the property page for common values).
 |Optional=No
 }}{{Method Parameter
 |Name=relatedTarget
 |Data type=DOM Node
-|Description=A secondary element that is involved in the event. Sets the value for the [[dom/properties/relatedTarget|'''relatedTarget''']] property.
+|Description=A secondary element that is involved in the event. Sets the value for the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=modifiersListArg
@@ -86,22 +87,22 @@ For example -
 }}{{Method Parameter
 |Name=deltaX
 |Data type=Number
-|Description=The distance that the mouse wheel has rotated around the x-axis. Sets the value for the [[dom/properties/deltaX|'''deltaX''']] property.
+|Description=The distance that the mouse wheel has rotated around the x-axis. Sets the value for the [[dom/WheelEvent/deltaX|'''deltaX''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=deltaY
 |Data type=Number
-|Description=The distance that the mouse wheel has rotated around the y-axis. Sets the value for the [[dom/properties/deltaY|'''deltaY''']] property.
+|Description=The distance that the mouse wheel has rotated around the y-axis. Sets the value for the [[dom/WheelEvent/deltaY|'''deltaY''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=deltaZ
 |Data type=Number
-|Description=The distance that the mouse wheel has rotated around the z-axis. Sets the value for the [[dom/properties/deltaZ|'''deltaZ''']] property.
+|Description=The distance that the mouse wheel has rotated around the z-axis. Sets the value for the [[dom/WheelEvent/deltaZ|'''deltaZ''']] property.
 |Optional=No
 }}{{Method Parameter
 |Name=deltaMode
 |Data type=Number
-|Description=The delta mode of the event. Sets the value for the [[dom/properties/deltaMode|'''deltaMode''']] property (see the property page for common values).
+|Description=The delta mode of the event. Sets the value for the [[dom/WheelEvent/deltaMode|'''deltaMode''']] property (see the property page for common values).
 |Optional=No
 }}
 |Method_applies_to=dom/WheelEvent
@@ -129,7 +130,7 @@ For example -
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
