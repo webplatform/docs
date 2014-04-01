@@ -22,7 +22,6 @@ the last child node in the filtered '''TreeWalker''' hierarchy.
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,7 +29,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Notes_Section
 |Notes====Remarks===
-'''lastChild''' sets the [[domTreeWalker/currentNode|'''currentNode''']] to the returned node.
+'''lastChild''' sets the [[dom/TreeWalker/currentNode|'''currentNode''']] to the returned node.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
