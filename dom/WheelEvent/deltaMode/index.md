@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -13,9 +14,9 @@
 |Return_value_name=deltaMode
 |Javascript_data_type=Number
 |Return_value_description=One of the following values -
-*[[dom/objects/WheelEvent|WheelEvent]].DOM_DELTA_PIXEL, or 0x00 (hex), or 0. The delta coordinates are pixel based (most common).
-*[[dom/objects/WheelEvent|WheelEvent]].DOM_DELTA_LINE, or 0x01 (hex), or 1. The delta coordinates are line based (in form controls, for example).
-*[[dom/objects/WheelEvent|WheelEvent]].DOM_DELTA_PAGE, or 0x02 (hex), or 2. The delta coordinates are page based.
+*[[dom/WheelEvent|WheelEvent]].DOM_DELTA_PIXEL, or 0x00 (hex), or 0. The delta coordinates are pixel based (most common).
+*[[dom/WheelEvent|WheelEvent]].DOM_DELTA_LINE, or 0x01 (hex), or 1. The delta coordinates are line based (in form controls, for example).
+*[[dom/WheelEvent|WheelEvent]].DOM_DELTA_PAGE, or 0x02 (hex), or 2. The delta coordinates are page based.
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,7 +39,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
