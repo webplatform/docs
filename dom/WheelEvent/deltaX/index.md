@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,7 +20,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=The measurement of the distance can be determined using the [[dom/properties/deltaMode|deltaMode]] property.
+|Notes=The measurement of the distance can be determined using the [[dom/WheelEvent/deltaMode|deltaMode]] property.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -36,12 +37,8 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/properties/deltaY|deltaY]]</code>
-*<code>[[dom/properties/deltaZ|deltaZ]]</code>
-}}
-{{Topics|DOM, DOMEvents}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
