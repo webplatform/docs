@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Non-Standard}}
@@ -11,7 +12,7 @@
 |Parameters={{Method Parameter
 |Name=handle
 |Data type=any
-|Description=A handle to an immediate callback request, which is the value returned by [[apis/timing/methods/setImmediate|'''setImmediate''']].
+|Description=A handle to an immediate callback request, which is the value returned by [[dom/Window/setImmediate|'''setImmediate''']].
 |Optional=No
 }}
 |Method_applies_to=dom/Window
@@ -24,11 +25,6 @@ This method can return one of these values.
 
 S_OK
 
-Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
 }}
 {{Examples_Section
 |Not_required=No
@@ -50,11 +46,7 @@ S_OK
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>[[apis/timing/methods/setImmediate|setImmediate]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
