@@ -39,13 +39,7 @@ This property is an alias for the [[dom/Location|'''location''']].[[dom/Location
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Document|Document]]</code>
-*<code>Reference</code>
-*<code>[[html/attributes/urn|urn]]</code>
-*<code>[[dom/properties/URLUnencoded|URLUnencoded]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
