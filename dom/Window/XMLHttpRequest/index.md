@@ -75,12 +75,8 @@
 |Note=Using the XMLHttp ActiveX object, you could emulate the XMLHttpRequest.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=XHR
-|Manual_sections====Related pages (MSDN)===
-*<code>create</code>
-}}
-{{Topics|DOM, XHR}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
