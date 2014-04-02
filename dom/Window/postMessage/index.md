@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -26,15 +27,12 @@
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Description=If Document A contains a reference
-to the [[dom/properties/contentWindow|'''contentWindow''']] property
+to the [[dom/HTMLIFrameElement/contentWindow|'''contentWindow''']] property
 of Document B, script in Document A can send a message to Document B
 by calling the '''postMessage''' method
 as follows:
@@ -43,7 +41,7 @@ o.contentWindow.postMessage('Hello World');
 }}{{Single Example
 |Description=The script in Document B can respond to the message
 by registering the
-[[dom/events/message|'''onmessage''']] event handler
+[[dom/Element/message|'''onmessage''']] event handler
 for incoming messages.
 |Code=window.attachEvent('onmessage',function(e) {
     if (e.domain {{=}}{{=}} 'example.com') {
@@ -61,18 +59,16 @@ for incoming messages.
 '''Security Warning:  '''While "*" is a valid value for ''targetOrigin'', set the parameter to the value you expected to receive; otherwise, the security of your message might be compromised.  For more information about this security message, see Section 3.1.2 of the [http://go.microsoft.com/fwlink/?LinkId{{=}}199803 HTML5 Web Messaging] Specification (Editor's Draft) from the World Wide Web Consortium (W3C).
 The '''postMessage''' method
 allows cooperative text exchange between untrusted modules
-
 from different domains embedded within a page. It does so
 by ensuring a consistent and secure process
 for text-based data exchange.
 When a script invokes this method on a
 '''window''' object,
 the browser sends an
-[[dom/events/message|'''onmessage''']]
+[[dom/Element/message|'''onmessage''']]
 event to the target document
-
 on which the
-[[dom/properties/data|'''data''']] property
+'''data''' property
 has been set to the value passed in
 ''msg''.
 When a target URI is passed into the method, it must have
@@ -91,6 +87,7 @@ have finished executing.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=4.0
@@ -150,11 +147,7 @@ have finished executing.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>[[dom/events/message|onmessage]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
