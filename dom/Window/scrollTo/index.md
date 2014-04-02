@@ -1,12 +1,24 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter|Name=x|Data type=Integer|Description='''Integer''' that specifies the horizontal scroll offset, in pixels.|Optional=}}
-{{Method Parameter|Name=y|Data type=Integer|Description='''Integer''' that specifies the vertical scroll offset, in pixels.|Optional=}}
+|Parameters={{Method Parameter
+|Name=x
+|Data type=any
+|Description='''Integer''' that specifies the horizontal scroll offset, in pixels.
+|Optional=No
+}}{{Method Parameter
+|Name=y
+|Data type=any
+|Description='''Integer''' that specifies the vertical scroll offset, in pixels.
+|Optional=No
+}}
 |Method_applies_to=dom/Window
 |Example_object_name=object
 |Return_value_name=object
@@ -15,33 +27,31 @@
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 
-Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The specified offsets are relative to the upper-left corner of the window.
-|Import_Notes=
-===Syntax===
-===Standards information===
-There are no standards that apply here.
-
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>window</code>
-*<code>[[dom/methods/scrollBy|scrollBy]]</code>
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
