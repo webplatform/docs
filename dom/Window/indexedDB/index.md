@@ -42,9 +42,9 @@ if ( getIndexHandle == null ) {
 }}
 {{Notes_Section
 |Notes====Remarks===
-For security reasons, Internet Explorer support for the [[apis/indexedDB/IDBFactory|'''indexedDB''']] property is limited to webpages loaded using the "http://" or "https://" protocols.
+For security reasons, Internet Explorer support for the [[apis/indexeddb/IDBFactory|'''indexedDB''']] property is limited to webpages loaded using the "http://" or "https://" protocols.
 
-'''Note'''  In pre-release versions of Internet Explorer 10, the [[apis/indexedDB/IDBFactory|'''indexedDB''']] was accessed using a vendor prefix ('''msIndexedDB''').  Such use is considered obsolete; applications using the vendor prefix should be updated to ensure standards-compliance and future compatibility.
+'''Note:'''  In pre-release versions of Internet Explorer 10, the '''indexedDB''' was accessed using a vendor prefix ('''msIndexedDB''').  Such use is considered obsolete; applications using the vendor prefix should be updated to ensure standards-compliance and future compatibility.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -110,17 +110,8 @@ For security reasons, Internet Explorer support for the [[apis/indexedDB/IDBFact
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/workers/objects/Window|Window]]</code>
-*<code>[[apis/workers/objects/Worker|Worker]]</code>
-*<code>[[apis/workers/objects/WorkerGlobalScope|WorkerGlobalScope]]</code>
-*<code>[[apis/indexedDB/events/onsuccess|onsuccess]]</code>
-*<code>[[apis/indexedDB/events/onerror|onerror]]</code>
-*<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
-*<code>[[apis/indexedDB/events/onupgradeneeded|onupgradeneeded]]</code>
-}}
-{{Topics|API, IndexedDB}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
