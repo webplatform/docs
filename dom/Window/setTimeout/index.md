@@ -83,7 +83,7 @@ In versions earlier than Microsoft Internet Explorer 5, the first argument of '
 As of Internet Explorer 5, the first argument of '''setTimeout''' can be a string or a function pointer.
 
 === Reliability & timeout clamping ===
-This API does not guarantee that timers will run exactly on schedule. Delays due to CPU load, other tasks, etc, are to be expected. Additionally a setTimeout or [[dom/methods/setInterval|setInterval]] call has a minimum interval of of 4 ms, as specified by the HTML4 spec.
+This API does not guarantee that timers will run exactly on schedule. Delays due to CPU load, other tasks, etc, are to be expected. Additionally a setTimeout or [[dom/Window/setInterval|setInterval]] call has a minimum interval of of 4 ms, as specified by the HTML4 spec.
 
 Generally all browsers implement this timeout "clamp" to 4 ms, although some browsers also clamp to a higher value when the window is not focused. For instance, the minimum timeout for a setInterval call can be up to a second in Chrome when the tab is inactive.
 }}
