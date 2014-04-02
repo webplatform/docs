@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Not recommended, synchronized, annoys users and causes user interface issues. Displays a dialog box showing the given text and a localized OK button.}}
+{{Summary_Section|Displays a synchronized dialog box showing the given text and a localized OK button.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=message
