@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -29,7 +30,7 @@
 |Javascript_data_type=DOM Node
 |Return_value_description='''Integer'''
 
-Integer. Returns an identifier that cancels the evaluation with the [[dom/methods/clearTimeout|'''clearTimeout''']] method.
+Integer. Returns an identifier that cancels the evaluation with the [[dom/Window/clearTimeout|'''clearTimeout''']] method.
 }}
 {{Examples_Section
 |Not_required=No
@@ -74,10 +75,10 @@ function fnHide2(sID){
 }}
 {{Notes_Section
 |Notes====Remarks===
-The specified expression or function is evaluated once. For repeated evaluation, use the [[dom/methods/setInterval|'''setInterval''']] method.
+The specified expression or function is evaluated once. For repeated evaluation, use the [[dom/Window/setInterval|'''setInterval''']] method.
 When you use the '''setTimeout''' method with Introduction to DHTML Behaviors, the value of ''expression'' should be a function pointer to call a function within the HTML Component (HTC) file or a string to call a function in the primary document.
 
-'''Note'''  In Windows Internet Explorer, you cannot pass arguments to the callback function directly; however, you can simulate passing arguments by creating an anonymous closure function that references variables within scope of the call to [[dom/methods/setInterval|'''setInterval''']] or '''setTimeout'''. For more information, see [[dom/methods/setInterval|'''setInterval''']].
+'''Note'''  In Windows Internet Explorer, you cannot pass arguments to the callback function directly; however, you can simulate passing arguments by creating an anonymous closure function that references variables within scope of the call to [[dom/Window/setInterval|'''setInterval''']] or '''setTimeout'''.
 In versions earlier than Microsoft Internet Explorer 5, the first argument of '''setTimeout''' must be a string. Evaluation of the string is deferred until the specified interval elapses.
 As of Internet Explorer 5, the first argument of '''setTimeout''' can be a string or a function pointer.
 
@@ -85,28 +86,18 @@ As of Internet Explorer 5, the first argument of '''setTimeout''' can be a stri
 This API does not guarantee that timers will run exactly on schedule. Delays due to CPU load, other tasks, etc, are to be expected. Additionally a setTimeout or [[dom/methods/setInterval|setInterval]] call has a minimum interval of of 4 ms, as specified by the HTML4 spec.
 
 Generally all browsers implement this timeout "clamp" to 4 ms, although some browsers also clamp to a higher value when the window is not focused. For instance, the minimum timeout for a setInterval call can be up to a second in Chrome when the tab is inactive.
-
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>[[dom/methods/clearTimeout|clearTimeout]]</code>
-*<code>[[apis/timing/methods/requestAnimationFrame|requestAnimationFrame]]</code>
-*<code>[[apis/timing/methods/setImmediate|setImmediate]]</code>
-*<code>[[dom/methods/setInterval|setInterval]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
