@@ -73,7 +73,7 @@ function doClock(obj) {
 }}
 {{Notes_Section
 |Notes====Remarks===
-The '''setInterval''' method continuously evaluates the specified expression until the timer is removed with the [[dom/methods/clearInterval|'''clearInterval''']] method.
+The '''setInterval''' method continuously evaluates the specified expression until the timer is removed with the [[dom/Window/clearInterval|'''clearInterval''']] method.
 To pass a function as a string, be sure to append the function name with parentheses.
  <code>window.setInterval("someFunction()", 5000);</code>
 When passing a function pointer, do not include the parentheses.
