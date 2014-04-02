@@ -12,7 +12,7 @@
 |Parameters={{Method Parameter
 |Name=handle
 |Data type=any
-|Description=A handle of the animation request to cancel. The handle is the value returned by [[apis/timing/methods/requestAnimationFrame|'''requestAnimationFrame''']].
+|Description=A handle of the animation request to cancel. The handle is the value returned by [[dom/Window/requestAnimationFrame|'''requestAnimationFrame''']].
 |Optional=No
 }}
 |Method_applies_to=dom/Window
@@ -21,7 +21,6 @@
 |Javascript_data_type=DOM Node
 |Return_value_description=This method does not return a value.
 
-This method does not return a value.
 }}
 {{Examples_Section
 |Not_required=No
@@ -42,13 +41,7 @@ This method does not return a value.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Animation
-|Manual_sections====Related pages (MSDN)===
-*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}258428 requestAnimationFrame API demo]</code>
-*<code>[[apis/timing/methods/requestAnimationFrame|requestAnimationFrame]]</code>
-*<code>[[apis/timing/properties/animationStartTime|animationStartTime]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
