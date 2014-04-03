@@ -3,7 +3,6 @@
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections
 |Content=Incomplete
 |Checked_Out=Yes
-|Editorial notes=input initial content
 }}
 {{API_Name}}
 {{Summary_Section|This is an HTML hack to make pages more friendly to those without JS enabled or without JS support.}}
@@ -19,7 +18,8 @@ This would alleviate the need for JavaScript to be required for many services to
 |Examples={{Single Example
 |Language=HTML
 |Description=Usage example of this hack (JS version).
-|Code=<!DOCTYPE html>
+|Code=<!-- www.example.com/index.html -->
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
@@ -30,20 +30,20 @@ This would alleviate the need for JavaScript to be required for many services to
 </head>
 <body></body>
 </html>
-|LiveURL=www.example.com/index.html
 }}{{Single Example
 |Language=JavaScript
 |Description=Little helper dynamic script
-|Code=$(function () {
+|Code=// www.example.com/js/dynamic.js
+$(function () {
   var div = document.createElement('div');
   div.innerHTML = 'someContent';
   $(body).append(div);
 })();
-|LiveURL=www.example.com/js/dynamic.js
 }}{{Single Example
 |Language=HTML
 |Description=Non-JS version
-|Code=<!DOCTYPE html>
+|Code=<!-- www.example.com/no-js-version.html -->
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
