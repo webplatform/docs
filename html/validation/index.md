@@ -1,7 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
+|High-level issues=Merge Candidate
 |Checked_Out=No
+|Editorial notes={{Editorial/Merge_Candidate
+|Other=guides/html_validation
+}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
