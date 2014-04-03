@@ -53,7 +53,6 @@ $(function () {
 <div>some content</div>
 </body>
 </html>
-|LiveURL=www.example.com/no-js-version.html
 }}
 }}
 {{Notes_Section}}
