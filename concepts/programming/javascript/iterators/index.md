@@ -25,14 +25,16 @@ Once initialized, the <code>next()</code> method can be called to access key-val
 A <code>for...in</code> loop can be used instead of calling the <code>next()</code> method directly. The loop will automatically terminate when the <code>StopIteration</code> exception is raised.
 
  var it = Iterator(lang);
- for (var pair in it)
+ for (var pair in it) {
    print(pair); // prints each [key, value] pair in turn
+ }
 
 If we just want to iterate over the object's keys, we can pass a second argument of <code>true</code> to the <code>Iterator()</code> function:
 
  var it = Iterator(lang, true);
- for (var key in it)
+ for (var key in it) {
    print(key); // prints each key in turn
+ }
 
 One advantage of using <code>Iterator()</code> to access the contents of an object is that custom properties that have been added to <code>Object.prototype</code> will not be included in the sequence.
 
@@ -40,22 +42,25 @@ One advantage of using <code>Iterator()</code> to access the contents of an obje
 
  var langs = ['JavaScript', 'Python', 'C++'];
  var it = Iterator(langs);
- for (var pair in it)
+ for (var pair in it) {
    print(pair); // prints each [index, language] pair in turn
+ }
 
 As with objects, passing <code>true</code> as the second argument will result in iteration occurring over the array indices:
 
  var langs = ['JavaScript', 'Python', 'C++'];
  var it = Iterator(langs, true);
- for (var i in it)
+ for (var i in it) {
    print(i); // prints 0, then 1, then 2
+ }
 
 It is also possible to assign block scoped variables to both index and value within the for loop using the <code>let</code> keyword and a destructuring assignment:
 
  var langs = ['JavaScript', 'Python', 'C++'];
  var it = Iterator(langs);
- for (let [i, lang] in it)
+ for (let [i, lang] in it) {
   print(i + ': ' + lang); // prints "0: JavaScript" etc.
+ }
 
 ==Defining custom iterators==
 
@@ -84,8 +89,9 @@ Now we'll create a custom iterator that can return a sequence of inclusive integ
  RangeIterator.prototype.next = function(){
    if (this.current > this.range.high)
      throw StopIteration;
-   else
+   else {
      return this.current++;
+   }
  };
 
 Our <code>RangeIterator</code> is instantiated with a range instance, and maintains its own <code>current</code> property to track how far along in the sequence it has got.
@@ -99,8 +105,9 @@ Finally, to associate our <code>RangeIterator</code> with the <code>Range</code>
 Having hooked in our custom iterator, we can iterate over a range instance with the following:
 
  var range = new Range(3, 5);
- for (var i in range)
+ for (var i in range) {
    print(i); // prints 3, then 4, then 5 in sequence
+ }
 
 ==Generators: a better way to build Iterators==
 
