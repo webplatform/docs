@@ -7,7 +7,7 @@
 {{Byline
 |Published=Aug. 5, 2011
 }}
-{{Summary_Section|This document gives an overview of the "internal browser operations and justifications behind development best practices." }}
+{{Summary_Section|This document gives an overview of the "internal browser operations and justifications behind development best practices."}}
 {{Tutorial
 |Content=By Tali Garsiel & Paul Irish
 
@@ -953,7 +953,7 @@ The rendering engine is single threaded. Almost everything, except network opera
 
 ====Event loop====
 
-The browser main thread is an event loop. Its an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them. This is Firefox code for the main event loop:
+The browser main thread is an event loop. It's an infinite loop that keeps the process alive. It waits for events (like layout and paint events) and processes them. This is Firefox code for the main event loop:
  
  while (!mExiting)
      NS_ProcessNextEvent(thread);
