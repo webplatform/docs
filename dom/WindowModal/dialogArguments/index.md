@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets the arguments that are specified when [[dom/methods/showModalDialog|showModalDialog]] or [[dom/methods/showModelessDialog|showModelessDialog]] are called.}}
+{{Summary_Section|Gets the arguments that are specified when [[dom/HTMLElement/showModalDialog|showModalDialog]] or [[dom/HTMLElement/showModelessDialog|showModelessDialog]] are called.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
@@ -79,7 +80,7 @@ document.write(sLastName);
 }}
 }}
 {{Notes_Section
-|Notes=This property applies only to windows that are created with the [[dom/methods/showModalDialog|'''showModalDialog''']] method and the [[dom/methods/showModelessDialog|'''showModelessDialog''']] method.
+|Notes=This property applies only to windows that are created with the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method and the [[dom/HTMLElement/showModelessDialog|'''showModelessDialog''']] method.
 }}
 {{Related_Specifications_Section
 |Specifications=
