@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the element node that is a sibling to this element node (a direct child of the same parent) and is immediately after it in the DOM tree, ignoring text nodes, comment nodes and any other non-element nodes. If there is no next element sibling, the property value is null. Read-only.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
