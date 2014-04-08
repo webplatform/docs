@@ -15,7 +15,17 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Import_Notes====Requirements===
+{{{!}} class="wikitable"
+{{!}}-
+!Header
+{{!}}<dl>
+<dt/>
+</dl>
+{{!}}}
+
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -31,7 +41,5 @@
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
