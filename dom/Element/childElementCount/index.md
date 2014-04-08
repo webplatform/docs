@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the number of direct children of this node that are elements.  Read-only.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
