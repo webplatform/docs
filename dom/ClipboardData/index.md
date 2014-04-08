@@ -12,7 +12,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/setData|'''setData''']] and [[dom/methods/getData|'''getData''']] methods with the '''clipboardData''' object to perform a cut-and-paste operation through the shortcut menu.
+|Description=This example uses the [[dom/DataTransfer/setData|'''setData''']] and [[dom/DataTransfer/getData|'''getData''']] methods with the '''clipboardData''' object to perform a cut-and-paste operation through the shortcut menu.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -86,28 +86,6 @@ function fnPaste(event) {
 }}
 {{Notes_Section
 |Notes=The '''clipboardData''' object is reserved for copy/cut/paste operations. It transfers information using the system clipboard, and retains it until data from the next editing operation replaces it. This form of data transfer is particularly suited to multiple pastes of the same data.
-|Import_Notes====Additional Members (MSDN)===
-The '''clipboardData''' object has these types of members:
-[[#Additional_Methods|Additional Methods]]
-
-
-====Additional Methods====
-The '''clipboardData''' object has these methods.
-{{{!}} class="wikitable"
-{{!}}-
-!Method
-!Description
-{{!}}-
-{{!}}[[dom/methods/clearData|'''clearData''']]
-{{!}}Removes one or more data formats from the clipboard through the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the '''clipboardData''' object.
-{{!}}-
-{{!}}[[dom/methods/getData|'''getData''']]
-{{!}}Gets the data in the specified format from the clipboard through the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the '''clipboardData''' object.
-{{!}}-
-{{!}}[[dom/methods/setData|'''setData''']]
-{{!}}Assigns data in a specified format to the [[dom/objects/dataTransfer|'''dataTransfer''']] object or the '''clipboardData''' object.
-{{!}}}
- 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
