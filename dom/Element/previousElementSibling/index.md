@@ -14,7 +14,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example shows how to get the content of a list using firstElementSibling, nextElementSibling, previousElementSibling, and lastElementSibling.
+|Description=This example shows how to get the content of a list using firstElementChild, nextElementSibling, previousElementSibling, and lastElementChild to traverse the document tree.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
