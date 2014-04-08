@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the parent node of this DOM node, ''if'' the parent is an element node; null if the parent is not an element or if there is no parent.  Read-only.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
