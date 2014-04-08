@@ -49,7 +49,7 @@ function someMessage(e) {
 *Although a user can manually adjust the height of a dialog box to a smaller value—provided the dialog box is resizable—the minimum '''dialogHeight''' you can set using script is 100 pixels.
 *The default unit of measure is <code>px</code>.
 *The value can be an integer or floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>), or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>).
-*For consistent results, specify this property and [[dom/HTMLElement/dialogWidth|'''dialogWidth''']] in pixels when you design modal dialog boxes.
+*For consistent results, specify this property and [[dom/WindowModal/dialogWidth|'''dialogWidth''']] in pixels when you design modal dialog boxes.
 }}
 {{Related_Specifications_Section
 |Specifications=
