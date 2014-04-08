@@ -2,6 +2,7 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -43,8 +44,8 @@ function someMessage(e) {
 }}
 }}
 {{Notes_Section
-|Notes=*This property applies only to windows that are created by using the [[dom/methods/showModalDialog|'''showModalDialog''']] method and the [[dom/methods/showModelessDialog|'''showModelessDialog''']] method.
-*When a script calls the [[dom/methods/showModalDialog|'''showModalDialog''']] method, it suspends execution until the modal dialog box is closed.  As a result, the script cannot use the '''dialogWidth''' property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the '''sURL''' parameter or use the value of the '''sFeatures''' parameter to specify the desired settings.
+|Notes=*This property applies only to windows that are created by using the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method and the [[dom/HTMLElement/showModelessDialog|'''showModelessDialog''']] method.
+*When a script calls the '''showModalDialog''' method, it suspends execution until the modal dialog box is closed.  As a result, the script cannot use the '''dialogWidth''' property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the '''sURL''' parameter or use the value of the '''sFeatures''' parameter to specify the desired settings.
 *The default unit of measure is <code>px</code>
 *The value can be an integer or floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>), or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For consistent results, specify the <code>dialogHeight</code> and <code>dialogWidth</code> in pixels when you design modal dialog boxes.
 }}
