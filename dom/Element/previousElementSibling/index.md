@@ -2,14 +2,14 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The value of this read-only property of a DOM element is the element node that is a sibling to this element (direct child of the same parent) and is immediately previous to it in the tree hierarchy.   Text nodes, comment nodes and any other non-element nodes are ignored.  If there is no previous element sibling, the property value is null.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
