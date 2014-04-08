@@ -7,9 +7,7 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|An image element within a web document, normally defined by an <img> tag.}}
-{{API_Object
-|Subclass_of=dom/DOMCollection
-}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -22,32 +20,17 @@ document.body.appendChild( img );
 }}
 {{Notes_Section
 |Notes=Use this object to instantiate new '''img''' elements before adding them to the document. You can specify up to two optional arguments:
-{| class="wikitable"
-|-
-|nWidth
-|Optional. '''Integer''' that specifies the '''img''' width.
-|-
-|nHeight
-|Optional. '''Integer''' that specifies the '''img''' height.
-|}
- 
-String values are coerced into their numeric equivalents, if possible.
-|Import_Notes====Additional Members (MSDN)===
-The '''Image''' object has these types of members:
-[[#Additional_Methods|Additional Methods]]
-
-
-====Additional Methods====
-The '''Image''' object has these methods.
 {{{!}} class="wikitable"
 {{!}}-
-!Method
-!Description
+{{!}}nWidth
+{{!}}Optional. '''Integer''' that specifies the '''img''' width.
 {{!}}-
-{{!}}[[dom/methods/create (image)|'''create''']]
-{{!}}Creates a new '''img''' element of the specified width and height. This method cannot be called directly. See '''Image''' object.
+{{!}}nHeight
+{{!}}Optional. '''Integer''' that specifies the '''img''' height.
 {{!}}}
  
+String values are coerced into their numeric equivalents, if possible.
+
 }}
 {{Related_Specifications_Section
 |Specifications=
