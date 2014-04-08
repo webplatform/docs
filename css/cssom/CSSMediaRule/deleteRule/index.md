@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=index
@@ -32,6 +33,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
