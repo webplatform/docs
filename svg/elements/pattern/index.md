@@ -1,24 +1,25 @@
+{{Page_Title|pattern}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
+|Editorial notes={{Editorial/Move_Candidate
+| url has a typo (patterrn instead of pattern)}} 
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, a pattern fills a circle. The pattern is made up of a repeated series of wedge-shaped paths.
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the pattern-filled circle.
 
 The pattern-filled circle will look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -41,11 +42,10 @@ The pattern-filled circle will look like this:
   </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -54,9 +54,7 @@ You can use a pattern  to fill or stroke an object by using a predefined graphic
 The  [[svg/properties/x|'''x''']], [[svg/properties/y|'''y''']], [[svg/properties/width|'''width''']], [[svg/properties/height|'''height''']], and [[svg/properties/patternUnits|'''patternUnits''']]  attributes define a reference rectangle somewhere on the infinite SVG canvas. The reference rectangle has its upper-left corner  at ('''x''', '''y''') and its lower-right corner  at ('''x''' + '''width''', '''y''' + '''height'''). The tiling theoretically extends a series of such rectangles to infinity along the x-axis (positive) and y-axis (negative), with rectangles starting at ('''x''' + ''m'' &middot; '''width''', y + ''n'' &middot; '''height''') for each possible ''m'' and ''n'' integer value.
 
 For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203737 Scalable Vector Graphics (SVG) 1.0 Specification].
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
 
@@ -97,12 +95,23 @@ coordinate system onto the target coordinate system.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
