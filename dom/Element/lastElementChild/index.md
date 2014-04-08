@@ -6,15 +6,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the last child of this node that is an element, if there are any element children, or null otherwise. Read-only.}}
 {{API_Object_Property
 |Property_applies_to=dom/Element
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example shows how to get the content of a list by using firstElementSibling, nextElementSibling, previousElementSibling, and lastElementSibling.
+|Description=This example shows how to get the content of a list using firstElementChild, nextElementSibling, previousElementSibling, and lastElementChild to traverse the document tree.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
