@@ -3,7 +3,7 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Listing
+{{API_Object
 |Use_page_title=No
 |List_all_subpages=Yes
 }}
