@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''plaintext''' element (&lt;plaintext&gt;) is a deprecated tag that was used to indicate that the contents should be interpretted as raw text, without parsing any HTML entities or child tags.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -19,6 +20,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
