@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Just like [[dom/Document/getElementsByClassName|document.getElementsByClassName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
+{{Summary_Section|Just like [[dom/HTMLElement/getElementsByClassName|HTMLElement.getElementsByClassName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=classNames
