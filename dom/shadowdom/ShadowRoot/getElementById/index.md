@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Just like [[dom/apis/document/getElementById|document.getElementById]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
+{{Summary_Section|Just like [[dom/Document/getElementById|document.getElementById]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/shadowdom/ShadowRoot
@@ -28,7 +28,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, DOM, Shadow DOM}}
+{{Topics|DOM, Shadow DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
