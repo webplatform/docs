@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents a section of text content (character data) within the document.  It is not an element and cannot contain any child elements.}}
 {{API_Object
 |Subclass_of=dom/CharacterData, dom/Node, dom/EventTarget
 }}
