@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>thead</code> tag is used to group header content in an HTML table_ Generally with have th tags with attribute of scope="col"
+{{Summary_Section|The '''thead''' element  (&lt;thead&gt;) identifies header rows at the top of a table, usually containing column labels.  It may contain one or more rows of &lt;th&gt; or &lt;td&gt; cells.  If it only contains a single row the child &lt;tr&gt; tag may be omitted.|The <code>thead</code> tag is used to group header content in an HTML table_ Generally with have th tags with attribute of scope="col"
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableSectionElement
