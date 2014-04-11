@@ -2,10 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a two-dimensional transformation in matrix format.  For the function '''matrix(a,b,c,d,e,f)''', the new position of a point '(x,y)' will be such that 'newX = a*x + c*y + e' and 'newY = b*x + d*y + f'.  The matrix parameters are specified as numbers (no units); the 'e' and 'f' constant factors are interpretted as pixel lengths.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
@@ -50,6 +51,7 @@ A 2-D 3×2 matrix with six parameters ''a'', ''b'', ''c'', ''d'', ''e'', and ''f
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
