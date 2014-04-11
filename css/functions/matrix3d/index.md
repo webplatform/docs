@@ -3,7 +3,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a three-dimensional transformation in matrix format.  The function requires exactly ''16'' comma-separated numbers as parameters; these represent the matrix values in "column-major" (top to bottom, then left to right) order.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
