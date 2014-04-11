@@ -1,9 +1,10 @@
 {{Page_Title|POUR – Perceivable, Operable, Understandable, Robust}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|'''POUR''' is a way of approaching web accessibility by breaking it down into four main aspects: information should be '''Perceivable''', interfaces should be '''Operable''', content should be '''Understandable''', and the meaning of the content should be '''Robust''' to changes in the way it is accessed.}}
 {{Concept_Page
 |Content=== Perceivable ==
 
