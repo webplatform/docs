@@ -1,10 +1,11 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|Code minification}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|'''Minification''' is the process of transforming a file in a way such that while the functionality of the input file are kept unchanged, the resulting file is much smaller. In the context of JavaScript and web applications, minification is especially useful because it can help reduce page load times. In larger projects, minification is generally integrated into a build process.}}
 {{Concept_Page
-|Content='''Minification''' is the process of transforming a file in a way such that while the functionality of the input file are kept unchanged, the resulting file is much smaller. In the context of JavaScript and web applications, minification is especially useful because it can help reduce page load times. In larger projects, minification is generally integrated into a build process.
-
+|Content=
 ==Process==
 Minification is usually accomplished by parsing code, then outputting it again in a compressed format. This code is generally unreadable with the naked eye. This process usually removes all white spaces, comments, and new line characters. Many other optimizations can also be performed, such as removing block delimiters, inlining functions, using implicit conditionals, and rewriting local variables.
 
