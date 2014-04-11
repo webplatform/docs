@@ -1,7 +1,9 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|History of Javascript}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Javascript was initially developed for Netscape Navigator and copied (with variations) by other web browsers.  The standardized form of Javascript, officially known as ECMAScript, is now overseen by Ecma International.}}
 {{Concept_Page}}
 {{Examples_Section
 |Not_required=No
