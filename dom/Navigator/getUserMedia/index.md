@@ -25,7 +25,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 
  function(localMediaStream) {
     var video = document.querySelector('video');
-    video.src = window.URL.createObjectURL(localMediaStream);
+    video.srcObject = localMediaStream;
     video.onloadedmetadata = function(e) {
        // Do something with the video here.
     };
