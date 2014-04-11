@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a three-dimensional rotation transformation by first defining the axis of rotation as an ''(x,y,z)'' vector and then defining the angle to rotate the element around this axis.  Requires four parameters: the first three are unitless numbers defining the axis vector, and the fourth is an angle measurement (specifying degrees or radians).}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
