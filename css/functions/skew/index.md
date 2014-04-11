@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes.  Not recommended and supported only for backwards compatibility; use a combination of ''skewX(angle)'', ''skewY(angle)'' and/or ''rotate(angle)'' instead.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
