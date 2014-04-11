@@ -3,11 +3,13 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Also known as '''Programming Styles''' and '''Coding Conventions''' style guides are sets of rules used by developers to ensure consistent formatting and organization of their code. }}
+{{Summary_Section|Also known as '''Programming Styles''' and '''Coding Conventions''', style guides are sets of rules used by developers to ensure consistent formatting and organization of their code.}}
 {{Concept_Page
-|Content=''A style guide or style manual is a set of standards for the writing and design of code. The implementation of a style guide provides uniformity in code style and formatting, often covering guidelines regarding indentation (tabs vs. spaces), variable and function naming conventions, where best to apply whitespace and so on.''<ref name="summary">[http://addyosmani.com/blog/javascript-style-guides-and-beautifiers/ JavaScript Style Guides And Beautifiers], by Addy Osmani.</ref>
+|Content=== Purpose ==
 
-Also known as '''Programming Styles''' and '''Coding Conventions''' style guides are sets of rules used by developers to ensure consistent formatting and organization of their code. Some Style Guides may also include a '''Naming Convention''' which is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types and functions etc. in source code and documentation.<ref name="naming-convention">[http://en.wikipedia.org/wiki/Naming_convention_(programming) Naming Convention], on Wikipedia.</ref>
+''A style guide or style manual is a set of standards for the writing and design of code. The implementation of a style guide provides uniformity in code style and formatting, often covering guidelines regarding indentation (tabs vs. spaces), variable and function naming conventions, where best to apply whitespace and so on.''<ref name="summary">[http://addyosmani.com/blog/javascript-style-guides-and-beautifiers/ JavaScript Style Guides And Beautifiers], by Addy Osmani.</ref>
+
+Style guides ensure consistent formatting and organization of their code. Some Style Guides may also include a '''Naming Convention''' which is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types and functions etc. in source code and documentation.<ref name="naming-convention">[http://en.wikipedia.org/wiki/Naming_convention_(programming) Naming Convention], on Wikipedia.</ref>
 
 == Naming Conventions<ref name="naming-convention"/> ==
 
