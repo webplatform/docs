@@ -1,7 +1,9 @@
 {{Page_Title|Style Guides}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Also known as '''Programming Styles''' and '''Coding Conventions''' style guides are sets of rules used by developers to ensure consistent formatting and organization of their code. }}
 {{Concept_Page
 |Content=''A style guide or style manual is a set of standards for the writing and design of code. The implementation of a style guide provides uniformity in code style and formatting, often covering guidelines regarding indentation (tabs vs. spaces), variable and function naming conventions, where best to apply whitespace and so on.''<ref name="summary">[http://addyosmani.com/blog/javascript-style-guides-and-beautifiers/ JavaScript Style Guides And Beautifiers], by Addy Osmani.</ref>
 
