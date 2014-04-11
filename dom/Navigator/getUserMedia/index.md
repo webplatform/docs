@@ -48,11 +48,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Here's an example of using getUserMedia() with browser prefixes.
-|Code=navigator.getMedia = ( navigator.getUserMedia
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
