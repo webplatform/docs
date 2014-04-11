@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the ''x'', ''y'', and ''z'' directions.  All three parameters must be specified.}}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
