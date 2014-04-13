@@ -1,7 +1,7 @@
 {{Page_Title|Resolution units}}
 {{Flags
 |Content=Incomplete
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{API_Name}}
 {{Summary_Section|Specify the display or print dot density}}
