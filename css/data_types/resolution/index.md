@@ -1,25 +1,25 @@
-{{Page_Title|Resolution units}}
+{{Page_Title|Resolution}}
 {{Flags
-|Content=Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Specify the display or print dot density}}
-{{Concept_Page
-|Content=The '''<resolution>''' CSS data types, used in media queries, denotes the density of pixels of an output device, its resolution. It is a '''<number>''' immediately followed by a unit of resolution ('''dpi''', '''dpcm''', ...). Like for any CSS dimension, there is no space between the unit literal and the number.
+{{Summary_Section|The <code>&lt;resolution></code> CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a '''<number>''' immediately followed by a unit of resolution ('''dpi''', '''dpcm''', ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.}}
+{{Data_Type_Page
+|Content=
+The resolution value specifies the display or print dot density per unit of distance.  A "dot" is the finest level of detail that the device can display, such as a physical screen pixel or a dot of printed ink.
 
-On screens, the length related to CSS inches, centimeters or pixels, not on physical values.
+On screens, the resolution is calculated relative to CSS inches, centimeters or pixels, not to physical values.  For media queries, if the resolution is different in the horizontal and vertical directions ''both'' values must match the media query. 
 
-Even if all units represent the same resolution for the value '''0''', the unit may not be omitted in that case as it isn't a '''<length>''': '''0''' is invalid and does not represent '''0dpi''', '''0dpcm''', nor '''0dppx'''.
+Unlike the CSS [[css/data_types/length| '''<length>''' data type]], the unit may not be omitted for the value '''0''': specifying a resolution of '''0''' is invalid and does not represent '''0dpi''', '''0dpcm''', nor '''0dppx'''.
 
 ==Units==
 
-'''dpi'''
-    This unit represents the number of dots per inch. A screen typically contains 72 or 96 dpi; a printed document usually reach much greater dpi. As 1 inch is 2.54 cm, '''1dpi ≈ 2.54dpcm'''.
-'''dpcm'''
-    This unit represents the number of dots per centimeter. As 1 inch is 2.54 cm, '''1dpcm ≈ 0.39dpi'''.
-'''dppx'''
-    This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS '''in''' to CSS '''px''', '''1dppx''' is equivalent to '''96dpi''', that corresponds to the default resolution of images displayed in CSS as defined by {{cssxref("image-resolution")}}.
+;'''dpi'''
+:This unit represents the number of dots per inch. A screen typically contains 72 or 96 dpi; a printed document usually reach much greater dpi. As 1 inch is 2.54 cm, '''1dpi ≈ 2.54dpcm'''.
+;'''dpcm'''
+:This unit represents the number of dots per centimeter. As 1 inch is 2.54 cm, '''1dpcm ≈ 0.39dpi'''.
+;'''dppx'''
+:This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS '''in''' to CSS '''px''', '''1dppx''' is equivalent to '''96dpi''', that corresponds to the default resolution of images displayed in CSS as defined by {{cssxref("image-resolution")}}.
 }}
 {{Examples_Section
 |Not_required=No
