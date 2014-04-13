@@ -1,9 +1,9 @@
-{{Page_Title|Angle}}
+{{Page_Title|&lt;angle&gt;}}
 {{Flags
 |Checked_Out=No
 }}
-{{API_Name}}
-{{Summary_Section|Angles describe an amount of rotation; they are expressed with a number followed by one of the recognized angle unit abbreviations.}}
+{{Standardization_Status|W3C Candidate Recommendation}}
+{{Summary_Section|The <code>&lt;angle></code> CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.}}
 {{Data_Type_Page
 |Content=Four angle units are available:
 
@@ -14,6 +14,8 @@
 
 Measurements may be positive or negative, and may extend past the
 limit required to specify a full circle.
+
+If using Javascript to set or manipulate styles requiring angle measurements, it is worth mentioning that the trigonometric [[concepts/programming/javascript/core_objects#Math_Object|Math functions]] use radians for angles.
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,6 +40,13 @@ a:hover {
 |Status=Candidate Recommendation
 }}
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
@@ -46,6 +55,15 @@ a:hover {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{API_Name}}
+
+
+
+
+
+
+
+
 }
 
 
