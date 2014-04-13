@@ -1,15 +1,15 @@
-{{Page_Title|Time units}}
+{{Page_Title|Time}}
 {{Flags}}
 
 {{API_Name}}
-{{Summary_Section|Specify a duration}}
-{{Concept_Page
+{{Summary_Section|The <code>&lt;time></code> CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: '''s''' or '''ms'''. }}
+{{Data_Type_Page
 |Content=
 
-Specify either seconds ('''s''') or milliseconds ('''ms'''), which are
-a thousandth of a second. Must be a numeric value greater than or
-equal to zero.  Time values can be used to measure the duration of
-animation effects.
+In CSS3, time units must be either seconds ('''s''') or milliseconds ('''ms'''); milliseconds are
+one-thousandth of a second. Time values can be used to measure the duration of
+animation effects, in which case the numeric value must be greater than or
+equal to zero.
 
 }}
 {{Examples_Section
