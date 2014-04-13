@@ -1,4 +1,4 @@
-{{Page_Title|&lt;<frequency&gt;}}
+{{Page_Title|&lt;frequency&gt;}}
 {{Flags
 |Checked_Out=No
 }}
