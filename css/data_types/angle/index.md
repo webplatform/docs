@@ -1,10 +1,10 @@
-{{Page_Title|Angle units}}
+{{Page_Title|Angle}}
 {{Flags
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Specify angles used to rotate elements}}
-{{Concept_Page
+{{Summary_Section|Angles describe an amount of rotation; they are expressed with a number followed by one of the recognized angle unit abbreviations.}}
+{{Data_Type_Page
 |Content=Four angle units are available:
 
 * '''deg''' are degrees, of which there are 360 in a full circle.
