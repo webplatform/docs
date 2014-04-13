@@ -1,12 +1,11 @@
-{{Page_Title|Resolution}}
+{{Page_Title|&lt;resolution&gt;}}
 {{Flags
 |Checked_Out=No
 }}
-{{API_Name}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{Summary_Section|The <code>&lt;resolution></code> CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a '''<number>''' immediately followed by a unit of resolution ('''dpi''', '''dpcm''', ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.}}
 {{Data_Type_Page
-|Content=
-The resolution value specifies the display or print dot density per unit of distance.  A "dot" is the finest level of detail that the device can display, such as a physical screen pixel or a dot of printed ink.
+|Content=The resolution value specifies the display or print dot density per unit of distance.  A "dot" is the finest level of detail that the device can display, such as a physical screen pixel or a dot of printed ink.
 
 On screens, the resolution is calculated relative to CSS inches, centimeters or pixels, not to physical values.  For media queries, if the resolution is different in the horizontal and vertical directions ''both'' values must match the media query. 
 
@@ -19,7 +18,7 @@ Unlike the CSS [[css/data_types/length| '''<length>''' data type]], the unit may
 ;'''dpcm'''
 :This unit represents the number of dots per centimeter. As 1 inch is 2.54 cm, '''1dpcm ≈ 0.39dpi'''.
 ;'''dppx'''
-:This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS '''in''' to CSS '''px''', '''1dppx''' is equivalent to '''96dpi''', that corresponds to the default resolution of images displayed in CSS as defined by {{cssxref("image-resolution")}}.
+:This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS '''in''' to CSS '''px''', '''1dppx''' is equivalent to '''96dpi''', that corresponds to the default resolution of images displayed in CSS as defined by the [[css/property/image_resolution|image-resolution]] property.
 }}
 {{Examples_Section
 |Not_required=No
@@ -61,17 +60,6 @@ ten dpi
 |Status=Recommendation
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/resolution
-|MSDN_link=
-|HTML5Rocks_link=
-}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -94,7 +82,7 @@ ten dpi
 |Opera_prefixed_version=
 |Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=dppx
@@ -116,13 +104,13 @@ ten dpi
 |Opera_prefixed_version=
 |Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=
+|Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=No
 |Android_version=
-|Android_prefixed_supported=
+|Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
 |Blackberry_version=
@@ -156,7 +144,7 @@ ten dpi
 |Feature=dppx
 |Android_supported=No
 |Android_version=
-|Android_prefixed_supported=
+|Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
 |Blackberry_version=
@@ -196,3 +184,15 @@ ten dpi
 |Note=Before Firefox 8 (Gecko 8.0), it erroneously accepted only CSS dimensions that were '''<integer>''' followed by the unit. From that version, it supports any valid CSS dimensions ('''<number>''' immediately followed by the unit).
 }}
 }}
+{{See_Also_Section
+|Topic_clusters=Media Queries
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/resolution
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{API_Name}}
