@@ -1,12 +1,11 @@
-{{Page_Title|Color units}}
+{{Page_Title|&lt;color&gt;}}
 {{Flags
 |Checked_Out=No
 }}
-{{API_Name}}
-{{Summary_Section|The <code>color</code> CSS data type allows for various different ways of specifying a color, some of which also specify opacity.}}
+{{Standardization_Status|W3C Recommendation}}
+{{Summary_Section|The <code>&lt;color></code> CSS data type allows for various ways of specifying a color, some of which also specify opacity.}}
 {{Data_Type_Page
-|Content=
-===Syntax===
+|Content====Syntax===
 Several different ways are available to specify simple color values:
 
 * ''Keyword'' values specify common color names such as '''yellow''', '''black''', or '''transparent'''. (See the table below.)
@@ -15,7 +14,7 @@ Several different ways are available to specify simple color values:
 
 * An <code>rgb()</code> function specifies red, green and blue values either as integers between 0 and 255 (corresponding to the hex values above), or as percentages. For example, <code>rgb(256,0,0)</code> and <code>rgb(100%,0%,0%)</code> both correspond to '''red'''.
 
-* An <code>hsl()</code> function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/data_types/angle|angle within the color wheel]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, <code>hsl(0%,100%,50%)</code> also corresponds to '''red'''.
+* An <code>hsl()</code> function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/data_types/angle| angle within the color wheel ]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, <code>hsl(0%,100%,50%)</code> also corresponds to '''red'''.
 
 The following variations on the above allow you to incorporate an
 ''alpha'' channel specifying transparencies:
@@ -936,14 +935,26 @@ The recently introduced '''transparent''' color name specifies a full transparen
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Color Module Level 3
-|URL=http://www.w3.org/TR/2011/REC-css3-color-20110607/
-|Status=Recommendation
-}}{{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
+}}{{Related Specification
+|Name=CSS Color Module Level 3
+|URL=http://www.w3.org/TR/2011/REC-css3-color-20110607/
+|Status=Recommendation
+|Relevant_changes=Introduced <code>rgba</code>, <code>hsl</code> and <code>hsla</code> functions, added the extended keyword names (which had previously only been defined for SVG).
+}}{{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS21/syndata.html#color-units
+|Status=Recommendation
 }}
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [[tutorials/setting_color_in_css|Setting color in CSS]]
@@ -957,3 +968,4 @@ The recently introduced '''transparent''' color name specifies a full transparen
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{API_Name}}
