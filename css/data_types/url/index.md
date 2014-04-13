@@ -17,7 +17,9 @@ Not all references in CSS to external files require the use of the <code>url()</
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description====Relative URLs and Fragments===
+|Description=
+'''Relative URLs and Fragments'''
+
 In a <code>&lt;style></code> block in an HTML or SVG page, relative files and fragments are resolved relative to that page or its base url.
 |Code=<html>
 <head>
@@ -53,7 +55,9 @@ In a <code>&lt;style></code> block in an HTML or SVG page, relative files and fr
 }
 }}{{Single Example
 |Language=CSS
-|Description====Escaped Characters and Data URIs===
+|Description=
+'''Escaped Characters and Data URIs'''
+
 The '''\''' character allows you to escape the following character in a url string, allowing you to nest quotation marks (or you can simply use a different quotation mark type).  To break a long string across multiple lines,  use a '''\''' escape character as the ''final'' character in each line.
 {{Note|This example does not work in Internet Explorer, which does not support xml data URI values without full URI encoding.}}
 |Code=ul.custom {
