@@ -3,8 +3,8 @@
 |Checked_Out=Yes
 }}
 {{API_Name}}
-{{Summary_Section|A <code>length</code> is a CSS data type that is used to specify measurements using relative or absolute units}}
-{{Concept_Page
+{{Summary_Section|A <code>length</code> is a CSS data type that is used to specify measurements using relative or absolute units.  It consists of a integer or decimal number followed (without whitespace) by a unit abbreviation; the unit may be omitted if the number is zero (0).}}
+{{Data_Type_Page
 |Content=In CSS, there are many properties that can take a length as a value — such as [[css/properties/width|width]], [[css/properties/height|height]], [[css/properties/top|top]] and [[css/properties/bottom|bottom]] — or at least part of their value, for example [[css/properties/box-shadow|box-shadow]], [[css/properties/border|border]], [[css/properties/background-image|background-image]] when using a [[css/functions/gradient|gradient]]  and [[css/properties/flex|flex]].
 
 Length units specify a distance on the display screen or printed output. Pairs of length units are typically used to specify <code>x</code>/<code>y</code> screen coordinates or offsets.  Several different kinds of length
