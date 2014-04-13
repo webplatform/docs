@@ -3,24 +3,26 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|Specify color and opacity}}
-{{Concept_Page
-|Content=Several different ways are available to specify simple color values:
+{{Summary_Section|The <code>color</code> CSS data type allows for various different ways of specifying a color, some of which also specify opacity.}}
+{{Data_Type_Page
+|Content=
+===Syntax===
+Several different ways are available to specify simple color values:
 
 * ''Keyword'' values specify common color names such as '''yellow''', '''black''', or '''transparent'''. (See the table below.)
 
 * Hexadecimal values specify opaque colors in the range of '''#000000''' ('''black''') to '''#ffffff''' ('''white'''), where  each pair of characters correspond to red, green, and blue.
 
-* An '''rgb()''' function specifies red, green and blue values either as integers between 0 and 255 (corresponding to the hex values above), or as percentages. For example, '''rgb(256,0,0)''' and '''rgb(100%,0%,0%)''' both correspond to '''red'''.
+* An <code>rgb()</code> function specifies red, green and blue values either as integers between 0 and 255 (corresponding to the hex values above), or as percentages. For example, <code>rgb(256,0,0)</code> and <code>rgb(100%,0%,0%)</code> both correspond to '''red'''.
 
-* An '''hsl()''' function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/data_types/angle|angle within the color wheel]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, '''hsl(0%,100%,50%)''' also corresponds to '''red'''.
+* An <code>hsl()</code> function specifies hue, saturation, and luminance values. Hue values are specified as an [[css/data_types/angle|angle within the color wheel]] relative to '''red''', and numeric values default to degrees. Saturation specifies vividness as a percentage, with '''0%''' specifying various shades of gray. Luminence specifies brightness, with '''0%''' and '''100%'' corresponding to '''black''' and '''white''', and '''50%''' appearing as a more vivid hue. For example, <code>hsl(0%,100%,50%)</code> also corresponds to '''red'''.
 
 The following variations on the above allow you to incorporate an
 ''alpha'' channel specifying transparencies:
 
-* An '''rgba()''' function specifies red, green and blue values as described above, along with opacity expressed in decimal terms between 0 and 1. For example, '''rgba(100%,0%,0%,0.5)''' specifies a semi-transparent red, which appears as pink.
+* An <code>rgba()</code> function specifies red, green and blue values as described above, along with opacity expressed in decimal terms between 0 and 1. For example, <code>rgba(100%,0%,0%,0.5)</code> specifies a semi-transparent red, which would appear as pink if layered over a white background.
 
-* An '''hsla()''' function specifies hue, saturation, and luminance as described above, but with an additional ''alpha'' channel. For example, '''hsla(0%,100%,50%,0.5)''' specifies the same semi-transparent red as the '''rgba()''' example above.
+* An <code>hsla()</code> function specifies hue, saturation, and luminance as described above, but with an additional ''alpha'' channel. For example, <code>hsla(0%,100%,50%,0.5)</code> specifies the same semi-transparent red as the <code>rgba()</code> example above.
 
 The recently introduced '''transparent''' color name specifies a full transparency.
 
