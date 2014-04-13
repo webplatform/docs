@@ -1,16 +1,16 @@
-{{Page_Title|Frequency units}}
+{{Page_Title|Frequency}}
 {{Flags}}
 
 {{API_Name}}
-{{Summary_Section|Specify sound pitches}}
-{{Concept_Page
+{{Summary_Section|The <code>&lt;frequency></code> CSS data type allows for the specification of the pitch of sounds, expressed as a number followed (without whitespace) by one of the frequency units: '''Hz''' and '''kHz'''.}}
+{{Data_Type_Page
 |Content=
-TWo units are available to specify pitch:
+Two units are available to specify pitch frequency:
 
-* '''Hz''' for occurrences per second.
-* '''kHz''' corresponds to '''1000kHz'''.
+* '''Hz''' represents the number of cycles per second.
+* '''kHz''' represents the number of ''thousands'' of cycles per second (in other words, '''1kHz''' equals '''1000Hz''').
 
-For example, middle C is roughly '''261Hz'''.
+For example, middle C (the middle note on a piano) is roughly '''261Hz'''.
 
 }}
 {{Examples_Section
