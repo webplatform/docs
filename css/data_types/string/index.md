@@ -18,7 +18,7 @@ The following characters always need to be escaped:
 * the backslash character;
 * line breaks (see below).
 
-If you wish to break a long string of text across multiple lines in your source code, you can insert a '''\''' escape character immediately before the line break.  The escaped linebreak is ''''not'''' included in the resulting string.  To include a line break character in the final string value, you will also need to add a '''\a''' escape sequence.
+If you wish to break a long string of text across multiple lines in your source code, you can insert a '''\''' escape character immediately before the line break.  The escaped linebreak is '''not''' included in the resulting string.  To include a line break character in the final string value, you will also need to add a '''\a''' escape sequence.
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,7 +26,7 @@ If you wish to break a long string of text across multiple lines in your source 
 |Language=CSS
 |Description='''Escape characters in strings'''
 |Code=body::before {
-    content: "Don't you just \A \"65 \a the live \
+    content: "Don't you just \A &#92;"&#92;2665&#92;22 \a the live \
               code examples?"; 
 /* Displays as:
 Don't you just 
