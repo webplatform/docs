@@ -19,9 +19,9 @@
 * [[css/data_types/length|<code>&lt;length></code>]] values specify distances and coordinates in either absolute or relative terms.
 * [[css/data types/position|<code>&lt;position></code>]] values specify horizontal and vertical position of an element with a mix of keywords, lengths, and percentages.
 * [[css/data_types/angle|<code>&lt;angle></code>]] values specify degrees of rotation.
-* [[css/data_types/resolution|<code>&lt;resolution></code>]] units specify display or print dot density, typically within CSS [[css/mediaqueries|media queries]]
-* [[css/data_types/time|<code>&lt;time></code>]] units specify duration, typically for animations.
-* [[css/data_types/frequency|<code>&lt;frequency></code>]] specify sound pitches. (Not currently applicable to any CSS property.)
+* [[css/data_types/resolution|<code>&lt;resolution></code>]] values specify display or print dot density, typically within CSS [[css/mediaqueries|media queries]]
+* [[css/data_types/time|<code>&lt;time></code>]] values specify duration, typically for animations.
+* [[css/data_types/frequency|<code>&lt;frequency></code>]] values specify sound pitches. (Not currently applicable to any CSS property.)
 }}
 {{Examples_Section
 |Not_required=Yes
