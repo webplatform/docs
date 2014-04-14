@@ -1,17 +1,19 @@
-{{Page_Title|Text values}}
-{{Flags}}
+{{Page_Title|Text values in CSS properties}}
+{{Flags
+|Checked_Out=No
+}}
 {{API_Name}}
-{{Summary_Section|Specify strings, identifiers, keywords, and functions}}
+{{Summary_Section|Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.}}
 {{Concept_Page
-|Content=Properties accept string values in various ways:
+|Content=Text-like [[css/data_types|CSS data-types]] include:
 
-* A literal ''string'' value to display on the web page. Literal strings need to be single- or double-quoted. Single quotes nested within double-quoted strings are interpreted literally, and vice versa.
+* [[css/data_types/string|<code>&lt;string></code>s]]
 
-* An ''identifier'' referring to an object defined elsewhere, such as a [[tutorials/css_animation|keyframe animation]] or a [[tutorials/css-regions|named flow]].
+* [[css/data_types/custom_ident|<code>&lt;custom-ident></code> (custom identifier) values]]
 
-* A ''keyword'' value recognized by individual CSS properties. For example, the [[css/properties/text-align|'''text-align''']] property recognizes '''justify''' as a valid value. (All CSS properties accept the built-in '''inherit''' value for the parent element's value, and '''initial''' for the default value.)
+* [[css/data_types/keyword|keywords]]
 
-* A ''function'' accepts strings and measurements as values. For example, the [[css/functions/url|'''url()''']] function specifies a path to a file or web page.  See [[css/data_types/color|color units]] for information about various '''rgba()''' and '''hsla()''' functions, otherwise see [[css/functions|CSS functions]] for others.
+In addition, various [[css/functions| CSS functions]] can be used to generate values of these or other data types.
 }}
 {{Examples_Section
 |Not_required=No
