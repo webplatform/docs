@@ -8,7 +8,7 @@
 |Content=The CSS escape character is the backslash ('''\''').  There are two ways to create an escape sequence: 
 
 * as a backslash followed by the special character (e.g., '''\"''' for a double quote or '''\\''' for a backslash);
-* as a backslash followed by a hexadecimal number representing the unicode value (e.g.,  '''\22''' for a double quote, '''\263A''' for a smiley face or '''\a''' for a line break). 
+* as a backslash followed by a hexadecimal number representing the unicode value (e.g.,  '''\22''' for a double quote, '''\263A''' for a smiley face or '''\a''' for a line break); either lowercase or uppercase letters may be used for the hexadecimal digits. 
 
 Unicode characters may also be entered directly, if the file is saved with the correct encoding and a [[css/atrules/@charset| <code>@charset</code> rule]] is declared at the top of the stylesheet file (for embedded style blocks, an equivalent charset declaration must be made in the HTML/XML).
 
@@ -22,11 +22,36 @@ If you wish to break a long string of text across multiple lines in your source 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description='''Escape characters in strings'''
+|Code=body::before {
+    content: "Don't you just \A \"65 \a the live \
+              code examples?"; 
+/* Displays as:
+Don't you just 
+"♥" 
+the live code examples?
+*/
+
+    display:block; 
+    white-space:pre-line; 
+     /* preserve line breaks but collapse spaces */  
+}
+|LiveURL=http://code.webplatform.org/gist/10608944
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Values and Units Module Level 3
+|URL=http://www.w3.org/TR/css3-values/#strings
+|Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS21/syndata.html#strings
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
