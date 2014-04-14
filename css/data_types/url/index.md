@@ -1,6 +1,6 @@
 {{Page_Title|&lt;url&gt;}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{Summary_Section|The <code>&lt;url></code> CSS data type, formerly called the <code>&lt;uri></code> data type, represents a reference to a file or file fragment.  It is specified with the [[css/functions/url()|<code>url()</code> function]].}}
@@ -9,7 +9,7 @@
 
 The <code>&lt;url></code> data type is commonly used for images, but also for loading web fonts or defining filter or clipping path effects (in which case the identifier must link to a fragment within an SVG file).
 
-The string may be quoted (with single or double quotes) but need not be.  If an unquoted string contains any whitespace or special characters they will need to be escaped with a '''\''' character; quoted strings require escapes for line breaks or for any nested quotes of the same type (see the third [[#Examples | example]]).  
+The string may be quoted (with single or double quotes) but need not be.  If an unquoted string contains any whitespace or special characters they will need to be escaped with a '''\''' character; quoted strings require escapes for line breaks or for any nested quotes of the same type (see the third [[#Examples | example]]).  See the [[css/data_types/string | <code>&lt;string></code> data type page]] for more information on escape sequences for CSS strings. 
 
 Not all references in CSS to external files require the use of the <code>url()</code> syntax; file names in [[css/atrules/@import |<code>@import</code> rules]], for example, may be given as simple quoted [[css/data_types/string| <code>&lt;string></code>]] values.
 }}
@@ -17,8 +17,7 @@ Not all references in CSS to external files require the use of the <code>url()</
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=
-'''Relative URLs and Fragments'''
+|Description='''Relative URLs and Fragments'''
 
 In a <code>&lt;style></code> block in an HTML or SVG page, relative files and fragments are resolved relative to that page or its base url.
 |Code=<html>
@@ -55,8 +54,7 @@ In a <code>&lt;style></code> block in an HTML or SVG page, relative files and fr
 }
 }}{{Single Example
 |Language=CSS
-|Description=
-'''Escaped Characters and Data URIs'''
+|Description='''Escaped Characters and Data URIs'''
 
 The '''\''' character allows you to escape the following character in a url string, allowing you to nest quotation marks (or you can simply use a different quotation mark type).  To break a long string across multiple lines,  use a '''\''' escape character as the ''final'' character in each line.
 {{Note|This example does not work in Internet Explorer, which does not support xml data URI values without full URI encoding.}}
