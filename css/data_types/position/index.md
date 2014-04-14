@@ -35,8 +35,6 @@ The keyword values are:
 The applicable direction for the '''center''' keyword is horizontal if its the first token, vertical if it's the second, ''unless'' the other token is one of the left/right/top/bottom keywords.
 
 Keywords may be combined with length and percentage values, but then the '''horizontal vertical''' order must be respected.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -52,7 +50,7 @@ Keywords may be combined with length and percentage values, but then the '''hori
 	/* The center point is defined using the position syntax, after the "at" keyword. 
 	*/
 	background-size:15em 10em, 30% 70%, 100px 70px;
-	background-position: center left, center 33%, 100% 50%;
+	background-position: center left,  center calc(100% - 1em), 100% 50%;
 	/* Note that the position values are interpretted as horizontal first then vertical
 	   *unless* one of the values is given with the top/bottom or left/right keywords.
 	   Also note that percentages are interpretted as the percent of extra space,
