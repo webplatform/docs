@@ -15,9 +15,7 @@ Certain keywords can be used for any CSS property value:
 
 * '''initial''' represents the initial (or default) value for the property, over-riding any values set earlier in the cascade; initial values are defined on each property's definition; it is not supported in Internet Explorer.
 
-* '''unset''' is equivalent to '''inherit''' if the property is normally inherited, or '''initial''' otherwise; it is not currently supported in most browsers (except Firefox).
-
-
+* '''unset''' is equivalent to '''inherit''' if the property is normally inherited, or '''initial''' otherwise; it is not currently supported in most browsers (although Firefox implements it).
 }}
 {{Examples_Section
 |Not_required=No
@@ -45,7 +43,7 @@ a {
   color: inherit !important; 
   /* over-ride a user stylesheet property */
 
-  text-decoration: unset; 
+  text-decoration: unset !important; 
   /* over-ride a user stylesheet property,
      if your browser supports the unset keyword */
 }
