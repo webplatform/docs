@@ -1,1 +1,0 @@
-#REDIRECT [[html/attributes/BGCOLOR]]
