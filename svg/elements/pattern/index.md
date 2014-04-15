@@ -1,12 +1,10 @@
 {{Page_Title|pattern}}
 {{Flags
-|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
-|Editorial notes={{Editorial/Move_Candidate
-| url has a typo (patterrn instead of pattern)}} 
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.}}
 {{Markup_Element
@@ -97,7 +95,11 @@ coordinate system onto the target coordinate system.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=SVG 1.1
+|URL=http://www.w3.org/TR/SVG11/pservers.html#Patterns
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
