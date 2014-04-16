@@ -14,7 +14,6 @@
 }}
 {{Notes_Section
 |Import_Notes====Properties (MSDN)===
-{{TODO|This table does not reflect the latest state of the specification and should be updated. This table reflects the state of flexbox in Internet Explorer 10.}}
 {{{!}} class="wikitable"
 {{!}}-
 !Property
@@ -23,7 +22,7 @@
 {{!}}[[css/properties/flex|'''flex''']]
 {{!}}Gets or sets values that specify the parameters of a flexible length: the positive and negative flexibility, and the preferred size.
 {{!}}-
-{{!}}[[css/properties/flex-align|'''flex-align''']]
+{{!}}[[css/properties/flex-align|'''align-items''']]
 {{!}}Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[css/properties/flex-direction|'''flex-direction''']] property) of child elements of the object.
 {{!}}-
 {{!}}[[css/properties/flex-direction|'''flex-direction''']]
@@ -32,16 +31,16 @@
 {{!}}[[css/properties/flex-flow|'''flex-flow''']]
 {{!}}Gets or sets one or two shorthand values that specify the flex direction and wrap properties together.
 {{!}}-
-{{!}}[[css/properties/flex-item-align|'''flex-item-align''']]
+{{!}}[[css/properties/flex-item-align|'''align-self''']]
 {{!}}Gets or sets a value that specifies the alignment (perpendicular to the layout axis defined by the [[css/properties/flex-direction|'''flex-direction''']] property) of child elements of the object.
 {{!}}-
-{{!}}[[css/properties/flex-line-pack|'''flex-line-pack''']]
+{{!}}[[css/properties/flex-line-pack|'''align-content''']]
 {{!}}Gets or sets a value that specifies how a flexbox's lines align within the flexbox when there is extra space along the axis that is perpendicular to the axis defined by the [[css/properties/flex-direction|'''flex-direction''']] property. 
 {{!}}-
-{{!}}[[css/properties/flex-order|'''flex-order''']]
+{{!}}[[css/properties/flex-order|'''order''']]
 {{!}}Gets or sets a value that specifies the ordinal group that a flexbox element belongs to. This ordinal value identifies the  display order for  the group.
 {{!}}-
-{{!}}[[css/properties/flex-pack|'''flex-pack''']]
+{{!}}[[css/properties/flex-pack|'''justify-content''']]
 {{!}}Gets or sets a value that specifies how excess space is distributed (along the axis defined by the [[css/properties/flex-direction|'''flex-direction''']] property) between child elements of the object.
 {{!}}-
 {{!}}[[css/properties/flex-wrap|'''flex-wrap''']]
