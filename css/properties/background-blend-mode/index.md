@@ -103,17 +103,17 @@ div {
 	display: inline-block;
 	height:200px;
 	margin: 1em;
-	opacity: 0.50;
+	opacity: 0.5;
 	transition: opacity .25s ease-in-out;
 	width: 200px;
 }
 
 label {
     display:block;
-    background: white;
+    background: #fff;
     font-family: Georgia, Garamond, serif;
     text-align:center;
-    text-shadow: .5px .7px .7px #EEE;
+    text-shadow: .5px .7px .7px #eee;
 }
 
 div:hover { opacity: 1.0; }
@@ -171,4 +171,7 @@ Non-separable blend modes consider all color components in combination as oppose
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
