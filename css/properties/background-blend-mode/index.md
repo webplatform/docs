@@ -87,7 +87,7 @@ This is an experimental feature. You'll need to view examples in Chrome Canary o
 &lt;div class='saturation'&gt;	&lt;label&gt;Saturation&lt;/label&gt;	&lt;/div&gt;
 &lt;div class='color'&gt;			&lt;label&gt;Color&lt;/label&gt;		&lt;/div&gt;
 &lt;div class='luminosity'&gt;	&lt;label&gt;Luminosity&lt;/label&gt;	&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/7006023
+|LiveURL=http://code.webplatform.org/gist/10908092
 }}{{Single Example
 |Language=CSS
 |Code=body {
@@ -171,7 +171,4 @@ Non-separable blend modes consider all color components in combination as oppose
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
