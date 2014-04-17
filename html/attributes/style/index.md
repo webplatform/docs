@@ -7,7 +7,7 @@
 {{Summary_Section|Sets an inline style for the element.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=This attribute is used to set styling in the form of CSS rules to an element.
+|Content=This attribute is used to set styling in the form of [http://docs.webplatform.org/wiki/guides/getting_started_with_css#Defining_style_rules CSS rules] to an element.
 }}
 {{Examples_Section
 |Not_required=No
