@@ -1,35 +1,27 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets an inline style for the element.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content=This attribute is used to set styling in the form of CSS rules to an element.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<!doctype html>
+<title>HTML Style Attribute Usage</title>
+<p style="background-color: blue; color: white;">This will be white text with a blue background if all goes well!</p>
+}}
 }}
 {{Notes_Section
+|Usage=While this is perfectly valid, it is *highly* recommended by the community at large that you not use inline styles. Instead it is much better to simply target the element you want in your CSS and apply rules in there.
 |Notes====Remarks===
 This attribute is not accessible through scripting. To access styles through scripting, use the [[css/cssom/style|'''style''']] object.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 14.2.3
-
-
-===Requirements===
-{| class="wikitable"
-|-
-!Minimum supported client
-|Windows XP
-|-
-!Minimum supported server
-|Windows Server 2003
-|}
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -95,102 +87,11 @@ This attribute is not accessible through scripting. To access styles through scr
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>abbr</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>br</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>col</code>
-*<code>colGroup</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>del</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>i</code>
-*<code>iframe</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}hidden</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>ins</code>
-*<code>isIndex</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>object</code>
-*<code>ol</code>
-*<code>optGroup</code>
-*<code>option</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>q</code>
-*<code>rt</code>
-*<code>ruby</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
