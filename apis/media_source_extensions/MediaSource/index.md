@@ -42,8 +42,7 @@ function setupVideo() {
   });
 }
 </syntaxhighlight>
-
-|LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html
+|LiveURL=http://code.webplatform.org/gist/9144919/
 }}
 }}
 {{Notes_Section}}
@@ -63,8 +62,8 @@ function setupVideo() {
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
 }
