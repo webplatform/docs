@@ -65,6 +65,7 @@ var increaseItem = document.getElementById('increaseImageSize'),
 |Name=HTML5
 |URL=http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.contextmenu
 |Status=Candidate Recommendation
+|Relevant_changes=Initial specification of the attribute
 }}
 }}
 {{Compatibility_Section
