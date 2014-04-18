@@ -4,9 +4,9 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Used to associate the [html/elements/menu|menu element] in the DOM to the given element as its context menu.}}
+{{Summary_Section|Used to associate the [[html/elements/menu|menu element]] in the DOM to the given element as its context menu.}}
 {{Markup_Attribute
-|Content=The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a [html/elements/menu|menu] element contained within the DOM which has a type of context.
+|Content=The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a [[html/elements/menu|menu]] element contained within the DOM which has a type of context.
 }}
 {{Examples_Section
 |Not_required=No
