@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The <code>voice-balance</code> property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.}}
 {{CSS Property
+|Initial value=center
 |Media=speech
 |Values=
 }}
