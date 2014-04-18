@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>rest-before</code> property determines how long a speech media agent should pause after presenting an intro cue for an element, before presenting that element's main content.  It may be replaced by the shorthand property [[css/properties/rest|<code>rest</code>]], which sets rest time before and after.}}
+{{Summary_Section|The <code>rest-after</code> property determines how long a speech media agent should pause after presenting an element's main content, before presenting an [[css/properties/cue-after|exit cue sound]] for that element.  It may be replaced by the shorthand property [[css/properties/rest|<code>rest</code>]], which sets rest time before and after.}}
 {{CSS Property
 |Initial value=none
 |Media=speech
@@ -19,7 +19,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Speech Module
-|URL=http://www.w3.org/TR/css3-speech/#rest-before
+|URL=http://www.w3.org/TR/css3-speech/#rest-after
 |Status=W3C Candidate Recommendation
 }}{{Related Specification
 |Name=CSS 2.1, Appendix A. (Aural style sheets)
