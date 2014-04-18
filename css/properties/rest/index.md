@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>rest</code> property determines how long a speech media agent should pause in between presenting an element's main content and presenting the before and after cue sounds.  It is a shorthand for the [[css/properties/pause-before|<code>rest-before</code>]] and [[css/properties/pause-before|<code>rest-after</code>]] properties.}}
+{{Summary_Section|The <code>rest</code> property determines how long a speech media agent should pause in between presenting an element's main content and presenting the before and after cue sounds.  It is a shorthand for the [[css/properties/rest-before|<code>rest-before</code>]] and [[css/properties/rest-before|<code>rest-after</code>]] properties.}}
 {{CSS Property
 |Initial value=none none
 |Media=speech
