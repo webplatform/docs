@@ -7,7 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The <code>voice-pitch</code> property sets pitch or tone (high or low) for the synthesized speech when reading an element; the pitch may be specified absolutely or relative to the normal pitch for the [[css/properties/voice-family|<code>voice-family</code>]] used to read the text.}}
 {{CSS Property
-|Initial value=(implementation-dependent)
+|Initial value=medium
 |Media=speech
 |Values=
 }}
