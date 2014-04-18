@@ -54,9 +54,12 @@ var increaseItem = document.getElementById('increaseImageSize'),
     increaseItem.addEventListener("click", increaseSize);
     decreaseItem.addEventListener("click", decreaseSize);
 </script>
+|LiveURL=http://code.webplatform.org/gist/11067829
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Warning, this only works in Firefox currently. (Untested in IE and Safari.)
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
