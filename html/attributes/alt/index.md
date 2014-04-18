@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -15,14 +14,16 @@ The alt tag text should be displayed in place of the image if the resource is no
 
 For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
 
-If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element. 
+If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the 'alt' attribute to indicate that the icon displayed denotes a read/write property.
-|Code=&lt;img src{{=}}"http://example.microsoft.com/rw.png" alt{{=}}"Read/Write Property"&gt;
+|Code=<!doctype html>
+<title>Image alt attribute usage</title>
+<img src="http://example.com/path/to/no.jpg" alt="No image, so here is the alt text">
 }}
 }}
 {{Notes_Section}}
@@ -92,7 +93,6 @@ If an image is not intended to be part of the content of the page, but instead i
 }}
 {{See_Also_Section
 |External_links=* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
-* http://dev.w3.org/html5/markup/img.html#img.attrs.alt
 * http://www.w3.org/TR/html5/forms.html#attr-input-alt
 }}
 {{Topics|Accessibility, HTML, Media, Usability}}
