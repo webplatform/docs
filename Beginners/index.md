@@ -23,11 +23,9 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ***[http://www.apple.com/safari/ Safari].
 * A decent text editor. Reasonable free options are 
 ** All Platforms
+***[http://brackets.io Brackets]
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
-***[http://brackets.io Brackets]
-***[https://www.gnu.org/software/emacs/ Emacs]
-***[http://www.vim.org/ Vim]
 ** Windows
 ***[http://notepad-plus-plus.org/ Notepad++]
 ** Mac
