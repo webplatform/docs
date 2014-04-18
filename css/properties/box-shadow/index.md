@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Content=Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
