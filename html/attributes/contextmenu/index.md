@@ -23,8 +23,8 @@
             with a label to create a submenu -->
     <menu label="resize">
         &lt;!-- Create the menu items -->
-        <menuitem label="Increase" id="increaseImageSize"></menuitem>
-        <menuitem label="Decrease" id="decreaseImageSize"></menuitem>
+        <menuitem label="Increase" id="increaseImageSize">
+        <menuitem label="Decrease" id="decreaseImageSize">
     </menu>
 </menu>
 
