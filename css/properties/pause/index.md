@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>pauses</code> property determines how long a speech media agent should pause before and after presenting an element.  It is a shorthand for the [[css/properties/pause-before|<code>pause-before</code>]] and [[css/properties/pause-before|<code>pause-after</code>]] properties.}}
+{{Summary_Section|The <code>pause</code> property determines how long a speech media agent should pause before and after presenting an element.  It is a shorthand for the [[css/properties/pause-before|<code>pause-before</code>]] and [[css/properties/pause-before|<code>pause-after</code>]] properties.}}
 {{CSS Property
 |Initial value=none none
 |Media=speech
