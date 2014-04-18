@@ -23,7 +23,6 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ***[http://www.apple.com/safari/ Safari].
 * A decent text editor. Reasonable free options are 
 ** All Platforms
-***[http://www.sublimetext.com SublimeText]
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
 ***[http://brackets.io Brackets]
