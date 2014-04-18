@@ -23,6 +23,20 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ***[http://www.apple.com/safari/ Safari].
 * A decent text editor. Reasonable free options are 
 ** All Platforms
+<!--
+DO NOT:
+Add Sublime Text to this list. It is *NOT* free.
+The point of the editors listed are to bee free and
+simple to use editors that someone with no prior
+experience can pick up and start writing with.
+
+Also, please do not add terminal programs like vim
+and emacs to this list. Yes they are great, but not
+entry level editors.
+
+Thank you for your co operation.
+-Garbee
+-->
 ***[http://brackets.io Brackets]
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
