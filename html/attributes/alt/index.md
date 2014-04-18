@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''alt''' attribute is used as a textual representation for graphics and buttons in browsers that don't or can't render images, or when the resource is not found.}}
 {{Markup_Attribute
