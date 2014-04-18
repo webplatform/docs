@@ -7,6 +7,7 @@
 {{API_Name}}
 {{Summary_Section|The <code>voice-volume</code> property sets the volume for spoken content in speech media.  It replaces the deprecated <code>volume</code> property.}}
 {{CSS Property
+|Initial value=medium
 |Media=speech
 |Values=
 }}
