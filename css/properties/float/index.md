@@ -23,6 +23,9 @@
 }}{{CSS Property Value
 |Data Type=right
 |Description=The <code>right</code> value indicates that the element must float to the far right side of its containing block.
+}}{{CSS Property Value
+|Data Type=footnote
+|Description=The <code>footnote</code> value indicates that the element is moved to the footnote area and that a footnote call is put in its original location.
 }}
 }}
 {{Examples_Section
@@ -115,6 +118,11 @@
 |URL=http://www.w3.org/TR/CSS1/#float
 |Status=Recommendation
 |Relevant_changes=Initial definition.
+}}{{Related Specification
+|Name=CSS Generated Content for Paged Media Module
+|URL=http://www.w3.org/TR/css3-gcpm/#turning-elements-into-footnotes
+|Status=Working Draft
+|Relevant_changes=Addition of the ''footnote'' value.
 }}
 }}
 {{Compatibility_Section
