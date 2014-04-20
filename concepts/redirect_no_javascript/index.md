@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections
+|High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete
 |Checked_Out=Yes
 }}
@@ -21,11 +21,11 @@ This would alleviate the need for JavaScript to be required for many services to
 |Code=<!-- www.example.com/index.html -->
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<noscript><meta http-equiv="refresh" content="0;url=www.example.com/no-js-version.html" /></noscript>
-<script type="javascript" src="www.example.com/js/jquery.min.js"></script>
-<script type="javascript" src="www.example.com/js/dynamic.js"></script>
+  <head>
+  <meta charset="utf-8" />
+  <noscript><meta http-equiv="refresh" content="0;url=www.example.com/no-js-version.html" /></noscript>
+  <script type="javascript" src="www.example.com/js/jquery.min.js"></script>
+  <script type="javascript" src="www.example.com/js/dynamic.js"></script>
 <title>Example Page</title>
 </head>
 <body></body>
@@ -36,7 +36,9 @@ This would alleviate the need for JavaScript to be required for many services to
 |Code=// www.example.com/js/dynamic.js
 $(function () {
   var div = document.createElement('div');
-  div.innerHTML = 'someContent';
+  div.innerHTML        = 'Content that requires JavaScript to run.';
+  div.style.textAlign  = 'center';
+  div.style.fontWeight = bold;
   $(body).append(div);
 })();
 }}{{Single Example
@@ -46,11 +48,16 @@ $(function () {
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>Example Page</title>
+  <meta charset="utf-8" />
+  <style type="text/css">
+  .center-text {
+    text-align: center;
+    font-weight: bold;
+  }
+  <title>Example Page</title>
 </head>
 <body>
-<div>some content</div>
+<div>Content that requires absolutely no JavaScript.</div>
 </body>
 </html>
 }}
@@ -59,8 +66,10 @@ $(function () {
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=HTML, Responsive Web Design
+}}
+{{Topics|Accessibility, Compatibility, Design, HTML, JavaScript, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
