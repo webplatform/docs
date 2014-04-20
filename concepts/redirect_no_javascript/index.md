@@ -16,7 +16,7 @@ This only validates correctly as HTML5 (plug in the source in the [http://valida
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=This demonstrates an example usage of this hack.
+|Examples=This minimal example demonstrates an example usage of this hack.
 
 {{Single Example
 |Language=HTML
