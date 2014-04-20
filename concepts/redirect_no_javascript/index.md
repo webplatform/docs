@@ -21,15 +21,15 @@ This only validates correctly as HTML5 (plug in the source in the [http://valida
 {{Single Example
 |Language=HTML
 |Description=Initial page, assumes JavaScript support.
-|Code=<!-- www.example.com/index.html -->
+|Code=&lt;!-- www.example.com/index.html --&gt;
 <!DOCTYPE html>
 <html>
   <head>
   <meta charset="utf-8" />
   <noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version.html" /></noscript>
-  <!-- Browsers without JavaScript will never see this. -->
-  <script type="javascript" src="www.example.com/js/jquery.min.js"></script>
-  <script type="javascript" src="www.example.com/js/dynamic.js"></script>
+  &lt;!-- Browsers without JavaScript will never see this. --&gt;
+  <script type="text/javascript" src="www.example.com/js/jquery.min.js"></script>
+  <script type="text/javascript" src="www.example.com/js/dynamic.js"></script>
 <title>Example Page</title>
 </head>
 <body></body>
@@ -48,7 +48,8 @@ $(function () {
 }}{{Single Example
 |Language=HTML
 |Description=Non-JS version
-|Code=<!-- www.example.com/no-js-version.html -->
+|Code=&lt;!-- www.example.com/no-js-version.html --&gt;
+&lt;!-- Browsers with JavaScript support will likely never see this page. --&gt;
 <!DOCTYPE html>
 <html>
 <head>
