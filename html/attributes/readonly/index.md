@@ -30,6 +30,7 @@ If the value of the '''readOnly''' property is set to '''true''', the user canno
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_links=* [[html/attributes/disabled|Disabled attribute]]
 }}
 {{Topics|HTML}}
