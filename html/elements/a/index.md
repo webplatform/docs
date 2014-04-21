@@ -21,7 +21,7 @@ The <code>a</code> element defines a hyperlink to any content, which could be an
 
 ===Enclosed HTML===
 
-HTML enclosed by the <code>&lt;a&gt;&lt;/a&gt;</code> tags is typically text or an image. It is displayed in the page and (if the [[html/attributes/href|href]] attribute is present) is rendered as a link.
+HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an image. It is displayed in the page and (if the [[html/attributes/href|href]] attribute is present) is rendered as a link.
 
 ===Common Attributes===
 
@@ -39,7 +39,7 @@ HTML enclosed by the <code>&lt;a&gt;&lt;/a&gt;</code> tags is typically text or 
 {{!}} HTML5
 {{!}}-
 {{!}} [[html/attributes/href|'''href''']]
-{{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI] enclosed in double-quotes
+{{!}} [http://www.w3.org/Addressing/URL/uri-spec.html URI]
 {{!}} Target of link
 {{!}} <pre>href="http://example.com"</pre> <pre>href="#TableOfContents"</pre>
 {{!}} &nbsp;
@@ -72,33 +72,32 @@ HTML enclosed by the <code>&lt;a&gt;&lt;/a&gt;</code> tags is typically text or 
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following examples use the '''a''' element to link to files, open a file, include an image as part of a link, define an anchor, and invoke a function.
-|Code=&lt;!-- Link to an external website. --&gt;
-&lt;a href{{=}}"http://www.example.com"&gt;Example website&lt;/a&gt;
+|Code=&lt;!-- Link to an external website. -->
+<a href="http://www.example.com">Example website</a>
 
 &lt;!-- Link to an internal website in same directory. --&gt;
-&lt;a href{{=}}"home.html"&gt;Home&lt;/a&gt;
+<a href="home.html">Home</a>
 
-&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name in Save dialog --&gt;
-&lt;a href{{=}}"filename_on_server.pdf" download="meaningful_filename.pdf"&gt;Download your pdf&lt;/a&gt;
+&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name in Save dialog. If no value is specified for the download, the name of the resource will be used.-->
+<a href="filename_on_server.pdf" download="meaningful_filename.pdf">Download your pdf</a>
 
-&lt;!-- Open a link in the window specified by the attribute TARGET. --&gt;
-&lt;a href{{=}}"http://www.example.com" target{{=}}"_blank"&gt;Open example website in new window&lt;/a&gt;
+&lt;!-- Open a link in the window specified by the attribute TARGET. -->
+<a href="http://www.example.com" target="_blank">Open example website in new window</a>
 
 &lt;!-- Include an IMG element as a part of the link. --&gt;
-&lt;a href{{=}}"http://www.example.com"&gt;&lt;img src{{=}}"images/bullet.png"&gt;A link with an image&lt;/a&gt;
+<a href{{=}}"http://www.example.com"><img src="images/bullet.png">A link with an image</a>
 
-&lt;!-- Link to an anchor on the same page. --&gt;
-&lt;a href{{=}}"#top"&gt;Go to top&lt;/a&gt;
+&lt;!-- Link to an anchor on the same page. -->
+<a href="#top">Go to top</a>
 
-&lt;!-- Define an anchor. --&gt;
-&lt;a id{{=}}"top"&gt;
+&lt;!-- Define an anchor. -->
+<a id="top"></a>
 
-&lt;!-- Invoke a JavaScript function (Not recommended) --&gt;
-&lt;a href{{=}}"javascript:alert('Link clicked')"&gt;Click this link&lt;/a&gt;
+&lt;!-- Invoke a JavaScript function (Not recommended) -->
+<a href="javascript:alert('Link clicked')">Click this link</a>
 
-&lt;!-- Links to a document and uses the ''rel'' attribute to specify the relationship to the linked document. --&gt;
-&lt;a href{{=}}"http://www.example.com/help" rel{{=}}"help"&gt;Link to help&lt;/a&gt;
+&lt;!-- Links to a document and uses the ''rel'' attribute to specify the relationship to the linked document. -->
+<a href="http://www.example.com/help" rel="help">Link to help</a>
 |LiveURL=http://code.webplatform.org/gist/5281100
 }}
 }}
@@ -128,13 +127,13 @@ Internationalization topics related to the <code>a</code> element:
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html4/struct/links.html#edef-A
-|Status=W3C Recommendation
-}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element
 |Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html4/struct/links.html#edef-A
+|Status=W3C Recommendation
 }}{{Related Specification
 |Name=WHATWG Living Standard
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element
