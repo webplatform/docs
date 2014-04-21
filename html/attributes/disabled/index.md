@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The disabled attribute prevents users from changing, clicking on, or submitting an element.}}
+{{Summary_Section|Prevents users from changing, clicking on, or submitting an element.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input]]
 |Property_applies_to=dom/HTMLElement
@@ -16,15 +15,21 @@ If an element is contained within a disabled ([[html/elements/fieldset|fieldset]
 The disabled attribute will prevent javascript click events on the element.
 
 If the disabled element is present without a value (<code><input disabled></code>) it will default to true. Other valid values are <code>true</code> and <code>false</code>.
+
+=== Affects ===
+
+When this is present a user cannot make the element active. Further, when the form is submitted, the input's name and value will not be present. If you wish to submit the value, but make it so the user cannot manipulate the value see the [[html/attributes/readonly|readonly attribute]].
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This shows a basic form, with an email input and a submit button disabled.
-|Code=<form role="form">
+|Code=<!doctype html>
+<title>Disabled attribute demo</title>
+<form role="form">
 	<label for="name">Name</label>
-	<input type="text" name="name">
+	<input name="name">
 	<br>
 	<label for="email">Email</label>
 	<input type="email" name="email" disabled>
