@@ -21,7 +21,12 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/links.html#downloading-resources
+|Status=Candidate Recommendation
+|Relevant_changes=Initial specification
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
