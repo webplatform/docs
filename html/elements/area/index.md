@@ -2,16 +2,18 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''area''' element (&lt;area&gt;) represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.}}
+{{Summary_Section|Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAreaElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example uses the '''area''' element inside a parent '''map''' element to create an image map of the solar system. Each '''area''' element defines and provides a link to an image on the '''map''' using the [[html/attributes/coords|'''coords''']] and [[html/attributes/shape|'''shape''']] attributes to specify its dimensions and shape, respectively; and the [[html/attributes/title|'''title''']] attribute to provide a descriptive pop-up tooltip when pointed to with the mouse. A tooltip is especially useful if the image file is missing or cannot be displayed for whatever reason.
 |Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
   "http://www.w3.org/TR/html4/loose.dtd"&gt;
