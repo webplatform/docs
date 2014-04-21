@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>a</code> element (<code>&lt;a&gt;</code>) defines a hyperlink, a destination of hyperlink, or both.}}
+{{Summary_Section|Defines a hyperlink, a destination of hyperlink, or both.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
 |Content====Description===
@@ -66,22 +66,6 @@ HTML enclosed by the <code>&lt;a&gt;&lt;/a&gt;</code> tags is typically text or 
 {{!}} Tells where to open the link when it is followed
 {{!}} <pre>target="_blank"</pre>
 {{!}} &nbsp;
-{{!}}}
-
-===Other Attributes===
-
-{{{!}} class="wikitable"
-! Name
-! Value
-! Purpose
-! Example
-! Validity
-{{!}}-
-{{!}} [[html/attributes/rel|'''rel''']]
-{{!}} text
-{{!}} Indicates the relationship of the current page to the link target
-{{!}} <pre>rev="index"</pre>
-{{!}} removed in HTML5
 {{!}}}
 }}
 {{Examples_Section
