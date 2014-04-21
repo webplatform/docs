@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies that the target item is to be downloaded for offline viewing.}}
 {{Markup_Attribute
 |Applies_to=http://docs.webplatform.org/wiki/html/elements/a
 |Content=If the download attribute is specified on the [[html/elements/a|anchor]] or [[html/elements/area|area]] elements, then the browser will attempt to download the item for viewing later. You can optionally give the attribute a value, which will then have the browser store that file with that filename overriding the resources default name.
