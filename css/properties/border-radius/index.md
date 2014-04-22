@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Undescriptive Title, Missing Relevant Sections
-|Content=Errors, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
