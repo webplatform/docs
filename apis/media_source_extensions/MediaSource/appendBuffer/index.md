@@ -12,7 +12,7 @@
 |Description=Type: ArrayBuffer. The media segment to append
 |Optional=No
 }}
-|Method_applies_to=apis/media_source_extensions/MediaSource
+|Method_applies_to=apis/media_source_extensions/SourceBuffer
 |Example_object_name=SourceBuffer
 |Javascript_data_type=void
 |Return_value_description=This method does not return a value.
