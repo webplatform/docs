@@ -4,7 +4,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Appends the specified media segment to the SourceBuffer.
+
+
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=data
@@ -21,8 +24,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer. 
-|Code=//  Load video's initialization segment 
+|Description=This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer.
+|Code=<syntaxhighlight>//  Load video's initialization segment 
 function initVideo(range, url) {
   var xhr = new XMLHttpRequest();
   if (range || url) { // make sure we've got incoming params
@@ -56,9 +59,7 @@ function updateFunct() {
   getStarted(file); // Get video playback started
   //  Now that video has started, remove the event listener
 videoSource.removeEventListener("update", updateFunct);
-}
-
-
+}</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
@@ -72,11 +73,13 @@ videoSource.removeEventListener("update", updateFunct);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Multimedia
+}}
+{{Topics|Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
