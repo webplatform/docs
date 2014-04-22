@@ -24,7 +24,8 @@ The media source buffer.
 |Examples={{Single Example
 |Language=JavaScript
 |Description=This example gets a video object, creates a new MediaSource object, and assigns the MediaSource object to the src (source) of the video object. It then waits for the sourceopen event to fire, and then creates a video SourceBuffer using addSourceBuffer. 
-|Code=<syntaxhighlight>// Create mediaSource and initialize video 
+|Code=<syntaxhighlight>
+// Create mediaSource and initialize video 
 function setupVideo() {
   clearLog(); // Clear console log
 
@@ -52,7 +53,7 @@ function setupVideo() {
       return;
     }
   },false);
-</syntaxhighlight>
+}</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
