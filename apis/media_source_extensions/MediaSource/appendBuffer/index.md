@@ -2,12 +2,9 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Appends the specified media segment to the SourceBuffer.
-
-
-}}
+{{Summary_Section|Appends the specified media segment to the SourceBuffer.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=data
