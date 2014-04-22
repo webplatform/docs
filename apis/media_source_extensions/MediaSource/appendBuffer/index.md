@@ -26,22 +26,17 @@
 function initVideo(range, url) {
   var xhr = new XMLHttpRequest();
   if (range || url) { // make sure we've got incoming params
-
     // Set the desired range of bytes we want from the mp4 video file
     xhr.open('GET', url);
     xhr.setRequestHeader("Range", "bytes=" + range);
     segCheck = (timeToDownload(range) * .8).toFixed(3); // use .8 as fudge factor
     xhr.send();
     xhr.responseType = 'arraybuffer';
-    try {
-      xhr.addEventListener("readystatechange", function () {
+    try {   xhr.addEventListener("readystatechange", function () {
          if (xhr.readyState == xhr.DONE) { // wait for video to load
           // Add response to buffer
-          try {
-            videoSource.appendBuffer(new Uint8Array(xhr.response));
-            // Wait for the update complete event before continuing
-            videoSource.addEventListener("update",updateFunct, false);
-
+          try {            videoSource.appendBuffer(new Uint8Array(xhr.response));
+            // Wait for the update complete event before continuing            videoSource.addEventListener("update",updateFunct, false);
           } catch (e) {
             log('Exception while appending initialization content', e);
           }
@@ -54,16 +49,16 @@ function initVideo(range, url) {
     return // No value for range or url
   }
 }
-
 function updateFunct() {
   //  This is a one shot function, when init segment finishes loading, 
   //    update the buffer flag, call getStarted, and then remove this event.
   bufferUpdated = true;
   getStarted(file); // Get video playback started
   //  Now that video has started, remove the event listener
-  videoSource.removeEventListener("update", updateFunct);
+videoSource.removeEventListener("update", updateFunct);
+}
 
-|LiveURL=http://code.webplatform.org/gist/9144919/
+
 }}
 }}
 {{Notes_Section}}
