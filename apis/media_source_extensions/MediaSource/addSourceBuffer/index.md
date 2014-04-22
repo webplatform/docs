@@ -17,43 +17,11 @@
 |Return_value_name=sourcebuffer
 |Javascript_data_type=Object
 |Return_value_description=Type: SourceBuffer
-The media source buffer. 
+The media source buffer.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example gets a video object, creates a new MediaSource object, and assigns the MediaSource object to the src (source) of the video object. It then waits for the sourceopen event to fire, and then creates a video SourceBuffer using addSourceBuffer.
-|Code=// Create mediaSource and initialize video 
-function setupVideo() {
-  clearLog(); // Clear console log
-
-  //  Create the media source 
-  if (window.MediaSource) {
-    mediaSource = new window.MediaSource();
-   } else {
-    log("mediasource or syntax not supported");
-    return;
-  }
-  var url = URL.createObjectURL(mediaSource);
-  videoElement.pause();
-  videoElement.src = url;
-  videoElement.width = width;
-  videoElement.height = height;
-
-  // Wait for event that tells us that our media source object is 
-  //   ready for a buffer to be added.
-  mediaSource.addEventListener('sourceopen', function (e) {
-    try {
-      videoSource = mediaSource.addSourceBuffer('video/mp4');
-      initVideo(initialization, file);           
-    } catch (e) {
-      log('Exception calling addSourceBuffer for video', e);
-      return;
-    }
-
-|LiveURL=http://code.webplatform.org/gist/9144919/
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -62,17 +30,36 @@ function setupVideo() {
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
-|Desktop_rows=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Unknown
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=34
+|Firefox_supported=Unknown
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=IE11
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Unknown
+|Opera_version=
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Unknown
+|Safari_version=
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Multimedia
-}}
-{{Topics|Media}}
+{{See_Also_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
