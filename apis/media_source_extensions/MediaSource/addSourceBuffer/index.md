@@ -58,13 +58,12 @@ function setupVideo() {
 }}
 {{Notes_Section
 |Usage=Exceptions:
+
 INVALID_ACCESS_ERR  If type is null or an empty string.
  
 NOT_SUPPORTED_ERR  If type contains a MIME type that's not supported or a MIME type that's not supported by SourceBuffer.
  
 QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer objects.
- 
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -101,7 +100,7 @@ QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer object
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=
 }}
