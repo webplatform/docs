@@ -8,7 +8,7 @@
 {{API_Object_Property
 |Property_applies_to=apis/media_source_extensions/VideoPlaybackQuality
 |Read_only=No
-|Example_object_name=number
+|Example_object_name=VideoPlaybackQuality
 |Return_value_name=number
 |Javascript_data_type=Number
 |Example_value_name=number
