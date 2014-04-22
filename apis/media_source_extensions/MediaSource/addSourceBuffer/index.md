@@ -23,7 +23,7 @@ The media source buffer.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This example gets a video object, creates a new MediaSource object, and assigns the MediaSource object to the src (source) of the video object. It then waits for the sourceopen event to fire, and then creates a video SourceBuffer using addSourceBuffer. 
+|Description=This example gets a video object, creates a new MediaSource object, and assigns the MediaSource object to the src (source) of the video object. It then waits for the sourceopen event to fire, and then creates a video SourceBuffer using addSourceBuffer.
 |Code=<syntaxhighlight>
 // Create mediaSource and initialize video 
 function setupVideo() {
@@ -56,7 +56,16 @@ function setupVideo() {
 }</syntaxhighlight>
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Exceptions:
+INVALID_ACCESS_ERR  If type is null or an empty string.
+ 
+NOT_SUPPORTED_ERR  If type contains a MIME type that's not supported or a MIME type that's not supported by SourceBuffer.
+ 
+QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer objects.
+ 
+
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -64,10 +73,10 @@ function setupVideo() {
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=34
+|Chrome_supported=Yes
+|Chrome_version=34
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
 |Firefox_supported=Unknown
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
