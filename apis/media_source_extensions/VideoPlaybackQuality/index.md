@@ -5,9 +5,7 @@
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Provides attributes that offer information about the quality for the video currently playing.}}
-{{API_Object
-|Subclass_of=dom/HTMLVideoElement
-}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
 |Examples=
