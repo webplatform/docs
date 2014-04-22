@@ -124,6 +124,18 @@ The '''input type{{=}}range''' object has these properties.
 |Browser=Chrome
 |Version=5.0
 |Note=shows a UI, although this is not a requirement of the spec
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=11
+|Note=Never dispatch 'input' events.  Arrow keys dispatch 'change' events.
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=34+
+|Note=Dragging a thumb dispatches only 'input' events, mouseup dispatches a 'change' event. Arrow keys dispatch both of 'input' and 'change' events.
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Version=28+
+|Note=Dragging a thumb dispatches only 'input' events, mouseup dispatches a 'change' event. Arrow keys dispatch 'input' events, and a 'change' event is dispatched when the element looses focus.
 }}
 }}
 {{See_Also_Section
