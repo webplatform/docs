@@ -4,10 +4,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the timestamp for when the VideoPlaybackQuality metrics were collected.
-
-
-}}
+{{Summary_Section|Gets the timestamp for when the VideoPlaybackQuality metrics were collected.}}
 {{API_Object_Property
 |Property_applies_to=apis/media_source_extensions/VideoPlaybackQuality
 |Read_only=No
@@ -16,7 +13,7 @@
 |Javascript_data_type=VARIANT
 |Return_value_description=Type: DOMHighResTimeStamp
 The timestamp for when the quality metrics were collected.
-|Example_value_name=apis/media_source_extensions/VideoPlaybackQuality
+|Example_value_name=time
 }}
 {{Examples_Section
 |Not_required=No
