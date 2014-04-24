@@ -20,9 +20,9 @@
 *一个体面的文本编辑器。推荐的选择有[http://notepad-plus-plus.org/ Notepad++]Windows，[http://www.sublimetext.com/2 Sublime Text] 为Mac，[http://bluefish.openoffice.nl/index.html Bluefish] Linux和 [http://brackets.io Brackets] 用于Mac和Windows（Linux版本即将推出）。
 现在卷起你的袖子，准备学习吧。 [[tutorials|了解更多，查看全部文章列表！]]
 
-==网络基本面==
+==网络基础知识==
 * [[concepts/internet and web/the history of the web|互联网的历史]]
-* [[concepts/internet and web/how does the internet work|互联网是如何工作的。]]
+* [[concepts/internet and web/how does the internet work|互联网是如何工作的]]
 * [[concepts/internet and web/the web standards model|web标准模型|网络标准模型 - HTML，CSS和JavaScript]]
 * [[tutorials/getting your content online|上传您的网站到网上]]
 * [[concepts/accessibility|无障碍]]
