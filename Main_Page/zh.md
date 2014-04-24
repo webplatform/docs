@@ -31,7 +31,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="inner">
     <h3>[[concepts/zh|Web 通用概念]]</h3>
     
-    <p>概念性或指导性的文章，涵盖诸如网络工作原理，信息架构，排版和 web 设计。</p>
+    <p>概念性或指导性的文章，涵盖诸如网络工作原理，信息架构，排版和 Web 设计。</p>
     </div>
   
   </div>
@@ -67,7 +67,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="inner">
     <h3>[[concepts/accessibility|可访问性]]</h3>
     
-    <p>让 web 为各类功能性障碍人群工作的模式，实践和商业案例。</p>
+    <p>让 Web 为各类功能性障碍人群工作的模式，实践和商业案例。</p>
     </div>
   
   </div>
@@ -79,7 +79,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="inner">
     <h3>[[javascript/zh|JavaScript]]</h3>
     
-    <p>关于 web 的客户端脚本语言 JavaScript 的教程和参考资料；包括第三方 JavaScript 库的参考材料。</p>
+    <p>关于 Web 的客户端脚本语言 JavaScript 的教程和参考资料；包括第三方 JavaScript 库的参考材料。</p>
     </div>
   
   </div>
