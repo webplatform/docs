@@ -78,7 +78,8 @@ HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an ima
 &lt;!-- Link to an internal website in same directory. --&gt;
 <a href="home.html">Home</a>
 
-&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name in Save dialog. If no value is specified for the download, the name of the resource will be used.-->
+&lt;!-- Download link (HTML5 only). Value of download attribute is used as pre-filled file name in Save dialog.
+    If no value is specified for the download, the name of the resource will be used.-->
 <a href="filename_on_server.pdf" download="meaningful_filename.pdf">Download your pdf</a>
 
 &lt;!-- Open a link in the window specified by the attribute TARGET. -->
