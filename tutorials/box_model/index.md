@@ -4,9 +4,7 @@
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|This article briefly describes the CSS box model and how the elements are layed out when they are displayed.
-
-}}
+{{Summary_Section|This article briefly describes the CSS box model and how the elements are layed out when they are displayed on the browser}}
 {{Tutorial
 |Content=== Information: Box Model ==
  
@@ -16,7 +14,7 @@ The element is in the center and displays its content. Around that, there is pad
 
 The "edges" or the perimeters of each of the previous areas can have different properties defined on them.
 
-Thus the content edge can have a certain width or height, the padding edge that surrounds the content can have a certain width or height etc.
+Thus the content edge can have a certain width or height, the padding edge that surrounds the content can have a certain width or height etc. Any or all of these sizes can be zero.
 
 Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left etc.
 
