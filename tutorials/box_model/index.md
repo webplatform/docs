@@ -4,13 +4,21 @@
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|This article describes how you can use CSS to control the space that an element takes up when it is displayed.}}
-{{Tutorial
-|Content=== Information: Boxes ==
- 
-When your browser displays an element, the element takes up space. There are four parts to the space that it takes up.
+{{Summary_Section|This article briefly describes the CSS box model and how the elements are layed out when they are displayed.
 
-In the middle, there is the space that the ''element'' needs to display its content. Around that, there is ''padding''. Around that, there is a ''border''. Around that, there is a ''margin'' that separates the element from other elements.
+}}
+{{Tutorial
+|Content=== Information: Box Model ==
+ 
+When your browser displays an element, the element takes up space. You can think of all HTML elements as boxes. All boxes have  certain dimensions and are specified by four properties: a content area of the element (e.g., a picture, a  text header, etc.) and the optional padding, border and margin properties.
+
+The element is in the center and displays its content. Around that, there is padding. Around that, there is a border. Around that, there is a margin that separates the element from other elements.
+
+The "edges" or the perimeters of each of the previous areas can have different properties defined on them.
+
+Thus the content edge can have a certain width or height, the padding edge that surrounds the content can have a certain width or height etc.
+
+Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left etc.
 
         
 {{{!}} border="1"
