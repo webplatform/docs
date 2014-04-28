@@ -1,18 +1,21 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= var arrayByteLength = int32Array.byteLength;}}
+{{Summary_Section|Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=var arrayByteLength = int32Array.byteLength;
 }}
+|Values=
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to get the length of the array.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -25,13 +28,21 @@
              alert(intArr.byteLength);
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/br230726(v=vs.94).aspx
 |HTML5Rocks_link=
 }}
