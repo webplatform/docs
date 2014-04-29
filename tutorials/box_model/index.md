@@ -18,67 +18,25 @@ Thus the content edge can have a certain width or height, the padding edge that 
 
 Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left etc.
 
-        
-{{{!}} border="1"
-{{!}}-
-{{!}} 
-margin
-
- 
-border
-
-  
-padding
-
-  
-element
-
-    
-''The pale gray shows parts of the layout.''
-
- 
-{{!}}       
-element
-
-    
-''This is what you see in your browser.''
-
- 
-{{!}}} 
-
-The padding, border and margin can have different sizes on the top, right, bottom and left of the element. Any or all of these sizes can be zero.
-
+In this [http://code.webplatform.org/gist/11409432 Live Example] we see a typical declaration of a div element that we specify a width, a margin and a padding. 
  
 === Coloring ===
- 
-The padding is always the same color as the element's background. So when you set the background color, you see the color applied to the element itself and its padding. The margin is always transparent.
-     
-{{{!}} border="1"
-{{!}}-
-{{!}}  
-margin
 
- 
-border
+You can specify a color for the element backround and the padding will also get the same one automatically. The border can have its own color but the margin is always transparent so you cannot color it.
 
-  
-padding
+{| class="wikitable"
+|-
+! Property !! Color
+|-
+| Margin || Always transparent
+|-
+| Element || Same as background color (if any)
+|-
+| Padding || Gets Elements background color
+|-
+| Border|| Same as Border-color property (if any)
+|}
 
-  
-element
-
-    
-''The element has a green background.''
-
- 
-{{!}}       
-element
-
-    
-''This is what you see in your browser.''
-
- 
-{{!}}}
  
 === Borders ===
  
