@@ -24,20 +24,24 @@ In this [http://code.webplatform.org/gist/11409432 Live Example] we see a typica
 
 You can specify a color for the element backround and the padding will also get the same one automatically. The border can have its own color but the margin is always transparent so you cannot color it.
 
-{| class="wikitable"
-|-
-! Property !! Color
-|-
-| Margin || Always transparent
-|-
-| Element || Same as background color (if any)
-|-
-| Padding || Gets Elements background color
-|-
-| Border|| Same as Border-color property (if any)
-|}
 
- 
+{{{!}} class="wikitable"
+! Property
+! Color
+{{!}}-
+{{!}} Margin 
+{{!}} Always transparent
+{{!}}-
+{{!}} Element 
+{{!}} Same as background color (if any)
+{{!}}-
+{{!}} Padding 
+{{!}} Gets elements background color
+{{!}}-
+{{!}} Border
+{{!}} Same as border-color property (if any)
+{{!}}}
+
 === Borders ===
  
 You can use borders to decorate elements with lines or boxes. To specify the same border all around an element, use the {{ cssxref("border") }} property. Specify the width (usually in pixels for display on a screen), the style, and the color.
