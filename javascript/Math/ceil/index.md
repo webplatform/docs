@@ -1,10 +1,18 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the smallest integer greater than or equal to its numeric argument.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math'''.'''ceil(''' number ''')''' }}
+{{Summary_Section|Returns the smallest integer greater than or equal to its numeric argument.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math'''.'''ceil(''' number ''')'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required number argument is a numeric expression.
@@ -13,16 +21,21 @@ The return value is an integer value equal to the smallest integer greater than 
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/floor{{!}}Math.floor Function]]
 * [[javascript/Math{{!}}Math Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/w0w5b52h(v=vs.94).aspx
 |HTML5Rocks_link=
 }}
