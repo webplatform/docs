@@ -1,10 +1,18 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the cosine of a number.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math'''.'''cos(''' radians ''')''' }}
+{{Summary_Section|Returns the cosine of a number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math'''.'''cos(''' radians ''')'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required radians argument is a numeric expression that contains an angle measured in radians.
@@ -13,6 +21,9 @@ The return value is the cosine of the numeric argument of radians.
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/acos{{!}}Math.acos Function]]
 * [[javascript/Math/asin{{!}}Math.asin Function]]
@@ -20,12 +31,14 @@ The return value is the cosine of the numeric argument of radians.
 * [[javascript/Math/sin{{!}}Math.sin Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/d1b6ys0y(v=vs.94).aspx
 |HTML5Rocks_link=
 }}
