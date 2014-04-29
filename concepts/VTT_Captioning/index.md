@@ -49,7 +49,7 @@ I will use one of the many polyfils available for HTML5 Video Tracks. [http://ww
 
 One way to ensure that we only load our polyfill if the browser doesn't support tracks natively is to use Modernizr.load to conditionally load Playr's CSS and JavaScript when the browser does not support HTML5 video tag natively.
 
-<pre>Modernizr.load([
+<pre class="language-javascript">Modernizr.load([
   {
     // test whether we support video
     test : Modernizr.video,
@@ -61,7 +61,7 @@ One way to ensure that we only load our polyfill if the browser doesn't support 
 
 The code below uses plain JavaScript to test if a browser supports  HTML5 video by creating an empty video element and testing for the video's canPlayType property. It will not load the code for a polyfill like the Modernizr example.
 
-<pre>var canPlay = false;
+<pre class="language-javascript">var canPlay = false;
   var h, plink, pscript;
 
   // Create an empty video element
@@ -92,7 +92,7 @@ This is the simplest test for video support; a more elaborate version can includ
 * You are testing for support for HTML5 video in general and specific formats
 * If HTML5 video is not supported you have a flash-based fallback solution
 
-<pre>var canPlay = false;
+<pre class="language-javascript">var canPlay = false;
   // Get the video by selecting the video tag
   var v = document.getElementsByTagName('video');
   // Optionally add video attribtues as needed
@@ -178,7 +178,7 @@ Subtitles are not expected to convey additional non-verbal cues. Once again, sub
 
 Other than the content for each type of track, HTML5 video structures the track element the same way. In the example below, the only difference are the kind attributes for each track.
 
-<pre>&lt;!-- This is the captions track --&gt;
+<pre class="language-html">&lt;!-- This is the captions track --&gt;
 &lt;track kind="captions" lang="en" srclang="en" label="English" src="sintel.vtt" /&gt;
 &lt;!-- This is the subtitles track for Spanish --&gt;
 &lt;track kind="subtitles" lang="es" srclang="es" label="Espa&ntilde;ol" src="sintel-es.vtt" /&gt;
@@ -251,7 +251,7 @@ insects
 
 We can then use Javascript to parse the track content and do something with the track's content.
 
-<pre>textTrack.oncuechange = function (){
+<pre class="language-javascript">textTrack.oncuechange = function (){
   // "this" is a textTrack
   var cue = this.activeCues[0]; // assuming there is only one active cue
   var obj = JSON.parse(cue.text);
@@ -424,7 +424,7 @@ In the example above:
 
 A possible CSS rule to style the content looks like this.
 
-<pre>
+<pre class="language-css">
 ::cue:past {
   color:yellow
 }
@@ -453,7 +453,7 @@ Searching
 
 We can style the speaker semantic classes using CSS. For example we can add a different color for each speaker, something like the example below:
 
-<pre>video::cue(v.gatekeeper) {
+<pre class="language-css">video::cue(v.gatekeeper) {
   color:lime;
 }
 
@@ -512,7 +512,7 @@ Either in a supported browser or using one of the polyfills available (like we'v
 
 There is one non-standard attribute we will add to the video to  make it work with Playr. The code below shows what a video track looks with associated an associated caption track for English.
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;Sample Captioned Video&lt;/title&gt;
@@ -547,7 +547,7 @@ The working example is located at [http://labs.rivendellweb.net/vtt-demos/basic.
 
 The same example without polyfill support and supporting captions in English and Spanish with the English caption being the default. The default attribute will also display the captions automatically
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;Sample Captioned Video&lt;/title&gt;
@@ -579,7 +579,7 @@ The same example without polyfill support and supporting captions in English and
 
 The final example contains multiple caption tracks, subtitles in Spanish and descriptions for the video.
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;Sample Captioned Video&lt;/title&gt;
@@ -624,7 +624,7 @@ Using jQuery, an extract of the audio for the Sintel video and the same captions
 
 As you can see, description tracks would be particularly useful in this case as they would provide a more complete context to the audio.
 
-<pre>jQuery(document).ready(function() {
+<pre class="language-javascript">jQuery(document).ready(function() {
     // Step below is optional. I don't like taking
     // the option from the user and autoplay the video
     $('audio').trigger("play");
