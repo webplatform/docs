@@ -8,7 +8,7 @@
 {{Tutorial
 |Content=== Information: Box Model ==
  
-When your browser displays an element, the element takes up space. You can think of all HTML elements as boxes. All boxes have  certain dimensions and are specified by four properties: a content area of the element (e.g., a picture, a  text header, etc.) and the optional padding, border and margin properties.
+When your browser displays an element, the element takes up space. You can think of all HTML elements as boxes. All boxes have  certain dimensions and are specified by four properties: a content area of the element (e.g., a picture, a  text header, etc.) and the optional [[css/properties/padding|padding]], [[css/properties/border|border]] and [[css/properties/margin|margin]] properties.
 
 The element is in the center and displays its content. Around that, there is padding. Around that, there is a border. Around that, there is a margin that separates the element from other elements.
 
@@ -44,36 +44,47 @@ You can specify a color for the element backround and the padding will also get 
 
 === Borders ===
  
-You can use borders to decorate elements with lines or boxes. To specify the same border all around an element, use the {{ cssxref("border") }} property. Specify the width (usually in pixels for display on a screen), the style, and the color.
+You can use borders to decorate elements with lines or boxes. To specify the same border all around an element, use the [[css/properties/border|border]] property. Specify the width (usually in pixels for display on a screen), the style, and the color.
 
 The styles are:
 
-                
-{{{!}} border="1"
-{{!}}-
-{{!}}  <code>solid</code> 
-{{!}}  <code>dotted</code> 
-{{!}}  <code>dashed</code> 
-{{!}}  <code>double</code> 
-{{!}}-
-{{!}}  <code>inset</code> 
-{{!}}  <code>outset</code> 
-{{!}}  <code>ridge</code> 
-{{!}}  <code>groove</code> 
-{{!}}} 
+; none
+: no border
+; dotted
+: border as a series of dots
+; dashed
+: border as a series of dashes
+; solid
+: border as single lines
+; double
+: border as two single lines with the same width as the [[css/properties/border-width|border-width]] property
+; groove
+: border as a grooved etched line
+; ridge
+: border as a ridged etched line
+; inset
+: border looks like its coming inside the element
+; outset
+: opposite of inset. Border looks like its coming out of the element 
 
-You can also set the style to <code>none</code> or <code>hidden</code> to explicitly remove the border, or set the color to <code>transparent</code> to make the border invisible without changing the layout.
+See the [http://code.webplatform.org/gist/11411135 Live Example]
 
-To specify borders one side at a time, use the properties: {{ cssxref("border-top") }}, {{ cssxref("border-right") }}, {{cssxref("border-bottom")}}, {{cssxref("border-left")}}. You can use these to specify a border on only one side, or different borders on different sides.
+You can also set the style to <code>hidden</code> which is the same as none to explicitly remove the border, or set the color to <code>transparent</code> to make the border invisible without changing the layout.
 
-Border example 
-This rule sets the background color and the top border of heading elements:
+To specify borders one side at a time, use the properties: [[css/properties/border-top|border-top]] ,  [[css/properties/border-right|border-right]] , [[css/properties/border-bottom|border-bottom]] ,  [[css/properties/border-left|border-left]] . You can use these to specify a border on only one side, or different borders on different sides.
 
-<syntaxhighlight lang="css">h3 {
-  border-top: 4px solid #7c7; /* mid green */
-  background-color: #efe;     /* pale green */
-  color: #050;                /* dark green */
-}</syntaxhighlight>
+Border sides example 
+This rule sets the dimensions, the background color and the top border of all div elements:
+
+<syntaxhighlight lang="css">
+ div {
+        width: 200px;
+	height: 100px;   /* required to give divs some height */
+	border-top: 4px solid green; 
+        background-color: yellow;
+        color: dark-green;
+}     
+</syntaxhighlight>
  
 The result looks like:
 
@@ -81,7 +92,9 @@ The result looks like:
  
 This rule makes images easier to see by giving them a mid-gray border all round:
 
-<syntaxhighlight lang="css">img {border: 2px solid #ccc;}</syntaxhighlight>
+<syntaxhighlight lang="css">
+img {border: 2px solid #ccc;}
+</syntaxhighlight>
   
 The result looks like:
 
