@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets or gets the value of a '''TextNode'''.}}
+{{Summary_Section|Sets or gets a node's character data.}}
 {{API_Object_Property
 |Property_applies_to=dom/CharacterData
 |Read_only=No
@@ -35,9 +34,7 @@ function fnChangeValue(){
 &lt;/ul&gt;
 }}
 }}
-{{Notes_Section
-|Usage={{TODO|The API name in the Syntax section should be ''data'', not ''data (TextNode)''.}}
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 1
