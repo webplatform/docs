@@ -8,7 +8,7 @@
  
 So you’ve written a few HTML pages, and they seem to display ok to you, but there are a few things not quite right with them. What is the best way to start finding out what is wrong, and ensure that these pages (and any future pages you write) will be displayed properly across browsers, with no errors?
 
-Validation is the answer! There are many tools available, from the W3C and other places, that allow you to validate the code on your sites. The most common three validators you’ll use are:
+Validation is the answer! There are many tools available, from the W3C and other places, that allow you to validate the code on your sites. The most common validators you’ll use are:
 
 * [http://html5.validator.nu/ Validator.nu]: A new-school validator that validates HTML5, ARIA, SVG 1.1 and MathML 2.0: it goes through the entire document pointing out places where your markup doesn’t follow that doctype correctly (ie. where there are errors). This is the one we recommend if you are using the HTML5 doctype, like we do throughout most of this course.
 * [http://validator.w3.org/ The W3C MarkUp Validator]: This looks at the (X)HTML doctype you are using for the document you give it to check, and then checks your markup accordingly. This is the one we recommend if you are using an HTML4 or XHTML1.x doctype. It does validate HTML5, but validator.nu is arguably more up to date.
