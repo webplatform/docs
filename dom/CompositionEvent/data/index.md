@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the text affected by the event.}}
+{{Summary_Section|Gets the text affected by the composition event.}}
 {{API_Object_Property
 |Property_applies_to=dom/CompositionEvent
 |Read_only=Yes
@@ -69,7 +69,7 @@
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/TextEvent|TextEvent]]</code>
 }}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
