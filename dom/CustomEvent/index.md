@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Represents a custom, developer generated event.}}
+{{Summary_Section|Represents a custom, developer-generated event.
+This is the recommended interface for application-specific event types. Unlike the Event interface, it allows applications to provide contextual information about the event type.
+}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
