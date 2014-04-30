@@ -11,7 +11,7 @@
 |Overview='''CloseEvent''' is sent to clients using [[apis/websocket/WebSocket|WebSocket]] when the connection is closed. This is delivered to the listener indicated by the WebSocket object's [[apis/websocket/WebSocket/onclose|onclose]] attribute.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
