@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Extracts a range of characters from the object.}}
+{{Summary_Section|Extracts a range of characters from the node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=offset
@@ -22,7 +23,7 @@
 |Example_object_name=textualNode
 |Return_value_name=substring
 |Javascript_data_type=String
-|Return_value_description=The requested sub string.
+|Return_value_description=The requested substring.
 }}
 {{Examples_Section
 |Not_required=No
@@ -44,6 +45,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
