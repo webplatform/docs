@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|Sets the width of an element's four borders. This property can have from one to four values. This is a shorthand property for setting values simultaneously for [[css/properties/border-top-width|border-top-width]], [[css/properties/border-right-width|border-right-width]], [[css/properties/border-bottom-width|border-bottom-width]], and [[css/properties/border-left-width|border-left-width]].}}
 {{CSS Property
@@ -26,7 +26,7 @@
 |Description=Greater than the default width.
 }}{{CSS Property Value
 |Data Type=<width>
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
+|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see [[http://www.w3.org/TR/css3-background/#the-border-width|CSS Values and Units Reference]].
 }}{{CSS Property Value
 |Data Type=<border-top-width> <border-right-width> <border-bottom-width> <border-left-width>
 |Description=Shorthand syntax. See notes below.
@@ -62,8 +62,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/#border-width
-|Status=Candidate Recommendation
+|URL=http://www.w3.org/TR/css3-background/#the-border-width
+|Status=Last Call Working Draft
 }}
 }}
 {{Compatibility_Section
