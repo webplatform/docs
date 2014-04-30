@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Replaces a specified range of characters in the object with a new character string.}}
+{{Summary_Section|Replaces a specified range of characters in the node with a new character string.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=offset
@@ -32,7 +33,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=If the sum of the ''offset'' and ''Count'' parameters exceeds the number of characters in the object, then all the characters to the end of the data are replaced.
+|Notes=If the sum of the ''offset'' and ''count'' parameters exceeds the number of characters in the object, then all the characters from the offset to the end of the data are replaced.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,6 +45,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
