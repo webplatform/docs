@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents the [[dom/Event/beforeunload|beforeunload]] event which can be used to prevent a navigation from happening.}}
+{{Summary_Section|Represents the [[dom/Event/beforeunload|beforeunload]] event which can be used to take an action (e.g., display a prompt, prevent a navigation from happening) before unloading the current page.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
