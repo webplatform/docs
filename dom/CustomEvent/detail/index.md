@@ -1,7 +1,7 @@
 {{Page_Title|detail (CustomEvent)}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -19,7 +19,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use this property to retrieve additional information about this developer generated custom event. It may not include any information.
+|Usage=Use this property to retrieve any available additional information about this developer-generated custom event. Note: It may not contain any information.
 |Notes=After a custom event object is created, use the [[dom/CustomEvent/initCustomEvent|initCustomEvent]] method to set the value of the this property.
 }}
 {{Related_Specifications_Section
@@ -38,7 +38,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
