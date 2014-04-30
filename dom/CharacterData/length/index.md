@@ -1,19 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the number of characters in a textual node.}}
+{{Summary_Section|Gets the number of characters in a text node.}}
 {{API_Object_Property
 |Property_applies_to=dom/CharacterData
 |Read_only=Yes
 |Example_object_name=textualNode
 |Return_value_name=textLength
 |Javascript_data_type=Number
-|Return_value_description=The number of characters in a textual node.
+|Return_value_description=The number of characters in the node.
 }}
 {{Examples_Section
 |Not_required=No
