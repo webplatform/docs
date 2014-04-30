@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides specific contextual information associated with Animation events.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
@@ -20,7 +19,6 @@ AnimationEvent objects provide information about events that occur related to Ca
 
 The time the animation has been running is sent with each event generated. This allows the event handler to determine the current iteration of a looping animation or the current position of an alternating animation. This time does not include any time the animation was in the paused play state.
  
-
 }}
 {{Related_Specifications_Section
 |Specifications=
