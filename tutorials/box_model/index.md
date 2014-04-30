@@ -1,6 +1,6 @@
 {{Page_Title|Exploring the CSS box model}}
 {{Flags
-|Content=Incomplete, Cleanup
+|Content=Needs Review
 |Checked_Out=No
 }}
 {{Byline}}
@@ -67,13 +67,13 @@ The styles are:
 ; outset
 : opposite of inset. Border looks like its coming out of the element 
 
-See the [http://code.webplatform.org/gist/11411135 Live Example]
+See the [http://code.webplatform.org/gist/11411135 Live Example] border styles
 
 You can also set the style to <code>hidden</code> which is the same as none to explicitly remove the border, or set the color to <code>transparent</code> to make the border invisible without changing the layout.
 
 To specify borders one side at a time, use the properties: [[css/properties/border-top|border-top]] ,  [[css/properties/border-right|border-right]] , [[css/properties/border-bottom|border-bottom]] ,  [[css/properties/border-left|border-left]] . You can use these to specify a border on only one side, or different borders on different sides.
 
-Border sides example 
+<p>Border sides example.</p>
 This rule sets the dimensions, the background color and the top border of all div elements:
 
 <syntaxhighlight lang="css">
@@ -86,23 +86,19 @@ This rule sets the dimensions, the background color and the top border of all di
 }     
 </syntaxhighlight>
  
-The result looks like:
+The result looks like [[http://code.webplatform.org/gist/11429299|This Live Example]]
 
-<p class="note">Note: add screenshot to show what this should look like.</p>
- 
 This rule makes images easier to see by giving them a mid-gray border all round:
 
 <syntaxhighlight lang="css">
 img {border: 2px solid #ccc;}
 </syntaxhighlight>
   
-The result looks like:
-
-<p class="note">Note: add screenshot to show what this should look like.</p>
+The result looks like [[http://code.webplatform.org/gist/11429444|This Live Example]]
    
 === Margins and padding ===
  
-You use margins and padding to adjust elements' positions and to create space around them. Use the {{ cssxref("margin") }} property or the {{ cssxref("padding") }} property to set the margin or padding widths respectively.
+You use margins and padding to adjust elements' positions and to create space around them. Use the [[css/properties/margin|margin]] property or the [[css/properties/padding|padding]] property to set the margin or padding widths respectively.
 
 If you specify one width, it applies all around the element (top, right, bottom and left). If you specify two widths, the first applies to the top and bottom, the second to the right and left. You can specify all four widths in the order: top, right, bottom, left.
 
@@ -116,9 +112,7 @@ This rule marks out paragraphs with the class <code>remark</code> by giving them
   margin-left: 24px;
 }</syntaxhighlight>
  
-The result looks like:
-
-<p class="note">Note: add screenshot to show what this should look like.</p>  
+The result looks like [[http://code.webplatform.org/gist/11429785|This Live Example]]
 
 ==More details== 
 
@@ -128,23 +122,18 @@ To get the result you want, you might have to change your document's markup. The
   
 == Action: Adding borders ==
  
-<ul>
-<li><p>Edit your CSS file, <code>style2.css</code>. Add this rule to draw a line across the page over each heading:</p>
+* <p>Edit your CSS file, <code>style2.css</code>. Add this rule to draw a line across the page over each heading:</p>
 
 <syntaxhighlight lang="css">h3 {border-top: 1px solid gray;}</syntaxhighlight>
- </li>
-<li>
-<p>If you took the challenge on the last page, modify the rule you created, otherwise add this new rule to add space underneath each list item:</p>
+*  <p>If you took the challenge on the last page, modify the rule you created, otherwise add this new rule to add space underneath each list item:</p>
  
 <syntaxhighlight lang="css">li {
   list-style: lower-roman;
   margin-bottom: 8px;
 }</syntaxhighlight>
-</li>
-<li> 
-<p>Refresh your browser to see the result:</p>
 
-<p class="note">Need to add in a screenshot to show what this should look like.</p>
+*  Refresh your browser to see the [[http://code.webplatform.org/gist/11431094| Result]]
+
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -157,7 +146,9 @@ To get the result you want, you might have to change your document's markup. The
 {{See_Also_Section
 |Manual_sections====Exercise questions===
 
-Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
+# Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
+# Look at a random website and see if you can find a paragraph or a section and guess that box model. Write down in a piece of paper their padding, margin, border properties. Then compare them to the actual CSS layout as you inspect the element in your browser.
+
 }}
 {{Topics|CSS}}
 {{External_Attribution
