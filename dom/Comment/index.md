@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,7 +10,7 @@
 |Subclass_of=dom/CharacterData, dom/Node, dom/EventTarget
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
@@ -24,6 +24,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
