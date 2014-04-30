@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The value of the ''animation-name'' property of the animation that fired the event.}}
 {{API_Object_Property
 |Property_applies_to=dom/AnimationEvent
 |Read_only=No
