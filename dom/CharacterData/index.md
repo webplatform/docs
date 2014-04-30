@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|An interface for common character data operations for objects in the DOM.}}
+{{Summary_Section|An interface for accessing character data and performing common character data operations for objects in the DOM.}}
 {{API_Object
 |Subclass_of=dom/Node, dom/EventTarget
 }}
@@ -24,6 +24,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
