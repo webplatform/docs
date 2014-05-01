@@ -59,8 +59,8 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
+|Chrome_supported=Yes
+|Chrome_version=35
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=No
