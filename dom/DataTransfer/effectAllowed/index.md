@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets or gets which data transfer operations are allowed for the object on the source element.}}
+{{Summary_Section|Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
 |Read_only=No
@@ -30,7 +29,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the [[dom/DataTransfer/dropEffect|'''dropEffect''']] and '''effectAllowed''' properties of the [[dom/DataTransfer|'''DataTransfer''']] object to display the move cursor.
-{{TODO|Make sure this examples works and remove this comment (also in the dropEffect page).}}
+
 |Code=<!doctype html>
 <html>
  <head>
@@ -129,8 +128,7 @@ property to display the move cursor. The default action must be canceled in all 
 *'''move'''
 *'''all'''
 *'''uninitialized'''
-|Notes====Remarks===
-Set the '''effectAllowed''' property in the [[dom/DragEvent/dragstart|'''ondragstart''']] event. This property is used most effectively with the [[dom/DataTransfer/dropEffect|'''dropEffect''']] property.
+|Notes=Set the '''effectAllowed''' property in the [[dom/DragEvent/dragstart|'''ondragstart''']] event. This property is used most effectively with the [[dom/DataTransfer/dropEffect|'''dropEffect''']] property.
 This property can be used to override the default behavior in other applications. For example, the script can set the '''effectAllowed''' property to '''copy''' for a text field and override the Microsoft Word default of '''move'''. In the application, '''copy''' is the default '''effectAllowed''' behavior; however,  anchors are set to '''link''' by default, and text fields are set to '''move''' by default.
 By setting '''effectAllowed''' to '''none''', dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [[dom/BeforeUnloadEvent/returnValue|'''returnValue''']] of the [[dom/DragEvent/dragstart|'''ondragstart''']] window.
 }}
