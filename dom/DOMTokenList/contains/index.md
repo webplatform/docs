@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns <code>true</code> if the token is present; <code>false</code> otherwise.}}
+{{Summary_Section|Tests if a token is part of this DOMTokenList. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=token
@@ -18,6 +19,7 @@
 |Return_value_name=tokenExists
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the given token exists in the list.
+Returns <code>true</code> if the token is present; <code>false</code> otherwise.
 }}
 {{Examples_Section
 |Not_required=No
