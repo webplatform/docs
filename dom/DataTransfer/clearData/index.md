@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -62,6 +61,7 @@ window.addEventListener("load", initialize, false);
 {{Notes_Section
 |Notes=*If no ''format'' parameter is passed, all of the data formats are cleared.
 *For drag-and-drop operations, the '''clearData''' method of the [[dom/DataTransfer|DataTransfer]] object is used generally in source events, such as [[dom/DragEvent/dragstart|dragstart]]. When you override the default behavior of the target, use '''clearData''' in the [[dom/DragEvent/drop|drop]] event. It is particularly useful for selectively removing data formats when multiple formats are specified.
+*The clearData() method does not affect whether any files were included in the drag, so the types attribute's list might still not be empty after calling clearData() (it would still contain the "Files" string if any files were included in the drag).
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -86,9 +86,8 @@ window.addEventListener("load", initialize, false);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
-
 }}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
