@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the data in the specified format from the clipboard through the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
+{{Summary_Section|Gets the data in the specified format from the clipboard through the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.
+If there is no data, returns an empty string.
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
@@ -90,9 +91,8 @@ window.addEventListener("load", initialize, false);
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/clipboardData|clipboardData]]</code>
-
 }}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
