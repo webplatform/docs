@@ -1,19 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a string list of formats that were sent in the [[dom/DragEvent/dragstart|'''ondragstart''']] event.}}
+{{Summary_Section|Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string "Files".}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
 |Read_only=Yes
 |Example_object_name=event.dataTransfer
 |Return_value_name=dragTypes
 |Javascript_data_type=DOM Node
-|Return_value_description=An array of dragged formats, if files were dragged, one of the value may be "Files".
+|Return_value_description=An array of dragged formats.
 }}
 {{Examples_Section
 |Not_required=No
