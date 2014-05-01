@@ -8,7 +8,7 @@
 {{Summary_Section|Represents a DOM operation exception.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
