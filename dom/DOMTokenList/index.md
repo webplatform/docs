@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a whitespace separated token list within the DOM, providing utility methods for manipulating it.}}
+{{Summary_Section|Represents a space-separated token list within the DOM.
+DOMTokenList objects are always case-sensitive, even when the underlying string might ordinarily be treated in a case-insensitive manner.
+}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
