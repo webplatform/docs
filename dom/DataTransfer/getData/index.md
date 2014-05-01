@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the data in the specified format from the clipboard through the '''dataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.
+{{Summary_Section|Gets the data in the specified format from the clipboard through the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.
 If there is no data, returns an empty string.
 }}
 {{API_Object_Method
