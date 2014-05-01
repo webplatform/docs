@@ -1,6 +1,5 @@
 {{Page_Title|The HTML <head>}}
 {{Flags
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article covers the most common parts that can be included in the <code><head></code> section of HTML documents. Making sure that all of these are correct will result in your document being fast, and easy to find and understand.}}
