@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -12,7 +11,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=DOM operations only raise exceptions in "exceptional" circumstances, when an operation is impossible to perform (e.g., for logical reasons, because data is lost, or because the implementation has become unstable). In general, DOM methods return specific error values in ordinary processing situations
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
