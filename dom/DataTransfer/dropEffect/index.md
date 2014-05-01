@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Sets or gets the type of drag-and-drop operation and the type of cursor to display.}}
+{{Summary_Section|Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
 |Read_only=No
@@ -25,7 +24,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
-{{TODO|Make sure this examples works and remove this comment (also in the effectAllowed page).}}
+
 |Code=<!doctype html>
 <html>
  <head>
@@ -134,7 +133,7 @@ There is a default drag-and-drop functionality for the following elements: [[htm
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
