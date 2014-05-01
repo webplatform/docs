@@ -10,7 +10,7 @@ DOMTokenList objects are always case-sensitive, even when the underlying string 
 }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
