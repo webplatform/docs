@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Retrieves a string that describes the error that occurred.}}
+{{Summary_Section|Retrieves a string describing the exception that occurred.}}
 {{API_Object_Property
 |Property_applies_to=dom/DOMException
 |Read_only=Yes
