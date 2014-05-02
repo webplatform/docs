@@ -9,7 +9,7 @@
 {{Summary_Section|The value of the ''animation-name'' property of the animation that fired the animation event.}}
 {{API_Object_Property
 |Property_applies_to=dom/AnimationEvent
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
