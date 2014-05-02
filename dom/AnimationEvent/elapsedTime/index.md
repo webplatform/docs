@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -9,16 +8,21 @@
 {{Summary_Section|The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.}}
 {{API_Object_Property
 |Property_applies_to=dom/AnimationEvent
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//for a predefined animation event that is running
+var myAnimEvent = new AnimationEvent();
+// . . .
+//retrieve the elapased time
+var myAnimTime = myAnimEvent.elapsedTime;
+}}
 }}
 {{Notes_Section
-|Notes====Remarks===
-'''Note'''  This value is not affected by the value of [[css/properties/animation-delay|'''animation-delay''']]. For an animationStart type event (see [[dom/AnimationEvent/initAnimationEvent|'''initAnimationEvent''']]), the '''elapsedTime''' is always zero.
-|Import_Notes====Syntax===
+|Notes=For an '''animationstart''' event, the elapsedTime is zero (0.0) unless there was a negative value for ''animation-delay'', in which case the event will be fired with an elapsedTime of ''(-1 * delay)''.
 }}
 {{Related_Specifications_Section
 |Specifications=
