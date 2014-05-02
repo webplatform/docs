@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -11,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=offset
 |Data type=String
-|Description=The offset from which to start.
+|Description=The zero-based offset from which to start.
 |Optional=No
 }}{{Method Parameter
 |Name=count
@@ -30,7 +29,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is much better than a perfect plan tomorrow.");
+//replace "much" with "way"
+phrase.replaceData(23, 4, "way");
+//report result
+alert(phrase.data);
+}}
 }}
 {{Notes_Section
 |Notes=If the sum of the ''offset'' and ''count'' parameters exceeds the number of characters in the object, then all the characters from the offset to the end of the data are replaced.
