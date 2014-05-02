@@ -18,7 +18,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//set returnValue to custom string
+window.onbeforeunload = function (e) {
+    e.returnValue = "About to navigate away from this page";
+};
+}}
 }}
 {{Notes_Section
 |Usage=The [[dom/BeforeUnloadEvent|'''BeforeUnloadEvent''']] allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or '''Boolean''' value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
