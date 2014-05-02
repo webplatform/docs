@@ -6,7 +6,9 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Provides specific contextual information associated with animation events.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=dom/Event
+}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
