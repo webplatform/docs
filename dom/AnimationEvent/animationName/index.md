@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -13,7 +12,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//define animation event
+var myAnimEvent = new AnimationEvent();
+//retrieve name
+var myAnimName = myAnimEvent.animationName;
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
