@@ -18,6 +18,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is better than a perfect plan tomorrow.");
+//report contents
+alert(phrase.data);
+//modify contents
+phrase.data = "Any plan is better than no plan at all.";
+//report contents
+alert(phrase.data);
+}}{{Single Example
 |Language=HTML
 |Description=This example uses the '''data''' property to change the value of a text node.
 |Code=&lt;script&gt;
