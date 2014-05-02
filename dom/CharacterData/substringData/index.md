@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -11,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=offset
 |Data type=String
-|Description=The offset from which to start.
+|Description=The zero-based offset from which to start.
 |Optional=No
 }}{{Method Parameter
 |Name=count
@@ -27,7 +26,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is way better than a perfect plan tomorrow.");
+//retrieve substring "way"
+var subst = phrase.substringData(23, 3);
+//report result
+alert(subst);
+}}
 }}
 {{Notes_Section
 |Notes=If the sum of the ''offset'' and ''count'' parameters exceeds the number of characters in the object, then an error is returned.
