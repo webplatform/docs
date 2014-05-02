@@ -8,7 +8,7 @@
 {{Summary_Section|Provides specific contextual information associated with animation events.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -32,7 +32,6 @@ The different types of animation events that can occur are:
 *Bubbles: Yes
 *Cancelable: No
 *Context Info: animationName, elapsedTime, pseudoElement
-
 }}
 {{Related_Specifications_Section
 |Specifications=
