@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The value of the ''animation-name'' property of the animation that fired the event.}}
+{{Summary_Section|The value of the ''animation-name'' property of the animation that fired the animation event.}}
 {{API_Object_Property
 |Property_applies_to=dom/AnimationEvent
 |Read_only=No
