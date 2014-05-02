@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -20,7 +19,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode("A flawed plan today");
+//append string to node (note initial space)
+phrase.appendData(" is better than a perfect plan tomorrow.");
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
