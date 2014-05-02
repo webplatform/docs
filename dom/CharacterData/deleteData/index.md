@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -11,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=offset
 |Data type=String
-|Description=The offset from which to start.
+|Description=The zero-based character offset from which to start.
 |Optional=No
 }}{{Method Parameter
 |Name=count
@@ -25,7 +24,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is not better than a perfect plan tomorrow.");
+//delete "not " (note trailing space)
+phrase.deleteData(23, 4);
+//report result
+alert(phrase.data);
+
+}}
 }}
 {{Notes_Section
 |Usage=Upon success of this method, the [[dom/CharacterData/data|'''data''']] and [[dom/CharacterData/length|'''length''']] properties reflect the change.
