@@ -17,6 +17,12 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is better than a perfect plan tomorrow.");
+//report length
+alert(phrase.length);
+}}{{Single Example
 |Language=HTML
 |Description=This example uses the '''length''' property to specify where a [[dom/TextNode|'''TextNode''']] is split by using the [[dom/TextNode/splitText|'''splitText''']] method.
 |Code=&lt;script&gt;
