@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a ''@font-face'' rule.}}
+{{Summary_Section|Represents a CSS '''@font-face''' rule, used to hold a set of font descriptions.}}
 {{API_Object
 |Subclass_of=css/cssom/CSSRule
 }}
@@ -17,7 +17,6 @@
 {{Notes_Section
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 2.2
-
 }}
 {{Related_Specifications_Section
 |Specifications=
