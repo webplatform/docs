@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Provides specific contextual information associated with Animation events.}}
+{{Summary_Section|Provides specific contextual information associated with animation events.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
