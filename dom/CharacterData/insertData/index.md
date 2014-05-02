@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -11,7 +10,7 @@
 |Parameters={{Method Parameter
 |Name=offset
 |Data type=String
-|Description=The offset from which to start.
+|Description=The zero-based offset from which to start.
 |Optional=No
 }}{{Method Parameter
 |Name=text
@@ -25,7 +24,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create text node
+var phrase = document.createTextNode ("A flawed plan today is better than a perfect plan tomorrow.");
+//insert "much " (note trailing space)
+phrase.insertData(23, "much ");
+//report result
+alert(phrase.data);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
