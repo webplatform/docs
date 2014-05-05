@@ -6,8 +6,6 @@
 {{Basic Page}}
 {{Languages}}
 
-
-
 ==Before you start==
 
 In this course, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
@@ -21,6 +19,7 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ***[http://microsoft.com/ie Internet Explorer]
 ** Mac OS
 ***[http://www.apple.com/safari/ Safari].
+
 * A decent text editor. Reasonable free options are 
 ** All Platforms
 <!--
@@ -48,7 +47,12 @@ Thank you for your co operation.
 ** Linux
 ***[http://www.geany.org/ Geany]
 
+
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
+
+==More on Browser testing==
+
+If you want to test various versions of Internet Explorer, you can use a Virtual Machine ("VM"). On [http://modern.ie modern.ie], you can download VMs from various versions of Windows and Internet Explorer and run them on either Mac, Linux, or Windows. Those VMs are free for use but will require you to delete and reinstall the VM at every 30 days. But it allows you to test on all available versions of Windows.  To do this, you can have a look at the site [http://modern.ie modern.ie].
 
 ==Web fundamentals==
 
@@ -105,7 +109,4 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
