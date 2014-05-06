@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -17,14 +16,23 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getCloseCode(e) {
+//retrieve text for composition event
+var compEventText = e.data;
+return compEventText;
+}
+
+}}
 }}
 {{Notes_Section
-|Notes=*The value varies by the event type -
-**For '''compositionstart''' - the text that was selected.
-**For '''compositionupdate''' - the current text.
-**For '''compositionend''' - the text that will be committed.
-*If a user cancels a composition event, the '''data''' attribute is set to null on the final '''compositionupdate''' event.
+|Notes=The value varies by the event type:
+*For '''compositionstart''' - the text that was selected.
+*For '''compositionupdate''' - the current text.
+*For '''compositionend''' - the text that will be committed.
+
+If a user cancels a composition event, the '''data''' attribute is set to null on the final '''compositionupdate''' event.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
