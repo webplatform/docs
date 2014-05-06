@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -17,7 +16,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getExceptionMsg(e) {
+//retrieve text for DOMException
+var exceptionMsg = e.message;
+return exceptionMsg;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
