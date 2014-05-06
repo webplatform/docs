@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -17,7 +16,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getErrorName(e) {
+//retrieve name text for DOMError
+var errorName = e.name;
+return errorName;
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
