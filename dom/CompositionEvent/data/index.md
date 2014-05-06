@@ -18,12 +18,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=function getCloseCode(e) {
+|Code=function getCompEventText(e) {
 //retrieve text for composition event
 var compEventText = e.data;
 return compEventText;
 }
-
 }}
 }}
 {{Notes_Section
