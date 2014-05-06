@@ -12,7 +12,7 @@
 |Example_object_name=error
 |Return_value_name=errorName
 |Javascript_data_type=String
-|Return_value_description=The name associated with an error and any (optional) message.
+|Return_value_description=The name associated with an error.
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +23,6 @@
 var errorName = e.name;
 return errorName;
 }
-
 }}
 }}
 {{Notes_Section}}
