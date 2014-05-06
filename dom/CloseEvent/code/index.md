@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -17,7 +16,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getCloseCode(e) {
+//retrieve close code for closeEvent
+var closeCode = e.code;
+return closeCode;
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
