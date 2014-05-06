@@ -1,4 +1,4 @@
-{{Page_Title|detail (CustomEvent)}}
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
 |Content=Examples Needed
@@ -16,11 +16,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getCustomEventDetail(e) {
+//retrieve detail for custom event
+var customEventDetail = e.detail;
+return customEventDetail;
+}
+
+}}
 }}
 {{Notes_Section
-|Usage=Use this property to retrieve any available additional information about this developer-generated custom event. Note: It may not contain any information.
-|Notes=After a custom event object is created, use the [[dom/CustomEvent/initCustomEvent|initCustomEvent]] method to set the value of the this property.
+|Usage=Use this property to retrieve any available additional information about this developer-generated custom event. Note: It may be empty.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
