@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the locale name for the composition event.}}
+{{Summary_Section|Gets the locale name (language code, e.g., "en-US", "fr", "de", "ja", etc.) for the composition event, if available; otherwise, the empty string.}}
 {{API_Object_Property
 |Property_applies_to=dom/CompositionEvent
 |Read_only=Yes
@@ -17,7 +16,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function getLocale(e) {
+//retrieve locale string for composition event
+var localeString = e.locale;
+return localeString;
+}
+
+}}
 }}
 {{Notes_Section
 |Notes=For trusted events, the '''locale''' property is set for keyboard and Input Method Editor (IME) input only. The locale name is set from the default LCID of the thread, <code>en-US</code>, for example.
