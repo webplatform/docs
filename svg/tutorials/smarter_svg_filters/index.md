@@ -32,7 +32,7 @@ has recently been extended to CSS, so it helps to clarify what
 ''filter'' means in that context.  CSS filters currently come in two
 flavors:
 
-* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as the [[css/functions/blur|'''blur()''']] and [[css/functions/grayscale|'''grayscale()''']] functions specified by the [[css/properties/filter|'''filter''']] property. These CSS functions can be chained together to form larger effects. (Each is actually implemented as an SVG filter.) See [[tutorials/css_filters|Understanding CSS filter effects]] for a guide to these CSS functions.
+* Built-in ''filter functions'' provide a series of fairly standard pre-built image processing effects, such as the [[css/functions/blur()|'''blur()''']] and [[css/functions/grayscale()|'''grayscale()''']] functions specified by the [[css/properties/filter|'''filter''']] property. These CSS functions can be chained together to form larger effects. (Each is actually implemented as an SVG filter.) See [[tutorials/css_filters()|Understanding CSS filter effects]] for a guide to these CSS functions.
 
 * In addition to standard two-dimensional image processing features, CSS ''custom filters'' allow you to warp the surface of an element in three dimensions using [[webgl|WebGL]]. Custom CSS filters are also known as ''shaders'', either ''vertex'' shaders that warp a surface, or ''fragment'' shaders that modify the pixels that cover the resulting surface.
 
@@ -54,7 +54,7 @@ Place a [[svg/elements/filter|'''filter''']] element within the SVG's
 filter effect elements, all prefixed ''fe''.  In this example, a
 [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] element produces
 a blurring effect, which matches the effect of the
-[[css/functions/blur|'''blur()''']] CSS filter function:
+[[css/functions/blur()|'''blur()''']] CSS filter function:
 
 <syntaxhighlight lang="xml">
 <filter id="css_blur">
@@ -105,7 +105,7 @@ that in this case is a bit more legible:
 If you want to apply this customized SVG filter to HTML content, place
 it in an SVG file and use the corresponding
 [[css/properties/filter|'''filter''']] CSS property to reference it
-using the same [[css/functions/url|'''url()''']] function:
+using the same [[css/functions/url()|'''url()''']] function:
 
 <syntaxhighlight lang="css">
 .sidewaysBlur {
@@ -181,7 +181,7 @@ multiplies the [[svg/attributes/slope|'''slope''']] value (relative to
 the default '''1'''), then adds an
 [[svg/attributes/intercept|'''intercept''']] value if present.  The
 first example below reproduces the effect of the CSS
-[[css/functions/brightness|'''brightness()''']] function, flattening
+[[css/functions/brightness()|'''brightness()''']] function, flattening
 the slope to darken the image. The second increases the slope to
 brighten the image, but then drops all values by a fixed amount,
 zeroing out many of them:
@@ -221,9 +221,9 @@ zeroing out many of them:
 Setting the [[svg/attributes/type|'''type''']] to '''table''' lets you
 specify your own linear slope based on two
 [[svg/attributes/tableValues|'''tableValues''']].  The first example
-behaves like the CSS [[css/functions/opacity|'''opacity()''']]
+behaves like the CSS [[css/functions/opacity()|'''opacity()''']]
 function.  The second, specifying a negative slope from 1 to 0,
-behaves like the CSS [[css/functions/invert|'''invert()''']] function:
+behaves like the CSS [[css/functions/invert()|'''invert()''']] function:
 
 <div style="display:inline-block">
 
@@ -301,8 +301,8 @@ other useful ways to modify an image's color. With its
 [[svg/attributes/type|'''type''']] set to '''saturate''', reducing the
 [[svg/attributes/values|'''values''']] from 1 produces a grayscale,
 while increasing it makes the image more vivid, just like the
-[[css/functions/grayscale|'''grayscale()''']] and
-[[css/functions/saturate|'''saturate()''']] CSS functions:
+[[css/functions/grayscale()|'''grayscale()''']] and
+[[css/functions/saturate()|'''saturate()''']] CSS functions:
 
 <div style="display:inline-block">
 
@@ -330,7 +330,7 @@ while increasing it makes the image more vivid, just like the
 
 Setting the [[svg/attributes/type|'''type''']] to '''hueRotate'''
 alters the angle along the color wheel, just like the
-[[css/functions/hue-rotate|'''hue-rotate()''']] CSS function.  Setting
+[[css/functions/hue-rotate()|'''hue-rotate()''']] CSS function.  Setting
 '''luminanceToAlpha''' (no '''values''' necessary) produces an alpha
 channel from bright pixels, useful to produce image masks as described
 below.
@@ -371,7 +371,7 @@ alpha channels. This initial transform leaves the image unchanged:
  0 0 0 1 0  
 
 The first example below reproduces the effect of the CSS
-[[css/functions/sepia|'''sepia()''']] function, while the second
+[[css/functions/sepia()|'''sepia()''']] function, while the second
 simply reduces green and blue tones. (In these examples, the
 [[svg/attributes/values|'''values''']] appear stacked into a table
 only in the interest of clarity.)
@@ -526,7 +526,7 @@ and the effect-chaining technique described in the following section.
 Much of the power of SVG filters comes from their ability to accept
 various graphic inputs, modify them independently of each other, then
 recombine them. This example reproduces the effect produced by the CSS
-[[css/functions/drop-shadow|'''drop-shadow()''']] function. Stepping
+[[css/functions/drop-shadow()|'''drop-shadow()''']] function. Stepping
 through each line and seeing the results as you go helps you to build
 far more interesting filters:
 
