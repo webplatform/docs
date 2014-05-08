@@ -14,7 +14,28 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var timer = 0;
+var PERIOD_VISIBLE = 1000;
+var PERIOD_NOT_VISIBLE = 60000;
+
+function onLoad() {
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+   if(document.addEventListener) document.addEventListener("visibilitychange", visibilityChanged);
+}
+
+function visibilityChanged() {
+   clearTimeout(timer);
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+}
+
+function checkEmail() { 
+   // Check server for new messages
+}
+
+window.onload = onLoad;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -37,8 +58,10 @@ This method has no parameters.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics|DOM}}
+{{See_Also_Section
+|Topic_clusters=Performance
+}}
+{{Topics|DOM, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
