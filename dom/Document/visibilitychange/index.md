@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
@@ -41,15 +41,15 @@ window.onload = onLoad;
 |Notes====Remarks===
 This event is not triggered when it is registered.
 |Import_Notes====Syntax===
-===Standards information===
-*[http://www.w3.org/TR/page-visibility/ Page Visibility]
-
-
 ===Event handler parameters===
 This method has no parameters.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Page Visibility
+|URL=http://www.w3.org/TR/page-visibility/
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
