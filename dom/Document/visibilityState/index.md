@@ -48,7 +48,7 @@ window.onload = onLoad;
 |Specifications={{Related Specification
 |Name=Page Visibility
 |URL=http://www.w3.org/TR/page-visibility/
-|Status=Candidate Recommendation
+|Status=Recommendation
 }}
 }}
 {{Compatibility_Section
