@@ -18,7 +18,28 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var timer = 0;
+var PERIOD_VISIBLE = 1000;
+var PERIOD_NOT_VISIBLE = 60000;
+
+function onLoad() {
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+   if(document.addEventListener) document.addEventListener("visibilitychange", visibilityChanged);
+}
+
+function visibilityChanged() {
+   clearTimeout(timer);
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+}
+
+function checkEmail() { 
+   // Check server for new messages
+}
+
+window.onload = onLoad;
+}}
 }}
 {{Notes_Section
 |Notes=Use the [[dom/Document/visibilitychange|'''visibilitychange''']] property to track changes to the visibility state.
@@ -38,11 +59,12 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Performance
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/Document/hidden|hidden]]</code>
 *<code>[[dom/Document/visibilitychange|visibilitychange]]</code>
 }}
-{{Topics|DOM}}
+{{Topics|DOM, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
