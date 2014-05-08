@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
 |Checked_Out=No
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
@@ -46,11 +46,13 @@ window.onload = onLoad;
 The '''Visibility''' API provides Web applications with the means to programmatically determine the current visibility of a page and be notified of visibility changes.
 You can use this property to determine whether a page is visible or not. If it is not visible, you can throttle page activity and resource usage to create more power- and CPU-efficient applications.
 This is a property of the '''document''' object.  You can also use the [[dom/Document/visibilityState|'''visibilityState''']] and [[dom/Document/visibilityState|'''visibilitychange''']] properties to learn more about the page visibility state.
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/page-visibility/ Page Visibility]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Page Visibility
+|URL=http://www.w3.org/TR/page-visibility/
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
