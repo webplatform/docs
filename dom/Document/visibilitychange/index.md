@@ -21,7 +21,7 @@
 This event is not triggered when it is registered.
 |Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}247521 Page Visibility]
+*[http://www.w3.org/TR/page-visibility/ Page Visibility]
 
 
 ===Event handler parameters===
