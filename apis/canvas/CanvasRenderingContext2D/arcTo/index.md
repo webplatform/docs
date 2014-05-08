@@ -1,32 +1,38 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Check to be sure there's a subpath for (x1, y1). Then, the behavior depends on the arguments and the last point in the subpath. See Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x1
 |Data type=Number
 |Description=The x-coordinate for the first tangent that intersects with the current path point.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y1
 |Data type=Number
 |Description=The y-coordinate for the first tangent that intersects with the current point.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=x2
 |Data type=Number
 |Description=The x-coordinate for the second tangent that intersects with  the ''x1'' and ''y1'' points.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=y2
 |Data type=Number
 |Description=The y-coordinate for the second tangent that intersects with  the ''x1'' and ''y1'' points.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=radius
 |Data type=Number
 |Description=The radius of the arc to create.
