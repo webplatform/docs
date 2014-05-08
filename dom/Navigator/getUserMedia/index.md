@@ -8,6 +8,7 @@
 {{Summary_Section|Prompts the user for permission to use a media device such as a camera or microphone. If the user provides permission, the <code>successCallback</code> is invoked on the calling application with a [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object as its argument.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=constraints
 |Data type=MediaStreamConstraints
 |Description=The constraints parameter is a MediaStreamConstraints object with two Boolean members: video and audio. These describe the media types supporting the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object. Either or both must be specified to validate the constraint argument. If a specified constraint is not supported by the browser, getUserMedia invokes the errorCallback with the NOT_SUPPORTED_ERROR. If the browser cannot find any media track with the specified type, getUserMedia invokes the errorCallback with the MANDATORY_UNSATISFIED_ERR.
@@ -19,6 +20,7 @@ If the value or the member is not specified in the object, the value for the mem
 There are additional constraints available. http://simpl.info/getusermedia/constraints/ demonstrates the use of <code>maxWidth</code> and <code>maxHeight</code> constraints. There is a set of resolutions that is currently supported at the libjingle level. They are summarized [https://code.google.com/p/chromium/issues/detail?id=143631#c9 in this chromium ticket] and can be confirmed in the [http://libjingle.googlecode.com/svn/trunk/talk/app/webrtc/localvideosource.cc libjingle source code]
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=successCallback
 |Data type=function
 |Description=The getUserMedia function will call the function specified in the successCallback with the [[apis/webrtc/LocalMediaStream|LocalMediaStream]] object that contains the media stream. You may assign that object to the appropriate element and work with it, as shown in the following example:
@@ -32,6 +34,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
  },
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=errorCallback
 |Data type=function
 |Description=The getUserMedia function will call the function specified in the errorCallback with a code argument. The error codes are described as follows:
