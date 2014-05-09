@@ -42,11 +42,9 @@
 }}{{Single Example
 |Language=HTML
 |Description=The application has content that extends horizontally beyond the viewport and the desired behavior is to allow the user to scroll content left and right as desired without the browser moving the entire page.
-|Code=<nowiki>
-<div style="touch-action: pan-x;">
+|Code=<nowiki><div style="touch-action: pan-x;">
     This element receives pointer events when not panning in the horizontal direction.
-</div>
-</nowiki>
+</div></nowiki>
 |LiveURL=http://www.love2dev.com/
 }}
 }}
