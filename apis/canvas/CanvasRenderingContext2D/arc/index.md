@@ -8,31 +8,37 @@
 {{Summary_Section|Draws the specified arc.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=radius
 |Data type=Number
 |Description=The radius or distance from the point (x,y) that the arc's path  follows.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=startAngle
 |Data type=Number
 |Description=The starting angle, in radians, where 0 is at the 3 o'clock position of the arc's circle.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=endAngle
 |Data type=Number
 |Description=The ending angle, in radians.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=anticlockwise
 |Data type=Number
 |Description=''true'': The arc is drawn in a counterclockwise direction from start to end.
