@@ -1,4 +1,4 @@
-{{Page_Title|Web development for beginners}}
+{{Page_Title|CS}}
 {{Flags
 |Checked_Out=No
 }}
