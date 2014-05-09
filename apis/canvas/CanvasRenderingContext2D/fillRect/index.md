@@ -1,27 +1,32 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Paints the specified rectangular area using the color (or style) defined by ''[[apis/canvas/CanvasRenderingContext2D/fillStyle|fillStyle]]''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=width
 |Data type=Number
 |Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=height
 |Data type=Number
 |Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas. With value 0, the method has no effect.
