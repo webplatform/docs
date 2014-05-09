@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -9,7 +8,7 @@
 {{Summary_Section|Determines whether touch input may trigger default behavior supplied by the user agent, such as panning or zooming.}}
 {{CSS Property
 |Initial value=auto
-|Applies to=block-level elements, SVG elements
+|Applies to=All elements except non-replaced inline elements, table rows, row groups, table columns, and column groups
 |Inherited=No
 |Media=visual
 |Computed value=Same as specified value
@@ -27,6 +26,9 @@
 }}{{CSS Property Value
 |Data Type=pan-y
 |Description=The user agent MAY consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content.
+}}{{CSS Property Value
+|Data Type=manipulation
+|Description=The user agent MAY consider touches that begin on the element only for the purposes of scrolling and continuous zooming.
 }}
 }}
 {{Examples_Section
@@ -40,9 +42,11 @@
 }}{{Single Example
 |Language=HTML
 |Description=The application has content that extends horizontally beyond the viewport and the desired behavior is to allow the user to scroll content left and right as desired without the browser moving the entire page.
-|Code=<div style="touch-action: pan-x;">
+|Code=<nowiki>
+<div style="touch-action: pan-x;">
     This element receives pointer events when not panning in the horizontal direction.
 </div>
+</nowiki>
 |LiveURL=http://www.love2dev.com/
 }}
 }}
