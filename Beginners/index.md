@@ -1,11 +1,10 @@
 {{Page_Title|CS}}
 {{Flags
-|High-level issues=Deletion Candidate
 |Checked_Out=No
 }}
-{{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer}}
+{{Summary_Section}}
 {{Basic Page}}
-Coming Soon
+==Coming Soon==
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
