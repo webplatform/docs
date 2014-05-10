@@ -6,7 +6,7 @@ Hypertext Markup Language (HTML) is the markup language for web pages. The [http
 
 {{Languages}}
 
-== Explore our HTML docs in php==
+== Explore our HTML docs ==
 
 <div class="topic-container">
 
