@@ -23,6 +23,7 @@
 * [[tutorials/multimedia|Multimedia]]
 * [[tutorials/offline and storage|Offline and Storage]]
 * [[tutorials/tools|Tools]]
+* [[tutorials/typography|Typography]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
