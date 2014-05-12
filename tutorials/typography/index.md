@@ -5,9 +5,8 @@
 {{Byline}}
 {{Summary_Section|This page contains links to typography-related tutorials.}}
 {{Tutorial
-|Content=* (font-face link goes here)
+|Content=* [[tutorials/typography/font-face|Font-face]]
 * (font loading link goes here))
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
