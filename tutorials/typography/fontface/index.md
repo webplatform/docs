@@ -48,7 +48,7 @@ Naturally, the font variants must all be available on the server to the pages th
 This is pretty straightforward; you create a FontFace with the JavaScript '''new''' keyword as you would any other object.
 
 <pre>
-var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", { });
+var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
 </pre>
 
 The first parameter is the user-defined name. Call it whatever you like, but use common sense; later, you'll need to refer to the font by that name.
