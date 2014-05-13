@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|FontFace}}
 {{Flags
 |High-level issues=Needs Review
 |Checked_Out=No
