@@ -13,7 +13,7 @@
 {{Tutorial
 |Content====Introduction===
 
-The CSS ''@font-face'' property is a powerful and flexible feature that allows you to use custom fonts in your web pages. (If you aren't familiar with @font-face, please read Paul Irish's excellent [[dom/tutorials/typography/font-face|@font-face tutorial]] first and then come back. It's okay, we'll wait.)
+The CSS ''@font-face'' property is a powerful and flexible feature that allows you to use custom fonts in your web pages. (If you aren't familiar with @font-face, please read Paul Irish's excellent [[wiki/tutorials/typography/font-face|@font-face tutorial]] first and then come back. It's okay, we'll wait.)
 
 But while @font-face works fine for pre-coded pages, many of us would also like to use custom fonts on the fly via scripting. This has historically been difficult to accomplish, but has now become much more straightforward with the introduction of the Javascript '''FontFace''' object.
 
@@ -32,7 +32,7 @@ While your script can certainly interact with manual @font-face rules, or create
 ===Preparing the Fonts===
 
 Before we can begin using a custom font, we have to ''have'' a custom font. As covered in the 
-[[dom/tutorials/typography/font-face|@font-face tutorial]],
+[[wiki/tutorials/typography/font-face|@font-face tutorial]],
 in order to ensure cross-browser compatibility you should have these versions of your font available: 
 *Embedded Open Type (.eot), specifically for Internet Explorer
 *True Type Font (.ttf), for Safari, Opera, Firefox, and Chrome
@@ -43,7 +43,7 @@ The easiest way to convert an existing font in any of these formats to all the o
 [http://www.fontsquirrel.com/tools/webfont-generator Font Squirrel] webfonts generator. 
 Font Squirrel is a free online tool that uploads your original font, creates the required variants, and zips it up into a downloadable package.
 
-Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or a defined path. And -- this should go without saying, but let's say it anyway -- you '''must''' be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [http://www.fontsquirrel.com/fonts/finger-paint FingerPaint, available (along with many others) at Font Squirrel.
+Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or a defined path. And -- this should go without saying, but let's say it anyway -- you '''must''' be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [http://www.fontsquirrel.com/fonts/finger-paint FingerPaint], available (along with many others) at Font Squirrel.
 
 ===Creating the FontFace Object===
 
