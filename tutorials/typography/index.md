@@ -6,8 +6,7 @@
 {{Summary_Section|This page contains links to typography-related tutorials.}}
 {{Tutorial
 |Content=* [[tutorials/typography/font-face|@font-face (CSS)]]
-* [[tutorials/typography/font_loading|Font loading (JavaScript)]]
-
+* [[tutorials/typography/fontface|FontFace (JavaScript)]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
