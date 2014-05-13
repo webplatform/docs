@@ -45,7 +45,7 @@ There are several techniques to ensure that people will be able to access the co
 
 You can also use flash as a fallback for when the browser does not support any of the provided formats. Flash supports H264 and Adobe has committed to support the WebM format in their flash player although that time timeline is still not clear. The biggest drawback using Flash as opposed to the Chrome Frame plugin is that you will get the flash player interface instead of  whatever UI you built for your video tag. The details of this technique can be seen in the Quick Guide to Implementing the HTML5 Audio tutorial.
 
-<pre>
+<syntaxhighlight lang="html5" highlight="5-7">
 <video width="320" height="240" controls="controls" preload="none">
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -54,7 +54,7 @@ You can also use flash as a fallback for when the browser does not support any o
     <embed src="movie.swf" width="320" height="240">
   </object> 
 </video>
-</pre>
+</syntaxhighlight>
 }}
 {{Examples_Section
 |Not_required=No
