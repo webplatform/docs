@@ -7,13 +7,11 @@
 |Name=Dave Gash
 |Published=14 May 2014
 }}
-{{Summary_Section|An introduction to the JavaScript FontFace object and font loading.
-
-}}
+{{Summary_Section|An introduction to the JavaScript FontFace object and font loading.}}
 {{Tutorial
-|Content====Introduction===
+|Content===Introduction==
 
-The CSS ''@font-face'' property is a powerful and flexible feature that allows you to use custom fonts in your web pages. (If you aren't familiar with @font-face, please read Paul Irish's excellent [[wiki/tutorials/typography/font-face|@font-face tutorial]] first and then come back. It's okay, we'll wait.)
+The CSS ''@font-face'' property is a powerful and flexible feature that allows you to use custom fonts in your web pages. (If you aren't familiar with @font-face, please read Paul Irish's excellent [[tutorials/typography/font-face|@font-face tutorial]] first and then come back. It's okay, we'll wait.)
 
 But while @font-face works fine for pre-coded pages, many of us would also like to use custom fonts on the fly via scripting. This has historically been difficult to accomplish, but has now become much more straightforward with the introduction of the Javascript '''FontFace''' object.
 
@@ -21,7 +19,7 @@ At its core, FontFace is a new interface used for dynamically accessing font res
 
 '''Note:''' As of this writing the FontFace object is only available in Google Chrome Canary, which you can get [https://www.google.com/intl/en/chrome/browser/canary.html here].
 
-===Background===
+==Background==
 
 Interestingly, a manually created CSS @font-face rule actually defines a Javascript FontFace object, with its properties set to the same values as the @font-face. The FontFace object is said to be ''CSS-connected''. Thus you can manipulate a manual @font-face with script, but that isn't exactly what we're after.
 
@@ -29,10 +27,10 @@ Of course, you can also create @font-face rule from scratch and "shoehorn" it in
 
 While your script can certainly interact with manual @font-face rules, or create and manipulate CSS rules directly, in this tutorial we'll be focusing on independently creating and using FontFace objects.
 
-===Preparing the Fonts===
+==Preparing the Fonts==
 
 Before we can begin using a custom font, we have to ''have'' a custom font. As covered in the 
-[[wiki/tutorials/typography/font-face|@font-face tutorial]],
+[[tutorials/typography/font-face|@font-face tutorial]],
 in order to ensure cross-browser compatibility you should have these versions of your font available: 
 *Embedded Open Type (.eot), specifically for Internet Explorer
 *True Type Font (.ttf), for Safari, Opera, Firefox, and Chrome
@@ -45,12 +43,12 @@ Font Squirrel is a free online tool that uploads your original font, creates the
 
 Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or a defined path. And -- this should go without saying, but let's say it anyway -- you '''must''' be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [http://www.fontsquirrel.com/fonts/finger-paint FingerPaint], available (along with many others) at Font Squirrel.
 
-===Creating the FontFace Object===
+==Creating the FontFace Object==
 
 This is pretty straightforward; you create a FontFace with the JavaScript '''new''' keyword as you would any other object.
 
 <pre>
-var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
+var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", { });
 </pre>
 
 The first parameter is the user-defined name. Call it whatever you like, but use common sense; later, you'll need to refer to the font by that name.
@@ -61,7 +59,7 @@ The third parameter is the attribute list, such as ''family'', ''style'', ''weig
 
 That defines the JavaScript FontFace object and requests that the browser locate it and associate it with the object. But the page doesn't know it's there yet.
 
-===Adding the Font to the Page===
+==Adding the Font to the Page==
 
 The next step is to add the FontFace to the document; a font cannot be used until it exists in the document's '''FontFaceSet''' object. The FontFaceSet is implicitly referenced through the document's '''fonts''' property. Thus, this
 
@@ -75,7 +73,7 @@ should add the FontFace to the page's font list. And it would,
 
 To determine when the load is accomplished, 
 we'll combine the load call with the (also new) JavaScript '''Promise''' feature. If you want to read up on promises, see 
-[http://www.html5rocks.com/en/tutorials/es6/promises/ this excellent HTML5Rocks article]. 
+[http://www.html5rocks.com/en/tutorials/es6/promises/ this HTML5Rocks article]. 
 But briefly, a JavaScript promise is a pattern for handling asynchronous operations. It operates a bit like an event listener, and lets you call a '''then()''' method that contains a callback function to be executed when the calling method is complete ("the promise is fulfilled"). So this
 
 <pre>
@@ -98,7 +96,7 @@ f.load().then(function (loadedFace) {
 
 So far, so good. The font is identified and loaded, but we still haven't actually seen it anywhere on the page.
 
-===Using the FontFace===
+==Using the FontFace==
 
 There are any number of ways to assign the font to one or more HTML elements, and any number of places to put the assignment. Perhaps the most straightforward is within the anonymous function itself; that keeps all the font usage code localized, so that when the FontFace load is complete, the font is added to the document.fonts property and then applied immediately. For example, this
 
@@ -142,12 +140,11 @@ f.load().then(function (loadedFace) {
 
 is what you need. Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance.
 
-===Summary===
+==Summary==
 
 Although the CS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts on the fly. The JavaScript FontFace object does just that, cleanly and without hassle. 
 
 Now it's your turn. Have a go!
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
