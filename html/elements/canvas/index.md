@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -10,7 +11,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=<!-- create a canvas with 800px width and 600px height -->
+<canvas width="800" height="600"></canvas>
+}}
 }}
 {{Notes_Section
 |Usage=The [[apis/canvas|canvas api]] is a useful resource for working with the canvas element.
