@@ -123,7 +123,7 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-would do the trick, selecting any tags with the independent class of "fp" and applying the Finger Paint font to them.
+would do the trick, selecting any tags with the class of "fp" and applying the Finger Paint font to them.
 
 Or, if you'd rather not rely on pre-assigned classes, you might opt to set all the H2s in the document to display in Finger Paint. If so, this
 
@@ -142,7 +142,7 @@ is what you need. Again, applying the font in the same place, code-wise, where i
 
 ==Summary==
 
-Although the CS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts on the fly. The JavaScript FontFace object does just that, cleanly and without hassle. 
+Although the CSS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts on the fly. The JavaScript FontFace object does just that, cleanly and without hassle. 
 
 Now it's your turn. Have a go!
 }}
