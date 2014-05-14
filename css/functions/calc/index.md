@@ -1,38 +1,46 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|High-level issues=Needs Review
+|Content=Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The calc() function can be used anywhere in a length is required by a CSS properties. calc() allows mathematical expressions with addition (‘+’), subtraction (‘-’), multiplication (‘*’), and division (‘/’) to be used as component values.}}
+{{Summary_Section|The calc() function can be used anywhere in a length is required by a CSS properties. calc() allows mathematical expressions with addition (‘+’), subtraction (‘-’), multiplication (‘*’), and division (‘/’) to be used as component values. The values themselves can be a mixture of percentages, integers, numbers, lengths such as em or cm, angles or even time values ( seconds, milliseconds). Calc is useful for computing certain values that are not known at the development time or to set formulated values rather that arbitrary ones. }}
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=.banner {
-	position: absolute;
-	left: 40px;
-	width: 90%; /* fallback for browsers without support for calc() */
-	width: -webkit-calc(100% - 80px);  /* WebKit 536.3 (Chrome 19) and above, experimental */
-	width: calc(100% - 80px);  /* final CSS3 compliant implementation; Firefox 16 and IE 9, and above */
-	border: solid black 1px;
-	box-shadow: 1px 2px;
-	margin-top: 40px;
-	padding: 10px;
-	text-align: center;
-}​
-|LiveURL=http://jsfiddle.net/denbuzze/BNJtF/
+|Description=This is an example of how can you use <bold>calc</bold> in CSS
+|Code=/* CSS calc function example */
+ 
+.header {
+     position:relative;
+     margin: 0px auto;
+     width: 80%; /* fallback for browsers without support for calc() */
+     width: calc(100% - 100px); /* CSS3 compliant implementation; Firefox 16 and IE 9, and above */
+     border: solid black 1px;
+     box-shadow: 5px 5px #999;
+     margin-top: 40px;
+     padding: 10px;
+     text-align: center;
+}
+ 
+.header:hover {
+     width: calc(100% / 3 - 2 * 1em); /* complex calculation on hover */
+     width: 25%; /* fallback */
+}
+|LiveURL=http://code.webplatform.org/gist/d3322a08edaaaef9adaf
 }}
 }}
 {{Notes_Section
-|Notes=Division by zero will cause an error in the HTML parser.
+|Notes=If you divide by zero it will cause an error in the HTML parser. Also the return value that will be computed must comply within the range of the relevant CSS target. For example width or height cannot be negative so it will be reverted to 0;
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/
+|Name=W3C CSS Values and Units Module Level 3: Mathematical Expressions: "calc"
+|URL=http://www.w3.org/TR/css3-values/#calc-notation
 |Status=Candidate Reccomendation
 }}
 }}
