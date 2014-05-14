@@ -155,9 +155,11 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-is what you need. Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance. That produces this output.
+is what you need, selecting all H2 elements regardless of class and applying the font to them. That produces this output.
 
 [[Image:fingerpaintfont4.png]]
+
+Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance. 
 
 ==Summary==
 
