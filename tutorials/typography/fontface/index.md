@@ -37,7 +37,7 @@ in order to ensure cross-browser compatibility you should have these versions of
 *Web Open Font Format (.woff), for Firefox, Chrome, Opera, and IE9
 *Scalable Vector Graphics (.svg), for iPhones, iPads, and other devices that run Mobile Safari
 
-The easiest way to convert an existing font in any of these formats to all the others is at the amazing
+The easiest way to convert an existing font in any of these formats to all the others is with the amazing
 [http://www.fontsquirrel.com/tools/webfont-generator Font Squirrel] webfonts generator. 
 Font Squirrel is a free online tool that uploads your original font, creates the required variants, and zips it up into a convenient downloadable package.
 
