@@ -71,9 +71,9 @@ document.fonts.add(f);
 </pre>
 
 should add the FontFace to the page's font list. And it would, 
-''if the FontFace were loaded'' -- but it isn't. Font families are automatically loaded only when they are used. Before we can add the font to the document, we must explictly force it to be loaded with (what else?) the '''load()''' method.
+''if the FontFace were loaded'' -- but it isn't. Before we can add the font to the document, we must explictly force it to be loaded with (what else?) the '''load()''' method.
 
-Naturally, we want to be sure the font is loaded before trying to add it to the document. In an async world, this can be a tricky business. 
+Naturally, we want to be sure the font is loaded before trying to add it to the document. In an async world, that can be a tricky business. 
 But we can use an innovative method to wait for the load to finish
 by combining the load call with the (also new) JavaScript '''Promise''' feature. If you want to read up on promises, see 
 [http://www.html5rocks.com/en/tutorials/es6/promises/ this HTML5Rocks article]. 
