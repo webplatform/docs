@@ -106,7 +106,7 @@ For the examples in this section, we'll use this simple bit of HTML, with a mix 
 <h2>This is an H2.</h2>
 <p>This is a regular paragraph.</p>
 <p class="fp">This is a class="fp" paragraph.</p>
-<h2>This is a class="fp" H2.</h2>
+<h2 class="fp">This is a class="fp" H2.</h2>
 <p>This is another regular paragraph.</p>
 <p class="fp">This is another class="fp" paragraph.</p>
 </pre>
@@ -138,7 +138,9 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-would do the trick, selecting any tags with the class of "fp" and applying the Finger Paint font to them.
+would do the trick, selecting all tags with the class of "fp" and looping through them to apply the Finger Paint font to each. That output looks like this.
+
+[[Image:fingerpaintfont3.png]]
 
 Or, if you'd rather not rely on pre-assigned classes, you might opt to set all the H2s in the document to display in Finger Paint. If so, this
 
@@ -153,7 +155,9 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-is what you need. Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance.
+is what you need. Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance. That produces this output.
+
+[[Image:fingerpaintfont4.png]]
 
 ==Summary==
 
