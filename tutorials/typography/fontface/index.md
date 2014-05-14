@@ -163,7 +163,7 @@ Again, applying the font in the same place, code-wise, where it is loaded and ad
 
 ==Summary==
 
-Although the CSS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts on the fly. The JavaScript FontFace object does just that, cleanly and without hassle. 
+Although the CSS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts dynamically. The JavaScript FontFace object does just that, cleanly and without hassle. 
 
 Now it's your turn. Have a go!
 }}
