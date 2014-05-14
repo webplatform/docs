@@ -23,7 +23,7 @@ At its core, FontFace is a new interface used for dynamically accessing font res
 
 Interestingly, a manually created CSS @font-face rule implicitly defines a Javascript FontFace object, with its properties set to the same values as the @font-face rule's. The FontFace object is said to be "CSS-connected". Thus, you can manipulate a manual @font-face with script, but that isn't exactly what we're after.
 
-Of course, you can also create any document element, such as a @font-face rule, with script and "shoehorn" it into the page's stylesheet using the ''.insertRule()'' method, but that's also not the goal here.
+Of course, you can also create any document element, such as a @font-face rule, with script and "shoehorn" it into the page's stylesheet using the '''.insertRule()''' method, but that's also not the goal here.
 
 While your script can certainly interact with manual @font-face rules, or create and manipulate CSS rules directly, in this tutorial we'll be focusing on independently creating and using FontFace objects.
 
@@ -41,7 +41,7 @@ The easiest way to convert an existing font in any of these formats to all the o
 [http://www.fontsquirrel.com/tools/webfont-generator Font Squirrel] webfonts generator. 
 Font Squirrel is a free online tool that uploads your original font, creates the required variants, and zips it up into a convenient downloadable package.
 
-Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or in a defined path. And -- this should go without saying, but let's say it anyway -- you '''must''' be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [http://www.fontsquirrel.com/fonts/finger-paint FingerPaint], available (along with many others) at Font Squirrel.
+Naturally, the font variants must all be available on the server to the pages that use them, either in the same folder or in a defined path. And -- this should go without saying, but let's say it anyway -- you '''must''' be sure that the font you want to use is licensed for web use. For this article we're using an absolutely free and web-licensed font called [http://www.fontsquirrel.com/fonts/finger-paint FingerPaint], available (along with many others) at Font Squirrel. Finger Paint is a fun, decorative font; here's how it looks.
 
 [[Image:fingerpaintfont1.png]]
 
@@ -57,9 +57,9 @@ The first parameter is the user-defined name. Call it whatever you like, but use
 
 The second parameter is the URL of the font file. As you can see, we're using the True Type version for this example.
 
-The third parameter is the attribute list, such as ''family'', ''style'', ''weight'', etc. As this is obviously optional, just include the empty braces and don't worry about it for now.
+The third parameter is the attribute list, such as ''family'', ''style'', ''weight'', etc. As these values are optional, just include the empty braces and don't worry about it for now.
 
-That defines the JavaScript FontFace object and requests that the browser locate it and associate it with the object. But the page doesn't know it's there yet.
+That defines the JavaScript FontFace object and requests that the browser locate the font file and associate it with the object. But the page doesn't know it's there yet.
 
 ==Adding the Font to the Page==
 
@@ -71,7 +71,7 @@ document.fonts.add(f);
 </pre>
 
 should add the FontFace to the page's font list. And it would, 
-''if the FontFace were loaded''... but it isn't. Font families are automatically loaded only when they are used, and this one has been identified but not yet used. So we need to explictly force the font to be loaded with the (what else?) '''load()''' method.
+''if the FontFace were loaded''... but it isn't. Font families are automatically loaded only when they are used, and this one has been identified but not yet used. So we need to explictly force the font to be loaded with (what else?) the '''load()''' method.
 
 To determine when the load is accomplished, 
 we'll combine the load call with the (also new) JavaScript '''Promise''' feature. If you want to read up on promises, see 
@@ -81,13 +81,13 @@ But briefly, a JavaScript promise is a pattern for handling asynchronous operati
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
 f.load().then(function (loadedFace) {
-  . . .
+  //statements
 });
 </pre>
 
-will invoke the load and then execute the anonymous function when the load is done.
+will invoke the load, and then define and execute the anonymous function when the load is done.
 
-What should the function do? At the very least, it should add the now loaded font to the FontFaceSet via the fonts list.
+What should the function do? At the very least, it should add the now loaded font to the FontFaceSet via the fonts list, like this.
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -100,7 +100,18 @@ So far, so good. The font is identified and loaded, but we still haven't actuall
 
 ==Using the FontFace==
 
-There are any number of ways to assign the font to one or more HTML elements, and any number of places to put the assignment. Perhaps the most straightforward is within the anonymous function itself; that keeps all the font usage code localized, so that when the FontFace load is complete, the font is added to the document.fonts property and then applied immediately. For example, this
+For the examples in this section, we'll use this simple bit of HTML, with a mix of plain and class="fp" elements.
+
+<pre>
+<h2>This is an H2.</h2>
+<p>This is a regular paragraph.</p>
+<p class="fp">This is a class="fp" paragraph.</p>
+<h2>This is a class="fp" H2.</h2>
+<p>This is another regular paragraph.</p>
+<p class="fp">This is another class="fp" paragraph.</p>
+</pre>
+
+There are any number of ways to assign the font to one or more HTML elements, and any number of places to put the assignment in the page. Perhaps the most straightforward location is within the anonymous function itself; that keeps all the font usage code localized, so that when the FontFace load is complete, the font is added to the document.fonts property and then applied immediately. For example, this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -110,7 +121,9 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-sets the entire document body to the new font, and falls back to ''serif'' if there's a problem. (As with any font assignment, always include one or more fallbacks.)
+sets the entire document body to the new font, and falls back to ''serif'' if there's a problem. (As with any font assignment, always include one or more fallbacks.) Here's the output.
+
+[[Image:fingerpaintfont2.png]]
 
 But that's a pretty broad application, especially for a whimsical font like Finger Paint. It would make more sense to only apply the font to a specific set of tags, such as just those with a class of "fp". So this
 
