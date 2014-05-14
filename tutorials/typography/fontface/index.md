@@ -63,7 +63,7 @@ That defines the JavaScript FontFace object and requests that the browser locate
 
 ==Adding the Font to the Page==
 
-The next step is to add the FontFace to the document; a font cannot be used until it exists in the document's '''FontFaceSet''' object. The FontFaceSet is implicitly referenced through the document's '''fonts''' property. It would seem, then, that we could just use the '''add()''' method to add the font. That is, this
+The next step is to add the FontFace to the document; a font cannot be used until it exists in the document's '''FontFaceSet''' object. The FontFaceSet is implicitly referenced through the document's '''fonts''' property. It would seem, then, that we could just use the '''add()''' method to include the font in the page. That is, this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -73,8 +73,8 @@ document.fonts.add(f);
 should add the FontFace to the page's font list. And it would, 
 ''if the FontFace were loaded'' -- but it isn't. Font families are automatically loaded only when they are used. Before we can add the font to the document, we must explictly force it to be loaded with (what else?) the '''load()''' method.
 
-Naturally, we want to be sure the load is complete before trying to add it to the document. In an async world, this can be a tricky business. 
-But we can use an innovative method to determine when the load is accomplished 
+Naturally, we want to be sure the font is loaded before trying to add it to the document. In an async world, this can be a tricky business. 
+But we can use an innovative method to wait for the load to finish
 by combining the load call with the (also new) JavaScript '''Promise''' feature. If you want to read up on promises, see 
 [http://www.html5rocks.com/en/tutorials/es6/promises/ this HTML5Rocks article]. 
 But briefly, a JavaScript promise is a pattern for handling asynchronous operations. It operates a bit like an event listener, and lets you call a '''then()''' method that contains a callback function to be executed when the calling method is complete ("the promise is fulfilled"). So this
@@ -86,7 +86,7 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-will invoke the load, and then define and execute the anonymous function when the load is done.
+will invoke the load, wait for it to complete, and only execute the anonymous function when the load is done.
 
 Now, what should the function do? At the very least, it should add the now loaded font to the FontFaceSet via the fonts list, like this.
 
@@ -97,7 +97,7 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-So far, so good. The font is identified, loaded, and added, but we still haven't actually seen it anywhere on the page. That is, we've made the font available, but haven't used it yet.
+So far, so good. The font is identified, loaded, and added, but we still haven't actually seen it anywhere on the page. That is, we've made the font available to the page, but haven't used it yet.
 
 ==Using the FontFace==
 
@@ -143,7 +143,7 @@ would do the trick, selecting all tags with the class of "fp" and looping throug
 
 [[Image:fingerpaintfont3.png]]
 
-Or, if you'd rather not rely on pre-assigned classes, you might opt to set all the H2s in the document to display in Finger Paint. If so, this
+Or, if you'd rather not rely on pre-assigned classes, you might opt to display all the H2s in the document in Finger Paint. If so, this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -160,7 +160,7 @@ is what you need, selecting all H2 elements regardless of class and applying the
 
 [[Image:fingerpaintfont4.png]]
 
-Again, applying the font in the same place, code-wise, where it is loaded and added keeps the font code together and aids in debugging and maintenance. 
+Again, applying the font in the same place, code-wise, where it is identified, loaded, and added keeps the font code together and aids in debugging and maintenance. 
 
 ==Summary==
 
