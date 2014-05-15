@@ -100,7 +100,11 @@ shape-outside: url(path/to/image.png);
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari
+|Version=538+
+|Note=Using vendor prefix -webkit-
+}}
 }}
 {{See_Also_Section
 |Manual_links=[[css/properties/shape-margin|shape-margin]]
