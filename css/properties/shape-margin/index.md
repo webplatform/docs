@@ -3,7 +3,7 @@
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds a margin to a [[css/properties/shape-outside|shape-outside]]. In effect, defines a new shape that is the smallest contour around all the points that are the ''shape-margin'' distance outward perpendicular to each point on the underlying shape. For points where a perpendicular direction is not defined (e.g., a triangle corner), takes all points on a circle centered at the point and with a radius of the ''shape-margin'' distance. This property accepts only non-negative values.}}
 {{CSS Property
@@ -11,7 +11,7 @@
 |Applies to=Floats
 |Inherited=No
 |Media=visual
-|Computed value=The absolute length
+|Computed value=as specified, but with lengths made absolute
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
@@ -46,7 +46,7 @@
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
 |URL=http://www.w3.org/TR/css-shapes/
-|Status=W3C Editor's Draft
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -55,21 +55,9 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Uses a vendor prefixed version of an old name of this property - wrap-margin.
-}}{{Compatibility Notes Row
 |Browser=Chrome
 |Version=25.0.1364.160
 |Note=Using vendor prefix -webkit-
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=12.14
-|Note=Using vendor prefix -o-
-}}{{Compatibility Notes Row
-|Browser=FireFox
-|Version=19
-|Note=Using vendor prefix -moz-
 }}{{Compatibility Notes Row
 |Browser=Safari
 |Version=534.57.2
@@ -77,13 +65,13 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=[[css/properties/wrap-flow|wrap-flow]]
+|Manual_links=[[css/properties/shape-outside|shape-outside]]
+[[css/properties/shape-image-threshold|shape-image-threshold]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/windows/apps/hh466103.aspx
+|MSDN_link=
 |HTML5Rocks_link=
 }}
