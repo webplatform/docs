@@ -92,7 +92,7 @@ shape-outside: url(path/to/image.png);
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
 |URL=http://www.w3.org/TR/css-shapes/
-|Status=Candidate Recommendation
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -109,4 +109,7 @@ shape-outside: url(path/to/image.png);
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
