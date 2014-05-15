@@ -13,10 +13,12 @@
 |Media=visual
 |Computed value=as specified, but with lengths made absolute
 |Animatable=No
-|CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<length>
-|Description=The distance, in pixels, that is used to calculate the "outer margin" shape's offset from the original shape.
+|Description=Sets the margin of the shape to the <length>.
+}}{{CSS Property Value
+|Data Type=<percentage>
+|Description=Sets the margin of the shape to a percentage of the width of the element’s containing block.
 }}
 }}
 {{Examples_Section
