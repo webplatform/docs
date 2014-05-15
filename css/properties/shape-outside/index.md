@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Last Call Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Declares a shape around which text should be wrapped, with possible modifications from the [[css/properties/shape-margin|shape-margin]] property. The shape defined by shape-outside and shape-margin changes the geometry of a float element's float area.}}
 {{CSS Property
@@ -91,8 +91,8 @@ shape-outside: url(path/to/image.png);
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
-|URL=http://dev.w3.org/csswg/css-shapes/
-|Status=Editor's Draft
+|URL=http://www.w3.org/TR/css-shapes/
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -109,7 +109,4 @@ shape-outside: url(path/to/image.png);
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
