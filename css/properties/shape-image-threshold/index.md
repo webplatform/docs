@@ -3,7 +3,7 @@
 |High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a "minimum opacity" threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.}}
 {{CSS Property
@@ -15,7 +15,7 @@
 |Animatable=Yes
 |CSS percentages=Alpha channel of the image specified by [[css/properties/shape-outside|shape-outside]].
 |Values={{CSS Property Value
-|Data Type=<threshold>
+|Data Type=<number>
 |Description=A numeric value used to set the opacity threshold used for extracting a shape from an image. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.
 }}
 }}
@@ -39,8 +39,8 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Shapes Module Level 1
-|URL=http://dev.w3.org/csswg/css-shapes
-|Status=Editor's Draft
+|URL=http://www.w3.org/TR/css-shapes/
+|Status=W3C Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -48,10 +48,15 @@ Extract a shape from an image by enclosing all pixels greater than 25% opacity
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari
+|Version=538+
+|Note=Using vendor prefix -webkit-
+}}
 }}
 {{See_Also_Section
 |Manual_links=[[css/properties/shape-outside|shape-outside]]
+[[css/properties/shape-margin|shape-margin]]
 }}
 {{Topics|CSS}}
 {{External_Attribution
