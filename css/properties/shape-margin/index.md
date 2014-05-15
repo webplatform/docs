@@ -57,12 +57,8 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Version=25.0.1364.160
-|Note=Using vendor prefix -webkit-
-}}{{Compatibility Notes Row
 |Browser=Safari
-|Version=534.57.2
+|Version=538+
 |Note=Using vendor prefix -webkit-
 }}
 }}
