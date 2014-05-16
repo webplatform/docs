@@ -5,7 +5,7 @@
 }}
 {{Byline
 |Name=Dave Gash
-|Published=14 May 2014
+|Published=15 May 2014
 }}
 {{Summary_Section|An introduction to the JavaScript '''FontFace''' object and font loading. Part of the  [[tutorials/typography|Typography]] tutorials section.}}
 {{Tutorial
@@ -71,13 +71,13 @@ document.fonts.add(f);
 </pre>
 
 should add the FontFace to the page's font list. And it would, 
-''if the FontFace were loaded'' -- but it isn't. Before we can add the font to the document, we must explictly force it to be loaded with (what else?) the '''load()''' method.
+''if the font were actually loaded'' -- but it isn't. Before we can add the font to the document, we must explictly force it to be loaded with (what else?) the '''load()''' method.
 
-Naturally, we want to be sure the font is loaded before trying to add it to the document. In an async world, that can be a tricky business. 
-But we can use an innovative method to wait for the load to finish
+Interestingly, the load process raises an issue. We have to be sure that the font is done loading before trying to add it to the document, but in an async world, that can be a tricky business. 
+However, we can use an innovative method to wait for the load to finish
 by combining the load call with the (also new) JavaScript '''Promise''' feature. If you want to read up on promises, see 
 [http://www.html5rocks.com/en/tutorials/es6/promises/ this HTML5Rocks article]. 
-But briefly, a JavaScript promise is a pattern for handling asynchronous operations. It operates a bit like an event listener, and lets you call a '''then()''' method that contains a callback function to be executed when the calling method is complete ("the promise is fulfilled"). So this
+But briefly, a JavaScript promise is a pattern for handling asynchronous operations. It operates a bit like an event listener, and lets you call a '''then()''' method that contains a callback function to be executed only when the calling method is complete ("the promise is fulfilled"). So this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -86,9 +86,9 @@ f.load().then(function (loadedFace) {
 });
 </pre>
 
-will invoke the load, wait for it to complete, and only execute the anonymous function when the load is done.
+will invoke the load, wait for it to complete, and only execute the then() method's anonymous function when the load is done.
 
-Now, what should the function do? At the very least, it should add the now loaded font to the FontFaceSet via the fonts list, like this.
+Now, what should the function do? At the very least, it should add the now loaded font to the FontFaceSet via the fonts list (as we tried to do earlier), like this.
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -112,7 +112,7 @@ For the examples in this section, we'll use this simple bit of HTML, with a mix 
 <p class="fp">This is another class="fp" paragraph.</p>
 </pre>
 
-There are any number of ways to assign the font to one or more HTML elements, and any number of places to put the assignment in the page. Perhaps the most straightforward location is within the anonymous function itself; that keeps all the font usage code localized, so that when the FontFace load is complete, the font is added to the document.fonts property and then applied immediately. For example, this
+There are any number of ways to assign the font to one or more HTML elements, and any number of places to put the assignment in the page. Perhaps the most straightforward location is within the anonymous function itself; that's a good idea because it keeps all the font usage code localized. All the action is in one place, so that when the FontFace load is complete, the font is added to the document.fonts property and then immediately applied to the desired elements. For example, this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -126,7 +126,7 @@ sets the entire document body to the new font, and falls back to ''serif'' if th
 
 [[Image:fingerpaintfont2.png]]
 
-But that's a pretty broad application, especially for a whimsical font like Finger Paint. It would make more sense to only apply the font to a specific set of tags, such as just those with a class of "fp". So this
+Okay, that's a pretty broad application, especially for a whimsical font like Finger Paint. It would make more sense to only apply the font to a specific set of tags, such as just those with a class of "fp". So this
 
 <pre>
 var f = new FontFace("fingerpaint", "url(fingerpaint-regular-webfont.ttf)", {});
@@ -162,9 +162,9 @@ is what you need, selecting all H2 elements regardless of class and applying the
 
 Again, applying the font in the same place, code-wise, where it is identified, loaded, and added keeps the font code together and aids in debugging and maintenance. 
 
-==Summary==
+==Conclusion==
 
-Although the CSS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using static web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts dynamically. The JavaScript FontFace object does just that, cleanly and without hassle. 
+Although the CSS @font-face rule has been around for a long time and is the go-to guy for pre-written pages using custom web fonts, it doesn't satisfy the scripter's need to identify, load, and use custom fonts dynamically. The JavaScript FontFace object does just that, cleanly and without hassle. 
 
 Now it's your turn. Have a go!
 }}
