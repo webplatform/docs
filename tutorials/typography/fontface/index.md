@@ -7,7 +7,7 @@
 |Name=Dave Gash
 |Published=14 May 2014
 }}
-{{Summary_Section|An introduction to the JavaScript '''FontFace''' object and font loading.}}
+{{Summary_Section|An introduction to the JavaScript '''FontFace''' object and font loading. Part of the  [[tutorials/typography|Typography]] tutorials section.}}
 {{Tutorial
 |Content===Introduction==
 
