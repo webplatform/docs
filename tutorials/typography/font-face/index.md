@@ -1,12 +1,13 @@
 {{Page_Title|Overview of web fonts using @font-face}}
 {{Flags
 |High-level issues=Needs Flags
+|Checked_Out=No
 }}
 {{Byline
 |Name=Paul Irish
 |Published=published Aug. 2, 2010
 }}
-{{Summary_Section|An introduction to webfonts and @font-face.}}
+{{Summary_Section|An introduction to webfonts and @font-face. Part of the  [[tutorials/typography|Typography]] tutorials section.}}
 {{Tutorial
 |Content===Introduction==
 
@@ -115,6 +116,7 @@ Webfonts deliver quite a bit of freedom to designers, and with upcoming features
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=@font-face (Web fonts)
 |Chrome_supported=Yes
