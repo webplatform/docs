@@ -102,7 +102,7 @@ HTML is language we structure our content in on the World Wide Web; one of the m
 
 ==Contributing to the HTML technology==
 
-HTML development has been hosted by a few different organizations during its history including CERN, IETF, and W3C. Development has mainly taken place on [http://www.w3.org/html/wg/lists/ HTML Working Group Mailing Lists]. These are a good place to start if you want to suggest new features or provide feedback. For news and more general information, consult the [http://www.w3.org/html/ W3C HTML home page].
+HTML development has been hosted by a few different organizations during its history including CERN, IETF, and W3C. Development has mainly taken place on [http://www.w3.org/html/wg/lists/ HTML Working Group Mailing Lists]. These lists are good places to start if you want to suggest new features or provide feedback. For news and more general information, consult the [http://www.w3.org/html/ W3C HTML home page].
 
 the W3C is also currently asking for review comments on the [http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist Media Accessibility Checklist]
 
