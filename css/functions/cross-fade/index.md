@@ -1,10 +1,6 @@
 {{Page_Title|CSS cross-fade() function}}
 {{Flags
-|Content=Errors
 |Checked_Out=No
-|Editorial notes={{Editorial/Errors
-| the syntax used in the article doesn't match what the spec says
-}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -25,10 +21,10 @@ The <code>cross-fade()</code> function takes three parameters: the two images to
 The <code>cross-fade()</code> function can be used in CSS anywhere that an ordinary image reference can be used. The syntax is straightforward:
 
 <syntaxhighlight language="css">
-cross-fade(url(image1), url(image2), percent)
+cross-fade(<percentage>? <image> [, <image> | <color> ]?)
 </syntaxhighlight>
 
-The image URLs may be in either order, and may be coded with or without quotes; the percent value must be coded without quotes, must contain the "%" symbol, and its value must be between 0% and 100%.
+The percent value must be coded without quotes, must contain the "%" symbol, and its value must be between 0% and 100%.
 
 ==Examples==
 
@@ -56,7 +52,7 @@ We could, of course, give the <code>&lt;div&gt;</code> a background image.
 But that's kind of boring, so let's replace the simple background image with a cross-faded image pair.
 
 <syntaxhighlight language="css">
-<div style="width:200px; height:200px; background-image:cross-fade(url(white.png), url(black.png), 50%);"></div>
+<div style="width:200px; height:200px; background-image:cross-fade(50% url(white.png), url(black.png));"></div>
 </syntaxhighlight>
 
 The 50% cross-fade renders as an evenly-merged black/white (gray) box with an evenly-merged blue/red (magenta) border.
@@ -70,14 +66,14 @@ Here are the code samples and their results for the same two images, cross-faded
 Note that the visual results are exactly what you would intuitively expect based on the original colors.
 
 <syntaxhighlight language="css">
-<div style="width:200px; height:200px; background-image:cross-fade(url(white.png), url(black.png), 25%);"></div>
+<div style="width:200px; height:200px; background-image:cross-fade(25% url(white.png), url(black.png));"></div>
 </syntaxhighlight>
 
 [[Image:twentyfive.png|alt=A 25% cross-fade|A 25% cross-fade]]<br/>
 
 
 <syntaxhighlight language="css">
-<div style="width:200px; height:200px; background-image:cross-fade(url(white.png), url(black.png), 75%);"></div>
+<div style="width:200px; height:200px; background-image:cross-fade(75% url(white.png), url(black.png));"></div>
 </syntaxhighlight>
 
 [[Image:seventyfive.png|alt=A 75% cross-fade|A 75% cross-fade]]<br/>
@@ -91,7 +87,7 @@ Here, we use an independent selector to define a class with the appropriate size
 
 <syntaxhighlight language="css">
 <style>
-.cfade { background-image:cross-fade(url(white.png), url(black.png), 50%); width:200px; height:200px; }
+.cfade { background-image:cross-fade(50% url(white.png), url(black.png)); width:200px; height:200px; }
 </style>
 
 . . .
@@ -133,7 +129,7 @@ Now we'll write the code to cross-fade them (directly on the <code>&lt;div&gt;</
 while the images are the same size, they are of different types, one jpg and one png.
 
 <syntaxhighlight language="css">
-<div style="background-image:cross-fade(url('fullmoon.jpg'), url('wolf.png'), 50%); width:600px; height:600px;"></div>
+<div style="background-image:cross-fade(50% url('fullmoon.jpg'), url('wolf.png')); width:600px; height:600px;"></div>
 </syntaxhighlight>
 
 The result is a classic (if somewhat kitschy) wolf-on-moon combo.
