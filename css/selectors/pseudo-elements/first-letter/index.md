@@ -66,9 +66,9 @@ The following properties apply to the ::first-letter pseudo-element.
 }}{{Single Example
 |Language=HTML
 |Code=<article>
-<p>Text text text text text. Text text text text text text text . Text text text text.</p>
-<p>Text text text text text. Text text text text text text text . Text text text text.</p>
-<p>Text text text text text. Text text text text text text text . Text text text text.</p>
+<p>Text text text text text. Text text text text text text text . Text text text text. </p>
+<p>Text text text text text. Text text text text text text text . Text text text text. </p>
+<p>Text text text text text. Text text text text text text text . Text text text text. </p>
 </article>
 }}
 }}
@@ -97,8 +97,6 @@ The following properties apply to the ::first-letter pseudo-element.
 }}
 {{See_Also_Section
 |Topic_clusters=Fonts, Pseudo-Elements, Selectors, Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/selectors/pseudo-elements/::first-line|::first-line]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
