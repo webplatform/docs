@@ -30,7 +30,7 @@ console.log(googol.valueOf() === 1e+100);
 }}{{Single Example
 |Language=JavaScript
 |Code=// Alfred B. Taylor octal notation for the decimal number 10
-untydu = new Number(012);
+var untydu = new Number(012);
 console.log(untydu.valueOf() === 10);
 }}
 }}
