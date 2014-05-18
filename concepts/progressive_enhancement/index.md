@@ -22,7 +22,7 @@ In practical terms, it’s easiest to break the concept of PE into different lay
 
 '''Further reading'''
 
-There is another term you have to hear about that is called [[graceful_degradation|'''Graceful Degradation''']] (GD). GD is similar to PE,  but it does things the other way round.
+There is another term you have to hear about that is called [[concepts/graceful_degradation|'''Graceful Degradation''']] (GD). GD is similar to PE,  but it does things the other way round.
 }}
 {{Examples_Section
 |Not_required=No
