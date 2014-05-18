@@ -37,17 +37,23 @@ The '''srcset''' attribute takes a comma separate list of URL's for each of the 
 |Language=HTML
 |Description=Example of the SRCSET and SIZES attributes
 |Code=<img 
- srcset="http://placehold.it/300x150&text=500+Small.jpg 500w, http://placehold.it/600x250&text=600+Medium.jpg 600w, http://placehold.it/1024x500&text=1024+Large.jpg 1024w" 
- sizes="(min-width:500px) 33.3vw,(min-widthh:1000px) 50vw, 100vw" src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
-     
-     alt="Picture SRCSET" />
+      srcset="http://placehold.it/300x150&text=500+Small.jpg 500w, 
+              http://placehold.it/600x250&text=600+Medium.jpg 600w, 
+              http://placehold.it/1024x500&text=1024+Large.jpg 1024w" 
+      sizes="(min-width:500px) 33.3vw,
+             (min-widthh:1000px) 50vw, 
+             100vw" 
+      src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
+      alt="Picture SRCSET" />
 |LiveURL=http://codepen.io/justincavery/full/osDGt/
 }}{{Single Example
 |Language=HTML
 |Description=Example of srcset using only device pixel ration (not with sizes)
-|Code=<img srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, http://placehold.it/1024x500&text=2x+Large.jpg 2x"
-src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
-     alt="Picture SRCSET" />
+|Code=<img 
+      srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, 
+              http://placehold.it/1024x500&text=2x+Large.jpg 2x"
+      src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
+      alt="Picture SRCSET" />
 |LiveURL=http://codepen.io/justincavery/pen/tliGE
 }}{{Single Example
 |Language=HTML
