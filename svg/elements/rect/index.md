@@ -21,6 +21,15 @@
 
 </syntaxhighlight>
 |LiveURL=http://code.webplatform.org/gist/44786e14924371effbe4
+}}{{Single Example
+|Description=In the following code example, the rect element is used to create a orange square with rounded corners. 
+|Code=<syntaxhighlight lang="xml">
+<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="5" width="100" height="80" fill="orange" rx="10" ry="10" />
+</svg>
+
+</syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9
 }}
 }}
 {{Notes_Section
