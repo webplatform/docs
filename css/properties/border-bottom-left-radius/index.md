@@ -12,7 +12,7 @@
 |Media=visual
 |Computed value=two absolute <length> or percentages
 |Animatable=Yes
-|CSS object model property=object.style.borderBottomLeftRadius
+|CSS object model property=borderBottomLeftRadius
 |Values={{CSS Property Value
 |Data Type=length
 |Description=Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [[css/data_types/length|CSS <length> data types]]. Negative values are invalid.
