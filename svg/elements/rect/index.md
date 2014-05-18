@@ -112,18 +112,6 @@ The '''SVGRectElement''' object has these methods:
 *[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
 *[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
 *[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
-
-The '''SVGRectElement''' object has these events:
-
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
-
-The '''SVGRectElement''' object has these methods:
-
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
 }}
 {{Related_Specifications_Section
 |Specifications=
