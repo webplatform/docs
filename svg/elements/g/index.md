@@ -14,7 +14,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=In the following [http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6 code example], the g element is used to group two elements together. They are then rotated together.
+|Description=In the following code example, the g element is used to group two elements together. They are then rotated together.
 |Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
@@ -29,6 +29,7 @@
   </body>
 </html>
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6
 }}
 }}
 {{Notes_Section
