@@ -42,10 +42,14 @@ sel
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=8 and earlier
+|Note=Only the one-colon form of this pseudo-element is recognized (:first-letter). Beginning with Internet Explorer 9, the first-letter pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
+}}
 }}
 {{See_Also_Section
-|Topic_clusters=Pseudo-Elements, Selectors
+|Topic_clusters=Fonts, Pseudo-Elements, Selectors, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/selectors/pseudo-elements/::first-line|::first-line]]</code>
 }}
