@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -68,8 +66,7 @@ The »problem« with the '''fieldset''' and '''legend''' elements is that they d
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=
+|MSDN_link=
 |HTML5Rocks_link=
 }}
