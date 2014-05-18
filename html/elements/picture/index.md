@@ -15,7 +15,18 @@ Other use cases, such as matching media features and media types and matching on
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example shows the basic usage of the picture element for responsive images and art direction.
+|Code=<picture>
+  <source src="test_landscape_1@1x.jpg">
+  <source media="(min-width: 480px)" src="test_landscape_1@2x.jpg">
+  <source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
+  <!-- fallback img if picture is not supported -->
+  <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
+</picture>
+|LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
+}}
 }}
 {{Notes_Section
 |Usage=The picture element should be used when an image source exists in multiple densities, or when a responsive design dictates a somewhat different image on some types of screens (“art direction”).
