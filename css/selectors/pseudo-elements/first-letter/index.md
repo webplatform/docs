@@ -9,44 +9,6 @@
 {{Summary_Section|Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The ::first-letter pseudo-element may be used for "initial caps" and "drop caps", which are common typographical effects.}}
 {{CSS_Selector
 |Content=The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
-
-The following properties apply to the ::first-letter pseudo-element.
-- background
-- border
-- border-bottom
-- border-bottom-color
-- border-bottom-style
-- border-bottom-width
-- border-collapse
-- border-color
-- border-left
-- border-left-color
-- border-left-style, border-left-width
-- border-right
-- border-right-color
-- border-right-style
-- border-right-width
-- border-style
-- border-top
-- border-top-color
-- border-top-style
-- border-top-width
-- border-width
-- clear
-- color
-- float
-- font
-- font-family
-- font-size
-- font-style
-- font-variant
-- font-weight
-- line-height
-- margin
-- padding
-- text-decoration
-- text-transform
-- vertical-align
 }}
 {{Examples_Section
 |Not_required=No
@@ -64,11 +26,12 @@ The following properties apply to the ::first-letter pseudo-element.
     float: left;
     font-size: 300%;
 }
-
 |LiveURL=https://code.webplatform.org/gist/5257e9b2d1e11631d608
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The following properties apply to the ::first-letter pseudo-element., background, border, border-bottom, border-bottom-color, border-bottom-style, border-bottom-width, border-collapse, border-color, border-left, border-left-color, border-left-style, border-left-width, border-right, border-right-color, border-right-style, border-right-width, border-style, border-top, border-top-color, border-top-style, border-top-width, border-width, clear, color, float, font, font-family, font-size, font-style, font-variant, font-weight, line-height, margin, padding, text-decoration, text-transform, vertical-align
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 Selectors
