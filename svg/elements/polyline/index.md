@@ -108,6 +108,7 @@ The '''SVGPolylineElement''' object has these properties:
 |Status=W3C Recommendation
 }}
 }}
+{{
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -159,6 +160,7 @@ The '''SVGPolylineElement''' object has these properties:
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
+}}
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
