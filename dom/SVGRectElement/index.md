@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The SVGRectElement interface provides access to the properties of the rect element.}}
 {{API_Object
 |Subclass_of=dom/SVGElement
 }}
