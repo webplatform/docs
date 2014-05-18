@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Content=Cleanup
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -36,29 +37,17 @@
 |Language=CSS
 |Description=Alignment of flex items in a flex container. Change the values in the live example.
 |Code=.container {
-  display: -webkit-flex;
-  display:    -moz-flex;
-  display:     -ms-flex;
-  display:      -o-flex;
   display:         flex;
   
   width: 400px;
   height: 200px;
   background: #CCC;
   
-  -webkit-align-items: center; /* values: flex-start, flex-end, center, baseline, stretch */
-     -moz-align-items: center;
-      -ms-align-items: center;
-       -o-align-items: center;
-          align-items: center; 
+  align-items: center; /* values: flex-start, flex-end, center, baseline, stretch */
 }
 
 .container div {
-  -webkit-flex: 1;
-     -moz-flex: 1;
-      -ms-flex: 1;
-       -o-flex: 1;
-          flex: 1;
+    flex: 1;
  
     width: 100px;
     height: auto;        /* let this be set to see how the items respond to 'align-items: stretch' */
