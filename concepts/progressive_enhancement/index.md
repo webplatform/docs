@@ -5,7 +5,7 @@
 |Editorial notes=Needs topics like "concept" or "methodology"..
 }}
 {{API_Name}}
-{{Summary_Section|If you've read this section, you learned the fundamentals of the term Progressive Enhancement, what it is and how to use it?}}
+{{Summary_Section|If you have read this article, you have learned the fundamentals of the term Progressive Enhancement, what it is and how to use it.}}
 {{Concept_Page
 |Content=Progressive enhancement (PE) is a methodology for building web pages that are robust to the ever-changing nature of the web platform. Part of the appeal of PE is the strength of the end result. PE forces you to initially plan out your project as a functional system using only the most basic of Web technologies. This means that you know you’ll always have a strong foundation to fall back on as complexity is introduced to the project.
 PE is also good for your users. It gives them the security of knowing they can visit your website using any of the thousands of user-agents available to them and still interact with your content as that agent allows.
@@ -42,8 +42,6 @@ var requestAnimation = (function() {
     return window.requestAnimationFrame 
     || window.webkitRequestAnimationFrame 
     || window.mozRequestAnimationFrame 
-    || window.oRequestAnimationFrame 
-    || window.msRequestAnimationFrame 
     || function(callback, element) {
         window.setTimeout(callback, 1000 / 60);
     };
