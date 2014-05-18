@@ -74,6 +74,7 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 {{Notes_Section
 |Usage=Use the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' defined in [[apis/web-storage/Storage]]
 |Notes=The '''sessionStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
+|Import_Notes=The amount of storage in sessionStorage is limited by a quota by the browser. See an example error for when the quota is exceed: http://jsfiddle.net/wkDc6/1/
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
