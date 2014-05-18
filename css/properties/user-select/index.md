@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |Content=Incomplete, Compatibility Incomplete
+|Checked_Out=No
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
@@ -31,9 +32,6 @@
 |Language=CSS
 |Description=Deactivate selection of text for elements with the class '''no-select'''.
 |Code=.no-select {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 }
 |LiveURL=http://jsfiddle.net/R5Ygm/
