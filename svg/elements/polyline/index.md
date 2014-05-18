@@ -15,10 +15,11 @@
 |Examples={{Single Example
 |Description=In the following code example, the polyline element is used to draw a gold polyline inside an inline SVG element.
 |Code=<syntaxhighlight lang="xml">
-   <svg width="400" height="400"  version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400"  version="1.1" xmlns="http://www.w3.org/2000/svg">
   <polyline points="50,50 150,120 100,220 200,150" stroke="gold" stroke-width="1" />
 </svg>
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/d9d1f39bf868333169ef
 }}
 }}
 {{Notes_Section
