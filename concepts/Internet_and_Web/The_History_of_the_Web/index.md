@@ -1,4 +1,4 @@
-{{Page_Title|The history of the Web}}
+{{Page_Title|The History of the Web}}
 {{Flags
 |Checked_Out=No
 }}
