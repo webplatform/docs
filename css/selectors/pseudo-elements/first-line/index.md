@@ -9,85 +9,14 @@
 {{Summary_Section|Represents the first line of an element. Note that the content of the first line varies depending on the available width and the styling of text (size, spacing).}}
 {{CSS_Selector
 |Content====Syntax===
-... kommt gleich
-
-===Notes===
-
+{{Single Example
+|Language=CSS
+|Code=::first-line {}
+}}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples show how to use the '''::first-line''' pseudo-element.
-
-The following rule changes to uppercase the letters of the first line of elements with the specified [[dom/properties/className|'''className''']] property.
-
-[http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/firstLine.htm Click to view sample.]
-
-<span codelanguage{{=}}"CSS"><table>
-<tr>
-<th>CSS</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;style&gt;
-.CapFirst::first-line { text-transform: uppercase }
-&lt;/style&gt;
-&lt;p class{{=}}"CapFirst"&gt;The first line in this paragraph will be in 
-all uppercase letters. Subsequent lines will render normally.  The 
-first line in this paragraph will have uppercase letters. 
-Subsequent lines will render normally.&lt;/p&gt;</pre>
-</td>
-</tr>
-</table></span>
-
-The following rules illustrate the cumulative effect of attaching '''::first-line''' and [[css/selectors/pseudo-elements/::first-letter|'''::first-letter''']] pseudo-elements to an element.
-
-[http://go.microsoft.com/fwlink/p/?linkid{{=}}237892 Click to view sample.]
-
-<span codelanguage{{=}}"CSS"><table>
-<tr>
-<th>CSS</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;style&gt;
-.LetterAndLine::first-line   { text-transform: uppercase }
-.LetterAndLine::first-letter { font-size: 200%; float: left }
-&lt;/style&gt;
-&lt;p class{{=}}"LetterAndLine"&gt;The first letter in this paragraph will 
-be twice the size of the other letters in the paragraph.  The 
-first line in this paragraph will have uppercase letters.   
-Subsequent lines will render normally.  The first letter in this 
-paragraph will be twice the size of the other letters in the 
-paragraph.  The first line in this paragraph will have uppercase 
-letters. Subsequent lines will render normally.&lt;/p&gt;</pre>
-</td>
-</tr>
-</table></span>
-
-The following example uses the '''::first-line''' pseudo-element to create a typographical effect that looks like a column in a newspaper.
-|Code=&lt;style&gt;
-    .col1 { border-right: black 1px solid; 
-        padding-right: 10px; 
-        padding-left: 5px; 
-        width: 140px;
-        text-justify: newspaper
-        }
-    .newsitem::first-line { font-size: 14pt; 
-        left: 0px; 
-        float: left; 
-        position: absolute; 
-        top: 100px
-        }
-&lt;/style&gt;
-&lt;div class{{=}}"col1"&gt;
-&lt;div class{{=}}"newsitem"&gt;New features in Internet Explorer 5.5 include 
-the first-line pseudo-element. This allows authors to create
-typographical effects that are applied to the first line of a block 
-of text.&lt;/div&gt;
-&lt;/div&gt;
-|LiveURL=Click to view sample.
-}}{{Single Example
 |Language=CSS
 |Description=The following example puts the first line of any paragraph in bold text
 |Code=p::first-line {
