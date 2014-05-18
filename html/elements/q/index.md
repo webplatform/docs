@@ -1,10 +1,9 @@
-{{Page_Title}}
+{{Page_Title|q – quote}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
+{{API_Name|q}}
 {{Summary_Section|The '''q''' element represents some phrasing content quoted from another source.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
@@ -15,10 +14,14 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''q''' element to set apart a quotation in text.
-|Code=<p>He said, <q>Hi there!</q></p>
+|Code=<p>Chicken Little: <q>The sky is falling…
+the sky is falling… <em>the sky is falling!</em></q></p>
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The '''q''' should be used to denote short, inline quotes that do not need a paragraph of their own.
+For longer quotes, please use the [[html/elements/blockquote|'''blockquote''']] element.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
@@ -34,9 +37,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML, Text
-|Manual_sections====Related pages (MSDN)===
-*<code>blockQuote</code>
+|Manual_links=* [[html/elements/cite|<code>cite</code>]]
+* [[html/elements/blockquote|<code>blockquote</code>]]
 }}
 {{Topics|HTML, Usability}}
 {{External_Attribution
