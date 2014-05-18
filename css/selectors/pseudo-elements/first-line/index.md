@@ -29,17 +29,22 @@ The ::first-line pseudo-element can be attached to block-level elements. It can 
 }}
 {{Notes_Section
 |Notes====Remarks===
-The [[css/cssom/properties/background|'''background''']], [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], 
+Only the following properties apply to the ::first-letter pseudo-element.
+The [[css/properties/background|'''background''']], [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], 
 [[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], 
 [[css/properties/line-height|'''line-height''']], [[css/properties/text-decoration|'''text-decoration''']], 
-[[css/properties/text-transform|'''text-transform''']], [[css/properties/vertical-align|'''vertical-align''']], and [[css/text/word-spacing/word-spacing|'''word-spacing''']] properties apply to the '''::first-line''' pseudo-element.
-
-
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.1
+[[css/properties/text-transform|'''text-transform''']], [[css/properties/vertical-align|'''vertical-align''']], and [[css/text/word-spacing/word-spacing|'''word-spacing''']]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C CSS 2.1 Selectors
+|URL=http://www.w3.org/TR/CSS2/selector.html#first-line-pseudo
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=W3C CSS Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/#first-line
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
