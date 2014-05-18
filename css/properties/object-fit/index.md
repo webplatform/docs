@@ -44,11 +44,16 @@
 &lt;/head&gt;
 &lt;body&gt;
 
-  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="fill"/&gt;
-  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="contain"/&gt;
-  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="cover"/&gt;
-  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="none"/&gt;
-  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="scale-down"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" 
+      alt="Webplatform Logo" class="fill"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" 
+      alt="Webplatform Logo" class="contain"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" 
+      alt="Webplatform Logo" class="cover"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" 
+      alt="Webplatform Logo" class="none"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" 
+      alt="Webplatform Logo" class="scale-down"/&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -64,23 +69,43 @@
 }
 .fill {
   object-fit: fill;
-  /* This is the default behaviour. The image is forced to fill the whole box, the aspect ratio is ignored. */
+  /**
+    * This is the default behaviour.
+    * The image is forced to fill the whole box, 
+    * the aspect ratio is ignored. 
+    **/
 }
 .contain {
   object-fit: contain;
-  /* The whole image will be displayed in the box and scaled down or expanded if necessary. The aspect ratio is maintained. */
+  /**
+    * The whole image will be displayed in the box 
+    * and scaled down or expanded if necessary.
+    * The aspect ratio is maintained. 
+    **/
 }
 .cover {
   object-fit: cover;
-  /* The whole image is scaled down or expanded till it fills the box completely, the aspect ratio is maintained. This normally results in only part of the image being visible. */
+  /**
+    * The whole image is scaled down or expanded till 
+    * it fills the box completely, the aspect ratio is 
+    * maintained. This normally results in only part of
+    * the image being visible. 
+    **/
 }
 .none {
   object-fit: none;
-  /* The image keeps it's original size. This may result in not filling the box completely or sticking out of it. */
+  /**
+    * The image keeps it's original size. 
+    * This may result in not filling the box 
+    * completely or sticking out of it. 
+    **/
 }
 .scale-down {
   object-fit: scale-down;
-  /* The result of 'none' and 'contain' is comapred and the smaller concrete object is displayed. */
+  /**
+    * The result of 'none' and 'contain' is compared
+    * and the smaller concrete object is displayed. 
+   **/
 }
 |LiveURL=http://code.webplatform.org/gist/6badc0b20d67be7d939f
 }}
