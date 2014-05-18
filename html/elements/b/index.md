@@ -15,18 +15,18 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=In the following example, objects in a text adventure are highlighted as being special by use of the '''b''' element.
-|Code=<p>You enter a small room. Your <b>sword</b> glows
-brighter. A <b>rat</b> scurries past the corner wall.</p>
+|Code=&lt;p>You enter a small room. Your &lt;b>sword&lt;/b> glows
+brighter. A &lt;b>rat&lt;/b> scurries past the corner wall.&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/7281844
 }}{{Single Example
 |Language=HTML
 |Description=In this example, the '''b''' element is used to indicate both a company and a product name. Disambiguation via CSS is accomplished using the '''class''' attribute.
-|Code=<p><b class="org">Acme <abbr title="Corporation">Corp</abbr></b> 
+|Code=&lt;p>&lt;b class="org">Acme &lt;abbr title="Corporation">Corp&lt;/abbr>&lt;/b> 
 is pleased to introduce the 
-<b class="product">Widget Blast 3000</b>. 
+&lt;b class="product">Widget Blast 3000&lt;/b>. 
 This is a miracle of modern science that will 
 simplify your life, fry an egg, and even put 
-your kids to bed.</p>
+your kids to bed.&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/321e5149c1e661e1de14
 }}
 }}
