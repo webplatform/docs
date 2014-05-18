@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Provides a Storage object specific to the current top-level browsing context.}}
+{{Summary_Section|Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use [[apis/web-storage/Storage/localStorage]].}}
 {{API_Object_Property
 |Property_applies_to=apis/web-storage/Storage
 |Read_only=Yes
@@ -11,7 +13,38 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=/* global document, window */
+
+var valueSetHandler = function () {
+    /** read the values from the form */
+    var key = document.getElementById('key').value,
+        value = document.getElementById('value').value;
+
+    /** save value under key in localStorage */
+    window.sessionStorage.setItem(key, value);
+},
+valueGetHandler = function () {
+    /** read the value from the form */
+    var key = document.getElementById('get-key').value,
+
+        /** read the value from the localStorage */
+        value = window.sessionStorage.getItem(key);
+
+    /** write the value in output */
+    document.getElementById('output').innerText = value;
+},
+clearStorageHandler = function () {
+    window.sessionStorage.clear();
+};
+
+/** register event Listeners for button clicks */
+document.getElementById('set-local').addEventListener('click', valueSetHandler);
+document.getElementById('get-local').addEventListener('click', valueGetHandler);
+document.getElementById('clear').addEventListener('click', clearStorageHandler);
+|LiveURL=http://jsfiddle.net/DM6hB/7/
+}}
 }}
 {{Notes_Section
 |Notes=The '''sessionStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
