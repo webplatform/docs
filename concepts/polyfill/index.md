@@ -21,21 +21,27 @@ The main difference and advantage between the two types of libraries is that wit
 |Description=Remy Sharp's [https://gist.github.com/350433 localStorage polyfill]. This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
 
 It basically loads the polyfill if there is no <code>localStorage</code> property on the <code>window</code> object.
-|Code=<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Polyfilling Web Storage</title>
-<script>
-// if browser doesn't support Web Storage, load the polyfill.
+|Code=<script>
+// If a browser does not support localStorage, load the polyfill
+var polyfill;
 if (!window.localStorage) {
-	document.write('<script src="localStorage.js"><\/script>');
+        polyfill = document.createElement('script');
+        polyfill.type = 'text/javascript';
+        polyfill.src = 'localStorage.js';
+        document.getElementsByTagName('head')[0].appendChild(polyfill)
 }
 </script>
-</head>
-<body>
-</body>
-</html>
+}}{{Single Example
+|Language=CSS
+|Description=You can detect the support of SVG images in a browser and polyfill non-supporting browsers with a PNG fallback image.
+This example uses a [http://modernizr.com/ Modernizr] test for SVG support.
+|Code=.site-logo {
+    background: url('logo.svg') no-repeat 0 50%;
+}
+
+.no-svg .site-logo {
+    background-image: url('logo.png');
+}
 }}
 }}
 {{Notes_Section}}
@@ -43,7 +49,8 @@ if (!window.localStorage) {
 |Specifications=
 }}
 {{See_Also_Section
-|External_links=*[http://remysharp.com/2010/10/08/what-is-a-polyfill/ Remy Sharp - "What is a Polyfill"]
+|External_links=*[http://en.wikipedia.org/wiki/Polyfill Explanation on Wikipedia]
+*[http://remysharp.com/2010/10/08/what-is-a-polyfill/ Remy Sharp - "What is a Polyfill"]
 *[https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills Modernizr's  mighty "HTML5 Cross Browser Polyfills" list]
 *[http://html5please.com/#polyfill HTML5 Please's list of HTML5 features usable cross-browser with polyfills]
 }}
