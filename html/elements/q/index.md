@@ -14,6 +14,10 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''q''' element to set apart a quotation in text.
+|Code=&lt;p>She then said, &lt;q>See you around, kiddo!&lt;/q>&lt;/p>
+}}{{Single Example
+|Language=HTML
+|Description=This example shows that the '''q''' element can have child elements.
 |Code=&lt;p>Chicken Little: &lt;q>The sky is falling…
 the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/q>&lt;/p>
 }}
