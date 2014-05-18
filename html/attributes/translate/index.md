@@ -19,10 +19,7 @@ Overwriting "no" with "yes" is not widely supported by translation services yet.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<
-<p>The national motto of France is <i lang="fr" translate="no">Liberté, Egalité, Fraternité</i> (freedom, equality, brotherhood).</p>
-}}{{Single Example
-|Language=HTML
+|Code=<syntaxhighlight><p>The national motto of France is <i lang="fr" translate="no">Liberté, Egalité, Fraternité</i> (freedom, equality, brotherhood).</p></syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
