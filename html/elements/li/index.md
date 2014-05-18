@@ -1,4 +1,4 @@
-{{Page_Title|li – list item }}
+{{Page_Title|li – list item}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -15,7 +15,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the &lt;li&gt; element to create individual items in an unordered list.
-|Code=<syntaxhighlight>
+|Code=
 <ul>
      <li>Art</li>
      <li>History</li>
@@ -24,7 +24,16 @@
      <li>Entertainment</li>
      <li>Science</li>
 </ul>
-</syntaxhighlight>
+
+}}{{Single Example
+|Language=HTML
+|Description=This example uses the &lt;li&gt; element to create individual items in an ordered list.
+|Code=<ol>
+     <li>First</li>
+     <li>Second</li>
+     <li>Third</li>
+</ol>
+
 }}
 }}
 {{Notes_Section
@@ -36,7 +45,6 @@ As of Microsoft Internet Explorer 6, the default value of the [[css/properties/
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
 *[http://www.w3.org/TR/html5/grouping-content.html#the-li-element{{=}}HTML5 Specification]
-
 }}
 {{Related_Specifications_Section
 |Specifications=
