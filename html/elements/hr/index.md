@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -16,7 +15,7 @@
 |Language=HTML
 |Description=This example uses the '''hr''' element to create a paragraph-level thematic break.
 |Code=&lt;p>This is a paragraph in a section about Topic A.&lt;/p>
-&lt;hr>
+&lt;hr/>
 &lt;p>This paragraph is part of a section concerning Topic B.&lt;/p>
 }}
 }}
