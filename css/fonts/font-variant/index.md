@@ -14,7 +14,7 @@
 |Media=visual
 |Computed value=As specified
 |Animatable=no
-|CSS object model property=N/A
+|CSS object model property=FontVariant
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
