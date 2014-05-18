@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The line break element, '''br''', forces the current line of text to end and the text that follows it will being on a new line.}}
 {{Markup_Element
-|DOM_interface=[[dom/HTMLBRElement|HTMLBRElement]]
+|DOM_interface=[[dom/HTMLBRElement]]
 |Content=The '''br''' element forcibly breaks (ends) the current line of text, without starting a new paragraph.
 
 '''br''' elements must be used only for line breaks that are actually part of the content, as in poems or addresses, but must not be used for separating thematic groups in a paragraph. For that you should use the [[html/elements/p|'''paragraph''' element]].
