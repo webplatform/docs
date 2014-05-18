@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The line element creates a line segment interconnecting two points.}}
 {{Markup_Element
-|DOM_interface=svg/objects/SVGElement
+|DOM_interface=dom/SVGLineElement
 }}
 {{Examples_Section
 |Not_required=No
