@@ -40,7 +40,7 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
 }}
 {{Remarks_Section}}
 {{Notes_Section
-|Notes=<code>toFixed(-1)</code> and <code>toFixed(21)</code> will throw [[/javascript/Error|'''RangeError''']] and <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
+|Notes=<code>toFixed(-1)</code> and <code>toFixed(21)</code> will throw [[javascript/Error|'''RangeError''']] and <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
