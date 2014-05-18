@@ -34,6 +34,66 @@ HTML5 adds the following attributes which are fully optional.
   </fieldset>
 </form>
 |LiveURL=http://code.webplatform.org/gist/f77f0a06304503ecddd6
+}}{{Single Example
+|Language=HTML
+|Description=The following snippet shows a '''fieldset''' with a checkbox in the legend that controls whether or not the fieldset is enabled.
+|Code=<form>
+	<fieldset name="clubfields" disabled>
+		<legend>
+			<label for="club">Use Club Card</label>
+	  		<input type="checkbox" id="club" name="club" onchange="form.clubfields.disabled = !checked">
+	 	</legend>
+		 <div>
+		 	<label for="clubname">Name on card:</label> 
+		 	<input name="clubname" type="text">
+		 </div>
+		 <div>
+		 	<label for="clubnum">Card number:</label> 
+		 	<input name="clubnum" type="number">
+		 </div>
+		 <div>
+		 	<label for="clubnum">Expiry date:</label> 
+		 	<input name="clubexp" type="date">
+		 </div>
+	</fieldset>
+</form>
+|LiveURL=http://code.webplatform.org/gist/fc26d3507ee33bdd6043
+}}{{Single Example
+|Language=HTML
+|Description=Example with nested '''fieldset''' elements. 
+|Code=<form action="">
+  <fieldset name="clubfields" disabled>
+    <legend>
+      <label for="club">Use Club Card</label>
+      <input type="checkbox" name="club" id= "club" onchange="form.clubfields.disabled = !checked">
+    </legend>
+    <div>
+      <label for="">Name on card:</label>
+      <input name="clubname">
+    </div>
+    <fieldset name="numfields">
+      <legend>
+        <label for="clubtype">My card has numbers on it</label>
+        <input type="radio" checked name="clubtype" id="clubtype" onchange="form.numfields.disabled = !checked">
+      </legend>
+      <div>
+        <label for="clubnum">Card number:</label>
+        <input name="clubnum" id="clubnum" type="text">
+      </div>
+    </fieldset>
+    <fieldset name="letfields" disabled>
+      <legend>
+        <label>My card has letters on it</label>
+        <input type="radio" name="clubtype" id="clubtype" onchange="form.letfields.disabled = !checked">
+      </legend>
+      <div>
+        <label for="clublet">Card code: </label>
+        <input name="clublet" id="clublet" >
+      </div>
+    </fieldset>
+  </fieldset>
+</form>
+|LiveURL=http://code.webplatform.org/gist/91bca1371d394bf3c52d
 }}
 }}
 {{Notes_Section
@@ -42,7 +102,7 @@ HTML5 adds the following attributes which are fully optional.
 Typically, the browser draws a box around the containing elements of every fieldset. This border can be disabled via CSS <code>border: none;</code> The border contains the legend by default. See [[html/elements/legend]'''legend'''] for details.
 
 ===Nesting fieldsets===
-
+It’s also possible and in certain use cases pretty useful to nest fieldsets. See Example.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
