@@ -1,1 +1,0 @@
-#REDIRECT [[concepts/internet and web/The History of the Web]]
