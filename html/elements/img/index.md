@@ -36,13 +36,11 @@ An img is always in one of the following states:
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows how to use the '''img''' element to embed an image on a page with an '''alt''' attribute to specify text to display if the image isn't able to be displayed.
-|Code=<nowiki>
-<p>
+|Code=<p>
   You are standing in an open field west of a house.
   <img src="house.jpeg" alt="The house is white, with a boarded front door.">
   There is a small mailbox here.
 </p>
-</nowiki>
 |LiveURL=http://code.webplatform.org/gist/7283804
 }}{{Single Example
 |Language=HTML
@@ -85,6 +83,28 @@ An img is always in one of the following states:
 |Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=1.0
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}{{Compatibility Table Desktop Row
+|Feature=srcset support
+|Chrome_supported=Yes
+|Chrome_version=34.0
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=No
+|Firefox_version=
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=No
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=21.0
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=No
+|Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
