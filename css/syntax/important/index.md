@@ -1,10 +1,14 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
+{{Summary_Section}}
+{{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Basic_Page}}
+
 {{Examples_Section
 |Not_required=No
 |Examples={{Single_Example
@@ -20,13 +24,15 @@ p { text-indent: 1.5em !important }
 p { font: normal 12pt sans-serif !important }
 p { font-size: 24pt }
 }}}}
+
+{{See_Also_Section
+|Topic_clusters=Syntax
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 CSS attempts to create a "balance of power" between author and user style sheets. By default, rules in an author's style sheet override those in a user's style sheet. However, for balance, an '''!important''' declaration takes precedence over a normal declaration. Both author and user style sheets may contain '''!important''' declarations, and user '''!important''' rules override author '''!important''' rules.
 Declaring a shorthand property (for instance, the [[css/cssom/properties/background|'''background''']] property) to be '''!important''' is equivalent to declaring all of its sub-properties to be '''!important'''.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>
 { ''declaration''''' !important ''' }
 </code>
@@ -34,16 +40,12 @@ Declaring a shorthand property (for instance, the [[css/cssom/properties/backgro
 ;''declaration'':A CSS property and value declaration within a rule set.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 6.4.2
-
-
 }}
-{{See_Also_Section
-|Topic_clusters=Syntax
-}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
