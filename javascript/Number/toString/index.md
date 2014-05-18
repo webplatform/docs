@@ -5,7 +5,7 @@
 {{Summary_Section|Returns a string representation of a number.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=toString([ radix ] )
+|Format=toString([ radix ])
 }}
 |Values={{JS Syntax Parameter
 |Name=number
