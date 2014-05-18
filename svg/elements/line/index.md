@@ -47,6 +47,8 @@
 
 ===DOM Interface===
 
+'''The following DOM interface properties & methods should be moved to a proper SVG DOM documentation (i.e. SVGLineElement et. al, see above). However, at the present time, the WebPlatform MediaWiki doesn't allow the necessary changes.'''
+
 The '''SVGLineElement''' object has these events:
 
 *[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
