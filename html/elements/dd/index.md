@@ -6,9 +6,9 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name|dd}}
-{{Summary_Section|The <code>&lt;dd&gt;</code> element represents the description, definition, or value, part of a term-description group in a definition list ([[html/elements/dl|<code>&lt;dl&gt;</code>]]). 
+{{Summary_Section|The '''dd''' element represents the description, definition, or value, part of a term-description group in a definition list ([[html/elements/dl|'''dl''']]). 
 
-A [[html/elements/dt|<code>&lt;dt&gt;</code>]] (topic) is usually followed by one or more [[html/elements/dd|<code>&lt;dd&gt;</code>]] (definition) elements. Several consecutive [[html/elements/dt|<code>&lt;dt&gt;</code>]] are attributed to the [[html/elements/dd|<code>&lt;dd&gt;</code>]] element that immediately follows the group.
+A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[html/elements/dd|'''dd''']] (definition) elements. Several consecutive [[html/elements/dt|'''dt''']] are attributed to the [[html/elements/dd|'''dd''']] element that immediately follows the group.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLDDElement
@@ -23,7 +23,7 @@ A [[html/elements/dt|<code>&lt;dt&gt;</code>]] (topic) is usually followed by on
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
-<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+<td>A '''dl''' element must have both a start tag and an end tag.</td>
 </tr>
 </table>
 }}
@@ -61,7 +61,7 @@ A [[html/elements/dt|<code>&lt;dt&gt;</code>]] (topic) is usually followed by on
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=CSS
-|Description=Typical browser default CSS properties for the <code>&lt;dd&gt;</code> element.
+|Description=Typical browser default CSS properties for the '''dd''' element.
 |Code=display: block;
 margin-left: 40px;
 }}
@@ -135,6 +135,12 @@ The '''dd''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=* [[html/elements/dir|<code>dir</code>]]
+* [[html/elements/menu|<code>menu</code>]]
+* [[html/elements/ol|<code>ol</code>]]
+* [[html/elements/ul|<code>ul</code>]]
+* [[html/elements/li|<code>li</code>]]
+* [[html/elements/dt|<code>dt</code>]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dd Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-US/library/ie/ms535234.aspx Microsoft Developer Network]
 }}
