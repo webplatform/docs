@@ -38,24 +38,24 @@ HTML5 adds the following attributes which are fully optional.
 |Language=HTML
 |Description=The following snippet shows a '''fieldset''' with a checkbox in the legend that controls whether or not the fieldset is enabled.
 |Code=<form>
-	<fieldset name="clubfields" disabled>
-		<legend>
-			<label for="club">Use Club Card</label>
-	  		<input type="checkbox" id="club" name="club" onchange="form.clubfields.disabled = !checked">
-	 	</legend>
-		 <div>
-		 	<label for="clubname">Name on card:</label> 
-		 	<input name="clubname" type="text">
-		 </div>
-		 <div>
-		 	<label for="clubnum">Card number:</label> 
-		 	<input name="clubnum" type="number">
-		 </div>
-		 <div>
-		 	<label for="clubnum">Expiry date:</label> 
-		 	<input name="clubexp" type="date">
-		 </div>
-	</fieldset>
+  <fieldset name="clubfields" disabled>
+    <legend>
+      <label for="club">Use Club Card</label>
+        <input type="checkbox" id="club" name="club" onchange="form.clubfields.disabled = !checked">
+    </legend>
+     <div>
+      <label for="clubname">Name on card:</label> 
+      <input name="clubname" type="text">
+     </div>
+     <div>
+      <label for="clubnum">Card number:</label> 
+      <input name="clubnum" type="number">
+     </div>
+     <div>
+      <label for="clubnum">Expiry date:</label> 
+      <input name="clubexp" type="date">
+     </div>
+  </fieldset>
 </form>
 |LiveURL=http://code.webplatform.org/gist/fc26d3507ee33bdd6043
 }}{{Single Example
