@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The Web Storage API provides objects for storing temporary and permanent data on the client's device.}}
+{{Summary_Section|The Web Storage API provides objects for storing [[apis/web-storage/Storage/sessionStorage|temporary (sessionStorage)]] and [[apis/web-storage/Storage/localStorage|permanent (localStorage)]] data on the client's device.}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
