@@ -41,14 +41,10 @@ The illusion of perspective on a flat surface, such as a computer screen, is cre
       }
 
       .bar {
-        -webkit-perspective: 800px;
-        -moz-perspective: 800px;
         perspective: 800px;
       }
 
       .foo img {
-        -webkit-transform: rotateX(-60deg);
-        -moz-transform: rotateX(-60deg);
         transform: rotateX(-60deg);
       }
     &lt;/style&gt;
