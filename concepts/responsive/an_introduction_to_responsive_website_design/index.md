@@ -2,8 +2,8 @@
 Responsive website design is an approach by which the website adjusts itself dynamically to give the best user experience for the particular device. For example pages viewed in a desktop can have links that are text based and compact, but for touch screen devices the links should be big enough for touch based interactions. Responsive web design aims to tackle these differences using certain techniques that are available in HTML5 and CSS3 without the need to serve different pages for different devices.
 
 The major techniques used are
-* CSS3 media queries that help the CSS to change depending on device specifications like pixel density, screen resolution, oreientation etc.
-* Use relative scales instead of fixed scales. Specify widths in percentage and font size in em so that the page adapts to the device screen without the need of panning or zooming out.
+* CSS3 media queries that help the CSS to change depending on device specifications like pixel density, screen resolution, orientation etc.
+* Use relative scales instead of fixed scales. Specify widths in percentage and font size in em/rem so that the page adapts to the device screen without the need of panning or zooming out.
 
 The problem is that at present the support for HTML5 techniques varies widely with different browsers and different mobile device screen resolutions further complicate design - what looks fine on a mobile may waste space on a tablet.
 
