@@ -28,8 +28,6 @@
 |Language=CSS
 |Code=/* Make 3 columns at auto width */
 #columns {
-  -moz-columns: auto 3;  /* Firefox */
-  -webkit-columns: auto 3;  /* Safari and Chrome */
   columns: auto 3;
 }
 |LiveURL=http://code.webplatform.org/gist/6288803
