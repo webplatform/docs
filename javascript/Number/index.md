@@ -100,9 +100,25 @@ The following table lists the properties of the '''Number''' object.
 | [[javascript/Object/constructor|constructor Property]]
 | Specifies the function that creates an object.
 |-
+| [[javascript/Number/MAX_VALUE|MAX_VALUE Property]]
+| Represents the largest representable number.
+|-
+| [[javascript/Number/MIN_VALUE|MIN_VALUE Property]]
+| Represents the smallest representable number.
+|-
+| [[javascript/Object/NaN|NaN Property]]
+| NaN is a special value indicating that the value is "Not-A-Number".
+|-
+| [[javascript/Number/NEGATIVE_INFINITY|NEGATIVE_INFINITY Property]]
+| Represents negative infinity.
+|-
+| [[javascript/Number/POSITIVE_INFINITY|POSITIVE_INFINITY Property]]
+| Represents positive infinity.
+|-
 | [[javascript/Object/prototype|prototype Property]]
 | Returns a reference to the prototype for a class of objects.
 |}
+
 ==Methods==
 The following table lists the methods of the '''Number''' object.
 
