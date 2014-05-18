@@ -14,7 +14,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''em''' element to emphasize text.
-|Code=&lt;p>Please fill in the form below. &lt;em&gt;Note: all fields are required.&lt;/em&gt;&lt;/p>
+|Code=&lt;p>Please fill in the form below.
+&lt;em&gt;Note: all fields are required.&lt;/em&gt;&lt;/p>
 }}
 }}
 {{Notes_Section
