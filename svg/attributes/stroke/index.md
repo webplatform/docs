@@ -10,7 +10,7 @@
 {{Markup_Attribute
 |Content====Syntax===
 
-'''stroke:''' none {{!}} currentColor {{!}} ''color'' {{!}} ''funciri'' [ none {{!}} currentColor {{!}} ''color'' ] {{!}} inherit
+  '''stroke:''' none {{!}} currentColor {{!}} ''color'' {{!}} ''funciri'' [ none {{!}} currentColor {{!}} ''color'' ] {{!}} inherit
 
 The default value is ''none'', which means that the outline is not drawn.
 }}
