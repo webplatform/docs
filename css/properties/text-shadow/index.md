@@ -107,8 +107,16 @@ The <code>text-shadow</code> property applies to both the ::first-line and ::fir
 |Note=cap the blur radius at 300 for performance reasons
 }}{{Compatibility Notes Row
 |Browser=Firefox
-|Version=all
-|Note=If the <color> value is undefined, Firefox use the elements <code>[[css/properties/color|<color>]]</code> value
+|Version=N/A
+|Note=if the <color> value is undefined, Firefox use the elements <code>[[css/properties/color|<color>]]</code> value
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=N/A
+|Note=max. 6-9 text-shadows for performance reason
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=N/A
+|Note=blur radius is limited to 100px
 }}
 }}
 {{See_Also_Section
@@ -117,7 +125,8 @@ The <code>text-shadow</code> property applies to both the ::first-line and ::fir
 {{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 |MSDN_link=
 |HTML5Rocks_link=
 }}
