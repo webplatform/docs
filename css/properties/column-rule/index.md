@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -34,11 +33,7 @@
 |Language=CSS
 |Description=Makes 3 columns with 4px dashed green column-rule.
 |Code=#columns {
-  -moz-column-rule: 3; /* Firefox */
-  -webkit-column-count: 3; /* Safari and Chrome */
   column-count: 3;
-  -moz-column-rule: 4px dashed green; /* Firefox */
-  -webkit-column-rule: 4px dashed green; /* Safari and Chrome */
   column-rule: 4px dashed green;
 }
 |LiveURL=http://code.webplatform.org/gist/6288958
