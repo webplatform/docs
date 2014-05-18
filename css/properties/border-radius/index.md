@@ -12,7 +12,7 @@
 |Media=visual
 |Computed value=As specified by individual properties
 |Animatable=Yes
-|CSS object model property=element.style.borderRadius
+|CSS object model property=borderRadius
 |CSS percentages=Refer to the corresponding dimension (width or height) of the border box.
 |Values={{CSS Property Value
 |Data Type=length
