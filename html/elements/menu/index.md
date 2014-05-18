@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
-|Content=Incomplete, Cleanup, Broken Links, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -18,6 +16,8 @@ The '''menu''' element is currently unsupported by major browsers.
 The '''menu''' element will specifically accept the '''label''' attribute whose value is ''text'' and the '''type''' attribute whose value can be ''context'', ''toolbar'', or ''list''. ''list'' is the default value.
 
 The '''menu''' element also accepts [[html/global_attributes | global attributes]] and [[html/event_attributes | event attributes]].
+
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -44,7 +44,7 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 }}
 }}
 {{Notes_Section
-|Usage=The '''menu''' element is currently unsupported by major browsers.
+|Usage=The '''menu''' and [[html/elements/ul|'''ul''']] both represent an unordered list of items. They differ in the way that the [[html/elements/ul|'''ul''']] element only contains items to display while the '''menu''' element contains interactive items, to act on.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -67,7 +67,7 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 {{See_Also_Section
 |Topic_clusters=HTML
 }}
-{{Topics|HTML}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
