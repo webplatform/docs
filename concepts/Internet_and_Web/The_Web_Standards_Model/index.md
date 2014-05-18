@@ -247,6 +247,7 @@ Aside from getting the satisfaction of a job well done, web standards developmen
 |Specifications=
 }}
 {{See_Also_Section
+|External_links=[http://www.codecademy.com/tracks/web Introduction to HTML & CSS] - a practical course on the free e-Learning platform [http://www.codecademy.com Codecademy].
 |Manual_sections==== Exercise questions ===
  
 * What’s the difference between a class and an ID?
