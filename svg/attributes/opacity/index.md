@@ -5,7 +5,11 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The opacity attribute specifies the transparency of an object or of a group of objects.}}
-{{Markup_Attribute}}
+{{Markup_Attribute
+|Content====Syntax===
+
+ '''stroke:''' ''opacity-value'' {{!}} inherit
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
