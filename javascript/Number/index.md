@@ -17,7 +17,12 @@
 {{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// Returns an Object
+var thousand = new Number(1000);
+console.log(thousand.valueOf() === 1000)
+}}
 }}
 {{Remarks_Section
 |Remarks=JavaScript creates '''Number''' objects when a variable is set to a number value, for example <code>var num = 255.336;</code>. It is seldom necessary to create '''Number''' objects explicitly.
