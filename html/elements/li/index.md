@@ -39,10 +39,14 @@ The default value of the [[css/properties/display|'''display''']] property for t
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
-*[http://www.w3.org/TR/html5/grouping-content.html#the-li-element{{=}}HTML5 Specification]
+*[http://www.w3.org/TR/html5/grouping-content.html#the-li-element HTML5 Specification]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 Specification
+|URL=http://www.w3.org/TR/html5/grouping-content.html#the-li-element
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
