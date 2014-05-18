@@ -50,6 +50,8 @@
 
 *[[svg/attributes/style|'''style''']]
 *[[svg/attributes/class|'''class''']]
+*[[svg/attributes/externalResourcesRequired|'''externalResourcesRequired''']]
+*[[svg/attributes/transform|'''transform''']]
 
 ====Specific attributes====
 
