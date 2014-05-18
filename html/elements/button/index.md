@@ -1,7 +1,7 @@
 {{Page_Title|button}}
 {{Flags
 |Content=Compatibility Incomplete
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
