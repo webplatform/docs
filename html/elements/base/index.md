@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Data Not Semantic
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
