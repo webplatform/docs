@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows to the text and <code>[[/css/properties/text-decoration|<text-decoration>]]</code> of an element. Each shadow is specified as an offset from the text, along with optional color and blur radius values.}}
+{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows to the text and <code>[[css/properties/text-decoration|<text-decoration>]]</code> of an element. Each shadow is specified as an offset from the text, along with optional color and blur radius values.}}
 {{CSS Property
 |Initial value=none
 |Applies to=all elements
