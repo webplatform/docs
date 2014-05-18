@@ -1,29 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Represents a number in fixed-point notation.
-
+{{Flags
+|High-level issues=Needs Topics
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= numObj.toFixed([ fractionDigits ])}}
-|Values={{JS_Syntax_Parameter
-|Name=numObj
-|Required=Required
-|Description=A '''Number''' object.}}{{JS_Syntax_Parameter
+{{Summary_Section|The toFixed() method formats a number to fixed-point notation (decimal).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=toFixed([ fractionDigits ])
+}}
+|Values={{JS Syntax Parameter
 |Name=fractionDigits
 |Required=Optional
-|Description=The number of digits after the decimal point. Must be in the range 0 - 20, inclusive.}}
+|Description=The number of digits after the decimal point. Must be in the range 0 - 20, inclusive. Defaults to 0.
+}}
 }}
 {{JS_Return_Value
 |Description=Returns a string representation of a number in fixed-point notation, containing fractionDigits digits after the decimal point.
 
-If fractionDigits is not supplied or '''undefined''' , the default value is zero.}}
+If fractionDigits is not supplied or '''undefined''' , the default value is 0.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following code shows how to use '''toFixed'''.
-
-|Code= var num = new Number(123);
+|Code=var num = new Number(123);
  var fix = num.toFixed();
  document.write(fix);
  document.write("&lt;br/&gt;");
@@ -35,13 +36,29 @@ If fractionDigits is not supplied or '''undefined''' , the default value is zero
  // Output:
  // 123
  123.45600
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section
+|Notes=<code>toFixed(-1)</code> and <code>toFixed(21)</code> will throw [[/javascript/Error|'''RangeError''']] and <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
+}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
 * [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
-}}
-{{Topics | JS Basic}}
+* [[javascript/Number/toString{{!}}toString Method (Number)]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5 15.7.4.5 Number.prototype.toFixed(fractionDigits)]
 
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
