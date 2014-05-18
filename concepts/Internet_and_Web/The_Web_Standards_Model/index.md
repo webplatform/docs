@@ -35,10 +35,23 @@ With that in mind, just what is the difference between HTML and XHTML?
  
 HTML is the oldest web language, and the most common one you'll find on the web - it is a bit more forgiving in terms of strict syntax rules. XHTML on the other hand is a reformulation of HTML as an XML vocabulary, XML being a separate markup language with much stricter syntax rules. The difference between XHTML and HTML doesn't really matter so much any more, unless you find youself working in a web team in the future that has coding guidelines that favour one style or another. If you are using HTML5, which we will be doing throughout this course, then you are free to use HTML or XHTML syntax. Choose whatever you are most comfortable with, as long as you stick to the best practices outlined in the course.
 
-Table 1 shows the main syntax differences between HTML and XHTML.
+Main syntax differences between HTML and XHTML.
 (Source: [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model])
                          
-{|
+HTML: 
+- Elements and attributes are case insensitive, eg. <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
+- Certain elements don’t need a closing tag (eg. paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg. images, <code>&lt;img&gt;</code>).
+- Attribute values may be written without being enclosed in quotes.
+-Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
+
+XHTML:
+- Elements and attributes are case sensitive; they are all lowercase. 
+- All elements must be explicitly closed (eg. <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg. <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
+- Attribute values must be enclosed by quotes.
+- The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
+
+<!--{| border="1"
+|-
 !HTML 
 !XHTML
 |-
@@ -53,7 +66,8 @@ Table 1 shows the main syntax differences between HTML and XHTML.
 |-
 | Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
 | The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
-|}
+|-
+|}-->
 
 Table 1: Differences between HTML and XHTML.
 
