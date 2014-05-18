@@ -21,7 +21,7 @@ A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[htm
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
-<td>A '''dl''' element must have both a start tag and an end tag.</td>
+<td>A '''dt''' element's end tag may be omitted if the '''dt''' element is immediately followed by another '''dt''' element or a '''dd''' element.</td>
 </tr>
 </table>
 }}
@@ -87,6 +87,13 @@ While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this 
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=* [[html/elements/dir|<code>dir</code>]]
+* [[html/elements/menu|<code>menu</code>]]
+* [[html/elements/ol|<code>ol</code>]]
+* [[html/elements/ul|<code>ul</code>]]
+* [[html/elements/li|<code>li</code>]]
+* [[html/elements/dd|<code>dd</code>]]
+* [[html/elements/dl|<code>dl</code>]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dt Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535243%28v=vs.85%29.aspx Microsoft Developer Network]
 }}
