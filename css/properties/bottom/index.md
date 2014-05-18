@@ -10,7 +10,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=the specified absolute length, or the specified percentage, or 'auto'
+|Computed value=If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
 |Animatable=Yes
 |CSS object model property=bottom
 |Values={{CSS Property Value
@@ -92,13 +92,6 @@
 </article>
 </syntaxhighlight>
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''bottom''' attribute should be used only when the [[css/properties/position|'''position''']]
-attribute is set; otherwise, the value of the '''bottom''' attribute is ignored.
-Because the value of the '''bottom''' property is a string, the property cannot be used  in script to calculate the position of the object in the document; instead, the [[css/cssom/properties/pixelBottom|'''pixelBottom''']] property or the [[css/cssom/properties/posBottom|'''posBottom''']] property should be used.
-For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) object model, see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
