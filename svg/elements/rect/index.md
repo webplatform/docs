@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.}}
 {{Markup_Element
-|DOM_interface=svg/objects/SVGElement
+|DOM_interface=dom/SVGRectElement
 }}
 {{Examples_Section
 |Not_required=No
