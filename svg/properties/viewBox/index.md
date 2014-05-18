@@ -14,6 +14,7 @@
      viewBox="0 0 1200 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"&gt;
 }}}}
 http://static.webplatform.org/w/public/2/2c/svg-no-viewbox.svg
+http://static.webplatform.org/w/public/8/8a/svg-viewbox-preserveaspectratio-none.svg
 
 {{Topics|SVG}}
 {{Notes_Section
