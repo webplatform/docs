@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -30,8 +29,6 @@ Makes 3 columns with 4px dashed green column-rule
 */
 
 #columns {
-  -moz-columns: 3; /* Firefox */
-  -webkit-columns: 3; /* Safari and Chrome */
   columns: 3;
   
   /* Prefix free example below, use vendor prefixes where needed */
