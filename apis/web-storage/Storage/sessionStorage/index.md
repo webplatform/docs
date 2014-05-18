@@ -44,8 +44,7 @@ document.getElementById('set-local').addEventListener('click', valueSetHandler);
 document.getElementById('get-local').addEventListener('click', valueGetHandler);
 document.getElementById('clear').addEventListener('click', clearStorageHandler);
 |LiveURL=http://jsfiddle.net/DM6hB/7/
-}}
-{{Single Example
+}}{{Single Example
 |Language=HTML
 |Code=<!-- Fields to store a key/value pair (item) in sessionStorage -->
 <section>
@@ -73,6 +72,7 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 }}
 }}
 {{Notes_Section
+|Usage=Use the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' defined in [[apis/web-storage/Storage]]
 |Notes=The '''sessionStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 }}
 {{Related_Specifications_Section
