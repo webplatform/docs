@@ -18,12 +18,7 @@ Other use cases, such as matching media features and media types and matching on
 |Examples={{Single Example
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
-|Code=<picture>
-  <source media="(min-width: 480px)" src="test_landscape_1@2x.jpg">
-  <source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
-  <!-- fallback img if picture is not supported -->
-  <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
-</picture>
+|Code=<img src="asdf.png" alt="test" />
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
 }}
