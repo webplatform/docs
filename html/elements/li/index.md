@@ -29,6 +29,11 @@
      &lt;li>Second</li>
      &lt;li>Third</li>
 &lt;/ol>
+}}{{Single Example
+|Language=CSS
+|Description=Typical browser default CSS properties for the '''li''' element.
+|Code=display: list-item;
+margin-left: 40px;
 }}
 }}
 {{Notes_Section
