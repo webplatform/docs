@@ -38,8 +38,7 @@ HTML is the oldest web language, and the most common one you'll find on the web 
 Table 1 shows the main syntax differences between HTML and XHTML.
 (Source: [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model])
                          
-{| border="1"
-|-
+{|
 !HTML 
 !XHTML
 |-
@@ -54,7 +53,6 @@ Table 1 shows the main syntax differences between HTML and XHTML.
 |-
 | Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
 | The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
-|-
 |}
 
 Table 1: Differences between HTML and XHTML.
