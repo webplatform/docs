@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>&lt;base&gt;</code> element is used to specify a document's base URL and base target that is used for resolving relative URLs within the document.}}
+{{Summary_Section|The '''base''' element is used to specify a document's base URL and base target that is used for resolving relative URLs within the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBaseElement
 |Content=<table class{{=}}"wikitable">
@@ -38,37 +38,22 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;base element example&lt;/title&gt;
-    &lt;base href=&quot;http://www.example.org/deep/&quot;&gt;
+    &lt;base href="http://www.example.org/deep/"&gt;
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;p&gt;A &lt;a href=&quot;some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;A &lt;a href="some-file.html"&gt;relative link&lt;/a&gt;.&lt;/p&gt;
     &lt;!-- after resolving the above link equals to --&gt;
-    &lt;p&gt;A &lt;a href=&quot;http://www.example.org/deep/some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;A &lt;a href="http://www.example.org/deep/some-file.html"&gt;relative link&lt;/a&gt;.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The example shows a link that is opened in a new window (or tab)
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;base element example&lt;/title&gt;
-    &lt;base target=&quot;_blank&quot;&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;A &lt;a href=&quot;some-file.html&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
-    &lt;!-- after resolving the above link equals to --&gt;
-    &lt;p&gt;A &lt;a href=&quot;some-file.html&quot; target=&quot;_blank&quot;&gt;relative link&lt;/a&gt;.&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-}}{{Single Example
-|Language=HTML
-|Description=The example shows that <code>&lt;base&gt;</code> only affects elements following it
+|Description=The example shows that '''base''' only affects elements following it
 |Code=&lt;head&gt;
   &lt;title&gt;base element example&lt;/title&gt;
-  &lt;link href=&quot;my-style.css&quot; rel=&quot;stylesheet&quot;&gt;
-  &lt;base href=&quot;http://example.com&quot;&gt;
-  &lt;link href=&quot;my-other-style.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href="my-style.css&quot; rel="stylesheet"&gt;
+  &lt;base href="http://example.com"&gt;
+  &lt;link href="my-other-style.css" rel="stylesheet"&gt;
   &lt;!--
     resolves to
     [current domain and directory]/my-style.css
@@ -77,36 +62,17 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 &lt;/head&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The example shows how multiple <code>&lt;base&gt;</code> occurrences are collapsed and ignored
+|Description=The example shows how multiple '''base''' occurrences are collapsed and ignored
 |Code=&lt;head&gt;
   &lt;title&gt;base element example&lt;/title&gt;
-  &lt;base href=&quot;http://example.com&quot;&gt;
-  &lt;base target=&quot;_blank&quot;&gt;
-  &lt;base href=&quot;http://webplatform.org&quot; target=&quot;_top&quot;&gt;
+  &lt;base href="http://example.com"&gt;
+  &lt;base target="_blank"&gt;
+  &lt;base href="http://webplatform.org" target="_top"&gt;
   &lt;!--
     equals to the single definition:
-    &lt;base href=&quot;http://example.com/&quot; target=&quot;_blank&quot;&gt;
+    &lt;base href="http://example.com/" target="_blank"&gt;
     except for Internet Explorer, where only the first element is read:
-    &lt;base href=&quot;http://example.com/&quot; target=&quot;_self&quot;&gt;    
-  --&gt;
-&lt;/head&gt;
-}}{{Single Example
-|Language=HTML
-|Description=The example shows how a relative base URL can be made to work in Internet Explorer
-|Code=&lt;head&gt;
-  &lt;title&gt;base element example&lt;/title&gt;
-  &lt;base href=&quot;sub-directory/&quot;&gt;
-  &lt;script&gt;
-    (function() {
-      var base = document.getElementsByTagName('base')[0];
-      base.href = base.href + &quot;&quot;;
-    })();
-  &lt;/script&gt;
-  &lt;!--
-    if this URL of the document is 
-    http://example.com/index.html the 
-    resolved base href is
-    http://example.com/sub-directory/ 
+    &lt;base href="http://example.com/" target="_self"&gt;    
   --&gt;
 &lt;/head&gt;
 }}
