@@ -41,20 +41,20 @@ HTML5 adds the following attributes which are fully optional.
   <fieldset name="clubfields" disabled>
     <legend>
       <label for="club">Use Club Card</label>
-        <input type="checkbox" id="club" name="club" onchange="form.clubfields.disabled = !checked">
+      <input type="checkbox" id="club" name="club" onchange="form.clubfields.disabled = !checked">
     </legend>
-     <div>
-      <label for="clubname">Name on card:</label> 
+    <div>
+      <label for="clubname">Name on card:</label>
       <input name="clubname" type="text">
-     </div>
-     <div>
-      <label for="clubnum">Card number:</label> 
+    </div>
+    <div>
+      <label for="clubnum">Card number:</label>
       <input name="clubnum" type="number">
-     </div>
-     <div>
-      <label for="clubnum">Expiry date:</label> 
+    </div>
+    <div>
+      <label for="clubnum">Expiry date:</label>
       <input name="clubexp" type="date">
-     </div>
+    </div>
   </fieldset>
 </form>
 |LiveURL=http://code.webplatform.org/gist/fc26d3507ee33bdd6043
@@ -65,7 +65,7 @@ HTML5 adds the following attributes which are fully optional.
   <fieldset name="clubfields" disabled>
     <legend>
       <label for="club">Use Club Card</label>
-      <input type="checkbox" name="club" id= "club" onchange="form.clubfields.disabled = !checked">
+      <input type="checkbox" name="club" id="club" onchange="form.clubfields.disabled = !checked">
     </legend>
     <div>
       <label for="">Name on card:</label>
@@ -87,8 +87,8 @@ HTML5 adds the following attributes which are fully optional.
         <input type="radio" name="clubtype" id="clubtype" onchange="form.letfields.disabled = !checked">
       </legend>
       <div>
-        <label for="clublet">Card code: </label>
-        <input name="clublet" id="clublet" >
+        <label for="clublet">Card code:</label>
+        <input name="clublet" id="clublet">
       </div>
     </fieldset>
   </fieldset>
