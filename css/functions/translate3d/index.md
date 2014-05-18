@@ -9,14 +9,13 @@
 {{Summary_Section|[[css/properties/transform|Transform]] function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.}}
 {{CSS_Function
 |Content===Syntax==
-'''translate3d( <translation-value-x>, <translation-value-y>, <translation-value-z> )'''
+'''translate3d ( <translation-value-x>, <translation-value-y>, <translation-value-z> )'''
 
 ==Parameters==
 '''translation-value-x, translation-value-y, translation-value-z'''
 
 ''translation-value-x and translation-value-y represent vector values x and y and can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.
 translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).'' '''Attention:''' ''It can only be a [[css/data_types/length|length]] value, percentage is not supported.''
-
 }}
 {{Examples_Section
 |Not_required=No
