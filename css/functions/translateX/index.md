@@ -14,7 +14,7 @@
 ===Parameters===
 '''translation-value'''
 
-Value for the translation across the x-axis. Can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.
+''Value for the translation across the x-axis. Can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.''
 }}
 {{Examples_Section
 |Not_required=No
