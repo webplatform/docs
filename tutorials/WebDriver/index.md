@@ -87,22 +87,22 @@ Next step is to connect our PhantomJS based server with the JavaScript code we w
   &lt;body&gt;
     &lt;h1&gt;This is a WebDiver testpage&lt;/h1&gt;
 		&lt;script&gt;
-			request = new XMLHttpRequest();
-			request.open('GET', 'http://localhost:8080/status', true);
+		  request = new XMLHttpRequest();
+		  request.open('GET', 'http://localhost:8080/status', true);
 
-			request.onload = function() {
-				var el = document.createElement('div');
-				var contents = document.createTextNode(request.responseText);
-				el.appendChild(contents);
-				document.getElementsByTagName('body')[0].appendChild(el);
-			};
+		  request.onload = function() {
+		    var el = document.createElement('div');
+		    var contents = document.createTextNode(request.responseText);
+		      el.appendChild(contents);
+		      document.getElementsByTagName('body')[0].appendChild(el);
+		    };
 
-			request.onerror = function() {
-			  // There was a connection error of some sort
-				console.error('err:', arguments);
-			};
+		   request.onerror = function() {
+		     // There was a connection error of some sort
+		       console.error('err:', arguments);
+		   };
 
-			request.send();
+		   request.send();
 		&lt;/script&gt;
   &lt;/body&gt;
 &lt;/html&gt;
@@ -140,6 +140,12 @@ TBA.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 }
 
 
