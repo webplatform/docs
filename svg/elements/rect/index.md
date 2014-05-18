@@ -33,14 +33,7 @@
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes====Standards information===
-
-*[http://www.w3.org/TR/SVG11/shapes.html#RectElement Scalable Vector Graphics: The The ‘rect’ element], Section 9.2
-
-===Attributes===
+|Import_Notes====Attributes===
 
 ====Global attributes====
 *[[svg/attributes#Conditional_Processing_Attributes|'''Conditional processing attributes''']]
@@ -67,7 +60,10 @@
 This element implements the [[dom/SVGRectElement|'''SVGRectElement''']] interface.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=The ‘rect’ element
+|URL=http://www.w3.org/TR/SVG11/shapes.html#RectElement
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
