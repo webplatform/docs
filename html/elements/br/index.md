@@ -19,7 +19,9 @@ Any content inside '''br''' elements (i.e. attributes) must not be considered pa
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example is correct usage of the '''br''' element
-|Code=&lt;p>P. Sherman<br> 42 Wallaby Way<br> Sydney&lt;/p>
+|Code=&lt;p>P. Sherman&lt;br>
+42 Wallaby Way&lt;br>
+Sydney&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/7282007
 }}
 }}
