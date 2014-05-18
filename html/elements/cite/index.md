@@ -14,7 +14,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''cite''' element to render a citation in italic type.
-|Code=&lt;p>One of my favorite books from literature is &lt;cite&gt;Invisible Man&lt;/cite&gt; by Ralph Ellison.&lt;/p>
+|Code=&lt;p>One of my favorite books from literature is
+&lt;cite&gt;Invisible Man&lt;/cite&gt; by Ralph Ellison.&lt;/p>
 }}
 }}
 {{Notes_Section
