@@ -16,24 +16,30 @@
 
 Targeting images based on device pixel ratio only can be accomplished by using the <code>x</code> descriptor.
 
+The standard '''[[html/attributes/src_(input,_img)|src]]''' attribute is always used to provide a fallback for all browsers that do not support '''srcset'''
     <img srcset="small.jpg 1x, large.jpg 2x"
     src="small.jpg" />
 
-SRCSET with SIZES
-
-The standard '''[[html/attributes/src_(input,_img)|src]]''' attribute is used to provide a fallback for all browsers that do not support '''srcset'''
+The '''srcset''' attribute can also take a comma separated list of URL's for each of the available image sizes. The image widths are defined using '''w''' descriptor. If you save out 3 different sizes of your image at 300px, 600px, 1024px this is what your code would look like.
 
     <img srcset="small.jpg 300w,
             medium.jpg 600w,
             large.jpg 1024w"
             src="small.jpg"
-            alt="A picture of a small thing"
-
-The '''srcset''' attribute takes a comma separate list of URL's for each of the available image sizes. The image widths are defined using '''w''' descriptor. The code above is how you would define if you save out 3 different sizes of your image at 300px, 600px, 1024px.
+            alt="A picture of a small thing" />
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=Example of srcset using only device pixel ration (not with sizes)
+|Code=<img 
+      srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, 
+              http://placehold.it/1024x500&text=2x+Large.jpg 2x"
+      src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
+      alt="Picture SRCSET" />
+|LiveURL=http://codepen.io/justincavery/pen/tliGE
+}}{{Single Example
 |Language=HTML
 |Description=Example of the SRCSET and SIZES attributes
 |Code=<img 
@@ -46,33 +52,11 @@ The '''srcset''' attribute takes a comma separate list of URL's for each of the 
       src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
       alt="Picture SRCSET" />
 |LiveURL=http://codepen.io/justincavery/full/osDGt/
-}}{{Single Example
-|Language=HTML
-|Description=Example of srcset using only device pixel ration (not with sizes)
-|Code=<img 
-      srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, 
-              http://placehold.it/1024x500&text=2x+Large.jpg 2x"
-      src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
-      alt="Picture SRCSET" />
-|LiveURL=http://codepen.io/justincavery/pen/tliGE
-}}{{Single Example
-|Language=HTML
-|Description=Picture Element
-|Code=<picture>
-<source media="(max-width: 479px)" src="test_landscape_1@1x.jpg">
-<source media="(min-width: 480px) and (max-width: 639px)" src="test_landscape_1@2x.jpg">
-<source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
-<source media="monochrome" src="test_landscape_1@monochrome.jpg">
-<source media="print" src="test_landscape_1@monochrome.jpg">
-<!-- fallback img if picture is not supported -->
-<img src="test_landscape_1@2x.jpg">
-<!-- alternate text -->
-<p>Nymphenburg Castle in Munich during sunset</p>
-</picture>
-|LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=When using '''srcset''' with the '''w''' descriptor you must also include the '''[[/html/attributes/sizes|sizes]]''' attribute.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
