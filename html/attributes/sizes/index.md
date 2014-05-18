@@ -10,7 +10,7 @@
 {{Markup_Attribute
 |Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
-|Content='''sizes''' attribute is an extension of the of the [[html/elements/img|image element]] and is used to inform the browser which [[srcset]] image reference to render based on the rules set out. Sizes do not provide an instruction to the browser ('must' use 'this' image 'here') but rather 'here is a viewport condition, use the best suited image based on your viewport, device pixel ration along with the width I said the image is going to be.
+|Content='''sizes''' attribute is an extension of the of the [[html/elements/img|image element]] and is used to inform the browser which [[html/attributes/srcset|srcset]] image source to render based on the rules set out. '''sizes''' do not provide an instruction to the browser (''must'' use ''this'' image ''here'') but rather“''here is a viewport condition, use the best suited image based on your viewport, device pixel ration along with the width I said the image is going to be''”.
 
 
 
@@ -20,7 +20,9 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset]]'''. The 
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
