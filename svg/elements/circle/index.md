@@ -29,7 +29,7 @@
 The arc of a '''circle''' element begins at the 3 o'clock point on the radius and progresses towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
 |Import_Notes====Standards information===
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.2
+*[http://www.w3.org/TR/SVG11/shapes.html#InterfaceSVGCircleElement Scalable Vector Graphics: Basic Shapes], Section 9.8.2
 
 ===Members===
 
