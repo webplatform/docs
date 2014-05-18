@@ -1,7 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|High-level issues=Deletion Candidate
 |Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate
+| Is obsolete in HTML5
+}}
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
