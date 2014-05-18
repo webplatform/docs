@@ -1,34 +1,35 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''b''' element (&lt;b&gt;) historically was used to tell the browser to make the nested text bold. While the &lt;b&gt; element is widely supported in browsers, its use is not recommended, as CSS can be used to achieve the same effect. In HTML5, it merely signifies that the text should be stylistically distinguished in some way.
-
-}}
+{{Summary_Section|The '''b''' element (&lt;b&gt;) was originally used to tell the browser to make the enclosed text bold. While the '''b''' element is widely supported in browsers, its use is not recommended for this purpose since CSS can be used to achieve the same effect on a more semantically-appropriate element. In HTML5, '''b''' has been re-purposed to signify text this is offset in some way, but is of no greater significance than the surrounding text.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The &lt;b&gt; element is used to make the nested tag bolded. The use of the &lt;b&gt; is not recommended according to HTML 5 standards as the bold effect can achieved using CSS.
+|Content=The '''b''' element should be used as a last resort when no other element is more appropriate as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter '''span'''). 
 
-The b element should be used as a last resort when no other element is more appropriate. In particular, headings should use the h1 to h6 elements, stress emphasis should use the em element, importance should be denoted with the strong element, and text marked or highlighted should use the mark element.
 
-Internationalization topics related to the <code>b</code> element:
-* [http://www.w3.org/International/techniques/authoring-html#bandi Using b and i tags]
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=In the following example, objects in a text adventure are highlighted as being special by use of the "b" element.
-|Code=<nowiki><p>You enter a small room. Your <b>sword</b> glows
-brighter. A <b>rat</b> scurries past the corner wall.</p></nowiki>
+|Description=In the following example, objects in a text adventure are highlighted as being special by use of the '''b''' element.
+|Code=<p>You enter a small room. Your <b>sword</b> glows
+brighter. A <b>rat</b> scurries past the corner wall.</p>
 |LiveURL=http://code.webplatform.org/gist/7281844
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=The '''b''' element makes a lot of sense for use as a wrapper for proper names (e.g. people, companies, products, locations) as they may be offset from the surrounding text in some way, but are not semantically meaningful.
+
+Internationalization topics related to the '''b''' element:
+
+* [[http://www.w3.org/International/techniques/authoring-html#bandi|Using b and i tags]]
+|Notes=As the '''b''' element has no inherent meaning, you should not use it to convey meaning; there is probably a more appropriate element for that. Headings should use the '''h1''' to '''h6''' elements, stress emphasis should use the '''em''' element, importance should be denoted with the '''strong''' element, and contextually-important/highlighted text should use the '''mark''' element.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5 - 4.6 Text-level Semantics
@@ -60,9 +61,9 @@ brighter. A <b>rat</b> scurries past the corner wall.</p></nowiki>
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=HTML, Text
 }}
-{{Topics|HTML}}
+{{Topics|HTML, XHTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
