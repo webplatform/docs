@@ -28,16 +28,17 @@ These attributes can be specified on any SVG element.
 [[svg/attributes/xml:lang | xml:lang]]
 [[svg/attributes/xml:space | xml:space]]
 
-====  Event Attributes  ====
-These attributes can be used to capture specific events.
-
 ===== Animation Event Attributes =====
+These attributes are used to capture animation events.
+
 [[svg/attributes/onbegin | onbegin]]
 [[svg/attributes/onend | onend]]
 [[svg/attributes/onload | onload]]
 [[svg/attributes/onrepeat | onrepeat]]
 
 ===== Document Event Attributes =====
+These attributes are used to capture document events.
+
 [[svg/attributes/onabort | onabort]]
 [[svg/attributes/onerror | onerror]]
 [[svg/attributes/onresize | onresize]]
@@ -45,7 +46,9 @@ These attributes can be used to capture specific events.
 [[svg/attributes/onunload | onunload]]
 [[svg/attributes/onzoom | onzoom]]
 
-===== Interaction Event Attributes =====
+===== Graphical Event Attributes =====
+These attributes are used to capture interaction events.
+
 [[svg/attributes/onactivate | onactivate]]
 [[svg/attributes/onclick | onclick]]
 [[svg/attributes/onfocusin | onfocusin]]
