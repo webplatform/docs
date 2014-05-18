@@ -27,6 +27,11 @@ console.log(thousand.valueOf() === 1000);
 |Code=// Returns an Object
 var googol = new Number(1e+100);
 console.log(googol.valueOf() === 1e+100);
+}}{{Single Example
+|Language=JavaScript
+|Code=// Alfred B. Taylor octal notation for the decimal number 10
+untydu = new Number(012);
+console.log(untydu.valueOf() === 10);
 }}
 }}
 {{Remarks_Section
@@ -40,7 +45,15 @@ JavaScript has several number constants. For a complete list, see [[javascript/N
 
 The Number type has exactly 18437736874454810627 (that is, 264−253+3) values, representing the double-precision 64-bit format IEEE 754 values as specified in the IEEE Standard for Binary Floating-Point Arithmetic, except that the 9007199254740990 (that is, 253−2) distinct “Not-a-Number” values of the IEEE Standard are represented in ECMAScript as a single special [[javascript/NaN{{!}}JavaScript NaN constant]] value.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes='''Octals and Hexadecimals'''
+
+Octal and hexadecimal numbers can be used in JavaScript.
+
+Octal numbers must begin with 0 (zero) followed by one or more octal digits.
+
+Hexadecimal numbers must begin with 0x.
+}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''Number''' object.
@@ -99,6 +112,7 @@ The following table lists the methods of the '''Number''' object.
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/NaN{{!}}JavaScript NaN constant]]
 |External_links=* http://www.ecma-international.org/ecma-262/5.1/#sec-8.5
+* http://en.wikipedia.org/wiki/Octal
 }}
 {{JS Topics
 |JS Page Type=JS Basic
