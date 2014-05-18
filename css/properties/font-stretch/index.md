@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -52,38 +52,18 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=.ultra-condensed{
-	-webkit-font-stretch:ultra-condensed;
-	-ms-font-stretch:ultra-condensed;
-	-moz-font-stretch:ultra-condensed;
-	-o-font-stretch:ultra-condensed;
 	font-stretch:ultra-condensed;
 	}
 .condensed{
-	-webkit-font-stretch:condensed;
-	-ms-font-stretch:condensed;
-	-moz-font-stretch:condensed;
-	-o-font-stretch:condensed;
 	font-stretch:condensed;
 	}
 .normal{
-	-webkit-font-stretch:normal;
-	-ms-font-stretch:normal;
-	-moz-font-stretch:normal;
-	-o-font-stretch:normal;
 	font-stretch:normal;
 	}
 .expanded{
-	-webkit-font-stretch:expanded;
-	-ms-font-stretch:expanded;
-	-moz-font-stretch:expanded;
-	-o-font-stretch:expanded;
 	font-stretch:expanded;
 	}
 .ultra-expanded{
-	-webkit-font-stretch:ultra-expanded;
-	-ms-font-stretch:ultra-expanded;
-	-moz-font-stretch:ultra-expanded;
-	-o-font-stretch:ultra-expanded;
 	font-stretch:ultra-expanded;
 	}
 |LiveURL=http://code.webplatform.org/gist/5842671
