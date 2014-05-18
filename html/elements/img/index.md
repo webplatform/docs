@@ -47,9 +47,7 @@ An img is always in one of the following states:
 }}{{Single Example
 |Language=HTML
 |Description=The following example shows how to use the '''srcset''' and '''sizes''' attributes to create responsive images.
-|Code=<nowiki>
-<img sizes="100vw, (min-width:600px) 50vw" srcset="small.jpg 300w, medium.jpg 500w, large.jpg 700w" alt="The house is white, with a boarded front door.">
-</nowiki>
+|Code=<img sizes="100vw, (min-width:600px) 50vw" srcset="small.jpg 300w, medium.jpg 500w, large.jpg 700w" alt="The house is white, with a boarded front door.">
 }}
 }}
 {{Notes_Section}}
