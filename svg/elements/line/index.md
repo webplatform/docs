@@ -30,7 +30,7 @@
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 |Import_Notes====Standards information===
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.4
+*[http://www.w3.org/TR/SVG11/shapes.html#LineElement Scalable Vector Graphics: Basic Shapes], Section 9.5
 
 ===Members===
 
