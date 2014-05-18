@@ -25,11 +25,7 @@
 }}
 }}
 {{Notes_Section
-|Import_Notes====Standards information===
-
-*[http://www.w3.org/TR/SVG11/shapes.html#LineElement Scalable Vector Graphics: Basic Shapes], Section 9.5
-
-===Attributes===
+|Import_Notes====Attributes===
 
 ====Global attributes====
 *[[svg/attributes#Conditional_Processing_Attributes|'''Conditional processing attributes''']]
