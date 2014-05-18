@@ -25,10 +25,10 @@ Overwriting "no" with "yes" is not widely supported by translation services yet.
 }}{{Single Example
 |Language=HTML
 |Code=<syntaxhighlight><code translate="no">
-&amp;lt;section id="translate-attribute"&amp;gt;
-&amp;lt;h2&amp;gt;<span translate="yes">The <span translate="no">translate</span> attribute&lt;h2&amp;gt;
-&amp;lt;p&amp;gt;<span translate="yes">The <span translate="no">translate</span> attribute indicates whether the element’s content and attribute values should be translated or not.</span>&amp;lt;/p&amp;gt;
-&amp;lt;/section&amp;gt;
+&lt;section id="translate-attribute"&gt;
+&lt;h2&gt;<span translate="yes">The <span translate="no">translate</span> attribute&lt;h2&gt;
+&lt;p&gt;<span translate="yes">The <span translate="no">translate</span> attribute indicates whether the element’s content and attribute values should be translated or not.</span>&lt;/p&gt;
+&lt;/section&gt;
 </code></syntaxhighlight>
 }}
 }}
