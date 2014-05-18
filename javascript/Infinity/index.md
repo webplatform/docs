@@ -48,7 +48,8 @@ The [[javascript/isFinite{{!}}isFinite()]] function can be used to check if a gi
 {{JS Object Listing}}
 
 {{See_Also_Section
-|Manual_links=* [[javascript/Number/constants{{!}}Number Constants]]
+|Manual_links=* [[javascript/Number{{!}}Number]]
+* [[javascript/Number/constants{{!}}Number Constants]]
 * [[javascript/isFinite{{!}}isFinite()]]
 }}
 {{JS Topics
