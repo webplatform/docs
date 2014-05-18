@@ -35,10 +35,10 @@
 ===Attributes===
 
 ====Global attributes====
-*[[svg/attributes#Conditional_processing_attributes|'''Conditional processing attributes''']]
-*[[svg/attributes#Core_attributes|'''Core attributes''']]
-*[[svg/attributes#Graphical_event_attributes|'''Graphical events attributes''']]
-*[[svg/attributes#Presentation_attributes|'''Presentation attributes''']]
+*[[svg/attributes#Conditional_Processing_Attributes|'''Conditional processing attributes''']]
+*[[svg/attributes#Core_Attributes|'''Core attributes''']]
+*[[svg/attributes#Graphical_Event_Attributes|'''Graphical events attributes''']]
+*[[svg/attributes#Presentation_Attributes|'''Presentation attributes''']]
 
 *[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
 *[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
