@@ -1,4 +1,4 @@
-{{Page_Title|Web development for beginners}}
+{{Page_Title|Web Development for Beginners}}
 {{Flags
 |Checked_Out=No
 }}
