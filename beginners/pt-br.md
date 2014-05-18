@@ -1,1 +1,0 @@
-#REDIRECT [[Beginners/pt-br]]
