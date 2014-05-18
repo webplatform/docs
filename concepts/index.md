@@ -6,6 +6,10 @@ Our general web concepts are concept and tutorial articles covering general subj
 
 {{Languages}}
 
+=== Note ===
+
+If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
+
 == Explore our general web concept docs ==
 
 <div class="topic-container">
@@ -112,6 +116,3 @@ Our general web concepts are concept and tutorial articles covering general subj
 
 </div>
 <div class="clearfixboth"></div>
-
-
-Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
