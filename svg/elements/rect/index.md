@@ -51,11 +51,6 @@
 *[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
 *[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
 
-
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-
-
 ====Specific attributes====
 
 Specific attributes of '''SVGRectElement''':
