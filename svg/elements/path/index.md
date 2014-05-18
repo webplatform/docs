@@ -11,23 +11,14 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single_Example
-|Description=In the following code example, the path element is used to create a hotpink curved path.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the path.
-
-It should look like this:
+|Description=In the following code example, the path element is used to create a red curved path.
 |LiveURL=
 |Code=
 
 <syntaxhighlight lang="xml">
-<!DOCTYPE HTML>
-<html>
-  <head></head>
-  <body>
-    <svg width="400" height="400">
-              <path d="M 50,100 Q 150,50 250,100" stroke="hotpink" stroke-width="10" fill="white"/>
-    </svg>
-  </body>
-</html>
+<svg width="400" height="400">
+  <path d="M 50,100 Q 150,50 250,100" stroke="red" stroke-width="10" fill="white"/>
+</svg>
 </syntaxhighlight>
 }}}}
 {{Notes_Section
@@ -62,6 +53,7 @@ For the relative versions of the commands, all coordinate values are relative to
 |   '''()''' Indicates grouping of parameters.
 |-
 |   '''+''' One or more of the given parameter(s) is required.
+|}
 
 {| class="wikitable"
 |-
@@ -73,6 +65,7 @@ For the relative versions of the commands, all coordinate values are relative to
 !''Description''
 |-
 |'''M''' (absolute)
+|}
 
 '''m''' (relative)
 |''moveto''
