@@ -1,7 +1,5 @@
 {{Page_Title|s – strikethrough}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
