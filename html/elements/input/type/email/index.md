@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|input type 'email'}}
 {{Flags
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
