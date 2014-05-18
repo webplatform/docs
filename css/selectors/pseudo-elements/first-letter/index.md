@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|::first-letter pseudo-element}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -52,7 +52,7 @@ Only the following properties apply to the ::first-letter pseudo-element.
 * padding  
 * text-decoration  
 * text-transform  
-* vertical-align 
+* vertical-align
 }}
 {{Examples_Section
 |Not_required=No
