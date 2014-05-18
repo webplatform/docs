@@ -104,7 +104,11 @@ The '''SVGLineElement''' object has these properties:
 *[[svg/properties/y2 (SVGLineElement)|'''y2''']]: Gets or sets the y-coordinate for the end of a line.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Scalable Vector Graphics: Basic Shapes
+|URL=http://www.w3.org/TR/SVG11/shapes.html#LineElement
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
