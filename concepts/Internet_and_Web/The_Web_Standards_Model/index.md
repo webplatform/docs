@@ -39,16 +39,16 @@ Main syntax differences between HTML and XHTML.
 (Source: [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model])
                          
 HTML: 
-- Elements and attributes are case insensitive, eg. <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
-- Certain elements don’t need a closing tag (eg. paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg. images, <code>&lt;img&gt;</code>).
-- Attribute values may be written without being enclosed in quotes.
--Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
+* Elements and attributes are case insensitive, eg. <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
+* Certain elements don’t need a closing tag (eg. paragraphs, <code>&lt;p&gt;</code>), while others (called “empty elements”) shouldn't have a closing tag (eg. images, <code>&lt;img&gt;</code>).
+* Attribute values may be written without being enclosed in quotes.
+* Shorthand can be used for certain attributes (ie <code>&lt;input required&gt;</code>).
 
 XHTML:
-- Elements and attributes are case sensitive; they are all lowercase. 
-- All elements must be explicitly closed (eg. <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg. <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
-- Attribute values must be enclosed by quotes.
-- The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
+* Elements and attributes are case sensitive; they are all lowercase. 
+* All elements must be explicitly closed (eg. <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (eg. <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
+* Attribute values must be enclosed by quotes.
+* The full attribute form must be used for all attributes (eg. <code>&lt;input required="required"&gt;</code>).
 
 <!--{| border="1"
 |-
