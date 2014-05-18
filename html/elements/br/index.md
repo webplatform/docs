@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''br''' element forces the current line of text to end and the text that follows it will being on a new line.}}
+{{Summary_Section|The line break element, '''br''', forces the current line of text to end and the text that follows it will being on a new line.}}
 {{Markup_Element
 |DOM_interface=[[dom/HTMLBRElement|HTMLBRElement]]
 |Content=The '''br''' element forcibly breaks (ends) the current line of text, without starting a new paragraph.
