@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
 |Checked_Out=No
 |Editorial notes={{Editorial/Deletion_Candidate
 | Is obsolete in HTML5
@@ -34,8 +33,6 @@ The '''dir''' element is deprecated in HTML 4.01, and obsolete in HTML5. Use CSS
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.4 (Deprecated)
-
-
 }}
 {{Related_Specifications_Section
 |Specifications=
