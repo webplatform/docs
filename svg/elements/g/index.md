@@ -9,11 +9,7 @@
 {{Summary_Section|The '''g''' element <nowiki>(<g>)</nowiki> is a container element for grouping together related graphics elements.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
-|Content=The '''g''' element (&lt;g&gt;) groups two or more graphics elements or other '''g''' elements together to provide document structure.
-
-Groups containing the '''desc''' and '''title''' elements, provide additional semantic information and increase accessibility.
-
-When defined inside of a '''defs''' element and named using the '''id''' attribute, groups can be reused.
+|Content=The '''g''' element (&lt;g&gt;) groups two or more graphics elements or other '''g''' elements together to provide document structure. Groups containing the '''desc''' and '''title''' elements, provide additional semantic information and increase accessibility. When defined inside of a '''defs''' element and named using the '''id''' attribute, groups can be reused.
 }}
 {{Examples_Section
 |Not_required=No
