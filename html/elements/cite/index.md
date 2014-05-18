@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -22,7 +21,7 @@
 |Usage=The '''cite''' element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 |Notes=Prior to HTML5, '''cite''' was also used to indicate the source of a quote (e.g. '''blockquote''' or '''q''').
 
-Creative works include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, , a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc.
+Creative works include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc.
 }}
 {{Related_Specifications_Section
 |Specifications=
