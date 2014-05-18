@@ -24,7 +24,7 @@
 |Code=var mph_number = 234.567;
 
 var mph_string = mph_number.toString();
-// same as
+// same result but much faster as above
 mph_string = mph_number + "";
 
 console.log(mph_string.length);
@@ -63,5 +63,7 @@ console.log(mph_number.toString(2).length);
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/jj159596(v=vs.94).aspx
+|HTML5Rocks_link=
 }}
