@@ -9,8 +9,8 @@
 {{Summary_Section|[[css/properties/transform|Transform]] function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.}}
 {{CSS_Function
 |Content===Syntax==
-* '''translate ( translation-value-x )'''
-* '''translate ( translation-value-x, translate-value-y )'''
+* '''translate ( <translation-value-x> )'''
+* '''translate ( <translation-value-x>, <translate-value-y> )'''
 
 ==Parameters==
 '''translation-value-x'''
