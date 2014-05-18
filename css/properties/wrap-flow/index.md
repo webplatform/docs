@@ -68,14 +68,10 @@ Can be enabled in Canary under "Enable experimental WebKit features".
 }
 
 .flow--maximum{
-  -ms-wrap-flow:maximum;
-  -webkit-wrap-flow:maximum;
   wrap-flow: maximum;
 }
 
 .flow--clear{
-  -ms-wrap-flow:clear;
-  -webkit-wrap-flow:clear;
   wrap-flow: clear;
 }
 |LiveURL=http://code.webplatform.org/gist/5867597
