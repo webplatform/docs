@@ -45,6 +45,32 @@ document.getElementById('get-local').addEventListener('click', valueGetHandler);
 document.getElementById('clear').addEventListener('click', clearStorageHandler);
 |LiveURL=http://jsfiddle.net/DM6hB/7/
 }}
+{{Single Example
+|Language=HTML
+|Code=<!-- Fields to store a key/value pair (item) in sessionStorage -->
+<section>
+    <label for="key">Key:</label>
+    <input type="text" id="key" value="c3po">
+    <br>
+    <label for="value">Value:</label>
+    <input type="text" id="value" value="R2-D2">
+    <br>
+    <button type="button" id="set-local">Save to sessionStorage</button>
+</section>
+<hr>
+<!-- Fields to get a key/value pair (item) from sessionStorage -->
+<section>
+    <label for="get-key">Key:</label>
+    <input type="text" id="get-key" value="c3po">
+    <button type="button" id="get-local">Get from sessionStorage</button>
+    <output id="output"></output>
+</section>
+<hr>
+<!-- Button to clear the sessionStorage for this Domain -->
+<section>
+    <button type="button" id="clear">Clear sessionStorage</button>
+</section>
+}}
 }}
 {{Notes_Section
 |Notes=The '''sessionStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
