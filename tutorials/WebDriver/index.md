@@ -71,7 +71,30 @@ To finally check if our setup is up &amp; running, navigate to <code>localhost:8
 
 == Connecting to the remote browser ==
 
-The quick brown fox
+Next step is to connect our PhantomJS based server with the JavaScript code we will run in our Chrome client instance. Lets start by creating a simple webpage that will be the host of our tests:
+
+``` <!doctype html> <html> <head> <meta charset="utf-8"> <title> WebDiver testpage</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width, initial-scale=1"> </head> <body> <h1>This is a WebDiver testpage</h1> <script> request = new XMLHttpRequest(); request.open('GET', 'http://localhost:8080/status', true);
+
+<pre>        request.onload = function() {
+            var el = document.createElement('div');
+            var contents = document.createTextNode(request.responseText);
+            el.appendChild(contents);
+            document.getElementsByTagName('body')[0].appendChild(el);
+        };
+
+        request.onerror = function() {
+          // There was a connection error of some sort
+            console.error('err:', arguments);
+        };
+
+        request.send();
+    &lt;/script&gt;
+&lt;/body&gt;</pre>
+</html>
+
+```
+
+This sample page uses the <code>status</code> method defined in the [https://code.google.com/p/selenium/wiki/JsonWireProtocol JSON WireProtocol], it queries the WebDriver servers status; We take that &amp; display the contents of the request on our webpage.
 
 == Simple test case ==
 
