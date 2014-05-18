@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''samp''' element represents output from a program or computing system.}}
 {{Markup_Element
