@@ -7,7 +7,6 @@
 {{Summary_Section|The '''charset''' attribute is used to declare the character encoding of the document.}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLMetaElement|HTMLMetaElement]]
-|Property_applies_to=dom/HTMLElement
 |Content=The character encoding declaration must be fit within the first 1024 bytes of an HTML file, hence should be the first child in the the head element. Only one such declaration is allowed within a document.
 
 Note that BOM and declaration in the HTTP header take precedence over in-document declaration.
