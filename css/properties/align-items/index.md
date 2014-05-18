@@ -47,13 +47,13 @@
 }
 
 .container div {
-    flex: 1;
+  flex: 1;
  
-    width: 100px;
-    height: auto;        /* let this be set to see how the items respond to 'align-items: stretch' */
-    margin: 0px;
-    font-family: Bitter;
-    font-size: 24px;
+  width: 100px;
+  height: auto;        /* let this be set to see how the items respond to 'align-items: stretch' */
+  margin: 0px;
+  font-family: Bitter;
+  font-size: 24px;
 }
 
 .container .third-item {
