@@ -1,7 +1,7 @@
 {{Page_Title|background-image}}
 {{Flags
 |Content=Cleanup
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
