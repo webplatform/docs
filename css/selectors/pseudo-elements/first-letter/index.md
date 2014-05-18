@@ -15,18 +15,6 @@
 The ::first-letter pseudo-element selects the first letter or digit of the first line of a block. Some languages require two letters to be capitalised (digraphs) which are currently very poorly supported by browsers.
 
 The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
-
-Only the following properties apply to the ::first-letter pseudo-element. 
-* All font, background, border, margin and padding properties.
-* color
-* float
-* letter-spacing
-* line-height
-* text-decoration
-* text-shadow
-* text-transform
-* vertical-align (if 'float' is set to 'none')
-* word-spacing
 }}
 {{Examples_Section
 |Not_required=No
@@ -47,7 +35,10 @@ Only the following properties apply to the ::first-letter pseudo-element.
 |LiveURL=https://code.webplatform.org/gist/5257e9b2d1e11631d608
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=Only the following properties apply to the ::first-letter pseudo-element:
+[[css/properties/background|'''background''']], [[css/properties/border|'''border''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], [[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], [[css/properties/float|'''float''']], [[css/properties/line-height|'''line-height''']], [[css/properties/margin|'''margin''']], [[css/properties/padding|'''padding''']], [[css/properties/text-decoration|'''text-decoration''']], [[css/properties/text-shadow|'''text-shadow''']], [[css/properties/text-transform|'''text-transform''']], [[css/properties/vertical-align|'''vertical-align''']] (if 'float' is set to 'none'), and [[css/text/word-spacing/word-spacing|'''word-spacing''']]
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 Selectors
