@@ -15,7 +15,7 @@
 {{Notes_Section
 |Usage====Attribute Listing (by Category)===
 
-==== Conditional processing attribute ====
+==== Conditional Processing Attributes ====
 [[requiredExtensions]]
 [[requiredFeatures]]
 [[systemLanguage]]
@@ -126,7 +126,6 @@ These attributes can be used for "cross"-links.
 [[attributes:xlink:show]]
 [[attributes:xlink:title]]
 [[attributes:xlink:type]]
-
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
