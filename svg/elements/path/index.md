@@ -48,14 +48,14 @@ The path-data syntax is a prefix notation (that is, commands followed by paramet
 For the relative versions of the commands, all coordinate values are relative to the current point at the start of the command. For example, the absolute version of ''moveto'' is '''M''' whereas its relative form is indicated with a lowercase '''m'''. Absolute versus relative path commands are discussed in the following table.
 
 '''Note:'''  In the Path Command Table below, the following notation is used.
-{| class="wikitable"
+
+{|
+|'''()''' Indicates grouping of parameters.
 |-
-|   '''()''' Indicates grouping of parameters.
-|-
-|   '''+''' One or more of the given parameter(s) is required.
+|'''+''' One or more of the given parameter(s) is required.
 |}
 
-{| class="wikitable"
+{|
 |-
 !Path Command Table
 |-
@@ -65,8 +65,6 @@ For the relative versions of the commands, all coordinate values are relative to
 !''Description''
 |-
 |'''M''' (absolute)
-|}
-
 '''m''' (relative)
 |''moveto''
 |(x y)+
@@ -143,6 +141,7 @@ Draws a quadratic B&eacute;zier curve from the current point to (x,y) using (x1,
 |''elliptical arc''
 |(rx ry x-axis-rotation large-arc-flag sweep-flag x y)+
 |An elliptical arc segment draws a segment of an ellipse.
+|}
 
 Draws an elliptical arc from the current point to (x, y). The size and
 orientation of the ellipse are defined by two radii (rx, ry) and an
