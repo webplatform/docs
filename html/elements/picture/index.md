@@ -19,7 +19,7 @@ Other use cases, such as matching media features and media types and matching on
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
 |Code=<picture>
-  <source src="test_landscape_1@1x.jpg">
+  <source src="test_landscape_1_1x.jpg">
 </picture>
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
