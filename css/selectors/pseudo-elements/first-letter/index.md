@@ -7,7 +7,47 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The ::first-letter pseudo-element may be used for "initial caps" and "drop caps", which are common typographical effects.}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=The following properties apply to the ::first-letter pseudo-element.
+background
+border
+border-bottom
+border-bottom-color
+border-bottom-style
+border-bottom-width
+border-collapse
+border-color
+border-left
+border-left-color
+border-left-style, border-left-width
+border-right
+border-right-color
+border-right-style
+border-right-width
+border-style
+border-top
+border-top-color
+border-top-style
+border-top-width
+border-width
+clear
+color
+float
+font
+font-family
+font-size
+font-style
+font-variant
+font-weight
+line-height
+margin
+padding
+text-decoration
+text-transform
+vertical-align
+
+The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block. 
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -23,19 +63,16 @@
    font-size: 2.5em;
    float: left;
 }
+}}{{Single Example
+|Language=HTML
+|Code=<article>
+   <p>Text text text text text. Text text text text text text text . Text text text text.</p>
+   <p>Text text text text text. Text text text text text text text . Text text text text.</p>
+   <p>Text text text text text. Text text text text text text text . Text text text text.</p>
+</article>
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The [[css/cssom/properties/background|'''background''']], [[css/properties/border|'''border''']], 
-[[css/properties/border-bottom|'''border-bottom''']], [[css/properties/border-bottom-color|'''border-bottom-color''']], [[css/properties/border-bottom-style|'''border-bottom-style''']], [[css/properties/border-bottom-width|'''border-bottom-width''']], [[css/properties/border-collapse|'''border-collapse''']], [[css/properties/border-color|'''border-color''']], [[css/properties/border-left|'''border-left''']], [[css/properties/border-left-color|'''border-left-color''']], [[css/properties/border-left-style|'''border-left-style''']], [[css/properties/border-left-width|'''border-left-width''']], [[css/properties/border-right|'''border-right''']], [[css/properties/border-right-color|'''border-right-color''']], [[css/properties/border-right-style|'''border-right-style''']], [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-style|'''border-style''']], [[css/properties/border-top|'''border-top''']], [[css/properties/border-top-color|'''border-top-color''']], [[css/properties/border-top-style|'''border-top-style''']], [[css/properties/border-top-width|'''border-top-width''']], [[css/properties/border-width|'''border-width''']], 
-[[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']],
-[[css/properties/float|'''float''']], [[css/properties/font|'''font''']], 
-[[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], 
-[[css/properties/line-height|'''line-height''']], [[css/properties/margin|'''margin''']], [[css/properties/padding|'''padding''']], [[css/properties/text-decoration|'''text-decoration''']], 
-[[css/properties/text-transform|'''text-transform''']], and [[css/properties/vertical-align|'''vertical-align''']] properties apply to the '''::first-letter''' pseudo-element.
-The '''::first-letter''' pseudo-element can be used to create common typographical effects, such as drop caps.  Drop caps is the effect obtained when the first character of a paragraph is rendered in a font larger than the rest, and its baseline is lowered by at least one full line, which results in the second line of the text also being indented.
-The '''::first-letter''' pseudo-element can be attached to block-level elements.  It can be attached to inline elements if you set the corresponding [[css/properties/display|'''display''']] property to ''block''.
 |Import_Notes====Syntax===
 
 sel
