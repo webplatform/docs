@@ -19,7 +19,11 @@ Other use cases, such as matching media features and media types and matching on
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
 |Code=<picture>
-  <source src="wtf.png"></source>
+  &lt;source src="test_landscape_1@1x.jpg">
+  &lt;source media="(min-width: 480px)" src="test_landscape_1@2x.jpg">
+  &lt;source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
+  <!-- fallback img if picture is not supported -->
+  <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
 </picture>
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
