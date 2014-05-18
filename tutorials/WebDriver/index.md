@@ -67,32 +67,46 @@ On Windows:
 
 To finally check if our setup is up &amp; running, navigate to <code>localhost:8080</code>, you should see some output similar to this:
 
-``` Unknown Command - Request =&gt; {&quot;headers&quot;:{&quot;Accept&quot;:&quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,''/'';q=0.8&quot;,&quot;Accept-Encoding&quot;:&quot;gzip,deflate,sdch&quot;,&quot;Accept-Language&quot;:&quot;en-US,en;q=0.8,de;q=0.6&quot;,&quot;Connection&quot;:&quot;keep-alive&quot;,&quot;Host&quot;:&quot;localhost:8080&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10''9''2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/&quot;,&quot;relative&quot;:&quot;/&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;&quot;]}}
+<code>
+Unknown Command - Request =&gt; {&quot;headers&quot;:{&quot;Accept&quot;:&quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,''/'';q=0.8&quot;,&quot;Accept-Encoding&quot;:&quot;gzip,deflate,sdch&quot;,&quot;Accept-Language&quot;:&quot;en-US,en;q=0.8,de;q=0.6&quot;,&quot;Connection&quot;:&quot;keep-alive&quot;,&quot;Host&quot;:&quot;localhost:8080&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10''9''2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36&quot;},...]}}
+</code>
 
 == Connecting to the remote browser ==
 
 Next step is to connect our PhantomJS based server with the JavaScript code we will run in our Chrome client instance. Lets start by creating a simple webpage that will be the host of our tests:
 
-``` <!doctype html> <html> <head> <meta charset="utf-8"> <title> WebDiver testpage</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width, initial-scale=1"> </head> <body> <h1>This is a WebDiver testpage</h1> <script> request = new XMLHttpRequest(); request.open('GET', 'http://localhost:8080/status', true);
+<code>
+&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt; WebDiver testpage&lt;/title&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;This is a WebDiver testpage&lt;/h1&gt;
+		&lt;script&gt;
+			request = new XMLHttpRequest();
+			request.open('GET', 'http://localhost:8080/status', true);
 
-<pre>        request.onload = function() {
-            var el = document.createElement('div');
-            var contents = document.createTextNode(request.responseText);
-            el.appendChild(contents);
-            document.getElementsByTagName('body')[0].appendChild(el);
-        };
+			request.onload = function() {
+				var el = document.createElement('div');
+				var contents = document.createTextNode(request.responseText);
+				el.appendChild(contents);
+				document.getElementsByTagName('body')[0].appendChild(el);
+			};
 
-        request.onerror = function() {
-          // There was a connection error of some sort
-            console.error('err:', arguments);
-        };
+			request.onerror = function() {
+			  // There was a connection error of some sort
+				console.error('err:', arguments);
+			};
 
-        request.send();
-    &lt;/script&gt;
-&lt;/body&gt;</pre>
-</html>
-
-```
+			request.send();
+		&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
 
 This sample page uses the <code>status</code> method defined in the [https://code.google.com/p/selenium/wiki/JsonWireProtocol JSON WireProtocol], it queries the WebDriver servers status; We take that &amp; display the contents of the request on our webpage.
 
