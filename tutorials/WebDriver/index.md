@@ -75,7 +75,7 @@ Unknown Command - Request =&gt; {&quot;headers&quot;:{&quot;Accept&quot;:&quot;t
 
 Next step is to connect our PhantomJS based server with the JavaScript code we will run in our Chrome client instance. Lets start by creating a simple webpage that will be the host of our tests:
 
-<code>
+<pre>
 &lt;!doctype html&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -106,7 +106,7 @@ Next step is to connect our PhantomJS based server with the JavaScript code we w
 		&lt;/script&gt;
     &lt;/body&gt;
 &lt;/html&gt;
-</code>
+</pre>
 
 This sample page uses the <code>status</code> method defined in the [https://code.google.com/p/selenium/wiki/JsonWireProtocol JSON WireProtocol], it queries the WebDriver servers status; We take that &amp; display the contents of the request on our webpage.
 
@@ -138,3 +138,4 @@ The quick brown fox
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
