@@ -1,26 +1,27 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''cite''' element (&lt;cite&gt;) defines the title of a work in HTML5; or a citation in HTML 4.01.
-
-}}
+{{Summary_Section|The '''cite''' element represents a reference to a creative work.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=The title of the work or the name of the author (e.g. a person or organization) or a reference to a URL must be enclosed between the opening and closing tags.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the '''CITE''' element to render a citation in italic type.
-|Code=&lt;CITE&gt;Book Title.&lt;/CITE&gt;
+|Description=This example uses the '''cite''' element to render a citation in italic type.
+|Code=&lt;One of my favorite books from literature is &lt;cite&gt;Invisible Man&lt;/cite&gt; by Ralph Ellison.&lt;/p>
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-A citation is a reference to a book, paper, or other published source material.
+|Usage=The '''cite''' element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
+|Notes=Prior to HTML5, '''cite''' was also used to indicate the source of a quote (e.g. '''blockquote''' or '''q''').
+
+Creative works include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, , a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.1
 
@@ -720,6 +721,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=HTML, Text
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -728,7 +730,7 @@ This property is not supported for Metro style apps using JavaScript.
 *<code>em</code>
 *<code>i</code>
 }}
-{{Topics|HTML}}
+{{Topics|HTML, XHTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
