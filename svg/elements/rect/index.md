@@ -40,9 +40,18 @@
 
 *[http://www.w3.org/TR/SVG11/shapes.html#RectElement Scalable Vector Graphics: The The ‘rect’ element], Section 9.2
 
-===Members===
+===Attributes===
 
-The '''SVGRectElement''' object has these attributes:
+====Global attributes====
+*[[svg/attributes#Conditional_processing_attributes|'''Conditional processing attributes''']]
+*Core attributes
+*Graphical events attributes
+*Presentation attributes
+
+*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+
+
+====Specific attributes====
 
 Specific attributes of '''SVGRectElement''':
 
@@ -52,6 +61,12 @@ Specific attributes of '''SVGRectElement''':
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 *[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
 *[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
+
+===DOM Interface===
+
+The '''SVGRectElement''' object has these attributes:
+
+
 
 Global attributes of '''SVGRectElement''':
 
@@ -78,7 +93,7 @@ Global attributes of '''SVGRectElement''':
 *[[svg/attributes/stroke-miterlimit|'''strokeMiterlimit''']]: Sets or retrieves a value that indicates the limit on the ratio of the length of miter joins (as specified in the [[svg/attributes/stroke-linejoin|'''strokeLinejoin''']] property).
 *[[svg/attributes/stroke-opacity|'''strokeOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to stroke the current object.
 *[[svg/attributes/stroke-width|'''strokeWidth''']]: Sets or retrieves a value that specifies the width of the stroke on the current object.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+
 *[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
 *[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
 *[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
