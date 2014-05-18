@@ -5,7 +5,7 @@
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
+{{API_Name|Device Orientation API}}
 {{Summary_Section|The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.}}
 {{API_Listing}}
 {{Concept_Listing
