@@ -1,9 +1,9 @@
-{{Page_Title}}
+{{Page_Title|ul – unordered list}}
 {{Flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
+{{API_Name|ul}}
 {{Summary_Section|The '''ul''' element is used to define an '''unordered list'''. The element encloses one or more '''list items''', enclosed in [[html/elements/li|'''li''']] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLUListElement
