@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Best Practices
+|Content=Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -108,7 +108,6 @@ The '''SVGPolylineElement''' object has these properties:
 |Status=W3C Recommendation
 }}
 }}
-{{
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -161,6 +160,7 @@ The '''SVGPolylineElement''' object has these properties:
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
 }}
+|Notes_rows=
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
@@ -171,3 +171,4 @@ The '''SVGPolylineElement''' object has these properties:
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{
