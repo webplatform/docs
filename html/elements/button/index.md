@@ -1,7 +1,6 @@
 {{Page_Title|button}}
 {{Flags
-|Content=Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -63,18 +62,27 @@ All these attributes, except <code>name</code>, have default values and can be o
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This examples uses the <code>&lt;button&gt;</code> element to display a clickable button.
-|Code=<button name="button">Click me</button>
-|LiveURL=http://code.webplatform.org/gist/6365019
+|Description=This examples uses the <code>&lt;button&gt;</code> element to display a clickable button with out sending or reseting a form.
+|Code=<button name="myButton" type="button">Click me</button>
+|LiveURL=http://code.webplatform.org/gist/b08191a8d5915621a5e1
 }}{{Single Example
 |Language=HTML
 |Description=This example shows how to use a submit <code>&lt;button&gt;</code> to send a form. Read about the [[html/elements/form|'''form''']] element to get further information about how to use forms.
-|Code=<form action="fileOnTheServerWhichHandlesTheNewData.php">
+|Code=<form action="dataReceiverURI">
   <label for="name">Name:</label>
   <input id="name" type="text" name="user_name">
-  <button name="submitbutton">Submit</button>
+  <button name="mySubmitButton">Submit</button>
 </form>
-|LiveURL=http://code.webplatform.org/gist/6365027
+|LiveURL=http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0
+}}{{Single Example
+|Language=HTML
+|Description=This example shows how to reset a form with use of <code>&lt;button=&quot;reset&quot;&gt;</code>. Read about the [[html/elements/form|'''form''']] element to get further information about how to use forms.
+|Code=<form>
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="user_name" >
+  <button name="myResetButton">reset</button>
+</form>
+|LiveURL=http://code.webplatform.org/gist/c579515bcd4378bfd634
 }}
 }}
 {{Notes_Section
