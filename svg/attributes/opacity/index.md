@@ -9,6 +9,8 @@
 |Content====Syntax===
 
  '''opacity:''' ''opacity-value'' {{!}} inherit
+
+'''opacity-value''' is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
 }}
 {{Examples_Section
 |Not_required=No
