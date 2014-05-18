@@ -1,1 +1,0 @@
-#REDIRECT [[concepts/Internet and Web/mime types]]
