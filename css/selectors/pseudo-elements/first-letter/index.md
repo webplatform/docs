@@ -23,8 +23,6 @@ The [[css/cssom/properties/background|'''background''']], [[css/properties/borde
 [[css/properties/text-transform|'''text-transform''']], and [[css/properties/vertical-align|'''vertical-align''']] properties apply to the '''::first-letter''' pseudo-element.
 The '''::first-letter''' pseudo-element can be used to create common typographical effects, such as drop caps.  Drop caps is the effect obtained when the first character of a paragraph is rendered in a font larger than the rest, and its baseline is lowered by at least one full line, which results in the second line of the text also being indented.
 The '''::first-letter''' pseudo-element can be attached to block-level elements.  It can be attached to inline elements if you set the corresponding [[css/properties/display|'''display''']] property to ''block''.
-In versions of Windows Internet Explorer prior to Windows Internet Explorer 9, as well as in IE8 Standards mode and earlier, only the one-colon form of this pseudo-element is recognized—that is, [[css/selectors/pseudo-elements/::before|''':first-letter''']].
-Beginning with Internet Explorer 9, the [[css/selectors/pseudo-elements/::before|'''::first-letter''']] pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::first-letter''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
 |Import_Notes====Syntax===
 
 sel
@@ -44,7 +42,7 @@ sel
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
-|Version=8 and earlier
+|Version=> 9
 |Note=Only the one-colon form of this pseudo-element is recognized (:first-letter). Beginning with Internet Explorer 9, the first-letter pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
 }}
 }}
