@@ -24,13 +24,15 @@
 
 ===Members===
 
-The '''SVGElement''' object has these properties:
+The '''SVGRectElement''' object has these properties:
 
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-*[[svg/properties/id|'''id''']]: Standard XML attribute for assigning a unique name to an element.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor '''svg''' element.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
+*[[svg/properties/rx|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
+*[[svg/properties/ry|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
+
 }}
 {{Related_Specifications_Section
 |Specifications=
