@@ -12,7 +12,7 @@
 |Media=visual
 |Computed value=two absolute <length> or percentages
 |Animatable=Yes
-|CSS object model property=object.style.borderTopLeftRadius
+|CSS object model property=borderTopLeftRadius
 |CSS percentages=Refer to the corresponding dimension of the border box
 |Values={{CSS Property Value
 |Data Type=length
