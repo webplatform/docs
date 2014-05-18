@@ -1,9 +1,11 @@
 {{Page_Title|Progressive Enhancement}}
 {{Flags
+|High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
+|Editorial notes=Needs topics like "concept" or "methodology"..
 }}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|If you've read this section, you learned the fundamentals of the term Progressive Enhancement, what it is and how to use it?}}
 {{Concept_Page
 |Content=If you've read this section, you learned the fundamentals of the term '''Progressive Enhancement''', '''what it is''' and '''how to use it'''?
 
@@ -23,8 +25,6 @@ In practical terms, it’s easiest to break the concept of PE into different lay
 '''Further reading'''
 
 There is another term you have to hear about that is called [[graceful_degradation|'''Graceful Degradation''']] (GD). GD is similar to PE,  but it does things the other way round.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -32,10 +32,13 @@ There is another term you have to hear about that is called [[graceful_degradati
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Graceful degradation
+|URL=http://docs.webplatform.org/wiki/concepts/graceful_degradation
+}}
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Compatibility, CSS, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
