@@ -12,6 +12,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''cite''' element to render a citation in italic type.
 |Code=&lt;p>One of my favorite books from literature is
 &lt;cite&gt;Invisible Man&lt;/cite&gt; by Ralph Ellison.&lt;/p>
