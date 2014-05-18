@@ -49,8 +49,6 @@
 
 Specific attributes of '''SVGRectElement''':
 
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
 *[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 *[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
