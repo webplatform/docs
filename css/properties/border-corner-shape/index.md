@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor’s Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.}}
 {{CSS Property
@@ -12,7 +12,7 @@
 |Media=visual
 |Computed value=as specified
 |Animatable=No
-|CSS object model property=element.style.borderCornerShape
+|CSS object model property=borderCornerShape
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=curve
