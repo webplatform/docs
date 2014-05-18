@@ -33,6 +33,18 @@ console.log(googol.valueOf() === 1e+100);
 |Code=// Alfred B. Taylor octal notation for the decimal number 10
 var untydu = new Number(012);
 console.log(untydu.valueOf() === 10);
+}}{{Single Example
+|Language=JavaScript
+|Code=// Converting decimal variables to hexadecimal notation
+// by http://stackoverflow.com/users/444910/mystifeid
+function decimalToHex(d) {
+ // converting negative numbers to positive using Math.abs()
+  var hex = Number(Math.abs(d)).toString(16);
+  hex = "000000".substr(0, 6 - hex.length) + hex; 
+  return hex;
+}
+console.log(decimalToHex(127) === "00007f");
+console.log(parseInt("00007f", 16) === 127);
 }}
 }}
 {{Remarks_Section
