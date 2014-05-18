@@ -2,4 +2,4 @@ Please refer to the [[beginners|Beginners guide]] and pages below this page to f
 
 Here you can find a couple for articles and links concerning the broader scope of web development:
 
-{{Special:AllPages/concepts/internet_and_web/}}
+{{Special:PrefixIndex/concepts/internet_and_web/}}
