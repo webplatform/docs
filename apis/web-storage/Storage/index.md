@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Provides access to a list of key/value pairs, sometimes called "items". The amount of storage space is limited by browsers.}}
+{{Summary_Section|Provides access to a list of key/value pairs, sometimes called "items". The amount of storage space is limited by browsers. Changes fire 'storage' event on [[dom/Window]].}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
@@ -142,6 +142,15 @@ var area = document.createElement('textarea');
           area.value = 'Type your text here...';
         }
       }</nowiki>
+}}{{Single Example
+|Language=JavaScript
+|Description=An example on how to listen to changes in the localStorage. The example can be applied to sessionStorage as well. A full example is in the fiddle.
+|Code=// this event is only fired in browser windows, that did not initiated the change. Thus the fiddle uses two iframes to show how the event is fired.
+window.addEventListener('storage', function (event) {
+    // logs the key that has changed and the old and the new value in the storage
+    console.log(event.key, event.oldValue, event.newValue);
+});
+|LiveURL=http://jsfiddle.net/A6tuM/1/
 }}
 }}
 {{Notes_Section
