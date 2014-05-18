@@ -20,9 +20,9 @@ The standard '''[[html/attributes/src_(input,_img)|src]]''' attribute is always 
 
 The '''srcset''' attribute can also take a comma separated list of URL's for each of the available image sizes. The image widths are defined using '''w''' descriptor. If you save out three different sizes of your image at 300px, 600px, 1024px this is what your code would look like.
 
-    <img srcset="small.jpg 300w,
+    <img srcset="large.jpg 1024w,
             medium.jpg 600w,
-            large.jpg 1024w"
+            small.jpg 300w"
             src="small.jpg"
             alt="A picture of a small thing" />
 }}
@@ -41,9 +41,9 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 |Language=HTML
 |Description=Example of the SRCSET and SIZES attributes
 |Code=<img 
-      srcset="http://placehold.it/300x150&text=500+Small.jpg 500w, 
+      srcset="http://placehold.it/1024x500&text=1024+Large.jpg 1024w, 
               http://placehold.it/600x250&text=600+Medium.jpg 600w, 
-              http://placehold.it/1024x500&text=1024+Large.jpg 1024w" 
+          http://placehold.it/300x150&text=500+Small.jpg 500w" 
       sizes="(min-width:500px) 33.3vw,
              (min-width:1000px) 50vw, 
              100vw" 
