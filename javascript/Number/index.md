@@ -59,8 +59,19 @@ The '''Number''' object has its own properties and methods, in addition to the p
 
 JavaScript has several number constants. For a complete list, see [[javascript/Number/constants{{!}}Number Constants]].
 
-'''Integer range of Number'''
+For a value that can not be converted to a number, the <code>Number()</code> function returns the special value '''NaN (Not-a-Number)''' which indicates that the expression could not be evaluated to a number.
 
+Only basic types such as strings and boolean values can be converted to numbers. Note, however, that a string can be converted to a number only if it is a numeric string:
+
+<syntaxhighlight lang="javascript">
+<code>
+Number("123"); // 123
+Number("foo"); // NaN
+Number("123foo"); // NaN
+</code>
+</syntaxhighlight>
+
+''''Integer range''
 Biggest int possible is 9007199254740992.
 Smallest int possible is -9007199254740992.
 
@@ -71,9 +82,8 @@ console.log(biggestInt  + 1 === 9007199254740992) ;
 console.log(biggestInt  + 2 === 9007199254740994) ;
 </code>
 </syntaxhighlight>
-}}
-{{Notes_Section
-|Notes='''Octals and Hexadecimals'''
+
+'''Octals and Hexadecimals'''
 
 Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.
 
@@ -81,6 +91,7 @@ Octal numbers must begin with 0 (zero) followed by one or more octal digits.
 
 Hexadecimal numbers must begin with 0x.
 }}
+{{Notes_Section}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''Number''' object.
@@ -140,6 +151,7 @@ The following table lists the methods of the '''Number''' object.
 * [[javascript/NaN{{!}}JavaScript NaN constant]]
 * [[javascript/Infinity{{!}}JavaScript Infinity constant]]
 |External_links=* http://en.wikipedia.org/wiki/Octal
+* http://en.wikipedia.org/wiki/Hexadecimal
 * http://www.2ality.com/2012/04/number-encoding.html
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-8.5 8.5 The Number Type]
