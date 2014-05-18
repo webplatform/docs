@@ -49,6 +49,59 @@ Typically, '''polyline''' elements define open shapes.
 ===DOM Interface===
 
 This element implements the [[dom/SVGPolylineElement|'''SVGPolylineElement''']] interface.
+
+===Members===
+
+The '''SVGPolylineElement''' object has these events:
+
+*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+
+The '''SVGPolylineElement''' object has these methods:
+
+*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
+*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
+*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
+*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
+*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
+
+The '''SVGPolylineElement''' object has these properties:
+
+*[[svg/properties/animatedPoints|'''animatedPoints''']]: Gets or sets the  animated contents of the [[svg/properties/points|'''points''']] attribute.
+*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
+*[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
+*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
+*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
+*[[svg/attributes/fill|'''fill''']]: Sets or retrieves a value that indicates the color to paint the interior of the given graphical element.
+*[[svg/attributes/fill-opacity|'''fillOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to paint the interior of the current object.
+*[[svg/attributes/fill-rule|'''fillRule''']]: Sets or retrieves a value that indicates the algorithm that is to be used to determine what parts of the canvas are included inside the shape.
+*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
+*[[svg/attributes/marker|'''marker''']]: Sets or retrieves a value that specifies the marker symbol that is used for all vertices on the given [[svg/elements/path|'''path''']] element or basic shape.
+*[[svg/attributes/marker-end|'''markerEnd''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the final vertex of a given [[svg/elements/path|'''path''']] element or basic shape.
+*[[svg/attributes/marker-mid|'''markerMid''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at every other vertex (that is, every vertex except the first and last) of a given [[svg/elements/path|'''path''']] element or basic shape.
+*[[svg/attributes/marker-start|'''markerStart''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the first vertex of a given [[svg/elements/path|'''path''']] element or basic shape.
+*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
+*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
+*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
+*[[svg/attributes/pointers|'''pointerEvents''']]: Sets or retrieves a value that specifies under what circumstances a given graphics element can be the target element for a pointer event in SVG.
+*[[svg/properties/points|'''points''']]: Gets or sets the static contents of the [[svg/properties/points|'''points''']] attribute.
+*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
+*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
+*[[svg/attributes/stroke|'''stroke''']]: Sets or retrieves a value that indicates the color to paint along the outline of a given graphical element.
+*[[svg/attributes/stroke-dasharray|'''strokeDasharray''']]: Sets or retrieves one or more values that indicate the pattern of dashes and gaps used to stroke paths.
+*[[svg/attributes/stroke-dashoffset|'''strokeDashoffset''']]: Sets or retrieves a value that specifies the distance into the dash pattern to start the dash.
+*[[svg/attributes/stroke-linecap|'''strokeLinecap''']]: Sets or retrieves a value that specifies the shape to be used at the end of open subpaths when they are stroked.
+*[[svg/attributes/stroke-linejoin|'''strokeLinejoin''']]: Sets or retrieves a value that specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
+*[[svg/attributes/stroke-miterlimit|'''strokeMiterlimit''']]: Sets or retrieves a value that indicates the limit on the ratio of the length of miter joins (as specified in the [[svg/attributes/stroke-linejoin|'''strokeLinejoin''']] property).
+*[[svg/attributes/stroke-opacity|'''strokeOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to stroke the current object.
+*[[svg/attributes/stroke-width|'''strokeWidth''']]: Sets or retrieves a value that specifies the width of the stroke on the current object.
+*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
+*[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
+*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
+*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
+*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
+
 }}
 {{Related_Specifications_Section
 |Specifications=
