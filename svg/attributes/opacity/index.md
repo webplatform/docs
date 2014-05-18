@@ -8,7 +8,7 @@
 {{Markup_Attribute
 |Content====Syntax===
 
- '''stroke:''' ''opacity-value'' {{!}} inherit
+ '''opacity:''' ''opacity-value'' {{!}} inherit
 }}
 {{Examples_Section
 |Not_required=No
