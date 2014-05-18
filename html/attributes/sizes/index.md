@@ -18,10 +18,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Sizes attribute used in conjunction with SRCSET
+|Code=http://codepen.io/justincavery/full/vjAgF/
+|LiveURL=http://codepen.io/justincavery/full/vjAgF/
+}}
 }}
 {{Notes_Section
-|Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset]]'''. The 
+|Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset]]'''. The
 }}
 {{Related_Specifications_Section
 |Specifications=
