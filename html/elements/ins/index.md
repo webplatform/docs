@@ -19,7 +19,7 @@
     </dd>
     <dt>[[html/attributes/datetime|'''datetime''']]</dt>
     <dd>
-        The '''datetime''' attribute may be used to specify the time and date of the change. If present, it must be a valid [[html/data_types/datetime|date string with optional time]].
+        The '''datetime''' attribute may be used to specify the time and date of the change. If present, it must be a valid [http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time date string with optional time].
     </dd>
 </dl>
 }}
