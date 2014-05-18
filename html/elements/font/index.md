@@ -8,7 +8,7 @@
 {{Summary_Section|The '''font''' element was used to specify the typeface, size, and color of the text it contained, but this element was deprecated in HTML 4.01, and became obsolete in HTML5.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFontElement
-|Content=This element is obsolete. **Use CSS instead.**
+|Content=This element is obsolete, **use [[css|CSS]] instead**.
 }}
 {{Examples_Section
 |Not_required=Yes
