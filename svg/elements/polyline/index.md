@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The poyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.}}
 {{Markup_Element
@@ -101,10 +101,13 @@ The '''SVGPolylineElement''' object has these properties:
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=The 'polyline' element
+|URL=http://www.w3.org/TR/SVG11/shapes.html#PolylineElement
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
