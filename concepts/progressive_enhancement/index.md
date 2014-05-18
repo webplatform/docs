@@ -10,6 +10,7 @@ PE is also good for your users. It gives them the security of knowing they can v
 You start by establishing a basic level of user experience that all browsers will be able to provide when rendering your web site, but you also build in more advanced functionality that will automatically be available to browsers that can use it.
 
 '''The Layers of Progressive Enhancement'''
+
 In practical terms, it’s easiest to break the concept of PE into different layers, each one building on the previous to improve the experience of interacting with the website.
 
 * The first layer is clean, semantic HTML. This allows text-based, speech-based, antiquated and robotic user-agents to navigate the content of your website properly.
@@ -18,7 +19,9 @@ In practical terms, it’s easiest to break the concept of PE into different lay
 
 
 '''Further reading'''
+
 There is another term you have to hear about that is called '''Graceful Degradation''' (GD). GD is similar to PE,  but it does things the other way round.
-Read more about '''Graceful Degradation'''
+
+[[Graceful degradation|Read more about '''Graceful Degradation']]''
 
 [[Category:Concept Pages]]
