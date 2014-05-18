@@ -31,10 +31,7 @@
 }}
 }}
 {{Notes_Section
-|Import_Notes====Parameters===
-;''translation-value-x'':A translation value along the ''x''-axis.
-;''translation-value-y'':Optional. A translation value along the ''y''-axis.
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 
 
