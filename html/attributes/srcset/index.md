@@ -12,16 +12,16 @@
 |Property_applies_to=dom/HTMLImageElement
 |Content=An attribute of the [[html/elements/img|image element]] element, '''srcset''' provides webpages the ability to inform the browser on size and pixel density information about the image before it begins the prefetch process.
 
-'''srcset''' submits the preferred size of the image with the corresponding viewport '''[[html/attributes/sizes|sizes]]''' informing the browser when to show them, or by just submitting the target device pixel ratio .
+'''srcset''' submits the preferred size of the image with the corresponding viewport '''[[html/attributes/sizes|sizes]]''' informing the browser the best image to use for the best viewport. Alternatively you can also omit the '''[[html/attributes/sizes|sizes]]''' attribute and just use the '''srcset''' attribute to target images for specific device pixel ratios .
 
-Targeting images based on device pixel ratio only can be accomplished by using the `x` descriptor.
+Targeting images based on device pixel ratio only can be accomplished by using the <code>x</code> descriptor.
 
     <img srcset="small.jpg 1x, large.jpg 2x"
     src="small.jpg" />
 
 SRCSET with SIZES
 
-The standard '''[[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img)|src]]''' attribute is used to provide a fallback for all browsers that do not support '''srcset'''
+The standard '''[[html/attributes/src_(input,_img)|src]]''' attribute is used to provide a fallback for all browsers that do not support '''srcset'''
 
     <img srcset="small.jpg 300w,
             medium.jpg 600w,
