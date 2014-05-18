@@ -5,23 +5,21 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''br''' element (&lt;br&gt;) represents a line break.}}
+{{Summary_Section|The '''br''' element forces the current line of text to end and the text that follows it will being on a new line.}}
 {{Markup_Element
 |DOM_interface=[[dom/HTMLBRElement|HTMLBRElement]]
-|Content=The '''br''' element (&lt;br&gt;) forcibly breaks (ends) the current line of text, without starting a new paragraph.
+|Content=The '''br''' element forcibly breaks (ends) the current line of text, without starting a new paragraph.
 
-'''br''' elements must be used only for line breaks that are actually part of the content, as in poems or addresses, but must not be used for separating thematic groups in a paragraph.
+'''br''' elements must be used only for line breaks that are actually part of the content, as in poems or addresses, but must not be used for separating thematic groups in a paragraph. For that you should use the [[html/elements/p|'''paragraph''' element]].
 
-Any content inside '''br''' elements must not be considered part of the surrounding text.
+Any content inside '''br''' elements (i.e. attributes) must not be considered part of the surrounding text.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example is correct usage of the '''br''' element
-|Code=<nowiki>
-<p>P. Sherman<br> 42 Wallaby Way<br> Sydney</p>
-</nowiki>
+|Code=&lt;p>P. Sherman<br> 42 Wallaby Way<br> Sydney&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/7282007
 }}
 }}
@@ -49,7 +47,7 @@ Any content inside '''br''' elements must not be considered part of the surround
 {{See_Also_Section
 |Topic_clusters=HTML, Text
 }}
-{{Topics|HTML}}
+{{Topics|HTML, XHTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
