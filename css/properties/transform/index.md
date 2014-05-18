@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -13,6 +13,7 @@
 |Media=visual
 |Computed value=As specified, but with relative lengths converted into absolute lengths.
 |Animatable=Yes
+|CSS object model property=transform
 |CSS percentages=Refer to the size of the element's bounding box.
 |Values={{CSS Property Value
 |Data Type=none
@@ -40,7 +41,7 @@
 |Description=Specifies a scale operation using the vector [1, sy].
 }}{{CSS Property Value
 |Data Type=rotate(a)
-|Description=Specifies a 2D rotation by the specified angle about the origin of the element, as defined by the [[css/properties/transform-origin|transform-origin]] property.
+|Description=Specifies a 2D rotation by the specified angle around the origin of the element, as defined by the [[css/properties/transform-origin|transform-origin]] property.
 }}{{CSS Property Value
 |Data Type=skew(ax, ay)
 |Description=Specifies a 2D skew by [ax,ay] for X and Y. If the second parameter is not provided, it is assumed to be zero.
@@ -88,10 +89,6 @@
 |Language=CSS
 |Description=Translate the object by 150 pixels along the x and y axes.
 |Code=.matrix {
- 	-webkit-transform:  matrix(1, 0, 0, 1, 150, 150);
- 	-o-transform:  matrix(1, 0, 0, 1, 150, 150);
- 	-moz-transform:  matrix(1, 0, 0, 1, 150, 150);
- 	-ms-transform:  matrix(1, 0, 0, 1, 150, 150);
  	transform:  matrix(1, 0, 0, 1, 150, 150);
  	
  	width: 10em;
@@ -101,12 +98,8 @@
 |LiveURL=http://code.webplatform.org/gist/6982577
 }}{{Single Example
 |Language=CSS
-|Description=Rotate the object by 40deg.
+|Description=Rotate the object by 40 degrees clockwise.
 |Code=.rotate {
-	-ms-transform: rotate(40deg);
-	-webkit-transform: rotate(40deg);
-	-o-transform: rotate(40deg);
-	-moz-transform: rotate(40deg);
 	transform: rotate(40deg);
 	
 	width: 10em;
@@ -118,10 +111,6 @@
 |Language=CSS
 |Description=Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
 |Code=.scale {
-	-ms-transform: scale(3, 0.5);
-	-webkit-transform: scale(3, 0.5);
-	-o-transform: scale(3, 0.5);
-	-moz-transform: scale(3, 0.5);
 	transform: scale(3, 0.5);
 
 	width: 10em;
@@ -131,12 +120,8 @@
 |LiveURL=http://code.webplatform.org/gist/6982663
 }}{{Single Example
 |Language=CSS
-|Description=3D rotate the object by 40deg along the X axis.
+|Description=3D rotate the object by 40 degrees clockwise around the X axis.
 |Code=.rotateX {
-	-ms-transform: rotateX(40deg);
-	-webkit-transform: rotateX(40deg);
-	-o-transform: rotateX(40deg);
-	-moz-transform: rotateX(40deg);
 	transform: rotateX(40deg);
 	
 	width: 10em;
