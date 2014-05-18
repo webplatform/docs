@@ -14,9 +14,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=In the following code example, a title element is provided for an ellipse. When you hover over the ellipse, a tooltip may be displayed.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the greenyellow ellipse.
-
-The ellipse will look like this:
 |Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
@@ -30,6 +27,7 @@ The ellipse will look like this:
   </body>
 </html>
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/3fe2120a26327b9b9b8e
 }}
 }}
 {{Notes_Section
