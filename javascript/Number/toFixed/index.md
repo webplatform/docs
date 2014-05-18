@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
+|High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 }}
 {{Summary_Section|The toFixed() method formats a number to fixed-point notation (decimal).}}
@@ -23,29 +23,42 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following code shows how to use '''toFixed'''.
-|Code=var num = new Number(123);
- var fix = num.toFixed();
- document.write(fix);
- document.write("&lt;br/&gt;");
- 
- num = new Number(123.456);
- fix = num.toFixed(5);
- document.write(fix);
- 
- // Output:
- // 123
- 123.45600
+|Description=Using '''toFixed''' to format the decimal presentation of a number.
+|Code=var pie = 3.14159;
+
+// output a number without decimal digits
+pie.toFixed(0);
+// Returns: "3"
+
+// decimal digits are rounded if necessary
+pie.toFixed(4);
+// Returns: "3.1416"
+
+// missing decimal digits are added
+pie.toFixed(10);
+// Returns: "3.1415900000"
+
+// Watch out for number range
+(1.23e+20).toFixed(2);
+// Returns: "123000000000000000000.00"
+(1.23e-10).toFixed(2);
+// Returns: "0.00"
+
+// Watch out for operator precedence
+-3.1415.toFixed(2); 
+// Returns: -3.14
+(-3.1415).toFixed(2);
+// Returns: "-3.14"
 }}
 }}
 {{Remarks_Section
-|Remarks=
-===Throws===
+|Remarks====Throws===
 
 [[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
 }}
 {{Notes_Section
-|Notes= <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
+|Notes=* <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
+* If number is greater than <code>1e+21</code>, <code>toFixed()</code> calls [[javascript/Number/toString|<code>toString()</code>]] internally and returns a string in exponential notation.
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
@@ -62,8 +75,8 @@ Standard ECMA-262
 5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Function
+|Applies to=Number
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
