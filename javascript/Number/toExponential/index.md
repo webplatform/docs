@@ -44,10 +44,18 @@ If fractionDigits is not supplied, the '''toExponential''' method returns as man
 {{See_Also_Section
 |Manual_links=* [[javascript/Number/toFixed{{!}}toFixed Method (Number)]]
 * [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
+* [[javascript/Number/toString{{!}}toString Method (Number)]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential toExponential(), by Mozilla Developer Network]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.6 15.7.4.6 Number.prototype.toExponential(fractionDigits)]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Function
+|Applies to=Number
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
