@@ -45,10 +45,10 @@
 .container div {
   flex: 0;
  
-    height: 100px;
-    margin: 0px;
-    font-family: Bitter;
-    font-size: 24px;
+  height: 100px;
+  margin: 0px;
+  font-family: Bitter;
+  font-size: 24px;
 }
 
 .third-item {
@@ -68,23 +68,23 @@
 }
 
 .flex-start {
-    justify-content: flex-start; 
+  justify-content: flex-start; 
 }
 
 .flex-end {
-    justify-content: flex-end; 
+  justify-content: flex-end; 
 }
 
 .justifycenter {
-    justify-content: center; 
+  justify-content: center; 
 }
 
 .space-around {
-    justify-content: space-around; 
+  justify-content: space-around; 
 }
 
 .space-between {
-    justify-content: space-between; 
+  justify-content: space-between; 
 }
 |LiveURL=http://code.webplatform.org/gist/5842739
 }}{{Single Example
