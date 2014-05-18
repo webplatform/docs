@@ -6,7 +6,7 @@
 {{API_Name}}
 {{Summary_Section|This element is '''deprecated''' in HTML5, in favor of the [[html/elements/abbr|abbr]] element. It should no longer be used.
 
-The <code>acronym</code> element indicated an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.
+The <code>acronym</code> element indicated an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term, like NATO, radar or Interpol.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
