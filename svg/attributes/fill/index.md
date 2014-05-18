@@ -24,7 +24,7 @@ This attribute has a corresponding [[css/properties/fill | CSS property]].
 
 
 === Context: Animation Elements ===
-Fill specifies if after an animation the animated value should be preserved or removed from the element.
+Fill specifies whether after an animation the animated value should be preserved or removed from the element.
 
 ====Syntax====
  '''fill:''' remove {{!}} freeze
