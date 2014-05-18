@@ -10,7 +10,7 @@
 |Property_applies_to=dom/HTMLElement
 |Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images.
 
-The alt tag text should be displayed in place of the image if the resource is not found. When hovering over the element, the alt text will display in a tooltip.
+The alt tag text should be displayed in place of the image if the resource is not found.
 
 For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
 
