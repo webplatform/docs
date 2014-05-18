@@ -8,10 +8,10 @@
 {{API_Name}}
 {{Summary_Section|[[css/properties/transform|Transform]] function for a 2d translation which moves an element on the x-axis by the given value.}}
 {{CSS_Function
-|Content====Syntax===
+|Content===Syntax==
 '''translateX ( <translation-value> )'''
 
-===Parameters===
+==Parameters==
 '''translation-value'''
 
 ''Value for the translation across the x-axis. Can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.''
