@@ -22,7 +22,10 @@
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''toString''' method with a number.
 |Code=var mph_number = 234.567;
+
 var mph_string = mph_number.toString();
+// same as
+mph_string = mph_number + "";
 
 console.log(mph_string.length);
  // Output: 7
@@ -60,7 +63,5 @@ console.log(mph_number.toString(2).length);
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/jj159596(v=vs.94).aspx
-|HTML5Rocks_link=
 }}
