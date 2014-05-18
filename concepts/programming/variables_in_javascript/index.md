@@ -90,7 +90,7 @@ An attempt to access an undeclared variable will result in a <code>ReferenceErro
 You can use <code>undefined</code> to determine whether a variable has a value. In the following code, the variable <code>input</code> is not assigned a value, and the <code>if</code> statement evaluates to <code>true</code>.
  
  var input;
- if(input === undefined){
+ if(input === undefined) {
    doThis();
  } else {
    doThat();
