@@ -59,6 +59,8 @@
 *[[svg/attributes/y|'''y''']]
 *[[svg/attributes/width|'''width''']]
 *[[svg/attributes/height|'''height''']]
+*[[svg/attributes/rx|'''rx''']]
+*[[svg/attributes/ry|''r'y''']]
 
 ===DOM Interface===
 
