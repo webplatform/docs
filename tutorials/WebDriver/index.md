@@ -25,9 +25,15 @@ Google provides support for WebDriver in the same manor as Microsoft does, using
 
 === Mozilla Firefox ===
 
+Unfortunately Mozilla does not adhere to the WebDriver standard, but instead supports a homegrown [http://en.wikipedia.org/wiki/Transmission_Control_Protocol raw TCP socket] based testing Framework called [https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette Marionette], which fortunately is designed to be pretty close the the WebDriver spec. It was shipped in the stable builds beginning with Firefox version 24, but itself isn't stable &amp; the API is in constant flux.
+
 === PhantomJS ===
 
+PhantomJS, the [http://blog.arhg.net/2009/10/what-is-headless-browser.html headless] browser based on the WebKit rendering engine &amp; JavaScriptCore javascript engine contains a WebDriver implementation named [https://github.com/detro/ghostdriver Ghostdriver] that is nearly spec compliant.
+
 === Mobile Browsers ===
+
+Mobile browsers and operation systems do not contain an native WebDriver implementation (with the exception of the FirefoxOS debug builds containing Marionette); the [http://appium.io/ Appium] project tries to fill the gap by acting as a WebDriver server for Mobile Chrome, Mobile Safari &amp; Firefox OS.
 
 == Setup ==
 
