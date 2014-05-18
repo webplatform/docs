@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|text-shadow}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows, outlines, bevels, and other effects to the text of an element. Each <code>text-shadow</code> property must contain both a horizontal and vertical shadow value and, optionally, a blur radius and color value. A <code>text-shadow</code> can include multiple comma-delimited shadow effects. Multiple shadow effects are applied in a first-to-last order, whereas the first shadow effect will appear at the top, and the last shadow effect at the bottom.}}
+{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows, outlines, bevels, and other effects to the text of an element.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements and generated content
@@ -69,6 +69,7 @@ p {
 |Name=CSS Text Decoration Module Level 3
 |URL=http://www.w3.org/TR/css-text-decor-3/#text-shadow-property
 |Status=Working Draft
+|Relevant_changes=Lists text-shadow as animatable.
 }}
 }}
 {{Compatibility_Section
@@ -102,7 +103,7 @@ p {
 {{See_Also_Section
 |Topic_clusters=Text
 }}
-{{Topics|CSS}}
+{{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
