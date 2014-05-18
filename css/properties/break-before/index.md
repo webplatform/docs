@@ -1,7 +1,6 @@
 {{Page_Title|break-before}}
 {{Flags
-|Content=Cleanup
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -70,7 +69,6 @@ h2, h3 {
 |Description=Forces h3s onto a new column.
 |Code=h3 {
     break-before: always;
-    -webkit-column-break-before: always;
 }
 |LiveURL=http://code.webplatform.org/gist/6158525
 }}{{Single Example
@@ -80,27 +78,15 @@ h2, h3 {
 Assuming the main content is at div class="main" and contains h3s, and 6 div class="region", the content will flow into these 6 regions.
 |Code=.region {
     flow-from: main;
-    -webkit-flow-from: main;
-    .
-    .
-    .
 }
 
 .main {
     flow-into: main;
-    -webkit-flow-into: main;
-    .
-    .
-    .
 }
 
 /* forces h3s into a new region */
 h3 {
     break-before: always;
-    -webkit-break-before: always;
-    -webkit-region-break-before: always;
-    -ms-break-before: always;
-    -ms-region-break-before: always;
 }
 |LiveURL=http://code.webplatform.org/gist/6167152
 }}
