@@ -48,6 +48,7 @@ else {
 <section>
     <button type="button" id="clear">Clear localStorage</button>
 </section>
+
 |LiveURL=http://jsfiddle.net/DM6hB/6/
 }}{{Single Example
 |Language=JavaScript
