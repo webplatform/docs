@@ -35,8 +35,6 @@ height: 10em;
 background-color: blue;
 transform: rotateY(60deg);
 transform-style: preserve-3d;
--webkit-transform: rotateY(60deg);
--webkit-transform-style: preserve-3d;
 }
 
 #green {
@@ -45,7 +43,6 @@ width: 10em;
 height: 10em;
 background-color: green;
 transform: rotateY(60deg);
--webkit-transform: rotateY(60deg);
 }
 |LiveURL=http://code.webplatform.org/gist/6995453
 }}
