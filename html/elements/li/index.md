@@ -15,25 +15,22 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the &lt;li&gt; element to create individual items in an unordered list.
-|Code=
-<ul>
-     <li>Art</li>
-     <li>History</li>
-     <li>Literature</li>
-     <li>Sports</li>
-     <li>Entertainment</li>
-     <li>Science</li>
-</ul>
-
+|Code=&lt;ul>
+     &lt;li>Art</li>
+     &lt;li>History</li>
+     &lt;li>Literature</li>
+     &lt;li>Sports</li>
+     &lt;li>Entertainment</li>
+     &lt;li>Science</li>
+&lt;/ul>
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the &lt;li&gt; element to create individual items in an ordered list.
-|Code=<ol>
-     <li>First</li>
-     <li>Second</li>
-     <li>Third</li>
-</ol>
-
+|Code=&lt;ol>
+     &lt;li>First</li>
+     &lt;li>Second</li>
+     &lt;li>Third</li>
+&lt;/ol>
 }}
 }}
 {{Notes_Section
