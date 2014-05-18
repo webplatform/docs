@@ -18,7 +18,8 @@ Other use cases, such as matching media features and media types and matching on
 |Examples={{Single Example
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
-|Code=<img src="asdf.png" alt="test" />
+|Code=<picture>
+</picture>
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
 }}
