@@ -18,7 +18,7 @@ Fill defines the color of a surface of text or a shape.
 
 This attribute has a corresponding [[css/properties/fill | CSS property]].
 
-===Standards information===
+====Standards information====
 
 *[http://www.w3.org/TR/SVG11/painting.html Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
 
@@ -28,9 +28,6 @@ Fill specifies if after an animation the animated value should be preserved or r
 
 ====Syntax====
  '''fill:''' remove {{!}} freeze
-
-
-
 }}
 {{Examples_Section
 |Not_required=Yes
