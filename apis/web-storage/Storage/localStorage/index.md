@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities}}
+{{Summary_Section|Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities. If you need a temporary storage, use [[apis/web-storage/Storage/sessionStorage]]}}
 {{API_Object_Property
 |Property_applies_to=apis/web-storage/Storage
 |Read_only=Yes
@@ -157,7 +157,9 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Off-line Storage
+}}
 {{Topics|Webstorage}}
 {{External_Attribution
 |Is_CC-BY-SA=No
