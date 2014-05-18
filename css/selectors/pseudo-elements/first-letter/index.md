@@ -1,14 +1,55 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The ::first-letter pseudo-element may be used for "initial caps" and "drop caps", which are common typographical effects.}}
 {{CSS_Selector
-|Content=The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
+|Content====Syntax===
+
+===Usage===
+The ::first-letter pseudo-element selects the first letter or digit of the first line of a block. Some languages require two letters to be capitalised (digraphs) which are currently very poorly supported by browsers.
+
+The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
+
+Only the following properties apply to the ::first-letter pseudo-element. 
+-background
+-border
+-border-bottom
+-border-bottom-color
+-border-bottom-style
+-border-bottom-width
+-border-collapse 
+-border-color - border-left 
+-border-left-color 
+-border-left-style
+-border-left-width 
+-border-right
+-border-right-color 
+-border-right-style 
+-border-right-width 
+-border-style 
+-border-top 
+-border-top-color 
+-border-top-style 
+-border-top-width
+-border-width 
+-clear 
+-color 
+-float 
+-font 
+-font-family 
+-font-size - font-style 
+-font-variant 
+-font-weight - line-height 
+-margin 
+-padding 
+-text-decoration 
+-text-transform 
+-vertical-align 
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,9 +70,7 @@
 |LiveURL=https://code.webplatform.org/gist/5257e9b2d1e11631d608
 }}
 }}
-{{Notes_Section
-|Notes=The following properties apply to the ::first-letter pseudo-element., background, border, border-bottom, border-bottom-color, border-bottom-style, border-bottom-width, border-collapse, border-color, border-left, border-left-color, border-left-style, border-left-width, border-right, border-right-color, border-right-style, border-right-width, border-style, border-top, border-top-color, border-top-style, border-top-width, border-width, clear, color, float, font, font-family, font-size, font-style, font-variant, font-weight, line-height, margin, padding, text-decoration, text-transform, vertical-align
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 Selectors
