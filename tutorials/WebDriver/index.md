@@ -4,7 +4,37 @@
 }}
 {{Byline}}
 {{Summary_Section|Basic tutorial on how to use WebDriver to test web documents without using a service or 3rd party software}}
-{{Tutorial}}
+{{Tutorial
+|Content=== WebDriver in a nutshell ==
+
+WebDriver is a [https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html W3C editors draft] for writing automated tests of websites. It aims to mimic the behaviour of a real user, and as such interacts with the HTML of the application.
+
+All implementations of WebDriver that communicate with the browser use the [https://code.google.com/p/selenium/wiki/JsonWireProtocol JSON WireProtocol]. This wire protocol defines a RESTful web service using JSON over HTTP.
+
+== Real world support ==
+
+The quick brown fox
+
+== Setup ==
+
+The quick brown fox
+
+== Connecting to the remote browser ==
+
+The quick brown fox
+
+== Simple test case ==
+
+The quick brown fox
+
+== Summary ==
+
+The quick brown fox
+
+== Further reading ==
+
+The quick brown fox
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
