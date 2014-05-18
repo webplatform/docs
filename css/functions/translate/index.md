@@ -25,10 +25,22 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following code snippet is an example of the '''translate''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
-|Code=div {    
-  transform: translate(47px, -38px);
+|Description=The example shows three div elements, that are transformed individually with the translate() function.
+# The translation of element-1 visually is making no difference from its origin, because it has twice '''zero''' as translation-values.
+# The second translation only provides a '''single translation-value-x''', the second value is set to zero by default here. The div moves 20px to the right.
+# For element-3 '''both translation-values''' are set. The div is moved 40px to the right and 80px down.
+|Code=.element-1 {
+	transform: translate(0, 0);
 }
+
+.element-2 {
+	transform: translate(20px);
+}
+
+.element-3 {
+	transform: translate(40px, 80px);
+}
+|LiveURL=http://codepen.io/Fischaela/pen/Lqmxb
 }}
 }}
 {{Notes_Section}}
