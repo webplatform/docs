@@ -1,6 +1,5 @@
 {{Page_Title|Progressive Enhancement}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 |Editorial notes=Needs topics like "concept" or "methodology"..
 }}
@@ -57,7 +56,7 @@ var requestAnimation = (function() {
 }}
 }}
 {{See_Also_Section}}
-{{Topics|Compatibility, CSS, HTML, JavaScript}}
+{{Topics|Compatibility, CSS, Design, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
