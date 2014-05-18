@@ -14,11 +14,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=A simple example of the '''i''' element in use.
-|Code=&lt;p>The car wouldn't start yesterday no matter what I did, but today it works just fine. &lt;i>Go figure!&lt;/i>&lt;/p>
+|Code=&lt;p>The car wouldn't start yesterday 
+no matter what I did, but today it works 
+just fine. &lt;i>Go figure!&lt;/i>&lt;/p>
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''I''' element to indicate the transition to an alternate language. Note that the [html/attributes/lang|'''lang''' attribute] is used to indicate the language being used
-|Code=&lt;p>HTML has that certain &lt;i lang="fr" title="I don’t know what">je ne sais quoi&lt;/i>&lt;/p>
+|Code=&lt;p>HTML has that certain 
+&lt;i lang="fr" title="I don’t know what">je ne 
+sais quoi&lt;/i>&lt;/p>
 }}
 }}
 {{Notes_Section
