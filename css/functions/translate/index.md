@@ -9,8 +9,8 @@
 {{Summary_Section|A 2d transition which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.}}
 {{CSS_Function
 |Content===Syntax==
-* '''translate ( translate-value-x )'''
-* '''translate ( translate-value-x, translate-value-y )'''
+* '''translate ( translation-value-x )'''
+* '''translate ( translation-value-x, translate-value-y )'''
 }}
 {{Examples_Section
 |Not_required=No
