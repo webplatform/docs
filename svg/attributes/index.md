@@ -22,6 +22,7 @@
 
 ==== Core Attributes ====
 These attributes can be specified on any SVG element.
+
 [[svg/attributes/id | id]]
 [[svg/attributes/xml:base | xml:base]]
 [[svg/attributes/xml:lang | xml:lang]]
@@ -57,6 +58,7 @@ These attributes can be used to capture specific events.
 [[svg/attributes/onmouseup | onmouseup]]
 
 ==== Presentation Attributes ====
+
 [[svg/attributes/alignment-baseline | alignment-baseline]]
 [[svg/attributes/baseline-shift | baseline-shift]]
 [[svg/attributes/clip | clip]]
@@ -118,7 +120,8 @@ These attributes can be used to capture specific events.
 [[svg/attributes/writing-mode | writing-mode]]
 
 ==== XLink Attributes ====
-These attributes can be used for "cross"-links.
+These attributes can be used for cross-links ("x"-links).
+
 [[svg/attributes/xlink:actuate | xlink:actuate]]
 [[svg/attributes/xlink:arcrole | xlink:arcrole]]
 [[svg/attributes/xlink:href | xlink:href]]
