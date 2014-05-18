@@ -61,7 +61,7 @@ shape-outside: inset(5px);
 shape-outside: inset(0 round 20px) border-box; 
 /* Or equivalent: */
 border-radius: 20px;
--webkit-shape-outside: border-box;
+shape-outside: border-box;
 
 /* shape used is a circle filling the content box */
 shape-outside:  circle();       
