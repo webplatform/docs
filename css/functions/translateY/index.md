@@ -6,35 +6,42 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Defines a transformation of the element by the specified distance along the Y (vertical) axis; positive lengths shift the element down, while negative lengths shift it up.}}
-{{CSS_Function}}
+{{Summary_Section|[[css/properties/transform|Transform]] function for a 2d translation which moves an element on the y-axis by the given value. Note that the y-axis increases vertically downwards: positive lengths shift the element down, while negative lengths shift it up.}}
+{{CSS_Function
+|Content====Syntax===
+'''translateY( <translation-value> )'''
+
+===Parameters===
+'''translation-value'''
+
+Value for the translation across the y-axis. Can be a [[css/data_types/length|length]]  or a [[css/data_types/percentage|percentage]] value.
+
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following code snippet is an example of the '''translateY''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it will move element down 40px.
-|Code=div {    
-  transform: translateY(40px);
+|Description=The example shows three div elements, that are transformed individually with the translateY() function.
+
+# The translation of the first element moves it 10 pixels up along the y-axis.
+# You can also provide a negative value. In this case, element-2 is moved 20 pixels to the top, in the negative direction on the y-axis.
+# Using a percentage value of 50 percent moves element-3 in positive y-direction by a value which matches 50 percent of the element-3's width. In this case element-3 has a 100 pixel width, so it is moved 50 pixels up.
+|Code=.element-1 {
+	transform: translateY(10px);
 }
-|LiveURL=http://jsfiddle.net/J5rhZ/
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-'''translateY'''
-<code>(''
-&lt;translation-value&gt;
-'')</code>
-===Parameters===
-;''translation-value'':A translation value.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 
+.element-2 {
+	transform: translateY(-20px);
+}
 
-===Requirements===
-{| class="wikitable"
-|}
+.element-3 {
+	transform: translateY(50%);
+}
+|LiveURL=http://codepen.io/Fischaela/pen/uxgil
 }}
+}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -49,9 +56,9 @@
 |Topic_clusters=Transforms
 |External_links=* [https://developer.mozilla.org/en-US/docs/CSS/transform]
 |Manual_sections====Related pages (MSDN)===
-*<code>Transform Functions</code>
-*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
-*<code>[http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]</code>
+* [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
+* [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]
+* [http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]
 }}
 {{Topics|CSS}}
 {{External_Attribution
