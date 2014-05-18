@@ -15,7 +15,6 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=In the following code example, the g element is used to group two elements together. They are then rotated together.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the rotated firebrick rectangle and dodgerblue ellipse.
 
 Before the rotation, the elements looked like this:
 
