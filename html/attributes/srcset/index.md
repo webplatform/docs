@@ -45,10 +45,25 @@ The `srcset` attribute takes a comma separate list of URL's for each of the avai
 }}{{Single Example
 |Language=HTML
 |Description=Example of srcset using only device pixel ration (not with sizes)
-|Code=<img srcset="http://placehold.it/600x250&text=600+Medium.jpg 1x, http://placehold.it/1024x500&text=1024+Large.jpg 2x"
+|Code=<img srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, http://placehold.it/1024x500&text=2x+Large.jpg 2x"
 src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
      alt="Picture SRCSET" />
 |LiveURL=http://codepen.io/justincavery/pen/tliGE
+}}{{Single Example
+|Language=HTML
+|Description=Picture Element
+|Code=<picture>
+<source media="(max-width: 479px)" src="test_landscape_1@1x.jpg">
+<source media="(min-width: 480px) and (max-width: 639px)" src="test_landscape_1@2x.jpg">
+<source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
+<source media="monochrome" src="test_landscape_1@monochrome.jpg">
+<source media="print" src="test_landscape_1@monochrome.jpg">
+<!-- fallback img if picture is not supported -->
+<img src="test_landscape_1@2x.jpg">
+<!-- alternate text -->
+<p>Nymphenburg Castle in Munich during sunset</p>
+</picture>
+|LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}
 }}
 {{Notes_Section}}
@@ -62,8 +77,10 @@ src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics}}
+{{See_Also_Section
+|Topic_clusters=Media Queries, Responsive Web Design
+}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
