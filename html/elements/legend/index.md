@@ -2,12 +2,11 @@
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The legend element represents a title or explanatory caption for the rest of the contents of the legend element’s parent element.
-
-}}
+{{Summary_Section|The legend element represents a title or explanatory caption for the rest of the contents of the legend element’s parent element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLLegendElement
 }}
@@ -680,13 +679,11 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{See_Also_Section
 |External_links=http://www.w3.org/TR/html-markup/legend.html#legend
-
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
