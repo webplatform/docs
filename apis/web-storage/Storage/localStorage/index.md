@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides a Storage object for an origin.}}
+{{Summary_Section|Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities}}
 {{API_Object_Property
 |Property_applies_to=apis/web-storage/Storage
 |Read_only=Yes
@@ -24,9 +25,66 @@
 else {
  console.log('your browser dont support localstorage');
 }
+}}{{Single Example
+|Language=HTML
+|Description=Fields and buttons for saving, reading and clearing localStorage items.
+|Code=<section>
+    <label for="key">Key:</label>
+    <input type="text" id="key" value="r2d2">
+    <br>
+    <label for="value">Value:</label>
+    <input type="text" id="value" value="C-3PO">
+    <br>
+    <button type="button" id="set-local">Save to localStorage</button>
+</section>
+<hr>
+<section>
+    <label for="get-key">Key:</label>
+    <input type="text" id="get-key" value="r2d2">
+    <button type="button" id="get-local">Get from localStorage</button>
+    <output id="output"></output>
+</section>
+<hr>
+<section>
+    <button type="button" id="clear">Clear localStorage</button>
+</section>
+|LiveURL=http://jsfiddle.net/DM6hB/6/
+}}{{Single Example
+|Language=JavaScript
+|Description=Functions and event handlers for saving, reading and clearing localStorage items.
+|Code=/* global document, window */
+
+var valueSetHandler = function () {
+    /** read the values from the form */
+    var key = document.getElementById('key').value,
+        value = document.getElementById('value').value;
+
+    /** save value under key in localStorage */
+    window.localStorage.setItem(key, value);
+},
+valueGetHandler = function () {
+    /** read the value from the form */
+    var key = document.getElementById('get-key').value,
+
+        /** read the value from the localStorage */
+        value = window.localStorage.getItem(key);
+
+    /** write the value in output */
+    document.getElementById('output').innerText = value;
+},
+clearStorageHandler = function () {
+    window.localStorage.clear();
+};
+
+/** register event Listeners for button clicks */
+document.getElementById('set-local').addEventListener('click', valueSetHandler);
+document.getElementById('get-local').addEventListener('click', valueGetHandler);
+document.getElementById('clear').addEventListener('click', clearStorageHandler);
+|LiveURL=<!-- Fields to store a key/value pair (item) in localStorage --> <section>     <label for="key">Key:</label>     <input type="text" id="key" value="r2d2">     <br>     <label for="value">Value:</label>     <input type="text" id="value" value="C-3PO">     <br>     <button type="button" id="set-local">Save to localStorage</button> </section> <hr> <!-- Fields to get a key/value pair (item) from localStorage --> <section>     <label for="get-key">Key:</label>     <input type="text" id="get-key" value="r2d2">     <button type="button" id="get-local">Get from localStorage</button>     <output id="output"></output> </section> <hr> <!-- Button to clear the localStorage for this Domain --> <section>     <button type="button" id="clear">Clear localStorage</button> </section>
 }}
 }}
 {{Notes_Section
+|Usage=Use via the functions setItem and getItem provided by [[apis/web-storage/Storage]]
 |Notes=The '''localStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 }}
 {{Related_Specifications_Section
