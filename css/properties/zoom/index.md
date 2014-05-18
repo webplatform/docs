@@ -1,8 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
+|High-level issues=Deletion Candidate, Unreviewed Import
 |Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
+|Editorial notes={{Editorial/Deletion_Candidate
+| zoom was originally only supported by Internet Explorer. It is now outdated and shouldn't be recommended any more.
+}}
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -129,10 +132,7 @@ function changeZoom2(oSel) {
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/zoom.htm
 }}
 }}
-{{Notes_Section
-|Import_Notes=
-
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -149,8 +149,6 @@ function changeZoom2(oSel) {
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
-|Manual_sections=
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
