@@ -29,10 +29,8 @@ The ::first-line pseudo-element can be attached to block-level elements. It can 
 }}
 {{Notes_Section
 |Notes====Remarks===
-Only the following properties apply to the ::first-letter pseudo-element.
-The [[css/properties/background|'''background''']], [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], 
-[[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], 
-[[css/properties/line-height|'''line-height''']], [[css/properties/text-decoration|'''text-decoration''']], 
+Only the following properties apply to the ::first-letter pseudo-element:
+[[css/properties/background|'''background''']], [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']], [[css/properties/font|'''font''']], [[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], [[css/properties/line-height|'''line-height''']], [[css/properties/text-decoration|'''text-decoration''']], 
 [[css/properties/text-transform|'''text-transform''']], [[css/properties/vertical-align|'''vertical-align''']], and [[css/text/word-spacing/word-spacing|'''word-spacing''']]
 }}
 {{Related_Specifications_Section
@@ -59,14 +57,11 @@ The [[css/properties/background|'''background''']], [[css/properties/clear|'''cl
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Elements, Selectors
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/selectors/pseudo-elements/::first-letter|::first-letter]]</code>
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
