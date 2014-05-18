@@ -7,7 +7,13 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Represents the first line of an element. Note that the content of the first line varies depending on the available width and the styling of text (size, spacing).}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content====Syntax===
+... kommt gleich
+
+===Notes===
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -81,6 +87,13 @@ typographical effects that are applied to the first line of a block
 of text.&lt;/div&gt;
 &lt;/div&gt;
 |LiveURL=Click to view sample.
+}}{{Single Example
+|Language=CSS
+|Description=The following example puts the first line of any paragraph in bold text
+|Code=p::first-line {
+	font-weight: bold;
+}
+|LiveURL=https://code.webplatform.org/gist/fe1382a764e07a9c7917
 }}
 }}
 {{Notes_Section
