@@ -23,7 +23,7 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Using '''toFixed''' to format the decimal presentation of a number.
+|Description=Using <code>toFixed</code> to format the decimal presentation of a number.
 |Code=var pie = 3.14159;
 
 // output a number without decimal digits
