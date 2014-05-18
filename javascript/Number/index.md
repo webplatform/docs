@@ -54,9 +54,18 @@ The '''Number''' object has its own properties and methods, in addition to the p
 
 JavaScript has several number constants. For a complete list, see [[javascript/Number/constants{{!}}Number Constants]].
 
-'''The Number Type.'''
+'''Integer range of Number'''
 
-The Number type has exactly 18437736874454810627 (that is, 264−253+3) values, representing the double-precision 64-bit format IEEE 754 values as specified in the IEEE Standard for Binary Floating-Point Arithmetic, except that the 9007199254740990 (that is, 253−2) distinct “Not-a-Number” values of the IEEE Standard are represented in ECMAScript as a single special [[javascript/NaN{{!}}JavaScript NaN constant]] value.
+Biggest int possible is 9007199254740992.
+Smallest int possible is -9007199254740992.
+
+<syntaxhighlight lang="javascript">
+<code>
+var biggestInt = Math.pow(2, 53); // 9007199254740992
+console.log(biggestInt  + 1 === 9007199254740992) ;
+console.log(biggestInt  + 2 === 9007199254740994) ;
+</code>
+</syntaxhighlight>
 }}
 {{Notes_Section
 |Notes='''Octals and Hexadecimals'''
@@ -125,6 +134,7 @@ The following table lists the methods of the '''Number''' object.
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/NaN{{!}}JavaScript NaN constant]]
 |External_links=* http://en.wikipedia.org/wiki/Octal
+* http://www.2ality.com/2012/04/number-encoding.html
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-8.5 8.5 The Number Type]
 
