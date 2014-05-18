@@ -42,7 +42,7 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
 |Remarks=
 ===Throws===
 
-[[javascript/Error|<code>RangeError</code>] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
+[[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
 }}
 {{Notes_Section
 |Notes= <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
