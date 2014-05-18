@@ -46,6 +46,9 @@ Typically, '''polyline''' elements define open shapes.
 
 *[[svg/attributes/points|'''points''']]
 
+===DOM Interface===
+
+This element implements the [[dom/SVGPolylineElement|'''SVGPolylineElement''']] interface.
 }}
 {{Related_Specifications_Section
 |Specifications=
