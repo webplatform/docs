@@ -47,6 +47,7 @@ Thank you for your co operation.
 ***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
 ** Linux
 ***[http://www.geany.org/ Geany]
+***[https://wiki.gnome.org/Apps/Gedit gedit]
 
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
