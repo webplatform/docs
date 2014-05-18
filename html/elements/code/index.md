@@ -13,6 +13,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This is a simple example of the '''code''' element to display a CSS snippet.
 |Code=&lt;p>Now let’s set the color to red: &lt;code>color: #f00;&lt;/code>.&lt;/p>
 }}{{Single Example
