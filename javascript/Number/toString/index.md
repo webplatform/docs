@@ -8,13 +8,15 @@
 |Format=toString([ radix ])
 }}
 |Values={{JS Syntax Parameter
-|Name=number
-|Required=Required
-|Description=The number to represent as a string.
+|Name=radix
+|Required=Optional
+|Description=The base number system to convert to given as 2 - 36, inclusive. Defaults to 10. 
 }}
 }}
 {{JS_Return_Value
-|Description=The optional radix should be an integer value in the inclusive range 2 to 36. If radix not present or is undefined the Number 10 is used as the value of radix.
+|Description=String representing the number value in the given base number system. 
+
+Negative numbers are simply preceded by the <code>-</code> sign, i.e. there is no conversion to a system like the [http://en.wikipedia.org/wiki/Two%27s_complement Two's Complement] for binary.
 }}
 {{Examples_Section
 |Not_required=No
@@ -33,28 +35,33 @@ console.log(mph_string.length);
 |Description=The following example illustrates the use of the toString method with a radix argument.
 |Code=var mph_number = 199;
 
-// Convert to hexidecimal
-console.log(mph_number.toString(16));
-// Output: ea.9126e978d5
+// Convert to hexadecimal
+mph_number.toString(16);
+// Returns: "c7"
 
 // Convert to decimal
-console.log(mph_number.toString(10));
-// Output: 234.567
+mph_number.toString(10);
+// Returns: "199"
+
+// Convert to octal
+mph_number.toString(8);
+// Returns: "307"
 
 // Convert to binary
-console.log(mph_number.toString(2));
-//Output: 11101010.1001000100100110111010010111100011010101 
-
-// Check the length of the binary string
-console.log(mph_number.toString(2).length);
-// Output: 49
+mph_number.toString(2);
+// Returns: "11000111"
 }}{{Single Example
-|Description=calling toString() implicitly by string concatenation
-|Code=number + "" => string
-String(number) => string (KEIN new davor!)
+|Description=implicit use of <code>toString()</code>
+|Code=var mph_number = 199;
+String(mph_number) === mph_number.toString(10);
+(mph_number + "") === mph_number.toString(10);
 }}
 }}
-{{Remarks_Section}}
+{{Remarks_Section
+|Remarks====Throws===
+
+[[javascript/Error|<code>RangeError</code>]] when a ''radix'' outside the bounds of 2 - 36 (inclusive) was given.
+}}
 {{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
@@ -63,7 +70,7 @@ String(number) => string (KEIN new davor!)
 * [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
 * [[javascript/Number/toFixed{{!}}toFixed Method (Number)]]
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2 Number.prototype.toString(fractionDigits)]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2 15.7.4.2 Number.prototype.toString(radix)]
 
 ECMAScript® Language Specification
 Standard ECMA-262
