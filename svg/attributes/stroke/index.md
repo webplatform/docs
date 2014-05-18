@@ -16,12 +16,19 @@ The default value is ''none'', which means that the outline is not drawn.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=This example shows how to draw a circle with a red stroke and no fill color.
+|Code=<syntaxhighlight lang="xml">
+<svg width="400" height="400">
+  <circle cx="100" cy="100" r="50" stroke="red" stroke-width="3" fill="none" />
+</svg>
+</syntaxhighlight>
+}}
 }}
 {{Notes_Section
 |Import_Notes====Standards information===
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.4
+*[http://www.w3.org/TR/SVG11/painting.html Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.4
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
