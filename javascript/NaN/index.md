@@ -33,7 +33,7 @@ isNaN(NaN); //true
 
 {{See_Also_Section
 |Manual_links=* [[javascript/isNaN{{!}}isNaN Function]]
-* [[javascript/Number{{!}Number}]]
+* [[javascript/Number{{!}}Number]]
 * [[javascript/Number/constants{{!}}Number Constants]]
 * [[javascript/parseInt{{!}}parseInt Function]]
 }}
