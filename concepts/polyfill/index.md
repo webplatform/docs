@@ -1,6 +1,7 @@
 {{Page_Title|Polyfills for Replicating Web APIs}}
 {{Flags
 |High-level issues=Stub
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|Polyfills replicate browser-native APIs, so that code dependent on provided endpoints can be run in browsers that don't have them.}}
@@ -18,6 +19,8 @@ The main difference and advantage between the two types of libraries is that wit
 |Examples={{Single Example
 |Language=HTML
 |Description=Remy Sharp's [https://gist.github.com/350433 localStorage polyfill]. This simulates the Web Storage API so that (typically older) browsers can successfully execute code that depends on it.
+
+It basically loads the polyfill if there is no <code>localStorage</code> property on the <code>window</code> object.
 |Code=<!DOCTYPE HTML>
 <html>
 <head>
