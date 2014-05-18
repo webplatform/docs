@@ -16,8 +16,6 @@ The '''menu''' element is currently unsupported by major browsers.
 The '''menu''' element will specifically accept the '''label''' attribute whose value is ''text'' and the '''type''' attribute whose value can be ''context'', ''toolbar'', or ''list''. ''list'' is the default value.
 
 The '''menu''' element also accepts [[html/global_attributes | global attributes]] and [[html/event_attributes | event attributes]].
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -65,9 +63,15 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Manual_links=* [[html/elements/dir|<code>dir</code>]]
+* [[html/elements/ul|<code>ul</code>]]
+* [[html/elements/ol|<code>ol</code>]]
+* [[html/elements/li|<code>li</code>]]
+* [[html/elements/dl|<code>dl</code>]]
+* [[html/elements/dt|<code>dt</code>]]
+* [[html/elements/dd|<code>dd</code>]]
 }}
-{{Topics}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
