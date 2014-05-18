@@ -44,6 +44,12 @@ An img is always in one of the following states:
 </p>
 </nowiki>
 |LiveURL=http://code.webplatform.org/gist/7283804
+}}{{Single Example
+|Language=HTML
+|Description=The following example shows how to use the '''srcset''' and '''sizes''' attributes to create responsive images.
+|Code=<nowiki>
+<img sizes="100vw, (min-width:600px) 50vw" srcset="small.jpg 300w, medium.jpg 500w, large.jpg 700w" alt="The house is white, with a boarded front door.">
+</nowiki>
 }}
 }}
 {{Notes_Section}}
@@ -65,18 +71,23 @@ An img is always in one of the following states:
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=1.0
 |Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=5.12
 |Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=1.0
 |Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows=
 |Notes_rows=
@@ -89,5 +100,7 @@ An img is always in one of the following states:
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
