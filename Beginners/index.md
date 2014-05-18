@@ -44,6 +44,7 @@ Thank you for your co operation.
 ** Mac
 ***[https://github.com/textmate/textmate Textmate]
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
+***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
 ** Linux
 ***[http://www.geany.org/ Geany]
 
@@ -109,4 +110,7 @@ If you want to test various versions of Internet Explorer, you can use a Virtual
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
