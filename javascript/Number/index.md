@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics
+|Content=Incomplete
 |Checked_Out=Yes
 }}
 {{Summary_Section|An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.}}
@@ -48,7 +49,7 @@ The Number type has exactly 18437736874454810627 (that is, 264−253+3) values, 
 {{Notes_Section
 |Notes='''Octals and Hexadecimals'''
 
-Octal and hexadecimal numbers can be used in JavaScript.
+Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.
 
 Octal numbers must begin with 0 (zero) followed by one or more octal digits.
 
