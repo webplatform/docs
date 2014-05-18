@@ -46,7 +46,7 @@ An img is always in one of the following states:
 |Language=HTML
 |Description=The following example shows how to use the '''srcset''' and '''sizes''' attributes to create responsive images. The browser will select the best image depending on viewport width.
 |Code=<img sizes="100vw, (min-width:600px) 50vw" srcset="small.jpg 300w, medium.jpg 500w, large.jpg 700w" alt="The house is white, with a boarded front door.">
-|LiveURL=http://code.webplatform.org/gist/6a79db8aac334f166c8f
+|LiveURL=http://code.webplatform.org/gist/65430bc99e5bf2659454
 }}
 }}
 {{Notes_Section}}
