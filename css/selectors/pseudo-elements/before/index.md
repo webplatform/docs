@@ -1,10 +1,11 @@
 {{Page_Title|&#58;&#58;before}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Inserts content before the selected element(s).}}
+{{Summary_Section|<code>::before</code> creates a pseudo-element, which is inserted before the selected element(s). The pseudo-element is inline by default.}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
