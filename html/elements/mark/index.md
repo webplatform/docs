@@ -1,17 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Needs Review
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a run of text that has been marked or highlighted.}}
+{{Summary_Section|Represents a run of text that is contextually-important for some reason, such as text that has been marked or highlighted.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example shows the difference between denoting the importance of a span of text ('''strong''') as opposed to denoting the relevance of a span of text ('''mark'''). It is an extract from a textbook, where the extract has had the parts relevant to the exam highlighted. The safety warnings, important though they may be, are not relevant to the exam.
 |Code=&lt;h3&gt;Wormhole Physics Introduction&lt;/h3&gt;
 &lt;p&gt;&lt;mark&gt;A wormhole in normal conditions can be held open for a
@@ -28,236 +29,32 @@ annihilate anything in its path.&lt;/strong&gt; Vortexes can be avoided when
 using sufficiently advanced dialing technology.&lt;/p&gt;
 &lt;p&gt;&lt;mark&gt;An obstruction in a gate will prevent it from accepting a
 wormhole connection.&lt;/mark&gt;&lt;/p&gt;
+}}{{Single Example
+|Language=HTML
+|Description=This example uses mark to indicate the "current" link.
+|Code=&lt;nav>
+  &lt;ul>
+    &lt;li><a href="/one">One&lt;/a>&lt;/li>
+    &lt;li>&lt;mark><a href="/two">Two&lt;/a>&lt;/mark>&lt;/li>
+    &lt;li><a href="/three">Three&lt;/a>&lt;/li>
+    &lt;li><a href="/four">Four&lt;/a>&lt;/li>
+  &lt;/ul>
+&lt;nav>
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-When used in the main prose of a document, the '''mark''' element indicates a part of the document that has been highlighted. When used in a quotation or other block of text (such as an '''aside'''), it indicates a highlight that was not originally present but which has been added to bring the reader's attention to a part of the text. For example, the following are valid uses for the '''mark''' element:
-*Bring attention to a particular string of text.
-*Highlight parts of document that match a search string.
-*Enable body text to refer to a specific part of a quotation or code fragment.
+|Usage=The '''mark''' element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
+|Notes=The '''mark''' element denotes the relevance of a span of text. By default, most browsers render it in black text on a yellow background, but you can change that with CSS.
+
+To indicate importance, use [[html/elements/em|'''strong''']]; for emphasis, use [[html/elements/em|'''em''']].
+
+When used in the main prose of a document, the '''mark''' element indicates a part of the document that has been highlighted. When used in a quotation or other block of text (such as an [[html/elements/aside|'''aside''']]), it indicates a highlight that was not originally present but which has been added to bring the reader's attention to a part of the text. For example, the following are valid uses for the '''mark''' element:
+
+* Bring attention to a particular string of text.
+* Highlight parts of document that match a search string.
+* Enable body text to refer to a specific part of a quotation or code fragment.
 
 Windows Internet Explorer 9.  The '''mark''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
-The '''mark''' element denotes the relevance of a span of text. To indicate importance, use '''strong''' or '''em'''.
-The default CSS for the '''mark''' element is:
- <code>color: black;
- background-color: yellow;</code>
-|Import_Notes====Standards information===
-There are no standards that apply here.
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|block
-|}
-
-===Members===
-The '''mark''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Methods====
-The '''mark''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|'''addBehavior'''
-|Attaches a behavior to the element. 
-
-This method is not supported for Metro style apps using JavaScript.
-|-
-|[[dom/methods/appendChild|'''appendChild''']]
-|Appends an element as a child to the object.
-|-
-|[[dom/methods/applyElement|'''applyElement''']]
-|Makes the element either a child or parent of another element.
-|-
-|[[dom/methods/attachEvent|'''attachEvent''']]
-|Binds the specified function to an event, so that the function gets called whenever the event fires on the object.
-|-
-|[[dom/methods/blur|'''blur''']]
-|Causes the element to lose focus and fires the [[dom/events/blur|'''onblur''']] event.
-|-
-|[[dom/methods/clearAttributes|'''clearAttributes''']]
-|Removes all attributes and values from the object.
-|-
-|[[dom/methods/click|'''click''']]
-|Simulates a click by causing the [[dom/events/click|'''onclick''']] event to fire.
-|-
-|[[dom/methods/cloneNode|'''cloneNode''']]
-|Copies a reference to the object from the document hierarchy.
-|-
-|[[dom/methods/componentFromPoint|'''componentFromPoint''']]
-|Returns the component located at the specified coordinates via certain events.
-|-
-|'''contains'''
-|Checks whether the given element is contained within the object.
-|-
-|[[dom/methods/getAttributeNodeNS|'''getAttributeNodeNS''']]
-|Gets an [[dom/attributes|'''attribute''']] object that matches the specified namespace and name.
-|-
-|[[dom/methods/getAttributeNS|'''getAttributeNS''']]
-|Gets the value of the specified attribute within the specified namespace.
-|-
-|[[dom/methods/getElementsByClassName|'''getElementsByClassName''']]
-|Gets a collection of objects that are based on the value of the [[dom/properties/className|'''CLASS''']] attribute.
-|-
-|[[dom/methods/getElementsByTagNameNS|'''getElementsByTagNameNS''']]
-|Gets a collection of objects that are based on the specified element names within a specified namespace.
-|-
-|[[dom/methods/hasAttribute|'''hasAttribute''']]
-|Determines whether an attribute with the specified name exists.
-|-
-|[[dom/methods/hasAttributeNS|'''hasAttributeNS''']]
-|Determines whether an attribute that has the specified namespace and name exists.
-|-
-|[[dom/methods/hasAttributes|'''hasAttributes''']]
-|Determines whether one or more attributes exist for the object.
-|-
-|[[dom/methods/insertAdjacentHTML|'''insertAdjacentHTML''']]
-|Inserts the given HTML text into the element at the location.
-|-
-|[[dom/methods/insertAdjacentText|'''insertAdjacentText''']]
-|Inserts the given text into the element at the specified location.
-|-
-|[[dom/methods/matchesSelector|'''msMatchesSelector''']]
-|Determines whether an object matches the specified selector.
-|-
-|[[dom/methods/normalize|'''normalize''']]
-|Merges adjacent DOM objects to produce a normalized document object model.
-|-
-|[[dom/methods/removeAttributeNS|'''removeAttributeNS''']]
-|Removes the specified attribute from the object.
-|-
-|'''removeBehavior'''
-|Detaches a behavior from the element.
-|-
-|[[dom/methods/removeNode|'''removeNode''']]
-|Removes the object from the document hierarchy.
-|-
-|[[dom/methods/replaceAdjacentText|'''replaceAdjacentText''']]
-|Replaces the text adjacent to the element.
-|-
-|[[dom/methods/replaceNode|'''replaceNode''']]
-|Replaces the object with another element.
-|-
-|[[dom/methods/setActive|'''setActive''']]
-|Sets the object as active without setting focus to the object.
-|-
-|[[dom/methods/setAttributeNodeNS|'''setAttributeNodeNS''']]
-|Sets an [[dom/attributes|'''attribute''']] object as part of the object.
-|-
-|[[dom/methods/setAttributeNS|'''setAttributeNS''']]
-|Sets the value of the specified attribute within the specified namespace.
-|-
-|[[dom/methods/setCapture|'''setCapture''']]
-|Sets the mouse capture to the object that belongs to the current document.
-|-
-|[[dom/methods/swapNode|'''swapNode''']]
-|Exchanges the location of two objects in the document hierarchy.
-|}
- 
-
-====Properties====
-The '''mark''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[html/attributes/accessKey|'''accessKey''']]
-|Sets or retrieves the access key for the object.
-|-
-|[[dom/properties/attributes|'''attributes''']]
-|Retrieves a collection of attributes of the object.
-|-
-|[[dom/properties/canHaveChildren|'''canHaveChildren''']]
-|Gets a value indicating whether the object can contain child objects.
-|-
-|[[dom/properties/className|'''className''']]
-|Sets or retrieves the class of the object.
-|-
-|[[dom/properties/constructor|'''constructor''']]
-|Returns a reference to the constructor of an object.
-|-
-|[[dom/properties/innerdom/innerHTML|'''innerHTML''']]
-|Sets or retrieves the HTML between the start and end tags of the object.
-|-
-|[[dom/properties/innerText|'''innerText''']]
-|Sets or retrieves the text between the start and end tags of the object.
-|-
-|[[dom/properties/isContentEditable|'''isContentEditable''']]
-|Gets the value that indicates whether the user can edit the contents of the object.
-|-
-|[[dom/properties/isDisabled|'''isDisabled''']]
-|Gets the value that indicates whether the user can interact with the object.
-|-
-|[[dom/traversal/properties/isTextEdit|'''isTextEdit''']]
-|Retrieves whether a [[dom/traversal/TextRange|'''TextRange''']] object can be created using the object.
-|-
-|[[html/attributes/lang|'''lang''']]
-|Sets or retrieves the language to use.
-|-
-|[[html/attributes/language|'''language''']]
-|Sets or retrieves the language in which the current script is written.
-|-
-|[[dom/properties/offsetHeight|'''offsetHeight''']]
-|Retrieves the height of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
-|-
-|[[dom/properties/offsetParent|'''offsetParent''']]
-|Retrieves a reference to the container object that defines the [[dom/properties/offsetTop|'''offsetTop''']] and [[dom/properties/offsetLeft|'''offsetLeft''']] properties of the object.
-|-
-|[[dom/properties/offsetWidth|'''offsetWidth''']]
-|Retrieves the width of the object relative to the layout or coordinate parent, as specified by the [[dom/properties/offsetParent|'''offsetParent''']] property.
-|-
-|[[dom/properties/outerdom/outerHTML|'''outerHTML''']]
-|Sets or retrieves the object and its content in HTML.
-|-
-|[[dom/properties/outerText|'''outerText''']]
-|Sets or retrieves the text of the object.
-|-
-|[[dom/traversal/properties/parentElement|'''parentElement''']]
-|Retrieves the parent object in the object hierarchy.
-|-
-|[[dom/traversal/properties/parentTextEdit|'''parentTextEdit''']]
-|Retrieves the container object in the document hierarchy that can be used to create a [[dom/traversal/TextRange|'''TextRange''']] containing the original object.
-|-
-|'''recordNumber'''
-|Retrieves the ordinal record from the data set that generated the object.
-|-
-|[[html/attributes/role|'''role''']]
-|Sets or retrieves the role for this element.
-|-
-|'''scopeName'''
-|Gets the namespace defined for the element. 
-
-This property is not supported for Metro style apps using JavaScript.
-|-
-|[[dom/properties/sourceIndex|'''sourceIndex''']]
-|Retrieves the ordinal position of the object, in source order, as the object appears in the document's [[dom/properties/all|'''all''']] collection.
-|-
-|[[dom/properties/tagName|'''tagName''']]
-|Retrieves the tag name of the object.
-|-
-|[[dom/properties/tagUrn|'''tagUrn''']]
-|Sets or gets the URN specified in the namespace declaration. 
-
-This property is not supported for Metro style apps using JavaScript.
-|-
-|[[html/attributes/title|'''title''']]
-|Sets or retrieves advisory information (a ToolTip) for the object.
-|-
-|[[dom/properties/uniqueNumber|'''uniqueNumber''']]
-|Retrieves the element's unique number.
-|}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -270,10 +67,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>em</code>
-*<code>strong</code>
+|Topic_clusters=HTML, Text
 }}
 {{Topics|HTML}}
 {{External_Attribution
