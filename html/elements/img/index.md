@@ -62,7 +62,7 @@ An img is always in one of the following states:
 }}{{Related Specification
 |Name=srcset
 |URL=http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/
-|Status=WRC Editor’s Draft
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
@@ -113,11 +113,16 @@ An img is always in one of the following states:
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=34.0
+|Note=Chrome has implemented srcset with version 34.0 but doesn’t yet support the sizes attribute.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Multimedia
-|External_links=http://www.w3.org/wiki/HTML/Elements/img
+|External_links=*http://www.w3.org/wiki/HTML/Elements/img
+*[http://scottjehl.github.io/picturefill/ Picturefill is a polyfill to support srcset and sizes attributes]
 }}
 {{Topics|Graphics, HTML}}
 {{External_Attribution
