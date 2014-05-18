@@ -10,7 +10,7 @@
 |Values={{JS Syntax Parameter
 |Name=radix
 |Required=Optional
-|Description=The base number system to convert to given as 2 - 36, inclusive. Defaults to 10. 
+|Description=The base number system to convert to given as 2 - 36, inclusive. Defaults to 10.
 }}
 }}
 {{JS_Return_Value
@@ -51,6 +51,7 @@ mph_number.toString(8);
 mph_number.toString(2);
 // Returns: "11000111"
 }}{{Single Example
+|Language=JavaScript
 |Description=implicit use of <code>toString()</code>
 |Code=var mph_number = 199;
 String(mph_number) === mph_number.toString(10);
