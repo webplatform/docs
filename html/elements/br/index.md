@@ -25,6 +25,9 @@ Sydney&lt;/p>
 }}
 }}
 {{Notes_Section
+|Usage=The '''br''' element is a “replaced element” which means it is comprised of a single tag with no content. You can apply attributes (e.g. '''class''') to the tag, but it must not contain text.
+
+As a replaced element, the '''br''' will be automatically closed by browsers, but you can also explicitly close the element with a trailing slash: '''&lt;br/&gt;'''
 |Notes=No closing tag is needed.
 }}
 {{Related_Specifications_Section
