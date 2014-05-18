@@ -20,8 +20,6 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ** Mac OS
 ***[http://www.apple.com/safari/ Safari].
 
-If you want to test older versions of these browsers or cannot install them on your computer you can use (cross-) browser testing services such as [http://www.browserstack.com/ BrowserStack] (commercial), [http://browsershots.org/ Browsershots] (Screenshots only), [http://crossbrowsertesting.com/ CrossBrowserTesting] (commercial), or [https://saucelabs.com/ SauceLabs] (free and commercial plans). They will render your pages on many different browser version (including mobile browsers).
-
 * A decent text editor. Reasonable free options are 
 ** All Platforms
 <!--
@@ -54,6 +52,8 @@ Thank you for your co operation.
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
 
 ==More on Browser testing==
+
+If you want to test older versions of these browsers or cannot install them on your computer you can use (cross-) browser testing services such as [http://www.browserstack.com/ BrowserStack] (commercial), [http://browsershots.org/ Browsershots] (Screenshots only), [http://crossbrowsertesting.com/ CrossBrowserTesting] (commercial), or [https://saucelabs.com/ SauceLabs] (free and commercial plans). They will render your pages on many different browser version (including mobile browsers).
 
 If you want to test various versions of Internet Explorer, you can use a Virtual Machine ("VM"). On [http://modern.ie modern.ie], you can download VMs from various versions of Windows and Internet Explorer and run them on either Mac, Linux, or Windows. Those VMs are free for use but will require you to delete and reinstall the VM at every 30 days. But it allows you to test on all available versions of Windows.  To do this, you can have a look at the site [http://modern.ie modern.ie].
 
