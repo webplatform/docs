@@ -1,22 +1,13 @@
-{{Page_Title}}
+{{Page_Title|applet -- obsolete}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
-{{API_Name}}
+{{API_Name|applet}}
 {{Summary_Section|The '''applet''' element (&lt;applet&gt;) embeds a Java applet into a web page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAppletElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-{{!}}Closing Tag
-{{!}}required
-{{!}}-
-{{!}}CSS Display
-{{!}}inline
-{{!}}}
+|Content=The '''applet''' element has been deprecated with HTML 4.01 and made ''obsolete'' with HTML5.
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,6 +29,11 @@ To use executable content specified by the '''applet''' element, a user's comput
 |URL=http://www.w3.org/TR/REC-html40/struct/objects.html#h-13.4
 |Status=W3C Recommendation
 |Relevant_changes=Feature marked as deprecated
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/obsolete.html#the-applet-element
+|Status=W3C Candidate Recommendation
+|Relevant_changes=Feature marked as obsolete
 }}
 }}
 {{Compatibility_Section
