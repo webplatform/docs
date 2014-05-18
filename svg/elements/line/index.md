@@ -40,9 +40,10 @@
 *[[svg/attributes#Graphical_Event_Attributes|'''Graphical events attributes''']]
 *[[svg/attributes#Presentation_Attributes|'''Presentation attributes''']]
 
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-
+*[[svg/attributes/style|'''style''']]
+*[[svg/attributes/class|'''class''']]
+*[[svg/attributes/externalResourcesRequired|'''externalResourcesRequired''']]
+*[[svg/attributes/transform|'''transform''']]
 
 ====Specific attributes====
 
