@@ -45,6 +45,11 @@ function decimalToHex(d) {
 }
 console.log(decimalToHex(127) === "00007f");
 console.log(parseInt("00007f", 16) === 127);
+}}{{Single Example
+|Language=JavaScript
+|Code=// Infinity JavaScript Number constant
+var andBeyond = 3 / 0;
+console.log(andBeyond === Infinity);
 }}
 }}
 {{Remarks_Section
@@ -133,6 +138,7 @@ The following table lists the methods of the '''Number''' object.
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/NaN{{!}}JavaScript NaN constant]]
+* [[javascript/Infinity{{!}}JavaScript Infinity constant]]
 |External_links=* http://en.wikipedia.org/wiki/Octal
 * http://www.2ality.com/2012/04/number-encoding.html
 |Manual_sections====Specification===
