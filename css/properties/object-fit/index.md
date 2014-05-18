@@ -7,20 +7,21 @@
 {{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g. a video or an image) is made to fit the dimensions of its containing box}}
 {{CSS Property
 |Initial value=fill
-|Applies to=replaced elements
+|Applies to=Replaced elements
 |Inherited=No
 |Media=visual
-|Computed value=as specified
+|Computed value=As specified
 |Animatable=No
+|CSS object model property=objectFit
 |Values={{CSS Property Value
 |Data Type=fill
 |Description=The replaced content is sized to fill the element's box
 }}{{CSS Property Value
 |Data Type=contain
-|Description=The replaced content is sized to to maintain its aspect ratio while fitting within the element's content box
+|Description=The replaced content is sized to maintain it's aspect ratio while fitting within the element's content box
 }}{{CSS Property Value
 |Data Type=cover
-|Description=The replaced content is sized to maintain its aspect ratio while filling the element's entire content box
+|Description=The replaced content is sized to maintain it's aspect ratio while filling the element's entire content box
 }}{{CSS Property Value
 |Data Type=none
 |Description=The replaced content is not resized to fit inside the element's content box
@@ -31,7 +32,58 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Five simple img elements
+|Code=&lt;!DOCTYPE HTML&gt;
+&lt;html lang="en-US"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Object-fit example&lt;/title&gt;
+  &lt;link href="content-fit.css" type="text/css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="fill"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="contain"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="cover"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="none"/&gt;
+  &lt;img src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Webplatform Logo" class="scale-down"/&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+}}{{Single Example
+|Language=CSS
+|Description=Alle five images are forced to 150x100 pixel, that's different from both the original size of the image (196x77 pixel) and it's aspect ratio. 
+|Code=img {
+  float: left;
+  width: 150px;
+  height: 100px;
+  border: 1px solid #000;
+  margin-right: 1em;
+}
+.fill {
+  object-fit: fill;
+  /* This is the default behaviour. The image is forced to fill the whole box, the aspect ratio is ignored. */
+}
+.contain {
+  object-fit: contain;
+  /* The whole image will be displayed in the box and scaled down or expanded if necessary. The aspect ratio is maintained. */
+}
+.cover {
+  object-fit: cover;
+  /* The whole image is scaled down or expanded till it fills the box completely, the aspect ratio is maintained. This normally results in only part of the image being visible. */
+}
+.none {
+  object-fit: none;
+  /* The image keeps it's original size. This may result in not filling the box completely or sticking out of it. */
+}
+.scale-down {
+  object-fit: scale-down;
+  /* The result of 'none' and 'contain' is comapred and the smaller concrete object is displayed. */
+}
+|LiveURL=http://code.webplatform.org/gist/6badc0b20d67be7d939f
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
