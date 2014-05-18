@@ -16,40 +16,40 @@ The ::first-letter pseudo-element selects the first letter or digit of the first
 The ::first-letter pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
 
 Only the following properties apply to the ::first-letter pseudo-element. 
--background
--border
--border-bottom
--border-bottom-color
--border-bottom-style
--border-bottom-width
--border-collapse 
--border-color - border-left 
--border-left-color 
--border-left-style
--border-left-width 
--border-right
--border-right-color 
--border-right-style 
--border-right-width 
--border-style 
--border-top 
--border-top-color 
--border-top-style 
--border-top-width
--border-width 
--clear 
--color 
--float 
--font 
--font-family 
--font-size - font-style 
--font-variant 
--font-weight - line-height 
--margin 
--padding 
--text-decoration 
--text-transform 
--vertical-align 
+* background 
+* border 
+* border-bottom 
+* border-bottom-color 
+* border-bottom-style 
+* border-bottom-width 
+* border-collapse  
+* border-color - border-left  
+* border-left-color  
+* border-left-style 
+* border-left-width  
+* border-right 
+* border-right-color  
+* border-right-style  
+* border-right-width  
+* border-style  
+* border-top  
+* border-top-color  
+* border-top-style  
+* border-top-width 
+* border-width  
+* clear  
+* color  
+* float  
+* font  
+* font-family  
+* font-size - font-style  
+* font-variant  
+* font-weight - line-height  
+* margin  
+* padding  
+* text-decoration  
+* text-transform  
+* vertical-align 
 }}
 {{Examples_Section
 |Not_required=No
