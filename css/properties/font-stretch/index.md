@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
