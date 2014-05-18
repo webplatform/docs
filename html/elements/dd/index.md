@@ -1,7 +1,5 @@
 {{Page_Title|dd – description list data}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
