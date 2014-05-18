@@ -1,7 +1,7 @@
 {{Page_Title|flex}}
 {{Flags
 |High-level issues=Needs Review
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -59,12 +59,8 @@
    min-height: 800px;
    margin: 0px;
    padding: 0px;
-   display: -webkit-flex;
-   display: -moz-flex;
-   display:         flex;
-   -webkit-flex-flow: row;
-      -moz-flex-flow: row;
-           flex-flow: row;
+   display: flex;
+   flex-flow: row;
    }
   
   #main > article {
@@ -73,12 +69,8 @@
    border: 1px solid #cccc33;
    border-radius: 7pt;
    background: #dddd88;
-   -webkit-flex: 3 1 60%;
-      -moz-flex: 3 1 60%;
-           flex: 3 1 60%;
-   -webkit-order: 2;
-      -moz-order: 2;
-           order: 2;
+   flex: 3 1 60%;
+   order: 2;
    }
    
   #main > nav {
@@ -87,12 +79,8 @@
    border: 1px solid #8888bb;
    border-radius: 7pt;
    background: #ccccff;
-   -webkit-flex: 1 6 20%;
-      -moz-flex: 1 6 20%;
-           flex: 1 6 20%;
-   -webkit-order: 1;
-      -moz-order: 1;
-           order: 1;
+   flex: 1 6 20%;
+   order: 1;
    }
    
   #main > aside {
@@ -101,12 +89,8 @@
    border: 1px solid #8888bb;
    border-radius: 7pt;
    background: #ccccff;
-   -webkit-flex: 1 6 20%;
-      -moz-flex: 1 6 20%;
-           flex: 1 6 20%;
-   -webkit-order: 3;
-      -moz-order: 3;
-           order: 3;
+   flex: 1 6 20%;
+   order: 3;
    }
   
   header, footer {
@@ -123,16 +107,12 @@
   @media all and (max-width: 640px) {
    
    #main, #page {
-    -webkit-flex-flow: column;
-       -moz-flex-flow: column;
-            flex-flow: column;
+    flex-flow: column;
    }
  
    #main > article, #main > nav, #main > aside {
     /* Return them to document order */
-    -webkit-order: 0;
-       -moz-order: 0;
-            order: 0;
+    order: 0;
    }
    
    #main > nav, #main > aside, header, footer {
