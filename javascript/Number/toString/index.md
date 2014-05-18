@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Flags, Needs Topics
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string representation of a number.}}
@@ -68,8 +69,9 @@ String(mph_number) === mph_number.toString(10);
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
-* [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
 * [[javascript/Number/toFixed{{!}}toFixed Method (Number)]]
+* [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString toString(), by Mozilla Developer Network]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2 15.7.4.2 Number.prototype.toString(radix)]
 
