@@ -9,7 +9,7 @@
 {{Summary_Section|[[css/properties/transform|Transform]] function for a 2d translation which moves an element on the x-axis by the given value.}}
 {{CSS_Function
 |Content====Syntax===
-'''translateX ( <tranlation-value> )'''
+'''translateX ( <translation-value> )'''
 
 ===Parameters===
 '''translation-value'''
