@@ -148,7 +148,7 @@ var area = document.createElement('textarea');
 |Notes=Each '''Storage''' object provides access to a list of key/value pairs, which are sometimes called items. Keys are strings, and any string (including the empty string) is a valid key. Items contain values (which are also strings) and associated metadata.
 
 Each '''Storage''' object is associated with a list of key/value pairs when it is created. Multiple '''Storage''' objects, such as two instances of '''localStorage''', can be associated with the same list of key/value pairs simultaneously.
-|Import_Notes=The amount of storage is limited by the browser (quota). An error is thrown, when the quota is exceeded. 
+|Import_Notes=The '''amount of storage''' is '''limited''' by the browser (quota). An error is thrown, when the quota is exceeded. 
 An example, that intentionally exceeds the quota and throws and error may be found here: http://jsfiddle.net/wkDc6/1/
 }}
 {{Related_Specifications_Section
