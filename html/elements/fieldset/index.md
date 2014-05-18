@@ -60,7 +60,7 @@ HTML5 adds the following attributes which are fully optional.
 |LiveURL=http://code.webplatform.org/gist/fc26d3507ee33bdd6043
 }}{{Single Example
 |Language=HTML
-|Description=Example with nested '''fieldset''' elements. 
+|Description=Example with nested '''fieldset''' elements.
 |Code=<form action="">
   <fieldset name="clubfields" disabled>
     <legend>
@@ -97,12 +97,12 @@ HTML5 adds the following attributes which are fully optional.
 }}
 }}
 {{Notes_Section
-|Usage=Fieldsets are not required but useful for grouping elements in a form to enhance the visual flow and usability of complex forms. optionally you can use a [[html/elements/legend]'''legend'''] element to give your '''fieldset''' element a caption.
+|Usage=Fieldsets are not required but useful for grouping elements in a form to enhance the visual flow and usability of complex forms. optionally you can use a [[html/elements/legend|'''legend''']] element to give your '''fieldset''' element a caption.
 |Notes====Default layout===
-Typically, the browser draws a box around the containing elements of every fieldset. This border can be disabled via CSS <code>border: none;</code> The border contains the legend by default. See [[html/elements/legend]'''legend'''] for details.
+Typically, the browser draws a box around the containing elements of every fieldset. This border can be disabled via CSS <code>border: none;</code> The border contains the legend by default. See [[html/elements/legend|'''legend''']] for details.
 
 ===Nesting fieldsets===
-It’s also possible and in certain use cases pretty useful to nest fieldsets. See Example.
+It’s also possible and in certain use cases pretty useful to nest fieldsets. See Example above.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
