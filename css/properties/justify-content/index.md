@@ -35,11 +35,7 @@
 |Language=CSS
 |Description=An example with the justify-content property, demonstrating the different options.
 |Code=.container {
-  display: -webkit-flex;
-  display:    -moz-flex;
-  display:     -ms-flex;
-  display:      -o-flex;
-  display:         flex;
+  display: flex;
   
   width: 800px;
   height: 100px;
@@ -47,11 +43,7 @@
 }
 
 .container div {
-  -webkit-flex: 0;
-     -moz-flex: 0;
-      -ms-flex: 0;
-       -o-flex: 0;
-          flex: 0;
+  flex: 0;
  
     height: 100px;
     margin: 0px;
@@ -76,11 +68,7 @@
 }
 
 .flex-start {
-  -webkit-justify-content: flex-start;
-     -moz-justify-content: flex-start;
-      -ms-justify-content: flex-start;
-       -o-justify-content: flex-start;
-          justify-content: flex-start; 
+    justify-content: flex-start; 
 }
 
 .flex-end {
