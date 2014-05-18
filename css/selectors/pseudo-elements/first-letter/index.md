@@ -1,7 +1,7 @@
 {{Page_Title|::first-letter pseudo-element}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
+|High-level issues=Data Not Semantic, Unreviewed Import
+|Content=Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
