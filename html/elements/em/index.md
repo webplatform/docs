@@ -1,6 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -16,11 +15,20 @@
 |Description=This example uses the '''em''' element to emphasize text.
 |Code=&lt;p>Please fill in the form below.
 &lt;em&gt;Note: all fields are required.&lt;/em&gt;&lt;/p>
+}}{{Single Example
+|Language=HTML
+|Description=Incidentally, the level of stress that a particular piece of content has is given by its number of ancestor '''em''' elements.
+|Code=&lt;p>Chicken Little: &lt;q>&lt;em>The sky is falling…
+&lt;em>the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/em>&lt;/em>&lt;/q>&lt;/p>
 }}
 }}
 {{Notes_Section
 |Usage=The '''em''' element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 |Notes=By default, most browsers render the '''em''' element in italics, but you can change that in CSS.
+
+If the text is of great importance, seriousness, or urgency the [[html/elements/strong|'''strong''' element]] would be a better choice.
+
+If you are looking to indicate text that is in an alternate voice, mood, or language, the [[html/elements/i|'''i''' element]] would be a better choice.
 
 If you wish to italicize the name of a creative work (e.g. a magazine, book, or film title), use the [[html/elements/cite|'''cite''' element]] instead.
 }}
