@@ -1,7 +1,6 @@
 {{Page_Title|background-position}}
 {{Flags
-|Content=Cleanup
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -109,10 +108,6 @@
   width: 1024px;
   height: 640px;
   margin : 5rem auto;
-  background: -webkit-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
-  background: -moz-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
-  background: -ms-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
-  background: -o-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
   background: linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
   background-color: #ccc;
   border-radius: 64px;
