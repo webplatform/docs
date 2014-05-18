@@ -1,7 +1,5 @@
 {{Page_Title|ol – ordered list}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -39,7 +37,6 @@ The '''ordered list''', represented by the '''ol''' element, is most often used 
 &nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;first&nbsp;list&nbsp;item&lt;/li&gt;
 &nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;second&nbsp;list&nbsp;item&lt;/li&gt;
 &lt;/ol&gt;
-
 |LiveURL=http://code.webplatform.org/gist/eb2b4134dc595b6dbf17
 }}{{Single Example
 |Language=HTML
@@ -48,7 +45,6 @@ The '''ordered list''', represented by the '''ol''' element, is most often used 
 &nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;first&nbsp;list&nbsp;item&lt;/li&gt;
 &nbsp;&nbsp;&lt;li&gt;This&nbsp;is&nbsp;the&nbsp;second&nbsp;list&nbsp;item&lt;/li&gt;
 &lt;/ol&gt;
-
 |LiveURL=http://code.webplatform.org/gist/3386252885e8db151a1f
 }}{{Single Example
 |Language=CSS
