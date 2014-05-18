@@ -1,15 +1,15 @@
-{{Page_Title}}
+{{Page_Title|input type 'button'}}
 {{Flags
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
+|Checked_Out=No
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=[[html/attributes/type]]
 }}
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''button''' type of the [[html/elements/input|&lt;input&gt;]] element represents a button with no default behavior.}}
+{{Summary_Section|The '''button''' type of the [[html/elements/input|'''input''']] element represents a button with no default behavior. Compare with the [[html/elements/button|'''button''']] element which offers default behaviours with via attributes. }}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
@@ -756,6 +756,8 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+* The [[html/elements/button|'''button''']] element
 |Manual_sections====Related pages (MSDN)===
 *[[html/elements/button|button]]
 *[[html/elements/input|input]]
