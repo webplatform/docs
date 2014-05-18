@@ -34,6 +34,21 @@ There is another term you have to hear about that is called [[concepts/graceful_
    background: rgba(200, 54, 54, 0.5); 
 }
 |LiveURL=http://css-tricks.com/rgba-browser-support/
+}}{{Single Example
+|Language=JavaScript
+|Description=requestAnimation provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way:
+|Code=// crossbrowser animation
+var requestAnimation = (function() {
+    return window.requestAnimationFrame 
+    || window.webkitRequestAnimationFrame 
+    || window.mozRequestAnimationFrame 
+    || window.oRequestAnimationFrame 
+    || window.msRequestAnimationFrame 
+    || function(callback, element) {
+        window.setTimeout(callback, 1000 / 60);
+    };
+})();
+|LiveURL=http://www.html5rocks.com/en/tutorials/speed/animations/
 }}
 }}
 {{Notes_Section}}
