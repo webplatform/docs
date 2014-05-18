@@ -78,14 +78,14 @@ Next step is to connect our PhantomJS based server with the JavaScript code we w
 <pre>
 &lt;!doctype html&gt;
 &lt;html&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;title&gt; WebDiver testpage&lt;/title&gt;
-        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
-        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;This is a WebDiver testpage&lt;/h1&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; WebDiver testpage&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;This is a WebDiver testpage&lt;/h1&gt;
 		&lt;script&gt;
 			request = new XMLHttpRequest();
 			request.open('GET', 'http://localhost:8080/status', true);
@@ -104,21 +104,25 @@ Next step is to connect our PhantomJS based server with the JavaScript code we w
 
 			request.send();
 		&lt;/script&gt;
-    &lt;/body&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
 This sample page uses the <code>status</code> method defined in the [https://code.google.com/p/selenium/wiki/JsonWireProtocol JSON WireProtocol], it queries the WebDriver servers status; We take that &amp; display the contents of the request on our webpage.
 
+The output should be something like this:
+
+<code>{&quot;sessionId&quot;:null,&quot;status&quot;:0,&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.0.4&quot;},&quot;os&quot;:{&quot;name&quot;:&quot;mac&quot;,&quot;version&quot;:&quot;unknown&quot;,&quot;arch&quot;:&quot;64bit&quot;}}}</code>
+
+We now connected Chrome &amp; PhantomJS, time to extend our basic HTML page to obtain a WebDriver session, open up a webpage we want to test &amp; read out the title of that one.
+
 == Simple test case ==
 
-The quick brown fox
-
-== Summary ==
-
-The quick brown fox
+TBA.
 
 == Further reading &amp; tooling ==
+
+TBA.
 
 The quick brown fox
 }}
