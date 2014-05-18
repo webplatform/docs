@@ -37,12 +37,7 @@
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontVariant.htm
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-Microsoft Internet Explorer 4.0 renders '''small-caps''' as uppercase letters in a smaller size.
-|Import_Notes====Syntax===
-<code>'''font-variant: '''normal '''{{!}}''' small-caps</code>
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 3
