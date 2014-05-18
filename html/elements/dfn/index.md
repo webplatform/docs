@@ -35,9 +35,11 @@ and so Hammond ordered the iris to be opened.&lt;/p>
 }}
 }}
 {{Notes_Section
-|Usage=If the '''dfn''' element has a [[html/attributes/title|'''title''' attribute]], then the value of that attribute serves as the definition for the text inside the element (see Example 1).
+|Usage=The '''dfn''' is a phrasing-level element and can’t contain block-level elements, but it can contain other phrasing type elements like '''abbr''', read on…
 
-If the '''dfn''' contains exactly one child element (and no other text) __and__ that child element is an [[html/elements/abbr|'''abbr''' element]] with a [[html/attributes/title|'''title''' attribute]], then the exact value of that '''title''' attribute serves as the definition for the text inside the '''abbr''' (see Example 2).
+If the '''dfn''' element has a [[html/attributes/title|'''title''' attribute]], then the value of that attribute serves as the definition for the text inside the element (see Example 1).
+
+If the '''dfn''' contains exactly one child element (and no other text) //and// that child element is an [[html/elements/abbr|'''abbr''' element]] with a [[html/attributes/title|'''title''' attribute]], then the exact value of that '''title''' attribute serves as the definition for the text inside the '''abbr''' (see Example 2).
 
 If the '''dfn''' only contains text, the exact text content of the element gives the term being defined.
 
