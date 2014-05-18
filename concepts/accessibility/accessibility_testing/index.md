@@ -209,6 +209,8 @@ There are inspectors for both desktop-level structures and web-level object mode
 
 Tools for poking at the (X)HTML document object model include DOM Inspectors as seen in [http://www.opera.com/products/dragonfly/ Opera Dragonfly] and [http://www.getfirebug.com/ Firebug] and accessibility tool bundles like the [http://www.wat-c.org/tools/index.html Web Accessibility Toolbar for Internet Explorer and Opera] and the [http://firefox.cita.uiuc.edu/ ICITA Firefox Accessibility Toolbar].
 
+Furthermore, there are tools that validate a page with respect to a web accessibility standard (e.g., WCAG 1+2, US Section 508) such as [http://www.totalvalidator.com/ Total Validator] (free and commercial versions) or [http://wave.webaim.org/toolbar/ WAVE] (Firefox plugin). Some of these tools can be used in continuous integration environments such as Jenkins (e.g., Total Validator [http://www.totalvalidator.com/tools/embtool.html "Embedded Tool"]). Please note that these tools only check the standards on the structural level (e.g., the existance of titles) not their meaning (i.e., it would be OK if the description does exist but is a "Lorem Ipsum")! 
+
 DOM inspectors show you the tree of elements and attributes and text constructed out of the (X)HTML serialization, whereas web accessibility inspectors abstract particular components or relationships and list them. For example, they might list all fields with their labels or all headings or all links.
 
 Digging into the accessibility model should not normally be necessary for (X)HTML, though you might also want to investigate that layer if you think a browser is representing a correct (X)HTML structure incorrectly to assistive technology. Instead, you will normally be checking (X)HTML structures directly.
