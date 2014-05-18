@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -12,7 +10,9 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
 |Animatable=Yes
+|CSS object model property=right
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. Position is determined by the regular HTML layout of the page.
@@ -92,21 +92,6 @@
 </article>
 </syntaxhighlight>
 }}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Only use the '''right''' attribute when the [[css/properties/position|'''position''']] attribute is set; otherwise, the value of the '''right''' attribute is ignored.
-You cannot use the '''right''' property in script to calculate the position of the object in the document, because the value of the '''right''' property is a string. Instead, use the [[css/cssom/properties/pixelRight|'''pixelRight''']] property or the [[css/cssom/properties/posRight|'''posRight''']] property.
-You cannot use the '''right''' property to calculate the position of the object in the document, because the value of the '''right''' property is a string.
-For more information about how to access the dimension and location of objects on the page through the DHTML Object Model, see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes====Syntax===
-<code>'''right: '''''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-'' '''{{!}}''' auto</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 9.3.2
 }}
 {{Related_Specifications_Section
 |Specifications=
