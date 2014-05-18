@@ -9,7 +9,10 @@
 {{Summary_Section|Represents the first letter of an element, if it is not preceded by any other content (such as images or inline tables) on its line. The ::first-letter pseudo-element may be used for "initial caps" and "drop caps", which are common typographical effects.}}
 {{CSS_Selector
 |Content====Syntax===
-
+{{Single Example
+|Language=CSS
+|Code=p::first-letter {}
+}}
 ===Usage===
 The ::first-letter pseudo-element selects the first letter or digit of the first line of a block. Some languages require two letters to be capitalised (digraphs) which are currently very poorly supported by browsers.
 
