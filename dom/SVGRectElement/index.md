@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The SVGRectElement interface provides access to the properties of the rect element.}}
 {{API_Object
-|Subclass_of=dom/SVGElement
+|Subclass_of=dom/SVGElement,dom/SVGTests,dom/SVGLangSpace,dom/SVGExternalResourcesRequired,dom/SVGStylable,dom/SVGTransformable
 }}
 {{Examples_Section
 |Not_required=No
