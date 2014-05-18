@@ -5,12 +5,10 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''b''' element (&lt;b&gt;) was originally used to tell the browser to make the enclosed text bold. While the '''b''' element is widely supported in browsers, its use is not recommended for this purpose since CSS can be used to achieve the same effect on a more semantically-appropriate element. In HTML5, '''b''' has been re-purposed to signify text this is offset in some way, but is of no greater significance than the surrounding text.}}
+{{Summary_Section|The '''b''' element was originally used to tell the browser to make the enclosed text bold. While the '''b''' element is widely supported in browsers, its use is not recommended for this purpose since CSS can be used to achieve the same effect on a more semantically-appropriate element. In HTML5, '''b''' has been re-purposed to signify text this is offset in some way, but is of no greater significance than the surrounding text.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The '''b''' element should be used as a last resort when no other element is more appropriate as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter '''span'''). 
-
-
+|Content=The '''b''' element should be used as a last resort when no other element is more appropriate as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter [[html/elements/span|'''span''' element]]).
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,6 +18,16 @@
 |Code=<p>You enter a small room. Your <b>sword</b> glows
 brighter. A <b>rat</b> scurries past the corner wall.</p>
 |LiveURL=http://code.webplatform.org/gist/7281844
+}}{{Single Example
+|Language=HTML
+|Description=In this example, the '''b''' element is used to indicate both a company and a product name. Disambiguation via CSS is accomplished using the '''class''' attribute.
+|Code=<p><b class="org">Acme <abbr title="Corporation">Corp</abbr></b> 
+is pleased to introduce the 
+<b class="product">Widget Blast 3000</b>. 
+This is a miracle of modern science that will 
+simplify your life, fry an egg, and even put 
+your kids to bed.</p>
+|LiveURL=http://code.webplatform.org/gist/321e5149c1e661e1de14
 }}
 }}
 {{Notes_Section
