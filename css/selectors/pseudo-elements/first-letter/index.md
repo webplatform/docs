@@ -10,7 +10,20 @@
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=The following CSS will create "initial caps" by doubling the size of the first letter of any paragraph.
+|Code=p::first-letter {
+   font-size: 200%;
+}
+}}{{Single Example
+|Language=CSS
+|Description=The following CSS will create a drop capital spanning about two lines.
+|Code=p::first-letter {
+   font-size: 2.5em;
+   float: left;
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -36,7 +49,7 @@ sel
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
