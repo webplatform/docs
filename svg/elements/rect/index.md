@@ -53,14 +53,10 @@
 
 ====Specific attributes====
 
-Specific attributes of '''SVGRectElement''':
-
-*[[svg/attributes/width|'''width''']]: Defines the width of an element.
-*[[svg/attributes/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/attributes/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/attributes/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/attributes/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
-*[[svg/attributes/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
+*[[svg/attributes/x1|'''x1''']]
+*[[svg/attributes/x2|'''x2''']]
+*[[svg/attributes/y1|'''y1''']]
+*[[svg/attributes/y2|'''y2''']]
 
 ===DOM Interface===
 
