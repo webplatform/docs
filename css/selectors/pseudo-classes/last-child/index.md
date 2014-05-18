@@ -12,7 +12,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/*Adding red color to the second list item*/
+|Code=/*We add some red color to the second list item*/
 
 li:last-child {
 color: red;
