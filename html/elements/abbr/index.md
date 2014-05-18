@@ -1,6 +1,5 @@
 {{Page_Title|abbr}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
