@@ -37,7 +37,17 @@ Mobile browsers and operation systems do not contain an native WebDriver impleme
 
 == Setup ==
 
-The quick brown fox
+For our basic test setup, we use [http://phantomjs.org/ PhantomJS] as the system we want to test &amp; Chrome as our host system which will control PhantomJS remotely. The installation of PhantomJS is straight forward, just download it from [http://phantomjs.org/download.html here] &amp; you should have the <code>phantomjs</code> binary (or the <code>phantomjs.exe</code> if you're on windows) ready.
+
+To start the remote WebDriver server,
+
+On *nix compatible systems:
+
+<code>$ `./phantomjs --webdriver=8080</code>
+
+On windows:
+
+<code>&gt; phantomjs.exe --webdriver=8080</code>
 
 == Connecting to the remote browser ==
 
@@ -57,7 +67,7 @@ The quick brown fox
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
