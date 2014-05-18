@@ -32,7 +32,7 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Example of srcset using only device pixel ration (not with sizes)
+|Description=Example of srcset using only device pixel ratio
 |Code=<img 
       srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x, 
               http://placehold.it/1024x500&text=2x+Large.jpg 2x"
@@ -47,7 +47,7 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
               http://placehold.it/600x250&text=600+Medium.jpg 600w, 
               http://placehold.it/1024x500&text=1024+Large.jpg 1024w" 
       sizes="(min-width:500px) 33.3vw,
-             (min-widthh:1000px) 50vw, 
+             (min-width:1000px) 50vw, 
              100vw" 
       src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
       alt="Picture SRCSET" />
