@@ -1,8 +1,13 @@
 {{Page_Title|font-variant}}
 {{Flags
+|High-level issues=Merge Candidate
 |Checked_Out=No
+|Editorial notes={{Editorial/Merge_Candidate|Other=/css/properties/font-variant}}
+
+Double Entry (/css/properties/font-variant)
+
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.}}
 {{CSS Property
@@ -28,13 +33,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following examples use the '''font-variant''' attribute and the '''font-variant''' property to change the font to small capitals.
-|Code=&lt;P STYLE{{=}}"font-variant:small-caps"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-variant.htm
+|Language=HTML
+|Description=A simple example to show the effect achieved when small-caps are applied to a text paragraph.
+|Code=<p>I think WebPlatform rocks.</p>
+|LiveURL=http://code.webplatform.org/gist/5716625
 }}{{Single Example
-|Description=This example uses inline scripting to set the font style to '''small-caps''' when an [[dom/events/mousedown|'''onmousedown''']] event occurs.
-|Code=&lt;DIV onmousedown{{=}}"this.style.fontVariant{{=}}'small-caps'"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontVariant.htm
+|Language=CSS
+|Description=The CSS applied to the HTML above.
+|Code=p {
+  font-variant: small-caps;	
+}
 }}
 }}
 {{Notes_Section}}
@@ -45,8 +53,8 @@
 |Status=W3C Candidate Recommendation
 |Relevant_changes=Extends the property (not yet in this entry)
 }}{{Related Specification
-|Name=CSS
-|URL=http://www.w3.org/TR/CSS1/#font-variant
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
 |Status=W3C Recommendation
 }}
 }}
