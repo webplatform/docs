@@ -1,11 +1,12 @@
-{{Page_Title|&#58;&#58;first-line}}
+{{Page_Title|::first-line}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents the first line of an element. Note that the content of the first line varies depending on the available width and the styling of text (size, spacing).}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
@@ -106,12 +107,13 @@ sel
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Elements
+|Topic_clusters=Pseudo-Elements, Selectors
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/selectors/pseudo-elements/::first-letter|::first-letter]]</code>
 }}
