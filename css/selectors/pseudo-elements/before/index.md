@@ -5,11 +5,16 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|<code>::before</code> creates a pseudo-element, which is inserted before the selected element(s). The pseudo-element is inline by default.}}
+{{Summary_Section|<code>::before</code> creates a pseudo-element, which allows you to insert content onto a page from CSS before the selected element(s). The end result isn't actually in the DOM, but it appears on the page as if it is. The pseudo-element is inline by default.}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=p::before {
+  content: 'Hello!';
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -17,11 +22,7 @@ The '''::before''' and [[:css/selectors/pseudo-elements/::after|'''::after''']] 
 The generated content interacts with other boxes as if they were real elements inserted just inside their associated element. The content box of the associated element expands to include the generated content, if necessary.
 In Windows Internet Explorer 8, as well as later versions of Windows Internet Explorer in IE8 Standards mode, only the one-colon form of this pseudo-element is recognized—that is, ''':before'''.
 Beginning with Windows Internet Explorer 9, the '''::before''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::before''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
-|Import_Notes====Syntax===
-
-sel
-::before
-===Parameters===
+|Import_Notes====Parameters===
 ;''sel'':A simple selector.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.3
