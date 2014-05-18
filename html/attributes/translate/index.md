@@ -19,7 +19,17 @@ Overwriting "no" with "yes" is not widely supported by translation services yet.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<syntaxhighlight><p>The national motto of France is <i lang="fr" translate="no">Liberté, Egalité, Fraternité</i> (freedom, equality, brotherhood).</p></syntaxhighlight>
+|Code=<syntaxhighlight><p>The national motto of France is
+<i lang="fr" translate="no">Liberté, Egalité, Fraternité</i>
+(freedom, equality, brotherhood).</p></syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Code=<syntaxhighlight><code translate="no">
+&amp;lt;section id="translate-attribute"&amp;gt;
+&amp;lt;h2&amp;gt;<span translate="yes">The <span translate="no">translate</span> attribute&lt;h2&amp;gt;
+&amp;lt;p&amp;gt;<span translate="yes">The <span translate="no">translate</span> attribute indicates whether the element’s content and attribute values should be translated or not.</span>&amp;lt;/p&amp;gt;
+&amp;lt;/section&amp;gt;
+</code></syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
