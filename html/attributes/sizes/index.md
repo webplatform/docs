@@ -6,10 +6,15 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''sizes''' attribute is an extension of the [[html/elements/img|image element]]. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with '''[[html/attributes/srcset||scrset]]'''}}
+{{Summary_Section|The '''sizes''' attribute is an extension of the [[html/elements/img|image element]]. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with '''[[html/attributes/srcset|scrset]]'''}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
+|Content='''sizes''' attribute is an extension of the of the [[html/elements/img|image element]] and is used to inform the browser which [[srcset]] image reference to render based on the rules set out. Sizes do not provide an instruction to the browser ('must' use 'this' image 'here') but rather 'here is a viewport condition, use the best suited image based on your viewport, device pixel ration along with the width I said the image is going to be.
+
+
+
+    sizes="[media query] [length], [media query] [length] ... etc"
 }}
 {{Examples_Section
 |Not_required=No
