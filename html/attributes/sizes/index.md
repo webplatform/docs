@@ -25,7 +25,11 @@ Lengths can be declared using fixed widths (pixels) or relative units ('''vw''' 
 |Examples={{Single Example
 |Language=HTML
 |Description=Sizes attribute used in conjunction with SRCSET
-|Code=http://codepen.io/justincavery/full/vjAgF/
+|Code=<img 
+ srcset="http://placehold.it/1024x500&text=1024+Large.jpg 1024w, http://placehold.it/600x250&text=600+Medium.jpg 600w, http://placehold.it/300x150&text=500+Small.jpg 500w" 
+ sizes="(min-width:1000px) 33.3vw,(min-widthh:500px) 50vw, 100vw" src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
+     
+     alt="Picture SRCSET" />
 |LiveURL=http://codepen.io/justincavery/full/vjAgF/
 }}
 }}
