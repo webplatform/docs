@@ -1,54 +1,59 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|[[css/properties/transform|Transform]] function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.}}
 {{CSS_Function
-|Content=
+|Content===Syntax==
+'''translate3d( <translation-value-x>, <translation-value-y>, <translation-value-z> )'''
+
+==Parameters==
+'''translation-value-x, translation-value-y, translation-value-z'''
+
+''translation-value-x and translation-value-y represent vector values x and y and can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.
+translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).'' '''Attention:''' ''It can only be a [[css/data_types/length|length]] value, percentage is not supported.''
+
 }}
-{{Topics|CSS}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
-|Description=The following code snippet is an example of the '''translate3d''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
-|LiveURL=
-|Code=
-div {
+|Examples={{Single Example
+|Language=CSS
+|Description=The example shows three div elements, that are transformed individually with the translateY() function.
+
+# The translation of the first element moves it 150 pixels to the right along the x-axis.
+# The second element is moved 120 pixels down along the positive direction of the y-axis.
+# The last translation of element-3 is moving the div 120 pixels in the negative direction of the z-axis. Note that you have to apply a value for the [[css/properties/perspective|perspective]] also, since without it the translation is not visible.
+|Code=div {
   transform: translate3d(20px, -60px, 50px); 
 }
-}}}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-'''translate3d'''
-<code>(''
-&lt;translation-value&gt;
-'' , ''
-&lt;translation-value&gt;
-'' , ''
-&lt;translation-value&gt;
-'')</code>
-===Parameters===
-;''translation-value'':A translation value.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.2
-
-
+}}
+}}
+{{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>Transform Functions</code>
-*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
-*<code>Direct3D: Matrices</code>
-*<code>[http://go.microsoft.com/fwlink/?LinkId{{=}}227893 Hands On: 3-D Transforms]</code>
 |Topic_clusters=Transforms
+|External_links=* [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.2
+* [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]
+* [http://go.microsoft.com/fwlink/?LinkId{{=}}227893 Hands On: 3-D Transforms]
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
