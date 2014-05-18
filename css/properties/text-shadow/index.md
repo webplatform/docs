@@ -107,7 +107,8 @@ The ‘text-shadow’ property applies to both the ::first-line and ::first-lett
 |Note=cap the blur radius at 300 for performance reasons
 }}{{Compatibility Notes Row
 |Browser=Firefox
-|Note=If the <color> value is undefined, Firefox use the elements <code>color</code> value
+|Version=all
+|Note=If the <color> value is undefined, Firefox use the elements <code>[[css/properties/color|<color>]]</code> value
 }}
 }}
 {{See_Also_Section
