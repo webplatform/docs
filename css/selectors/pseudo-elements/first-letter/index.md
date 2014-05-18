@@ -1,19 +1,19 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=Yes
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{CSS_Selector
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The [[css/cssom/properties/background|'''background''']], [[css/properties/border|'''border''']], 
 [[css/properties/border-bottom|'''border-bottom''']], [[css/properties/border-bottom-color|'''border-bottom-color''']], [[css/properties/border-bottom-style|'''border-bottom-style''']], [[css/properties/border-bottom-width|'''border-bottom-width''']], [[css/properties/border-collapse|'''border-collapse''']], [[css/properties/border-color|'''border-color''']], [[css/properties/border-left|'''border-left''']], [[css/properties/border-left-color|'''border-left-color''']], [[css/properties/border-left-style|'''border-left-style''']], [[css/properties/border-left-width|'''border-left-width''']], [[css/properties/border-right|'''border-right''']], [[css/properties/border-right-color|'''border-right-color''']], [[css/properties/border-right-style|'''border-right-style''']], [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-style|'''border-style''']], [[css/properties/border-top|'''border-top''']], [[css/properties/border-top-color|'''border-top-color''']], [[css/properties/border-top-style|'''border-top-style''']], [[css/properties/border-top-width|'''border-top-width''']], [[css/properties/border-width|'''border-width''']], 
 [[css/properties/clear|'''clear''']], [[css/properties/color|'''color''']],
@@ -25,8 +25,7 @@ The '''::first-letter''' pseudo-element can be used to create common typographic
 The '''::first-letter''' pseudo-element can be attached to block-level elements.  It can be attached to inline elements if you set the corresponding [[css/properties/display|'''display''']] property to ''block''.
 In versions of Windows Internet Explorer prior to Windows Internet Explorer 9, as well as in IE8 Standards mode and earlier, only the one-colon form of this pseudo-element is recognized—that is, [[css/selectors/pseudo-elements/::before|''':first-letter''']].
 Beginning with Internet Explorer 9, the [[css/selectors/pseudo-elements/::before|'''::first-letter''']] pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::first-letter''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 
 sel
 ::first-letter
@@ -34,19 +33,27 @@ sel
 ;''sel'':A simple selector.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.2
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Pseudo-Elements, Selectors
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/selectors/pseudo-elements/::first-line|::first-line]]</code>
-|Topic_clusters=Selectors, Pseudo-Elements
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
