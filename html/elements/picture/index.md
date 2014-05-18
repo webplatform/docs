@@ -22,7 +22,7 @@ Other use cases, such as matching media features and media types and matching on
   &lt;source src="test_landscape_1@1x.jpg">
   &lt;source media="(min-width: 480px)" src="test_landscape_1@2x.jpg">
   &lt;source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
-  <!-- fallback img if picture is not supported -->
+  &lt;!-- fallback img if picture is not supported -->
   <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
 </picture>
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
