@@ -16,6 +16,7 @@
 http://static.webplatform.org/w/public/2/2c/svg-no-viewbox.svg
 http://static.webplatform.org/w/public/8/8a/svg-viewbox-preserveaspectratio-none.svg
 http://static.webplatform.org/w/public/a/a6/svg-viewbox-preserveaspectratio-xMaxYMax-meet.svg
+http://static.webplatform.org/w/public/2/29/svg-viewbox-preserveaspectratio-xMaxYMax-slice.svg
 
 {{Topics|SVG}}
 {{Notes_Section
