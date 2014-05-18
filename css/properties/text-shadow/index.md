@@ -9,11 +9,11 @@
 {{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows, outlines, bevels, and other effects to the text of an element.}}
 {{CSS Property
 |Initial value=none
-|Applies to=All elements and generated content
+|Applies to=all elements 
 |Inherited=Yes
 |Media=visual
-|Computed value=as specified
-|Animatable=Yes
+|Computed value=a color plus three absolute lengths
+|Animatable=Yes, as shadow list
 |CSS object model property=textShadow
 |CSS percentages=N/A
 |Values={{CSS Property Value
