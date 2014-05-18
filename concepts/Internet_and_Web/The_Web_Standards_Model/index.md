@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/Internet and Web/The Web Standards Model]]
