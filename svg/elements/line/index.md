@@ -32,7 +32,13 @@
 
 *[http://www.w3.org/TR/SVG11/shapes.html#LineElement Scalable Vector Graphics: Basic Shapes], Section 9.5
 
-===Members===
+===Attributes===
+
+====Global attributes====
+
+====Specific attributes====
+
+===DOM Interface===
 
 The '''SVGLineElement''' object has these events:
 
