@@ -65,7 +65,7 @@ p {
 |Usage=The <code>text-shadow</code> propertie can also be used to draw outlines, bevels, and other effects.
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
 
-The ‘text-shadow’ property applies to both the ::first-line and ::first-letter pseudo-elements.
+The <code>text-shadow</code> property applies to both the [[css/selectors/pseudo-elements/::first-line|<::first-line>]] and [[css/selectors/pseudo-elements/::first-letter|<::first-letter>]] pseudo-elements.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
