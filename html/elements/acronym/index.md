@@ -1,28 +1,22 @@
 {{Page_Title|acronym}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Review
 |Checked_Out=No
-|Editorial notes={{Editorial/Deletion_Candidate | Not compatible in HTML5}}
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The <code>acronym</code> element (&lt;acronym&gt;) indicates an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.
+{{Summary_Section|This element is '''deprecated''' in HTML5, in favor of the [[html/elements/abbr|abbr]] element. It should no longer be used.
 
-The <code>acronym</code> element was deprecated in HTML5 and should no longer be used.
+The <code>acronym</code> element indicated an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The <code>acronym</code> element is a type of phrasing content that exists at the sub-paragraph level. It may not contain block-level elements. 
+|Content=The <code>acronym</code> element was a type of phrasing content that existed at the sub-paragraph level. It may not contain block-level elements. 
 
 An equivalent to this element in HTML5 is the '''<code>[[html/elements/abbr|abbr]]</code>''' element.
 }}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example shows how to use the '''acronym''' element. A <code>title</code> attribute should be included for accessibility.
-|Code=<syntaxhighlight lang="html4strict"><acronym title="North Atlantic Treaty Organization">NATO</acronym></syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/7283566
-}}
+|Not_required=Yes
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -40,7 +34,7 @@ An equivalent to this element in HTML5 is the '''<code>[[html/elements/abbr|abbr
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=Deprecated, HTML
 }}
 {{Topics|HTML}}
 {{External_Attribution
