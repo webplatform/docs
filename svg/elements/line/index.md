@@ -6,23 +6,22 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The line element is an SVG basic shape, used to create a line connecting two points.}}
+{{Summary_Section|The line element defines a line segment interconnecting two points.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=In the following code example, the line element is used to draw a salmon-colored line inside an inline SVG element.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see a salmon-colored line.
-
-It should look like this:
+|Language=Other
+|Description=In the following code example, the line element is used to draw a salmon-colored line.
 |Code=<syntaxhighlight lang="xml">
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" 	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
 <svg width="400" height="400">
   <line x1="50" y1="50" x2="150" y2="150" style="stroke:salmon; stroke-width:10" />
 </svg>
 </syntaxhighlight>
+|LiveURL=http://code.webplatform.org/gist/7170ccf47eb1218d3dd7
 }}
 }}
 {{Notes_Section
