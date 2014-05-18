@@ -14,10 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=In the following code example,  the rect element is used to draw a purple square.
-
 |Code=<syntaxhighlight lang="xml">
-
-       <?xml version="1.0"?>
 <svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <rect x="10" y="5" width="100" height="80" fill="purple" />
 </svg>
