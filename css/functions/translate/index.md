@@ -24,21 +24,14 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following code snippet is an example of the '''translate''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 |Code=div {    
   transform: translate(47px, -38px);
 }
 }}
 }}
-{{Notes_Section
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
-
-
-===Requirements===
-{| class="wikitable"
-|}
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -51,10 +44,9 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
-|Manual_sections====Related pages (MSDN)===
-*<code>Transform Functions</code>
-*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
-*<code>[http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]</code>
+|External_links=* [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
+* [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]
+* [http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]
 }}
 {{Topics|CSS}}
 {{External_Attribution
