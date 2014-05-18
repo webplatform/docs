@@ -14,8 +14,10 @@
 ==Parameters==
 '''translation-value-x, translation-value-y, translation-value-z'''
 
-''translation-value-x and translation-value-y represent vector values x and y and can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.
-translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).'' '''Attention:''' ''It can only be a [[css/data_types/length|length]] value, percentage is not supported.''
+''translation-value-x and translation-value-y represent vector values x and y and can be a [[css/data_types/length|length]] or a [[css/data_types/percentage|percentage]] value.''
+
+''translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).'' 
+'''Attention:''' ''It can only be a [[css/data_types/length|length]] value, percentage is not supported.''
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,8 +28,16 @@ translation-value-z is the third vector value and defines the translation in the
 # The translation of the first element moves it 150 pixels to the right along the x-axis.
 # The second element is moved 120 pixels down along the positive direction of the y-axis.
 # The last translation of element-3 is moving the div 120 pixels in the negative direction of the z-axis. Note that you have to apply a value for the [[css/properties/perspective|perspective]] also, since without it the translation is not visible.
-|Code=div {
-  transform: translate3d(20px, -60px, 50px); 
+|Code=.element-1 {
+	transform: translate3d(150px, 0, 0);
+}
+
+.element-2 {
+	transform: translate3d(0, 120px, 0);
+}
+
+.element-3 {
+	transform: perspective(400) translate3d(0, 0, -120px);
 }
 }}
 }}
