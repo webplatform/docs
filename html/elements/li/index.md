@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The li element represents one list item.}}
+{{Summary_Section|The '''li''' element represents one list item.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLLIElement
 }}
@@ -14,7 +14,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the &lt;li&gt; element to create individual items in an unordered list.
+|Description=This example uses the '''li''' element to create individual items in an unordered list.
 |Code=&lt;ul>
      &lt;li>Art</li>
      &lt;li>History</li>
@@ -25,7 +25,7 @@
 &lt;/ul>
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the &lt;li&gt; element to create individual items in an ordered list.
+|Description=This example uses the '''li''' element to create individual items in an ordered list.
 |Code=&lt;ol>
      &lt;li>First</li>
      &lt;li>Second</li>
@@ -35,9 +35,9 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-The [[html/attributes/type (ul,li,ol elements)|'''TYPE''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
-When the '''LI''' element is absolutely positioned with CSS, the list item marker is not rendered.
-As of Microsoft Internet Explorer 6, the default value of the [[css/properties/display|'''display''']] property for this element is '''list-item'''.
+The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
+When the '''li''' element is absolutely positioned with CSS, the list item marker is not rendered.
+The default value of the [[css/properties/display|'''display''']] property for this element is '''list-item'''.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
