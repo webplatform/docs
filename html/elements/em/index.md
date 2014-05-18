@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Not Neutral
 |Checked_Out=No
 }}
 {{Standardization_Status}}
