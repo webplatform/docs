@@ -1,7 +1,5 @@
 {{Page_Title|::first-letter pseudo-element}}
 {{Flags
-|High-level issues=Data Not Semantic, Unreviewed Import
-|Content=Incomplete
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
