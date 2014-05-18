@@ -37,7 +37,7 @@ United States is located in Washington,
 * When you want to visually-separate abbreviations from other content on the page (using CSS).
 
 In the first two instances, it would make sense to include an expansion of the abbreviation in a '''title''' attribute.
-|Notes=If you use the same abbreviation multiple times in a  document, you might consider using a '''title''' to expand the first instance (perhaps wrapping it in a [[html/dfn|'''dfn''' element]] to mark it as the defining instance) and then leave the '''title''' attribute off of the additional instances. This may provide a better reading experience for assistive technologies, but it should be noted that the instances without '''title''' attributes will not provide the expanded text as each '''abbr''' is independent (expansions are not shared among identical '''abbr'' elements).
+|Notes=If you use the same abbreviation multiple times in a  document, you might consider using a '''title''' to expand the first instance (perhaps wrapping it in a [[html/elements/dfn|'''dfn''' element]] to mark it as the defining instance) and then leave the '''title''' attribute off of the additional instances. This may provide a better reading experience for assistive technologies, but it should be noted that the instances without '''title''' attributes will not provide the expanded text as each '''abbr''' is independent (expansions are not shared among identical '''abbr'' elements).
 }}
 {{Related_Specifications_Section
 |Specifications=
