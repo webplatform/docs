@@ -16,7 +16,7 @@ Further reading: [http://www.w3.org/International/questions/qa-i18n Localization
 ==Characters, fonts==
 Use UTF-8 as character encoding—in each part of your system (web pages, form submission, data base). This allows you and the users of your site to use each Unicode character [http://www.w3.org/International/questions/qa-escapes#not without escaping].
 
-Declare the character encoding in your pages using a meta element with a charset attribute in HTML5. Because the encoding declaration must be fit within the first 1024 bytes of your HTML file it should be at the top of the head element:
+Declare the character encoding in your pages using a meta element with a [[html/attributes/charset charset attribute]] in HTML5. Because the encoding declaration must be fit within the first 1024 bytes of your HTML file it should be at the top of the head element:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="…">
