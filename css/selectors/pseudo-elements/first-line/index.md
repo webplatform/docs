@@ -13,6 +13,8 @@
 |Language=CSS
 |Code=::first-line {}
 }}
+===Usage===
+The ::first-line pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding display property to block.
 }}
 {{Examples_Section
 |Not_required=No
@@ -31,28 +33,24 @@ The [[css/cssom/properties/background|'''background''']], [[css/properties/clear
 [[css/properties/font-family|'''font-family''']], [[css/properties/font-size|'''font-size''']], [[css/properties/font-style|'''font-style''']], [[css/fonts/font-variant|'''font-variant''']], [[css/properties/font-weight|'''font-weight''']], 
 [[css/properties/line-height|'''line-height''']], [[css/properties/text-decoration|'''text-decoration''']], 
 [[css/properties/text-transform|'''text-transform''']], [[css/properties/vertical-align|'''vertical-align''']], and [[css/text/word-spacing/word-spacing|'''word-spacing''']] properties apply to the '''::first-line''' pseudo-element.
-The length of the first line depends on a number of factors, such as the width of the document and the font size.
-The '''::first-line''' pseudo-element can be attached to block-level elements. It can be attached to inline elements if you set the corresponding [[css/properties/display|'''display''']] property to ''block''.
-In versions of Windows Internet Explorer prior to Windows Internet Explorer 9, as well as in IE8 Standards mode and earlier, only the one-colon form of this pseudo-element is recognized—that is, ''':first-line'''.
-Beginning with Internet Explorer 9, the '''::first-line''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form. Microsoft and the World Wide Web Consortium (W3C) encourage web authors to use the two-colon form of the '''::first-line''' pseudo-element. For more information, see the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241611 Pseudo-elements] section of the W3C's [http://go.microsoft.com/fwlink/p/?LinkId{{=}}241612 CSS3 Selectors] specification.
-|Import_Notes====Syntax===
 
-sel
-::first-line
-===Parameters===
-;''sel'':A simple selector.
-===Standards information===
+
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.1
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=< 9
+|Note=Only the one-colon form of this pseudo-element is recognized—that is, ''':first-line'''. Beginning with Internet Explorer 9, the '''::first-line''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Elements, Selectors
