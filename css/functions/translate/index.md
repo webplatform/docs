@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A 2d transition which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.}}
+{{Summary_Section|[[css/properties/transform|Transform]] function for a 2d transition which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.}}
 {{CSS_Function
 |Content===Syntax==
 * '''translate ( translation-value-x )'''
