@@ -1,4 +1,4 @@
-{{Page_Title|applet -- obsolete}}
+{{Page_Title|applet – obsolete}}
 {{Flags
 |Checked_Out=No
 }}
