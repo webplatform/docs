@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The line element defines a line segment interconnecting two points.}}
+{{Summary_Section|The line element creates a line segment interconnecting two points.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
@@ -21,7 +21,7 @@
   <line x1="50" y1="50" x2="150" y2="150" style="stroke:salmon; stroke-width:10" />
 </svg>
 </syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/7170ccf47eb1218d3dd7
+|LiveURL=http://code.webplatform.org/gist/9e2c858dc34a018a483d018a483d
 }}
 }}
 {{Notes_Section
