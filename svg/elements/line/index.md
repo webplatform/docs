@@ -21,7 +21,7 @@
   <line x1="50" y1="50" x2="150" y2="150" stroke="salmon" stroke-width="10" />
 </svg>
 </syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/9e2c858dc34a018a483d018a483d
+|LiveURL=http://code.webplatform.org/gist/9e2c858dc34a018a483d
 }}
 }}
 {{Notes_Section
