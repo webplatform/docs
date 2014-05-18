@@ -1,0 +1,1 @@
+#REDIRECT [[Beginners/zh]]
