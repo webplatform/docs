@@ -28,12 +28,10 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
 |Description=The following examples use the '''font-variant''' attribute and the '''font-variant''' property to change the font to small capitals.
 |Code=&lt;P STYLE{{=}}"font-variant:small-caps"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/font-variant.htm
 }}{{Single Example
-|Language=CSS
 |Description=This example uses inline scripting to set the font style to '''small-caps''' when an [[dom/events/mousedown|'''onmousedown''']] event occurs.
 |Code=&lt;DIV onmousedown{{=}}"this.style.fontVariant{{=}}'small-caps'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/fontVariant.htm
