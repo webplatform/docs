@@ -38,9 +38,14 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
  123.45600
 }}
 }}
-{{Remarks_Section}}
+{{Remarks_Section
+|Remarks=
+===Throws===
+
+[[javascript/Error|<code>RangeError</code>] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
+}}
 {{Notes_Section
-|Notes=<code>toFixed(-1)</code> and <code>toFixed(21)</code> will throw [[javascript/Error|'''RangeError''']] and <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
+|Notes= <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
@@ -48,6 +53,7 @@ If fractionDigits is not supplied or '''undefined''' , the default value is 0.
 |Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
 * [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
 * [[javascript/Number/toString{{!}}toString Method (Number)]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed toFixed(), by Mozilla Developer Network]
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5 15.7.4.5 Number.prototype.toFixed(fractionDigits)]
 
