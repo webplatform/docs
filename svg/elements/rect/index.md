@@ -53,61 +53,14 @@
 
 ====Specific attributes====
 
-*[[svg/attributes/x1|'''x1''']]
-*[[svg/attributes/x2|'''x2''']]
-*[[svg/attributes/y1|'''y1''']]
-*[[svg/attributes/y2|'''y2''']]
+*[[svg/attributes/x|'''x''']]
+*[[svg/attributes/y|'''y''']]
+*[[svg/attributes/width|'''width''']]
+*[[svg/attributes/height|'''height''']]
 
 ===DOM Interface===
 
-Attributes of '''SVGRectElement''':
-
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
-*[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-*[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
-*[[svg/attributes/fill|'''fill''']]: Sets or retrieves a value that indicates the color to paint the interior of the given graphical element.
-*[[svg/attributes/fill-opacity|'''fillOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to paint the interior of the current object.
-*[[svg/attributes/fill-rule|'''fillRule''']]: Sets or retrieves a value that indicates the algorithm that is to be used to determine what parts of the canvas are included inside the shape.
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-
-*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
-*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-*[[svg/attributes/pointers|'''pointerEvents''']]: Sets or retrieves a value that specifies under what circumstances a given graphics element can be the target element for a pointer event in SVG.
-*[[svg/attributes/stroke|'''stroke''']]: Sets or retrieves a value that indicates the color to paint along the outline of a given graphical element.
-*[[svg/attributes/stroke-dasharray|'''strokeDasharray''']]: Sets or retrieves one or more values that indicate the pattern of dashes and gaps used to stroke paths.
-*[[svg/attributes/stroke-dashoffset|'''strokeDashoffset''']]: Sets or retrieves a value that specifies the distance into the dash pattern to start the dash.
-*[[svg/attributes/stroke-linecap|'''strokeLinecap''']]: Sets or retrieves a value that specifies the shape to be used at the end of open subpaths when they are stroked.
-*[[svg/attributes/stroke-linejoin|'''strokeLinejoin''']]: Sets or retrieves a value that specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
-*[[svg/attributes/stroke-miterlimit|'''strokeMiterlimit''']]: Sets or retrieves a value that indicates the limit on the ratio of the length of miter joins (as specified in the [[svg/attributes/stroke-linejoin|'''strokeLinejoin''']] property).
-*[[svg/attributes/stroke-opacity|'''strokeOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to stroke the current object.
-*[[svg/attributes/stroke-width|'''strokeWidth''']]: Sets or retrieves a value that specifies the width of the stroke on the current object.
-
-*[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-
-The '''SVGRectElement''' object has these events:
-
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
-
-The '''SVGRectElement''' object has these methods:
-
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
+This element implements the [[dom/SVGRectElement|'''SVGRectElement''']] interface.
 }}
 {{Related_Specifications_Section
 |Specifications=
