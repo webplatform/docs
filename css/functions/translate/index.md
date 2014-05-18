@@ -12,7 +12,7 @@
 * '''translate ( translation-value-x )'''
 * '''translate ( translation-value-x, translate-value-y )'''
 
-==Values==
+==Parameters==
 '''translation-value-x'''
 
 ''Value for the translation across the x-axis. Can be a [[css/data_types/length|length]] value or a [[css/data_types/percentage|percentage]] value. Value for the y-axis translation is assumed to be zero.''
