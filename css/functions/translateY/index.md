@@ -8,10 +8,10 @@
 {{API_Name}}
 {{Summary_Section|[[css/properties/transform|Transform]] function for a 2d translation which moves an element on the y-axis by the given value. Note that the y-axis increases vertically downwards: positive lengths shift the element down, while negative lengths shift it up.}}
 {{CSS_Function
-|Content====Syntax===
+|Content===Syntax==
 '''translateY( <translation-value> )'''
 
-===Parameters===
+==Parameters==
 '''translation-value'''
 
 ''Value for the translation across the y-axis. Can be a [[css/data_types/length|length]]  or a [[css/data_types/percentage|percentage]] value.''
