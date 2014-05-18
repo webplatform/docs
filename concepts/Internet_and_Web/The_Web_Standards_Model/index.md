@@ -1,4 +1,4 @@
-{{Page_Title|The web standards model — HTML CSS and JavaScript}}
+{{Page_Title|The Web Standards Model — HTML, CSS and JavaScript}}
 {{Flags
 |Checked_Out=No
 }}
