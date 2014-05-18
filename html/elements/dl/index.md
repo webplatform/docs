@@ -1,21 +1,19 @@
 {{Page_Title|dl – description list}}
 {{Flags
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name|dl}}
-{{Summary_Section|The <code>&lt;dl&gt;</code> element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements.}}
+{{Summary_Section|The '''dl''' element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|'''dt''']] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|'''dd''']] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDListElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
 <td style{{=}}"vertical-align: top; padding-top: 10px">One of the following:
-* Either: Zero or more groups each consisting of one or more [[html/elements/dt|<code>&lt;dt&gt;</code>]] elements followed by one or more [[html/elements/dt|<code>&lt;dd&gt;</code>]] elements.
-* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element.
-* Or: A [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dt|<code>&lt;dt&gt;</code>]] element, followed by zero or more [[html/elements/template|<code>&lt;template&gt;</code>]], [[html/elements/dt|<code>&lt;dt&gt;</code>]], and [[html/elements/dd|<code>&lt;dd&gt;</code>]] elements, followed by a [[html/elements/template|<code>&lt;template&gt;</code>]] element or a [[html/elements/dd|<code>&lt;dd&gt;</code>]] element.</td>
+* Either: Zero or more groups each consisting of one or more [[html/elements/dt|'''dt''']] elements followed by one or more [[html/elements/dt|'''dd''']] elements.
+* Or: A [[html/elements/template|'''template''']] element.
+* Or: A [[html/elements/template|'''template''']] element or a [[html/elements/dt|'''dt''']] element, followed by zero or more [[html/elements/template|'''template''']], [[html/elements/dt|'''dt''']], and [[html/elements/dd|'''dd''']] elements, followed by a [[html/elements/template|'''template''']] element or a [[html/elements/dd|'''dd''']] element.</td>
 </tr>
 <tr>
 <th id="permitted-parents">Permitted&#160;parents</th>
@@ -23,17 +21,17 @@
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
-<td>A <code>&lt;dl&gt;</code> element must have both a start tag and an end tag.</td>
+<td>A '''dl''' element must have both a start tag and an end tag.</td>
 </tr>
 </table>
 
-The <code>&lt;dl&gt;</code> element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
+The '''dl''' element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
 
-A description list is always wrapped by a single <code>&lt;dl&gt;</code> element. Inside that element you can place any number of child '''description items''' — the items to be described or defined — inside <code>&lt;dt&gt;</code> elements, and '''description definitions''' — the description or definition of the specified items — inside <code>&lt;dd&gt;</code> elements.
+A description list is always wrapped by a single '''dl''' element. Inside that element you can place any number of child [[html/elements/dt|'''description topics''']], inside '''dt''' elements, and [[html/elements/dd|'''description definitions''']] — the description or definition of the specified terms or topics — inside '''dd''' elements.
 
 It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
 
-The items should always be placed before the descriptions.
+The topics should always be placed before the descriptions.
 
 A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
 }}
@@ -41,7 +39,7 @@ A description list is not used as commonly as other types of list, except in jou
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The example shows a simple definition list with two item/description pairs.
+|Description=This example shows a simple definition list with two item/description pairs.
 |Code=&lt;dl&gt;
   &lt;dt&gt;Coffee&lt;/dt&gt;
   &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
@@ -51,7 +49,7 @@ A description list is not used as commonly as other types of list, except in jou
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=HTML
-|Description=The example shows a definition list with a single item but multiple descriptions for that item.
+|Description=This example shows a definition list with a single item but multiple descriptions for that item.
 |Code=&lt;dl&gt;
   &lt;dt&gt;Coffee&lt;/dt&gt;
   &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
@@ -61,7 +59,7 @@ A description list is not used as commonly as other types of list, except in jou
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=HTML
-|Description=The example shows a definition list with a single description and multiple items fitting that description.
+|Description=This example shows a definition list with a single description and multiple items fitting that description.
 |Code=&lt;dl&gt;
   &lt;dt&gt;Coffee&lt;/dt&gt;
   &lt;dt&gt;Tea&lt;/dt&gt;
@@ -71,7 +69,7 @@ A description list is not used as commonly as other types of list, except in jou
 |LiveURL=http://code.webplatform.org/gist/5821157
 }}{{Single Example
 |Language=CSS
-|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
+|Description=Typical browser default CSS properties for the '''dl''' element.
 |Code=display: block;
 margin-top: 16px;
 margin-bottom: 16px;
@@ -98,11 +96,17 @@ margin-bottom: 16px;
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Manual_links=* [[html/elements/dir|<code>dir</code>]]
+* [[html/elements/menu|<code>menu</code>]]
+* [[html/elements/ol|<code>ol</code>]]
+* [[html/elements/ul|<code>ul</code>]]
+* [[html/elements/li|<code>li</code>]]
+* [[html/elements/dt|<code>dt</code>]]
+* [[html/elements/dd|<code>dd</code>]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dl Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535241%28v=vs.85%29.aspx Microsoft Developer Network]
 }}
-{{Topics}}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
