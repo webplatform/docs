@@ -1,6 +1,7 @@
 {{Page_Title|break-before}}
 {{Flags
-|Checked_Out=No
+|Content=Cleanup
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
