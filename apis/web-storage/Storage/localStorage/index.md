@@ -60,7 +60,7 @@ clearStorageHandler = function () {
 document.getElementById('set-local').addEventListener('click', valueSetHandler);
 document.getElementById('get-local').addEventListener('click', valueGetHandler);
 document.getElementById('clear').addEventListener('click', clearStorageHandler);
-|LiveURL=<!-- Fields to store a key/value pair (item) in localStorage --> <section>     <label for="key">Key:</label>     <input type="text" id="key" value="r2d2">     <br>     <label for="value">Value:</label>     <input type="text" id="value" value="C-3PO">     <br>     <button type="button" id="set-local">Save to localStorage</button> </section> <hr> <!-- Fields to get a key/value pair (item) from localStorage --> <section>     <label for="get-key">Key:</label>     <input type="text" id="get-key" value="r2d2">     <button type="button" id="get-local">Get from localStorage</button>     <output id="output"></output> </section> <hr> <!-- Button to clear the localStorage for this Domain --> <section>     <button type="button" id="clear">Clear localStorage</button> </section>
+|LiveURL=
 }}
 }}
 {{Notes_Section
