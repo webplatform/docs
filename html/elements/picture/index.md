@@ -26,7 +26,7 @@ The picture element is not a general replacement for the img element. When there
 |Specifications={{Related Specification
 |Name=Picture Specification (official, by RICG)
 |URL=http://picture.responsiveimages.org/
-|Status=Editor’s Draft
+|Status=Living Standard
 }}
 }}
 {{Compatibility_Section
