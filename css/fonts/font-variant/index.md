@@ -3,9 +3,6 @@
 |High-level issues=Merge Candidate
 |Checked_Out=No
 |Editorial notes={{Editorial/Merge_Candidate|Other=/css/properties/font-variant}}
-
-Double Entry (/css/properties/font-variant)
-
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
