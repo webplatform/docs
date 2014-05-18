@@ -35,8 +35,25 @@
 ===Attributes===
 
 ====Global attributes====
+*[[svg/attributes#Conditional_processing_attributes|'''Conditional processing attributes''']]
+*[[svg/attributes#Core_attributes|'''Core attributes''']]
+*[[svg/attributes#Graphical_event_attributes|'''Graphical events attributes''']]
+*[[svg/attributes#Presentation_attributes|'''Presentation attributes''']]
+
+*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
+
 
 ====Specific attributes====
+
+Specific attributes of '''SVGRectElement''':
+
+*[[svg/properties/width|'''width''']]: Defines the width of an element.
+*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
+*[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
+*[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
 
 ===DOM Interface===
 
