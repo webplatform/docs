@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/Internet and Web/how does the internet work/ja]]
