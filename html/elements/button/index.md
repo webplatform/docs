@@ -4,13 +4,13 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''button''' element (button) represents a  button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
+{{Summary_Section|The '''button''' element represents a clickable button.|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLButtonElement
-|Content=If the element is not disabled, then the user agent should allow the user to activate the button. Inside a '''button''' element you can put content, like text or images. 
+|Content=You can put text or images inside a button element. If the element is not disabled, the user can activate the button.
 
-The '''button''' element can be used as submit button to send [[html/elements/form|'''form''']] data to the server. This is the default behavior when the type attribute is not specified. 
+By default, the button element is used to submit [[html/elements/form|'''form''']] data. Modifying the type attribute can change this behavior.
 
 ===Attributes (HTML 4)===
 <dl>
@@ -27,7 +27,7 @@ The '''button''' element can be used as submit button to send [[html/elements/fo
 <dt>value</dt>
 <dd>The initial value of the button.</dd>
 <dt>disabled</dt>
-<dd>This Boolean attribute indicates that the user cannot interact with the button. If this attribute is not specified, the button inherits its setting from the containing element, for example '''fieldset''' if there is no containing element with the disabled attribute set, then the button is enabled. A disabled button won't be clickable.</dd>
+<dd>This Boolean attribute indicates that the user cannot interact with the button. If this attribute is not specified, the button inherits its setting from the containing element, for example '''fieldset''' if there is no containing element with the disabled attribute set, then the button is enabled. A disabled button isn’t clickable.</dd>
 </dl>
 
 ===Additional attributes (HTML 5, candidate specification)===
