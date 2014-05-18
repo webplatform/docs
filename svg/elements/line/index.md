@@ -47,12 +47,10 @@
 
 ====Specific attributes====
 
-Specific attributes of '''SVGRectElement''':
-
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
-*[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
+*[[svg/attributes/x1|'''x1''']]
+*[[svg/attributes/x2|'''x2''']]
+*[[svg/attributes/y1|'''y1''']]
+*[[svg/attributes/y2|'''y2''']]
 
 ===DOM Interface===
 
