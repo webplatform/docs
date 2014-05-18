@@ -20,6 +20,8 @@ In this course, you will be writing a lot of code, and testing it out in web bro
 ** Mac OS
 ***[http://www.apple.com/safari/ Safari].
 
+If you want to test older versions of these browsers or cannot install them on your computer you can use (cross-) browser testing services such as [http://www.browserstack.com/ BrowserStack] (commercial), [http://browsershots.org/ Browsershots] (Screenshots only), [http://crossbrowsertesting.com/ CrossBrowserTesting] (commercial), or [https://saucelabs.com/ SauceLabs] (free and commercial plans). They will render your pages on many different browser version (including mobile browsers).
+
 * A decent text editor. Reasonable free options are 
 ** All Platforms
 <!--
