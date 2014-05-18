@@ -14,8 +14,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''q''' element to set apart a quotation in text.
-|Code=<p>Chicken Little: <q>The sky is falling…
-the sky is falling… <em>the sky is falling!</em></q></p>
+|Code=&lt;p>Chicken Little: &lt;q>The sky is falling…
+the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/q>&lt;/p>
 }}
 }}
 {{Notes_Section
