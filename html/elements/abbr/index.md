@@ -20,11 +20,9 @@ A '''abbr''' element may optionally have a [[html/attributes/title|'''title''' a
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example shows how to use the '''abbr''' element with an optional [[html/attributes/title|'''title''']] attribute.
-|Code=<syntaxhighlight lang="html5">
-<p>The national capital of the 
+|Code=&lt;p>The national capital of the 
 United States is located in Washington, 
-<abbr title="District of Columbia">D.C.</abbr>.</p>
-</syntaxhighlight>
+&lt;abbr title="District of Columbia">D.C.&lt;/abbr>.&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/939206
 }}
 }}
