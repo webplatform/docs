@@ -33,30 +33,16 @@ The arc of a '''circle''' element begins at the 3 o'clock point on the radius an
 
 ===Members===
 
-The '''SVGCircleElement''' object has these events:
-
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
-
-The '''SVGCircleElement''' object has these methods:
-
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
-
 Specific attributes of '''SVGCircleElement''':
 
 *[[svg/properties/cx|'''cx''']]: Gets or sets  the x-coordinate of the center of a circle or an ellipse.
 *[[svg/properties/cy|'''cy''']]: Gets or sets  the y-coordinate of the center of a circle or an ellipse.
 *[[svg/properties/r|'''r''']]: Gets or sets the radius of a circle.
 
-The '''SVGCircleElement''' object has these properties:
+Global attributes of '''SVGCircleElement''':
 
 *[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
 *[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
-*[[svg/properties/cx|'''cx''']]: Gets or sets  the x-coordinate of the center of a circle or an ellipse.
-*[[svg/properties/cy|'''cy''']]: Gets or sets  the y-coordinate of the center of a circle or an ellipse.
 *[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
 *[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
 *[[svg/attributes/fill|'''fill''']]: Sets or retrieves a value that indicates the color to paint the interior of the given graphical element.
@@ -67,7 +53,6 @@ The '''SVGCircleElement''' object has these properties:
 *[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
 *[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
 *[[svg/attributes/pointers|'''pointerEvents''']]: Sets or retrieves a value that specifies under what circumstances a given graphics element can be the target element for a pointer event in SVG.
-*[[svg/properties/r|'''r''']]: Gets or sets the radius of a circle.
 *[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
 *[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
 *[[svg/attributes/stroke|'''stroke''']]: Sets or retrieves a value that indicates the color to paint along the outline of a given graphical element.
@@ -85,6 +70,18 @@ The '''SVGCircleElement''' object has these properties:
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
+
+The '''SVGCircleElement''' object has these events:
+
+*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+
+The '''SVGCircleElement''' object has these methods:
+
+*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
+*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
+*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
+*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
+*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
