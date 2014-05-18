@@ -4,7 +4,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.}}
 {{Markup_Element
@@ -63,6 +63,7 @@ This element implements the [[dom/SVGRectElement|'''SVGRectElement''']] interfac
 |Specifications={{Related Specification
 |Name=The ‘rect’ element
 |URL=http://www.w3.org/TR/SVG11/shapes.html#RectElement
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
