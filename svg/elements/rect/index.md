@@ -48,19 +48,19 @@
 *[[svg/attributes#Graphical_Event_Attributes|'''Graphical events attributes''']]
 *[[svg/attributes#Presentation_Attributes|'''Presentation attributes''']]
 
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
+*[[svg/attributes/style|'''style''']]
+*[[svg/attributes/class|'''class''']]
 
 ====Specific attributes====
 
 Specific attributes of '''SVGRectElement''':
 
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
-*[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
+*[[svg/attributes/width|'''width''']]: Defines the width of an element.
+*[[svg/attributes/height|'''height''']]: Gets or sets  the height of an element.
+*[[svg/attributes/x|'''x''']]: Gets or sets the x-coordinate value.
+*[[svg/attributes/y|'''y''']]: Gets or sets the y-coordinate value.
+*[[svg/attributes/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
+*[[svg/attributes/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
 
 ===DOM Interface===
 
