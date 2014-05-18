@@ -52,7 +52,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====External resources===
 * [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 * [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]
 * [http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]
