@@ -15,6 +15,42 @@
 {{Notes_Section
 |Usage====Attribute Listing (by Category)===
 
+==== Animation Event Attributes ====
+These attributes are used to capture animation events.
+
+[[svg/attributes/onbegin | onbegin]]
+[[svg/attributes/onend | onend]]
+[[svg/attributes/onload | onload]]
+[[svg/attributes/onrepeat | onrepeat]]
+
+==== Animation Attribute Target Attributes ====
+[[svg/attributes/attributeType | attributeType]]
+[[svg/attributes/attributeName | attributeName]]
+
+==== Animation Timing Attributes ====
+[[svg/attributes/begin | begin]]
+[[svg/attributes/dur | dur]]
+[[svg/attributes/end | end]]
+[[svg/attributes/min | min]]
+[[svg/attributes/max | max]]
+[[svg/attributes/restart | restart]]
+[[svg/attributes/repeatCount | repeatCount]]
+[[svg/attributes/repeatDur | repeatDur]]
+[[svg/attributes/fill | fill]]
+
+==== Animation Value Attributes ====
+[[svg/attributes/calcMode | calcMode]]
+[[svg/attributes/values | values]]
+[[svg/attributes/keyTimes | keyTimes]]
+[[svg/attributes/keySplines | keySplines]]
+[[svg/attributes/from | from]]
+[[svg/attributes/to | to]]
+[[svg/attributes/by | by]]
+
+==== Animation Addition Attributes ====
+[[svg/attributes/additive | additive]]
+[[svg/attributes/accumulate | accumulate]]
+
 ==== Conditional Processing Attributes ====
 [[svg/attributes/requiredExtensions | requiredExtensions]]
 [[svg/attributes/requiredFeatures | requiredFeatures]]
@@ -28,15 +64,7 @@ These attributes can be specified on any SVG element.
 [[svg/attributes/xml:lang | xml:lang]]
 [[svg/attributes/xml:space | xml:space]]
 
-===== Animation Event Attributes =====
-These attributes are used to capture animation events.
-
-[[svg/attributes/onbegin | onbegin]]
-[[svg/attributes/onend | onend]]
-[[svg/attributes/onload | onload]]
-[[svg/attributes/onrepeat | onrepeat]]
-
-===== Document Event Attributes =====
+==== Document Event Attributes ====
 These attributes are used to capture document events.
 
 [[svg/attributes/onabort | onabort]]
@@ -46,7 +74,14 @@ These attributes are used to capture document events.
 [[svg/attributes/onunload | onunload]]
 [[svg/attributes/onzoom | onzoom]]
 
-===== Graphical Event Attributes =====
+==== Filter primitive Attributes ====
+[[svg/attributes/height | height]]
+[[svg/attributes/result | result]]
+[[svg/attributes/width | width]]
+[[svg/attributes/x | x]]
+[[svg/attributes/y | y]]
+
+==== Graphical Event Attributes ====
 These attributes are used to capture interaction events.
 
 [[svg/attributes/onactivate | onactivate]]
@@ -121,6 +156,15 @@ These attributes are used to capture interaction events.
 [[svg/attributes/visibility | visibility]]
 [[svg/attributes/word-spacing | word-spacing]]
 [[svg/attributes/writing-mode | writing-mode]]
+
+==== Transfer Function Attributes ====
+[[svg/attributes/type | type]]
+[[svg/attributes/tableValues | tableValues]]
+[[svg/attributes/slope | slope]]
+[[svg/attributes/intercept | intercept]]
+[[svg/attributes/amplitude | amplitude]]
+[[svg/attributes/exponent | exponent]]
+[[svg/attributes/offset | offset]]
 
 ==== XLink Attributes ====
 These attributes can be used for cross-links ("x"-links).
