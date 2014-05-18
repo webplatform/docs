@@ -58,7 +58,17 @@ String(number) => string (KEIN new davor!)
 {{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
+* [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
+* [[javascript/Number/toFixed{{!}}toFixed Method (Number)]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2 Number.prototype.toString(fractionDigits)]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
+}}
 {{JS Topics
 |JS Page Type=JS Function
 |Applies to=Number
