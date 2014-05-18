@@ -86,11 +86,13 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 }}
 }}
 {{Notes_Section
-|Usage=Use via the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' provided by [[apis/web-storage/Storage]]
+|Usage=Use via the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' provided by [[apis/web-storage/Storage]].
+
+Listen to the storage event on [[dom/window]] to catch changes in the storage (example: http://jsfiddle.net/A6tuM/1/).
 |Notes=The '''localStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 |Import_Notes=The amount of storage is limited by the browser on a per location basis (e.g. per domain). An error message is thrown, when the quota is exceed. 
 
-See for an example of the error message here (the example shows the error message for when the [[apis/web-storage/Storage/sessionStorage|sessionStorage]] quota is exceeded. The behavior is similar for localStorage): http://jsfiddle.net/wkDc6/1/ 
+See for an example of the error message here (the example shows the error message for when the [[apis/web-storage/Storage/sessionStorage|sessionStorage]] quota is exceeded. The behavior is similar for localStorage): http://jsfiddle.net/wkDc6/1/
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
