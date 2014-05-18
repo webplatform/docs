@@ -64,11 +64,9 @@ For a value that can not be converted to a number, the <code>Number()</code> fun
 Only basic types such as strings and boolean values can be converted to numbers. Note, however, that a string can be converted to a number only if it is a numeric string:
 
 <syntaxhighlight lang="javascript">
-<code>
 Number("123"); // 123
 Number("foo"); // NaN
 Number("123foo"); // NaN
-</code>
 </syntaxhighlight>
 
 ''''Integer range''
@@ -76,11 +74,9 @@ Biggest int possible is 9007199254740992.
 Smallest int possible is -9007199254740992.
 
 <syntaxhighlight lang="javascript">
-<code>
 var biggestInt = Math.pow(2, 53); // 9007199254740992
 console.log(biggestInt  + 1 === 9007199254740992) ;
 console.log(biggestInt  + 2 === 9007199254740994) ;
-</code>
 </syntaxhighlight>
 
 '''Octals and Hexadecimals'''
