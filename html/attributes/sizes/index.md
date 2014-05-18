@@ -14,7 +14,11 @@
 
 
 
-    sizes="[media query] [length], [media query] [length] ... etc"
+    sizes="[media query] [length], [media query] [length]"
+
+Lengths can be declared using fixed widths (pixels) or relative units ('''vw''' or viewport width).  When declaring '''sizes''' it is recommended that the final '''vw''' unit be declared as 100vw to cover all of the '''sizes''' you do not consider.
+
+    sizes="(min-width:30em) 300px, (min-width:60em) 500px, 100vw"
 }}
 {{Examples_Section
 |Not_required=No
@@ -26,7 +30,9 @@
 }}
 }}
 {{Notes_Section
-|Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset]]'''. The
+|Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset|scrset]]'''.
+|Notes=It is recommended that the final sizes value is 
+   sizes="[first sizes], [second to last sizes], 100vw"
 }}
 {{Related_Specifications_Section
 |Specifications=
