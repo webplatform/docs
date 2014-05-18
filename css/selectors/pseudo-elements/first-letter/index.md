@@ -56,20 +56,16 @@ The following properties apply to the ::first-letter pseudo-element.
 |Code=p::first-letter {
    font-size: 200%;
 }
+|LiveURL=https://code.webplatform.org/gist/6cbbb246cdbcf6c2bfaf
 }}{{Single Example
 |Language=CSS
 |Description=The following CSS will create a drop capital spanning about two lines.
 |Code=p::first-letter {
-   font-size: 2.5em;
-   float: left;
+    float: left;
+    font-size: 300%;
 }
-}}{{Single Example
-|Language=HTML
-|Code=<article>
-<p>Text text text text text. Text text text text text text text . Text text text text. </p>
-<p>Text text text text text. Text text text text text text text . Text text text text. </p>
-<p>Text text text text text. Text text text text text text text . Text text text text. </p>
-</article>
+
+|LiveURL=https://code.webplatform.org/gist/5257e9b2d1e11631d608
 }}
 }}
 {{Notes_Section}}
