@@ -6,10 +6,10 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows, outlines, bevels, and other effects to the text of an element.}}
+{{Summary_Section|The CSS <code>text-shadow</code> property applies one or more drop shadows to the text and <code>[[/css/properties/text-decoration|<text-decoration>]]</code> of an element. Each shadow is specified as an offset from the text, along with optional color and blur radius values.}}
 {{CSS Property
 |Initial value=none
-|Applies to=all elements 
+|Applies to=all elements
 |Inherited=Yes
 |Media=visual
 |Computed value=a color plus three absolute lengths
@@ -62,7 +62,10 @@ p {
 }}
 }}
 {{Notes_Section
+|Usage=The <code>text-shadow</code> propertie can also be used to draw outlines, bevels, and other effects.
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
+
+The ‘text-shadow’ property applies to both the ::first-line and ::first-letter pseudo-elements.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -98,7 +101,14 @@ p {
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Firefox
+|Version=4.0 and later
+|Note=cap the blur radius at 300 for performance reasons
+}}{{Compatibility Notes Row
+|Browser=Firefox
+|Note=If the <color> value is undefined, Firefox use the elements <code>color</code> value
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Text
