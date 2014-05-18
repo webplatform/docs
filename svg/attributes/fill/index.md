@@ -3,27 +3,40 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 |Checked_Out=Yes
-|Editorial notes=No clear examples.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Please refer to http://docs.webplatform.org/wiki/css/properties/fill}}
+{{Summary_Section|The attribute fill specifies the filling color or the behavior of an animation after it has finished.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
+|Content==== Context: Shapes and Text ===
+Fill defines the color of a surface of text or a shape.
+
+==== Syntax ====
+ '''fill:''' none {{!}} currentColor {{!}} funciri {{!}} inherit
+
+
+This attribute has a corresponding [[css/properties/fill | CSS property]].
+
+===Standards information===
+
+*[http://www.w3.org/TR/SVG11/painting.html Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
+
+
+=== Context: Animation Elements ===
+Fill specifies if after an animation the animated value should be preserved or removed from the element.
+
+====Syntax====
+ '''fill:''' remove {{!}} freeze
+
+
+
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-
- '''fill: '''none '''{{!}}''' currentColor '''{{!}}''' funciri '''{{!}}''' inherit
-
-===Standards information===
-
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
