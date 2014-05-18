@@ -16,7 +16,7 @@
 {{See_Also_Section
 |External_links=http://www.w3.org/TR/orientation-event/
 }}
-{{Topics}}
+{{Topics|API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
