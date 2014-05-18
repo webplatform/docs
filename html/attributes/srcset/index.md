@@ -6,30 +6,30 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|'''srcset''' can be included along with the [[src_(input,_img)|src]] attribute and provides information to the browser to help decide the most appropriate image to load.}}
+{{Summary_Section|The '''srcset''' attribute is an extension of the [[html/elements/img|image element]]. It provides  additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
-|Content=An attribute of the image element 'srcset' allows you to inform the browser information about the image before it begins to prefetch the image.
+|Content=An attribute of the [[html/elements/img|image element]] element, '''srcset''' provides webpages the ability to inform the browser on size and pixel density information about the image before it begins the prefetch process.
 
-The `srcset` sytax works by submitting the preferred size of the image with the corresponding viewport `sizes` informing the browser when to show them, or by just submitting the target device pixel ratio .
-
-## SRCSET with device pixel ration only
+'''srcset''' submits the preferred size of the image with the corresponding viewport '''[[html/attributes/sizes|sizes]]''' informing the browser when to show them, or by just submitting the target device pixel ratio .
 
 Targeting images based on device pixel ratio only can be accomplished by using the `x` descriptor.
 
     <img srcset="small.jpg 1x, large.jpg 2x"
     src="small.jpg" />
 
-## SRCSET with SIZES
+SRCSET with SIZES
 
-The standard `src` attribute is used to allow for all browsers that do not support `srcset`
+The standard '''[[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img)|src]]''' attribute is used to provide a fallback for all browsers that do not support '''srcset'''
 
-    srcset="small.jpg 300w,
+    <img srcset="small.jpg 300w,
             medium.jpg 600w,
-            large.jpg 1024w"`
+            large.jpg 1024w"
+            src="small.jpg"
+            alt="A picture of a small thing"
 
-The `srcset` attribute takes a comma separate list of URL's for each of the available image sizes. The image widths are defined using `w` descriptor. If you save out 3 different sizes of your image at 300px, 600px, 1024px you would include
+The '''srcset''' attribute takes a comma separate list of URL's for each of the available image sizes. The image widths are defined using '''w''' descriptor. The code above is how you would define if you save out 3 different sizes of your image at 300px, 600px, 1024px.
 }}
 {{Examples_Section
 |Not_required=No
