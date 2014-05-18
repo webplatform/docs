@@ -111,7 +111,9 @@ The '''SVGPolylineElement''' object has these properties:
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables=
+|Imported_tables={{Imported Compatibility Table
+|Page=svg/elements/line
+}}
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
