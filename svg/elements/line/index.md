@@ -1,44 +1,35 @@
+{{Page_Title}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
+{{Summary_Section|The line element is an SVG basic shape, used to create a line connecting two points.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, the line element is used to draw a salmon-colored line inside an inline SVG element.
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see a salmon-colored line.
 
 It should look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
-<!DOCTYPE HTML>
-<html>
-  <head></head>
-  <body>
-    <svg width="400" height="400">
-      <line x1="50" y1="50" x2="150" y2="150" style="stroke:salmon; stroke-width:10" />
-    </svg>
-  </body>
-</html>
+|Code=<syntaxhighlight lang="xml">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" 	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg width="400" height="400">
+    <line x1="50" y1="50" x2="150" y2="150" style="stroke:salmon; stroke-width:10" />
+</svg>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.4
 
@@ -95,12 +86,23 @@ The '''SVGLineElement''' object has these properties:
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y1 (SVGLineElement)|'''y1''']]: Gets or sets the y-coordinate for the start of a line.
 *[[svg/properties/y2 (SVGLineElement)|'''y2''']]: Gets or sets the y-coordinate for the end of a line.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
