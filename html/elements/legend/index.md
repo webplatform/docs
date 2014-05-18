@@ -36,8 +36,6 @@ The »problem« with the '''fieldset''' and '''legend''' elements is that they d
 <syntaxhighlight>
 <fieldset>
   <legend><span>Legend link</span></legend>
-  <label>Label</label>
-  <input type="text" name="foo" value="">
 </fieldset>
 </syntaxhighlight>
 }}
