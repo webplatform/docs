@@ -18,8 +18,6 @@
 |Code=parseInt(123); // 123
 parseInt("123"); // 123
 parseInt('foo'); // NaN
-
-
 }}{{Single Example
 |Language=JavaScript
 |Description='''NaN''' does not equal '''NaN''', use the [[javascript/isNaN{{!}}isNaN Function]] instead to test if a value is not a number
@@ -35,6 +33,7 @@ isNaN(NaN); //true
 
 {{See_Also_Section
 |Manual_links=* [[javascript/isNaN{{!}}isNaN Function]]
+* [[javascript/Number{{!}Number}]]
 * [[javascript/Number/constants{{!}}Number Constants]]
 * [[javascript/parseInt{{!}}parseInt Function]]
 }}
