@@ -36,23 +36,21 @@
 |Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes=*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/rx (SVGRectElement)|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
-*[[svg/properties/ry (SVGRectElement)|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://www.w3.org/TR/SVG11/shapes.html#RectElement Scalable Vector Graphics: The The ‘rect’ element], Section 9.2
 
 ===Attributes===
 
 ====Global attributes====
-*[[svg/attributes#Conditional_processing_attributes|'''Conditional processing attributes''']]
-*[[svg/attributes#Core_attributes|'''Core attributes''']]
-*[[svg/attributes#Graphical_event_attributes|'''Graphical events attributes''']]
-*[[svg/attributes#Presentation_attributes|'''Presentation attributes''']]
+*[[svg/attributes#Conditional_Processing_Attributes|'''Conditional processing attributes''']]
+*[[svg/attributes#Core_Attributes|'''Core attributes''']]
+*[[svg/attributes#Graphical_Event_Attributes|'''Graphical events attributes''']]
+*[[svg/attributes#Presentation_Attributes|'''Presentation attributes''']]
+
+*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
+*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
+
 
 *[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
 *[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
