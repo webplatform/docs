@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|Content=Compatibility Incomplete, Examples Best Practices
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -111,9 +110,7 @@ The '''SVGPolylineElement''' object has these properties:
 }}
 {{Compatibility_Section
 |Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=svg/elements/line
-}}
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
