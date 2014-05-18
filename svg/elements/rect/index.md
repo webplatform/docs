@@ -60,7 +60,7 @@
 *[[svg/attributes/width|'''width''']]
 *[[svg/attributes/height|'''height''']]
 *[[svg/attributes/rx|'''rx''']]
-*[[svg/attributes/ry|''r'y''']]
+*[[svg/attributes/ry|'''ry''']]
 
 ===DOM Interface===
 
