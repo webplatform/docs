@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|Content=Cleanup
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
