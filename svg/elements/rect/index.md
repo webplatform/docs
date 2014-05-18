@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The circle element is a SVG basic shape to create a circle around a center point with a radius.}}
+{{Summary_Section|The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
@@ -98,7 +98,6 @@ The '''SVGRectElement''' object has these methods:
 *[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
 *[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
 *[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
