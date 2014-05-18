@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 }}
 {{Summary_Section|The toExponential() method formats a number to exponential notation.}}
@@ -22,22 +23,27 @@ If fractionDigits is not supplied, the '''toExponential''' method returns as man
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=var num = new Number(123);
- var exp = num.toExponential();
- document.write(exp);
- document.write("&lt;br/&gt;");
- 
- num = new Number(123.456);
- exp = num.toExponential(5);
- document.write(exp);
- 
- 
- // Output: 
- // 1.23e+2
- // 1.23456e+2
+|Description=Using <code>toExponential</code> to format the text presentation of a number.
+|Code=var pie = 3.14159;
+
+pie.toPrecision();
+// Returns: "3.14159e+0"
+
+pie.toPrecision(3);
+// Returns: "3.142e+0"
+
+pie.toPrecision(1);
+// Returns: "3.1e+0"
+
+pie.toPrecision(0);
+// Returns: "3e+0"
 }}
 }}
-{{Remarks_Section}}
+{{Remarks_Section
+|Remarks====Throws===
+
+[[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
+}}
 {{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
