@@ -21,7 +21,12 @@
 |Language=JavaScript
 |Code=// Returns an Object
 var thousand = new Number(1000);
-console.log(thousand.valueOf() === 1000)
+console.log(thousand.valueOf() === 1000);
+}}{{Single Example
+|Language=JavaScript
+|Code=// Returns an Object
+var googol = new Number(1e+100);
+console.log(googol.valueOf() === 1e+100);
 }}
 }}
 {{Remarks_Section
