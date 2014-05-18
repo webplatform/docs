@@ -16,7 +16,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
-|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0. 
+|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0.
 }}{{CSS Property Value
 |Data Type=dotted
 |Description=Column rule is a dotted line.
@@ -56,8 +56,6 @@ Makes 3 columns with 4px dashed green column-rule
 */
 
 #columns {
-  -moz-columns: 3; /* Firefox */
-  -webkit-columns: 3; /* Safari and Chrome */
   columns: 3;
   
   /* Prefix free example below, use vendor prefixes where needed */
