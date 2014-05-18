@@ -48,7 +48,6 @@ else {
 <section>
     <button type="button" id="clear">Clear localStorage</button>
 </section>
-
 |LiveURL=http://jsfiddle.net/DM6hB/6/
 }}{{Single Example
 |Language=JavaScript
@@ -85,7 +84,7 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 }}
 }}
 {{Notes_Section
-|Usage=Use via the functions setItem and getItem provided by [[apis/web-storage/Storage]]
+|Usage=Use via the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' provided by [[apis/web-storage/Storage]]
 |Notes=The '''localStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 }}
 {{Related_Specifications_Section
