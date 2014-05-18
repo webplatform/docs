@@ -28,7 +28,16 @@ else {
 }}{{Single Example
 |Language=HTML
 |Description=Fields and buttons for saving, reading and clearing localStorage items.
-|Code=<section><label for="key">Key:</label><input type="text" id="key" value="r2d2"><br><label for="value">Value:</label><input type="text" id="value" value="C-3PO"><br><button type="button" id="set-local">Save to localStorage</button></section><hr><section><label for="get-key">Key:</label><input type="text" id="get-key" value="r2d2"><button type="button" id="get-local">Get from localStorage</button><output id="output"></output></section><hr><section><button type="button" id="clear">Clear localStorage</button></section>
+|Code=<label for="key">Key:</label>
+<input type="text" id="key" value="r2d2"><br>
+<label for="value">Value:</label><input type="text" id="value" value="C-3PO"><br>
+<button type="button" id="set-local">Save to localStorage</button>
+<hr>
+<label for="get-key">Key:</label><input type="text" id="get-key" value="r2d2"
+<button type="button" id="get-local">Get from localStorage</button>
+<output id="output"></output>
+<hr>
+<button type="button" id="clear">Clear localStorage</button>
 |LiveURL=http://jsfiddle.net/DM6hB/6/
 }}{{Single Example
 |Language=JavaScript
