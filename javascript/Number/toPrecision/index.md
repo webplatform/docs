@@ -65,8 +65,8 @@ Standard ECMA-262
 5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Function
+|Applies to=Number
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
