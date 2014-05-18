@@ -7,9 +7,7 @@
 {{API_Name}}
 {{Summary_Section|If you've read this section, you learned the fundamentals of the term Progressive Enhancement, what it is and how to use it?}}
 {{Concept_Page
-|Content=If you've read this section, you learned the fundamentals of the term '''Progressive Enhancement''', '''what it is''' and '''how to use it'''?
-
-Progressive enhancement (PE) is a methodology for building web pages that are robust to the ever-changing nature of the web platform. Part of the appeal of PE is the strength of the end result. PE forces you to initially plan out your project as a functional system using only the most basic of Web technologies. This means that you know you’ll always have a strong foundation to fall back on as complexity is introduced to the project.
+|Content=Progressive enhancement (PE) is a methodology for building web pages that are robust to the ever-changing nature of the web platform. Part of the appeal of PE is the strength of the end result. PE forces you to initially plan out your project as a functional system using only the most basic of Web technologies. This means that you know you’ll always have a strong foundation to fall back on as complexity is introduced to the project.
 PE is also good for your users. It gives them the security of knowing they can visit your website using any of the thousands of user-agents available to them and still interact with your content as that agent allows.
 
 You start by establishing a basic level of user experience that all browsers will be able to provide when rendering your web site, but you also build in more advanced functionality that will automatically be available to browsers that can use it.
@@ -28,7 +26,15 @@ There is another term you have to hear about that is called [[graceful_degradati
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=RGBa is not supported in all Browsers, so we have to declare a fallback color.  Not declaring a fallback means no color will be applied in browsers that don't support it.
+|Code=div {
+   background: red; /* The Fallback */
+   background: rgba(200, 54, 54, 0.5); 
+}
+|LiveURL=http://css-tricks.com/rgba-browser-support/
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
