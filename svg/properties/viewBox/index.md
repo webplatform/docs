@@ -13,6 +13,8 @@
  &lt;svg width="300px" height="200px" version="1.1"
      viewBox="0 0 1200 800" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"&gt;
 }}}}
+http://static.webplatform.org/w/public/2/2c/svg-no-viewbox.svg
+
 {{Topics|SVG}}
 {{Notes_Section
 |Import_Notes=
