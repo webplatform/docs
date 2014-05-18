@@ -59,15 +59,15 @@ You can disable the <code>same origin policy</code> by starting chrome with a sp
 
 On *Nix systems:
 
-<code>open -a Google\ Chrome --args --disable-web-security</code>
+<code>open -a Google\ Chrome --args --disable-web-security -–allow-file-access-from-files</code>
 
 On Windows:
 
-<code>chrome.exe --disable-web-security</code>
+<code>chrome.exe  –allow-file-access-from-files -disable-web-security</code>
 
 To finally check if our setup is up &amp; running, navigate to <code>localhost:8080</code>, you should see some output similar to this:
 
-<code>Unknown Command - Request =&gt; {&quot;headers&quot;:{&quot;Accept&quot;:&quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&quot;Accept-Encoding&quot;:&quot;gzip,deflate,sdch&quot;,&quot;Accept-Language&quot;:&quot;en-US,en;q=0.8,de;q=0.6&quot;,&quot;Connection&quot;:&quot;keep-alive&quot;,&quot;Host&quot;:&quot;localhost:8080&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36&quot;...</code>
+``` Unknown Command - Request =&gt; {&quot;headers&quot;:{&quot;Accept&quot;:&quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,''/'';q=0.8&quot;,&quot;Accept-Encoding&quot;:&quot;gzip,deflate,sdch&quot;,&quot;Accept-Language&quot;:&quot;en-US,en;q=0.8,de;q=0.6&quot;,&quot;Connection&quot;:&quot;keep-alive&quot;,&quot;Host&quot;:&quot;localhost:8080&quot;,&quot;User-Agent&quot;:&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10''9''2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36&quot;},&quot;httpVersion&quot;:&quot;1.1&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;url&quot;:&quot;/&quot;,&quot;urlParsed&quot;:{&quot;anchor&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;file&quot;:&quot;&quot;,&quot;directory&quot;:&quot;/&quot;,&quot;path&quot;:&quot;/&quot;,&quot;relative&quot;:&quot;/&quot;,&quot;port&quot;:&quot;&quot;,&quot;host&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;,&quot;user&quot;:&quot;&quot;,&quot;userInfo&quot;:&quot;&quot;,&quot;authority&quot;:&quot;&quot;,&quot;protocol&quot;:&quot;&quot;,&quot;source&quot;:&quot;/&quot;,&quot;queryKey&quot;:{},&quot;chunks&quot;:[&quot;&quot;]}}
 
 == Connecting to the remote browser ==
 
