@@ -7,7 +7,10 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A 2d transition which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional and has a value of 0, if only one value is declared.}}
-{{CSS_Function}}
+{{CSS_Function
+|Content===Syntax==
+'''translate ( translate-value-x [, translate-value-y] )'''
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -18,14 +21,7 @@
 }}
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
-'''translate'''
-<code>(''
-&lt;translation-value-x&gt;
-'' '''[''' , ''
-&lt;translation-value-y&gt;
-'' ''']''')</code>
-===Parameters===
+|Import_Notes====Parameters===
 ;''translation-value-x'':A translation value along the ''x''-axis.
 ;''translation-value-y'':Optional. A translation value along the ''y''-axis.
 ===Standards information===
