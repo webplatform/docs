@@ -1,0 +1,1 @@
+#REDIRECT [[concepts/Internet and Web/About HTML5 hybrid applications]]
