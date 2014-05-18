@@ -18,7 +18,7 @@
 |Code=<syntaxhighlight lang="xml">
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" 	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
 <svg width="400" height="400">
-  <line x1="50" y1="50" x2="150" y2="150" style="stroke:salmon; stroke-width:10" />
+  <line x1="50" y1="50" x2="150" y2="150" stroke="salmon" stroke-width="10" />
 </svg>
 </syntaxhighlight>
 |LiveURL=http://code.webplatform.org/gist/9e2c858dc34a018a483d018a483d
