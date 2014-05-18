@@ -59,6 +59,10 @@ An img is always in one of the following states:
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
 |Status=W3C Candidate Recommendation
+}}{{Related Specification
+|Name=srcset
+|URL=http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/
+|Status=WRC Editor’s Draft
 }}
 }}
 {{Compatibility_Section
