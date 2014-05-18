@@ -8,6 +8,7 @@
 {{API_Name}}
 {{Summary_Section|'srcset' can be included along with the [[src_(input,_img)|src]] attribute and provides information to the browser to help decide the most appropriate image to load.}}
 {{Markup_Attribute
+|Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
 |Content=An attribute of the image element 'srcset' allows you to inform the browser information about the image before it begins to prefetch the image.
 
@@ -43,7 +44,7 @@ The `srcset` attribute takes a comma separate list of URL's for each of the avai
 |LiveURL=http://codepen.io/justincavery/full/osDGt/
 }}{{Single Example
 |Language=HTML
-|Description=Example of `SRCSET` using only device pixel ration (not with `sizes`
+|Description=Example of srcset using only device pixel ration (not with sizes)
 |Code=<img srcset="http://placehold.it/600x250&text=600+Medium.jpg 1x, http://placehold.it/1024x500&text=1024+Large.jpg 2x"
 src="http://placehold.it/300x150&text=Small.jpg+No+Picture+Support"
      alt="Picture SRCSET" />
