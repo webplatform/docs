@@ -31,9 +31,21 @@ Since vintage browsers used to have problems with a leading [http://www.w3.org/I
 
 
 ==Language==
-Use language negotiation on multilingual Web sites. [http://www.w3.org/International/questions/qa-when-lang-neg When to use language negotiation]
+Declare the language of your page content with the [[html/attributes/lang|lang attribute]] on the html element. Indicate languages changes inside the document using lang attributes on elements containing the foreign phrases. For XHTML served as XML, use the xml:lang attribute. For XHTML1.x and polyglot HTML5, use both attributes with the same value.
 
-Declare the language of your content with the lang attribute. This is useful for spell checkers, screen readers, automatic hyphenation, … [http://www.w3.org/International/questions/qa-lang-why Why use the language attribute?]
+As values, use language tags from the [http://www.iana.org/assignments/language-subtag-registry IANA Language Subtag Registry].
+
+Language information is useful for assistive technologies like screen readers, for spell checkers etc. It is mandatory for automatic hyphenation using the CSS property [[css/properties/hyphens|hyphens]].
+[http://www.w3.org/International/questions/qa-lang-why Why use the language attribute?]
+
+Use the [[html/attributes/translate|translate attribute]] to indicate whether content and attribute values should be translated or not.
+
+<syntaxhighlight lang="html5"><p>The national motto of France is
+<i lang="fr" translate="no">Liberté, Egalité, Fraternité</i>
+(freedom, equality, brotherhood).</p>
+</syntaxhighlight>
+
+Use language negotiation on multilingual Web sites. [http://www.w3.org/International/questions/qa-when-lang-neg When to use language negotiation]
 
 Further reading: [http://www.w3.org/International/quicktips/Overview Internationalization Quick Tips for the Web]
 {{Notes_Section}}
