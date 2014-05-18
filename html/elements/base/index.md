@@ -82,13 +82,7 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 * <code>&lt;base&gt;</code> only affects elements following it's declaration.
 * multiple <code>&lt;base&gt;</code> declarations are illegal, only the ''first'' [[html/attributes/href|<code>href</code>]] and [[html/attributes/target|<code>target</code>]] are used, the rest is discarded. Internet Explorer ignores all <code>&lt;base&gt;</code> instances after the first.
 
-In Internet Explorer 8 and later, when read, the value of the [[html/attributes/href (base)|'''href''']] attribute depends on the current document compatibility mode.  In addition, relative URL's are no longer supported by the '''base''' element.
-
-'''Note''' Internet Explorer 6 and older would allow the <code>&lt;base&gt;</code> element to appear anywhere in the document tree, which caused relative paths to use the "nearest" <code>&lt;base&gt;</code> element as the base for the URL. Internet Explorer 7 strictly enforces the use of the <code>&lt;base&gt;</code> tag within the [[html/elements/head|<code>&lt;head&gt;</code>]] of the document, and will ignore misplaced tags.
-
-Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not resolved in every version of Internet Explorer, they are properly resolved against the document's URL upon read. That in turn allows to set a fully qualified URL from within JavaScript: <code>base.href = base.href + "";</code>;
-
-'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior. Internet Explorer doesn't fall for it.
+'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -113,7 +107,6 @@ Although relative URLs in <code>&lt;base href=&quot;…&quot;&gt;</code> are not
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/base Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx Microsoft Developer Network]
 }}
