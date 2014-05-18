@@ -36,12 +36,11 @@ The '''Number''' object has its own properties and methods, in addition to the p
 
 JavaScript has several number constants. For a complete list, see [[javascript/Number/constants{{!}}Number Constants]].
 
-The Number Type.
-The Number type has exactly 18437736874454810627 (that is, 264−253+3) values, representing the double-precision 64-bit format IEEE 754 values as specified in the IEEE Standard for Binary Floating-Point Arithmetic, except that the 9007199254740990 (that is, 253−2) distinct “Not-a-Number” values of the IEEE Standard are represented in ECMAScript as a single special NaN value. 
+'''The Number Type.'''
+
+The Number type has exactly 18437736874454810627 (that is, 264−253+3) values, representing the double-precision 64-bit format IEEE 754 values as specified in the IEEE Standard for Binary Floating-Point Arithmetic, except that the 9007199254740990 (that is, 253−2) distinct “Not-a-Number” values of the IEEE Standard are represented in ECMAScript as a single special [[javascript/NaN{{!}}JavaScript NaN constant]] value.
 }}
-{{Notes_Section
-|Notes=The Number Type should be explained, mentioning NaN.
-}}
+{{Notes_Section}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''Number''' object.
@@ -98,6 +97,7 @@ The following table lists the methods of the '''Number''' object.
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/operators/new{{!}}new Operator]]
+* [[javascript/NaN{{!}}JavaScript NaN constant]]
 |External_links=* http://www.ecma-international.org/ecma-262/5.1/#sec-8.5
 }}
 {{JS Topics
