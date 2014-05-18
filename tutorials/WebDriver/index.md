@@ -123,8 +123,6 @@ TBA.
 == Further reading &amp; tooling ==
 
 TBA.
-
-The quick brown fox
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -142,4 +140,10 @@ The quick brown fox
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 }
