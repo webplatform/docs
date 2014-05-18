@@ -37,7 +37,7 @@
 |Language=CSS
 |Description=Alignment of flex items in a flex container. Change the values in the live example.
 |Code=.container {
-  display:         flex;
+  display: flex;
   
   width: 400px;
   height: 200px;
