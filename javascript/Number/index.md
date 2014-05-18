@@ -124,8 +124,13 @@ The following table lists the methods of the '''Number''' object.
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/NaN{{!}}JavaScript NaN constant]]
-|External_links=* http://www.ecma-international.org/ecma-262/5.1/#sec-8.5
-* http://en.wikipedia.org/wiki/Octal
+|External_links=* http://en.wikipedia.org/wiki/Octal
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-8.5 8.5 The Number Type]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Basic
