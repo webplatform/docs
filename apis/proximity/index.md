@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Proximity API}}
 {{Flags
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Examples Needed
@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The proximity API defines a mean to receive events that correspond to a proximity sensor detecting the presence of a physical object. }}
+{{Summary_Section|The proximity API defines a mean to receive events that correspond to a proximity sensor detecting the presence of a physical object.}}
 {{API_Listing}}
 {{Concept_Listing
 |Use_page_title=No
