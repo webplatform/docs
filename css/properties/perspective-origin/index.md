@@ -56,21 +56,13 @@ The default value of perspective-origin is 50% 50%. This displays an object as i
     left: 0;
     right: 0;
 
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
-    -moz-perspective: 1000px;
-    -webkit-perspective: 1000px;
     perspective: 1000px;
     perspective-origin: left;
-    -moz-perspective-origin: left;
-    -webkit-perspective-origin: left;
 }
 
 .viewer {
-    -moz-transform: rotateY(45deg);
-    -webkit-transform: rotateY(45deg);
     transform: rotateY(45deg);
 }
 |LiveURL=http://code.webplatform.org/gist/7033692
