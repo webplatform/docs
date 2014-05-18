@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|path}}
 {{Flags
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The path element is the generic element to define a shape.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
@@ -237,7 +237,11 @@ the [[svg/properties/d|'''d''']] attribute.
 *[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=SVG 1.1
+|URL=http://www.w3.org/TR/SVG11/paths.html
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
