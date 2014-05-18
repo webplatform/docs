@@ -11,7 +11,7 @@
 |Content====Syntax===
 {{Single Example
 |Language=CSS
-|Code=p::first-letter {}
+|Code=::first-letter {}
 }}
 ===Usage===
 The ::first-letter pseudo-element selects the first letter or digit of the first line of a block. Some languages require two letters to be capitalised (digraphs) which are currently very poorly supported by browsers.
