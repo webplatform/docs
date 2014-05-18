@@ -28,6 +28,7 @@ These attributes are used to capture animation events.
 [[svg/attributes/attributeName | attributeName]]
 
 ==== Animation Timing Attributes ====
+
 [[svg/attributes/begin | begin]]
 [[svg/attributes/dur | dur]]
 [[svg/attributes/end | end]]
