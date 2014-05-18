@@ -1,4 +1,4 @@
-{{Page_Title|::first-letter pseudo-element}}
+{{Page_Title|::first-letter}}
 {{Flags
 |Checked_Out=No
 }}
