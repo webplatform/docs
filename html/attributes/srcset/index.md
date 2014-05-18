@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|'srcset' can be included along with the [[src_(input,_img)|src]] attribute and provides information to the browser to help decide the most appropriate image to load.}}
+{{Summary_Section|'''srcset''' can be included along with the [[src_(input,_img)|src]] attribute and provides information to the browser to help decide the most appropriate image to load.}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
