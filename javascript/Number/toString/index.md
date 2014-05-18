@@ -26,6 +26,26 @@ var mph_string = mph_number.toString();
 
 console.log(mph_string.length);
  // Output: 7
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the toString method with a radix argument.
+|Code=var mph_number = 234.567;
+
+// Convert to hexidecimal
+console.log(mph_number.toString(16));
+// Output: ea.9126e978d5
+
+// Convert to decimal
+console.log(mph_number.toString(10));
+// Output: 234.567
+
+// Convert to binary
+console.log(mph_number.toString(2));
+//Output: 11101010.1001000100100110111010010111100011010101 
+
+// Check the length of the binary string
+console.log(mph_number.toString(2).length);
+// Output: 49
 }}
 }}
 {{Remarks_Section}}
@@ -35,9 +55,12 @@ console.log(mph_string.length);
 {{See_Also_Section}}
 {{JS Topics
 |JS Page Type=JS Function
+|Applies to=Number
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/jj159596(v=vs.94).aspx
+|HTML5Rocks_link=
 }}
