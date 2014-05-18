@@ -52,9 +52,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Transforms
-|External_links=* [https://developer.mozilla.org/en-US/docs/CSS/transform]
-|Manual_sections====Related pages (MSDN)===
-* [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
+|External_links=* [http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 * [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]
 * [http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]
 }}
