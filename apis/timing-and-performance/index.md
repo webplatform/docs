@@ -1,4 +1,4 @@
-{{Page_Title|Timing and performance standards supported by Internet Explorer and HTML Windows Store Apps}}
+{{Page_Title|Timing and performance standards}}
 {{Flags
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Not Neutral, Compatibility Incomplete
