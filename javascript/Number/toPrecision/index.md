@@ -23,7 +23,7 @@ If precision is not supplied or is <code>undefined</code> , [[javascript/Number/
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following code shows how to use <code>toPrecision</code>.
+|Description=Using <code>toPrecision</code> to format the decimal presentation of a number.
 |Code=var pie = 3.14159;
 
 // Call passed through to toString()
