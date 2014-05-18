@@ -29,7 +29,7 @@ Unfortunately Mozilla does not adhere to the WebDriver standard, but instead sup
 
 === PhantomJS ===
 
-PhantomJS, the [http://blog.arhg.net/2009/10/what-is-headless-browser.html headless] browser based on the WebKit rendering engine &amp; JavaScriptCore javascript engine contains a WebDriver implementation named [https://github.com/detro/ghostdriver Ghostdriver] that is nearly spec compliant.
+PhantomJS, the [http://blog.arhg.net/2009/10/what-is-headless-browser.html headless] browser based on the WebKit rendering engine &amp; JavaScriptCore javascript engine contains a WebDriver implementation named [https://github.com/detro/ghostdriver Ghostdriver] that is nearly spec compliant. Ghostdriver is shipped bundled with PhantomJS since version 1.8.
 
 === Mobile Browsers ===
 
