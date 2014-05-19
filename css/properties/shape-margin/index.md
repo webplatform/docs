@@ -31,14 +31,14 @@
 
   We are an open community of developers building resources for a better web, regardless of brand, browser or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
 &lt;/p&gt;
-|LiveURL=http://code.webplatform.org/gist/6500717
+|LiveURL=http://code.webplatform.org/gist/8080942aab7bad2d1c2f
 }}{{Single Example
 |Language=CSS
-|Description=In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 16px.
-|Code=.logo {
-    float  : left;
-    shape-outside : url("http://docs.webplatform.org/w/skins/webplatform/images/logo.png");
-    shape-margin : 16px;
+|Description=In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 30px.
+|Code=.shape {    
+	float  : left;    
+	shape-outside : url("http://openclipart.org/image/800px/svg_to_png/10312/Odysseus_Blue_flower.png");    
+	shape-margin : 30px;    
 }
 |LiveURL=http://code.webplatform.org/gist/6500717
 }}
