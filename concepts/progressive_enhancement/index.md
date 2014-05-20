@@ -18,7 +18,7 @@ In practical terms, it’s easiest to break the concept of PE into different lay
 * '''Styling''' The second layer is CSS. This allows visual-based user-agents to display or alter the visual representation of your website’s content.
 * '''Behavior''' The third layer is JavaScript. This allows user-agents that are capable of using it to provide your users with enhanced usability.
 
-There is another concept called  [[concepts/graceful_degradation|'''Graceful Degradation''']] (GD), you should . GD is similar, but it is an older concept ''(predecessor of progressive enhancement)'' that does things the other way round.
+There is another concept called  [[concepts/graceful_degradation|'''Graceful Degradation''']] (GD), what you should know. GD is similar, but it is an older concept ''(predecessor of progressive enhancement)'' that does things the other way round.
 }}
 {{Examples_Section
 |Not_required=No
