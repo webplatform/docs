@@ -129,7 +129,6 @@ Playr is by no means the only polyfil or the only player that supports VTT. It i
 * [http://www.storiesinflight.com/js_videosub/ js_videosub polyfill]
 * [http://github.com/cgiffard/Captionator Captionator polyfill]
 * [http://github.com/mozilla/vtt.js vtt.js] by the Mozilla Foundation
-* [http://www.sometechie.com/media-player/ Some Techie media player ]
 
 == Different types of VTT tracks and their structures ==
 
