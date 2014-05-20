@@ -4,7 +4,7 @@
 
 ==概要==
 
-Web platform Docs 是一个社区驱动（community-driven）站点，目标是成为兼具综合性与权威性的 web 开发文档资源。
+Web Platform Docs 是一个社区驱动（community-driven）站点，目标是成为兼具综合性与权威性的 web 开发文档资源。
 
 {{Languages}}
 
@@ -65,7 +65,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-accessibility"></div>
     
     <div class="inner">
-    <h3>[[concepts/accessibility|可访问性]]</h3>
+    <h3>[[concepts/accessibility/zh|可访问性]]</h3>
     
     <p>让 Web 为各类功能性障碍人群工作的模式，实践和商业案例。</p>
     </div>
@@ -89,7 +89,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-dom"></div>
     
     <div class="inner">
-    <h3>[[dom|DOM]]</h3>
+    <h3>[[dom/zh|DOM]]</h3>
     
     <p>关于文档对象模型(<abbr title="Document Object Model">DOM</abbr>)的事件和方法的教程和参考材料。 </p>
     </div>
@@ -101,7 +101,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-svg"></div>
     
     <div class="inner">
-    <h3>[[svg|SVG]]</h3>
+    <h3>[[svg/zh|SVG]]</h3>
     
     <p>可伸缩矢量图形(<abbr title="Scalable Vector Graphic">SVG</abbr>)的教程和参考材料；它是用于描述二维矢量图形的 <abbr title="eXtensible Markup Language">XML</abbr> 标记语言。</p>
     </div>
@@ -113,7 +113,7 @@ Web platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-api"></div>
     
     <div class="inner">
-    <h3>[[apis|APIs]]</h3>
+    <h3>[[apis/zh|APIs]]</h3>
     
     <p>从 appcache 到 xhr 的 JavaScript <abbr title="Application Programming Interface">APIs</abbr> 的参考材料。</p>
     </div>
@@ -155,4 +155,4 @@ Web Platform Docs 现阶段仍然是不成熟的，但你已经可以在网站�
 
 ==网站政策==
 
-Web Platform Docs 维基上的内容根据[[Template:CC-by-3.0| 知识共享署名（CC-BY）许可]]建立，其他情况会有标注说明。关于政策的详细信息，请参阅我们的[[WPD:Copyright|版权]]和[[WPD:Privacy|隐私]]，以及我们的[[WPD:Policy|基本政策]]。
+Web Platform Docs 维基上的内容根据[[Template:CC-by-3.0/zh| 知识共享署名（CC-BY）许可]]建立，其他情况会有标注说明。关于政策的详细信息，请参阅我们的[[WPD:Copyright/zh|版权]]和[[WPD:Privacy/zh|隐私]]，以及我们的[[WPD:Policy/zh|基本政策]]。
