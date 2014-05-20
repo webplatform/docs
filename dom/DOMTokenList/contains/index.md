@@ -32,7 +32,6 @@ function elHasClass(elid, cls) {
   else
     return false;
 }
-
 }}
 }}
 {{Notes_Section
@@ -41,7 +40,11 @@ function elHasClass(elid, cls) {
 Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any spaces.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C DOM4
+|URL=http://www.w3.org/TR/dom/
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
