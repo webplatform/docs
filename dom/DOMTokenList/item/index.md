@@ -9,6 +9,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
+|Name=index
 |Data type=Number
 |Description=The token to retrieve.
 |Optional=No
