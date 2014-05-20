@@ -27,7 +27,7 @@
 |Language=HTML
 |Description=In the following example, we have a div with an image with a CSS class.
 |Code=&lt;div&gt;
-  &lt;img class=&quot;logo&quot; src=&quot;http://openclipart.org/image/800px/svg_to_png/10312/Odysseus_Blue_flower.png&quot;/&gt;
+  &lt;img class=&quot;logo&quot; src=&quot;http://openclipart.org/image/800px/svg_to_png/3201/nlyl_blue_circle.png&quot;/&gt;
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar dolor a nulla convallis luctus. Mauris pellentesque sit amet purus non vulputate. Duis non nulla nec dui aliquet pharetra at quis turpis. Phasellus vestibulum nisl diam. Aliquam vitae dui quis nunc elementum vestibulum. Cras lobortis est id purus suscipit dictum. Suspendisse faucibus fermentum ligula, in luctus enim imperdiet ultricies. Maecenas ac eros in nisi egestas pulvinar. Cras eget luctus leo, eget euismod magna. Praesent ligula odio, pellentesque eu dapibus et, tristique id lacus. Pellentesque sit amet orci urna. Mauris tempor nulla quam, sit amet pulvinar velit malesuada eu. Aliquam erat volutpat. Sed vulputate quam id diam venenatis rutrum.
 
@@ -35,14 +35,14 @@ Maecenas dapibus dolor et lacus auctor, id vestibulum felis imperdiet. Pellentes
 
 Curabitur et fermentum neque. Praesent hendrerit aliquam nunc sed aliquet. Phasellus a erat accumsan purus pretium dapibus. Duis gravida gravida dapibus. Phasellus sodales nisl sed sapien congue tempor. Vestibulum consectetur sagittis cursus. Nunc congue rhoncus tempor. Donec vestibulum nibh ut gravida placerat. Fusce sodales molestie orci non malesuada. Duis quam augue, scelerisque et justo quis, posuere rutrum nibh. Pellentesque ut sapien mattis, scelerisque neque et, ultricies leo. Suspendisse molestie est mauris, sed pharetra erat luctus vel. Vivamus faucibus placerat augue sed dictum. Nam erat ante, gravida ut purus vel, ornare pellentesque risus.
 &lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/8080942aab7bad2d1c2f
+|LiveURL=http://code.webplatform.org/gist/6495f066863775c4aa27
 }}{{Single Example
 |Language=CSS
 |Description=In the CSS class, we float the image left, set its shape to be the same image, and then we set a margin of 30px.
 |Code=.shape {    
-	float  : left;    
-	shape-outside : url("http://openclipart.org/image/800px/svg_to_png/10312/Odysseus_Blue_flower.png");    
-	shape-margin : 30px;    
+	float: left;    
+	shape-outside: url("http://openclipart.org/image/800px/svg_to_png/3201/nlyl_blue_circle.png");    
+	shape-margin: 20px;    
 }
 }}
 }}
