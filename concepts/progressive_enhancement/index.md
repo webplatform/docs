@@ -1,5 +1,6 @@
 {{Page_Title|Progressive Enhancement}}
 {{Flags
+|High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 |Editorial notes=* Needs topics like "concept" or "methodology".
 * Code-Block in second example doesn't work as expected (some lines missing)
