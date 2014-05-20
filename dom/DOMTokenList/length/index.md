@@ -15,12 +15,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=//returns the number of classes in an element's classList
+|Code=//returns the number of classes in an element's classList (a DOMTokenList)
 function elNumClasses(elid) {
   var classes = document.getElementById(elid).classList;
   return classes.length;
 }
-
 }}
 }}
 {{Notes_Section}}
