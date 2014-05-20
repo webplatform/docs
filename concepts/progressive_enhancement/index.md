@@ -36,11 +36,11 @@ There is another concept called  [[concepts/graceful_degradation|'''Graceful Deg
 |Code=// Crossbrowser animation
 var requestAnimation = (function() {
   return window.requestAnimationFrame ||
-	  window.webkitRequestAnimationFrame ||
-	  window.mozRequestAnimationFrame ||
-	  function(callback, element) {
-	    window.setTimeout(callback, 1000 / 60);
-	  };
+  window.webkitRequestAnimationFrame ||
+  window.mozRequestAnimationFrame ||
+  function(callback, element) {
+    window.setTimeout(callback, 1000 / 60);
+  };
 }());
 }}
 }}
@@ -55,7 +55,6 @@ var requestAnimation = (function() {
 {{Topics|Compatibility, CSS, Design, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
+|Sources=MDN, HTML5Rocks
 |MSDN_link=
 }}
