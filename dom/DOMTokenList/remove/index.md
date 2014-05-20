@@ -9,6 +9,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
+|Name=token
 |Data type=String
 |Description=The token to remove from the DOMTokenList.
 |Optional=No
@@ -24,7 +25,6 @@ function elRemItem(elid,itemrem) {
   var classes = document.getElementById(elid).classList;
   classes.remove(itemrem);
 }
-
 }}
 }}
 {{Notes_Section}}
