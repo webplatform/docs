@@ -7,7 +7,12 @@
 {{API_Name}}
 {{Summary_Section|Returns a specific zero-indexed token from a DOMTokenList.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Index=0
+|Data type=Number
+|Description=The token to retrieve.
+|Optional=No
+}}
 |Method_applies_to=dom/DOMTokenList
 |Javascript_data_type=String
 }}
