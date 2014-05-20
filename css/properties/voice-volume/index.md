@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Coming Later
+|Editorial notes=Stub page/summary only.  Needs examples, compatibility, rest of CSS basic info table and detailed usage description.
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
