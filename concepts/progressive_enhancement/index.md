@@ -28,7 +28,7 @@ There is another concept called  [[concepts/graceful_degradation|'''Graceful Deg
    background: red; /* The Fallback */
    background: rgba(200, 54, 54, 0.5); 
 }
-|LiveURL=http://css-tricks.com/rgba-browser-support/
+|LiveURL=http://css-tricks.com/examples/RGBaSupport/
 }}{{Single Example
 |Language=JavaScript
 |Description=requestAnimationFrame provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way?
@@ -42,7 +42,6 @@ var requestAnimation = (function() {
         window.setTimeout(callback, 1000 / 60);
     };
 }());
-|LiveURL=http://www.html5rocks.com/en/tutorials/speed/animations/
 }}
 }}
 {{Notes_Section}}
