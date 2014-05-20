@@ -28,7 +28,7 @@ function elItem(elid,num) {
 }}
 }}
 {{Notes_Section
-|Usage=<code>DOMTokenList.item(n)</code> is functionally equivalent to <code>DOMTokenList[n]</code> in that it references an indexed element in the DOMTokenList.
+|Usage=<code>DOMTokenList.item(n)</code> is functionally equivalent to <code>DOMTokenList[n]</code> in that it references an indexed item in the DOMTokenList.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
