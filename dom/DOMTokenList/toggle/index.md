@@ -6,31 +6,64 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Adds a token if it is not present, or removes it if it is. Returns <code>true</code> if the token is now present (it was added); returns <code>false</code> if it is not (it was removed).}}
+{{Summary_Section|Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns <code>true</code> if the token is now present (it was added); returns <code>false</code> if it is not (it was removed).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=token
 |Data type=String
 |Description=The token to toggle.
 |Optional=No
+}}{{Method Parameter
+|Index=0
+|Name=force
+|Data type=Boolean
+|Description=Whether to force adding or removing the token. See Notes.
+|Optional=Yes
 }}
 |Method_applies_to=dom/DOMTokenList
 |Example_object_name=tokenList
 |Return_value_name=tokenExists
 |Javascript_data_type=Boolean
-|Return_value_description=Whether the token exists now.
+|Return_value_description=Whether the token exists after the method has executed.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//toggles an item in an element's classList (a DOMTokenList)
+//the item will be added if it does not exist, or removed if it does exist
+function elTogItem(elid,itemtog) {
+  var classes = document.getElementById(elid).classList;
+  return classes.toggle(itemtog);
+}
+
+}}{{Single Example
+|Language=JavaScript
+|Code=//toggles an item in an element's classList (a DOMTokenList)
+//the item will be added if force is true, or removed if force is false,
+//functionally equivalent to .add() and .remove(), respectively
+function elTogItem(elid,itemtog,force) {
+  var classes = document.getElementById(elid).classList;
+  return classes.toggle(itemtog,force);
+}
+
+}}
 }}
 {{Notes_Section
-|Notes=Throws a <code>SyntaxError </code> exception if ''token'' is empty.
+|Usage=Throws a <code>SyntaxError </code> exception if ''token'' is empty.
 
 Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any spaces.
+
+|Notes=If the optional parameter ''force'' is not provided, this method removes the token if it is present, or adds the token if it is not present. 
+
+If ''force'' is ''true'', this method adds the token (functionally equivalent to DOMTokenList.add()). If ''force'' is ''false'', this method removes the token (functionally equivalent to DOMTokenList.remove()).
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C DOM4
+|URL=http://www.w3.org/TR/dom/
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
