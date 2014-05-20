@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 |Editorial notes=* Needs topics like "concept" or "methodology".
-* Code-Block in second example doesn't work as expected (some lines missing: <code><source></code> tags doen't show up)
+* Code-Block in second example doesn't work as expected (some lines missing: <code>source</code> tags doen't show up)
 }}
 {{API_Name}}
 {{Summary_Section|Graceful degradation, also known as '''Fault tolerance''' is a concept of building a web site or application so it provides a good level of user experience in modern browsers.}}
