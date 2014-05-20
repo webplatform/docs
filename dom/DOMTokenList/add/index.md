@@ -9,6 +9,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
+|Name=token
 |Data type=String
 |Description=The token to add to the DOMTokenList.
 |Optional=No
@@ -24,7 +25,6 @@ function elAddItem(elid,itemadd) {
   var classes = document.getElementById(elid).classList;
   classes.add(itemadd);
 }
-
 }}
 }}
 {{Notes_Section}}
