@@ -1,7 +1,8 @@
 {{Page_Title|Progressive Enhancement}}
 {{Flags
 |Checked_Out=No
-|Editorial notes=Needs topics like "concept" or "methodology"..
+|Editorial notes=* Needs topics like "concept" or "methodology".
+* Code-Block in second example doesn't work as expected (some lines missing) 
 }}
 {{API_Name}}
 {{Summary_Section|Progressive enhancement is a powerful development philosophy for creating universally accessible sites and web apps. It does require some learning, experience and discipline, but the return of investment is high.}}
@@ -31,7 +32,7 @@ There is another concept called  [[concepts/graceful_degradation|'''Graceful Deg
 |LiveURL=http://css-tricks.com/examples/RGBaSupport/
 }}{{Single Example
 |Language=JavaScript
-|Description=<pre>requestAnimationFrame</pre> provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way?
+|Description=<code>requestAnimationFrame</code> provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way?
 ''Avoid browser-specific code and use feature detection (not browser detection)''
 |Code=// Crossbrowser animation
 var requestAnimation = (function() {
