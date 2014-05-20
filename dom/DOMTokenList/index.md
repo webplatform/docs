@@ -5,8 +5,8 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Represents a space-separated token list within the DOM, such as the contents of the <code>className</code> property of an element.
-DOMTokenList objects are always case-sensitive, even when the underlying string might ordinarily be treated in a case-insensitive manner.
+{{Summary_Section|Represents a space-separated token list within the DOM, such as the contents of the <code>className</code> property of an element, treated as a zero-based array-like object.
+DOMTokenList objects are case-sensitive, even when the underlying string might ordinarily be treated in a case-insensitive manner.
 }}
 {{API_Object}}
 {{Examples_Section
