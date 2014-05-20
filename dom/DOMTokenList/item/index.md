@@ -11,7 +11,7 @@
 |Index=0
 |Name=index
 |Data type=Number
-|Description=The token to retrieve.
+|Description=The index of the token to retrieve.
 |Optional=No
 }}
 |Method_applies_to=dom/DOMTokenList
