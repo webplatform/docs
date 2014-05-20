@@ -1,12 +1,11 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Tests if a token is part of this DOMTokenList. }}
+{{Summary_Section|Tests if a token is part of a DOMTokenList.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=token
@@ -23,7 +22,18 @@ Returns <code>true</code> if the token is present; <code>false</code> otherwise.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// check an element's classList (a DOMTokenList) for a specific class
+function elHasClass(elid, cls) {
+  var classes = document.getElementById(elid).classList;
+  if (classes.contains(cls))
+    return true;
+  else
+    return false;
+}
+
+}}
 }}
 {{Notes_Section
 |Notes=Throws a <code>SyntaxError</code> exception if ''token'' is empty.
