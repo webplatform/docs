@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |High-level issues=Needs Review
-|Content=Examples Needed
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -36,24 +35,21 @@ function elTogItem(elid,itemtog) {
   var classes = document.getElementById(elid).classList;
   return classes.toggle(itemtog);
 }
-
 }}{{Single Example
 |Language=JavaScript
 |Code=//toggles an item in an element's classList (a DOMTokenList)
 //the item will be added if force is true, or removed if force is false,
 //functionally equivalent to .add() and .remove(), respectively
-function elTogItem(elid,itemtog,force) {
+function elTogItemForce(elid,itemtog,force) {
   var classes = document.getElementById(elid).classList;
   return classes.toggle(itemtog,force);
 }
-
 }}
 }}
 {{Notes_Section
 |Usage=Throws a <code>SyntaxError </code> exception if ''token'' is empty.
 
 Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any spaces.
-
 |Notes=If the optional parameter ''force'' is not provided, this method removes the token if it is present, or adds the token if it is not present. 
 
 If ''force'' is ''true'', this method adds the token (functionally equivalent to DOMTokenList.add()). If ''force'' is ''false'', this method removes the token (functionally equivalent to DOMTokenList.remove()).
