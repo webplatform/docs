@@ -31,16 +31,16 @@ There is another concept called  [[concepts/graceful_degradation|'''Graceful Deg
 |LiveURL=http://css-tricks.com/examples/RGBaSupport/
 }}{{Single Example
 |Language=JavaScript
-|Description=requestAnimationFrame provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way?
+|Description=<pre>requestAnimationFrame</pre> provides a native API for running any type of animation in the browser. How to use it the progressive enhanced way?
 ''Avoid browser-specific code and use feature detection (not browser detection)''
 |Code=// Crossbrowser animation
 var requestAnimation = (function() {
-    return window.requestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    function(callback, element) {
-        window.setTimeout(callback, 1000 / 60);
-    };
+  return window.requestAnimationFrame ||
+	  window.webkitRequestAnimationFrame ||
+	  window.mozRequestAnimationFrame ||
+	  function(callback, element) {
+	    window.setTimeout(callback, 1000 / 60);
+	  };
 }());
 }}
 }}
