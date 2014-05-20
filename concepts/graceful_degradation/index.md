@@ -3,7 +3,7 @@
 |High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
 |Editorial notes=* Needs topics like "concept" or "methodology".
-* Code-Block in second example doesn't work as expected (some lines missing)
+* Code-Block in second example doesn't work as expected (some lines missing: <code><source></code> tags doen't show up)
 }}
 {{API_Name}}
 {{Summary_Section|Graceful degradation, also known as '''Fault tolerance''' is a concept of building a web site or application so it provides a good level of user experience in modern browsers.}}
@@ -22,8 +22,8 @@ You start creating your website or web-application with the use of features that
 |Language=HTML
 |Description='''Definition of Done:''' Create a videoplayer that is working on IE6 up to IE10.
 
-Cause you trust the approach of GD, you prefer the  HTML5 <code><video></code> tag over Flash as your entry point. Now your videoplayer is works well on IE9 & 10. 
-For you need to create a fallback for IE6-8, that does not support HTML5 Video. You'll now create another instance of your player based on Flash, which is a graceful replacement of your HTML5 player.
+Cause you trust the approach of GD, you prefer the  HTML5 <code><video></code> tag over Flash as your entry point. Now your videoplayer works well on IE9 & 10. 
+You need to create a fallback for IE6-8, that does not support HTML5Video. You'll now create another instance of your player based on Flash, which is a graceful replacement of your HTML5 player.
 |Code=<video>
   <source src="video.mp4" type="video/mp4" />
 
