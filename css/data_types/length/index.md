@@ -1,6 +1,8 @@
 {{Page_Title|&lt;length&gt;}}
 {{Flags
-|Checked_Out=Yes
+|State=Almost Done
+|Editorial notes=compatibility
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{Summary_Section|A <code>&lt;length></code> is a CSS data type that is used to specify distance measurements using relative or absolute units.  It consists of an integer or decimal number followed (without whitespace) by a unit abbreviation; the unit may be omitted if the number is zero (0).}}
