@@ -18,7 +18,11 @@ DOMTokenList objects are case-sensitive, even when the underlying string might o
 A set of space-separated tokens is a string containing zero or more words (known as tokens) separated by one or more space characters, where words consist of any string of one or more characters, none of which are space characters (the space characters are U+0020 SPACE, U+0009 CHARACTER TABULATION (tab), U+000A LINE FEED (LF), U+000C FORM FEED (FF), and U+000D CARRIAGE RETURN (CR)).
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C DOM4
+|URL=http://www.w3.org/TR/dom/
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
