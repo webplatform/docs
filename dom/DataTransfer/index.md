@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
-|Checked_Out=No
 |Editorial notes=New listing page with proper object capitalization; replaces '''dataTransfer'''.
+|Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Represents an object associated with drag and drop or clipboard events.
 DataTransfer objects are used to expose the ''drag data store'' that underlies a drag-and-drop operation.
@@ -16,7 +16,11 @@ DataTransfer objects are used to expose the ''drag data store'' that underlies a
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
