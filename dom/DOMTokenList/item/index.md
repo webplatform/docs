@@ -9,6 +9,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/DOMTokenList
+|Javascript_data_type=String
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,7 +20,6 @@ function elItem(elid,num) {
   var classes = document.getElementById(elid).classList;
   return classes.item(num);
 }
-
 }}
 }}
 {{Notes_Section
