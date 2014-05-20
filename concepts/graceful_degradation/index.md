@@ -22,6 +22,14 @@ You start creating your website or web-application with the use of features that
 
 Cause you trust the approach of GD, you prefer the  HTML5 <code><video></code> tag over Flash as your entry point. Now your videoplayer is works well on IE9 & 10. 
 For you need to create a fallback for IE6-8, that does not support HTML5 Video. You'll now create another instance of your player based on Flash, which is a graceful replacement of your HTML5 player.
+|Code=<video>
+  <source src="video.mp4" type="video/mp4" />
+
+  <!-- Flash Fallback. -->
+  <object id="flash_fallback_1" type="application/x-shockwave-flash" data="player.swf">
+    <param name="movie" value="video.mp4" />
+  </object>
+</video>
 }}
 }}
 {{Notes_Section}}
