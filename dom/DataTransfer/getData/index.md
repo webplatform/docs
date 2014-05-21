@@ -1,27 +1,28 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Unreviewed
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the data in the specified format from the clipboard through the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.
+{{Summary_Section|Gets the data in the specified format from the clipboard through the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.
 If there is no data, returns an empty string.
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
 |Data type=String
-|Description=The format of the data to be transferred, using one of the following values (case insensitve) -
-*'''URL'''
-*'''Text'''
+|Description=The format of the data to be transferred, using one of the following values (case insensitve):
+*URL
+*Text
 |Optional=No
 }}
 |Method_applies_to=dom/DataTransfer
 |Example_object_name=event.dataTransfer
 |Return_value_name=eventData
 |Javascript_data_type=String
-|Return_value_description=Returns the data in the format retrieved from the clipboard/drag and drop operation through the [[dom/DataTransfer|'''DataTransfer''']] object or the [[dom/clipboardData|'''clipboardData''']] object. Depending on the information contained in [[dom/DataTransfer/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
+|Return_value_description=Returns the data in the format retrieved from the clipboard/drag and drop operation through the [[dom/DataTransfer|'''DataTransfer''']] object or the [[dom/ClipboardData|'''ClipboardData''']] object. Depending on the information contained in [[dom/DataTransfer/setData|'''setData''']], this variable can get a path to an image, text, or an anchor URL.
 }}
 {{Examples_Section
 |Not_required=No
@@ -70,15 +71,9 @@ window.addEventListener("load", initialize, false);
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 7.7
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 7.7
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -88,10 +83,7 @@ window.addEventListener("load", initialize, false);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/clipboardData|clipboardData]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
