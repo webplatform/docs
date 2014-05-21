@@ -66,15 +66,9 @@ window.addEventListener("load", initialize, false);
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 7.7
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 7.7
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
