@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Removes one or more data formats (or all data) from the clipboard through the '''DataTransfer''' object or the [[dom/ClipboardData|ClipboardData]] object.}}
+{{Summary_Section|Removes one or more data formats (or all data) from the clipboard through the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
