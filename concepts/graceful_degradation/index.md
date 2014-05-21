@@ -1,16 +1,16 @@
 {{Page_Title|Graceful Degradation}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
-|Checked_Out=No
 |Editorial notes=* Needs topics like "concept" or "methodology".
 * Code-Block in second example doesn't work as expected (some lines missing: <code>source</code> tags doen't show up)
+|Checked_Out=No
+|High-level issues=Needs Topics, Needs Review
 }}
 {{API_Name}}
 {{Summary_Section|Graceful degradation, also known as '''Fault tolerance''' is a concept of building a web site or application so it provides a good level of user experience in modern browsers.}}
 {{Concept_Page
 |Content=However, it will degrade ''gracefully'' for those using older browsers. The system may not be as pleasant or as pretty, but the basic functionality will work on older systems.
 <blockquote>
-[..] Graceful Degradation (GD) is the journey from complexity to simplicity
+[..] Graceful Degradation is the journey from complexity to simplicity
 </blockquote>
 [http://www.smashingmagazine.com/2009/04/22/progressive-enhancement-what-it-is-and-how-to-use-it/ @smashingmag]
 
