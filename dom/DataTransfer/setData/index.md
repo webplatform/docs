@@ -29,7 +29,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''setData''' method and the [[dom/DataTransfer/getData|'''getData''']] method with the [[dom/DataTransfer|'''dataTransfer''']] object to create a shortcut to an image.
+|Description=This example uses the '''setData''' method and the [[dom/DataTransfer/getData|'''getData''']] method with the [[dom/DataTransfer|'''DataTransfer''']] object to create a shortcut to an image.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
