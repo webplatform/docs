@@ -10,7 +10,7 @@
 |Property_applies_to=dom/DataTransfer
 |Read_only=Yes
 |Javascript_data_type=Object
-|Return_value_description=A DataTransferItemList object; see the [http://www.w3.org/TR/html5/editing.html#datatransferitemlist|W3C specification] for more information.
+|Return_value_description=A DataTransferItemList object; see the [http://www.w3.org/TR/html5/editing.html#datatransferitemlist W3C specification] for more information.
 }}
 {{Examples_Section
 |Not_required=No
