@@ -11,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=format
 |Data type=String
-|Description=The format of the data to be transferred, using one of the following values (case insensitve) -
+|Description=The format of the data to be transferred, using one of the following values (case insensitve):
 *URL
 *Text
 |Optional=No
