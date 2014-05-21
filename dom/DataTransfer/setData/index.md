@@ -1,18 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Unreviewed
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Adds data in a specified format to the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
+{{Summary_Section|Adds data in a specified format to the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
 |Data type=String
 |Description=The format of the data to be transferred, using one of the following values (case insensitve) -
-*'''URL'''
-*'''Text'''
+*URL
+*Text
 |Optional=No
 }}{{Method Parameter
 |Name=data
@@ -68,15 +69,9 @@ window.addEventListener("load", initialize, false);
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 7.7
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 7.7
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
@@ -86,10 +81,7 @@ window.addEventListener("load", initialize, false);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/clipboardData|clipboardData]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
