@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.}}
 {{API_Object_Property
