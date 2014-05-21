@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -12,11 +12,11 @@
 |Example_object_name=event.dataTransfer
 |Return_value_name=dropEffect
 |Javascript_data_type=String
-|Return_value_description=One of the following values -
-*'''none'''
-*'''copy'''
-*'''link'''
-*'''move'''
+|Return_value_description=One of the following values:
+*none
+*copy
+*link
+*move
 |Example_value_name=newDropEffect
 }}
 {{Examples_Section
@@ -24,7 +24,6 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''dropEffect''' and [[dom/DataTransfer/effectAllowed|effectAllowed]] properties of the [[dom/DataTransfer|DataTransfer]] object to display the move cursor.
-
 |Code=<!doctype html>
 <html>
  <head>
@@ -112,14 +111,12 @@ property to display the move cursor. The default action must be canceled in all 
 }}
 }}
 {{Notes_Section
-|Usage=Use this property to get or set the current operation, using one of the following values -
-*'''none'''
-*'''copy'''
-*'''link'''
-*'''move'''
 |Notes=The '''dropEffect''' property must be used with the [[dom/DataTransfer/effectAllowed|'''effectAllowed''']] property. These properties are set on the source object of a drag-and-drop operation. The '''effectAllowed''' property determines which drag-and-drop operations are available from the source object. The '''dropEffect''' property determines which drag-and-drop operations are allowed on the target object. For example, the source object might set the '''effectAllowed''' property to '''all''' drag-and-drop operations, while the target object specifies that the '''dropEffect''' allows only '''copy''' operations.
+
 The recommended technique for dropping text is to set the '''dropEffect''' in the target object's event handler function for the following events: [[dom/DragEvent/dragenter|'''ondragenter''']], [[dom/DragEvent/dragover|'''ondragover''']], and [[dom/DragEvent/drop|'''ondrop''']]. The [[dom/DataTransfer/effectAllowed|'''effectAllowed''']] property must be set in one of the source object's drag-and-drop event handlers, such as the [[dom/DragEvent/dragstart|'''ondragstart''']] event.
+
 The target object of a drag-and-drop operation can set the '''dropEffect''' during the following events: [[dom/DragEvent/dragenter|'''ondragenter''']], [[dom/DragEvent/dragover|'''ondragover''']], and [[dom/DragEvent/drop|'''ondrop''']]. To display the cursor until the final drop, the default action of the following events must be canceled: '''ondragenter''', '''ondragover''', and '''ondrop''': and the '''dropEffect''' must be set. Otherwise, the copy cursor, move cursor, or link cursor set by this property displays only until the first valid drop target is intersected, at which point the cursor is replaced by the drop/no-drop cursor for the rest of the drag operation.
+
 There is a default drag-and-drop functionality for the following elements: [[html/elements/a|'''a''']], [[html/elements/img|'''img''']], [[html/elements/textarea|'''textarea''']], and [[html/elements/input|'''input type{{=}}text''']]. When one of these objects is the source element, the default drop effect cannot be overridden by setting the '''dropEffect''' property of the target element. Instead, the default behavior of the source object must be canceled.
 }}
 {{Related_Specifications_Section
