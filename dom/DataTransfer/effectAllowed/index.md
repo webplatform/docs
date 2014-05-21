@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.}}
 {{API_Object_Property
