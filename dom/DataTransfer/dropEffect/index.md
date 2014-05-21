@@ -120,7 +120,11 @@ The target object of a drag-and-drop operation can set the '''dropEffect''' duri
 There is a default drag-and-drop functionality for the following elements: [[html/elements/a|'''a''']], [[html/elements/img|'''img''']], [[html/elements/textarea|'''textarea''']], and [[html/elements/input|'''input type{{=}}text''']]. When one of these objects is the source element, the default drop effect cannot be overridden by setting the '''dropEffect''' property of the target element. Instead, the default behavior of the source object must be canceled.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
