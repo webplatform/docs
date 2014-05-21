@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,7 +18,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=This example uses the [[dom/DataTransfer/setData|'''setData''']] and [[dom/DataTransfer/getData|'''getData''']] methods with the [[dom/clipboardData|'''clipboardData''']] object to perform a cut-and-paste operation through the shortcut menu.
+|Description=This example uses the [[dom/DataTransfer/setData|'''setData''']] and [[dom/DataTransfer/getData|'''getData''']] methods with the [[dom/ClipboardData|'''ClipboardData''']] object to perform a cut-and-paste operation through the shortcut menu.
 |Code=&lt;head&gt;
 &lt;script&gt;
 var sSave {{=}} "";
