@@ -1,18 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Removes one or more data formats from the clipboard through the '''DataTransfer''' object or the [[dom/clipboardData|'''clipboardData''']] object.}}
+{{Summary_Section|Removes one or more data formats (or all data) from the clipboard through the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=format
 |Data type=String
-|Description=The format of the data to be cleared, using one of the following values (case insensitve) -
-*'''URL'''
-*'''Text'''
+|Description=The format of the data to be cleared, using one of the following values (case insensitve):
+*URL
+*Text
+If ''format'' is omitted, all data is removed.
 |Optional=Yes
 }}
 |Method_applies_to=dom/DataTransfer
@@ -83,10 +84,7 @@ window.addEventListener("load", initialize, false);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/clipboardData|clipboardData]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
