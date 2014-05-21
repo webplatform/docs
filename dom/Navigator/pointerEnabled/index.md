@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|Indicates if the browser will fire pointer events for pointing input.}}
 {{API_Object_Property
@@ -49,12 +49,14 @@ window.addEventListener('load', function() {
 });
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Pointer Events
 |URL=http://www.w3.org/TR/pointerevents/
-|Status=Working Draft
+|Status=Candidate Recommendation
 |Relevant_changes=Section 5
 }}
 }}
