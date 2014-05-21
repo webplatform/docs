@@ -24,7 +24,7 @@ If ''format'' is omitted, all data is removed.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''clearData''' method, the [[dom/DataTransfer/setData|setData]] method and the [[dom/DataTransfer/getData|getData]] method with the [[dom/DataTransfer|DataTransfer]] object.
+|Description=This example uses the '''clearData''', [[dom/DataTransfer/setData|setData]], and [[dom/DataTransfer/getData|getData]] methods with the [[dom/DataTransfer|DataTransfer]] object.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
