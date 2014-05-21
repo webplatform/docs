@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
@@ -63,8 +63,10 @@ You can alter the value of '''propertyName''' by using it with the [[dom/Element
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
-{{Topics|DOM}}
+{{See_Also_Section
+|Topic_clusters=Javascript
+}}
+{{Topics|DOM, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
