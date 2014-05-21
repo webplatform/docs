@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string "Files".}}
+{{Summary_Section|Returns an array listing the formats that were set in the '''dragstart''' event. If any files are being dragged, one of the types will be the string "Files".}}
 {{API_Object_Property
 |Property_applies_to=dom/DataTransfer
 |Read_only=Yes
@@ -17,20 +18,21 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//retrieve array of formats being dragged
+function getDragTypes(e) {
+  var oData = e.dataTransfer;
+  var dTypes = oData.types;
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 7.7
-}}{{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 7.7
+|Name=HTML
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
 }}
 }}
 {{Compatibility_Section
