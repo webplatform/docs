@@ -15,7 +15,12 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=//example goes here
+|Code=//retrieve list of files being dragged
+function getDragFiles(e) {
+  var oData = e.dataTransfer;
+  var fList = oData.files;
+}
+
 }}
 }}
 {{Notes_Section
