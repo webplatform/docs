@@ -2,20 +2,19 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Blending causes colors to be pulled up from the elements in layers below and mixed with the current layer. The name of the blend mode is based on the name of a formula that does the mixing.
-
-This is an experimental feature. You'll need to view examples in Chrome Canary or WebKit nightly builds. And don't put this into production until it has been adopted.
+{{Summary_Section|This property describes how the element's background images should blend with each other and the element's background color. 
+The value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesn’t have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 }}
 {{CSS Property
-|Initial value=normal
-|Applies to=All HTML elements
+|Initial value=<normal>#
+|Applies to=All HTML and SVG elements
 |Inherited=No
 |Media=visual
 |Computed value=as specified
 |Animatable=No
-|CSS percentages=N/A
+|CSS percentages=No
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=This is the default attribute which specifies no blending. The blending formula simply selects the source color.
@@ -171,7 +170,4 @@ Non-separable blend modes consider all color components in combination as oppose
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
