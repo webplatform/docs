@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Document is one of the most important objects in the DOM. It is where a majority of API methods and properties are rooted.}}
+{{Summary_Section|'''Document''' is one of the most important objects in the DOM. It is where many API methods and properties are rooted.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
