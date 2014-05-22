@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
 |Editorial notes=New listing page with proper object capitalization; replaces '''document'''.
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -57,6 +57,11 @@
 |Name=WHATWG HTML
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/
 |Status=Living Standard
+|Relevant_changes=Section 3.1.1
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/dom.html
+|Status=Candidate Recommendation
 |Relevant_changes=Section 3.1.1
 }}
 }}
