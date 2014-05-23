@@ -89,6 +89,32 @@ The cite IDL attribute must reflect the element's cite content attribute.
   &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
  &lt;/footer&gt;
  &lt;/blockquote&gt;
+}}{{Single Example
+|Language=HTML
+|Description=In this example the source of a quote includes a cite element, which is annotated using the class attribute:
+|Code=&lt;blockquote&gt;
+  &lt;p&gt;My favorite book is &lt;cite class="from-source"&gt;At Swim-Two-Birds&lt;/cite&gt;&lt;/p&gt;
+  &lt;footer&gt;- &lt;cite&gt;Mike[tm]Smith&lt;/cite&gt;&lt;/footer&gt;
+  &lt;/blockquote&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The other examples below show other ways of showing attribution.
+|Code=&lt;!-- Here a blockquote element is used in conjunction with a figure element and its figcaption: --&gt;
+&lt;figure&gt;
+ &lt;blockquote&gt;
+  &lt;p&gt;The truth may be puzzling. It may take some work to grapple with.
+  It may be counterintuitive. It may contradict deeply held
+  prejudices. It may not be consonant with what we desperately want to
+  be true. But our preferences do not determine what's true. We have a
+  method, and that method helps us to reach not absolute truth, only
+  asymptotic approaches to the truth &mdash; never there, just closer
+  and closer, always finding vast new oceans of undiscovered
+  possibilities. Cleverly designed experiments are the key.&lt;/p&gt;
+ &lt;/blockquote&gt;
+ &lt;figcaption&gt;&lt;cite&gt;Carl Sagan&lt;/cite&gt;, in "&lt;cite&gt;Wonder and Skepticism&lt;/cite&gt;", from
+ the &lt;cite&gt;Skeptical Enquirer&lt;/cite&gt; Volume 19, Issue 1 (January-February
+ 1995)&lt;/figcaption&gt;
+&lt;/figure&gt;
 }}
 }}
 {{Notes_Section
