@@ -44,7 +44,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote. (<a href="#note-ex-3">see note below</a>)
+|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote.
 |Code=&lt;!-- For example, an in-line note provided by the author: --&gt;
 &lt;figure&gt;
  &lt;blockquote&gt;
@@ -61,6 +61,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  p19 (in Google Books)
  &lt;/footer&gt;
  &lt;/figure&gt;
+|LiveURL=#note-ex-3
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
