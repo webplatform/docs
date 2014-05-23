@@ -33,12 +33,12 @@ The '''cite''' IDL attribute must reflect the element's '''cite''' content attri
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''BLOCKQUOTE''' (&lt;blockquote&gt;) element to set off a quotation that renders as indented text.
-|Code=&lt;p&gt;He said,
+|Code=&lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
+&lt;p&gt;He said,
 &lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
+|Description=The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a '''footer''' or '''cite''' element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
 |Code=&lt;blockquote&gt;
  &lt;p&gt;[Fred] then said he liked [...] fish.&lt;/p&gt;
 &lt;/blockquote&gt;
