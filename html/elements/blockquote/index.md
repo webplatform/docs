@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''blockquote''" element (&lt;blockquote&gt;) indicates an extended quotation.}}
+{{Summary_Section|The ""blockquote"" element (&lt;blockquote&gt;) indicates an extended quotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
 |Content====HTML information===
@@ -61,6 +61,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  p19 (in Google Books)
  &lt;/footer&gt;
  &lt;/figure&gt;
+<a href="#note-ex-3">see note below</a>
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
@@ -170,7 +171,7 @@ be cowed by the possibility.&lt;/blockquote&gt;
 }}
 {{Notes_Section
 |Notes====Remarks===
-*Ex. 3) In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
+*<b id="note-ex-3">ex 3</b>: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
 *Ex. 6) There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
 * Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the cite and blockquote elements for this purpose.
 |Import_Notes====Standards information===
