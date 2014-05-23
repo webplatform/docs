@@ -61,7 +61,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  p19 (in Google Books)
  &lt;/footer&gt;
  &lt;/figure&gt;
-&lt:!-- see note "ex 3" below --&gt;
+&lt;!-- see note "ex 3" below --&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
