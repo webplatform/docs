@@ -26,7 +26,6 @@ Content inside a blockquote other than citations and in-line changes must be quo
 If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
 
 The cite IDL attribute must reflect the element's cite content attribute.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -94,11 +93,9 @@ The cite IDL attribute must reflect the element's cite content attribute.
 }}
 {{Notes_Section
 |Notes====Remarks===
-Introduction:  In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
---
-Ex. 3: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
---
-Ex. 6: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
+*Introduction)  In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
+*Ex. 3) In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
+*Ex. 6) There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.2
@@ -834,7 +831,6 @@ This property is not supported for Metro style apps using JavaScript.
 |[[dom/properties/uniqueNumber|'''uniqueNumber''']]
 |Retrieves the element's unique number.
 |}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
