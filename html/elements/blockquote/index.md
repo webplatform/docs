@@ -84,41 +84,30 @@ The cite IDL attribute must reflect the element's cite content attribute.
 |Language=HTML
 |Code=&lt;!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). --&gt;
 &lt;blockquote&gt;
- &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" 
- instead of "advances". For her the difference was of crucial significance, 
- and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.&lt;/p&gt;
-&lt;footer itemscope itemtype="http://schema.org/Book"&gt;
-  &lt;span itemprop="author"&gt;Heinrich Böll&lt;/span&gt;,
-  &lt;span itemprop="name"&gt;The Lost Honor of Katharina Blum&lt;/span&gt;, 
-  &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
- &lt;/footer&gt;
- &lt;/blockquote&gt;
-&lt:!-- see note "ex 6" below --&gt;
+  &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" instead of "advances". For her the difference was of crucial significance, and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.&lt;/p&gt;
+  &lt;footer itemscope itemtype="http://schema.org/Book"&gt;
+    &lt;span itemprop="author"&gt;Heinrich Böll&lt;/span&gt;,
+    &lt;span itemprop="name"&gt;The Lost Honor of Katharina Blum&lt;/span&gt;, 
+    &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;!-- see note "ex 6" below --&gt;
 }}{{Single Example
 |Language=HTML
 |Code=&lt;!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: --&gt;
 &lt;blockquote&gt;
   &lt;p&gt;My favorite book is &lt;cite class="from-source"&gt;At Swim-Two-Birds&lt;/cite&gt;&lt;/p&gt;
   &lt;footer&gt;- &lt;cite&gt;Mike[tm]Smith&lt;/cite&gt;&lt;/footer&gt;
-  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
 |Description=The other examples below show other ways of showing attribution.
 |Code=&lt;!-- Here a blockquote element is used in conjunction with a figure element and its figcaption: --&gt;
 &lt;figure&gt;
  &lt;blockquote&gt;
-  &lt;p&gt;The truth may be puzzling. It may take some work to grapple with.
-  It may be counterintuitive. It may contradict deeply held
-  prejudices. It may not be consonant with what we desperately want to
-  be true. But our preferences do not determine what's true. We have a
-  method, and that method helps us to reach not absolute truth, only
-  asymptotic approaches to the truth &mdash; never there, just closer
-  and closer, always finding vast new oceans of undiscovered
-  possibilities. Cleverly designed experiments are the key.&lt;/p&gt;
+  &lt;p&gt;The truth may be puzzling. It may take some work to grapple with. It may be counterintuitive. It may contradict deeply held prejudices. It may not be consonant with what we desperately want to be true. But our preferences do not determine what's true. We have a method, and that method helps us to reach not absolute truth, only asymptotic approaches to the truth &mdash; never there, just closer and closer, always finding vast new oceans of undiscovered possibilities. Cleverly designed experiments are the key.&lt;/p&gt;
  &lt;/blockquote&gt;
- &lt;figcaption&gt;&lt;cite&gt;Carl Sagan&lt;/cite&gt;, in "&lt;cite&gt;Wonder and Skepticism&lt;/cite&gt;", from
- the &lt;cite&gt;Skeptical Enquirer&lt;/cite&gt; Volume 19, Issue 1 (January-February
- 1995)&lt;/figcaption&gt;
+ &lt;figcaption&gt;&lt;cite&gt;Carl Sagan&lt;/cite&gt;, in "&lt;cite&gt;Wonder and Skepticism&lt;/cite&gt;", from the &lt;cite&gt;Skeptical Enquirer&lt;/cite&gt; Volume 19, Issue 1 (January-February 1995)&lt;/figcaption&gt;
 &lt;/figure&gt;
 }}{{Single Example
 |Language=HTML
@@ -130,8 +119,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
   ...
 }}{{Single Example
 |Language=HTML
-|Code=&lt;!-- This example shows how a forum post could use blockquote to show what post a user is replying to. The article element is used for each post, to mark up the threading. --&gt;
-&lt;article&gt;
+|Code=&lt;article&gt;
  &lt;h1&gt;&lt;a href="http://bacon.example.com/?blog=109431"&gt;Bacon on a crowbar&lt;/a&gt;&lt;/h1&gt;
  &lt;article&gt;
   &lt;header&gt;&lt;strong&gt;t3yw&lt;/strong&gt; 12 points 1 hour ago&lt;/header&gt;
@@ -155,7 +143,19 @@ The cite IDL attribute must reflect the element's cite content attribute.
      &lt;article&gt;
       &lt;header&gt;&lt;strong&gt;boing&lt;/strong&gt; -5 points 1 hour ago&lt;/header&gt;
       &lt;p&gt;narwhals are worse than ceiling cat&lt;/p&gt;
-      &lt;footer&gt;&lt;a href="?pid=29581"&gt;p
+      &lt;footer&gt;&lt;a href="?pid=29581"&gt;permalink&lt;/a&gt;&lt;/footer&gt;
+     &lt;/article&gt;
+    &lt;/article&gt;
+   &lt;/article&gt;
+  &lt;/article&gt;
+  &lt;article&gt;
+   &lt;header&gt;&lt;strong&gt;fred&lt;/strong&gt; 1 points 23 minutes ago&lt;/header&gt;
+   &lt;blockquote&gt;&lt;p&gt;I bet a narwhal would love that.&lt;/p&gt;&lt;/blockquote&gt;
+   &lt;p&gt;I bet they'd love to peel a banana too.&lt;/p&gt;
+   &lt;footer&gt;&lt;a href="?pid=29582"&gt;permalink&lt;/a&gt;&lt;/footer&gt;
+  &lt;/article&gt;
+ &lt;/article&gt;
+&lt;/article&gt;
 }}{{Single Example
 |Language=HTML
 |Code=&lt;!-- This example shows the use of a blockquote for short snippets, demonstrating that one does not have to use p elements inside blockquote elements: --&gt;
@@ -918,20 +918,24 @@ This property is not supported for Metro style apps using JavaScript.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
+|Chrome_supported=Unknown
+|Chrome_version=
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
+|Internet_explorer_supported=Unknown
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Yes
+|Opera_supported=Unknown
+|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Yes
+|Safari_supported=Unknown
+|Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
