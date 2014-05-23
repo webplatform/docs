@@ -913,7 +913,11 @@ This property is not supported for Metro style apps using JavaScript.
 |}
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 - 4.3 Sections
+|URL=www.w3.org/TR/html5/sections.html
+|Status=W3C Candidate Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
