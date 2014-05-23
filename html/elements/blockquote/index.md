@@ -119,7 +119,8 @@ The cite IDL attribute must reflect the element's cite content attribute.
   ...
 }}{{Single Example
 |Language=HTML
-|Code=&lt;article&gt;
+|Code=&lt;!-- This example shows how a forum post could use blockquote to show what post a user is replying to. The article element is used for each post, to mark up the threading. --&gt;
+&lt;article&gt;
  &lt;h1&gt;&lt;a href="http://bacon.example.com/?blog=109431"&gt;Bacon on a crowbar&lt;/a&gt;&lt;/h1&gt;
  &lt;article&gt;
   &lt;header&gt;&lt;strong&gt;t3yw&lt;/strong&gt; 12 points 1 hour ago&lt;/header&gt;
