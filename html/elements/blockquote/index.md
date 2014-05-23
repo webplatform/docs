@@ -19,7 +19,7 @@
 {{!}}block
 {{!}}}
 ===Introdcution===
-The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a '''footer''' or '''cite''' element, and optionally with in-line changes such as annotations and abbreviations.
+The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a [[http://docs.webplatform.org/wiki/html/elements/footer|'''footer''']] or [[http://docs.webplatform.org/wiki/html/elements/cite|'''cite''']] element, and optionally with in-line changes such as annotations and abbreviations.
 
 Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the '''cite''' attribute.
 
