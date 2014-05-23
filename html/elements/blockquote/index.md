@@ -4,7 +4,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''blockquote''' element indicates an extended quotation.}}
 {{Markup_Element
@@ -977,7 +977,6 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure, HTML
 |Manual_sections====Related pages (internal)===
 *<code>[[html/elements/q|q]]</code>
 *<code>[[html/elements/cite|cite]]</code>
