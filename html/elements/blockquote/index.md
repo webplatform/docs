@@ -35,7 +35,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 |Language=HTML
 |Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
 |Code=&lt;p&gt;He said,
-&lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;&lt;/p&gt;
+&lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
 |Description=The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
@@ -916,24 +916,20 @@ This property is not supported for Metro style apps using JavaScript.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
+|Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
+|Internet_explorer_supported=Yes
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
+|Opera_supported=Yes
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -974,6 +970,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Document Structure, HTML
 |Manual_sections====Related pages (internal)===
 *<code>[[html/elements/q|q]]</code>
 *<code>[[html/elements/cite|cite]]</code>
