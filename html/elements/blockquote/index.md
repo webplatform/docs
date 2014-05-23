@@ -61,7 +61,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  p19 (in Google Books)
  &lt;/footer&gt;
  &lt;/figure&gt;
-|LiveURL=#note-ex-3
+&lt:!-- see note "ex 3" below --&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
@@ -93,6 +93,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
   &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
  &lt;/footer&gt;
  &lt;/blockquote&gt;
+&lt:!-- see note "ex 6" below --&gt;
 }}{{Single Example
 |Language=HTML
 |Code=&lt;!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: --&gt;
@@ -172,7 +173,7 @@ be cowed by the possibility.&lt;/blockquote&gt;
 {{Notes_Section
 |Notes====Remarks===
 *<b id="note-ex-3">ex 3</b>: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
-*Ex. 6) There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
+*<b id="note-ex-6">ex 3</b>: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
 * Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the cite and blockquote elements for this purpose.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
