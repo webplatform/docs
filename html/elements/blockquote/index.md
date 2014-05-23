@@ -19,15 +19,15 @@
 {{!}}block
 {{!}}}
 ===Introdcution===
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations.
+The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a '''footer''' or '''cite''' element, and optionally with in-line changes such as annotations and abbreviations.
 
-Content inside a blockquote other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the cite attribute.
+Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the '''cite''' attribute.
 
 > Note: In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
 
-If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
+If the '''cite''' attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
 
-The cite IDL attribute must reflect the element's cite content attribute.
+The '''cite''' IDL attribute must reflect the element's '''cite''' content attribute.
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,13 +38,13 @@ The cite IDL attribute must reflect the element's cite content attribute.
 &lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
+|Description=The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
 |Code=&lt;blockquote&gt;
  &lt;p&gt;[Fred] then said he liked [...] fish.&lt;/p&gt;
 &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote.
+|Description=Quotation marks may be used to delineate between quoted text and annotations within a '''blockquote'''.
 |Code=&lt;!-- For example, an in-line note provided by the author: --&gt;
 &lt;figure&gt;
  &lt;blockquote&gt;
@@ -64,7 +64,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 &lt;!-- see note "ex 3" below --&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
+|Description=Attribution for the quotation may be be placed inside the '''blockquote''' element, but must be within a '''cite''' element for in-text attributions or within a '''footer''' element.
 |Code=&lt;!-- For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution: --&gt;
 &lt;blockquote&gt;
  &lt;p&gt;I contend that we are both atheists. I just believe in one fewer
