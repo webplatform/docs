@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ""blockquote"" element (&lt;blockquote&gt;) indicates an extended quotation.}}
+{{Summary_Section|The '''blockquote''' element indicates an extended quotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
 |Content====HTML information===
@@ -33,7 +33,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
+|Description=This example uses the '''BLOCKQUOTE''' (&lt;blockquote&gt;) element to set off a quotation that renders as indented text.
 |Code=&lt;p&gt;He said,
 &lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}{{Single Example
