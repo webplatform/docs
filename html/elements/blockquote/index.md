@@ -174,7 +174,7 @@ be cowed by the possibility.&lt;/blockquote&gt;
 {{Notes_Section
 |Notes====Remarks===
 *<b id="note-ex-3">ex 3</b>: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
-*<b id="note-ex-6">ex 3</b>: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
+*<b id="note-ex-6">ex 6</b>: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
 * Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the cite and blockquote elements for this purpose.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
