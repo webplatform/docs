@@ -33,63 +33,63 @@ The cite IDL attribute must reflect the element's cite content attribute.
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
-|Code=<p>He said,
-<blockquote cite="http://www.example.com">"Hi there!"</blockquote></p>
+|Code=&lt;p&gt;He said,
+&lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;&lt;/p&gt;
 }}{{Single Example
 |Language=HTML
 |Description=The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
-|Code=<blockquote>
- <p>[Fred] then said he liked [...] fish.</p>
-</blockquote>
+|Code=&lt;blockquote&gt;
+ &lt;p&gt;[Fred] then said he liked [...] fish.&lt;/p&gt;
+&lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote. For example, an in-line note provided by the author:
-|Code=<figure>
- <blockquote>
+|Code=&lt;figure&gt;
+ &lt;blockquote&gt;
  "That monster custom, who all sense doth eat
- Of habit's devil," <abbr title="et cetera">&c.</abbr> not in Folio
+ Of habit's devil," &lt;abbr title="et cetera"&gt;&c.&lt;/abbr&gt; not in Folio
  
  "What a falling off was there !
  From me, whose love was of that dignity
  That it went hand in hand even with the vow
  I made to her in marriage, and to decline
  Upon a wretch."
- </blockquote>
- <footer>
- — <cite class="title">Shakespeare manual</cite> by <cite class="author">Frederick Gard Fleay</cite>, 
+ &lt;/blockquote&gt;
+ &lt;footer&gt;
+ — &lt;cite class="title"&gt;Shakespeare manual&lt;/cite&gt; by &lt;cite class="author"&gt;Frederick Gard Fleay&lt;/cite&gt;, 
  p19 (in Google Books)
- </footer>
- </figure>
+ &lt;/footer&gt;
+ &lt;/figure&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element. For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution:
-|Code=<blockquote>
- <p>I contend that we are both atheists. I just believe in one fewer
+|Code=&lt;blockquote&gt;
+ &lt;p&gt;I contend that we are both atheists. I just believe in one fewer
  god than you do. When you understand why you dismiss all the other
- possible gods, you will understand why I dismiss yours.</p>
- <footer>— <cite>Stephen Roberts</cite></footer>
- </blockquote>
+ possible gods, you will understand why I dismiss yours.&lt;/p&gt;
+ &lt;footer&gt;— &lt;cite&gt;Stephen Roberts&lt;/cite&gt;&lt;/footer&gt;
+ &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included.
-|Code=<blockquote>
+|Code=&lt;blockquote&gt;
  The people recognize themselves in their commodities; they find their 
  soul in their automobile, hi-fi set, split-level home, kitchen equipment. 
- — <cite><a href="http://en.wikipedia.org/wiki/Herbert_Marcuse">Herbert Marcuse</a></cite>
- </blockquote>
+ — &lt;cite&gt;&lt;a href="http://en.wikipedia.org/wiki/Herbert_Marcuse"&gt;Herbert Marcuse&lt;/a&gt;&lt;/cite&gt;
+ &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite).
-|Code=<blockquote>
- <p>... she said she would not sign any deposition containing the word "amorous" 
+|Code=&lt;blockquote&gt;
+ &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" 
  instead of "advances". For her the difference was of crucial significance, 
- and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.</p>
-<footer itemscope itemtype="http://schema.org/Book">
-  <span itemprop="author">Heinrich Böll</span>,
-  <span itemprop="name">The Lost Honor of Katharina Blum</span>, 
-  <span itemprop="datePublished">January 1, 1974</span>
- </footer>
- </blockquote>
+ and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.&lt;/p&gt;
+&lt;footer itemscope itemtype="http://schema.org/Book"&gt;
+  &lt;span itemprop="author"&gt;Heinrich Böll&lt;/span&gt;,
+  &lt;span itemprop="name"&gt;The Lost Honor of Katharina Blum&lt;/span&gt;, 
+  &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
+ &lt;/footer&gt;
+ &lt;/blockquote&gt;
 }}
 }}
 {{Notes_Section
@@ -332,7 +332,7 @@ The '''blockQuote''' object has these events.
 |[[dom/events/select|'''onselectstart''']]
 |Fires when the object is being selected.
 |}
- 
+ 
 
 ====Methods====
 The '''blockQuote''' object has these methods.
@@ -392,7 +392,7 @@ This method is not supported for Metro style apps using JavaScript.
 |Retrieves the value of the specified attribute.
 |-
 |[[dom/methods/getAttributeNode|'''getAttributeNode''']]
-|Retrieves an [[dom/attributes|'''attribute''']] object referenced by the '''attribute'''.[[html/attributes/name|'''name''']] property.
+|Retrieves an [[dom/attributes|'''attribute''']] object referenced by the '''attribute'''.[[html/attributes/name|'''name''']] property.
 |-
 |[[dom/methods/getAttributeNodeNS|'''getAttributeNodeNS''']]
 |Gets an [[dom/attributes|'''attribute''']] object that matches the specified namespace and name.
@@ -465,7 +465,7 @@ that match any selector within the supplied selector strings.
 |Removes an attribute from an object.
 |-
 |[[dom/methods/removeAttributeNode|'''removeAttributeNode''']]
-|Removes an [[dom/attributes|'''attribute''']] object from the object.
+|Removes an [[dom/attributes|'''attribute''']] object from the object.
 |-
 |[[dom/methods/removeAttributeNS|'''removeAttributeNS''']]
 |Removes the specified attribute from the object.
@@ -498,7 +498,7 @@ that match any selector within the supplied selector strings.
 |Sets the value of the specified attribute.
 |-
 |[[dom/methods/setAttributeNode|'''setAttributeNode''']]
-|Sets an [[dom/attributes|'''attribute''']] object node as part of the object.
+|Sets an [[dom/attributes|'''attribute''']] object node as part of the object.
 |-
 |[[dom/methods/setAttributeNodeNS|'''setAttributeNodeNS''']]
 |Sets an [[dom/attributes|'''attribute''']] object as part of the object.
@@ -512,7 +512,7 @@ that match any selector within the supplied selector strings.
 |[[dom/methods/swapNode|'''swapNode''']]
 |Exchanges the location of two objects in the document hierarchy.
 |}
- 
+ 
 
 ====Properties====
 The '''blockQuote''' object has these properties.
@@ -525,10 +525,10 @@ The '''blockQuote''' object has these properties.
 |Sets or retrieves the access key for the object.
 |-
 |[[css/properties/animation/animation|'''animation''']]
-|Gets or sets one or more shorthand values  that specify all animation properties (except   [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+|Gets or sets one or more shorthand values  that specify all animation properties (except   [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
 |-
 |[[css/properties/animation-delay|'''animationDelay''']]
-|Gets or sets one or more values  that specify the offset within an animation cycle (the amount of time from the start of a cycle) before  the animation  is displayed  for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
+|Gets or sets one or more values  that specify the offset within an animation cycle (the amount of time from the start of a cycle) before  the animation  is displayed  for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
 |-
 |[[css/properties/animation-direction|'''animationDirection''']]
 |Gets or sets one or more values  that specify the direction of play for an animation cycle.
@@ -543,13 +543,13 @@ The '''blockQuote''' object has these properties.
 |Gets or sets one or more values  that specify the number of times an animation cycle is played.
 |-
 |[[css/properties/animation-name|'''animationName''']]
-|Gets or sets a value  that identifies one or more animation names. An animation name identifies (or selects) a  CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
+|Gets or sets a value  that identifies one or more animation names. An animation name identifies (or selects) a  CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule.
 |-
 |[[css/properties/animation-play-state|'''animationPlayState''']]
 |Gets or sets one or more values  that specify whether an animation is playing or paused.
 |-
 |[[css/properties/animation-timing-function|'''animationTimingFunction''']]
-|Gets or sets one or more values  that specify the intermediate property values to be used during a single cycle of an animation on a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animationName''']] property.
+|Gets or sets one or more values  that specify the intermediate property values to be used during a single cycle of an animation on a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animationName''']] property.
 |-
 |[[html/attributes/ATOMICSELECTION html_attribute|'''ATOMICSELECTION''']]
 |Specifies whether the element and its contents must be selected as a whole, indivisible unit.
@@ -834,7 +834,7 @@ This property is not supported for Metro style apps using JavaScript.
 |[[dom/properties/uniqueNumber|'''uniqueNumber''']]
 |Retrieves the element's unique number.
 |}
- 
+ 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -913,5 +913,3 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-<P>He said,
-<blockquote cite="http://www.example.com">"Hi there!"</blockquote>
