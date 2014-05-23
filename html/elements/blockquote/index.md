@@ -42,12 +42,12 @@ The cite IDL attribute must reflect the element's cite content attribute.
 &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote. For example, an in-line note provided by the author:
-|Code=&lt;figure&gt;
+|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote.
+|Code=&lt;!-- For example, an in-line note provided by the author: --&gt;
+&lt;figure&gt;
  &lt;blockquote&gt;
  "That monster custom, who all sense doth eat
- Of habit's devil," &lt;abbr title="et cetera"&gt;&c.&lt;/abbr&gt; not in Folio
- 
+ Of habit's devil," &lt;abbr title="et cetera"&gt;&c.&lt;/abbr&gt; not in Folio 
  "What a falling off was there !
  From me, whose love was of that dignity
  That it went hand in hand even with the vow
@@ -61,8 +61,9 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/figure&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element. For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution:
-|Code=&lt;blockquote&gt;
+|Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element.
+|Code=&lt;!-- For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution: --&gt;
+&lt;blockquote&gt;
  &lt;p&gt;I contend that we are both atheists. I just believe in one fewer
  god than you do. When you understand why you dismiss all the other
  possible gods, you will understand why I dismiss yours.&lt;/p&gt;
@@ -70,16 +71,16 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included.
-|Code=&lt;blockquote&gt;
+|Code=&lt!-- Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included. --&gt;
+&lt;blockquote&gt;
  The people recognize themselves in their commodities; they find their 
  soul in their automobile, hi-fi set, split-level home, kitchen equipment. 
  — &lt;cite&gt;&lt;a href="http://en.wikipedia.org/wiki/Herbert_Marcuse"&gt;Herbert Marcuse&lt;/a&gt;&lt;/cite&gt;
  &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite).
-|Code=&lt;blockquote&gt;
+|Code=&lt!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). --&gt;
+&lt;blockquote&gt;
  &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" 
  instead of "advances". For her the difference was of crucial significance, 
  and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.&lt;/p&gt;
@@ -91,8 +92,8 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=In this example the source of a quote includes a cite element, which is annotated using the class attribute:
-|Code=&lt;blockquote&gt;
+|Code=&lt;!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: --&gt;
+&lt;blockquote&gt;
   &lt;p&gt;My favorite book is &lt;cite class="from-source"&gt;At Swim-Two-Birds&lt;/cite&gt;&lt;/p&gt;
   &lt;footer&gt;- &lt;cite&gt;Mike[tm]Smith&lt;/cite&gt;&lt;/footer&gt;
   &lt;/blockquote&gt;
