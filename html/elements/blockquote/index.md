@@ -71,7 +71,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Code=&lt!-- Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included. --&gt;
+|Code=&lt;!-- Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included. --&gt;
 &lt;blockquote&gt;
  The people recognize themselves in their commodities; they find their 
  soul in their automobile, hi-fi set, split-level home, kitchen equipment. 
@@ -79,7 +79,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Code=&lt!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). --&gt;
+|Code=&lt;!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). --&gt;
 &lt;blockquote&gt;
  &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" 
  instead of "advances". For her the difference was of crucial significance, 
@@ -116,6 +116,54 @@ The cite IDL attribute must reflect the element's cite content attribute.
  the &lt;cite&gt;Skeptical Enquirer&lt;/cite&gt; Volume 19, Issue 1 (January-February
  1995)&lt;/figcaption&gt;
 &lt;/figure&gt;
+}}{{Single Example
+|Language=HTML
+|Code=&lt;!-- This next example shows the use of cite alongside blockquote: --&gt;
+&lt;p&gt;His next piece was the aptly named &lt;cite&gt;Sonnet 130&lt;/cite&gt;:&lt;/p&gt;
+&lt;blockquote cite="http://quotes.example.org/s/sonnet130.html"&gt;
+  &lt;p&gt;My mistress' eyes are nothing like the sun,&lt;br&gt;
+  Coral is far more red, than her lips red,&lt;br&gt;
+  ...
+}}{{Single Example
+|Language=HTML
+|Code=&lt;!-- This example shows how a forum post could use blockquote to show what post a user is replying to. The article element is used for each post, to mark up the threading. --&gt;
+&lt;article&gt;
+ &lt;h1&gt;&lt;a href="http://bacon.example.com/?blog=109431"&gt;Bacon on a crowbar&lt;/a&gt;&lt;/h1&gt;
+ &lt;article&gt;
+  &lt;header&gt;&lt;strong&gt;t3yw&lt;/strong&gt; 12 points 1 hour ago&lt;/header&gt;
+  &lt;p&gt;I bet a narwhal would love that.&lt;/p&gt;
+  &lt;footer&gt;&lt;a href="?pid=29578"&gt;permalink&lt;/a&gt;&lt;/footer&gt;
+  &lt;article&gt;
+   &lt;header&gt;&lt;strong&gt;greg&lt;/strong&gt; 8 points 1 hour ago&lt;/header&gt;
+   &lt;blockquote&gt;&lt;p&gt;I bet a narwhal would love that.&lt;/p&gt;&lt;/blockquote&gt;
+   &lt;p&gt;Dude narwhals don't eat bacon.&lt;/p&gt;
+   &lt;footer&gt;&lt;a href="?pid=29579"&gt;permalink&lt;/a&gt;&lt;/footer&gt;
+   &lt;article&gt;
+    &lt;header&gt;&lt;strong&gt;t3yw&lt;/strong&gt; 15 points 1 hour ago&lt;/header&gt;
+    &lt;blockquote&gt;
+     &lt;blockquote&gt;&lt;p&gt;I bet a narwhal would love that.&lt;/p&gt;&lt;/blockquote&gt;
+     &lt;p&gt;Dude narwhals don't eat bacon.&lt;/p&gt;
+    &lt;/blockquote&gt;
+    &lt;p&gt;Next thing you'll be saying they don't get capes and wizard
+    hats either!&lt;/p&gt;
+    &lt;footer&gt;&lt;a href="?pid=29580"&gt;permalink&lt;/a&gt;&lt;/footer&gt;
+    &lt;article&gt;
+     &lt;article&gt;
+      &lt;header&gt;&lt;strong&gt;boing&lt;/strong&gt; -5 points 1 hour ago&lt;/header&gt;
+      &lt;p&gt;narwhals are worse than ceiling cat&lt;/p&gt;
+      &lt;footer&gt;&lt;a href="?pid=29581"&gt;p
+}}{{Single Example
+|Language=HTML
+|Code=&lt;!-- This example shows the use of a blockquote for short snippets, demonstrating that one does not have to use p elements inside blockquote elements: --&gt;
+&lt;p&gt;He began his list of "lessons" with the following:&lt;/p&gt;
+&lt;blockquote&gt;One should never assume that his side of 
+the issue will be recognized, let alone that it will 
+be conceded to have merits.&lt;/blockquote&gt;
+&lt;p&gt;He continued with a number of similar points, ending with:&lt;/p&gt;
+&lt;blockquote&gt;Finally, one should be prepared for the threat 
+of breakdown in negotiations at any given moment and not 
+be cowed by the possibility.&lt;/blockquote&gt;
+&lt;p&gt;We shall now discuss these points...
 }}
 }}
 {{Notes_Section
@@ -123,6 +171,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 *Introduction)  In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
 *Ex. 3) In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
 *Ex. 6) There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
+* Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the cite and blockquote elements for this purpose.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.2
