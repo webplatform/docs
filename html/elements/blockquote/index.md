@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''blockquote'''  element (&lt;blockquote&gt;) indicates an extended quotation.}}
+{{Summary_Section|The '''blockquote'''  element indicates an extended quotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
 |Content====HTML information===
@@ -18,20 +18,87 @@
 !CSS Display
 {{!}}block
 {{!}}}
+===Introdcution===
+The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations.
+
+Content inside a blockquote other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the cite attribute.
+
+If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
+
+The cite IDL attribute must reflect the element's cite content attribute.
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''BLOCKQUOTE''' element to set off a quotation that renders as indented text.
-|Code=&lt;P&gt;He said,
-&lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
+|Code=<p>He said,
+<blockquote cite="http://www.example.com">"Hi there!"</blockquote></p>
+}}{{Single Example
+|Language=HTML
+|Description=The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
+|Code=<blockquote>
+ <p>[Fred] then said he liked [...] fish.</p>
+</blockquote>
+}}{{Single Example
+|Language=HTML
+|Description=Quotation marks may be used to delineate between quoted text and annotations within a blockquote. For example, an in-line note provided by the author:
+|Code=<figure>
+ <blockquote>
+ "That monster custom, who all sense doth eat
+ Of habit's devil," <abbr title="et cetera">&c.</abbr> not in Folio
+ 
+ "What a falling off was there !
+ From me, whose love was of that dignity
+ That it went hand in hand even with the vow
+ I made to her in marriage, and to decline
+ Upon a wretch."
+ </blockquote>
+ <footer>
+ — <cite class="title">Shakespeare manual</cite> by <cite class="author">Frederick Gard Fleay</cite>, 
+ p19 (in Google Books)
+ </footer>
+ </figure>
+}}{{Single Example
+|Language=HTML
+|Description=Attribution for the quotation, may be be placed inside the blockquote element, but must be within a cite element for in-text attributions or within a footer element. For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution:
+|Code=<blockquote>
+ <p>I contend that we are both atheists. I just believe in one fewer
+ god than you do. When you understand why you dismiss all the other
+ possible gods, you will understand why I dismiss yours.</p>
+ <footer>— <cite>Stephen Roberts</cite></footer>
+ </blockquote>
+}}{{Single Example
+|Language=HTML
+|Description=Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included.
+|Code=<blockquote>
+ The people recognize themselves in their commodities; they find their 
+ soul in their automobile, hi-fi set, split-level home, kitchen equipment. 
+ — <cite><a href="http://en.wikipedia.org/wiki/Herbert_Marcuse">Herbert Marcuse</a></cite>
+ </blockquote>
+}}{{Single Example
+|Language=HTML
+|Description=Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite).
+|Code=<blockquote>
+ <p>... she said she would not sign any deposition containing the word "amorous" 
+ instead of "advances". For her the difference was of crucial significance, 
+ and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.</p>
+<footer itemscope itemtype="http://schema.org/Book">
+  <span itemprop="author">Heinrich Böll</span>,
+  <span itemprop="name">The Lost Honor of Katharina Blum</span>, 
+  <span itemprop="datePublished">January 1, 1974</span>
+ </footer>
+ </blockquote>
 }}
 }}
-<P>He said,
-<blockquote cite="http://www.example.com">"Hi there!"</blockquote>
 {{Notes_Section
 |Notes====Remarks===
+Introduction:  In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
+--
+Ex. 3: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information, about the quote, with the quote. The figcaption element was not used, in this case, as a container for the citation as it is not a caption.
+--
+Ex. 6: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.2
@@ -846,3 +913,5 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+<P>He said,
+<blockquote cite="http://www.example.com">"Hi there!"</blockquote>
