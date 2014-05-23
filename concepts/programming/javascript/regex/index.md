@@ -162,7 +162,7 @@ var re = new RegExp("ab+c");
       <td>
         <p>Matches a word boundary. A word boundary matches the position where a word character is not followed or preceeded by another word-character. Note that a matched word boundary is not included in the match. In other words, the length of a matched word boundary is zero. (Not to be confused with <code>[\b]</code>.)</p>
         <p>Examples:<br />
-          <code>/\bmoo/</code> matches the 'm' in "moon" ;<br />
+          <code>/\bmoo/</code> matches the 'moo' in "moon" ;<br />
           <code>/oo\b/</code> does not match the 'oo' in "moon", because 'oo' is followed by 'n' which is a word character;<br />
           <code>/oon\b/</code> matches the 'oon' in "moon", because 'oon' is the end of the string, thus not followed by a word character;<br />
           <code>/\w\b\w/</code> will never match anything, because a word character can never be followed by both a non-word and a word character.</p>
