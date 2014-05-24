@@ -186,7 +186,7 @@ The '''blockQuote''' object has these types of members:
 *[[#properties|Properties]]
 
 ====Events====
-The '''blockQuote''' object has these events.
+<div id="events">The '''blockQuote''' object has these events.</div>
 {{{!}} class="wikitable"
 {{!}}-
 ! Event
@@ -399,7 +399,7 @@ The '''blockQuote''' object has these events.
  
 
 ====Methods====
-The '''blockQuote''' object has these methods.
+<div id="methods">The '''blockQuote''' object has these methods.</div>
 {{{!}} class="wikitable"
 {{!}}-
 ! Method
@@ -579,7 +579,7 @@ that match any selector within the supplied selector strings.
  
 
 ====Properties====
-The '''blockQuote''' object has these properties.
+<div id="properties">The '''blockQuote''' object has these properties.</div>
 {{{!}} class="wikitable"
 {{!}}-
 ! Property
