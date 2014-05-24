@@ -21,13 +21,13 @@
 ===Introdcution===
 The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a [[http://docs.webplatform.org/wiki/html/elements/footer|'''footer''']] or [[http://docs.webplatform.org/wiki/html/elements/cite|'''cite''']] element, and optionally with in-line changes such as annotations and abbreviations.
 
-Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the '''cite''' attribute.
+Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the cite attribute.
 
 > Note: In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
 
-If the '''cite''' attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
+If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
 
-The '''cite''' IDL attribute must reflect the element's '''cite''' content attribute.
+The cite IDL attribute must reflect the element's cite content attribute.
 }}
 {{Examples_Section
 |Not_required=No
@@ -61,7 +61,7 @@ The '''cite''' IDL attribute must reflect the element's '''cite''' content attri
  p19 (in Google Books)
  &lt;/footer&gt;
  &lt;/figure&gt;
-&lt;!-- see note "ex 3" below --&gt;
+&lt;!-- Note: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information about the quote with the quote. The figcaption element was not used in this case as a container for the citation, as it is not a caption. --&gt;
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation may be be placed inside the '''blockquote''' element, but must be within a '''cite''' element for in-text attributions or within a '''footer''' element.
@@ -91,7 +91,7 @@ The '''cite''' IDL attribute must reflect the element's '''cite''' content attri
     &lt;span itemprop="datePublished"&gt;January 1, 1974&lt;/span&gt;
   &lt;/footer&gt;
 &lt;/blockquote&gt;
-&lt;!-- see note "ex 6" below --&gt;
+&lt;!-- Note: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a '''blockquote''' to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism). --&gt;
 }}{{Single Example
 |Language=HTML
 |Code=&lt;!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: --&gt;
@@ -173,9 +173,7 @@ be cowed by the possibility.&lt;/blockquote&gt;
 }}
 {{Notes_Section
 |Notes====Remarks===
-*<b id="note-ex-3">ex 3</b>: In the example above, the citation is contained within the '''footer''' of a '''figure''' element, this groups and associates the information about the quote with the quote. The '''figcaption''' element was not used in this case, as a container for the citation as it is not a caption.
-*<b id="note-ex-6">ex 6</b>: There is no formal method for indicating the markup in a '''blockquote''' is from a quoted source. It is suggested that if the '''footer''' or '''cite''' elements are included and these elements are also being used within a '''blockquote''' to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism).
-* Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the '''cite''' and '''blockquote''' elements for this purpose.
+*Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the '''cite''' and '''blockquote''' elements for this purpose.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 9.2.2
@@ -915,7 +913,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5 - 4.3 Sections
-|URL=www.w3.org/TR/html5/sections.html
+|URL=http://www.w3.org/TR/html5/sections.html
 |Status=W3C Candidate Recommendation
 }}
 }}
