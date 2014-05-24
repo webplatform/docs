@@ -21,7 +21,7 @@
 ===Introdcution===
 The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a [[http://docs.webplatform.org/wiki/html/elements/footer|'''footer''']] or [[http://docs.webplatform.org/wiki/html/elements/cite|'''cite''']] element, and optionally with in-line changes such as annotations and abbreviations.
 
-Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the cite attribute.
+Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the [[http://docs.webplatform.org/wiki/html/attributes/cite|cite attribute]].
 
 > Note: In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
 
@@ -988,6 +988,6 @@ This property is not supported for Metro style apps using JavaScript.
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx|Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
