@@ -23,7 +23,7 @@ The '''blockquote''' element represents content that is quoted from another sour
 
 Content inside a '''blockquote''' other than citations and in-line changes must be quoted from another source, whose address, if it has one, may be cited in the [[html/attributes/cite|'''cite''' attribute]].
 
-> Note: In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
+: Note: In cases where a page contains contributions from multiple people, such as comments on a blog post, 'another source' can include text from the same page, written by another person.
 
 If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
 
@@ -33,7 +33,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=&lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
+|Code= &lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
 &lt;p&gt;He said,
 &lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
 }}{{Single Example
