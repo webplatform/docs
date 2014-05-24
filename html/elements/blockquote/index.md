@@ -181,17 +181,16 @@ be cowed by the possibility.&lt;/blockquote&gt;
 
 ===Members===
 The '''blockQuote''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
-
+*[[#events|Events]]
+*[[#methods|Methods]]
+*[[#properties|Properties]]
 
 ====Events====
 The '''blockQuote''' object has these events.
-{| class="wikitable"
+{{{!}} class="wikitable"
 {{!}}-
-!Event
-!Description
+! Event
+! Description
 {{!}}-
 {{!}}[[dom/events/abort|'''onabort''']]
 {{!}}Fires when the user aborts the download.
@@ -401,10 +400,10 @@ The '''blockQuote''' object has these events.
 
 ====Methods====
 The '''blockQuote''' object has these methods.
-{| class="wikitable"
+{{{!}} class="wikitable"
 {{!}}-
-!Method
-!Description
+! Method
+! Description
 {{!}}-
 {{!}}'''addBehavior'''
 {{!}}Attaches a behavior to the element. 
@@ -581,10 +580,10 @@ that match any selector within the supplied selector strings.
 
 ====Properties====
 The '''blockQuote''' object has these properties.
-{| class="wikitable"
+{{{!}} class="wikitable"
 {{!}}-
-!Property
-!Description
+! Property
+! Description
 {{!}}-
 {{!}}[[html/attributes/accessKey|'''accessKey''']]
 {{!}}Sets or retrieves the access key for the object.
