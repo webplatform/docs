@@ -361,7 +361,7 @@ I encourage you to take this as a foundation, to play around with &amp; to gain 
 * [http://appium.io/ Appium] - A Node.js based framework to interface with mobile applications &amp; browsers
 * [https://github.com/admc/wd WD.js] - A Node.js framework to interface with different browsers
 * [http://dalekjs.com/ Dalek.js] - A Node.js framework designed to test websites in different browsers
-}}
+
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
