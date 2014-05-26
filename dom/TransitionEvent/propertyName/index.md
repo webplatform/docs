@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Specifies or retrives a string containg name of changed property.}}
 {{API_Object_Property
 |Property_applies_to=dom/TransitionEvent
 |Read_only=No
@@ -20,6 +20,11 @@
 &lt;html lang{{=}}"en"&gt;
 &lt;head&gt;
 &lt;script&gt;
+    function inform() {
+        //Get propertyName property
+        alert(event.propertyName + " property has changed value")
+    };
+
     function changeProperty() {
         btnProp.value {{=}} "This is the new VALUE";
     };
@@ -36,14 +41,14 @@
       type{{=}}"button"
       value{{=}}"Click to change the VALUE property of this button"
       onclick{{=}}"changeProperty()"
-      onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+      onpropertychange{{=}}"inform()"
     /&gt;
     &lt;input 
       id{{=}}"btnStyleProp"
       type{{=}}"button"
       value{{=}}"Click to change the CSS backgroundColor property of this button"
       onclick{{=}}"changeCSSProperty()"
-      onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+      onpropertychange{{=}}"inform()"
     /&gt;
 &lt;/body&gt;
 &lt;/html&gt;
