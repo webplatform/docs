@@ -20,31 +20,31 @@
 &lt;html lang{{=}}"en"&gt;
 &lt;head&gt;
 &lt;script&gt;
-function changeProperty() {
-    btnProp.value {{=}} "This is the new VALUE";
-};
+    function changeProperty() {
+        btnProp.value {{=}} "This is the new VALUE";
+    };
 
-function changeCSSProperty() {
-    btnStyleProp.style.backgroundColor {{=}} "aqua";
-};
+    function changeCSSProperty() {
+        btnStyleProp.style.backgroundColor {{=}} "aqua";
+    };
 &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p&gt;The event object property propertyName is used here to return which property has been altered.&lt;/p&gt;
-&lt;input 
-  id{{=}}"btnProp"
-  type{{=}}"button"
-  value{{=}}"Click to change the VALUE property of this button"
-  onclick{{=}}"changeProperty()"
-  onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
-/&gt;
-&lt;input 
-  id{{=}}"btnStyleProp"
-  type{{=}}"button"
-  value{{=}}"Click to change the CSS backgroundColor property of this button"
-  onclick{{=}}"changeCSSProperty()"
-  onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
-/&gt;
+    &lt;p&gt;The event object property propertyName is used here to return which property has been altered.&lt;/p&gt;
+    &lt;input 
+      id{{=}}"btnProp"
+      type{{=}}"button"
+      value{{=}}"Click to change the VALUE property of this button"
+      onclick{{=}}"changeProperty()"
+      onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+    /&gt;
+    &lt;input 
+      id{{=}}"btnStyleProp"
+      type{{=}}"button"
+      value{{=}}"Click to change the CSS backgroundColor property of this button"
+      onclick{{=}}"changeCSSProperty()"
+      onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+    /&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm
