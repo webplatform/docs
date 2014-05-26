@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Needs Review
 |Content=Incomplete
-|Checked_Out=Yes
 }}
 {{Summary_Section|An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.}}
 {{JS_Syntax
@@ -69,8 +69,9 @@ Number("foo"); // NaN
 Number("123foo"); // NaN
 </syntaxhighlight>
 
-''''Integer range''
-Biggest int possible is 9007199254740992.
+'''Integer range'''
+
+Biggest int possible is 9007199254740992. <br />
 Smallest int possible is -9007199254740992.
 
 <syntaxhighlight lang="javascript">
@@ -81,10 +82,8 @@ console.log(biggestInt  + 2 === 9007199254740994) ;
 
 '''Octals and Hexadecimals'''
 
-Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.
-
-Octal numbers must begin with 0 (zero) followed by one or more octal digits.
-
+Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.<br />
+Octal numbers must begin with 0 (zero) followed by one or more octal digits.<br />
 Hexadecimal numbers must begin with 0x.
 }}
 {{Notes_Section}}
@@ -157,6 +156,7 @@ The following table lists the methods of the '''Number''' object.
 
 {{Topics | JS Basic}}
 {{See_Also_Section
+|Topic_clusters=Javascript
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/operators/new{{!}}new Operator]]
