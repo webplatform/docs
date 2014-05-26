@@ -14,38 +14,39 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
+|Language=HTML
 |Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property.
-|Code=&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function changeProp()
-{
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html lang{{=}}"en"&gt;
+&lt;head&gt;
+&lt;script&gt;
+function changeProperty() {
     btnProp.value {{=}} "This is the new VALUE";
-}
+};
 
-function changeCSSProp()
-{
+function changeCSSProperty() {
     btnStyleProp.style.backgroundColor {{=}} "aqua";
-}
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;P&gt;The event object property propertyName is 
-    used here to return which property has been 
-    altered.&lt;/P&gt;
-
-&lt;INPUT TYPE{{=}}button ID{{=}}btnProp onclick{{=}}"changeProp()"
-       VALUE{{=}}"Click to change the VALUE property 
-       of this button"
-       onpropertychange{{=}}'alert(event.propertyName + " 
-       property has changed value")'&gt;
-&lt;INPUT TYPE{{=}}button ID{{=}}btnStyleProp
-       onclick{{=}}"changeCSSProp()"
-       VALUE{{=}}"Click to change the CSS backgroundColor 
-       property of this button"
-       onpropertychange{{=}}'alert(event.propertyName + " 
-       property has changed value")'&gt;
-&lt;/BODY&gt;
+};
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;The event object property propertyName is used here to return which property has been altered.&lt;/p&gt;
+&lt;input 
+  id{{=}}"btnProp"
+  type{{=}}"button"
+  value{{=}}"Click to change the VALUE property of this button"
+  onclick{{=}}"changeProperty()"
+  onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+/&gt;
+&lt;input 
+  id{{=}}"btnStyleProp"
+  type{{=}}"button"
+  value{{=}}"Click to change the CSS backgroundColor property of this button"
+  onclick{{=}}"changeCSSProperty()"
+  onpropertychange{{=}}'alert(event.propertyName + " property has changed value")'
+/&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm
 }}
 }}
