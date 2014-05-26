@@ -14,6 +14,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
