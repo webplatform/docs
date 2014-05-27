@@ -95,7 +95,8 @@ The TC39 standards body is seeking feedback on this feature, so go ahead and try
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://updates.html5rocks.com/2012/11/Respond-to-change-with-Object-observe
 }}
