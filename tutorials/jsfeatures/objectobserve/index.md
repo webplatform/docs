@@ -21,7 +21,7 @@ Object.observe() lets you add a listener to any JavaScript object that gets call
 ==Compatibility==
 You can try it out now in [https://tools.google.com/dlpage/chromesxs Chrome Canary].
 
-To experiment with this feature, you need to enable the Enable Experimental JavaScript flag in Chrome Canary and restart the browser. The flag can be found under 'chrome:flags’ as shown in the image below:
+To experiment with this feature, you need to enable the Enable Experimental JavaScript flag in Chrome Canary and restart the browser. The flag can be found under 'chrome://flags’ as shown in the image below:
 
 [[Image:objectobserve1.jpg]]
 
