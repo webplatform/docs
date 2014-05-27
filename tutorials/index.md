@@ -19,9 +19,10 @@
 * [[tutorials/device access|Device access]]
 * [[tutorials/graphics|Graphics]]
 * [[tutorials/3d graphics and effects|Graphics (3D)]]
+* [[tutorials/jsfeatures|JavaScript features]]
 * [[tutorials/mobile|Mobile]]
 * [[tutorials/multimedia|Multimedia]]
-* [[tutorials/offline and storage|Offline and Storage]]
+* [[tutorials/offline and storage|Offline and storage]]
 * [[tutorials/tools|Tools]]
 * [[tutorials/typography|Typography]]
 {{Notes_Section}}
