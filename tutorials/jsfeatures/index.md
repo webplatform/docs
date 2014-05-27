@@ -5,7 +5,7 @@
 {{Byline}}
 {{Summary_Section|This page contains links to JavaScript features tutorials.}}
 {{Tutorial
-|Content=* [[tutorials/typography/jsfeatures/objectobserve|Object.observe()]]
+|Content=* [[tutorials/jsfeatures/objectobserve|Object.observe()]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
