@@ -325,7 +325,7 @@ This import defines (and registers) two elements, <code><say-hi></code> and <cod
 
 In my opinion, this workflow alone makes HTML Imports an ideal way to share Web Components.
 
-===Managing dependencies and sub-imports===
+==Managing dependencies and sub-imports==
 
 ''Yo dawg. I hear you like imports, so I included an import in your import.''
 
