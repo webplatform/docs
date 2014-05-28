@@ -469,7 +469,7 @@ The same concept holds true for the import document. Unless you append it's cont
 
 ===Optimizing for async loading===
 
-'''Imports don't block parsing of the main page.''' Scripts inside imports are processed in order but don't block the importing page. This means you get defer-like behavior while maintaining proper script order. One benefit of putting your imports in the <code><head></code> is that it lets the parser start working on the content as soon as possible. With that said, it's critical to remember <code><script></code> in the main document still continues to block the page:
+'''Imports don't block parsing of the main page.''' Scripts inside imports are processed in order but don't block the importing page. This means you get defer-like behavior while maintaining proper script order. One benefit of putting your imports in the <code><head></code> is that it lets the parser start working on the content as soon as possible. With that said, it's critical to remember <code><script></code> in the main document ''still'' continues to block the page:
 
 <pre>
 <head>
