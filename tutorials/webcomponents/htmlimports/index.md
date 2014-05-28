@@ -196,6 +196,134 @@ Notice what's going on here. The script inside the import references the importe
 
 ''A script in an import can either execute code directly, or define functions to be used by the importing page. This is similar to the way [http://docs.python.org/2/tutorial/modules.html#more-on-modules modules] are defined in Python.''
 
+Rules of JavaScript in an import:
+
+*Script in the import is executed in the context of the window that contains the importing document. So <code>window.document</code> refers to the main page document. This has two useful corollaries:
+**functions defined in an import end up on <code>window</code>.
+**you don't have to do anything crazy like append the import's <code><script></code> blocks to the main page. Again, script gets executed.
+*Imports do not block parsing of the main page. However, scripts inside them are processed in order. This means you get defer-like behavior while maintaining proper script order. More on this below.
+
+==Delivering Web Components==
+
+The design of HTML Imports lends itself nicely to loading reusable content on the web. In particular, it's an ideal way to distribute Web Components. Everything from basic [http://www.html5rocks.com/webcomponents/template/ HTML <code><template></code>s] to full-blown [http://www.html5rocks.com/tutorials/webcomponents/customelements/#registering Custom Elements] with Shadow DOM ([http://www.html5rocks.com/tutorials/webcomponents/shadowdom/ 1], [http://www.html5rocks.com/tutorials/webcomponents/shadowdom-201/ 2], [http://www.html5rocks.com/tutorials/webcomponents/shadowdom-301/ 3]). When these technologies are used in tandem, imports become a [http://en.cppreference.com/w/cpp/preprocessor/include #include] for Web Components.
+
+===Including templates===
+
+The [http://www.html5rocks.com/tutorials/webcomponents/template/ HTML Template] element is a natural fit for HTML Imports. <code><template></code> is great for scaffolding out sections of markup for the importing app to use as it desires. Wrapping content in a <code><template></code> also gives you the added benefit of making the content inert until used. That is, scripts don't run until the template is added to the DOM. Boom!
+
+'''import.html'''
+
+<pre>
+<template>
+  <h1>Hello World!</h1>
+  <!-- Img is not requested until the <template> goes live. -->
+  <img src="world.png">
+  <script>alert("Executed when the template is activated.");</script>
+</template>
+</pre>
+
+'''index.html'''
+
+<pre>
+<head>
+  <link rel="import" href="import.html">
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+
+    // Clone the <template> in the import.
+    var template = link.import.querySelector('template');
+    var clone = document.importNode(template.content, true);
+
+    document.querySelector('#container').appendChild(clone);
+  </script>
+</body>
+</pre>
+
+===Registering custom elements===
+
+[http://www.html5rocks.com/en/tutorials/webcomponents/imports/tutorials/webcomponents/customelements/ Custom Elements] is another Web Component technology that plays absurdly well with HTML Imports. [http://www.html5rocks.com/en/tutorials/webcomponents/imports/#includejs Imports can execute script], so why not define and register your custom elements so users don't have to? Call it..."auto-registration".
+
+'''elements.html'''
+
+<pre>
+<script>
+  // Define and register <say-hi>.
+  var proto = Object.create(HTMLElement.prototype);
+
+  proto.createdCallback = function() {
+    this.innerHTML = 'Hello, <b>' +
+                     (this.getAttribute('name') || '?') + '</b>';
+  };
+
+  document.registerElement('say-hi', {prototype: proto});
+
+  // Define and register <shadow-element> that uses Shadow DOM.
+  var proto2 = Object.create(HTMLElement.prototype);
+
+  proto2.createdCallback = function() {
+    var root = this.createShadowRoot();
+    root.innerHTML = "<style>::content > *{color: red}</style>" +
+                     "I'm a " + this.localName +
+                     " using Shadow DOM!<content></content>";
+  };
+  document.registerElement('shadow-element', {prototype: proto2});
+</script>
+</pre>
+
+This import defines (and registers) two elements, <code><say-hi></code> and <code><shadow-element></code>. The importer can simply declare them on their page. No wiring needed.
+
+'''index.html'''
+
+<pre>
+<head>
+  <link rel="import" href="elements.html">
+</head>
+<body>
+  <say-hi name="Eric"></say-hi>
+  <shadow-element>
+    <div>( I'm in the light dom )</div>
+  </shadow-element>
+</body>
+</pre>
+
+In my opinion, this workflow alone makes HTML Imports an ideal way to share Web Components.
+
+===Sub-imports===
+
+It can be useful for one import to include another. For example, if you want to reuse or extend another component, use an import to load the other element(s).
+
+Below is a real example from [http://polymer-project.org/ Polymer]. It's a new tab component (<code><polymer-ui-tabs></code>) that reuses a layout and selector component. The dependencies are managed using HTML Imports.
+
+'''polymer-ui-tabs.html'''
+
+<pre>
+<link rel="import" href="polymer-selector.html">
+<link rel="import" href="polymer-flex-layout.html">
+
+<polymer-element name="polymer-ui-tabs" extends="polymer-selector" ...>
+  <template>
+    <link rel="stylesheet" href="polymer-ui-tabs.css">
+    <polymer-flex-layout></polymer-flex-layout>
+    <shadow></shadow>
+  </template>
+</polymer-element>
+</pre>
+
+([https://github.com/Polymer/polymer-ui-elements/blob/master/polymer-ui-tabs/polymer-ui-tabs.html Full source here.])
+
+App developers can import this new element using:
+
+<pre>
+<link rel="import" href="polymer-ui-tabs.html">
+<polymer-ui-tabs></polymer-ui-tabs>
+</pre>
+
+When a new, more awesome <code><polymer-selector2></code> comes along in the future, you can swap out <code><polymer-selector></code> and start using it straight away. You won't break your users thanks to imports and web components.
+
+
 
 
 }}
