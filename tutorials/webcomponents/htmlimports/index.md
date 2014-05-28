@@ -463,7 +463,7 @@ var h2 = document.createElement('h2');
 h2.textContent = 'Booyah!';
 </pre>
 
-The h2 is relatively meaningless until you add it to the DOM.
+The <code>h2</code> is relatively meaningless until you add it to the DOM.
 
 The same concept holds true for the import document. Unless you append it's content to the DOM, it's a no-op. In fact, the only thing that "executes" in the import document directly is <code><script></code>. See [[#Scripting in imports|Scripting in imports]] above.
 
