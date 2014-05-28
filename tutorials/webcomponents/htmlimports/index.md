@@ -62,6 +62,141 @@ Browser support is still in the early days. Chrome 31 was the first browser to s
 
 '''Tip!''' Also '''Enable experimental Web Platform features''' to get the other bleeding edge web component goodies.
 
+===Bundling resources===
+
+Imports provide convention for bundling HTML/CSS/JS (even other HTML Imports) into a single deliverable. It's an intrinsic feature, but a powerful one. If you're creating a theme, library, or just want to segment your app into logical chunks, giving users a single URL is compelling. Heck, you could even deliver an entire app via an import. Think about that for a second.
+
+''Using only one URL, you can package together a single relocatable bundle of web goodness for others to consume.''
+
+A real-world example is [http://getbootstrap.com/ Bootstrap]. Bootstrap is comprised of individual files (bootstrap.css, bootstrap.js, fonts), requires JQuery for its plugins, and provides markup examples. Developers like à la carte flexibility. It allows them buy in to the parts of the framework they want to use. That said, I'd wager your typical JoeDeveloper™ goes the easy route and downloads all of Bootstrap.
+
+Imports make a ton of sense for something like Bootstrap. I present to you, the future of loading Bootstrap:
+
+<pre>
+<head>
+  <link rel="import" href="bootstrap.html">
+</head>
+</pre>
+
+Users simply load an HTML Import link. They don't need to fuss with the scatter-shot of files. Instead, the entirety of Bootstrap is managed and wrapped up in an import, bootstrap.html:
+
+<pre>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="fonts.css">
+<script src="jquery.js"></script>
+<script src="bootstrap.js"></script>
+<script src="bootstrap-tooltip.js"></script>
+<script src="bootstrap-dropdown.js"></script>
+...
+
+<!-- scaffolding markup -->
+<template>
+  ...
+</template>
+</pre>
+
+Let this sit. It's exciting stuff.
+
+===Load/error events===
+
+The <code><link></code> element fires a load event when an import is loaded successfully and onerror when the attempt fails (e.g., if the resource 404s).
+
+Imports try to load immediately. An easy way avoid headaches is to use the <code>onload/onerror</code> attributes:
+
+<pre>
+<script async>
+  function handleLoad(e) {
+    console.log('Loaded import: ' + e.target.href);
+  }
+  function handleError(e) {
+    console.log('Error loading import: ' + e.target.href);
+  }
+</script>
+
+<link rel="import" href="file.html"
+      onload="handleLoad(event)" onerror="handleError(event)">
+</pre>
+
+'''Tip!''' Notice the event handlers are defined before the import is loaded on the page. The browser tries to load the import as soon as it encounters the tag. If the functions don't exist yet, you'll get console errors for undefined function names.
+
+Or, if you're creating the import dynamically:
+
+<pre>
+var link = document.createElement('link');
+link.rel = 'import';
+link.href = 'file.html'
+link.onload = function(e) {...};
+link.onerror = function(e) {...};
+document.head.appendChild(link);
+</pre>
+
+==Using the content==
+
+Including an import on a page doesn't mean "plop the content of that file here". It means "parser, go off an fetch this document so I can use it". To actually use the content, you have to take action and write script.
+
+A critical aha! moment is realizing that an import is just a document. In fact, the content of an import is called an ''import document''. You're able to '''manipulate the guts of an import using standard DOM APIs!'''
+
+===link.import===
+
+To access the content of an import, use the link element's <code>.import</code> property:
+
+<pre>
+var content = document.querySelector('link[rel="import"]').import;
+</pre>
+
+<code>link.import</code> is null under the following conditions:
+
+*The browser doesn't support HTML Imports.
+*The <code><link></code> doesn't have <code>rel="import"</code>.
+*The <code><link></code> has not been added to the DOM.
+*The <code><link></code> has been removed from the DOM.
+*The resource is not CORS-enabled.
+
+====Full example====
+Let's say <code>warnings.html</code> contains:
+
+<pre>
+<div class="warning">
+  <style scoped>
+    h3 {
+      color: red;
+    }
+  </style>
+  <h3>Warning!</h3>
+  <p>This page is under construction</p>
+</div>
+
+<div class="outdated">
+  <h3>Heads up!</h3>
+  <p>This content may be out of date</p>
+</div>
+</pre>
+
+Importers can grab a specific portion of this document and clone it into their page:
+
+<pre>
+<head>
+  <link rel="import" href="warnings.html">
+</head>
+<body>
+  ...
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.warning');
+
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+</body>
+</pre>
+
+Notice what's going on here. The script inside the import references the imported document (<code>document.currentScript.ownerDocument</code>), and appends part of that document to the importing page (<code>mainDoc.head.appendChild(...)</code>). Pretty gnarly if you ask me.
+
+''A script in an import can either execute code directly, or define functions to be used by the importing page. This is similar to the way [http://docs.python.org/2/tutorial/modules.html#more-on-modules modules] are defined in Python.''
+
+
 
 }}
 {{Notes_Section}}
