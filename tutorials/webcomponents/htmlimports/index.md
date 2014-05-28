@@ -25,7 +25,7 @@ See the irony? '''The web's most basic content, HTML, requires the greatest amou
 
 ===The basics===
 
-Include an import on your page by declaring a <link rel="import">:
+Include an import on your page by declaring a <code><link rel="import"></code>:
 
 <pre>
 <head>
