@@ -1,6 +1,9 @@
-{{Page_Title| Redirect browsers without JavaScript Support}}
+{{Page_Title|Redirect browsers without JavaScript Support}}
 {{Flags
-|High-level issues=}}
+|Checked_Out=No
+|High-level issues=
+}}
+{{API_Name}}
 {{Summary_Section|This is an HTML hack to make pages more friendly to those with JavaScript disabled or with no JavaScript support.}}
 {{Concept_Page
 |Content=This HTML hack allows users with JavaScript disabled or without JavaScript support to still view web content, just without the convenience of JavaScript. Add this tag to the HTML head (best after the <code><meta charset="utf-8" /></code> tag) and it will create an automatic redirect to the no-JS-friendly site.
@@ -8,7 +11,7 @@
 |Language=HTML
 |Description=Core code.
 |Code=&nbsp;
-<noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version"></noscript>
+<noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version" /></noscript>
 }}
 This would alleviate the need for JavaScript to be required for many services to even be used, and it would allow for some degree of dynamic content to still be served to those without JS through CSS and server-side logic. The ''url'' parameter of the <code>content</code> attribute can be any legal URL, even the original one with extra parameters. The whole purpose is to serve a page that has no JavaScript requirement for the browser.
 
@@ -16,9 +19,7 @@ This only validates correctly as HTML5 (plug in the source in the [http://valida
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=This minimal example demonstrates an example usage of this hack.
-
-{{Single Example
+|Examples={{Single Example
 |Language=HTML
 |Description=Initial page, assumes JavaScript support.
 |Code=&lt;!-- www.example.com/index.html --&gt;
@@ -71,6 +72,7 @@ $(function () {
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section}}
 {{Topics|Accessibility, Compatibility, Design, HTML, JavaScript, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -78,3 +80,4 @@ $(function () {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+This minimal example demonstrates an example usage of this hack.
