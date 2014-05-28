@@ -25,6 +25,7 @@
 * [[tutorials/offline and storage|Offline and storage]]
 * [[tutorials/tools|Tools]]
 * [[tutorials/typography|Typography]]
+* [[tutorials/webcomponents|Web components]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
