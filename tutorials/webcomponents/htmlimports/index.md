@@ -438,7 +438,7 @@ Reducing network requests is always important. If you have many top-level import
 
 ===Imports leverage browser caching===
 
-Many people forget that the browser's networking stack has been finely tuned over the years. Imports (and sub-imports) take advantage of this logic too. The <code>http://cdn.com/bootstrap.html</code> import might have sub-resources, but they'll be cached.
+Many people forget that the browser's networking stack has been finely tuned over the years. Imports (and sub-imports) take advantage of this logic too. The <code><nowiki>http://cdn.com/bootstrap.html</nowiki></code> import might have sub-resources, but they'll be cached.
 
 ===Content is useful only when you add it===
 
