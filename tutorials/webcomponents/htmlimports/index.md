@@ -632,8 +632,6 @@ HTML Imports are a simple concept, but enable a number of interesting use cases 
 
 *'''Parallelizes''' HTML parsing - first time the browser has been able to run two (or more) HTML parsers in parallel.
 *'''Enables switching between debug and non-debug modes''' in an app, just by changing the import target itself. Your app doesn't need to know if the import target is a bundled/compiled resource or an import tree.
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
