@@ -117,7 +117,7 @@ Imports try to load immediately. An easy way avoid headaches is to use the <code
       onload="handleLoad(event)" onerror="handleError(event)">
 </pre>
 
-'''Tip!''' Notice the event handlers are defined before the import is loaded on the page. The browser tries to load the import as soon as it encounters the tag. If the functions don't exist yet, you'll get console errors for undefined function names.
+'''Tip!''' ''Notice the event handlers are defined before the import is loaded on the page. The browser tries to load the import as soon as it encounters the tag. If the functions don't exist yet, you'll get console errors for undefined function names.''
 
 Or, if you're creating the import dynamically:
 
