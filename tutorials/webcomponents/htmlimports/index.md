@@ -17,7 +17,7 @@ Think about how you load different types of resources on the web. For JS, we hav
 #'''AJAX''' - [http://ericbidelman.tumblr.com/post/31140607367/mashups-using-cors-and-responsetype-document I love xhr.responseType="document"], but you're saying I need JS to load HTML? That doesn't seem right.
 #'''CrazyHacks™''' - embedded in strings, hidden as comments (e.g., <code><script type="text/html"></code>). Yuck!
 
-See the irony? The web's most basic content, HTML, requires the greatest amount of effort to work with. Fortunately, [http://w3c.github.io/webcomponents/explainer/ Web Components] are here to get us back on track.
+See the irony? '''The web's most basic content, HTML, requires the greatest amount of effort to work with.''' Fortunately, [http://w3c.github.io/webcomponents/explainer/ Web Components] are here to get us back on track.
 
 ==Getting started==
 
