@@ -7,7 +7,7 @@
 |URL=http://www.html5rocks.com/profiles/#ericbidelman
 |Published=11 November 2013
 }}
-{{Summary_Section|'''HTML Imports''', part of Web Components, is a way to include HTML documents in other HTML documents. An import can include CSS, JavaScript, or anything else an .html file can contain. }}
+{{Summary_Section|'''HTML Imports''', part of Web Components, is a way to include HTML documents in other HTML documents. An import can include CSS, JavaScript, or anything else an .html file can contain.}}
 {{Tutorial
 |Content===Why imports?==
 
@@ -18,6 +18,50 @@ Think about how you load different types of resources on the web. For JS, we hav
 #'''CrazyHacks™''' - embedded in strings, hidden as comments (e.g., <code><script type="text/html"></code>). Yuck!
 
 See the irony? The web's most basic content, HTML, requires the greatest amount of effort to work with. Fortunately, [http://w3c.github.io/webcomponents/explainer/ Web Components] are here to get us back on track.
+
+==Getting started==
+
+[http://w3c.github.io/webcomponents/spec/imports/ HTML Imports], part of the [http://w3c.github.io/webcomponents/explainer/ Web Components] cast, is a way to include HTML documents in other HTML documents. You're not limited to markup either. An import can also include CSS, JavaScript, or anything else an .html file can contain. In other words, this makes imports a '''fantastic tool for loading related HTML/CSS/JS.'''
+
+===The basics===
+
+Include an import on your page by declaring a <link rel="import">:
+
+<pre>
+<head>
+  <link rel="import" href="/path/to/imports/stuff.html">
+</head>
+</pre>
+
+The URL of an import is called an ''import location''. To load content from another domain, the import location needs to be [http://enable-cors.org/ CORS-enabled] (Cross Origin Resource Sharing):
+
+<pre>
+<!-- Resources on other origins must be CORS-enabled. -->
+<link rel="import" href="http://example.com/elements.html">
+</pre>
+
+'''Fact!''' The browser's network stack automatically de-dupes all requests from the same URL. This means that imports that reference the same URL are only retrieved once. No matter how many times an import at the same location is loaded, it only executes once.
+
+===Feature detection and support===
+
+To detect support, check if <code>.import</code> exists on the <code><link></code> element:
+
+<pre>
+function supportsImports() {
+  return 'import' in document.createElement('link');
+}
+
+if (supportsImports()) {
+  // Good to go!
+} else {
+  // Use other libraries/require systems to load files.
+}
+</pre>
+
+Browser support is still in the early days. Chrome 31 was the first browser to see an implementation. Since then, Chrome 36 was update with the latest spec. You can enable the flag by turning on '''Enable experimental Web Platform features''' in <code>about:flags</code> in Chrome Canary. For other browsers, [http://www.polymer-project.org/platform/html-imports.html Polymer's polyfill] works great until things are widely supported.
+
+'''Tip!''' Also '''Enable experimental Web Platform features''' to get the other bleeding edge web component goodies.
+
 
 }}
 {{Notes_Section}}
