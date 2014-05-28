@@ -607,8 +607,6 @@ Alternatively, add the import near the end of the <code><body></code>:
 
 ==Conclusion==
 
-Conclusion
-
 HTML Imports allow bundling HTML/CSS/JS as a single resource. While useful by themselves, this idea becomes extremely powerful in the world of Web Components. Developers can create reusable components for others to consume and bring in to their own app, all delivered through <code><link rel="import"></code>.
 
 HTML Imports are a simple concept, but enable a number of interesting use cases for the platform.
