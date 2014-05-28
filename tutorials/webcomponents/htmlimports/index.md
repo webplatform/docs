@@ -595,7 +595,7 @@ Alternatively, add the import near the end of the <code><body></code>:
 </body>
 </pre>
 
-'''Note:''' This very last approach is least preferable. The parser doesn't start to work on the import content until late in the page.
+'''Note:''' ''This very last approach is least preferable. The parser doesn't start to work on the import content until late in the page.''
 
 ==Things to remember==
 
