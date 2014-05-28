@@ -40,7 +40,7 @@ The URL of an import is called an ''import location''. To load content from anot
 <link rel="import" href="http://example.com/elements.html">
 </pre>
 
-'''Fact!''' The browser's network stack automatically de-dupes all requests from the same URL. This means that imports that reference the same URL are only retrieved once. No matter how many times an import at the same location is loaded, it only executes once.
+'''Fact!''' ''The browser's network stack automatically de-dupes all requests from the same URL. This means that imports that reference the same URL are only retrieved once. No matter how many times an import at the same location is loaded, it only executes once.''
 
 ===Feature detection and support===
 
@@ -60,7 +60,7 @@ if (supportsImports()) {
 
 Browser support is still in the early days. Chrome 31 was the first browser to see an implementation. Since then, Chrome 36 was update with the latest spec. You can enable the flag by turning on '''Enable experimental Web Platform features''' in <code>about:flags</code> in Chrome Canary. For other browsers, [http://www.polymer-project.org/platform/html-imports.html Polymer's polyfill] works great until things are widely supported.
 
-'''Tip!''' Also '''Enable experimental Web Platform features''' to get the other bleeding edge web component goodies.
+'''Tip!''' ''Also '''Enable experimental Web Platform features''' to get the other bleeding edge web component goodies.''
 
 ===Bundling resources===
 
