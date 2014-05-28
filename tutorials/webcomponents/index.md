@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Web Components}}
 {{Flags
 |Checked_Out=No
 }}
