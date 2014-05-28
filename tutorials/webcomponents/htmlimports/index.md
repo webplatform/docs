@@ -323,7 +323,70 @@ App developers can import this new element using:
 
 When a new, more awesome <code><polymer-selector2></code> comes along in the future, you can swap out <code><polymer-selector></code> and start using it straight away. You won't break your users thanks to imports and web components.
 
+Dependency management
 
+We all know that loading JQuery more than once per page causes errors. Isn't this going to be a ''huge'' problem for Web Components when multiple components use the same library? Not if we use HTML Imports! They can be used to manage dependencies.
+
+By wrapping libraries in an HTML Import, you automatically de-dupe resources. The document is only parsed once. Scripts are only executed once. As an example, say you define an import, jquery.html, that loads a copy of JQuery.
+
+'''jquery.html'''
+
+<pre>
+<script src="http://cdn.com/jquery.js"></script>
+</pre>
+
+This import can be reused in subsequent imports like so:
+
+'''import2.html'''
+
+<pre>
+<link rel="import" href="jquery.html">
+<div>Hello, I'm import 2</div>
+</pre>
+
+'''ajax-element.html'''
+
+<pre>
+<link rel="import" href="jquery.html">
+<link rel="import" href="import2.html">
+
+<script>
+  var proto = Object.create(HTMLElement.prototype);
+
+  proto.makeRequest = function(url, done) {
+    return $.ajax(url).done(function() {
+      done();
+    });
+  };
+
+  document.registerElement('ajax-element', {prototype: proto});
+</script>
+</pre>
+
+Even the main page itself can include jquery.html if it needs the library:
+
+<pre>
+<head>
+  <link rel="import" href="jquery.html">
+  <link rel="import" href="ajax-element.html">
+</head>
+<body>
+
+...
+
+<script>
+  $(document).ready(function() {
+    var el = document.createElement('ajax-element');
+    el.makeRequest('http://example.com');
+  });
+</script>
+</body>
+</pre>
+
+Despite jquery.html being included in many different import trees, its document is only fetched and processed once by the browser. Examining the network panel proves this:
+
+[[Image:htmlimports1.png]]
+''jquery.html is requested once''
 
 
 }}
