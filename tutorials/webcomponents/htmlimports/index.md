@@ -192,6 +192,40 @@ Importers can grab a specific portion of this document and clone it into their p
 </body>
 </pre>
 
+===Scripting in imports===
+
+Imports are not in the main document. They're satellite to it. However, your import can still act on the main page even though the main document reigns supreme. An import can access its own DOM and/or the DOM of the page that's importing it:
+
+'''Example''' - import.html that adds one of its stylesheets to the main page
+
+<pre>
+<link rel="stylesheet" href="http://www.example.com/styles.css">
+<link rel="stylesheet" href="http://www.example.com/styles2.css">
+
+<style>
+  /* Note: <style> in an import apply to the main
+     document by default. That is, style tags don't need to be
+     explicitly added to the main document. */
+  #somecontainer {
+    color: blue;
+  }
+</style>
+...
+
+<script>
+  // importDoc references this import's document
+  var importDoc = document.currentScript.ownerDocument;
+
+  // mainDoc references the main document (the page that's importing us)
+  var mainDoc = document;
+
+  // Grab the first stylesheet from this import, clone it,
+  // and append it to the importing document.
+  var styles = importDoc.querySelector('link[rel="stylesheet"]');
+  mainDoc.head.appendChild(styles.cloneNode(true));
+</script>
+</pre>
+
 Notice what's going on here. The script inside the import references the imported document (<code>document.currentScript.ownerDocument</code>), and appends part of that document to the importing page (<code>mainDoc.head.appendChild(...)</code>). Pretty gnarly if you ask me.
 
 ''A script in an import can either execute code directly, or define functions to be used by the importing page. This is similar to the way [http://docs.python.org/2/tutorial/modules.html#more-on-modules modules] are defined in Python.''
@@ -387,6 +421,47 @@ Despite jquery.html being included in many different import trees, its document 
 
 [[Image:htmlimports1.png]]
 ''jquery.html is requested once''
+
+==Performance considerations==
+
+HTML Imports are totally awesome but as with any new web technology, you should use them wisely. Web development best practices still hold true. Below are some things to keep in mind.
+
+===Concatenate imports===
+
+Reducing network requests is always important. If you have many top-level import links, consider combining them into a single resource and importing that file!
+
+[https://github.com/Polymer/vulcanize Vulcanize] is an npm build tool from the [http://www.polymer-project.org/ Polymer] team that recursively flattens a set of HTML Imports into a single file. Think of it as a concatenation build step for Web Components.
+
+===Imports leverage browser caching===
+
+Many people forget that the browser's networking stack has been finely tuned over the years. Imports (and sub-imports) take advantage of this logic too. The <code>http://cdn.com/bootstrap.html</code> import might have sub-resources, but they'll be cached.
+
+===Content is useful only when you add it===
+
+Think of content as inert until you call upon its services. Take a normal, dynamically created stylesheet:
+
+<pre>
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.href = 'styles.css';
+</pre>
+
+The browser won't request styles.css until link is added to the DOM:
+
+<pre>
+document.head.appendChild(link); // browser requests styles.css
+</pre>
+
+Another example is dynamically created markup:
+
+<pre>
+var h2 = document.createElement('h2');
+h2.textContent = 'Booyah!';
+</pre>
+
+The h2 is relatively meaningless until you add it to the DOM.
+
+The same concept holds true for the import document. Unless you append it's content to the DOM, it's a no-op. In fact, the only thing that "executes" in the import document directly is <code><script></code>. See [[#Scripting in imports|Scripting in imports]] above.
 
 
 }}
