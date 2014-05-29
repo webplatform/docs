@@ -58,7 +58,7 @@ if (supportsImports()) {
 }
 </pre>
 
-Browser support is still in the early days. Chrome 31 was the first browser to see an implementation. Since then, Chrome 36 was update with the latest spec. You can enable the flag by turning on '''Enable experimental Web Platform features''' in <code>about:flags</code> in Chrome Canary. For other browsers, [http://www.polymer-project.org/platform/html-imports.html Polymer's polyfill] works great until things are widely supported.
+Browser support is still in the early days. Chrome 31 was the first browser to see an implementation. Since then, Chrome 36 was update with the latest spec. You can enable the flag by turning on '''Enable experimental Web Platform features''' in <code>about://flags</code> in Chrome Canary. For other browsers, [http://www.polymer-project.org/platform/html-imports.html Polymer's polyfill] works great until things are widely supported.
 
 '''Tip!''' ''Also '''Enable experimental Web Platform features''' to get the other bleeding edge web component goodies.''
 
