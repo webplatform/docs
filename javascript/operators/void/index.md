@@ -1,18 +1,37 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Prevents an expression from returning a value.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= void expression }}
+{{Summary_Section|The void operator prevents an expression from returning a value.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=void expression
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The expression argument is any valid JavaScript expression.
 
 The void operator evaluates its expression and returns undefined. It is useful in situations where an expression should be evaluated but you do not want the results visible to the rest of the script.
-}}
-{{Topics | JS Basic}}
 
+It is important to note that void works only on unary expressions thus: <code> void x, y;</code>
+will set only the x variable to undefined.
+}}
+{{Notes_Section
+|Usage=void(0) is equivalent to void 0 and returns the <i>undefined</i> value
+}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
