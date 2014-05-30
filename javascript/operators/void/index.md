@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Summary_Section|The void operator prevents an expression from returning a value.}}
+{{Summary_Section|The void operator evaluates an expression but then returns <b>undefined</b>.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=void expression
@@ -19,11 +19,11 @@
 
 The void operator evaluates its expression and returns undefined. It is useful in situations where an expression should be evaluated but you do not want the results visible to the rest of the script.
 
-It is important to note that void works only on unary expressions thus: <code> void x, y;</code>
-will set only the x variable to undefined.
+It is important to note that void works only on unary expressions thus: <code> void x, y; </code>
+will set only the x variable to <b>undefined</b>.
 }}
 {{Notes_Section
-|Usage=void(0) is equivalent to void 0 and returns the <i>undefined</i> value
+|Usage=void(0) is equivalent to void 0 and returns the <b>undefined</b> value
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
