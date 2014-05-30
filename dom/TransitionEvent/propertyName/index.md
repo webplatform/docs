@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property. This example needs to be run on IE prior to version 9 in order to work properly. 
+|Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property. This example needs to be run on IE prior to version 9 in order to work properly.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html lang{{=}}"en"&gt;
 &lt;head&gt;
@@ -57,7 +57,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-You can alter the value of '''propertyName''' by using it with the [[dom/Element/propertychange|'''onpropertychange''']] event that is available only on IE < 9.
+You can alter the value of '''propertyName''' by using it with the [[dom/Element/propertychange|'''onpropertychange''']] event that is available only on IE<9.
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
