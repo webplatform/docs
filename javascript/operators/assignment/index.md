@@ -1,23 +1,37 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Assigns a value to a variable.
-
+{{Flags
+|State=In Progress
+|Checked_Out=Yes
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result = expression}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|The assignment operator takes the value of the right operand and applies it on the left operand.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result = expression;
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression
-|Required=
-|Description=Any numeric expression.}}
+|Description=Any expression that returns a value.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The = operator behaves like other operators, so expressions that contain it have a value. This means that you can chain assignment operators as follows: <code>j = k = l = 0</code>. In this case <code>j</code> , <code>k</code> , and <code>l</code> equal zero.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
