@@ -23,7 +23,7 @@ It is important to note that void works only on unary expressions thus: <code> v
 will set only the x variable to <b>undefined</b>.
 }}
 {{Notes_Section
-|Usage=void(0) is equivalent to void 0 and returns the <b>undefined</b> value
+|Notes=void(0) is equivalent to void 0 and returns the <b>undefined</b> value
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
