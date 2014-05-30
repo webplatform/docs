@@ -1,17 +1,24 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Causes two expressions to be executed sequentially.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= expression1 , expression2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|The Comma operator causes two expressions to be executed sequentially}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=expression1 , expression2 
+}}
+|Values={{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The ''',''' operator causes the expressions to be executed in left-to-right order. A common use for the ''',''' operator is in the increment expression of a '''for''' loop. For example:
@@ -23,11 +30,16 @@
  }
 The '''for''' statement allows only a single expression to be executed at the end of every pass through a loop. The ''',''' operator allows multiple expressions to be treated as a single expression, so both variables can be incremented.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/for{{!}}for Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
