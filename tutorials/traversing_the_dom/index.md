@@ -49,7 +49,7 @@ As you can see, the entire document is contained within an <code>html</code> ele
  
 So, the DOM hierarchy we end up for the above HTML document is represented visually something like Figure 1:
  
-[[Image:DOMTree0.gif|A visual DOM tree representation of an HTML document]]
+[[Image:traversing_the_dom_figure1.gif|A visual DOM tree representation of an HTML document]]
  
 Figure 1: The above HTML document represented visually as a DOM tree.
  
@@ -162,7 +162,4 @@ The logical next step is to start ''doing'' interesting things with the results 
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
