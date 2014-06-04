@@ -1,6 +1,6 @@
 {{Page_Title|CSS images: url()}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -8,9 +8,11 @@
 {{CSS_Function
 |Content===Usage==
 
-Usage is simple — you insert the path to the image you want to include in your page inside the brackets of <code>url()</code>, some for example
+Usage is simple — you insert the path to the image you want to include in your page inside the brackets of <code>url()</code>, for example:
 
-<pre>background-image: url(images/my-image.png);</pre>
+<pre>background-image: url('images/my-image.png');</pre>
+
+Note about formatting: The quotes around the URL can be either single or double quotes, and they are optional. However, if you are including some special characters such as single or double quotes, parentheses, and white space, then if the URL is not quoted, those special characters need to be escaped with a backslash(\). 
 
 This will cause <code>my-image.png</code> to be displayed in the background of whatever element or elements the <code>background-image</code> property is applied to. Accepted image formats are:
 
