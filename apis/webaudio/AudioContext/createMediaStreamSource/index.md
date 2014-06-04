@@ -15,13 +15,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=//request microphone stream
-navigator.getUserMedia({ audio: true }, function(stream){
+|Code=//it may be necessary to prefix getUserMedia and AudioContext in order to work in some browsers
+
+//request microphone stream
+navigator.getUserMedia({ audio: true }, function(stream){ 
      var context = new AudioContext();
      var micStreamSource = context.createMediaStreamSource(stream);
 
-     micStreamSource.connect(audioContext.destination);  //redirects mic input to speakers
-});
+     micStreamSource.connect(context.destination);  //redirects mic input to speakers
+}, function(){ console.log('Error getting Microphone stream'); });
 }}
 }}
 {{Notes_Section}}
