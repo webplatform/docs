@@ -1,5 +1,7 @@
 {{Page_Title|CSS images: url()}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|CSS has a variety of different properties that can reference an image file, displaying that file on a web page normally as part of an element's background. This is done using the CSS image syntax, which is <code>url()</code>.}}
