@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -13,7 +13,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//request microphone stream
+navigator.getUserMedia({ audio: true }, function(stream){
+     var context = new AudioContext();
+     var micStreamSource = context.createMediaStreamSource(stream);
+
+     micStreamSource.connect(audioContext.destination);  //redirects mic input to speakers
+});
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
