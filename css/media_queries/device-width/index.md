@@ -4,8 +4,18 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{CSS_Media_Feature}}
+{{Summary_Section|The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.}}
+{{CSS_Media_Feature
+|Content===Syntax==
+* '''device-width: <length>'''
+* '''min-device-width: <length>'''
+* '''max-device-width: <length>'''
+
+==Values==
+'''<length>'''
+
+''Value for the width of the device must be a [[css/data_types/length|length]] value and can not be negative.''
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
