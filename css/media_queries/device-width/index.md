@@ -20,11 +20,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The first media query describes a device, which has a screen width of exactly 320 pixels. 
+|Description=The first media query describes a device that has a screen width of exactly 320 pixels. 
 
-The second example describes all screen devices with a screen width of 1024 pixels ans higher. Note: The width of the browser does not matter in this case. Therefore you would have to use [[css/media_queries/width|mediaqueries: width]].
+The second example describes all screen devices with a screen width of 1024 pixels and higher. Note: The width of the browser does not matter in this case. Therefore you would have to use [[css/media_queries/width|mediaqueries: width]].
 
-The third media query describes all devices with a screen not wider than 1023 pixels.
+The third media query describes all devices with a screen width not wider than 1023 pixels.
 |Code=@media screen and ( device-width: 320px ) { … }
 
 @media screen and ( min-device-width: 1024px ) { … }
@@ -47,7 +47,4 @@ The third media query describes all devices with a screen not wider than 1023 pi
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
