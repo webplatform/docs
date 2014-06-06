@@ -1,10 +1,10 @@
 {{Page_Title|head}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Cleanup
-|Checked_Out=No
 }}
-{{Standardization_Status|De Facto Standard}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The '''head''' element (&lt;head&gt;) represents a collection of metadata for the document.}}
 {{Markup_Element
@@ -13,13 +13,10 @@
 
 The following tags are valid in this element:
 *[[html/elements/base|<code>base</code>]]
-*[[html/elements/basefont|<code>basefont</code>]]
-*<code>bgsound</code>
 *[[html/elements/link|<code>link</code>]]
 *[[html/elements/meta|<code>meta</code>]]
-*[[html/elements/nextID|<code>nextID</code>]]
-*<code>script</code>
-*<code>style</code>
+*[[html/elements/script|<code>script</code>]]
+*[[html/elements/style|<code>style</code>]]
 *[[html/elements/title|<code>title</code>]]
 }}
 {{Examples_Section
