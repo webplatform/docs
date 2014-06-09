@@ -67,8 +67,8 @@ The '''iframe''' object has these types of members:
 The '''iframe''' object has these events.
 {{{!}} class="wikitable"
 {{!}}-
-{{!}}Event
-{{!}}Description
+!Event
+!Description
 {{!}}-
 {{!}}[[dom/events/abort|'''onabort''']]
 {{!}}Fires when the user aborts the download.
@@ -181,8 +181,8 @@ The '''iframe''' object has these events.
 The '''iframe''' object has these methods.
 {{{!}} class="wikitable"
 {{!}}-
-{{!}}Method
-{{!}}Description
+!Method
+!Description
 {{!}}-
 {{!}}'''addBehavior'''
 {{!}}Attaches a behavior to the element. 
@@ -369,8 +369,8 @@ This method is not supported for Metro style apps using JavaScript.
 The '''iframe''' object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
-{{!}}Property
-{{!}}Description
+!Property
+!Description
 {{!}}-
 {{!}}[[html/attributes/align (Table, iframe elements)|'''align''']]
 {{!}}Sets or retrieves a value that indicates the table alignment.
