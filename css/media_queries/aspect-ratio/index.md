@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -20,7 +20,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The following example describes a viewport with a minimum aspect ratio of 1. This describes all viewports, which are quadratic or have a landscape ratio.
+|Code=@media screen and (min-aspect-ratio: 1/1) { ... }
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
