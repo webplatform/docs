@@ -1,19 +1,22 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Done
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates an element from the specified namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=namespace
 |Data type=String
-|Description=The URI of the desired namespace.
+|Description=The URI of the desired namespace.  This is the actual URI value, ''not'' the prefix used in the mark-up.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=tagName
 |Data type=String
 |Description=The name of the desired element.
