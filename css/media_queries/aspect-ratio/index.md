@@ -1,5 +1,7 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=Yes
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
