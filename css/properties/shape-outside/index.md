@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=Yes
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -102,7 +102,7 @@ shape-outside: url(path/to/image.png);
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Safari
-|Version=538+
+|Version=8+
 |Note=Using vendor prefix -webkit-
 }}
 }}
