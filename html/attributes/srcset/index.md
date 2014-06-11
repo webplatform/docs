@@ -67,7 +67,16 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=34
+}}{{Compatibility Notes Row
+|Browser=Safari
+|Version=8
+}}{{Compatibility Notes Row
+|Browser=Opera
+|Version=21
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Media Queries, Responsive Web Design
