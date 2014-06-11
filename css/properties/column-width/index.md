@@ -79,6 +79,9 @@ To ensure that the exact value specified for this property is used, all property
 }}{{Compatibility Notes Row
 |Browser=Firefox
 |Note=Requires -moz- prefix
+}}{{Compatibility Notes Row
+|Browser=IE
+|Version=10
 }}
 }}
 {{See_Also_Section
