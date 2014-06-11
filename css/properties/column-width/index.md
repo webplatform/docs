@@ -23,7 +23,7 @@
 <code>pt</code>,
 or <code>pc</code>)
 or a relative units designator
-(<code>em</code>,
+(<code>rem</code>, <code>em</code>,
 <code>ex</code>,
 or <code>px</code>), that indicates the optimal width.
 For more information about the supported length units,
