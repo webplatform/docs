@@ -102,8 +102,11 @@ shape-outside: url(path/to/image.png);
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
 |Browser=Safari
-|Version=8+
+|Version=8
 |Note=Using vendor prefix -webkit-
+}}{{Compatibility Notes Row
+|Browser=Chrome
+|Version=37
 }}
 }}
 {{See_Also_Section
