@@ -1,18 +1,18 @@
 {{Page_Title|getRegions()}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the series of [[css/concepts/region|regions]] into which content flows.}}
+{{Summary_Section|Returns the static sequence of [[css/concepts/region|regions]] into which content flows.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/NamedFlow
 |Example_object_name=flow
 |Return_value_name=regions
 |Javascript_data_type=function
-|Return_value_description=Returns the series of regions into which content flows.
+|Return_value_description=Returns the static sequence of [[css/concepts/region|regions]] into which content flows. The regions are returned in document order.
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,8 +41,8 @@ if (index !== -1) {
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -91,8 +91,8 @@ if (index !== -1) {
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
