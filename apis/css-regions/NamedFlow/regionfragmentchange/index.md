@@ -72,7 +72,8 @@ div:last-of-type { left: 55%; }
 }}{{Single Example
 |Language=JavaScript
 |Description=Log to console any shifts of content from one region to another that result when resizing the window, and thus the layout elements.
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange',
+|Code=document.getNamedFlows().namedItem('main').addEventListener(
+    'regionfragmentchange',
     function() { console.log(inc++); }
 );
 |LiveURL=http://letmespellitoutforyou.com/samples/region_fragmentchange.html
@@ -152,6 +153,7 @@ content or dimensions.)
 |Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
