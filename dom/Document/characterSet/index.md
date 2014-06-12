@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|Editorial notes=Returns the preferred MIME name of the document's character encoding.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the preferred MIME name of the document's character encoding.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
@@ -20,7 +19,6 @@
 function showCharSet() {
     alert(document.characterSet);
 }
-
 }}
 }}
 {{Notes_Section
