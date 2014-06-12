@@ -26,7 +26,6 @@ function appendBody() {
     bod += "<p>That's all, folks!</p>";
     document.body.innerHTML = bod;
 }
-
 }}
 }}
 {{Notes_Section
