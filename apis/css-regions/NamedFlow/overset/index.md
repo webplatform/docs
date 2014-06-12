@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Indicates whether a [[css/concepts/named_flow|flow's]] content exceeds available space within a [[css/concepts/region_chain|region chain]], or if no available chain in which to flow content exists.}}
 {{API_Object_Property
@@ -45,8 +45,8 @@ appendRegion('mainFlow');
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
