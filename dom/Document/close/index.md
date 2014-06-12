@@ -17,12 +17,12 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=//open a new window (or tab), open a new document in it,
-//write to the document, and close the document (but not the window)
+|Code=//open a new window/tab, open a new document in it,
+//write to the document, and close the document (but not the window/tab)
 function newWinDoc() {
     var win=window.open();
     win.document.open();
-    win.document.write("<h1>Hello, world</h1>");
+    win.document.write("<nowiki><h1></nowiki>Hello, world<nowiki></h1></nowiki>");
     win.document.close();
 }
 }}
