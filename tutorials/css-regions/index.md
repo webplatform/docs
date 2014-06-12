@@ -435,7 +435,6 @@ allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -444,8 +443,8 @@ flows.
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -494,8 +493,8 @@ flows.
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
