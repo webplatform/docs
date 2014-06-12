@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -15,7 +15,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//open a new window (or tab), open a new document in it,
+//write to the document, and close the document (but not the window)
+function newWinDoc() {
+    var win=window.open();
+    win.document.open();
+    win.document.write("<h1>Hello, world</h1>");
+    win.document.close();
+}
+}}
 }}
 {{Notes_Section
 |Notes=When a function fired by an event on any object calls the 
