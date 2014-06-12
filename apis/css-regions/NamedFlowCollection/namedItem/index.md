@@ -32,7 +32,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
+|URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
