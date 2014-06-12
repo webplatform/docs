@@ -1,18 +1,18 @@
 {{Page_Title|firstEmptyRegionIndex}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the region chain or if it exceeds available space.}}
+{{Summary_Section|Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the [[css/concepts/region_chain|region chain]], if it exceeds available space or if there are no regions in the [[css/concepts/region_chain|region chain]].}}
 {{API_Object_Property
 |Property_applies_to=apis/css-regions/NamedFlow
 |Read_only=Yes
 |Example_object_name=flow
 |Return_value_name=index
 |Javascript_data_type=Number
-|Return_value_description=Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the [[css/concepts/region_chain|region chain]] or if it exceeds available space.
+|Return_value_description=Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the [[css/concepts/region_chain|region chain]], if it exceeds available space or if there are no regions in the [[css/concepts/region_chain|region chain]].
 }}
 {{Examples_Section
 |Not_required=No
@@ -57,8 +57,8 @@ returns -1.
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -107,8 +107,8 @@ returns -1.
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
