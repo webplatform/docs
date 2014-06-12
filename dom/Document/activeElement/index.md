@@ -25,7 +25,6 @@ function getActiveElement () {
         alert(document.activeElement.tagName);
     }
 }
-
 }}
 }}
 {{Notes_Section
@@ -42,6 +41,11 @@ function getActiveElement () {
 |URL=http://www.w3.org/TR/html5/editing.html
 |Status=Candidate Recommendation
 |Relevant_changes=Section 7.4.3
+}}{{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/dom.html
+|Status=Candidate Recommendation
+|Relevant_changes=3.1.1
 }}
 }}
 {{Compatibility_Section
