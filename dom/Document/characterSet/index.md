@@ -9,7 +9,7 @@
 {{Summary_Section|Returns the preferred MIME name of the document's character encoding.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
