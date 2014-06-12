@@ -23,7 +23,7 @@
 |Code=//get the document's body content, append to it, set new content
 function appendBody() {
     var bod = document.body.innerHTML;
-    bod += "<p>That's all, folks!</p>";
+    bod += "<nowiki><p></nowiki>That's all, folks!<nowiki></p></nowiki>";
     document.body.innerHTML = bod;
 }
 }}
