@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Returns the preferred MIME name of the document's character encoding.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,7 +14,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//displays the document's character encoding string
+function showCharSet() {
+    alert(document.characterSet);
+}
+
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
