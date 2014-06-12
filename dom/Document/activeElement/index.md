@@ -45,7 +45,7 @@ function getActiveElement () {
 |Name=W3C HTML5
 |URL=http://www.w3.org/TR/html5/dom.html
 |Status=Candidate Recommendation
-|Relevant_changes=3.1.1
+|Relevant_changes=Section 3.1.1
 }}
 }}
 {{Compatibility_Section
