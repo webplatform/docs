@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -17,7 +18,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//get the document's body content, append to it, set new content
+function appendBody() {
+    var bod = document.body.innerHTML;
+    bod += "<p>That's all, folks!</p>";
+    document.body.innerHTML = bod;
+}
+
+}}
 }}
 {{Notes_Section
 |Usage=Use this property to get the [[html/elements/body|body]] element of the document, or to replace it with a new body element.
