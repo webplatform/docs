@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Name of [[css/concepts/named_flow|flow]], as specified by any element's  [[css/properties/flow-from|'''flow-from''']] or [[css/properties/flow-into|'''flow-into''']] properties.}}
 {{API_Object_Property
@@ -39,8 +39,8 @@ document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
