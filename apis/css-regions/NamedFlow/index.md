@@ -1,7 +1,7 @@
 {{Page_Title|NamedFlow}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -12,8 +12,12 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [[css/concepts/region_chain|region chain]]:
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
-document.getNamedFlows().namedItem('figures').addEventListener('regionoversetchange', modifyFlow);
+|Code=document.getNamedFlows().namedItem('main').addEventListener(
+    'regionoversetchange', modifyFlow
+);
+document.getNamedFlows().namedItem('figures').addEventListener(
+    'regionoversetchange', modifyFlow
+);
 
 function modifyFlow(e) {
     var flow = e.target;
@@ -68,8 +72,8 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -118,8 +122,8 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
