@@ -51,8 +51,8 @@ console.log(rule.cssText);
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
+|Name=CSS Scoping Module Level 1
+|URL=http://dev.w3.org/csswg/css-scoping/
 |Status=W3C Editor's Draft
 }}
 }}
