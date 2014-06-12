@@ -51,9 +51,9 @@ console.log(rule.cssText);
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Scoping Module Level 1
-|URL=http://dev.w3.org/csswg/css-scoping/
-|Status=W3C Editor's Draft
+|Name=CSS Regions Module Level 3
+|URL=http://www.w3.org/TR/2012/WD-css3-regions-20120823/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
