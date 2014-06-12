@@ -1,23 +1,23 @@
 {{Page_Title|regionfragmentchange}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[apis/css-regions/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a [[css/concepts/region_chain|region chain]].}}
 {{Event
 |Event_applies_to=apis/css-regions/NamedFlow
+|Synchronous=No
+|Bubbles=No
+|Target=[[apis/css-regions/NamedFlow|'''NamedFlow''']]
+|Cancelable=Yes
+|Default_action=none
 |Content=Fires on the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
 object when there is 'any' change in how content flows through a
 [[css/concepts/region_chain|region chain]], even minor changes that don't affect the total number of
 [[css/concepts/region|regions]] the content requires.
 |Interface=UIEvent
-|Target=[[apis/css-regions/NamedFlow|'''NamedFlow''']]
-|Default_action=none
-|Synchronous=No
-|Bubbles=No
-|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
@@ -72,7 +72,9 @@ div:last-of-type { left: 55%; }
 }}{{Single Example
 |Language=JavaScript
 |Description=Log to console any shifts of content from one region to another that result when resizing the window, and thus the layout elements.
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange', function() { console.log(inc++) }
+|Code=document.getNamedFlows().namedItem('main').addEventListener('regionfragmentchange',
+    function() { console.log(inc++); }
+);
 |LiveURL=http://letmespellitoutforyou.com/samples/region_fragmentchange.html
 }}
 }}
@@ -99,8 +101,8 @@ content or dimensions.)
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -149,8 +151,7 @@ content or dimensions.)
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
 }}
 |Notes_rows=
 }}
