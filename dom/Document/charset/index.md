@@ -22,9 +22,8 @@ function showCharSet() {
 
 //sets the document's character encoding string
 function putCharSet() {
-    document.characterSet = "windows-1252";
+    document.characterSet = "UTF-16";
 }
-
 }}
 }}
 {{Notes_Section
