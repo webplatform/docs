@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | Is obsolete in HTML5
 }}
+|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
