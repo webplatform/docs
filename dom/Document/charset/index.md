@@ -1,21 +1,34 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets or sets the preferred MIME name of the document's character encoding.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//displays the document's character encoding string
+function showCharSet() {
+    alert(document.characterSet);
+}
+
+//sets the document's character encoding string
+function putCharSet() {
+    document.characterSet = "windows-1252";
+}
+
+}}
 }}
 {{Notes_Section
+|Usage=On setting, if the new value is an IANA-registered alias for a character encoding supported by the user agent, the document's character encoding is set to that character encoding. Otherwise, nothing happens.
 |Notes====Remarks===
 For [[html/elements/a|'''a''']],  '''link''', and '''script''' objects, you must set the value of this property before you can retrieve it.
 You must set the value of this property before you can retrieve it.
@@ -34,13 +47,7 @@ In Microsoft Internet Explorer 6, This property now applies to the [[html/eleme
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>link</code>
-*<code>meta</code>
-*<code>script</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
