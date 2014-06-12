@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Tries to move a node from one document to the document that the '''document''' object displays.}}
+{{Summary_Section|Tries to move a node from one document to the document that the '''document''' object displays. It is preferable to use [[dom/Document/importNode|importNode]] instead.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=element
