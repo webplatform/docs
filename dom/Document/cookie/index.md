@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -17,7 +18,29 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//set a cookie with a name, a value, and a number of days before expiring
+function setCookie(aname, avalue, expdays) {
+    var dt = new Date();
+    dt.setTime(dt.getTime() + (expdays*24*60*60*1000));
+    var expires = "expires=" + dt.toGMTString();
+    document.cookie = aname + "=" + avalue + "; " + expires;
+} 
+
+//retrieve all document cookies; if passed cookie name found, return value
+//if passed cookie name not found, return null
+function getCookie(aname) {
+    var name = aname + "=";
+    var carray = document.cookie.split(';');
+    for(var i = 0; i < carray.length; i++) {
+        var cn = carray[i];
+        if (cn.indexOf(name) == 0) return cn.substring(name.length,cn.length);
+    }
+    return "";
+} 
+
+}}
 }}
 {{Notes_Section
 |Usage=A cookie is a small piece of information. Each cookie is stored in a name{{=}}value pair called a crumb—that is, if the cookie name is "id" and you want to save the id value as "this," the cookie is saved as id{{=}}this. You can store up to a maxium of 50 name{{=}}value pairs in a cookie; the cookie is always returned as a string of all the cookies that apply to the document. This means that you must parse the string returned to find the values of individual cookies.
@@ -50,12 +73,7 @@ You can use the [[concepts/programming/javascript/core_objects#String_Object|spl
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Conceptual</code>
-*<code>Introduction to Persistence</code>
-*<code>Privacy in Internet Explorer 6</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
