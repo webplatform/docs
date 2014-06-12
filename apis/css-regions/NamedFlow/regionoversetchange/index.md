@@ -1,30 +1,32 @@
 {{Page_Title|regionoversetchange}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the [[apis/css-regions/NamedFlow|'''NamedFlow''']] object when a change in how its content flows through a [[css/concepts/region_chain|region chain]] renders any [[css/concepts/region|region]] empty or [[css/concepts/overset|''overset'']] (overfilled), or that reverses that state.}}
 {{Event
 |Event_applies_to=apis/css-regions/NamedFlow
+|Synchronous=No
+|Bubbles=No
+|Target=[[apis/css-regions/NamedFlow|'''NamedFlow''']]
+|Cancelable=Yes
+|Default_action=none
 |Content=Fires on the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
 object when the tail end of content moves from one region to another
 within a [[css/concepts/region_chain|chain]], changing any between a properly filled state and one
 that is empty or [[css/concepts/overset|''overset'']].
 |Interface=UIEvent
-|Target=[[apis/css-regions/NamedFlow|'''NamedFlow''']]
-|Default_action=none
-|Synchronous=No
-|Bubbles=No
-|Cancelable=Yes
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=dispatch functions to add or delete regions based on changes to how content flows through a region chain:
-|Code=document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
+|Code=document.getNamedFlows().namedItem('main').addEventListener(
+    'regionoversetchange', modifyFlow
+);
 
 function modifyFlow(e) {
     var flow = e.target;
@@ -59,8 +61,8 @@ content or dimensions.)
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -109,8 +111,8 @@ content or dimensions.)
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
