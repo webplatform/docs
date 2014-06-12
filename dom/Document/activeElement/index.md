@@ -1,23 +1,32 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the object that has the focus when the parent document has focus.}}
+{{Summary_Section|Gets the object that has the focus when the parent document has focus. If no element in the document has focus, returns the <code><body></code> element.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Return_value_name=element
 |Javascript_data_type=DOM Node
-|Return_value_description=The currently active element of the document, or null, if no element is active.
+|Return_value_description=The currently active element of the document, or <code><body></code> if no element is active.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//display tag name of currently focused element
+function getActiveElement () {
+    if (document.activeElement) {
+        alert(document.activeElement.tagName);
+    }
+}
+
+}}
 }}
 {{Notes_Section
 |Notes=The active element retains focus in the parent [[dom/Document|'''Document''']] even when focus is shifted from the parent to another application. If the focus returns to the parent '''document''', focus also returns to the same active element.
@@ -30,9 +39,9 @@
 |Relevant_changes=Section 3.1.1
 }}{{Related Specification
 |Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 3.1.1
+|URL=http://www.w3.org/TR/html5/editing.html
+|Status=Candidate Recommendation
+|Relevant_changes=Section 7.4.3
 }}
 }}
 {{Compatibility_Section
