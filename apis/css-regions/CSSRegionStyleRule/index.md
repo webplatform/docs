@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet, which applies styles to [[css/concepts/fragment|fragments]] of content that flow into a CSS [[css/concepts/region|region]].}}
 {{API_Object
