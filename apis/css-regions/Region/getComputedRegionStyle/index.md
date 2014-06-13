@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns styles calculated for an element as it appears within a [[css/concepts/region|region]], including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
 {{API_Object_Method
@@ -58,7 +58,11 @@ function regionsVaryCSS(regs, elem, prop) {
 |Usage=Behaves the same as [[css/cssom/methods/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 1
+|URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
+|Status=W3C Working Draft 28 May 2013
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
