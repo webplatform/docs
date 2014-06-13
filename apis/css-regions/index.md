@@ -1,9 +1,9 @@
 {{Page_Title|CSS Regions API}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Programmatic interface to [[css/concepts/named_flow|content that flows]] through a series of [[css/concepts/region_chain|chained]] [[css/concepts/region|''region'']] elements.}}
 {{API_Listing|Query=[[Category:CSS-Regions]][[Category:API_Objects]]
