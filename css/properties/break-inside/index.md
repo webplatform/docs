@@ -51,7 +51,7 @@ h2, h3 {
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://dev.w3.org/csswg/css3-regions/
 }}
 }}
