@@ -98,7 +98,7 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/#region-flow-break
-|Status=Working Draft
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
