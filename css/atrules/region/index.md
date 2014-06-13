@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Applies CSS styles to portions of content as it appears when flowing within a specified set of [[css/concepts/region|''regions'']].}}
 {{CSS_At_Rule
@@ -81,10 +81,7 @@ Use the [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interfa
 * [[css/properties/width|'''width''']]
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-}}
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -92,8 +89,8 @@ Use the [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interfa
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=Unknown
 |Firefox_version=
 |Firefox_prefixed_supported=Unknown
@@ -142,8 +139,8 @@ Use the [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interfa
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
