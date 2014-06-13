@@ -1,5 +1,7 @@
 {{Page_Title|What does a good web page need?}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Some links are written in a developer/editor's notation rather than public-facing. The link to the previous article up top is in a different format and may confuse the reader in coherency. Should either link within webplatform.org or migrate the page over. Overall content is populated and needs minor adjustments as above.
 |Checked_Out=No
 }}
 {{API_Name}}
