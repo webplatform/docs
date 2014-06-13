@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|N/A}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet, which applies styles to [[css/concepts/fragment|fragments]] of content that flow into a CSS [[css/concepts/region|region]].}}
 {{API_Object
@@ -51,9 +51,9 @@ console.log(rule.cssText);
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/2012/WD-css3-regions-20120823/
-|Status=W3C Working Draft
+|Status=W3C Working Draft 23 August 2012
 }}
 }}
 {{Compatibility_Section
