@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Static snapshot array of a document's available [[css/concepts/named_flow|named flows]]}}
 {{API_Object
@@ -34,7 +34,7 @@ for (var i = 0; i < flows.length; i++) {
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
-|Status=W3C Working Draft
+|Status=W3C Working Draft 28 May 2013
 }}
 }}
 {{Compatibility_Section
