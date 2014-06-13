@@ -3,7 +3,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Fires on the  [[apis/css-regions/NamedFlow|'''NamedFlow''']] object when there is a change in how content flows through a [[css/concepts/region_chain|region chain]].}}
 {{Event
@@ -91,9 +91,9 @@ content or dimensions.)
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|Name=CSS Regions Module Level 1
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
