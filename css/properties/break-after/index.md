@@ -1,7 +1,7 @@
 {{Page_Title|break-after}}
 {{Flags
-|Content=Examples Needed, Needs Summary
 |Checked_Out=Yes
+|Content=Examples Needed, Needs Summary
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -16,15 +16,12 @@
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page break or column break is determined  by the flow of content.
-
 }}{{CSS Property Value
 |Data Type=always
 |Description=A page/column/region break is inserted (forced) after the content block.
-
 }}{{CSS Property Value
 |Data Type=avoid
 |Description=A page/column/region break is not allowed after the content block.
-
 }}{{CSS Property Value
 |Data Type=left
 |Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
@@ -99,7 +96,7 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/#region-flow-break
 |Status=Working Draft
 }}
