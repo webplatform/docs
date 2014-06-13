@@ -44,7 +44,7 @@ appendRegion('mainFlow');
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
 }}
