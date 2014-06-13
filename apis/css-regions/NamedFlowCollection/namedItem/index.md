@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Retrieve a [[css/concepts/named_flow|named flow]] by its name}}
 {{API_Object_Method
@@ -31,9 +31,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
-|Status=W3C Working Draft
+|Status=W3C Working Draft 28 May 2013
 }}
 }}
 {{Compatibility_Section
