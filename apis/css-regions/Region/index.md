@@ -1,8 +1,9 @@
 {{Page_Title|Region}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The '''Region''' interface is available for any element that serves as a CSS [[css/concepts/region|''region'']], whose [[css/properties/flow-from|'''flow-from''']] CSS specifies it displays content from a [[css/concepts/named_flow|named flow]].}}
 {{API_Object}}
@@ -30,7 +31,8 @@ The interface is still available for elements that change back to non-region ele
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -39,8 +41,8 @@ The interface is still available for elements that change back to non-region ele
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -89,8 +91,8 @@ The interface is still available for elements that change back to non-region ele
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
