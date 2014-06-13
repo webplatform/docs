@@ -32,7 +32,7 @@ for (var i = 0; i < flows.length; i++) {
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
+|Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
 |Status=W3C Working Draft 28 May 2013
 }}
