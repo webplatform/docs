@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Applies CSS styles to portions of content as it appears when flowing within a specified set of [[css/concepts/region|''regions'']].}}
 {{CSS_At_Rule
@@ -81,7 +81,11 @@ Use the [[apis/css-regions/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interfa
 * [[css/properties/width|'''width''']]
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification}}
+|Specifications={{Related Specification
+|Name=CSS Regions Module Level 1
+|URL=http://www.w3.org/TR/2012/WD-css3-regions-20120823/
+|Status=W3C Working Draft 23 August 2012
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
