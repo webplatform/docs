@@ -1,9 +1,9 @@
 {{Page_Title|getRegionFlowRanges()}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the [[css/concepts/region|region]].}}
 {{API_Object_Method
@@ -11,7 +11,7 @@
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
 |Return_value_name=ranges
-|Javascript_data_type=function
+|Javascript_data_type=Array
 |Return_value_description=Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the region.
 }}
 {{Examples_Section
@@ -49,8 +49,8 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -59,8 +59,8 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -109,8 +109,8 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
 }}
