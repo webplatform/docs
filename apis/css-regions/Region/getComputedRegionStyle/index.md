@@ -1,9 +1,9 @@
 {{Page_Title|getComputedRegionStyle()}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Returns styles calculated for an element as it appears within a [[css/concepts/region|region]], including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
 {{API_Object_Method
@@ -58,11 +58,7 @@ function regionsVaryCSS(regs, elem, prop) {
 |Usage=Behaves the same as [[css/cssom/methods/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=W3C Editor's Draft
-}}
+|Specifications={{Related Specification}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -70,8 +66,8 @@ function regionsVaryCSS(regs, elem, prop) {
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=20
+|Chrome_prefixed_supported=No
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -86,8 +82,8 @@ function regionsVaryCSS(regs, elem, prop) {
 |Opera_prefixed_version=
 |Safari_supported=No
 |Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=534
+|Safari_prefixed_supported=No
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=No
