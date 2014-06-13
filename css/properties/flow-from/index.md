@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Flows content from a [[css/concepts/named_flow|named flow]] (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic [[css/concepts/region_chain|chain]] of layout [[css/concepts/region|''regions'']].}}
 {{CSS Property
@@ -67,9 +67,9 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
-|Status=Editor's Draft
+|Name=CSS Regions Module Level 1
+|URL=http://www.w3.org/TR/css3-regions/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
@@ -128,8 +128,8 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=537
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
