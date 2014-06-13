@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -42,6 +42,9 @@
 }}{{CSS Property Value
 |Data Type=fit-content
 |Description=This will be either the large of the minimum width or the smaller of the preferred width and the available width
+}}{{CSS Property Value
+|Data Type=intrinsic
+|Description=This is an experimental rule for max-content. Currently it only works in Chrome, however you should be using max-content instead since that is the standard.
 }}
 }}
 {{Examples_Section
