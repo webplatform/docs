@@ -1,17 +1,17 @@
 {{Page_Title|NAT}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Incomplete, Needs Summary
-|Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|NAT is the system through which many computers are able to talk to the outer world, like the internet , via only one  Internet Protocol address (IP address)  usually using ports enabling many more people to cohabit the internet's limited space. }}
+{{Summary_Section|NAT is the system through which many computers are able to talk to the outer world, like the internet , via only one  Internet Protocol address (IP address)  usually using ports enabling many more people to cohabit the internet's limited space.}}
 {{Concept_Page
 |Content=NAT:
 
-Usually NAT service is provided through a router. In a home where someone has one Ip from there Internet Service Provider having router allows all of them to share this ip while still being distinguishable to outer world.
+Usually NAT service is provided through a router. Often at home there is one IP address number given by the home's Internet Service Provider which allows participation on the internet. Using a connected router allows each logged-in user to appear as an individual identity to the outer internet world; while, all are actually sharing this one home IP address number.
 
-There are other ways than the following on how NAT may work, but most of the time it is as this:
+Usually the following process is how NAT works:
 
 Whenever a computer sends a request, Tcp/udp, the request contains many other small bits of information among the main information. The ones that enable NAT are Destination Port and Source Port. (see link)
 
