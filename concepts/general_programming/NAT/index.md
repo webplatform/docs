@@ -5,7 +5,7 @@
 |Checked_Out=No
 }}
 {{API_Name}}
-{{Summary_Section|NAT is the system through which many computers are able to talk to outer world via only one ip address usually using ports enabling many more people to cohabit the internet's limited space. }}
+{{Summary_Section|NAT is the system through which many computers are able to talk to the outer world, like the internet , via only one  Internet Protocol address (IP address)  usually using ports enabling many more people to cohabit the internet's limited space. }}
 {{Concept_Page
 |Content=NAT:
 
