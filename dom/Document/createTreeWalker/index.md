@@ -40,40 +40,40 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following code example shows how to use [[dom/TreeWalker|'''TreeWalker''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/TextNode/wholeText|'''wholeText''']] object of the node.
-|Code=<!DOCTYPE html>
-<html>
- <head>
-  <script>
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;script&gt;
 function noMondays()
 {
-    var tw = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var ni {{=}} document.createNodeIterator(document.body, NodeFilter.SHOW_TEXT, null, false);
                 
-    var textNode = tw.nextNode();
+    var textNode {{=}} ni.nextNode();
     while (textNode) {
-        if (textNode.wholeText.match('Monday') || 
-            textNode.parentNode.getAttribute('id') == 'Monday')
+        if (textNode.wholeText.match('Monday') {{!}}{{!}} 
+            textNode.parentNode.getAttribute('id') {{=}}{{=}} 'Monday')
         {
             textNode.parentNode.removeChild(textNode);
         }
-        textNode = tw.nextNode();
+        textNode {{=}} ni.nextNode();
     }
 }
 function refresh()                 
 {
     window.location.reload( false );    // Reload our page.
 }
-  </script>
- </head>
- <body>
-    <p>Monday, Joe bought a turkey.</p>
-    <p>Tuesday, Bill bought a pound of nails.</p>
-    <div>Chuck called in sick Monday.</div>
-    <p id="Monday">CALL supplier today!</p>
-    <p>Wednesday's delivery was delayed.</p>
-    <button onclick="refresh()">Reload</button>
-    <button onclick="noMondays()">Lose Mondays</button>
- </body>
-</html>
+  &lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+    &lt;p&gt;Monday, Joe bought a turkey.&lt;/p&gt;
+    &lt;p&gt;Tuesday, Bill bought a pound of nails.&lt;/p&gt;
+    &lt;div&gt;Chuck called in sick Monday.&lt;/div&gt;
+    &lt;p id{{=}}"Monday"&gt;CALL supplier today!&lt;/p&gt;
+    &lt;p&gt;Wednesday's delivery was delayed.&lt;/p&gt;
+    &lt;button onclick{{=}}"refresh()"&gt;Reload&lt;/button&gt;
+    &lt;button onclick{{=}}"noMondays()"&gt;Lose Mondays&lt;/button&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
 }}
 }}
 {{Notes_Section
