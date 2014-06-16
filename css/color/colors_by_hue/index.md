@@ -1,5 +1,6 @@
 {{Page_Title|Colors by Hue}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|A list of CSS color names, sorted by hue.}}
