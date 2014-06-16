@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Broken link up top, otherwise ready.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,7 +12,6 @@
 {{CSS_At_Rule
 |Content=Internationalization topics related to <code>@charset</code>:
 * [http://localhost/International/techniques/authoring-html#css Declaring the character encoding for a CSS style sheet]
-
 }}
 {{Examples_Section
 |Not_required=No
