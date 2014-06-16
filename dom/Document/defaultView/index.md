@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The Document's browsing context's WindowProxy object, if there is one, or null otherwise.}}
+{{Summary_Section|Returns the Document's browsing context's WindowProxy object, if there is one, or null otherwise.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
