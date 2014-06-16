@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -37,7 +37,44 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=The following code example shows how to use [[dom/TreeWalker|'''TreeWalker''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/TextNode/wholeText|'''wholeText''']] object of the node.
+|Code=<!DOCTYPE html>
+<html>
+ <head>
+  <script>
+function noMondays()
+{
+    var tw = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                
+    var textNode = tw.nextNode();
+    while (textNode) {
+        if (textNode.wholeText.match('Monday') || 
+            textNode.parentNode.getAttribute('id') == 'Monday')
+        {
+            textNode.parentNode.removeChild(textNode);
+        }
+        textNode = tw.nextNode();
+    }
+}
+function refresh()                 
+{
+    window.location.reload( false );    // Reload our page.
+}
+  </script>
+ </head>
+ <body>
+    <p>Monday, Joe bought a turkey.</p>
+    <p>Tuesday, Bill bought a pound of nails.</p>
+    <div>Chuck called in sick Monday.</div>
+    <p id="Monday">CALL supplier today!</p>
+    <p>Wednesday's delivery was delayed.</p>
+    <button onclick="refresh()">Reload</button>
+    <button onclick="noMondays()">Lose Mondays</button>
+ </body>
+</html>
+}}
 }}
 {{Notes_Section
 |Usage=Use the '''createTreeWalker''' method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use [[dom/Document/createNodeIterator|'''createNodeIterator''']].
