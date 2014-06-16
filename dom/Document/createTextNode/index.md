@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates a text node.}}
+{{Summary_Section|Creates a text node containing the passed text (nodeValue).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=text
@@ -25,6 +25,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=&lt;script&gt;
+//create a text node and replace an existing node with the new one
 function changeNode() {
    var textNode {{=}} document.createTextNode("New Text");
    var replaceNode {{=}} document.getElementById("span").childNodes(0);
