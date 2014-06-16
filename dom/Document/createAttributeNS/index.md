@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -27,10 +27,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create a "lang" attribute associated with a namespace
+var attr = document.createAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:lang");
+//assign a value to the attribute
+attr.nodeValue = 'es-us';
+//apply the attribute to the documentElement (e.g., the XML document's root node)
+document.documentElement.setAttributeNodeNS(attr);
+
+}}
 }}
 {{Notes_Section
-|Notes=The '''createAttributeNS''' method is supported only for XML documents.
+|Notes='''createAttributeNS''' is an XML DOM method and is supported only for XML documents.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
