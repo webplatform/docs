@@ -2,9 +2,9 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Creates a DOM event of the specified type.}}
+{{Summary_Section|Creates a DOM event of the specified type. This method is deprecated; use event constructors ([[dom/CustomEvent|CustomEvent]]) instead.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
