@@ -1,5 +1,7 @@
 {{Page_Title|Wireframing a site}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=For the hosting link, it goes to ipower.com. Are we intentionally backing their business?
 |Checked_Out=No
 }}
 {{Byline}}
