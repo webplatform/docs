@@ -1,5 +1,6 @@
 {{Page_Title|color}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
@@ -152,6 +153,8 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 *[http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx MSDN color property]
 |Topic_clusters=Visual Effects
 }}
+
+
 
 
 
