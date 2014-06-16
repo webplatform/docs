@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -16,7 +17,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//displays the document's default character encoding string
+function showDefCharSet() {
+    alert(document.defaultCharset);
+}
+
+}}
 }}
 {{Notes_Section
 |Notes=The value depends on the current regional language settings. For typical settings in North America, the value is <code>windows-1252</code>.
