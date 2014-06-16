@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,10 +22,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create a "style" attribute
+var attr = document.createAttribute("style");
+//assign a value to the attribute
+attr.value = "color: blue";
+//apply the attribute to a specific element
+document.getElementById("header").setAttributeNode(attr);
+
+}}
 }}
 {{Notes_Section
 |Notes=This method will fail if the ''name'' parameter value contains invalid (non-Unicode Transformation Format (UTF)-16) characters.
+
+This method only creates the attribute in the document; it does not assign a value to the attribute nor assign it to any HTML element(s). See example.
+
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
