@@ -46,16 +46,16 @@
   &lt;script&gt;
 function noMondays()
 {
-    var ni {{=}} document.createNodeIterator(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var tw {{=}} document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
                 
-    var textNode {{=}} ni.nextNode();
+    var textNode {{=}} tw.nextNode();
     while (textNode) {
         if (textNode.wholeText.match('Monday') {{!}}{{!}} 
             textNode.parentNode.getAttribute('id') {{=}}{{=}} 'Monday')
         {
             textNode.parentNode.removeChild(textNode);
         }
-        textNode {{=}} ni.nextNode();
+        textNode {{=}} tw.nextNode();
     }
 }
 function refresh()                 
