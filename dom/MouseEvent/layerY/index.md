@@ -12,13 +12,14 @@
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
 |Read_only=No
+|Javascript_data_type=Number
 |Return_value_description=The scaled value of the mouse X and Y positions relative to the positioned elements' client position. This may be an integer or double value depending on the viewport scale value.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=  if(document.documentMode&&document.documentMode>=9){
+|Code=if(document.documentMode&&document.documentMode>=9){
   form.layerXCoords.value = evt.offsetX;
   form.layerYCoords.value = evt.offsetY;
   }
@@ -27,7 +28,6 @@
     form.layerXCoords.value = (evt.layerX)?evt.layerX:evt.offsetX;
   	form.layerYCoords.value = (evt.layerY)?evt.layerY:evt.offsetY;
 }
-
 }}
 }}
 {{Notes_Section
