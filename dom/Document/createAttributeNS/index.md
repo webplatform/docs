@@ -30,12 +30,11 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Code=//create a "lang" attribute associated with a namespace
-var attr = document.createAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:lang");
+var attr = document.createAttributeNS("<nowiki>http://www.w3.org/XML/1998/namespace</nowiki>", "xml:lang");
 //assign a value to the attribute
 attr.nodeValue = 'es-us';
 //apply the attribute to the documentElement (e.g., the XML document's root node)
 document.documentElement.setAttributeNodeNS(attr);
-
 }}
 }}
 {{Notes_Section
