@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -11,7 +11,7 @@
 |Parameters={{Method Parameter
 |Name=text
 |Data type=String
-|Description=Text to include within the comment.
+|Description=Text of the comment.
 |Optional=No
 }}
 |Method_applies_to=dom/Document
@@ -22,7 +22,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create a comment node
+var cmt = document.createComment("Comment text");
+//add the comment to the document body
+document.body.appendChild(cmt);
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
