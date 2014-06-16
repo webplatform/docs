@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Creates an empty [[dom/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document.}}
+{{Summary_Section|Creates an empty [[dom/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document. After a Range is created, you must set its starting and ending boundary points before you can make use of most of its methods.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Document
@@ -17,7 +17,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//create a document range
+var myRange = document.createRange();
+//set starting and ending boundaries using predefined objects and variables
+myRange.setStart(startNode, startOffset);
+myRange.setEnd(endNode, endOffset);
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
