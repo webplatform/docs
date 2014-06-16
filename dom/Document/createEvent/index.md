@@ -55,22 +55,7 @@ p.addEventListener("custom", reportEvent, false);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/CompositionEvent/initCompositionEvent|initCompositionEvent]]</code>
-*<code>[[dom/CustomEvent/initCustomEvent|initCustomEvent]]</code>
-*<code>[[dom/DragEvent/initDragEvent|initDragEvent]]</code>
-*<code>[[dom/Event/initEvent|initEvent]]</code>
-*<code>[[dom/FocusEvent/initFocusEvent|initFocusEvent]]</code>
-*<code>[[dom/KeyboardEvent/initKeyboardEvent|initKeyboardEvent]]</code>
-*<code>[[dom/MessageEvent/initMessageEvent|initMessageEvent]]</code>
-*<code>[[dom/MouseEvent/initMouseEvent|initMouseEvent]]</code>
-*<code>[[dom/MutationEvent/initMutationEvent|initMutationEvent]]</code>
-*<code>[[dom/TextEvent/initTextEvent|initTextEvent]]</code>
-*<code>[[dom/UIEvent/initUIEvent|initUIEvent]]</code>
-*<code>[[dom/WheelEvent/initWheelEvent|initWheelEvent]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
