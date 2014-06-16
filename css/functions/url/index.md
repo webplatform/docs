@@ -1,5 +1,7 @@
 {{Page_Title|CSS images: url()}}
 {{Flags
+|State=In Progress
+|Editorial notes=Include examples, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
