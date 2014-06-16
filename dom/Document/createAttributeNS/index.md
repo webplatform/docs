@@ -30,9 +30,9 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Code=//create a "lang" attribute associated with a namespace
-<nowiki>var attr = document.createAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:lang");</nowiki>
+var attr = document.createAttributeNS("http:<nowiki>//</nowiki>www.w3.org/XML/1998/namespace", "xml:lang");
 //assign a value to the attribute
-attr.nodeValue = 'es-us';
+attr.nodeValue = "es-us";
 //apply the attribute to the documentElement (e.g., the XML document's root node)
 document.documentElement.setAttributeNodeNS(attr);
 }}
