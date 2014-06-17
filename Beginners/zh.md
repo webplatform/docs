@@ -1,24 +1,58 @@
-{{Page_Title|网站开发的初学者}}
+{{Page_Title|初学者网页开发指南}}
 {{Flags
-|Checked_Out=No
-|Editorial notes=translation from english to chinese, has some problem
+|State=In Progress
+|Editorial notes=This article is translated from English to Chinese, has some problem
+(this version of translation is sort of awkward, need to be proofread)
+|Checked_Out=Yes
 }}
-{{Summary_Section|这一系列的文章是为了让初学者，在他们成长为一个web设计师或者开发者的最初旅程上 ，能够信心满满地去完备他们的基本技能}}
+{{Summary_Section|这一系列的文章是为了让初学者们能够具备必要的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。}}
 {{Basic Page}}
 {{Languages}}
 
-==之前开始==
+==开始之前==
 
-在这个过程中，你会写很多的代码，并在Web浏览器中测试它。在开始之前，你至少应该有以下安装：
+在学习过程中，你将会编写很多的代码并在网页浏览器中进行测试。在此之前，你需要先安装下面这些程序：
 
-*最新浏览器。如果你尚未拥有，请从它们主页下载： 
-[http://www.google.com/chrome/ Chrome]，
-[http://www.mozilla.org/firefox/ 火狐]，
-[http://microsoft.com/ IE]，
-[http://www.opera.com/ 欧朋]，和
-[http://www.apple.com/safari/ Safari]。
-*一个体面的文本编辑器。推荐的选择有[http://notepad-plus-plus.org/ Notepad++]Windows，[http://www.sublimetext.com/2 Sublime Text] 为Mac，[http://bluefish.openoffice.nl/index.html Bluefish] Linux和 [http://brackets.io Brackets] 用于Mac和Windows（Linux版本即将推出）。
-现在卷起你的袖子，准备学习吧。 [[tutorials|了解更多，查看全部文章列表！]]
+*最新版本的浏览器。如果你还没有安装它们，就从它们主页下载吧： 
+** 所有平台通用
+***[https://www.google.com/chrome Chrome]
+***[http://www.mozilla.org/firefox Firefox]
+***[http://www.opera.com Opera]
+** Windows
+***[http://microsoft.com/ie Internet Explorer]
+** Mac OS
+***[http://www.apple.com/safari/ Safari].
+
+*一个实用的文本编辑器。这里有一些不错的选择：
+<!--
+'''请不要'''将Sublime Text加进这个列表中来。
+它'''并不是'''免费软件。
+这个编辑器列表是为了给经验尚浅的学习者
+推荐一些容易使用的免费编辑器。
+
+因此，也请不要在列表中加入例如Vim或者
+Emacs这样的终端程序。它们确实是非常强
+大的编辑器，但并不适合初学者。
+
+谢谢合作
+- original by Garbee
+-->
+** 所有平台通用
+***[http://brackets.io Brackets]
+***[http://www.lighttable.com LightTable]
+***[http://bluefish.openoffice.nl/index.html Bluefish]
+** Windows
+***[http://notepad-plus-plus.org/ Notepad++]
+** Mac
+***[https://github.com/textmate/textmate Textmate]
+***[http://www.barebones.com/products/textwrangler/ TextWrangler]
+***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
+** Linux
+***[http://www.geany.org/ Geany]
+***[https://wiki.gnome.org/Apps/Gedit gedit]
+现在卷起袖子、开始学习吧。 [[tutorials|了解更多请查看全部文章列表！]]
+
+<!-- progress marker Jun/16/14 XueyiB-->
 
 ==网络基础知识==
 * [[concepts/internet and web/the history of the web|互联网的历史]]
