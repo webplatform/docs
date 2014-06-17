@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -47,4 +49,7 @@ The third media query describes all devices with a screen width not wider than 1
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
