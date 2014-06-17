@@ -9,11 +9,13 @@
 {{Summary_Section|Creates a reference to an [[html/attributes|'''attribute''']] object that is associated with an XML namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=namespace
 |Data type=String
 |Description=The name of the desired namespace or a null value if no namespace is desired.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=name
 |Data type=String
 |Description=The name of the desired attribute.
