@@ -1,12 +1,20 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{CSS_Media_Feature}}
+{{API_Object_Method
+|Parameters=
+|Method_applies_to=css/media_queries
+|Return_value_name=object
+|Javascript_data_type=DOM Node
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -29,15 +37,6 @@
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=
-|Example_object_name=
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
+{{CSS_Media_Feature}}
