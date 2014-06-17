@@ -1,14 +1,19 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, usage, examples, compat
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
 |Event_applies_to=apis/webrtc/RTCPeerConnection
+|Synchronous=No
+|Bubbles=No
+|Cancelable=No
 }}
 {{Examples_Section
 |Not_required=No
