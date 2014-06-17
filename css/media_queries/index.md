@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Merge Candidate
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=http://docs.webplatform.org/wiki/css/mediaqueries
 }}
+Add values, syntax, example, description, specifications, compatibility.
+|Checked_Out=No
+|High-level issues=Stub, Merge Candidate
 }}
 {{Standardization_Status}}
 {{API_Name}}
