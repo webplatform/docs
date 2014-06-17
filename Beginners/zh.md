@@ -1,15 +1,14 @@
 {{Page_Title|初学者网页开发指南}}
 {{Flags
 |State=In Progress
-|Summary_section | 这一系列的文章是为了让初学者们能够具备必要的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。
 |Editorial notes=This article is translated from English to Chinese, has some problem
 (this version of translation is sort of awkward, need to be proofread)
 |Checked_Out=Yes
-}}
-==总结摘要== 
-这一系列的文章是为了让初学者们能够具备必要的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。
+Summary_Section|这一系列的文章是为了让初学者们能够具备必要的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。}}
 {{Basic Page}}
 {{Languages}}
+==总结摘要== 
+这一系列的文章的宗旨是让初学者们能够具备所需的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。
 
 ==开始之前==
 
