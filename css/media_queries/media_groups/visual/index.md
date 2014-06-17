@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add values, syntax, example, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
