@@ -1,6 +1,7 @@
 {{Page_Title|Generated and Replaced Content}}
 {{Flags
 |State=Not Ready
+|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -17,7 +18,7 @@
 }}
 {{Notes_Section
 |Import_Notes====In this section===
-{| class="wikitable"
+| class="wikitable"
 |-
 !Property
 !Description
