@@ -9,6 +9,7 @@
 {{Summary_Section|Creates an [[html/attributes|'''attribute''']] object with a specified [[html/attributes/name|'''name''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the attribute.
@@ -30,14 +31,12 @@ var attr = document.createAttribute("style");
 attr.value = "color: blue";
 //apply the attribute to a specific element
 document.getElementById("header").setAttributeNode(attr);
-
 }}
 }}
 {{Notes_Section
 |Notes=This method will fail if the ''name'' parameter value contains invalid (non-Unicode Transformation Format (UTF)-16) characters.
 
 This method only creates the attribute in the document; it does not assign a value to the attribute nor assign it to any HTML element(s). See example.
-
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
