@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Add values/parameters, syntax, example, compatibility.
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
