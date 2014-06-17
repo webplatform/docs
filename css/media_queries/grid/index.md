@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
