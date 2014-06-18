@@ -1,34 +1,32 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add summery, specifications, compatibility.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/properties
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following radial gradient (used as the argument for the [[css/properties/background-image|'''background-image''']] property) has the same three color stops as the linear gradient example  . This circular gradient’s line begins in the lower-left corner of the box that contains it and ends at the side of the box that is farthest from its center.
-|LiveURL=
-|Code=
-background-image: -ms-radial-gradient(left bottom, circle farthest-side, #F7FF08 0%, #21AD11 50%, #00A3EF 80%);
-}}
-{{Single_Example
-|Description=
+|Code=background-image: -ms-radial-gradient(left bottom, circle farthest-side, #F7FF08 0%, #21AD11 50%, #00A3EF 80%);
+}}{{Single Example
+|Code=background-image: -ms-radial-gradient(left bottom, ellipse farthest-side, #F7FF08 0%, #21AD11 50%, #00A3EF 80%);
 |LiveURL=Simply changing the shape in the previous declaration from '''circle''' to '''ellipse''' makes the gradient appear as follows:
-|Code=
-background-image: -ms-radial-gradient(left bottom, ellipse farthest-side, #F7FF08 0%, #21AD11 50%, #00A3EF 80%);
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 '''Important'''  The '''-ms-radial-gradient()''' function has been superseded by the [[css/radial-gradient|'''radial-gradient''']] function, which does not require the "-ms-" prefix and has a different syntax. Though the '''-ms-radial-gradient()''' function is still recognized by Internet Explorer 10, Microsoft encourages you to use the [[css/radial-gradient|'''radial-gradient''']] function, as it is compliant with the latest version of the [http://go.microsoft.com/fwlink/p/?LinkId{{=}}252389 CSS Image Values and Replaced Content Module Level 3 specification].
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 '''-ms-radial-gradient'''
 <code>(''
 &lt;starting-point&gt;
@@ -52,13 +50,24 @@ background-image: -ms-radial-gradient(left bottom, ellipse farthest-side, #F7FF0
 ;''stop-color'':Required. Defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value, as described in CSS Values and Units.
 ;''stop-offset'':Optional percentage or decimal value that indicates where along the gradient line (from the center outward) to place the color stop. For instance, a value of 20% or 0.2 indicates the color stop should be placed at a point 20% of the length of the gradient line, starting from the beginning of the line.
 }}
-{{See_Also_Section
-|Topic_clusters=Gradients, Deprecated
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Deprecated, Gradients
+}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
