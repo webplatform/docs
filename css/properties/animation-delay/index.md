@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Complete compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -109,7 +111,6 @@ header {
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
