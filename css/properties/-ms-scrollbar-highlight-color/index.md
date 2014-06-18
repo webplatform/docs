@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add summery, values, specifications, compatibility.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
@@ -33,7 +35,7 @@
 }}
 }}
 {{Notes_Section
-|Usage=  -ms-scrollbar-highlight-color: purple
+|Usage=-ms-scrollbar-highlight-color: purple
 |Notes====Remarks===
 This property is specific to Internet Explorer 8. The '''-ms-scrollbar-highlight-color''' attribute is an extension to CSS, and can be used as a synonym for '''scrollbar-highlight-color''' in IE8 Standards mode.
 
