@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Complete compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -52,7 +54,7 @@
 {{Notes_Section
 |Usage=This property accepts non-integer values, such as 1.5 or 2.75. If a non-integer value is specified, the animation terminates mid-cycle. Negative numbers are not valid.
 
-This property is often used in conjunction an [[css/properties/animation-direction|animation-direction]] value of '''alternate''', which will cause the animation to play in reverse on alternate cycles. 
+This property is often used in conjunction an [[css/properties/animation-direction|animation-direction]] value of '''alternate''', which will cause the animation to play in reverse on alternate cycles.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -83,7 +85,6 @@ This property is often used in conjunction an [[css/properties/animation-directi
 *[[css/properties/animation-name{{!}}animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function{{!}}animation-timing-function]]
-
 |External_links=*[http://robertnyman.com/2010/05/06/css3-animations Robert Nyman's examples]
 }}
 {{Topics|CSS}}
