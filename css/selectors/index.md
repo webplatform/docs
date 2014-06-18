@@ -1,5 +1,6 @@
-{{Page_Title|CSS Selectors}}
+{{Page_Title|CSS选择器}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
@@ -7,14 +8,14 @@
 Selectors may range from simple element names to rich contextual representations.
 }}
 {{Basic Page}}
-== CSS Selector Reference ==
-=== Type Selector ===
+== CSS选择器参考 ==
+=== 标签选择器 ===
 *[[css/selectors/type|<code>elementname</code>]]
 
-=== Universal Selector ===
+=== 通配符 ===
 *[[css/selectors/universal_selector|<code>*</code>]]
 
-=== [[css/selectors/attribute_selector|Attribute Selector]] ===
+=== [[css/selectors/attribute_selector|属性选择器]] ===
 *<code>[[css/selectors/attributes/existence|[attributename]]]</code>
 *<code>[[css/selectors/attributes/equality|[attributename="val"]]]</code>
 *<code>[[css/selectors/attributes/whitespace|[attributename~="val"]]]</code>
@@ -23,13 +24,13 @@ Selectors may range from simple element names to rich contextual representations
 *<code>[[css/selectors/attributes/suffix|[attributename$="val"]]]</code>
 *<code>[[css/selectors/attributes/substring|[attributename*="val"]]]</code>
 
-=== Class Selector ===
+=== 类选择器 ===
 *[[css/selectors/class_selector|<code>.classname</code>]]
 
-=== ID Selector ===
+=== ID选择器 ===
 *[[css/selectors/id_selector|<code>#idname</code>]]
 
-=== Pseudo-classes ===
+=== 伪类 ===
 ==== [[css/selectors/pseudo-classes/Dynamic_pseudo-classes|Dynamic pseudo-classes]] ====
 *<code>[[:css/selectors/pseudo-classes/:link|:link]]</code>
 *<code>[[:css/selectors/pseudo-classes/:visited|:visited]]</code>
