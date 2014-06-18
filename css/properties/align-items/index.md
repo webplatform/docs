@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup
+|State=Ready to Use
 |Checked_Out=No
+|Content=Cleanup
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
