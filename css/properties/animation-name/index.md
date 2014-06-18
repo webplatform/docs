@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Complete compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -73,7 +75,7 @@
 {{Notes_Section
 |Usage=Note that <code>animation-name</code> is not sufficient to run an animation. The <code>[[css/properties/animation-duration|animation-duration]]</code> property also needs to be set to a non-zero duration.
 
-When <code>animation-name</code> specifies a list of names, other animation properties such as <code>[[css/properties/animation-duration|animation-duration]]</code> should define values corresponding to each name. If the lists of values for the other animation properties do not have the same number of values as <code>animation-name</code>, the length of the <code>animation-name</code> list determines the number of items in each list examined when starting animations. The lists are matched up from the first value: excess values at the end are not used. If one of the other properties doesn't have enough comma-separated values to match the number of values of <code>animation-name</code>, the list is repeated until there are enough. This truncation or repetition does not affect the computed value. 
+When <code>animation-name</code> specifies a list of names, other animation properties such as <code>[[css/properties/animation-duration|animation-duration]]</code> should define values corresponding to each name. If the lists of values for the other animation properties do not have the same number of values as <code>animation-name</code>, the length of the <code>animation-name</code> list determines the number of items in each list examined when starting animations. The lists are matched up from the first value: excess values at the end are not used. If one of the other properties doesn't have enough comma-separated values to match the number of values of <code>animation-name</code>, the list is repeated until there are enough. This truncation or repetition does not affect the computed value.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -104,7 +106,6 @@ When <code>animation-name</code> specifies a list of names, other animation prop
 *[[css/properties/animation-iteration-count{{!}}animation-iteration-count]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function{{!}}animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
