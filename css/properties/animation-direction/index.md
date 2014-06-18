@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Finish compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -18,7 +20,7 @@
 |Description=All iterations of the animation are played as specified.
 }}{{CSS Property Value
 |Data Type=reverse
-|Description=All iterations of the animation are played in the reverse direction from the way they were specified. When an animation is played in reverse the timing functions are also reversed. For example, when played in reverse an ease-in animation would appear to be an ease-out animation. 
+|Description=All iterations of the animation are played in the reverse direction from the way they were specified. When an animation is played in reverse the timing functions are also reversed. For example, when played in reverse an ease-in animation would appear to be an ease-out animation.
 }}{{CSS Property Value
 |Data Type=alternate
 |Description=The animation cycle iterations that are odd counts are played in the normal direction, and the animation cycle iterations that are even counts are played in a reverse direction, thus reversing direction each cycle. The count to determine if an iteration is even or odd starts at one (odd).
@@ -96,7 +98,6 @@
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
