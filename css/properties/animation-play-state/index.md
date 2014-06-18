@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Complete compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -81,7 +83,6 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 	0% {top: 0;}
 	100% {top: -180px;} 
 }
-
 }}{{Single Example
 |Language=CSS
 |Description=A mobile-like interface featuring a keyframe-animated pulsing icon.  When the application enters an interruption mode, the icon is paused and the page presents another panel to indicate that the animation is inactive.
@@ -138,7 +139,6 @@ body.interrupt div.selected {
 *[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
