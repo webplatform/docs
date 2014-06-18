@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Finish compatibility section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -90,7 +92,6 @@ The initial value of 0s means the animation takes no time; that is, it is applie
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
