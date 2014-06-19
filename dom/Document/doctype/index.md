@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -17,7 +17,31 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example retrieves the document's DOCTYPE and displays some of its available components.
+|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <script type="text/javascript">
+    function getDocType () {
+      if (document.doctype) {
+          var dtinfo = "DOCTYPE name: " + document.doctype.name;
+          dtinfo += "\nDOCTYPE publicId: " + document.doctype.publicId;
+          dtinfo += "\nDOCTYPE systemId: " + document.doctype.systemId;
+          alert(dtinfo);
+      }
+      else {
+          alert ("Your browser does not support this example");
+      }
+    }
+  </script>
+</head>
+<body>
+  <button onclick="getDocType();">View DOCTYPE information</button>
+</body>
+</html>
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
