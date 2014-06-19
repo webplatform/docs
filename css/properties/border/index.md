@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add specifications.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -84,8 +86,7 @@ p {
 }}
 }}
 {{Notes_Section
-|Usage=
-* The initial value is the concatenated result of the 3 component values. For <code>border-width</code> the initial value is <code>medium</code>, which is computed as about 3px in most browsers. For <code>color</code>, the initial value is <code>currentColor</code>. For <code>boder-style</code>, the initial value is <code>none</code>.
+|Usage=* The initial value is the concatenated result of the 3 component values. For <code>border-width</code> the initial value is <code>medium</code>, which is computed as about 3px in most browsers. For <code>color</code>, the initial value is <code>currentColor</code>. For <code>boder-style</code>, the initial value is <code>none</code>.
 * It is usual to use the <code>border</code> property (or properties for individual sides, e.g. <code>border-left</code>) to set the default state of a box, and then override individual values using more specific propreties, such as <code>border-width</code> or <code>border-top-color</code>.
 * individual border properties such as <code>border-bottom</code> can be used as a divider between horizontally or vertically laid out items, such as a navigation menu items, or table cells.
 * A common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
