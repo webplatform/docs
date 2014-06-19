@@ -9,7 +9,7 @@
 {{Summary_Section|This property returns an object array representing an HTMLCollection of all the forms in the document.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
-|Read_only=No
+|Read_only=Yes
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,8 +20,6 @@ function numForms() {
   var allForms = document.forms;
   alert(allForms.length);
 }
-
-
 }}
 }}
 {{Notes_Section
