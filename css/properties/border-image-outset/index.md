@@ -1,5 +1,7 @@
 {{Page_Title|border-image-outset}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
