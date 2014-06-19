@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
+|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
 |Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Standardization_Status}}
 {{API_Name}}
