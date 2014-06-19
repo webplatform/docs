@@ -1,25 +1,33 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This property returns an object array representing an HTMLCollection of all the forms in the document.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//retrieve forms collection and report how many forms are in the document
+function numForms() {
+  var allForms = document.forms;
+  alert(allForms.length);
+}
+
+
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-
 }}
 {{Related_Specifications_Section
 |Specifications=
