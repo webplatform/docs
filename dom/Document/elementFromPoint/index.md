@@ -1,22 +1,22 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the element for the specified x coordinate and the specified y coordinate.}}
+{{Summary_Section|Returns the element at the specified x and y coordinates.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
 |Data type=Number
-|Description=A number that specifies the X-offset, in pixels.
+|Description=A number that specifies the X-offset, in pixels. Zero-based.
 |Optional=No
 }}{{Method Parameter
 |Name=y
 |Data type=Number
-|Description=A number that specifies the Y-offset, in pixels.
+|Description=A number that specifies the Y-offset, in pixels. Zero-based.
 |Optional=No
 }}
 |Method_applies_to=dom/Document
