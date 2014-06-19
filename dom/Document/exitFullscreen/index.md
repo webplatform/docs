@@ -18,10 +18,9 @@
 |Code=//exit fullscreen on Enter key
 document.addEventListener("keydown", function(e) {
   if (e.keyCode == 13) {
-    exitFullscreen();
+    document.exitFullscreen();
   }
 }, false);
-
 }}
 }}
 {{Notes_Section}}
