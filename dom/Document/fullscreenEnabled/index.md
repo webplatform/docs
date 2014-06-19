@@ -4,7 +4,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <code>fullscreenEnabled</code> property exposes the current document's fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.}}
+{{Summary_Section|Exposes the current document's fullscreen capability, returning <code>true</code> if the document can display elements in fullscreen, or <code>false</code> if not.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
