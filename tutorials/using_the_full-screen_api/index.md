@@ -33,7 +33,7 @@ Beginning with a web page rendered normally in a standard browser window, the de
 change the display to full-screen. Once in full-screen mode, the mode may be exited either programmatically or
 through user interaction.
 
-Two methods control the entry to and exit from full-screen mode, <code>[[dom/Document/requestFullscreen|requestFullscreen()]]</code> and
+Two methods control the entry to and exit from full-screen mode, <code>[[dom/Element/requestFullscreen|requestFullscreen()]]</code> and
 <code>[[dom/Document/exitFullscreen|exitFullscreen]]()</code>, respectively. The first method is applied to the element, the second to the document object as shown below.
 
 ===Entering full-screen mode===
