@@ -1,5 +1,7 @@
 {{Page_Title|border-left}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add specifications and compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -10,7 +12,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=Depends of the value type, see [[#Computed value]] in [[#Notes]] for more details 
+|Computed value=Depends of the value type, see [[#Computed value]] in [[#Notes]] for more details
 |Animatable=Yes
 |CSS object model property=borderLeft
 |CSS percentages=N/A
