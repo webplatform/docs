@@ -15,10 +15,12 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=//exit fullscreen on demand
-function exitFS() {
-  document.exitFullscreen();
-}
+|Code=//exit fullscreen on Enter key
+document.addEventListener("keydown", function(e) {
+  if (e.keyCode == 13) {
+    exitFullscreen();
+  }
+}, false);
 
 }}
 }}
