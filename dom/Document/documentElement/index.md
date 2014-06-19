@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -19,7 +19,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''documentElement''' property to get the [[dom/HTMLElement/innerHTML|'''innerHTML''']] property of the entire document.
+|Description=This example uses the '''documentElement''' property to get the [[dom/HTMLElement/innerHTML|'''innerHTML''']] property of the entire document, essentially everything inside the <code><html>...</html></code> tags.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
