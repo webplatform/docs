@@ -4,15 +4,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Exposes the fullscreen state of the document,
-returning the element that is displayed fullscreen, or null if there is no such element.
+{{Summary_Section|Exposes the current fullscreen state, returning the element that is displayed fullscreen, or <code>null</code> if there is no such element.
 }}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
 |Javascript_data_type=DOM Node
-|Return_value_description=Returns the element that is displayed fullscreen, or null if there is no such element.
+|Return_value_description=Returns the element that is displayed fullscreen, or <code>null</code> if there is no such element.
 }}
 {{Examples_Section
 |Not_required=No
@@ -103,26 +102,6 @@ returning the element that is displayed fullscreen, or null if there is no such 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-==Summary==
-The <code>fullscreenElement</code> property exposes the current full-screen state.
-
-==Value==
-Returns the element that is currently displayed fullscreen, or 
-<code>null</code> if there is no such element.
-
-==Example==
-<syntaxhighlight lang="javascript">
-function inFullScreen() {
-  if (document.fullscreenElement == null) {
-    // no element is in full-screen mode
-    return false;
-  }
-  else {
-    // an element is in full-screen mode
-    return true;
-  }
-}
-</syntaxhighlight>
 
 ==Related specifications==
 [http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
