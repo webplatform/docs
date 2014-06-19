@@ -1,8 +1,12 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Exposes the fullscreen state of the document,
+returning the element that is displayed fullscreen, or null if there is no such element.
+}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
@@ -12,7 +16,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function inFullScreen() {
+  if (document.fullscreenElement == null) {
+    // no element is in full-screen mode
+    return false;
+  }
+  else {
+    // an element is in full-screen mode
+    return true;
+  }
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -20,6 +36,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
