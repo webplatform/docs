@@ -13,7 +13,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//exit fullscreen on demand
+function exitFS() {
+  document.exitFullscreen();
+}
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -87,7 +94,7 @@
 {{See_Also_Section
 |Manual_links=* [[tutorials/using_the_full-screen_api]]
 }}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
