@@ -1,8 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The <code>fullscreenEnabled</code> property exposes the current document's fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
@@ -12,7 +14,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=function canDisplayFullScreen() {
+  if (document.fullscreenEnabled) {
+    // document can display elements in full-screen mode
+    return true;
+  }
+  else {
+    // document cannot display elements in full-screen mode
+    return false;
+  }
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -20,6 +34,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
