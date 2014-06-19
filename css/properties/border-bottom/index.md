@@ -1,5 +1,7 @@
 {{Page_Title|border-bottom}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add specifications.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
