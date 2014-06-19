@@ -1,5 +1,6 @@
 {{Page_Title|Using the full-screen API}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -32,8 +33,8 @@ Beginning with a web page rendered normally in a standard browser window, the de
 change the display to full-screen. Once in full-screen mode, the mode may be exited either programmatically or
 through user interaction.
 
-Two methods control the entry to and exit from full-screen mode, <code>[[dom/methods/requestFullscreen|requestFullscreen()]]</code> and
-<code>[[dom/methods/exitFullscreen|exitFullscreen]]()</code>, respectively. The first method is applied to the element, the second to the document object as shown below.
+Two methods control the entry to and exit from full-screen mode, <code>[[dom/Document/requestFullscreen|requestFullscreen()]]</code> and
+<code>[[dom/Document/exitFullscreen|exitFullscreen]]()</code>, respectively. The first method is applied to the element, the second to the document object as shown below.
 
 ===Entering full-screen mode===
 Consider a <code>&lt;video&gt;</code> element as illustrated above. The element we wish to control has an ID
@@ -163,6 +164,7 @@ See the compatibility tables in the relevant methods and properties below for th
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Full-screen API
 |Chrome_supported=Unknown
