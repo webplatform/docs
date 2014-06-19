@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -12,12 +13,34 @@
 |Example_object_name=document
 |Return_value_name=designMode
 |Javascript_data_type=String
-|Return_value_description="on" if the the document is editable, or "off" if it is not.
+|Return_value_description="on" if the the document is editable, or "off" if it is not. Default is "off".
 |Example_value_name=newDesignMode
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example toggles the state of document.designMode when the window is double-clicked.
+|Code=<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.ondblclick = toggleDesignMode;
+
+function toggleDesignMode() {
+  alert(document.designMode);
+  document.designMode = (document.designMode == "on") ? "off" : "on";
+  alert(document.designMode);
+}
+</script>
+</head>
+
+<body>
+<p>This is a paragraph, which may or may not be editable.</p>
+</body>
+</html>
+
+}}
 }}
 {{Notes_Section
 |Usage=Use the '''designMode''' property to let the user edit the current document.
