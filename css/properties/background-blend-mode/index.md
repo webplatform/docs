@@ -155,7 +155,7 @@ Non-separable blend modes consider all color components in combination as oppose
 |Specifications={{Related Specification
 |Name=Compositing and Blending Level 1
 |URL=http://www.w3.org/TR/compositing/#blending
-|Status=Working Draft
+|Status=Candidate recommendation
 }}
 }}
 {{Compatibility_Section
@@ -178,8 +178,8 @@ Non-separable blend modes consider all color components in combination as oppose
 |Opera_version=23
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
+|Safari_supported=Yes
+|Safari_version=8
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
@@ -187,8 +187,12 @@ Non-separable blend modes consider all color components in combination as oppose
 |Notes_rows=
 }}
 {{See_Also_Section
+|Topic_clusters=Background, CSS Attributes, Visual Effects
 |External_links=* [http://www.adobe.com/devnet/html5/articles/css-blending.html Introducing CSS blending] by Rik Cabanier
+* [http://blogs.adobe.com/webplatform/2014/06/12/background-blending-now-available-in-firefox-30/] by Rik Cabanier
 * [http://codepen.io/collection/Hcdol/] by Adobe
+* [http://bennettfeely.com/gradients/] by Bennett Feely
+* [http://codepen.io/collection/fEkjb/] by yoksl
 }}
 {{Topics|CSS}}
 {{External_Attribution
