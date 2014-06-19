@@ -101,27 +101,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-==Summary==
-The <code>fullscreenEnabled</code> property exposes the current document's ability to display elements in full-screen.
-
-==Value==
-Returns <code>true</code> if the document can display full-screen elements, or 
-<code>false</code> if not.
-
-==Example==
-<syntaxhighlight lang="javascript">
-function canDisplayFullScreen() {
-  if (document.fullscreenEnabled) {
-    // document can display elements in full-screen mode
-    return true;
-  }
-  else {
-    // document cannot display elements in full-screen mode
-    return false;
-  }
-}
-</syntaxhighlight>
-
 ==Related specifications==
 [http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
 
