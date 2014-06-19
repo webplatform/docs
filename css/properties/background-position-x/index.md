@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
+|State=In Progress
+|Editorial notes=Add specifications, compatibility.
+Supported by IE, Safari, and Chrome. But not appear in the Spec.
 |Checked_Out=Yes
-|Editorial notes=Supported by IE, Safari, and Chrome. But not appear in the Spec.
+|High-level issues=Needs Flags
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
