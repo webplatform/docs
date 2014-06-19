@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
+|State=In Progress
+|Editorial notes=Add example, description, compatibility.
+Supported by IE, Safari, and Chrome. But not appear in the Spec.
 |Checked_Out=Yes
-|Editorial notes=Supported by IE, Safari, and Chrome. But not appear in the Spec.
+|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
