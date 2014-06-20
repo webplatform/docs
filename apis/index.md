@@ -8,7 +8,7 @@ APIs, or Application Programming Interfaces, are standard JavaScript objects tha
 
 APIs came into popularity on the Web a number of years ago, when open standards creators and web property developers realised it was a really good idea to make their data, services and technologies easily query-able and reusable via simple interfaces consisting of standard JavaScript objects. These days you'll find many examples of APIs available and in use all over the Web, for example:
 
-* Web sites/applications as diverse as [https://dev.twitter.com/docs Twitter], [http://www.flickr.com/services/developer/ Flickr], [https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html Amazon], [http://code.google.com/apis/youtube/overview.html YouTube], [http://www.dropbox.com/developers Drop Box] and [http://www.guardian.co.uk/open-platform The Guardian].
+* Web sites/applications as diverse as [https://dev.twitter.com/docs Twitter], [http://www.flickr.com/services/developer/ Flickr], [https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html Amazon], [http://code.google.com/apis/youtube/overview.html YouTube], [http://www.dropbox.com/developers Dropbox] and [http://www.guardian.co.uk/open-platform The Guardian].
 * JavaScript libraries such as [http://modernizr.com/ Modernizr], [http://jquery.com/ jQuery] and [http://raphaeljs.com/ Raphaël].
 
 Many libraries include API functionality, so you don't have to use the raw API. For APIs like [[apis/xhr|XHR]] and [[apis/websocket|Web Socket]], you would use the API through a library like jQuery rather than spin up your own HTTP request or build in your own socket layer. 
