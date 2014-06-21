@@ -1,27 +1,31 @@
-{{Page_Title}}
+{{Page_Title|Track ended}}
 {{Flags
-|High-level issues=Needs Review
+|State=Not Ready
+|Editorial notes=Everything. Passed by and did some cleaning, there were garbage. 
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
 {{Event
 |Event_applies_to=apis/webrtc/MediaStream
+|Synchronous=No
+|Bubbles=No
+|Cancelable=No
+|Content=Property is read-only. Value becomes true at the moment the video content is finished.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=This is the CSS.
-See the [http://code.webplatform.org/ live example]
-|Code=dfadadf ad
-|LiveURL=http://code.webplatform.org/
-}}
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Capture and Streams
+|URL=http://dev.w3.org/2011/webrtc/editor/getusermedia.html#track-ended
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -30,7 +34,9 @@ See the [http://code.webplatform.org/ live example]
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Topic_clusters=Multimedia, WebRTC
+}}
 {{Topics|API, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
