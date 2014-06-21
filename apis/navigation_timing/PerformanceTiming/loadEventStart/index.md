@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=possible sample needed
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the load event of the current document is fired, or returns zero when the load event is not fired yet.}}
 {{API_Object_Property
@@ -22,8 +24,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
+|URL=http://www.w3.org/TR/navigation-timing/
 |Status=W3C Editor's Draft
+}}{{Related Specification
+|Name=Navigation Timing 2
+|URL=http://www.w3.org/TR/navigation-timing-2/
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
