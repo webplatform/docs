@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=possible example added
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent finishes prompting to unload the previous document. If there is no previous document, returns the same value as fetchStart.}}
 {{API_Object_Property
@@ -22,8 +24,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/navigation-timing/
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
