@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Possible sample
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns the time when the load event of the current document is completed, or returns zero when the load event is not fired or is not completed.}}
 {{API_Object_Property
