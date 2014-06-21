@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -22,8 +22,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/navigation-timing/
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=W3C Navigation Timing 2
+|URL=http://www.w3.org/TR/navigation-timing-2/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
