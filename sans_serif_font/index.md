@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=sans-serif font
 |Definition=A typeface that does not have the small projecting features (serifs) at the ends of character strokes, such as Arial. Modern convention holds that sans-serif fonts are preferred over serif fonts for online text, while serif fonts are preferred for print. Contrast with [[serif_font|serif font]].
