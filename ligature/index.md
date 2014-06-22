@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=ligature
 |Definition=A typographic method by which two or more glyphs are combined into one, with the resulting single glyph replacing the original two consecutive characters. Common Latin alphabet ligatures include &amp; (combining "E" and "t"), &AElig; (combining "A" and "E"), and  	&szlig; (combining "s" and "s" or "s" and "z").
