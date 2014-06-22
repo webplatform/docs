@@ -1,8 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=This is a vendor specific technology that should not be included in an industry standard documentation resource.
+* Eliezerb:
+Should be deleted or moved to tutorials section
+|Checked_Out=No
 |High-level issues=Deletion Candidate
 |Content=Not Neutral
-|Editorial notes=This is a vendor specific technology that should not be included in an industry standard documentation resource.
 }}
 {{API_Name}}
 {{Summary_Section|PhoneGap is an application framework that enables you to build natively installed applications using HTML and JavaScript.  The easiest way to think of PhoneGap is a web view container that is 100% width and 100% height, with a JavaScript programming interface that allows you to access operating system features.}}
