@@ -1,9 +1,15 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''maction''' element provides a possibility to bind actions to (sub-) expressions.
-The action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.}}
+The action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.
+}}
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -42,26 +48,6 @@ The action itself is specified by the actiontype attribute, which accepts severa
 }}
 }}
 {{Notes_Section}}
-== Attributes == 
-<dl>
-  <dt>
-    actiontype</dt>
-  <dd>
-    The action which specifies what happens for this element. Possible values are:
-* '''statusline''': If there is a click on the ''expression'' or the reader moves the pointer over it, the ''message'' is sent to the browser's status line. The syntax is: &lt;maction actiontype="statusline"&gt; ''expression'' ''message'' &lt;/maction&gt;.
-
-* '''toggle''': When there is a click on the subexpression, the rendering alternates the display of selected subexpressions. Therefore each click increments the '''selection''' value.<br />
-        The syntax is: &lt;maction actiontype="toggle" selection="''positive-integer''" &gt; ''expression1 expression2 expressionN'' &lt;/maction&gt;.
-
-* '''tooltip''': When the pointer moves over the ''expression'', a tooltip box with a ''message'' is displayed near the expression.<br />
-        The syntax is: &lt;maction actiontype="tooltip"&gt; <em>expression</em> ''message'' &lt;/maction&gt;.
-  </dd>
-  <dt id="attr-selection">
-    selection</dt>
-  <dd>
-    The child element which is addressed by the action. The default value is ''1'' which is the first child element.</dd>
-</dl>
-
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -131,7 +117,7 @@ The action itself is specified by the actiontype attribute, which accepts severa
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -139,3 +125,22 @@ The action itself is specified by the actiontype attribute, which accepts severa
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes == 
+<dl>
+  <dt>
+    actiontype</dt>
+  <dd>
+    The action which specifies what happens for this element. Possible values are:
+* '''statusline''': If there is a click on the ''expression'' or the reader moves the pointer over it, the ''message'' is sent to the browser's status line. The syntax is: &lt;maction actiontype="statusline"&gt; ''expression'' ''message'' &lt;/maction&gt;.
+
+* '''toggle''': When there is a click on the subexpression, the rendering alternates the display of selected subexpressions. Therefore each click increments the '''selection''' value.<br />
+        The syntax is: &lt;maction actiontype="toggle" selection="''positive-integer''" &gt; ''expression1 expression2 expressionN'' &lt;/maction&gt;.
+
+* '''tooltip''': When the pointer moves over the ''expression'', a tooltip box with a ''message'' is displayed near the expression.<br />
+        The syntax is: &lt;maction actiontype="tooltip"&gt; <em>expression</em> ''message'' &lt;/maction&gt;.
+  </dd>
+  <dt id="attr-selection">
+    selection</dt>
+  <dd>
+    The child element which is addressed by the action. The default value is ''1'' which is the first child element.</dd>
+</dl>
