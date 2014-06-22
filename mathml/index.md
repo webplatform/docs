@@ -1,11 +1,13 @@
 {{Page_Title|MathML}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs review, fix broken links and compatibility tables.
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
-{{Summary_Section|Mathematical Markup Language (MathML) is a [[xml|XML]] language, which is used to describe mathematical formulas. The current stable specification is the [http://www.w3.org/TR/MathML3/ MathML 3.0 W3C Recommendation].
-}}
-
+{{Summary_Section|Mathematical Markup Language (MathML) is a [[xml|XML]] language, which is used to describe mathematical formulas. The current stable specification is the [http://www.w3.org/TR/MathML3/ MathML 3.0 W3C Recommendation].}}
+{{Basic Page}}
 == Explore our MathML docs ==
 
 <div class="topic-container">
@@ -44,7 +46,7 @@ There are two types of MathML:
 == Contributing to MathML development ==
 MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the WG homepage] for more details, including mailing list details for feedback and contributing. 
 
-{{Basic Page}}
+
 {{Compatibility_Section
 |Not_required=No
 |Desktop_rows={{Compatibility Table Desktop Row
@@ -105,6 +107,10 @@ MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the
 }}
 |Notes_rows=
 }}
+
+
+
+{{Special:PrefixIndex/mathml/}}
 {{Notes_Section}}
 {{Topics|MathML}}
 {{External_Attribution
@@ -113,4 +119,3 @@ MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Special:PrefixIndex/mathml/}}
