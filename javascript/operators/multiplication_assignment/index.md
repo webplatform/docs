@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Summary_Section|Multiplies the value of a variable by the value of an expression and assigns the result to the variable.}}
