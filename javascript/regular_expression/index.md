@@ -8,8 +8,7 @@
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=re = '''/''' pattern '''/''' [ flags ]
-}}{{JS Syntax Format
-|Format=re = '''new RegExp("''' pattern '''"''' [ ''',"''' flags '''"''' ] ''')'''
+re = '''new RegExp("''' pattern '''"''' [ ''',"''' flags '''"''' ] ''')'''
 }}
 |Values={{JS Syntax Parameter
 |Name=re
