@@ -1,5 +1,10 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs to be moved to tutorials section
+|Checked_Out=No
+}}
+{{Byline}}
 {{Summary_Section|This article shows how to use JavaScript to modify the CSS applied to an HTML page, and create new styles.}}
 {{Tutorial
 |Content=== Introduction ==
@@ -107,8 +112,10 @@ In the example below, the function to make the text bigger uses the <code>style<
  
 Another way to alter the style of an element is by changing its <code>class</code> attribute. <code>class</code> is a reserved word in JavaScript, so in order to access the element’s class, you use <code>element.className</code>. You can append strings to <code>className</code> if you want to add a class to an element, or you could just overwrite <code>className</code> and assign it a whole new class. Check out the [http://dev.opera.com/articles/view/dynamic-style-css-javascript/elementclassnames.html element class names example].
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
