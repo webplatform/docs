@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=lining figures
 |Definition=Characters, typically numerals, of a consistent height that all share the same baseline and cap line, resulting in a consistently sized line. Contrast with [[non_lining_figures|non-lining figures]], which are numerals typeset with varying heights, some extending above the cap line or below the baseline.
