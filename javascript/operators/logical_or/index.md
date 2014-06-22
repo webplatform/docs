@@ -1,20 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Performs a logical disjunction on two expressions.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result '''=''' expression1 '''{{!}}{{!}}''' expression2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Performs a logical disjunction on two expressions.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result '''=''' expression1 '''{{!}}{{!}}''' expression2
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=If either or both expressions evaluate to '''True''' , result is '''True'''. The following table illustrates how result is determined:
@@ -48,8 +56,14 @@ JavaScript uses the following rules for converting non-Boolean values to Boolean
 * null and undefined are considered false.
 * Numbers are false if, and only if, they are 0.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
