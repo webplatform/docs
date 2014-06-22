@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
+|Editorial notes=Needs to be joined with javascript/RegExp and deleted.
 |Checked_Out=No
 }}
 {{Summary_Section|An object that contains a regular expression pattern along with flags that identify how to apply the pattern.}}
