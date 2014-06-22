@@ -1,10 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Suspends execution.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= debugger}}
+{{Summary_Section|Suspends execution.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=debugger
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example uses the debugger statement to suspend execution for each iteration through the for loop.
+
+'''Note''' -- To run this example, you must have a script debugger installed and the script must run in debug mode.Internet Explorer 8 includes the JavaScript debugger. If you are using an earlier version of Internet Explorer, see [http://go.microsoft.com/fwlink/?LinkId=133801 How to: Enable and Start Script Debugging from Internet Explorer].
+|Code=for(i = 1; i&lt;5; i++) {
+    // Print i to the Output window.
+    Debug.write("loop index is " + i);
+    // Wait for user to resume.
+    debugger
+ }
+}}
 }}
 {{Remarks_Section
 |Remarks=You can place debugger statements anywhere in procedures to suspend execution. Using the debugger statement is similar to setting a breakpoint in the code.
@@ -13,26 +33,16 @@ The debugger statement suspends execution, but it does not close any files or cl
 
 '''Note''' -- The debugger statement has no effect unless the script is being debugged.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=This example uses the debugger statement to suspend execution for each iteration through the for loop.
-
-'''Note''' -- To run this example, you must have a script debugger installed and the script must run in debug mode.Internet Explorer 8 includes the JavaScript debugger. If you are using an earlier version of Internet Explorer, see [http://go.microsoft.com/fwlink/?LinkId=133801 How to: Enable and Start Script Debugging from Internet Explorer].
-
-|Code= for(i = 1; i&lt;5; i++) {
-    // Print i to the Output window.
-    Debug.write("loop index is " + i);
-    // Wait for user to resume.
-    debugger
- }
-}}}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements{{!}}JavaScript Statements]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
