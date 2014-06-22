@@ -1,26 +1,40 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Multiplies the value of two expressions.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result '''=''' number1 '''*''' number2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Multiplies the value of two expressions.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result '''=''' number1 '''*''' number2
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=number1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=number2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
 }}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/multiplication assignment{{!}}Multiplication Assignment Operator (\*=)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
