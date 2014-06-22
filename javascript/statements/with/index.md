@@ -1,19 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Establishes the default object for a statement.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= with ( object ) {}}{{JS_Syntax_Format
-|Format=     statements }}{{JS_Syntax_Format
-|Format= } }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Establishes the default object for a statement.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=with ( object ) {
+     statements
+}
+}}
+|Values={{JS Syntax Parameter
 |Name=object
-|Required=
-|Description=The new default object.}}{{JS_Syntax_Parameter
+|Description=The new default object.
+}}{{JS Syntax Parameter
 |Name=statements
-|Required=
-|Description=One or more statements for which object is the default object.}}
+|Description=One or more statements for which object is the default object.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In the example that follows, notice the repeated use of Math.
@@ -27,11 +36,16 @@ When you use the with statement, your code becomes shorter and easier to read:
     y = tan(14 * E)
  }
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/this{{!}}this Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
