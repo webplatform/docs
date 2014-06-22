@@ -1,46 +1,38 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Enables the execution of one or more statements when a specified expression's value matches a label.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= switch ( expression ) {}}{{JS_Syntax_Format
-|Format=     case label :}}{{JS_Syntax_Format
-|Format=         statementlist }}{{JS_Syntax_Format
-|Format=     case label :}}{{JS_Syntax_Format
-|Format=     default :}}{{JS_Syntax_Format
-|Format=         statementlist }}{{JS_Syntax_Format
-|Format= } }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Enables the execution of one or more statements when a specified expression's value matches a label.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=switch ( expression ) {
+     case label:
+         statementlist
+     case label:
+     default:
+         statementlist
+}
+}}
+|Values={{JS Syntax Parameter
 |Name=expression
-|Required=
-|Description=The expression to be evaluated.}}{{JS_Syntax_Parameter
+|Description=The expression to be evaluated.
+}}{{JS Syntax Parameter
 |Name=label
-|Required=
-|Description=An identifier to be matched against expression. If label is an expression , execution starts with the statementlist immediately after the colon, and continues until it encounters either a break statement, which is optional, or the end of the switch statement.}}{{JS_Syntax_Parameter
+|Description=An identifier to be matched against expression. If label is an expression , execution starts with the statementlist immediately after the colon, and continues until it encounters either a break statement, which is optional, or the end of the switch statement.
+}}{{JS Syntax Parameter
 |Name=statementlist
-|Required=
-|Description=One or more statements to be executed.}}
+|Description=One or more statements to be executed.
 }}
-{{Remarks_Section
-|Remarks=Use the default clause to provide a statement to be executed if none of the label values matches expression. It can appear anywhere within the switch code block.
-
-Zero or more label blocks may be specified. If no label matches the value of expression , and a default case is not supplied, no statements are executed.
-
-Execution flows through a switch statement as follows:
-
-* Evaluate expression and look at label in order until a match is found.
-* If a label value equals expression , execute its accompanying statementlist.Continue execution until a break statement is encountered, or the switch statement ends. This means that multiple label blocks are executed if a break statement is not used.
-* If no label equals expression , go to the default case. If there is no default case, go to last step.
-* Continue execution at the statement following the end of the switch code block.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example tests an object for its type.
-
-|Code= function MyObjectType(obj) {
+|Code=function MyObjectType(obj) {
      switch (obj.constructor) {
          case Date:
              document.write("Object is a Date.");
@@ -67,11 +59,10 @@ Execution flows through a switch statement as follows:
  
  // Output when obj is something other than a Date, Number, or String:
  // Object is unknown.
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following code shows what happens if you do not use a break statement.
-
-|Code= function MyObjectType(obj) {
+|Code=function MyObjectType(obj) {
      switch (obj.constructor) {
          case Date:
              document.write("Object is a Date.");
@@ -95,13 +86,31 @@ Execution flows through a switch statement as follows:
  
  // Output when obj is something other than a Date, Number, or String:
  // Object is unknown.
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=Use the default clause to provide a statement to be executed if none of the label values matches expression. It can appear anywhere within the switch code block.
+
+Zero or more label blocks may be specified. If no label matches the value of expression , and a default case is not supplied, no statements are executed.
+
+Execution flows through a switch statement as follows:
+
+* Evaluate expression and look at label in order until a match is found.
+* If a label value equals expression , execute its accompanying statementlist.Continue execution until a break statement is encountered, or the switch statement ends. This means that multiple label blocks are executed if a break statement is not used.
+* If no label equals expression , go to the default case. If there is no default case, go to last step.
+* Continue execution at the statement following the end of the switch code block.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/break{{!}}break Statement]]
 * [[javascript/statements/if else{{!}}if...else Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
