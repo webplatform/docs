@@ -1,10 +1,19 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Converts a string to a floating-point number.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= parseFloat( numString ) }}
+{{Summary_Section|Converts a string to a floating-point number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=parseFloat( numString )
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required numString argument is a string that contains a floating-point number.
@@ -15,13 +24,18 @@ The '''parseFloat''' function returns a numerical value equal to the number cont
  parseFloat("1.2abc")   // Returns 1.2.
 You can test for '''NaN''' using the '''isNaN''' function.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/isNaN{{!}}isNaN Function]]
 * [[javascript/parseInt{{!}}parseInt Function]]
 * [[javascript/String{{!}}String Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
