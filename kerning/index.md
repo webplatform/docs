@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=kerning
 |Definition=The typographical process of adjusting the spacing between individual characters in a line of text rendered in a proportional font to achieve a visually pleasing result.
