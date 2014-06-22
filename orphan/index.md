@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=orphan
 |Definition=A word or short line at the beginning of a paragraph that is left dangling at the bottom of a column or page, separated from the rest of the paragraph by the subsequent break. The Chicago Manual of Style offers these definitions:
