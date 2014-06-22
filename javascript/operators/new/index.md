@@ -1,17 +1,27 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Creates a new object.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= new constructor ([ arguments ]) }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Creates a new object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=new constructor ([ arguments ])
+}}
+|Values={{JS Syntax Parameter
 |Name=constructor
 |Required=Required
-|Description=The constructor of the object. The parentheses can be omitted if the constructor takes no arguments.}}{{JS_Syntax_Parameter
+|Description=The constructor of the object. The parentheses can be omitted if the constructor takes no arguments.
+}}{{JS Syntax Parameter
 |Name=arguments
 |Required=Optional
-|Description=Any arguments to be passed to the new object's constructor.}}
+|Description=Any arguments to be passed to the new object's constructor.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The new operator performs the following tasks:
@@ -25,11 +35,16 @@ These are examples of valid uses of the '''new''' operator.
  my_array = new Array();
  my_date = new Date("Jan 5 1996");
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/function{{!}}function Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
