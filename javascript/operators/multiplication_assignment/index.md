@@ -1,28 +1,41 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Multiplies the value of a variable by the value of an expression and assigns the result to the variable.
-
+{{Flags
+|State=In Progress
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result '''*=''' expression}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Multiplies the value of a variable by the value of an expression and assigns the result to the variable.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result '''*=''' expression
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=Using the '''*=''' operator is exactly the same as specifying:
 
  result = result * expression
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/multiplication{{!}}Multiplication Operator (\*)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
