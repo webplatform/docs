@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=river
 |Definition=A typographical idiosyncrasy in which (typically vertical) visible gaps of whitespace appear to run through a paragraph of text due to a coincidental alignment of spaces. Rivers are most noticeable with wide inter-word spaces in monospaced fonts, but are less noticeable with proportional fonts.
