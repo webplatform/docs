@@ -1,17 +1,23 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Generates an error condition that can be handled by a try...catch...finally statement.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= throw exception }}
+{{Summary_Section|Generates an error condition that can be handled by a try...catch...finally statement.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=throw exception
 }}
-{{Remarks_Section
-|Remarks=The required exception argument can be any expression.
-
-The following example throws an error inside a try block, and it is caught in the catch block.
-
- try {
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example throws an error inside a try block, and it is caught in the catch block.
+|Code=try {
          throw new Error(200, "x equals zero");
  }
  catch (e) {
@@ -20,12 +26,21 @@ The following example throws an error inside a try block, and it is caught in th
  
  // Output: x equals zero.
 }}
+}}
+{{Remarks_Section
+|Remarks=The required exception argument can be any expression.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/try catch finally{{!}}try...catch...finally Statement]]
 * [[javascript/Error{{!}}Error Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
