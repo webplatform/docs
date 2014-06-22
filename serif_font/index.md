@@ -1,8 +1,12 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=serif font
 |Definition=A typeface that has the small projecting features (serifs) at the ends of character strokes, such as Times Roman. Modern convention holds that serif fonts are preferred over sans-serif fonts for print, while sans-serif fonts are preferred for online text. Contrast with [[sans_serif font|sans-serif font]].
-
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
