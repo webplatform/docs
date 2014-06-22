@@ -1,27 +1,25 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value indicating the state of the ignoreCase flag ( '''i''' ) used with a regular expression. Default is '''false'''. Read-only.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Needs to be moved under javascript/RegExp
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= rgExp.'''ignoreCase'''}}
+{{Summary_Section|Returns a Boolean value indicating the state of the ignoreCase flag ( '''i''' ) used with a regular expression. Default is '''false'''. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=rgExp.'''ignoreCase'''
 }}
-{{Remarks_Section
-|Remarks=The required rgExp reference is an instance of the '''RegExp''' object.
-
-The '''ignoreCase''' property returns '''true''' if the ignoreCase flag is set for a regular expression, and returns '''false''' if it is not.
-
-The ignoreCase flag, when used, indicates that a search should ignore case sensitivity when matching the pattern within the searched string.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''ignoreCase''' property. If you pass "gi" in to the function shown below, all instances of the word "the" are replaced with the word "a", including the initial "The". This is because with the ignoreCase flag set, the search ignores any case sensitivity. So "T" is the same as "t" for the purposes of matching.
 
 This function returns the Boolean values that indicate the state of the allowable regular expression flags, which are '''g''' , '''i''' , and '''m'''. The function also returns the string with all replacements made.
-
-|Code= function RegExpPropDemo(flag){
+|Code=function RegExpPropDemo(flag){
      // The flag parameter is a string that contains
      // g, i, or m. The flags can be combined.
  
@@ -55,11 +53,10 @@ This function returns the Boolean values that indicate the state of the allowabl
  
  document.write(RegExpPropDemo("gi"));
  document.write(RegExpPropDemo("g"));
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=Following is the resulting output.
-
-|Code= global: true
+|Code=global: true
  ignoreCase: true
  multiline: false
  Resulting String: a batter hit a ball with a bat and a fielder caught a ball with a glove.
@@ -68,13 +65,26 @@ This function returns the Boolean values that indicate the state of the allowabl
  ignoreCase: false
  multiline: false
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required rgExp reference is an instance of the '''RegExp''' object.
+
+The '''ignoreCase''' property returns '''true''' if the ignoreCase flag is set for a regular expression, and returns '''false''' if it is not.
+
+The ignoreCase flag, when used, indicates that a search should ignore case sensitivity when matching the pattern within the searched string.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/regular expression/global{{!}}global Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Property
+|Applies to=RegExp
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
