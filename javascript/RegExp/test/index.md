@@ -1,30 +1,31 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Needs to be moved under javascript/RegExp
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= rgExp.'''test(''' str ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns a Boolean value that indicates whether or not a pattern exists in a searched string.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=rgExp.'''test(''' str ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=rgExp
 |Required=Required
-|Description=An instance of a '''Regular Expression''' object containing the regular expression pattern and applicable flags.}}{{JS_Syntax_Parameter
+|Description=An instance of a '''Regular Expression''' object containing the regular expression pattern and applicable flags.
+}}{{JS Syntax Parameter
 |Name=str
 |Required=Required
-|Description=The string on which to perform the search.}}
+|Description=The string on which to perform the search.
 }}
-{{Remarks_Section
-|Remarks=The '''test''' method checks to see if a pattern exists within a string and returns '''true''' if so, and '''false''' otherwise.
-
-The properties of the global '''RegExp''' object are not modified by the '''test''' method.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''test''' method. To use this example, pass the function a regular expression pattern and a string. The function will test for the occurrence of the regular expression pattern in the string and return a string indicating the results of that search:
-
-|Code= function TestDemo(re, teststring)
+|Code=function TestDemo(re, teststring)
  {
     // Test string for existence of regular expression.
     var found = re.test(teststring)
@@ -41,13 +42,24 @@ The properties of the global '''RegExp''' object are not modified by the '''test
     s += "'" + re.source + "'"
     return(s);
  }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''test''' method checks to see if a pattern exists within a string and returns '''true''' if so, and '''false''' otherwise.
+
+The properties of the global '''RegExp''' object are not modified by the '''test''' method.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/RegExp{{!}}RegExp Object]]
 * [[javascript/regular expression{{!}}Regular Expression Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Method
+|Applies to=RegExp
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
