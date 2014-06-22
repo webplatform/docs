@@ -1,7 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript statements.
+{{Flags
+|State=Not Ready
+|Editorial notes=Merge with javascript/reserved words.
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript statements.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Statements==
 {| class='wikitable'
 |-
@@ -66,7 +81,11 @@
 | [[javascript/statements/with|with Statement]]
 |}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
