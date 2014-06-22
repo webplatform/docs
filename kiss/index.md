@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=KISS
 |Definition=Acronym for "Keep It Simple, Stupid", "Keep It Short and Simple", etc. Based on the principle that reducing complexity in a system (typically a factor of the number of system elements) reduces the potential for errors, and thus that the avoidance of unnecessary complexity should be a key goal in any design effort.
