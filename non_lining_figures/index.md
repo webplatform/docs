@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=non-lining figures
 |Definition=Characters, typically numerals, typeset with varying heights, some extending above the cap line or below the baseline. Contrast with [[lining_figures|lining figures]], which are numerals of a consistent height that all share the same baseline and cap line, resulting in a consistently sized line. Also called old-style figures.
