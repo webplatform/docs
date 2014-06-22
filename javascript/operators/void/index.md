@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Summary_Section|The void operator evaluates an expression but then returns <b>undefined</b>.}}
