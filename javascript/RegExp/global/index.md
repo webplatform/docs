@@ -1,27 +1,25 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value indicating the state of the global flag ( '''g''' ) used with a regular expression. Default is '''false'''. Read-only.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Needs to be moved under javascript/RegExp
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= rgExp.'''global'''}}
+{{Summary_Section|Returns a Boolean value indicating the state of the global flag ( '''g''' ) used with a regular expression. Default is '''false'''. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=rgExp.'''global'''
 }}
-{{Remarks_Section
-|Remarks=The required rgExp reference is an instance of a '''Regular Expression''' object.
-
-The global property returns '''true''' if the global flag is set for a regular expression, and returns '''false''' if it is not.
-
-The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the global property. If you pass '''g''' in to the function shown below, all instances of the word "the" are replaced with the word "a". Note that the "The" at the beginning of the string is not replaced because the '''i''' (ignore case) flag is not passed to the function.
 
 This function displays the condition of the properties associated with the allowable regular expression flags, which are '''g''' , '''i''' , and '''m'''. The function also displays the string with all replacements made.
-
-|Code= function RegExpPropDemo(flag){
+|Code=function RegExpPropDemo(flag){
     // The flag parameter is a string that contains
     // g, i, or m.  The flags can be combined.
  
@@ -53,21 +51,33 @@ This function displays the condition of the properties associated with the allow
  }
  
  document.write(RegExpPropDemo("g"));
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=Following is the resulting output.
-
-|Code= global: true
+|Code=global: true
  ignoreCase: false
  multiline: false
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required rgExp reference is an instance of a '''Regular Expression''' object.
+
+The global property returns '''true''' if the global flag is set for a regular expression, and returns '''false''' if it is not.
+
+The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Property
+|Applies to=RegExp
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
