@@ -1,17 +1,25 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Performs logical negation on an expression.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result '''= !''' expression}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Performs logical negation on an expression.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result '''= !''' expression
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The following table illustrates how result is determined.
@@ -37,8 +45,14 @@ The operator is applied to the resulting number.
 
 For the '''!''' operator, if expression is nonzero, result is zero. If expression is zero, result is 1.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
