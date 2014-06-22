@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Consider merging with docs.webplatform.org/wiki/justified
 |Checked_Out=No
 }}
 {{Glossary_Item
