@@ -1,30 +1,33 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Executes a statement or series of statements until a specified condition is false.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= while ( expression ) {}}{{JS_Syntax_Format
-|Format=     statements }}{{JS_Syntax_Format
-|Format= } }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Executes a statement or series of statements until a specified condition is false.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=while ( expression ) {
+     statements
+}
+}}
+|Values={{JS Syntax Parameter
 |Name=expression
 |Required=Required
-|Description=A Boolean expression that is checked before each iteration of the loop. If expression is true , the loop is executed. If expression is false , the loop is terminated.}}{{JS_Syntax_Parameter
+|Description=A Boolean expression that is checked before each iteration of the loop. If expression is true , the loop is executed. If expression is false , the loop is terminated.
+}}{{JS Syntax Parameter
 |Name=statements
 |Required=Optional
-|Description=One or more statements to be executed if expression is true.}}
+|Description=One or more statements to be executed if expression is true.
 }}
-{{Remarks_Section
-|Remarks=The while statement checks expression before a loop is first executed. If expression is false at this time, the loop is never executed.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the while statement.
-
-|Code= var i = 0;
+|Code=var i = 0;
  var j = 10;
  while (i &lt; 100) {
      if (i == j)
@@ -34,7 +37,14 @@
  document.write(i);
  
  // Output: 10
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The while statement checks expression before a loop is first executed. If expression is false at this time, the loop is never executed.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/break{{!}}break Statement]]
 * [[javascript/statements/continue{{!}}continue Statement]]
@@ -42,8 +52,10 @@
 * [[javascript/statements/for{{!}}for Statement]]
 * [[javascript/statements/for in{{!}}for...in Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
