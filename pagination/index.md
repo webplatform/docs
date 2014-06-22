@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=pagination
 |Definition=The process, manual or automatic, of dividing content into separate pages, either electronic or printed. The latter is often simply an instance of the former, rendered to print.
