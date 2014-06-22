@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Summary_Section|Terminates the current loop, or if in conjunction with a label , terminates the associated statement.}}
@@ -16,7 +16,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=In this example, the counter is set up to count from 1 to 99; however, the break statement terminates the loop after 14 counts.
-|Code= for (var i = 1; i &lt; 100; i++) {
+|Code=for (var i = 1; i &lt; 100; i++) {
      if (i == 15) {
          break;
      }
@@ -28,7 +28,7 @@
 }}{{Single Example
 |Language=JavaScript
 |Description=In the following code, the break statement refers to the for loop that is preceded by the <code>Inner:</code> statement. When <code>j</code> is equal to 24, the break statement causes the program flow to exit that loop. The numbers 21 through 23 print on each line.
-|Code= Outer:
+|Code=Outer:
  for (var i = 1; i &lt;= 10; i++) {
      document.write ("&lt;br /&gt;");
      document.write ("i: " + i);
