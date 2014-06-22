@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Create a custom landing page to list the reserved words or merge with javascript/statements.
 |Checked_Out=No
 }}
 {{Summary_Section|Reserved words are words that you cannot use as identifiers in JavaScript.}}
