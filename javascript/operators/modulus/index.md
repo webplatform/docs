@@ -1,15 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Divides the value of one expression by the value of another, and returns the remainder.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result = number1 % number2}}
+{{Summary_Section|Divides the value of one expression by the value of another, and returns the remainder.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result = number1 % number2
 }}
-==Arguments==
-; result: Any variable.
-; number1: Any numeric expression.
-; number2: Any numeric expression.
+|Values={{JS Syntax Parameter
+|Name=result
+|Description=Any variable.
+}}{{JS Syntax Parameter
+|Name=number1
+|Description=Any numeric expression.
+}}{{JS Syntax Parameter
+|Name=number2
+|Description=Any numeric expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks=The modulus, or remainder, operator divides number1 by number2 and returns only the remainder as result. The sign of result is the same as the sign of number1. The value of result is between 0 and the absolute value of number2.
 
@@ -20,8 +33,14 @@ The following code shows how to use the modulus operator.
  
  // Output: 5.6
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
