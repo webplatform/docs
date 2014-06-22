@@ -1,45 +1,43 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Declares a new function.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= function functionname ([ arg1 [, arg2 [,...[, argN ]]]] ''')''' {}}{{JS_Syntax_Format
-|Format=     statements }}{{JS_Syntax_Format
-|Format= } }}
-|Values={{JS_Syntax_Parameter
-|Name=functionname
+{{Summary_Section|Declares a new function.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=function functionName ([ arg1 [, arg2 [,...[, argN ]]]] ''')''' {
+     statements
+}
+}}
+|Values={{JS Syntax Parameter
+|Name=functionName
 |Required=Required
-|Description=The name of the function.}}{{JS_Syntax_Parameter
+|Description=The name of the function.
+}}{{JS Syntax Parameter
 |Name=arg1...argN
 |Required=Optional
-|Description=An optional, comma-separated list of arguments the function understands.}}{{JS_Syntax_Parameter
+|Description=An optional, comma-separated list of arguments the function understands.
+}}{{JS Syntax Parameter
 |Name=statements
 |Required=Optional
-|Description=One or moreJavaScript statements.}}
+|Description=One or moreJavaScript statements.
 }}
-{{Remarks_Section
-|Remarks=Use the function statement to declare a function for later use. The code that is contained in statements is not executed until the function is called from elsewhere in the script.
-
-The [[javascript/statements/return{{!}}return]] statement is used to return a value from the function. You do not have to use a return statement; the program will return when it reaches the end of the function. If no return statement is executed in the function, or if the return statement has no expression, the function returns the value undefined.
-
-'''Note''' -- When you call a function, be sure to include the parentheses and any required arguments. Calling a function without parentheses returns a reference to the function, not the results of the function.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the function statement.
-
-|Code= function myfunction (arg1, arg2) {
+|Code=function myfunction (arg1, arg2) {
      var r = arg1 * arg2;
      return(r);
  }
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=A function can be assigned to a variable. This is illustrated in the following example.
-
-|Code= function AddFive(x) {
+|Code=function AddFive(x) {
      return x + 5;
  }
  
@@ -59,12 +57,25 @@ The [[javascript/statements/return{{!}}return]] statement is used to return a va
  
  var result = MyFunc(123);
  // Output: 133
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=Use the function statement to declare a function for later use. The code that is contained in statements is not executed until the function is called from elsewhere in the script.
+
+The [[javascript/statements/return{{!}}return]] statement is used to return a value from the function. You do not have to use a return statement; the program will return when it reaches the end of the function. If no return statement is executed in the function, or if the return statement has no expression, the function returns the value undefined.
+
+'''Note''' -- When you call a function, be sure to include the parentheses and any required arguments. Calling a function without parentheses returns a reference to the function, not the results of the function.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
