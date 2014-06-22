@@ -1,7 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript properties.
+{{Flags
+|State=Not Ready
+|Editorial notes=Create a custom page more accurate to list the properties.
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript properties.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Properties==
 {| class='wikitable'
 |-
@@ -113,14 +128,18 @@
 | Returns a copy of the text of the regular expression pattern.
 | '''Regular Expression'''
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 * [[javascript/constants{{!}}JavaScript Constants]]
 * [[javascript/methods{{!}}JavaScript Methods]]
 * [[javascript/functions{{!}}JavaScript Functions]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
