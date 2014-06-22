@@ -1,29 +1,31 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Provides an identifier for a statement.
-
+{{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= label ''':''' }}{{JS_Syntax_Format
-|Format=     statements }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Provides an identifier for a statement.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=label ''':'''
+statements
+}}
+|Values={{JS Syntax Parameter
 |Name=label
 |Required=Required
-|Description=A unique identifier used when referring to the labeled statement.}}{{JS_Syntax_Parameter
+|Description=A unique identifier used when referring to the labeled statement.
+}}{{JS Syntax Parameter
 |Name=statements
 |Required=Optional
-|Description=One or more statements associated with label.}}
+|Description=One or more statements associated with label.
 }}
-{{Remarks_Section
-|Remarks=Labels are used by the '''break''' and '''continue''' statements to specify the statement to which the '''break''' and '''continue''' apply.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=In the following code, the '''continue''' statement refers to the '''for''' loop that is preceded by the <code>Inner:</code> statement. When <code>j</code> is 24, the '''continue''' statement causes that '''for''' loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
-
-|Code= Outer:
+|Code=Outer:
  for (i = 1; i &lt;= 10; i++) {
     document.write ("&lt;br /&gt;");
     document.write ("i: " + i);
@@ -38,13 +40,22 @@
        document.write (j + " ");
    }
  }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=Labels are used by the '''break''' and '''continue''' statements to specify the statement to which the '''break''' and '''continue''' apply.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/break{{!}}break Statement]]
 * [[javascript/statements/continue{{!}}continue Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
