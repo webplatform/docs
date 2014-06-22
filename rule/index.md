@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere.
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=rule
 |Definition=The generic name for any line of arbitrary length and weight in a layout, as in "horizontal rule."
