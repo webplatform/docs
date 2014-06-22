@@ -1,8 +1,13 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs review
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The top-level element in MathML is '''<math>'''. Every valid MathML instance must be wrapped in <math> tags. In addition you must not nest a second <math> element in another, but you can have an arbitrary number of other child elements in it.}}
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -41,23 +46,6 @@
 }}
 }}
 {{Notes_Section}}
-== Attributes == 
-In addition to the following attributes, the  '''math''' element accepts any attributes of the [[mathml/elements/mstyle|mstyle]] element.
-<dl>
-  <dt id="attr-display">display</dt>
-  <dd>
-    This enumerated attribute specifies how the enclosed MathML markup should be rendered. It can have one of the following values:
-      
-* '''block''', which means that this element will be displayed outside the current span of text, as a block that can be positioned anywhere without changing the meaning of the text;
-* '''inline''', which means that this element will be displayed inside the current span of text, and cannot be moved out of it without changing the meaning of that text.
-
-  </dd>
-  <dt>
-    mode '''(depreacted)'''</dt>
-  <dd>
-    Deprecated in favor of the display attribute.<br />
-    Possible values are: '''display''' (which has the same effect as display="block") and '''inline'''.</dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -127,7 +115,7 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -135,3 +123,20 @@ In addition to the following attributes, the  '''math''' element accepts any att
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes == 
+In addition to the following attributes, the  '''math''' element accepts any attributes of the [[mathml/elements/mstyle|mstyle]] element.
+<dl>
+  <dt id="attr-display">display</dt>
+  <dd>
+    This enumerated attribute specifies how the enclosed MathML markup should be rendered. It can have one of the following values:
+      
+* '''block''', which means that this element will be displayed outside the current span of text, as a block that can be positioned anywhere without changing the meaning of the text;
+* '''inline''', which means that this element will be displayed inside the current span of text, and cannot be moved out of it without changing the meaning of that text.
+
+  </dd>
+  <dt>
+    mode '''(depreacted)'''</dt>
+  <dd>
+    Deprecated in favor of the display attribute.<br />
+    Possible values are: '''display''' (which has the same effect as display="block") and '''inline'''.</dd>
+</dl>
