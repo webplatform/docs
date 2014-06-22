@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Page that is not being used elsewhere
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=oblique
 |Definition=A form of type that slants slightly to the right, used in the same manner as italic type. Unlike italic, however, it does not use different glyph shapes; it uses the same glyphs, but distorted by slanting. Often confused with italic.
