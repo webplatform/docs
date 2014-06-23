@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Returns the starting time of the fetch that initiates the redirect, if there are HTTP redirects or equivalent when navigating and if all the redirects or equivalent are from the same origin,. Otherwise, returns zero.}}
 {{API_Object_Property
