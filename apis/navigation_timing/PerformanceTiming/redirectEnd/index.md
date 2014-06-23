@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after receiving the last byte of the response of the last redirect, if there are HTTP redirects or equivalent when navigating and all redirects and equivalents are from the same origin. Otherwise, returns zero.}}
 {{API_Object_Property
