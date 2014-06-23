@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=
+|State=Almost Ready
+|Editorial notes=Add compatibility.
 |Checked_Out=No
+|High-level issues=
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
