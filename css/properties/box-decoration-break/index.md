@@ -1,5 +1,7 @@
 {{Page_Title|box-decoration-break}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
