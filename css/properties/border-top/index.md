@@ -1,5 +1,7 @@
 {{Page_Title|border-top}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
