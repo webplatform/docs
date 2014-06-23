@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Copyright Issue
+|State=Almost Ready
+|Editorial notes=Complete summery, compatibility.
+The new code should be added. The first blog of the code is from W3CSchool.
 |Checked_Out=Yes
-|Editorial notes=The new code should be added. The first blog of the code is from W3CSchool.
+|High-level issues=Copyright Issue
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
