@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Complete summery, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
