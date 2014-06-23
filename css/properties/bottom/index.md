@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -93,6 +95,7 @@
 </syntaxhighlight>
 }}
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1, Visual formatting model
