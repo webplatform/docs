@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add specifications, compatibility.
+Deprecated; replaced by clip-path.
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete
-|Checked_Out=No
-|Editorial notes=Deprecated; replaced by clip-path.
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
