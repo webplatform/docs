@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=possibly an example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after receiving the last byte of the response of the last redirect, if there are HTTP redirects or equivalent when navigating and all redirects and equivalents are from the same origin. Otherwise, returns zero.}}
 {{API_Object_Property
@@ -20,8 +22,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/navigation-timing/
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=Navigation Timing 2
+|URL=http://www.w3.org/TR/navigation-timing-2/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
