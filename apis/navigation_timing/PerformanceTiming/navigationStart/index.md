@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent finishes prompting to unload the previous document. If there is no previous document, returns the same value as fetchStart.}}
 {{API_Object_Property
