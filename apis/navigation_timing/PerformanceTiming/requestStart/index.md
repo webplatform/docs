@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Possible example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the user agent starts requesting the current document from the server, or from relevant application caches or from local resources. If the transport connection fails after a request is sent and the user agent reopens a connection and resends the request, returns the corresponding values of the new request.}}
 {{API_Object_Property
@@ -24,8 +26,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/navigation-timing/
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=Navigation Timing 2
+|URL=http://www.w3.org/TR/navigation-timing-2/
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
