@@ -1,5 +1,7 @@
 {{Page_Title|break-inside}}
 {{Flags
+|State=In Progress
+|Editorial notes=Complete specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
