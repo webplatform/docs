@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the load event of the current document is fired, or returns zero when the load event is not fired yet.}}
 {{API_Object_Property
