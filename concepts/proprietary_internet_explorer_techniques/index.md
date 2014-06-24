@@ -1,5 +1,8 @@
 {{Page_Title|Proprietary Internet Explorer Techniques}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:
 
