@@ -1,5 +1,8 @@
 {{Page_Title|Contextual inquiry}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|The contextual inquiry is a specific type of interview for gathering field data from users. It is usually done by one interviewer speaking to one interviewee (person being interviewed) at a time. The aim is to gather as much data as possible from the interviews for later analysis.}}
 {{Concept_Page
