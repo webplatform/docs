@@ -1,5 +1,8 @@
 {{Page_Title|Journey map}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Document that visually illustrates an individual user's needs, the series of interactions that are necessary to fulfill those needs, and the resulting emotional states a user experiences throughout the process.}}
 {{Concept_Page
