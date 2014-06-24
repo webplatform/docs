@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add example and compatibility.
+The SVG property pages will be linked to here. Needs good examples.
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
-|Editorial notes=The SVG property pages will be linked to here. Needs good examples.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
