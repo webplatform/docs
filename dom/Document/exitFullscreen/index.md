@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs more mobile compat
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -27,7 +29,7 @@ document.addEventListener("keydown", function(e) {
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Fullscreen
-|URL=http://www.w3.org/TR/fullscreen/
+|URL=http://www.w3.org/TR/fullscreen/#api
 |Status=Working Draft
 }}
 }}
