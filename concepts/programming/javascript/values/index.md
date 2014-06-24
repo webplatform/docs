@@ -1,5 +1,8 @@
 {{Page_Title|JavaScript Values}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Checked_Out=No
+}}
 {{Summary_Section|This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.}}
 <h2 id="Values">Values</h2>
 <p>JavaScript recognizes the following '''primitive''' types of values:</p>
