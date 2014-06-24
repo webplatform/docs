@@ -1,4 +1,7 @@
-{{Flags}}
+{{Page_Title|Prototypes}}
+{{Flags
+|State=Not Ready
+}}
 {{Summary_Section|JavaScript is a little confusing for developers experienced in [http://en.wikipedia.org/wiki/Class-based_programming class-based languages] (like Java or C++), as it's dynamic and does not provide a <code>class</code> implementation (although the keyword <code>class</code> is a reserved keyword and cannot be used as a variable name).
 
 JavaScript is still an Object Orientated Language (OOP), meaning you can construct class like structures and instantiate them into objects that are used in the same way as class-based languages.
