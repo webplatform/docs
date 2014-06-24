@@ -1,9 +1,9 @@
-{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/functions}}
 {{Page_Title|JavaScript Functions}}
 {{Flags
-|Content=Incomplete
-|Checked_Out=No
+|State=Almost Ready
 |Editorial notes=It is not clear whether this article describes functions as a language construct in JS (as suggested by the beginning of the article) or if it is meant to be a reference (suggested by the parts at the end)
+|Checked_Out=No
+|Content=Incomplete
 }}
 {{Byline}}
 {{Summary_Section|Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.}}
@@ -438,3 +438,4 @@ These functions are used primarily with server-side JavaScript to encode and dec
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/functions}}
