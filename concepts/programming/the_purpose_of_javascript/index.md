@@ -1,5 +1,6 @@
 {{Page_Title|The purpose of JavaScript}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
