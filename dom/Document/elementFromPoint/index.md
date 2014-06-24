@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs mobile compat
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,13 +11,15 @@
 {{Summary_Section|Returns the element at the specified x and y coordinates.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
-|Data type=Number
+|Data type=double
 |Description=A number that specifies the X-offset, in pixels. Zero-based.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
-|Data type=Number
+|Data type=double
 |Description=A number that specifies the Y-offset, in pixels. Zero-based.
 |Optional=No
 }}
