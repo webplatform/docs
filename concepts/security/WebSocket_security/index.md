@@ -1,8 +1,9 @@
 {{Page_Title|WebSocket security}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete, Examples Needed, Needs Summary
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section}}
