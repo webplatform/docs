@@ -2,15 +2,15 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Exposes the current fullscreen state, returning the element that is displayed fullscreen, or <code>null</code> if there is no such element.
-}}
+{{Summary_Section|Exposes the current fullscreen state, returning the element that is displayed fullscreen, or <code>null</code> if there is no such element.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
 |Example_object_name=document
-|Javascript_data_type=DOM Node
+|Return_value_name=element
+|Javascript_data_type=Element
 |Return_value_description=Returns the element that is displayed fullscreen, or <code>null</code> if there is no such element.
 }}
 {{Examples_Section
@@ -31,7 +31,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Fullscreen
+|URL=http://www.w3.org/TR/fullscreen/#api
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -102,7 +106,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 ==Related specifications==
 [http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
 
