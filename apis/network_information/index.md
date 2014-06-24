@@ -1,8 +1,10 @@
 {{Page_Title|Network Information API}}
 {{Flags
+|State=Not Ready
+|Editorial notes=waiting to hear if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Provides an interface for web applications to access the underlying connection information of the device.}}
 {{API_Listing}}
