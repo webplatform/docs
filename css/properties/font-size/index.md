@@ -1,5 +1,6 @@
 {{Page_Title|font-size}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
