@@ -33,10 +33,9 @@
 <body>
 <nowiki>
 <p onclick="alert(document.head.innerHTML)">Click me to see the contents of the &lt;head&gt; element</p>
-</body>
 </nowiki>
+</body>
 </html>
-
 }}
 }}
 {{Notes_Section}}
