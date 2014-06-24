@@ -1,7 +1,7 @@
 {{Page_Title|Network Information API}}
 {{Flags
 |State=Not Ready
-|Editorial notes=waiting to hear if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now.
+|Editorial notes=Trying to determine if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now. Also, this form lacks the specifications template.
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
