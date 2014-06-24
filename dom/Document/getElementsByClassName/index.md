@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -14,8 +14,8 @@
 |Description=A space separated list of classes.
 |Optional=No
 }}
-|Method_applies_to=dom/HTMLElement
-|Example_object_name=element
+|Method_applies_to=dom/Document
+|Example_object_name=document
 |Return_value_name=elements
 |Javascript_data_type=Object
 |Return_value_description=A live [[dom/HTMLCollection|HTMLCollection]] of elements with the given class names.
@@ -26,7 +26,7 @@
 }}
 {{Notes_Section
 |Usage=The use of this property is discouraged. See the [[#Notes|Notes]] section for details.
-|Notes=The use of this property is discouraged, due to the performance implications (due to the live DOMCollection where any changes to the document must be reflected on the returned object immediately) and complexity (the removal of an element from the document will result in immediate changes to the collection).
+|Notes=The use of this property is discouraged because of performance implications (due to the live DOMCollection where any changes to the document must be reflected on the returned object immediately) and complexity (the removal of an element from the document will result in immediate changes to the collection).
 
 A close alternative is
 *[[css/selectors_api/querySelectorAll|querySelectorAll]]
