@@ -1,23 +1,19 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates an instance of the element for the specified tag.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=tagName
 |Data type=String
 |Description=The name of an element. The element may be be an existing DOM element or an extension of a DOM element.
 |Optional=No
-}}{{Method Parameter
-|Name=typeExtension
-|Data type=String
-|Description=Specifies the element that is extended with this method. The user specifies the extension with the element's <code>is=''</code> attribute. See examples.
-|Optional=Yes
 }}
 |Method_applies_to=dom/Document
 |Example_object_name=document
@@ -67,16 +63,6 @@ document.addEventListener("change", create, false);
  &lt;body&gt;
 &lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm
-}}{{Single Example
-|Language=HTML
-|Description=Extending a DOM element in HTML. Use this with [[dom/Document/register|document.register]]
-|Code=<!-- <button> "is a" mega button -->
-<button is="mega-button">
-}}{{Single Example
-|Language=JavaScript
-|Description=Extending a DOM element in JavaScript. Use this with [[dom/Document/register|document.register]]
-|Code=var megaButton = document.createElement('button', 'mega-button');
-// megaButton instanceof MegaButton === true
 }}
 }}
 {{Notes_Section
@@ -86,7 +72,7 @@ document.addEventListener("change", create, false);
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-2141741547
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}
