@@ -1,5 +1,6 @@
 {{Page_Title|Variables in JavaScript}}
 {{Flags
+|State=Almost Ready
 |Checked_Out=No
 }}
 {{API_Name}}
