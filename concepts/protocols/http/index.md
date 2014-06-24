@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Missing Relevant Sections
+|State=Not Ready
 |Checked_Out=No
+|High-level issues=Stub, Missing Relevant Sections
 }}
 {{Summary_Section|HTTP is an application-layer protocol used for exchanging information on the Web. It defines and manages the expectations and interactions with regard the information in between a client and a server.}}
 {{Basic Page}}
