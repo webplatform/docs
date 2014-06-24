@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Checked_Out=No
 |Content=Not Neutral
 }}
 {{Byline}}
@@ -434,6 +436,7 @@ See <code>[/guides/JavaScript/Expressions#delete|delete]]</code> for more inform
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
