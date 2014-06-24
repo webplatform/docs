@@ -1,5 +1,8 @@
 {{Page_Title|User eXperience Map}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Visual representation of the user workflow for accomplishing a goal.}}
 {{Concept_Page
