@@ -1,7 +1,8 @@
 {{Page_Title|User eXperience (UX)}}
 {{Flags
-|Content=Grammar/Spelling, Cleanup
+|State=Almost Ready
 |Checked_Out=No
+|Content=Grammar/Spelling, Cleanup
 }}
 {{API_Name}}
 {{Summary_Section|An introduction to user experience (UX) and how it applies to web projects.}}
