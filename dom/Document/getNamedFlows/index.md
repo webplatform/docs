@@ -1,8 +1,10 @@
-{{Page_Title|getNamedFlows()}}
+{{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Gathers [[apis/css-regions/NamedFlow|'''NamedFlow''']] objects, each representing a set of content that flows through various layout [[css/concepts/region|regions]].}}
 {{API_Object_Method
@@ -33,8 +35,10 @@ for (var i = 0; i < flows.length; i++) {
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Regions Module Level 3
-|URL=http://dev.w3.org/csswg/css3-regions/
+|Name=CSS Regions Module Level 1
+|URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/#document-getnamedflows
+|Status=Working Draft
+|Relevant_changes=Defined here
 }}
 }}
 {{Compatibility_Section
@@ -99,8 +103,7 @@ for (var i = 0; i < flows.length; i++) {
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+|External_links=* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
 }}
