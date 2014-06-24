@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +18,7 @@
 |Example_object_name=document
 |Return_value_name=element
 |Javascript_data_type=DOM Node
-|Return_value_description=An element that matches the specified ID. If there are multiple matches, the first is returned.
+|Return_value_description=An element that matches the specified ID. If there are multiple matches, the first is returned. If there is no match, <code>null</code> is returned.
 }}
 {{Examples_Section
 |Not_required=No
@@ -59,6 +59,11 @@ function getID() {
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.4
+}}{{Related Specification
+|Name=W3C DOM4
+|URL=http://www.w3.org/TR/2014/CR-dom-20140508
+|Status=Candidate Recommendation
+|Relevant_changes=Section 5.2.2
 }}
 }}
 {{Compatibility_Section
@@ -126,11 +131,8 @@ function getID() {
 |Note=The method also considers results of searches for elements with ID or name attributes that match the the specified value in a case insensitive manner as valid matches.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>About the W3C Document Object Model</code>
-}}
-{{Topics|DOM, HTML, XHTML, XML}}
+{{See_Also_Section}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
