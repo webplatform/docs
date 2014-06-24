@@ -1,5 +1,6 @@
 {{Page_Title|History of Javascript}}
 {{Flags
+|State=Almost Ready
 |Checked_Out=No
 }}
 {{API_Name}}
