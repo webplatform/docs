@@ -1,5 +1,6 @@
 {{Page_Title|A re-introduction to JavaScript}}
 {{Flags
+|State=Not Ready
 |Content=Outdated
 |Editorial notes=Update to cover ES5
 }}
