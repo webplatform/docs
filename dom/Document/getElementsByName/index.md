@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat tables
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns ah HTMLCollection of elements in the document that have a <code>name</code> attribute with the specified value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The value of a [[html/attributes/name|'''name''']] attribute.
@@ -39,8 +42,8 @@ function getFirstNames() {
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|Name=DOM Level 2 HTML
+|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-71555259
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}{{Related Specification
