@@ -18,7 +18,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use the '''hasFocus''' method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear. 
+|Description=The following example shows how to use the '''hasFocus''' method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear.
 |Code=<!DOCTYPE HTML>
 <html>
 <head>
@@ -42,6 +42,7 @@ function fnCloseMessage()
 <p>
 <span style= "color:darkmagenta;font-size:large;" onmouseout="fnCloseMessage();" 
 onmouseover="fnOpenMessage();">Mouse over this!</span>
+</p>
 
 <div id="oMessageDiv" style="display:none; font-family:arial; width:200px; font-size:large; color:steelblue; border:4px solid gold;">
 A message for you!
