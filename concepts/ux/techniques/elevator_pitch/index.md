@@ -1,5 +1,8 @@
 {{Page_Title|Elevator pitch}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|A User eXperience (UX) design technique}}
 {{Concept_Page
