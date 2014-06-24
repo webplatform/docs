@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs mobile compat
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Exposes the current document's fullscreen capability, returning <code>true</code> if the document can display elements in fullscreen, or <code>false</code> if not.}}
 {{API_Object_Property
@@ -30,7 +32,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Fullscreen Module
+|URL=http://www.w3.org/TR/fullscreen/#api
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
