@@ -35,6 +35,7 @@ function printFirstSubLIText(){
 }
   </script>
  </head>
+<nowiki>
  <body>
   <ul onclick="printFirstSubLIText()">
    <li>Item 1
@@ -58,6 +59,7 @@ function printFirstSubLIText(){
    <li>Item 3</li>
   </ul>
  </body>
+</nowiki>
 </html>
 }}
 }}
