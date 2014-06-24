@@ -1,5 +1,6 @@
 {{Page_Title|Iterators and generators}}
 {{Flags
+|State=Not Ready
 |Content=Not Neutral
 |Editorial notes=Remove XUL-specific info.
 }}
