@@ -1,7 +1,9 @@
 {{Page_Title|font-variant}}
 {{Flags
-|Content=Outdated
+|State=Almost Ready
+|Editorial notes=Complete compatibility.
 |Checked_Out=No
+|Content=Outdated
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
