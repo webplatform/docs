@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
@@ -9,6 +10,7 @@
 {{Summary_Section|Gets an element with a specified ID.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=id
 |Data type=String
 |Description=The ID to match.
@@ -56,12 +58,12 @@ function getID() {
 |Relevant_changes=Section 1.2. Fundamental Interfaces
 }}{{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-getElBId
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}{{Related Specification
 |Name=W3C DOM4
-|URL=http://www.w3.org/TR/2014/CR-dom-20140508
+|URL=http://www.w3.org/TR/2014/CR-dom-20140508/#dom-nonelementparentnode-getelementbyid
 |Status=Candidate Recommendation
 |Relevant_changes=Section 5.2.2
 }}
