@@ -1,5 +1,6 @@
 {{Page_Title|Style Guides}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{API_Name}}
