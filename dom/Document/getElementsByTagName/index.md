@@ -6,66 +6,61 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets a collection of all descendant elements with a given name.}}
+{{Summary_Section|Returns an HTMLCollection of all descendant elements with a given tag name.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
 |Data type=String
-|Description=The name of an element.
+|Description=The name of an element tag.
 |Optional=No
 }}
 |Method_applies_to=dom/Document
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description=A DOM collection of elements with the given name.
+|Return_value_description=A DOM collection of elements with the given tag name.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example uses the '''getElementsByTagName''' method to return the children of a '''ul''' element based on the selected '''li''' element.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
- &lt;head&gt;
-  &lt;script&gt;
-function printFirstLIText(e){
-  var oWorkItem = event.target;
-  var aReturn = oWorkItem.parentElement.getElementsByTagName("LI");
-  console.log("Length: " + aReturn.length + "\nFirst Item: " +
-   aReturn[0].childNodes[0].nodeValue);
+|Description=The following example returns the number of children of a <code>li</code> elements (10) and the text of the first one ("Item 1").
+|Code=<!doctype html>
+<html>
+ <head>
+  <script>
+function printFirstLIText(){
+  var aReturn = document.getElementsByTagName("LI");
+  alert("Length: " + aReturn.length + "\nFirst Item: " + aReturn[0].childNodes[0].nodeValue);
 }
-function initialize() {
-  document.getElementById("ex").addEventListener("click", printFirstLIText, false);
-}
-window.addEventListener("load", initialize, false);
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-  &lt;ul id="ex"&gt;
-   &lt;li&gt;Item 1
-    &lt;ul&gt;
-     &lt;li&gt;Sub Item 1.1
-      &lt;ol&gt;
-       &lt;li&gt;Super Sub Item 1.1&lt;/li&gt;
-       &lt;li&gt;Super Sub Item 1.2&lt;/li&gt;
-      &lt;/ol&gt;
-     &lt;/li&gt;
-     &lt;li&gt;Sub Item 1.2&lt;/li&gt;
-     &lt;li&gt;Sub Item 1.3&lt;/li&gt;
-    &lt;/ul&gt;
-   &lt;/li&gt;	
-   &lt;li&gt;Item 2
-    &lt;ul&gt;
-     &lt;li&gt;Sub Item 2.1
-     &lt;li&gt;Sub Item 2.3
-    &lt;/ul&gt;
-   &lt;/li&gt;
-   &lt;li&gt;Item 3&lt;/li&gt;
-  &lt;/ul&gt;
- &lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getElementsByTagName.htm
+  </script>
+ </head>
+ <body>
+<nowiki>
+  <ul onclick="printFirstLIText()">
+   <li>Item 1
+    <ul>
+     <li>Sub Item 1.1
+      <ol>
+       <li>Super Sub Item 1.1</li>
+       <li>Super Sub Item 1.2</li>
+      </ol>
+     </li>
+     <li>Sub Item 1.2</li>
+     <li>Sub Item 1.3</li>
+    </ul>
+   </li>	
+   <li>Item 2
+    <ul>
+     <li>Sub Item 2.1
+     <li>Sub Item 2.3
+    </ul>
+   </li>
+   <li>Item 3</li>
+  </ul>
+</nowiki>
+ </body>
+</html>
 }}
 }}
 {{Notes_Section
@@ -80,7 +75,7 @@ window.addEventListener("load", initialize, false);
 }}
 }}
 {{Compatibility_Section
-|Not_required=Yes
+|Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
