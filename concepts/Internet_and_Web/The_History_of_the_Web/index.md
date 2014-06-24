@@ -1,6 +1,5 @@
 {{Page_Title|The History of the Web}}
 {{Flags
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
