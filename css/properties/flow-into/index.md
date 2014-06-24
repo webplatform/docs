@@ -1,5 +1,6 @@
 {{Page_Title|flow-into}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
