@@ -1,5 +1,6 @@
 {{Page_Title|Programming basics}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
@@ -400,4 +401,7 @@ Notice that you can use the value of <code>i</code> as the array counter inside 
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=DevOpera
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
