@@ -1,5 +1,7 @@
 {{Page_Title|Drawing an Image onto a Canvas}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 }}
 {{API_Name}}
