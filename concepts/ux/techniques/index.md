@@ -1,5 +1,8 @@
 {{Page_Title|User eXperience (UX) Design Techniques}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
 {{Concept_Page
