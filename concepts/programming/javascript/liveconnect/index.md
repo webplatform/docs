@@ -1,11 +1,12 @@
 {{Page_Title|About LiveConnect}}
 {{Flags
+|State=Out of Date
+|Checked_Out=No
 |High-level issues=Deletion Candidate
 |Content=Not Neutral
 }}
-{{Summary_Section|This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.
-
-}}
+{{Byline}}
+{{Summary_Section|This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.}}
 {{Tutorial
 |Content===Working with Wrappers==
 
@@ -630,10 +631,11 @@ Java <code>String</code> objects also correspond to JavaScript wrappers. If you 
 
 
 <span style="float: left">[[/guides/JavaScript/closures|&laquo; Previous]]</span>
-
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
