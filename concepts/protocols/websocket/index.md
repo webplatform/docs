@@ -1,8 +1,9 @@
 {{Page_Title|WebSockets concepts}}
 {{Flags
+|State=Almost Ready
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Unreviewed Import
 |Content=Compatibility Incomplete
-|Checked_Out=Yes
 }}
 {{Summary_Section|A WebSocket is a persistent, low-latency, lightweight and two-way communication channel between the server and the browser.}}
 {{Basic Page}}
