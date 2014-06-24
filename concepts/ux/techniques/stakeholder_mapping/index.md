@@ -1,5 +1,8 @@
 {{Page_Title|Stakeholder mapping}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|A network diagram of the people involved with (or impacted by) a given system design. A stakeholder meeting is a strategic way to derive usability objectives from business objectives, and to gain commitment to usability. It also collects information about the purpose of the system and its overall context of use.}}
 {{Concept_Page
