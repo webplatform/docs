@@ -1,4 +1,7 @@
-{{Flags}}
+{{Page_Title|Regular Expressions}}
+{{Flags
+|State=Not Ready
+}}
 {{Summary_Section|<p>Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the <a href="/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/exec" title="exec"><code>exec</code></a> and <a href="/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/test" title="test"><code>test</code></a> methods of<a href="/en-US/docs/JavaScript/Reference/Global_Objects/RegExp" title="RegExp"> <code>RegExp</code></a>, and with the <a href="/en-US/docs/JavaScript/Reference/Global_Objects/String/match" title="match"><code>match</code></a>, <a href="/en-US/docs/JavaScript/Reference/Global_Objects/String/replace" title="en-US/docs/JavaScript/Reference/Global_Objects/String/replace"><code>replace</code></a>,<a href="/en-US/docs/JavaScript/Reference/Global_Objects/String/search" title="search"> <code>search</code></a>, and <a href="/en-US/docs/JavaScript/Reference/Global_Objects/String/split" title="split"><code>split</code></a> methods of <a href="/en-US/docs/JavaScript/Reference/Global_Objects/String" title="String"><code>String</code></a>. This chapter describes JavaScript regular expressions.</p>}}
 <h2 id="Creating_a_Regular_Expression">Creating a Regular Expression</h2>
 <p>You construct a regular expression in one of two ways:</p>
