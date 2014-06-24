@@ -1,5 +1,8 @@
 {{Page_Title|Touch Input Considerations}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.}}
 {{Concept_Page
@@ -31,11 +34,10 @@ On touch screens, click behaves more like a tap. The main difference here stems 
 ==Building sites for both mouse and touch input==
 Though the mouse is still a very common input modality, increasingly, the web is being viewed on touch screens. This means that we need to build sites that work well for both mouse and touch. Furthermore, some devices (eg. Windows 8 Surface) let you use both kinds of input by providing a touch screen and a physical keyboard. It is not safe to assume that just because a device has touch support, it doesn't have mouse input, and vice versa. 
 
-Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input <nowiki>(pointer: course|fine|none)</nowiki>, and presence of hover state <nowiki>(hover: 0|1)</nowiki>. In general, feature detection is best handled by an external library like [http://modernizr.com Modernizr], since feature detection approaches vary between browsers and browser versions, and are constantly in flux.
+Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input <nowiki>(pointer: course
+|1)</nowiki>_ In general, feature detection is best handled by an external library like [http://modernizr_com Modernizr], since feature detection approaches vary between browsers and browser versions, and are constantly in flux_
 
-Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events. If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page. This behavior is described in more detail in the synthetic mouse events article. You can also prevent the associated [http://www.google.com synthetic mouse events] from firing by calling <code>event.prentDefault()</code> in your touch handlers.
-
-==Touch performance considerations==
+Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events_ If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page_ This behavior is described in more detail in the synthetic mouse events article_ You can also prevent the associated [http://www_google_com synthetic mouse events] from firing by calling <code>event_prentDefault()</code> in your touch handlers_==Touch performance considerations==
 Beware of the infamous 300ms click delay in many mobile web browsers. This delay exists because in many cases, double tapping the screen causes the page to zoom. After each tap, the browser cannot fire a click event until it is certain that there was no follow up touch event (which would indicate a zoom). This behavior causes a visible delay before the resulting event is fired. This can be remedied by using one of many [http://www.google.com fast click] approaches which use raw touch events, or in some newer browsers by [http://www.google.com setting the viewport] to never scale.
 
 Scrolling is another tricky area for performance. Mobile devices often feature inertial scrolling, where moving a finger on the screen and then releasing it causes the scrolled content to continue scrolling in the same direction. This effect is provided by a [http://www.google.com variety of JavaScript libraries], but incurs significant performance overhead. The web platform provides some optional scrolling optimizations as well, which are described in more detail in [http://www.google.com optimizing scrolling] performance.
@@ -54,7 +56,6 @@ With remote debugging in the Chrome DevTools, you can also set up event listener
 Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the [http://www.google.com pointer events specification]. Though not implemented in the web platform yet, several [http://www.google.com pointer event polyfills] exist in the wild.
 
 A consolidated pointer-based model makes it easier to build sites that work well for both mouse and touch, avoiding click delays but still making it as easy to write multi-touch gestures if needed.
-
 |none)</nowiki>, and presence of hover state_ In general, feature detection is best handled by an external library like Modernizr, since feature detection approaches vary between browsers and browser versions, and are constantly in flux_
 
 Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events_ If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page_ This behavior is described in more detail in the synthetic mouse events article_ You can also prevent the associated synthetic mouse events from firing by calling <code>event_prentDefault()</code> in your touch handlers_==Touch performance considerations==
