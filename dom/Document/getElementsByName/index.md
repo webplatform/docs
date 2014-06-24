@@ -1,17 +1,17 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets a list of elements with a specified name attribute value.}}
+{{Summary_Section|Returns ah HTMLCollection of elements in the document that have a <code>name</code> attribute with the specified value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=name
 |Data type=String
-|Description=The value of a [[html/attributes/name|'''NAME''']] attribute.
+|Description=The value of a [[html/attributes/name|'''name''']] attribute.
 |Optional=No
 }}
 |Method_applies_to=dom/Document
@@ -24,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''getElementsByName''' method to return a collection of '''input type{{=}}text''' elements with the specified [[html/attributes/name|'''NAME''']] attribute value, <code>firstName</code>.
+|Description=This example uses the '''getElementsByName''' method to return a collection of '''input type{{=}}text''' elements with the specified [[html/attributes/name|'''name''']] attribute value, <code>firstName</code>.
 |Code=&lt;script&gt;
 function getFirstNames() {
    // Prints a collection with 2 input type{{=}}text elements.
@@ -43,6 +43,11 @@ function getFirstNames() {
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.4
+}}{{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/html/wg/drafts/html/master/single-page.html
+|Status=Editor's Draft
+|Relevant_changes=Section 3.1.3
 }}
 }}
 {{Compatibility_Section
@@ -55,10 +60,7 @@ function getFirstNames() {
 |Note=When you use the '''getElementsByName''' method, all elements in the document that have the specified [[html/attributes/name|'''NAME''']] attribute or [[html/attributes/id|'''ID''']] attribute value are returned. Elements that support both the [[html/attributes/name|'''NAME''']] attribute and the [[html/attributes/id|'''ID''']] attribute are included in the collection returned by the '''getElementsByName''' method, but elements with a '''NAME''' are not included in the collection; therefore, this method cannot be used to retrieve custom tags by name.
 }}
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>About the W3C Document Object Model</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
