@@ -1,5 +1,8 @@
 {{Page_Title|Personas}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Characterization of a type of user that we want to target with our product or application.}}
 {{Concept_Page
