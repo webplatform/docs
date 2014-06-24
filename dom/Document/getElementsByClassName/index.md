@@ -24,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example returns the text of the first <code>li</code> whose class is "sublistitem", in this case, "Sub Item 1.1".
+|Description=This example returns the number of <code>li</code> tags whose class is "sublistitem" (3), and the text of the first one ("Sub Item 1.1").
 |Code=<!doctype html>
 <html>
  <head>
