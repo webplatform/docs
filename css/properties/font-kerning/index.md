@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=In Progress
+|Editorial notes=Example provided is not effective, add compatibility.
 |Checked_Out=No
-|Editorial notes=Example provided is not effective
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
