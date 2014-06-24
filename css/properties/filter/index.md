@@ -1,7 +1,8 @@
 {{Page_Title|filter}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=Ready to Use
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
