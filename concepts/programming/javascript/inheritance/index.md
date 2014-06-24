@@ -1,5 +1,7 @@
 {{Page_Title|Inheritance revisited}}
 {{Flags
+|State=In Progress
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
@@ -74,12 +76,13 @@ it checks whether <code>o</code> has a property <code>someProp</code>. If not it
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|JavaScript, Inheritance}}
+{{Topics|Inheritance, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
