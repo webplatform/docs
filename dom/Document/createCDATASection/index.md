@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -8,6 +9,7 @@
 {{Summary_Section|Creates a CDATA section  that contains the specified text.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=text
 |Data type=String
 |Description=The text to place inside the CDATA section.
@@ -40,6 +42,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
