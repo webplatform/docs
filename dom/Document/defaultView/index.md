@@ -1,15 +1,21 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs a better example and compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the Document's browsing context's WindowProxy object (essentially the environment in which objects are presented to the user) if there is one, or null otherwise.}}
+{{Summary_Section|Returns the Document's browsing context's Window object (essentially the environment in which objects are presented to the user) if there is one, or null otherwise.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=No
+|Example_object_name=document
+|Return_value_name=Window
+|Javascript_data_type=Object
+|Return_value_description=Returns the Window object of the active document
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,7 +33,11 @@ function showDefView() {
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 5.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 Specification
+|URL=http://www.w3.org/TR/html5/browsers.html#window
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
