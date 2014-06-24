@@ -1,9 +1,10 @@
 {{Page_Title|Progressive Enhancement}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
-|Checked_Out=No
+|State=Almost Ready
 |Editorial notes=* Needs topics like "concept" or "methodology".
 * Code-Block in second example doesn't work as expected (some lines missing)
+|Checked_Out=No
+|High-level issues=Needs Topics, Needs Review
 }}
 {{API_Name}}
 {{Summary_Section|Progressive enhancement is a powerful development philosophy for creating universally accessible sites and web apps. It does require some learning, experience and discipline, but the return of investment is high.}}
