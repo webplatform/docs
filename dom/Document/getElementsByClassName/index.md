@@ -22,7 +22,44 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example returns the text of the first <code>li</code> whose class is "sublistitem", in this case, "Sub Item 1.1".
+|Code=<!doctype html>
+<html>
+ <head>
+  <script>
+function printFirstSubLIText(){
+  var aReturn = document.getElementsByClassName("sublistitem");
+  alert("Length: " + aReturn.length + "\nFirst Item: " + aReturn[0].childNodes[0].nodeValue);
+}
+  </script>
+ </head>
+ <body>
+  <ul onclick="printFirstSubLIText()">
+   <li>Item 1
+    <ul>
+     <li class="sublistitem">Sub Item 1.1
+      <ol>
+       <li>Super Sub Item 1.1</li>
+       <li>Super Sub Item 1.2</li>
+      </ol>
+     </li>
+     <li class="sublistitem">Sub Item 1.2</li>
+     <li class="sublistitem">Sub Item 1.3</li>
+    </ul>
+   </li>	
+   <li>Item 2
+    <ul>
+     <li>Sub Item 2.1
+     <li>Sub Item 2.3
+    </ul>
+   </li>
+   <li>Item 3</li>
+  </ul>
+ </body>
+</html>
+}}
 }}
 {{Notes_Section
 |Usage=The use of this property is discouraged. See the [[#Notes|Notes]] section for details.
