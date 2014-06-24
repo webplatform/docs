@@ -107,8 +107,6 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-==Related specifications==
-[http://www.w3.org/TR/fullscreen/ W3C fullscreen working draft]
 
 ==See also==
 Tutorial: [http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api Using the full-screen API]
