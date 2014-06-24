@@ -1,5 +1,7 @@
 {{Page_Title|About closures}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+}}
 {{Summary_Section|Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.}}
 
 Consider the following function:
