@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Merge Candidate
-|Content=Incomplete
+|State=Not Ready
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=http://docs.webplatform.org/wiki/concepts/programming/javascript/core_objects
 }}
 {{Editorial/Deletion_Candidate
 | Content is incomplete, and the available content is the same as on the merge-candidate, which is complete.
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate, Merge Candidate
+|Content=Incomplete
 }}
 {{API_Name}}
 {{Summary_Section}}
