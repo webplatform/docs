@@ -1,5 +1,8 @@
 {{Page_Title|Empathy map}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Explore a target user from different perspectives such as Behavior (See), Motivations (Do), Features (Say or feel).}}
 {{Concept_Page
