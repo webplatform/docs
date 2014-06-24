@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -43,7 +45,7 @@ window.addEventListener("load", getHTML, false);
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#i-Document
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}
