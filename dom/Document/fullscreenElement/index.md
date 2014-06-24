@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs mobile compat
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
