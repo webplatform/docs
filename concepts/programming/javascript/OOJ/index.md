@@ -1,5 +1,6 @@
 {{Page_Title|Introduction to object-oriented JavaScript}}
 {{Flags
+|State=Not Ready
 }}
 {{Summary_Section|JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
 
