@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
@@ -7,6 +9,7 @@
 {{Summary_Section|Creates a DOM event of the specified type. This method is deprecated; use event constructors ([[dom/CustomEvent|CustomEvent]]) instead.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=eventType
 |Data type=String
 |Description=One of the following values. Case is not important.
@@ -43,7 +46,7 @@ p.addEventListener("custom", reportEvent, false);
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
+|URL=http://www.w3.org/TR/DOM-Level-3-Events/#widl-DocumentEvent-createEvent
 |Status=Working Draft
 |Relevant_changes=Section 4.5
 }}
