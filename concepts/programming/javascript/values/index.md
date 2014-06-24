@@ -1,6 +1,6 @@
 {{Page_Title|JavaScript Values}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Summary_Section|This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.}}
