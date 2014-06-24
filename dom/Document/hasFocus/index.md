@@ -1,14 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat tables
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the focus state of the current document, <code>true</code> if the document has focus, <code>false</code> if not.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Document
@@ -20,41 +18,37 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example shows how to use the '''hasFocus''' method to determine if the [[dom/Document|Document]] has focus.
-|Code=&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function fnCallDialog()                                             
-{
- showModelessDialog("myDialogHasFocus.htm",window,"status:false;dialogWidth:300px;dialogHeight:300px");
-}
+|Description=The following example shows how to use the '''hasFocus''' method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear. 
+|Code=<!DOCTYPE HTML>
+<html>
+<head>
+<script>
 // Function displays the message DIV when the main document has focus
 function fnOpenMessage()
 {
 	if (document.hasFocus())
 	{
-		oMessageDiv.style.display {{=}} "block";
+		oMessageDiv.style.display = "block";
 	}
 }
 function fnCloseMessage()
 {
-	oMessageDiv.style.display {{=}} "none";
+	oMessageDiv.style.display = "none";
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY&gt;
-&lt;INPUT TYPE{{=}}"button" 
-VALUE{{=}}"Display Modeless Dialog" onclick{{=}}"fnCallDialog()"&gt;
-&lt;P&gt;
-&lt;SPAN STYLE{{=}} "color:darkmagenta;font-size:large;" onmouseout{{=}}"fnCloseMessage();" 
-onmouseover{{=}}"fnOpenMessage();"&gt;Mouse over this!&lt;/SPAN&gt;
-&lt;div id{{=}}"oMessageDiv" style{{=}}"display:none;width:200;font-family: 
-arial;font-size:large; color: steelblue; border: 4 solid gold;"&gt;
+</script>
+</head>
+<body>
+<nowiki>
+<p>
+<span style= "color:darkmagenta;font-size:large;" onmouseout="fnCloseMessage();" 
+onmouseover="fnOpenMessage();">Mouse over this!</span>
+
+<div id="oMessageDiv" style="display:none; font-family:arial; width:200px; font-size:large; color:steelblue; border:4px solid gold;">
 A message for you!
-&lt;/div&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/callerWithHasFocusEX1.html
+</div>
+</nowiki>
+</body>
+</html>
 }}
 }}
 {{Notes_Section}}
