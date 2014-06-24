@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Trying to determine if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now. 
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|An estimation of the current bandwidth in MB/s (Megabytes per seconds) available.}}
 {{API_Object_Property
@@ -18,7 +20,11 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=The Network Information API
+|URL=http://www.w3.org/TR/netinfo-api/
+|Status=W3C Note
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
