@@ -1,29 +1,35 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a [[dom/NodeIterator|'''NodeIterator''']] object that you can use to traverse filtered lists of nodes or elements in a document.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=rootNode
 |Data type=DOM Node
 |Description=The root element or node to start traversing on.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=whatToShow
-|Data type=Number
+|Data type=unsigned long
 |Description=The type of nodes or elements to appear in the node list. For more information, see [[dom/NodeIterator/whatToShow|'''whatToShow''']].
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=filter
 |Data type=DOM Node
 |Description=A custom NodeFilter function to use. For more information, see [[dom/NodeIterator/filter|'''filter''']]. Use null for no filter.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=expandEntityReference
 |Data type=Boolean
 |Description=Whether entity reference nodes are expanded. For more information, see [[dom/NodeIterator/expandEntityReferences|'''expandEntityReferences''']].
@@ -82,7 +88,7 @@ function refresh()
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Traversal and Range
-|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/
+|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html#Traversal-Document
 |Status=Recommendation
 |Relevant_changes=Section 1.2
 }}
