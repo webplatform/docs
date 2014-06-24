@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Not Ready
+|Editorial notes=Add values, syntax, example, description, compatibility.
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
