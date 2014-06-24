@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example and compat tables
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets the [[html/elements/head|head]] element of the document.}}
 {{API_Object_Property
@@ -22,14 +24,14 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/dom.html#dom-document-head
+|Status=Candidate Recommendation
+|Relevant_changes=Section 3.1.1
+}}{{Related Specification
 |Name=WHATWG HTML
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
 |Status=Living Standard
-|Relevant_changes=Section 3.1.1
-}}{{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
 |Relevant_changes=Section 3.1.1
 }}
 }}
