@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -39,7 +41,6 @@ function toggleDesignMode() {
 <p>This is a paragraph, which may or may not be editable.</p>
 </body>
 </html>
-
 }}
 }}
 {{Notes_Section
@@ -51,12 +52,12 @@ While the browser is in design mode, objects enter a UI-activated state when the
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/editing.html#designMode
 |Status=Working Draft
 |Relevant_changes=Section 3.1.1
 }}{{Related Specification
 |Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#designMode
 |Status=Living Standard
 |Relevant_changes=Section 3.1.1
 }}
