@@ -24,7 +24,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example returns the number of children of a <code>li</code> elements (10) and the text of the first one ("Item 1").
+|Description=The following example returns the number of <code>li</code> elements (10) and the text of the first one ("Item 1").
 |Code=<!doctype html>
 <html>
  <head>
