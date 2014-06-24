@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -8,11 +11,13 @@
 {{Summary_Section|Creates a [[dom/processingInstruction|'''processing instruction''']] for an XML parser.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=name
+|Index=0
+|Name=target
 |Data type=String
 |Description=The name of the processing instruction.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=data
 |Data type=String
 |Description=The data for the processing instruction.
@@ -42,13 +47,14 @@ var obj {{=}} document.createProcessingInstruction(sTarget, sData);
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-135944439
 |Status=Recommendation
 |Relevant_changes=Section 1.4
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
