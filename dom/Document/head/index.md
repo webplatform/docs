@@ -1,7 +1,5 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example and compat tables
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -19,7 +17,27 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example displays the text (innerHTML) of the document's <code>head</code> element.
+|Code=<!DOCTYPE HTML>
+<html>
+<head>
+<title>New Document</title>
+<meta name="Generator" content="Notepad">
+<meta name="Author" content="Bob Palindrome">
+<meta name="Keywords" content="document head">
+<meta name="Description" content="head property example">
+</head>
+
+<body>
+<nowiki>
+<p onclick="alert(document.head.innerHTML)">Click me to see the contents of the &lt;head&gt; element</p>
+</body>
+</nowiki>
+</html>
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -42,10 +60,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>body</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
