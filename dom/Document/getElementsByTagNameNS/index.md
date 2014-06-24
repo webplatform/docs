@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets a live HTMLCollection of the elements with the specified tag name and namespace.}}
+{{Summary_Section|Returns an HTMLCollection of the elements with the specified tag name and namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -39,7 +39,7 @@
 Use this method to get a live list of elements with a specified name and namespace.
 |Notes=*For performance reasons, [[css/selectors_api/querySelectorAll|'''querySelectorAll''']] is preferred, because it gets a static list.
 *This method returns a live element list that gets updated whenever an element is added or removed from the document, this has performance implications and may result in unexpected errors (removing elements within a for loop while caching the length of the collection).
-*If namespaces are irrelevant in the context, [[dom/HTMLElement/getElementsByTagName|getElementsByTagName]] can be used (but it is also not recommended; see the first two notes).
+*If namespaces are irrelevant in the context, [[dom/Document/getElementsByTagName|getElementsByTagName]] can be used (but it is also not recommended; see the first two notes).
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
