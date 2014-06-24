@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns ah HTMLCollection of elements in the document that have a <code>name</code> attribute with the specified value.}}
+{{Summary_Section|Returns an HTMLCollection of elements in the document that have a <code>name</code> attribute with the specified value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
