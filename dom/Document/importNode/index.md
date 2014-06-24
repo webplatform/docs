@@ -14,7 +14,7 @@
 |Index=0
 |Name=node
 |Data type=DOM Node
-|Description=The node tomove.
+|Description=The node to import.
 |Optional=No
 }}{{Method Parameter
 |Index=1
