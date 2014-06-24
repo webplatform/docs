@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example and compat tables
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets a live HTMLCollection of the elements with the specified tag name and namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=namespaceURI
+|Index=0
+|Name=namespace
 |Data type=String
 |Description=The namespace URI that defines the desired elements or an asterisk (*) to match all namespaces with the document, or null.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=localName
 |Data type=String
 |Description=The name of the desired element or an asterisk (*) to match all elements with the specified namespace.
@@ -39,6 +43,16 @@ Use this method to get a live list of elements with a specified name and namespa
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/
+|Status=Living Standard
+|Relevant_changes=Section 6.5, 6.8
+}}{{Related Specification
+|Name=DOM Level 4
+|URL=http://www.w3.org/TR/2014/CR-dom-20140508/#dom-document-getelementsbytagnamens
+|Status=Candidate Recommendation
+|Relevant_changes=No change
+}}{{Related Specification
 |Name=Document Object Model (DOM) Level 3 Core
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
@@ -48,11 +62,6 @@ Use this method to get a live list of elements with a specified name and namespa
 |URL=http://www.w3.org/TR/DOM-Level-2-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/
-|Status=Living Standard
-|Relevant_changes=Section 6.5, 6.8
 }}
 }}
 {{Compatibility_Section
