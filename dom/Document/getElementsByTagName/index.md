@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -14,7 +14,7 @@
 |Description=The name of an element.
 |Optional=No
 }}
-|Method_applies_to=dom/HTMLElement
+|Method_applies_to=dom/Document
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
