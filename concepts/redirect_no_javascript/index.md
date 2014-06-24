@@ -1,5 +1,6 @@
 {{Page_Title|Redirect browsers without JavaScript Support}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 |High-level issues=
 }}
