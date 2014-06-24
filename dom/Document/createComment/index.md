@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a '''comment''' object with the specified [[html/attributes/data|'''data''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=text
 |Data type=String
 |Description=Text of the comment.
@@ -28,7 +31,6 @@
 var cmt = document.createComment("Comment text");
 //add the comment to the document body
 document.body.appendChild(cmt);
-
 }}
 }}
 {{Notes_Section}}
