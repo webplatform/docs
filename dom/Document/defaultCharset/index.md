@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs a note that this is not a W3C standard and does not work in most browsers, also needs compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Gets the default character set from the current regional language settings.}}
 {{API_Object_Property
@@ -23,7 +25,6 @@
 function showDefCharSet() {
     alert(document.defaultCharset);
 }
-
 }}
 }}
 {{Notes_Section
