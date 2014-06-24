@@ -1,13 +1,18 @@
-{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/libraries}}
-
 {{Page_Title|JavaScript libraries}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Not Neutral, Examples Best Practices
-|Checked_Out=No
 }}
 {{Summary_Section|Introduction to JavaScript libraries}}
 {{Basic Page}}
+{{Editorial/Merge_Candidate|Other=http://docs.webplatform.org/wiki/javascript/libraries}}
+
+
+
+
+
 {{Special:PrefixIndex/js/libraries/}}
 
 == Overview ==
