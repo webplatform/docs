@@ -1,12 +1,12 @@
 {{Page_Title|Code minification}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|'''Minification''' is the process of transforming a file in a way such that while the functionality of the input file are kept unchanged, the resulting file is much smaller. In the context of JavaScript and web applications, minification is especially useful because it can help reduce page load times. In larger projects, minification is generally integrated into a build process.}}
 {{Concept_Page
-|Content=
-==Process==
+|Content===Process==
 Minification is usually accomplished by parsing code, then outputting it again in a compressed format. This code is generally unreadable with the naked eye. This process usually removes all white spaces, comments, and new line characters. Many other optimizations can also be performed, such as removing block delimiters, inlining functions, using implicit conditionals, and rewriting local variables.
 
 Several code constructs, however, prevent effective minification. The notorious `eval()` function can access any variables in its scope or global variables, and its contents cannot be known until runtime. Therefore, it's impossible to perform renaming optimizations on certain sections of code that use `eval()`. 
