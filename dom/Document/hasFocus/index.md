@@ -1,35 +1,21 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat tables
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
-|Parameters={{Method Parameter
-|Name=pfFocus
-|Data type=any
-|Optional=No
-}}
+|Parameters=
 |Method_applies_to=dom/Document
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
-Boolean
-
-Boolean
-
-Boolean
-
-Document has focus.
-
-Document does not have focus.
+|Example_object_name=document
+|Return_value_name=boolean
+|Javascript_data_type=Boolean
+|Return_value_description=Returns true if the document has focus, otherwise returns false
 }}
 {{Examples_Section
 |Not_required=No
@@ -71,13 +57,14 @@ A message for you!
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/callerWithHasFocusEX1.html
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C HTML5
+|URL=http://www.w3.org/TR/html5/editing.html#dom-document-hasfocus
+|Status=Candidate Recommendation
+|Relevant_changes=Defined here
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
