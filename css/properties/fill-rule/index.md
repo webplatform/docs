@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=In Progress
+|Editorial notes=Complete values, add compatibility.
+The SVG property pages will be linked to here.
 |Checked_Out=No
-|Editorial notes=The SVG property pages will be linked to here.
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
