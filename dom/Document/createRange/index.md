@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates an empty [[dom/Range|'''Range''']] instance object that has both of its boundary points positioned at the beginning of the document. After a Range is created, you must set its starting and ending boundary points before you can make use of most of its methods.}}
 {{API_Object_Method
@@ -24,14 +26,13 @@ var myRange = document.createRange();
 //set starting and ending boundaries using predefined objects and variables
 myRange.setStart(startNode, startOffset);
 myRange.setEnd(endNode, endOffset);
-
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Traversal and Range
-|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/
+|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level-2-Range-Creating
 |Status=Recommendation
 |Relevant_changes=Section 1.2
 }}
