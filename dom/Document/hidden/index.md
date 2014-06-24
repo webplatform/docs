@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|document.hidden returns true if the document is hidden or false if it is visible at all}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
@@ -50,8 +51,9 @@ This is a property of the '''document''' object.  You can also use the [[dom/Doc
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Page Visibility
-|URL=http://www.w3.org/TR/page-visibility/
+|URL=http://www.w3.org/TR/page-visibility/#dom-document-hidden
 |Status=Recommendation
+|Relevant_changes=Defined here
 }}
 }}
 {{Compatibility_Section
