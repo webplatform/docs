@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add example, description, specifications, compatibility.
+|Checked_Out=No
 |High-level issues=Stub, Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
