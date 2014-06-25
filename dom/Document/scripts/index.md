@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, spec, compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -19,9 +21,7 @@
 |Notes====Remarks===
 This collection contains all the scripts in the document in source order regardless of the script's location in the document (whether in the '''head''' or '''body''').
 If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
-
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 }}
 {{Related_Specifications_Section
