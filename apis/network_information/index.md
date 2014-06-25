@@ -1,7 +1,7 @@
 {{Page_Title|Network Information API}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Trying to determine if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now. Also, this form lacks the specifications template.
+|Editorial notes=See remark in topic. This API is not defined anywhere outside of the Network Information API W3C Note [http://www.w3.org/TR/netinfo-api/]. Also, this form lacks the specifications template.
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
@@ -15,6 +15,10 @@
 }}
 {{Notes_Section
 |Usage=The main use case of the Network Information API is to allow applications to be gentle with the user's bandwidth when they know it is rare or expensive.
+|Notes=As of 25 June 2014:
+*Formal work on the [http://www.w3.org/TR/netinfo-api/ Network Information] spec has been stopped. The specification is now a W3C Note.
+* Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
+
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
