@@ -1,7 +1,9 @@
 {{Page_Title|grid-row-position}}
 {{Flags
-|Content=Examples Needed
+|State=In Progress
+|Editorial notes=Add example, description, specifications, compatibility.
 |Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status}}
 {{API_Name}}
