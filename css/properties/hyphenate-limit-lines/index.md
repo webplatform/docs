@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Add description, compatibility.
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
