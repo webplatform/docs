@@ -1,10 +1,12 @@
 {{Page_Title|Pointer Lock API}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=This is just a portal page
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The Pointer Lock API provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software. }}
+{{Summary_Section|The Pointer Lock API provides scripted access to raw mouse movement data while locking the target of mouse events to a single element and removing the cursor from view. This is an essential input mode for certain classes of applications, especially first person perspective 3D applications and 3D modelling software.}}
 {{API_Listing}}
 {{Concept_Listing
 |Use_page_title=No
