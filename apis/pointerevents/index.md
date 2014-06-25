@@ -1,10 +1,12 @@
 {{Page_Title|Pointer Events}}
 {{Flags
+|State=In Progress
+|Editorial notes=This is a portal page but doesn't link tot he rest of the API
+|Checked_Out=No
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.}}
 {{API_Listing}}
