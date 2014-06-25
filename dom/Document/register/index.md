@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat tables and better spec links
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
