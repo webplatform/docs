@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -38,7 +40,6 @@
   #retailPrice   { grid-column: 1; grid-row: 2; justify-self: start }
   #discount    { grid-column: 2; grid-row: 1 / span 2; }
   #finalPrice { grid-column: 2; grid-row: 3; align-self: center}
-
 }}
 }}
 {{Notes_Section}}
