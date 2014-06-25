@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example and compat tables
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|Gets the character encoding that is used for the text that is loaded into the '''document''' object.}}
 {{API_Object_Property
@@ -22,10 +24,15 @@
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
+|Name=DOM Level 4
+|URL=http://www.w3.org/TR/2014/CR-dom-20140508/#dom-core
+|Status=Candidate Recommendation
+|Relevant_changes=Deprecated
+}}{{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#Document3-inputEncoding
 |Status=Recommendation
-|Relevant_changes=Section 1.4
+|Relevant_changes=Defined
 }}
 }}
 {{Compatibility_Section
