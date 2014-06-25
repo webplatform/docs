@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, examples, compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
@@ -17,9 +19,6 @@
 {{Notes_Section
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.9.2
-
-
-
 }}
 {{Related_Specifications_Section
 |Specifications=
