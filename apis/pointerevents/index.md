@@ -1,7 +1,7 @@
 {{Page_Title|Pointer Events}}
 {{Flags
 |State=In Progress
-|Editorial notes=This is a portal page but doesn't link tot he rest of the API
+|Editorial notes=This is a portal page but doesn't link to the rest of the API
 |Checked_Out=No
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
