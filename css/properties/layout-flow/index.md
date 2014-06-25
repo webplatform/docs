@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add summery, example, specifications, compatibility.
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -37,6 +40,7 @@ This property is read-only for the
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
