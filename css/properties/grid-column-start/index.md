@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, compatibility.
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Determines a grid item's placement by specifying the starting grid lines of a grid item's grid area .  A grid item's placement in a grid area consists of a grid position and a grid span. See also ( [[css/properties/grid-row-start|grid-row-start]], [[css/properties/grid-row-end|grid-row-end]], and [[css/properties/grid-column-end|grid-column-end]]) }}
+{{Summary_Section|Determines a grid item's placement by specifying the starting grid lines of a grid item's grid area .  A grid item's placement in a grid area consists of a grid position and a grid span. See also ( [[css/properties/grid-row-start|grid-row-start]], [[css/properties/grid-row-end|grid-row-end]], and [[css/properties/grid-column-end|grid-column-end]])}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Grid items
@@ -17,8 +19,7 @@
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<grid-line>
-|Description=Contributes a line, a span, or nothing (automatic) to the item's row placement or column placement. 
-
+|Description=Contributes a line, a span, or nothing (automatic) to the item's row placement or column placement.
 }}{{CSS Property Value
 |Data Type=auto
 |Description=Default setting.   Contributes nothing to the grid item’s placement.
