@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Out of Date
 |Checked_Out=No
 }}
 {{Standardization_Status}}
