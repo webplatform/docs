@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|State=In Progress
+|Editorial notes=Add description, compatibility.
+Previously imported as ms-grid-column.
 |Checked_Out=No
-|Editorial notes=Previously imported as ms-grid-column.
+|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
