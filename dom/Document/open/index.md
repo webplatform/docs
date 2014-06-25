@@ -1,28 +1,34 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary and compat, and better spec links
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=url
 |Data type=any
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=name
 |Data type=BSTR
 |Description='''Note'''  The following applies only if this method is used instead of [[dom/Window/open|'''window.open''']].
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=features
 |Data type=BSTR
 |Description='''Note'''  The following applies only if this method is used instead of [[dom/Window/open|'''window.open''']].
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=replace
 |Data type=any
 |Optional=No
