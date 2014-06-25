@@ -1,14 +1,17 @@
 {{Page_Title|document.write}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs examples and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Method to insert a string of marked up text in the document tree.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=str
 |Data type=String
 |Description=A '''String''' that specifies the text and HTML tags to write.
