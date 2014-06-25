@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example and compat tables
 |Checked_Out=No
-|Editorial notes=New listing page with proper object capitalization; replaces '''documentType'''.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defined by use of a markup language (e.g., HTML, XML, etc.)}}
 {{API_Object
