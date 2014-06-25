@@ -1,5 +1,7 @@
 {{Page_Title|grid-area}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, compatibility.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -28,8 +30,6 @@ When grid-column-start is omitted, if grid-row-start is an <ident>, all four lon
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=
-
 |Code=grid-area: 1 2 2 3;
 
 /*  Equivalent to :
