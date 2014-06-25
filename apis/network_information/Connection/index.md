@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Trying to determine if this API is defined anywhere outside of the Network Information API [http://www.w3.org/TR/netinfo-api/] or if it should even be included right now. 
+|Editorial notes=See remark in topic. This API is not defined anywhere outside of the Network Information API W3C Note [http://www.w3.org/TR/netinfo-api/]. Also, this form lacks the specifications template.
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
@@ -12,7 +12,11 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=As of 25 June 2014:
+*Formal work on the [http://www.w3.org/TR/netinfo-api/ Network Information] spec has been stopped. The specification is now a W3C Note.
+*Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=The Network Information API
