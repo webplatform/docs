@@ -1,8 +1,10 @@
 {{Page_Title|Proximity API}}
 {{Flags
+|State=In Progress
+|Editorial notes=This is a top-level page, but it doesn't list the rest of the API
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
