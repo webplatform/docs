@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|State=In Progress
 |Editorial notes={{Editorial/Deletion_Candidate
 | Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.
 }}
+
+Needs summary and compat
+|Checked_Out=No
+|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
