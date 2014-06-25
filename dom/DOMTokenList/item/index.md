@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs compat table
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns a specific zero-indexed token from a DOMTokenList.}}
 {{API_Object_Method
