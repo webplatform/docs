@@ -1,5 +1,7 @@
 {{Page_Title|grid-row}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
