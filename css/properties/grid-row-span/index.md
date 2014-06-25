@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
-|Checked_Out=No
+|State=Out of Date
 |Editorial notes='''This property is no longer listed in the W3C specification.'''
+|Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Standardization_Status}}
 {{API_Name}}
