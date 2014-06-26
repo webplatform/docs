@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs spec and compat table
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Non standard. Gets a text from a given location around the edges of the element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=where
 |Data type=String
 |Description=Where the text is located by using one of the following values.
