@@ -1,14 +1,16 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|Mixed}}
 {{API_Name}}
 {{Summary_Section|Parses and inserts HTML code at or beyond the edges of an element within the document hierarchy.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=where
 |Data type=String
 |Description=Where to insert the HTML text. Must be one of the following values:
@@ -31,6 +33,7 @@
 {{!}}}
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=html
 |Data type=String
 |Description=Well-formed HTML code to insert. The string can be a combination of text and HTML tags.
