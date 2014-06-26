@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Can't find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Outdated, Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
