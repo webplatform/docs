@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat table
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Returns the value of the content attribute within a specified namespace.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=namespaceURI
 |Data type=String
 |Description=The namespace URI that defines the desired attribute, or a null value.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=name
 |Data type=String
 |Description=The name of the desired attribute within the specified namespace.
