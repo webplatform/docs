@@ -1,17 +1,21 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, examples, compat, better spec link
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/Element
+|Synchronous=No
+|Bubbles=No
 |Target=dom/Element
-|Default_action=
+|Cancelable=No
+|Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
