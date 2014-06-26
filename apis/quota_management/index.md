@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=The members for this specification are not represented accurately. Some are missing, and others are attributed that should not be.
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
@@ -15,6 +18,7 @@
 {{Notes_Section}}
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
+|Manual_links=[https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html Quota Management API W3C Specification]
 }}
 {{Topics|API, Quota Management}}
 {{External_Attribution
