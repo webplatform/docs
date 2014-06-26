@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Example?
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -18,7 +20,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing
+|URL=http://www.w3.org/TR/resource-timing/#dom-performance-onresourcetimingbufferfull
 |Status=W3C Candidate Recommendation
 }}
 }}
