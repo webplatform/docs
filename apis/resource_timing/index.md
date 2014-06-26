@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -16,6 +17,7 @@
 {{Notes_Section}}
 {{See_Also_Section
 |Topic_clusters=Performance
+|Manual_links=*[http://www.w3.org/TR/resource-timing/ W3C Resource Timing specification]
 }}
 {{Topics|API, Resource Timing}}
 {{External_Attribution
