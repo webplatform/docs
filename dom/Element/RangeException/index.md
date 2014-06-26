@@ -11,11 +11,13 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=fragment
 |Data type=any
 |Description=String containing HTML to be parsed.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=retVal
 |Data type=any
 |Description=A document fragment representing the parsed HTML.
