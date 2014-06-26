@@ -1,14 +1,16 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs summary, examples, syntax, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=Range
 |Data type=any
 |Description=[[dom/TextRange|'''TextRange''']] object to compare with the current '''TextRange''' object.
