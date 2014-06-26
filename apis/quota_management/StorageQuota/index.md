@@ -1,8 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Missing supportedTypes attribute (https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#widl-StorageQuota-supportedTypes).
+
+The methods in the spec differ from the two listed here. The spec has:
+queryInfo
+requestPersistentQuota 
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -16,7 +22,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Quota Management Specification
-|URL=https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html
+|URL=https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#storagequota-interface
 |Status=W3C Editor's Draft
 }}
 }}
