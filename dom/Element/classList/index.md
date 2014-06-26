@@ -1,9 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs examples, compat, better spec link
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Reflects the [[html/attributes/class|class]] attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.}}
 {{API_Object_Property
