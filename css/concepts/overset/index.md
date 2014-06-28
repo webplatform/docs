@@ -1,5 +1,6 @@
 {{Page_Title|overset content}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{API_Name}}
