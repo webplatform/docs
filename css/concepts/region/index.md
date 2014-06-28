@@ -1,5 +1,6 @@
 {{Page_Title|regions}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{API_Name}}
