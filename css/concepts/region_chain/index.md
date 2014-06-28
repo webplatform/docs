@@ -1,5 +1,7 @@
 {{Page_Title|region chains}}
 {{Flags
+|State=In Progress
+|Editorial notes=Almost identical content to "Region", "Regions" and "Named Flow". Consider merging.
 |Checked_Out=No
 }}
 {{API_Name}}
