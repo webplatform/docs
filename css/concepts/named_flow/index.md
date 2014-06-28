@@ -1,5 +1,7 @@
 {{Page_Title|named flows}}
 {{Flags
+|State=In Progress
+|Editorial notes="Region" and "Regions" link to content almost identical to this page. Consider merging this page with the others.
 |Checked_Out=No
 }}
 {{API_Name}}
