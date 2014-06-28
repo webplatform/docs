@@ -1,8 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Empty "Main Content" section, see @import for notes for improvement. 
+In the summary, "Keyframes" is defined using itself, would reword and provide a working definition of "Keyframes" to the general public.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -83,7 +86,7 @@ Keyframe selectors use keyframe descriptors to specify the properties and values
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Animations 
+|Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/#keyframes
 |Status=W3C Working Draft
 }}
