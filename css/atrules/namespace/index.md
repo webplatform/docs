@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Empty "Main Content" section, see @import for notes for improvement suggestion. I haven't come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility. 
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -41,7 +43,6 @@ The scope of an '''@namespace''' rule is the style sheet  that  it is declared i
 ===Parameters===
 ;''prfx'':Optional. A '''String'''  value that specifies a namespace prefix.
 ;''sUrl'':A URL '''String'''value that specifies a namespace name.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
