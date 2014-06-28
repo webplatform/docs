@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Topics
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
