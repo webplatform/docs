@@ -1,5 +1,6 @@
 {{Page_Title|Colors by Name}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|This page shows all defined colors with their name, hex, rgb and hsl values and also includes an example for each color.}}
