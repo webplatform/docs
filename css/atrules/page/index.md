@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Empty "Main Content" section, see @import for notes for improvement suggestion. Remarks section seems to contain all elaboration on the @page rule. By having detail further down it does make for easy quick reference when landing on the page, but can also be confusing to first-time viewers as it differs from the structure of the other rules. 
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
