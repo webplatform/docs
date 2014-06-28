@@ -1,7 +1,6 @@
 {{Page_Title|@region}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Empty "Main Content" section, see @import for notes for improvement suggestion. 
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
