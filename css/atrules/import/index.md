@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes="Main Content" section is empty. We may want to either want to modify programmatically if subsections like @rules -> @import only are decided to only need examples and references to support the parent categories.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Imports an external style sheet.}}
 {{CSS_At_Rule}}
@@ -40,7 +42,7 @@ Rules in the style sheet override rules in the imported style sheet.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Cascading and Inheritance Level 3 
+|Name=CSS Cascading and Inheritance Level 3
 |URL=http://www.w3.org/TR/css3-cascade/
 |Status=W3C Working Draft
 |Relevant_changes=None
