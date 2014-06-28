@@ -1,5 +1,7 @@
 {{Page_Title|content fragments}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix or remove broken link to DOM API; 
 |Checked_Out=No
 }}
 {{API_Name}}
