@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -14,9 +17,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:''' In addition to the attributes, properties, events, methods,
 and styles listed above, SVG elements also inherent core HTML
@@ -30,10 +31,7 @@ to be rescaled (including any change to the
 
 '''Note:''' A zoom event applies only to the outermost
 [[svg/elements/svg|'''svg''']] element.
-
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
 ===Standards information===
 
@@ -68,13 +66,13 @@ The '''SVGZoomEvent''' object has these properties:
 *[[dom/properties/timeStamp|'''timeStamp''']]: Gets the time, in milliseconds, when an event occurred.
 *[[dom/properties/type (event)|'''type''']]: Gets the name of an event.
 *[[dom/properties/view|'''view''']]: Gets  the '''window''' object  that an  event is generated from.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
