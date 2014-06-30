@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description and compatibility.
+'''As of time of writing, this property is not yet implemented in most browsers.'''
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
-|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -33,7 +35,6 @@ p { mask-box-image-source: none; }
 
 /* image */
 div { mask-box-image-source: url(#someMask); }
-
 }}
 }}
 {{Notes_Section}}
