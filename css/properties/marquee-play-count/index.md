@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add compatibility.
+This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
 |Checked_Out=No
-|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
