@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{Standardization_Status}}
