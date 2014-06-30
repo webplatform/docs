@@ -1,7 +1,7 @@
 {{Page_Title|SVG objects}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub listing page
+|Editorial notes=Add introduction to SVG DOM objects
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -15,7 +15,8 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage={{Special:PrefixIndex/svg/objects/}}
+|Import_Notes===All Pages==
+{{Special:PrefixIndex/svg/objects/}}
 }}
 {{See_Also_Section}}
 {{Topics}}
