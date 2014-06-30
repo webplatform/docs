@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description and compatibility.
+'''As of time of writing, this property is not yet implemented in most browsers.'''
 |Checked_Out=Yes
-|Editorial notes='''As of time of writing, this property is not yet implemented in most browsers.'''
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
