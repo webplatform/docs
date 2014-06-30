@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|Mixed}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|layerY is a non-standards property of the MouseEvent object.}}
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
 |Read_only=No
@@ -19,6 +19,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=Microsoft added the layerY property to the MouseEvent in IE9 for Interoperability purposes, but recommends using the offsetY property instead. The example below uses feature testing to detect IE9 and higher emulation modes and uses the event.offsetX value.
+For webkit and gecko and IE8 and lower emulation modes, the event.layerY or the event.offsetY values are used instead. 
 |Code=if(document.documentMode&&document.documentMode>=9){
   form.layerXCoords.value = evt.offsetX;
   form.layerYCoords.value = evt.offsetY;
