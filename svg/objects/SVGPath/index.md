@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Unreviewed MSDN import
+|Checked_Out=No
 |High-level issues=Needs Flags, Stub
 }}
 {{Standardization_Status}}
@@ -16,6 +19,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
