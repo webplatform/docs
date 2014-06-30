@@ -1,16 +1,16 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Fires when the user moves the mouse over the object. }}
 {{Event
 |Event_applies_to=dom/MouseEvent
 |Synchronous=No
-|Bubbles=No
+|Bubbles=Yes
 |Target=dom/Element
 |Cancelable=No
 |Interface=dom/MouseEvent
