@@ -1,6 +1,6 @@
 {{Page_Title|SVG properties}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Editorial notes=Add text introducing SVG DOM properties as a concept
 |Checked_Out=No
 }}
@@ -15,7 +15,8 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage={{Special:PrefixIndex/svg/properties/}}
+|Import_Notes===All Pages==
+{{Special:PrefixIndex/svg/properties/}}
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
