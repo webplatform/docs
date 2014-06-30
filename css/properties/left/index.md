@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -92,6 +94,7 @@
 </article></syntaxhighlight>
 }}
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
