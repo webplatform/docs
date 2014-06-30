@@ -1,5 +1,6 @@
 {{Page_Title|margin-bottom}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -72,7 +73,6 @@ div {
   background-color: green;
   margin-bottom: 0px;
 }
-
 |LiveURL=http://code.webplatform.org/gist/5727822
 }}
 }}
