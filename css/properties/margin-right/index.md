@@ -1,5 +1,6 @@
 {{Page_Title|margin-right}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -43,7 +44,7 @@
 }}{{Single Example
 |Language=CSS
 |Description=CSS applied to the HTML seen in the first example block.
-|Code= * {
+|Code=* {
    margin: 0;
  }
  
@@ -68,7 +69,6 @@
  .three {
    background-color: green;
  }
-
 |LiveURL=http://code.webplatform.org/gist/5728056
 }}
 }}
