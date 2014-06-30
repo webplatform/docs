@@ -1,8 +1,12 @@
 {{Page_Title|SVG objects}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub listing page
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|SVG objects}}
+{{Summary_Section|List of all pages in svg/objects/}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
