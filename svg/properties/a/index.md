@@ -1,6 +1,9 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+|State=Not Ready
+|Editorial notes=Unreviewed MSDN import
+|Checked_Out=No
+|High-level issues=Needs Flags, Stub
 }}
 {{Standardization_Status|}}
 {{Topics|SVG}}
@@ -38,4 +41,4 @@ This property relates to the use of 2&times;3 matrices of the form:
 |HTML5Rocks_link=
 }}
 
-[[Category:Markup Elements]]
+[[Category:API Object Properties‏]]
