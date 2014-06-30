@@ -1,8 +1,12 @@
 {{Page_Title|SVG properties}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Add text introducing SVG DOM properties as a concept
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|SVG properties}}
+{{Summary_Section|Listing of all articles in svg/properties/}}
 {{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
