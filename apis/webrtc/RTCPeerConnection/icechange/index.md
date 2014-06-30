@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
+|Editorial notes=Needs all sections
 |Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete
