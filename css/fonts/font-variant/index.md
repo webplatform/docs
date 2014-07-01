@@ -1,8 +1,9 @@
 {{Page_Title|font-variant}}
 {{Flags
-|High-level issues=Merge Candidate
-|Checked_Out=No
+|State=Ready to Use
 |Editorial notes={{Editorial/Merge_Candidate|Other=/css/properties/font-variant}}
+|Checked_Out=No
+|High-level issues=Merge Candidate
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
