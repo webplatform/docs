@@ -1,5 +1,7 @@
 {{Page_Title|&lt;position&gt;}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Two extra brackets printed at end of main section.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
