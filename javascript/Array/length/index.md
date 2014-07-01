@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Basically specifies the number of elements (AKA length) in an '''Array''' object. This means the '''length''' property represents a number one greater than the largest index defined in an '''Array''' object.}}
