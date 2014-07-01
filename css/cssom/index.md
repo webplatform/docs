@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs text wrap
+http://i.imgur.com/rlNsh4d.png
 |Checked_Out=No
 }}
 {{Standardization_Status}}
