@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Can be used as-is, though out of style with the rest of the function pages as it doesn't list the others in related links.
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
