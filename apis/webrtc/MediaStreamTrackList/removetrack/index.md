@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Deletion candidate
+|Editorial notes=Parent object obsolete; deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
