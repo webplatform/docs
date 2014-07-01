@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=extra white box below live example snippet. Broken link perhaps? 
+|Checked_Out=Yes
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=Yes
 }}
 {{Standardization_Status}}
 {{API_Name}}
