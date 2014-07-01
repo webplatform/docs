@@ -1,5 +1,8 @@
 {{Page_Title|custom()}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Light in content compared to the others, but makes sense as custom. May want to provide elaboration in the future.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections
 |Content=Incomplete
 }}
