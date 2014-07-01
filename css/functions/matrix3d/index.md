@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=parameterized <number> tokens may want to link to <number> page.
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -64,6 +67,7 @@ It is a good idea to become familiar with transform coordinate systems and rende
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
