@@ -1,5 +1,7 @@
 {{Page_Title|&lt;angle&gt;}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=A couple extra close-brackets printing out at the end of the body. 
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
