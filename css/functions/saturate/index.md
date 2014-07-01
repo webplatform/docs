@@ -1,5 +1,6 @@
 {{Page_Title|saturate()}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -56,8 +57,6 @@ variable ''amount'' passed to the function:
   <feColorMatrix type="saturate" values="(1 - [amount])"/>
 </filter>
 </syntaxhighlight>
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
