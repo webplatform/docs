@@ -1,5 +1,7 @@
 {{Page_Title|li – list item}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Compatibility
 |Checked_Out=No
 }}
 {{Standardization_Status}}
