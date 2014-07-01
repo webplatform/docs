@@ -1,5 +1,6 @@
 {{Page_Title|brightness()}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -54,7 +55,6 @@ variable ''amount'' passed to the function:
   </feComponentTransfer>
 </filter>
 </syntaxhighlight>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
