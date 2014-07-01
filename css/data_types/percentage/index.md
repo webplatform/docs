@@ -1,11 +1,12 @@
 {{Page_Title|&lt;percentage&gt;}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{Summary_Section|The <code>&lt;percentage></code> CSS data type represents a number of measurement relative to another value.  It consists of a decimal or integer number immediately followed (without whitespace) by the percent sign, '''%'''.}}
 {{Data_Type_Page
-|Content=Percentages are expressed relative to other measurements, such as an element's dimensions, and can fall outside the 0%-100% range. What percentages are relative to is different for every property and is specified in the “Percentages” row of its definition.
+|Content=Percentages are expressed relative to other measurements, such as an element's dimensions, and can fall outside the 0-100% range. What percentages are relative to is different for every property and is specified in the “Percentages” row of its definition.
 }}
 {{Examples_Section
 |Not_required=No
