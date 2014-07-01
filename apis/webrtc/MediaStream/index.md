@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Needs Review
-|Checked_Out=No
+|State=In Progress
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=[[apis/media_capture_and_streams/MediaStream]]
 }}
+|Checked_Out=No
+|High-level issues=Merge Candidate, Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
