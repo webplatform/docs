@@ -1,5 +1,7 @@
 {{Page_Title|HTML Elements}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
