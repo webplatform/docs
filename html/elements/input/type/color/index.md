@@ -1,10 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
+|State=Not Ready
+|Editorial notes=Merge Candidate: html/attributes/type
 |Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[html/attributes/type]]
-}}
+|High-level issues=Merge Candidate
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
