@@ -1,27 +1,60 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dataView = '''new DataView(''' DataView( buffer , byteOffset , byteLength ));}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dataView = '''new DataView(''' DataView( buffer , byteOffset , byteLength ));
+}}
+|Values={{JS Syntax Parameter
 |Name=dataView
 |Required=Required
-|Description=The variable name to which the '''DataView''' object is assigned.}}{{JS_Syntax_Parameter
+|Description=The variable name to which the '''DataView''' object is assigned.
+}}{{JS Syntax Parameter
 |Name=buffer
-|Required=
-|Description=The ArrayBuffer that the DataView represents.}}{{JS_Syntax_Parameter
+|Description=The ArrayBuffer that the DataView represents.
+}}{{JS Syntax Parameter
 |Name=byteOffset
 |Required=Optional
-|Description=Specifies the offset in bytes from the start of the buffer at which the DataView should begin.}}{{JS_Syntax_Parameter
+|Description=Specifies the offset in bytes from the start of the buffer at which the DataView should begin.
+}}{{JS Syntax Parameter
 |Name=byteLength
 |Required=Optional
-|Description=Specifies the length (in bytes) of the section of the buffer that the DataView should represent.}}
+|Description=Specifies the length (in bytes) of the section of the buffer that the DataView should represent.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example shows how to use a DataView object to process the binary data acquired from an XmlHttpRequest:
+|Code=var req = new XMLHttpRequest();
+     req.open('GET', "http://www.example.com");
+     req.responseType = "arraybuffer";
+     req.send();
+ 
+     req.onreadystatechange = function () {
+         if (req.readyState === 4) {
+             var buffer = req.response;
+             var dataView = new DataView(buffer);
+             var ints = new Int32Array(dataView.byteLength / 4);
+             for (var i = 0; i &lt; ints.length; i++) {
+                 ints[i] = dataview.getInt32(i * 4);
+             }
+         alert(ints[10]);
+         }
+     }
+}}
 }}
 {{Remarks_Section
 |Remarks=If both byteOffset and byteLength are omitted, the DataView spans the entire ArrayBuffer range. If the byteLength is omitted, the DataView extends from the given byteOffset until the end of the ArrayBuffer. If the given byteOffset and byteLength references an area beyond the end of the ArrayBuffer, an exception is raised.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''DataView''' object.
 
@@ -95,31 +128,13 @@ The following table lists the methods of the '''DataView''' object.
 | [[javascript/DataView/setFloat64|setFloat64 Method (DataView)]]
 | Stores a Float64 value at the specified byte offset from the start of the view.
 |}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example shows how to use a DataView object to process the binary data acquired from an XmlHttpRequest:
 
-|Code= var req = new XMLHttpRequest();
-     req.open('GET', "http://www.example.com");
-     req.responseType = "arraybuffer";
-     req.send();
- 
-     req.onreadystatechange = function () {
-         if (req.readyState === 4) {
-             var buffer = req.response;
-             var dataView = new DataView(buffer);
-             var ints = new Int32Array(dataView.byteLength / 4);
-             for (var i = 0; i &lt; ints.length; i++) {
-                 ints[i] = dataview.getInt32(i * 4);
-             }
-         alert(ints[10]);
-         }
-     }
-}}}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
