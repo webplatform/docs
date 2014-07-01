@@ -1,5 +1,6 @@
 {{Page_Title|&lt;custom-ident&gt;}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -14,7 +15,6 @@
 * must not match the CSS-wide keywords "initial" or "inherit" or the reserved word "default", in any combination of upper or lowercase letters.
 
 Identifiers are not quoted.
-
 }}
 {{Examples_Section
 |Not_required=No
