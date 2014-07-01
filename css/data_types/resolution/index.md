@@ -1,5 +1,6 @@
 {{Page_Title|&lt;resolution&gt;}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
