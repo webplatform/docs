@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs compat and better spec link
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Fires when the user sends a cross-document message or a message is sent from a Worker with postMessage.}}
 {{Event
