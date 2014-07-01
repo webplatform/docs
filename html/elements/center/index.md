@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=Ready to Use
+|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
