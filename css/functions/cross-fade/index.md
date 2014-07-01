@@ -1,5 +1,7 @@
 {{Page_Title|CSS cross-fade() function}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=missing compat tables correspondent to other sections.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
