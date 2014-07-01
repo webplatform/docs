@@ -1,6 +1,9 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic,rt
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices, Cleanup
+|State=Not Ready
+|Editorial notes=Unreviewed MSDN import
+|Checked_Out=No
+|High-level issues=Needs Flags, Stub
 }}
 {{Standardization_Status|}}
 {{API_Name}}
