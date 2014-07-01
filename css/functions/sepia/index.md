@@ -1,5 +1,6 @@
 {{Page_Title|sepia()}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -61,7 +62,6 @@ variable ''amount'' passed to the function:
              0 0 0 1 0"/>
 </filter>
 </syntaxhighlight>
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
