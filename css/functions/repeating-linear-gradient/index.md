@@ -1,25 +1,28 @@
+{{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Examples needed.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/functions/
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples=}}
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Once the last color stop has been reached, the gradient starts again at the first color stop and repeats. It's a good idea to specify identical colors for the first and last color stops to prevent abrupt color changes between each repeating group.
 The syntax for the '''repeating-linear-gradient''' function is identical to that of the [[css/linear-gradient|'''linear-gradient''']] function.
 '''Important'''  The Cascading Style Sheets (CSS) Gradients properties do not require a vendor prefix (that is, "-ms-") to work correctly in Internet Explorer 10. The syntax for the '''repeating-linear-gradient''' function given in this topic is different from that supported in previous pre-releases of Internet Explorer 10, which required the "-ms-" prefix. To maximize backward compatibility, those older implementations are still recognized, as described in [[css/properties/-ms-repeating-linear-gradient|'''-ms-repeating-linear-gradient''']].
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 '''repeating-linear-gradient'''
 <code>('''[''' '''[''' ''
 &lt;angle&gt;
@@ -35,13 +38,24 @@ The syntax for the '''repeating-linear-gradient''' function is identical to that
 ;''side-or-corner'':Optional value that specifies an corner point or side for the gradient. This value begins with "to", which is followed by one or two of the following keywords. Including one keyword specifies an ending side, and two keywords specify an ending corner. <ul><li>The following values can be used as the first value only:<ul><li>'''left'''  First value only. Indicates gradient ends on the left.</li><li>'''right'''  First value only. Indicates gradient ends on the  right.</li></ul></li><li>The following values can be used as the second value only:<ul><li>'''top'''  Second value only. Indicates gradient ends on the top.</li><li>'''bottom'''  Second value only. Indicates gradient ends on the  bottom.</li></ul></li><li>Not including any keywords or angle is equivalent to "to bottom".</li></ul>
 ;''color-stop'':At least two color stops are required. Each color stop has one or two components—a color component and an optional position component. The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value.Each stop point can have an optional percentage or supported length value that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |Topic_clusters=Gradients
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
