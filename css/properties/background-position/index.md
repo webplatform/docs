@@ -3,7 +3,7 @@
 |State=Ready to Use
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|<code>background-position</code> allows you to set the placement of a <code>background-image</code> on the element it is applied to. <code>background-position</code> generally takes two values, which set the horizontal and vertical position of the background image inside the element.}}
 {{CSS Property
