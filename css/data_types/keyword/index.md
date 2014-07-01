@@ -1,5 +1,6 @@
 {{Page_Title|CSS keywords}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|Mixed}}
