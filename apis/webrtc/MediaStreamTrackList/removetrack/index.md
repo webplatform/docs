@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs example, spec reference, usage
+|Editorial notes=Deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
