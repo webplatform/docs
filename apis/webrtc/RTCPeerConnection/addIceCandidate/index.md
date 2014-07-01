@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides a remote candidate to the ICE agent.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=candidate
 |Data type=RTCIceCandidate
 |Description=See [[apis/webrtc/RTCIceCandidate|RTCIceCandidate]].
