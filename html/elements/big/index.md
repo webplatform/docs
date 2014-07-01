@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes={{Editorial/Deletion_Candidate
-| It's deprecated: http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
-}}
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
