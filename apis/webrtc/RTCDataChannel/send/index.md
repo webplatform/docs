@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Sends a message (''data'') on the RTCDataChannel’s underlying data transport.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=data
 |Data type=any
 |Description=The send() method is overloaded to handle different data argument types. This parameter may be any of the following objects:
