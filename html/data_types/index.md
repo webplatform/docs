@@ -1,14 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add summary, description.
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|1. Colors (basic ones are "red", "blue", etc...
 2. Lengths (html page is split into <head> and <body>) 
-3. Links 
+3. Links
 }}
 {{API_Listing|Query=[[Category:HTML]][[Category:Data Type]]
 |Use_page_title=No
