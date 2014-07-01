@@ -1,34 +1,37 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the Uint16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dataView.setUint16(byteOffset, value, littleEndian); }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the Uint16 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dataView.setUint16(byteOffset, value, littleEndian);
+}}
+|Values={{JS Syntax Parameter
 |Name=testInt
 |Required=Required
-|Description=The Uint16 value that is returned from the method.}}{{JS_Syntax_Parameter
+|Description=The Uint16 value that is returned from the method.
+}}{{JS Syntax Parameter
 |Name=value
-|Required=
-|Description=The value to set.}}{{JS_Syntax_Parameter
+|Description=The value to set.
+}}{{JS Syntax Parameter
 |Name=byteOffset
-|Required=
-|Description=The place in the buffer at which the value should be retrieved.}}{{JS_Syntax_Parameter
+|Description=The place in the buffer at which the value should be retrieved.
+}}{{JS Syntax Parameter
 |Name=littleEndian
 |Required=Optional
-|Description=If false or undefined, a big-endian value should be written, otherwise a little-endian value should be written.}}
+|Description=If false or undefined, a big-endian value should be written, otherwise a little-endian value should be written.
 }}
-{{Remarks_Section
-|Remarks=These methods raise an exception if they would write beyond the end of the view.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to set the first Uint16 in the DataView.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -40,9 +43,19 @@
              dataView.setUint16(0, 9);
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=These methods raise an exception if they would write beyond the end of the view.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
