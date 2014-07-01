@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,6 +10,7 @@
 {{Summary_Section|Removes a MediaStreamTrack from this track list.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=track
 |Data type=MediaStreamTrack
 |Description=MediaStreamTrack '''track''', required.
