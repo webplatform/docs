@@ -1,22 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Includes all resources fetched from the networking layer by the current browsing context.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing
+|URL=http://www.w3.org/TR/resource-timing/#performanceresourcetiming
 |Status=W3C Candidate Recommendation
 }}
 }}
