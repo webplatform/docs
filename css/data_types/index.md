@@ -1,5 +1,7 @@
 {{Page_Title|CSS data types}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=For list sections, consider not having a summary header if there are no other sections.
 |Checked_Out=No
 }}
 {{API_Name}}
