@@ -1,8 +1,10 @@
+{{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
+|State=Not Ready
+|Editorial notes=Unreviewed MSDN import
+|Checked_Out=No
+|High-level issues=Needs Flags, Stub
+}}{{Standardization_Status|}}
 {{API_Name}}
 {{Topics|SVG}}
 {{Notes_Section
