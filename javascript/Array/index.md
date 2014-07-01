@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Unreviewed Import
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Unreviewed Import
 }}
 {{Summary_Section|Provides support for creation of arrays of any data type.
 
