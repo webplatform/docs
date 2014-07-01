@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, spec reference
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
