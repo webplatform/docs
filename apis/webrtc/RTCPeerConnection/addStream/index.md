@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status}}
 {{API_Name}}
