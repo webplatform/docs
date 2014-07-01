@@ -1,5 +1,7 @@
 {{Page_Title|abbr}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add syntax, attribute, compatibility.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
