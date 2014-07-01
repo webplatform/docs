@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=List of other articles in this category. Would add a more robust summary before being ready.
 |Checked_Out=No
 }}
 {{Summary_Section|In CSS, functions can be used in values to invoke special processing or visual effects.}}
