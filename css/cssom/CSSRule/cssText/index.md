@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs examples.
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags, Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
