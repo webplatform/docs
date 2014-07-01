@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge Candidate: html/attributes/type
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[html/attributes/type]]
-}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -16,6 +15,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''input type{{=}}url''' element to create an empty URL or web address control.
 |Code=&lt;input type{{=}}"URL" value{{=}}"" name{{=}}"URLbox" &gt;
 }}
