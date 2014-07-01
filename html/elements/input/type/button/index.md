@@ -1,15 +1,14 @@
 {{Page_Title|input type 'button'}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge Candidate: html/attributes/type
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[html/attributes/type]]
-}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''button''' type of the [[html/elements/input|'''input''']] element represents a button with no default behavior. Compare with the [[html/elements/button|'''button''']] element which offers default behaviours with via attributes. }}
+{{Summary_Section|The '''button''' type of the [[html/elements/input|'''input''']] element represents a button with no default behavior. Compare with the [[html/elements/button|'''button''']] element which offers default behaviours with via attributes.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
 }}
@@ -720,44 +719,56 @@ This property is not supported for Metro style apps using JavaScript.
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
 |Firefox_version=1.0
 |Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
 |Internet_explorer_version=3.0
 |Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
 |Opera_version=1.0
 |Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
 |Safari_supported=Yes
 |Safari_version=1.0
 |Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
 |Android_supported=Yes
 |Android_version=1.0
 |Android_prefixed_supported=Unknown
+|Android_prefixed_version=
 |Blackberry_supported=Yes
 |Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
 |Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
 |IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
 |Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=1.0
 |Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=
-* The [[html/elements/button|'''button''']] element
+|Manual_links=* The [[html/elements/button|'''button''']] element
 |Manual_sections====Related pages (MSDN)===
 *[[html/elements/button|button]]
 *[[html/elements/input|input]]
@@ -768,4 +779,5 @@ This property is not supported for Metro style apps using JavaScript.
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
