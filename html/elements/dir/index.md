@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| Is obsolete in HTML5
-}}
+|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
