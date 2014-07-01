@@ -1,18 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Missing image link in red.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-
-{{Summary_Section| <p>Defines a two dimentional transofmation in matrix format. That is a function  <b>matrix(a,b,c,d,e,f)</b> which holds 6 parameters as numbers each one controlling one tranformation factor. In fact, matrix combines all the CSS tranformation functions (translate,skew etc) in one command. For example the new position of a point <b>(x,y)</b> will be such that:  <pre>newX = a*x + c*y + e</pre> and <pre>newY = b*x + d*y + f</pre>  </p> }}
-
-{{CSS_Function
-|Content
-
+{{Summary_Section|<p>Defines a two dimentional transofmation in matrix format_ That is a function  <b>matrix(a,b,c,d,e,f)</b> which holds 6 parameters as numbers each one controlling one tranformation factor_ In fact, matrix combines all the CSS tranformation functions (translate,skew etc) in one command_ For example the new position of a point <b>(x,y)</b> will be such that:  <pre>newX=a*x + c*y + e</pre> and <pre>newY = b*x + d*y + f</pre>  </p>
 }}
+{{CSS_Function}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -48,7 +46,6 @@ A 2-D 3×2 matrix with six parameters ''a'', ''b'', ''c'', ''d'', ''e'', and ''f
 
 
 ===Requirements===
-
 }}
 {{Related_Specifications_Section
 |Specifications=
