@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Parent object obsolete; deletion candidate
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,6 +10,9 @@
 {{Summary_Section|A MediaStreamTrack has been added to the list.}}
 {{Event
 |Event_applies_to=apis/webrtc/MediaStreamTrackList
+|Synchronous=No
+|Bubbles=No
+|Cancelable=No
 }}
 {{Examples_Section
 |Not_required=No
