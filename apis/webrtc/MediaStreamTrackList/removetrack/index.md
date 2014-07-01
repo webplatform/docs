@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,6 +10,9 @@
 {{Summary_Section|A MediaStreamTrack has been removed from the list.}}
 {{Event
 |Event_applies_to=apis/webrtc/MediaStreamTrackList
+|Synchronous=No
+|Bubbles=No
+|Cancelable=No
 }}
 {{Examples_Section
 |Not_required=No
