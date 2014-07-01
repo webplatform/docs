@@ -1,16 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
+|Editorial notes=Delation Candidate
 |Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
-
-{{Editorial/Deletion_Candidate
-| Duplicate of [[http://docs.webplatform.org/wiki/html/elements/input/type/tel]]. Confusion arose due to the fact that W3 uses the term telephone.
-}}
-
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Duplicate of [[html/elements/input/type/tel|input[type="tel"]]]}}
+{{Summary_Section|Duplicate of [[html/elements/input/type/tel|input[type="tel"]]]
+}}
 {{Markup_Attribute}}
 {{Examples_Section
 |Not_required=No
@@ -34,4 +32,7 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Editorial/Deletion_Candidate
+| Duplicate of [[http://docs.webplatform.org/wiki/html/elements/input/type/tel]]. Confusion arose due to the fact that W3 uses the term telephone.
 }}
