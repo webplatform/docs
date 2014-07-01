@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Marge candidate to guide/html_validation or somewhere. Add summary, description, example.
+|Editorial notes=Add summary, description, notes. This page should be moved out of the guide/html_validation or somewhere.
 |Checked_Out=No
 |High-level issues=Merge Candidate
 }}
