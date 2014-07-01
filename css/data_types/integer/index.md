@@ -1,9 +1,10 @@
 {{Page_Title|&lt;integer&gt;}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
-{{Summary_Section|The <code>&lt;integer></code> CSS data type represents a number without a decimal component.  It is used to specify ordered or layered values, either positive or negative. }}
+{{Summary_Section|The <code>&lt;integer></code> CSS data type represents a number without a decimal component.  It is used to specify ordered or layered values, either positive or negative.}}
 {{Data_Type_Page
 |Content=Properties accepting integer values generally cannot be animated in a useful way because only discrete values are meaningful.
 }}
