@@ -1,10 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
+|State=Not Ready
+|Editorial notes=Marge candidate to guide/html_validation or somewhere. Add summary, description, example.
 |Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=guides/html_validation
-}}
+|High-level issues=Merge Candidate
 }}
 {{Standardization_Status}}
 {{API_Name}}
