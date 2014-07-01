@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add summery, example, note, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -8,7 +10,6 @@
 {{Markup_Attribute
 |Applies_to=http://docs.webplatform.org/wiki/dom/HTMLElement
 |Content=The its-term attribute can contain "yes" or "no" values. Defintion of the term can be optionally linked by using its-term-info-ref attribute.
-
 }}
 {{Examples_Section
 |Not_required=No
