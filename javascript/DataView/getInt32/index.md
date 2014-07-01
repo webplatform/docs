@@ -1,31 +1,34 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Gets the Int32 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= var testInt = dataView.getInt32(byteOffset, littleEndian); }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Gets the Int32 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be fetched from any offset.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=var testInt = dataView.getInt32(byteOffset, littleEndian);
+}}
+|Values={{JS Syntax Parameter
 |Name=testInt
 |Required=Required
-|Description=The Int32 value that is returned from the method.}}{{JS_Syntax_Parameter
+|Description=The Int32 value that is returned from the method.
+}}{{JS Syntax Parameter
 |Name=byteOffset
-|Required=
-|Description=The place in the buffer at which the value should be retrieved.}}{{JS_Syntax_Parameter
+|Description=The place in the buffer at which the value should be retrieved.
+}}{{JS Syntax Parameter
 |Name=littleEndian
 |Required=Optional
-|Description=If false or undefined, a big-endian value should be read, otherwise a little-endian value should be read.}}
+|Description=If false or undefined, a big-endian value should be read, otherwise a little-endian value should be read.
 }}
-{{Remarks_Section
-|Remarks=These methods raise an exception if they would read beyond the end of the view.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to get the first Int32 in the DataView.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -37,9 +40,19 @@
              alert(dataView.getInt32(0));
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=These methods raise an exception if they would read beyond the end of the view.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
