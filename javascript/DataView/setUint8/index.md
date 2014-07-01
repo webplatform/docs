@@ -1,28 +1,29 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Stores a Uint8 value at the specified byte offset from the start of the view.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dataView.setUint8(byteOffset, value); }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Stores a Uint8 value at the specified byte offset from the start of the view.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dataView.setUint8(byteOffset, value);
+}}
+|Values={{JS Syntax Parameter
 |Name=byteOffset
-|Required=
-|Description=The place in the buffer at which the value should be set.}}{{JS_Syntax_Parameter
+|Description=The place in the buffer at which the value should be set.
+}}{{JS Syntax Parameter
 |Name=value
-|Required=
-|Description=The value to set.}}
+|Description=The value to set.
 }}
-{{Remarks_Section
-|Remarks=These methods raise an exception if they would write beyond the end of the view.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to set the first Uint8 in the DataView.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -34,9 +35,19 @@
              dataView.setUint8(0, 9);
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=These methods raise an exception if they would write beyond the end of the view.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
