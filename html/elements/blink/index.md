@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
