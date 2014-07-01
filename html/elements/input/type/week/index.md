@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge Candidate: html/attributes/type. Add description, note section.
+|Checked_Out=No
 |High-level issues=Merge Candidate
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[html/attributes/type]]
-}}
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
