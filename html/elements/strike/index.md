@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
@@ -19,8 +21,6 @@
 |Usage=Please use the [[html/elements/del|'''del''']] or [[html/elements/s|'''s''']] element instead.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 15.2.1 (Deprecated)
-
-
 }}
 {{Related_Specifications_Section
 |Specifications=
