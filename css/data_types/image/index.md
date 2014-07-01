@@ -1,5 +1,7 @@
 {{Page_Title|&lt;image&gt;}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Broken links, but styled properly as a broken link. Are we looking to have articles for every link before being ready to use?
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
