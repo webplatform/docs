@@ -1,18 +1,23 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Read-only. Gets the ArrayBuffer that is referenced by this view.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= var arrayBuffer = dataView.buffer;}}
+{{Summary_Section|Read-only. Gets the ArrayBuffer that is referenced by this view.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=var arrayBuffer = dataView.buffer;
 }}
+|Values=
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to get the length of the ArrayBuffer underlying the DataView.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -24,9 +29,17 @@
              alert(dataView.buffer.byteLength)
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
