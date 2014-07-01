@@ -1,8 +1,10 @@
 {{Page_Title|Font related properties}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs more content including examples. 
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,7 +20,7 @@ The order is obligatory, not all options must be set.
 |Examples=
 }}
 {{Notes_Section
-|Usage=  p <nowiki>{</nowiki>
+|Usage=p <nowiki>{</nowiki>
   font: italic 1.2em/1.5 Georgia;
   }
 
