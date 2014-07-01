@@ -1,11 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge Candidate: html/attributes/type. Add example.
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[html/attributes/type]]
-}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
