@@ -1,5 +1,6 @@
 {{Page_Title|Text values in CSS properties}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{API_Name}}
