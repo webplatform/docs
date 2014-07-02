@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Examples please.
+|Checked_Out=No
 |High-level issues=Stub, Undescriptive Title, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Needed, Accessibility
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
