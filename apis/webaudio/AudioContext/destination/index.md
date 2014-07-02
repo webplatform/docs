@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
