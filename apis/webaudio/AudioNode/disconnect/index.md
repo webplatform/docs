@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Disconnects an [[apis/webaudio/AudioNode|'''AudioNode''']]'s output.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=output
 |Data type=unsigned long
 |Description=An index describing which output of the [[apis/webaudio/AudioNode|'''AudioNode''']] to disconnect. An out-of-bound value throws an exception.
