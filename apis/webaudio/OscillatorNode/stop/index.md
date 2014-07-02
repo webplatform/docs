@@ -10,6 +10,7 @@
 {{Summary_Section|Schedules a sound to stop playback at an exact time.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=when
 |Data type=Number
 |Description=Describes at what time (in seconds) the sound should stop playing. It is in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]. If 0 is passed in for this value or if the value is less than '''currentTime''', then the sound will stop playing immediately. stop must only be called one time and only after a call to start or stop, or an exception will be thrown.
