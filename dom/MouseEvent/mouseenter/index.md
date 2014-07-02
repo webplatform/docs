@@ -41,8 +41,18 @@ else{
 document.getElementById('imgSmiley').attachEvent('onmouseover',bigImg);
 document.getElementById('imgSmiley').attachEvent('onmouseout',normalImg);
 }
-
 |LiveURL=http://result.dabblet.com/gist/acdd7a0b0ebdfaf3699d/a7e519705e7c6bf677b92d98ceaeb513ff37425a
+}}{{Single Example
+|Language=HTML
+|Description=MSDN Example using the mouseover event attribute.
+|Code=
+<p 
+	onmouseover="this.style.color='red'" 
+    onmouseout="this.style.color='black'">
+    	Move the mouse pointer over this text to change its color. Move the pointer off the text 
+        to change the color back.
+</p>
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmouseoverEX.htm
 }}
 }}
 {{Notes_Section
