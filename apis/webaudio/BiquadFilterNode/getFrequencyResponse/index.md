@@ -1,23 +1,28 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Given the current filter parameter settings, calculates the frequency response for the specified frequencies.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=frequencyHz
 |Data type=void
 |Description=Specifies an array of frequencies at which the response values will be calculated.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=magResponse
 |Data type=void
 |Description=Specifies an output array receiving the linear magnitude response values.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=phaseResponse
 |Data type=void
 |Description=Specifies an output array receiving the phase response values in radians.
