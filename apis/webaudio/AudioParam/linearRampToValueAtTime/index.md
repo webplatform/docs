@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Schedules a linear continuous change in parameter value from the previous scheduled parameter value to the given value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=value
 |Data type=Number
 |Description=The value the parameter will linearly ramp to at the given time.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=endTime
 |Data type=Number
 |Description=The time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
