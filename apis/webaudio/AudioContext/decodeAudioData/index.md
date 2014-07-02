@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -11,16 +13,19 @@ The [[apis/webaudio/AudioContext/decodeAudioData|'''decodeAudioData()''']] metho
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=audioData
 |Data type=String
 |Description=An ArrayBuffer containing audio file data.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=successCallback
 |Data type=function
 |Description=A callback function which will be invoked when the decoding is finished. The single argument to this callback is an [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] representing the decoded PCM audio data.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=errorCallback
 |Data type=function
 |Description=A callback function which will be invoked if there is an error decoding the audio file data.
