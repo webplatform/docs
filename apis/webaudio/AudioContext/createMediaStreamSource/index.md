@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs return type
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
