@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Schedules a parameter value change at the given time.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=value
 |Data type=Number
 |Description=The value the parameter will change to at the given time.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=startTime
 |Data type=Number
 |Description=The time in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']].
