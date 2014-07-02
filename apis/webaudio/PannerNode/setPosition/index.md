@@ -1,21 +1,26 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=z
 |Data type=Number
 |Optional=No
