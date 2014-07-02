@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example, return type
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a [[apis/webaudio/ChannelSplitterNode|'''ChannelSplitterNode''']] representing a channel splitter. An exception will be thrown for invalid parameter values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=numberOfInputs
 |Data type=unsigned long
 |Description=Determines the number of inputs. Values of up to 32 must be supported. If not specified, then 6 will be used.
