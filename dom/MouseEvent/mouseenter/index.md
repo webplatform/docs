@@ -55,6 +55,8 @@ document.getElementById('imgSmiley').attachEvent('onmouseout',normalImg);
 }}
 }}
 {{Notes_Section
+|Usage=Use to perform an action when the mouse cursor is moved over an element. 
+Alternatively, for CSS2 compliant userAgents use the :hover pseudo class.
 |Notes====Remarks===
 The event fires only if the mouse pointer is outside the boundaries of the object and the user moves the mouse pointer inside the boundaries of the object. If the mouse pointer is currently inside the boundaries of the object, for the event to fire, the user must move the mouse pointer outside the boundaries of the object and then back inside the boundaries of the object.
 Unlike the [[dom/MouseEvent/mouseover|'''onmouseover''']] event, the '''onmouseenter''' event does not bubble.  In other words, the '''onmouseenter''' event does not fire when the user moves the mouse pointer over elements contained by the object, whereas '''onmouseover''' does fire.
