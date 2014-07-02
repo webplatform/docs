@@ -1,21 +1,26 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Describes which direction the audio source is pointing in the 3D cartesian coordinate space. Depending on how directional the sound is (controlled by the cone attributes), a sound pointing away from the listener can be very quiet or completely silent. The x, y, and z parameters represent a direction vector in 3D space. The default value is (1,0,0).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=z
 |Data type=Number
 |Optional=No
