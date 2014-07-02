@@ -1,23 +1,28 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Connects the [[apis/webaudio/AudioNode|'''AudioNode''']] to another [[apis/webaudio/AudioNode|'''AudioNode''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=destination
 |Data type=unsigned long
 |Description=The [[apis/webaudio/AudioNode|'''AudioNode''']] to connect to.
 |Optional=Yes
 }}{{Method Parameter
+|Index=1
 |Name=output
 |Data type=unsigned long
 |Description=An index describing which output of the [[apis/webaudio/AudioNode|'''AudioNode''']] to connect from. An out-of-bound value throws an exception.
 |Optional=Yes
 }}{{Method Parameter
+|Index=2
 |Name=input
 |Data type=unsigned long
 |Description=An index describing which input of the destination [[apis/webaudio/AudioNode|'''AudioNode''']] to connect to. An out-of-bound value throws an exception.
