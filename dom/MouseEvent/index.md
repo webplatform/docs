@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The DOM MouseEvent interface represents events that occur due to the user interacting with a pointing device (such as a mouse or touchpad).}}
 {{API_Object
 |Subclass_of=dom/UIEvent
 }}
