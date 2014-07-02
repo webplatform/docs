@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -22,7 +24,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing
+|URL=http://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-redirectend
 |Status=W3C Candidate Recommendation
 }}
 }}
