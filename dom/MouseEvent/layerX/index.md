@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+
+}}
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
 |Read_only=No
@@ -37,8 +40,8 @@ There are no standards that apply here.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.layerX event.layerX]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/gg130967(v=vs.85).aspx event.layerX]
 |HTML5Rocks_link=
 }}
