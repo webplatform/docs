@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -19,20 +20,21 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example shows how to determine the origin of the '''onmousedown''' event when event bubbling is used.
-|Code=&lt;BODY onmousedown{{=}}"console.log(event.srcElement.tagName)"&gt;
-&lt;TABLE BORDER{{=}}1&gt;
-  &lt;TH&gt;Click the items below with your mouse.&lt;/TH&gt;
-  &lt;TR&gt;&lt;TD&gt;&lt;BUTTON&gt;Click Me&lt;/BUTTON&gt;&lt;/TD&gt;&lt;/TR&gt;
-  &lt;TR&gt;&lt;TD&gt;&lt;INPUT TYPE{{=}}text VALUE{{=}}"Click Me"&gt;&lt;/TD&gt;&lt;/TR&gt;
-  &lt;TR&gt;&lt;TD&gt;&lt;SPAN&gt;Click Me&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
-&lt;/TABLE&gt;
-&lt;P&gt;This code retrieves the tagName of the object on which
-   the onmousedown event has fired.
-&lt;/BODY&gt;
+|Code=&lt;body onmousedown{{=}}"alert((event.target)?event.target.tagName:event.srcElement.tagName;)"&gt;
+&lt;table style{{=}}"table-layout:fixed; cell-collapse:collapse"&gt;
+  &lt;th&gt;Click the items below with your mouse.&lt;/th&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;button type{{=}}"button"&gt;Click Me&lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;input type{{=}}"text" value{{=}}"Click Me"/&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;&lt;span&gt;Click Me&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;This code retrieves the tagName of the object on which
+   the onmousedown event has fired.&lt;/p&gt;
+&lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmousedownEX.htm
 }}
 }}
 {{Notes_Section
+|Usage=Determine the properties of the DOM element that a user clicks on.
 |Notes====Remarks===
 Use the '''button''' property to determine which mouse button is clicked.
 Initiates actions associated with the event and with the object being clicked.
@@ -60,8 +62,8 @@ To invoke this event, do one of the following:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mousedown mousedown]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536944(v=vs.85).aspx event.mousedown]
 |HTML5Rocks_link=
 }}
