@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -17,9 +18,40 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the difference between mouseout and mouseleave events.
+|Code=  var el = document.getElementById("test");
+  function domouseleave(evt){
+  if(!evt)evt=window.event;
+  var el=(evt.target)?evt.target:evt.srcElement;
+  el.style.color='purple';
+  setTimeout(function(){
+  	el.style.color='';
+  	},500);
+  }
+  function domouseout(evt){
+  if(!evt)evt=window.event;
+  var el=(evt.target)?evt.target:evt.srcElement;
+  el.style.color='orange';
+  setTimeout(function(){
+  	el.style.color='';
+  	},500);
+  }
+  if(el.addEventListener){
+  	el.addEventListener('mouseleave',domouseleave,false);
+  	el.addEventListener('mouseout',domouseout,false);
+  }
+  else{
+  	el.attachEvent('onmouseleave',domouseleave);
+  	el.attachEvent('onmouseout', domouseout);
+  }
+
+|LiveURL=http://result.dabblet.com/gist/eaba649bc760d5831769/40c8a5bde01f6ac7896353103b65313d550aed40
+}}
 }}
 {{Notes_Section
+|Usage=Could be used, for example to play a sound as the user hovers over a menu list.
 |Notes====Remarks===
 The event fires only if the mouse pointer is inside the boundaries of the object and the user moves the mouse pointer outside the boundaries of the object. If the mouse pointer is  currently outside the boundaries of the object, for the event to fire, the user must move the mouse pointer inside the boundaries of the object and then back outside the boundaries of the object.
 Initiates any action associated with this event.
@@ -72,8 +104,8 @@ There are no standards that apply here.
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave mouseleave event]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536946(v=vs.85).aspx mouseleave event]
 |HTML5Rocks_link=
 }}
