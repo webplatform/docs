@@ -18,7 +18,32 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The event handler bigImg() is triggered when the user moves the mouse pointer over the image.
+The event handler normalImg() is triggered when the mouse pointer is moved out of the image.
+|Code=function bigImg(evt){
+if(!evt)evt=window.event;
+var el=(evt.target)?evt.target:evt.srcElement;
+el.style.height="64px";
+el.style.width="64px";
+}
+function normalImg(evt){
+if(!evt)evt=window.event;
+var el=(evt.target)?evt.target:evt.srcElement;
+el.style.height="32px";el.style.width="32px";
+}
+if(window.addEventListener){
+document.getElementById('imgSmiley').addEventListener('mouseover',bigImg,false);
+document.getElementById('imgSmiley').addEventListener('mouseout',normalImg,false);
+}
+else{
+document.getElementById('imgSmiley').attachEvent('onmouseover',bigImg);
+document.getElementById('imgSmiley').attachEvent('onmouseout',normalImg);
+}
+
+|LiveURL=http://result.dabblet.com/gist/acdd7a0b0ebdfaf3699d/a7e519705e7c6bf677b92d98ceaeb513ff37425a
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
