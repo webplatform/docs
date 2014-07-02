@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=examples would clarify any overloaded terms here.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -21,10 +24,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Notes
-If ''index'' is greater than or equal to the number of media in the list, this method returns null.
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Style
@@ -35,6 +35,7 @@ If ''index'' is greater than or equal to the number of media in the list, this m
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
