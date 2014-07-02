@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Sets an arbitrary custom periodic waveform given a [[apis/webaudio/WaveTable|'''WaveTable''']].}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=waveTable
 |Data type=String
 |Optional=No
