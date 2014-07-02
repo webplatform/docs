@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example, return type
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a [[apis/webaudio/DelayNode|'''DelayNode''']] representing a variable delay line. The initial default delay time will be 0 seconds.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=maxDelayTime
 |Data type=Number
 |Description=Specifies the maximum delay time in seconds allowed for the delay line. If specified, this value must be greater than zero and less than three minutes or a NOT_SUPPORTED_ERR exception will be thrown.
