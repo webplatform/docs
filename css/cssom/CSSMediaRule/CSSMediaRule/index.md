@@ -1,16 +1,21 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Summary and examples are needed. Members can use links or clarification of tokens.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
+{{Summary_Section}}
+{{API_Object}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
-{{Topics|DOM}}
 {{Notes_Section
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 2.2
 
 
@@ -61,18 +66,27 @@ The '''CSSMediaRule''' object has these properties.
 |Retrieves the type of the rule.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>IHTMLCSSMediaRule</code>
 |Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
+*<code>IHTMLCSSMediaRule</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
