@@ -20,9 +20,11 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example shows how to determine the origin of the '''onmousedown''' event when event bubbling is used.
-|Code=&lt;body onmousedown{{=}}"alert((event.target)?event.target.tagName:event.srcElement.tagName;)"&gt;
+|Code=&lt;body onmousedown{{=}}"(event.target)?alert(event.target.tagName):alert(event.srcElement.tagName);"&gt;
 &lt;table style{{=}}"table-layout:fixed; cell-collapse:collapse"&gt;
+&lt;tr&gt;
   &lt;th&gt;Click the items below with your mouse.&lt;/th&gt;
+&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;button type{{=}}"button"&gt;Click Me&lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;input type{{=}}"text" value{{=}}"Click Me"/&gt;&lt;/td&gt;&lt;/tr&gt;
   &lt;tr&gt;&lt;td&gt;&lt;span&gt;Click Me&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
