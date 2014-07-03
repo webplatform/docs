@@ -33,7 +33,7 @@ function fnTrackMouse(){
 }}{{Single Example
 |Language=JavaScript
 |Description=Add mouse crosshairs to a web page when a checkbox is clicked.
-|Code=		function moveCrosshairs(evt){
+|Code=function moveCrosshairs(evt){
          if(!evt)evt=window.event;       
          var posx = 0; var posy = 0; 
          if(document.documentMode&&document.documentMode>=9){ 
@@ -75,8 +75,7 @@ function fnTrackMouse(){
         }   
 		}
 		}
-
-|LiveURL=http://result.dabblet.com/gist/f86994ed267ded02fb1b/698f3305f2476d411d5c16ba1d4b723c35cc0884
+|LiveURL=http://result.dabblet.com/gist/7c3297a000687b42de03/011b604311ed518c148e9d88637ae79f32e7a4f7
 }}
 }}
 {{Notes_Section
