@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Stores a timestamp with the associated name (a "mark").}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=markName
 |Data type=any
 |Description=Name associated with the performance mark.
