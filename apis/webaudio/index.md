@@ -1,7 +1,9 @@
 {{Page_Title|Web Audio API}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Fix broken link
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
