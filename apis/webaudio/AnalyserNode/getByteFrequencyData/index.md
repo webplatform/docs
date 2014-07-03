@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example, return type
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Copies the current frequency data into the passed unsigned byte array. If the array has fewer elements than the [[apis/webaudio/AnalyserNode/frequencyBinCount|'''frequencyBinCount''']], the excess elements will be dropped.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=array
 |Data type=void
 |Description=Where frequency-domain analysis data will be copied.
