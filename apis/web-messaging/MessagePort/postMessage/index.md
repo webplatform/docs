@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Posts a message through the channel, from one port to the other.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=message
 |Data type=any
 |Description=JavaScript primitive, such as a '''string''', '''PixelArray''', '''ImageData''', '''Blob''', '''File''', or '''ArrayBuffer'''.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=transfer
 |Data type=any
 |Description=Objects listed in ''transfer'' are transferred, not just cloned, meaning that they are no longer usable on the sending side. 
