@@ -1,8 +1,10 @@
 {{Page_Title|Kontur (outline)}}
 {{Flags
+|State=Not Ready
+|Editorial notes=This page is marked with the wrong language. It needs to be moved to the correct set of docs.
+|Checked_Out=Yes
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
