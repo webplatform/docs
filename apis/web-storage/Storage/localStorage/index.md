@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
@@ -88,7 +89,7 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 {{Notes_Section
 |Usage=Use via the methods ''setItem'', ''getItem'', ''removeItem'' and ''clear'' provided by [[apis/web-storage/Storage]].
 
-Listen to the storage event on [[dom/window]] to catch changes in the storage (example: http://jsfiddle.net/A6tuM/1/).
+Listen to the storage event on [[dom/Window]] to catch changes in the storage (example: http://jsfiddle.net/A6tuM/1/).
 |Notes=The '''localStorage''' "property" provides an instance of a  storage area object, to which the '''Storage''' object's properties and methods are applied.
 |Import_Notes=The amount of storage is limited by the browser on a per location basis (e.g. per domain). An error message is thrown, when the quota is exceed. 
 
