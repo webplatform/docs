@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Removes all DOMHighResTimeStamp time values for the given mark name, or removes all marks and their associated DOMHighResTimeStamp time values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=markName
 |Data type=any
 |Description=Name of the mark(s) to be cleared.
