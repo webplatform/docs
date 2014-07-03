@@ -1,15 +1,20 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Adds or replaces a value for the given key.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=key
 |Data type=String
 |Description=The name of the key (a valid UTF-16 string, including the empty string).
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=value
 |Data type=String
 |Description=The value (a valid UTF-16 string) for the key/value pair.
