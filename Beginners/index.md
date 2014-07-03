@@ -1,26 +1,27 @@
 {{Page_Title|Web Development for Beginners}}
 {{Flags
-|Checked_Out=true
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{Summary_Section|This set of articles is for complete beginners to work through in confidence, building up their essential skills at the beginning of the journey to becoming a web designer or developer.}}
+{{Summary_Section|So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and a set of link to articles explaining the basics.}}
 {{Basic Page}}
 {{Languages}}
 
 ==Before you start==
 
-In this course, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
+In this section, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
-* The newest browsers you are able to install. If you do not have them already, grab them from the homepages of 
+* The newest browsers you are able to install. — You do not need all of them in the same time, a recent one will do!
 ** All Platforms
-***[https://www.google.com/chrome Chrome]
-***[http://www.mozilla.org/firefox Firefox]
+***[https://www.google.com/chrome Google Chrome]
+***[http://www.mozilla.org/firefox Mozilla Firefox]
 ***[http://www.opera.com Opera]
 ** Windows
-***[http://microsoft.com/ie Internet Explorer]
+***[http://microsoft.com/ie Microsoft Internet Explorer]
 ** Mac OS
-***[http://www.apple.com/safari/ Safari].
+***[http://www.apple.com/safari/ Apple Safari].
 
-* A decent text editor. Reasonable free options are 
+* A text editor, there are plenty of free and open source for you to choose from. — try to learn by avoiding auto-completion and type everything, you will feel the benefits later!
 ** All Platforms
 <!--
 DO NOT:
@@ -49,16 +50,30 @@ Thank you for your co operation.
 ***[http://www.geany.org/ Geany]
 ***[https://wiki.gnome.org/Apps/Gedit gedit]
 
-
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
+
 
 ==More on Browser testing==
 
-If you want to test older versions of these browsers or cannot install them on your computer you can use (cross-) browser testing services such as [http://www.browserstack.com/ BrowserStack] (commercial), [http://browsershots.org/ Browsershots] (Screenshots only), [http://crossbrowsertesting.com/ CrossBrowserTesting] (commercial), or [https://saucelabs.com/ SauceLabs] (free and commercial plans). They will render your pages on many different browser version (including mobile browsers).
+To learn how web browsers react, it is quite useful to have automated tools. But modern browsers are now doing a very good job at behaving the same. Unless you are digging right away with technologies that are still in early adoption, you do not need browser testing tools.
 
-If you want to test various versions of Internet Explorer, you can use a Virtual Machine ("VM"). On [http://modern.ie modern.ie], you can download VMs from various versions of Windows and Internet Explorer and run them on either Mac, Linux, or Windows. Those VMs are free for use but will require you to delete and reinstall the VM at every 30 days. But it allows you to test on all available versions of Windows.  To do this, you can have a look at the site [http://modern.ie modern.ie].
+There are a few services to help you test on multiple browsers. While it is very helpful, if you have more than one web browser available its more enough to start learning.
 
-Please also check out the [[concepts/cross_browser_techniques|articles on cross-browser debugging]] here on this platform.
+If you want to test various versions of old web browsers, including Microsoft Internet Explorer, you can use a Virtual Machine ("VM"). In fact, Microsoft has created a set of VMs at [http://modern.ie modern.ie] from which you can load and test your sites on. Those VMs aren’t made to use as a main workspace, but merely to boot and try your pages. You can install older version of web browsers on them too.
+
+Note that the  [http://modern.ie modern.ie VMs] will ask you to delete the VM after 30 days. A trick that you can do is to keep a copy of the downloaded archive and extract it again when appropriate.
+
+As for automated browser testing, its is only useful if you work on bigger projects and goes beyond the scope of this section. 
+
+There are  a few automated browser testing services. They do not require you to install anything and they give you screenshots of the pages you are providing them on various browser versions, including the mobile ones.  
+
+Here is a list of browser testing:
+* [http://www.browserstack.com/ BrowserStack] (commercial)
+* [http://browsershots.org/ Browsershots] (Screenshots only)
+* [http://crossbrowsertesting.com/ CrossBrowserTesting] (commercial)
+* [https://saucelabs.com/ SauceLabs] (free and commercial plans). 
+
+For more information, check those [[concepts/cross_browser_techniques|articles on cross-browser debugging]].
 
 ==Web fundamentals==
 
@@ -95,7 +110,7 @@ Please also check out the [[concepts/cross_browser_techniques|articles on cross-
 * [[tutorials/making css easier to read|Making CSS easier to read]]
 * [[tutorials/media queries|Targetting styles with media queries]]
 
-==JavaScript — adding dynamic behavior to your websites==
+==JavaScript — adding dynamic behavior to websites==
 
 * [[concepts/programming/programming basics|Programming basics]]
 * [[tutorials/your first look at javascript|Your first look at JavaScript]]
