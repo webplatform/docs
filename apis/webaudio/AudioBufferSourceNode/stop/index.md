@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example, return value
+|Editorial notes=Needs example, return type
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
