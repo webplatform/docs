@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Needs Summary
+|State=Ready to Use
 |Checked_Out=No
+|Content=Needs Summary
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
