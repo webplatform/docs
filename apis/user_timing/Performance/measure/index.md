@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Stores the DOMHighResTimeStamp duration between two marks along with the associated name (a "measure").}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=any
 |Description=Name associated with the performance measure.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=startMark
 |Data type=any
 |Description=Name of the start performance mark.
 |Optional=Yes
 }}{{Method Parameter
+|Index=2
 |Name=endMark
 |Data type=any
 |Description=Name of the end performance mark.
