@@ -1,10 +1,15 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the name of the ''n''th key in the list.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=unsigned long
 |Description=A zero-based index of the list entry, up to the length of the collection.
