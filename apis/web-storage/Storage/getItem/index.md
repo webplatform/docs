@@ -1,10 +1,15 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the current value associated with the given key.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=key
 |Data type=String
 |Description=The name of the key (a valid UTF-16 string, including the empty string).
