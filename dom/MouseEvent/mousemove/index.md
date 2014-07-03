@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Fires when the user moves the mouse over the object. }}
+{{Summary_Section|Fires when the user moves the mouse over the object.}}
 {{Event
 |Event_applies_to=dom/MouseEvent
 |Synchronous=No
@@ -29,6 +30,53 @@ function fnTrackMouse(){
   &lt;span id{{=}}"oNotice"&gt;&lt;/span&gt;
 &lt;/div&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onmousemoveEX.htm
+}}{{Single Example
+|Language=JavaScript
+|Description=Add mouse crosshairs to a web page when a checkbox is clicked.
+|Code=		function moveCrosshairs(evt){
+         if(!evt)evt=window.event;       
+         var posx = 0; var posy = 0; 
+         if(document.documentMode&&document.documentMode>=9){ 
+         posx+=parseInt(document.documentElement.style.marginLeft+0); 
+         posy+=parseInt(document.documentElement.style.marginTop+0); 
+         } 
+         if (evt.pageX || evt.pageY)  {  
+         	posx += evt.pageX - document.documentElement.scrollLeft - document.body.scrollLeft;
+         	posy += evt.pageY - document.documentElement.scrollTop - document.body.scrollTop;
+          } 
+        else if (evt.clientX || evt.clientY)  { 
+        	posx += evt.clientX;  
+        	posy += evt.clientY; 
+        } 
+           	dX=document.getElementById('divX'); 
+           	dX.style.left=(10+posx+'px'); 
+	   		dY=document.getElementById('divY'); 
+	   		dY.style.top=(10+posy+'px');    
+		}
+		function toggleCrosshairs(evt){
+        if(!evt)evt=window.event;    
+        var el=('target' in evt)?evt.target:evt.srcElement;    
+        if(el.checked){     
+        	if(window.addEventListener)     {
+        		window.addEventListener('mousemove',moveCrosshairs,true);
+        	}     else     {
+        		document.documentElement.attachEvent('onmousemove',moveCrosshairs);
+        	}    
+        }else{     
+        if(window.removeEventListener)     {
+        	window.removeEventListener('mousemove', moveCrosshairs,true);     
+        	document.getElementById('divX').style.left='-10px';     
+        	document.getElementById('divY').style.top='-10px';     
+        }     
+        else     {
+        	document.documentElement.detachEvent('onmousemove', moveCrosshairs);
+        	document.getElementById('divX').style.left='-10px';
+        	document.getElementById('divY').style.top='-10px';
+        }   
+		}
+		}
+
+|LiveURL=http://result.dabblet.com/gist/f86994ed267ded02fb1b/698f3305f2476d411d5c16ba1d4b723c35cc0884
 }}
 }}
 {{Notes_Section
@@ -59,8 +107,8 @@ To invoke this event, do one of the following:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mousemove mousemove event]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536947(v=vs.85).aspx mousemove event]
 |HTML5Rocks_link=
 }}
