@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example, return type
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the '''Float32Array''' representing the PCM audio data for the specific channel.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=channel
 |Data type=unsigned long
 |Description=The channel parameter is an index representing the particular channel to get data for. An index value of 0 represents the first channel. This index value MUST be less than [[apis/webaudio/AudioBuffer/numberOfChannels|'''numberOfChannels''']] or an exception will be thrown.
