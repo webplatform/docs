@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
-|Checked_Out=Yes
 |Editorial notes=http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics
+|Checked_Out=No
+|High-level issues=Merge Candidate
 }}
 {{Byline}}
 {{Summary_Section|This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.}}
@@ -16,7 +16,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
