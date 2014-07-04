@@ -37,7 +37,7 @@ You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and op
 
 === An example document in a web browser ===
 
-[[File:Beginners_example_html_file.png]]
+[[File:Beginners_example_html_file.png|upright|A web browser window with Hello world in red]]
 
 === An example document code ===
 
