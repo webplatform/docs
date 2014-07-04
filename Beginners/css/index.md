@@ -21,9 +21,9 @@ The '''[[Beginners]]''' section covers the various aspects of web development se
 
 * [[Beginners/the_beginning|1. The beginning]]
 * [[Beginners/crash_course|2. A crash course in web site code]]
-* '''[[Beginners/planning|3. Planning]]'''
+* [[Beginners/planning|3. Planning]]
 * [[Beginners/html|4. Structuring our content with HTML]]
-* [[Beginners/css|5. Styling our content with CSS]]
+* '''[[Beginners/css|5. Styling our content with CSS]]'''
 * [[Beginners/programming|6. Programming fundamentals]]
 * [[Beginners/javascript|7. JavaScript]]
 * [[Beginners/advanced|8. Advanced topics]]
