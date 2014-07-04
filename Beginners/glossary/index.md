@@ -15,7 +15,7 @@ A set of commands, functions, and protocols which can be used to build websites.
 An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus 
 
 <syntaxHighlight>
-<tag href="http://webplatform.org" title="the href and title are what we call attributes">Tag content</tag>
+<tag href="#" title="the href and title are what we call attributes">Tag content</tag>
 </syntaxHighlight>
 
 === Border === 
