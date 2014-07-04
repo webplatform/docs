@@ -1,4 +1,4 @@
-{{Page_Title|Advanced topics}}
+{{Page_Title|Part 8: Advanced topics}}
 {{Flags
 |State=Almost Ready
 |Editorial notes=Either rename the page because its currently about exercises proposals that are somehow advanced.
