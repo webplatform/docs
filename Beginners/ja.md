@@ -1,5 +1,6 @@
 {{Page_Title|はじめてのWebディベロップメント}}
 {{Flags
+|State=Unreviewed
 |Checked_Out=No
 }}
 {{Summary_Section|このページで紹介する記事は、Web デザイナーや Web 開発者を目指すまったくの初心者が、自信を持って仕事ができるように必要なスキルを紹介するものです。}}
