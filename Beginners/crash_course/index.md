@@ -46,8 +46,7 @@ This is a basic HTML document.
 <head>
  <meta charset="utf-8">
  <title>The Title Bar Title Goes Here</title>
- <link rel="stylesheet" href="stylename.css" type="text/css"
-media="screen">
+ <link rel="stylesheet" href="stylename.css" type="text/css" media="screen">
 </head>
 <body>
 <h1>Headings Go Here</h1>
@@ -125,8 +124,7 @@ Notes from original author, David Herz:
                               and many others in one page -->
    <title>Example Page</title><!-- This is what gets  
                                    displayed on the web browser tab -->
-	<link rel="stylesheet" href="style1.css" type="text/css"
-media="screen">
+	<link rel="stylesheet" href="style1.css" type="text/css" media="screen">
         <!-- ^ Will call another file, called "style1.css" that   
                is right beside the current document. Why this    
                syntax? The "type" is similar to the previous meta charset,    
@@ -136,8 +134,10 @@ media="screen">
                we call headers to tell what type of file it is.
 
                The media attribute in the link tag tells us to WHEN to apply    
-               the stylesheet. If you heard about MediaQueries, the media="screen"    
-               and media="print" were the first since about the year 2000 -->
+               the stylesheet. This is what we commonly refer to as a MediaQuery.
+               The first use of media queries was mostly used to deal with how a web page
+               would look like once printed (back in 200x) but now its much more complete
+               to help us target screen resolution and other aspects.  -->
 <style>h1 { color: red; }  /* This is a CSS comment. Inside an HTML document that has
                               an embedded CSS document that you we are using until   
                               we close the style tag */
@@ -148,7 +148,8 @@ media="screen">
              potentially block. When you will want to learn about  
              performance, you’ll remember that note. -->
  <body>
-   <h1>Hello world</h1>
+   <h1>Hello world</h1><!-- Because of the previous style tag, if you look at this
+                            web page in a browser, the Hello world should be red -->
  </body>
 </html>
 </syntaxHighlight>
