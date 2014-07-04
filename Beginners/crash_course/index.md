@@ -1,5 +1,9 @@
-{{Page_Title|Part 2: A crash course in web site code}}
+{{Page_Title|A crash course in web site code}}
 {{Flags
+|State=In Progress
+|Editorial notes=There are plenty of notes and idea but all incomplete.
+
+The document has been cleaned up from editorial proposals from the actual content to remove confusion to the new comers.
 |Checked_Out=No
 }}
 {{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.  
@@ -75,7 +79,7 @@ Save it.
 
 Go back to your browser and refresh the page, what happens.  Now play a little by trying some changes 
 * <tt>h3</tt> instead of <tt>h2</tt>, or <tt>h4</tt>, <tt>h5</tt>, <tt>h6</tt>; those are [[html/elements/hn|headlines elements]] to differentiate titles from body text.
-* Instead of <tt>em</tt>, try <tt>strong</tt>, <tt>sup</tt>, <tt>sub</tt>, or the <tt>i</tt> [[http://docs.webplatform.org/wiki/html/elements|tags (see them all here)]] in the same way.
+* Instead of <tt>em</tt>, try <tt>strong</tt>, <tt>sup</tt>, <tt>sub</tt>, or the <tt>i</tt> [[html/elements|tags]] in the same way.
 
 Want to call another document?
 
