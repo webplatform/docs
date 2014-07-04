@@ -57,11 +57,11 @@ While common numbers goes from 0-9 (i.e. decimal numbers). This notation is easy
 
 For example, we use Hexadecimal numbers to describe a color. On computer screens, colors are based on red, green and blue (commonly called RGB). Every color has a percentage of each colors. To obtain red in RGB, we would need: 100% or red, 0% or green, 0% of blue.
 
-In Hexadecimal, we would say that 0% is represented as <tt>00</tt>, and 100% as <tt>FF<tt>.
+In Hexadecimal, we would say that 0% is represented as <tt>00</tt>, and 100% as <tt>FF</tt>.
+
 ''NOTE'': Technically two hexadecimal characters can represent 255 possibilities, but in CSS we round it as if it was a percentage value.
 
-Therefore, red in RGB would be adressed as 
-<syntaxHighlight>color: #FF0000;</syntaxHighlight>
+Therefore, red in RGB would be described as the string <tt>#FF0000;</tt> in CSS.
 
 
 === HTML (Hyper Text Markup Language) ===
