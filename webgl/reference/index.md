@@ -7,7 +7,7 @@ Khronos publishes the [http://www.khronos.org/registry/webgl/specs/latest/ WebGL
 A webgl context can be obtained by calling the getContext function on a [[canvas|Canvas Element]]
 
 === Syntax ===
-<syntaxhighlight lang="javascript">var gl = canvas.getContext('webgl', attributes)</syntaxhighlight>
+<syntaxhighlight lang="javascript">var gl = canvas.getContext('webgl', attributes) || canvas.getContext('experimental-webgll', attributes)</syntaxhighlight>
 
 === Arguments ===
 
