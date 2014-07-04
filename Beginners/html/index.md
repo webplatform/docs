@@ -1,16 +1,7 @@
 {{Page_Title|Part 4: Structuring our content with HTML}}
 {{Flags
 |State=Not Ready
-|Checked_Out=No
-}}
-{{Summary_Section|Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.}}
-{{Basic Page}}
-<!--
-Notes from original author, David Herz:
-
-  As to the code, I think it would be better to have code and explanations next to it.
-
-Editorial proposals:
+|Editorial notes=Quoting David Hertz original proposal:
 
 * Add more example in the body section:
 ** high level page structure - header, footer, navigation, main content, sidebar
@@ -20,7 +11,28 @@ Editorial proposals:
 ** main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography
 ** sidebar - have this as an image gallery of images from the recipe
 
--->
+|Checked_Out=No
+}}
+{{Summary_Section|Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.}}
+{{Basic Page}}
+== Topics ==
+The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
+
+* [[Beginners/the_beginning|1. The beginning]]
+* [[Beginners/crash_course|2. A crash course in web site code]]
+* [[Beginners/planning|3. Planning]]
+* '''[[Beginners/html|4. Structuring our content with HTML]]'''
+* [[Beginners/css|5. Styling our content with CSS]]
+* [[Beginners/programming|6. Programming fundamentals]]
+* [[Beginners/javascript|7. JavaScript]]
+* [[Beginners/advanced|8. Advanced topics]]
+* [[Beginners/browser_testing|9. Browser testing]]
+* [[Beginners/glossary|Glossary]]
+
+
+== An HTML Document with details about each components ==
+
+Ever wondered the utility of a web page, here are a few notes to help you understand their existence.
 
 <syntaxHighlight>
 <!DOCTYPE html><!-- This tag is an HTML Comment -->
