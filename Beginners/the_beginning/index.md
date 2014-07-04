@@ -1,7 +1,9 @@
 {{Page_Title|Part 1: The beginning}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Truncate content that is duplicate
+|Editorial notes=Truncate content that is duplicate.
+
+Also, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web
 |Checked_Out=No
 }}
 {{Summary_Section|The very first part of our beginner's material:
@@ -120,28 +122,6 @@ paragraph.onclick = function() {
 We will expand on these in the next article and get you started with some coding!
 
 Read [[concepts/internet and web/the web standards model|The web standards model]] for more details on the why and what of web standards.
-
-
-==The tools of the trade==
-
-Now we'll look at the actual tools you'll be using to build web sites and put them online for others to look at. In this course, you'll be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
-
-One or more modern browsers, to test your code in: 
-* [http://www.google.com/chrome Chrome]
-* [http://www.mozilla.org/en-US/firefox/new/ Firefox]
-* [http://windows.microsoft.com/ie Internet Explorer] 
-* [http://www.opera.com Opera]
-* [http://www.apple.com/safari/ Safari]
-
-A decent text editor, to write your code in. Reasonable free options include:
-* [http://bluefish.openoffice.nl/index.html Bluefish] for Linux.
-* [http://notepad-plus-plus.org/ Notepad++]
-* [http://foicica.com/textadept/ TextAdept]
-* [http://www.barebones.com/products/TextWrangler/ Text Wrangler] for Mac
-* [http://www.microsoft.com/visualstudio/eng/products/visual-studio-express-for-web Visual Studio Express] for Windows
-
-
-Go ahead, download and install these now. We'll wait right here.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
