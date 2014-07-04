@@ -1,4 +1,4 @@
-{{Page_Title|Part 3: Planning an example project}}
+{{Page_Title|Part 3: Planning}}
 {{Flags
 |State=Not Ready
 |Editorial notes=There are notes to describe what this section should cover, but no content.
@@ -11,7 +11,7 @@ Original page contents were notes:
 * Site structure - create folders for holding CSS, JS, and images.
 |Checked_Out=No
 }}
-{{Summary_Section|Now you've got some familiarity with basic web code, let's take a step back, introducing an example project for you to work on and taking the necessary steps to plan it. Let's build a recipe site!}}
+{{Summary_Section|Now you've got some familiarity with some basic concepts about the web, let's take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.}}
 {{Basic Page}}
 == Topics ==
 The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
