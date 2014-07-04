@@ -86,33 +86,25 @@ Notes from original author:
 
 
 <syntaxHighlight>
-<!DOCTYPE html>&lt;!this tells the browser what version of HTML it is dealing with; there are others and we want to make sure there is no confusion. --&gt;
-<html lang="en"> <!this is how we open every document; the language part is
-optional, but makes sure your document doesn't look like gobbledy gook when
-someone in Korea opens your document in a browser that defaults to Korean>
- <head> <!required part of every HTML document>
-   <meta charset="utf-8">
-   <title>Example Page</title>
+<!DOCTYPE html><!-- This tag is an HTML Comment -->
+<!-- ^ The DOCTYPE tag tells the browser what version of HTML it is dealing with; there are others and we want to make sure there is no confusion. -->
+<html lang="en"><!-- this is how we open every document; the language part is optional, but makes sure your document doesn't look like gobbledy gook when someone in Korea opens your document in a browser that defaults to Korean -->
+ <head><!-- required part of every HTML document, this is where we add internal information (i.e. meta) about the current HTML page -->
+   <meta charset="utf-8"><!-- This is a way, in HTML, to tell the browser that we are writing text in UTF-8 so we can write Greek, Russian, English, French and many others in one page -->
+   <title>Example Page</title><!-- This is what gets displayed on the web browser tab -->
 	<link rel="stylesheet" href="style1.css" type="text/css"
-media="screen">
-		<!link to style sheet in same directory why this syntax??
-		type tells us the type of file, the .css is apparently not
-sufficient;
-		media tells us to what to apply it, in this case the screen
-as we 
-		might not want this to print>
-	<! or <style>
-			style definition
-		  </style> allows you to do this in the same document
-without consulting
-		  the style sheet>
- </head>
+media="screen"><!-- Will call another file, called "style1.css" that is right beside the current document. Why this syntax? The "type" is similar to the previous meta charset, it specifies the web browser to read the file as CSS. While we, humans, think that ".css" is telling, computers doesn’t need extension (this is an old story), but instead use what we call headers to tell what type of file it is. -->
+<!-- The media attribute in the link tag tells us to WHEN to apply the stylesheet. If you heard about MediaQueries, the media="screen" and media="print" were the first since about the year 2000 -->
+<style>
+h1 { color: red; }
+</style>
+<!-- ^ Instead of using a link tag, I can also add CSS directly in a document -->
+ </head><!-- Cloing the head, now the real deal. Note that whatever is in the head, can potentially block. When you will want to learn about performance, you’ll remember that note. -->
  <body>
    <h1>Hello world</h1>
  </body>
 </html>
-
-So that's about all I have time for tonight.</pre>
+</syntaxHighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
