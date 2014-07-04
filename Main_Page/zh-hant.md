@@ -1,6 +1,5 @@
-{{Page_Title|歡迎進入 <b>Web Platform</b> 文庫}}
-
-{{Flags}}
+{{Page Title|歡迎進入 <b>Web Platform</b> 文庫}}
+{{Flags|State=Unreviewed}}
 
 ==總結==
 <b>Web platform</b> 文庫是一個交互式網站，旨在成為Web開發人員的一個綜合性和權威性文庫。
