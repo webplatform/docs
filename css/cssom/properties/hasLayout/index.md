@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=summary needed and extra bracket print from code needs removal
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -93,6 +96,7 @@ As of Microsoft Internet Explorer 6, when the [[html/elements/!DOCTYPE|!DOCTYPE
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
