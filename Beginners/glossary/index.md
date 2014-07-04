@@ -5,8 +5,7 @@
 }}
 {{Summary_Section|This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.}}
 {{Basic Page}}
-
-== Alignment === 
+=== Alignment === 
 The horizontal or vertical positioning of an element. Typical horizontal alignments include left, right, and center; typical vertical alignments include baseline, sub, super, top, text-top, middle, bottom, and text-bottom.
 
 === API (Application Program Interface) ===
