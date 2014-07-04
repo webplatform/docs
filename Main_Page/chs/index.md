@@ -1,6 +1,6 @@
-{{Page_Title|欢迎进入 <b>Web Platform</b> 文库}}
+{{Page Title|欢迎进入 '''Web Platform''' 文库}}
 
-{{Flags}}
+{{Flags|State=Unreviewed}}
 
 ==总结==
 <b>Web platform</b> 文库是一个社区驱动的网站，旨在成为一个综合性和权威性，为Web开发人员文档。
