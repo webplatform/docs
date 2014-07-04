@@ -6,8 +6,9 @@
 The document has been cleaned up from editorial proposals from the actual content to remove confusion to the new comers.
 |Checked_Out=No
 }}
-{{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.  
+{{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
 
+If you have terms you don’t understand, you can see the [[Beginners/glossary]] section.
 You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the html and css code tables and applying that code to your site.
 }}
 {{Basic Page}}
