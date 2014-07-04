@@ -53,7 +53,7 @@ The ones to remember are characters we use in an HTML document and if we use the
 
 To tell the web browser we want to display a special character we annotate them in the source. The notation is basically the amperstand symbol (&amp;) and a code. When the code has no alias (e.g. amp), we prepend it with a pound sign (#) and a number based on the ASCII table.
 
-Here are a few examples: &#182; (&amp;#182;), &#188; (&amp;#182;), the &amp; (&amp;amp;) or using the code &38; (&amp;38;).
+Here are a few examples: &#182; (&amp;#182;), &#188; (&amp;#182;), the &amp; (&amp;amp;) or using the code &#38; (&amp;#38;).
 
 === Code === 
 A means for displaying an Entity, such as &#60; without it having coding effect, typically by use of a string that begins &#. Fantasy:  Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy 
