@@ -8,8 +8,9 @@ You will quickly find that once you get the hang of how this works, you will be 
 }}
 {{Basic Page}}
 <!-- 
-
 Note to contributors: This part provides a very quick "hands dirty" session on HTML, CSS and JavaScript. 
+
+This page is a rework from the original author, David Herz:
 
 We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
 
@@ -31,7 +32,7 @@ We're not giving all the information - we are just trying to get the reader comf
 
 -->
 
-== An HTML document ==
+== Quick overview of an HTML document ==
 
 This is a basic HTML document.
 
@@ -54,12 +55,12 @@ media="screen">
 
 Please note there are essentially two types of markings.  
 
-There is the paired <tt>&lt;tag-name&gt;tag contents&lt;/tag-name%gt;</tt>, which is how we tell the computer to deal with any block of text from a letter to defining the beginning and end of a whole
+There is the paired <tt>&lt;tag-name&gt;tag contents&lt;/tag-name&gt;</tt>, which is how we tell the computer to deal with any block of text from a letter to defining the beginning and end of a whole
 document.  
 
 Then there is the <tt>&lt;tag-name _______________ /&gt</tt> where those are instructions to describe on how to deal with certain situations. The <tt>meta</tt> are about the server communication. In this particular case, we are saying that the file is written in <tt>UTF-8</tt> (i.e. a format that supports multiple languages characters at once), and <tt>link</tt> is for asking which file to download along the HTML document to take care of the visual aspects ("Stylesheets").
 
-For your first HTML document, please cut and paste the above into your editor, and save it as example.html, but leave the file opened. 
+For your first HTML document, please cut and paste the above into your editor, and save it as <tt>example.html</tt>, but leave the file opened. 
 
 Now go to your browser, press open, open this file and see what happens and leave this page open too.
 
@@ -74,32 +75,74 @@ Save it.
 
 Go back to your browser and refresh the page, what happens.  Now play a little by trying some changes 
 * <tt>h3</tt> instead of <tt>h2</tt>, or <tt>h4</tt>, <tt>h5</tt>, <tt>h6</tt>; those are [[html/elements/hn|headlines elements]] to differentiate titles from body text.
-* Instead of <tt>em</tt>, try <tt>&lt;strong&gt;more text&lt;/strong&gt; or use the &lt;i&gt; tag in the same way.
+* Instead of <tt>em</tt>, try <tt>strong</tt>, <tt>sup</tt>, <tt>sub</tt>, or the <tt>i</tt> [[http://docs.webplatform.org/wiki/html/elements|tags (see them all here)]] in the same way.
 
-At some point, you might want to add color. This is a little more complicated, and for this we'll have to introduce you to the stylesheets, but don't worry that's what happens next.
+Want to call another document?
 
+Create a file beside <tt>example.html</tt>, and call it <tt>example2.html</tt>. Empty the <tt>body</tt> tag, and just write something inside the <tt>body</tt> tag.
+
+We will call <tt>example2.html</tt>, from our <tt>example.html</tt> sandbox document. Add this line:
+
+<syntaxHighlight>
+<a href="example2.html" title="Another HTML file">Calling example2</a>
+</syntaxHighlight>
+
+
+At some point, you might want to add color. 
+
+This is a little more complicated, and for this we'll have to introduce you to the stylesheets, but don't worry that's what happens next.
+
+(END OF ARTICLE)
+
+== HTML Document skeleton with comments ==
 <!--
-Notes from original author:
+Notes from original author, David Herz:
 
   As to the code above, I very much think it should be, and our standard mode for teaching should be, a table with the code on the left, and an explanation for what each element does on the right.  So take all my comments below, and pretend they are off to the right.  This way people can see the code, and get what it does right there.
+
 -->
 
 
 <syntaxHighlight>
 <!DOCTYPE html><!-- This tag is an HTML Comment -->
-<!-- ^ The DOCTYPE tag tells the browser what version of HTML it is dealing with; there are others and we want to make sure there is no confusion. -->
-<html lang="en"><!-- this is how we open every document; the language part is optional, but makes sure your document doesn't look like gobbledy gook when someone in Korea opens your document in a browser that defaults to Korean -->
- <head><!-- required part of every HTML document, this is where we add internal information (i.e. meta) about the current HTML page -->
-   <meta charset="utf-8"><!-- This is a way, in HTML, to tell the browser that we are writing text in UTF-8 so we can write Greek, Russian, English, French and many others in one page -->
-   <title>Example Page</title><!-- This is what gets displayed on the web browser tab -->
+<!-- ^ The DOCTYPE tag tells the browser what version 
+       of HTML it is dealing with; there are others and  
+       we want to make sure there is no confusion. -->
+<html lang="en"><!-- this is how we open every document; the  
+       language part is optional, but makes sure your document  
+       doesn't look like gobbledy gook when someone in Korea  
+       opens your document in a browser that defaults to Korean -->
+ <head><!-- required part of every HTML document, this is  
+       where we add internal information (i.e. meta) about  
+       the current HTML page -->
+   <meta charset="utf-8"><!-- This is a way, in HTML, to  
+                              tell the browser that we are writing text in UTF-8  
+                              so we can write Greek, Russian, English, French  
+                              and many others in one page -->
+   <title>Example Page</title><!-- This is what gets  
+                                   displayed on the web browser tab -->
 	<link rel="stylesheet" href="style1.css" type="text/css"
-media="screen"><!-- Will call another file, called "style1.css" that is right beside the current document. Why this syntax? The "type" is similar to the previous meta charset, it specifies the web browser to read the file as CSS. While we, humans, think that ".css" is telling, computers doesn’t need extension (this is an old story), but instead use what we call headers to tell what type of file it is. -->
-<!-- The media attribute in the link tag tells us to WHEN to apply the stylesheet. If you heard about MediaQueries, the media="screen" and media="print" were the first since about the year 2000 -->
-<style>
-h1 { color: red; }
-</style>
-<!-- ^ Instead of using a link tag, I can also add CSS directly in a document -->
- </head><!-- Cloing the head, now the real deal. Note that whatever is in the head, can potentially block. When you will want to learn about performance, you’ll remember that note. -->
+media="screen">
+        <!-- ^ Will call another file, called "style1.css" that   
+               is right beside the current document. Why this    
+               syntax? The "type" is similar to the previous meta charset,    
+               it specifies the web browser to read the file as CSS. While    
+               we, humans, think that ".css" is telling, computers doesn’t    
+               need extension (this is an old story), but instead use what    
+               we call headers to tell what type of file it is.
+
+               The media attribute in the link tag tells us to WHEN to apply    
+               the stylesheet. If you heard about MediaQueries, the media="screen"    
+               and media="print" were the first since about the year 2000 -->
+<style>h1 { color: red; }  /* This is a CSS comment. Inside an HTML document that has
+                              an embedded CSS document that you we are using until   
+                              we close the style tag */
+</style><!-- ^ Instead of using a link tag, we can also add
+               CSS directly in a document -->
+ </head><!-- Closing the head, now the real deal. 
+             Note that whatever is in the head, can  
+             potentially block. When you will want to learn about  
+             performance, you’ll remember that note. -->
  <body>
    <h1>Hello world</h1>
  </body>
