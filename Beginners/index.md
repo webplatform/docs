@@ -13,7 +13,7 @@ This section covers the various aspects of web development separated in 9 parts,
 <!-- SubPages should work, but it doesn’t here due to confusion in MediaWiki about page translation and sub pages :(
 < subpages / >
 -->
-* '''[[Beginners/the_beginning|1. The beginning]]''' ( &lt;- you are here!)
+* '''[[Beginners/the_beginning|Web development for beginners]]''' ( &lt— you are here!)
 * [[Beginners/the_beginning|1. The beginning]]
 * [[Beginners/crash_course|2. A crash course in web site code]]
 * [[Beginners/planning|3. Planning]]
