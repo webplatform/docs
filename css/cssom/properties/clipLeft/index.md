@@ -1,21 +1,23 @@
+{{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=syntax section dupe header and needs summary.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/cssom/properties
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example demonstrates how to read the '''clipLeft''' property from the [[css/cssom/currentStyle|'''currentStyle''']] object of an image.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipLeft.htm
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 function setClip(sOptionValue) {
     oImage.style.clip{{=}}"rect(0,100,100,"+sOptionValue+")";
     if (oImage.currentStyle.clipLeft {{=}}{{=}} "60px") {
@@ -35,14 +37,25 @@ Pick an amount to clip the left:
 &lt;OPTION VALUE{{=}}50&gt;50px &lt;/OPTION&gt;
 &lt;OPTION VALUE{{=}}60&gt;60px &lt;/OPTION&gt;
 &lt;/SELECT&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipLeft.htm
+}}
+}}
 {{Notes_Section
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
@@ -51,12 +64,12 @@ Pick an amount to clip the left:
 *<code>[[css/cssom/properties/clipBottom|clipBottom]]</code>
 *<code>[[css/cssom/properties/clipRight|clipRight]]</code>
 *<code>[[css/cssom/properties/clipTop|clipTop]]</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
