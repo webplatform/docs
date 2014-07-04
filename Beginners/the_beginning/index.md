@@ -1,5 +1,7 @@
 {{Page_Title|Part 1: The beginning}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Truncate content that is duplicate
 |Checked_Out=No
 }}
 {{Summary_Section|The very first part of our beginner's material:
@@ -16,29 +18,27 @@
 
 Our beginner's guide is written for complete beginners to the world of web site code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the real basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
 
-If you are already experienced in web development, then we would recommend that you start on the [[Main_Page|WPD main page]].
+If any term is hard to understand, keep a tab opened on the [[Beginners/glossary]].
 
-==What is the web, and how does it work?==
+== What is the web, and how does it work? ==
 
 The Web is a global network of computers on which content can be stored, and accessed at will by anyone with a connection to that network (basically, anyone with an internet service and a computer of some kind that can connect to that service). Most computers in the network merely consume information from other places (also know as '''clients'''), whereas others can consume information from other places '''and''' send information to other computers that ask for it ('''servers'''.)
 
 [INCLUDE A NICE SIMPLE IMAGE OF A SERVER SURROUNDED BY CLIENT MACHINES, AND SOME ARROWS AND CAPTIONS TO INDICATE CLIENTS REQUESTING A WEB PAGE, AND THE SERVER SENDING THE WEB PAGE TO THE CLIENTS TO DISPLAY?]
   
-The technology that the Web runs on top of has its roots in an old US military project from the 1960s called ARPANET, but the Web really came into existance when Tim Berners-Lee, generally credited as being the creator of the Web, created a document management system in the early 90s in which you could put links between documents and add other features besides. It also included a central computer (known as a server) for serving the documents to other computers in the network, and a program for displaying the documents to the system's users (which was in effect the world's first Web browser — called WorldWideWeb).
+The technology that the Web runs on top of has its roots in an old US military project from the 1960s called ARPANET, but the Web really came into existance when [http://w3.org/People/#timbl Tim Berners-Lee], generally credited as being the creator of the Web, created a document management system in the early 90s in which you could put links between documents and add other features besides. It also included a central computer (known as a server) for serving the documents to other computers in the network, and a program for displaying the documents to the system's users (which was in effect the world's first Web browser — called WorldWideWeb).
 
 Find more about the web's history and origins in [[concepts/internet and web/the history of the web|The history of the Web]]
 
 The main components which allow us to access the Web are:
 
-<ul>
-<li><p>Web servers: The computers on which web sites are stored, ready for delivery to those who want to look at them.</p></li>
-<li><p>Client: Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to '''request''' a web site/other data from a server; the server then sends back a '''response''', which includes all the information needed for your application to display the web site or other data you requested.</p></li>
-<li><p>Web Browser: A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web.</p></li>
-<li><p>Networking Protocols: Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other.  The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web..</p></li>
-<li><p>Transmission Protocols: The various agreed upon methods for transporting data around the Web, the most common being FTP, File Transfer Protocol.</p></li>
-<li><p> DNS (Domain Name Server): This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called '''IP addresses'''. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!</p></li>
-<li><p>Web Technologies: these are the different types of code that web developers use to create web sites, which define things such as the text you want to show on the web page, the styles that text should have, etc. The web browser receives such code from a server and assembles it into a complete web page. </p></li>
-</ul>
+* '''Web Servers''': Computers who answers to requests made by the clients
+* '''Client''': Software on a computer that makes requests to servers (i.e. a web browser)
+* '''Hypertext''': A reference to something (an image, another document) somewhere else on the Internet. A text link is also know as an hyperlink.
+* '''DNS''': A set of servers communicating together databases of Internet’s way to refer to another computer into human words
+* '''The Internet''': A network of computers. The Web and Emails are two of many others.
+
+'''NOTE''' All the common terms are described in [[Beginners/glossary]]
 
 [INSERT IMAGE OF TOWN AND CITY CONNECTED BY ROAD, WITH DELIVERY VAN GOING ALONG ROAD TOWARDS TOWN. I'D LIKE IT TO EXPRESS SOMETHING LIKE THE FOLLOWING: Imagine the Web as being like a series of towns and cities connected by roads. One town (the client computer) wants to get a supply of chocolate (web site) from the awesome chocolatier in the city. So the town's mayor (web browser) writes a letter (web request) to send to the chocolatier in the city. The town's mayor has the address of the chocolatier (domain name), but is not sure how to actually get there, so she gives it to the postman, and he takes it there (this is basically what the Domain Name Server does when it is given a domain name). The city is happy to give the town some of its chocolate supply from the chocolatier, so it sends a delivery van full over right away (the code files, written using web standards), travelling by the main road (the transmission protocol). Once it gets to the town, the mayor distributes the chocolate to all her townsfolk (displays the web page), and everyone is happy (users are easy to please).]
 
@@ -46,10 +46,13 @@ This may sound complicated, but most of this is done transparently, without you 
 
 Read [[concepts/internet and web/how does the internet work|How does the Internet work?]] for more information.
 
+
 ==What are web standards?==
 
 Web standards are the technologies that we use to build web pages; there are a number of different ones, but this material will address only three:
 
+* HTML
+* 
 <ul>
 <li><p>'''Hypertext Markup Language (HTML)''': This language is used to structure your data and give it meaning. Just like a school paper — with a cover page, table of contents, introduction, body, conclusion and bibliography — HTML code is used to separate blocks of information (such as a heading, paragraph, bulleted list, table, or definition) that can be manipulated and formated (via CSS, Cascading Style Sheets) in their own particular manner.  Probably the most important part of this is the Hypertext of HTML.  HTML defines how links operate, both within documents and to any other place accessible on the Web.</p>
 
