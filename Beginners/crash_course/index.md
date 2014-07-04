@@ -93,7 +93,7 @@ We will call <tt>example2.html</tt>, from our <tt>example.html</tt> sandbox docu
 
 At some point, you might want to add color. 
 
-This is a little more complicated, and for this we'll have to introduce you to the stylesheets, but don't worry that's what happens next.
+This is a little more complicated, and for this we'll have to introduce you to the stylesheets, but don't worry that's what happens [[Beginners/css|in next section about CSS]].
 
 (END OF ARTICLE)
 
