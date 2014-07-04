@@ -77,7 +77,9 @@ Thank you for your co operation.
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
 
-==Web fundamentals==
+== Other useful articles for beginners ==
+
+=== Web fundamentals ===
 
 * [[concepts/internet and web/the history of the web|The history of the Web]]
 * [[concepts/internet and web/how does the internet work|How does the Internet work]]
@@ -85,7 +87,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[tutorials/getting your content online|Getting your content online]]
 * [[concepts/accessibility|Accessibility]]
 
-==HTML — structuring your web content==
+=== HTML — structuring your web content ===
 
 * [[guides/the basics of html|The basics of HTML]]
 * [[guides/doctypes and markup styles|DOCTYPES and markup styles]]
@@ -101,7 +103,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[guides/html5 form features|HTML5 form features]]
 * [[guides/lesser-known semantic elements|Lesser-known semantic elements]]
 
-==CSS — styling your web content==
+=== CSS — styling your web content ===
 
 * [[guides/getting started with css|Getting started with CSS]]
 * [[tutorials/using selectors|Using selectors]]
@@ -112,7 +114,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[tutorials/making css easier to read|Making CSS easier to read]]
 * [[tutorials/media queries|Targetting styles with media queries]]
 
-==JavaScript — adding dynamic behavior to websites==
+=== JavaScript — adding dynamic behavior to websites ===
 
 * [[concepts/programming/programming basics|Programming basics]]
 * [[tutorials/your first look at javascript|Your first look at JavaScript]]
@@ -125,7 +127,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 * [[tutorials/events in javascript|Events in JavaScript]]
 * [[PointerEvents|Pointer Events for mouse, touch, and pen input]]
 
-==Applied techniques==
+=== Applied techniques ===
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
 {{Notes_Section}}
