@@ -12,7 +12,11 @@ The horizontal or vertical positioning of an element. Typical horizontal alignme
 A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them. 
 
 === Attribute === 
-An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus &#60;tag HREF=&#8220;&#8220; Title=&#8220;the HREF and Title to the left are attributes&#8220;&#62;.
+An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus 
+
+<syntaxHighlight>
+<tag href="http://webplatform.org" title="the href and title are what we call attributes">Tag content</tag>
+</syntaxHighlight>
 
 === Border === 
 The edge delimiting the boundaries of an element box.
