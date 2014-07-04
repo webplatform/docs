@@ -1,30 +1,31 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=summary and more explanation needed. 
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/cssom/properties
+|Read_only=No
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''pixelBottom''' property to set a positioned '''div''' to the bottom of the client area.
-|LiveURL=
-|Code=
-oDiv.style.pixelBottom {{=}} 0;
-}}}}
+|Code=oDiv.style.pixelBottom {{=}} 0;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The '''pixelBottom''' property reflects the value of the Cascading Style Sheets (CSS) [[css/properties/bottom|'''bottom''']] attribute.
 Unlike the [[css/properties/bottom|'''bottom''']] property, the '''pixelBottom''' value is an integer, not a string, and is always interpreted in pixels.
 For more information about how to access the dimension and location of an object on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'''pixelBottom: '''''
 &lt;integer&gt;
 ''</code>
@@ -52,21 +53,30 @@ For more information about how to access the dimension and location of an object
 <dt>Mshtml.dll</dt>
 </dl>
 |}
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_sections====Related pages (MSDN)===
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/cssom/properties/posBottom|posBottom]]</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
