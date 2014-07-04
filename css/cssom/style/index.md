@@ -1,26 +1,23 @@
+{{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=summary needed. double check token printing in standards section.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{API_Object
-|Subclass_of=
-}}
-{{Topics|DOM}}
+{{Summary_Section}}
+{{API_Object}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example uses the '''style''' object to set the document body text font to Verdana.
-|LiveURL=
-|Code=
-document.body.style.fontFamily {{=}} "Verdana"
-}}
-{{Single_Example
+|Code=document.body.style.fontFamily {{=}} "Verdana"
+}}{{Single Example
 |Description=This example positions all absolutely positioned images in the given document at the top of the document.
-|LiveURL=
-|Code=
-var oImages {{=}} document.all.tags("IMG");
+|Code=var oImages {{=}} document.all.tags("IMG");
 if (oImages.length) {
     for (var iImg {{=}} 0; iImg &lt; oImages.length; iImg++) {
         var oImg {{=}} oImages(iImg);
@@ -29,21 +26,18 @@ if (oImages.length) {
         }
     }
 }
-}}
-{{Single_Example
+}}{{Single Example
 |Description=This example copies the inline style of the second element (<code>div2</code>) to the first (<code>div1</code>) while preserving the styles of the second. The background color of <code>div1</code> is overwritten during the assignment.
-|LiveURL=
-|Code=
-&lt;DIV ID{{=}}"div1" STYLE{{=}}"background-color:blue;font-weight:bold"&gt;Item 1&lt;/DIV&gt;
+|Code=&lt;DIV ID{{=}}"div1" STYLE{{=}}"background-color:blue;font-weight:bold"&gt;Item 1&lt;/DIV&gt;
 &lt;DIV ID{{=}}"div2" STYLE{{=}}"background-color:red;font-size:18pt;
     font-family:Verdana;"&gt;Item 2&lt;/DIV&gt;
 &lt;SCRIPT&gt;
 div1.style.cssText +{{=}} (';' + div2.style.cssText);
 &lt;/SCRIPT&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 Inline styles are CSS assignments that you apply directly to individual HTML elements using the [[html/attributes/STYLE html_attribute|'''STYLE''']] attribute. Use the '''style''' object to examine these assignments and to make new assignments or change existing ones.
 To retrieve the '''style''' object, apply the '''style''' keyword to an <code>element</code> object. To retrieve the current setting for an inline style, apply the corresponding '''style''' property to the '''style''' object.
 The '''style''' object does not provide access to the style assignments in style sheets. To obtain information about styles in style sheets, use the [[css/cssom/styleSheets|'''styleSheets''']] collection to access to the individual style sheets defined in the document.
@@ -53,8 +47,7 @@ To change or clear multiple style properties simultaneously, use this object wit
  &lt;DIV onclick{{=}}"this.style.cssText {{=}} 'color:red;background-color:blue;border:5px solid black;'"&gt;
  Click this DIV to change style properties.&lt;/DIV&gt;
  </code>
-|Import_Notes=
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 
 ===Members===
@@ -922,15 +915,25 @@ languages appear in the object.
 |Sets or retrieves  the magnification scale of the object.
 |}
  
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
