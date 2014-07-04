@@ -1,5 +1,8 @@
 {{Page_Title|초보자를 위한 웹개발}}
-{{Flags}}
+{{Flags
+|State=Unreviewed
+|Checked_Out=No
+}}
 {{Summary_Section|이 문서는 웹 디자이너 또는 개발자가 되기 위한 기초적인 기술을 소개하며, 어떤 초보자도 이 문서를 통해 자신감을 갖출 수 있다.}}
 {{Basic Page}}
 {{Languages}}
