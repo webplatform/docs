@@ -20,8 +20,6 @@ The '''[[Beginners]]''' section covers the various aspects of web development se
 * [[Beginners/browser_testing|9. Browser testing]]
 * [[Beginners/glossary|Glossary]]
 
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
 
 == Tools ==
 
