@@ -3,22 +3,7 @@
 |State=In Progress
 |Editorial notes=There are plenty of notes and idea but all incomplete.
 
-The document has been cleaned up from editorial proposals from the actual content to remove confusion to the new comers.
-|Checked_Out=No
-}}
-{{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
-
-If you have terms you don’t understand, you can see the [[Beginners/glossary]] section.
-You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the html and css code tables and applying that code to your site.
-}}
-{{Basic Page}}
-<!-- 
-Note to contributors: This part provides a very quick "hands dirty" session on HTML, CSS and JavaScript. 
-
-This page is a rework from the original author, David Herz:
-
-We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
-
+Editorial notes:
 * Explain what HTML, CSS, and JavaScript are, show how to create some really trivially simple examples
 * Show what a simple site structure might look like
 * Go through simple HTML anatomy
@@ -34,23 +19,21 @@ We're not giving all the information - we are just trying to get the reader comf
 * explain simple JS gotchas, and explain that it needs quite a bit more understanding than HTML or CSS. But it has more power.
 * Take the user through the steps towards getting web space (use a free service, such as http://www.biz.nf/), and get them to set up their FTP, and upload their simple files.
 * Show them how they can now view their files on another computer.
+|Checked_Out=No
+}}
+{{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
+
+If you have terms you don’t understand, you can see the [[Beginners/glossary]] section.
+You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the html and css code tables and applying that code to your site.
+}}
+{{Basic Page}}
+<!--
+Note to contributors: This part provides a very quick "hands dirty" session on HTML, CSS and JavaScript. This page is a rework from the original author, David Herz and hopefully follows the spirit of his idea.
+
+We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
 
 -->
-
-== Topics ==
-The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
-
-* [[Beginners/the_beginning|1. The beginning]]
-* '''[[Beginners/crash_course|2. A crash course in web site code]]'''
-* [[Beginners/planning|3. Planning]]
-* [[Beginners/html|4. Structuring our content with HTML]]
-* [[Beginners/css|5. Styling our content with CSS]]
-* [[Beginners/programming|6. Programming fundamentals]]
-* [[Beginners/javascript|7. JavaScript]]
-* [[Beginners/advanced|8. Advanced topics]]
-* [[Beginners/browser_testing|9. Browser testing]]
-* [[Beginners/glossary|Glossary]]
-
+{{Beginners submenu}}
 
 == First Hands-on experimentation with an HTML document ==
 
