@@ -24,7 +24,10 @@ A program installed on a Client allowing it to access and display web sites, the
 Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to request a web site/other data from a server; the server then sends back a response, which includes all the information needed for your application to display the web site or other data you requested. Cursive:  Used to describe fonts that have a decorative, often handwritten-looking style 
 
 === DNS (Domain Name Server) === 
-This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember! DOM The Document Object Model (DOM) is an application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure. 
+This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form ###.###.###.### called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember! 
+
+=== DOM The Document Object Model (DOM)===
+An application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure. 
 
 === Element === 
 Any basic part or definition, the first part between the opening &#60;brackets&#62;. 
