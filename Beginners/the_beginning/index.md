@@ -9,9 +9,8 @@
 * Points you to the software you'll need to download in order to complete the rest of the course
 }}
 {{Basic Page}}
-
 == Topics ==
-This section covers the various aspects of web development separated in 9 parts, you can browser through them using this menu.
+The '''[[Beginners]]]'' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
 
 * [[Beginners/the_beginning|Web development for beginners]]
 * '''[[Beginners/the_beginning|1. The beginning]]'''
