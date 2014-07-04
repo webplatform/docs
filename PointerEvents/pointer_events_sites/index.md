@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Pointer events sites}}
 {{Flags
 |Checked_Out=No
 }}
@@ -15,10 +15,12 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 Want to add your own Pointer Events site? 
 Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
  
-1.       Register on WPD [http://docs.webplatform.org/w/index.php?title=Special:UserLogin&type=signup&returnto=WPD:Editors+Guide here]<br/>
-2.       Click Edit on the top right of the page<br/>
-3.       Follow these helpful tips for using MediaWiki [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax]<br/>
-4.       Be aware that in order to upload a thumbnail image you have to have had at least 10 editorial contributions.  Image size needs to be  75px X 75px.
+# Register on WPD, see '''LOG IN''' link on top of the page
+# Click '''Edit''' on the top right of the page
+# If you are unsure of the way to add content, refer to [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax MediaWiki syntax guide]
+# ''NOTE'' If you want to upload an image, you have to make at least 10 editorial contributions. If you have a brand new account, simply edit 10 times on our [[WPD:Practice_Page]].
+
+You are also invited to participate to our documentation, refer to our [[WPD:Contributors_Guide|Contributors guide]]
 
 
 [[File:flipboard.jpg|left ‎]] [http://flipboard.com Flipboard] - An interactive Web magazine experience that has an awesome touch and mouse support powered by Pointer Events. Use Flipboard to read and collect the news you care about, and curate your favorite stories into your own magazines on any topic imaginable, can be shared and enjoyed on the Web by anyone, anywhere.
