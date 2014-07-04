@@ -1,6 +1,5 @@
-{{Page_Title|Bienvenue sur Web Platform Docs}}
-
-{{Flags}}
+{{Page Title|Bienvenue sur Web Platform Docs}}
+{{Flags|State=Unreviewed}}
 
 ==Résumé==
 Web Platform Docs est un site communautaire qui ambitionne de devenir une base documentaire exhaustive et fiable pour les développeurs web.
