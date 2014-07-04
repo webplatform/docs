@@ -1,4 +1,4 @@
-{{Page_Title|A crash course in web site code}}
+{{Page_Title|Part 2: A crash course in web site code}}
 {{Flags
 |State=In Progress
 |Editorial notes=There are plenty of notes and idea but all incomplete.
