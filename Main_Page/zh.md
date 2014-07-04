@@ -1,6 +1,5 @@
-{{Page_Title|欢迎访问 Web Platform Docs}}
-
-{{Flags}}
+{{Page Title|欢迎访问 Web Platform Docs}}
+{{Flags|State=Unreviewed}}
 
 ==概要==
 
