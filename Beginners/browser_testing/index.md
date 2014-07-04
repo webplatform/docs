@@ -33,15 +33,21 @@ If you are just starting, a web browser is more than enough.
 
 If you want to test various versions of old web browsers but you do not see how you can have more than one version of a given web browser, you should consider using Virtual Machines ("VMs").
 
-A VM is a piece of software that allows us to run another computer within a computer. The underlying technology is called "Virtualization" and people making what is called Cloud services are using the technology.
+A VM is like a big file that you can load inside a software as if it was a computer. In fact, that software is emulating hardware and acts as if it was a separate physical machine. We call this "Virtualization". It therefore runs a computer ''inside'' another computer. People creating software and services "in the cloud" are heavily relying on similar technologies.
 
-For example, if you have only a recent computer and you want to see how it will look like in Internet Explorer provided in Windows Vista, you can install a Desktop Virtualization software (e.g. [https://www.virtualbox.org/ VirtualBox], or VMWare player, both are free). 
+For example, if you have only a recent computer and you want to see how it will look like in Internet Explorer provided in Windows Vista, you can have a VM that runs Vista and Internet Explorer 7 along with Mozilla Firefox 3.
 
-Once you have a Virtualization software, you will need to use or create your own VMs. While creating a VM is outside of the scope of this article, you can download from Microsoft, for free, one of their testing VMs at [http://modern.ie modern.ie].
+For this, you can get what we call a "Desktop Virtualization" software, there are a few on the market. Oracle [https://www.virtualbox.org/ VirtualBox] and VMWare has both free versions that can make anybody run VMs.
+
+Once you have a Virtualization software, you will need to use or create your own VMs. While creating a VM is outside of the scope of this article, you can download from Microsoft —for free— one of their testing VMs. Take a look at [http://modern.ie modern.ie].
 
 With this in hand, you can test on various version of the web browsers you want to support, without cluttering your own computer.
 
 '''About Modern.ie VMs'': Note that those VMs are made only to test and cannot be used as a main work environment. The VM will eventually ask you delete the VM (e.g. after 30 days). A trick that you can do is to keep a copy of the downloaded archive and extract it again.
+
+=== Mobile devices ===
+
+Many of us, web developers, keep a set of old computers and smartphones only for that. Those comes in handy when we are building features and want to see if it works well, or if our polyfill actually works.
 
 === Automated browser testing ===
 
