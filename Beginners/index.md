@@ -58,6 +58,8 @@ Thank you for your co operation.
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
 
+==The steps==
+<subpages />
 
 ==More on Browser testing==
 
