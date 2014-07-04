@@ -52,9 +52,6 @@ Read [[concepts/internet and web/how does the internet work|How does the Interne
 ==What are web standards?==
 
 Web standards are the technologies that we use to build web pages; there are a number of different ones, but this material will address only three:
-
-* HTML
-* 
 <ul>
 <li><p>'''Hypertext Markup Language (HTML)''': This language is used to structure your data and give it meaning. Just like a school paper — with a cover page, table of contents, introduction, body, conclusion and bibliography — HTML code is used to separate blocks of information (such as a heading, paragraph, bulleted list, table, or definition) that can be manipulated and formated (via CSS, Cascading Style Sheets) in their own particular manner.  Probably the most important part of this is the Hypertext of HTML.  HTML defines how links operate, both within documents and to any other place accessible on the Web.</p>
 
