@@ -10,9 +10,8 @@
 }}
 {{Basic Page}}
 == Topics ==
-The '''[[Beginners]]]'' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
+The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
 
-* [[Beginners/the_beginning|Web development for beginners]]
 * '''[[Beginners/the_beginning|1. The beginning]]'''
 * [[Beginners/crash_course|2. A crash course in web site code]]
 * [[Beginners/planning|3. Planning]]
