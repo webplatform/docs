@@ -53,7 +53,16 @@ A sequential listing of preferred fonts to display on a web page allowing a deve
 A protocol that defines the manner in which files can be loaded to or from Servers such that there is a standard method that can be used by any of the many disparate devices that can connect to the Web.
 
 === Hexadecimal === 
-While common numbers goes from 0-9 (i.e. decimal numbers). This notation is easy for us, humans, to understand. But it also implies that one numeric charcter slot cannot go higher than 9. In hexadecimal, one slot can go up to 16. This is what we call "base 16" and Hexadecimal is also a common name for this. Hexadecimal numbers goes from 0-9, then uses the alphabet letters A-F to fill the gap.  When we want to say     for us, humans. One character slot can go to a maximum value of 9.  where the numbers 10 through 16 are represented by the letters A through F. 
+While common numbers goes from 0-9 (i.e. decimal numbers). This notation is easy for us, humans, to understand. But it also implies that one numeric charcter slot cannot go higher than 9. In hexadecimal, one slot can go up to 16. This is what we call "base 16" and Hexadecimal is also a common name for this. Hexadecimal numbers goes from 0-9, then uses the alphabet letters A-F to fill the gap. 
+
+For example, we use Hexadecimal numbers to describe a color. On computer screens, colors are based on red, green and blue (commonly called RGB). Every color has a percentage of each colors. To obtain red in RGB, we would need: 100% or red, 0% or green, 0% of blue.
+
+In Hexadecimal, we would say that 0% is represented as <tt>00</tt>, and 100% as <tt>FF<tt>.
+''NOTE'': Technically two hexadecimal characters can represent 255 possibilities, but in CSS we round it as if it was a percentage value.
+
+Therefore, red in RGB would be adressed as 
+<syntaxHighlight>color: #FF0000;</syntaxHighlight>
+
 
 === HTML (Hyper Text Markup Language) ===
 A language to describe the contents of web documents. It uses a special syntax containing markers (called “elements”) which are wrapped around the text within the document to indicate how user agents (eg. web browsers) should interpret that portion of the document. 
