@@ -10,7 +10,6 @@
 ** navigation - include 5 items, do horizontal nav as it is better for learning
 ** main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography
 ** sidebar - have this as an image gallery of images from the recipe
-
 |Checked_Out=No
 }}
 {{Summary_Section|Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.}}
@@ -33,6 +32,14 @@ The '''[[Beginners]]''' section covers the various aspects of web development se
 == An HTML Document with details about each components ==
 
 Ever wondered the utility of a web page, here are a few notes to help you understand their existence.
+
+You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it in a web browser. You should see only a white page with a big "Hello world" written in red.
+
+=== An example document in a web browser ===
+
+[[File:Beginners_example_html_file.png]]
+
+=== An example document code ===
 
 <syntaxHighlight>
 <!DOCTYPE html><!-- This tag is an HTML Comment -->
