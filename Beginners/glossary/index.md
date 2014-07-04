@@ -1,5 +1,6 @@
 {{Page_Title|Glossary of terms}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.}}
