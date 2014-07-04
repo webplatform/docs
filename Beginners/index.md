@@ -25,6 +25,7 @@ In this section, you will be writing a lot of code, and testing it out in web br
 ** [http://www.google.com/intl/en/chrome/browser/canary.html Google Chrome Canary]
 ** [http://www.mozilla.org/en-US/firefox/channel/#aurora Mozilla Firefox Aurora]
 ** [http://www.opera.com/computer/next Opera Next]
+** A [https://modern.ie/en-us/virtualization-tools#downloads modern.ie VM] with a pre-release version of Microsoft Internet Explorer
 
 * A text editor, there are plenty of free and open source for you to choose from. — try to learn by avoiding auto-completion and type everything, you will feel the benefits later!
 ** All Platforms
