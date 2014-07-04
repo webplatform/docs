@@ -62,7 +62,7 @@ Please note there are essentially two types of markings.
 There is the paired <tt>&lt;tag-name&gt;tag contents&lt;/tag-name&gt;</tt>, which is how we tell the computer to deal with any block of text from a letter to defining the beginning and end of a whole
 document.  
 
-Then there is the <tt>&lt;tag-name _______________ /&gt</tt> where those are instructions to describe on how to deal with certain situations. The <tt>meta</tt> are about the server communication. In this particular case, we are saying that the file is written in <tt>UTF-8</tt> (i.e. a format that supports multiple languages characters at once), and <tt>link</tt> is for asking which file to download along the HTML document to take care of the visual aspects ("Stylesheets").
+Then there is the <tt>&lt;tag-name _______________ /&gt;</tt> where those are instructions to describe on how to deal with certain situations. The <tt>meta</tt> are about the server communication. In this particular case, we are saying that the file is written in <tt>UTF-8</tt> (i.e. a format that supports multiple languages characters at once), and <tt>link</tt> is for asking which file to download along the HTML document to take care of the visual aspects ("Stylesheets").
 
 For your first HTML document, please cut and paste the above into your editor, and save it as <tt>example.html</tt>, but leave the file opened. 
 
