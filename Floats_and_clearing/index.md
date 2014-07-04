@@ -1,14 +1,18 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
-|Checked_Out=Yes
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=[[tutorials/Floats_and_clearing]]
 }}
+|Checked_Out=No
+|High-level issues=Merge Candidate
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial}}
+{{Tutorial
+|Content={{Editorial/Merge_Candidate
+|Other=[[tutorials/Floats_and_clearing]]
+}}
+}}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
