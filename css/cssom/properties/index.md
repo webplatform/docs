@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Summary and introduction needed for this list of links.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
