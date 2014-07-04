@@ -16,11 +16,13 @@ The horizontal or vertical positioning of an element. Typical horizontal alignme
 A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them. 
 
 === Attribute === 
-An instruction or definition or additional defined characteristic of an Element, such as HREF or Title, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus 
+An instruction or definition or additional defined characteristic of an Element, such as <tt>href</tt> or <tt>title</tt>, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus 
 
 <syntaxHighlight>
 <tag href="#" title="the href and title are what we call attributes">Tag content</tag>
 </syntaxHighlight>
+
+'''Note''': Historically everybody was writing tags with ''Capital letters''. Nowadays, we write both tag names and their attribute names in lowercase. The web browser doesn’t make a difference how you write your tag names and attributes, but its a common convention that many web developers adopted during the epoch just before we started using HTML5.
 
 === Border === 
 The edge delimiting the boundaries of an element box.
@@ -38,10 +40,20 @@ This is essentially an address book for the Web that links common names to the n
 An application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure. 
 
 === Element === 
-Any basic part or definition, the first part between the opening &#60;brackets&#62;. 
+Or a tag. We basically give a one word (no space), surround it by angle brackets (e.g. &lt;html&gt;). There are various types of tags and they depend of their role. 
+
+For example, to make a link we surround the text we want to use as the text to click on (i.e. an element), and in other case, we just want to add information without showing information directly (i.e. a self closing tag).
+
+When the documentation refers to an element we are talking about HTML tags that are ''inside'' the <tt>&lt;body&gt;</tt> tag of a page.
 
 === Entity === 
-A special character, such as &#182; or &#188;, best displayed by use of an escape code. Escape 
+If you want to show characters that might not exist, or might also create confusion in the web page, we can still use them in a way that the web browser will understand and convert for you.
+
+The ones to remember are characters we use in an HTML document and if we use them, we might break the validity of the document. The easy to remember ones are: angle brackets (&lt;&gt;), amperstand (&amp;), but there are many others we can use.
+
+To tell the web browser we want to display a special character we annotate them in the source. The notation is basically the amperstand symbol (&amp;) and a code. When the code has no alias (e.g. amp), we prepend it with a pound sign (#) and a number based on the ASCII table.
+
+Here are a few examples: &#182; (&amp;#182;), &#188; (&amp;#182;), the &amp; (&amp;amp;) or using the code &38; (&amp;38;).
 
 === Code === 
 A means for displaying an Entity, such as &#60; without it having coding effect, typically by use of a string that begins &#. Fantasy:  Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy 
