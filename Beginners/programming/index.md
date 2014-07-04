@@ -16,6 +16,8 @@ renoirb: Regarding the programming language to use, there was a discussion to us
 }}
 {{Summary_Section|Before we go any further, let's look at the programming basics you'll need to know before you can start getting your hands dirty with JavaScript.}}
 {{Basic Page}}
+{{Beginners submenu}}
+
 == Topics ==
 The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can browser through them using this list.
 
