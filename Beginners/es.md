@@ -1,6 +1,6 @@
-{{Page_Title|Desarrollo web para principiantes}}
+{{Page Title|Desarrollo web para principiantes}}
 
-{{Flags}}
+{{Flags|State=Not Ready}}
 
 ==Resumen==
 Este conjunto de artículos es para que los principiantes los lean con confianza, comenzando a construir sus habilidades fundamentales desde el inicio de su viaje para convertirse en un diseñador o desarrollador web.
