@@ -7,6 +7,25 @@
 {{Basic Page}}
 {{Languages}}
 
+== Topics ==
+This section covers the various aspects of web development separated in 9 parts, you can browser through them using this menu.
+
+<!-- SubPages should work, but it doesn’t here due to confusion in MediaWiki about page translation and sub pages :(
+< subpages / >
+-->
+* '''[[Beginners/the_beginning|1. The beginning]]''' ( &lt;- you are here!)
+* [[Beginners/the_beginning|1. The beginning]]
+* [[Beginners/crash_course|2. A crash course in web site code]]
+* [[Beginners/planning|3. Planning]]
+* [[Beginners/html|4. Structuring our content with HTML]]
+* [[Beginners/css|5. Styling our content with CSS]]
+* [[Beginners/programming|6. Programming fundamentals]]
+* [[Beginners/javascript|7. JavaScript]]
+* [[Beginners/advanced|8. Advanced topics]]
+* [[Beginners/browser_testing|9. Browser testing]]
+* [[Beginners/glossary|Glossary]]
+
+
 ==Before you start==
 
 In this section, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
@@ -57,21 +76,6 @@ Thank you for your co operation.
 ***[https://wiki.gnome.org/Apps/Gedit gedit]
 
 Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full list of learning articles]] if you exhaust the list of articles here and want to learn more!
-
-==The steps==
-<!-- SubPages should work, but it doesn’t here due to confusion with translation :(
-< subpages / >
--->
-* [[Beginners/the_beginning|1. The beginning]]
-* [[Beginners/crash_course|2. A crash course in web site code]]
-* [[Beginners/planning|3. Planning]]
-* [[Beginners/html|4. Structuring our content with HTML]]
-* [[Beginners/css|5. Styling our content with CSS]]
-* [[Beginners/programming|6. Programming fundamentals]]
-* [[Beginners/javascript|7. JavaScript]]
-* [[Beginners/advanced|8. Advanced topics]]
-* [[Beginners/browser_testing|9. Browser testing]]
-* [[Beginners/glossary|Glossary]]
 
 ==Web fundamentals==
 
