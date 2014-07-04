@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Examples needed.
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags, Missing Relevant Sections
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -31,6 +34,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
