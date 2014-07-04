@@ -1,8 +1,7 @@
-{{Page_Title}}
+{{Page_Title|Floats and clearing}}
 {{Flags
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[tutorials/Floats_and_clearing]]
-}}
+|State=Not Ready
+|Editorial notes=Review with [[tutorials/floats_and_clearing]] and make one.
 |Checked_Out=No
 |High-level issues=Merge Candidate
 }}
