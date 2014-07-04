@@ -1,9 +1,14 @@
-{{Page_Title|Part 5: Styling our content with CSS}}
+{{Page_Title|Styling our content with CSS}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content. Only editorial notes but nothing usable.
 |Checked_Out=No
 }}
 {{Summary_Section|Now we have a solid base of content to build upon, let's learn about Cascading Style Sheets (CSS), and use them to apply some style and layout to our HTML.}}
 {{Basic Page}}
+<!--
+Editorial notes, proposed subjects to cover: 
+
 * reviewing basic CSS anatomy
 * look at box model in detail 
 * setting global styles - look at fonts, resets (normalize.css), sizing headers and other components
@@ -12,6 +17,7 @@
 * style the navigation menu
 * typography
 * look at adding some CSS3 bling, like gradients, rounded corners, etc.
+-->
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
