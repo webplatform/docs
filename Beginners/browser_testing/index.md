@@ -27,7 +27,7 @@ There are many ways to test your web pages. It can be by installing multiple web
 
 If you are just starting, a web browser is more than enough. 
 
-'''Also''': It is known and accepted that  "[http://dowebsitesneedtolookexactlythesameineverybrowser.com/ Websites do not ''need'' to look exactly the same in every browsers]". The previous link is a good example of the idea. There are many techniques possible to have older browser to support features by detecting if they exist  (called "feature sniffing" with [http://modernizr.com Modernizr] for example), and conditionally add library that will add support (we call them "Polyfils" or "shims"). But all that is beyond the scope of testing your site!
+'''Also''': It is known and accepted that  "[http://dowebsitesneedtolookexactlythesameineverybrowser.com/ Websites do not ''need'' to look exactly the same in every browsers]". The previous link is a good example of the idea —try it in an old browser to see. There are many techniques possible to have older browser to support features by detecting if they exist  (called "feature sniffing" with [http://modernizr.com Modernizr] for example), and conditionally add library that will add support (we call them "Polyfils" or "shims"). The essential to remember here is that web technology changes quickly and we cannot expect old web browsers to support more recent features. Its as if we would ask a black and white television to be in colors. But all that is beyond the scope of testing your site!
 
 === In a Virtual Machine ===
 
