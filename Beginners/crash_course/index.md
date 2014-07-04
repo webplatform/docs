@@ -36,7 +36,7 @@ We're not giving all the information - we are just trying to get the reader comf
 
 -->
 
-== Quick overview of an HTML document ==
+== First Hands-on experimentation with an HTML document ==
 
 This is a basic HTML document.
 
@@ -97,7 +97,7 @@ This is a little more complicated, and for this we'll have to introduce you to t
 
 (END OF ARTICLE)
 
-== HTML Document skeleton with comments ==
+== An HTML Document with comments describing parts ==
 <!--
 Notes from original author, David Herz:
 
