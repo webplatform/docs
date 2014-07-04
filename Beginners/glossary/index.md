@@ -53,7 +53,7 @@ The ones to remember are characters we use in an HTML document and if we use the
 
 To tell the web browser we want to display a special character we annotate them in the source. The notation is basically the amperstand symbol (&amp;) and a code. Sometimes we can use an alias instead of the code (easier to remember).  When the code has no alias (e.g. amp), we prepend it with a pound sign (#) and a number based on the ASCII table.
 
-Here are a few examples: &#182; (<tt>&amp;#182;</tt>), &#188; (<tt>&amp;#182;</tt>). Its also possible to use both code and alias notation, for example: &#38; could be shown either by doing <tt>&amp;#38;</tt> or <tt>&amp;amp;<tt>.
+Here are a few examples: &#182; (<tt>&amp;#182;</tt>), &#188; (<tt>&amp;#182;</tt>). Its also possible to use both code and alias notation, for example: &#38; could be shown either by doing <tt>&amp;#38;</tt> or <tt>&amp;amp;</tt>.
 
 === Code === 
 A means for displaying an Entity, such as &#60; without it having coding effect, typically by use of a string that begins &#. Fantasy:  Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy 
