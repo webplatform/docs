@@ -9,6 +9,23 @@
 * Points you to the software you'll need to download in order to complete the rest of the course
 }}
 {{Basic Page}}
+
+== Topics ==
+This section covers the various aspects of web development separated in 9 parts, you can browser through them using this menu.
+
+* [[Beginners/the_beginning|Web development for beginners]]
+* '''[[Beginners/the_beginning|1. The beginning]]'''
+* [[Beginners/crash_course|2. A crash course in web site code]]
+* [[Beginners/planning|3. Planning]]
+* [[Beginners/html|4. Structuring our content with HTML]]
+* [[Beginners/css|5. Styling our content with CSS]]
+* [[Beginners/programming|6. Programming fundamentals]]
+* [[Beginners/javascript|7. JavaScript]]
+* [[Beginners/advanced|8. Advanced topics]]
+* [[Beginners/browser_testing|9. Browser testing]]
+* [[Beginners/glossary|Glossary]]
+
+
 ==Who is this course for?==
 
 Our beginner's guide is written for complete beginners to the world of web site code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the real basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
