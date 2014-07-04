@@ -20,6 +20,7 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 # Register on WPD, see '''LOG IN''' link on top of the page
 # Click '''Edit''' on the top right of the page
 # If you are unsure of the way to add content, refer to [http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet syntax MediaWiki syntax guide]
+# To upload an image, use the '''upload file''' in the '''Edit''' button
 # ''NOTE'' If you want to upload an image, you have to make at least 10 editorial contributions. If you have a brand new account, simply edit 10 times on our [[WPD:Practice_Page]].
 
 You are also invited to participate to our documentation, refer to our [[WPD:Contributors_Guide|Contributors guide]]
