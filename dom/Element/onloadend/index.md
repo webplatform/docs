@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, spec, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -27,7 +29,6 @@
 |Notes====Remarks===
 This event is dispatched when the load ends due to an error or the load ends successfully. It occurs only one time.
 Indicates that the requested action is complete.
-
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -45,7 +46,6 @@ Indicates that the requested action is complete.
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-
 }}
 {{Topics}}
 {{External_Attribution
