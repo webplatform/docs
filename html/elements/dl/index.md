@@ -1,5 +1,7 @@
 {{Page_Title|dl – description list}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category and Compatibility information.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
