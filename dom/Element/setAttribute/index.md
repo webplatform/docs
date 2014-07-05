@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs examples and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the value of a content attribute.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the attribute.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=value
 |Data type=String
 |Description=The value of the attribute.
