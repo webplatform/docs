@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Gets the secondary element that is involved in an event.}}
+{{Summary_Section|Gets the secondary element that is involved in an event.
+The relatedTarget property is used to find the other element, if any, involved in an event. Events like mouseover are oriented around a certain target, but also involve a secondary target, such as the target that is exited as the mouseover event fires for the primary target.
+}}
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
 |Read_only=Yes
@@ -14,6 +17,7 @@
 |Return_value_name=relatedTargetElement
 |Javascript_data_type=DOM Node
 |Return_value_description=The secondary element that is involved in an event.
+|Example_value_name=[object HTMLElement]
 }}
 {{Examples_Section
 |Not_required=No
@@ -46,8 +50,8 @@ The secondary element depends on the type of event:
 {{Topics|DOM, DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+|Sources=MDN, MSDN, HTML5Rocks
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.relatedTarget event.relatedTarget]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974881(v=vs.85).aspx event.relatedTarget]
+|HTML5Rocks_link=[http://www.html5rocks.com/en/search?q=event.relatedTarget event.relatedTarget samples]
 }}
