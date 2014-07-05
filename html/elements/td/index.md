@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
+|State=Not Ready
+|Editorial notes=Add description/notes, compatibility.
 |Checked_Out=No
+|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
