@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add example
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a reference to the prototype for a class of array.}}
