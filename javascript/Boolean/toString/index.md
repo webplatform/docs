@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string representation of a Boolean object.}}
@@ -45,7 +47,6 @@ var myVar = flag.toString();
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
-
 }}
 {{JS Topics
 |JS Page Type=JS Method
