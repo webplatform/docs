@@ -16,10 +16,7 @@ renoirb: Regarding the programming language to use, there was a discussion to us
 }}
 {{Summary_Section|Before we go any further, let's look at the programming basics you'll need to know before you can start getting your hands dirty with JavaScript.}}
 {{Basic Page}}
-{{Beginners submenu}}
-
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
+{{:Beginners/Submenu}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
