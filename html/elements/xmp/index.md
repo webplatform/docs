@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use <code><code></code> or <code><pre></code>.}}
+{{Summary_Section|Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use &lt;code&gt;&lt;code&gt;&lt;/code&gt; or &lt;code&gt;&lt;pre&gt;&lt;/code&gt;.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
