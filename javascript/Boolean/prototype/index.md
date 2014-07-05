@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a reference to the prototype for a Boolean.}}
@@ -15,7 +16,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Defines a function and then adds it to Boolean.prototype
-|Code= function isFalse( ){
+|Code=function isFalse( ){
      if (this.toString() == "false")
           return true;
      else
@@ -36,7 +37,6 @@
 Boolean.prototype.toggle = function (){
   return !this.valueOf();
 }
-
 }}
 }}
 {{Remarks_Section
@@ -45,7 +45,6 @@ Boolean.prototype.toggle = function (){
 The '''prototype''' property provides a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object. Properties and methods may be added to the prototype, but builtin objects may not be assigned a different prototype.
 
 For example, to add a method to the '''Boolean''' object that returns the value of the largest element of the array, declare the function, add it to '''Boolean.prototype''' , and then use it.
-
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
