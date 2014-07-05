@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs examples, and better compat.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.}}
 {{API_Object_Method
