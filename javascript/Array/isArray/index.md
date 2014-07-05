@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether an object is an array.}}
@@ -55,6 +56,11 @@ var ar = [];
 {{See_Also_Section
 |Manual_links=* [[javascript/Array{{!}}Array Object]]
 * [[javascript/operators/typeof{{!}}typeof Operator]]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.3.2 15.4.3.2 Array.isArray ( arg )]
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Function
