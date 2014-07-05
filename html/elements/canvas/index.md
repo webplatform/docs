@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
+|State=In Progress
+|Editorial notes=Add Category, Parent and Children information.
 |Checked_Out=No
+|Content=Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
