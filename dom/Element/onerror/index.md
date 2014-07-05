@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs summary, examples, spec, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -19,7 +20,6 @@
 |Notes====Remarks===
 When an error occurs, the current operation is stopped and the error is passed by the [[dom/Element/error|'''error''']] property.
 Displays the error message when a problem occurs and executes any error handling routine associated with the event.
-
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
