@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Not Ready
 |Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
 |Checked_Out=No
 |Content=Compatibility Incomplete
