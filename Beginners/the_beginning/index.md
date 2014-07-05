@@ -14,7 +14,7 @@ Also, maybe get in touch with CommonCraft and ask to embed their video about the
 }}
 {{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with web site building.}}
 {{Basic Page}}
-{{:Beginners/submenu}}
+{{:Beginners/Submenu}}
 
 ==Who is this course for?==
 
