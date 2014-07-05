@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Retrieves the element node that is a sibling to this element node (a direct child of the same parent) and is immediately previous to it in the DOM tree, ignoring text nodes, comment nodes and any other non-element nodes.  If there is no previous element sibling, the property value is null.  Read-only.}}
 {{API_Object_Property
