@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a section of an array.}}
@@ -56,5 +57,7 @@ Standard ECMA-262
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx
+|HTML5Rocks_link=
 }}
