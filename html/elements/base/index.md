@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add Category and Compatibility information. Modify Parent and Children information.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
