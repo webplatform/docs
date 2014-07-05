@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, notes, spec, compat
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Errors
 }}
