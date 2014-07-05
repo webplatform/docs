@@ -1,45 +1,51 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Stub MSDN import
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Date.UTC( year , month , day [ ''',''' hours [, minutes [, seconds [, ms ]]]]) }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Date.UTC( year , month , day [ ''',''' hours [, minutes [, seconds [, ms ]]]])
+}}
+|Values={{JS Syntax Parameter
 |Name=year
 |Required=Required
-|Description=The full year designation is required for cross-century date accuracy. If year is between 0 and 99 is used, then year is assumed to be 1900 + year.}}{{JS_Syntax_Parameter
+|Description=The full year designation is required for cross-century date accuracy. If year is between 0 and 99 is used, then year is assumed to be 1900 + year.
+}}{{JS Syntax Parameter
 |Name=month
 |Required=Required
-|Description=The month as an integer between 0 and 11 (January to December).}}{{JS_Syntax_Parameter
+|Description=The month as an integer between 0 and 11 (January to December).
+}}{{JS Syntax Parameter
 |Name=day
 |Required=Required
-|Description=The date as an integer between 1 and 31.}}{{JS_Syntax_Parameter
+|Description=The date as an integer between 1 and 31.
+}}{{JS Syntax Parameter
 |Name=hours
 |Required=Optional
-|Description=Must be supplied if minutes is supplied. An integer from 0 to 23 (midnight to 11pm) that specifies the hour.}}{{JS_Syntax_Parameter
+|Description=Must be supplied if minutes is supplied. An integer from 0 to 23 (midnight to 11pm) that specifies the hour.
+}}{{JS Syntax Parameter
 |Name=minutes
 |Required=Optional
-|Description=Must be supplied if seconds is supplied. An integer from 0 to 59 that specifies the minutes.}}{{JS_Syntax_Parameter
+|Description=Must be supplied if seconds is supplied. An integer from 0 to 59 that specifies the minutes.
+}}{{JS Syntax Parameter
 |Name=seconds
 |Required=Optional
-|Description=Must be supplied if milliseconds is supplied. An integer from 0 to 59 that specifies the seconds.}}{{JS_Syntax_Parameter
+|Description=Must be supplied if milliseconds is supplied. An integer from 0 to 59 that specifies the seconds.
+}}{{JS Syntax Parameter
 |Name=ms
 |Required=Optional
-|Description=An integer from 0 to 999 that specifies the milliseconds.}}
+|Description=An integer from 0 to 999 that specifies the milliseconds.
 }}
-{{Remarks_Section
-|Remarks=The '''Date.UTC''' function returns the number of milliseconds between midnight, January 1, 1970 UTC and the supplied date. This return value can be used in the '''setTime''' method and in the Date object constructor. If the value of an argument is greater than its range, or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
-
-The difference between the '''Date.UTC''' function and the Date object constructor that accepts a date is that the '''Date.UTC''' function assumes UTC, and the Date object constructor assumes local time.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''Date.UTC''' function.
-
-|Code= // Determine the milliseconds per day.
+|Code=// Determine the milliseconds per day.
   var MinMilli = 1000 * 60;
  var HrMilli = MinMilli * 60;
  var DyMilli = HrMilli * 24;
@@ -63,12 +69,23 @@ The difference between the '''Date.UTC''' function and the Date object construct
   
  document.write(days);
  // Output: 10848
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''Date.UTC''' function returns the number of milliseconds between midnight, January 1, 1970 UTC and the supplied date. This return value can be used in the '''setTime''' method and in the Date object constructor. If the value of an argument is greater than its range, or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
+
+The difference between the '''Date.UTC''' function and the Date object constructor that accepts a date is that the '''Date.UTC''' function assumes UTC, and the Date object constructor assumes local time.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/setTime{{!}}setTime Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
