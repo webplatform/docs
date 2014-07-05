@@ -13,6 +13,7 @@
 |Bubbles=Yes
 |Target=dom/Element
 |Cancelable=No
+|Default_action=none
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
