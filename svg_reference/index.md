@@ -1,14 +1,17 @@
+{{Page_Title|SVG reverence}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Page with no meaning
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
+{{Summary_Section}}
+{{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Page_Title|SVG reverence}}
-{{Basic_Page}}
 {{Notes_Section
-|Import_Notes=
-===In this section===
+|Import_Notes====In this section===
 {| class="wikitable"
 |-
 !Topic
@@ -39,12 +42,12 @@
  
  
 Build date: 7/24/2012
-
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
