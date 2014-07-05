@@ -1,5 +1,7 @@
 {{Page_Title|ul – unordered list}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add more example
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
