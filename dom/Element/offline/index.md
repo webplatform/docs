@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs summary, spec, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -67,7 +68,6 @@ There are no standards that apply here.
 *<code>frameSet</code>
 *<code>window</code>
 *<code>Reference</code>
-
 }}
 {{Topics}}
 {{External_Attribution
