@@ -1,5 +1,8 @@
 {{Page_Title|body}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add Category, Parent and Children information.
+|Checked_Out=No
 |High-level issues=Data Not Semantic, Unreviewed Import
 |Content=Cleanup
 }}
