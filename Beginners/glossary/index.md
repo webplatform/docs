@@ -5,7 +5,7 @@
 }}
 {{Summary_Section|This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.}}
 {{Basic Page}}
-{{Beginners/Submenu}}
+{{:Beginners/Submenu}}
 
 == Terms ==
 
