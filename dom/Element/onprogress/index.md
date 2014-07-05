@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, spec, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -26,7 +28,6 @@
 {{Notes_Section
 |Notes====Remarks===
 This event reports back the number of bytes loaded from the stream so far. You can use this information to update a progress bar in your application.
-
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -44,7 +45,6 @@ This event reports back the number of bytes loaded from the stream so far. You c
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-
 }}
 {{Topics}}
 {{External_Attribution
