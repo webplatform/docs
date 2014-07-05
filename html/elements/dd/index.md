@@ -1,5 +1,7 @@
 {{Page_Title|dd – description list data}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category information. Modify/Complete Parent and Children information. Complete Compatibility information.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
