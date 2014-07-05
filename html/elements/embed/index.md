@@ -1,8 +1,10 @@
 {{Page_Title|EMBED}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Delete Interface structure section.
+|Checked_Out=Yes
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Needed, Examples Best Practices
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
