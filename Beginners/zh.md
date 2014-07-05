@@ -1,8 +1,6 @@
 {{Page_Title|初学者网页开发指南}}
 {{Flags
-|State=In Progress
-|Editorial notes=This article is translated from English to Chinese, has some problem
-(this version of translation is sort of awkward, need to be proofread)
+|State=Unreviewed
 |Checked_Out=No
 }}
 {{Summary_Section|这一系列的文章的宗旨是让初学者们能够具备所需的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。}}
