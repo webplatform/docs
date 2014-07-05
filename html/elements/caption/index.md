@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information.
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -48,7 +50,6 @@ The '''caption''' element should be a child of the <nowiki><table> element.</now
 A caption can introduce context for a table, making it significantly easier to understand.
 
 When a table element is the only content in a figure element other than the '''figcaption''', the caption element should be omitted in favor of the [http://docs.webplatform.org/wiki/html/elements/figcaption figcaption].
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
