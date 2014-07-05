@@ -1,24 +1,26 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion Candidate
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example sets the width of the image to 20 pixels regardless of the original size of the image.
-|LiveURL=
-|Code=
-&lt;IMG SRC{{=}}"large.png" WIDTH{{=}}"20"&gt;
-}}}}
+|Code=&lt;IMG SRC{{=}}"large.png" WIDTH{{=}}"20"&gt;
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 If you specify the '''width''' property of an '''img''', but not the [[html/attributes/height|'''height''']] property, the resulting height of the '''img''' is sized proportionally to the specified '''width''' property and the actual height, in pixels, of the source image file. Consider the following example:
 {| class="wikitable"
 |-
@@ -65,12 +67,20 @@ If you specify the '''width''' property of an '''img''', but not the [[html/attr
  
 If you specify the '''width''' property of an '''img''', and the height and width of the image in the source file are identical, the height of the image matches the width.
 If you specify the [[html/attributes/height|'''height''']] property and the '''width''' property of an '''img''', the resulting image dimensions match the height and width specified.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>img</code>
 *<code>input type{{=}}button</code>
 *<code>input type{{=}}checkbox</code>
@@ -81,12 +91,12 @@ If you specify the [[html/attributes/height|'''height''']] property and the '''w
 *<code>input type{{=}}reset</code>
 *<code>input type{{=}}submit</code>
 *<code>input type{{=}}text</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
