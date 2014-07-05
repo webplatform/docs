@@ -14,7 +14,7 @@
 }}
 {{Summary_Section|Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.}}
 {{Basic Page}}
-{{Beginners submenu}}
+{{:Beginners/Submenu}}
 
 == An HTML Document with details about each components ==
 
