@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
+|Editorial notes=Needs review
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
@@ -41,7 +42,7 @@ of the following:
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Scalable Vector Graphics (SVG) 1.1 (Second Edition)
+|Name=Scalable Vector Graphics (SVG) 1.1
 |URL=http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty
 |Status=W3C Recommendation
 }}
