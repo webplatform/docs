@@ -1,5 +1,7 @@
 {{Page_Title|constructor}}
 {{Flags
+|State=In Progress
+|Editorial notes=The title bar must be modified.
 |Checked_Out=No
 }}
 {{Summary_Section|References the function which created the instance of the Array object.}}
