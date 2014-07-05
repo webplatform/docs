@@ -7,7 +7,7 @@
 {{Basic Page}}
 {{Languages}}
 
-{{Beginners submenu}}
+{{:Beginners/Submenu}}
 
 ==Before you start==
 
