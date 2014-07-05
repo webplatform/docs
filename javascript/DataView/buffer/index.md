@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import
+|Editorial notes=Unreviewed MSDN import
 |Checked_Out=No
 }}
 {{Summary_Section|Read-only. Gets the ArrayBuffer that is referenced by this view.}}
