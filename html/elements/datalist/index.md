@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent and Children information. Complete Compatibility information.
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
