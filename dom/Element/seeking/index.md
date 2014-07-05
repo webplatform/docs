@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, examples, compat, better spec link
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
@@ -53,7 +55,6 @@ To invoke this event, do one of the following:
 *<code>window</code>
 *<code>Reference</code>
 *<code>[[dom/Element/seeked|seeked]]</code>
-
 }}
 {{Topics|API, Audio, DOM, Video}}
 {{External_Attribution
