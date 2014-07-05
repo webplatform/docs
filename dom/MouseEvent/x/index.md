@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -12,7 +14,7 @@
 |Example_object_name=event
 |Return_value_name=xCoordinate
 |Javascript_data_type=Number
-|Return_value_description=The X coordinate of the mouse cursor.
+|Return_value_description=Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element. 
 }}
 {{Examples_Section
 |Not_required=No
@@ -52,6 +54,6 @@ If the mouse or finger is outside the window when the event is called, this prop
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974658(v=vs.85).aspx event.x]
 |HTML5Rocks_link=
 }}
