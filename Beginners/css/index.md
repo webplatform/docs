@@ -16,10 +16,7 @@ Suggested topics to cover:
 }}
 {{Summary_Section|Now we have a solid base of content to build upon, let's learn about Cascading Style Sheets (CSS), and use them to apply some style and layout to our HTML.}}
 {{Basic Page}}
-{{Beginners submenu}}
-
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
+{{:Beginners/Submenu}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
