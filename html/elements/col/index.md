@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.
+|Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
