@@ -2,10 +2,10 @@
 This template is a submenu for the [[Beginners]] section.
 
 == Usage ==
-<nowiki>{{Beginners submenu}}</nowiki>
+<nowiki>{{:Beginners/Submenu}}</nowiki>
 </noinclude>
 <includeonly>
-== Beginners section submenu ==
+== Beginners submenu ==
 The '''[[Beginners]]''' section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
 * [[Beginners/the_beginning|1. The beginning]]
