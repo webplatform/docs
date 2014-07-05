@@ -1,13 +1,18 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don't strictly comply with W3C or IETF standards.}}
-{{API_Listing
-|Query=[[Category:Quirks Mode]]
+{{API_Listing|Query=[[Category:Quirks Mode]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=No
 }}
