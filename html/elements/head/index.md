@@ -1,5 +1,7 @@
 {{Page_Title|head}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
 |Checked_Out=No
 |High-level issues=Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Cleanup
