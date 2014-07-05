@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, spec, and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -20,7 +22,6 @@
 This event fires when a method starts to read a [[apis/file/Blob|'''Blob''']] object.
 This event is dispatched first and occurs only one time.
 Indicates that the creation or load of an object is started.
-
 |Import_Notes====Syntax===
 ===Event handler parameters===
 ;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
@@ -38,7 +39,6 @@ Indicates that the creation or load of an object is started.
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[apis/file/FileReader|FileReader]]</code>
-
 }}
 {{Topics}}
 {{External_Attribution
