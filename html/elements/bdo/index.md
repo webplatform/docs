@@ -1,18 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''bdo''' element (&lt;bdo&gt;) allows you to specify the direction in which text is to be rendered on the page. ("BDO" stands for Bi-Directional Override.)
-
-}}
+{{Summary_Section|The '''bdo''' element (&lt;bdo&gt;) allows you to specify the direction in which text is to be rendered on the page. ("BDO" stands for Bi-Directional Override.)}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=
-Internationalization topics related to the <code>bdo</code> element:
+|Content=Internationalization topics related to the <code>bdo</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#bdo Overriding the Unicode bidirectional algorithm]
 * [http://www.w3.org/International/techniques/authoring-html#inline Mixing text direction inline]
 }}
