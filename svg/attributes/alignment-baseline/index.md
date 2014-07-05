@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs review
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -10,14 +12,7 @@
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 |Content=Name:	alignment-baseline
-Value:	baseline | use-script | before-edge | text-before-edge | after-edge | text-after-edge |
-central | middle | ideographic | alphabetic | hanging | mathematical
-Initial:	baseline
-Applies to:	inline-level elements
-Inherited:	no
-Percentages:	N/A
-Media:	visual
-Computed value:	specified value (except for initial and inherit)
+Value:	baseline
 }}
 {{Examples_Section
 |Not_required=No
