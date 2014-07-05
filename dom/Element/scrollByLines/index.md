@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, examples, usage notes, spec and compat
+|Checked_Out=No
 |High-level issues=Needs Flags, Stub
 |Content=Errors
 }}
@@ -20,6 +23,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
