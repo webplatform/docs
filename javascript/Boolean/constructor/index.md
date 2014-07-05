@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
 |Checked_Out=No
 }}
 {{Summary_Section|Initializes a Boolean object.}}
@@ -43,7 +44,6 @@
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
-
 }}
 {{JS Topics
 |JS Page Type=JS Method
