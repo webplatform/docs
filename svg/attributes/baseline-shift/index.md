@@ -1,21 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline. }}
+{{Summary_Section|The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 |Content=Name:	baseline-shift
-Value:	baseline | sub | super | <percentage> | <length>
-Initial:	baseline
-Applies to:	inline-level elements
-Inherited:	no
-Percentages:	refers to the ‘line-height’ of the parent element
-Media:	visual
+Value:	baseline
 }}
 {{Examples_Section
 |Not_required=No
@@ -44,7 +40,11 @@ of the following:
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Scalable Vector Graphics (SVG) 1.1 (Second Edition)
+|URL=http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
