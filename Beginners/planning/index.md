@@ -13,10 +13,7 @@ Original page contents were notes:
 }}
 {{Summary_Section|Now you've got some familiarity with some basic concepts about the web, let's take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.}}
 {{Basic Page}}
-{{Beginners submenu}}
-
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
+{{:Beginners/submenu}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
