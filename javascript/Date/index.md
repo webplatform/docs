@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import
+|Editorial notes=Unreviewed MSDN import
 |Checked_Out=No
 }}
 {{Summary_Section|Enables basic storage and retrieval of dates and times.}}
