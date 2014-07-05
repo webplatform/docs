@@ -8,10 +8,7 @@
 }}
 {{Summary_Section|At this point our site is functional, but what about things that go whoosh? Now we'll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.}}
 {{Basic Page}}
-{{Beginners submenu}}
-
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
+{{:Beginners/Submenu}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
