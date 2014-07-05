@@ -1,8 +1,10 @@
 {{Page_Title|table}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add description/notes, compatibility.
+|Checked_Out=Yes
 |High-level issues=Data Not Semantic
 |Content=Compatibility Incomplete
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
