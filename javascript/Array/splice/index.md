@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.}}
