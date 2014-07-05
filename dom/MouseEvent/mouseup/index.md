@@ -13,6 +13,7 @@
 |Bubbles=Yes
 |Target=dom/Element
 |Cancelable=Yes
+|Default_action=Invoke a context menu (in combination with the right mouse button, if supported)
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
@@ -47,8 +48,8 @@ To invoke this event, do one of the following:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+|Sources=MDN, MSDN, HTML5Rocks
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mouseup mouseup event]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536950(v=vs.85).aspx mouseup event]
+|HTML5Rocks_link=[http://www.html5rocks.com/en/search?q=mouseup+event mouseup event samples]
 }}
