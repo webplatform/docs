@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Stub MSDN import
+|State=In Progress
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string representation of a Boolean object.}}
