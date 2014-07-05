@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
+|Editorial notes=Deletion Candidate
 |Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
