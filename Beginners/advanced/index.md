@@ -8,10 +8,7 @@ Proposal: Keep the exercises (in another page?), add advanced contents links lik
 }}
 {{Summary_Section|Now you've worked your way through the basics, let's look at some more advanced exercises to do to test your new found skills.}}
 {{Basic Page}}
-{{Beginners submenu}}
-
-== TODO ==
-NOTE: This article is not done yet, we have editorial notes, but no content.
+{{:Beginners/Submenu}}
 
 === Practice ===
 
