@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add Category, Parent, Children, and Attributes information.
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
 }}
