@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Needs to be moved to tutorials, or merged with another guide.
+|Checked_Out=No
+}}
 {{Summary_Section|SVG WoW demos. Good showcase page, or could be used in separate pages?}}
 {{Basic Page}}
 * [http://svg-wow.org//blog/2009/10/04/animated-lyrics Animated Lyrics]
@@ -18,7 +22,7 @@
 * [http://svg-wow.org//blog/2010/09/25/text-effects Text Effects]
 * [http://svg-wow.org//blog/2010/10/05/gandhi-quotes Gandhi Quotes]
 * [http://svg-wow.org//blog/2011/03/28/rotozoom-video Rotozoom video]
-
+{{Notes_Section}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
