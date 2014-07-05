@@ -90,15 +90,15 @@ Hypertext Markup Language (HTML) is the markup language for web pages. The [http
 
 
 
-Note: Jeżeli jesteś całkowicie nowy w pisaniu stron, Powinieneś sprawdzić [[beginners|Web development for beginners]].
+Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
 
 == Background ==
 
 HTML is language we structure our content in on the World Wide Web; one of the main components of the [http://www.w3.org/wiki/Open_Web_Platform Open Web Platform].
 
-* Pierwsza Wersja: The [http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html first version of HTML] was described by Tim Berners-Lee, the inventor of the Web, in late 1991.
-* Obecnie stabilna wersja: The [http://www.w3.org/TR/html4 HTML 4.01 Recommendation] was published in December 1999.
-* Obecnie przyszłościowa wersja: The most stable draft is published in the W3C [http://www.w3.org/TR/html5 HTML5 Candidate Recommendation]; there is also an [http://developers.whatwg.org/ HTML living standard] containing the latest experimental ideas and features, published by the WHATWG.
+* First version: The [http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html first version of HTML] was described by Tim Berners-Lee, the inventor of the Web, in late 1991.
+* Current stable version: The [http://www.w3.org/TR/html4 HTML 4.01 Recommendation] was published in December 1999.
+* Current and future work: The most stable draft is published in the W3C [http://www.w3.org/TR/html5 HTML5 Candidate Recommendation]; there is also an [http://developers.whatwg.org/ HTML living standard] containing the latest experimental ideas and features, published by the WHATWG.
 
 ==Contributing to the HTML technology==
 
