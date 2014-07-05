@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion Candidate
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Standardization_Status|W3C Editor's Draft}}
