@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add compatibility.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,7 +17,6 @@ A text area can hold an unlimited number of characters, and the text renders in 
 |Content=Internationalization topics related to the <code>a</code> element:
 * [http://localhost/International/techniques/authoring-html#blocks  Setting direction on block elements]
 * [http://localhost/International/techniques/authoring-html#formdir Managing text direction in form controls]
-
 }}
 {{Examples_Section
 |Not_required=No
