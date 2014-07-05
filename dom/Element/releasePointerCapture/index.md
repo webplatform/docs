@@ -11,6 +11,7 @@
 {{Summary_Section|Releases a pointer captured by an element (using the [[dom/Element/setPointerCapture|setPointerCapture]] method).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=pointerId
 |Data type=Number
 |Description=Identifier of the pointer to be released.
