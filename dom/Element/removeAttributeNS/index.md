@@ -1,19 +1,22 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=Needs examples and compat
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Removes a specified content attribute in a specified namespace from an element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=namespaceURI
 |Data type=String
 |Description=The namespace name of the attribute to remove.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=name
 |Data type=String
 |Description=The local name of the attribute to remove.
