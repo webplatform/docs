@@ -1,5 +1,7 @@
 {{Page_Title|SVG attributes}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Page with almost all broken links. 
 |Checked_Out=No
 }}
 {{Standardization_Status}}
