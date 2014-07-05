@@ -111,7 +111,7 @@ There are no standards that apply here.
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mouseover mouseover event]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536949(v=vs.85).aspx mouseover event]
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter mouseenter event]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536945(v=vs.85).aspx mouseenter event]
 |HTML5Rocks_link=
 }}
