@@ -33,7 +33,7 @@ Note to contributors: This part provides a very quick "hands dirty" session on H
 We're not giving all the information - we are just trying to get the reader comfortable and give him/her a sense of achievement to begin with, before they get bored by all the details ;-)
 
 -->
-{{Beginners submenu}}
+{{:Beginners/submenu}}
 
 == First Hands-on experimentation with an HTML document ==
 
