@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import
+|Editorial notes=Unreviewed MSDN import
 |Checked_Out=No
 }}
 {{Summary_Section|You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.}}
