@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add example
 |Checked_Out=No
 }}
 {{Summary_Section|Removes the first element from an array and returns it.}}
@@ -38,7 +40,6 @@
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
-
 }}
 {{JS Topics
 |JS Page Type=JS Method
