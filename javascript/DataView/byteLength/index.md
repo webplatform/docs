@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import
+|Editorial notes=Unreviewed MSDN import
 |Checked_Out=No
 }}
 {{Summary_Section|Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.}}
