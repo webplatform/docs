@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Out of Date
+|Editorial notes=Import new spec, closest to current method is http://www.w3.org/TR/FileAPI/#dfn-file
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -20,8 +22,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
-|URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
-|Status=W3C Working Draft
+|URL=http://www.w3.org/TR/file-system-api/
+|Status=W3C Working Group Note
 }}
 }}
 {{Compatibility_Section
