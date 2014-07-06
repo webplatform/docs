@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Add HTML information section.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
