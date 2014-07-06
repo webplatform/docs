@@ -1,8 +1,10 @@
 {{Page_Title|Picture Element}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
+|Checked_Out=Yes
 |High-level issues=Needs Review
 |Content=Incomplete, Examples Needed
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
