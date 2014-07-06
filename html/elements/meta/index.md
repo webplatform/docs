@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Add example, compatibility, and the description/notes section is not enough.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -13,7 +15,6 @@
 * [http://www.w3.org/International/techniques/authoring-html#indoc Declaring the character encoding for HTML]
 * [http://www.w3.org/International/techniques/authoring-html#choosing Choosing and applying a character encoding]
 * [http://www.w3.org/International/techniques/authoring-html#changing Changing to UTF-8]
-
 }}
 {{Examples_Section
 |Not_required=No
