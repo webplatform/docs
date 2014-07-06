@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|This element defines parameters for plugins invoked by object elements. }}
+{{Summary_Section|This element defines parameters for plugins invoked by object elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParamElement
 }}
