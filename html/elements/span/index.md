@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
+|Editorial notes=Events section must be modified.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
