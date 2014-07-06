@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge with [[html/elements/comment]] (and move out of html/elements, since comments are not elements.
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=Merge with [[html/elements/comment]] (and move out of html/elements, since comments are not elements.
 }}
 {{Standardization_Status}}
 {{API_Name}}
