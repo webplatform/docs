@@ -1,4 +1,4 @@
-{{Page Title}}
+{{Page Title|:Target pseudo-class}}
 {{Flags
 |State=Not Ready
 |High-level issues=Merge Candidate
