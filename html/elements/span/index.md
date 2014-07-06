@@ -8,6 +8,15 @@
 {{Summary_Section|Groups inline elements in a document. The span element is both style and semantics '''neutral'''; it does not assign any style attributes or semantic meaning on its own.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSpanElement
+|Content====HTML information===
+{{{!}} class="wikitable"
+{{!}}-
+!Closing Tag
+{{!}}required
+{{!}}-
+!CSS Display
+{{!}}inline
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,17 +36,6 @@ The '''SPAN''' element is especially useful for applying cascading style sheets 
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-58190037 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.4
 *[http://www.w3.org/TR/html401/struct/global.html#h-7.5.4 HTML 4.01 Specification], Section 7.5.4
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|required
-|-
-!CSS Display
-|inline
-|}
 
 ===Members===
 The '''span''' object has these types of members:
