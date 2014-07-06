@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Add description/notes, compatibility.
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -8,9 +11,6 @@
 {{Summary_Section|Defines style information for an HTML document. Inside the <code>style</code> element you specify how HTML elements should render in a browser. Each HTML document can contain multiple <code>style</code> tags.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLStyleElement
-|Content={{Editorial/Merge_Candidate
-|Other=Meta:HTML/Elements/style
-}}
 }}
 {{Examples_Section
 |Not_required=No
