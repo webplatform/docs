@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information. Add HTML information section.
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
