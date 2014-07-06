@@ -1,7 +1,7 @@
 {{Page_Title|Picture Element}}
 {{Flags
 |State=In Progress
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
+|Editorial notes=Add Category, Parent,  Children information and HTML information subsection. Complete Compatibility table.
 |Checked_Out=Yes
 |High-level issues=Needs Review
 |Content=Incomplete, Examples Needed
