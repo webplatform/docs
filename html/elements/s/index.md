@@ -1,5 +1,7 @@
 {{Page_Title|s – strikethrough}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Add compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -14,10 +16,10 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the <code>&lt;s&gt;</code> element to render a text that no longer accurate.
-|Code=<ul>
-  <li><s>today's special: Gouda Cheeseburger, .14</s> SOLD OUT</li>
-  <li>Classic Cheeseburger, .50</li>
-</ul>
+|Code=&lt;ul&gt;
+  &lt;li&gt;&lt;s&gt;today's special: Gouda Cheeseburger, .14&lt;/s&gt; SOLD OUT&lt;/li&gt;
+  &lt;li&gt;Classic Cheeseburger, .50&lt;/li&gt;
+&lt;/ul&gt;
 |LiveURL=http://code.webplatform.org/gist/604bc1947f655fb863a1
 }}{{Single Example
 |Language=CSS
