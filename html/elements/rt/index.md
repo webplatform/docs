@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=HTML information section must be modified. Add compatibility and more example.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -11,7 +13,6 @@
 |DOM_interface=dom/HTMLElement
 |Content=Internationalization topics related to the <code>rt</code> element:
 * [http://localhost/International/techniques/authoring-html#ruby Using ruby markup]
-
 }}
 {{Examples_Section
 |Not_required=No
