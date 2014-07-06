@@ -1,16 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
-|Content=
-Internationalization topics related to the <code>select</code> element:
+|Content=Internationalization topics related to the <code>select</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#linkloc Linking to localized content]
 * [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls] (specifically sorting of select options)
 }}
