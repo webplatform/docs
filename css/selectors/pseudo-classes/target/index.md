@@ -1,13 +1,5 @@
-{{Page Title|:Target pseudo-class}}
-{{Flags
-|State=Not Ready
-|High-level issues=Merge Candidate
-|Editorial notes=
-{{Editorial/Merge_Candidate
-|Other=css/selectors/pseudo-classes/:target
-}}
-}}
-
+{{Page Title|:target pseudo-class}}
+{{Flags|State=Not Ready}}
 {{Topics|CSS}}
 
 Some URIs refer to a location within a resource. This kind of URI ends with a "number sign" (#) followed by an anchor identifier (called the fragment identifier).
