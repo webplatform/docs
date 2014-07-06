@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Broken Links, Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Add Category, Parent, Children and Compatibility information.
 |Checked_Out=No
+|Content=Broken Links, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
