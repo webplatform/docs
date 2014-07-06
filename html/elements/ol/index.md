@@ -1,5 +1,7 @@
 {{Page_Title|ol – ordered list}}
 {{Flags
+|State=In Progress
+|Editorial notes=Correct Title format. Add Category information. Complete Compatibility table.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
