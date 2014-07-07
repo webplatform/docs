@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|[[apis/webaudio/AudioParam|'''AudioParam''']] controls an individual aspect of an [[apis/webaudio/AudioNode|'''AudioNode''']]'s functioning, such as volume. The parameter can be set immediately to a particular value using the value attribute. Or, value changes can be scheduled to happen at very precise times (in the coordinate system of [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]), for envelopes, volume fades, LFOs, filter sweeps, grain windows, etc. In this way, arbitrary timeline-based automation curves can be set on any [[apis/webaudio/AudioParam|'''AudioParam''']]. Additionally, audio signals from the outputs of [[apis/webaudio/AudioNode|'''AudioNode''']]s can be connected to an [[apis/webaudio/AudioParam|'''AudioParam''']], summing with the intrinsic parameter value.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
