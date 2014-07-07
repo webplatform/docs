@@ -1,8 +1,10 @@
 {{Page_Title|performance.memory}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces. Experimental; deletion candidate
+|Checked_Out=No
 |High-level issues=Stub, Deletion Candidate
 |Content=Incomplete, Compatibility Incomplete
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Experimental}}
 {{API_Name}}
