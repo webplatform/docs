@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Adds an attribute to an element by using an attributes collection.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=ppNode
@@ -28,21 +29,22 @@ attribute
 |Not_required=No
 |Examples={{Single Example
 |Description=The following example shows how to add an attribute to an element using the '''setNamedItem''' method.
-|Code=&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
+|Code=&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;setNamedItem example&lt;/title&gt;
+&lt;script&gt;
 function fnSetNamedItem(){
 var nnm {{=}} myDIV.attributes;
 var namedItem {{=}} document.createAttribute("title");
 namedItem.value {{=}} "This is a ToolTip";
 nnm.setNamedItem(namedItem);
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY onload{{=}}"fnSetNamedItem();"&gt;
-&lt;DIV ID{{=}}"myDIV"&gt;This DIV now has a ToolTip.&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body onload{{=}}"fnSetNamedItem();"&gt;
+&lt;div id{{=}}"myDIV"&gt;This DIV now has a ToolTip.&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setNamedItemEx1.htm
 }}
 }}
@@ -69,8 +71,8 @@ If an '''attribute''' with the same name is already present, it is replaced by t
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap NamedNodeMap]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536751(v=vs.85).aspx setNamedItem Method]
 |HTML5Rocks_link=
 }}
