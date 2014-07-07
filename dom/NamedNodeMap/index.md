@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -12,19 +13,19 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example uses the '''attribute''' object to create a list of attributes that are [[dom/HTMLElement/specified|'''specified''']].
-|Code=&lt;SCRIPT&gt;
+|Code=&lt;script type{{=}}"text/javascript"&gt;
 function fnFind(){
    for(var i{{=}}0;i&lt;oList.attributes.length;i++){
       if(oList.attributes[i].specified){
-         alert(oList.attributes[i].nodeName + " {{=}} "
+         alert(oList.attributes[i].nodeName + ' {{=}} '
           + oList.attributes[i].nodeValue);
       }
    }
 }
-&lt;/SCRIPT&gt;
-&lt;UL onclick{{=}}"fnFind()"&gt;
-&lt;LI ID {{=}} "oList" ACCESSKEY {{=}} "L"&gt;List Item 1
-&lt;/UL&gt;
+&lt;/script&gt;
+&lt;ul onclick{{=}}"fnFind()"&gt;
+&lt;li ID {{=}} "oList" ACCESSKEY {{=}} "L"&gt;List Item 1&lt;/li&gt;
+&lt;/ul&gt;
 }}
 }}
 {{Notes_Section
@@ -48,8 +49,7 @@ This object is available in script as of Microsoft Internet Explorer 5.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
