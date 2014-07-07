@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=compatibility, examples
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds an [[html/elements/option|option]] element to the [[html/elements/select|select]] element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=element
 |Data type=DOM Node
 |Description=The [[dom/HTMLOptionElement|option]] element to add.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=beforeElement
 |Data type=DOM Node
 |Description=The element before which the new option will be placed. If no value is given, the method places the element at the end of the collection.
