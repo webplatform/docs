@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=stub page, automatic content only (needs summary at minimum)
+|Checked_Out=No
 |High-level issues=Stub, Needs Topics, Needs Review
 |Content=Incomplete, Examples Needed, Needs Summary
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
