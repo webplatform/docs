@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Retrieves the userAgent application's minor version value. }}
+{{Summary_Section|Retrieves the userAgent application's minor version value.}}
 {{API_Object_Property
 |Property_applies_to=dom/Navigator
 |Read_only=Yes
@@ -16,7 +16,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The linked example enumerates the window.navigator object and displays the results on the screen.
+|LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
+}}
 }}
 {{Notes_Section
 |Usage=Do not use to try to detect the userAgent version number... this is unreliable.
