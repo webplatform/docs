@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example, spec reference
+|Editorial notes=Needs spec reference, fix broken link
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -12,7 +12,7 @@
 |Subclass_of=apis/webrtc/MediaStream
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
