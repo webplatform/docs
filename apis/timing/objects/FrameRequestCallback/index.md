@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces. Needs summary, children, fix table coding in Notes
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status}}
 {{API_Name}}
