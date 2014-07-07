@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -28,6 +29,7 @@
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
+&lt;title&gt;removeNamedItem example&lt;/title&gt;
   &lt;script&gt;
 function removeAttrib() {
     var attributes {{=}} document.getElementById("ex").attributes;
@@ -87,8 +89,8 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap NamedNodeMap]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
