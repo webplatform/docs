@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|A delay-line is a fundamental building block in audio applications. This interface is an [[apis/webaudio/AudioNode|'''AudioNode''']] with a single input and single output, which delays the incoming audio signal by a certain amount. The default amount is 0 seconds (no delay).}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
