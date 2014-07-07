@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=Needs children (properties/methods/events)
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +10,7 @@
 {{Summary_Section|Represents an AudioNode for combining channels from multiple audio streams into a single audio stream.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
