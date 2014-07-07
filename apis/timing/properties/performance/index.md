@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Should be under Window interface. Needs summary, example, spec reference
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes=Should be under Window interface.
 }}
 {{Standardization_Status}}
 {{API_Name}}
