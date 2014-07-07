@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=stub page, no content
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,9 +17,7 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
