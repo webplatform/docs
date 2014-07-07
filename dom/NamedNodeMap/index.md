@@ -5,8 +5,8 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
-{{API_Name}}
+{{Standardization_Status|W3C Recommendation}}
+{{API_Name|DOM Level 3}}
 {{Summary_Section|A collection of nodes that can be accessed by name. Objects contained in a '''NamedNodeMap''' may also be accessed by an ordinal index, but this is simply to allow convenient enumeration of the contents of a '''NamedNodeMap''', and does not imply that the DOM specifies an order to these nodes.}}
 {{API_Object}}
 {{Examples_Section
@@ -24,7 +24,7 @@ function fnFind(){
 }
 &lt;/script&gt;
 &lt;ul onclick{{=}}"fnFind()"&gt;
-&lt;li ID {{=}} "oList" ACCESSKEY {{=}} "L"&gt;List Item 1&lt;/li&gt;
+&lt;li id {{=}} "oList" accesskey{{=}} "L"&gt;List Item 1&lt;/li&gt;
 &lt;/ul&gt;
 }}
 }}
@@ -49,7 +49,8 @@ This object is available in script as of Microsoft Internet Explorer 5.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap NamedNodeMap]
 |MSDN_link=
 |HTML5Rocks_link=
 }}
