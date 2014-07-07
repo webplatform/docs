@@ -7,13 +7,13 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Deprecated
-This feature has been removed from the Web. Though some browsers may still support it, it is in the process of being dropped. Do not use it in old or new projects. 
+{{Summary_Section|Represents events for tracking modifications, insertions and deletions of attributes and nodes in the DOM.
+Mutation Events (W3C DOM Level 3 Events) have been deprecated in favor of Mutation Observers (W3C DOM4).
+
+Do not use it in old or new projects. 
 
 Pages or Web apps using it may break at any time.
 
-Represents events for tracking modifications, insertions and deletions of attributes and nodes in the DOM.
-Mutation Events (W3C DOM Level 3 Events) have been deprecated in favor of Mutation Observers (W3C DOM4).
 }}
 {{API_Object
 |Subclass_of=dom/Event
