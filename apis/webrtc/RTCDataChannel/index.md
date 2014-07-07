@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=Needs example
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -11,7 +11,7 @@
 {{Summary_Section|Represents a bi-directional data channel between two peers.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
