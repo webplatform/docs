@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=Needs example
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
