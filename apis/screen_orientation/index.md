@@ -1,10 +1,12 @@
 {{Page_Title|Screen Orientation API}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs content, children, spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The Screen Orientation API provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state. }}
+{{Summary_Section|The Screen Orientation API provides the ability to read the screen orientation state, to be informed when this state changes, and to be able to lock the screen orientation to a specific state.}}
 {{API_Listing}}
 {{Concept_Listing
 |Use_page_title=No
