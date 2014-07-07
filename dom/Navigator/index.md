@@ -11,32 +11,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=JavaScript
 |Description=[object Navigator] example enumerates the window.navigator object and displays the results in the web page.
-|Code=&lt;code&gt;
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>NavigatorObject</title>
-</head>
-
-<body>
-<div id="divOutput"></div>
-   <script type="text/javascript">//<![CDATA[
-   var output = document.getElementById('divOutput');
+|Code=   var output = document.getElementById('divOutput');
    var html='<h2>[object Navigator]<\/h2>';
    for(p in window.navigator){
    
 			html+='<label style=\"color:navy\">navigator.'+p+':<br/><input style=\"width:100%\" type=\"text\" value=\"'+eval('window.navigator.'+p)+'\"/><\/label><br/>';
    }
    output.innerHTML=html;
-   //]]></script>
-</body>
 
-</html>
-&lt;/code&gt;
 |LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
 }}
 }}
