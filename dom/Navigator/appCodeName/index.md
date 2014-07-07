@@ -11,6 +11,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/Navigator
 |Read_only=Yes
+|Example_object_name=navigator
 |Javascript_data_type=String
 |Return_value_description=the internal "code" name of the current web browser.
 |Example_value_name=Mozilla
