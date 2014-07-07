@@ -1,44 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=summary, examples, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=dom/HTMLMediaElement
-{{Method Parameter
-|Name=type
-|Data type=any
-|Description=The type of media that the client can play.
-|Optional=No
-}}{{Method Parameter
-|Name=canPlay
-|Data type=any
-|Description='''probably'''
-
-
-
-The type of media that is most likely to be rendered.
-
-
-'''maybe'''
-
-
-
-The type of media that might be able to be rendered
-
-
-'''[empty string]'''
-
-
-
-The media type cannot be rendered.
-|Optional=No
-}}
 |Method_applies_to=dom/HTMLMediaElement
 |Example_object_name=object
 |Return_value_name=object
