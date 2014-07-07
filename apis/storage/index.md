@@ -1,6 +1,6 @@
 {{Page_Title|Storage}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Editorial notes=Needs content, children, spec reference
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
