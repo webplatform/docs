@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces. Non-standard; deletion candidate
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
