@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=summary, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=n
 |Data type=any
 |Description=Value to decrement the value by.
@@ -23,7 +26,6 @@
 This method can return one of these values.
 
 S_OK
-
 }}
 {{Examples_Section
 |Not_required=No
