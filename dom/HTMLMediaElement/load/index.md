@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=summary, examples, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -12,10 +14,9 @@
 |Method_applies_to=dom/HTMLMediaElement
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
+|Javascript_data_type=void
 |Return_value_description=This method does not return a value.
 
-This method does not return a value.
 }}
 {{Examples_Section
 |Not_required=No
