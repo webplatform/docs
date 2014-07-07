@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete
+|State=In Progress
+|Editorial notes=examples, compatibility, general clean-up/review for accuracy
 |Checked_Out=No
+|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -27,9 +29,7 @@
 |Usage=Currently, no browser vendor supports the unprefixed version. It is recommended to use the API as following:
 
 <pre>var docEl = document.documentElement,
-    matches = docEl.matches || docEl.webkitMatchesSelector || docEl.mozMatchesSelector || docEl.msMatchesSelector || docEl.oMatchesSelector;
-
-matches.call(element, selector)</pre>
+    matches = docEl.matches
 }}
 {{Related_Specifications_Section
 |Specifications=
