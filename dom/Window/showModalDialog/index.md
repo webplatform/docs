@@ -11,16 +11,19 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=dialog
 |Data type=BSTR
 |Description='''String''' that specifies the URL of the document to load and display.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=varArgIn
 |Data type=VARIANT
 |Description='''Variant''' that specifies the arguments to use when displaying the document. Use this parameter to pass a value of any type, including an array of values. The dialog box can extract the values passed by the caller from the [[dom/WindowModal/dialogArguments|'''dialogArguments''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=varOptions
 |Data type=VARIANT
 |Description='''String''' that specifies the window ornaments for the dialog box, using one or more of the following semicolon-delimited values:
