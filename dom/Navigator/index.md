@@ -13,14 +13,6 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=[object Navigator] example enumerates the window.navigator object and displays the results in the web page.
-|Code=   var output = document.getElementById('divOutput');
-   var html='<h2>[object Navigator]<\/h2>';
-   for(p in window.navigator){
-   
-			html+='<label style=\"color:navy\">navigator.'+p+':<br/><input style=\"width:100%\" type=\"text\" value=\"'+eval('window.navigator.'+p)+'\"/><\/label><br/>';
-   }
-   output.innerHTML=html;
-
 |LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
 }}
 }}
