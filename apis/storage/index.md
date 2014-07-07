@@ -1,8 +1,10 @@
 {{Page_Title|Storage}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs main content, children(?), example
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
