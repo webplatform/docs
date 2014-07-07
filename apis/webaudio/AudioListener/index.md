@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|This interface represents the position and orientation of the person listening to the audio scene. All [[apis/webaudio/PannerNode|'''PannerNode''']] objects spatialize in relation to the [[apis/webaudio/AudioContext|'''AudioContext''']]'s listener.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
