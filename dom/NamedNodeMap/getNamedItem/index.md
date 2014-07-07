@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets an attribute with a given name from an element.}}
 {{API_Object_Method
@@ -28,6 +29,7 @@
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
+&lt;title&gt;getNamedItem Example&lt;/title&gt;
 &lt;script&gt;
 function Init()
 {
@@ -48,7 +50,6 @@ function Init()
 |Notes=If the '''attribute''' applies to an element but is not specified, this method returns the '''attribute''' with the specified name set to an empty string.
 If the '''attribute''' does not apply to the element and is not specified, then an error is returned.
 If the '''attribute''' does not apply to the element and is specified, then the '''attribute''' with the specified name is returned.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -69,8 +70,8 @@ If the '''attribute''' does not apply to the element and is specified, then the 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap getNamedItem]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536441(v=vs.85).aspx getNamedItem Method]
 |HTML5Rocks_link=
 }}
