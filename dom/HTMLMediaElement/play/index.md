@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=clean-up of MSDN import content to use WPD sections, compatibility
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -70,8 +72,7 @@
 {{Notes_Section
 |Notes====Remarks===
 To change the URL that is currently playing, assign it to [[dom/HTMLMediaElement/src|'''src''']]. This method sets [[dom/HTMLMediaElement/paused|'''paused''']] to false. To change the URL using the '''source''' element, or if the original video was specified by the '''source''' element, call [[dom/HTMLMediaElement/load|'''load''']] before calling '''play'''.
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.8
 }}
 {{Related_Specifications_Section
