@@ -10,6 +10,7 @@
 {{Summary_Section|The <code>matches</code> API checks if an element matches a given selector. While the old API used the name <code>matchesSelector</code>, the new one will use <code>matches</code>.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=selector
 |Data type=String
 |Description=This string represents the selector to test the element against. This parameter is required and it must have a length of at least one. An empty string throws the error <code>Dom Exception 12.</code>
