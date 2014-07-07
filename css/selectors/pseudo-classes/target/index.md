@@ -6,19 +6,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The <tt>:target</tt> pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
-
-
-Refer in the current document to a section that has a matching id
-}}
+{{Summary_Section|The <tt>:target</tt> pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.}}
 {{CSS_Selector
-|Content=Some URIs refer to a location within a resource. This kind of URI ends with a "number sign" (<tt>#</tt>) followed by an anchor identifier (called the fragment identifier).
+|Content=An URI fragment is what follows the "number sign" (<tt>#</tt>).
 
-URIs with fragment identifier links to a certain element within the document, known as the target element. This is how we can get directly to a section of a page without searching manually.
+URIs with fragment identifier can be used to link to a specific part of a document, known as the target element. This also how we can navigate directly to a section of a page long without scrolling manually.
 
-It is possible to target any targeted element and style it differently through CSS. 
+Scrolling automatically to a fragment is not the only benefit; It is also possible to target and style those elements through CSS.
 
-Let us say you have a section in a document called "<tt>foo</tt>" (e.g. <tt>&lt;div id="foo"&gt;...&lt;/div&gt;</tt>), and you want to style it differently when it gets linked. You can scroll directly to that page fragment AND style it.  In our example, a matching URI would need to have <tt>#foo</tt> in the address bar (e.g. <tt>http://example.com/some/page.html#foo</tt>).
+Let us say you have a section in a document called "<tt>foo</tt>" (e.g. <tt>&lt;div id="foo"&gt;...&lt;/div&gt;</tt>), and you want to style it differently when it gets linked. When somebody navigates to that page with the appropriate URI fragment in the address bar (e.g. <tt>http://example.com/some/page.html#foo</tt>) we then can adjust the style to suit our requirements.
 
 Any element can be a target, as long as it has the <tt>id=".."</tt> attribute set, and the current URI matches it. To use the selector, we use the <code>:target</code> pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
 
