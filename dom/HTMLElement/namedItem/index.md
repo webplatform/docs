@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=summary, clean-up of MSDN content
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=BSTR
 |Description=A '''String''' that specifies the [[html/attributes/name|'''name''']] or [[html/attributes/id|'''id''']] property of the object to retrieve.  A collection is returned if more than one match is made.
@@ -37,8 +40,7 @@ Windows Internet Explorer 8 and later. In IE8 Standards mode, the '''namedItem'
 The '''namedItem''' method was introduced in Microsoft Internet Explorer 6.
 The '''namedItem''' method does not return collections if more than one named item is found; instead, it returns the first case-insensitive matched '''element'''.
 This method first searches for an object with a matching [[html/attributes/id|'''id''']] attribute. If a match is not found, the method searches for an object with a matching [[html/attributes/name|'''name''']] attribute, but only on those elements that are allowed a name attribute.
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 There are no standards that apply here.
 }}
 {{Related_Specifications_Section
