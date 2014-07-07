@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes= examples, clean-up of MSDN import
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets or sets whether a check box or a radio button are checked.}}
