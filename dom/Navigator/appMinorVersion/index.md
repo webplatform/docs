@@ -13,6 +13,8 @@
 |Read_only=Yes
 |Example_object_name=navigator
 |Javascript_data_type=String
+|Return_value_description=The userAgent application's minor version number. 
+|Example_value_name="0"
 }}
 {{Examples_Section
 |Not_required=No
