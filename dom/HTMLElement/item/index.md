@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=needs summary, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=VARIANT
 |Description='''Variant''' of type '''Integer''' or '''String''' that specifies the object or collection to retrieve. If this parameter is an integer, it is the zero-based index of the object. If this parameter is a string, all objects with matching [[html/attributes/name|'''name''']] or [[html/attributes/id|'''id''']] properties are retrieved, and a collection is returned if more than one match is made.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=index
 |Data type=VARIANT
 |Description='''Variant''' of type '''Integer''' that specifies the zero-based index of the object to retrieve when a collection is returned.
