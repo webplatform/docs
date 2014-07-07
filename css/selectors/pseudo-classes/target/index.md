@@ -10,6 +10,8 @@
 {{CSS_Selector
 |Content=An URI fragment is what follows the "number sign" (<tt>#</tt>).
 
+[[File:example-css-target-pseudo-activated.png]]
+
 URIs with fragment identifier can be used to link to a specific part of a document, known as the target element. This also how we can navigate directly to a section of a page long without scrolling manually.
 
 Scrolling automatically to a fragment is not the only benefit; It is also possible to target and style those elements through CSS.
