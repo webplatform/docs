@@ -622,6 +622,7 @@ We look forward to what JavaScript developers make of WebRTC as it becomes widel
 
 == Learn more ==
 
+* [http://knowledge.santanu.net/what-is-webrtc-current-scenario-and-why-we-should-follow/ WebRTC Interest, Update and Article]
 * WebRTC book by Alan B. Johnston and Daniel C. Burnett (available in print and for eBook formats): [http://www.webrtcbook.com webrtcbook.com]
 * [https://www.youtube.com/watch?v=E8C8ouiXHHk Video of Justin Uberti's WebRTC session at Google I/O, 27 June 2012]
 * [http://www.webrtc.org/ webrtc.org]: the home for all things WebRTC—demos, documentation and discussion.
