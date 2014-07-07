@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|This interface is an [[apis/webaudio/AudioNode|'''AudioNode''']] which can generate, process, or analyse audio directly using JavaScript.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
