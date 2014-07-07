@@ -1,8 +1,10 @@
 {{Page_Title|Timing and performance standards}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs table code fix in Notes
+|Checked_Out=No
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Not Neutral, Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Summary_Section|This section documents the timing and performance-based standards supported by Windows Internet Explorer and Windows Store apps.}}
 {{Basic Page}}
