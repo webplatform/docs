@@ -1,5 +1,8 @@
 {{Page_Title|WebRTC}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{API_Name|RTCPeerConnection}}
 {{Summary_Section|WebRTC implements open standards for real-time, plugin-free video, audio and data communication.}}
 {{Concept_Page
@@ -631,6 +634,7 @@ We look forward to what JavaScript developers make of WebRTC as it becomes widel
 * [http://tools.ietf.org/html/draft-jesup-rtcweb-data-protocol-01 IETF WebRTC Data Channel Protocol Draft].
 * [http://tools.ietf.org/html/draft-uberti-rtcweb-jsep-02 IETF JSEP Draft].
 * [http://tools.ietf.org/html/rfc5245 IETF proposed standard for ICE]
+*[http://en.wikipedia.org/wiki/WebRTC What Wikipedia says about WebRTC]
 
 == WebRTC support summary ==
 
