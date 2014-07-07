@@ -13,7 +13,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=[object Navigator] example enumerates the window.navigator object and displays the results in the web page.
-|Code=<!DOCTYPE html>
+|Code=&lt;code&gt;
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -35,7 +36,7 @@
 </body>
 
 </html>
-
+&lt;/code&gt;
 |LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
 }}
 }}
