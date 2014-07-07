@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -> +1. It can contain one or more channels.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
