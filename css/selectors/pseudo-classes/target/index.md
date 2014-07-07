@@ -6,15 +6,24 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Refer in the current document to a section that has a matching id}}
+{{Summary_Section|The <tt>:target</tt> pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
+
+
+Refer in the current document to a section that has a matching id
+}}
 {{CSS_Selector
 |Content=Some URIs refer to a location within a resource. This kind of URI ends with a "number sign" (<tt>#</tt>) followed by an anchor identifier (called the fragment identifier).
 
-URIs with fragment identifier links to a certain element within the document, known as the target element. For instance, here is a URI pointing to an anchor named <tt>section_2</tt> in an HTML document  (e.g. <tt>&lt;div id="section_2"&gt;...&lt;/div&gt;</tt>), and we can refer to it with its matching URI <tt>http://example.com/html/top.html#section_2</tt>
+URIs with fragment identifier links to a certain element within the document, known as the target element. This is how we can get directly to a section of a page without searching manually.
 
-A target element can be represented by the <code>:target</code> pseudo-class. If the document's URI has no fragment identifier, then the document has no target element.
+It is possible to target any targeted element and style it differently through CSS. 
+
+Let us say you have a section in a document called "<tt>foo</tt>" (e.g. <tt>&lt;div id="foo"&gt;...&lt;/div&gt;</tt>), and you want to style it differently when it gets linked. You can scroll directly to that page fragment AND style it.  In our example, a matching URI would need to have <tt>#foo</tt> in the address bar (e.g. <tt>http://example.com/some/page.html#foo</tt>).
+
+Any element can be a target, as long as it has the <tt>id=".."</tt> attribute set, and the current URI matches it. To use the selector, we use the <code>:target</code> pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
 
 == Using the selector ==
+
 To use the selector, append the pseudo selector (<tt>:target</tt>) after a selector string.
 
 <syntaxHighlight lang="css">
@@ -23,7 +32,9 @@ To use the selector, append the pseudo selector (<tt>:target</tt>) after a selec
 
 In this example, the selector targets an element that has a [[css/selectors/class|''class name'' selector]] <tt>note</tt> and will be used when its matching elements also has an <tt>id</tt> attribute matching the current URI.
 
-Here, the <tt>:target</tt> pseudo-class is used to make the target element red and place an image before it, if there is one:
+Since it is a pseudo selector, it has to be at the end of the chain (e.g. <tt>tagName#idName.className:pseudo-selector</tt>).
+
+For example, to change the background color of ANY tag that happens to be refered in the URI, you can do like the following:
 
 <syntaxHighlight lang="css">
 *:target { background-color: red }
@@ -59,7 +70,7 @@ Here, the <tt>:target</tt> pseudo-class is used to make the target element red a
 {{See_Also_Section
 |Topic_clusters=Pseudo-Classes
 }}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
