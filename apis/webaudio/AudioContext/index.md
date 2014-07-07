@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -10,7 +9,7 @@
 {{Summary_Section|The [[apis/webaudio/AudioContext|'''AudioContext''']] represents a set of [[apis/webaudio/AudioNode|'''AudioNode''']] objects and their connections. It allows for arbitrary routing of signals to the [[apis/webaudio/AudioDestinationNode|'''AudioDestinationNode''']] (what the user ultimately hears). Nodes are created from the context and are then connected together. In most use cases, only a single [[apis/webaudio/AudioContext|'''AudioContext''']] is used per document.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
