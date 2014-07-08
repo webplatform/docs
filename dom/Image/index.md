@@ -1,8 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=summary, examples, proper syntax, compatibility, page is misnamed, vars are not explained
+http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#dom-image
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -30,7 +34,6 @@ document.body.appendChild( img );
 {{!}}}
  
 String values are coerced into their numeric equivalents, if possible.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
