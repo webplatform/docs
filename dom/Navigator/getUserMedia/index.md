@@ -1,7 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Almost Ready
+|Editorial notes=In development channel for MSIE.
+see status.modern.ie
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -51,9 +54,43 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Here's an example of using getUserMedia(), including code to cope with various browsers' prefixes.
+|Code=navigator.getUserMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+
+if (navigator.getUserMedia) {
+   navigator.getUserMedia (
+
+      // constraints
+      {
+         video: true,
+         audio: true
+      },
+
+      // successCallback
+      function(localMediaStream) {
+         var video = document.querySelector('video');
+         video.src = window.URL.createObjectURL(localMediaStream);
+         // Do something with the video here, e.g. video.play()
+      },
+
+      // errorCallback
+      function(err) {
+         console.log("The following error occured: " + err);
+      }
+   );
+} else {
+   console.log("getUserMedia not supported");
+}
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=The ms prefixed method is only available on windows 8 operating system. At the time of writing the standards getUserMedia method is 'in development' 
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -74,7 +111,8 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 {{Topics|DOM, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getUserMedia navigator.getUserMedia Method]
 |MSDN_link=
 |HTML5Rocks_link=
 }}
