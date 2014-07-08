@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -38,8 +39,7 @@ function getCookie(aname) {
         if (cn.indexOf(name) == 0) return cn.substring(name.length,cn.length);
     }
     return "";
-} 
-
+}
 }}
 }}
 {{Notes_Section
