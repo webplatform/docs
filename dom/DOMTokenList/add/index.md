@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds one or more tokens to a DOMTokenList.}}
 {{API_Object_Method
