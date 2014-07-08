@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Removes one or more tokens from a DOMTokenList.}}
 {{API_Object_Method
@@ -15,6 +16,7 @@
 |Optional=No
 }}
 |Method_applies_to=dom/DOMTokenList
+|Javascript_data_type=Boolean
 }}
 {{Examples_Section
 |Not_required=No
