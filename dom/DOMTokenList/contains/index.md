@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Tests if a token is part of a DOMTokenList.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=token
 |Data type=String
 |Description=The requested token.
