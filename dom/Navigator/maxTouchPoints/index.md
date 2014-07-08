@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -100,7 +101,8 @@ For example, suppose a device has 3 touchscreens, which support 2, 5, and 10 sim
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772144(v=vs.85).aspx maxTouchPoints property]
 |HTML5Rocks_link=
 }}
