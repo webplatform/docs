@@ -12,6 +12,7 @@
 The actual audio processing itself is done with Assembly/C/C++ code within the browser, but the API gives us a nice high-level way of interacting with this code using JavaScript.
 }}
 {{Tutorial
+|Next_page=tutorials/audio/intro_web_audio_api_1
 |Content==== AudioContext ===
 In order to start using the API, we must first create an AudioContext. Think of this as a canvas for sound. It&#8217;s a container for all the playback and manipulation of audio we&#8217;re going to be doing. We create it by simply doing this:
 <syntaxHighlight lang="javascript">
