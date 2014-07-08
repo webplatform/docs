@@ -16,6 +16,7 @@
 |Optional=No
 }}
 |Method_applies_to=dom/DOMTokenList
+|Javascript_data_type=Boolean
 }}
 {{Examples_Section
 |Not_required=No
