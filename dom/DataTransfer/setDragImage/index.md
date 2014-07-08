@@ -1,9 +1,9 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Uses the given element to update the drag feedback image, replacing any previously specified feedback image.}}
 {{API_Object_Method
@@ -14,13 +14,13 @@
 |Description=An "img" element, used to set the drag data store bitmap to the element's image (at its intrinsic size). If not an "img" element, used to set the drag data store bitmap to an image generated from the given element, although the mechanism for doing so is not currently specified.
 |Optional=No
 }}{{Method Parameter
-|Index=0
+|Index=1
 |Name=x
 |Data type=unsigned long
 |Description=The "x" value of the drag data store hot spot coordinate.
 |Optional=No
 }}{{Method Parameter
-|Index=0
+|Index=2
 |Name=y
 |Data type=unsigned long
 |Description=The "y" value of the drag data store hot spot coordinate.
@@ -38,7 +38,6 @@ function setDragImage(e) {
   var oData = e.dataTransfer;
   oData.setDragImage (img, 0, 0);
 }
-
 }}
 }}
 {{Notes_Section}}
