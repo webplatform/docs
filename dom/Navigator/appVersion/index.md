@@ -21,12 +21,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example enumerates the properties of the navigator object for the current web browser and displays them on the screen.
+|LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
+}}
 }}
 {{Notes_Section
 |Usage=Do not rely on this property to return the correct browser version. In Gecko-based browsers (like Firefox) and WebKit-based browsers (like Chrome and Safari) the returned value starts with "5.0" followed by platform information. In Opera 10 and newer the returned version does not match the actual browser version, either.
 |Notes====Remarks===
-
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
