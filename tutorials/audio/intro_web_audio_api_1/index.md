@@ -1,5 +1,6 @@
 {{Page_Title|Introduction to the web audio API, part 1}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -9,7 +10,9 @@
 }}
 {{Summary_Section|An introduction to the web audio API: loading and playing an external sound file.}}
 {{Tutorial
-|Content===Introduction==
+|Content='''This article is part of a three articles serie, see [[tutorials/audio/intro_web_audio_api_2]].'''
+
+==Introduction==
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of <code>&lt;embed&gt;</code>, <code>&lt;object&gt;</code>, and <code>&lt;bgsound&gt;</code>, when the best you could hope for was static playback of a fixed music track.
 
 Today, diverse web apps such as games, audio editors, playlist managers, ringtone stores, musicians' utilities, and more have a need for subtlety and finesse in their use of audio, and users deserve&mdash;and have come to expect&mdash;power and flexibility in those apps.
