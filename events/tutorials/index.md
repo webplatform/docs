@@ -1,8 +1,23 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Not Ready
+|Editorial notes=summary, headings, explanation as to what this page is,
+
+"Warning: More than one default form is defined for this page."
+
+|Checked_Out=No
+}}
+{{Standardization_Status}}
+{{API_Name}}
 {{Summary_Section|Index page for Events Tutorials.}}
-{{Basic Page}}
-{{API_Listing |Query=[[Category:Tutorials]][[Category:Events]] }}
+{{API_Listing|Query=[[Category:Tutorials]][[Category:Events]]
+}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -10,3 +25,4 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+{{Basic Page}}
