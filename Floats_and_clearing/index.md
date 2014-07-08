@@ -1,7 +1,7 @@
 {{Page_Title|Floats and clearing}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Review with [[tutorials/floats_and_clearing]] and make one.
+|Editorial notes=Move contents in [[tutorials/floats_and_clearing]] and make one. This is a tutorial, shouldn’t stay in root of the wiki.
 |Checked_Out=No
 |High-level issues=Merge Candidate
 }}
@@ -9,7 +9,7 @@
 {{Summary_Section}}
 {{Tutorial
 |Content={{Editorial/Merge_Candidate
-|Other=[[tutorials/Floats_and_clearing]]
+|Other=[[tutorials/floats_and_clearing]]
 }}
 }}
 {{Notes_Section}}
