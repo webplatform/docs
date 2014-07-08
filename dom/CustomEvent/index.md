@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -12,7 +13,7 @@ This is the recommended interface for application-specific event types. Unlike t
 |Subclass_of=dom/Event
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
