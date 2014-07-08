@@ -4,6 +4,7 @@
 |Editorial notes=MSDN documentation needs updating
 ref to the latest draft.
 navigator.msdoNotTracked dropped in favor of request headers.
+A screen shot of the Blocked content Icon in the IE address bar would be helpful.
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -26,7 +27,8 @@ navigator.msdoNotTracked dropped in favor of request headers.
 
 In MSIE browsers when ActiveX content or other content is blocked an Icon is displayed in the Address bar which the user can click to disable Tracking Protection and/or ActiveX filtering for the current site.
 |Notes=IE9 uses a vendor prefix, eg.  navigator.msDoNotTrack
-    IE9, Opera 12, Safari 5.1, and Chrome 31 are based on an earlier version of this specification where navigator.doNotTrack is the value sent for the do-not-track header.
+
+IE9, Opera 12, Safari 5.1, and Chrome 31 are based on an earlier version of this specification where navigator.doNotTrack is the value sent for the do-not-track header.
 
 IE10 and higher do not use the doNotTrack header which is user configured from the Advanced tab of Internet Options. There is no navigator.doNotTrack or navigator.msdoNotTrack property in those MSIE versions.
 |Import_Notes====Standards information===
