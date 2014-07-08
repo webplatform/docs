@@ -27,7 +27,8 @@
 * [[tutorials/typography|Typography]]
 * [[tutorials/webcomponents|Web components]]
 
-==Test==
+== In this section ==
+
 <subpages />
 {{Notes_Section}}
 {{Topics}}
