@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,6 +9,7 @@
 {{Summary_Section|Removes one or more data formats (or all data) from the clipboard through the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=format
 |Data type=String
 |Description=The format of the data to be cleared, using one of the following values (case insensitve):
