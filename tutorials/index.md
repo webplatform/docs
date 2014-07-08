@@ -10,7 +10,7 @@
 * [[tutorials/Testing_web_apps|Testing web apps]]
 * [[html/tutorials|HTML]]
 * [[css/tutorials|CSS]]
-* [[javascript/tutorials|JavaScript]]
+* [[javascript|JavaScript]]
 * [[svg/tutorials|SVG]]
 
 ==Topical tutorials==
@@ -26,6 +26,9 @@
 * [[tutorials/tools|Tools]]
 * [[tutorials/typography|Typography]]
 * [[tutorials/webcomponents|Web components]]
+
+==Test==
+<subpages />
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
