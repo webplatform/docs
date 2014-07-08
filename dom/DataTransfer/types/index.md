@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
