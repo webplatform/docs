@@ -1,7 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=In Progress
 |Editorial notes=New listing page with proper object capitalization; replaces '''navigator'''.
+missing properties for
+getGamepads, dom/Navigator/getGamepads
+getUserMedia, dom/Navigator/getUserMedia
+javaEnabled, dom/Navigator/javaEnabled
+
+
 |Checked_Out=Yes
 }}
 {{Standardization_Status|N/A}}
