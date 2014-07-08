@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,6 +9,7 @@
 {{Summary_Section|Adds data in a specified format to the '''DataTransfer''' object or the [[dom/ClipboardData|'''ClipboardData''']] object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=format
 |Data type=String
 |Description=The format of the data to be transferred, using one of the following values (case insensitve):
@@ -16,6 +17,7 @@
 *Text
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=data
 |Data type=String
 |Description=Specifies the data supplied by the source object. This information can be descriptive text, a source path to an image, or a URL for an anchor. When you pass "URL" as the ''format'' parameter, you must use the ''data'' parameter to provide the location of the object that is transferred.
