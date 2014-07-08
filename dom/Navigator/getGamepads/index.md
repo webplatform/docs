@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=MSDN documentation only available on devChannel.
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -10,12 +12,21 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Navigator
-|Example_object_name=object
-|Return_value_description=Gamepad. 
+|Example_object_name=navigator
+|Return_value_description=gamePads collection.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example detects when a gamepad is connected to the computer.
+|Code=window.addEventListener("gamepadconnected", function(e) {
+  var gp = navigator.getGamepads()[0];
+  console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
+  gp.index, gp.id,
+  gp.buttons.length, gp.axes.length);
+});
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -36,7 +47,8 @@
 {{Topics|API, Gamepad}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getGamepads navigator.getGamepads method]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/dn753843(v=vs.85).aspx Gamepad API in DevChannel]
 |HTML5Rocks_link=
 }}
