@@ -1,18 +1,21 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Extracts a range of characters from the node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=offset
 |Data type=String
 |Description=The zero-based offset from which to start.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=count
 |Data type=String
 |Description=The number of characters to extract.
