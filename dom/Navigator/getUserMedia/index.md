@@ -2,7 +2,8 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=In development channel for MSIE.
-see status.modern.ie
+see status.modern.ie.
+ms prefixed method only available on Win8.
 |Checked_Out=No
 |High-level issues=Stub
 }}
@@ -55,37 +56,8 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=Here's an example of using getUserMedia(), including code to cope with various browsers' prefixes.
-|Code=navigator.getUserMedia {{=}} ( navigator.getUserMedia ||
-                       navigator.webkitGetUserMedia ||
-                       navigator.mozGetUserMedia ||
-                       navigator.msGetUserMedia);
-
-if (navigator.getUserMedia) {
-   navigator.getUserMedia (
-
-      // constraints
-      {
-         video: true,
-         audio: true
-      },
-
-      // successCallback
-      function(localMediaStream) {
-         var video {{=}} document.querySelector('video');
-         video.src {{=}} window.URL.createObjectURL(localMediaStream);
-         // Do something with the video here, e.g. video.play()
-      },
-
-      // errorCallback
-      function(err) {
-         console.log("The following error occured: " + err);
-      }
-   );
-} else {
-   console.log("getUserMedia not supported");
-}
+|Description=This live example uses feature detection to determine if the current web browser and operating system version supports the navigator.getUserMedia method.
+|LiveURL=http://result.dabblet.com/gist/b0053b13f0dc7d3b8e0c/e7a999df33666b9d624c77ef0d824ad90023842a
 }}
 }}
 {{Notes_Section
