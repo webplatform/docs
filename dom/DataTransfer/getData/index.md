@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -11,6 +11,7 @@ If there is no data, returns an empty string.
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=format
 |Data type=String
 |Description=The format of the data to be transferred, using one of the following values (case insensitve):
