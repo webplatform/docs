@@ -57,7 +57,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Here's an example of using getUserMedia(), including code to cope with various browsers' prefixes.
-|Code=navigator.getUserMedia = ( navigator.getUserMedia ||
+|Code=navigator.getUserMedia {{=}} ( navigator.getUserMedia ||
                        navigator.webkitGetUserMedia ||
                        navigator.mozGetUserMedia ||
                        navigator.msGetUserMedia);
@@ -89,7 +89,7 @@ if (navigator.getUserMedia) {
 }}
 }}
 {{Notes_Section
-|Notes=The ms prefixed method is only available on windows 8 operating system. At the time of writing the standards getUserMedia method is 'in development' 
+|Notes=The ms prefixed method is only available on windows 8 operating system. At the time of writing the standards getUserMedia method is 'in development'
 }}
 {{Related_Specifications_Section
 |Specifications=
