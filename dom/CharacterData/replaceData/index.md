@@ -1,23 +1,27 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Replaces a specified range of characters in the node with a new character string.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=offset
 |Data type=String
 |Description=The zero-based offset from which to start.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=count
 |Data type=String
 |Description=The number of characters to replace.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=text
 |Data type=String
 |Description=The new character string.
