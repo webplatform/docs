@@ -58,8 +58,8 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 |Language=JavaScript
 |Description=Here's an example of using getUserMedia(), including code to cope with various browsers' prefixes.
 |Code=navigator.getUserMedia {{=}} ( navigator.getUserMedia {{||}}
-                       navigator.webkitGetUserMedia {{||}}
-                       navigator.mozGetUserMedia {{||}}
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
                        navigator.msGetUserMedia);
 
 if (navigator.getUserMedia) {
@@ -73,8 +73,8 @@ if (navigator.getUserMedia) {
 
       // successCallback
       function(localMediaStream) {
-         var video = document.querySelector('video');
-         video.src = window.URL.createObjectURL(localMediaStream);
+         var video {{=}} document.querySelector('video');
+         video.src {{=}} window.URL.createObjectURL(localMediaStream);
          // Do something with the video here, e.g. video.play()
       },
 
