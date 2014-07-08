@@ -1,5 +1,7 @@
 {{Page_Title|An introduction to the Web Audio API}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline
 |Name=Stuart Memo
 |URL=http://stuartmemo.com
@@ -12,10 +14,10 @@ The actual audio processing itself is done with Assembly/C/C++ code within the b
 {{Tutorial
 |Content==== AudioContext ===
 In order to start using the API, we must first create an AudioContext. Think of this as a canvas for sound. It&#8217;s a container for all the playback and manipulation of audio we&#8217;re going to be doing. We create it by simply doing this:
-<pre class="prettyprint">
+<syntaxHighlight lang="javascript">
     var context = new webkitAudioContext();
     // We use the "webkit" prefix as the API isn't a standard yet
-</pre>
+</syntaxHighlight>
 <p>Now that we&#8217;ve created this container, what do we put in it? Well, this is where the concept of nodes and modular routing comes in.</p>
 <h2>Nodes and modular routing</h2>
 <p>Imagine a guitar player who has an electric guitar, a distortion pedal and an amp. When the guitar player strums her guitar, the sound travels from the guitar, down a cable, through the distortion pedal, and down another cable before finally coming out the speaker of the guitar amp. This chain is very similar to the nodes and modular routing model of the Web Audio API. The guitar, distortion pedal and the amp are all nodes, which we&#8217;ve routed in the correct order using cables.</p>
@@ -23,12 +25,12 @@ In order to start using the API, we must first create an AudioContext. Think of 
 
 == Playing a sound file ==
 Ok, time to stop mucking about with concepts and learn how to play an audio file using the Web Audio API. Let&#8217;s start coding by declaring a couple of variables:
-<pre class="prettyprint">
+<syntaxHighlight lang="javascript">
     var context = new webkitAudioContext(),
         buffer;
-</pre>
+</syntaxhighlight>
 <p>We already know about <code>context</code>, but what are we going to use <code>buffer</code> for? Well, audio buffers are essentially a holding place in memory for sound data. We read data into a buffer from an audio file using an <a href="http://www.html5rocks.com/en/tutorials/file/xhr2/">XMLHttpRequest</a> like so:</p>
-<pre class="prettyprint">
+<syntaxHighlight lang="javascript">
     var loadAudioFile = function (url) {
         var request = new XMLHttpRequest();
 
@@ -45,9 +47,9 @@ Ok, time to stop mucking about with concepts and learn how to play an audio file
 
         request.send();
     };
-</pre>
+</syntaxHighlight>
 <p>Using an XMLHttpRequest allows us to tell the browser that we&#8217;re not loading a normal text file. By specifying <code>arraybuffer</code>, we&#8217;re flagging up the fact that we&#8217;re expecting binary data. Once we receive that chunk of data from the server, and because we know it&#8217;s an audio file (audiophile! ha!), we decode this data using <code>context.decodeAudioData</code> and specify an anonymous function as the callback that is passed the decoded data in a handy audio buffer that&#8217;s ready to be played. To do so though, we need to write a playback function.</p>
-<pre class="prettyprint">
+<syntaxHighlight lang="javascript">
     var playAudioFile = function (buffer) {
         var source = context.createBufferSource();
 
@@ -55,10 +57,10 @@ Ok, time to stop mucking about with concepts and learn how to play an audio file
         source.connect(context.destination);
         source.noteOn(0); // Play sound immediately
     };
-</pre>
+</syntaxHighlight>
 In the above code <code>source</code> is the guitar in our analogy. It&#8217;s the very first node in our chain, and in this case we&#8217;re telling it that the source of the audio is from the buffer we just loaded. We then use <code>source.connect(context.destination)</code> to use a lead to connect the sound source to the speakers, <code>context.destination</code>, and <code>source.noteOn(0)</code> to play the sound after 0 seconds.</p>
 <p>Let&#8217;s put all of this together and see what we get:</p>
-<pre class="prettyprint">
+<syntaxHighlight lang="javascript">
     var context = new webkitAudioContext(),
         buffer;
 
@@ -85,13 +87,14 @@ In the above code <code>source</code> is the guitar in our analogy. It&#8217;s t
 
         request.send();
     }());
-</pre>
+</syntaxHighlight>
 <p>Reference this in an HTML file, make a cup of tea and relax while you enjoy the sounds of your choosing in the browser.</p>
 <p>I wouldn&#8217;t have been able to write this article without [http://smus.com Boris Smus]&#8217; code examples on [http://www.html5rocks.com/en/tutorials/webaudio/intro/ HTML5 Rocks] so check it out!</p>
 }}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Yes
