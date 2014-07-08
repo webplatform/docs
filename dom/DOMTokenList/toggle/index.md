@@ -1,19 +1,21 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns <code>true</code> if the token is now present (it was added); returns <code>false</code> if it is not (it was removed).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=token
 |Data type=String
 |Description=The token to toggle.
 |Optional=No
 }}{{Method Parameter
-|Index=0
+|Index=1
 |Name=force
 |Data type=Boolean
 |Description=Whether to force adding or removing the token. See Notes.
