@@ -57,7 +57,7 @@ There are additional constraints available. http://simpl.info/getusermedia/const
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Here's an example of using getUserMedia(), including code to cope with various browsers' prefixes.
-|Code=navigator.getUserMedia {{=}} ( navigator.getUserMedia {{||}}
+|Code=navigator.getUserMedia {{=}} ( navigator.getUserMedia ||
                        navigator.webkitGetUserMedia ||
                        navigator.mozGetUserMedia ||
                        navigator.msGetUserMedia);
