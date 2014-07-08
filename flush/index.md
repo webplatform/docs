@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Deletion candidate, or move this definition in context of something else.
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=flush
 |Definition=In a layout, a state in which no whitespace is present between two content elements, or between a content element and the edge of its container element.
