@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Appends a new character string to the end of the node's character data.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=text
 |Data type=String
 |Description=The new character string.
@@ -25,7 +27,6 @@
 var phrase = document.createTextNode("A flawed plan today");
 //append string to node (note initial space)
 phrase.appendData(" is better than a perfect plan tomorrow.");
-
 }}
 }}
 {{Notes_Section}}
