@@ -19,7 +19,7 @@ A screen shot of the Blocked content Icon in the IE address bar would be helpful
 |Return_value_description=Note that navigator.doNotTrack is not the value sent for the do-not-track header.  When the do-not-track header sends "1", navigator.doNotTrack is "yes".  When the header is unset, navigator.doNotTrack is "unspecified".  When the header sends "0" (currently unsupported in Firefox), navigator.doNotTrack is "no".
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
