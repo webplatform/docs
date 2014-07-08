@@ -1,18 +1,21 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Removes a specified range of characters from the node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=offset
 |Data type=String
 |Description=The zero-based character offset from which to start.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=count
 |Data type=String
 |Description=The number of characters to remove.
@@ -32,7 +35,6 @@ var phrase = document.createTextNode ("A flawed plan today is not better than a 
 phrase.deleteData(23, 4);
 //report result
 alert(phrase.data);
-
 }}
 }}
 {{Notes_Section
