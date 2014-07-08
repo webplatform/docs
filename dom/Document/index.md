@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Editorial notes=New listing page with proper object capitalization; replaces '''document'''.
 |Checked_Out=No
 }}
