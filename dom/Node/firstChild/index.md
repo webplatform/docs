@@ -20,9 +20,8 @@ If the node is childless, null is returned.
 |Not_required=No
 |Examples={{Single Example
 |Description=The following code example implements the '''firstChild''' attribute to get the first child element of an object.
-|Code=
-&lt;body&gt;
-&lt;ul id {{=}}" oList"&gt;
+|Code=&lt;body&gt;
+&lt;ul id {{=}}"oList"&gt;
 &lt;li&gt;List Item 1&lt;/li&gt;
 &lt;li&gt;List Item 2&lt;/li&gt;
 &lt;li&gt;List Item 3&lt;/li&gt;
