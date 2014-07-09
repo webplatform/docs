@@ -1,12 +1,9 @@
-{{Page Title|JavaScript}}
+{{Page_Title|JavaScript}}
 {{Flags
 |State=Unreviewed
-|Checked_Out=No
 |Editorial notes=Not sure we should have ready on the top level to mention its ready
+|Checked_Out=No
 }}
-
-{{Languages}}
-
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
 
 The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js], [https://developer.mozilla.org/en-US/docs/Rhino Rhino], or [https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey SpiderMonkey], or run it as an embedded language such as the [http://en.wikipedia.org/wiki/Scripting_for_the_Java_Platform JavaScript engine inside Java].
@@ -14,6 +11,7 @@ The usage of JavaScript is not limited inside browsers. You can use it in server
 Note: If you are completely new to web development, you may want to review our [[Beginners]] section.
 }}
 {{Basic Page}}
+{{Languages}}
 
 ==In This Section==
 ; [[javascript/objects|Objects]]: Provides a list of objects with links to information about each object.
@@ -51,6 +49,7 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
 |HTML5Rocks_link=
