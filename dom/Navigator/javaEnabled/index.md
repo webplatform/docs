@@ -42,6 +42,17 @@
 }}
 }}
 {{Notes_Section
+|Usage=Feature testing for Java JRE support.
+This usage scenario can be unreliable as the client may have disabled JRE.
+Alternatively use text fallbacks for your applet and object tags that are using Java JRE.
+eg.
+&lt;applet&gt;
+your browser does not have Java JRE installed or it has been disabled.
+&lt;/applet&gt;
+&lt;object&gt;
+your browser does not have Java JRE installed or it has been disabled.
+&lt;/object&gt;
+Note that the &lt:applet&gt; tag has been depreciated in html5. Use the &lt;object&gt; tag instead.
 |Notes=This method does NOT determine if javascript or active scripting is enabled in the web browser or not.
 To detect if active scripting is enabled in a web browser add &lt;noscript&gt; tags to your web page.
 
