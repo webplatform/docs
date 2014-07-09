@@ -1,12 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets a reference to the first child in the childNodes collection of the object. }}
+{{Summary_Section|Gets a reference to the first child node in the childNodes collection of the object.
+
+If the node is childless, null is returned.
+}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
 |Read_only=No
@@ -16,16 +20,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=The following code example implements the '''firstChild''' attribute to get the first child element of an object.
-|Code=&lt;SCRIPT&gt;
+|Code=&lt;script type{{=}}"text/javascript"&gt;
 var oFirstChild {{=}} oList.firstChild;
-&lt;/SCRIPT&gt;
-&lt;BODY&gt;
-&lt;UL ID {{=}} oList&gt;
-&lt;LI&gt;List Item 1
-&lt;LI&gt;List Item 2
-&lt;LI&gt;List Item 3
-&lt;/UL&gt;
-&lt;BODY&gt;
+&lt;/script&gt;
+&lt;body&gt;
+&lt;ul id {{=}}" oList"&gt;
+&lt;li&gt;List Item 1&lt;/li&gt;
+&lt;li&gt;List Item 2&lt;/li&gt;
+&lt;li&gt;List Item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/body&gt;
 }}{{Single Example
 |Description=The following example shows how the firstChild method will include white space nodes #text.
 |Code=&lt;p id{{=}}"para-01"&gt;
@@ -38,7 +42,6 @@ var oFirstChild {{=}} oList.firstChild;
   var p2{{=}}document.getElementById('p2');
   alert(p2.firstChild.nodeName);// SPAN
 &lt;/script&gt;
-
 }}
 }}
 {{Notes_Section
