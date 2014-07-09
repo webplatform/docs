@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Not Ready
 |Editorial notes=MSDN documentation needs updating
 ref to the latest draft.
 navigator.msdoNotTracked dropped in favor of request headers.
 A screen shot of the Blocked content Icon in the IE address bar would be helpful.
-|Checked_Out=Yes
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
