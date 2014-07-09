@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|<code>::before</code> creates a pseudo-element, which allows you to insert content onto a page from CSS before the selected element(s). The end result isn't actually in the DOM, but it appears on the page as if it is. The pseudo-element is inline by default.}}
 {{CSS_Selector}}
