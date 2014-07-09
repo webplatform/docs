@@ -13,7 +13,7 @@ The usage of JavaScript is not limited inside browsers. You can use it in server
 
 Note: If you are completely new to web development, you may want to review our [[Beginners]] section.
 }}
-
+{{Basic Page}}
 
 ==In This Section==
 ; [[javascript/objects|Objects]]: Provides a list of objects with links to information about each object.
