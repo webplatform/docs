@@ -1,5 +1,8 @@
 {{Page_Title|&#58;focus}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -41,6 +44,7 @@ There are several ways to give focus to an element:
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
@@ -50,7 +54,7 @@ There are several ways to give focus to an element:
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Classes
+|Topic_clusters=Pseudo-Classes, Selectors
 }}
 {{Topics|CSS}}
 {{External_Attribution
