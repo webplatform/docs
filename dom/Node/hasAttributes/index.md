@@ -2,7 +2,7 @@
 {{Flags
 |State=Ready to Use
 |Editorial notes=Incorrect MSDN link removed.
-Neither MSDN nor MDN document hasAttributes
+MSDN has no document for hasAttributes
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -65,7 +65,8 @@ The '''hasAttributes''' method determines whether the object has any attributes 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.hasAttributes Node.hasAttributes]
 |MSDN_link=
 |HTML5Rocks_link=
 }}
