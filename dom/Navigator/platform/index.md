@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=Return values for Android, iOS and blackberry operating systems from browsers hosted on non-wintel OS.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
