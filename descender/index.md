@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; needs to be moved
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=descender
 |Definition=The downward-pointing stem of a letter, such as "p" or "y", that extends below the baseline.
