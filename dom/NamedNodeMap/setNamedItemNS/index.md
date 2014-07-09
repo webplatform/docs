@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|State=In Progress
+|Editorial notes=example required
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets an attribute object as part of the object. }}
+{{Summary_Section|Sets an attribute object as part of the object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=pAttrNode
