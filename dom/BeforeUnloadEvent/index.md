@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Represents the [[dom/Event/beforeunload|beforeunload]] event which can be used to take an action (e.g., display a prompt, prevent a navigation from happening) before unloading the current page.}}
 {{API_Object
