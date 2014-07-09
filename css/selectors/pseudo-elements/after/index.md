@@ -1,8 +1,10 @@
 {{Page_Title|&#58;&#58;after}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
