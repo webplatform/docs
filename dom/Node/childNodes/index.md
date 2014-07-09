@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves a collection of HTML Elements and TextNode objects that are direct descendants of the specified object.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
 |Read_only=No
@@ -15,13 +16,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=This example shows how to assign to a variable the '''childNodes''' collection of the '''body''' object.
-|Code=&lt;SCRIPT&gt;
+|Code=&lt;script&gt;
 var aNodeList {{=}} oBody.childNodes;
-&lt;/SCRIPT&gt;
+&lt;/script&gt;
 :
-&lt;BODY ID{{=}}"oBody"&gt;
-&lt;SPAN ID{{=}}"oSpan"&gt;A Span&lt;/SPAN&gt;
-&lt;/BODY&gt;
+&lt;body id{{=}}"oBody"&gt;
+&lt;span id{{=}}"oSpan"&gt;A Span&lt;/span&gt;
+&lt;/body&gt;
 }}{{Single Example
 |Description=This example shows how to assign to a variable the '''childNodes''' collection of a node created with the [[dom/Document/createElement|'''createElement''']] method.
 |Code=var oParentNode {{=}} document.createElement("DIV");
@@ -34,8 +35,7 @@ var aNodeList {{=}} oParentNode.childNodes;
 {{Notes_Section
 |Notes====Remarks===
 The '''childNodes''' collection can contain [[dom/HTMLElement|'''HTML Element''']] and [[dom/TextNode|'''TextNode''']] objects.
-If you check the '''childNodes''' collection of an element created through standard HTML, you  encounter [[dom/TextNode|'''TextNode''']] objects in unexpected places—in place of line breaks, for example. Alternately, if you create an element using the Document Object Model (DOM), Windows Internet Explorerdoesn't create extraneous '''TextNode''' objects.
-
+If you check the '''childNodes''' collection of an element created through standard HTML, you  encounter [[dom/TextNode|'''TextNode''']] objects in unexpected places—in place of line breaks, for example. Alternately, if you create an element using the Document Object Model (DOM), Windows Internet Explorer doesn't create extraneous '''TextNode''' objects.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -51,8 +51,8 @@ If you check the '''childNodes''' collection of an element created through stand
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.childNodes Node.childNodes]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms537445(v=vs.85).aspx childNodes Property]
 |HTML5Rocks_link=
 }}
