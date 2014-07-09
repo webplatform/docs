@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,7 +23,31 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The following example compares the default Namespace of the body element to the SVG namespace and then to the xHTML namespace. 
+false then true is displayed.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta content{{=}}"text/html; charset=utf-8" http-equiv{{=}}"Content-Type"&gt;
+&lt;title&gt;isDefaultNamespace example&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+   &lt;script type{{=}}"text/javascript"&gt;//&lt;![CDATA[
+   	var nsSVG{{=}}'http://www.w3.org/2000/svg';
+	alert(document.body.isDefaultNamespace(nsSVG));
+	var nsxHTML{{=}}'http://www.w3.org/1999/xhtml';
+	alert(document.body.isDefaultNamespace(nsxHTML));
+   //]]&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -44,8 +69,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.isDefaultNamespace Node.isDefaultNamespace]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975127(v=vs.85).aspx isDefaultNamespace Method]
 |HTML5Rocks_link=
 }}
