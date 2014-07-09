@@ -5,7 +5,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Retrieves the operating system's natural language setting.
 
@@ -24,10 +24,11 @@ This property reflects the setting in the "Your locale (location)" box in the Re
 |Examples=
 }}
 {{Notes_Section
+|Usage=Do not use as this property reflects the language preferences of the users' Operating system NOT their language preferences for web content.
 |Notes====Remarks===
 This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 |Import_Notes====Syntax===
-el.language=navigator.userLanguage;
+var result=navigator.userLanguage;
 }}
 {{Related_Specifications_Section
 |Specifications=
