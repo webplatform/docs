@@ -1,15 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the operating system's natural language setting.
+
+This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
+}}
 {{API_Object_Property
 |Property_applies_to=dom/Navigator
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=navigator
+|Return_value_name=result
+|Javascript_data_type=String
+|Return_value_description=see [http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx Language Codes] for a full listing of possible values.
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,6 +27,7 @@
 |Notes====Remarks===
 This property reflects the setting in the "Your locale (location)" box in the Regional Options of Control Panel—for example, "English (United States).
 |Import_Notes====Syntax===
+el.language=navigator.userLanguage;
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -36,6 +45,6 @@ This property reflects the setting in the "Your locale (location)" box in the Re
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534713(v=vs.85).aspx navigator.userLanguage]
 |HTML5Rocks_link=
 }}
