@@ -1,5 +1,8 @@
 {{Page_Title|&#58;visited}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 }}
@@ -48,6 +51,7 @@ To preserver their users’ privacy, browsers often implement  counter-measures 
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
@@ -57,7 +61,7 @@ To preserver their users’ privacy, browsers often implement  counter-measures 
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Classes
+|Topic_clusters=Pseudo-Classes, Selectors
 }}
 {{Topics|CSS}}
 {{External_Attribution
