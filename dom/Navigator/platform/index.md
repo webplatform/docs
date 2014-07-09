@@ -7,7 +7,7 @@
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|DOM Navigator Platform}}
+{{API_Name}}
 {{Summary_Section|Retrieves the name of the user's operating system.
 
 In IE10 and higher and WaterFox browsers this will return the bitness of the current tab. eg
@@ -20,8 +20,7 @@ Win32 or Win64.
 |Example_object_name=navigator
 |Return_value_name=returnValue
 |Javascript_data_type=String
-|Return_value_description=
-HP-UX
+|Return_value_description=HP-UX
 
 HP UNIX-based computers.
 
@@ -52,7 +51,6 @@ Windows 16-bit platform.
 WinCE
 
 Windows CE platform.
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -65,7 +63,7 @@ To determine what bitness a web page is being rendered with, and subsequently th
 javascript:alert(navigator.platform);
 in the browser's Address bar.
 |Import_Notes====Syntax===
-var platform = navigator.platform 
+var platform = navigator.platform
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
