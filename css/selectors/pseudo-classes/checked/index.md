@@ -1,8 +1,10 @@
 {{Page_Title|&#58;checked}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs description, example
+|Checked_Out=Yes
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
