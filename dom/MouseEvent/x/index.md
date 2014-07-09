@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=In Progress
+|Editorial notes=example required
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -14,7 +15,7 @@
 |Example_object_name=event
 |Return_value_name=xCoordinate
 |Javascript_data_type=Number
-|Return_value_description=Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element. 
+|Return_value_description=Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
 }}
 {{Examples_Section
 |Not_required=No
