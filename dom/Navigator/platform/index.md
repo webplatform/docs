@@ -54,7 +54,10 @@ Windows CE platform.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The external example enums the properties and methods of the navigator object of the client web browser and displays the results on the screen.
+|LiveURL=http://result.dabblet.com/gist/b0053b13f0dc7d3b8e0c/e7a999df33666b9d624c77ef0d824ad90023842a
+}}
 }}
 {{Notes_Section
 |Usage=Could be used to feature test for support for x86 plugins or ActiveX controls.
