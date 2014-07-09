@@ -10,7 +10,7 @@
 {{Summary_Section|Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=event
 |Return_value_name=yCoordinate
 |Javascript_data_type=Number
@@ -54,6 +54,6 @@ If the mouse or finger is outside the window at the time the event fires, this p
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535164(v=vs.85).aspx event.y Property]
 |HTML5Rocks_link=
 }}
