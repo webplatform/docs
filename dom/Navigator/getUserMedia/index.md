@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=In development channel for MSIE.
 see status.modern.ie.
 ms prefixed method only available on Win8.
