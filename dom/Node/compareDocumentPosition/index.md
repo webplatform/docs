@@ -62,7 +62,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example determines if the web document is incorrectly marked up with the body element before the head element.
+Note: Web browsers sometimes self correct markup errors. HTML5 is the first specification to give guidelines to browser vendors on how they should correct markup errors.
+|Code=var head = document.getElementsByTagName('head').item(0);
+if (head.compareDocumentPosition(document.body) & Node.DOCUMENT_POSITION_FOLLOWING) {
+  console.log("well-formed document");
+} else {
+  console.log("<head> is not before <body>");
+}
+}}
 }}
 {{Notes_Section
 |Notes=For information about the factors that affect the position of nodes within the DOM, see the related specifications.
