@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
+|State=Out of Date
+|Editorial notes=I think the empty method only applies to the selection object, not a node collection.
+this is legacy MSIE method of document.selection(); and does not apply to document Nodes.
+MSDN doco ref: http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Cancels the current selection, sets the selection type to none, and sets the item property to null. }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=selection
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
@@ -41,6 +45,6 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx empty() Method]
 |HTML5Rocks_link=
 }}
