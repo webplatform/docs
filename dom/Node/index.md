@@ -13,7 +13,7 @@
 |Overview=The '''Node''' interface is the primary datatype for the entire Document Object Model (DOM). It represents a single node in the document tree.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
