@@ -18,8 +18,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example returns a formatted listing of all 'data-' prefixed attributes of an element (el)
-|Code=        function GetDataAttributes(el) {
-            var buf = '';
+|Code=function GetDataAttributes(el) {
+            var buf ={{'}}{{'}};
             try {
                 for (var i = 0; i < el.attributes.length; i++) {
                 	if (el.attributes[i].value !== 'null' && el.attributes[i].value.length > 0 && el.attributes[i].name.indexOf('data-')>-1) {
@@ -29,7 +29,6 @@
             catch (e) {}
             return buf;
         }
-
 }}
 }}
 {{Notes_Section
@@ -37,7 +36,6 @@
 
 The depreciated presentational attributes are
 datafld, datasrc, marginwidth, marginheight, allowtransparency, vspace, hspace, height, width, align, valign, alink, link, vlink, background, bgcolor, color, fgcolor, border, cellpadding, cellspacing, clear, frameborder, nowrap, scrolling
-
 |Notes=For backwards compatibility first test if an attribute Node is null.
 Binary attributes may or may not have a value
 }}
