@@ -1,8 +1,10 @@
-<div class='note'>This page is the root of our brand new import [[WPD:Projects/javascript|JavaScript Project]]</div>
+{{Page Title|JavaScript}}
+{{Flags
+|State=Unreviewed
+|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
+}}
 
 {{Languages}}
-
-{{Page_Title|JavaScript}}
 
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
 
