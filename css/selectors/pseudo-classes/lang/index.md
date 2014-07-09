@@ -1,20 +1,20 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs title, summary, spec reference, standardization status, fix broken links
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Selector
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
-|LiveURL=Click to view sample.
-|Code=
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -43,10 +43,11 @@ p:lang(en) {
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+|LiveURL=Click to view sample.
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The set rules are applied when the value of ''C'' matches (or is a hyphen-separated substring of) the element's language value. The value of ''C'' should be a language code that is  indicated by [http://go.microsoft.com/fwlink/p/?linkid{{=}}203658 RFC3066: Tags for the Identification of Languages].
 If ''C'' is empty or invalid, the selector will have no effect.
 This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode or higher. For more information, see Defining Document Compatibility.
@@ -59,8 +60,7 @@ In this example, the selector will match all of the listed language codes (and a
  <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
    direction: rtl;
  }</code>
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code><strong/>''
 selector
 ''''':lang(C)'''(''C'') {...}</code>
@@ -69,16 +69,25 @@ selector
 ;''C'':Language code as specified in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203658 RFC3066: Tags for the Identification of Languages]
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.11.4
-
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Classes
+|Topic_clusters=Pseudo-Classes, Selectors
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
