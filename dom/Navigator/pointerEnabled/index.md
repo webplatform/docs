@@ -7,7 +7,10 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Indicates if the browser will fire pointer events for pointing input.}}
+{{Summary_Section|Indicates if the browser will fire pointer events for pointing input.
+
+In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
+}}
 {{API_Object_Property
 |Property_applies_to=dom/Navigator
 |Read_only=Yes
