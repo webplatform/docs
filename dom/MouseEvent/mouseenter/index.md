@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -14,6 +14,7 @@
 |Bubbles=Yes
 |Target=dom/Element
 |Cancelable=Yes
+|Default_action=none
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
