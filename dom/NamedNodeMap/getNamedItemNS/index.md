@@ -33,8 +33,7 @@
 |Description=Create a SVG circle element.
 |Code=var nsSVG='http://www.w3.org/2000/svg';
 var osvgCircleTag=document.createElementNS(nsSVG,'circle');
-
-
+alert(osvgCircleTag.getNamedItemNS(nsSVG,'r');
 }}
 }}
 {{Notes_Section
