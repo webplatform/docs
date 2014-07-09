@@ -1,6 +1,7 @@
 {{Page Title|JavaScript}}
 {{Flags
 |State=Unreviewed
+|Checked_Out=No
 |Editorial notes=Not sure we should have ready on the top level to mention its ready
 }}
 
@@ -10,7 +11,7 @@
 
 The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js], [https://developer.mozilla.org/en-US/docs/Rhino Rhino], or [https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey SpiderMonkey], or run it as an embedded language such as the [http://en.wikipedia.org/wiki/Scripting_for_the_Java_Platform JavaScript engine inside Java].
 
-Note: If you are completely new to web development, you may want to review [http://www.afterhoursprogramming.com/tutorial/JavaScript/Overview/ JavaScript Beginner Tutorials].
+Note: If you are completely new to web development, you may want to review our [[Beginners]] section.
 }}
 
 
@@ -46,9 +47,10 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 {{Special:PrefixIndex/javascript/}}
 
 {{See_Also_Section}}
+{{Notes_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
 |HTML5Rocks_link=
