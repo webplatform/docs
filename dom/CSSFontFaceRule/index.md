@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs children, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
