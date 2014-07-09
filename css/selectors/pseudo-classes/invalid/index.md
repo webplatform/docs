@@ -1,20 +1,20 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs title, summary, spec reference, standardization status, fix broken links
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
-{{CSS_Selector
-|Content=
-}}
-{{Topics|CSS}}
+{{Summary_Section}}
+{{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example puts a green border on a field when it is valid and a red border with bold text when it isn't. The email field is required, but the others aren't. The URL field is pre-filled with a bad URL, so it isn't valid when the page opens. In addition, the two optional fields are styled with light gray backgrounds, and the required field with an eye-catching yellow background.
-|LiveURL=
-|Code=
-&lt;!DOCTYPE html &gt;
+|Code=&lt;!DOCTYPE html &gt;
 &lt;html&gt;
 &lt;head&gt;
   &lt;title&gt;:valid/:invalid Pseudo-class Example&lt;/title&gt;
@@ -45,10 +45,10 @@
   &lt;/form&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 
 The criteria used to determine whether an input field is ''valid'' correspond to the properties of the [http://go.microsoft.com/fwlink/p/?LinkID{{=}}233317 ValidityState] Document Object Model (DOM) object. For more information on determining validity, see the following reference topics:
 {| class="wikitable"
@@ -85,17 +85,26 @@ The criteria used to determine whether an input field is ''valid'' correspond to
 |}
  
 A required field will be invalid until the correct input is entered. A field that isn't required but has validation, such as a URL field, will be valid until text is entered.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 
 selector
 :invalid
 ===Parameters===
 ;''selector'':A CSS simple selector.
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=Pseudo-Classes, Selectors
+|Manual_sections====Related pages (MSDN)===
 *<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}238198 HTML5 Forms (Internet Explorer 10 Guide for Developers)]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}233316 validity attribute]</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}233317 ValidityState object]</code>
@@ -103,12 +112,12 @@ selector
 *<code>[[css/selectors/pseudo-classes/:optional|:optional]]</code>
 *<code>[[css/selectors/pseudo-classes/:required|:required]]</code>
 *<code>[[css/selectors/pseudo-classes/:valid|:valid]]</code>
-|Topic_clusters=Selectors, Pseudo-Classes
 }}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
