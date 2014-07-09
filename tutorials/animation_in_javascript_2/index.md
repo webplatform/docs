@@ -1,37 +1,21 @@
-{{Page_Title}}
+{{Page Title|JavaScript animation}}
 {{Flags
-|Content=Examples Needed
+|Content=Merge into another page, or create a separate tutorial
 |Checked_Out=No
+State=Not Ready
+}}
+{{Editorial/Merge_Candidate
+|Other=tutorials/animation_in_javascript
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Javascript can be used to create animation effects on a web page as simple as highlighting new content in yellow and then fading it back to normal, creating transitions, or moving elements on the page (think popup windows).  Creative use of techniques and tools such as common Javascript libraries allows us to create user interfaces that are unobtrusive and responsive to user behavior.  We begin by using Javascript's <code>setInterval()</code> function to create our own animations by manipulating DOM elements' CSS properties to create effects.  Later, we illustrate the use of code libraries like jQuery to create more complex animations or create simple effects more easily than using by Javascript alone.}}
+{{Summary_Section|Javascript can be used to create animation effects on a web page as simple as highlighting new content in yellow and then fading it back to normal, creating transitions, or moving elements on the page (think popup windows).  Creative use of techniques and tools such as common Javascript libraries allows us to create user interfaces that are unobtrusive and responsive to user behavior.  We begin by using JavaScript's <tt>setInterval()</tt> function to create our own animations by manipulating DOM elements' CSS properties to create effects.  Later, we illustrate the use of code libraries like jQuery to create more complex animations or create simple effects more easily than using by Javascript alone.}}
 {{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transitions, Visual Effects
-}}
-{{Topics|CSS, JavaScript, UI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
 == Introduction ==
 In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience for people using browsers that support it. Common uses are: smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
  
@@ -219,3 +203,25 @@ This concludes our look at animating web page functionality using JavaScript - I
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
 [[Category:Markup Elements]]
+
+
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transitions, Visual Effects
+}}
+{{Topics|CSS, JavaScript, UI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
