@@ -14,15 +14,15 @@ Neither MSDN nor MDN document hasAttributes
 |Parameters=
 |Method_applies_to=dom/Node
 |Example_object_name=object
-|Return_value_name=object
+|Return_value_name=bResult
 |Javascript_data_type=Boolean
 |Return_value_description=true if this node has any attributes, false otherwise.
- 
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following example will display an alert message that "the root element has attributes'
+|Description=The following example will display an alert message that "the root element has attributes'.
+No following alert is displayed for the body element as it has no attributes.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html id{{=}}"root" class{{=}}"desktop"&gt;
 
@@ -41,7 +41,6 @@ if(be.hasAttributes()){alert('the body element has attributes');}
 &lt;/body&gt;
 
 </html>
-
 }}
 }}
 {{Notes_Section
