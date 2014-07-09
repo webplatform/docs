@@ -1,48 +1,59 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Incorrect MSDN link removed.
+Neither MSDN nor MDN document hasAttributes
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns whether this node (if it is an element) has any attributes}}
 {{API_Object_Method
-|Parameters={{Method Parameter
-|Name=pfHasAttribute
-|Data type=any
-|Description='''VARIANT_FALSE''' (false)
-
-
-
-The element does not define any attributes.
-
-
-'''VARIANT_TRUE''' (true)
-
-
-
-The element defines one or more attributes.
-|Optional=No
-}}
+|Parameters=
 |Method_applies_to=dom/Node
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Javascript_data_type=Boolean
+|Return_value_description=true if this node has any attributes, false otherwise.
+ 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=The following example will display an alert message that "the root element has attributes'
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html id{{=}}"root" class{{=}}"desktop"&gt;
+
+&lt;head&gt;
+&lt;meta content{{=}}"text/html; charset=utf-8" http-equiv{{=}}"Content-Type"&gt;
+&lt;title&gt;hasAttributesExample&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+var re{{=}}document.getElementById('root');
+if(re.hasAttributes()){alert('the root element has attributes');}
+var be{{=}}document.body;
+if(be.hasAttributes()){alert('the body element has attributes');}
+&lt;/script&gt;
+&lt;/body&gt;
+
+</html>
+
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
 The '''hasAttributes''' method determines whether the object has any attributes at all. The [[dom/Element/hasAttribute|'''hasAttribute''']] method tests for the existence of a specified attribute.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM Level 2 Core
+|URL=http://www.w3.org/TR/DOM-Level-2-Core/core.html
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -55,8 +66,7 @@ The '''hasAttributes''' method determines whether the object has any attributes 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
