@@ -13,7 +13,7 @@
 |Subclass_of=css/cssom/CSSRule
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
