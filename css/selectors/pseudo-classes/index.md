@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|Editorial notes=Needs spec reference, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Stub, Needs Topics, Missing Relevant Sections, Data Not Semantic, Needs Review
 |Content=Incomplete, Examples Needed
