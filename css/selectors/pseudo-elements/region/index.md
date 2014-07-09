@@ -1,5 +1,7 @@
 {{Page_Title|::region}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
