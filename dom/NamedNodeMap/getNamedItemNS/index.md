@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -28,9 +28,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Create a SVG circle element.
+|Code=var nsSVG='http://www.w3.org/2000/svg';
+var osvgCircleTag=document.createElementNS(nsSVG,'circle');
+
+
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=Used to create and manipulate XML and SVG documents.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
