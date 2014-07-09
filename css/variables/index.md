@@ -1,6 +1,6 @@
 {{Page_Title|CSS variables}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
 |Editorial notes={{Editorial/Move_Candidate
 | Currently future tech.  Only in experimental stages.
 }}
