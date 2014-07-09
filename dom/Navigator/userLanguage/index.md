@@ -25,7 +25,7 @@ This property reflects the setting in the "Your locale (location)" box in the Re
 |Description=This example enumerates the properties and methods of your web browsers 'navigator' object and displays the results on the screen.
 
 the navigator.userLanguage may or may not be supported by your web browser.
-|LiveURL=http://result.dabblet.com/gist/b0053b13f0dc7d3b8e0c/e7a999df33666b9d624c77ef0d824ad90023842a
+|LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
 }}
 }}
 {{Notes_Section
