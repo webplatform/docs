@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,7 +23,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=In the follow example if #targetElm is the first div element of the document 'true' will be displayed.
+|Code=var targetElm {{=}} document.getElementById("targetElm");
+var firstDiv {{=}} document.getElementsByTagName("div")[0];
+
+alert( targetElm.isEqualNode(firstDiv) );
+}}
 }}
 {{Notes_Section
 |Usage=This method determines whether or not two nodes are equal.  Nodes are considered equal when the values of the following attributes are equal:
@@ -68,8 +75,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.isEqualNode Node.isEqual]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975128(v=vs.85).aspx isEqualNode Method]
 |HTML5Rocks_link=
 }}
