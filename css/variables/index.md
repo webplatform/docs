@@ -1,9 +1,11 @@
 {{Page_Title|CSS variables}}
 {{Flags
-|High-level issues=Move Candidate
+|State=Ready to Use
 |Editorial notes={{Editorial/Move_Candidate
 | Currently future tech.  Only in experimental stages.
 }}
+|Checked_Out=No
+|High-level issues=Move Candidate
 }}
 {{Byline
 |Name=Dave Gash
