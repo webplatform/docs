@@ -1,8 +1,10 @@
 {{Page_Title|&#58;&#58;selection}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
@@ -40,5 +42,7 @@ It was proposed as part of CSS3 Selectors, but was removed due to concerns of un
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
+|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
