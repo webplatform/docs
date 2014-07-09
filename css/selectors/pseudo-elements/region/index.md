@@ -2,7 +2,7 @@
 {{Flags
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies CSS styles to portions of content as it appears when flowing within a specified set of ''regions''.}}
 {{CSS_Selector
@@ -14,7 +14,7 @@
      }
  }
 
-The ''region_selector'' specifies a set of region elements. Within that scope, the ''content_selector'' applies to any [[/dom/apis/range|''range'']] of the selected content when it appears within each region. This example produces the following result:
+The ''region_selector'' specifies a set of region elements. Within that scope, the ''content_selector'' applies to any [[dom/apis/range|''range'']] of the selected content when it appears within each region. This example produces the following result:
 
 <syntaxhighlight lang="css">
  /* default paragraph text */
