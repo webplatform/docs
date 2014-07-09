@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -15,8 +15,7 @@ The HTML5 specification also allows any browser to return "Netscape" here, for c
 |Read_only=Yes
 |Example_object_name=navigator
 |Javascript_data_type=String
-|Return_value_description=
-Microsoft Internet Explorer
+|Return_value_description=Microsoft Internet Explorer
 
 Returned by Internet Explorer 10 and earlier.
 
@@ -27,7 +26,6 @@ Default. Returned by Netscape Navigator, Google Chrome, Mozilla Firefox, and IE1
 MSAppHost/1.0 
 
 Returned by WWAHost.exe.
-
 }}
 {{Examples_Section
 |Not_required=No
