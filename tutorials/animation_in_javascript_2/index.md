@@ -1,11 +1,9 @@
-{{Page Title|JavaScript animation}}
+{{Page_Title|JavaScript animation}}
 {{Flags
-|Content=Merge into another page, or create a separate tutorial
+|State=Not Ready
+|Editorial notes=Merge into [[tutorials/animation_in_javascript]] or rename
 |Checked_Out=No
-State=Not Ready
-}}
-{{Editorial/Merge_Candidate
-|Other=tutorials/animation_in_javascript
+|Content=Merge into another page, or create a separate tutorial
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -16,6 +14,35 @@ State=Not Ready
 |Examples=
 }}
 {{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transitions, Visual Effects
+}}
+{{Topics|CSS, JavaScript, UI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Editorial/Merge_Candidate
+|Other=tutorials/animation_in_javascript
+}}
+
+
+
+
+
+
 == Introduction ==
 In this [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] article, I will look at the art of creating animations using JavaScript — animation is often used to add to the user experience for people using browsers that support it. Common uses are: smoothly expanding and collapsing panels, progress bars, and visual feedback in forms.
  
@@ -203,25 +230,3 @@ This concludes our look at animating web page functionality using JavaScript - I
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
 [[Category:Markup Elements]]
-
-
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Background, CSS Attributes, Responsive Web Design, Transforms, Transitions, Visual Effects
-}}
-{{Topics|CSS, JavaScript, UI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
