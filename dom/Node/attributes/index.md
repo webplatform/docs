@@ -14,21 +14,17 @@
 |Return_value_description=NamedNodeMap that allows to access attributes through their names.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
-|Language=HTML
-|Description=This example returns a formatted listing of all 'data-' prefixed attributes of an element (el)
-|Code=function GetDataAttributes(el) {
-            var buf ={{'}}{{'}};
-            try {
-                for (var i = 0; i < el.attributes.length; i++) {
-                	if (el.attributes[i].value !== 'null' && el.attributes[i].value.length > 0 && el.attributes[i].name.indexOf('data-')>-1) {
-                        buf += '<b>' + el.attributes[i].name + '<\/b>=\"' + el.attributes[i].value + '\"&nbsp;<br/>';}
-                }
-            }
-            catch (e) {}
-            return buf;
-        }
+|Language=JavaScript
+|Description=This example enumerates the attributes of the body element.
+|Code=var el=document.body;
+var buf='';
+for(var i=0;i<el.attributes.length;i++)
+{
+buf+=el.attributes[i].name + '\n';
+}
+alert(buf);
 }}
 }}
 {{Notes_Section
