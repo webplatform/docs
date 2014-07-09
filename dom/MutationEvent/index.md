@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -13,7 +13,6 @@ Mutation Events (W3C DOM Level 3 Events) have been deprecated in favor of Mutati
 Do not use it in old or new projects. 
 
 Pages or Web apps using it may break at any time.
-
 }}
 {{API_Object
 |Subclass_of=dom/Event
