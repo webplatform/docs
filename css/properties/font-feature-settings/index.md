@@ -118,9 +118,9 @@ Whenever possible, Web authors should use the <code>font-variant</code> property
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Yes
 |Firefox_mobile_prefixed_version=18.0
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_supported=Yes
+|IE_mobile_version=10.0
+|IE_mobile_prefixed_supported=No
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
