@@ -11,8 +11,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Navigator
-|Example_object_name=javaEnabled
-|Return_value_name=navigator
+|Example_object_name=navigator
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
