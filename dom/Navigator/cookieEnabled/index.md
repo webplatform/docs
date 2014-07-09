@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -13,8 +13,7 @@
 |Read_only=Yes
 |Example_object_name=navigator
 |Javascript_data_type=Boolean
-|Return_value_description=
-false (false)
+|Return_value_description=false (false)
 
 Client does not support cookies or cookies are disabled.
 
