@@ -1,8 +1,10 @@
 {{Page_Title|&#58;target}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge with [[CSS/Selectors/pseudo-classes/:target]]
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Topics, Merge Candidate, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|Editorial notes=Merge with [[CSS/Selectors/pseudo-classes/:target]]
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -32,12 +34,13 @@ selector
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors, Pseudo-Classes
+|Topic_clusters=Pseudo-Classes, Selectors
 }}
 {{Topics|CSS}}
 {{External_Attribution
