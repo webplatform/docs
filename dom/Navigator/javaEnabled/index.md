@@ -1,16 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Unreviewed
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This method indicates whether the current browser is Java Run Time Environment-enabled or not.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Navigator
-|Example_object_name=object
+|Example_object_name=javaEnabled
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Boolean
@@ -23,10 +24,10 @@
 !Description
 {{!}}-
 {{!}}true
-{{!}}Java is enabled.
+{{!}}Java JRE is enabled.
 {{!}}-
 {{!}}false
-{{!}}Java is not enabled.
+{{!}}Java JRE is not enabled.
 {{!}}}
  
 }}
@@ -34,7 +35,14 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=This method does NOT determine if javascript or active scripting is enabled in the web browser or not.
+To detect if active scripting is enabled in a web browser add &lt;noscript&gt; tags to your web page.
+
+The return value for this method indicates whether the preference that controls Java Run Time Environment is on or off - not whether the browser offers Java support in general.
+
+Java JRE can also be disabled from the web browser's Addons manager or the Java JRE control panel.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -45,12 +53,16 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=[http://java.com Download Java JRE from java.com]
+[http://javatester.org JavaTester.org ]
+[http://javatester.org/version.html Test the version of Java JRE your browser is using]
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins.javaEnabled javaEnabled Method]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536610(v=vs.85).aspx javaEnabled Method]
 |HTML5Rocks_link=
 }}
