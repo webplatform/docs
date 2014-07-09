@@ -56,7 +56,7 @@ your browser does not have Java JRE installed or it has been disabled.
 your browser does not have Java JRE installed or it has been disabled.
 &lt;/object&gt;
 
-Note that the &lt:applet&gt; tag has been depreciated in html5. Use the &lt;object&gt; tag instead.
+Note that the &lt;applet&gt; tag has been depreciated in html5. Use the &lt;object&gt; tag instead.
 |Notes=This method does NOT determine if javascript or active scripting is enabled in the web browser or not.
 To detect if active scripting is enabled in a web browser add &lt;noscript&gt; tags to your web page.
 
@@ -76,7 +76,9 @@ Java JRE can also be disabled from the web browser's Addons manager or the Java 
 }}
 {{See_Also_Section
 |Manual_links=[http://java.com Download Java JRE from java.com]
-[http://javatester.org JavaTester.org ]
+
+[http://javatester.org JavaTester.org - All about Java JRE ]
+
 [http://javatester.org/version.html Test the version of Java JRE your browser is using]
 }}
 {{Topics|DOM}}
