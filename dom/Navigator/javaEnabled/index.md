@@ -12,8 +12,8 @@
 |Parameters=
 |Method_applies_to=dom/Navigator
 |Example_object_name=javaEnabled
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Return_value_name=navigator
+|Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
 '''Boolean'''. Returns one of the following possible values:
@@ -33,7 +33,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Feature test for Java JRE. Negative results do not mean that Java JRE is not installed on the client. It can also indicate that the Java JRE has been disabled by the client Addons Manager or the Java JRE control panel.
+|Code=if (window.navigator.javaEnabled()) {
+   // browser has java JRE and it is enabled.
+}
+}}
 }}
 {{Notes_Section
 |Notes=This method does NOT determine if javascript or active scripting is enabled in the web browser or not.
