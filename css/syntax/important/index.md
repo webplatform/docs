@@ -1,10 +1,15 @@
+{{Page_Title|!important}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Move candidate
+|Checked_Out=No
 }}
+{{Summary_Section|Declarations with '''!important''' override similar declarations that are not marked as '''!important'''. This can be used in both author and user style sheets.}}
+{{Basic Page}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Basic_Page}}
-==Summary==
-Declarations with '''!important''' override similar declarations that are not marked as '''!important'''. This can be used in both author and user style sheets.
+
+
 ==Description==
 CSS attempts to create a "balance of power" between author and user style sheets. By default, rules in an author's style sheet override those in a user's style sheet. However, for balance, an '''!important''' declaration takes precedence over a normal declaration. Both author and user style sheets may contain '''!important''' declarations, and user '''!important''' rules override author '''!important''' rules.
 Declaring a shorthand property (for instance, the [[css/properties/background|'''background''']] property) to be '''!important''' is equivalent to declaring all of its sub-properties to be '''!important'''.
@@ -43,10 +48,12 @@ p { font-size: 24pt }
 {{See_Also_Section
 |Topic_clusters=Syntax
 }}
+{{Notes_Section}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
