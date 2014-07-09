@@ -1,8 +1,10 @@
 {{Page_Title|&#58;link}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Review
 |Content=Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
