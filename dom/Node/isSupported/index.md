@@ -34,7 +34,7 @@
 
 &lt;script&gt;
  // check to see if its supports the DOM2 HTML Module.
- var main {{=}} document.getElementById('doc');
+ var main {{=}} document.getElementById('divMain');
  var output {{=}} main.isSupported('HTML', '2.0');
 &lt;/script&gt;
 }}
@@ -46,8 +46,6 @@
 
 Deprecated
 This feature has been removed from the Web. Though some browsers may still support it, it is in the process of being dropped. Do not use it in old or new projects. Pages or Web apps using it may break at any time.
-
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
