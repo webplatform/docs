@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -14,6 +14,7 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=none
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
@@ -21,7 +22,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the difference between mouseout and mouseleave events.
-|Code=  var el = document.getElementById("test");
+|Code=var el = document.getElementById("test");
   function domouseleave(evt){
   if(!evt)evt=window.event;
   var el=(evt.target)?evt.target:evt.srcElement;
@@ -46,7 +47,6 @@
   	el.attachEvent('onmouseleave',domouseleave);
   	el.attachEvent('onmouseout', domouseout);
   }
-
 |LiveURL=http://result.dabblet.com/gist/eaba649bc760d5831769/40c8a5bde01f6ac7896353103b65313d550aed40
 }}
 }}
