@@ -5,15 +5,15 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a value that indicates whether the object has children. }}
+{{Summary_Section|Returns a value that indicates whether the object has children.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Node
 |Example_object_name=object
 |Return_value_name=bResult
-|Javascript_data_type=DOM Node
+|Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
 {{{!}} class="wikitable"
