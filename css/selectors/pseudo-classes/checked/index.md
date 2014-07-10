@@ -1,7 +1,7 @@
 {{Page_Title|&#58;checked}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs description, example
+|Editorial notes=Needs description, example, remove topic cluster flags
 |Checked_Out=Yes
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
