@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes={{Editorial/Deletion_Candidate | A more complete duplicate page exists }}
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes={{Editorial/Deletion_Candidate | A more complete duplicate page exists }}
 }}
 {{Standardization_Status}}
 {{API_Name}}
