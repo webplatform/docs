@@ -1,5 +1,8 @@
 {{Page_Title|HTML links}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Fix minor bugs in comments
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
