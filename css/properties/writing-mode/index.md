@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
-|Checked_Out=No
+|State=Almost Ready
 |Editorial notes=Under the example section, first example 
 <style>
-  ms-writing-mode lr-tb... would be clearer if it states that syntax supported by legacy IE, not old syntax since the -ms is listed as option in IE 5 at the bottom.  
-
+  ms-writing-mode lr-tb... would be clearer if it states that syntax supported by legacy IE, not old syntax since the -ms is listed as option in IE 5 at the bottom.
+|Checked_Out=No
+|Content=Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
