@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|State=In Progress
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=css/selectors/id_selector}}
+|Checked_Out=No
+|High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
