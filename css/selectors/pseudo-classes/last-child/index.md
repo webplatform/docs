@@ -1,7 +1,7 @@
 {{Page_Title|:last-child}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
