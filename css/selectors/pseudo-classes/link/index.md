@@ -1,7 +1,7 @@
 {{Page_Title|&#58;link}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Review
 |Content=Compatibility Incomplete, Examples Best Practices
