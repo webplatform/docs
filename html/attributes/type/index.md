@@ -1,7 +1,10 @@
 {{Page_Title|type}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
