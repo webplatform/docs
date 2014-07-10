@@ -1,5 +1,7 @@
 {{Page_Title|HTML text}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Fix minor bugs in comments
 |Checked_Out=No
 }}
 {{Byline}}
