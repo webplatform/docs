@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -20,20 +21,23 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''nextSibling''' property to obtain the next item in the list.
-|Code=&lt;script&gt;
-// returns the list item labeled 'List Item 2'
-var oSibling {{=}} document.getElementById("oList").childNodes(0).nextSibling;
-&lt;/script&gt;
-&lt;body&gt;
+|Code=&lt;body&gt;
 &lt;ul id{{=}}"oList"&gt;
 &lt;li&gt;List Item 1&lt;/li&gt;
 &lt;li&gt;List Item 2&lt;/li&gt;
 &lt;li&gt;List Item 3&lt;/li&gt;
 &lt;/ul&gt;
-&lt;body&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+// returns the list item labeled 'List Item 2'
+var oSibling {{=}} document.getElementById("oList").childNodes(0).nextSibling;
+&lt;/script&gt;
+
+&lt;/body&gt;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Used to Enumerate the DOM tree.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
@@ -53,8 +57,8 @@ var oSibling {{=}} document.getElementById("oList").childNodes(0).nextSibling;
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nextSibling Node.nextSibling]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534189(v=vs.85).aspx nextSibbling Property]
 |HTML5Rocks_link=
 }}
