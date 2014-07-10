@@ -1,4 +1,8 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Glossary}}
 {{Notes_Section}}
 {{See_Also_Section}}
