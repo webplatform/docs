@@ -1,7 +1,12 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Deletion candidate, and move this definition in context of something else, such as a layout section under concepts or tuts.
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=CSS Keyword
-|Definition=A CSS keyword is a literal string that has a special meaning when used as a value for a css property. Examples: <code>inherit</code>, <code>smaller</code>,<code>white</code>.
+|Definition=A CSS keyword is a literal string that has a special meaning when used as a value for a css property. Examples: <code>inherit</code>, <code>smaller</code>, <code>white</code>.
 }}
 {{Notes_Section}}
 {{See_Also_Section}}
