@@ -1,20 +1,23 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=This example provides the full code for an image map of the solar system. When you click the sun or any planet, you will link to the image associated with the x,y coordinate. You can click the Back button from the image to return to the solar system image map.
-|LiveURL=
-|Code=
-&lt;P&gt;&lt;IMG SRC{{=}}"solarsys.png" WIDTH{{=}}504 HEIGHT{{=}}126 
+|Code=&lt;P&gt;&lt;IMG SRC{{=}}"solarsys.png" WIDTH{{=}}504 HEIGHT{{=}}126 
     BORDER{{=}}0 ALT{{=}}"Solar System" USEMAP{{=}}"#SystemMap"&gt;
 
 &lt;MAP NAME{{=}}"SystemMap"&gt;
@@ -43,25 +46,33 @@
     &lt;AREA SHAPE{{=}}"circle" COORDS{{=}}"479,66,3" 
         HREF{{=}}"/workshop/graphics/pluglobe.png"&gt;
 &lt;/MAP&gt;
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 In Microsoft Internet Explorer 6 and greater this property applies to the [[html/elements/a|'''a''']] object.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>area</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
