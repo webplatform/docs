@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Address minor bugs in comments; Need to cross-link to other relevant content
+
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
