@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, remove topic cluster flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS_Selector}}
@@ -30,6 +32,7 @@ E[''att'''''~{{=}}'''''val'']
 |Specifications={{Related Specification
 |Name=Attribute selectors
 |URL=http://www.w3.org/TR/CSS2/selector.html#attribute-selectors
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
