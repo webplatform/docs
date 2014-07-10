@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes={{Editorial/Move_Candidate | attribute name is accept-charset}}
+|Checked_Out=No
 |High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes={{Editorial/Move_Candidate | attribute name is accept-charset}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -27,6 +29,7 @@ If '''ACCEPT-CHARSET''' is not specified, the form is submitted in the character
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=Beta
