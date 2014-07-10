@@ -1,16 +1,18 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
-|Content=
-Internationalization topics related to the <code>content</code> element:
+|Content=Internationalization topics related to the <code>content</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#choosing Choosing and applying a character encoding]
 * [http://www.w3.org/International/techniques/authoring-html#changing Changing to UTF-8]
 * [http://www.w3.org/International/techniques/authoring-html#indoc Declaring the character encoding for HTML]
