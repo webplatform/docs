@@ -1,5 +1,9 @@
 {{Page_Title|Texto en HTML}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Necesidad de eliminar la tabla de compatibilidad; Corregir errores menores en versión en Inglés de los comentarios
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|En este apartado explicaremos los conceptos básicos del uso de HTML para describir el significado del contenido dentro del cuerpo de vuestro documento.
 
