@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, fix broken links
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -10,13 +12,13 @@
 {{CSS_Selector
 |Content=Use a descendant combinator to select every instance of an element under its ancestor. Create a descendant combinator by adding a whitespace between two simple selectors. For example <code>nav ul</code> will target every instance of an [[html/elements/ul|unordered list]] found inside of a [[html/elements/nav|navigation]] element. 
 
-For performance considerations, take care to not over-qualify selectors. For instance, html and body are unnecessary in the following example: <code>html body article a {}</code> It's a given that an article will be found in the body which will be found in the html. There is no reason to require that the browser try to match any further than the article—as browsers reads selectors from right to left.
+For performance considerations, take care to not over-qualify selectors. For instance, html and body are unnecessary in the following example: <code>html body article a {}</code>. It's a given that an article will be found in the body which will be found in the html. There is no reason to require that the browser try to match any further than the article—as browsers read selectors from right to left.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following rule defines the text color of all instances of unordered lists within navigation elements red.
+|Description=The following rule defines a text color of red for all instances of unordered lists within navigation elements.
 |Code=nav ul { color:red; }
 |LiveURL=http://code.webplatform.org/gist/8413346
 }}
