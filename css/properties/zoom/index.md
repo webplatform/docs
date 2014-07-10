@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Unreviewed Import
-|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | zoom was originally only supported by Internet Explorer. It is now outdated and shouldn't be recommended any more.
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate, Unreviewed Import
+|Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
