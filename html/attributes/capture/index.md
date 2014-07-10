@@ -1,5 +1,7 @@
 {{Page_Title|capture}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Confirm template. Examples should point to gist.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
