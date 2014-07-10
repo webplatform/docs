@@ -1,7 +1,7 @@
 {{Page_Title|&#58;active}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 |Content=Compatibility Incomplete
 }}
