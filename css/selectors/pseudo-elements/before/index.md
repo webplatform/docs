@@ -1,7 +1,7 @@
 {{Page_Title|&#58;&#58;before}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 }}
