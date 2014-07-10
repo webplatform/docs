@@ -1,5 +1,7 @@
 {{Page_Title|HTML forms basics}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Update to current best practices & add basic mention of security; Need to remove compatibility table; 
 |Checked_Out=No
 }}
 {{Byline}}
