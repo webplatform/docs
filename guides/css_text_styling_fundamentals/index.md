@@ -1,7 +1,7 @@
 {{Page_Title|CSS text styling fundamentals}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=Need to remove compatibility table; Need to cross-link to other relevant CSS content 
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Need to cross-link to other relevant CSS content
 |Checked_Out=Yes
 }}
 {{Byline}}
