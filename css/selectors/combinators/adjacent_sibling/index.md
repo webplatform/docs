@@ -1,14 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Remove topic cluster flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.}}
 {{CSS_Selector
-|Content=An adjacent sibling combinator selects an element that appears directly after a specified sibling element. It is created by placing a plus sign (+) between two simple selectors. For example [[html/elements/li|li]]  + [[html/elements/li|li]] will select a [[html/elements/li|list item]] directly following another, sibling [[html/elements/li|list item]]. 
+|Content=An adjacent sibling combinator selects an element that appears directly after a specified sibling element. It is created by placing a plus sign (+) between two simple selectors. For example [[html/elements/li|li]]  + [[html/elements/li|li]] will select a [[html/elements/li|list item]] directly following another, sibling [[html/elements/li|list item]].
 }}
 {{Examples_Section
 |Not_required=No
