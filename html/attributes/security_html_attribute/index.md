@@ -1,20 +1,23 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to give the user the choice of loading a document into a restricted or unrestricted '''iframe'''. Note that the [[dom/methods/createElement|'''createElement''']] method is used to create the two frames. The '''createElement''' method must use an HTML string for the parameter to specify the '''SECURITY''' attribute dynamically; after the '''iframe''' is parsed into the document, it cannot be altered.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/securityEX.htm
-|Code=
-&lt;HTML&gt;
+|Code=&lt;HTML&gt;
 &lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var bRestShown {{=}} false;
@@ -59,13 +62,10 @@ VALUE{{=}}"Create Restricted IFRAME"&gt;&lt;/TD&gt;
 &lt;/table&gt;
 &lt;BODY&gt;
 &lt;/HTML&gt;
-
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/securityEX.htm
+}}{{Single Example
 |Description=Hyperlinks that are clicked and forms that are submitted in the restricted frame open in a new window. If the page contains script, it can be executed at that time, depending on the security settings of the zone. The following example demonstrates how to disable hyperlinks and submit buttons that might compromise security. Note: The embedded page must be in the same domain.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/security2.htm
-|Code=
-&lt;HTML&gt;
+|Code=&lt;HTML&gt;
 &lt;HEAD&gt;
 &lt;TITLE&gt;Restricted IFRAME - Hosting Script&lt;/TITLE&gt;
 &lt;/HEAD&gt;
@@ -106,11 +106,12 @@ function disableSubmitButtons(c)
 }
 &lt;/script&gt;
 &lt;/BODY&gt;
-&lt;/HTML&gt; 
-}}}}
+&lt;/HTML&gt;
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/security2.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The ''sSecure'' value must specify <code>restricted</code>. Because '''SECURITY''' is an attribute only, it must be defined in the '''frame''' element declaration.
 If a frame is restricted by the '''SECURITY''' attribute, all nested frames share the same restrictions.
 The '''SECURITY''' attribute applies the user security setting ''Restricted Sites'' to the source file of a '''frame''' or '''iframe'''. (Zone settings are found on the '''Security''' tab of the '''Internet Options''' dialog box.) By default, scripting is not enabled in the Restricted Sites zone. By changing the security settings of the zone, various negative results can occur, including, but are not limited to, allowing script to run.
@@ -126,8 +127,7 @@ Independent of user security settings, the '''SECURITY''' attribute affects the 
 '''Security Warning:  ''' If the restricted document contains script, the script can be executed when the page is opened in a new window, depending on the security settings of the zone. This is not a problem if the restricted '''iframe''' contains inline content, for example, there is no [[html/attributes/src (iframe, embed, xml)|'''src''']] attribute; or if the content comes from a another more restricted domain, for example, contoso.com hosts a page from untrusted.com. However, when content from the same domain is hosted in a restricted frame, care should be taken to limit the action of hyperlinks and forms. Refer to the following example.
 You can access the properties and contents of a restricted '''frame''' or '''iframe''' through the Document Object Model (DOM) of the container document.
 '''SECURITY''' was introduced in Microsoft Internet Explorer 6
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
 
@@ -140,19 +140,27 @@ There are no standards that apply here.
 !Minimum supported server
 |Windows 2000 Server
 |}
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>frame</code>
 *<code>iframe</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
