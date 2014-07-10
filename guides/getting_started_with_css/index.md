@@ -1,8 +1,7 @@
 {{Page_Title|Getting started with CSS}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=Merge dup content with http://docs.webplatform.org/wiki/guides/css_shorthand; Need to remove compatibility table; Need to crosslink to other relevant CSS content 
-
+|State=Almost Ready
+|Editorial notes=Merge dup content with http://docs.webplatform.org/wiki/guides/css_shorthand; Need to remove compatibility table; Need to crosslink to other relevant CSS content
 |Checked_Out=No
 }}
 {{Byline}}
