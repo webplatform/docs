@@ -1,5 +1,7 @@
 {{Page_Title|文書構造を決める要素}}
 {{Flags
+|State=Not Ready
+|Editorial notes=needs translation
 |Checked_Out=No
 }}
 {{Byline}}
