@@ -1,5 +1,8 @@
 {{Page_Title|The Basics of HTML}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
 |Checked_Out=No
 }}
 {{Byline}}
