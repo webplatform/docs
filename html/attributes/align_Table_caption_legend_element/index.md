@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs better summary, cleanup, examples
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Sets or retrieves a value that indicates the table alignment.
-
-}}
+{{Summary_Section|Sets or retrieves a value that indicates the table alignment.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
