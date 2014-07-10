@@ -1,5 +1,7 @@
 {{Page_Title|HTMLの検証}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub page, needs translation of content
 |Checked_Out=No
 }}
 {{Byline}}
