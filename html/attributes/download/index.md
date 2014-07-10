@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground; fix see also; 
+
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
