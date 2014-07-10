@@ -1,5 +1,7 @@
 {{Page_Title|HTML lists}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table
 |Checked_Out=No
 }}
 {{Byline}}
