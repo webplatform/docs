@@ -1,5 +1,10 @@
 {{Page_Title|Styling HTML tables}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article provides a guide to the fundamental styling options available for tables.}}
 {{Guide
@@ -621,8 +626,10 @@ To combat this in Firefox, you can set the margin on three sides of <code>table<
  
 The only way to avoid a problem in both Firefox ''and'' Safari is to set a zero margin on the side with the caption. For example, if your caption is at the top you could just set your margin on the right, bottom and left sides; or just the bottom. This may work if you set all of your margins on the same side of content elements, so the margin isn’t required to space the table from adjacent content.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
