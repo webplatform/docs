@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=deletion candidate
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies whether the element and its contents must be selected as a whole, indivisible unit.
-
-}}
+{{Summary_Section|Specifies whether the element and its contents must be selected as a whole, indivisible unit.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
