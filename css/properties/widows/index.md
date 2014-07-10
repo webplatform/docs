@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Example needs to better explain orphans in relation to widows-example listed may have been over-edited from its original source. Remove topic cluster flags
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
-|Editorial notes=Example needs to be better explain orphans in relation to widows-example listed may have been over-edited from its original source.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
