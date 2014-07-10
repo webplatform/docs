@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix applies to & compatibility info
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
