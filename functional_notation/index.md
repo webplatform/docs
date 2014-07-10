@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Deletion candidate, and move this definition in context of something else, such as a layout section under concepts or tuts.
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=functional notation
 |Definition=To provide property values in CSS in a format that resembles a function call, e.g., <code>body {background-image:url("mybg.gif");}</code>.
