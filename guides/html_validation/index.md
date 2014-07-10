@@ -1,5 +1,9 @@
 {{Page_Title|HTML validation}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|After reading this article, you should be comfortable with the basic idea of validation, and using the online W3C validator to validate your HTML.}}
