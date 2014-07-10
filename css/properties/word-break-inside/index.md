@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Needs Summary
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
