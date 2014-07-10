@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, usage, spec reference, standardization status, remove topic cluster flags
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
