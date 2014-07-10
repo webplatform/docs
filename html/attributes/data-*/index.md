@@ -1,5 +1,8 @@
 {{Page_Title|dataset and data-*}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Compatibility table; link examples to our code.webplatform.org playground; fix see also
+|Checked_Out=No
 |High-level issues=Split Candidate, Unreviewed Import, Needs Review
 |Content=Cleanup, Examples Needed
 }}
