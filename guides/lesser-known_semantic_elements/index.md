@@ -1,5 +1,8 @@
 {{Page_Title|Lesser-known semantic elements}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
 |Checked_Out=No
 }}
 {{Byline}}
