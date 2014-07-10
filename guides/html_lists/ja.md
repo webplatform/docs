@@ -1,5 +1,7 @@
 {{Page_Title|HTMLのリスト}}
 {{Flags
+|State=Not Ready
+|Editorial notes=needs translation
 |Checked_Out=No
 }}
 {{Byline}}
