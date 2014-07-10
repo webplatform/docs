@@ -1,5 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs a lot more content; Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline}}
