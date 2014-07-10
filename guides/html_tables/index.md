@@ -1,5 +1,8 @@
 {{Page_Title|HTML tables}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Better summary; Need to remove compatibility table; Fix minor bugs in comments
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
