@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Examples & compatibility info
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.}}
