@@ -14,7 +14,7 @@
 |Example_object_name=node
 |Return_value_name=nodeName
 |Javascript_data_type=String
-|Return_value_description=The uppercase name of the node.
+|Return_value_description=The uppercase name of the node if Content type is text/html, else the lowercase name of the node if Content type is xhtml or any other xml content type.
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,6 +41,8 @@ The xhtml spec requires tag names in lower-case only.
 For interoperability between html and xhtml, and for markup re-use in html and xhtml documents user lower-case tag names in your source markup.
 
 Using lower-case tag names in your source markup also require less keystrokes!
+
+Read more details on [http://ejohn.org/blog/nodename-case-sensitivity/ nodeName case sensitivity in different browsers.]
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
