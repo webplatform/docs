@@ -1,15 +1,15 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|Web Accessibility Initiative (WAI) is an initiative that provides international guidelines for Web accessibility. Becoming familiar with WAI guidelines and support materials can improve your implementation of web accessibility in your projects. 
+
+Presentations you can copy, business case resources, what to do when you come across an inaccessible website, and much much more are available on the [http://www.w3.org/WAI/ WAI website] for '''managers, policy makers, presenters, developers, designers, and people with disabilities'''.
+}}
 {{Basic Page}}
 ==Finding Your WAI ("way") to New Web Accessibility Resources==
   
-  
-Presentations you can copy, business case resources, what to do when you come across an inaccessible website, and much much more are available on the [http://www.w3.org/WAI/ WAI website] for '''managers, policy makers, presenters, developers, designers, and people with disabilities'''.
-
- 
 Whether you already use WAI resources or you're new to web accessibility, we encourage you to look around and find more information that is useful to you. This page explains strategies for finding what you're looking for on the WAI website. (A separate page provides [http://www.w3.org/WAI/sitehelp.html help with the WAI website], such as navigating with headings.)
 
  
