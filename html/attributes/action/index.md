@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs updating, security considerations & clean up
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
