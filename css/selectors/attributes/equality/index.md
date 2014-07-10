@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status, remove topic cluster flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -45,17 +48,18 @@ Attributes are case-sensitive.
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
-|Firefox_version= 1.0
+|Firefox_version=1.0
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
-|Internet_explorer_version= 7
+|Internet_explorer_version=7
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
@@ -63,7 +67,7 @@ Attributes are case-sensitive.
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
-|Safari_version= 3
+|Safari_version=3
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
