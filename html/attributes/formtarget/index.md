@@ -1,7 +1,10 @@
 {{Page_Title|formtarget}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=Almost Ready
+|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground; fix see also
+
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
