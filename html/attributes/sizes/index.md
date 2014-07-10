@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Compatibility info
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
