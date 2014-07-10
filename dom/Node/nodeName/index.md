@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -13,27 +14,34 @@
 |Example_object_name=node
 |Return_value_name=nodeName
 |Javascript_data_type=String
-|Return_value_description=The name of the node.
+|Return_value_description=The uppercase name of the node.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=The following code example uses the '''nodeName''' property to obtain the name of an element.
-|Code=&lt;script&gt;
-// returns the element name 'LI' of the list item labeled 'List Item 2'
-var sName {{=}} document.getElementById("oList").childNodes(1).nodeName;
-&lt;/script&gt;
-&lt;body&gt;
+|Code=&lt;body&gt;
  &lt;ul id{{=}}"oList"&gt;
   &lt;li&gt;List Item 1&lt;/li&gt;
   &lt;li&gt;List Item 2&lt;/li&gt;
   &lt;li&gt;List Item 3&lt;/li&gt;
  &lt;/ul&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+// returns the element name 'LI' of the list item labeled 'List Item 2'
+var sName {{=}} document.getElementById("oList").childNodes(1).nodeName;
+&lt;/script&gt;
+
 &lt;/body&gt;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Notes=The html spec allows tag names of either case, upper or lower-case.
+The xhtml spec requires tag names in lower-case only.
+For interoperability between html and xhtml, and for markup re-use in html and xhtml documents user lower-case tag names in your source markup.
+
+Using lower-case tag names in your source markup also require less keystrokes!
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
@@ -53,8 +61,8 @@ var sName {{=}} document.getElementById("oList").childNodes(1).nodeName;
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeName Node.nodeName]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534190(v=vs.85).aspx nodeName Property]
 |HTML5Rocks_link=
 }}
