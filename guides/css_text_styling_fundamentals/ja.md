@@ -1,7 +1,7 @@
 {{Page_Title|テキスト装飾の基礎}}
 {{Flags
 |State=Not Ready
-|Editorial notes=translate content
+|Editorial notes=this is a stub, need to translate content
 |Checked_Out=No
 }}
 {{Byline}}
