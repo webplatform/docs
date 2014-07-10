@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes=This property was renamed to shape-margin. See [[css/properties/shape-margin]] for complete information.
+|Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
