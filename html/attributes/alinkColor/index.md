@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes={{Editorial/Deletion_Candidate | DOM property, not an attribute}}
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Editorial notes={{Editorial/Deletion_Candidate | DOM property, not an attribute}}
 }}
 {{Standardization_Status}}
 {{API_Name}}
