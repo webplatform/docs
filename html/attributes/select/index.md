@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Examples & compatibility info
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.}}
