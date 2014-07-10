@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground
 |Checked_Out=No
 }}
 {{Standardization_Status}}
