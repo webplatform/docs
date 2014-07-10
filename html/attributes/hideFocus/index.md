@@ -1,38 +1,49 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
-{{Topics|HTML}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following example shows how to use the '''HIDEFOCUS''' attribute to prevent a focus rectangle from appearing on a button.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hidefocus.htm
-|Code=
-...
+|Code=...
 &lt;BUTTON&gt;
 Button With Rectangle&lt;/BUTTON&gt;
 &lt;BUTTON HIDEFOCUS{{=}}"true"&gt;
 Button Without Rectangle&lt;/BUTTON&gt;
 ...
-
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/hidefocus.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Notes====Remarks===
 The focus of an object is visibly indicated by a focus rectangle—a dotted rectangle within the boundaries of the object.
 This property does not control the ability of an object to receive [[dom/methods/focus|'''focus''']]; for that, use the [[html/attributes/tabIndex|'''tabIndex''']] property.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
 *<code>[[html/elements/acronym|acronym]]</code>
@@ -116,12 +127,12 @@ This property does not control the ability of an object to receive [[dom/methods
 *<code>ul</code>
 *<code>var</code>
 *<code>xmp</code>
-|Topic_clusters=html
 }}
+{{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
