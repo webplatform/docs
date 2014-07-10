@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -22,7 +24,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=&lt;html xmlns{{=}}"http://www.w3.org/1999/xhtml"  xmlns:svg{{=}}"http://www.w3.org/2000/svg"&gt;
+   &lt;script type{{=}}"text/javascript">//<![CDATA[
+    var nsxml {{=}} 'http://www.w3.org/1999/xhtml';
+    var nssvg {{=}} 'http://www.w3.org/2000/svg';
+    alert('root element nsprefix is ' + document.documentElement.lookupPrefix(nssvg));
+   //]]>&lt;/script&gt;
+
+
+
+
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -44,8 +58,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.lookupPrefix Node.lookupPrefix]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975159(v=vs.85).aspx lookupPrefix Method]
 |HTML5Rocks_link=
 }}
