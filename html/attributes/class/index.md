@@ -1,11 +1,15 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground; fix see also
+
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Specifies one or more classnames for an element, usually used to point to a class in a style sheet. }}
+{{Summary_Section|Specifies one or more classnames for an element, usually used to point to a class in a style sheet.}}
 {{Markup_Attribute
 |Property_applies_to=dom/HTMLElement
 }}
