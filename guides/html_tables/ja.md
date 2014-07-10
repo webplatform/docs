@@ -1,5 +1,7 @@
 {{Page_Title|表・テーブル}}
 {{Flags
+|State=Not Ready
+|Editorial notes=needs translation
 |Checked_Out=No
 }}
 {{Byline}}
