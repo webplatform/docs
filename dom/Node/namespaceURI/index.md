@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|State=In Progress
+|Editorial notes=needs example - awaiting upload of xml/svg samples to Renoir.
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
