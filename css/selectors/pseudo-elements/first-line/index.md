@@ -1,7 +1,7 @@
 {{Page_Title|::first-line}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix topic cluster flags
+|Editorial notes=Fix broken links
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
