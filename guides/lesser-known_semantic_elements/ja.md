@@ -1,5 +1,7 @@
 {{Page_Title|あまり知られていない意味を記す要素}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub page, needs translation of content
 |Checked_Out=No
 }}
 {{Byline}}
