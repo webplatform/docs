@@ -1,5 +1,7 @@
 {{Page_Title|テキスト装飾の基礎}}
 {{Flags
+|State=Not Ready
+|Editorial notes=translate content
 |Checked_Out=No
 }}
 {{Byline}}
