@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Address minor bugs; Could be part of security considerations articles; General cleanup of links; Need to cross-link to other relevant content
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
