@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -26,6 +29,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=No
 |Chrome_version=
