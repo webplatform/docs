@@ -1,7 +1,10 @@
 {{Page_Title|Images in HTML}}
 {{Flags
-|High-level issues=Move Candidate
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content; broken links
+
 |Checked_Out=No
+|High-level issues=Move Candidate
 }}
 {{Byline}}
 {{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
