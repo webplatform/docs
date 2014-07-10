@@ -1,5 +1,9 @@
 {{Page_Title|Advanced selectors guide}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=Need to remove compatibility table.
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
 {{Guide
