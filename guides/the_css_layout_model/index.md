@@ -1,5 +1,10 @@
 {{Page_Title|The CSS layout model: borders, boxes, margins and padding}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article covers the CSS layout model in some detail, including box model, borders, margin and padding, and how they all work.}}
 {{Guide
