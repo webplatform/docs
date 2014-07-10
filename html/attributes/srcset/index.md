@@ -53,7 +53,7 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 }}
 }}
 {{Notes_Section
-|Usage=When using '''srcset''' with the '''w''' descriptor you must also include the '''[[/html/attributes/sizes|sizes]]''' attribute.
+|Usage=When using '''srcset''' with the '''w''' descriptor you must also include the '''[[html/attributes/sizes|sizes]]''' attribute.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
