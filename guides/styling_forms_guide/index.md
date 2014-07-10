@@ -1,5 +1,10 @@
 {{Page_Title|Styling forms}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article provides a thoughtful grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
 {{Guide
