@@ -1,5 +1,7 @@
 {{Page_Title|DOCTYPE宣言とマークアップ方法}}
 {{Flags
+|State=Not Ready
+|Editorial notes=this is a stub, need to translate content
 |Checked_Out=No
 }}
 {{Byline}}
