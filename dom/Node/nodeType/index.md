@@ -15,6 +15,8 @@
 |Return_value_name=nodeType
 |Javascript_data_type=Number
 |Return_value_description=One of the node type constants defined on [[dom/Node|Node]], or null.
+Node.ELEMENT_NODE {{=}}1
+Node.ATTRIBUTE_NODE {{=}} 2
 }}
 {{Examples_Section
 |Not_required=No
@@ -31,7 +33,7 @@ var iType {{=}} oNode.nodeType;
 }}{{Single Example
 |Language=JavaScript
 |Description=This example users the node constants to return the nodeType description.
-|Code=   function getNodeTypeName(nType){
+|Code=function getNodeTypeName(nType){
    switch (nType){
    		case Node.ELEMENT_NODE:
    			return 'ELEMENT_NODE';
@@ -61,7 +63,6 @@ var iType {{=}} oNode.nodeType;
    			return 'unknown nodeType:'+ntype;
       }
    }
-
 }}
 }}
 {{Notes_Section
