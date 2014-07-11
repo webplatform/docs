@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Unsupported; deletion candidate
+|Editorial notes={{Editorial/Deletion_Candidate
+| This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
+}}
 |Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
