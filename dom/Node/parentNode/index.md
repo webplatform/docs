@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -34,9 +35,33 @@ var oParent {{=}} document.getElementById("oSpan").parentNode;
 document.body.insertBefore(oNode);
 // This returns document.body.
 var oParent {{=}} oNode.parentNode;
+}}{{Single Example
+|Language=HTML
+|Description=This example demonstrates the difference between parentNode and parentElement when queried on the documents root element (&lt;html&gt;)
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html id{{=}}"root"&gt;
+
+&lt;head&gt;
+&lt;meta content{{=}}"text/html; charset=utf-8" http-equiv{{=}}"Content-Type"&gt;
+&lt;title&gt;parentElement/parentNode&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+var root{{=}}document.getElementById('root');
+try{document.write('typeof root.parentNode:'+ typeof(root.parentNode)+'<br/>');}catch(e){alert(e);}
+try{document.write('root.parentNode.tagName:'+root.parentNode.tagName+'<br/>');}catch(e){alert(e);}
+try{document.write('typeof root.parentElement:'+typeof(root.parentElement)+'<br/>');}catch(e){alert(e);}
+try{document.write('root.parentElement.tagName:'+root.parentElement.tagName+'<br/>');}catch(e){alert(e);}
+&lt;/script&gt;
+&lt;/body&gt;
+
+</html>
+
 }}
 }}
 {{Notes_Section
+|Usage=Use to find the parent of a node (if any).
 |Notes=The topmost object returns null as its parent.
 }}
 {{Related_Specifications_Section
@@ -58,8 +83,8 @@ var oParent {{=}} oNode.parentNode;
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.parentNode Node.parentNode]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534328(v=vs.85).aspx parentNode Property]
 |HTML5Rocks_link=
 }}
