@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes=New listing page with proper object capitalization.
+Hardly any info on this page
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
