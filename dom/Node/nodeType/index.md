@@ -15,8 +15,30 @@
 |Return_value_name=nodeType
 |Javascript_data_type=Number
 |Return_value_description=One of the node type constants defined on [[dom/Node|Node]], or null.
+
 Node.ELEMENT_NODE {{=}}1
+
 Node.ATTRIBUTE_NODE {{=}} 2
+
+Node.TEXT_NODE {{=}} 3
+
+Node.CDATA_SECTION_NODE {{=}} 4
+
+Node.ENTITY_REFERENCE_NODE {{=}} 5
+
+Node.ENTITY_NODE {{=}} 6
+
+Node.PROCESSING_INSTRUCTION_NODE {{=}} 7
+
+Node.COMMENT_NODE {{=}} 8
+
+Node.DOCUMENT_NODE {{=}} 9
+
+Node.DOCUMENT_TYPE_NODE {{=}} 10
+
+Node.DOCUMENT_FRAGMENT_NODE {{=}} 11
+
+Node.NOTATION_NODE {{=}} 12
 }}
 {{Examples_Section
 |Not_required=No
@@ -67,6 +89,14 @@ var iType {{=}} oNode.nodeType;
 }}
 {{Notes_Section
 |Notes=If the node represents an attribute retrieved from the [[dom/Node/attributes|'''attributes''']] collection, the '''nodeType''' returns <code>null</code>.
+
+The proprietary &lt;comment&gt; element is recognized as a HTMLUnknown element in IE10 and higher and returns ELEMENT_NODE as its type.
+
+Use the HTML comment block instead.
+
+&lt;-- this is a hidden comment tag --&gt;
+
+&lt;comment&gt; this is a Custom Element and will display on your web page... do not use&gt/comment&gt;
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
