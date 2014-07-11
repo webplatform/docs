@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, remove topic cluster flags
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
