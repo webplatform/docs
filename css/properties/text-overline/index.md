@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|State=Almost Ready
+|Editorial notes=Needs example, remove topic cluster flags
 |Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -14,7 +16,7 @@
 |Animatable=No
 |CSS percentages=N/A
 |Values={{CSS Property Value
-|Data Type=<'text-overline-style'> 
+|Data Type=<'text-overline-style'>
 |Description=Possible values:
 
 None- Produces no line.
@@ -34,7 +36,7 @@ wave - Produces a wavy line.
 |Description=This property determines whether only words meant to be overlined or if the whitespace between words and words meant to be overlined.  There are two unique values: continuous or words. 
 Continuous is the default value and shows overline for both words and whitespaces. 
 Words only shows onverline for words and not whitespaces.
-It can also have the values of initial or inherit. 
+It can also have the values of initial or inherit.
 }}
 }}
 {{Examples_Section
