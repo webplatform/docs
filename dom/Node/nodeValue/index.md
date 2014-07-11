@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -73,8 +74,8 @@ If the object is an element, the '''nodeValue''' returns <code>null</code>. Use 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeValue Node.nodeValue]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534192(v=vs.85).aspx nodeValue Property]
 |HTML5Rocks_link=
 }}
