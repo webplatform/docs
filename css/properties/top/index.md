@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -93,10 +95,7 @@
 </syntaxhighlight>
 }}
 }}
-{{Notes_Section
-|Notes=
-
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
