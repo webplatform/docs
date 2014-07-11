@@ -10,7 +10,7 @@
 {{Summary_Section|Sets or retrieves the prefix of the fully qualified XML declaration for a node.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=node
 |Return_value_name=prefix
 |Javascript_data_type=String
@@ -28,6 +28,7 @@
 {{Notes_Section
 |Usage=In XML documents, elements can be declared using ''qualified names'', which consist of a prefix and a [[dom/Node/localName|'''localName''']]. This property returns the former value.
 For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203781 W3C Namespaces in XML].
+|Notes=Prior to Gecko 5.0 (Firefox 5.0 / Thunderbird 5.0 / SeaMonkey 2.2), this property was read-write; the specification says it should be read only, and now it is.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
