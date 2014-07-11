@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=needs example
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -17,7 +16,38 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv{{=}}"Content-Type" content{{=}}"text/html; charset=utf-8"/&gt;
+&lt;title&gt;Node.normalize() example&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+&lt;script type{{=}}"text/javascript"&gt;
+var wrapper {{=}} document.createElement("div");
+
+wrapper.appendChild( document.createTextNode("Part 1 ") );
+wrapper.appendChild( document.createTextNode("Part 2 ") );
+
+// At this point, wrapper.childNodes.length === 2
+// wrapper.childNodes[0].textContent === "Part 1 "
+// wrapper.childNodes[1].textContent === "Part 2 "
+alert('wrapper.childNodes.length==='+wrapper.childNodes.length);
+wrapper.normalize();
+document.body.appendChild(wrapper);
+// Now, wrapper.childNodes.length === 1
+// wrapper.childNodes[0].textContent === "Part 1 Part 2 "
+alert('wrapper.normalize();wrapper.childNodes.length==='+wrapper.childNodes.length);
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+}}
 }}
 {{Notes_Section
 |Usage=By calling ''object.'''''normalize''' before the subelements of an object are manipulated, you ensure that the document object model has a consistent structure.  The normal form is useful for operations that require a consistent document tree structure, and it ensures that the document object model view is identical when it is saved and reloaded.
