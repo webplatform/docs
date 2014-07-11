@@ -96,7 +96,7 @@ Use the HTML comment block instead.
 
 &lt;-- this is a hidden comment tag --&gt;
 
-&lt;comment&gt; this is a Custom Element and will display on your web page... do not use&gt/comment&gt;
+&lt;comment&gt; this is a legacy IE comment tag and will display on your web page... do not use or remove from your legacy pages&gt;/comment&gt;
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
