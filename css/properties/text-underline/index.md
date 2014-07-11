@@ -1,11 +1,12 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Review
-|Content=Compatibility Incomplete
-|Checked_Out=Yes
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
 }}
+|Checked_Out=Yes
+|High-level issues=Deletion Candidate, Needs Review
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
