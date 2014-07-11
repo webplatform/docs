@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
+|High-level issues=Missing Relevant Sections
 }}
 {{Standardization_Status}}
 {{API_Name}}
