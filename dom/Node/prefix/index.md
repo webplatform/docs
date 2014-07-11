@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,7 +19,11 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example will only work when a namespace-aware parser is used, i.e. when a document is served with an XML mime-type. This will not work for HTML documents.
+|Code=&lt;x:div onclick="alert(this.prefix)"/&gt;
+}}
 }}
 {{Notes_Section
 |Usage=In XML documents, elements can be declared using ''qualified names'', which consist of a prefix and a [[dom/Node/localName|'''localName''']]. This property returns the former value.
@@ -43,8 +48,8 @@ For more information, see [http://go.microsoft.com/fwlink/p/?linkid{{=}}203781 W
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.prefix Node.prefix]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974772(v=vs.85).aspx prefix Property]
 |HTML5Rocks_link=
 }}
