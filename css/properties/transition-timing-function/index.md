@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Adapted from animation-timing-function page. Remove topic cluster flags
 |Checked_Out=No
-|Editorial notes=adapted from animation-timing-function page
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
