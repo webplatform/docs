@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -27,6 +28,40 @@
 |Code=var oNode {{=}} document.createElement("B");
 document.body.insertBefore(oNode);
 var iType {{=}} oNode.nodeType;
+}}{{Single Example
+|Language=JavaScript
+|Description=This example users the node constants to return the nodeType description.
+|Code=   function getNodeTypeName(nType){
+   switch (nType){
+   		case Node.ELEMENT_NODE:
+   			return 'ELEMENT_NODE';
+   		case Node.ATTRIBUTE_NODE:
+   			return 'ATTRIBUTE_NODE';
+   		case Node.TEXT_NODE:
+   			return 'TEXT_NODE';
+   		case Node.CDATA_SECTION_NODE:
+   			return 'CDATA_SECTION_NODE';
+   		case Node.ENTITY_REFERENCE_NODE:
+   			return 'ENTITY_REFERENCE_NODE';
+   		case Node.ENTITY_NODE:
+   			return 'ENTITY_NODE';
+   		case Node.PROCESSING_INSTRUCTION_NODE:
+   			return 'PROCESSING_INSTRUCTION_NODE';
+   		case Node.COMMENT_NODE:
+   			return 'COMMENT_NODE';
+   		case Node.DOCUMENT_NODE:
+   			return 'DOCUMENT_NODE';
+   		case Node.DOCUMENT_TYPE_NODE:
+   			return 'DOCUMENT_TYPE_NODE';
+   		case Node.DOCUMENT_FRAGMENT_NODE:
+   			return 'DOCUMENT_FRAGMENT_NODE';
+   		case Node.NOTATION_NODE:
+   			return 'NOTATION_NODE';
+   		default:
+   			return 'unknown nodeType:'+ntype;
+      }
+   }
+
 }}
 }}
 {{Notes_Section
@@ -51,8 +86,8 @@ var iType {{=}} oNode.nodeType;
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeType Node.nodeType]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534191(v=vs.85).aspx nodeType Property]
 |HTML5Rocks_link=
 }}
