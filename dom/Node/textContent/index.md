@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -18,9 +19,50 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Code=// Given the following HTML fragment:
+//   <div id="divA">This is <span>some</span> text</div>
+
+// Get the text content:
+var text = document.getElementById("divA").textContent;
+// |text| is set to "This is some text".
+
+// Set the text content:
+document.getElementById("divA").textContent = "This is some text";
+// The HTML for divA is now:
+//   <div id="divA">This is some text</div>
+}}{{Single Example
+|Description=The following example displays the textContent property of a &lt;script&gt; tag.
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv{{=}}"Content-Type" content{{=}}"text/html; charset{{=}}utf-8"&gt;
+&lt;script id{{=}}"scrtest" type{{=}}"text/javascript"&gt;
+function gettextContent(el){
+alert(el.textContent);
+}
+&lt;/script&gt;
+&lt;title&gt;textContent example&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+gettextContent(document.getElementById('scrtest'));
+&lt;/script&gt;
+
+
+
+&lt;/body&gt;&lt;/html&gt;
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Notes=textContent returns null if the element is a document, a document type, or a notation. To grab all of the text and CDATA data for the whole document, one could use document.documentElement.textContent.
+
+If the node is a CDATA section, a comment, a processing instruction, or a text node, textContent returns the text inside this node (the nodeValue).
+
+For other node types, textContent returns the concatenation of the textContent attribute value of every child node, excluding comments and processing instruction nodes. This is an empty string if the node has no children.
+
+Setting this property on a node removes all of its children and replaces them with a single text node with the given value.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
@@ -63,8 +105,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.textContent Node.textContent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974773(v=vs.85).aspx textContent Property]
 |HTML5Rocks_link=
 }}
