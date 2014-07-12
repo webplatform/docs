@@ -1,12 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The NodeIterator.nextNode() method returns the next node in the set represented by the NodeIterator and advances the position of the iterator within the set.  The first call to nextNode() returns the first node in the set.
+
+This method returns null when there are no nodes left in the set.
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oNode
@@ -44,6 +48,7 @@ the next node in the list.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -84,11 +89,17 @@ the next node in the list.
 |Notes====Remarks===
 This example shows how to create a [[dom/NodeIterator|'''NodeIterator''']] and move forward through the list of nodes.
 |Import_Notes====Syntax===
+node {{=}} nodeIterator.nextNode();
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-nodeiterator-nextnode
+|Status=Living Standard
+|Relevant_changes=As detach() is now a no-op method, this method cannot throw anymore.
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -101,8 +112,8 @@ This example shows how to create a [[dom/NodeIterator|'''NodeIterator''']] and m
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.nextNode NodeIterator.nextNode]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975281(v=vs.85).aspx nextNode Method]
 |HTML5Rocks_link=
 }}
