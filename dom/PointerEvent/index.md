@@ -1,8 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=No MDN documentation....
+My example needs uploading by Renoir
+
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -61,7 +65,8 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/PointerEvent PointerEvent(under construction)]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx PointerEvent Object]
 |HTML5Rocks_link=
 }}
