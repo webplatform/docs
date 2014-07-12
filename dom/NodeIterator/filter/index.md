@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -68,6 +69,7 @@ function refresh()
 }}
 }}
 {{Notes_Section
+|Usage=Use the filter property to exclude/include Nodes from the Iteration.
 |Notes=*Appending content to the document while the [[dom/TreeWalker|'''TreeWalker''']] is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
 *The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/NodeIterator|'''NodeIterator''']] and [[dom/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
  <code>function myFilter(node) {
@@ -94,8 +96,8 @@ function refresh()
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.filter NodeIterator.filter]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974820(v=vs.85).aspx filter Property]
 |HTML5Rocks_link=
 }}
