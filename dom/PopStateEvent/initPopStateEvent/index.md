@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initializes the properties of a PopStateEvent.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=typeArg
@@ -60,7 +60,7 @@ window.dispatchEvent(evt);
 Initializes attributes of an event created through the [[dom/Document/createEvent|'''createEvent''']] method. This method can only be called before the event has been dispatched via the [[dom/EventTarget/dispatchEvent|'''dispatchEvent''']] method. If the method is called several times before invoking '''dispatchEvent''', only the final invocation takes precedence. This method has no effect if called after the event has been dispatched.
 |Import_Notes====Syntax===
 
-var retval = PopStateEvent.initPopStateEvent(typeArg, canBubbleArg, cancelableArg, stateArg); 
+var retval = PopStateEvent.initPopStateEvent(typeArg, canBubbleArg, cancelableArg, stateArg);
 }}
 {{Related_Specifications_Section
 |Specifications=
