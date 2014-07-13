@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
@@ -10,10 +12,19 @@
 |Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
+|Javascript_data_type=Number
+|Return_value_description=A value between -90 and +90
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following is an example of a pointer event handler that outputs the value of the tiltX property to a text field, txtTiltY.
+|Code=function getTiltY(evt){
+var theform{{=}}document.forms.frmOutput;
+theform.txtTiltY.value=evt.tiltY;
+}
+}}
 }}
 {{Notes_Section
 |Usage=A positive tiltY is towards the user. tiltY can be used along with tiltX to represent the tilt away from the normal of a transducer with the digitzer. For devices that do not report tilt, the value must be 0.
@@ -59,7 +70,8 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772365(v=vs.85).aspx tiltY Property PointerEvent]
 |HTML5Rocks_link=
 }}
