@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,7 +20,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=element.addEventListener("pointercancel", handler, useCapture) ;
+}}
 }}
 {{Notes_Section
 |Usage=This event occurs when the pointer (touch or pen contact) is removed from the system. Here are common reasons why this might happen:
@@ -28,6 +32,10 @@
 * A mapping for a device's monitor changes while contacts are active. For example, the user changes the position of a screen in a two screen configuration. 
 * The desktop is locked or the user logged off. 
 * The number of simultaneous contacts exceeds the number that the device can support. For example, if a device supports only two contact points, if the user has two fingers on a surface, and then touches it with a third finger, this event is raised.
+|Notes=When the pointercancel event is raised for a pointer, the app won’t receive any other events for that pointer, including pointerup . The app should perform any necessary cleanup as required for the pointer. For example, if the app maintains a pointer list, the app should remove the pointer from the list. 
+
+You shouldn't treat this event like an pointerup event. When a pointer is removed, the app should cancel any ongoing work. The following example shows how you might handle pointer events if the target is a button:
+
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -75,6 +83,6 @@
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/library/ie/hh846776.aspx
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx pointercancel Event]
 |HTML5Rocks_link=
 }}
