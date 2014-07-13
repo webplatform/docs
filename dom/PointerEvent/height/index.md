@@ -31,6 +31,9 @@ function checkPointerSize(event) {
 }}
 {{Notes_Section
 |Usage=This value may be updated on each event for a given pointer. For devices which have a contact geometry but the actual geometry is not reported by the hardware, a default value may be provided by the user agent to approximate the geometry typical of that pointer type. Otherwise, the value must be 0.
+|Notes=For touch hardware that doesn't support width or height, a CSS document pixel equivalent of 7 millimeters is returned. For mouse or pen input, a value off 1 pixel is returned.
+
+In Internet Explorer 10, the returned value is in screen pixels. In Internet Explorer 11, the returned value is in CSS document pixels, where for example, a div sized to the values of PointerEvent.width and PointerEvent.height would have the same size as the finger contact.
 }}
 {{Related_Specifications_Section
 |Specifications=
