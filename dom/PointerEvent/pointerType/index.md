@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete
 }}
@@ -53,6 +55,11 @@ function detectInputType(event) {
 {{!}}}
 
 If the device type cannot be detected by the user agent, then the value must be an empty string. If a user agent supports pointer device types other than those listed above, the value of pointerType should be vendor prefixed to avoid conflicting names for different types of devices. Future specifications may provide additional normative values for other device types.
+|Notes=In Internet Explorer 11, this property has been changed to return a string value. In Internet Explorer 10, it provided a return type of long: 
+•MSPOINTER_TYPE_TOUCH: 0x00000002
+•MSPOINTER_TYPE_PEN: 0x00000003
+•MSPOINTER_TYPE_MOUSE: 0x00000004
+
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -93,7 +100,8 @@ If the device type cannot be detected by the user agent, then the value must be 
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772359(v=vs.85).aspx pointerType Property]
 |HTML5Rocks_link=
 }}
