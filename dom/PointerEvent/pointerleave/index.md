@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,7 +20,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=element.addEventListener("pointerleave", handler, useCapture) ;
+}}
 }}
 {{Notes_Section
 |Notes=There are similarities between this event type, the [[dom/MouseEvent/mouseleave|mouseleave]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/PointerEvent/pointerenter|pointerenter]] event.
@@ -43,7 +47,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/dn254945(v=vs.85).aspx pointerleave Event]
 |HTML5Rocks_link=
 }}
