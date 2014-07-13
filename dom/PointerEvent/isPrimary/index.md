@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates if the pointer represents the primary pointer.}}
+{{Summary_Section|Returns whether the pointer associated with the event is the primary pointer for the current mouse, touch, or pen interaction.}}
 {{API_Object_Property
 |Property_applies_to=dom/PointerEvent
 |Read_only=Yes
@@ -68,7 +70,8 @@ When dispatching a pointer event, a pointer is considered primary if:
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/jj152130(v=vs.85).aspx isPrimary Property]
 |HTML5Rocks_link=
 }}
