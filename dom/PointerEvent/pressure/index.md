@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
@@ -10,13 +12,28 @@
 |Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
+|Return_value_name=pressure
+|Javascript_data_type=double
+|Return_value_description=Pressure of the pointer contact in range of 0 to 1.
+|Example_value_name=pressure
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following is an example of a pointermove event handler that outputs the value of the event.pressure property to a text field in a form (frmOutput);
+|Code=function getPressure(evt){
+var theform=document.forms.frmOutput;
+theform.txtPressure.value=evt.pressure;
+}
+}}
 }}
 {{Notes_Section
-|Usage=For hardware that does not support pressure, including but not limited to mouse, the value must be 1 when in the active buttons state and 0 otherwise.
+|Usage=
+Could be used for example to control the hue or opacity of a color of a line or shape as it is drawn on screen using a pointer, other than a mouse.
+
+For hardware that does not support pressure, including but not limited to mouse, the value must be 1 when in the active buttons state and 0 otherwise.
+|Notes=Starting with Internet Explorer 11, this property returns a value of 0.5 for active contact (such as mouse button push) and 0 otherwise on hardware that does not support pressure.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -57,7 +74,8 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772360(v=vs.85).aspx pressure Property PointerEvent]
 |HTML5Rocks_link=
 }}
