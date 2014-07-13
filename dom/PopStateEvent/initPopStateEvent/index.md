@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
@@ -47,12 +48,19 @@ S_OK
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var evt {{=}} document.createEvent("PopStateEvent");
+evt.initPopStateEvent("popstate", false, false, { .. state object  ..});
+window.dispatchEvent(evt);
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
 Initializes attributes of an event created through the [[dom/Document/createEvent|'''createEvent''']] method. This method can only be called before the event has been dispatched via the [[dom/EventTarget/dispatchEvent|'''dispatchEvent''']] method. If the method is called several times before invoking '''dispatchEvent''', only the final invocation takes precedence. This method has no effect if called after the event has been dispatched.
 |Import_Notes====Syntax===
+
+var retval = PopStateEvent.initPopStateEvent(typeArg, canBubbleArg, cancelableArg, stateArg); 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -70,6 +78,6 @@ Initializes attributes of an event created through the [[dom/Document/createEven
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772350(v=vs.85).aspx initPopStateEvent Method]
 |HTML5Rocks_link=
 }}
