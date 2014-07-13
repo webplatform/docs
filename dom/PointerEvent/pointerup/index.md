@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -21,7 +22,10 @@ For input devices that do not support hover, a user agent must also fire a point
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=element.addEventListener("pointerup", handler, useCapture) ;
+}}
 }}
 {{Notes_Section
 |Notes=Some pointer devices, such as mouse or pen, support multiple buttons. In the [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] Mouse Event model, each button press produces a mousedown and mouseup event.  
@@ -72,7 +76,8 @@ Pointer Events do not fire overlapping pointerdown and pointerup events when an 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh771914(v=vs.85).aspx pointerup Event]
 |HTML5Rocks_link=
 }}
