@@ -21,8 +21,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=window.onpopstate {{=}} function(evt) {
-  alert("location: " + document.location + ", state: " + JSON.stringify(evt.state));
+|Code=window.onpopstate {{=}} function(event) {
+  alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
 };
 history.pushState({page: 1}, "title 1", "?page=1");
 history.pushState({page: 2}, "title 2", "?page=2");
