@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
@@ -10,6 +12,7 @@
 |Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
+|Javascript_data_type=unsigned long
 }}
 {{Examples_Section
 |Not_required=No
@@ -24,10 +27,13 @@ function checkPointerSize(event) {
 	event.target.style.height = event.height + "px";
 }
 </script>
-}}{{Single Example}}
+}}
 }}
 {{Notes_Section
 |Usage=This value may be updated on each event for a given pointer. For devices which have a contact geometry but the actual geometry is not reported by the hardware, a default value may be provided by the user agent to approximate the geometry typical of that pointer type. Otherwise, the value must be 0.
+|Notes=For touch hardware that doesn't support width or height, a CSS document pixel equivalent of 7 millimeters is returned. For mouse or pen input, a value off 1 pixel is returned.
+
+In Internet Explorer 10, the returned value is in screen pixels. In Internet Explorer 11, the returned value is in CSS document pixels, where for example, a div sized to the values of PointerEvent.width and PointerEvent.height would have the same size as the finger contact.
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -67,7 +73,8 @@ function checkPointerSize(event) {
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/dn255065(v=vs.85).aspx width Property PointerEvent]
 |HTML5Rocks_link=
 }}
