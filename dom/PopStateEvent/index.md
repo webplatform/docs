@@ -1,26 +1,35 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Fires when a history entry changes.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=alert('history.length='+history.length+'\nhistory.state='+history.state);
+}}
 }}
 {{Notes_Section
+|Usage=Used, for example to prevent back navigation to a login page after the user has already logged in.
 |Notes====Remarks===
 A pop state event is dispatched to the window object every time the active history entry changes.
 To read the current history entry immediately, invoke <code>history.state</code>.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=The History Interface
+|URL=http://www.w3.org/TR/html5/browsers.html#the-history-interface
+|Status=Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -35,6 +44,6 @@ To read the current history entry immediately, invoke <code>history.state</code>
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772349(v=vs.85).aspx PopStateEvent]
 |HTML5Rocks_link=
 }}
