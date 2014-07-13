@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
@@ -10,11 +12,27 @@
 |Property_applies_to=dom/PointerEvent
 |Read_only=Yes
 |Example_object_name=event
-|Javascript_data_type=Number
+|Javascript_data_type=unsigned long
+|Return_value_description=The unique identifier of the contact for a touch, mouse or pen.
+|Example_value_name=lid
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=//  Adds a pointer to the MSGesture object for the red square
+function redListener(evt)
+{
+    if (evt.type == "pointerdown")
+    {
+        redGesture.addPointer(evt.pointerId);
+        return;
+    }
+    printEvent(evt);
+}
+
+
+}}
 }}
 {{Notes_Section
 |Usage=This identifier must be unique from all other active pointers at the time. A user agent may recycle previously retired values for pointerId from previous active pointers, if necessary.
@@ -60,7 +78,8 @@ If the device producing the event is a mouse, then the pointerId must be 1. Devi
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772358(v=vs.85).aspx pointerId Property]
 |HTML5Rocks_link=
 }}
