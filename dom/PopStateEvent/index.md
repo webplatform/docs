@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=alert('history.length='+history.length+'\nhistory.state='+history.state);
+|Code=window.onpopstate = function(evt) { document.write("location: " + document.location + ", state: " + JSON.stringify(evt.state)); };
 }}
 }}
 {{Notes_Section
