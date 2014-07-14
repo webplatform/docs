@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -59,7 +60,6 @@ text-decoration-style: dotted;
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
 |External_links=* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style
 * http://msdn.microsoft.com/en-us/library/gg721769(v=expression.40).aspx
 }}
