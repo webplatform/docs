@@ -1,7 +1,6 @@
 {{Page_Title|&#58;&#58;after}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Incomplete
@@ -55,7 +54,6 @@ sel
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Pseudo-Elements, Selectors
 |Manual_sections====Related pages===
 *<code>[[css/properties/content|content]]</code>
 }}
