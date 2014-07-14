@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=requires Range object in http://docs.webplatform.org/wiki/Property:Javascript_data_type
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
