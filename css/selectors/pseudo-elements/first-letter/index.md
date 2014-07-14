@@ -1,7 +1,6 @@
 {{Page_Title|::first-letter}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -63,9 +62,7 @@ The ::first-letter pseudo-element can be attached to block-level elements. It ca
 |Note=Only the one-colon form of this pseudo-element is recognized (:first-letter). Beginning with Internet Explorer 9, the first-letter pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Fonts, Pseudo-Elements, Selectors, Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
