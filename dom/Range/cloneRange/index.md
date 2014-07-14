@@ -12,13 +12,14 @@
 |Parameters={{Method Parameter
 |Name=oClonedRange
 |Data type=Object
-|Description=Returns a Range object.
+|Description=[object Range]
 |Optional=No
 }}
 |Method_applies_to=dom/Range
 |Example_object_name=range
 |Return_value_name=clone
 |Javascript_data_type=Object
+|Return_value_description=[object Range]
 }}
 {{Examples_Section
 |Not_required=No
