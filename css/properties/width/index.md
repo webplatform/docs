@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -186,7 +185,6 @@ In the CSS Basic Box Model Working Draft, the values max-content, min-content, a
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model, CSS Attributes
 |External_links=* http://www.w3.org/TR/CSS2/visudet.html#the-width-property
 * http://www.w3.org/TR/CSS21/visudet.html#propdef-width
 |Manual_sections====Related pages (MSDN)===
