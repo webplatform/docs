@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -65,9 +67,7 @@ Note: It is not known yet if this is a needed value
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
