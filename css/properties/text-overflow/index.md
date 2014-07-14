@@ -1,5 +1,9 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The text-overflow shorthand CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string. It covers the two long-hand properties [[css/properties/text-overflow-mode|text-overflow-mode]] and [[css/properties/text-overflow-ellipsis|text-overflow-ellipsis]]}}
@@ -135,7 +139,6 @@ This property offers an efficient alternative to building ellipses in Dynamic HT
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
