@@ -12,6 +12,8 @@
 {{API_Object_Property
 |Property_applies_to=dom/ProgressEvent
 |Read_only=Yes
+|Example_object_name=ProgressEvent
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=The ProgressEvent.lengthComputable read-only property is a Boolean flag indicating if the resource concerned by the ProgressEvent has a length that can be calculated. If not, the ProgressEvent.total property has no significant value.
 }}
