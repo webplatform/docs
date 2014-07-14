@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -201,7 +202,6 @@ If the value '''none''' is placed at the end of the values, all values are clear
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
 |External_links=* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
 * WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
 * IECSS: [http://www.iecss.com/ Internet Explorer User Agent Style Sheets]
