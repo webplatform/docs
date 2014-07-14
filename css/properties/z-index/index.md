@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Fix broken link
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
