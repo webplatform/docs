@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Removes the contents of a range from a document or document fragment and puts it a new document fragment.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oDocumentFragment
@@ -15,8 +16,8 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=range
+|Return_value_name=documentFragment
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
@@ -39,19 +40,30 @@ This method can return one of these values.
 {{!}}W3Exception_DOM_NO_MODIFICATION_ALLOWED_ERR
 {{!}}A  node or portion of the content in the range is read-only.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=range {{=}} document.createRange();
+range.selectNode(document.getElementsByTagName("div").item(0));
+documentFragment {{=}} range.extractContents();
+document.body.appendChild(documentFragment);
+}}
 }}
 {{Notes_Section
+|Notes=Event Listeners added using DOM Events are not retained during extraction. HTML attribute events are retained or duplicated as they are for the Node.cloneNode() method. HTML id attributes are also cloned, which can lead to an invalid document if a partially-selected node is extracted and appened to the document.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-range-extractcontents
+|Status=Living Standard
+|Relevant_changes=No Change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -64,8 +76,8 @@ This method can return one of these values.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.extractContents Range.extractContents]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975443(v=vs.85).aspx extractContents Method]
 |HTML5Rocks_link=
 }}
