@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs mobile compat
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,6 +11,7 @@
 {{Summary_Section|Gets a collection of all descendant elements with given classes. Not recommended; see Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=classNames
 |Data type=String
 |Description=A space separated list of classes.
