@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs usage, spec reference, standardization status, example
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -31,9 +33,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
