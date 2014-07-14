@@ -1,7 +1,6 @@
 {{Page_Title|&#58;hover}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Compatibility Incomplete
@@ -55,9 +54,7 @@ Starting with
 |Note=when the browser is in standards-compliant mode (strict [[html/elements/!DOCTYPE|!DOCTYPE]]), you can apply the ''':hover''' pseudo-class to any element, not only links. If the pseudo-class is not applied specifically to an element in the selector, such as the [[html/elements/a|'''a''']] tag, the [[css/selectors/Universal|Universal (*) Selector]] is assumed.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
