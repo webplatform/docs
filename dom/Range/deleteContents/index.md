@@ -13,7 +13,7 @@
 |Method_applies_to=dom/Range
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 This method can return one of these values.
