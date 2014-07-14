@@ -10,7 +10,7 @@
 {{Summary_Section|Selects a range node and all of its contents.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=oNode
+|Name=referenceNode
 |Data type=DOM Node
 |Description=The node to select.
 |Optional=No
