@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|Non-Standard}}
