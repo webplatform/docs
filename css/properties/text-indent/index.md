@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete
-|Checked_Out=No
+|State=Almost Ready
 |Editorial notes=<length/percentage> hanging and <length/percentage> each-line currently an experimental feature in CSS Text Level 3 or just experimental, unclear
+|Checked_Out=No
+|Content=Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -177,9 +178,7 @@ window.addEventListener("load", initialize, false);
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
