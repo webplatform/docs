@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Inserts a node into the start of a Range object. }}
+{{Summary_Section|Inserts a node into the start of a Range object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oNode
@@ -60,6 +60,7 @@ range.insertNode(newNode);
 If the container is of type  [[dom/TextNode|'''TextNode''']], '''insertNode''' splits the text node, and inserts ''newNode'' between the resulting two text nodes.
 If ''newNode'' is a document fragment, the children of the document fragment node are inserted rather than the ''newNode'' itself.
 |Import_Notes====Syntax===
+range.insertNode(newNode);
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
