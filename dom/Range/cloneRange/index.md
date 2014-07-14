@@ -14,8 +14,7 @@
 |Method_applies_to=dom/Range
 |Example_object_name=range
 |Return_value_name=clone
-|Javascript_data_type=Object
-|Return_value_description=[object Range]
+|Javascript_data_type=Range
 }}
 {{Examples_Section
 |Not_required=No
