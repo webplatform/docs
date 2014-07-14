@@ -16,7 +16,7 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=referenceNode
+|Example_object_name=range
 |Return_value_name=result
 |Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
