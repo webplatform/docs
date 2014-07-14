@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -44,7 +45,6 @@
 
 /* number */
 .inlinebox { text-height: 3; }
-
 }}
 }}
 {{Notes_Section}}
