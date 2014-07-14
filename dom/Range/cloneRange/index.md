@@ -19,21 +19,6 @@
 |Example_object_name=range
 |Return_value_name=clone
 |Javascript_data_type=Object
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{{{!}}| class="wikitable"
-{{!}}-
-!Return code
-!Description
-{{!}}-
-{{!}}S_OK
-{{!}}The operation completed successfully.
-{{!}}-
-{{!}}InvalidStateError
-{{!}}detach has been invoked on the object.
-{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
