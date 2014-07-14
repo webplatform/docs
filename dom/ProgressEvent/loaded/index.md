@@ -12,7 +12,9 @@
 {{API_Object_Property
 |Property_applies_to=dom/ProgressEvent
 |Read_only=Yes
+|Example_object_name=ProgressEvent
 |Javascript_data_type=unsigned long
+|Return_value_description=Number of bytes downloaded since the beginning of the operation.
 }}
 {{Examples_Section
 |Not_required=No
