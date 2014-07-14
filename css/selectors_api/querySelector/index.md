@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -141,7 +140,6 @@ Calling this method with an unknown selector (due to the browser not implementin
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Selectors
 |Manual_sections====Related pages (MSDN)===
 *[[dom/Document|Document]]
 *[[html/elements/a|a]]
