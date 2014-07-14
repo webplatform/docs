@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -113,7 +112,6 @@ p {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/selectors/pseudo-elements/::after|:after]]</code>
 *<code>[[css/selectors/pseudo-elements/::before|:before]]</code>
