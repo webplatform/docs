@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -99,7 +100,6 @@ p.japanese {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Text
 |Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
