@@ -1,7 +1,6 @@
 {{Page_Title|&#58;visited}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
@@ -60,9 +59,7 @@ To preserver their users’ privacy, browsers often implement  counter-measures 
 |Note=For security reasons, ''':visited''' is not supported by [[css/selectors api/querySelector|'''querySelector''']] or [[css/selectors api/querySelectorAll|'''querySelectorAll''']]
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
