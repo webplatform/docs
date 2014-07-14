@@ -1,5 +1,6 @@
 {{Page_Title|text-emphasis}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -135,9 +136,7 @@ Size of the marks will always scale to 50% of the container's actual font size.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Attributes, Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
