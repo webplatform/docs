@@ -9,12 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Returns a new range with boundary points that are equal to the original range.}}
 {{API_Object_Method
-|Parameters={{Method Parameter
-|Name=oClonedRange
-|Data type=Object
-|Description=[object Range]
-|Optional=No
-}}
+|Parameters=
 |Method_applies_to=dom/Range
 |Example_object_name=range
 |Return_value_name=clone
