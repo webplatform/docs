@@ -1,7 +1,6 @@
 {{Page_Title|::first-line}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -55,9 +54,7 @@ Only the following properties apply to the ::first-letter pseudo-element:
 |Note=Only the one-colon form of this pseudo-element is recognized—that is, ''':first-line'''. Beginning with Internet Explorer 9, the '''::first-line''' pseudo-element requires two colons, though the one-colon form is still recognized and behaves identically to the two-colon form.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Elements, Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
