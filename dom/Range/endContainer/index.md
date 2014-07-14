@@ -52,6 +52,6 @@ endRangeNode {{=}} range.endContainer;
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.endContainer Range.endContainer]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974927(v=vs.85).aspx endContainer]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974927(v=vs.85).aspx endContainer Property]
 |HTML5Rocks_link=
 }}
