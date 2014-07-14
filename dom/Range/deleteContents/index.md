@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Removes all contents within a selected range. }}
+{{Summary_Section|Removes all contents within a selected range.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Range
@@ -35,7 +35,12 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var range {{=}} document.createRange();
+range.selectNode(document.getElementsByTagName("div").item(0));
+range.deleteContents();
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
