@@ -105,7 +105,11 @@ border-radius: 40% 60%;
 |Relevant_changes=Added border-corner-shape to let border-radius specify the size of a number of different corner shapes besides rounded corners.
 }}
 }}
+
+==Compatibility==
 <compatability feature="css/border-radius" format="table"></compatability>
+<!-- Inserted manually, gotta change that ASAP -->
+
 {{See_Also_Section
 |Topic_clusters=Border
 |Manual_sections====Related pages (MSDN)===
