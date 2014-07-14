@@ -1,25 +1,24 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inserts a node into the start of a Range object. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oNode
-|Data type=any
-|Description=The
-new node
-to insert.
+|Data type=DOM Node
+|Description=The new node to insert.
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=newNode
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 This method can return one of these values.
@@ -44,11 +43,17 @@ This method can return one of these values.
 {{!}}W3Exception_DOM_NO_MODIFICATION_ALLOWED_ERR
 {{!}}A  node or portion of the content in the range is read-only.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var range {{=}} document.createRange();
+newNode {{=}} document.createElement("p");
+newNode.appendChild(document.createTextNode("New Node Inserted Here"));
+range.selectNode(document.getElementsByTagName("div").item(0));
+range.insertNode(newNode);
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -59,7 +64,12 @@ If ''newNode'' is a document fragment, the children of the document fragment nod
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-range-insertnode
+|Status=Living Standard
+|Relevant_changes=No Change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,8 +82,8 @@ If ''newNode'' is a document fragment, the children of the document fragment nod
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.insertNode Range.insertNode]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975445(v=vs.85).aspx insertNode Method]
 |HTML5Rocks_link=
 }}
