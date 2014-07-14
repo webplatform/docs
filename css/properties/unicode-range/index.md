@@ -1,7 +1,6 @@
 {{Page_Title|unicode-range}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -82,7 +81,6 @@ p {
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Font
 |External_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
 * [http://www.rishida.net/tools/conversion/ Unicode code converter]
 *[http://rishida.net/scripts/uniview/ UniView] web-based tool for viewing and working with Unicode codepoints
