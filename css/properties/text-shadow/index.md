@@ -1,7 +1,6 @@
 {{Page_Title|text-shadow}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -121,9 +120,7 @@ The <code>text-shadow</code> property applies to both the ::first-line and ::fir
 |Note=blur radius is limited to 100px
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
