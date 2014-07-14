@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -43,9 +45,7 @@ Originally defined in an earlier draft of the [http://www.w3.org/TR/2003/CR-css3
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Font
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
