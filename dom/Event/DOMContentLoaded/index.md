@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs summary
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{Event
@@ -72,7 +74,7 @@ if(!window.addEventListener) {
 |Specifications={{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/single-page.html
-|Status=Working Draft
+|Status=Candidate Recommendation
 |Relevant_changes=Section 8.2.6
 }}
 }}
