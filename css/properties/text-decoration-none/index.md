@@ -86,7 +86,6 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Visual Effects
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
