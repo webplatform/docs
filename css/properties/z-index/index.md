@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -246,7 +245,6 @@ When elements overlap, only the topmost element can receive action from a pointi
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Visual Effects
 |External_links=* http://www.w3.org/TR/CSS2/visuren.html#z-index
 * https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 |Manual_sections====Related pages (MSDN)===
