@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=nilladic function.... no return value...
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
@@ -35,6 +35,8 @@ range.collapse(true);
 }}
 }}
 {{Notes_Section
+|Notes=The DOM 'Living Standard' specification now recommends that the default parameter value be false...
+To retain interoperability across browsers ALWAYS specify the toStart parameter (true|false). 
 |Import_Notes====Syntax===
 range.collapse(toStart);
 ===Standards information===
