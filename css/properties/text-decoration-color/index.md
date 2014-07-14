@@ -1,7 +1,8 @@
 {{Page_Title|text-decoration-color}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -105,9 +106,7 @@
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
