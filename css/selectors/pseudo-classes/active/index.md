@@ -1,7 +1,6 @@
 {{Page_Title|&#58;active}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
 |Checked_Out=No
 |Content=Compatibility Incomplete
 }}
@@ -56,9 +55,7 @@ The default value of the ''':active''' pseudo-class is browser-specific.
 |Note=Dynamic HTML (DHTML) expressions can be used in place of the preceding value(s). As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode.
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
