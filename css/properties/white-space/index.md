@@ -113,8 +113,6 @@ p {
 }}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/selectors/pseudo-elements/::after|:after]]</code>
-*<code>[[css/selectors/pseudo-elements/::before|:before]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
