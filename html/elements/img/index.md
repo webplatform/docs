@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''img''' element <nowiki>(<img>)</nowiki> represents an image.}}
+{{Summary_Section|The '''img''' element <nowiki>(<img>)</nowiki> embeds an image in a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLImageElement
 |Content=The '''img''' element (&lt;img&gt;) embeds an image in a document. The &lt;img&gt; element can be nested in an [[html/elements/a|&lt;a&gt;]] element to create an image that links to another page or section. The value of the '''alt''' attribute provides equivalent content for those who cannot process images or who have image loading disabled.  Alternatives to the &lt;img&gt; element include setting the background-image property of an element.
