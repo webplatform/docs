@@ -1,5 +1,6 @@
 {{Page_Title|table layout}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -186,9 +187,7 @@ td p {
 |Note=HTML5  !DOCTYPE
 }}
 }}
-{{See_Also_Section
-|Topic_clusters=Tables
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
