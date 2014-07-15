@@ -10,7 +10,7 @@
 {{Summary_Section|Sets the end of a range to a point after a specific node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=oNode
+|Name=referenceNode
 |Data type=DOM Node
 |Description=A node in the document hierarchy.
 |Optional=No
