@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Not Ready
+|Editorial notes=Depreciated?
+see DOM/RangeException
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -14,7 +16,7 @@
 |Example_object_name=rangeException
 |Return_value_name=sErrName
 |Javascript_data_type=String
-|Return_value_description=The name of the specific RangeException that occured. 
+|Return_value_description=The name of the specific RangeException that occured.
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -58,6 +60,6 @@ Range exception also supports a code value. The following table shows the code a
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh974331(v=vs.85).aspx name Property]
 |HTML5Rocks_link=
 }}
