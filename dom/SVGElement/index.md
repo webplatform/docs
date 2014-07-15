@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
+|Editorial notes=Missing properties, id etc
+see https://developer.mozilla.org/en-US/docs/Web/API/SVGElement
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -45,8 +47,8 @@ The '''SVGElement''' object has these properties:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/SVGElement SVGElement]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/gg305566(v=vs.85).aspx SVGElement]
 |HTML5Rocks_link=
 }}
