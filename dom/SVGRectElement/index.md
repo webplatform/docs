@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs some inline SVG examples...
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The SVGRectElement interface provides access to the properties of the rect element.}}
 {{API_Object
@@ -12,7 +14,29 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;?xml version="1.0"?&gt;
+&lt;svg width="120" height="120" 
+     viewPort="0 0 120 120" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"&gt;
+	
+	&lt;rect x="10" y="10" width="100" height="100"/&gt;
+	
+&lt;/svg&gt;
+}}{{Single Example
+|Language=HTML
+|Code=&lt;?xml version="1.0"?&gt;
+&lt;svg width="120" height="120" 
+     viewPort="0 0 120 120" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"&gt;
+	
+	&lt;rect x="10" y="10" 
+	      width="100" height="100"
+	      rx="15" ry="15"/&gt;
+	
+&gt;/svg&lt;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -32,7 +56,6 @@ The '''SVGRectElement''' object has these properties:
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
 *[[svg/properties/rx|'''rx''']]: Gets or sets  the x-axis radius of a rounded corner rectangle.
 *[[svg/properties/ry|'''ry''']]: Gets or sets  the y-axis radius of a rounded corner rectangle.
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -48,8 +71,8 @@ The '''SVGRectElement''' object has these properties:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect SVGRectElement]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff972117(v=vs.85).aspx SVGRectElement]
 |HTML5Rocks_link=
 }}
