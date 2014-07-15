@@ -1,23 +1,24 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the end of the range to a point before a specific node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=oNode
-|Data type=any
+|Name=referenceNode
+|Data type=DOM Node
 |Description=A node in the document hierarchy.
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=range
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 This method can return one of these values.
@@ -33,19 +34,30 @@ This method can return one of these values.
 {{!}}InvalidStateError
 {{!}}detach has been invoked on the object.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var range = document.createRange();
+var referenceNode = document.getElementsByTagName("div").item(0);
+
+range.setEndBefore(referenceNode);
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
+range.setEndBefore(referenceNode);
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-range-setendbefore
+|Status=Living Standard
+|Relevant_changes=No Change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -58,8 +70,8 @@ This method can return one of these values.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.setEndBefore Range.setEndBefore]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975450(v=vs.85).aspx setEndBefore Method]
 |HTML5Rocks_link=
 }}
