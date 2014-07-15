@@ -6,13 +6,18 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Selection is the class of the object returned by window.getSelection() and other methods. It represents the text selection in the greater page, possibly spanning multiple elements, when the user drags over static text and other parts of the page. For information about text selection in an individual text editing element, see Input, TextArea and document.activeElement which typically return the parent object returned from window.getSelection().}}
 {{API_Object
 |Subclass_of=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=A selection object represents the ranges that the user has selected. Typically, it holds only one range, accessed as follows:
+|Code=var selObj {{=}} window.getSelection();
+var range  {{=}} selObj.getRangeAt(0);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
