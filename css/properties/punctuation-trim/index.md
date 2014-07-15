@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
