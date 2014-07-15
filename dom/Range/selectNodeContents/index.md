@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
@@ -33,7 +34,6 @@ This method can return one of these values.
 {{!}}InvalidStateError
 {{!}}detach has been invoked on the object.
 {{!}}}
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -58,8 +58,8 @@ This method can return one of these values.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.selectNodeContents Range.selectNodeContents]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975447(v=vs.85).aspx selectNodeContents Method]
 |HTML5Rocks_link=
 }}
