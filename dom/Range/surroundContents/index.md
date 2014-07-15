@@ -61,7 +61,12 @@ range.surroundContents(newNode);
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-range-surroundcontents
+|Status=Living Standard
+|Relevant_changes=No change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
