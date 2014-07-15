@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
