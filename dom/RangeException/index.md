@@ -15,7 +15,7 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use [/dom/DOMException/ DOMException] instead.
+|Usage=Use [dom/DOMException DOMException] instead.
 |Notes=Starting with Gecko 13.0 (Firefox 13.0 / Thunderbird 13.0 / SeaMonkey 2.10) the Range object throws a DOMException as defined in DOM 4, instead of a RangeException defined in prior specifications.
 
 Gecko supported it up to Gecko 1.9, then removed it until Gecko 17 where it was reimplemented, matching the spec
