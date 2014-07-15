@@ -35,7 +35,7 @@
 	      width="100" height="100"
 	      rx="15" ry="15"/&gt;
 	
-&gt;/svg&lt;
+&lt;/svg&gt;
 }}
 }}
 {{Notes_Section
