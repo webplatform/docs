@@ -15,7 +15,7 @@
 |Description=Node in the document hierarchy.
 |Optional=No
 }}{{Method Parameter
-|Name=offset
+|Name=startOffset
 |Data type=Number
 |Description=Specifies the offset value for the starting point.
 |Optional=No
