@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -55,7 +57,6 @@ Pairs of strings are required if the value is not <code>none</code>.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
 |Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
