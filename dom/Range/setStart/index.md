@@ -10,7 +10,7 @@
 {{Summary_Section|Sets the starting point of a range}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=referenceNode
+|Name=startNode
 |Data type=DOM Node
 |Description=Node in the document hierarchy.
 |Optional=No
