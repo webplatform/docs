@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -50,6 +53,7 @@ The '''ruby-overhang''' property specifies the overhang of the ruby text defined
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=5.0
@@ -109,7 +113,6 @@ The '''ruby-overhang''' property specifies the overhang of the ruby text defined
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Ruby
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
