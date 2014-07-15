@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -347,7 +349,6 @@ An element with a '''fixed''' position is positioned relative to the visible vie
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
 |Manual_sections===Related Tutorials==
 * [[tutorials/static_and_relative_positioning|Static and relative positioning]]
 * [[tutorials/absolute_and_fixed_positioning|Absolute and fixed positioning]]
