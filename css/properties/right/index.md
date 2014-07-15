@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -93,6 +95,7 @@
 </syntaxhighlight>
 }}
 }}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -125,7 +128,6 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
