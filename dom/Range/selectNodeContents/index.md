@@ -7,18 +7,18 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the Range to contain the contents of a Node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Name=oNode
-|Data type=any
+|Name=referenceNode
+|Data type=DOM Node
 |Description=A node in the document hierarchy.
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=referenceNode
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 This method can return one of these values.
@@ -37,10 +37,16 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var range {{=}} document.createRange();
+var referenceNode {{=}} document.getElementsByTagName("div")[0];
+range.selectNodeContents(referenceNode);
+}}
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
+range.selectNodeContents(referenceNode);
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
