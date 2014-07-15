@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Defines a line by using beginning and ending (x,y) coordinate values with stroke and stroke-width styles .}}
 {{API_Object
 |Subclass_of=dom/SVGElement,dom/SVGTests,dom/SVGLangSpace,dom/SVGExternalResourcesRequired,dom/SVGStylable,dom/SVGTransformable
 }}
@@ -46,8 +48,8 @@ The '''SVGElement''' object has these properties:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/SVGLineElement SVGLineElement]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff972079(v=vs.85).aspx SVGLineElement]
 |HTML5Rocks_link=
 }}
