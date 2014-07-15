@@ -14,7 +14,27 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Code=&lt;?xml version="1.0"?&gt;
+&lt;svg width="120" height="120" 
+     viewPort="0 0 120 120" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"&gt;
+
+    &lt;line x1="20" y1="100" 
+          x2="100" y2="20" 
+          stroke="black" 
+          stroke-width="2"/&gt;
+
+&lt;/svg&gt;
+}}{{Single Example
+|Language=HTML
+|Code=&lt;?xml version="1.0"?&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg"&gt;
+    &lt;line x1="20" y1="100" x2="100" y2="100" stroke-width="2" 
+	stroke="black" transform="rotate(-45 20 100)"/&gt;
+&lt;/svg&gt;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -49,7 +69,7 @@ The '''SVGElement''' object has these properties:
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/SVGLineElement SVGLineElement]
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line SVGLineElement]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff972079(v=vs.85).aspx SVGLineElement]
 |HTML5Rocks_link=
 }}
