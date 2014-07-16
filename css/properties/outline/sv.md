@@ -1,5 +1,7 @@
 {{Page_Title|Kontur (outline)}}
 {{Flags
+|State=Unreviewed
+|Editorial notes=Not in English
 |Checked_Out=Yes
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete, Examples Best Practices
