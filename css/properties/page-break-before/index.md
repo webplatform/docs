@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deprecated; deletion candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
@@ -61,9 +63,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Paged Media
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
