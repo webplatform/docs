@@ -1,20 +1,19 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=temporary lock while I commute home.
+|State=Ready to Use
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Deletes the selected nodes from a document.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Selection
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=selObj
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
@@ -22,6 +21,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=In the following example, select the text and elements in the shaded section. When the mouse button is released, the selected items are deleted. Refresh the page to try again.
 |Code=&lt;!DOCTYPE html&gt;
     &lt;html&gt;
@@ -55,6 +55,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Notes_Section
 |Import_Notes====Syntax===
+window.getSelection().deleteFromDocument();
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
 }}
