@@ -1,19 +1,24 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the number of characters that the selection's focus is offset within the focusNode.}}
 {{API_Object_Property
 |Property_applies_to=dom/Selection
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=selObj
+|Return_value_name=offset
+|Javascript_data_type=Number
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example uses '''focusOffset''' to show the offset value for the end of a selection when you release the mouse button.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -65,8 +70,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection.focusOffset Selection.focusOffset]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974691(v=vs.85).aspx focusOffset Property]
 |HTML5Rocks_link=
 }}
