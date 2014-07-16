@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
@@ -64,9 +65,7 @@ p:nth-child(2) {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
+{{See_Also_Section}}
 {{Topics|CSS, Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
