@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=Ready to Use
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -90,9 +91,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Visual Effects
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
