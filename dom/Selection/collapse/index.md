@@ -1,6 +1,12 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=MSDN documentation is incorrect.
+offset may have 0 or 1 value;
+
+offset
+    0 - Collapses the selection from the anchor to the beginning of parentNode's text.
+    1 - Collapses the selection from the anchor to the end of parentNode's text. 
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -17,7 +23,10 @@
 }}{{Method Parameter
 |Name=offset
 |Data type=Number
-|Description=The number of units from the start in which to place the caret or collapsed selection.
+|Description=
+offset
+    0 - Collapses the selection from the anchor to the beginning of parentNode's text.
+    1 - Collapses the selection from the anchor to the end of parentNode's text. 
 |Optional=No
 }}
 |Method_applies_to=dom/Selection
@@ -35,7 +44,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Description=Place the caret at the beginning of an HTML document's body.
 |Code=var body {{=}} document.getElementsByTagName('body')[0];
 var selObj{{=}}window.getSelection();
-selObj.collapse(body,0);
+selObj.collapse(body,0);// offset 0||1
 }}
 }}
 {{Notes_Section
