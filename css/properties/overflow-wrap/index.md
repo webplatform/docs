@@ -66,7 +66,7 @@ p:nth-child(2) {
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|CSS, Design}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
