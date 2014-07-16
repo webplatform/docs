@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -66,9 +67,7 @@ aside { order: 3; }
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-}}
+{{See_Also_Section}}
 {{Topics|CSS, Flexbox}}
 {{External_Attribution
 |Is_CC-BY-SA=No
