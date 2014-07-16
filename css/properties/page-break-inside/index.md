@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deprecated; deletion candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
@@ -75,7 +77,6 @@ Neither force nor forbid a page break inside the object.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Paged Media
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
