@@ -1,5 +1,6 @@
 {{Page_Title|overflow-y}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -101,7 +102,6 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Box Model
 |Manual_sections==== Related Properties ===
 * [[css/properties/overflow|overflow]]
 * [[css/properties/overflow-x|overflow-x]]
