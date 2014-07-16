@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=See padding-bottom
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -73,7 +75,7 @@ Element layout is set by providing a value for the [[css/properties/height|'''he
 |Name=CSS 2.1, 8 Box model
 |URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
 |Status=W3C Recommendation
-}}{{Related Specification}}
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -82,9 +84,7 @@ Element layout is set by providing a value for the [[css/properties/height|'''he
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
