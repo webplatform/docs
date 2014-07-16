@@ -16,7 +16,7 @@
 |Language=JavaScript
 |Description=A selection object represents the ranges that the user has selected. Typically, it holds only one range, accessed as follows:
 |Code=var selObj {{=}} window.getSelection();
-var range  {{=}} selObj.getRangeAt(0);
+if(selObj.rangeCount){ range  {{=}} selObj.getRangeAt(0);}
 }}
 }}
 {{Notes_Section}}
@@ -36,7 +36,7 @@ var range  {{=}} selObj.getRangeAt(0);
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection Selection Object]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535869(v=vs.85).aspx Selection Object]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974359(v=vs.85).aspx HTMLSelection Object]
 |HTML5Rocks_link=
 }}
 {{Concept_Listing
