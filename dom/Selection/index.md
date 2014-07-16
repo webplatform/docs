@@ -4,7 +4,7 @@
 |Editorial notes=New listing page with proper object capitalization; replaces '''selection'''.
 |Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Selection is the class of the object returned by window.getSelection() and other methods. It represents the text selection in the greater page, possibly spanning multiple elements, when the user drags over static text and other parts of the page. For information about text selection in an individual text editing element, see Input, TextArea and document.activeElement which typically return the parent object returned from window.getSelection().}}
 {{API_Object
@@ -21,7 +21,11 @@ if(selObj.rangeCount){ range  {{=}} selObj.getRangeAt(0);}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=A vocabulary and associated APIs for HTML and XHTML
+|URL=http://www.w3.org/TR/html5/
+|Status=Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
