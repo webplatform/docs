@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=See padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
 |Checked_Out=Yes
-|Editorial notes=see padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -54,9 +55,7 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
