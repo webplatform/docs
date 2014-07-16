@@ -108,9 +108,9 @@ border-radius: 40% 60%;
 
 ==Compatibility==
 {{Compatibility
-|topic=css
-|feature=border-radius
-|format=table
+|ViewTopic=css
+|ViewFeature=border-radius
+|ViewFormat=table
 }}
 
 {{See_Also_Section
