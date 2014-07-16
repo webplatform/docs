@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -71,7 +72,6 @@ The [[css/properties/widows|'''widows''']] property takes precedence over '''orp
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Paged Media
 |Manual_sections====Related pages ===
 *<code>[[css/properties/widows|widows]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
