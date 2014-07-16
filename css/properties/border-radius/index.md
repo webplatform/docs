@@ -107,8 +107,7 @@ border-radius: 40% 60%;
 }}
 
 ==Compatibility==
-<compatability feature="css/border-radius" format="table"></compatability>
-<!-- Inserted manually, gotta change that ASAP -->
+<compatibility topic="css" feature="border-radius" format="table"></compatibility>
 
 {{See_Also_Section
 |Topic_clusters=Border
