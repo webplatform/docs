@@ -1,7 +1,6 @@
 {{Page_Title|Using text in SVG}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link in Basics
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -11,7 +10,7 @@
  
 === Basics ===
  
-We have seen in the [[introducing example]], that the <code>text</code> element can be used to put arbitrary text in SVG documents:
+We can see in this example that the <code>text</code> element can be used to put arbitrary text in SVG documents:
  
 <pre>&lt;text x="10" y="10"&gt;Hello World!&lt;/text&gt;</pre>
  
