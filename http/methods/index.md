@@ -46,6 +46,11 @@ TRACE is a meta-request that replies with the HTTP headers used to make the requ
 
 TRACE in many situations can expose confidential cookie and authorization headers to an attacker, and so is disabled on many HTTP servers. See [http://www.kb.cert.org/vuls/id/867593].
 
+=== PATCH ===
+PATCH instructs the server to apply a change to the identified resource using some diff or patch format, like a Patch file or JSON Patch.
+
+Though PATCH is not idempotent by default, it can be issued with an <code>If-Match</code> header so as to only be successful one time.
+
 === Other Methods ===
 Several HTTP extensions like WebDAV define other methods. A complete list is maintained at the IANA's [http://www.iana.org/assignments/http-methods/http-methods.xhtml HTTP Method Registry].
 
@@ -70,4 +75,6 @@ Several HTTP extensions like WebDAV define other methods. A complete list is mai
 | CONNECT || Open a tunnel || No || No || No || [http://tools.ietf.org/html/rfc7231#section-4.3.6 RFC7231, Section 4.3.6]
 |-
 | OPTIONS || Get communication information || No || Yes || No || [http://tools.ietf.org/html/rfc7231#section-4.3.7 RFC7231, Section 4.3.7]
+|-
+| PATCH || Apply a modification || No || No || No || [http://tools.ietf.org/html/rfc5789 RFC5789]
 |}
