@@ -300,4 +300,3 @@ to be applied to an HTML structure like the following:
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}}
