@@ -11,7 +11,7 @@ The minimum requirement for [[http/servers|HTTP servers]] is to support the meth
 === GET ===
 GET requests an information resource from the HTTP server. A GET request "safe": it is read only, and must not change the state of the server (except to the extent the very act of the request is logged, etc).
 
-A GET request can be paired with an `If-Match` header if the user agent has a cached version with an ETag value, and only wishes for a response if there's a newer version available.
+A GET request can be paired with an <code>If-Match</code> header if the user agent has a cached version with an ETag value, and only wishes for a response if there's a newer version available.
 
 === HEAD ===
 A HEAD request is identical to a GET request, except the response body is excluded. It is used for testing headers and metadata about a resource.
@@ -26,12 +26,12 @@ Most POST requests are made by Web browsers, and respond with 303 (See Other) to
 === PUT ===
 PUT stores a resource at the given URI, creating it if necessary.
 
-Two PUT requests in succession have the same effect as one, so the method is _idempotent_ (safe to re-send). PUT requests should be sent with an `If-Match: _etag_` so modifications are not inadvertently overwritten; or `If-None-Match: *` if the resource is to only be created (but not overwritten if it exists).
+Two PUT requests in succession have the same effect as one, so the method is _idempotent_ (safe to re-send). PUT requests should be sent with an <code>If-Match: ''etag''</code> so modifications are not inadvertently overwritten; or <code>If-None-Match: *</code> if the resource is to only be created (but not overwritten if it exists).
 
 === DELETE ===
 A DELETE on a resource removes it from the server. Further GET requests will likely return 410 (Gone) or 404 (Not Found).
 
-Like PUT, two DELETE requests in succession have the same effect as one, and so the method is _idempotent_ (safe to re-send). DELETE requests should be paired with an `If-Match` header so that if the resource is re-created or modified, the modifications are not unknowingly deleted.
+Like PUT, two DELETE requests in succession have the same effect as one, and so the method is _idempotent_ (safe to re-send). DELETE requests should be paired with an <code>If-Match</code> header so that if the resource is re-created or modified, the modifications are not unknowingly deleted.
 
 === CONNECT ===
 CONNECT effectively ends HTTP communications and starts two-way communications with the resource identified in the request-line (the URI, or server:port). It is a hop-by-hop method.
@@ -63,11 +63,11 @@ Several HTTP extensions like WebDAV define other methods. A complete list is mai
 |-
 | POST || Execute/perform an action || No || No || Yes || [http://tools.ietf.org/html/rfc7231#section-4.3.3 RFC7231, Section 4.3.3]
 |-
-| PUT || Store a resource || No || Yes || Yes || [http://tools.ietf.org/html/rfc7231#section-4.3.4 RFC7231, Section 4.3.4]
+| PUT || Store a resource || No || Yes || No || [http://tools.ietf.org/html/rfc7231#section-4.3.4 RFC7231, Section 4.3.4]
 |-
 | DELETE || Delete a resource || No || Yes || No || [http://tools.ietf.org/html/rfc7231#section-4.3.6 RFC7231, Section 4.3.6]
 |-
 | CONNECT || Open a tunnel || No || No || No || [http://tools.ietf.org/html/rfc7231#section-4.3.6 RFC7231, Section 4.3.6]
 |-
-| OPTIONS || Get communication information || No || Yes || Yes || [http://tools.ietf.org/html/rfc7231#section-4.3.7 RFC7231, Section 4.3.7]
+| OPTIONS || Get communication information || No || Yes || No || [http://tools.ietf.org/html/rfc7231#section-4.3.7 RFC7231, Section 4.3.7]
 |}
