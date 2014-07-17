@@ -1,10 +1,11 @@
 {{Page_Title|Working with objects in JavaScript}}
 {{Flags
-|Content=Errors, Compatibility Incomplete
-|Checked_Out=No
-|Editorial notes=Is marked as needing a technical review in MDN
+|State=Almost Ready
+|Editorial notes=Is marked as needing a technical review in MDN.
 
 Links need to be changed to point to the WPD JS reference, once it's created
+|Checked_Out=No
+|Content=Errors, Compatibility Incomplete
 }}
 {{Byline}}
 {{Summary_Section|Objects are integral to javascript development and understanding how objects are generated and used is essential.}}
