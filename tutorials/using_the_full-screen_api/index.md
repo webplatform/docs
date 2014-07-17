@@ -1,5 +1,6 @@
 {{Page_Title|Using the full-screen API}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Flags
 }}
@@ -156,10 +157,10 @@ This API currently has only partial support in modern browsers.
 See the compatibility tables in the relevant methods and properties below for the latest information.
 
 ==See also==
-* [[dom/methods/requestFullscreen|requestFullscreen]]
-* [[dom/methods/exitFullscreen|exitFullscreen]]
-* [[dom/properties/fullscreenElement|fullscreenElement]]
-* [[dom/properties/fullscreenEnabled|fullscreenEnabled]]
+* [[dom/Element/requestFullscreen|requestFullscreen]]
+* [[dom/Document/exitFullscreen|exitFullscreen]]
+* [[dom/Document/fullscreenElement|fullscreenElement]]
+* [[dom/Document/fullscreenEnabled|fullscreenEnabled]]
 }}
 {{Notes_Section}}
 {{Compatibility_Section
