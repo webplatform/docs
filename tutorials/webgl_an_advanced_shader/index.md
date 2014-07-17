@@ -1,5 +1,8 @@
 {{Page_Title|WebGL: an advanced shader}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken image link under "Turning it up to 11"
+|Checked_Out=No
 |Content=Compatibility Incomplete
 }}
 {{Byline
