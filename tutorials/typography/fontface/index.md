@@ -1,7 +1,8 @@
 {{Page_Title|FontFace}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Byline
 |Name=Dave Gash
