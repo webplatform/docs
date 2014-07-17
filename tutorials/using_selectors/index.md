@@ -1,5 +1,7 @@
 {{Page_Title|Using selectors}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Move Candidate
 }}
 {{Byline}}
@@ -289,9 +291,7 @@ to be applied to an HTML structure like the following:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Selectors
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
