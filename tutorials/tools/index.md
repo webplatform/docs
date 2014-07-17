@@ -1,5 +1,9 @@
 {{Page_Title|Tools tutorials}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=This page contains links to tools tutorials.
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
@@ -9,6 +13,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
