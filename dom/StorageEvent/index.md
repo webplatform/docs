@@ -31,9 +31,9 @@ if(window.sessionStorage){
 }}
 {{Notes_Section
 |Usage=Used to notify a user that data has been successfully written to their DOM Storage area of their device.
-|Notes=In MSIE browsers...
+|Notes=In MSIE/Windows browsers...
 
-1. DOM storage is user and/or administrator configurable from Internet Options and Group Policy.
+1. DOM storage is user and/or administrator configurable from Internet Options and Group Policy and can be enabled/disabled in the client browser.
 
 2. For local (x)html files that use the file: protocol, sessionStorage and localStorage are undefined.
 |Import_Notes====Standards information===
