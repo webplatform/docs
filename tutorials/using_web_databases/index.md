@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | Duplicate of http://docs.webplatform.org/wiki/tutorials/web_databases
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Byline
 |Name=Paul Kinlan
