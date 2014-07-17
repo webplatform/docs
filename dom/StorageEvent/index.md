@@ -7,7 +7,7 @@ see http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides event properties that are specific to the onstorage event.}}
 {{API_Object
@@ -30,8 +30,11 @@ if(window.sessionStorage){
 }}
 }}
 {{Notes_Section
+|Usage=Used to notify a user that data has been successfully written to their DOM Storage area of their device.
 |Notes=In MSIE browsers...
+
 1. DOM storage is user and/or administrator configurable from Internet Options and Group Policy.
+
 2. For local (x)html files that use the file: protocol, sessionStorage and localStorage are undefined.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 5.11.1.5
