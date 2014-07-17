@@ -1,5 +1,5 @@
 {{Page_Title|WebRTC Resources}}
-{{Flags}}
+{{Flags|State=Not Ready}}
 {{Byline
 |Name=Sam Dutton
 |URL=http://www.samdutton.com
