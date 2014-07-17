@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Glossary term; needs to be moved, and possibly renamed to x-height
+|Editorial notes=Glossary term; move candidate, possibly rename to x-height
 |Checked_Out=No
 }}
 {{Glossary_Item
