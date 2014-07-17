@@ -1,7 +1,8 @@
 {{Page_Title|HTML5 Video and Other Recommendations}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Byline
 |Name=Carlos Araya
@@ -10,9 +11,7 @@
 }}
 {{Summary_Section|Overview about HTML5 Video interaction with other web standards and technologies}}
 {{Tutorial
-|Content==HTML5 Video and Other Recommendations=
-
-==The Fun Part==
+|Content===The Fun Part==
 
 The main advantage of the video tag being a member of the HTML5 family is its integration with the other layers of web development stack. In the following examples we'll give you an overview of what's possible to do with it.
 
