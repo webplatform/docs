@@ -1,7 +1,8 @@
 {{Page_Title|Overview of web fonts using @font-face}}
 {{Flags
-|High-level issues=Needs Flags
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Flags
 }}
 {{Byline
 |Name=Paul Irish
