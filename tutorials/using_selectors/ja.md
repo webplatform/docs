@@ -1,5 +1,7 @@
 {{Page_Title|セレクターの使い方}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Probably a mistake; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
