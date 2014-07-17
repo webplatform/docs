@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=See Notes: "draft; sections to be added"
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete
 }}
