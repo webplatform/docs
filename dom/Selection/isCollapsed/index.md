@@ -7,18 +7,16 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves whether a selection is collapsed or empty.}}
 {{API_Object_Property
 |Property_applies_to=dom/Selection
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=selObj
 |Return_value_name=result
 |Javascript_data_type=Boolean
-|Return_value_description=
-false - The selection is not collapsed.
+|Return_value_description=false - The selection is not collapsed.
 
 true - The selection is collapsed or empty.
-
 }}
 {{Examples_Section
 |Not_required=No
