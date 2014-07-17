@@ -1,8 +1,8 @@
 {{Page_Title|OAuth: an open standard for authentication}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Stub, Needs Review
 |Content=Examples Needed
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|Description of the OAuth standard.}}
