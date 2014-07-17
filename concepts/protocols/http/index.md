@@ -36,6 +36,7 @@ An example HTTP request will look like:
  Host: example.com
  User-Agent: ExampleUA/4.0
  Accept: */*
+ 
 
 To which the server might reply:
 
