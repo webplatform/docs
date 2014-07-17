@@ -1,15 +1,24 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/Selection
 |Read_only=No
+|Example_object_name=selObj
+|Return_value_name=result
+|Javascript_data_type=Boolean
+|Return_value_description=
+false - The selection is not collapsed.
+
+true - The selection is collapsed or empty.
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,7 +28,7 @@
 
 &lt;html&gt;
   &lt;head&gt;
-    &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}9" /&gt;  &lt;!-- Only works in Internet Explorer 9 --&gt;     
+     
      
     &lt;!-- This example shows the character offset from anchor node of your selection. --&gt;
     &lt;title&gt;isCollapsed Example&lt;/title&gt;        
@@ -55,6 +64,7 @@
 {{Notes_Section
 |Notes====Remarks===
 A collapsed selection has its start and end points set to the same value, which renders it empty.
+Even a collapsed selection may have a rangeCount greater than 0. selObj.getRangeAt(0) may return a range that is also collapsed.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
@@ -73,8 +83,8 @@ A collapsed selection has its start and end points set to the same value, which 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection.isCollapsed Selection.isCollapsed]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974692(v=vs.85).aspx isCollapsed Property]
 |HTML5Rocks_link=
 }}
