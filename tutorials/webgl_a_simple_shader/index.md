@@ -1,5 +1,7 @@
 {{Page_Title|WebGL: a simple shader}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |Content=Compatibility Incomplete
 }}
 {{Byline
