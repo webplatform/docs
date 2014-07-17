@@ -1,5 +1,7 @@
 {{Page_Title|Using WebSocket}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
