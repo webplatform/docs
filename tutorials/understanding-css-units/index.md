@@ -1,5 +1,7 @@
 {{Page_Title|Understanding pixels and other CSS units}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=See TODO under Simple Example
 |Checked_Out=No
 }}
 {{Byline
