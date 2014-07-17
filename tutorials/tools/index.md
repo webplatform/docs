@@ -1,11 +1,10 @@
 {{Page_Title|Tools tutorials}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=This page contains links to tools tutorials.
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This page contains links to tools tutorials.}}
 {{Tutorial
 |Content=* [[tutorials/developertools_chrome1|Developer Tools]]
 * [[tutorials/google chrome frame|Google Chrome Frame]]
