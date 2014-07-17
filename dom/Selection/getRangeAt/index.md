@@ -1,39 +1,45 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns a specified Range from a selection. The Range is specified by an index and cannot be greater than the number that is returned by rangeCount. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=index
-|Data type=any
-|Description=An '''Integer''' that specifies the zero-based index of the Range to retrieve.
-|Optional=No
-}}{{Method Parameter
-|Name=ppRange
-|Data type=any
+|Data type=Number
+|Description=The zero-based index of the range to return. A negative number or a number greater than or equal to rangeCount will result in an error.
 |Optional=No
 }}
 |Method_applies_to=dom/Selection
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
+|Example_object_name=selObj
+|Return_value_name=range
+|Javascript_data_type=Range
+|Return_value_description=The range object that will be returned.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var ranges {{=}} [];
+
+var selObj {{=}} window.getSelection();
+
+for(var i {{=}} 0; i < selObj.rangeCount; i++) {
+ ranges[i] {{=}} selObj.getRangeAt(i);
+}
+/* Each item in the ranges array is now 
+ * a range object representing one of the 
+ * ranges in the current selection */
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
-Currently, Windows Internet Explorer 9 does not support multiple or disjointed selections in standards mode. A selection always has one Range only. Raises an INDEX_SIZE_ERR [[dom/DOMException|'''DOMException''']] if the value of ''index'' is out of range.
+Currently only Gecko supports multiple or disjointed selections.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
@@ -52,8 +58,8 @@ Currently, Windows Internet Explorer 9 does not support multiple or disjointed 
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection.getRangeAt Selection.getRangeAt]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975177(v=vs.85).aspx getRangeAt Method]
 |HTML5Rocks_link=
 }}
