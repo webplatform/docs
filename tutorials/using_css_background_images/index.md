@@ -1,5 +1,6 @@
 {{Page_Title|Using CSS background images}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
