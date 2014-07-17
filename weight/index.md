@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=weight
 |Definition=In typography, the relative heaviness or lightness of rules, borders, and character strokes.
