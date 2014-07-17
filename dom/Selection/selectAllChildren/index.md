@@ -1,30 +1,32 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Adds all the children of the specified node to the selection. Previous selection is lost.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=parentNode
-|Data type=any
+|Data type=DOM Node
+|Description=The object that receives the new selection. 
 |Optional=No
 }}
 |Method_applies_to=dom/Selection
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=selObj
+|Return_value_name=result
+|Javascript_data_type=Number
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=In this example, your selection is replaced by all the elements of the DIV.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;head&gt;
@@ -47,6 +49,11 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
     &lt;button onclick{{=}}"selectAllChildrenDemo ();"&gt;Select everything below&lt;/button&gt;
     &lt;div id{{=}}"elementID"&gt;The &lt;strong&gt;selectAllChildren&lt;/strong&gt; method replaces the current &lt;em&gt;selection&lt;/em&gt; with the all the &lt;strong&gt;contents&lt;/strong&gt; of the specified element (in this case a DIV).&lt;/div&gt;
 &lt;/body&gt;
+}}{{Single Example
+|Language=JavaScript
+|Code=var footer {{=}} document.getElementById("footer");
+window.getSelection().selectAllChildren(footer);
+/* Everything inside the footer is now selected */
 }}
 }}
 {{Notes_Section
@@ -70,8 +77,8 @@ Raises a WRONG_DOCUMENT_ERR [[dom/DOMException|'''DOMException''']] if the ''par
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection.selectAllChildren Selection.selectAllChildren]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975180(v=vs.85).aspx selectAllChildren Method]
 |HTML5Rocks_link=
 }}
