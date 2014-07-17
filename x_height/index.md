@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; needs to be moved
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=x-height
 |Definition=The distance between the baseline and the mean line in a typeface. Typically, this is the height of the lowercase letter "x" in the font, hence its name and the CSS reference unit "ex".
