@@ -6,7 +6,7 @@ http://help.dottoro.com/ljuecqgv.php
 only works in webkit,
 FX has no TextEvent,
 IE11 has but above sample runs without errors or the expected result... appears IE prevent programmatic text input into input fields.
-Missing initTextEvent Method
+
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
