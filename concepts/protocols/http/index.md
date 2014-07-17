@@ -8,7 +8,7 @@
 {{Basic Page}}
 ==HTTP==
 
-Hypertext Transfer Protocol (HTTP) is an application-layer protocol. HTTP is an application-level protocol on top of <tt title="Transmission Control Protocol, Internet Protocol"><nowiki>TCP/IP</nowiki></tt>, a communication protocol. It is used for exchanging messages (such has hypermedia documents) in between a client (a ''user agent'' like a browser or bot) and a server. The interactions are defined by a client-server model. The client sends a request to a server and the server sends back a response to the client.
+Hypertext Transfer Protocol (HTTP) is an application-layer protocol. HTTP is an application-level protocol on top of <tt><abbr title="Transmission Control Protocol, Internet Protocol"><nowiki>TCP/IP</nowiki></abbr></tt>, a communication protocol. It is used for exchanging messages (such has hypermedia documents) in between a client (a ''user agent'' like a browser or bot) and a server. The interactions are defined by a client-server model. The client sends a request to a server and the server sends back a response to the client.
 
 HTTP will help manage an information space by defining user interactions and expectations with regards to this information.
 
