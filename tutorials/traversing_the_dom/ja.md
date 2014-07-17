@@ -1,5 +1,7 @@
 {{Page_Title|DOMの横断}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Probably a mistake; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
