@@ -1,5 +1,6 @@
 {{Page_Title|Your first look at JavaScript}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
