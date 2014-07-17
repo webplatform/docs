@@ -1,8 +1,9 @@
 {{Page_Title|HTML5 Video Basics}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=I'm particularly interested in finding out if the type attribute of source must include the code, as this may be too hard for a beginner's tutorial (assuming this is a beginner's tutorial)
 |Checked_Out=No
-|Editorial notes=I'm particularly interested in finding out if the type attribute of source must include the code as this may be too hard for a beginner's tutorial (assuming this is a beginner's tutorial)
+|High-level issues=Needs Review
 }}
 {{Byline
 |Name=Ernest Delgado
