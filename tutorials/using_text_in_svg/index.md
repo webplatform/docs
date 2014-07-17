@@ -1,5 +1,9 @@
 {{Page_Title|Using text in SVG}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link in Basics
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article details how to insert text into an SVG image.}}
 {{Tutorial
@@ -67,6 +71,7 @@ This element fetches via its <code>xlink:href</code> attribute an arbitrary path
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
