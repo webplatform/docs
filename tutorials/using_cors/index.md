@@ -1,5 +1,7 @@
 {{Page_Title|Using CORS}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -434,6 +436,7 @@ Here are some resources if you'd like to learn more about CORS:
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=21
@@ -493,7 +496,7 @@ Here are some resources if you'd like to learn more about CORS:
 |Notes_rows={{Compatibility Notes Row
 |Browser=Internet Explorer
 |Version=9.0
-|Note=Basic CORS is supported, however, custom header is not supported. 
+|Note=Basic CORS is supported, however, custom header is not supported.
 }}
 }}
 {{See_Also_Section}}
