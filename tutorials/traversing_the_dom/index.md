@@ -1,5 +1,6 @@
 {{Page_Title|Traversing the DOM}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -162,4 +163,7 @@ The logical next step is to start ''doing'' interesting things with the results 
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
