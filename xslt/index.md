@@ -1,9 +1,12 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section}}
-{{Basic Page}}
-XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The [http://www.w3.org World Wide Web Consortium] maintains the [http://www.w3.org/TR/xslt XSLT standard].
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
+{{Summary_Section|XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The [http://www.w3.org World Wide Web Consortium] maintains the [http://www.w3.org/TR/xslt XSLT standard].
 
+}}
+{{Basic Page}}
 == Background ==
 
 XSLT is the keystone in a trio of languages developed to transform and format XML. Collectively, those languages are known as XSL, or Extensible Stylesheet Language.
