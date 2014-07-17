@@ -1,5 +1,8 @@
 {{Page_Title|Using specific list styles}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs screenshots, fix broken links
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article shows the basics of using list-specific CSS to control things like bullet appearance.}}
