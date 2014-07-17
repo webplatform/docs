@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Missing Properties and Methods,
+|Editorial notes=Missing initStorageEvent
 see http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
@@ -9,7 +9,7 @@ see http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Provides event properties that are specific to the onstorage event. }}
+{{Summary_Section|Provides event properties that are specific to the onstorage event.}}
 {{API_Object
 |Subclass_of=dom/Event
 }}
@@ -22,12 +22,17 @@ see http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx
     alert("Storage was updated for " + evt.url);
 }
 window.onload {{=}} function() {
+if(window.sessionStorage){
     window.addEventListener('storage',reportStorage,false);
     window.sessionStorage.setItem('key','value');
+}
 }
 }}
 }}
 {{Notes_Section
+|Notes=In MSIE browsers...
+1. DOM storage is user and/or administrator configurable from Internet Options and Group Policy.
+2. For local (x)html files that use the file: protocol, sessionStorage and localStorage are undefined.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 5.11.1.5
 }}
@@ -45,8 +50,8 @@ window.onload {{=}} function() {
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/StorageEvent StorageEvent]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx StorageEvent]
 |HTML5Rocks_link=
 }}
