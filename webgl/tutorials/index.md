@@ -1,16 +1,10 @@
 {{Page_Title|WebGL tutorials}}
-{{Flags}}
-{{Summary_Section| Index page for WebGL tutorials}}
-{{Basic Page}}
-{{Notes_Section}}
-{{Topics|WebGL}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-
+{{Summary_Section|Index page for WebGL tutorials}}
+{{Basic Page}}
 {{Basic Page}}
 
 {{Basic Page|Content=PAGE CONTENT GOES HERE
@@ -24,3 +18,11 @@ You can start studying WebGL with the following articles:
 * [[tutorials/webgl an advanced shader|WebGL: an advanced shader]]
 * [[tutorials/webgl textures|WebGL: textures]]
 * [[tutorials/post-processing with webgl|Image and video post-processing with WebGL]]
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
