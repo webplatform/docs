@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs summary and all content
+|Editorial notes=Needs all content
 |Checked_Out=No
 |High-level issues=Stub
 }}
