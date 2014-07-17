@@ -1,5 +1,7 @@
 {{Page_Title|Auditing your web app for speed}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline
@@ -118,8 +120,10 @@ Remember to apply these suggestions after you understand them. And don't forget 
 
 The Audit Panel is an excellent and easy-to-use tool that will quickly show you how to optimize the performance of your web app. Speed is a crucial web app attribute, and many companies have found direct correlations between performance and revenue or activity. Optimizing your app's performance is not just the right thing to do for your users, but it is the right thing to do for your business's bottom line.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row
