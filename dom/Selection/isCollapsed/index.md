@@ -21,6 +21,7 @@ true - The selection is collapsed or empty.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses '''isCollapsed''' to see whether a selection is empty or not. If the selection is not empty, the selected text is displayed.
 |Code=&lt;!DOCTYPE html&gt;
 
