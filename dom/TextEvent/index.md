@@ -1,8 +1,15 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs an example?
+http://help.dottoro.com/ljuecqgv.php
+only works in webkit,
+FX has no TextEvent,
+IE11 has but above sample runs without errors or the expected result... appears IE prevent programmatic text input into input fields.
+Missing initTextEvent Method
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
@@ -12,7 +19,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=txtEl=document.getElementById('txtInput'); // textarea
+if(window.addEventListener){
+txtEl.addEventListener('textinput', handler, false);
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -36,6 +49,6 @@
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974350(v=vs.85).aspx TextEvent Object]
 |HTML5Rocks_link=
 }}
