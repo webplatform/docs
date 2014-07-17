@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | Is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Byline}}
 {{Summary_Section}}
