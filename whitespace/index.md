@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=whitespace
 |Definition=The portion of a layout left unoccupied; that is, all space between graphics, margins, gutters, columns, lines of type, words, figures, or other objects drawn or rendered in an online or printed page.
