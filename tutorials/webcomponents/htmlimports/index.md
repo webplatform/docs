@@ -1,5 +1,6 @@
 {{Page_Title|HTML Imports: #include for the web}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
