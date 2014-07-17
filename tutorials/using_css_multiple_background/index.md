@@ -1,5 +1,8 @@
 {{Page_Title|Using Multiple Backgrounds}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline
 |Name=Konstantin Kichinsky
 |URL=http://html5insight.com/
@@ -271,9 +274,7 @@ Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web de
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Background, CSS Attributes
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
