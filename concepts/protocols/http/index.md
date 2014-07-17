@@ -16,10 +16,11 @@ HTTP will help manage an information space by defining user interactions and exp
 
 ==== List of Specifications ====
 
-# HTTP/1.0, May 1996 RFC1945
-# HTTP/1.1 first revision, January 1997 RFC2068
-# HTTP/1.1, second revision June 1999 RFC2616
-# HTTP/1.1, third revision June 2014 RFC7230 RFC7231 RFC7232 RFC7233 RFC7234 RFC7235
+# Informally implemented since 1991
+# HTTP/1.0, May 1996 [http://tools.ietf.org/html/rfc2068 RFC2068]
+# HTTP/1.1 first revision, January 1997 [http://tools.ietf.org/html/rfc2068 RFC2068]
+# HTTP/1.1, second revision June 1999 [http://tools.ietf.org/html/rfc2616 RFC2616]
+# HTTP/1.1, third revision June 2014 [http://tools.ietf.org/html/rfc7230 RFC7230] [http://tools.ietf.org/html/rfc7231 RFC7231] [http://tools.ietf.org/html/rfc7232 RFC7232] [http://tools.ietf.org/html/rfc7233 RFC7233] [http://tools.ietf.org/html/rfcC7234 RFC7234] [http://tools.ietf.org/html/rfcC7235 RFC7235]
 
 === An HTTP Request ===
 
@@ -31,22 +32,22 @@ Lines are terminated with a carriage-return line-feed (CRLF, or "\r\n").
 
 An example HTTP request will look like:
 
-    GET / HTTP/1.1
-    Host: example.com
-    User-Agent: ExampleUA/4.0
-    Accept: */*
+ GET / HTTP/1.1
+ Host: example.com
+ User-Agent: ExampleUA/4.0
+ Accept: */*
 
 To which the server might reply:
 
-    HTTP/1.1 200 OK
-    Date: Thu, 17 Jul 2014 15:08:35 GMT
-    Expires: Fri, 18 Jul 2014 15:08:35 GMT
-    Cache-Control: public
-    Content-Type: text/plain; charset=UTF-8
-    Server: ExampleServer/4.0
-    Transfer-Encoding: chunked
-    
-    Welcome to our server!
+ HTTP/1.1 200 OK
+ Date: Thu, 17 Jul 2014 15:08:35 GMT
+ Expires: Fri, 18 Jul 2014 15:08:35 GMT
+ Cache-Control: public
+ Content-Type: text/plain; charset=UTF-8
+ Server: ExampleServer/4.0
+ Transfer-Encoding: chunked
+ 
+ Welcome to our server!
 
 === Design of HTTP ===
 
