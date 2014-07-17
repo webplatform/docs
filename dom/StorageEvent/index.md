@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Missing Properties and Methods,
+see http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides event properties that are specific to the onstorage event. }}
 {{API_Object
 |Subclass_of=dom/Event
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following code example demonstrates how to respond to storage events.
 |Code=function reportStorage(evt) {
     alert("Storage was updated for " + evt.url);
@@ -26,7 +30,6 @@ window.onload {{=}} function() {
 {{Notes_Section
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 5.11.1.5
-
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -44,6 +47,6 @@ window.onload {{=}} function() {
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974349(v=vs.85).aspx StorageEvent]
 |HTML5Rocks_link=
 }}
