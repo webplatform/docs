@@ -1,5 +1,8 @@
 {{Page_Title|Understanding static and relative positioning}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article provides a guide to static and relative positioning.}}
 {{Tutorial
@@ -450,6 +453,7 @@ Setting <code>position:relative</code> (without shifting the box) also helps wit
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
