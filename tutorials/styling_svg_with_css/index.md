@@ -1,5 +1,9 @@
 {{Page_Title|Styling SVG with CSS}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Needs screenshot/dabblet, fix broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article covers the basics of styling SVG content with CSS.}}
 {{Tutorial
@@ -169,8 +173,10 @@ Notes:
 * The SVG document links the styesheet in the usual way.
 * SVG has its own CSS properties and values. Some of them are similar to CSS properties for HTML.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
