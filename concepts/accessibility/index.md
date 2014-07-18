@@ -138,66 +138,6 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
 Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
-|Import_Notes={{Page_Title|Accessibility}}
-{{Flags}}
-{{Summary_Section|When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern.}}
-{{Topics|Concept Pages}}
-== Background ==
-*Definitions / Types of disability
-** Visual impairment 
-** Audio impairment 
-** Mobility impairment
-** Cognitive impairment
-* Standards
-* The Legal stuff 
-* The market for web accessibility 
-* POUR – Perceivable, Operable, Understandable, Robust 
-* Accessibility and <abbr title="Search Engine Optimization">SEO</abbr>
-
-== Development ==
-*  Accessibility and HTML5 
-** Video/Audio/Multimedia 
-*** Captioning guidelines 
-*** Captioning & Time-Stamp formats 
-** Canvas (2D Context) 
-** SVG *
-*  Accessibility and JavaScript  
-** ARIA / AJAX 
-*  Accessibility and CSS 
-** Generated content 
-*  Accessibility and mobile
-** iOS
-** Android
-** RIM/Blackberry 
-** Others 
-*  CAPTCHA and alternatives 
-
-== Tutorials ==
-*  Alternative text 
-** InfoGraphics
-** Alternative text versus Description text
-*  Accessible forms 
-*  Accessible tables
-*  Writing for an accessible web
-
-== AT Tools, Testing & Testing tools ==
-*  AT Tools
-** Screen readers
-** Braille output
-** Screen magnifiers
-** High Contrast
-** Voice input/ Voice recognition
-** Onscreen keyboards / alternative switching devices
-*  Process 
-*  Testing Tools
-
-== Education and Training ==
-*  Bringing Accessibility into your organization
-** Plan
-** Design
-** Develop
-** Author
-** Test
 }}
 {{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
