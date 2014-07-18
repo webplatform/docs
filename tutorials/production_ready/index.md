@@ -1,5 +1,8 @@
 {{Page_Title|Getting your code production-ready}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline}}
@@ -8,6 +11,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
