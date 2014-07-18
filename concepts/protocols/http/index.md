@@ -10,21 +10,11 @@
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol. HTTP is an application-level protocol on top of <tt><abbr title="Transmission Control Protocol, Internet Protocol"><nowiki>TCP/IP</nowiki></abbr></tt>, a communication protocol. It is used for exchanging messages (such has hypermedia documents) in between a client (a ''user agent'' like a browser or bot) and a server. The interactions are defined by a client-server model. The client sends a request to a server and the server sends back a response to the client.
 
-HTTP will help manage an information space by defining user interactions and expectations with regards to this information.
-
-=== History of HTTP ===
-
-==== List of Specifications ====
-
-# Informally implemented since 1991
-# HTTP/1.0, May 1996 [http://tools.ietf.org/html/rfc2068 RFC2068]
-# HTTP/1.1 first revision, January 1997 [http://tools.ietf.org/html/rfc2068 RFC2068]
-# HTTP/1.1, second revision June 1999 [http://tools.ietf.org/html/rfc2616 RFC2616]
-# HTTP/1.1, third revision June 2014 [http://tools.ietf.org/html/rfc7230 RFC7230] [http://tools.ietf.org/html/rfc7231 RFC7231] [http://tools.ietf.org/html/rfc7232 RFC7232] [http://tools.ietf.org/html/rfc7233 RFC7233] [http://tools.ietf.org/html/rfcC7234 RFC7234] [http://tools.ietf.org/html/rfcC7235 RFC7235]
+HTTP was 
 
 === An HTTP Request ===
 
-HTTP is a plain-text protocol in the style of MIME (used by Email). An HTTP request begins with a client making a request to a server. The request contains a ''request-line'' identifying a [[http/methods|method]], the name of a resource, and the HTTP version of the request. This is followed by a number of header lines, then a blank line, and an optional request-body.
+HTTP is a plain-text protocol in the style of MIME (used by Email). An HTTP request begins with a client making a request to a server. The request contains a ''request-line'' identifying a [[http/methods|method]], the name of a resource, and the HTTP version of the request. This is followed by a number of [[http/headers|header lines]], then a blank line, and an optional request-body.
 
 The server response is similar: It responds with the status-line consisting of the HTTP version, followed by a 3-digit numeric [[http/response status codes|status code]] and a status message. This is followed by a number of header lines, blank line, and optional response-body.
 
@@ -50,6 +40,18 @@ To which the server might reply:
  
  Hypertext Transfer Protocol (HTTP) is an application-layer protocol. ...
 
+Some of the most common headers include:
+
+; Host : Provides the hostname for supporting multiple hostnames on a single server. For backwards compatibility, this is required even if the request is made in absolute form.
+; User-Agent : A string identifying the version of software making the request
+; Accept : Informs the server of which media-types the user agent would like to see, used for Content-Type negotiation
+; Date : Indicates what date/time the message originated.  Required in responses.
+; Expires : A caching header which indicates the time after which the resource will be "stale".
+; Cache-Control : A caching header that can describe who is allowed to cache the resource and for how long
+; Server : A string identifying the version of the server responding to the request
+; Content-Type : Indicates the media type (MIME type) of the attached entity body, if any.
+; Content-Length : Indicates the length of the attached entity body, if any.
+
 === Design of HTTP ===
 
 HTTP follows a number of patterns to give it well-defined functionality for the benefit of clients and servers:
@@ -58,6 +60,16 @@ HTTP follows a number of patterns to give it well-defined functionality for the 
 * it is ''layered'', to allow intermediate processing steps along the network path;
 * it is ''stateless'', so server load is proportional with the number of requests instead of the total number of users; and
 * it is ''cachable'', to enhance scalability and network performance.
+
+=== History of HTTP ===
+
+==== List of Specifications ====
+
+# Informally implemented since 1991
+# HTTP/1.0, May 1996 [http://tools.ietf.org/html/rfc2068 RFC2068]
+# HTTP/1.1 first revision, January 1997 [http://tools.ietf.org/html/rfc2068 RFC2068]
+# HTTP/1.1, second revision June 1999 [http://tools.ietf.org/html/rfc2616 RFC2616]
+# HTTP/1.1, third revision June 2014 [http://tools.ietf.org/html/rfc7230 RFC7230] [http://tools.ietf.org/html/rfc7231 RFC7231] [http://tools.ietf.org/html/rfc7232 RFC7232] [http://tools.ietf.org/html/rfc7233 RFC7233] [http://tools.ietf.org/html/rfcC7234 RFC7234] [http://tools.ietf.org/html/rfcC7235 RFC7235]
 {{Notes_Section}}
 {{Topics|Web Services}}
 {{External_Attribution
