@@ -1,11 +1,15 @@
 {{Page_Title|SVG gradients}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix a couple of broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article looks at filling SVG shapes with linear and radial gradients.}}
 {{Tutorial
 |Content=So, perhaps more exciting than just fills and strokes, you can also create and apply gradients as either fills or strokes.
  
-There are two types of gradients allowed, linear and radial ones. Linear gradients change along a straight line. To insert one, you create a [[<linearGradient>]] node inside the definitions section of your SVG file. You '''must''' give the gradient an <code>id</code> attribute, otherwise it can't be referenced by other elements inside the file, and it basically becomes a waste of space.
+There are two types of gradients allowed, linear and radial ones. Linear gradients change along a straight line. To insert one, you create a <code><linearGradient></code> node inside the definitions section of your SVG file. You '''must''' give the gradient an <code>id</code> attribute, otherwise it can't be referenced by other elements inside the file, and it basically becomes a waste of space.
 
 [[Image:SVG_Linear_Gradient_Example.png]]
 
@@ -142,6 +146,7 @@ There are some other caveats for dealing with <code>gradientUnits="objectBoundin
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
