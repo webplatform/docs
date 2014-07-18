@@ -1,7 +1,9 @@
 {{Page_Title|Creating responsive layouts}}
 {{Flags
-|High-level issues=Stub
+|State=In Progress
+|Editorial notes=Needs grammar/spelling/punctuation review
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Byline
 |Name=Nayan Seth
