@@ -1,5 +1,9 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|Position and Transformation}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix a couple of broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article is an overview of the coordinate system, positioning and performing translations, transforms, rotation, skewing, scaling on SVG elements.}}
 {{Tutorial
@@ -107,6 +111,7 @@ The example above has basically the same effect as the one above, namely that th
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
