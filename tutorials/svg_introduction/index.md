@@ -1,9 +1,13 @@
 {{Page_Title|SVG introduction}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Fix multiple broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This page provides some background on SVG: what it is, and how it is useful.}}
 {{Guide
-|Content=[[Image:=SVG_Overview.png|=SVG_Overview.png]][[svg|SVG]] is an [[xml|XML]] language, similar to [[xhtml|XHTML]], which can be used to draw graphics, such as the ones shown to the right. It can be used to create an image either by specifying all the lines and shapes necessary, by modifying already existing raster images, or by a combination of both. The image and its components can also be transformed, composited together, or filtered to change its appearance completely.
+|Content=[[Image:=SVG_Overview.png|=SVG_Overview.png]] [[svg|SVG]] is an [[xml|XML]] language, similar to [[xhtml|XHTML]], which can be used to draw graphics, such as the ones shown to the right. It can be used to create an image either by specifying all the lines and shapes necessary, by modifying already existing raster images, or by a combination of both. The image and its components can also be transformed, composited together, or filtered to change its appearance completely.
  
 SVG came about in 1999 after several competing formats had been submitted to the [[W3C]] and failed to be fully ratified. While the specification has been around for quite awhile, browser adoption has been fairly slow, and so there is not a lot of SVG content being used on the web right now (2009). Even the implementations that are available often are not as fast as competing technologies like [[HTML:Canvas]] or Adobe Flash as a full application interface. SVG does offer benefits over both implementations some of which include having a DOM interface available for it, and not requiring 3rd party extensions to the default browser to work. Whether to use it or not often depends on what you are using it for.
  
@@ -37,6 +41,7 @@ There were plans for an SVG Print specification, which would add support for mul
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
