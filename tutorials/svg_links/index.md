@@ -1,5 +1,9 @@
 {{Page_Title|SVG links}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix a couple of broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This tutorial covers the creation of links inside SVG objects.}}
 {{Tutorial
@@ -163,6 +167,7 @@ Try it out by viewing my example.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
