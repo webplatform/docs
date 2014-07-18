@@ -1,5 +1,8 @@
 {{Page_Title|Styling lists and links}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article covers styling fundamentals for lists and links.}}
 {{Tutorial
@@ -671,14 +674,16 @@ Combining classes and states opens up a wide range of creative possibilities for
  
 == Bringing it all together—a simple navigation menu ==
  
-To illustrate one way to bring lists and links together, the examples zip includes a [[simple flyout navigation menu]], as seen in Figure 31. Flyout menus are a very common navigation system.
+To illustrate one way to bring lists and links together, the examples zip includes a simple flyout navigation menu, as seen in Figure 31. Flyout menus are a very common navigation system.
  
 [[Image:Flyout-l.gif|Screenshot of the flyout list example.]]
  
 Figure 31: Screenshot of the example flyout menu.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
