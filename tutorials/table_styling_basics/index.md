@@ -1,5 +1,7 @@
 {{Page_Title|Table styling basics}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs examples review, fix multiple broken links
 |Checked_Out=No
 }}
 {{Byline}}
