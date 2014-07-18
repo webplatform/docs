@@ -28,7 +28,7 @@ You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and op
 
 === An example document code ===
 
-<syntaxHighlight>
+<syntaxHighlight lang="html5">
 <!DOCTYPE html><!-- This tag is an HTML Comment -->
 <!-- ^ The DOCTYPE tag tells the browser what version 
        of HTML it is dealing with; there are others and  
