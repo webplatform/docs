@@ -1,19 +1,20 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
+|Editorial notes=Integrate MSDN content into WPD sections, find specs showing deprecated status, create live example comparing deprecated and recommended ways to create monospaced text
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Stands for "teletype text," sets font in fixed-width.
+{{Summary_Section|The teletype element (<tt>) defines a span of monospaced text.  It's use is deprecated in favour of semantic elements like <code> and CSS styling.  However, the tt element is still widely supported in browsers.
 
-This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS instead.
+
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS instead.
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +24,6 @@ This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS inst
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 15.2.1
 
