@@ -1,5 +1,7 @@
 {{Page_Title|Overview of client-side storage}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
