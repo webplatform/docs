@@ -1,5 +1,7 @@
 {{Page_Title|Table styling basics}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article describes more advanced selectors, and some specific ways that you can style tables.}}
 {{Tutorial
@@ -346,8 +348,10 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 </li>
 </ol>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -388,7 +392,7 @@ Change the stylesheet to make the table look like this:
 {{!}}3,900
 {{!}}-
 !Southern:
-|20,000
+{{!}}20,000
 {{!}}4,500
 {{!}}-
 !Total:
