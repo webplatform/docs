@@ -1,7 +1,7 @@
 {{Page_Title|Targetting CSS at different media types}}
 {{Flags
 |State=In Progress
-|Editorial notes=Multiple broken links, needs full content review
+|Editorial notes=Needs full content review, fix multiple broken links
 |Checked_Out=No
 }}
 {{Byline}}
