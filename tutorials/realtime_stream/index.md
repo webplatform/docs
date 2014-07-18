@@ -1,5 +1,7 @@
 {{Page_Title|Real-time updates in stream congress}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -158,6 +160,7 @@ HTML5 opens the door to many new and exciting web development possibilities. Wit
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=WebSockets
 |Chrome_supported=Yes
