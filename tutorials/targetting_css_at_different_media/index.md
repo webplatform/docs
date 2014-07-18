@@ -1,5 +1,9 @@
 {{Page_Title|Targetting CSS at different media types}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Multiple broken links, needs full content review
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article focuses on using media types to target CSS at different type of media — screen, print, etc.}}
 {{Tutorial
@@ -252,6 +256,7 @@ So far, all the style rules in this tutorial have been specified in files. The r
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
