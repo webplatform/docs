@@ -1,7 +1,7 @@
 {{Page_Title|SVG fonts}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs content review, fix multiple broken links
+|Editorial notes=Fix multiple broken links
 |Checked_Out=No
 }}
 {{Byline}}
