@@ -1,5 +1,7 @@
 {{Page_Title|Case study: Auto-resizing HTML5 games}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -191,6 +193,7 @@ Gopherwood Studios has used versions of this structure for all of our HTML5 game
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
