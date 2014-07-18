@@ -1,10 +1,12 @@
 {{Page_Title|Introduction}}
 {{Flags
-|High-level issues=Deletion Candidate
-|Content=Incomplete
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | We are not covering server-side technologies.
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate
+|Content=Incomplete
 }}
 {{Byline
 |Name=Lewis Youldon
