@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This guide offers a detailed introduction to the main important things to know about SVG.}}
 {{Guide
