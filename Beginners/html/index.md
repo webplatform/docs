@@ -34,16 +34,29 @@ You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and op
        of HTML it is dealing with; there are others and  
        we want to make sure there is no confusion. -->
 <html lang="en"><!-- this is how we open every document; the  
-       language part is optional, but makes sure your document  
-       doesn't look like gobbledy gook when someone in Korea  
-       opens your document in a browser that defaults to Korean -->
+       language part is optional. 
+
+       While some says its for text encoding
+       purposes (i.e. unexpected characters) it is not for that. Its for
+       accessibility adaptative technology to know which language it should
+       adapt it while reading.
+
+       As for the text encoding, see below at "meta charset" -->
  <head><!-- required part of every HTML document, this is  
        where we add internal information (i.e. meta) about  
        the current HTML page -->
    <meta charset="utf-8"><!-- This is a way, in HTML, to  
                               tell the browser that we are writing text in UTF-8  
-                              so we can write Greek, Russian, English, French  
-                              and many others in one page -->
+                              so we can write Greek, Russian, English, French 
+                              and many others in one page.
+
+                              This is one of the two way to handle which set of letters
+                              to display the text. The web server handles this, but the
+                              meta charset also allows this too. 
+                              
+                              In essence those two makes sure the content doesn't look 
+                              like gobbledy gook when someone in Korea opens your document
+                              in a browser that defaults to Korean -->
    <title>Example Page</title><!-- REQUIRED, This is what gets  
                                    displayed on the web browser tab -->
 	<link rel="stylesheet" href="style1.css" type="text/css" media="screen">
