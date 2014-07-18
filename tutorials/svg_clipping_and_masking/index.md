@@ -1,5 +1,8 @@
 {{Page_Title|SVG clipping and masking}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|This article explains how clipping and masking work in SVG.}}
@@ -73,6 +76,7 @@ One of the most powerful tools in a web developer's toolbox is <code>display: no
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
