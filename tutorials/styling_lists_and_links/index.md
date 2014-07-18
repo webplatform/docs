@@ -356,7 +356,7 @@ Before you can style links, you need to understand the different '''link states'
 * <code>hover</code> — Applies while a user is "hovering" over the link with a pointer like a mouse, but has not yet clicked the link.
 * <code>active</code> — Applies while the user activates the link—literally ''during ''the time they are clicking it. In some browsers this style also applies when the link has been opened in another window or tab.
 
-<p class="note">IE  does not currently support the focus state, and just uses <code>active</code> in place of <code>focus</code>.</p>
+<p class="note">Note: IE  does not currently support the focus state, and just uses <code>active</code> in place of <code>focus</code>.</p>
 
 You should always specify CSS for every one of these states. Each one conveys information to the user about the fact they are interacting with a link. If in doubt about <code>focus</code>, <code>hover</code> and <code>active</code> you can simply style <code>focus</code> and <code>hover</code> in the same way as their functions are similar enough that the same link style should not actively cause confusion. You can then add some simple variation for <code>active</code>, for example setting the text to italics. At a pinch you can style all three the same way.
  
