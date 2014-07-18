@@ -1,9 +1,12 @@
 {{Page_Title|SVG pattern fills}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
-{{Summary_Section|This article covers SVG pattern fills}}
+{{Summary_Section|This article covers SVG pattern fills.}}
 {{Tutorial
-|Content=Patterns, in my opinion, are one of the more confusing fill types to use in SVG. They're also very powerful, so they're worth talking about and getting at least a fundamental grasp on. Like gradients, the [[<pattern>]] element should be put in the <code>&lt;defs&gt;</code> section of your SVG file.
+|Content=Patterns, in my opinion, are one of the more confusing fill types to use in SVG. They're also very powerful, so they're worth talking about and getting at least a fundamental grasp on. Like gradients, the <code>&lt;pattern&gt;</code> element should be put in the <code>&lt;defs&gt;</code> section of your SVG file.
 
 [[Image:SVG_Pattern_Example.png]]
 
@@ -65,6 +68,7 @@ Of course, this means that the pattern won't scale if you change your object siz
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
