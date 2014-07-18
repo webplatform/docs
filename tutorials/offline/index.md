@@ -1,5 +1,8 @@
 {{Page_Title|Offline apps}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.
 
@@ -259,6 +262,7 @@ Most implementations have a 5MB storage limit. More storage is often available, 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
