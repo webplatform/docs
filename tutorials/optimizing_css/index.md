@@ -1,12 +1,17 @@
 {{Page_Title|Optimizing CSS}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
