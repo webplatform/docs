@@ -1,5 +1,7 @@
 {{Page_Title|Setting color in CSS}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs screenshot, fix broken links
 |Checked_Out=No
 }}
 {{Byline}}
@@ -231,7 +233,6 @@ strong {
 |Manual_links=* [[css/data_types/color|color]]
 * [http://www.w3.org/TR/CSS2/syndata.html#color-units Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 4 Syntax and basic data types, 4.3.6 Colors]
 * [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 , 4.3. Extended color keywords]
-
 |Manual_sections====Exercise question===
  
 In your CSS file, change all the color names to 3-digit color codes without affecting the result (this cannot be done exactly, but you can get close. To do it exactly you need 6-digit codes, and you need to look up the CSS Specification or use a graphics tool to match the colors.)
