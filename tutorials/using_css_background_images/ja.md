@@ -1,7 +1,7 @@
 {{Page_Title|CSSの背景画像}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Probably a mistake; deletion candidate
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
