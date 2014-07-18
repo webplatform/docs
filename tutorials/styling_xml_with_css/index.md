@@ -1,5 +1,7 @@
 {{Page_Title|Styling XML data with CSS}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs screenshot/dabblet, fix broken links
 |Checked_Out=No
 }}
 {{Byline}}
