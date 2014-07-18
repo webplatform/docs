@@ -1,5 +1,7 @@
 {{Page_Title|Post-processing with WebGL}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |Content=Compatibility Incomplete
 }}
 {{Byline
