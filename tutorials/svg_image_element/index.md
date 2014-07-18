@@ -1,5 +1,9 @@
 {{Page_Title|SVG image element}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article describes the usage of the SVG image element}}
 {{Tutorial
@@ -24,6 +28,7 @@ There are some important things to take note of (referenced from the [[W3 specs]
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
