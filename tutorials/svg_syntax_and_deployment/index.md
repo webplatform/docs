@@ -1,5 +1,9 @@
 {{Page_Title|SVG syntax and deployment}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Fix multiple broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article shows the basic syntax and usage of SVG.}}
 {{Tutorial
@@ -56,6 +60,7 @@ Due to the potentially massive size SVG files can reach when used for some appli
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
