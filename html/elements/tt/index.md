@@ -8,10 +8,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|The teletype element (<tt>) defines a span of monospaced text.  It's use is deprecated in favour of semantic elements like <code> and CSS styling.  However, the tt element is still widely supported in browsers.
-
-
-}}
+{{Summary_Section|The teletype element (<code>&lt;tt&gt;</code>) creates monospaced text.  It's use is deprecated in favour of semantic elements like <code>&lt;code&gt;<code>.  However, the tt element is still widely supported in browsers.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=This feature is supported in HTML4, but is non-conforming in HTML5. Use CSS instead.
