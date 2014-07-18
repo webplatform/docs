@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=MSDN documentation is incorrect.
+|State=Almost Ready
+|Editorial notes=The previous note said -
+MSDN documentation is incorrect.
 offset may have 0 or 1 value;
 
 offset
     0 - Collapses the selection from the anchor to the beginning of parentNode's text.
-    1 - Collapses the selection from the anchor to the end of parentNode's text. 
+    1 - Collapses the selection from the anchor to the end of parentNode's text.
+
+However, testing in Chrome, values other than 0 or 1 are supported and are affecting the position of the caret accordingly.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -23,19 +26,14 @@ offset
 }}{{Method Parameter
 |Name=offset
 |Data type=Number
-|Description=
-offset
+|Description={{TODO|Verify these values, as Chrome seems to respect values other than 0 or 1 and act accordingly.}}
     0 - Collapses the selection from the anchor to the beginning of parentNode's text.
-    1 - Collapses the selection from the anchor to the end of parentNode's text. 
+    1 - Collapses the selection from the anchor to the end of parentNode's text.
 |Optional=No
 }}
 |Method_applies_to=dom/Selection
 |Example_object_name=selObj
-|Return_value_name=result
-|Javascript_data_type=Number
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
@@ -43,27 +41,40 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Language=JavaScript
 |Description=Place the caret at the beginning of an HTML document's body.
 |Code=var body {{=}} document.getElementsByTagName('body')[0];
-var selObj{{=}}window.getSelection();
-selObj.collapse(body,0);// offset 0||1
+var selObj {{=}} window.getSelection();
+selObj.collapse(body,0);// offset 0
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Raises a WRONG_DOCUMENT_ERR [[dom/DOMException|'''DOMException''']] if the ''parentNode'' is in another document.
-|Import_Notes====Syntax===
-selObj.collapse(parentNode, offset);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
+|Notes=Throws a WrongDocumentError [[dom/DOMException|'''DOMException''']] if the ''parentNode'' is in another document.
+Throws a TypeError [[dom/DOMException|'''DOMException''']] if the relevantly typed arguments are not specified.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML Editing APIs
+|URL=https://dvcs.w3.org/hg/editing/raw-file/tip/editing.html#dom-selection-collapse
+|Status=W3C Community Group Work In Progress
+}}{{Related Specification
+|Name=HTML5 (Expired)
+|URL=http://www.w3.org/TR/2010/WD-html5-20100624/editing.html#selection-0
+|Status=W3C Working Draft (Expired)
+|Relevant_changes=7.6.1
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=34 and earlier
+|Note=The arguments were optional and so no TypeError was thrown.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=9 and earlier
+|Note=For `parentNode` from another document, a WRONG_DOCUMENT_ERR exception is thrown instead of a WrongDocumentError exception.
+}}
 }}
 {{See_Also_Section}}
 {{Topics|DOM}}
