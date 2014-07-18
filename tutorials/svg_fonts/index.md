@@ -1,5 +1,9 @@
 {{Page_Title|SVG fonts}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Needs content review, fix multiple broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article covers the creation and usage of SVG fonts.}}
 {{Tutorial
@@ -87,6 +91,7 @@ The above mentioned font-face-uri allows to reference an external font, hence al
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
