@@ -10,7 +10,7 @@
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol. HTTP is generally implemented on top of <tt><abbr title="Transmission Control Protocol, Internet Protocol"><nowiki>TCP/IP</nowiki></abbr></tt> default port 80, but can be implemented on any interface supporting a duplex stream. It is used for exchanging messages (such has hypermedia documents) in between a client (a ''user agent'' like a browser or bot) and a server. The interactions are defined by a client-server model. The client sends a request to a server and the server sends back a response to the client.
 
-HTTP was 
+HTTP was one of the first protocols developed as part of Web starting in late 1989<ref>http://webfoundation.org/about/vision/history-of-the-web/</ref>, and later standardized over the course of many RFCs through the IETF.
 
 === An HTTP Request ===
 
