@@ -79,3 +79,6 @@ HTTP follows a number of patterns to give it well-defined functionality for the 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+
+== References ==
+<references/>
