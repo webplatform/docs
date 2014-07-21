@@ -1,5 +1,7 @@
 {{Page_Title|Getting started with WebGL}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |Content=Compatibility Incomplete
 }}
 {{Byline
@@ -15,7 +17,7 @@ WebGL allows you to create real 3D content and render it in a web browser. WebGL
 
 This tutorial, created by Erik Möller in video format (with Chris Mills transcribing to create the written articles), gets you started with the basics, and forms a transcription of the material covered in Erik's [http://www.youtube.com/watch?v=me3BviH3nZc WebGL video tutorial] from the beginning to time 22:25. 
 
-{{Note|[ Watch Erik's entire WebGL video tutorial] for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
+{{Note|Watch Erik's entire WebGL video tutorial (link above) for free on YouTube. Over 2 and a half hours of WebGL tuition! }}
 
 {{Note|[https://github.com/emoller/WebGL101 Access the full WebGL 101 code example set] and links to see the examples running live, at Github}}
 
