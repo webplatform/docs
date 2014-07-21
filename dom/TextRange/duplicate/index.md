@@ -2,6 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=needs example
+TextRange not in js types list.
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -22,8 +23,8 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=Used to fill the edit-undo buffer.
 |Notes====Remarks===
-
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
