@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Moves to a bookmark.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=Bookmark
