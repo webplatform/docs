@@ -1,7 +1,9 @@
 {{Page_Title|Forms}}
 {{Flags
-|High-level issues=Merge Candidate
+|State=Not Ready
 |Editorial notes=Should be merged into http://docs.webplatform.org/wiki/guides/html5_form_features
+|Checked_Out=No
+|High-level issues=Merge Candidate
 }}
 {{Byline}}
 {{Summary_Section|One of HTML5's many new features is enhancements to forms. This includes new types of inputs (email, phone number, etc), attributes (form validation and styling), and elements (progress bar, meter, output, etc). Since these features are relatively new, support across browsers can vary. You should keep this in mind as you develop your web app to make it the best possible user experience across all browsers. In this document we will discuss the new features, how to detect and handle non-supporting browsers, and mobile considerations.}}
@@ -224,6 +226,7 @@ You also need to be aware of how the mobile browsers handle the display of the n
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
