@@ -1,11 +1,11 @@
 {{Page_Title|HTML5 form features}}
 {{Flags
-|Content=Errors
+|State=Ready to Use
 |Checked_Out=No
-|Editorial notes=Summary definitly is wrong for this topic
+|Content=Errors
 }}
 {{Byline}}
-{{Summary_Section|In this tutorial we will take you through how to create different types of basic navigation menu using HTML lists and links.}}
+{{Summary_Section|In this tutorial we will take you through the new HTML5 form features.}}
 {{Guide
 |Content=== Introduction ==
 
