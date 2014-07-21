@@ -21,13 +21,12 @@
 |Examples={{Single Example
 |Language=HTML
 |Code=&lt;body&gt;
-&lt;p id="p"&gt;this is a text node that also has &lt;strong id="s"&gt;strong&lt;/strong&gt elements.&lt;/p&gt;
+&lt;p id="p"&gt;this is a text node that also has &lt;strong id="s"&gt;strong&lt;/strong&gt; elements.&lt;/p&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 alert(document.getElementById('p').firstChild.wholeText);
 // displays 'this is a text node that also has' in an alert box.
 &lt;/script&gt;
 &lt;/body&gt;
-
 }}
 }}
 {{Notes_Section}}
