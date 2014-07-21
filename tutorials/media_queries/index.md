@@ -1,5 +1,6 @@
 {{Page_Title|Targeting styles with media queries}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
