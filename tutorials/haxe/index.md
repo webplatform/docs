@@ -1,5 +1,8 @@
 {{Page_Title|Getting started with Haxe}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs content
+|Checked_Out=No
 |Content=Incomplete
 }}
 {{Byline}}
@@ -14,12 +17,13 @@ The [http://haxe.org/download Haxe compiler] is easily installed, and there are 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|Haxe}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
