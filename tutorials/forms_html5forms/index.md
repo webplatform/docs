@@ -1,5 +1,8 @@
 {{Page_Title|Making forms fabulous with HTML5}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Should be merged into http://docs.webplatform.org/wiki/guides/html5_form_features
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -435,8 +438,10 @@ This is the CSS that goes with the form code:
 * [http://www.w3.org/TR/html5/forms.html W3C Specification]
 * [http://wufoo.com/html5/ The Current State of HTML5 Forms]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
