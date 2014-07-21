@@ -1,5 +1,7 @@
 {{Page_Title|Rendering HTML5 in older browsers with Google Chrome Frame}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -117,8 +119,10 @@ Many major websites such as [http://yahoo.com yahoo.com], [http://wordpress.com 
 
 For more information see the [http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started Getting Started Guide] or watch [http://www.youtube.com/watch?feature=player_embedded&v=3YkEUpJQP3o this video] from Google IO 2011.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
