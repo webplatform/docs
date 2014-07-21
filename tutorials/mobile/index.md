@@ -1,11 +1,10 @@
 {{Page_Title|Mobile-specific tutorials}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=This page lists available mobile-specific tutorials.
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This page lists available mobile-specific tutorials.}}
 {{Tutorial
 |Content=* [[tutorials/mobile mobifying|"Mobifying" an HTML5 site]]
 * [[tutorials/mobile_offline|Working Off the Grid with HTML5 Offline]]
