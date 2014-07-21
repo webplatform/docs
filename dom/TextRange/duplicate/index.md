@@ -1,18 +1,21 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs example
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns a duplicate of the TextRange.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=textRange
+|Return_value_name=duplicate
+|Javascript_data_type=Object
+|Return_value_description=a duplicate of the TextRange object.
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,7 +23,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This feature might not be available on non-Microsoft Win32 platforms.
+
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
@@ -41,6 +44,6 @@ There are no standards that apply here.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536416(v=vs.85).aspx duplicate Method]
 |HTML5Rocks_link=
 }}
