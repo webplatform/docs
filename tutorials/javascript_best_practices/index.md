@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript best practices}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -271,7 +272,8 @@ Another common situation in JavaScript is providing a preset value for a variabl
  
 The shortcut notation for this is the double pipe which is the <code>OR</code> operator:
  
-<pre>var x = v || 10;</pre>
+<pre>var x = v
+|10;</pre>
  
 This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
  
