@@ -1,5 +1,8 @@
 {{Page_Title|Graceful degradation vs. progressive enhancement}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article discusses the important concepts of graceful degradation and progressive enhancement, and how they relate to JavaScript.}}
 {{Tutorial
