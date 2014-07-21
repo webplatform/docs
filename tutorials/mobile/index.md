@@ -1,5 +1,9 @@
 {{Page_Title|Mobile-specific tutorials}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=This page lists available mobile-specific tutorials.
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial
@@ -8,9 +12,6 @@
 * [[tutorials/mobile_touch|Multi-touch web development]]
 * [[tutorials/mobile_optimization_best_practices|Mobile optimization best practices]]
 * [[tutorials/mobile_viewport|The Mobile Viewport and Orientation]]
-
-
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
