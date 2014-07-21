@@ -1,10 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs example
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
@@ -15,9 +17,9 @@
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=textRange
+|Return_value_name=result
+|Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
 '''Boolean''' that returns one of the following possible values:
@@ -60,6 +62,6 @@ This feature might not be available on non-Microsoft Win32 platforms.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536628(v=vs.85).aspx moveToBookmark Method]
 |HTML5Rocks_link=
 }}
