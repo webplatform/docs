@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|JavaScript features tutorials}}
 {{Flags
 |State=Ready to Use
 |Checked_Out=No
