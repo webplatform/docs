@@ -1,5 +1,7 @@
 {{Page_Title|Manipulating CSS with JavaScript}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
@@ -99,6 +101,7 @@ Notes on what is happening in the above example:
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -108,7 +111,7 @@ Notes on what is happening in the above example:
 
 Change the script so that the square jumps to the right by 20 em when its color changes, and jumps back afterwards.
 }}
-{{Topics|JavaScript, DOM, CSS}}
+{{Topics|CSS, DOM, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
 |Sources=MDN
