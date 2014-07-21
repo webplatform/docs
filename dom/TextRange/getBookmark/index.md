@@ -1,21 +1,21 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=String
-
-String. Returns the bookmark if successfully retrieved, or null otherwise.
+|Example_object_name=textRange
+|Return_value_name=bookmark
+|Javascript_data_type=String
+|Return_value_description=Returns the bookmark if successfully retrieved, or null otherwise.
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +23,7 @@ String. Returns the bookmark if successfully retrieved, or null otherwise.
 }}
 {{Notes_Section
 |Notes====Remarks===
-This feature might not be available on non-Microsoft Win32 platforms.
+.
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
@@ -44,6 +44,6 @@ There are no standards that apply here.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536432(v=vs.85).aspx getBookmark Method]
 |HTML5Rocks_link=
 }}
