@@ -1,5 +1,7 @@
 {{Page_Title|HTML5 Techniques for Optimizing Mobile Performance}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
