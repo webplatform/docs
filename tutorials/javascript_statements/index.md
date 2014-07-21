@@ -1,5 +1,8 @@
 {{Page_Title|JavaScript statements}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.}}
@@ -548,6 +551,7 @@ catch (e) {
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
