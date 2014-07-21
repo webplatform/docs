@@ -1,8 +1,10 @@
 {{Page_Title|Mobile optimization best practices}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|Mobile Devices may have slow network connections, hardware specific limitations and varying screen sizes. We need standardized best practices for building web apps. The goal is to provide the best user experience optimizing the HTML5 standards.  }}
+{{Summary_Section|Mobile Devices may have slow network connections, hardware specific limitations and varying screen sizes. We need standardized best practices for building web apps. The goal is to provide the best user experience optimizing the HTML5 standards.}}
 {{Tutorial
 |Content=== Network Speed Optimizations ==
 
