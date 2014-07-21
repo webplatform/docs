@@ -1,5 +1,8 @@
 {{Page_Title|Location}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Geolocation lets you identify a user's location by returning their latitude and longitude. Applications can use this to offer localized experiences such as driving directions, nearby points of interest, local deals, etc. In the past few years, smartphones with dedicated GPS chips have exploded in popularity.}}
 {{Tutorial
@@ -174,6 +177,7 @@ Unlike <code>getCurrentPosition</code>, this function returns an integer value w
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
