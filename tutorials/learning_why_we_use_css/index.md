@@ -1,5 +1,6 @@
 {{Page_Title|Why use CSS?}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
