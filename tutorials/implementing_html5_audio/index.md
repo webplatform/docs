@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate
-|Checked_Out=No
+|State=Not Ready
 |Editorial notes={{Editorial/Deletion_Candidate
 | Duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag
 }}
+|Checked_Out=No
+|High-level issues=Deletion Candidate
 |Compatibility=Incomplete
 }}
 {{Byline
