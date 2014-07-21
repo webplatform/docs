@@ -1,5 +1,6 @@
 {{Page_Title|What is CSS?}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -47,7 +48,7 @@ In Part II of this tutorial you will see examples of these markup languages.
 
 CSS is not just for browsers, and not just for visual presentation. In formal CSS terminology, the program that presents a document to a user is called a ''user agent'' (UA). A browser is just one kind of UA. However, in Part I of this tutorial you will only work with CSS in a browser.
  
-For some formal definitions of terminology relating to CSS, see [[Definitions]] in the CSS Specification.
+For some formal definitions of terminology relating to CSS, see Definitions in the CSS Specification.
 
 === Action: Creating a document ===
  
