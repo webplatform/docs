@@ -1,5 +1,7 @@
 {{Page_Title|&quot;Mobifying&quot; your HTML5 site}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
