@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
@@ -28,9 +29,45 @@ One of the following values -
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Display a user friendly value of the inputMethod property of an event.
+|Code=var description=(event.inputMethod)?getDOMInputMethod(event.inputMethod):'not supported';
+
+    function getDOMInputMethod(iInputMethod){
+    	switch (iInputMethod){
+    		case TextEvent.DOM_INPUT_METHOD_UNKNOWN:// 0
+    			return 'Unknown';
+    		case TextEvent.DOM_INPUT_METHOD_KEYBOARD:// 1
+    			return 'Keyboard';
+    		case TextEvent.DOM_INPUT_METHOD_PASTE:// 2
+    			return 'Paste';
+    		case TextEvent.DOM_INPUT_METHOD_DROP:// 3
+    			return 'Drop';
+    		case TextEvent.DOM_INPUT_METHOD_IME:// 4
+    			return 'IME';
+    		case TextEvent.DOM_INPUT_METHOD_OPTION:// 5
+    			return 'Option';
+    		case TextEvent.DOM_INPUT_METHOD_HANDWRITING:// 6
+    			return 'Handwriting';
+    		case TextEvent.DOM_INPUT_METHOD_VOICE://7
+    			return 'Voice';
+    		case TextEvent.DOM_INPUT_METHOD_MULTIMODAL: // 8
+    			return 'MultiModal';
+    		case TextEvent.DOM_INPUT_METHOD_SCRIPT://9
+    			return 'Script';
+    		default:
+    			return 'Unknown';
+    	}
+    }
+
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=Use to determine if the device that initiated the textinput event is to be 'trusted'.
+
+|Notes=Not implemented in Safari or Chromium.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Events (20110531)
@@ -52,6 +89,6 @@ One of the following values -
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974806(v=vs.85).aspx inputMethod Property]
 |HTML5Rocks_link=
 }}
