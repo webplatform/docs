@@ -1,8 +1,9 @@
 {{Page_Title|Introductory Guide to JavaScript}}
 {{Flags
 |Content=Outdated, Not Neutral
-|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. Mentioning of ECMAScript would be nice.
+|Editorial notes=The table that maps JavaScript versions to Navigator/Firefox versions could be expanded to include other browsers, or just deleted. Mentioning of ECMAScript would be nice. Needs content.
 |Compatibility=Outdated, Incomplete
+|State=Not Ready
 }}
 {{Byline}}
 {{Summary_Section|JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.}}
