@@ -1,5 +1,7 @@
 {{Page_Title|メディアクエリーの使い方}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
