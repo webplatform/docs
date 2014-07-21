@@ -1,5 +1,7 @@
 {{Page_Title|読みやすいCSSの記述方法}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
