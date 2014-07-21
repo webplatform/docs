@@ -62,7 +62,7 @@ Required in Internet Explorer, not supported and omitted in Safari and Google Ch
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The below sample shows a click event handler that creates and dispatches either a 'textinput' or 'textInput' event (depending on the selected options) to textarea element.
-|Code=    function InsertText () {
+|Code=function InsertText () {
         try {
             var newtextEvent {{=}} document.createEvent('TextEvent');
             var textarea {{=}} document.getElementById ("textarea");
@@ -88,10 +88,13 @@ Required in Internet Explorer, not supported and omitted in Safari and Google Ch
         }
     }
 
+
+// Outputs 'New text' at the beginning of the text area in Safari and Chromium
+// Outputs nothing at the beginning of a the text area in MSIE browsers as DOM_INPUT_METHOD_SCRIPT is not a trusted (event.isTrusted) textinput input method.
 }}{{Single Example
 |Language=JavaScript
 |Description=The DOMInputMetod is present in the MSIE 'textinput' event handler only.
-|Code=    function getDOMInputMethod(iInputMethod){
+|Code=function getDOMInputMethod(iInputMethod){
     	switch (iInputMethod){
     		case TextEvent.DOM_INPUT_METHOD_UNKNOWN:// 0
     			return 'Unknown';
@@ -117,7 +120,6 @@ Required in Internet Explorer, not supported and omitted in Safari and Google Ch
     			return 'Unknown';
     	}
     }
-
 }}
 }}
 {{Notes_Section
@@ -127,6 +129,8 @@ Required in Internet Explorer, not supported and omitted in Safari and Google Ch
 In Internet Explorer use 'textinput' for the eventType.
 
 In Safari and Chromium use 'textInput' for the eventType parameter.
+
+MSIE browsers further require that the event inputMethod isTrusted.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
