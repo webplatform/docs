@@ -15,13 +15,14 @@
 |Description=Specifies how ''sourceRange'' is compared to the range of the object on which '''compareBoundaryPoints''' is invoked.
 
 Must be one of -
-Range.END_TO_END (2) compares the end boundary-point of sourceRange to the end boundary-point of Range.
 
-Range.END_TO_START (3) compares the end boundary-point of sourceRange to the start boundary-point of Range.
+`Range.END_TO_END` (2) compares the end boundary-point of sourceRange to the end boundary-point of Range.
 
-Range.START_TO_END (1) compares the start boundary-point of sourceRange to the end boundary-point of Range.
+`Range.END_TO_START` (3) compares the end boundary-point of sourceRange to the start boundary-point of Range.
 
-Range.START_TO_START (0) compares the start boundary-point of sourceRange to the start boundary-point of Range.
+`Range.START_TO_END` (1) compares the start boundary-point of sourceRange to the end boundary-point of Range.
+
+`Range.START_TO_START` (0) compares the start boundary-point of sourceRange to the start boundary-point of Range.
 |Optional=No
 }}{{Method Parameter
 |Name=sourceRange
@@ -30,12 +31,10 @@ Range.START_TO_START (0) compares the start boundary-point of sourceRange to the
 |Optional=No
 }}
 |Method_applies_to=dom/Range
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''Integer'''
-
-Returns a –1, 0, or 1 to indicate whether the ''sourceRange'' point is before, equal to, or after the boundary point of the [[dom/Range|'''Range''']] object on which '''compareBoundaryPoints''' is invoked.
+|Example_object_name=range
+|Return_value_name=boundaryComparison
+|Javascript_data_type=Number
+|Return_value_description=Returns a –1, 0, or 1 to indicate whether the ''sourceRange'' point is before, equal to, or after the boundary point of the [[dom/Range|'''Range''']] object on which '''compareBoundaryPoints''' is invoked.
 }}
 {{Examples_Section
 |Not_required=No
@@ -49,17 +48,13 @@ sourceRange.selectNode(document.getElementsByTagName("div")[1]);
 compare {{=}} range.compareBoundaryPoints(Range.START_TO_END, sourceRange);
 }}
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM
 |URL=http://dom.spec.whatwg.org/#dom-range-compareboundarypoints
 |Status=Living Standard
-|Relevant_changes=Throws an exception for unexpected `how` value.
+|Relevant_changes=Throws an exception for any unexpected `how` value.
 }}{{Related Specification
 |Name=DOM Level 2 Traversal and Range
 |URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level-2-Range-Comparing
