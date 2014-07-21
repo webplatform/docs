@@ -1,5 +1,6 @@
 {{Page_Title|JavaScript functions}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
