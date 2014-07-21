@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -15,7 +15,7 @@
 {{Notes_Section
 |Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203789 XMLHttpRequest], Section 4
+* http://www.w3.org/TR/XMLHttpRequest/#interface-formdata XMLHttpRequest], Section 4
 
 
 ===Members===
