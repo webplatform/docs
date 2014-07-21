@@ -15,7 +15,7 @@
 {{Notes_Section
 |Import_Notes====Syntax===
 ===Standards information===
-* http://www.w3.org/TR/XMLHttpRequest/#interface-formdata XMLHttpRequest], Section 4
+* [http://www.w3.org/TR/XMLHttpRequest/#interface-formdata XMLHttpRequest], Section 4
 
 
 ===Members===
