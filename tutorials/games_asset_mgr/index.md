@@ -1,5 +1,8 @@
 {{Page_Title|Simple Asset Management for HTML5 Games}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline
 |Name=Seth Ladd
 |URL=http://www.html5rocks.com/profiles/#sethladd
@@ -429,8 +432,10 @@ The cache is populated at the end of <code>downloadAll()</code>, as shown below:
   }
 </pre>
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
