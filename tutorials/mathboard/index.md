@@ -1,5 +1,7 @@
 {{Page_Title|Building the HTML5 MathBoard app}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -7,7 +9,7 @@
 |URL=http://www.html5rocks.com/profiles/#jeremychone
 |Published=January 28, 2011
 }}
-{{Summary_Section|[http://itunes_apple_com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
+{{Summary_Section|This article discusses development of the HTML5 MathBoard app.|[http://itunes_apple_com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
 }}
 {{Tutorial
 |Content===Introduction==
@@ -253,8 +255,10 @@ When users answer a quiz, the application makes a success or fail sound. The sim
 
 HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CSS3 was instrumental in customizing the look and feel of the application to closely match the high sophistication of MathBoard for iPad, HTML5 storage was a perfect fit for our data persistence, and the simplicity of HTML5 audio allowed us to closely replicate the iPad app.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Local storage
 |Chrome_supported=Yes
@@ -306,18 +310,30 @@ HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CS
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
@@ -328,18 +344,30 @@ HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CS
 |Android_version=
 |Android_prefixed_supported=Yes
 |Android_prefixed_version=2.1
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Unknown
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
