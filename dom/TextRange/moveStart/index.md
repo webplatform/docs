@@ -1,31 +1,40 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Changes the start position of the range.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=Unit
 |Data type=BSTR
 |Description='''String''' that specifies the units to move, using one of the following values:
+
+character - Moves one or more characters. 
+
+word - Moves one or more words. A word is a collection of characters terminated by a space or some other white-space character, such as a tab. 
+
+sentence - Moves one or more sentences. A sentence is a collection of words terminated by a punctuation character, such as a period. 
+
+textedit - Moves to the start or end of the original range. 
+
 |Optional=No
 }}{{Method Parameter
 |Name=Count
-|Data type=any
+|Data type=Number
 |Description='''Integer''' that specifies the number of units to move. This can be positive or negative. The default is '''1'''.
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''Integer'''
-
-'''Integer''' that returns the number of units moved.
+|Example_object_name=textRange
+|Return_value_name=result
+|Javascript_data_type=Number
+|Return_value_description='''Integer''' that returns the number of units moved.
 }}
 {{Examples_Section
 |Not_required=No
@@ -33,7 +42,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-This feature might not be available on non-Microsoft Win32 platforms.
+
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
@@ -54,6 +63,6 @@ There are no standards that apply here.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536623(v=vs.85).aspx moveStart Method]
 |HTML5Rocks_link=
 }}
