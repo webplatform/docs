@@ -1,5 +1,8 @@
 {{Page_Title|Multimedia Tutorials}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!}}
 {{Tutorial
@@ -12,6 +15,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
