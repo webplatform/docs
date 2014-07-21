@@ -72,13 +72,17 @@ The DOM is being worked on by the [http://www.w3.org/2008/webapps/ Web Applicati
 
 == Index of all DOM topics ==
 
-See the [[:Category:DOM|DOM category]] for a list of all classes, methods, and properties underneath this page, and [[Special:PrefixIndex/dom/]]
+Use the  [[Special:PrefixIndex/dom/]] to find all classes, methods, and properties underneath this page organized under this page, or  the [[:Category:DOM|DOM category page]] for all DOM-related pages in the wiki.
 
 === List of DOM-related Interfaces ===
 
-{{#ask:[[Category:DOM]][[Category:API_Objects]]
-|format=category
+{{#ask:[[Category:DOM]][[Category:API_Objects]][[Path::~dom/*]]
+|?Page Title
+|sort=Page Title
+|format=ul
 |columns=2
+|link=none
+|template=Summary_List_Entry
 |limit=500
 }}
 
