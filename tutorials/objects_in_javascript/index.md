@@ -1,5 +1,9 @@
 {{Page_Title|Objects in JavaScript}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Links should be changed to WPD articles when they become available.
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article takes the concept of functions further, looking at how you can encapsulate functions and variables into reusable packages of functionality called objects.}}
 {{Tutorial
@@ -245,6 +249,7 @@ exposed to as you delve deeper into the subject.
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
@@ -253,8 +258,6 @@ exposed to as you delve deeper into the subject.
 |External_links=* [http://nefariousdesigns.co.uk/archive/2006/05/object-oriented-javascript/ Object Oriented JavaScript]: A good introduction to more advanced object-oriented concepts in JavaScript.
 * [http://javascript.crockford.com/private.html Private Members in JavaScript]: Douglas Crockford’s seminal discussion of implementing encapsulation in JavaScript.
 * [http://www.digital-web.com/articles/scope_in_javascript/ Scope in JavaScript]: A more advanced discussion of the intricacies of the <code>this</code> keyword in various contexts.
-
-
 |Manual_sections====Exercise questions===
 
 * When might you want to use subscript notation instead of dot notation when referencing an object’s properties?
