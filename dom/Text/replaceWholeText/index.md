@@ -1,10 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example....
+leave for me...
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
 {{Summary_Section|Replaces the text of the current object.}}
 {{API_Object_Method
@@ -25,7 +28,10 @@
 |Examples=
 }}
 {{Notes_Section
+|Notes=Obsolete
+This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
 |Import_Notes====Syntax===
+var retval = TextNode.replaceWholeText(bstrText);
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.2
 }}
@@ -35,6 +41,11 @@
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
 |Status=Recommendation
 |Relevant_changes=Section 1.2
+}}{{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#text
+|Status=Living Standard
+|Relevant_changes=Removed from the spec
 }}
 }}
 {{Compatibility_Section
@@ -69,8 +80,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Text.replaceWholeText Text.replaceWholeText]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975208(v=vs.85).aspx replaceWholeText Method]
 |HTML5Rocks_link=
 }}
