@@ -1,5 +1,9 @@
 {{Page_Title|Making CSS easier to read}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs screenshot under "Action"
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article looks at the style and grammar of the CSS language itself, and how to make your CSS more readable using whitespace and comments.}}
 {{Tutorial
@@ -107,6 +111,7 @@ p {color: blue;}</syntaxhighlight></li>
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
