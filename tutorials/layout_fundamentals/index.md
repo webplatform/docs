@@ -1,7 +1,9 @@
 {{Page_Title|Exploring the CSS layout model}}
 {{Flags
-|Content=Cleanup
+|State=In Progress
+|Editorial notes=Needs screenshots, fix multiple broken links
 |Checked_Out=No
+|Content=Cleanup
 }}
 {{Byline}}
 {{Summary_Section|This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.}}
