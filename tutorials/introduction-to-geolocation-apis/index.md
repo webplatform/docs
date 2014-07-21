@@ -1,5 +1,8 @@
 {{Page_Title|An Introduction to Geolocation API}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs content
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline
