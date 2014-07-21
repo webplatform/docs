@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
+|State=Not Ready
 |Editorial notes={{Editorial/Merge_Candidate
 |Other=http://docs.webplatform.org/wiki/javascript/tutorials
 }}
+|Checked_Out=No
+|High-level issues=Merge Candidate
 }}
 {{Standardization_Status}}
 {{API_Name}}
