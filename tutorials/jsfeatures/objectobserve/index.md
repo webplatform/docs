@@ -1,5 +1,6 @@
 {{Page_Title|Respond to change with Object.observe}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
