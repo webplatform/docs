@@ -1,5 +1,7 @@
 {{Page_Title|HTML5 vs. Native: the mobile app debate}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -126,6 +128,7 @@ If you do choose the web path, be mindful of web standards and the principle of 
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
