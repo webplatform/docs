@@ -1,5 +1,7 @@
 {{Page_Title|Using the Gamepad API}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Unreviewed Import
 |Content=Compatibility Incomplete
 }}
