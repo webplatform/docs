@@ -1,5 +1,7 @@
 {{Page_Title|Building a simple trip meter using the geolocation API}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
