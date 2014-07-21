@@ -1,5 +1,9 @@
 {{Page_Title|Getting started with JavaScript}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Needs some content, fix broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts}}
 {{Tutorial
