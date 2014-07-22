@@ -1,8 +1,10 @@
 {{Page_Title|Closures}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This article discusses Closures, an important JavaScript feature.}}
 {{Tutorial
 |Content=Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
  
@@ -376,6 +378,7 @@ In the two previous examples, the inherited prototype can be shared by all objec
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
