@@ -1,5 +1,7 @@
 {{Page_Title|Understanding CSS filter effects}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 |Content=Incomplete, Errors
 }}
