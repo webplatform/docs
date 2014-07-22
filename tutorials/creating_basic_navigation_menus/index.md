@@ -1,5 +1,7 @@
 {{Page_Title|Creating basic navigation menus}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link
 |Checked_Out=No
 }}
 {{Byline}}
