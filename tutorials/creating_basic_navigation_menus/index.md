@@ -1,7 +1,6 @@
 {{Page_Title|Creating basic navigation menus}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -116,7 +115,7 @@ There aren’t many surprises here, at least not from a pure HTML point of view 
  
 One golden rule of web development and navigation is that the current document should never link to itself but instead be obviously different to the other entries in the menu. This is important as it gives the visitors something to hold on to and tells them where they are on their journey through your site. There are edge cases like web applications, permalinks in blogs and so called “one page” websites but in 99% of cases a link to the document you are already looking at is redundant and confusing to the visitor.
 
-In [[HTML links - lets build a web]], we stated that a link is an agreement and a liability: you offer visitors a way to reach more information that they need, but you need to be careful — you’ll lose credibility and trust if that link doesn’t give the users what they want, and/or results in unexpected behaviour. If you offer for example a link that points to the current document, activating it will reload the document. As a user this is something you don’t expect — what purpose did clicking this link have? This results in users getting confused.
+In [[tutorials/HTML_links_-_lets_build_a_web|HTML links - let's build a web]], we stated that a link is an agreement and a liability: you offer visitors a way to reach more information that they need, but you need to be careful — you’ll lose credibility and trust if that link doesn’t give the users what they want, and/or results in unexpected behaviour. If you offer for example a link that points to the current document, activating it will reload the document. As a user this is something you don’t expect — what purpose did clicking this link have? This results in users getting confused.
  
 This is the reason why the current page should never be linked to from the menu. You could remove it altogether, or even better highlight it as well (eg. by surrounding it with a <code>&lt;strong&gt;</code> element) — this gives users a visual clue and also tells blind visitors that this is extra important — this [http://dev.opera.com/articles/view/23-creating-multiple-pages-with-navigat/about.html current page highlight example] illustrates this.
  
