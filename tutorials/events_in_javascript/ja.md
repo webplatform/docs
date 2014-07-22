@@ -1,5 +1,7 @@
 {{Page_Title|JavaScriptのイベント処理}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
