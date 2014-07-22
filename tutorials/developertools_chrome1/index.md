@@ -1,14 +1,15 @@
 {{Page_Title|Introduction to Chrome developer tools, part one}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 |Content=Not Neutral
-|Checked_Out=No
 }}
 {{Byline
 |Name=Seth Ladd
 |Published=June 18, 2010
 }}
-{{Summary_Section|An introduction to Chrome Developer Tools}}
+{{Summary_Section|An introduction to Chrome Developer Tools.}}
 {{Tutorial
 |Content===Introduction==
 
