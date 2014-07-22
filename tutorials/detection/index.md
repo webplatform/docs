@@ -1,5 +1,7 @@
-{{Page_Title}}
+{{Page_Title|Feature, Browser, and Form Factor Detection: It's Good for the Environment}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -8,9 +10,7 @@
 }}
 {{Summary_Section|This article is about tuning your app to the environment it's running in, focusing on the specific challenge of detection. In other words, surveying the environment you're running in.}}
 {{Tutorial
-|Content==Feature, Browser, and Form Factor Detection: It's Good for the Environment=
-
-==Overview==
+|Content===Overview==
 
 This article is about tuning your app to the environment it's running in, focusing on the specific challenge of detection. In other words, surveying the environment you're running in. Three techniques are covered:
 
@@ -108,8 +108,10 @@ Form factor detection is our intuition that it's important to build different UI
 
 Finally, it's worth emphasising the principle of progressive enhancement that is central to any form of detection. You will generally want to build a baseline app first, for a minimal browser. There's often a good case the app should even perform on a raw, non-JavaScript, browser like Lynx. Detection then becomes a way of augmenting this raw experience with more powerful functionality, dependent on the environment your app finds itself in. Remember the golden rule: We want our apps to be good for the environment, whatever the environment.
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_prefixed_supported=Unknown
@@ -131,15 +133,28 @@ Finally, it's worth emphasising the principle of progressive enhancement that is
 |Android_supported=Yes
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Yes
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_prefixed_supported=Unknown
 |Safari_mobile_prefixed_version=
