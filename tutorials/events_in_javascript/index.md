@@ -1,5 +1,8 @@
 {{Page_Title|Events in JavaScript}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This articles shows how to handle events in JavaScript, such as a user clicking a button, and perform actions in response.}}
 {{Tutorial
@@ -245,6 +248,7 @@ Once you have accepted these issues and learned to master the solutions above, t
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
