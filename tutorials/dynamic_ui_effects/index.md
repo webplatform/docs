@@ -1,5 +1,8 @@
 {{Page_Title|Dynamic UI effects}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.}}
 {{Tutorial
@@ -9,7 +12,8 @@
 }}
 {{Notes_Section}}
 {{Compatibility_Section
-|Not_required=No
+|Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
