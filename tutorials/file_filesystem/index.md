@@ -1,5 +1,7 @@
 {{Page_Title|Exploring the FileSystem APIs}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -1179,8 +1181,10 @@ The specification lists several use cases:
 * [http://dev.w3.org/2006/webapi/FileAPI/ File]
 * [http://dev.w3.org/2006/webapi/FileAPI/#dfn-Blob Blob]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Feature=Filesystem API
 |Chrome_supported=Yes
@@ -1210,18 +1214,30 @@ The specification lists several use cases:
 |Android_version=
 |Android_prefixed_supported=No
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=No
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=No
-|IE_phone_version=
-|IE_phone_prefixed_supported=No
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=No
 |Opera_mobile_version=
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=No
