@@ -1,8 +1,9 @@
 {{Page_Title|Debugging CSS}}
 {{Flags
-|High-level issues=Stub
-|Checked_Out=Yes
+|State=In Progress
 |Editorial notes=List utilities to help debug
+|Checked_Out=Yes
+|High-level issues=Stub
 }}
 {{Byline
 |Name=Renoir Boulanger
