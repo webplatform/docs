@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to content security policy}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
