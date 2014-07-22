@@ -1,5 +1,7 @@
 {{Page_Title|Streaming updates with server-sent events}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -309,6 +311,7 @@ A [http://googlecodesamples.com/html5/sse/sse.html demo app] written in PHP is a
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=21.0
