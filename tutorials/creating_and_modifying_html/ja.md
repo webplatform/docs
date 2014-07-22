@@ -1,5 +1,7 @@
 {{Page_Title|HTMLの追加、修正}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{Byline}}
