@@ -1,5 +1,7 @@
 {{Page_Title|CSS text quick start}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs screenshot under Action
 |Checked_Out=No
 }}
 {{Byline}}
@@ -25,7 +27,7 @@ Consider this example:
 * The font size is set to three-quarters of the size in each paragraph's parent element, and the line height is set to 125% (spaced a little wider than normal).
 * The font typeface is set to Comic Sans MS, but if this typeface is not available, then the browser will use its default cursive (hand-written) typeface.
 
- The rule has the side-effect of turning off of bold and small-caps (setting them to <code>normal</code>):
+The rule has the side-effect of turning off of bold and small-caps (setting them to <code>normal</code>):
  
 === Font faces ===
  
@@ -68,7 +70,7 @@ To turn any of these off individually, you can specify the value <code>normal</c
 
 You can specify text styles in a variety of other ways. For example, some of the properties mentioned here have other values that you can use. In a complex style sheet, avoid using the shorthand <code>font</code> property, because of its side-effects (resetting other individual properties).
 
-For full details of the properties that relate to fonts, see [http://www.w3.org/TR/CSS21/fonts.html Fonts] in the CSS Specification. For full details of text decoration, see [http://www.w3.org/TR/css3-text/ Text] there. If you do not want to depend on the typefaces installed on visitors' systems, you can use [[css/atrules/%40font-face]] to specify an online font. However, this requires that the visitors are using a browser that supports this rule.
+For full details of the properties that relate to fonts, see [http://www.w3.org/TR/CSS21/fonts.html Fonts] in the CSS Specification. For full details of text decoration, see [http://www.w3.org/TR/css3-text/ Text] there. If you do not want to depend on the typefaces installed on visitors' systems, you can use [[css/atrules/%40font-face|@font-face]] to specify an online font. However, this requires that the visitors are using a browser that supports this rule.
 
 == Action: Specifying fonts ==
  
