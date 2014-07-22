@@ -1,13 +1,10 @@
 {{Page_Title|Using device orientation}}
 {{Flags
+|State=Out of Date
+|Editorial notes=Firefox has now convered to the same deviceorientation as others; there are new incompatibilities issues to document though http://lists.w3.org/Archives/Public/public-geolocation/2012Jun/0000.html. Outdated.
+|Checked_Out=No
 |High-level issues=Needs Flags
 |Content=Outdated
-|Editorial notes={{Editorial|
-| Firefox has now convered to the same deviceorientation as others; there are new incompatibilities issues to document though http://lists.w3.org/Archives/Public/public-geolocation/2012Jun/0000.html
-| type=
-| High-level flags=
-| Content flags=Outdated
-}}
 }}
 {{Byline
 |Name=Pete LePage
