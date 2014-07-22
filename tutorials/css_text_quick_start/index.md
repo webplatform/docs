@@ -1,5 +1,7 @@
 {{Page_Title|CSS text quick start}}
-{{Flags}}
+{{Flags
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This tutorial provides a quick instruction on styling text with CSS.}}
 {{Tutorial
@@ -66,7 +68,7 @@ To turn any of these off individually, you can specify the value <code>normal</c
 
 You can specify text styles in a variety of other ways. For example, some of the properties mentioned here have other values that you can use. In a complex style sheet, avoid using the shorthand <code>font</code> property, because of its side-effects (resetting other individual properties).
 
-For full details of the properties that relate to fonts, see [http://www.w3.org/TR/CSS21/fonts.html Fonts] in the CSS Specification. For full details of text decoration, see [http://www.w3.org/TR/css3-text/ Text] there. If you do not want to depend on the typefaces installed on visitors' systems, you can use [[@font-face]] to specify an online font. However, this requires that the visitors are using a browser that supports this rule.
+For full details of the properties that relate to fonts, see [http://www.w3.org/TR/CSS21/fonts.html Fonts] in the CSS Specification. For full details of text decoration, see [http://www.w3.org/TR/css3-text/ Text] there. If you do not want to depend on the typefaces installed on visitors' systems, you can use [[css/atrules/%40font-face]] to specify an online font. However, this requires that the visitors are using a browser that supports this rule.
 
 == Action: Specifying fonts ==
  
