@@ -1,5 +1,6 @@
 {{Page_Title|Manipulating content with CSS3 transforms}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
@@ -655,10 +656,11 @@ writing, Canary requires the ''Enable CSS Shaders'' flag enabled under
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Transforms
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
