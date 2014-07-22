@@ -1,5 +1,6 @@
 {{Page_Title|Making things move with CSS3 animations}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline
