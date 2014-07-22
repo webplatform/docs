@@ -1,5 +1,8 @@
 {{Page_Title|Connectivity Tutorials}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|More efficient connectivity means more real-time chats, faster games, and better communication. Web Sockets and Server-Sent Events are pushing (pun intended) data between client and server more efficiently than ever before.}}
 {{Tutorial
@@ -7,8 +10,10 @@
 * [[tutorials/realtime stream|Realtime stream]]
 * [[tutorials/websockets basics|WebSocket]]
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
