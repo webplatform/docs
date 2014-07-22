@@ -1,9 +1,10 @@
 {{Page_Title|Design tutorials}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|A small overview of different design tutorials}}
+{{Summary_Section|A small overview of different design tutorials.}}
 {{Tutorial
 |Content=* [[tutorials/Building_up_a_site_wireframe|Building up a site wireframe]]
 * [[tutorials/Colour_schemes_and_design_mockups|Color schemes and design mockups]]
