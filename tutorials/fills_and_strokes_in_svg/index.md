@@ -1,5 +1,9 @@
 {{Page_Title|Fills and strokes in SVG}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article shows how to add fills and strokes to the SVG shapes you have drawn.}}
 {{Tutorial
@@ -125,6 +129,7 @@ where style.css looks something like:
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
