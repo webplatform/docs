@@ -12,15 +12,12 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=html
-|Data type=BSTR
+|Data type=String
 |Description='''String''' that specifies the HTML text to paste. The string can contain text and any combination of the HTML tags described in HTML Elements.
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
 |Example_object_name=range
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
 }}
 {{Examples_Section
 |Not_required=No
