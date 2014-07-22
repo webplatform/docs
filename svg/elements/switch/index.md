@@ -1,20 +1,20 @@
+{{Page_Title|switch}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code  example uses the '''switch''' element to provide a  graphical representation of a paragraph if XMHTML is not supported.
-|LiveURL=
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="yes"?>
 <svg width="4in" height="3in" version="1.1"
  xmlns = 'http://www.w3.org/2000/svg'>
@@ -42,20 +42,17 @@
   </switch>
 </svg>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The '''switch''' element evaluates the [[svg/properties/requiredFeatures|'''requiredFeatures''']], [[svg/properties/requiredExtensions|'''requiredExtensions''']], and [[svg/properties/systemLanguage|'''systemLanguage''']] attributes on its direct child elements in order, and then processes and renders the first child element  that these attributes evaluate to TRUE for. All other child elements are  skipped and  not rendered. If the child element is a container element (such as an  [[svg/elements/g|'''g''']] element), the entire subtree is  processed  and rendered or skipped and not rendered.
 
 The values of the  [[css/properties/display|'''display''']] and [[css/properties/visibility|'''visibility''']]  properties does not affect the  '''switch''' element processing. In particular, if you set  '''display''' to [[css/properties/text-decoration-none|'''none''']] on a child element of a '''switch''' element, it does not affect TRUE and FALSE testing that is associated with processing  '''switch''' elements.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.13
 
@@ -92,12 +89,23 @@ The '''SVGSwitchElement''' object has these properties:
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
