@@ -1,7 +1,9 @@
 {{Page_Title|Coding best practices}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; http://docs.webplatform.org/wiki/tutorials/javascript_best_practices covers this subject; deletion candidate
+|Checked_Out=No
 |High-level issues=Merge Candidate, Stub
-|Editorial notes=It seems like http://docs.webplatform.org/wiki/tutorials/javascript_best_practices does the job of this article, so we don't need another one surely?
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -9,6 +11,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
