@@ -1,18 +1,19 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
-|Subclass_of=dom/Element
+|Subclass_of=dom/HTMLOptionElement
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following script creates three new '''option''' objects and adds them to a '''select''' element. Because of the optional arguments, option "Two" is originally selected but option "Three" gains focus when the reset button is pressed.
 |Code=&lt;form action{{=}}"#"&gt;
 &lt;select id{{=}}"oSelect"&gt;&lt;/select&gt;
@@ -27,8 +28,7 @@ sel.options.add( new Option("Three",3,1,0) );
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Use this object to instantiate new '''option''' elements before adding them to a '''select''' element. You can specify up to four optional arguments:
+|Notes=Use this object to instantiate new '''option''' elements before adding them to a '''select''' element. You can specify up to four optional arguments:
 {{{!}} class="wikitable"
 {{!}}-
 {{!}}sText
@@ -47,7 +47,15 @@ Use this object to instantiate new '''option''' elements before adding them to a
 Numeric values are coerced into string and Boolean equivalents if possible.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element
+|Status=Living Standard
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-option-element
+|Status=Last Call Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
