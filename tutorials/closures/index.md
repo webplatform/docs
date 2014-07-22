@@ -6,7 +6,8 @@
 {{Byline}}
 {{Summary_Section|This article discusses Closures, an important JavaScript feature.}}
 {{Tutorial
-|Content=Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
+|Content===Introduction==
+Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
  
 Consider the following function:
   
