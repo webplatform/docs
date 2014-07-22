@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs a modern example (viz not JScript)
+|Editorial notes=Needs a modern example (viz not JScript).
+
+this should be with Selection object, not textRange.
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
