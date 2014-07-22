@@ -1,5 +1,8 @@
 {{Page_Title|Adding depth with CSS box-shadow}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline}}
