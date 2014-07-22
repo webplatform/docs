@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
+|Checked_Out=Yes
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete
-|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section}}
