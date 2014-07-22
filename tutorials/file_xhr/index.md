@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags
+|State=Not Ready
+|Editorial notes=Old version of file_xhr2; deletion candidate
 |Checked_Out=No
+|High-level issues=Needs Flags
 }}
 {{Byline}}
 {{Summary_Section|An introduction to XMLHttpRequest2.}}
@@ -419,6 +421,12 @@ What is not shown here is the code to reconstruct the file on the server.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 }
 
 
