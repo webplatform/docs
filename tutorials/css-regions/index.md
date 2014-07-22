@@ -1,5 +1,7 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
 |Checked_Out=No
 }}
 {{Byline
