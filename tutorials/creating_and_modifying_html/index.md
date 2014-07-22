@@ -1,5 +1,7 @@
 {{Page_Title|Creating and modifying HTML}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs two images under Creating HTML
 |Checked_Out=No
 }}
 {{Byline}}
@@ -496,14 +498,14 @@ to ...</syntaxhighlight>
  
 This equates to a DOM tree looking something like Figure 1:
 
-[[Image:create_modify_html_figure1.jpg|DOM tree before the addition of the span element after the link]] 
+[[Image:create_modify_html_figure1.jpg|IMAGE: DOM tree before the addition of the span element after the link]] 
 
 Figure 1: The DOM tree before the addition of the span element after the link
  
 We want to insert our new span in between the <code>&lt;a&gt;</code> and the
 “in it to” textNode, so that it appears after the <code>&lt;a&gt;</code>. This would leave our DOM tree looking like Figure 2:
 
-[[Image:create_modify_html_figure2.jpg|DOM tree after the addition of the span element]]
+[[Image:create_modify_html_figure2.jpg|IMAGE: DOM tree after the addition of the span element]]
 
 Figure 2: The DOM tree after the addition of the span element
  
