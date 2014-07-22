@@ -1,8 +1,9 @@
 {{Page_Title|Setting up Mime Types on your server}}
 {{Flags
-|High-level issues=Needs Review
+|State=In Progress
+|Editorial notes=Initial creation. Needs content/links review
 |Checked_Out=No
-|Editorial notes=Initial creation. Will definitely need reviews
+|High-level issues=Needs Review
 }}
 {{Byline
 |Name=Carlos Araya
