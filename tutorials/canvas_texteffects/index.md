@@ -1,5 +1,7 @@
 {{Page_Title|Achieving typographic effects with the canvas tag}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
