@@ -5,7 +5,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
 {{Markup_Element
@@ -17,6 +17,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''SELECT''' element to create a drop-down list box.
 |Code=&lt;select name{{=}}"Cats" size{{=}}"1"&gt;
 &lt;option value{{=}}"1"&gt;Calico
@@ -24,27 +25,23 @@
 &lt;option value{{=}}"3" selected&gt;Siamese
 &lt;/select&gt;
 }}{{Single Example
-|Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/properties/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
-|Code=&lt;select id{{=}}"oSelect" name{{=}}"Cars" size{{=}}"3" multiple&gt;
+|Language=HTML
+|Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/HTMLElement/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
+|Code=&lt;select id{{=}}"select-element" name{{=}}"cars" size{{=}}"3" multiple&gt;
 &lt;option value{{=}}"1" selected&gt;BMW
 &lt;option value{{=}}"2"&gt;Porsche
 &lt;option value{{=}}"3" selected&gt;Mercedes
 &lt;/select&gt;
 }}{{Single Example
-|Description=This example adds a new option to the end of the '''SELECT''' list created above. The new Option constructor can also be used in JScript.
-|Code=&lt;script language{{=}}"JScript"&gt;
-var oOption {{=}} document.createElement("OPTION");
-oOption.text{{=}}"Ferrari";
-oOption.value{{=}}"4";
-oSelect.add(oOption);
-&lt;/script&gt;
+|Language=JavaScript
+|Description=This JavaScript example adds a new option to the end of the '''SELECT''' list created above. The [[dom/Option|Option]] constructor can also be used in JavaScript.
+|Code=var option {{=}} document.createElement("OPTION");
+option.text{{=}}"Ferrari";
+option.value{{=}}"4";
+document.getElementById("select-element").add(option);
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-
-From Microsoft Internet Explorer 5 to Microsoft Internet Explorer 6, This element is a windowed control and does not support the [[css/properties/z-index|'''z-index''']] attribute or [[css/properties/z-index|'''zIndex''']] property.
-As of Windows Internet Explorer 7, this element is windowless and supports the [[css/properties/z-index|'''z-index''']] attribute and the '''zIndex''' property. The '''SELECT''' element does not require a strict [[dom/properties/doctype|'''doctype''']] to enable windowless functionality.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
@@ -813,12 +810,13 @@ This property is not supported for Metro style apps using JavaScript.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=5 - 6
+|Note=The element is always on top, regardless of the value of its '''z-index''' CSS property.
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>option</code>
 }}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
