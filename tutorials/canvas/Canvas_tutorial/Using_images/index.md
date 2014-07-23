@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs additional content, fix broken links
+|Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.}}
 {{Tutorial
-|Next_page=tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors
-|Prev_page=tutorials/canvas/Canvas_tutorial/Drawing_shapes
 |Content=== Importing images ==
  
 Importing images is basically a two step process:
