@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to Canvas}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
 |Checked_Out=No
 }}
 {{Byline}}
