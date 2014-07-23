@@ -111,31 +111,15 @@ the W3C is also currently asking for review comments on the [http://www.w3.org/w
 The element and attribute lists below only include W3C Recommended values or candidate/proposed recommendations.  Use the  [[Special:PrefixIndex/html/]] search page to find all elements and attributes organized under this page, or the [[:Category:HTML|HTML category page]] for all HTML-related pages in the wiki.
 
 === HTML Elements ===
-
-{{#ask:[[Category:HTML]][[Category:Markup Elements]][[Path::~html/*]]
+{{Page_Index_Listing
+| query = [[Category:HTML]][[Category:Markup Elements]][[Path::~html/*]]
 [[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
-|?Page Title
-|sort=Page Title
-|format=ul
-|columns=2
-|link=none
-|template=Summary_List_Entry
-|outro=<div class="clearfixboth"></div>
-|limit=500
 }}
 
 === HTML Attributes ===
-
-{{#ask:[[Category:HTML]][[Category:Markup Attributes]][[Path::~html/*]]
+{{Page_Index_Listing
+| query = [[Category:HTML]][[Category:Markup Attributes]][[Path::~html/*]]
 [[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
-|?Page Title
-|sort=Page Title
-|format=ul
-|columns=2
-|link=none
-|template=Summary_List_Entry
-|outro=<div class="clearfixboth"></div>
-|limit=500
 }}
 
 {{API_Name}}
