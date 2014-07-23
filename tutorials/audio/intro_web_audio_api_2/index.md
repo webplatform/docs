@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to the web audio API, part 2}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
