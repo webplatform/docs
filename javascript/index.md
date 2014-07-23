@@ -42,7 +42,10 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 
 == Index of all JavaScript topics ==
 
-{{Special:PrefixIndex/javascript/}}
+{{Page_Index_Listing
+|query= [[Path::~javascript/*]][[Path::!~javascript/*/*]]
+[[:+]]
+}}
 
 {{See_Also_Section}}
 {{Notes_Section}}
