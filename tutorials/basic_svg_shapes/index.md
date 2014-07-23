@@ -1,5 +1,9 @@
 {{Page_Title|Basic shapes}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|This article provides a guide to the basic primitives you can draw with SVG.}}
 {{Tutorial
@@ -107,6 +111,7 @@ A list of points and other information about how to draw the path. See the [[Pat
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
