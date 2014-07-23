@@ -1,5 +1,6 @@
 {{Page_Title|WebDriver}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
@@ -378,10 +379,21 @@ I encourage you to take this as a foundation, to play around with &amp; to gain 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}
-
-
-
-
-
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 }
