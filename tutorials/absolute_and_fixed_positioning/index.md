@@ -1,5 +1,6 @@
 {{Page_Title|Advanced layouts with absolute and fixed positioning}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Byline}}
