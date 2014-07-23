@@ -1,5 +1,6 @@
 {{Page_Title|Getting entangled with HTML5 canvas}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Flags
 }}
@@ -19,7 +20,7 @@ Of the many new features in HTML5, the increasing support for the <code>&lt;canv
 
 In the original version of Entanglement, I used several canvas draw methods to draw the hexagon, but the current form of the game uses drawImage() to draw textures clipped from a sprite sheet.
 
-[[File:en01.png|Tiles sprite sheet]]<br/>
+[[Image:en01.png|Tiles sprite sheet]]<br/>
 ''Tiles sprite sheet''
 
 I combined the images together into a single file so it's only one request to the server instead of, in this case, ten. To draw a chosen hexagon to the canvas, we first must gather our tools together: canvas, context, and the image.
