@@ -479,10 +479,3 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}
-
-
-
-
-
-}
