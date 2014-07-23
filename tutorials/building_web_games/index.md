@@ -1,7 +1,9 @@
 {{Page_Title|Building web games}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=This is a low-content article with links to a number of javascript game libraries. Might be better presented with a different title.
+|Checked_Out=No
 |High-level issues=Deletion Candidate
-|Editorial notes=This is a low quality article with little more than links to a number of javascript game libraries.
 }}
 {{Byline}}
 {{Summary_Section|With the combination of developments in HTML5 and improvements to modern browsers, it's now possible to build high-quality games using web technologies.
@@ -99,6 +101,7 @@ Learn more about it on the [http://benvanik.github.com/WebGL-Inspector/ WebGL In
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
