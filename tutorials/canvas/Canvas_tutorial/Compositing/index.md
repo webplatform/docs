@@ -1,15 +1,16 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs "link to sample page"
+|Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|Here there is explained how to combine shapes. There are examples about logically add/subtract/layer shapes and about how to use clipping paths.}}
+{{Summary_Section|Here we explain how to combine shapes. There are examples about how to logically add/subtract/layer shapes and about how to use clipping paths.}}
 {{Tutorial
-|Next_page=tutorials/canvas/Canvas_tutorial/Optimizing_canvas
-|Prev_page=tutorials/canvas/Canvas_tutorial/Transformations
-|Content=In all of our previous examples, shapes were always drawn one on top of the other. This is more than adequate for most situations. This, for instance, limits in what order composite shapes are built up. We can however change this behaviour by setting the <code>globalCompositeOperation</code> property.
+|Content===Introduction==
+In all of our previous examples, shapes were always drawn one on top of the other. This is more than adequate for most situations. This, for instance, limits in what order composite shapes are built up. We can however change this behaviour by setting the <code>globalCompositeOperation</code> property.
 
 ==<code>globalCompositeOperation</code>==
 
