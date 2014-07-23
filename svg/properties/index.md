@@ -1,4 +1,4 @@
-{{Page_Title|SVG properties}}
+{{Page_Title|SVG DOM properties}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Add text introducing SVG DOM properties as a concept
@@ -16,7 +16,7 @@
 }}
 {{Notes_Section
 |Import_Notes===All Pages==
-{{Special:PrefixIndex/svg/properties/}}
+{{Page_Index_Listing}}
 }}
 {{See_Also_Section}}
 {{Topics|SVG}}
