@@ -1,5 +1,6 @@
 {{Page_Title|Getting entangled with HTML5 canvas}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Flags
 }}
 {{Byline
@@ -18,7 +19,7 @@ Of the many new features in HTML5, the increasing support for the <code>&lt;canv
 
 In the original version of Entanglement, I used several canvas draw methods to draw the hexagon, but the current form of the game uses drawImage() to draw textures clipped from a sprite sheet.
 
-[[Image:en01.png|Tiles sprite sheet]]<br/>
+[[File:en01.png|Tiles sprite sheet]]<br/>
 ''Tiles sprite sheet''
 
 I combined the images together into a single file so it's only one request to the server instead of, in this case, ten. To draw a chosen hexagon to the canvas, we first must gather our tools together: canvas, context, and the image.
@@ -289,8 +290,10 @@ All code examples provided above are combined below as a reference:
  ctx.strokeStyle = '#786c44';
  ctx.stroke();
 }}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
 |Chrome_version=21.0
@@ -318,18 +321,30 @@ All code examples provided above are combined below as a reference:
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
+|Blackberry_supported=Unknown
+|Blackberry_version=
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Unknown
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Unknown
 |Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Unknown
 |Firefox_mobile_prefixed_version=
-|IE_phone_supported=Unknown
-|IE_phone_version=
-|IE_phone_prefixed_supported=Unknown
-|IE_phone_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=5.0 (partial)
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
+|Opera_mini_supported=Unknown
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Unknown
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=3.2
 |Safari_mobile_prefixed_supported=Unknown
