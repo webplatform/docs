@@ -1,4 +1,4 @@
-{{Page_Title|SVG objects}}
+{{Page_Title|SVG DOM objects}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Add introduction to SVG DOM objects
@@ -16,7 +16,7 @@
 }}
 {{Notes_Section
 |Import_Notes===All Pages==
-{{Special:PrefixIndex/svg/objects/}}
+{{Page_Index_Listing}}
 }}
 {{See_Also_Section}}
 {{Topics}}
