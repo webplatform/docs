@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Undescriptive Title, Needs Flags, Missing Relevant Sections
 |Content=Examples Best Practices
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|Timing and movement of shapes are explained in this part of the canvas tutorial. There's a list of useful external examples at the end of the document.}}
