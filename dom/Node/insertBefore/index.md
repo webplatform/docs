@@ -32,7 +32,9 @@
 |Language=HTML
 |Description=The following example shows how to use the '''insertBefore''' method to insert a new item into an existing list.
 |Code=&lt;!doctype html&gt;
-&lt;script type="application/javascript"&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script type{{=}}"application/javascript"&gt;
     function insertElement()
     {
         var nod{{=}}document.createElement("li");
@@ -49,6 +51,7 @@
         &lt;li id{{=}}"oLIBlue"&gt;Blue&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm
 }}
 }}
