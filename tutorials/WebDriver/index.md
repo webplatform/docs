@@ -379,5 +379,3 @@ I encourage you to take this as a foundation, to play around with &amp; to gain 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
-}
