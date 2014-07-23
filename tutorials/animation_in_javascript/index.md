@@ -1,7 +1,9 @@
 {{Page_Title|Animation in JavaScript}}
 {{Flags
-|Content=Outdated
+|State=Almost Ready
 |Editorial notes=Should reference requestAnimationFrame
+|Checked_Out=No
+|Content=Outdated
 }}
 {{Byline}}
 {{Summary_Section|This article discusses how to make simple animations in JavaScript.}}
