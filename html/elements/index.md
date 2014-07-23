@@ -1,10 +1,10 @@
 {{Page_Title|HTML Elements}}
-{{Standardization_Status}}
-{{API_Name}}
 {{Flags
 |State=Not Ready
 |Checked_Out=No
 }}
+{{Standardization_Status}}
+{{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
 {{API_Listing|Query=[[Category:Markup_Elements]][[Category:HTML]]
 |Use_page_title=No
