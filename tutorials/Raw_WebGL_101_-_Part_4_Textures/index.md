@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken image link
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|How to import a texture from an image file into the canvas.}}
 {{Tutorial
 |Content===Introduction==
 
