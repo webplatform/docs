@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs additional content
 |Checked_Out=No
 }}
 {{Byline
 |Name=Jay Munro [msft]
 }}
-{{Summary_Section|Note: this article is in progress. 
+{{Summary_Section|'''Note: this article is in progress.'''
 
 This guide gives you a basic look at Media Source Extensions(MSE), what they are, and how to use them to create add-on free video streaming. An example is presented that uses MSE and MPEG-DASH file to stream content from a single video file as source and used XMLHttpRequest to get segments. This is just one of several ways to stream content.
 }}
