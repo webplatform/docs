@@ -549,13 +549,20 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[html/attributes/value (select, option element){{!}}'''value''']]
 {{!}}Sets or retrieves the value which is returned to the server when the '''form''' control is submitted.
 {{!}}}
- 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.6
 |Status=W3C Recommendation
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-option-element
+|Status=Last Call Working Draft
+}}{{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element
+|Status=Living Standard
 }}
 }}
 {{Compatibility_Section
@@ -567,6 +574,10 @@ This property is not supported for Metro style apps using JavaScript.
 |Browser=WebKit, Blink (Chrome, Safari and more)
 |Version=Any
 |Note=No support for event handlers.
+}}{{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=Earlier than 5
+|Note=[[dom/HTMLAllCollection|'''document.all''']] excludes '''option''' elements. Instead, you can use the [[dom/HTMLElement/options|options]] collection property of the [[dom/HTMLSelectElement|select]] element to get them.
 }}
 }}
 {{See_Also_Section
