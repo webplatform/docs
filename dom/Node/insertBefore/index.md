@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Inserts a node into the document hierarchy as a child node of a node.}}
+{{Summary_Section|Inserts a child into the node, immediately before the specified reference child node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=newNode
@@ -15,9 +15,9 @@
 |Description=The new node to be inserted.
 |Optional=No
 }}{{Method Parameter
-|Name=beforeNode
+|Name=refChild
 |Data type=DOM Node
-|Description=The placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
+|Description=Supplies the placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
 |Optional=Yes
 }}
 |Method_applies_to=dom/Node
@@ -32,7 +32,7 @@
 |Language=HTML
 |Description=The following example shows how to use the '''insertBefore''' method to insert a new item into an existing list.
 |Code=&lt;!doctype html&gt;
-&lt;script&gt;
+&lt;script type="application/javascript"&gt;
     function insertElement()
     {
         var nod{{=}}document.createElement("li");
@@ -59,9 +59,13 @@ This method is accessible at run time. If elements are removed at run time, befo
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-952280727
 |Status=Recommendation
 |Relevant_changes=Section 1.4
+}}{{Related Specification
+|Name=DOM4
+|URL=http://www.w3.org/TR/dom/#dom-node-insertbefore
+|Status=Working Draft
 }}
 }}
 {{Compatibility_Section
