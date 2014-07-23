@@ -112,7 +112,14 @@ As CSS continues to evolve, we'll continue to improve the docs. Currently, we're
 
 == Index of all CSS topics ==
 
-{{Special:PrefixIndex/css/}}
+The list of CSS properties, below, only includes W3C Recommended values or candidate/proposed recommendations.  Use the  [[Special:PrefixIndex/css/]] search page to find all articles organized under this page, or the [[:Category:CSS|CSS category page]] for all CSS-related pages in the wiki.
 
-{{Standardization_Status|}}
+=== CSS Sub-Topics ===
+{{Page_Index_Listing}}
+
+=== List of all Standard CSS Properties ===
+{{Page_Index_Listing
+|query=[[Category:CSS Properties]][[Path::~css/*]]
+[[Standardization Status::W3C Recommendation||W3C Proposed Recommendation||W3C Candidate Recommendation]]
+}}
 {{API_Name}}
