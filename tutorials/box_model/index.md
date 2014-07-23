@@ -1,7 +1,9 @@
 {{Page_Title|Exploring the CSS box model}}
 {{Flags
-|Content=Needs Review
+|State=Almost Ready
+|Editorial notes=Fix broken link
 |Checked_Out=No
+|Content=Needs Review
 }}
 {{Byline}}
 {{Summary_Section|This article briefly describes the CSS box model and how the elements are layed out when they are displayed on the browser}}
@@ -133,7 +135,6 @@ To get the result you want, you might have to change your document's markup. The
 }</syntaxhighlight>
 
 *  Refresh your browser to see the [[http://code.webplatform.org/gist/11431094| Result]]
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -148,7 +149,6 @@ To get the result you want, you might have to change your document's markup. The
 
 # Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
 # Look at a random website and see if you can find a paragraph or a section and guess that box model. Write down in a piece of paper their padding, margin, border properties. Then compare them to the actual CSS layout as you inspect the element in your browser.
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
