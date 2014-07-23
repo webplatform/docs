@@ -21,19 +21,19 @@ The top mobile browsers for various geographies are shown in the charts below. T
 [[Image:mobile-stats-na-may.jpeg]]
 </td><td>
 ===Europe===
-[[File:mobile-stats-europe-may.jpeg]]
+[[Image:mobile-stats-europe-may.jpeg]]
 </td></tr><tr><td>
 ===Australia===
-[[File:mobile-stats-aus-may.jpeg]]
+[[Image:mobile-stats-aus-may.jpeg]]
 </td><td>
 ===Asia===
-[[File:mobile-stats-asia-may.jpeg]]
+[[Image:mobile-stats-asia-may.jpeg]]
 </td></tr><tr><td>
 ===Africa===
-[[File:mobile-stats-af-may.jpeg]]
+[[Image:mobile-stats-af-may.jpeg]]
 </td><td>
 ===South America===
-[[File:mobile-stats-south-america-may.jpeg]]
+[[Image:mobile-stats-south-america-may.jpeg]]
 </td></tr>
 </table>
 
@@ -94,22 +94,22 @@ Browser usage differs considerably around the globe, so it's a good idea to chec
 <table>
 <tr><td>
 ===North America===
-[[File:browsers-na-may.jpeg]]
+[[Image:browsers-na-may.jpeg]]
 </td><td>
 ===Europe===
-[[File:browsers-eu-may.jpeg]]
+[[Image:browsers-eu-may.jpeg]]
 </td></tr><tr><td>
 ===Australia===
-[[File:browsers-au-may.jpeg]]
+[[Image:browsers-au-may.jpeg]]
 </td><td>
 ===Asia===
-[[File:browsers-asia-may.jpeg]]
+[[Image:browsers-asia-may.jpeg]]
 </td></tr><tr><td>
 ===Africa===
-[[File:browsers-africa-may.jpeg]]
+[[Image:browsers-africa-may.jpeg]]
 </td><td>
 ===South America===
-[[File:browsers-sa-may.jpeg]]
+[[Image:browsers-sa-may.jpeg]]
 </td></tr>
 </table>
 
