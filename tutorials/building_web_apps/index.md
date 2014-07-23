@@ -1,5 +1,8 @@
 {{Page_Title|Building web apps}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|In this tutorial, we'll provide you with the architectural understanding, frameworks and tools you'll need in order to create web apps.  We'll also explain how they should be used and how they fit together.}}
 {{Tutorial
@@ -128,6 +131,7 @@ A handful of apps are running on Sencha, including [http://www.sencha.com/apps/k
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Unknown
 |Chrome_version=
@@ -154,7 +158,7 @@ A handful of apps are running on Sencha, including [http://www.sencha.com/apps/k
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|JavaScript, HTML, Developer Tools}}
+{{Topics|Developer Tools, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=Facebook HTML5 Resource Center
