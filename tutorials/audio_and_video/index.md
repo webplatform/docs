@@ -1,5 +1,8 @@
 {{Page_Title|HTML5 <audio> and <video>}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|HTML5 has improved embedding of audio and video by providing native support for many different file types. In this guide, we'll cover the various ways to embed audio and video, including browser compatibility and frameworks to streamline cross-browser compatibility.}}
 {{Tutorial
@@ -104,6 +107,7 @@ If you'd like to jump right in, HTML5Rocks' Playground has great [http://playgro
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
