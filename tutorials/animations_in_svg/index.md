@@ -1,5 +1,8 @@
 {{Page_Title|Animations in SVG}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs all content
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{Byline}}
@@ -8,6 +11,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
