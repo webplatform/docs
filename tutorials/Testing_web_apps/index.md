@@ -18,7 +18,7 @@ The top mobile browsers for various geographies are shown in the charts below. T
 <table>
 <tr><td>
 ===North America===
-[[File:mobile-stats-na-may.jpeg]]
+[[Image:mobile-stats-na-may.jpeg]]
 </td><td>
 ===Europe===
 [[File:mobile-stats-europe-may.jpeg]]
