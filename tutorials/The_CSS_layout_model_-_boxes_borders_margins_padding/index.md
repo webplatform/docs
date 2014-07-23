@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merged into http://docs.webplatform.org/wiki/guides/the_css_layout_model; deletion candidate
+|Checked_Out=No
 |High-level issues=Deletion Candidate
-|Editorial notes=Merged into http://docs.webplatform.org/wiki/guides/the_css_layout_model
 }}
 {{Byline}}
 {{Summary_Section}}
