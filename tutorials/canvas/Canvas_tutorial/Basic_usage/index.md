@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken links
+|Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Byline}}
 {{Summary_Section|The first part of this tutorial is going to explain how to create a canvas 2D context to draw within. Also discussed are some compatility decisons, which provide more granular browser support.}}
 {{Tutorial
-|Next_page=tutorials/canvas/Canvas_tutorial/Drawing_shapes
-|Prev_page=tutorials/canvas/Canvas_tutorial
 |Content=== The <canvas> element ==
  
 Let's start this tutorial by looking at the <code>&lt;canvas&gt;</code> element itself.
