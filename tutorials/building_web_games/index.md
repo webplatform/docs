@@ -1,7 +1,7 @@
 {{Page_Title|Building web games}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=This is a low-content article with links to a number of javascript game libraries. Might be better presented with a different title.
+|Editorial notes=Primarily contains links to a number of javascript game libraries. Might be better presented with a different title.
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 }}
