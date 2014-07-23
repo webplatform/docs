@@ -1,8 +1,9 @@
 {{Page_Title|Introduction to HTML5 games}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=Yes
 |High-level issues=Needs Flags
 |Content=Grammar/Spelling
-|Checked_Out=Yes
 }}
 {{Byline
 |Name=Daniel X Moore
