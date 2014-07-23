@@ -11,14 +11,13 @@
 |Property_applies_to=dom/HTMLElement
 |Content====Syntax===
 <syntaxhighlight lang="html5">
-&lt;element aria-describedby="p" ...&gt;
+<element aria-describedby="p" ...>
 </syntaxhighlight>
 
 ===Property values===
 Type: String 
 
-A space-separated list of id property values. 
-
+A space-separated list of id property values.
 }}
 {{Examples_Section
 |Not_required=No
