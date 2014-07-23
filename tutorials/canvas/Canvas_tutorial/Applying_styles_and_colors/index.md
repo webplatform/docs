@@ -4,7 +4,7 @@
 |Content=Not Neutral, Grammar/Spelling, Compatibility Incomplete
 |Checked_Out=No
 |State=Not Ready
-|Editorial=No editing form
+|Editorial notes=No editing form
 }}
 {{Byline}}
 {{Summary_Section|This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.}}
