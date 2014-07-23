@@ -46,7 +46,7 @@ If more than one
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+|Manual_sections====Related pages===
 *<code>[[aria|Accessible Rich Internet Applications (ARIA)]]</code>
 *<code>Reference</code>
 *<code>[[aria/attributes/aria-controls|aria-controls]]</code>
