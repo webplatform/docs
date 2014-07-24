@@ -1,8 +1,13 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|SVG data types}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Nothing here...
+|Checked_Out=No
+}}
 {{Summary_Section}}
 {{Basic Page}}
 {{Special:PrefixIndex/SVG/data types/}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
