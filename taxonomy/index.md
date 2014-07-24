@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=taxonomy
 |Definition=The deliberate hierarchical arrangement of a body of related objects. For example, the biological taxonomy "domain > kingdom > phylum > class > order > family > genus > species", or the CSS taxonomy "rule > selector > declaration > property > value".
