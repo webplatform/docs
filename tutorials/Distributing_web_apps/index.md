@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Byline}}
 {{Summary_Section|Now that you've built an app and tested it, it's time to ship it. You have several distribution options.
 
@@ -44,11 +47,12 @@ Learn more by visiting the [http://www.phonegap.com PhoneGap website].
 Since your web app is indexable, you can also drive significant traffic to your site via search engines using Search Engine Optimization (SEO). Google has an [http://googlewebmastercentral.blogspot.com/2008/11/googles-seo-starter-guide.html excellent guide available on their blog].
 
 == In the future ==
-With [http://windowsteamblog.com/windows/b/bloggingwindows/archive/2011/07/11/400-million-windows-7-licenses-sold.aspx ~1.5 Billion PCs], Microsoft [http://www.microsoft.com/presspass/features/2011/jun11/06-01corporatenews.aspx announced] that HTML5 apps will be integrated into the Windows 8 experience. 
+With [http://windowsteamblog.com/windows/b/bloggingwindows/archive/2011/07/11/400-million-windows-7-licenses-sold.aspx ~1.5 Billion PCs], Microsoft [http://www.microsoft.com/presspass/features/2011/jun11/06-01corporatenews.aspx announced] that HTML5 apps will be integrated into the Windows 8 experience.
 }}
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
