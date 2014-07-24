@@ -7,7 +7,7 @@
 |High-level issues=Needs Review
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property specifies the amount by which the mask box image area extends beyond the border box, similar to the CSS [[css/properties/border-image-outset|border-image-outset]] property. The four values set the outsets on the top, right, bottom, and left sides in that order.}}
 {{CSS Property
@@ -32,7 +32,7 @@
 |Language=CSS
 |Code=/* length */
 #maskbox1: {
-    mask-box-image-outset: 30 50 30 50;
+    mask-border-outset: 30 50 30 50;
 }
 }}
 }}
@@ -40,8 +40,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
