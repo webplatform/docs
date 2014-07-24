@@ -6,11 +6,11 @@
 |Checked_Out=No
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property specifies inward offsets from the top, right, bottom, and left edges of the mask image, dividing it into nine regions: four corners, four edges, and a middle. The middle image part is discarded and treated as fully transparent black unless the ''fill'' keyword is present. The four values set the top, right, bottom and left offsets in that order, similar to the CSS [[css/properties/border-image-slice|border-image-slice]] property.}}
 {{CSS Property
-|Initial value=0 fill
+|Initial value=0
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
 |Inherited=No
 |Media=visual
@@ -34,12 +34,12 @@
 |Language=CSS
 |Code=/* numbers, fill */
 #maskbox1: {
-    mask-box-image-slice: 30 50 30 50 fill;
+    mask-border-slice: 30 50 30 50 fill;
 }
 
 /* percentages, no fill */
 #maskbox2: {
-    mask-box-image-slice: 25% 10% 20% 25%;
+    mask-border-slice: 25% 10% 20% 25%;
 }
 }}
 }}
@@ -47,8 +47,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
