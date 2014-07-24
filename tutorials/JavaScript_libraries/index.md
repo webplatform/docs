@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; should not be a webplatform.org topic; deletion candidate
+|Checked_Out=No
 |High-level issues=Stub, Deletion Candidate
-|Editorial notes=Webplatform is to properly document the web platform, not to create redundant content. There are thousands of sites out there to help people learn javascript libraries. This is the only one to learn web technologies.
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -9,6 +11,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
