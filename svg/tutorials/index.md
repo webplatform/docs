@@ -1,13 +1,18 @@
 {{Page_Title|SVG tutorials}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Topics
 |Content=Incomplete
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|A list of all SVG tutorials.}}
-{{API_Listing
-|Query=[[Category:Tutorials]][[Category:SVG]]
+{{Summary_Section|A list of SVG tutorials.}}
+{{API_Listing|Query=[[Category:Tutorials]][[Category:SVG]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Concept_Listing
 |Use_page_title=No
 |List_all_subpages=No
 }}
