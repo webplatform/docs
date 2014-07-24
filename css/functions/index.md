@@ -6,7 +6,9 @@
 }}
 {{Summary_Section|In CSS, functions can be used in values to invoke special processing or visual effects.}}
 {{Basic Page}}
-{{Special:PrefixIndex/css/functions/}}
+
+=== All Functions ===
+{{Page Index Listing}}
 {{Notes_Section}}
 {{Topics|CSS}}
 {{External_Attribution
