@@ -7,7 +7,7 @@
 |High-level issues=Needs Review
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies an image to be used as a mask. An image that is empty, fails to download, is non-existent, or cannot be displayed is ignored and does not mask the element.}}
 {{CSS Property
@@ -31,18 +31,22 @@
 |Examples={{Single Example
 |Language=CSS
 |Code=/* none */
-p { mask-box-image-source: none; }
+p { mask-border-source: none; }
 
 /* image */
-div { mask-box-image-source: url(#someMask); }
+div { mask-border-source: url(#someMask); }
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
