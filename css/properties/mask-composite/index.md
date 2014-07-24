@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|This property allows to composite multiple mask layers define by [[css/properties/mask-image|mask-image]] with different Poter-Duff compositing modes.}}
+{{Summary_Section|This property allows to composite multiple mask layers define by [[css/properties/mask-image|mask-image]] with different Porter-Duff compositing modes.}}
 {{CSS Property
 |Initial value=add
 |Applies to=All elements. In SVG, it applies to container elements without the <defs> element and all graphics elements.
