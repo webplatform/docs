@@ -6,7 +6,7 @@
 |Checked_Out=No
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|Defines whether the content of the <mask> element is treated as as luminance mask or an alpha mask.}}
 {{CSS Property
@@ -28,35 +28,31 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=CSS
+|Language=HTML
 |Description=Alpha mask type
-|Code=/* alpha */
-body {
-        background-color: white;
-        mask-image: url(big-black-dot.jpg);
-        mask-position: bottom right;
-        mask-repeat: no-repeat;
-        mask-type: alpha;
-	}
+|Code=<!-- alpha -->
+<mask style="mask-type: alpha">
+        <circle cx="50%" cy="50%" r="50%"/>
+</mask>
 }}{{Single Example
 |Language=CSS
 |Description=Luminance mask type
-|Code=/*luminance*/
-body {
-        background-color: white;
-        mask-image: url(big-red-dot.jpg);
-        mask-position: bottom right;
-        mask-repeat: no-repeat;
-        mask-type: luminance;
-	}
+|Code=<!-- luminance -->
+<mask style="mask-type: luminance">
+        <circle cx="50%" cy="50%" r="50%" fill="white"/>
+</mask>
 }}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
