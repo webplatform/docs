@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Should not be a webplatform.org topic; deletion candidate
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections
 |Content=Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Byline
 |Name=Avinash Zala
