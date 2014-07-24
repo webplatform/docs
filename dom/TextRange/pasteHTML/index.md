@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example with getSelection feature testing.
-|Checked_Out=Yes
+|State=Ready to Use
+|Editorial notes=some more examples using feature testing?
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -36,6 +36,30 @@ if (sel!{{=}}null) {
 }
 }
 &lt;/script&gt;
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example uses feature detection to determine whether to use getSelection or document.selection.
+|Code=function makeMark(el){
+if(window.getSelection){
+	var sel{{=}}document.getSelection();
+	for(var I{{=}}0;i<sel.rangeCount;i++)
+	{
+	var range {{=}} sel.getRangeAt(i),
+  	content {{=}} range.extractContents(),
+    span {{=}} document.createElement('mark');
+	span.appendChild(content);
+	var htmlContent {{=}} span.innerHTML;
+	range.insertNode(span);}
+}else{
+	var sel{{=}}document.selection;
+	if(sel){
+		var rng{{=}}sel.createRange();
+		if(rng!{{=}}null){
+			rng.pasteHTML('<span style=\"color:black;background:yellow\">'+rng.text+'</span>');
+		}
+		}
+}
+}
 }}
 }}
 {{Notes_Section
