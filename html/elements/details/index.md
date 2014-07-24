@@ -12,6 +12,8 @@ The details element represents a disclosure widget from which the user can obtai
 </details>
 </syntaxhighlight>
 
+[http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d More examples with live demo]
+
 == Attributes ==
 
 ===open===
