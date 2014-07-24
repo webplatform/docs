@@ -42,7 +42,7 @@ if (sel!{{=}}null) {
 |Code=function makeMark(el){
 if(window.getSelection){
 	var sel{{=}}document.getSelection();
-	for(var I{{=}}0;i<sel.rangeCount;i++)
+	for(var i{{=}}0;i<sel.rangeCount;i++)
 	{
 	var range {{=}} sel.getRangeAt(i),
   	content {{=}} range.extractContents(),
