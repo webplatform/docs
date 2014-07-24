@@ -7,7 +7,7 @@
 |High-level issues=Needs Review
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property is shorthand for setting [[css/properties/mask-border-source|mask-border-source]], [[css/properties/mask-border-slice|mask-border-slice]], [[css/properties/mask-border-width|mask-border-width]], [[css/properties/mask-border-outset|mask-border-outset]], and [[css/properties/mask-border-repeat|mask-border-repeat]]. Omitted values are set to their original properties' initial values.}}
 {{CSS Property
@@ -51,6 +51,10 @@
 |Name=CSS Masking Level 1
 |URL=http://www.w3.org/TR/css-masking-1/
 |Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
