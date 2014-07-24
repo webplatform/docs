@@ -6,7 +6,9 @@
 }}
 {{Summary_Section|At-rules are special instructions for the CSS parser. They are invoked by an at-keyword preceded by an "@" sign.}}
 {{Basic Page}}
-{{Special:PrefixIndex/css/atrules/}}
+{{API_Listing
+|Query=[[Category:CSS At Rules]]
+}}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
