@@ -1,11 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Deletion Candidate
+|State=Not Ready
+|Editorial notes=Deletion candidate; frameworks should not be a topic on webplatform.org
 |Checked_Out=No
-|Editorial notes={{Editorial/Deletion_Candidate
-| Frameworks should not be a topic on webplatform.org
-}}
-
+|High-level issues=Stub, Deletion Candidate
 }}
 {{Byline}}
 {{Summary_Section}}
