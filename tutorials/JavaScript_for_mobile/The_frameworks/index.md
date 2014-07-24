@@ -1,10 +1,17 @@
+{{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=No content; deletion candidate; frameworks should not be a topic on webplatform.org
+|Checked_Out=No
 |High-level issues=Stub
 }}
+{{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
