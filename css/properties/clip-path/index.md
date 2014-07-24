@@ -127,7 +127,11 @@ img.clipped-text {
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Safari 
+|Version=7.x
+|Note=Still uses the deprecated syntax:
+}}
 }}
 {{See_Also_Section}}
 {{Topics|CSS}}
