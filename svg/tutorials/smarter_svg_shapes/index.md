@@ -1,13 +1,15 @@
 {{Page_Title|SVG basic shapes and text}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Fix multiple broken links
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
 {{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.}}
 {{Tutorial
-|Content=
-
-==Simple shapes==
+|Content===Simple shapes==
 
 Various SVG elements produce basic shapes, and their attributes
 specify their dimensions.
@@ -608,7 +610,6 @@ appears before and after applying the offset:
 
 See [[tutorials/svg_fonts|SVG Fonts]] for information on SVG's support
 for creating font glyphs.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
