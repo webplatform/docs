@@ -104,7 +104,7 @@ SVG is worked on by the SVG working group — see the [http://www.w3.org/Graphic
 
 == Index of all SVG topics ==
 
-{{Special:PrefixIndex/svg/}}
+{{Page_Index_Listing}}
 
 {{Standardization_Status|}}
 {{API_Name}}
