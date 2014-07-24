@@ -1,7 +1,9 @@
 {{Page_Title|SVG text}}
 {{Flags
-|High-level issues=Deletion Candidate
+|State=Not Ready
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
+|High-level issues=Deletion Candidate
 }}
 {{Byline}}
 {{Summary_Section|This guide contains nothing, and should be deleted.}}
