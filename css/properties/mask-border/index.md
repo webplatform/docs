@@ -9,7 +9,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|This property is shorthand for setting [[css/properties/mask-box-image-source|mask-box-image-source]], [[css/properties/mask-box-image-slice|mask-box-image-slice]], [[css/properties/mask-box-image-width|mask-box-image-width]], [[css/properties/mask-box-image-outset|mask-box-image-outset]], and [[css/properties/mask-box-image-repeat|mask-box-image-repeat]]. Omitted values are set to their original properties' initial values.}}
+{{Summary_Section|This property is shorthand for setting [[css/properties/mask-border-source|mask-border-source]], [[css/properties/mask-border-slice|mask-border-slice]], [[css/properties/mask-border-width|mask-border-width]], [[css/properties/mask-border-outset|mask-border-outset]], and [[css/properties/mask-border-repeat|mask-border-repeat]]. Omitted values are set to their original properties' initial values.}}
 {{CSS Property
 |Initial value=See individual properties.
 |Applies to=See individual properties.
@@ -19,29 +19,29 @@
 |Animatable=No
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
-|Data Type=<mask-box-image-source>
-|Description=See [[css/properties/mask-box-image-source|mask-box-image-source]].
+|Data Type=<mask-border-source>
+|Description=See [[css/properties/mask-border-source|mask-border-source]].
 }}{{CSS Property Value
-|Data Type=<mask-box-image-slice>
-|Description=See [[css/properties/mask-box-image-slice|mask-box-image-slice]].
+|Data Type=<mask-border-slice>
+|Description=See [[css/properties/mask-border-slice|mask-border-slice]].
 }}{{CSS Property Value
-|Data Type=<mask-box-image-width>
-|Description=See [[css/properties/mask-box-image-width|mask-box-image-width]].
+|Data Type=<mask-border-width>
+|Description=See [[css/properties/mask-border-width|mask-border-width]].
 }}{{CSS Property Value
-|Data Type=<mask-box-image-outset>
-|Description=See [[css/properties/mask-box-image-outset|mask-box-image-outset]].
+|Data Type=<mask-border-outset>
+|Description=See [[css/properties/mask-border-outset|mask-border-outset]].
 }}{{CSS Property Value
-|Data Type=<mask-box-image-repeat>
-|Description=See [[css/properties/mask-box-image-repeat|mask-box-image-repeat]].
+|Data Type=<mask-border-repeat>
+|Description=See [[css/properties/mask-border-repeat|mask-border-repeat]].
 }}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=/* mask-box-source (-slice) / -width / (-outset) -repeat */
+|Code=/* mask-border-source (-slice) / -width / (-outset) -repeat */
 #maskbox1 {
-    mask-box-image: url(#someMask) / 5% / stretch;
+    mask-border: url(#someMask) / 5% / stretch;
 }
 }}
 }}
@@ -49,8 +49,8 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
 }}
 }}
 {{Compatibility_Section
