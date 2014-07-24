@@ -1,5 +1,7 @@
 {{Page_Title|Learn the latest in web technologies.}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Should remove links to deletion candidates
 |Checked_Out=No
 }}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
