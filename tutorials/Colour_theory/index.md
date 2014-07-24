@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Merge Candidate
+|State=Almost Ready
+|Editorial notes=Fix a couple of broken image links
 |Checked_Out=No
-|Editorial notes={{Editorial/concepts/color_theory}}
+|High-level issues=Merge Candidate
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|This article discusses the basics of colour theory as it applies to Web design.}}
 {{Tutorial
-|Content=
-== Introduction ==
+|Content=== Introduction ==
  
 Without much colour or graphics, every site would become [http://www.useit.com/ Jakob Nielsen]’s
 dream site. Although Nielsen’s philosophy of bare-bones Web
@@ -403,7 +403,6 @@ answers.
 * Which colour scheme seems the most complicated?
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/8-colour-theory/ 8: Colour Theory], written by Linda Goin. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
@@ -421,6 +420,5 @@ Note: This material was originally published as part of the Opera Web Standards 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
 [[Category:Tutorials]]
 [[Category:WSC]]
