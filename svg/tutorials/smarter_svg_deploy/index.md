@@ -1,5 +1,9 @@
 {{Page_Title|SVG deployment}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix a couple of broken links
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -160,7 +164,6 @@ attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
   </switch>
 </svg>
 </syntaxhighlight>
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
