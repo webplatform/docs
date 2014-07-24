@@ -1,5 +1,9 @@
 {{Page_Title|SVG graphic effects}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Fix multiple broken links
+|Checked_Out=No
+}}
 {{Byline
 |Name=Mike Sierra
 }}
@@ -373,7 +377,6 @@ not preserve any interactive features.
 * [[svg/properties/mask|'''mask''']]
 
 -->
-
 }}
 {{Notes_Section}}
 {{Compatibility_Section
