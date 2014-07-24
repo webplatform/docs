@@ -1,13 +1,23 @@
-{{Page_Title}}
-{{Flags}}
+{{Page_Title|SVG events}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Add some content, with link to the main DOM events page.
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Listing
-|Use_page_title=No
+{{Summary_Section|List of all pages in svg/events/}}
+{{API_Listing|Use_page_title=No
 |List_all_subpages=Yes
 }}
-{{Notes_Section}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section
+|Import_Notes===All Pages==
+{{Page_Index_Listing}}
+}}
 {{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
