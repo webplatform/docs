@@ -1,5 +1,7 @@
 {{Page_Title|SVG animation}}
 {{Flags
+|State=In Progress
+|Editorial notes=Fix multiple broken links
 |Checked_Out=No
 }}
 {{Byline
