@@ -64,7 +64,7 @@ Web Platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-accessibility"></div>
     
     <div class="inner">
-    <h3>[[concepts/accessibility/zh|可访问性]]</h3>
+    <h3>[[concepts/accessibility/zh|无障碍]]</h3>
     
     <p>让 Web 为各类功能性障碍人群工作的模式，实践和商业案例。</p>
     </div>
