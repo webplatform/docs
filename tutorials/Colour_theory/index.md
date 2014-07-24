@@ -6,23 +6,8 @@
 }}
 {{Byline}}
 {{Summary_Section}}
-{{Tutorial}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+{{Tutorial
+|Content=
 == Introduction ==
  
 Without much colour or graphics, every site would become [http://www.useit.com/ Jakob Nielsen]’s
@@ -418,6 +403,24 @@ answers.
 * Which colour scheme seems the most complicated?
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/8-colour-theory/ 8: Colour Theory], written by Linda Goin. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
+
+}}
+{{Notes_Section}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 
 [[Category:Tutorials]]
 [[Category:WSC]]
