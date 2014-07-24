@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs all content
+|Checked_Out=No
 |High-level issues=Stub, Needs Topics
 |Content=Incomplete
 }}
