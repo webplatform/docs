@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Deletion candidate; non standards-track technologies shouldn't be included on webplatform.org
+|Checked_Out=No
 |High-level issues=Stub, Deletion Candidate
-|Editorial notes=Non standards-track technologies shouldn't be included on webplatform.org - there are thousands of sites to help you learn jquery - this is the only one to help you learn web fundamentals.
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -9,6 +11,7 @@
 {{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
