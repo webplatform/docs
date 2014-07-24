@@ -1,12 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs all content
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags
 }}
 {{Byline}}
 {{Summary_Section}}
 {{Tutorial}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
