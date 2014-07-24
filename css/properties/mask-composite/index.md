@@ -38,7 +38,10 @@ mask-image: url(source.png), url(destination.png);
 mask-composite: exclude;
 }}{{Single Example
 |Language=CSS
-|Code=/* destination.png and background.png are combined with the compositing operator subtract. The result of this operation and source.png are combined with the compositing operator exclude. */
+|Code=/* destination.png and background.png are combined
+with the compositing operator subtract.
+The result of this operation and source.png are combined
+with the compositing operator exclude. */
 mask-image: url(source.png), url(destination.png), url(background.png);
 mask-composite: exclude, subtract;
 }}{{Single Example
@@ -51,10 +54,10 @@ mask-composite: exclude;
 {{Notes_Section
 |Usage=Safari, Chrome and Opera implement this property '-webkit-' prefixed with different keywords. The keywords can be mapped as follows:
 
-add -> source-over
-subtract - > source-out
-intersect -> source-in
-exclude -> xor
+add &#8594; source-over,
+subtract &#8594; source-out,
+intersect &#8594; source-in,
+exclude &#8594; xor
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
