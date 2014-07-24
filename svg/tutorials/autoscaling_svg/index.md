@@ -1,5 +1,7 @@
 {{Page_Title|Autoscaling SVG}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs all content
 |Checked_Out=No
 }}
 {{Byline
