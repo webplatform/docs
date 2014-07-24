@@ -6,7 +6,7 @@
 |Checked_Out=No
 |Content=Examples Needed
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS [[css/properties/border-image-repeat|border-image-repeat]] property.}}
 {{CSS Property
@@ -37,12 +37,12 @@
 |Language=CSS
 |Code=/* explicit horizontal, explicit vertical */
 #maskbox1: {
-    mask-box-image-repeat: stretch repeat;
+    mask-border-repeat: stretch repeat;
 }
 
 /* explicit horizontal, implicit vertical */
 #maskbox1: {
-    mask-box-image-repeat: round;
+    mask-border-repeat: round;
 }
 }}
 }}
@@ -50,8 +50,12 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking Level 1
-|URL=https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/css-masking-1/
+|Status=W3C Last Call Working Draft
+}}{{Related Specification
+|Name=CSS Masking Level 1
+|URL=http://dev.w3.org/fxtf/css-masking-1/
+|Status=W3C Editor’s Draft
 }}
 }}
 {{Compatibility_Section
