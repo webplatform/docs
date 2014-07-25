@@ -19,7 +19,7 @@ see [http://help.dottoro.com/larpvnhw.php dottoro.com] for a full listing of com
 }}
 |Method_applies_to=dom/TextRange
 |Example_object_name=document
-|Return_value_name=Restult
+|Return_value_name=Result
 |Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
