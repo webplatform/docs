@@ -1,9 +1,7 @@
 {{Page_Title|Best practices when writing for mobile}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=http://docs.webplatform.org/wiki/concepts/mobile_web/About_mobile_JavaScript_best_practices
-}}
+|Editorial notes=Merge candidate with http://docs.webplatform.org/wiki/concepts/mobile_web/About_mobile_JavaScript_best_practices
 |Checked_Out=No
 |High-level issues=Stub, Merge Candidate, Needs Topics
 |Content=Incomplete
