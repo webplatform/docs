@@ -1,9 +1,7 @@
 {{Page_Title|HTML}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| We are not covering server-side tech in this detail.
-}}
+|Editorial notes=Deletion candidate; we are not covering server-side tech in webplatform.
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 }}
@@ -41,8 +39,11 @@ I hope you enjoyed my first tutorial and that this has helped you.
 
 
 
+
+
+
 {{Notes_Section}}
-{{Topics}}
+{{Topics|HTML, UI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
@@ -50,7 +51,7 @@ I hope you enjoyed my first tutorial and that this has helped you.
 |HTML5Rocks_link=
 }}
 {{Notes_Section}}
-{{Topics|HTML, UI}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
