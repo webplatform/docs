@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|Editorial notes=Stub MSDN import
 |Checked_Out=No
 |High-level issues=Needs Flags, Stub
 }}
