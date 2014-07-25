@@ -3,11 +3,11 @@
 
 ==概要==
 
-Web Platform Docs 是一个社区驱动（community-driven）站点，目标是成为兼具综合性与权威性的 web 开发文档资源。
+Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨在成为兼具综合性与权威性的 Web 开发文库。
 
 {{Languages}}
 
-==探索我们的 web 开发文档==
+==探索 Web 开发文档==
 
 <div class="topic-container">
 
@@ -16,9 +16,9 @@ Web Platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-beginners"></div>
     
     <div class="inner">
-    <h3>[[beginners/zh|初学者指南]]</h3>
+    <h3>[[beginners/zh|指南书]]</h3>
     
-    <p>针对 Web 开发的入门材料。</p>
+    <p>针对 Web 开发的入门级材料。</p>
     </div>
   
   </div>
@@ -28,9 +28,9 @@ Web Platform Docs 是一个社区驱动（community-driven）站点，目标是�
     <div class="image icon-concept"></div>
     
     <div class="inner">
-    <h3>[[concepts/zh|Web 通用概念]]</h3>
+    <h3>[[concepts/zh|Web 基本概念]]</h3>
     
-    <p>概念性或指导性的文章，涵盖诸如网络工作原理，信息架构，排版和 Web 设计。</p>
+    <p>概念性或指导性的资料，涵盖诸如网络工作原理，信息架构，排版和 Web 设计等方面。</p>
     </div>
   
   </div>
@@ -128,22 +128,22 @@ Web Platform Docs 是一个社区驱动（community-driven）站点，目标是�
 
 Web Platform Docs 现阶段仍然是不成熟的，但你已经可以在网站上找到很多有价值的内容，包括：
 
-* 如何使用开放式网络的特点，语法和示例
-* 什么样的平台和设备，你可以使用各种技术
-* 目前每个技术规范的标准化，稳定性和执行情况
+* 如何使用开放式网络的特点，语法和示例。
+* 在什么样的平台和设备上，你可以使用的各种技术。
+* 当前每个技术规范的标准化，稳定性和执行情况。
 
 未来，Web Platform Docs 将为你开拓丰富更多内容：
-最新实例代码、教育资源和更多。为加快发展脚步，我们诚意邀请你加入我们的行列，贡献你的知识。
+最新实例代码、教育资源等等。为了加速文库的进展，我们诚邀你加入我们的行列，贡献你的知识和智慧。
 
 ==完善 Web Platform Docs==
 
-我们很乐意对您有帮助改善 Web Platform Docs。哪怕是一丁点的努力，可以在网站上有显着的影响，提醒有关错误修复这些错误，移植现有的物品，甚至贡献完全新的内容在我们的文档，同开发商。要了解更多信息，请仔细阅读我们的[[WPD:Getting_Started|编辑入门指南]]。
+我们很乐意有您帮助改善 Web Platform Docs。哪怕是一丁点的改变，也可以在网站上有显著的影响，提醒有关错误修复这些错误，移植现有的物品，甚至贡献完全新的内容。更多信息，请阅读我们的[[WPD:Getting_Started|编辑入门指南]]。
 
-* 要向 Web Platform Docs 提交错误信息（<abbr>Bugs</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 有关更多信息，请阅读我们的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
-* 如果你在 Web Platform Docs 有任何疑问，请先参照 [[WPD:FAQ|常见问题]]里的提示。
+* 向 Web Platform Docs 提交错误信息（<abbr>Bugs</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 更多信息，请参阅[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
+* 如果你在 Web Platform Docs 有任何疑问，请先看一看 [[WPD:FAQ|常见问题]] 里的提示。
 
 
-==保持联系==
+==保持联络==
 
 * 加入我们的 [http://talk.webplatform.org/forums/ 问答论坛]
 * 在<abbr>IRC</abbr>与众多编辑们聊天: 我们在[irc://chat.freenode.net#webplatform FREENODE]
