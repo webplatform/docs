@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -22,7 +22,7 @@
 &lt;script&gt;
     function inform() {
         //Get propertyName property
-        alert(event.propertyName + " property has changed value")
+        alert(event.propertyName + " property has changed value");
     };
 
     function changeProperty() {
