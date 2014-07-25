@@ -5,7 +5,7 @@
 
 Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨在成为兼具综合性与权威性的 Web 开发文库。
 
-{{Languages}}
+{{Languages|zh}}
 
 ==探索 Web 开发文档==
 
