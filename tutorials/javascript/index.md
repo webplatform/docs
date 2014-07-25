@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=http://docs.webplatform.org/wiki/javascript/tutorials
-}}
+|Editorial notes=Merge candidate with http://docs.webplatform.org/wiki/javascript/tutorials
+
 |Checked_Out=No
 |High-level issues=Merge Candidate
 }}
