@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=summary, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=any
 |Description='''Integer''' that specifies where to insert the row in the '''rows''' collection. The default value is '''-1''', which appends the new row to the end of the '''rows''' collection.
@@ -51,7 +54,6 @@ The preferred technique for inserting a row is to add the row at the end of the 
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/table|table]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
