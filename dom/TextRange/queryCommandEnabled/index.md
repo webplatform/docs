@@ -18,9 +18,9 @@ see [http://help.dottoro.com/larpvnhw.php dottoro.com] for a full listing of com
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=document
+|Return_value_name=Restult
+|Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
 '''Boolean''' that returns one of the following possible values:
@@ -47,7 +47,6 @@ see [http://help.dottoro.com/larpvnhw.php dottoro.com] for a full listing of com
 if(document.queryCommandEnabled('cut')){
 	document.execCommand('cut',false,null);}
 }
-
 }}
 }}
 {{Notes_Section
