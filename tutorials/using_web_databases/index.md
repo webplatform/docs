@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| Duplicate of http://docs.webplatform.org/wiki/tutorials/web_databases
-}}
+|Editorial notes=Deletion candidate; duplicate of http://docs.webplatform.org/wiki/tutorials/web_databases
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 }}
