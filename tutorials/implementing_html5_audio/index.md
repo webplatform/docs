@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| Duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag
-}}
+|Editorial notes=Deletion candidate; duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 |Compatibility=Incomplete
