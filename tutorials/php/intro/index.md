@@ -1,9 +1,7 @@
 {{Page_Title|Introduction}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| We are not covering server-side technologies.
-}}
+|Editorial notes=Deletion candidate; we are not covering server-side technologies.
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 |Content=Incomplete
