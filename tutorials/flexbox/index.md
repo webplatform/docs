@@ -1,9 +1,7 @@
 {{Page_Title|Using Flexible Boxes for Layout}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| temporary page used for test
-}}
+|Editorial notes=Deletion candidate; temporary page used for test
 |Checked_Out=No
 |High-level issues=Stub, Deletion Candidate
 }}
