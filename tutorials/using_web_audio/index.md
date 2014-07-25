@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| Is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio
-}}
+|Editorial notes=Deletion candidate; is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio
 |Checked_Out=No
 |High-level issues=Deletion Candidate
 }}
