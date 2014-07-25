@@ -1,7 +1,7 @@
 {{Page Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub
+|Editorial notes=No editing form
 }}
 {{Standardization_Status|}}
 {{API_Name}}
