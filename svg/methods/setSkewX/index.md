@@ -1,7 +1,7 @@
 {{Page Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import
+|Editorial notes=Stub
 }}
 {{Standardization_Status|}}
 {{API_Name}}
