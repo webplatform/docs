@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets or sets the value of a node.}}
+{{Summary_Section|Gets or sets the value of a Node, if the type of Node supports it.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
 |Read_only=No
@@ -22,45 +22,62 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following code example alters the text of the specified list item by setting the '''nodeValue''' property of the text node that is contained by that list item.
-|Code=&lt;script&gt;
-function fnChangeValue(oList, iItem, sValue){
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Title&lt;/title&gt;
+&lt;script&gt;
+function changeValue(list, itemIndex, newValue){
    // only perform the operation on lists
-   if (oList.nodeName !{{=}} "UL" &amp;&amp; oList.nodeName !{{=}} "OL")
+   if (list.nodeName !{{=}}{{=}} "UL" &amp;&amp; list.nodeName !{{=}} "OL")
       return false;
    // only perform the operation if the specified index is 
    // within the acceptable range of available list items
-   if (iItem &gt; oList.childNodes.length -1)
+   if (itemIndex &gt; list.childNodes.length -1)
       return false;
    // get a reference to the specified list item
-   var oLI {{=}} oList.childNodes(i);
-   if (!oLI)
+   var liElements {{=}} list.childNodes[itemIndex];
+   if (!liElements)
       return false;
    // get a reference to the text node contained by the list item
-   var oText {{=}} oLI.childNodes(0);
+   var textNode {{=}} liElements.childNodes[0];
    // ensure that the node is a text node
-   if (oText.nodeType !{{=}} 3)
+   if (textNode.nodeType !{{=}}{{=}} 3)
       return false;
-   oText.nodeValue {{=}} sValue;
+   textNode.nodeValue {{=}} newValue;
    return true;
 }
+function initialize() {
+  document.getElementById("list").addEventListener(
+    "click",
+    function () {
+     changeValue(this, 0, "New Node value");
+    },
+    false);
+}
+document.addEventListener("DOMContentLoaded", initialize, false);
 &lt;/script&gt;
-&lt;ul id{{=}}"oList" onclick{{=}}"fnChangeValue(this, 0, 'New Node value')"&gt;
-&lt;li&gt;Old Node Value&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;ul id{{=}}"list"&gt;&lt;li&gt;Old Node Value&lt;/li&gt;&lt;/ul&gt;
+&lt;/body&gt;
 }}
 }}
 {{Notes_Section
-|Notes=If the object is a [[dom/TextNode|'''TextNode''']] object, the '''nodeValue''' property returns a string that represents the text that the node contains.
-You cannot use expressions to change the '''nodeValue''' of a [[dom/TextNode|'''TextNode''']] object.
-If the object is an '''attribute''' object retrieved from the [[dom/Node/attributes|'''attributes''']] collection, the '''nodeValue''' property returns the value of the attribute if it has been specified, or <code>null</code> otherwise.
-If the object is an element, the '''nodeValue''' returns <code>null</code>. Use the [[dom/Node/nodeName|'''nodeName''']] property to determine the element name.
+|Usage=Use this property to get or set the value of a Node. The concept of nodeValue changes between the various Node types ([[dom/Element|Element]], [[dom/Text|Text]] and the rest).
+|Notes=* The value of this property for [[dom/Text|Text] nodes is their [[dom/Node/textContent|Text.textContent]].
+* This property is deprecated for [[dom/Attr|Attr]] nodes. Use [[dom/Attr/value|Attr.value]] instead. The value of this property for Attr nodes is their Attr.value.
+* The value of this property for [[dom/Element|Element]] nodes is always <code>null</code>. Use [[dom/Node/nodeName|Node.nodeName]] to get their name or [[dom/Node/textContent]] to get all of the text included in their tree.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 3 Core
 |URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
+|Status=W3C Recommendation
+}}{{Related Specification
+|Name=WHATWG DOM
+|URL=http://dom.spec.whatwg.org/#dom-node-nodevalue
+|Status=Living Standard
 }}
 }}
 {{Compatibility_Section
