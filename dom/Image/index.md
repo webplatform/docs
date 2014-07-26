@@ -29,7 +29,7 @@ document.body.appendChild(img);
 
 Syntax -
 
-<code>new Image({{!((}}width{{!)}}, height{{!)}})</code>
+<code>new Image(width, height)</code>
 
 You can specify up to two optional arguments:
 {{{!}} class="wikitable"
