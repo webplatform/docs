@@ -24,7 +24,7 @@
 |Language=JavaScript
 |Description=The following script gets the title of the document, changes the first "r" to a "t" (if there is an "r") and sets the result as the title of the document.
 |Code=// Getting the title of the document, replacing the first "r"
-// with "t" and setting the result back to the text property.
+// with "t" and setting the result as the title of the document.
 document.title {{=}} document.title.replace("r", "t");
 }}
 }}
