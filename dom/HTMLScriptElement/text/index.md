@@ -50,7 +50,7 @@ document.head.appendChild(newScript);
 |Usage=Legacy. Use [[dom/Node/textContent|textContent]] instead.
 
 Use this property to get a concatenated version of all of the child text nodes of a [[html/elements/script|script]] element.
-Setting this property works the same way as setting the [[dom/Node/textContent]] property.
+Setting this property works the same way as setting the [[dom/Node/textContent|textContent]] property.
 |Notes=* [[dom/Text|Text nodes]] that are nested within elements or HTML comments is excluded.
 * Settings this property of a [[html/elements/script|'''script''']] element after its contained or referenced script has already ran does not run the new set code.
 }}
