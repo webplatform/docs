@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Legacy method. Use [[dom/Document/querySelectorAll|document.querySelectorAll("img")]] instead. Gets a live collection of [[html/elements/img|img]] elements in a document.}}
+{{Summary_Section|Legacy method. Use [[css/selectors_api/querySelectorAll|document.querySelectorAll("img")]] instead. Gets a live collection of [[html/elements/img|img]] elements in a document.}}
 {{API_Object_Property
 |Property_applies_to=dom/Document
 |Read_only=Yes
@@ -33,7 +33,7 @@ if (imageList.length) {
 }}
 }}
 {{Notes_Section
-|Usage=This is a legacy property. Use [[dom/Document/querySelectorAll|document.querySelectorAll("img")]] instead, which returns a static list instead.
+|Usage=This is a legacy property. Use [[css/selectors_api/querySelectorAll|document.querySelectorAll("img")]] instead, which returns a static list instead.
 
 Use this property to get a live collection of [[html/elements/img|img]] elements in a document.
 |Notes=Since this property returns a live collection, there are performance implications.
