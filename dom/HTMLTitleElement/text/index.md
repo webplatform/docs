@@ -32,14 +32,16 @@ var title {{=}} document.getElementsByTagName("title")[0];
 // with "t" and setting the result back to the text property.
 // Alternatively,
 // use document.title {{=}} document.title.replace("r", "t"); instead.
-title.text {{=}} title.text.replace("r", "t");}}
+title.text {{=}} title.text.replace("r", "t");
+}}
 }}
 {{Notes_Section
 |Usage=Legacy. Use [[dom/Document/title|document.title]] instead.
 
 Use this property to get a concatenated version of all of the child text nodes of a [[html/elements/title|title]] element.
 Setting this property works the same way as setting the [[dom/Node/textContent|textContent]] property.
-|Notes=* [[dom/Text|Text nodes]] that are nested within elements or HTML comments are excluded.}}
+|Notes=* [[dom/Text|Text nodes]] that are nested within elements or HTML comments are excluded.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Document Object Model (DOM) Level 1
@@ -70,8 +72,7 @@ Setting this property works the same way as setting the [[dom/Node/textContent|t
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
