@@ -1,56 +1,44 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Needs some more content.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a value that indicates whether the object has children.}}
+{{Summary_Section|Gets a value that indicates whether the Node has any direct Node descendant of any type.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Node
-|Example_object_name=object
-|Return_value_name=bResult
+|Example_object_name=element
+|Return_value_name=hasChildNodes
 |Javascript_data_type=Boolean
-|Return_value_description=Boolean
-
-{{{!}} class="wikitable"
-{{!}}-
-!Return value
-!Description
-{{!}}-
-{{!}}true
-{{!}}The object contains HTML Elements or TextNode objects.
-{{!}}-
-{{!}}false
-{{!}}The object does not contain HTML Elements or TextNodes.
-{{!}}}
- 
+|Return_value_description=Whether or not  the Node contains any direct Node descendant of any type
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following example removes the first child node inside the element with the id "foo" if foo has child nodes.
 |Code=var foo {{=}} document.getElementById("foo");
 
-if ( foo.hasChildNodes() ) { 
-  foo.removeChild( foo.childNodes[0] );
+if (foo.hasChildNodes()) { 
+  foo.removeChild(foo.childNodes[0]);
 }
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-If the object contains HTML Elements or [[dom/TextNode|'''TextNodes''']], they can be accessed from the 
+|Notes=If the Node contains any [[dom/Element|Element], [dom/Text|Text] or other type of nodes, they can be accessed from the 
 [[dom/Node/childNodes|'''childNodes''']] collection.
-|Import_Notes====Syntax===
-object.hasChildNodes() 
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Document Object Model (DOM) Level 3 Core
+|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-810594187
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
