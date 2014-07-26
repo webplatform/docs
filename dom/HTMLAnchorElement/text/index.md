@@ -20,7 +20,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following script replaces every instance of the letter "a" in the text of an [[html/elements/a|'''a''']] element with instances of the letter "t", using the '''text''' property for getting and setting the text.
+|Code=// Caching the a element for further use.
+var anchor {{=}} document.getElementById("some-anchor");
+// Getting the text of the element, replacing
+// any "a" with "t" using a regular expression
+// and setting the result back to the text property.
+// Alternatively,
+// use anchor.textContent {{=}} anchor.textContent.replace(/a/g, "t"); instead.
+anchor.text {{=}} anchor.text.replace(/a/g, "t");}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
