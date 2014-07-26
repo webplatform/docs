@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Needs some more content.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Inserts a node into the start of a Range object.}}
+{{Summary_Section|Inserts a Node into the start of a Range object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oNode
@@ -17,32 +18,7 @@
 }}
 |Method_applies_to=dom/Range
 |Example_object_name=newNode
-|Return_value_name=result
-|Javascript_data_type=Number
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-{{{!}} class="wikitable"
-{{!}}-
-!Return code
-!Description
-{{!}}-
-{{!}}S_OK
-{{!}}The operation completed successfully.
-{{!}}-
-{{!}}InvalidStateError
-{{!}}detach has been invoked on the object.
-{{!}}-
-{{!}}W3Exception_DOM_HIERARCHY_REQUEST_ERR
-{{!}}newNode is an ancestor of the container, or the container type for the start of the range does not allow children of type newNode.
-{{!}}-
-{{!}}W3Exception_DOM_WRONG_DOCUMENT_ERR
-{{!}}newNode and the container for the start of the range were not created from the same document.
-{{!}}-
-{{!}}W3Exception_DOM_NO_MODIFICATION_ALLOWED_ERR
-{{!}}A  node or portion of the content in the range is read-only.
-{{!}}}
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
@@ -56,20 +32,18 @@ range.insertNode(newNode);
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-If the container is of type  [[dom/TextNode|'''TextNode''']], '''insertNode''' splits the text node, and inserts ''newNode'' between the resulting two text nodes.
+|Notes=If the container is a node of type [[dom/Text|'''Text''']], '''insertNode''' splits the text node, and inserts ''newNode'' between the resulting two text nodes.
 If ''newNode'' is a document fragment, the children of the document fragment node are inserted rather than the ''newNode'' itself.
-|Import_Notes====Syntax===
-range.insertNode(newNode);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM
 |URL=http://dom.spec.whatwg.org/#dom-range-insertnode
 |Status=Living Standard
-|Relevant_changes=No Change
+}}{{Related Specification
+|Name=Document Object Model (DOM) Level 2 Traversal and Range
+|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level2-Range-method-insertNode
+|Status=W3C Recommendation
 }}
 }}
 {{Compatibility_Section
