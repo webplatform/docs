@@ -45,7 +45,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following code example shows how to use [[dom/NodeIterator|'''NodeIterator''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/TextNode/wholeText|'''wholeText''']] object of the node.
+|Description=The following code example shows how to use [[dom/NodeIterator|'''NodeIterator''']] objects to find and remove references. The iterator returns all text nodes from the document '''body''' and searches for <code>Monday</code> in text and [[html/attributes/id|'''id''']] attributes of parent nodes. The script matches text by using the [[dom/Text/wholeText|'''wholeText''']] object of the node.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
  &lt;head&gt;
