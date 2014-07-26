@@ -21,7 +21,7 @@ leave for me...
 |Example_object_name=textNode
 |Return_value_name=textNode
 |Javascript_data_type=DOM Node
-|Return_value_description=A [[dom/TextNode|'''TextNode''']] object that received the replacement text.  If the replaced text was empty, this value will be null. If the current node is read-only, a new '''TextNode''' object is returned. If the current node is not read-only, the same object is returned.
+|Return_value_description=A [[dom/Text|'''Text''']] node that received the replacement text.  If the replaced text was empty, this value will be null. If the current node is read-only, a new '''Text''' node is returned. If the current node is not read-only, the same object is returned.
 }}
 {{Examples_Section
 |Not_required=No
