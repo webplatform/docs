@@ -22,14 +22,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following script replaces every instance of the letter "a" in the text of an [[html/elements/a|'''a''']] element with instances of the letter "t", using the '''title''' property for getting and setting the text.
+|Description=The following script gets the title of the document, changes the first "r" to a "t" (if there is an "r") and sets the result as the title of the document.
 |Code=// Getting the title of the document, replacing the first "r"
 // with "t" and setting the result back to the text property.
-document.title {{=}} document.title.replace("r", "t");}}
+document.title {{=}} document.title.replace("r", "t");
+}}
 }}
 {{Notes_Section
 |Usage=Use this property to get or set the title of the [[dom/Document|document]].
-|Notes=When [[dom/Document|document]] is the main document that is shown to the user, most browsers show the value of this property to the user as the title of the window or page.}}
+|Notes=When [[dom/Document|document]] is the main document that is shown to the user, most browsers show the value of this property to the user as the title of the window or page.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=WHATWG HTML
@@ -38,7 +40,8 @@ document.title {{=}} document.title.replace("r", "t");}}
 }}{{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/dom.html#document.title
-|Status=W3C Last Call Working Draft}}
+|Status=W3C Last Call Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
