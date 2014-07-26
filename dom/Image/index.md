@@ -1,17 +1,19 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=summary, examples, proper syntax, compatibility, page is misnamed, vars are not explained
+|Editorial notes=Proper syntax, compatibility, vars are not explained
 http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#dom-image
-
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|An image element within a web document, normally defined by an <img> tag.}}
-{{API_Object}}
+{{Summary_Section|Legacy. Use [[dom/Document/createElement|document.createElement("img")]] instead. Quickly constructs an [[html/elements/img|'''img'''] element.}}
+{{API_Object
+|Subclass_of=dom/HTMLImageElement, dom/HTMLElement, dom/Element, dom/Node
+|Overview=A shorter legacy constructor for creating and loading images.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -19,24 +21,37 @@ http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#dom-image
 |Description=The following script creates a new image and appends it to the '''body''' object..
 |Code=var img {{=}} new Image(50, 50);
 img.src {{=}} "image.png";
-document.body.appendChild( img );
+document.body.appendChild(img);
 }}
 }}
 {{Notes_Section
-|Notes=Use this object to instantiate new '''img''' elements before adding them to the document. You can specify up to two optional arguments:
+|Usage=Use this constructor as a shorter way to instantiate new [[html/elements/img|'''img''']] elements before adding them to the document.
+
+Syntax -
+
+<code>new Image([[width], height])</code>
+
+You can specify up to two optional arguments:
 {{{!}} class="wikitable"
 {{!}}-
-{{!}}nWidth
+{{!}}width
 {{!}}Optional. '''Integer''' that specifies the '''img''' width.
 {{!}}-
-{{!}}nHeight
+{{!}}height
 {{!}}Optional. '''Integer''' that specifies the '''img''' height.
 {{!}}}
- 
-String values are coerced into their numeric equivalents, if possible.
+|Notes=The loading process of the image starts as soon as its '''src''' property is set, even when not added to a document.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content.html#the-img-element
+|Status=Living Standard
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
+|Status=Last Call Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
