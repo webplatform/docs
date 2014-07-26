@@ -1,17 +1,21 @@
+{{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -22,10 +26,7 @@ If an SVG document is likely to be referenced as a component of another document
 In all cases, you must declare an SVG namespace  so that all SVG elements are identified as belonging to the SVG namespace. Typically, you can declare an SVG namespace as follows:
 
  &lt;svg xmlns="http://www.w3.org/2000/svg" ... &gt;
-
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
 
@@ -56,7 +57,7 @@ The '''SVGSVGElement''' object has these methods:
 *[[svg/methods/animationsPaused|'''animationsPaused''']]: Gets a value that indicates whether this SVG document fragment is in a paused state.
 *[[svg/methods/checkEnclosure|'''checkEnclosure''']]: Determines if the rendered content of the specified element is entirely contained within the specified rectangle.
 *[[svg/methods/checkIntersection|'''checkIntersection''']]: Determines if the rendered content of the specified element intersects the specified rectangle.
-*[[svg/methods/create|'''createEvent''']]: Creates an event object to be used in conjunction with the [[svg/methods/dispatchEvent|'''dispatchEvent''']]  method.
+*[[svg/methods/createEvent|'''createEvent''']]: Creates an event object to be used in conjunction with the [[svg/methods/dispatchEvent|'''dispatchEvent''']]  method.
 *[[svg/methods/createSVGAngle|'''createSVGAngle''']]: Creates a new [[svg/objects/SVGAngle|'''SVGAngle''']] object that does not have units, that is set to 0 degrees, and that is not attached to any document.
 *[[svg/methods/createSVGLength|'''createSVGLength''']]: Creates a new [[svg/objects/SVGLength|'''SVGLength''']] object that has a length of 0 user units.
 *[[svg/methods/createSVGMatrix|'''createSVGMatrix''']]: Creates a new [[svg/objects/SVGMatrix|'''SVGMatrix''']] object that is set to the identity matrix and that is not attached to any document.
@@ -95,42 +96,23 @@ The '''SVGSVGElement''' object has these properties:
 Gets  the default style sheet language of the current document.
 *[[svg/properties/currentScale|'''currentScale''']]: Gets or sets the current scale factor,  relative to the initial view (when this property is called from an outermost [[svg/objects/SVGElement|'''svg''']] element.
 *[[svg/properties/currentTranslate|'''currentTranslate''']]: Gets or sets  the current translation factor, relative to the initial view (when this property is called from an outermost [[svg/objects/SVGElement|'''svg''']] element).
-|-
-|[[svg/properties/currentView|'''currentView''']]
-|
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor '''svg''' element.
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
-*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-*[[svg/properties/pixelUnitToMillimeterX|'''pixelUnitToMillimeterX''']]: Gets or sets  the size of a pixel unit along the x-axis of the viewport.
-*[[svg/properties/pixelUnitToMillimeterY|'''pixelUnitToMillimeterY''']]: Gets or sets the size of a pixel unit along the y-axis of the viewport.
-*[[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']]: Gets  an XML value that indicates whether to force uniform graphic scaling.
-*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
-*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
-*[[svg/properties/screenPixelToMillimeterX|'''screenPixelToMillimeterX''']]: Gets or sets the size of a screen pixel along the x-axis of the viewport.
-*[[svg/properties/screenPixelToMillimeterY|'''screenPixelToMillimeterY''']]: Gets or sets the size of a screen pixel along the y-axis of the viewport.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
-*[[svg/properties/useCurrentView|'''useCurrentView''']]: Gets or sets a value that indicates whether the current innermost SVG document fragment is the ''standard view'' (that is, based on attributes of the [[svg/objects/SVGElement|'''svg''']] element such as [[svg/properties/viewBox|'''viewBox''']]) or  a ''custom view'' (that is, a hyperlink into a particular view or other element.
-*[[svg/properties/viewBox|'''viewBox''']]: Gets  a value that indicates how a graphic scales to fit a container element.
-*[[svg/properties/viewport|'''viewport''']]: Gets or sets the current viewport.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/zoomAndPan|'''zoomAndPan''']]: Gets the [[svg/properties/zoomAndPan|'''zoomAndPan''']] attribute of an element.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
