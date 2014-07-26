@@ -9,7 +9,7 @@ http://www.w3.org/html/wg/drafts/html/CR/embedded-content-0.html#dom-image
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Legacy. Use [[dom/Document/createElement|document.createElement("img")]] instead. Quickly constructs an [[html/elements/img|'''img'''] element.}}
+{{Summary_Section|Legacy. Use [[dom/Document/createElement|document.createElement("img")]] instead. Quickly constructs an [[html/elements/img|'''img''']] element.}}
 {{API_Object
 |Subclass_of=dom/HTMLImageElement, dom/HTMLElement, dom/Element, dom/Node
 |Overview=A shorter legacy constructor for creating and loading images.
