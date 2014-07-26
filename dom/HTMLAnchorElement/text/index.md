@@ -10,13 +10,13 @@
 {{API_Name}}
 {{Summary_Section|Legacy. Use [[dom/Node/textContent|anchorElement.textContent]] instead. Functions identically to Node.textContent.}}
 {{API_Object_Property
-|Property_applies_to=dom/HTMLScriptElement
+|Property_applies_to=dom/HTMLAnchorElement
 |Read_only=No
-|Example_object_name=scriptElement
-|Return_value_name=scriptCode
+|Example_object_name=anchorElement
+|Return_value_name=anchorText
 |Javascript_data_type=String
 |Return_value_description=A concatenation of all of the child [[dom/Text|text nodes]] of the element.
-|Example_value_name=newScriptCode
+|Example_value_name=newAnchorText
 }}
 {{Examples_Section
 |Not_required=No
