@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Appends a new character string to the end of the node's character data.}}
+{{Summary_Section|Appends a string to the end of the character data.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -66,11 +66,7 @@ phrase.appendData(" is better than a perfect plan tomorrow.");
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>comment</code>
-*<code>[[dom/TextNode|TextNode]]</code>
-}}
+{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
