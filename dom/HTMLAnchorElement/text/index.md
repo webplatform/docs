@@ -34,7 +34,15 @@ anchor.text {{=}} anchor.text.replace(/a/g, "t");}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=WHATWG HTML
+|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#dom-a-text
+|Status=Living Standard
+}}{{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#dom-a-text
+|Status=W3C Last Call Working Draft
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
