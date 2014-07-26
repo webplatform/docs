@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.}}
 {{API_Object_Property
-|Property_applies_to=dom/TextNode
+|Property_applies_to=dom/Text
 |Read_only=Yes
 |Example_object_name=textNode
 |Return_value_name=text
