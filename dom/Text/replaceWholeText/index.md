@@ -17,7 +17,7 @@ leave for me...
 |Description=The text that replaces the existing text.
 |Optional=No
 }}
-|Method_applies_to=dom/TextNode
+|Method_applies_to=dom/Text
 |Example_object_name=textNode
 |Return_value_name=textNode
 |Javascript_data_type=DOM Node
