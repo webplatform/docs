@@ -1,16 +1,19 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Needs some more content.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Retrieves a collection of HTML Elements and TextNode objects that are direct descendants of the specified object.}}
+{{Summary_Section|Gets a collection of direct Node descendants of the Node, including [[dom/Element|Element]], [[dom/Text|Text]] and any other type of nodes.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=element
+|Return_value_description=A live collection of the direct Node descendants of the Node.
 }}
 {{Examples_Section
 |Not_required=No
@@ -19,11 +22,11 @@
 |Code=&lt;script&gt;
 var aNodeList {{=}} oBody.childNodes;
 &lt;/script&gt;
-:
 &lt;body id{{=}}"oBody"&gt;
 &lt;span id{{=}}"oSpan"&gt;A Span&lt;/span&gt;
 &lt;/body&gt;
 }}{{Single Example
+|Language=JavaScript
 |Description=This example shows how to assign to a variable the '''childNodes''' collection of a node created with the [[dom/Document/createElement|'''createElement''']] method.
 |Code=var oParentNode {{=}} document.createElement("DIV");
 var oNode {{=}} document.createElement("B");
@@ -33,9 +36,8 @@ var aNodeList {{=}} oParentNode.childNodes;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-The '''childNodes''' collection can contain [[dom/HTMLElement|'''HTML Element''']] and [[dom/TextNode|'''TextNode''']] objects.
-If you check the '''childNodes''' collection of an element created through standard HTML, you  encounter [[dom/TextNode|'''TextNode''']] objects in unexpected places—in place of line breaks, for example. Alternately, if you create an element using the Document Object Model (DOM), Windows Internet Explorer doesn't create extraneous '''TextNode''' objects.
+|Notes=The '''childNodes''' collection can contain [[dom/Element|'''Element''']] and [[dom/Text|'''Text''']] nodes.
+If you check the '''childNodes''' collection of an element created through standard HTML, you  encounter [[dom/Text|'''Text''']] nodes in unexpected places—in place of line breaks, for example. Alternately, if you create an element using the Document Object Model (DOM), no unintended [[dom/Text|'''Text''']] nodes are created.
 }}
 {{Related_Specifications_Section
 |Specifications=
