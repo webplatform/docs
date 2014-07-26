@@ -36,8 +36,12 @@ title.text {{=}} title.text.replace("r", "t");
 }}
 }}
 {{Notes_Section
-|Usage=Use this property to get or set the title of the document.
-|Notes=When the document is the main document that is shown to the user, most of the browsers show the value of this property to the user as the title of the window or page.}}
+|Usage=Legacy. Use [[dom/Document/title|document.title]] instead.
+
+Use this property to get a concatenated version of all of the child text nodes of a [[html/elements/title|title]] element.
+Setting this property works the same way as setting the [[dom/Node/textContent|textContent]] property.
+|Notes=* [[dom/Text|Text nodes]] that are nested within elements or HTML comments are excluded.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Document Object Model (DOM) Level 1
