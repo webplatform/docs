@@ -20,8 +20,10 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Logging the source URL of the first image in the document using the legacy property.
-|Code=// Caching the collection, instead of looking up the images property every time.
-// Alternatively and more efficiently, use document.querySelectorAll("img") here instead.
+|Code=// Caching the collection,
+// instead of looking up the images property every time.
+// Alternatively and more efficiently,
+// use document.querySelectorAll("img") here instead.
 var imageList = document.images;
 // Verifying the collection is not empty.
 if (imageList.length) {
