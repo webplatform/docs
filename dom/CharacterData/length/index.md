@@ -25,7 +25,7 @@ var phrase = document.createTextNode ("A flawed plan today is better than a perf
 alert(phrase.length);
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the '''length''' property to specify where a [[dom/TextNode|'''TextNode''']] is split by using the [[dom/TextNode/splitText|'''splitText''']] method.
+|Description=This example uses the '''length''' property to specify where a [[dom/Text|'''Text''']] node is split by using the [[dom/Text/splitText|'''splitText''']] method.
 |Code=&lt;script&gt;
 function fnChangeValue(){
    var oListItem {{=}} document.createElement("LI");
