@@ -29,11 +29,8 @@ leave for me...
 }}
 {{Notes_Section
 |Notes=Obsolete
+
 This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
-|Import_Notes====Syntax===
-var retval = TextNode.replaceWholeText(bstrText);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.2
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
