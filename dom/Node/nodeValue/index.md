@@ -27,7 +27,7 @@
 &lt;head&gt;
 &lt;title&gt;Title&lt;/title&gt;
 &lt;script&gt;
-function changeValue(list, itemIndex, newValue){
+function changeValue(list, itemIndex, newValue) {
    // only perform the operation on lists
    if (list.nodeName !{{=}}{{=}} "UL" &amp;&amp; list.nodeName !{{=}} "OL")
       return false;
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", initialize, false);
 }}
 {{Notes_Section
 |Usage=Use this property to get or set the value of a Node. The concept of nodeValue changes between the various Node types ([[dom/Element|Element]], [[dom/Text|Text]] and the rest).
-|Notes=* The value of this property for [[dom/Text|Text] nodes is their [[dom/Node/textContent|Text.textContent]].
+|Notes=* The value of this property for [[dom/Text|Text]] nodes is their [[dom/Node/textContent|Text.textContent]].
 * This property is deprecated for [[dom/Attr|Attr]] nodes. Use [[dom/Attr/value|Attr.value]] instead. The value of this property for Attr nodes is their Attr.value.
 * The value of this property for [[dom/Element|Element]] nodes is always <code>null</code>. Use [[dom/Node/nodeName|Node.nodeName]] to get their name or [[dom/Node/textContent]] to get all of the text included in their tree.
 }}
