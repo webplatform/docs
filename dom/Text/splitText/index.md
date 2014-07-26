@@ -15,7 +15,7 @@
 |Description=The index of the string that indicates where the separation occurs. If a value is not provided, a new text node with no value is created.
 |Optional=No
 }}
-|Method_applies_to=dom/TextNode
+|Method_applies_to=dom/Text
 |Example_object_name=textNode
 |Return_value_name=textNode
 |Javascript_data_type=DOM Node
