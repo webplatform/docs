@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=compatibility, standards, more info
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Loads a new document from a given URL.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=url
 |Data type=String
 |Description=The URL of the document to load.
