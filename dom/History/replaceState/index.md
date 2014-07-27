@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=General clean-up
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Overwrites the current history record with a new record.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=statedata
 |Data type=any
 |Description=The data to update.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=title
 |Data type=String
 |Description=The data title to update.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=url
 |Data type=String
 |Description=The data URL to update.
