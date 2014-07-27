@@ -1,17 +1,28 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Summary/overview, compatibility possible examples
 |Checked_Out=No
-|Editorial notes=New listing page with proper object capitalization; replaces '''location'''.
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
@@ -19,4 +30,8 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Concept_Listing
+|Use_page_title=No
+|List_all_subpages=No
 }}
