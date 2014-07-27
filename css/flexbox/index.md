@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The flexbox, or Flexible Box, is a means of laying out content allowing for greater flexibility than the models that came before.  It can much more easily accommodate different screen sizes and can be used to easily reorder content regardless of the ordering in html.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
