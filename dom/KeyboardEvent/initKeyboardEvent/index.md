@@ -1,44 +1,53 @@
 {{Page_Title}}
 {{Flags
+|State=Out of Date
+|Editorial notes=Technical review, compatibility, examples
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Initializes a new keyboard event that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=eventType
 |Data type=String
 |Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=canBubble
 |Data type=Boolean
 |Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=cancelable
 |Data type=Boolean
 |Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=view
 |Data type=Object
 |Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=key
 |Data type=Number
 |Description=The '''key identifier'''. Sets the value for the [[dom/KeyboardEvent/key|'''key''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=location
 |Data type=Number
 |Description=The location of the key on the device. Sets the value for the [[dom/KeyboardEvent/location|'''location''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=6
 |Name=modifiersList
 |Data type=String
 |Description=A space-separated list of any of the following values:
@@ -60,11 +69,13 @@ For example -
 *'''Scroll''' - The Scroll Lock toggle.
 |Optional=No
 }}{{Method Parameter
+|Index=7
 |Name=repeat
 |Data type=Number
 |Description=The number of times this key has been pressed. Sets the value for the [[dom/KeyboardEvent/repeat|'''repeat''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=8
 |Name=locale
 |Data type=String
 |Description=The locale name. Sets the value for the [[dom/CompositionEvent/locale|'''locale''']] property.
