@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=general clean-up/more description
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -8,11 +11,13 @@
 {{Summary_Section|Returns whether a specific DOM standard is implemented.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=feature
 |Data type=String
 |Description=The name of the standard. Case insensitive.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=version
 |Data type=String
 |Description=The version number of the standard.
