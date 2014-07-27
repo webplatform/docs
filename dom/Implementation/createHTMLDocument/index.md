@@ -11,6 +11,7 @@
 {{Summary_Section|Creates an HTML document.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=title
 |Data type=String
 |Description=The value of the '''title''' element in the HTML  document.
