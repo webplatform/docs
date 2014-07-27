@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=example, compatibility
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a [[dom/Document|Document]] that is not attached to a window.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=namespace
 |Data type=String
 |Description=The namespace URI of the resulting document or a null value.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=rootElementName
 |Data type=String
 |Description=The qualified name (for example, namespace:localname) of the root element for the document or a null value.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=doctype
 |Data type=DOM Node
 |Description=The desired [[html/elements/!DOCTYPE|document type]] for the document or a null value.
