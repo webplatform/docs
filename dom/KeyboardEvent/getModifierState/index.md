@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=example/more description, compatibility
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Queries the state of the specified modifier key.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=modifierKeyName
 |Data type=String
 |Description=One of the following values -
