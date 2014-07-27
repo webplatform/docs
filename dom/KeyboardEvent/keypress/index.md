@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|Editorial notes=General cleanup, compatibility
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
