@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Summary/overview, compatibility, possible examples
 |Checked_Out=No
-|Editorial notes=New listing page with proper object capitalization; replaces '''implementation'''.
 }}
 {{Standardization_Status}}
 {{API_Name}}
