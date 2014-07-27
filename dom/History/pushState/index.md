@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Summary, examples, compatibility, clean-up of MSDN import
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=statedata
 |Data type=any
 |Description=The data to push onto the session history.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=title
 |Data type=any
 |Description=The desired title for the data.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=url
 |Data type=any
 |Description=An optional URL to associate with the data.
@@ -33,7 +38,6 @@
 This method can return one of these values.
 
 S_OK
-
 }}
 {{Examples_Section
 |Not_required=No
