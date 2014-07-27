@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Summary/overview, compatibility, possible examples
+|Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Examples Needed, Needs Summary
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
