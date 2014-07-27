@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=overview, compatibility
+|Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete, Needs Summary
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
