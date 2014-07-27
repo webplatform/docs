@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=examples, clean-up
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -8,6 +11,7 @@
 {{Summary_Section|Navigates to a relatively positioned history record.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=relativePosition
 |Data type=Number
 |Description=The relative position of a URL in the history list. Out of bounds position (-1 when the current document is the first history record) does nothing.
