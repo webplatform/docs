@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=examples, compatibility, more description
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a Document Type node.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=qualifiedName
 |Data type=String
 |Description=The name of the [[html/elements/!DOCTYPE|document type]].  When you use XML namespaces, this name can be a qualified name (for example, namespace:localname).
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=publicID
 |Data type=String
 |Description=The public identifier of the [[html/elements/!DOCTYPE|document type]] or null.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=systemId
 |Data type=String
 |Description=The system identifier of the [[html/elements/!DOCTYPE|document type]] or null.
