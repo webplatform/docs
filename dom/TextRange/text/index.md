@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Not sure if a standard applies here.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|Mixed}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets or retrieves the text contained within the range. }}
 {{API_Object_Property
 |Property_applies_to=dom/TextRange
 |Read_only=No
@@ -41,11 +42,11 @@ if(window.getSelection){
 		}
 }
 }
-
-
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Used to extract only the text content from a range.
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -60,7 +61,8 @@ if(window.getSelection){
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=MSDN
 |MDN_link=
-|MSDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534676(v=vs.85).aspx text Property]
 |HTML5Rocks_link=
 }}
