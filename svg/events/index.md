@@ -1,6 +1,6 @@
 {{Page_Title|SVG events}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=Add some content, with link to the main DOM events page.
 |Checked_Out=No
 }}
