@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=examples, compatibility, standards
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Reloads the current document.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=ignoreCache
 |Data type=Boolean
 |Description=Whether to ignore the cache and reload the page from scratch.
