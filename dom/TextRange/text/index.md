@@ -35,7 +35,7 @@ if(!rng){alert(rng.text);
 	if(sel){
 		var rng{{=}}sel.createRange();
 		if(rng!{{=}}null){
-			rng.pasteHTML('<u>'+rng.text+'</u>');
+			rng.pasteHTML('&lt;u&gt;'+rng.text+'&lt;/u&gt');
 			showTextRangeProp(rng);
 		}
 		}
