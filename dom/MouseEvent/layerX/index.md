@@ -1,15 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=In Progress
+|Editorial notes=compatibility, clean-up of MSDN content to provide neutral context for non-standard property
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
-
-}}
+{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
 {{API_Object_Property
 |Property_applies_to=dom/MouseEvent
 |Read_only=No
