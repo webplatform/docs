@@ -2,7 +2,7 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Unreviewed import
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|Executes a statement or series of statements until a specified condition is false.}}
 {{JS_Syntax
