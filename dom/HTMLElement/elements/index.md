@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=summary, examples, compatibility, standards, clean-up of MSDN sections
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -19,7 +21,6 @@
 |Notes====Remarks===
 This collection can contain any combination of the '''button''', '''input''', '''select''', and '''textArea''' objects. For compatibility with existing Web content, however, '''input type{{=}}image''' objects are excluded.
 A complete list of form controls is provided in the Introduction to Forms.
-
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
