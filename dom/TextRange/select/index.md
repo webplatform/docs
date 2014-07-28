@@ -1,28 +1,49 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Not sure if this http://www.w3.org/TR/DOM-Level-2-HTML/html is a standard or not.... the MSDN doco has not w3 ref.... see Elliot/MSFT.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=range
+|Return_value_name=result
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=When applied to a TextRange object, the select method causes the current object to be highlighted. The following function uses the findText method to set the current object to the text in the TextRange object. The function assumes an element that contains the text string "text here". 
+|Code=function TextRangeSelect() {
+	var r {{=}} document.body.createTextRange();
+	r.findText("text here");
+	r.select();
+}
+
+}}{{Single Example
+|Language=JavaScript
+|Description=When applied to a controlRange collection, the select method produces a shaded rectangle around the elements in the controlRange. The following function uses the add method to set the current object to an element in the controlRange collection. The function assumes an element with an id of "aaa". 
+|Code=function ControlRangeSelect() {
+	var r {{=}} document.body.createControlRange();
+	r.add(document.all.aaa);
+	r.select();
+}
+
+
+}}
 }}
 {{Notes_Section
+|Usage=Used to programmatically select/highlight text and/or controls in a web document.
 |Notes====Remarks===
 This method causes the current object to be highlighted.
 When applied to a [[dom/TextRange|'''TextRange''']] object, the select method causes the current object to be highlighted. The following function uses the '''findText''' method to set the current object to the text in the '''TextRange''' object. The function assumes an element that contains the text string "text here".
@@ -62,6 +83,6 @@ This feature might not be available on non-Microsoft Win32 platforms.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536735(v=vs.85).aspx select Method]
 |HTML5Rocks_link=
 }}
