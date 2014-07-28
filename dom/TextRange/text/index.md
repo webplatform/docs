@@ -20,36 +20,32 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example feature tests for document.selection, and if a selection has been made in the document, displays the text content of the selection in an alert box.
-|Code=if(document.selection){
-var sel{{=}}document.selection;
-var rng{{=}}sel.createRange();
-if(!rng){alert(rng.text);
-
-}
-}}{{Single Example
-|Language=JavaScript
-|Description=The following example uses the text property of a textRange to insert a bounding &lt;u&gt; tag around the selected text.
-|Code=if(document.selection){
+|Description=The following example feature tests for getSelection support and extracts the text contained within the bounds of the range(s) object(s).
+|Code=function showText(){
+if(window.getSelection){
+	var buf{{=}}'';
+	var sel{{=}}document.getSelection();
+	for(var I{{=}}0;i<sel.rangeCount;i++)
+	{
+		var range{{=}}sel.getRangeAt(i);
+		buf+{{=}}range.extractContents().textContent;
+	}
+	alert(buf);
+}else{
 	var sel{{=}}document.selection;
 	if(sel){
 		var rng{{=}}sel.createRange();
 		if(rng!{{=}}null){
-			rng.pasteHTML('&lt;u&gt;'+rng.text+'&lt;/u&gt');
-			showTextRangeProp(rng);
+			alert(rng.text);
 		}
 		}
 }
+}
+
+
 }}
 }}
-{{Notes_Section
-|Notes====Remarks===
-The text formats within the current context of the document. You cannot set this property while the document is loading. Wait for the [[dom/Element/load|'''onload''']] event before attempting to set this property.
-This feature might not be available on non-Microsoft Win32 platforms.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -61,11 +57,10 @@ This feature might not be available on non-Microsoft Win32 platforms.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|DOM}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534676(v=vs.85).aspx text Property]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
