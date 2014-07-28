@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Unreviewed
+|State=Almost Ready
+|Editorial notes=compatibility, possible examples/more detailed overview
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
