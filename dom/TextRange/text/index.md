@@ -1,19 +1,46 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=dom/TextRange
 |Read_only=No
+|Example_object_name=textRange
+|Return_value_name=result
+|Javascript_data_type=String
+|Return_value_description=the contained text.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example feature tests for document.selection, and if a selection has been made in the document, displays the text content of the selection in an alert box.
+|Code=if(document.selection){
+var sel{{=}}document.selection;
+var rng{{=}}sel.createRange();
+if(!rng){alert(rng.text);
+
+}
+}}{{Single Example
+|Language=JavaScript
+|Description=The following example uses the text property of a textRange to insert a bounding &lt;u&gt; tag around the selected text.
+|Code=if(document.selection){
+	var sel{{=}}document.selection;
+	if(sel){
+		var rng{{=}}sel.createRange();
+		if(rng!{{=}}null){
+			rng.pasteHTML('<u>'+rng.text+'</u>');
+			showTextRangeProp(rng);
+		}
+		}
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -39,6 +66,6 @@ This feature might not be available on non-Microsoft Win32 platforms.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534676(v=vs.85).aspx text Property]
 |HTML5Rocks_link=
 }}
