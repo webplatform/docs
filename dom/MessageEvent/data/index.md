@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=example, standards, compatibility
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
-{{API_Name|data}}
+{{API_Name}}
 {{Summary_Section|Gets the content of the message.}}
 {{API_Object_Property
 |Property_applies_to=dom/MessageEvent
