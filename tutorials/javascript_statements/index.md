@@ -7,9 +7,9 @@
 {{Byline}}
 {{Summary_Section|JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.}}
 {{Tutorial
-|Content=<p>Any expression is also a statement. See [[guides/JavaScript/Expressions|Expressions and Operators]] for complete information about statements.</p>
+|Content=<p>Any expression is also a statement. See [[concepts/programming/javascript/expressions|Expressions and Operators]] for complete information about statements.</p>
 <p>Use the semicolon (<code>;</code>) character to separate statements in JavaScript code.</p>
-<p>See the [[js/statements|JavaScript Reference]] for details about the statements in this chapter.</p>
+<p>See the [[javascript/statements|JavaScript Reference]] for details about the statements in this chapter.</p>
 <h2 id="Block_Statement">Block Statement</h2>
 <p>A block statement is used to group statements. The block is delimited by a pair of curly brackets:</p>
   <pre >
