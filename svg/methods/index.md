@@ -1,6 +1,6 @@
 {{Page_Title|SVG DOM methods}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.
 |Checked_Out=No
 }}
