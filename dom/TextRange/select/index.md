@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Makes the selection equal to the current object. }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/TextRange
@@ -23,23 +23,20 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=When applied to a TextRange object, the select method causes the current object to be highlighted. The following function uses the findText method to set the current object to the text in the TextRange object. The function assumes an element that contains the text string "text here". 
+|Description=When applied to a TextRange object, the select method causes the current object to be highlighted. The following function uses the findText method to set the current object to the text in the TextRange object. The function assumes an element that contains the text string "text here".
 |Code=function TextRangeSelect() {
 	var r {{=}} document.body.createTextRange();
 	r.findText("text here");
 	r.select();
 }
-
 }}{{Single Example
 |Language=JavaScript
-|Description=When applied to a controlRange collection, the select method produces a shaded rectangle around the elements in the controlRange. The following function uses the add method to set the current object to an element in the controlRange collection. The function assumes an element with an id of "aaa". 
+|Description=When applied to a controlRange collection, the select method produces a shaded rectangle around the elements in the controlRange. The following function uses the add method to set the current object to an element in the controlRange collection. The function assumes an element with an id of "aaa".
 |Code=function ControlRangeSelect() {
 	var r {{=}} document.body.createControlRange();
 	r.add(document.all.aaa);
 	r.select();
 }
-
-
 }}
 }}
 {{Notes_Section
