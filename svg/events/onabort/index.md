@@ -1,28 +1,27 @@
-{{Page Title}}
-{{Flags|State=Not Ready
+{{Page_Title}}
+{{Flags
+|State=In Progress
+|Editorial notes=Needs summary spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Event
-|Interface=dom/objects/Event
-|Target=dom/Element
-|Default_action=
-|Content=
 |Event_applies_to=dom/Element
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Interface=dom/objects/Event
 }}
-{{Topics|Events}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example shows how to  handle  the '''onabort''' event.
-|LiveURL=
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -45,20 +44,17 @@
   </script>
 </svg>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 The '''onabort''' event occurs when page loading is stopped before an element  is  loaded  completely.
 The target of the event is the [[svg/elements/svg|'''svg''']] element.
 The designated element stops loading.
 To invoke this event, do one of the following:
 *The user presses the browser's stop button before the element  is  loaded  completely.
-|Import_Notes=
-
-===Syntax===
+|Import_Notes====Syntax===
 
 ===Standards information===
 
@@ -67,20 +63,28 @@ To invoke this event, do one of the following:
 ===Event handler parameters===
 
 ;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 
 *[[svg/elements/svg|'''SVGSVGElement''']]
 *[[dom/events/abort|'''onabort''']]
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
