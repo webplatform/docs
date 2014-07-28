@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=summary, examples best practices, compatibility, standards, clean-up of MSDN sections
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=any
 |Description= Specifies the client window coordinate of x.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=any
 |Description= Specifies the client window coordinate of y.
