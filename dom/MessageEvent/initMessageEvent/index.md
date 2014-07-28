@@ -1,44 +1,53 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=example, standards, compatibility
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Initializes a new cross-document message (XDM) event  that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=eventType
 |Data type=String
 |Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=canBubble
 |Data type=Boolean
 |Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=cancelable
 |Data type=Boolean
 |Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=data
 |Data type=any
 |Description=The cross-document message. Sets the value for the [[dom/MessageEvent/data|'''data''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=origin
 |Data type=String
 |Description=The originating domain of the message. Sets the value for the [[dom/MessageEvent/origin|'''origin''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=lastEventId
 |Data type=String
 |Description=Not used. Set this parameter to an empty string.
 |Optional=No
 }}{{Method Parameter
+|Index=6
 |Name=source
 |Data type=Object
 |Description=A reference to the '''window''' that generated the event. Sets the value for the [[dom/MessageEvent/source|'''source''']] property.
