@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=examples, compatibility
+|Checked_Out=No
 |High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
 }}
