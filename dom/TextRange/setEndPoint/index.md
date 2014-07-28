@@ -1,17 +1,35 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the endpoint of one range based on the endpoint of another range.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=how
 |Data type=BSTR
 |Description='''String''' that specifies the endpoint to transfer using one of the following values.
+
+StartToEnd
+
+Move the start of the TextRange object to the end of the specified SourceRange parameter.
+
+StartToStart
+
+Move the start of the TextRange object to the start of the specified SourceRange parameter.
+
+EndToStart
+
+Move the end of the TextRange object to the start of the specified SourceRange parameter.
+
+EndToEnd
+
+Move the end of the TextRange object to the end of the specified SourceRange parameter.
+
 |Optional=No
 }}{{Method Parameter
 |Name=SourceRange
@@ -20,25 +38,22 @@
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
+|Example_object_name=textRange
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following example shows how to use the '''setEndPoint''' method to set the start point of the current range (<code>r1</code>) to the endpoint of the second range (<code>r2</code>).
-|Code=&lt;SCRIPT LANGUAGE{{=}}"JScript"&gt;
+|Code=&lt;script type{{=}}"text/javascript"&gt;
 r1.setEndPoint("StartToEnd", r2);
-&lt;/SCRIPT&gt;
+&lt;/script&gt;
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
+|Notes====Syntax===
+var retval = TextRange.setEndPoint(how, SourceRange);
+===Remarks===
 A text range has two endpoints: one at the beginning of the text range and one at the end. An endpoint can also be the position between two characters in an HTML document.
 There are four possible endpoint locations in the following HTML.
  <code>&lt;BODY&gt;&lt;P&gt;&lt;B&gt;abc</code>
@@ -68,6 +83,6 @@ In Internet Explorer 4.0, an endpoint cannot be established between '''body''' 
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536745(v=vs.85).aspx setEndPoint Method]
 |HTML5Rocks_link=
 }}
