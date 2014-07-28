@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=compatibility, clean-up of MSDN sections to fit WPD headers
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=The click event refers to the type of event that is triggered for an element when it is clicked.
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|A mouse click event.}}
+{{Summary_Section|The click event is triggered for an element when it is activated by a mouse click or by another user action that normally has the same effect as a mouse click.}}
 {{Event
 |Event_applies_to=dom/MouseEvent
 |Synchronous=No
