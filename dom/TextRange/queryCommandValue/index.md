@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the current value of the document, range, or current selection for the given command.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=cmdID
@@ -15,7 +16,7 @@
 |Optional=No
 }}
 |Method_applies_to=dom/TextRange
-|Example_object_name=object
+|Example_object_name=document
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=Variant
@@ -24,9 +25,35 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example when using legacy document.selection will display an alert message of 'false' if the current selection is not 'bold', or true if it is already 'bold'
+|Code=function makeBold(el){
+if(window.getSelection){
+	var sel{{=}}document.getSelection();
+	var range{{=}} sel.getRangeAt(0),
+  	content {{=}} range.extractContents(),
+    span {{=}} document.createElement('b');
+	span.appendChild(content);
+	var htmlContent {{=}} span.innerHTML;
+	range.insertNode(span);
+}else{
+	var sel{{=}}document.selection;
+	if(sel){
+		var rng{{=}}sel.createRange();
+		alert(rng.queryCommandValue('bold'));
+// true if the rng is 'bold' already, false otherwise.
+		if(rng.queryCommandSupported('bold')){
+			if(rng.queryCommandEnabled('bold')){rng.execCommand('bold',false,null);}
+		}
+	}	
+}
+}
+
+}}
 }}
 {{Notes_Section
+|Usage=Used for changing the HTML markup of web pages.
 |Notes====Remarks===
 This method is a wrapper function for the command constants. You can obtain an '''IHTMLDocument2''' interface using IID_IHTMLDocument2 for the IID.
 This method is a wrapper function for the command constants. You can obtain an '''IHTMLControlRange''' interface using IID_IHTMLControlRange for the IID.
@@ -48,6 +75,6 @@ This method is a wrapper function for the command constants. You can obtain an '
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536683(v=vs.85).aspx queryCommandValue Method]
 |HTML5Rocks_link=
 }}
