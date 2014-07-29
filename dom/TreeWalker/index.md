@@ -2,6 +2,7 @@
 {{Flags
 |State=In Progress
 |Editorial notes=waiting for property and method descriptions to fill description fields... Not sure if all properties and methods have been listed.
+Missing document.createTreeWalker method.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -11,11 +12,8 @@
 {{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var tw{{=}}document.createTreeWalker();
-}}
+|Not_required=Yes
+|Examples=
 }}
 {{Notes_Section
 |Usage=Used in the browser 'Developer Tool' to provide a visual representation of the DOM Tree.
