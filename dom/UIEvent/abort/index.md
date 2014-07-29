@@ -1,25 +1,50 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Fires when the user aborts the download.}}
 {{Event
 |Event_applies_to=dom/UIEvent
 |Synchronous=No
 |Bubbles=No
 |Target=dom/Element
-|Cancelable=No
+|Cancelable=Yes
+|Default_action=Halts downloading of the designated image, but not due to an error
 |Interface=dom/UIEvent
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=&lt;img id{{=}}"imgLogo" alt{{=}}"Click to view larger image" src{{=}}"example.com/small.jpg"/&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+var myAddEvent=function(el, ev, fn){
+	if(el.addEventListener){
+		el.addEventListener(ev, fn, false);
+	}else if(el.attachEvent){
+		el.attachEvent('on'+ev,fn);
+	}else{
+		el['on'+ ev] = fn;
+	}
+};
+var el{{=}}document.getElementById('imgLogo');
+function imgAbortHandler(evt){
+// code to recover from the abort method.
+}
+function imgResize(evt){
+document.getElementById('imgLogo').src{{=}}'http://example.com/big.jpj';
+}
+myAddEvent(el,'click',imgResize);
+myAddEvent(el,'abort',imgAbortHandler);
+}}
 }}
 {{Notes_Section
+|Usage=Used to prevent the userAgent from freezing if the user aborts an image resource download.
 |Notes====Remarks===
 Halts downloading of the designated image, but not due to an error.
 To invoke this event, do one of the following:
@@ -77,8 +102,8 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/Events/abort abort]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536785(v=vs.85).aspx abort Event]
 |HTML5Rocks_link=
 }}
