@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns whether the input field has raised a custom error.}}
+{{Summary_Section|The element's custom validity message has been set to a non-empty string by calling the element's setCustomValidity() method.}}
 {{API_Object_Property
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
@@ -16,9 +18,29 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var elem {{=}} document.getElementById('email_addr_confirm');
+elem.addEventListener('blur', verifyEmail);
+
+function verifyEmail(evt) {
+  var emlcfm{{=}} evt.srcElement;
+  var eml{{=}}document.getElementById('email_addr');
+  if (emlcfm.value !{{=}} eml.value) {
+    // the provided value doesn’t match the primary email address
+    emlcfm.setCustomValidity('The two email addresses must match.');
+// the custom error property is true;
+  } else {
+    // input is valid -- reset the error message
+    emlcfm.setCustomValidity('');
+// the custom error property is false;
+  }
+}
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=HTML5 Web form validation
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5
@@ -43,8 +65,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, HTML5Rocks
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh773352(v=vs.85).aspx customError Property]
+|HTML5Rocks_link=[http://www.html5rocks.com/en/tutorials/forms/html5forms/ Making forms fabulous]
 }}
