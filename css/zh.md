@@ -2,11 +2,11 @@
 
 == 摘要 ==
 
-层叠样式表（[[Cascading style sheets|CSS]]）是网页式样的表达语言。由[http://www.w3.org 万维网联盟]确定[http://www.w3.org/standards/techs/css CSS的标准] 。
+层叠样式表（[[Cascading style sheets|CSS]]）是网页式样的表达语言。由[http://www.w3.org W3C万维网联盟]确定[http://www.w3.org/standards/techs/css CSS的标准] 。
 
 {{Languages}}
 
-== 探索我们的 CSS 文档 ==
+== 概览  ==
 
 <div class="topic-container">
 
@@ -15,9 +15,9 @@
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/tutorials|CSS 学习材料]]</h3>
+    <h3>[[css/tutorials|CSS 教程]]</h3>
     
-    <p>众多教程和概念的文章，从零开始教你学习 CSS。</p>
+    <p>众多教程和概念的文章，从零开始教你 CSS。</p>
     </div>
   
   </div>
@@ -29,7 +29,7 @@
     <div class="inner">
     <h3>[[css/selectors|CSS 选择器]]</h3>
     
-    <p>CSS 所有选择器的参考指南</p>
+    <p>CSS 选择器的参考指南</p>
     </div>
   
   </div>
@@ -41,7 +41,7 @@
     <div class="inner">
     <h3>[[css/properties|CSS 属性]]</h3>
     
-    <p>CSS 所有属性的参考指南</p>
+    <p>CSS 属性的参考指南</p>
     </div>
   
   </div>
@@ -54,7 +54,7 @@
     <div class="inner">
     <h3>[[css/functions|CSS 函数]]</h3>
     
-    <p>CSS 所有函数的参考指南</p>
+    <p>CSS 函数的参考指南</p>
     </div>
   
   </div>
@@ -67,7 +67,7 @@
     <div class="inner">
     <h3>[[css/atrules|规范守则]]</h3>
     
-    <p>CSS 所有规范守则的参考指南</p>
+    <p>CSS 规范守则的参考指南</p>
     </div>
   
   </div>
@@ -80,7 +80,7 @@
     <div class="inner">
     <h3>[[css/mediaqueries|媒体查询]]</h3>
     
-    <p>CSS 所有类型可用媒体的参考指南</p>
+    <p>CSS 可用媒体的参考指南</p>
     </div>
   
   </div>
@@ -89,12 +89,12 @@
 <div class="clearfixboth"></div>
 
 
-注：如果你刚刚接触 Web 开发，你可能需要先查阅 [[beginners|Web 入门]] 。
+注：如果你刚刚接触 Web 开发，建议先阅读 [[beginners|Web 入门]] 。
 
 
 == 背景 ==
 
-层叠样式表（[[Cascading Style Sheets|CSS]]）是一种语言，用于定义（造型，布局，动画）和标记内容（如HTML、XHTML、SVG 或 XML）。它是[http://www.w3.org/wiki/Open_Web_Platform 开源 Web Platform 文库]的主要组成部分之一。
+层叠样式表（[[Cascading Style Sheets|CSS]]）用于定义（造型，布局，动画）和标记内容（如HTML、XHTML、SVG 或 XML）的语言。它是[http://www.w3.org/wiki/Open_Web_Platform 开放化 Web 平台]的组成部分之一。
 
 
 CSS 允许你通过一系列选择器（[[css/selectors|selectors]]）和属性（[[css/properties|properties]]）来为内容设定样式。
@@ -105,7 +105,7 @@ CSS 允许你通过一系列选择器（[[css/selectors|selectors]]）和属性�
 
 == 助力 CSS 技术 ==
 
-CSS 的开放工作由 CSS 工作组主持。欲知如何参与等详情，请前往[http://www.w3.org/Style/CSS/ CSS 工作组主页]。若有参与规范制定的相关反馈和疑问，[http://lists.w3.org/Archives/Public/www-style/ www-style 邮件列表]是个好去处。切记不要在里面问诸如“我怎么用 CSS 给网页指定样式”这类问题。
+CSS 的开放工作由 CSS 工作组主持。欲知详情，请前往[http://www.w3.org/Style/CSS/ CSS 工作组主页]。若对参与规范制定有反馈和疑问，[http://lists.w3.org/Archives/Public/www-style/ www-style 邮件列表]是个好去处。切记，不要在这里咨询诸如“我怎么用 CSS 给网页指定样式”这类问题。
 
 == 助力 CSS 参考页面 ==
 
