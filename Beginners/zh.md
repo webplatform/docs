@@ -1,4 +1,4 @@
-{{Page_Title|初学者网页开发指南}}
+{{Page_Title|入门指南}}
 {{Flags
 |State=Unreviewed
 |Checked_Out=No
