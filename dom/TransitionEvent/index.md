@@ -3,6 +3,8 @@
 |State=Almost Ready
 |Editorial notes=Missing Events
 transitionstart, transitionend
+duplicate propertyName entry in Properties
+missing animationName property.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
