@@ -21,7 +21,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=&lt;img id{{=}}"imgLogo" alt{{=}}"Click to view larger image" src{{=}}"example.com/small.jpg"/&gt;
+|Code=&lt;img id{{=}}"imgLogo" title{{=}}"Click to view larger image" src{{=}}"example.com/small.jpg" alt{{=}}"small logo"/&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 var myAddEvent=function(el, ev, fn){
 	if(el.addEventListener){
@@ -38,13 +38,14 @@ function imgAbortHandler(evt){
 }
 function imgResize(evt){
 document.getElementById('imgLogo').src{{=}}'http://example.com/big.jpj';
+document.getElementById('imgLogo').title{{=}}'big logo';
 }
 myAddEvent(el,'click',imgResize);
 myAddEvent(el,'abort',imgAbortHandler);
 }}
 }}
 {{Notes_Section
-|Usage=Used to prevent the userAgent from freezing if the user aborts an image resource download.
+|Usage=Used to recover the original resource if the user cancels the download.
 |Notes====Remarks===
 Halts downloading of the designated image, but not due to an error.
 To invoke this event, do one of the following:
