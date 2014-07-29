@@ -11,7 +11,7 @@
 {{API_Object_Property
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
-|Example_object_name=validityState
+|Example_object_name=element.validity
 |Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the element has raised a custom error.
