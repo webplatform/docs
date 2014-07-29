@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Fix multiple broken links
 |Checked_Out=No
+|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
