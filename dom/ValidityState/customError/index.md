@@ -36,6 +36,8 @@ function verifyEmail(evt) {
 // the emlcfm.validity.customError is false;
   }
 }
+
+var foo='';
 }}
 }}
 {{Notes_Section
