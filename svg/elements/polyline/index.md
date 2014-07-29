@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Best Practices
+|State=In Progress
+|Editorial notes=Fix multiple broken links
 |Checked_Out=No
+|Content=Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The poyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.}}
+{{Summary_Section|The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.}}
 {{Markup_Element
 |DOM_interface=dom/SVGPolylineElement
 }}
