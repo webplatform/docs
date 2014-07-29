@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=Needs example... link to MSDN hands on wizard added, but a use example needed.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -17,12 +17,14 @@
 |Javascript_data_type=Number
 |Return_value_description=Type: Floating-point 
 
-The amount of time the transition has been running, in seconds, when this event fired. 
-
+The amount of time the transition has been running, in seconds, when this event fired.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=MSDN hands-on CSS3 Animations wizard.
+|LiveURL=http://ie.microsoft.com/testdrive/Graphics/hands-on-css3/hands-on_animations.htm
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
