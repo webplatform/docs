@@ -11,8 +11,11 @@
 {{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=Yes
-|Examples=
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var tw{{=}}document.createTreeWalker();
+}}
 }}
 {{Notes_Section
 |Usage=Used in the browser 'Developer Tool' to provide a visual representation of the DOM Tree.
