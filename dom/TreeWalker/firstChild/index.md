@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves a reference to the first child of the current node of the filtered TreeWalker hierarchy and updates currentNode.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=oNode
@@ -16,17 +17,23 @@ the first child node in the filtered '''TreeWalker''' hierarchy.
 |Optional=No
 }}
 |Method_applies_to=dom/TreeWalker
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=treewalker
+|Return_value_name=node
 |Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
+|Return_value_description=Object that receives the first child node in the filtered TreeWalker hierarchy. 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var treewalker {{=}} document.createTreeWalker(
+    document.body,
+    NodeFilter.SHOW_ELEMENT,
+    { acceptNode: function(node) { return NodeFilter.FILTER_ACCEPT; } },
+    false
+);
+var node {{=}} treewalker.firstChild(); // returns the first child of the root element, or null if none
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -36,7 +43,12 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-treewalker-firstchild
+|Status=Living Standard
+|Relevant_changes=No Change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -49,8 +61,8 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.firstChild TreeWalker.firstChild]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975258(v=vs.85).aspx firstChild Method]
 |HTML5Rocks_link=
 }}
