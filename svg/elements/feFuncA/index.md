@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Merge candidate; feFuncA is a child element of feComponentTransfer and should be merged back into that article. I should note that large sections of this MSDN article have simply been lifted directly from the text of SVG 1.1 spec.
+|Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=feFuncA is a child element of feComponentTransfer and should be merged back into that article. I should note that large sections of this MSDN article have simply been lifted directly from the text of SVG 1.1 spec.
 }}
 {{Standardization_Status}}
 {{API_Name}}
