@@ -1,27 +1,32 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document. }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
+|Usage=Used in the browser 'Developer Tool' to provide a visual representation of the DOM Tree.
 |Notes====Remarks===
 The '''TreeWalker''' is dynamic, reflecting the state of the document as it is edited or changed.
-
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
-
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#treeWalker
+|Status=Living Standard
+|Relevant_changes=Removed the expandEntityReferences proptery
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -34,8 +39,8 @@ The '''TreeWalker''' is dynamic, reflecting the state of the document as it is e
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker TreeWalker]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974360(v=vs.85).aspx TreeWalker Object]
 |HTML5Rocks_link=
 }}
