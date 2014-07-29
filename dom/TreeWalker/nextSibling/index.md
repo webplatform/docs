@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the next sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/TreeWalker
@@ -39,7 +39,12 @@ returns null if there are no more child nodes.
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=DOM
+|URL=http://dom.spec.whatwg.org/#dom-treewalker-nextsibling
+|Status=Living Standard
+|Relevant_changes=No change
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
