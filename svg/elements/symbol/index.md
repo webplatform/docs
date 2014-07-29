@@ -1,24 +1,25 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, usage, spec reference
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, a symbol is created and displayed in two different sizes.
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the symbols.
 
 The symbols will look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -40,11 +41,10 @@ The symbols will look like this:
   </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -55,9 +55,7 @@ Compared to a [[svg/elements/g|'''g''']] element, the '''symbol''' element itsel
 The '''symbol''' element has   [[svg/properties/viewBox|'''viewBox''']] and [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']]  attributes that  enable  a '''symbol''' to scale-to-fit within a rectangular viewport  that the referencing [[svg/elements/use|'''use''']] element defines.
 
 The [[css/properties/display|'''display''']] property does not apply to the '''symbol''' element. Thus, '''symbol''' elements are not directly rendered even if  you set the '''display''' property  to a value other than [[css/properties/text-decoration-none|'''none''']].  '''symbol''' elements are available for referencing even when  you set the '''display''' property on the '''symbol''' element or any of its ancestors  to '''none'''.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.7
 
@@ -82,22 +80,30 @@ The '''SVGSymbolElement''' object has these properties:
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections=
-
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 
 ===Reference===
 
 *[[svg/elements/marker|'''SVGMarkerElement''']]
 *[[svg/elements/patterrn|'''SVGPatternElement''']]
 }}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
