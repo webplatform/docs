@@ -13,10 +13,33 @@ Missing document.createTreeWalker method.
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=&lt;div id{{=}}"contentarea"&gt;
+&lt;p&gt;Some &lt;span&gt;text&lt;/span&gt;&lt;/p&gt;
+&lt;b&gt;Bold text&lt;/b&gt;
+&lt;/div&gt;
+
+&lt;script type{{=}}"text/javascript"&gt;
+
+var rootnode{{=}}document.getElementById('contentarea');
+var walker{{=}}document.createTreeWalker(rootnode, NodeFilter.SHOW_ELEMENT, null, false);
+
+//Alert the starting node Tree Walker currently points to (root node)
+alert(walker.currentNode.tagName); //alerts DIV (with id{{=}}contentarea)
+
+//Step through and alert all child nodes
+while (walker.nextNode())
+alert(walker.currentNode.tagName) //alerts P, SPAN, and B.
+
+//Go back to the first child node of the collection and alert it
+walker.currentNode{{=}}rootnode; //reset TreeWalker pointer to point to root node
+alert(walker.firstChild().tagName); //alerts P
+
+&lt;/script&gt;
+}}
 }}
 {{Notes_Section
-|Usage=Used in the browser 'Developer Tool' to provide a visual representation of the DOM Tree.
 |Notes====Remarks===
 The '''TreeWalker''' is dynamic, reflecting the state of the document as it is edited or changed.
 |Import_Notes====Standards information===
