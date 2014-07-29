@@ -1,13 +1,13 @@
 {{Page Title|欢迎访问 Web Platform Docs}}
 {{Flags|State=Unreviewed}}
 
-==概要==
+==概述==
 
 Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨在成为兼具综合性与权威性的 Web 开发文库。
 
 {{Languages}}
 
-==探索 Web 开发文档==
+==通览 Web 开发文档==
 
 <div class="topic-container">
 
@@ -30,7 +30,7 @@ Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨�
     <div class="inner">
     <h3>[[concepts/zh|Web 基本概念]]</h3>
     
-    <p>概念性或指导性的资料，涵盖诸如网络工作原理，信息架构，排版和 Web 设计等方面。</p>
+    <p>概念性或指导性的资料，涵盖网络工作原理，信息架构，排版和 Web 设计等方面的内容。</p>
     </div>
   
   </div>
@@ -146,9 +146,9 @@ Web Platform Docs 现阶段仍然是不成熟的，但你已经可以在网站�
 ==保持联络==
 
 * 加入我们的 [http://talk.webplatform.org/forums/ 问答论坛]
-* 在<abbr>IRC</abbr>与众多编辑们聊天: 我们在[irc://chat.freenode.net#webplatform FREENODE]
+* 在 <abbr>IRC</abbr>  与众多编辑者们讨论: 我们在[irc://chat.freenode.net#webplatform FREENODE]
 * 阅读我们的 [http://blog.webplatform.org/ 博客]
-* 在Twitter关注我们 [https://twitter.com/webplatform @WebPlatform]
+* 在 Twitter 关注我们 [https://twitter.com/webplatform @WebPlatform]
 * 分享并链接我们网站 [http://webplatform.org/logo logo]
 * 参加我们的交流活动 [[WPD:Community/Community_Events|Eventos]]
 
