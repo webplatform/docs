@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs usage, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
