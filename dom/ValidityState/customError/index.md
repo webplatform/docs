@@ -29,11 +29,11 @@ function verifyEmail(evt) {
   if (emlcfm.value !{{=}} eml.value) {
     // the provided value doesn’t match the primary email address
     emlcfm.setCustomValidity('The two email addresses must match.');
-// the custom error property is true;
+// the emlcfm.validity.customError is true;
   } else {
     // input is valid -- reset the error message
     emlcfm.setCustomValidity('');
-// the custom error property is false;
+// the emlcfm.validity.customError is false;
   }
 }
 }}
