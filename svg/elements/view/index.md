@@ -1,20 +1,22 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=The following code example shows how to zoom in and zoom out of rendered content.
-|LiveURL=
-|Code=
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -53,18 +55,15 @@
   </a>
 </svg>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The '''view''' element can  change the [[svg/properties/viewBox|'''viewBox''']] attributes of its parent [[svg/elements/svg|'''svg''']] element. For example, you can use this behavior to zoom in  or  zoom out  of rendered SVG content.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199815 Scalable Vector Graphics: Linking], Section 17.4.2
 
@@ -85,12 +84,23 @@ The '''SVGViewElement''' object has these properties:
 *[[svg/properties/viewTarget|'''viewTarget''']]: Gets  the  [[svg/properties/viewTarget|'''viewTarget''']]  attribute of a '''view''' element.
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/zoomAndPan|'''zoomAndPan''']]: Gets the [[svg/properties/zoomAndPan|'''zoomAndPan''']] attribute of an element.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
