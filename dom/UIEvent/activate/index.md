@@ -27,12 +27,12 @@
 &lt;head&gt;
 &lt;script type{{=}}"text/javascript"&gt;
 function fnActivate(){
-    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onactivate&lt;/b&gt; event, available as of \
+    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onactivate&lt;/b&gt; event, available as of 
         Internet Explorer 5.5, fires first on the body element.";
 }
 function fnLoad(){
-    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onload&lt;/b&gt; event, available as of     \
-        Internet Explorer 4.0, fires after the &lt;i&gt;onactivate&lt;/i&gt; event fires  \
+    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onload&lt;/b&gt; event, available as of  
+        Internet Explorer 4.0, fires after the &lt;i&gt;onactivate&lt;/i&gt; event fires 
         on the body element.";
 }
 &lt;/script&gt;
