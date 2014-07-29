@@ -32,7 +32,7 @@ var sel {{=}} document.selection;
 if (sel!{{=}}null) {
     var rng {{=}} sel.createRange();
     if (rng!{{=}}null)
-        rng.pasteHTML("<p><b>Selection has been replaced</b></p>");
+        rng.pasteHTML('&lt;p&gt;&lt;b&gt;Selection has been replaced&lt;/b&gt;&lt;/p&gt;'
 }
 }
 &lt;/script&gt;
@@ -55,7 +55,7 @@ if(window.getSelection){
 	if(sel){
 		var rng{{=}}sel.createRange();
 		if(rng!{{=}}null){
-			rng.pasteHTML('<span style=\"color:black;background:yellow\">'+rng.text+'</span>');
+			rng.pasteHTML('&lt;span style{{=}}\"color:black;background:yellow\"&gt;'+rng.text+'&lt;/span&gt;');
 		}
 		}
 }
