@@ -32,7 +32,7 @@ var sel {{=}} document.selection;
 if (sel!{{=}}null) {
     var rng {{=}} sel.createRange();
     if (rng!{{=}}null)
-        rng.pasteHTML("&lt;P&gt;&lt;B&gt;Selection has been replaced.&lt;/B&gt;&lt;/P&gt;");
+        rng.pasteHTML("<p><b>Selection has been replaced</b></p>");
 }
 }
 &lt;/script&gt;
