@@ -1,5 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Duplicate propertyName properties listed on the
+TransitionEvent Page.
+http://docs.webplatform.org/wiki/dom/TransitionEvent
+>>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName
+>>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,7 +15,11 @@
 {{Summary_Section|Specifies or retrives a string containg the name of the changed property.}}
 {{API_Object_Property
 |Property_applies_to=dom/TransitionEvent
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=object
+|Return_value_name=result
+|Javascript_data_type=String
+|Return_value_description=The name of the CSS property associated with the transition.
 }}
 {{Examples_Section
 |Not_required=No
@@ -78,6 +88,6 @@ You can alter the value of '''propertyName''' by using it with the [[dom/Element
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772142(v=vs.85).aspx propertyName Property]
 |HTML5Rocks_link=
 }}
