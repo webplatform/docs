@@ -32,7 +32,7 @@ function verifyEmail(evt) {
 // the emlcfm.validity.customError is true;
   } else {
     // input is valid -- reset the error message
-    emlcfm.setCustomValidity('');
+    emlcfm.setCustomValidity("");
 // the emlcfm.validity.customError is false;
   }
 }
