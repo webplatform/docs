@@ -1,42 +1,46 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Fires when the object is set as the active element.}}
 {{Event
 |Event_applies_to=dom/UIEvent
 |Synchronous=No
-|Bubbles=No
+|Bubbles=Yes
 |Target=dom/Element
 |Cancelable=No
+|Default_action=see Notes
 |Interface=dom/UIEvent
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following example demonstrates the order of event firing for the '''onactivate''' and '''onload''' events. As each event fires, it appends a string to the '''div''' element within the document. The '''onactivate''' event fires before the '''onload''' event.
-|Code=&lt;HTML&gt;
-&lt;HEAD&gt;
-&lt;SCRIPT&gt;
+|Code=&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script type{{=}}"text/javascript"&gt;
 function fnActivate(){
-    oDIV1.innerHTML +{{=}} "&lt;BR&gt;&lt;BR&gt;The &lt;B&gt;onactivate&lt;/B&gt; event, available as of \
-        Internet Explorer 5.5, fires first on the BODY element.";
+    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onactivate&lt;/b&gt; event, available as of \
+        Internet Explorer 5.5, fires first on the body element.";
 }
 function fnLoad(){
-    oDIV1.innerHTML +{{=}} "&lt;BR&gt;&lt;BR&gt;The &lt;B&gt;onload&lt;/B&gt; event, available as of     \
+    oDIV1.innerHTML +{{=}} "&lt;br/&gt;&lt;br/&gt;The &lt;b&gt;onload&lt;/b&gt; event, available as of     \
         Internet Explorer 4.0, fires after the &lt;i&gt;onactivate&lt;/i&gt; event fires  \
-        on the BODY element.";
+        on the body element.";
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY onactivate{{=}}"fnActivate();" onload{{=}}"fnLoad();"&gt; 
-&lt;DIV id{{=}}"oDIV1"&gt;&lt;/DIV&gt;
-&lt;/BODY&gt;
-&lt;/HTML&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body onactivate{{=}}"fnActivate();" onload{{=}}"fnLoad();"&gt; 
+&lt;div id{{=}}"oDIV1"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm
 }}
 }}
@@ -103,6 +107,6 @@ There are no standards that apply here.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536787(v=vs.85).aspx active Event]
 |HTML5Rocks_link=
 }}
