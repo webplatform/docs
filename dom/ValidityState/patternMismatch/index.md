@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -9,8 +10,8 @@
 {{API_Object_Property
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
-|Example_object_name=validityState
-|Return_value_name=patternMismatch
+|Example_object_name=element.validity
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Whether a value does not match the rules defined by the '''pattern''' attribute.
 }}
@@ -43,8 +44,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
+|Sources=MSDN, HTML5Rocks
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh773355(v=vs.85).aspx patternMismatch Property]
+|HTML5Rocks_link=[http://www.html5rocks.com/en/tutorials/forms/html5forms/ Making forms fabulous]
 }}
