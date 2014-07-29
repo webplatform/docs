@@ -2,7 +2,7 @@
 
 == 摘要 ==
 
-层叠样式表（[[Cascading style sheets|CSS]]）是网页式样的表达语言。由[http://www.w3.org W3C万维网联盟]确定[http://www.w3.org/standards/techs/css CSS的标准] 。
+层叠样式表（[[CSS/zh|CSS]]）是网页式样的表达语言。由[http://www.w3.org W3C万维网联盟]确定[http://www.w3.org/standards/techs/css CSS的标准] 。
 
 {{Languages}}
 
@@ -94,7 +94,7 @@
 
 == 背景 ==
 
-层叠样式表（[[Cascading Style Sheets|CSS]]）用于定义（造型，布局，动画）和标记内容（如HTML、XHTML、SVG 或 XML）的语言。它是[http://www.w3.org/wiki/Open_Web_Platform 开放化 Web 平台]的组成部分之一。
+层叠样式表用于定义（造型，布局，动画）和标记内容（如HTML、XHTML、SVG 或 XML）的语言。它是[http://www.w3.org/wiki/Open_Web_Platform 开放化 Web 平台]的组成部分之一。
 
 
 CSS 允许你通过一系列选择器（[[css/selectors|selectors]]）和属性（[[css/properties|properties]]）来为内容设定样式。
