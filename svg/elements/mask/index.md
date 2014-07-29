@@ -1,25 +1,26 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, usage, spec reference
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, an alpha mask is used to filter text. A linear gradient is defined that runs from magenta to cyan. A mask is then defined that will use the gradient to filter defined text. Alpha masking uses the image brightness to define the opacity of the final image. Magenta is less "bright" than cyan, so the resulting masked image will be less opaque on the left and more opaque on the right.
 
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the alpha-masked text.
 
 The masked text will look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -48,11 +49,10 @@ The masked text will look like this:
   </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -80,9 +80,7 @@ For a single-channel image that is used as a mask (for example, when you referen
 The effect of a mask is the same as  if there  is  no mask, but  the alpha channel of the given object is multiplied  by the mask's resulting alpha values (that is, the product of the mask's luminance from its color channels multiplied by the mask's alpha channel).
 
 '''Note:'''  The paths, shapes (for example, circle), and text in SVG are all treated as four-channel RGBA images for the purposes of masking operations.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.2
 
@@ -118,12 +116,23 @@ The '''SVGMaskElement''' object has these properties:
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 *[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
