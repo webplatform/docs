@@ -60,47 +60,47 @@ Emacs这样的终端程序。它们确实是非常强
 * [[concepts/accessibility|无障碍]]
 
 == HTML - 构建您的网页内容==
-* [[guides/the basics of html|HTML基础]]
-* [[guides/doctypes and markup styles|DOCTYPES和标记样式]]
-* [[guides/html validation|HTML验证]]
-* [[guides/the html head|HTML标头]]
-* [[guides/html text|HTML文本]]
-* [[guides/html lists|HTML列表]]
-* [[guides/images in html|HTML中的图像]]
-* [[guides/html links|HTML链接]]
-* [[guides/html structural elements|HTML结构元素]]
-* [[guides/html tables|HTML表格]]
-* [[guides/html forms basics|HTML表单基础知识]]
-* [[guides/html5 form features|HTML5表单功能]]
-* [[guides/lesser-known semantic elements|鲜为人知的语义元素]]
+* [[guides/the basics of html/zh|HTML基础]]
+* [[guides/doctypes and markup styles/zh|DOCTYPES和标记样式]]
+* [[guides/html validation/zh|HTML验证]]
+* [[guides/the html head/zh|HTML标头]]
+* [[guides/html text/zh|HTML文本]]
+* [[guides/html lists/zh|HTML列表]]
+* [[guides/images in html/zh|HTML中的图像]]
+* [[guides/html links/zh|HTML链接]]
+* [[guides/html structural elements/zh|HTML结构元素]]
+* [[guides/html tables/zh|HTML表格]]
+* [[guides/html forms basics/zh|HTML表单基础知识]]
+* [[guides/html5 form features/zh|HTML5表单功能]]
+* [[guides/lesser-known semantic elements/zh|鲜为人知的语义元素]]
 
-== CSS - 给您的网页内容添加造型==
+== CSS - 给网页内容添加造型==
 
-* [[guides/getting started with css|CSS入门]]
-* [[tutorials/using selectors|使用选择器]]
-* [[guides/css text styling fundamentals|文本样式基础]]
-* [[tutorials/using css background images|CSS背景图像]]
-* [[tutorials/box model|探索CSS盒模型]]
-* [[tutorials/layout fundamentals|探索CSS布局模型]]
-* [[tutorials/making css easier to read|让CSS更容易阅读]]
-* [[tutorials/media queries|为不同平台设置不同的CSS样式]]
+* [[guides/getting started with css/zh|CSS入门]]
+* [[tutorials/using selectors/zh|使用选择器]]
+* [[guides/css text styling fundamentals/zh|文本样式基础]]
+* [[tutorials/using css background images/zh|CSS背景图像]]
+* [[tutorials/box model/zh|探索CSS盒模型]]
+* [[tutorials/layout fundamentals/zh|探索CSS布局模型]]
+* [[tutorials/making css easier to read/zh|让CSS更容易阅读]]
+* [[tutorials/media queries/zh|为不同平台设置不同的CSS样式]]
 
-==JavaScript - 给您的网站添加动态行为==
+==JavaScript - 给网站添加动态行为==
 
-* [[concepts/programming/programming basics|编程基础]]
-* [[tutorials/your first look at javascript|JavaScript代码初接触]]
-* [[concepts/programming/the purpose of javascript|JavaScript的用途]]
-* [[tutorials/javascript functions|JavaScript函数功能]]
-* [[tutorials/objects in javascript|JavaScript中的对象]]
-* [[tutorials/traversing the dom|遍历DOM]]
-* [[tutorials/creating and modifying html|创建和修改HTML]]
-* [[tutorials/manipulating css with javascript|用JavaScript控制CSS]]
-* [[tutorials/events in javascript|JavaScript事件]]
+* [[concepts/programming/programming basics/zh|编程基础]]
+* [[tutorials/your first look at javascript/zh|JavaScript代码初接触]]
+* [[concepts/programming/the purpose of javascript/zh|JavaScript的用途]]
+* [[tutorials/javascript functions/zh|JavaScript函数功能]]
+* [[tutorials/objects in javascript/zh|JavaScript中的对象]]
+* [[tutorials/traversing the dom/zh|遍历DOM]]
+* [[tutorials/creating and modifying html/zh|创建和修改HTML]]
+* [[tutorials/manipulating css with javascript/zh|用JavaScript控制CSS]]
+* [[tutorials/events in javascript/zh|JavaScript事件]]
 
 ==应用技术==
 
 
-* [[tutorials/creating basic navigation menus|创建基本的导航栏]]
+* [[tutorials/creating basic navigation menus/zh|创建基本的导航栏]]
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
