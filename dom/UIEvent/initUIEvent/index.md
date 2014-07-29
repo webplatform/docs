@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -12,6 +13,14 @@
 |Name=eventType
 |Data type=String
 |Description=The name of the event. Sets the value for the [[dom/Event/type|type]] property.
+valid values are:
+
+abort - An onabort event. 
+error - An onerror event. 
+load - An onload event. 
+select - An onselect event. 
+resize - An onresize event. 
+
 |Optional=No
 }}{{Method Parameter
 |Name=canBubble
@@ -40,7 +49,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var evt {{=}} document.createEvent("UIEvents");
+// creates a click event that bubbles, can be cancelled,
+// and with its view and detail property initialized to window and 1,
+// respectively
+evt.initUIEvent("click", true, true, window, 1);
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -62,8 +78,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.initUIEvent event.initUIEvent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975256(v=vs.85).aspx initUIEvent Method]
 |HTML5Rocks_link=
 }}
