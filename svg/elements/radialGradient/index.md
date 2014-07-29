@@ -1,25 +1,26 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, usage, spec reference
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, a radial gradient fills a rectangle. The gradient is defined in a definition and fills the rectangle by referencing the gradient. The gradient runs from magenta to cyan, starting in the center with magenta and working outward to cyan.
 
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see the circular magenta to cyan gradient filling the rectangle.
 
 The radial-filled rectangle will look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -41,11 +42,10 @@ The radial-filled rectangle will look like this:
   </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -53,9 +53,7 @@ The '''radialGradient''' element inherits properties from its ancestors instead 
 '''radialGradient''' elements are never rendered directly. They exist  so that you can reference them by  using the '''fill''' and '''stroke''' properties.
 
 The '''display''' property does not apply to the '''radialGradient''' element.  '''radialGradient''' elements are not directly rendered even if the '''display''' property is set to a value other than '''none'''. But  '''radialGradient''' elements are available for referencing even when the '''display''' property on the '''radialGradient''' element or any of its ancestors is set to '''none'''.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.3
 
@@ -79,12 +77,23 @@ The '''SVGRadialGradientElement''' object has these properties:
 *[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
 *[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
