@@ -37,7 +37,6 @@ function verifyEmail(evt) {
   }
 }
 
-var foo='';
 }}
 }}
 {{Notes_Section
