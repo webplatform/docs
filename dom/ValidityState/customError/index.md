@@ -12,7 +12,7 @@
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
 |Example_object_name=validityState
-|Return_value_name=customError
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the element has raised a custom error.
 }}
