@@ -7,21 +7,21 @@
 {{Basic Page}}
 {{Languages}}
 
-==开始之前==
+==准备==
 
 在学习过程中，你将会编写很多的代码并在网页浏览器中进行测试。在此之前，你需要先安装下面这些程序：
 
 *最新版本的浏览器。如果你还没有安装它们，就从它们主页下载吧： 
-** 所有平台通用
+** 全平台
 ***[https://www.google.com/chrome Chrome]
 ***[http://www.mozilla.org/firefox Firefox]
 ***[http://www.opera.com Opera]
 ** Windows
 ***[http://microsoft.com/ie Internet Explorer]
-** Mac OS
+** OS X
 ***[http://www.apple.com/safari/ Safari].
 
-*一个实用的文本编辑器。这里有一些不错的选择：
+*实用的文本编辑器。这里有一些不错的选择：
 <!--
 '''请不要'''将Sublime Text加进这个列表中来。
 它'''并不是'''免费软件。
@@ -35,17 +35,17 @@ Emacs这样的终端程序。它们确实是非常强
 谢谢合作
 - original by Garbee
 -->
-** 所有平台通用
+** 全平台
 ***[http://brackets.io Brackets]
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
 ** Windows
 ***[http://notepad-plus-plus.org/ Notepad++]
-** Mac
+** OS X
 ***[https://github.com/textmate/textmate Textmate]
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
 ***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
-** Linux
+** Linux 发行版
 ***[http://www.geany.org/ Geany]
 ***[https://wiki.gnome.org/Apps/Gedit gedit]
 现在卷起袖子、开始学习吧。 [[tutorials|了解更多请查看全部文章列表！]]
@@ -53,11 +53,11 @@ Emacs这样的终端程序。它们确实是非常强
 <!-- progress marker Jun/16/14 XueyiB-->
 
 ==网络基础知识==
-* [[concepts/internet and web/the history of the web|互联网的历史]]
-* [[concepts/internet and web/how does the internet work|互联网是如何工作的]]
-* [[concepts/internet and web/the web standards model|web标准模型|网络标准模型 - HTML，CSS和JavaScript]]
-* [[tutorials/getting your content online|上传您的网站到网上]]
-* [[concepts/accessibility|无障碍]]
+* [[concepts/internet and web/the history of the web/zh|互联网的历史]]
+* [[concepts/internet and web/how does the internet work/zh|互联网是如何工作的]]
+* [[concepts/internet and web/the web standards model/zh|web标准模型|网络标准模型 - HTML，CSS和JavaScript]]
+* [[tutorials/getting your content online/zh|公布于世]]
+* [[concepts/accessibility/zh|无障碍]]
 
 == HTML - 构建您的网页内容==
 * [[guides/the basics of html/zh|HTML基础]]
