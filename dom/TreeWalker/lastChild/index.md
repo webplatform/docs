@@ -26,7 +26,7 @@
     { acceptNode: function(node) { return NodeFilter.FILTER_ACCEPT; } },
     false
 );
-var node {{=}} treeWalker.lastChild(); // returns the last visible child of the root element
+var node {{=}} treewalker.lastChild(); // returns the last visible child of the root element
 }}
 }}
 {{Notes_Section
