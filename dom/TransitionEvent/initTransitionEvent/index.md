@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Not sure of the status of the standard. MDN says do not use....
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initializes a transition event created using the deprecated Document.createEvent("TransitionEvent") method.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=typeArg
@@ -43,16 +45,22 @@
 This method can return one of these values.
 
 S_OK
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=Used to initialize the value of a TransitionEvent.
+
+
+
+Note: this method has been dropped during the standard process. It has been deprecated and is in the progress of been removed from most implementation. Do not use it anymore, use the standard constructor, TransitionEvent(), to create a synthetic TransitionEvent
+
 |Notes====Remarks===
 This method is used to initialize the value of a '''TransitionEvent'''. This method may only be called before the '''TransitionEvent''' has been dispatched via the [[dom/EventTarget/dispatchEvent|'''dispatchEvent''']] method, though it may be called multiple times during that phase if necessary. If called multiple times, the final invocation takes precedence.
 |Import_Notes====Syntax===
+var retval = transitionEvent.initTransitionEvent(typeArg, canBubbleArg, cancelableArg, propertyNameArg, elapsedTimeArg); 
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -68,8 +76,8 @@ This method is used to initialize the value of a '''TransitionEvent'''. This met
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/TransitionEvent.initTransitionEvent TransitionEvent.initTransitionEvent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772141(v=vs.85).aspx initTransitionEvent Method]
 |HTML5Rocks_link=
 }}
