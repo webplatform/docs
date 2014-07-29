@@ -232,7 +232,7 @@ The '''SVGFilterElement''' object has these properties.
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=SVG 1.1 (Second Edition)
-|URL=www.w3.org/TR/SVG/
+|URL=http://www.w3.org/TR/SVG/
 |Status=W3C Recommendation
 }}
 }}
