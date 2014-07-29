@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=No
+|State=Almost Ready
+|Editorial notes=example required..
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -40,7 +42,9 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=[http://www.regexlib.com/ Regular Expression Library]
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
