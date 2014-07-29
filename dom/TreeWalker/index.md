@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=In Progress
+|Editorial notes=waiting for property and method descriptions to fill description fields... Not sure if all properties and methods have been listed.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document. }}
+{{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=Yes
