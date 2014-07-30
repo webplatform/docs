@@ -166,8 +166,7 @@ View the finished triangle example [add e.g.].
 
 I will leave you to experiment with creating more complex shapes, such as the star I have defined below:
 
-[add star example]
-
+<pre>&lt;polygon points="200,110 140,298 290,178 110,178 260,298" /&gt;</pre>
 
 View star example [add start eg]
 
