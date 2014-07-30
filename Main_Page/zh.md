@@ -66,7 +66,7 @@ Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨�
     <div class="inner">
     <h3>[[concepts/accessibility/zh|无障碍]]</h3>
     
-    <p>让 Web 为各类功能性障碍人群工作的模式，实践和商业案例。</p>
+    <p>让 Web 为各类人群服务的模式，实践和商业案例。</p>
     </div>
   
   </div>
