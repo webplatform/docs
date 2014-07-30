@@ -1,13 +1,13 @@
 {{Page Title|欢迎访问 Web Platform Docs}}
 {{Flags|State=Unreviewed}}
 
-==概述==
+==简述==
 
 Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨在成为兼具综合性与权威性的 Web 开发网络文库。
 
 {{Languages}}
 
-==俯瞰 Web 开发文库==
+==概览 Web 开发文库==
 
 <div class="topic-container">
 
