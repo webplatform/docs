@@ -13,7 +13,7 @@
 |DOM_interface=svg/objects/SVGElement
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
