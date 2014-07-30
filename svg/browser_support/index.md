@@ -1,6 +1,8 @@
 {{Page_Title|Browser Support}}
 {{Flags
 |High-level issues=Stub
+|State=Not Ready
+|Editorial notes=No editing form
 }}
 {{Summary_Section}}
 == SVG browser support ==
