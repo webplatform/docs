@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The '''picture''' element (<code><picture></code>) is intended to give authors a way to control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.}}
 {{Markup_Element
-|DOM_interface=HTMLPictureElement
+|DOM_interface=dom/HTMLPictureElement
 |Content=The picture element addresses use cases that are left unaddressed by the srcset attribute, the most important being art direction. 
 
 Other use cases, such as matching media features and media types and matching on supported image formats, are also addressed by this element.
