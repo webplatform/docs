@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Editorial notes=Needs properly flagged and automatically collected children instead of manual links, summary, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
