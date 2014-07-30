@@ -29,7 +29,7 @@ function validRange(evt){
 var el=evt.target;
 if(el.validity){
 // HTML5 aware browsers
-if(el.validity.rangeOverflow||el.validity.rangeUnderflow){
+if(el.validity.rangeOverflow){
 el.setCustomValidity('The entered number is outside the acceptable range.')
 }else{
 el.setCustomValidity("");
