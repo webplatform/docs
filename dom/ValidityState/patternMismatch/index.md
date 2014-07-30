@@ -38,8 +38,7 @@ el.setCustomValidity("");
 }
 }
 document.getElementById('txtPostcode').addEventListener('blur',validatePostCode,false);
-&gt;/script&lt;
-
+&lt;/script&gt;
 }}
 }}
 {{Notes_Section}}
