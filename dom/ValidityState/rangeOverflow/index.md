@@ -41,8 +41,6 @@ el.setCustomValidity("");
 }
 el.addEventListener('blur',validRange,false);
 &lt;/script&gt;
-
-}
 }}
 }}
 {{Notes_Section}}
@@ -75,3 +73,10 @@ el.addEventListener('blur',validRange,false);
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh773357(v=vs.85).aspx rangeOverflow Property]
 |HTML5Rocks_link=[http://www.html5rocks.com/en/tutorials/forms/html5forms/ Making forms fabulous]
 }}
+}
+
+
+
+
+
+}
