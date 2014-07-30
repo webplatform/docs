@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=Yes
+|Content=Compatibility Incomplete
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The attribute fill specifies the filling color or the behavior of an animation after it has finished.}}
 {{Markup_Attribute
