@@ -1,23 +1,24 @@
+{{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs summary, spec reference, standardization status
+|Checked_Out=No
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 }}
-{{Topics|SVG}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Description=In the following code example, the a element is used to create a hyperlink using the xlink namespace.  The link is attached to the circle element inside an inline SVG element.
 
 Copy this sample to a text file and save it with the ''.html'' file extension.  Run it in Internet Explorer 9 and click on the chocolate circle.
 
 It should look like this:
-|LiveURL=
-|Code=
-
-<syntaxhighlight lang="xml">
+|Code=<syntaxhighlight lang="xml">
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -34,11 +35,10 @@ It should look like this:
   </body>
 </html>
 </syntaxhighlight>
-}}}}
+}}
+}}
 {{Notes_Section
-|Notes=
-
-===Remarks===
+|Notes====Remarks===
 
 '''Note:''' In addition to the attributes, properties, events, methods,
 and styles listed above, SVG elements also inherent core HTML
@@ -70,9 +70,7 @@ SVG document, an HTML document, an element within the current
 document, an element within a different document, etc.). By activating
 these links (by clicking with the mouse, through keyboard input, by
 voice commands, etc.), users may visit these resources.
-|Import_Notes=
-
-===Standards information===
+|Import_Notes====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199815 Scalable Vector Graphics: Linking], Section 17.4.1
 
@@ -109,12 +107,23 @@ The '''SVGAElement''' object has these properties:
 *[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section}}
+{{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
