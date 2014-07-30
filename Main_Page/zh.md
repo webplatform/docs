@@ -1,13 +1,13 @@
-{{Page Title|欢迎访问 Web Platform Docs}}
+{{Page Title|欢迎访问 Web 平台文库}}
 {{Flags|State=Unreviewed}}
 
 ==简述==
 
-Web Platform Docs 作为一个社区驱动（community-driven）的站点，旨在成为兼具综合性与权威性的 Web 开发网络文库。
+Web Platform Docs 作为一个社区驱动的站点，旨在成为兼具综合性与权威性两者的 Web 平台文库。
 
 {{Languages}}
 
-==概览 Web 开发文库==
+==概览 Web 平台文库==
 
 <div class="topic-container">
 
@@ -137,10 +137,11 @@ Web 平台文库现阶段仍然是不成熟的，但你已经可以在网站上�
 
 ==完善 Web 平台文库==
 
-我们很乐意有您帮助改善 Web 平台文库。就算是细微的改变，也可以在网络上造成重要的影响，提醒有关错误修复这些错误，移植现有的资料，甚至贡献完全新的内容。更多相关信息，请阅读我们的[[WPD:Getting_Started|编者入门]]。
+我们非常乐意有您帮助改善 Web 平台文库。就算是细微的改进，也会在网络上引起显著的反响，与我们一起，提醒有关错误、修复这些错误
+移植现有的资料，以至贡献全新的内容。更多相关信息，请阅读我们的[[WPD:Getting_Started|编者入门]]。
 
-* 向 Web 平台文库提交错误信息（<abbr>Bugs</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 更多信息，请参阅[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
-* 如果你对 Web 平台文库有任何疑问，请先看一看 [[WPD:FAQ|常见问题]] 里的提示。
+* 向 Web 平台文库反馈错误信息（<abbr>Bugs</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 更多相关信息，请参阅[http://docs.webplatform.org/wiki/WPD:Filing_Bugs/zh 申报错误页面]。 
+* 如果你对 Web 平台文库有任何疑问，请先看一看 [[WPD:FAQ/zh|常见问题]] 里的提示。
 
 
 ==保持联络==
