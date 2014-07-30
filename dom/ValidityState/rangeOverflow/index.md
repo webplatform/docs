@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=I won't finish this today.... so I've locked it....
-example required.
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -20,7 +18,32 @@ example required.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
+|Code=&lt;label&gt;Enter a number between 4 and 20&lt;br/&gt;
+&lt;input id{{=}}"myField" type{{=}}"number" required  min{{=}}"4" max{{=}}"20" step{{=}}"2" /&gt;&lt;/label&gt;
+&lt;script type{{=}}"text/javascript"&gt;
+var el{{=}}document.getElementById('myField');
+function validRange(evt){
+var el=evt.target;
+if(el.validity){
+// HTML5 aware browsers
+if(el.validity.rangeOverflow){
+el.setCustomValidity('The entered number is outside the acceptable range.')
+}else{
+el.setCustomValidity("");
+}
+}else{
+// legacy validation
+
+}
+}
+el.addEventListener('blur',validRange,false);
+&lt;/script&gt;
+
+}
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
