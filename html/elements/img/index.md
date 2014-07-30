@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Image Element}}
 {{Flags
 |State=In Progress
 |Editorial notes=Add Category, Parent, Children and Compatibility information. Add HTML information section.
@@ -6,7 +6,7 @@
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
+{{API_Name|<img>}}
 {{Summary_Section|The '''img''' element <nowiki>(<img>)</nowiki> embeds an image in a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLImageElement
