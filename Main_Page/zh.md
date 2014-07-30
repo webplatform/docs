@@ -150,7 +150,7 @@ Web 平台文库现阶段仍然是不成熟的，但你已经可以在网站上�
 * 阅读我们的 [http://blog.webplatform.org/ 博客]。
 * 在 Twitter 关注我们 [https://twitter.com/webplatform @WebPlatform]。
 * 分享并链接我们网站 [http://webplatform.org/logo Logo资源]。
-* 参加我们的[[WPD:Community/Community_Events|交流活动]]，如 Doc Sprints。
+* 参加我们的[[WPD:Community/Community_Events|交流活动]]，如 Doc Sprints 。
 
 ==站点政策==
 
