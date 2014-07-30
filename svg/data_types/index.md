@@ -1,7 +1,7 @@
 {{Page_Title|SVG data types}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Nothing here...
+|Editorial notes=Needs all content
 |Checked_Out=No
 }}
 {{Summary_Section}}
