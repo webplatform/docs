@@ -140,6 +140,7 @@ This is the list of HTML and related Elements from the past to the present.
 * [[html/elements/noembed|noembed]]
 * [[html/elements/object|object]]
 * [[html/elements/param|param]]
+* [[html/elements/picture|picture]]
 * [[html/elements/plaintext|plaintext]]
 * [[html/elements/source|source]]
 * [[html/elements/svg|svg]]
