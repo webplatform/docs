@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs summary, example, spec reference, standardization status
+|Editorial notes=Needs all content
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -15,7 +15,6 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
 |LiveURL=http://srufaculty.sru.edu/david.dailey/svg/newstuff/filterDisplacementMap9.svg
 }}
 }}
