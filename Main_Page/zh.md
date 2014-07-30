@@ -145,12 +145,12 @@ Web 平台文库现阶段仍然是不成熟的，但你已经可以在网站上�
 
 ==保持联络==
 
-* 加入我们的 [http://talk.webplatform.org/forums/ 问答论坛]
-* 在 <abbr>IRC</abbr>  与众多编者们讨论: 我们在[irc://chat.freenode.net#webplatform FREENODE]
-* 阅读我们的 [http://blog.webplatform.org/ 博客]
-* 在 Twitter 关注我们 [https://twitter.com/webplatform @WebPlatform]
-* 分享并链接我们网站 [http://webplatform.org/logo logo]
-* 参加我们的交流活动 [[WPD:Community/Community_Events|Eventos]]
+* 加入 [http://talk.webplatform.org/forums/ 问答论坛]。
+* 在 <abbr>IRC</abbr>  与众多编者们讨论: 我们在 ”irc.freenode.org“ 的 #webplatform 频道等你哦。
+* 阅读我们的 [http://blog.webplatform.org/ 博客]。
+* 在 Twitter 关注我们 [https://twitter.com/webplatform @WebPlatform]。
+* 分享并链接我们网站 [http://webplatform.org/logo Logo资源]。
+* 参加我们的[[WPD:Community/Community_Events|交流活动]]，如Doc Sprints。
 
 ==站点政策==
 
