@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=example required..
-|Checked_Out=Yes
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -19,7 +18,29 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example validates a UK Postal code field on the blur event handler. If an invalid UK postal code is entered, when the form is submitted the custom validity message is displayed.
+|Code=&lt;script type{{=}}"text/javascript"&gt;
+function validatePostCode(evt){
+var el{{=}}evt.target;
+if(el.validity){
+// HTML5 aware browsers
+if(el.validity.patternMismatch){
+el.setCustomValidity('Not a valid UK Postal Code.eg:G1 1AA ');
+}else{
+el.setCustomValidity("");
+}
+}else{
+// fallback for legacy browsers.
+
+
+}
+}
+document.getElementById('txtPostcode').addEventListener('blur',validatePostCode,false);
+&gt;/script&lt;
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
