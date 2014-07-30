@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -60,7 +62,6 @@ The '''SVGFEDisplacementMapElement''' object has these properties:
 |Opera_supported=Yes
 |Opera_version=16
 |Opera_prefixed_supported=Yes
-|Opera_prefixed_version=
 |Safari_supported=Unknown
 |Safari_version=
 |Safari_prefixed_supported=No
@@ -90,15 +91,13 @@ The '''SVGFEDisplacementMapElement''' object has these properties:
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=15
 |Opera_mobile_prefixed_supported=Yes
-|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
 |Opera_mini_version=7
 |Opera_mini_prefixed_supported=Yes
-|Opera_mini_prefixed_version=
 |Safari_mobile_supported=No
 |Safari_mobile_version=
 |Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=6
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
