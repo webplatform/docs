@@ -1,19 +1,34 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a pseudorandom number between 0 and 1.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math.random( ) '''}}
+{{Summary_Section|Returns a pseudorandom number between 0 and 1.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math.random( ) '''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
-|Remarks=The pseudorandom number generated is from 0 (inclusive) to 1 (exclusive), that is, the returned number can be zero, but it will always be less than one. The random number generator is seeded automatically when JavaScript is first loaded.
+|Remarks=The pseudo-random number generated is from 0 (inclusive) to 1 (exclusive), that is, the returned number can be zero, but it will always be less than one. The random number generator is seeded automatically when JavaScript is first loaded.
+
+Due to the nature of the generation methods, these pseudo-random numbers are not uniformly distributed. They are normally distributed which means that, in general, a number is more likely to be closer to 0.5 than 0 or 1.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/pow{{!}}Math.pow Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
