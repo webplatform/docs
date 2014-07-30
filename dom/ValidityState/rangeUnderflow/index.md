@@ -29,8 +29,8 @@ function validRange(evt){
 var el=evt.target;
 if(el.validity){
 // HTML5 aware browsers
-if(el.validity.rangeOverflow || el.validity.rangeUnderflow){
-el.setCustomValidity('The entered number is outside the acceptable range.')
+if(el.validity.rangeUnderflow){
+el.setCustomValidity('The entered number is outside the acceptable range.');
 }else{
 el.setCustomValidity("");
 }
