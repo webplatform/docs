@@ -1,4 +1,4 @@
-{{Page_Title|Picture Element}}
+{{Page_Title}}
 {{Flags
 |State=In Progress
 |Editorial notes=Add Category, Parent,  Children information and HTML information subsection. Complete Compatibility table.
