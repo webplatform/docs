@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link to parent object
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic
 |Content=Not Neutral, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
