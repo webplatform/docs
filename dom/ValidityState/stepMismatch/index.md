@@ -12,7 +12,7 @@
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
 |Example_object_name=element.validity
-|Return_value_name=stepMismatch
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Whether a value does not fit the rules given by the '''step''' attribute.
 }}
