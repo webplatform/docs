@@ -1,18 +1,13 @@
 {{Page_Title}}
-{{Flags
-|Checked_Out=No
-}}
+{{Flags}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The MathML '''mfenced''' element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression.}}
-{{Markup_Element
-|DOM_interface=mathml
-}}
+{{Summary_Section|The MathML '''mfenced''' element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression. }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=These examples demonstrate a simple usage of the mfenced element:
+|Description=These examples demonstrate a simple usage of the merror element:
 |Code=<syntaxhighlight lang="html5">
 <math>
   <mfenced open="{" close="}" separators=";;,">
@@ -25,10 +20,33 @@
 </math>
 
 <math>
-  <mfenced open="[" close="]" separators="
+  <mfenced open="[" close="]" separators="||||,">
+    <mi>a</mi>
+    <mi>b</mi>
+    <mi>c</mi>
+    <mi>d</mi>
+    <mi>e</mi>
+  </mfenced>
+</math>
+</syntaxhighlight>
 }}
 }}
 {{Notes_Section}}
+
+== Attributes ==
+
+<dl>
+  <dt id="attr-close">close</dt>
+  <dd> A string for the closing delimiter. The default value is ")" and any white space is trimmed.</dd>
+<dt id="attr-open">
+    open</dt>
+  <dd>
+    A string for the opening delimiter. The default value is <code>"("</code> and any white space is trimmed.</dd>
+  <dt id="attr-separators">
+    separators</dt>
+  <dd>
+    A sequence of zero or more characters to be used for different separators, optionally divided by white space, which is ignored. The default value is ",". By specifying more than one character, it is possible to set different separators for each argument in the expression. If there are too many separators, all excess is ignored. If there are too few separators in the expression, the last specified separator is repeated.</dd>
+</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -98,7 +116,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML}}
+{{Topics|MathML, Markup_Elements}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -106,17 +124,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-== Attributes ==
-
-<dl>
-  <dt id="attr-close">close</dt>
-  <dd> A string for the closing delimiter. The default value is ")" and any white space is trimmed.</dd>
-<dt id="attr-open">
-    open</dt>
-  <dd>
-    A string for the opening delimiter. The default value is <code>"("</code> and any white space is trimmed.</dd>
-  <dt id="attr-separators">
-    separators</dt>
-  <dd>
-    A sequence of zero or more characters to be used for different separators, optionally divided by white space, which is ignored. The default value is ",". By specifying more than one character, it is possible to set different separators for each argument in the expression. If there are too many separators, all excess is ignored. If there are too few separators in the expression, the last specified separator is repeated.</dd>
-</dl>
