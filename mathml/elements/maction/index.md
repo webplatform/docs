@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs review, template review http://docs.webplatform.org/wiki/Template:Markup_Element
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -9,7 +8,9 @@
 {{Summary_Section|The MathML '''maction''' element provides a possibility to bind actions to (sub-) expressions.
 The action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.
 }}
-{{Markup_Element}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
