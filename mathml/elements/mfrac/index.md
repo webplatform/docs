@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The MathML '''mfrac''' element is used to display fractions. }}
+{{Summary_Section|The MathML '''mfrac''' element is used to display fractions.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -25,27 +31,6 @@
 }}
 }}
 {{Notes_Section}}
-
-== Attributes ==
-
-<dl>
-    <dt id="attr-bevelled">
-    bevelled</dt>
-  <dd>
-    Specifies the way the fraction is displayed. If <code>true</code>, the fraction line is bevelled, which means that numerator and denominator are displayed side by side and separated by a slash (/). Otherwise, if set to <code>false</code> (which is the default value), numerator and denominator are on top of each other.</dd>
- <dt id="attr-denomalign">
-    denomalign</dt>
-  <dd>
-    The alignment of the denominator under the fraction. Possible values are: <code>left</code>, <code>center</code> (default), and <code>right</code>.</dd>
-  <dt id="attr-linethickness">
-    linethickness</dt>
-  <dd>
-    The thickness of the horizontal fraction line. The default value is <code>medium</code>, but <code>thin</code>, <code>thick</code>, and other length values can be set.</dd>
-  <dt id="attr-numalign">
-    numalign</dt>
-  <dd>
-    The alignment of the numerator over the fraction. Possible values are: <code>left</code>, <code>center</code> (default), and <code>right</code>.</dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -115,7 +100,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -123,3 +108,23 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes ==
+
+<dl>
+    <dt id="attr-bevelled">
+    bevelled</dt>
+  <dd>
+    Specifies the way the fraction is displayed. If <code>true</code>, the fraction line is bevelled, which means that numerator and denominator are displayed side by side and separated by a slash (/). Otherwise, if set to <code>false</code> (which is the default value), numerator and denominator are on top of each other.</dd>
+ <dt id="attr-denomalign">
+    denomalign</dt>
+  <dd>
+    The alignment of the denominator under the fraction. Possible values are: <code>left</code>, <code>center</code> (default), and <code>right</code>.</dd>
+  <dt id="attr-linethickness">
+    linethickness</dt>
+  <dd>
+    The thickness of the horizontal fraction line. The default value is <code>medium</code>, but <code>thin</code>, <code>thick</code>, and other length values can be set.</dd>
+  <dt id="attr-numalign">
+    numalign</dt>
+  <dd>
+    The alignment of the numerator over the fraction. Possible values are: <code>left</code>, <code>center</code> (default), and <code>right</code>.</dd>
+</dl>
