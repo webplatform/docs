@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links
+|Editorial notes=Needs example, fix broken links
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
