@@ -21,6 +21,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
+
+[[File:ValidityState_rangeOverflow_customError.png]]
 |Code=<syntaxHighlight lang="html5">
 <form>
 <div class="form-group">
