@@ -1,7 +1,7 @@
 {{Page_Title|MathML}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs review, fix broken links and compatibility tables.
+|State=Almost Ready
+|Editorial notes=Fix broken links
 |Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
