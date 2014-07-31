@@ -2,7 +2,6 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Needs parent
-
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -10,7 +9,9 @@
 {{Summary_Section|The MathML '''mtext''' element is used to render arbitrary text with no notational meaning, such as comments or annotations.
 To display text ''with'' notational meaning, use [[mathml/elements/mi|mi]] and [[mathml/elements/mo|mo]] instead.
 }}
-{{Markup_Element}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
