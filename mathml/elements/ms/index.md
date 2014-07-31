@@ -1,9 +1,15 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Fix broken link
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The MathML '''ms''' element represents a string literal meant to be interpreted by programming languages and computer algebra systems.}} By default, string literals are displayed as enclosed by double quotes (&quot;); by using the lquote and rquote attributes, you can set custom characters to display. Note that quotation marks should not be specified unless they are part of the string literal. The content of an <ms> element is not an ASCII string per se, but rather a sequence of characters and [[mathml/elements/mglyph|mglyph]] and [[mathml/elements/malignmark|malignmark]] elements.
-
+{{Summary_Section|The MathML '''ms''' element represents a string literal meant to be interpreted by programming languages and computer algebra systems.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -19,49 +25,6 @@
 }}
 }}
 {{Notes_Section}}
-== Attributes ==
-<dl>
-<dt id="attr-lquote">
-    lquote</dt>
-  <dd>
-    The opening quote character (depends on <code>dir</code>) to enclose the content. The default value is "<code>&amp;quot;".</code></dd>
- <dt id="attr-mathsize">
-    mathsize</dt>
-  <dd>
-    The size of the content. Possible values are:
-* <code>small:</code> Font is rendered smaller than the current font size.
-* <code>normal:</code> Equivalent to 100% or 1em.
-* <code>big:</code> Font is rendered larger than the current font size.
-* or a custom length.
-  </dd>
-  <dt id="attr-mathvariant">
-    mathvariant</dt>
-  <dd>
-    This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
-* <code>normal</code> (Default value for ''more than one character'')
-* <code>bold</code>
-* <code>italic</code> (Default value for ''a single character'')
-* <code>bold-italic</code>
-* <code>double-struck</code>
-* <code>bold-fraktur</code>
-* <code>script</code>
-* <code>bold-script</code>
-* <code>fraktur</code>
-* <code>sans-serif</code>
-* <code>bold-sans-serif</code>
-* <code>sans-serif-italic</code>
-* <code>sans-serif-bold-italic</code>
-* <code>monospace</code>
-* <code>initial</code>
-* <code>tailed</code>
-* <code>looped</code>
-* <code>stretched</code>
-  </dd>
-  <dt id="attr-rquote">
-    rquote</dt>
-  <dd>
-    The closing quote mark (depends on <code>dir</code>) to enclose the content. The default value is "<code>&amp;quot;".</code></dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -131,7 +94,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -139,3 +102,50 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+By default, string literals are displayed as enclosed by double quotes (&quot;); by using the lquote and rquote attributes, you can set custom characters to display. Note that quotation marks should not be specified unless they are part of the string literal. The content of an <ms> element is not an ASCII string per se, but rather a sequence of characters and [[mathml/elements/mglyph|mglyph]] and [[mathml/elements/malignmark|malignmark]] elements.
+
+
+
+== Attributes ==
+<dl>
+<dt id="attr-lquote">
+    lquote</dt>
+  <dd>
+    The opening quote character (depends on <code>dir</code>) to enclose the content. The default value is "<code>&amp;quot;".</code></dd>
+ <dt id="attr-mathsize">
+    mathsize</dt>
+  <dd>
+    The size of the content. Possible values are:
+* <code>small:</code> Font is rendered smaller than the current font size.
+* <code>normal:</code> Equivalent to 100% or 1em.
+* <code>big:</code> Font is rendered larger than the current font size.
+* or a custom length.
+  </dd>
+  <dt id="attr-mathvariant">
+    mathvariant</dt>
+  <dd>
+    This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
+* <code>normal</code> (Default value for ''more than one character'')
+* <code>bold</code>
+* <code>italic</code> (Default value for ''a single character'')
+* <code>bold-italic</code>
+* <code>double-struck</code>
+* <code>bold-fraktur</code>
+* <code>script</code>
+* <code>bold-script</code>
+* <code>fraktur</code>
+* <code>sans-serif</code>
+* <code>bold-sans-serif</code>
+* <code>sans-serif-italic</code>
+* <code>sans-serif-bold-italic</code>
+* <code>monospace</code>
+* <code>initial</code>
+* <code>tailed</code>
+* <code>looped</code>
+* <code>stretched</code>
+  </dd>
+  <dt id="attr-rquote">
+    rquote</dt>
+  <dd>
+    The closing quote mark (depends on <code>dir</code>) to enclose the content. The default value is "<code>&amp;quot;".</code></dd>
+</dl>
