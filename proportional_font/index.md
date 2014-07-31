@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
 |Checked_Out=No
 }}
 {{Glossary_Item
