@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs parent
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
