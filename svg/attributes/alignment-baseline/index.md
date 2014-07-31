@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|"alignment-baseline" specifies how an inline-level element( the element does not influence the extended block-progression dimension of the line) is aligned with respect to its parent.}}
 {{Markup_Attribute
@@ -29,7 +29,11 @@ The "EM box" is a relative measure of the height of the glyphs in the font. The 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=SVG 1.1
+|URL=http://www.w3.org/TR/SVG11/text.html
+|Status=W3C Recommendation
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
