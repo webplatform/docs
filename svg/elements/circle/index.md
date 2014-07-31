@@ -21,6 +21,13 @@
   <circle cx="100" cy="100" r="50" fill="tomato" />
 </svg>
 </syntaxhighlight>
+}}{{Single Example
+|Language=HTML
+|Description=Testing...
+|Code=
+<svg width="400" height="400">
+  <circle cx="100" cy="100" r="50" fill="tomato" />
+</svg>
 }}
 }}
 {{Notes_Section
