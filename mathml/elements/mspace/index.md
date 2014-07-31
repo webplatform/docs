@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mspace''' element is used to display a blank space, whose size is set by its attributes.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -20,26 +26,6 @@
 }}
 }}
 {{Notes_Section}}
-== Attributes ==
-<dl>
-  <dt id="attr-depth">
-    depth</dt>
-  <dd>
-    The desired depth (below the baseline) of the space (see length for values and units).</dd>
-  <dt id="attr-height">
-    height</dt>
-  <dd>
-    The desired height (above the baseline) of the space (see length for values and units).</dd>
-  <dt id="attr-linebreak">
-    linebreak</dt>
-  <dd>
-    Indicates a line-break at the space. Possible values: <code>auto</code> (default value), <code>newline</code>, <code>nobreak</code>, <code>goodbreak</code>, <code>badbreak</code>.<br />
-    Starting with MathML 3, it is preferred to use [[mathml/elements/mo|mo]] to control linebreaking.</dd>
-  <dt id="attr-width">
-    width</dt>
-  <dd>
-    The desired width of the space (see length for values and units).</dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -109,7 +95,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -117,3 +103,23 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes ==
+<dl>
+  <dt id="attr-depth">
+    depth</dt>
+  <dd>
+    The desired depth (below the baseline) of the space (see length for values and units).</dd>
+  <dt id="attr-height">
+    height</dt>
+  <dd>
+    The desired height (above the baseline) of the space (see length for values and units).</dd>
+  <dt id="attr-linebreak">
+    linebreak</dt>
+  <dd>
+    Indicates a line-break at the space. Possible values: <code>auto</code> (default value), <code>newline</code>, <code>nobreak</code>, <code>goodbreak</code>, <code>badbreak</code>.<br />
+    Starting with MathML 3, it is preferred to use [[mathml/elements/mo|mo]] to control linebreaking.</dd>
+  <dt id="attr-width">
+    width</dt>
+  <dd>
+    The desired width of the space (see length for values and units).</dd>
+</dl>
