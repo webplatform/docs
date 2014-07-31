@@ -15,17 +15,9 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=In the following code example, the circle element is used to draw a tomato-colored circle with radius 50.
-|Code=<syntaxhighlight lang="xml">
-<svg width="400" height="400">
-  <circle cx="100" cy="100" r="50" fill="tomato" />
-</svg>
-</syntaxhighlight>
-}}{{Single Example
 |Language=HTML
-|Description=Testing...
-|Code=
-<svg width="400" height="400">
+|Description=In the following code example, the circle element is used to draw a tomato-colored circle with radius 50.
+|Code=<svg width="400" height="400">
   <circle cx="100" cy="100" r="50" fill="tomato" />
 </svg>
 }}
