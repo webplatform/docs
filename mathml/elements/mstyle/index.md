@@ -1,9 +1,13 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs parent, fix broken links
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mstyle''' element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.}}
-
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -40,44 +44,6 @@
 }}
 }}
 {{Notes_Section}}
-== Attributes ==
-<dl>
-  <dt id="attr-decimalpoint">
-    decimalpoint</dt>
-  <dd>
-    This attribute is specifying the character for the alignment point within [[mathml/elements/mstack|mstack]] and [[mathml/elements/mtable|mtable]] columns, if the <code>decimalpoint</code> value is used to specify the alignment.</dd>
-  <dt id="attr-displaystyle">
-    displaystyle</dt>
-  <dd>
-    A Boolean value specifying whether more vertical space is used for displayed equations or, if set to <code>false</code>, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when <code>displaystyle</code> is set to <code>true</code>. See also <code>largeop</code> and <code>movablelimits</code> on [[mathml/elements/mo|mo]].</dd>
-  <dt id="attr-infixlinebreakstyle">
-    infixlinebreakstyle</dt>
-  <dd>
-    Specifies the default <code>linebreakstyle</code> to use for infix operators. The values <code>before</code>, <code>after</code> and <code>duplicate</code> are allowed.</dd>
-  <dt id="attr-scriptlevel">
-    scriptlevel</dt>
-  <dd>
-    Controls mostly the font-size. The higher the <code>scriptlevel</code>, the smaller the font size. This attribute accepts a non-negative integer, as well as a "+" or a "-" sign, which increments or decrements the current value. In addition, the <code>scriptlevel</code> attribute can never reduce the font size below <code>scriptminsize</code> in order to avoid unreadable small font sizes and depends on the multiplier specified in <code>scriptsizemultiplier</code>.</dd>
-  <dt id="attr-scriptminsize">
-    scriptminsize</dt>
-  <dd>
-    Specifies a minimum font size allowed due to changes in <code>scriptlevel</code>. The default value is 8pt.</dd>
-  <dt id="attr-scriptsizemultiplier">
-    scriptsizemultiplier</dt>
-  <dd>
-    Specifies the multiplier to be used to adjust font size due to changes in <code>scriptlevel</code>. The default value is 0.71.</dd>
-</dl>
-<p>The <code>&lt;mstyle&gt;</code> element accepts [[mathml/attributes|all attributes]] of all presentation attributes with the following exceptions:</p>
-<ul>
-  <li><code>height</code>, <code>depth</code> or <code>width</code> do not apply to [[mathml/elements/mglyph|mglyph]], [[mathml/elements/mpadded|mpadded]] or [[mathml/elements/mtable|mtable]].</li>
-  <li><code>rowalign</code>, <code>columnalign</code>, or <code>groupalign</code> do not apply to [[mathml/elements/mtr|mtr]], [[mathml/elements/mlabeledtr|mlabeledtr]], [[mathml/elements/mtd|mtd]] or [[mathml/elements/maligngroup|maligngroup]].</li>
-  <li><code>lspace</code> or <code>voffset</code> do not apply to [[mathml/elements/mpadded|mpadded]].</li>
-  <li><code>fontfamily</code> does not apply to [[mathml/elements/mglyph|mglyph]].</li>
-  <li><code>align</code> does not apply to [[mathml/elements/mtable|mtable]] or [[mathml/elements/mstack|mstack]].</li>
-  <li><code>index</code> cannot be set on <code>&lt;mstyle&gt;</code>.</li>
-  <li><code>src</code> and <code>alt</code> on [[mathml/elements/mglyph|mglyph]] cannot be set on <code>&lt;mstyle&gt;</code>.</li>
-  <li><code>actiontype</code> on [[mathml/elements/maction|maction]] cannot be set on <code>&lt;mstyle&gt;</code>.</li>
-</ul>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -147,7 +113,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -155,3 +121,41 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes ==
+<dl>
+  <dt id="attr-decimalpoint">
+    decimalpoint</dt>
+  <dd>
+    This attribute is specifying the character for the alignment point within [[mathml/elements/mstack|mstack]] and [[mathml/elements/mtable|mtable]] columns, if the <code>decimalpoint</code> value is used to specify the alignment.</dd>
+  <dt id="attr-displaystyle">
+    displaystyle</dt>
+  <dd>
+    A Boolean value specifying whether more vertical space is used for displayed equations or, if set to <code>false</code>, a more compact layout is used to display formulas. The main effect is that larger versions of operators are displayed, when <code>displaystyle</code> is set to <code>true</code>. See also <code>largeop</code> and <code>movablelimits</code> on [[mathml/elements/mo|mo]].</dd>
+  <dt id="attr-infixlinebreakstyle">
+    infixlinebreakstyle</dt>
+  <dd>
+    Specifies the default <code>linebreakstyle</code> to use for infix operators. The values <code>before</code>, <code>after</code> and <code>duplicate</code> are allowed.</dd>
+  <dt id="attr-scriptlevel">
+    scriptlevel</dt>
+  <dd>
+    Controls mostly the font-size. The higher the <code>scriptlevel</code>, the smaller the font size. This attribute accepts a non-negative integer, as well as a "+" or a "-" sign, which increments or decrements the current value. In addition, the <code>scriptlevel</code> attribute can never reduce the font size below <code>scriptminsize</code> in order to avoid unreadable small font sizes and depends on the multiplier specified in <code>scriptsizemultiplier</code>.</dd>
+  <dt id="attr-scriptminsize">
+    scriptminsize</dt>
+  <dd>
+    Specifies a minimum font size allowed due to changes in <code>scriptlevel</code>. The default value is 8pt.</dd>
+  <dt id="attr-scriptsizemultiplier">
+    scriptsizemultiplier</dt>
+  <dd>
+    Specifies the multiplier to be used to adjust font size due to changes in <code>scriptlevel</code>. The default value is 0.71.</dd>
+</dl>
+<p>The <code>&lt;mstyle&gt;</code> element accepts [[mathml/attributes|all attributes]] of all presentation attributes with the following exceptions:</p>
+<ul>
+  <li><code>height</code>, <code>depth</code> or <code>width</code> do not apply to [[mathml/elements/mglyph|mglyph]], [[mathml/elements/mpadded|mpadded]] or [[mathml/elements/mtable|mtable]].</li>
+  <li><code>rowalign</code>, <code>columnalign</code>, or <code>groupalign</code> do not apply to [[mathml/elements/mtr|mtr]], [[mathml/elements/mlabeledtr|mlabeledtr]], [[mathml/elements/mtd|mtd]] or [[mathml/elements/maligngroup|maligngroup]].</li>
+  <li><code>lspace</code> or <code>voffset</code> do not apply to [[mathml/elements/mpadded|mpadded]].</li>
+  <li><code>fontfamily</code> does not apply to [[mathml/elements/mglyph|mglyph]].</li>
+  <li><code>align</code> does not apply to [[mathml/elements/mtable|mtable]] or [[mathml/elements/mstack|mstack]].</li>
+  <li><code>index</code> cannot be set on <code>&lt;mstyle&gt;</code>.</li>
+  <li><code>src</code> and <code>alt</code> on [[mathml/elements/mglyph|mglyph]] cannot be set on <code>&lt;mstyle&gt;</code>.</li>
+  <li><code>actiontype</code> on [[mathml/elements/maction|maction]] cannot be set on <code>&lt;mstyle&gt;</code>.</li>
+</ul>
