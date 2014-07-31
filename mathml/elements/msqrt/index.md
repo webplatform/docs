@@ -1,9 +1,13 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs parent
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''msqrt''' element is used to display square roots (no index is displayed). The square root accepts only one argument, which leads to the following syntax: <msqrt> base </msqrt>.}}
-
+{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -90,7 +94,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
