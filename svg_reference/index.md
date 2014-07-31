@@ -1,7 +1,7 @@
 {{Page_Title|SVG reverence}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Page with no meaning
+|Editorial notes=Page with no meaning. No content, broken table code
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
