@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=Page that is not being used elsewhere
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
 |Checked_Out=No
 }}
 {{Glossary_Item
