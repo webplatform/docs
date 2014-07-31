@@ -1,13 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mrow''' element is used to group sub-expressions, which usually contain one or more operators with their respective operands (such as [[mathml/elements/mi|mi]] and [[mathml/elements/mn|mn]]). This element renders as a horizontal row containing its arguments.}}
-When writing a MathML expression, you should group elements within an <mrow> in the same way as they are grouped in the mathematical interpretation of the expression. Proper grouping helps the rendering of the expression in several ways:
-* It can improve the display by possibly affecting spacing.
-* It allows for more intelligent line-breaking and indentation.
-* It simplifies the interpretation of the expression by automated systems such as computer algebra systems and audio renderers.
-
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -106,7 +107,7 @@ When writing a MathML expression, you should group elements within an <mrow> in 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -114,3 +115,7 @@ When writing a MathML expression, you should group elements within an <mrow> in 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+When writing a MathML expression, you should group elements within an <mrow> in the same way as they are grouped in the mathematical interpretation of the expression. Proper grouping helps the rendering of the expression in several ways:
+* It can improve the display by possibly affecting spacing.
+* It allows for more intelligent line-breaking and indentation.
+* It simplifies the interpretation of the expression by automated systems such as computer algebra systems and audio renderers.
