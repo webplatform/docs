@@ -54,7 +54,9 @@ document.getElementById('txtemail').addEventListener('blur',validEmail,false);
 &lt;/body&gt;&lt;/html&gt;
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=Use to validate input fields of type email or url instead of patternMismatch.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5
