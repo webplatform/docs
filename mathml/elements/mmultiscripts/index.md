@@ -1,18 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The MathML '''mmultiscripts''' element allows you to create tensor-like objects.}} In a descriptive way [http://en.wikipedia.org/wiki/Tensor tensors] are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the [http://en.wikipedia.org/wiki/Tensor entry on Wikipedia].
-
-MathML uses a special syntax to describe subscripts and superscripts for both, postscripts and prescripts, attached to a base expression:
-<syntaxhighlight>
-<mmultiscripts>
-    base
-     (subscript superscript)*
-     [ <mprescripts/> (presubscript presuperscript)* ]
-</mmultiscripts>
-</syntaxhighlight>
-After the base expression you can specify a postsubscript and a postsuperscript. Prescripts are optional and are separated by the empty tag <mprescripts/>. In addition you are able to use <none/> as a placeholder for empty positions.
+{{Summary_Section|The MathML '''mmultiscripts''' element allows you to create tensor-like objects.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -56,17 +52,6 @@ After the base expression you can specify a postsubscript and a postsuperscript.
 }}
 }}
 {{Notes_Section}}
-== Attributes ==
-<dl>
-  <dt id="attr-subscriptshift">
-    subscriptshift</dt>
-  <dd>
-    The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.</dd>
-  <dt id="attr-superscriptshift">
-    superscriptshift</dt>
-  <dd>
-    The minimum space by which to shift the superscript above the baseline of the expression, as a CSS length.</dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -136,7 +121,7 @@ After the base expression you can specify a postsubscript and a postsuperscript.
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -144,3 +129,27 @@ After the base expression you can specify a postsubscript and a postsuperscript.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+In a descriptive way [http://en.wikipedia.org/wiki/Tensor tensors] are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the [http://en.wikipedia.org/wiki/Tensor entry on Wikipedia].
+
+MathML uses a special syntax to describe subscripts and superscripts for both, postscripts and prescripts, attached to a base expression:
+<syntaxhighlight>
+<mmultiscripts>
+    base
+     (subscript superscript)*
+     [ <mprescripts/> (presubscript presuperscript)* ]
+</mmultiscripts>
+</syntaxhighlight>
+After the base expression you can specify a postsubscript and a postsuperscript. Prescripts are optional and are separated by the empty tag <mprescripts/>. In addition you are able to use <none/> as a placeholder for empty positions.
+
+
+== Attributes ==
+<dl>
+  <dt id="attr-subscriptshift">
+    subscriptshift</dt>
+  <dd>
+    The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.</dd>
+  <dt id="attr-superscriptshift">
+    superscriptshift</dt>
+  <dd>
+    The minimum space by which to shift the superscript above the baseline of the expression, as a CSS length.</dd>
+</dl>
