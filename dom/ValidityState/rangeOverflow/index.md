@@ -21,34 +21,32 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
-|Code=&lt;label&gt;Enter a number between 4 and 20&lt;br/&gt;
-&lt;input id{{=}}"myField" type{{=}}"number" required  min{{=}}"4" max{{=}}"20" step{{=}}"2" /&gt;&lt;/label&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-var el{{=}}document.getElementById('myField');
-function validRange(evt){
-var el=evt.target;
-if(el.validity){
-// HTML5 aware browsers
-if(el.validity.rangeOverflow){
-el.setCustomValidity('The entered number is outside the acceptable range.')
-}else{
-el.setCustomValidity("");
-}
-}else{
-// legacy validation
-
-}
-}
-el.addEventListener('blur',validRange,false);
-&lt;/script&gt;
-
-<syntaxHighlight lang="html5">
+|Code=<syntaxHighlight lang="html5">
+<form>
 <div class="form-group">
-    <label for="ex[nbr4to20]">Enter a number between 4 and 20</label>
-    <input id="ex[nbr4to20]" type="email" class="form-control" type="number" required  min="4" max="20" step="2" placeholder="e.g. 6">
-  </div>
+  <label for="ex_nbr4to20">Enter a number between 4 and 20</label>
+  <input id="ex_nbr4to20" name="ex[nbr4to20]" class="form-control" type="number" required  min="4" max="20" step="2" placeholder="e.g. 6">
+</div>
+<input type="submit" value="Try Submitting" />
+</form>
 <script>
-var el = document.getElementById('myField');
+  var fieldElement=document.getElementById('ex_nbr4to20');
+  function onBlurHandler(event){
+    var field = event.target;
+    console.log(field.validity, field.validity.rangeOverflow);
+    if(!!field.validity) {
+      if(!!field.validity.rangeOverflow){
+        // Try setting a range over 20
+        field.setCustomValidity("The number is outside of an acceptable range");
+      } else {
+        field.setCustomValidity(""); // Has to be an empty string
+      }
+    } else {
+      // Legacy validation
+    }
+    //console.log(field.validity);
+  }
+  fieldElement.addEventListener('blur', onBlurHandler, false);
 </script>
 </syntaxHighlight>
 }}
