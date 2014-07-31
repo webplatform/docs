@@ -1,9 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mn''' element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".}}
-
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -27,41 +32,6 @@
 }}
 }}
 {{Notes_Section}}
-== Attributes ==
-<dl>
- <dt id="attr-mathsize">
-    mathsize</dt>
-  <dd>
-    The size of the content. Possible values are:
-* <code>small:</code> Font is rendered smaller than the current font size.
-* <code>normal:</code> Equivalent to 100% or 1em.
-* <code>big:</code> Font is rendered larger than the current font size.
-* or a custom length.
-  </dd>
-  <dt id="attr-mathvariant">
-    mathvariant</dt>
-  <dd>
-    This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
-* <code>normal</code> (Default value for ''more than one character'')
-* <code>bold</code>
-* <code>italic</code> (Default value for ''a single character'')
-* <code>bold-italic</code>
-* <code>double-struck</code>
-* <code>bold-fraktur</code>
-* <code>script</code>
-* <code>bold-script</code>
-* <code>fraktur</code>
-* <code>sans-serif</code>
-* <code>bold-sans-serif</code>
-* <code>sans-serif-italic</code>
-* <code>sans-serif-bold-italic</code>
-* <code>monospace</code>
-* <code>initial</code>
-* <code>tailed</code>
-* <code>looped</code>
-* <code>stretched</code>
-  </dd>
-</dl>
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -131,7 +101,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -139,3 +109,38 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes ==
+<dl>
+ <dt id="attr-mathsize">
+    mathsize</dt>
+  <dd>
+    The size of the content. Possible values are:
+* <code>small:</code> Font is rendered smaller than the current font size.
+* <code>normal:</code> Equivalent to 100% or 1em.
+* <code>big:</code> Font is rendered larger than the current font size.
+* or a custom length.
+  </dd>
+  <dt id="attr-mathvariant">
+    mathvariant</dt>
+  <dd>
+    This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
+* <code>normal</code> (Default value for ''more than one character'')
+* <code>bold</code>
+* <code>italic</code> (Default value for ''a single character'')
+* <code>bold-italic</code>
+* <code>double-struck</code>
+* <code>bold-fraktur</code>
+* <code>script</code>
+* <code>bold-script</code>
+* <code>fraktur</code>
+* <code>sans-serif</code>
+* <code>bold-sans-serif</code>
+* <code>sans-serif-italic</code>
+* <code>sans-serif-bold-italic</code>
+* <code>monospace</code>
+* <code>initial</code>
+* <code>tailed</code>
+* <code>looped</code>
+* <code>stretched</code>
+  </dd>
+</dl>
