@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mfenced''' element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression. }}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
