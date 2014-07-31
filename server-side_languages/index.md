@@ -1,7 +1,7 @@
 {{Page_Title|Server-side languages}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs review.
+|State=Not Ready
+|Editorial notes=Should not be a webplatform.org topic; deletion candidate
 |Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete
