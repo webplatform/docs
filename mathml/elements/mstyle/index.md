@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs parent, fix broken links
+|Editorial notes=Fix broken links
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mstyle''' element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.}}
-{{Markup_Element}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
