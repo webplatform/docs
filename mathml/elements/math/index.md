@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs review, template review http://docs.webplatform.org/wiki/Template:Markup_Element
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The top-level element in MathML is '''<math>'''. Every valid MathML instance must be wrapped in <math> tags. In addition you must not nest a second <math> element in another, but you can have an arbitrary number of other child elements in it.}}
-{{Markup_Element}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
