@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mpadded''' element is used to add extra padding and to set the general adjustment of position and size of enclosed contents.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -22,33 +28,6 @@
 }}
 }}
 {{Notes_Section}}
-
-== Attributes ==
-<dl>
-  <dt id="attr-depth">
-    depth</dt>
-  <dd>
-    Sets or increments the depth. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
-  <dt id="attr-height">
-    height</dt>
-  <dd>
-    Sets or increments the height. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
-  <dt id="attr-lspace">
-    lspace</dt>
-  <dd>
-    Sets or increments the horizontal position. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
-  <dt id="attr-voffset">
-    voffset</dt>
-  <dd>
-    Sets or increments the vertical position. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
-  <dt id="attr-width">
-    width</dt>
-  <dd>
-    Sets or increments the width. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
-</dl>
-=== Pseudo-units ===
-It is possible to use the keywords <code>"depth</code>",<code> "height"</code>, and <code>"width"</code> as a pseudo-unit for the attributes <code>depth</code>, <code>height</code>, <code>lspace</code>, <code>voffset</code>, and <code>width</code>. They represent each length of the same-named dimension.
-
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=MathML 3.0
@@ -118,7 +97,7 @@ It is possible to use the keywords <code>"depth</code>",<code> "height"</code>, 
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
@@ -126,3 +105,28 @@ It is possible to use the keywords <code>"depth</code>",<code> "height"</code>, 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+== Attributes ==
+<dl>
+  <dt id="attr-depth">
+    depth</dt>
+  <dd>
+    Sets or increments the depth. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
+  <dt id="attr-height">
+    height</dt>
+  <dd>
+    Sets or increments the height. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
+  <dt id="attr-lspace">
+    lspace</dt>
+  <dd>
+    Sets or increments the horizontal position. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
+  <dt id="attr-voffset">
+    voffset</dt>
+  <dd>
+    Sets or increments the vertical position. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
+  <dt id="attr-width">
+    width</dt>
+  <dd>
+    Sets or increments the width. Possible values: Any length or an increment/decrement (a length prefixed with "+" or "-") .</dd>
+</dl>
+=== Pseudo-units ===
+It is possible to use the keywords <code>"depth</code>",<code> "height"</code>, and <code>"width"</code> as a pseudo-unit for the attributes <code>depth</code>, <code>height</code>, <code>lspace</code>, <code>voffset</code>, and <code>width</code>. They represent each length of the same-named dimension.
