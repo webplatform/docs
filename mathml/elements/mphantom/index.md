@@ -1,8 +1,14 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The MathML '''mphantom''' element is rendered invisibly, but dimensions (such as height, width, and baseline position) are still kept.}}
+{{Markup_Element
+|DOM_interface=mathml
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -93,7 +99,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|MathML, Markup_Elements}}
+{{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
