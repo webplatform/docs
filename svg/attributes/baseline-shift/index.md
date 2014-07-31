@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=Needs parent, example
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
