@@ -42,8 +42,14 @@ el.setCustomValidity("");
 el.addEventListener('blur',validRange,false);
 &lt;/script&gt;
 
-<syntaxHighlight lang="javascript">
-var hi = "hji";
+<syntaxHighlight lang="html5">
+<div class="form-group">
+    <label for="ex[nbr4to20]">Enter a number between 4 and 20</label>
+    <input id="ex[nbr4to20]" type="email" class="form-control" type="number" required  min="4" max="20" step="2" placeholder="e.g. 6">
+  </div>
+<script>
+var el = document.getElementById('myField');
+</script>
 </syntaxHighlight>
 }}
 }}
