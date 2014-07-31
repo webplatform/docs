@@ -41,6 +41,10 @@ el.setCustomValidity("");
 }
 el.addEventListener('blur',validRange,false);
 &lt;/script&gt;
+
+<syntaxHighlight lang="javascript">
+var hi = "hji";
+</syntaxHighlight>
 }}
 }}
 {{Notes_Section}}
