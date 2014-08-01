@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed import
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
-{{Summary_Section|Executes a statement or series of statements until a specified condition is false.}}
+{{Summary_Section|Executes a statement or series of statements while a specified condition is true.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=while ( expression ) {
@@ -27,8 +27,6 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the while statement. The counter i increments until it reaches the value 100.
-
-
 |Code=var i = 0;
 while (i &lt; 100) {
     i++;
