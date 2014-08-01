@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed import
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Summary_Section|Enables the execution of one or more statements when a specified expression's value matches a label.}}
