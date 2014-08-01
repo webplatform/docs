@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Summary_Section|Executes a block of statements for as long as a specified condition is true.}}
