@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Represents a [[dom/MouseWheelEvent/mousewheel|mousewheel]] event.}}
+{{Summary_Section|The DOM WheelEvent represents events that occur due to the user moving a mouse wheel or similar input device.}}
 {{API_Object
 |Subclass_of=dom/MouseEvent, dom/UIEvent, dom/Event
 }}
