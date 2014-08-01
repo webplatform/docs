@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Unreviewed import and deprecated function
+|Editorial notes=Deletion candidate; deprecated function
 |Checked_Out=No
 }}
 {{Summary_Section|'''Deprecated'''
