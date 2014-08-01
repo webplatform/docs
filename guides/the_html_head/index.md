@@ -177,7 +177,7 @@ You add JavaScript to a document using the <code>script</code> element. When a b
       font-size:300%;
     }
   </style>
-  <script>
+  <script type="application/javascript">
     function leave(){
       return confirm("This will take you to another site,\n are you sure you want to go?")
     }
@@ -220,7 +220,7 @@ It is much better to put your styles and scripts in external files, and import t
       font-size:300%;
     }
   </style>
-  <script src="leaving.js"></script>
+  <script type="application/javascript" src="leaving.js"></script>
 </head>
 <body>
 Test!
@@ -239,7 +239,7 @@ It is not as easy with CSS. The <code>style</code> element does not have a <code
   <meta name="keywords" content="Dogs,Alsatian,Breeding,Dog,Tips,Free,Pet">
   <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
   <link rel="stylesheet" type="text/css" media="print" href="printstyles.css">
-  <script src="leaving.js"></script>
+  <script type="application/javascript" src="leaving.js"></script>
 </head>
 <body>
 Test!
