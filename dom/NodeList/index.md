@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Represents a list of DOM [[Node|dom/Node]]s}}
+{{Summary_Section|Represents a list of DOM [[dom/Node|Node]]s}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
