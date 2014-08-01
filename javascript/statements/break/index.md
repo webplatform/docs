@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
-{{Summary_Section|Terminates the current loop, or if in conjunction with a label , terminates the associated statement.}}
+{{Summary_Section|Terminates the current loop or, if in conjunction with a label, terminates the associated statement.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=break [ label ];
