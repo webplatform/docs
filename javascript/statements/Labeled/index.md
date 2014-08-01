@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status. Probably should be renamed to label.
 |Checked_Out=No
 }}
 {{Summary_Section|Provides an identifier for a statement.}}
