@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed import
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status. Probably should be renamed to "else if".
 |Checked_Out=No
 }}
 {{Summary_Section|Conditionally executes a group of statements, depending on the value of an expression.}}
