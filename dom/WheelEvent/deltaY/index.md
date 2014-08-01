@@ -1,9 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Out of Date
-|Editorial notes=Non Standard... not documented
-see http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx
-|Checked_Out=No
+|State=In Progress
+|Editorial notes=needs example
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -44,8 +43,8 @@ see http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx MouseWheelEvent]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent WheelEvent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974800(v=vs.85).aspx deltaY Property]
 |HTML5Rocks_link=
 }}
