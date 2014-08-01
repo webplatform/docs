@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Gets the ''n''th item in the collection}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
