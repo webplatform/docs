@@ -1,14 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Out of Date
-|Editorial notes=Not documented on MSDN
-see MouseWheelEvent
-http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx
-|Checked_Out=No
+|State=Almost Ready
+|Editorial notes=Needs example with difference between MouseWheelEvent and WheelEvent
+|Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|Non-Standard}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Gets a value that indicates the unit of measurement for delta values.}}
 {{API_Object_Property
@@ -46,7 +44,8 @@ http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent WheelEvent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974798(v=vs.85).aspx deltaMode Property]
 |HTML5Rocks_link=
 }}
