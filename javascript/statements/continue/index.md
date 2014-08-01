@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Summary_Section|Stops the current iteration of a loop, and starts a new iteration.}}
@@ -16,7 +17,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=In this example, a loop iterates from 1 through 9. The statements between continue and the end of the for body are skipped because of the use of the continue statement together with the expression <code>(i &lt; 5)</code>.
-|Code= for (var i = 1; i &lt; 10; i++) {
+|Code=for (var i = 1; i &lt; 10; i++) {
      if (i &lt; 5) {
          continue;
      }
@@ -28,7 +29,7 @@
 }}{{Single Example
 |Language=JavaScript
 |Description=In the following code, the continue statement refers to the for loop that is preceded by the <code>Inner:</code> label. When <code>j</code> is 24, the continue statement causes that for loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
-|Code= Outer:
+|Code=Outer:
  for (var i = 1; i &lt;= 10; i++) {
      document.write ("&lt;br /&gt;");
      document.write ("i: " + i);
