@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Rename the page to 'comment' instead of 'Comment'
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status; probably should be renamed to 'comment' instead of 'Comment'
 |Checked_Out=No
 }}
 {{Summary_Section|Causes comments to be ignored by the JavaScript parser.}}
