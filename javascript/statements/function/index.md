@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Summary_Section|Declares a new function.}}
 {{JS_Syntax
@@ -30,39 +30,50 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the function statement.
-|Code=//Defining the function myfunction
-
-function myfunction (arg1, arg2) {
-    var r = arg1 * arg2;
+|Code=//Defining the function myFunc
+function myFunc () {
+    var r = 3 * 4;
     return(r);
 }
 
 //Calling the function
+myFunc();
 
-myfunction(2, 5);
-//Output: 10
+//Output: 12
+}}{{Single Example
+|Language=JavaScript
+|Description=It's possible to pass along arguments within the parantheses when calling the function.
+|Code=//Defining the function myFunc
+function myFunc (name) {
+    console.log('Hello, ' + name + '!');
+}
+
+//Calling the function
+myFunc('Susan');
+
+//Output: Hello, Susan!
 }}{{Single Example
 |Language=JavaScript
 |Description=A function can be assigned to a variable. This is illustrated in the following example.
-|Code=function AddFive(x) {
+|Code=function addFive(x) {
      return x + 5;
  }
  
- function AddTen(x) {
+ function addTen(x) {
      return x + 10;
  }
  
  var condition = false;
  
- var MyFunc;
+ var myFunc;
  if (condition) {
-     MyFunc = AddFive;
+     myFunc = addFive;
  }
  else {
-     MyFunc = AddTen;
+     myFunc = addTen;
  }
  
- var result = MyFunc(123);
+ var result = myFunc(123);
  // Output: 133
 }}
 }}
@@ -78,7 +89,6 @@ The [[javascript/statements/return{{!}}return]] statement is used to return a va
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
-
 }}
 {{JS Topics
 |JS Page Type=JS Function
