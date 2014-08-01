@@ -18,7 +18,7 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 ===What is web accessibility?===
 
-<p>Web accessibility means that people with disabilities can use the Web. More specifically, it means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web. For an introduction to <strong>why</strong> - the case for web accessibility, <strong>what</strong> - examples of web accessibility, and <strong>how</strong> to make your website and web tools accessible, see [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C].</p>
+<p>Web accessibility means that people with disabilities can use the Web. More specifically, it means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web. For an introduction to <strong>why</strong> - the case for web accessibility, <strong>what</strong> - examples of web accessibility, and <strong>how</strong> to make your website and web tools accessible, see [[concepts/accessibility/writing_for_an_accessible_web|Writing for an Accessible Web]] and [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C].</p>
 
 <p>Web accessibility encompasses all disabilities that affect access to the Web, including people with auditory, cognitive, neurological, physical, speech, and visual disabilities. Accessibility includes people with impairments due to ageing.</p>
 
