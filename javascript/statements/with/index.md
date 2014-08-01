@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed import
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Summary_Section|Establishes the default object for a statement.}}
@@ -22,19 +22,25 @@
 {{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Remarks_Section
-|Remarks=The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In the example that follows, notice the repeated use of Math.
-
- x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10) 
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In this example, notice the repeated use of Math.
+|Code=x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10) 
  y = Math.tan(14 * Math.E)
-When you use the with statement, your code becomes shorter and easier to read:
-
- with (Math){
+}}{{Single Example
+|Language=JavaScript
+|Description=When you use the with statement, your code becomes shorter and easier to read:
+|Code=with (Math){
     x = cos(3 * PI) + sin (LN10)  
     y = tan(14 * E)
  }
+}}
+}}
+{{Remarks_Section
+|Remarks=
+ 
+
+ 
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
