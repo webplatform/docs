@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Summary_Section|Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.}}
