@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|Declares a new function.}}
 {{JS_Syntax
