@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Add description and compatibility.
-'''As of time of writing, this property is not yet implemented in most browsers.'''
+|State=Almost Ready
+|Editorial notes=As of time of writing, this property is not yet implemented in most browsers.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
