@@ -10,7 +10,7 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
-|Name=item
+|Name=index
 |Data type=unsigned long
 |Description=The index into the collection
 |Optional=No
