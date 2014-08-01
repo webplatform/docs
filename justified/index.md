@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Glossary term; move candidate
+|Editorial notes=Deletion candidate; dup of justification
 |Checked_Out=No
 }}
 {{Glossary_Item
