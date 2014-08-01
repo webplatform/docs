@@ -30,10 +30,17 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the function statement.
-|Code=function myfunction (arg1, arg2) {
-     var r = arg1 * arg2;
-     return(r);
- }
+|Code=//Defining the function myfunction
+
+function myfunction (arg1, arg2) {
+    var r = arg1 * arg2;
+    return(r);
+}
+
+//Calling the function
+
+myfunction(2, 5);
+//Output: 10
 }}{{Single Example
 |Language=JavaScript
 |Description=A function can be assigned to a variable. This is illustrated in the following example.
@@ -71,10 +78,11 @@ The [[javascript/statements/return{{!}}return]] statement is used to return a va
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
+
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Function
+|Applies to=Function
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
