@@ -1,8 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=see https://developer.mozilla.org/en-US/docs/Web/API/MouseWheelEvent
+where it is flagged as non-standard.
+
+I am unsure what W3c document this applies to.
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -11,7 +16,7 @@
 |Subclass_of=dom/MouseEvent, dom/UIEvent, dom/Event
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
@@ -34,8 +39,8 @@
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/MouseWheelEvent MouseWheelEvent]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974345(v=vs.85).aspx MouseWheelEvent]
 |HTML5Rocks_link=
 }}
