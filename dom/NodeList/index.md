@@ -25,11 +25,11 @@ for(var i=0; i<list.lengthl i++){
 |Specifications={{Related Specification
 |Name=DOM Level 1
 |URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177
-|Status=Recommendation
+|Status=W3C Recommendation
 }}{{Related Specification
 |Name=DOM
 |URL=http://www.w3.org/TR/dom/#nodelist
-|Status=Working Draft
+|Status=W3C Working Draft
 }}
 }}
 {{Compatibility_Section
