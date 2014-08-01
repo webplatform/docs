@@ -17,7 +17,7 @@
 {{JS_Return_Value
 |Description=Boolean value. Either true if object is an array; otherwise, false. 
 
-If the object argument is not an object, false is returned.
+If the object argument is not an object, false or undefined is returned.
 }}
 {{Examples_Section
 |Not_required=No
