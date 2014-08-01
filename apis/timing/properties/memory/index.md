@@ -6,7 +6,7 @@
 |High-level issues=Stub, Deletion Candidate
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status|Experimental}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.}}
 {{API_Object_Property
@@ -15,7 +15,7 @@
 |Example_object_name=window.performance
 |Return_value_name=memoryInfo
 |Javascript_data_type=Object
-|Return_value_description=An object created with `MemoryInfo` constructor, containing  `jsHeapSizeLimit`, `totalJSHeapSize` and `usedJSHeapSize` properties with numerical valies.
+|Return_value_description=An object created with ''MemoryInfo'' constructor, containing  ''jsHeapSizeLimit'', ''totalJSHeapSize'' and ''usedJSHeapSize'' properties with numerical values.
 |Example_value_name=memoryInfo
 }}
 {{Examples_Section
@@ -33,7 +33,7 @@
 }}
 }}
 {{Notes_Section
-|Notes=`usedJsHeapSize` is the total amount of memory being used by JS objects including V8 internal objects, `totalJsHeapSize` is current size of the JS heap including free space not occupied by any JS objects. This means that `usedJsHeapSize` can not be greater than `totalJsHeapSize`. Note that it is not necessarily that there has ever been `totalJsHeapSize` of alive JS objects.
+|Notes=''usedJsHeapSize'' is the total amount of memory being used by JS objects including V8 internal objects, ''totalJsHeapSize'' is current size of the JS heap including free space not occupied by any JS objects. This means that ''usedJsHeapSize'' can not be greater than ''totalJsHeapSize''. Note that it is not necessarily that there has ever been ''totalJsHeapSize'' of alive JS objects.
 
 The values are quantized as to not expose private information to attackers.
 
@@ -50,6 +50,7 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
 |Chrome_supported=Yes
+|Chrome_version=22
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=No
@@ -73,11 +74,11 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome
 |Version=Earlier than ~22
-|Note=Needs `--enable-memory-info` [https://bugs.webkit.org/show_bug.cgi?id=86636 Webkit Ticket]
+|Note=Needs ''--enable-memory-info'' [https://bugs.webkit.org/show_bug.cgi?id=86636 Webkit Ticket]
 }}{{Compatibility Notes Row
 |Browser=Chrome
 |Version=~22 - 37
-|Note=Use `--enable-memory-info` to get precise, non quantized memory usage numbers.
+|Note=Use ''--enable-memory-info'' to get precise, non quantized memory usage numbers.
 }}
 }}
 {{See_Also_Section}}
