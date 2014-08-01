@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Merge with javascript/reserved words.
+|Editorial notes=Merge candidate, with javascript/reserved words.
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists JavaScript statements.}}
