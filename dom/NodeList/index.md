@@ -40,7 +40,7 @@ for(var i=0; i<list.lengthl i++){
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics|API, DOM}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
