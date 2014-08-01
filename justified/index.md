@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Consider merging with http://docs.webplatform.org/wiki/justification
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
 |Checked_Out=No
 }}
 {{Glossary_Item
