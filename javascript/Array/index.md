@@ -119,7 +119,7 @@ Using an array literal to declare your array this way avoids some of the quirkin
 Your array can consist of different values and types. Here's an array that provides describes my dog:
 <pre>var goodDog = ["Rover", 7, true];</pre>
 This array combines a string, a number and a Boolean value.
-An array is often called a zero-indexed, or as having a zero-based index, because the numerical key, or index, starts at zero. (prof.dr. Edsger W. Dijkstra gives a reason [http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html why numbering should start at zero].) This means you can refer to the items in your array by referencing the index. So in <code>goodDog</code>, above, you reference the dog's name with <code>goodDog[0]</code>, or his age with <code>goodDog[1]</code>, or whether he is, indeed, a good dog with <code>goodDog[3]</code>.
+An array is often called a zero-indexed, or as having a zero-based index, because the numerical key, or index, starts at zero. (prof.dr. Edsger W. Dijkstra gives a reason [http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html why numbering should start at zero].) This means you can refer to the items in your array by referencing the index. So in <code>goodDog</code>, above, you reference the dog's name with <code>goodDog[0]</code>, or his age with <code>goodDog[1]</code>, or whether he is, indeed, a good dog with <code>goodDog[2]</code>.
 Arrays can be dimensional as well. This helps when your setting up something that has row and column patterns, such as seats in a theatre or a checkerboard. So, for example, to describe a college dormitory that has 5 beds per floor and 2 floors, you can set up a two-dimensional array that looks like the following:
 
 <pre>
