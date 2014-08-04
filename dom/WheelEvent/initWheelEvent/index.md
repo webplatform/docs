@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Initializes a new WheelEvent that the createEvent method created. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
@@ -111,7 +111,34 @@ For example -
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=   function dispatchWheelEvent(){
+   		var evt{{=}}document.createEvent('WheelEvent');
+   		var theform{{=}}document.forms.dispatch;
+   		//var retval {{=}} WheelEvent.initWheelEvent(eventType, canBubble, cancelable, view, detail, screenXArg, screenYArg, clientXArg, clientYArg, buttonArg, relatedTargetArg, modifiersListArg, deltaX, deltaY, deltaZ, deltaMode); 
+   		evt.initWheelEvent('wheel', 
+   							theform.chkcanbubble.checked,
+   							theform.chkcancellable.checked,
+   							eval(theform.view.value),
+   							theform.detail.value,
+   							theform.screenx.value,
+   							theform.screeny.value,
+   							theform.clientx.value,
+   							theform.clienty.value,
+   							theform.button.value,
+   							null,
+   							theform.modifierlist.value,
+   							theform.deltax.value,
+   							theform.deltay.value,
+   							theform.deltaz.value,
+   							theform.cbodeltamode.value);   
+
+   							
+   		window.dispatchEvent(evt);
+   }
+
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -135,6 +162,6 @@ For example -
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975254(v=vs.85).aspx initWheelEvent]
 |HTML5Rocks_link=
 }}
