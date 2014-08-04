@@ -66,10 +66,16 @@ HTTP follows a number of patterns to give it well-defined functionality for the 
 ==== List of Specifications ====
 
 # Informally implemented since 1991
-# HTTP/1.0, May 1996 [http://tools.ietf.org/html/rfc2068 RFC2068]
+# HTTP/1.0, May 1996 [http://tools.ietf.org/html/rfc1945 RFC1945]
 # HTTP/1.1 first revision, January 1997 [http://tools.ietf.org/html/rfc2068 RFC2068]
 # HTTP/1.1, second revision June 1999 [http://tools.ietf.org/html/rfc2616 RFC2616]
 # HTTP/1.1, third revision June 2014 [http://tools.ietf.org/html/rfc7230 RFC7230] [http://tools.ietf.org/html/rfc7231 RFC7231] [http://tools.ietf.org/html/rfc7232 RFC7232] [http://tools.ietf.org/html/rfc7233 RFC7233] [http://tools.ietf.org/html/rfcC7234 RFC7234] [http://tools.ietf.org/html/rfcC7235 RFC7235]
+
+
+
+
+== References ==
+<references/>
 {{Notes_Section}}
 {{Topics|Web Services}}
 {{External_Attribution
@@ -79,6 +85,3 @@ HTTP follows a number of patterns to give it well-defined functionality for the 
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-
-== References ==
-<references/>
