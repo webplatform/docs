@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|Displays a synchronized dialog box showing the given text and a localized OK button.}}
 {{API_Object_Method
@@ -20,7 +21,10 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=window.alert('A message from the web page');
+}}
 }}
 {{Notes_Section
 |Usage=Not recommended for general use. See the notes for details.
@@ -47,8 +51,8 @@ Alternatively, create a dialog using other web platform means.
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.alert window.alert]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535933(v=vs.85).aspx alert Method]
 |HTML5Rocks_link=
 }}
