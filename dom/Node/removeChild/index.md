@@ -27,8 +27,9 @@
 |Language=HTML
 |Description=This example uses the '''removeChild''' method to remove a bold element from a '''div'''.
 |Code=&lt;!doctype html&gt;
+&lt;html&gt;
 &lt;head&gt;
-&lt;script&gt;
+&lt;script type{{=}}"application/javascript"&gt;
 function removeElement()
 {
   var div1 = document.getElementById("Div1");
@@ -51,6 +52,7 @@ function removeElement()
 Click anywhere in this sentence to remove this &lt;strong&gt;Bold&lt;/strong&gt; word.
 &lt;/div&gt;
 &lt;/body&gt;
+&lt;/html&gt;
 }}{{Single Example
 |Language=JavaScript
 |Description=Remove all children from a node.
