@@ -51,6 +51,12 @@ function removeElement()
 Click anywhere in this sentence to remove this &lt;strong&gt;Bold&lt;/strong&gt; word.
 &lt;/div&gt;
 &lt;/body&gt;
+}}{{Single Example
+|Language=JavaScript
+|Description=Remove all children from a node.
+|Code=while (element.lastChild) {
+  element.removeChild(element.lastChild);
+}
 }}
 }}
 {{Notes_Section
