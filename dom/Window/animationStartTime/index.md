@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
+see http://www.w3.org/TR/animation-timing/
+
+
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Obsolete. Returns a timestamp of the start time of the current refresh interval, such that multiple animations can be synchronized with each other.}}
 {{API_Object_Property
 |Property_applies_to=dom/Window
 |Read_only=No
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -39,8 +43,8 @@ The value reported by the ''animationStartTime''  property represents the number
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.mozAnimationStartTime mozAnimationStartTime]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh972901(v=vs.85).aspx animationStartTime Property]
 |HTML5Rocks_link=
 }}
