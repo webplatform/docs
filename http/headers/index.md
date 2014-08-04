@@ -1,7 +1,8 @@
 
 The full list of HTTP headers is shared with MIME headers and is maintained by the IANA at [http://www.iana.org/assignments/message-headers/message-headers.xhtml Message Headers]
 
-== General Headers ==
+== Headers by Direction ==
+=== General Headers ===
 {| class="wikitable"
 |-
 ! Header !! Description !! Reference
@@ -9,7 +10,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | Date || The date and time at which the message was originated || [http://tools.ietf.org/html/rfc7231#section-7.1.1.2 RFC7231 Section 7.1.1.2]
 |}
 
-== Request Headers ==
+=== Request Headers ===
 {| class="wikitable"
 |-
 ! Header !! Description !! Reference
@@ -17,7 +18,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]
 |}
 
-== Response Headers ==
+=== Response Headers ===
 {| class="wikitable"
 |-
 ! Header !! Description !! Reference
