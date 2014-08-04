@@ -1,10 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 see http://www.w3.org/TR/animation-timing/
-
-
 |Checked_Out=No
 |High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
