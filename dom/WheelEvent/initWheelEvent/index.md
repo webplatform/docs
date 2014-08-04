@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Initializes a new WheelEvent that the createEvent method created. }}
+{{Summary_Section|Initializes a new WheelEvent that the createEvent method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=eventType
@@ -113,7 +114,7 @@ For example -
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=   function dispatchWheelEvent(){
+|Code=function dispatchWheelEvent(){
    		var evt{{=}}document.createEvent('WheelEvent');
    		var theform{{=}}document.forms.dispatch;
    		//var retval {{=}} WheelEvent.initWheelEvent(eventType, canBubble, cancelable, view, detail, screenXArg, screenYArg, clientXArg, clientYArg, buttonArg, relatedTargetArg, modifiersListArg, deltaX, deltaY, deltaZ, deltaMode); 
@@ -137,7 +138,6 @@ For example -
    							
    		window.dispatchEvent(evt);
    }
-
 }}
 }}
 {{Notes_Section}}
