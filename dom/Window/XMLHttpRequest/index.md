@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents an XML request using HTTP.}}
 {{API_Object_Property
 |Property_applies_to=dom/Window
 |Read_only=Yes
@@ -35,7 +35,9 @@
 }
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=It provides an easy way to retrieve data from a URL without having to do a full page refresh. A Web page can update just a part of the page without disrupting what the user is doing.  XMLHttpRequest is used heavily in AJAX programming.
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=XMLHttpRequest
