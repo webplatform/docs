@@ -19,7 +19,6 @@
 |Method_applies_to=dom/Window
 |Example_object_name=window
 |Javascript_data_type=void
-|Return_value_description=This method does not return a value.
 }}
 {{Examples_Section
 |Not_required=No
