@@ -1,23 +1,32 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Performs a logical conjunction on two expressions.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result = expression1 &amp;&amp; expression2 }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Performs a logical conjunction on two expressions.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result = expression1 &amp;&amp; expression2
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
-|Remarks=If both expressions evaluate to true , result is true. If either expression evaluates to false , result is false.
+|Remarks=If both expressions evaluate to true, result is true. If either expression evaluates to false, result is false.
 
 JavaScript uses the following rules for converting non-Boolean values to Boolean values:
 
@@ -26,8 +35,14 @@ JavaScript uses the following rules for converting non-Boolean values to Boolean
 * null and undefined are considered to be false.
 * A Number is false if it is zero.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
