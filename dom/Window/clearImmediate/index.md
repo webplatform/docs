@@ -28,7 +28,7 @@
   // Run some code
 }
 
-document.getElementById("button").addEventListener(function () {
+document.getElementById("button").addEventListener('click',function () {
   clearImmediate(immediateID);
 }, false);
 }}
