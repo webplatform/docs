@@ -1,7 +1,21 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript assignment operators.
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript assignment operators.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Assignment Operators==
 {| class='wikitable'
 |-
@@ -41,11 +55,15 @@
 | [[javascript/operators/unsigned right shift assignment|Unsigned Right Shift]]
 | &gt;&gt;&gt;=
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/assignment{{!}}Assignment Operator (=)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
