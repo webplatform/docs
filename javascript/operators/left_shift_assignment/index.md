@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.}}
@@ -22,25 +23,14 @@
 |Language=JavaScript
 |Description=Using the '''&lt;&lt;=''' operator is the same as specifying <code>result = result &lt;&lt; expression</code>
 |Code=// 14 is 00000000000000000000000000001110
- var temp = 14;
- temp &lt;&lt;= 2; 
- document.write(temp);
- // 56 is 00000000000000000000000000111000
- Output: 56
+var temp = 14;
+temp &lt;&lt;= 2; 
+document.write(temp);
+// 56 is 00000000000000000000000000111000
+Output: 56
 }}
 }}
-{{Remarks_Section
-|Remarks=Using the '''&lt;&lt;=''' operator is the same as specifying <code>result = result &lt;&lt; expression</code>
-
-The following example shows how to use the '''&lt;&lt;=''' operator.
-
- // 14 is 00000000000000000000000000001110
- var temp = 14;
- temp &lt;&lt;= 2; 
- document.write(temp);
- // 56 is 00000000000000000000000000111000
- Output: 56
-}}
+{{Remarks_Section}}
 {{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
