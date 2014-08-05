@@ -1,42 +1,52 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the result of a bitwise AND operation on the value of a variable and the value of an expression. The variable and the expression are treated as 32-bit integers.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result &amp;= expression}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the result of a bitwise AND operation on the value of a variable and the value of an expression. The variable and the expression are treated as 32-bit integers.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result &amp;= expression
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
 }}
-{{Remarks_Section
-|Remarks=Using this operator is the same as specifying:
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Using this operator is the same as specifying <code>result = result &amp; expression</code>
 
- result = result &amp; expression
-The [[javascript/operators/bitwise and{{!}}Bitwise AND Operator (&amp;)]] looks at the binary representation of the values of result and expression and does a bitwise AND operation on them. The output of this operation behaves like this:
-
- // 9 is 00000000000000000000000000001001
- var expr1 = 9;
+The [[javascript/operators/bitwise and{{!}}Bitwise AND Operator (&amp;)]] looks at the binary representation of the values of result and expression and does a bitwise AND operation on them. The output of this operation behaves such that any time both of the expressions have a 1 in a digit, the result has a 1 in that digit; otherwise, the result has a 0 in that digit.
+|Code=// 9 is 00000000000000000000000000001001
+var expr1 = 9;
  
- // 5 is 00000000000000000000000000000101
- var expr2 = 5;
+// 5 is 00000000000000000000000000000101
+var expr2 = 5;
   
+// 1 is 00000000000000000000000000000001
+expr1 &amp;= expr2;
  
- // 1 is 00000000000000000000000000000001
- expr1 &amp;= expr2;
- 
- document.write(expr1);
-Any time both of the expressions have a 1 in a digit, the result has a 1 in that digit. Otherwise, the result has a 0 in that digit.
+document.write(expr1);
 }}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/bitwise and{{!}}Bitwise AND Operator (&#38;)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
