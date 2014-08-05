@@ -1,9 +1,9 @@
-{{Page_Title}}
+{{Page_Title|compound assignment operators}}
 {{Flags
 |State=Ready to Use
 |Checked_Out=No
 }}
-{{Summary_Section|The following table lists JavaScript assignment operators.}}
+{{Summary_Section|The following table lists JavaScript compound assignment operators.}}
 {{JS_Syntax
 |Formats=
 |Values=
