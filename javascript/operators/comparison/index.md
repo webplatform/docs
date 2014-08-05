@@ -1,20 +1,29 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value indicating the result of the comparison.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs examples
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= expression1 comparisonoperator expression2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns a Boolean value indicating the result of the comparison.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=expression1 comparisonoperator expression2
+}}
+|Values={{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=comparisonoperator
-|Required=
-|Description=Any comparison operator.}}{{JS_Syntax_Parameter
+|Description=Any comparison operator (see Remarks).
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=When comparing strings, JavaScript uses the Unicode character value of the string expression.
@@ -41,8 +50,14 @@ Identity operators: '''===''' , '''!=='''
 
 These operators behave the same as the equality operators, except that no type conversion is done. If the types of both expressions are not the same, these expressions always return false.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
