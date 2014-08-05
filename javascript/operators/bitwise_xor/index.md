@@ -1,20 +1,29 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Performs a bitwise exclusive OR on two expressions.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result '''=''' expression1 '''^''' expression2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Performs a bitwise exclusive OR on two expressions.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result '''=''' expression1 '''^''' expression2
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=Any expression.}}{{JS_Syntax_Parameter
+|Description=Any expression.
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=Any expression.}}
+|Description=Any expression.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The '''^''' operator looks at the binary representation of the values of two expressions and does a bitwise exclusive OR operation on them. The result of this operation behaves as follows:
@@ -25,11 +34,16 @@
  1001   (result)
 When one, and only one, of the expressions has a 1 in a digit, the result has a 1 in that digit. Otherwise, the result has a 0 in that digit.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/bitwise xor assignment{{!}}Bitwise XOR Assignment Operator (^=)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
