@@ -1,31 +1,34 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a Boolean value that indicates whether or not an object is an instance of a particular class.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result = object instanceof class}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns a Boolean value that indicates whether or not an object is an instance of a particular class.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result = object instanceof class
+}}
+|Values={{JS Syntax Parameter
 |Name=result
 |Required=Required
-|Description=Any variable.}}{{JS_Syntax_Parameter
+|Description=Any variable.
+}}{{JS Syntax Parameter
 |Name=object
 |Required=Required
-|Description=Any object expression.}}{{JS_Syntax_Parameter
+|Description=Any object expression.
+}}{{JS Syntax Parameter
 |Name=class
 |Required=Required
-|Description=Any defined object class.}}
+|Description=Any defined object class.
 }}
-{{Remarks_Section
-|Remarks=The '''instanceof''' operator returns true if object is an instance of class. It returns false if object is not an instance of class , or if object is null.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use the '''instanceof''' operator.
-
-|Code= function objTest(obj){
+|Code=function objTest(obj){
      var i, t, s = "";
      t = new Array();
      t["Date"] = Date;
@@ -49,9 +52,19 @@
  // obj is an instance of Date
  // obj is an instance of Object
  // obj is not an instance of Array
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''instanceof''' operator returns true if object is an instance of class. It returns false if object is not an instance of class, or if object is null.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
