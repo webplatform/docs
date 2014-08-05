@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|Closes the current browser window or tab, or HTML Application (HTA). }}
+{{Summary_Section|Closes the current browser window or tab, or HTML Application (HTA).}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Window
@@ -30,19 +30,19 @@ function closeCurrentWindow()
 |Notes====Remarks===
 When a function fired by an event on any object calls the 
 '''close''' method, the window.'''close''' method is implied.
- <code>&lt;SCRIPT LANGUAGE{{=}}"JScript"&gt;
+ <code>&lt;script type{{=}}"text/javascript"&gt;
  function myClose() {
      close();}
- &lt;/SCRIPT&gt;
- &lt;BODY onclick{{=}}"myClose();"&gt;
+ &lt;/script&gt;
+ &lt;body onclick{{=}}"myClose();"&gt;
  Click this page and window.close() is called.
- &lt;/BODY&gt;</code>
+ &lt;/body&gt;</code>
 When an event on any 
 object calls the '''close''' method, the 
 [[dom/Document/close|'''Document.close''']] method is implied.
- <code>&lt;BUTTON onclick{{=}}"close();"&gt;
+ <code>&lt;button type{{=}}"button" onclick{{=}}"close();"&gt;
  Click this button and document.close() is called.
- &lt;/BUTTON&gt;</code>
+ &lt;/button&gt;</code>
 How a window is closed programmatically determines whether the user is prompted with a confirmation dialog box:
 *Invoking the window.'''close''' method on a window not opened with script displays a confirmation dialog box. Using script to close the last running instance of Windows Internet Explorer also opens the confirmation dialog box.
 *Invoking the 
