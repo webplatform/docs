@@ -1,26 +1,41 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Divides the value of two expressions.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= result = number1 / number2 }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Divides the values of two expressions.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=result = number1 / number2
+}}
+|Values={{JS Syntax Parameter
 |Name=result
-|Required=
-|Description=Any numeric variable.}}{{JS_Syntax_Parameter
+|Description=Any numeric variable.
+}}{{JS Syntax Parameter
 |Name=number1
-|Required=
-|Description=Any numeric expression.}}{{JS_Syntax_Parameter
+|Description=Any numeric expression.
+}}{{JS Syntax Parameter
 |Name=number2
-|Required=
-|Description=Any numeric expression.}}
+|Description=Any numeric expression.
 }}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/division assignment{{!}}Division Assignment Operator (/=)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
