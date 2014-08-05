@@ -1,7 +1,21 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript operators.
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript operators.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Operators==
 {| class='wikitable'
 |-
@@ -153,7 +167,11 @@
 | [[javascript/operators/void|void Operator]]
 |}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
