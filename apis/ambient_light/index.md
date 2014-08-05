@@ -1,5 +1,6 @@
 {{Page_Title|Ambient Light API}}
 {{Flags
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
