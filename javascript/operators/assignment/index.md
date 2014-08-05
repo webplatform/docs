@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Checked_Out=Yes
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
 {{Summary_Section|The assignment operator takes the value of the right operand and applies it on the left operand.}}
 {{JS_Syntax
