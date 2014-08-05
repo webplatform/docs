@@ -34,6 +34,7 @@ var expr2 = 5;
 expr1 &amp;= expr2;
  
 document.write(expr1);
+// result: 1
 }}
 }}
 {{Remarks_Section}}
