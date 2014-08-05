@@ -1,40 +1,54 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns one of two expressions depending on a condition.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= test ? expression1 : expression2}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns one of two expressions depending on a condition. Also referred to as "if...else shorthand".}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=test ? expression1 : expression2
+}}
+|Values={{JS Syntax Parameter
 |Name=test
-|Required=
-|Description=Any Boolean expression.}}{{JS_Syntax_Parameter
+|Description=Any Boolean expression.
+}}{{JS Syntax Parameter
 |Name=expression1
-|Required=
-|Description=An expression returned if test is true. May be a comma expression.}}{{JS_Syntax_Parameter
+|Description=An expression returned if test is true. May be a comma expression.
+}}{{JS Syntax Parameter
 |Name=expression2
-|Required=
-|Description=An expression returned if test is false. More than one expression may be a linked by a comma expression.}}
+|Description=An expression returned if test is false. More than one expression may be a linked by a comma expression.
 }}
-{{Remarks_Section
-|Remarks=The ?: operator can be used as a shortcut for an if...else statement. It is typically used as part of a larger expression where an if...else statement would be awkward. For example:
-
- var now = new Date();
- var greeting = "Good" + ((now.getHours() &gt; 17) ? " evening." : " day.");
-The example creates a string containing "Good evening." if it is after 6pm. The equivalent code using an if...else statement would look as follows:
-
- var now = new Date();
- var greeting = "Good";
- if (now.getHours() &gt; 17)
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The ?: operator can be used as a shortcut for an if...else statement. It is typically used as part of a larger expression where an if...else statement would be awkward. This example creates a string containing "Good evening." if it is after 6pm, or "Good day." otherwise.
+|Code=var now = new Date();
+var greeting = "Good" + ((now.getHours() &gt; 17) ? " evening." : " day.");
+}}{{Single Example
+|Language=JavaScript
+|Description=The equivalent code using a regular if...else statement would look as follows:
+|Code=var now = new Date();
+var greeting = "Good";
+if (now.getHours() &gt; 17)
     greeting += " evening.";
- else
+else
     greeting += " day.";
 }}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/if else{{!}}if...else Statement]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
