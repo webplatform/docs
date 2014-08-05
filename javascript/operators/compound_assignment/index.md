@@ -10,7 +10,7 @@
 }}
 {{JS_Return_Value}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Remarks_Section}}
