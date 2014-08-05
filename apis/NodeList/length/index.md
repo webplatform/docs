@@ -1,6 +1,6 @@
 {{Page_Title|length}}
 {{Flags
-|State=Unreviewed
+|State=Not Ready
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
