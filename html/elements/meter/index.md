@@ -103,7 +103,7 @@ The title attribute may be used to specify a unit.
 |URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-meter-element
 |Status=Editor's Draft
 }}{{Related Specification
-|Name=WhatWG HTML Living Standard
+|Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element
 |Status=Living Standard
 }}
