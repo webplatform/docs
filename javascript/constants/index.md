@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists predefined JavaScript constants that you can use in expressions.}}
@@ -9,10 +10,12 @@
 }}
 {{JS_Return_Value}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Constants==
 {| class='wikitable'
 |-
@@ -95,6 +98,10 @@
 * [[javascript/Math{{!}}Math Object]]
 * [[javascript/Number{{!}}Number Object]]
 * [[javascript{{!}}JavaScript Reference]]
+}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
