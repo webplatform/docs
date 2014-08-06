@@ -20,14 +20,17 @@
 |Data Type=inherit
 |Description=When the value is set to <code>inherit</code>, the element will inherit the border values set on its parent.
 }}{{CSS Property Value
-|Data Type=border-width
+|Data Type=<border-width>
 |Description=A numeric value with any of the standard length units. The initial value is <code>medium</code>, which most browsers will render as 3px. See the [[css/properties/border-width|'''border-width''']] property.
 }}{{CSS Property Value
-|Data Type=border-style
+|Data Type=<border-style>
 |Description=This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. The initial value is <code>none</code>.
 }}{{CSS Property Value
-|Data Type=border-color
+|Data Type=<border-color>
 |Description=This takes any valid CSS color. See the [[css/properties/border-color|'''border-color''']] property. The initial value is <code>currentColor</code>.
+}}{{CSS Property Value
+|Data Type=&lt;border-width&gt; || &lt;border-style&gt; || &lt;border-color&gt;
+|Description=A concatenation of <code>&lt;border-width&gt;</code>, <code>&lt;border-style&gt;</code>, and <code>&lt;border-color&gt;</code>. At least one of these must be present, each one may appear at most one time, and they may appear in any order.
 }}
 }}
 {{Examples_Section
@@ -104,8 +107,8 @@ p {
 <code>[[css/properties/border-bottom-color|'''border-bottom-color''']]</code>,
 <code>[[css/properties/border-left-width|'''border-left-width''']]</code>,
 <code>[[css/properties/border-left-style|'''border-left-style''']]</code>,
-<code>[[css/properties/border-left-color|'''border-left-color''']]</code>
-|Notes=* A <code>border-bottom</code> can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an <code>[[html/elements/hr|'''&amp;lt;hr/&amp;gt;''']]</code> element in the HTML.
+<code>[[css/properties/border-left-color|'''border-left-color''']]</code>.
+|Notes=* A <code>border-bottom</code> can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an <code>[[html/elements/hr|'''&lt;hr/&gt;''']]</code> element in the HTML.
 * Another common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
 }}
 {{Related_Specifications_Section
@@ -185,7 +188,6 @@ p {
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
-|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
