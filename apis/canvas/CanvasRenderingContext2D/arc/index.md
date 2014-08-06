@@ -1,23 +1,23 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Draws the specified arc.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=1
-|Name=y
-|Data type=Number
-|Description=The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
-|Optional=No
-}}{{Method Parameter
 |Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
+|Optional=No
+}}{{Method Parameter
+|Index=1
+|Name=y
+|Data type=Number
+|Description=The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
 |Index=2
