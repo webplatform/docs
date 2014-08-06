@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|This read-only property indicates whether the referenced window is closed or not.}}
 {{API_Object_Property
 |Property_applies_to=dom/Window
 |Read_only=Yes
