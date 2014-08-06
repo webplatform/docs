@@ -50,7 +50,7 @@ The picture element is not a general replacement for the img element. When there
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=* [http://docs.webplatform.org/wiki/html/elements/img]
+|Manual_links=* [http://docs.webplatform.org/wiki/html/elements/img &lt;img&gt; Element]
 }}
 {{Topics|DOM, HTML, Media}}
 {{External_Attribution
