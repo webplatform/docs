@@ -82,7 +82,7 @@ progress::-webkit-progress-value {
 |URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element
 |Status=Editor's Draft
 }}{{Related Specification
-|Name=WhatWG HTML Living Standard
+|Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element
 |Status=Living Standard
 }}
