@@ -1,9 +1,10 @@
 {{Page_Title}}
 {{Flags
-|Content=Incomplete, Compatibility Incomplete
+|State=Ready to Use
 |Checked_Out=No
+|Content=Incomplete, Compatibility Incomplete
 }}
-{{Summary_Section|Restricts the use of some potentially-harmful features of JavaScript (e.g. eval).}}
+{{Summary_Section|Restricts the use of some potentially-harmful features of JavaScript (e.g., eval).}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format="use strict";
@@ -27,6 +28,8 @@
 {{Remarks_Section
 |Remarks=IE support: 10+
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
 When the expression <code>"use strict";</code> is placed at the start of a script or a function body, the code contained in it is parsed under stricter rules than what the default JavaScript language allows.
 These rules include:
@@ -35,6 +38,10 @@ These rules include:
 * assigning values to a read-only property fail,
 * …
 {{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
