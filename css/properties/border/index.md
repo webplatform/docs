@@ -29,7 +29,7 @@
 |Data Type=<border-color>
 |Description=This takes any valid CSS color. See the [[css/properties/border-color|'''border-color''']] property. The initial value is <code>currentColor</code>.
 }}{{CSS Property Value
-|Data Type=&lt;border-width&gt; || &lt;border-style&gt; || &lt;border-color&gt;
+|Data Type=<border-width> <border-style> <border-color>
 |Description=A concatenation of <code>&lt;border-width&gt;</code>, <code>&lt;border-style&gt;</code>, and <code>&lt;border-color&gt;</code>. At least one of these must be present, each one may appear at most one time, and they may appear in any order.
 }}
 }}
