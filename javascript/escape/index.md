@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|'''Deprecated'''
@@ -32,7 +33,6 @@ unescape("日本語"); // "%u65E5%u672C%u8A9E"
 |Remarks=All spaces, punctuation, accented characters, and any other non-ASCII characters are replaced with % xx encoding, where xx is equivalent to the hexadecimal number representing the character. For example, a space is returned as "%20."
 
 Characters with a value greater than 255 are stored using the '''%u''' xxxx format.
-
 }}
 {{Notes_Section
 |Notes=The '''escape''' function should not be used to encode URIs. Use [[javascript/encodeURI{{!}}encodeURI]] and 
