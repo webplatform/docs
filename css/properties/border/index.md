@@ -20,17 +20,14 @@
 |Data Type=inherit
 |Description=When the value is set to <code>inherit</code>, the element will inherit the border values set on its parent.
 }}{{CSS Property Value
-|Data Type=<border-width>
-|Description=A numeric value with any of the standard length units. The initial value is <code>medium</code>, which most browsers will render as 3px. See the [[css/properties/border-width|'''border-width''']] property.
-}}{{CSS Property Value
-|Data Type=<border-style>
-|Description=This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property. The initial value is <code>none</code>.
-}}{{CSS Property Value
-|Data Type=<border-color>
-|Description=This takes any valid CSS color. See the [[css/properties/border-color|'''border-color''']] property. The initial value is <code>currentColor</code>.
-}}{{CSS Property Value
-|Data Type=<border-width> <border-style> <border-color>
-|Description=A concatenation of <code>&lt;border-width&gt;</code>, <code>&lt;border-style&gt;</code>, and <code>&lt;border-color&gt;</code>. At least one of these must be present, each one may appear at most one time, and they may appear in any order.
+|Data Type=<border-width> || <border-style> || <border-color>
+|Description=A concatenation of <code>&lt;border-width&gt;</code>, <code>&lt;border-style&gt;</code>, and <code>&lt;border-color&gt;</code>. At least one of these must be present, and they may appear in any order.
+
+<border-width>: A numeric value with any of the standard length units. The initial value is <code>medium</code>, which most browsers will render as 3px. See the [[css/properties/border-width|'''border-width''']] property.
+
+<border-style>: This takes any of the range of values available to the [[css/properties/border-style|'''border-style''']] property. The initial value is <code>none</code>.
+
+<border-color>: This takes any valid CSS color. See the [[css/properties/border-color|'''border-color''']] property. The initial value is <code>currentColor</code>.
 }}
 }}
 {{Examples_Section
