@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs additional content.
+|Editorial notes=Browser bias.
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists JavaScript directives.}}
