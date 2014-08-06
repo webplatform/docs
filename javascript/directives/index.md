@@ -1,7 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following table lists JavaScript directives.
+{{Flags
+|State=In Progress
+|Editorial notes=Needs additional content.
+|Checked_Out=No
 }}
+{{Summary_Section|The following table lists JavaScript directives.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Directives==
 {| class='wikitable'
 |-
@@ -12,7 +27,11 @@
 | [[javascript/directives/use strict|use strict]]
 |}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
