@@ -52,7 +52,7 @@ The picture element is not a general replacement for the img element. When there
 {{See_Also_Section
 |Topic_clusters=HTML
 }}
-{{Topics|DOM, HTML}}
+{{Topics|DOM, HTML, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
