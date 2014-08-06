@@ -1,18 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The size in bytes of each element in the array.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= var arraySize = int8Array.BYTES_PER_ELEMENT;}}
+{{Summary_Section|The size in bytes of each element in the array.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=var arraySize = int8Array.BYTES_PER_ELEMENT;
 }}
+|Values=
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to get the size of the array elements.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -25,9 +29,17 @@
              alert(intArr.BYTES_PER_ELEMENT);
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
