@@ -1,32 +1,66 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= uint8Array = new Uint8Array( length );}}{{JS_Syntax_Format
-|Format= uintArray = new Uint8Array( array );}}{{JS_Syntax_Format
-|Format= uintArray = new Uint8Array( buffer , byteOffset , length );}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=uint8Array = new Uint8Array( length );
+}}{{JS Syntax Format
+|Format=uintArray = new Uint8Array( array );
+}}{{JS Syntax Format
+|Format=uintArray = new Uint8Array( buffer , byteOffset , length );
+}}
+|Values={{JS Syntax Parameter
 |Name=uint8Array
 |Required=Required
-|Description=The variable name to which the '''Uint8Array''' object is assigned.}}{{JS_Syntax_Parameter
+|Description=The variable name to which the '''Uint8Array''' object is assigned.
+}}{{JS Syntax Parameter
 |Name=length
-|Required=
-|Description=Specifies the length (in bytes) of the array.}}{{JS_Syntax_Parameter
+|Description=Specifies the length (in bytes) of the array.
+}}{{JS Syntax Parameter
 |Name=array
-|Required=
-|Description=The array (or typed array) that is contained in this array. The contents are initialized to the contents of the given array or typed array, with each element converted to the Uint8 type.}}{{JS_Syntax_Parameter
+|Description=The array (or typed array) that is contained in this array. The contents are initialized to the contents of the given array or typed array, with each element converted to the Uint8 type.
+}}{{JS Syntax Parameter
 |Name=buffer
-|Required=
-|Description=The ArrayBuffer that the Uint8Array represents.}}{{JS_Syntax_Parameter
+|Description=The ArrayBuffer that the Uint8Array represents.
+}}{{JS Syntax Parameter
 |Name=byteOffset
 |Required=Optional
-|Description=Specifies the offset in bytes from the start of the buffer at which the Uint8Array should begin.}}{{JS_Syntax_Parameter
+|Description=Specifies the offset in bytes from the start of the buffer at which the Uint8Array should begin.
+}}{{JS Syntax Parameter
 |Name=length
-|Required=
-|Description=The length of the array.}}
+|Description=The length of the array.
 }}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example shows how to use a Uint8Array object to process the binary data acquired from an XmlHttpRequest:
+|Code=var req = new XMLHttpRequest();
+     req.open('GET', "http://www.example.com");
+     req.responseType = "arraybuffer";
+     req.send();
+ 
+     req.onreadystatechange = function () {
+         if (req.readyState === 4) {
+             var buffer = req.response;
+             var dataview = new DataView(buffer);
+             var ints = new Uint8Array(buffer.byteLength);
+             for (var i = 0; i &lt; ints.length; i++) {
+                 ints[i] = dataview.getUint8(i);
+             }
+         alert(ints[10]);
+         }
+     }
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Constants==
 The following table lists the constants of the '''Uint8Array''' object.
 
@@ -75,31 +109,13 @@ The following table lists the methods of the '''Uint8Array''' object.
 | [[javascript/Uint8Array/subarray|subarray Method (Uint8Array)]]
 | Gets a new Uint8Array view of the ArrayBuffer store for this array.
 |}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example shows how to use a Uint8Array object to process the binary data acquired from an XmlHttpRequest:
 
-|Code= var req = new XMLHttpRequest();
-     req.open('GET', "http://www.example.com");
-     req.responseType = "arraybuffer";
-     req.send();
- 
-     req.onreadystatechange = function () {
-         if (req.readyState === 4) {
-             var buffer = req.response;
-             var dataview = new DataView(buffer);
-             var ints = new Uint8Array(buffer.byteLength);
-             for (var i = 0; i &lt; ints.length; i++) {
-                 ints[i] = dataview.getUint8(i);
-             }
-         alert(ints[10]);
-         }
-     }
-}}}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
