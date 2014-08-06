@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether a supplied number is [[javascript/NaN{{!}}NaN]] (not a number).}}
@@ -14,7 +15,7 @@
 }}
 }}
 {{JS_Return_Value
-|Description=true if the value converted to the Number type is the NaN , otherwise false.
+|Description=true if the value, converted to the Number type, is the NaN; otherwise false.
 }}
 {{Examples_Section
 |Not_required=No
