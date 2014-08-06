@@ -31,9 +31,11 @@ Other use cases, such as matching media features and media types and matching on
 }}
 }}
 {{Notes_Section
-|Usage=The picture element should be used when an image source exists in multiple densities, or when a responsive design dictates a somewhat different image on some types of screens (“art direction”).
+|Usage=The picture element is not a general replacement for the img element. When there is only a single image source, authors should use <code>&lt;img&gt;</code> as usual.
 
-The picture element is not a general replacement for the img element. When there is only a single image source, authors should just use the img element as usual, rather than cluttering their page with additional unnecessary syntax.
+The picture element requires the img element nested as the last child; without <code>&lt;img&gt;</code>, <code>&lt;picture&gt;</code> will be ignored. This requirement ensures maximum accessibility and browser backwards compatibility.
+
+For accessibility, place alternative text for all images in the <code>alt</code> attribute of the img element.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
