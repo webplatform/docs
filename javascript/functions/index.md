@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists JavaScript functions.}}
@@ -9,10 +10,12 @@
 }}
 {{JS_Return_Value}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Functions==
 {| class='wikitable'
 |-
@@ -224,6 +227,10 @@
 * [[javascript/properties{{!}}JavaScript Properties]]
 * [[javascript/constants{{!}}JavaScript Constants]]
 * [[javascript{{!}}JavaScript Reference]]
+}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
