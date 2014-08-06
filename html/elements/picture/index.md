@@ -39,10 +39,9 @@ For accessibility, place alternative text for all images in the <code>alt</code>
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Picture Specification (official, by RICG)
+|Name=RICG
 |URL=http://picture.responsiveimages.org/
-|Status=Living Standard
-|Relevant_changes=Superseded
+|Status=Superseded
 }}{{Related Specification
 |Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content.html#embedded-content
