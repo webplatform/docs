@@ -33,7 +33,7 @@ Other use cases, such as matching media features and media types and matching on
 {{Notes_Section
 |Usage=The picture element is not a general replacement for the img element. When there is only a single image source, authors should use <code>&lt;img&gt;</code> as usual.
 
-The picture element requires the img element nested as the last child; without <code>&lt;img&gt;</code>, <code>&lt;picture&gt;</code> will be ignored. This requirement ensures maximum accessibility and browser backwards compatibility.
+The picture element requires <code>&lt;img&gt;</code> nested as the last child; without the img element, <code>&lt;picture&gt;</code> will be ignored. This requirement ensures maximum accessibility and browser backwards compatibility.
 
 For accessibility, place alternative text for all images in the <code>alt</code> attribute of the img element.
 }}
