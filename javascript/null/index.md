@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
-{{Summary_Section|'''null''' is used to indicate that a variable does not have a value. }}
+{{Summary_Section|'''null''' is used to indicate that a variable does not have a value.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=null
