@@ -1,28 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the actual value of individual arguments from an '''arguments''' object returned by the '''arguments''' property of an executing function.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= [ function '''.''' ] '''arguments[''' [0{{!}}1{{!}}2{{!}}...{{!}} n ] ''']'''}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the actual value of individual arguments from an '''arguments''' object returned by the '''arguments''' property of an executing function.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=[ function '''.''' ] '''arguments[''' [0{{!}}1{{!}}2{{!}}...{{!}} n ] ''']'''
+}}
+|Values={{JS Syntax Parameter
 |Name=function
 |Required=Optional
-|Description=The name of the currently executing Function object.}}{{JS_Syntax_Parameter
+|Description=The name of the currently executing Function object.
+}}{{JS Syntax Parameter
 |Name=0, 1, 2, , n
 |Required=Required
-|Description=Non-negative integer in the range of 0 to n where 0 represents the first argument and n represents the final argument. The value of the final argument n is '''arguments.length-1'''.}}
+|Description=Non-negative integer in the range of 0 to n where 0 represents the first argument and n represents the final argument. The value of the final argument n is '''arguments.length-1'''.
 }}
-{{Remarks_Section
-|Remarks=The values returned by the 0 . . . n properties are the actual values passed to the executing function. While not actually an array of arguments, the individual arguments that comprise the '''arguments''' object are accessed the same way that array elements are accessed.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''0 . . .''' n properties of the '''arguments''' object. To fully understand the example, pass one or more arguments to the function:
-
-|Code= function ArgTest(){
+|Code=function ArgTest(){
     var s = "";
     s += "The individual arguments are: "
     for (n = 0; n &lt; arguments.length; n++){
@@ -32,13 +34,22 @@
     return(s);
  }
  document.write(ArgTest(1, 2, "hello", new Date()));
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The values returned by the 0 . . . n properties are the actual values passed to the executing function. While not actually an array of arguments, the individual arguments that comprise the '''arguments''' object are accessed the same way that array elements are accessed.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/arguments/length{{!}}length Property (arguments)]]
 * [[javascript/Function/length{{!}}length Property (Function)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
