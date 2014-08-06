@@ -49,9 +49,7 @@ The picture element is not a general replacement for the img element. When there
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=HTML
-}}
+{{See_Also_Section}}
 {{Topics|DOM, HTML, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
