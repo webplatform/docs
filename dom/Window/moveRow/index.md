@@ -7,17 +7,17 @@
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|Moves a table row to a new position. }}
+{{Summary_Section|Moves a table row to a new position.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=indexFrom
-|Data type=any
-|Description='''Integer''' that specifies the index in the [[dom/HTMLElement/rows|'''rows''']] collection of the table row that is moved.
+|Data type=Number
+|Description='''Integer''' that specifies the index in the [[dom/HTMLElement/rows|'''rows''']] collection of the table row that is moved. -1 Default.
 |Optional=No
 }}{{Method Parameter
 |Name=indexTo
-|Data type=any
-|Description='''Integer''' that specifies where the row is moved within the [[dom/HTMLElement/rows|'''rows''']] collection.
+|Data type=Number
+|Description='''Integer''' that specifies where the row is moved within the [[dom/HTMLElement/rows|'''rows''']] collection. -1 Default.
 |Optional=No
 }}
 |Method_applies_to=dom/Window
