@@ -21,7 +21,7 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=window.location
+|Example_object_name=window
 |Javascript_data_type=void
 }}
 {{Examples_Section
