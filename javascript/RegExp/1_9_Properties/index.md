@@ -1,28 +1,28 @@
-{{Page_Title}}
-{{Flags}}
-{{Summary_Section|Return the nine most-recently memorized portions found during pattern matching. Read-only.
-
+{{Page_Title|1...9 Properties}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''RegExp'''.'''$''' n }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Return the nine most-recently memorized portions found during pattern matching. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''RegExp'''.'''$''' n
+}}
+|Values={{JS Syntax Parameter
 |Name='''RegExp'''
-|Required=
-|Description=Always the global '''RegExp''' object.}}{{JS_Syntax_Parameter
+|Description=Always the global '''RegExp''' object.
+}}{{JS Syntax Parameter
 |Name=n
-|Required=
-|Description=Any integer from 1 through 9.}}
+|Description=Any integer from 1 through 9.
 }}
-{{Remarks_Section
-|Remarks=The values of the '''$1...$9''' properties are modified whenever a successful parenthesized match is made. Any number of parenthesized substrings may be specified in a regular expression pattern, but only the nine most recent can be stored.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
-|Description=The following example performs a regular expression search. It displays matches and submatches from the global '''RegExp''' object. The submatches are successful parenthesized matches that are contained in the '''$1...$9''' properties. The example also displays matches and submatches from the array that is returned by the '''exec''' method.
-
-|Code= var newLine = "&lt;br /&gt;";
+|Description=The following example performs a regular expression search. It displays matches and submatches from the global '''RegExp''' object. The submatches are successful parenthesized matches that are contained in the '''...''' properties. The example also displays matches and submatches from the array that is returned by the '''exec''' method.
+|Code=var newLine = "&lt;br /&gt;";
  
  var re = /(\w+)@(\w+)\.(\w+)/g
  var src = "Please send mail to george@contoso.com and someone@example.com. Thanks!"
@@ -39,9 +39,9 @@
  
      // Show the match and submatches from the RegExp global object.
      s += "RegExp.lastMatch: " + RegExp.lastMatch + newLine;
-     s += "RegExp.$1: " + RegExp.$1 + newLine;
-     s += "RegExp.$2: " + RegExp.$2 + newLine;
-     s += "RegExp.$3: " + RegExp.$3 + newLine;
+     s += "RegExp.: " + RegExp. + newLine;
+     s += "RegExp.: " + RegExp. + newLine;
+     s += "RegExp.: " + RegExp. + newLine;
  
      // Show the match and submatches from the array that is returned
      // by the exec method.
@@ -58,25 +58,35 @@
  
  // Output:
  //  RegExp.lastMatch: george@contoso.com
- //  RegExp.$1: george
- //  RegExp.$2: contoso
- //  RegExp.$3: com
+ //  RegExp.: george
+ //  RegExp.: contoso
+ //  RegExp.: com
  //  0: george@contoso.com
  //  1: george
  //  2: contoso
  //  3: com
  
  //  RegExp.lastMatch: someone@example.com
- //  RegExp.$1: someone
- //  RegExp.$2: example
- //  RegExp.$3: com
+ //  RegExp.: someone
+ //  RegExp.: example
+ //  RegExp.: com
  //  0: someone@example.com
  //  1: someone
  //  2: example
  //  3: com
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The values of the '''$1...$9''' properties are modified whenever a successful parenthesized match is made. Any number of parenthesized substrings may be specified in a regular expression pattern, but only the nine most recent can be stored.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
