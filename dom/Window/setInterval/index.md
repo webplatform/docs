@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Evaluates an expression each time a specified number of milliseconds has elapsed.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=expression
@@ -39,6 +40,7 @@ Integer. Returns an identifier that cancels the timer with the [[dom/Window/clea
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=This example uses the '''setInterval''' method to create a DHTML clock. A variable is assigned to the interval, and can be used as a reference to stop the interval by using the [[dom/Window/clearInterval|'''clearInterval''']] method.
 |Code=var oInterval {{=}} "";
 function fnStartClock(){
@@ -50,6 +52,7 @@ function fnDoClock(){
 window.onload {{=}} fnStartClock;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setInterval.htm
 }}{{Single Example
+|Language=JavaScript
 |Description=The next example demonstrates how to pass arguments to a function with [[dom/Window/setTimeout|'''setTimeout''']] or '''setInterval'''. To do this, create an inner anonymous function to wrap the real callback function. In the new function scope, you can refer to variables declared prior to the call to '''setTimeout''' (such as <code>div</code>). This structure is referred to as a "closure" in JScript
 |Code=// The first example of a closure passes the variable to a named function.
 function startTimer() {
@@ -62,6 +65,7 @@ function doClock(obj) {
 }
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setInterval2.htm
 }}{{Single Example
+|Language=JavaScript
 |Description=This example demonstrates that more than one closure can refer to the same variable. Here, the callback function that displays the value of <code>count</code> is called at a different interval than the function that updates its value.
 |Code=function startCounter() {
     var div {{=}} document.getElementById('counter');
@@ -98,8 +102,8 @@ As of Internet Explorer 5, the first argument of '''setInterval''' can be passe
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.setInterval setInterval]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536749(v=vs.85).aspx setInterval Method]
 |HTML5Rocks_link=
 }}
