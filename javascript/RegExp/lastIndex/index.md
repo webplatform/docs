@@ -1,32 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the character position where the next match begins in a searched string.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''RegExp'''.'''lastIndex'''}}
+{{Summary_Section|Returns the character position where the next match begins in a searched string.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''RegExp'''.'''lastIndex'''
 }}
-{{Remarks_Section
-|Remarks=The object associated with this property is always the global '''RegExp''' object.
-
-The '''lastIndex''' property is zero-based, that is, the index of the first character is zero. Its initial value is -1. Its value is modified whenever a successful match is made.
-
-The '''lastIndex''' property is modified by the '''exec''' and '''test''' methods of the '''RegExp''' object, and the '''match''' , '''replace''' , and '''split''' methods of the String object.
-
-The following rules apply to values of '''lastIndex''' :
-
-* If there is no match, '''lastIndex''' is set to -1.
-* If '''lastIndex''' is greater than the length of the string, '''test''' and '''exec''' fail and '''lastIndex''' is set to -1.
-* If '''lastIndex''' is equal to the length of the string, the regular expression matches if the pattern matches the empty string. Otherwise, the match fails and '''lastIndex''' is reset to -1.
-* Otherwise, '''lastIndex''' is set to the next position following the most recent match.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''lastIndex''' property. This function iterates a search string and prints out the '''index''' and '''lastIndex''' values for each word in the string.
-
-|Code= function RegExpTest()
+|Code=function RegExpTest()
  {
     var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())
     if (ver &lt; 5.5)
@@ -50,9 +40,30 @@ The following rules apply to values of '''lastIndex''' :
        document.write (arr);
        }
  }
-}}}}
-{{Topics | JS Basic}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The object associated with this property is always the global '''RegExp''' object.
 
+The '''lastIndex''' property is zero-based, that is, the index of the first character is zero. Its initial value is -1. Its value is modified whenever a successful match is made.
+
+The '''lastIndex''' property is modified by the '''exec''' and '''test''' methods of the '''RegExp''' object, and the '''match''' , '''replace''' , and '''split''' methods of the String object.
+
+The following rules apply to values of '''lastIndex''' :
+
+* If there is no match, '''lastIndex''' is set to -1.
+* If '''lastIndex''' is greater than the length of the string, '''test''' and '''exec''' fail and '''lastIndex''' is set to -1.
+* If '''lastIndex''' is equal to the length of the string, the regular expression matches if the pattern matches the empty string. Otherwise, the match fails and '''lastIndex''' is reset to -1.
+* Otherwise, '''lastIndex''' is set to the next position following the most recent match.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
