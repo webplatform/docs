@@ -1,23 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Specifies the function that creates a string.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= string.constructor}}
+{{Summary_Section|Specifies the function that creates a string.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=string.constructor
 }}
-{{Remarks_Section
-|Remarks=The required string is the name of a string.
-
-The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. The '''constructor''' property contains a reference to the function that constructs instances of that particular object.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the constructor property.
-
-|Code= var x = new String();
+|Code=var x = new String();
  
  if (x.constructor == String)
      document.write("Object is a String.");
@@ -26,9 +25,21 @@ The '''constructor''' property is a member of the prototype of every object that
  
  // Output:
  // Object is a String.
-}}}}
-{{Topics | JS Basic}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required string is the name of a string.
 
+The '''constructor''' property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the '''Global''' and '''Math''' objects. The '''constructor''' property contains a reference to the function that constructs instances of that particular object.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
