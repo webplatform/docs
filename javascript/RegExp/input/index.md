@@ -1,10 +1,19 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the string against which a regular expression search was performed. Read-only.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''RegExp'''.'''input'''}}
+{{Summary_Section|Returns the string against which a regular expression search was performed. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''RegExp'''.'''input'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The object associated with this property is always the global '''RegExp''' object.
@@ -22,8 +31,14 @@ The following example illustrates the use of the '''input''' property:
     return(s);
  }
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
