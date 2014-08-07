@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Coming Later
+|State=Not Ready
 |Editorial notes=Stub page/summary only.  Needs examples, compatibility, rest of CSS basic info table and detailed usage description.
 |Checked_Out=No
 |High-level issues=Stub
