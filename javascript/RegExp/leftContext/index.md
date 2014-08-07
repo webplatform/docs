@@ -1,23 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the characters from the beginning of a searched string up to the position before the beginning of the last match. Read-only.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''RegExp'''.'''leftContext'''}}
+{{Summary_Section|Returns the characters from the beginning of a searched string up to the position before the beginning of the last match. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''RegExp'''.'''leftContext'''
 }}
-{{Remarks_Section
-|Remarks=The object associated with this property is always the global '''RegExp''' object.
-
-The initial value of the '''leftContext''' property is an empty string. The value of the '''leftContext''' property changes whenever a successful match is made.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''leftContext''' property:
-
-|Code= // Create the regular expression pattern.
+|Code=// Create the regular expression pattern.
     var re = new RegExp("d(b+)(d)","ig");
     var str = "cdbBdbsbdbdz";
  
@@ -26,9 +25,9 @@ The initial value of the '''leftContext''' property is an empty string. The valu
  
     // Print the output.
     var s = "" 
-    s += "$1: " + RegExp.$1 + "&lt;br /&gt;";
-    s += "$2: " + RegExp.$2 + "&lt;br /&gt;";
-    s += "$3: " + RegExp.$3 + "&lt;br /&gt;";
+    s += ": " + RegExp. + "&lt;br /&gt;";
+    s += ": " + RegExp. + "&lt;br /&gt;";
+    s += ": " + RegExp. + "&lt;br /&gt;";
     s += "input: " + RegExp.input + "&lt;br /&gt;";
     s += "lastMatch: " + RegExp.lastMatch + "&lt;br /&gt;";
     s += "leftContext: " + RegExp.leftContext + "&lt;br /&gt;";
@@ -36,7 +35,16 @@ The initial value of the '''leftContext''' property is an empty string. The valu
     s += "lastParen: " + RegExp.lastParen + "&lt;br /&gt;";
  
     document.write(s);
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The object associated with this property is always the global '''RegExp''' object.
+
+The initial value of the '''leftContext''' property is an empty string. The value of the '''leftContext''' property changes whenever a successful match is made.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/RegExp/1 9 Properties{{!}}$1...$9 Properties (RegExp)]]
 * [[javascript/RegExp/index{{!}}index Property (RegExp)]]
@@ -46,8 +54,10 @@ The initial value of the '''leftContext''' property is an empty string. The valu
 * [[javascript/RegExp/lastParen{{!}}lastParen Property ($+) (RegExp)]]
 * [[javascript/RegExp/rightContext{{!}}rightContext Property ($') (RegExp)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
