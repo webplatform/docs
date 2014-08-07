@@ -8,7 +8,7 @@
 |Formats={{JS_Syntax_Format
 |Format=string.valueOf()}}
 |Values={{JS_Syntax_Parameter
-|Description=This method has no parameters.}}
+}}
 }}
 {{JS_Return_Value
 |Description=Returns the string value.
