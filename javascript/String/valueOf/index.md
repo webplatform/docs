@@ -17,21 +17,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=In the following example, the string object is the same as the return value.
+|Code=var str = "every good boy does fine";
+var strStr = str.valueOf();
+ 
+if (str === strStr)
+document.write("same");
+else
+document.write("different");
+ 
+// Output:
+// same
+}}
 }}
 {{Remarks_Section
-|Remarks=In the following example, the string object is the same as the return value.
-
- var str = "every good boy does fine";
- var strStr = str.valueOf();
+|Remarks=
  
- if (str === strStr)
- document.write("same");
- else
- document.write("different");
- 
- // Output:
- // same
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
