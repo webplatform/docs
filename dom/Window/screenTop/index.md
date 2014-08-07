@@ -1,19 +1,27 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Retrieves the y-coordinate of the top corner of the client area, relative to the top corner of the screen.}}
 {{API_Object_Property
 |Property_applies_to=dom/Window
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=window
+|Return_value_name=top
+|Javascript_data_type=Number
+|Return_value_description=the y-coordinate, in pixels.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var top{{=}}window.screenTop;
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -36,6 +44,6 @@ The client area consists of the window, exclusive of the caption bar, the window
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534390(v=vs.85).aspx screenTop Property]
 |HTML5Rocks_link=
 }}
