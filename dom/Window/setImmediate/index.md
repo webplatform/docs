@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
+|Checked_Out=No
 |High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
 }}
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Requests that a function be called when current or pending tasks are complete, such as events or screen updates.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=handler
@@ -41,7 +42,10 @@ A handle to the request.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Description=setImmediate Test Drive Demo
+|LiveURL=http://ie.microsoft.com/testdrive/Performance/setImmediateSorting/Default.html
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -67,8 +71,8 @@ The '''setTimeout''' method is restricted to 250 requests per second on most sys
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/window.setImmediate setImmediate]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh773176(v=vs.85).aspx setImmediate Method]
 |HTML5Rocks_link=
 }}
