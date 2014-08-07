@@ -1,23 +1,22 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the character position where the first successful match begins in a searched string. Read-only.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''RegExp'''.'''index''' }}
+{{Summary_Section|Returns the character position where the first successful match begins in a searched string. Read-only.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''RegExp'''.'''index'''
 }}
-{{Remarks_Section
-|Remarks=The object associated with this property is always the global '''RegExp''' object.
-
-The '''index''' property is zero-based. The initial value of the '''index''' property is -1. Its value changes whenever a successful match is made.
+|Values=
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''index''' property. This function iterates a search string and prints out the '''index''' and '''lastIndex''' values for each word in the string.
-
-|Code= function RegExpTest()
+|Code=function RegExpTest()
  {
     var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())
     if (ver &lt; 5.5)
@@ -41,9 +40,21 @@ The '''index''' property is zero-based. The initial value of the '''index''' pro
        document.write (arr);
        }
  }
-}}}}
-{{Topics | JS Basic}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The object associated with this property is always the global '''RegExp''' object.
 
+The '''index''' property is zero-based. The initial value of the '''index''' property is -1. Its value changes whenever a successful match is made.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
