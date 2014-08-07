@@ -1,7 +1,6 @@
 {{Page_Title}}
 {{Flags}}
 {{Summary_Section|Replaces text in a string, using a regular expression or search string.
-
 }}
 {{JS_Syntax|Formats={{JS_Syntax_Format
 |Format= stringObj. replace( rgExp , replaceText )}}
