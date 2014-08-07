@@ -1,17 +1,24 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the string.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= string.valueOf()}}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=This method has no parameters.}}
+{{Summary_Section|Returns the value of a string.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=string.valueOf()
+}}
+|Values={{JS Syntax Parameter
+|Description=This method has no parameters.
+}}
 }}
 {{JS_Return_Value
-|Description=Returns the string value.}}
+|Description=Returns the string value.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks=In the following example, the string object is the same as the return value.
 
@@ -26,8 +33,14 @@
  // Output:
  // same
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
