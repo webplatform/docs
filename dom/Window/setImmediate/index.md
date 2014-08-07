@@ -27,14 +27,10 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-This method can return one of these values.
-
-S_OK
+|Example_object_name=window
+|Return_value_name=hTimer
+|Javascript_data_type=Number
+|Return_value_description=A handle to the request.S_OK
 
 '''Integer'''
 
