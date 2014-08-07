@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Evaluates an expression after a specified number of milliseconds has elapsed. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=expression
@@ -22,12 +23,12 @@
 |Name=language
 |Data type=String
 |Description='''String''' that specifies one of the following values:
-|Optional=No
+|Optional=Yes
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
+|Example_object_name=window
+|Return_value_name=timeoutId
+|Javascript_data_type=Number
 |Return_value_description='''Integer'''
 
 Integer. Returns an identifier that cancels the evaluation with the [[dom/Window/clearTimeout|'''clearTimeout''']] method.
@@ -35,13 +36,16 @@ Integer. Returns an identifier that cancels the evaluation with the [[dom/Window
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following example uses the '''setTimeout''' method to evaluate a simple expression after one second has elapsed.
 |Code=window.setTimeout("alert('Hello, world')", 1000);
 }}{{Single Example
+|Language=JavaScript
 |Description=The following example uses the '''setTimeout''' method to evaluate a slightly more complex expression after one second has elapsed.
 |Code=var sMsg {{=}} "Hello, world";
 window.setTimeout("alert(" + sMsg + ")", 1000);
 }}{{Single Example
+|Language=JavaScript
 |Description=This example uses the '''setTimeout''' method to hide a '''input type{{=}}button''' object after three seconds. If the user clicks the '''Count Down''' button and then counts to three, the '''Now You See Me''' button disappears.
 |Code=&lt;script type{{=}}"text/javascript"&gt;
 function fnHide(oToHide){
@@ -55,6 +59,7 @@ function fnHide2(sID){
 &lt;input type{{=}}"button" value{{=}}"Count Down" 
     id{{=}}"oHideButton" onclick{{=}}"fnHide(this)"&gt;
 }}{{Single Example
+|Language=JavaScript
 |Description=This example uses a function pointer to pass the data. In this case, the data is stored in a global variable because it cannot be passed directly. In the preceding example, the [[html/attributes/id|'''ID''']] of the button is passed as a parameter to the function invoked by the '''setTimeout''' method. This is possible only when a string is passed as the first argument.
 |Code=&lt;script type{{=}}"text/javascript"&gt;
 var g_oToHide {{=}} null;
@@ -102,7 +107,7 @@ Generally all browsers implement this timeout "clamp" to 4 ms, although some bro
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/window.setTimeout
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/window.setTimeout setTimeout]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536753(v=vs.85).aspx setTimeout Method]
 |HTML5Rocks_link=
 }}
