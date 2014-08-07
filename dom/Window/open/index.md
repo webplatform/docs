@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Opens a new window and loads the document specified by a given URL.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=url
@@ -30,8 +31,8 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=window
+|Return_value_name=newwindow
 |Javascript_data_type=DOM Node
 |Return_value_description='''IHTMLWindow2'''
 
@@ -44,6 +45,7 @@ reference to access properties and methods on the new window.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=This example uses the '''open''' method to create a new window that contains Sample.htm. The new window is 200 pixels by 400 pixels and has a status bar, but it does not have a toolbar, menu bar, or address field.
 |Code=window.open("Sample.htm",null,
     "height{{=}}200,width{{=}}400,status{{=}}yes,toolbar{{=}}no,menubar{{=}}no,location{{=}}no");
@@ -91,8 +93,8 @@ In Windows CE, the [[dom/Document|Document]] object is not available through sc
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.open open]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536651(v=vs.85).aspx open Method]
 |HTML5Rocks_link=
 }}
