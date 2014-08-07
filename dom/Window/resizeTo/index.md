@@ -1,36 +1,42 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
-|Data type=any
+|Data type=Number
 |Description='''Integer''' that specifies the width of the window in pixels. The value can be either positive or negative.
 |Optional=No
 }}{{Method Parameter
 |Name=y
-|Data type=any
+|Data type=Number
 |Description='''Integer''' that specifies the height of the window in pixels. The value can be either positive or negative.
 |Optional=No
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
-
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
+|Example_object_name=window.location
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=// function resizes the window to take up one quarter
+// of the available screen.
+function quarter() {
+  window.resizeTo(
+    window.screen.availWidth / 2,
+    window.screen.availHeight / 2
+  );
+}
+}}
 }}
 {{Notes_Section
 |Notes====Remarks===
@@ -55,8 +61,8 @@ Internet Explorer 7. This method is blocked if called by a foreign domain withi
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.resizeTo resizeTo]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536723(v=vs.85).aspx resizeTo Method]
 |HTML5Rocks_link=
 }}
