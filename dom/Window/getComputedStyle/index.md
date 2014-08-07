@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -115,6 +116,7 @@ Starting in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0), returned U
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/window.getComputedStyle
+|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/window.getComputedStyle getComputedStyle]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975168(v=vs.85).aspx getComputedStyle Method]
 |HTML5Rocks_link=
 }}
