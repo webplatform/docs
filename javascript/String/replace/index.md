@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Summary_Section|Replaces text in a string, using a regular expression or search string.
 }}
 {{JS_Syntax|Formats={{JS_Syntax_Format
