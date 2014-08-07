@@ -15,18 +15,20 @@
 {{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example demonstrates the effects of the '''toLowerCase''' method.
+|Code=var str1 = "This is a STRING.";
+var str2 = str1. toLowerCase();
+document.write(str2);
+ 
+// Output: this is a string.
+}}
 }}
 {{Remarks_Section
 |Remarks=The '''toLowerCase''' method has no effect on non-alphabetic characters.
 
-The following example demonstrates the effects of the '''toLowerCase''' method:
 
- var str1 = "This is a STRING.";
- var str2 = str1. toLowerCase();
- document.write(str2);
- 
- // Output: this is a string.
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
