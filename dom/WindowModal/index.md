@@ -1,5 +1,8 @@
 {{Page_Title}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Represents a modal or modeless child window of a window, with additional utility methods for arguments and return values.}}
@@ -7,7 +10,7 @@
 |Subclass_of=dom/Window
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
