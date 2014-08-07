@@ -1,7 +1,90 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|You can use HTML tag methods to place HTML elements around text in a '''String''' object.
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
+{{Summary_Section|You can use HTML tag methods to place HTML elements around text in a '''String''' object.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following examples show how to use the HTML tag methods.
+|Code=// anchor method.
+ var strVariable = "This is an anchor.";
+ document.write(strVariable.anchor("Anchor1"));
+ // Output: &lt;A NAME="Anchor1"&gt;This is an anchor.&lt;/A&gt;
+ 
+ // big method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.big());
+ // Output: &lt;BIG&gt;This is a string.&lt;/BIG&gt;
+ 
+ //  blink method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.blink());
+ // Output: &lt;BLINK&gt;This is a string.&lt;/BLINK&gt;
+ 
+ //  bold method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.bold());
+ // Output: &lt;B&gt;This is a string.&lt;/B&gt;
+ 
+ //  fixed method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.fixed());
+ // Output: &lt;TT&gt;This is a string.&lt;/TT&gt;
+ 
+ //  fontcolor method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.fontcolor("red"));
+ // Output: &lt;FONT COLOR="red"&gt;This is a string.&lt;/FONT&gt;
+ 
+ //  fontsize method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.fontsize(-1));
+ // Output: &lt;FONT SIZE="-1"&gt;This is a string.&lt;/FONT&gt;
+ 
+ //  italics method
+ var strVariable = "This is a string.";
+ document.write(strVariable.italics());
+ // Output: &lt;I&gt;This is a string.&lt;/I&gt;
+ 
+ //  link method.
+ var strVariable = "This is a hyperlink.";
+ document.write(strVariable.link("http://www.microsoft.com"));
+ // Output: &lt;A HREF="http://www.microsoft.com"&gt;This is a hyperlink.&lt;/A&gt;
+ 
+ //  small method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.small());
+ // Output: &lt;SMALL&gt;This is a string.&lt;/SMALL&gt;
+ 
+ //  strike method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.strike());
+ // Output: &lt;STRIKE&gt;This is a string.&lt;/STRIKE&gt;
+ 
+ //  sub method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.sub());
+ // Output: &lt;SUB&gt;This is a string.&lt;/SUB&gt;
+ 
+ //  sup method.
+ var strVariable = "This is a string.";
+ document.write(strVariable.sup());
+ // Output: &lt;SUP&gt;This is a string.&lt;/SUP&gt;
+}}
+}}
+{{Remarks_Section
+|Remarks=No checking is performed to determine whether the HTML tags have already been applied to the string.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Syntax==
 The following table lists the syntax for and a description of each HTML tag method.
 
@@ -68,85 +151,17 @@ The Standard column indicates [http://go.microsoft.com/fwlink/?LinkId=199553 Wor
 | string1.sup()
 | Places HTML &lt;SUP&gt; tags around the text.
 |}
-{{Remarks_Section
-|Remarks=No checking is performed to determine whether the HTML tags have already been applied to the string.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following examples show how to use the HTML tag methods.
 
-|Code= // anchor method.
- var strVariable = "This is an anchor.";
- document.write(strVariable.anchor("Anchor1"));
- // Output: &lt;A NAME="Anchor1"&gt;This is an anchor.&lt;/A&gt;
- 
- // big method.
- var strVariable = "This is a string.";
- document.write(strVariable.big());
- // Output: &lt;BIG&gt;This is a string.&lt;/BIG&gt;
- 
- //  blink method.
- var strVariable = "This is a string.";
- document.write(strVariable.blink());
- // Output: &lt;BLINK&gt;This is a string.&lt;/BLINK&gt;
- 
- //  bold method.
- var strVariable = "This is a string.";
- document.write(strVariable.bold());
- // Output: &lt;B&gt;This is a string.&lt;/B&gt;
- 
- //  fixed method.
- var strVariable = "This is a string.";
- document.write(strVariable.fixed());
- // Output: &lt;TT&gt;This is a string.&lt;/TT&gt;
- 
- //  fontcolor method.
- var strVariable = "This is a string.";
- document.write(strVariable.fontcolor("red"));
- // Output: &lt;FONT COLOR="red"&gt;This is a string.&lt;/FONT&gt;
- 
- //  fontsize method.
- var strVariable = "This is a string.";
- document.write(strVariable.fontsize(-1));
- // Output: &lt;FONT SIZE="-1"&gt;This is a string.&lt;/FONT&gt;
- 
- //  italics method
- var strVariable = "This is a string.";
- document.write(strVariable.italics());
- // Output: &lt;I&gt;This is a string.&lt;/I&gt;
- 
- //  link method.
- var strVariable = "This is a hyperlink.";
- document.write(strVariable.link("http://www.microsoft.com"));
- // Output: &lt;A HREF="http://www.microsoft.com"&gt;This is a hyperlink.&lt;/A&gt;
- 
- //  small method.
- var strVariable = "This is a string.";
- document.write(strVariable.small());
- // Output: &lt;SMALL&gt;This is a string.&lt;/SMALL&gt;
- 
- //  strike method.
- var strVariable = "This is a string.";
- document.write(strVariable.strike());
- // Output: &lt;STRIKE&gt;This is a string.&lt;/STRIKE&gt;
- 
- //  sub method.
- var strVariable = "This is a string.";
- document.write(strVariable.sub());
- // Output: &lt;SUB&gt;This is a string.&lt;/SUB&gt;
- 
- //  sup method.
- var strVariable = "This is a string.";
- document.write(strVariable.sup());
- // Output: &lt;SUP&gt;This is a string.&lt;/SUP&gt;
-}}}}
+
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/String{{!}}String Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
