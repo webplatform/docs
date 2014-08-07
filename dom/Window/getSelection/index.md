@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns an object that represents the current selection of the document.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=ppIHTMLSelection
