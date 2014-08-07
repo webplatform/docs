@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Moves a table row to a new position. }}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=indexFrom
@@ -20,30 +21,28 @@
 |Optional=No
 }}
 |Method_applies_to=dom/Window
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Object
-
-Object. Returns a reference to the table row that is moved.
+|Example_object_name=oTable
+|Javascript_data_type=void
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=This example uses the '''moveRow''' method to exchange the first and second rows in a table when the user clicks a button.
-|Code=&lt;SCRIPT&gt;
+|Code=&lt;script type{{=}}"text/javascript&gt;
 function fnMove(){
    oTable.moveRow(0,1);
 }
-&lt;/SCRIPT&gt;
-&lt;INPUT TYPE{{=}}"button" VALUE{{=}}"Change Rows" onclick{{=}}"fnMove()"&gt;
-&lt;TABLE ID{{=}}"oTable"&gt;
-&lt;TR&gt;&lt;TD&gt;Cell 1, Row 1&lt;/TD&gt;&lt;/TR&gt;
-&lt;TR&gt;&lt;TD&gt;Cell 1, Row 2&lt;/TD&gt;&lt;/TR&gt;
-&lt;/TABLE&gt;
+&lt;/script&gt;
+&lt;input type{{=}}"button" value{{=}}"Change Rows" onclick{{=}}"fnMove()"&gt;
+&lt;table id{{=}}"oTable"&gt;
+&lt;tr&gt;&lt;td&gt;Cell 1, Row 1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Cell 1, Row 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
 }}
 }}
 {{Notes_Section
+|Usage=Use to re-order rows of tabula data.
 |Notes====Remarks===
 Rows between the ''indexFrom'' and ''indexTo'' positions in the [[dom/HTMLElement/rows|'''rows''']] collection are shifted based on the direction the row moves.
 }}
@@ -63,6 +62,6 @@ Rows between the ''indexFrom'' and ''indexTo'' positions in the [[dom/HTMLElemen
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx moveRow Method]
 |HTML5Rocks_link=
 }}
