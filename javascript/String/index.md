@@ -1,61 +1,75 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Allows manipulation and formatting of text strings and determination and location of substrings within strings.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= newString = new String([" stringLiteral "])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Allows manipulation and formatting of text strings and determination and location of substrings within strings.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=newString = new String([" stringLiteral "])
+}}
+|Values={{JS Syntax Parameter
 |Name=newString
 |Required=Required
-|Description=The variable name to which the String object is assigned.}}{{JS_Syntax_Parameter
+|Description=The variable name to which the String object is assigned.
+}}{{JS Syntax Parameter
 |Name=stringLiteral
 |Required=Optional
-|Description=Any group of Unicode characters.}}
+|Description=Any group of Unicode characters.
 }}
-{{Remarks_Section
-|Remarks=JavaScript provides escape sequences that you can include in strings to create characters that you cannot type directly. For example, <code>\t</code> specifies a tab character. For more information, see Special Characters (JScript).
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=JavaScript provides escape sequences that you can include in strings to create characters that you cannot type directly. For example, <code>\t</code> specifies a tab character. For more information, see Special Characters (JScript).
 
 A string literal is zero or more characters enclosed in single or double quotation marks. A string literal has a primary (primitive) data type of string. A String object is created by using the [[javascript/operators/new{{!}}new Operator]] , and has a data type of '''Object'''.
 
 The following example shows that the data type of a string literal is not the same as that of a '''String''' object.
-
- var strLit = "This is a string literal.";
- var strObj = new String("This is a string object.");
+|Code=var strLit = "This is a string literal.";
+var strObj = new String("This is a string object.");
  
- document.write(typeof strLit);
- document.write("&lt;br/&gt;");
- document.write(typeof strObj);
- // Output:
- // string
- // object
-When you call a method on a string literal, it is temporarily converted to a string wrapper object. The string literal is treated as though the '''new''' operator were used to create it.
+document.write(typeof strLit);
+document.write("&lt;br/&gt;");
+document.write(typeof strObj);
+// Output:
+// string
+// object
+}}{{Single Example
+|Language=JavaScript
+|Description=When you call a method on a string literal, it is temporarily converted to a string wrapper object. The string literal is treated as though the '''new''' operator were used to create it.
 
 The following example applies the '''toUpperCase''' method to a string literal.
-
- var strLit = "This is a string literal.";
+|Code=var strLit = "This is a string literal.";
  
- var result1 = strLit.toUpperCase();
+var result1 = strLit.toUpperCase();
  
- var result2 = (new String(strLit)).toUpperCase();
+var result2 = (new String(strLit)).toUpperCase();
  
- document.write(result1);
- document.write("&lt;br/&gt;");
- document.write(result2);
- // Output: 
- // THIS IS A STRING LITERAL.
- // THIS IS A STRING LITERAL.
-You can access an individual character of a string as a read-only array-indexed property. This feature was introduced in Internet Explorer 9 standards mode, Internet Explorer 10 standards mode, and win8_appname_long apps. The following example accesses individual string characters.
-
- var str = "abcd";
- var result = str[2];
- document.write (result);
- // Output: c
+document.write(result1);
+document.write("&lt;br/&gt;");
+document.write(result2);
+// Output: 
+// THIS IS A STRING LITERAL.
+// THIS IS A STRING LITERAL.
+}}{{Single Example
+|Language=JavaScript
+|Description=You can access an individual character of a string as a read-only array-indexed property. This feature was introduced in Internet Explorer 9 standards mode, Internet Explorer 10 standards mode, and win8_appname_long apps. The following example accesses individual string characters.
+|Code=var str = "abcd";
+var result = str[2];
+document.write (result);
+// Output: c
  
- var result = "the"[0];
- document.write(result);
- // Output: t
+var result = "the"[0];
+document.write(result);
+// Output: t
 }}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''String''' object.
 
@@ -203,11 +217,15 @@ The following table lists the methods of the '''String''' object.
 | [[javascript/String/valueOf|valueOf Method]]
 | Returns the string.
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
