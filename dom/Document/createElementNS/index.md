@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Done
+|State=Almost Ready
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates an element from the specified namespace.}}
+{{Summary_Section|Creates an element from the specified namespace as a stand-alone object (unattached to the DOM).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
