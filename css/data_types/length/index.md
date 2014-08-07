@@ -1,6 +1,6 @@
 {{Page_Title|&lt;length&gt;}}
 {{Flags
-|State=Almost Done
+|State=Almost Ready
 |Editorial notes=compatibility
 |Checked_Out=No
 }}
