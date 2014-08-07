@@ -1,12 +1,13 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Non-Standard}}
 {{API_Name}}
-{{Summary_Section|The [[css/media_queries/apis/StyleMedia|StyleMedia]] instance object.}}
+{{Summary_Section|Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.}}
 {{API_Object_Property
 |Property_applies_to=dom/Window
 |Read_only=Yes
@@ -18,7 +19,10 @@ Returns the StyleMedia instance object.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var stype{{=}}window.styleMedia.type;
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -39,6 +43,6 @@ Returns the StyleMedia instance object.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/gg592987(v=vs.85).aspx styleMedia Method]
 |HTML5Rocks_link=
 }}
