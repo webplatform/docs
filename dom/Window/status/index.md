@@ -20,14 +20,16 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Code=window.status {{=}} string;
-var value {{=}} window.status;
+|Code=window.onload{{=}}function(){
+window.status='loaded.....';
+}
 }}
 }}
 {{Notes_Section
 |Notes====Remarks===
-
 |Import_Notes====Syntax===
+window.status {{=}} string;
+var value {{=}} window.status;
 }}
 {{Related_Specifications_Section
 |Specifications=
