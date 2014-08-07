@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Sets the size of the window to the specified width and height values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Name=x
