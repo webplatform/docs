@@ -63,7 +63,7 @@ p {
 }}
 }}
 {{Notes_Section
-|Usage=The <code>text-shadow</code> propertie can also be used to draw outlines, bevels, and other effects.
+|Usage=The <code>text-shadow</code> property can also be used to draw outlines, bevels, and other effects.
 |Notes=Multiple shadows are applied front-to-back, with the first-specified shadow on top.
 
 The <code>text-shadow</code> property applies to both the ::first-line and ::first-letter pseudo-elements.
