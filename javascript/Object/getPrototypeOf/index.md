@@ -1,26 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the prototype of an object.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Object.getPrototypeOf( object )}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the prototype of an object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Object.getPrototypeOf( object )
+}}
+|Values={{JS Syntax Parameter
 |Name=object
 |Required=Required
-|Description=The object that references the prototype.}}
+|Description=The object that references the prototype.
+}}
 }}
 {{JS_Return_Value
-|Description=The prototype of the object argument. The prototype is also an object.}}
-==Exceptions==
-If the object argument is not an object, a TypeError exception is thrown.
+|Description=The prototype of the object argument. The prototype is also an object.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''Object.getPrototypeOf''' function.
-
-|Code= // Create a constructor function.
+|Code=// Create a constructor function.
  function Pasta(grain, width) {
      this.grain = grain;
      this.width = width;
@@ -47,11 +49,10 @@ If the object argument is not an object, a TypeError exception is thrown.
  document.write(result);
  
  // Output: carbohydrates true true
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following example uses the '''Object.getPrototypeOf''' function to validate data types.
-
-|Code= var reg = /a/;
+|Code=var reg = /a/;
  var result = (Object.getPrototypeOf(reg) === RegExp.prototype);
  document.write(result + " ");
  
@@ -60,13 +61,24 @@ If the object argument is not an object, a TypeError exception is thrown.
  document.write(result);
  
  // Output: true true
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+==Exceptions==
+If the object argument is not an object, a TypeError exception is thrown.
+
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Object/prototype{{!}}prototype Property (Object)]]
 * [[javascript/Object/isPrototypeOf{{!}}isPrototypeOf Method (Object)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
