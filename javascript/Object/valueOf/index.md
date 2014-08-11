@@ -1,10 +1,19 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the primitive value of the specified object.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= object.valueOf( )}}
+{{Summary_Section|Returns the primitive value of the specified object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=object.valueOf( )
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required object reference is any intrinsic JavaScript object.
@@ -39,11 +48,16 @@ The '''valueOf''' method is defined differently for each intrinsic JavaScript ob
 {{!}}} 
 The '''Math''' and Error objects do not have a '''valueOf''' method.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Object/toString{{!}}toString Method (Object)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
