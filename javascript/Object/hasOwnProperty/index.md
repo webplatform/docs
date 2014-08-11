@@ -1,5 +1,6 @@
-{{Page Title}}
+{{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether an object has a property with the specified name.}}
@@ -41,7 +42,6 @@
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
-
 }}
 {{JS Topics
 |JS Page Type=JS Method
