@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the primitive value of the specified object.}}
