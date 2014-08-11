@@ -32,7 +32,7 @@ Other use cases, such as matching media features and media types and matching on
 |Language=HTML
 |Description='''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.
 |Code=<picture>
-  <source
+  &lt;source
     media="(min-width: 1024px)"
     srcset="opera-fullshot.jpg">
 <img
