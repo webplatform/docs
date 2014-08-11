@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether a specified property is enumerable.}}
@@ -38,7 +39,6 @@ The '''propertyIsEnumerable''' method does not consider objects in the prototype
 ECMAScript® Language Specification
 Standard ECMA-262
 5.1 Edition / June 2011
-
 }}
 {{JS Topics
 |JS Page Type=JS Method
