@@ -30,7 +30,7 @@ Other use cases, such as matching media features and media types and matching on
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}{{Single Example
 |Language=HTML
-|Description='''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.
+|Description=<div class='license-cc-by'>'''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.</div>
 |Code=<picture>
   &lt;source
     media="(min-width: 1024px)"
@@ -67,6 +67,7 @@ For accessibility, place alternative text for all images in the <code>alt</code>
 }}
 {{See_Also_Section
 |Manual_links=* [http://docs.webplatform.org/wiki/html/elements/img &lt;img&gt; Element]
+|External_links=* [http://dev.opera.com/articles/responsive-images/ Responsive Images: Use Cases and Documented Code Snippets to Get You Started]
 }}
 {{Topics|DOM, HTML, Media}}
 {{External_Attribution
