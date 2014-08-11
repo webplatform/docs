@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page Title}}
 {{Flags
 |Checked_Out=No
 }}
