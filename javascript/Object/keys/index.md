@@ -1,31 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the names of the enumerable properties and methods of an object.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Object.keys( object )}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the names of the enumerable properties and methods of an object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Object.keys( object )
+}}
+|Values={{JS Syntax Parameter
 |Name=object
 |Required=Required
-|Description=The object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.}}
+|Description=The object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
+}}
 }}
 {{JS_Return_Value
-|Description=An array that contains the names of the enumerable properties and methods of the object.}}
-==Exceptions==
-If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
-{{Remarks_Section
-|Remarks=The '''keys''' method returns only the names of enumerable properties and methods. To return the names of both enumerable and non-enumerable properties and methods, you can use [[javascript/Object/getOwnPropertyNames{{!}}Object.getOwnPropertyNames Function]].
-
-For information about the enumerable attribute of a property, see [[javascript/Object/defineProperty{{!}}Object.defineProperty Function]] and [[javascript/Object/getOwnPropertyDescriptor{{!}}Object.getOwnPropertyDescriptor Function]].
+|Description=An array that contains the names of the enumerable properties and methods of the object.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example creates an object that has three properties and a method. It then uses the '''keys''' method to get the properties and methods of the object.
-
-|Code= // Create a constructor function.
+|Code=// Create a constructor function.
  function Pasta(grain, width, shape) {
      this.grain = grain;
      this.width = width;
@@ -46,11 +43,10 @@ For information about the enumerable attribute of a property, see [[javascript/O
  
  // Output:
  // grain,width,shape,toString
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following example displays the names of all enumerable properties that start with the letter "g" in the Pasta object.
-
-|Code= // Create a constructor function.
+|Code=// Create a constructor function.
  function Pasta(grain, width, shape) {
      this.grain = grain;
      this.width = width;
@@ -73,12 +69,28 @@ For information about the enumerable attribute of a property, see [[javascript/O
  
  // Output:
  // grain
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''keys''' method returns only the names of enumerable properties and methods. To return the names of both enumerable and non-enumerable properties and methods, you can use [[javascript/Object/getOwnPropertyNames{{!}}Object.getOwnPropertyNames Function]].
+
+For information about the enumerable attribute of a property, see [[javascript/Object/defineProperty{{!}}Object.defineProperty Function]] and [[javascript/Object/getOwnPropertyDescriptor{{!}}Object.getOwnPropertyDescriptor Function]].
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+==Exceptions==
+If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
+
+
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Object/getOwnPropertyNames{{!}}Object.getOwnPropertyNames Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
