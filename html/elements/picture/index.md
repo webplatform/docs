@@ -28,6 +28,16 @@ Other use cases, such as matching media features and media types and matching on
   <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
 </picture>
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
+}}{{Single Example
+|Language=HTML
+|Description=<div class='license-cc-by'>'''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.</div>
+|Code=<picture>
+  <source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot.jpg">
+<img
+  src="opera-closeup.jpg" alt="The Oslo Opera House">
+</picture>
 }}
 }}
 {{Notes_Section
@@ -61,6 +71,7 @@ For accessibility, place alternative text for all images in the <code>alt</code>
 {{Topics|DOM, HTML, Media}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=DevOpera
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
