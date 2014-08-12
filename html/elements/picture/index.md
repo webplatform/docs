@@ -14,6 +14,10 @@
 |Content=The '''picture''' element (<code><picture></code>) addresses use cases that are left unaddressed by the srcset attribute, the most important being art direction. 
 
 Other use cases, such as matching media features and media types and matching on supported image formats, are also addressed by this element.
+
+===Attributes===
+
+This element supports the HTML5 [[html/global_attributes|global attributes]].
 }}
 {{Examples_Section
 |Not_required=No
@@ -166,6 +170,8 @@ Other use cases, such as matching media features and media types and matching on
 }}
 {{Notes_Section
 |Usage=The picture element is not a general replacement for the img element. When there is only a single image source, authors should use <code>&lt;img&gt;</code> as usual.
+
+The picture element requires <code>&lt;source&gt;</code> nested as a child.
 
 The picture element requires <code>&lt;img&gt;</code> nested as the last child; without the img element, <code>&lt;picture&gt;</code> will be ignored. This requirement ensures maximum accessibility and browser backwards compatibility.
 
