@@ -30,13 +30,137 @@ Other use cases, such as matching media features and media types and matching on
 |LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
 }}{{Single Example
 |Language=HTML
-|Description=<div class='license-cc-by'>'''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.</div>
+|Description='''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.
 |Code=<picture>
   &lt;source
     media="(min-width: 1024px)"
     srcset="opera-fullshot.jpg">
 <img
   src="opera-closeup.jpg" alt="The Oslo Opera House">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''Different image types use case:''' Browsers that support WebP get a WebP image; other browsers get JPG.
+|Code=<picture>
+  &lt;source
+    srcset="opera.webp"
+    type="image/webp">
+    <img
+      src="opera.jpg" alt="The Oslo Opera House">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''Different image types & art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo. This photo is served as WebP to browsers that support it; other browsers get JPG.
+|Code=<picture>
+  &lt;source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot.webp"
+    type="image/webp">
+  &lt;source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot.jpg">
+  &lt;source
+    srcset="opera-closeup.webp"
+    type="image/webp">
+  <img
+    src="opera-closeup.jpg" alt="The Oslo Opera House">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''High-DPI images & art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo. In addition, these photos are served as high-resolution images to browsers on devices with high-DPI screens; other browsers get a normal image.
+|Code=<picture>
+  &lt;source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot-1x.jpg 1x, opera-fullshot-2x.jpg 2x, opera-fullshot-3x.jpg 3x">
+  <img
+    src="opera-closeup-1x.jpg" alt="The Oslo Opera House"
+   srcset="opera-closeup-2x.jpg 2x, opera-closeup-3x.jpg 3x">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''High-DPI images & different image types use case:''' Browsers on devices with high-DPI screens get an image with twice or even three times the amount of pixels; other browsers get a normal image. These photos are served as WebP to browsers that support it; other browsers get JPG.
+|Code=<picture>
+  &lt;source
+    srcset="opera-1x.webp 1x, opera-2x.webp 2x, opera-3x.webp 3x"
+    type="image/webp">
+  <img
+    src="opera-1x.jpg" alt="The Oslo Opera House"
+    srcset="opera-2x.jpg 2x, opera-3x.jpg 3x">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''High-DPI images, different image types & art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo. In addition, these photos are served as high-resolution images to browsers on devices with high-DPI screens; other browsers get a normal image. They are also served as WebP to browsers that support it; other browsers get JPG.
+|Code=<picture>
+  &lt;source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot-1x.webp 1x, opera-fullshot-2x.webp 2x, opera-fullshot-3x.webp 3x"
+    type="image/webp">
+  &lt;source
+    media="(min-width: 1024px)"
+    srcset="opera-fullshot-1x.jpg 1x, opera-fullshot-2x.jpg 2x, opera-fullshot-3x.jpg 3x">
+  &lt;source
+    srcset="opera-closeup-1x.webp 1x, opera-closeup-2x.webp 2x, opera-closeup-3x.webp 3x"
+    type="image/webp">
+  <img
+    src="opera-closeup-1x.jpg"
+    alt="The Oslo Opera House"
+    srcset="opera-closeup-2x.jpg 2x, opera-closeup-3x.jpg 3x">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''Changing image sizes & art direction use case:''' For browser windows with a width of 1280 CSS pixels and wider, a full-shot photo with a width of 50% of the viewport width is used; for browser windows with a width of 640-1279 CSS pixels, a photo with a width of 60% of the viewport width is used; for less wide browser windows, a photo with a width that is equal to the full viewport width is used. In each case, the browser picks the optional image from a selection of images with widths of 200px, 400px, 800px and 1200px, keeping in mind image width and screen DPI.
+|Code=<picture>
+  &lt;source
+    media="(min-width: 1280px)"
+    sizes="50vw"
+    srcset="opera-fullshot-200.jpg 200w, opera-fullshot-400.jpg 400w, opera-fullshot-800.jpg 800w, opera-fullshot-1200.jpg 1200w">
+  <img
+    src="opera-fallback.jpg"
+    alt="The Oslo Opera House"
+    sizes="(min-width: 640px) 60vw, 100vw"
+    srcset="opera-closeup-200.jpg 200w, opera-closeup-400.jpg 400w, opera-closeup-800.jpg 800w, opera-closeup-1200.jpg 1200w">
+</picture>
+}}{{Single Example
+|Language=HTML
+|Description='''Changing image sizes, high-DPI images, different image types & art direction use case:''' For browser windows with a width of 1280 CSS pixels and wider, a full-shot photo with a width of 50% of the viewport width is used; for browser windows with a width of 640-1279 CSS pixels, a photo with a width of 60% of the viewport width is used; for less wide browser windows, a photo with a width that is equal to the full viewport width is used. In each case, the browser picks the optional image from a selection of images with widths of 200px, 400px, 800px, 1200px, 1600px and 2000px, keeping in mind image width and screen DPI. These photos are served as WebP to browsers that support it; other browsers get JPG.
+|Code=<picture>
+  &lt;source
+    media="(min-width: 1280px)"
+    sizes="50vw"
+    srcset="opera-fullshot-200.webp 200w,
+        opera-fullshot-400.webp 400w,
+        opera-fullshot-800.webp 800w,
+        opera-fullshot-1200.webp 1200w,
+        opera-fullshot-1600.webp 1600w,
+        opera-fullshot-2000.webp 2000w"
+    type="image/webp">
+  &lt;source
+    sizes="(min-width: 640px) 60vw, 100vw"
+    srcset="opera-closeup-200.webp 200w,
+        opera-closeup-400.webp 400w,
+        opera-closeup-800.webp 800w,
+        opera-closeup-1200.webp 1200w,
+        opera-closeup-1600.webp 1600w,
+        opera-closeup-2000.webp 2000w"
+    type="image/webp">
+  &lt;source
+    media="(min-width: 1280px)"
+    sizes="50vw"
+    srcset="opera-fullshot-200.jpg 200w,
+        opera-fullshot-400.jpg 400w,
+        opera-fullshot-800.jpg 800w,
+        opera-fullshot-1200.jpg 1200w,
+        opera-fullshot-1600.jpg 1800w,
+        opera-fullshot-2000.jpg 2000w">
+  <img
+    src="opera-fallback.jpg" alt="The Oslo Opera House"
+    sizes="(min-width: 640px) 60vw, 100vw"
+    srcset="opera-closeup-200.jpg 200w,
+        opera-closeup-400.jpg 400w,
+        opera-closeup-800.jpg 800w,
+        opera-closeup-1200.jpg 1200w,
+        opera-closeup-1600.jpg 1600w,
+        opera-closeup-2000.jpg 2000w">
 </picture>
 }}
 }}
