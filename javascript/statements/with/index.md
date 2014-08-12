@@ -25,21 +25,24 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In this example, notice the repeated use of Math.
-|Code=x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10) 
- y = Math.tan(14 * Math.E)
-}}{{Single Example
-|Language=JavaScript
-|Description=When you use the with statement, your code becomes shorter and easier to read:
-|Code=with (Math){
-    x = cos(3 * PI) + sin (LN10)  
-    y = tan(14 * E)
- }
+
+When you use the '''with''' statement, your code may become shorter and easier to read (yet with uncommon semantics).
+|Code=// Without 'with'.
+var x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10);
+var y = Math.tan(14 * Math.E);
+
+// With 'with'.
+var x, y;
+with (Math) {
+    x = cos(3 * PI) + sin (LN10);
+    y = tan(14 * E);
+}
 }}{{Single Example
 |Language=JavaScript
 |Description=The following strict mode code will cause a syntax error to be thrown, because '''with''' statements are disallowed in strict mode.
 |Code="use strict";
 with (Math) {
- console.log(cos(3));
+    console.log(cos(3));
 }
 }}
 }}
