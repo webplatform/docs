@@ -27,11 +27,11 @@
 |Description=The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In this example, notice the repeated use of Math.
 
 When you use the '''with''' statement, your code may become shorter and easier to read (yet with uncommon semantics).
-|Code=// Without 'with'.
+|Code=// Not using 'with'.
 var x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10);
 var y = Math.tan(14 * Math.E);
 
-// With 'with'.
+// Using 'with'.
 var x, y;
 with (Math) {
     x = cos(3 * PI) + sin (LN10);
