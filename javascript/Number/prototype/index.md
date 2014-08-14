@@ -18,8 +18,7 @@
 |Description=The number argument is the name of a number. Use the '''prototype''' property to provide a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object.
 
 For example, to add a method to the '''Number''' object that returns the number of (integer) digits, declare the function, add it to '''Number.prototype''' , and then use it.
-
-|Code= function number_digits() {
+|Code=function number_digits() {
      var digits = 0;
      var num = this;
      while (num) &gt;= 1) {
@@ -34,12 +33,13 @@ For example, to add a method to the '''Number''' object that returns the number 
  document.write(myNumber.digits());
  // Output:
  // 4
-All intrinsic JavaScript objects have a '''prototype''' property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
+}}
+}}
+{{Remarks_Section
+|Remarks=All intrinsic JavaScript objects have a '''prototype''' property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 }}
-}}
-{{Remarks_Section}}
 {{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
