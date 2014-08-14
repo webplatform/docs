@@ -1,23 +1,33 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Adds a property to an object, or modifies attributes of an existing property.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Object.defineProperty( object , propertyname , descriptor )}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Adds a property to an object, or modifies the attributes of an existing property.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Object.defineProperty( object , propertyname , descriptor )
+}}
+|Values={{JS Syntax Parameter
 |Name=object
 |Required=Required
-|Description=The object on which to add or modify the property. This can be a native JavaScript object (that is, a user-defined object or a built in object) or a DOM object.}}{{JS_Syntax_Parameter
+|Description=The object on which to add or modify the property. This can be a native JavaScript object (that is, a user-defined object or a built in object) or a DOM object.
+}}{{JS Syntax Parameter
 |Name=propertyname
 |Required=Required
-|Description=A string that contains the property name.}}{{JS_Syntax_Parameter
+|Description=A string that contains the property name.
+}}{{JS Syntax Parameter
 |Name=descriptor
 |Required=Required
-|Description=A descriptor for the property. It can be for a data property or an accessor property.}}
+|Description=A descriptor for the property. It can be for a data property or an accessor property.
+}}
 }}
 {{JS_Return_Value
-|Description=The modified object.}}
+|Description=The modified object.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks=You can use the '''Object.defineProperty''' function to do the following:
 
@@ -27,6 +37,8 @@ The property definition is provided in a descriptor object, which describes the 
 
 To add multiple properties to an object, or to modify multiple existing properties, you can use the [[javascript/Object/defineProperties{{!}}Object.defineProperties Function]].
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Exceptions==
 A TypeError exception is thrown if any one of the following conditions is true:
 
@@ -172,14 +184,18 @@ The following example demonstrates how to customize built-in DOM properties by u
  
  // Output:
  // query
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Object/defineProperties{{!}}Object.defineProperties Function]]
 * [[javascript/Object/create{{!}}Object.create Function]]
 * [[javascript/Object/getOwnPropertyDescriptor{{!}}Object.getOwnPropertyDescriptor Function]]
 * [[javascript/Object/getOwnPropertyNames{{!}}Object.getOwnPropertyNames Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
