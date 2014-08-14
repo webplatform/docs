@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a pseudorandom number between 0 and 1.}}
