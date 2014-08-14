@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the primitive value of the specified number.}}
@@ -17,8 +18,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=In the following example, the instantiated number object is the same as the return value of this method.
-
-|Code= var num = 1234;
+|Code=var num = 1234;
  var s = num.valueOf();
  
  if (num === s)
