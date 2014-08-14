@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Math constants return constant values that are properties of the '''Math''' object.}}
