@@ -1,36 +1,32 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Creates an object that has the specified prototype, and that optionally contains specified properties.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Object.create( prototype , descriptors )}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Creates an object that has the specified prototype, and that optionally contains specified properties.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Object.create( prototype , descriptors )
+}}
+|Values={{JS Syntax Parameter
 |Name=prototype
 |Required=Required
-|Description=The object to use as a prototype. May be null.}}{{JS_Syntax_Parameter
+|Description=The object to use as a prototype. May be null.
+}}{{JS Syntax Parameter
 |Name=descriptors
 |Required=Optional
-|Description=A JavaScript object that contains one or more property descriptors.A data property is a property that can get and set a value. A data property descriptor contains a value attribute, plus writable , enumerable , and configurable attributes. If the last three attributes are not specified, they default to false. An accessor property calls a user-provided function every time the value is retrieved or set. An accessor property descriptor contains a set attribute, a get attribute, or both. For more information, see [[javascript/Object/defineProperty{{!}}Object.defineProperty Function]].}}
+|Description=A JavaScript object that contains one or more property descriptors.A data property is a property that can get and set a value. A data property descriptor contains a value attribute, plus writable , enumerable , and configurable attributes. If the last three attributes are not specified, they default to false. An accessor property calls a user-provided function every time the value is retrieved or set. An accessor property descriptor contains a set attribute, a get attribute, or both. For more information, see [[javascript/Object/defineProperty{{!}}Object.defineProperty Function]].
+}}
 }}
 {{JS_Return_Value
-|Description=A new object that has the specified internal prototype and contains the specified properties, if any.}}
-==Exceptions==
-A TypeError exception is thrown if any of the following conditions is true:
-
-* The prototype argument is not an object and is not null.
-* A descriptor in the descriptors argument has a value or writable attribute, and has a get or set attribute.
-* A descriptor in the descriptors argument has a get or set attribute that is not a function.
-{{Remarks_Section
-|Remarks=You can use this function using a null prototype parameter in order to stop the prototype chain. The object created will have no prototype.
+|Description=A new object that has the specified internal prototype and contains the specified properties, if any.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example creates an object using a null prototype and adds two enumerable properties.
-
-|Code= var newObj = Object.create(null, {
+|Code=var newObj = Object.create(null, {
              size: {
                  value: "large",
                  enumerable: true
@@ -49,11 +45,10 @@ A TypeError exception is thrown if any of the following conditions is true:
  // large
  // round
  // null
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following example creates an object that has the same internal prototype as the Object object. You can see that it has the same prototype as an object created by using an object literal. The [[javascript/Object/getPrototypeOf{{!}}Object.getPrototypeOf]] function gets the prototype of the original object. To get the object's property descriptor, you can use [[javascript/Object/getOwnPropertyDescriptor{{!}}Object.getOwnPropertyDescriptor Function]].
-
-|Code= var firstLine = { x: undefined, y: undefined };
+|Code=var firstLine = { x: undefined, y: undefined };
  
  var secondLine = Object.create(Object.prototype, {
          x: {
@@ -94,21 +89,38 @@ A TypeError exception is thrown if any of the following conditions is true:
  // Output:
  // first line prototype = [object Object]
  // second line prototype = [object Object]
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following example creates an object that has the same internal prototype as the Shape object.
-
-|Code= // Create the shape object.
+|Code=// Create the shape object.
  var Shape = { twoDimensional: true, color: undefined, hasLineSegments: undefined };
  
  var Square = Object.create(Object.getPrototypeOf(Shape));
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=You can use this function using a null prototype parameter in order to stop the prototype chain. The object created will have no prototype.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+==Exceptions==
+A TypeError exception is thrown if any of the following conditions is true:
+
+* The prototype argument is not an object and is not null.
+* A descriptor in the descriptors argument has a value or writable attribute, and has a get or set attribute.
+* A descriptor in the descriptors argument has a get or set attribute that is not a function.
+
+
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Object/getPrototypeOf{{!}}Object.getPrototypeOf Function]]
 * [[javascript/Object/isPrototypeOf{{!}}isPrototypeOf Method (Object)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
