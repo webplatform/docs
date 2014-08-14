@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Topics, Needs Review
 }}
 {{Summary_Section|Represents a number either in exponential or fixed-point notation with a specified number of digits.}}
 {{JS_Syntax
