@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the greatest integer less than or equal to its numeric argument.}}
