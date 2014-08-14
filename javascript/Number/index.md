@@ -1,6 +1,8 @@
 {{Page_Title}}
 {{Flags
-|Checked_Out=Yes
+|State=Almost Ready
+|Editorial notes=Fix broken links in Properties table
+|Checked_Out=No
 |High-level issues=Needs Topics, Needs Review
 |Content=Incomplete
 }}
