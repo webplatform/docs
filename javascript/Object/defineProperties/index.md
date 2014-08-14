@@ -30,7 +30,6 @@
 In the following example, the '''Object.defineProperties''' function adds a data property and an accessor property to a user-defined object.
 
 The example uses an object literal to create the descriptors object with the <code>newDataProperty</code> and <code>newAccessorProperty</code> descriptor objects.
-
 |Code=var newLine = "&lt;br /&gt;";
  
 var obj = {};
@@ -52,7 +51,7 @@ Object.defineProperties(obj, {
         },
         enumerable: true,
         configurable: true
-    }});
+    });
 
 // Set the accessor property value.
 obj.newAccessorProperty = 10;
@@ -62,7 +61,6 @@ document.write ("newAccessorProperty value: " + obj.newAccessorProperty + newLin
 // in property set accessor
 // in property get accessor
 // newAccessorProperty value: 10
-
 }}{{Single Example
 |Language=JavaScript
 |Description=Like the previous example, the following example adds properties dynamically instead of with an object literal.
@@ -103,19 +101,16 @@ document.write ("newAccessorProperty value: " + obj.newAccessorProperty + newLin
 // in property set accessor
 // in property get accessor
 // newAccessorProperty value: 10
-
 }}{{Single Example
 |Language=JavaScript
 |Description='''Modifying Properties'''
 
 To modify property attributes for the object, add the following code. The '''Object.defineProperties''' function modifies the writable attribute of <code>newDataProperty</code> , and modifies the enumerable attribute of <code>newAccessorProperty</code>. It adds <code>anotherDataProperty</code> to the object because that property name does not already exist.
-
 |Code=Object.defineProperties(obj, {
         newDataProperty: { writable: false },
         newAccessorProperty: { enumerable: false },
         anotherDataProperty: { value: "abc" }
     });
-
 }}
 }}
 {{Remarks_Section
