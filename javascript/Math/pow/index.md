@@ -1,31 +1,43 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the value of a base expression taken to a specified power.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math.pow(''' base , exponent ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the value of a base expression taken to a specified power.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math.pow(''' base , exponent ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=base
 |Required=Required
-|Description=The base value of the expression.}}{{JS_Syntax_Parameter
+|Description=The base value of the expression.
+}}{{JS Syntax Parameter
 |Name=exponent
 |Required=Required
-|Description=The exponent value of the expression.}}
+|Description=The exponent value of the expression.
 }}
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=In the following example, a numeric expression equal to baseexponent returns 1000.
-
-|Code= Math.pow( 10,3 ) ;
-}}}}
+|Code=Math.pow( 10,3 ) ;
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math{{!}}Math Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
