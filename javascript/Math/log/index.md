@@ -1,24 +1,27 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the natural logarithm (base e ) of a number.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= Math.log( number ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the natural logarithm (base e ) of a number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=Math.log( number ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=number
-|Required=
-|Description=A number.}}
+|Description=A number.
+}}
 }}
 {{JS_Return_Value
-|Description=If number is positive, this function returns the natural logarithm of the number. If number is negative, this function returns NaN. If number is 0, this function returns -Infinity.}}
+|Description=If number is positive, this function returns the natural logarithm of the number. If number is negative, this function returns NaN. If number is 0, this function returns -Infinity.
+}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following code shows how to use this function.
-
-|Code= var numArr = [ 45.3, 69.0, 557.04, 0.222 ];
+|Code=var numArr = [ 45.3, 69.0, 557.04, 0.222 ];
  
  for (i in numArr) {
      document.write(Math.log(numArr[i]));
@@ -30,12 +33,19 @@
  // 4.23410650459726
  // 6.322637050634291
  // -1.5050778971098575
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/sqrt{{!}}Math.sqrt Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
