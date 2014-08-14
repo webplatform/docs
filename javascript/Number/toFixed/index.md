@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Topics, Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Topics, Needs Review
 }}
 {{Summary_Section|The toFixed() method formats a number to fixed-point notation (decimal).}}
 {{JS_Syntax
