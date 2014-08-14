@@ -1,19 +1,25 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a reference to the prototype for a class of number.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= number.prototype}}
+{{Summary_Section|Returns a reference to the prototype for a class of number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=number.prototype
 }}
-{{Remarks_Section
-|Remarks=The number argument is the name of a number.
-
-Use the '''prototype''' property to provide a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object.
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The number argument is the name of a number. Use the '''prototype''' property to provide a base set of functionality to a class of objects. New instances of an object "inherit" the behavior of the prototype assigned to that object.
 
 For example, to add a method to the '''Number''' object that returns the number of (integer) digits, declare the function, add it to '''Number.prototype''' , and then use it.
 
- function number_digits() {
+|Code= function number_digits() {
      var digits = 0;
      var num = this;
      while (num) &gt;= 1) {
@@ -32,8 +38,16 @@ All intrinsic JavaScript objects have a '''prototype''' property that is read-on
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 }}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
