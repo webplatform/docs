@@ -27,7 +27,44 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=In the following example, the '''Object.defineProperty''' function adds a data property to a user-defined object. To instead add the property to an existing DOM object, uncomment the <code>var = window.document</code> line.
+
+|Code=var newLine = "&lt;br /&gt;";
+ 
+// Create a user-defined object.
+var obj = {};
+ 
+// Add a data property to the object.
+Object.defineProperty(obj, "newDataProperty", {
+    value: 101,
+    writable: true,
+    enumerable: true,
+    configurable: true
+});
+ 
+// Set the property value.
+obj.newDataProperty = 102;
+document.write("Property value: " + obj.newDataProperty + newLine);
+ 
+// Output:
+// Property value: 102
+
+//To list the object properties, add the following code to this example.
+
+var names = Object.getOwnPropertyNames(obj);
+for (var i = 0; i &lt; names.length; i++) {
+    var prop = names[i];
+
+    document.write(prop + ': ' + obj[prop]);
+    document.write(newLine);
+}
+ 
+// Output:
+//  newDataProperty: 102
+
+}}
 }}
 {{Remarks_Section
 |Remarks=You can use the '''Object.defineProperty''' function to do the following:
