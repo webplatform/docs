@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Flags, Needs Topics
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Flags, Needs Topics
 }}
 {{Summary_Section|Returns a string representation of a number.}}
 {{JS_Syntax
