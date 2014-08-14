@@ -1,7 +1,21 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|The following number constants are properties of the '''Number''' object.
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
+{{Summary_Section|The following number constants are properties of the '''Number''' object.}}
+{{JS_Syntax
+|Formats=
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Number Object Constants==
 You do not have to create '''Number''' object to access these constants.
 
@@ -25,6 +39,8 @@ You do not have to create '''Number''' object to access these constants.
 | '''Number.POSITIVE_INFINITY'''
 | A value greater than the largest number that can be represented in JavaScript.JavaScript displays POSITIVE_INFINITY values as <code>infinity</code>.
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/constants{{!}}Math Constants]]
 * [[javascript/constants{{!}}JavaScript Constants]]
@@ -32,8 +48,10 @@ You do not have to create '''Number''' object to access these constants.
 * [[javascript/NaN{{!}}NaN Constant]]
 * [[javascript/isNaN{{!}}isNaN Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
