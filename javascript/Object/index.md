@@ -1,23 +1,35 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Provides functionality common to all JavaScript objects.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= obj ''' = new Object(''' [ value ] ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Provides functionality common to all JavaScript objects.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=obj ''' = new Object(''' [ value ] ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=obj
 |Required=Required
-|Description=The variable name to which the Object object is assigned.}}{{JS_Syntax_Parameter
+|Description=The variable name to which the Object object is assigned.
+}}{{JS Syntax Parameter
 |Name=value
 |Required=Optional
-|Description=Any one of the JavaScript primitive data types (Number, Boolean, or String). If value is an object, the object is returned unmodified. If value is null , '''undefined''' , or not supplied, an object with no content is created.}}
+|Description=Any one of the JavaScript primitive data types (Number, Boolean, or String). If value is an object, the object is returned unmodified. If value is null , '''undefined''' , or not supplied, an object with no content is created.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The Object object is contained in all other JavaScript objects; all of its methods and properties are available in all other objects. The methods can be redefined in user-defined objects, and are called by JavaScript at appropriate times. The '''toString''' method is an example of a frequently redefined Object method.
 
 In this language reference, the description of each Object method includes both default and object-specific implementation information for the intrinsic JavaScript objects.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Properties==
 The following table lists properties of the '''Object Object'''.
 
@@ -105,11 +117,15 @@ The following table lists methods of the '''Object Object'''.
 | [[javascript/Object/valueOf|valueOf method]]
 | Returns the primitive value of the specified object.
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
