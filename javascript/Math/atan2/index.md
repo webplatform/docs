@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the angle (in radians) from the X axis to a point ( y , x ).}}
