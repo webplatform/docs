@@ -1,10 +1,20 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a supplied numeric expression rounded to the nearest integer.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math.round(''' number ''')''' }}
+{{Summary_Section|Returns a supplied numeric expression rounded to the nearest integer.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math.round(''' number ''')'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required number argument is the value to be rounded to the nearest integer.
@@ -15,11 +25,16 @@ For negative numbers, if the decimal portion is exactly -0.5, the return value i
 
 For example, <code>Math.round(8.5)</code> returns 9, but <code>Math.round(-8.5)</code> returns -8.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/random{{!}}Math.random Function]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
