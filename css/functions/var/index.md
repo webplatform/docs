@@ -9,7 +9,20 @@
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|Allows authors to reference the value of a custom property for cascading variables.}}
-{{CSS_Function}}
+{{CSS_Function
+|Content===Syntax==
+* '''var ( <custom-property> )'''
+* '''var ( <custom-property>, <default-value> )'''
+
+==Parameters==
+'''custom-property'''
+
+''The name of the custom property to use.''
+
+'''default-value'''
+
+''A value to use when the custom property isn't defined.''
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
