@@ -1,21 +1,24 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the primitive value of the specified number.
-
+{{Flags
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= number.valueOf()}}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=This method has no parameters.}}
+{{Summary_Section|Returns the primitive value of the specified number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=number.valueOf()
+}}
+|Values=
 }}
 {{JS_Return_Value
-|Description=Returns the number.}}
-{{Remarks_Section
-|Remarks=In the following example, the instantiated number object is the same as the return value of this method.
+|Description=Returns the number.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=In the following example, the instantiated number object is the same as the return value of this method.
 
- var num = 1234;
+|Code= var num = 1234;
  var s = num.valueOf();
  
  if (num === s)
@@ -26,8 +29,16 @@
  // Output:
  // same
 }}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
