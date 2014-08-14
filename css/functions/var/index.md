@@ -12,7 +12,30 @@
 {{CSS_Function}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Code=.block .header {  
+	/* use a variable for the text color of the header, with default 'blue' */
+	color: var(--header-color, blue);
+	
+	/* use a variable for the background color of the header, with default 'blue' */
+	background-color: var(--text-color, blue);
+	
+	padding: 1em;
+}
+
+.block .contents{  
+	/* use a variable for the text color of the contents, with default 'red' */
+	color: var(--text-color, red);
+	padding: 1em;
+}
+
+.block{  
+	/* only the --text-color variable is set, so the --header-color will show it's default 'blue' */
+	--text-color: green;  
+}
+|LiveURL=http://code.webplatform.org/gist/a41474c974dfef4ec106
+}}
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
@@ -30,7 +53,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
