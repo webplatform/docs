@@ -1,21 +1,36 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the square root of a number.
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math.sqrt(''' number ''')''' }}
+{{Summary_Section|Returns the square root of a number.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math.sqrt(''' number ''')'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required number argument is a numeric expression.
 
 If number is negative, the return value is '''NaN'''.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/constants{{!}}Math Constants]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
