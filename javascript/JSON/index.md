@@ -1,14 +1,23 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= JSON.[method]}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=JSON.[method]
+}}
+|Values={{JS Syntax Parameter
 |Name=Method
 |Required=Required
-|Description=Name of one of the methods of the JSON object.}}
+|Description=Name of one of the methods of the JSON object.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=You cannot create a JSON object by using the new operator. An error occurs if you try to do this. However, you can override or modify the JSON object.
@@ -22,16 +31,22 @@ To use the intrinsic JSON object, make sure that you do not override it with ano
      }
 In the previous example, <code>!this.JSON</code> evaluates to false in Internet Explorer 8 standards mode, Internet Explorer 9 standards mode, Internet Explorer 10 standards mode, and win8_appname_long apps. Therefore, the code inside the if statement does not execute.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Functions==
 [[javascript/JSON/parse|JSON.parse Function]]
 
 [[javascript/JSON/stringify|JSON.stringify Function]]
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/toJSON{{!}}toJSON Method (Date)]]
 * [[javascript/objects{{!}}JavaScript Objects]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
