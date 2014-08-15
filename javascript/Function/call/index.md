@@ -1,30 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Calls a method of an object, substituting another object for the current object.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Calls a method of an object, substituting another object for the current object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])
+}}
+|Values={{JS Syntax Parameter
 |Name=thisObj
 |Required=Optional
-|Description=The object to be used as the current object.}}{{JS_Syntax_Parameter
+|Description=The object to be used as the current object.
+}}{{JS Syntax Parameter
 |Name=arg1, arg2, , argN
 |Required=Optional
-|Description=A list of arguments to be passed to the method.}}
+|Description=A list of arguments to be passed to the method.
 }}
-{{Remarks_Section
-|Remarks=The '''call''' method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
-
-If thisObj is not supplied, the global object is used as thisObj.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following code shows how to use the '''call''' method.
-
-|Code= function callMe(arg1, arg2){
+|Code=function callMe(arg1, arg2){
      var s = "";
  
      s += "this value: " + this;
@@ -53,13 +53,24 @@ If thisObj is not supplied, the global object is used as thisObj.
  // this value: 3
  // arguments: 4
  // arguments: 5
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''call''' method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
+
+If thisObj is not supplied, the global object is used as thisObj.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Function{{!}}Function Object]]
 * [[javascript/Function/apply{{!}}apply Method (Function)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
