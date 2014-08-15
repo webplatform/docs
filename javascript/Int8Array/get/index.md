@@ -1,25 +1,28 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Omittable. Gets the element at the specified index.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= var value = int8Array.get(index);}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Omittable. Gets the element at the specified index.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=var value = int8Array.get(index);
+}}
+|Values={{JS Syntax Parameter
 |Name=value
-|Required=
-|Description=The value returned by this method.}}{{JS_Syntax_Parameter
+|Description=The value returned by this method.
+}}{{JS Syntax Parameter
 |Name=index
-|Required=
-|Description=The index at which to get the element of the array.}}
+|Description=The index at which to get the element of the array.
 }}
+}}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to get the first element of the array.
-
-|Code= var req = new XMLHttpRequest();
+|Code=var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
@@ -32,9 +35,17 @@
              var element = intArr.get(0);
          }
      }
-}}}}
+}}
+}}
+{{Remarks_Section}}
+{{Notes_Section}}
+{{JS Object Listing}}
 {{Topics | JS Basic}}
-
+{{See_Also_Section}}
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
