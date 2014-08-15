@@ -21,42 +21,25 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<html>
-<head>
-	<style>
-		#myDiv {
-			width: 150px;
-			height: 150px;
-			border: thin solid;
-			float: left;
-			margin-right: 10px;
-			text-align: center;
-		}
-	</style>
-</head>
-<body>
+|Code=<div id="myDiv"></div>
+<input type="button" value="Blue" id="blueButton">
+<input type="button" value="Red" id="redButton">
+<script>
+    redButton.onclick=function(){
+        //create a css style using cssText
+        myDiv.style.cssText = "background-image: radial-gradient(red,  yellow); color: darkred;"
 
-	<div id="myDiv"></div>
-	<input type="button" value="Blue" id="blueButton">
-	<input type="button" value="Red" id="redButton">
-
-	<script>
-		redButton.onclick=function(){
-			//create a css style using cssText
-			myDiv.style.cssText = "background-image: radial-gradient(red,  yellow); color: darkred;"			
-			// write the cssText to the contents of the div
-			myDiv.innerHTML = "The cssText value is: " + myDiv.style.cssText;
-		}
-		blueButton.onclick=function(){
-			//create a css style using cssText
-			myDiv.style.cssText = "background-image: radial-gradient(blue,  white); color: darkblue;"
+        // write the cssText to the contents of the div
+        myDiv.innerHTML = "The cssText value is: " + myDiv.style.cssText;
+    }
+    blueButton.onclick=function(){
+        //create a css style using cssText
+        myDiv.style.cssText = "background-image: radial-gradient(blue,  white); color: darkblue;"
 			
-			// write the cssText to the contents of the div
-			myDiv.innerHTML = "The cssText value is: " + myDiv.style.cssText;
-		}
-	</script>
-</body>
-</html>
+        // write the cssText to the contents of the div
+        myDiv.innerHTML = "The cssText value is: " + myDiv.style.cssText;
+    }
+</script>
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/css/cssText/cssText.html
 }}
 }}
