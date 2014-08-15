@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Creates a new function.}}
@@ -7,11 +8,7 @@
 |Formats={{JS Syntax Format
 |Format=function functionName '''( [''' argname1  [, ...[, argnameN ] ] ] )
 }}{{JS Syntax Format
-|Format={}}{{JS_Syntax_Format
-|Format=     body }}{{JS_Syntax_Format
-|Format= }
-}}{{JS Syntax Format
-|Format=functionName = new Function( [ argname1 ,  [... argnameN ,]] body );
+|Format=functionName = new Function( [ argname1 ,  [... argnameN ,] ] body );
 }}
 |Values={{JS Syntax Parameter
 |Name=functionName
