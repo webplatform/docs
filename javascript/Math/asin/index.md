@@ -9,19 +9,21 @@
 |Formats={{JS Syntax Format
 |Format='''Math'''.'''asin(''' number ''')'''
 }}
-|Values=
+|Values={{JS Syntax Parameter
+|Name=number
+|Required=Required
+|Description=The required number argument is a numeric expression for which the arcsine is needed.
 }}
-{{JS_Return_Value}}
+}}
+{{JS_Return_Value
+|Description=The return value is the arcsine of the number argument, in radians.
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Remarks_Section
-|Remarks=The required number argument is a numeric expression for which the arcsine is needed.
-
-The return value is the arcsine of the number argument, in radians.
-
-Applies To : [[javascript/Math{{!}}Math Object]]
+|Remarks=Applies To : [[javascript/Math{{!}}Math Object]]
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
