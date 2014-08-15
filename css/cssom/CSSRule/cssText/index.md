@@ -21,7 +21,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<div id="myDiv"></div>
+|Code=<div id="myDiv">&nbsp;</div>
 <input type="button" value="Blue" id="blueButton">
 <input type="button" value="Red" id="redButton">
 <script>
