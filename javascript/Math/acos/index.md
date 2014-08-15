@@ -10,6 +10,7 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=number
+|Required=Required
 |Description=The required number argument is a numeric expression.
 }}
 }}
