@@ -1,21 +1,33 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|An intrinsic object that provides basic mathematics functionality and constants.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= '''Math.''' [{ property {{!}} method }]}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|An intrinsic object that provides basic mathematics functionality and constants.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format='''Math.''' [{ property {{!}} method }]
+}}
+|Values={{JS Syntax Parameter
 |Name=property
 |Required=Required
-|Description=Name of one of the properties of the '''Math'''. object.}}{{JS_Syntax_Parameter
+|Description=Name of one of the properties of the '''Math'''. object.
+}}{{JS Syntax Parameter
 |Name=method
 |Required=Required
-|Description=Name of one of the methods of the '''Math'''. object.}}
+|Description=Name of one of the methods of the '''Math'''. object.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=Yes
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The '''Math''' object cannot be created using the '''new''' operator, and gives an error if you attempt to do so. The scripting engine creates it when the engine is loaded. All of its methods and properties are available to your script at all times.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
 ==Constants==
 The following table lists the constants of the '''Math''' object.
 
@@ -110,12 +122,16 @@ The following table lists the functions of the '''Math''' object.
 | [[javascript/Math/tan|Math.tan Function]]
 | Returns the tangent of a number.
 |}
+
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/objects{{!}}JavaScript Objects]]
 * [[javascript/Number{{!}}Number Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
