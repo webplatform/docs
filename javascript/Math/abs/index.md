@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.}}
@@ -8,6 +9,8 @@
 |Format=Math.abs( number )
 }}
 |Values={{JS Syntax Parameter
+|Name=number
+|Required=Required
 |Description=The required number argument is a numeric expression for which the absolute value is needed.
 }}
 }}
