@@ -1,30 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= apply([ thisObj [, argArray ]])}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=apply([ thisObj [, argArray ]])
+}}
+|Values={{JS Syntax Parameter
 |Name=thisObj
 |Required=Optional
-|Description=The object to be used as the this object.}}{{JS_Syntax_Parameter
+|Description=The object to be used as the this object.
+}}{{JS Syntax Parameter
 |Name=argArray
 |Required=Optional
-|Description=A set of arguments to be passed to the function.}}
+|Description=A set of arguments to be passed to the function.
 }}
-{{Remarks_Section
-|Remarks=If argArray is not a valid object, then an "Object expected" error occurs.
-
-If neither argArray nor thisObj are supplied, the original this object is used as thisObj and no arguments are passed.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following code shows how to use the apply method.
-
-|Code= function callMe(arg1, arg2){
+|Code=function callMe(arg1, arg2){
      var s = "";
  
      s += "this value: " + this;
@@ -53,12 +53,23 @@ If neither argArray nor thisObj are supplied, the original this object is used a
  // this value: 3
  // arguments: 4
  // arguments: 5
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=If argArray is not a valid object, then an "Object expected" error occurs.
+
+If neither argArray nor thisObj are supplied, the original this object is used as thisObj and no arguments are passed.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Function{{!}}Function Object]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
