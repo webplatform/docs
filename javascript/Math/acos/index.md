@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the arc cosine (or inverse cosine) of a number.}}
@@ -8,6 +9,7 @@
 |Format=Math.acos( number )
 }}
 |Values={{JS Syntax Parameter
+|Name=number
 |Description=The required number argument is a numeric expression.
 }}
 }}
