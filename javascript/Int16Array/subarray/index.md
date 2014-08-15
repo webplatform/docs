@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Gets a new Int16Array view of the [[javascript/ArrayBuffer{{!}}ArrayBuffer Object]] store for this array, specifying the first and last members of the subarray.}}
