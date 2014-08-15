@@ -197,6 +197,7 @@ For accessibility, place alternative text for all images in the <code>alt</code>
 }}
 {{See_Also_Section
 |Manual_links=* [http://docs.webplatform.org/wiki/html/elements/img &lt;img&gt; Element]
+* [http://docs.webplatform.org/wiki/html/elements/source &lt;source&gt; Element]
 |External_links=* [http://dev.opera.com/articles/responsive-images/ Responsive Images: Use Cases and Documented Code Snippets to Get You Started]
 }}
 {{Topics|DOM, HTML, Media}}
