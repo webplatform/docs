@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Summary_Section|Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.}}
