@@ -1,9 +1,11 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Deletion Candidate, Needs Review
+|State=In Progress
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Deletion Candidate, Needs Review
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Represents an error that occurs while using the FileReader interface.
 
@@ -31,6 +33,6 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772306(v=vs.85).aspx fileError Object]
 |HTML5Rocks_link=
 }}
