@@ -1,30 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the milliseconds value in the Date object using Universal Coordinated Time (UTC).
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''setUTCMilliseconds(''' numMilli ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the milliseconds value in the Date object using Universal Coordinated Time (UTC).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''setUTCMilliseconds(''' numMilli ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=dateObj
 |Required=Required
-|Description=Any Date object.}}{{JS_Syntax_Parameter
+|Description=Any Date object.
+}}{{JS Syntax Parameter
 |Name=numMilli
 |Required=Required
-|Description=A numeric value equal to the millisecond value.}}
+|Description=A numeric value equal to the millisecond value.
 }}
-{{Remarks_Section
-|Remarks=To set the milliseconds using local time, use the '''setMilliseconds''' method.
-
-If the value of numMilli is greater than 999, or is a negative number, the stored number of seconds (and minutes, hours, and so forth, if necessary) is incremented an appropriate amount.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''setUTCMilliseconds''' method.
-
-|Code= function SetUTCMSecDemo(nmsec){   
+|Code=function SetUTCMSecDemo(nmsec){   
  // Create Date object.
     var d = new Date();           
  // Set UTC milliseconds.
@@ -36,14 +36,25 @@ If the value of numMilli is greater than 999, or is a negative number, the store
     s += " milliseconds"
     return(s);
  }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=To set the milliseconds using local time, use the '''setMilliseconds''' method.
+
+If the value of numMilli is greater than 999, or is a negative number, the stored number of seconds (and minutes, hours, and so forth, if necessary) is incremented an appropriate amount.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getMilliseconds{{!}}getMilliseconds Method (Date)]]
 * [[javascript/Date/getUTCMilliseconds{{!}}getUTCMilliseconds Method (Date)]]
 * [[javascript/Date/setMilliseconds{{!}}setMilliseconds Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
