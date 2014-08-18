@@ -1,30 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns or sets the descriptive string associated with a specific error.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= object '''.description ''' [ '''= ''' stringExpression ]}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns or sets the descriptive string associated with a specific error.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=object '''.description ''' [ '''= ''' stringExpression ]
+}}
+|Values={{JS Syntax Parameter
 |Name=object
 |Required=Required
-|Description=Any instance of an Error object.}}{{JS_Syntax_Parameter
+|Description=Any instance of an Error object.
+}}{{JS Syntax Parameter
 |Name=stringExpression
 |Required=Optional
-|Description=A string expression containing a description of the error.}}
+|Description=A string expression containing a description of the error.
 }}
-{{Remarks_Section
-|Remarks=The '''description''' property contains the error message string associated with a specific error. Use the value contained in this property to alert a user to an error.
-
-The '''description''' and '''message''' properties provide the same functionality; the '''description''' property provides backward compatibility; the '''message''' property complies with the ECMA standard.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''description''' property.
-
-|Code= try
+|Code=try
  {
  // Cause an error:
      x = y   
@@ -43,14 +43,25 @@ The '''description''' and '''message''' properties provide the same functionalit
  // Prints "'y' is undefined":
      document.write(e.message)
  }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The '''description''' property contains the error message string associated with a specific error. Use the value contained in this property to alert a user to an error.
+
+The '''description''' and '''message''' properties provide the same functionality; the '''description''' property provides backward compatibility; the '''message''' property complies with the ECMA standard.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Error/number{{!}}number Property (Error)]]
 * [[javascript/Error/message{{!}}message Property (Error)]]
 * [[javascript/Error/name{{!}}name Property (Error)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
