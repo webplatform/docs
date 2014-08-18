@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -109,12 +110,14 @@ var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
 |Note=Blob constructor does not work correctly with ArrayViews. You always have to pass concrete ArrayBuffer to the constructor.
 }}
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=[http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx Saving files locally using Blob and msSaveBlob]
+}}
 {{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/Blob
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/Blob Blob]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh673542(v=vs.85).aspx#blobbuilder blob constructor]
 |HTML5Rocks_link=
 }}
