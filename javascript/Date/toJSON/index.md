@@ -1,29 +1,26 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Used by the [[javascript/JSON/stringify{{!}}JSON.stringify]] method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= objectname.'''toJSON()'''}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Used by the [[javascript/JSON/stringify{{!}}JSON.stringify]] method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=objectname.'''toJSON()'''
+}}
+|Values={{JS Syntax Parameter
 |Name=objectname
 |Required=Required
-|Description=An object for which JSON serialization is wanted.}}
+|Description=An object for which JSON serialization is wanted.
 }}
-{{Remarks_Section
-|Remarks=The toJSON method is used by the JSON.stringify function.JSON.stringify serializes a JavaScript value into JSON text. If a toJSON method is provided to JSON.stringify , the toJSON method is called when JSON.stringify is called.
-
-The toJSON method is a built-in member of the [[javascript/Date{{!}}Date]] JavaScript object. It returns an ISO-formatted date string for the UTC time zone (denoted by the suffix Z).
-
-You can override the toJSON method for the Date type, or define a toJSON method for other object types to achieve transformation of data for the specific object type before JSON serialization.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example uses the toJSON method to serialize string member values in uppercase. The toJSON method is called when JSON.stringify is called.
-
-|Code= var contact = new Object();
+|Code=var contact = new Object();
  contact.firstname = "Jesper";
  contact.surname = "Aaberg";
  contact.phone = ["555-0100", "555-0120"];
@@ -46,26 +43,38 @@ You can override the toJSON method for the Date type, or define a toJSON method 
  /* The value of jsonText is:
  '{"firstname":"JESPER","surname":"AABERG","phone":["555-0100","555-0120"]}'
  */
-}}{{Single_Example
+}}{{Single Example
 |Language=JavaScript
 |Description=The following example illustrates how to use the toJSON method that is a built-in member of the [[javascript/Date{{!}}Date]] object.
-
-|Code= var dt = new Date('8/24/2009');
+|Code=var dt = new Date('8/24/2009');
  dt.setUTCHours(7, 30, 0);
  var jsonText = JSON.stringify(dt);
  
  /* The value of jsonText is:
  '"2009-08-24T07:30:00Z"'
  */
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The toJSON method is used by the JSON.stringify function.JSON.stringify serializes a JavaScript value into JSON text. If a toJSON method is provided to JSON.stringify , the toJSON method is called when JSON.stringify is called.
+
+The toJSON method is a built-in member of the [[javascript/Date{{!}}Date]] JavaScript object. It returns an ISO-formatted date string for the UTC time zone (denoted by the suffix Z).
+
+You can override the toJSON method for the Date type, or define a toJSON method for other object types to achieve transformation of data for the specific object type before JSON serialization.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/JSON{{!}}JSON Object]]
 * [[javascript/JSON/parse{{!}}JSON.parse Function]]
 * [[javascript/JSON/stringify{{!}}JSON.stringify Function]]
 * [[javascript/methods{{!}}JavaScript Methods]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
