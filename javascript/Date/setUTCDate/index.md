@@ -1,17 +1,37 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''setUTCDate(''' numDate ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''setUTCDate(''' numDate ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=dateObj
 |Required=Required
-|Description=Any Date object.}}{{JS_Syntax_Parameter
+|Description=Any Date object.
+}}{{JS Syntax Parameter
 |Name=numDate
 |Required=Required
-|Description=A numeric value equal to the day of the month.}}
+|Description=A numeric value equal to the day of the month.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the '''setUTCDate''' method.
+|Code=function SetUTCDateDemo(newdayofmonth){
+    var d = new Date();           // Create Date 
+    object.d.setUTCDate( newdayofmonth ) ;  // Set UTC day of month.
+    var s = "Current setting is ";
+    s += d.toUTCString(); 
+    return(s);                    // Return new setting.
+ }
+}}
 }}
 {{Remarks_Section
 |Remarks=To set the day of the month using local time, use the '''setDate''' method.
@@ -20,26 +40,18 @@ If the value of numDate is greater than the number of days in the month stored i
 
 The '''setUTCFullYear''' method can be used to set the year, month, and day of the month.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''setUTCDate''' method.
-
-|Code= function SetUTCDateDemo(newdayofmonth){
-    var d = new Date();           // Create Date object.d.setUTCDate( newdayofmonth ) ;  // Set UTC day of month.
-    var s = "Current setting is ";
-    s += d.toUTCString(); 
-    return(s);                    // Return new setting.
- }
-}}}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getDate{{!}}getDate Method (Date)]]
 * [[javascript/Date/getUTCDate{{!}}getUTCDate Method (Date)]]
 * [[javascript/Date/setDate{{!}}setDate Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
