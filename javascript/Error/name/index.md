@@ -1,14 +1,45 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns the name of an error.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= errorObj.'''name'''}}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Returns the name of an error.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=errorObj.'''name'''
+}}
+|Values={{JS Syntax Parameter
 |Name=errorObj
 |Required=Required
-|Description=Instance of Error object.}}
+|Description=Instance of Error object.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example causes a TypeError exception to be thrown and displays the name of the error and its message.
+|Code=try
+ {
+     var x = y;
+ }
+ catch(e)
+ {
+     document.write ("Error Message: " + e.message);
+     document.write ("&lt;br /&gt;");
+     document.write ("Error Code: ");
+     document.write (e.number &amp; 0xFFFF)
+     document.write ("&lt;br /&gt;");
+     document.write ("Error Name: " + e.name);
+ }
+}}{{Single Example
+|Language=JavaScript
+|Description=The output of this code is as follows.
+|Code=Error Message: 'y' is undefined
+ Error Code: 5009
+ Error Name: TypeError
+}}
 }}
 {{Remarks_Section
 |Remarks=The '''name''' property returns the name or exception type of an error. When a runtime error occurs, the name property is set to one of the following native exception types:
@@ -38,42 +69,20 @@
 {{!}}-
 {{!}} URIError
 {{!}} This error occurs when an illegal Uniform Resource Indicator (URI) is detected. For example, this is error occurs when an illegal character is found in a string being encoded or decoded.
-{{!}}} 
+{{!}}}
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example causes a TypeError exception to be thrown and displays the name of the error and its message.
-
-|Code= try
- {
-     var x = y;
- }
- catch(e)
- {
-     document.write ("Error Message: " + e.message);
-     document.write ("&lt;br /&gt;");
-     document.write ("Error Code: ");
-     document.write (e.number &amp; 0xFFFF)
-     document.write ("&lt;br /&gt;");
-     document.write ("Error Name: " + e.name);
- }
-}}{{Single_Example
-|Language=JavaScript
-|Description=The output of this code is as follows.
-
-|Code= Error Message: 'y' is undefined
- Error Code: 5009
- Error Name: TypeError
-}}}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Error/description{{!}}description Property (Error)]]
 * [[javascript/Error/message{{!}}message Property (Error)]]
 * [[javascript/Error/number{{!}}number Property (Error)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
