@@ -1,20 +1,41 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the month value in the Date object using Universal Coordinated Time (UTC).
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''setUTCMonth(''' numMonth [ ''',''' dateVal ] ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the month value in the Date object using Universal Coordinated Time (UTC).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''setUTCMonth(''' numMonth [ ''',''' dateVal ] ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=dateObj
 |Required=Required
-|Description=Any Date object.}}{{JS_Syntax_Parameter
+|Description=Any Date object.
+}}{{JS Syntax Parameter
 |Name=numMonth
 |Required=Required
-|Description=A numeric value equal to the month. The value for January is 0, and other month values follow consecutively.}}{{JS_Syntax_Parameter
+|Description=A numeric value equal to the month. The value for January is 0, and other month values follow consecutively.
+}}{{JS Syntax Parameter
 |Name=dateVal
 |Required=Optional
-|Description=A numeric value representing the day of the month. If it is not supplied, the value from a call to the '''getUTCDate''' method is used.}}
+|Description=A numeric value representing the day of the month. If it is not supplied, the value from a call to the '''getUTCDate''' method is used.
+}}
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example illustrates the use of the '''setUTCMonth''' method.
+|Code=function SetUTCMonthDemo(newmonth){
+    var d, s;                       // Declare variables.
+    d = new Date();                 // Create Date object.d.setUTCMonth( newmonth ) ;        // Set UTC month.
+    s = "Current setting is ";
+    s += d.toUTCString(); 
+    return(s);                      // Return new setting.
+ }
+}}
 }}
 {{Remarks_Section
 |Remarks=To set the month value using local time, use the '''setMonth''' method.
@@ -23,27 +44,18 @@ If the value of numMonth is greater than 11 (January is month 0), or is a negati
 
 The '''setUTCFullYear''' method can be used to set the year, month, and day of the month.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single_Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''setUTCMonth''' method.
-
-|Code= function SetUTCMonthDemo(newmonth){
-    var d, s;                       // Declare variables.
-    d = new Date();                 // Create Date object.d.setUTCMonth( newmonth ) ;        // Set UTC month.
-    s = "Current setting is ";
-    s += d.toUTCString(); 
-    return(s);                      // Return new setting.
- }
-}}}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getMonth{{!}}getMonth Method (Date)]]
 * [[javascript/Date/getUTCMonth{{!}}getUTCMonth Method (Date)]]
 * [[javascript/Date/setMonth{{!}}setMonth Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
