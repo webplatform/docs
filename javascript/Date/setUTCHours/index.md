@@ -38,8 +38,9 @@
 |Description=The following example illustrates the use of the '''setUTCHours''' method.
 |Code=function SetUTCHoursDemo(nhr, nmin, nsec){   
     var d, s;                        // Declare variables.
-    d = new Date();                  // Create Date object.d.setUTCHours( nhr , nmin , nsec ) 
-    s = "Current setting is " + d.toUTCString() ;  // Set UTC hours, minutes, seconds.
+    d = new Date();                  // Create Date 
+    object.d.setUTCHours( nhr , nmin , nsec ) ;  // Set UTC hours, minutes, seconds.
+    s = "Current setting is " + d.toUTCString() 
     return(s);                       // Return new setting.
  }
 }}
