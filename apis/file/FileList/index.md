@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -109,7 +110,7 @@ for (var i = 0; i < files.length; i++) {
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/FileList
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/FileList FileList]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772307(v=vs.85).aspx fileList Object]
 |HTML5Rocks_link=
 }}
