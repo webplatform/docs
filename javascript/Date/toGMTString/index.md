@@ -1,10 +1,20 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Returns a date converted to a string using Greenwich Mean Time(GMT).
-
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''toGMTString()''' }}
+{{Summary_Section|Returns a date converted to a string using Greenwich Mean Time(GMT).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''toGMTString()'''
+}}
+|Values=
+}}
+{{JS_Return_Value}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is any Date object.
@@ -13,11 +23,16 @@ The '''toGMTString''' method is obsolete, and is provided for backwards compatib
 
 The '''toGMTString''' method returns a String object that contains the date formatted using GMT convention. The format of the return value is as follows: "05 Jan 1996 00:00:00 GMT."
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/toUTCString{{!}}toUTCString Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
