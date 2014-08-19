@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs spec reference, standardization status, example
+|Editorial notes=Needs spec reference, example
 |Checked_Out=No
 |High-level issues=Stub
 }}
