@@ -6,7 +6,7 @@
 {{Summary_Section|Gets the day of the week, using local time.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=dateObj. getDay()
+|Format=dateObj.getDay()
 }}
 |Values=
 }}
@@ -18,7 +18,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use the '''getDay''' method.
-|Code= var date = new Date("Saturday, February 9, 2008");
+|Code=var date = new Date("Saturday, February 9, 2008");
  day = date.getDay();
  document.write(day);
  
@@ -27,8 +27,6 @@
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is a '''Date''' object. To get the day using Universal Coordinated Time (UTC), use the '''getUTCDay''' method.
-
-
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
