@@ -1,14 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Ready to Use
 |Checked_Out=No
+|High-level issues=Stub
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
