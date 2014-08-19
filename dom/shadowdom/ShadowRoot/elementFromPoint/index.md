@@ -1,21 +1,25 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=In Progress
+|Editorial notes=Needs spec reference, example
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns an element at specified coordinates.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=String
-|Description=The horizontal position of the element. May not be negative. 
+|Description=The horizontal position of the element. May not be negative.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=String
-|Description=The vertical position of the element. May not be negative. 
+|Description=The vertical position of the element. May not be negative.
 |Optional=No
 }}
 |Method_applies_to=dom/shadowdom/ShadowRoot
