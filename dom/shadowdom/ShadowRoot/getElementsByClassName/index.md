@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Almost Ready
+|Editorial notes=Needs spec reference, example
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Just like [[dom/HTMLElement/getElementsByClassName|HTMLElement.getElementsByClassName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
+{{Summary_Section|Just like [[dom/Document/getElementsByClassName|Document/getElementsByClassName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=classNames
 |Data type=String
 |Description=A space separated list of classes.
