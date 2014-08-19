@@ -10,11 +10,13 @@
 {{Summary_Section|Just like [[dom/Document/getElementsByTagNameNS|document.getElementsByTagNameNS]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=pvarNS
 |Data type=VARIANT
 |Description=The namespace URI that defines the desired elements or an asterisk (*) to match all namespaces with the document.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=bstrLocalName
 |Data type=BSTR
 |Description=The name of the desired element or an asterisk (*) to match all elements with the specified namespace.
