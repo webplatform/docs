@@ -25,7 +25,7 @@
 }}
 }}
 {{Remarks_Section
-|Remarks=To get the number of seconds in local time, use the '''getSeconds''' method. The required dateObj reference is a '''Date''' object.
+|Remarks=The required dateObj reference is a '''Date''' object. To get the number of seconds in local time, use the '''getSeconds''' method. 
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
