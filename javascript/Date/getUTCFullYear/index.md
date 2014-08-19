@@ -1,38 +1,44 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Gets the year using Universal Coordinated Time (UTC).
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.getUTCFullYear() }}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=The required dateObj reference is a Date object.}}
+{{Summary_Section|Gets the year using Universal Coordinated Time (UTC).}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.getUTCFullYear()
+}}
+|Values=
 }}
 {{JS_Return_Value
-|Description=Returns the year as a four-digit number. Years specified as two digits in the '''Date''' constructor or in '''setFullYear''' are assumed to be in the twentieth century, so given "5/14/12", '''getUTCFullYear''' returns "1912".}}
-{{Remarks_Section
-|Remarks=To get the year using local time, use the '''getFullYear''' method.
+|Description=Returns the year as a four-digit number. Years specified as two digits in the '''Date''' constructor or in '''setFullYear''' are assumed to be in the twentieth century, so given "5/14/12", '''getUTCFullYear''' returns "1912".
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use the '''getUTCFullYear''' method.
-
-|Code= var date = new Date("1/9/36");
+|Code=var date = new Date("1/9/36");
  document.write(date.getUTCFullYear());
  
  // Output: 1936
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required dateObj reference is a '''Date''' object. To get the year using local time, use the '''getFullYear''' method.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getFullYear{{!}}getFullYear Method (Date)]]
 * [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]]
 * [[javascript/Date/setUTCFullYear{{!}}setUTCFullYear Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
