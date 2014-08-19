@@ -1,40 +1,38 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the year of the '''Date''' object using local time.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.setFullYear( numYear [, numMonth [, numDate ]]) }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the year of the '''Date''' object using local time.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.setFullYear( numYear [, numMonth [, numDate ]])
+}}
+|Values={{JS Syntax Parameter
 |Name=dateObj
 |Required=Required
-|Description=Any '''Date''' object.}}{{JS_Syntax_Parameter
+|Description=Any '''Date''' object.
+}}{{JS Syntax Parameter
 |Name=numYear
 |Required=Required
-|Description=A numeric value for the year.}}{{JS_Syntax_Parameter
+|Description=A numeric value for the year.
+}}{{JS Syntax Parameter
 |Name=numMonth
 |Required=Optional
-|Description=A zero-based numeric value for the month (0 for January, 11 for December). Must be specified if numDate is specified.}}{{JS_Syntax_Parameter
+|Description=A zero-based numeric value for the month (0 for January, 11 for December). Must be specified if numDate is specified.
+}}{{JS Syntax Parameter
 |Name=numDate
 |Required=Optional
-|Description=A numeric value equal for the day of the month.}}
+|Description=A numeric value equal for the day of the month.
 }}
-{{Remarks_Section
-|Remarks=All '''set''' methods taking optional arguments use the value returned from corresponding '''get''' methods, if you do not specify the optional argument. For example, if the numMonth argument is optional, but not specified, JavaScript uses the value returned from the '''getMonth''' method.
-
-In addition, if the value of an argument is greater than its calendar range or is negative, the date rolls forward or backward as appropriate.
-
-To set the year using Universal Coordinated Time (UTC), use the '''setUTCFullYear''' method.
-
-The range of years supported in the date object is approximately 285,616 years before and after 1970.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''setFullYear''' method:
-
-|Code= var date1 = new Date("1/1/2001");
+|Code=var date1 = new Date("1/1/2001");
  date1.setFullYear(2007);
  
  var date2 = new Date("1/1/2001");
@@ -47,14 +45,29 @@ The range of years supported in the date object is approximately 285,616 years b
  // Output:
  // Monday, January 01, 2007 12:00:00 AM
  // Monday, November 03, 2008 12:00:00 AM
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=All '''set''' methods taking optional arguments use the value returned from corresponding '''get''' methods, if you do not specify the optional argument. For example, if the numMonth argument is optional, but not specified, JavaScript uses the value returned from the '''getMonth''' method.
+
+In addition, if the value of an argument is greater than its calendar range or is negative, the date rolls forward or backward as appropriate.
+
+To set the year using Universal Coordinated Time (UTC), use the '''setUTCFullYear''' method.
+
+The range of years supported in the date object is approximately 285,616 years before and after 1970.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getFullYear{{!}}getFullYear Method (Date)]]
 * [[javascript/Date/getUTCFullYear{{!}}getUTCFullYear Method (Date)]]
 * [[javascript/Date/setUTCFullYear{{!}}setUTCFullYear Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
