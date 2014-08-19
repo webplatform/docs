@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Needs summary, children, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -21,7 +23,6 @@ A processing instruction provides direction to an XML parser. The following code
 Use the [[dom/Document/createProcessingInstruction|'''createProcessingInstruction''']] method of a [[dom/Document|Document]] to create an instance of an '''ProcessingInstruction''' object.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.5
-
 }}
 {{Related_Specifications_Section
 |Specifications=
