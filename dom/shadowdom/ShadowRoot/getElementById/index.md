@@ -1,11 +1,13 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=In Progress
+|Editorial notes=Needs spec reference, usage, example
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Just like [[dom/Document/getElementById|document.getElementById]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
+{{Summary_Section|Just like [[dom/Document/getElementById|Document.getElementById]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/shadowdom/ShadowRoot
