@@ -1,30 +1,30 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Sets the milliseconds value in the Date object using local time.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.'''setMilliseconds(''' numMilli ''')''' }}
-|Values={{JS_Syntax_Parameter
+{{Summary_Section|Sets the milliseconds value in the Date object using local time.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.'''setMilliseconds(''' numMilli ''')'''
+}}
+|Values={{JS Syntax Parameter
 |Name=dateObj
 |Required=Required
-|Description=Any Date object.}}{{JS_Syntax_Parameter
+|Description=Any Date object.
+}}{{JS Syntax Parameter
 |Name=numMilli
 |Required=Required
-|Description=A numeric value equal to the millisecond value.}}
+|Description=A numeric value equal to the millisecond value.
 }}
-{{Remarks_Section
-|Remarks=To set the milliseconds value using Universal Coordinated Time (UTC), use the '''setUTCMilliseconds''' method.
-
-If the value of numMilli is greater than 999 or is a negative number, the stored number of seconds (and minutes, hours, and so forth if necessary) is incremented an appropriate amount.
 }}
+{{JS_Return_Value}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''setMilliseconds''' method.
-
-|Code= function SetMSecDemo(nmsec){
+|Code=function SetMSecDemo(nmsec){
     var d, s;                    // Declare variables.
     d = new Date();              // Create Date object.d.setMilliseconds( nmsec ) ;    // Set milliseconds.
     s = "Current setting is ";
@@ -33,14 +33,25 @@ If the value of numMilli is greater than 999 or is a negative number, the stored
     s += " milliseconds";
     return(s);                   // Return new date setting.
  }
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=To set the milliseconds value using Universal Coordinated Time (UTC), use the '''setUTCMilliseconds''' method.
+
+If the value of numMilli is greater than 999 or is a negative number, the stored number of seconds (and minutes, hours, and so forth if necessary) is incremented an appropriate amount.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getMilliseconds{{!}}getMilliseconds Method (Date)]]
 * [[javascript/Date/getUTCMilliseconds{{!}}getUTCMilliseconds Method (Date)]]
 * [[javascript/Date/setUTCMilliseconds{{!}}setUTCMilliseconds Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
