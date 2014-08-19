@@ -1,4 +1,9 @@
-{{Flags}}
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Glossary term; move candidate
+|Checked_Out=No
+}}
 {{Glossary_Item
 |Term=edge case
 |Definition=In a layout, a design requirement or issue that is confined to a proportionally small number of elements or documents.
