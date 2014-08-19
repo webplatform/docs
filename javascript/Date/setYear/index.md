@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the year value in the Date object.}}
