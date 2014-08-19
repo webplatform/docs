@@ -1,27 +1,24 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Gets the day-of-the-month, using local time.
-
+{{Flags
+|State=Ready to Use
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.getDate() }}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=The required dateObj reference is a Date object.}}
+{{Summary_Section|Gets the day-of-the-month, using local time.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.getDate()
+}}
+|Values=
 }}
 {{JS_Return_Value
-|Description=An integer between 1 and 31 that represents the day-of-the-month.}}
-{{Remarks_Section
-|Remarks=To get the day-of-the-month using Universal Coordinated Time (UTC), use the '''getUTCDate''' method.
+|Description=An integer between 1 and 31 that represents the day-of-the-month.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the '''getDate''' method.
-
-|Code= var date = new Date("Jan 01, 2001");
+|Code=var date = new Date("Jan 01, 2001");
  var str = "Today's date is: ";
     str += (date.getMonth() + 1) + "/";
     str += date.getDate() + "/";
@@ -29,14 +26,23 @@
  document.write(str);
  
  // Output: Today's date is: 1/1/2001
-}}}}
+}}
+}}
+{{Remarks_Section
+|Remarks=The required dateObj reference is a '''Date''' object. To get the day-of-the-month using Universal Coordinated Time (UTC), use the '''getUTCDate''' method.
+}}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getUTCDate{{!}}getUTCDate Method (Date)]]
 * [[javascript/Date/setDate{{!}}setDate Method (Date)]]
 * [[javascript/Date/setUTCDate{{!}}setUTCDate Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
