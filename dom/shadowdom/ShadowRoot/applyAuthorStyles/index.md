@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=In Progress
+|Editorial notes=Needs spec reference, standardization status, example
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status}}
 {{API_Name}}
