@@ -1,17 +1,25 @@
 {{Page_Title}}
-{{Flags}}
-{{Summary_Section|Gets the year of a '''Date''' object.
-
+{{Flags
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
+|Checked_Out=No
 }}
-{{JS_Syntax|Formats={{JS_Syntax_Format
-|Format= dateObj.getYear() }}
-|Values={{JS_Syntax_Parameter
-|Name=
-|Required=
-|Description=The required dateObj reference is a Date object.}}
+{{Summary_Section|Gets the year of a '''Date''' object.}}
+{{JS_Syntax
+|Formats={{JS Syntax Format
+|Format=dateObj.getYear()
+}}
+|Values={{JS Syntax Parameter
+|Description=The required dateObj reference is a Date object.
+}}
 }}
 {{JS_Return_Value
-|Description=Returns the year.}}
+|Description=Returns the year.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Remarks_Section
 |Remarks='''Important''' -- This method is obsolete, and is provided for backward compatibility only. Use the '''getFullYear''' method instead.
 
@@ -19,6 +27,9 @@ In Internet Explorer 3.0, and then in Internet Explorer versions starting with I
 
 In Internet Explorer 4.0 through Internet Explorer 8 standards mode, the formula depends on the year. For the years 1900 through 1999, the value returned is a 2-digit value that is the stored year minus 1900. For dates outside that range, the 4-digit year is returned. For example, 1996 is returned as 96, but 1825 and 2025 are returned as is.
 }}
+{{Notes_Section}}
+{{JS Object Listing}}
+{{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getFullYear{{!}}getFullYear Method (Date)]]
 * [[javascript/Date/getUTCFullYear{{!}}getUTCFullYear Method (Date)]]
@@ -26,8 +37,10 @@ In Internet Explorer 4.0 through Internet Explorer 8 standards mode, the formula
 * [[javascript/Date/setUTCFullYear{{!}}setUTCFullYear Method (Date)]]
 * [[javascript/Date/setYear{{!}}setYear Method (Date)]]
 }}
-{{Topics | JS Basic}}
-
+{{JS Topics
+|JS Page Type=JS Basic
+|Applies to=
+}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
