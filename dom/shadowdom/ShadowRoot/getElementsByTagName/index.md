@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Stub
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Just like [[dom/HTMLElement/getElementsByTagName|HTMLElement.getElementsByTagName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
+{{Summary_Section|Just like [[dom/Document/getElementsByTagName|Document/getElementsByTagName]] except that it only works within the scope of this ShadowRoot's shadow tree.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the element's tag.
