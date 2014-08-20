@@ -61,14 +61,13 @@ If the only argument is not a Number, then the length property of the newly cons
 |Description=After an array is created, you can access the individual elements of the array by using [n] notation. Note that unlike other programming languages, arrays keys are only numeric. Keys starts by 0.
 |Code=// Literal notation
 var my_array = [];
- for (i = 0; i &lt; 10; i++) {
-     my_array[i] = i;
- }
- x = my_array[4];
-console.log(x);
- 
+for (i = 0; i &lt; 10; i++) {
+  my_array[i] = i;
+}
+x = my_array[4];
+document.write(x);
 // Output: 4
-|LiveURL=http://code.webplatform.org/gist/8856397
+|LiveURL=http://code.webplatform.org/gist/42267d4185785ffcf82e
 }}{{Single Example
 |Language=JavaScript
 |Description=You can pass an unsigned 32-bit integer to the '''Array''' constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
