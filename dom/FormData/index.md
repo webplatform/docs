@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,32 +11,10 @@
 {{Summary_Section}}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-* [http://www.w3.org/TR/XMLHttpRequest/#interface-formdata XMLHttpRequest], Section 4
-
-
-===Members===
-The '''FormData''' object has these types of members:
-*[#methods Methods]
-
-
-====Methods====
-The '''FormData''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[dom/methods/append|'''append''']]
-|Adds or appends key/value pairs of data to a '''FormData''' object for use with '''XMLHttpRequest'''.
-|}
- 
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
