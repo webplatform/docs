@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|This method retrieves a '''Node''' using a name. With HTML 4.01 documents, it first searches for a '''Node''' with a matching '''id''' attribute. If it doesn't find one, it then searches for a '''Node''' with a matching '''name''' attribute, but only on those elements that are allowed a '''name''' attribute. With XHTML 1.0 documents, this method only searches for '''Nodes''' with a matching '''id''' attribute. This method is case insensitive in HTML documents and case sensitive in XHTML documents.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the Node to be fetched.
