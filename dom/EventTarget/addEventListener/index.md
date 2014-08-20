@@ -1,24 +1,28 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Registers an event handler for the specified event type.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=type
 |Data type=String
 |Description=The type of event [[dom/Event/type|'''type''']] to register.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=handler
 |Data type=function
 |Description=A '''function''' that is called when the event is fired.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=useCapture
 |Data type=Boolean
 |Description=A '''Boolean''' value that specifies the event phase to add the event handler for.
