@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -11,31 +13,10 @@
 |Subclass_of=dom/HTMLElement
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Import_Notes====Members===
-The '''HTMLAnchorElement''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''HTMLAnchorElement''' object has these properties.
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[dom/properties/text (anchor element)|'''text''']]
-{{!}}Sets or retrieves the text content of an '''HTMLAnchorElement'''.
-{{!}}}
- 
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_htmlref\ie]:%20HTMLAnchorElement object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
