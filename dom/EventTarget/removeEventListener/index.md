@@ -1,24 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Removes an event handler that the [[dom/EventTarget/addEventListener|addEventListener]] method registered.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=type
 |Data type=String
 |Description=The event [[dom/Event/type|'''type''']] that the event handler is registered for.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=listener
 |Data type=function
 |Description=The event handler function to remove.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=useCapture
 |Data type=Boolean
 |Description=A '''Boolean''' value that specifies the event phase to remove the event handler from.
