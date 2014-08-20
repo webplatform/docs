@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|State=In Progress
+|Editorial notes=Needs example, spec reference
 |Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=unsigned long
 |Description=The index of the node to be fetched. The index origin is 0.
