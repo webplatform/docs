@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -55,12 +56,10 @@ window.onload {{=}} eventHandler;
 *<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
 *<code>[[dom/MessageEvent|MessageEvent]]</code>
 *<code>[[dom/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
 *<code>[[dom/MutationEvent|MutationEvent]]</code>
 *<code>[[dom/StorageEvent|StorageEvent]]</code>
 *<code>[[dom/TextEvent|TextEvent]]</code>
 *<code>[[dom/UIEvent|UIEvent]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
