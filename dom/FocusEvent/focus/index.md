@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -18,6 +20,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=This example uses the '''onfocus''' event to make '''INPUT_text''' and '''label''' objects more accessible. When the '''INPUT_text''' object has focus, the '''onfocus''' event fires and the [[css/properties/background-color|'''backgroundColor''']], [[css/properties/font-size|'''fontSize''']], and [[css/properties/font-weight|'''fontWeight''']] properties are changed to give the control more prominence.
 |Code=...
 &lt;style type{{=}}"text/css"&gt;
