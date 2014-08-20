@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sends an event to the current element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=event
 |Data type=String
 |Description=The event object to dispatch.
