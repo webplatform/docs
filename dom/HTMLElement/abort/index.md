@@ -18,11 +18,11 @@
 |Return_value_description=Type: '''HRESULT'''
 
 If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=A simple abort example.
 |Code=// 1. Create XDR object 
 xdr {{=}} new XDomainRequest(); 
