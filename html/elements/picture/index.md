@@ -25,8 +25,8 @@ This element supports the HTML5 [[html/global_attributes|global attributes]].
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
 |Code=<picture>
-  <source media="(min-width: 650px)" srcset="images/kitten-large.png">
-  <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
+  &lt;source media="(min-width: 650px)" srcset="images/kitten-large.png">
+  &lt;source media="(min-width: 465px)" srcset="images/kitten-medium.png">
   <!-- img tag for browsers that do not support picture element -->
   <img src="images/kitten-small.png" alt="a cute kitten">
 </picture>
