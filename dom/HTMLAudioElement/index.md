@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -9,7 +11,7 @@
 |Subclass_of=dom/HTMLMediaElement
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
