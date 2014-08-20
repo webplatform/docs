@@ -25,13 +25,12 @@ This element supports the HTML5 [[html/global_attributes|global attributes]].
 |Language=HTML
 |Description=This example shows the basic usage of the picture element for responsive images and art direction.
 |Code=<picture>
-  &lt;source src="test_landscape_1@1x.jpg">
-  &lt;source media="(min-width: 480px)" src="test_landscape_1@2x.jpg">
-  &lt;source media="(min-width: 640px)" src="test_landscape_1@4x.jpg">
-  &lt;!-- fallback img if picture is not supported -->
-  <img src="test_landscape_1@2x.jpg" alt="Nymphenburg Castle in Munich during sunset">
+  <source media="(min-width: 650px)" srcset="images/kitten-large.png">
+  <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
+  <!-- img tag for browsers that do not support picture element -->
+  <img src="images/kitten-small.png" alt="a cute kitten">
 </picture>
-|LiveURL=http://responsiveimages.org/demos/basic-implementation/index.html
+|LiveURL=http://googlechrome.github.io/samples/picture-element/
 }}{{Single Example
 |Language=HTML
 |Description='''Art direction use case:''' For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo.
