@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|Content=Examples Needed
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=No
+|Content=Examples Needed
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
