@@ -1,17 +1,19 @@
 {{Page_Title}}
 {{Flags
-|Content=Compatibility Incomplete, Examples Needed
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
+|Content=Compatibility Incomplete, Examples Needed
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|An HTMLCollection is a list of nodes. An individual node may be accessed either by it's ordinal index or by the node's '''name''' or '''id''' attributes.
+{{Summary_Section|An HTMLCollection is a list of nodes. An individual node may be accessed either by its ordinal index or by the node's '''name''' or '''id''' attributes.
 
 Note that collections in the HTML DOM are assumed to be live, which means that they are automatically updated when the underlying document is changed.
 }}
 {{API_Object}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
