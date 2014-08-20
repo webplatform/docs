@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=where
 |Data type=BSTR
 |Description=A '''String''' that specifies where to locate the replacement text, using one of the following values.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=newText
 |Data type=BSTR
 |Description=A '''String''' that specifies the replacement text.
