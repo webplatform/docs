@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -8,6 +11,7 @@
 {{Summary_Section|Non standard. Removes an @import rule from the style sheet.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=Number
 |Description=The index of of the imported style sheet to remove.
@@ -27,6 +31,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
