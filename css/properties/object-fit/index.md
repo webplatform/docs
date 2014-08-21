@@ -5,7 +5,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box}}
+{{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box.}}
 {{CSS Property
 |Initial value=fill
 |Applies to=Replaced elements
@@ -19,10 +19,10 @@
 |Description=The replaced content is sized to fill the element's box
 }}{{CSS Property Value
 |Data Type=contain
-|Description=The replaced content is sized to maintain it's aspect ratio while fitting within the element's content box
+|Description=The replaced content is sized to maintain its aspect ratio while fitting within the element's content box
 }}{{CSS Property Value
 |Data Type=cover
-|Description=The replaced content is sized to maintain it's aspect ratio while filling the element's entire content box
+|Description=The replaced content is sized to maintain its aspect ratio while filling the element's entire content box
 }}{{CSS Property Value
 |Data Type=none
 |Description=The replaced content is not resized to fit inside the element's content box
