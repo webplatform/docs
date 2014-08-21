@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -8,6 +11,7 @@
 {{Summary_Section|Non standard. Removes a rule from a style sheet.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=Number
 |Description=The index value of the rule to be deleted from the style sheet. If an index is not provided, the first rule in the [[css/cssom/rules|'''rules''']] collection is removed.
@@ -21,6 +25,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''removeRule''' method to delete a rule from the [[css/cssom/rules|'''rules''']] collection, which causes the text to reflow according to the new rules.
 |Code=&lt;style&gt;
 P {color:green}
@@ -51,13 +56,14 @@ function removeTheRule() {
 }}
 {{Notes_Section
 |Notes====Remarks===
-The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [[dom/methods/reload|'''reload''']] method. When you use the '''refresh''' method on a table, its content is reflowed.
+The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [[dom/Document/reload|'''reload''']] method. When you use the '''refresh''' method on a table, its content is reflowed.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
