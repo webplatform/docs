@@ -8,11 +8,10 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns an element's corresponding '''link''' or '''style''' node. See Notes.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/styleSheet
 |Read_only=No
-|Return_value_description=Returns an element's corresponding '''link''' or '''style''' node. See Notes.
 }}
 {{Examples_Section
 |Not_required=No
