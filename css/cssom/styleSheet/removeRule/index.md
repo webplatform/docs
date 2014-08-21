@@ -56,7 +56,7 @@ function removeTheRule() {
 }}
 {{Notes_Section
 |Notes====Remarks===
-The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [[dom/Document/reload|'''reload''']] method. When you use the '''refresh''' method on a table, its content is reflowed.
+The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [[dom/Location/reload|'''reload''']] method. When you use the '''refresh''' method on a table, its content is reflowed.
 }}
 {{Related_Specifications_Section
 |Specifications=
