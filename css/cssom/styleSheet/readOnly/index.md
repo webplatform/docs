@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -19,13 +22,14 @@
 |Examples=
 }}
 {{Notes_Section
-|Notes=You cannot modify style sheets obtained through a '''link''' object or the [[css/atrules/@import|'''@import''']] rule while the [[dom/properties/designMode|'''designMode''']] property is enabled. For more information, see Introduction to MSHTML Editing.
+|Notes=You cannot modify style sheets obtained through a '''link''' object or the [[css/atrules/@import|'''@import''']] rule while the [[dom/Document/designMode|'''designMode''']] property is enabled. For more information, see Introduction to MSHTML Editing.
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
