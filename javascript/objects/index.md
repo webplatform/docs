@@ -73,7 +73,7 @@
 | An object representation of the number data type and placeholder for numeric constants.
 | [[javascript/Number|Number Object]]
 |-
-| Provides functionality common to allJavaScript objects.
+| Provides functionality common to all JavaScript objects.
 | [[javascript/Object|Object Object]]
 |-
 | Stores information on regular expression pattern searches.
