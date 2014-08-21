@@ -1,18 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds a new CSS rule to the stylesheet.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=ruleText
 |Data type=String
 |Description=The at-identifier ("@''rule_name''") and the rule content.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=index
 |Data type=Number
 |Description=The index within the style sheet's rule list of the rule before which to insert the specified rule. If the specified index equals the length of the style sheet's rule list, the rule will be added to the end of the style sheet.
@@ -41,6 +46,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
