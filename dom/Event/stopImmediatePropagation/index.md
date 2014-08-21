@@ -50,7 +50,7 @@
 *<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
 *<code>[[dom/MessageEvent|MessageEvent]]</code>
 *<code>[[dom/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/MouseWheelEvent|WheelEvent]]</code>
+*<code>[[dom/WheelEvent|WheelEvent]]</code>
 *<code>[[dom/MutationEvent|MutationEvent]]</code>
 *<code>[[dom/StorageEvent|StorageEvent]]</code>
 *<code>[[dom/TextEvent|TextEvent]]</code>
