@@ -1,10 +1,11 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g. a video or an image) is made to fit the dimensions of its containing box}}
+{{Summary_Section|The ''object-fit'' property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box}}
 {{CSS Property
 |Initial value=fill
 |Applies to=Replaced elements
@@ -59,7 +60,7 @@
 &lt;/html&gt;
 }}{{Single Example
 |Language=CSS
-|Description=Alle five images are forced to 150x100 pixel, that's different from both the original size of the image (196x77 pixel) and it's aspect ratio. 
+|Description=Alle five images are forced to 150x100 pixel, that's different from both the original size of the image (196x77 pixel) and it's aspect ratio.
 |Code=img {
   float: left;
   width: 150px;
