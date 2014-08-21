@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -121,7 +122,6 @@ Note that setting a value smaller than 1 to this property creates a new stacking
 }}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
-|Manual_links=[[filter]]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
