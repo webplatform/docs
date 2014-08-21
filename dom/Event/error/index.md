@@ -1,12 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Fires when an error occurs.}}
 {{Event
 |Event_applies_to=dom/Event
 |Synchronous=No
@@ -18,6 +20,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following examples use the '''onerror''' event to handle run-time script errors and object load errors.
 
 The following example specifies an invalid script entry. The script in the text field is evaluated when the Throw Error button is clicked. The '''onerror''' event fires because the script is invalid. The error results are inserted at the bottom of the sample page instead of in a dialog box.
@@ -40,6 +43,7 @@ function fnThrow(){
 &lt;div id{{=}}"oErrorLog"&gt;&lt;/div&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onerrorEX.htm
 }}{{Single Example
+|Language=JavaScript
 |Description=The following example shows how to set the handler for the '''onerror''' event in script before an image source is specified. When the invalid source is set on the '''img''' element, the event fires.
 |Code=&lt;script&gt;
 var sImg{{=}}'&lt;img style{{=}}"display: none;" id{{=}}"oStub" alt{{=}}"Default Text"/&gt;';
