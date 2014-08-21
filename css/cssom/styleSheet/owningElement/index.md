@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Non standard.}}
+{{Summary_Section|Non standard. Returns the '''style''' or '''link''' object that defined the style sheet.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/styleSheet
 |Read_only=Yes
@@ -24,6 +27,7 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
