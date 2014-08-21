@@ -24,38 +24,6 @@
 {{Notes_Section
 |Notes====Remarks===
 Style sheets that are imported using the [[css/atrules/@import|'''@import''']] rule and are contained within the '''style''' object are available through the [[css/cssom/imports|'''imports''']] collection.
-|Import_Notes====Members===
-The '''styleSheets''' collection has these types of members:
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Methods====
-The '''styleSheets''' collection has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[css/cssom/properties/item|'''item''']]
-|Retrieves an object from a collection.
-|-
-|'''urns'''
-|Retrieves a collection of all objects to which a specified behavior is attached.
-|}
- 
-
-====Properties====
-The '''styleSheets''' collection has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/length|'''length''']]
-|Sets or retrieves the number of objects in a collection.
-|}
- 
 }}
 {{Related_Specifications_Section
 |Specifications=
