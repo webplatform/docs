@@ -35,7 +35,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=Five simple img elements
+|Description=Five simple img elements.
 |Code=&lt;!DOCTYPE HTML&gt;
 &lt;html lang="en-US"&gt;
 &lt;head&gt;
@@ -60,7 +60,7 @@
 &lt;/html&gt;
 }}{{Single Example
 |Language=CSS
-|Description=Alle five images are forced to 150x100 pixel, that's different from both the original size of the image (196x77 pixel) and it's aspect ratio.
+|Description=All five images are forced to 150x100 pixels, different from both the original size of the image (196x77 pixel) and its aspect ratio.
 |Code=img {
   float: left;
   width: 150px;
