@@ -1,24 +1,28 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Initializes a new generic event that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=eventType
 |Data type=String
 |Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=canBubble
 |Data type=Boolean
 |Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=cancelable
 |Data type=Boolean
 |Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
@@ -69,12 +73,11 @@ document.getElementById('target').dispatchEvent(evt);
 *<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
 *<code>[[dom/MessageEvent|MessageEvent]]</code>
 *<code>[[dom/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
+*<code>[[dom/WheelEvent|WheelEvent]]</code>
 *<code>[[dom/MutationEvent|MutationEvent]]</code>
 *<code>[[dom/StorageEvent|StorageEvent]]</code>
 *<code>[[dom/TextEvent|TextEvent]]</code>
 *<code>[[dom/UIEvent|UIEvent]]</code>
-
 }}
 {{Topics|DOM}}
 {{External_Attribution
