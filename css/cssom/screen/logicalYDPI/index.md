@@ -17,14 +17,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following examples use the '''logicalYDPI''' property to retrieve the normal vertical DPI of the screen.
+|Description=The following examples use the '''logicalYDPI''' property to retrieve the normal vertical DPI of the screen. The function in this example returns <code>1</code> if Internet Explorer is not adjusting the scale of the screen.
 |Code=&lt;script&gt;
   function fnScaleFactorY() {
     var nScaleFactor {{=}} screen.deviceYDPI / screen.logicalYDPI;
     return nScaleFactor;
   }
 &lt;/script&gt;
-|LiveURL=This example uses the '''deviceYDPI''' and '''logicalYDPI''' properties to calculate the vertical scale factor that Internet Explorer is applying. The function in this example returns <code>1</code> if Internet Explorer is not adjusting the scale of the screen.
 }}{{Single Example
 |Language=JavaScript
 |Description=This example uses the [[css/selectors/zoom|'''-ms-zoom''']] property of the '''BODY''' element to adjust the scale of the document "manually" if Internet Explorer is not adjusting the scale of the screen and the user's vertical DPI is higher than normal. This is a simple but imprecise way to make a document look the same on higher resolution screens.  You can achieve finer control over the layout of your documents by modifying the properties of individual elements or groups of elements.
