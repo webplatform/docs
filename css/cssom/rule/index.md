@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Summary needed, double check correct printing of tokens, needs spec reference, standardization status
+|Editorial notes=Double check correct printing of tokens, needs spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''rule''' object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements.}}
 {{API_Object}}
 {{Examples_Section
 |Not_required=No
