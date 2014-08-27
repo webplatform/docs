@@ -1,18 +1,21 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs spec reference
+|Editorial notes=- Needs spec reference
+- Is the compatibility note relevant to Safari as well (up until which version, if any?)?
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the type of quotation marks for embedded quotations.}}
 {{CSS Property
-|Initial value=depends on user agent
+|Initial value=depends on user agent/element
 |Applies to=All elements
 |Inherited=Yes
 |Media=visual
+|Computed value=
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=[&lt;string&gt;  &lt;string&gt;]+
@@ -38,25 +41,36 @@ q:after  { content: close-quote }
   <q>When I die, I'm donating my <q>body</q> to science fiction.</q>
   <em> ~ Stephen Wright</em>
 </p>
+|LiveURL=
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Pairs of strings are required if the value is not <code>none</code>.
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/CSS21/generate.html#quotes CSS 2.1], Section 12.3
+|Usage=
+|Notes=Pairs of strings are required if the value is not <code>none</code>.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS21/generate.html#quotes
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=37 and earlier
+|Note=Supports the nonstandard single string syntax (<code>quotes: 'red'</code>).
+}}
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
