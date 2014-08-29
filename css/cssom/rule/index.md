@@ -8,8 +8,11 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''rule''' object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements.}}
-{{API_Object}}
+{{Summary_Section|The '''rule''' object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -18,16 +21,20 @@
 |Code=&lt;STYLE&gt;
     H1 { color: red }
 &lt;/STYLE&gt;
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=If the style sheet containing the preceding rule is the first style sheet in the document, the following code returns the '''rule''' object associated with the rule.
 |Code=oRule{{=}}document.styleSheets(0).rules(0)
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''rule''' object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements. For example, a rule consisting of the selector '''H1''' and the declaration [[css/properties/font-family|'''font-family''']]:Arial defines all '''H1''' elements to render in the Arial font.
 This object is available in script as of Microsoft Internet Explorer 5.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -41,6 +48,8 @@ This object is available in script as of Microsoft Internet Explorer 5.
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/rules|rules]]</code>
 }}
