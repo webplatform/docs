@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Add compatibility.
+|Editorial notes=Add compatibility tables
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -85,35 +85,36 @@ The color value can also be a numerical value, such as one of the following:
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3, 4.1. Line Colors: the ‘border-color’ properties
 |URL=http://www.w3.org/TR/css3-background/#the-border-color
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 8 Box model
 |URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface,
 |URL=http://www.w3.org/TR/cssom/#the-cssstyledeclaration-interface
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Color Module Level 3
 |URL=http://www.w3.org/TR/css3-color
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -129,4 +130,11 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-color
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
