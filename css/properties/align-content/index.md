@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -14,6 +15,7 @@
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=alignContent
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=flex-start
 |Description=Lines are packed toward the start of the flex container. The cross-start edge of the first line in the flex container is placed flush with the cross-start edge of the flex container, and each subsequent line is placed flush with the preceding line.
@@ -72,14 +74,17 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=* This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines can ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
 * This property was named '''flex-line-pack''' in earlier drafts.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
 |URL=http://www.w3.org/TR/css3-flexbox/#align-content-property
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
@@ -93,9 +98,11 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Flexbox
+|Manual_links=
 |External_links=Also, check out the following live demo sites:
 * [http://demo.agektmr.com/flexbox/ Flexbox Playground]
 * [http://the-echoplex.net/flexyboxes Flexy Boxes]
+|Manual_sections=
 }}
 {{Topics|CSS, Flexbox}}
 {{External_Attribution
