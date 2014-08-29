@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -92,12 +93,14 @@ border-radius: 40% 60%;
 * It’s possible to end up with elliptical corners, even by specifying one radius. This occurs when you are using percentages, since they resolve to a different number for each axis (horizontally they are percentages of the border box width, vertically of the height). For a demonstration, refer to the ellipse example above (example #3)
 * Since border-radius rounds the border box of the element, the inner (padding box) corners will have smaller radii (specifically border-radius - border-width), or even no rounding, if the border is thicker than the border-radius value. Another consequence of this is that when there are different border widths on adjacent sides, the curves of the padding box will be elliptical.
 * Note that although in the border-radius shorthand, there is a slash (/) to separate horizontal from vertical radii, they are space separated in the longhands.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 3: Rounded Corners:
 |URL=http://www.w3.org/TR/css3-background/#the-border-radius
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Backgrounds and Borders Module Level 4: Rounded Corners:
 |URL=http://dev.w3.org/csswg/css4-background/#corners
@@ -105,16 +108,17 @@ border-radius: 40% 60%;
 |Relevant_changes=Added border-corner-shape to let border-radius specify the size of a number of different corner shapes besides rounded corners.
 }}
 }}
-
-==Compatibility==
-{{Compatibility
-|ViewTopic=css
-|ViewFeature=border-radius
-|ViewFormat=table
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
-
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -134,4 +138,10 @@ border-radius: 40% 60%;
 |MDN_link=[https://developer.mozilla.org/en-US/docs/CSS/border-radius Border-radius]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+==Compatibility==
+{{Compatibility
+|ViewTopic=css
+|ViewFeature=border-radius
+|ViewFormat=table
 }}
