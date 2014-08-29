@@ -15,7 +15,7 @@
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=alignContent
-|CSS percentages= 
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=flex-start
 |Description=Lines are packed toward the start of the flex container. The cross-start edge of the first line in the flex container is placed flush with the cross-start edge of the flex container, and each subsequent line is placed flush with the preceding line.
