@@ -87,15 +87,6 @@
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=http://caniuse.com/#flexbox
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Flexbox
 |Manual_links=
@@ -110,4 +101,13 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables={{Imported Compatibility Table
+|Page=http://caniuse.com/#flexbox
+}}
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
