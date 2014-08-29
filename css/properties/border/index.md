@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Add specifications.
+|Editorial notes=Add specification details and links.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -43,6 +43,7 @@
 |LiveURL=http://code.webplatform.org/gist/5534182
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=/**
  * border example
 **/
@@ -107,6 +108,7 @@ p {
 |Notes=* The initial value of <code>border</code> is the concatenated result of the initial values of each component.
 * A <code>border-bottom</code> can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an <code>[[html/elements/hr|&lt;hr/&gt;]]</code> element in the HTML.
 * Another common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -115,6 +117,7 @@ p {
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
 |Chrome_version=1.0
 |Chrome_prefixed_supported=No
@@ -137,6 +140,7 @@ p {
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=Unknown
 |Android_version=
 |Android_prefixed_supported=Unknown
@@ -174,6 +178,8 @@ p {
 }}
 {{See_Also_Section
 |Topic_clusters=Border, Box Model
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -185,6 +191,7 @@ p {
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
