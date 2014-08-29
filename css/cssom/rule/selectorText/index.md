@@ -19,7 +19,7 @@
 }}
 {{Notes_Section
 |Notes====Remarks===
-Selector text can contain either a simple selector (such as 'H1'), or a contextual selector (such as 'P EM') that consists of several simple selectors. Compound selectors (such as 'B, STRONG') are stored as separate rules in the collection.
+Selector text can contain either a simple selector (such as 'H1') or a contextual selector (such as 'P EM') that consists of several simple selectors. Compound selectors (such as 'B, STRONG') are stored as separate rules in the collection.
 |Import_Notes====Syntax===
 }}
 {{Related_Specifications_Section
