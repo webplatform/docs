@@ -34,7 +34,9 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=After the new rule has been inserted, it becomes part of the cascade.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -52,7 +54,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
 *<code>Reference</code>
