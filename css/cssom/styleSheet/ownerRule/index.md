@@ -17,13 +17,16 @@
 |Javascript_data_type=DOM Node
 |Return_value_description=Of type CSSRule.
 Returns a CSSImportRule or null.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=If the style sheet comes from an [[css/atrules/@import|'''@import''']] rule, the '''ownerRule''' property will contain a [[css/cssom/CSSImportRule|'''CSSImportRule''']] object, and the [[css/cssom/styleSheet/ownerNode|'''ownerNode''']] property will be <code>null</code>. If the style sheet comes from a link, the '''ownerRule''' property will be <code>null</code>, and the '''ownerNode''' will contain the node.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -41,7 +44,8 @@ Returns a CSSImportRule or null.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
 *<code>[[css/cssom/styleSheet/cssRules|cssRules]]</code>
