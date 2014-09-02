@@ -12,12 +12,19 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/screen
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Syntax===
 ===Standards information===
 There are no standards that apply here.
@@ -33,7 +40,8 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/screen|screen]]</code>
 *<code>Reference</code>
