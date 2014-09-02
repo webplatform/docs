@@ -39,7 +39,6 @@ The character set used to decode external script references is based on a number
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
