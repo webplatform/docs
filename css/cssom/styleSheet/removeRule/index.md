@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, standardization status
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -21,6 +21,7 @@
 |Example_object_name=stylesheet
 |Return_value_name=object
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -55,8 +56,10 @@ function removeTheRule() {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The document does not automatically reflow when the rule is removed. To see the change, you must reflow the document. You can reflow the objects affected using a number of methods. For example, you can reflow the style change only on affected text by setting the text equal to itself. Alternately, you can reload the entire document using the [[dom/Location/reload|'''reload''']] method. When you use the '''refresh''' method on a table, its content is reflowed.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -70,6 +73,8 @@ The document does not automatically reflow when the rule is removed. To see the 
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>IHTMLStyleSheet</code>
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
