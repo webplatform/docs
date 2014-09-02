@@ -12,12 +12,18 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/screen
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If you retrieve  the value of the  '''pixelDepth'''  property through a script, you  can select an appropriate color to return to the browser.
 If [[css/cssom/screen/bufferDepth|'''bufferDepth''']] is 0 or -1, '''pixelDepth''' is equal to the bits-per-pixel value for the screen or printer.
@@ -37,7 +43,8 @@ If '''pixelDepth''' does not equal zero, '''pixelDepth''' is equal to [[css/csso
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/screen|screen]]</code>
 }}
