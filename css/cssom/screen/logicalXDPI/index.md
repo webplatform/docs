@@ -12,6 +12,11 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/screen
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -24,6 +29,7 @@
     return nScaleFactor;
   }
 &lt;/script&gt;
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=This example uses the [[css/selectors/zoom|'''-ms-zoom''']] property of the '''BODY''' element to adjust the scale of the document "manually" if Internet Explorer is not adjusting the scale of the screen and the user's horizontal DPI is higher than normal.  This is a simple but imprecise way to make a document look the same on higher resolution screens.  You can achieve finer control over the layout of your documents by modifying the properties of individual elements or groups of elements.
@@ -43,9 +49,11 @@
     }			
   }
 &lt;/script&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 On most systems, there is no difference between horizontal and vertical DPI. The normal DPI on most Windows systems is 96.
 When Windows Internet Explorer is adjusting the scale of the screen, the value of this property does not equal the value of the [[css/cssom/screen/deviceXDPI|'''deviceXDPI''']] property.
@@ -66,7 +74,8 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/screen|screen]]</code>
 *<code>Reference</code>
