@@ -9,7 +9,10 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Sets and retrieves the format and style of an object.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -34,6 +37,7 @@ This is a demonstration DIV.
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''runtimeStyle''' object sets and retrieves the format and style of an object, and overrides existing formats and styles in the process. Other than having precedence over the [[css/cssom/style|'''style''']] object and not persisting, the '''runtimeStyle''' object is equivalent to the '''style''' object.
 To change or clear multiple style properties simultaneously, use this object with the [[css/cssom/styleSheet/cssText|'''cssText''']] property. For example, to change the font color and background color of a '''DIV''' element, you could use the following code:
@@ -42,6 +46,7 @@ To change or clear multiple style properties simultaneously, use this object wit
  Click this DIV to change style properties.&lt;/DIV&gt;
  </code>
 Windows Internet Explorer 8 or later. The behavior of [[dom/Element/setAttribute|'''setAttribute''']] method depends on the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -54,7 +59,8 @@ Windows Internet Explorer 8 or later. The behavior of [[dom/Element/setAttribut
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 }}
