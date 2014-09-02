@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -16,12 +16,17 @@
 |Return_value_name=element
 |Javascript_data_type=DOM Node
 |Return_value_description=The '''owningElement''' property returns the '''style''' or '''link''' object that defined the style sheet.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -33,7 +38,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
 }}
