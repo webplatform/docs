@@ -12,12 +12,18 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/screen
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Nonsupported values cause '''bufferDepth''' to be set to '''-1'''.
 When '''bufferDepth''' is '''-1''' and the user changes system settings that affect the screen depth, the buffer depth is automatically updated to the new depth. This is not the case if '''bufferDepth''' is set to a specific value.
@@ -36,7 +42,8 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/screen|screen]]</code>
 }}
