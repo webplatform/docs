@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -10,15 +13,19 @@
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
 |Example_object_name=declaration
+|Return_value_name=
 |Javascript_data_type=String
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
-The width of the rectangle can also be calculated by subtracting the value of the [[dom/traversal/properties/left|'''left''']] property from the value of the [[dom/traversal/properties/right|'''right''']] property.
+The width of the rectangle can also be calculated by subtracting the value of the [[css/properties/left|'''left''']] property from the value of the [[css/properties/right|'''right''']] property.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module]
@@ -35,6 +42,8 @@ The width of the rectangle can also be calculated by subtracting the value of th
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/TextRectangle|TextRectangle]]</code>
 *<code>[[css/cssom/properties/height|height]]</code>
