@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -19,13 +19,19 @@
 }}
 |Method_applies_to=css/cssom/styleSheet
 |Example_object_name=stylesheet
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -38,6 +44,8 @@
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>IHTMLStyleSheet</code>
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
