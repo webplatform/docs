@@ -41,7 +41,6 @@ A positioned element is an element whose position property is set to <code>relat
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
