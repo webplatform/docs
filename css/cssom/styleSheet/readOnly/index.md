@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -16,13 +16,16 @@
 |Return_value_name=isReadOnly
 |Javascript_data_type=Boolean
 |Return_value_description=Returns whether the style sheet is currently in read only mode.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=You cannot modify style sheets obtained through a '''link''' object or the [[css/atrules/@import|'''@import''']] rule while the [[dom/Document/designMode|'''designMode''']] property is enabled. For more information, see Introduction to MSHTML Editing.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -35,7 +38,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/styleSheet|styleSheet]]</code>
 *<code>[[css/cssom/rule|rule]]</code>
