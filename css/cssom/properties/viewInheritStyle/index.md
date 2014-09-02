@@ -12,7 +12,7 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/properties
 |Read_only=No
-|Example_object_name=element
+|Example_object_name=
 |Return_value_name=
 |Javascript_data_type=
 |Return_value_description=
