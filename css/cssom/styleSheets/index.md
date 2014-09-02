@@ -9,7 +9,10 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|A collection of the document's stylesheets.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -19,11 +22,14 @@
 {
     alert("Style sheet " + i + " is titled " + document.styleSheets(i).title);
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Style sheets that are imported using the [[css/atrules/@import|'''@import''']] rule and are contained within the '''style''' object are available through the [[css/cssom/imports|'''imports''']] collection.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -36,7 +42,9 @@ Style sheets that are imported using the [[css/atrules/@import|'''@import''']] r
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
