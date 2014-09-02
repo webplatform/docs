@@ -9,12 +9,17 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|This page lists the properties, methods, and events of the screen object.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], 4.2
 }}
@@ -29,7 +34,9 @@
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
