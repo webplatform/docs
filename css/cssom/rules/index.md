@@ -9,7 +9,10 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The collection of rules in a stylesheet.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -43,9 +46,11 @@ function ruleColor(ruleIndex) {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 This collection is always accessible, even if the style sheet is not enabled. Rules are added to the '''rules''' collection with the [[css/cssom/methods/addRule|'''addRule''']] method on the individual style sheet. A rule that is added to a [[html/attributes/disabled|'''disabled''']] style sheet does not apply to the document unless the style sheet is enabled. Rules are deleted with the [[css/cssom/methods/removeRule|'''removeRule''']] method.
 The rules in this collection are in the source order of the document. As rules are added or deleted through the Cascading Style Sheets (CSS) Object Model, a rule's absolute position in the '''rules''' collection might change, but its position relative to other rules remains the same. When you add rules without specifying an index, the rule gets added to the document last. If you specify an index, however, the rule is inserted before the rule currently in that ordinal position in the collection. If the specified index is greater than the number of rules in the collection, the rule is added to the end.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -58,7 +63,9 @@ The rules in this collection are in the source order of the document. As rules a
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
