@@ -41,7 +41,6 @@ The width of the rectangle can also be calculated by subtracting the value of th
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
