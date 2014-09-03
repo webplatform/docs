@@ -25,7 +25,7 @@
 {{Notes_Section
 |Usage=
 |Notes=
-|Import_Notes====Syntax===
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
