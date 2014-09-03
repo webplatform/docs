@@ -11,18 +11,24 @@
 {{Summary_Section|The '''radio''' type of the [[html/elements/input|&lt;input&gt;]] element represents a radio button control.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the &lt;label&gt; tag to include the text with the checkbox to increase the touch sensitive area of the checkbox.
 |Code=&lt;label&gt;&lt;input id{{=}}"red" type{{=}}"checkbox" name{{=}}"colors" value{{=}}"red" /&gt;Text&lt;/label&gt;
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=This example uses the '''INPUT type{{=}}radio''' element to create three radio buttons.
 |Code=&lt;INPUT type{{=}}radio name{{=}}"radio" CHECKED&gt;1-10 years old
 &lt;INPUT type{{=}}radio name{{=}}"radio"&gt;11 years old
 &lt;INPUT type{{=}}radio name{{=}}"radio"&gt;12-120 years old
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=This example uses script to detect which radio button the user selects.
 |Code=&lt;SCRIPT&gt;
 function detect()
@@ -35,9 +41,11 @@ function detect()
         alert("You're between 12 and 120 years old.")
 }
 &lt;/SCRIPT&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Use a radio button control to limit a user's selection to a single value within a set of values. To do this, you must link together each button in a set of radio buttons by assigning each button the same [[html/attributes/name|'''name''']].
 When a user submits a form, a selected radio button generates a name/value pair in the form data only if the button has a [[html/attributes/value (select, option element)|'''value''']].
@@ -738,9 +746,15 @@ This property is not supported for Metro style apps using JavaScript.
 |Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
-|Notes_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=39+
+|Note=Support :indeterminate CSS selector
+}}
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>input</code>
