@@ -7,8 +7,8 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=
-|Example_object_name=object
-|Return_value_name=object
+|Example_object_name=
+|Return_value_name=
 |Javascript_data_type=DOM Node
 |Return_value_description=C++
 
