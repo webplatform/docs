@@ -17,7 +17,7 @@
 |Javascript_data_type=DOM Node
 |Return_value_description=Of type CSSRule.
 Returns a CSSImportRule or null.
-|Example_value_name=asd
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
