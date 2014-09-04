@@ -12,7 +12,7 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/styleSheet
 |Read_only=No
-|Example_object_name=
+|Example_object_name=ele
 |Return_value_name=
 |Javascript_data_type=
 |Return_value_description=
