@@ -12,8 +12,8 @@
 {{API_Object_Property
 |Property_applies_to=css/cssom/styleSheet
 |Read_only=No
-|Example_object_name=
-|Return_value_name=
+|Example_object_name=example
+|Return_value_name=hoi
 |Javascript_data_type=
 |Return_value_description=
 |Example_value_name=
