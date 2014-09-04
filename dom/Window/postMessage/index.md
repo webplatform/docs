@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -10,11 +11,13 @@
 {{Summary_Section|Sends a cross-document message.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=msg
 |Data type=String
 |Description=A '''String''' that contains the message data.
 |Optional=No
 }}{{Method Parameter
+|Index=
 |Name=targetOrigin
 |Data type=String
 |Description=A '''Variant''' of type '''String''' that specifies a target URI.
@@ -22,7 +25,9 @@
 }}
 |Method_applies_to=dom/Window
 |Example_object_name=targetFrame
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,13 +40,14 @@ by calling the '''postMessage''' method
 as follows:
 |Code=var targetframe {{=}} document.getElementsByTagName('iframe')[0];
 targetframe.contentWindow.postMessage('Hello World');
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The script in Document B can respond to the message
 by registering the
 [[dom/Element/message|'''onmessage''']] event handler
 for incoming messages.
-|Code=window.attachEvent('onmessage',function(e) {
+|Code=window.addEventListener('message',function(e) {
     if (e.domain {{=}}{{=}} 'example.com') {
         if (e.data {{=}}{{=}} 'Hello World') {
             e.source.postMessage('Hello');
@@ -49,10 +55,12 @@ for incoming messages.
             alert(e.data);
         }
     }
-});
+},false);
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 '''Security Warning:  '''While "*" is a valid value for ''targetOrigin'', set the parameter to the value you expected to receive; otherwise, the security of your message might be compromised.  For more information about this security message, see Section 3.1.2 of the [http://go.microsoft.com/fwlink/?LinkId{{=}}199803 HTML5 Web Messaging] Specification (Editor's Draft) from the World Wide Web Consortium (W3C).
 The '''postMessage''' method
@@ -87,6 +95,7 @@ have finished executing.
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
 |Chrome_version=4.0
 |Chrome_prefixed_supported=Unknown
@@ -145,7 +154,11 @@ have finished executing.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
