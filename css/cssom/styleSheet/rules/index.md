@@ -16,7 +16,7 @@
 |Return_value_name=hoi
 |Javascript_data_type=
 |Return_value_description=
-|Example_value_name=
+|Example_value_name=asdf
 }}
 {{Examples_Section
 |Not_required=No
