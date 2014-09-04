@@ -33,13 +33,13 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=If Document A contains a reference
+|Description=If Document A (on http://127.0.0.1) contains a reference
 to the [[dom/HTMLIFrameElement/contentWindow|'''contentWindow''']] property
-of Document B, script in Document A can send a message to Document B
+of Document B (on http://localhost), script in Document A can send a message to Document B
 by calling the '''postMessage''' method
 as follows:
 |Code=var targetframe {{=}} document.getElementsByTagName('iframe')[0];
-targetframe.contentWindow.postMessage('Hello World');
+targetframe.contentWindow.postMessage('Hello World','http://localhost');
 |LiveURL=
 }}{{Single Example
 |Language=JavaScript
@@ -48,11 +48,12 @@ by registering the
 [[dom/Element/message|'''onmessage''']] event handler
 for incoming messages.
 |Code=window.addEventListener('message',function(e) {
-    if (e.domain {{=}}{{=}} 'example.com') {
+    if (e.origin {{=}}{{=}} 'http://127.0.0.1') {
         if (e.data {{=}}{{=}} 'Hello World') {
+            // We can rely with this
             e.source.postMessage('Hello');
         } else {
-            alert(e.data);
+            console.log(e);
         }
     }
 },false);
