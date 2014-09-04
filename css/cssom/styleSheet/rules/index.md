@@ -19,12 +19,6 @@
 |Example_value_name=
 }}
 
-{{Pre_start}}>
-var {{{Return_value_name|result}}} = {{{Example_object_name|element}}}.'''{{#ask:[[{{PAGENAME}}]]|?API_name|mainlabel=-|headers=hide|link=none|format=list}}''';
-{{#ifeq: {{{Read_only|}}}| Yes | | {{{Example_object_name|element}}}.'''{{#ask:[[{{PAGENAME}}]]|?API_name|mainlabel=-|headers=hide|link=none|format=list}}''' = {{{Example_value_name|value}}};}}
-<{{Pre_end}}
-
-
 {{Examples_Section
 |Not_required=No
 |Examples=
