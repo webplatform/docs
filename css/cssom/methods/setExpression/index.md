@@ -168,7 +168,6 @@ The following examples illustrate common problems encountered with the ''express
 *<code>Reference</code>
 *<code>[[css/cssom/methods/getExpression|getExpression]]</code>
 *<code>[[css/cssom/methods/removeExpression|removeExpression]]</code>
-*<code>[[css/cssom/methods/recalc|recalc]]</code>
 *<code>Conceptual</code>
 *<code>About Dynamic Properties</code>
 }}
