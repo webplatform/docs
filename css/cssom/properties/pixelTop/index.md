@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -27,7 +27,6 @@
 |Notes====Remarks===
 The '''pixelTop''' property reflects the value of the Cascading Style Sheets (CSS) [[css/properties/top|'''top''']] attribute. Use the [[dom/HTMLElement/offsetTop|'''offsetTop''']] property to calculate actual positions within the document area.
 Unlike the [[css/properties/top|'''top''']] property, the '''pixelTop''' value is an integer, not a string, and is always interpreted in pixels.
-
 |Import_Notes=
 }}
 {{Related_Specifications_Section
