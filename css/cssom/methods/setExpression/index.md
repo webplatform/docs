@@ -137,7 +137,7 @@ The following syntax sections show how to set an expression on DHTML Properties 
 </div>
 </nowiki>
 The data type of the evaluated expression in the ''language'' parameter must match one of the possible values allowed for the ''expression'' parameter. If the property or attribute specified by the first parameter requires a string, the data type of the second parameter must be a string. Otherwise, the second parameter is evaluated prior to invoking '''setExpression''', causing the expression to be set to the result of the evaluation.
-Use the [[dom/properties/uniqueID|'''uniqueID''']] property of an object in an expression to refer back to the object. Using '''uniqueID''' is an alternative to specifying an [[html/attributes/id|'''id''']] for expressions that use an object reference.
+Use the [[dom/HTMLElement/uniqueID|'''uniqueID''']] property of an object in an expression to refer back to the object. Using '''uniqueID''' is an alternative to specifying an [[html/attributes/id|'''id''']] for expressions that use an object reference.
 The [[css/cssom/styleSheet/cssText|'''cssText''']] property is a unique property that is not compatible with the dynamic properties implementation. Do not use '''cssText''' with any dynamic property methods.
 The following examples illustrate common problems encountered with the ''expression'' parameter in '''setExpression'''.  The ''expression'' appears valid, but may not be.
 *The provided ''expression'' is invalid because document.style.fontSize is "npx" and will not add to 13
