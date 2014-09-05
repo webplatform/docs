@@ -8,10 +8,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Retrieve's the device's vertical Dots Per Inch (DPI) value.}}
+{{Summary_Section|Retrieves the device's vertical Dots Per Inch (DPI) value.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/screen
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -24,6 +29,7 @@
     return nScaleFactor;
   }
 &lt;/script&gt;
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=This example uses the [[css/selectors/zoom|'''-ms-zoom''']] property of the '''BODY''' element to adjust the scale of the document "manually" if Internet Explorer is not adjusting the scale of the screen and the user's vertical DPI is higher than normal. This is a simple but imprecise way to make a document look the same on higher resolution screens.  You can achieve finer control over the layout of your documents by modifying the properties of individual elements or groups of elements.
@@ -43,9 +49,11 @@
     }			
   }
 &lt;/script&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 On most systems, there is no difference between horizontal and vertical DPI.
 The '''deviceYDPI''' property was introduced in Microsoft Internet Explorer 6.
@@ -66,6 +74,8 @@ There are no standards that apply here.
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/screen|screen]]</code>
 *<code>Reference</code>
