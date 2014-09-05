@@ -1,13 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Non standard. Gets the computed style declaration. Use [[css/cssom/methods/getComputedStyle|getComputedStyle]] instead.}}
+{{Summary_Section|Non standard. Gets the computed style declaration. Use [[dom/Window/getComputedStyle|getComputedStyle]] instead.}}
 {{API_Object
 |Subclass_of=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+|Overview=
 }}
 {{Examples_Section
 |Not_required=No
@@ -55,6 +59,7 @@ console.log("The TD object currentStyle.width is " + document.getElementById("oT
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''currentStyle''' object returns the cascaded styles on an element, but the [[css/cssom/style|'''style''']] object returns only the styles that have been applied inline on an element through the '''style''' attribute. Thus, the style values retrieved through the '''currentStyle''' object might differ from the style values retrieved through the '''style''' object. For example, if the [[css/properties/color|'''color''']] property is set on a paragraph only through a linked or embedded style sheet, and not inline, then object.'''currentStyle'''.color returns the color, whereas object.'''style'''.'''color''' does not return a value. If, however, the author specifies &lt;P STYLE{{=}}"color:'red'", the '''currentStyle''' and '''style''' objects return the value .
 The '''currentStyle''' object reflects the order of style precedence in cascading style sheets (CSS). The CSS order of precedence for the presentation of HTML is:
 #Inline styles
@@ -847,7 +852,8 @@ languages appear in the object.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>style</code>
 }}
