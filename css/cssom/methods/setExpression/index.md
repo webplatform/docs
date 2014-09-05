@@ -10,7 +10,28 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Index=0
+|Name=PropertyName
+|Data type=String
+|Description='''String''' that specifies the name of the property to which ''expression'' is added.
+|Optional=No
+}}{{Method Parameter
+|Index=1
+|Name=Expression
+|Data type=String
+|Description='''String''' that specifies any valid script (JScript, JavaScript, VBSCript) statement without quotations or semicolons. This string can include references to other properties on the current page. Array references are not allowed on object properties included in this script.
+|Optional=No
+}}{{Method Parameter
+|Index=2
+|Name=Language
+|Data type=String
+|Description='''String''' that specifies one of the following values: 
+*"JScript" -- Default. Language is JScript.
+*"VBScript" --Language is VBScript.
+*"JavaScript" -- Language is JavaScript.
+|Optional=No
+}}
 |Method_applies_to=css/cssom/methods
 |Example_object_name=object
 |Return_value_name=object
@@ -20,7 +41,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=HTML
 |Description=The following examples use the '''setExpression''' method to change the width of a blue box. In each example, the width of the blue box is equal to the sum of the values of the first two text boxes. When a value in one of the text boxes changes, the width of the blue box recalculates.
 
 This example shows the HTML implementation of '''setExpression'''.
@@ -35,7 +56,7 @@ This example shows the HTML implementation of '''setExpression'''.
     onclick{{=}}"recalc()"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm
 }}{{Single Example
-|Language=
+|Language=JavaScript
 |Description=This example uses the [[dom/properties/uniqueID|'''uniqueID''']] property and the '''setExpression''' method to update the [[dom/properties/innerText|'''innerText''']] property of a table row.
 |Code=&lt;SCRIPT&gt;
 window.onload{{=}}fnInit;
@@ -117,11 +138,7 @@ The following examples illustrate common problems encountered with the ''express
 *The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified<div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>object.style.setExpression("width","document.body.style.fontSize"); </code></pre>
 </div>
-|Import_Notes====Syntax===
-===Parameters===
-;''sPropertyName'' [in]:'''String''' that specifies the name of the property to which ''expression'' is added.
-;''sExpression'' [in]:'''String''' that specifies any valid script(JScript, JavaScript, VBSCript) statement without quotations or semicolons. This string can include references to other properties on the current page. Array references are not allowed on object properties included in this script.
-;''sLanguage'' [in, optional]:'''String''' that specifies one of the following values: <dl class{{=}}"indent"><dt><a id{{=}}"JScript"/><a id{{=}}"jscript"/><a id{{=}}"JSCRIPT"/>'''JScript'''</dt><dd>Default. Language is JScript.</dd><dt><a id{{=}}"VBScript"/><a id{{=}}"vbscript"/><a id{{=}}"VBSCRIPT"/>'''VBScript'''</dt><dd>Language is VBScript.</dd><dt><a id{{=}}"JavaScript"/><a id{{=}}"javascript"/><a id{{=}}"JAVASCRIPT"/>'''JavaScript'''</dt><dd>Language is JavaScript.</dd></dl>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -134,7 +151,6 @@ The following examples illustrate common problems encountered with the ''express
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
