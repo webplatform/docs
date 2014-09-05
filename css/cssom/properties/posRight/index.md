@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Reflects the value of the Cascading Style Sheets (CSS) '''right''' attribute for positioned items.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/properties
 |Read_only=No
