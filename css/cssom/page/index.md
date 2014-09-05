@@ -9,12 +9,16 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Although '''page''' objects are represented in the Cascading Style Sheets (CSS) object model starting in Microsoft Internet Explorer 5.5,  the objects are not used by the default print template for Windows Internet Explorer.  The objects can be represented explicitly in print templates developed for applications that host MSHTML.
 |Import_Notes====Standards information===
@@ -69,7 +73,8 @@ The '''page''' object has these properties.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>Print Template Reference</code>
 }}
