@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=Needs example 
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -16,6 +16,7 @@
 |Return_value_name=currentTargetElement
 |Javascript_data_type=DOM Node
 |Return_value_description=The current target of the event.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -24,6 +25,7 @@
 {{Notes_Section
 |Usage=Use this property to get the element for which the current event handler is being processed, during the capturing and bubbling phases.
 |Notes=The [[dom/Event/target|'''target''']] property returns the element that originally received an event. At event phase <code>AT_TARGET</code>, the '''currentTarget''' and '''target''' objects are the same object.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -37,6 +39,7 @@
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
 |Chrome_version=1
 |Chrome_prefixed_supported=Unknown
@@ -62,6 +65,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
