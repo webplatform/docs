@@ -23,7 +23,7 @@ In this section, you will be writing a lot of code, and testing it out in web br
 ** Mac OS
 ***[http://www.apple.com/safari/ Apple Safari].
 
-* ''optionnal'', a bleeding edge version of the browser — useful if you want to test very recent techniques
+* ''Optional'', a bleeding edge version of the browser — useful if you want to test very recent techniques
 ** [http://www.google.com/intl/en/chrome/browser/canary.html Google Chrome Canary]
 ** [http://www.mozilla.org/en-US/firefox/channel/#aurora Mozilla Firefox Aurora]
 ** [http://www.opera.com/computer/next Opera Next]
