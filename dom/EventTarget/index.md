@@ -1,19 +1,26 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs summary
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Stub
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
+{{Summary_Section|This page lists properties, methods, and events for the EventTarget object.}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Events
@@ -29,7 +36,11 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|DOMEvents}}
 {{External_Attribution
 |Is_CC-BY-SA=No
