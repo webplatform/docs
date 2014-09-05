@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -10,16 +11,20 @@
 {{Summary_Section|Retrieves the document object associated with the node.}}
 {{API_Object_Property
 |Property_applies_to=dom/Node
-|Read_only=No
+|Read_only=Yes
+|Example_object_name=
 |Return_value_name=doc
 |Javascript_data_type=DOM Node
 |Return_value_description=The document Node of the web page or iframe or frame.
 
 The document object returned by this property is the main object with which all the child nodes in the actual HTML document are created. If this property is used on a node that is itself a document, the result is null.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
+|Description=
 |Code=// given a node "p", get the top-level HTML child 
 // of the document object
 
@@ -27,6 +32,7 @@ var doc {{=}} p.ownerDocument;
 alert(doc.outerHTML);
 var html {{=}} doc.documentElement;
 alert(html.outerHTML);
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -35,17 +41,15 @@ alert(html.outerHTML);
 The '''ownerDocument''' is the [[dom/Document|Document]] object that is used to create new nodes.
 This property returns null when the node is a [[dom/Document|Document]].
 '''ownerDocument''' was introduced in Microsoft Internet Explorer 6.
-
-
 |Import_Notes====Syntax===
 var doc=element.ownerDocument;
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Core
 |URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#node-ownerDoc
 |Status=Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
@@ -55,7 +59,11 @@ var doc=element.ownerDocument;
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
