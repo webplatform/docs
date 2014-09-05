@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=
-|Editorial notes=
+|State=In Progress
+|Editorial notes=Needs summary, example, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -57,7 +57,7 @@ This example shows the HTML implementation of '''setExpression'''.
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm
 }}{{Single Example
 |Language=JavaScript
-|Description=This example uses the [[dom/properties/uniqueID|'''uniqueID''']] property and the '''setExpression''' method to update the [[dom/properties/innerText|'''innerText''']] property of a table row.
+|Description=This example uses the [[dom/HTMLElement/uniqueID|'''uniqueID''']] property and the '''setExpression''' method to update the [[dom/HTMLElement/innerText|'''innerText''']] property of a table row.
 |Code=&lt;SCRIPT&gt;
 window.onload{{=}}fnInit;
 function fnInit(){
@@ -118,7 +118,7 @@ function fnGetValue(oRow){
 |Notes====Remarks===
 Use the '''setExpression''' method to add expressions to supported [[css/cssom/methods/removeExpression|'''removeExpression''']] method.
 The following syntax sections show how to set an expression on DHTML Properties and CSS attributes.
-*Use this syntax to set an expression on a read/write property or on an [[dom/properties/expando|'''expando''']] property. 
+*Use this syntax to set an expression on a read/write property or on an '''expando''' property. 
 <nowiki>
 <div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>object.setExpression(sPropertyName, sExpression, sLanguage)</code></pre>
@@ -144,7 +144,6 @@ The following examples illustrate common problems encountered with the ''express
 <code>object.style.setExpression("height","document.style.fontSize + 13"); </code>
 *The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified
 <code>object.style.setExpression("width","document.body.style.fontSize"); </code>
-
 |Import_Notes=
 }}
 {{Related_Specifications_Section
