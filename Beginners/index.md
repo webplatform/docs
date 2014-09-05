@@ -50,6 +50,7 @@ Thank you for your co operation.
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
 ** Windows
 ***[http://notepad-plus-plus.org/ Notepad++]
+***[https://atom.io/ Atom] <!-- Atom is now available prebuilt on Windows 7 & 8. -->
 ** Mac
 ***[https://github.com/textmate/textmate Textmate]
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
