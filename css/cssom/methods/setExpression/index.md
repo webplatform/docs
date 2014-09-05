@@ -118,26 +118,36 @@ function fnGetValue(oRow){
 |Notes====Remarks===
 Use the '''setExpression''' method to add expressions to supported [[css/cssom/methods/removeExpression|'''removeExpression''']] method.
 The following syntax sections show how to set an expression on DHTML Properties and CSS attributes.
-*Use this syntax to set an expression on a read/write property or on an [[dom/properties/expando|'''expando''']] property. <div class{{=}}"codeSnippet">
+*Use this syntax to set an expression on a read/write property or on an [[dom/properties/expando|'''expando''']] property. 
+<nowiki>
+<div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>object.setExpression(sPropertyName, sExpression, sLanguage)</code></pre>
 </div>
-*Use this syntax to set an expression on a CSS attribute. <div class{{=}}"codeSnippet">
+</nowiki>
+*Use this syntax to set an expression on a CSS attribute. 
+<nowiki>
+<div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>object.style.setExpression(sPropertyName, sExpression, sLanguage)</code></pre>
 </div>
-*Use the '''expression()''' syntax to set an expression on a CSS attribute in HTML. <div class{{=}}"codeSnippet">
+</nowiki>
+*Use the '''expression()''' syntax to set an expression on a CSS attribute in HTML. 
+<nowiki>
+<div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>&lt;ELEMENT STYLE{{=}}"sAttributeName:expression(sExpression)"&gt;</code></pre>
 </div>
-
+</nowiki>
 The data type of the evaluated expression in the ''language'' parameter must match one of the possible values allowed for the ''expression'' parameter. If the property or attribute specified by the first parameter requires a string, the data type of the second parameter must be a string. Otherwise, the second parameter is evaluated prior to invoking '''setExpression''', causing the expression to be set to the result of the evaluation.
 Use the [[dom/properties/uniqueID|'''uniqueID''']] property of an object in an expression to refer back to the object. Using '''uniqueID''' is an alternative to specifying an [[html/attributes/id|'''id''']] for expressions that use an object reference.
 The [[css/cssom/styleSheet/cssText|'''cssText''']] property is a unique property that is not compatible with the dynamic properties implementation. Do not use '''cssText''' with any dynamic property methods.
 The following examples illustrate common problems encountered with the ''expression'' parameter in '''setExpression'''.  The ''expression'' appears valid, but may not be.
-*The provided ''expression'' is invalid because document.style.fontSize is "npx" and will not add to 13<div class{{=}}"codeSnippet">
+*The provided ''expression'' is invalid because document.style.fontSize is "npx" and will not add to 13
+<nowiki>
 <pre xml:space{{=}}"preserve"><code>object.style.setExpression("height","document.style.fontSize + 13"); </code></pre>
-</div>
-*The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified<div class{{=}}"codeSnippet">
+</nowiki>
+*The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified
+<nowiki>
 <pre xml:space{{=}}"preserve"><code>object.style.setExpression("width","document.body.style.fontSize"); </code></pre>
-</div>
+</nowiki>
 |Import_Notes=
 }}
 {{Related_Specifications_Section
