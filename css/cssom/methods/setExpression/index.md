@@ -1,27 +1,30 @@
+{{Page_Title}}
 {{Flags
+|State=
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=
+|Method_applies_to=css/cssom/methods
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
 |Return_value_description=
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=
 |Description=The following examples use the '''setExpression''' method to change the width of a blue box. In each example, the width of the blue box is equal to the sum of the values of the first two text boxes. When a value in one of the text boxes changes, the width of the blue box recalculates.
 
 This example shows the HTML implementation of '''setExpression'''.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm
-|Code=
-&lt;INPUT TYPE{{=}}text ID{{=}}oBox1 value{{=}}40&gt;The sum of the values in 
+|Code=&lt;INPUT TYPE{{=}}text ID{{=}}oBox1 value{{=}}40&gt;The sum of the values in 
     these two text boxes determines the width&lt;BR&gt;
 &lt;INPUT TYPE{{=}}text ID{{=}}oBox2 value{{=}}40&gt;of the blue text box below.
 &lt;BR&gt;&lt;INPUT TYPE{{=}}text ID{{=}}oBox3 
@@ -30,12 +33,11 @@ This example shows the HTML implementation of '''setExpression'''.
 &lt;BR&gt;&lt;INPUT TYPE{{=}}button ID{{=}}Button 
     value{{=}}"Click to resize blue box above" 
     onclick{{=}}"recalc()"&gt;
-}}
-{{Single_Example
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm
+}}{{Single Example
+|Language=
 |Description=This example uses the [[dom/properties/uniqueID|'''uniqueID''']] property and the '''setExpression''' method to update the [[dom/properties/innerText|'''innerText''']] property of a table row.
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm
-|Code=
-&lt;SCRIPT&gt;
+|Code=&lt;SCRIPT&gt;
 window.onload{{=}}fnInit;
 function fnInit(){
    var iLen{{=}}oSheet.rows.length-1;
@@ -87,10 +89,12 @@ function fnGetValue(oRow){
 &lt;TD EDIT{{=}}"true"&gt;4.99&lt;/TD&gt;&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
 &lt;TR&gt;&lt;TH COLSPAN{{=}}3&gt;Grand Total&lt;/TH&gt;&lt;TH&gt;&lt;/TH&gt;&lt;/TR&gt;
 &lt;/TABLE&gt;
-}}}}
+|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Usage=
+|Notes====Remarks===
 Use the '''setExpression''' method to add expressions to supported [[css/cssom/methods/removeExpression|'''removeExpression''']] method.
 The following syntax sections show how to set an expression on DHTML Properties and CSS attributes.
 *Use this syntax to set an expression on a read/write property or on an [[dom/properties/expando|'''expando''']] property. <div class{{=}}"codeSnippet">
@@ -113,17 +117,27 @@ The following examples illustrate common problems encountered with the ''express
 *The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified<div class{{=}}"codeSnippet">
 <pre xml:space{{=}}"preserve"><code>object.style.setExpression("width","document.body.style.fontSize"); </code></pre>
 </div>
-
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Parameters===
 ;''sPropertyName'' [in]:'''String''' that specifies the name of the property to which ''expression'' is added.
 ;''sExpression'' [in]:'''String''' that specifies any valid script(JScript, JavaScript, VBSCript) statement without quotations or semicolons. This string can include references to other properties on the current page. Array references are not allowed on object properties included in this script.
 ;''sLanguage'' [in, optional]:'''String''' that specifies one of the following values: <dl class{{=}}"indent"><dt><a id{{=}}"JScript"/><a id{{=}}"jscript"/><a id{{=}}"JSCRIPT"/>'''JScript'''</dt><dd>Default. Language is JScript.</dd><dt><a id{{=}}"VBScript"/><a id{{=}}"vbscript"/><a id{{=}}"VBSCRIPT"/>'''VBScript'''</dt><dd>Language is VBScript.</dd><dt><a id{{=}}"JavaScript"/><a id{{=}}"javascript"/><a id{{=}}"JAVASCRIPT"/>'''JavaScript'''</dt><dd>Language is JavaScript.</dd></dl>
 }}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
 *<code>IHTMLElement2</code>
 *<code>IHTMLStyle2</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -135,12 +149,12 @@ The following examples illustrate common problems encountered with the ''express
 *<code>[[css/cssom/methods/recalc|recalc]]</code>
 *<code>Conceptual</code>
 *<code>About Dynamic Properties</code>
-|Topic_clusters=CSSOM
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
