@@ -39,7 +39,7 @@ Cascading style sheets (CSS) is the presentation language for web content. The [
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/properties|CSS Properties]]</h3>
+    <h3>[[css/properties|CSS properties]]</h3>
     
     <p>A reference guide to all the available CSS properties.</p>
     </div>
@@ -52,7 +52,7 @@ Cascading style sheets (CSS) is the presentation language for web content. The [
     <div class="image icon-css"></div>
     
     <div class="inner">
-    <h3>[[css/functions|CSS Functions]]</h3>
+    <h3>[[css/functions|CSS functions]]</h3>
     
     <p>A reference guide to all the CSS functions.</p>
     </div>
