@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=Needs example 
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -19,13 +19,16 @@
 1 is the capturing phase (CAPTURING_PHASE), which means it is currently running the capturing event handlers.
 2 is the at target phase (AT_TARGET), which means it is currently running the event handlers that were added to the same element the event on which was dispatched.
 3 is the bubbling phase (BUBBLING_PHASE), which means it is currently running event handlers of parent nodes of the original target element.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=During the capturing phase, events are dispatched to parent elements before objects that are lower in the hierarchy. Next, during the bubbling phase, events are dispatched to target elements followed by parent objects. The event phase is <code>AT_TARGET</code> when the element that receives the event ([[dom/Event/target|'''target''']]) is the same element as the element that is processing the event ([[dom/Event/currentTarget|'''currentTarget''']]). The target element receives both capture and bubble events if both are registered.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -43,6 +46,8 @@
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
 *<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
