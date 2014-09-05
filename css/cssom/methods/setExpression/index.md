@@ -141,13 +141,10 @@ Use the [[dom/properties/uniqueID|'''uniqueID''']] property of an object in an e
 The [[css/cssom/styleSheet/cssText|'''cssText''']] property is a unique property that is not compatible with the dynamic properties implementation. Do not use '''cssText''' with any dynamic property methods.
 The following examples illustrate common problems encountered with the ''expression'' parameter in '''setExpression'''.  The ''expression'' appears valid, but may not be.
 *The provided ''expression'' is invalid because document.style.fontSize is "npx" and will not add to 13
-<nowiki>
-<pre xml:space{{=}}"preserve"><code>object.style.setExpression("height","document.style.fontSize + 13"); </code></pre>
-</nowiki>
+<code>object.style.setExpression("height","document.style.fontSize + 13"); </code>
 *The provided ''expression'' is invalid when document.body.style.fontSize is previously unspecified
-<nowiki>
-<pre xml:space{{=}}"preserve"><code>object.style.setExpression("width","document.body.style.fontSize"); </code></pre>
-</nowiki>
+<code>object.style.setExpression("width","document.body.style.fontSize"); </code>
+
 |Import_Notes=
 }}
 {{Related_Specifications_Section
