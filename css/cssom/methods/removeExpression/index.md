@@ -14,14 +14,14 @@
 |Index=0
 |Name=PropertyName
 |Data type=String
-|Description=''String''' that specifies the name of the property from which to remove an expression. Returns '''true''' if the expression was successfully removed, '''false''' otherwise.
+|Description='''String''' that specifies the name of the property from which to remove an expression. 
 |Optional=No
 }}
 |Method_applies_to=css/cssom/methods
 |Example_object_name=object
 |Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
+|Javascript_data_type=Boolean
+|Return_value_description=Returns '''true''' if the expression was successfully removed, '''false''' otherwise.
 }}
 {{Examples_Section
 |Not_required=No
@@ -66,12 +66,10 @@ function remexp()
 |Notes====Remarks===
 After the expression is removed from the specified property, the value of the property equals the last computed value of the expression. To remove expressions set by the [[css/cssom/methods/setExpression|'''setExpression''']] method, use '''removeExpression'''.
 The following syntax sections show how to remove an expression from supported Cascading Style Sheets (CSS) attributes and DHTML Properties.
-*Use this syntax to remove an expression from a read/write property or from an [[dom/properties/expando|'''expando''']] property. <div class{{=}}"codeSnippet">
-<pre xml:space{{=}}"preserve"><code>object.removeExpression(sPropertyName)</code></pre>
-</div>
-*Use this syntax to remove an expression from a CSS attribute. <div class{{=}}"codeSnippet">
-<pre xml:space{{=}}"preserve"><code>object.style.removeExpression(sPropertyName)</code></pre>
-</div>
+*Use this syntax to remove an expression from a read/write property or from an '''expando''' property.
+<code>object.removeExpression(sPropertyName)</code>
+*Use this syntax to remove an expression from a CSS attribute. 
+<code>object.style.removeExpression(sPropertyName)</code>
 |Import_Notes=
 }}
 {{Related_Specifications_Section
