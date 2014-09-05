@@ -53,7 +53,6 @@ If the '''top''' attribute is not set, the '''posTop''' property returns zero.
 Use the [[dom/HTMLElement/offsetTop|'''offsetTop''']] property to calculate actual positions within the document area.
 Setting this property changes the value of the top position but leaves the units designator for the property unchanged.
 Unlike the [[css/properties/top|'''top''']] property, the '''posTop''' property value is a floating-point number, not a string.
-
 |Import_Notes=
 }}
 {{Related_Specifications_Section
@@ -70,7 +69,6 @@ Unlike the [[css/properties/top|'''top''']] property, the '''posTop''' property 
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/cssom/properties/pixelTop|pixelTop]]</code>
