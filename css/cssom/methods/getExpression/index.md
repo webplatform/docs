@@ -27,7 +27,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=
-|Description=The following examples demonstrate how to use the '''getExpression''' method to retrieve CSS properties.
+|Description=The following examples demonstrate how to use the '''getExpression''' method to retrieve CSS properties. This example retrieves the [[css/properties/width|'''width''']] property of a '''span''' object.
 |Code=&lt;body&gt;
 &lt;span id{{=}}"trueBlueSpan" 
     style{{=}}"background-color:lightblue; width:100px"&gt;
@@ -48,7 +48,7 @@
 &lt;button onclick{{=}}alert(AlGreenSpan.style.getExpression("width"));&gt;
     See Expression&lt;/button&gt;
 &lt;/body&gt;
-|LiveURL=This example uses the '''getExpression''' method to retrieve the [[css/properties/width|'''width''']] property of a '''span''' object.
+|LiveURL=
 }}{{Single Example
 |Language=
 |Description=In the following example, the [[css/cssom/methods/setExpression|'''setExpression''']] method is used to set the [[css/properties/width|'''width''']] property of a blue '''input type{{=}}text''' object equal to the sum of the values in two other '''input type{{=}}text''' objects.  When the user clicks the '''input type{{=}}button''' element, the '''getExpression''' method is used to display the expression.
