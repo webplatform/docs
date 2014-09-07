@@ -19,80 +19,80 @@
 ==Objects==
 {| class='wikitable'
 |-
-! Description
 ! Language Element
+! Description
 |-
-| Provides support for creation of arrays of any data type.
 | [[javascript/Array|Array Object]]
+| Provides support for creation of arrays of any data type.
 |-
-| Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView to interpret the raw buffer as needed.
 | [[javascript/ArrayBuffer|ArrayBuffer Object]]
+| Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView to interpret the raw buffer as needed.
 |-
-| An object representing the arguments to the currently executing function, and the functions that called it.
 | [[javascript/arguments|arguments Object]]
+| An object representing the arguments to the currently executing function, and the functions that called it.
 |-
-| Creates a new Boolean value.
 | [[javascript/Boolean|Boolean Object]]
+| Creates a new Boolean value.
 |-
-| Used to read and write different kinds of binary data to any location in the ArrayBuffer.
 | [[javascript/DataView|DataView Object]]
+| Used to read and write different kinds of binary data to any location in the ArrayBuffer.
 |-
-| Enables basic storage and retrieval of dates and times.
 | [[javascript/Date|Date Object]]
+| Enables basic storage and retrieval of dates and times.
 |-
-| An object that contains information about errors that occur while JavaScript code is running.
 | [[javascript/Error|Error Object]]
+| An object that contains information about errors that occur while JavaScript code is running.
 |-
-| A typed array of 32-bit float values.
 | [[javascript/Float32Array|Float32Array Object]]
+| A typed array of 32-bit float values.
 |-
-| A typed array of 64-bit float values.
 | [[javascript/Float64Array|Float64Array Object]]
+| A typed array of 64-bit float values.
 |-
-| Creates a new function.
 | [[javascript/Function|Function Object]]
+| Creates a new function.
 |-
-| An intrinsic object whose purpose is to collect global methods into one object.
 | [[javascript/Global|Global Object]]
+| An intrinsic object whose purpose is to collect global methods into one object.
 |-
-| A typed array of 8-bit integer values
 | [[javascript/Int8Array|Int8Array Object]]
+| A typed array of 8-bit integer values.
 |-
-| A typed array of 16-bit integer values
 | [[javascript/Int16Array|Int16Array Object]]
+| A typed array of 16-bit integer values.
 |-
-| A typed array of 32-bit integer values
 | [[javascript/Int32Array|Int32Array Object]]
+| A typed array of 32-bit integer values.
 |-
-| An intrinsic object that provides two methods to convert to and from the JavaScript Object Notation (JSON) format.
 | [[javascript/JSON|JSON Object]]
+| An intrinsic object that provides two methods to convert to and from the JavaScript Object Notation (JSON) format.
 |-
-| An intrinsic object that provides basic mathematics functionality and constants.
 | [[javascript/Math|Math Object]]
+| An intrinsic object that provides basic mathematics functionality and constants.
 |-
-| An object representation of the number data type and placeholder for numeric constants.
 | [[javascript/Number|Number Object]]
+| An object representation of the number data type and placeholder for numeric constants.
 |-
-| Provides functionality common to all JavaScript objects.
 | [[javascript/Object|Object Object]]
+| Provides functionality common to all JavaScript objects.
 |-
-| Stores information on regular expression pattern searches.
 | [[javascript/RegExp|RegExp Object]]
+| Stores information on regular expression pattern searches.
 |-
-| Contains a regular expression pattern.
 | [[javascript/regular expression|Regular Expression Object]]
+| Contains a regular expression pattern.
 |-
-| Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 | [[javascript/String|String Object]]
+| Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 |-
-| A typed array of 8-bit unsigned integer values,
 | [[javascript/Uint8Array|Uint8Array Object]]
+| A typed array of 8-bit unsigned integer values.
 |-
-| A typed array of 16-bit unsigned integer values
 | [[javascript/Uint16Array|Uint16Array Object]]
+| A typed array of 16-bit unsigned integer values.
 |-
-| A typed array of 32-bit unsigned integer values
 | [[javascript/Uint32Array|Uint32Array Object]]
+| A typed array of 32-bit unsigned integer values.
 |}
 ==Related Reference==
 [http://go.microsoft.com/fwlink/?LinkId=148095 HTML and DHTML Reference]
