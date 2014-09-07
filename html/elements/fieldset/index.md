@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -17,9 +19,9 @@ HTML5 adds the following attributes which are fully optional.
 
 ; disabled : If this Boolean attribute is set, the form controls that are its descendants, except descendants of its first optional '''legend''' element, are disabled, i.e., not editable. They won't receive any browsing events, like mouse clicks or focus-related ones. Often browsers display such controls as gray.
 
-; form : This attribute has the value of the id attribute of the '''form''' element its related to. Its default value is the id of the nearest <form> element it is a descendant of.
+; form : This attribute has the value of the id attribute of the '''form''' element its related to. Its default value is the id of the nearest &lt;form> element it is a descendant of.
 
-; name : The name associated with the group, which is submitted with the form data. ''The label for the field set is given by the first '''legend''' element that is a child of this field set.''
+; name : The name associated with the group. This is for use in the <code>form.elements</code> API.
 }}
 {{Examples_Section
 |Not_required=No
@@ -103,12 +105,14 @@ Typically, the browser draws a box around the containing elements of every field
 
 ===Nesting fieldsets===
 It’s also possible and in certain use cases pretty useful to nest fieldsets. See Example above.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/forms.html#the-fieldset-element
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01 Specification
 |URL=http://www.w3.org/TR/html401/
@@ -129,6 +133,7 @@ It’s also possible and in certain use cases pretty useful to nest fieldsets. S
 * [[html/elements/form|'''form''']] element
 |External_links=* http://www.w3.org/TR/html5/forms.html#the-fieldset-element
 * http://www.w3.org/TR/html-markup/fieldset.html#fieldset
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
