@@ -41,11 +41,6 @@ E { /* properties goes here */ }
 |URL=http://www.w3.org/TR/CSS2/
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related Specification
-|Name=
-|URL=
-|Status=
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
