@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/MSCSSMatrix
+|Property_applies_to=css/cssom/MSCSSMatrix/properties
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
