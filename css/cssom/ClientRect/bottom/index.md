@@ -1,9 +1,12 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
@@ -13,12 +16,13 @@
 |Return_value_name=pixelsFromBottom
 |Javascript_data_type=Number
 |Return_value_description=The number of pixels.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
+|Description=This example uses the [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
  &lt;head&gt;
@@ -42,13 +46,15 @@ window.addEventListener("load", getCoords, false);
 }}
 }}
 {{Notes_Section
-|Notes=This syntax shows how to access the bottom coordinate of the second text rectangle of a [[dom/traversal/TextRange|'''TextRange''']] oTextRange object.
+|Usage=
+|Notes=This syntax shows how to access the bottom coordinate of the second text rectangle of a [[dom/TextRange|'''TextRange''']] oTextRange object.
  <code>oRct {{=}} oTextRange.getClientRects();
  oRct[1].bottom;</code>
 Note that the collection index starts at 0, so the second item index is 1.
 This syntax shows how to access the bottom coordinate of the bounding rectangle of an oElement element object.
  <code>oBndRct {{=}} oElement.getBoundingClientRect();
  oBndRct.bottom;</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -61,13 +67,9 @@ This syntax shows how to access the bottom coordinate of the bounding rectangle 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/traversal/properties/left|left]]</code>
-*<code>[[dom/traversal/properties/right|right]]</code>
-*<code>[[dom/traversal/properties/top|top]]</code>
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
