@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''scan''' media feature describes the scanning process (i.e. how the video card generates the image) of some output devices. 
+
+It can be useful if you want to adjust font type that are known to not be visible well on "interlaced" modes for instance.
+}}
 {{CSS_Media_Feature
 |Content=
 }}
