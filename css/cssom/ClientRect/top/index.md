@@ -22,7 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
+|Description=This example uses the [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
 |Code=&lt;SCRIPT&gt;
 function getCoords(oObject) {
     oBndRct{{=}}oObject.getBoundingClientRect();
@@ -40,7 +40,7 @@ function getCoords(oObject) {
 }}
 {{Notes_Section
 |Usage=
-|Notes=Use this syntax to access the top coordinate of the second text rectangle of a [[dom/traversal/TextRange|'''TextRange''']] object:
+|Notes=Use this syntax to access the top coordinate of the second text rectangle of a [[dom/TextRange|'''TextRange''']] object:
  <code>oRct {{=}} oTextRange.getClientRects();
  oRct[1].top;</code>
 Note that the collection index starts at 0, so the second item index is 1.
