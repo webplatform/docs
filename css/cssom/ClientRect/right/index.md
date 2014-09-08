@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the ''right'' value for a '''ClienRect''' object.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/ClientRect
 |Read_only=Yes
