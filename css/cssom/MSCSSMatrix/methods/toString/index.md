@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=
-|Editorial notes=
+|State=Not Ready
+|Editorial notes=Little content; browser-specific; move/deletion candidate
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
