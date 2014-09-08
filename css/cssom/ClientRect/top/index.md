@@ -1,17 +1,22 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the ''top'' value for a '''ClienRect''' object.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/ClientRect
 |Read_only=Yes
 |Example_object_name=clientRect
 |Return_value_name=pixelsFromTop
 |Javascript_data_type=Number
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,9 +35,11 @@ function getCoords(oObject) {
 &lt;/HEAD&gt;	
 &lt;BODY&gt;
 &lt;P ID{{=}}oPara onclick{{=}}"getCoords(this)"&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Use this syntax to access the top coordinate of the second text rectangle of a [[dom/traversal/TextRange|'''TextRange''']] object:
  <code>oRct {{=}} oTextRange.getClientRects();
  oRct[1].top;</code>
@@ -40,6 +47,7 @@ Note that the collection index starts at 0, so the second item index is 1.
 To access the top coordinate of the bounding rectangle of an object, use this syntax:
  <code>oBndRct {{=}} oElement.getBoundingClientRect();
  oBndRct.top;</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -52,12 +60,9 @@ To access the top coordinate of the bounding rectangle of an object, use this sy
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/properties/bottom|bottom]]</code>
-*<code>[[dom/traversal/properties/left|left]]</code>
-*<code>[[dom/traversal/properties/right|right]]</code>
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
