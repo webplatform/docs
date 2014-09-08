@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Not Ready
+|Editorial notes=Wrong template; should be a method(?)
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Returns the ''index''th property name of the declararion.}}
+{{Summary_Section}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
