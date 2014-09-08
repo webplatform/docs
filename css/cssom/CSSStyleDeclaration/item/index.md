@@ -1,20 +1,32 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section|Returns the ''index''th property name of the declararion.}}
 {{API_Object_Property
-|Property_applies_to=
-|Read_only=
+|Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+|Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
-{{Topics|DOM}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Usage=
+|Notes====Remarks===
 The '''item''' method can be used to iterate over all properties in this declaration block.
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 1.2
 
@@ -22,24 +34,26 @@ The '''item''' method can be used to iterate over all properties in this declara
 ===Parameters===
 ;''index'' [in]:Type: '''Integer''' <b/>The index of the property name to retrieve.
 }}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyPriority|getPropertyPriority]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyValue|getPropertyValue]]</code>
-*<code>[[css/cssom/properties/length|length]]</code>
-*<code>[[css/cssom/methods/removeProperty|removeProperty]]</code>
-*<code>[[css/cssom/methods/setProperty|setProperty]]</code>
-|Topic_clusters=CSSOM
+{{Related_Specifications_Section
+|Specifications=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
