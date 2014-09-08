@@ -1,23 +1,29 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Sets a property, value and priority within a CSS style declaration.}}
+{{Summary_Section|Sets a property, value, and priority within a CSS style declaration.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the CSS property.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=value
 |Data type=String
 |Description=The new value of the property.
 |Optional=No
 }}{{Method Parameter
+|Index=
 |Name=priority
 |Data type=String
 |Description="important" or the empty string.
@@ -25,13 +31,19 @@
 }}
 |Method_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Example_object_name=declaration
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Style
@@ -42,22 +54,15 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyPriority|getPropertyPriority]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyValue|getPropertyValue]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/item|item]]</code>
-*<code>[[css/cssom/properties/length|length]]</code>
-*<code>[[css/cssom/methods/removeProperty|removeProperty]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
