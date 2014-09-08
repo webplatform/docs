@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
@@ -8,6 +11,7 @@
 {{Summary_Section|Removes a property from a CSS style declaration.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=property
 |Data type=String
 |Description=The name of the property to remove.
@@ -23,7 +27,11 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=DOM Level 2 Style
@@ -34,22 +42,15 @@
 }}
 {{Compatibility_Section
 |Not_required=No
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyPriority|getPropertyPriority]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/getPropertyValue|getPropertyValue]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/item|item]]</code>
-*<code>[[css/cssom/properties/length|length]]</code>
-*<code>[[css/cssom/methods/setProperty|setProperty]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
