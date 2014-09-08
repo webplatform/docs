@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Cleanup
 }}
@@ -15,6 +16,7 @@
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=alignItems
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=flex-start
 |Description=The cross-start margin edge of the flex item is placed flush with the cross-start edge of the line.
@@ -103,20 +105,25 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=This property was named '''flex-align''' in older drafts.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
 |URL=http://www.w3.org/TR/css3-flexbox/#align-items-property
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=Flexbox
+|Manual_links=
 |External_links=Also, check out the following live demo sites:
 * [http://demo.agektmr.com/flexbox/ Flexbox Playground]
 * [http://the-echoplex.net/flexyboxes Flexy Boxes]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
