@@ -8,33 +8,32 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A type selector matches every instance of the element type in the document tree.}}
 {{CSS_Selector
-|Content=
+|Content==== Syntax ===
+<syntaxHighlight lang="css">
+E { /* properties goes here */ }
+</syntaxHighlight>
+
+=== Parameters ===
+''E'': String that specifies the name of a document language element type.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=CSS
 |Description=The following style rule applies to all the H1 tags within the document.
-|Code=&lt;style&gt;
-    H1 { color:teal; font-variant:small-caps; letter-spacing:.1em; }
-&lt;/style&gt;
+|Code=h1 { 
+    color:teal; 
+    font-variant:small-caps;
+}
 |LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=
-|Notes====Remarks===
-A type selector matches every instance of the element type in the document tree.
-|Import_Notes====Syntax===
-<syntaxHighlight lang="css">
-'''E''' { /* properties goes here */ }
-</syntaxHighlight>
-
-===Parameters===
-''E'': String that specifies the name of a document language element type.
-
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
