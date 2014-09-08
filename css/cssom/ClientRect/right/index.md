@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
@@ -13,12 +16,13 @@
 |Return_value_name=pixelsFromRight
 |Javascript_data_type=Number
 |Return_value_description=The number of pixels.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
+|Description=This example uses the [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
 |Code=&lt;SCRIPT&gt;
 function getCoords(oObject) {
     oBndRct{{=}}oObject.getBoundingClientRect();
@@ -35,13 +39,15 @@ function getCoords(oObject) {
 }}
 }}
 {{Notes_Section
-|Notes=To access the right coordinate of the second text rectangle of a [[dom/traversal/TextRange|'''TextRange''']] object, use this syntax:
+|Usage=
+|Notes=To access the right coordinate of the second text rectangle of a [[dom/TextRange|'''TextRange''']] object, use this syntax:
  <code>oRct {{=}} oTextRange.getClientRects();
  oRct[1].right;</code>
 Note that the collection index starts at 0, so the second item index is 1.
 To access the right coordinate of the bounding rectangle of an element object, use this syntax:
  <code>oBndRct {{=}} oElement.getBoundingClientRect();
  oBndRct.right;</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -54,12 +60,9 @@ To access the right coordinate of the bounding rectangle of an element object, u
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
-*<code>[[dom/properties/bottom|bottom]]</code>
-*<code>[[dom/traversal/properties/left|left]]</code>
-*<code>[[dom/traversal/properties/top|top]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
