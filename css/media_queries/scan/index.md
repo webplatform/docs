@@ -1,18 +1,24 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
+|Editorial notes=Add summary, values, syntax, examples, description, specifications, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{CSS_Media_Feature}}
+{{CSS_Media_Feature
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -23,7 +29,11 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
