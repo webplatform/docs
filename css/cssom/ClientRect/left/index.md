@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the ''left'' value for a '''ClienRect''' object.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/ClientRect
 |Read_only=Yes
@@ -13,12 +16,13 @@
 |Return_value_name=pixelsFromLeft
 |Javascript_data_type=Number
 |Return_value_description=The number of pixels.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/methods/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
+|Description=This example uses the [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] method to retrieve the coordinates of the bounds of the text rectangles within the element.
 |Code=&lt;SCRIPT&gt;
 function getCoords(oObject) {
     oBndRct{{=}}oObject.getBoundingClientRect();
@@ -35,13 +39,15 @@ function getCoords(oObject) {
 }}
 }}
 {{Notes_Section
-|Notes=To access the left coordinate of the second text rectangle of a [[dom/traversal/TextRange|'''TextRange''']] object, use this syntax:
+|Usage=
+|Notes=To access the left coordinate of the second text rectangle of a [[dom/TextRange|'''TextRange''']] object, use this syntax:
  <code>oRct {{=}} oTextRange.getClientRects();
  oRct[1].left;</code>
 Note that because the collection index starts at 0, the second item index is 1.
 To access the left coordinate of the bounding rectangle of an element object, use this syntax:
  <code>oBndRct {{=}} oElement.getBoundingClientRect();
  oBndRct.left;</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -54,12 +60,9 @@ To access the left coordinate of the bounding rectangle of an element object, us
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/properties/bottom|bottom]]</code>
-*<code>[[dom/traversal/properties/right|right]]</code>
-*<code>[[dom/traversal/properties/top|top]]</code>
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
