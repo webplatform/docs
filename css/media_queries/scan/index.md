@@ -4,7 +4,7 @@
 |Editorial notes=Add summary, values, syntax, examples, description, specifications, compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section}}
 {{CSS_Media_Feature
