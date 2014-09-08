@@ -9,32 +9,51 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following style rule applies to all the H1 tags within the document.
 |Code=&lt;style&gt;
     H1 { color:teal; font-variant:small-caps; letter-spacing:.1em; }
 &lt;/style&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 A type selector matches every instance of the element type in the document tree.
 |Import_Notes====Syntax===
-<code><strong/>''E''''' '''<em/> {...}
-</code>
+<syntaxHighlight lang="css">
+'''E''' { /* properties goes here */ }
+</syntaxHighlight>
+
 ===Parameters===
-;''E'':String that specifies the name of a document language element type.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1]
+''E'': String that specifies the name of a document language element type.
+
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=
+|URL=
+|Status=
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Selectors
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
