@@ -15,12 +15,17 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=
+|Usage=@media (scan: interlace) { body { font-family: sans-serif; } }
 |Notes=
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Queries Level 4
+|URL=http://dev.w3.org/csswg/mediaqueries-4/#descdef-media-scan
+|Status=
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -31,7 +36,7 @@
 }}
 {{See_Also_Section
 |Manual_links=
-|External_links=
+|External_links=* [http://dev.w3.org/csswg/mediaqueries-4/#descdef-media-scan CSS Working Group Draft]
 |Manual_sections=
 }}
 {{Topics}}
