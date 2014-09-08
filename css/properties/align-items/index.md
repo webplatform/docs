@@ -112,15 +112,6 @@
 |Status=Candidate Recommendation
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=http://caniuse.com/#flexbox
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Flexbox
 |External_links=Also, check out the following live demo sites:
