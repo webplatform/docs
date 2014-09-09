@@ -1,15 +1,24 @@
 {{Page_Title|Iterators and generators}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Remove XUL-specific info. Fix "Previous/Next" links at end.
+|Checked_Out=No
 |Content=Not Neutral
-|Editorial notes=Remove XUL-specific info.
 }}
-{{Summary_Section|Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple <code>[[/js/reference/statements/for|for]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops to <code>[[/js/reference/objects/Array/map|map()]]</code>, <code>[[/js/reference/objects/Array/filter|filter()]]</code> and [[/guides/JavaScript/objects#Array_comprehensions|array comprehensions]]. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of <code>[[/js/reference/statements/for...in|for...in]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> loops.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple <code>for</code> and <code>for each</code> loops to <code>map()</code>, <code>filter()]]</code> and array comprehensions. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of <code>for...in</code> and <code>for each</code> loops.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content===Iterators==
 
 An Iterator is an object that knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a <code>next()</code> method which returns the next item in the sequence. This method can optionally raise a <code>StopIteration</code> exception when the sequence is exhausted.
 
-Once created, an iterator object can be used either explicitly by repeatedly calling <code>next()</code>, or implicitly using JavaScript's <code>[[/js/reference/statements/for...in|for...in]]</code> and <code>[[/js/reference/statements/for_each...in|for each]]</code> constructs.
+Once created, an iterator object can be used either explicitly by repeatedly calling <code>next()</code>, or implicitly using JavaScript's <code>for...in</code> and <code>for each</code> constructs.
 
 Simple iterators for objects and arrays can be created using the <code>Iterator()</code> function:
 
@@ -253,15 +262,25 @@ When a generator expression is used as the argument to a function, the parenthes
 
  var result = doSomething(i * 2 for (i in it));
 
-<span style="float: left">[[/guides/js/inheritance|&laquo; Previous]]</span>[[/guides/JavaScript/Closures|Next &raquo]]
+<span style="float: left">[[/guides/js/inheritance|&laquo; Previous]]</span> [[/guides/JavaScript/Closures|Next &raquo;]]
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
 }}
 {{Compatibility_Section
 |Not_required=Yes
+|Imported_tables=
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
