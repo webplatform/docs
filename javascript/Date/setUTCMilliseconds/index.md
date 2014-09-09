@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the milliseconds value in the Date object using Universal Coordinated Time (UTC).}}
@@ -18,7 +19,9 @@
 |Description=A numeric value equal to the millisecond value.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -36,6 +39,7 @@
     s += " milliseconds"
     return(s);
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -43,17 +47,23 @@
 
 If the value of numMilli is greater than 999, or is a negative number, the stored number of seconds (and minutes, hours, and so forth, if necessary) is incremented an appropriate amount.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getMilliseconds{{!}}getMilliseconds Method (Date)]]
 * [[javascript/Date/getUTCMilliseconds{{!}}getUTCMilliseconds Method (Date)]]
 * [[javascript/Date/setMilliseconds{{!}}setMilliseconds Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
