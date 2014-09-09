@@ -1,5 +1,7 @@
 {{Page_Title|NAT}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Subject is not defined; content is minimal
 |Checked_Out=No
 |High-level issues=Needs Topics
 |Content=Incomplete, Needs Summary
@@ -30,11 +32,19 @@ Link: http://sanjibmukherjee.info/http://sanjibmukherjee.info/wp-content/uploads
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
