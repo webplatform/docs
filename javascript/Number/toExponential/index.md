@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Needs Review
 }}
@@ -38,6 +39,7 @@ pie.toPrecision(1);
 
 pie.toPrecision(0);
 // Returns: "3e+0"
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -45,7 +47,11 @@ pie.toPrecision(0);
 
 [[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -61,7 +67,7 @@ Standard ECMA-262
 5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Function
+|JS Page Type=JS Method
 |Applies to=Number
 }}
 {{External_Attribution
