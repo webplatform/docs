@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the month value in the '''Date''' object using local time.}}
@@ -22,7 +23,9 @@
 |Description=A numeric value representing the day of the month. If this value is not supplied, the value from a call to the '''getDate''' method is used.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -34,6 +37,7 @@
  
  // Output: Fri Mar 1 00:00:00 PST 1991
  // Note that the time zone corresponds to the time zone on the local computer.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -43,17 +47,23 @@ If the value of numMonth is greater than 11 (January is month 0) or is a negativ
 
 The '''setFullYear''' method can be used to set the year, month, and day of the month.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getMonth{{!}}getMonth Method (Date)]]
 * [[javascript/Date/getUTCMonth{{!}}getUTCMonth Method (Date)]]
 * [[javascript/Date/setUTCMonth{{!}}setUTCMonth Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
