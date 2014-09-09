@@ -313,4 +313,3 @@ The '''SVGFilterElement''' object has these properties.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{FUBAR}}
