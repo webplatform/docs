@@ -45,7 +45,6 @@
 |}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Topic_clusters=Javascript
 |Manual_links=
 |External_links=
 |Manual_sections=
