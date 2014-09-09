@@ -10,7 +10,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Javascript can be used to create animation effects on a web page as simple as highlighting new content in yellow and then fading it back to normal, creating transitions, or moving elements on the page (think popup windows).  Creative use of techniques and tools such as common Javascript libraries allows us to create user interfaces that are unobtrusive and responsive to user behavior.  We begin by using JavaScript's <tt>setInterval()</tt> function to create our own animations by manipulating DOM elements' CSS properties to create effects.  Later, we illustrate the use of code libraries like jQuery to create more complex animations or create simple effects more easily than using by Javascript alone.}}
-{{Markup_Element}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -206,7 +205,6 @@ This concludes our look at animating web page functionality using JavaScript - I
 # If <code>setInterval</code> didn't exist, how could you emulate it?
 # How would you make an element fade from fully visible to fully invisible in 20 steps over the course of 1.5 seconds?
 # How would you make an element fade from fully visible to fully invisible ''and then back to visible again'' in 20 steps over the course of 1.5 seconds?
-[[Category:Markup Elements]]
 
 
 {{Compatibility_Section
