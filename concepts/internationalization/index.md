@@ -1,5 +1,7 @@
 {{Page_Title|Internationalization and Localization}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Summary_Section|Introduction to internationalization, best practices}}
@@ -48,7 +50,11 @@ Use the [[html/attributes/translate|translate attribute]] to indicate whether co
 Use language negotiation on multilingual Web sites. [http://www.w3.org/International/questions/qa-when-lang-neg When to use language negotiation]
 
 Further reading: [http://www.w3.org/International/quicktips/Overview Internationalization Quick Tips for the Web]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|Internationalization}}
 {{External_Attribution
 |Is_CC-BY-SA=No
