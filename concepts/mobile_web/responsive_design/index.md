@@ -1,5 +1,9 @@
 {{Page_Title|Responsive Web Design}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.}}
 {{Concept_Page
@@ -223,15 +227,22 @@ Adaptive web design
 [http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/ Liquid layout]
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Grid Layout, Media Queries
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|Design, Mobile, UI, Usability}}
 {{External_Attribution
