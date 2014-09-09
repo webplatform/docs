@@ -1,11 +1,19 @@
-{{Page_Title}}
+{{Page_Title|Accessibility Testing}}
 {{Flags
-|Content=Outdated
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|Content=Outdated
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a website and feed that information back into improving future designs and implementations.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content===Introduction==
 
 Accessibility evaluation is more formalized than usability testing generally. Laws and public opinion frown upon discriminating against people with disabilities. In order to be fair to all, governments and other organizations try to adhere to various web accessibility standards, such as the US federal government’s [http://dev.opera.com/articles/view/25-accessibility-basics/#section508 Section 508 legislation] and the W3C’s [http://dev.opera.com/articles/view/25-accessibility-basics/#WCAG1 Web Content Accessibility Guidelines (WCAG)]
@@ -391,7 +399,11 @@ Not every webpage will receive an accessibility evaluation by experts and a suit
 *Turn off JavaScript and do your normal browsing for a day. What problems do you encounter?
 *Pick a favourite site, design some personas for the site, then evaluate its conformance with WCAG 1.0 and general accessibility as an expert tester. Design a user testing plan for a site, and include recruit requirements and tasks to test. Write up a report on how it could improve its accessibility.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -399,7 +411,11 @@ Not every webpage will receive an accessibility evaluation by experts and a suit
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
