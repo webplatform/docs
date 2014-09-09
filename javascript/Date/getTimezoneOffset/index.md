@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the difference in minutes between the time on the local computer and Universal Coordinated Time (UTC).}}
@@ -28,20 +29,27 @@
  
  // Output (for example, where local time is PST): 
  7 hours before UTC
+|LiveURL=
 }}
 }}
 {{Remarks_Section
-|Remarks=The required dateObj reference is a '''Date''' object. 
+|Remarks=The required dateObj reference is a '''Date''' object.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getTime{{!}}getTime Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
