@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the stored time value in milliseconds since midnight, January 1, 1970 UTC.}}
@@ -26,16 +27,27 @@
      document.write("values are different");
  
  // Output: values are the same
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
