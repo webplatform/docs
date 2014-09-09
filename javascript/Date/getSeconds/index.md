@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the seconds of a '''Date''' object, using local time.}}
@@ -28,21 +29,28 @@
  // Output:
  // 0
  // 5
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is a '''Date''' object. To get the seconds value using Universal Coordinated Time (UTC), use the '''getUTCSeconds''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getUTCSeconds{{!}}getUTCSeconds Method (Date)]]
 * [[javascript/Date/setSeconds{{!}}setSeconds Method (Date)]]
 * [[javascript/Date/setUTCSeconds{{!}}setUTCSeconds Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
+|JS Page Type=JS Object
 |Applies to=
 }}
 {{External_Attribution
