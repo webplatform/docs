@@ -1,8 +1,10 @@
 {{Page_Title|Pointer Events Primer}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=Consider unchecking Topic Clusters in See Also section to omit dozens of (potentially unrelated) links.
+|Checked_Out=No
 |High-level issues=Stub, Deletion Candidate, Merge Candidate, Split Candidate, Move Candidate, Copyright Issue, Undescriptive Title, Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Outdated, Incomplete, Errors, Not Neutral, Grammar/Spelling, Cleanup, Broken Links, Compatibility Incomplete, Examples Needed, Examples Errors, Examples Best Practices, Accessibility, Needs Summary
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|This document is written for web developers who have basic familiarity with [[html|HTML]] and [[javascript|JavaScript]].  This document should help you:
@@ -525,16 +527,24 @@ For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guideli
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Pointer Events
 |URL=http://www.w3.org/TR/pointerevents/
 |Status=Working Draft
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=Canvas, CSS Font, CSS Layout, Animation, Audio, Background, Border, Box Model, CSS Attributes, Combinators, Deprecated, Document Structure, Exclusions, FileSystemAPI, Filters, Flexbox, Fonts, Generated and Replaced Content, Gradients, Grid Layout, HTML, Multimedia, Media Queries, Mobile, Multi-Column, Off-line Storage, Paged Media, Performance, Pointer Events, Pseudo-Classes, Pseudo-Elements, Regions, Responsive Web Design, Ruby, Scrollbar, Selectors, Security, Shapes, Tables, Text, Touch, Transforms, Transitions, Video, Visual Effects, Web Components, WebRTC, XHR
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM, DOMEvents, Touch}}
 {{External_Attribution
