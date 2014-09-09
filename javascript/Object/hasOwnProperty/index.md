@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether an object has a property with the specified name.}}
@@ -14,7 +15,9 @@
 |Description=String value of a property name.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -28,15 +31,22 @@
  // Output:
  // false
  // true
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The '''hasOwnProperty''' method returns true if object has a property of the specified name, false if it does not. This method does not check the properties in the object's prototype chain; the property must be a member of the object itself.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.5 15.2.4.5 Object.prototype.hasOwnProperty (V)]
 ECMAScript® Language Specification
@@ -45,7 +55,7 @@ Standard ECMA-262
 }}
 {{JS Topics
 |JS Page Type=JS Method
-|Applies to=Array
+|Applies to=Array, Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
