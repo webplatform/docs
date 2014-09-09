@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the year value in the Date object using Universal Coordinated Time (UTC).}}
@@ -26,7 +27,9 @@
 |Description=A numeric value equal to the day of the month.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -42,6 +45,7 @@
  document.write (dtFirst.toUTCString());
  document.write ("&lt;br /&gt;");
  document.write (dtSecond.toUTCString());
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -53,17 +57,23 @@ To set the year using local time, use the '''setFullYear''' method.
 
 The range of years supported in the Date object is approximately 285,616 years from either side of 1970.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getFullYear{{!}}getFullYear Method (Date)]]
 * [[javascript/Date/getUTCFullYear{{!}}getUTCFullYear Method (Date)]]
 * [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
