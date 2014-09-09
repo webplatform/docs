@@ -7,7 +7,10 @@
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Aborts a read operation while working with a }}
+{{Summary_Section|The abort method is used to aborts the read operation. Upon return, the [[dom/Element/readyState readyState]] will be DONE.
+
+
+}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/FileReader
@@ -18,11 +21,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=
+var instanceOfFileReader = new FileReader();
+
+try {
+  // read action
+} catch (e) {
+  throw new Error("Error with file");
+  instanceOfFileReader.abort();
+}
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
-|Notes=The '''abort''' method is used to interrupt an asynchronous  read operation that is in progress on an onloadend event, sets the state of the readyState property of the FileReader to <code>DONE</code>, and sets result property to <code>null</code>.
+|Notes=The '''abort''' method is used to interrupt an asynchronous  read operation that is in progress on an onloadend event, sets the state of the [[dom/Element/readyState readyState]] property of the FileReader to <code>DONE</code>, and sets result property to <code>null</code>.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
