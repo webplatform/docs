@@ -1,32 +1,50 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=needs example
+|Editorial notes=need examples
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
-{{Summary_Section|Aborts a read operation.}}
+{{Summary_Section|Aborts a read operation while working with a }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/file/FileReader
 |Example_object_name=FileReader
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''abort''' method is used to interrupt an asynchronous  read operation that is in progress on an onloadend event, sets the state of the readyState property of the FileReader to <code>DONE</code>, and sets result property to <code>null</code>.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
+|URL=http://www.w3.org/TR/FileAPI/
+|Status=Last Call Working Draft 12 September 2013
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/FileReader.abort abort]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772297(v=vs.85).aspx abort Method]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -90,13 +108,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/FileReader.abort abort]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772297(v=vs.85).aspx abort Method]
-|HTML5Rocks_link=
 }}
