@@ -1,5 +1,7 @@
 {{Page_Title|Mobile web}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -258,14 +260,22 @@ The sooner you accept this and move on, the sooner you can begin to develop bett
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/introduction-to-the-mobile-web/ Mobile 1: Introduction to the mobile web], written by Brian Suda. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
