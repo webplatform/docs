@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a date as a string value in ISO format.}}
@@ -26,6 +27,7 @@
  // Output:
  //  2010-07-30T15:05:00.000Z
  //  Fri, 30 Jul 2010 15:05:00 UTC
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -33,7 +35,11 @@
 
 The time zone is always UTC, denoted by the suffix Z in the output.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Exceptions==
 If objDate does not contain a valid date, a RangeError exception is thrown.
@@ -43,10 +49,12 @@ If objDate does not contain a valid date, a RangeError exception is thrown.
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date{{!}}Date Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
