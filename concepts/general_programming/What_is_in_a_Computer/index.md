@@ -2,6 +2,8 @@
 {{Flags
 |High-level issues=Needs Topics, Needs Review
 |Checked_Out=No
+|State=In Progress
+|Editorial notes=Not incorrect, but rudimentary. Custom title is misleading. Content needs updating. Content only visible in "Edit Source" mode.
 }}
 {{Summary_Section|What is inside your computer? What are some basic ideas about how it works?}}
 {{Concept Page}}
