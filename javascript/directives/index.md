@@ -4,18 +4,35 @@
 |Editorial notes=Browser bias.
 |Checked_Out=No
 }}
-{{Summary_Section|The following table lists JavaScript directives.}}
+{{Summary_Section|The following table lists JavaScript directives.  A directive is a token that can be inserted and would affect the rest of the execution flow in which it has been inserted.}}
 {{JS_Syntax
 |Formats=
 |Values=
 }}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
+{{JS_Return_Value
+|Description=N/A
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The "use strict" is one of the most known directives web browser supports.
+|Code=(function(){
+  "use strict"; // The use strict directive
+
+  // Strict code goes here ...
+})();
+|LiveURL=
+}}
+}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Directives==
 {| class='wikitable'
@@ -27,7 +44,11 @@
 | [[javascript/directives/use strict|use strict]]
 |}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
