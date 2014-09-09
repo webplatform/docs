@@ -1,7 +1,10 @@
 {{Page_Title|Fundamentos de la accesibilidad web}}
 {{Flags
+|State=Unreviewed
+|Editorial notes=Not in English.
 |Checked_Out=No
 }}
+{{Summary_Section}}
 {{Basic Page}}
 Esta página brinda una introducción a la accesibilidad web y enlaza a recursos para mayor información. Te sugerimos que leas primero esta página completamente y luego regreses y visites los enlaces para aprender más.
 
@@ -135,9 +138,11 @@ Referencias de esta información: La mayor parte del texto de esta página proce
 * [http://www.w3.org/TR/WCAG20-TECHS/ Técnicas de HTML y CSS para cumplir con los criterios de cumplimiento de las WCAG] [Inglés]
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Hacer accesibles las aplicaciones de Windows Store usando JavaScript y HTML] [Inglés]
 {{Notes_Section
+|Usage=
 |Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
 
 Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
+|Import_Notes=
 }}
 {{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
