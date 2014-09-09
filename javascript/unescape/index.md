@@ -18,14 +18,18 @@ The deprecated '''unescape()''' function decodes a string that is usually encode
 |Description=A String to be decoded
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=unescape("webplatform"); // "webplatform"
 unescape("%FCmlaut"); // "ümlaut"
 unescape("%u65E5%u672C%u8A9E"); // "日本語"
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -34,6 +38,7 @@ unescape("%u65E5%u672C%u8A9E"); // "日本語"
 Characters encoded in '''%u''' xxxx format (Unicode characters) are replaced with the Unicode character with hexadecimal encoding xxxx.
 }}
 {{Notes_Section
+|Usage=
 |Notes=Do not use the '''unescape''' function to decode URIs. Use [[javascript/decodeURI{{!}}decodeURI]] and 
 [[javascript/decodeURIComponent{{!}}decodeURIComponent]] functions instead.
 |Import_Notes=This function is deprecated and not recommended for use in new projects. Use with caution.
@@ -46,10 +51,12 @@ Characters encoded in '''%u''' xxxx format (Unicode characters) are replaced wit
 * [[javascript/decodeURIComponent{{!}}decodeURIComponent Function]]
 * [[javascript/escape{{!}}escape Function]]
 * [[javascript/String{{!}}String Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Function
+|Applies to=String
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
