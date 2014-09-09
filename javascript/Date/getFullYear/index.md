@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the year, using local time.}}
@@ -22,22 +23,29 @@
  document.write(date.getFullYear());
  
  // Output: 1901
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is a '''Date''' object. To get the year using Universal Coordinated Time (UTC), use the '''getUTCFullYear''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getUTCFullYear{{!}}getUTCFullYear Method (Date)]]
 * [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]]
 * [[javascript/Date/setUTCFullYear{{!}}setUTCFullYear Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
