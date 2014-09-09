@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a time as a string value.}}
@@ -10,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -21,6 +24,7 @@
       document.write(aDate.toTimeString());
  
  // Output depends on the time in the current time zone.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -28,16 +32,22 @@
 
 The '''toTimeString''' method returns a string value containing the time in the current time zone.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
 * [[javascript/Date/toLocaleTimeString{{!}}toLocaleTimeString Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
