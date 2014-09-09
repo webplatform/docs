@@ -7,7 +7,6 @@
 |Content=Incomplete
 }}
 {{Standardization_Status}}
-{{API_Name}}
 {{Summary_Section|1. Colors (basic ones are "red", "blue", etc...
 2. Lengths (html page is split into <head> and <body>) 
 3. Links
@@ -31,4 +30,3 @@
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Basic Page}}
