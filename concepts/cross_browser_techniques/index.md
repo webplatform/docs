@@ -1,5 +1,7 @@
 {{Page_Title|Cross browser techniques}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Listing page. Fix broken link
 |Checked_Out=No
 }}
 {{Summary_Section|This pages lists article related to making web pages and applications work better across different browsers, from mobile browsers, to older browsers that we may be called upon to support.}}
@@ -24,8 +26,15 @@
 ==Working without JavaScript==
 *[[concepts/graceful_enhancement|Gracefully enhancing your site with JavaScript]]
 *[[concepts/redirect_no_javascript|Redirect browsers running without JavaScript to a special area catered to them]]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
