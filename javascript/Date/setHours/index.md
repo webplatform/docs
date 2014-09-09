@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the hour value in the Date object using local time.}}
@@ -30,7 +31,9 @@
 |Description=A numeric value equal to the milliseconds value.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -42,6 +45,7 @@
     s = "Current setting is " + d.toLocaleString() 
     return(s);                    //Return new date setting.
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -51,17 +55,23 @@ To set the hours value using Universal Coordinated Time (UTC), use the '''setUTC
 
 If the value of an argument is greater than its range or is a negative number, other stored values are modified accordingly. For example, if the stored date is "Jan 5, 1996 00:00:00", and '''setHours(30)''' is called, the date is changed to "Jan 6, 1996 06:00:00." Negative numbers have a similar behavior.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getHours{{!}}getHours Method (Date)]]
 * [[javascript/Date/getUTCHours{{!}}getUTCHours Method (Date)]]
 * [[javascript/Date/setUTCHours{{!}}setUTCHours Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
