@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether an object exists in another object's prototype chain.}}
@@ -14,7 +15,9 @@
 |Description=Another object whose prototype chain is to be checked.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -24,15 +27,22 @@
  document.write(RegExp.prototype.isPrototypeOf(re));
  
  // Output: true
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The '''isPrototypeOf''' method returns true if object2 has object1 in its prototype chain. The prototype chain is used to share functionality between instances of the same object type. The '''isPrototypeOf''' method returns false when object2 is not an object or when object1 does not appear in the prototype chain of the object2.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.6 15.2.4.6 Object.prototype.isPrototypeOf (V)]
 ECMAScript® Language Specification
@@ -41,7 +51,7 @@ Standard ECMA-262
 }}
 {{JS Topics
 |JS Page Type=JS Method
-|Applies to=Array
+|Applies to=Array, Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
