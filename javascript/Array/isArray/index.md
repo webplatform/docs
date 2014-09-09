@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Determines whether an object is an array.}}
@@ -47,15 +48,23 @@ var ar = [];
  var injectingObject = Array.isArray({});
  document.write(injectingObject);
  // Output: false
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
 |Manual_links=* [[javascript/Array{{!}}Array Object]]
 * [[javascript/operators/typeof{{!}}typeof Operator]]
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.3.2 15.4.3.2 Array.isArray ( arg )]
 ECMAScript® Language Specification
@@ -63,7 +72,8 @@ Standard ECMA-262
 5.1 Edition / June 2011
 }}
 {{JS Topics
-|JS Page Type=JS Function
+|JS Page Type=JS Method
+|Applies to=Array
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
