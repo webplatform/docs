@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the date and time value in the Date object.}}
@@ -18,7 +19,9 @@
 |Description=A numeric value representing the number of elapsed milliseconds since midnight, January 1, 1970 GMT.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -31,6 +34,7 @@
     s += d.toUTCString();
     return(s);                 //Return new setting.
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -38,15 +42,21 @@
 
 Setting the date and time with the '''setTime''' method is independent of the time zone.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getTime{{!}}getTime Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
