@@ -1,7 +1,7 @@
 {{Page_Title|Audio Impairment}}
 {{Flags
 |State=In Progress
-|Editorial notes=test
+|Editorial notes=Content needs reworking; body only appears in "Edit Source" mode.
 |Checked_Out=No
 }}
 {{API_Name}}
