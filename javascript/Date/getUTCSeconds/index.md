@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the seconds of a '''Date''' object using Universal Coordinated Time (UTC).}}
@@ -22,22 +23,29 @@
  document.write(date. getUTCSeconds());
  
  // Output: 0
+|LiveURL=
 }}
 }}
 {{Remarks_Section
-|Remarks=The required dateObj reference is a '''Date''' object. To get the number of seconds in local time, use the '''getSeconds''' method. 
+|Remarks=The required dateObj reference is a '''Date''' object. To get the number of seconds in local time, use the '''getSeconds''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getSeconds{{!}}getSeconds Method (Date)]]
 * [[javascript/Date/setSeconds{{!}}setSeconds Method (Date)]]
 * [[javascript/Date/setUTCSeconds{{!}}setUTCSeconds Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
