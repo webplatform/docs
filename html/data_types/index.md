@@ -19,7 +19,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=In HTML, the Data Types that are supported are used [[html/attributes attributes]] values within [[html/elements an HTML element]]. They are used to describe
+|Usage=In HTML, the Data Types that are supported are used [[html/attributes|attributes]] values within [[html/elements|an HTML element]]. They are used to describe
 
 # Colors (basic ones are "red", "blue", etc...)
 # Lengths
