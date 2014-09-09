@@ -1,15 +1,14 @@
 {{Page_Title|Content Research}}
 {{Flags
-|High-level issues=Missing Relevant Sections
+|State=In Progress
+|Editorial notes=Needs more content
 |Checked_Out=No
+|High-level issues=Missing Relevant Sections
 }}
 {{API_Name}}
-{{Summary_Section|User Research, also known as '''Content Inventory''' is the process of listing all the content (existing or to be created) of a website. The goals of such inventory are to gain better understanding of the website's topic and see how different pieces of information relate to each others and to users within the website.
-
-}}
+{{Summary_Section|User Research, also known as '''Content Inventory''' is the process of listing all the content (existing or to be created) of a website. The goals of such inventory are to gain better understanding of the website's topic and see how different pieces of information relate to each others and to users within the website.}}
 {{Concept_Page
-|Content=
-== What information to collect<ref name="info-to-collect">[http://www.fivesimplesteps.com/products/a-practical-guide-to-information-architecture A Practical Guide to Information Architecture], by Donna Spencer</ref> ==
+|Content=== What information to collect<ref name="info-to-collect">[http://www.fivesimplesteps.com/products/a-practical-guide-to-information-architecture A Practical Guide to Information Architecture], by Donna Spencer</ref> ==
 
 * '''Link name''' : the label used to name the page in the website's navigation
 * '''Page name''' : the main heading on the page
@@ -35,11 +34,19 @@ It is important for the Content Inventory to reflect the relationships and hiera
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Design, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
