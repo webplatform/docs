@@ -1,7 +1,7 @@
 {{Page_Title|Accessibility Basics}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=1 "Todo": citation
+|Editorial notes=1 "Todo": citation. Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility
 |Checked_Out=No
 |High-level issues=Copyright Issue
 |Content=Outdated
