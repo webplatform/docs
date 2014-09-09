@@ -19,7 +19,9 @@
 |Description=For the years 1900 through 1999, this is a numeric value equal to the year minus 1900. For dates outside that range, this is a 4-digit numeric value.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -31,7 +33,11 @@ To set the year of a Date object to 1997, call '''setYear(97)'''. To set the yea
 
 '''Note''' -- For JavaScript version 1.0, '''setYear''' uses a value that is the result of the addition of 1900 to the year value provided by numYear , regardless of the value of the year. For example, to set the year to 1899 numYear is -1 and to set the year 2000 numYear is 100.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -40,10 +46,12 @@ To set the year of a Date object to 1997, call '''setYear(97)'''. To set the yea
 * [[javascript/Date/getYear{{!}}getYear Method (Date)]]
 * [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]]
 * [[javascript/Date/setUTCFullYear{{!}}setUTCFullYear Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
