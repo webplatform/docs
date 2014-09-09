@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Browser bias.
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists JavaScript directives.  A directive is a token that can be inserted and would affect the rest of the execution flow in which it has been inserted.}}
@@ -45,6 +45,7 @@
 |}
 {{Topics | JS Basic}}
 {{See_Also_Section
+|Topic_clusters=Javascript
 |Manual_links=
 |External_links=
 |Manual_sections=
