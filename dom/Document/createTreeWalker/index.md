@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs compat table
+|Editorial notes=Compatibility table
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -80,10 +80,13 @@ function refresh()
     &lt;button onclick{{=}}"noMondays()"&gt;Lose Mondays&lt;/button&gt;
  &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=Use the '''createTreeWalker''' method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use [[dom/Document/createNodeIterator|'''createNodeIterator''']].
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -93,14 +96,9 @@ function refresh()
 |Relevant_changes=Section 1.2
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/Document/createNodeIterator|createNodeIterator]]</code>
 }}
@@ -111,4 +109,11 @@ function refresh()
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
