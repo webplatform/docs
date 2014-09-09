@@ -7,21 +7,30 @@
 |Content=Incomplete
 }}
 {{Standardization_Status}}
-{{Summary_Section|1. Colors (basic ones are "red", "blue", etc...
-2. Lengths (html page is split into <head> and <body>) 
-3. Links
-}}
+{{API_Name}}
+{{Summary_Section}}
 {{API_Listing|Query=[[Category:HTML]][[Category:Data Type]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
 {{Concept_Listing
+|Query=
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=In HTML, the Data Types that are supported are used [[html/attributes attributes]] values within [[html/elements an HTML element]]. They are used to describe
+
+# Colors (basic ones are "red", "blue", etc...)
+# Lengths
+# Links and relationships
+|Notes=
+|Import_Notes=
+}}
 {{See_Also_Section
 |Manual_links=http://www.w3.org/TR/html4/types.html
+|External_links=
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
