@@ -1,7 +1,7 @@
 {{Page_Title|Information architecture}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=In Progress
+|Editorial notes=More than one default form defined; content needs to be reworked from "Edit Source"
 |Checked_Out=No
 }}
 {{Standardization_Status}}
