@@ -46,7 +46,12 @@ Attributes are case-sensitive.
 ===Parameters===
 * ''sel'': A selector.
 * ''att'': Must be either an Identifier or a String.
-* "=": An equality expression, one of <code>~=</code>, <code>^=</code>, <code>$=</code>, <code>*=</code>
+* "=": An equality expression, one of 
+** Exactly equals <code>=</code>,
+** Contains (with word boundary) <code>~=</code>, 
+** Begins with <code>^=</code>, 
+** Ends with <code>$=</code>, 
+** Contains (without word boundary) <code>*=</code>
 
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.3
