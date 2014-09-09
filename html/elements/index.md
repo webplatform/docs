@@ -222,6 +222,3 @@ This is the list of HTML and related Elements from the past to the present.
 * [[svg/elements|List of SVG Elements]]
 
 [[Category:HTML]]
-
-
-[[Category:API_Listings]]
