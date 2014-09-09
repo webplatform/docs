@@ -1,7 +1,7 @@
 {{Page_Title|Audio Impairment}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Not a WPD topic.
+|State=In Progress
+|Editorial notes=test
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -10,7 +10,7 @@
 |Content=
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
