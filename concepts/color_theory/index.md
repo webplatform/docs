@@ -1,5 +1,7 @@
 {{Page_Title|Color theory}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -371,11 +373,17 @@ The four color schemes covered in this article are monochromatic, complementary,
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise Questions ===
  
 Note: the last two questions do not have "right" or "wrong"
