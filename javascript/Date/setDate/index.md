@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the numeric day-of-the-month value of the '''Date''' object using local time.}}
@@ -18,7 +19,9 @@
 |Description=A numeric value equal to the day of the month.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -29,6 +32,7 @@
  document.write(date);
  
  // Output (for the PST time zone): Sun Dec 30 00:00:00 PST 1990
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -38,7 +42,11 @@ If the value of numDate is greater than the number of days in the month, the dat
 
 The [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]] can be used to set the year, month, and day of the month.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -46,10 +54,12 @@ The [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]] can be used to
 * [[javascript/Date/setFullYear{{!}}setFullYear Method (Date)]]
 * [[javascript/Date/setMonth{{!}}setMonth Method (Date)]]
 * [[javascript/Date/setUTCDate{{!}}setUTCDate Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
