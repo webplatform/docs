@@ -1,5 +1,9 @@
 {{Page_Title|Mobile JavaScript best practices}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|What to know, what to watch out for to make your apps perform at their best.}}
 {{Concept_Page
@@ -27,11 +31,19 @@ Note: This material was originally published as part of the Nokia Developer Web 
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
