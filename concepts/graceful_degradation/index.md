@@ -1,5 +1,6 @@
 {{Page_Title|Graceful Degradation}}
 {{Flags
+|State=In Progress
 |Editorial notes=* Needs topics like "concept" or "methodology".
 * Code-Block in second example doesn't work as expected (some lines missing: <code>source</code> tags doen't show up)
 |Checked_Out=No
@@ -32,15 +33,22 @@ You need to create a fallback for IE6-8, that does not support HTML5Video. You'l
     <param name="movie" value="video.mp4" />
   </object>
 </video>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement W3C: Graceful degredation versus progressive enhancement]
 * [http://en.wikipedia.org/wiki/Fault_tolerance  Wikipedia: Fault tolerance]
+|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
