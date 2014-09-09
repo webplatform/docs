@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the milliseconds of a Date, using local time.}}
@@ -27,22 +28,29 @@
  // Output: 
  // 0
  // 5
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is a '''Date''' object. To get the number of milliseconds in Universal Coordinated Time (UTC), use the '''getUTCMilliseconds''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getUTCMilliseconds{{!}}getUTCMilliseconds Method (Date)]]
 * [[javascript/Date/setMilliseconds{{!}}setMilliseconds Method (Date)]]
 * [[javascript/Date/setUTCMilliseconds{{!}}setUTCMilliseconds Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
