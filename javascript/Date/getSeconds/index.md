@@ -50,8 +50,8 @@
 |Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Object
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
