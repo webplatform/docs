@@ -1,9 +1,10 @@
 {{Page_Title|Color schemes and mockups}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=This text appears exactly as it is, i.e. coming from an external source. Try to wikify it.
+|Checked_Out=No
 |High-level issues=Unreviewed Import
 |Content=Outdated
-|Checked_Out=No
-|Editorial notes=This text appears exactly as it is, i.e. coming from an external source. Try to wikify it.
 }}
 {{API_Name}}
 {{Summary_Section|Developing the look and feel of a website with fonts, colour, and graphics.}}
@@ -191,11 +192,17 @@ On the other hand, the progress toward a more compatible environment and an exci
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
  
 * What are the four main types of fonts?
