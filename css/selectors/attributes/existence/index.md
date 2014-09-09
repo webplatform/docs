@@ -47,11 +47,11 @@ Attributes are case-sensitive.
 * ''sel'': A selector.
 * ''att'': Must be either an Identifier or a String.
 * "=": An equality expression, one of 
-** Exactly equals <code>=</code>,
-** Contains (with word boundary) <code>~=</code>, 
-** Begins with <code>^=</code>, 
-** Ends with <code>$=</code>, 
-** Contains (without word boundary) <code>*=</code>
+** <code>=</code>  Exactly equals,
+** <code>^=</code>  Begins with, 
+** <code>$=</code>  Ends with, 
+** <code>~=</code>  Contains (with word boundary),
+** <code>*=</code>  Contains (without word boundary) 
 
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.3
