@@ -1,13 +1,14 @@
 {{Page_Title|General Programming Concepts}}
 {{Flags
-|High-level issues=Copyright Issue, Needs Topics, Needs Review
-|Content=Incomplete, Examples Needed
-|Checked_Out=Yes
+|State=In Progress
 |Editorial notes=This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.
 
 To explain, I have tried to break down the subjects by level of required background knowledge and essentially develop a syllabus. The first level of the bulleted list is intended to be the link to the concept page and the second level outlines the intended content of the associated concept page.
 
 As the first-level pages are written to cover the second-level topics, remove the second level topics that have been covered.
+|Checked_Out=Yes
+|High-level issues=Copyright Issue, Needs Topics, Needs Review
+|Content=Incomplete, Examples Needed
 }}
 {{Summary_Section|These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.}}
 {{Basic Page}}
@@ -204,7 +205,11 @@ As the first-level pages are written to cover the second-level topics, remove th
 * [[concepts/programming/variables in javascript|Variables in JavaScript]]
 * [[concepts/programming/style guides|Style Guides]]
 * [[concepts/programming/how do computers work|How do computers work?]]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|CSS, HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
