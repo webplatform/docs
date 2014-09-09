@@ -1,8 +1,10 @@
 {{Page_Title|Planning a website}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs more content
+|Checked_Out=No
 |High-level issues=Stub, Needs Topics
 |Content=Incomplete
-|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|Common steps to planning a website before you start coding.}}
@@ -87,11 +89,19 @@ Launching is half the process though. You need to fix the problems that will for
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Accessibility, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
