@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Attribute selector}}
 {{Flags
 |State=In Progress
 |Editorial notes=Needs summary, spec reference, standardization status, remove topic cluster flags
@@ -23,7 +23,7 @@
 ** <code>^=</code>  Begins with, 
 ** <code>$=</code>  Ends with, 
 ** <code>~=</code>  Contains (with word boundary),
-** <code>*=</code>  Contains (without word boundary) 
+** <code>*=</code>  Contains (without word boundary)
 }}
 {{Examples_Section
 |Not_required=No
