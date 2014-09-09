@@ -28,7 +28,7 @@
 |Import_Notes=
 }}
 {{See_Also_Section
-|Manual_links=http://www.w3.org/TR/html4/types.html
+|Manual_links=* [http://www.w3.org/TR/html4/types.html HTML 4.01 Specification, attributes section]
 |External_links=
 |Manual_sections=
 }}
