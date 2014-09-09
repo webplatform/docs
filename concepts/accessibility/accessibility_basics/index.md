@@ -1,4 +1,4 @@
-{{Page_Title|Accessibility Basics}}
+{{Page_Title|Accessibility basics}}
 {{Flags
 |State=Ready to Use
 |Editorial notes=1 "Todo": citation. Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility
