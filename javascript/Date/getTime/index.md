@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Gets the time value in milliseconds.}}
@@ -28,6 +29,7 @@
  document.write(Math.round(time / day) + " days from 1/1/1970 to 1/1/2001");
  
  // Output: 11323 days from 1/1/1970 to 1/1/2001
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -41,15 +43,21 @@ When doing multiple date and time calculations, you may want to define variables
 
 See Date and Time Calculations (Windows Scripting - JScript) for more information about how to use the '''getTime''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/setTime{{!}}setTime Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
