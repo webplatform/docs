@@ -26,12 +26,12 @@ Most POST requests are made by Web browsers, and respond with 303 (See Other) to
 === PUT ===
 PUT stores a resource at the given URI, creating it if necessary.
 
-Two PUT requests in succession have the same effect as one, so the method is _idempotent_ (safe to re-send). PUT requests should be sent with an <code>If-Match: ''etag''</code> so modifications are not inadvertently overwritten; or <code>If-None-Match: *</code> if the resource is to only be created (but not overwritten if it exists).
+Two PUT requests in succession have the same effect as one, so the method is ''idempotent'' (safe to re-send). PUT requests should be sent with an <code>If-Match: ''etag''</code> so modifications are not inadvertently overwritten; or <code>If-None-Match: *</code> if the resource is to only be created (but not overwritten if it exists).
 
 === DELETE ===
 A DELETE on a resource removes it from the server. Further GET requests will likely return 410 (Gone) or 404 (Not Found).
 
-Like PUT, two DELETE requests in succession have the same effect as one, and so the method is _idempotent_ (safe to re-send). DELETE requests should be paired with an <code>If-Match</code> header so that if the resource is re-created or modified, the modifications are not unknowingly deleted.
+Like PUT, two DELETE requests in succession have the same effect as one, and so the method is ''idempotent'' (safe to re-send). DELETE requests should be paired with an <code>If-Match</code> header so that if the resource is re-created or modified, the modifications are not unknowingly deleted.
 
 === CONNECT ===
 CONNECT effectively ends HTTP communications and starts two-way communications with the resource identified in the request-line (the URI, or server:port). It is a hop-by-hop method.
