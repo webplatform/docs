@@ -1,5 +1,7 @@
 {{Page_Title|Information architecture}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -11,11 +13,18 @@ This [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum T
 {{API_Listing|Query=[[Category:Information Architecture]]
 }}
 {{Concept_Listing
+|Query=
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
  
 * Look back at Figure 1 and try to develop a similar brainstorm for a website about a car (pick any current or imaginary car).
