@@ -1,5 +1,9 @@
 {{Page_Title|Mobile Web}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|A starting point for mobile web development, with links to resources and a collection of mobile development techniques.}}
 {{Concept_Page
@@ -21,12 +25,18 @@
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://www.w3.org/2013/02/mobile-web-app-state/ Standards for Web Applications on Mobile] on w3.org.
+|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
