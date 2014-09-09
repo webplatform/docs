@@ -51,7 +51,9 @@
 |Description=An integer from 0 to 999 that specifies the milliseconds.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -69,6 +71,7 @@
  document.write(dateString);
  
  // Output: Today's date is: &lt;date&gt;
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -80,7 +83,11 @@ The range of dates that can be represented in a Date object is approximately 285
 
 See Date and Time Calculations (Windows Scripting - JScript) for more information about how to use the Date object and related methods.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists properties of the '''Date Object'''.
@@ -269,9 +276,13 @@ The following table lists methods of the '''Date Object'''.
 | Returns the primitive value of the specified object.
 |}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
-|JS Page Type=JS Basic
+|JS Page Type=JS Object
 |Applies to=
 }}
 {{External_Attribution
