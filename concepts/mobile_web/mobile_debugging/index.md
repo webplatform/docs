@@ -1,5 +1,9 @@
 {{Page_Title|Mobile web debugging}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.}}
 {{Concept_Page
@@ -288,7 +292,7 @@ Brian Leroux on debugging mobile web apps: <br/> [http://brian.io/slides/debug-m
 Resources for finding information about web development, and how to help others: <br/> [http://movethewebforward.org/ movethewebforward.org]
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section}}
@@ -305,14 +309,22 @@ Resources for finding information about web development, and how to help others:
 }}
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Design, Mobile, Performance}}
 {{External_Attribution
 |Is_CC-BY-SA=No
