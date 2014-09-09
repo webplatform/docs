@@ -6,11 +6,24 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.}}
 {{CSS_Selector
-|Content=
+|Content====Syntax===
+<code>
+[''sel''=''att''] {...}
+</code>
+
+===Parameters===
+* ''sel'': The name of a tag property
+* ''att'': Must be either an Identifier or a String.
+* "=": An equality expression, one of 
+** <code>=</code>  Exactly equals,
+** <code>^=</code>  Begins with, 
+** <code>$=</code>  Ends with, 
+** <code>~=</code>  Contains (with word boundary),
+** <code>*=</code>  Contains (without word boundary) 
 }}
 {{Examples_Section
 |Not_required=No
@@ -34,30 +47,16 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes====Remarks===
-'''Note'''  Requires Windows Internet Explorer 7 or later.
-'''Note'''  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [[html/elements/!DOCTYPE|!DOCTYPE]] directive that specifies a standard-based document. For more information, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}125785 Defining Document Compatibility].
-Attributes are case-sensitive.
-|Import_Notes====Syntax===
-<code>
-[''sel''=''att''] {...}
-</code>
-
-===Parameters===
-* ''sel'': A selector.
-* ''att'': Must be either an Identifier or a String.
-* "=": An equality expression, one of 
-** <code>=</code>  Exactly equals,
-** <code>^=</code>  Begins with, 
-** <code>$=</code>  Ends with, 
-** <code>~=</code>  Contains (with word boundary),
-** <code>*=</code>  Contains (without word boundary) 
-
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.3
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/#attribute-selectors
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Attributes, Selectors
