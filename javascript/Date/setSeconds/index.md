@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the seconds value in the Date object using local time.}}
@@ -22,7 +23,9 @@
 |Description=A numeric value equal to the milliseconds value.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -34,6 +37,7 @@
     s += d.toLocaleString();
     return(s);                  //Return new setting.
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -45,17 +49,23 @@ If the value of an argument is greater than its range or is a negative number, o
 
 The setHours method can be used to set the hours, minutes, seconds, and milliseconds.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getSeconds{{!}}getSeconds Method (Date)]]
 * [[javascript/Date/getUTCSeconds{{!}}getUTCSeconds Method (Date)]]
 * [[javascript/Date/setUTCSeconds{{!}}setUTCSeconds Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
