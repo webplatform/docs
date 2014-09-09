@@ -10,7 +10,7 @@
 |Content=Numbers in the [http://www.w3.org/TR/css3-values/#numbers CSS definition] can accept ordinary decimal numbers: a series of digits optionally followed by a decimal point ('''.''') and more digits, with an optional exponent component (the latter is usually referred to as a scientific notation).
 
 ===Notes===
-*Due to being a new feature of the CSS Syntax module, the browser support for scientific notations (the optional exponent component) varies and therefore, it should be used with caution.
+*Due to being a new feature of the CSS Syntax module, the browser support for scientific notations (the optional exponent component) varies and therefore, it should be used with caution. Supporting browsers include Internet Explorer 11, Firefox 29 and Chrome 39.
 *Before the CSS 3 Syntax module was introduced, numbers in CSS differed from the [http://www.w3.org/TR/SVG11/types.html#DataTypeNumber SVG definition] which always allowed for numbers in attribute properties to be specified using scientific notation (such as '''1.3e-5''' for '''0.000013''').  If an SVG presentational attribute were specified using CSS styles, it must have conformed to the CSS data type.
 }}
 {{Examples_Section
