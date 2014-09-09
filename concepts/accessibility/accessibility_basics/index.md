@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|Accessibility Basics}}
 {{Flags
 |State=Ready to Use
 |Editorial notes=1 "Todo": citation
