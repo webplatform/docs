@@ -64,10 +64,7 @@ These rules include:
 *'''with''' statements are completely disallowed.
 {{TODO|Add the complete set of strict mode rules.}}
 {{See_Also_Section
-|Manual_sections={{TODO|Remove this section once a compatibility table is added.}}
-Compatibilty -
-
-
+|Manual_sections=
 {{{!}} class="wikitable"
 {{!}}-
 !Browser
