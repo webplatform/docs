@@ -1,7 +1,7 @@
 {{Page_Title|アクセシビリティ}}
 {{Flags
 |State=Not Ready
-|Editorial notes=No content
+|Editorial notes=No content; deletion candidate
 |Checked_Out=No
 }}
 {{API_Name}}
