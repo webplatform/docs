@@ -1,5 +1,9 @@
 {{Page_Title|High DPI Images for Variable Pixel Densities}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{API_Name}}
 {{Summary_Section|One of the features of today's complex device landscape is that there's a [http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density very wide range of screen pixel densities] available. Some devices feature very high resolution displays, while others straggle behind. Application developers need to support a range of pixel densities, which can be quite challenging.  The goal of web app developers is to '''serve the best quality images as efficiently as possible'''. This article will cover some useful techniques for doing this today and in the near future.}}
 {{Concept_Page
@@ -283,14 +287,22 @@ To summarize, my recommendations are as follows:
 * For situations where you're willing to sacrifice image quality, consider using heavily compressed 2x images.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Design, Mobile, Vendor Prefix}}
 {{External_Attribution
 |Is_CC-BY-SA=No
