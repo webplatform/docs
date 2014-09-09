@@ -1,5 +1,8 @@
 {{Page_Title|Bringing Accessibility Into Your Organization}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Stub/outline
+|Checked_Out=No
 |High-level issues=Stub
 }}
 {{API_Name}}
@@ -19,11 +22,19 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Accessibility}}
 {{External_Attribution
 |Is_CC-BY-SA=No
