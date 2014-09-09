@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).}}
@@ -18,7 +19,9 @@
 |Description=A numeric value equal to the day of the month.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -31,6 +34,7 @@
     s += d.toUTCString(); 
     return(s);                    // Return new setting.
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -40,17 +44,23 @@ If the value of numDate is greater than the number of days in the month stored i
 
 The '''setUTCFullYear''' method can be used to set the year, month, and day of the month.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/getDate{{!}}getDate Method (Date)]]
 * [[javascript/Date/getUTCDate{{!}}getUTCDate Method (Date)]]
 * [[javascript/Date/setDate{{!}}setDate Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
+|JS Page Type=JS Method
+|Applies to=Date
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
