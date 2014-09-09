@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Basically a stub, needs content
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -16,11 +18,19 @@ For a chair like for the Web, Designing is conceiving a product for its users. I
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
