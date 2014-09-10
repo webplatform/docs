@@ -1,22 +1,32 @@
 {{Page_Title|OAuth: an open standard for authentication}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs additional content; content only visible in "Edit Source" mode.
 |Checked_Out=No
 |High-level issues=Stub, Needs Review
 |Content=Examples Needed
 }}
 {{API_Name}}
 {{Summary_Section|Description of the OAuth standard.}}
-{{Concept_Page}}
+{{Concept_Page
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=Security
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|Security}}
 {{External_Attribution
