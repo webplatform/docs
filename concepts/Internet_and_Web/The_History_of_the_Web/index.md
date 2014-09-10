@@ -1,5 +1,8 @@
 {{Page_Title|The History of the Web}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
@@ -148,7 +151,11 @@ In this article we have looked at how the modern Internet was created as a resul
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -161,6 +168,7 @@ In this article we have looked at how the modern Internet was created as a resul
 * [http://webstandards.org/ The Web Standards Project], and their [http://www.webstandards.org/about/history/ history]
 * [http://www.alistapart.com/ A List Apart]
 * [http://www.csszengarden.com/ CSS Zen Garden]
+|External_links=
 |Manual_sections=== Exercise questions ==
  
 You might like to try researching further, by answering these questions:
