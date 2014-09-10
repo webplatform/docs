@@ -1,7 +1,7 @@
 {{Page_Title|MathML attributes}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Make consistent, import MathML attribute content or create them.
+|Editorial notes=Make consistent, import MathML attribute content, create appropriate SMW Form, and create pages based on it.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
