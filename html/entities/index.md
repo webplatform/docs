@@ -9,7 +9,7 @@
 {{Summary_Section|This article looks at the different codes that can be used to represent text characters when there is a need to escape them. Included is a list containing several characters and their codes.}}
 {{Markup_Structure
 |Content===Common HTML entities used for typography==
-{{#titleparts:{{PAGENAME}}|1}}
+
 === Introduction ===
  
 This article looks at the different codes that can be used to represent text characters when there is a need to escape them. There are a number of HTML entities that come in handy when there’s a need for first-rate typesetting. Many of those listed in the table below are useful only when used in foreign language copy (and copy written in specific dialects of English), so context should be taken into account before the choice is made to use them.
