@@ -1,8 +1,6 @@
-{{Page Title| SVG elements}}
+{{Page Title|SVG Elements}}
 <div style='float: right;background: white;border:1px dashed black;padding: 1ex;'>
-
 [[svg/elements_(alphabetical_order)|By alphabetical order]]
-
 </div>
 
 This is the list of SVG Elements sorted by topics.
