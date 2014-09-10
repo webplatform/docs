@@ -1,7 +1,7 @@
 {{Page_Title|ARIA reference}}
 {{Flags
-|State=
-|Editorial notes=
+|State=In Progress
+|Editorial notes=Needs generated child references instead of manual links.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -138,8 +138,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[aria/attributes/x-ms-aria-flowfrom|'''xmsAriaFlowFrom''']]
 {{!}}Specifies the id of the previous element in an alternative reading order.
 {{!}}}
-
-
 }}
 {{Topics}}
 {{External_Attribution
