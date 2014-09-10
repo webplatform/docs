@@ -1,14 +1,20 @@
 {{Page_Title|How browsers work: behind the scenes of modern web browsers}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Cleanup
-|Checked_Out=No
 }}
 {{Byline
+|Name=
+|URL=
 |Published=Aug. 5, 2011
 }}
 {{Summary_Section|This document gives an overview of the "internal browser operations and justifications behind development best practices."}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=By Tali Garsiel & Paul Irish
 
 ==Preface==
@@ -1108,7 +1114,11 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -1116,7 +1126,11 @@ Although the red div precedes the green one in the markup, and would have been p
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
