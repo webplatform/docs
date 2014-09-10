@@ -1,55 +1,19 @@
+{{Page_Title|ARIA reference}}
 {{Flags
+|State=
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
+{{Summary_Section}}
+{{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-{{Page_Title|ARIA reference}}
-{{Basic_Page}}
 {{Notes_Section
-|Import_Notes=
-===Members===
-{{{!}} class="wikitable"
-{{!}}-
-!Properties
-!Description
-{{!}}-
-{{!}}[[aria/attributes/aria-activedescendant|'''ariaActivedescendant''']]
-{{!}}Sets or retrieves the currently active child element.
-{{!}}-
-{{!}}'''ariaAtomic'''
-{{!}}
-{{!}}-
-{{!}}'''ariaAutocomplete'''
-{{!}}Indicates whether user input completion suggestions are provided.
-{{!}}-
-{{!}}[[aria/attributes/aria-busy|'''ariaBusy''']]
-{{!}}Sets or retrieves a value indicating whether a live region is finished updating.
-{{!}}-
-{{!}}[[aria/attributes/aria-checked|'''ariaChecked''']]
-{{!}}Sets or retrieves the checked state of this element.
-{{!}}-
-{{!}}[[aria/attributes/aria-controls|'''ariaControls''']]
-{{!}}Sets or retrieves the list of elements that are controlled by the current element.
-{{!}}-
-{{!}}[[aria/attributes/aria-describedby|'''ariaDescribedby''']]
-{{!}}Sets or retrieves a list of elements that describe the current object.
-{{!}}-
-{{!}}[[aria/attributes/aria-disabled|'''ariaDisabled''']]
-{{!}}Sets or retrieves the disabled state of this element.
-{{!}}-
-{{!}}'''ariaDropeffect'''
-{{!}}Indicates what functions can be performed when the dragged object is released on the drop target.
-{{!}}-
-{{!}}[[aria/attributes/aria-expanded|'''ariaExpanded''']]
-{{!}}Sets or retrieves the expanded state of this element.
-{{!}}-
-{{!}}[[aria/attributes/aria-flowto|'''ariaFlowto''']]
-{{!}}Specifies the id of the next element or elements in an alternative reading order. 
-
-
-
-This property is not supported for Metro style apps using JavaScript.
+|Usage=
+|Notes=
+|Import_Notes=This property is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}'''ariaGrabbed'''
 {{!}}Indicates the state of an element that's been selected in a drag-and-drop operation.
@@ -134,18 +98,13 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}Specifies the id of the previous element in an alternative reading order.
 {{!}}}
 
-===Related topics===
-;[[html/elements/a|'''a''']], '''abbr''', [[html/elements/acronym|'''acronym''']], '''address''', '''applet''', '''area''', '''article''', '''aside''', '''b''', '''base''', '''baseFont''', '''bdo''', '''bgSound''', '''big''', '''blockQuote''', '''body''', '''br''', '''button''', '''caption''', '''center''', '''cite''', '''code''', '''col''', '''colGroup''', '''comment''', '''custom''', '''dd''', '''del''', '''dfn''', '''dir''', '''div''', '''dl''', '''dt''', '''em''', '''embed''', '''fieldSet''', '''figcaption''', '''figure''', '''font''', '''footer''', '''form''', '''frame''', '''frameSet''', '''head''', '''header''', '''hgroup''', '''hn''', '''hr''', '''html''', '''i''', '''iframe''', '''img''', '''input type{{=}}button''', '''input type{{=}}checkbox''', '''input type{{=}}file''', '''input type{{=}}hidden''', '''input type{{=}}image''', '''input type{{=}}password''', '''input type{{=}}radio''', '''input type{{=}}reset''', '''input type{{=}}submit''', '''input type{{=}}text''', '''ins''', '''isIndex''', '''kbd''', '''label''', '''legend''', '''li''', '''link''', '''listing''', '''map''', '''mark''', '''marquee''', '''menu''', '''nav''', [[html/elements/nextID|'''nextID''']], '''noBR''', '''noFrames''', '''noScript''', '''object''', '''ol''', '''option''', '''p''', '''plainText''', '''pre''', '''q''', '''rt''', '''ruby''', '''s''', '''samp''', '''script''', '''section''', '''select''', '''small''', '''span''', '''strike''', '''strong''', [[css/cssom/style|'''style''']], '''sub''', '''sup''', [[html/elements/table|'''table''']], '''tBody''', '''td''', '''textArea''', '''tFoot''', '''th''', '''tHead''', '''title''', '''tr''', '''tt''', '''u''', '''ul''', '''var''', '''wbr''', '''xml''', '''xmp''':
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_aria\ie]:%20Accessible Rich Internet Applications (ARIA)%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
 
 }}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
