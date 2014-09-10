@@ -1,6 +1,7 @@
 {{Page_Title|WebRTC}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name|RTCPeerConnection}}
@@ -253,7 +254,7 @@ The [[#simpleRTCPeerConnectionExample|W3C code above]] shows a simplified exampl
 
 The code below is taken from the 'single page' WebRTC demo at [https://webrtc-demos.appspot.com/html/pc1.html webrtc-demos.appspot.com], which has local ''and'' remote RTCPeerConnection (and local and remote video) on one web page. This doesn't constitute anything very useful—caller and callee are on the same page—but it does make the workings of the RTCPeerConnection API a little clearer, since the RTCPeerConnection objects on the page can exchange data and messages directly without having to use intermediary signaling mechanisms.
 
-One gotcha: the optional second 'constraints' parameter of the <tt>RTCPeerConnection()</tt> constructor is different from the constraints type used by <tt>getUserMedia()</tt>: see [[%20http://www.w3.org/TR/webrtc/#constraints|w3.org/TR/webrtc/#constraints]] for more information.
+One gotcha: the optional second 'constraints' parameter of the <tt>RTCPeerConnection()</tt> constructor is different from the constraints type used by <tt>getUserMedia()</tt>: see [http://www.w3.org/TR/webrtc/#constraints w3.org/TR/webrtc/#constraints] for more information.
 
 In this example, <tt>pc1</tt> represents the local peer (caller) and <tt>pc2</tt> represents the remote peer (callee).
 
@@ -666,15 +667,22 @@ For more detailed information about cross-platform support for APIs such as getU
 **
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
 |Topic_clusters=Audio, Multimedia, Video, WebRTC
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|Audio, Media, Video, WebAudio, WebRTC}}
 {{External_Attribution
