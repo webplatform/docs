@@ -1,5 +1,7 @@
 {{Page_Title|The Web Standards Model — HTML, CSS and JavaScript}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -254,11 +256,16 @@ Aside from getting the satisfaction of a job well done, web standards developmen
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=[http://www.codecademy.com/tracks/web Introduction to HTML & CSS] - a practical course on the free e-Learning platform [http://www.codecademy.com Codecademy].
 |Manual_sections==== Exercise questions ===
  
