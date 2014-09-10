@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Incomplete, Compatibility Incomplete
 }}
@@ -11,7 +12,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -24,6 +27,7 @@ function testFunction(){
     return testvar;
 }
 intvar = testFunction();
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following code causes a syntax error because in strict mode all variables must be declared with <code>var</code>. Even though the strict mode directive (<code>use strict;</code>) is only added to the function, the whole code breaks because that function does not adhere to the strict mode rules.
@@ -35,6 +39,7 @@ intvar = testFunction();
    return testvar;
 }
 var hello = true;
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following code _does not_ cause a syntax error, even though the variable '''intvar''' variable is not declared with <code>var</code>, because the strict mode is scoped to the function only, while the non conformant code is found in a different scope (the global scope).
@@ -50,10 +55,17 @@ var hello = true;
 // function). Since the directive is scoped to the function and not to the
 // global scope (in which this code operates), this code runs normally.
 intvar = 1;
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 When the expression <code>"use strict";</code> is placed at the start of a script or a function body, the code contained in it is parsed under stricter rules than what the default JavaScript language allows.
@@ -64,46 +76,9 @@ These rules include:
 *'''with''' statements are completely disallowed.
 {{TODO|Add the complete set of strict mode rules.}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections=
-{{{!}} class="wikitable"
-{{!}}-
-!Browser
-!Supported versions
-{{!}}-
-{{!}}Internet Explorer
-{{!}}10 and higher
-{{!}}-
-{{!}}Chrome
-{{!}}13 and higher
-{{!}}-
-{{!}}Firefox
-{{!}}4 and higher
-{{!}}-
-{{!}}Opera
-{{!}}11.6 and higher
-{{!}}-
-{{!}}Safari
-{{!}}6 and higher
-{{!}}-
-{{!}}Mobile Safari
-{{!}}5.1 and higher
-{{!}}-
-{{!}}Android browser
-{{!}}3 and higher
-{{!}}-
-{{!}}Opera Mobile
-{{!}}11.5 and higher
-{{!}}-
-{{!}}Internet Explorer Mobile
-{{!}}10 and higher
-{{!}}-
-{{!}}Firefox for Android
-{{!}}4 and higher
-{{!}}-
-{{!}}Chrome for Android
-{{!}}18 and higher
-{{!}}}
-*Safari 5 - 5.1 partially supports this feature.
 }}
 {{JS Topics
 |JS Page Type=JS Basic
