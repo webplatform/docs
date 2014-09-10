@@ -1,5 +1,7 @@
 {{Page_Title|How does the Internet work?}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -97,13 +99,14 @@ We will not be covering dynamic languages any further in this course, but I have
  
 That is it for the behind-the-scenes tour of how the Internet works. This article really just scratches the surface of a lot of the topics covered, but it is useful as it puts them all in perspective, showing how they all relate and work together. There is still a lot left to learn about the actual language syntax that makes up HTML, CSS and JavaScript, and this is where we will go to next — the next article focuses on the HTML, CSS and JavaScript “web standards” model of web development, and takes a look at web page code.
 
-[[Category:Internet]]
+
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes==== Exercise questions ===
  
 * Provide a brief definition for HTML and HTTP and explain the difference between the two.
@@ -111,11 +114,16 @@ That is it for the behind-the-scenes tour of how the Internet works. This articl
 * Have a look around the Internet for about 5–10 minutes and try to find some different types of content—plain text, images, HTML, dynamic pages such as PHP and .NET (.aspx) pages, PDFs, word documents, Flash movies etc. Access some of these and have a think about how your computer displays them to you.
 * What is the difference between a static page and a dynamic page?
 * Find a list of HTTP error codes, list 5 of them, and explain what each one means.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
