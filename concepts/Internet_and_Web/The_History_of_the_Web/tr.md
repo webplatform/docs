@@ -1,6 +1,6 @@
 {{Page_Title|Web'in Tarihi}}
 {{Flags
-|State=Unreviewed
+|State=Not Ready
 |Editorial notes=Bu yazının çevirisi tamamlanmadı. Yazının gözden geçirilmesi gerekli.
 Not in English.
 |Checked_Out=No
