@@ -10,7 +10,7 @@
 {{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
-}
+
 {{Notes_Section
 |Usage=
 |Notes=
@@ -99,7 +99,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}-
 {{!}}[[aria/attributes/x-ms-aria-flowfrom|'''xmsAriaFlowFrom''']]
 {{!}}Specifies the id of the previous element in an alternative reading order.
-{{!}}}
+{{!}}
 }}
 {{Topics}}
 {{External_Attribution
