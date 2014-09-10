@@ -12,26 +12,6 @@
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Content=The ''noscript'' element should not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=You must disable javascript for this to work.
-|Code=&lt;script&gt;
-    /* Do stuff with JavaScript */
-&lt;/script&gt;
-&lt;noscript&gt;
-For full functionality of this site it is necessary to enable JavaScript. Here are the &lt;a href="http://www.enable-javascript.com/" &gt;instructions how to enable JavaScript in your web browser&lt;/a&gt;.
-&lt;/noscript&gt;
-|LiveURL=https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=Browsers that don't support the noscript tag will render the content regardless of whether the javascript is supported
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.3.1
 
 
 ===HTML information===
@@ -46,9 +26,9 @@ For full functionality of this site it is necessary to enable JavaScript. Here a
 
 ===Members===
 The '''noScript''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
+* [[#Events]]
+* [[#Methods]]
+* [[#Properties]]
 
 
 ====Events====
@@ -377,6 +357,25 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}Gets or sets one or more values  that specify the intermediate property values to be used during a transition on a set of corresponding object properties  identified in the [[css/properties/transition-property{{!}}'''transition-property''']] property.
 {{!}}}
  
+}}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=HTML
+|Description=You must disable javascript for this to work.
+|Code=&lt;script&gt;
+    /* Do stuff with JavaScript */
+&lt;/script&gt;
+&lt;noscript&gt;
+For full functionality of this site it is necessary to enable JavaScript. Here are the &lt;a href="http://www.enable-javascript.com/" &gt;instructions how to enable JavaScript in your web browser&lt;/a&gt;.
+&lt;/noscript&gt;
+|LiveURL=https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html
+}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=Browsers that don't support the noscript tag will render the content regardless of whether the javascript is supported
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
