@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to Graphic Design & Art}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Basically an outline; text poorly written.
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -42,12 +44,18 @@ NOTE: This is meant to be step toward explaining design and art. Not UI, not App
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://www.aiga.org/inspiration/ American Institution of Graphic Arts (AIGA)]
+|Manual_sections=
 }}
 {{Topics|UI, Usability}}
 {{External_Attribution
