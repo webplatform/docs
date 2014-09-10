@@ -1,6 +1,7 @@
 {{Page_Title|color}}
 {{Flags
-|State=Ready to Use
+|State=In Progress
+|Editorial notes=Merge with css/properties/color
 |Checked_Out=No
 }}
 {{Summary_Section|This page explains the different mechanisms available in HTML and CSS to specify colors.}}
@@ -166,9 +167,15 @@ You can set the opacity of an entire element using the [[css/properties/opacity|
 
 
 
+
+
 {{Notes_Section}}
 {{Topics}}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
