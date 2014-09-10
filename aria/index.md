@@ -10,10 +10,12 @@
 {{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
+}
 {{Notes_Section
 |Usage=
 |Notes=
 |Import_Notes=This property is not supported for Metro style apps using JavaScript.
+{{{!}} class="wikitable"
 {{!}}-
 {{!}}'''ariaGrabbed'''
 {{!}}Indicates the state of an element that's been selected in a drag-and-drop operation.
@@ -21,9 +23,10 @@
 {{!}}[[aria/attributes/aria-haspopup|'''ariaHaspopup''']]
 {{!}}Sets or retrieves a value indicating whether
 this element may display a pop-up window.
-
+{{!}}
 
 This property is not supported for Metro style apps using JavaScript.
+{{{!}} class="wikitable"
 {{!}}-
 {{!}}[[aria/attributes/aria-hidden|'''ariaHidden''']]
 {{!}}Sets or retrieves the hidden state of this element.
@@ -97,8 +100,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[aria/attributes/x-ms-aria-flowfrom|'''xmsAriaFlowFrom''']]
 {{!}}Specifies the id of the previous element in an alternative reading order.
 {{!}}}
-
-
 }}
 {{Topics}}
 {{External_Attribution
