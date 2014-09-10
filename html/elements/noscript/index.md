@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Add Category, Parent and Children information.
+|Editorial notes=Add Category, Parent and Children information. 
+
+See to make the listing of events, methods etc to be generated automatically instead of being hardcoded.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
