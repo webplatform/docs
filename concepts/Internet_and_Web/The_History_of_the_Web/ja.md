@@ -1,5 +1,7 @@
 {{Page_Title|Webの歴史}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Not in English? Text seriously damaged.
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -158,7 +160,11 @@ CSS の発展については、HTML ほど息も長く、また賛否両論あ�
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -171,6 +177,7 @@ CSS の発展については、HTML ほど息も長く、また賛否両論あ�
 * [http://webstandards.org/ The Web Standards Project], and their [http://www.webstandards.org/about/history/ history]
 * [http://www.alistapart.com/ A List Apart]
 * [http://www.csszengarden.com/ CSS Zen Garden]
+|External_links=
 |Manual_sections=== 課題 ==
 
 もっと調べたいと思った方は、次の問題に答えてみましょう。
