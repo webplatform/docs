@@ -13,6 +13,16 @@ When a designer conceives a chair, the designer needs to think about the technic
 * If the chair is the most comfortable in the world but it looks like a torture device to sit on it, who would even try it? The chair that is designed must have a coherent look and feel: it should offer a positive experience to its users.
 
 For a chair like for the Web, Designing is conceiving a product for its users. It is a process where technical constraints, aesthetic and usability meet in order to serve a purpose for its targets. Design must focus on existing and future users. Designing for the WEB is not just about graphics/aesthetics, rather it applies to all the overarching work going towards ensuring that the Web project meets its purpose for its target audience.
+
+
+
+> Grid
+> Legibility
+> Layout
+> Typography
+> Animation
+> Graphics
+
 }}
 {{Examples_Section
 |Not_required=Yes
