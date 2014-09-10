@@ -1,17 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|State=Not Ready
 |Editorial notes={{Editorial/Move_Candidate
 | Probably should be under HTML5 canvas element. See [http://www.w3.org/html/wg/drafts/html/master/single-page.html#the-canvas-element HTML5 specification].
 }}
-
+|Checked_Out=No
+|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=contextId
 |Data type=any
 |Description=The identifier (ID) of the type of canvas to create.
@@ -28,6 +30,7 @@ The context object.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following  code example uses '''getContext''' to get a context to use to show a filled rectangle and filled text.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;head&gt;
@@ -53,9 +56,11 @@ function draw()
       &lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''getContext'''  method returns  null if  the ''contextId''  value is not supported.
 |Import_Notes====Syntax===
@@ -65,14 +70,9 @@ The '''getContext'''  method returns  null if  the ''contextId''  value is not s
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[canvas/objects/canvas|canvas]]</code>
 }}
@@ -83,4 +83,11 @@ The '''getContext'''  method returns  null if  the ''contextId''  value is not s
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
