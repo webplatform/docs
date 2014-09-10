@@ -1,8 +1,9 @@
 {{Page_Title|Proxy-based browsers}}
 {{Flags
-|High-level issues=Stub, Deletion Candidate
+|State=Not Ready
+|Editorial notes=This is not a web development concept topic, and will attract vendor spam. Deletion candidate.
 |Checked_Out=No
-|Editorial notes=This is not a web development concept topic, and will attract vendor spam.
+|High-level issues=Stub, Deletion Candidate
 }}
 {{API_Name}}
 {{Summary_Section|This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.}}
@@ -36,11 +37,19 @@ To make a request:
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Mobile}}
 {{External_Attribution
 |Is_CC-BY-SA=No
