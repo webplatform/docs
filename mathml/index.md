@@ -1,7 +1,9 @@
 {{Page_Title|MathML}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken links
+|State=Unreviewed
+|Editorial notes=Fix broken links.
+
+NOTE: Maybe we should not put "almost ready" or ready to use if not ALL subpages aren’t on a better state. Reverted to Unreviewed.
 |Checked_Out=No
 |High-level issues=Stub
 |Content=Incomplete, Compatibility Incomplete, Examples Needed
@@ -111,7 +113,11 @@ MathML is worked on by the MathML working group [http://www.w3.org/Math/ see the
 
 
 {{Special:PrefixIndex/mathml/}}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|MathML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
