@@ -1,8 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article explains client and server-side techniques for detecting browser capabilities.}}
 {{Guide
 |Content=Device detection enables developers to identify device properties and characteristics in order to determine the best content, layout, mark-up or application to serve to a given device. These characteristics include screen size, browser type and version, media support, and the level of support for CSS, HTML and JavaScript.
@@ -63,7 +69,11 @@ Server-side and client-side detection techniques can be used together to enable 
 
 Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/device-and-browser-detection.html Device and browser detection]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -73,27 +83,40 @@ Note: This material was originally published as part of the Nokia Developer Web 
 |Android_supported=Yes
 |Android_version=Now
 |Android_prefixed_supported=Yes
+|Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=
 |Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
 |Firefox_mobile_version=Now
 |Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
+|IE_mobile_version=
 |IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
 |Opera_mobile_version=Now
 |Opera_mobile_prefixed_supported=Yes
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
+|Opera_mini_version=
 |Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
 |Safari_mobile_version=Now
 |Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=http://www.developer.nokia.com/Community/Wiki/index.ph/Device_and_feature_detection_on_the_mobile_web
 
 http://mobiforge.com/developing/story/lightweight-device-detection-php
@@ -110,6 +133,7 @@ http://www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/
 
 To access screensize with JS is tricky in mobile:
 http://tripleodeon.com/2011/12/first-understand-your-screen/
+|Manual_sections=
 }}
 {{Topics|Mobile}}
 {{External_Attribution
