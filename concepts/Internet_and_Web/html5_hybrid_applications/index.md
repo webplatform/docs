@@ -1,5 +1,7 @@
 {{Page_Title|HTML5 hybrid applications}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -40,7 +42,11 @@ Hybrid apps do have some drawbacks compared to native apps or web apps, and you 
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -51,6 +57,7 @@ Hybrid apps do have some drawbacks compared to native apps or web apps, and you 
 <li>[http://www.appcelerator.com/platform/titanium-sdk/ Titanium]
 <li>[http://phonegap.com/app/feature Featured PhoneGap apps]
 <li>[http://www.mikedellanoce.com/2012/09/10-tips-for-getting-that-native-ios.html 10 tips for getting that native iOS feel with PhoneGap]
+|Manual_sections=
 }}
 {{Topics|Mobile}}
 {{External_Attribution
