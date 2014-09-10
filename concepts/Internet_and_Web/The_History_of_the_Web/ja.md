@@ -1,7 +1,7 @@
 {{Page_Title|Webの歴史}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Not in English? Text seriously damaged.
+|Editorial notes=Not in English? Text seriously damaged; deletion candidate.
 |Checked_Out=No
 }}
 {{API_Name}}
