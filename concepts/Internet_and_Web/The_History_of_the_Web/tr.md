@@ -1,7 +1,10 @@
 {{Page_Title|Web'in Tarihi}}
 {{Flags
-|Content=Incomplete, Cleanup
+|State=Unreviewed
 |Editorial notes=Bu yazının çevirisi tamamlanmadı. Yazının gözden geçirilmesi gerekli.
+Not in English.
+|Checked_Out=No
+|Content=Incomplete, Cleanup
 }}
 {{API_Name}}
 {{Summary_Section|<blockquote> 
@@ -135,7 +138,11 @@ In this article we’ve looked at how the modern Internet was created as a resul
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
@@ -148,6 +155,7 @@ In this article we’ve looked at how the modern Internet was created as a resul
 * [http://webstandards.org/ The Web Standards Project] ve[http://www.webstandards.org/about/history/ tarihi]
 * [http://www.alistapart.com/ A List Apart]
 * [http://www.csszengarden.com/ CSS Zen Garden]
+|External_links=
 |Manual_sections=== Çalışma Soruları ==
  
 Ya da aşağıdaki soruları cevaplayarak daha fazlasını araştırmak isteyebilirsiniz:
