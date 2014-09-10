@@ -1,6 +1,7 @@
 {{Page_Title|HTML Elements}}
 {{Flags
-|State=Not Ready
+|State=Unreviewed
+|Editorial notes=Make sure that all child element pages are ready before setting a status
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -11,11 +12,20 @@
 |List_all_subpages=No
 }}
 {{Concept_Listing
+|Query=
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
-{{See_Also_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|DOM, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
