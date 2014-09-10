@@ -1,5 +1,7 @@
 {{Page_Title|Introduction to MIME types}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{API_Name}}
@@ -187,11 +189,19 @@ There are several steps you can take to determine the correct MIME type value to
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Web Services}}
 {{External_Attribution
 |Is_CC-BY-SA=No
