@@ -6,7 +6,7 @@
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Summary_Section}}
+{{Summary_Section|Listing page for ARIA members.}}
 {{Basic Page}}
 {{Standardization_Status|}}
 {{API_Name}}
