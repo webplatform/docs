@@ -1,22 +1,25 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
+|State=Not Ready
 |Editorial notes={{Editorial/Move_Candidate
 | Probably should be under HTML5 canvas element. See [http://www.w3.org/html/wg/drafts/html/master/single-page.html#the-canvas-element HTML5 specification].
 }}
-
+|Checked_Out=No
+|High-level issues=Move Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
+|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=type
 |Data type=any
 |Description=The standard MIME type for  the image format to return. If  you do not specify this parameter, the default  value is a PNG format image.
 |Optional=No
 }}{{Method Parameter
+|Index=
 |Name=jpegquality
 |Data type=any
 |Description=The quality level of a JPEG image in the range of 0.0 to 1.0.
@@ -33,6 +36,7 @@ The image data.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following code  example draws some graphics on a canvas and then uses '''toDataURL''' to make an image  that  is assigned to an '''img''' object.
 |Code=&lt;!DOCTYPE html&gt;&lt;html&gt;
 &lt;head&gt;
@@ -76,9 +80,11 @@ function putImage()
       &lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Typical values for  the ''type''  parameter are <code>image/png</code> or <code>image/jpg</code>.
 |Import_Notes====Syntax===
@@ -88,14 +94,9 @@ Typical values for  the ''type''  parameter are <code>image/png</code> or <code>
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[canvas/objects/canvas|canvas]]</code>
 }}
@@ -106,4 +107,11 @@ Typical values for  the ''type''  parameter are <code>image/png</code> or <code>
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
