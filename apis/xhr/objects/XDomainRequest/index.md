@@ -1,21 +1,24 @@
+{{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs summary, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status|}}
+{{Standardization_Status}}
 {{API_Name}}
+{{Summary_Section}}
 {{API_Object
 |Subclass_of=
+|Overview=
 }}
-{{Topics|DOM}}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single_Example
+|Examples={{Single Example
+|Language=HTML
 |Description=The following example sends an empty message to a server of your choice. You can select a [[apis/xhr/properties/timeout|'''timeout''']] value (default 10000 msec) when sending the request. When you click the '''Get''' button, the script creates a '''XDomainRequest''', assigns event handlers, and initiates the request. Script alerts indicate how the request is progressing. Click the '''Stop''' button to cancel the request, or the '''Read''' button to view additional properties of the response, such as '''contentType''' and '''responseText'''.
-|LiveURL=
-|Code=
-      
-&lt;html&gt;
+|Code=&lt;html&gt;
 &lt;script type{{=}}"text/javascript"&gt;
     var xdr;
     function readdata()
@@ -87,11 +90,12 @@
     &lt;div id{{=}}"dResponse"&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-                
-}}}}
+|LiveURL=
+}}
+}}
 {{Notes_Section
-|Notes=
-===Remarks===
+|Usage=
+|Notes====Remarks===
 The '''XDomainRequest''' object is a safe, reliable, and lightweight data service that allows script on any document to anonymously connect to any server and exchange data. Developers can use the '''XDomainRequest''' object when cross-site security is not an issue.
 '''Security Warning:  '''
 Cross-domain requests ("XDRs") are anonymous to protect user data. This means that servers cannot easily determine who is requesting data. To protect user privacy, respond with cross-domain data that is neither sensitive nor personally identifiable. To help prevent intranet data from being leaked to malicious Internet sites, we discourage intranet sites from making XDR data available.
@@ -158,90 +162,22 @@ Once a connection is opened, the '''send''' method transmits data strings to the
  xdr.send();     
                  </code>
 |Import_Notes=
-===Standards information===
-There are no standards that apply here.
-
-===Members===
-The '''XDomainRequest''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Events====
-The '''XDomainRequest''' object has these events.
-{| class="wikitable"
-|-
-!Event
-!Description
-|-
-|[[apis/xhr/events/error|'''onerror''']]
-|Raised when there is an error that prevents the completion of the cross-domain request.
-|-
-|[[apis/xhr/events/load|'''onload''']]
-|Raised when the object has been completely received from the server.
-|-
-|[[apis/xhr/events/progress|'''onprogress''']]
-|Raised when the browser starts receiving data from the server.
-|-
-|[[apis/xhr/events/timeout|'''ontimeout''']]
-|Raised when there is an error that prevents the completion of the request.
-|}
- 
-
-====Methods====
-The '''XDomainRequest''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[dom/methods/abort|'''abort''']]
-|The abort method terminates a pending '''send'''.
-|-
-|'''abort'''
-|Cancels the current HTTP request.
-|-
-|[[apis/xhr/methods/open (XDomainRequest)|'''open (XDomainRequest)''']]
-|Creates a connection with a domain's server.
-|-
-|[[apis/xhr/methods/send (XDomainRequest)|'''send (XDomainRequest)''']]
-|Transmits a data string to the server for processing.
-|}
- 
-
-====Properties====
-The '''XDomainRequest''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/constructor|'''constructor''']]
-|Returns a reference to the constructor of an object.
-|-
-|[[apis/xhr/properties/contentType|'''contentType''']]
-|Gets the [http://go.microsoft.com/fwlink/?LinkId{{=}}251492 Content-Type] property in the HTML request or response header.
-|-
-|'''responseText'''
-|Retrieves the response body as a string.
-|-
-|[[apis/xhr/properties/timeout|'''timeout''']]
-|Gets or sets the time-out value.
-|}
- 
-
+}}
+{{Related_Specifications_Section
+|Specifications=
 }}
 {{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
 *<code>window</code>
 *<code>XMLHttpRequest</code>
 }}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
