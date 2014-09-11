@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.}}
 {{API_Object
+|Subclass_of=
 |Overview=The '''XMLHttpRequest''' property is available on the '''window''' object.
  <code class="language-javascript">var xhr {{=}} new XMLHttpRequest();</code>
 With the '''XMLHttpRequest''' object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
@@ -27,6 +30,7 @@ var xhr {{=}} new XMLHttpRequest();
 xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
 xhr.onreadystatechange {{=}} handler;
 xhr.send();
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=This script demonstrates how to access resources that sits on a different domain. 
@@ -77,6 +81,7 @@ function makeCorsRequest() {
 
   xhr.send();
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -85,17 +90,35 @@ function makeCorsRequest() {
 Same-origin requests are subject to the browser's same-origin policy: http://en.wikipedia.org/wiki/Same_origin_policy  This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
 
 Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS,  http://www.w3.org/TR/cors/). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=Cross-Origin Resource Sharing
 |URL=http://www.w3.org/TR/cors/
 |Status=W3C Candidate Recommendation 29 January 2013
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=XHR
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|XHR}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN, HTML5Rocks
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/cors/
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -157,15 +180,4 @@ Requests that go across origins (for example, a request from originA.com to orig
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=XHR
-}}
-{{Topics|XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN, HTML5Rocks
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/cors/
 }}
