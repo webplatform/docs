@@ -11,32 +11,7 @@
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=In the following code example, the ellipse element is used to draw a skyblue-colored circle inside an inline SVG element.
-Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see a skyblue ellipse.
-
-It should look like this:
-|Code=<syntaxhighlight lang="xml">
-<!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <svg width="400" height="400">
-          <ellipse cx="150" cy="100" rx="100" ry="75" fill="skyblue" />
-        </svg>
-      </body>
-    </html>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes====Standards information===
+|Content====Standards information===
 
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.3
 
@@ -90,17 +65,31 @@ The '''SVGEllipseElement''' object has these properties:
 *[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 }}
+{{Examples_Section
+|Not_required=No
+|Examples={{Single Example
+|Language=Other
+|Description=In the following code example, the ellipse element is used to draw a skyblue-colored circle inside an inline SVG element.
+|Code=        &lt;svg width="400" height="400"&gt;
+          &lt;ellipse cx="150" cy="100" rx="100" ry="75" fill="skyblue" /&gt;
+        &lt;/svg&gt;
+|LiveURL=http://code.webplatform.org/gist/e44f667a01785f7a116f
+}}
+}}
+{{Notes_Section
+|Usage=
+|Notes====Remarks===
+In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -108,4 +97,11 @@ The '''SVGEllipseElement''' object has these properties:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
