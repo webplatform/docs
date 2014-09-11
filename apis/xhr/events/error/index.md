@@ -1,24 +1,28 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The '''onerror''' event occurs when the request could not be completed because of an error.}}
 {{Event
 |Event_applies_to=dom/Element
-|Interface=dom/events/error
-|Target=dom/Element
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
+|Interface=dom/events/error
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=JavaScript
 |Description=Setting the onerror property.
 |Code=&lt;script type{{=}}"text/javascript"&gt;
 function err()
@@ -27,20 +31,17 @@ function err()
 }
 ...
 xdr.onerror {{=}} err;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The document can respond to the error, but there is no way to determine the cause or nature of the error.
 The '''onerror''' event does not occur when the [[apis/xhr/events/timeout|'''ontimeout''']] event occurs.
 To invoke this event, do one of the following:
 *Cannot invoke.
-The '''onerror''' event occurs when the request could not be completed because of an error.
-|Import_Notes====Syntax===
-===Standards information===
-There are no standards that apply here.
-
-===Event handler parameters===
+|Import_Notes====Event handler parameters===
 This method has no parameters.
 }}
 {{Related_Specifications_Section
@@ -54,6 +55,8 @@ This method has no parameters.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>XDomainRequest</code>
 *<code>Reference</code>
