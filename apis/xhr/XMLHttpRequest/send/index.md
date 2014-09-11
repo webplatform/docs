@@ -10,7 +10,7 @@
 {{Summary_Section|Initiates the request defined by the XMLHttpRequest.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=data
 |Data type=any
 |Description=Object that specifies the body of the message being sent with the request. May be any one of '''ArrayBuffer''', '''Blob''', '''Document''', '''DOMString''', or '''FormData''' object types.
