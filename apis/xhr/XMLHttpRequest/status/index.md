@@ -1,8 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Missing Relevant Sections, Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example. Needs a list of HTTP return codes: 200, 301, 404, 500, etc.
 |Checked_Out=No
-|Editorial notes=Needs a list of HTTP return codes: 200, 301, 404, 500, etc.
+|High-level issues=Missing Relevant Sections, Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -10,19 +11,41 @@
 {{API_Object_Property
 |Property_applies_to=apis/xhr/XMLHttpRequest
 |Read_only=Yes
+|Example_object_name=
+|Return_value_name=
 |Javascript_data_type=unsigned short
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, XHR}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -84,13 +107,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
