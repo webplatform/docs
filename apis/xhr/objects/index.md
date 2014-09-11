@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Not Ready
+|Editorial notes=Listing page with no children.
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -9,13 +11,20 @@
 |List_all_subpages=Yes
 }}
 {{Concept_Listing
+|Query=
 |Use_page_title=No
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=<subpages />
+|Usage=
+|Notes=
+|Import_Notes=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
