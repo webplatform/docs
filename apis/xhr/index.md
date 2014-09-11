@@ -1,7 +1,7 @@
 {{Page_Title|XMLHttpRequest (XHR) API}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Almost Ready
+|Editorial notes=Needs correct listing of child pages.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
