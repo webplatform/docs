@@ -10,7 +10,7 @@
 {{Summary_Section|Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=header
 |Data type=String
 |Description=String that specifies the response header name.
