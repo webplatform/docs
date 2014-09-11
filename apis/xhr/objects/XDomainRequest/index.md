@@ -17,7 +17,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following example sends an empty message to a server of your choice. You can select a [[apis/xhr/properties/timeout|'''timeout''']] value (default 10000 msec) when sending the request. When you click the '''Get''' button, the script creates a '''XDomainRequest''', assigns event handlers, and initiates the request. Script alerts indicate how the request is progressing. Click the '''Stop''' button to cancel the request, or the '''Read''' button to view additional properties of the response, such as '''contentType''' and '''responseText'''.
+|Description=The following example sends an empty message to a server of your choice. You can select a [[apis/xhr/events/timeout|'''timeout''']] value (default 10000 msec) when sending the request. When you click the '''Get''' button, the script creates a '''XDomainRequest''', assigns event handlers, and initiates the request. Script alerts indicate how the request is progressing. Click the '''Stop''' button to cancel the request, or the '''Read''' button to view additional properties of the response, such as '''contentType''' and '''responseText'''.
 |Code=&lt;html&gt;
 &lt;script type{{=}}"text/javascript"&gt;
     var xdr;
