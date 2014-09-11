@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -17,6 +20,7 @@
 *HEADERS_RECEIVED (2): [[apis/xhr/XMLHttpRequest/send|'''send()''']] has been called, and headers and status are available.
 *LOADING (3): Downloading; [[apis/xhr/XMLHttpRequest/responseText|'''responseText''']] holds partial data.
 *DONE (4): The operation is complete.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,18 +45,35 @@ var xhr {{=}} new XMLHttpRequest();
 xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
 xhr.onreadystatechange {{=}} handler;
 xhr.send();
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=You cannot call the '''responseText''' property to obtain partial results ('''readyState''' {{=}} 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received.
 See [[apis/xhr/XMLHttpRequest/readystatechange|'''onreadystatechange''']].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, XHR}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -114,13 +135,4 @@ See [[apis/xhr/XMLHttpRequest/readystatechange|'''onreadystatechange''']].
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
