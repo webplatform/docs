@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,16 +10,19 @@
 {{Summary_Section|Initializes an XMLHttpRequest.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=method
 |Data type=String
 |Description=Specifies the HTTP method used to open the connection, such as GET, POST, or HEAD. This parameter is not case-sensitive.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=url
 |Data type=String
 |Description=Specifies either an absolute or relative URL of the XML data or server-side Web services.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=async
 |Data type=Boolean
 |Description=Specifies 
@@ -28,11 +34,13 @@ to determine when the call has completed.
 If not specified, the default is true.
 |Optional=Yes
 }}{{Method Parameter
+|Index=3
 |Name=user
 |Data type=String
 |Description=Specifies the name of the user for authentication. If this parameter is null or not specified and the site requires authentication, the browser displays a logon window.
 |Optional=Yes
 }}{{Method Parameter
+|Index=4
 |Name=password
 |Data type=String
 |Description=Specifies the password for authentication. This parameter is ignored if the user parameter is null or not specified.
@@ -42,12 +50,14 @@ If not specified, the default is true.
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The following 
 HTTP verbs and 
 World Wide Web Distributed Authoring and Versioning (WebDAV) methods are supported:
@@ -128,13 +138,28 @@ Internet Explorer caches the results of HTTP GET requests in the Temporary Inter
 '''Security Warning:  ''' Cross-domain, cross-port, and mixed protocol requests are not allowed. The ''bstrUrl'' parameter may only specify files in the same domain, using the same port and protocol method, as that from which the page is served.
 Although this method accepts credentials passed via parameter, those credentials are not automatically sent to the server on the first request. The ''varUser'' and ''varPassword'' parameters are not transmitted unless the server challenges the client for credentials with a 401 - Access Denied response.
 After calling this method, use '''send''' to send the request and data, if any, to the server.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, XHR}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -196,13 +221,4 @@ After calling this method, use '''send''' to send the request and data, if any, 
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
