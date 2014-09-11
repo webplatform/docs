@@ -11,11 +11,7 @@
 {{Summary_Section}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
-|Content====Standards information===
-
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.3
-
-===Members===
+|Content====Members===
 
 The '''SVGEllipseElement''' object has these events:
 
@@ -70,9 +66,9 @@ The '''SVGEllipseElement''' object has these properties:
 |Examples={{Single Example
 |Language=Other
 |Description=In the following code example, the ellipse element is used to draw a skyblue-colored circle inside an inline SVG element.
-|Code=        &lt;svg width="400" height="400"&gt;
-          &lt;ellipse cx="150" cy="100" rx="100" ry="75" fill="skyblue" /&gt;
-        &lt;/svg&gt;
+|Code=&lt;svg width="400" height="400"&gt;
+    &lt;ellipse cx="150" cy="100" rx="100" ry="75" fill="skyblue" /&gt;
+&lt;/svg&gt;
 |LiveURL=http://code.webplatform.org/gist/e44f667a01785f7a116f
 }}
 }}
@@ -83,7 +79,12 @@ In addition to the attributes, properties, events, methods, and styles listed ab
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Scalable Vector Graphics: Basic Shapes], Section 9.8.3
+|URL=http://www.w3.org/TR/SVG11/shapes.html
+|Status=W3C Recommendation 16 August 2011
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
