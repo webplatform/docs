@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs usage, example
+|State=Not Ready
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Stub, Needs Review
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|When the request has completed (either in success or failure).}}
 {{Event
