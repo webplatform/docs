@@ -14,7 +14,7 @@
 |Overview=
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -22,7 +22,6 @@
 |Notes====Remarks===
 Do the following to create an instance:
  <code>oXMLSerializer {{=}}  new XMLSerializer();</code>
-
 |Import_Notes=
 }}
 {{Related_Specifications_Section
