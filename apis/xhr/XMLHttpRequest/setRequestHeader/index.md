@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,11 +10,13 @@
 {{Summary_Section|Sets the value of an XMLHttpRequest header.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=header
 |Data type=String
 |Description=Specifies the header name.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=value
 |Data type=String
 |Description=Specifies the header value.
@@ -21,6 +26,7 @@
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,13 +35,28 @@
 {{Notes_Section
 |Usage=If used, must be called after open(), but before send().
 |Notes=Refer to [http://go.microsoft.com/fwlink/p/?linkid{{=}}203727 RFC2616, Section 14: Header Field Definitions] for a general list of standard headers. The server is ultimately responsible for honoring the headers of the request. By far the most common request header is Content-Type, which is required by some XML Web services.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, XHR}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -97,13 +118,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
