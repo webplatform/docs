@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The &lt;ellipse&gt; element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
 |Content====Members===
