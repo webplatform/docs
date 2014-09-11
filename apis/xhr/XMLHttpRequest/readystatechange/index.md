@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -7,12 +10,13 @@
 {{Summary_Section|Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.}}
 {{Event
 |Event_applies_to=apis/xhr/XMLHttpRequest
-|Interface=dom/objects/Event
-|Target=apis/xhr/XMLHttpRequest
-|Default_action=
 |Synchronous=No
 |Bubbles=No
+|Target=apis/xhr/XMLHttpRequest
 |Cancelable=No
+|Default_action=
+|Content=
+|Interface=dom/objects/Event
 }}
 {{Examples_Section
 |Not_required=No
@@ -33,20 +37,27 @@ var xhr {{=}} new XMLHttpRequest();
 xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
 xhr.onreadystatechange {{=}} reportStatus;
 xhr.send();
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C XMLHttpRequest Specification
 |URL=http://www.w3.org/TR/XMLHttpRequest/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
 |Chrome_version=23.0
 |Chrome_prefixed_supported=Unknown
@@ -69,6 +80,7 @@ xhr.send();
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=Yes
 |Android_version=3.0
 |Android_prefixed_supported=Unknown
@@ -104,7 +116,11 @@ xhr.send();
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|API, XHR}}
 {{External_Attribution
 |Is_CC-BY-SA=No
