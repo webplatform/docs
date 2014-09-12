@@ -1,16 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An object representing the "inside" of a worker.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''WorkerGlobalScope''' object is accessed by using the '''self''' or '''this''' property and is accessed only inside a worker. A worker has the following functionality within its scope:
 *It can use the '''XMLHttpRequest''' method.
 *It has a '''self''' property, which contains a reference to the worker object.
@@ -24,13 +31,28 @@ Workers do not have access to the Document Object Model (DOM), nor the '''window
 To terminate a worker thread from inside, use the '''close'''  method. From the main document, use the '''terminate''' method to terminate the worker thread.
 You can send messages to the main document using '''postMessage''' and receive messages from the main document using the '''onmessage''' message handler.
 You can create new child workers  from inside a worker. They must all run in the same host and their location depends on the parent worker of the new worker, not the original webpage. Because a new worker is likely to be in a separate process, you shouldn't create too many workers at once. Also, because messages between workers and their parents are copies and not shared, too many workers can use up resources quickly.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Workers Specification
 |URL=http://dev.w3.org/html5/workers
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Webworkers}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -92,13 +114,4 @@ You can create new child workers  from inside a worker. They must all run in the
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Webworkers}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
