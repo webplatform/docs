@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,6 +10,7 @@
 {{Summary_Section|Transmits data to the server over the WebSocket connection.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=data
 |Data type=any
 |Description=Must be of one of the following types:
@@ -18,12 +22,15 @@
 }}
 |Method_applies_to=apis/websocket/WebSocket
 |Example_object_name=object
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=var data = new ArrayBuffer(10000000);
 
 // perform some operations on the ArrayBuffer
@@ -35,9 +42,11 @@ if (socket.bufferedAmount === 0) {
 else {
   // the data did not send
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=An '''ArrayBuffer''' is a unformatted block of raw data that is sent in its entirety to a server. An ArrayBufferView is a typed array view of an '''ArrayBuffer'''. By using a typed array to define the format of the buffer, and the start and length (number of elements), you can send portions of an '''ArrayBuffer''' to a server.
 This method can throw one of the following exceptions:
 {{{!}} class="wikitable"
@@ -48,13 +57,28 @@ This method can throw one of the following exceptions:
 {{!}}InvalidStateError(11)
 {{!}}The connection is not currently OPEN.
 {{!}}}
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C WebSocket Specification
 |URL=http://www.w3.org/TR/websockets/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, WebSocket}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -116,13 +140,4 @@ This method can throw one of the following exceptions:
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebSocket}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
