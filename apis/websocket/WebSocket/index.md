@@ -1,12 +1,17 @@
 {{Page_Title|WebSocket Object API Details}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -17,12 +22,14 @@ function webSocketSupported() {
   return "WebSocket" in window;
 }
 </syntaxhighlight>
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=WebSockets are created via the WebSocket() constructor function.
 |Code=<syntaxhighlight lang="javascript">
 WebSocket( url[, protocols] )
 </syntaxhighlight>
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Complete example
@@ -40,6 +47,7 @@ if (window["WebSocket"]) {
     }
 });
 </syntaxhighlight>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -62,14 +70,32 @@ To open a use a WebSocket connection, you must follow this procedure:
 *Determine the rate at which your data is moving with the ''bufferedAmount'' property.
 *Check to see whether data was sent to you.
 *Close the connection when you are finished with the '''close''' method.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C WebSocket Specification
 |URL=http://www.w3.org/TR/websockets/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=* [http://cjihrig.com/blog/how-to-use-websockets/ How to Use WebSockets by Colin Ihrig]
+|Manual_sections=
+}}
+{{Topics|API, WebSocket}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
+}}
+}
+
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -131,17 +157,9 @@ To open a use a WebSocket connection, you must follow this procedure:
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|External_links=* [http://cjihrig.com/blog/how-to-use-websockets/ How to Use WebSockets by Colin Ihrig]
-}}
-{{Topics|API, WebSocket}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
+
+
+
 }
 
 
@@ -155,4 +173,4 @@ To open a use a WebSocket connection, you must follow this procedure:
 
 
 
-}}
+}}}
