@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -9,23 +12,41 @@
 |Parameters=
 |Method_applies_to=apis/workers/WorkerGlobalScope
 |Example_object_name=object
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=This method sets the worker's WorkerGlobalScope object's closing flag to ''true'', preventing any further tasks from being queued.
 
 Use the '''terminate''' method if you want to stop a worker from a parent thread.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Workers Specification
 |URL=http://dev.w3.org/html5/workers
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Webworkers}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -87,13 +108,4 @@ Use the '''terminate''' method if you want to stop a worker from a parent thread
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Webworkers}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
