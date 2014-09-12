@@ -1,11 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An object representing a worker, that is used to communicate with the worker.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -21,6 +27,7 @@ worker.onmessage = function(event) {
 };
 // pass data to worker
 worker.postMessage("hello worker");
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Being spawned as a worker (script.js) and communicating with parent (document.html)
@@ -30,6 +37,7 @@ self.postMessage("ready for business");
 self.onmessage = function(event) {
    self.postMessage('Worker received ' + event.data);
 };
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Loading additional resources from within a Worker (script.js)
@@ -37,9 +45,11 @@ self.onmessage = function(event) {
 importScripts('additional.js', 'another-one.js', 'as-many-as-you-like.js' /* , ... */);
 // pass data to parent, executed *after* importScripts() received all files
 self.postMessage("ready for business");
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=In the past, if you had to do a task on a webpage that might take a long time, you forced the user to wait until the task was finished. Workers can solve that problem by packaging and running code that runs separately from the main webpage. These packages are called threads and run in the background. You can have more than one worker running at once, each with its own thread and JavaScript code file.
 
 Workers run in a "sandbox" and have limited scope. They cannot access most of the object model of the webpage but do have access to the global core JavaScript objects. You can use the '''WorkerGlobalScope''' object inside the worker to access objects in the worker's scope.
@@ -53,13 +63,28 @@ You can determine the location of a worker from inside the worker by using the '
 
 You can determine which navigator objects are available to the worker by using the '''WorkerNavigator''' object.
 Shared workers are not supported in this release.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Workers Specification
 |URL=http://dev.w3.org/html5/workers
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Webworkers}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -121,13 +146,4 @@ Shared workers are not supported in this release.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Webworkers}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
