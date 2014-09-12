@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Describes the session with a serialized Session Description Protocol object.}}
 {{API_Object
