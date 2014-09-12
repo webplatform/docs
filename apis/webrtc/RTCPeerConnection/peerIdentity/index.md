@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
