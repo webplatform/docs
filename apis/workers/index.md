@@ -1,5 +1,8 @@
 {{Page_Title|workers API}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -13,8 +16,16 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
-{{See_Also_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|API, Webworkers}}
 {{External_Attribution
 |Is_CC-BY-SA=No
