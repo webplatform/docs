@@ -6,7 +6,7 @@
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The type of SDP object this RTCSessionDescription represents.}}
 {{API_Object_Property
