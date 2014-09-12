@@ -1,7 +1,9 @@
 {{Page_Title|websocket API}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -57,14 +59,17 @@ And to complement it, here's an example echo server in Python using Twisted:
 Once the connection is established, messages are sent as "frames", in either text or binary format, in both directions. These are the data strings you send and receive in JavaScript.
 
 WebSocket URIs have the same basic format as HTTP URIs, but with a different URI scheme: ws://hostname:port/path, e.g. ws://example.com/echo or ws://example.net:8080. The path can be used to distinguish the purpose of the connection; however, some servers ignore it. Secure WebSocket (WebSocket over SSL/TLS) URIs begin with wss:// instead of ws://.
+|Import_Notes=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* http://tools.ietf.org/html/rfc6455 - IETF WebSocket protocol
 * http://www.w3.org/TR/websockets/ - W3C WebSocket API
 * http://www.websocket.org/echo.html - WebSocket echo test
 * http://caniuse.com/#search=websockets - Browser support
 * http://ajf.me/websocket/ - Has a list of libraries and frameworks for most popular programming languagess
 * http://www.html5rocks.com/en/tutorials/websockets/basics/ - Good tutorial by html5rocks
+|Manual_sections=
 }}
 {{Topics|API, WebSocket}}
 {{External_Attribution
