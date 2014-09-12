@@ -1,7 +1,9 @@
 {{Page_Title|data}}
 {{Flags
+|State=In Progress
+|Editorial notes=Not specific to WebSocket. Probably belongs somewhere in DOM docs. Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Move Candidate
-|Editorial notes=Not specific to WebSocket. Probably belongs somewhere in DOM docs.
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -9,24 +11,29 @@
 {{API_Object_Property
 |Property_applies_to=apis/websocket/MessageEvent
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
 |Javascript_data_type=String
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -34,4 +41,11 @@
 |MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
