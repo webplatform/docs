@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Use ''[[dom/HTMLTextAreaElement/value|value]].[[javascript/objects/String/length|length]]''' (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.}}
+{{Summary_Section|Use ''[[dom/HTMLTextAreaElement/value|value]].[[javascript/String/length|length]]'' (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.}}
 {{API_Object_Property
 |Property_applies_to=dom/HTMLTextAreaElement
 |Read_only=Yes
@@ -21,9 +21,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=Use the well known and well supported [[dom/HTMLTextAreaElement/value|value]].[[javascript/objects/String/length|length]] instead (in JavaScript/ECMAScript).
+|Usage=Use the well known and well supported [[dom/HTMLTextAreaElement/value|value]].[[javascript/String/length|length]] instead (in JavaScript/ECMAScript).
 
-Use this property to get the codepoint length of the value of the element. For more details about '''codepoint length''', see [[javascript/objects/String/length|length]].
+Use this property to get the codepoint length of the value of the element. For more details about '''codepoint length''', see [[javascript/String/length|length]].
 |Notes=
 |Import_Notes=
 }}
