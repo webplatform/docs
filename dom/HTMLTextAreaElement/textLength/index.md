@@ -41,11 +41,12 @@ Use this property to get the codepoint length of the value of the element. For m
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
