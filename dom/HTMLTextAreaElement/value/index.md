@@ -74,11 +74,12 @@ if (textAreaList.length) {
 }}
 }}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
