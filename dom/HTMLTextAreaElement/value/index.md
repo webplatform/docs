@@ -34,10 +34,13 @@ if (textAreaList.length) {
     textArea = textAreaList[0];
 
    // Logging the content of the first <textarea> in the page.
-    console.log("The content of the first textarea element is - " + textArea.value);
+    console.log("The content of the first textarea element is - " +
+        textArea.value);
 
-    // Logging the codepoint length of the content of the first <textarea> in the page.
-    console.log("The codepoint length of the content of the first textarea element is - " + textArea.value.length);
+    // Logging the codepoint length of the
+    // content of the first <textarea> in the page.
+    console.log("The codepoint length of the content of the first textarea element is - " +
+        textArea.value.length);
 }
 |LiveURL=
 }}
