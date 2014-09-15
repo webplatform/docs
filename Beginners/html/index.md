@@ -18,7 +18,7 @@
 
 == An HTML Document with details about each components ==
 
-Ever wondered the utility of a web page, here are a few notes to help you understand their existence.
+Ever wondered the utility of the basic building blocks of a web page? Here’s a break down of the main components.
 
 You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it in a web browser. You should see only a white page with a big "Hello world" written in red.
 
@@ -88,7 +88,11 @@ You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and op
  </body>
 </html>
 </syntaxHighlight>
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
