@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
