@@ -1,17 +1,23 @@
 {{Page_Title|PerformanceTiming}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|An interface that provides Web applications with timing-related information.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=When a webpage is displayed in Windows Internet Explorer 9 mode, Windows Internet Explorer records timestamps that correspond to the time when various steps occurred during the process used to load a document. Each property of the '''performanceTiming''' object corresponds to one of these timestamps.
 This object is not supported for Metro style apps using JavaScript.
 The built-in performance marks occur in the following order:
@@ -38,13 +44,28 @@ The built-in performance marks occur in the following order:
 *'''msFirstPaint'''
 
 The properties of the '''performanceTiming''' object represent the number of milliseconds that have elapsed between midnight January 1, 1970 and the time the measurement was recorded.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Navigation Timing Specification
 |URL=http://w3c-test.org/webperf/specs/NavigationTiming/
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Navigation Timing}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -106,13 +127,4 @@ The properties of the '''performanceTiming''' object represent the number of mil
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Navigation Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
