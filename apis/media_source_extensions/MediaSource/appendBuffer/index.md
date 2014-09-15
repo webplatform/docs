@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -7,13 +9,15 @@
 {{Summary_Section|Appends the specified media segment to the SourceBuffer.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=data
 |Data type=VARIANT
 |Description=Type: ArrayBuffer. The media segment to append
 |Optional=No
 }}
-|Method_applies_to=apis/media_source_extensions/SourceBuffer
+|Method_applies_to=apis/media_source_extensions/MediaSource
 |Example_object_name=SourceBuffer
+|Return_value_name=
 |Javascript_data_type=void
 |Return_value_description=This method does not return a value.
 }}
@@ -57,11 +61,30 @@ function updateFunct() {
   //  Now that video has started, remove the event listener
 videoSource.removeEventListener("update", updateFunct);
 }</syntaxhighlight>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=Multimedia
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|Media}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -69,14 +92,4 @@ videoSource.removeEventListener("update", updateFunct);
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Multimedia
-}}
-{{Topics|Media}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|HTML5Rocks_link=
 }}
