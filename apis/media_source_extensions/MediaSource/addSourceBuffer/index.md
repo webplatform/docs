@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -7,6 +9,7 @@
 {{Summary_Section|Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=MIME type
 |Data type=String
 |Description=The MIME type. This is expressed typically as 'video/mp4' or optionally as a MIME type and a codec: 'video/mp4;codecs=avc1.4d0020,mp4a.40.2'. Internet Explorer accepts both formats, though other browsers may require the codec be included.
@@ -54,6 +57,7 @@ function setupVideo() {
     }
   },false);
 }</syntaxhighlight>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -64,9 +68,24 @@ INVALID_ACCESS_ERR  If type is null or an empty string.
 NOT_SUPPORTED_ERR  If type contains a MIME type that's not supported or a MIME type that's not supported by SourceBuffer.
  
 QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer objects.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -95,12 +114,4 @@ QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer object
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|HTML5Rocks_link=
 }}
