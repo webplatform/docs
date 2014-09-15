@@ -17,7 +17,7 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes={{TODO|Remove these notes once this page becomes more than a stub.}}
+|Notes={{TODO|Remove these notes and add content.}}
 
 
 General compatibility notes -
