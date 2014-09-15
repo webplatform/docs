@@ -9,7 +9,7 @@
 {{Summary_Section|Used to indicate that the end of the stream has been reached.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=error
 |Data type=enum
 |Description=Type: EndOfStreamError
