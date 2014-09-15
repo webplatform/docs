@@ -1,11 +1,14 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Represents a source of media data (audio or video) for a media element.}}
 {{API_Object
+|Subclass_of=
 |Overview=Provides a buffer based source for a media object. The app creates a MediaSource object and adds it to the media (audio or video) object as a source for the src object. SourceBuffers are then added to the MediaSource object and media content is then appended to the buffers to provide streaming or multi-source playback.
 
 <code>var mediaSource = new MediaSource();</code>
@@ -17,7 +20,7 @@
 |Description=This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content. 
 
 The live sample only runs on a browser that support the W3C syntax and MP4 files.
-|Code=<syntaxhighlight lang="javascript">// Create mediaSource and initialize video 
+|Code=// Create mediaSource and initialize video 
 function setupVideo() {
   //  Create the media source 
   if (window.MediaSource) {
@@ -41,13 +44,30 @@ function setupVideo() {
     }
   });
 }
-</syntaxhighlight>
 |LiveURL=http://code.webplatform.org/gist/9144919/
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=Multimedia
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -56,16 +76,9 @@ function setupVideo() {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=Multimedia
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|HTML5Rocks_link=
-}}
+
+
+
 }
 
 
