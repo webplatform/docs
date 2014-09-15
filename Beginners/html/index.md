@@ -18,15 +18,17 @@
 
 == An HTML Document with details about each components ==
 
-Ever wondered the utility of the basic building blocks of a web page? Here’s a break down of the main components.
-
-You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it in a web browser. You should see only a white page with a big "Hello world" written in red.
+Ever wondered the meaning of the building blocks of a web page? Here’s a break down of the main components.
 
 === An example document in a web browser ===
 
 [[File:Beginners_example_html_file.png|upright|A web browser window with Hello world in red]]
 
 === An example document code ===
+
+You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it directly in a web browser —no web server needed!
+
+You should see only a white page with a big "Hello world" written in red like the image above.
 
 <syntaxHighlight lang="html5">
 <!DOCTYPE html><!-- This tag is an HTML Comment -->
