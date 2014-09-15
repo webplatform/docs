@@ -1,21 +1,21 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Not Ready
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''fieldset''' element is used to group related elements in a form.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFieldSetElement
-|Content=The fieldset element represents a set of form controls. Optionally grouped under a common name with an additional '''legend''' element.
+|Content=The ''fieldset'' element represents a set of form controls. Optionally grouped under a common name with an additional '''legend''' element.
 
-HTML5 adds the following attributes which are fully optional.
+=== attributes ===
 
-===Attributes (HTML 5)===
+'''NOTE''': Those attributes are considered valid since HTML5
 
 ; disabled : If this Boolean attribute is set, the form controls that are its descendants, except descendants of its first optional '''legend''' element, are disabled, i.e., not editable. They won't receive any browsing events, like mouse clicks or focus-related ones. Often browsers display such controls as gray.
 
@@ -28,13 +28,13 @@ HTML5 adds the following attributes which are fully optional.
 |Examples={{Single Example
 |Language=HTML
 |Description=Simple form with fieldset, legend, and label elements.
-|Code=<form action="" method="post">
-  <fieldset>
-    <legend>Title</legend>
-    <label for="radio">Click me</label>
-    <input type="radio" name="radio" id="radio">
-  </fieldset>
-</form>
+|Code=&lt;form action="" method="post"&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Title&lt;/legend&gt;
+    &lt;label for="radio"&gt;Click me&lt;/label&gt;
+    &lt;input type="radio" name="radio" id="radio"&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
 |LiveURL=http://code.webplatform.org/gist/f77f0a06304503ecddd6
 }}{{Single Example
 |Language=HTML
@@ -104,7 +104,7 @@ HTML5 adds the following attributes which are fully optional.
 Typically, the browser draws a box around the containing elements of every fieldset. This border can be disabled via CSS <code>border: none;</code> The border contains the legend by default. See [[html/elements/legend|'''legend''']] for details.
 
 ===Nesting fieldsets===
-It’s also possible and in certain use cases pretty useful to nest fieldsets. See Example above.
+It’s also possible and in certain use cases pretty useful to nest fieldsets.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
@@ -119,13 +119,6 @@ It’s also possible and in certain use cases pretty useful to nest fieldsets. S
 |Status=W3C Recommendation
 |Relevant_changes=New attributes: disabled, form, name
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
@@ -142,4 +135,11 @@ It’s also possible and in certain use cases pretty useful to nest fieldsets. S
 |MDN_link=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
