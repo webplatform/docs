@@ -1,5 +1,9 @@
 {{Page_Title|Internationalization (Ecma 402 standard)}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.}}
@@ -58,8 +62,13 @@ Allen Wirfs-Brock
 Feedback provided by Erik Arvidsson, John J. Barton, Zbigniew Braniecki, Marcos Cáceres, Brendan Eich, John Emmons, Gordon P. Hemsley, David Herman, Luke Hoban, Oliver Hunt, Suresh Jayabalan, Yehuda Katz, Mark S. Miller, Andrew Paprocki, Adam Peller, Axel Rauschmayer, Andreas Rossberg, Alex Russell, Markus Scherer, Dmitry Soshnikov, Yusuke Suzuki, John Tamplin, Rick Waldron, Anton Yatsenko, Nicholas Zakas.
 
 This Ecma Standard has been adopted by the General Assembly of December 2012.
+|Import_Notes=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Internationalization, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
