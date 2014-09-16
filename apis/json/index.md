@@ -1,12 +1,19 @@
 {{Page_Title|JSON}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|JSON is a native API for parsing and serialising information to the JSON format.
 
 JSON contains two methods: <code>parse</code> for parsing JSON strings, and <code>stringify</code> for converting a JavaScript object into JSON.
 }}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -17,19 +24,35 @@ JSON contains two methods: <code>parse</code> for parsing JSON strings, and <cod
 };
 
 var json_string = JSON.stringify(js_object);
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Parse a JSON string to a JavaScript object.
 |Code=var json_string = '{type:"This is a JSON Object."}';
 var js_object = JSON.parse(json_string);
 alert(js_object.type);
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Browsers without JSON support can be polyfilled using third party JavaScript libraries.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|JavaScript}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -90,12 +113,4 @@ alert(js_object.type);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
