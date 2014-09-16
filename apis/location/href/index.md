@@ -1,5 +1,9 @@
 {{Page_Title|window.location.href}}
-{{Flags}}
+{{Flags
+|State=In Progress
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The full url for this resource. Synonymous with <code>String(window.location)</code>.}}
@@ -7,10 +11,12 @@
 |Property_applies_to=apis/location
 |Read_only=Yes
 |Example_object_name=window.location
+|Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=The full url for this resource.
 
 For example, <code>http://example.org/index.html?page=1#foo</code> would return the full href of <code>http://example.org/index.html?page=1#foo</code>.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -21,23 +27,32 @@ For example, <code>http://example.org/index.html?page=1#foo</code> would return 
     // This equates to true
     alert("These values are the same.")/
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
