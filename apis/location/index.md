@@ -1,29 +1,53 @@
 {{Page_Title|window.location}}
-{{Flags}}
+{{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The location object provides access to the address related properties of the current document.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Redirect the current page to example.org.
 |Code=window.location = "http://example.org";
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=Show an alert if the current page is example.org.
 |Code=if(window.location == "http://example.org/"){
     alert("Welcome to example.org!");
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=The location object can be used as an object or a string.
 
 Regular string comparisons such as in the examples section can be used, but there are several other properties of the location such as the hash or the hostname that can be compared individually.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|JavaScript}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -46,12 +70,4 @@ Regular string comparisons such as in the examples section can be used, but ther
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
