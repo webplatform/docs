@@ -1,18 +1,39 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The MediaStream interface is used to represent streams of media data, typically (but not necessarily) of audio and/or video content, e.g. from a local camera. Each MediaStream object can contain zero or more tracks, in particular audio and video tracks. And each track in a MediaStream object has a corresponding MediaStreamTrack object.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Media Capture and Streams}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -20,12 +41,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Media Capture and Streams}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
