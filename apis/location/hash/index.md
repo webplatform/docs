@@ -1,14 +1,17 @@
 {{Page_Title|window.location.hash}}
-{{Flags}}
+{{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
+}}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The hash property contains the fragment identifier (including hash character) for the current page.
-
-}}
+{{Summary_Section|The hash property contains the fragment identifier (including hash character) for the current page.}}
 {{API_Object_Property
 |Property_applies_to=apis/location
 |Read_only=No
 |Example_object_name=window.location
+|Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=Returns the fragment identifier (including hash character) for the current page.
 
@@ -23,6 +26,7 @@ For example, <code>http://example.org/#foo</code> would return the fragment iden
 |Code=if(typeof window.location.hash != "undefined" && window.location.hash == "#tab2"){
     // Code to display the second tab goes here.
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -30,9 +34,22 @@ For example, <code>http://example.org/#foo</code> would return the fragment iden
 |Notes=The window.location.hash property does not work in versions of Internet Explorer prior to version 8.
 
 This is most often used to preserve permalinks in web applications, however the [[apis/history|history API]] may be better suited to this task if legacy browser support is not required.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|JavaScript}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -56,12 +73,4 @@ This is most often used to preserve permalinks in web applications, however the 
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
