@@ -1,7 +1,7 @@
 {{Page_Title|window.location.pathname}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -25,7 +25,7 @@ For example, <code>http://example.org/myyfolder/mypage.html</code> would return 
 |Description=
 |Code=// Returns the pathname part of the current window location.
 // For this page, for instance, this will return the string '/wiki/apis/location/pathname'.
-window.location.pathname;
+var pname = window.location.pathname;
 |LiveURL=
 }}
 }}
