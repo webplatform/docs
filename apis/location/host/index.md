@@ -1,5 +1,7 @@
 {{Page_Title|window.location.host}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -9,10 +11,12 @@
 |Property_applies_to=apis/location
 |Read_only=Yes
 |Example_object_name=window.location
+|Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=The hostname and port number.
 
 For example, <code>http://example.org:8080/</code> would return the host string of <code>example.org:8080</code>.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,9 +34,25 @@ container.innerHTML = host;
 |LiveURL=http://fiddle.jshell.net/YJEhh/4/
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|JavaScript}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -40,12 +60,4 @@ container.innerHTML = host;
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
