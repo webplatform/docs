@@ -518,8 +518,8 @@ Here are a few news articles about Pointer Events:
 [[File:TouchGuidelines.png|frame|alt=Image showing 40px hit targets and 10px spacing]]
 There are a few key principles that web designers should keep in-mind when updating pages for modern web browsers:
 # '''There may be no hover''' – For touch-only devices like many smartphones, there is no ability to hover without invoking
-# '''Don’t make hit targets too small''' – Studies by Microsoft indicate about 40px is a good size hit target
-# '''Have spacing between targets''' – Studies also by Microsoft suggest 10px is a good size for spacing between hit targets
+# '''Don’t make hit targets too small''' – Studies by Microsoft indicate about 11mm is a good size hit target
+# '''Have spacing between targets''' – Studies also by Microsoft suggest 2mm is a good size for spacing between hit targets
 
 For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx
 }}
@@ -541,7 +541,7 @@ For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guideli
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Canvas, CSS Font, CSS Layout, Animation, Audio, Background, Border, Box Model, CSS Attributes, Combinators, Deprecated, Document Structure, Exclusions, FileSystemAPI, Filters, Flexbox, Fonts, Generated and Replaced Content, Gradients, Grid Layout, HTML, Multimedia, Media Queries, Mobile, Multi-Column, Off-line Storage, Paged Media, Performance, Pointer Events, Pseudo-Classes, Pseudo-Elements, Regions, Responsive Web Design, Ruby, Scrollbar, Selectors, Security, Shapes, Tables, Text, Touch, Transforms, Transitions, Video, Visual Effects, Web Components, WebRTC, XHR
+|Topic_clusters=Document Structure, Javascript, Pointer Events
 |Manual_links=
 |External_links=
 |Manual_sections=
