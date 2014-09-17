@@ -11,13 +11,13 @@
 {{Summary_Section|Creates a cursor.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=range
 |Data type=Blob
 |Description=A key range limiting the cursor to a specific set of values.
 |Optional=No
 }}{{Method Parameter
-|Index=
+|Index=1
 |Name=direction
 |Data type=Blob
 |Description=Indicates the direction of traversal and whether duplicate values are included.
