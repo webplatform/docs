@@ -92,10 +92,11 @@ We will not be covering dynamic languages any further in this course, but I have
 * [http://www.rubyonrails.org/screencasts Rails screencasts]
 * PHP: Powers, David (2006), PHP Solutions: Dynamic web development made easy, friends of ED.
 * [http://www.php.net/docs.php PHP Online documentation]
-** [http://www.phptherightway.com/ PHP The Right Way]
-** [http://thephpleague.com/ The PHP League, a set of tested PHP packages using modern coding standards]
+* [http://www.phptherightway.com/ PHP The Right Way]
+* [http://thephpleague.com/ The PHP League, a set of tested PHP packages using modern coding standards]
 * ASP.NET: Lorenz, Patrick. (2003). ASP.NET 2.0 Revealed.  Apress.
 * ASP.NET: [[http://asp.net online ASP.NET documentation and tutorials.]]
+* [http://addyosmani.github.io/backbone-fundamentals Backbone fundamentals]
 
 == Summary ==
  
