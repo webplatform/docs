@@ -44,40 +44,40 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 {{!}}-
 {{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: DataCloneError</dt>
+'''name''': DataCloneError</dt>
 <dt>
-[[dom/properties/code|'''code''']]: DOMException.DATA_CLONE_ERR (25)</dt>
+'''code''': DOMException.DATA_CLONE_ERR (25)</dt>
 </dl>
 {{!}}The data could not be saved to the object store.
 {{!}}-
 {{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: DataError</dt>
+'''name''': DataError</dt>
 </dl>
-{{!}}The specified [[apis/indexedDB/properties/key|'''key''']] value is invalid or the value specified for an indexed attribute is invalid.
+{{!}}The specified '''key''' value is invalid or the value specified for an indexed attribute is invalid.
 {{!}}-
 {{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: InvalidStateError</dt>
+'''name''': InvalidStateError</dt>
 <dt>
-[[dom/properties/code|'''code''']]: DOMException.INVALID_STATE_ERR (11)</dt>
+'''code''': DOMException.INVALID_STATE_ERR (11)</dt>
 </dl>
 {{!}}The object store has been deleted or is otherwise unavailable.
 {{!}}-
 {{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: ReadOnlyError</dt>
+'''name''': ReadOnlyError</dt>
 </dl>
 {{!}}The associated transaction is read-only.
 {{!}}-
 {{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: TransactionInactiveError</dt>
+'''name''': TransactionInactiveError</dt>
 </dl>
 {{!}}The associated transaction is not active.
 {{!}}}
  
-'''Note'''  As of Internet Explorer 10, the [[dom/properties/code|'''code''']] property is deprecated in favor of the [[dom/properties/toString (DOMError)|'''name''']] property, which is preferred for standards compliance and future compatibility.
+'''Note'''  As of Internet Explorer 10, the '''code''' property is deprecated in favor of the '''name''' property, which is preferred for standards compliance and future compatibility.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
