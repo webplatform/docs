@@ -541,7 +541,7 @@ For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guideli
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure, Javascript, Pointer Events
+|Topic_clusters=Pointer Events
 |Manual_links=
 |External_links=
 |Manual_sections=
