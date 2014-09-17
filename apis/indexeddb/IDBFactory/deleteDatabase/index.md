@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Deletes a database with the specified name}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=name
 |Data type=String
 |Description=The name of the database to delete.
@@ -18,9 +21,7 @@
 |Example_object_name=window.indexeddb
 |Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
-|Return_value_description=[[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']]
-
-A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fires events to indicate the result of the request.
+|Return_value_description=An '''IDBOpenRequest''' request object that fires events to indicate the result of the request.
 }}
 {{Examples_Section
 |Not_required=No
@@ -43,12 +44,27 @@ A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fir
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -77,17 +93,4 @@ A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fir
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
-*<code>[[apis/indexedDB/IDBFactory|IDBFactory]]</code>
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
