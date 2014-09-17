@@ -1,16 +1,20 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Creates a structured clone of the value parameter.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=value
 |Data type=Blob
+|Description=
 |Optional=No
 }}
 |Method_applies_to=apis/indexeddb/IDBCursor
@@ -26,53 +30,54 @@ An object representing the update request.
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-{| class="wikitable"
-|-
-|'''Exception properties'''
-|'''Description'''
-|-
-|<dl>
+{{{!}} class="wikitable"
+{{!}}-
+{{!}}'''Exception properties'''
+{{!}}'''Description'''
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: DataError</dt>
+'''name''': DataError</dt>
 </dl>
-|When an object store uses inline keys, this exception indicates that the key value of the update object does not match the key value of a  corresponding record in the object store.
-|-
-|<dl>
+{{!}}When an object store uses inline keys, this exception indicates that the key value of the update object does not match the key value of a  corresponding record in the object store.
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: DataCloneError</dt>
+'''name''': DataCloneError</dt>
 <dt>
-[[dom/properties/code|'''code''']]: DOMException.DATA_CLONE_ERR (25)</dt>
+'''code''': DOMException.DATA_CLONE_ERR (25)</dt>
 </dl>
-|The data could not be copied.
-|-
-|<dl>
+{{!}}The data could not be copied.
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: InvalidStateError</dt>
+'''name''': InvalidStateError</dt>
 <dt>
-[[dom/properties/code|'''code''']]: DOMException.INVALID_STATE_ERR (11)</dt>
+'''code''': DOMException.INVALID_STATE_ERR (11)</dt>
 </dl>
-|The update is not allowed for one of the following reasons:
+{{!}}The update is not allowed for one of the following reasons:
 *the cursor was created using [[apis/indexedDB/methods/openKeyCursor|'''openKeyCursor''']].
 *the cursor is iterating to a new record.
 *the cursor has moved past the last record.
 
-|-
-|<dl>
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: ReadOnlyError</dt>
+'''name''': ReadOnlyError</dt>
 </dl>
-|The associated transaction is read-only.
-|-
-|<dl>
+{{!}}The associated transaction is read-only.
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: TransactionInactiveError</dt>
+'''name''': TransactionInactiveError</dt>
 </dl>
-|The associated transaction is not active.
-|}
+{{!}}The associated transaction is not active.
+{{!}}}
  
-'''Note'''  As of Internet Explorer 10, the [[dom/properties/code|'''code''']] property is deprecated in favor of the [[dom/properties/toString (DOMError)|'''name''']] property, which is preferred for standards compliance and future compatibility.
+'''Note'''  As of Internet Explorer 10, the '''code''' property is deprecated in favor of the '''name''' property, which is preferred for standards compliance and future compatibility.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -80,16 +85,10 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBCursor|IDBCursor]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -98,4 +97,11 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
