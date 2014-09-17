@@ -1,13 +1,18 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property, which   provides access to the IndexedDB features supported by the browser and/or device.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -31,17 +36,36 @@ if ( getIndexHandle == null ) {
 } else {
    doIndexedDBWork(};
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
-Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to access IndexedDB databases.
+Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedDB databases.
 
 '''Important'''  For security reasons, Internet Explorer support for the '''indexedDB''' property is limited to webpages loaded using the "http://" or "https://" protocols.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=*[http://msdn.microsoft.com/en-us/library/jj154908.aspx How to create a tag cloud using IndexedDB]
+|Manual_sections=
+}}
+{{Topics|API, IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
+}
+
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -104,19 +128,6 @@ Use the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to acce
 }}
 |Notes_rows={{Compatibility Notes Row}}
 }}
-{{See_Also_Section
-|External_links=*[http://msdn.microsoft.com/en-us/library/jj154908.aspx How to create a tag cloud using IndexedDB]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Window|window]]</code>
-*<code>[[apis/indexedDB/events/onsuccess|onsuccess]]</code>
-*<code>[[apis/indexedDB/events/onerror|onerror]]</code>
-*<code>[[apis/indexedDB/events/onblocked|onblocked]]</code>
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+
+}
