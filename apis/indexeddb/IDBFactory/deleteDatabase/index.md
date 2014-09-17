@@ -11,7 +11,7 @@
 {{Summary_Section|Deletes a database with the specified name}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the database to delete.
