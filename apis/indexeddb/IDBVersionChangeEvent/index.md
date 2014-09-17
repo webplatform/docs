@@ -37,7 +37,7 @@
 {{Notes_Section
 |Usage=When you open a database, you include a version number.  If the supplied version number is greater than the version of the database on the user's device (if any), an [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event is fired within the context of a version change transaction.  This context lets you create (or modify) object stores, indexes, ranges, and other database objects.
 
-For more information about transaction types, see [[indexeddb/IDBTransaction/mode|IDBTransaction mode]].
+For more information about transaction types, see [[apis/indexeddb/IDBTransaction/mode|IDBTransaction mode]].
 |Notes=The [[apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded|upgradeneeded]] event fires before the [[apis/indexeddb/IDBRequest/onsuccess|success]] event, which can lead to issues when attempting to cache handles.
 |Import_Notes= 
 }}
