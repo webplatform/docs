@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside an "versionchange" transaction.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the object store to be created.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=optionalParameters
 |Data type=DOM Node
 |Description=An object literal containing one or more of the following attributes:
@@ -25,7 +29,7 @@
 |Example_object_name=IDBDatabase
 |Return_value_name=IDBObjectStore
 |Javascript_data_type=DOM Node
-|Return_value_description=[[apis/indexedDB/IDBObjectStore|'''IDBObjectStore''']]
+|Return_value_description=[[apis/indexeddb/IDBObjectStore|'''IDBObjectStore''']]
 
 An object representing the new object store.
 }}
@@ -33,6 +37,7 @@ An object representing the new object store.
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=// the db object was opened in the upgradeNeeded method
 try {
   var objectStore = db.createObjectStore("ObjectStore_BookList", {
@@ -47,6 +52,7 @@ try {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The method throws an exception if 
 
 * This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
@@ -59,16 +65,10 @@ try {
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -77,4 +77,11 @@ try {
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
