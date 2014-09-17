@@ -1,8 +1,10 @@
 {{Page_Title|IndexedDB reference}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -51,17 +53,15 @@ The IndexedDB storage follows the same-origin policy.
 
 *Firefox will just ask the user for permission for blobs bigger than 50 MB. [http://support.mozilla.org/en-US/questions/818987 Reference]
 *For Google Chrome, see the [https://developers.google.com/chrome/whitepapers/storage#temporary reference on temporary storage]
+|Import_Notes=
 }}
 {{See_Also_Section
-|Topic_clusters=Off-line Storage
+|Manual_links=
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
 |Manual_sections==== Library ===
 
 *[https://github.com/jensarps/IDBWrapper IDBWrapper] Ease the use of indexedDB and abstract away the differences between the existing implementations in Chrome, Firefox and IE10 (yes, it works in all three). Show how IDB works. The code is split up into short methods, so that it's easy to see what happens in what method.[https://github.com/jensarps/IDBWrapper]
 }}
-
-*[https://github.com/yathit/ydn-db YDN-DB] Javascript database module for Indexeddb, Web SQL and localStorage storage mechanisms supporting version migration, advanced query, SQL and transaction.  [http://dev.yathit.com/api-reference/ydn-db/storage.html API Documentations] 
-
 {{Topics|API, IndexedDB}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -69,4 +69,8 @@ The IndexedDB storage follows the same-origin policy.
 |MSDN_link=
 |HTML5Rocks_link=
 }}
+*[https://github.com/yathit/ydn-db YDN-DB] Javascript database module for Indexeddb, Web SQL and localStorage storage mechanisms supporting version migration, advanced query, SQL and transaction.  [http://dev.yathit.com/api-reference/ydn-db/storage.html API Documentations] 
+
+
+
 [[Category:API_Listings]]
