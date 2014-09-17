@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Adds a record to the specified object store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=value
 |Data type=String
 |Description=The value must be valid for the Structured Cloning Algorithm.
 |Optional=No
 }}{{Method Parameter
+|Index=
 |Name=key
 |Data type=String
 |Description=A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
@@ -23,11 +27,13 @@
 |Example_object_name=objectStore
 |Return_value_name=idbRequest
 |Javascript_data_type=DOM Node
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function(event){
     var db = dbOpenRequest.result;
@@ -74,18 +80,13 @@ This method can throw the following [[dom/DOMException|'''DOMException''']]
 |Name=Structured Cloning Algorithm
 |URL=http://www.w3.org/TR/html5/common-dom-interfaces.html#safe-passing-of-structured-data
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -94,4 +95,11 @@ This method can throw the following [[dom/DOMException|'''DOMException''']]
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
