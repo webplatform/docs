@@ -4,12 +4,11 @@
 |Editorial notes=Add information about the other descriptors (besides width & height); compare with the list in https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
 |Checked_Out=No
 }}
+{{Editorial/Content_Incomplete}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies the size, zoom factor, and orientation of the viewport.}}
-{{CSS_At_Rule
-|Content={{Content_Incomplete}}
-}}
+{{CSS_At_Rule}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
