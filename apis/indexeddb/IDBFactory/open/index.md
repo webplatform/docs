@@ -1,19 +1,23 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The open method is used to open an IndexedDB database.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=name
 |Data type=String
 |Description=The name of the database to be opened.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=version
 |Data type=Number
 |Description=The version (unsigned long long) for the database
@@ -23,9 +27,7 @@
 |Example_object_name=indexeddb
 |Return_value_name=dbOpenRequest
 |Javascript_data_type=DOM Node
-|Return_value_description=[[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']]
-
-A [[apis/indexedDB/IDBOpenRequest|'''IDBOpenRequest''']] request object that fires events to indicate the result of the request.
+|Return_value_description=An '''IDBOpenRequest''' request object that fires events to indicate the result of the request.
 }}
 {{Examples_Section
 |Not_required=No
@@ -74,6 +76,19 @@ dbOpenRequest.onerror = function(e){
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -135,16 +150,4 @@ dbOpenRequest.onerror = function(e){
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/properties/indexedDB|indexedDB]]</code>
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
