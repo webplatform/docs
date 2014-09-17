@@ -14,7 +14,7 @@
 |Overview=
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -22,7 +22,6 @@
 |Notes=
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
 }}
 {{Related_Specifications_Section
 |Specifications=
