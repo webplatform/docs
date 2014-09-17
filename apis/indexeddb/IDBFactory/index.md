@@ -63,7 +63,7 @@ Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedD
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
-}
+
 
 
 {{Compatibility_Section
@@ -128,6 +128,3 @@ Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedD
 }}
 |Notes_rows={{Compatibility Notes Row}}
 }}
-
-
-}
