@@ -92,14 +92,14 @@ We will not be covering dynamic languages any further in this course, but I have
 * [http://www.rubyonrails.org/screencasts Rails screencasts]
 * PHP: Powers, David (2006), PHP Solutions: Dynamic web development made easy, friends of ED.
 * [http://www.php.net/docs.php PHP Online documentation]
+** [http://www.phptherightway.com/ PHP The Right Way]
+** [http://thephpleague.com/ The PHP League, a set of tested PHP packages using modern coding standards]
 * ASP.NET: Lorenz, Patrick. (2003). ASP.NET 2.0 Revealed.  Apress.
 * ASP.NET: [[http://asp.net online ASP.NET documentation and tutorials.]]
 
 == Summary ==
  
 That is it for the behind-the-scenes tour of how the Internet works. This article really just scratches the surface of a lot of the topics covered, but it is useful as it puts them all in perspective, showing how they all relate and work together. There is still a lot left to learn about the actual language syntax that makes up HTML, CSS and JavaScript, and this is where we will go to next — the next article focuses on the HTML, CSS and JavaScript “web standards” model of web development, and takes a look at web page code.
-
-
 }}
 {{Examples_Section
 |Not_required=Yes
