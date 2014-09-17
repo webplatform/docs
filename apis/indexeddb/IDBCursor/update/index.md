@@ -21,7 +21,7 @@
 |Example_object_name=object
 |Return_value_name=object
 |Javascript_data_type=DOM Node
-|Return_value_description=[[apis/indexedDB/IDBRequest|'''IDBRequest''']]
+|Return_value_description=[[apis/indexeddb/IDBRequest|'''IDBRequest''']]
 
 An object representing the update request.
 }}
