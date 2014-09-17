@@ -37,8 +37,7 @@
 {{See_Also_Section
 |Manual_links=
 |External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexeddb/IDBTransaction|IDBTransaction]]</code>
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
