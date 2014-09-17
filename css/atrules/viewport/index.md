@@ -1,16 +1,20 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
+|Editorial notes=Add information about the other descriptors (besides width & height); compare with the list in https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies the size, zoom factor, and orientation of the viewport.}}
-{{CSS_At_Rule}}
+{{CSS_At_Rule
+|Content={{Content_Incomplete}}
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=@media screen and (max-width:400px) {
     @-ms-viewport{
         width:320px;
@@ -23,9 +27,11 @@
         width: device-width;
     }
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 You can use the '''@viewport''' rule in tandem with media queries to help optimize your layout. Typically, you nest the '''@viewport''' rule inside the media query, as shown in the following pseudocode snippet:
 <code>@media [media query logic here] {
@@ -69,7 +75,22 @@ Indicates the preferred viewport width used in determining the size of the initi
 |Name=CSS Device Adaptation
 |URL=http://www.w3.org/TR/css-device-adapt/#the-viewport-rule
 |Status=Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Syntax
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -136,15 +157,4 @@ Indicates the preferred viewport width used in determining the size of the initi
 |Version=10.0
 |Note=Partial support. Not all properties are available.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Syntax
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
