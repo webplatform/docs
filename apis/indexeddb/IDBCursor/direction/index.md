@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Needs example, spec reference
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -11,6 +13,7 @@
 |Property_applies_to=apis/indexeddb/IDBCursor
 |Read_only=Yes
 |Example_object_name=cursor
+|Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=The return value describes the direction of travel and the uniqueness of data within the cursor.  It corresponds to one of the following:
 
@@ -22,18 +25,37 @@
 :The cursor is travelling in descending order and all matching records, including duplicate values.
 ;prevunique
 :The cursor is travelling in descending order and contains just one instance of matching key values.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Indexed Database API
 |URL=http://www.w3.org/TR/IndexedDB/
 |Status=Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, IndexedDB}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -62,16 +84,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages===
-*[[apis/indexedDB/IDBCursor|IDBCursor]]
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
