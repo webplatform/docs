@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Not supported.
+|Editorial notes=Not supported; deletion candidate.
 |Checked_Out=No
 |High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -24,7 +24,6 @@ Originally supported in pre-release versions of Internet Explorer 10, support f
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
 }}
 {{Related_Specifications_Section
 |Specifications=
