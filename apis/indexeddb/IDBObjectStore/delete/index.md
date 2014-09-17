@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Removes a record from the specified Object Store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=
 |Name=key
 |Data type=String
 |Description=Key identifying the record to be deleted
@@ -24,6 +27,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=store = db.createObjectStore("store1", { autoIncrement: true });
 store.put("a"); // Will get key 1
 store.delete(1);
@@ -35,25 +39,26 @@ store.delete(IDBKeyRange.lowerBound(0));
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-{| class="wikitable"
-|-
-|'''Exception properties'''
-|'''Description'''
-|-
-|<dl>
+{{{!}} class="wikitable"
+{{!}}-
+{{!}}'''Exception properties'''
+{{!}}'''Description'''
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: ReadOnlyError</dt>
+'''name''': ReadOnlyError</dt>
 </dl>
-|The associated transaction is read-only.
-|-
-|<dl>
+{{!}}The associated transaction is read-only.
+{{!}}-
+{{!}}<dl>
 <dt>
-[[dom/properties/toString (DOMError)|'''name''']]: TransactionInactiveError</dt>
+'''name''': TransactionInactiveError</dt>
 </dl>
-|The associated transaction is not active.
-|}
+{{!}}The associated transaction is not active.
+{{!}}}
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -61,16 +66,10 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBObjectStore|IDBObjectStore]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -79,4 +78,11 @@ This method can throw the following [[dom/DOMException|'''DOMException''']] exce
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
