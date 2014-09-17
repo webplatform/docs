@@ -1,14 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Moves to the next record (or the record specified by a key).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=key
 |Data type=String
 |Description=The next key to position this cursor at.
@@ -30,6 +33,7 @@ If the key parameter is specified and fulfills any of these conditions this meth
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=var tx = db.transaction('Contact');
 var store = tx.objectStore('Contact');
 var cursor = store.openCursor();
@@ -46,6 +50,7 @@ while(cursor.continue()) {
 * The transaction this IDBCursor belongs to is not active.
 * The cursor is currently being iterated, or has iterated past its end.
 * The key parameter was specified but did not contain a valid key.
+|Notes=
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -53,16 +58,10 @@ while(cursor.continue()) {
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexeddb/IDBCursor|IDBCursor]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -71,4 +70,11 @@ while(cursor.continue()) {
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
