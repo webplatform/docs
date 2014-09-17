@@ -20,13 +20,10 @@
 {{Notes_Section
 |Usage=
 |Notes====Remarks===
-The '''IDBOpenDBRequest''' object is returned by operations that affect database, such [[apis/indexedDB/methods/open|'''open''']] and [[apis/indexedDB/methods/deleteDatabase|'''deleteDatabase''']].
-
+The '''IDBOpenDBRequest''' object is returned by operations that affect database, such [[apis/indexeddb/IDBFactory/open|'''open''']] and [[apis/indexeddb/IDBFactory/deleteDatabase|'''deleteDatabase''']].
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
 }}
 {{Related_Specifications_Section
 |Specifications=
