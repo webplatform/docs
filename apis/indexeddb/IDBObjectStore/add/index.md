@@ -11,13 +11,13 @@
 {{Summary_Section|Adds a record to the specified object store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=value
 |Data type=String
 |Description=The value must be valid for the Structured Cloning Algorithm.
 |Optional=No
 }}{{Method Parameter
-|Index=
+|Index=1
 |Name=key
 |Data type=String
 |Description=A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
