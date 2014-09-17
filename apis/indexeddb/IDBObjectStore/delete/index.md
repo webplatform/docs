@@ -11,7 +11,7 @@
 {{Summary_Section|Removes a record from the specified Object Store.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=key
 |Data type=String
 |Description=Key identifying the record to be deleted
