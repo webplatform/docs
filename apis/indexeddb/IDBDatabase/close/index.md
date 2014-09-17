@@ -1,8 +1,10 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
@@ -11,12 +13,15 @@
 |Parameters=
 |Method_applies_to=apis/indexeddb/IDBDatabase
 |Example_object_name=database
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function(event){
 	var db = dbOpenRequest.result;
@@ -28,6 +33,7 @@ dbOpenRequest.onsuccess = function(event){
 }}
 {{Notes_Section
 |Usage=This is a synchronous method that returns after the connection to the database is closed.
+|Notes=
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
@@ -35,16 +41,10 @@ dbOpenRequest.onsuccess = function(event){
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, IndexedDB}}
 {{External_Attribution
@@ -53,4 +53,11 @@ dbOpenRequest.onsuccess = function(event){
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
