@@ -1,28 +1,34 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Requests a file system where data should be stored. You access a sandboxed file system by requesting a LocalFileSystem object using this global method, window.requestFileSystem().}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=type
 |Data type=unsigned short
 |Description=Whether the filesystem requested should be persistent. Use one of TEMPORARY (0) or PERSISTENT (1).
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=size
 |Data type=unsigned long
 |Description=How much storage space, in bytes, the application expects to need.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=successCallback
 |Data type=String
 |Description=The callback that is called when the user agent provides a filesystem.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=errorCallback
 |Data type=String
 |Description=The callback that is called when errors happen, or when the request to obtain the filesystem is denied.
@@ -30,19 +36,38 @@
 }}
 |Method_applies_to=apis/filesystem/LocalFileSystem
 |Example_object_name=LocalFileSystem
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
 |URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileSystemAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -106,12 +131,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileSystemAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
