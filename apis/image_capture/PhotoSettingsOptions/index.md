@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs children, example, spec reference, standardization status
+|Editorial notes=Needs children, example, spec reference, standardization status. May be a dup of apis/image capture/ImageCapture/photoSettingsOptions; deletion candidate?
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Working Draft}}
