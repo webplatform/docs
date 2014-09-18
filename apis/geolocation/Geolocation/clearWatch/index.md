@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Stops a specific watch process.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=watchId
 |Data type=unsigned long
 |Description=The ID of the watch operation to cancel. This value is returned by the '''watchPosition''' method.
@@ -26,14 +29,30 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=If the ''watchId'' parameter does not correspond to any watch process started by a previous call to the '''watchPosition''' method, this method returns and no further action is taken. Otherwise, the watch process identified by ''watchId'' is immediately stopped and no further callbacks must be invoked.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
 |Status=W3C Proposed Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Geolocation}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -95,13 +114,4 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Geolocation}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
