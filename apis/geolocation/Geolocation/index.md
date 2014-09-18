@@ -1,12 +1,17 @@
 {{Page_Title|Geolocation}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a '''Position''' object, and populating that object with appropriate data accordingly.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -19,6 +24,7 @@
  /* geolocation is not available */ 
   alert("I'm sorry, but geolocation services are not supported by your browser.");
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The script checks if geolocation is supported, if possible - the script obtains your actual position using the watchPosition method.
@@ -75,18 +81,35 @@ function getLocationUpdate(){
       alert("Sorry, browser does not support geolocation!");
    }
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Windows Internet Explorer 9.  The '''Geolocation''' object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 The '''Geolocation''' object is not supported for applications hosting the WebBrowser Control.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
 |Status=W3C Proposed Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Geolocation}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -148,13 +171,4 @@ The '''Geolocation''' object is not supported for applications hosting the WebBr
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Geolocation}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
