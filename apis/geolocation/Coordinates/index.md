@@ -1,12 +1,17 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The geographic coordinate reference system used by the attributes in this interface is the World Geodetic System (2d).}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -35,15 +40,34 @@ function geoError(position)
 { 
 alert("No position found");
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
 |Status=W3C Proposed Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Geolocation}}
+{{External_Attribution
+|Is_CC-BY-SA=Yes
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Using_geolocation
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -105,13 +129,4 @@ alert("No position found");
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Geolocation}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Using_geolocation
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
