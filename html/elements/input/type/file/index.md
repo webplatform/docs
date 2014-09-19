@@ -11,10 +11,12 @@
 {{Summary_Section|The '''file''' type of the [[html/elements/input|&lt;input&gt;]] element represents widget for specifying a file.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example lets the user choose one or more files, and then displays the choices.  The files list can also be used to upload to a website.
 
 <span codelanguage{{=}}"HTML"><table>
@@ -61,6 +63,7 @@ The following examples use the '''INPUT type{{=}}file''' element to upload a fil
 &lt;/form&gt;
 |LiveURL=This example uses HTML code to submit a file selected by the user to Cpshost.dll, which is installed with Posting Acceptor.
 }}{{Single Example
+|Language=
 |Description=This example shows the Active Server Page (ASP) content of Repost.asp. Notice that the properties of the uploaded file are accessible from the submitted form.
 |Code=&lt;%@ LANGUAGE {{=}} JScript %&gt;
 &lt;%
@@ -80,9 +83,11 @@ Destination: &lt;b&gt;&lt;% Response.Write(Server.HTMLEncode(Request.Form("Targe
 %&gt; 
 &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 For a file upload to take place:
 *The '''INPUT type{{=}}file''' element must be enclosed within a '''FORM''' element.
@@ -97,6 +102,9 @@ Windows Internet Explorer 8 and later. When a file is selected by using the '''
 Windows Internet Explorer 7 and later.  By default, Internet Explorer does not include folder or directory path information when uploading files to sites in the Restricted zone.  This improves security by preventing information disclosure. Also, to improve accessibility, the '''INPUT type{{=}}file''' element now contains two accessible elements—one for the input box and one for the '''Browse''' button. This change is applicable only to accessibility tools; script implementations are not affected.
 Microsoft Internet Explorer 6 for Windows XP Service Pack 2 (SP2) and later.  For security reasons, the '''input type{{=}}file''' element no longer accepts relative file paths.  Microsoft Internet Explorer raises an Access Denied exception when the user attempts to submit a form containing an '''input type{{=}}file''' element that contains a relative path.
 The '''INPUT type{{=}}file''' element is available in HTML and script as of Microsoft Internet Explorer 4.0. The file upload add-on is required to use the '''INPUT type{{=}}file''' element in Microsoft Internet Explorer 3.02. Users can enter a file path in the text box or click the '''Browse''' button to browse the file system. When a file is uploaded, the file name is also submitted.
+
+===Compatibility notes===
+Firefox for Android sets a default <code>[[css/properties/border|border]]</code> on <code>&lt;input type="file"&gt;</code> elements, unlike most other browsers.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.4
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10
@@ -774,6 +782,20 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>input</code>
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -838,16 +860,4 @@ This property is not supported for Metro style apps using JavaScript.
 |Version=21+
 |Note='files' IDL attribute is writable.
 }}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>input</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
