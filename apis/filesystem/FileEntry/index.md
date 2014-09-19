@@ -1,14 +1,19 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|This interface represents a file on a file system.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following code creates an empty file called "log.txt" (if it doesn't exist) and fills it with the text 'Meow'. Inside the success callback, event handlers are set up for error and writeend events. The text data is written to the file by creating a blob, appending text to it, and passing the blob to FileWriter.write().
@@ -41,15 +46,34 @@
 }
  
 window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
 |URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileSystemAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=Yes
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -113,13 +137,4 @@ window.requestFileSystem(window.TEMPORARY, 1024*1024, onInitFs, errorHandler);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileSystemAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/File_API/File_System_API/FileEntry
-|MSDN_link=
-|HTML5Rocks_link=
 }}
