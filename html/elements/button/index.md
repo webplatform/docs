@@ -41,10 +41,10 @@ By default, the button element is used to submit [[html/elements/form|'''form'''
 <dt>formaction</dt>
 <dd>The URI of a program that processes the information from the form. When present, it will override the action attribute of the associated form.</dd>
 <dt>formmethod</dt>
-<dd>The HTTP method to send the form data. This can either be "post" or "get". If specified, it will override the method attribute of the associated form.
+<dd>The HTTP method to send the form data. This can either be <code>post</code> or <code>get</code>. If specified, it will override the method attribute of the associated form.
 Possible values are:
-* post: The data from the form is included in the body of the form and is sent to the server.
-* get: The data from the form are appended to the form attribute URI, with a '?' as a separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters.</dd>
+* <code>post</code>: The data from the form is included in the body of the form and is sent to the server.
+* <code>get</code>: The data from the form are appended to the form attribute URI, with a '?' as a separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters.</dd>
 <dt>formnovalidate</dt>
 <dd>If the button is a submit button, this attribute specifies whether the form should be validated or not. It overrides the '''novalidate''' attribute of the form it belongs to.</dd>
 <dt>formtarget</dt>
