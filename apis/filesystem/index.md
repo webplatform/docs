@@ -1,7 +1,9 @@
 {{Page_Title|File System API}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -12,9 +14,16 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{See_Also_Section
 |Topic_clusters=Off-line Storage
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, FileSystemAPI}}
 {{External_Attribution
