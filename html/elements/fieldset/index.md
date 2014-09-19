@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''fieldset''' element is used to group related elements in a form.}}
+{{Summary_Section|The '''fieldset''' element is used to group related fields within a form.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFieldSetElement
 |Content=The ''fieldset'' element represents a set of form controls. Optionally grouped under a common name with an additional '''legend''' element.
