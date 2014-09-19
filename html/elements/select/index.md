@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -24,6 +25,7 @@
 &lt;option value{{=}}"2"&gt;Tortie
 &lt;option value{{=}}"3" selected&gt;Siamese
 &lt;/select&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/HTMLElement/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
@@ -32,6 +34,7 @@
 &lt;option value{{=}}"2"&gt;Porsche
 &lt;option value{{=}}"3" selected&gt;Mercedes
 &lt;/select&gt;
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=This JavaScript example adds a new option to the end of the '''SELECT''' list created above. The [[dom/Option|Option]] constructor can also be used in JavaScript.
@@ -39,9 +42,12 @@
 option.text{{=}}"Ferrari";
 option.value{{=}}"4";
 document.getElementById("select-element").add(option);
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all <code>&lt;select multiple&gt;</code> elements. This can be disabled using <code>background-image: none</code>.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
@@ -805,6 +811,19 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -815,13 +834,4 @@ This property is not supported for Metro style apps using JavaScript.
 |Version=5 - 6
 |Note=The element is always on top, regardless of the value of its '''z-index''' CSS property.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
