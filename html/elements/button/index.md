@@ -94,21 +94,42 @@ The ending tag is mandatory. The button should have a descriptive text inside it
 
 Please note that styling a submit button using the &lt;button&gt; element is easier than styling an [[html/elements/input|'''input''']] element with type <code>submit</code>.
 |Notes=Since the default for the <code>type</code> attribute is <code>submit</code>, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard <code>type</code> values.
+
+Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all '''button''' elements. This can be disabled using <code>background-image: none</code>.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.5
 |Status=Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/forms.html#the-button-element
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=WhatWG HTML Living Standard
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-button-element
 |Status=Living Standard
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Document Structure, HTML
+|Manual_links=* [[html/elements/input/type/button|'''input type="button"''']]
+* [[html/elements/input/type/submit|'''input type="submit"''']]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML, UI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button <button> on MDN]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -166,17 +187,4 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 |Version=8 and later
 |Note=The default value of the type attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is submit. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is button. When the BUTTON element is submitted in a form, the value depends on the current document compatibility mode. In IE8 mode, the value attribute is submitted. In other document modes and earlier versions of Internet Explorer, the innerText value is submitted.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure, HTML
-|Manual_links=* [[html/elements/input/type/button|'''input type="button"''']]
-* [[html/elements/input/type/submit|'''input type="submit"''']]
-}}
-{{Topics|HTML, UI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button <button> on MDN]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
