@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Creates or looks up a file.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=path
 |Data type=String
 |Description=Either an absolute path or a relative path from this DirectoryEntry to the file to be looked up or created. It is an error to attempt to create a file whose immediate parent does not yet exist.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=options
 |Data type=String
 |Description=*If create and exclusive are both true and the path already exists, getDirectory must fail.
@@ -22,11 +26,13 @@
 *Otherwise, if no other error occurs, getDirectory must return a DirectoryEntry corresponding to path.
 |Optional=Yes
 }}{{Method Parameter
+|Index=2
 |Name=successCallback
 |Data type=String
 |Description=A callback that is called to return the File selected or created.
 |Optional=Yes
 }}{{Method Parameter
+|Index=3
 |Name=errorCallback
 |Data type=String
 |Description=A callback that is called when errors happen.
@@ -34,19 +40,38 @@
 }}
 |Method_applies_to=apis/filesystem/DirectoryEntry
 |Example_object_name=DirectoryEntry
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
 |URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileSystemAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -110,12 +135,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileSystemAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
