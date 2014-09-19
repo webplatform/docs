@@ -264,12 +264,12 @@ The request contains bad syntax or cannot be fulfilled
 |-
 | 428
 | Precondition Required
-| 
+| The server requests a conditional request header such as If-Match to prevent "lost updates"
 | [http://www.iana.org/go/rfc6585 RFC6585]
 |-
 | 429
 | Too Many Requests
-| 
+| Enhance your calm!
 | [http://www.iana.org/go/rfc6585 RFC6585]
 |-
 | 431
