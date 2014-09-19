@@ -96,6 +96,8 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 |Notes=Since the default for the <code>type</code> attribute is <code>submit</code>, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard <code>type</code> values.
 
 Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all '''button''' elements. This can be disabled using <code>background-image: none</code>.
+
+Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state] of a '''button''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla Bug #654072].
 |Import_Notes=
 }}
 {{Related_Specifications_Section
