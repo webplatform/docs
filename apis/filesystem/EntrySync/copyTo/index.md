@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Copy an EntrySync to a different location on the file system.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=parent
 |Data type=String
 |Description=The directory to which to move the EntrySync.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=newName
 |Data type=String
 |Description=The new name of the EntrySync. Defaults to the EntrySync's current name if unspecified.
@@ -20,6 +24,8 @@
 }}
 |Method_applies_to=apis/filesystem/EntrySync
 |Example_object_name=EntrySync
+|Return_value_name=
+|Javascript_data_type=
 |Return_value_description=EntrySync
 }}
 {{Examples_Section
@@ -27,6 +33,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=It is an error to try to:
 *copy a directory inside itself or to any child at any depth;
 *copy an EntrySync into its parent if a name different from its current one isn't provided;
@@ -39,13 +46,27 @@ A copy of a file on top of an existing file must attempt to delete and replace t
 A copy of a directory on top of an existing empty directory must attempt to delete and replace that directory.
 
 Directory copies are always recursive--that is, they copy all contents of the directory.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API: Directories and System Specification
 |URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileSystemAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -109,12 +130,4 @@ Directory copies are always recursive--that is, they copy all contents of the di
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileSystemAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
