@@ -21,17 +21,21 @@ A text area can hold an unlimited number of characters, and the text renders in 
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the <code>textarea</code> element to set the cascading style sheets (CSS) [[css/properties/overflow|'''overflow''']] attribute to <code>hidden</code> to remove the scroll bars from the <code>textarea</code>.
 |Code=&lt;textarea style{{=}}"overflow:hidden" id{{=}}txtComments&gt;
    The patient is in stable condition after suffering an attack of 
    the insatiable munchies.
 &lt;/textarea&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
 |Notes====Remarks===
 The default font is fixed pitch.
+
+Firefox for Android, by default, sets a [[css/properties/background-image|background-image]] gradient on all '''textarea''' elements. This can be disabled using <code>background-image: none</code>.
 
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
 |Import_Notes====Standards information===
@@ -814,14 +818,9 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>input</code>
 }}
@@ -832,4 +831,11 @@ This property is not supported for Metro style apps using JavaScript.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
