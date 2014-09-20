@@ -79,24 +79,23 @@ Internationalization topics related to the <code>input</code> element:
 {{Notes_Section
 |Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
 |Notes=For code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
+
+Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state and (if applicable) dynamic checkedness] of an '''input''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature; this works even when the <code>autocomplete</code> attribute would normally not apply to the '''input''' by virtue of its <code>type</code>. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla bug #654072].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/forms.html#the-input-element
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
+|Manual_links=
 |External_links=http://www.w3.org/TR/html-markup/input.html#input
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -105,4 +104,11 @@ Internationalization topics related to the <code>input</code> element:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
