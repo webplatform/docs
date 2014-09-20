@@ -15,6 +15,8 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
@@ -83,6 +85,7 @@ txtOutput.value {{=}} window.event.srcElement.value;
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If the user clicks the left mouse button, the '''onclick''' event for an object occurs only if the mouse pointer is over the object and an [[dom/MouseEvent/mousedown|'''onmousedown''']] and an [[dom/MouseEvent/mouseup|'''onmouseup''']] event occur in that order. For example, if the user clicks the mouse on the object but moves the mouse pointer away from the object before releasing, no '''onclick''' event occurs.
 The '''onclick''' event changes the value of a control in a group. This change initiates the event for the group, not for the individual control. For example, if the user clicks a radio button or check box in a group, the '''onclick''' event occurs after the [[dom/Event/beforeupdate|'''onbeforeupdate''']] and [[dom/Event/afterupdate|'''onafterupdate''']] events for the control group.
@@ -95,6 +98,17 @@ To invoke this event, do one of the following:
 *Press the ENTER key in a form.
 *Press the access key for a control.
 *Select an item in a combo box or list box by clicking the left mouse button or by pressing the arrow keys and then pressing the ENTER key.
+
+===Compatibility===
+====Internet Explorer 8 & 9====
+Internet Explorer 8 & 9 suffer from a bug where elements with a computed <code>[[css/properties/background-color|background-color]]</code> of <code>transparent</code> that are overlaid on top of other element(s) won't receive <code>click</code> events. Any '''click''' events will be fired at the underlying element(s) instead. See [http://jsfiddle.net/YUKma/show/ this live example] for a demonstration.
+
+Known workarounds for this bug:
+* For IE9 only:
+** Set [[css/properties/background-color|<code>background-color</code>]]<code>: rgba(0,0,0,0)</code>
+** Set [[css/properties/opacity|<code>opacity</code>]]<code>: 0</code> and an explicit <code>[[css/properties/background-color|background-color]]</code> other than <code>transparent</code>
+* For IE8 and IE9
+** Set [http://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx <code>filter</code>]<code>: alpha(opacity=0);</code> and an explicit <code>[[css/properties/background-color|background-color]]</code> other than <code>transparent</code>
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.3
@@ -113,7 +127,11 @@ To invoke this event, do one of the following:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
