@@ -47,7 +47,9 @@ document.getElementById("select-element").add(option);
 }}
 {{Notes_Section
 |Usage=
-|Notes=Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all <code>&lt;select multiple&gt;</code> elements. This can be disabled using <code>background-image: none</code>.
+|Notes=In the Browser app for Android 4.1 (and possibly later versions), there is a bug where the menu indicator triangle on the side of a '''select''' will not be displayed if a <code>[[css/properties/background|background]]</code>, <code>[[css/properties/border|border]]</code>, or <code>[[css/properties/border-radius|border-radius]]</code> style is applied to the '''select'''.
+
+Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all <code>&lt;select multiple&gt;</code> elements. This can be disabled using <code>background-image: none</code>.
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.6
