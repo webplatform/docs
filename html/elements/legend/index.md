@@ -46,14 +46,8 @@ The »problem« with the '''fieldset''' and '''legend''' elements is that they d
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/forms.html#the-legend-element
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
@@ -61,7 +55,9 @@ The »problem« with the '''fieldset''' and '''legend''' elements is that they d
 * [[html/elements/fieldset|'''fieldset''']] element
 |External_links=* http://www.w3.org/TR/html-markup/legend.html#legend
 * http://www.w3.org/TR/html5/forms.html#the-legend-element
+* http://www.w3.org/TR/html5/rendering.html#the-fieldset-and-legend-elements
 * http://morten.dk/blog/fieldset-legend-behave
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -69,4 +65,11 @@ The »problem« with the '''fieldset''' and '''legend''' elements is that they d
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
