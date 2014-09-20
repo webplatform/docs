@@ -103,6 +103,8 @@
 |Notes====Default layout===
 Typically, the browser draws a box around the containing elements of every fieldset. This border can be disabled via CSS <code>border: none;</code> The border contains the legend by default. See [[html/elements/legend|'''legend''']] for details.
 
+The [https://html.spec.whatwg.org/multipage/rendering.html#the-fieldset-and-legend-elements "Rendering" section of the WHATWG HTML specification] suggests [[css/properties/min-width|<code>min-width</code>]]<code>: min-content</code> as part of the default style for '''fieldset''', and many browsers implement such styling (or something that approximates it); almost no other element shares this default style. See also [http://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content StackOverflow], [https://bugzilla.mozilla.org/show_bug.cgi?id=504622 Mozilla bug #504622], and [https://bugs.webkit.org/show_bug.cgi?id=123507 WebKit bug #123507].
+
 ===Nesting fieldsets===
 It’s also possible and in certain use cases pretty useful to nest fieldsets.
 
