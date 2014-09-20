@@ -35,7 +35,7 @@ A text area can hold an unlimited number of characters, and the text renders in 
 |Notes====Remarks===
 The default font is fixed pitch.
 
-Firefox for Android, by default, sets a [[css/properties/background-image|background-image]] gradient on all '''textarea''' elements. This can be disabled using <code>background-image: none</code>.
+Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all '''textarea''' elements. This can be disabled using <code>background-image: none</code>.
 
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
 |Import_Notes====Standards information===
