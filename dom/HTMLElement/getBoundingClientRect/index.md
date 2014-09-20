@@ -161,13 +161,30 @@ function End() {
 |Usage=Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
 
 The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
+|Notes====Compatibility===
+In IE8, '''getBoundingClientRect''' returns a <code>[[dom/TextRectangle|TextRectangle]]</code> object, which does not have <code>height</code> or <code>width</code> properties and furthermore cannot have any additional properties (including <code>height</code> and <code>width</code>) added to it.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSSOM View Module
 |URL=http://www.w3.org/TR/cssom-view/#the-getclientrects-and-getboundingclientrect-methods
 |Status=Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/element.getBoundingClientRect
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -200,13 +217,4 @@ The amount of scrolling that has been done of the viewport area (or any other sc
 |Version=8 and earlier
 |Note=Adds 2 to each coordinate (top, bottom, right, left), which must be subtracted in order to get the actual values (this is because the window's upper-left is at 2, 2 (pixels) with respect to the true client).
 }}
-}}
-{{See_Also_Section}}
-{{Topics|CSS, DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/element.getBoundingClientRect
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
