@@ -107,7 +107,7 @@ Typically, the browser draws a box around the containing elements of every field
 It’s also possible and in certain use cases pretty useful to nest fieldsets.
 
 ===Compatibility===
-Not all form control descendants of a disabled '''fieldset''' are properly disabled in IE11; see [https://connect.microsoft.com/IE/feedbackdetail/view/817488 IE bug 817488: <code>input[type="file"<nowiki>]</nowiki></code> not disabled inside disabled <code>fieldset</code>] and [https://connect.microsoft.com/IE/feedbackdetail/view/962368/can-still-edit-input-type-text-within-fieldset-disabled IE bug 962368: Can still edit <code>input[type="text"]</code> within <code>fieldset[disabled]</code>].
+Not all form control descendants of a disabled '''fieldset''' are properly disabled in IE11; see [https://connect.microsoft.com/IE/feedbackdetail/view/817488 IE bug 817488: <code>input[type="file"<nowiki>]</nowiki></code> not disabled inside disabled <code>fieldset</code>] and [https://connect.microsoft.com/IE/feedbackdetail/view/962368/can-still-edit-input-type-text-within-fieldset-disabled IE bug 962368: Can still edit <code>input[type="text"<nowiki>]</nowiki></code> within <code>fieldset[disabled]</code>].
 |Import_Notes=
 }}
 {{Related_Specifications_Section
