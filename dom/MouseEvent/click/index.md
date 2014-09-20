@@ -101,7 +101,7 @@ To invoke this event, do one of the following:
 
 ===Compatibility===
 ====Internet Explorer 8 & 9====
-Internet Explorer 8 & 9 suffer from a bug where elements with a computed <code>[[css/properties/background-color|background-color]]</code> of <code>transparent</code> that are overlaid on top of other element(s) won't receive <code>click</code> events. Any '''click''' events will be fired at the underlying element(s) instead. See [http://jsfiddle.net/YUKma/show/ this live example] for a demonstration.
+Internet Explorer 8 & 9 suffer from a bug where elements with a computed <code>[[css/properties/background-color|background-color]]</code> of <code>transparent</code> that are overlaid on top of other element(s) won't receive '''click''' events. Any '''click''' events will be fired at the underlying element(s) instead. See [http://jsfiddle.net/YUKma/show/ this live example] for a demonstration.
 
 Known workarounds for this bug:
 * For IE9 only:
