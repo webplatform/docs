@@ -269,7 +269,7 @@ The request contains bad syntax or cannot be fulfilled
 |-
 | 429
 | Too Many Requests
-| Enhance your calm!
+| The client has exceeded a request rate limit imposed by the server. Enhance your calm!
 | [http://www.iana.org/go/rfc6585 RFC6585]
 |-
 | 431
