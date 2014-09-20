@@ -130,6 +130,7 @@ Not all form control descendants of a disabled '''fieldset''' are properly disab
 |Manual_links=* [[html/elements/legend|'''legend''']] element
 * [[html/elements/form|'''form''']] element
 |External_links=* http://www.w3.org/TR/html5/forms.html#the-fieldset-element
+* http://www.w3.org/TR/html5/rendering.html#the-fieldset-and-legend-elements
 * http://www.w3.org/TR/html-markup/fieldset.html#fieldset
 |Manual_sections=
 }}
