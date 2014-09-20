@@ -2,7 +2,6 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -11,11 +10,14 @@
 {{API_Name}}
 {{Summary_Section|Sets or retrieves the string that indicates whether the user can edit the content of the object.}}
 {{Markup_Attribute
+|Applies_to=
 |Property_applies_to=dom/HTMLElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=In the following example, setting the 
 '''DIV''' elements to have 
 <code>100%</code> [[css/properties/height|'''height''']] 
@@ -40,7 +42,9 @@ the borders of the cells editable.
 &lt;/TR&gt;
 &lt;/TBODY&gt;
 &lt;/TABLE&gt;
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=The following example shows how to use the '''contentEditable''' property to control whether the user can edit the content of the object.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
@@ -66,6 +70,7 @@ SPAN can be edited: &lt;SPAN ID{{=}}"oCurrentValue"&gt;&lt;/SPAN&gt;
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Child elements do not inherit this attribute unless they have layout. Use the [[css/cssom/properties/hasLayout|'''hasLayout''']] property to determine if an object has layout.
 If this attribute is applied to a '''BODY''' element, it has the same effect as setting the [[dom/properties/designMode|'''designMode''']] property of the [[dom/Document|'''Document''']] object.
@@ -85,73 +90,24 @@ element can be placed inside the individual table cells
 elements).   See the example below.
 '''Security Warning:  '''Users can change the contents of a document when the '''contentEditable''' property is set to TRUE. Using this property incorrectly can compromise the security of your application. Incorrect use of the '''contentEditable''' property might include not validating user input. If you do not validate user input, a malicious user can inject control characters or script that can harm your data. You should take routine precautions against displaying unvalidated user input. For more information, see Security Considerations: Dynamic HTML.
 Windows Internet Explorer 8 and later. When a webpage is displayed in IE8 Standards mode, an object cannot receive focus when ''p'' is set to <code>false</code>. When pages are displayed in earlier document compatibility modes, objects can receive focus when ''p'' is <code>false</code>.
-|Import_Notes====Syntax===
+
+===Compatibility===
+* [https://connect.microsoft.com/IE/feedbackdetail/view/809254 IE bug 809254]: IE9-10 window freezes when using mousewheel while dragging
+* [https://connect.microsoft.com/IE/feedbackdetail/view/801770 IE bug 801770]: IE10 crashes after selecting "Cut" from the context menu
+* [https://connect.microsoft.com/IE/feedback/details/796187/internet-explorer-10-crash-with-contenteditable-list IE bug 796187]: IE10 crashes in some cases when editing lists
+* [https://connect.microsoft.com/IE/feedbackdetail/view/774350 IE bug 774350]: IE10 does not fire <code>[[dom/Event/contextmenu|contextmenu]]</code> event when right-clicking on misspelled words
+* [https://connect.microsoft.com/IE/feedbackdetail/view/794285 IE bug 794285]: IE10-11 does not fire the <code>[[dom/Event/input|input]]</code> event
+* [https://connect.microsoft.com/IE/feedbackdetail/view/807199 IE bug 807199]: IE11+ does not allow placing the caret in an empty table cell
+* [https://connect.microsoft.com/IE/feedbackdetail/view/864804 IE bug 864804]: IE11 appends <code>[[html/elements/br|&lt;br&gt;]]</code> elements to the <code>[[html/elements/body|&lt;body&gt;]]</code> when showing/hiding an <code>[[html/elements/iframe|&lt;iframe&gt;]]</code> with <code>contenteditable</code> document inside
+* [https://connect.microsoft.com/IE/feedbackdetail/view/907422 IE bug 907422]: IE11 does not allow disabling resize handles for images/inputs
+* [https://connect.microsoft.com/IE/feedback/details/858749 IE bug 858749]: IE11+ uses invalid positioning for caret when an element is floated
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=4.0+
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3.0+
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5+
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=9.0+
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=3.1+
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=3.0+
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0+
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18.0+
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15.0+
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0+
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://demo.xpertdeveloper.com/contenteditable-attribute/ Contenteditable Demo]
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/defaultSelected|defaults]]</code>
@@ -227,4 +183,65 @@ Windows Internet Explorer 8 and later. When a webpage is displayed in IE8 Stand
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Chrome_supported=Yes
+|Chrome_version=4.0+
+|Chrome_prefixed_supported=Unknown
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=3.0+
+|Firefox_prefixed_supported=Unknown
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=5.5+
+|Internet_explorer_prefixed_supported=Unknown
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=9.0+
+|Opera_prefixed_supported=Unknown
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=3.1+
+|Safari_prefixed_supported=Unknown
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Android_supported=Yes
+|Android_version=3.0+
+|Android_prefixed_supported=Unknown
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=7.0+
+|Blackberry_prefixed_supported=Unknown
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=18.0+
+|Chrome_mobile_prefixed_supported=Unknown
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=15.0+
+|Firefox_mobile_prefixed_supported=Unknown
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Unknown
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Unknown
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=No
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=No
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=No
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=No
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=5.0+
+|Safari_mobile_prefixed_supported=Unknown
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows=
 }}
