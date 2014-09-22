@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -11,9 +14,16 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{See_Also_Section
 |Topic_clusters=Canvas
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API, Canvas}}
 {{External_Attribution
