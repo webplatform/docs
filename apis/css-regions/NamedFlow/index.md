@@ -1,12 +1,17 @@
 {{Page_Title|NamedFlow}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Represents content to flow among various block [[css/concepts/region|''region'']] elements. The '''NamedFlow''' interface allows access to both the content of the [[css/concepts/named_flow|flow]] and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -30,6 +35,7 @@ function modifyFlow(e) {
         trimRegions(flow.name); // custom function
     }
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Check if the opening paragraph splits across layout elements:
@@ -50,21 +56,41 @@ var regions = flow.getRegionsByContent(firstPara);
 if (regions.length > 1) {
     adjustLayout(regions[0], firstPara); // custom function
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a [[css/concepts/region_chain|chain]] of 'regions' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
 
-Use the [[dom/apis/document/getNamedFlows|'''getNamedFlows()''']] method to gather [[css/concepts/named_flow|named flows]] from a document.
+Use the [[dom/Document/getNamedFlows|'''getNamedFlows()''']] method to gather [[css/concepts/named_flow|named flows]] from a document.
 
 For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -126,18 +152,4 @@ For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to
 |Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
