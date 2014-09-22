@@ -1,5 +1,7 @@
 {{Page_Title|CSSRegionStyleRule}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -8,6 +10,7 @@
 {{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet, which applies styles to [[css/concepts/fragment|fragments]] of content that flow into a CSS [[css/concepts/region|region]].}}
 {{API_Object
 |Subclass_of=css/cssom/CSSRule
+|Overview=
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,6 +23,7 @@
         background-color: #000;
     }
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Narrow the scope of the first rule within the @region to the first paragraph, and modify its background color
@@ -37,6 +41,7 @@ console.log(rule.cssRules[0].cssText);
 
 // inspect CSS syntax for entire @region rule:
 console.log(rule.cssText);
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=The '''cssText''' above now dynamically reflects these altered values:
@@ -46,15 +51,37 @@ console.log(rule.cssText);
         background-color: #777;
     }
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/2012/WD-css3-regions-20120823/
 |Status=W3C Working Draft 23 August 2012
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -116,18 +143,4 @@ console.log(rule.cssText);
 |Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
