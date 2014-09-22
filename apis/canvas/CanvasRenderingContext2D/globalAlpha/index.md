@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -9,8 +12,10 @@
 |Property_applies_to=apis/canvas/CanvasRenderingContext2D
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
+|Return_value_name=
 |Javascript_data_type=Number
 |Return_value_description=Default is 1.0.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -31,17 +36,34 @@
   ctx.arc(75,75,50,0,Math.PI*2,true);
   ctx.fill();
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=If you set the ''globalAlpha'' property to a value outside the range (including infinity or not a number (NaN)), the previous value is preserved.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=Yes
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/samples/canvas-tutorial/4_3_canvas_globalalpha.html
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -103,13 +125,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/samples/canvas-tutorial/4_3_canvas_globalalpha.html
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
