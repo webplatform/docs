@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,16 +10,19 @@
 {{Summary_Section|Depending on how it is called, returns either an '''ImageData''' object with the given ''sw, sh'' dimensions or an '''ImageData''' object with the same dimensions as the ''imagedata'' argument. See Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=sw
 |Data type=Number
 |Description=The width of the new object, in CSS pixels.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=sh
 |Data type=Number
 |Description=The height of the new object, in CSS pixels.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=imagedata
 |Data type=Object
 |Description=An '''ImageData''' object of the desired width and height.
@@ -33,16 +39,32 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=When this method is invoked with two arguments, ''sw'' and ''sh'', it returns an '''ImageData''' object representing a rectangle with a width in CSS pixels equal to the absolute magnitude of ''sw'' and a height in CSS pixels equal to the absolute magnitude of ''sh''. When invoked with a single ''imagedata'' argument, it returns an '''ImageData''' object representing a rectangle with the same dimensions as the '''ImageData''' object passed as the argument. The object returned is filled with transparent black.
 
 This method is never called with all three arguments.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -104,13 +126,4 @@ This method is never called with all three arguments.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
