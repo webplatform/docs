@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,31 +10,37 @@
 {{Summary_Section|Returns a radial '''CanvasGradient''' initialized with the two specified circles. This effectively creates a cone, touched by the two circles defined in the creation of the gradient, with the part of the cone before the start circle (0.0) using the color of the first offset, the part of the cone after the end circle (1.0) using the color of the last offset, and areas outside the cone (untouched by the gradient) transparent black.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x0
 |Data type=Number
 |Description=The x-coordinate of the starting circle of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y0
 |Data type=Number
 |Description=The y-coordinate of the starting circle of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=r0
 |Data type=Number
 |Description=The radius of the starting circle.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=x1
 |Data type=Number
 |Description=The x-coordinate of the ending circle of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=y1
 |Data type=Number
 |Description=The y-coordinate of the ending circle of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=r1
 |Data type=Number
 |Description=The radius of the ending circle.
@@ -48,14 +57,30 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=You can use radial gradients  together  with the  ''fillText'' or ''fillRect'' method.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -117,13 +142,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
