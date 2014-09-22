@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,21 +10,25 @@
 {{Summary_Section|Returns a linear '''CanvasGradient''' initialized with the specified line as represented by the start point (''x0, y0'') and end point (''x1, y1'') of the gradient.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x0
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the start point of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y0
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the start point of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=x1
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the end point of the gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=y1
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the end point of the gradient.
@@ -37,13 +44,31 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -105,13 +130,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
