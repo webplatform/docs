@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,11 +10,13 @@
 {{Summary_Section|Adds a new stop to a gradient. If ''offset'' is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS <color> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset ''offset'' relative to the whole gradient, and with the color obtained by parsing ''color'' as a CSS <color> value.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=offset
 |Data type=any
 |Description=A floating point value between 0.0 and 1.0 that represents the position between the start and end points in a gradient.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=color
 |Data type=any
 |Description=A CSS color string to  display  at the position  that the  ''offset'' parameter specifies.
@@ -28,6 +33,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following code example creates a gradient.
 |Code=&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -59,17 +65,34 @@ function draw()
     &lt;button onclick{{=}}"draw()"&gt;Click me&lt;/button&gt;        
 &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=You can call the '''addColorStop'''  method  multiple times to  change  a gradient. If  you never call this method  for [[apis/canvas/CanvasGradient|CanvasGradient]],  the gradient is not visible. You need to create at least one color stop to have a visible gradient.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -131,13 +154,4 @@ function draw()
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
