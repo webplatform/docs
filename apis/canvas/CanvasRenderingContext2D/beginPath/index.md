@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -9,7 +12,9 @@
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=context
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -50,17 +55,34 @@
 |Description=This snippet shows the basis syntax for beginPath() using the canvas context.
 |Code=var ctx = canvas.getContext('2d');
                 ctx.beginPath();
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=A path consists of a list of zero or more subpaths. Each subpath is a list of one or more points that are connected by straight or curved lines.  Each subpath also  contains a flag that indicates  whether the subpath is closed. If a subpath is closed, the last point of the subpath is connected to the first point by a straight line. Subpaths  that have  fewer than two points are ignored when the path is painted.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -122,13 +144,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
