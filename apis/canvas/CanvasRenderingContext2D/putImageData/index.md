@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,36 +10,43 @@
 {{Summary_Section|Writes data from ImageData structures back to the canvas. If any of the arguments are infinite or NaN, the method must throw a NotSupportedError exception. When the last four arguments are omitted, they are assumed to have the values 0, 0, the width member of the imagedata structure, and the height member of the imagedata structure, respectively.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=imagedata
 |Data type=any
 |Description=An ''ImageData'' object with  an image's pixel data.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=dx
 |Data type=any
 |Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=dy
 |Data type=any
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=dirtyX
 |Data type=any
 |Description=The horizontal (x) value, in CSS pixels, where to place  the image on  the canvas.
 |Optional=Yes
 }}{{Method Parameter
+|Index=4
 |Name=dirtyY
 |Data type=any
 |Description=The vertical (y) value, in CSS pixels, where to place  the image on  the canvas.
 |Optional=Yes
 }}{{Method Parameter
+|Index=5
 |Name=dirtyWidth
 |Data type=any
 |Description=The destination width value, in CSS pixels, to use  to  draw  the image to the canvas.
 |Optional=Yes
 }}{{Method Parameter
+|Index=6
 |Name=dirtyHeight
 |Data type=any
 |Description=The destination height value, in CSS pixels to use  to  draw  the image to  the canvas.
@@ -73,14 +83,30 @@ This method can return one of these values.
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=You can specify an optional rectangle  to show only those pixels. This  "dirty" rectangle refers to a section of pixels to paint.  You can use this option  to  specify areas on an image that might  change  without repainting the complete image.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -142,13 +168,4 @@ This method can return one of these values.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
