@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Fills all the subpaths of the intended path, using ''fillStyle'', and using the non-zero winding number rule. Open subpaths must be implicitly closed when being filled (without affecting the actual subpaths).}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=path
 |Data type=DOM Node
 |Description=The path to be filled.
@@ -25,13 +28,31 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -93,13 +114,4 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
