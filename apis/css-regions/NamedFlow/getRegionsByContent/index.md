@@ -10,7 +10,7 @@
 {{Summary_Section|Returns the static sequence of [[css/concepts/region|regions]] that contain at least part of the supplied target content element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
-|Index=
+|Index=0
 |Name=element
 |Data type=DOM Node
 |Description=
