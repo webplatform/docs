@@ -1,12 +1,17 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Provides the ''oneTimeOnly'' property for use with the ''createObjectURL'' method.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -15,6 +20,7 @@
 |Usage=<code>
  oURL = URL.createObjectURL(file, {oneTimeOnly: true});
 </code>
+|Notes=
 |Import_Notes=The '''ObjectURLOptions''' object provides the
 ''oneTimeOnly'' property, which
 specifies whether an object created with [[apis/file/URL/createObjectURL|createObjectURL]] is only used once, and thus does not need [[apis/file/URL/createObjectURL|revokeObjectURL]] run against it.
@@ -24,7 +30,21 @@ specifies whether an object created with [[apis/file/URL/createObjectURL|createO
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -88,13 +108,4 @@ specifies whether an object created with [[apis/file/URL/createObjectURL|createO
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
