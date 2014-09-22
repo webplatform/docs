@@ -1,5 +1,7 @@
 {{Page_Title|regionfragmentchange}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -80,6 +82,7 @@ div:last-of-type { left: 55%; }
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The event fires when content shifts 'in any way' within the
 [[css/concepts/region_chain|region chain]], such as when linebreaks change. That is, when any
 [[css/concepts/region|region's]] [[apis/css-regions/Region/getRegionFlowRanges|collection of
@@ -88,18 +91,21 @@ with the
 [[apis/css-regions/NamedFlow/regionoversetchange|'''regionoversetchange''']]
 event, which fires much less frequently in response to changing
 content or dimensions.)
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=No
@@ -122,6 +128,7 @@ content or dimensions.)
 |Safari_prefixed_version=534
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=No
@@ -159,10 +166,12 @@ content or dimensions.)
 }}
 {{See_Also_Section
 |Topic_clusters=Regions
+|Manual_links=
 |External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
 * Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
 }}
 {{Topics|API, CSS, CSS-Regions}}
 {{External_Attribution
