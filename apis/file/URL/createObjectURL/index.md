@@ -1,18 +1,22 @@
 {{Page_Title|createObjectURL}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Creates a URL for the specified object.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=object
 |Data type=function
 |Description=The object that needs a URL. Usually a [[apis/file/File|File]].
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=options
 |Data type=DOM Node
 |Description=A dictionary object. See [[apis/file/ObjectURLOptions|ObjectURLOptions]] for more information. Used with ''oneTimeOnly'' attribute to create a single use URL that does not need to be revoked.
@@ -29,17 +33,33 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The URL that is created can be used for resources for use with elements such as '''Image''', '''video''', and '''audio'''.
 The object passed in through ''object'' is stored in an internal  hash table.
-''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|ObjectURLOptions]] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. For URLs created for [[apis/file/MSStream|MSStream]] objects, ''oneTimeOnly'' is automatically set to ''true''.
+''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|ObjectURLOptions]] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. 
 To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectURL|revokeObjectURL]].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -103,13 +123,4 @@ To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectU
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
