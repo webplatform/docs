@@ -1,5 +1,7 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -66,6 +68,7 @@ This method can return the following value.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following code example shows several different arcs.
 |Code=<html>
 <head>
@@ -102,15 +105,31 @@ This method can return the following value.
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=If the ''startAngle'' and ''endAngle''  angles are equal,  the '''arc'''  method  creates a circle. To convert degrees to radians use:
  <code>var radians {{=}} degrees * Math.PI/180</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -172,13 +191,4 @@ This method can return the following value.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
