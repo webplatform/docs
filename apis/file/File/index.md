@@ -1,13 +1,17 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The '''File''' object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a [[apis/file/FileList|FileList]] object returned when a user selects files using the '''input''' element, or from a drag-and-drop operation's '''DataTransfer''' object.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -27,15 +31,34 @@
   }
 
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN, HTML5Rocks
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/File File]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772305(v=vs.85).aspx file Object]
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/dndfiles/
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -99,13 +122,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN, HTML5Rocks
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/File File]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772305(v=vs.85).aspx file Object]
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/dndfiles/
 }}
