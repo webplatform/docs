@@ -1,13 +1,17 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|The '''FileReader''' object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the ''input'' element, from a drag-and-drop operation's ''DataTransfer'' object, or from the ''mozGetAsFile() API'' on an ''HTMLCanvasElement''.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -53,14 +57,30 @@ function loadImageFile() {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=When the <code>FileReader</code> constructor is invoked, a new FileReader object is returned. This FileReader object enables asynchronous reads on individual File objects by firing progress events as the read occurs to event handler methods attached to the FileReader object.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=[https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications Using files from web applications]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/FileReader FileReader]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx fileReader Object]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -124,15 +144,4 @@ function loadImageFile() {
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=[https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications Using files from web applications]
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/FileReader FileReader]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx fileReader Object]
-|HTML5Rocks_link=
 }}
