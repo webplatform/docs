@@ -429,7 +429,7 @@ Next you can create the CSS for the little logos. As usual, you can start by def
   width: 15px; 
   margin-right:20px;
   display:-moz-inline-box; 
-  display:inline--block;
+  display:inline-block;
   vertical-align: middle;
 }</syntaxhighlight>
  
