@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,11 +10,13 @@
 {{Summary_Section|Adds the scaling transformation described by the arguments to the transformation matrix. The ''x'' argument represents the scale factor in the horizontal direction; the ''y'' argument represents the scale factor in the vertical direction. The factors are multiples.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The horizontal scaling factor, where 1 equals unity or 100% scale.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The vertical scaling factor.
@@ -35,6 +40,7 @@ ctx.fillRect(0,0,100,100);
 ctx.scale(1.5, 1.5);	// draws the second rect 2.5 times larger
 ctx.fillStyle = "rgba(255,0,0,0.5)";
 ctx.fillRect(25,25,100,100);	// note the width & height are 1.5 times bigger than 100 px
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This full example draws two rects, the second scaled 1.5 times
@@ -62,19 +68,36 @@ ctx.fillRect(25,25,100,100);	// note the width & height are 1.5 times bigger tha
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=When  you create a [[apis/canvas/CanvasRenderingContext2D|CanvasRenderingContext2D]] object, it has a transformation matrix that identifies the current state.  The ''scale'' method  modifies the transformation by multiplying the matrix by the  specified  factor. 
 
 For example, <code>context.scale(1,.5)</code> halves the vertical (or y-axis) values  that are used in context and  leaves  the horizontal (or x-axis) values the same. Similarly, <code>context.scale(2,2)</code>  doubles  the size of the graphics.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -136,13 +159,4 @@ For example, <code>context.scale(1,.5)</code> halves the vertical (or y-axis) va
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
