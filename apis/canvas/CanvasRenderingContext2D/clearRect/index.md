@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,21 +10,25 @@
 {{Summary_Section|Clears all pixels on the canvas in the given rectangle ''(x, y, w, h)'' to transparent black.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=w
 |Data type=Number
 |Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=h
 |Data type=Number
 |Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
@@ -29,11 +36,14 @@
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=context
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This code example draws a filled rectangle by using fillRect and then clears the center portion by using clearRect. fillRect uses the width and height of the canvas, and clearRect uses percentages of the canvas width and height to create a frame.
 |Code=<html>
 <head>
@@ -68,21 +78,40 @@
 
 </body>
 </html>
+|LiveURL=
 }}{{Single Example
+|Language=JavaScript
 |Description=This example shows the clearRect method alone. The x,y,width, and height of the cleared rectangle are shown as percentages of the full width and height of the canvas.
 |Code=// Clear the center 80% of the canvas.
 ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.height * .8);
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''clearRect'''  method clears the canvas to transparent black (that is, each pixel's RGBA value is equal to zero). To clear to a specific color, use the  '''[[apis/canvas/CanvasRenderingContext2D/fillRect|fillRect]]''' method.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -144,13 +173,4 @@ ctx.clearRect(canvas.width * .1, canvas.height * .1, canvas.width * .8, canvas.h
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
