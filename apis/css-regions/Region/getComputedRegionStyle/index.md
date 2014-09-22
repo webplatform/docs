@@ -1,5 +1,7 @@
 {{Page_Title|getComputedRegionStyle()}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -8,11 +10,13 @@
 {{Summary_Section|Returns styles calculated for an element as it appears within a [[css/concepts/region|region]], including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=element
 |Data type=DOM Node
 |Description=The element that contains the desired style settings, regardless of whether it currently appears within the region.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=pseudoElementName
 |Data type=String
 |Description=The name of a CSS pseudo-element (such as '''::before''' or '''::after''') or a null value. Optional in WebKit-based browsers.
@@ -52,17 +56,37 @@ function regionsVaryCSS(regs, elem, prop) {
     for (key in values) if (values.hasOwnProperty(key)) count++;
     return count;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
-|Usage=Behaves the same as [[css/cssom/methods/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
+|Usage=Behaves the same as [[dom/Window/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
 |Status=W3C Working Draft 28 May 2013
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -124,18 +148,4 @@ function regionsVaryCSS(regs, elem, prop) {
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
