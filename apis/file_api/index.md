@@ -1,7 +1,7 @@
 {{Page_Title|File API}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub
+|Editorial notes=Stub; content covered by http://docs.webplatform.org/wiki/apis/file; deletion candidate
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
