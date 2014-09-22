@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a hit region.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=options
 |Data type=Object
 |Description=This parameter is of type ''HitRegionOptions''. It can have following members:
@@ -19,6 +22,7 @@
 |Example_object_name=context
 |Return_value_name=hitRegion
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,25 +45,44 @@ canvas.onclick = function( e ) {
         alert( "clicked on: " + e.region );
     }
 };
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
-|Status=W3C Candidate Recommendation
+|LiveURL=
 }}
 }}
 {{Notes_Section
-|Notes=A ''hit region'' is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
+|Usage=
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/#hit-regions
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=W3C HTML Canvas 2D Specification
+|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Notes_Section
+|Notes=A ''hit region'' is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
+}}
+{{Related_Specifications_Section
+|Specifications=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -103,9 +126,4 @@ canvas.onclick = function( e ) {
 |Safari_mobile_prefixed_supported=Unknown
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
 }}
