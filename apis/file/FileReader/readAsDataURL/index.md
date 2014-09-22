@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the complete data of blob as a Data URL.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=blob
 |Data type=Blob
 |Description=Represents a chunk of immutable raw data.
@@ -15,6 +18,7 @@
 }}
 |Method_applies_to=apis/file/FileReader
 |Example_object_name=FileReader
+|Return_value_name=
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
@@ -27,14 +31,30 @@ S_OK
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=This method asynchronously starts reading the contents of the specified [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']]. When the read operation is complete, <code>readyState</code> will become <code>DONE</code> and the <code>onloadend</code> event handler (that is, callback), if present, will be invoked. At that time, the <code>result</code> property contains a data URL string that encodes the file's data.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -98,13 +118,4 @@ S_OK
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
