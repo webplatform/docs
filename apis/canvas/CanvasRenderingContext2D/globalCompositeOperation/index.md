@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -9,6 +12,7 @@
 |Property_applies_to=apis/canvas/CanvasRenderingContext2D
 |Read_only=No
 |Example_object_name=CanvasRenderingContext2D
+|Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=Must be set to a value from the following list. In the descriptions below, the source image, ''A'', is the shape or image being rendered; the destination image, ''B'', is the current state of the bitmap. '''Note:''' Values are case-sensitive.
 
@@ -24,22 +28,38 @@
 * "copy" - A (B is ignored). Display the source image instead of the destination image.
 * "xor" - A xor B. Exclusive OR of the source image and destination image.
 * ''vendorName-operationName'' - Vendor-specific extensions to the list of composition operators should use this syntax.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=You can copy images  directly, or you can apply them depending on the opacity or transparency of the images or by using an XOR operation.
 Values are case-sensitive. If you set an unsupported or unrecognized value, ''globalCompositeOperation''  retains the previous value.
-|Import_Notes=`
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -101,13 +121,4 @@ Values are case-sensitive. If you set an unsupported or unrecognized value, ''gl
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
