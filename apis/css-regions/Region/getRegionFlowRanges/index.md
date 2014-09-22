@@ -1,18 +1,20 @@
 {{Page_Title|getRegionFlowRanges()}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the [[css/concepts/region|region]].}}
+{{Summary_Section|Returns a series of [[dom/Range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the [[css/concepts/region|region]].}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/css-regions/Region
 |Example_object_name=region
 |Return_value_name=ranges
 |Javascript_data_type=Array
-|Return_value_description=Returns a series of [[dom/apis/range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the region.
+|Return_value_description=Returns a series of [[dom/Range|'''Range''']] objects that represent the [[css/concepts/fragment|fragments]] of DOM content that currently flow into the region.
 }}
 {{Examples_Section
 |Not_required=No
@@ -32,6 +34,7 @@ var ranges = region.getRegionFlowRanges();
 if (ranges.length > 1) {
     adjustlayout(region) // custom function
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -45,13 +48,31 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 
  isRegion = (element.getRegionFlowRanges() !== null);
 |Notes=Regions may display more than one range, because more than one element may specify [[css/properties/flow-into|'''flow-into''']] to contribute to a [[css/concepts/named_flow|flow]], and the boundary between those content elements may fall within a region. Also, any content element's nested elements can be diverted to a different [[css/concepts/named_flow|named flow]], thus interrupting the original sequence of content. (See [[css/properties/flow-into|'''flow-into''']] for more details on these scenarios.)
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -113,18 +134,4 @@ Calling it on an element that is no longer a region (when its [[css/properties/f
 |Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
