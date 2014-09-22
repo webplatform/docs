@@ -1,5 +1,7 @@
 {{Page_Title|getContent()}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -25,15 +27,37 @@ var flow = document.getNamedFlows().namedItem('main');
 var elements = flow.getContent();
 // of these, get last element:
 var lastElement = elements[elements.length-1];
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -95,18 +119,4 @@ var lastElement = elements[elements.length-1];
 |Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
