@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,7 +10,10 @@
 {{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system.|FileList is an object which represents an array of individually selected files from the underlying system_ The user interface for selection can be invoked via <code><input type="file"></code>.
 |An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the <input type="file"> element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.
 }}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -32,15 +36,34 @@ for (var i = 0; i < files.length; i++) {
  
     alert(file.name);
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/FileList FileList]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772307(v=vs.85).aspx fileList Object]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -104,13 +127,4 @@ for (var i = 0; i < files.length; i++) {
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/FileList FileList]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772307(v=vs.85).aspx fileList Object]
-|HTML5Rocks_link=
 }}
