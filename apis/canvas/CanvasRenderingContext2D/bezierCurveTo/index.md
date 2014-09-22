@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,31 +10,37 @@
 {{Summary_Section|Ensures there is a subpath for ''(cp1x, cp1y)'', then connects the last point in the subpath to the given point ''(x, y)'' using a cubic Bézier curve with control points ''(cp1x, cp1y)'' and ''(cp2x, cp2y)'', then adds the point ''(x, y)'' to the subpath.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=cp1x
 |Data type=Number
 |Description=The x-coordinate of the first Bézier control point.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=cp1y
 |Data type=Number
 |Description=The y-coordinate of the first Bézier control point.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=cp2x
 |Data type=Number
 |Description=The x-coordinate of the second Bézier control point.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=cp2y
 |Data type=Number
 |Description=The y-coordinate of the second Bézier control point.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=x
 |Data type=Number
 |Description=The x-coordinate of the point to add to the current path.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=y
 |Data type=Number
 |Description=The y-coordinate of the point to add to the current path.
@@ -81,7 +90,9 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 
     </body>
 </html>
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=The following sets up a bezierCurve using a black line with a width of 3 pixels.
 |Code=// Draw a Bézier curve by using the same line cooridinates.
 ctx.beginPath();
@@ -90,17 +101,34 @@ ctx.strokeStyle = "black";
 ctx.moveTo(100, 100);
 ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
 ctx.stroke();
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=A cubic Bézier curve  must include  three points. The first two are control points and the third is the ending point for the curve. The first point on the curve is the last point in the existing current subpath. If a path does not exist, use the ''beginPath'' and ''moveTo'' methods to create a starting point.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -162,13 +190,4 @@ ctx.stroke();
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
