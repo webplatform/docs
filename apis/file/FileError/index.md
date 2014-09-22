@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example
+|Editorial notes=Needs example, spec reference
 |Checked_Out=No
 |High-level issues=Deletion Candidate, Needs Review
 }}
@@ -11,23 +11,27 @@
 
 Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
 }}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|API, FileAPI}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -35,4 +39,11 @@ Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772306(v=vs.85).aspx fileError Object]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
