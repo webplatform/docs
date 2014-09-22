@@ -1,5 +1,7 @@
 {{Page_Title|firstEmptyRegionIndex}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -13,11 +15,13 @@
 |Return_value_name=index
 |Javascript_data_type=Number
 |Return_value_description=Returns the integer index of the first empty element within a [[css/concepts/region_chain|region chain]]. Returns -1 if the content fits within the [[css/concepts/region_chain|region chain]], if it exceeds available space or if there are no regions in the [[css/concepts/region_chain|region chain]].
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=trimRegions('mainFlow');
 
 // deletes any empty regions from the end of a flow:
@@ -32,6 +36,7 @@ function trimRegions(flowName) {
     }
     return(true);
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -43,13 +48,32 @@ collection whose
 '''empty'''.  If all are set to '''fit''' or '''overset''', or if no
 regions are associated with the flow, the '''firstEmptyRegionIndex'''
 returns -1.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Regions
+|Manual_links=
+|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
+* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
+* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
+* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
+}}
+{{Topics|API, CSS, CSS-Regions}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -111,18 +135,4 @@ returns -1.
 |Safari_mobile_prefixed_version=537
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
