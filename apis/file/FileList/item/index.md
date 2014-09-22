@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Almost Ready
+|Editorial notes=Needs example
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|'''item''' returns the ''index''th File object in the FileList. If there is no ''index''th File object in the FileList, then this method must return null.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=unsigned long
 |Description=The [[apis/file/FileList|FileList]] index (starting from 0) of the [[apis/file/File|File]] object to return.
@@ -15,6 +18,7 @@
 }}
 |Method_applies_to=apis/file/FileList
 |Example_object_name=FileList
+|Return_value_name=
 |Javascript_data_type=DOM Node
 |Return_value_description=Type: '''HRESULT'''
 
@@ -27,16 +31,32 @@ S_OK
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The first [[apis/file/File|'''File''']] object in a [[apis/file/FileList|'''list of files''']] called <code>selectedFiles</code> can be accessed by either of the following methods:
 *<code>selectedFiles.item(0)</code>
 *<code>selectedFiles[0]</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,13 +120,4 @@ S_OK
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
