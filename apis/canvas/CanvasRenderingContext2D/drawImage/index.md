@@ -1,51 +1,63 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Draws the specified image onto the canvas. Can be called in three ways; see Notes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=image
 |Data type=DOM Node
 |Description=An image, canvas, or video element of the pattern to  use.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=sx
 |Data type=Number
 |Description=The horizontal starting value (x), in CSS pixels, relative to the source image.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=sy
 |Data type=Number
 |Description=The vertical starting value (y), in CSS pixels, relative to the source image.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=sw
 |Data type=Number
 |Description=The width of the source image, in CSS pixels, to draw onto the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=sh
 |Data type=Number
 |Description=The height of the source image, in CSS pixels, to draw onto the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=dx
 |Data type=Number
 |Description=The horizontal (x) value, in CSS pixels, where to place the image on the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=6
 |Name=dy
 |Data type=Number
 |Description=The vertical (y) value, in CSS pixels, where to place the image on the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=7
 |Name=dw
 |Data type=Number
 |Description=The destination width value, in CSS pixels, to use when drawing the image to the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=8
 |Name=dh
 |Data type=Number
 |Description=The destination height value, in CSS pixels, to use when drawing the image to the canvas.
@@ -85,6 +97,7 @@ This method can return one of these values.
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''drawImage'''  method provides three ways to draw an image onto a canvas, depending on how you use  the optional parameters:
 
 *drawImage(''image'',''dx'',''dy'')  copies  an image exactly to the canvas at the location  that  the ''dx'' and ''dy'' parameters specify.
@@ -92,13 +105,28 @@ This method can return one of these values.
 *drawImage(''image'',''sx'',''sy'',''sw'',''sh'',''dx'',''dy'',''dw'',''dh'') copies  all or part of a source image to the canvas. You can place and size the destination image by  using the destination parameters.
 
 If  you do not specify  the ''dw''  and ''dh''  parameters, they  equal the values of ''sw'' and ''sh''. One CSS pixel in the image is treated as one unit in the canvas coordinate space.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -160,13 +188,4 @@ If  you do not specify  the ''dw''  and ''dh''  parameters, they  equal the valu
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
