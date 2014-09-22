@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -8,6 +9,7 @@
 {{API_Name}}
 {{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.}}
 {{API_Object
+|Subclass_of=
 |Overview='''Blob''' provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
 '''Blob''' objects can be read asynchronously only on the main thread via [[apis/file/FileReader|'''FileReader''']] 
 objects, but metadata access via attributes such as '''size''' and '''type''' return 
@@ -24,20 +26,40 @@ var blob = new Blob([typedArray], {type: "application/octet-binary"}); // pass a
 var url = URL.createObjectURL(blob);
 // url will be something like: blob:d3958f5c-0777-0845-9dcf-2cb28783acaf
 // now you can use the url in any context that regular URLs can be used in, for example img.src, etc.
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=// Blob constructor example usage
 |Code=var aFileParts = ['<a id="a"><b id="b">hey!</b></a>'];
 var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C File API Specification
 |URL=http://www.w3.org/TR/FileAPI
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=[http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx Saving files locally using Blob and msSaveBlob]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, FileAPI}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/Blob Blob]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh673542(v=vs.85).aspx#blobbuilder blob constructor]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -109,15 +131,4 @@ var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
 |Version=6
 |Note=Blob constructor does not work correctly with ArrayViews. You always have to pass concrete ArrayBuffer to the constructor.
 }}
-}}
-{{See_Also_Section
-|Manual_links=[http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx Saving files locally using Blob and msSaveBlob]
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/Blob Blob]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh673542(v=vs.85).aspx#blobbuilder blob constructor]
-|HTML5Rocks_link=
 }}
