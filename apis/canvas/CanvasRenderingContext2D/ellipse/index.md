@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,41 +10,49 @@
 {{Summary_Section|Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=radiusX
 |Data type=Number
 |Description=The x-coordinate, in pixels, from the point (x,y) that the arc's path  follows.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=radiusY
 |Data type=Number
 |Description=The y-coordinate, in pixels, from the point (x,y) that the arc's path  follows.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=rotation
 |Data type=Number
 |Description=The rotation, in radians, the semi-major axis is inclined clockwise from the x-axis.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=startAngle
 |Data type=Number
 |Description=The starting angle, in radians, where 0 is at the 3 o'clock position of the arc's circle.
 |Optional=No
 }}{{Method Parameter
+|Index=6
 |Name=endAngle
 |Data type=Number
 |Description=The starting angle, in radians.
 |Optional=No
 }}{{Method Parameter
+|Index=7
 |Name=anticlockwise
 |Data type=Boolean
 |Description=''true'': The arc is drawn in a counterclockwise direction from start to end.
@@ -73,13 +84,31 @@ This method can return one of these values.
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -141,13 +170,4 @@ This method can return one of these values.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
