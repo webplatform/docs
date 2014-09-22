@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -9,7 +12,9 @@
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=context
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,6 +30,7 @@ ctx.arc(canvas.width/2, canvas.height/2, 50, 0, Math.PI * 2, true);
 ctx.closePath();
 ctx.fill();
 ctx.stroke();
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Complete example that shows how to draw a dark green circle with a light green outline
@@ -60,17 +66,34 @@ ctx.stroke();
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Use  the [[apis/canvas/CanvasRenderingContext2D/beginPath|beginPath]] method after you call the  ''stroke'' method to close the existing path and start a new one with different properties.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML Canvas 2D Context
 |URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -132,13 +155,4 @@ ctx.stroke();
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
