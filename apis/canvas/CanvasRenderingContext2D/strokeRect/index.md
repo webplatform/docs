@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,21 +10,25 @@
 {{Summary_Section|Takes the result of tracing the path, using the CanvasRenderingContext2D object's line styles, and fills it with the strokeStyle.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=w
 |Data type=Number
 |Description=The width, in pixels, of  the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=h
 |Data type=Number
 |Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
@@ -43,6 +50,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Code=// draw rect with red outline
 ctx.strokeStyle = 'red';
 ctx.strokeRect(10,10,100,100);
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Draws a rect with a white outline onto a black canvas
@@ -71,17 +79,34 @@ ctx.strokeRect(10,10,100,100);
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The ''strokeRect''  method creates a path  that  requires the use of  the [[apis/canvas/CanvasRenderingContext2D/stroke|stroke]]  method to render the rectangle. The outline uses the current [[apis/canvas/CanvasRenderingContext2D/strokeStyle|strokeStyle]], [[apis/canvas/CanvasRenderingContext2D/lineWidth|lineWidth]], [[apis/canvas/CanvasRenderingContext2D/lineJoin|lineJoin]], and, when appropriate, [[apis/canvas/CanvasRenderingContext2D/miterLimit|miterLimit]]  properties. If  the  ''w'' or ''h''  parameter  is zero, a line is drawn. If  the  ''w''  and ''h''  parameters are zero, the rectangle is not drawn.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -143,13 +168,4 @@ ctx.strokeRect(10,10,100,100);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
