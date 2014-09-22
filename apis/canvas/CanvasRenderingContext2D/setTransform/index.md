@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,31 +10,37 @@
 {{Summary_Section|Resets the current transform to the identity matrix, and then invokes the ''transform(a, b, c, d, e, f)'' method with the same arguments.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=a
 |Data type=any
 |Description=The  m1,1 value  in the matrix.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=b
 |Data type=any
 |Description=The m1,2 value  in the matrix.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=c
 |Data type=any
 |Description=The  m2,1  value in the matrix.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=d
 |Data type=any
 |Description=The  m2,2 value in the matrix.
 |Optional=No
 }}{{Method Parameter
+|Index=4
 |Name=e
 |Data type=any
 |Description=The  delta x (dx)   value in the matrix.
 |Optional=No
 }}{{Method Parameter
+|Index=5
 |Name=f
 |Data type=any
 |Description=The delta y (dy)  value in the matrix.
@@ -50,16 +59,32 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=The transformation matrix of the current context is reset back to the identity matrix. After it is reset, the transformation matrix of the context is multipled by  the matrix  that  the  specified  parameters  form.
 
 The arguments ''a, b, c, d, e, f'' are sometimes called ''m11, m12, m21, m22, dx, dy'' or ''m11, m21, m12, m22, dx, dy''. Care should be taken in particular with the order of the second and third arguments (''b'' and ''c'') as their order varies from API to API; APIs sometimes use the notation ''m12/m21'' and sometimes ''m21/m12'' for those positions.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -121,13 +146,4 @@ The arguments ''a, b, c, d, e, f'' are sometimes called ''m11, m12, m21, m22, dx
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
