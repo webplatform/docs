@@ -1,11 +1,17 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -13,6 +19,7 @@
 |Description=Short example of getting the width of the text drawn on the canvas (with current font styles)
 |Code=var metrics = context.measureText("Hello World!");
 console.log(metrics.width); // returns the width of the drawn text in CSS pixels
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This full example draws two lines of text, the second line contains the with of the first line in pixels
@@ -52,15 +59,34 @@ console.log(metrics.width); // returns the width of the drawn text in CSS pixels
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -122,13 +148,4 @@ console.log(metrics.width); // returns the width of the drawn text in CSS pixels
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
