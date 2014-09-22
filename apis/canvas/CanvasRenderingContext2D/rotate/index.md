@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,6 +10,7 @@
 {{Summary_Section|Addd the rotation transformation described by the argument to the transformation matrix. The ''angle'' argument represents a clockwise rotation angle expressed in radians.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=angle
 |Data type=Number
 |Description=The  rotation angle, in radians.
@@ -31,6 +35,7 @@ ctx.fillRect(0,0,100,100);
 ctx.rotate((Math.PI/180) * 45);	// draws the second rect 45° rotated
 ctx.fillStyle = "rgba(255,0,0,0.5)";
 ctx.fillRect(0,0,100,100);
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This full example draws two rects, the second rotated 45°
@@ -63,17 +68,34 @@ ctx.fillRect(0,0,100,100);
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Rotation is based on the current origin which is most of the time the upper left corner. Use rectWidth/-2 as an offsetX and rectHeight/-2 as offsetY to draw the rotated rect with a centered origin.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -135,13 +157,4 @@ ctx.fillRect(0,0,100,100);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
