@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,11 +10,13 @@
 {{Summary_Section|Modifies the transformation matrix of this context by adding the scaling transformation described by the arguments to the transformation matrix. The arguments represent the scale factors in the horizontal (''x'') and vertical (''y'') directions. The factors are multiples.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=x
 |Data type=String
 |Description=The value to add to horizontal (or x) coordinates.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=y
 |Data type=String
 |Description=The value to add to vertical (or y) coordinates.
@@ -35,6 +40,7 @@ ctx.fillRect(0,0,100,100);
 ctx.translate(50,50);	// move the drawing coordinates by 50 px
 ctx.fillStyle = "rgba(255,0,0,0.5)";
 ctx.fillRect(0,0,100,100);	// note the x/y start positions at 0 (is actually 50)
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Full example that draws two rects, the second one 50x50px translated.
@@ -62,17 +68,34 @@ ctx.fillRect(0,0,100,100);	// note the x/y start positions at 0 (is actually 50)
   <canvas id="MyCanvas" width="400" height="400">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The ''translate'' method  effectively remaps the (0,0) origin on a canvas. You can specify one or both parameters. When  you call a canvas method such as  [[apis/canvas/CanvasRenderingContext2D/lineTo|lineTo]], the translate value is added to the respective x-coordinate  and y-coordinate values. ''translate'' does not return an error if either value or any derived value is out of the canvas dimensions.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -134,13 +157,4 @@ ctx.fillRect(0,0,100,100);	// note the x/y start positions at 0 (is actually 50)
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
