@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,21 +10,25 @@
 {{Summary_Section|Renders the given text at the given (x, y) coordinates, ensuring that the text isn't wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=text
 |Data type=String
 |Description=The text characters to paint on the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=x
 |Data type=Number
 |Description=The horizontal coordinate to start painting the text relative to the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=y
 |Data type=Number
 |Description=The vertical coordinate of the baseline for the text to start painting, relative to the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=maxWidth
 |Data type=Number
 |Description=The maximum possible text width. If the value is less than [[apis/canvas/TextMetrics/width|width]], the text  is scaled to fit.
@@ -29,7 +36,9 @@
 }}
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
 |Example_object_name=context
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,6 +47,7 @@
 |Description=Short example of drawing an outline text
 |Code=ctx.strokeStyle = 'white';
 ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Full example of drawing an outline text
@@ -72,15 +82,34 @@ ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
   <canvas id="MyCanvas" width="600" height="500">This browser or document mode doesn't support canvas</canvas>
 </body>
 </html>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -142,13 +171,4 @@ ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
