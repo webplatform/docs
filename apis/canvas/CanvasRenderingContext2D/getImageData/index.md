@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -7,21 +10,25 @@
 {{Summary_Section|Returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle whose corners are the four points (sx, sy), (sx+sw, sy), (sx+sw, sy+sh), (sx, sy+sh), in canvas coordinate space units.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=sx
 |Data type=Number
 |Description=The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=1
 |Name=sy
 |Data type=Number
 |Description=The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=2
 |Name=sw
 |Data type=Number
 |Description=The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 |Optional=No
 }}{{Method Parameter
+|Index=3
 |Name=sh
 |Data type=Number
 |Description=The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
@@ -40,14 +47,30 @@ A ''CanvasImageData'' object with pixel information from the canvas within the s
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes=If the rectangle contains pixels outside the canvas, they are returned as transparent black. Pixels are returned as non-premultiplied alpha values.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML Canvas 2D Specification
 |URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Canvas}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -109,13 +132,4 @@ A ''CanvasImageData'' object with pixel information from the canvas within the s
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
