@@ -1,21 +1,24 @@
 {{Page_Title}}
 {{Flags
+|State=In Progress
+|Editorial notes=Duplicate info of that in apis/audio-video/TextTrack? Needs example, spec reference, standardization status
+|Checked_Out=No
 |High-level issues=Merge Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-|Checked_Out=No
-|Editorial notes=Duplicate info of that in apis/audio-video/TextTrack
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
 |Subclass_of=dom/HTMLMediaElement
+|Overview=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''HTMLTrackElement''' represents a timed text file to provide users with multiple languages or commentary for videos. You can use multiple tracks, and set one as default to be used when the video starts.
 The text is displayed in the lower portion of the video player. At this time the position and color can't be controlled, but you can retrieve text through script and display it in your own way. 
@@ -39,51 +42,17 @@ The file starts with the tag "WEBVTT" as the first line, followed by a line feed
 ====TTML====
 Internet Explorer 10 and Metro style apps using JavaScript use a subset of the TTML file format, which is defined in the TTML specification. Internet Explorer and Metro style apps using JavaScript support the following structure.
 The TTML file includes XML version, encoding type,  namespace declaration, and the language in the root element ("&lt;tt&gt;"). This is followed by the" &lt;body&gt;" and a "&lt;div&gt;" element. Within the "&lt;div&gt;" element are the timing cues. The actual times are set as attributes  (begin, end) of the opening paragraph tag (&lt;p&gt;) and the text is delineated by the closing &lt;/p&gt; tag. Blank lines and white space are ignored. If there are multiple lines, they are defined by &lt;br/&gt; tags. 
-The MIME type for TTML files is '''application/ttml+xml'''. 
-|Import_Notes====Syntax===
-
-
-
-===Members===
-The '''track''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''track''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[apis/audio-video/properties/default|'''default''']]
-|Gets or sets the default timed text track to use when multiple track elements are specified for a '''video''' element.
-|-
-|[[apis/audio-video/properties/kind|'''kind''']]
-|Gets or sets the type or category of the timed text track associated with a '''track''' element.
-|-
-|[[apis/audio-video/properties/label|'''label''']]
-|Gets or sets the label attribute to give a user a readable title for a text track.
-|-
-|[[apis/audio-video/properties/src|'''src''']]
-|The address or URL of the a media resource ('''video''', '''audio''') that is to be considered.
-|-
-|[[apis/audio-video/properties/srclang|'''srclang''']]
-|Gets or sets the language of the text track data. This attribute is required if "subtitles" is specified in the [[apis/audio-video/properties/kind|'''kind''']] attribute.
-|}
- 
+The MIME type for TTML files is '''application/ttml+xml'''.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -91,4 +60,11 @@ The '''track''' object has these properties.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
