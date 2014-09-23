@@ -11,17 +11,36 @@
 {{Summary_Section|The '''month''' of the [[html/elements/input|&lt;input&gt;]] element represents a widget for entering a month value.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<input type="month" value="2012-12">
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=On Safari Mobile for iOS, setting [[css/properties/display|<code>display</code>]]<code>: block</code> on an '''input''' of '''type="month"''' causes the text within the '''input''' to become vertically misaligned.
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -79,12 +98,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
