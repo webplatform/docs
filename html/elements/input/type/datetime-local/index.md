@@ -11,17 +11,36 @@
 {{Summary_Section|The '''datetime-local''' type of the [[html/elements/input|&lt;input&gt;]] element represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<input type="datetime-local" value="2012-12-14T19:00">
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=On Safari Mobile for iOS, setting [[css/properties/display|<code>display</code>]]<code>: block</code> on an '''input''' of '''type="datetime-local"''' causes the text within the <input> to become vertically misaligned.
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -83,12 +102,4 @@
 |Browser=WebKit
 |Note=Supports dates between 0001-01-01T00:00 and 275760-09-13T00:00. It is applied to value, min, and max.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
