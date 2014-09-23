@@ -1,7 +1,9 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Needs Review
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
@@ -12,10 +14,16 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{See_Also_Section
 |Topic_clusters=Audio, Video
 |Manual_links=* http://www.w3.org/standards/webdesign/audiovideo.html
+|External_links=
+|Manual_sections=
 }}
 {{Topics|API}}
 {{External_Attribution
