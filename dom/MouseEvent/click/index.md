@@ -109,6 +109,16 @@ Known workarounds for this bug:
 ** Set [[css/properties/opacity|<code>opacity</code>]]<code>: 0</code> and an explicit <code>[[css/properties/background-color|background-color]]</code> other than <code>transparent</code>
 * For IE8 and IE9
 ** Set [http://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx <code>filter</code>]<code>: alpha(opacity=0);</code> and an explicit <code>[[css/properties/background-color|background-color]]</code> other than <code>transparent</code>
+
+====iOS Safari====
+iOS Safari suffers from a bug where '''click''' events aren't fired on elements that aren't typically interactive (e.g. [[html/elements/div|<code>div</code>]]) and which also don't have event listeners directly attached to the elements themselves (i.e. event delegation is being used). See [http://jsfiddle.net/cvrhulu/k9t0sdnf/show/ this live example] for a demonstration.
+Safari considers the following elements to be typically interactive (and thus they aren't affected by this bug): [[html/elements/a|<code>a</code>]], [[html/elements/button|<code>button</code>]], [[html/elements/img|<code>img</code>]], [[html/elements/input|<code>input</code>]], [[html/elements/label|<code>label</code>]] (but it must be associated with a form control), [[html/elements/textarea|<code>textarea</code>]]
+
+Known workarounds for this bug:
+* Set [[css/properties/cursor|<code>cursor</code>]]<code>: pointer;</code> on the element.
+* Add a dummy <code>onclick=""</code> attribute to the element.
+* Use a typically interactive element (e.g. [[html/elements/a|<code>a</code>]]) instead instead of one that isn't typically interactive (e.g. [[html/elements/div|<code>div</code>]]).
+* Stop using '''click''' event delegation.
 |Import_Notes====Syntax===
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.3
