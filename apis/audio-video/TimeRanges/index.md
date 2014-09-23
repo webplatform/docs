@@ -1,15 +1,22 @@
 {{Page_Title|TimeRanges}}
 {{Flags
+|State=Ready to Use
+|Editorial notes=
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples={{Single Example
+|Language=JavaScript
 |Description=The following script shows how to access the list of ranges that have been played.
 |Code=var ranges {{=}} document.getElementById('myVideo').played;
 for (var i{{=}}0; i&lt;ranges.length; i++)
@@ -18,24 +25,27 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
     // display results to developer tools console window
     if (window.console.log){ window.console.log("Played from " + start + " to " + end);}
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5 Specification
 |URL=http://dev.w3.org/html5/spec/single-page.html
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -47,7 +57,13 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 }
 
 
-
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 
 
 
@@ -64,4 +80,11 @@ for (var i{{=}}0; i&lt;ranges.length; i++)
 
 
 
-}}}
+
+}
+
+
+
+
+
+}}}}
