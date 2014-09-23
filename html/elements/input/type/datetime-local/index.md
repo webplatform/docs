@@ -24,7 +24,7 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes=On Safari Mobile for iOS, setting [[css/properties/display|<code>display</code>]]<code>: block</code> on an '''input''' of '''type="datetime-local"''' causes the text within the <input> to become vertically misaligned.
+|Notes=On Safari Mobile for iOS, setting [[css/properties/display|<code>display</code>]]<code>: block</code> on an '''input''' of '''type="datetime-local"''' causes the text within the '''input''' to become vertically misaligned.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
