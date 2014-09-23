@@ -1,5 +1,8 @@
 {{Page_Title}}
 {{Flags
+|State=Almost Ready
+|Editorial notes=Needs example
+|Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
@@ -8,6 +11,7 @@
 {{Summary_Section|Returns the time for the end of the range with the given index. Throws an IndexSizeError if the index is out of range.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=index
 |Data type=any
 |Description=The zero-based index of the item in the collection.
@@ -35,22 +39,24 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C HTML5 Specification
 |URL=http://dev.w3.org/html5/spec/single-page.html
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -58,4 +64,11 @@
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
