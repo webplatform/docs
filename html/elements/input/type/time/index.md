@@ -11,6 +11,7 @@
 {{Summary_Section|An input field for entering a specific time value.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -18,19 +19,38 @@
 |Language=HTML
 |Description=Basic usage. Accepts no seconds.
 |Code=<input type="time" value="09:00" min="09:00" max="17:00">
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Accepts seconds.
 |Code=<input type="time" step="1">
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Accepts only hours.
 |Code=<input type="time" step="3600">
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=On Safari Mobile for iOS 7, setting [[css/properties/display|<code>display</code>]]<code>: block</code> on an '''input''' of '''type="time"''' causes the text within the '''input''' to become vertically misaligned.
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -99,12 +119,4 @@
 |Browser=Firefox Mobile
 |Note=Users can't specify seconds or milliseconds.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
