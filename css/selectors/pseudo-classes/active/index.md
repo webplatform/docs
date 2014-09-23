@@ -28,7 +28,7 @@ The ''':active''' pseudo-class is often used with [[css/selectors/pseudo-classes
 
 The default value of the ''':active''' pseudo-class is browser-specific.
 
- By default, Safari Mobile does not use the ''':active''' state unless there is a [[dom/TouchEvent/touchstart|<code>touchstart</code>]] event handler on the relevant element or on the [[html/elements/body|<code>body</code>]].
+By default, Safari Mobile does not use the ''':active''' state unless there is a [[dom/TouchEvent/touchstart|<code>touchstart</code>]] event handler on the relevant element or on the [[html/elements/body|<code>body</code>]].
 |Import_Notes=
 }}
 {{Related_Specifications_Section
