@@ -81,6 +81,8 @@ Internationalization topics related to the <code>input</code> element:
 |Notes=For code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
 
 Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state and (if applicable) dynamic checkedness] of an '''input''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature; this works even when the <code>autocomplete</code> attribute would normally not apply to the '''input''' by virtue of its <code>type</code>. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla bug #654072].
+
+Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled textual '''input''' elements. Other major browsers don't currently share this particular default style.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
