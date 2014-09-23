@@ -37,6 +37,8 @@ The default font is fixed pitch.
 
 Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all '''textarea''' elements. This can be disabled using <code>background-image: none</code>.
 
+Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled [[html/elements/textarea|<code>textarea</code>]] elements. Other major browsers don't currently share this particular default style.
+
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/html401/interact/forms.html#h-17.7 HTML 4.01 Specification, Section 17.7]
