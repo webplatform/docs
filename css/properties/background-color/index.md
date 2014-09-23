@@ -1,6 +1,7 @@
 {{Page_Title|background-color}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -60,6 +61,7 @@
 &lt;/div&gt;
   
   etc.
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=The CSS then floats the divs next to one another and gives them the same basic look. After that, each block is given a different color value, to demonstrate how keywords, hex, RGB(a), HSL(a) and opacity affect them.
@@ -129,17 +131,41 @@ etc
 background-color: #ff0000;
 background-color: rgba(255,0,0,0.6);
 </pre>
+|Notes=Internet Explorer 8 & 9 suffer from a bug where elements with a computed '''background-color''' of <code>transparent</code> that are overlaid on top of other element(s) won't receive <code>[[dom/MouseEvent/click|click]]</code> events. Any <code>[[dom/MouseEvent/click|click]]</code> events will be fired at the underlying element(s) instead. See [http://jsfiddle.net/YUKma/show/ this live example] for a demonstration.
+
+Known workarounds for this bug:
+* For IE9 only:
+** Set <code>background-color: rgba(0,0,0,0)</code>
+** Set [[css/properties/opacity|<code>opacity</code>]]<code>: 0</code> and an explicit '''background-color''' other than <code>transparent</code>
+* For IE8 and IE9
+** Set [http://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx <code>filter</code>]<code>: alpha(opacity=0);</code> and an explicit '''background-color''' other than <code>transparent</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Backgrounds & Borders Level 3
 |URL=http://www.w3.org/TR/css3-background/#the-background-color
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS 2.1 Colors and backgrounds
 |URL=http://www.w3.org/TR/CSS21/colors.html
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Background
+|Manual_links=
+|External_links=* [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -356,15 +382,4 @@ background-color: rgba(255,0,0,0.6);
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Background
-|External_links=* [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/ http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
