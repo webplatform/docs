@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs overview info, example, spec reference
+|Editorial notes=Needs example, spec reference
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
