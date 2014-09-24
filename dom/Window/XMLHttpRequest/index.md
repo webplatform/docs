@@ -15,7 +15,7 @@
 |Example_object_name=window
 |Return_value_name=xhr
 |Javascript_data_type=DOM Node
-|Return_value_description=An {{XMLHttpRequest}} instance object.
+|Return_value_description=An XMLHttpRequest instance object.
 |Example_value_name=
 }}
 {{Examples_Section
