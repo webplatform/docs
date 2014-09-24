@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -14,7 +15,8 @@
 |Example_object_name=window
 |Return_value_name=xhr
 |Javascript_data_type=DOM Node
-|Return_value_description=An XMLHttpRequest instance object.
+|Return_value_description=An {{XMLHttpRequest}} instance object.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -33,10 +35,13 @@
     };
    xhr.send();
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=It provides an easy way to retrieve data from a URL without having to do a full page refresh. A Web page can update just a part of the page without disrupting what the user is doing.  XMLHttpRequest is used heavily in AJAX programming.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -45,6 +50,19 @@
 |Status=Working Draft
 |Relevant_changes=Section 3
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest XMLHttpRequest]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535874(v=vs.85).aspx XMLHttpRequest Object]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -77,13 +95,4 @@
 |Version=5.5 - 6
 |Note=Using the XMLHttp ActiveX object, you could emulate the XMLHttpRequest.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest XMLHttpRequest]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535874(v=vs.85).aspx XMLHttpRequest Object]
-|HTML5Rocks_link=
 }}
