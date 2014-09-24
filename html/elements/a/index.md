@@ -74,6 +74,7 @@ HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an ima
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- Link to an external website. -->
 <a href="http://www.example.com">Example website</a>
 
@@ -105,6 +106,7 @@ HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an ima
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 For creating an anchor in the page, the [[html/attributes/name|'''name''']] attribute is obsolete and should be replaced by [[html/attributes/id|'''id''']] attribute.
 
@@ -116,6 +118,52 @@ Optionally the [[html/attributes/rel|'''rel''']] element may be specified to pro
 
 Internationalization topics related to the <code>a</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
+
+===Clicking and focus===
+Whether clicking on an anchor causes it to (by default) become focused varies by browser and OS.
+
+Does clicking on an anchor give it the focus?
+{{{!}} class="wikitable"
+{{!}}--
+!Desktop Browsers
+{{!}}Windows 8.1
+{{!}}OS X 10.9
+{{!}}--
+!Firefox 30.0
+{{!}}Yes
+{{!}}Yes
+{{!}}-
+!Chrome [https://code.google.com/p/chromium/issues/detail?id=388666 >=39]
+{{!}}Yes
+{{!}}Yes
+{{!}}-
+!Safari 7.0.5
+{{!}}N/A
+{{!}}Only when it has a <code>tabindex</code>
+{{!}}-
+!Internet Explorer 11
+{{!}}Yes
+{{!}}N/A
+{{!}}-
+!Presto (Opera 12)
+{{!}}Yes
+{{!}}???
+{{!}}}
+
+Does tapping on an anchor give it the focus?
+{{{!}} class="wikitable"
+!Mobile Browsers
+{{!}}iOS 7.1.2
+{{!}}Android 4.4.4
+{{!}}-
+!Safari Mobile
+{{!}}Only when it has a <code>tabindex</code>
+{{!}}N/A
+{{!}}-
+!Chrome 35
+{{!}}???
+{{!}}Only when it has a <code>tabindex</code>
+{{!}}}
 |Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
@@ -133,14 +181,31 @@ Internationalization topics related to the <code>a</code> element:
 |Name=HTML 5
 |URL=http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html4/struct/links.html#edef-A
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=WHATWG Living Standard
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element
+|Status=
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/a
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -202,13 +267,4 @@ Internationalization topics related to the <code>a</code> element:
 |Version=any
 |Note=<code>A</code> elements with href don't get focus by mouse press by default.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/a
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
