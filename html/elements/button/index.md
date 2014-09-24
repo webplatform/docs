@@ -98,6 +98,52 @@ Please note that styling a submit button using the &lt;button&gt; element is eas
 Firefox for Android, by default, sets a <code>[[css/properties/background-image|background-image]]</code> gradient on all '''button''' elements. This can be disabled using <code>background-image: none</code>.
 
 Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state] of a '''button''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla Bug #654072].
+
+===Clicking and focus===
+Whether clicking on a '''button''' causes it to (by default) become focused varies by browser and OS.
+
+Does clicking on a '''button''' give it the focus?:
+{{{!}} class="wikitable"
+! Desktop Browsers
+! Windows 8.1
+! OS X 10.9
+{{!}}-
+{{!}} Firefox 30.0
+{{!}} Yes
+{{!}} No (even with a <code>tabindex</code>)
+{{!}}-
+{{!}} Chrome 35
+{{!}} Yes
+{{!}} Yes
+{{!}}-
+{{!}} Safari 7.0.5
+{{!}} N/A
+{{!}} No (even with a <code>tabindex</code>)
+{{!}}-
+{{!}} Internet Explorer 11
+{{!}} Yes
+{{!}} N/A
+{{!}}-
+{{!}} Presto (Opera 12)
+{{!}} Yes
+{{!}} ???
+{{!}}}
+
+
+Does tapping on a '''button''' give it the focus?:
+{{{!}} class="wikitable"
+! Mobile Browsers
+! iOS 7.1.2
+! Android 4.4.4
+{{!}}-
+{{!}} Safari Mobile
+{{!}} No (even with a <code>tabindex</code>)
+{{!}} N/A
+{{!}}-
+{{!}} Chrome 35
+{{!}} ???
+{{!}} Yes
+{{!}}}
 |Import_Notes=
 }}
 {{Related_Specifications_Section
