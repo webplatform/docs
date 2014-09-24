@@ -139,7 +139,7 @@ Does clicking on an anchor give it the focus?
 {{!}}-
 !Safari 7.0.5
 {{!}}N/A
-{{!}}Only when it has a <code>tabindex</code>
+{{!}}Only when it has a [[html/attributes/tabIndex|<code>tabindex</code>]]
 {{!}}-
 !Internet Explorer 11
 {{!}}Yes
@@ -157,12 +157,12 @@ Does tapping on an anchor give it the focus?
 {{!}}Android 4.4.4
 {{!}}-
 !Safari Mobile
-{{!}}Only when it has a <code>tabindex</code>
+{{!}}Only when it has a [[html/attributes/tabIndex|<code>tabindex</code>]]
 {{!}}N/A
 {{!}}-
 !Chrome 35
 {{!}}???
-{{!}}Only when it has a <code>tabindex</code>
+{{!}}Only when it has a [[html/attributes/tabIndex|<code>tabindex</code>]]
 {{!}}}
 |Import_Notes====HTML information===
 {{{!}} class="wikitable"
