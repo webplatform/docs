@@ -110,7 +110,7 @@ Does clicking on a '''button''' give it the focus?:
 {{!}}-
 {{!}} Firefox 30.0
 {{!}} Yes
-{{!}} No (even with a <code>tabindex</code>)
+{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
 {{!}}-
 {{!}} Chrome 35
 {{!}} Yes
@@ -118,7 +118,7 @@ Does clicking on a '''button''' give it the focus?:
 {{!}}-
 {{!}} Safari 7.0.5
 {{!}} N/A
-{{!}} No (even with a <code>tabindex</code>)
+{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
 {{!}}-
 {{!}} Internet Explorer 11
 {{!}} Yes
@@ -137,7 +137,7 @@ Does tapping on a '''button''' give it the focus?:
 ! Android 4.4.4
 {{!}}-
 {{!}} Safari Mobile
-{{!}} No (even with a <code>tabindex</code>)
+{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
 {{!}} N/A
 {{!}}-
 {{!}} Chrome 35
