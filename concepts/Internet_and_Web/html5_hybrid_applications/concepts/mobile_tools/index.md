@@ -56,6 +56,7 @@
 * [http://www.perfectomobile.com/portal/cms/services/web_access_to_real_handsets.html Perfecto Mobile] - real devices
 * [http://www.keynotedeviceanywhere.com/da-free-product-overview.html DeviceAnywhere]  - real devices
 * [https://saucelabs.com/ Saucelabs] - selenium integration. soon getting [http://www.youtube.com/watch?v=3vIVcDFoKvs robot-powered touch] on real mobile devices. 
+* [http://mobilelabsinc.com/products/deviceconnect/ Mobile Labs] - real devices
 
 [http://www.youtube.com/watch?v=7NvzRfyhd5Q Remote Preview] and [http://www.youtube.com/watch?v=ER-la4wunyo Mixture] offer syncing between mobile devices, like Adobe Shadow
 
