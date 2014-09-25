@@ -6,10 +6,6 @@
 Refer to stash pages in http://docs.webplatform.org/wiki/TEST:beginners
 
 Also, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web
-
-* Explains what the Web is and how it works
-* Describes what web standards are, and which web technologies you'll be learning about in this course
-* Points you to the software you'll need to download in order to complete the rest of the course
 |Checked_Out=No
 }}
 {{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with web site building.}}
@@ -78,6 +74,7 @@ results in the following:
 <p id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
+<br/><br/>
 <p>'''Cascading Style Sheets (CSS)''': This language is used to style and position the HTML content. It gives your webpage a clean look and more professionalism and a better user interface along with it: It centers your elements, it gives them background, it gives them color, it puts them into place, and it makes them how they should be. CSS has selectors which select elements to be manipulated by CSS and properties which give the elements all of the things that CSS provides. CSS must be accompanied by HTML to work whatsoever.</p>
 
 <p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] </p>
@@ -98,6 +95,7 @@ results in the following:
 <p style="color: red" id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
+<br/><br/>
 <p>'''JavaScript''': This language is used to add dynamic functionality to your web page. It provides the majority of the interactions in webpages, aside from simple things like certain elements such as textboxes that are from HTML. JavaScript leads to things happening to the webpage when things are clicked or a key is pressed. JavaScript is a scripting language that is <i>very</i> powerful and actually makes webpages a bit dangerous, so be careful with it! Even though JavaScript was originally for the Web, JavaScript is actually used in lots of things other than it, but this course will focus on its application to the Web.</p>
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?]</p>
