@@ -73,9 +73,9 @@ Somewhere, an owl hooted.&lt;/p&gt;</pre>
 
 results in the following:
 
-<div style="border: 2px solid black;">
+<div style="border: 2px solid black;padding: 10px;">
 <h1>The title of my story</h1>
-<p>It was a dark and stormy night. Somewhere, an owl hooted.</p>
+<p id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
 <p>'''Cascading Style Sheets (CSS)''': This language is used to style and position the HTML content. It gives your webpage a clean look and more professionalism and a better user interface along with it: It centers your elements, it gives them background, it gives them color, it puts them into place, and it makes them how they should be. CSS has selectors which select elements to be manipulated by CSS and properties which give the elements all of the things that CSS provides. CSS must be accompanied by HTML to work whatsoever.</p>
@@ -93,28 +93,21 @@ p {
 
 results in the following:
 
-<div style="border: 2px solid black;">
+<div style="border: 2px solid black;padding: 10px;">
 <h1 style="color: blue">The title of my story</h1>
-<p style="color: red">It was a dark and stormy night. Somewhere, an owl hooted.</p>
+<p style="color: red" id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
 <p>'''JavaScript''': This language is used to add dynamic functionality to your web page. It provides the majority of the interactions in webpages, aside from simple things like certain elements such as textboxes that are from HTML. JavaScript leads to things happening to the webpage when things are clicked or a key is pressed. JavaScript is a scripting language that is <i>very</i> powerful and actually makes webpages a bit dangerous, so be careful with it! Even though JavaScript was originally for the Web, JavaScript is actually used in lots of things other than it, but this course will focus on its application to the Web.</p>
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?]</p>
 
-The application of the following JavaScript code to our above snippet:
+Because JavaScript is so dangerous, the wiki editor doesn't allow any JavaScript code in the wiki article, so we can't demonstrate it to you. However, think about you clicking the above paragraph and then new text replacing the old text. That's what the following JavaScript code does:
 
-<pre>var paragraph = document.getElementsById("thisIsAnAttribute");
+<pre>var paragraph = document.getElementById("thisIsAnAttribute");
 paragraph.onclick = function() {
-  alert("The length of this paragraph is " + paragraph.innerHTML.length + " characters.");
-}</pre>
-
-results in the following (click the paragraph!):
-
-<div style="border: 2px solid black;">
-<h1 style="color: blue">The title of my story</h1>
-<p style="color: red" onclick='alert("The length of this paragraph is " + this.innerHTML.length + " characters.");'>It was a dark and stormy night. Somewhere, an owl hooted.</p>
-</div>
+    this.innerHTML = "Then, the owl flew away into the dark night sky, creating a rather mellow sight, yet happy despite it all.";
+};</pre>
 
 We will expand on these languages in this course and get you started coding in the next article!
 {{Notes_Section
