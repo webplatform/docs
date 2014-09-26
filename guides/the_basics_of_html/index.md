@@ -1,7 +1,7 @@
 {{Page_Title|The Basics of HTML}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -9,7 +9,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|In this article, you will learn the basics of HTML in order to gain some insight into the structure and content of an HTML
+{{Summary_Section|In this article, you will learn the basics of HTML and gain some insight into the structure and content of an HTML
 document.
 }}
 {{Guide
