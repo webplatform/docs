@@ -182,7 +182,7 @@ For this reason they must always be coded in a special way in document content.
 One of the easiest mistakes to make in a web page is to use &lt; and &gt; signs in text and having the browser
 render your content in an unexpected way. For example, if you write
 "The paragraph tag (&lt;p&gt;) is very common", intending for it to look just like that, the browser will render it as 
-"The paragraph tag (<p>) is very common"</p>
+The paragraph tag (<p>) is very common</p>
 
 This is clearly not what you wanted or expected.
 
