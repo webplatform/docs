@@ -87,7 +87,7 @@ is a wrapper around the entire document. The closing <code>&lt;/html&gt;</code> 
 The <code>html</code> element should always have a <code>lang</code> attribute. This specifies the primary language for the page. For example, <code>en</code> means "English", <code>fr</code> means "French". There are tools available to help you find the right language tag, such as Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup tool].
  
 Inside the <code>html</code> element, there is the <code>[[html/elements/head|head]]</code> element. This is a
-wrapper that contains information about the document ("data about the data", or ''metadata''). This is described in more detail in 
+wrapper that contains other information about the document such as internal or external styles and scripts. This is described in more detail in 
 [[html/elements/head|The HTML head element]]. Inside the <code>head</code> is the <code>[[html/elements/title|title]]</code> element, 
 which defines the "Example page" heading in the brower's title bar. The <code>head</code> element should always contain a 
 <code>meta</code> element with a <code>charset</code> attribute that identifies the character encoding of the page. 
