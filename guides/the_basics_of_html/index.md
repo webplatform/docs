@@ -182,7 +182,7 @@ For this reason they must always be coded in a special way in document content.
 One of the easiest mistakes to make in a web page is to use &lt; and &gt; signs in text and having the browser
 render your content in an unexpected way. For example, if you write
 "The paragraph tag (&lt;p&gt;) is very common", intending for it to look just like that, the browser will render it as 
-"The paragraph tag (<p>) is very common" &mdash; this is clearly not what you wanted or expected.
+"The paragraph tag (<p>) is very common" &mdash; this is clearly not what you wanted or expected.</p>
 
 The solution to this problem is to encode, or "escape", the two signs, by representing them with character references. 
 The character reference for less-than is "&amp;lt;", and the character reference for greater-than is "&amp;gt;".
@@ -221,7 +221,6 @@ Other than these characters, you should try to avoid using character references 
 If you use the UTF-8 character encoding you can represent any character (other than those mentioned above) without escaping them.
 
 For more information about working with character escapes, see [http://www.w3.org/International/questions/qa-escapes Using character escapes in markup and CSS].
-
 }}
 {{Notes_Section
 |Usage=
