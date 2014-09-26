@@ -182,7 +182,9 @@ For this reason they must always be coded in a special way in document content.
 One of the easiest mistakes to make in a web page is to use &lt; and &gt; signs in text and having the browser
 render your content in an unexpected way. For example, if you write
 "The paragraph tag (&lt;p&gt;) is very common", intending for it to look just like that, the browser will render it as 
-"The paragraph tag (<p>) is very common" &mdash; this is clearly not what you wanted or expected.</p>
+"The paragraph tag (<p>) is very common"</p>
+
+This is clearly not what you wanted or expected.
 
 The solution to this problem is to encode, or "escape", the two signs, by representing them with character references. 
 The character reference for less-than is "&amp;lt;", and the character reference for greater-than is "&amp;gt;".
@@ -197,7 +199,8 @@ its shorthand word <code>&amp;amp;</code> or its numeric reference <code>&amp;#3
 <!--
 One of the earliest mistakes a web author can make is to use an
 ampersand in a document and then have something unexpected appear.
-For example, writing “Imperial units measure weight in stones&amp;pounds” could actually end up appearing as “…stones£s” in some browsers.
+For example, writing “Imperial units measure weight in stones&amp;pounds” 
+could actually end up appearing as “…stones£s” in some browsers.
  
 This is because the literal string “&amp;pound;” is actually a character
 reference in HTML. A character reference is a way of including a
