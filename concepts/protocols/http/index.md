@@ -16,17 +16,17 @@ HTTP was one of the first protocols developed as part of Web starting in late 19
 * [[http/methods|List of HTTP methods]]
 * [[http/response status codes|List of HTTP status codes]]
 * HTTP the protocol: The entity-body and transfer control, what are resources
-* [[http/Layered requests|Layered requests]] with proxies and gateways
-* [[http/Requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
-* [[http/Resource metadata|Resource metadata]]: Link, Last-Modified, Content-Type, Allow, etc
-* [[http/Caching|Caching]] and conditional requests
-* [[http/Access control|Access control]]
-* [[http/State management|State management]] with cookies
-* [[http/Content negotiation|Content negotiation]]: Accept, Content-Location
-* [[http/Partial responses|Partial content responses]]
-* [[http/Modifying resources|Modification of resources]]: PUT, PATCH
-* [[http/Conditional updates|Conditional updates]]
-* [[http/Forms and scripts|Forms and scripts]]: POST with HTML Forms, using 3xx Status codes
+* [[http/layered requests|Layered requests]] with proxies and gateways
+* [[http/requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
+* [[http/resource metadata|Resource metadata]]: Link, Last-Modified, Content-Type, Allow, etc
+* [[http/caching|Caching]] and conditional requests
+* [[http/access control|Access control]]
+* [[http/state management|State management]] with cookies
+* [[http/content negotiation|Content negotiation]]: Accept, Content-Location
+* [[http/partial responses|Partial content responses]]
+* [[http/modifying resources|Modification of resources]]: PUT, PATCH
+* [[http/conditional updates|Conditional updates]]
+* [[http/forms and scripts|Forms and scripts]]: POST with HTML Forms, using 3xx Status codes
 
 === An HTTP Request ===
 
