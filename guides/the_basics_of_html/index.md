@@ -20,8 +20,8 @@ This article summarises the purpose and structure of HTML in a very high-level f
 == What is HTML? ==
  
 Most desktop applications that read and write files use specific file
-formats. For example, Microsoft Word uses “.doc” files and
-Microsoft Excel uses “.xls”. These files contain the
+formats. For example, Microsoft Word uses ".doc" files and
+Microsoft Excel uses ".xls". These files contain the
 instructions on how to build the documents when they are opened, 
 the contents of the document, and ''metadata'' about the
 document such as the author, the last modified date, and possibly
@@ -49,19 +49,19 @@ HTML is a plain textual representation of content and its general meaning. For e
 
 <syntaxhighlight lang="html5"><p id="example">This is a paragraph.</p></syntaxhighlight>
  
-The <code>&lt;p&gt;</code> part is a marker, commonly called a ''tag'') that means
-“what follows should be considered as a paragraph”.  Because it is at the start of the content it affects, it is an "opening tag". Likewise, the
-<code>&lt;/p&gt;</code> tag indicates the end of the paragraph, and is thus a "closing tag"). The opening
+The <code>&lt;p&gt;</code> part is a marker, commonly called a ''tag'', that means
+"what follows should be considered as a paragraph".  Because it is at the start of the content it affects, it is an "opening tag". Likewise, the
+<code>&lt;/p&gt;</code> tag indicates the end of the paragraph, and is thus a "closing tag". The opening
 tag, closing tag, and everything in between is called an ''element''.  Note:
 Many people use the terms "element" and "tag" interchangeably, which is incorrect. 
-(The <code>id="example"</code> is an ''attribute''; you'll learn more about these later.)
+(The <code>id="example"</code> is an ''attribute-value pair''; we'll come back to these later.)
  
-In most browsers there is a “Source” or “View Source” option, commonly under
-the “View” menu. Try this now: go to a web site, choose this option, and spend some time looking at the HTML that makes up the structure of the page.
+In most browsers there is a "Source" or "View Source" option, commonly under
+the "View" menu. Try this now: go to a web site, choose this option, and spend some time looking at the HTML that makes up the page.
 
 == The structure of an HTML document ==
  
-A typical example HTML document might look like this:
+A typical HTML document might look like this:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en">
@@ -74,7 +74,7 @@ A typical example HTML document might look like this:
   </body>
 </html></syntaxhighlight>
 
-This document might look like this when rendered in a web browser:
+That document might look like this when rendered in a web browser:
 
 [[File:HTMLrender.png]]
  
@@ -83,21 +83,21 @@ This mainly serves to get the browser to render the HTML in what is called "stan
 It also lets validation software know what version of HTML to validate your code against. 
  
 Next, you can see the opening tag of the <code>&lt;html&gt;</code> element. This
-is a wrapper around the entire document. The closing <code>&lt;html&gt;</code> tag is the last thing in any HTML document. 
+is a wrapper around the entire document. The closing <code>&lt;/html&gt;</code> tag is the last thing in any HTML document. 
 The <code>html</code> element should always have a <code>lang</code> attribute. This specifies the primary language for the page. For example, <code>en</code> means "English", <code>fr</code> means "French". There are tools available to help you find the right language tag, such as Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup tool].
  
 Inside the <code>html</code> element, there is the <code>[[html/elements/head|head]]</code> element. This is a
 wrapper that contains information about the document ("data about the data", or ''metadata''). This is described in more detail in 
 [[html/elements/head|The HTML head element]]. Inside the <code>head</code> is the <code>[[html/elements/title|title]]</code> element, 
-which defines the “Example page” heading in the brower's title bar. The <code>head</code> element should always contain a 
+which defines the "Example page" heading in the brower's title bar. The <code>head</code> element should always contain a 
 <code>meta</code> element with a <code>charset</code> attribute that identifies the character encoding of the page. 
 (The one exception is when the page is encoded in UTF-16, but you should avoid that encoding anyway.) 
 You should use UTF-8 whenever possible. See [http://www.w3.org/International/getting-started/characters this W3C article] for more about character encodings.
  
 After the <code>[[html/elements/head|head]]</code> element there is a <code>[[html/elements/body|body]]</code> element, which is the
-wrapper that surrounds the actual content of the page — in this case, a level-one heading (<code>[[html/elements/hn|h1]]</code>) element, which contains the text “Hello world”.
+wrapper that surrounds the actual content of the page — in this case, a level-one heading (<code>[[html/elements/hn|h1]]</code>) element, which contains the text "Hello world".
 
-And that’s our document in full.
+And that's our document in full.
 
 == The syntax of HTML elements ==
  
@@ -112,9 +112,9 @@ Nearly any element can contain nested elements, although
 there are exceptions: some elements do not contain either text or nested elements, 
 for example <code>img</code>.
  
-An element within another element is also referred to as a “child” element. So in the above example, <code>abbr</code> is a child of 
+An element within another element is also referred to as a "child" element. So in the above example, <code>abbr</code> is a child of 
 <code>h1</code>, which is itself a child of <code>header</code>. Conversely, the <code>header</code> element
-would be referred to as the “parent” of the <code>h1</code> element, which is the parent of <code>abbr</code>. 
+would be referred to as the "parent" of the <code>h1</code> element, which is the parent of <code>abbr</code>. 
 This parent/child concept is important, as it forms the basis of CSS (Cascading Stylesheet Specification) and is heavily used in JavaScript.
  
 Elements can also have attributes, which can modify the appearance and/or behaviour
@@ -160,7 +160,7 @@ from the previous content. Some common block level elements include
 paragraphs, lists, headings, and tables.
 
 Inline elements are are contained within block 
-elements and typically surround only small parts of the document’s content. 
+elements and typically surround only small parts of the document's content. 
 Inline elements do not cause a new line to
 appear in the document; rather, they 
 appear inside a line of text. Some common inline elements include
@@ -179,14 +179,14 @@ They start and end parts of the HTML document, rather than
 representing the printable less-than, greater-than, and ampersand characters. 
 For this reason they must always be coded in a special way in document content.
 
-One of the easiest mistakes to make in a web page is to use &lt; and &gt; signs in text and having the browser
+One of the easiest mistakes to make in a web page is to use &lt; and &gt; signs in text and have the browser
 render your content in an unexpected way. For example, if you write
-"The paragraph tag (&lt;p&gt;) is very common", intending for it to look just like that, the browser will render it as 
-The paragraph tag (<p>) is very common</p>
+"The paragraph tag (&lt;p&gt;) is very common.", intending for it to look just like that, the browser will render it as 
+The paragraph tag (<p>) is very common.</p>
 
 This is clearly not what you wanted or expected.
 
-The solution to this problem is to encode, or "escape", the two signs, by representing them with character references. 
+The solution to this problem is to encode, or "escape", the two signs by representing them with character references. 
 The character reference for less-than is "&amp;lt;", and the character reference for greater-than is "&amp;gt;".
 Thus, to get that line to look the way you want, you would write
 "The paragraph tag (&amp;lt;p&amp;gt;) is very common", which the browser would render as
@@ -195,21 +195,20 @@ In these encodings, the ampersand (&amp;) starts the reference and the semicolon
 
 Character references can also be numeric. For example, you can escape an ampersand character with either
 its shorthand word <code>&amp;amp;</code> or its numeric reference <code>&amp;#38;</code>.
-
 <!--
 One of the earliest mistakes a web author can make is to use an
 ampersand in a document and then have something unexpected appear.
-For example, writing “Imperial units measure weight in stones&amp;pounds” 
-could actually end up appearing as “…stones£s” in some browsers.
+For example, writing "Imperial units measure weight in stones&amp;pounds" 
+could actually end up appearing as "…stones£s" in some browsers.
  
-This is because the literal string “&amp;pound;” is actually a character
+This is because the literal string "&amp;pound;" is actually a character
 reference in HTML. A character reference is a way of including a
 character into a document that is difficult or impossible to enter
 using a keyboard, or in a particular document encoding.
  
 The ampersand (&amp;) introduces the reference and the semi-colon (;) ends
 it. However, many user agents can be quite forgiving of HTML mistakes
-such as leaving out the semi-colon, and treat “&amp;pound” as a character
+such as leaving out the semi-colon, and treat "&amp;pound" as a character
 reference. References can either be numbers (numeric references) or
 shorthand words (entity references).
  
