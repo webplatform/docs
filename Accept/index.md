@@ -1,1 +1,0 @@
-#REDIRECT [[http/headers/Accept]]
