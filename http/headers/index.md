@@ -16,8 +16,8 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231, Section 5.3.2]
 |-
 | [[http/headers/Accept-Additions|Accept-Additions]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| Used in Hyper Text Coffee Pot Control Protocol (HTCPCP/1.0)
+| [http://tools.ietf.org/html/rfc2324#section-2.2.2.1 RFC2324]
 |-
 | [[http/headers/Accept-Charset|Accept-Charset]]
 | 
@@ -32,11 +32,11 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc7231#section-5.3.4 RFC7231, Section 5.3.4]
 |-
 | [[http/headers/Accept-Features|Accept-Features]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| Experimental
+| [http://tools.ietf.org/html/rfc2295#section-8.2 RFC2995]
 |-
 | [[http/headers/Accept-Language|Accept-Language]]
-| 
+| Locales that a user agent prefers
 | [http://tools.ietf.org/html/rfc7231#section-5.3.5 RFC7231, Section 5.3.5]
 |-
 | [[http/headers/Accept-Patch|Accept-Patch]]
@@ -44,11 +44,11 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc5789 RFC5789]
 |-
 | [[http/headers/Accept-Ranges|Accept-Ranges]]
-| 
+| Server indication of which range units it understands (e.g. byte)
 | [http://tools.ietf.org/html/rfc7233#section-2.3 RFC7233, Section 2.3]
 |-
 | [[http/headers/Age|Age]]
-| 
+| Estimate of how stale the resource is, in seconds, used by caches
 | [http://tools.ietf.org/html/rfc7234#section-5.1 RFC7234, Section 5.1]
 |-
 | [[http/headers/Allow|Allow]]
@@ -56,43 +56,23 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc7231#section-7.4.1 RFC7231, Section 7.4.1]
 |-
 | [[http/headers/Alternates|Alternates]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| Experimental
+| [http://tools.ietf.org/html/rfc2295 RFC2295]
 |-
 | [[http/headers/Apply-To-Redirect-Ref|Apply-To-Redirect-Ref]]
 | 
 | [http://tools.ietf.org/html/rfc4437 RFC4437]
 |-
 | [[http/headers/Authentication-Info|Authentication-Info]]
-| 
+| Control data and information about the authentication session
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Authorization|Authorization]]
 | Credentials for accessing a resource on the server
 | [http://tools.ietf.org/html/rfc7235#section-4.2 RFC7235, Section 4.2]
 |-
-| [[http/headers/C-Ext|C-Ext]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
-| [[http/headers/C-Man|C-Man]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
-| [[http/headers/C-Opt|C-Opt]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
-| [[http/headers/C-PEP|C-PEP]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
-| [[http/headers/C-PEP-Info|C-PEP-Info]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
 | [[http/headers/Cache-Control|Cache-Control]]
-| Caching data
+| Information for how and when to cache the resource
 | [http://tools.ietf.org/html/rfc7234#section-5.2 RFC7234, Section 5.2]
 |-
 | [[http/headers/Close|Close]]
@@ -108,7 +88,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc2068 RFC2068][http://www.iana.org/go/rfc2616 RFC2616]
 |-
 | [[http/headers/Content-Disposition|Content-Disposition]]
-| 
+| Conveys additional information about how to process the response payload
 | [http://tools.ietf.org/html/rfc6266 RFC6266]
 |-
 | [[http/headers/Content-Encoding|Content-Encoding]]
@@ -120,7 +100,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc4229 RFC4229] [http://www.w3.org/TR/NOTE-drp-19970825 DRP]
 |-
 | [[http/headers/Content-Language|Content-Language]]
-| 
+| The locale/language of the entity-body
 | [http://tools.ietf.org/html/rfc7231#section-3.1.3.2 RFC7231, Section 3.1.3.2]
 |-
 | [[http/headers/Content-Length|Content-Length]]
@@ -448,11 +428,11 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231, Section 7.4.2]
 |-
 | [[http/headers/Set-Cookie|Set-Cookie]]
-| 
+| Request to store a cookie on the user-agent
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
 | [[http/headers/Set-Cookie2|Set-Cookie2]]
-| 
+| Request to store a cookie on the user-agent
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
 | [[http/headers/SetProfile|SetProfile]]
