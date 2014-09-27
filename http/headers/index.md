@@ -7,540 +7,540 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 |-
 ! Header !! Description !! Reference
 |-
-| A-IM
+| [[http/headers/A-IM|A-IM]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Accept
+| [[http/headers/Accept|Accept]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231, Section 5.3.2]
 |-
-| Accept-Additions
+| [[http/headers/Accept-Additions|Accept-Additions]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Accept-Charset
+| [[http/headers/Accept-Charset|Accept-Charset]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-5.3.3 RFC7231, Section 5.3.3]
 |-
-| Accept-Datetime
+| [[http/headers/Accept-Datetime|Accept-Datetime]]
 | 
 | [http://tools.ietf.org/html/rfc7089 RFC7089]
 |-
-| Accept-Encoding
+| [[http/headers/Accept-Encoding|Accept-Encoding]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-5.3.4 RFC7231, Section 5.3.4]
 |-
-| Accept-Features
+| [[http/headers/Accept-Features|Accept-Features]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Accept-Language
+| [[http/headers/Accept-Language|Accept-Language]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-5.3.5 RFC7231, Section 5.3.5]
 |-
-| Accept-Patch
+| [[http/headers/Accept-Patch|Accept-Patch]]
 | 
 | [http://tools.ietf.org/html/rfc5789 RFC5789]
 |-
-| Accept-Ranges
+| [[http/headers/Accept-Ranges|Accept-Ranges]]
 | 
 | [http://tools.ietf.org/html/rfc7233#section-2.3 RFC7233, Section 2.3]
 |-
-| Age
+| [[http/headers/Age|Age]]
 | 
 | [http://tools.ietf.org/html/rfc7234#section-5.1 RFC7234, Section 5.1]
 |-
-| Allow
+| [[http/headers/Allow|Allow]]
 | Indicate which methods can be used on the resource
 | [http://tools.ietf.org/html/rfc7231#section-7.4.1 RFC7231, Section 7.4.1]
 |-
-| Alternates
+| [[http/headers/Alternates|Alternates]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Apply-To-Redirect-Ref
+| [[http/headers/Apply-To-Redirect-Ref|Apply-To-Redirect-Ref]]
 | 
 | [http://tools.ietf.org/html/rfc4437 RFC4437]
 |-
-| Authentication-Info
+| [[http/headers/Authentication-Info|Authentication-Info]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Authorization
+| [[http/headers/Authorization|Authorization]]
 | Credentials for accessing a resource on the server
 | [http://tools.ietf.org/html/rfc7235#section-4.2 RFC7235, Section 4.2]
 |-
-| C-Ext
+| [[http/headers/C-Ext|C-Ext]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| C-Man
+| [[http/headers/C-Man|C-Man]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| C-Opt
+| [[http/headers/C-Opt|C-Opt]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| C-PEP
+| [[http/headers/C-PEP|C-PEP]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| C-PEP-Info
+| [[http/headers/C-PEP-Info|C-PEP-Info]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Cache-Control
+| [[http/headers/Cache-Control|Cache-Control]]
 | Caching data
 | [http://tools.ietf.org/html/rfc7234#section-5.2 RFC7234, Section 5.2]
 |-
-| Close
+| [[http/headers/Close|Close]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-8.1 RFC7230, Section 8.1]
 |-
-| Connection
+| [[http/headers/Connection|Connection]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-6.1 RFC7230, Section 6.1]
 |-
-| Content-Base
+| [[http/headers/Content-Base|Content-Base]]
 | Provides a base URI for the document (largely unsupported and obsolete)
 | [http://tools.ietf.org/html/rfc2068 RFC2068][http://www.iana.org/go/rfc2616 RFC2616]
 |-
-| Content-Disposition
+| [[http/headers/Content-Disposition|Content-Disposition]]
 | 
 | [http://tools.ietf.org/html/rfc6266 RFC6266]
 |-
-| Content-Encoding
+| [[http/headers/Content-Encoding|Content-Encoding]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-3.1.2.2 RFC7231, Section 3.1.2.2]
 |-
-| Content-ID
+| [[http/headers/Content-ID|Content-ID]]
 | Obsolete
 | [http://tools.ietf.org/html/rfc4229 RFC4229] [http://www.w3.org/TR/NOTE-drp-19970825 DRP]
 |-
-| Content-Language
+| [[http/headers/Content-Language|Content-Language]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-3.1.3.2 RFC7231, Section 3.1.3.2]
 |-
-| Content-Length
+| [[http/headers/Content-Length|Content-Length]]
 | The octet (byte) length of the attached entity-body
 | [http://tools.ietf.org/html/rfc7230#section-3.3.2 RFC7230, Section 3.3.2]
 |-
-| Content-Location
+| [[http/headers/Content-Location|Content-Location]]
 | The URI of the attached entity-body
 | [http://tools.ietf.org/html/rfc7231#section-3.1.4.2 RFC7231, Section 3.1.4.2]
 |-
-| Content-MD5
+| [[http/headers/Content-MD5|Content-MD5]]
 | Obsolete
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Content-Range
+| [[http/headers/Content-Range|Content-Range]]
 | Identifies the enclose entity-body is a subset of the requested resource
 | [http://tools.ietf.org/html/rfc7233#section-4.2 RFC7233, Section 4.2]
 |-
-| Content-Script-Type
+| [[http/headers/Content-Script-Type|Content-Script-Type]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Content-Style-Type
+| [[http/headers/Content-Style-Type|Content-Style-Type]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Content-Type
+| [[http/headers/Content-Type|Content-Type]]
 | The media type of the attached entity-body
 | [http://tools.ietf.org/html/rfc7231#section-3.1.1.5 RFC7231, Section 3.1.1.5]
 |-
-| Content-Version
+| [[http/headers/Content-Version|Content-Version]]
 | Obsolete
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Cookie
+| [[http/headers/Cookie|Cookie]]
 | 
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
-| Cookie2
+| [[http/headers/Cookie2|Cookie2]]
 | 
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
-| DASL
+| [[http/headers/DASL|DASL]]
 | 
 | [http://tools.ietf.org/html/rfc5323 RFC5323]
 |-
-| DAV
+| [[http/headers/DAV|DAV]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| Date
+| [[http/headers/Date|Date]]
 | The date and time at which the message was originated
 | [http://tools.ietf.org/html/rfc7231#section-7.1.1.2 RFC7231, Section 7.1.1.2]
 |-
-| Default-Style
+| [[http/headers/Default-Style|Default-Style]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Delta-Base
+| [[http/headers/Delta-Base|Delta-Base]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Depth
+| [[http/headers/Depth|Depth]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| Derived-From
+| [[http/headers/Derived-From|Derived-From]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Destination
+| [[http/headers/Destination|Destination]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| Differential-ID
+| [[http/headers/Differential-ID|Differential-ID]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Digest
+| [[http/headers/Digest|Digest]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| ETag
+| [[http/headers/ETag|ETag]]
 | Differentiates between multiple versions/representations of the same resource
 | [http://tools.ietf.org/html/rfc7232#section-2.3 RFC7232, Section 2.3]
 |-
-| Expect
+| [[http/headers/Expect|Expect]]
 | Require that downstream nodes support specified functionality
 | [http://tools.ietf.org/html/rfc7231#section-5.1.1 RFC7231, Section 5.1.1]
 |-
-| Expires
+| [[http/headers/Expires|Expires]]
 | Controls caching
 | [http://tools.ietf.org/html/rfc7234#section-5.3 RFC7234, Section 5.3]
 |-
-| Ext
+| [[http/headers/Ext|Ext]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Forwarded
+| [[http/headers/Forwarded|Forwarded]]
 | Shows where the message originated from, further upstream
 | [http://tools.ietf.org/html/rfc7239 RFC7239]
 |-
-| From
+| [[http/headers/From|From]]
 | Contact information for the user making the request, especially for Web spiders
 | [http://tools.ietf.org/html/rfc7231#section-5.5.1 RFC7231, Section 5.5.1]
 |-
-| GetProfile
+| [[http/headers/GetProfile|GetProfile]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Host
+| [[http/headers/Host|Host]]
 | Hostname component of the request-URI (Required)
 | [http://tools.ietf.org/html/rfc7230#section-5.4 RFC7230, Section 5.4]
 |-
-| IM
+| [[http/headers/IM|IM]]
 | Instance Manipulation
 | [http://tools.ietf.org/html/rfc4229 RFC4229] [http://tools.ietf.org/html/rfc3229#section-10.5.2 RFC 3229]
 |-
-| If
+| [[http/headers/If|If]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| If-Match
+| [[http/headers/If-Match|If-Match]]
 | 
 | [http://tools.ietf.org/html/rfc7232#section-3.1 RFC7232, Section 3.1]
 |-
-| If-Modified-Since
+| [[http/headers/If-Modified-Since|If-Modified-Since]]
 | 
 | [http://tools.ietf.org/html/rfc7232#section-3.3 RFC7232, Section 3.3]
 |-
-| If-None-Match
+| [[http/headers/If-None-Match|If-None-Match]]
 | 
 | [http://tools.ietf.org/html/rfc7232#section-3.2 RFC7232, Section 3.2]
 |-
-| If-Range
+| [[http/headers/If-Range|If-Range]]
 | 
 | [http://tools.ietf.org/html/rfc7233#section-3.2 RFC7233, Section 3.2]
 |-
-| If-Schedule-Tag-Match
+| [[http/headers/If-Schedule-Tag-Match|If-Schedule-Tag-Match]]
 | 
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
-| If-Unmodified-Since
+| [[http/headers/If-Unmodified-Since|If-Unmodified-Since]]
 | 
 | [http://tools.ietf.org/html/rfc7232#section-3.4 RFC7232, Section 3.4]
 |-
-| Keep-Alive
+| [[http/headers/Keep-Alive|Keep-Alive]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Label
+| [[http/headers/Label|Label]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Last-Modified
+| [[http/headers/Last-Modified|Last-Modified]]
 | 
 | [http://tools.ietf.org/html/rfc7232#section-2.2 RFC7232, Section 2.2]
 |-
-| Link
+| [[http/headers/Link|Link]]
 | 
 | [http://tools.ietf.org/html/rfc5988 RFC5988]
 |-
-| Location
+| [[http/headers/Location|Location]]
 | Points to another resource, typically for redirection purposes
 | [http://tools.ietf.org/html/rfc7231#section-7.1.2 RFC7231, Section 7.1.2]
 |-
-| Lock-Token
+| [[http/headers/Lock-Token|Lock-Token]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| Man
+| [[http/headers/Man|Man]]
 | Experimental
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Max-Forwards
+| [[http/headers/Max-Forwards|Max-Forwards]]
 | Limit the number of forwards, similar to a TTL
 | [http://tools.ietf.org/html/rfc7231#section-5.1.2 RFC7231, Section 5.1.2]
 |-
-| Memento-Datetime
+| [[http/headers/Memento-Datetime|Memento-Datetime]]
 | 
 | [http://tools.ietf.org/html/rfc7089 RFC7089]
 |-
-| Meter
+| [[http/headers/Meter|Meter]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229] [http://tools.ietf.org/html/rfc2227 RFC2227]
 |-
-| MIME-Version
+| [[http/headers/MIME-Version|MIME-Version]]
 | The HTTP Message is also MIME compatible (obsolete)
 | [http://tools.ietf.org/html/rfc7231#appendix-A.1 RFC7231, Appendix A.1]
 |-
-| Negotiate
+| [[http/headers/Negotiate|Negotiate]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229] [http://tools.ietf.org/html/rfc2295 RFC2295]
 |-
-| Opt
+| [[http/headers/Opt|Opt]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Ordering-Type
+| [[http/headers/Ordering-Type|Ordering-Type]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Origin
+| [[http/headers/Origin|Origin]]
 | 
 | [http://tools.ietf.org/html/rfc6454 RFC6454]
 |-
-| Overwrite
+| [[http/headers/Overwrite|Overwrite]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| P3P
+| [[http/headers/P3P|P3P]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| PEP
+| [[http/headers/PEP|PEP]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| PICS-Label
+| [[http/headers/PICS-Label|PICS-Label]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Pep-Info
+| [[http/headers/Pep-Info|Pep-Info]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Position
+| [[http/headers/Position|Position]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Pragma
+| [[http/headers/Pragma|Pragma]]
 | (Deprecated HTTP/1.0 header)
 | [http://tools.ietf.org/html/rfc7234#section-5.4 RFC7234, Section 5.4]
 |-
-| Prefer
+| [[http/headers/Prefer|Prefer]]
 | Indicate a preference for how the server should respond to a query
 | [http://tools.ietf.org/html/rfc7240 RFC7240]
 |-
-| Preference-Applied
+| [[http/headers/Preference-Applied|Preference-Applied]]
 | 
 | [http://tools.ietf.org/html/rfc7240 RFC7240]
 |-
-| ProfileObject
+| [[http/headers/ProfileObject|ProfileObject]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Proxy-Authenticate
+| [[http/headers/Proxy-Authenticate|Proxy-Authenticate]]
 | Use of proxy requires authentication
 | [http://tools.ietf.org/html/rfc7235#section-4.3 RFC7235, Section 4.3]
 |-
-| Proxy-Authentication-Info
+| [[http/headers/Proxy-Authentication-Info|Proxy-Authentication-Info]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Proxy-Authorization
+| [[http/headers/Proxy-Authorization|Proxy-Authorization]]
 | Send credentials to a proxy
 | [http://tools.ietf.org/html/rfc7235#section-4.4 RFC7235, Section 4.4]
 |-
-| Proxy-Features
+| [[http/headers/Proxy-Features|Proxy-Features]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Proxy-Instruction
+| [[http/headers/Proxy-Instruction|Proxy-Instruction]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Public
+| [[http/headers/Public|Public]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Range
+| [[http/headers/Range|Range]]
 | Request a subset of the resource
 | [http://tools.ietf.org/html/rfc7233#section-3.1 RFC7233, Section 3.1]
 |-
-| Redirect-Ref
+| [[http/headers/Redirect-Ref|Redirect-Ref]]
 | 
 | [http://tools.ietf.org/html/rfc4437 RFC4437]
 |-
-| Referer
+| [[http/headers/Referer|Referer]]
 | (Sic) Page that was linked from
 | [http://tools.ietf.org/html/rfc7231#section-5.5.2 RFC7231, Section 5.5.2]
 |-
-| Retry-After
+| [[http/headers/Retry-After|Retry-After]]
 | 
 | [http://tools.ietf.org/html/rfc7231#section-7.1.3 RFC7231, Section 7.1.3]
 |-
-| Safe
+| [[http/headers/Safe|Safe]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Schedule-Reply
+| [[http/headers/Schedule-Reply|Schedule-Reply]]
 | 
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
-| Schedule-Tag
+| [[http/headers/Schedule-Tag|Schedule-Tag]]
 | 
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
-| Sec-WebSocket-Accept
+| [[http/headers/Sec-WebSocket-Accept|Sec-WebSocket-Accept]]
 | Used for negotiating a WebSocket connection
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
-| Sec-WebSocket-Extensions
+| [[http/headers/Sec-WebSocket-Extensions|Sec-WebSocket-Extensions]]
 | Used for negotiating a WebSocket connection
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
-| Sec-WebSocket-Key
+| [[http/headers/Sec-WebSocket-Key|Sec-WebSocket-Key]]
 | Used for negotiating a WebSocket connection
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
-| Sec-WebSocket-Protocol
+| [[http/headers/Sec-WebSocket-Protocol|Sec-WebSocket-Protocol]]
 | Used for negotiating a WebSocket connection
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
-| Sec-WebSocket-Version
+| [[http/headers/Sec-WebSocket-Version|Sec-WebSocket-Version]]
 | Used for negotiating a WebSocket connection
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
-| Security-Scheme
+| [[http/headers/Security-Scheme|Security-Scheme]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Server
+| [[http/headers/Server|Server]]
 | Indicates the server's software and version
 | [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231, Section 7.4.2]
 |-
-| Set-Cookie
+| [[http/headers/Set-Cookie|Set-Cookie]]
 | 
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
-| Set-Cookie2
+| [[http/headers/Set-Cookie2|Set-Cookie2]]
 | 
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
-| SetProfile
+| [[http/headers/SetProfile|SetProfile]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| SLUG
+| [[http/headers/SLUG|SLUG]]
 | 
 | [http://tools.ietf.org/html/rfc5023 RFC5023]
 |-
-| SoapAction
+| [[http/headers/SoapAction|SoapAction]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Status-URI
+| [[http/headers/Status-URI|Status-URI]]
 | Used by WebDAV
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Strict-Transport-Security
+| [[http/headers/Strict-Transport-Security|Strict-Transport-Security]]
 | HSTS, asks that future requests must only go over TLS
 | [http://tools.ietf.org/html/rfc6797 RFC6797]
 |-
-| Surrogate-Capability
+| [[http/headers/Surrogate-Capability|Surrogate-Capability]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Surrogate-Control
+| [[http/headers/Surrogate-Control|Surrogate-Control]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| TCN
+| [[http/headers/TCN|TCN]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| TE
+| [[http/headers/TE|TE]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-4.3 RFC7230, Section 4.3]
 |-
-| Timeout
+| [[http/headers/Timeout|Timeout]]
 | Used in WebDAV
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
-| Trailer
+| [[http/headers/Trailer|Trailer]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-4.4 RFC7230, Section 4.4]
 |-
-| Transfer-Encoding
+| [[http/headers/Transfer-Encoding|Transfer-Encoding]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-3.3.1 RFC7230, Section 3.3.1]
 |-
-| URI
+| [[http/headers/URI|URI]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Upgrade
+| [[http/headers/Upgrade|Upgrade]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-6.7 RFC7230, Section 6.7]
 |-
-| User-Agent
+| [[http/headers/User-Agent|User-Agent]]
 | Indicates the user agent's software and version
 | [http://tools.ietf.org/html/rfc7231#section-5.5.3 RFC7231, Section 5.5.3]
 |-
-| Variant-Vary
+| [[http/headers/Variant-Vary|Variant-Vary]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Vary
+| [[http/headers/Vary|Vary]]
 | The server's response was chosen based on the specified headers
 | [http://tools.ietf.org/html/rfc7231#section-7.1.4 RFC7231, Section 7.1.4]
 |-
-| Via
+| [[http/headers/Via|Via]]
 | 
 | [http://tools.ietf.org/html/rfc7230#section-5.7.1 RFC7230, Section 5.7.1]
 |-
-| WWW-Authenticate
+| [[http/headers/WWW-Authenticate|WWW-Authenticate]]
 | 
 | [http://tools.ietf.org/html/rfc7235#section-4.1 RFC7235, Section 4.1]
 |-
-| Want-Digest
+| [[http/headers/Want-Digest|Want-Digest]]
 | 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
-| Warning
+| [[http/headers/Warning|Warning]]
 | 
 | [http://tools.ietf.org/html/rfc7234#section-5.5 RFC7234, Section 5.5]
 |-
-| X-Frame-Options
-| Variation on Frame-Options header used by older browsers
+| [[http/headers/X-Frame-Options|X-Frame-Options]]
+| Older variation on Frame-Options header
 | [http://tools.ietf.org/html/rfc7034 RFC7034] [http://www.w3.org/TR/CSP11/ CSP]
 |}
 
@@ -549,7 +549,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 |-
 ! Header !! Description !! Reference
 |-
-| Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]
+| Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]|Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]]]
 |}
 
 === Response Headers ===
@@ -557,7 +557,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 |-
 ! Header !! Description !! Reference
 |-
-| Server || Lists the server's software version || [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231 Section 7.4.2]
+| Server || Lists the server's software version || [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231 Section 7.4.2]|Server || Lists the server's software version || [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231 Section 7.4.2]
 |-
 |}
 
