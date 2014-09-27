@@ -7,9 +7,16 @@
 {{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section|Used by user agents to specify response media types that are acceptable.}}
+{{HTTP Header
+|Syntax=     Accept = #( media-range [ accept-params ] )
 
-|Syntax=
-|Direction=
+     media-range    = ( "*/*"
+                      / ( type "/" "*" )
+                      / ( type "/" subtype )
+                      ) *( OWS ";" OWS parameter )
+     accept-params  = weight *( accept-ext )
+     accept-ext = OWS ";" OWS token [ "=" ( token / quoted-string ) ]
+|Direction=Request
 |Required=}}
 {{Examples_Section
 |Not_required=No
