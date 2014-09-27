@@ -8,26 +8,26 @@
 {{API_Name}}
 {{Summary_Section|Used by user agents to specify response media types that are acceptable.}}
 {{HTTP Header
-|Syntax=     Accept = #( media-range [ accept-params ] )
-
-     media-range    = ( "*/*"
-                      / ( type "/" "*" )
-                      / ( type "/" subtype )
-                      ) *( OWS ";" OWS parameter )
-     accept-params  = weight *( accept-ext )
-     accept-ext = OWS ";" OWS token [ "=" ( token / quoted-string ) ]
+|Syntax=Accept = #( media-range [ accept-params ] )
+media-range    = ( "*/*"
+                 / ( type "/" "*" )
+                 / ( type "/" subtype )
+                 ) *( OWS ";" OWS parameter )
+accept-params  = weight *( accept-ext )
+accept-ext = OWS ";" OWS token [ "=" ( token / quoted-string ) ]
 |Direction=Request
-|Required=}}
+|Required=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=Other
-|Description=
+|Description=Prefer HTML or text/x-c, or text/x-dvi if it's the best the server has after a 20% markdown in quality, or plain text after a 50% markdown in quality:
 |Code=Accept: text/plain; q=0.5, text/html, text/x-dvi; q=0.8, text/x-c
 |LiveURL=
 }}{{Single Example
 |Language=Other
-|Description=Prefer XHTML or HTML, or generic XML with a reduced preference, or else any content
+|Description=Prefer XHTML or HTML, or generic XML with a reduced preference, or else any content:
 |Code=Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
 |LiveURL=
 }}
