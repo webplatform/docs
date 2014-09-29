@@ -123,10 +123,10 @@ Teachers often wonder what style they should teach beginning coders, and what do
 
 Well, the whole point of HTML5 having loose syntax is that much of it really doesn't actually matter in terms of how a page renders in a browser. HTML5 reflects more what web developers have actually done historically, rather than what the W3C thinks they should be doing now. Thus, you don't really need to stick to most of these rules; you can go forward with HTML5 using whatever syntax style you are used to. But when teaching newcomers, you need to recommend a style for them to use. The best combination is probably to use ''the HTML5 doctype'', but to stick to ''the XHTML strict rules''.
 
-Below are some common remarks about HTML5 and some reasoned "yes, but" responses.
+Below are some common remarks about HTML5's relaxed requirements and some reasoned "yes, but" responses.
 
-* "HTML5 doesn't need closing tags." Yes, but you really should include them, to make sure an unambiguous DOM is formed, which gives you the results you expect when you apply CSS and JavaScript to your HTML.
-* "HTML5 doesn't need trailing slashes for empty tags." Yes, but you should probably include them for readability.
+* "HTML5 doesn't need closing tags." Yes, but you really should include them to make sure an unambiguous DOM is formed, which gives you the results you expect when you apply CSS and JavaScript to your HTML.
+* "HTML5 doesn't need trailing slashes for empty tags." Yes, but you should include them for readability.
 * "HTML5 is case insensitive." Yes, but you should absolutely stick to a consistent case style, because it can create confusion when students collaborate on projects. It can also create syntax errors; for example, if a student uses mixed case in file paths. Unix servers are case sensitive, while Windows servers are not. Also, your students won't always be working with HTML5 in the real world; they may come across pages that use HTML4 strict, or XHTML 1.0 transitional. Using XHTML syntax rules ensures that your HTML will work pretty much anywhere, regardless of doctype and style.
 * "HTML5 doesn't require <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> elements." Yes, but these elements are part of general best practice that coders should adhere to. Including <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> breaks up the code naturally into distinct areas, making it more readable. And including the <code>&lt;html&gt;</code> tag is important for other reasons such as JavaScript events and accessibility. You should also include a <code>lang</code> attribute to indicate the document's primary language, as a common best practice.
 * "HTML5 allows stray text (not in a container)."  Yes, but this is a very bad practice; it will likely result in a malformed DOM and subsequent display, CSS, and JavaScript errors.
@@ -152,7 +152,6 @@ Therefore you should just stick to serving documents as HTML5, not proper XHTML.
 The HTML5 doctype is not only simpler than previous versions, but it buys you the most flexibility in coding style. That said, do not take that
 as an excuse to write overly loose code; follow best practices in general and XHTML 1.0 coding rules in particular, and you will have the best
 of both worlds.
-
 }}
 {{Notes_Section
 |Usage=
