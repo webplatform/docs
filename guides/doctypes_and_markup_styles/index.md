@@ -9,10 +9,10 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|In this article we explore the different doctypes you are likely to come across on your journey around the Web, and look at how XHTML and HTML doctypes differ.}}
+{{Summary_Section|In this article we explore the different doctypes you are likely to come across on your journey around the web, and look at how XHTML and HTML doctypes differ.}}
 {{Guide
 |Content=== Introduction ==
-The ''doctype'', as you might imagine, identifies the type of document that follows, and appears just above the <code>&lt;html&gt;</code> tag, 
+The ''doctype'', as you might imagine, identifies the ''type of document'' that follows, and appears just above the <code>&lt;html&gt;</code> tag, 
 at the very start of each HTML document:
 
 <pre>&lt;!DOCTYPE html&gt;
@@ -23,13 +23,13 @@ at the very start of each HTML document:
 
    ... etc.</pre>
 
-The doctype tells the browser type of HTML to expect, and therefore what validators (for example, the [http://validator.w3.org/ W3C HTML validator]) it should validate your document against.
+The doctype tells the browser the type of HTML to expect, and therefore what validators (for example, the [http://validator.w3.org/ W3C HTML validator]) it should validate your document against.
 
 == Standards versus quirks mode ==
 
 The doctype also serves to make the browser render the page in "standards mode".  In standards mode, browsers try to render the page according to the CSS specifications, in effect trusting that the person who created the document knew what they were doing. 
 
-On the other hand, if a browser finds an outdated, incomplete, or missing doctype at the start of the page, it will render the page using "quirks mode", which is more backward-compatible with older practices and browsers. Quirks mode assumes that the document has not been created with web standards in mind. It means that the web page will still render, but the browser will work a bit harder to do so, and you may get some unexpected display results.  The differences are mostly about how the CSS is rendered, and only partly about how the actual HTML is treated. As a web designer or developer, you will get the most consistent results by making sure that all browsers use standards mode; thus, you should stick to web standards, and use a proper doctype.
+On the other hand, if a browser finds an outdated, incomplete, or missing doctype at the start of the page, it will render the page using "quirks mode", which is more backward-compatible with older practices and browsers. Quirks mode assumes that the document was not created with web standards in mind. In practical terms it means that the web page will still render, but the browser will work a bit harder to do so, and you may get some unexpected display results.  The differences are mostly about how the CSS is rendered, and only partly about how the actual HTML is treated. As a web designer or developer, you will get the most consistent results by making sure that all browsers use standards mode; thus, you should stick to web standards, and use a proper doctype.
 
 == HTML &amp; XHTML doctypes ==
 
@@ -61,23 +61,19 @@ and transitional doctype
 <pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</pre>
 
-are the exact XHTML 1.0 equivalents of the HTML 4.01 doctypes discussed above. Functionally they are the same, except that they won't validate loose HTML style markup: it all needs to be well formed XML.
+are the exact XHTML 1.0 equivalents of the HTML 4.01 doctypes discussed above. Functionally they are the same, except that they don't validate loose HTML style markup &mdash; it all needs to be well formed XML.
 
 === The HTML 4.01 and XHTML 1.0 frameset doctypes ===
 
 If you want to use framesets and still have your markup validate, you can use one of these two doctypes:
 
 <pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
-"http://www.w3.org/TR/html4/frameset.dtd"&gt;
+"http://www.w3.org/TR/html4/frameset.dtd"&gt;</pre>
 
-&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+<pre>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</pre>
 
-They are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitional, respectively, but they allow the use of framesets. But please don't use framesets: they are not considered best practice, and their use is discouraged by most knowledgeable web authors and designers.
-
-=== Other doctypes ===
-
-You may also occasionally see other doctypes on your travels, but they are not mentioned here because they are outdated. Don't use any other doctypes. 
+These are functionally the same as HTML 4.01 transitional and XHTML 1.0 transitional, respectively, but they allow the use of framesets. But please don't use framesets: they are not considered best practice, and their use is discouraged by most knowledgeable web authors and designers.
 
 === The HTML5 doctype ===
 
@@ -96,11 +92,11 @@ Table 1 shows the main syntax differences between HTML and XHTML:
 !HTML 
 !XHTML
 {{!}}-
-{{!}} Elements and attributes are case insensitive, e.g., <code>&lt;h1&gt;</code> is the same thing as <code>&lt;H1&gt;</code>.
+{{!}} Elements and attributes are case insensitive, e.g., <code>&lt;h1&gt;</code> is the same as <code>&lt;H1&gt;</code>.
 {{!}} Elements and attributes are case sensitive; they are all lowercase. 
 {{!}}-
 {{!}} Certain elements don't need a closing tag (e.g., paragraphs, <code>&lt;p&gt;</code>), while others (called "empty elements") shouldn't have a closing tag (e.g., images, <code>&lt;img&gt;</code>).
-{{!}} All elements must be explicitly closed (e.g., <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (e.g., <code>&lt;hr&gt;&lt;/hr&gt;</code> and <code>&lt;hr/&gt;</code> mean the same thing).
+{{!}} All elements must be explicitly closed (e.g., <code>&lt;p&gt;A paragraph&lt;/p&gt;</code>). Elements without content should be closed using a slash in the start tag (e.g., <code>&lt;hr/&gt;</code>).
 {{!}}-
 {{!}} Attribute values may be written without being enclosed in quotes.
 {{!}} Attribute values must be enclosed by quotes.
@@ -111,7 +107,7 @@ Table 1 shows the main syntax differences between HTML and XHTML:
 {{!}}}
 ''Table 1: Differences between HTML and XHTML.''
 
-In terms of what syntax style you should use, pick something you are comfortable with. A good recommendation is to start off using strict XML syntax, as it is guaranteed to work in any situation. Later on you can adjust your style, when you better understand what you are doing. Just remember these rules:
+In terms of what syntax style you should use, pick something you are comfortable with. A good recommendation is to start off using strict XHTML syntax, as it is guaranteed to work in any situation. Later on you can adjust your style, when you better understand what you are doing. Just remember these rules:
 
 * If you are using the HTML5 doctype or an HTML 4.01 doctype, you can use whatever style you want
 * If you are using an XHTML doctype, you must use XML well-formed syntax
@@ -123,20 +119,20 @@ That last rule is very important. If you don't properly nest your tags, your HTM
 
 ==== A note for teachers ====
 
-A few teachers have asked us what style they should teach beginning coders, and what doctype they should recommend. Although the HTML5 doctype is far simpler than the others, it allows you to use loose HTML style syntax, and so validating against the HTML5 doctype won't pick up markup that would be considered erroneous in XHTML. This is a shame, as strict XHTML syntax is a good style to teach beginners. So what should you do?
+Teachers often wonder what style they should teach beginning coders, and what doctype they should recommend. Although the HTML5 doctype is far simpler than the others, it allows you to use loose HTML style syntax, and so validating against the HTML5 doctype won't pick up markup that would be considered erroneous in XHTML. This is a shame, as strict XHTML syntax is a good style to teach beginners. So what should you do?
 
 Well, the whole point of HTML5 having loose syntax is that much of it really doesn't actually matter in terms of how a page renders in a browser. HTML5 reflects more what web developers have actually done historically, rather than what the W3C thinks they should be doing now. Thus, you don't really need to stick to most of these rules; you can go forward with HTML5 using whatever syntax style you are used to. But when teaching newcomers, you need to recommend a style for them to use. The best combination is probably to use ''the HTML5 doctype'', but to stick to ''the XHTML strict rules''.
 
 Below are some common remarks about HTML5 and some reasoned "yes, but" responses.
 
-* "HTML5 doesn't need closing tags": Yes, but you really should include them, to make sure an unambiguous DOM is formed, which gives you the results you expect when you apply CSS and JavaScript to your HTML.
-* "HTML5 doesn't need trailing slashes for empty tags": Also true, but again, you should probably include them for readability.
-* "HTML5 is case insensitive": Yes, but you should absolutely stick to a consistent case style, because it can create confusion when students collaborate on projects. It can also create syntax errors; for example, if a student uses mixed case in file paths. Unix servers are case sensitive, while Windows servers are not. Also, your students won't always be working with HTML5 in the real world; they may come across pages that use HTML4 strict, or XHTML 1.0 transitional. Using XHTML syntax rules ensures that your HTML will work pretty much anywhere, regardless of doctype and style.
-* "HTML5 doesn't require <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> elements": Yes, these elements are part of general best practice that should be adhered to. Including <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> breaks up the code naturally into distinct areas, making it more readable. And including the <code>&lt;html&gt;</code> tag is important for other reasons such as JavaScript events and accessibility. You should also include a <code>lang</code> attribute to indicate the document's primary language, as a common best practice.
-* "HTML5 allows stray text (not in a container)":  Yes, but this a very bad practice; it will be likely result in a malformed DOM.
-* "HTML5 allows attribute values without quotes": Yes, but sometimes this breaks down, like when you have a <code>class</code> attribute containing two class names, like <code>&lt;div class=one two&gt;</code>. This would probably confuse the browser, causing it to treat <code>two</code> as a new attribute. Better to quote the values like this <code>&lt;div class="one two"&gt;&lt;/div&gt;</code> and avoid the problem.
+* "HTML5 doesn't need closing tags." Yes, but you really should include them, to make sure an unambiguous DOM is formed, which gives you the results you expect when you apply CSS and JavaScript to your HTML.
+* "HTML5 doesn't need trailing slashes for empty tags." Yes, but you should probably include them for readability.
+* "HTML5 is case insensitive." Yes, but you should absolutely stick to a consistent case style, because it can create confusion when students collaborate on projects. It can also create syntax errors; for example, if a student uses mixed case in file paths. Unix servers are case sensitive, while Windows servers are not. Also, your students won't always be working with HTML5 in the real world; they may come across pages that use HTML4 strict, or XHTML 1.0 transitional. Using XHTML syntax rules ensures that your HTML will work pretty much anywhere, regardless of doctype and style.
+* "HTML5 doesn't require <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code> elements." Yes, but these elements are part of general best practice that coders should adhere to. Including <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> breaks up the code naturally into distinct areas, making it more readable. And including the <code>&lt;html&gt;</code> tag is important for other reasons such as JavaScript events and accessibility. You should also include a <code>lang</code> attribute to indicate the document's primary language, as a common best practice.
+* "HTML5 allows stray text (not in a container)."  Yes, but this is a very bad practice; it will likely result in a malformed DOM and subsequent display, CSS, and JavaScript errors.
+* "HTML5 allows attribute values without quotes." Yes, but sometimes this breaks down, like when you have a <code>class</code> attribute containing two class names, like <code>&lt;div class=one two&gt;</code>. This would probably confuse the browser, causing it to treat <code>two</code> as a new attribute. Better to quote the values like this <code>&lt;div class="one two"&gt;&lt;/div&gt;</code> and avoid the problem.
 
-Validating HTML5 for XHTML style syntax can be a bit of a pain. As a suggestion, you could use http://validator.w3.org, but set the doctype to "XHTML 1.0" instead of "detect automatically". This will validate your HTML5 document as XHTML 1.0, giving you more accurate and appropriate error messages. Of course, it will also give you error messages for the HTML5 elements, because they are undefined as far as XHTML 1.0 is concerned.
+Validating HTML5 for XHTML style syntax can be a bit of a pain. As a suggestion, you could use http://validator.w3.org, but set the doctype to "XHTML 1.0" instead of "detect automatically". This will validate your HTML5 document as XHTML 1.0, giving you more accurate and appropriate error messages. Of course, it will also give you error messages for the HTML5 elements, because they are undefined in XHTML 1.0.
 
 === Serving "real" XML ===
 
