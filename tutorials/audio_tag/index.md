@@ -1,8 +1,8 @@
 {{Page_Title|Implementing the HTML5 audio tag}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
-|High-level issues=Needs Flags
 }}
 {{Byline
 |Name=Ernest Delgado
@@ -11,6 +11,8 @@
 }}
 {{Summary_Section|A quick guide to implementing the audio tag in HTML.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Step 1: Wrap your Flash object with the audio tag ==
  
 Those browsers that don't recognize the audio tag will load the Flash content instead.
@@ -74,7 +76,7 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
 &lt;/audio>
 
 &lt;div id="player_fallback">&lt;/div>
-&lt;script>
+&lt;script type="application/javascript">
   if (document.createElement('audio').canPlayType) {
     if (!document.createElement('audio').canPlayType('audio/mpeg')) {
       swfobject.embedSWF(
@@ -93,15 +95,15 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
  
 To make it easier, we are using the [http://code.google.com/p/swfobject/ SWFObject] library to insert the Flash player via JavaScript. To include the library you can simply use the [http://code.google.com/apis/ajaxlibs/ Google AJAX Libraries API] inserting these two lines in your header:
 
-<pre>&lt;script src="http://www.google.com/jsapi">&lt;/script>
-&lt;script>google.load("swfobject", "2.2");&lt;/script>
+<pre>&lt;script src="http://www.google.com/jsapi" type="application/javascript">&lt;/script>
+&lt;script type="application/javascript">google.load("swfobject", "2.2");&lt;/script>
 </pre>
  
 == Step 4: Add the default controls to show the player ==
  
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
-<pre>&lt;audio id="audio_with_controls" controls> &lt;source src="test.mp3" type="audio/mpeg" />
+<pre>&lt;audio id="audio_with_controls" controls="controls"> &lt;source src="test.mp3" type="audio/mpeg" />
     
   &lt;object class="playerpreview" type="application/x-shockwave-flash" 
           data="player_mp3_mini.swf" width="200" height="20">
@@ -117,7 +119,7 @@ These controls are not customizable (see examples at the end). Since these defau
 &lt;/audio>
 
 &lt;div id="player_fallback">&lt;/div>
-&lt;script>
+&lt;script type="application/javascript">
   if (document.createElement('audio').canPlayType) {
     if (!document.createElement('audio').canPlayType('audio/mpeg')) {
       ... SWFObject script line here ...
@@ -150,7 +152,7 @@ Alternatively, you can create your own player using JavaScript and CSS.
   &lt;button onClick="document.getElementById('audio').pause()">Pause&lt;/button>
 &lt;/div>
 
-&lt;script>
+&lt;script type="application/javascript">
   if (document.createElement('audio').canPlayType) {
     if (!document.createElement('audio').canPlayType('audio/mpeg')) {
       ... SWFObject script lines here ...
@@ -169,7 +171,7 @@ The following example will fallback to the Flash player in those browsers that d
 &lt;!DOCTYPE html>
 &lt;html>
   &lt;head>
-    &lt;style>
+    &lt;style type="text/css">
       h3 {
         font-family: 'Droid Sans', Arial, sans-serif;
         font-size: 14px;
@@ -178,7 +180,7 @@ The following example will fallback to the Flash player in those browsers that d
   &lt;/head>
   &lt;body>
     &lt;h3 id="toc-player-default">Player with default controls&lt;/h3>
-      &lt;audio id="audio_with_controls" controls>
+      &lt;audio id="audio_with_controls" controls="controls">
         &lt;source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.mp3" type="audio/mpeg" />
         &lt;source src="http://www.html5rocks.com/en/tutorials/audio/quick/test.ogg" type="audio/ogg" />
         &lt;object class="playerpreview" type="application/x-shockwave-flash" data="http://www.html5rocks.com/en/tutorials/audio/quick/player_mp3_mini.swf" width="200" height="20">
@@ -206,7 +208,7 @@ The following example will fallback to the Flash player in those browsers that d
       &lt;button onClick="document.getElementById('audio').pause()">Pause&lt;/button>
     &lt;/div>
 
-    &lt;script>
+    &lt;script type="application/javascript">
       if (document.createElement('audio').canPlayType) {
         if (!document.createElement('audio').canPlayType('audio/mpeg') &&
             !document.createElement('audio').canPlayType('audio/ogg')) {
@@ -242,11 +244,16 @@ Flash MP3 player is from [http://flash-mp3-player.net/ neolao productions].
 MP3 sample is '''Modal Blues''' by [http://freemusicarchive.org/music/Rushus/ Rushus] and
 is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution License].
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
 |Chrome_version=20
 |Chrome_prefixed_supported=Unknown
@@ -269,6 +276,7 @@ is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Common
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=Yes
 |Android_version=2.1
 |Android_prefixed_supported=Unknown
@@ -304,7 +312,11 @@ is licensed under a [http://creativecommons.org/licenses/by/3.0/ Creative Common
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Audio, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
