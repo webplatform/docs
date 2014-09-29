@@ -1,22 +1,27 @@
 {{Page_Title|More about the HTML <head>}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
-
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article delves deeper into the possibilities the HTML <code><head></code> has to offer, looking at some less common uses.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
  
-In [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML <head> element article] of this course we learned about the essential things that go inside the <code>head</code> of an HTML document. In this article of the [http://www.w3.org/community/webed/wiki/Main_Page Web Standards Curriculum] we’ll expand on that information and talk about some other — lesser used — things that you can add to the <code>head</code> section of an HTML document; these are less essential, but still very useful nonetheless. By the end of this tutorial you’ll know how to collate several HTML documents into a larger multi-part collection, what a favicon is and how to use it, and what RSS is all about. Before you go any further, [http://dev.opera.com/articles/view/supplementary-more-about-the-document/moreinthehead.zip download this article’s accompanying zip file] so you can follow along with the examples.
+In [[guides/the_html_head|the previous article]] you learned about the essential items that go inside the <code>head</code> of an HTML document. In this article we'll expand on that information and talk about some lesser used items that you can add to the <code>head</code>; less essential, but still very useful. By the end of this tutorial you'll know how to collate several HTML documents into a larger multi-part collection, what a ''favicon'' is and how to use it, and what RSS is all about.
 
-== Document relationships — collating several HTML documents into a collection ==
+== Document relationships: collating several HTML documents into a collection ==
  
-One feature of HTML that stems from the origins of the web as a document repository are document relationships. These define how one document relates to another, for example if it is the previous or next document in a logical chain or if it is the index of a whole series of documents.
+Document relationships are a feature of HTML that stems from the origins of the web as a document repository and, as the name says, define how one document relates to another. For example, a relationship can define if a referenced document is the previous or next document in a logical chain, if it is the index to a whole series of documents, and more.
  
-In a sense, you’ve already done this in [http://www.w3.org/community/webed/wiki/The_HTML_head_element The HTML <head> element article], when you applied a style sheet to a document to give it a different look and feel with the <code>link</code> element:
+In a sense, you've already done this in the previous article when you applied a style sheet to a document to give it a different look and feel with the <code>link</code> element. Referencing a style sheet establishes a relationship between it and the current document, and defines the type of relationship.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -30,11 +35,9 @@ In a sense, you’ve already done this in [http://www.w3.org/community/webed/wik
 </body>
 </html></syntaxhighlight>
  
-The relationship of the current document to others is defined in much the same way using the <code>link</code> element and the <code>rel</code> or <code>rev</code> attributes. The <code>rel</code> attribute (''relationship'') defines the relationship that the linked document has to the current one, and the <code>rev</code> attribute (''reverse relationship'') defines the relationship the current document has to the linked one.
-
-Don’t worry about the <code>rev</code> attribute too much — it is a bit confusing, but you will need to use it rarely, if at all.
+The relationship of the current document to others is defined in much the same way using the <code>link</code> element and the <code>rel</code> or <code>rev</code> attributes. The <code>rel</code> (''relationship'') attribute defines the relationship that the linked document has to the current one, and the <code>rev</code> (''reverse relationship'') attribute defines the relationship the current document has to the linked one. Don't worry about the <code>rev</code> attribute now; it is a bit confusing, and you will use it rarely, if at all.
  
-There are no mandatory prefixed values for the <code>rel</code> and <code>rev</code> attributes, but there is a taxonomy supported by browsers and indexing tools that you should consider following under most normal circumstances for <code>rel</code>:
+There are no mandatory predefined values for the <code>rel</code> and <code>rev</code> attributes, but there is a taxonomy for <code>rel</code> supported by browsers and indexing tools that you should follow under normal circumstances:
 
 * home: The home document of the current collection
 * index: The index of the current collection
@@ -50,15 +53,15 @@ There are no mandatory prefixed values for the <code>rel</code> and <code>rev</c
 * copyright:  The copyright information of the current collection
 * author: The information page about the author of the current collection  
 
-Most browsers don’t do anything with this information. Some however will follow the link and load the document in the background so that it shows up a lot faster for the reader. The real browser exception is Opera, which has an extra navigation toolbar you can turn on by selecting View > Toolbars > Navigation bar from the menu. Once turned on you get the link relationships defined in the document as an extra toolbar. Figure 1 shows the W3C HTML standards document in Opera:
+Frankly, most browsers don't do anything with this information, although some will follow the link and load the document in the background so that it is displayed faster when requested. The notable exception is Opera, which has an extra navigation toolbar you can turn on by selecting <code>View > Toolbars > Navigation bar</code> from the menu. When the toolbar is enabled you see the link relationships defined in the document as an extra toolbar. Figure 1 shows the W3C HTML standards document in Opera.
 
 [[Image:Morehead.png|Screenshot of the Opera browser showing the navigation bar]]
  
-Figure 1: Opera shows the link relationships of the current document in a special navigation toolbar
+''Figure 1: Opera shows the link relationships of the current document in a special navigation toolbar.''
  
-Even though they are not displayed in a visible sense, it is a good idea to provide a human-readable explanation of what the linked documents are about in a <code>title</code> attribute as the file names alone are not necessarily enough.
+Even though they may not be not visibly displayed, it is a good idea to provide a human-readable explanation of what the linked documents are about in a <code>title</code> attribute, as the file names alone are not necessarily enough.
  
-Now let’s move on to have a look at how link relationships can be used to collate several documents into a collection. For example, the start page of an online course spanning several documents could be the following ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/start.html start.html]):
+Now let's have a look at how link relationships can be used to collate several documents into a collection. The start page of an online course spanning several documents could look like this:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -77,7 +80,7 @@ Now let’s move on to have a look at how link relationships can be used to coll
 </body>
 </html></syntaxhighlight>
  
-The first chapter would be the following ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/chapter1.html chapter1.html]):
+The first chapter document would be the following:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -100,7 +103,7 @@ The first chapter would be the following ([http://dev.opera.com/articles/view/su
 </body>
 </html></syntaxhighlight>
  
-The second chapter ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/chapter2.html chapter2.html]):
+The second chapter would be:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -121,7 +124,7 @@ The second chapter ([http://dev.opera.com/articles/view/supplementary-more-about
 </body>
 </html></syntaxhighlight>
  
-And finally the table of contents ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/toc.html toc.html]):
+And finally the table of contents:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -142,15 +145,15 @@ And finally the table of contents ([http://dev.opera.com/articles/view/supplemen
 </body>
 </html></syntaxhighlight>
  
-You can also use <code>rel</code> and <code>rev</code> attributes on the links in the document to tell browsers and assistive technology that these anchors correspond with the link relationships. And <code>rel</code> and <code>rev</code> are used for other purposes such as Microformats—[http://dev.opera.com/articles/view/xfn-encoding-extraction-and-visualizat/ check out this article for some uses of the XFN Microformat].
+You can also use the <code>rel</code> and <code>rev</code> attributes on links in the document to tell browsers and assistive technology that these anchors correspond with the link relationships. <code>rel</code> and <code>rev</code> are also sometimes used for other purposes such as Microformats, but that is beyond the scope of this article.
 
 == Linking to alternative versions of the document ==
  
-The option to link to other documents that have a certain relationship to the document in question also includes different language versions of the same document, or different formats. You can do both by providing a link with a <code>rel</code> attribute value of <code>alternate</code>, indicating an alternative version.
+The option to link to other documents that have a certain relationship to the current document also includes different language versions of the same document, or different formats. You can do both by providing a link with a <code>rel</code> attribute value of <code>alternate</code>.
 
 === Translations ===
  
-Translations are a great candidate for document interlinking. It might for example be that one language version of a document is very successful and visitors who don’t speak that language would love to have that information available to them. By linking from the original to the alternative language version you’ll make it easier for readers of the alternative to understand and promote the content and possibly make the other language version as successful. The following example shows how you can define the other language versions ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/languageexample.html languageexample.html]); note the syntax — it’s pretty intuitive:
+Translations are a great candidate for document interlinking. It might be that the English language version of a document is very successful, and you would like to provide other language versions to potential international visitors. By linking from the original to the alternate language version, you make it easier for non-English readers to access and promote your content. The following example shows how you can define the other language versions; note the straightforward syntax.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -179,19 +182,19 @@ Translations are a great candidate for document interlinking. It might for examp
 </body>
 </html></syntaxhighlight>
  
-As a recap, the <code>hreflang</code> attribute on links and anchors defines the human language of the linked document and the <code>lang</code> attribute defines the language of the text inside the element that has this attribute. This is very important for accessibility as text-to-speech software needs to switch the pronounciation voice from language to language.
-
-Different languages have obviously been around since the Internet first existed (and thousands of years before that), but there is another type of alternative web page that you’ll see a lot as you trawl the web—feeds (eg. RSS feeds). These are very popular, especially for documents that change constantly, such as news sites. We’ll look at these next.
+To recap, the <code>hreflang</code> attribute on links and anchors defines the human language of the linked document, and the <code>lang</code> attribute defines the language of the text inside the element that has this attribute. This is very important for accessibility as text-to-speech software (screen readers) must switch the pronounciation voice from language to language.
 
 === Feeds ===
- 
-A feed is a document containing condensed information detailing the new additions to your site in chronological order. Users can subscribe to it and get to know what has changed on your site recently without having to visit it. They do this by using tools like feed readers, eg. [http://reader.google.com/ Google Reader], [http://www.netvibes.com/ Netvibes] or [http://www.bloglines.com/ Bloglines]. Some modern browsers (such as Opera and Firefox) and e-mail clients (such as Mac Mail, or Outlook on Windows) can also process and display feeds. You can recognize that a website offers a feed by the RSS icon next to the location as shown in Figure 2:
+
+There is another type of alternative web page that you'll see a lot as you trawl the web, called ''RSS feeds''. These are very popular, especially for documents that change constantly, such as news sites. RSS actually stands for "Rich Site Summary", but is most often characterized today as "Really Simple Syndication".
+
+A feed is a document containing condensed information detailing new additions to your site in chronological order. Users can subscribe to the feed and see what has changed on your site recently without having to visit it. They do this by using feed readers like [http://feedly.com/index.html#welcome Feedly], [http://www.netvibes.com/ Netvibes], or [http://www.bloglines.com/ Bloglines]. Some modern browsers such as Opera and Firefox, and e-mail clients such as Mac Mail or Windows Outlook can also process and display feeds. You can identify web sites that offer feeds by the RSS icon next to the URL, as shown in Figure 2:
  
 [[Image:rss-feed-available.gif|Screenshot of the Opera browser showing a RSS icon in the navigation bar]]
  
-Figure 2: Opera shows an orange RSS icon next to the location of websites that offer a feed.
+''Figure 2: Opera shows an orange RSS icon next to the location of websites that offer a feed.''
  
-Feed pages are either structured using HTML or an XML format like RSS or Atom, and they are hardly ever generated by hand. Most of the time personal publishing systems will do that work for you and all you need to do to offer the world a feed of your site is link to the XML document with the correct meta element in the head of your document. The following is an excerpt from my blog at [http://wait-till-i.com/ http://wait-till-i.com] and points to the RSS feed ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/feedexample.html feedexample.html]):
+Feed pages are structured using either HTML or an XML format like RSS or Atom, and they are hardly ever generated by hand. Personal publishing systems will usually do that work for you, so all that's required to offer the world a feed of your site is link to the XML document with the correct meta element in the head of your document. The following is an excerpt from a blog at [http://wait-till-i.com/ http://wait-till-i.com], and points to the RSS feed.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -205,19 +208,19 @@ Feed pages are either structured using HTML or an XML format like RSS or Atom, a
 </body>
 </html></syntaxhighlight>
  
-Supplying a feed makes sense for content-heavy websites that change very often (like blogs or photo sites), and by using a feed reading tool and subscribing to feeds you can cut down on a lot of your surfing and research time. If you don’t update your site that often but you have a lot of content and want people to have a visual reminder of your website, then you might want to consider using a shortcut icon to stand out in people’s bookmark lists. This is what We’ll cover in the section below.
+Supplying a feed makes sense for content-heavy websites that change often, like blogs or photo sites, and by using a feed reading tool and subscribing to feeds you can significantly reduce your web surfing and research time. 
 
-== Making bookmarking more fun — using favicons ==
- 
-One last subject we’ll cover here is shortcut icons or favicons. These are small images with a file format of .ico — if you place one on your web server, you can use it to show a small icon next to the entry of your website in a visitor’s bookmark list, as shown in Figure 3:
+== Making bookmarking more fun &mdash; using favicons ==
+
+If you don't update your site very often, but you have a lot of content and want people to have a visual reminder of your site, you might want to consider using a shortcut icon. Shortcut icons or ''favicons'' are small images with a file format of <code>.ico</code>; if you place one on your web server, you can use it to help your site stand out in users' bookmark lists, as shown in Figure 3:
 
 [[Image:bookmarks.gif|Screenshot of bookmark list with icons next to the entries]]
  
-Figure 3: Icons next to a bookmark make it easier to remember the site. You can add one of these by using a shortcut-icon meta element.
+''Figure 3: Favicons next to a bookmark make it easier to remember the site. You can add one using a shortcut-icon meta element.''
 
-Note that most browsers support formats other than .ico for favicons, but you should stick with .ico as IE doesn't support other favicon formats.
+Note that most browsers support image formats for favicons, but you should stick with <code>.ico</code> as IE doesn't support other formats.
  
-The biggest obstacle to adding your shortcut icon is actually creating it in the right format as not many graphics creation packages support the ico format. One option is to use the free online tool [http://www.genfavicon.com/ genfavicon]. Once you have it, adding it to your document is as easy as adding another meta element with a <code>rel</code> value of “Shortcut Icon”, as shown in the following example ([http://dev.opera.com/articles/view/supplementary-more-about-the-document/favicon-example.html favicon-example.html]):
+The biggest obstacle to adding a shortcut icon is actually creating it in the right format, as not all graphics editors support the <code>.ico</code> format. One option is to use the free online tool [http://www.genfavicon.com/ genfavicon]. Once you have it, assigning a favicon to your document is as easy as adding a meta element with a <code>rel</code> value of "Shortcut Icon", as shown in the following example:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -232,8 +235,17 @@ The biggest obstacle to adding your shortcut icon is actually creating it in the
 </html></syntaxhighlight>
  
 If you open this document in a browser it should show the Opera icon next to the address in the location toolbar. If you bookmark it, the same icon will appear next to the bookmark.
+
+==Conclusion==
+In this article, we expanded on the HTML <code>head</code> section and explored some additional features that can be added to it. 
+If you have not already done so, please see the previous article in this tutorial pair, [[guides/the_html_head|The HTML head]]. 
+
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -242,6 +254,8 @@ If you open this document in a browser it should show the Opera icon next to the
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
  
 * Why does it make sense to define link relationships when they are not displayed?
