@@ -76,7 +76,7 @@ The next thing to do might seem superfluous at first as it will never be directl
 <head>
   <meta charset="utf-8">
   <title>Yahoo! UK &amp; Ireland Eurosport—Sports News
-|Sport</title>
+{{!}}Sport</title>
   <meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more.">
   <meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo">
 </head>
