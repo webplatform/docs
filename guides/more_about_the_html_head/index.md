@@ -9,7 +9,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|This article delves deeper into the possibilities the HTML <code><head></code> has to offer, looking at some less common uses.}}
+{{Summary_Section|This article delves deeper into the possibilities the HTML <code><head></code> has to offer, looking at some additional features.}}
 {{Tutorial
 |Next_page=
 |Prev_page=
@@ -238,8 +238,7 @@ If you open this document in a browser it should show the Opera icon next to the
 
 ==Conclusion==
 In this article, we expanded on the HTML <code>head</code> section and explored some additional features that can be added to it. 
-If you have not already done so, please see the previous article in this tutorial pair, [[guides/the_html_head|The HTML head]]. 
-
+If you have not already done so, please see the previous article in this tutorial pair, [[guides/the_html_head|The HTML head]].
 }}
 {{Notes_Section
 |Usage=
