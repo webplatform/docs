@@ -1,6 +1,7 @@
 {{Page_Title|&#58;hover}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Compatibility Incomplete
@@ -19,6 +20,7 @@ Note that not all pointing devices let the user designating without activating a
 |Language=CSS
 |Description=The following example sets the hover style of an anchor. When the user hovers the mouse pointer over a link, the text appears in bold red, over a beige background.
 |Code=a:hover { color:red; background-color:beige; font-weight:bolder; }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -26,22 +28,38 @@ Note that not all pointing devices let the user designating without activating a
 
 Indiscriminate use of the ''':hover''' pseudo-class can negatively impact page performance.
 |Notes=The order of pseudo-classes is important. For example, the style rule for ''':hover''' must occur after any [[css/selectors/pseudo-classes/:link|''':link''']] rule or any [[css/selectors/pseudo-classes/:visited|''':visited''']] rule to prevent the pseudo-classes from hiding each other.
-Starting with
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1
 |URL=http://www.w3.org/TR/CSS2/selector.html#dynamic-pseudo-classes
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=Selectors Level 3
 |URL=http://www.w3.org/TR/css3-selectors/#the-user-action-pseudo-classes-hover-act
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=Selectors Level 4
 |URL=http://dev.w3.org/csswg/selectors4/#hover-pseudo
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -53,13 +71,4 @@ Starting with
 |Version=7
 |Note=when the browser is in standards-compliant mode (strict [[html/elements/!DOCTYPE|!DOCTYPE]]), you can apply the ''':hover''' pseudo-class to any element, not only links. If the pseudo-class is not applied specifically to an element in the selector, such as the [[html/elements/a|'''a''']] tag, the [[css/selectors/Universal|Universal (*) Selector]] is assumed.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
