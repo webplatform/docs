@@ -22,18 +22,18 @@ Validation is the answer! There are many tools available, from the W3C and other
 * [http://validator.w3.org/checklink The W3C Link Checker]: This checks a document, and tests all the links to make sure they are not broken (e.g., that the <code><href></code> values point to resources that actually exist).
 * [http://jigsaw.w3.org/css-validator/ The W3C CSS Validator]: This checks a CSS (or HTML/CSS) document and verifies that the CSS follows the specs properly.
  
-In this article, we will cover how to use the first two of these, showing you how to validate markup and interpret the typical kinds of results the validator gives you. The link checker is very obvious, and we'll cover debugging CSS in another article.
+In this article, we will cover how to use the second of these, demonstrating how to validate markup and interpret the typical kinds of results the validator gives you. 
 
 == Errors ==
  
-In computer programming, there are generally two types of errors with code:
+In computer programming &mdash; which includes markup languages &mdash; there are generally two types of errors with code:
  
 * syntax errors &mdash; these errors usually involve a mistake that causes the computer to be unable to execute or compile the program properly (e.g., a missing brace or parenthesis).
 * logic errors &mdash; these errors arise when the code is syntactically correct but doesn't do exactly what it was meant to do.
  
-With most programming languages, the first error is impossible to overlook.  The code will refuse to compile or run until the error is fixed, and the compiler will usually alert the programmer of the error and the line number on which it can be found. This makes finding and fixing syntax errors much easier than logic errors, which result in those general head-scratching moments of, "Why isn't it doing what I want?" Validators, as you might expect, can only find the first type.
+With most programming languages, the first kind of error is impossible to overlook.  The code will refuse to compile or run until the error is fixed, and the compiler will usually alert the programmer to the error and the line number on which it can be found. This makes finding and fixing syntax errors much easier than logic errors, which result in those general head-scratching moments of, "Why isn't it doing what I want?" Validators, as you might expect, can only find syntax errors.
  
-Although HTML is a markup language rather than a programming language, syntax errors may still occur. However, syntacx errors in a web page do not commonly cause the web browser to refuse to display the page. This inherent forgiveness in web browsers is one of the biggest reasons for the rapid adoption and spread of the web. Even if you forgot to close a tag, your page will still usually display.
+Although HTML is a declarative markup language rather than a procedural programming language, syntax errors may still occur. However, syntax errors in a web page do not commonly cause the web browser to refuse to display the page. This inherent forgiveness in web browsers is one of the biggest reasons for the rapid adoption and spread of the web. Even if you forget to close a tag, your page will usually still display.
  
 The first web browser, [http://www.w3.org/People/Berners-Lee/WorldWideWeb.html WorldWideWeb] (written by Tim Berners-Lee), was also an editor, allowing authors to create web pages without learning HTML. Although this editor created invalid HTML, it established an important precedent that exists in all web browsers to this day &mdash; that allowing users to access content is more important than complaining about errors to people who won't understand them &mdash; or be in a position to fix them.
 
@@ -45,14 +45,14 @@ A validation program compares the HTML code in the web page with the rules of th
  
 == Why validate? ==
  
-There is a common feeling among some web developers that if a web page looks fine in browsers, it doesn't matter if it doesn't validate. They describe validation as an ideal goal, but not something that is a black-and-white issue.
+There is a common feeling among some web developers that if a web page looks fine in browsers, it doesn't matter if it doesn't validate (often stated as, "In function there is beauty"). They describe validation as an ideal goal, but not something that is a black-and-white issue.
  
 There is some wisdom in this attitude. The HTML4 specification is not perfect, and some things that were arguably correct &mdash; such as [http://www.w3.org/wiki/HTML_lists#Beginning_ordered_lists_with_numbers_other_than_1 starting an ordered list with a number other than 1] &mdash; were invalid HTML. HTML5 fixes quite a lot of spec issues, including this one, but you may still run into situations where validation may need to be broken in order to render the page as you want. As the saying goes, ''Learn the rules so you know how to break them properly.''
 
 There are two very powerful reasons to validate your HTML as you author it:
  
 * You are not always perfect, and neither is your code. We all make mistakes, and your web pages will be higher quality (that is, work more consistently) if you weed out the mistakes.
-* Browsers change. In the future, it is likely that browsers will be less, not more, forgiving when parsing invalid code.
+* It is a fact of life that browsers change. In the future, it is likely that browsers will be less, not more, forgiving when parsing invalid code.
  
 Validation is your early-warning system about bugs in your markup that can manifest in "interesting" and hard-to-fix ways. When a browser encounters invalid HTML, it has to take an educated guess as to what you meant to do &mdash; and different browsers can come up with different answers.
 
@@ -137,7 +137,7 @@ This may sound worrying, especially when we tell you that there are '''not''' 11
 {{!}}+Table 1: The errors I fixed to make the example page validate
 {{!}}-
 !Error message
-!Logic
+!Resolution logic
 !Fix made
 {{!}}-
 {{!}}Line 8, Column 461: there is no attribute "colspan"
@@ -157,7 +157,7 @@ This may sound worrying, especially when we tell you that there are '''not''' 11
 {{!}}Added the missing end <code>&lt;/html&gt;</code> element.
 {{!}}} 
 
-With these errors fixed, the validator now gives a satisfying success message, as shown in Figure 2:
+With these four errors fixed, the remaining seven disappear and the validator now gives a satisfying success message, as shown in Figure 2:
 
 [[Image:validatehtml2.gif|A success message to say that all my errors have been fixed]] 
 
