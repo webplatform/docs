@@ -16,7 +16,7 @@
 |Content=== Introduction ==
  
 This article deals with a part of the HTML document that does not get the attention it deserves: the markup that goes inside the <code>head</code> element. By the end of this tutorial you will have learnt about the different parts of this section and what they do, including the <code>title</code> element, keywords and description (which are handled by <code>meta</code> elements), and more. You'll also learn about JavaScript and CSS styles (both internal and external) and about what not to leave in the <code>head</code>.
-Make sure you go through the full tutorial from start to finish, as it builds up a series of best practices to follow when dealing with the HTML <code>head</code>. Whilst each part is valid in itself, there is a conclusion at the end about the best practices that will make you reconsider some of the earlier advice.
+Make sure you go through the full tutorial from start to finish, as it builds up a series of best practices to follow when dealing with the HTML <code>head</code>.
 
 == Head? What head are we talking about? ==
  
@@ -24,7 +24,7 @@ The <code>body</code> (the <code><body></body></code> tags and everything in bet
 
 == Setting the document's primary language ==
  
-One piece of information about the document actually goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai or English. This helps screen readers, because for example the word "six" is pronounced very differently in French and English. It's a good idea to define the primary language of a document, especially when writing pages for an international audience. It is also becoming increasingly important for correct styling of your page, and it can help with spellchecking and other things. You set it as follows:
+One piece of information about the document actually goes on the parent of the <code>head</code>, the <code>html</code> element. It is here that we define the primary natural language of the document. By natural language, we mean ''human'' language, such as French, Thai, or English. This helps screen readers (software that reads out web pages to users with visual impairments); for example, the word "six" exists in both English and French, but is pronounced very differently. It's a good idea to define the primary language of a document, especially when writing pages for an international audience. It is also becoming increasingly important for correct styling of your page, and it can help with spellchecking and other things. You set it as follows:
  
 <syntaxhighlight lang="html5"><html lang="en-GB">
   ...
@@ -32,7 +32,7 @@ One piece of information about the document actually goes on the parent of the <
 
 If you don't set the language, Google and other search engines might find it difficult to crawl your site, or might take longer than anticipated.
  
-Note that you can also set the language of sub sections of your document by using the <code>lang</code> attribute on other elements, for example <code>&lt;span lang="fr">Bonjour&lt;/span></code>.
+Note that you can also set the language of subsections of your document by using the <code>lang</code> attribute on other elements, for example <code>&lt;span lang="fr">Bonjour&lt;/span></code>.
  
 The attributes you use to set the language depend on the <code>doctype</code> of your document. For HTML use the <code>lang</code> attribute only, for XHTML 1.0 served as text/html or HTML5 polyglot documents use the <code>lang</code>  and  <code>xml:lang</code>  attributes, and for XHTML served as XML use the  <code>xml:lang</code>  attribute only. 
 
@@ -46,13 +46,13 @@ One feature HTML includes is an element for identifying the character encoding o
 
 Don't worry too much about this for now. <code>utf-8</code> is the universal character encoding which includes pretty much any character that you might want to use on a web page, from any common human language, so it is a good idea to declare this to make sure your HTML has full international capabilities. In addition, HTML5 will only recognize your character encoding declaration if you include it in the first 1024 bytes of the page. So putting it just below the <code>&lt;head></code> tag is fine. This is what all the examples in this article do.
 
-It is, however, important to understand that just putting <code>&lt;meta charset="utf-8"></code> in your title element doesn't magically convert your page to UTF-8 encoding, it just helps browsers know what to do with it. You need to actually save your document as UTF-8 as well. Most editors will allow you to do that these days.
+It is, however, important to understand that just putting <code>&lt;meta charset="utf-8"></code> in your title element doesn't magically convert your page to UTF-8 encoding, it just helps browsers know what to do with it. You need to actually save your document as UTF-8 as well, which most code editors will allow you to do these days.
 
-For a gentle introduction to character encodings, see the article [http://www.w3.org/International/getting-started/characters Introducing Character Sets and Encodings].
+For a gentle introduction to this concept, see the article [http://www.w3.org/International/getting-started/characters Introducing Character Sets and Encodings].
 
 == Judging a document by its title ==
  
-One of the most important elements in the <code>head</code> is the <code>title</code>. The text contained within the <code>title</code> is displayed by pretty much all user agents/browsers in the browser application title bar (the bar bordering the top of the browser window). It is the first piece of content that web users will see when they visit your site, and therefore very important. In addition, assistive technologies like screen readers (software that reads out web pages to users with visual impairments) give this as a first hint of what visitors can expect from the document, and a lot of search engines work similarly too, so your chances to get found on the web increase drastically when you use a good title that is human readable and contains the right keywords. Let's take the following HTML document and open it in a browser.
+One of the most important elements in the <code>head</code> is the <code>title</code>. The text contained within the <code>title</code> is displayed by virtually all user agents/browsers in the browser application title bar (the bar bordering the top of the browser window). It is the first piece of content that web users see when they visit your site, and therefore very important. In addition, assistive technologies like screen readers give this as a first hint of what visitors can expect from the document, and a lot of search engines work similarly too, so your chances to get found on the web increase drastically when you use a good title that is both human-readable and contains the right keywords. Let's take the following HTML document and open it in a browser.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -70,7 +70,7 @@ You'll see that the text in the <code>title</code> is displayed in the bar above
 
 ''Figure 1: Displaying a title in a browser.''
  
-There are many tutorials on the Web about how to write good document titles, most of which are related to search engine optimization (SEO). Don't go overboard and try to trick the search engines into showing an inflated number of search results. Write a concise information piece about what the document is. "Breeding Dogs &mdash; Tips about Alsatians" is a lot more human digestible than "Dogs, Alsatian, Breeding, Dog, Tips, Free, Pet".
+There are many tutorials on the Web about how to write good document titles, most of which are related to search engine optimization (SEO). Don't go overboard and try to trick the search engines into showing an inflated number of search results. Just write a concise description of what the document is. "Breeding Dogs &mdash; Tips about Alsatians" is a lot more human digestible than "Dogs, Alsatian, Breeding, Dog, Tips, Free, Pet".
 
 == Adding keywords and a description ==
  
@@ -80,7 +80,7 @@ The next thing you should do might seem superfluous at first, as it is not direc
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <title>Yahoo! UK &amp; Ireland Eurosport&mdash;Sports News&mdash;Live Scores&mdash;Sport</title>
+  <title>Yahoo! UK &amp; Ireland Eurosport - Sports News - Live Scores - Sport</title>
   <meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more.">
   <meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo">
 </head>
@@ -88,7 +88,7 @@ The next thing you should do might seem superfluous at first, as it is not direc
 </body>
 </html></syntaxhighlight>
  
-If you open this document in a browser you'll not see anything in the <code>body</code> of the document, however, if you put this document online and search engines index it, the description will be displayed as the text below the link in search engine results, as shown in Figure 2.
+If you open this document in a browser you'll not see anything in the <code>body</code> of the document; however, if you put the document online and search engines index it, the description will be displayed as the text below the link in search engine results, as shown in Figure 2.
 
 [[Image:head-fih.gif|descriptions showing in a search engine results page]] 
 
@@ -150,13 +150,13 @@ Now when you print this web page, the browser knows to use the print stylesheet 
 
 [[Image:head-fij.gif|The same page with print and screen style sheets applied]] 
 
-''Figure 4: A screen and a print style sheet.''
+''Figure 4: A print style sheet preview.''
 
 == Adding dynamic features using JavaScript ==
  
 Another thing you can add to the <code>head</code> is scripts that are executed by the browser, called "client side scripts" because they are executed on the user's machine, not the web server. As you can see in [http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript this W3C article], JavaScript adds dynamic behavior to a static HTML document, such as animation effects, or form data validation, or other things that are triggered when the user performs certain actions.
  
-You add JavaScript to a document using the <code>script</code> element. When a browser encounters one of these, it will drop everything else and pause parsing of the rest of the document while it tries to execute the code inside it. This means that if you want to make sure that your JavaScript is available before the main document loads (which you nearly always do), you must add it to the <code>head</code>. For example, you can give the visitor a warning that a certain link will take them to another server with the following script.
+You add JavaScript to a document using the <code>script</code> element. When a browser encounters one of these, it will drop everything, even pause parsing of the rest of the document, while it tries to execute the code inside it. This means that if you want to make sure that your JavaScript is available before the main document loads (which you nearly always do), you must add it to the <code>head</code>. For example, you can give the visitor a warning that a certain link will take them to another server with the following script.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -193,11 +193,11 @@ Test!
 </body>
 </html></syntaxhighlight>
  
-If you open this example in a web browser and click the link, you'll be asked to confirm your action. This is just a quick example of scripting and is far from best practice these days. Other tutorials will deal with JavaScript best practices and teach you JavaScript techniques in depth, but don't worry about that for now.
+If you open this example in a web browser and click the link, you'll be asked to confirm your action. This is just a quick example of scripting and is far from best practice, but simply illustrates the functionality. Other tutorials will deal with JavaScript best practices and teach you JavaScript techniques in depth, but don't worry about that for now.
 
-== Stop right there! Inline CSS and JavaScript is not too clever! ==
+== Stop right there! Using inline CSS and JavaScript is not too clever! ==
  
-Strong words, yes, but there is one thing you need to remember when you build web sites: you should re-use your code as much as possible. Adding site-wide styles and scripts into each and every one of your pages doesn't make much sense &mdash; on the contrary, it makes it harder to maintain a complete site and bloats the individual documents unnecessarily.
+Strong words, yes, but there is one thing you must remember when you build web sites: you should re-use your code as much as possible. Adding site-wide styles and scripts into each and every one of your pages doesn't make much sense &mdash; on the contrary, it makes it harder to maintain a complete site and bloats the individual documents unnecessarily.
  
 It is much better to put your styles and scripts in external files, and import them into your HTML files where needed, so you only need to update them in one place if changes need to be made. For JavaScript, you do this using <code>script</code> elements that have no script inside them, but instead link to an external file using a <code>src</code> attribute, as seen in the code below.
  
@@ -232,7 +232,7 @@ Test!
 </body>
 </html></syntaxhighlight>
  
-It is not quite as simple with CSS, but is still fairly straightforward. Unlike the <code>script</code> element, the <code>style</code> element does not have a <code>src</code> attribute to point to your external file, so you can't use it to import a stylesheet. Instead, external stylesheets are loaded using the <code>link</code> element &mdash; it has an <code>href</code> attribute that specifies an external CSS file to import, a <code>rel</code> attribute to specify the external file's relationship to the current page (in this case, a <code>stylesheet</code>), and a <code>media</code> attribute to define if these styles should be used for screen, print etc, similar to that described earlier. By putting both CSS and JavaScript into their own files, you can significantly reduce the size of the <code>head</code>, as shown below.
+It is not quite as simple with CSS, but is still fairly straightforward. Unlike the <code>script</code> element, the <code>style</code> element does not have a <code>src</code> attribute to point to your external file. Instead, external stylesheets are loaded using the <code>link</code> element &mdash; it has an <code>href</code> attribute that specifies an external CSS file to import, a <code>rel</code> attribute to specify the external file's relationship to the current page (in this case, a <code>stylesheet</code>), and a <code>media</code> attribute to define if these styles should be used for screen, print, etc., similar to that described earlier. By putting both CSS and JavaScript into their own files, you can significantly reduce the size of the <code>head</code>, as shown below.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 <html lang="en-GB">
@@ -257,7 +257,7 @@ Other benefits of keeping styles and scripts in their own files are:
 # You greatly improve your ease of maintenance. The style and script for the whole site &mdash; which could be thousands of documents &mdash; are in one single location, so if you need to change something you only need to change one file, and not thousands.
 
 ==Conclusion==
-In this article, we have introduced the <code>head</code> element and some of its possible content. We will examine this important
+In this article, we introduced the <code>head</code> element and some of its possible content. We will examine this important
 web page section further in the next tutorial, [[guides/more_about_the_html_head|More about the HTML head]].
 }}
 {{Notes_Section
