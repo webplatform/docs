@@ -28,6 +28,8 @@ Note that not all pointing devices let the user designating without activating a
 
 Indiscriminate use of the ''':hover''' pseudo-class can negatively impact page performance.
 |Notes=The order of pseudo-classes is important. For example, the style rule for ''':hover''' must occur after any [[css/selectors/pseudo-classes/:link|''':link''']] rule or any [[css/selectors/pseudo-classes/:visited|''':visited''']] rule to prevent the pseudo-classes from hiding each other.
+
+[https://connect.microsoft.com/IE/feedbackdetail/view/926665/ie-11-hovering-over-an-element-and-then-scrolling-without-moving-the-mouse-pointer-leaves-the-element-in-hover-state IE8-11 suffer from a bug] where hovering over an element and then scrolling without moving the mouse/pointer leaves said element in ''':hover''' state.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
