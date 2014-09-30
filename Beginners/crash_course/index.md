@@ -24,7 +24,7 @@ Editorial notes:
 {{Summary_Section|This part assumes you want to build a web site with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away.  Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
 
 If you have terms you don’t understand, you can see the [[Beginners/glossary]] section.
-You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the html and css code tables and applying that code to your site.
+You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the HTML and CSS code and applying that code to your site, or an offline test site.
 }}
 {{Basic Page}}
 <!--
@@ -48,40 +48,42 @@ This is a basic HTML document.
  <link rel="stylesheet" href="stylename.css" type="text/css" media="screen">
 </head>
 <body>
-<h1>Headings Go Here</h1>
+<h1>A Level-One Heading</h1>
 <p>This designates a paragraph
- This is the body of the document, and all your good stuff goes here. </p>
+ This is the body of the document, and all your good stuff goes here.</p>
 </body>
 </html>
 </syntaxHighlight>
 
 Please note there are essentially two types of markings.  
 
-There is the paired <tt>&lt;tag-name&gt;tag contents&lt;/tag-name&gt;</tt>, which is how we tell the computer to deal with any block of text from a letter to defining the beginning and end of a whole
+There is the paired <code>&lt;tag-name&gt;tag contents&lt;/tag-name&gt;</code>, which is how we tell the computer to deal with any block of text from a letter to defining the beginning and end of a whole
 document.  
 
-Then there is the <tt>&lt;tag-name _______________ /&gt;</tt> where those are instructions to describe on how to deal with certain situations. The <tt>meta</tt> are about the server communication. In this particular case, we are saying that the file is written in <tt>UTF-8</tt> (i.e. a format that supports multiple languages characters at once), and <tt>link</tt> is for asking which file to download along the HTML document to take care of the visual aspects ("Stylesheets").
+Then there is the <code>&lt;tag-name _______________ /&gt;</code> where those are instructions to describe on how to deal with certain situations. The <code>meta</code> are about the server communication. In this particular case, we are saying that the file is written in <code>UTF-8</code> (i.e. a format that supports multiple language characters at once), and <code>link</code> is for asking which file to download along with the HTML document to take care of the visual aspects ("stylesheets"). These stylesheets are a collection of style rules, written in CSS.
 
-For your first HTML document, please cut and paste the above into your editor, and save it as <tt>example.html</tt>, but leave the file opened. 
+For your first HTML document, please cut and paste the above into a text editor of your choice and save it as <tt>example.html</tt>, but leave the file opened.
 
-Now go to your browser, press open, open this file and see what happens and leave this page open too.
+'''Important''': Make sure the file-extension is appended to <tt>.html</tt>. In Windows, you might have to go to Tools>File Options>Show Extensions of Common Files before this works.
+
+Now go to your browser, choose Open, open this file and see what happens and leave this page open too.
 
 Now add the following (or whatever other text you want) in your editor.  Why not put it after the paragraph that's already there:
 
 <syntaxHighlight>
-<h2>Your second level heading here</h2>
-<p>write something <em>add emphasis</em> finish your paragraph </p>
+<h2>Your Second-Level Heading Here</h2>
+<p>Write something <em>add emphasis</em> finish your paragraph </p>
 </syntaxHighlight>
 
-Save it.  
+Save it.
 
-Go back to your browser and refresh the page, what happens.  Now play a little by trying some changes 
-* <tt>h3</tt> instead of <tt>h2</tt>, or <tt>h4</tt>, <tt>h5</tt>, <tt>h6</tt>; those are [[html/elements/hn|headlines elements]] to differentiate titles from body text.
-* Instead of <tt>em</tt>, try <tt>strong</tt>, <tt>sup</tt>, <tt>sub</tt>, or the <tt>i</tt> [[html/elements|tags]] in the same way.
+Go back to your browser and refresh the page and notice what's changed. Now play a little by trying some other stuff (nothing is better than experimentation when it comes to learning!)
+* <code>h3</code> instead of <code>h2</code>, or <code>h4</code>, <code>h5</code>, <code>h6</code>; those are [[html/elements/hn|headlines elements]] to differentiate titles from body text.
+* Instead of <code>em</code>, try <code>strong</code>, <code>sup</code>, <code>sub</code>, or the <code>i</code> [[html/elements|tags]] in the same way.
 
 Want to call another document?
 
-Create a file beside <tt>example.html</tt>, and call it <tt>example2.html</tt>. Empty the <tt>body</tt> tag, and just write something inside the <tt>body</tt> tag.
+Create a file beside <tt>example.html</tt>, and call it <tt>example2.html</tt>. Empty the <code>body</code> tag, and just write something inside the <code>body</code> tag.
 
 We will call <tt>example2.html</tt>, from our <tt>example.html</tt> sandbox document. Add this line:
 
@@ -89,13 +91,20 @@ We will call <tt>example2.html</tt>, from our <tt>example.html</tt> sandbox docu
 <a href="example2.html" title="Another HTML file">Calling example2</a>
 </syntaxHighlight>
 
+Did you notice how we sneaked up the <code>a</code> there? That's an anchor. It anchors, or holds, a URL (uniform resource locator), or more commonly a link, to a separate place (which can be a file, another webpage, an email address, etc. The <code>href</code> attribute tells the URL of the target file.
 
-At some point, you might want to add color. 
+Now, whenever you click on this link, you'll be taken to <tt>example2.html</tt> instantaneously. Congratulations, you learned something that's pretty much the cornerstone of the web!
+
+At some point, you might want to add color.
 
 This is a little more complicated, and for this we'll have to introduce you to the stylesheets, but don't worry that's what happens [[Beginners/css|in next section about CSS]].
 
 (END OF ARTICLE)
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
