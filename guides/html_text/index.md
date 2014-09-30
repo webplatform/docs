@@ -9,7 +9,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
+{{Summary_Section|This article talks about some of the most common elements used when marking up text content in HTML.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -25,11 +25,11 @@ a quick examination of old-fashioned presentational markup.
 
 Before we discuss text, we should discuss the space between the text.
 HTML documents contain non-printing characters known as ''white space''
-that separate text. The regular space character (space bar on a keyboard)
+that separate text. The regular space character (the space bar on a keyboard)
 is the most common, but there are others such as the
 tab character and the carriage return (or new line) character.
  
-In HTML, multiple occurrences of these characters are almost always
+In HTML, multiple contiguous occurrences of these characters are almost always
 treated as a single space character. Consider this source code:
  
 <syntaxhighlight lang="html5"><h3>In   the
@@ -62,9 +62,9 @@ Each part of your web content should be introduced by an appropriate heading.
  
 HTML defines six heading levels: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, and
 <code>&lt;h6&gt;</code> (from the highest importance to the lowest). Generally speaking,
-the <code>&lt;h1&gt;</code> would be the main heading of the entire page and introduce
-everything. <code>&lt;h2&gt;</code> is then used to break the page up into sections,
-<code>&lt;h3&gt;</code> the sub-sections, and so on.
+the <code>&lt;h1&gt;</code> would be the main heading of the page.
+You would then use <code>&lt;h2&gt;</code> to break the page up into sections,
+<code>&lt;h3&gt;</code> to define the sub-sections, and so on.
  
 It is important to use the heading levels to describe the document 
 hierarchically, and to not skip or incorrectly nest different levels,
@@ -102,14 +102,14 @@ type of content, there are many suitable elements available.
 
 === Quoting other sources ===
  
-Articles, blog posts, and reference documents will often quote sections of text from another document, called a ''block quote''. 
-In HTML, this is marked up 
-using the <code>&lt;blockquote&gt;</code> element for lengthy quotations, such as entire
-sentences, paragraphs, lists, etc.
+Articles, blog posts, and reference documents often quote sections of text from another document, called a ''block quote''. 
+In HTML, this kind of quotation is marked up 
+using the <code>&lt;blockquote&gt;</code> element.
 
 While, technically,
-a <code>&lt;blockquote&gt;</code> element can contain text, it is bad practice, and will probably cause your code to not validate.
-Instead, you should nest other elements inside it. When quoting from another source,
+a <code>&lt;blockquote&gt;</code> element can directly contain text that is not enclosed in other elements, it is bad practice, 
+and will probably cause your code to not validate.
+Instead, you should nest other elements inside <code>&lt;blockquote&gt;</code>. When quoting from another source,
 you should use the same type of elements: when quoting a paragraph of text, use a paragraph tag; when quoting a
 list of items, use the list tags; and so on.
 
@@ -137,7 +137,7 @@ their DTDs available at the W3C website.</p>
 </blockquote>
 
 Note that the <code>cite</code> attribute doesn't really do anything on its own, 
-although it is useful to keep a record of the quote's source with the quote. 
+although it is useful to keep a record of the quote's source in the same page location as the quote itself. 
 
 === Preformatted text ===
  
@@ -159,7 +159,7 @@ sub slurp {
 };
 </code></pre></syntaxhighlight>
 
-In the browser, that snippet is rendered exactly as written:
+In the browser, that snippet is rendered exactly as written, including white space:
 
 <pre><code class="language-perl">
 # read in the named file in its entirety
@@ -181,7 +181,7 @@ to the user as it appears in the source, usually using a fixed width
 typewriter or printer. This is an artifact of older computers, which had only fixed width fonts,
 but is quite handy today for code examples and other content that is best displayed without browser modification.
 
-Note: The use of the <code>&lt;code&gt;</code> element above is covered in the 
+Note: The use of the <code>&lt;code&gt;</code> element is covered in the 
 [[tutorials/lesser-known semantic elements|Lesser-known semantic elements]] article.
 
 == Inline elements ==
@@ -261,8 +261,8 @@ Most browsers render <code>&lt;strong&gt;</code> as bold text:
 ==== &lt;b&gt; ====
 
 Like <code>&lt;i&gt;</code>, the ''bold'' element <code>&lt;b&gt;</code> used to be frowned upon because it described the look of the content, 
-not its meaning. HTML5 has therefore redefined this element as well; it is now meant to identify content that is stylistically offset from the 
-rest of the text, but no more important in terms of its meaning. Consider the most significant words in a product review or document abstract,
+not its meaning. HTML5 has therefore redefined this element as well; it now "identifies content that is stylistically offset from the 
+rest of the text, but no more important in terms of its meaning." Consider the most significant words in a product review or document abstract,
 as in this example:
 
 <syntaxhighlight lang="html5"><p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>,
@@ -277,15 +277,15 @@ and <b>string</b> to create an attractive mobile for your child's bedroom.</p>
 
 You can combine and nest these different types of emphasis. For example, if an entire sentence was to be emphasised, but there was also a
 point within the sentence that was more important, you could use
-the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>elements together to indicate stronger emphasis than normal:
+the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> elements together to indicate stronger emphasis than normal:
  
-<syntaxhighlight lang="html5"><p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
-<strong>killing us all</strong></em>.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode --
+<strong>killing us all!</strong></em></p></syntaxhighlight>
 
 The browser will render that paragraph like this:
 
-<p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
-<strong>killing us all</strong></em>.
+<p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode --
+<strong>killing us all!</strong></em></p>
 
 === Small print ===
 
@@ -293,13 +293,13 @@ The ''small'' element <code>&lt;small&gt;</code> is another element that was ori
 but has been redefined in HTML5. It used to be an element for making ordinary text appear in a smaller font, but in HTML5 it is now properly used to 
 mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
 
-<syntaxhighlight lang="html5"><p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-Creative Commons Attribution Share-alike license</a>.</small></p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p><small>This content is released under a
+Creative Commons Attribution Share-alike license.</small></p></syntaxhighlight>
 
 In the browser, that will render as:
 
-<p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
-Creative Commons Attribution Share-alike license</a>.</small></p>
+<p><small>This content is released under a 
+Creative Commons Attribution Share-alike license.</small></p>
 
 === Telling the time ===
 
@@ -339,9 +339,9 @@ In addition to <code>&lt;i&gt;</code>, <code>&lt;b&gt;</code>, and <code>&lt;sma
 the HTML4 specification includes several other elements that are strictly
 presentational because they only specify what the
 content within them should look like, and not what it means. 
-The use of these elements is discouraged, and most of these have been removed from the HTML5 specification.
+The use of these elements is discouraged, and most have been removed from the HTML5 specification.
  
-We will describe them briefly here, but note that this is mostly of historic interest &mdash; these elements should never be used in a modern web 
+We will describe them briefly here, but note that this is mostly for historic interest &mdash; these elements should never be used in a modern web 
 page. To achieve these text effects, you should use CSS.
 
 === &lt;font face="..." size="..."&gt; ===
@@ -356,11 +356,11 @@ The ''strike'' element indicates that the text should be struck-through with a l
 
 The ''u'' element indicates that the text should be underlined (underscored). Not only should this be done with CSS instead, 
 but it should rarely be done at all, because most readers will interpret the underscore as a hyperlink. Of course, because it isn't a hyperlink, 
-clicking it will do nothing &mdash; except frustrate your reader.
+clicking it will do nothing &mdash; except frustrate your readers.
 
 === &lt;tt&gt; ===
 
-The ''tt'' element indicates that the text should be presented in a "teletype" or monospaced font. An alternative to using CSS to achieve this 
+The ''tt'' element indicates that the text should be presented in a "teletype" or monospace font. An alternative to using CSS to achieve this 
 effect would be to use the semantic elements <code>&lt;pre&gt;</code> for block content or <code>&lt;code&gt;</code> for inline content.
 
 === &lt;big&gt; ===
