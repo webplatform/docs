@@ -89,7 +89,7 @@ p {
     color: red;
 }</pre>
 
-this results in the following:
+This results in the following:
 
 <div style="border: 2px solid black;padding: 10px;">
 <h1 style="color: blue">The title of my story</h1>
