@@ -1,6 +1,7 @@
 {{Page_Title|HTML tutorials}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|HTML is a markup language, used to give content structure and meaning. This page lists all of our HTML tutorials — perfect for learning HTML from scratch, or diving into learning more complex HTML topics.}}
@@ -19,7 +20,7 @@
 
 ==The HTML body==
 
-* [[guides/html text|HTML text]] [[guides/html text es|Spanish version]]
+* [[guides/html text|HTML text]]&nbsp;&nbsp;&nbsp;[[guides/html text es|Spanish version]]
 * [[guides/html lists|HTML lists]]
 * [[guides/images in html|Images in HTML]]
 * [[guides/html links|HTML links]]
@@ -33,7 +34,11 @@
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
 * [[concepts/Pointer_Events|Input from mouse, touch, or pen with pointer events]]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
