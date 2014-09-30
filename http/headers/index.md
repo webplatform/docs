@@ -1,8 +1,83 @@
 
 The full list of HTTP headers is shared with MIME headers and is maintained by the IANA at [http://www.iana.org/assignments/message-headers/message-headers.xhtml Message Headers]
 
-== Headers by Direction ==
-=== General Headers ===
+== Headers by Function ==
+
+=== Informational ===
+* Main article: [[http/requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
+* Main article: [[http/modifying resources|Modification of resources]]: PUT, PATCH
+* Main article: [[http/forms and scripts|Forms and scripts]]: POST with HTML Forms, using 3xx Status codes
+* [[http/headers/User-Agent|User-Agent]]
+* [[http/headers/Server|Server]]
+* [[http/headers/From|From]]
+* [[http/headers/Date|Date]]
+* [[http/headers/Referer|Referer]] [sic]
+
+=== Resource Metadata ===
+* Main article: [[http/resource metadata|Resource metadata]]: Link, Last-Modified, Content-Type, Allow, etc
+* [[http/headers/Content-Location|Content-Location]]
+* [[http/headers/Link|Link]]
+* [[http/headers/Last-Modified|Last-Modified]]
+* [[http/headers/ETag|ETag]]
+* [[http/headers/Content-MD5|Content-MD5]]
+* [[http/headers/Allow|Allow]]
+
+=== Transfer Control ===
+* Main article: [[http/requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
+* [[http/headers/Transfer-Encoding|Transfer-Encoding]]
+* [[http/headers/Content-Length|Content-Length]]
+* [[http/headers/Expect|Expect]]: 100-continue
+
+=== Entity Body and Partial Content ===
+* Main article: [[http/partial responses|Partial content responses]]
+* [[http/headers/Content-Range|Content-Range]]
+* [[http/headers/Accept-Ranges|Accept-Ranges]]
+* [[http/headers/If-Range|If-Range]]
+* [[http/headers/Range|Range]]
+
+=== Caching ===
+* Main article: [[http/layered requests|Layered requests]] with proxies and gateways
+* [[http/headers/Expires|Expires]]
+* [[http/headers/Date|Date]]
+* [[http/headers/Age|Age]]
+* [[http/headers/Cache-Control|Cache-Control]]
+* [[http/headers/ETag|ETag]]
+* [[http/headers/Last-Modified|Last-Modified]]
+* [[http/headers/Content-Location|Content-Location]]
+
+=== Conditional Requests ===
+* Main article: [[http/caching|Caching]] and conditional requests
+* Main article: [[http/conditional updates|Conditional updates]]
+* [[http/headers/If-Modified-Since|If-Modified-Since]]
+* [[http/headers/If-Match|If-Match]]
+* [[http/headers/If-Unmodified-Since|If-Unmodified-Since]]
+* [[http/headers/If-None-Match|If-None-Match]]
+* [[http/headers/If-Range|If-Range]]
+* [[http/headers/ETag|ETag]]
+* [[http/headers/Last-Modified|Last-Modified]]
+
+=== Authentication and Access Control ===
+* Main article: [[http/access control|Access control]]
+* [[http/headers/WWW-Authenticate|WWW-Authenticate]]
+* [[http/headers/Authorization|Authorization]]
+* [[http/headers/Proxy-Authenticate|Proxy-Authenticate]]
+* [[http/headers/Proxy-Authorization|Proxy-Authorization]]
+
+=== Content-Type Negotiation ===
+* Main article: [[http/content negotiation|Content negotiation]]: Accept, Content-Location
+* [[http/headers/Accept|Accept]]
+* [[http/headers/Accept-Charset|Accept-Charset]]
+* [[http/headers/Accept-Language|Accept-Language]]
+* [[http/headers/Accept-Ranges|Accept-Ranges]]
+
+== Crafting New Headers ==
+See [http://tools.ietf.org/html/rfc7231#section-8.3.1 RFC7231 Section 8.3.1].
+
+If the response is identifying another resource, use the Link header with a URI as the relation name, e.g.:
+
+ <nowiki>Link: <http://example.com/AcmeMetals>;rel="http://example.com/coin-minted-by"</nowiki>
+
+== Table of Headers ==
 {| class="wikitable"
 |-
 ! Header !! Description !! Reference
@@ -515,86 +590,3 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | Older variation on Frame-Options header
 | [http://tools.ietf.org/html/rfc7034 RFC7034] [http://www.w3.org/TR/CSP11/ CSP]
 |}
-
-=== Request Headers ===
-{| class="wikitable"
-|-
-! Header !! Description !! Reference
-|-
-| Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]|Accept || Lists Content-Types acceptable to the user agent || [http://tools.ietf.org/html/rfc7231#section-5.3.2 RFC7231 Section 5.3.2]]]
-|}
-
-=== Response Headers ===
-{| class="wikitable"
-|-
-! Header !! Description !! Reference
-|-
-| Server || Lists the server's software version || [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231 Section 7.4.2]|Server || Lists the server's software version || [http://tools.ietf.org/html/rfc7231#section-7.4.2 RFC7231 Section 7.4.2]
-|-
-|}
-
-
-== Headers by Function ==
-
-=== Informational ===
-* User-Agent
-* Server
-* From
-* Date
-* Referer [sic]
-
-=== Resource Metadata ===
-* Content-Location
-* Link
-* Last-Modified
-* ETag
-* Content-MD5
-* Allow
-
-=== Transfer Control ===
-* Transfer-Encoding
-* Content-Length
-* Expect: 100-continue
-
-=== Entity Body and Partial Content ===
-* Content-Range
-* Accept-Ranges
-* If-Range
-* Range
-
-=== Caching ===
-* Expires
-* Date
-* Age
-* Cache-Control
-* ETag
-* Last-Modified
-* Content-Location
-
-=== Conditional Requests ===
-* If-Modified-Since
-* If-Match
-* If-Unmodified-Since
-* If-None-Match
-* If-Range
-* ETag
-* Last-Modified
-
-=== Authentication ===
-* WWW-Authenticate
-* Authorization
-* Proxy-Authenticate
-* Proxy-Authorization
-
-=== Content-Type Negotiation ===
-* Accept
-* Accept-Charset
-* Accept-Language
-* Accept-Ranges
-
-== Crafting New Headers ==
-See [http://tools.ietf.org/html/rfc7231#section-8.3.1 RFC7231 Section 8.3.1].
-
-If the response is identifying another resource, use the Link header with a URI as the relation name, e.g.:
-
- <nowiki>Link: <http://example.com/AcmeMetals>;rel="http://example.com/coin-minted-by"</nowiki>
