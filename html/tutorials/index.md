@@ -22,9 +22,10 @@
 
 * [[guides/html text|HTML text]]&nbsp;&nbsp;&nbsp;[[guides/html text es|Spanish version]]
 * [[guides/html lists|HTML lists]]
-* [[guides/images in html|Images in HTML]]
 * [[guides/html links|HTML links]]
+* [[Styling_lists_and_links|Styling lists and links]]
 * [[guides/html tables|HTML tables]]
+* [[guides/images in html|Images in HTML]]
 * [[guides/html forms basics|HTML forms basics]]
 * [[guides/html5 form features|HTML5 form features]]
 * [[guides/html structural elements|HTML structural elements]]
@@ -34,6 +35,7 @@
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
 * [[concepts/Pointer_Events|Input from mouse, touch, or pen with pointer events]]
+
 {{Notes_Section
 |Usage=
 |Notes=
