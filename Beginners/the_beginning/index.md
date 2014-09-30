@@ -24,7 +24,7 @@ If any term is hard to understand, kindly refer to the [[Beginners/glossary|glos
 
 == What is the Internet and the web, and how do they work? ==
 
-The Internet is a global network of networks of computers that connects computers from all around the world to each other. The World Wide Web is a virtually interconnected spiderweb-like nexus (and thus the name) of information connected to each other by '''links'''. In short, World Wide Web is a part of the Internet. There are other services under the Internet too (some common examples are emails, fax, FTP, microblogging, instant messaging, etc.). The links point to other websites and the Internet is used to get there. Most computers in the network merely consume information from other places (also know as '''clients'''), whereas others can consume information from other places and send information to other computers that ask for it ('''servers''').
+The Internet is a global network of networks of computers that connects computers from all around the world to each other. The World Wide Web is a virtually interconnected spiderweb-like nexus (and thus the name) of information connected to each other by '''links'''. In short, the World Wide Web is a part of the Internet. There are other services under the Internetm too, like emails, fax, FTP, microblogging, instant messaging, etc.. The links point to other websites and the Internet is used to get there. Most computers in the network merely consume information from other places (also know as '''clients'''), whereas others can consume information from other places and send information to other computers that ask for it ('''servers''').
 
 [INCLUDE A NICE SIMPLE IMAGE OF A SERVER SURROUNDED BY CLIENT MACHINES, AND SOME ARROWS AND CAPTIONS TO INDICATE CLIENTS REQUESTING A WEB PAGE, AND THE SERVER SENDING THE WEB PAGE TO THE CLIENTS TO DISPLAY?]
 
@@ -91,12 +91,12 @@ p {
 
 this results in the following:
 
-<div style="border: 2px solid black;padding: 10px;margin-bottom:50px;">
+<div style="border: 2px solid black;padding: 10px;">
 <h1 style="color: blue">The title of my story</h1>
 <p style="color: red" id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
-<p>Note that there are three parts of a CSS rule. First, we use the selector to select a specific element (<code>h1</code>). We then specify arguments. The properties, or attributes are needed to tell the browser what exactly is being manipulated (<code>color</code>) and finally the value of that property is specified (<code>blue</code>). As with other programming languages, the arguments part is placed within curly braces (<code>{these}</code>) and each argument is terminated by a semi-colon (<code>;</code>).</p>
+<p style="margin-bottom:50px;">Note that there are three parts of a CSS rule. First, we use the selector to select a specific element (<code>h1</code>). We then specify arguments. The properties, or attributes are needed to tell the browser what exactly is being manipulated (<code>color</code>) and finally the value of that property is specified (<code>blue</code>). As with other programming languages, the arguments part is placed within curly braces (<code>{these}</code>) and each argument is terminated by a semi-colon (<code>;</code>).</p>
 
 <p>'''JavaScript''': This language is used to add dynamic functionality to your webpage. It provides the majority of the interactions in webpages, aside from simple things like text-boxes (that are from HTML). JavaScript leads to things happening to the webpage when things are clicked or a key is pressed. JavaScript is a scripting language that is <i>very</i> powerful and actually makes webpages a bit dangerous, so be careful with it! Even though JavaScript was originally for the web, JavaScript is actually used in lots of things other than it, but this course will focus on its application to the web.</p>
 
