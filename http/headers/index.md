@@ -136,11 +136,11 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Cookie|Cookie]]
-| 
+| Declares a stored cookie value to the server
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
 | [[http/headers/Cookie2|Cookie2]]
-| 
+| Declares a stored cookie value to the server
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
 | [[http/headers/DASL|DASL]]
@@ -180,7 +180,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Digest|Digest]]
-| 
+| Indicates a hash/digest for the full resource
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/ETag|ETag]]
@@ -220,19 +220,19 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc4918 RFC4918]
 |-
 | [[http/headers/If-Match|If-Match]]
-| 
+| Conditional request header
 | [http://tools.ietf.org/html/rfc7232#section-3.1 RFC7232, Section 3.1]
 |-
 | [[http/headers/If-Modified-Since|If-Modified-Since]]
-| 
+| Conditional request header
 | [http://tools.ietf.org/html/rfc7232#section-3.3 RFC7232, Section 3.3]
 |-
 | [[http/headers/If-None-Match|If-None-Match]]
-| 
+| Conditional request header
 | [http://tools.ietf.org/html/rfc7232#section-3.2 RFC7232, Section 3.2]
 |-
 | [[http/headers/If-Range|If-Range]]
-| 
+| Conditional request header
 | [http://tools.ietf.org/html/rfc7233#section-3.2 RFC7233, Section 3.2]
 |-
 | [[http/headers/If-Schedule-Tag-Match|If-Schedule-Tag-Match]]
@@ -240,7 +240,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
 | [[http/headers/If-Unmodified-Since|If-Unmodified-Since]]
-| 
+| Conditional request header
 | [http://tools.ietf.org/html/rfc7232#section-3.4 RFC7232, Section 3.4]
 |-
 | [[http/headers/Keep-Alive|Keep-Alive]]
@@ -248,7 +248,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Label|Label]]
-| 
+| Used in WebDAV
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Last-Modified|Last-Modified]]
@@ -256,7 +256,7 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [http://tools.ietf.org/html/rfc7232#section-2.2 RFC7232, Section 2.2]
 |-
 | [[http/headers/Link|Link]]
-| 
+| Declares a link relationship to another resource
 | [http://tools.ietf.org/html/rfc5988 RFC5988]
 |-
 | [[http/headers/Location|Location]]
