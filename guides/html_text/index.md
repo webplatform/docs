@@ -1,7 +1,7 @@
 {{Page_Title|HTML text}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=undergoing final edit 9/30/14 dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -125,7 +125,7 @@ although W3C will continue to make those specifications and
 their DTDs available at the W3C website.</p>
 </blockquote></syntaxhighlight>
 
-The above content is rendered like this in the browser:
+Depending on default and user-defined styles, the above content might render like this in the browser:
 
 <p>HTML 4.01 is the only version of HTML that you should use
 when creating a new web page, according to the 
@@ -251,7 +251,8 @@ In the browser, that renders exactly as you expect:
 The ''strong'' element <code>&lt;strong&gt;</code> indicates particular importance for its content, declaring that it is more important than its surrounding content. For example:
 
 <syntaxhighlight lang="html5">
-<p>There are twenty different species living inside this enclosure. <strong>Warning! Do not feed them: they will eat your shoes.</strong></p></syntaxhighlight>
+<p>There are twenty different species living inside this enclosure. 
+<strong>Warning! Do not feed them: they will eat your shoes.</strong></p></syntaxhighlight>
 
 Most browsers render <code>&lt;strong&gt;</code> as bold text:
 
@@ -300,11 +301,10 @@ In the browser, that will render as:
 <p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
 Creative Commons Attribution Share-alike license</a>.</small></p>
 
-=start here bubba=
-
 === Telling the time ===
 
-New to HTML5, the <code>&lt;time&gt;</code> element gives you a way to unambiguously markup any times and dates you include in your text, allowing you to display them however you want to your readers, whilst including a consistent ISO-formatted date that machines can read. Here's an example:
+New to HTML5, the ''time'' element <code>&lt;time&gt;</code> gives you a way to unambiguously mark up times and dates you include in your text, 
+allowing you to display them however you want, whilst including a consistent ISO-formatted date that machines can read. Here's an example:
 
 <syntaxhighlight lang="html5"><p>I was born on the <time datetime="1978-06-27">27<sup>th</sup> June 1978</time>.</p></syntaxhighlight>
 
@@ -312,52 +312,67 @@ Because you can put whatever you want in between the opening and closing tags, y
 
 <syntaxhighlight lang="html5"><p><time datetime="1978-06-27">June 27 1978 - my birthday</time>.</p></syntaxhighlight>
 
-You can also add a time on to the date, appended to the end of the ISO-formatted string after a capital T, in 24 hour clock format:
+You can also add a time to the date, appended to the end of the ISO-formatted string after a capital T, in 24 hour clock format:
 
 <syntaxhighlight lang="html5"><p><time datetime="1978-06-27T21:00">9pm on my birthday</time>.</p></syntaxhighlight>
  
-You can just specify the time if you want
+Or you can just specify the time if you want:
 
 <syntaxhighlight lang="html5"><p><time datetime="21:00">9pm</time>.</p></syntaxhighlight>
 
-Although note that you cannot currently specify a non-specific date, such as "August 2011" or "2011" - this is a bit limiting for say, museum websites.
+Note, however, that you cannot currently specify a non-specific date, such as "August 2011" or "2011".
 
-You can also add a number of seconds (after another colon), milliseconds (after a period) and a time zone offset (after a dash) after the time value. Check out the following:
+You can also add a number of seconds (after another colon), milliseconds (after a period), and a time zone offset (after a dash) following 
+the time value. For example:
 
 <syntaxhighlight lang="html5"><p><time datetime="1978-06-27T21:00:00.006-08:00">9pm and 6 milliseconds
 on my birthday, in Pacific standard time</time>.</p></syntaxhighlight>
  
-Finally, you can also add a pubdate attribute to a <code>&lt;time&gt;</code> element, to specify that this datetime is the date and time that the particular piece of content was published:
+Finally, you can also add a ''publication date'' attribute <code>pubdate</code> to a <code>&lt;time&gt;</code> element, 
+to specify that the datetime value represents when the content was published:
 
 <syntaxhighlight lang="html5"><p>Published on <time datetime="2011-07-20" pubdate>July 27<sup>th</sup> 2011</time>.</p></syntaxhighlight>
 
 == Presentational elements &mdash; never use these ==
- 
-The HTML 4 specification includes several elements that are widely
-described as “presentational” because they only specify what the
-content within them should look like, and not what it means. Most of these have been removed in the HTML5 specification.
- 
-We will describe them briefly here, but note that this is mostly of historic interest &mdash; these elements should never be used in any modern web page, although they are still used in HTML e-mails, which follow a non-standard set of rules. The effect of all of these elements should be achieved in another way, such as using CSS. 
 
-=== &lt;font face="…" size="…"&gt; ===
+In addition to <code>&lt;i&gt;</code>, <code>&lt;b&gt;</code>, and <code>&lt;small&gt;</code>, 
+the HTML4 specification includes several other elements that are strictly
+presentational because they only specify what the
+content within them should look like, and not what it means. 
+The use of these elements is discouraged, and most of these have been removed from the HTML5 specification.
+ 
+We will describe them briefly here, but note that this is mostly of historic interest &mdash; these elements should never be used in a modern web 
+page. To achieve these text effects, you should use CSS.
 
-The text within should be rendered by the browser using a font different from the default &mdash; instead, fonts should be set using CSS.
+=== &lt;font face="..." size="..."&gt; ===
+
+The ''font'' element indicates that the text should be rendered using a font different from the default. Use CSS instead.
 
 === &lt;strike&gt; ===
 
-The text within has been struck-through with a line &mdash; if this is merely a presentational effect, this should be achieved with CSS. Alternatively, if the text is actually being marked as having been deleted or unwanted it should be marked up with the <code>&lt;del&gt;</code> element, described in [[Lesser - known semantic elements]].
+The ''strike'' element indicates that the text should be struck-through with a line. Use CSS instead.
 
 === &lt;u&gt; ===
 
-The text within has been underlined &mdash; this is almost always a visual effect, and so should be achieved with CSS.
+The ''u'' element indicates that the text should be underlined (underscored). Not only should this be done with CSS instead, 
+but it should rarely be done at all, because most readers will interpret the underscore as a hyperlink. Of course, because it isn't a hyperlink, 
+clicking it will do nothing &mdash; except frustrate your reader.
 
 === &lt;tt&gt; ===
 
-The text within is presented in a “teletype” or monospaced font &mdash; this should be achieved with CSS or a more appropriate semantic element such as <code>&lt;pre&gt;</code> (a block level element), shown above, or <code>&lt;code&gt;</code>, an inline element.
+The ''tt'' element indicates that the text should be presented in a "teletype" or monospaced font. An alternative to using CSS to achieve this 
+effect would be to use the semantic elements <code>&lt;pre&gt;</code> for block content or <code>&lt;code&gt;</code> for inline content.
 
 === &lt;big&gt; ===
 
-This makes the size of the text inside bigger &mdash; this should be achieved with CSS.
+The ''big'' element indicates that the text should be rendered in a larger font.
+
+==Conclusion==
+
+In this article we have looked at the basics of HTML text markup, including headings, paragraphs, quotes, code, and 
+various emphasis elements. When you are comfortable with these concepts, please move on to the other tutorials
+in this series, which cover HTML lists, images, links, tables, and more.
+
 }}
 {{Notes_Section
 |Usage=
