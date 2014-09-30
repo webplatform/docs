@@ -1,114 +1,123 @@
 {{Page_Title|HTML text}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Fix minor bugs in comments
+|Editorial notes=undergoing final edit 9/30/14 dag
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article talks about some of the most common elements used when marking up textual content using HTML.}}
 {{Guide
 |Content=== Introduction ==
  
 In this article we will take you through the basics of using HTML to
-markup the content within the body of your document.
+mark up the content within the body of your document.
  
-We will look at general structural elements such as headings and
-paragraphs and embedding quotes and code. After that we will look
+We will first look at general structural elements such as headings and
+paragraphs, and how to embed long quotes and code. After that we will look
 at inline content, such as short quotes and emphasis, and finish with
-a quick examination of old-fashioned presentational content.
+a quick examination of old-fashioned presentational markup.
 
-== Space—the final frontier ==
+== Space &mdash; the final frontier ==
+
+Before we discuss text, we should discuss the space between the text.
+HTML documents contain non-printing characters known as ''white space''
+that separate text. The regular space character (space bar on a keyboard)
+is the most common, but there are others such as the
+tab character and the carriage return (or new line) character.
  
-An important point to cover before we start to discuss text, though,
-is that of space, specifically the space between words. When writing
-HTML, the source document will contain what is termed “white space”
-— the characters in the file that serve to separate text. An
-actual space character, as you would get when you hit the Spacebar 
-on the keyboard is the most common, but there are others such as the
-Tab character and the marker between two separate lines in a document
-(called a carriage return or new line).
- 
-In HTML, multiple occurrences of these characters are (almost) always
-treated as a single space character. For example:
+In HTML, multiple occurrences of these characters are almost always
+treated as a single space character. Consider this source code:
  
 <syntaxhighlight lang="html5"><h3>In   the
                 beginning</h3></syntaxhighlight>
 
-would be interpreted by a web browser to be equivalent to:
+It would be interpreted by a web browser to be equivalent to:
  
 <syntaxhighlight lang="html5"><h3>In the beginning</h3></syntaxhighlight>
  
-The only place where this is not the case is in the <code>&lt;pre&gt;</code> element, 
-which is discussed in detail later in this article.
+The only time this is not the case is when the <code>&lt;pre&gt;</code> element is used, 
+which we will discuss later in this article.
  
-This can be a source of confusion for first-time authors of an HTML
-document, who may try to pad out text with extra spaces to achieve a
+White space compression
+can be a source of confusion for novice HTML authors,
+who may try to pad out text with extra spaces to achieve a
 desired indentation, to get more spacing after the period between
-sentences or to introduce more vertical space between paragraphs.
-Influencing the visual layout of your documents is not something to
-be done in the HTML source, and is instead achieved via CSS.
+sentences, or to introduce more vertical space between paragraphs.
+Remember, HTML is a content language, not a style language;
+visual layout should not
+be attempted in the HTML source, and should instead be achieved via CSS.
 
-== Block level elements ==
+== Block elements ==
  
-In this section we will go through the syntax and usage of the common block level elements used to format text.
+''Block elements'' are those that create a line break before and after the element.
+In this section we will look at the syntax and usage of some common block elements.
  
 === Page section headings ===
  
 Each part of your web content should be introduced by an appropriate heading.
  
-HTML defines six levels of heading, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, and
+HTML defines six heading levels: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, and
 <code>&lt;h6&gt;</code> (from the highest importance to the lowest). Generally speaking,
 the <code>&lt;h1&gt;</code> would be the main heading of the entire page and introduce
 everything. <code>&lt;h2&gt;</code> is then used to break the page up into sections,
 <code>&lt;h3&gt;</code> the sub-sections, and so on.
  
-It is important to use the heading levels to describe the document in
-terms of section, sub-section, sub-sub-section as this makes the
-[http://www.accessibilitytips.com/2008/03/10/avoid-skipping-header-levels/ document more understandable to screen readers] and to automated
-processes (like Google’s indexing bots).
+It is important to use the heading levels to describe the document 
+hierarchically, and to not skip or incorrectly nest different levels,
+as this makes the
+document more understandable to screen readers and to automated
+processes like indexing bots. See 
+[http://www.accessibilitytips.com/2008/03/10/avoid-skipping-header-levels/ this article] for more information.
  
 A good example of a header structure, using this article as a
-template, would look like this:
+template, might look like this:
  
 <syntaxhighlight lang="html5"><h1>Marking up textual content in HTML</h1>
 <h2>Introduction</h2>
-<h2>Space — the final frontier</h2>
-<h2>Block level elements</h2>
+<h2>Space &mdash; the final frontier</h2>
+<h2>Block elements</h2>
 <h3>Page section headings</h3>
 <h3>Generic paragraphs</h3>
 <h3>Quoting other sources</h3>
 <h3>Preformatted text</h3>
 <h2>Inline elements</h2>
 
-[…and so on…]</syntaxhighlight>
+[...and so on...]</syntaxhighlight>
 
 === Generic paragraphs ===
  
-The paragraph is the building block of most documents. In HTML a
-paragraph is represented by the <code>&lt;p&gt;</code> element, which takes no special
-attributes. For example:
+The ''paragraph'' is the primary building block of most documents. In HTML a
+paragraph is represented by the <code>&lt;p&gt;</code> element. For example:
  
 <syntaxhighlight lang="html5"><p>This is a very short paragraph. It only has two sentences.</p></syntaxhighlight>
 
-A paragraph can contain just one sentence, but taking the literary meaning, further, you cannot really call two words a paragraph. There is however no more suitable semantic element for marking up just two words of prose, so stick to the humble <code>&lt;p&gt;</code> element even in these cases. If it is in fact a list item, heading, link, or similar there will be a more suitable element available.
+A paragraph can contain any amount of text, from a single character to thousands of words,
+but is typically used in the standard literary sense to contain one to a few sentences.
+However, there's no need to overuse <code>&lt;p&gt;</code>; if the content is actually a list, heading, link, or other specific
+type of content, there are many suitable elements available.
 
 === Quoting other sources ===
  
-Very often articles, blog posts, and reference documents will quote another document in whole or in part. In HTML, this is marked up 
+Articles, blog posts, and reference documents will often quote sections of text from another document, called a ''block quote''. 
+In HTML, this is marked up 
 using the <code>&lt;blockquote&gt;</code> element for lengthy quotations, such as entire
 sentences, paragraphs, lists, etc.
- 
-A <code>&lt;blockquote&gt;</code> element cannot contain text, but must instead have
-another block level element inside it. You should use the same
-block level element as was used in the original source you are quoting. If you 
-are quoting a paragraph of text, use a paragraph; when quoting a
-list of items, use the elements for lists; and so on.
 
-If the quote comes from another web page, you can indicate this using
-the <code>cite</code> attribute, like so:
+While, technically,
+a <code>&lt;blockquote&gt;</code> element can contain text, it is bad practice, and will probably cause your code to not validate.
+Instead, you should nest other elements inside it. When quoting from another source,
+you should use the same type of elements: when quoting a paragraph of text, use a paragraph tag; when quoting a
+list of items, use the list tags; and so on.
+
+If you want, you can indicate the source of the quote using
+the <code>cite</code> attribute, like this:
  
 <syntaxhighlight lang="html5"><p>HTML 4.01 is the only version of HTML that you should use
-when creating a new web page, as, according to the 
+when creating a new web page, according to the 
 specification:</p>
 <blockquote cite="http://www.w3.org/TR/html401/">
 <p>This document obsoletes previous versions of HTML 4.0,
@@ -116,11 +125,25 @@ although W3C will continue to make those specifications and
 their DTDs available at the W3C website.</p>
 </blockquote></syntaxhighlight>
 
-The <code>cite</code> attribute does not really do anything on its own, although it is useful to keep a record of where the quotes are taken from. 
+The above content is rendered like this in the browser:
+
+<p>HTML 4.01 is the only version of HTML that you should use
+when creating a new web page, according to the 
+specification:</p>
+<blockquote cite="http://www.w3.org/TR/html401/">
+<p>This document obsoletes previous versions of HTML 4.0,
+although W3C will continue to make those specifications and
+their DTDs available at the W3C website.</p>
+</blockquote>
+
+Note that the <code>cite</code> attribute doesn't really do anything on its own, 
+although it is useful to keep a record of the quote's source with the quote. 
 
 === Preformatted text ===
  
-Any case in which the formatting and white space (see earlier) needs to be preserved should be marked up using the <code>&lt;pre&gt;</code> element. In this example, you can see a snippet of code written in the Perl programming language:
+Any case in which the formatting and white space should be preserved, such as code examples, should be marked up 
+using the ''preformatted'' element <code>&lt;pre&gt;</code>. 
+In this example, you see a snippet of code written in the Perl programming language:
  
 <syntaxhighlight lang="html5"><pre><code class="language-perl">
 # read in the named file in its entirety
@@ -135,87 +158,149 @@ sub slurp {
   return undef;
 };
 </code></pre></syntaxhighlight>
- 
-In most web browsers, text marked as preformatted will be displayed
-to the user as it appears in the source, sometimes using a fixed-width
-(monospaced) font, giving the text a feeling of having come from a
-typewriter. This is an artifact of programmers using fixed width fonts for early uses of preformatted text.
 
-Note: The use of the <code>&lt;code&gt;</code> element above will be explained in the [[ tutorials/lesser-known semantic elements|Lesser-known semantic elements]] article later on in the course.
+In the browser, that snippet is rendered exactly as written:
+
+<pre><code class="language-perl">
+# read in the named file in its entirety
+sub slurp {
+  my $filename = shift;
+  my $file     = new FileHandle $filename;
+                
+  if ( defined $file ) {
+    local $/;
+    return <$file>;
+  }
+  return undef;
+};
+</code></pre>
+
+In most web browsers, text marked as preformatted will be displayed
+to the user as it appears in the source, usually using a fixed width
+(monospace) font, giving the text a feeling of having come from a
+typewriter or printer. This is an artifact of older computers, which had only fixed width fonts,
+but is quite handy today for code examples and other content that is best displayed without browser modification.
+
+Note: The use of the <code>&lt;code&gt;</code> element above is covered in the 
+[[tutorials/lesser-known semantic elements|Lesser-known semantic elements]] article.
 
 == Inline elements ==
- 
-In this section we will go through the syntax and usage of the common inline elements used to format text.
- 
+
+''Inline elements'' are those that do not create a line break before or after the element.
+In this section we will look at the syntax and usage of some common inline elements.
+
 === Short quotations ===
  
 Short quotes used within a normal sentence or paragraph 
-are contained within the <code>&lt;q&gt;</code> element. Like the <code>&lt;blockquote&gt;</code> element,
-this can contain a <code>cite</code> attribute, which indicates the page on the
-internet where the quote can be found.
+are contained within the ''quote'' element <code>&lt;q&gt;</code>. Like <code>&lt;blockquote&gt;</code>,
+this element can contain a <code>cite</code> attribute that indicates the source of the quote.
 
 A short quote should normally be rendered with quotation marks around
-it. According to [http://www.w3.org/TR/html401/struct/text.html#h-9.2.2.1 the HTML specification], these should be
-inserted by the user-agent so that they can be correctly nested and
-made aware of the language being used in the document.
+it. According to the [http://www.w3.org/TR/html401/struct/text.html#h-9.2.2.1 HTML specification], these should be
+inserted by the user agent so that they can be correctly nested and
+so that quote characters appropriate to the document's language can be used.
  
-An example of <code>&lt;q&gt;</code> in action:
+Here's an example of <code>&lt;q&gt;</code> in action, with a <code>lang</code> attribute:
  
 <syntaxhighlight lang="html5"><p>This did not end well for me. Oh well, 
-              <q lang="fr">c'est la vie</q> as the French say.</p></syntaxhighlight>
+<q lang="fr">c'est la vie</q>, as the French say.</p></syntaxhighlight>
+
+In the browser, that paragraph will render like this (note the European quote characters):
+
+<p>This did not end well for me. Oh well, <q lang="fr">c'est la vie</q>, as the French say.</p>
 
 === Emphasis ===
  
-HTML contains four elements for indicating emphasis of some kind, such as important text like warnings, or subtle differences in meaning. For visual browsers this normally means applying a different color, font or making the text bolder or italicised. For users of screen readers this can result in a different voice or other auditory effect.
+HTML contains four elements for indicating emphasis, a way to differentiate specific text from its surrounding content.
+For browsers this normally means making the text bold or italicised. 
+For screen readers it can result in a different voice or other auditory effect.
 
 ==== &lt;em&gt; ====
 
-For emphasis that subtly changes the meaning of a sentence, you use the <code>&lt;em&gt;</code> element, like 
-so:
+For emphasis that subtly changes the meaning of a sentence, you use the ''emphasis'' element <code>&lt;em&gt;</code>, like 
+this:
  
 <syntaxhighlight lang="html5"><p><em>Please</em> remember to unplug the kettle at night.</p></syntaxhighlight>
 
+Most browsers render <code>&lt;em&gt;</code> as italic text:
+
+<p><em>Please</em> remember to unplug the kettle at night.</p>
+
 ==== &lt;i&gt; ====
 
-The <code>&lt;i&gt;</code> element used to mean italic in HTML4, and this was considered a bit naughty, as it was more of a presentational element than a semantic one (it just described what the element looked like, rather than what its meaning was - see below for more on these kinds of elements). HTML5 however redefines the meaning of <code>&lt;i&gt;</code>, saying that it "represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a ship name, or some other prose whose typical typographic presentation is italicised."
+The <code>&lt;i&gt;</code> element used to mean ''italic'' in HTML4, but this was considered bad practice, as it was more of a presentational element 
+than a semantic one. That is, it just described what the element looked like, rather than what its meaning was. (See below for more on these kinds of 
+elements.) HTML5, however, redefines the meaning of <code>&lt;i&gt;</code>, saying that it "represents a span of text in an alternate voice or mood, 
+or otherwise offset from the normal prose, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, a thought, a 
+ship name, or some other prose whose typical typographic presentation is italicised."
 
-This does sound rather confusing, so here are some examples of where <code>&lt;i&gt;</code> would be appropriate:
+That does sound rather confusing, so here are some examples of where <code>&lt;i&gt;</code> would be appropriate:
 
 <syntaxhighlight lang="html5">
 <p>As we sailed into port, we spied the <i>Black Pearl</i> moored at the dock.</p>
 <p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p>
 </syntaxhighlight>
 
+In the browser, that renders exactly as you expect:
+
+<p>As we sailed into port, we spied the <i>Black Pearl</i> moored at the dock.</p>
+<p>She really does add that little bit of <i lang="fr">je ne sais quoi</i>.</p>
+
 ==== &lt;strong&gt; ====
 
-The <code>&lt;strong&gt;</code> element indicates strong importance for its contents: that they are more important than surrounding content. For example:
+The ''strong'' element <code>&lt;strong&gt;</code> indicates particular importance for its content, declaring that it is more important than its surrounding content. For example:
 
 <syntaxhighlight lang="html5">
-<p>There are a total of twenty different species living inside this enclosure. <strong>Warning: Do not feed them: they will eat your shoes</strong>.</p></syntaxhighlight>
+<p>There are twenty different species living inside this enclosure. <strong>Warning! Do not feed them: they will eat your shoes.</strong></p></syntaxhighlight>
+
+Most browsers render <code>&lt;strong&gt;</code> as bold text:
+
+<p>There are twenty different species living inside this enclosure. <strong>Warning! Do not feed them: they will eat your shoes.</strong></p>
 
 ==== &lt;b&gt; ====
 
-The <code>&lt;b&gt;</code> element again used to be frowned upon because it described the look of the content, not its meaning. HTML5 has therefore redefined this element too: it is now meant to markup content that is stylistically offset from the rest of the text, but no more important in terms of its meaning. So for example, consider the most significant words in a product review or document abstract. An example follows:
+Like <code>&lt;i&gt;</code>, the ''bold'' element <code>&lt;b&gt;</code> used to be frowned upon because it described the look of the content, 
+not its meaning. HTML5 has therefore redefined this element as well; it is now meant to identify content that is stylistically offset from the 
+rest of the text, but no more important in terms of its meaning. Consider the most significant words in a product review or document abstract,
+as in this example:
 
-<syntaxhighlight lang="html5"><p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>
+<syntaxhighlight lang="html5"><p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>,
 and <b>string</b> to create an attractive mobile for your child's bedroom.</p></syntaxhighlight>
+
+Also like <code>&lt;i&gt;</code>, this renders as expected:
+
+<p>In this article, Chris Mills will show you how to combine <b>HTML5</b>, <b>CSS3</b>, <b>coloured card</b>,
+and <b>string</b> to create an attractive mobile for your child's bedroom.</p>
 
 ==== Combining emphasis elements ====
 
 You can combine and nest these different types of emphasis. For example, if an entire sentence was to be emphasised, but there was also a
-point within that sentence that was more important, you could use
-the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>elements together to indicate stronger emphasis than normal, like
-so:
+point within the sentence that was more important, you could use
+the <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>elements together to indicate stronger emphasis than normal:
  
-<syntaxhighlight lang="html5"><p><em>Please note: the kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
+<syntaxhighlight lang="html5"><p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
 <strong>killing us all</strong></em>.</p></syntaxhighlight>
+
+The browser will render that paragraph like this:
+
+<p><em>Please note: The kettle <strong>must</strong> be unplugged every evening, otherwise it will explode -
+<strong>killing us all</strong></em>.
 
 === Small print ===
 
-Another element  that was presentational and therefore naughty in HTML4, but has been redefined in HTML5 is <code>&lt;small&gt;</code>.  It used to be a presentational element for making text appear smaller, but in HTML5 it is now used to mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
+The ''small'' element <code>&lt;small&gt;</code> is another element that was originally presentational and therefore considered bad practice in HTML4, 
+but has been redefined in HTML5. It used to be an element for making ordinary text appear in a smaller font, but in HTML5 it is now properly used to 
+mark up small print, such as legal restrictions, disclaimers, copyright notices, attribution statements, or licensing information. For example:
 
 <syntaxhighlight lang="html5"><p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
 Creative Commons Attribution Share-alike license</a>.</small></p></syntaxhighlight>
+
+In the browser, that will render as:
+
+<p><small>This content is released under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+Creative Commons Attribution Share-alike license</a>.</small></p>
+
+=start here bubba=
 
 === Telling the time ===
 
@@ -246,35 +331,39 @@ Finally, you can also add a pubdate attribute to a <code>&lt;time&gt;</code> ele
 
 <syntaxhighlight lang="html5"><p>Published on <time datetime="2011-07-20" pubdate>July 27<sup>th</sup> 2011</time>.</p></syntaxhighlight>
 
-== Presentational elements — never use these ==
+== Presentational elements &mdash; never use these ==
  
 The HTML 4 specification includes several elements that are widely
 described as “presentational” because they only specify what the
 content within them should look like, and not what it means. Most of these have been removed in the HTML5 specification.
  
-We will describe them briefly here, but note that this is mostly of historic interest — these elements should never be used in any modern web page, although they are still used in HTML e-mails, which follow a non-standard set of rules. The effect of all of these elements should be achieved in another way, such as using CSS. 
+We will describe them briefly here, but note that this is mostly of historic interest &mdash; these elements should never be used in any modern web page, although they are still used in HTML e-mails, which follow a non-standard set of rules. The effect of all of these elements should be achieved in another way, such as using CSS. 
 
 === &lt;font face="…" size="…"&gt; ===
 
-The text within should be rendered by the browser using a font different from the default — instead, fonts should be set using CSS.
+The text within should be rendered by the browser using a font different from the default &mdash; instead, fonts should be set using CSS.
 
 === &lt;strike&gt; ===
 
-The text within has been struck-through with a line — if this is merely a presentational effect, this should be achieved with CSS. Alternatively, if the text is actually being marked as having been deleted or unwanted it should be marked up with the <code>&lt;del&gt;</code> element, described in [[Lesser - known semantic elements]].
+The text within has been struck-through with a line &mdash; if this is merely a presentational effect, this should be achieved with CSS. Alternatively, if the text is actually being marked as having been deleted or unwanted it should be marked up with the <code>&lt;del&gt;</code> element, described in [[Lesser - known semantic elements]].
 
 === &lt;u&gt; ===
 
-The text within has been underlined — this is almost always a visual effect, and so should be achieved with CSS.
+The text within has been underlined &mdash; this is almost always a visual effect, and so should be achieved with CSS.
 
 === &lt;tt&gt; ===
 
-The text within is presented in a “teletype” or monospaced font — this should be achieved with CSS or a more appropriate semantic element such as <code>&lt;pre&gt;</code> (a block level element), shown above, or <code>&lt;code&gt;</code>, an inline element.
+The text within is presented in a “teletype” or monospaced font &mdash; this should be achieved with CSS or a more appropriate semantic element such as <code>&lt;pre&gt;</code> (a block level element), shown above, or <code>&lt;code&gt;</code>, an inline element.
 
 === &lt;big&gt; ===
 
-This makes the size of the text inside bigger — this should be achieved with CSS.
+This makes the size of the text inside bigger &mdash; this should be achieved with CSS.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -285,15 +374,19 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
@@ -322,6 +415,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Mobile_rows={{Compatibility Table Mobile Row
 |Feature=em
 |Android_supported=Yes
+|Android_version=
 |Android_prefixed_supported=No
 |Android_prefixed_version=
 |Blackberry_supported=Unknown
@@ -333,6 +427,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=No
 |Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Unknown
@@ -340,6 +435,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=No
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Unknown
@@ -347,6 +443,7 @@ This makes the size of the text inside bigger — this should be achieved with C
 |Opera_mini_prefixed_supported=Unknown
 |Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=No
 |Safari_mobile_prefixed_version=
 }}{{Compatibility Table Mobile Row
@@ -386,7 +483,11 @@ This makes the size of the text inside bigger — this should be achieved with C
 }}
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
