@@ -207,10 +207,6 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | Contact information for the user making the request, especially for Web spiders
 | [http://tools.ietf.org/html/rfc7231#section-5.5.1 RFC7231, Section 5.5.1]
 |-
-| [[http/headers/GetProfile|GetProfile]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
-|-
 | [[http/headers/Host|Host]]
 | Hostname component of the request-URI (Required)
 | [http://tools.ietf.org/html/rfc7230#section-5.4 RFC7230, Section 5.4]
@@ -434,10 +430,6 @@ The full list of HTTP headers is shared with MIME headers and is maintained by t
 | [[http/headers/Set-Cookie2|Set-Cookie2]]
 | Request to store a cookie on the user-agent
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
-|-
-| [[http/headers/SetProfile|SetProfile]]
-| 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/SLUG|SLUG]]
 | 
