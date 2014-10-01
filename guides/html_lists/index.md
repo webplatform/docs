@@ -219,72 +219,7 @@ Name4
   One value that applies to Name4
   Another value that applies to Name4</pre>
    
-== Choosing among list types ==
- 
-When trying to decide what type of list to use, ask yourself two simple questions:
 
-<ol>
-  <li>Am I defining terms or associating other name/value pairs?
-    <ul>
-      <li>If yes, use a description list.</li>
-      <li>If no, don't use a description list.</li>
-    </ul>
-  </li>
-  <li>Is the order of the list items important?
-    <ul>
-      <li>If yes, use an ordered list.</li>
-      <li>If no, use an unordered list.</li>
-    </ul>
-  </li>
-</ol> 
-
-== HTML list advantages ==
- 
-* Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements;
-when the browser renders the list, it will be properly ordered.
-* Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags <code>&lt;li&gt;</code> are different
-from the other tags in your document, so you can specifically target CSS rules to them.
-* Semantics: HTML lists give the content the proper semantic structure. This has important benefits, such as allowing screen readers to tell users with visual impairments that they are reading a list, rather than just reading out a confusing jumble of text and numbers.
- 
-To put it another way: '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
- 
-== Nesting lists ==
- 
-An individual list item can contain another entire list, called a ''nested list''. It is useful for things like tables of contents
-that contain sub-sections:
-
-<pre>1. Chapter One
-    a. Section One
-    b. Section Two
-    c. Section Three
-2. Chapter Two
-3. Chapter Three
- 
-To reflect that in the code, the nested list is contained inside that list item. The code for the list above looks like this:
- 
-<syntaxhighlight lang="html5"><ol>
-  <li>Chapter One
-    <ol style="list-style-type: lower-alpha;">
-      <li>Section One</li>
-      <li>Section Two </li>
-      <li>Section Three </li>
-    </ol>
-  </li>
-  <li>Chapter Two</li>
-  <li>Chapter Three  </li>
-</ol></syntaxhighlight>
-
-Note that we have used the <code>list-style-type: lower-alpha</code> CSS property to sequence the nested list with lower-case letters
-instead of decimal numbers.
-
-Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site.
- 
-Theoretically you can nest as many lists as you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
-A good rule of thumb is, don't nest lists deeper than three levels.
-
-==Conclusion==
-
-(Let's see if everything works before writing the conclusion.)
 }}
 {{Notes_Section
 |Usage=
