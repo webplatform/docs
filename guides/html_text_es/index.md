@@ -16,12 +16,12 @@ En el HTML, cuando un carácter de éstos aparece varias veces seguidas, se cons
 
 Por ejemplo, un navegador interpretaría lo siguiente:
 
-<syntaxhighlight lang="html5"><h3>In   the
-                beginning</h3></syntaxhighlight>
+<syntaxhighlight lang="html5"><h3>En el
+                comenzado</h3></syntaxhighlight>
 
 como equivalente a:
 
-<syntaxhighlight lang="html5"><h3>In the beginning</h3></syntaxhighlight>
+<syntaxhighlight lang="html5"><h3>En el comenzado</h3></syntaxhighlight>
 
 El único lugar donde esto no aplica es en el elemento <code>&lt;pre&gt;</code>, el cual será discutido en detalle más adelante en este apartado.
 
@@ -59,7 +59,7 @@ El párrafo es el componente básico de la mayoría de los documentos. En HTML, 
 
 Por ejemplo:
 
-<syntaxhighlight lang="html5"><p>This is a very short paragraph. It only has two sentences.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p>Este es un párrafo muy corto. Tiene soló dos oraciones.</p></syntaxhighlight>
 
 En muchos artículos y libros, un párrafo puede contener sólo una frase. Aunque el significado (en cuanto a la prosa escrita) de la palabra párrafo está bastante claro, en la web hay áreas de texto mucho más cortas que a menudo aparecen entre elementos de párrafos por el simple hecho de que el autor cree que es más "semántico" que utilizar un elemento <code>&lt;div&gt;</code> (hablaremos de ello en otro apartado titulado "Contenedores genéricos").
 
@@ -75,13 +75,13 @@ Si la cita es de otra página web, podéis indicarlo utilizando el atributo <cod
 
 Como en el ejemplo siguiente:
 
-<syntaxhighlight lang="html5"><p>HTML 4.01 is the only version of HTML that you should use
- when creating a new web page, as, according to the 
- specification:</p>
+<syntaxhighlight lang="html5"><p>HTML 4.01 es la soló versión de HTML debes usar
+ cuando estás creando una página web nueva, de acuerdo de la 
+especificación :</p>
 <blockquote cite="http://www.w3.org/TR/html401/">
-<p>This document obsoletes previous versions of HTML 4.0,
- although W3C will continue to make those specifications and
- their DTDs available at the W3C Web site.</p>
+<p>Esto documento reemplaza versiones anteriores de HTML 4.0,
+ pero W3C va continuar hacer esas especificaciones y
+ su DTDs disponible a  el sitio web de W3C.</p>
 </blockquote></syntaxhighlight>
 
 El atributo <code>cite</code> no es necesario en el caso de que la cita se tome de una novela, una revista o de alguna otra forma de contenido fuera de línea.
@@ -122,8 +122,8 @@ Una cita breve aparece normalmente entre comillas. Según la [http://www.w3.org/
 
 Un ejemplo de <code>&lt;q&gt;</code> en acción:
 
-<syntaxhighlight lang="html5"><p>This did not end well for me. Oh well,
-      <q lang="fr">c'est la vie</q> as the French say.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p>Esto no terminar bien para mi. Ay pues,
+      <q lang="fr">c'est la vie</q> como los francés dicen.</p></syntaxhighlight>
 
 === Énfasis ===
 
@@ -133,12 +133,12 @@ En los navegadores visuales esto significa normalmente la aplicación de un colo
 
 Como en el ejemplo siguiente:
 
-<syntaxhighlight lang="html5"><p><em>Please note:</em> the kettle is to be unplugged at night.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p><em>Recuerda:</em>el hervidor es ser enchufado a noche.</p></syntaxhighlight>
 
 Si hay que enfatizar toda una frase pero una parte concreta de ésta se debe enfatizar de una manera aún más importante, se debe utilizar el elemento <code>&lt;strong&gt;</code> para indicar un énfasis más fuerte de lo normal, como en el ejemplo siguiente:
 
-<syntaxhighlight lang="html5"><p><em>Please note: the kettle <strong>must</strong> be unplugged every evening,
- otherwise it will explode - <strong>killing us all</strong></em>.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p><em>Recuerda: el hervidor<strong>debe</strong> ser desenchufado cada noche,
+ o lo explotaría - <strong>matando todo</strong></em>.</p></syntaxhighlight>
 
 === Texto en cursiva ===
 
