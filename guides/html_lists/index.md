@@ -248,6 +248,43 @@ from the other tags in your document, so you can specifically target CSS rules t
  
 To put it another way: '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
 
+== Nesting lists ==
+ 
+An individual list item can contain another entire list, called a ''nested list''. It is useful for things like tables of contents
+that contain sub-sections:
+
+<pre>1. Chapter One
+    a. Section One
+    b. Section Two
+    c. Section Three
+2. Chapter Two
+3. Chapter Three</pre>
+ 
+To reflect that in the code, the entire nested list is contained inside the first list item. The code looks like this:
+ 
+<syntaxhighlight lang="html5"><ol>
+  <li>Chapter One
+    <ol style="list-style-type: lower-alpha;">
+      <li>Section One</li>
+      <li>Section Two </li>
+      <li>Section Three </li>
+    </ol>
+  </li>
+  <li>Chapter Two</li>
+  <li>Chapter Three  </li>
+</ol></syntaxhighlight>
+
+Note that we have used the <code>list-style-type: lower-alpha</code> CSS property to sequence the nested list with lower-case letters
+instead of decimal numbers.
+
+Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site.
+ 
+Theoretically you can nest as many lists as you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
+A good rule of thumb is, don't nest lists deeper than three levels.
+
+==Conclusion==
+
+(Let's see if everything works before writing the conclusion.)
 }}
 {{Notes_Section
 |Usage=
