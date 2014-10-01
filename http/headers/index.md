@@ -491,7 +491,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc6455 RFC6455]
 |-
 | [[http/headers/Security-Scheme|Security-Scheme]]
-| 
+| Used to indicate S-HTTP support (not to be confused with HTTPS)
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Server|Server]]
