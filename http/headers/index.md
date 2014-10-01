@@ -115,7 +115,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc7231#section-5.3.5 RFC7231, Section 5.3.5]
 |-
 | [[http/headers/Accept-Patch|Accept-Patch]]
-| 
+| Specifies media types that are acceptable for PATCH requests
 | [http://tools.ietf.org/html/rfc5789 RFC5789]
 |-
 | [[http/headers/Accept-Ranges|Accept-Ranges]]
