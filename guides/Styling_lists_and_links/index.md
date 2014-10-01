@@ -9,7 +9,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|In this article we provide a basic treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
+{{Summary_Section|In this article we provide a basic treatment of how to style HTML lists and links using CSS.}}
 {{Guide
 |Content=== Introduction ==
  
