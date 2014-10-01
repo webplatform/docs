@@ -151,45 +151,29 @@ Note that this attribute was deprecated in HTML 4, so it will prevent your page 
 
 === Description lists === 
  
-Description lists associate specific names and their values within a list, for example items in an ingredient list and their descriptions, article metadata such as authors and categories and their values, or competition winners and the years in which they won. Let's explore the ingredient list example a bit more deeply. You could write an ingredients list like so:
+''Description lists'' (previously called ''definition lists'', but renamed in HTML5) associate specific names and values within a list. Examples might be items in an ingredient list and their descriptions, article authors and brief bios, or competition winners and the years in which they won. You can have as many name-value groups as you like, but there must be at least one name and at least one value in each pair. 
 
-<pre>milk
-  
-A white, liquid dairy product.
-  
-bread
-  
-A baked food made of flour or meal.
-  
-butter
-  
-A yellow, solid dairy product.
-  
-coffee beans
-  
-The seeds of the fruit from certain coffee trees.</pre>
-
-Note: In HTML4, description lists were called definition lists, so if you hear that term mentioned in conversation, then just assume you are talking about a description list. HTML5 has changed the definition of this type of list to the more general "description list" because designers and developers were all too often using description lists to mark up name/value groups that weren't items and definitions.
-  
-You can have as many name-value groups as you like, but there must be at least one name and at least one value in each pair. You can associate more than one value with a single name, or vice versa. For example, the term "coffee" can have several meanings, and you could show them one after the other:
+Description lists are flexible: you can associate more than one value with a single name, or vice versa. For example, the term "coffee" can have several meanings, and you could show them one after the other:
 
 <pre>coffee
   
-a beverage made from roasted, ground coffee beans
-a cup of coffee
-a social gathering at which coffee is consumed
-a medium to dark brown colour</pre>
+  a beverage made from roasted, ground coffee beans 
+  a cup of coffee
+  a social gathering at which coffee is consumed
+  a medium to dark brown colour</pre>
 
-Alternatively you can have more than one name with the same value. This is useful to show variations of a term, all of which have the same meaning:
+Or, you can associate more than one name with the same value. This is useful to show variations of a term, all of which have the same meaning:
 
 <pre>soda
 pop
 fizzy drink
 cola
 
-a sweet, carbonated beverage.</pre>
+  a sweet, carbonated beverage</pre>
    
-Description lists are different from the other kinds of list, as they use names and values instead of list items. You wrap a description list in one set of <code>&lt;dl&gt;&lt;/dl&gt;</code> elements, wrapped around groups of <code>&lt;dt&gt;&lt;/dt&gt;</code> (name) and <code>&lt;dd&gt;&lt;/dd&gt;</code> (value) tags. You must pair at least one <code>&lt;dt&gt;&lt;/dt&gt;</code> with at least one <code>&lt;dd&gt;&lt;/dd&gt;</code>; a <code>&lt;dt&gt;&lt;/dt&gt;</code> should always come first in the source order.
+==== Description list markup ====
+
+Description lists use one set of <code>&lt;dl&gt;&lt;/dl&gt;</code> tags wrapped around one or more groups of <code>&lt;dt&gt;&lt;/dt&gt;</code> (name) and <code>&lt;dd&gt;&lt;/dd&gt;</code> (value) tags. You must pair at least one <code>&lt;dt&gt;&lt;/dt&gt;</code> with at least one <code>&lt;dd&gt;&lt;/dd&gt;</code>, and the <code>&lt;dt&gt;&lt;/dt&gt;</code> should always come first in the source order.
  
 A simple description list of single names with single values would look like this:
 
@@ -211,30 +195,30 @@ Name
 Name
   Value</pre>
 
-In this example, we associate more than one value with a name, and vice versa:
+In the following example, we associate more than one value with a name, and vice versa:
  
 <syntaxhighlight lang="html5"><dl>
-  <dt>Name</dt>
-  <dd>Value that applies to the preceding name</dd>
-  <dt>Name</dt>
-  <dt>Name</dt>
-  <dd>Value that applies to both of the preceding name</dd>
-  <dt>Name that can have both of the following values</dt>
-  <dd>One value of the name</dd>
-  <dd>Another value of the name</dd>
+  <dt>Name1</dt>
+  <dd>Value that applies to Name1</dd>
+  <dt>Name2</dt>
+  <dt>Name3</dt>
+  <dd>Value that applies to both Name2 and Name3</dd>
+  <dt>Name4</dt>
+  <dd>One value that applies to Name4</dd>
+  <dd>Another value that applies to Name4</dd>
 </dl></syntaxhighlight>
  
-Which would render as follows:
+That code would render like this:
 
-<pre>Name
-  Value that applies to the preceding name
-Name
-Name
-  Value that applies to both of the preceding names
-Name that can have one of the following values
-  One value of the name
-  Another value of the name</pre>
-  
+<pre>Name1
+  Value that applies to Name1
+Name2
+Name3
+  Value that applies to both Name2 and Name3
+Name4
+  One value that applies to Name4
+  Another value that applies to Name4</pre>
+   
 == Choosing between list types ==
  
 When trying to decide what type of list to use, you can usually decide by asking two simple questions:
