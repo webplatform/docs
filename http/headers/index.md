@@ -235,7 +235,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Delta-Base|Delta-Base]]
-| 
+| The entity tag of the base instance against which the delta applies
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Depth|Depth]]
