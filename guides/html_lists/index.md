@@ -284,7 +284,9 @@ A good rule of thumb is, don't nest lists deeper than three levels.
 
 ==Conclusion==
 
-(Let's see if everything works before writing the conclusion.)
+In this article, you saw how different types of HTML lists are used, how they are coded, and explored some basic list options. 
+For more specific information about modifying the appearance and behavior of HTML lists, see [[guides/Styling lists and links|Styling lists and links]].
+
 }}
 {{Notes_Section
 |Usage=
