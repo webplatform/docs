@@ -1,6 +1,6 @@
 {{Page_Title|Styling lists and links}}
 {{Flags
-|State=Almost ready
+|State=Almost Ready
 |Editorial notes=dag
 |Checked_Out=No
 }}
@@ -693,7 +693,6 @@ Figure 31: Screenshot of the example flyout menu.
 == Conclusion ==
  
 A good grasp of styling lists and links is essential for web developers, as they are used everywhere. They are routinely combined to create site navigation; while a clear link style is critical for the ease of use of any site. Bad link styles can be seriously confusing for everyone and may even make a site unusable for some people.
- 
 }}
 {{Notes_Section
 |Usage=
@@ -787,7 +786,6 @@ A good grasp of styling lists and links is essential for web developers, as they
 * [http://alistapart.com/articles/sprites A List Apart: CSS Sprites: Image Slicing’s Kiss of Death]
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/32-styling-lists-and-links/ 32: Styling lists and links], written by [http://www.w3.org/wiki/User:Bbuchana Ben Buchanan]. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
-
 }}
 {{Topics|HTML}}
 {{External_Attribution
