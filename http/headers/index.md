@@ -506,8 +506,8 @@ If the response is identifying another resource, use the Link header with a URI 
 | Request to store a cookie on the user-agent; Obsolete
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
-| [[http/headers/SLUG|SLUG]]
-| 
+| [[http/headers/Slug|Slug]]
+| Specifies a "slug" string to be used in the generation of URLs of new resources. Used by the Atom Publishing Protocol.
 | [http://tools.ietf.org/html/rfc5023 RFC5023]
 |-
 | [[http/headers/SoapAction|SoapAction]]
