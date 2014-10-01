@@ -16,18 +16,18 @@
 In this article you'll learn about one of the most ground-breaking inventions in the history of the Web — links. Links allow the reader of a document to instantly jump from document to document and from server to server. A lot has happened since links were first introduced, but one thing is the 
 same: links are an immensely important part of the web experience and they can make accessing your content easy or hard for your website's visitors, depending on how you use them.
  
-This article explores how to create links that are easy to understand and function in any environment. Further, we'll look at how linking affects your search engine popularity, and you'll get some tips about wording links.
+This article explores how to create links that are easy to understand and function in any environment. Further, we'll look at how linking affects your search engine popularity, and you'll get some tips about wording link text.
 
 == What are links? ==
  
 ''Links'' are parts of an HTML document that point to other resources — other HTML documents, text files, PDF files, etc. Some links are followed 
-automatically by the browser, created using <code>&lt;link&gt;</code> elements (you've already encountered some of those in earlier articles,
+automatically by the browser, created using <code>&lt;link&gt;</code> elements (you've already encountered some of these in earlier articles,
 as when they were used to import CSS files into an HTML document). But generally, when we talk about links we mean those that are created
 by the page author and are optional for the user to activate. These are called ''anchors'', and you add them to the HTML document using the <code>&lt;a&gt;</code> element.
  
 == The anatomy of an anchor ==
  
-You can turn any inline element or text into an anchor link by adding an <code>&lt;a&gt;</code> element around it. For example, in the following HTML document, the text "Opera Software" is a link.
+You can turn any inline element or text into an HTML link by adding an <code>&lt;a&gt;</code> element around it. For example, in the following HTML document, the text "Opera Software" is a link.
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -44,7 +44,7 @@ You can turn any inline element or text into an anchor link by adding an <code>&
 </html></syntaxhighlight>
  
 Visitors activating this link (either by clicking it with a mouse, activating it with the keyboard, or even by voice in some cases) will leave the 
-current page and go to the Opera home page. There are more changes happening to the link itself, and we'll look at them later when we talk about 
+current page and go to the Opera home page. There are more changes happening to the link itself, and we'll look at those later when we talk about 
 link styling.
  
 The anchor tag has several attributes you can add:
@@ -60,15 +60,15 @@ Let's go through the most important attributes first and then talk about what yo
  
 An <code>&lt;a&gt;</code> element can play several roles, depending on which attributes are set. The most common attribute you'll use is the <code>href</code> attribute, which defines what resource the link points to. This attribute can contain different values:
  
-* A URL relative to the current folder, e.g., "../../help/help.html". Two dots means "go up one level in the site folder hierarchy"), or a URL absolute to the server root, e.g., "/help/help.html". A forward slash at the beginning of the URL means the address starts at the root of the folder hierarchy the current page is on.
+* A URL relative to the current folder, e.g., "../../help/help.html" (two dots means "go up one level in the site folder hierarchy"), or a URL absolute to the server root, e.g., "/help/help.html" (a forward slash at the beginning of the URL means the address starts at the root of the folder hierarchy the current page is on).
 * A URL on a different server, for example <nowiki>"ftp://ftp.opera.com/"</nowiki> or <nowiki>"http://developer.yahoo.com/yui"</nowiki>.
-* A fragment identifier or id preceded by a hash sign, e.g., "#menu". This points to a target inside the same document rather than an external URL.
+* A fragment identifier or id preceded by a hash sign, e.g., "#menu". This points to a target inside the current document rather than an external URL.
 * A mixture of URLs and fragment identifiers. That is, you can link directly to a section of a different document by pointing the <code>href</code> attribute to a URL followed by a fragment identifier, for example <nowiki>"http://dev.opera.com/articles/view/new-structural-elements-in-html5/#aside"</nowiki>.
 
 == Creating intra-page navigation with id attributes ==
 
 You can also put an <code>id</code> attribute on an <code>&lt;a&gt;</code> element to make it into a page anchor. Page anchors are 
-intra-page targets for other links on that page. You link to them by putting the ID in the <code>href</code> attribute of another link. For example:
+intra-page ''targets'' for other links on that page. You link to them by putting the ID in the <code>href</code> attribute of another link. For example, here's an anchor coded to be a link target:
 
 <syntaxhighlight lang="html5"><h2><a id="sec1">Section #1</a></h2></syntaxhighlight>
 
@@ -82,7 +82,7 @@ Handily, most browsers today allow you to write this in "shorthand" by putting t
 
 This is much simpler, and we recommend that you do it this way whenever possible.
 
-The following HTML has examples of all the different types of links in it:
+The following HTML contains examples of the different types of links:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -95,7 +95,7 @@ The following HTML has examples of all the different types of links in it:
 <body>
   <h1>Different Links</h1>
 
-  <h2>Example of in-page navigation with fragment identifiers, links and anchors</h2>
+  <h2>Example of in-page navigation with fragment identifiers, links, and anchors</h2>
   <div id="nav">
     <ul id="toc">  <!--Table of Contents-->
       <li><a href="#sec1">Section One</a></li>
@@ -132,10 +132,10 @@ The following HTML has examples of all the different types of links in it:
   <h2>Some other link examples</h2>
 
   <ul>
-    <li><a href="<nowiki>http://dev.opera.com</nowiki>">Opera Developer Network</a></p></li>
-    <li><a href="<nowiki>http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf</nowiki>">Dom Cheatsheet</a></p></li>
-    <li><a href="<nowiki>ftp://get.opera.com/pub/opera/win/</nowiki>">Download different Opera versions</a></li>
-    <li><a href="<nowiki>http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0</nowiki>">Photo of my book</a></li>
+    <li><a href="http://dev.opera.com">Opera Developer Network</a></p></li>
+    <li><a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf">Dom Cheatsheet</a></p></li>
+    <li><a href="ftp://get.opera.com/pub/opera/win/">Download different Opera versions</a></li>
+    <li><a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0">Photo of my book</a></li>
   </ul>
 
   </body>
@@ -178,7 +178,7 @@ example, you could give a small introduction to the content and location of the 
   <h1>Adding extra information with a title attribute</h1>
   <ul>
     <li>Find more information on the <a title="The Yahoo Developer Network is the hub for Yahoo's developer tools"
-     href="<nowiki>http://developer.yahoo.com</nowiki>">Yahoo Developer Network</a>.</li>
+     href="http://developer.yahoo.com">Yahoo Developer Network</a>.</li>
   </ul>
 </body>
 </html>
@@ -197,10 +197,10 @@ Crucial information might be:
 
 === Linking to non-HTML resources — don't make people guess ===
  
-It can be very annoying when you click on a link and your browser does not know what to do with the content the link points to. It is unfortunately 
+It can be very annoying when you click a link and your browser does not know what to do with the content the link points to. It is unfortunately 
 all too common to see websites link to images, PDF documents, and videos without telling their visitors what to expect. 
 Further, the resource might be quite large, which means that visitors might prefer to download it rather than opening it inside the browser, 
-or might prefer to not access it at all.
+or they might prefer to not access it at all.
  
 One of the biggest success factors for a web page is not making users guess what will happen when they perform an action. Instead, tell them 
 directly what effects the action will have. In the case of linked resources, all you need to do is tell your visitors what the linked resource is. 
@@ -218,13 +218,13 @@ Here are some examples:
   <h1>Linking non-HTML resources</h1>
 
   <ul>
-    <li>Find more information on the <a href="<nowiki>http://developer.yahoo.com</nowiki>">Yahoo
+    <li>Find more information on the <a href="http://developer.yahoo.com">Yahoo
       Developer Network site (external)</a></li>
-    <li>Download the <a href="<nowiki>http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf</nowiki>">
+    <li>Download the <a href="http://www.wait-till-i.com/stuff/JavaScript-DOM-Cheatsheet.pdf">
       Dom Cheatsheet (PDF, 85KB)</a></li>
-    <li>Pick and <a href="<nowiki>ftp://get.opera.com/pub/opera/win/</nowiki>">download different Opera
+    <li>Pick and <a href="ftp://get.opera.com/pub/opera/win/">download different Opera
       versions from their FTP (external)</a></li>
-    <li>Check out a <a href="<nowiki>http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0</nowiki>">
+    <li>Check out a <a href="http://farm1.static.flickr.com/56/188791635_0b8bdd808d.jpg?v=0">
       Photo of my book (JPG, 200KB)</a></li>
   </ul>
 
@@ -233,18 +233,18 @@ Here are some examples:
  
 By providing information about linked files and their nature, you leave the decision of what to do with them to your visitors, rather than expecting 
 them to have certain browser settings or pre-installed software. If you mix that information with clever styling you can even make such links look 
-attractive and intuitive, for example, by giving different types of link different easily recognisable icons (see more about this in 
+attractive and intuitive, for example, by giving different types of links easily recognisable icons (see more about this in 
 [[guides/Styling lists and links]]). If you want to be very safe, you can also offer a help section that explains what the different file formats are 
 and where you can get the software needed to display them.
 
-=== External vs. internal links ===
+== External vs. internal links ==
  
 One of the biggest fears for business websites is people leaving the site prematurely. This is often the reason for sites not offering third-party 
 links (unless the third parties pay money for the privilege of having web traffic directed to them). We'll come back to this error in judgment later;
 for now let's talk about what developers can do to help prevent visitors from inadvertantly leaving their sites and how these measures affect the 
 site's success.
  
-== Frames and popups — just say no ==
+=== Frames and popups — just say no ===
  
 The fear of losing visitors to other sites while still wanting to link to them gave us two innovations(?) in web development that have been a thorn 
 in usability's side for years: frames and popups.
@@ -252,11 +252,10 @@ in usability's side for years: frames and popups.
 Using HTML frames means you separate the page shown in the browser into several different documents. The benefit is that the document seemingly stays the same even when you load different content, either from your own server or from third party servers. This is where the usefulness ends, however.
 Simply put, frames provide a terrible user experience. For example, when a site uses frames:
  
-* Search engines cannot index the whole page. In search results, they might instead might show only parts of a page that don't make sense out of context.
-* Visitors cannot bookmark the page in the condition they view it. The next time they open that bookmark they'll get the initial state of the frameset, not the page as they left it.
+* Search engines cannot index the whole page. In search results, they might instead show only parts of a page that don't make sense out of context.
+* Visitors cannot bookmark the page in the condition they view it. The next time they open that bookmark they'll see the initial state of the frameset, not the page as they left it.
 * Visitors who are dependent on assistive technology have a very hard time navigating around framesets.
-* Third-partys might not want their sites to be shown inside a frameset and thus use "framebreaker" scripts that replace framesets with the real URL 
-when you try to embed them. This is also used to stop criminals luring Internet users into entering personal information into a 
+* Third parties might not want their sites to be shown inside a frameset and thus use "framebreaker" scripts that replace framesets with the real URL when you try to embed them. This is also used to stop criminals luring Internet users into entering personal information into a 
 legitimate-looking website ("phishing").
  
 Links inside a frameset use the <code>target</code> attribute of the anchor to target the correct frame. Each frame in a frameset gets a unique name 
@@ -267,12 +266,12 @@ Opening a new browser instance is another common way to link to third party site
 attribute with a value of <code>_blank</code>. The fact that every modern browser comes with a pop-up blocker should give an indication of how 
 unpopular this technique is today!
  
-In short, '''do not use the <code>target</code> attribute when you create links unless you really know what you are doing'''. It is an outdated idea 
-anyway; today, virtually all browsers have tabbed interfaces, so users can easily open third party sites in a different tab
-while they stay on your site. Under certain circumstances you may want to indicate the difference between external and internal links, but always 
+In short, '''do not use the <code>target</code> attribute when you create links unless you know what you are doing'''. It is an outdated idea 
+anyway; today, virtually all browsers have tabbed interfaces, so users can easily open third-party sites in a different tab
+without leaving your site. Under certain circumstances you may want to indicate the difference between external and internal links, but always 
 leave it to the discretion of the visitor what to do with them.
  
-== Benefits of outbound and inbound links ==
+=== Benefits of outbound and inbound links ===
  
 There are several good reasons for linking to third party sites even when they are competitors.
 
@@ -296,8 +295,8 @@ website and choosing <code>Tools &gt; Links</code> from the menu or pressing <co
 links in the document and the resources they point to.
  
 You should also make sure that your page doesn't contain multiple links with the same wording but pointing to different resources. The classic 
-mistake is "click here" links, worded like "To download the latest version of our tool '''click here'''". It's much better to use link text that 
-explains what the link points to. For example, turn that sentence into "You can '''download the latest version of our tool''' and try it out for yourself."
+mistake is "click here" links, worded like "To download the latest version of our tool <u>click here</u>". It's much better to use link text that 
+explains what the link points to. For example, turn that sentence into "You can <u>download the latest version of our tool</u> and try it out for yourself."
  
 The same applies to "more" links. These are often found in news sites, where you see a heading and some teaser text followed by a "more" or 
 "full story" link. The solution to this problem is to either use a linked "more" image with some unique alternative text, or to add a 
