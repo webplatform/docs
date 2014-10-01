@@ -4,8 +4,12 @@
 |Editorial notes=Need to remove compatibility table
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|This article will give a clear understanding of the three different list types in HTML.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article introduces the three list types in HTML and explores their basic features.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -289,7 +293,11 @@ Note how the nested list starts after the <code>&lt;li&gt;</code> and the text o
  
 Theoretically you can nest as many lists as you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -298,6 +306,7 @@ Theoretically you can nest as many lists as you like, although in practice it ca
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://www.alistapart.com/articles/taminglists/ A List Apart: Taming Lists]
 * [http://www.w3.org/TR/REC-CSS2/generate.html#lists W3C CSS2: list-style-type definition]
 |Manual_sections==== Exercise questions ===
