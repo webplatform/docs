@@ -1,4 +1,19 @@
-== Introduction ==
+{{Page_Title|Styling lists and links}}
+{{Flags
+|State=Almost ready
+|Editorial notes=dag
+|Checked_Out=No
+}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|In this article we provide a basic treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
+{{Guide
+|Content=== Introduction ==
+ 
+
  
 Many elements on a webpage are a little bit "forgiving" in terms of design—if they’re not "just right" it doesn’t matter too much. With lists and links it’s a different story—if you don’t get them right, you can cause some serious problems for people trying to use your website.
  
@@ -675,11 +690,87 @@ To illustrate one way to bring lists and links together, the examples zip includ
  
 Figure 31: Screenshot of the example flyout menu.
 
-== Summary ==
+== Conclusion ==
  
 A good grasp of styling lists and links is essential for web developers, as they are used everywhere. They are routinely combined to create site navigation; while a clear link style is critical for the ease of use of any site. Bad link styles can be seriously confusing for everyone and may even make a site unusable for some people.
  
-== Exercise questions ==
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
+|Chrome_supported=Yes
+|Chrome_version=
+|Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=
+|Firefox_supported=Yes
+|Firefox_version=
+|Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=
+|Internet_explorer_supported=Yes
+|Internet_explorer_version=
+|Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=
+|Opera_supported=Yes
+|Opera_version=
+|Opera_prefixed_supported=Yes
+|Opera_prefixed_version=
+|Safari_supported=Yes
+|Safari_version=
+|Safari_prefixed_supported=Yes
+|Safari_prefixed_version=
+}}
+|Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
+|Android_supported=Yes
+|Android_version=1
+|Android_prefixed_supported=Yes
+|Android_prefixed_version=
+|Blackberry_supported=Yes
+|Blackberry_version=
+|Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=
+|Chrome_mobile_supported=Yes
+|Chrome_mobile_version=
+|Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=
+|Firefox_mobile_supported=Yes
+|Firefox_mobile_version=
+|Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=
+|IE_mobile_supported=Yes
+|IE_mobile_version=
+|IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=
+|Opera_mobile_supported=Yes
+|Opera_mobile_version=
+|Opera_mobile_prefixed_supported=Yes
+|Opera_mobile_prefixed_version=
+|Opera_mini_supported=Yes
+|Opera_mini_version=
+|Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_version=
+|Safari_mobile_supported=Yes
+|Safari_mobile_version=
+|Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=
+}}
+|Notes_rows={{Compatibility Notes Row
+|Browser=Opera Mini
+|Version=7
+|Note=Test support
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=== Exercise questions ==
  
 * How do you choose between basic list styles, for example square bullets or Roman Numerals on an ordered list?
 * What is an image sprite and why would you use one?
@@ -697,5 +788,11 @@ A good grasp of styling lists and links is essential for web developers, as they
 
 Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/32-styling-lists-and-links/ 32: Styling lists and links], written by [http://www.w3.org/wiki/User:Bbuchana Ben Buchanan]. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 
-[[Category:Tutorials]]
-[[Category:WSC]]
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
