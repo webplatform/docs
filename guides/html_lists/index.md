@@ -21,33 +21,34 @@ Lists are good from a structural point of view as they help create a well-struct
  
 There are three list types in HTML:
  
-* '''[[Meta:HTML/Elements/ul|unordered list]]''' — used to group a set of related items, in no particular order.
-* '''[[Meta:HTML/Elements/ol|ordered list]]''' — used to group a set of related items, in a specific order.
-* '''[[Meta:HTML/Elements/dl|description list]]''' — used to display name/value pairs such as terms and their definitions, or times and events.
+* '''unordered list''' — used to group a set of related items in no particular order
+* '''ordered list''' — used to group a set of related items in a specific order
+* '''description list''' — used to display name/value pairs such as terms and definitions
  
-Each one has a specific purpose and meaning — they are not interchangeable.
+Each list type has a specific purpose and meaning in a web page.
  
 === Unordered lists ===
  
-Unordered lists, or bulleted lists, are used when a set of items can be placed in any order. An example is a shopping list:
+''Unordered'' (bulleted) lists are used when a set of items can be placed in any order. An example is a shopping list:
  
 * milk
 * bread
 * butter
 * coffee beans
  
-These items are all part of one list, however, you could put the items in any order and the list would still make sense:
+Although the items are all part of one list, you could put the items in any order and the list would still make sense:
  
 * bread
 * coffee beans
 * milk
 * butter
  
-You can use CSS to change the bullet to one of several default styles, use your own image, or even display the list without bullets—we’ll look at how to do that in the [[Styling lists and links]] article.
+You can use CSS to change the bullet to one of several default styles, use your own image, or even display the list without bullets — 
+we'll look at how to do that in the [[guides/Styling lists and links|Styling lists and links]] article.
 
 ==== Unordered list markup ====
  
-Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags, wrapped around many sets of <code>[[Meta:HTML/Elements/li|&lt;li&gt;&lt;/li&gt;]]</code>:
+Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags wrapped around one or more sets of <code>&lt;li&gt;&lt;/li&gt;</code> tags:
  
 <syntaxhighlight lang="html5"><ul>
   <li>bread</li>
