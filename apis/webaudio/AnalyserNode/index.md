@@ -2,7 +2,7 @@
 {{Flags
 |State=Ready to Use
 |Editorial notes=
-|Checked_Out=Yes
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
