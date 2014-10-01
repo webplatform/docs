@@ -167,7 +167,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc6266 RFC6266]
 |-
 | [[http/headers/Content-Encoding|Content-Encoding]]
-| 
+| See also [[http/headers/Transfer-Encoding|Transfer-Encoding]]
 | [http://tools.ietf.org/html/rfc7231#section-3.1.2.2 RFC7231, Section 3.1.2.2]
 |-
 | [[http/headers/Content-ID|Content-ID]]
@@ -547,7 +547,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc7230#section-4.4 RFC7230, Section 4.4]
 |-
 | [[http/headers/Transfer-Encoding|Transfer-Encoding]]
-| 
+| Specifies how the payload has been compressed. See also [[http/headers/Content-Encoding|Content-Encoding]]
 | [http://tools.ietf.org/html/rfc7230#section-3.3.1 RFC7230, Section 3.3.1]
 |-
 | [[http/headers/URI|URI]]
