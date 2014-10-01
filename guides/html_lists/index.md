@@ -219,15 +219,15 @@ Name4
   One value that applies to Name4
   Another value that applies to Name4</pre>
    
-== Choosing between list types ==
+== Choosing among list types ==
  
-When trying to decide what type of list to use, you can usually decide by asking two simple questions:
+When trying to decide what type of list to use, ask yourself two simple questions:
 
 <ol>
   <li>Am I defining terms or associating other name/value pairs?
     <ul>
       <li>If yes, use a description list.</li>
-      <li>If no, don’t use a description list — go on to the next question.</li>
+      <li>If no, don't use a description list.</li>
     </ul>
   </li>
   <li>Is the order of the list items important?
@@ -238,32 +238,33 @@ When trying to decide what type of list to use, you can usually decide by asking
   </li>
 </ol> 
 
-== The difference between HTML lists and text ==
+== HTML list advantages ==
  
-You may be wondering what the difference is between an HTML list and some text with bullets or numbers written in by hand. Well, there are several advantages to using an HTML list:
+* Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements;
+when the browser renders the list, it will be properly ordered.
+* Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags <code>&lt;li&gt;</code> are different
+from the other tags in your document, so you can specifically target CSS rules to them.
+* Semantics: HTML lists give the content the proper semantic structure. This has important benefits, such as allowing screen readers to tell users with visual impairments that they are reading a list, rather than just reading out a confusing jumble of text and numbers.
  
-* If you have to change the order of the list items in an ordered list, you simply move around the list item elements. If you wrote the numbers in manually you would have to go through and change every single item’s number to correct the order — which is tedious to say the least!
-* Using an HTML list allows you to style the list properly - you can use CSS to style just the list elements. If you just use a blob of text, you will find it more difficult to style the individual items in any useful manner, as the elements used will be the same as used for every other piece of text.
-* Using an HTML list gives the content the proper semantic structure, as well as a "list-ish" visual effect. This has important benefits such as allowing screen readers to tell users with visual impairments they are reading a list, rather than just reading out a confusing jumble of text and numbers.
- 
-To put it another way: '''text and lists are not the same'''. Using text instead of a list makes more work for you and can create problems for your document’s readers. So if your document needs a list, you should use the correct HTML list.
+To put it another way: '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
  
 == Nesting lists ==
  
-A list item can contain another entire list — this is known as "nesting" a list. It is useful for things like tables of contents, such as the one at the start of this article:
+An individual list item can contain another entire list, called a ''nested list''. It is useful for things like tables of contents
+that contain sub-sections:
 
-# Chapter One
-## Section One
-## Section Two
-## Section Three
-# Chapter Two
-# Chapter Three
+<pre>1. Chapter One
+    a. Section One
+    b. Section Two
+    c. Section Three
+2. Chapter Two
+3. Chapter Three
  
-The key to nesting lists is to remember that the nested list should relate to one specific list item. To reflect that in the code, the nested list is contained inside that list item. The code for the list above looks something like this:
+To reflect that in the code, the nested list is contained inside that list item. The code for the list above looks like this:
  
 <syntaxhighlight lang="html5"><ol>
   <li>Chapter One
-    <ol>
+    <ol style="list-style-type: lower-alpha;">
       <li>Section One</li>
       <li>Section Two </li>
       <li>Section Three </li>
@@ -272,10 +273,18 @@ The key to nesting lists is to remember that the nested list should relate to on
   <li>Chapter Two</li>
   <li>Chapter Three  </li>
 </ol></syntaxhighlight>
- 
-Note how the nested list starts after the <code>&lt;li&gt;</code> and the text of the containing list item (“Chapter One”); then ends before the <code>&lt;/li&gt;</code> of the containing list item. Nested lists often form the basis for website navigation menus, as they are a good way to define the hierarchical structure of the website.
+
+Note that we have used the <code>list-style-type: lower-alpha</code> CSS property to sequence the nested list with lower-case letters
+instead of decimal numbers.
+
+Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site.
  
 Theoretically you can nest as many lists as you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
+A good rule of thumb is, don't nest lists deeper than three levels.
+
+==Conclusion==
+
+(Let's see if everything works before writing the conclusion.)
 }}
 {{Notes_Section
 |Usage=
