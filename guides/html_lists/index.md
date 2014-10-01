@@ -236,7 +236,17 @@ When trying to decide what type of list to use, ask yourself two simple question
       <li>If no, use an unordered list.</li>
     </ul>
   </li>
-</ol> 
+</ol>
+
+== HTML list advantages ==
+ 
+* Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements;
+when the browser renders the list, it will be properly ordered.
+* Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags <code>&lt;li&gt;</code> are different
+from the other tags in your document, so you can specifically target CSS rules to them.
+* Semantics: HTML lists give the content the proper semantic structure. This has important benefits, such as allowing screen readers to tell users with visual impairments that they are reading a list, rather than just reading out a confusing jumble of text and numbers.
+ 
+To put it another way: '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
 
 }}
 {{Notes_Section
