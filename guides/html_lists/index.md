@@ -7,8 +7,7 @@
 {{Byline}}
 {{Summary_Section|This article introduces the three list types in HTML and explores their basic features.}}
 {{Guide
-|Content
-== Introduction ==
+|Content== Introduction ==
  
 Lists are used to group together related pieces of information, so they are clearly associated with each other and easy to read. In modern web development lists are workhorse elements, frequently used for navigation as well as general content.
  
