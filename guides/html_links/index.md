@@ -4,7 +4,11 @@
 |Editorial notes=Need to remove compatibility table; Fix minor bugs in comments
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|In this article we provide a complete treatment of HTML anchors, or <code>&lt;a&gt;</code> elements, more commonly known as HTML links.}}
 {{Guide
 |Content=== Introduction ==
@@ -51,7 +55,7 @@ Let’s go through the most important attributes first and then talk about what 
 An <code>&lt;a&gt;</code> element can play several roles depending on which attributes are set. The most common attribute you’ll use is the <code>href</code> attribute, which defines what resource the link points to. This attribute can contain different values:
  
 * A URL in the same folder (help.html), relative to the current folder (for example “../../help/help.html” — 2 dots means “go up one level in the site folder hierarchy”) or absolute to the server root (for example “/help/help.html” — having a forward slash at the front of the address means the address starts at the root of the computer the page is on.)
-* A URL on a different server altogether (for example http://wait-till-i.com or ftp://ftp.opera.com/ or http://developer.yahoo.com/yui).
+* A URL on a different server altogether (for example <nowiki>http://wait-till-i.com</nowiki> or ftp://ftp.opera.com/ or http://developer.yahoo.com/yui).
 * A fragment identifier or id name preceded by a hash (for example “#menu”). This points to a target inside the same document.
 * A mixture of URLs and fragment identifiers — you can link directly to a section of a different document by pointing the <code>href</code> attribute to a URL followed by a fragment identifier (for example http://dev.opera.com/articles/view/new-structural-elements-in-html5/#aside).
  
@@ -304,40 +308,71 @@ Here you can see that I've got the <code>&lt;a&gt;</code> element wrapping both 
  
 We covered a lot this time, but it is very important to remember how links work and what they should do. You will learn a lot of tricks and techniques in your career as a web developer to override this default behaviour and I hope you’ll stop and wonder if what you are trying to do is really necessary.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
+|Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=
 |Firefox_prefixed_supported=Yes
+|Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Yes
+|Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=
 |Opera_prefixed_supported=Yes
+|Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=
 |Safari_prefixed_supported=Yes
+|Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=Yes
 |Android_version=1
 |Android_prefixed_supported=Yes
+|Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=
 |Blackberry_prefixed_supported=Yes
+|Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Yes
+|Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
+|Firefox_mobile_version=
 |Firefox_mobile_prefixed_supported=Yes
+|Firefox_mobile_prefixed_version=
 |IE_mobile_supported=Yes
+|IE_mobile_version=
 |IE_mobile_prefixed_supported=Yes
+|IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Yes
+|Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
+|Opera_mini_version=
 |Opera_mini_prefixed_supported=Yes
+|Opera_mini_prefixed_version=
 |Safari_mobile_supported=Yes
+|Safari_mobile_version=
 |Safari_mobile_prefixed_supported=Yes
+|Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Opera Mini
@@ -346,6 +381,8 @@ We covered a lot this time, but it is very important to remember how links work 
 }}
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
  
 * What is wrong with the following link: <code>&lt;a href="report.pdf" title="report as PDF, 2.3MB"&gt;get our latest report&lt;/a&gt;</code>?
