@@ -311,7 +311,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc7233#section-3.2 RFC7233, Section 3.2]
 |-
 | [[http/headers/If-Schedule-Tag-Match|If-Schedule-Tag-Match]]
-| 
+| Part of Scheduling Extensions to CalDAV
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
 | [[http/headers/If-Unmodified-Since|If-Unmodified-Since]]
@@ -463,11 +463,11 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc4229 RFC4229]
 |-
 | [[http/headers/Schedule-Reply|Schedule-Reply]]
-| 
+| Part of Scheduling Extensions to CalDAV
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
 | [[http/headers/Schedule-Tag|Schedule-Tag]]
-| 
+| Part of Scheduling Extensions to CalDAV
 | [http://tools.ietf.org/html/rfc6638 RFC6638]
 |-
 | [[http/headers/Sec-WebSocket-Accept|Sec-WebSocket-Accept]]
