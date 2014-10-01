@@ -151,7 +151,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc7234#section-5.2 RFC7234, Section 5.2]
 |-
 | [[http/headers/Close|Close]]
-| 
+| Not actually a valid header. Reserved to prevent conflicts with [[http/headers/Connection|<code>Connection</code>]]<code>: close</code>
 | [http://tools.ietf.org/html/rfc7230#section-8.1 RFC7230, Section 8.1]
 |-
 | [[http/headers/Connection|Connection]]
