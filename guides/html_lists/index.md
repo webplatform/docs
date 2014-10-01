@@ -218,7 +218,25 @@ Name3
 Name4
   One value that applies to Name4
   Another value that applies to Name4</pre>
-   
+
+== Choosing among list types ==
+ 
+When trying to decide what type of list to use, ask yourself two simple questions:
+
+<ol>
+  <li>Am I defining terms or associating other name/value pairs?
+    <ul>
+      <li>If yes, use a description list.</li>
+      <li>If no, don't use a description list.</li>
+    </ul>
+  </li>
+  <li>Is the order of the list items important?
+    <ul>
+      <li>If yes, use an ordered list.</li>
+      <li>If no, use an unordered list.</li>
+    </ul>
+  </li>
+</ol> 
 
 }}
 {{Notes_Section
