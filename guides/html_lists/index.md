@@ -1,7 +1,7 @@
 {{Page_Title|HTML lists}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Need to remove compatibility table
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -13,7 +13,7 @@
 {{Guide
 |Content=== Introduction ==
  
-Lists are used to group together related pieces of information, so they are clearly associated with each other and easy to read. In modern web development lists are workhorse elements, frequently used for navigation as well as general content.
+Lists are used to group together related pieces of information so they are clearly associated with each other and easy to read. In modern web development, lists are workhorse elements, frequently used for navigation as well as general content.
  
 Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. They are also useful because they provide specialized elements to which you can attach CSS styles. Finally, semantically correct lists help visitors read your web site, and they simplify maintenance when your pages need to be updated.
 
@@ -113,7 +113,7 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags wrapped aro
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
-A common requirement in ordered list usage is to get them to start with a number other than 1 (or i, or I, etc.). This is done using the <code>start</code> attribute, which takes a numeric value (even if you're using CSS to change the list counters to be alphabetic or Roman). This is useful if you have a single list of items, but need to break the list up with some kind of note or other related information. For example, we could do this with the previous example:
+A common requirement in ordered list usage is to get them to start with a number other than 1 (or i, or I, etc.). This is done using the <code>start</code> attribute, which takes a numeric value (even if you're using CSS to change the list counters to be alphabetic or Roman). This is useful if you have a single list of items, but need to break up the list with a note or other related information. For example, we could do this with the previous example:
 
 <syntaxhighlight lang="html5"><ol>
   <li>Gather ingredients</li>
@@ -121,7 +121,8 @@ A common requirement in ordered list usage is to get them to start with a number
   <li>Place ingredients in a baking dish</li>
 </ol>
 
-<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
+<p>Before you place the ingredients in the baking dish, preheat the oven to 
+180 degrees centigrade/350 degrees fahrenheit in readiness for the next step.</p>
 
 <ol start="4">
   <li>Bake in oven for an hour</li>
@@ -138,7 +139,7 @@ This gives the following result:
   <li>Place ingredients in a baking dish</li>
 </ol>
 
-<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
+<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step.</p>
 
 <ol start="4">
   <li>Bake in oven for an hour</li>
@@ -218,7 +219,7 @@ Name3
 Name4
   One value that applies to Name4
   Another value that applies to Name4</pre>
-
+  
 == Choosing among list types ==
  
 When trying to decide what type of list to use, ask yourself two simple questions:
@@ -236,18 +237,16 @@ When trying to decide what type of list to use, ask yourself two simple question
       <li>If no, use an unordered list.</li>
     </ul>
   </li>
-</ol>
+</ol> 
 
 == HTML list advantages ==
  
-* Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements;
-when the browser renders the list, it will be properly ordered.
-* Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags <code>&lt;li&gt;</code> are different
-from the other tags in your document, so you can specifically target CSS rules to them.
+* Flexibility: If you have to change the order of the list items in an ordered list, you simply move around the list item elements; when the browser renders the list, it will be properly ordered.
+* Styling: Using an HTML list allows you to style the list properly using CSS. The list item tags <code>&lt;li&gt;</code> are different from the other tags in your document, so you can specifically target CSS rules to them.
 * Semantics: HTML lists give the content the proper semantic structure. This has important benefits, such as allowing screen readers to tell users with visual impairments that they are reading a list, rather than just reading out a confusing jumble of text and numbers.
  
-To put it another way: '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
-
+To put it another way, '''don't code list items using regular text tags'''. Using text instead of a list makes more work for you and can create problems for your document's readers. So if your document needs a list, you should use the correct HTML list format.
+ 
 == Nesting lists ==
  
 An individual list item can contain another entire list, called a ''nested list''. It is useful for things like tables of contents
@@ -277,9 +276,10 @@ To reflect that in the code, the entire nested list is contained inside the firs
 Note that we have used the <code>list-style-type: lower-alpha</code> CSS property to sequence the nested list with lower-case letters
 instead of decimal numbers.
 
-Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site.
+Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site. They are also very flexible, as either ordered or unordered lists can be nested inside either ordered or unordered list items. For an example
+of nesting unordered lists within an ordered list, see "Choosing among list types" above.
  
-Theoretically you can nest as many lists as you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
+Theoretically you can nest lists to any level you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages.
 A good rule of thumb is, don't nest lists deeper than three levels.
 
 ==Conclusion==
