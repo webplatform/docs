@@ -5,7 +5,7 @@
 |Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section|This article will give a clear understanding of the three different list types in HTML.}}
+{{Summary_Section|This article will give an understanding of the three different list types in HTML.}}
 {{Guide
 |Content=== Introduction ==
  
