@@ -59,7 +59,7 @@ Unordered lists use one set of <code>&lt;ul&gt;&lt;/ul&gt;</code> tags wrapped a
 
 === Ordered lists ===
  
-Ordered lists, or numbered lists, are used to display a list of items that need to be placed in a specific order. An example would be cooking instructions, which must be completed in order for the recipe to work:
+''Ordered'' (numbered) lists are used to display a list of items that should be in a specific order. An example would be cooking instructions:
  
 # Gather ingredients
 # Mix ingredients together
@@ -79,7 +79,7 @@ If the list items were moved around into a different order, the information woul
 # Allow to stand for ten minutes
 # Mix ingredients together
  
-Ordered lists can be displayed with one of several numbering or alphabetic systems—that is, letters or numbers. The default in most browsers is decimal numbers, but there are more options:
+Ordered lists can be displayed with several sequencing options. The default in most browsers is decimal numbers, but there are others available:
  
 * Letters
 ** Lowercase ascii letters (a, b, c…)
@@ -93,11 +93,12 @@ Ordered lists can be displayed with one of several numbering or alphabetic syste
 ** Traditional Georgian numbering (an, ban, gan…)
 ** Traditional Armenian numbering (mek, yerku, yerek…)
  
-Again, you can use CSS to change the style of your ordered lists.
+As with unordered lists, you can use CSS to change the style of your ordered lists.
+See [[guides/Styling lists and links|Styling lists and links]] for more information.
  
 ==== Ordered list markup ====
  
-Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped around many sets of <code>&lt;li&gt;&lt;/li&gt;</code>:
+Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags wrapped around one or more sets of <code>&lt;li&gt;&lt;/li&gt;</code> tags:
 
 <syntaxhighlight lang="html5"><ol>
   <li>Gather ingredients</li>
@@ -112,7 +113,7 @@ Ordered lists use one set of <code>&lt;ol&gt;&lt;/ol&gt;</code> tags, wrapped ar
  
 ==== Beginning ordered lists with numbers other than 1 ====
  
-It is possible to get an ordered list to start with a number other than 1 (or i, or I, etc.). This is done using the <code>start</code> attribute, which takes a numeric value, even if you’re using CSS to change the list counters to be alphabetic or roman. This is useful if you have a single list of items, but you want to break the list up with some kind of note, or some other related information. For example, we could do this with the previous example:
+A common requirement in ordered list usage is to get them to start with a number other than 1 (or i, or I, etc.). This is done using the <code>start</code> attribute, which takes a numeric value (even if you're using CSS to change the list counters to be alphabetic or Roman). This is useful if you have a single list of items, but need to break the list up with some kind of note or other related information. For example, we could do this with the previous example:
 
 <syntaxhighlight lang="html5"><ol>
   <li>Gather ingredients</li>
@@ -120,7 +121,7 @@ It is possible to get an ordered list to start with a number other than 1 (or i,
   <li>Place ingredients in a baking dish</li>
 </ol>
 
-<p class="note">Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
+<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
 
 <ol start="4">
   <li>Bake in oven for an hour</li>
@@ -137,7 +138,7 @@ This gives the following result:
   <li>Place ingredients in a baking dish</li>
 </ol>
 
-<p class="note">Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
+<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step</p>
 
 <ol start="4">
   <li>Bake in oven for an hour</li>
@@ -146,7 +147,7 @@ This gives the following result:
   <li>Serve</li>
 </ol>
  
-Note that this attribute was deprecated in HTML 4, so it will make your page not validate if you are using an HTML4 strict doctype. If you want to make use of such functionality in an HTML4 strict page, and it absolutely has to validate, you can do it using [http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ CSS Counters] instead. The <code>start</code> attribute has, however, been reinstated in HTML5, which is a good thing, as it is useful.
+Note that this attribute was deprecated in HTML 4, so it will prevent your page from validating if you are using an HTML4 strict doctype. If you want to make use of such functionality in an HTML4 strict page, and it absolutely has to validate, you can do it using [http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ CSS Counters] instead. Fortunately, however, the <code>start</code> attribute has been reinstated in HTML5.
 
 === Description lists === 
  
