@@ -215,7 +215,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
 | [[http/headers/Cookie2|Cookie2]]
-| Declares a stored cookie value to the server
+| Declares a stored cookie value to the server; Obsolete
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
 | [[http/headers/DASL|DASL]]
@@ -503,7 +503,7 @@ If the response is identifying another resource, use the Link header with a URI 
 | [http://tools.ietf.org/html/rfc6265 RFC6265]
 |-
 | [[http/headers/Set-Cookie2|Set-Cookie2]]
-| Request to store a cookie on the user-agent
+| Request to store a cookie on the user-agent; Obsolete
 | [http://tools.ietf.org/html/rfc2965 RFC2965][http://www.iana.org/go/rfc6265 RFC6265]
 |-
 | [[http/headers/SLUG|SLUG]]
