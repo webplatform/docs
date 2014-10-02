@@ -1,7 +1,7 @@
 {{Page_Title|Images in HTML}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Move Candidate
 }}
@@ -16,32 +16,40 @@
 |Prev_page=
 |Content=== Introduction ==
  
-In this article we will discuss one of the things that makes web design pretty — images. At the end of this tutorial you’ll know how to add imagery to web documents in an accessible way (so that people with visual impairments can still use the information on your site) and how and when to use inline images for delivering information or background images for page layout. You can [http://dev.opera.com/articles/view/17-images-in-html/code.zip download the example files used in this article here] — we'll look at these files over the course of the tutorial.
+In this article we will discuss one of the things that makes web design "pretty" &mdash; images. You'll learn how to add imagery to web documents in 
+an accessible way so that people with visual impairments can still use the information on your site, how and when to use inline images to deliver
+information, and how to use background images for page layout. 
 
-== A picture says more than a thousand words — or does it? ==
+== A picture says more than a thousand words &mdash; or does it? ==
  
-It is very tempting to use a lot of imagery on your web sites. Images are a great way to set the mood for the visitor and illustrations are a nice way to make complex information easier to take in for visual learners.
+It is tempting to use a lot of imagery on your web sites. Images are a great way to set the mood for the visitor, and illustrations 
+help make complex information easier to take in for visual learners.
  
-The drawback of images on the web is that not everybody who surfs the web can see them. Back in the days when images were first supported by browsers, many site visitors had images turned off to save on download costs and get a faster surfing experience — web connections used to be very slow, and you’d pay a lot of money for each minute you were online. While this is not very common these days, there are still other problems to consider:
+The drawback of images on the web is that not everybody can see them. Back in the days when images were first supported by browsers, 
+web connections were slow, and you'd pay a lot of money for each minute you were online. Many site 
+visitors had images turned off to save on download costs and get a faster surfing experience. While this is not very common these days, 
+there are still other problems to consider:
  
-* People surfing on mobile devices might still have images turned off because of small screens and the cost of downloading data.
-* Visitors of your site might be blind or visually impaired to such a degree that they cannot see your images properly or at all.
+* People surfing on mobile devices might still have images turned off due to small screen size or the cost of downloading data.
+* Visitors to your site might be visually impaired such that they cannot see your images properly or at all.
 * Other visitors might be from a different culture and not understand the icons or diagrams you use.
-* Search engines only index text — they don’t analyze images (yet), which means that information stored in images cannot be found and indexed.***
-(***Updates needed - See this section's comments or try searching: "image indexing" or "search by image" for additional information regarding the latest on image indexing.)
+* Search engines only index text &mdash; they don't analyze images, which means that information stored in images cannot be found and indexed. (At least, not yet: try searching "image indexing" or "search by image" for additional information regarding the latest on image indexing.)
  
-It is therefore very important to choose images wisely and only use them when appropriate. It is even more important to make sure you always offer a fallback for those who cannot see your images. There is more on the problems of wrongly used icons and images in the [[Creating multiple pages with navigation menus]] tutorial later on in the series. For now, let’s see what technologies are available to add images to an HTML document.
+It is therefore very important to choose images wisely and only use them when appropriate. It is even more important to always offer a fallback for 
+users who cannot see your images. Let's see what technologies are available to add images to an HTML document.
 
-== Different types of images on the web — content and background images ==
+== Content and background images ==
  
-There are two main ways to add images to a document: content images using the <code>&lt;img&gt;</code> element and background images applied to elements using CSS. When to use what is dependent on what you want to do:
+There are two main ways to add images to a document: content images using the <code>&lt;img&gt;</code> element, and background images applied to elements using CSS. Which to use depends on your intent:
 
-# If the image is crucial to the content of the document, for example a photo of the author or a graph showing some data, it should be added as an <code>&lt;img&gt;</code> element with proper alternative text.
-# If the image is there as “eye candy” you should use CSS background images. These images should not have any alternative text (what use is “round green corner with a twinkle” to a blind person?) and you have a lot more options to deal with image styling in CSS than in HTML.
+* If the image is crucial to the content of the document, such as a photo of the author or a data graph, it should be added as an <code>&lt;img&gt;</code> element with proper alternative text.
+* If the image is there strictly for aesthetic purposes, you should use a CSS background image. These images should not have any alternative text (what use is the description "round green corner with a twinkle" to a blind person?) and you have more options for image styling in CSS.
  
 == The <code>&lt;img&gt;</code> element and its attributes ==
  
-Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element: you include the location of the image you want to display inside a <code>src</code> (source) attribute, and away you go. The following HTML document ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexample.html inlineimageexample.html] in the zip file) displays the photo balconyview.jpg in a browser (provided that you have the image in the same folder as the HTML file.)
+Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</code> element: you specify the location of the image you want 
+to display as the value of the <code>src</code> (source) attribute, and away you go. The following HTML document displays the photo 
+balconyview.jpg in a browser (provided that the image is in the same folder as the HTML file).
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -55,19 +63,25 @@ Adding an image to an HTML document is very easy using the <code>&lt;img&gt;</co
 </body>
 </html></syntaxhighlight>
  
-If you run this code in a browser, you’ll get an output as shown in Figure 1.
+If you run this code in a browser, you'll get output like this:
 
 [[Image:images-f.jpg|the image displayed in a browser]] 
 
-Figure 1: The image as it is shown in a browser.
+''Figure 1: The image as it is shown in a browser.''
  
 === Providing a text alternative with the alt attribute ===
  
-This displays the image fine, however, it is invalid HTML because the <code>&lt;img&gt;</code> element needs an <code>alt</code> attribute. This attribute contains text that is displayed if the image is not available for some reason. The image may not be available because it could not be found, loaded or because the user agent (normally a browser) does not support images. In addition, people with visual impairments use assistive technologies to read web pages to them. These technologies will read the contents of the <code>alt</code> attribute of <code>&lt;img&gt;</code> elements out to their users. It is therefore important to write good alternative text to describe the contents of the image and put it in the <code>alt</code> attribute.
+Although the image is displayed correctly, the HTML is invalid because the <code>&lt;img&gt;</code> element lacks an <code>alt</code> attribute. 
+This attribute contains text to be is displayed if the image is not available for some reason. The image may not be available because it could 
+not be found, failed to load, or because the user agent (normally a browser) does not support images. In addition, people with visual impairments 
+use assistive technologies to read web pages aloud; these technologies look for the contents of the <code>alt</code> attribute 
+to describe the image. It is therefore important to write good alternative text to describe the contents of the image and put it in the 
+image's <code>alt</code> attribute for reasons of accessibility and search engine optimization.
 
-You’ll find a lot of texts on the web talking about “alt tags”. This is factually wrong as there is no tag (or element) with that name. It is an attribute of the <code>&lt;img&gt;</code> element and amazingly important both for accessibility and search engine optimization.
+A quick note: Many web pages &mdash; and web authors &mdash; use the term "alt tags". This is factually incorrect, as there is no tag (or element) 
+with that name. Remember that <code>alt</code> is an ''attribute'' of the <code>&lt;img&gt;</code> element, not a tag.
  
-In order to make the image understandable for everybody you need to add a proper alternative text, for example in this case “View from my balcony, showing a row of houses, trees and a castle” ([http://dev.opera.com/articles/view/17-images-in-html/inlineimageexamplealt.html inlineimageexamplealt.html]):
+Thus, in order to make the image understandable for everyone, you must always include  proper alternative text, as in this example, "View from my balcony, showing a row of houses, trees and a castle":
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -81,11 +95,18 @@ In order to make the image understandable for everybody you need to add a proper
 </body>
 </html></syntaxhighlight>
  
-The <code>alt</code> attribute contains the text that should be displayed when the image is not available. The information in the <code>alt</code> attribute should not be displayed when the image was successfully loaded and shown; Internet Explorer gets this wrong, and shows it as a tooltip when you hover your mouse pointer over the image for a while. This is a mistake, as it leads a lot of people to add additional information about the image into the <code>alt</code> attribute. If you wanted to add additional information, you should use the <code>title</code> attribute instead, which I’ll get on to in the next section.
+=== Adding "nice-to-have" information using the <code>title</code> attribute ===
  
-=== Adding nice-to-have information using the title attribute ===
+The <code>alt</code> attribute contains the text that should be displayed when the image is not available. The information in the <code>alt</code> 
+attribute should not be displayed when the image is successfully loaded; Internet Explorer gets this wrong, and shows it as a tooltip when 
+you hover your mouse pointer over the image. Unfortunately, many authors consider this the default, which leads them
+to add additional information about the image into the <code>alt</code> attribute. Please don't do this; if you want to add extra
+information about the image, use the <code>title</code> attribute instead.
  
-Most browsers will display the value of an <code>&lt;img&gt;</code> element’s <code>title</code> attribute as a tool-tip when you hover your mouse cursor over it (see Figure 2.) This can help a visitor learn more about the image, but you cannot rely on each visitor to have a mouse. The <code>title</code> attribute can be very useful, but it is not a safe way of providing crucial information. Instead it offers a good way to provide non-essential information, for example the mood of the image, or what it means in context ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagewithtitle.html inlineimagewithtitle.html]):
+Most browsers display the value of an <code>&lt;img&gt;</code> element's <code>title</code> attribute as a tooltip when you hover your mouse cursor 
+over it (see Figure 2). This can help a visitor learn more about the image, but you cannot rely on every visitor to use a mouse. The 
+<code>title</code> attribute can be very useful, but it is not a foolproof way of providing crucial information. Instead, it offers a good way to 
+provide non-essential information, such as the mood of the image, or what it means in context:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -99,17 +120,19 @@ Most browsers will display the value of an <code>&lt;img&gt;</code> element’s 
 </body>
 </html></syntaxhighlight>
  
-If you load this code in your browser, you will see the display shown in Figure 2.
+This code will display like this:
 
 [[Image:images-g.jpg|title attribute contents shown as a tool tip]]
 
-Figure 2: <code>title</code> attributes are shown as tool tips in a lot of browsers.
+''Figure 2: <code>title</code> attributes are shown as tool tips in many browsers.''
  
 === Using <code>longdesc</code> to provide an alternative for complex images ===
  
-If the image is a very complex image, like for example a chart, you can offer a more lengthy description of it using the <code>longdesc</code> attribute, so that people using screen readers or browsing with images turned off can still access the information conveyed by the image.
+If the image is very complex, such as a chart or diagram, you can offer a more lengthy description of it using the <code>longdesc</code> attribute, 
+so that people using screen readers or browsing with images turned off can still access the information conveyed by the image.
 
-This attribute contains a URL that points to a document containing the same information. For example, if you have a chart showing a set of data, you can link it to a data table with the same information using <code>&lt;longdesc&gt;</code> ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagelongdesc.html inlineimagelongdesc.html]):
+This attribute contains a URL that points to an HTML document containing the same information. 
+For example, if you have a chart showing a set of data, you can link it to a page with the same information using <code>&lt;longdesc&gt;</code>:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -123,7 +146,7 @@ This attribute contains a URL that points to a document containing the same info
 </body>
 </html></syntaxhighlight>
  
-The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsumption.html fruitconsumption.html] contains a very simple data table that represents the same data:
+The data file "fruitconsumption.html" contains a table that represents the same data as the chart:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -151,17 +174,23 @@ The data file [http://dev.opera.com/articles/view/17-images-in-html/fruitconsump
 </body>
 </html></syntaxhighlight>
  
-The two different data representations side by side look like that seen in Figure 3.
+The two different data representations side-by-side look like this:
 
 [[Image:images-h.jpg|A document next to its longdesc output]] 
 
-Figure 3: You can link a document with complex data to an image by using the <code>longdesc</code> attribute.
+''Figure 3: A document with complex data linked to an image using the <code>longdesc</code> attribute.''
  
-Note that there is no visual clue that there is a long description file connected with this image. Assistive technologies however will let their users know there is an alternative available. Some people think that <code>longdesc</code> is pointless, and that you should just provide an alternative linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations however where you'll want to not show the text link by default.
+Note that there is no visual clue that there is a long description file connected with this image. Most assistive technologies, however, 
+will let their users know there is an alternative available. Some people think that <code>longdesc</code> is pointless, and that you should just 
+provide an alternative page linked via a normal link. This may be appropriate sometimes, as it is often useful to give all users a choice of how they consume your information. There are situations, however, where you'll want to not show the text link by default.
 
 === Faster image display by defining the dimensions using width and height ===
  
-When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it starts loading the image the <code>src</code> attribute points to. By default, it doesn’t know the image’s dimensions, so it’ll just display all the text lumped together, then shift the rest of the document around when the images finally load and appear. This can slow down page loading and looks a bit confusing and unsightly to page visitors that see it happening. To stop this you can tell the browser to allocate the right amount of space for the images before they load by giving it the image’s dimensions using the <code>width</code> and <code>height</code> attributes ([http://dev.opera.com/articles/view/17-images-in-html/inlineimagewithdimensions.html inlineimagewithdimensions.html]):
+When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it starts loading the image the <code>src</code> attribute points to. 
+By default, it doesn't know the image dimensions, so it will just display all the loaded text lumped together, and then shift it around when the 
+images finally load and appear. This can slow down page loading, and looks unsightly (to say the least) to page visitors. 
+To prevent this, just tell the browser to allocate the right amount of space for the images before they load by providing
+the image dimensions using the <code>width</code> and <code>height</code> attributes:
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -175,13 +204,25 @@ When the user agent finds an <code>&lt;img&gt;</code> element in the HTML, it st
 </body>
 </html></syntaxhighlight>
  
-This will display a placeholder the same size as the image until the image loads and takes up its place, therefore avoiding the unsightly page shift. You can also resize images using these attributes (try halving the attribute values in the above example, saving it, and then reloading the page), but this is not a good idea as the quality of resizing is not smooth in all browsers. It is especially bad to resize images to become thumbnails, as the idea of thumbnails is that you not only have a smaller image in physical size, but also in file size. Nobody wants to load a 300KB photo just to see a small image that could be 5KB.
+This will display a placeholder the same size as the image until the image actually loads and takes up its place, therefore avoiding the unsightly 
+and unprofessional page shift. '''Always''' include the <code>width</code> and <code>height</code> attributes on your images.
+
+You can also resize images using these attributes (try halving the attribute values in the above example), but this is not good practice,
+as image resizing quality is not smooth in all browsers. It is especially bad to resize images to represent thumbnails, because the idea of 
+thumbnails is to not only have a smaller image in physical size, but also in file size. Nobody wants to load a 300K photo just to see a 
+small image that could have been sent as a 5K file.
 
 == Containing images properly using HTML5 &lt;figure&gt; ==
 
-One problem that has always existed with HTML images is the choice of what container element to put them in. After all, images are inline elements by default: they won't force line breaks between the content before and after them. This is fine for cases where you, say, want to put a small icon next to a piece of text, but you'll more commonly want an image to sit on its own line in its containing column, for example in a blog post or image gallery. You could describe this as making the image into a separate Figure.
+One problem that has always existed with HTML images is the choice of what container element to put them in. After all, images are inline 
+elements by default: they don't force line breaks before and after themselves. This is fine for cases where you want to put a small icon 
+next to a piece of text, but you'll more often want an image to sit on its own line in the page. You could describe this usage as making the 
+image into a separate ''figure''.
 
-In HTML4, the most common thing to do to achieve this is put the image inside a <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code>, but neither of these is ideal - an image isn't a paragraph, and a division is semantically anonymous. Taking this on board, the creators of HTML5 introduced a special element to take care of this: <code>&lt;figure&gt;</code>. This element is designed to contain a figure, which could be an image, two images, or a combination of several multimedia elements, text, or other stuff. Let's look at an example:
+In HTML4, the most common way to achieve this is to put the image inside a <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code>, 
+but neither of these is ideal &mdash; an image isn't a paragraph, and a division is semantically ambiguous. Realizing this, the creators of HTML5 
+introduced a new element that solves the problem: <code>&lt;figure&gt;</code>. This element is specifically designed to contain a figure, 
+which could be an image, two images, or a combination of several multimedia elements, text, or other content. Let's look at an example:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -211,7 +252,9 @@ In HTML4, the most common thing to do to achieve this is put the image inside a 
 
 == Proper captions using HTML5 &lt;figcaption&gt; ==
 
-Another new addition to HTML5 is an element for containing figure captions. Previously this was done using <code>&lt;p&gt;</code>, or some other not wholly appropriate element, but now we have the <code>&lt;figcaption&gt;</code> element. Nested inside a <code>&lt;figure&gt;</code>, it says "this is the caption to go along with the contents of this figure." For example:
+Another new addition to HTML5 is an element for containing figure captions. Previously this was done using <code>&lt;p&gt;</code> 
+or some other not-wholly-appropriate element, but now we have the <code>&lt;figcaption&gt;</code> element. Nested inside a 
+<code>&lt;figure&gt;</code>, it says "this is the caption to go along with the contents of this figure." For example:
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
 
@@ -228,37 +271,60 @@ Another new addition to HTML5 is an element for containing figure captions. Prev
 
 </html></syntaxhighlight>
 
-Note that the contents of the figure caption do not necessarily act as a replacement for the contents of the <code>alt</code> attribute or the <code>title</code> attribute: it depends on whether the caption accurately describes everything in the image or not, or provides the same supplementary information that the <code>title</code> attribute does. In this case, we need an <code>alt</code> attribute as well, as sighted users can see what is in the image by looking at it. The <code>alt</code> attribute says exactly what the image contains for the benefit of people who can't see it, while the caption gives some more context.
-
-Note: this example can be found at [http://dev.opera.com/articles/view/17-images-in-html/figandfigcaption.html inlineimagewithdimensions.html]
+Note that the contents of the figure caption do not necessarily act as a replacement for the contents of the <code>alt</code> attribute or the 
+<code>title</code> attribute: it depends on whether the caption accurately describes everything in the image, or provides the same supplementary 
+information that the <code>title</code> attribute does. In this case, we need an <code>alt</code> attribute as well, as sighted users can see what 
+is in the image by looking at it. The <code>alt</code> attribute says exactly what the image contains for the benefit of users who can't see it, 
+while the caption gives some more context.
 
 == Background images with CSS ==
  
-It is pretty safe to say that web design became a lot more fun when browsers started supporting CSS. Instead of hacking around in the HTML using table cells for positioning items on the page, non-breaking-spaces (&amp;nbsp;) to preserve spacing, and spacer GIFs (transparent 1x1 pixel GIF images that were resized to create margins) we can now use padding, margin, dimensions and positioning in CSS and leave the HTML free to just worry about the content structure.
+It is pretty safe to say that web design became a lot more fun when browsers started supporting CSS. Instead of hacking around in the HTML using 
+table cells for positioning items on the page, non-breaking spaces (&amp;nbsp;) to preserve spacing, and spacer GIFs 
+(transparent 1x1 pixel GIF images that were resized to create margins), we can now use padding, margin, dimensions, and positioning in CSS 
+and leave the HTML free to just worry about the content structure.
  
-CSS also means you can use background images in a very versatile way — you can position them behind and around your text any way you want, and also repeat images in regular patterns to create backgrounds. I’ll only cover CSS images briefly here, as a proper treatment is provided by [[CSS background images]].
+CSS also means you can use background images in a very versatile way &mdash; you can position them behind and around your text any way you want, 
+and also repeat images in regular patterns to create backgrounds. Before closing, we'll cover CSS images briefly.
  
 === How to apply backgrounds with CSS ===
  
-The CSS to apply images as backgrounds is pretty easy. Before you look at the CSS code below, load the [http://dev.opera.com/articles/view/17-images-in-html/imagesandcss.html imagesandcss.html] example file in your browser, or look at Figure 4 to get an idea of all the different things that are possible with background images in CSS.
+The CSS to apply images as backgrounds is fairly straightforward. Before you look at the CSS code below, 
+have a look at this multiple example to get an idea of the different things that are possible with background images in CSS:
 
 [[Image:images-f.gif|CSS background examples]]
-Figure 4: Backgrounds with CSS.
+
+''Figure 4: Backgrounds with CSS.''
  
-The different boxes are actually styled <code>&lt;h2&gt;</code> heading elements with some padding and borders applied through CSS to give us enough space to show the background image. If you check out the HTML file, you’ll see that each <code>&lt;h2&gt;</code> element has a unique <code>id</code> so each one can have a different CSS rule applied to it. The CSS for the first example is the following:
+The boxes are actually styled <code>&lt;h2&gt;</code> elements with some padding and borders applied with CSS to allow space for the 
+background image. The CSS for the first example is:
  
 <syntaxhighlight lang="css">background-image:url(ball.gif);</syntaxhighlight>
  
-You add the image with the <code>background-image</code> property and give it a URL in parenthesis to specify the image to be included. By default, background images will be repeated both horizontally and vertically to fill up the whole element space. You can however define a different repetition with the <code>background-repeat</code> property:
+You add the image with the <code>background-image</code> property and give it a URL in parentheses to specify the image to be included. 
+By default, background images are repeated both horizontally and vertically to fill up the whole element space. You can
+define a different repetition scheme with the <code>background-repeat</code> property:
  
-* Don’t repeat the image at all: <code>background-repeat:no-repeat;</code>
-* Just repeat the image horizontally: <code>background-repeat:repeat-x;</code>
-* Just repeat the image vertically: <code>background-repeat:repeat-y;</code>
+* Don't repeat the image at all: <code>background-repeat:no-repeat;</code>
+* Only repeat the image horizontally: <code>background-repeat:repeat-x;</code>
+* Only repeat the image vertically: <code>background-repeat:repeat-y;</code>
  
-By default the background image (if not repeated) will be positioned at the top and left corner of the element. You can however use <code>background-position</code> to move the background image around. The easiest values to choose are <code>top</code>, <code>center</code>, and <code>bottom</code> for the vertical alignment and <code>left</code>, <code>center</code>, and <code>right</code> for the horizontal alignment. For example, to position the image on the bottom right you need to use 
-<code>background-position:right bottom;</code>, while to center the image vertically and apply it to the right you would use <code>background-position:right center;</code>.
+By default, the background image (if not repeated) will be positioned at the top left corner of the element. 
+You can, however, use <code>background-position</code> to move the background image around. The easiest values to use are <code>top</code>, 
+<code>center</code>, and <code>bottom</code> for vertical alignment, and <code>left</code>, <code>center</code>, and <code>right</code> for 
+horizontal alignment. For example, to position the image on the bottom right, use 
+<code>background-position:right bottom;</code>, while to center the image vertically on the right use 
+<code>background-position:right center;</code>.
  
-By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
+By controlling the repetition and the position of background images and using clever images you can create stunning effects that were not possible 
+before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by
+changing a few lines of code. 
+
+==Conclusion==
+HTML images are a powerful and flexible way to provide non-textual information, enhance the value of other content, and 
+improve the visual attractiveness of your pages. Combining tried-and-true techniques with new HTML5 elements and attributes
+can help ensure that your web pages are useful, interesting, and accessible.
+
 }}
 {{Notes_Section
 |Usage=
