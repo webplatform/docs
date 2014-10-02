@@ -13,7 +13,7 @@
 {{Guide
 |Content=== Introduction ==
 Ack! &mdash; how do you use web standards to organize reams of data? The very idea of using tons of nested elements to get all your data 
-into nice little rows and boxes might to put your brain into panic mode, but there is a solution &mdash; HTML tables to the rescue!
+into nice little rows and boxes might put your brain into panic mode, but there is a solution &mdash; HTML tables to the rescue!
  
 In web design, tables are a good way to organize data into a tabular form. You see them all the time on websites, whether they are giving a summary or comparison of political election results, sports statistics, price comparisons, size charts, or other data.
  
@@ -22,6 +22,10 @@ tables were used as a way to lay out web pages &mdash; to create columns, boxes,
 This is, of course, the wrong way to go about it; using tables for page layout results in bloated, messy pages with tons of nested tables
 that produce larger file sizes, are hard to code initially, and nearly impossible to maintain later. 
 Today, you should only use tables for presenting tabular data, and use CSS to control page layout.
+
+From an information design standpoint, tables always serve one of two functions: 
+they either reflect the structure of organized data, or they impart structure to unorganized data.
+If an HTML table doesn't do one of those jobs, it probably shouldn't be a table.
 
 == The most basic table ==
  
@@ -85,10 +89,11 @@ Let's start by breaking down the HTML markup used in the above code:
  
 * <code>&lt;table&gt;&lt;/table&gt;</code>:  The <code>&lt;table&gt;</code> wrapper element tells the browser that the content is a table.
 * <code>&lt;tr&gt;&lt;/tr&gt;</code>:  The <code>&lt;tr&gt;</code> element establishes a table row. This allows the browser to organize any content between the <code>&lt;tr&gt;</code> and <code>&lt;/tr&gt;</code> tags in a horizontal fashion; that is, in rows.
-* <code>&lt;td&gt;&lt;/td&gt;</code>: The <code>&lt;td&gt;</code> element defines the table data cell or each individual "box" for content within the row. Only use as many <code>&lt;td&gt;</code> table cells as needed for actual data. Don't use empty <code>&lt;td&gt;</code> cells for white space or padding &mdash; use CSS instead. This is not only a good way to separate presentation from structure, but keeping the HTML clean and simple also makes the table easier to understand for people with visual impairments who are using screen readers.
+* <code>&lt;td&gt;&lt;/td&gt;</code>: The <code>&lt;td&gt;</code> element defines the table data cell or each individual "box" for content within the row. Only use as many <code>&lt;td&gt;</code> table cells as needed for actual data. Don't use empty <code>&lt;td&gt;</code> cells for white space or padding &mdash; use CSS instead. This is not only a good way to separate presentation from structure, but keeping the HTML clean and simple makes the table easier to understand for people with visual impairments who are using screen readers.
 
-Note that there is no "table column" (<code>&lt;tc&gt;</code>) element. Columns are a logical construct, not a physical one. 
-We see columns in a properly constructed table, but they aren't actually coded, merely implied by the alignment of the data cells.
+Note that there is no "table column" (<code>&lt;tc&gt;</code>) element in the sample code; in fact, there is no such element in HTML. 
+Columns are a logical construct, not a physical one. 
+We seem to see columns in a properly constructed table, but they aren't actually coded, they are merely implied by the alignment of the data cells.
 
 The basic table elements must be nested as follows:
  
@@ -164,7 +169,7 @@ This code is (which is to say, "might be", again depending on environment) rende
 The new elements used here are:
  
 * <code>&lt;caption&gt;&lt;/caption&gt;</code>: The <code>&lt;caption&gt;</code> element allows you to give the table data a caption. Most browsers will center the caption and render it the same width as the table by default.
-* <code>&lt;th&gt;&lt;/th&gt;</code>: The <code>&lt;th&gt;</code> element defines the content as table headings for each table section, which can be a column, a row or a group of cells.  This is useful not just to help semantically describe the function of the content, but it also helps render it more accurately in a variety of browsers and devices. The <code>&lt;th&gt;</code> element is used in a row just like a <code>&lt;td&gt;</code>, and browsers typically render its content bold and centered in the data cell.
+* <code>&lt;th&gt;&lt;/th&gt;</code>: The <code>&lt;th&gt;</code> element defines the content as table headings for each table section, which can be a column, a row, or a group of cells.  This is useful not just to help semantically describe the function of the content, but it also helps render it more accurately in a variety of browsers and devices. The <code>&lt;th&gt;</code> element is used in a row just like a <code>&lt;td&gt;</code>, and browsers typically render its content bold and centered in the data cell.
  
 == Structuring the table further ==
  
@@ -238,7 +243,7 @@ This table code renders (again, "might render") like this:
 
 The new elements and attributes are as follows:
  
-* The <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code> and <code>&lt;tfoot&gt;</code> elements: These define the table's header, body, and footer, respectively. Unless you are coding a really complex table with many columns and rows of data, using these may be overkill. In a complex table, however, using them can add useful structure for the developers, and also for browsers and other devices.
+* The <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code> and <code>&lt;tfoot&gt;</code> elements: These define the table's header, body, and footer, respectively. Unless you are coding a really complex table with many columns and rows of data, using these may be overkill. In a complex table, however, they can add useful structure for the developers, and also for browsers and other devices.
 * The <code>colspan</code> and <code>rowspan</code> attributes: The <code>colspan</code> attribute creates a table cell that spans more than one column.  Here, we wanted the footer table cell to span the whole width of the table, so we told it to span four columns across a row. Alternately, you can add a table cell <code>rowspan</code> attribute that will allow the table cell to span a number of rows down a column, for example <code>&lt;td rowspan="3"&gt;</code>.
 * The <code>summary</code> attribute: This attribute is used to define a summary of the table contents, primarily for use by screenreaders (you won't see it in the rendered version of the table above). Note that in the older W3C recommendations, WCAG 1.0 and HTML 4.0, you can use the <code>summary</code> attribute as detailed above. In newer drafts of the specs, however, the <code>summary</code> attribute is not mentioned.  Whether to still use the <code>summary</code> attribute seems undecided, so for now let's say that it is safe to still use it. After all, it doesn't cause anything to break, and it confers accessibility advantages.
 * The <code>scope</code> attribute: You may also have noticed the <code>scope</code> attributes in the <code>th</code> tags, and the fact that we have defined the volcano names as headings as well, inside the data rows! The <code>scope</code> attribute can be used in the <code>th</code> element to tell screen readers that the <code>th</code> content is the title for a column or a row.
