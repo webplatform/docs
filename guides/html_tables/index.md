@@ -1,11 +1,15 @@
 {{Page_Title|HTML tables}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Better summary; Need to remove compatibility table; Fix minor bugs in comments
+|Editorial notes=dag
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|In this article we will cover how to use HTML tables correctly.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article  offers an introduction to HTML tables, including basic coding techniques and CSS styling.}}
 {{Guide
 |Content=== Introduction ==
 “Ack!” — how do you use web standards to organize reams of data? The very idea of tons of nested elements needed to get all the data into nice little rows and boxes ought to put your brain into “Ack!” mode, but there is a solution — tables to the rescue!
@@ -288,12 +292,18 @@ In this article we have gone through all you need to know to create effective HT
 * It is important that tables are correctly coded to be readable by a variety web browsers, mobile, accessible, and other devices.  Table HTML is best kept to a minimum, and you should use CSS to style the tables. You’ll learn a lot more about CSS later on in the course.
 * Tables can be accessible to mobile devices and users that use screen reading software by keeping the code clean, using attributes such as <code>scope</code> and <code>summary</code> as well as the <code>&lt;caption&gt;</code> element to help announce clearly and semantically what the respective sections are for. Also important for accessibility is to not use empty table cells for spacing (use CSS for this instead).
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
+|Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Unknown
@@ -318,6 +328,8 @@ In this article we have gone through all you need to know to create effective HT
 }}
 {{See_Also_Section
 |Manual_links=[http://www.w3.org/TR/html-markup/table.html#table HTML: The Markup Language (an HTML language reference)]
+|External_links=
+|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
