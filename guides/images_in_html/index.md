@@ -1,14 +1,19 @@
 {{Page_Title|Images in HTML}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content; broken links
-
+|Editorial notes=dag
 |Checked_Out=No
 |High-level issues=Move Candidate
 }}
-{{Byline}}
-{{Summary_Section|This article provides all you need to know to add images to an HTML document using the <code>&lt;img&gt;</code> tag.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article provides an introduction to using images in an HTML document with the <code>&lt;img&gt;</code> tag.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
  
 In this article we will discuss one of the things that makes web design pretty — images. At the end of this tutorial you’ll know how to add imagery to web documents in an accessible way (so that people with visual impairments can still use the information on your site) and how and when to use inline images for delivering information or background images for page layout. You can [http://dev.opera.com/articles/view/17-images-in-html/code.zip download the example files used in this article here] — we'll look at these files over the course of the tutorial.
@@ -255,7 +260,11 @@ By default the background image (if not repeated) will be positioned at the top 
  
 By controlling the repetition and the position of background images and using clever images you can create a lot of stunning effects that were not possible before CSS, and by keeping the background definitions in a separate CSS file you make it very easy to change the look and feel of a whole site by changing some lines of code. This will all be covered later on.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -377,6 +386,8 @@ By controlling the repetition and the position of background images and using cl
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Background
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise Questions ===
  
 * Why is it important to add good text to an image in an <code>alt</code> attribute? Are there any situations in which you don't need to?
