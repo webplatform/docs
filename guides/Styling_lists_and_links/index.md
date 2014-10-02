@@ -1,7 +1,7 @@
 {{Page_Title|Styling lists and links}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -751,7 +751,6 @@ A good grasp of styling lists and links is essential for web developers, as they
 navigation. While a clear link style is critical for the ease of use of any site, bad link styles can be seriously confusing for everyone 
 and may even make a site unusable for some people. Use good judgement in your styles, don't violate user expectations and, above all,
 be consistent.
-
 }}
 {{Notes_Section
 |Usage=
