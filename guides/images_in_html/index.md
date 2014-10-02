@@ -334,7 +334,6 @@ changing a few lines of code.
 HTML images are a powerful and flexible way to provide non-textual information, enhance the value of other content, and 
 improve the visual attractiveness of your pages. Combining tried-and-true techniques with new HTML5 elements and attributes
 can help ensure that your web pages are useful, interesting, and accessible.
-
 }}
 {{Notes_Section
 |Usage=
@@ -461,7 +460,6 @@ can help ensure that your web pages are useful, interesting, and accessible.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Background
 |Manual_links=
 |External_links=
 |Manual_sections==== Exercise Questions ===
