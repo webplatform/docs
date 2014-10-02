@@ -23,10 +23,10 @@ these elements and produce a final result that will work across different browse
  
 == Styling Lists ==
  
-First, we'll go through the basics of styling lists with CSS, and then movie on to look at some more advanced techniques.
+First, we'll go through the basics of styling lists with CSS, and then move on to look at some more advanced techniques.
  
 === Basic bullets and numbers ===
- 
+
 The fundamental thing to consider when creating a list style is what form of bullet or numbering you want to use. You might also choose to remove the bullets or numbers completely. As you learned in the [[guides/html_lists|HTML Lists]] article, there are many options available, set using the 
 CSS <code>list-style-type</code> property.
  
@@ -115,7 +115,7 @@ In this section we'll look at how to apply sensible margins and padding to the t
  
 ==== Unordered lists ====
  
-The default style for lists left-indents them some relative to surrounding paragraphs:
+The default style for lists left-indents them, relative to surrounding paragraphs:
  
 [[Image:list-ind.gif|Screenshot of default list styles with a larger left indent than paragraphs.]]
  
@@ -156,7 +156,7 @@ At this point you may still find a pixel-level difference between browsers, but 
 ==== Ordered lists ====
  
 Now let's consider the same issue for ordered lists. They are trickier because the numeric markers are aligned according to the list item with the 
-largest number. For example, if you have 10 list items, decimals will be positioned to allow for the two-digit "10" item:
+largest number. For example, if you have 10 list items, all the numbers will be positioned to allow for the two-digit "10" item:
  
 [[Image:ol-inden.gif|Screenshot of ten-item list, with the markers indented to allow for the 10.]]
  
@@ -207,7 +207,7 @@ If you want the text of multi-line list items to wrap below the list marker (not
  
 ''Figure 12: List position "inside" causes the text to wrap below the marker instead of in line with the indented text.''
  
-For obvious reasons, this is not an especially popular style. By default <code>list-style-position</code> is set to <code>outside</code>, which produces the results discussed earlier.
+For obvious reasons, this is not an especially popular style. By default, <code>list-style-position</code> is set to <code>outside</code>, which produces the results discussed earlier.
  
 === What about definition lists? ===
  
@@ -345,7 +345,7 @@ wraps and sizes correctly:
   display:-moz-inline-box;
 }</pre>
  
-The <code>inline-block</code> display setting positions the element inline, but allows it to have a width and height.
+The <code>inline-block</code> display setting positions an element inline, but allows it to have a width and height.
 In most browsers this will be enough to create the column effect, but for Internet Explorer you must also float the list items to the left. 
 To accomplish this, let's use a conditional style for all versions up to IE7:
  
@@ -366,8 +366,9 @@ We now have the desired two column effect:
 ==== Legacy browsers ====
  
 If you are required to produce this design for older browsers that don't support inline-block, then you must float the list items to the left 
-and use a clearing fix like the one described in the article [http://www.positioniseverything.net/easyclearing.html Clearing a float container without 
-source markup]. Thankfully most modern browsers have now made <code>inline-block</code> a valid display property, so unless you have a very large 
+and use a clearing fix like the one described in the article 
+[http://www.positioniseverything.net/easyclearing.html Clearing a float container without source markup]. 
+Thankfully most modern browsers have now made <code>inline-block</code> a valid display property, so unless you have a very large 
 browser share for older browsers you should be able to use the <code>inline-block</code> method.
 
 === Lists conclusion ===
@@ -387,7 +388,7 @@ If you follow these rules you can produce links that are clear and easy to use.
  
 === Understanding link states ===
  
-Let's begin with ''link states''. There are five states unvisited/default, visited, focus, hover and active.
+Let's begin with ''link states''. There are five states: unvisited/default, visited, focus, hover, and active.
 
 ;unvisited
 :The default state of a link when it has not been activated or visited previously.
@@ -436,7 +437,7 @@ There are some general rules for user expectations regarding links:
 * Users expect links to '''react''' when they hover or focus on the link
 * Users expect links to '''change''' after they have visited that link
 * Users expect '''consistency''' in link styles of the same functionality so they know what to click
-* Users expect ''underlined text to be a link'', so don't use underlines for anything else
+* Users expect '''underlined text to be a link''', so don't use underlines for anything else
  
 You should always follow these basic rules, as they will help your users quickly identify and use links. 
 You do not want to create styles that make users stop and think, "which bits are the links?"
@@ -511,7 +512,7 @@ By default, most browsers set all links to have an underline and focus state lin
  
 [[Image:browser-.gif|The default focus style for Opera 9, Firefox 2 and IE7]]
 
-''Figure 22: Left to right: the default focus styles for Opera 9, Firefox 2 and IE7.''
+''Figure 22: Left to right: the default focus styles for Opera 9, Firefox 2, and IE7.''
  
 If you are replacing these styles with something else, you can change or disable these defaults.
  
@@ -546,13 +547,13 @@ This example would produce:
  
 [[Image:thick-so.gif|A link with a thick black border.]]
  
-''Figure 23: example rendering of a thick black outline.''
+''Figure 23: Example rendering of a thick black outline.''
  
 If you are in doubt about what to do with the outline, just leave it to the browser default.
 
 === Recreating the Netscape defaults ===
  
-As an easy example of link styles, let's recreate the old Netscape defaults of blue, purple. and red. 
+As an easy example of link styles, let's recreate the old Netscape defaults of blue, purple, and red. 
 We'll keep the underline, but extend the active state to use italics. 
 We'll also increase the text size for the sake of the example, and set the page to use a white background:
  
@@ -596,7 +597,7 @@ This should produce:
 ==== Faux underlines using border-bottom ====
  
 Many designers have observed that the default link underline is a bit thick, and cuts through descenders of lowercase type &mdash; 
-that is, the line goes through the bottom of g, j, p, q and y:
+that is, the line goes through the bottom of the letters g, j, p, q, and y:
  
 [[Image:pygmy-un.gif|The word pygmy showing the underline cutting through the text]]
  
