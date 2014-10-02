@@ -23,7 +23,7 @@ This is, of course, the wrong way to go about it; using tables for page layout r
 that produce larger file sizes, are hard to code initially, and nearly impossible to maintain later. 
 Today, you should only use tables for presenting tabular data, and use CSS to control page layout.
 
-From an information design standpoint, tables always serve one of two functions: 
+From an information design standpoint, tables always perform one of two functions: 
 they either reflect the structure of organized data, or they impart structure to unorganized data.
 If an HTML table doesn't do one of those jobs, it probably shouldn't be a table.
 
