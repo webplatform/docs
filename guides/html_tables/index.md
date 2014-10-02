@@ -341,7 +341,7 @@ In this article we have presented all you need to know to create basic HTML data
 |Notes_rows=
 }}
 {{See_Also_Section
-|Manual_links=[http://www.w3.org/TR/html-markup/table.html#table HTML: The Markup Language (an HTML language reference)]
+|Manual_links=
 |External_links=
 |Manual_sections=
 }}
