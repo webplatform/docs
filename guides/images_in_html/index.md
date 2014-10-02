@@ -16,9 +16,9 @@
 |Prev_page=
 |Content=== Introduction ==
  
-In this article we will discuss one of the things that makes web design "pretty" &mdash; images. You'll learn how to add imagery to web documents in 
+In this article we will discuss one of the things that makes web design "pretty" &mdash; images. You'll learn how to add images to web documents in 
 an accessible way so that people with visual impairments can still use the information on your site, how and when to use inline images to deliver
-information, and how to use background images for page layout. 
+information, and how to use background images to improve page layout. 
 
 == A picture says more than a thousand words &mdash; or does it? ==
  
@@ -35,12 +35,12 @@ there are still other problems to consider:
 * Other visitors might be from a different culture and not understand the icons or diagrams you use.
 * Search engines only index text &mdash; they don't analyze images, which means that information stored in images cannot be found and indexed. (At least, not yet: try searching "image indexing" or "search by image" for additional information regarding the latest on image indexing.)
  
-It is therefore very important to choose images wisely and only use them when appropriate. It is even more important to always offer a fallback for 
+It is therefore very important to choose images wisely and use them appropriately. It is even more important to always offer a fallback for 
 users who cannot see your images. Let's see what technologies are available to add images to an HTML document.
 
 == Content and background images ==
  
-There are two main ways to add images to a document: content images using the <code>&lt;img&gt;</code> element, and background images applied to elements using CSS. Which to use depends on your intent:
+There are two main ways to add images to a document: content images using the <code>&lt;img&gt;</code> element, and background images applied to elements using CSS. Which method you use depends on your intent:
 
 * If the image is crucial to the content of the document, such as a photo of the author or a data graph, it should be added as an <code>&lt;img&gt;</code> element with proper alternative text.
 * If the image is there strictly for aesthetic purposes, you should use a CSS background image. These images should not have any alternative text (what use is the description "round green corner with a twinkle" to a blind person?) and you have more options for image styling in CSS.
@@ -68,18 +68,22 @@ If you run this code in a browser, you'll get output like this:
 [[Image:images-f.jpg|the image displayed in a browser]] 
 
 ''Figure 1: The image as it is shown in a browser.''
+
+Note: The <code>&lt;img&gt;</code> element is what is known as an ''empty tag''; that is, it does not require an end tag (like
+<code>&lt;/img&gt;</code>). In HTML5, it need not even be closed with an internal slash (like <img src="balconyview.jpg"/>), 
+although many web page authors do so as a matter of consistency.
  
 === Providing a text alternative with the alt attribute ===
  
 Although the image is displayed correctly, the HTML is invalid because the <code>&lt;img&gt;</code> element lacks an <code>alt</code> attribute. 
-This attribute contains text to be is displayed if the image is not available for some reason. The image may not be available because it could 
+This attribute contains text to be displayed if the image is not available for some reason. The image may not be available because it could 
 not be found, failed to load, or because the user agent (normally a browser) does not support images. In addition, people with visual impairments 
 use assistive technologies to read web pages aloud; these technologies look for the contents of the <code>alt</code> attribute 
 to describe the image. It is therefore important to write good alternative text to describe the contents of the image and put it in the 
 image's <code>alt</code> attribute for reasons of accessibility and search engine optimization.
 
 A quick note: Many web pages &mdash; and web authors &mdash; use the term "alt tags". This is factually incorrect, as there is no tag (or element) 
-with that name. Remember that <code>alt</code> is an ''attribute'' of the <code>&lt;img&gt;</code> element, not a tag.
+with that name. Remember that <code>alt</code> is an attribute of the <code>&lt;img&gt;</code> element, not a tag.
  
 Thus, in order to make the image understandable for everyone, you must always include  proper alternative text, as in this example, "View from my balcony, showing a row of houses, trees and a castle":
  
@@ -100,7 +104,7 @@ Thus, in order to make the image understandable for everyone, you must always in
 The <code>alt</code> attribute contains the text that should be displayed when the image is not available. The information in the <code>alt</code> 
 attribute should not be displayed when the image is successfully loaded; Internet Explorer gets this wrong, and shows it as a tooltip when 
 you hover your mouse pointer over the image. Unfortunately, many authors consider this the default, which leads them
-to add additional information about the image into the <code>alt</code> attribute. Please don't do this; if you want to add extra
+to put additional information about the image into the <code>alt</code> attribute. Please don't do this; if you want to add extra
 information about the image, use the <code>title</code> attribute instead.
  
 Most browsers display the value of an <code>&lt;img&gt;</code> element's <code>title</code> attribute as a tooltip when you hover your mouse cursor 
@@ -116,7 +120,8 @@ provide non-essential information, such as the mood of the image, or what it mea
   <title>Example of an inline image with alternative text and title</title>
 </head>
 <body>
-<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" title="What I see when I look out of my window; the castle was one reason to move there.">
+<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" 
+  title="What I see when I look out of my window; the castle was one reason to move there.">
 </body>
 </html></syntaxhighlight>
  
@@ -142,7 +147,10 @@ For example, if you have a chart showing a set of data, you can link it to a pag
   <title>Example of an inline image with longdesc</title>
 </head>
 <body>
-<img src="chart.png" width="450" height="150" alt="Chart showing the fruit consumption amongst under 15 year olds. Most children ate Pineapples, followed by Pears" longdesc="fruitconsumption.html">
+<img src="chart.png" width="450" height="150" 
+  alt="Chart showing the fruit consumption amongst under 15 year olds. 
+  Most children ate Pineapples, followed by Pears" 
+  longdesc="fruitconsumption.html">
 </body>
 </html></syntaxhighlight>
  
@@ -200,11 +208,12 @@ the image dimensions using the <code>width</code> and <code>height</code> attrib
   <title>Example of an inline image with dimensions</title>
 </head>
 <body>
-<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186">
+<img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" 
+  width="400" height="186">
 </body>
 </html></syntaxhighlight>
  
-This will display a placeholder the same size as the image until the image actually loads and takes up its place, therefore avoiding the unsightly 
+This will display a placeholder the same size as the image until the image actually loads and takes its place, therefore avoiding the unsightly 
 and unprofessional page shift. '''Always''' include the <code>width</code> and <code>height</code> attributes on your images.
 
 You can also resize images using these attributes (try halving the attribute values in the above example), but this is not good practice,
@@ -243,7 +252,7 @@ which could be an image, two images, or a combination of several multimedia elem
 <body>
   <figure>
     <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses,
-    trees and a castle" width="400" height="186">
+      trees and a castle" width="400" height="186">
     <figcaption>The view from outside my window.</figcaption>
   </figure>
 </body>
@@ -263,7 +272,8 @@ or some other not-wholly-appropriate element, but now we have the <code>&lt;figc
   ...
   
   <figure>
-    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186">
+    <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" 
+      width="400" height="186">
     <figcaption>The view from outside my window.</figcaption>
   </figure>
 
@@ -280,8 +290,8 @@ while the caption gives some more context.
 == Background images with CSS ==
  
 It is pretty safe to say that web design became a lot more fun when browsers started supporting CSS. Instead of hacking around in the HTML using 
-table cells for positioning items on the page, non-breaking spaces (&amp;nbsp;) to preserve spacing, and spacer GIFs 
-(transparent 1x1 pixel GIF images that were resized to create margins), we can now use padding, margin, dimensions, and positioning in CSS 
+table cells for positioning items on the page, non-breaking spaces (&amp;nbsp;) to force alignment, and spacer GIFs 
+(transparent 1x1 pixel GIF images resized to create margins), we can now use padding, margin, dimensions, and positioning in CSS 
 and leave the HTML free to just worry about the content structure.
  
 CSS also means you can use background images in a very versatile way &mdash; you can position them behind and around your text any way you want, 
@@ -302,8 +312,8 @@ background image. The CSS for the first example is:
 <syntaxhighlight lang="css">background-image:url(ball.gif);</syntaxhighlight>
  
 You add the image with the <code>background-image</code> property and give it a URL in parentheses to specify the image to be included. 
-By default, background images are repeated both horizontally and vertically to fill up the whole element space. You can
-define a different repetition scheme with the <code>background-repeat</code> property:
+By default, background images are repeated both horizontally and vertically to fill up the whole element space, as in the first example. 
+But you can define various repetition schemes with the <code>background-repeat</code> property:
  
 * Don't repeat the image at all: <code>background-repeat:no-repeat;</code>
 * Only repeat the image horizontally: <code>background-repeat:repeat-x;</code>
