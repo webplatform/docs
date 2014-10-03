@@ -14,7 +14,7 @@ Also, maybe get in touch with CommonCraft and ask to embed their video about the
 
 ==Who is this course for?==
 
-Our beginner's guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
+Our beginner’s guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
 
 This particular course's approach is different from most other web development introductory courses because it tries to give you important background information of how the web works. Most web development courses avoid this, because they're not actually interested in telling you how the bricks are made: They just want you to start building the house. Although a time-saving exercise, we think that you should know the basics of how the web works if you're going to be a web developer.
 
