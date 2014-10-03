@@ -1,11 +1,15 @@
 {{Page_Title|HTML forms basics}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Update to current best practices & add basic mention of security; Need to remove compatibility table; 
+|Editorial notes=dag
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|In this article, we will covered the creation of standards compliant, best practice HTML forms!}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article covers the basics of creating standards compliant, best practice HTML forms.}}
 {{Guide
 |Content=== Introduction ==
  
@@ -313,7 +317,11 @@ What does it do? The first line styles the fieldset border to not take up the wh
 
 You can see that this little bit of CSS make it look better, but there is still a lot to do before it will really look nice.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
