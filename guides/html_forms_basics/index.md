@@ -1,7 +1,7 @@
 {{Page_Title|HTML forms basics}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -17,12 +17,12 @@ Everyone has seen a form. Everyone has used one. But have you coded one?
  
 Most areas where you can input information into web pages are created using HTML forms: entering text or numbers into a text box, 
 ticking a check box, choosing a radio button, or selecting an option from a list. The form is then usually submitted to the website 
-and the data is used in some way. Your customer details might be stored in a database for later use, or the website might be instantly 
+and the data is used in some way. Your customer details might be stored in a database for later use, or the website might be  
 updated after you choose a product to view.
   
-It is easy to create a form, attractive and usable forms take a bit of work. In this article we'll cover the how to create elegant, 
-accessible form structures with HTML, starting with the real basics, and working up to some more complex features. We'll then look at the 
-new form capabilities of in HTML5 separately in the next article, [[guides/html5 form features|HTML5 form features]].
+While it is easy to create a functional form, attractive and usable forms take a bit of work. In this article we'll cover how to create elegant, 
+accessible form structures with HTML, starting with the real basics and working up to some more complex features. We'll then look at the 
+new form capabilities of in HTML5 in the next article, [[guides/html5 form features|HTML5 form features]].
 
 == Step one: The basic code ==
  
@@ -36,26 +36,25 @@ such as an article you wrote or a product you sell. We'll start it off very simp
   <input type="submit" value="submit" />
 </form></syntaxhighlight>
  
-If you enter this into an HTML document and then open that document in a browser, the code is rendered like this:
+If you enter this into an HTML document and then open that document in a browser, the code is rendered something like this:
  
 [[Image:Form1.png|the first form example]]
 
-''Figure 1: The first, basic form example.''
+''Figure 1: The basic form example.''
  
 Try it for yourself &mdash; enter the above code into your own sample HTML document and load it in a browser. 
- 
-As you examine the code, you'll see an opening <code>&lt;form&gt;</code> tag, a <code>&lt;/form&gt;</code> closing tag, and some bits in between.
+As you examine the code, you'll see an opening <code>&lt;form&gt;</code> tag, a closing <code>&lt;/form&gt;</code> tag, and some bits in between.
 The form contains three input elements into which you can enter information: two single line text inputs, and a multiline text input.
 Let's look at each part.
 
 === The <code>&lt;form&gt;</code> element ===
  
 The <code>&lt;form&gt;</code> element is required to wrap around the form's content &mdash; without it you don't have a web form. 
-The <code>&lt;form&gt;</code> tag can have a few attributes, which we'll cover below. Note that you can't nest a form inside another.
+The <code>&lt;form&gt;</code> tag can have a few attributes, which we'll cover below. Note that you can't nest a form inside another form.
 
 === The <code>&lt;input&gt;</code> element ===
 
-The <code>&lt;input&gt;</code> element defines an area where you can insert information in some way.
+The <code>&lt;input&gt;</code> element defines an area where you can type or paste information.
 
 === The <code>type</code> attribute ===
 
@@ -112,7 +111,7 @@ submits the form's data to whatever target the form has specified. We'll learn m
 
 == Step two: Adding structure and behaviour ==
  
-When you run that example, fill in the form and click Submit, it doesn't do anything! Why not? And why does it look so bad, all mashed up
+When you run that example, fill in the form, and click Submit, it doesn't do anything! Why not? And why does it look so bad, all mashed up
 on one line? The answer is that we haven't structured it yet, or defined a place for the collected data to be submitted.
 
 Let's go back to the drawing board, with a new and improved form:
@@ -145,7 +144,7 @@ This form looks like this when rendered in a browser:
  
 ''Figure 2: The second form example &mdash; looking better.''
  
-You can also put this example code into an HTML page and play with it, but note that when you try to submit the form you will get a 404 error &mdash;
+You can also put this example code into an HTML page and play with it, but if you try to submit the form you will get a 404 error &mdash;
 this is because the <code>script.php</code> file the <code>action</code> attribute points to does not actually exist; it is just there to give you the idea of what happens upon form submission. See the section covering the <code>action</code> attribute below for more information.
  
 Here we have made a few additions to the basic, simple form. Let's break it down:
@@ -198,7 +197,7 @@ you best. Whatever layout method you use, be sure to style it appropriately with
 
 Last but not least in Step Two, we've labeled the form elements. It is best to give all the form elements corresponding <code>&lt;label&gt;</code>
 elements. These labels are tied to their respective form elements by giving the <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements 
-<code>id</code>s that have the same value as the labels' <code>for</code> attributes, or by nesting the form control inside the label element itself. 
+<code>id</code>s that have the same value as the labels' <code>for</code> attributes, or by nesting the input control inside the label element itself. 
 This is great because it not only gives a visual indicator of the purpose of each form field on the screen, but it also gives the form fields more 
 meaning semantically. In addition, a visually impaired person using the page with a screen reader can now tell which label goes with which form
 element and have more of a clue what data to fill into what input. The <code>id</code>s can also be used for targeting individual form fields with 
@@ -333,12 +332,12 @@ The last new bit of code looks like this:
   <option value="bognor">Bognor Regis</option>
 </select></li></syntaxhighlight>
 
-The <code>&lt;select&gt;</code> element is quite different to the others we've seen so far: it creates a single line form control that, 
+The <code>&lt;select&gt;</code> element is quite different from the others we've seen so far: it creates a single line form control that, 
 when activated, drops down to reveal multiple options, as defined in the <code>&lt;option&gt;</code> elements. The <code>value</code> attribute 
 contains the actual data that is submitted for the selected option when you submit the form,
 and the text content inside the elements are the values the user sees.
 
-== Step Four: further structuring with fieldsets and legends ==
+== Step four: further structuring with fieldsets and legends ==
 
 The final form example is identical to the last one, except that we have wrapped the different major parts of the form in 
 <code>&lt;fieldset&gt;</code> elements, and given each one its own <code>&lt;legend&gt;</code> element. For example:
@@ -371,7 +370,7 @@ The <code>&lt;fieldset&gt;</code> element allows you to organize the form into s
 === A little bit of style... ===
 
 We've also applied a bit of CSS to this form, to style the structural markup. This is applied to the third form example using an external stylesheet. 
-The two most important tasks we want the CSS to do is to add margins to line up the labels and input boxes, and to get rid of the unordered list's 
+The two most important tasks we want the CSS to do are to add margins to line up the labels and input boxes, and to get rid of the unordered list's 
 bullets. Here is the CSS that resides in the external stylesheet:
  
 <syntaxhighlight lang="css">#contact-form fieldset {width:40%;}
