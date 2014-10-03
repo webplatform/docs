@@ -19,7 +19,7 @@ This article gives a brief overview of some of the new form controls and functio
 
 == Why did we need new form features? ==
  
-Let's face it, HTML forms have always been a pain. They are not much fun to mark up and they can be fiddly to style &mdash; especially if you want 
+Let's face it, HTML forms have always been a pain. They are not much fun to mark up and they can be difficult to style &mdash; especially if you want 
 them to be consistent across browsers and fit in with the overall look and feel of your site. And they can be frustrating for your end users to fill 
 out, even if you create them with care and consideration to make them as usable and accessible as possible. Creating a good form is more about damage 
 limitation than pleasurable user experiences.
@@ -35,7 +35,7 @@ into a world of complex, web-based applications that bring them an almost deskto
 To fill the need for the more sophisticated controls required for such applications, developers have been taking advantage of JavaScript libraries 
 and frameworks such as jQueryUI and YUI. These solutions have certainly matured over the years, but essentially they're a workaround to compensate 
 for the limited form controls available in HTML. They "fake" the more complex widgets like date pickers and sliders by layering additional 
-(but not always semantic) markup and a lot of JavaScript on top of pages.
+(but not always semantic) markup and lots of JavaScript on top of pages.
  
 HTML5 aims to standardise some of the most common rich form controls, making them render natively in the browser and obviating the need for these 
 script-heavy workarounds.
