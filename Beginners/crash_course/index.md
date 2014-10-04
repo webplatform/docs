@@ -1,7 +1,9 @@
 {{Page_Title|Part 2: A crash course in web site code}}
 {{Flags
-|State=In Progress
-|Editorial notes=There are plenty of notes and idea but all incomplete.
+|State=Almost Ready
+|Editorial notes=(Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)
+
+There are plenty of notes and idea but all incomplete.
 
 Editorial notes:
 * Explain what HTML, CSS, and JavaScript are, show how to create some really trivially simple examples
