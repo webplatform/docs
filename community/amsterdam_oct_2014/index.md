@@ -6,6 +6,18 @@
 }}
 {{Summary_Section}}
 {{Basic Page}}
+== Doc Sprint ==
+Welcome to the WPD Amsterdam Doc Sprint!
+
+=== Media Wiki crash course ===
+See [[WPD:Style Guide/Wiki markup crash course]], gives a good short syntax reminder.
+
+=== Content Agenda ===
+
+
+
+=== Tweet about it! ===
+@webplatform with #wpds
 
 {{Notes_Section
 |Usage=
