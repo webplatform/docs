@@ -1,11 +1,15 @@
 {{Page_Title|HTML structural elements}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Fix minor bugs in comments
+|Editorial notes=dag
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|This article provides a tour through the elements available in HTML to structure and group your content, from old favourites like <code>&lt;div&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article provides a tour through the elements available in HTML to structure and group content, from old favourites like <code>&lt;div&gt;</code> to new HTML5 additions such as <code>&lt;article&gt;</code> and <code>&lt;aside&gt;</code>.}}
 {{Guide
 |Content=== Introduction ==
 
@@ -257,7 +261,11 @@ You may be wondering which style of structural elements to choose, now you've ha
 
 This way, you can work with whatever is thrown at you on different projects, plus your HTML5 sites will be nicely future proofed for when browsers do start to support HTML5 structural elements.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -322,6 +330,8 @@ This way, you can work with whatever is thrown at you on different projects, plu
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
 
 # Using my templates as a basis, create an outline HTML structure for one of the following sites. Think about what different things such pages might have on them, in terms of header, footer, navigation, main content, sidebars, etc. Look at existing examples if you need to.
