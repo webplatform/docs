@@ -185,7 +185,7 @@ with JavaScript. Put this code in your document <code>&lt;head&gt;</code>:
 
 <syntaxhighlight lang="html5"><script type="text/javascript">document.createElement('abbr');</script></syntaxhighlight>
 
-To find out more about why this works, see the [[guides/HTML_structural_elements|HTML Structural Elements]] article. 
+To find out more about why this works, see the [[guides/html_structural_elements|HTML Structural Elements]] article. 
 Of course, you could just stick to using <code>&lt;acronym&gt;</code> for now, until you decide to make a complete move toward HTML5.
 
 == Defining instances ==
