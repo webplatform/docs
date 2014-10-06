@@ -1,7 +1,7 @@
 {{Page_Title|HTML structural elements}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -246,7 +246,7 @@ You can of course include headings and other structural elements inside the <cod
  
 === <aside> ===
   
-You may have noticed that we used an <code>&lt;aside&gt;</code> element to markup the second sidebar, the one containing latest gigs and contact 
+You may have noticed that we used an <code>&lt;aside&gt;</code> element to mark up the second sidebar, the one containing latest gigs and contact 
 details. This is perfectly appropriate, as <code>&lt;aside&gt;</code> is for marking up pieces of information that are related to the main flow, 
 but don't fit into it directly. 
 
@@ -264,8 +264,8 @@ specific background image to the content.
 == HTML5 element support ==
 
 At this point we should discuss support. There is currently not full support for the HTML5 structural elements in today's selection of web browsers,
-but it is getting better all the time. Lack of support for these features across browsers may be less than ideal, but for our purposes 
-it doesn't matter very much. 
+but it is getting better all the time. Support for these features across browsers may be less than ideal, but for our purposes 
+it doesn't matter very much. Here's why.
 
 The way the elements work in general between HTML4 and HTML5 is exactly the same &mdash; it is just the element names that are different. 
 You can get HTML5 elements working across all browsers today with a minimum of effort. 
@@ -280,8 +280,8 @@ head of your HTML file or in an external CSS file:
   display: block;
 }</syntaxhighlight>
  
-This solves all your HTML5 element problems for all browsers except one. Older versions of Internet Explorer refuse to allow styling of unknown 
-elements, but this can be fixed by inserting a line of JavaScript into the head of your document for each element:
+This solves your HTML5 element problems for all browsers except one. Older versions of Internet Explorer refuse to allow styling of unknown 
+elements, but this can be fixed by inserting a small section of JavaScript into the head of your document that declares each element:
  
 <syntaxhighlight lang="javascript"><script>
     document.createElement('article');
@@ -295,7 +295,7 @@ elements, but this can be fixed by inserting a line of JavaScript into the head 
     document.createElement('figcaption'); 
 </script></syntaxhighlight>
  
-IE will now magically apply styles to those elements. It's kind of a pain having to use JavaScript to make your CSS work, but hey, at least we 
+IE will now happily apply styles to those elements. It's kind of a pain having to use JavaScript to make your CSS work, but hey, at least we 
 have a way forward! There is also a problem with these styles STILL not being carried through to the printer when you try to print HTML5 documents 
 from IE. However, the print problem can be solved using the ''HTML5 Shiv'' JavaScript library, which also handles adding the 
 <code>document.createElement</code> lines for you. You should wrap it up in ''conditional comments'' for IE versions lower than 9, so that
@@ -385,10 +385,10 @@ do all support HTML5 structural elements.
 |External_links=
 |Manual_sections==== Exercise questions ===
 
-# Using my templates as a basis, create an outline HTML structure for one of the following sites. Think about what different things such pages might have on them, in terms of header, footer, navigation, main content, sidebars, etc. Look at existing examples if you need to.
-* An e-commerce site product listing page (eg. listing summaries of the different products available)
+# Using these templates as a basis, create an outline HTML structure for one of the following sites. Think about what different things such pages might have on them, in terms of header, footer, navigation, main content, sidebars, etc. Look at existing examples if you need to.
+* An e-commerce site product listing page (e.g., listing summaries of the different products available)
 * A restaurant menu page
-* A full story page for a news site (eg. one news story, listed in full)
+* A full story page for a news site (e.g., one news story, listed in full)
 # What content would be appropriate for putting into the header and footer of a blog post contained in an article?
 # What element should you use for the main content column, if JavaScript is turned off?
 }}
