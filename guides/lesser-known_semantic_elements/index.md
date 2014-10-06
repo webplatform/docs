@@ -1,7 +1,7 @@
 {{Page_Title|Lesser known semantic elements}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=dag
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -17,24 +17,23 @@ infrequently used semantic elements available in HTML.
 |Prev_page=
 |Content=== Introduction ==
  
-In this article we will look at some of the more obscure
-and less well-known and used semantic elements in HTML. We’ll look
+In this article we look at some of the 
+and less well-known and used semantic elements in HTML. We'll look
 at marking up programming code, interaction with computers,
-citations and abbreviations, showing changes made to documents and 
+citations and abbreviations, showing changes made to documents, and 
 more.
  
-'''Note''': You can [http://dev.opera.com/articles/view/21-lesser-known-semantic-elements/lesserknownsemantics.html view all the examples running live]
-
 == Highlighting contact information ==
  
-The <code>&lt;address&gt;</code> element is probably the most badly named and
+The <code>&lt;address&gt;</code> element is probably the most poorly named and
 misunderstood element in HTML. At first glance, with a name like
-“address” it would appear that it is used to encapsulate addresses,
-email, postal or otherwise. This is only partially the case.
+"address", it would appear that it is used to encapsulate addresses,
+email, postal, or otherwise. This is only partially the case.
  
-The actual meaning of <code>&lt;address&gt;</code> is to supply contact information ''for the author or authors'' of the page, or the major section of the page, that it
+The actual meaning of <code>&lt;address&gt;</code> is to supply contact information ''for the author or authors'' of the page, 
+or for the major section of the page, that it
 appears within. This can take the form of a name, an email address, a
-postal address or a link to another page with more contact
+postal address, or a link to another page with more contact
 information. For example:
  
 <syntaxhighlight lang="html5"><address> 
@@ -45,7 +44,7 @@ information. For example:
 In the following example, the address is contained within the footer
 paragraph and simply links to another page on the site. The extended
 contact information on the page that this link targets could then
-have much more detailed contact information, to save repeating it
+have more detailed contact information, to save repeating it
 endlessly across the entire site.
  
 <syntaxhighlight lang="html5"><footer>
@@ -59,7 +58,7 @@ Of course, if the site had more than one author, the same pattern
 could be used, just linking to different contact pages for the
 different authors.
  
-It is *incorrect* to use the <code>&lt;address&gt;</code> element to indicate any other
+It is '''incorrect''' to use the <code>&lt;address&gt;</code> element to indicate any other
 type of addresses, such as this:
  
 <syntaxhighlight lang="html5"><p> Our company address: </p>
@@ -70,16 +69,16 @@ type of addresses, such as this:
   NORWAY
 </address></syntaxhighlight>
 
-(Of course, if Opera was taking collective responsibility for
-this article, this would be correct, even though Opera is not the author of this particular page.)
+(Unless, of course, Opera was taking collective responsibility for the content as the "author" of 
+the article.)
 
 For any general address, you can use something called a "microformat"
-to indicate that a paragraph contains an address. There is [http://dev.opera.com/articles/html/ more information on Microformats on dev.opera.com]].
+to indicate that a paragraph contains an address.
 
 == Programming languages and code ==
  
 The <code>&lt;code&gt;</code> element is used to indicate computer code or programming
-languages, such as PHP, JavaScript, CSS, XML and so on. For short
+languages, such as PHP, JavaScript, CSS, or XML. For short
 samples within a sentence, you would simply wrap the element around
 the code snippet, like so:
  
@@ -87,9 +86,9 @@ the code snippet, like so:
 <code>onclick</code> directly in the HTML.</p></syntaxhighlight>
 
 For larger samples of code which span multiple lines, you can use a 
-preformatted block as shown in the [http://www.w3.org/wiki/Marking up textual content in HTML] article.
+preformatted block <code>&lt;pre&gt;...&lt;/pre&gt;</code> as shown in the [[guides/html_text|HTML Text]] article.
  
-Although there is no defined method of indicating which programming
+Although there is no defined method for indicating which programming
 language or code is shown within the <code>&lt;code&gt;</code> element, you can use
 the <code>class</code> attribute. A common practice (mentioned
 in the HTML 5 specification) is to use the prefix <code>&lt;language-&gt;</code> and then append
@@ -101,10 +100,12 @@ directly in the HTML.</p></syntaxhighlight>
 
 Some programming languages have names that cannot be easily
 represented in classes, such as C# (C-Sharp). The correct way of
-writing this would be “<code>&lt;class='language-c\#'&gt;</code>”, which could be confusing
-and easily mis-typed. I would recommend using a class consisting of
+writing this would be "<code>&lt;class='language-c\#'&gt;</code>", 
+where the "\" indicates "treat the next character literally". 
+This, of course, could be confusing
+and could easily be mis-typed. We recommend using a class consisting of
 only letters and hyphens, and spelling it out completely. So in this
-case, use “<code>&lt;class='language-csharp'&gt;</code>” instead.
+case, use "<code>&lt;class='language-csharp'&gt;</code>" instead.
 
 == Displaying computer interaction ==
  
@@ -131,13 +132,13 @@ kind of classes to use, however.
  
 The <code>&lt;kbd&gt;</code> element indicates input from the user interacting with the
 computer. Although this is traditionally keyboard input (hence the
-“kbd” contraction used) it should also be used to indicate other
+"kbd" contraction) it should also be used to indicate other
 types of input, such as spoken voice.
 
 == Variables ==
  
 The <code>&lt;var&gt;</code> element is used to indicate variables in textual content.
-This can include algebraic mathematical expressions or within
+This can include variables in algebraic mathematical expressions or within
 programming code. For example:
  
 <syntaxhighlight lang="html5"><p>The value of <var>x</var> in
@@ -150,7 +151,7 @@ my <var>$welcome</var> = "Hello world!";
 == Citations ==
  
 The <code>&lt;cite&gt;</code> element is used to indicate where the nearby content comes
-from—when quoting a person, a book or other publication, or
+from. When quoting a person, a book or other publication, or
 generally referring people to another source, that source should be
 wrapped in a <code>&lt;cite&gt;</code> element. For example:
  
@@ -163,29 +164,35 @@ is much less easy to understand.</p>
 == Abbreviations ==
  
 The <code>&lt;abbr&gt;</code> element is used to indicate where 
-abbreviations occur, and provide a method for expanding upon them
+abbreviations occur, and to provide a method for expanding them
 without unnecessarily interrupting the flow of the document.
  
 The text that is the abbreviation gets wrapped in the <code>&lt;abbr&gt;</code> element, 
-and the full expansion is placed in the <code>title</code> attribute, like so:
+and the full expansion is placed in the <code>title</code> attribute, like this:
  
 <syntaxhighlight lang="html5"><p>Styling is added to 
 <abbr title="Hypertext Markup Language">HTML</abbr> documents
 using <abbr title="Cascading Style Sheets">CSS</abbr>.</p></syntaxhighlight>
 
-Note that in the HTML4 specification there is also an element called <code>&lt;acronym&gt;</code>, which had a similar function to <code>&lt;abbr&gt;</code>, but for acronyms. This was dropped in HTML5, because the functional difference between an acronym and an abbreviation isn't distinct enough to require different elements.
+Note that in the HTML4 specification there is also an element called <code>&lt;acronym&gt;</code>, which had a similar function to 
+<code>&lt;abbr&gt;</code>, but for acronyms. This was dropped in HTML5 because the functional difference between an acronym and an 
+abbreviation isn't distinct enough to require different elements.
 
-One problem with this is Internet Explorer support: Internet Explorer (before version 7, and 7 doesn't provide the dotted underline underneath abbreviations that other browsers do) doesn't recognise the <code>&lt;abbr&gt;</code> element, but does recognise <code>&lt;acronym&gt;</code>.  But this is easy enough to get around. To ensure that <code>&lt;abbr&gt;</code> will be stylable in Internet Explorer, you simply need to create the element with JavaScript. Put this code in your document <code>&lt;head&gt;</code>:
+One problem with this is Internet Explorer support: Internet Explorer (before version 7, and 7 doesn't provide the dotted underline underneath 
+abbreviations that other browsers do) doesn't recognise the <code>&lt;abbr&gt;</code> element, but does recognise <code>&lt;acronym&gt;</code>.  
+But this is easy enough to get around. To ensure that <code>&lt;abbr&gt;</code> will be stylable in Internet Explorer, just create the element 
+with JavaScript. Put this code in your document <code>&lt;head&gt;</code>:
 
 <syntaxhighlight lang="html5"><script type="text/javascript">document.createElement('abbr');</script></syntaxhighlight>
 
-To find out more about why this works, read [[HTML structural elements#HTML5_element_support]]. Of course, you could just stick to using <code>&lt;acronym&gt;</code> for now, until you decide to make a complete move towards using HTML5.
+To find out more about why this works, see the [[guides/HTML_structural_elements|HTML Structural Elements]] article. 
+Of course, you could just stick to using <code>&lt;acronym&gt;</code> for now, until you decide to make a complete move toward HTML5.
 
 == Defining instances ==
  
 There is some confusion over the proper use of <code>&lt;dfn&gt;</code>, which is
-described in the HTML specification as “the defining instance of the
-enclosed term”. This is remarkably close to the idea of the <code>&lt;dt&gt;</code> element (definition term) used in definition lists.
+described in the HTML specification as "the defining instance of the
+enclosed term". This is remarkably close to the idea of the <code>&lt;dt&gt;</code> element (definition term) used in definition lists.
  
 The difference is that the term used in <code>&lt;dfn&gt;</code> does not have to be 
 a part of a list of terms and descriptions and can instead be used
@@ -195,40 +202,44 @@ prose. So, let's look at an example of using <code>&lt;dfn&gt;</code>:
 <syntaxhighlight lang="html5"><p><dfn>HTML</dfn>: HTML stands for "HyperText Markup Language". This is 
 the language used to describe the contents of web documents.</p></syntaxhighlight>
  
-The term HTML appears, and is followed immediately by a definition of what it is, therefore this is an ideal place for the <code>&lt;dfn&gt;</code> element to be used. You should only really use it once on a page, where a term is first defined, but terms should only really be defined once on a page anyway, so this is not too troubling.
+The term HTML appears in the text, and is followed immediately by a definition of what it is; therefore, this is an ideal place for the 
+<code>&lt;dfn&gt;</code> element to be used. You should really only use it once on a page, where a term is first defined, but terms should 
+only really be defined once on a page anyway, so this is not too troubling.
  
-This is all well and good, but an isolated example is not very practical - the use of <code>&lt;dfn&gt;</code> is recommended when an abbreviation is used more than
-once on a page. For example, in the article [[The basics of HTML]] earlier in
-this series, the abbreviation HTML appeared over forty times. To
-use the code “<code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code>” 
-each and every time it is used would be a waste of bandwidth, 
-visually distracting and for screen reader users probably quite
+This is all well and good, but an isolated example is not very practical &mdash; the use of <code>&lt;dfn&gt;</code> is recommended when an 
+abbreviation is used more than
+once on a page. For example, in any article about HTML,
+the abbreviation "HTML" could appear dozens of times. To
+use the code "<code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code>" 
+each and every time it is seen would be a waste of bandwidth, 
+visually distracting, and for screen reader users probably quite
 tiresome as HTML is expanded over and over, even though they would
 already have been told what it stands for. Instead, the code could
-be inserted at the point where it is first defined for the readers:
+be inserted only at the point where it is first defined for the readers:
  
 <syntaxhighlight lang="html5"><p><dfn><abbr>HTML</abbr></dfn> ("HyperText Markup Language") is 
 a language to describe the contents of web documents.</p></syntaxhighlight>
 
-Then later, whenever HTML is used, it can be marked up simply as 
-“<code>&lt;abbr&gt;HTML&lt;/abbr&gt;</code>”. A user agent could then make available to the
+Then later, whenever "HTML" is used, it can be marked up simply as 
+"<code>&lt;abbr&gt;HTML&lt;/abbr&gt;</code>". A user agent could then make available to the
 user some method of retrieving the defining instance of that
 abbreviation. Unfortunately, no user agent currently does this, 
 including screen readers. It would be better, then, to use the 
 <code>title</code> attribute as well to provide this information:
  
-<syntaxhighlight lang="html5"><p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> ("HyperText Markup Language") is a language to describe the contents of web documents.</p></syntaxhighlight>
+<syntaxhighlight lang="html5"><p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> ("HyperText Markup Language") is a language 
+to describe the contents of web documents.</p></syntaxhighlight>
 
-Unfortunately, we have now doubled up on the expanded term for HTML,
+Unfortunately, we have now doubled up on the expanded term for "HTML",
 which can be a problem for screen reader users. However, leaving out
 the visible expansion makes the document less useful for sighted
-users which will be the greater proportion of users in almost every
+users, which will be the greater proportion of users in almost every
 case.
  
-I would suggest that this is an acceptable trade-off when there are
-only one or two items requiring a definition (in pages that require a larger number of definitions, it might be
+We suggest that this is an acceptable trade-off when there are
+only one or two items requiring a definition. In pages that require a larger number of definitions, it might be
 better to create a glossary section or page where the more rigourous
-definition list markup can be used). If you are very 
+definition list markup can be used. If you are very 
 concerned about this, the code could instead appear as:
  
 <syntaxhighlight lang="html5"><p><abbr title="HyperText Markup Language">HTML</abbr> 
@@ -236,14 +247,17 @@ concerned about this, the code could instead appear as:
 describe the contents of web documents.</p></syntaxhighlight>
  
 However, the user
-agent would still have to have some method of connecting the definition with all the instances of the defined term. No browser currently does anything useful with <code>&lt;dfn&gt;</code>, although it is still a useful hook for CSS to style. The solution suggested above is currently the best we’ve got.
+agent would still need some method of connecting the definition with all the instances of the defined term. 
+No browser currently does anything useful with <code>&lt;dfn&gt;</code>, although it is still a useful hook for CSS to style. 
+The solution suggested above is currently the best we've got.
  
 This is an unfortunate instance where the specification has been
 created without clear guidelines on how an element is supposed to be
 used, and probably was not based upon any real-world usage of that
-element — otherwise there would be a method of combining the
-term with its full description or definition. The HTML 5 
-specification goes into a lot more [[http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-dfn-element detail about how dfn is to be used]], but this is still in draft and not suitable for use on the web yet.
+element; otherwise, there would be a method of combining the
+term with its full description or definition. The HTML5 
+specification goes into [[http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-dfn-element more detail]]
+about how dfn is used, but this is still in draft and not suitable for use on the web yet.
 
 == Superscript and subscript ==
  
@@ -251,12 +265,12 @@ To mark up a part of some text as being super- or subscripted
 (slightly raised or lowered compared to the rest of the text) 
 you use the <code>&lt;sup&gt;</code> and <code>&lt;sub&gt;</code> elements.
  
-Some languages require these elements for correct usage of
-abbreviations and it can be used when a small amount of mathematical
+Some languages require these elements for correct rendering of
+abbreviations, and it can be used when a small amount of mathematical
 content is being marked up, without resorting to using MathML (a
 specific, rather heavyweight mathematical markup language, created
-for the sole purpose of marking up heavyweight mathematical
-formulae).
+for the sole purpose of marking up complex mathematical
+formulas).
  
 An example of both types:
  
@@ -278,7 +292,7 @@ pressing the Return key whilst writing the text.
 A line break can be introduced into the document using the <code>&lt;br&gt;</code>
 element. However, this should only be used to force line breaks where
 they are required, and never to apply more vertical spacing between
-paragraphs or such in a document — that is more properly done
+paragraphs or such in a document; that is of course more properly done
 with CSS.
  
 Sometimes it might be easier to use the preformatted text block
@@ -287,9 +301,8 @@ of some text is desired to be on a line by itself, but this is
 just a styling issue, it can be surrounded by a <code>&lt;span&gt;</code> element
 and set to display as a block level element.
  
-So for example you could write the Opera contact address seen
-earlier in this article when talking about the <code>&lt;address&gt;</code> element like
-this instead:
+For example, you could write the Opera contact address seen
+earlier in this article like this instead:
  
 <syntaxhighlight lang="html5"><p>Our company address: </p>
 <address>
@@ -298,7 +311,7 @@ NO-0175 OSLO,<br>NORWAY
 </address></syntaxhighlight>
 
 Of course, if you are writing XHTML style syntax rather than HTML, the element
-should be self-closing, like so: <syntaxhighlight><br /></syntaxhighlight>
+should be self-closing: <code>&lt;br /&gt;</code>.
 
 == Horizontal rules ==
  
@@ -310,7 +323,7 @@ Whilst some argue that this is inherently non-semantic and purely
 a visual, presentational effect, there is actually some precedent
 in literature for such an element to exist. Within a chapter (which
 could be described as a section within a book), a horizontal rule
-will appear between scenes that occur in different times and/or 
+may appear between scenes that occur in different times and/or 
 places. Also, poetry can use decorative breaks to separate different
 stanzas of the poem.
  
@@ -322,7 +335,7 @@ The <code>&lt;hr&gt;</code> element has no uncommon attributes and should be sty
 using CSS if the default appearance is unsatisfactory.
  
 Also, like the line break, if you are writing XHTML style syntax and not HTML,
-use the self-closing form — &lt;hr /&gt;.
+use the self-closing form:  <code>&lt;hr /&gt;</code>.
  
 == Changes to documents (inserting, deleting and outdated content) ==
  
@@ -341,13 +354,13 @@ edits.
  
 If the reason for the change is stated in the page or elsewhere on
 the web, you should link to that document or fragment in the <code>cite</code>
-attribute. This effectively says “This change happened because of
-this reason.”
+attribute. This effectively says "This change happened for
+this reason."
  
 You can also indicate the time at which the change was made by
 using a <code>datetime</code> attribute. The value should be an ISO-standard
-timestamp, which is generally of the form “YYYY-MM-DD HH:MM:SS
-±HH:MM” ([http://en.wikipedia.org/wiki/ISO_8601 more information is available on wikipedia]).
+timestamp, which is generally of the form "YYYY-MM-DD HH:MM:SS
+±HH:MM". See [http://en.wikipedia.org/wiki/ISO_8601 this Wikipedia article] for more information.
  
 An example using both attributes:
  
@@ -359,10 +372,16 @@ cite="/changes.html#revision-4">C. A. R. Hoare</ins></cite>
 said: <q>premature optimization is the root of all 
 evil</q>.</p></syntaxhighlight>
 
-
-In addition, we can also use the <code>&lt;s&gt;</code> element to markup content that is outdated, perhaps if you want to mark it for updating or deletion. For example:
+We can also use the <code>&lt;s&gt;</code> element to markup content that is outdated, perhaps if you want to mark it for future updating 
+or deletion. For example:
 
 <syntaxhighlight lang="html5"><p><s>The president of the USA is currently Barack Obama</s>.</p></syntaxhighlight>
+
+==Conclusion==
+Although the elements in this article are less well known than some of their fellows,
+they are no less useful. You should of course use whichever elements are appropriate to the content they mark up,
+regardless of popularity. Usage promotes familiarity, and familiarity promotes usage!
+
 }}
 {{Notes_Section
 |Usage=
