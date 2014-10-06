@@ -1,15 +1,20 @@
-{{Page_Title|Lesser-known semantic elements}}
+{{Page_Title|Lesser known semantic elements}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
-
+|Editorial notes=dag
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article discusses some of the lesser known and more
 infrequently used semantic elements available in HTML.
 }}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
  
 In this article we will look at some of the more obscure
@@ -359,7 +364,11 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 
 <syntaxhighlight lang="html5"><p><s>The president of the USA is currently Barack Obama</s>.</p></syntaxhighlight>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -382,11 +391,13 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}{{Compatibility Table Desktop Row
 |Feature=<address>
 |Chrome_supported=Yes
+|Chrome_version=
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
@@ -412,22 +423,30 @@ In addition, we can also use the <code>&lt;s&gt;</code> element to markup conten
 |Chrome_prefixed_supported=No
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=
 |Firefox_prefixed_supported=No
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=No
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=
 |Opera_prefixed_supported=No
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=
 |Safari_prefixed_supported=No
 |Safari_prefixed_version=
 }}
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
