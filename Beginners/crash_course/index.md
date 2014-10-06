@@ -97,7 +97,7 @@ So, in essence, the code becomes like this:
 }
 </syntaxHighlight>
 
-As you can easily understand, we styled the important class and also the '''#alphaParticle". What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
+As you can easily understand, we styled the important class and also the ''#alphaParticle". What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
 
 == An HTML document ==
 
