@@ -1,4 +1,4 @@
-{{Page_Title|Part 2: A crash course in web site code}}
+{{Page_Title|Part 2: A crash course in website code}}
 {{Flags
 |State=Almost Ready
 |Editorial notes=(Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)
