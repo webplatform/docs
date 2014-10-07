@@ -6,9 +6,9 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Animation sequences are represented by the AnimationSequence interface.}}
 {{API_Object
-|Subclass_of=AnimationNode
+|Subclass_of=apis/web_animations/AnimationGroup
 |Overview=
 }}
 {{Examples_Section
