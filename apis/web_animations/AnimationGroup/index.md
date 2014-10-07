@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Animation groups are represented by the AnimationGroup interface.
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Animation groups are represented by the AnimationGroup interface.}}
 {{API_Object
 |Subclass_of=AnimationNode
 |Overview=
