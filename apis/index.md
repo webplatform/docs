@@ -1,3 +1,35 @@
+{{Page_Title|Web Animations API}}
+{{Flags
+|State=In Progress
+|Editorial notes=
+|Checked_Out=Yes
+}}
+{{Standardization_Status|W3C Editor's Draft}}
+{{API_Name}}
+{{Summary_Section}}
+{{API_Listing}}
+{{Concept_Listing
+|Query=[[Category:API]][[Category:API_Listings]]
+|Use_page_title=No
+|List_all_subpages=No
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
 =APIs=
 
 ==Summary==
@@ -19,11 +51,7 @@ Most of the APIs, however, are designed to be used right in your own code. Below
 
 == List of all APIs ==
 
-{{Concept_Listing
-|Query=[[Category:API]][[Category:API_Listings]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
+
 
 ==Contributing to the API documentation==
 
