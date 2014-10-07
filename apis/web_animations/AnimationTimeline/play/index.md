@@ -32,7 +32,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|API, Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
