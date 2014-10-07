@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Timing parameters for an AnimationNode are collected together under the AnimationTiming type.}}
 {{API_Object
-|Subclass_of=AnimationTimingReadOnly
+|Subclass_of=apis/web_animations/AnimationTimingReadOnly
 |Overview=
 }}
 {{Examples_Section
