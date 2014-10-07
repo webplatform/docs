@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls. }}
 {{API_Object
 |Subclass_of=
 |Overview=
