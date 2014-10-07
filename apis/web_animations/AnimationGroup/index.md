@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=
+|Editorial notes=Animation groups are represented by the AnimationGroup interface.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
