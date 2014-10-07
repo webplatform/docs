@@ -24,7 +24,7 @@ Return a new Animation object created by calling the Animation constructor with 
 |Parameters=
 |Method_applies_to=apis/web animations/Animation
 |Example_object_name=myAnimation
-|Return_value_name=myMimic
+|Return_value_name=myMiniMe
 |Javascript_data_type=
 |Return_value_description=Return a new Animation object created by calling the Animation constructor with parameters Animation(source.target, cloned effect, cloned timing).
 }}
