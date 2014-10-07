@@ -6,14 +6,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationNode
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
-|Return_value_description=Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
+|Javascript_data_type=void
+|Return_value_description=
 |Example_value_name=
 }}
 {{Examples_Section
