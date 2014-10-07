@@ -13,7 +13,9 @@
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=
-|Return_value_description=
+|Return_value_description=Type:AnimationGroup
+
+The parent animation group of this animation node or null if this animation node does not have a parent animation group.
 |Example_value_name=
 }}
 {{Examples_Section
@@ -33,7 +35,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
