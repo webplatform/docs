@@ -1,7 +1,7 @@
 {{Page_Title|Pointer Events Primer}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Almost Ready
+|Editorial notes=dag
 |Checked_Out=No
 |High-level issues=Stub, Deletion Candidate, Merge Candidate, Split Candidate, Move Candidate, Copyright Issue, Undescriptive Title, Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Outdated, Incomplete, Errors, Not Neutral, Grammar/Spelling, Cleanup, Broken Links, Compatibility Incomplete, Examples Needed, Examples Errors, Examples Best Practices, Accessibility, Needs Summary
