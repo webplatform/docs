@@ -20,7 +20,7 @@ usability and accessibility. We won't go into styling menus yet, but this articl
 
 == the HTML5 <code>&lt;nav&gt;</code> element ==
 
-HTML5 defines a <code>&lt;nav&gt;</code> element, which can used to contain the primary navigation of a website, be it a list of links or a form 
+HTML5 defines a <code>&lt;nav&gt;</code> element that can be used to contain the primary navigation of a website, be it a list of links or a form 
 element such as a search box. This is a good idea. Previously, we would have contained the navigation block inside something like <code>&lt;div 
 id="navigation"&gt;</code>. While this works fine for styling purposes, it is a <code>&lt;div&gt;</code>, and therefore semantically anonymous. 
 The <code>&lt;nav&gt;</code> element provides a consistent way to unambiguously define the primary navigation areas. This is good for both search 
@@ -64,29 +64,29 @@ Using <code>&lt;nav&gt;</code> and lists to create menus works well for several 
 You nest lists by embedding the nested list inside the <code>&lt;li&gt;</code> element, not after it. You can see a correct and an incorrect 
 example below.
  
-Notice that browsers display both examples in the same way. Browser display should never be an indicator for the quality of your code. An invalid HTML construct will be hard to style, add behaviour to with JavaScript, or convert to another format. The structure of nested ULs should always be 
+Notice that browsers display both examples in the same way. Browser display should never be an indicator for the quality of your code. An invalid HTML construct will be hard to style, add behaviour to with JavaScript, or convert to another format. The structure of nested ULs should always be: 
 <pre>
-<code>&lt;ul&gt;
+&lt;ul&gt;
   &lt;li&gt;
     &lt;ul&gt;
       &lt;li&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</code> 
+&lt;/ul&gt;
 </pre>
 
-and never 
+and never: 
 
 <pre>
-<code>&lt;ul&gt;
+&lt;ul&gt;
   &lt;li&gt;
   &lt;/li&gt;
   &lt;ul&gt;
     &lt;li&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
-&lt;/ul&gt;</code>
+&lt;/ul&gt;
 </pre>
 
 == The need for flexibility ==
@@ -167,11 +167,11 @@ There aren't many surprises here, at least not from a pure HTML point of view. I
 with CSS and adding behaviour via JavaScript. One important thing to consider is how to highlight the current document in the menu, to give the 
 user a sense of being in a particular place, and that they are changing location (even though in reality they aren't, unless of course they are 
 using a mobile device to browse the Web!). In this case we are just removing the link to the current page &mdash; this makes sense, as you don't 
-need to link to the same document you are on, and it makes it clear where you are in the menu. We'll look that next.
+need to link to the same document you are on, and it makes it clear where you are in the menu. We'll look at that next.
  
 ==== Providing visitors with a "You are here" feeling ====
  
-One golden rule of web development and navigation is that the current document should never link to itself, and its link should be obviously 
+One golden rule of web development and navigation is that the current document should never link to itself, and its link should be visibly 
 different from the other entries in the menu. This is important as it gives the visitors something to hold on to and tells them where they are on 
 their journey through your site. There are edge cases like web applications, permalinks in blogs, and so-called "one page websites", but in 
 most cases a link to the document you are already viewing is redundant and confusing to the visitor.
@@ -250,15 +250,15 @@ link to itself, and you shouldn't offer links that lead nowhere.
 In most cases an ordered or unordered list is a sufficient HTML construct for menus, especially as the logical order and nesting also allows 
 for styling with CSS very nicely. There are, however, some situations that may require different design techniques.
  
-=== Setting hotspots with image maps ===
+=== Creating hotspots with image maps ===
  
-One technique is client-side image maps. Image maps turn an image into a menu by turning sections of the images into interactive areas that you 
-can link to different documents. 
-For example, using an image map, a user could navigate by clicking the different sections of the triangle as shown in Figure 3.
+One technique is to use a client-side ''image map''. Image maps turn an image into a menu by turning sections of the images into 
+interactive areas that you can link to different documents. 
+For example, using an image map, a user could navigate by clicking the different sections of the triangle, as shown in Figure 3.
 
 [[Image:menus-fk.png|Screenshot of an image with hotspots]]
  
-''Figure 3: By defining a map with area elements you can turn parts of an image into interactive elements.''
+''Figure 3: By defining a map with area elements you can turn parts of an image into interactive links.''
  
 You can turn any image into a menu by defining a map with different areas (also called hotspots). You give the map a <code>name</code> attribute and 
 connect the image and the map using the <code>usemap</code> attribute on the <code>&lt;img&gt;</code> element. The code in our example looks like 
