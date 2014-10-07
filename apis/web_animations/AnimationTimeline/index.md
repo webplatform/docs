@@ -1,4 +1,4 @@
-{{Page_Title|AnimationTimeline}}
+{{Page_Title|Animation Timeline Object}}
 {{Flags
 |State=In Progress
 |Editorial notes=
@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Representation of a timeline, including the document timeline. }}
+{{Summary_Section|Representation of a timeline, including the document timeline.}}
 {{API_Object
 |Subclass_of=
 |Overview=
