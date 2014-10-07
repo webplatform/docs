@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Javascript programming interface for modeling synchronizing and timing the changes to a web page's presentation. }}
+{{Summary_Section|Javascript programming interface for modeling synchronizing and timing the changes to a web page's presentation.}}
 {{API_Listing}}
 {{Concept_Listing
 |Query=
@@ -20,7 +20,7 @@
 }}
 {{See_Also_Section
 |Manual_links=
-|External_links=
+|External_links=http://www.w3.org/TR/web-animations/
 |Manual_sections=
 }}
 {{Topics|API}}
