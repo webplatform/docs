@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Animation nodes are represented in the Web Animations API by the AnimationNode interface.}}
 {{API_Object
 |Subclass_of=
 |Overview=
