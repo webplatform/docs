@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Animation effects are represented by the AnimationEffect interface. AnimationEffect is an abstract interface of which several concrete subinterfaces are provided.}}
 {{API_Object
 |Subclass_of=
 |Overview=
