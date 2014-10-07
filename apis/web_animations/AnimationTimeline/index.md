@@ -1,4 +1,4 @@
-{{Page_Title|Animation Timeline Object}}
+{{Page_Title|AnimationTimeline}}
 {{Flags
 |State=In Progress
 |Editorial notes=
@@ -28,7 +28,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics|Web Animations}}
+{{Topics|API, Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
