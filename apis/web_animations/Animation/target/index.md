@@ -12,7 +12,6 @@
 |Read_only=No
 |Example_object_name=myAnimation
 |Return_value_name=myTarget
-|Javascript_data_type=
 |Return_value_description=returns an apis/web_animations/Animatable object. 
 |Example_value_name=
 }}
