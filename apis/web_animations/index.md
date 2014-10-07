@@ -19,11 +19,12 @@
 |Import_Notes=
 }}
 {{See_Also_Section
+|Topic_clusters=Animation
 |Manual_links=
 |External_links=http://www.w3.org/TR/web-animations/
 |Manual_sections=
 }}
-{{Topics|API}}
+{{Topics|API, Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
