@@ -12,7 +12,7 @@
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
+|Javascript_data_type=AnimationEffect
 |Return_value_description=
 |Example_value_name=
 }}
