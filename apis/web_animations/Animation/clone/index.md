@@ -23,10 +23,10 @@ Return a new Animation object created by calling the Animation constructor with 
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/Animation
-|Example_object_name=
-|Return_value_name=
+|Example_object_name=myAnimation
+|Return_value_name=myMimic
 |Javascript_data_type=
-|Return_value_description=
+|Return_value_description=Return a new Animation object created by calling the Animation constructor with parameters Animation(source.target, cloned effect, cloned timing).
 }}
 {{Examples_Section
 |Not_required=No
