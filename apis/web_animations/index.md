@@ -9,9 +9,9 @@
 {{Summary_Section|Javascript programming interface for modeling synchronizing and timing the changes to a web page's presentation.}}
 {{API_Listing}}
 {{Concept_Listing
-|Query=
+|Query=[[Category:Web Animations]][[Category:API_Objects]]
 |Use_page_title=No
-|List_all_subpages=No
+|List_all_subpages=Yes
 }}
 {{Notes_Section
 |Usage=
