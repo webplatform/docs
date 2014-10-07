@@ -1,4 +1,4 @@
-{{Page_Title|AnimationPlayer Object}}
+{{Page_Title|AnimationPlayer}}
 {{Flags
 |State=In Progress
 |Editorial notes=
