@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object
-|Subclass_of=
+|Subclass_of=AnimationTimingProperties
 |Overview=
 }}
 {{Examples_Section
