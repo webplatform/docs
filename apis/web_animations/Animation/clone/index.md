@@ -6,19 +6,27 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|clone
-Creates a copy of this Animation object using the following procedure.
+{{Summary_Section|Creates a copy of this Animation 
+
+
+The following procedure is used when cloning the animation. 
 
 Let source be the Animation object to clone, that is, this object.
+
 Let cloned timing be a new AnimationTimingInput object whose members are assigned the value of the attribute with the same name on source.timing.
+
 The AnimationEffect is cloned depending on the type of source.effect as follows,
+
 If source.effect is an Animation object,
 Let cloned effect be the result of calling source.effect.clone().
+
 If source.effect is an EffectCallback object,
 Let cloned effect be source.effect.
+
 Otherwise,
 Let cloned effect be null.
 Return a new Animation object created by calling the Animation constructor with parameters Animation(source.target, cloned effect, cloned timing).
+
 }}
 {{API_Object_Method
 |Parameters=
