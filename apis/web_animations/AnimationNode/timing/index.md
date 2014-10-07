@@ -9,12 +9,12 @@
 {{Summary_Section|Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationNode
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=void
-|Return_value_description=
-|Example_value_name=
+|Read_only=Yes
+|Example_object_name=myAnimationNode
+|Return_value_name=myTiming
+|Javascript_data_type=
+|Return_value_description=type AnimationTiming object
+|Example_value_name=myTiming
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,6 +29,7 @@
 |Specifications=
 }}
 {{See_Also_Section
+|Topic_clusters=Animation
 |Manual_links=
 |External_links=
 |Manual_sections=
