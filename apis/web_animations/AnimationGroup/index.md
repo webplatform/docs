@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Animation groups are represented by the AnimationGroup interface.}}
 {{API_Object
-|Subclass_of=AnimationNode
+|Subclass_of=apis/web_animations/AnimationNode
 |Overview=
 }}
 {{Examples_Section
