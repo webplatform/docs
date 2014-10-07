@@ -11,17 +11,7 @@
 }}
 {{API_Object
 |Subclass_of=
-|Overview=dictionary AnimationTimingProperties {
-    double                             delay = 0;
-    double                             endDelay = 0;
-    FillMode                           fill = "auto";
-    double                             iterationStart = 0.0;
-    unrestricted double                iterations = 1.0;
-    (unrestricted double or DOMString) duration = "auto";
-    double                             playbackRate = 1.0;
-    PlaybackDirection                  direction = "normal";
-    DOMString                          easing = "linear";
-};
+|Overview=
 }}
 {{Examples_Section
 |Not_required=No
