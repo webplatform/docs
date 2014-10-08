@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -49,13 +51,7 @@
  }
  
  document.write(RegExpPropDemo("g"));
-}}{{Single Example
-|Language=JavaScript
-|Description=Following is the resulting output.
-|Code=global: true
- ignoreCase: false
- multiline: false
- Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -63,14 +59,21 @@
 
 The Unicode flag, when used, indicates …
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
+|Topic_clusters=Javascript
 |Manual_links=* [[javascript/regular expression/global{{!}}global Property (Regular Expression)]]
 * [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 * [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
+|External_links=* [https://mathiasbynens.be/notes/es6-unicode-regex Unicode-aware regular expressions in ECMAScript 6]
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Property
@@ -78,7 +81,6 @@ The Unicode flag, when used, indicates …
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
