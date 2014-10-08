@@ -21,7 +21,7 @@
 |Description=
 |Code=Math.ceil(0.4); // 1
 Math.ceil(1.9); // 2
-Math.ceil(3); // 3
+Math.ceil(3);   // 3
 |LiveURL=
 }}
 }}
