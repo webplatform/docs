@@ -72,7 +72,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}[[aria/attributes/aria-invalid|'''ariaInvalid''']]
 {{!}}Sets or retrieves the error state of this element.
 {{!}}-
-{{!}}'''ariaLabel'''
+{{!}}[[aria/attributes/aria-invalid|'''ariaLabel''']]
 {{!}}Defines a string value that labels the current element. See also aria-labelledby.
 {{!}}-
 {{!}}[[aria/attributes/aria-labelledby|'''ariaLabelledby''']]
