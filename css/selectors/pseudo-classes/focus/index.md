@@ -12,7 +12,7 @@
 
 There are several ways to give focus to an element:
 * Designate the element with a pointing device. Even elements that do not typically accept input, such as '''[[html/elements/div|div]]''' and '''[[html/elements/body|body]]''' elements, receive focus when clicked with the mouse.
-* Navigate through the document with the TAB and Shift+TAB keys. The document’s author may define a tabbing order that specifies the order in which elements will receive focus with the [[html/attributes/tabindex|tabindex]] attribute.
+* Navigate through the document with the TAB and Shift+TAB keys. The document’s author may define a tabbing order that specifies the order in which elements will receive focus with the [[html/attributes/tabIndex|tabIndex]] attribute.
 * Select an element through a [[html/attributes/accessKey|'''keyboard shortcut''']].
 }}
 {{Examples_Section
