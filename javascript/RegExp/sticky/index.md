@@ -4,10 +4,10 @@
 |Editorial notes=Needs to be moved under javascript/RegExp
 |Checked_Out=No
 }}
-{{Summary_Section|Returns a Boolean value indicating the state of the sticky flag ( '''y''' ) used with a regular expression. Default is '''false'''. Read-only.}}
+{{Summary_Section|Returns a Boolean value indicating the state of the sticky flag ( '''y''' ) used with a regular expression. Default is <code>false</code>. Read-only.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=rgExp.'''global'''
+|Format=rgExp.'''sticky'''
 }}
 |Values=
 }}
@@ -16,7 +16,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example illustrates the use of the sticky property.
+|Description=The following example illustrates the use of the <code>sticky</code> property.
 |Code=function RegExpPropDemo(flag){
     // The flag parameter is a string that contains
     // g, i, or m.  The flags can be combined.
@@ -61,9 +61,9 @@
 {{Remarks_Section
 |Remarks=The required rgExp reference is an instance of a '''Regular Expression''' object.
 
-The <code>sticky</code> property returns '''true''' if the sticky flag is set for a regular expression, and returns '''false''' if it is not.
+The <code>sticky</code> property returns <code>true</code>' if the sticky flag is set for a regular expression, and returns <code>false</code> if it is not.
 
-The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
+The <code>sticky</code> flag, when used, indicates …
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
