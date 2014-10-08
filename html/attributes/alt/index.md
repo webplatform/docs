@@ -10,11 +10,9 @@
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLImageElement|HTMLImageElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images.
+|Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise and accurate label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images. The alt text is read by screan readers or displayed in place of the image, if the resource is not found. If no alt tag is given, a screen reader can only read "image" or the file name.
 
-The alt tag text should be displayed in place of the image if the resource is not found.
-
-For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
+The alt text should be useful in the context it's displayed. For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
 
 If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element.
 }}
