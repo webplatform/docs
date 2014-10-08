@@ -19,11 +19,18 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the Unicode property.
-|Code=// Note: `𝌆` is U+1D306 TETRAGRAM FOR CENTRE, a supplementary Unicode symbol.
+|Code=// https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot
+// Note: `𝌆` is U+1D306 TETRAGRAM FOR CENTRE, a supplementary Unicode symbol.
 var string = 'a𝌆b';
+
+console.log(/a.b/.unicode);
+// → false
 
 console.log(/a.b/.test(string));
 // → false
+
+console.log(/a.b/u.unicode);
+// → true
 
 console.log(/a.b/u.test(string));
 // → true
@@ -31,7 +38,7 @@ console.log(/a.b/u.test(string));
 var match = string.match(/a(.)b/u);
 console.log(match[1]);
 // → '𝌆'
-|LiveURL=https://mathiasbynens.be/notes/es6-unicode-regex
+|LiveURL=https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot
 }}
 }}
 {{Remarks_Section
