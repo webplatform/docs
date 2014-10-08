@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=
+|Editorial notes=Not sure why this page isn't ready. Please review.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
