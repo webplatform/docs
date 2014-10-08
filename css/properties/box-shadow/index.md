@@ -91,7 +91,6 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 |Code=article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-	
    border-radius: 10px;
 }
 |LiveURL=http://code.webplatform.org/gist/5259470
