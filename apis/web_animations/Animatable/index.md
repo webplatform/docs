@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Objects that may be the target of an Animation implement the Animatable interface.}}
+{{Summary_Section|Objects that may be the target of an [[apis/web_animations/Animation|'''Animation''']] implement the Animatable interface.}}
 {{API_Object
 |Subclass_of=
 |Overview=
