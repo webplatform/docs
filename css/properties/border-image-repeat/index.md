@@ -45,6 +45,7 @@
 |LiveURL=http://code.webplatform.org/gist/5620804
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=/* This general class will apply the pattern to the containers */
 .pattern {
 	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
@@ -76,6 +77,8 @@
 }
 |LiveURL=http://code.webplatform.org/gist/5620804
 }}{{Single Example
+|Language=
+|Description=
 |Code=[[File:border-image.png|border-image demo image]]
 
 <code>border-image-repeat: stretch;</code>
@@ -92,28 +95,27 @@
 [[File:bi-space.png|border-image space demo]]
 
 /* Space is not supported by any browser */
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=If one velue is specified, it is used for all four sides. If two values are specified, the first is used for the horizontal sides, and the second is used for vertical ones.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#the-border-image-repeat
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
 |Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -122,4 +124,11 @@
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-image-repeat
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
