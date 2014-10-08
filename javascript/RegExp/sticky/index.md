@@ -4,7 +4,7 @@
 |Editorial notes=Needs to be moved under javascript/RegExp
 |Checked_Out=No
 }}
-{{Summary_Section|Returns a Boolean value indicating the state of the Unicode flag ( '''u''' ) used with a regular expression. Default is '''false'''. Read-only.}}
+{{Summary_Section|Returns a Boolean value indicating the state of the sticky flag ( '''y''' ) used with a regular expression. Default is '''false'''. Read-only.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=rgExp.'''global'''
@@ -16,9 +16,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example illustrates the use of the Unicode property. If you pass '''u''' in to the function shown below, all instances of the word "the" are replaced with the word "a". Note that the "The" at the beginning of the string is not replaced because the '''i''' (ignore case) flag is not passed to the function.
-
-This function displays the condition of the properties associated with the allowable regular expression flags, which are '''g''' , '''i''' , and '''m'''. The function also displays the string with all replacements made.
+|Description=The following example illustrates the use of the sticky property.
 |Code=function RegExpPropDemo(flag){
     // The flag parameter is a string that contains
     // g, i, or m.  The flags can be combined.
@@ -63,7 +61,7 @@ This function displays the condition of the properties associated with the allow
 {{Remarks_Section
 |Remarks=The required rgExp reference is an instance of a '''Regular Expression''' object.
 
-The <code>unicode</code> property returns '''true''' if the global flag is set for a regular expression, and returns '''false''' if it is not.
+The <code>sticky</code> property returns '''true''' if the sticky flag is set for a regular expression, and returns '''false''' if it is not.
 
 The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
 }}
