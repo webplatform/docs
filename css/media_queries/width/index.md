@@ -11,6 +11,8 @@
 |Content=The width media query returns the width of the layout viewport, also called the initial containing block. This is equal to the default width of the html element. Thus, it tells you how much space the browser allows your CSS layout to take.
 
 The width media query is one of the two vital ingredients of responsive web design; the other one is the [[tutorials/mobile_viewport|meta viewport tag]]. The width media query is very reliable across browsers, and using it will not raise compatibility issues.
+
+The width media query is always, in all browsers, equal to document.documentElement.clientWidth.
 }}
 {{Examples_Section
 |Not_required=No
