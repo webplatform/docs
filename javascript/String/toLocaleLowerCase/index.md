@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Converts all alphabetic characters to lowercase, taking into account the host environment's current locale.}}
@@ -11,22 +11,38 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var hello = "wOrLd";
+var foobar = hello.toLocaleLowerCase();
+console.log(hello); // "wOrLd"
+console.log(foobar); // "world"
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required stringVar reference is a String object or string literal.
 
-The '''toLocaleLowerCase''' method converts the characters in a string, taking into account the host environment's current locale. In most cases, the result is the same as the result of the '''toLowerCase''' method. Results differ if the rules for a language conflict with the regular Unicode case mappings.
+The '''toLocaleLowerCase''' method converts the characters in a string, taking into account the host environment's current locale. In most cases, the result is the same as the result of the '''toLowerCase''' method. Results differ if the rules for a language conflict with the regular Unicode case mappings, such as Turkish.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/String/toLocaleUpperCase{{!}}toLocaleUpperCase Method (String)]]
 * [[javascript/String/toLowerCase{{!}}toLowerCase Method]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
