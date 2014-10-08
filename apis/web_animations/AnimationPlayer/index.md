@@ -16,9 +16,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
+|Usage=This is a test of the notes usage section
+|Notes=This is part of the note optional
+|Import_Notes=this is an important noted
 }}
 {{Related_Specifications_Section
 |Specifications=
