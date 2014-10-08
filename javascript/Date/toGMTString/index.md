@@ -39,7 +39,6 @@ According to the specification, ''toGMTString'' and ''toUTCString'' should be th
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Topic_clusters=Deprecated
 |Manual_links=* [[javascript/Date/toString{{!}}toString Method (Date)]]
 * [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
 * [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
