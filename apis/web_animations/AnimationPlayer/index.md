@@ -12,17 +12,11 @@
 |Overview=
 }}
 
-This is a test a test a test
-
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section
-|Usage=This is a test of the notes usage section
-|Notes=This is part of the note optional
-|Import_Notes=this is an important noted
-}}
+
 {{Related_Specifications_Section
 |Specifications=
 }}
