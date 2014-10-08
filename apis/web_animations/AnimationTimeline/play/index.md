@@ -8,7 +8,13 @@
 {{API_Name}}
 {{Summary_Section|Creates a new [[apis/web_animations/AnimationPlayer|'''AnimationPlayer'''']] object associated with this timeline that begins playback as soon as it is ready.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Index=0
+|Name=source
+|Data type=String
+|Description=If source is specified, it will be used as the player’s source content.
+|Optional=Yes
+}}
 |Method_applies_to=apis/web_animations/AnimationTimeline
 |Example_object_name=
 |Return_value_name=
