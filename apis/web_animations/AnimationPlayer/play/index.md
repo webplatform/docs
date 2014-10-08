@@ -1,18 +1,18 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Unpauses the player and rewinds if it has finished playing using the procedure to play a player for this object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/AnimationPlayer
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
+|Example_object_name=element
+|Return_value_name=myAnimationPlayer
+|Javascript_data_type=void
 |Return_value_description=
 }}
 {{Examples_Section
@@ -32,7 +32,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
