@@ -17,26 +17,40 @@
 |Description=The numeric value.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=// Returns an Object
 var thousand = new Number(1000);
 console.log(thousand.valueOf() === 1000);
+
+// remember, objects are not primitives
+console.log(thousand !== 1000);
+// non-strict comparison calls valueOf() implicitly
+console.log(thousand == 1000);
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
+|Description=
 |Code=// Returns an Object
 var googol = new Number(1e+100);
 console.log(googol.valueOf() === 1e+100);
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
+|Description=
 |Code=// Alfred B. Taylor octal notation for the decimal number 10
 var untydu = new Number(012);
 console.log(untydu.valueOf() === 10);
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
+|Description=
 |Code=// Converting decimal variables to hexadecimal notation
 // by http://stackoverflow.com/users/444910/mystifeid
 function decimalToHex(d) {
@@ -47,11 +61,14 @@ function decimalToHex(d) {
 }
 console.log(decimalToHex(127) === "00007f");
 console.log(parseInt("00007f", 16) === 127);
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
+|Description=
 |Code=// Infinity JavaScript Number constant
 var andBeyond = 3 / 0;
 console.log(andBeyond === Infinity);
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -88,7 +105,11 @@ Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.<br /
 Octal numbers must begin with 0 (zero) followed by one or more octal digits.<br />
 Hexadecimal numbers must begin with 0x.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''Number''' object.
