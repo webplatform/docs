@@ -37,20 +37,40 @@
 |Description=Create a diamond (rhombus) shape
 |Code=border-corner-shape: bevel;
 border-radius: 50%;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Create a trapezoid
 |Code=border-corner-shape: bevel;
 border-radius: 25% / 100% 100% 0 0;
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Backgrounds & Borders Level 4
+|Name=CSS Level 4 - Backgrounds and Borders Module
 |URL=http://dev.w3.org/csswg/css-backgrounds-4/#border-corner-shape
 |Status=W3C Editor’s Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Box Model
+|Manual_links=
+|External_links=* [http://leaverou.github.com/border-corner-shape Preview of border-corner-shape with SVG]
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -112,15 +132,4 @@ border-radius: 25% / 100% 100% 0 0;
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|External_links=* [http://leaverou.github.com/border-corner-shape Preview of border-corner-shape with SVG]
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
