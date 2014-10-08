@@ -1,16 +1,17 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The circle element is an SVG basic shape, used to create circles based on a center point and a radius.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,9 +21,11 @@
 |Code=<svg width="400" height="400">
   <circle cx="100" cy="100" r="50" fill="tomato" />
 </svg>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
@@ -89,16 +92,19 @@ The '''SVGCircleElement''' object has these methods:
 |Name=SVG 1.1
 |URL=http://www.w3.org/TR/SVG/shapes.html#CircleElement
 |Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=SVG Tiny 1.2
+|URL=http://www.w3.org/TR/SVGTiny12/shapes.html#CircleElement
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -106,4 +112,11 @@ The '''SVGCircleElement''' object has these methods:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
