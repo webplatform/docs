@@ -9,13 +9,19 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the '''style''' object to set the document body text font to Verdana.
 |Code=document.body.style.fontFamily {{=}} "Verdana"
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=This example positions all absolutely positioned images in the given document at the top of the document.
 |Code=var oImages {{=}} document.all.tags("IMG");
 if (oImages.length) {
@@ -26,7 +32,9 @@ if (oImages.length) {
         }
     }
 }
+|LiveURL=
 }}{{Single Example
+|Language=
 |Description=This example copies the inline style of the second element (<code>div2</code>) to the first (<code>div1</code>) while preserving the styles of the second. The background color of <code>div1</code> is overwritten during the assignment.
 |Code=&lt;DIV ID{{=}}"div1" STYLE{{=}}"background-color:blue;font-weight:bold"&gt;Item 1&lt;/DIV&gt;
 &lt;DIV ID{{=}}"div2" STYLE{{=}}"background-color:red;font-size:18pt;
@@ -34,9 +42,11 @@ if (oImages.length) {
 &lt;SCRIPT&gt;
 div1.style.cssText +{{=}} (';' + div2.style.cssText);
 &lt;/SCRIPT&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Inline styles are CSS assignments that you apply directly to individual HTML elements using the [[html/attributes/STYLE html_attribute|'''STYLE''']] attribute. Use the '''style''' object to examine these assignments and to make new assignments or change existing ones.
 To retrieve the '''style''' object, apply the '''style''' keyword to an <code>element</code> object. To retrieve the current setting for an inline style, apply the corresponding '''style''' property to the '''style''' object.
@@ -917,17 +927,18 @@ languages appear in the object.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Style Attributes
+|URL=http://www.w3.org/TR/css-style-attr/
+|Status=Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -936,4 +947,11 @@ languages appear in the object.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
