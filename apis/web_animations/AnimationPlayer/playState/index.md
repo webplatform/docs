@@ -12,7 +12,7 @@
 |Read_only=Yes
 |Example_object_name=myPlayer
 |Return_value_name=currentState
-|Javascript_data_type=any
+|Javascript_data_type=enum
 |Return_value_description=Returns a value from the AnimationPlayState enumeration. 
 
 enum AnimationPlayState { "idle", "pending", "running", "paused", "finished" };
