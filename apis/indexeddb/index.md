@@ -6,7 +6,7 @@
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|IndexedDB is a client side storage API that persists data in a user's browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.}}
 {{API_Listing}}
@@ -60,7 +60,6 @@ An IndexedDB database is unique for our domain. So if we set up a database only 
 *For Google Chrome, see the [https://developers.google.com/chrome/whitepapers/storage#temporary reference on temporary storage]
 *Internet Explorer will ask the user for permission for Data Stores bigger than 10MB Users can also choose to allow websites to exceed the quota. Users can also change the default 10mb quota in Internet Options > Browsing History > Settings > Caching and Databases. Enterprises can also increase this setting globally or per domain using Group Policy. 
 *Windows 8 Apps Each app has a quota of 250MB. Among all apps on the device, the limit is 4% of the disk size or 20GB, whichever is smaller. For hard drives that are less than 30GB, the limit among all apps on the device is 375MB. Because of the overall quota among all apps, test your app to ensure it functions properly when it can store very little or even no data because other apps consume the overall quota. See: [http://msdn.microsoft.com/en-us/library/windows/apps/jj553412.aspx]
-
 |Import_Notes=
 }}
 {{See_Also_Section
