@@ -61,11 +61,6 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 :
 &lt;/SPAN&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm
-}}{{Single Example
-|Language=CSS
-|Description=
-|Code=
-|LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius View MDN's examples]
 }}
 }}
 {{Notes_Section
