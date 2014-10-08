@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Add compatibility.
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name|s}}
@@ -23,13 +23,15 @@
 |LiveURL=http://code.webplatform.org/gist/604bc1947f655fb863a1
 }}{{Single Example
 |Language=CSS
-|Description=Typical browser default CSS properties for the <code>&lt;dl&gt;</code> element.
-|Code=display: inline;
-text-decoration: line-through;
+|Description=Typical browser default CSS properties for the <code>&lt;s&gt;</code> element.
+|Code=text-decoration: line-through;
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=While [[html/elements/s|'''s''']] and [[html/elements/del|'''del''']] appear to be similar, namely marking obsolete content, but they differ in semantics. [[html/elements/del|'''del''']] marks text that has been removed from the document, but [[html/elements/s|'''s''']] marks text that is to be kept in the document, but made clear that its content is no longer accurate.
+|Notes=The information that the text inside the '''s''' element is not accurate is not conveyed to assistive technologies, like screen readers. Instead it is interpreted like regular text which can lead to confusion. Add clear text that the information is invalid.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -44,20 +46,15 @@ text-decoration: line-through;
 |Relevant_changes=reappeared
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Topic_clusters=HTML
 |Manual_links=* [[html/elements/ins|<code>ins</code>]]
 * [[html/elements/del|<code>del</code>]]
 * [[html/elements/strike|<code>strike</code>]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/s Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535890%28v=vs.85%29.aspx Microsoft Developer Network]
 * http://www.w3.org/TR/html-markup/s.html#s
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -66,4 +63,11 @@ text-decoration: line-through;
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
