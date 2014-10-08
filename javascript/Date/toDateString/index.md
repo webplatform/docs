@@ -12,7 +12,7 @@
 |Values=
 }}
 {{JS_Return_Value
-|Description=String value containing the date, in the current time zone, in a convenient, human readable format.
+|Description=String value containing the date, in the current time zone, in a convenient, human readable format, e.g. <code>Fri May 09 2014</code>
 }}
 {{Examples_Section
 |Not_required=No
