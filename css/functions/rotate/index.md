@@ -10,8 +10,6 @@
 {{CSS_Function
 |Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
 
-The angle must be an integer or decimal number, followed by the letters "deg".
-
 If not specified otherwise, the element rotates around its center. The rotation origin can be specified with the [http://docs.webplatform.org/wiki/css/properties/transform-origin transform-origin property].
 }}
 {{Examples_Section
@@ -34,7 +32,7 @@ If not specified otherwise, the element rotates around its center. The rotation 
 &lt;angle&gt;
 '')</code>
 ===Parameters===
-;''angle'':The angle by which the element is rotated about its origin  (defined by the [[css/properties/transform-origin|'''transform-origin''']] property). This value is expressed as a number followed by a supported angle unit.
+;''angle'':The angle by which the element is rotated about its origin  (defined by the [[css/properties/transform-origin|'''transform-origin''']] property). This value is expressed as an integer or decimal number followed by a supported angle unit.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 }}
