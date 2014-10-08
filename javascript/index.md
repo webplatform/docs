@@ -1,5 +1,4 @@
 {{Page_Title|JavaScript}}
-
 {{Flags
 |State=Unreviewed
 |Editorial notes=Not sure we should have ready on the top level to mention its ready
@@ -32,12 +31,12 @@ Note: If you are completely new to web development, you may want to review our [
 JavaScript is the scripting language of the web, allowing you to add dynamic behaviour to web documents. It was originally used for simple DOM manipulation, style switching and animated effects, but in recent times it has become so much more, with the advent of powerful APIs through the HTML5 specification, and the popularity of 3rd party libraries and applications such as [http://jquery.com/ jQuery], [http://nodejs.org/ Node.js], [http://backbonejs.org/ Backbone.js] and many others. 
 
 * First version: The first official version of JavaScript was called LiveScript, and shipped in Netscape Navigator 2.0 in 1995.
-* Current stable version: JavaScript is based on the ECMAScript specification, published by Ecma international. [http://www.ecma-international.org/ecma-262/5.1/ ECMAScript version 5.1] is seen as the current stable version. 
-* Current and future work: ECMAScript version 6 is currently being worked on, but the development of JavaScript goes far beyond that. There are new APIs being worked on all the time, in places such as the [http://www.w3.org/html/wg/ W3C HTML working group], and new JavaScript libraries appear all the time, on places like [https://github.com/ Github].
+* Current stable version: JavaScript is based on the ECMAScript specification, published by Ecma International. [http://www.ecma-international.org/ecma-262/5.1/ ECMAScript version 5.1] is seen as the current stable version. 
+* Current and future work: ECMAScript version 6 is currently being worked on, but the development of JavaScript goes far beyond that. There are new JavaScript APIs being worked on all the time, in places such as the [http://www.w3.org/html/wg/ W3C HTML working group], and new JavaScript libraries appear all the time, on places like [https://github.com/ GitHub].
 
 ==Contributing to the JavaScript technology==
 
-The standardisation of the ECMAScript language is handled by ECMA TC39, and is called project harmony, see [http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts TC39 latest work]. The best place to go to find out more is the [http://www.ecmascript.org/dev.php ECMAScript development homepage].
+The standardisation of the ECMAScript language is handled by ECMA TC39; see [http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts TC39 latest work]. The best place to go to find out more is the [http://www.ecmascript.org/dev.php ECMAScript development homepage]. The official ECMAScript conformance test suite is called [https://github.com/tc39/test262 test262] — contributions are welcome!
 
 To contribute to other JavaScript-related technologies such as HTML5, [http://jquery.com/ jQuery], and other 3rd party libraries and frameworks, search for the appropriate working group, core team or developers!
 
@@ -49,8 +48,12 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 }}
 
 {{See_Also_Section}}
-{{Notes_Section}}
-{{Topics}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
