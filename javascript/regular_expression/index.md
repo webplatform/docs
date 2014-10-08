@@ -21,7 +21,7 @@ re = '''new RegExp("''' pattern '''"''' [ ''',"''' flags '''"''' ] ''')'''
 }}{{JS Syntax Parameter
 |Name=flags
 |Required=Optional
-|Description=Enclose flag in quotation marks if you use Syntax 2. Available flags, which may be combined, are: g (global search for all occurrences of pattern ) i (ignore case) m (multiline search)
+|Description=Enclose flag in quotation marks if you use Syntax 2. Available flags, which may be combined, are: g (global search for all occurrences of pattern ) i (ignore case) m (multiline search) y (sticky) u (Unicode)
 }}
 }}
 {{JS_Return_Value}}
