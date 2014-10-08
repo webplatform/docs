@@ -111,7 +111,22 @@ p {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/CSS1/#border
+|Status=Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=CSS Level 2 (Revision 1)
+|URL=http://www.w3.org/TR/CSS2/box.html#border-shorthand-properties
+|Status=Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=CSS Level 3
+|URL=http://www.w3.org/TR/css3-background/#borders
+|Status=Candidate Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Border, Box Model
