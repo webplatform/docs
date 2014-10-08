@@ -77,12 +77,23 @@ Como en el ejemplo siguiente:
 
 <syntaxhighlight lang="html5"><p>HTML 4.01 es la soló versión de HTML debes usar
  cuando estás creando una página web nueva, de acuerdo de la 
-especificación :</p>
+especificación:</p>
 <blockquote cite="http://www.w3.org/TR/html401/">
 <p>Esto documento reemplaza versiones anteriores de HTML 4.0,
  pero W3C va continuar hacer esas especificaciones y
  su DTDs disponible a  el sitio web de W3C.</p>
 </blockquote></syntaxhighlight>
+
+Dependiente en el estilo, el content puede parece como esto en el navegador web:
+
+<p>HTML 4.01 es la soló versión de HTML debes usar
+ cuando estás creando una página web nueva, de acuerdo de la 
+especificación:</p>
+<blockquote cite="http://www.w3.org/TR/html401/">
+<p>Esto documento reemplaza versiones anteriores de HTML 4.0,
+ pero W3C va continuar hacer esas especificaciones y
+ su DTDs disponible a  el sitio web de W3C.</p>
+</blockquote>
 
 El atributo <code>cite</code> no es necesario en el caso de que la cita se tome de una novela, una revista o de alguna otra forma de contenido fuera de línea.
 
