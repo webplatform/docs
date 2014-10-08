@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=Review import; update/improve example; update descriptions
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
