@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
 |Checked_Out=Yes
 }}
@@ -9,7 +9,7 @@
 {{Summary_Section}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/web animations/AnimationEffects
+|Method_applies_to=apis/web_animations/AnimationEffect
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=
