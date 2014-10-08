@@ -34,7 +34,7 @@ The <code>async</code> attribute appears at one other place: Attached to a <code
 
 /* 
  * Programmatically created scripts are always asynchronous.
- * Therefore following results in an error:  
+ * Therefore the following results in an error:  
  */
     
 script = document.createElement('script');
