@@ -72,7 +72,7 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#the-border-width
 |Status=Candidate Recommendation
 |Relevant_changes=
