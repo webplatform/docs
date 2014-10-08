@@ -8,8 +8,8 @@
 {{API_Name}}
 {{Summary_Section|Provides additional control over when an external script is being fetched and executed while a document loads.}}
 {{Markup_Attribute
-|Applies_to=
-|Property_applies_to=dom/HTMLElement
+|Applies_to=[[dom/HTMLScriptElement|HTMLScriptElement]]
+|Property_applies_to=dom/HTMLScriptElement
 |Content=Usually <code><script></code> elements bring a browser's HTML parser to a temporary halt until the contained or referenced script has been fetched and has also been fully executed. The <code>async</code> attribute decouples script fetching and execution from the main process of HTML parsing which enables the browser to continue rendering the underlaying page at full speed. 
 A script marked with the <code>async</code> attribute will be fetched and executed at some later point in time upon which the browser is free to decide. In most cases this will be as soon as the browser finds an opportunity to request it. In addition to that such a script will also no longer respect the order in which the <code><script></code> elements were initially declared in the HTML source. This means that there shouldn't be other script that depend or build upon scripts marked as asynchronous.
 It is also important to know that the <code>async</code> attribute only works for externally referenced scripts. When attached to an inline script block this attribute is simply ignored.
@@ -25,14 +25,24 @@ All of the above only applies to scripts declared via HTML markup. For scripts c
 }}
 {{Notes_Section
 |Usage=
-|Notes=Setting a script to run asynchronously can improve performance by unblocking the rest of the document. When async = false, it can preserve execution order to ensure dependent scripts are run in order.
-|Import_Notes====Syntax===
+|Notes=Declaring a script to run asynchronously can improve performance by unblocking the rest of the document.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/scripting-1.html#attr-script-async
 |Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=HTML Imports
+|URL=http://www.w3.org/TR/html-imports/#dfn-import-async-attribute
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related Specification
+|Name=Resource Priorities
+|URL=https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/ResourcePriorities/Overview.html#the-script-element
+|Status=Editor's Draft
 |Relevant_changes=
 }}
 }}
