@@ -16,12 +16,12 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=JavaScript
 |Description=This example uses the '''style''' object to set the document body text font to Verdana.
 |Code=document.body.style.fontFamily {{=}} "Verdana"
 |LiveURL=
 }}{{Single Example
-|Language=
+|Language=JavaScript
 |Description=This example positions all absolutely positioned images in the given document at the top of the document.
 |Code=var oImages {{=}} document.all.tags("IMG");
 if (oImages.length) {
@@ -34,7 +34,7 @@ if (oImages.length) {
 }
 |LiveURL=
 }}{{Single Example
-|Language=
+|Language=JavaScript
 |Description=This example copies the inline style of the second element (<code>div2</code>) to the first (<code>div1</code>) while preserving the styles of the second. The background color of <code>div1</code> is overwritten during the assignment.
 |Code=&lt;DIV ID{{=}}"div1" STYLE{{=}}"background-color:blue;font-weight:bold"&gt;Item 1&lt;/DIV&gt;
 &lt;DIV ID{{=}}"div2" STYLE{{=}}"background-color:red;font-size:18pt;
