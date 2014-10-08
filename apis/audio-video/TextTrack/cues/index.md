@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,39 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=&lt;!DOCTYPE HTML>
+&lt;html>
+&lt;head>
+    &lt;title>Get track example&lt;/title>
+&lt;/head>
+&lt;body>
+    &lt;h1>Get track example&lt;/h1>
+    &lt;video id="video1" controls>
+        &lt;source src="http://ie.microsoft.com/testdrive/Videos/BehindIE9ModernWebStandards/Video.mp4">
+        &lt;track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+    &lt;/video>
+    &lt;p>
+        &lt;button id="mybutton">Show tracks&lt;/button>
+    &lt;/p>
+    &lt;div style="display:block; overflow:auto; height:200px; width:650px;" id="display">&lt;/div>
+
+    &lt;script>
+      document.getElementById("mybutton").addEventListener("click", function () {
+        var myTrack = document.getElementById("entrack").track; // get text track from track element
+        var myCues = myTrack.cues;   // get list of cues
+        for (var i = 0; i &lt; myCues.length; i++) {
+        // append track label
+        document.getElementById("display").innerHTML += (myCues[i].getCueAsHTML().textContent + "&lt;br/>");
+        }
+     }, false);
+    &lt;/script>
+&lt;/body>
+&lt;/html>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
