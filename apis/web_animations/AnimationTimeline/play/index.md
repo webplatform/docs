@@ -12,7 +12,7 @@
 |Index=0
 |Name=source
 |Data type=String
-|Description=If source is specified, it will be used as the player’s source content.
+|Description=If source is specified, it will be used as the newly-created AnimationPlayer’s source content.
 |Optional=Yes
 }}
 |Method_applies_to=apis/web_animations/AnimationTimeline
