@@ -10,14 +10,14 @@
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLScriptElement|HTMLScriptElement]]
 |Property_applies_to=dom/HTMLScriptElement
-|Content=Provides additional control over when an external script is being fetched and executed while a document loads.
+|Content====Declaratively Created Scripts===
 
 Usually <code><script></code> elements bring a browser's HTML parser to a temporary halt until the contained or referenced script has been fetched and has also been fully executed. The <code>async</code> attribute decouples script fetching and execution from the main process of HTML parsing which enables the browser to continue rendering the underlaying page at full speed. 
 A script marked with the <code>async</code> attribute will be fetched and executed at some later point in time upon which the browser is free to decide. In most cases this will be as soon as the browser finds an opportunity to request it. In addition to that such a script will also no longer respect the order in which the <code><script></code> elements were initially declared in the HTML source. This means that there shouldn't be other script that depend or build upon scripts marked as asynchronous.
 It is also important to know that the <code>async</code> attribute only works for externally referenced scripts. When attached to an inline script block this attribute is simply ignored.
 And finally asynchronous scripts are no longer part of the content relevant to firing the <code>DOMContentLoaded</code> event. But they are still part of the global <code>load</code> event.
 
-===Programmatically created Scripts===
+===Programmatically Created Scripts===
 
 All of the above only applies to scripts declared via HTML markup. For scripts created via JavaScript the effects are sort of turned upside down. The first change is that dynamically created scripts always start off by being fully asynchronous, meaning they neither block the HTML parser nor do they respect their order of creation. The effect is the same as if one would set <code>script.async = true;</code>. What is possible here is to instead set <code>script.async = false;</code>. This won't bring the script all the way back to a point where it would block the HTML parser, but it does make the script respect the order of creation. This allows one to work with dependancies between dynamically created scripts. Beware: "order of creation" doesn't factor in any scripts declared via HTML. Declarative scripts and programmatic scripts both live, and stay, in their own worlds.
 
