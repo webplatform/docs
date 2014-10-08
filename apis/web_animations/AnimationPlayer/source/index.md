@@ -12,8 +12,8 @@
 |Read_only=No
 |Example_object_name=element
 |Return_value_name=result
-|Javascript_data_type=
-|Return_value_description=
+|Javascript_data_type=AnimationNode
+|Return_value_description=Returns and AnimationNode object
 |Example_value_name=
 }}
 {{Examples_Section
