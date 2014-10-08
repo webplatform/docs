@@ -66,7 +66,7 @@ The Unicode flag, when used, enables [https://mathiasbynens.be/notes/es6-unicode
 }}
 {{JS Topics
 |JS Page Type=JS Property
-|Applies to=RegExp, Regular Expression
+|Applies to=RegExp
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
