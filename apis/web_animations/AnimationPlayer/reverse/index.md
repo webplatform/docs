@@ -6,13 +6,13 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/AnimationPlayer
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
+|Example_object_name=element
+|Return_value_name=result
+|Javascript_data_type=void
 |Return_value_description=
 }}
 {{Examples_Section
