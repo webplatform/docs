@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=See padding; also verify and then fix "initial value" to "browser-dependent" on padding-*
-|Checked_Out=Yes
+|Editorial notes=
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=the percentage as specified or the absolute length
 |Animatable=Yes
+|CSS object model property=
 |CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
 |Values={{CSS Property Value
 |Data Type=length
@@ -32,21 +33,41 @@
 |LiveURL=http://code.webplatform.org/gist/6948355
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=TD { padding-bottom: 30px; }
 |LiveURL=http://code.webplatform.org/gist/6948398
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS basic box model
 |URL=http://www.w3.org/TR/css3-box/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS 2.1, 8 Box model
 |URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -54,12 +75,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MSDN_link=
-|HTML5Rocks_link=
 }}
