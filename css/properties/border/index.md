@@ -4,7 +4,7 @@
 |Editorial notes=Add specification details and links.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|border-width]], [[css/properties/border-style|border-style]] and [[css/properties/border-color|border-color]], or a subset of these.}}
 {{CSS Property
@@ -111,8 +111,7 @@ p {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
-{{Related Specification
+|Specifications={{Related Specification
 |Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/#borders
 |Status=Candidate Recommendation
