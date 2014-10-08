@@ -24,7 +24,7 @@ All of the above only applies to scripts declared via HTML markup. For scripts c
 ===At one glance===
 
 {| class="wikitable"
-! 
+! Characteristic
 ! Declaratively w/o async
 ! Declaratively w/ async
 ! Programmatically w/o async
