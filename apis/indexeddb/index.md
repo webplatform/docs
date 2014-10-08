@@ -1,4 +1,4 @@
-{{Page_Title|IndexedDB reference}}
+{{Page_Title|IndexedDB}}
 {{Flags
 |State=Almost Ready
 |Editorial notes=Needs spec reference
