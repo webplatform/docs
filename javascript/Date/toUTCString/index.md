@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Summary_Section|Returns a date converted to a string using Universal Coordinated Time (UTC).}}
+{{Summary_Section|Returns a date converted to a string formatted according to UTC conventions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=dateObj.'''toUTCString()'''
@@ -12,27 +12,22 @@
 |Values=
 }}
 {{JS_Return_Value
-|Description=
+|Description=String that contains the date formatted using UTC conventions: <code>Fri, 09 May 2014 00:00:00 GMT</code>
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example illustrates the use of the '''toUTCString''' method.
-|Code=function toUTCStrDemo(){
-    var d, s;                   //Declare variables.
-    d = new Date();             //Create Date object.
-    s = "Current setting is ";
-    s += d.toUTCString() ;       //Convert to UTC string.
-    return(s);                  //Return UTC string.
- }
+|Description=
+|Code=var date = new Date("2014-05-09");
+console.log(date.toUTCString()); // "Fri, 09 May 2014 00:00:00 GMT"
 |LiveURL=
 }}
 }}
 {{Remarks_Section
-|Remarks=The required dateObj reference is any Date object.
+|Remarks='''UTC''' is the acronym of Universal Coordinated Time.
 
-The '''toUTCString''' method returns a String object that contains the date formatted using UTC convention in a convenient, easily read form.
+The Format returned by this ''toGMTString'' was defined by [http://tools.ietf.org/html/rfc822#section-5] and was refined by  [http://tools.ietf.org/html/rfc1123#section-5.2.14 RFC-1123]
 }}
 {{Notes_Section
 |Usage=
@@ -42,9 +37,19 @@ The '''toUTCString''' method returns a String object that contains the date form
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
-|External_links=
-|Manual_sections=
+|Manual_links=* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
+* [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
+* [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
+* [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
+* [[javascript/Date/toTimeString{{!}}toTimeString Method (Date)]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString toUTCString(), by Mozilla Developer Network]
+* [http://msdn.microsoft.com/en-us/library/ie/7ew14035%28v=vs.94%29.aspx toUTCString(), by Microsoft Developer Network]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.42 Date.prototype.toUTCString( )]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Method
