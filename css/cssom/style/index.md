@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The style attribute of an element makes it possible to directly apply CSS-styles to that specific element.}}
 {{API_Object
 |Subclass_of=
 |Overview=
@@ -65,9 +65,9 @@ The '''style''' object has these types of members:
 *[#methods Methods]
 *[#properties Properties]
 
-???? Test
 ====Methods==== 
 The '''style''' object has these methods.
+
 {| class="wikitable"
 |-
 !Method !! Description
