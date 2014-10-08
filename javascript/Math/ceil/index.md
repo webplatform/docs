@@ -41,6 +41,8 @@ The return value is an integer value equal to the smallest integer greater than 
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/floor{{!}}Math.floor Function]]
+* [[javascript/Math/round{{!}}Math.round Function]]
+* [[javascript/Math/abs{{!}}Math.abs Function]]
 * [[javascript/Math{{!}}Math Object]]
 |External_links=
 |Manual_sections=
