@@ -15,7 +15,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example performs a regular expression search. It displays matches and submatches from the global '''RegExp''' object, and from the array that is returned by the '''exec''' method.
+|Description=The following example performs a regular expression search. It displays matches and submatches from the global <code>RegExp</code> object, and from the array that is returned by the <code>exec</code> method.
 |Code=var newLine = "&lt;br /&gt;";
  
  var re = /(\w+)@(\w+)\.(\w+)/g
