@@ -12,7 +12,6 @@
 |Read_only=No
 |Example_object_name=element
 |Return_value_name=result
-|Javascript_data_type=Object
 |Return_value_description=Returns an AnimationNode object.
 |Example_value_name=
 }}
