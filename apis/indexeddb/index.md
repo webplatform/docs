@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Needs spec reference
-|Checked_Out=No
+|Checked_Out=Yes
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
@@ -16,7 +16,8 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=indexedDB = window.indexedDB;
+|Usage=IndexedDB enables you to store large amounts of data in a reliable and structured way. If you are building web applications that need to work offline then this is an essential addition to your  development skills arsenal as it provides features that enable you to group, iterate, search, and filter JavaScript objects.
+
 |Notes=The IndexedDB specification supports an Asynchronous API on the window object and a Synchronous API for Webworkers.
 
 === Constructs ===
