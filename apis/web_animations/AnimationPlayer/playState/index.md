@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The play state of this player.}}
 {{API_Object_Property
@@ -12,6 +12,7 @@
 |Read_only=Yes
 |Example_object_name=myPlayer
 |Return_value_name=currentState
+|Javascript_data_type=any
 |Return_value_description=Returns a value from the AnimationPlayState enumeration. 
 
 enum AnimationPlayState { "idle", "pending", "running", "paused", "finished" };
