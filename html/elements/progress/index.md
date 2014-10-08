@@ -28,7 +28,7 @@
 
 The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.
 
-The content of the '''progress''' element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as an fallback for browsers not supporting the element.
+The content of the '''progress''' element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as a fallback for browsers not supporting the element.
 
 ===Attributes===
 This element supports the HTML5 [[html/global_attributes|global attributes]].
