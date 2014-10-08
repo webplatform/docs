@@ -11,9 +11,9 @@
 |Parameters=
 |Method_applies_to=apis/web_animations/Animatable
 |Example_object_name=myAnimationPlayer
-|Return_value_name=animation
+|Return_value_name=myAnimationPlayer
 |Javascript_data_type=
-|Return_value_description=[[/apis/web_animations/Animation|'''Animation Object''']]
+|Return_value_description=Returns the AnimationPlayer object returned by the play method of the AnimationTimeline.
 }}
 {{Examples_Section
 |Not_required=No
