@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
