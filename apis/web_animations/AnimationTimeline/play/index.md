@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a new [[apis/web_animations/AnimationPlayer|'''AnimationPlayer'''']] object associated with this timeline that begins playback as soon as it is ready.}}
+{{Summary_Section|Creates a new [[apis/web_animations/AnimationPlayer|'''AnimationPlayer''']] object associated with this timeline that begins playback as soon as it is ready.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
