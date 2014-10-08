@@ -7,7 +7,7 @@
 {{Summary_Section|Returns a date converted to a string formatted according to GMT conventions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=dateObj.'''toGMTString()'''
+|Format=toGMTString()
 }}
 |Values=
 }}
