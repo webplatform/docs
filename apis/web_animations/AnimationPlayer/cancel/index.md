@@ -6,13 +6,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Clears all effects caused by this player and aborts its playback by running the cancel a player procedure for this object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/AnimationPlayer
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
+|Javascript_data_type=void
 |Return_value_description=
 }}
 {{Examples_Section
