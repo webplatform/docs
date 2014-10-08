@@ -16,30 +16,7 @@
 |Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=== return values ==
-{| class="wikitable"
-|-
-! Category !! Definition !! Applies To...
-|-
-| "alternative" || Example || Example
-|-
-| "captions" || Example || Example
-|-
-| "descriptions" || Example || Example
-|-
-| "main" || Example || Example
-|-
-| "main-desc" || Example || Example
-|-
-| "sign" || Example || Example
-|-
-| "subtitles" || Example || Example
-|-
-| "translation" || Example || Example
-|-
-| "commentary" || Example || Example
-|-
-| ""(empty string) || Example || Example
-|}
+
 |Example_value_name=
 }}
 {{Examples_Section
