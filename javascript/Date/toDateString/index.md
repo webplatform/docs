@@ -35,7 +35,8 @@ console.log(date.toDateString()); // "Fri May 09 2014"
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
+|Manual_links=* [[javascript/Date/toString{{!}}toString Method (Date)]]
+* [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
 * [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
 * [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
 * [[javascript/Date/toTimeString{{!}}toTimeString Method (Date)]]
