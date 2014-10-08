@@ -71,7 +71,6 @@ The global flag, when used, indicates that a search should find all occurrences 
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Topic_clusters=Javascript
 |Manual_links=* [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 * [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
