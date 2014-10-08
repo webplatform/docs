@@ -34,7 +34,35 @@ With this in hand, you can test on various version of the web browsers you want 
 
 === Mobile devices ===
 
-Many of us, web developers, keep a set of old computers and smartphones only for that. Those comes in handy when we are building features and want to see if it works well, or if our polyfill actually works.
+Doing serious mobile testing requires a serious mobile test lab. Here is some guidance for setting it up.
+
+Below is a long list of devices you need. Although it would be wonderful if you could just buy them all at once, most web developers are not in that position. The guidelines that are about to follow are mostly for them.
+
+Save about 100 euros (or dollars) per month for devices. Once you have saved enough, buy one. This will allow you to buy two high-end phones per year, or maybe four or five mid-range ones. Of course, the more money you allocate, the better.
+
+You likely already have a personal iPhone or Android. The first phone to buy is the other one: an Android if you use an iPhone, an iPhone if you use an Android.
+
+The second phone will be another Android. Make sure you buy one from a different vendor, running a different Android version, with a different screen size. The most important feature of Android is its differentiation, and your device lab should reflect that.
+
+Postpone buying a Google device. Although they're very popular among web developers, actual consumers don't buy all that many. Instead, they buy from the established vendors such as Samsung and HTC. Thus, adding a Google device doesn't tell you all that much about how users are going to view your site.
+
+Most likely, your third and fourth phone will also be Androids. Now it's time to pick up an older or cheaper one. Plenty of people use these phones, so you should be able to test your site in adverse conditions.
+
+Then it's time for something completely different: a Windows Phone, or, especially if you're in the UK, a BlackBerry. Maybe it's also time to pick up a Nokia Asha, a Firefox OS, or something even more obscure.
+
+Then consider a second iPhone, with a different screen size than your first one, and a few more Androids.
+
+Devices you need:
+* iPhone, both an older (say 4S) and a newer one
+* A Windows Phone, most likely a Nokia, with Windows 8.1 and IE11
+* A BlackBerry 10 phone
+* Possibly a Nokia Asha (S40) and/or a Firefox OS device
+* Lots and lots of Androids
+
+Androids you need:
+* At least two Samsungs: an older and a newer one; say an Android 4.1 or 4.2 and one on the latest version. You need the older one because Samsung switched browsers around Android 4.2 or 4.3
+* An HTC, Sony, LG, Huawei, Motorola, Xiaomi, or another vendor.
+* A Google Nexus device (maybe a tablet if most of your other devices are phones). Don't give this one priority, though.
 
 === Automated browser testing ===
 
@@ -49,7 +77,11 @@ Here is a list of browser testing:
 * [https://saucelabs.com/ SauceLabs] (free and commercial plans). 
 
 For more information, check those [[concepts/cross_browser_techniques|articles on cross-browser debugging]].
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
