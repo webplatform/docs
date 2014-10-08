@@ -110,9 +110,12 @@ The following attributes are obsolete, and must not be used by authors: <code>al
 |Language=JavaScript
 |Description=This example exposes the <code><body></code> element in javascript.
 |Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Members===
 The <code><body></code> object has these types of members:
 *[[#Events|Events]]
@@ -790,11 +793,27 @@ This property is not supported for Metro style apps using JavaScript.
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/the-body-element.html
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/global.html#edef-BODY
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Document Structure, HTML
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -857,15 +876,4 @@ This property is not supported for Metro style apps using JavaScript.
 |Version=6+
 |Note=As of Microsoft Internet Explorer 6, when you use the <code>!DOCTYPE</code> declaration to specify standards-compliant mode, the <code><body></code> object can obtain its size from its content, or you can set its size explicitly—like a <code>div</code> object, for example. In standards-compliant mode, the <code><html></code> element represents the entire surface onto which a document's contents can be rendered. When the <code>!DOCTYPE</code> declaration does not specify standards-compliant mode, and with earlier versions of Windows Internet Explorer, the <code><body></code> object represents the entire surface onto which a document's contents can be rendered. The size of the <code><body></code> object cannot be changed and is equal to the size of the window. Margins you set on this object are rendered inside the border and scrollbars of the object.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
