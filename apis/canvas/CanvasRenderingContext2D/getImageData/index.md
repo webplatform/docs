@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -44,7 +44,23 @@ A ''CanvasImageData'' object with pixel information from the canvas within the s
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=In this example we will get the imageData of a canvas element.
+|Code=// Get the canvas element and its context
+var el = document.getElementById('canvas');
+var ctx = el.getContext('2d');
+
+// Draw something on the canvas
+ctx.fillStyle = '#213567';
+ctx.fillRect(25,25,50,50);
+
+// Get the imageData of the canvas starting from 0,0 to 50,50
+var imageData = ctx.getImageData(0,0,50,50);
+
+console.log(imageData);
+|LiveURL=http://code.webplatform.org/gist/fba1414a36da2a4766f3
+}}
 }}
 {{Notes_Section
 |Usage=
