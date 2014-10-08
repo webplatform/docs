@@ -15,13 +15,7 @@
 |Example_object_name=AudioTrack
 |Return_value_name=
 |Javascript_data_type=String
-|Return_value_description={| 
-| A 
-| B
-|- 
-| C
-| D
-|}
+|Return_value_description=
 |Example_value_name=
 }}
 {{Examples_Section
@@ -30,10 +24,7 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes={| 
-| *Category* || *Definition* || *Applies To...*
-|- 
-|}
+|Notes=
 |Import_Notes=
 }}
 {{Related_Specifications_Section
