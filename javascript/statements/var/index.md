@@ -11,24 +11,29 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=variable
+|Required=
 |Description=The name of the variable being declared.
 }}{{JS Syntax Parameter
 |Name=value
+|Required=
 |Description=The initial value assigned to the variable.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following examples illustrate the use of the var statement.
 |Code=var index;
- var name = 'Thomas Jefferson';
- var answer = 42,
+var name = 'Thomas Jefferson';
+var answer = 42,
     counter,
     numpages = 10;
- var array = [];
+var array = [];
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -40,13 +45,19 @@ You can declare a variable without using the <code>var</code> keyword and assign
 
 If you do not initialize your variable in the <code>var</code> statement, it is automatically assigned [[javascript/undefined{{!}}the JavaScript value <code>undefined</code>]].
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/function{{!}}function Statement]]
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/Array{{!}}Array Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
