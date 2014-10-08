@@ -9,8 +9,6 @@
 {{Summary_Section|rotate(angle) is a value of the css property transform. It rotates the element clockwise around its origin by a specified angle.}}
 {{CSS_Function
 |Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
-
-If not specified otherwise, the element rotates around its center. The rotation origin can be specified with the [http://docs.webplatform.org/wiki/css/properties/transform-origin transform-origin property].
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,7 +18,7 @@ If not specified otherwise, the element rotates around its center. The rotation 
 |Code=div {    
   transform: rotate(33.3deg);
 }
-|LiveURL=http://code.webplatform.org/gist/a2965eaa97367a66023c
+|LiveURL=http://code.webplatform.org/gist/10500f11ec6168049ba5
 }}
 }}
 {{Notes_Section
@@ -32,7 +30,8 @@ If not specified otherwise, the element rotates around its center. The rotation 
 &lt;angle&gt;
 '')</code>
 ===Parameters===
-;''angle'':The angle by which the element is rotated about its origin  (defined by the [[css/properties/transform-origin|'''transform-origin''']] property). This value is expressed as an integer or decimal number followed by a supported angle unit.
+;''angle'':The angle by which the element is rotated about its origin. If not specified otherwise, the element rotates around its center. The origin can be specified with the [http://docs.webplatform.org/wiki/css/properties/transform-origin transform-origin property].
+  (defined by the [[css/properties/transform-origin|'''transform-origin''']] property). This value is expressed as an integer or decimal number followed by a supported angle unit.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 }}
