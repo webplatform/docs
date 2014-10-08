@@ -70,77 +70,54 @@ The '''style''' object has these types of members:
 The '''style''' object has these methods.
 {| class="wikitable"
 |-
-!Method
-!Description
+!Method !! Description
 |-
-|[[dom/methods/getAttribute|'''getAttribute''']]
-|Retrieves the value of the specified attribute.
+| [[dom/methods/getAttribute|'''getAttribute''']] || Retrieves the value of the specified attribute.
 |-
-|[[dom/methods/getAttributeNode|'''getAttributeNode''']]
-|Retrieves an [[dom/attributes|'''attribute''']] object referenced by the '''attribute'''.[[html/attributes/name|'''name''']] property.
+| [[dom/methods/getAttributeNode|'''getAttributeNode''']] || Retrieves an [[dom/attributes|'''attribute''']] object referenced by the '''attribute''' [[html/attributes/name|'''name''']] property.
 |-
-|[[css/cssom/methods/getExpression|'''getExpression''']]
-|Retrieves the expression for the given property.
+| [[css/cssom/methods/getExpression|'''getExpression''']] || Retrieves the expression for the given property.
 |-
-|[[css/cssom/CSSStyleDeclaration/getPropertyPriority|'''getPropertyPriority''']]
-|Gets the priority of a CSS property if the priority  is  explicitly set in the current declaration block.
+| [[css/cssom/CSSStyleDeclaration/getPropertyPriority|'''getPropertyPriority''']] || Gets the priority of a CSS property if the priority  is  explicitly set in the current declaration block.
 |-
-|[[css/cssom/CSSStyleDeclaration/getPropertyValue|'''getPropertyValue''']]
-|Gets  the value of a CSS property if it  is  explicitly set within the current declaration block.
+| [[css/cssom/CSSStyleDeclaration/getPropertyValue|'''getPropertyValue''']] || Gets  the value of a CSS property if it is explicitly set within the current declaration block.
 |-
-|[[dom/methods/hasAttribute|'''hasAttribute''']]
-|Determines whether an attribute with the specified name exists.
+| [[dom/methods/hasAttribute|'''hasAttribute''']] || Determines whether an attribute with the specified name exists.
 |-
-|[[dom/methods/hasAttributes|'''hasAttributes''']]
-|Determines whether one or more attributes exist for the object.
+| [[dom/methods/hasAttributes|'''hasAttributes''']] || Determines whether one or more attributes exist for the object.
 |-
-|[[css/cssom/CSSStyleDeclaration/item|'''item''']]
-|Gets a property that has been explicitly set in the current declaration block.
+| [[css/cssom/CSSStyleDeclaration/item|'''item''']] || Gets a property that has been explicitly set in the current declaration block.
 |-
-|[[css/cssom/methods/msGetPropertyEnabled|'''msGetPropertyEnabled''']]
-|Returns whether a given property in the style object is enabled.
+| [[css/cssom/methods/msGetPropertyEnabled|'''msGetPropertyEnabled''']] || Returns whether a given property in the style object is enabled.
 |-
-|[[css/cssom/methods/msPutPropertyEnabled|'''msPutPropertyEnabled''']]
-|Sets whether a given property in the style object is enabled.
+| [[css/cssom/methods/msPutPropertyEnabled|'''msPutPropertyEnabled''']] || Sets whether a given property in the style object is enabled.
 |-
-|[[dom/methods/normalize|'''normalize''']]
-|Merges adjacent DOM objects to produce a normalized document object model.
+| [[dom/methods/normalize|'''normalize''']] || Merges adjacent DOM objects to produce a normalized document object model.
 |-
-|[[dom/methods/removeAttribute|'''removeAttribute''']]
-|Removes an attribute from an object.
+| [[dom/methods/removeAttribute|'''removeAttribute''']] || Removes an attribute from an object.
 |-
-|[[dom/methods/removeAttributeNode|'''removeAttributeNode''']]
-|Removes an [[dom/attributes|'''attribute''']] object from the object.
+| [[dom/methods/removeAttributeNode|'''removeAttributeNode''']] || Removes an [[dom/attributes|'''attribute''']] object from the object.
 |-
-|[[css/cssom/methods/removeExpression|'''removeExpression''']]
-|Removes the expression from the specified property.
+| [[css/cssom/methods/removeExpression|'''removeExpression''']] || Removes the expression from the specified property.
 |-
-|[[css/cssom/methods/removeProperty|'''removeProperty''']]
-|Removes a CSS property if it  is  explicitly set within the current declaration block.
+| [[css/cssom/methods/removeProperty|'''removeProperty''']] || Removes a CSS property if it  is  explicitly set within the current declaration block.
 |-
-|[[dom/methods/setAttribute|'''setAttribute''']]
-|Sets the value of the specified attribute.
+| [[dom/methods/setAttribute|'''setAttribute''']] || Sets the value of the specified attribute.
 |-
-|[[dom/methods/setAttributeNode|'''setAttributeNode''']]
-|Sets an [[dom/attributes|'''attribute''']] object node as part of the object.
+| [[dom/methods/setAttributeNode|'''setAttributeNode''']] || Sets an [[dom/attributes|'''attribute''']] object node as part of the object.
 |-
-|[[css/cssom/methods/setExpression|'''setExpression''']]
-|Sets an expression for the specified object.
+| [[css/cssom/methods/setExpression|'''setExpression''']] || Sets an expression for the specified object.
 |-
-|[[css/cssom/methods/setProperty|'''setProperty''']]
-|Sets a property value and priority within the current declaration block.
+| [[css/cssom/methods/setProperty|'''setProperty''']] || Sets a property value and priority within the current declaration block.
 |}
- 
 
 ====Properties====
 The '''style''' object has these properties.
 {| class="wikitable"
 |-
-!Property
-!Description
+!Property !! Description
 |-
-|[[css/media queries/accelerator|'''accelerator''']]
-|Sets or retrieves a string that indicates whether the object represents a keyboard shortcut.
+|[[css/media queries/accelerator|'''accelerator''']] || Sets or retrieves a string that indicates whether the object represents a keyboard shortcut.
 |-
 |[[css/properties/animation/animation|'''animation''']]
 |Gets or sets one or more shorthand values  that specify all animation properties (except   [[css/properties/animation-play-state|'''animation-play-state''']]) for a set of corresponding object properties  identified in the CSS [[css/atrules/@keyframes|'''@keyframes''']] at-rule specified by the [[css/properties/animation-name|'''animation-name''']] property.
