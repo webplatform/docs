@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the set of [[apis/web_animations/AnimationPlayer|'''Animation Player''']] objects associated with this timeline that have associated source content which is current or in effect.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web_animations/AnimationTimeline
