@@ -4,7 +4,7 @@
 |Editorial notes=Add description.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>box-shadow</code> property programmatically creates one or more shadows on the inside or outside of a block level element.|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
 
@@ -124,7 +124,7 @@ See also:
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#box-shadow
 |Status=Candidate Recommendation
 |Relevant_changes=
