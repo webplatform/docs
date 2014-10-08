@@ -30,7 +30,7 @@
 }}
 {{Notes_Section
 |Usage=While [[html/elements/s|'''s''']] and [[html/elements/del|'''del''']] appear to be similar, namely marking obsolete content, but they differ in semantics. [[html/elements/del|'''del''']] marks text that has been removed from the document, but [[html/elements/s|'''s''']] marks text that is to be kept in the document, but made clear that its content is no longer accurate.
-|Notes=The information that the text inside the '''s''' element is not accurate is not conveyed to assistive technologies, like screen readers. Instead it is interpreted like regular text which can lead to confusion. Add clear text that the information is invalid.
+|Notes=The information that the text inside the '''s''' element is not accurate is not indicated to assistive technologies, like screen readers. Instead it is interpreted like regular text which can lead to confusion. Add clear text that the information is invalid.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
