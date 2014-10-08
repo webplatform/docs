@@ -20,6 +20,10 @@
 |Language=JavaScript
 |Description=The following example illustrates the use of the <code>sticky</code> property.
 |Code=var regex = /foo.bar/gy;
+regex.sticky;
+// → true
+regex.lastIndex;
+// → 0
 
 regex.test('foo*bar');
 // → true
@@ -29,11 +33,11 @@ regex.test('..foo*bar');
 // → false
 
 regex.lastIndex = 0;
-regex.test("..foo*bar");
+regex.test('..foo*bar');
 // → false
 
 regex.lastIndex = 2;
-regex.test("..foo*bar");
+regex.test('..foo*bar');
 // → true
 regex.lastIndex;
 // → 9
