@@ -10,7 +10,7 @@
 {{CSS_Function
 |Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
 
-If not specified otherwise, the element rotates around its center. The rotation origin can be specified with the transform-origin property.
+If not specified otherwise, the element rotates around its center. The rotation origin can be specified with the [http://docs.webplatform.org/wiki/css/properties/transform-origin transform-origin property].
 }}
 {{Examples_Section
 |Not_required=No
