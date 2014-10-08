@@ -54,7 +54,14 @@
 .width {
   border-width: 10px;
 }
-|LiveURL=http://code.webplatform.org/gist/5549718
+
+.various {
+  border-top-width: thick;
+  border-right-width: medium;
+  border-bottom-width: thin;
+  border-left-width: 10px;
+}
+|LiveURL=http://code.webplatform.org/gist/733bf352438f33914fc0
 }}
 }}
 {{Notes_Section
