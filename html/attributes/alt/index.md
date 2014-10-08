@@ -35,8 +35,6 @@ If an image is not intended to be part of the content of the page, but instead i
 
 //A photo of the Capitol Office is included to illustrate an essay about architecture:
 <img src="capitol.jpg" alt="Capital Dome in neo Classical style. Dome is white, circular with narrow windows on many levels and pillars on the lowest level.">
-
-
 |LiveURL=
 }}
 }}
