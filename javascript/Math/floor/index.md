@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the greatest integer less than or equal to its numeric argument.}}
@@ -11,10 +11,19 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=Math.floor(1.1);  // 1
+Math.floor(1.6);  // 1
+Math.floor(-1.4); // -2
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required number argument is a numeric expression.
@@ -23,11 +32,17 @@ The return value is an integer value equal to the greatest integer less than or 
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/ceil{{!}}Math.ceil Function]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
