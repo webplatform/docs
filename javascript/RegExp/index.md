@@ -71,9 +71,9 @@
 }}
 }}
 {{Remarks_Section
-|Remarks=The required property argument can be any one of the '''RegExp''' object properties.
+|Remarks=The required property argument can be any one of the <code>RegExp</code> object properties.
 
-The '''RegExp''' object cannot be created directly, but is always available for use. Until a successful regular expression search has been completed, the initial values of the various properties of the '''RegExp''' object are as follows:
+The <code>RegExp</code> object cannot be created directly, but is always available for use. Until a successful regular expression search has been completed, the initial values of the various properties of the <code>RegExp</code> object are as follows:
 
 {{{!}} class='wikitable'
 {{!}}-
@@ -113,7 +113,7 @@ The '''RegExp''' object cannot be created directly, but is always available for 
 {{!}}} 
 Its properties have undefined as their value until a successful regular expression search has been completed.
 
-The global '''RegExp''' object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global '''RegExp''' object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
+The global <code>RegExp</code> object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global <code>RegExp</code> object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
 }}
 {{Notes_Section}}
 {{JS Object Listing}}
