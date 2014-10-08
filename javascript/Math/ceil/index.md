@@ -11,10 +11,19 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=Math.ceil(0.4); // 1
+Math.ceil(1.9); // 2
+Math.ceil(3); // 3
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required number argument is a numeric expression.
@@ -23,12 +32,18 @@ The return value is an integer value equal to the smallest integer greater than 
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/floor{{!}}Math.floor Function]]
 * [[javascript/Math{{!}}Math Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
