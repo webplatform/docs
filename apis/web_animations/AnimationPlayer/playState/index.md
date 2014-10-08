@@ -14,8 +14,7 @@
 |Read_only=Yes
 |Example_object_name=element 
 |Return_value_name=result
-|Javascript_data_type=Object
-|Return_value_description=returns AnimationPlayState object
+|Javascript_data_type=AnimationPlayState
 |Example_value_name=
 }}
 {{Examples_Section
