@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=
 }}
-{{Standardization_Status|W3C Last Call Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the width of an element's four borders. This property can have from one to four values. This is a shorthand property for setting values simultaneously for [[css/properties/border-top-width|border-top-width]], [[css/properties/border-right-width|border-right-width]], [[css/properties/border-bottom-width|border-bottom-width]], and [[css/properties/border-left-width|border-left-width]].}}
 {{CSS Property
@@ -60,23 +60,22 @@
 {{Notes_Section
 |Usage=* Up to four different widths can be specified, in the following order: top, right, bottom, left. 
 * If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/#the-border-width
-|Status=Last Call Working Draft
+|Status=Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -85,4 +84,11 @@
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
