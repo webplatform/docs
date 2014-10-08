@@ -57,7 +57,6 @@ The <code>sticky</code> flag, when used, indicates that the regular expression p
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Topic_clusters=Javascript
 |Manual_links=* [[javascript/regular expression/global{{!}}global Property (Regular Expression)]]
 * [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
