@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|Represents a single animation player. Players connect animation node, or source, to a timeline and provides playback controls.}}
 {{API_Object
-|Subclass_of=apis/web_animations
+|Subclass_of=
 |Overview=
 }}
 {{Examples_Section
