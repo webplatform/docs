@@ -13,7 +13,7 @@
 |Example_object_name=finishedPromise
 |Return_value_name=myAnimationPlayer
 |Javascript_data_type=
-|Return_value_description=Returns a Promise object. 
+|Return_value_description=Returns a Promise object.
 |Example_value_name=
 }}
 {{Examples_Section
@@ -33,7 +33,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
