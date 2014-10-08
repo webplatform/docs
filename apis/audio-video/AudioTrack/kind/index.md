@@ -32,13 +32,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=
-|Code= <video id="video1" controls autoplay loop>
-      <source src="http://ie.microsoft.com/testdrive/ieblog/2011/nov/pp4_blog_demo.mp4" type="video/mp4" >
-      <track id="enTrack" src="entrack.vtt" label="English" kind="subtitles" srclang="en" default> 
-      <track id="esTrack" src="estrack.vtt" label="Spanish" kind="subtitles" srclang="es">
-      <track id="deTrack" src="detrack.vtt" label="German" kind="subtitles" srclang="de">
-      HTML5 video not supported
-    </video>
+|Code=
 |LiveURL=
 }}
 }}
