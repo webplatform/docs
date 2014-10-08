@@ -119,18 +119,29 @@ Links to descriptions of length and color are in the [[#Remarks]] section, below
 See also:
 * [[css/data_types/length]]
 * [[css/color]]
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://dev.w3.org/csswg/css3-background/#box-shadow
-|Status=Editor's Draft
-|Relevant_changes=tests, animatable value, omitted color default value, spread distance behavior
-}}{{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/#box-shadow
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Layout, Box Model
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, Design, UI, Usability}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -204,14 +215,4 @@ See also:
 |Version=4.0 (2.0)
 |Note=Since Firefox 13 (Gecko 13), -moz-box-shadow prefix was dropped and only the unprefixed version is supported.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model
-}}
-{{Topics|CSS, Design, UI, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
