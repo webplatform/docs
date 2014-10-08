@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Update/improve example;
+|Editorial notes=Finished. Needs approval.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
@@ -56,11 +56,11 @@ The <code>async</code> attribute appears at one other place: Attached to a <code
  * Therefore the following results in an error:  
  */
     
-script = document.createElement('script');
+script = document.createElement("script");
 script.src = "jquery.js";
 document.body.appendChild(script);
 
-script = document.createElement('script');
+script = document.createElement("script");
 script.src = "jquery.plugin.js"; // Needs jQuery in place to work
 document.body.appendChild(script);
 
@@ -70,12 +70,12 @@ document.body.appendChild(script);
  * So the following works:  
  */
     
-script = document.createElement('script');
+script = document.createElement("script");
 script.src = "jquery.js";
 script.async = false;
 document.body.appendChild(script);
 
-script = document.createElement('script');
+script = document.createElement("script");
 script.src = "jquery.plugin.js"; // Needs jQuery in place to work
 script.async = false;
 document.body.appendChild(script);
@@ -117,7 +117,7 @@ document.body.appendChild(script);
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Javascript, Performance
+|Topic_clusters=HTML, Javascript, Performance, Web Components
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
