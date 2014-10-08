@@ -20,7 +20,8 @@
 |Language=JavaScript
 |Description=
 |Code=var date = new Date("2014-05-09");
-console.log(date.toDateString()); // "Fri May 09 2014"
+console.log(date.toDateString());
+// outputs: "Fri May 09 2014"
 |LiveURL=
 }}
 }}
@@ -46,7 +47,7 @@ console.log(date.toDateString()); // "Fri May 09 2014"
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString toDateString(), by Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/3k6ahb3a%28v=vs.94%29.aspx toDateString(), by Microsoft Developer Network]
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.3 Date.prototype.toDateString( )]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.3 Date.prototype.toDateString()]
 
 ECMAScript® Language Specification
 Standard ECMA-262
