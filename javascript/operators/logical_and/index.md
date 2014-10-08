@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Needs example
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Summary_Section|Performs a logical conjunction on two expressions.}}
 {{JS_Syntax
@@ -11,16 +11,21 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=result
+|Required=
 |Description=Any variable.
 }}{{JS Syntax Parameter
 |Name=expression1
+|Required=
 |Description=Any expression.
 }}{{JS Syntax Parameter
 |Name=expression2
+|Required=
 |Description=Any expression.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples=
@@ -35,10 +40,18 @@ JavaScript uses the following rules for converting non-Boolean values to Boolean
 * null and undefined are considered to be false.
 * A Number is false if it is zero.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
