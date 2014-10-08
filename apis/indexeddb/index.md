@@ -49,7 +49,10 @@ All database read and write operations occur in transactions. Transactions can b
 Each reading and writing operation on a database is done using a request. The result of a request is usually available in success or error events raised on the request.  
 
 === Security ===
-The IndexedDB storage follows the same-origin policy.
+The IndexedDB storage follows the same-origin policy. 
+
+An IndexedDB database is unique for our domain. So if we set up a database only we are going to be able to see it and the Object stores inside of it. If you use a shared domain, then everyone sharing your domain will be able to access and work with the data in your IndexedDB.
+
 
 === Storage Limits ===
 
