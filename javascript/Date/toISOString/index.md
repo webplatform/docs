@@ -12,7 +12,7 @@
 |Values=
 }}
 {{JS_Return_Value
-|Description=String in simplified [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601 Extended] format:<code>YYYY-MM-DDTHH:mm:ss.sssZ</code>
+|Description=String in simplified [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601 Extended] format: <code>YYYY-MM-DDTHH:mm:ss.sssZ</code>
 }}
 {{Examples_Section
 |Not_required=No
