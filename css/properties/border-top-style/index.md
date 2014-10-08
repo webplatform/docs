@@ -97,27 +97,26 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=* Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
 * There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
 * How borders of different styles are joined in the corner may vary.
 * Rounded corners may cause the corners and the contents to overlap, if the padding is less than the radius of the corner.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#border-style
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -126,4 +125,11 @@
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
