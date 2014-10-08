@@ -42,6 +42,7 @@
 |LiveURL=http://code.webplatform.org/gist/6949408
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=/**
 *	Border-image-slice Live Example
 *	@see http://docs.webplatform.org/wiki/css/properties/border-image-slice
@@ -91,24 +92,22 @@ div {
 {{Notes_Section
 |Usage=* Up to four different values can be specified, in the following order: top, right, bottom, left. [[File:slice.png|slicing]]
 * If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom slice-lines, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom slice-lines, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#the-border-image-slice
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
 |Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -117,4 +116,11 @@ div {
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-image-slice
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
