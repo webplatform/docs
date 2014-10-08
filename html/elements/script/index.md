@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -56,19 +57,38 @@ The '''script''' object has these properties.
 |Language=HTML
 |Description=Loading an external script.
 |Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Writing an inline script.
 |Code=&lt;script type=&quot;text/javascript&quot;&gt;
   //Do stuff...
 &lt;/script&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded.When the [[html/attributes/Type|'''Type''']] attribute is unset on the '''script''' object, then <code>text/javascript</code> is used. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using <code lang="HTML">async="async"</code> didn't work in some older browser, instead <code lang="HTML">async="true"</code> was used.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=HTML
+|Manual_links=[[html/elements/noscript|<noscript> tag]]
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>XML Data Islands</code>
+}}
+{{Topics|HTML, JavaScript}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -126,18 +146,4 @@ The '''script''' object has these properties.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=[[html/elements/noscript|<noscript> tag]]
-|Manual_sections====Related pages (MSDN)===
-*<code>XML Data Islands</code>
-}}
-{{Topics|HTML, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
