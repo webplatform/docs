@@ -63,6 +63,8 @@ If '''multiline''' is '''false''' , "^" matches the position at the beginning of
 {{See_Also_Section
 |Manual_links=* [[javascript/regular expression/global{{!}}global Property (Regular Expression)]]
 * [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
+* [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
+* [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
 }}
 {{JS Topics
 |JS Page Type=JS Property
