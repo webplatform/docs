@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationPlayer
 |Read_only=No
