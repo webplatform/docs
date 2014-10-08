@@ -27,7 +27,41 @@ The <code>async</code> attribute appears at one other place: Attached to a <code
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Async attribute with programmatically created scripts.
+|Code=var script;
+
+/* 
+ * Programmatically created scripts are always asynchronous.
+ * Therefore following results in an error:  
+ */
+    
+script = document.createElement('script');
+script.src = "jquery.js";
+document.body.appendChild(script);
+
+script = document.createElement('script');
+script.src = "jquery.plugin.js"; // Needs jQuery in place to work
+document.body.appendChild(script);
+
+/* 
+ * Programmatically created scripts can be told to respect 
+ * the order of creation, though, via async attribute.
+ * So the following works:  
+ */
+    
+script = document.createElement('script');
+script.src = "jquery.js";
+script.async = false;
+document.body.appendChild(script);
+
+script = document.createElement('script');
+script.src = "jquery.plugin.js"; // Needs jQuery in place to work
+script.async = false;
+document.body.appendChild(script);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
