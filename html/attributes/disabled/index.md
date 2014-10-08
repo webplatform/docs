@@ -1,8 +1,8 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Compatibility table; fix see also
-|Checked_Out=Yes
+|Editorial notes=Compatibility table;
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
@@ -51,7 +51,7 @@ When this is present a user cannot make the element active. Further, when the fo
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=Document Structure, HTML
+|Topic_clusters=HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
