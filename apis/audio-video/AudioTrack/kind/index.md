@@ -15,8 +15,7 @@
 |Example_object_name=AudioTrack
 |Return_value_name=
 |Javascript_data_type=String
-|Return_value_description=== return values ==
-*'''"alternative"''' : A possible alternative to the main track, e.g. a different take of a song (audio), or a different angle (video). ''Applies to: Audio, Video''
+|Return_value_description=*'''"alternative"''' : A possible alternative to the main track, e.g. a different take of a song (audio), or a different angle (video). ''Applies to: Audio, Video''
 *'''"captions"''': A version of the main video track with captions burnt in. (For legacy content; new content would use text tracks.) ''Applies to: Video''
 *'''"descriptions"''': An audio description of a video track. ''Applies to: Audio''
 *'''"main"''': The primary audio or video track.  ''Applies to: Audio, Video''
