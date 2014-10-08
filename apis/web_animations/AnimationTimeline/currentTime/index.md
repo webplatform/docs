@@ -6,18 +6,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the time value for this timeline or null if this timeline is inactive.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimeline
-|Read_only=No
+|Read_only=Yes
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=double
-|Return_value_description=currentTime in type double, readonly, nullable.
-
-Returns the time value for this timeline or null if this timeline is not started.
-
-
+|Return_value_description=
 |Example_value_name=
 }}
 {{Examples_Section
