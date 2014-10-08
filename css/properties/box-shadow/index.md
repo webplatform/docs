@@ -126,7 +126,7 @@ See also:
 |Specifications={{Related Specification
 |Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/#box-shadow
-|Status=W3C Candidate Recommendation
+|Status=Candidate Recommendation
 |Relevant_changes=
 }}
 }}
