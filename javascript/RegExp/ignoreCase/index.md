@@ -80,6 +80,8 @@ The ignoreCase flag, when used, indicates that a search should ignore case sensi
 {{See_Also_Section
 |Manual_links=* [[javascript/regular expression/global{{!}}global Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
+* [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
+* [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
 }}
 {{JS Topics
 |JS Page Type=JS Property
