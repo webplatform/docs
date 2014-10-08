@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Review import; update/improve example; update descriptions
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -26,11 +26,30 @@ If an image is not intended to be part of the content of the page, but instead i
 |Code=<!doctype html>
 <title>Image alt attribute usage</title>
 <img src="http://example.com/path/to/no.jpg" alt="No image, so here is the alt text">
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
+* http://www.w3.org/TR/html5/forms.html#attr-input-alt
+|Manual_sections=
+}}
+{{Topics|Accessibility, HTML, Media, Usability}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -92,16 +111,4 @@ If an image is not intended to be part of the content of the page, but instead i
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|External_links=* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
-* http://www.w3.org/TR/html5/forms.html#attr-input-alt
-}}
-{{Topics|Accessibility, HTML, Media, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
