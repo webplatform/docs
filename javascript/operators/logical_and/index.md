@@ -2,12 +2,13 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Needs example
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Summary_Section|Performs a logical conjunction on two expressions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=result = expression1 &amp;&amp; expression2
+
 }}
 |Values={{JS Syntax Parameter
 |Name=result
@@ -28,7 +29,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(false && (3 == 4); //false
+console.log("Cat" && "Dog"); //false
+console.log(false && "Cat"); //false
+console.log("Cat" && false); //false
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=If both expressions evaluate to true, result is true. If either expression evaluates to false, result is false.
