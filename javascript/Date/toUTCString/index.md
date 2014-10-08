@@ -37,7 +37,8 @@ The Format returned by this ''toGMTString'' was defined by [http://tools.ietf.or
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
+|Manual_links=* [[javascript/Date/toString{{!}}toString Method (Date)]]
+* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
 * [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
 * [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
 * [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
