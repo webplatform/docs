@@ -75,25 +75,20 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 
 Internationalization topics related to the <code>background</code> property:
 * [http://localhost/International/techniques/authoring-html#textexpansion Preparing for text expansion]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/
-|Status=W3C Candidate Recommendation
+|Status=Candidate Recommendation
 |Relevant_changes=Introduced background-size, background-clip, background-origin, extended background-position and background-attachment
 }}{{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1
+|Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS21/colors.html#propdef-background
-|Status=W3C Recommendation
+|Status=Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Background
@@ -104,6 +99,7 @@ Internationalization topics related to the <code>background</code> property:
 * [http://mobile.smashingmagazine.com/2013/07/22/simple-responsive-images-with-css-backgrounds/ Simple Responsive Images With CSS Background Images], By Stephen Thomas
 * [http://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ Just One of Those Weird Things About CSS: Background on body], By Chris Coyier
 * [http://css-tricks.com/almanac/properties/b/background/ background], By Chris Coyier
+|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
@@ -111,4 +107,11 @@ Internationalization topics related to the <code>background</code> property:
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
