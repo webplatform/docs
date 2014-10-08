@@ -81,6 +81,7 @@ pretend the black box labeled <code>float:left;</code> is an image floated left.
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=<div class='license-cc-by-sa'>The '''clear''' property applies to both [[css/properties/float|floating]] and non-floating elements.
 
 When applied to non-floating blocks, it moves the [[css/properties/border|border]] edge of the element down until it is below the margin edge of all relevant floats. This movement (when it happens) causes margin collapsing not to occur.
@@ -88,30 +89,27 @@ When applied to non-floating blocks, it moves the [[css/properties/border|border
 When applied to floating elements, it moves the margin edge of the element below the margin edge of all relevant floats. This affects the position of later floats, since later floats cannot be positioned higher than earlier ones.
 
 The floats that are relevant to be cleared are the earlier floats within the same block formatting context.</div>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
+|Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-clear
-|Status=Recomendation
+|Status=Recommendation
+|Relevant_changes=
 }}{{Related Specification
-|Name=Cascading Style Sheets Level 3 Working Draft 9 (CSS3) Specification
+|Name=CSS - Basic Box Model
 |URL=http://www.w3.org/TR/css3-box/#the-lsquo2
 |Status=Working Draft
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
 |Manual_links=* [[tutorials/floats_and_clearing|Tutorial: Page layout with floats and clearing]].
 * [[tutorials/box_model|Tutorial: Exploring the CSS box model]].
 * [[guides/the_css_layout_model|Guide: The CSS layout model]].
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -126,4 +124,11 @@ The floats that are relevant to be cleared are the earlier floats within the sam
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/clear
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
