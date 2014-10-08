@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a date converted to a string using Greenwich Mean Time(GMT).}}
@@ -16,7 +16,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var date = new Date("2014-05-09");
+console.log(date.toGMTString()); // "Fri, 09 May 2014 00:00:00 GMT"
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required dateObj reference is any Date object.
