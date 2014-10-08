@@ -10,11 +10,13 @@
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLImageElement|HTMLImageElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise and accurate label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images. The alt text is read by screan readers or displayed in place of the image, if the resource is not found. If no alt tag is given, a screen reader can only read "image" or the file name.
+|Content=The '''alt''' attribute is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise and accurate label representing the image, in case that a user is visually disabled, is using browser that doesn’t render images or can’t receive images due to network errors. If no alt attribute is given, a screen reader can only read “image” or the file name, which is especially bad if the image is the sole content of a link. 
 
-The alt text should be useful in the context it's displayed. Which alt text is useful, depends on the function of the image on the page. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
+The alt text should be useful in the context it’s displayed. Which alt text is useful, depends on the function of the image on the page. The content of an alt attribute should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
 
-If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element.
+If an image is not intended to be part of the content of the page, but instead is purely decorative, the alt text can be an empty string. This case could apply for an image used as a border or spacing element or if the image is redundantly described in “regular” text on the page.
+
+If the image contains (non-decorative) text, that text should be in the alternative text in full.
 }}
 {{Examples_Section
 |Not_required=No
@@ -30,11 +32,31 @@ If an image is not intended to be part of the content of the page, but instead i
 }}{{Single Example
 |Language=HTML
 |Description=Depending on the context, the alt text can be short and simple or more descriptive:
-|Code=//A photo of the Capitol Office is included to illustrate a political news article:
+|Code=<!-- A photo of the Capitol Office is included to illustrate a political news article: -->
 <img src="capitol.jpg" alt="The Capitol">
 
-//A photo of the Capitol Office is included to illustrate an essay about architecture:
+<!-- A photo of the Capitol Office is included to illustrate an essay about architecture: -->
 <img src="capitol.jpg" alt="Capital Dome in neo Classical style. Dome is white, circular with narrow windows on many levels and pillars on the lowest level.">
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=This example shows a decorative use of an image:
+|Code=<img src="border.png" alt="">
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=This example shows a redundant image in a link:
+|Code=<a href="crocuspage.html">
+	<img src="crocus.jpg" alt="">
+	<strong> Crocus bulbs</strong>
+</a>
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=This example shows a image that is used as a functional icon. A non-empty alt text is mandatory in such cases.
+|Code=<a href="javascript:print()">
+	<img src="print.png" alt="Print this page">
+</a>
 |LiveURL=
 }}
 }}
@@ -44,11 +66,25 @@ If an image is not intended to be part of the content of the page, but instead i
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#alt
+|Status=Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
-|Manual_links=
-|External_links=* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
+|Topic_clusters=HTML
+|Manual_links=Other attributes that can convey alternative text or longer descriptions:
+
+* [[aria/attributes/aria-label]]
+* [[aria/attributes/aria-labelledby]]
+
+* [[html/attributes/longDesc]]
+* [[aria/attributes/aria-describedby]]
+|External_links=* [http://www.w3.org/WAI/tutorials/images/ W3C WAI Web Accessibility Tutorial on Images]
+* [http://www.w3.org/WAI/tutorials/images/decision-tree/ W3C WAI Web Accessibility Tutorial '''alt decision tree''']
+* http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1
 * http://www.w3.org/TR/html5/forms.html#attr-input-alt
 |Manual_sections=
 }}
