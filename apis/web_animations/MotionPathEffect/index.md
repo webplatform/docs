@@ -28,7 +28,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
