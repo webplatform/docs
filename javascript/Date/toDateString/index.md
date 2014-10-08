@@ -7,7 +7,7 @@
 {{Summary_Section|Returns the date component of a date as a human readable string.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=toDateString( )
+|Format=toDateString()
 }}
 |Values=
 }}
