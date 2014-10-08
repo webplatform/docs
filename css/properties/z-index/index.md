@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified
 |Animatable=Yes
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=auto
@@ -63,6 +64,7 @@
 |LiveURL=http://code.webplatform.org/gist/6199316
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=<syntaxhighlight>
 <div class="container">
     <div class="box bottom">This box is at the bottom with z-index set to auto.</div>
@@ -70,6 +72,7 @@
     <div class="box top">This box is at the top with z-index set to auto.</div>
 </div>
 </syntaxhighlight>
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the <code>z-index</code> property set to an integer. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
@@ -124,6 +127,7 @@
 |LiveURL=http://code.webplatform.org/gist/6199504
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=<syntaxhighlight>
 <div class="container">
     <div class="box top">This box is at the top with z-index set to 30.</div>
@@ -132,6 +136,7 @@
     <div class="box bottom">This box is at the bottom with z-index set to 10.</div>
 </div>
 </syntaxhighlight>
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=The following example demonstrates the <code>z-index</code> property set to <code>inherit</code>. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
@@ -184,6 +189,7 @@
 |LiveURL=http://code.webplatform.org/gist/6199565
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=<syntaxhighlight>
 <div class="container">
   <div class="box top">This box is at the top with z-index set to 30.</div>
@@ -193,6 +199,7 @@
   <div class="box bottom">This box is at the bottom with z-index set to 10.</div>
 </div>
 </syntaxhighlight>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -214,7 +221,26 @@ When elements overlap, only the topmost element can receive action from a pointi
 |Name=Visual formatting model
 |URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-z-index
 |Status=Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=* http://www.w3.org/TR/CSS2/visuren.html#z-index
+* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -244,22 +270,4 @@ When elements overlap, only the topmost element can receive action from a pointi
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|External_links=* http://www.w3.org/TR/CSS2/visuren.html#z-index
-* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
