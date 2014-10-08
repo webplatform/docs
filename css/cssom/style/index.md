@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The style attribute of an element makes it possible to directly apply CSS-styles to that specific element.}}
 {{API_Object
-|Subclass_of=javascript/Array
+|Subclass_of=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Overview=
 }}
 {{Examples_Section
