@@ -10,18 +10,18 @@
 {{CSS_Function
 |Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
 
-=Syntax:=
-transform: rotate(angle)
+==Syntax:==
+transform: rotate(angle);
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=CSS
 |Description=The following code snippet is an example of the '''rotate''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 |Code=div {    
   transform: rotate(33deg);
 }
-|LiveURL=
+|LiveURL=http://code.webplatform.org/gist/a2965eaa97367a66023c
 }}
 }}
 {{Notes_Section
