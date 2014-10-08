@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Adds the value of one numeric expression to another, or concatenates two strings.}}
@@ -32,14 +32,14 @@
 |Language=JavaScript
 |Description=
 |Code=console.log(1 + 1); // 2
-console.log("hello" + " world"); // "hello world"
-console.log(1 + "1"); // "11"
-console.log("1" + 1); // "11"
+console.log('hello' + ' world'); // 'hello world'
+console.log(1 + '1'); // '11'
+console.log('1' + 1); // '11'
 |LiveURL=
 }}
 }}
 {{Remarks_Section
-|Remarks=The types of the two expressions determine the behavior of the '''+''' operator.
+|Remarks=The types of the two expressions determine the behavior of the <code>+</code> operator.
 
 {{{!}} class='wikitable'
 {{!}}-
@@ -64,7 +64,7 @@ console.log("1" + 1); // "11"
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/operators/addition assignment{{!}}Addition Assignment Operator (+=)]]
+|Manual_links=* [[javascript/operators/addition assignment{{!}}Addition Assignment Operator (<code>+=</code>)]]
 |External_links=
 |Manual_sections=
 }}
