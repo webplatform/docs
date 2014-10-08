@@ -30,12 +30,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Displaying an image based on the selected file in a <code>&lt;input type=file&gt;</code>
+|Code=var url = URL.createObjectURL(inputElement.files[0]);
+imgElement.src = url;
+|LiveURL=http://jsbin.com/kupizeriheci/1/edit?html,js,output
+}}
 }}
 {{Notes_Section
 |Usage=
 |Notes=The URL that is created can be used for resources for use with elements such as '''Image''', '''video''', and '''audio'''.
-The object passed in through ''object'' is stored in an internal  hash table.
+The object passed in through ''object'' is stored in an internal hash table.
 ''oOptions'' is set when you want to only use the URL once. The [[apis/file/ObjectURLOptions|ObjectURLOptions]] object has one property, ''oneTimeOnly'', that is set to ''false'' by default. To set the URL for the object (blob, stream, and so forth) to single use, use the ObjectURLOptions object and set ''oneTimeOnly'' to ''true''. 
 To revoke a URL created with  createObjectURL, use [[apis/file/URL/revokeObjectURL|revokeObjectURL]].
 |Import_Notes=
