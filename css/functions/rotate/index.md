@@ -6,9 +6,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|rotate(angle) is a value of the css property transform. It rotates the element clockwise around its origin by a specified angle.}}
 {{CSS_Function
-|Content=
+|Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
+
+=Syntax:=
+transform: rotate(angle)
 }}
 {{Examples_Section
 |Not_required=No
