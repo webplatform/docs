@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The timeline associated with this player. Setting this attribute updates the object’s timeline using the procedure to set the timeline of a player.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationPlayer
 |Read_only=No
