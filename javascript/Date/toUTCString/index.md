@@ -41,12 +41,14 @@ The Format returned by this ''toGMTString'' was defined by [http://tools.ietf.or
 * [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
 * [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
 * [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
+* [[javascript/Date/toLocaleString{{!}}toLocaleString Method (Date)]]
 * [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
+* [[javascript/Date/toLocaleTimeString{{!}}toLocaleTimeString Method (Date)]]
 * [[javascript/Date/toTimeString{{!}}toTimeString Method (Date)]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString toUTCString(), by Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/7ew14035%28v=vs.94%29.aspx toUTCString(), by Microsoft Developer Network]
 |Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.42 Date.prototype.toUTCString( )]
+[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.42 Date.prototype.toUTCString()]
 
 ECMAScript® Language Specification
 Standard ECMA-262
