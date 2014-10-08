@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web_animations/AnimationEffect
