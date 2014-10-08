@@ -42,6 +42,7 @@
 |LiveURL=http://code.webplatform.org/gist/5621387
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=/* This general class will apply the pattern to the containers */
 .pattern {
 	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
@@ -75,24 +76,22 @@
 {{Notes_Section
 |Usage=* Up to four different widths can be specified, in the following order: top, right, bottom, left.
 * If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#the-border-image-width
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
 |Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -101,4 +100,11 @@
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-image-width
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
