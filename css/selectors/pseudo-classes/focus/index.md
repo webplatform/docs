@@ -3,7 +3,6 @@
 |State=Almost Ready
 |Editorial notes=Fix broken links, remove topic cluster flags
 |Checked_Out=No
-|Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -12,7 +11,7 @@
 |Content=In an HTML document, an element must receive focus from the user in order to become active and perform its tasks. For example, users must set input focus on a link in order to follow it. Similarly, users must give a [[html/elements/textarea|textarea]] focus in order to enter text into it.
 
 There are several ways to give focus to an element:
-* Designate the element with a pointing device. Even elements that do not typically accept input, such as '''[[html/elmements/div|div]]''' and '''[[html/elements/body|body]]''' elements, receive focus when clicked with the mouse.
+* Designate the element with a pointing device. Even elements that do not typically accept input, such as '''[[html/elements/div|div]]''' and '''[[html/elements/body|body]]''' elements, receive focus when clicked with the mouse.
 * Navigate through the document with the TAB and Shift+TAB keys. The document’s author may define a tabbing order that specifies the order in which elements will receive focus with the [[html/attributes/tabindex|tabindex]] attribute.
 * Select an element through a [[html/attributes/accessKey|'''keyboard shortcut''']].
 }}
