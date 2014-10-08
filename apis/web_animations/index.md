@@ -21,7 +21,8 @@
 {{See_Also_Section
 |Topic_clusters=Animation
 |Manual_links=
-|External_links=http://www.w3.org/TR/web-animations/
+|External_links=W3C Web Animations Specification, Editors Draft
+http://w3c.github.io/web-animations/
 |Manual_sections=
 }}
 {{Topics|API, Web Animations}}
