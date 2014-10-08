@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].
+
+http://www.w3.org/TR/dom/#constructing-events
+}}
 {{API_Object
 |Subclass_of=
 |Overview=
