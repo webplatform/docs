@@ -7,7 +7,7 @@
 {{Summary_Section|Returns a Boolean value indicating the state of the sticky flag ( '''y''' ) used with a regular expression. Default is <code>false</code>. Read-only.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=rgExp.'''sticky'''
+|Format=regex.'''sticky'''
 }}
 |Values=
 }}
