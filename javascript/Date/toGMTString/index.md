@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Almost Ready
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Summary_Section|Returns a date converted to a string using Greenwich Mean Time(GMT).}}
+{{Summary_Section|Returns a date converted to a string formatted according to GMT conventions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=dateObj.'''toGMTString()'''
@@ -12,7 +12,7 @@
 |Values=
 }}
 {{JS_Return_Value
-|Description=
+|Description=String that contains the date formatted using GMT conventions: <code>Fri, 09 May 2014 00:00:00 GMT</code>
 }}
 {{Examples_Section
 |Not_required=No
@@ -25,23 +25,34 @@ console.log(date.toGMTString()); // "Fri, 09 May 2014 00:00:00 GMT"
 }}
 }}
 {{Remarks_Section
-|Remarks=The required dateObj reference is any Date object.
+|Remarks='''GMT''' is the acronym of Greenwich Mean Time.
 
-The '''toGMTString''' method is obsolete, and is provided for backwards compatibility only. It is recommended that you use the '''toUTCString''' method instead.
-
-The '''toGMTString''' method returns a String object that contains the date formatted using GMT convention. The format of the return value is as follows: "05 Jan 1996 00:00:00 GMT."
+The Format returned by this ''toGMTString'' was defined by [http://tools.ietf.org/html/rfc822#section-5] and was refined by  [http://tools.ietf.org/html/rfc1123#section-5.2.14 RFC-1123]
 }}
 {{Notes_Section
 |Usage=
-|Notes=
+|Notes=The '''toGMTString''' method is obsolete, and is provided for backwards compatibility only. It is recommended that you use the [[javascript/Date/toUTCString{{!}}toUTCString]] method instead.
+
+According to the specification, ''toGMTString'' and ''toUTCString'' should be the same function. This is not true in Google Chrome and Internet Explorer, yet both functions return the same result.
 |Import_Notes=
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/Date/toUTCString{{!}}toUTCString Method (Date)]]
-|External_links=
-|Manual_sections=
+|Manual_links=* [[javascript/Date/toString{{!}}toString Method (Date)]]
+* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
+* [[javascript/Date/toISOString{{!}}toISOString Method (Date)]]
+* [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
+* [[javascript/Date/toTimeString{{!}}toTimeString Method (Date)]]
+* [[javascript/Date/toUTCString{{!}}toUTCString Method (Date)]]
+|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toGMTString toGMTString(), by Mozilla Developer Network]
+* [http://msdn.microsoft.com/en-us/library/ie/a34ehb82%28v=vs.94%29.aspx toGMTString(), by Microsoft Developer Network]
+|Manual_sections====Specification===
+[http://www.ecma-international.org/ecma-262/5.1/#sec-B.2.6 Date.prototype.toGMTString( )]
+
+ECMAScript® Language Specification
+Standard ECMA-262
+5.1 Edition / June 2011
 }}
 {{JS Topics
 |JS Page Type=JS Method
