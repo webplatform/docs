@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a supplied numeric expression rounded to the nearest integer.}}
@@ -44,7 +44,9 @@ For example, <code>Math.round(8.5)</code> returns 9, but <code>Math.round(-8.5)<
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
-|Manual_links=* [[javascript/Math/random{{!}}Math.random Function]]
+|Manual_links=* [[javascript/Math/ceil{{!}}Math.ceil Function]]
+* [[javascript/Math/floor{{!}}Math.floor Function]]
+* [[javascript/Math{{!}}Math Object]]
 |External_links=
 |Manual_sections=
 }}
