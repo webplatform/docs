@@ -1,20 +1,22 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''desc''' element (<desc>) provides a human readable description for container elements and graphics elements.}}
 {{Markup_Element
 |DOM_interface=svg/objects/SVGElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=In the following code example, the '''desc''' element is used to define a description of an element. This element can be read programatically to analyze SVG structure.
 
 Copy this sample to a text file and save it with the ''.html'' file extension. Run it in Internet Explorer 9 to see a greenyellow ellipse.
@@ -33,9 +35,11 @@ The element will look like this:
   </body>
 </html>
 </syntaxhighlight>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 
 '''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
@@ -61,16 +65,23 @@ The '''SVGDescElement''' object has these properties:
 *[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=SVG 1.1
+|URL=http://www.w3.org/TR/SVG/struct.html#DescriptionAndTitleElements
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=SVG Tiny 1.2
+|URL=http://www.w3.org/TR/SVGTiny12/struct.html#TitleAndDescriptionElements
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|SVG}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -78,4 +89,11 @@ The '''SVGDescElement''' object has these properties:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
