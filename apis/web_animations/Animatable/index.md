@@ -21,7 +21,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Web Animations  Editor’s Draft
+|URL=http://w3c.github.io/web-animations/
+|Status=
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
