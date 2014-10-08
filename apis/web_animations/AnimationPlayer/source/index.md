@@ -6,14 +6,14 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationPlayer
 |Read_only=No
 |Example_object_name=element
 |Return_value_name=result
-|Javascript_data_type=AnimationNode
-|Return_value_description=Returns and AnimationNode object
+|Javascript_data_type=
+|Return_value_description=
 |Example_value_name=
 }}
 {{Examples_Section
