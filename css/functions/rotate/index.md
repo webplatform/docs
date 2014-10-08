@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Content needs more elaboration to newcomers, doesn't quite stand on its own yet. Also may want o link parameter to css token page.
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
