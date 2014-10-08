@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|Provides additional control over when an external script is being fetched and executed while a document loads.}}
+{{Summary_Section|Provides additional control over when an external script or an HTML import is being fetched and executed while a document loads.}}
 {{Markup_Attribute
 |Applies_to=[[dom/HTMLScriptElement|HTMLScriptElement]]
 |Property_applies_to=dom/HTMLScriptElement
@@ -18,6 +18,8 @@ And finally asynchronous scripts are no longer part of the content relevant to f
 ==Programmatically created Scripts==
 
 All of the above only applies to scripts declared via HTML markup. For scripts created via JavaScript the effects are sort of turned upside down. The first change is that dynamically created scripts always start off by being fully asynchronous, meaning they neither block the HTML parser nor do they respect their order of creation. The effect is the same as if one would set <code>script.async = true;</code>. What is possible here is to instead set <code>script.async = false;</code>. This won't bring the script all the way back to a point where it would block the HTML parser, but it does make the script respect the order of creation. This allows one to work with dependancies between dynamically created scripts. Beware: "order of creation" doesn't factor in any scripts declared via HTML. Declarative scripts and programmatic scripts both live, and stay, in their own worlds.
+
+
 }}
 {{Examples_Section
 |Not_required=No
