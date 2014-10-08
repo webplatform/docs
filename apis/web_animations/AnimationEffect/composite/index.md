@@ -1,12 +1,15 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=In Progress
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The possible values of an animation effect's composition behavior are represented by the CompositeOperation enumeration.
+
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationEffect
 |Read_only=No
