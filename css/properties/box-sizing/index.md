@@ -4,7 +4,7 @@
 |Editorial notes=Add description.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The <code>box-sizing</code> property alters the CSS box model used to calculate widths and heights of elements, so that they can be equal to the width and height of the content-, padding- or border-box.}}
 {{CSS Property
@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=specified value
 |Animatable=Yes
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=content-box
 |Description=The <code>width</code> and <code>height</code> properties (also including <code>min-width</code>, <code>max-width</code>, <code>min-height</code> and <code>max-height</code> properties) are calculated as the width/height of the content, but not the border, margin, or padding. This is the traditional behaviour of width and height as specified by CSS2.1.
@@ -34,6 +36,7 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Code=&lt;div class="parent"&gt;
 	&lt;div class="child"&gt;&lt;/div&gt;
 &lt;/div&gt;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=This CSS makes it so that the child <code>&lt;div&gt;</code> will always An element with padding that occupies half the width of its parent. This works because it has <code>box-sizing: border-box</code> set on it, so the total width will always be content plus padding plus border. As the border and padding get thicker, the element doesn't get larger. Instead, the content gets smaller to make way for the change.
@@ -61,15 +64,36 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Code=input[type="search"] {
 	box-sizing: content-box;
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Basic User Interface Module Level 3
+|Name=CSS Level 3 - Basic User Interface Module
 |URL=http://www.w3.org/TR/css3-ui/#box-sizing
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Box Model
+|Manual_links=* [http://docs.webplatform.org/wiki/tutorials/box_model WebPlatform.org tutorial on Box Model]
+|External_links=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
+* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/box-sizing
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809 Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -186,18 +210,4 @@ The dimensions of the content alone are thus calculated by subtracting the paddi
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_links=* [http://docs.webplatform.org/wiki/tutorials/box_model WebPlatform.org tutorial on Box Model]
-|External_links=* A [http://css-tricks.com/box-sizing/ detailed article on box-sizing] by Chris Coyier.
-* Paul Irish wrote about [http://paulirish.com/2012/box-sizing-border-box-ftw/ applying <code>box-sizing: border-box;</code> on all elements].
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/box-sizing
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809 Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
