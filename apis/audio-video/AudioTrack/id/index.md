@@ -20,7 +20,50 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=(function () {
+    // grab the video element
+    var video = document.getElementById("video");
+
+    video.addEventListener("loadeddata", function () {
+
+        // get the audiotracks from the video when it's loaded
+        var audioTracks = video.audioTracks;
+
+        var tracksSelection = document.getElementById("tracksSelection");
+
+        // loop through the audio tracks
+        for (var i = 0; i < audioTracks.length; i++) {
+                    
+            // create options for the dropdownlist with the id's
+            // and languages of the tracks
+            var opt = document.createElement('option');
+            opt.value = audioTracks[i].id;
+            opt.text = audioTracks[i].language;
+
+            tracksSelection.add(opt);
+        }
+    });
+
+    tracksSelection.addEventListener("change", function (e) {
+        // when the item of the dropdownlist changes
+        // grab the id from the selected option
+        var audioTracks = video.audioTracks;
+        var track = audioTracks.getTrackById(e.currentTarget.value);
+
+        //disable all tracks to prevent them from playing all at once
+        for (var i = 0; i < audioTracks.length; i++) {
+            audioTracks.enabled = false;
+        }
+
+        //set the selected track for the video
+        track.enabled = true;
+    });
+})();
+|LiveURL=http://code.webplatform.org/gist/459f1a0ea9f70009b6fe
+}}
 }}
 {{Notes_Section
 |Usage=
