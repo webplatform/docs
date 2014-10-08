@@ -58,6 +58,9 @@ An IndexedDB database is unique for our domain. So if we set up a database only 
 
 *Firefox will just ask the user for permission for blobs bigger than 50 MB. [http://support.mozilla.org/en-US/questions/818987 Reference]
 *For Google Chrome, see the [https://developers.google.com/chrome/whitepapers/storage#temporary reference on temporary storage]
+*Internet Explorer will ask the user for permission for Data Stores bigger than 10MB Users can also choose to allow websites to exceed the quota. Users can also change the default 10mb quota in Internet Options > Browsing History > Settings > Caching and Databases. Enterprises can also increase this setting globally or per domain using Group Policy. 
+*Windows 8 Apps Each app has a quota of 250MB. Among all apps on the device, the limit is 4% of the disk size or 20GB, whichever is smaller. For hard drives that are less than 30GB, the limit among all apps on the device is 375MB. Because of the overall quota among all apps, test your app to ensure it functions properly when it can store very little or even no data because other apps consume the overall quota. See: [http://msdn.microsoft.com/en-us/library/windows/apps/jj553412.aspx]
+
 |Import_Notes=
 }}
 {{See_Also_Section
