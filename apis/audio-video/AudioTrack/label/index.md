@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -43,7 +43,6 @@
       }
     }, false);
 &lt;/script>
-
 |LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm
 }}
 }}
