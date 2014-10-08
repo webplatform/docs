@@ -20,7 +20,7 @@
 }}{{JS Syntax Parameter
 |Name=flags
 |Required=Optional
-|Description=Available flags, which may be combined, are: g (global search for all occurrences of pattern ) i (ignore case) m (multiline search)
+|Description=Available flags, which may be combined, are: <code>g</code> (global search for all occurrences of the pattern), <code>i</code> (ignore case), <code>m</code> (multiline search), <code>u</code> (Unicode), <code>y</code> (sticky matching), 
 }}
 }}
 {{JS_Return_Value}}
