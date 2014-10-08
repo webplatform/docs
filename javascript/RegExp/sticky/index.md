@@ -43,7 +43,7 @@ regex.lastIndex;
 {{Remarks_Section
 |Remarks=The <code>sticky</code> property returns <code>true</code> if the sticky flag is set for a regular expression, and returns <code>false</code> if it is not.
 
-The <code>sticky</code> flag, when used, indicates …
+The <code>sticky</code> flag, when used, indicates that the regular expression performs sticky matching in the target string by attempting to match starting at <code>lastIndex</code>. If matching at that location fails, then <code>null</code> is returned, i.e., no forward “anchoring” search is performed. If matching succeeds, then the regular expression’s <code>lastIndex</code> property is updated as for the flag <code>g</code>.
 }}
 {{Notes_Section
 |Usage=
