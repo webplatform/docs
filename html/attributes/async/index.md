@@ -28,6 +28,25 @@ The <code>async</code> attribute appears at one other place: Attached to a <code
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
+|Description=The following script declaration would not block HTML parsing/rendering:
+|Code=<script src="script.js" async></s​cript>
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Although not blocking it is not a good idea to mark a series of scripts that depend on each other as asynchronous:
+|Code=<!-- This will break in most of the cases -->
+<script src="jquery.js" async></s​cript>
+<script src="jquery-plugin.js" async></s​cript>
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Instead, keep the main library synchronous and just mark those dependant on it as asynchronous:
+|Code=<!-- This blocks a little bit, but works -->
+<script src="jquery.js"></s​cript>
+<script src="jquery-plugin.js" async></s​cript>
+|LiveURL=
+}}{{Single Example
 |Language=JavaScript
 |Description=Async attribute with programmatically created scripts.
 |Code=var script;
@@ -60,6 +79,17 @@ script = document.createElement('script');
 script.src = "jquery.plugin.js"; // Needs jQuery in place to work
 script.async = false;
 document.body.appendChild(script);
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Making HTML imports non-blocking:
+|Code=<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="import" href="component.html" async>
+    </head>
+    <body></body>
+</html>
 |LiveURL=
 }}
 }}
