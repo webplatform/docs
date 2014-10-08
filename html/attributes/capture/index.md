@@ -1,7 +1,7 @@
 {{Page_Title|capture}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Confirm template. Examples should point to gist.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -22,14 +22,17 @@ The media capture mechanism builds upon the security and privacy protections pro
 |Language=HTML
 |Description=Indicates that image files are accepted to be captured.
 |Code=<input type="file" accept="image/*" capture>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Indicates that video files are accepted to be captured.
 |Code=<input type="file" accept="video/*" capture>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Indicates that audio files are accepted to be captured.
 |Code=<input type="file" accept="audio/*" capture>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=To take a picture using the device's camera, and upload the picture taken using an HTML form.
@@ -37,6 +40,7 @@ The media capture mechanism builds upon the security and privacy protections pro
   <input type="file" name="image" accept="image/*" capture>
   <input type="submit" value="Upload">
 </form>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=To capture a video using the device's local video camera, and upload the picture taken using an HTML form.
@@ -44,6 +48,7 @@ The media capture mechanism builds upon the security and privacy protections pro
   <input type="file" name="video" accept="video/*" capture>
   <input type="submit" value="Upload">
 </form>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=To capture audio using the device's local microphone, and upload the picture taken using an HTML form.
@@ -51,26 +56,31 @@ The media capture mechanism builds upon the security and privacy protections pro
   <input type="file" name="audio" accept="audio/*" capture>
   <input type="submit" value="Upload">
 </form>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML Media Capture
+|URL=http://www.w3.org/TR/html-media-capture/#the-capture-attribute
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
+|Manual_links=
 |External_links=* [http://www.w3.org/TR/html-media-capture/ HTML Media Capture - W3C Page]
 * [http://dev.opera.com/articles/view/media-capture-in-mobile-browsers/ Article on Dev.Opera - 26 September 2013]
 * [http://www.w3.org/TR/2013/CR-html-media-capture-20130509/ HTML Media Capture - W3C Candidate Recommendation 09 May 2013]
 * [http://www.w3.org/2009/dap/ Device APIs working group]
 * [http://www.w3.org/wiki/Media_Capture Media Capture Wiki]
+|Manual_sections=
 }}
 {{Topics|Mobile}}
 {{External_Attribution
@@ -78,4 +88,11 @@ The media capture mechanism builds upon the security and privacy protections pro
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
