@@ -16,7 +16,7 @@
 |Return_value_name=
 |Javascript_data_type=String
 |Return_value_description=== return values ==
-
+"alternative" : A possible alternative to the main track, e.g. a different take of a song (audio), or a different angle (video). 
 |Example_value_name=
 }}
 {{Examples_Section
