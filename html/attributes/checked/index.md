@@ -46,7 +46,7 @@ As a boolean attribute, valid values are "<code>checked</code>" and nothing. The
 		<label for="check2">Option 2</label><br>
 		<input type="checkbox" name="check3" id="check3" value="Option 3">
 		<label for="check3">Option 3</label><br>	
-		<input type="checkbox" name="check4" id="check4" value="Option 4"  checked>		
+		<input type="checkbox" name="check4" id="check4" value="Option 4" checked>		
 		<label for="check4">Option 4</label>		
 	</fieldset>
 </form>
