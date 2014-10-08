@@ -12,7 +12,7 @@
 |Property_applies_to=dom/HTMLElement
 |Content=The '''alt''' tag is required for [[html/elements/img|images]] and [[html/elements/input/image|image buttons]]. It should provide a concise and accurate label for the element it is being applied to, for the case that a user is visually disabled or is using browser that doesn't render images. The alt text is read by screan readers or displayed in place of the image, if the resource is not found. If no alt tag is given, a screen reader can only read "image" or the file name.
 
-The alt text should be useful in the context it's displayed. For images, it should describe what the image represents. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
+The alt text should be useful in the context it's displayed. Which alt text is useful, depends on the function of the image on the page. The contents of an alt tag should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
 
 If an image is not intended to be part of the content of the page, but instead is purely functional or aesthetic, the alt text can be an empty string. This case could apply for an image used as a border or spacing element.
 }}
@@ -26,6 +26,17 @@ If an image is not intended to be part of the content of the page, but instead i
    <li><img src="visa.png" alt="Visa"></li>
    <li><img src="americanexpress.png" alt="American Express"></li>
 </ul>
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Depending on the context, the alt text can be short and simple or more descriptive:
+|Code=//A photo of the Capitol Office is included to illustrate a political news article:
+<img src="capitol.jpg" alt="The Capitol">
+
+//A photo of the Capitol Office is included to illustrate an essay about architecture:
+<img src="capitol.jpg" alt="Capital Dome in neo Classical style. Dome is white, circular with narrow windows on many levels and pillars on the lowest level.">
+
+
 |LiveURL=
 }}
 }}
