@@ -19,23 +19,23 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the <code>sticky</code> property.
-|Code=var stickyglobal = /foo.bar/gy;
+|Code=var regex = /foo.bar/gy;
 
-stickyglobal.test('foo*bar');
+regex.test('foo*bar');
 // → true
-stickyglobal.lastIndex;
+regex.lastIndex;
 // → 7
-stickyglobal.test('..foo*bar');
+regex.test('..foo*bar');
 // → false
 
-stickyglobal.lastIndex = 0;
-stickyglobal.test("..foo*bar");
+regex.lastIndex = 0;
+regex.test("..foo*bar");
 // → false
 
-stickyglobal.lastIndex = 2;
-stickyglobal.test("..foo*bar");
+regex.lastIndex = 2;
+regex.test("..foo*bar");
 // → true
-stickyglobal.lastIndex;
+regex.lastIndex;
 // → 9
 |LiveURL=
 }}
