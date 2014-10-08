@@ -8,11 +8,11 @@
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=try {
-     tryStatements
-} catch( exception ) {
-     catchStatements
+  tryStatements
+} catch ( exception ) {
+  catchStatements
 } finally {
-     finallyStatements
+  finallyStatements
 }
 }}
 |Values={{JS Syntax Parameter
@@ -33,76 +33,49 @@
 |Description=Statements that are unconditionally executed after all other error processing has occurred.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The following example causes a ReferenceError exception to be thrown and displays the name of the error and its message.
+|Description=
 |Code=try {
-     addalert("bad call");
- }
- catch(e) {
-     document.write ("Error Message: " + e.message);
-     document.write ("&lt;br /&gt;");
-     document.write ("Error Code: ");
-     document.write (e.number &amp; 0xFFFF)
-     document.write ("&lt;br /&gt;");
-     document.write ("Error Name: " + e.name);
- }
- 
- // Output:
- Error Message: 'addalert' is undefined
- Error Code: 5009
- Error Name: ReferenceError
-}}{{Single Example
-|Language=JavaScript
-|Description=The following example shows how to re-throw errors, as well as the execution of nested try...catch blocks. When the error is thrown from the nested try block, it passes to the nested catch block, which re-throws it. The nested finally block runs before the outer catch block handles the error, and at the end the outer finally block runs.
-|Code=try {
-     document.write("Outer try running...&lt;br/&gt;");
- 
-     try {
-         document.write("Nested try running...&lt;br/&gt;");
-         throw new Error(301, "an error");
-     }
-     catch (e) {
-         document.write ("Nested catch caught " + e.message + "&lt;br/&gt;");
-         throw e;
-     }
-     finally {
-         document.write ("Nested finally is running...&lt;br/&gt;");
-     }
- }
- catch (e) {
-     document.write ("Outer catch caught " + e.message + "&lt;br/&gt;");
- }
- finally {
-     document.write ("Outer finally running");
- }
- 
- // Output:
- // Outer try running...
- // Nested try running...
- // Nested catch caught error from nested try
- // Nested finally is running...
- // Outer catch caught error from nested try
- // Outer finally running
+  functionDoesNotExist();
+}
+catch (e) {
+  console.log(e.message);
+  // "functionDoesNotExist is not defined"
+}
+
+console.log("This code runs!");
+// This runs because the error was successfully caught
+|LiveURL=
 }}
 }}
 {{Remarks_Section
-|Remarks=The try...catch...finally statement provides a way to handle some or all of the errors that may occur in a given block of code, while still running code. If errors occur that are not handled, JavaScript provides the normal error message.
+|Remarks=
+}}
+{{Notes_Section
+|Usage=The try...catch...finally statement provides a way to handle some or all of the errors that may occur in a given block of code, while still running code. If errors occur that are not handled, JavaScript provides the normal error message.
 
 The try block contains code that may provoke an error, while the catch block contains the code that handles some or all errors. If an error occurs in the try block, program control is passed to the catch block. The value of exception is the value of the error that occurred in the try block. If no error occurs, the code in the catch block is never executed.
 
 You can pass the error up to the next level by using the throw statement to re-throw the error.
 
 After all the statements in the try block have been executed and error handling has been done in the catch block, the statements in the finally block are executed, whether or not an error was handled. The code in the finally block is guaranteed to run unless an unhandled error occurs (for example, a run-time error inside the '''catch''' block).
+|Notes=
+|Import_Notes=
 }}
-{{Notes_Section}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/throw{{!}}throw Statement]]
+|External_links=
+|Manual_sections==== Specification ===
+
+* [http://www.ecma-international.org/ecma-262/5.1/#sec-12.14 ECMAScript 5.1 (ECMA-262) - The try statement]
 }}
 {{JS Topics
 |JS Page Type=JS Basic
