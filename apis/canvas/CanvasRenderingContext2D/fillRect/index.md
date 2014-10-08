@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -42,7 +42,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Set a fillStyle and fill a rectancle with that fillStyle.
+|Code=// Get the canvas element and its context
+var el = document.getElementById('canvas');
+var ctx = el.getContext('2d');
+
+// Set a fillStyle and fill a rectangle based on that fillStyle
+ctx.fillStyle = '#789789';
+ctx.fillRect(25,25,50,50);
+|LiveURL=http://code.webplatform.org/gist/1f00ea4356ed71816571
+}}
 }}
 {{Notes_Section
 |Usage=
