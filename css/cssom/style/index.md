@@ -65,8 +65,8 @@ The '''style''' object has these types of members:
 *[#methods Methods]
 *[#properties Properties]
 
-
-====Methods====
+???? Test
+====Methods==== 
 The '''style''' object has these methods.
 {| class="wikitable"
 |-
