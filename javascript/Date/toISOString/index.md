@@ -21,10 +21,10 @@
 |Description=
 |Code=var now = new Date();
 console.log(date.toISOString());
-// ouputs: "2014-10-08T12:54:27.487Z" 
+// ouputs: "2014-10-08T12:54:27.487Z"
 |LiveURL=
 }}{{Single Example
-|Language=
+|Language=JavaScript
 |Description=Manually assembling the ISO 8601 format (polyfill)
 |Code=// if the environment does not support toISOString() yet
 // add it to the Date prototype
@@ -55,7 +55,7 @@ if (!Date.prototype.toISOString) {
 [[javascript/Error|<code>RangeError</code>]] when called on a date object with an ''invalid date'' (e.g. <code>new Date("I am not a date");</code> - see [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1 Time Values And Time Range])
 }}
 {{Notes_Section
-|Usage=The ISO 8601 Extended format is supported by [[javascript/Date/parse Date.parse()]], it is therefore a good choice when dates need to be exchanged between APIs.
+|Usage=The ISO 8601 Extended format is supported by [[javascript/Date/parse|Date.parse()]], it is therefore a good choice when dates need to be exchanged between APIs.
 |Notes=
 |Import_Notes=
 }}
