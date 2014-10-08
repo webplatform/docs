@@ -16,8 +16,8 @@
 |Optional=Yes
 }}
 |Method_applies_to=apis/web_animations/AnimationTimeline
-|Example_object_name=myAnimationTimeLine
-|Return_value_name=
+|Example_object_name=element
+|Return_value_name=result
 |Javascript_data_type=
 |Return_value_description=
 }}
