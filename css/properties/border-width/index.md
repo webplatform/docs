@@ -56,10 +56,7 @@
 }
 
 .various {
-  border-top-width: thick;
-  border-right-width: medium;
-  border-bottom-width: thin;
-  border-left-width: 10px;
+  border-width: thick medium thin 10px;
 }
 |LiveURL=http://code.webplatform.org/gist/733bf352438f33914fc0
 }}
