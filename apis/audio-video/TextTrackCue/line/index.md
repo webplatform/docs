@@ -15,7 +15,7 @@
 |Example_object_name=TextTrackCue
 |Return_value_name=
 |Javascript_data_type=unsigned long
-|Return_value_description=If current value is set to auto, the string "auto" is returned.
+|Return_value_description=If current value is set to auto, the string <code>"auto"</code> is returned.
 |Example_value_name=
 }}
 {{Examples_Section
