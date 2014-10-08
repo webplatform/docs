@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Data Not Semantic, Needs Review
 |Content=Compatibility Incomplete
@@ -26,7 +27,9 @@
 </table>
 
 
-<p>The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [[html/elements/progress|progress element]].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.</p>
+The meter element defines a value between a minimum or maximum.  This can be used for fundraisers, test results, or a number of other things.  It should not be used as a progress bar.  For that, use the [[html/elements/progress|progress element]].  You should give a description of the meter within the tags, such as <code>&lt;meter min&#61;&quot;0&quot; max&#61;&quot;10&quot; value&#61;&quot;5&quot;&gt;5 out of 10 squares occupied&lt;&#47;meter&gt;</code>.  This meter can also have various attributes on it, such as the optimum, high and low values.
+
+The content of the '''meter''' element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as a fallback for browsers not supporting the element. 
 
 ===Attributes===
 
@@ -96,17 +99,35 @@ meter::-webkit-meter-even-less-good-value {
 {{Notes_Section
 |Usage=The meter element is intended to have descriptive text inside of it, similar to the alt tag of the [http://docs.webplatform.org/wiki/html/elements/img image element].
 The title attribute may be used to specify a unit.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5.1
 |URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-meter-element
 |Status=Editor's Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element
 |Status=Living Standard
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=HTML
+|Manual_links=* [[html/elements/progress|HTML5 progress element]]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|DOM, HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/meter
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -170,16 +191,4 @@ The title attribute may be used to specify a unit.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=* [[html/elements/progress|HTML5 progress element]]
-}}
-{{Topics|DOM, HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/meter
-|MSDN_link=
-|HTML5Rocks_link=
 }}
