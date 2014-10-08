@@ -42,11 +42,11 @@ As a boolean attribute, valid values are "<code>checked</code>" and nothing. The
 		<legend>Check boxes</legend>
 		<input type="checkbox" name="check1" id="check1" value="Option 1">
 		<label for="check1">Option 1</label><br>		
-		<input type="checkbox" name="check2" id="check2" checked value="Option 2">
+		<input type="checkbox" name="check2" id="check2" value="Option 2" checked>
 		<label for="check2">Option 2</label><br>
 		<input type="checkbox" name="check3" id="check3" value="Option 3">
 		<label for="check3">Option 3</label><br>	
-		<input type="checkbox" name="check4" id="check4" value="Option 4">		
+		<input type="checkbox" name="check4" id="check4" value="Option 4"  checked>		
 		<label for="check4">Option 4</label>		
 	</fieldset>
 </form>
