@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground; fix see also
+|Editorial notes=Compatibility table; 
 
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -60,6 +60,8 @@ Internet Explorer 8 and later. In IE8 mode, the [[dom/properties/defaultChecked
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
+|Manual_links=* [[html/elements/input/type/checkbox|'''checkbox''']] element
+* [[html/elements/input/type/radio|'''radio''']] element
 |External_links=* http://www.w3.org/TR/html-markup/input.radio.html
 * http://www.w3.org/TR/html-markup/input.checkbox.html
 }}
