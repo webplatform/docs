@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string representation of a date. The format of the string depends on the locale. For U.S. English (en-us), it is as follows:
@@ -9,13 +10,9 @@ day of the week month day hour : minute : second time zone year
 }}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=date.toString()
+|Format=toString()
 }}
-|Values={{JS Syntax Parameter
-|Name=date
-|Required=Required
-|Description=The date to represent as a string.
-}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=Returns the string representation of the date.
@@ -31,13 +28,24 @@ day of the week month day hour : minute : second time zone year
  document.write(dateString);
  
  // Output: &lt;date&gt;
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
