@@ -62,7 +62,6 @@ The <code>sticky</code> flag, when used, indicates that the regular expression p
 * [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 * [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
-
 |External_links=
 |Manual_sections=
 }}
