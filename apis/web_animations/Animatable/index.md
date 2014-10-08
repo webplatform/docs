@@ -13,7 +13,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=elem.ownerDocument.timeline.play(anim);
+|LiveURL=
+}}{{Single Example
+|Language=JavaScript
+|Description=
+|Code=var anim = new Animation(elem, { opacity: 0 }, 2000);
+|LiveURL=
+}}{{Single Example
+|Language=JavaScript
+|Description=
+|Code=var anim = elem.animate({ opacity: 0 }, 2000);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
