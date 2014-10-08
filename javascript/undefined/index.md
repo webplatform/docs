@@ -26,17 +26,17 @@ if (foo === undefined) {
 }
 }}{{Single Example
 |Language=JavaScript
-|Description=Usage of '''undefined''' with the [[javascript/operators/typeof{{!}}typeof Operator]].
+|Description=Usage of <code>undefined</code> with the [[javascript/operators/typeof{{!}}typeof operator]].
 |Code=var foo;
 
-if (typeof foo === "undefined") {
+if (typeof foo === 'undefined') {
     // executes
 } else {
    // won't execute
 }
 }}{{Single Example
 |Language=JavaScript
-|Description=Comparison of strict equality and the [[javascript/operators/typeof{{!}}typeof Operator]]. Typeof doesn't throw an error if the variable hasn't been defined.
+|Description=Comparison of strict equality and the [[javascript/operators/typeof{{!}}typeof operator]]. <code>typeof</code> doesn’t throw an error if the variable hasn’t been defined, because its value is implicitly <code>undefined</code>.
 |Code=// foo variable is not defined
 if (typeof foo === "undefined") {
     // executes
@@ -48,11 +48,11 @@ if (foo === undefined) {
 }}
 }}
 {{Remarks_Section
-|Remarks=The '''undefined''' constant is a member of the '''Global''' object, and becomes available when the scripting engine is initialized. When a variable has been declared but not initialized, its value is '''undefined'''.
+|Remarks=The <code>undefined</code> constant is a member of the '''Global''' object, and becomes available when the scripting engine is initialized. When a variable has been declared but not initialized, its value is <code>undefined</code>.
 
-If a variable has not been declared, you cannot compare it to '''undefined''' , but you can compare the type of the variable to the string "undefined". (see second example)
+If a variable has not been declared, you cannot compare it to <code>undefined</code> , but you can compare the type of the variable to the string <code>"undefined"</code>. (see second example)
 
-The '''undefined''' constant is useful when explicitly testing or setting a variable to undefined.
+The <code>undefined</code> constant is useful when explicitly testing or setting a variable to <code>undefined</code>.
 }}
 {{Notes_Section
 |Usage='''undefined''' is not a reserved word, thus can be used as a variable in any scope except for the global scope.
@@ -61,7 +61,7 @@ The '''undefined''' constant is useful when explicitly testing or setting a vari
 
 [[javascript/null{{!}}null]] can be assigned to a variable to represent no value.
 
-Other than that, '''undefined''' is a type, while '''null''' is an object
+Other than that, <code>undefined</code> is a type, while <code>null</code> is an object
 }}
 {{JS Object Listing}}
 
