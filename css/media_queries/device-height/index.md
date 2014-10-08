@@ -9,12 +9,6 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/media_queries
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-}}
 {{Examples_Section
 |Not_required=No
 |Examples=
