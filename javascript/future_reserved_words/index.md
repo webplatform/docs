@@ -43,10 +43,10 @@ The following are also future reserved words when encountered within [[javascrip
 * <code>private</code>
 * <code>protected</code>
 * <code>public</code>
-
 {{See_Also_Section
+|Topic_clusters=Javascript
 |Manual_links=
-|External_links=* [http://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-262%205th%20edition%20December%202009.pdf ECMAScript Language Specification]
+|External_links=* [https://people.mozilla.org/~jorendorff/es6-draft.html ECMA-262 6th Edition – Draft August 24, 2014]
 |Manual_sections=
 }}
 {{JS Topics
