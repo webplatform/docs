@@ -1,18 +1,18 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Seeks the player to the end of the source content in the current direction by running the finish a player procedure for this object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/AnimationPlayer
-|Example_object_name=
+|Example_object_name=AnimationPlayer
 |Return_value_name=
-|Javascript_data_type=
+|Javascript_data_type=void
 |Return_value_description=
 }}
 {{Examples_Section
@@ -20,7 +20,11 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=
+|Usage=Exceptions:
+
+DOMException of type InvalidStateError
+Raised if the end time of this player’s source content is infinity and the player playback rate is > zero.
+
 |Notes=
 |Import_Notes=
 }}
