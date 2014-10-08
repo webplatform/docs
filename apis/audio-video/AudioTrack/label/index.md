@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,32 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=&lt;video id="video1" controls  >
+    &lt;source src="http://ie.microsoft.com/testdrive/Videos/BehindIE9ModernWebStandards/Video.mp4">
+    &lt;track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+    &lt;track id="sptrack" label="Spanish subtitles" kind="captions" src="estrack.vtt" srclang="es">
+    &lt;track id="detrack" label="German subtitles" kind="captions" src="detrack.vtt" srclang="de">
+  &lt;/video>
+  &lt;br />
+  &lt;button id="gettracks" >View text tracks&lt;/button>
+  &lt;div id="display"></div>
+
+  &lt;script>
+    document.getElementById("gettracks").addEventListener("click", function () {
+      var display = document.getElementById("display");
+      display.innerHTML = "";
+      var mytracks = document.getElementById("video1").textTracks;  //  get the textTrackList
+      for (var i = 0; i &lt; mytracks.length; i++) {
+        display.innerHTML += (mytracks[i].label + "&lt;br/>");  //append track label to inner text of &lt;div>
+      }
+    }, false);
+&lt;/script>
+
+|LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm
+}}
 }}
 {{Notes_Section
 |Usage=
