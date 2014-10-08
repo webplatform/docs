@@ -7,7 +7,7 @@
 {{Summary_Section|Returns a date converted to a string formatted according to UTC conventions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=dateObj.'''toUTCString()'''
+|Format=toUTCString()
 }}
 |Values=
 }}
