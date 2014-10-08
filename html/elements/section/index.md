@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Incomplete, Compatibility Incomplete
 }}
@@ -45,6 +46,7 @@ The '''section''' element is not a generic container element. Authors are encour
   apple pies.&lt;/p&gt;
  &lt;/section&gt;
 &lt;/article&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=The rank of '''h1-h6''' elements is determined by the number in their name.  The '''h1''' element is said to have the highest rank; the '''h6''' element has the lowest rank.  Two elements with the same name have the same rank. The default style applied to '''hn''' elements varies according to the rank of the element. However, the rank of headings that appear within a '''section''' element is automatically reduced.  This affects the visual appearance of the headings inside the '''section''' element. In the following example, the author uses '''h1''' elements without worrying whether a particular section is at the top level, the second level, the third level, and so on. The two outlines produce equivalent output.
@@ -73,17 +75,35 @@ The '''section''' element is not a generic container element. Authors are encour
 &lt;section&gt;
 &lt;h1&gt;Paths&lt;/h1&gt;
 &lt;/section&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage='''Note'''  Authors are encouraged to use the '''[[html/elements/article|article]]''' element instead of the '''section''' element when it would make sense to syndicate the contents of the element.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-section-element
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Document Structure
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -149,15 +169,4 @@ The '''section''' element is not a generic container element. Authors are encour
 |Version=9
 |Note=Windows Internet Explorer 9.  The '''section''' element is only supported for webpages displayed in IE9 Standards mode.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
