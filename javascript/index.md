@@ -6,7 +6,7 @@
 }}
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
 
-The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js], [https://developer.mozilla.org/en-US/docs/Rhino Rhino], or [https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey SpiderMonkey], or run it as an embedded language such as the [http://en.wikipedia.org/wiki/Scripting_for_the_Java_Platform JavaScript engine inside Java].
+The usage of JavaScript is not limited inside browsers. You can use it in server and console environments with [http://nodejs.org Node.js], [https://developer.mozilla.org/en-US/docs/Rhino Rhino], [http://openjdk.java.net/projects/nashorn/ Nashorn], or [https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey SpiderMonkey], or run it as an embedded language such as the [http://en.wikipedia.org/wiki/Scripting_for_the_Java_Platform JavaScript engine inside Java].
 
 Note: If you are completely new to web development, you may want to review our [[Beginners]] section.
 }}
