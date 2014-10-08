@@ -4,7 +4,7 @@
 |Editorial notes=Add specification.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Background-repeat defines if and how background images will be repeated after they have been sized and positioned}}
 {{CSS Property
