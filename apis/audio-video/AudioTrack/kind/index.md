@@ -24,7 +24,9 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes='''"alternative"'''
+|Notes===Possible values==
+
+#"alternative"
 :A possible alternative to the main track, e.g. a different take of a song (audio), or a different angle (video).  
 :Applies To: Audio and video.  
 "captions"  
@@ -53,7 +55,7 @@
 	Applies To: Audio and video.  
 "" (empty string)  
 	No explicit kind, or the kind given by the track's metadata is not recognised by the user agent.  
-	Applies To: Audio and video. 
+	Applies To: Audio and video.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
