@@ -4,7 +4,7 @@
 |Editorial notes=Add compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the color of an element's right border. This page explains the border-right-color value, but often you will find it more convenient to fix the border's right color as part of a shorthand set, either [[css/properties/border-right|border-right]] or [[css/properties/border-color|border-color]].
 
@@ -72,6 +72,7 @@
 |LiveURL=http://code.webplatform.org/gist/5535401
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;div class="box named-value"&gt;
   &lt;h1&gt;Named color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;red&lt;/code&gt;&lt;/p&gt;
@@ -106,6 +107,7 @@
   &lt;h1&gt;HSL with alpha color&lt;/h1&gt;
   &lt;p&gt;&lt;code&gt;hsla(282, 100%, 41%, 0.8)&lt;/code&gt;&lt;/p&gt;
 &lt;/div&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -121,35 +123,31 @@ The color value can also be a numerical value, such as one of the following:
 * HSLa, such as hsl(0, 100%, 50%, 1)
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3, 4.1. Line Colors: the ‘border-color’ properties
+|Name=CSS Level 3 - Backgrounds and Borders Module
 |URL=http://www.w3.org/TR/css3-background/#the-border-color
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification, 8 Box model
+|Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
-|Name=CSSOM, 6.5.1 The CSSStyleDeclaration Interface,
-|URL=http://www.w3.org/TR/cssom/#the-cssstyledeclaration-interface
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=CSS Color Module Level 3
+|Name=CSS Level 3 - Color Module
 |URL=http://www.w3.org/TR/css3-color
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Border
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -165,4 +163,11 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
