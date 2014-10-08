@@ -12,9 +12,9 @@
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationPlayer
 |Read_only=Yes
-|Example_object_name=element 
-|Return_value_name=result
-|Javascript_data_type=AnimationPlayState
+|Example_object_name=myPlayer
+|Return_value_name=currentState
+|Javascript_data_type=[[apis/web_animations/AnimationPlayState|'''AnimationPlayState''']]
 |Example_value_name=
 }}
 {{Examples_Section
