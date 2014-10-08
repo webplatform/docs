@@ -95,7 +95,7 @@ especificación:</p>
  su DTDs disponible a  el sitio web de W3C.</p>
 </blockquote>
 
-El atributo <code>cite</code> no es necesario en el caso de que la cita se tome de una novela, una revista o de alguna otra forma de contenido fuera de línea.
+El atributo <code>cite</code> no hace nada independiente, pero es útil para tener un registro de el origen de la cita en la misma pagina de la cita.
 
 === Texto preformateado ===
 
