@@ -19,45 +19,25 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the Unicode property.
-|Code=function RegExpPropDemo(flag){
-    // The flag parameter is a string that contains
-    // g, i, or m.  The flags can be combined.
- 
-    // Check flags for validity.
-    if (flag.match(/[^gim]/))
-       {
-       return ("Flag specified is not valid");
-       }
- 
-    // Create the string on which to perform the replacement.
-    var ss = "The batter hit the ball with the bat ";
-    ss += "and the fielder caught the ball with the glove.";
- 
-    //Replace "the" with "a".
-    var re = new RegExp("the", flag);
-    var r = ss.replace(re, "a");        
- 
-    // Output the resulting string and the flags.
-    var s = "";
-    s += "global: " + re.global.toString();
-    s += "&lt;br /&gt;";
-    s += "ignoreCase: " + re.ignoreCase.toString();
-    s += "&lt;br /&gt;";
-    s += "multiline: " + re.multiline.toString();
-    s += "&lt;br /&gt;";
-    s += "Resulting String: " + r;
- 
-    return (s);
- }
- 
- document.write(RegExpPropDemo("g"));
-|LiveURL=
+|Code=// Note: `𝌆` is U+1D306 TETRAGRAM FOR CENTRE, a supplementary Unicode symbol.
+var string = 'a𝌆b';
+
+console.log(/a.b/.test(string));
+// → false
+
+console.log(/a.b/u.test(string));
+// → true
+
+var match = string.match(/a(.)b/u);
+console.log(match[1]);
+// → '𝌆'
+|LiveURL=https://mathiasbynens.be/notes/es6-unicode-regex
 }}
 }}
 {{Remarks_Section
 |Remarks=The <code>unicode</code> property returns <code>true</code> if the Unicode flag is set for a regular expression, and returns <code>false</code> if it is not.
 
-The Unicode flag, when used, indicates …
+The Unicode flag, when used, enables various Unicode-related features for regular expressions, such as the use of ES6 Unicode code point escapes (e.g. `/\u{1D306}/u`).
 }}
 {{Notes_Section
 |Usage=
