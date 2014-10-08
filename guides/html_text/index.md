@@ -372,7 +372,6 @@ The ''big'' element indicates that the text should be rendered in a larger font.
 In this article we have looked at the basics of HTML text markup, including headings, paragraphs, quotes, code, and 
 various emphasis elements. When you are comfortable with these concepts, please move on to the other tutorials
 in this series, which cover HTML lists, images, links, tables, and more.
-
 }}
 {{Notes_Section
 |Usage=
