@@ -16,7 +16,13 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var date = new Date("2014-05-09");
+console.log(date.toDateString()); // "Fri May 09 2014"
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required objDate reference is a Date object.
