@@ -16,10 +16,11 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=IndexedDB enables you to store large amounts of data in a reliable and structured way. If you are building web applications that need to work offline then this is an essential addition to your  development skills arsenal as it provides features that enable you to group, iterate, search, and filter JavaScript objects.
+|Usage=IndexedDB enables you to store large amounts of data in a reliable and structured way. If you are building web applications that need to work offline the API can be useful to store, group, iterate, search, and filter JavaScript objects. 
 |Notes=The IndexedDB specification supports an Asynchronous API on the window object and a Synchronous API for Webworkers. 
 
-An IndexedDB database is made up of Object Stores. Object stores are like Buckets with Names on, You can create as many of these buckets as you wish and you can put any JavaScript object inside them. Every object in one of these buckets can have different properties, just because they are in the same bucket it doesn't mean that they need to have the same structure.  The only requirement is that the object has properties that match any explicit Keys or Indexes that you have set up on the Object store.
+An IndexedDB database is made up of Object Stores. Object stores can be created and JavaScript objects of any shape can be stored inside of them. Every object can have different properties, just because they are in the same Object Store it doesn't mean that they need to have the same structure. The only requirement is that the object has properties that match any explicit Keys or Indexes that you have set up on the Object store. 
+
 
 === Constructs ===
 
