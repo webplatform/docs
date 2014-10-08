@@ -41,7 +41,7 @@ stickyglobal.lastIndex;
 }}
 }}
 {{Remarks_Section
-|Remarks=The <code>sticky</code> property returns <code>true</code>' if the sticky flag is set for a regular expression, and returns <code>false</code> if it is not.
+|Remarks=The <code>sticky</code> property returns <code>true</code> if the sticky flag is set for a regular expression, and returns <code>false</code> if it is not.
 
 The <code>sticky</code> flag, when used, indicates …
 }}
