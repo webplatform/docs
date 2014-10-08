@@ -20,10 +20,12 @@ If an image is not intended to be part of the content of the page, but instead i
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the 'alt' attribute to indicate that the icon displayed denotes a read/write property.
-|Code=<!doctype html>
-<title>Image alt attribute usage</title>
-<img src="http://example.com/path/to/no.jpg" alt="No image, so here is the alt text">
+|Description=In this example the images provice important information. The alt text therefore needs to convey the same content.
+|Code=<p>We accept the these credit cards:</p>
+<ul>
+   <li><img src="visa.png" alt="Visa"></li>
+   <li><img src="americanexpress.png" alt="American Express"></li>
+</ul>
 |LiveURL=
 }}
 }}
