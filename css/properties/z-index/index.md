@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising "out of" the screen toward you or descending "into" the screen away from you. The z-index property controls that dimension, stacking (layering) elements above or below others; thus. elements with a higher z-index appear closer to the viewer overlapping other elements in the same space, whereas those with a lower z-index appear further away or behind other elements occupying the same space on the cartesian plane. Different browsers have different interpretations of z-index ordering, so beware.}}
+{{Summary_Section|The '''z-index''' property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising “out of” the screen, towards the viewer, or descending “into” the screen, away from the viewer.}}
 {{CSS Property
 |Initial value=auto
 |Applies to=Positioned elements
@@ -203,8 +203,12 @@
 }}
 }}
 {{Notes_Section
-|Usage=This property only works with elements that are positioned '''absolute''', '''relative''', or '''fixed'''.
-|Notes=If two objects have the same '''z-index''', they are stacked according to their source order. 
+|Usage=The z-index property controls the “z” dimension dimension, stacking (layering) elements above or below others. Elements with a higher z-index appear closer to the viewer and overlap other elements in the same space, whereas a lower z-index makes them appear behind other elements, occupying the same space on the cartesian plane. Different browsers have different interpretations of z-index ordering, so beware.
+
+Remember that elements that are overlapped in this way are reachable by keyboard users and screen readers, which usually is confusing. Consider hiding (using <code>display:none;</code>) any completely invisible elements.
+
+This property only works with elements that are positioned '''absolute''', '''relative''', or '''fixed'''.
+|Notes=If two objects have the same '''z-index''', they’re stacked according to their source order. 
 
 An element with a positive z-index will be placed above an element that does not have a defined z-index. An element with a negative z-index will be placed below an element with no defined z-index. 
 
@@ -213,8 +217,7 @@ The property does not apply to windowed controls, such as '''select''' objects.
 When elements overlap, only the topmost element can receive action from a pointing device such as a mouse, even if it has a set opacity or is made invisible through CSS. This is also true for positioned elements with a negative z-index, unless:
 *the parent is a scrolling container (that is, its [[css/properties/overflow|overflow]] property is set to '''auto''' or '''scroll'''), or
 *the parent is positioned (that is, its [[css/properties/position|position]] property is set to '''absolute''', '''relative''', or '''fixed''').
-|Import_Notes====Syntax===
-<code>'''z-index: '''auto '''{{!}}''' ''integer'' '''{{!}}''' '''inherit'''</code>
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
