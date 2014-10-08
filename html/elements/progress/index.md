@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -25,7 +26,9 @@
 </tr>
 </table>
 
-<p>The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.</p>
+The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.
+
+The content of the '''progress''' element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as an fallback for browsers not supporting the element.
 
 ===Attributes===
 This element supports the HTML5 [[html/global_attributes|global attributes]].
@@ -75,17 +78,34 @@ progress::-webkit-progress-value {
 }}
 {{Notes_Section
 |Usage=When the [[#attribute-value|value attribute]] is omitted, the <code>&lt;progress&gt;</code> element becomes indeterminate, that is, it shows activity but not how much progress has actually been made.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML5.1
 |URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element
 |Status=Editor's Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element
 |Status=Living Standard
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=* [[html/elements/meter|HTML5 meter element]]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -147,15 +167,4 @@ progress::-webkit-progress-value {
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/meter|HTML5 meter element]]
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
