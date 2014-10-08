@@ -15,7 +15,7 @@
 |Prev_page=
 |Content=== Introduction ==
  
-This article deals with a part of the HTML document that does not get the attention it deserves: the markup that goes inside the <code>head</code> element. By the end of this tutorial you will have learnt about the different parts of this section and what they do, including the <code>title</code> element, keywords and description (which are handled by <code>meta</code> elements), and more. You'll also learn about JavaScript and CSS styles (both internal and external) and about what not to leave in the <code>head</code>.
+This article deals with a part of the HTML document that does not get the attention it deserves: the markup that goes inside the <code>head</code> element. By the end of this tutorial you will have learned about the different parts of this section and what they do, including the <code>title</code> element, keywords and description (which are handled by <code>meta</code> elements), and more. You'll also learn about JavaScript and CSS styles (both internal and external) and about what not to leave in the <code>head</code>.
 Make sure you go through the full tutorial from start to finish, as it builds up a series of best practices to follow when dealing with the HTML <code>head</code>.
 
 == Head? What head are we talking about? ==
