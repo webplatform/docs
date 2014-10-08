@@ -140,7 +140,7 @@ document.body.appendChild(script);
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Javascript, Performance, Web Components
-|Manual_links=* [[http://docs.webplatform.org/wiki/html/attributes/defer|defer attribute]]
+|Manual_links=* [[html/attributes/defer|defer attribute]]
 |External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[dom/HTMLScriptElement|HTMLScriptElement]]</code>
