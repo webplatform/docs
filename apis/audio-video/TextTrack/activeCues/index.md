@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,41 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=&lt;!DOCTYPE html>
+&lt;html xmlns="http://www.w3.org/1999/xhtml">
+&lt;head>
+    &lt;title>activeCues example&lt;/title>
+
+    &lt;script type="text/javascript">
+        // don't add this listener until all DOM content is loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            var track = document.getElementById("track1");
+            track.addEventListener("cuechange", function () {
+                var myTrack = this.track;
+                var myCues = myTrack.activeCues;      // array of current cues.
+                //  display the start and end time, and cue text
+                if (myCues.length > 0) {
+                    var disp = document.getElementById("display");
+                    disp.innerHTML = myCues[0].startTime + " --> " + myCues[0].endTime + "  " + myCues[0].getCueAsHTML().textContent;
+                }
+            }, false);
+        }, false);
+    &lt;/script>
+&lt;/head>
+&lt;body>
+    &lt;video id="video1" controls>
+        &lt;source src="video.mp4">
+        &lt;track id="track1" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+        HTML5 video is not supported
+    &lt;/video>
+    &lt;div id="display">&lt;/div>
+&lt;/body>
+&lt;</html>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
