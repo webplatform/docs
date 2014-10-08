@@ -44,7 +44,7 @@ console.log(match[1]);
 {{Remarks_Section
 |Remarks=The <code>unicode</code> property returns <code>true</code> if the Unicode flag is set for a regular expression, and returns <code>false</code> if it is not.
 
-The Unicode flag, when used, enables various Unicode-related features for regular expressions, such as the use of ES6 Unicode code point escapes (e.g. `/\u{1D306}/u`).
+The Unicode flag, when used, enables [https://mathiasbynens.be/notes/es6-unicode-regex various Unicode-related features for regular expressions], such as the use of ES6 Unicode code point escapes (e.g. <code>/\u{1D306}/u</code>).
 }}
 {{Notes_Section
 |Usage=
