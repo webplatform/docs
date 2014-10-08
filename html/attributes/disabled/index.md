@@ -51,7 +51,7 @@ When this is present a user cannot make the element active. Further, when the fo
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Topic_clusters=Document Structure, HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
