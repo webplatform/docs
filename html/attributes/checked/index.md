@@ -25,7 +25,7 @@ As a boolean attribute, valid values are "<code>checked</code>" and nothing. The
 		<legend>Radio buttons</legend>
 		<input type="radio" name="rad" id="rad1" value="Option 1">
 		<label for="rad1">Option 1</label><br>		
-		<input type="radio" name="rad" id="rad2" checked value="Option 2">
+		<input type="radio" name="rad" id="rad2" value="Option 2" checked>
 		<label for="rad2">Option 2</label><br>
 		<input type="radio" name="rad" id="rad3" value="Option 3">
 		<label for="rad3">Option 3</label><br>	
@@ -50,7 +50,6 @@ As a boolean attribute, valid values are "<code>checked</code>" and nothing. The
 		<label for="check4">Option 4</label>		
 	</fieldset>
 </form>
-
 |LiveURL=http://code.webplatform.org/gist/33aa4c8bece121ba6e9e
 }}
 }}
