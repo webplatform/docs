@@ -63,6 +63,8 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm
 }}{{Single Example
 |Language=CSS
+|Description=
+|Code=
 |LiveURL=[https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius View MDN's examples]
 }}
 }}
@@ -72,9 +74,40 @@ this.style.backgroundRepeat{{=}}'repeat'"&gt;
 In CSS3, one or two keywords are permitted. One keyword affects both axes in the same way as CSS2.1 If two keywords are used, the first applies to the horizontal axis, and the second to the vertical axis.
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the <code>background-image</code> property.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 3
+|URL=http://www.w3.org/TR/css3-background/
+|Status=Candidate Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=CSS Level 2 (revision 1)
+|URL=http://www.w3.org/TR/CSS21/colors.html#propdef-background
+|Status=Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=CSS Level 1
+|URL=http://www.w3.org/TR/REC-CSS1/#color-and-background-properties
+|Status=Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=Background
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -170,14 +203,4 @@ If an element has multiple background images, the repeat pattern for each image 
 |Version=All.
 |Note=The '''round''' and '''space''' keywords are treated as '''no-repeat'''.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Background
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
