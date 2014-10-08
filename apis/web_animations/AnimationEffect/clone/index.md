@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=
+|State=In Progress
+|Editorial notes=TODO: We either need a more rigorous definition here or (probably better) a sets of steps on a per-subclass basis.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
