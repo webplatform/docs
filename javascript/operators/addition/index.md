@@ -7,7 +7,7 @@
 {{Summary_Section|Adds the value of one numeric expression to another, or concatenates two strings.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
-|Format=result = expression1 '''+''' expression2
+|Format=result = expression1 '''+''' expression2;
 }}
 |Values={{JS Syntax Parameter
 |Name=result
