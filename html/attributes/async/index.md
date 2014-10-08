@@ -48,7 +48,7 @@ The <code>async</code> attribute appears at one other place: Attached to a <code
 |LiveURL=
 }}{{Single Example
 |Language=JavaScript
-|Description=Async attribute with programmatically created scripts.
+|Description=Async attribute with programmatically created scripts:
 |Code=var script;
 
 /* 
