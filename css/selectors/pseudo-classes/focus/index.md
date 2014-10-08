@@ -1,7 +1,7 @@
 {{Page_Title|&#58;focus}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Fix broken links, remove topic cluster flags
+|Editorial notes=Remove topic cluster flags
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
