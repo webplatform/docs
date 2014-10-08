@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=Needs example
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -80,7 +80,37 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=In this example, the contents of a canvas get inverted and will be put back on that canvas via putImageData.
+|Code=// Get the canvas element and its context
+var el = document.getElementById('canvas');
+var ctx = el.getContext('2d');
+
+// Draw something on the canvas
+ctx.fillStyle = '#ffffff';
+ctx.fillRect(0,0,200,200);
+ctx.fillStyle = '#524221';
+ctx.fillRect(25,25,50,50);
+ctx.fillStyle = '#000000';
+ctx.fillRect(125,125,50,50);
+
+// Get the imageData of the canvas
+var imageData = ctx.getImageData(0,0,200,200);
+
+// Process the imageData, go through all the pixels which are group in blocks of four values per pixel (r,g,b,a)
+for(var i = 0; i < imageData.data.length; i += 4) {	
+	
+	//Take each value an invert it		
+	imageData.data[i] = 255 - imageData.data[i];		
+	imageData.data[i+1] = 255 - imageData.data[i+1];		
+	imageData.data[i+2] = 255 - imageData.data[i+2];	
+}   		
+
+// Take the modified imageData and put them back on the canvas
+ctx.putImageData(imageData,0,0);
+|LiveURL=http://code.webplatform.org/gist/f17eb7cffca6a0ece72d
+}}
 }}
 {{Notes_Section
 |Usage=
