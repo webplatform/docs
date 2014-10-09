@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The animation node’s iteration count property.
+
+A real number greater than or equal to zero (including positive infinity) representing the number of times to repeat the animation node.
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimingReadOnly
 |Read_only=Yes
