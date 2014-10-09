@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The timing function used to scale the time to produce easing effects.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimingReadOnly
 |Read_only=Yes
@@ -21,7 +21,9 @@
 |Examples=
 }}
 {{Notes_Section
-|Usage=
+|Usage=The syntax of the string is defined by the following production:
+
+"linear" | <cubic-bezier-timing-function> | <step-timing-function>
 |Notes=
 |Import_Notes=
 }}
