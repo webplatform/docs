@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=
+|Editorial notes=The end delay which represents the number of milliseconds from the end of an animation node’s active interval until the start time of any animation node that may follow, for example, in an animation sequence.
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
