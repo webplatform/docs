@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Readonly class from which AnimationTiming classes are inherited. }}
 {{API_Object
 |Subclass_of=
 |Overview=
