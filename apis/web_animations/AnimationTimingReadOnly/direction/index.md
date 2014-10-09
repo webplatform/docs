@@ -6,7 +6,9 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The playback direction of the animation node as specified by one of the PlaybackDirection enumeration values.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimingReadOnly
 |Read_only=Yes
