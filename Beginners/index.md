@@ -30,7 +30,7 @@ In this section, you will be writing a lot of code, and testing it out in web br
 ** [http://www.opera.com/computer/next Opera Next]
 ** A [https://modern.ie/en-us/virtualization-tools#downloads modern.ie VM] with a pre-release version of Microsoft Internet Explorer
 
-* A text editor, there are plenty of free and open source for you to choose from. — try to learn by avoiding auto-completion and type everything, you will feel the benefits later!
+* A text editor. There are plenty of free and open source editors to choose from. Try to learn by avoiding auto-completion and type everything. You will feel the benefits later!
 ** All Platforms
 <!--
 DO NOT:
