@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |State=Almost Ready
-|Editorial notes=The end delay which represents the number of milliseconds from the end of an animation node’s active interval until the start time of any animation node that may follow, for example, in an animation sequence.
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The end delay which represents the number of milliseconds from the end of an animation node’s active interval until the start time of any animation node that may follow, for example, in an animation sequence.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimingReadOnly
 |Read_only=Yes
