@@ -6,7 +6,16 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The fill mode as specified by one of the FillMode enumeration values.
+
+When performing timing calculations the special value auto is expanded to one of the fill modes recognized by the timing model as follows,
+
+If the animation node to which the fill mode is being is applied is an animation,
+Use none as the fill mode.
+Otherwise,
+Use both as the fill mode.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationTimingReadOnly
 |Read_only=Yes
