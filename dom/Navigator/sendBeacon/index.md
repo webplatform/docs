@@ -19,7 +19,7 @@
 }}{{Method Parameter
 |Index=1
 |Name=data
-|Data type=String
+|Data type=ArrayBufferView
 |Description=Data to send to the
 |Optional=No
 }}
