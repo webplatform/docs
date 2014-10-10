@@ -82,7 +82,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics|API, DOM}}
+{{Topics|DOM, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
