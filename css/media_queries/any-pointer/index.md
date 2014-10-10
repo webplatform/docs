@@ -1,29 +1,51 @@
-== Introduction ==
+{{Page_Title}}
+{{Flags
+|State=Not Ready
+|Editorial notes=Add values, syntax, description, specifications, compatibility.
+|Checked_Out=No
+}}
+{{Standardization_Status|W3C Recommendation}}
+{{API_Name}}
+{{Summary_Section|The ‘width’ media feature describes the width of the targeted display area of the output device. For continuous media, this is the width of the viewport (as described by CSS2, section 9.1.1 [CSS21]) including the size of a rendered scroll bar (if any). For paged media, this is the width of the page box (as described by CSS2, section 13.2 [CSS21]).}}
+{{CSS_Media_Feature
+|Content=The width media query returns the width of the layout viewport, also called the initial containing block. This is equal to the default width of the html element. Thus, it tells you how much space the browser allows your CSS layout to take.
+
+The width media query is one of the two vital ingredients of responsive web design; the other one is the [[tutorials/mobile_viewport|meta viewport tag]]. The width media query is very reliable across browsers, and using it will not raise compatibility issues.
+
+The width media query is always, in all browsers, equal to document.documentElement.clientWidth.
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
+{{Related_Specifications_Section
+|Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 
 
 
-== Syntax ==
-
-== Media features ==
-*[[css/media queries/width|width]]
-*[[css/media queries/height|height]]
-*[[css/media queries/device-width|device-width]]
-*[[css/media queries/device-height|device-height]]
-*[[css/media queries/orientation|orientation]]
-*[[css/media queries/aspect-ratio|aspect-ratio]]
-*[[css/media queries/device-aspect-ratio|device-aspect-ratio]]
-*[[css/media queries/color|color]]
-*[[css/media queries/color-index|color-index]]
-*[[css/media queries/monochrome|monochrome]]
-*[[css/media queries/resolution|resolution]]
-*[[css/media queries/scan|scan]]
-*[[css/media queries/grid|grid]]
-*[[css/media queries/view-mode|view-mode]]
-
-
-== See also ==
-*[http://www.w3.org/TR/css3-mediaqueries/ Media Queries Specification]
-*[[css/tutorials|CSS tutorials]]
-*[[css/properties|CSS properties reference]]
-
-[[Category:CSS]]
+@media screen and (min-width: 400px) and (max-width: 700px) { … }
