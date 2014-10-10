@@ -4,7 +4,7 @@
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Summary_Section|So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links articles explaining the basics.}}
+{{Summary_Section|So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.}}
 {{Basic Page}}
 {{Languages}}
 
