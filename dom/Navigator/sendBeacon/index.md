@@ -12,9 +12,15 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
-|Name=
+|Name=serverUrl
 |Data type=String
-|Description=
+|Description=An endpoint for receiving the sent data.
+|Optional=No
+}}{{Method Parameter
+|Index=1
+|Name=data
+|Data type=String
+|Description=Data to send to the 
 |Optional=No
 }}
 |Method_applies_to=dom/Navigator
