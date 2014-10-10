@@ -6,9 +6,17 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
+Insert nodes before null.
+}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Index=0
+|Name=AnimationNode
+|Data type=Object
+|Description=Takes a sequence of animation node objects as a parameter
+|Optional=No
+}}
 |Method_applies_to=apis/web_animations/AnimationGroup
 |Example_object_name=
 |Return_value_name=
