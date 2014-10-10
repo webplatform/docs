@@ -9,7 +9,7 @@
 {{Summary_Section|Removes this animation node from its parent animation group or player.}}
 {{API_Object_Method
 |Parameters=
-|Method_applies_to=apis/web animations/AnimationNode
+|Method_applies_to=apis/web_animations/AnimationNode
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=
