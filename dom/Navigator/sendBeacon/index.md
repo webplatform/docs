@@ -8,33 +8,54 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a [[apis/gamepad/Gamepad|Gamepad]] object.}}
+{{Summary_Section|Asynchronously transfers small amounts of HTTP data from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page's unload or affecting the performance of the navigation.}}
 {{API_Object_Method
-|Parameters=
+|Parameters={{Method Parameter
+|Index=0
+|Name=
+|Data type=String
+|Description=
+|Optional=No
+}}
 |Method_applies_to=dom/Navigator
 |Example_object_name=navigator
-|Return_value_description=gamePads collection.
+|Return_value_name=
+|Javascript_data_type=Boolean
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This example detects when a gamepad is connected to the computer.
-|Code=window.addEventListener("gamepadconnected", function(e) {
-  var gp = navigator.getGamepads()[0];
-  console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
-  gp.index, gp.id,
-  gp.buttons.length, gp.axes.length);
-});
+|Description=
+|Code=
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Gamepad Specification
-|URL=https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
+|Name=
+|URL=
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Gamepad}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -42,13 +63,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Gamepad}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getGamepads navigator.getGamepads method]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/dn753843(v=vs.85).aspx Gamepad API in DevChannel]
-|HTML5Rocks_link=
 }}
