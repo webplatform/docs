@@ -6,7 +6,13 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inserts nodes after this animation node.
+
+If there is no parent animation group, terminate these steps.
+If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
+Let reference child be the next sibling of this animation node not in nodes.
+Insert nodes before reference child.
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
