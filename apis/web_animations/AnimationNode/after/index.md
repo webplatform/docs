@@ -21,7 +21,7 @@ Insert nodes before reference child.
 |Description=Takes a series of AnimationNodes as a parameter
 |Optional=No
 }}
-|Method_applies_to=apis/web_animations/AnimationNode/after
+|Method_applies_to=apis/web_animations/AnimationNode
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=
