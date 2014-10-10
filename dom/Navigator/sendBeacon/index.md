@@ -12,15 +12,19 @@
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
-|Name=serverUrl
-|Data type=String
-|Description=An endpoint for receiving the sent data.
+|Name=url
+|Data type=any
+|Description=DOMString
 |Optional=No
 }}{{Method Parameter
 |Index=1
 |Name=data
-|Data type=ArrayBufferView
-|Description=Data to send to the
+|Data type=any
+|Description=Must be of one of the following types:
+*ArrayBufferView
+*Blob
+*DOMString
+*FormData
 |Optional=No
 }}
 |Method_applies_to=dom/Navigator
@@ -48,8 +52,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=
-|Code=
+|Description=This example queues data for the server on the pagehide event.
+|Code=function() {
+  window.addEventListener('pagehide', logData, false);
+  function logData() {
+    navigator.sendBeacon(
+      'https://putsreq.herokuapp.com/Dt7t2QzUkG18aDTMMcop',
+       'Sent by a beacon!');
+   }
+}();
 |LiveURL=
 }}
 }}
@@ -60,8 +71,8 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=
-|URL=
+|Name=Beacon
+|URL=http://www.w3.org/TR/beacon/
 |Status=W3C Working Draft
 |Relevant_changes=
 }}
@@ -71,7 +82,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics|API, Gamepad}}
+{{Topics|API, DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
