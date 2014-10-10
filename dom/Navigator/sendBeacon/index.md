@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=MSDN documentation only available on devChannel.
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Asynchronously transfers small amounts of HTTP data from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page's unload or affecting the performance of the navigation.}}
+{{Summary_Section|Asynchronously queues small amounts of HTTP data for transfer from the user agent to a web server. For example, it can be used to send analytics or diagnostics code without delaying the page's unload or affecting the performance of the navigation.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -21,7 +21,22 @@
 |Example_object_name=navigator
 |Return_value_name=
 |Javascript_data_type=Boolean
-|Return_value_description=
+|Return_value_description=Boolean
+
+'''Boolean'''. Returns one of the following possible values:
+
+{{{!}} class="wikitable"
+{{!}}-
+!Return value
+!Description
+{{!}}-
+{{!}}true
+{{!}}The HTTP data was queued for transfer.
+{{!}}-
+{{!}}false
+{{!}}The HTTP data was not queued for transfer.
+{{!}}}
+ 
 }}
 {{Examples_Section
 |Not_required=No
