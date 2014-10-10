@@ -6,7 +6,15 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Inserts nodes before this animation node.
+
+If there is no parent animation group, terminate these steps.
+If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
+Insert nodes before this animation node.
+Note that this definition precludes the following usage since node is an inclusive ancestor of itself:
+        node.before(node); // throws HierarchyRequestError
+        
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
