@@ -20,12 +20,12 @@
 |Index=1
 |Name=data
 |Data type=String
-|Description=Data to send to the 
+|Description=Data to send to the
 |Optional=No
 }}
 |Method_applies_to=dom/Navigator
 |Example_object_name=navigator
-|Return_value_name=
+|Return_value_name=result
 |Javascript_data_type=Boolean
 |Return_value_description=Boolean
 
