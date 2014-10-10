@@ -41,7 +41,3 @@
 |Mobile_rows=
 |Notes_rows=
 }}
-
-
-
-@media screen and (min-width: 400px) and (max-width: 700px) { … }
