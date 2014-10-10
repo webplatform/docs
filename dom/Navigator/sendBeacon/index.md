@@ -85,9 +85,10 @@
 {{Topics|DOM, WebRTC}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://updates.html5rocks.com/2014/10/Send-beacon-data-in-Chrome-39
 }}
 {{Compatibility_Section
 |Not_required=No
