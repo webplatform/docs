@@ -6,7 +6,10 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|A sequence of animation nodes to add as children of this group.
+
+These children are appended in sequence using the same semantics as the append() method of the AnimationGroup interface.
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationGroup
 |Read_only=Yes
