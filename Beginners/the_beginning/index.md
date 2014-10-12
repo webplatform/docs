@@ -78,7 +78,7 @@ results in the following:
 
 <p>'''Cascading Style Sheets (CSS)''': This language is used to style and position the HTML content. It gives your webpage a clean look and more professionalism and a better user interface along with it: It can be used to center your elements, give them background, give them color, putting them into place, and making them how they should be. Note that CSS '''rules''' or styles can only be applied on an HTML element, by "selecting" them via '''selectors''', so if there's no HTML element, CSS cannot work.</p>
 
-<p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAIN AND NICE COLOURED TILES?] </p>
+<p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAINT AND NICE COLOURED TILES?] </p>
 
 Let's apply the power of CSS to our above snippet:
 
