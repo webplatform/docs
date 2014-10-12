@@ -244,7 +244,7 @@ So, in essence, JavaScript targets HTML (via DOM, which you will learn about lat
 JavaScript has more power than CSS or HTML, and consequently, it takes more time to be mastered.
 
 == Getting online ==
-Now that you're acquinted with HTML, CSS, and JavaScript, it's time to get online! Although you can create a <tt>.html</tt> file on your computer to do web designing, but getting online is the most interesting part.
+Now that you're acquainted with HTML, CSS, and JavaScript, it's time to get online! Although you can create a <tt>.html</tt> file on your computer to do web designing, but getting online is the most interesting part.
 
 For starter, you don't have to buy domains or hosting, we'll start with some free service. We'll pick biz.nf for this purpose. It comes with 250MB space, a webmail, and FTP access. The URL is http://www.biz.nf/.
 
