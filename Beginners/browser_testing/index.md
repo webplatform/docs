@@ -14,7 +14,7 @@ There are many ways to test your web pages. It can be by installing multiple web
 
 If you are just starting, a web browser is more than enough. 
 
-'''Also''': It is known and accepted that  "[http://dowebsitesneedtolookexactlythesameineverybrowser.com/ Websites do not ''need'' to look exactly the same in every browser]". The previous link is a good example of the idea —try it in an old browser to see. There are many techniques possible to have older browser to support features by detecting if they exist  (called "feature sniffing" with [http://modernizr.com Modernizr] for example), and conditionally add library that will add support (we call them "Polyfils" or "shims"). The essential to remember here is that web technology changes quickly and we cannot expect old web browsers to support more recent features. Its as if we would ask a black and white television to be in colors. But all that is beyond the scope of testing your site!
+'''Also''': It is known and accepted that  "[http://dowebsitesneedtolookexactlythesameineverybrowser.com/ Websites do not ''need'' to look exactly the same in every browser]". The previous link is a good example of the idea —try it in an old browser to see. There are many techniques possible to have older browsers to support features by detecting if they exist  (called "feature sniffing" with [http://modernizr.com Modernizr] for example), and conditionally add a library that will add support (we call them "Polyfils" or "shims"). The essential to remember here is that web technology changes quickly and we cannot expect old web browsers to support more recent features. Its as if we would ask a black and white television to be in color. But all that is beyond the scope of testing your site!
 
 === In a Virtual Machine ===
 
@@ -24,11 +24,11 @@ A VM is like a big file that you can load inside a software as if it was a compu
 
 For example, if you have only a recent computer and you want to see how it will look like in Internet Explorer provided in Windows Vista, you can have a VM that runs Vista and Internet Explorer 7 along with Mozilla Firefox 3.
 
-For this, you can get what we call a "Desktop Virtualization" software, there are a few on the market. Oracle [https://www.virtualbox.org/ VirtualBox] and VMWare has both free versions that can make anybody run VMs.
+For this, you can get what we call a "Desktop Virtualization" software, there are a few on the market. Oracle [https://www.virtualbox.org/ VirtualBox] and VMWare both have free versions that can make anybody run VMs.
 
 Once you have a Virtualization software, you will need to use or create your own VMs. While creating a VM is outside of the scope of this article, you can download from Microsoft —for free— one of their testing VMs. Take a look at [http://modern.ie modern.ie].
 
-With this in hand, you can test on various version of the web browsers you want to support, without cluttering your own computer.
+With this in hand, you can test on various versions of the web browsers you want to support, without cluttering your own computer.
 
 '''About Modern.ie VMs'': Note that those VMs are made only to test and cannot be used as a main work environment. The VM will eventually ask you delete the VM (e.g. after 30 days). A trick that you can do is to keep a copy of the downloaded archive and extract it again.
 
