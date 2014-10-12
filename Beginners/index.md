@@ -53,8 +53,6 @@ Thank you for your co operation.
 ***[http://notepad-plus-plus.org/ Notepad++]
 ***[https://atom.io/ Atom] <!-- Atom is now available prebuilt on Windows 7 & 8. -->
 ** Mac
-***[http://www.sublimetext.com/3 Sublime Text 3]
-***[https://github.com/textmate/textmate Textmate]
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
 ***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
 ** Linux
