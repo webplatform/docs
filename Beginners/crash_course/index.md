@@ -246,7 +246,7 @@ JavaScript has more power than CSS or HTML, and consequently, it takes more time
 == Getting online ==
 Now that you're acquainted with HTML, CSS, and JavaScript, it's time to get online! Although you can create an <tt>.html</tt> file on your computer to do web designing, getting online is the most interesting part.
 
-For starter, you don't have to buy domains or hosting, we'll start with some free service. We'll pick biz.nf for this purpose. It comes with 250MB space, a webmail, and FTP access. The URL is http://www.biz.nf/.
+For starters, you don't have to buy domains or hosting, we'll start with some free service. We'll pick biz.nf for this purpose. It comes with 250MB space, a webmail, and FTP access. The URL is http://www.biz.nf/.
 
 First, let's make a few things clear:
 
@@ -254,7 +254,7 @@ First, let's make a few things clear:
 
 * You'll need to establish a connection to the server in order to upload your files, so that they're online. This connection cannot be establised by web. It needs a file-transfer protocol (FTP) client. We recommend installing FileZilla, the most popular and free FTP client that supports Windows, Mac, and Linux distributions too.
 
-* You'll basically upload files (generally <tt>.html</tt>, <tt>.css</tt>, <tt>.js</tt> or images) to the server via the FTP client. Once successfully uploaded, they can be viewed by public by pointing to your domain.
+* You'll basically upload files (generally <tt>.html</tt>, <tt>.css</tt>, <tt>.js</tt> or images) to the server via the FTP client. Once successfully uploaded, they can be viewed by the public by pointing to your domain.
 
 So, you ready? Good.
 
@@ -262,7 +262,7 @@ First, make an account on biz.nf. Here's the URL again: http://www.biz.nf/.
 
 Second, install FileZilla. The URL is https://filezilla-project.org/download.php?type=client.
 
-Now, before going to the third step, make sure that you got the files you'll upload! The HTML file is the most important, and '''be sure to rename it to <tt>index.html</tt>''' otherwise it won't open on the server!
+Now, before going to the third step, make sure that you have the files you'll upload! The HTML file is the most important, and '''be sure to rename it to <tt>index.html</tt>''' otherwise it won't open on the server!
 
 You'll learn good techniques of HTML, CSS, JavaScript, and more later on. This section is just meant for getting you started with basic requirements. Now, when you've prepared a good-looking <tt>index.html</tt> file, you can move on to the third step.
 
