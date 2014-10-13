@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Creates a new KeyframeEffect object for the given set of keyframes.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
