@@ -6,7 +6,13 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|See the iterationStart member of the AnimationTimingReadOnly interface.
+
+Values less than zero are clamped to zero for the purpose of timing model calculations.
+
+Note that the value of iterations is effectively added to the iterationStart such that an animation node with an iterationStart of ‘0.5’ and iterations of ‘2’ would still repeat twice however it would begin and end half-way through the animation node’s iteration interval.
+Setting the iterationStart to a value greater than or equal to one is typically only useful in combination with an animation effect that has an iteration composite operation of ‘accumulate’.
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
