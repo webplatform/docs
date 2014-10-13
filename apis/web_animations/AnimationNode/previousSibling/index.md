@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The previous sibling of this animation node.}}
 {{API_Object_Property
 |Property_applies_to=apis/web_animations/AnimationNode
 |Read_only=Yes
