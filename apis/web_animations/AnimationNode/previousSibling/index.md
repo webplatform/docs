@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=api
+|Property_applies_to=apis/web_animations/AnimationNode
 |Read_only=Yes
 |Example_object_name=element
 |Return_value_name=result
