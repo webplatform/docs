@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|See the direction member of the AnimationTimingReadOnly interface.}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
@@ -33,7 +33,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
