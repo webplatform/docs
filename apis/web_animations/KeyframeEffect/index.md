@@ -6,11 +6,9 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).
-
-}}
+{{Summary_Section|Keyframe animation effects are represented by the KeyframeEffect interface.}}
 {{API_Object
-|Subclass_of=
+|Subclass_of=apis/web_animations/AnimationEffect
 |Overview=
 }}
 {{Examples_Section
