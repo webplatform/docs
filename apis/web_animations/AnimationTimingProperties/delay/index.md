@@ -6,13 +6,16 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The specified start delay.
+
+See the description of the delay attribute on the AnimationTiming interface.
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
+|Javascript_data_type=double
 |Return_value_description=
 |Example_value_name=
 }}
