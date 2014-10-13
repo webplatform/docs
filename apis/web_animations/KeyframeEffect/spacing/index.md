@@ -17,6 +17,16 @@
 
 Recognized values are defined by the following grammar:
 
+distribute
+|Example_value_name=
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
+}}
+{{Notes_Section
+|Usage=Recognized values are defined by the following grammar:
+
 distribute | paced({ident}) | paced
 {ident} here is an identifier as defined by CSS3 Values [CSS3VAL].
 
@@ -37,14 +47,6 @@ As a result, changes to the keyframes may cause the paced property to change.
 
 Note: this behavior is generally not useful for keyframes specifying more than one property. It is provided for consistency with MotionPathEffect and as a convenience for keyframe animation effects that specify only one property.
 All other values are treated as "distribute" for the purpose of animation model calculations.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
 |Notes=
 |Import_Notes=
 }}
