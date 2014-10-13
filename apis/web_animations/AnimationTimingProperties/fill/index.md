@@ -6,7 +6,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|See the fill member of the AnimationTimingReadOnly interface.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
