@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|See the playbackRate member of the AnimationTimingReadOnly interface.}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
