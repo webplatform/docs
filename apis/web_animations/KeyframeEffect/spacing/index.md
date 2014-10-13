@@ -13,11 +13,7 @@
 |Example_object_name=
 |Return_value_name=
 |Javascript_data_type=Object
-|Return_value_description=Returns a DOMString object.
-
-Recognized values are defined by the following grammar:
-
-distribute
+|Return_value_description=Returns a DOMString object
 |Example_value_name=
 }}
 {{Examples_Section
