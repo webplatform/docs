@@ -1,12 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|See the iterations member of the AnimationTimingReadOnly interface.
+
+Values less than zero and NaN values are treated as the value 1.0 for the purpose of timing model calculations.
+
+}}
 {{API_Object_Property
 |Property_applies_to=apis/web animations/AnimationTimingProperties
 |Read_only=No
@@ -33,7 +37,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
