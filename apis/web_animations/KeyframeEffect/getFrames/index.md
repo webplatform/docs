@@ -1,19 +1,19 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Almost Ready
 |Editorial notes=
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Returns the keyframes that make up this effect as a sequence of ComputedKeyframe objects.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web_animations/KeyframeEffect
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
+|Javascript_data_type=Object
+|Return_value_description=Returns a sequence of ComputedKeyFrame objects.
 }}
 {{Examples_Section
 |Not_required=No
@@ -32,7 +32,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
