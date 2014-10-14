@@ -14,7 +14,6 @@
 |Return_value_name=
 |Javascript_data_type=Object
 |Return_value_description=Returns a DOMString object.
-
 Recognized values are defined by the following grammar:
 
 distribute | paced({ident}) | paced
@@ -44,9 +43,7 @@ All other values are treated as "distribute" for the purpose of animation model 
 |Examples=
 }}
 {{Notes_Section
-|Usage=Recognized values are defined by the following grammar:
-
-distribute
+|Usage=
 |Notes=
 |Import_Notes=
 }}
