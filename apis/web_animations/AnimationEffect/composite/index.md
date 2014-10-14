@@ -12,8 +12,20 @@
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
+|Javascript_data_type=Object
+|Return_value_description=Returns a CompositeOperation object, specified by the CompositeOperation enumeration. 
+
+Possible values are replace, add, accumulate.
+
+---
+
+replace
+Corresponds to the replace composite operation value such that the animation effect overrides the underlying value it is combined with.
+add
+Corresponds to the add composite operation value such that the animation effect is added to the underlying value with which it is combined.
+accumulate
+Corresponds to the accumulate composite operation value such that the animation effect is accumulated on to the underlying value.
+
 |Example_value_name=
 }}
 {{Examples_Section
