@@ -102,6 +102,7 @@ The ''only'' keyword prevents older browsers that do not support media queries w
 
 
 == Media features ==
+*[[css/media queries/any-hover|any-hover]]
 *[[css/media queries/any-pointer|any-pointer]]
 *[[css/media queries/aspect-ratio|aspect-ratio]]
 *[[css/media queries/color|color]]
