@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=
+|State=Unreviewed
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
@@ -47,7 +47,7 @@ function someMessage(e) {
 }}
 {{Notes_Section
 |Usage=
-|Notes=*This property applies only to windows that are created by using the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method.
+|Notes=*This property applies only to windows that are created by using the [[dom/Window/showModalDialog|'''showModalDialog''']] method.
 *When a script calls the '''showModalDialog''' method, it suspends execution until the modal dialog box is closed.  As a result, the script cannot use the '''dialogHeight''' property to change the appearance of the modal dialog box. To control the appearance of the modal dialog box, use script in the file loaded by the '''sURL''' parameter or use the value of the '''sFeatures''' parameter to specify the desired settings.
 *Although a user can manually adjust the height of a dialog box to a smaller value—provided the dialog box is resizable—the minimum '''dialogHeight''' you can set using script is 100 pixels.
 *The default unit of measure is <code>px</code>.
