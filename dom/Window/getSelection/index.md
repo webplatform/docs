@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a [[dom/Selection|Selection] object that represents the current selection of the document.}}
+{{Summary_Section|Returns a [[dom/Selection|Selection]] object that represents the current selection of the document.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/Window
