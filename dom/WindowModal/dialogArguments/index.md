@@ -1,18 +1,22 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|Gets the arguments that are specified when [[dom/HTMLElement/showModalDialog|showModalDialog]] or [[dom/HTMLElement/showModelessDialog|showModelessDialog]] are called.}}
+{{Summary_Section|Gets the arguments that are specified when [[dom/HTMLElement/showModalDialog|showModalDialog]] is called.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
 |Example_object_name=window
 |Return_value_name=arguments
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -47,6 +51,7 @@ function fnLaunch() {
   &lt;/form&gt;
  &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This file (modalDialogSource.htm), stores the code for the modal window. Get the object sent to this modal window by using the '''dialogArguments''' property.
@@ -81,19 +86,18 @@ document.write(sLastName);
 }}
 }}
 {{Notes_Section
-|Notes=This property applies only to windows that are created with the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method and the [[dom/HTMLElement/showModelessDialog|'''showModelessDialog''']] method.
+|Usage=
+|Notes=This property applies only to windows that are created with the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -101,4 +105,11 @@ document.write(sLastName);
 |MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.dialogArguments dialogArguments]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms533723(v=vs.85).aspx dialogArguments Property]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
