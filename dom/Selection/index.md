@@ -9,7 +9,7 @@
 {{Summary_Section|Represents the text selection in the greater page, possibly spanning multiple elements, when the user drags over static text and other parts of the page.}}
 {{API_Object
 |Subclass_of=
-|Overview=Selection is the class of the object returned by [[dom/Window/getSelection|window.getSelection()]] and other methods. For information about text selection in an individual text editing element, see [[dom/HTMLInputElement|Input], [[dom/HTMLTextAreaElement|TextArea]] and [[dom/Document/activeElement|document.activeElement]] which typically return the parent object returned from window.getSelection().
+|Overview=Selection is the class of the object returned by [[dom/Window/getSelection|window.getSelection()]] and other methods. For information about text selection in an individual text editing element, see [[dom/HTMLInputElement|Input]], [[dom/HTMLTextAreaElement|TextArea]] and [[dom/Document/activeElement|document.activeElement]] which typically return the parent object returned from window.getSelection().
 }}
 {{Examples_Section
 |Not_required=No
