@@ -83,7 +83,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
+|Description=This example uses the [[css/cssom/ClientRect|'''ClientRect''']] collection with the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
@@ -156,19 +156,36 @@ function End() {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=*Before being in the process of standardization, it was intended that this method would return a TextRectangle object for each line of text in an element. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, the CSSOM version returns only a single rectangle.
 *The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
 *The returned rectangles do not include the bounds of any child elements that might happen to overflow.
 *For HTML AREA elements, SVG elements that do not render anything themselves, display:none elements, and generally any elements that are not directly rendered, an empty list is returned.
 *Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
 *Fractional pixel offsets are possible.
+|Import_Notes====Compatibility notes===
+Internet Explorer 8 and below - '''getClientRect''' returns a proprietary <code>TextRectangle</code> object. While it is similar to [[css/cssom/ClientRect|ClientRect]], it does not have <code>height</code> or <code>width</code> properties and furthermore cannot have any additional properties (including <code>height</code> and <code>width</code>) added to it.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSSOM View Module
 |URL=http://www.w3.org/TR/cssom-view/#dom-range-getclientrects
 |Status=Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/element.getClientRects
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -205,13 +222,4 @@ function End() {
 |Version=23 - 26
 |Note=For inline elements, the returned ClientRectList contains ClientRect for every line as broken in the source code, in addition to the lines as broken in the rendered content. So if 2 words are broken into two lines in the source code -<br/><code>&lt;span&gt;hello<br/>world&lt;/span&gt;</code><br/>This method returns ClientRectList that contains 2 ClientRect objects. See [https://code.google.com/p/chromium/issues/detail?can=2&start=0&num=100&q=getclientrects&colspec=ID%20Pri%20Mstone%20ReleaseBlock%20OS%20Area%20Feature%20Status%20Owner%20Summary&groupby=&sort=&id=167261] for details. {{TODO|This bug may have been there since the beginning of Chrome/Safari, this needs verification.}}
 }}
-}}
-{{See_Also_Section}}
-{{Topics|CSS, DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/element.getClientRects
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
