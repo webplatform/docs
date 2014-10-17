@@ -18,25 +18,24 @@
 |Examples={{Single Example
 |Language=
 |Description=This example uses the '''address''' element to make text appear in italic type.
-|Code=&lt;ADDRESS&gt;This text will be in italic type.&lt;/ADDRESS&gt;
+|Code=<!-- This is just a snippet, not a full page. -->
+&lt;address&gt;This text will be in italic type.&lt;/address&gt;
 |LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=
-|Notes====Remarks===
-
-Webkit and Trident userAgent defaults.
-address{
+|Notes=Webkit (Safari, old Android and similar) and Trident (Internet Explorer) user agent default style -
+<code>address {
 	display:block;
 	font-style: italic;
-}
+}</code>
 Gecko userAgent defaults
-address, address[dir]{
+<code>address, address[dir]{
          unicode-bidi: -moz-isolate;
          display:block;
          font-style:italic;
-}
+}</code>
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.6
 
@@ -773,13 +772,7 @@ This property is not supported for Metro style apps using JavaScript.
 {{See_Also_Section
 |Manual_links=
 |External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[html/elements/acronym|acronym]]</code>
-*<code>cite</code>
-*<code>dfn</code>
-*<code>em</code>
-*<code>i</code>
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
