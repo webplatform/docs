@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|Gets the arguments that are specified when [[dom/HTMLElement/showModalDialog|showModalDialog]] is called.}}
+{{Summary_Section|Gets the arguments that are specified when [[dom/Window/showModalDialog|showModalDialog]] is called.}}
 {{API_Object_Property
 |Property_applies_to=dom/WindowModal
 |Read_only=No
