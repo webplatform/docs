@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates a [[dom/processingInstruction|'''processing instruction''']] for an XML parser.}}
+{{Summary_Section|Creates a [[dom/ProcessingInstruction|'''processing instruction''']] for an XML parser.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -39,10 +39,13 @@
 var sTarget {{=}} 'xml-stylesheet';
 var sData {{=}} 'type{{=}}"text/css" href{{=}}"style.css"';'
 var obj {{=}} document.createProcessingInstruction(sTarget, sData);
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''createProcessingInstruction''' method is supported only for XML documents.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -52,15 +55,10 @@ var obj {{=}} document.createProcessingInstruction(sTarget, sData);
 |Relevant_changes=Section 1.4
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -69,4 +67,11 @@ var obj {{=}} document.createProcessingInstruction(sTarget, sData);
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
