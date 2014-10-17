@@ -13,7 +13,10 @@
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
 |Example_object_name=declaration
+|Return_value_name=
 |Javascript_data_type=String
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
@@ -21,9 +24,11 @@
 |Language=CSS
 |Description=Sets the height of paragraph elements to 200 px.
 |Code=p { height: 200 px; }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The height of the rectangle can also be calculated by subtracting the value of the [[dom/traversal/properties/top|'''top''']] property from the value of the [[dom/properties/bottom|'''bottom''']] property.
 |Import_Notes====Syntax===
@@ -33,18 +38,11 @@ The height of the rectangle can also be calculated by subtracting the value of t
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
-*<code>[[css/cssom/properties/width|width]]</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -53,4 +51,11 @@ The height of the rectangle can also be calculated by subtracting the value of t
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
