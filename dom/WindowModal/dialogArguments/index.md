@@ -87,7 +87,7 @@ document.write(sLastName);
 }}
 {{Notes_Section
 |Usage=
-|Notes=This property applies only to windows that are created with the [[dom/HTMLElement/showModalDialog|'''showModalDialog''']] method.
+|Notes=This property applies only to windows that are created with the [[dom/Window/showModalDialog|'''showModalDialog''']] method.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
