@@ -26,16 +26,16 @@
 {{Notes_Section
 |Usage=
 |Notes=Webkit (Safari, old Android and similar) and Trident (Internet Explorer) user agent default style -
-<code>address {
+<pre>address {
 	display:block;
 	font-style: italic;
-}</code>
-Gecko userAgent defaults
-<code>address, address[dir]{
+}</pre>
+Gecko (Firefox) user agent default style -
+<pre>address, address[dir]{
          unicode-bidi: -moz-isolate;
          display:block;
          font-style:italic;
-}</code>
+}</pre>
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.6
 
