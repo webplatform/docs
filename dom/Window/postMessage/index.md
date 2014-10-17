@@ -45,7 +45,7 @@ targetframe.contentWindow.postMessage('Hello World','http://localhost');
 |Language=JavaScript
 |Description=The script in Document B can respond to the message
 by registering the
-[[dom/Element/message|'''onmessage''']] event handler
+[[dom/Window/message|'''onmessage''']] event handler
 for incoming messages.
 |Code=window.addEventListener('message',function(e) {
     if (e.origin {{=}}{{=}} 'http://127.0.0.1') {
@@ -72,7 +72,7 @@ for text-based data exchange.
 When a script invokes this method on a
 '''window''' object,
 the browser sends an
-[[dom/Element/message|'''onmessage''']]
+[[dom/Window/message|'''onmessage''']]
 event to the target document
 on which the
 '''data''' property
@@ -85,12 +85,24 @@ URI.
 The '''postMessage''' method call
 does not return until the event listeners of the target document
 have finished executing.
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199803 HTML5 Web Messaging], Section 5.3
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage postMessage]
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/cc197015(v=vs.85).aspx postMessage Method]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -154,17 +166,4 @@ have finished executing.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage postMessage]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/cc197015(v=vs.85).aspx postMessage Method]
-|HTML5Rocks_link=
 }}
