@@ -50,7 +50,7 @@ for incoming messages.
 |Code=window.addEventListener('message',function(e) {
     if (e.origin {{=}}{{=}} 'http://127.0.0.1') {
         if (e.data {{=}}{{=}} 'Hello World') {
-            // We can rely with this
+            // We can reply with this
             e.source.postMessage('Hello');
         } else {
             console.log(e);
@@ -62,8 +62,7 @@ for incoming messages.
 }}
 {{Notes_Section
 |Usage=
-|Notes====Remarks===
-'''Security Warning:  '''While "*" is a valid value for ''targetOrigin'', set the parameter to the value you expected to receive; otherwise, the security of your message might be compromised.  For more information about this security message, see Section 3.1.2 of the [http://go.microsoft.com/fwlink/?LinkId{{=}}199803 HTML5 Web Messaging] Specification (Editor's Draft) from the World Wide Web Consortium (W3C).
+|Notes='''Security Warning:  '''While "*" is a valid value for ''targetOrigin'', set the parameter to the value you expected to receive; otherwise, the security of your message might be compromised.  For more information about this security message, see Section 3.1.2 of the [http://go.microsoft.com/fwlink/?LinkId{{=}}199803 HTML5 Web Messaging] Specification (Editor's Draft) from the World Wide Web Consortium (W3C).
 The '''postMessage''' method
 allows cooperative text exchange between untrusted modules
 from different domains embedded within a page. It does so
