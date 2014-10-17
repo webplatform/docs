@@ -6,9 +6,9 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Static snapshot array of a document's available [[css/concepts/named_flow|named flows]]}}
+{{Summary_Section|Obsolete. Replaced by [[apis/css-regions/NamedFlowMap|NamedFlowMap]]. Represents a static snapshot array of a document's available [[css/concepts/named_flow|named flows]]}}
 {{API_Object
-|Subclass_of=dom/StaticNodeList
+|Subclass_of=
 |Overview=
 }}
 {{Examples_Section
