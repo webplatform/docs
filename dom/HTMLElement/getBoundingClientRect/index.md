@@ -85,7 +85,7 @@ ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
 |Language=HTML
-|Description=This example uses the [[dom/TextRectangle|'''TextRectangle''']] collection with the [[dom/HTMLElement/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
+|Description=This example uses the [[css/cssom/ClientRect|'''ClientRect''']] collection with the [[dom/HTMLElement/getClientRects|'''getClientRects''']] and '''getBoundingClientRect''' methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 |Code=&lt;HEAD&gt;
 &lt;SCRIPT&gt;
 var timid {{=}} -1;
@@ -161,8 +161,8 @@ function End() {
 |Usage=Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
 
 The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
-|Notes====Compatibility===
-In IE8, '''getBoundingClientRect''' returns a <code>[[dom/TextRectangle|TextRectangle]]</code> object, which does not have <code>height</code> or <code>width</code> properties and furthermore cannot have any additional properties (including <code>height</code> and <code>width</code>) added to it.
+|Notes====Compatibility notes===
+Internet Explorer 8 and below - '''getBoundingClientRect''' returns a proprietary <code>TextRectangle</code> object. While it is similar to [[css/cssom/ClientRect|ClientRect]], it does not have <code>height</code> or <code>width</code> properties and furthermore cannot have any additional properties (including <code>height</code> and <code>width</code>) added to it.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
