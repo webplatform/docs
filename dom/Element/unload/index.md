@@ -15,11 +15,14 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example shows how to use the '''onunload''' event to run script when the window object has been unloaded.
 |Code=&lt;head&gt;
 &lt;script type{{=}}"text/javascript" for{{=}}"window" event{{=}}"onunload"&gt;
@@ -39,6 +42,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If you call '''window'''.[[dom/Window/open|'''open''']] from this event, the Pop-up Blocker feature in Microsoft Internet Explorer 6 prevents the pop-up window from appearing.
 Removes the object or document from the browser window.
@@ -58,7 +62,7 @@ To invoke this event, do one of the following:
 *Specify a new value for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property.
 *Submit a '''form''' to the address specified in the '''ACTION''' attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/HTMLFormElement/submit|'''submit''']] method.
 
-For security reasons, the '''unload''' event does not open modeless dialog boxes, such as those created with the [[dom/Window/alert|'''alert''']] method or the [[dom/HTMLElement/showModelessDialog|'''showModelessDialog''']] method.  This changes affects webpages displayed in IE9 Standards mode or later document modes.
+For security reasons, the '''unload''' event does not open modeless dialog boxes, such as those created with the [[dom/Window/alert|'''alert''']] method.  This changes affects webpages displayed in IE9 Standards mode or later document modes.
 The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLAnchorEvents2'''
 *'''HTMLAreaEvents2'''
@@ -84,13 +88,8 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 *'''HTMLTableEvents2'''
 *'''HTMLTextContainerEvents2'''
 *'''HTMLWindowEvents2'''
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.3
-
-
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
 }}
 {{Related_Specifications_Section
 |Specifications=
@@ -103,6 +102,8 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>body</code>
 *<code>frameSet</code>
