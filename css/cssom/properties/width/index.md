@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status 
+|Editorial notes=Needs example, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -26,26 +26,16 @@
 |Usage=
 |Notes====Remarks===
 The width of the rectangle can also be calculated by subtracting the value of the [[css/properties/left|'''left''']] property from the value of the [[css/properties/right|'''right''']] property.
-|Import_Notes====Syntax===
-===Standards information===
+|Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module]
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Manual_links=
 |External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/TextRectangle|TextRectangle]]</code>
-*<code>[[css/cssom/properties/height|height]]</code>
+|Manual_sections=
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -54,4 +44,11 @@ The width of the rectangle can also be calculated by subtracting the value of th
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
