@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -12,14 +13,16 @@
 |Property_applies_to=dom/ValidityState
 |Read_only=Yes
 |Example_object_name=element.validity
-|Return_value_name=result
+|Return_value_name=hasErrorStatus
 |Javascript_data_type=Boolean
 |Return_value_description=Whether the element has raised a custom error.
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=var elem {{=}} document.getElementById('email_addr_confirm');
 elem.addEventListener('blur', verifyEmail);
 
@@ -31,16 +34,18 @@ function verifyEmail(evt) {
     emlcfm.setCustomValidity('The two email addresses must match.');
 // the emlcfm.validity.customError is true;
   } else {
-    // input is valid -- reset the error message
+    // input is valid -- reset the error state, has to be an empty string
     emlcfm.setCustomValidity("");
 // the emlcfm.validity.customError is false;
   }
 }
-
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=HTML5 Web form validation
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -55,14 +60,11 @@ function verifyEmail(evt) {
 |Relevant_changes=Section 4.10.21.3
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -70,4 +72,11 @@ function verifyEmail(evt) {
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh773352(v=vs.85).aspx customError Property]
 |HTML5Rocks_link=[http://www.html5rocks.com/en/tutorials/forms/html5forms/ Making forms fabulous]
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
