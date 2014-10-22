@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The any-pointer media query returns information about all a user's pointer devices.}}
+{{Summary_Section|The any-hover media query returns information about all a user's pointer devices.}}
 {{CSS_Media_Feature
 |Content=
 }}
