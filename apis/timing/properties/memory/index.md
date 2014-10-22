@@ -22,6 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
+|Description=
 |Code=console.log(performance.memory)
 
 // Would show, for example
@@ -30,20 +31,36 @@
 // totalJSHeapSize: 58054528,
 // usedJSHeapSize: 42930044
 //}
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=''usedJsHeapSize'' is the total amount of memory being used by JS objects including V8 internal objects, ''totalJsHeapSize'' is current size of the JS heap including free space not occupied by any JS objects. This means that ''usedJsHeapSize'' can not be greater than ''totalJsHeapSize''. Note that it is not necessarily that there has ever been ''totalJsHeapSize'' of alive JS objects.
 
-The values are quantized as to not expose private information to attackers.
+The values are quantized as to not expose private information to attackers. If Chrome is run with the flag `--enable-precise-memory-info` the values are not quantized.
 
-{{TODO|Remove this, or detail how it works here.}}
+
 See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch WebKit Patch] for how the quantized values are exposed. The tests in particular help explain how it works.
 
 * [https://bugs.webkit.org/show_bug.cgi?id=86636 WebKit bug]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|DOM, Performance}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -80,12 +97,4 @@ See the [https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch Web
 |Version=~22 - 37
 |Note=Use ''--enable-memory-info'' to get precise, non quantized memory usage numbers.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|DOM, Performance}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|HTML5Rocks_link=
 }}
