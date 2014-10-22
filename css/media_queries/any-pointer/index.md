@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS_Media_Feature
-|Content=The any-pointer media query returns 
+|Content=The any-pointer media query returns information about all a user's pointer devices.
 }}
 {{Examples_Section
 |Not_required=No
