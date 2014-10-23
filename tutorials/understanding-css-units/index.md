@@ -218,7 +218,6 @@ So what should keep in mind as web developers to have our content render nicely 
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=CSS Layout, Media Queries
 |Manual_links=
 |External_links=
 |Manual_sections=
