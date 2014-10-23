@@ -10,7 +10,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
+{{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selectors available, and how different kinds of selectors have different priorities.}}
 {{Tutorial
 |Next_page=
 |Prev_page=
