@@ -42,8 +42,7 @@ For example, a CSS rule might state:
 
 or
 
-''I want to find every <code>&lt;p&gt;</code> element with a class attribute of <code>author-name</code>, set the background color to red, 
-resize the text to twice the size of normal paragraph text, and add 10 pixels of spacing around it.''
+''I want to find every <code>&lt;p&gt;</code> element with a class attribute of <code>author-name</code>, set the background color to red, resize the text to twice the size of normal paragraph text, and add 10 pixels of spacing around it.''
 
 CSS is not a markup language like HTML, nor is it a procedural programming language like JavaScript. 
 It is a declarative language that uses its own logic to identify and locate the page elements to which its style rules should be applied. 
@@ -308,7 +307,7 @@ The <code>href</code> attribute points to the CSS file, the <code>media</code> a
 This is the best of all worlds: you keep your look and feel definitions in one place, which means that you can make site-wide changes by 
 changing one file, and the browser can load that once and then cache it for all other documents that reference it, meaning less to download.
 
-=== @importing stylesheets ===
+=== Importing stylesheets ===
  
 There is actually one more way to import external style sheets into HTML files: the <code>@import</code> property. 
 This is inserted into an embedded style sheet, in the same way as the embedded CSS shown above. The syntax looks like this:
