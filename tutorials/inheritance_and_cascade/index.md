@@ -1,11 +1,18 @@
 {{Page_Title|Inheritance and cascade}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This guide explains inheritance and the cascade, two fundamental concepts in CSS.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
  
 Inheritance and the cascade are two fundamental concepts in CSS, that are important to understand. The two concepts are closely related, yet different:
@@ -13,7 +20,7 @@ Inheritance and the cascade are two fundamental concepts in CSS, that are import
 * Inheritance is associated with how the elements in the HTML markup inherit properties from their parent (containing) elements and pass them on to their children.
 * The cascade relates to CSS declarations being applied to a document, and how conflicting rules do or do not override each other.
  
-This article provides an overview of both concepts. [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip Download the source code for the examples] in this article; the ZIP file contains the finished CSS and HTML, as well as the initial HTML template you can use as you follow along with the examples.
+This article provides an overview of both concepts.
 
 == Inheritance ==
  
@@ -365,7 +372,11 @@ The cascade sorts out all conflicts when multiple declarations would affect a gi
 
 All else being equal, the source order makes the final distinction.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -374,7 +385,10 @@ All else being equal, the source order makes the final distinction.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links==== Slides on CSS Cascade and Inheritance ===
+[http://www.slideshare.net/slideshow/embed_code/1658158]
+[http://www.slideshare.net/slideshow/embed_code/1772232]
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/1658158" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
 
@@ -382,7 +396,7 @@ All else being equal, the source order makes the final distinction.
 |Manual_sections==== Exercise Questions ===
  
 * Is the <code>border</code>  property inherited? Think about it first—would it make sense?—then look up the correct answer in the [http://www.w3.org/TR/CSS21/ CSS specification].
-* If we add <code>!important</code> to the <code>color:black</code> declaration in the last rule in our [http://dev.opera.com/articles/view/28-inheritance-and-cascade/inheritance_cascade_code.zip example style sheet], will this have any effect on the text color in the first, “special” paragraph?
+* If we add <code>!important</code> to the <code>color:black</code> declaration in the last rule in our example style sheet, will this have any effect on the text color in the first, “special” paragraph?
 * Which selector is more specific, “<code>#special</code>” or “<code>html&gt;head+body&gt;h1+p</code>”?
 * What should a user style sheet look like to make our test document display in black Comic Sans MS on a white background, regardless of the author style sheet?
 }}
