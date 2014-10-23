@@ -31,7 +31,7 @@ A web page like the one you are reading is a document. The information that you 
 and the actual content of the page and its presentation characteristics may come from a variety of sources.
 
 When your web browser requests the page, one of the sources is typically a CSS file containing formatting directives, or rules.
-The web page explicitly references the CSS file, in effect requesting that the CSS rules to be applied to the page contents.
+The web page explicitly references the CSS file, in effect requesting that the CSS rules be applied to the page contents.
 
 == Document presentation ==
 ''Presenting'' an HTML document to a user means converting it into a form that humans can read and use. 
@@ -41,7 +41,6 @@ and make use of CSS rules to determine how to format the data contained in the H
 ==Conclusion==
 Thus, a web page you see in a browser is a combination of the document's data sources, with the CSS formatting rules applied.
 In the other tutorials in this section you will learn more about CSS, why it is important, and how to use it effectively.
-
 }}
 {{Notes_Section
 |Usage=
