@@ -45,7 +45,7 @@ When you use CSS, you normally avoid using these HTML style features so that all
 === Linking your document to your stylesheet ===
 <ol> 
 <li><p>Create another text file; this file will be your HTML document. Name it whatever you like.</p></li>
-<li><p>In your HTML file, copy and paste the following lines; the <b>&lt;link...&gt;</b> line references your style sheet:</p>
+<li><p>In your HTML file, copy and paste the following lines; the <code>&lt;link...&gt;</code> line references your style sheet:</p>
 
 <syntaxhighlight lang="html5"><!DOCTYPE html>
  <html>
@@ -63,7 +63,7 @@ When you use CSS, you normally avoid using these HTML style features so that all
    </body>
  </html></syntaxhighlight></li>
  
-<li><p>Save the file and load it in a browser. The style sheet makes the letters inside the <b>&lt;strong&gt;</b> tags display in red, like this:</p>
+<li><p>Save the file and load it in a browser. The style sheet makes the letters inside the <code>&lt;strong&gt;</code> tags display in red, like this:</p>
 
 <p><b style="color:red;">C</b>ascading <b style="color:red;">S</b>tyle <b style="color:red;">S</b>heets</p>
 </li>
