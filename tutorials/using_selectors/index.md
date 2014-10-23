@@ -1,39 +1,52 @@
 {{Page_Title|Using selectors}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Move Candidate
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selector available, and how different kinds of selectors have different priorities.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Selectors ==
  
-CSS has its own terminology to describe the CSS language. Previously in this tutorial, you created a line in your stylesheet like this:
+CSS has its own terminology to describe the CSS language. In a previous tutorial, you created a line in your stylesheet like this:
  
 <syntaxhighlight lang="css">strong {
   color: red;
 }</syntaxhighlight>
  
-In CSS terminology, this entire line is a ''rule''. This rule starts with <code>strong</code>, which is a ''selector''. It selects which elements in the DOM the rule applies to.
+In CSS terminology, this entire code section is a ''rule''. The rule starts with <code>strong</code>, which is a ''selector''. 
+It selects which elements in the DOM the rule applies to.
   
-* The part inside the curly braces is the ''declaration''. 
+* The part inside the braces is the ''declaration''. 
 * The keyword <code>color</code> is a ''property'', and <code>red</code> is a ''value''.
 * The semicolon after the property-value pair separates it from other property-value pairs in the same declaration.
 
-This guide refers to a selector like <code>strong</code> as a ''tag'' selector, and you will also see it commonly referred to as an ''element'' selector. The CSS Specification refers to it as a ''type'' selector.
+This guide refers to a selector like <code>strong</code> as a ''tag'' selector; you will also see it commonly referred to as an ''element'' 
+selector. The CSS Specification refers to it as a ''type'' selector.
  
-In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes have special status for CSS. They are [[html/attributes/class|class]] and [[html/attributes/id|id]].
+In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes,
+[[html/attributes/class|class]] and [[html/attributes/id|id]],
+have special status for CSS.
 
 === Class selectors ===
  
-Use the [[html/attributes/class|class]] attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
+Use the <code>class</code> attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. 
+Multiple elements in a document can have the same class value.
  
-In your style sheet, type a full stop (period) before the class name when you use it in a selector.
+In your style sheet, type a dot (period) before the class name when you use it in a selector.
  
 === ID selectors ===
  
-Use the [[html/attributes/id|id]] attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
+Use the <code>id</code> attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. 
+The ID name must be unique in the document.
  
 In your stylesheet, type a number sign (hash) before the ID when you use it in a selector.
   
@@ -43,9 +56,10 @@ This HTML tag has both a <code>class</code> attribute and an <code>id</code> att
   
 <syntaxhighlight lang="html5"><p class="key" id="principal"></syntaxhighlight>
  
-The '''id''' value, <code>principal</code>, must be unique in the document, but other tags in the document can have the same '''class''' name, <code>key</code>.
+The '''id''' value <code>principal</code> must be unique in the document, but other tags in the document can have the same
+<code>key</code> '''class''' name.
  
-In a CSS style sheet, this rule makes all the elements with class <code>key</code> green. (They might not all be [[html/elements/p]] elements.)
+In a CSS style sheet, this rule makes all the elements with class <code>key</code> green. (They might not all be <code>&lt;p&gt;</code> elements.)
  
 <syntaxhighlight lang="css">.key {
   color: green;
@@ -54,37 +68,41 @@ In a CSS style sheet, this rule makes all the elements with class <code>key</cod
 This rule makes the one element with the '''id''' <code>principal</code> bold:
  
 <syntaxhighlight lang="css">#principal {
-  font-weight: bolder;
+  font-weight: bold;
 }</syntaxhighlight>
   
-If more than one rule applies to an element and specifies the same property, then CSS gives priority to the rule that has the more specific selector. An ID selector is more specific than a class selector, which in turn is more specific than a tag selector.
+If more than one rule applies to an element and specifies the same property, then CSS gives priority to the rule that has the more 
+specific selector. An ID selector is more specific than a class selector, which in turn is more specific than a tag selector.
   
 ===Combining selectors===
 You can also combine selectors, making a more specific selector.
 
-For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects only [[html/elements/p]] elements that have the class name <code>key</code>.
+For example, the selector <code>.key</code> selects all elements that have the class name <code>key</code>. The selector <code>p.key</code> selects 
+only <code>&lt;p&gt;</code> elements that have the class name <code>key</code>.
  
-You are not restricted to the two special attributes, <code>class</code> and <code>id</code>. You can specify other attributes by using square brackets. For example, the selector <code>[type='button']</code> selects all elements that have a <code>type</code> attribute with the value <code>button</code>.
+You are not restricted to the two special attributes, <code>class</code> and <code>id</code>. You can specify other attributes by using 
+brackets. For example, the selector <code>[type='button']</code> selects all elements that have a <code>type</code> attribute with the value 
+<code>button</code>.
   
 If the style sheet has conflicting rules and they are equally specific, then CSS gives priority to the rule that is later in the style sheet.
  
-When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer the end of the style sheet so that it has priority.
+When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer to the end of the style sheet so that it has priority.
  
 === Pseudo-class selectors ===
  
-A CSS [[css/selectors/pseudo-classes|pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. For example [[css/selectors/pseudo-classes/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
-
+A CSS [[css/selectors/pseudo-classes|pseudo-class]] is a keyword added to selectors that specifies a special state of the element to be selected. 
+For example, [[css/selectors/pseudo-classes/:hover|:hover]] will apply a style when the user hovers over the element specified by the selector.
  
-Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-classes/:visited|visited]], for example), the status of its content (like [[css/selectors/pseudo-classes/:checked|:checked]] on some form elements), or the position of the mouse (like [[css/selectors/pseudo-classes/:hover|:hover]] which lets you know if the mouse is over an element or not). To see a complete list of selectors, visit [[css/selectors]].
+Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, 
+but also in relation to external factors like the history of the navigator ([[css/selectors/pseudo-classes/:visited|visited]], for example), 
+the status of its content (like [[css/selectors/pseudo-classes/:checked|:checked]] on some form elements), or the position of the mouse (like 
+[[css/selectors/pseudo-classes/:hover|:hover]], which lets you know if the mouse is over an element or not). For a complete list of selectors, 
+see [[css/selectors]].
  
 <syntaxhighlight lang="css">selector:pseudo-class {
   property: value;
 } </syntaxhighlight>
   
-==== List of pseudo-classes ====
-
-<subpages page="css/selectors/pseudo-classes" />
-
 == Information: Selectors based on relationships ==
  
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
@@ -109,12 +127,11 @@ CSS has some ways to select elements based on the relationships between elements
 {{!}}} 
 
 You can combine these to express complex relationships.
-
- You can also use the symbol <code>*</code> (asterisk) to mean "any element".
+You can also use the symbol <code>*</code> (asterisk) to mean "any element".
  
 ====Example of selectors based on relationships====
 
-An HTML table has an <code>id</code> attribute, but its rows and cells do not have individual identifiers:
+This HTML table has an <code>id</code> attribute, but its rows and cells do not have individual identifiers:
  
 <syntaxhighlight lang="html5"><table id="data-table-1">
 …
@@ -125,9 +142,10 @@ An HTML table has an <code>id</code> attribute, but its rows and cells do not ha
 </tr>
 …</syntaxhighlight>
  
-These rules make the first cell in each row bold, and the second cell in each row monospaced. They only affect one specific table in the document:
+The following rules make the first cell in each row bold, and the second cell in each row monospaced. 
+They only affect one specific table in the document, the one with the id <code>&lt;data-table-1&gt;</code>:
  
-<syntaxhighlight lang="css">#data-table-1 td:first-child {font-weight: bolder;}
+<syntaxhighlight lang="css">#data-table-1 td:first-child {font-weight: bold;}
 #data-table-1 td:first-child + td {font-family: monospace;}</syntaxhighlight>
  
 The result looks like:
@@ -147,17 +165,16 @@ The result looks like:
   
 In the usual way, if you make a selector more specific, then you increase its priority.
  
-If you use these techniques, you avoid the need to specify <code>class</code> or <code>id</code> attributes on so many tags in your document. Instead, CSS does the work.
+If you use these techniques, you avoid the need to specify <code>class</code> or <code>id</code> attributes on so many tags in your document. 
+Instead, CSS does the work.
  
-In large designs where speed is important, you can make your style sheets more efficient by avoiding complex rules that depend on relationships between elements.
- 
-For more examples about tables, see [[Tables]] in the CSS Reference page.
+In large designs where speed is important, you can make your style sheets more efficient by avoiding complex rules that depend on 
+relationships between elements.
 
 == Action: Using class and ID selectors ==
  
 <ol>
-<li><p>Edit your HTML file, and duplicate the paragraph by copying and pasting it.</p></li>
-<li><p>Then add '''id''' and '''class''' attributes to the first copy, and an '''id''' attribute to the second copy as shown below. Alternatively, copy and paste the entire file again:</p>
+<li><p>Create an HTML page with the following code:</p>
 
 <syntaxhighlight lang="html5"><!doctype html>
  <html>
@@ -194,7 +211,9 @@ For more examples about tables, see [[Tables]] in the CSS Reference page.
 
 [[File:usingclassandid_result.jpg]]
 
-You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors <code>.carrot</code> and <code>.spinach</code> have priority over the tag selector <code>strong</code>. The ID selector <code>#first</code> has priority over the class and tag selectors.
+You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors <code>.carrot</code> and 
+<code>.spinach</code> have priority over the tag selector <code>strong</code>. 
+The ID selector <code>#first</code> has priority over the class and tag selectors.
   
 === Exercise questions === 
 
@@ -236,14 +255,16 @@ You can try rearranging the lines in your CSS file to show that the order has no
    background-color: #333;
  }</syntaxhighlight>
 </li> 
-<li><p>Save the files and refresh your browser to see the result (put the mouse over the following link to see the effect):</p>
+<li><p>Save the files and refresh your browser to see the result (hover the mouse over the link to see the effect):</p>
 [[File:pseudoclassselector_result.jpg]]
 <p>The link turns to dark grey.</p></li>
 </ol> 
 
 == Action: Using selectors based on relationships and pseudo-classes ==
  
-With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create '''pure CSS drop down menus''' (that is only CSS, without using [[javascript|JavaScript]]). The essence of this technique involves creating a rule like this:
+With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, 
+for example, in order to create '''pure CSS drop down menus''' (that is only CSS, without using JavaScript). 
+The essence of this technique involves creating a rule like this:
  
 <syntaxhighlight lang="css">div.menu-bar ul ul {
   display: none;
@@ -282,8 +303,19 @@ to be applied to an HTML structure like the following:
     </li>
   </ul>
 </div></syntaxhighlight>
+
+In this way, CSS selectors can be used to create visual effects previously possible only with procedural languages like JavaScript.
+
+==Conclusion==
+In this tutorial we examined various types of CSS selectors, how to use them to achieve different styling effects,
+and explored ways to affect the cascading order (priority) of CSS rules. For more information, see
+the other CSS tutorials in this section.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -291,7 +323,11 @@ to be applied to an HTML structure like the following:
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
