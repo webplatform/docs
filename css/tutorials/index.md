@@ -1,7 +1,7 @@
 {{Page_Title|CSS tutorials}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.}}
@@ -23,7 +23,6 @@
 *[[tutorials/understanding-css-units|Understanding CSS units]]
 * [[guides/css shorthand|CSS shorthand guide]]
 * [[tutorials/debugging css|Debugging CSS]]
-* [[concepts/css-images|CSS images]]
 
 ==Working with fonts and text==
 
@@ -83,7 +82,11 @@
 * [[tutorials/targetting css at different media|Targetting CSS at different media types]] 
 * [[tutorials/media queries|Targetting CSS with media queries]]
 * [[tutorials/responsive layouts|Creating responsive layouts]]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
