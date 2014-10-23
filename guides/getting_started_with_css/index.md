@@ -4,9 +4,15 @@
 |Editorial notes=Merge dup content with http://docs.webplatform.org/wiki/guides/css_shorthand; Need to remove compatibility table; Need to crosslink to other relevant CSS content
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, comments, and how to apply it to HTML.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, and comments, and shows how to apply CSS rules to HTML content.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
 
 This article covers the basics of CSS, to help you get started with this powerful styling language. You will learn how to apply CSS to HTML documents, either as inline styles using <code>style</code> attributes, embedded styles in a <code>&lt;style&gt;</code> element in the document <code>&lt;head&gt;</code> or as external files in their own document.
@@ -293,33 +299,45 @@ The first question you'll be asking is "why on earth do I need another way to ap
 * As mentioned before, IE6 doesn't support putting the media type at the end of the <code>@import</code> line, so they are not a good way to go if you want to insert multiple stylesheets for different media.
 * You could argue that the code for multiple <code>@import</code> statements is smaller than the code for multiple <code>&lt;link&gt;</code> elements, but this is pretty negligible.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Yes
+|Chrome_version=
 |Chrome_prefixed_supported=Unknown
 |Chrome_prefixed_version=
 |Firefox_supported=Yes
+|Firefox_version=
 |Firefox_prefixed_supported=Unknown
 |Firefox_prefixed_version=
 |Internet_explorer_supported=Yes
+|Internet_explorer_version=
 |Internet_explorer_prefixed_supported=Unknown
 |Internet_explorer_prefixed_version=
 |Opera_supported=Yes
+|Opera_version=
 |Opera_prefixed_supported=Unknown
 |Opera_prefixed_version=
 |Safari_supported=Yes
+|Safari_version=
 |Safari_prefixed_supported=Unknown
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=Yes
 |Android_version=1
 |Android_prefixed_supported=Unknown
 |Android_prefixed_version=
 |Blackberry_supported=Yes
+|Blackberry_version=
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
@@ -335,6 +353,7 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Unknown
 |Opera_mobile_prefixed_version=
 |Opera_mini_supported=Yes
@@ -349,6 +368,8 @@ The first question you'll be asking is "why on earth do I need another way to ap
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise Questions ===
  
 * What are the benefits and problems of inline styles and how do you apply them to an element?
