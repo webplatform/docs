@@ -1,15 +1,18 @@
 {{Page_Title|Understanding pixels and other CSS units}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=See TODO under Simple Example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
 |Name=Vincent Hardy, Sylvain Galineau
 |URL=http://blogs.adobe.com/digitalmedia/author/vhardy/
+|Published=
 }}
 {{Summary_Section|This guide looks into the relationship between CSS pixels and other units, as well as between CSS and device pixels.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
 A growing number of CSS length units have provided new flexibility to web authors (see the [http://www.w3.org/TR/css3-values/ CSS Values and Units specification]). For example, the ‘rem’ (root ‘em’) unit permits the font size of the root element to be used for sizing throughout the document.
 
@@ -173,7 +176,7 @@ With the advent of higher density screens, we are seeing devices with 2 device p
 </syntaxhighlight>
 
 [[Image: css-units-px-and-inch.png|center|alt=Screenshot of a testcase showing that 96px wide blocks are the same visual size as one-inch wide blocks]]
-{{TODO | Can we center this image and add a "Rendering in OSX Safari" caption?}}
+''Figure 1: Rendering in OSX Safari''
 
 When we try render this document across different devices we see that:
 * In all cases, the light and blue boxes are exactly the same size. This is because 1 CSS inch is always as long as 96 CSS pixels; the white boxes are 96px wide and the blue boxes are 1 inch wide. So as expected, their widths match.
@@ -202,7 +205,11 @@ So what should keep in mind as web developers to have our content render nicely 
 * [http://www.html5rocks.com/en/tutorials/canvas/hidpi/ High DPI Canvas (html5rocks)]
 * [http://phoboslab.org/log/2012/09/drawing-pixels-is-hard Drawing pixels is hard]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -212,6 +219,9 @@ So what should keep in mind as web developers to have our content render nicely 
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Media Queries
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS, SVG}}
 {{External_Attribution
