@@ -4,14 +4,18 @@
 |Editorial notes=Need to remove compatibility table.
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
 {{Guide
 |Content=== Introduction ==
  
-In our [http://docs.webplatform.org/wiki/tutorials/CSS_basics CSS basics] article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
+In our [[tutorials/Using_selectors|Using selectors]] article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
 
-Note: This article discusses "most" of the advanced selectors, because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added and modified all the time--keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates. New selectors will be added to this article as they receive more widespread browser support.
+Note: This article discusses ''most'' of the advanced selectors, because although most modern browsers support all the selectors listed in the [http://www.w3.org/TR/selectors/ CSS3 selectors module], new selectors are being added and modified all the time--keep checking the [http://www.w3.org/TR/selectors4/ CSS4 selectors draft] for updates. New selectors will be added to this article as they receive more widespread browser support.
  
 You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article as needed. 
  
@@ -214,7 +218,7 @@ a:active {
  font-weight: bold;
 }</syntaxhighlight>
  
-Take care to specify these rules in the same order as they are shown in above, because otherwise they might not work as you expect. This is due to the way specificity causes later rules in the style sheet to override earlier rules. Specificity is covered in more detail in the article titled [[Inheritance and cascade]].
+Take care to specify these rules in the same order as they are shown in above, because otherwise they might not work as you expect. This is due to the way specificity causes later rules in the style sheet to override earlier rules. Specificity is covered in more detail in the article titled [[tutorials/inheritance_and_cascade|Inheritance and cascade]].
  
 As another example, the <code>:focus</code> pseudo-class is also useful as a usability aid in forms. For example, you can highlight the input field that has the active blinking cursor inside it with a rule like this:
 
@@ -787,7 +791,11 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, eg <code>a::after { ... }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -795,7 +803,11 @@ Please note that the new CSS3 way of writing pseudo-elements is to use a double 
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
