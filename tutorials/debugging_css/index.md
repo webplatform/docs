@@ -10,7 +10,7 @@
 |URL=https://renoirboulanger.com/
 |Published=
 }}
-{{Summary_Section|Utilities to help analyze situations where style we think should be applied and is not}}
+{{Summary_Section|This article lists utilities to help analyze situations where a CSS style we think should be applied is not.}}
 {{Tutorial
 |Next_page=
 |Prev_page=
