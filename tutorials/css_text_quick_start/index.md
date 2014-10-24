@@ -88,7 +88,6 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 <syntaxhighlight lang="css">body {font: 16px "Comic Sans MS", cursive;}</syntaxhighlight></li>
 <li><p>Add a comment explaining the rule, and add white space to make it match your preferred layout.</p></li>
 <li><p>Save the file and refresh your browser to see the effect. If your system has Comic Sans MS, or another cursive font that does not support italic, then your browser chooses a different font face for the italic text in the first line.</p>
-<p class="note">Include screenshot to show what it should look like.</p></li>
 <li><p>From your browser's menu bar, choose '''View &gt; Text Size &gt; Increase''' (or '''View &gt; Zoom &gt; Zoom In'''). Even though you specified 16 pixels in the CSS style, a visitor reading the page can change the size of the text.</p></li>
 </ol>
 }}
