@@ -17,7 +17,7 @@
  
 CSS has several properties for styling text.
  
-There is a convenient shorthand property, [font], which you can use to specify several aspects at once—for example:
+There is a convenient shorthand property, '''font''', which you can use to specify several aspects at once—for example:
  
 * Bold, italic, and small-caps (small capital letters)
 * The size
@@ -90,6 +90,10 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 <li><p>Save the file and refresh your browser to see the effect. If your system has Comic Sans MS, or another cursive font that does not support italic, then your browser chooses a different font face for the italic text in the first line.</p>
 <li><p>From your browser's menu bar, choose '''View &gt; Text Size &gt; Increase''' (or '''View &gt; Zoom &gt; Zoom In'''). Even though you specified 16 pixels in the CSS style, a visitor reading the page can change the size of the text.</p></li>
 </ol>
+
+==Conclusion==
+This article provides a quick introduction to styling text with CSS. For more in-depth information, see the other tutorial articles in this series.
+
 }}
 {{Notes_Section
 |Usage=
