@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -13,6 +14,7 @@
 |Media=visual
 |Computed value=As specified
 |Animatable=No
+|CSS object model property=
 |CSS percentages=Refers to the line-height of the element
 |Values={{CSS Property Value
 |Data Type=auto
@@ -62,6 +64,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;p&gt;
 	alignment-adjust CSS property:
 	&lt;img src=&quot;http://placehold.it/40x40&quot; alt=&quot;Image 1&quot; class=&quot;image1&quot;&gt;
@@ -82,6 +85,7 @@
 |LiveURL=http://code.webplatform.org/gist/6363838
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=/**
  * alignment-adjust
  * CSS3 property
@@ -117,25 +121,26 @@ p img:first-child {
 .image12 { alignment-adjust: mathematical; }
 .image13 { alignment-adjust: 75%; }
 .image14 { alignment-adjust: -20px; }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage={{Languages}}
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Line Layout Module
 |URL=http://dev.w3.org/csswg/css-inline/
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust alignment-adjust by Eric Meyer]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -143,4 +148,11 @@ p img:first-child {
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
