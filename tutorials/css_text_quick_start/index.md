@@ -108,7 +108,6 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 |Manual_links=
 |External_links=
 |Manual_sections====Exercise questions===
- 
 Without changing anything else, make all six initial letters twice the size in the browser's default serif font.
 }}
 {{Topics|CSS}}
