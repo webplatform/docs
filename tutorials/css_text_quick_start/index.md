@@ -1,12 +1,18 @@
 {{Page_Title|CSS text quick start}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs screenshot under Action
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This tutorial provides a quick instruction on styling text with CSS.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information on text styles ==
  
 CSS has several properties for styling text.
@@ -86,7 +92,11 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 <li><p>From your browser's menu bar, choose '''View &gt; Text Size &gt; Increase''' (or '''View &gt; Zoom &gt; Zoom In'''). Even though you specified 16 pixels in the CSS style, a visitor reading the page can change the size of the text.</p></li>
 </ol>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -95,6 +105,8 @@ For a simple document, you can set the font of the <code>&lt;body&gt;</code> ele
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise questions===
  
 Without changing anything else, make all six initial letters twice the size in the browser's default serif font.
