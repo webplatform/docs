@@ -26,8 +26,8 @@
 
 ==Working with fonts and text==
 
-* [[guides/css text styling fundamentals|Text styling fundamentals]]
 * [[tutorials/css text quick start|CSS text quick start]]
+* [[guides/css text styling fundamentals|Text styling fundamentals]]
 * [[guides/advanced css text styling|Advanced CSS text styling]]
 * [[tutorials/using specific list styles|Using specific list styles]]
 
