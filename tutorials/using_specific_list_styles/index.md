@@ -63,7 +63,7 @@ This rule specifies that in <code>ol</code> elements with the class <code>info</
 
 The <code>li</code> elements in the list inherit this style:
 
-<syntaxhighlight lang="html5><ol>
+<syntaxhighlight lang="html5><ol class="info">
    <li>Lorem ipsum</li>
    <li>Dolor sit</li>
    <li>Amet consectetuer</li>
@@ -71,40 +71,37 @@ The <code>li</code> elements in the list inherit this style:
    <li>Autem vellum</li>
  </ol></syntaxhighlight>
 
-And the result might look like this:
+And that result might look like this:
 
 [[File:csslists2.png]]
 
 ''Figure 2. Ordered list items marked with capital letters.''
 
-The {{ cssxref("list-style") }} property is a shorthand property. In complex style sheets, you might prefer to use separate properties to set separate values. For links to these separate properties, and to learn more details about how CSS specifies lists, see the {{ cssxref("list-style") }} reference page.
-
-If you are using a markup language like HTML that provides conventional tags for unordered ({{ HTMLElement("ul") }}) and ordered ({{ HTMLElement("ol") }}) lists, then it is good practice to use the tags in the way they were intended. However, you can use CSS to make {{ HTMLElement("ul") }} display ordered and {{ HTMLElement("ol") }} display unordered if you wish.
+The <code>list-style</code> property is a shorthand property. In complex style sheets, you might prefer to use separate properties to set separate values. For links to these separate properties, and to learn more details about how CSS specifies lists, see [[css/properties/list-style|list-style]].
 
 Browsers differ in the way they implement the styles for lists. Do not expect your style sheet to provide identical results in all browsers.
 
 ===Counters===
 
-'''Note: ''' Some browsers do not support counters. The [http://www.quirksmode.org/css/contents.html CSS contents and browser compatibility] page on the [http://www.quirksmode.org/ Quirks Mode site] contains a detailed chart of browser compatibility for this and other CSS features. Individual pages in the [/en/CSS_Reference CSS Reference] section of this site also contain browser compatibility tables.
+'''Note: ''' Some browsers do not support counters. The [http://www.quirksmode.org/css/contents.html CSS contents and browser compatibility] page on the [http://www.quirksmode.org/ Quirks Mode] site contains a detailed chart of browser compatibility for this and other CSS features. You can also find useful information about browser compatibility at the extensive [http://caniuse.com Can I Use] site.
 
-You can use counters to number any elements, not only list items. For example, in some documents you might want to number headings or paragraphs.
+You can use counters to number any elements, not just list items. For example, in some documents you might want to number headings or paragraphs.
 
 To specify numbering, you can add a ''counter'' with a name that you specify.
 
-In some element before the counting is to start, reset the counter with the property {{ cssxref("counter-reset") }} and the name of your counter. The parent of the elements you are counting is a good place to do this, but you can use any element that comes before the list items.
+In some element before the counting is to start, reset the counter with the property <code>counter-reset</code> and the name of your counter. The parent of the elements you are counting is a good place to do this, but you can use any element that comes before the list items.
 
-In each element where the counter increments, use the property {{ cssxref("counter-increment") }} and the name of your counter.
+In each element where the counter should increment, use the property <code>counter-increment</code> and the name of your counter.
+Normally the element that displays the counter also increments it.
 
-To display your counter, add {{ cssxref(":before") }} or {{ cssxref(":after") }} to the selector and use the <code>content</code> property (as you did on the previous page, '''[/en/CSS/Getting_Started/Content Content]''').
-
+To display your counter, add <code>:before</code> or <code>:after</code> to the selector and use the <code>content</code> property to position the counter with the element. 
 In the value of the <code>content</code> property, specify <code>counter()</code> with the name of your counter. Optionally specify a type. The types are the same as in the '''Ordered lists''' section above.
 
-Normally the element that displays the counter also increments it.
+For example, this rule resets a counter called "mynum" when an <code>h3</code> with a class of <code>numbered</code> is encountered, preparing the paragraphs following the <code>h3</code> to be numbered.
 
 <syntaxhighlight lang="css">h3.numbered {counter-reset: mynum;}</syntaxhighlight>
 
-This rule displays and increments the counter for every {{ HTMLELement("p") }} element with the class <code>numbered</code><nowiki>:</nowiki>
-
+This rule displays and increments the counter for every subsequent <code>p</code> element with the class <code>numbered</code>.
  
 <syntaxhighlight lang="css">p.numbered:before {
    content: counter(mynum) ": ";
@@ -112,12 +109,20 @@ This rule displays and increments the counter for every {{ HTMLELement("p") }} e
    font-weight: bold;
 }</syntaxhighlight>
 
-The result looks like this:
+So, for this HTML:
 
-<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
+<syntaxhighlight lang="html5"><h3 class="numbered">This is an H3</h3>
+<p class="numbered">This is a paragraph.</p>
+<p class="numbered">This is a paragraph.</p>
+<p class="numbered">This is a paragraph.</p></syntaxhighlight>
+
+the result looks like this:
+
+[[File:csslists3.png]]
+
+''Figure 3. Numbered paragraphs using the <code>counter</code> property.''
 
 You cannot use counters unless you are sure that everyone who reads your document has a browser that supports them.
-
 If you are able to use counters, they have the advantage that you can style the counters separately from the list items. In the example above, the counters are bold but the list items are not.
 
 You can also use counters in more complex ways—for example, to number sections, headings, subheadings and paragraphs in formal documents. For details, see [http://www.w3.org/TR/CSS21/generate.html#counters Automatic counters and numbering] in the CSS Specification.
