@@ -1,6 +1,7 @@
 {{Page_Title|Understanding CSS filter effects}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Flags
 |Content=Incomplete, Errors
@@ -12,6 +13,8 @@
 }}
 {{Summary_Section|This article is an introduction to CSS filter effects.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content='''Caution:''' This article discusses APIs that are not yet fully standardized and still in flux. Be cautious when using experimental APIs in your own projects. See the compatibility tables at the end of this article for the latest information.
 
 ==Introduction==
@@ -179,11 +182,16 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 *Review the official W3C Filter Effects 1.0 [https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html draft specification]. 
 *See this [http://lab.simurai.com/stars/#bruno UI example] created with filters.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
@@ -206,6 +214,7 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 |Safari_prefixed_version=6.0
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Unknown
@@ -242,7 +251,9 @@ If you're using URL-based filters that reference SVG filters, they can contain a
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Filters
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS, Graphics, SVG}}
 {{External_Attribution
