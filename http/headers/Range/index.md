@@ -24,7 +24,12 @@ suffix-byte-range-spec = "-" suffix-length
 |Examples={{Single Example
 |Language=Other
 |Description=
-|Code=Range: bytes 0-499, 1000-1499
+|Code=Range: bytes=0-499
+|LiveURL=
+}}{{Single Example
+|Language=
+|Description=
+|Code=Range: bytes=0-499,1000-1499
 |LiveURL=
 }}
 }}
