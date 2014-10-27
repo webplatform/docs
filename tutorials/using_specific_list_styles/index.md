@@ -1,7 +1,7 @@
 {{Page_Title|Using specific list styles}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs screenshots, fix broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
