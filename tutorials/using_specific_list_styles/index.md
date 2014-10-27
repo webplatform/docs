@@ -18,7 +18,7 @@
 You may recall from previous articles that you can add content before any element to display it as a list item. However, 
 CSS provides special properties that are designed for lists, and it is usually more convenient to use these properties whenever you can.
 
-To specify the style for a list, use the [[css/properties/list-style list-style]] property to specify the type of marker. 
+To specify the style for a list, use the [[css/properties/list-style|list-style]] property to specify the type of marker. 
 The selector in your CSS rule can either select the list item elements <code>li</code>, or it can select the parent list element <code>ul</code> so that its list elements inherit the style.
 
 ===Unordered lists===
@@ -54,23 +54,28 @@ The result might look like this:
 
 In an ''ordered'' list, each list item is marked differently to show its position in the sequence.
 
-Use the [list-style] property to specify the type of marker:
+Again, use the [[css/properties/list-style|list-style]] property to specify the type of marker: <code>decimal</code>, 
+<code>lower-roman</code>, <code>upper-roman</code>, <code>lower-latin</code>, or <code>upper-latin</code>.
 
-* <code>decimal</code>
-* <code>lower-roman</code>
-* <code>upper-roman</code>
-* <code>lower-latin</code>
-* <code>upper-latin</code>
+This rule specifies that in <code>ol</code> elements with the class <code>info</code>, the items are identified with capital letters.
 
-<p class="note">Add screenshot of results? Or [http://dabblet.com/ Dabblet]?</p>
+<syntaxhighlight lang="css">ol.info {list-style: upper-latin;}</syntaxhighlight>
 
-This rule specifies that in [ol] elements with the class <code>info</code>, the items are identified with capital letters.
+The <code>li</code> elements in the list inherit this style:
 
-<pre> ol.info {list-style: upper-latin;}</pre>
+<syntaxhighlight lang="html5><ol>
+   <li>Lorem ipsum</li>
+   <li>Dolor sit</li>
+   <li>Amet consectetuer</li>
+   <li>Magna aliquot</li>
+   <li>Autem vellum</li>
+ </ol></syntaxhighlight>
 
-The [li] elements in the list inherit this style:</nowiki>
+And the result might look like this:
 
-<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
+[[File:csslists2.png]]
+
+''Figure 2. Ordered list items marked with capital letters.''
 
 The {{ cssxref("list-style") }} property is a shorthand property. In complex style sheets, you might prefer to use separate properties to set separate values. For links to these separate properties, and to learn more details about how CSS specifies lists, see the {{ cssxref("list-style") }} reference page.
 
