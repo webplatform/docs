@@ -160,7 +160,7 @@ You can also use counters in more complex ways—for example, to number sections
    </body>
  </html></syntaxhighlight></li>
 
-<li><p>Make a new style sheet, and name it <code>style2.css</code>. Copy the CSS below and paste it into the document:</p>
+<li><p>Make a new style sheet, and name it <code>style2.css</code>. Copy the CSS below and paste it into the style sheet:</p>
 <syntaxhighlight lang="css">/* numbered paragraphs */
  h3.numbered {counter-reset: mynum;}
   
@@ -170,12 +170,14 @@ You can also use counters in more complex ways—for example, to number sections
    font-weight: bold;
  }</syntaxhighlight>
 
-<p>If desired, you can edit the layout and comments to update them.</p>
+<p>If desired, you can edit the layout and comments.</p>
 </li>
 <li>
 <p>Open the document in your browser. If your browser supports counters, you see something like the example below. If your browser does not support counters, then you will not see the numbers (and it is likely that even the colons will not display):</p>
 
-<p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
+[[File:csslists4.png]]
+
+''Figure 4. Unordered list items and numbered paragraphs.''
 </li>
 }}
 {{Notes_Section
@@ -195,8 +197,8 @@ You can also use counters in more complex ways—for example, to number sections
 |External_links=
 |Manual_sections====Exercise questions===
 
-* Add a rule to your stylesheet, to number the oceans using Roman numerals from i to v:
-* Change your stylesheet to identify the headings with capital letters in parentheses like this:
+* Add a rule to your stylesheet to number the oceans using Roman numerals from i to v:
+* Change your stylesheet to identify the headings with capital letters in parentheses.
 }}
 {{Topics|CSS}}
 {{External_Attribution
