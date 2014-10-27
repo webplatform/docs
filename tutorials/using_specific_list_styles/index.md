@@ -4,32 +4,30 @@
 |Editorial notes=Needs screenshots, fix broken links
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article shows the basics of using list-specific CSS to control things like bullet appearance.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content===Information: Lists==
 
-If you took the challenge on the [/en-US/docs/CSS/Getting_Started/Content last section], then you saw how you can add content before any element to display it as a list item.
+You may recall from previous articles that you can add content before any element to display it as a list item. However, 
+CSS provides special properties that are designed for lists, and it is usually more convenient to use these properties whenever you can.
 
-CSS provides special properties that are designed for lists. It is usually more convenient to use these properties whenever you can.
-
-To specify the style for a list, use the [list-style] property to specify the type of marker.
-
-The selector in your CSS rule can either select the list item elements (for example, [li], or it can select the parent list element (for example, you can select [ul] so that the list elements inherit the style.
+To specify the style for a list, use the [[css/properties/list-style list-style]] property to specify the type of marker. 
+The selector in your CSS rule can either select the list item elements <code>li</code>, or it can select the parent list element <code>ul</code> so that its list elements inherit the style.
 
 ===Unordered lists===
 
-In an ''unordered'' list, each list item is marked in the same way.
-
-CSS has three types of markers. This is how markers are displayed in a browser:
-
-* <code>disc</code>
-* <code>circle</code>
-* <code>square</code>
-
+In an ''unordered'' list, each list item is marked in the same way. CSS has three types of bullet markers: <code>disc</code>, <code>circle</code>,
+and <code>square</code>.
 Alternatively, you can specify the URL of an image file for the bullet icon.
 
-These rules specify different markers for different classes of list item:
+These rules specify different markers for different classes of list items:
 
 <syntaxhighlight lang="css">li.open {list-style: circle;}
 li.closed {list-style: disc;}</syntaxhighlight>
@@ -46,9 +44,11 @@ When these classes are used in a list, they distinguish between open and closed 
  </ul>
 </syntaxhighlight>
 
-The result might look like:
+The result might look like this:
 
-<p class="note">Add screenshot of results? Or [http://dabblet.com/ Dabblet]?</p>
+[[File:csslists1.png]]
+
+''Figure 1. Open and closed (circle and disc) list item bullets.''
 
 ===Ordered lists===
 
@@ -168,7 +168,11 @@ You can also use counters in more complex ways—for example, to number sections
 <p class="note">Add screenshot of result? Or [http://dabblet.com/ Dabblet]?</p>
 </li>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -177,6 +181,8 @@ You can also use counters in more complex ways—for example, to number sections
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise questions===
 
 * Add a rule to your stylesheet, to number the oceans using Roman numerals from i to v:
