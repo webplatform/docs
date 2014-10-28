@@ -5,25 +5,29 @@
 |Checked_Out=No
 |Content=Cleanup
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article describes some fundamental ways to adjust the layout of your document, using padding, floats, and more.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Layout ==
  
-You can use CSS to specify various visual effects that change the layout of your document. Some of the techniques for specifying layout are advanced, and beyond the scope of this basic tutorial. When you design a layout to look similar in many browsers, your stylesheet interacts with the browser's default stylesheet and layout engine in ways that can be complex. This is also an advanced subject, beyond the scope of this basic tutorial.
-
-This page describes some simple techniques that you can try.
+You can use CSS to specify various visual effects that change the layout of your document. When you design a layout to look similar in many browsers, your stylesheet interacts with the browser's default stylesheet and layout engine in ways that can be complex. Some of the techniques for specifying layout are beyond the scope of this basic tutorial, but here we
+describe some simple techniques that you can try.
  
 === Document structure ===
  
-If you want to control the layout of your document, then you might have to change its structure. Your document's markup language might have general-purpose tags for creating structure. For example, in HTML you can use the {{ HTMLElement("div") }} element to create structure.
+If you want to control the layout of your document, then you might have to change its structure. Your document's markup language might have general-purpose tags for creating structure. For example, in HTML you can use the <code>div</code> element to create structure.
 
-Div usage example 
+====Div usage example====
 
 In your sample document, the numbered paragraphs under the second heading do not have a container of their own. Your stylesheet cannot draw a border around those paragraphs, because there is no element to specify in the selector.
  
-To fix this structural problem, you can add a {{ HTMLElement("div") }} tag around the paragraphs. This tag is unique, so it can by identified by an <code>id</code> attribute:
-
+To fix this structural problem, you can add a <code>div</code> tag around the paragraphs. This tag is unique, so it can by identified by an <code>id</code> attribute:
  
 <syntaxhighlight lang="html5"><h3>Numbered paragraphs</h3>
 <div id="numbered">
@@ -53,9 +57,8 @@ For many purposes it is better to specify sizes as a percentage or in ems (<code
 
 ===Sizing example===
 
-The border on the left of this text has its size specified in pixels. The border on the right has its size specified in ems. In your browser, change the size of the font to see how the border on the right adjusts but the border on the left does not:
-
-<p class="note">Note: provide screenshot to show what result should look like</p>
+The border on the left of this text has its size specified in pixels. The border on the right has its size specified in ems. In your 
+sample CSS file, change the size of the font to see how the border on the right adjusts but the border on the left does not.
   
 For other devices, other length units are appropriate. There is more information about this in a later page of this tutorial. For full details of the values and units that you can use, see [[Values]] in the CSS Specification.
 
@@ -63,10 +66,10 @@ For other devices, other length units are appropriate. There is more information
  
 Two properties specify how the content of an element is aligned. You can use them for simple layout adjustments:
 
-{{ cssxref("text-align") }} 
-Aligns the content. Use one of these values: <code>left</code>, <code>right</code>, <code>center</code>, <code>justify</code> 
-{{ cssxref("text-indent") }} 
-Indents the content by an amount that you specify. 
+<code>text-align</code>
+aligns the content. Use one of these values: <code>left</code>, <code>right</code>, <code>center</code>, <code>justify</code>.
+<code>text-indent</code>
+indents the content by an amount that you specify. 
  
 These properties apply to any text-like content in the element, not only to actual text. Remember that they are inherited by the element's children, so you might have to explicitly turn them off in the children to avoid surprising results.
 
@@ -79,17 +82,13 @@ To center headings:
   text-align: center;
 }</syntaxhighlight>
  
-Resulting in:
-
-<p class="note">Note: provide screenshot to show what result should look like</p>     
-
 In an HTML document, the content that you see below a heading is not structurally contained by the heading. So when you align a heading like this, the tags below the heading do not inherit the style.
 
 === Floats ===
  
-The {{ cssxref("float") }} property forces an element to the left or right. This is a simple way to control its position and size.
+The <code>flost</code> property forces an element to the left or right. This is a simple way to control its position and size.
 
-The rest of the document's content normally flows around the floated element. You can control this by using the {{ cssxref("clear") }} property on other elements to make them stay clear of floats.
+The rest of the document's content normally flows around the floated element. You can control this by using the <code>clear</code> property on other elements to make them stay clear of floats.
  
 ===Floats example===
  
@@ -98,17 +97,13 @@ In your sample document, the lists stretch across the window. You can prevent th
 <syntaxhighlight lang="css">ul, #numbered {float: left;}
 h3 {clear: left;}</syntaxhighlight>
   
-The result looks like:
-
-<p class="note">Note: provide screenshot to show what result should look like</p>
- 
 (A little padding is needed on the right of the boxes, where the border is too close to the text.)
  
 === Positioning ===
  
-You can specify an element's position in four ways by specifying the {{ cssxref("position") }} property and one of the following values.
+You can specify an element's position in four ways by specifying the <code>position</code> property and one of the following values.
  
-These are advanced properties. It is possible to use them in simple ways—that is why they are mentioned in this basic tutorial. But using them for complex layouts can be difficult.
+These are advanced properties. It is possible to use them in simple ways &mdash; that is why they are mentioned in this basic tutorial. But using them for complex layouts can be difficult.
 
 <ul>
 <li>
@@ -162,24 +157,26 @@ In your stylesheet, make the parent's position <code>relative</code>. There is n
   color: red;
 }</syntaxhighlight>
  
-The result looks like this, with the backslash on top of the forward slash:
-
-<p class="note">Note: provide screenshot to show what result should look like</p>  
+The result places the backslash on top of the forward slash.
    
 ===More details===
 
-The full story on positioning takes up two complex chapters in the CSS Specification: [[Visual formatting model]] and [[Visual formatting model details]].
+The full story on positioning takes up two complex chapters in the CSS Specification: "Visual formatting model" and "Visual formatting model details".
  
 If you are designing stylesheets to work in many browsers, then you also need to take into account differences in the way browsers interpret the standard, and perhaps bugs in particular versions of particular browsers.
 
 == Action: Specifying layout ==
 
 <ol> 
-<li><p>Change your sample document, <code>doc2.html</code>, and stylesheet, <code>style2.css</code>, using the examples above in the sections [[Document structure]] and [[Floats]].</p></li>
-<li><p>In the [[Floats]] example, add padding to separate the text from the right border by 0.5 em.</p></li>
+<li><p>Change your sample document, <code>doc2.html</code>, and stylesheet, <code>style2.css</code>, using the examples above in the sections "Document structure" and "Floats".</p></li>
+<li><p>In the "Floats" example, add padding to separate the text from the right border by 0.5 em.</p></li>
 </ol>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -188,6 +185,8 @@ If you are designing stylesheets to work in many browsers, then you also need to
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise questions=== 
 
 <ol>
@@ -208,7 +207,6 @@ If you are designing stylesheets to work in many browsers, then you also need to
 </li>
 </ol>
 
-<p class="note">Note: provide screenshot to show what result should look like</p>
 }}
 {{Topics|CSS}}
 {{External_Attribution
