@@ -1,13 +1,19 @@
 {{Page_Title|Exploring the CSS box model}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Needs Review
 }}
-{{Byline}}
-{{Summary_Section|This article briefly describes the CSS box model and how the elements are layed out when they are displayed on the browser}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article briefly describes the CSS box model and how the elements are laid out when they are displayed in the browser.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Box Model ==
  
 When your browser displays an element, the element takes up space. You can think of all HTML elements as boxes. All boxes have  certain dimensions and are specified by four properties: a content area of the element (e.g., a picture, a  text header, etc.) and the optional [[css/properties/padding|padding]], [[css/properties/border|border]] and [[css/properties/margin|margin]] properties.
@@ -136,7 +142,11 @@ To get the result you want, you might have to change your document's markup. The
 
 *  Refresh your browser to see the [[http://code.webplatform.org/gist/11431094| Result]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -145,6 +155,8 @@ To get the result you want, you might have to change your document's markup. The
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise questions===
 
 # Add one rule to your stylesheet, making a wide border all around the oceans in a color that reminds you of the sea.
