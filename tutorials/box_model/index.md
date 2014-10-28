@@ -81,7 +81,8 @@ You can also set the style to <code>hidden</code> which is the same as none to e
 
 To specify borders one side at a time, use the properties: [[css/properties/border-top|border-top]] ,  [[css/properties/border-right|border-right]] , [[css/properties/border-bottom|border-bottom]] ,  [[css/properties/border-left|border-left]] . You can use these to specify a border on only one side, or different borders on different sides.
 
-<p>Border sides example.</p>
+====Border sides example====
+
 This rule sets the dimensions, the background color and the top border of all div elements:
 
 <syntaxhighlight lang="css">
