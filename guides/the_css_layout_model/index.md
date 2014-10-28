@@ -311,7 +311,10 @@ The <code>overflow</code> property and its four valid values &mdash; <code>visib
 ''Figure 5: The effects of the CSS overflow property.''
  
 ==== The results of the four overflow values ====
-  <code>visible</code> '''(default)''' Contents beyond the available dimensions of an element are displayed ''without'' affecting the flow or margins of adjacent elements. Consequently, content of one element may appear to ''collide'' with the content of its neighbours. Techniques for avoiding this outcome and special cases caused by rendering issues in IE are discussed in later articles. <code>hidden</code> Any content which lies beyond the bounds of an element will be hidden from view. <code>auto</code> The dimensions of an element will be constrained just as when the <code>hidden</code> value is used, except that scrollbars will be created as needed to make overflowing content accessible to the visitor. <code>scroll</code> Both vertical and horizontal scrollbars will be incorporated into the element, even if they're not needed.  
+*<code>visible</code> '''(default)''' Contents beyond the available dimensions of an element are displayed ''without'' affecting the flow or margins of adjacent elements. Consequently, content of one element may appear to ''collide'' with the content of its neighbours. Techniques for avoiding this outcome and special cases caused by rendering issues in IE are discussed in other articles. 
+*<code>hidden</code> Any content which lies beyond the bounds of an element will be hidden from view. 
+*<code>auto</code> The dimensions of an element will be constrained just as when the <code>hidden</code> value is used, except that scrollbars will be created as needed to make overflowing content accessible to the visitor. 
+*<code>scroll</code> Both vertical and horizontal scrollbars will be incorporated into the element, even if they're not needed.  
 
 == The CSS box models: fitting everything together ==
  
@@ -417,8 +420,8 @@ When the W3C box model is in use, proportional margins and padding are computed 
  
 If that same element is assigned <code>padding: 5%</code>, its computed content width will be 400 pixels:
  
-<pre>20% + 5% + 5% + 20% = ''50%'' ''0.50'' × 800 = ''400''
-800 - ''400'' = ''400''</pre>
+<code>20% + 5% + 5% + 20% = ''50%'' ''0.50'' × 800 = ''400''
+800 - ''400'' = ''400''</code>
  
 == Working with document flow ==
  
