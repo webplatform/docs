@@ -1,7 +1,7 @@
 {{Page_Title|Exploring the CSS layout model}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs screenshots, fix multiple broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Cleanup
 }}
@@ -60,7 +60,7 @@ For many purposes it is better to specify sizes as a percentage or in ems (<code
 The border on the left of this text has its size specified in pixels. The border on the right has its size specified in ems. In your 
 sample CSS file, change the size of the font to see how the border on the right adjusts but the border on the left does not.
   
-For other devices, other length units are appropriate. There is more information about this in a later page of this tutorial. For full details of the values and units that you can use, see [[Values]] in the CSS Specification.
+For other devices, other length units are appropriate. There is more information about this in a later page of this tutorial. For full details of the values and units that you can use, see "Values" in the CSS Specification.
 
 === Text layout ===
  
@@ -206,7 +206,6 @@ If you are designing stylesheets to work in many browsers, then you also need to
  <p>Refresh your browser and make the window small. Check that the image stays in the top right even when you scroll your document</p>
 </li>
 </ol>
-
 }}
 {{Topics|CSS}}
 {{External_Attribution
