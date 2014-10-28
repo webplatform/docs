@@ -22,9 +22,9 @@ The element is in the center and displays its content. Around that, there is pad
 
 The "edges" or the perimeters of each of the previous areas can have different properties defined on them.
 
-Thus the content edge can have a certain width or height, the padding edge that surrounds the content can have a certain width or height etc. Any or all of these sizes can be zero.
+Thus the content edge can have a certain width or height, the padding edge that surrounds the content can have a certain width or height, etc. Any or all of these sizes can be zero.
 
-Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left etc.
+Each property that surrounds the content can be broken down into a top, right, bottom, or a left part for example margin-left, padding-bottom, border-left, etc.
 
 In this [http://code.webplatform.org/gist/11409432 Live Example] we see a typical declaration of a div element that we specify a width, a margin and a padding. 
  
@@ -75,7 +75,7 @@ The styles are:
 ; outset
 : opposite of inset. Border looks like its coming out of the element 
 
-See the [http://code.webplatform.org/gist/11411135 Live Example] border styles
+See the [http://code.webplatform.org/gist/11411135 Live Example] of border styles
 
 You can also set the style to <code>hidden</code> which is the same as none to explicitly remove the border, or set the color to <code>transparent</code> to make the border invisible without changing the layout.
 
@@ -94,7 +94,7 @@ This rule sets the dimensions, the background color and the top border of all di
 }     
 </syntaxhighlight>
  
-The result looks like [[http://code.webplatform.org/gist/11429299|This Live Example]]
+The result looks like this [http://code.webplatform.org/gist/11429299 Live Example].
 
 This rule makes images easier to see by giving them a mid-gray border all round:
 
@@ -102,7 +102,7 @@ This rule makes images easier to see by giving them a mid-gray border all round:
 img {border: 2px solid #ccc;}
 </syntaxhighlight>
   
-The result looks like [[http://code.webplatform.org/gist/11429444|This Live Example]]
+The result looks like this [http://code.webplatform.org/gist/11429444 Live Example].
    
 === Margins and padding ===
  
@@ -120,13 +120,13 @@ This rule marks out paragraphs with the class <code>remark</code> by giving them
   margin-left: 24px;
 }</syntaxhighlight>
  
-The result looks like [[http://code.webplatform.org/gist/11429785|This Live Example]]
+The result looks like this [http://code.webplatform.org/gist/11429785 Live Example].
 
 ==More details== 
 
 When you use margins and padding to adjust the way elements are laid out, your style rules interact with the browser's defaults in ways that can be complex. Different browsers lay elements out differently. The results might look similar until your stylesheet changes things. Sometimes this can make your stylesheet give surprising results.
 
-To get the result you want, you might have to change your document's markup. The next page of this tutorial has more information on this. For detailed information about padding, margins and borders, see the [[Box model]] reference page.
+To get the result you want, you might have to change your document's markup. Other tutorials in this series have more information on this.
   
 == Action: Adding borders ==
  
@@ -140,7 +140,7 @@ To get the result you want, you might have to change your document's markup. The
   margin-bottom: 8px;
 }</syntaxhighlight>
 
-*  Refresh your browser to see the [[http://code.webplatform.org/gist/11431094| Result]]
+*  Refresh your browser to see the [http://code.webplatform.org/gist/11431094 Result].
 }}
 {{Notes_Section
 |Usage=
