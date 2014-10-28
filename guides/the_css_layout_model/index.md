@@ -366,7 +366,7 @@ If you change <code>width</code> and <code>height</code> values, you must then b
 * Most susceptible to blowouts
 {{!}}} 
 
-Table 1: Advantages and disadvantages of the percentage, em, and pixel units in specifying layout properties.
+''Table 1: Advantages and disadvantages of the percentage, em, and pixel units in specifying layout properties.''
  
 === The box model components ===
  
@@ -564,7 +564,7 @@ As a matter of course, it's vital to know which elements correspond to which typ
 {{!}} 
 {{!}}} 
 
-Table 2: Frequently used HTML elements and their types. Only margins between two adjacent block elements of the same subtype will collapse.
+''Table 2: Frequently used HTML elements and their types. Only margins between two adjacent block elements of the same subtype will collapse.''
 
 ==== Demonstration 5 ====
  
