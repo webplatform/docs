@@ -1,12 +1,18 @@
 {{Page_Title|Making CSS easier to read}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs screenshot under "Action"
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article looks at the style and grammar of the CSS language itself, and how to make your CSS more readable using whitespace and comments.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Readable CSS ==
  
 You can add whitespace and comments to your stylesheets to make them more readable. You can also group selectors together, when the same style rules apply to elements selected in different ways.
@@ -106,9 +112,12 @@ p {color: blue;}</syntaxhighlight></li>
 <li><p>Make it more readable by rearranging it in a way that you find logical, and by adding white space and comments in whatever way you think best.</p></li>
 <li><p>Save the file and refresh your browser's display, to make sure that your changes do not affect how the stylesheet works.</p></li>
 
-<p class="note">Need to add a screenshot to show what it should look like.</p>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -117,6 +126,8 @@ p {color: blue;}</syntaxhighlight></li>
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise questions===
 
 Comment out part of your stylesheet, without changing anything else, to make the very first letter of your document red.
@@ -125,6 +136,7 @@ Comment out part of your stylesheet, without changing anything else, to make the
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN
+|MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
 }}
