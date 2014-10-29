@@ -1,26 +1,33 @@
 {{Page_Title|Advanced layouts with absolute and fixed positioning}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article covers absolute and fixed positioning.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Introduction ==
  
-Now it’s time to turn your attention to the second pair of <code>position</code> property values—<code>absolute</code> and <code>fixed</code>. The first pair of values—<code>static</code> and <code>relative</code>—is closely related, and we looked into those in great detail in [http://www.w3.org/wiki/CSS_static_and_relative_positioning the last article].
+Now it’s time to turn your attention to the second pair of <code>position</code> property values—<code>absolute</code> and <code>fixed</code>. The first pair of values—<code>static</code> and <code>relative</code>—is closely related, and we looked into those in great detail in [[tutorials/static_and_relative_positioning|the previous article]].
 
 Absolutely positioned elements are removed entirely from the document flow. That means they have no effect at all on their parent element or on the elements that occur after them in the source code. An absolutely positioned element will therefore overlap other content unless you take action to prevent it. Sometimes, of course, this overlap is exactly what you desire, but you should be aware of it, to make sure you are getting the layout you want!
 
 Fixed positioning is really just a specialized form of absolute positioning; elements with fixed positioning are fixed relative to the viewport/browser window rather than the containing element; even if the page is scrolled, they stay in exactly the same position inside the browser window.
  
-In this article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] I’ll give you some practical examples of using both <code>absolute</code> and <code>fixed</code> positioning, look at some browser support quirks, and explore the concept of z-index.
+In this article we’ll see some practical examples of using both <code>absolute</code> and <code>fixed</code> positioning, look at some browser support quirks, and explore the concept of z-index.
  
-Before I talk about all this though, I’ll cover an essential prerequisite concept—containing blocks.
+Before all that, though, let's cover an essential prerequisite concept—containing blocks.
 
 == Containing blocks ==
  
-An essential concept when it comes to absolute positioning is the containing block: the block box that the position and dimensions of the absolutely positioned box are relative to. For static boxes and relatively positioned boxes the containing block is the nearest block-level ancestor—the parent element in other words. For absolutely positioned elements however it’s a little more complicated. In this case the containing block is the nearest ''positioned'' ancestor. By “positioned” I mean an element whose <code>position</code> property is set to <code>relative</code>, <code>absolute</code> or <code>fixed</code>—in other words, anything except normal static elements.
+An essential concept when it comes to absolute positioning is the containing block: the block box that the position and dimensions of the absolutely positioned box are relative to. For static boxes and relatively positioned boxes the containing block is the nearest block-level ancestor—the parent element in other words. For absolutely positioned elements however it’s a little more complicated. In this case the containing block is the nearest ''positioned'' ancestor. By “positioned” we mean an element whose <code>position</code> property is set to <code>relative</code>, <code>absolute</code> or <code>fixed</code>—in other words, anything except normal static elements.
  
 So, by setting <code>position:relative</code> for an element you make it the containing block for any absolutely positioned descendant (child elements), whether they appear immediately below the relatively positioned element in the hierarchy, or further down the hierarchy.
  
@@ -217,7 +224,7 @@ It’s natural to regard a web page as two-dimensional. Technology hasn’t evol
  
 The two main axes in a web page are the horizontal X axis and the vertical Y axis. The origin of this co-ordinate system is in the upper left-hand corner of the viewport, ie where both the X and Y values are 0. But there is also a Z axis, which we can imagine as running perpendicular to the monitor’s surface (or to the paper, when printing). Higher Z values indicate a position “in front of” lower Z values. Z values can also be negative, which indicate a position “behind” some point of reference (I’ll explain this point of reference in a minute).
  
-Before we continue, I should warn you that this is one of the most complicated topics within CSS, so don’t get disheartened if you don't understand it on your first read.
+Before we continue, be warned that this is one of the most complicated topics within CSS, so don’t get disheartened if you don't understand it on your first read.
  
 Positioned elements (including relatively positioned elements) are rendered within something known as a stacking context. Elements within a stacking context have the same point of reference along the Z axis. I’ll explain more about this below. You can change the Z position (also called the stack level) of a positioned element using the <code>z-index</code> property. The value can be an integer number (which may be negative) or one of the keywords <code>auto</code> or <code>inherit</code>. The default value is <code>auto</code>, which means the element has the same stack level as its parent.
  
@@ -409,7 +416,9 @@ Confused yet? The next experiment should make things clearer.
 
 [[Image:stacking.png|The blue box is at the bottom, followed by the cyan, gray and yellow boxes]]
 
-Figure 1: Illustration of different stacking contexts. The elements appearing inside "2" will always appear in front of all of the elements inside "1". Then within each stacking context, elements with a higher z-index number appear in front of elements with a small z-index number. If two elements have the same z-index number, the one appearing later in the markup will appear in front.
+''Figure 1: Illustration of different stacking contexts.'' 
+
+The elements appearing inside "2" will always appear in front of all of the elements inside "1". Then within each stacking context, elements with a higher z-index number appear in front of elements with a small z-index number. If two elements have the same z-index number, the one appearing later in the markup will appear in front.
  
 This part was probably quite confusing, especially if you’re new to CSS. The point is that you need to know your stacking contexts if you’re trying to change the stack levels of different elements. If an element belongs to a local stacking context you can only change its position along the Z axis within that local context. An element in one local stacking context cannot slide in between two elements in another local stacking context.
  
@@ -457,7 +466,11 @@ Elements with fixed positioning are fixed with respect to the viewport—the vie
 
 All positioned elements are rendered at a certain stack level within a stacking context. You can change the stack level of a positioned element using the <code>z-index</code> property. When <code>z-index</code> is specified as an integer value, the element establishes a local stacking context for its descendants.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -466,6 +479,8 @@ All positioned elements are rendered at a certain stack level within a stacking 
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections==== Exercise questions ===
  
 * Undo the changes from the fixed positioning example and then change the stacking order between the four absolutely positioned squares so that the gray square is at the back, followed by the blue, yellow and cyan squares in that order. (Tip: remove all <code>z-index</code> declarations and start over.)
