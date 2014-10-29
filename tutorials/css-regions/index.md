@@ -1,11 +1,13 @@
 {{Page_Title|Using CSS Regions to flow content through a layout}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
 |Name=Mike Sierra
+|URL=
+|Published=
 }}
 {{Summary_Section|The CSS Regions feature provides a way to implement complex
 magazine-style designs in which content flows through freely
@@ -20,6 +22,8 @@ for the results, using one of the supporting browsers listed at the
 end of the article.
 }}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content===Arranging a layout==
 
 Before you flow text through a layout, you need to set up a layout.
@@ -106,7 +110,7 @@ applied to presentational elements.
 While defining regions dramatically changes how content appears in the
 document, it is implemented entirely as CSS, and does not affect the
 underlying content of DOM elements.  In the example above, the
-[[dom/properties/innerdom/innerHTML|'''innerHTML''']] of the first
+[[/dom/HTMLElement/innerHTML|'''innerHTML''']] of the first
 '''div''' is still the ''Region #1'' placeholder text.
 
 Regions may be positioned arbitrarily around the screen, but content
@@ -438,11 +442,16 @@ around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
 flows.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=No
@@ -465,6 +474,7 @@ flows.
 |Safari_prefixed_version=534
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=No
@@ -509,11 +519,12 @@ flows.
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Regions
+|Manual_links=
 |External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
 * Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
 }}
 {{Topics|CSS, CSS-Regions}}
 {{External_Attribution
