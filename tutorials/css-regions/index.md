@@ -110,7 +110,7 @@ applied to presentational elements.
 While defining regions dramatically changes how content appears in the
 document, it is implemented entirely as CSS, and does not affect the
 underlying content of DOM elements.  In the example above, the
-[[/dom/HTMLElement/innerHTML|'''innerHTML''']] of the first
+[[dom/HTMLElement/innerHTML|'''innerHTML''']] of the first
 '''div''' is still the ''Region #1'' placeholder text.
 
 Regions may be positioned arbitrarily around the screen, but content
@@ -172,7 +172,7 @@ headings do not appear by themselves at the bottom of a region:
  }
 
 Note that this sample layout mimics the appearance of print-style
-pages, but does not rely on any [[paged media]] features, so in this
+pages, but does not rely on any paged media features, so in this
 case you cannot use the various break properties to force content
 onto a new page rather than a new region.
 
@@ -436,7 +436,7 @@ the more you want to set up rules to automate layout from various
 content sources, the more you should familiarize yourself with CSS3's
 [[tutorials/flexbox|flexible box properties]], which allow you to
 position layout elements fairly independently of how they are ordered
-within the DOM. Support for [[tutorials/exclusions|CSS Exclusions]]
+within the DOM. Support for CSS Exclusions
 allows control over how content within some layout elements flows
 around others. Also familiarize yourself with the [[apis/css-regions|API
 interfaces]] that allow JavaScript applications to control how content
