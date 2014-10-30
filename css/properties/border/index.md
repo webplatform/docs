@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=Add specification details and links.
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
