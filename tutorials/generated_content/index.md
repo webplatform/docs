@@ -1,7 +1,7 @@
 {{Page_Title|Generating content with CSS}}
 {{Flags
-|State=In Progress
-|Editorial notes=Fix multiple broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -74,7 +74,8 @@ The following element rule sets the background of a specific element, using a UR
    
 ====More details====
  
-For information about individual properties affecting backgrounds, and about other options when you specify background images, see the {{ cssxref("background") }} reference page.
+For information about individual properties affecting backgrounds, and about other options when you specify background images, 
+see the '''background''' reference page.
   
 == Action: Adding a background image ==
  
