@@ -47,14 +47,11 @@ This rule adds the text Reference: before every element with the class <code>ref
 }</syntaxhighlight>
    
 ==== More details==== 
-The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see 
-[http://www.w3.org/TR/CSS21/syndata.html#q23|4.4 CSS style sheet representation]
+The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see [http://www.w3.org/TR/CSS21/syndata.html#q23|4.4 CSS style sheet representation]
 in the CSS Specification.
 
-Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \265B is the chess symbol for a black queen. For details, see 
-[http://www.w3.org/TR/CSS21/syndata.html#q24|Referring to characters not represented in a character encoding] 
-and also 
-[http://www.w3.org/TR/CSS21/syndata.html#q6|Characters and case] 
+Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \265B is the chess symbol for a black queen. For details, see [http://www.w3.org/TR/CSS21/syndata.html#q24|Referring to characters not represented in a character encoding] 
+and also [http://www.w3.org/TR/CSS21/syndata.html#q6|Characters and case] 
 in the CSS Specification.
   
 === Generated images===
