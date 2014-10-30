@@ -2,7 +2,7 @@
 {{Flags
 |State=In Progress
 |Editorial notes=Add example, description, specifications, compatibility.
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -75,9 +75,27 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=Visual Effects
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -85,13 +103,4 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Visual Effects
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|HTML5Rocks_link=
 }}
