@@ -1,11 +1,13 @@
 {{Page_Title|Dynamic visual effects with CSS3 transitions}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
 |Name=Mike Sierra
+|URL=
+|Published=
 }}
 {{Summary_Section|CSS transitions offer the easiest way to animate an
 interface.  CSS is used everywhere to control how web pages appear,
@@ -14,6 +16,8 @@ abruptly.  Adding transition properties allows most of those changes
 to occur gradually, for a more vibrant, fluid interface.
 }}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=This tutorial introduces CSS's various transition properties and shows
 you how to control how smoothly transitions execute. It shows you how
 to create sequences of more than one transition, but increasingly
@@ -187,9 +191,11 @@ property's '''block''' and '''none''' values, or use
 '''left''' and '''right''' justification.
 
 '''Note:''' Generated content can be transitioned, but only by
-separately styling
+separately styling the
 [[css/selectors/pseudo-elements/::before|'''::before''']] and
 [[css/selectors/pseudo-elements/::after|'''::after''']] selectors.
+
+[https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before test link]
 
 ==Sequential transitions==
 
@@ -462,11 +468,16 @@ Unlike [[css/properties/transform|'''transform''']] functions,
 declared in each style sheet in the exact same order if they are to
 transition.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=No
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
@@ -489,6 +500,7 @@ transition.
 |Safari_prefixed_version=3.1
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=Yes
@@ -498,6 +510,7 @@ transition.
 |Blackberry_prefixed_supported=Unknown
 |Blackberry_prefixed_version=
 |Chrome_mobile_supported=Yes
+|Chrome_mobile_version=
 |Chrome_mobile_prefixed_supported=Unknown
 |Chrome_mobile_prefixed_version=
 |Firefox_mobile_supported=Yes
@@ -509,6 +522,7 @@ transition.
 |IE_mobile_prefixed_supported=Unknown
 |IE_mobile_prefixed_version=
 |Opera_mobile_supported=Yes
+|Opera_mobile_version=
 |Opera_mobile_prefixed_supported=Yes
 |Opera_mobile_prefixed_version=10.0
 |Opera_mini_supported=Unknown
@@ -523,8 +537,9 @@ transition.
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transitions
+|Manual_links=
 |External_links=* [http://www.w3.org/TR/css3-transitions/ CSS Transitions: W3C Working Draft]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
