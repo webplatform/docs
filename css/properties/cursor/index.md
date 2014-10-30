@@ -2,7 +2,7 @@
 {{Flags
 |State=In Progress
 |Editorial notes=Add example, description, specifications, compatibility.
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
