@@ -146,7 +146,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultsSelected]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/border|border]]</code>
