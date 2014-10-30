@@ -4,9 +4,15 @@
 |Editorial notes=Fix multiple broken links
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article describes generated content — a way in which you can use CSS to add content when a document is displayed.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Content ==
  
 One of the important advantages of CSS is that it helps you to separate a document's style from its content. Yet there are situations where it makes sense to specify certain content as part of the stylesheet, not as part of the document. Content specified in a stylesheet can consist of text or images. You specify content in your stylesheet when the content is closely linked to the document's structure.
@@ -22,7 +28,13 @@ Content specified in a stylesheet does not become part of the DOM.
   
 === Text content ===
  
-CSS can insert text content before or after an element. To specify this, make a rule and add {{ cssxref(":before") }} or {{ cssxref(":after") }} to the selector. In the declaration, specify the {{ cssxref("content") }} property with the text content as its value.
+CSS can insert text content before or after an element. To specify this, make a rule and add 
+[https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before ::before]
+or 
+[https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after ::after]
+to the selector. In the declaration, specify the 
+[[css/properties/content|content]] 
+property with the text content as its value.
 
 ====Generated text example==== 
 
@@ -35,13 +47,19 @@ This rule adds the text Reference: before every element with the class <code>ref
 }</syntaxhighlight>
    
 ==== More details==== 
-The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see [[4.4 CSS style sheet representation]] in the CSS Specification.
+The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see 
+[http://www.w3.org/TR/CSS21/syndata.html#q23|4.4 CSS style sheet representation]
+in the CSS Specification.
 
-Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \265B is the chess symbol for a black queen ♛. For details, see [[Referring to characters not represented in a character encoding]] and also [[Characters and case]] in the CSS Specification.
+Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \265B is the chess symbol for a black queen. For details, see 
+[http://www.w3.org/TR/CSS21/syndata.html#q24|Referring to characters not represented in a character encoding] 
+and also 
+[http://www.w3.org/TR/CSS21/syndata.html#q6|Characters and case] 
+in the CSS Specification.
   
 === Generated images===
  
-To add an image before or after an element, you can specify the URL of an image file in the value of the {{ cssxref("content") }} property.
+To add an image before or after an element, you can specify the URL of an image file in the value of the '''content''' property.
 
 ====Generated image example====
 
@@ -49,7 +67,9 @@ This rule adds a space and an icon after every link that has the class <code>glo
  
 <syntaxhighlight lang="css">a.glossary:after {content: " " url("../images/glossary-icon.gif");}</syntaxhighlight>
   
-To add an image as an element's background, specify the URL of an image file in the value of the {{ cssxref("background") }} property. This is a shorthand property that specifies the background color, the image, how the image repeats, and some other details.
+To add an image as an element's background, specify the URL of an image file in the value of the 
+[[css/properties/background|background]] 
+property. This is a shorthand property that specifies the background color, the image, how the image repeats, and some other details.
   
 The following element rule sets the background of a specific element, using a URL to specify an image file. The selector specifies the element's id. The value <code>no-repeat</code> makes the image appear only once:
  
@@ -63,7 +83,7 @@ For information about individual properties affecting backgrounds, and about oth
  
 This image is a white square with a blue line at the bottom:
      
-[[Image:=Blue-rule.png|Image:Blue-rule.png]]
+[[Image:Blue-rule.png]]
 
 <ol> 
 <li><p>Download the image file into the same directory as your CSS file. (For example, right-click it to get a context menu, then choose Save Image As and specify the directory that you are using for this tutorial.)</p></li>
@@ -75,9 +95,14 @@ This image is a white square with a blue line at the bottom:
 
 <p>The value <code>repeat</code> is the default, so it does not need to be specified. The image repeats horizontally and vertically, giving an appearance like lined writing paper:</p>
 
-[[Image:=Blue-rule-ground.png|Image:Blue-rule-ground.png]]     '''C'''ascading '''S'''tyle '''S'''heets     '''C'''ascading '''S'''tyle '''S'''heets
+[[Image:Blue-rule-ground.png]]
+
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -86,17 +111,19 @@ This image is a white square with a blue line at the bottom:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Exercise question===
 
 <ol> 
 <li><p>Download this image:</p>
 
-[[Image:=Yellow-pin.png|Image:Yellow-pin.png]] 
+[[Image:Yellow-pin.png]] 
 </li>
 <li>
 <p>Add a one rule to your stylesheet so that it displays the image at the start of each line:</p>
   
-[[Image:=Blue-rule-ground.png|Image:Blue-rule-ground.png]]
+[[Image:Blue-rule-ground.png]]
 </li>
 </ol>
 }}
