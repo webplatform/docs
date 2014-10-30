@@ -174,7 +174,7 @@ svg {
   
 </li>
 <li>
-<p>Open <code>doc8.svg</code> in your SVG-enabled browser. Put your mouse pointer over the graphic and move it about to see the effect.</p>
+<p>Open <code>doc8.svg</code> in your SVG-enabled browser. Put your mouse pointer over the graphic and move it about the inner and outer petals to see the effect.</p>
 </li>
 </ol>
 
@@ -184,11 +184,11 @@ svg {
 
 [[Image:svgflower2.png]]
 
-''Figure 2. The SVG flower with mouseover on the outer petals.''
+''Figure 2. The SVG flower with mouseover on an outer petal.''
 
 [[Image:svgflower3.png]]
 
-''Figure 3. The SVG flower withe mouseover on the inner petals.''
+''Figure 3. The SVG flower with mouseover on an inner petal.''
 
 Notes:
  
