@@ -1,10 +1,13 @@
 {{Page_Title|Making things move with CSS3 animations}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
 |Name=Mike Sierra
+|URL=
+|Published=
 }}
 {{Summary_Section|CSS animations allow you to build complex animated
 sequences. Like [[tutorials/css_transitions|transitions]], they
@@ -15,6 +18,8 @@ execute freely, and offer the best way to build complex effects into
 an interface.
 }}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=To get the most from this tutorial, you should already be familiar
 with [[tutorials/css_transitions|CSS transitions]]. Since they work
 similarly, the term ''CSS animations'' often serves as a shorthand to
@@ -527,7 +532,11 @@ See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
 [[css/cssom/CSSKeyframeRule|'''CSSKeyframeRule''']] and
 [[css/cssom/CSSRule|'''CSSRule''']] for details.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -536,8 +545,9 @@ See [[css/cssom/CSSKeyframesRule|'''CSSKeyframesRule''']],
 |Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation
+|Manual_links=
 |External_links=* [http://www.w3.org/TR/css3-animations/ CSS Animations: W3C Working Draft]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
