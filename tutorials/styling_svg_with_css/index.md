@@ -29,7 +29,7 @@ for an overview of SVG support, or the compatibility info in the
 [http://www.w3.org/wiki/HTML/Elements/svg SVG element reference] 
 for support of specific items.
 
- You can add SVG support to other versions by installing a plugin such as the one provided by [[Adobe]].
+ You can add SVG support to other versions by installing a plugin such as the one provided by [http://www.adobe.com Adobe].
 
 === Action: An SVG demonstration ===
 
