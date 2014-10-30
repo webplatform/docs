@@ -174,7 +174,7 @@ svg {
   
 </li>
 <li>
-<p>Open the document in your SVG-enabled browser. Move your mouse pointer over the graphic.</p>
+<p>Open <code>doc8.svg</code> in your SVG-enabled browser. Put your mouse pointer over the graphic and move it about to see the effect.</p>
 </li>
 </ol>
 
