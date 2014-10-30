@@ -1,25 +1,31 @@
 {{Page_Title|Styling XML data with CSS}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs screenshot/dabblet, fix broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article shows how you can use CSS to style XML data.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content==== Information: XML data ===
  
-''[[XML]]'' (eXtensible Markup Language) is a general-purpose language for any kind of structured data.
+'''XML''' (eXtensible Markup Language) is a general-purpose language for any kind of structured data.
 
 By default, your Mozilla browser displays XML in a format very similar to the original data in the XML file. You see the actual tags that define the data's structure.
  
-By linking a CSS stylesheet with the XML document, you can define other ways to display it. To do this, your stylesheet uses rules that map tags in the XML document to the display types used by HTML.
+But by linking a CSS stylesheet with the XML document, you can define other ways to display it. To do this, your stylesheet uses rules that map tags in the XML document to the display types used by HTML.
 
-Example
+====Example====
 
-Data in an XML document uses <code>&lt;INFO&gt;</code> tags. You want the document's INFO elements to be displayed like HTML paragraphs.
+For example, you have data in an XML document uses <code>&lt;INFO&gt;</code> tags. You want the document's INFO elements to be displayed like HTML paragraphs.
         
-In the document's stylesheet, you specify how INFO elements are to be displayed:
+In the document's stylesheet, you specify how the <code>&lt;INFO&gt;</code> elements are to be displayed:
 
 <pre class="lang-css">INFO {
   display: block;
@@ -39,9 +45,7 @@ The most common values for the <code>display</code> property are:
 
 Add your own style rules that specify the font, spacing and other details in the same way as for HTML. Other values of <code>display</code> display the element like a list item, or like a component of a table.
         
-For the full list of display types, see [[The display property]] in the CSS Specification. Using CSS alone, the structure of the display must be the same as the structure of the document. Other technologies can modify the structure of the display—for example, XBL can add content, and JavaScript can modify the DOM.
- 
-For more information about XML in Mozilla, see the [[XML]] page in this wiki.
+For the full list of display types, see [[css/properties/display|the display property]]. Using CSS alone, the structure of the display must be the same as the structure of the document. Other technologies can modify the structure of the display—for example, XBL can add content, and JavaScript can modify the DOM.
 
 === Action: An XML demonstration ===
 
@@ -150,15 +154,20 @@ depth:after {
 }</pre>
 </li>
 <li>
-<p>Open the document in your browser:</p>
-<p class="note">Note: add dabblet or screenshot to show result</p>
+<p>Open the document in your browser:</p></li>
+
+[[image:xmlcssdemo.png]]
  
 Notes about this demonstration:
  
 * The superscript 2 (in "million km²") a Unicode character, coded as <code>\B2</code> in the CSS file.
 * The heading, "Oceans", has a negative top margin, moving it up so it is displayed on top of the border.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -167,6 +176,8 @@ Notes about this demonstration:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections===Exercise question==
 
 Change the stylesheet so that it displays the document as a table.
