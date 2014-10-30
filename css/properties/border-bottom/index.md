@@ -31,6 +31,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/**
  * border-bottom example
 **/
@@ -121,10 +122,11 @@ a:visited{text-decoration:none;color:green;}
 {{Notes_Section
 |Usage=* It is usual to use the <code>border-bottom</code> property to set the default state of a box's bottom border, and then override individual values using more specific propeties, such as <code>border-bottom-width</code> or <code>border-bottom-color</code>.
 * <code>border-bottom</code> can be used as a divider between vertically laid out items, such as a vertical navigation menu, or table cells.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
-{{Related Specification
+|Specifications={{Related Specification
 |Name=CSS Level 3
 |URL=http://www.w3.org/TR/css3-background/#borders
 |Status=Candidate Recommendation
@@ -140,6 +142,28 @@ a:visited{text-decoration:none;color:green;}
 |Status=Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Border
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultsSelected]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>Reference</code>
+*<code>[[css/properties/border|border]]</code>
+*<code>Other Resources</code>
+*<code>CSS Enhancements in Internet Explorer 6</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -198,24 +222,4 @@ a:visited{text-decoration:none;color:green;}
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/border|border]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
