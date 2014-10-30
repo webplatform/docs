@@ -172,6 +172,8 @@ svg {
   stroke: green;
 }</pre>
   
+</li>
+<li>
 <p>Open the document in your SVG-enabled browser. Move your mouse pointer over the graphic.</p>
 </li>
 </ol>
