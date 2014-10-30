@@ -4,9 +4,15 @@
 |Editorial notes=Needs screenshot/dabblet, fix broken links
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article covers the basics of styling SVG content with CSS.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content==== Information: SVG ===
  
 ''SVG'' (Scalable Vector Graphics) is an XML-based language for creating graphics. It can be used for static images, and also for animations and user interfaces.
@@ -17,7 +23,11 @@ Also, stylesheets that you use with other document markup languages can specify 
 
 More details
 
-At the time of writing (mid 2011), most modern browsers have basic support for SVG, including Internet Explorer 9 or later. Some SVG features are supported only partially or not at all on some browsers. See the [[SVG tables on caniuse.com]] for an overview of SVG support, or the compatibility tables in the [[SVG element reference]] for support of specific items.
+At the time of writing (mid 2011), most modern browsers have basic support for SVG, including Internet Explorer 9 or later. Some SVG features are supported only partially or not at all on some browsers. See the 
+[http://caniuse.com/#search=svg SVG tables on caniuse.com] 
+for an overview of SVG support, or the compatibility info in the 
+[http://www.w3.org/wiki/HTML/Elements/svg SVG element reference] 
+for support of specific items.
 
  You can add SVG support to other versions by installing a plugin such as the one provided by [[Adobe]].
 
@@ -82,7 +92,7 @@ At the time of writing (mid 2011), most modern browsers have basic support for S
 &lt;/svg&gt;</pre>
 </li>
 <li>
-<p>Make a new CSS file, <code>style8.css</code>. Copy and paste the content from here, making sure that you scroll to get all of it:
+<p>Make a new CSS file, <code>style8.css</code>. Copy and paste the content from here, making sure that you scroll to get all of it:</p>
   
 <pre>/*** SVG demonstration ***/
 
@@ -173,7 +183,11 @@ Notes:
 * The SVG document links the styesheet in the usual way.
 * SVG has its own CSS properties and values. Some of them are similar to CSS properties for HTML.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -182,6 +196,8 @@ Notes:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections===Exercise question==
 
 Change the stylesheet so that the inner petals all turn pink when the mouse pointer is over any one of them, without changing the way the outer petals work.
