@@ -152,7 +152,7 @@ The color value can also be an extended keyword, such as aliceblue or lavenderbl
 *<code>[[css/properties/border-color|border-color]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultsSelected]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/border|border]]</code>
