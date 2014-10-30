@@ -73,7 +73,14 @@ You can supply multiple <code>url()</code> functions separated by commas (<code>
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=To make the cursor appear like it's busy
+|Code=.busy  {
+    cursor: wait;
+}
+|LiveURL=https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5
+}}
 }}
 {{Notes_Section
 |Usage=
