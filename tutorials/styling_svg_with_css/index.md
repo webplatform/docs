@@ -1,7 +1,7 @@
 {{Page_Title|Styling SVG with CSS}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs screenshot/dabblet, fix broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Byline
@@ -178,7 +178,17 @@ svg {
 </li>
 </ol>
 
-<p class="note">Note: add dabblet or screenshots to demonstrate this?</p> 
+[[Image:svgflower1.png]]
+
+''Figure 1. The SVG flower before mouseover.''
+
+[[Image:svgflower2.png]]
+
+''Figure 2. The SVG flower with mouseover on the outer petals.''
+
+[[Image:svgflower3.png]]
+
+''Figure 3. The SVG flower withe mouseover on the inner petals.''
 
 Notes:
  
