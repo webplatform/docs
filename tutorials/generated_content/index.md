@@ -94,7 +94,6 @@ This image is a white square with a blue line at the bottom:
 <p>The value <code>repeat</code> is the default, so it does not need to be specified. The image repeats horizontally and vertically, giving an appearance like lined writing paper:</p>
 
 [[Image:Blue-rule-ground.png]]
-
 }}
 {{Notes_Section
 |Usage=
@@ -121,7 +120,7 @@ This image is a white square with a blue line at the bottom:
 <li>
 <p>Add a one rule to your stylesheet so that it displays the image at the start of each line:</p>
   
-[[Image:Blue-rule-ground.png]]
+[[Image:Blue-rule-ground-2.png]]
 </li>
 </ol>
 }}
