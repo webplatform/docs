@@ -192,10 +192,8 @@ property's '''block''' and '''none''' values, or use
 
 '''Note:''' Generated content can be transitioned, but only by
 separately styling the
-[[css/selectors/pseudo-elements/::before|'''::before''']] and
-[[css/selectors/pseudo-elements/::after|'''::after''']] selectors.
-
-[https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before test link]
+[[css/selectors/pseudo-elements/::before| '''::before]] and
+[[css/selectors/pseudo-elements/::after| '''::after''']] selectors.
 
 ==Sequential transitions==
 
