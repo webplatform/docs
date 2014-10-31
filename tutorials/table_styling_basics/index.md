@@ -1,17 +1,23 @@
 {{Page_Title|Table styling basics}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs examples review, fix multiple broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article describes more advanced selectors, and some specific ways that you can style tables.}}
 {{Tutorial
+|Next_page=
+|Prev_page=
 |Content=== Information: Tables ==
  
-A table is an arrangement of information in a rectangular grid. Some tables can be complex, and for complex tables different browsers can give different results. When you design your document, use a table to express the [[relationships]] between the pieces of information. Then it does not matter if different browsers present the information in slightly different ways, because the meaning is still clear.
+A table is an arrangement of information in a rectangular grid. Some tables can be complex, and for complex tables different browsers can give different results. When you design your document, use a table to express the relationships among the pieces of information. Then it does not matter if different browsers present the information in slightly different ways, because the meaning is still clear.
  
-Do not use tables in unusual ways to produce particular visual layouts. The techniques on the previous page of this tutorial ('''[[Layout]]''') are better for that purpose.
+Do not use tables in unusual ways to produce particular visual layouts.
 
 === Table structure ===
  
@@ -21,15 +27,13 @@ In some tables, the rows might be grouped. A special group of rows at the start 
 
 ====Table example====
  
-The table of [[Selectors based on relationships]] in the [[Selectors]] page has ten cells in five rows. The first row is the header. The other four rows are the body. There is no footer. It has two columns.
-
 This tutorial only covers simple tables, where the results are fairly predictable. In a simple table, every cell occupies only one row and column. You can use CSS for complex tables where cells ''span'' (extend across) more than one row or column, but tables like that are beyond the scope of this basic tutorial.
 
 === Borders ===
  
 Cells have no margins.
 
-Cells do have borders and padding. By default, the borders are separated by the value of the table's <code>[[border-spacing]]</code> property. You can also remove the spacing completely by setting the table's <code>[[border-collapse]]</code> property to <code>collapse</code>.
+Cells do have borders and padding. By default, the borders are separated by the value of the table's <code>[[css/properties/border-spacing|border-spacing]]</code> property. You can also remove the spacing completely by setting the table's <code>[[css/properties/border-collapse|border-collapse]]</code> property to <code>collapse</code>.
   
 Table border example 
 
@@ -72,7 +76,7 @@ The table on the left has 0.5 em border spacing. The table in the center has zer
  
 A <code>&lt;caption&gt;</code> element is a label that applies to the entire table. By default, it is displayed at the top of the table.
  
-To move it to the bottom, set its <code>[[caption-side]]</code> property to <code>bottom</code>. The property is inherited, so alternatively you can set it on the table or another ancestor element.
+To move it to the bottom, set its <code>[[css/properties/caption-side|caption-side]]</code> property to <code>bottom</code>. The property is inherited, so alternatively you can set it on the table or another ancestor element.
  
 To style the text of the caption, use any of the usual properties for text.
  
@@ -107,7 +111,7 @@ This table has a caption at the bottom
 
 === Empty cells ===
  
-You can display empty cells (that is, their borders and backgrounds) by specifying <code>[[empty-cells]]</code>: show; for the table element. You can hide them by specifying <code>empty-cells: hide;</code>. Then, if a cell's parent element has a background, it shows through the empty cell.
+You can display empty cells (that is, their borders and backgrounds) by specifying <code>[[css/properties/empty-cells|empty-cells]]</code>: show; for the table element. You can hide them by specifying <code>empty-cells: hide;</code>. Then, if a cell's parent element has a background, it shows through the empty cell.
   
 Empty cells example 
 
@@ -350,7 +354,11 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 </li>
 </ol>
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -359,7 +367,8 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 |Notes_rows=
 }}
 {{See_Also_Section
-|External_links=For detailed information about tables, see [[Tables]] in the CSS Specification. The information there goes further than this tutorial, but it does not cover differences between browsers that can affect complex tables.
+|Manual_links=
+|External_links=For detailed information about tables, see [http://www.w3.org/TR/CSS21/tables.html Tables in the CSS Specification]. The information there goes further than this tutorial, but it does not cover differences between browsers that can affect complex tables.
 |Manual_sections====Exercise question=== 
 
 Change the stylesheet to make the table look like this:
