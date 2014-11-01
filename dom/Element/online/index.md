@@ -15,11 +15,14 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example sets an event handler that responds to both '''ononline''' and [[dom/Element/offline|'''onoffline''']] events using the '''type''' property of the '''event''' object.
 |Code=function reportConnectionEvent(e)
 {
@@ -39,9 +42,11 @@ window.onload {{=}} function() {
     document.body.ononline {{=}} reportConnectionEvent;
     document.body.onoffline {{=}} reportConnectionEvent;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If Asynchronous JavaScript and XML (AJAX) Connection Services are disabled, this event is not raised. (These services are enabled by default.)
 To invoke this event, do one of the following:
@@ -64,10 +69,12 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>body</code>
+*<code>[[html/elements/body|body]]</code>
 *<code>frameSet</code>
-*<code>window</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 }}
 {{Topics}}
