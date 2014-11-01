@@ -15,6 +15,8 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
@@ -22,6 +24,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 When the [[dom/HTMLMediaElement/load|'''load''']] method is called, the media element stops any previously running media and resets the element. Playback restarts immediately if the [[dom/HTMLMediaElement/autoplay|'''autoplay''']] attribute is specified.
 To invoke this event, do the following:
@@ -45,14 +48,16 @@ To invoke this event, do the following:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
+*<code>[[html/elements/audio|audioElement]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>[[dom/HTMLMediaElement/load|load]]</code>
 }}
