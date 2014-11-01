@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs summary, example, spec reference, standardization status 
+|Editorial notes=Needs summary, example, spec reference, standardization status
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -33,19 +33,12 @@ Windows Internet Explorer removes insignificant white space while it parses the 
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/page|page]]</code>
-*<code>style</code>
+*<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -54,4 +47,11 @@ Windows Internet Explorer removes insignificant white space while it parses the 
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
