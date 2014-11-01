@@ -15,19 +15,24 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example implements buttons that change the [[dom/HTMLMediaElement/volume|'''volume''']] of a video element (v1) by increments of .2 and turn mute on and off. These actions cause the '''onvolumechange''' event to be raised.
 |Code=&lt;button onclick{{=}}"document.getElementById('v1').volume +{{=}} 0.2"&gt;Volume Up&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').volume -{{=}} 0.2"&gt;Volume Down&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').muted {{=}} true;"&gt;Mute&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').muted {{=}} false"&gt;Unmute&lt;/button&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The [[dom/HTMLMediaElement/volume|'''volume''']] property of the element represents the current volume level.
 The default playback volume is <code>1</code> (100 percent). The playback volume cannot be increased beyond 100 percent.
@@ -53,14 +58,16 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
+*<code>[[html/elements/audio|audioElement]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>[[dom/HTMLMediaElement/volume|volume]]</code>
 *<code>[[dom/HTMLMediaElement/muted|muted]]</code>
