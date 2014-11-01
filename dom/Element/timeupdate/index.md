@@ -15,11 +15,14 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example sets the total duration value when the video is loaded and updates the current playback position as the video plays.
 |Code=function timeUpdate()
 {
@@ -32,9 +35,11 @@ function durationChange()
 &lt;video id{{=}}"v1" controls{{=}}"true" autoplay{{=}}"1" src{{=}}"video.aac"
     ontimeupdate{{=}}"timeUpdate()" ondurationchange{{=}}"durationChange()"/&gt;
 &lt;div&gt;Time: &lt;span id{{=}}"time"&gt;0&lt;/span&gt; of &lt;span id{{=}}"duration"&gt;0&lt;/span&gt; seconds.&lt;/div&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Use the [[dom/HTMLMediaElement/currentTime|'''currentTime''']] property to retrieve the current playback position. For the total length of the audio or video clip, use [[dom/HTMLMediaElement/duration|'''duration''']].
 To invoke this event, do one of the following:
@@ -61,14 +66,16 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
+*<code>[[html/elements/audio|audioElement]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>[[dom/HTMLMediaElement/currentTime|currentTime]]</code>
 *<code>[[dom/HTMLMediaElement/duration|duration]]</code>
