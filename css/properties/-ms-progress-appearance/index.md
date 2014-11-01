@@ -12,14 +12,24 @@
 {{API_Object_Property
 |Property_applies_to=css/properties
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
+|Description=
 |Code=&lt;progress style{{=}}"-ms-progress-appearance: bar" /&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Syntax===
 <code>'''msProgressAppearance: '''bar '''{{!}}''' ring</code>
 ===Requirements===
@@ -35,20 +45,15 @@
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Visual Effects
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/progress|progress]]</code>
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 }}
@@ -59,4 +64,11 @@
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
