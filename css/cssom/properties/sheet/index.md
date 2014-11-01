@@ -36,7 +36,7 @@
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>link</code>
+*<code>[[html/elements/link|link]]</code>
 *<code>[[css/cssom/style|style]]</code>
 }}
 {{Topics|DOM}}
