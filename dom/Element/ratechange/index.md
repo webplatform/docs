@@ -15,18 +15,23 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example implements buttons that change the playback rate of a video element (v1) by a factor of 0.2. The '''Resume''' button sets the playback rate back to 1 (100 percent).
 |Code=&lt;button onclick{{=}}"document.getElementById('v1').playbackRate +{{=}} 0.2"&gt;Speed Up&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').playbackRate -{{=}} 0.2"&gt;Slow Down&lt;/button&gt;
 &lt;button onclick{{=}}"document.getElementById('v1').playbackRate {{=}} 1"&gt;Resume&lt;/button&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 This event is raised when the value of [[dom/HTMLMediaElement/playbackRate|'''playbackRate''']] changes. The playback rate can be increased to a maximum of <code>2</code> (200 percent), or decreased to <code>0</code>.
 To invoke this event, do one of the following:
@@ -50,15 +55,16 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
+*<code>[[html/elements/audio|audioElement]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>[[dom/HTMLMediaElement/playbackRate|playbackRate]]</code>
 }}
 {{Topics|API, Audio, DOM, Video}}
