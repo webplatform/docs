@@ -67,13 +67,13 @@ To invoke this event, do one of the following:
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[html/elements/audio|audioElement]]</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>[[dom/Element/loadedmetadata|loadedmetadata]]</code>
 *<code>[[dom/Element/timeupdate|timeupdate]]</code>
