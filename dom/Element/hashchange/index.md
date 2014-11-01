@@ -15,18 +15,23 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=Attaching an event handler to a new '''onhashchange''' event enables the page to detect when the hash has changed and an AJAX navigation has occurred. See Introducing AJAX Navigations for a more robust example.
 |Code=&lt;body onhashchange{{=}}"HashChangeHandler();"&gt;
 ...
 &lt;/body&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 In Asynchronous JavaScript and XML (AJAX) applications, client requests
 that do not trigger traditional page navigation
@@ -65,9 +70,11 @@ There are no standards that apply here.
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>body</code>
+*<code>[[dom/Window|Window]]</code>
+*<code>[[html/elements/body|body]]</code>
 *<code>frameSet</code>
 *<code>Introducing AJAX Navigations</code>
 }}
