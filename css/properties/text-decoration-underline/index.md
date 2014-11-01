@@ -10,10 +10,14 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=VARIANT_TRUE
 |Description=Apply the underline.
@@ -25,13 +29,17 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the '''textDecorationUnderline''' property to underline the text when the user clicks the text with the mouse.
 |Code=&lt;P onclick{{=}}"this.style.textDecorationUnderline{{=}}true;"&gt;
 Click this if you think it's important.
 &lt;/P&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Syntax===
 <code>'''textDecorationUnderline: '''VARIANT_TRUE '''{{!}}''' VARIANT_FALSE</code>
 ===Requirements===
@@ -62,6 +70,23 @@ Click this if you think it's important.
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[css/properties/text-decoration|textDecoration]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -89,19 +114,4 @@ Click this if you think it's important.
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/text-decoration|textDecoration]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
