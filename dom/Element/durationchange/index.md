@@ -2,7 +2,7 @@
 {{Flags
 |State=In Progress
 |Editorial notes=Needs summary, compat, better spec link
-|Checked_Out=Yes
+|Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
