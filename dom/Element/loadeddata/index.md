@@ -15,6 +15,8 @@
 |Bubbles=No
 |Target=dom/Element
 |Cancelable=No
+|Default_action=
+|Content=
 |Interface=dom/Element
 }}
 {{Examples_Section
@@ -22,6 +24,7 @@
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''onloadeddata''' event is raised when data for the immediate current playback position is available. However, it does not guarantee that enough data is available to successfully begin playback.
 This event occurs after [[dom/Element/loadedmetadata|'''loadedmetadata''']] and before [[dom/HTMLMediaElement/canplay|'''canplay''']].
@@ -46,14 +49,16 @@ To invoke this event, do one of the following:
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>audio</code>
-*<code>audio</code>
+*<code>[[apis/audio-video/audio|audioApi]]</code>
+*<code>[[html/elements/audio|audioElement]]</code>
 *<code>[[dom/Document|Document]]</code>
-*<code>source</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>window</code>
+*<code>[[html/elements/source|source]]</code>
+*<code>[[html/elements/video|videoElement]]</code>
+*<code>[[apis/audio-video/video|videoApi]]</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>[[dom/HTMLMediaElement/canplay|oncanplay]]</code>
 *<code>[[dom/HTMLMediaElement/canplaythrough|oncanplaythrough]]</code>
