@@ -12,10 +12,16 @@
 {{API_Object_Property
 |Property_applies_to=css/properties
 |Read_only=No
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following example shows how to create a style rule that sets the '''-ms-scrollbar-base-color''' property for a '''textArea''' element.
 |Code=&lt;HTML&gt;
   &lt;HEAD&gt;
@@ -30,6 +36,7 @@
 &lt;/HTML&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/scrollbarColor.htm
 }}{{Single Example
+|Language=
 |Description=The following style rule uses the '''-ms-scrollbar-base-color''' attribute as part of a coordinated color theme.  Earth tones are specified for all the elements defined in the style rule.
 |Code=&lt;STYLE&gt;
   BODY { scrollbar-base-color:darkolivegreen; background-color:tan }
@@ -40,6 +47,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Windows Internet Explorer 8. The '''-ms-scrollbar-base-color''' attribute is an extension to CSS, and can be used as a synonym for '''scrollbar-base-color''' in IE8 Standards mode.
 The scroll box is the square box within a scroll bar that can be moved either up and down or left and right on a track to change the position of the content on the screen. The scroll arrows, located at each end of a scroll bar, are the square buttons containing the arrows that move the content on the screen in small increments, either up and down or left and right.
@@ -53,28 +61,23 @@ There are no standards that apply here.
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Scrollbar
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>Reference</code>
-*<code>[[css/selectors/-ms-scrollbar-3d-light-color|-ms-scrollbar-3dlight-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-arrow-color|-ms-scrollbar-arrow-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-darkshadow-color|-ms-scrollbar-darkshadow-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-face-color|-ms-scrollbar-face-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-highlight-color|-ms-scrollbar-highlight-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-shadow-color|-ms-scrollbar-shadow-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-track-color|-ms-scrollbar-track-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-3d-light-color|-ms-scrollbar-3dlight-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-arrow-color|-ms-scrollbar-arrow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-darkshadow-color|-ms-scrollbar-darkshadow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-face-color|-ms-scrollbar-face-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-highlight-color|-ms-scrollbar-highlight-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-shadow-color|-ms-scrollbar-shadow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-track-color|-ms-scrollbar-track-color]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
@@ -83,4 +86,11 @@ There are no standards that apply here.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
