@@ -105,9 +105,9 @@ The ''pEvtObj'' parameter is required for the following interfaces:
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>body</code>
+*<code>[[html/elements/body|body]]</code>
 *<code>frameSet</code>
-*<code>window</code>
+*<code>[[dom/Window|Window]]</code>
 *<code>Reference</code>
 *<code>Conceptual</code>
 *<code>About the Pop-up Blocker</code>
