@@ -22,11 +22,14 @@ Returns a [[dom/HTMLElement/controlRange|'''controlRange''']] collection if suce
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example creates a [[dom/HTMLElement/controlRange|'''controlRange''']] by using the '''createControlRange''' method.
 |Code=oControlRange {{=}} document.body.createControlRange();
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Creates a selection range object for control-based selection rather than text-based selection.
 If a [[dom/HTMLElement/controlRange|'''controlRange''']] already exists, '''createControlRange''' overwrites the existing element; otherwise, it returns a pointer to the element created.
@@ -38,16 +41,11 @@ There are no standards that apply here.
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>body</code>
+*<code>[[html/elements/body|body]]</code>
 *<code>[[dom/Selection/createRange|createRange]]</code>
 }}
 {{Topics|DOM}}
@@ -57,4 +55,11 @@ There are no standards that apply here.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
