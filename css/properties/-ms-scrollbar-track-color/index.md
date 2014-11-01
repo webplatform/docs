@@ -56,17 +56,17 @@ This property applies to elements that display a scroll bar.  Cascading Style Sh
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>Reference</code>
-*<code>[[css/selectors/-ms-scrollbar-3d-light-color|-ms-scrollbar-3dlight-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-arrow-color|-ms-scrollbar-arrow-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-base-color|-ms-scrollbar-base-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-darkshadow-color|-ms-scrollbar-darkshadow-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-face-color|-ms-scrollbar-face-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-highlight-color|-ms-scrollbar-highlight-color]]</code>
-*<code>[[css/selectors/-ms-scrollbar-shadow-color|-ms-scrollbar-shadow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-3d-light-color|-ms-scrollbar-3dlight-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-arrow-color|-ms-scrollbar-arrow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-base-color|-ms-scrollbar-base-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-darkshadow-color|-ms-scrollbar-darkshadow-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-face-color|-ms-scrollbar-face-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-highlight-color|-ms-scrollbar-highlight-color]]</code>
+*<code>[[css/properties/-ms-scrollbar-shadow-color|-ms-scrollbar-shadow-color]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
