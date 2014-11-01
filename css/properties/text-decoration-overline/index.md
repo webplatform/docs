@@ -10,10 +10,14 @@
 {{API_Name}}
 {{Summary_Section}}
 {{CSS Property
+|Initial value=
 |Applies to=All elements
 |Inherited=No
 |Media=visual
+|Computed value=
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=VARIANT_TRUE
 |Description=A line is drawn over the text.
@@ -25,13 +29,17 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the '''textDecorationOverline''' property to draw a line over the text when the user moves the mouse over the text.
 |Code=&lt;P onmouseover{{=}}"this.style.textDecorationOverline{{=}}true;"&gt;
 Mouse over this text for an overline.
 &lt;/P&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes====Syntax===
 <code>'''textDecorationOverline: '''VARIANT_TRUE '''{{!}}''' VARIANT_FALSE</code>
 ===Requirements===
@@ -62,6 +70,23 @@ Mouse over this text for an overline.
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[css/properties/text-decoration|textDecoration]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -89,19 +114,4 @@ Mouse over this text for an overline.
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/text-decoration|textDecoration]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
