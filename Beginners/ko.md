@@ -66,7 +66,7 @@
 * [[tutorials/creating and modifying html/kr|HTML 변경하기]]
 * [[tutorials/manipulating css with javascript/kr|JavaScript로 CSS 다루기]]
 * [[tutorials/events in javascript/kr|JavaScript 이벤트]]
-* [[PointerEvents|mouse, touch, and pen input에 대한 Pointer 이벤트]]
+* [[PointerEvents|마우스, 터치 그리고 팬 입력에 대한 Pointer 이벤트]]
 
 === Applied techniques ===
 
