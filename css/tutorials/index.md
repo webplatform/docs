@@ -79,8 +79,8 @@
 
 ==CSS for mobile and devices==
 
-* [[tutorials/targetting css at different media|Targetting CSS at different media types]] 
-* [[tutorials/media queries|Targetting CSS with media queries]]
+* [[tutorials/targetting css at different media|Targeting CSS at different media types]] 
+* [[tutorials/media queries|Targeting CSS with media queries]]
 * [[tutorials/responsive layouts|Creating responsive layouts]]
 {{Notes_Section
 |Usage=
