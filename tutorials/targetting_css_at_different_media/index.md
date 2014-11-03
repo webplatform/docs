@@ -1,35 +1,33 @@
-{{Page_Title|Targetting CSS at different media types}}
+{{Page_Title|Targeting CSS at different media types}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs full content review, fix multiple broken links
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
 {{Summary_Section|This article focuses on using media types to target CSS at different type of media — screen, print, etc.}}
 {{Tutorial
-|Content=This is the 14th and last section of Part I of the [[CSS Getting Started]] tutorial. Many of the pages in this tutorial have focussed on the CSS properties and values that you can use to specify how to display a document. This page looks again at the purpose and structure of CSS stylesheets.
-
+|Next_page=
+|Prev_page=
+|Content=Many of the articles in this tutorial group have focused on the CSS properties and values that you can use to specify how to display a document. This page looks again at the purpose and structure of CSS stylesheets.
  
 == Information: Media ==
- 
 The purpose of CSS is to specify how documents are presented to the user. Presentation can take more than one form.
 
- 
 For example, you are probably reading this page on a display device. But you might also want to project it on a screen for a large audience, or print it. These different media can have different characteristics. CSS provides ways to present a document differently in different media.
-
  
-To specify rules that are specific to a type of media, use {{ CSSXref("@media") }} followed by the media type, followed by curly braces that enclose the rules.
-
+To specify rules that are specific to a type of media, use '''@media"''', followed by the media type, followed by curly braces that enclose the rules.
   
-    Example 
+====Example====
 A document on a web site has a navigation area to allow the user to move around the site.
-
  
-In the markup language, the navigation area's parent element has the '''id''' <code>nav-area</code>. (In {{ HTMLVersionInline(5) }}, this can be marked up with the {{ HTMLElement("nav") }} element instead of {{ HTMLElement("div") }} with an '''id''' attribute.)
+In the markup language, the navigation area's parent element has the '''id''' <code>nav-area</code>. (In HTML5, this can be marked up with the <code>nav</code> element instead of a <code>div</code> with an '''id''' attribute.)
 
- 
 When the document is printed the navigation area has no purpose, so the stylesheet removes it completely:
-
  
 <pre>
 @media print {
@@ -55,40 +53,40 @@ Some of the common media types are:
 {{!}}<code>all</code>
 {{!}}All media (the default)
 {{!}}}  
-    More details 
+
+====More details====
 There are other ways to specify the media type of a set of rules.
 
  
 The document's markup language might allow the media type to be specified when the stylesheet is linked to the document. For example, in HTML you can optionally specify the media type with a <code>media</code> attribute in the <code>LINK</code> tag.
 
  
-In CSS you can use {{ CSSXref("@import") }} at the start of a stylesheet to import another stylesheet from a URL, optionally specifying the media type.
+In CSS you can use <code>@import</code> at the start of a stylesheet to import another stylesheet from a URL, optionally specifying the media type.
 
  
 By using these techniques you can separate style rules for different media types into different files. This is sometimes a useful way to structure your stylesheets.
 
  
-For full details of media types, see [[Media]] in the CSS Specification.
+For full details of media types, see [http://www.w3.org/TR/css3-mediaqueries/ Media Queries] in the CSS Specification.
 
  
-There are more examples of the {{ cssxref("display") }} property in a later page in this tutorial: [[XML data]].
-
+There are more examples of the <code>display</code> property in a later page in this tutorial,
+[[tutorials/styling_xml_with_css|Styling XML with CSS]].
   
 === Printing ===
  
 CSS has some specific support for printing and for paged media in general.
 
  
-A {{ cssxref("@page") }} rule can set the page margins. For double-sided printing, you can specify the margins separately for <code>@page:left</code> and <code>@page:right</code>.
+A <code>@page</code> rule can set the page margins. For double-sided printing, you can specify the margins separately for <code>@page:left</code> and <code>@page:right</code>.
 
  
 For print media, you normally use appropriate length units like inches (<code>in</code>) and points (<code>pt</code> = 1/72 inch), or centimeters (<code>cm</code>) and millimeters (<code>mm</code>). It is equally appropriate to use ems (<code>em</code>) to match the font size, and percentages (<code>%</code>).
 
  
-You can control how the content of the document breaks across page boundaries, by using the {{ cssxref("page-break-before") }}, {{ cssxref("page-break-after") }} and {{ cssxref("page-break-inside") }} properties.
+You can control how the content of the document breaks across page boundaries, by using the <code>page-break-before</code>, <code>page-break-after</code> and <code>page-break-inside</code> properties.
 
-  
-    Example 
+====Example====
 This rule sets the page margins to one inch on all four sides:
 
  
@@ -105,8 +103,10 @@ h1 {page-break-before: always;}
 
 </pre>
    
-    More details 
-For full details of CSS support for paged media, see [[Paged media]] in the CSS Specification.
+====More details====
+For full details of CSS support for paged media, see 
+[http://www.w3.org/TR/css3-page/ Paged Media] 
+in the CSS Specification.
 
  
 Like other features of CSS, printing depends on your browser and its settings. For example, your Mozilla browser supplies default margins, headers and footers when it prints. When other users print your document, you probably cannot predict the browser and the settings that they will use, so you probably cannot control the results completely.
@@ -143,10 +143,10 @@ There are five special selectors:
 {{!}}<code>E{{ cssxref(":visited") }}</code>
 {{!}}Any E element that is a hyperlink to a URL that the user ''has'' visited recently
 {{!}}}  
-'''Note: '''The information that can be obtained from the :visited selector is restricted in {{ gecko("2.0") }}. See [[Privacy and the :visited selector]] for more details.
+'''Note: '''The information that can be obtained from the :visited selector is restricted in <code>gecko 2.0</code>. See [https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector Privacy and the :visited selector] for more details.
 
   
-The {{ cssxref("cursor") }} property specifies the shape of the pointer: Some of the common shapes are as follows. Place your mouse over the items in this list to see the actual pointer shapes in your browser:
+The <code>cursor</code> property specifies the shape of the pointer: Some of the common shapes are:
 
                         
 {{{!}} border="1"
@@ -166,13 +166,13 @@ The {{ cssxref("cursor") }} property specifies the shape of the pointer: Some of
 {{!}}<code>default</code>
 {{!}}The default (usually an arrow)
 {{!}}} 
-An {{ cssxref("outline") }} property creates an outline that is often used to indicate keyboard focus. Its values are similar to the {{ cssxref("border") }} property, except that you cannot specify individual sides.
+An <code>outline</code> property creates an outline that is often used to indicate keyboard focus. Its values are similar to the <code>border</code> property, except that you cannot specify individual sides.
 
  
-Some other features of user interfaces are implemented using attributes, in the normal way. For example, an element that is disabled or read-only has the '''disabled''' attribute or the '''readonly''' attribute. Selectors can specify these attributes like any other attributes, by using square brackets: <code>{{ mediawiki.external('disabled') }}</code> or <code>{{ mediawiki.external('readonly') }}</code>.
+Some other features of user interfaces are implemented using attributes, in the normal way. For example, an element that is disabled or read-only has the '''disabled''' attribute or the '''readonly''' attribute. Selectors can specify these attributes like any other attributes, by using square brackets.
 
   
-    Example 
+====Example====
 These rules specify styles for a button that changes dynamically as the user interacts with it:
 
  
@@ -216,12 +216,8 @@ This wiki does not support a user interface on the page, so these buttons do not
 A fully functional button also has a dark outline around the entire button when it is the default, and a dotted outline on the face of the button when it has keyboard focus. It might also have a hover effect when the pointer is over it.
 
    
-    More details 
-For more information about user interfaces in CSS, see [[User interface]] in the CSS Specification.
-
- 
-There is an example of Mozilla's markup language for user interfaces, XUL, in Part II of this tutorial.
-
+====More details====
+For more information about user interfaces in CSS, see [http://www.w3.org/TR/css3-ui/ User interface] in the CSS Specification.
   
 == Action: Printing a document ==
  
@@ -243,17 +239,18 @@ Make the headings turn blue when the mouse pointer is over them.
 
  
 {{!}}} 
-[[See solutions to these challenges.]]
 
  
 == What next? ==
  
-If you had difficulty understanding this page, or if you have other comments about it, please contribute to its [[Discussion]] page.
 
- 
-So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language: '''[[javascript|JavaScript]]'''
+So far, all the style rules in this tutorial have been specified in files. The rules and their values are fixed. The next page describes how you can change rules dynamically by using a programming language called '''[[javascript|JavaScript]]'''.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -261,7 +258,11 @@ So far, all the style rules in this tutorial have been specified in files. The r
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=Yes
