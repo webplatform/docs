@@ -6,10 +6,19 @@
 |High-level issues=Stub
 }}
 {{Byline
-|Name=Nayan Seth
-|URL=http://www.nayanseth.com
+|Name=
+|URL=
+|Published=
 }}
-{{Summary_Section|We cannot live without internet. Every day we visit thousands of websites, but we fail to notice something. We get a different layout based on the size of the viewport. Most popular website's have a different experience for each device, whether it be a mobile, a tablet, or a desktop. The problem is that you get redirected to a different page, like m.yourwebsite.com.
+{{Summary_Section|This article introduces the concept of responsive layouts using HTML5 and CSS3.}}
+{{Tutorial
+|Next_page=
+|Prev_page=
+|Content===Content Needed==
+This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!
+
+<!-- (Original content by Nayan Seth, http://www.nayanseth.com)
+We cannot live without internet. Every day we visit thousands of websites, but we fail to notice something. We get a different layout based on the size of the viewport. Most popular website's have a different experience for each device, whether it be a mobile, a tablet, or a desktop. The problem is that you get redirected to a different page, like m.yourwebsite.com.
 
 But thats old technology. Today we have seen great improvements in the web development due to HTML5. With HTML5 websites can automatically resize themselves according to the display. This is known as the Responsive web design. 
 
@@ -19,16 +28,16 @@ Mozilla Firefox has a different HTML5 webkit for its browsers. So every time a w
 
 The major advantage of this design is that all the displays will give similar desktop like feel. The website which is responsive goes through a lot of coding as it has to be made optimal for tablets and mobile displays as well. So additional code is added for these displays.
 
-
-
-Eg: http://www.engadget.com
-      http://www.seesparkbox.com
-      http://www.microsoft.com
+Eg: http://www.engadget.com, http://www.seesparkbox.com, http://www.microsoft.com
 
 Responsive Grid CSS - http://twitter.github.com/bootstrap/
+-->
 }}
-{{Tutorial}}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -36,7 +45,11 @@ Responsive Grid CSS - http://twitter.github.com/bootstrap/
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
