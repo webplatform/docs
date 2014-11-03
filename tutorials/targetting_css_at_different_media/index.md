@@ -221,7 +221,7 @@ For more information about user interfaces in CSS, see [http://www.w3.org/TR/css
   
 == Action: Printing a document ==
  
-# Make a new HTML document, <code>doc4.html</code>. Copy and paste the content from here:     
+1. Make a new HTML document, <code>doc4.html</code>. Copy and paste the content from here:     
 <pre> &lt;!DOCTYPE html&gt;
  &lt;html&gt;
    &lt;head&gt;
@@ -240,24 +240,54 @@ For more information about user interfaces in CSS, see [http://www.w3.org/TR/css
        Page:     &lt;/div&gt;
  &lt;/body&gt;
  &lt;/html&gt;  </pre>
-# Make a new stylesheet, <code>style4.css</code>. Copy and paste the content from here:     <pre> /*** Print sample ***/  /* defaults  for screen */ #print-head, #print-foot {   display: none;   }  /* print only */ @media print {  h1 {   page-break-before: always;   padding-top: 2em;   }  h1:first-child {   page-break-before: avoid;   counter-reset: page;   }  #print-head {   display: block;   position: fixed;   top: 0pt;   left:0pt;   right: 0pt;    font-size: 200%;   text-align: center;   }  #print-foot {   display: block;   position: fixed;   bottom: 0pt;   right: 0pt;    font-size: 200%;   }  #print-foot:after {   content: counter(page);   counter-increment: page;   }  } /* end print only */  </pre>
-# View this document in your browser; it uses your browser's default style.
-# Print (or print preview) the document; the stylesheet places each section on a separate page, and it adds a header and footer to each page. If your browser supports counters, it adds a page number in the footer.            {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}                               Heading for paged media                               Section A                               This is the first section...                               Page: 1 {{!}}} {{!}}} {{!}}       {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}                               Heading for paged media                               Section B                               This is the second section...                               Page: 2 {{!}}} {{!}}} {{!}}}
+
+2. Make a new stylesheet, <code>style4.css</code>. Copy and paste the content from here:     
+<pre> /*** Print sample ***/
+  /* defaults  for screen */
+ #print-head, #print-foot {   display: none;   }
+  /* print only */
+ @media print {
+  h1 {   page-break-before: always;   padding-top: 2em;   }
+  h1:first-child {   page-break-before: avoid;   counter-reset: page;   }
+  #print-head {   display: block;   position: fixed;   top: 0pt;   left:0pt;   right: 0pt;    font-size: 200%;   text-align: center;   }
+  #print-foot {   display: block;   position: fixed;   bottom: 0pt;   right: 0pt;    font-size: 200%;   }
+  #print-foot:after {   content: counter(page);   counter-increment: page;   }
+  }
+ /* end print only */  </pre>
+
+3.  View this document in your browser; it uses your browser's default style.
+
+4. Print (or print preview) the document; the stylesheet places each section on a separate page, and it adds a header and footer to each page. If your browser supports counters, it adds a page number in the footer.
+{{{!}} border="1" 
+{{!}}- 
+{{!}}       
+{{{!}} border="1" 
+{{!}}- 
+{{!}}       
+{{{!}} border="1" 
+{{!}}- 
+{{!}}                               Heading for paged media                               Section A                               This is the first section...                               Page: 1 
+{{!}}} 
+{{!}}} 
+{{!}}       
+{{{!}} border="1" 
+{{!}}- 
+{{!}}       
+{{{!}} border="1" 
+{{!}}- 
+{{!}}                               Heading for paged media                               Section B                               This is the second section...                               Page: 2 
+{{!}}} 
+{{!}}} 
+{{!}}}
         
 {{{!}} border="1"
 {{!}}+
-    Challenges
-{{!}}-
-{{!}}Move the print-specific style rules to a separate CSS file.
-        
-Read the {{ CSSXref("@import") }} reference page to find details of how to import the new print-specific CSS file into your <code>style4.css</code> stylesheet.
-
- 
-Make the headings turn blue when the mouse pointer is over them.
-
- 
 {{!}}} 
 
+===Challenges===
+*Move the print-specific style rules to a separate CSS file.
+*Read the <code>@import</code> reference page to find details of how to import the new print-specific CSS file into your <code>style4.css</code> stylesheet.
+*Make the headings turn blue when the mouse pointer is over them.
  
 == What next? ==
  
