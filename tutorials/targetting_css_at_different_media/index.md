@@ -20,7 +20,7 @@ The purpose of CSS is to specify how documents are presented to the user. Presen
 
 For example, you are probably reading this page on a display device. But you might also want to project it on a screen for a large audience, or print it. These different media can have different characteristics. CSS provides ways to present a document differently in different media.
  
-To specify rules that are specific to a type of media, use '''@media"''', followed by the media type, followed by curly braces that enclose the rules.
+To specify rules that are specific to a type of media, use '''@media''', followed by the media type, followed by curly braces that enclose the rules.
   
 ====Example====
 A document on a web site has a navigation area to allow the user to move around the site.
@@ -221,7 +221,25 @@ For more information about user interfaces in CSS, see [http://www.w3.org/TR/css
   
 == Action: Printing a document ==
  
-# Make a new HTML document, <code>doc4.html</code>. Copy and paste the content from here:     <pre> &lt;!DOCTYPE html&gt; &lt;html&gt;   &lt;head&gt;     &lt;title&gt;Print sample&lt;/title&gt;     &lt;link rel="stylesheet" href="style4.css"&gt;   &lt;/head&gt;   &lt;body&gt;     &lt;h1&gt;Section A&lt;/h11&gt;     &lt;p&gt;This is the first section...&lt;/p&gt;     &lt;h1&gt;Section B&lt;/h1&gt;     &lt;p&gt;This is the second section...&lt;/p&gt;     &lt;div id="print-head"&gt;       Heading for paged media     &lt;/div&gt;     &lt;div id="print-foot"&gt;       Page:     &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;  </pre>
+# Make a new HTML document, <code>doc4.html</code>. Copy and paste the content from here:     
+<pre> &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+   &lt;head&gt;
+     &lt;title&gt;Print sample&lt;/title&gt;
+     &lt;link rel="stylesheet" href="style4.css"&gt;
+   &lt;/head&gt;
+   &lt;body&gt;
+     &lt;h1&gt;Section A&lt;/h11&gt;
+     &lt;p&gt;This is the first section...&lt;/p&gt;
+     &lt;h1&gt;Section B&lt;/h1&gt;
+     &lt;p&gt;This is the second section...&lt;/p&gt;
+     &lt;div id="print-head"&gt;
+       Heading for paged media
+     &lt;/div&gt;
+     &lt;div id="print-foot"&gt;
+       Page:     &lt;/div&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;  </pre>
 # Make a new stylesheet, <code>style4.css</code>. Copy and paste the content from here:     <pre> /*** Print sample ***/  /* defaults  for screen */ #print-head, #print-foot {   display: none;   }  /* print only */ @media print {  h1 {   page-break-before: always;   padding-top: 2em;   }  h1:first-child {   page-break-before: avoid;   counter-reset: page;   }  #print-head {   display: block;   position: fixed;   top: 0pt;   left:0pt;   right: 0pt;    font-size: 200%;   text-align: center;   }  #print-foot {   display: block;   position: fixed;   bottom: 0pt;   right: 0pt;    font-size: 200%;   }  #print-foot:after {   content: counter(page);   counter-increment: page;   }  } /* end print only */  </pre>
 # View this document in your browser; it uses your browser's default style.
 # Print (or print preview) the document; the stylesheet places each section on a separate page, and it adds a header and footer to each page. If your browser supports counters, it adds a page number in the footer.            {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}                               Heading for paged media                               Section A                               This is the first section...                               Page: 1 {{!}}} {{!}}} {{!}}       {{{!}} border="1" {{!}}- {{!}}       {{{!}} border="1" {{!}}- {{!}}                               Heading for paged media                               Section B                               This is the second section...                               Page: 2 {{!}}} {{!}}} {{!}}}
