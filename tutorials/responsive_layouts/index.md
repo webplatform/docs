@@ -1,7 +1,7 @@
 {{Page_Title|Creating responsive layouts}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs grammar/spelling/punctuation review
+|State=Not Ready
+|Editorial notes=Needs content
 |Checked_Out=No
 |High-level issues=Stub
 }}
