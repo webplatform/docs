@@ -1,7 +1,7 @@
 {{Page_Title|Learn the latest in web technologies.}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Should remove links to deletion candidates
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
@@ -29,10 +29,11 @@
 * [[tutorials/typography|Typography]]
 * [[tutorials/webcomponents|Web components]]
 
-== In this section ==
-
-<subpages />
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
