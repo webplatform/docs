@@ -137,7 +137,7 @@ There are five special selectors:
 {{!}}<code>E:active</code>
 {{!}}The E element that is involved in the current user action
 {{!}}-
-{{!}}<code>E:link"</code>
+{{!}}<code>E:link</code>
 {{!}}Any E element that is a hyperlink to a URL that the user has ''not'' visited recently
 {{!}}-
 {{!}}<code>E:visited</code>
