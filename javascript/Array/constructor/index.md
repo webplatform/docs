@@ -1,7 +1,7 @@
-{{Page_Title|constructor}}
+{{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=The title bar must be modified.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|References the function which created the instance of the Array object.}}
@@ -53,10 +53,15 @@ The '''constructor''' property is only read-only for primitive values such as 1,
  
  // Output: function Number() { [native code] }
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript, by Mozilla Developer Network]
 * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor Object.prototype.constructor, by Mozilla Developer Network]
 |Manual_sections====Specification===
