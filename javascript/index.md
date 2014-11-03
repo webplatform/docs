@@ -40,12 +40,7 @@ The standardisation of the ECMAScript language is handled by ECMA TC39; see [htt
 
 To contribute to other JavaScript-related technologies such as HTML5, [http://jquery.com/ jQuery], and other 3rd party libraries and frameworks, search for the appropriate working group, core team or developers!
 
-== Index of all JavaScript topics ==
 
-{{Page_Index_Listing
-|query= [[Path::~javascript/*]][[Path::!~javascript/*/*]]
-[[:+]]
-}}
 
 {{See_Also_Section}}
 {{Notes_Section
