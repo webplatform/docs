@@ -7,7 +7,7 @@
 {{Basic Page}}
 {{Languages}}
 
-
+{{:Beginners/Submenu}}
 
 ==시작에 앞서==
 
@@ -18,7 +18,9 @@
 
 그럼 학습을 시작하자. 이 문서만으로 부족하다면, [[tutorials|모든 교재 목록]]을 참고하라.
 
-==웹의 기초==
+== 초보자에게 유용한 문서들 ==
+
+=== 웹의 기초 ===
 
 * [[concepts/internet and web/the history of the web/kr|웹의 역사]]
 * [[concepts/internet and web/how does the internet work/kr|인터넷 작동원리]]
@@ -26,7 +28,7 @@
 * [[tutorials/getting your content online/kr|웹콘텐츠 제작하기]]
 * [[concepts/accessibility/kr|웹접근성]]
 
-==HTML — 웹 콘텐츠의 구조==
+=== HTML — 웹 콘텐츠의 구조 ===
 
 * [[guides/the basics of html/kr|HTML의 기초]]
 * [[guides/doctypes and markup styles/kr|DOCTYPES과 마크업 스타일]]
@@ -38,8 +40,11 @@
 * [[guides/html links/kr|HTML 링크]]
 * [[guides/html structural elements/kr|HTML 구조 요소]]
 * [[guides/html tables/kr|HTML 표]]
+* [[guides/html forms basics|HTML 폼 기초]]
+* [[guides/html5 form features|HTML5 폼 특성]]
+* [[guides/lesser-known semantic elements|잘 알려지지 않은 시멘틱 엘리먼트들]]
 
-==CSS — 웹 콘텐츠의 스타일==
+=== CSS — 웹 콘텐츠의 스타일 ===
 
 * [[guides/getting started with css/kr|CSS 시작하기]]
 * [[tutorials/using selectors/kr|CSS 선택자 이용하기]]
@@ -50,7 +55,7 @@
 * [[tutorials/making css easier to read/kr|읽기 쉬운 CSS 만들기]]
 * [[tutorials/media queries/kr|CSS 미디어 쿼리]]
 
-==JavaScript — 웹사이트에 동적 기능 추가==
+=== JavaScript — 웹사이트에 동적 기능 추가 ===
 
 * [[concepts/programming/programming basics/kr|프로그래밍 기초]]
 * [[tutorials/your first look at javascript/kr|JavaScript 처음 다루기]]
@@ -61,6 +66,12 @@
 * [[tutorials/creating and modifying html/kr|HTML 변경하기]]
 * [[tutorials/manipulating css with javascript/kr|JavaScript로 CSS 다루기]]
 * [[tutorials/events in javascript/kr|JavaScript 이벤트]]
+* [[PointerEvents|mouse, touch, and pen input에 대한 Pointer 이벤트]]
+
+=== Applied techniques ===
+
+* [[tutorials/creating basic navigation menus| 네비게이션 메뉴 만들기]]
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
