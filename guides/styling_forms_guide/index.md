@@ -1,36 +1,38 @@
 {{Page_Title|Styling forms}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
-
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline}}
-{{Summary_Section|This article provides a thoughtful grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
+{{Byline
+|Name=
+|URL=
+|Published=
+}}
+{{Summary_Section|This article provides a grounding in form styling and layout — one of the more difficult aspects of styling web pages.}}
 {{Guide
 |Content=== Introduction ==
  
-The [http://www.w3.org/wiki/HTML_forms_-_the_basics HTML forms article] introduced you to the basics of form creation and styling. This article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] carries on where that left off, providing more details about form elements and styles, and how forms are included in real-world Web application designs.
+The [[guides/html_forms_basics|HTML forms article]] introduced you to the basics of form creation and styling. This article 
+carries on where that left off, providing more details about form elements and styles, and how forms are included in real-world Web application designs.
  
-Note that the [http://dev.opera.com/articles/view/34-styling-forms/styling_forms_code.zip sample code is all available for download] so you can play with it on your local machine. In addition, there are links to the examples files running live at appropriate points during the article.
-
 == Concepts introduced in this article ==
  
 Here you will find new information about form implementation and interface layout.
  
 === Rule and token overloading ===
  
-Using copious numbers of <code>class</code> and <code>id</code> tokens can be said to violate the KISS Principle (explained in the [http://www.w3.org/wiki/The_CSS_layout_model_-_boxes_borders_margins_padding CSS box model and basic layout article]). However, demanding layouts often create conflicts in the cascade — conflicts that are most easily resolved by adding tokens to elements, and writing stylesheet rules that contain several selectors.
+Using copious numbers of <code>class</code> and <code>id</code> tokens can be said to violate the KISS Principle ("Keep It Simple, Stupid"). However, demanding layouts often create conflicts in the cascade  &mdash;  conflicts that are most easily resolved by adding tokens to elements, and writing stylesheet rules that contain several selectors.
  
 The most demanding layouts are littered with edge cases, which are often best handled by assigning an <code>id</code> to elements that define a narrow and unique context.
 
 === New form field elements ===
  
-An effective form often needs more than just buttons and text input fields, because it’s common to frame user responses in terms of options. HTML provides several options for the designer who encounters this requirement.
+An effective form often needs more than just buttons and text input fields, because it's common to frame user responses in terms of options. HTML provides several options for the designer who encounters this requirement.
  
 === Form design principles ===
  
-A site’s forms are usually focal points for user interaction and data collection. For this reason, they are often critical to a site’s success, which demands that the greatest care should be taken with their design.
+A site's forms are usually focal points for user interaction and data collection. For this reason, they are often critical to a site's success, which demands that the greatest care should be taken with their design.
  
 === The Rule of Thirds ===
  
@@ -38,7 +40,7 @@ Users are more likely to draw their attention to four specific points on a canva
  
 === Grids ===
  
-Previous articles have explained how to [http://www.w3.org/wiki/Text_styling_with_CSS ensure consistent typesetting] and [http://www.w3.org/wiki/Colour_schemes_and_design_mockups#Attention_to_alignment get the most use from whitespace]. This article takes things a step further by explaining how <code>em</code> units can be used to enforce a degree of layout consistency that cannot be accomplished without CSS.
+Previous articles have explained how to ensure consistent typesetting and get the most use from whitespace. This article takes things a step further by explaining how <code>em</code> units can be used to enforce a degree of layout consistency that cannot be accomplished without CSS.
 
 === Platform support tiers ===
  
@@ -46,9 +48,9 @@ One common requirement among commercial projects is near-exact rendering of the 
  
 == A simple contact form ==
  
-Contact forms that allow site visitors to send e-mail directly to an inbox are very common, for obvious reasons: they’re accessible to anyone with an active e-mail address, and easy to filter into a dedicated mail folder.
+Contact forms that allow site visitors to send e-mail directly to an inbox are very common, for obvious reasons: they're accessible to anyone with an active e-mail address, and easy to filter into a dedicated mail folder.
  
-The markup used in the previous [http://www.w3.org/wiki/HTML_forms_-_the_basics forms article] uses such a form, which has been extensively embellished:
+The markup used in the [[guides/html_forms_basics|HTML forms article]] uses such a form, which has been extensively embellished:
  
 === Markup ===
  
@@ -103,17 +105,17 @@ Finally, there are a few new classes that provide suggestions of the amount and 
  
 Since the demonstration form is understood to be primary content, the <code>legend</code> used in the previous forms article has been replaced with a heading.
  
-Legends are most appropriate within <code>fieldset</code>s, in lieu of <code>label</code>s (which are meant to relate to single controls). In this instance the <code>legend</code> element has been omitted entirely, because it’s difficult to style.
+Legends are most appropriate within <code>fieldset</code>s, in lieu of <code>label</code>s (which are meant to relate to single controls). In this instance the <code>legend</code> element has been omitted entirely, because it's difficult to style.
  
-Something else worth noting is that “required” tags on fields are best placed ''before'' the field in source order, to accommodate users of screen reader software. However, the <code>position</code> property (which is beyond the scope of this article) is necessary to lay these items out appropriately. For this reason, the “required” tags have been placed ''after'' their associated controls in the source order (albeit in the same context).
+Something else worth noting is that "required" tags on fields are best placed ''before'' the field in source order, to accommodate users of screen reader software. However, the <code>position</code> property (which is beyond the scope of this article) is necessary to lay these items out appropriately. For this reason, the "required" tags have been placed ''after'' their associated controls in the source order (albeit in the same context).
  
-=== New form fields? What’s this? ===
+=== New form fields? What's this? ===
  
 Text fields and submit controls were introduced in the previous article. As pointed out above, there are a number of use cases that require the user to be able to select from two or more options. Those elements are described in brief below.
  
 ==== Choosing descriptions: input type="checkbox" ====
  
-<pre>      …
+<pre>      ...
   &lt;label for="availability"&gt;My account is unavailable:&lt;/label&gt;&lt;input type="checkbox"
   name="is_down" id="availability" class="rInput" /&gt;</pre>
  
@@ -121,7 +123,7 @@ Opt-in and opt-out questions are usually handled with one of these controls. Ano
  
 ==== Choosing from mutually exclusive states: input type="radio" ====
  
-<pre>      …
+<pre>      ...
       &lt;label for="acctNone"&gt;Account type:&lt;/label&gt;
       &lt;fieldset&gt;
         &lt;label for="acctGold"&gt;Gold&lt;/label&gt;&lt;input type="radio" name="acct_type" id="goldAcct"
@@ -138,15 +140,15 @@ A group of these allows you to present several options side by side, of which on
  
 Unlike other form controls, <code>radio</code> controls not only allow but actually ''require'' that associated controls share the same <code>name</code>.
 
-These elements take their name from an interface common to mechanically tuned car radio sets. Unlike the programmable presets common to digitally tuned sets, mechanical “preset” buttons typically center the receiver on a range of frequencies within the band being tuned in, when pressed.
+These elements take their name from an interface common to mechanically tuned car radio sets. Unlike the programmable presets common to digitally tuned sets, mechanical "preset" buttons typically center the receiver on a range of frequencies within the band being tuned in, when pressed.
  
 Both <code>checkbox</code> and <code>radio</code> controls allow a <code>checked</code> attribute, which if set activates the control by default when it is first rendered.
  
-The question of using <code>radio</code> controls instead of <code>checkbox</code> controls is best answered after considering a number of different factors. If you want the user to confirm a subjective choice (such as opting in to a mailing list), then <code>checkbox</code> controls are probably best. If you want instead for a user to choose between two objective options (like, say, gender), then <code>radio</code> controls should be used instead.
+The question of using <code>radio</code> controls instead of <code>checkbox</code> controls is best answered after considering a number of different factors. If you want the user to confirm a subjective choice (such as opting in to a mailing list), then <code>checkbox</code> controls are probably best. If you want instead for a user to choose between two objective options (for example, gender), then <code>radio</code> controls should be used instead.
  
 ==== When there are just too many choices: select/option ====
  
-<pre>    …
+<pre>    ...
     &lt;label for="natureOfInquiry"&gt;General
     subject:&lt;/label&gt;
       &lt;select name="subject" class="medium" id="natureOfInquiry"&gt;
@@ -166,7 +168,7 @@ The principal purpose of the <code>fieldset</code> element is to assign a single
 
 == Starting from scratch, ending with a finished form ==
  
-Now that the new material in this article has been outlined, it’s time to see that material in action — the twelve demonstrations that follow progress through various design concepts and styling challenges that are encountered when developing Web forms.
+Now that the new material in this article has been outlined, it's time to see that material in action  &mdash;  the twelve demonstrations that follow progress through various design concepts and styling challenges that are encountered when developing Web forms.
  
 '''Readers are strongly encouraged to save the demonstration material to their own hard drives and experiment with the stylesheet rules.'''
  
@@ -175,11 +177,6 @@ These demonstrations progress in source order, rather than the order in which th
 === Demonstration 1 ===
  
 Starting with a rule that reads <code>html { margin: 0; padding: 0; }</code>, the first step is to configure the <code>body</code> of the containing page.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form_unstyled.html More-or-less unstyled page]
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form01.html With body styles applied]
 
 ==== New styles: ====
  
@@ -196,17 +193,13 @@ Starting with a rule that reads <code>html { margin: 0; padding: 0; }</code>, th
  
 * When XHTML is served with the proper <code>Content-Type</code>, to a user agent that supports it properly, default page <code>margin</code> and/or <code>padding</code> are rendered in the <code>html</code> element.
 * In cases other than that described in the above bullet, a 10px gutter is placed around the circumference of the page; Opera provides this as a <code>padding</code> value, while other mass market browsers provide it (somewhat counterintuitively) as a <code>margin</code> value.  The demonstration stylesheet normalizes the result.
-* While many accessibility purists will object to the <code>14px</code> typesize value, it’s integral to the various box and type properties specified elsewhere in the stylesheet, denominated in sevenths of an <code>em</code> for the most part.  A fraction-to-decimal conversion chart is provided at the end of the article for those who want some insight on the arithmetic used.
-* The <code>14px</code> value was chosen because it’s the smallest size of body copy that can be read by practically everyone with corrected vision.
+* While many accessibility purists will object to the <code>14px</code> typesize value, it's integral to the various box and type properties specified elsewhere in the stylesheet, denominated in sevenths of an <code>em</code> for the most part.  A fraction-to-decimal conversion chart is provided at the end of the article for those who want some insight on the arithmetic used.
+* The <code>14px</code> value was chosen because it's the smallest size of body copy that can be read by practically everyone with corrected vision.
 * Since one of the purposes of this article is to demonstrate the work that goes into a superlatively consistent grid, a grid background in increments of 24 pixels has been applied to the page.
  
 === Demonstration 2 ===
  
 Now that the page containers have been wrangled, the next couple of steps alter or remove user agent styles.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form02.html Style the primary heading and remove undesired gutters]
 
 ==== New styles: ====
  
@@ -231,7 +224,7 @@ ul {
 === Demonstration 2: background considerations ===
  
 * The progression of typesize for headings varies from one platform to the next; however, the default values are always a proportion of the <code>medium</code> value used for unstyled paragraph text, and thus are inherited via the cascade. The result of the value provided here is to change the default proportion.
-* It’s considered optimal to use <code>h1</code> for the first heading on a page; here that practice is ignored because in a commercial production environment, the site title is often an <code>h1</code> on page and the page title should be placed lower in the heading hierarchy. In many cases, the form’s prominence will be equal to the prominence of other content or forms in the same document.
+* It's considered optimal to use <code>h1</code> for the first heading on a page; here that practice is ignored because in a commercial production environment, the site title is often an <code>h1</code> on page and the page title should be placed lower in the heading hierarchy. In many cases, the form's prominence will be equal to the prominence of other content or forms in the same document.
 * The goal of the <code>h3</code> styling is to create a content box 24 pixels high with 24 pixels of gutter immediately below, so that:
 
 <pre>(((14 × 1.429) × 1.15) + (20 × .05)) ≈ 24
@@ -239,15 +232,11 @@ ul {
 (20 × 1.2) = 24</pre>
 
 * The assignment of a <code>width</code> value to either the <code>form</code> or the list items is needed, if the elements are to be properly justified ''without'' relying on positioning.  The value used yields a static value of 503 pixels; the one pixel discrepancy (given an atomic grid unit of 24 pixels) is a product of errors produced by rounding and anti-aliasing.
-* The default useragent styles for lists vary from one browser to the next.  Internet Explorer gives each list item a left margin of 40 pixels and places the item bullet in the resulting gutter, while other browsers apply padding to the left side of the form’s content block as a whole.  As with the layout properties changed in the <code>body</code> rule, this rule is designed specifically to normalize presentation across browsers.
+* The default useragent styles for lists vary from one browser to the next.  Internet Explorer gives each list item a left margin of 40 pixels and places the item bullet in the resulting gutter, while other browsers apply padding to the left side of the form's content block as a whole.  As with the layout properties changed in the <code>body</code> rule, this rule is designed specifically to normalize presentation across browsers.
 
 === Demonstration 3 ===
  
-…Now to set up the containers for form elements.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form03.html Style list items (label/value pair containers) and the fieldset]
+Now to set up the containers for form elements.
 
 ==== New styles: ====
  
@@ -274,7 +263,7 @@ fieldset {
  
 One of the most significant strengths of good graphic design (and with it, good interface design) is that things are laid out at predictable intervals. These intervals are typically referred to as the '''grid'''.
  
-As pointed out above the atomic grid unit of the demonstration form is 24 pixels square, but there’s more to coherent layout than ensuring that design elements are placed at small-yet-predictable intervals. A truly effective grid has the following characteristics:
+As pointed out above the atomic grid unit of the demonstration form is 24 pixels square, but there's more to coherent layout than ensuring that design elements are placed at small-yet-predictable intervals. A truly effective grid has the following characteristics:
  
 * Column margins are placed at consistent grid intervals throughout the document.
 * Sequential sections within the same document share top margins with items in neighboring columns.
@@ -291,17 +280,13 @@ Superimposing guides for things like columns is then accomplished by selecting V
  
 ==== Enforcing the grid in your stylesheet ====
  
-As the [http://www.w3.org/wiki/Text_styling_with_CSS text styling article] points out — reinforced by a few of the rules included in the demonstration stylesheet — the best way to enforce an atomic grid within a layout is to rely on <code>em</code> units. However, that by itself is not enough; the stylist must also keep their fraction-to-decimal conversions straight when dealing with alternate type sizes, gutters, and borders.
+As the text styling article points out  &mdash;  reinforced by a few of the rules included in the demonstration stylesheet  &mdash;  the best way to enforce an atomic grid within a layout is to rely on <code>em</code> units. However, that by itself is not enough; the stylist must also keep their fraction-to-decimal conversions straight when dealing with alternate type sizes, gutters, and borders.
  
 Another technique for enforcing grids is revealed in the demonstration stylesheet: the provision of <code>class</code> tokens that can refer to various element and column sizes in a document. When used consistently, these tokens do most of the work of enforcing your grid.
 
 === Demonstration 4 ===
  
 Keeping things aligned to a grid means assigning layout properties to the labels and form controls.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form04.html Line up the two primary columns]
 
 ==== New styles: ====
  
@@ -325,39 +310,35 @@ input {
 === Demonstration 4: background considerations ===
  
 * ''All'' form controls, including textareas and labels, are rendered as <code>%inline</code> elements ''by default''.
-* In order to create a consistent left column, a <code>width</code> needs to be assigned to the <code>label</code> elements; in “strict” rendering mode, the <code>padding</code> supplied alongside makes a workable gutter between controls and labels a certainty.
-* Making both labels and controls flush to a common margin makes the form easy to follow. This fact and other points of composition are discussed as part of the discussion of the Rule of Thirds - see below.
+* In order to create a consistent left column, a <code>width</code> must be assigned to the <code>label</code> elements; in "strict" rendering mode, the <code>padding</code> supplied alongside makes a workable gutter between controls and labels a certainty.
+* Making both labels and controls flush to a common margin makes the form easy to follow. This fact and other points of composition are discussed as part of the discussion of the Rule of Thirds (below).
 * At this point, there are obvious problems with the form:
 ** The <code>label</code>s attached to the <code>radio</code> controls are assigned the same <code>display</code> and <code>float</code> values as the other <code>label</code>s on the form. In tandem with the existing <code>height</code> and <code>overflow</code> values, these elements collide with the following label-control pair in some browsers.
 ** In Safari 3, the borders of text controls disappear in this slide. One suspects that this is a rendering bug.
 ** The <code>radio</code> controls appear flush to one another in source order; this occurs because the intervening <code>label</code> controls are presently in a different layout context.
-* Another curiosity that bears mention is the assignment of <code>overflow: auto</code> to labels. The magic dust being applied here can be described as a rule: given one <code>%block</code> element within another, ''and'' given that only one of those has a <code>height</code> specified in static units or <code>em</code>s that expand to a known number of pixels, assigning <code>overflow: auto</code> to the ''other'' element — the one ''without'' a <code>height</code> value — will cause it to expand to the height of the element ''with'' a discrete <code>height</code> value. This technique is also used in Demonstration 11.
+* Another curiosity that bears mention is the assignment of <code>overflow: auto</code> to labels. The magic dust being applied here can be described as a rule: given one <code>%block</code> element within another, ''and'' given that only one of those has a <code>height</code> specified in static units or <code>em</code>s that expand to a known number of pixels, assigning <code>overflow: auto</code> to the ''other'' element  &mdash;  the one ''without'' a <code>height</code> value  &mdash;  will cause it to expand to the height of the element ''with'' a discrete <code>height</code> value. This technique is also used in Demonstration 11.
  
 === The Rule of Thirds ===
 
 [[Image:bmh_form.jpg|An early springtime scene on the north side of Pioneer Square, Portland, Oregon; superimposed with lines dividing the photo into nine more or less equal parts.]]
 
-Figure 1: An early springtime scene in Portland, Oregon. This photo has been superimposed with lines illustrating the Rule of Thirds; note how the lower right intersection and the lines that form it bound the visible activity. Photo ©2000 by the author; all rights reserved.
+''Figure 1: An early springtime scene in Portland, Oregon. This photo has been superimposed with lines illustrating the Rule of Thirds; note how the lower right intersection and the lines that form it bound the visible activity. Photo ©2000 by the author; all rights reserved.''
  
-When we consider what makes for excellent composition, there’s a nearly universal trope: if you divide a layout or illustration into thirds, you will discover that viewers want to draw their attention to the lines (and especially the intersections of the lines) that mark those divisions. Failure to put this uncanny tendency to work can cause a layout to seem unbalanced.
+When we consider what makes for excellent composition, there's a nearly universal trope: if you divide a layout or illustration into thirds, you will discover that viewers want to draw their attention to the lines (and especially the intersections of the lines) that mark those divisions. Failure to put this uncanny tendency to work can cause a layout to seem unbalanced.
  
 The simplest explanation for this phenomenon is that those four lines conform closely to grids that follow the Golden Ratio, a proportion that is close in value to one-sixth. The Golden Ratio is frequently encountered in various fields of mathematics and in the natural world.
 
 [[Image:bmh_form.png|A screen capture of msnbc.msn.com with the first seven golden rectangles superimposed on the layout.]] 
 
-Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.
+''Figure 2: A screen capture of msnbc.msn.com superimposed by the first seven golden rectangles. The dimensions of the fourth and fifth rectangles side-by-side illuminate the nature of the page layout grid as a whole.''
  
-The demonstration form was laid out so that the form controls would justify to a left margin placed one-third of the distance to the notional right margin of the form as a whole; this choice was deliberate. Much ''less'' deliberate is the ''vertical'' composition of the form — when the heading is taken into account, the text fields hew to the two lines described in the preivous paragraph. Even if the heading ''isn’t'' taken into account, the required fields hew to the uppermost of those lines.
+The demonstration form was laid out so that the form controls would justify to a left margin placed one-third of the distance to the notional right margin of the form as a whole; this choice was deliberate. Much ''less'' deliberate is the ''vertical'' composition of the form  &mdash;  when the heading is taken into account, the text fields hew to the two lines described in the preivous paragraph. Even if the heading ''isn't'' taken into account, the required fields hew to the uppermost of those lines.
  
 The salient point for a stylist is that if the Rule of Thirds and the grid are taken into account ''before'' starting work on a stylesheet, the task of ''normalizing'' the stylesheet can be simplified considerably.
  
 === Demonstration 5 ===
  
 To ensure that the intended grid is preserved vertically as well as horizontally, some particulars need to be seen to. These changes are almost entirely cosmetic.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form05.html Tweak the presentation of the textarea and select controls]
 
 ==== New styles: ====
  
@@ -385,11 +366,7 @@ option { font-size: 100%; }</pre>
  
 === Demonstration 6 ===
  
-The previous demonstration manipulated some type rendering; now it’s time to finish the job.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form06.html Normalize the presentation of the text controls and adjust the effect of the cascade on select control text].
+The previous demonstration manipulated some type rendering; now it's time to finish the job.
 
 ==== New styles: ====
  
@@ -408,7 +385,7 @@ input, textarea, select {
  
 === Demonstration 6: background considerations ===
  
-* In this demonstration we see the first instance of values that have been deliberately put aside for simultaneous assignment to multiple selectors.  The absence of <code>border</code> values from these rules is an artifact of the production process, which was conducted in a different order than the presentation of these demonstrations — a point which is discussed in more detail later.
+* In this demonstration we see the first instance of values that have been deliberately put aside for simultaneous assignment to multiple selectors.  The absence of <code>border</code> values from these rules is an artifact of the production process, which was conducted in a different order than the presentation of these demonstrations  &mdash;  a point which is discussed in more detail later.
 * As mentioned above, text and font values in form controls do '''not''' get the benefit of the cascade. These rules address that issue.  Consequently, most of the various controls now conform to the desired layout.
 * Because of the behavior of Internet Explorer 6, the balance of the form controls are given a <code>float</code> value of <code>left</code>.  This value was assigned out of habit informed by (unpleasant) experience, but is not strictly necessary.
 * With the assignment of <code>block</code> values to the text controls, the Safari rendering problem seen in the two previous demonstrations has suddenly been resolved. Oddities like these are common when styling forms.
@@ -417,10 +394,6 @@ input, textarea, select {
 === Demonstration 7 ===
  
 The widths of the various text controls need to be changed from their default values.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form07.html Alter the widths of text controls to make them more usable, or at least more consistent]
 
 ==== New styles: ====
  
@@ -434,17 +407,13 @@ select.medium { width: 12em; }
  
 === Demonstration 7: background considerations ===
  
-* A re-examination of the source markup will reveal that each control has been assigned a <code>class</code> — one of three width-related controls for text and <code>select</code> controls, and other classes for controls that rely on pointer/cursor input rather than keyboard input.
-* Classes need to be assigned to controls mostly because Internet Explorer’s support for advanced selectors is limited.  As selectors go, the <code>rInput</code> <code>class</code> could just as easily be superseded by  <code>input[type="radio"], input[type="checkbox"]</code>… if current production versions of Internet Explorer supported the latter at all.
-* The assignment of ''three'' possible values for text controls is entirely arbitrary, and left up to the designer. In commercial settings, some designers deliver work so ''particular'' about layout that <code>class</code> selectors like those used here would be functionally useless.  Assigning an <code>id</code> to each label/control pair provides the simplest possible reference to each element with the form — simplicity that’s valuable when styling the work of a designer who insists on putting his touch on every little nook of the site layout.
+* A re-examination of the source markup will reveal that each control has been assigned a <code>class</code>  &mdash;  one of three width-related controls for text and <code>select</code> controls, and other classes for controls that rely on pointer/cursor input rather than keyboard input.
+* Classes need to be assigned to controls mostly because Internet Explorer's support for advanced selectors is limited.  As selectors go, the <code>rInput</code> <code>class</code> could just as easily be superseded by  <code>input[type="radio"], input[type="checkbox"]</code>... if current production versions of Internet Explorer supported the latter at all.
+* The assignment of ''three'' possible values for text controls is entirely arbitrary, and left up to the designer. In commercial settings, some designers deliver work so ''particular'' about layout that <code>class</code> selectors like those used here would be functionally useless.  Assigning an <code>id</code> to each label/control pair provides the simplest possible reference to each element with the form  &mdash;  simplicity that's valuable when styling the work of a designer who insists on putting his touch on every little nook of the site layout.
  
 === Demonstration 8 ===
  
-The form’s submit button has been languishing…
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form08.html Precisely adjust the composition of the form’s submit button]
+The form's submit button has been languishing...
 
 ==== New styles: ====
  
@@ -463,15 +432,11 @@ The form’s submit button has been languishing…
 === Demonstration 8: background considerations ===
  
 * The greatest challenge faced when styling submit buttons is to compose them ''exactly'' as desired by the designer.  In common practice the desired look is obtained only after extensive dithering with layout and <code>line-height</code> properties; some developers might find it less time-consuming to use image replacement (see Bibliography) or <code>input type="image"</code> instead.
-* At first glance, the assignment of <code>display: block</code> to this item appears redundant — and certainly is, if we think solely in terms of a single form on a single page. However, in the context of an entire site it might not be redundant; many sites and applications have multiple forms in one document with differing <code>display</code> values.
+* At first glance, the assignment of <code>display: block</code> to this item appears redundant  &mdash;  and certainly is, if we think solely in terms of a single form on a single page. However, in the context of an entire site it might not be redundant; many sites and applications have multiple forms in one document with differing <code>display</code> values.
  
 === Demonstration 9 ===
  
-Put the “required” tags where they belong.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form09.html Move the “required” tags flush to the notional right margin of the form, and change their text properties]
+Put the "required" tags where they belong.
 
 ==== New styles: ====
  
@@ -488,17 +453,13 @@ Put the “required” tags where they belong.
 === Demonstration 9: background considerations ===
  
 * In its current state, the <code>fieldset</code> containing the <code>radio</code> controls is still a block element, so it stretches all the way to the right margin of the form.  As a result, the tag attached to this set of controls is pushed below the calculated bottom of the <code>fieldset</code>.
-* The <code>auto</code> value supplied for the <code>width</code> of the “required” tags mandates that they should be no wider than their content.
-* A closer look at the arithmetic used for the typesetting of the “required” tags will reveal a typesize of ten pixels, and leading of 24 pixels (equivalent to one atomic unit of the grid being used).
-* The structure used to indicate required fields was built with user interactivity in mind; with the various classes applied to the form it’s possible to validate user input with JavaScript and change the styling of labels, fields, and/or tags in label/control sets that were not properly manipulated by the user.
+* The <code>auto</code> value supplied for the <code>width</code> of the "required" tags mandates that they should be no wider than their content.
+* A closer look at the arithmetic used for the typesetting of the "required" tags will reveal a typesize of ten pixels, and leading of 24 pixels (equivalent to one atomic unit of the grid being used).
+* The structure used to indicate required fields was built with user interactivity in mind; with the various classes applied to the form it's possible to validate user input with JavaScript and change the styling of labels, fields, and/or tags in label/control sets that were not properly manipulated by the user.
  
 === Demonstration 10 ===
  
-It’s finally time to settle up the collisions of the <code>radio</code> controls with the fields below them in the source order.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form10.html Line up the radio controls and their labels horizontally]
+It's finally time to settle up the collisions of the <code>radio</code> controls with the fields below them in the source order.
 
 ==== New styles: ====
  
@@ -525,16 +486,12 @@ li.required fieldset {
 === Demonstration 10: background considerations ===
  
 * The main result of these rules, apart from making cosmetic adjustments, is to change the <code>display</code> value of <code>radio</code> and <code>checkbox</code> controls back to <code>inline</code>.  This is done to avoid the hassles that go in hand with floating them like the rest of the <code>input</code> elements in the form.
-* In spite of the assignment of <code>display: inline</code> to the associated controls, they remain as “replaced” elements: inline elements with known static dimensions at runtime (ie, before the browser actually begins to render the content).  For this reason margins can be applied to these items.
-* The peculiar nature of <code>fieldset</code> elements — specifically, that they are the only <code>%block</code> elements intended ''specifically'' for use in forms — requires that a discrete width be applied in this case to any <code>fieldset</code> containing controls that ''require'' user activation. (See the discussion of the “required” tag layout values above.)
+* In spite of the assignment of <code>display: inline</code> to the associated controls, they remain as "replaced" elements: inline elements with known static dimensions at runtime (ie, before the browser actually begins to render the content).  For this reason margins can be applied to these items.
+* The peculiar nature of <code>fieldset</code> elements  &mdash;  specifically, that they are the only <code>%block</code> elements intended ''specifically'' for use in forms  &mdash;  requires that a discrete width be applied in this case to any <code>fieldset</code> containing controls that ''require'' user activation. (See the discussion of the "required" tag layout values above.)
  
 === Demonstration 11 ===
  
-For the last hurrah, to get the last bits lined up just-so…
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form11.html Make final layout tweaks to various controls]
+For the last hurrah, to get the last bits lined up just so...
 
 ==== New styles: ====
  
@@ -567,10 +524,6 @@ For the last hurrah, to get the last bits lined up just-so…
 === Demonstration 12 ===
  
 All of the preceding styles were developed for Opera or Safari (take your pick, they both behaved comparatively well). The ones that follow are specific to Internet Explorer, specified in a CSS file <code>link</code>ed within a conditional comment block.
- 
-==== Links: ====
- 
-* [http://dev.opera.com/articles/view/34-styling-forms/demo_form_complete.html Make the last set of adjustments for Internet Explorer]
 
 ==== New styles: ====
  
@@ -628,32 +581,32 @@ input.submitButton { margin-top: .15em; }
  
 The last section of the demonstration illustrates the kind of styles set aside for Internet Explorer 6 and 7, and begs a discussion of how widely varying browsers are treated by the conscientous site design team.
  
-The reality of the Web is that users run a wide assortment of browsers in all manner of environments. Some are old, while others are on the bleeding edge. Some run on fully featured computers, while others run on mobile devices such as telephones. All of them are developed on specific operating systems, then ''ported'' to others with varying degrees of standards support. With the exception of Opera, all browser vendors ship products that are designed to be used alongside other titles in a larger suite of products — a design requirement that makes those browsers more complex than necessary for the single task of browsing the Web.
+The reality of the Web is that users run a wide assortment of browsers in all manner of environments. Some are old, while others are on the bleeding edge. Some run on fully featured computers, while others run on mobile devices such as telephones. All of them are developed on specific operating systems, then ''ported'' to others with varying degrees of standards support. With the exception of Opera, all browser vendors ship products that are designed to be used alongside other titles in a larger suite of products  &mdash;  a design requirement that makes those browsers more complex than necessary for the single task of browsing the Web.
  
-As if the manifold strengths and weaknesses of browsers weren’t enough to consider, there is also the matter of bugs — security bugs, component bugs, and especially rendering bugs. Users of Safari 3.x have discovered that at one point, the demonstration document uncovers a discomfiting rendering bug in their own browser of choice.
+As if the manifold strengths and weaknesses of browsers weren't enough to consider, there is also the matter of bugs  &mdash;  security bugs, component bugs, and especially rendering bugs. Users of Safari 3.x have discovered that at one point, the demonstration document uncovers a discomfiting rendering bug in their own browser of choice.
  
-The best manner of dealing with these issues is to define support tiers. This practice was first promulgated by the interface development team at Yahoo!, which refers to it as “Graded Browser Support.”
+The best manner of dealing with these issues is to define support tiers. This practice was first promulgated by the interface development team at Yahoo!, which refers to it as "Graded Browser Support."
  
 Generally, support tiers fall into four broad categories:
  
-# Site renders as originally composed within the limits of these browsers’ capabilities, and all features are fully supported. The development platform defines what is sometimes called the “A+” tier.
+# Site renders as originally composed within the limits of these browsers' capabilities, and all features are fully supported. The development platform defines what is sometimes called the "A+" tier.
 # Deviation from the preferred composition is evident, perhaps to a significant degree; however, the site is still usable, and most if not all site features are supported.
-# The site served to users of these browsers is as plain as can be managed without tarnishing the site owner’s brand, and site features may well be disabled. These browsers typically have comparatively small install bases and are judged to be outdated, unstable, or underfeatured.
-# Referred to in the Yahoo! documentation as “X Grade” support, this level of support is reserved for ''untested'' platforms — typically newer browsers with small install bases (often Opera, natch). Once tested, such browsers are promoted to a higher tier.
+# The site served to users of these browsers is as plain as can be managed without tarnishing the site owner's brand, and site features may well be disabled. These browsers typically have comparatively small install bases and are judged to be outdated, unstable, or underfeatured.
+# Referred to in the Yahoo! documentation as "X Grade" support, this level of support is reserved for ''untested'' platforms  &mdash;  typically newer browsers with small install bases (often Opera, natch). Once tested, such browsers are promoted to a higher tier.
  
 The particulars of the requirements gathering process that inform the definition of support tiers and assign browsers to them run to the long and tedious, and for that reason will be omitted from this already long article.
  
-== Complex form layouts in practice (…instead of theory) ==
+== Complex form layouts in practice (...instead of theory) ==
  
 Among the background notes provided above, it was stated that the demonstration was staged in the stylesheet source order, rather than the order in which rules were actually added to the stylesheet. The reasons for doing so include:
  
-* In order to outline a timeline-based series of demonstrations it was necessary to keep a journal (or to store the stylesheet in a versioning system) - a step that was never taken. By the time that oversight was noticed, this article was too far past deadline to correct it.
-* Staging according to source order makes it far easier to produce the demonstration documents — yet another concession of the ideal to the practical.
-* Since the original demonstration stylesheet was written with considerable (if not complete) care to normalization and source order — as all production stylesheets should be — staging the demonstration in source order guarantees that those students wishing to “View the Source” will have a far easier time making sense of what’s actually being served.
+* In order to outline a timeline-based series of demonstrations it was necessary to keep a journal (or to store the stylesheet in a versioning system) &mdash; a step that was never taken. By the time that oversight was noticed, this article was too far past deadline to correct it.
+* Staging according to source order makes it far easier to produce the demonstration documents  &mdash;  yet another concession of the ideal to the practical.
+* Since the original demonstration stylesheet was written with considerable (if not complete) care to normalization and source order  &mdash;  as all production stylesheets should be  &mdash;  staging the demonstration in source order guarantees that those students wishing to "View the Source" will have a far easier time making sense of what's actually being served.
  
-Opera 9.6 for OS X was the useragent used for development; with that caveat and the others above supplied, here’s the general order in which changes and additions were made to the stylesheet:
+Opera 9.6 for OS X was the useragent used for development; with that caveat and the others above supplied, here's the general order in which changes and additions were made to the stylesheet:
  
-# Document (ie, <code>body</code>) styles applied
+# Document (i.e., <code>body</code>) styles applied
 # list, form, and <code>fieldset</code> defaults reset
 # typesetting specified
 # list items constrained and <code>clear</code>ed
@@ -664,11 +617,11 @@ Opera 9.6 for OS X was the useragent used for development; with that caveat and 
 # Safari and Firefox tested and stylesheet values changed to reflect compromises (where possible)
 # Internet Explorer 6 and 7 tested and supplied with property/value adjustments in a conditional stylesheet
  
-The process described immediately above starts with the broadest rules, and narrows in specificity until specific quirks of individual browsers are addressed… much like the source order of the stylesheet itself. However, the results don’t correlate perfectly. This happens because multiple rendering engines and the peculiarities of things like <code>float</code> context bring about unforeseen consequences when stirred into the proverbial mix, so the actual process requires more than a little doubling back, tweaking, and reconsideration.
+The process described above starts with the broadest rules, and narrows in specificity until specific quirks of individual browsers are addressed... much like the source order of the stylesheet itself. However, the results don't correlate perfectly. This happens because multiple rendering engines and the peculiarities of things like <code>float</code> context bring about unforeseen consequences when stirred into the proverbial mix, so the actual process requires more than a little doubling back, tweaking, and reconsideration.
  
 == Table: fraction to decimal conversions ==
  
-In the following table, digits contained within brackets with an asterisk after them are infinitely repeated; for example 0.2(6*) is equivalent to 0.266666666666666… (6 repeats forever).
+In the following table, digits contained within parentheses with an asterisk after them are infinitely repeated; for example 0.2(6*) is equivalent to 0.266666666666666... (6 repeats forever).
  
 Values closest to zero are on the left side of the table, and progress toward one as the table is read from left to right.
 
@@ -947,7 +900,11 @@ Values closest to zero are on the left side of the table, and progress toward on
 {{!}}.9375
 {{!}}}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -956,6 +913,7 @@ Values closest to zero are on the left side of the table, and progress toward on
 |Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* Bos, Bert, et al. 2007. [http://www.w3.org/TR/2007/CR-CSS21-20070719 Cascading style sheets level 2 revision 1 (CSS 2.1) specification]. World Wide Web Consortium. ''etc.'' (accessed 28 May 2008).
 * Henick, Ben. 2006. [http://www.alistapart.com/articles/12lessonsCSSandstandards 12 lessons for those afraid of CSS and standards]. A List Apart. (accessed 16 December 2008).
 * Horton, Sarah, and Lynch, Patrick. 2002. [http://www.webstyleguide.com/ Web style guide: basic principles for creating web sites, 2nd edition]. New Haven, Conn.: Yale University Press.
