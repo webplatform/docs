@@ -128,19 +128,19 @@ There are five special selectors:
 {{!}}'''Selector'''
 {{!}}'''Selects'''
 {{!}}-
-{{!}}<code>E{{ cssxref(":hover") }}</code>
+{{!}}<code>E:hover</code>
 {{!}}Any E element that has the pointer over it
 {{!}}-
-{{!}}<code>E{{ cssxref(":focus") }}</code>
+{{!}}<code>E:focus</code>
 {{!}}Any E element that has keyboard focus
 {{!}}-
-{{!}}<code>E{{ cssxref(":active") }}</code>
+{{!}}<code>E:active</code>
 {{!}}The E element that is involved in the current user action
 {{!}}-
-{{!}}<code>E{{ cssxref(":link") }}</code>
+{{!}}<code>E:link"</code>
 {{!}}Any E element that is a hyperlink to a URL that the user has ''not'' visited recently
 {{!}}-
-{{!}}<code>E{{ cssxref(":visited") }}</code>
+{{!}}<code>E:visited</code>
 {{!}}Any E element that is a hyperlink to a URL that the user ''has'' visited recently
 {{!}}}  
 '''Note: '''The information that can be obtained from the :visited selector is restricted in <code>gecko 2.0</code>. See [https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector Privacy and the :visited selector] for more details.
