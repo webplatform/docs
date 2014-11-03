@@ -53,7 +53,7 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 |Notes=
 |Import_Notes=
 }}
-{{Topics|JavaScript}}
+{{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
