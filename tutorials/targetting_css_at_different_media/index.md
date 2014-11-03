@@ -258,31 +258,6 @@ For more information about user interfaces in CSS, see [http://www.w3.org/TR/css
 3.  View this document in your browser; it uses your browser's default style.
 
 4. Print (or print preview) the document; the stylesheet places each section on a separate page, and it adds a header and footer to each page. If your browser supports counters, it adds a page number in the footer.
-{{{!}} border="1" 
-{{!}}- 
-{{!}}       
-{{{!}} border="1" 
-{{!}}- 
-{{!}}       
-{{{!}} border="1" 
-{{!}}- 
-{{!}}                               Heading for paged media                               Section A                               This is the first section...                               Page: 1 
-{{!}}} 
-{{!}}} 
-{{!}}       
-{{{!}} border="1" 
-{{!}}- 
-{{!}}       
-{{{!}} border="1" 
-{{!}}- 
-{{!}}                               Heading for paged media                               Section B                               This is the second section...                               Page: 2 
-{{!}}} 
-{{!}}} 
-{{!}}}
-        
-{{{!}} border="1"
-{{!}}+
-{{!}}} 
 
 ===Challenges===
 *Move the print-specific style rules to a separate CSS file.
