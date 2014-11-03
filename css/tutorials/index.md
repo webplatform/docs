@@ -75,7 +75,7 @@
 * [[tutorials/styling lists and links|Styling lists and links]]
 * [[guides/styling tables|Styling HTML tables]]
 * [[tutorials/table styling basics|Table styling basics]]
-* [[guides/styling forms guide|Styling forms — the ultimate guide]]
+* [[guides/styling forms guide|Styling forms]]
 
 ==CSS for mobile and devices==
 
