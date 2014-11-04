@@ -8,7 +8,7 @@ Refer to stash pages in http://docs.webplatform.org/wiki/TEST:beginners
 Also, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web
 |Checked_Out=No
 }}
-{{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with web site building.}}
+{{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with website building.}}
 {{Basic Page}}
 {{:Beginners/Submenu}}
 
