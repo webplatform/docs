@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs example
-
-An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn't have to be repeated over and over
+|State=Ready to Use
+|Editorial notes=An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn't have to be repeated over and over
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a time as a string value appropriate to the host environment's current locale.}}
@@ -18,10 +16,18 @@ An Internationalization/Localization center should be build to cover the basic c
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var nowdate = new Date();
+alert(nowdate.toLocaleTimeString());
+// output: "11:34:06 AM"
+
+|LiveURL=
+}}
 }}
 {{Remarks_Section
-|Remarks=String that contains a time, in the current time zone, in a human readable format. The date is in the default format of the host environment's current locale. 
+|Remarks=String that contains a time, in the current time zone, in a human readable format. The date is in the default format of the host environment's current locale.
 }}
 {{Notes_Section
 |Usage=The return value of '''toLocaleTimeString''' cannot be relied upon in scripting, as it will vary from computer to computer. The '''toLocaleTimeString''' method should only be used to format display - never as part of a computation.
