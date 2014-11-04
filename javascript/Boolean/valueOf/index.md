@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the primitive value of the specified boolean.}}
@@ -16,21 +16,32 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Remarks_Section
-|Remarks=The following code shows how to use this method.
-
- var bool = new Boolean("true");
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following code shows how to use this method.
+|Code= var bool = new Boolean("true");
  var s = bool.valueOf();
  document.write(s);
  
  // Output: true
+|LiveURL=
 }}
-{{Notes_Section}}
+}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
