@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=The title bar must be modified.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string representation of an array.}}
@@ -24,15 +24,22 @@
  document.write(s);
  
  // Output: 1,2,3,4
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The elements of an '''Array''' are converted to strings. The resulting strings are concatenated and separated by commas.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.2 15.4.4.2 Array.prototype.toString ( )]
 ECMAScript® Language Specification
