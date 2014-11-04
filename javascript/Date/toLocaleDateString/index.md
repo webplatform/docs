@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs example
-
-An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn't have to be repeated over and over
+|State=Ready to Use
+|Editorial notes=An Internationalization/Localization center should be build to cover the basic concepts (like locale) so this stuff doesn't have to be repeated over and over
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a date as a string value appropriate to the host environment's current locale.}}
@@ -14,11 +12,19 @@ An Internationalization/Localization center should be build to cover the basic c
 |Values=
 }}
 {{JS_Return_Value
-|Description=String that contains a date, in the current time zone, in a human readable format. The date is in the default format of the host environment's current locale. 
+|Description=String that contains a date, in the current time zone, in a human readable format. The date is in the default format of the host environment's current locale.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var nowdate = new Date();
+alert(nowdate.toLocaleDateString());
+// output: "Tuesday, November 04, 2014"
+
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=
