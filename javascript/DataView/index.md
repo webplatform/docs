@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|You can use a DataView object to read and write the different kinds of binary data to any location in the ArrayBuffer.}}
@@ -15,6 +15,7 @@
 |Description=The variable name to which the '''DataView''' object is assigned.
 }}{{JS Syntax Parameter
 |Name=buffer
+|Required=
 |Description=The ArrayBuffer that the DataView represents.
 }}{{JS Syntax Parameter
 |Name=byteOffset
@@ -26,7 +27,9 @@
 |Description=Specifies the length (in bytes) of the section of the buffer that the DataView should represent.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -48,12 +51,17 @@
          alert(ints[10]);
          }
      }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=If both byteOffset and byteLength are omitted, the DataView spans the entire ArrayBuffer range. If the byteLength is omitted, the DataView extends from the given byteOffset until the end of the ArrayBuffer. If the given byteOffset and byteLength references an area beyond the end of the ArrayBuffer, an exception is raised.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''DataView''' object.
@@ -130,7 +138,11 @@ The following table lists the methods of the '''DataView''' object.
 |}
 
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
