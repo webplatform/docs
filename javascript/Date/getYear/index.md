@@ -4,7 +4,7 @@
 |Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
 }}
-{{Summary_Section|Gets the year of a '''Date''' object.}}
+{{Summary_Section|Gets the year of a '''Date''' object. Deprecated in favor of '''getFullYear''' method.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=dateObj.getYear()
