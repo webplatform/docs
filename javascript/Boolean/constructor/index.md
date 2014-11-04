@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Initializes a Boolean object.}}
@@ -18,7 +19,9 @@
 |Description=Specifies the value of the Boolean object. This can be the numbers 1 or 0, or the strings "true" or "false".
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -30,15 +33,22 @@
 
  // Output:
  // Object is a Boolean.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The '''constructor''' property contains a reference to the function that constructs instances of the Boolean object.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.6 15.6 Boolean Objects]
 ECMAScript® Language Specification
