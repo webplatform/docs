@@ -66,7 +66,7 @@ The following table lists the properties of the '''ArrayBuffer''' object.
 ! Property
 ! Description
 |-
-| [[javascript/ArrayBuffer/byteLength|byteLength Property]]
+| [[javascript/ArrayBuffer/byteLength|byteLength]]
 | Read-only. The length of the ArrayBuffer (in bytes).
 |}
 
