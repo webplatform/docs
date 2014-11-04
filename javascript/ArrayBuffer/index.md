@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or [[javascript/DataView{{!}}DataView Object]] to interpret the raw buffer as needed.
@@ -18,10 +18,13 @@ For more information about typed arrays, see Typed Arrays.
 |Description=The variable name to which the '''ArrayBuffer''' object is assigned.
 }}{{JS Syntax Parameter
 |Name=length
+|Required=
 |Description=The length of the buffer. The contents of the ArrayBuffer are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -43,12 +46,17 @@ For more information about typed arrays, see Typed Arrays.
          alert(ints[10]);
          }
      }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=For more information about using XmlHttpRequest , see XMLHttpRequest enhancements.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 ==Properties==
 The following table lists the properties of the '''ArrayBuffer''' object.
@@ -64,7 +72,11 @@ The following table lists the properties of the '''ArrayBuffer''' object.
 
 
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
