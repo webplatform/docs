@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.}}
@@ -39,7 +39,9 @@
 |Description=An integer from 0 to 999 that specifies the milliseconds.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -69,6 +71,7 @@
   
  document.write(days);
  // Output: 10848
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -76,11 +79,17 @@
 
 The difference between the '''Date.UTC''' function and the Date object constructor that accepts a date is that the '''Date.UTC''' function assumes UTC, and the Date object constructor assumes local time.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Date/setTime{{!}}setTime Method (Date)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
