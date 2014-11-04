@@ -187,7 +187,6 @@ To be a good web-coder, you need to learn some good practices.
       <li>Enslave all Moon citizens.</li>
       <li>Eat solar plasma in the new Solar Heights.</li>
     </ul>
-  </p>
 </div>
 </syntaxHighlight>
 
