@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a reference to the prototype for a Boolean.}}
@@ -10,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -28,6 +31,7 @@
  
  // Output:
  // false
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Adds a function directly to the Boolean object through its prototype
@@ -37,6 +41,7 @@
 Boolean.prototype.toggle = function (){
   return !this.valueOf();
 }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -46,10 +51,18 @@ The '''prototype''' property provides a base set of functionality to a class of 
 
 For example, to add a method to the '''Boolean''' object that returns the value of the largest element of the array, declare the function, add it to '''Boolean.prototype''' , and then use it.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Property
 |Applies to=Boolean
