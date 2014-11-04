@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Stores a Uint8 value at the specified byte offset from the start of the view.}}
@@ -11,13 +11,17 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=byteOffset
+|Required=
 |Description=The place in the buffer at which the value should be set.
 }}{{JS Syntax Parameter
 |Name=value
+|Required=
 |Description=The value to set.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -35,15 +39,24 @@
              dataView.setUint8(0, 9);
          }
      }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=These methods raise an exception if they would write beyond the end of the view.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
