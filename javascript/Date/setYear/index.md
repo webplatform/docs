@@ -4,7 +4,7 @@
 |Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
 }}
-{{Summary_Section|Sets the year value in the Date object.}}
+{{Summary_Section|Sets the year value in the '''Date''' object. Deprecated in favor of the '''setFullYear''' method.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=dateObj.'''setYear(''' numYear ''')'''
