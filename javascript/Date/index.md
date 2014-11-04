@@ -97,10 +97,10 @@ The following table lists properties of the '''Date Object'''.
 ! Property
 ! Description
 |-
-| [[javascript/Date/constructor|constructor Property]]
+| [[javascript/Date/constructor|constructor]]
 | Specifies the function that creates an object.
 |-
-| [[javascript/Date/prototype|prototype Property]]
+| [[javascript/Date/prototype|prototype]]
 | Returns a reference to the prototype for a class of objects.
 |}
 ==Functions==
@@ -111,13 +111,13 @@ The following table lists functions of the '''Date Object'''.
 ! Functions
 ! Description
 |-
-| [[javascript/Date/now|Date.now Function]]
+| [[javascript/Date/now|Date.now]]
 | Returns the number of milliseconds between January 1, 1970, and the current date and time.
 |-
-| [[javascript/Date/parse|Date.parse Function]]
+| [[javascript/Date/parse|Date.parse]]
 | Parses a string containing a date, and returns the number of milliseconds between that date and midnight, January 1, 1970.
 |-
-| [[javascript/Date/UTC|Date.UTC Function]]
+| [[javascript/Date/UTC|Date.UTC]]
 | Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the supplied date.
 |}
 ==Methods==
@@ -128,151 +128,151 @@ The following table lists methods of the '''Date Object'''.
 ! Method
 ! Description
 |-
-| [[javascript/Date/getDate|getDate Method]]
+| [[javascript/Date/getDate|getDate]]
 | Returns the day-of-the-month value using local time.
 |-
-| [[javascript/Date/getDay|getDay Method]]
+| [[javascript/Date/getDay|getDay]]
 | Returns the day-of-the-week value using local time.
 |-
-| [[javascript/Date/getFullYear|getFullYear Method]]
+| [[javascript/Date/getFullYear|getFullYear]]
 | Returns the year value using local time.
 |-
-| [[javascript/Date/getHours|getHours Method]]
+| [[javascript/Date/getHours|getHours]]
 | Returns the hours value using local time.
 |-
-| [[javascript/Date/getMilliseconds|getMilliseconds Method]]
+| [[javascript/Date/getMilliseconds|getMilliseconds]]
 | Returns the milliseconds value using local time.
 |-
-| [[javascript/Date/getMinutes|getMinutes Method]]
+| [[javascript/Date/getMinutes|getMinutes]]
 | Returns the minutes value using local time.
 |-
-| [[javascript/Date/getMonth|getMonth Method]]
+| [[javascript/Date/getMonth|getMonth]]
 | Returns the month value using local time.
 |-
-| [[javascript/Date/getSeconds|getSeconds Method]]
+| [[javascript/Date/getSeconds|getSeconds]]
 | Returns seconds value using local time.
 |-
-| [[javascript/Date/getTime|getTime Method]]
+| [[javascript/Date/getTime|getTime]]
 | Returns the time value in a Date Object as the number of milliseconds since midnight January 1, 1970.
 |-
-| [[javascript/Date/getTimezoneOffset|getTimezoneOffset Method]]
+| [[javascript/Date/getTimezoneOffset|getTimezoneOffset]]
 | Returns the difference in minutes between the time on the host computer and Universal Coordinated Time (UTC).
 |-
-| [[javascript/Date/getUTCDate|getUTCDate Method]]
+| [[javascript/Date/getUTCDate|getUTCDate]]
 | Returns the day-of-the-month value using UTC.
 |-
-| [[javascript/Date/getUTCDay|getUTCDay Method]]
+| [[javascript/Date/getUTCDay|getUTCDay]]
 | Returns the day-of-the-week value using UTC.
 |-
-| [[javascript/Date/getUTCFullYear|getUTCFullYear Method]]
+| [[javascript/Date/getUTCFullYear|getUTCFullYear]]
 | Returns the year value using UTC.
 |-
-| [[javascript/Date/getUTCHours|getUTCHours Method]]
+| [[javascript/Date/getUTCHours|getUTCHours]]
 | Returns the hours value using UTC.
 |-
-| [[javascript/Date/getUTCMilliseconds|getUTCMilliseconds Method]]
+| [[javascript/Date/getUTCMilliseconds|getUTCMilliseconds]]
 | Returns the milliseconds value using UTC.
 |-
-| [[javascript/Date/getUTCMinutes|getUTCMinutes Method]]
+| [[javascript/Date/getUTCMinutes|getUTCMinutes]]
 | Returns the minutes value using UTC.
 |-
-| [[javascript/Date/getUTCMonth|getUTCMonth Method]]
+| [[javascript/Date/getUTCMonth|getUTCMonth]]
 | Returns the month value using UTC.
 |-
-| [[javascript/Date/getUTCSeconds|getUTCSeconds Method]]
+| [[javascript/Date/getUTCSeconds|getUTCSeconds]]
 | Returns the seconds value using UTC.
 |-
-| [[javascript/Date/getYear|getYear Method]]
+| [[javascript/Date/getYear|getYear]]
 | Returns the year value .
 |-
-| [[javascript/Object/hasOwnProperty|hasOwnProperty Method]]
+| [[javascript/Object/hasOwnProperty|hasOwnProperty]]
 | Returns a Boolean value that indicates whether an object has a property with the specified name.
 |-
-| [[javascript/Object/isPrototypeOf|isPrototypeOf Method]]
+| [[javascript/Object/isPrototypeOf|isPrototypeOf]]
 | Returns a Boolean value that indicates whether an object exists in another object's prototype chain.
 |-
-| [[javascript/Object/propertyIsEnumerable|propertyIsEnumerable Method]]
+| [[javascript/Object/propertyIsEnumerable|propertyIsEnumerable]]
 | Returns a Boolean value that indicates whether a specified property is part of an object and whether it is enumerable.
 |-
-| [[javascript/Date/setDate|setDate Method]]
+| [[javascript/Date/setDate|setDate]]
 | Sets the numeric day of the month using local time.
 |-
-| [[javascript/Date/setFullYear|setFullYear Method]]
+| [[javascript/Date/setFullYear|setFullYear]]
 | Sets the year value using local time.
 |-
-| [[javascript/Date/setHours|setHours Method]]
+| [[javascript/Date/setHours|setHours]]
 | Sets the hours value using local time.
 |-
-| [[javascript/Date/setMilliseconds|setMilliseconds Method]]
+| [[javascript/Date/setMilliseconds|setMilliseconds]]
 | Sets the milliseconds value using local time.
 |-
-| [[javascript/Date/setMinutes|setMinutes Method]]
+| [[javascript/Date/setMinutes|setMinutes]]
 | Sets the minutes value using local time.
 |-
-| [[javascript/Date/setMonth|setMonth Method]]
+| [[javascript/Date/setMonth|setMonth]]
 | Sets the month value using local time.
 |-
-| [[javascript/Date/setSeconds|setSeconds Method]]
+| [[javascript/Date/setSeconds|setSeconds]]
 | Sets the seconds value using local time.
 |-
-| [[javascript/Date/setTime|setTime Method]]
+| [[javascript/Date/setTime|setTime]]
 | Sets the date and time value in the Date object.
 |-
-| [[javascript/Date/setUTCDate|setUTCDate Method]]
+| [[javascript/Date/setUTCDate|setUTCDate]]
 | Sets the numeric day of the month using UTC.
 |-
-| [[javascript/Date/setUTCFullYear|setUTCFullYear Method]]
+| [[javascript/Date/setUTCFullYear|setUTCFullYear]]
 | Sets the year value using UTC.
 |-
-| [[javascript/Date/setUTCHours|setUTCHours Method]]
+| [[javascript/Date/setUTCHours|setUTCHours]]
 | Sets the hours value using UTC.
 |-
-| [[javascript/Date/setUTCMilliseconds|setUTCMilliseconds Method]]
+| [[javascript/Date/setUTCMilliseconds|setUTCMilliseconds]]
 | Sets the milliseconds value using UTC.
 |-
-| [[javascript/Date/setUTCMinutes|setUTCMinutes Method]]
+| [[javascript/Date/setUTCMinutes|setUTCMinutes]]
 | Sets the minutes value using UTC.
 |-
-| [[javascript/Date/setUTCMonth|setUTCMonth Method]]
+| [[javascript/Date/setUTCMonth|setUTCMonth]]
 | Sets the month value using UTC.
 |-
-| [[javascript/Date/setUTCSeconds|setUTCSeconds Method]]
+| [[javascript/Date/setUTCSeconds|setUTCSeconds]]
 | Sets the seconds value using UTC.
 |-
-| [[javascript/Date/setYear|setYear Method]]
+| [[javascript/Date/setYear|setYear]]
 | Sets the year value using local time.
 |-
-| [[javascript/Date/toDateString|toDateString Method]]
+| [[javascript/Date/toDateString|toDateString]]
 | Returns a date as a string value.
 |-
-| [[javascript/Date/toGMTString|toGMTString Method]]
+| [[javascript/Date/toGMTString|toGMTString]]
 | Returns a date converted to a string using Greenwich Mean Time (GMT).
 |-
-| [[javascript/Date/toISOString|toISOString Method]]
+| [[javascript/Date/toISOString|toISOString]]
 | Returns a date as a string value in ISO format.
 |-
-| [[javascript/Date/toJSON|toJSON Method]]
+| [[javascript/Date/toJSON|toJSON]]
 | Used to transform data of an object type before the JSON serialization.
 |-
-| [[javascript/Date/toLocaleDateString|toLocaleDateString Method]]
+| [[javascript/Date/toLocaleDateString|toLocaleDateString]]
 | Returns a date as a string value appropriate to the host environment's current locale.
 |-
-| [[javascript/Object/toLocaleString|toLocaleString Method]]
+| [[javascript/Object/toLocaleString|toLocaleString]]
 | Returns an object converted to a string using the current locale.
 |-
-| [[javascript/Date/toLocaleTimeString|toLocaleTimeString Method]]
+| [[javascript/Date/toLocaleTimeString|toLocaleTimeString]]
 | Returns a time as a string value appropriate to the host environment's current locale.
 |-
-| [[javascript/Date/toString|toString Method]]
+| [[javascript/Date/toString|toString]]
 | Returns a string representation of an object.
 |-
-| [[javascript/Date/toTimeString|toTimeString Method]]
+| [[javascript/Date/toTimeString|toTimeString]]
 | Returns a time as a string value.
 |-
-| [[javascript/Date/toUTCString|toUTCString Method]]
+| [[javascript/Date/toUTCString|toUTCString]]
 | Returns a date converted to a string using UTC.
 |-
-| [[javascript/Date/valueOf|valueOf Method]]
+| [[javascript/Date/valueOf|valueOf]]
 | Returns the primitive value of the specified object.
 |}
 {{Topics | JS Basic}}
