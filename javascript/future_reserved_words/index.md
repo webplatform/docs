@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Latest changes need review. See https://people.mozilla.org/~jorendorff/es6-draft.html
+|State=Ready to Use
+|Editorial notes=Keep up with latest changes at https://people.mozilla.org/~jorendorff/es6-draft.html
 |Checked_Out=No
 }}
 {{Summary_Section|In JavaScript, future reserved keywords must not be used as identifiers, even though they have no special meaning in the current version.
