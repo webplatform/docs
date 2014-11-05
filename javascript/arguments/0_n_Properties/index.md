@@ -1,6 +1,7 @@
-{{Page_Title}}
+{{Page_Title|0...n Properties}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the actual value of individual arguments from an '''arguments''' object returned by the '''arguments''' property of an executing function.}}
@@ -18,7 +19,9 @@
 |Description=Non-negative integer in the range of 0 to n where 0 represents the first argument and n represents the final argument. The value of the final argument n is '''arguments.length-1'''.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -34,17 +37,24 @@
     return(s);
  }
  document.write(ArgTest(1, 2, "hello", new Date()));
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The values returned by the 0 . . . n properties are the actual values passed to the executing function. While not actually an array of arguments, the individual arguments that comprise the '''arguments''' object are accessed the same way that array elements are accessed.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/arguments/length{{!}}length Property (arguments)]]
 * [[javascript/Function/length{{!}}length Property (Function)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
