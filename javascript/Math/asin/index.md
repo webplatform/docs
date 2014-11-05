@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the arcsine of a number.}}
@@ -20,12 +20,23 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var v1 = Math.asin(-1.0);
+document.write(v1);
+// Output: -1.5707963267948965 
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=Applies To : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -35,6 +46,8 @@
 * [[javascript/Math/sin{{!}}Math.sin Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
 * [[javascript/Math{{!}}Math Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
