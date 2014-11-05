@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=1. There is a table that needs to either be cleaned up, split into actual separate articles, or removed.
+|State=Ready to Use
+|Editorial notes=Items for later cleanup:
+1. There is a table that needs to either be cleaned up, split into actual separate articles, or removed.
 2. An automatically generated list of properties and methods (either static, instance or inherited ones) is absent.
 |Checked_Out=No
 }}
@@ -243,6 +244,7 @@ The following table lists the methods of the '''String''' object.
 }}
 {{JS Topics
 |JS Page Type=JS Basic
+|Applies to=
 }}
 {{External_Attribution
 |Is_CC-BY-SA=No
