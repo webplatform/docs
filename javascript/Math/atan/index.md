@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the arctangent of a number.}}
@@ -11,10 +11,19 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var v1 = Math.atan(-1.0);
+document.write(v1);
+// Output: -0.7853981633974483
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required number argument is a numeric expression for which the arctangent is needed.
@@ -23,7 +32,11 @@ The return value is the arctangent of the number argument, in radians.
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -34,6 +47,8 @@ The return value is the arctangent of the number argument, in radians.
 * [[javascript/Math/sin{{!}}Math.sin Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
 * [[javascript/Math{{!}}Math Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
