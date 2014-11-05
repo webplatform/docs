@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the sine of a number.}}
@@ -11,17 +11,30 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var v1 = Math.sin(1.0);
+document.write(v1);
+// Output: 0.8414709848078965
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The radians argument is a numeric expression that contains an angle measured in radians.
 
 The return value is the sine of the numeric argument.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -30,6 +43,8 @@ The return value is the sine of the numeric argument.
 * [[javascript/Math/atan{{!}}Math.atan Function]]
 * [[javascript/Math/cos{{!}}Math.cos Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
