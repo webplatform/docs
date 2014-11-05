@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken links in Properties table
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Needs Review
 |Content=Incomplete
@@ -119,26 +119,11 @@ The following table lists the properties of the '''Number''' object.
 ! Property
 ! Description
 |-
-| [[javascript/Object/constructor|constructor Property]]
+| [[javascript/Object/constants|constants]]
+| Lists the constants of the Number object.
+|-
+| [[javascript/Object/constructor|constructor]]
 | Specifies the function that creates an object.
-|-
-| [[javascript/Number/MAX_VALUE|MAX_VALUE Property]]
-| Represents the largest representable number.
-|-
-| [[javascript/Number/MIN_VALUE|MIN_VALUE Property]]
-| Represents the smallest representable number.
-|-
-| [[javascript/Object/NaN|NaN Property]]
-| NaN is a special value indicating that the value is "Not-A-Number".
-|-
-| [[javascript/Number/NEGATIVE_INFINITY|NEGATIVE_INFINITY Property]]
-| Represents negative infinity.
-|-
-| [[javascript/Number/POSITIVE_INFINITY|POSITIVE_INFINITY Property]]
-| Represents positive infinity.
-|-
-| [[javascript/Object/prototype|prototype Property]]
-| Returns a reference to the prototype for a class of objects.
 |}
 
 ==Methods==
@@ -149,31 +134,19 @@ The following table lists the methods of the '''Number''' object.
 ! Method
 ! Description
 |-
-| [[javascript/Object/hasOwnProperty|hasOwnProperty Method]]
-| Returns a Boolean value that indicates whether an object has a property with the specified name.
-|-
-| [[javascript/Object/isPrototypeOf|isPrototypeOf Method]]
-| Returns a Boolean value that indicates whether an object exists in another object's prototype hierarchy.
-|-
-| [[javascript/Object/propertyIsEnumerable|propertyIsEnumerable Method]]
-| Returns a Boolean value that indicates whether a specified property is part of an object and whether it is enumerable.
-|-
-| [[javascript/Number/toExponential|toExponential method]]
+| [[javascript/Number/toExponential|toExponential]]
 | Returns a string that contains a number represented in exponential notation.
 |-
-| [[javascript/Number/toFixed|toFixed method]]
+| [[javascript/Number/toFixed|toFixed]]
 | Returns a string that represents a number in fixed-point notation.
 |-
-| [[javascript/Object/toLocaleString|toLocaleString Method]]
-| Returns an object converted to a string based on the current locale.
-|-
-| [[javascript/Number/toPrecision|toPrecision method]]
+| [[javascript/Number/toPrecision|toPrecision]]
 | Returns a string that contains a number that is represented in either exponential or fixed-point notation and that has a specified number of digits.
 |-
-| [[javascript/Object/toString|toString Method]]
+| [[javascript/Number/toString|toString]]
 | Returns a string representation of an object.
 |-
-| [[javascript/Object/valueOf|valueOf Method]]
+| [[javascript/Number/valueOf|valueOf]]
 | Returns the primitive value of the specified object.
 |}
 
