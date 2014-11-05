@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
-|Editorial notes=
+|State=Not Ready
+|Editorial notes=Browser-specific (IE 10+); deletion candidate.
 |Checked_Out=No
 }}
-{{Summary_Section|The following table lists JavaScript directives.  A directive is a token that can be inserted and would affect the rest of the execution flow in which it has been inserted.}}
+{{Summary_Section|The following table lists JavaScript directives.  A directive is a token that adds certain syntactic and semantic restrictions.}}
 {{JS_Syntax
 |Formats=
 |Values=
@@ -16,7 +16,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=The "use strict" is one of the most known directives web browser supports.
+|Description=The "use strict" directive is one of the most known directives that web browsers support.
 |Code=(function(){
   "use strict"; // The use strict directive
 
@@ -40,8 +40,8 @@
 ! Description
 ! Language Element
 |-
-| Adds certain syntactic and semantic restrictions. Supported in Internet Explorer 10 and Windows Store apps.
 | [[javascript/directives/use strict|use strict]]
+| Adds certain syntactic and semantic restrictions. Supported in Internet Explorer 10 and Windows Store apps.
 |}
 {{Topics | JS Basic}}
 {{See_Also_Section
