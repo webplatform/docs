@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the cosine of a number.}}
@@ -11,10 +11,19 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var v1 = Math.cos(-1.0);
+document.write(v1);
+// Output: 0.5403023058681398
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The required radians argument is a numeric expression that contains an angle measured in radians.
@@ -23,7 +32,11 @@ The return value is the cosine of the numeric argument of radians.
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -32,6 +45,8 @@ The return value is the cosine of the numeric argument of radians.
 * [[javascript/Math/atan{{!}}Math.atan Function]]
 * [[javascript/Math/sin{{!}}Math.sin Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
