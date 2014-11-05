@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Browser-specific (IE 10+); deletion candidate.
+|State=Ready to Use
+|Editorial notes=Browser-specific (IE 10+) or cross-browser?
 |Checked_Out=No
 }}
 {{Summary_Section|The following table lists JavaScript directives.  A directive is a token that adds certain syntactic and semantic restrictions.}}
