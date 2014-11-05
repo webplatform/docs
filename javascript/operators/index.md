@@ -130,7 +130,7 @@
 | [[javascript/operators/logical not|Logical NOT (!)]]
 | Performs logical negation on an expression.
 |-
-| [[javascript/operators/logical or|Logical OR (||]]
+| [[javascript/operators/logical or|Logical OR (<nowiki>||</nowiki>]]
 | Performs a logical disjunction on two expressions.
 |-
 | [[javascript/operators/modulus assignment|Modulus Assignment (%=)]]
