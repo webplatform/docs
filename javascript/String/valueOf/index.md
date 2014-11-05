@@ -1,14 +1,15 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the value of a string.}}
 {{JS_Syntax
-|Formats={{JS_Syntax_Format
-|Format=string.valueOf()}}
-|Values={{JS_Syntax_Parameter
-|Description=This method has no parameters.}}
+|Formats={{JS Syntax Format
+|Format=string.valueOf()
+}}
+|Values=
 }}
 {{JS_Return_Value
 |Description=Returns the string value.
@@ -28,16 +29,24 @@ document.write("different");
  
 // Output:
 // same
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=
- 
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
