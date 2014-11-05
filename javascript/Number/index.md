@@ -119,11 +119,14 @@ The following table lists the properties of the '''Number''' object.
 ! Property
 ! Description
 |-
-| [[javascript/Object/constants|constants]]
+| [[javascript/Number/constants|constants]]
 | Lists the constants of the Number object.
 |-
-| [[javascript/Object/constructor|constructor]]
+| [[javascript/Number/constructor|constructor]]
 | Specifies the function that creates an object.
+|-
+| [[javascript/Number/prototype|prototype]]
+| Returns a reference to the prototype for a class of number.
 |}
 
 ==Methods==
