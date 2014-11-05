@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns the angle (in radians) from the X axis to a point ( y , x ).}}
@@ -19,23 +19,38 @@
 |Description=A numeric expression representing the cartesian y-coordinate.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var v1 = Math.atan2(2,3);
+document.write(v1);
+// Output: 0.5880026035475675
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The return value is between -pi and pi. It represents the angle of the supplied ( y , x ) point, in radians.
 
 '''Applies To''' : [[javascript/Math{{!}}Math Object]]
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/Math/atan{{!}}Math.atan Function]]
 * [[javascript/Math/tan{{!}}Math.tan Function]]
 * [[javascript/Math{{!}}Math Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
