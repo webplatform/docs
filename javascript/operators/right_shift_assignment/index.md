@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.}}
@@ -10,16 +11,31 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=result
+|Required=
 |Description=Any variable.
 }}{{JS Syntax Parameter
 |Name=expression
+|Required=
 |Description=Any expression.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=// 14 is 00000000000000000000000000001110
+var temp = 14;
+temp >>= 2; 
+document.write(temp);
+// 3 is 00000000000000000000000000000011
+//Output: 3
+
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=Using the '''&gt;&gt;=''' operator is exactly the same as specifying:
@@ -31,13 +47,19 @@ The '''&gt;&gt;=''' operator shifts the bits of result right by the number of bi
  temp = -14
  temp &gt;&gt;= 2
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/bitwise left shift{{!}}Bitwise Left Shift Operator (&#60;&#60;)]]
 * [[javascript/operators/bitwise right shift{{!}}Bitwise Right Shift Operator (&#62;&#62;)]]
 * [[javascript/operators/unsigned right shift{{!}}Unsigned Right Shift Operator (&#62;&#62;&#62;)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
