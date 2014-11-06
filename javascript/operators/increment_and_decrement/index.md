@@ -36,8 +36,7 @@
 |Code=var k = 5;
 var j;
 j = ++k; //result: j = 6, k = 5
-j = k++ //result: j = 5, k = 6
-
+j = k++; //result: j = 5, k = 6
 |LiveURL=
 }}
 }}
