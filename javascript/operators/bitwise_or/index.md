@@ -32,7 +32,7 @@
 |Language=JavaScript
 |Description=See Remarks.
 |Code=var x;
-x = 5 <nowiki>|</nowiki> 12; 
+x = 5 {{!}} 12; 
 // result: x = 13
 |LiveURL=
 }}
