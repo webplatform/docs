@@ -1,14 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Performs a logical conjunction on two expressions.}}
 {{JS_Syntax
 |Formats={{JS Syntax Format
 |Format=result = expression1 &amp;&amp; expression2
-
 }}
 |Values={{JS Syntax Parameter
 |Name=result
