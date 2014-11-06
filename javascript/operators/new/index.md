@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Creates a new object.}}
@@ -18,10 +19,19 @@
 |Description=Any arguments to be passed to the new object's constructor.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=These are examples of valid uses of the '''new''' operator.
+|Code=my_object = new Object;
+my_array = new Array();
+my_date = new Date("Jan 5 1996");
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The new operator performs the following tasks:
@@ -29,17 +39,19 @@
 * It creates an object with no members.
 * It calls the constructor for that object, passing a pointer to the newly created object as the this pointer.
 * The constructor then initializes the object according to the arguments passed to the constructor.
-These are examples of valid uses of the '''new''' operator.
 
- my_object = new Object;
- my_array = new Array();
- my_date = new Date("Jan 5 1996");
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/function{{!}}function Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
