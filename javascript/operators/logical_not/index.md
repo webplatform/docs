@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Performs logical negation on an expression.}}
@@ -10,16 +11,29 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=result
+|Required=
 |Description=Any variable.
 }}{{JS Syntax Parameter
 |Name=expression
+|Required=
 |Description=Any expression.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var x = 5;
+var y = 7;
+var z;
+z = ! (x = y); // result: z = true
+z = ! (y > x); // result: z = false
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=The following table illustrates how result is determined.
@@ -45,10 +59,18 @@ The operator is applied to the resulting number.
 
 For the '''!''' operator, if expression is nonzero, result is zero. If expression is zero, result is 1.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
