@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs examples
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value indicating the result of the comparison.}}
@@ -11,19 +11,34 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=expression1
+|Required=
 |Description=Any expression.
 }}{{JS Syntax Parameter
 |Name=comparisonoperator
+|Required=
 |Description=Any comparison operator (see Remarks).
 }}{{JS Syntax Parameter
 |Name=expression2
+|Required=
 |Description=Any expression.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=See Remarks.
+|Code=var x = 5;
+var y = 7;
+var z = (x > y); // false
+var z = (x < y); // true
+var z = (y >= x); // true
+var z = (y <= x); // false
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=When comparing strings, JavaScript uses the Unicode character value of the string expression.
@@ -50,10 +65,18 @@ Identity operators: '''===''' , '''!=='''
 
 These operators behave the same as the equality operators, except that no type conversion is done. If the types of both expressions are not the same, these expressions always return false.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
