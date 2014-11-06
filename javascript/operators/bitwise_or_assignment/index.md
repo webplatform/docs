@@ -28,7 +28,7 @@
 |Language=JavaScript
 |Description=See Remarks.
 |Code=var x = 5;
-x <nowiki>|</nowiki>=  12; 
+x {{!}}= 12; 
 // result: x = 13
 |LiveURL=
 }}
