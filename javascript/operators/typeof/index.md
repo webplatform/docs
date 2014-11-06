@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a string that identifies the data type of an expression.}}
@@ -10,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -23,6 +26,7 @@
  var description = "abc";
  var result = (typeof description === 'string');
  // Output: true
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following example tests for a data type of undefined for declared and undeclared variables.
@@ -43,6 +47,7 @@
  // An undeclared variable cannot be compared to undefined,
  // so the next line generates an error.
  //  var result = (notDeclared === undefined);
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -52,7 +57,11 @@ The typeof operator returns type information as a string. There are six possible
 
 The parentheses are optional in the typeof syntax.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -60,6 +69,8 @@ The parentheses are optional in the typeof syntax.
 * [[javascript/Object/getPrototypeOf{{!}}Object.getPrototypeOf Function]]
 * [[javascript/undefined{{!}}undefined Constant]]
 * [[javascript/operators/comparison{{!}}Comparison Operators]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
