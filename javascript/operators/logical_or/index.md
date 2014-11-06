@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Performs a logical disjunction on two expressions.}}
@@ -10,19 +11,36 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=result
+|Required=
 |Description=Any variable.
 }}{{JS Syntax Parameter
 |Name=expression1
+|Required=
 |Description=Any expression.
 }}{{JS Syntax Parameter
 |Name=expression2
+|Required=
 |Description=Any expression.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var x = 5;
+var y = 7;
+var z;
+z = (x < y) {{!}}{{!}} (x <= y); // result: z = true
+z = (x < y) {{!}}{{!}} (x > y); // result: z = true
+z = (x > y) {{!}}{{!}} (x <= y); // result: z = true
+z = (x > y) {{!}}{{!}} (x >= y); // result: z = false
+
+|LiveURL=
+}}
 }}
 {{Remarks_Section
 |Remarks=If either or both expressions evaluate to '''True''' , result is '''True'''. The following table illustrates how result is determined:
@@ -56,10 +74,18 @@ JavaScript uses the following rules for converting non-Boolean values to Boolean
 * null and undefined are considered false.
 * Numbers are false if, and only if, they are 0.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
