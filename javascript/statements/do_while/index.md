@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.}}
@@ -21,7 +21,9 @@
 |Description=An expression that can be coerced to Boolean true or false. If expression is true , the loop is executed again. If expression is false , the loop is terminated.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -34,6 +36,7 @@
  } while (i &lt; 10);
  
  // Output: 0 1 2 3 4 5 6 7 8 9
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=In the following example, the statements inside the loop are executed once even though the condition is not met.
@@ -44,6 +47,7 @@
  } while (i &lt; 10);
  
  // Output: 10
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -51,7 +55,11 @@
 
 On any line in a do...while block, you can use the break statement to cause the program flow to exit the loop, or you can use the continue statement to go directly to the while expression.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -61,6 +69,8 @@ On any line in a do...while block, you can use the break statement to cause the 
 * [[javascript/statements/for in{{!}}for...in Statement]]
 * [[javascript/statements/while{{!}}while Statement]]
 * [[javascript/statements/Labeled{{!}}Labeled Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
