@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|An intrinsic global object that stores information about the results of regular expression pattern matches.}}
@@ -10,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -68,6 +71,7 @@
  //  1: someone
  //  2: example
  //  3: com
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -81,16 +85,16 @@ The <code>RegExp</code> object cannot be created directly, but is always availab
 ! Shorthand
 ! Initial Value
 {{!}}-
-{{!}} index
+{{!}} [[javascript/RegExp/index|index]]
 {{!}} -1
-{{!}}-
+{{!}}-(none)
 {{!}} input
 {{!}} $_
 {{!}} Empty string.
 {{!}}-
 {{!}} lastIndex
 {{!}} -1
-{{!}}-
+{{!}}-(none)
 {{!}} lastMatch
 {{!}} $&amp;
 {{!}} Empty string.
@@ -115,12 +119,18 @@ Its properties have undefined as their value until a successful regular expressi
 
 The global <code>RegExp</code> object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global <code>RegExp</code> object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/regular expression{{!}}Regular Expression Object]]
 * [[javascript/String{{!}}String Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Object
