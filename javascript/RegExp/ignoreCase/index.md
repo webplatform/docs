@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value indicating the state of the ignoreCase flag ( '''i''' ) used with a regular expression. Default is '''false'''. Read-only.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -53,6 +55,7 @@ This function returns the Boolean values that indicate the state of the allowabl
  
  document.write(RegExpPropDemo("gi"));
  document.write(RegExpPropDemo("g"));
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Following is the resulting output.
@@ -65,6 +68,7 @@ This function returns the Boolean values that indicate the state of the allowabl
  ignoreCase: false
  multiline: false
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -74,7 +78,11 @@ The '''ignoreCase''' property returns '''true''' if the ignoreCase flag is set f
 
 The ignoreCase flag, when used, indicates that a search should ignore case sensitivity when matching the pattern within the searched string.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -82,6 +90,8 @@ The ignoreCase flag, when used, indicates that a search should ignore case sensi
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 * [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
 * [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Property
