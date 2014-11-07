@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Executes a block of statements for as long as a specified condition is true.}}
@@ -29,7 +29,9 @@
 |Description=One or more statements to be executed if test is '''true'''. Can be a compound statement.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -49,6 +51,7 @@
  }
  
  // Output: 0 1 2 3 4 5 6 7 8 9
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=All of the expressions of the for statement are optional. In the following example, the for statements create an infinite loop, and a break statement is used to exit the loop.
@@ -62,6 +65,7 @@
  }
  
  // Output: 1 2 3 4 5
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -71,12 +75,18 @@ The test of a conditional expression occurs before the execution of the loop, so
 
 On any line in a for loop statement block, you can use the break statement to exit the loop, or you can use the continue statement to transfer control to the next iteration of the loop.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/for in{{!}}for...in Statement]]
 * [[javascript/statements/while{{!}}while Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
