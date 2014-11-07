@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status. Probably should be renamed to label.
+|State=Ready to Use
+|Editorial notes=Todo: Probably should be renamed to label.
 |Checked_Out=No
 }}
 {{Summary_Section|Provides an identifier for a statement.}}
@@ -20,7 +20,9 @@ statements
 |Description=One or more statements associated with label.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -41,17 +43,24 @@ statements
        document.write (j + " ");
    }
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=Labels are used by the '''break''' and '''continue''' statements to specify the statement to which the '''break''' and '''continue''' apply.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/break{{!}}break Statement]]
 * [[javascript/statements/continue{{!}}continue Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
