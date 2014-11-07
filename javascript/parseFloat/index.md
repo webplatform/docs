@@ -19,10 +19,9 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=
-|Code=parseFloat("123.45") // returns 123.45
-parseFloat("abc")      // returns NaN
-parseFloat("1.2abc")   // returns 1.2
-
+|Code=parseFloat("123.45")  // returns 123.45
+parseFloat("abc")  // returns NaN
+parseFloat("1.2abc")  // returns 1.2
 |LiveURL=
 }}
 }}
