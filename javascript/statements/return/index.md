@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Exits from the current function and returns a value from that function.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -22,6 +24,7 @@
     r = arg1 * arg2;
     return(r);
  }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following example illustrates the use of the return statement to return a function.
@@ -34,6 +37,7 @@
  document.write(x);
  
  // Output: 6
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -41,11 +45,17 @@
 
 You use the return statement to stop execution of a function and return the value of expression. If expression is omitted, or no return statement is executed from within the function, the expression that called the current function is assigned the value undefined.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/function{{!}}function Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
