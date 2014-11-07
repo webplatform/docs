@@ -121,6 +121,29 @@ Its properties have undefined as their value until a successful regular expressi
 
 The global <code>RegExp</code> object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global <code>RegExp</code> object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
 
+==Properties==
+
+{{{!}} class='wikitable'
+{{!}}-
+{{!}} [[javascript/RegExp/global|global]]
+{{!}} Returns a Boolean value indicating the state of the global flag ( g ) used with a regular expression.
+{{!}}-
+{{!}} [[javascript/RegExp/ignoreCase|ignoreCase]]
+{{!}} Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression.
+{{!}}-
+{{!}} [[javascript/RegExp/multiline|multiline]]
+{{!}} Returns a Boolean value indicating the state of the multiline flag ( m ) used with a regular expression.
+{{!}}-
+{{!}} [[javascript/RegExp/source|source]]
+{{!}} Returns a copy of the text of the regular expression pattern.
+{{!}}-
+{{!}} [[javascript/RegExp/sticky|sticky]]
+{{!}} Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression.
+{{!}}-
+{{!}} [[javascript/RegExp/unicode|unicode]]
+{{!}} Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression.
+{{!}}} 
+
 ==Methods==
 
 {{{!}} class='wikitable'
@@ -133,8 +156,7 @@ The global <code>RegExp</code> object should not be confused with the '''Regular
 {{!}}-
 {{!}} [[javascript/RegExp/test|test]]
 {{!}} Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
-{{!}}} 
-
+{{!}}}
 }}
 {{Notes_Section
 |Usage=
