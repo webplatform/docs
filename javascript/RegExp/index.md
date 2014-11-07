@@ -87,15 +87,16 @@ The <code>RegExp</code> object cannot be created directly, but is always availab
 {{!}}-
 {{!}} [[javascript/RegExp/index|index]]
 {{!}} -1
-{{!}}- 
 {{!}} (none)
+{{!}}-
 {{!}} input
 {{!}} $_
 {{!}} Empty string.
 {{!}}-
 {{!}} lastIndex
 {{!}} -1
-{{!}}- (none)
+{{!}} (none)
+{{!}}-
 {{!}} lastMatch
 {{!}} $&amp;
 {{!}} Empty string.
