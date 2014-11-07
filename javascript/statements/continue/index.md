@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Stops the current iteration of a loop, and starts a new iteration.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -26,6 +28,7 @@
  }
  
  // Output: 5 6 7 8 9
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=In the following code, the continue statement refers to the for loop that is preceded by the <code>Inner:</code> label. When <code>j</code> is 24, the continue statement causes that for loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
@@ -55,6 +58,7 @@
  //i: 8 j: 21 22 23 25 26 27 28 29 30 
  //i: 9 j: 21 22 23 25 26 27 28 29 30 
  //i: 10 j: 21 22 23 25 26 27 28 29 30
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -66,7 +70,11 @@ You can use the continue statement only inside a while , do...while , '''for''' 
 * for loops execute their increment expression, and if the test expression is true, execute the loop again.
 * for...in loops proceed to the next field of the specified variable and execute the loop again.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -76,6 +84,8 @@ You can use the continue statement only inside a while , do...while , '''for''' 
 * [[javascript/statements/for in{{!}}for...in Statement]]
 * [[javascript/statements/Labeled{{!}}Labeled Statement]]
 * [[javascript/statements/while{{!}}while Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
