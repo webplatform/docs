@@ -85,7 +85,7 @@ The <code>RegExp</code> object cannot be created directly, but is always availab
 ! Shorthand
 ! Initial Value
 {{!}}-
-{{!}} [[javascript/index|index]]
+{{!}} [[javascript/RexExp/index|index]]
 {{!}} -1
 {{!}}-
 {{!}} input
