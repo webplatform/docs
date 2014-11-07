@@ -89,31 +89,31 @@ The <code>RegExp</code> object cannot be created directly, but is always availab
 {{!}} -1
 {{!}} (none)
 {{!}}-
-{{!}} input
+{{!}} [[javascript/RegExp/input|input]]
 {{!}} $_
 {{!}} Empty string.
 {{!}}-
-{{!}} lastIndex
+{{!}} [[javascript/RegExp/lastIndex|lastIndex]]
 {{!}} -1
 {{!}} (none)
 {{!}}-
-{{!}} lastMatch
+{{!}} [[javascript/RegExp/lastMatch|lastMatch]]
 {{!}} $&amp;
 {{!}} Empty string.
 {{!}}-
-{{!}} lastParen
+{{!}} [[javascript/RegExp/lastParen|lastParen]]
 {{!}} $+
 {{!}} Empty string.
 {{!}}-
-{{!}} leftContext
+{{!}} [[javascript/RegExp/leftContext|leftContext]]
 {{!}} $`
 {{!}} Empty string.
 {{!}}-
-{{!}} rightContext
+{{!}} [[javascript/RegExp/rightContext|rightContext]]
 {{!}} $'
 {{!}} Empty string.
 {{!}}-
-{{!}} $1 - $9
+{{!}} [[javascript/RegExp/1_9_Properties|$1 - $9]]
 {{!}} $1 - $9
 {{!}} Empty string.
 {{!}}} 
