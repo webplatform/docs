@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value indicating the state of the global flag ( '''g''' ) used with a regular expression. Default is '''false'''. Read-only.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -51,6 +53,7 @@ This function displays the condition of the properties associated with the allow
  }
  
  document.write(RegExpPropDemo("g"));
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Following is the resulting output.
@@ -58,6 +61,7 @@ This function displays the condition of the properties associated with the allow
  ignoreCase: false
  multiline: false
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -67,7 +71,11 @@ The global property returns '''true''' if the global flag is set for a regular e
 
 The global flag, when used, indicates that a search should find all occurrences of the pattern within the searched string, not just the first one. This is also known as global matching.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -75,6 +83,8 @@ The global flag, when used, indicates that a search should find all occurrences 
 * [[javascript/regular expression/multiline{{!}}multiline Property (Regular Expression)]]
 * [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
 * [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Property
