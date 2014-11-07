@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value that indicates whether or not a pattern exists in a searched string.}}
@@ -19,7 +19,9 @@
 |Description=The string on which to perform the search.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -42,6 +44,7 @@
     s += "'" + re.source + "'"
     return(s);
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -49,12 +52,18 @@
 
 The properties of the global '''RegExp''' object are not modified by the '''test''' method.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/RegExp{{!}}RegExp Object]]
 * [[javascript/regular expression{{!}}Regular Expression Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Method
