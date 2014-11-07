@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value indicating the state of the multiline flag ( '''m''' ) used with a regular expression. Default is '''false'''. Read-only.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -48,6 +50,7 @@
  sa = RegExpMultilineDemo("m");
  sb = RegExpMultilineDemo("");
  document.write (sa + "&lt;br /&gt;" + sb);
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -57,7 +60,11 @@ The '''multiline''' property returns '''true''' if the multiline flag is set for
 
 If '''multiline''' is '''false''' , "^" matches the position at the beginning of a string, and "$" matches the position at the end of a string. If '''multiline''' is '''true''' , "^" matches the position at the beginning of a string as well as the position following a "\n" or "\r", and "$" matches the position at the end of a string and the position preceding "\n" or "\r".
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -65,6 +72,8 @@ If '''multiline''' is '''false''' , "^" matches the position at the beginning of
 * [[javascript/regular expression/ignoreCase{{!}}ignoreCase Property (Regular Expression)]]
 * [[javascript/regular expression/sticky{{!}}sticky Property (Regular Expression)]]
 * [[javascript/regular expression/unicode{{!}}unicode Property (Regular Expression)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Property
