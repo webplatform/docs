@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|A value that has never been defined, such as a variable that has not been initialized.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -24,6 +26,7 @@ if (foo === undefined) {
 } else {
    // won't execute
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Usage of <code>undefined</code> with the [[javascript/operators/typeof{{!}}typeof operator]].
@@ -34,6 +37,7 @@ if (typeof foo === 'undefined') {
 } else {
    // won't execute
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Comparison of strict equality and the [[javascript/operators/typeof{{!}}typeof operator]]. <code>typeof</code> doesn’t throw an error if the variable hasn’t been defined, because its value is implicitly <code>undefined</code>.
@@ -45,6 +49,7 @@ if (typeof foo === "undefined") {
 if (foo === undefined) {
     // throws ReferenceError
 }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -62,11 +67,14 @@ The <code>undefined</code> constant is useful when explicitly testing or setting
 [[javascript/null{{!}}null]] can be assigned to a variable to represent no value.
 
 Other than that, <code>undefined</code> is a type, while <code>null</code> is an object
+|Import_Notes=
 }}
 {{JS Object Listing}}
 
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/typeof{{!}}typeof Operator]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
