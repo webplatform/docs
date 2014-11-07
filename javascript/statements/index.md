@@ -34,9 +34,6 @@
 | [[javascript/statements/break|break]]
 | Terminates the current loop, or if in conjunction with a label , terminates the associated statement.
 |-
-| [[javascript/statements/try catch finally|catch]]
-| Contains statements to execute when an error occurs in code within the '''try''' block.
-|-
 | [[javascript/statements/Comment|Comment]]
 | Causes comments to be ignored by the JavaScript parser.
 |-
@@ -76,7 +73,7 @@
 | [[javascript/statements/throw|throw]]
 | Generates an error condition that can be handled by a '''try...catch''' statement.
 |-
-| [[javascript/statements/try catch finally|try]]
+| [[javascript/statements/try catch finally|try-catch-finally]]
 | Implements error handling for JavaScript.
 |-
 | [[javascript/statements/var|var]]
