@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Executes one or more statements for each property of an object, or each element of an array.}}
@@ -25,7 +25,9 @@
 |Description=One or more statements to be executed for each property of object or each element of array. Can be a compound statement.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -46,6 +48,7 @@
  // a: Athens
  // b: Belgrade
  // c: Cairo
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=This example illustrates the use of the for ... in statement to iterate though an '''Array''' object that has expando properties.
@@ -71,6 +74,7 @@
  //   2: two
  //   orange: fruit
  //   carrot: vegetable
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -81,13 +85,17 @@ The properties of an object are not assigned in a determinate manner. You cannot
 Iterating through an array is performed in element order, that is, 0, 1, 2.
 }}
 {{Notes_Section
+|Usage=
 |Notes=Use the '''Enumerator''' object to iterate over the members of a collection.
+|Import_Notes=
 }}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/for{{!}}for Statement]]
 * [[javascript/statements/while{{!}}while Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
