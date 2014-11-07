@@ -31,61 +31,61 @@
 ! Description
 ! Language Element
 |-
-| [[javascript/statements/break|break Statement]]
+| [[javascript/statements/break|break]]
 | Terminates the current loop, or if in conjunction with a label , terminates the associated statement.
 |-
-| [[javascript/statements/try catch finally|catch Statement]]
+| [[javascript/statements/try catch finally|catch]]
 | Contains statements to execute when an error occurs in code within the '''try''' block.
 |-
-| [[javascript/statements/Comment|Comment Statements]]
+| [[javascript/statements/Comment|Comment]]
 | Causes comments to be ignored by the JavaScript parser.
 |-
-| [[javascript/statements/continue|continue Statement]]
+| [[javascript/statements/continue|continue]]
 | Stops the current iteration of a loop, and starts a new iteration.
 |-
-| [[javascript/statements/debugger|debugger Statement]]
+| [[javascript/statements/debugger|debugger]]
 | Starts the debugger.
 |-
-| [[javascript/statements/do while|do...while Statement]]
+| [[javascript/statements/do while|do...while]]
 | Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to '''false'''.
 |-
-| [[javascript/statements/for|for Statement]]
+| [[javascript/statements/for|for]]
 | Executes a block of statements for as long as a specified condition is '''true'''.
 |-
-| [[javascript/statements/for in|for...in Statement]]
+| [[javascript/statements/for in|for...in]]
 | Executes one or more statements for each element of an object or array.
 |-
-| [[javascript/statements/function|function Statement]]
+| [[javascript/statements/function|function]]
 | Declares a new function.
 |-
-| [[javascript/statements/if else|if...else Statement]]
+| [[javascript/statements/if else|if...else]]
 | Conditionally executes a group of statements, depending on the value of an expression.
 |-
-| [[javascript/statements/Labeled|Labeled Statement]]
+| [[javascript/statements/Labeled|Labeled]]
 | Provides an identifier for a statement.
 |-
-| [[javascript/statements/return|return Statement]]
+| [[javascript/statements/return|return]]
 | Exits from the current function and returns a value from that function.
 |-
-| [[javascript/statements/switch|switch Statement]]
+| [[javascript/statements/switch|switch]]
 | Enables the execution of one or more statements when a specified expression's value matches a label.
 |-
-| [[javascript/statements/this|this Statement]]
+| [[javascript/statements/this|this]]
 | Refers to the current object.
 |-
-| [[javascript/statements/throw|throw Statement]]
+| [[javascript/statements/throw|throw]]
 | Generates an error condition that can be handled by a '''try...catch''' statement.
 |-
-| [[javascript/statements/try catch finally|try Statement]]
+| [[javascript/statements/try catch finally|try]]
 | Implements error handling for JavaScript.
 |-
-| [[javascript/statements/var|var Statement]]
+| [[javascript/statements/var|var]]
 | Declares a variable.
 |-
-| [[javascript/statements/while|while Statement]]
+| [[javascript/statements/while|while]]
 | Executes a statement until a specified condition is '''false'''.
 |-
-| [[javascript/statements/with|with Statement]]
+| [[javascript/statements/with|with]]
 | Establishes the default object for a statement.
 |}
 {{Topics | JS Basic}}
