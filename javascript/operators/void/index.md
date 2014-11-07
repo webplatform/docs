@@ -24,12 +24,10 @@
 <head>  
 <title>JavaScript void example</title>  
 </head>  
-<body>  
-<p>
+<body> 
 <a href="javascript:void(0)" onclick="myFunction()">Click here to execute the function.</a>  
-</p>
 </body>  
-</html> 
+</html>
 |LiveURL=
 }}
 }}
