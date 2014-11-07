@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.}}
@@ -19,7 +19,9 @@
 |Description=The String object or string literal on which to perform the search.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -49,6 +51,7 @@
        document.write (arr[0]);
        }
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -58,7 +61,11 @@ If the global flag is set for a regular expression, '''exec''' searches the stri
 
 The array returned by the '''exec''' method has three properties, '''input''' , '''index''' and '''lastIndex.''' The '''input''' property contains the entire searched string. The '''index''' property contains the position of the matched substring within the complete searched string. The '''lastIndex''' property contains the position following the last character in the match.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -66,6 +73,8 @@ The array returned by the '''exec''' method has three properties, '''input''' , 
 * [[javascript/RegExp{{!}}RegExp Object]]
 * [[javascript/String/search{{!}}search Method (String)]]
 * [[javascript/regular expression/test{{!}}test Method (Regular Expression)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Method
