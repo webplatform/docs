@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Returns a Boolean value indicating the state of the Unicode flag (<code>u</code>) used with a regular expression. Default is <code>false</code>. Read-only.}}
