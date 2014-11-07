@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Terminates the current loop or, if in conjunction with a label, terminates the associated statement.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -26,6 +28,7 @@
  }
  
  // Output: 1234567891011121314
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=In the following code, the break statement refers to the for loop that is preceded by the <code>Inner:</code> statement. When <code>j</code> is equal to 24, the break statement causes the program flow to exit that loop. The numbers 21 through 23 print on each line.
@@ -54,6 +57,7 @@
  // i: 8 j: 21 22 23 
  // i: 9 j: 21 22 23 
  // i: 10 j: 21 22 23
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -63,7 +67,11 @@ You typically use the break statement in switch statements and in while , for , 
 
 Executing the break statement exits from the current loop or statement, and begins script execution with the statement immediately following.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
@@ -73,6 +81,8 @@ Executing the break statement exits from the current loop or statement, and begi
 * [[javascript/statements/for in{{!}}for...in Statement]]
 * [[javascript/statements/Labeled{{!}}Labeled Statement]]
 * [[javascript/statements/while{{!}}while Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
