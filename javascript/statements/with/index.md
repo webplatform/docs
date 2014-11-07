@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Establishes the default object for a statement. Disallowed in [[javascript/directives/use_strict|strict mode]].}}
@@ -13,13 +13,17 @@
 }}
 |Values={{JS Syntax Parameter
 |Name=object
+|Required=
 |Description=The new default object.
 }}{{JS Syntax Parameter
 |Name=statements
+|Required=
 |Description=One or more statements for which object is the default object.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -37,6 +41,7 @@ with (Math) {
     x = cos(3 * PI) + sin (LN10);
     y = tan(14 * E);
 }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following strict mode code will cause a syntax error to be thrown, because '''with''' statements are disallowed in strict mode.
@@ -44,10 +49,17 @@ with (Math) {
 with (Math) {
     console.log(cos(3));
 }
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 This statement changes the default context from a global or a function scope, to one of a given context.
@@ -57,6 +69,8 @@ Every variable declared within the body of this statement (within the curly brac
 This statement is disallowed in [[javascript/directives/use_strict|strict mode]] and so will generate a syntax error before even running the script.
 {{See_Also_Section
 |Manual_links=* [[javascript/statements/this{{!}}this Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
