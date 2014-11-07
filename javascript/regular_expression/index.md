@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Needs to be joined with javascript/RegExp and deleted.
+|Editorial notes=Dup of javascript/RegExp; deletion candidate.
 |Checked_Out=No
 }}
 {{Summary_Section|An object that contains a regular expression pattern along with flags that identify how to apply the pattern.}}
@@ -24,7 +24,9 @@ re = '''new RegExp("''' pattern '''"''' [ ''',"''' flags '''"''' ] ''')'''
 |Description=Enclose flag in quotation marks if you use Syntax 2. Available flags, which may be combined, are: g (global search for all occurrences of pattern ) i (ignore case) m (multiline search) y (sticky) u (Unicode)
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -42,6 +44,7 @@ re = '''new RegExp("''' pattern '''"''' [ ''',"''' flags '''"''' ] ''')'''
  // Return first occurrence of "the".
     return(r);         
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -53,12 +56,18 @@ Use Syntax 1 when you know the search string ahead of time. Use Syntax 2 when th
 
 The pattern argument is compiled into an internal format before use. For Syntax 1, pattern is compiled as the script is loaded. For Syntax 2, pattern is compiled just before use, or when the '''compile''' method is called.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/RegExp{{!}}RegExp Object]]
 * [[javascript/String{{!}}String Object]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Object
