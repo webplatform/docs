@@ -1,1 +1,0 @@
-#REDIRECT [[javascript/RegExp/compile]]
