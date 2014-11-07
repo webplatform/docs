@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Refers to the current object.}}
@@ -11,7 +11,9 @@
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -22,6 +24,7 @@
     this.make = make;
     this.model = model;
  }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The '''this''' keyword generally refers to the '''window''' object if used outside of the scope of any other object. However, inside event handlers this refers to the DOM element that raised the event.
@@ -34,6 +37,7 @@ In the following code (for Internet Explorer 9 and later), the event handler pri
          }
  
  // Output (when you click the button): [object HTMLButtonElement]
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -41,11 +45,17 @@ In the following code (for Internet Explorer 9 and later), the event handler pri
 
 The this keyword can be used in object constructors to refer to the current object.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
