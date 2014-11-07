@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Needs to be moved under javascript/RegExp
+|State=Ready to Use
+|Editorial notes=Moved under javascript/RegExp
 |Checked_Out=No
 }}
 {{Summary_Section|Compiles a regular expression into an internal format for faster execution.}}
@@ -20,10 +20,12 @@
 }}{{JS Syntax Parameter
 |Name=flags
 |Required=Optional
-|Description=Available flags, which may be combined, are: <code>g</code> (global search for all occurrences of the pattern), <code>i</code> (ignore case), <code>m</code> (multiline search), <code>u</code> (Unicode), <code>y</code> (sticky matching), 
+|Description=Available flags, which may be combined, are: <code>g</code> (global search for all occurrences of the pattern), <code>i</code> (ignore case), <code>m</code> (multiline search), <code>u</code> (Unicode), <code>y</code> (sticky matching),
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -40,15 +42,24 @@
     var a2 = s.match(r)              
     return(a1 + "\n" + a2);
  }
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The '''compile''' method converts pattern into an internal format for faster execution. This allows for more efficient use of regular expressions in loops, for example. A compiled regular expression speeds things up when reusing the same expression repeatedly. No advantage is gained, however, if the regular expression changes.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Method
 |Applies to=RegExp
