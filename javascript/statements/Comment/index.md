@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status; probably should be renamed to 'comment' instead of 'Comment'
+|State=Ready to Use
+|Editorial notes=Todo: Probably should be renamed to 'comment' instead of 'Comment'
 |Checked_Out=No
 }}
 {{Summary_Section|Causes comments to be ignored by the JavaScript parser.}}
@@ -23,7 +23,9 @@ condStatement
 }}
 |Values=
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -37,6 +39,7 @@ condStatement
      r = arg1 + arg2
      return(r);
  }
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=The following example shows how to use conditional compilation. This example uses special comment delimiters that are used only if conditional compilation is activated by the @cc_on statement. Scripting engines that do not support conditional compilation see only the message that says conditional compilation is not supported.
@@ -46,6 +49,7 @@ condStatement
      @else @*/
      alert("Conditional compilation not supported by this scripting engine.");
  /*@end @*/
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -57,10 +61,18 @@ If single-line comments are used, the parser ignores any text between the commen
 
 Comments are used to support conditional compilation while retaining compatibility with browsers that do not support that feature. These browsers treat those forms of comments as single-line or multi-line comments respectively.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{JS Topics
 |JS Page Type=JS Basic
 |Applies to=
