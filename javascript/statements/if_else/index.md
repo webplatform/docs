@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status. Probably should be renamed to "else if".
+|State=Ready to Use
+|Editorial notes=Todo: Probably should be renamed to "else if".
 |Checked_Out=No
 }}
 {{Summary_Section|Conditionally executes a group of statements, depending on the value of an expression.}}
@@ -25,6 +25,7 @@
 |Description=The statement to be executed if condition1 is '''true'''. Can be a compound statement.
 }}{{JS Syntax Parameter
 |Name=condition2
+|Required=
 |Description=The condition to be evaluated.
 }}{{JS Syntax Parameter
 |Name=statement2
@@ -32,10 +33,13 @@
 |Description=The statement to be executed if condition2 is true. Can be a compound statement.
 }}{{JS Syntax Parameter
 |Name=statement3
+|Required=
 |Description=If both condition1 and condition2 are false , this statement is executed.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -53,14 +57,23 @@ It is good practice to enclose statement1 and statement2 in braces ({}) for clar
  else {
      z = 20;
  }
+|LiveURL=
 }}
 }}
-{{Remarks_Section}}
-{{Notes_Section}}
+{{Remarks_Section
+|Remarks=
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/conditional ternary{{!}}Conditional (Ternary) Operator (?:)]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
