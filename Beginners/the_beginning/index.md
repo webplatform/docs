@@ -12,8 +12,6 @@ Also, maybe get in touch with CommonCraft and ask to embed their video about the
 {{Basic Page}}
 {{:Beginners/Submenu}}
 
-☠
-
 ==Who is this for?==
 
 Our beginner’s guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
