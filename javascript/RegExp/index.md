@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
+|Editorial notes=Todo: Replace manual properties and methods tables with generated tables.
 |Checked_Out=No
 }}
 {{Summary_Section|An intrinsic global object that stores information about the results of regular expression pattern matches.}}
@@ -120,6 +120,21 @@ The <code>RegExp</code> object cannot be created directly, but is always availab
 Its properties have undefined as their value until a successful regular expression search has been completed.
 
 The global <code>RegExp</code> object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global <code>RegExp</code> object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
+
+==Methods==
+
+{{{!}} class='wikitable'
+{{!}}-
+{{!}} [[javascript/RegExp/compile|compile]]
+{{!}} Compiles a regular expression into an internal format for faster execution.
+{{!}}-
+{{!}} [[javascript/RegExp/exec|exec]]
+{{!}} Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
+{{!}}-
+{{!}} [[javascript/RegExp/test|test]]
+{{!}} Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
+{{!}}} 
+
 }}
 {{Notes_Section
 |Usage=
