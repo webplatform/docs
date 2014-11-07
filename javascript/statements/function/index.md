@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Declares a new function.}}
@@ -25,7 +25,9 @@
 |Description=One or moreJavaScript statements.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -41,6 +43,7 @@ function myFunc () {
 myFunc();
 
 //Output: 12
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=It's possible to pass along arguments within the parantheses when calling the function.
@@ -53,6 +56,7 @@ function myFunc (name) {
 myFunc('Susan');
 
 //Output: Hello, Susan!
+|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=A function can be assigned to a variable. This is illustrated in the following example.
@@ -76,6 +80,7 @@ myFunc('Susan');
  
  var result = myFunc(123);
  // Output: 133
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -85,11 +90,17 @@ The [[javascript/statements/return{{!}}return]] statement is used to return a va
 
 '''Note''' -- When you call a function, be sure to include the parentheses and any required arguments. Calling a function without parentheses returns a reference to the function, not the results of the function.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 {{Topics | JS Basic}}
 {{See_Also_Section
 |Manual_links=* [[javascript/operators/new{{!}}new Operator]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Function
