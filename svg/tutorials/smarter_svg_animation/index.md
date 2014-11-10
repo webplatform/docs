@@ -6,10 +6,15 @@
 }}
 {{Byline
 |Name=Mike Sierra
+|URL=
+|Published=
 }}
 {{Summary_Section|This guide shows you how to animate SVG graphics using SMIL-based markup.  Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.}}
 {{Tutorial
-|Content=Interfaces become more vibrant once you add animation
+|Next_page=
+|Prev_page=
+|Content===Introduction==
+Interfaces become more vibrant when you add animation
 effects.  This guide focuses on SVG's built-in animation features,
 which derive from the SMIL web standard
 (''Synchronized Multimedia Integration Language'').  As discussed in
@@ -855,7 +860,11 @@ function pausePlayAll() {
 
 Note that [[svg/methods/animationsPaused|'''animationsPaused()''']] is a method call just like [[svg/methods/pauseAnimations|'''pauseAnimations()''']] and [[svg/methods/unpauseAnimations|'''unpauseAnimations()''']], not a simple object property as you might expect.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -865,6 +874,9 @@ Note that [[svg/methods/animationsPaused|'''animationsPaused()''']] is a method 
 }}
 {{See_Also_Section
 |Topic_clusters=Animation
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|SVG}}
 {{External_Attribution
