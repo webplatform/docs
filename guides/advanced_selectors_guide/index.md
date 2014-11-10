@@ -324,7 +324,7 @@ Structural pseudo-classes are advanced selectors that enable you to target speci
 
 <syntaxhighlight lang="css">html:root{ ... }</syntaxhighlight>
 
-<p><code>:nth-child(n)</code> allows you to select a repeating pattern of elements inside an continuous set of like elements, such as several list items, or several paragraphs or articles next to one another. Review this example:
+<code>:nth-child(n)</code> allows you to select a repeating pattern of elements inside an continuous set of like elements, such as several list items, or several paragraphs or articles next to one another. Review this example:
 
 <syntaxhighlight lang="html5"><ul>
   <li>First</li>
