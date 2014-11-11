@@ -19,7 +19,7 @@ This topic is in progress, we just ran out of time. If you have the time to writ
 
 Methods for debugging CSS are essential, since CSS errors will not output any error message indicating the source of the issue at hand. 
 
-==Avoiding problems in the place==
+==Avoiding problems in the first place==
 
 ===Cross browser Idiosyncrasies===
 As mentioned in previous tutorials Web Browsers come with inbuilt CSS. This default CSS may differ between browsers and hence when viewing a site, unless the site CSS cancels out the browser's CSS there is a chance that the page is displayed differently across browsers, which most of ten than not it is undesirable.
