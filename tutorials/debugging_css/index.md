@@ -32,11 +32,9 @@ This problem is avoided by normalizing the browser. This is done by using a set 
 
 One of the things that could help in identifying a layout issue or perhaps some complex structure like a CSS based menu one would want to see what is really going on in terms of boxes.
 
-<code>
-*{
+<syntaxhighlight lang="css">*{
   outline:1px red solid; 
-}
-</code>
+}</syntaxhighlight>
 
 Using the above will display an outline around each element on the page indicating the structure, which could help in identifying where certain problems are.
 
