@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=an example is needed.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
@@ -11,6 +11,7 @@
 {{Summary_Section|Gets the priority of a property in a CSS style declaration.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
+|Index=0
 |Name=property
 |Data type=String
 |Description=The name of the CSS property.
@@ -24,10 +25,33 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Gets the priority of the first rule in the stylesheet.
+|Code=<head>
+<style>
+#aDiv {
+    width:200px !important;
+}
+</style>
+<script type="text/javascript">
+var rule = document.styleSheets[0].cssRules[0];
+var priority = rule.style.getPropertyPriority ("width");
+alert (priority);
+</script>
+</head>
+
+<body>
+<div id="aDiv">This is a div.</div>
+</body>
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The priority of a CSS property is designated by, for  example, the [[css/syntax/!important|!important]] declaration.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -37,15 +61,10 @@
 |Relevant_changes=Section 2.2
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -64,4 +83,11 @@
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
