@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines a scale transformation by giving a value for the X-axis.}}
+{{Summary_Section|Defines a 3D scale transformation by giving a value for the X-axis.}}
 {{CSS_Function
 |Content=
 }}
