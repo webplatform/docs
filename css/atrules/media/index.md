@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Empty "Main Content" section, see @import for notes for improvement suggestion. 
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,10 +9,13 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets the media types for a set of rules in a [[css/cssom/properties/styleSheet|styleSheet]] object.}}
-{{CSS_At_Rule}}
+{{CSS_At_Rule
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=In the following example,  the '''@media''' rule is used to specify the [[css/properties/font-size|'''font-size''']] attribute of the '''body''' element for two media types.
 |Code=// For computer screens, the font size is 12pt.
 @media screen {
@@ -22,19 +25,25 @@
 @media print {
    BODY {font-size:8pt;}
 }
+|LiveURL=
 }}{{Single Example
+|Language=CSS
 |Description=The following declaration is a typical media query. In this case, <code>screen</code> indicates the target media type, and <code>max-width</code> is the target media property. The declaration states that the specified rules (no border on '''div''' elements) are only to be applied when the page is displayed on a screen in a browser window with a width of at most 400 pixels.
 |Code=@media screen and (max-width:400px) {
    div {border:none;}
 }
+|LiveURL=
 }}{{Single Example
+|Language=CSS
 |Description=You can use media properties together to create even more specific queries, such as the following. This declaration applies the specified rules when the medium is a screen and the browser window has a width of no more than 400 pixels ''and'' a height of no more than 600 pixels.
 |Code=@media screen and (max-width:400px) and (max-height:600px) {
    ...
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The rule has no default value.
 Dynamic HTML (DHTML) expressions can be used in place of the preceding value(s). As of Windows Internet Explorer 8, expressions are not supported in IE8 Standards mode. For more information, see About Dynamic Properties.
@@ -64,7 +73,22 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 |Name=Media Queries
 |URL=http://www.w3.org/TR/css3-mediaqueries/
 |Status=Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/properties/media|media]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -126,17 +150,4 @@ A media query consists of a media type (''sMediaType'') and zero or more express
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Syntax
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/properties/media|media]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
