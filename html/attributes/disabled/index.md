@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Compatibility table;
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -51,7 +51,6 @@ When this is present a user cannot make the element active. Further, when the fo
 |Specifications=
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
