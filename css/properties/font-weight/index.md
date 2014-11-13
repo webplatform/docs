@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -41,8 +41,10 @@
 |Code=&lt;p class="example-one"&gt;Set text to be bold.&lt;/p&gt;
 &lt;p class="example-two"&gt;Set text to two step darker than normal but less than a standard bold.&lt;/p&gt;
 &lt;p class="example-three"&gt;Sets text to be one step lighter than the parent.&lt;/p&gt;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p { font-size: 150%; }
 
 p.example-one { font-weight: bold; }
@@ -71,6 +73,8 @@ These values form an ordered sequence, where each number indicates a weight that
 * '''700''' - Bold
 * '''800''' - Extra Bold (Ultra Bold)
 * '''900''' - Black (Heavy)
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -84,6 +88,22 @@ These values form an ordered sequence, where each number indicates a weight that
 |Status=W3C Working Draft
 |Relevant_changes=Defines font-weight as animatable.
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=* A List Apart: [http://alistapart.com/article/say-no-to-faux-bold Say No to Faux Bold]
+* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
+* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
+* IECSS: [http://www.iecss.com/ Internet Explorer User Agent Style Sheets]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-weight
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -145,19 +165,4 @@ These values form an ordered sequence, where each number indicates a weight that
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts, Text
-|External_links=* A List Apart: [http://alistapart.com/article/say-no-to-faux-bold Say No to Faux Bold]
-* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
-* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
-* IECSS: [http://www.iecss.com/ Internet Explorer User Agent Style Sheets]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-weight
-|MSDN_link=
-|HTML5Rocks_link=
 }}
