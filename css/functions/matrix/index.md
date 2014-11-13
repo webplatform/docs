@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|<p>Defines a two dimentional transofmation in matrix format_ That is a function  <b>matrix(a,b,c,d,e,f)</b> which holds 6 parameters as numbers each one controlling one tranformation factor_ In fact, matrix combines all the CSS tranformation functions (translate,skew etc) in one command_ For example the new position of a point <b>(x,y)</b> will be such that:  <pre>newX=a*x + c*y + e</pre> and <pre>newY = b*x + d*y + f</pre>  </p>
+{{Summary_Section|Defines a two dimentional transofmation in matrix format_ That is a function  <b>matrix(a,b,c,d,e,f)</b> which holds 6 parameters as numbers each one controlling one tranformation factor_ In fact, matrix combines all the CSS tranformation functions (translate,skew etc) in one command_ For example the new position of a point <b>(x,y)</b> will be such that:  <pre>newX=a*x + c*y + e</pre> and <pre>newY = b*x + d*y + f</pre> 
 }}
 {{CSS_Function
 |Content=
