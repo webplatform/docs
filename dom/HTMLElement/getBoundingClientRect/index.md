@@ -1,16 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=compatibility, some clean-up (e.g. examples should use lowercase tag names) shorter summary, move extra content into notes/usage
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns a [[css/cssom/ClientRect|ClientRect]] object that encloses a group of text rectangles. 
-The returned value is a [[css/cssom/ClientRect|ClientRect]] object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
-}}
+{{Summary_Section|Returns a [[css/cssom/ClientRect|ClientRect]] object that encloses a group of text rectangles. }}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
@@ -158,7 +156,9 @@ function End() {
 }}
 }}
 {{Notes_Section
-|Usage=Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
+|Usage=The returned value is a ClientRect object which is the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element. It contains read-only left, top, right, and bottom properties describing the border-box, in pixels, with the top-left relative to the top-left of the viewport.
+
+Essentially, the browser calculates all rectangles (see below getClientRects()), and getBoundingClientRect() returns the lowest (top, left) or highest (bottom, right) values found.
 
 The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the bounding rectangle. This means that the top and left property change their values as soon as the scrolling position changes (so their values are relative to the viewport and not absolute). If this is not the desired behaviour just add the current scrolling position to the top and left property (via window.scrollX and window.scrollY) to get constant values independent from the current scrolling position.
 |Notes====Compatibility notes===
