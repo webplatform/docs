@@ -15,7 +15,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=HTML
+|Language=CSS
 |Description=The following code snippet is an example of the '''rotateX''' function in use as applied to a square blue [[html/elements/div|'''div''']] element along with the [[css/functions/perspective()|'''perspective''']] function (which simulates depth).
 |Code=div {
   transform: perspective(500px) rotateX(45deg);
