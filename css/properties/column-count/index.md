@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete summery, compatibility.
-The new code should be added. The first blog of the code is from W3CSchool.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 |High-level issues=Copyright Issue
 }}
@@ -45,9 +44,11 @@ div {
 column-count: auto;
 column-width: 100px;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The actual column count may vary from the value specified due to available space.
 To ensure the specified value is used, all length property values of the multi-column element must be specified.
@@ -59,7 +60,27 @@ To ensure the specified value is used, all length property values of the multi-c
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Multi-Column, Responsive Web Design
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[html/elements/table|table]]</code>
+
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -88,47 +109,4 @@ To ensure the specified value is used, all length property values of the multi-c
 }}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column, Responsive Web Design
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx
-|HTML5Rocks_link=
 }}
