@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=&#60;single-animation-iteration-count&#62;
@@ -55,23 +56,15 @@
 |Usage=This property accepts non-integer values, such as 1.5 or 2.75. If a non-integer value is specified, the animation terminates mid-cycle. Negative numbers are not valid.
 
 This property is often used in conjunction an [[css/properties/animation-direction|animation-direction]] value of '''alternate''', which will cause the animation to play in reverse on alternate cycles.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -86,6 +79,7 @@ This property is often used in conjunction an [[css/properties/animation-directi
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function{{!}}animation-timing-function]]
 |External_links=*[http://robertnyman.com/2010/05/06/css3-animations Robert Nyman's examples]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -94,4 +88,15 @@ This property is often used in conjunction an [[css/properties/animation-directi
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
