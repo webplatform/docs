@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=The live example link uses "/path/to" which is great to demonstrate the syntax, but should we use a working example like Google Fonts for the sandbox?
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Compatibility Incomplete
@@ -90,6 +90,20 @@ The <code>unicode-range</code> descriptor defines the range of Unicode character
 |Status=Working Draft
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Fonts, Syntax
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/@font-face
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -295,18 +309,4 @@ The <code>unicode-range</code> descriptor defines the range of Unicode character
 |Version=24 and later
 |Note=The same origin policy is implemented.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Fonts, Syntax
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/@font-face
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx
-|HTML5Rocks_link=
 }}
