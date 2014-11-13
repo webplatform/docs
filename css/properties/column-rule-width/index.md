@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -56,13 +56,29 @@ Makes 3 columns with 4px dashed green column-rule
 {{Notes_Section
 |Usage=* Negative length values are not allowed.
 |Notes=The exact thickness of the column rule when using the <code>medium</code>, <code>thin</code>, or <code>thick</code> value is user agent dependent, and is not defined in the specification.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Multi-Column
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -82,13 +98,4 @@ Makes 3 columns with 4px dashed green column-rule
 |Browser=Firefox
 |Note=Requires -moz- prefix
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
