@@ -1,7 +1,7 @@
 {{Page_Title|CSS cross-fade() function}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=missing compat tables correspondent to other sections.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -143,13 +143,30 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Image Values and Replaced Content Module Level 4
 |URL=http://www.w3.org/TR/css4-images/#cross-fade-function
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, Graphics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -177,14 +194,4 @@ The result is a classic (if somewhat kitschy) wolf-on-moon combo.
 }}
 |Mobile_rows=
 |Notes_rows={{Compatibility Notes Row}}
-}}
-{{See_Also_Section
-|Topic_clusters=Background, Visual Effects
-}}
-{{Topics|CSS, Graphics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
