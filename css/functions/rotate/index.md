@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Content needs more elaboration to newcomers, doesn't quite stand on its own yet. Also may want o link parameter to css token page.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|rotate(angle) is a value of the css property transform. It rotates the element clockwise around its origin by a specified angle.}}
+{{Summary_Section|Rotates an element clockwise around its origin (as specified by the '''transform-origin''' property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].}}
 {{CSS_Function
-|Content=Rotates the element clockwise around its origin (as specified by the transform-origin property) by the specified angle. The operation corresponds to the matrix [cos(angle) sin(angle) -sin(angle) cos(angle) 0 0].
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -35,10 +35,14 @@
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transforms Module Level 3
+|URL=http://go.microsoft.com/fwlink/p/?LinkID=223145
+|Status=Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
-|Topic_clusters=Transforms
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
