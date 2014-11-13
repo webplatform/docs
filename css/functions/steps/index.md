@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=extra white box below live example snippet. Broken link perhaps? 
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 |High-level issues=Needs Review
 |Content=Examples Needed
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|A timing function that specifies a progression of discrete intervals over the course of a transition or animation keyframe.}}
 {{CSS_Function
@@ -21,25 +21,26 @@
     transition: font-size 1s;
     transition-timing-function: steps(5);
 }
-}}{{Single Example
-|Language=Other
-|Description=Modify the timing function for a sequence of two transitions
-|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transitions
+|URL=http://www.w3.org/TR/2013/WD-css3-transitions-20131119/
+|Status=Working Draft
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Animation, Transitions
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -47,4 +48,11 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
