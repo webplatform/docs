@@ -1,25 +1,30 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Summary needed.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
-{{CSS_Function}}
+{{Summary_Section|Defines a 2D scale transformation.}}
+{{CSS_Function
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=The following code snippet is an example of the '''scale''' function in use. When applied to a square blue [[html/elements/div|'''div''']] element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
+|Language=CSS
+|Description=The following code snippet is an example of the '''scale''' function in use as applied to a square blue [[html/elements/div|'''div''']] element.
 |Code=div {    
   transform: scale(1.65, 0.6);
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If the second parameter is not provided, it is takes a value equal to the first.
 The function '''scale'''(1, 1) leaves the element unchanged, while '''scale'''(2, 2) causes it to appear twice as long in both the ''x''- and ''y''-axes, or four times its original size.
@@ -36,23 +41,18 @@ The function '''scale'''(1, 1) leaves the element unchanged, while '''scale'''(2
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 
-
-===Requirements===
-{| class="wikitable"
-|}
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transforms Module Level 3
+|URL=http://www.w3.org/TR/css3-transforms/
+|Status=Working Draft
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Transforms
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>Transform Functions</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
@@ -65,4 +65,11 @@ The function '''scale'''(1, 1) leaves the element unchanged, while '''scale'''(2
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
