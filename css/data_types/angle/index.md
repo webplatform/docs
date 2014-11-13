@@ -1,7 +1,7 @@
 {{Page_Title|&lt;angle&gt;}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=A couple extra close-brackets printing out at the end of the body. 
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -23,6 +23,7 @@ If using Javascript to set or manipulate styles requiring angle measurements, it
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=.a[href] {
     display: block;
     transition: transform 0.25s;
@@ -32,14 +33,20 @@ a:hover {
     /* spin link 3 times & return to original orientation */
     transform: rotateX(1080deg);
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
@@ -49,7 +56,11 @@ a:hover {
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
