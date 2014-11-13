@@ -58,17 +58,3 @@ a:hover {
 |HTML5Rocks_link=
 }}
 {{API_Name}}
-
-
-
-
-
-
-
-
-}
-
-
-
-
-}
