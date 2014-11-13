@@ -10,8 +10,7 @@
 {{API_Name}}
 {{Summary_Section|Specifies the character encoding of the style sheet.}}
 {{CSS_At_Rule
-|Content=Internationalization topics related to <code>@charset</code>:
-* [http://localhost/International/techniques/authoring-html#css Declaring the character encoding for a CSS style sheet]
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
