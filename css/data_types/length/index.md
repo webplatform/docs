@@ -1,7 +1,7 @@
 {{Page_Title|&lt;length&gt;}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=compatibility
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -35,7 +35,7 @@ Absolute does not mean that these units will be treated the same on every device
 * '''vh''' units specify a percentage of current viewport's height.
 * '''vmax''' and '''vmin''' units specify the maximum or minimum of the viewport's width or height.
 
-Note that [[css/data_types/numeric|percentages]] may refer to various length units, but for length specifies the height and width of an element, or the overall document window.
+Note that [[css/data_types/percentage|percentages]] may refer to various length units, but for length specifies the height and width of an element, or the overall document window.
 
 Also bear in mind that some properties accept negative values, while some don't. So for example, you can't specify negative [[css/properties/padding|padding]], but you could use a negative [[css/properties/margin|margin]] to move a block in the direction of the negative margin's side, and you can use negative units in [[css/properties/box-shadow|box-shadow]] to move the box left and up rather than right and down.
 }}
@@ -43,6 +43,7 @@ Also bear in mind that some properties accept negative values, while some don't.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=.info {
     position: fixed;
     /* use various units to position element */
@@ -52,14 +53,20 @@ Also bear in mind that some properties accept negative values, while some don't.
     width: 25%;
     width: 25vw;
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
 |URL=http://www.w3.org/TR/css3-values/
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS 2.1
 |URL=http://www.w3.org/TR/CSS21/syndata.html#length-units
@@ -74,7 +81,11 @@ Also bear in mind that some properties accept negative values, while some don't.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
