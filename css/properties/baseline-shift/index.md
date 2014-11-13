@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Not Ready
+|Editorial notes=Obsolete; deletion candidate
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Obsoleted - spec retired, not implemented.}}
+{{Summary_Section|Obsolete - spec retired, not implemented.}}
 {{CSS Property
 |Initial value=baseline
 |Applies to=inline-level elements
@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=see text
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=baseline
 |Description=There is no baseline shift; the dominant baseline remains in its original position.
@@ -44,18 +46,21 @@
 |Code=span {
 	baseline-shift: baseline;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=In this sample, the baseline-shift has the value 'sub', putting the text in the subscript position.
 |Code=span {
 	baseline-shift: sub;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=In this sample, the baseline-shift has the value 'super', putting the text in the superscript position.
 |Code=span {
 	baseline-shift: super;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=This sample show that it's possible to use this property with percentage values.
@@ -64,6 +69,7 @@
 span {
 	baseline-shift: 10%;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Also, it's possible to use length units as values for the 'baseline-shift' property, as shown the next sample.
@@ -71,18 +77,34 @@ span {
 span {
 	baseline-shift: 2em;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Although it may seem that 'baseline-shift' and 'alignment-adjust' properties are doing the same thing, there are important differences. For 'alignment-adjust' the percentage values refer to the 'line-height' of the element being aligned. For 'baseline-shift the percentage values refer to the 'line-height' of the parent element. Similarly, it is the 'sub' and 'super' offsets of the parent that are used to align the shifted baseline rather than the 'sub' and 'super' offsets of the element being positioned. To ensure a consistent sub- or superscript position, it makes more sense to use the parent as the reference rather than the subscript element which may have a changed "line-height" due to "font-size" changes in the sub- or superscript element.
 Using the "alignment-adjust" property is more suitable for positioning elements, such as graphics, that have no internal textual structure. Using the "baseline-shift" property is intended for sub- and superscripts where the positioned element may itself be textual. The baseline-shift provides a way to define a specific baseline offset other than the named offsets that are defined relative to the dominant-baseline. In addition, having "baseline-shift" makes it easier for a tool to generate the relevant properties; many formatting programs already have a notion of baseline shift.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 module: line
 |URL=http://www.w3.org/TR/css3-linebox/#baseline-shift
 |Status=Obsoleted (Working Draft)
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -90,12 +112,4 @@ Using the "alignment-adjust" property is more suitable for positioning elements,
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
