@@ -1,15 +1,18 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=List of other articles in this category. Would add a more robust summary before being ready.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|In CSS, functions can be used in values to invoke special processing or visual effects.}}
 {{Basic Page}}
-
 === All Functions ===
 {{Page Index Listing}}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
