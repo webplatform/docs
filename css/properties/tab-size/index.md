@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|The tab-size CSS property is used to customise the width of a tab (U+0009) character.}}
 {{CSS Property
@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=the specified integer or an absolute length
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=<integer>
 |Description=The number of spaces in a tab. Must be positive.
@@ -50,19 +52,23 @@ Examples of using the tab-size prop
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The tab character (unicode U+0009) is converted to space characters (unicode U+0020) by the white space rule (default is normal) which collapses multiple white space characters. Therefor this rule only makes sense inside a parent that cancels the white-space rule. For example the pre tag (which does this by default, setting it to pre-wrap) . See the example.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://dev.w3.org/csswg/css-text/
+|Status=Editor's draft
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -70,4 +76,11 @@ Examples of using the tab-size prop
 |MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
