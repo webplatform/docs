@@ -8,8 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Defines a two dimentional transofmation in matrix format.
-}}
+{{Summary_Section|Defines a two dimensional transformation in matrix format.}}
 {{CSS_Function
 |Content=
 }}
@@ -27,7 +26,9 @@ transform: matrix(1, 0, 0.5, 1, 10, 0);
 {{Notes_Section
 |Usage=
 |Notes====Remarks===
-A 2-D 3×2 matrix with six parameters ''a'', ''b'', ''c'', ''d'', ''e'', and ''f'' is equivalent to the following transformation matrix: [[Image:2dmatrix.png]]. 
+This function
+defines a two dimensional transformation in matrix format.
+That is, a function  <code>matrix(a,b,c,d,e,f)</code> which holds 6 parameters as numbers, each one controlling one transformation factor. In fact, <code>matrix()</code> combines all the CSS transformation functions (translate, skew, etc.) in one command. For example, the new position of a point <code>(x,y)</code> will be such that:  <pre>newX = a*x + c*y + e</pre> and <pre>newY = b*x + d*y + f</pre> 
 
 For more information about transformation matrices, see [http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions], in the [http://go.microsoft.com/fwlink/?LinkID{{=}}223145 CSS3 Transforms] specification.
 |Import_Notes====Syntax===
@@ -49,7 +50,6 @@ For more information about transformation matrices, see [http://go.microsoft.com
 ;''number'':A matrix value.
 ===Standards information===
 *[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
-
 }}
 {{Related_Specifications_Section
 |Specifications=
