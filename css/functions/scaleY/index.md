@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines a scale transformation by giving a value for the Y-axis.}}
+{{Summary_Section|Defines a 3D scale transformation by giving a value for the Y-axis.}}
 {{CSS_Function
 |Content=
 }}
@@ -33,7 +33,6 @@
 '')</code>
 ===Parameters===
 ;''scaling-value'':Numerical value by which to scale the specified element in the ''y''-direction.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
