@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Defines a 2D skew transformation along the Y-axis.}}
+{{Summary_Section|Defines a 2D skew transformation along the X-axis.}}
 {{CSS_Function
 |Content=
 }}
@@ -33,7 +33,6 @@
 '')</code>
 ===Parameters===
 ;''angle'':The angle by which the element is skewed along the ''x''-axis. This value is expressed as a number followed by a supported angle unit.
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
