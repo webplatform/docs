@@ -1,13 +1,15 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=parameterized <number> tokens may want to link to <number> page.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|Defines a three-dimensional transformation in matrix format.  The function requires exactly ''16'' comma-separated numbers as parameters; these represent the matrix values in "column-major" (top to bottom, then left to right) order.}}
-{{CSS_Function}}
+{{CSS_Function
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -16,9 +18,11 @@
 |Code=div {
   transform: matrix3d(0.359127, -0.469472, 0.806613, 0, 0.190951, 0.882948, 0.428884, 0, -0.913545, 0, 0.406737, 0, 0, 0, 0, 1);
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 All other transformation functions are based on the '''matrix3d''' function.
 It is a good idea to become familiar with transform coordinate systems and rendering before attempting to specify 3-D transforms manually.
@@ -65,15 +69,9 @@ It is a good idea to become familiar with transform coordinate systems and rende
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Topic_clusters=Transforms
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>Transform Functions</code>
 *<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
@@ -86,4 +84,11 @@ It is a good idea to become familiar with transform coordinate systems and rende
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
