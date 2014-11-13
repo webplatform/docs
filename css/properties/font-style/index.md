@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -36,8 +36,10 @@
 &lt;p class="normal"&gt;Normal P, no different from the regular ol' P&lt;/p&gt;
 &lt;p class="italic"&gt;Italic P, the cursive version of the font&lt;/p&gt;
 &lt;p class="oblique"&gt;Oblique P, the sloped version of the font&lt;/p&gt;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p { font-family: "Trebuchet MS", "Gill sans", serif; }
 p.normal { font-style: normal; }
 p.italic { font-style: italic; }
@@ -52,27 +54,23 @@ p.oblique { font-style: oblique; }
 |Notes=If no italic or oblique face is available, oblique faces can be synthesized by rendering non-obliqued faces with an artificial obliquing operation. The use of these artificially obliqued faces can be disabled using the ‘font-synthesis’ property.
 
 Authors should also be aware that synthesized approaches may not be suitable for scripts like Cyrillic, where italic forms are very different in shape. It is always better to use an actual italic font rather than rely on a synthetic version.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-style-prop
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Font, Fonts
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
 *<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
 *<code>[[css/cssom/style|style]]</code>
 *<code>[[css/properties/font|font]]</code>
@@ -84,4 +82,11 @@ Authors should also be aware that synthesized approaches may not be suitable for
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/font-style
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
