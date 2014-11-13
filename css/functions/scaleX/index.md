@@ -33,9 +33,6 @@
 '')</code>
 ===Parameters===
 ;''scaling-value'':Numerical value by which to scale the specified element in the ''x''-direction.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
-
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
