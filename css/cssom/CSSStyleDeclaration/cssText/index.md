@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Examples needed.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Stub, Needs Flags, Missing Relevant Sections
 }}
@@ -19,10 +19,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=
+|Code=<style>
+body { background-color: darkblue; }
+</style>
+<script>
+  var stylesheet = document.styleSheets[0];
+  alert(stylesheet.cssRules[0].cssText); 
+  // returns "body { background-color: darkblue; }"
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=This property reflects the current state of the declaration and not its initial value.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -32,15 +46,10 @@
 |Relevant_changes=Section 2.2
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS, DOM}}
 {{External_Attribution
@@ -48,4 +57,11 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
