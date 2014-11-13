@@ -1,14 +1,15 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add information about the other descriptors (besides width & height); compare with the list in https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Editorial/Content_Incomplete}}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies the size, zoom factor, and orientation of the viewport.}}
-{{CSS_At_Rule}}
+{{CSS_At_Rule
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -78,7 +79,6 @@ Indicates the preferred viewport width used in determining the size of the initi
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=Syntax
 |Manual_links=
 |External_links=
 |Manual_sections=
@@ -91,6 +91,17 @@ Indicates the preferred viewport width used in determining the size of the initi
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{Editorial/Content_Incomplete}}
+
+
+
+
+
+
+
+
+
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
