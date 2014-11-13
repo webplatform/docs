@@ -92,4 +92,3 @@ Keywords may be combined with length and percentage values, but then the '''hori
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-}}
