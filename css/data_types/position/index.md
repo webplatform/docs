@@ -1,7 +1,7 @@
 {{Page_Title|&lt;position&gt;}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Two extra brackets printed at end of main section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -42,6 +42,7 @@ Keywords may be combined with length and percentage values, but then the '''hori
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=body{
     height:100%;
 	background-color:#222;
@@ -63,7 +64,11 @@ Keywords may be combined with length and percentage values, but then the '''hori
 |LiveURL=http://code.webplatform.org/gist/10612218
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Values and Units Module Level 3
@@ -84,7 +89,11 @@ Keywords may be combined with length and percentage values, but then the '''hori
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
