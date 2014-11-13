@@ -1,7 +1,7 @@
 {{Page_Title|s – strikethrough}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -47,7 +47,6 @@
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |Manual_links=* [[html/elements/ins|<code>ins</code>]]
 * [[html/elements/del|<code>del</code>]]
 * [[html/elements/strike|<code>strike</code>]]
