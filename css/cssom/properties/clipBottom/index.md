@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=a quick description of object clipping would be helpful
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -13,11 +13,15 @@
 |Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 |Read_only=No
 |Example_object_name=declaration
+|Return_value_name=
 |Javascript_data_type=String
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example reads the '''clipBottom''' property from the [[css/cssom/currentStyle|'''currentStyle''']] object of an image.
 |Code=&lt;SCRIPT&gt;
 function setClip(sOptionValue) {
@@ -43,20 +47,16 @@ Pick an amount to clip the bottom:
 }}
 }}
 {{Notes_Section
-|Import_Notes====Syntax===
+|Usage=
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Topic_clusters=CSSOM
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -74,4 +74,11 @@ Pick an amount to clip the bottom:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
