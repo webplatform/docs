@@ -38,8 +38,6 @@ The function '''scale'''(1, 1) leaves the element unchanged, while '''scale'''(2
 ===Parameters===
 ;''scaling-value-x'':Numerical value by which to scale the specified element in the ''x''-direction.
 ;''scaling-value-y'':Optional. Numerical value by which to scale the specified element in the ''y''-direction.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkID{{=}}223145 CSS Transforms Module, Level 3], Section 13.1
 
 }}
 {{Related_Specifications_Section
