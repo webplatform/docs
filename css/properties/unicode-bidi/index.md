@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -15,6 +15,7 @@
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=unicodeBidi
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=Default. Element does not open an additional level of embedding. For inline elements, implicit reordering works across element boundaries.
@@ -39,6 +40,7 @@
 |LiveURL=http://code.webplatform.org/gist/5708639
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p {
 	width: 300px;
 	background-color: #cccccc;
@@ -55,18 +57,38 @@
 #bidi {
 	unicode-bidi: bidi-override;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The <code>unicode-bidi</code> property is used with the [[css/properties/direction|'''direction''']] property.
 The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right. If portions of a paragraph within the document contain a language with a right-to-left reading order, the direction of that language displays correctly right-to-left. The user agent applying the bidirectional algorithm correctly reverses the language direction.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1
 |URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-unicode-bidi
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -95,19 +117,4 @@ The Unicode bidirectional algorithm automatically reverses embedded character se
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
