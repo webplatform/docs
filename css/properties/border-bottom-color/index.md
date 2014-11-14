@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
-Shorten the article. The various ways of color encoding needn't be included in the example, as they are not specific to border-bottom-color. The link to the color article is sufficient.
+|State=Ready to Use
+|Editorial notes=This article could be shortened. The various ways of color encoding needn't be included in the example, as they are not specific to border-bottom-color. The link to the color article is sufficient.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
