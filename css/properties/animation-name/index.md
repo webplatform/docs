@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -76,23 +76,15 @@
 |Usage=Note that <code>animation-name</code> is not sufficient to run an animation. The <code>[[css/properties/animation-duration|animation-duration]]</code> property also needs to be set to a non-zero duration.
 
 When <code>animation-name</code> specifies a list of names, other animation properties such as <code>[[css/properties/animation-duration|animation-duration]]</code> should define values corresponding to each name. If the lists of values for the other animation properties do not have the same number of values as <code>animation-name</code>, the length of the <code>animation-name</code> list determines the number of items in each list examined when starting animations. The lists are matched up from the first value: excess values at the end are not used. If one of the other properties doesn't have enough comma-separated values to match the number of values of <code>animation-name</code>, the list is repeated until there are enough. This truncation or repetition does not affect the computed value.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -106,6 +98,8 @@ When <code>animation-name</code> specifies a list of names, other animation prop
 *[[css/properties/animation-iteration-count{{!}}animation-iteration-count]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function{{!}}animation-timing-function]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -114,4 +108,15 @@ When <code>animation-name</code> specifies a list of names, other animation prop
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
