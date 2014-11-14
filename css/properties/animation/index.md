@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=See individual properties.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=single-animation [, single-animation]*
@@ -59,13 +60,37 @@ This module allows browser vendors to better support animations with hardware ac
 Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
 
 Also, see [[tutorials/css_animations|this CSS animations tutorial]].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation-delay|animation-delay]]
+*[[css/properties/animation-direction|animation-direction]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-fill-mode|animation-fill-mode]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-play-state|animation-play-state]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -81,24 +106,4 @@ Also, see [[tutorials/css_animations|this CSS animations tutorial]].
 |Version=All so far
 |Note=Chrome currently uses a lot of CPU resources when animations are played as the animation is hardware accelerated, however, as it moves it reports its position back to the dom many times per second. Safari doesn't seem to suffer from this problem.  This issue can be tracked here: http://code.google.com/p/chromium/issues/detail?id=130850
 }}
-}}
-{{See_Also_Section
-|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
-*[[css/atrules/@keyframes|@keyframes]]
-*[[css/properties/animation-delay|animation-delay]]
-*[[css/properties/animation-direction|animation-direction]]
-*[[css/properties/animation-duration|animation-duration]]
-*[[css/properties/animation-fill-mode|animation-fill-mode]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-play-state|animation-play-state]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
