@@ -1,7 +1,7 @@
 {{Page_Title|break-after}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 |Content=Examples Needed, Needs Summary
 }}
@@ -13,8 +13,10 @@
 |Applies to=block-level elements
 |Inherited=No
 |Media=visual
+|Computed value=
 |Animatable=No
 |CSS object model property=breakAfter
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=Default. A page break or column break is determined  by the flow of content.
@@ -54,6 +56,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
@@ -65,8 +68,10 @@ h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=.multicol {
 background-color:lightyellow;
 padding:20px;
@@ -101,14 +106,8 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 |Name=CSS Regions Module Level 1
 |URL=http://www.w3.org/TR/css3-regions/#region-flow-break
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Multi-Column, Regions
@@ -160,4 +159,11 @@ If any of the three concerned values is an avoid break value, that is avoid, avo
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
