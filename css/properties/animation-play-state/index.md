@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=running
@@ -83,6 +84,7 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 	0% {top: 0;}
 	100% {top: -180px;} 
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=A mobile-like interface featuring a keyframe-animated pulsing icon.  When the application enters an interruption mode, the icon is paused and the page presents another panel to indicate that the animation is inactive.
@@ -109,23 +111,15 @@ body.interrupt div.selected {
 }}
 {{Notes_Section
 |Usage=Can also be a comma-separated list of play states, e.g., '''running, paused, running''', where each play state is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animation
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -139,6 +133,8 @@ body.interrupt div.selected {
 *[[css/properties/animation-iteration-count|animation-iteration-count]]
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -147,4 +143,15 @@ body.interrupt div.selected {
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
