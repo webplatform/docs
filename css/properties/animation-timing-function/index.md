@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -74,23 +74,15 @@
 If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies more timing functions than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess functions are ignored. If <code>[[css/properties/animation-timing-function|animation-timing-function]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of functions is repeated as many times as necessary to ensure each animation has a duration.
 
 For a keyframed animation, the '''animation-timing-function''' applies between keyframes, not over the entire animation. For example, in the case of an '''ease-in-out''' timing function, an animation will ease in at the start of the keyframe and ease out at the end of the keyframe. An '''animation-timing-function''' defined within a keyframe block applies to that keyframe, otherwise the timing function specified for the animation is used.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -105,11 +97,24 @@ For a keyframed animation, the '''animation-timing-function''' applies between k
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 |External_links=* A [https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function detailed description of timing functions] (MDN)
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
+|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
