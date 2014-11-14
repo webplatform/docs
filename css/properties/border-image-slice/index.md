@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inwards offsets.}}
+{{Summary_Section|Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inward offsets.}}
 {{CSS Property
 |Initial value=100%
 |Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
