@@ -1,7 +1,7 @@
 {{Page_Title|border-bottom}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add specifications.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -12,7 +12,7 @@
 |Applies to=All elements
 |Inherited=No
 |Media=visual
-|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
+|Computed value=See '''Notes''' below.
 |Animatable=Yes
 |CSS object model property=borderBottom
 |CSS percentages=N/A
@@ -122,7 +122,8 @@ a:visited{text-decoration:none;color:green;}
 {{Notes_Section
 |Usage=* It is usual to use the <code>border-bottom</code> property to set the default state of a box's bottom border, and then override individual values using more specific propeties, such as <code>border-bottom-width</code> or <code>border-bottom-color</code>.
 * <code>border-bottom</code> can be used as a divider between vertically laid out items, such as a vertical navigation menu, or table cells.
-|Notes=
+|Notes====Computed values===
+For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
