@@ -1,7 +1,7 @@
 {{Page_Title|break-before}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -55,6 +55,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
@@ -66,6 +67,7 @@ h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Forces h3s onto a new column.
@@ -97,34 +99,34 @@ h3 {
 |Usage=This property replaces separate '''column-break-before''', '''page-break-before''', and '''region-break-before''' properties, which may still be present in some browser implementations.
 
 Frequent use case is in a print stylesheet.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 1
 |URL=http://dev.w3.org/csswg/css3-regions/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Fragmentation Module Level 3
 |URL=http://www.w3.org/TR/css3-break/#break-properties
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://www.w3.org/TR/css3-multicol/#column-breaks
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Box Model, CSS Attributes, Flexbox, Multi-Column, Regions, Responsive Web Design, Shapes
+|Manual_links=
 |External_links=* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
 }}
 {{Topics|CSS, CSS-Regions, Flexbox, UI}}
 {{External_Attribution
@@ -133,4 +135,11 @@ Frequent use case is in a print stylesheet.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
