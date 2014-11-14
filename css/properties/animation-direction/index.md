@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=normal
@@ -56,13 +57,38 @@
 }}
 {{Notes_Section
 |Usage=Can also be a comma-separated list of directions, e.g., '''reverse, normal, alternate''', where each direction is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
+*[[css/atrules/@keyframes|@keyframes]]
+*[[css/properties/animation|animation]]
+*[[css/properties/animation-delay|animation-delay]]
+*[[css/properties/animation-duration|animation-duration]]
+*[[css/properties/animation-fill-mode|animation-fill-mode]]
+*[[css/properties/animation-iteration-count|animation-iteration-count]]
+*[[css/properties/animation-name|animation-name]]
+*[[css/properties/animation-play-state|animation-play-state]]
+*[[css/properties/animation-timing-function|animation-timing-function]]
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -86,24 +112,4 @@
 |Version=10.0
 |Note=The -ms- prefixed property is deprecated and should not be used.
 }}
-}}
-{{See_Also_Section
-|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
-*[[css/atrules/@keyframes|@keyframes]]
-*[[css/properties/animation|animation]]
-*[[css/properties/animation-delay|animation-delay]]
-*[[css/properties/animation-duration|animation-duration]]
-*[[css/properties/animation-fill-mode|animation-fill-mode]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-play-state|animation-play-state]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
