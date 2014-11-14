@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -17,6 +17,7 @@ By default, an animation does not affect property values between the time it is 
 |Media=visual
 |Computed value=As specified.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
@@ -125,23 +126,14 @@ header {
 {{Notes_Section
 |Usage=Can also be a comma-separated list of fill modes, e.g., '''forwards, none, backwards''', where each fill mode is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property.
 |Notes=This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animation
 |URL=http://www.w3.org/TR/css3-animations/
 |Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -156,6 +148,7 @@ header {
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
 |External_links=* See also [http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/ Val Head's examples with tutorial video].
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -164,4 +157,15 @@ header {
 |MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefix property is deprecated and should not be used.
+}}
 }}
