@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility section.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -81,23 +81,15 @@ header {
 {{Notes_Section
 |Usage=*If <code>[[css/properties/animation-delay|animation-delay]]</code> specifies more delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess delays are ignored.
 *If <code>[[css/properties/animation-delay|animation-delay]]</code> specifies fewer delays than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of delays is repeated as many times as needed to map each animation to a delay.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Animations
 |URL=http://www.w3.org/TR/css3-animations/#animation-delay-property
 |Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefixed property is deprecated and should not be used.
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
@@ -111,6 +103,8 @@ header {
 *[[css/properties/animation-name|animation-name]]
 *[[css/properties/animation-play-state|animation-play-state]]
 *[[css/properties/animation-timing-function|animation-timing-function]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -119,4 +113,15 @@ header {
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/animation-delay
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Internet Explorer
+|Version=10.0
+|Note=The -ms- prefixed property is deprecated and should not be used.
+}}
 }}
