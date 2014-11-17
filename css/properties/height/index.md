@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=percentage or absolute height
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=auto
 |Description=If auto is set for the elements height, the browser will determine the height for the element.
@@ -47,6 +49,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/* Height of div equal to 100% of the bounding element */
 div { height: 100% }
 
@@ -58,6 +61,7 @@ section { height: auto }
 
 /* Height of image set to 100px */
 img { height: 100px }
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Example using new values that are part of the CSS Basic Box Model that is currently in working draft.
@@ -121,9 +125,11 @@ p.height50solved {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If you specify the '''height''' property of an '''img''' object but not the [[css/properties/width|'''width''']] property, the width is proportional to the height according to the dimensions of the image source file.
 To perform operations on the numeric value of this property, use [[css/cssom/properties/pixelHeight|'''pixelHeight''']] or [[css/cssom/properties/posHeight|'''posHeight''']].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -135,21 +141,18 @@ To perform operations on the numeric value of this property, use [[css/cssom/pro
 |Name=CSS Level 2
 |URL=http://www.w3.org/TR/CSS2/visudet.html#the-height-property
 |Status=Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Level 1
 |URL=http://www.w3.org/TR/CSS1/#height
 |Status=Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=CSS Layout, Box Model, CSS Attributes, Grid Layout
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -167,4 +170,11 @@ To perform operations on the numeric value of this property, use [[css/cssom/pro
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
