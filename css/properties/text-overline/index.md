@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Examples Needed
 }}
@@ -13,7 +13,9 @@
 |Applies to=all elements with and generated content with textual content
 |Inherited=No
 |Media=visual
+|Computed value=
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=<'text-overline-style'>
@@ -41,25 +43,33 @@ It can also have the values of initial or inherit.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example}}
+|Examples={{Single Example
+|Language=CSS
+|Description=Produces a single, solid overline.
+|Code=p {
+   text-overline: solid;
+}
+
+|LiveURL=
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS3 Text Module
 |URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Text
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -67,4 +77,11 @@ It can also have the values of initial or inherit.
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
