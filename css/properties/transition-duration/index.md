@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -25,6 +25,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/*
   * This example gradually changes the background color
   * of a div to red over the specified duration time(3s)
@@ -37,13 +38,33 @@ div:hover{
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Transitions respect Cascading Style Sheets (CSS) box model constraints such as [[css/properties/min-width|'''min-width''']].
 For example, if an element is declared with a [[css/properties/min-width|'''min-width''']] value of <code>50px</code> then a transition to a width of <code>25px</code> is not valid. In a case such as this, the transition runs for the specified duration from the start value until a valid maximum or minimum end value, as appropriate.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-transitions/#transition-duration-property CSS Transitions Module Level 3], Section 2.2
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transitions
+|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=Transitions
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -71,15 +92,4 @@ For example, if an element is declared with a [[css/properties/min-width|'''min-
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Transitions
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
