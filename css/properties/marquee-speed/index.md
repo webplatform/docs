@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
+|State=Ready to Use
+|Editorial notes=This property seems to have been deprecated.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -43,14 +43,29 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The actual speed depends on the UA and the type of content.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Marquee Module Level 3
 |URL=http://www.w3.org/TR/css3-marquee/#marquee-speed
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -58,12 +73,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
