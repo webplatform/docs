@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add description.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified, but with <url> values made absolute
 |Animatable=Yes
+|CSS object model property=
 |CSS percentages=As specified
 |Values={{CSS Property Value
 |Data Type=<basic-shape>
@@ -46,12 +47,14 @@
 |Code=#image {
     clip-path: inset(10% 10% 10% 10% round 20%, 20%); 
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=The following clip-path definition references a <clipPath> element for clipping.
 |Code=#image {
     clip-path: url(#clipping); 
 }
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=A <clipPath> element specifies a clipping region. Multiple shapes inside a <clipPath> element result in an additive clipping behavior.
@@ -61,6 +64,7 @@ Any shape inside the <clipPath> element and the <clipPath> element itself can be
   <circle cx="150" cy="150" r="50" />
   <rect x="150" y="150" width="100" height="100" />
 </clipPath>
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=In this example, the Web Platform Docs logo is clipped in two ways; one shows the icon (clipped with a circle) and the other shows the text (clipped with an ellipse).
@@ -86,19 +90,38 @@ img.clipped-text {
 <img class="clipped-icon" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (icon only)" title="Web Platform Docs logo (icon only)" />
 <img class="clipped-text" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo (text only)" title="Web Platform Docs logo (text only)" />
 </syntaxhighlight>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking
 |URL=http://dev.w3.org/fxtf/masking/
 |Status=Editor's Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=SVG 1.1
 |URL=http://www.w3.org/TR/SVG/
 |Status=Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -132,12 +155,4 @@ img.clipped-text {
 |Version=7.x
 |Note=Still uses the deprecated syntax:
 }}
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
