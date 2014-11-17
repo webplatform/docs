@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -15,6 +15,7 @@
 |Media=visual
 |Computed value=See individual properties.
 |Animatable=No
+|CSS object model property=
 |CSS percentages=See individual properties.
 |Values={{CSS Property Value
 |Data Type=inline
@@ -65,6 +66,7 @@
     display: block;
   }
 &lt;/style&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Do not display an element by using <code>display: none;</code>.
@@ -74,6 +76,7 @@
     display: none;
   }
 &lt;/style&gt;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
@@ -91,6 +94,7 @@ p.inherit {
     /* Sets the display value to inherit its parent container's display values. */
     display:inherit;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Mobile-adapt a table, suppressing column headers and re-inserting text next to vertically stacked cells:
@@ -106,6 +110,7 @@ p.inherit {
     td:nth-of-type(3)::before { content: "Column 3: " }
     td:nth-of-type(4)::before { content: "Column 4: " }
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Stack generously sized links in mobile interface to extend the touch zone to the full width of the screen:
@@ -122,9 +127,11 @@ p.inherit {
         background-position: 90% center;
     }
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes='''Computed value and relationship between [[css/properties/display|display]], [[css/properties/position|position]], and [[css/properties/float|float]]'''
 * If 'display' has the value 'none', then 'position' and 'float' do not apply. In this case, the element generates no box.
 * Otherwise, if 'position' has the value 'absolute' or 'fixed', the box is absolutely positioned, the computed value of 'float' is 'none', and display is set according to the table below. The position of the box will be determined by the 'top', 'right', 'bottom' and 'left' properties and the box's containing block.
@@ -144,26 +151,26 @@ p.inherit {
 
 '''Table-designated elements'''<br />
 The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as <code>display: table-cell</code> does not need to be contained within a block that is styled <code>display: table-row</code> to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Display Module Level 3
 |URL=http://dev.w3.org/csswg/css-display-3/
 |Status=Editor's Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/visuren.html#display-prop
 |Status=Recommendation
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -172,4 +179,14 @@ The Cascading Style Sheets (CSS) table display model does not require explicit e
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+
+
+
 {{Languages}}
