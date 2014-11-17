@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the [[css/properties/clipPath|clipPath]] property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.}}
+{{Summary_Section|Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the [[css/properties/clip-path|clip-path]] property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.}}
 {{CSS Property
 |Initial value=nonzero
 |Applies to=Graphics elements that are contained within a <clipPath> element.
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=As specified
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=nonzero
@@ -89,17 +90,33 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 }}
 {{Notes_Section
 |Usage=The clip-rule property only applies to graphics elements that are contained within a [[css/properties/clipPath|clipPath]] element.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Masking
 |URL=http://dev.w3.org/fxtf/masking/
 |Status=Editor's Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=SVG 1.1
 |URL=http://www.w3.org/TR/SVG/
 |Status=Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -107,12 +124,4 @@ See [http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
