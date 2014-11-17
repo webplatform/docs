@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 }}
@@ -29,12 +29,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the <code>padding-left</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=TD { padding-left: 20%; }
+|Code=td { padding-left: 20%; }
 |LiveURL=http://code.webplatform.org/gist/6948612
 }}{{Single Example
 |Language=CSS
 |Description=
-|Code=TD { padding-left: 30px; }
+|Code=td { padding-left: 30px; }
 |LiveURL=http://code.webplatform.org/gist/6948619
 }}
 }}
