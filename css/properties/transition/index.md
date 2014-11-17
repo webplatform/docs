@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -54,10 +54,31 @@ div:hover {
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes=A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transitions
+|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=Animation, Transitions
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, Vendor Prefix}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/transition
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -119,15 +140,4 @@ div:hover {
 |Safari_mobile_prefixed_version=3.2
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Transitions
-}}
-{{Topics|CSS, Vendor Prefix}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/transition
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
