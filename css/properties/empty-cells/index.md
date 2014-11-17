@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status}}
@@ -15,6 +15,7 @@
 |Computed value=Same as specified
 |Animatable=No
 |CSS object model property=emptyCells
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=show
 |Description=Renders empty cells with inherited borders and styles
@@ -27,6 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/*
   * This example hides any table cell that has no data in it
   */
@@ -38,6 +40,7 @@ td{
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 If all cells in a particular row have the '''empty-cells''' value set to '''hide''', the entire row will behave as if it had the [[css/properties/display|'''display''']] value of <code>none</code>.
 The '''empty-cells''' value can be set for an entire table.  If the value is set in the [[html/elements/table|'''table''']] properties to <code>show</code>,all cells will be rendered with borders, regardless of their content.
@@ -49,15 +52,10 @@ The '''empty-cells''' value can be set for an entire table.  If the value is set
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Tables
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
@@ -71,4 +69,11 @@ The '''empty-cells''' value can be set for an entire table.  If the value is set
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
