@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -34,17 +34,34 @@
 |Language=CSS
 |Description=See [[css/properties/flex#Examples|flex examples]] for the use of this property in an example.
 |Code=flex-basis: 60%;
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=The best practice is to use (instead of this property) the [[css/properties/flex|flex]] shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Model
 |URL=http://dev.w3.org/csswg/css-flexbox/#flex-basis
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|Flexbox}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -54,14 +71,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-}}
-{{Topics|Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
