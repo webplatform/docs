@@ -1,7 +1,7 @@
 {{Page_Title|font-family}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -15,6 +15,7 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=fontFamily
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=family-name
 |Description=The name of a font family, such as <code>courier</code> or <code>arial</code>. You can reference fonts available on the user's system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it should be enclosed in quotes, for example <code>'Comic Sans'</code>.
@@ -60,26 +61,48 @@ h1 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=* If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
 * Generic font family names are values (keywords) and cannot appear in quotation marks
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1, section 15.3
 |URL=http://www.w3.org/TR/CSS21/fonts.html#font-family-prop
 |Status=W3C Recommendation 07 June 2011
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/
 |Status=W3C Working Draft 12 February 2013
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS3 module: Web Fonts
 |URL=http://www.w3.org/TR/2002/WD-css3-webfonts-20020802/
 |Status=W3C Working Draft 2 August 2002
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Font, Fonts
+|Manual_links=
+|External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
+* [http://dev.w3.org/csswg/css3-fonts/#font-family-prop Basic Font Properties]
+* [https://developer.mozilla.org/en-US/docs/Web/CSS/font-family font-family @ MDN]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -117,18 +140,4 @@ h1 {
 |Version=7
 |Note=The value "inherit" is not supported in IE7 and earlier.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts
-|External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
-* [http://dev.w3.org/csswg/css3-fonts/#font-family-prop Basic Font Properties]
-* [https://developer.mozilla.org/en-US/docs/Web/CSS/font-family font-family @ MDN]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
