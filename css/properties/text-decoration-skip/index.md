@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -16,6 +16,7 @@
 |Computed value=as specified
 |Animatable=No
 |CSS object model property=textDecorationSkip
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Will not skip anything; the text decoration will be drawn for all text content
@@ -48,26 +49,34 @@ Note: It is not known yet if this is a needed value
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=CSS
+|Description=Skip ascenders and descenders, allowing text to show through any decoration.
+|Code=p {
+   text-decoration-skip: ink;
+}
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=This property inherits so the descendent elements can have different setting.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Decoration Module Level 3
 |URL=http://www.w3.org/TR/css-text-decor-3/
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -75,4 +84,11 @@ Note: It is not known yet if this is a needed value
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/gg721763(v=expression.40).aspx
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
