@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags. "Warning: More than one default form is defined for this page." ?
+|State=Ready to Use
+|Editorial notes=Editing this page produces: "Warning: More than one default form is defined for this page." ?
 |Checked_Out=No
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status|Experimental}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.}}
 {{CSS Property
@@ -13,7 +13,10 @@
 |Applies to=Visible elements
 |Inherited=Yes
 |Media=visual
+|Computed value=
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=none
 |Description=None of the descendants of the element can be selected, neither text nor images.
@@ -42,9 +45,31 @@
 {{Notes_Section
 |Usage=Needs vendor prefixes.
 |Notes=Also works on mobile devices to suppress selection by touch and hold.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=User Interface for CSS3
+|URL=http://www.w3.org/TR/2000/WD-css3-userint-20000216
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Attributes
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}235901 IE Test Drive: User-Select]</code>
+*<code>[https://developer.mozilla.org/en-US/docs/CSS/user-select]</code>
+}}
+{{Topics|CSS, Design}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -122,20 +147,9 @@
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=CSS Attributes
-|Manual_sections====Related pages (MSDN)===
-*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}235901 IE Test Drive: User-Select]</code>
-*<code>[https://developer.mozilla.org/en-US/docs/CSS/user-select]</code>
-}}
-{{Topics|CSS, Design}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+
+
 {{CSS_Selector
 |Content=
 }}
