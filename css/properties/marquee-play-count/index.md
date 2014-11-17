@@ -1,13 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
-This property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage.
+|State=Ready to Use
+|Editorial notes=This property seems to have been deprecated.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|This property specifies how many times the marquee content moves}}
+{{Summary_Section|This property specifies how many times the marquee content moves.}}
 {{CSS Property
 |Initial value=1
 |Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
@@ -28,6 +27,8 @@ This property seems to have been deprecated. Once compatibility tables have been
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
+|Description=
 |Code=h1 {
 	overflow: auto; 
 	overflow-style: marquee-line;
@@ -48,13 +49,28 @@ For example:
 </code>
 
 Now, the <code>h1</code> loops 2 times, until you hover over it. Then the loop counter will reset and it loops for 4 times. If you than leave the element, it resets again and it will loop 2 times.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Marquee Module Level 3
 |URL=http://www.w3.org/TR/css3-marquee/#the-marquee-play-count
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -62,12 +78,4 @@ Now, the <code>h1</code> loops 2 times, until you hover over it. Then the loop c
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
