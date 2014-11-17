@@ -6,7 +6,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
 
 {{Languages}}
 
-== Verken onze web developers documentatie ==
+== Verken onze documentatie voor webontwikkelaars ==
 
 <div class="topic-container">
 
@@ -17,7 +17,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
     <div class="inner">
     <h3>[[beginners | Voor beginners]]</h3>
     
-    <p>Eenvoudig materiaal voor diegene die nieuw in het web zijn.</p>
+    <p>Eenvoudig materiaal voor mensen die net beginnen met webdevelopment.</p>
     </div>
   
   </div>
@@ -29,7 +29,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
     <div class="inner">
     <h3>[[concepts | Algemene web concepten]]</h3>
     
-    <p>Conceptuele en zelfstudie artikelen over onderwerpen zoals hoe het web werkt, informatie architectuur, typografie en web design..</p>
+    <p>Conceptuele artikelen en handleidingen over onderwerpen als de werking van het web, informatie-architectuur, typografie en webdesign.</p>
     </div>
   
   </div>
@@ -41,7 +41,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
     <div class="inner">
     <h3>[[html|HTML]]</h3>
     
-    <p>Conceptuele, zelf studie en referentiematerialen voor de hoofd opmaaktaal van het web.</p>
+    <p>Conceptuele artikelen, handleidingen en referentiemateriaal voor de voornaamste opmaaktaal van het web.</p>
     </div>
   
   </div>
@@ -54,7 +54,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
     <div class="inner">
     <h3>[[css|CSS]]</h3>
     
-    <p>Conceptuele, zelf studie en referentiematerialen voor Cascading Style Sheets (CSS).</p>
+    <p>Conceptuele artikelen, handleidingen en referentiemateriaal voor Cascading Style Sheets (CSS).</p>
     </div>
   
   </div>
@@ -67,7 +67,7 @@ Web Platform Docs is een community gedreven website die gericht is om een uitgeb
     <div class="inner">
     <h3>[[concepts/accessibility|Toegankelijkheid]]</h3>
     
-    <p>Patronen, gebruiken en businesscases om het web gebruikbaar te maken voor mensen met diverse vaardigheden.</p>
+    <p>Patronen, gebruiken en businesscases om het web bruikbaar te maken voor mensen met diverse vaardigheden.</p>
     </div>
   
   </div>
