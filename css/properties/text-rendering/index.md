@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Recommendation}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.}}
 {{CSS Property
@@ -35,6 +35,7 @@ This setting can be helpful when using kerning, which does often not scale linea
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
 body {
 	text-rendering: auto;
@@ -54,6 +55,7 @@ body {
 body {
 	text-rendering: optimizePrecision;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -61,9 +63,28 @@ body {
 In Gecko browsers there is a way to set the threshold value for the auto keyword by changing the preference in browser.display.auto_quality_min_font_size. By default it is set to 20px.
 On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed option has no effect because there is no faster way of rendering text than the standard code already does. See bug [https://bugzilla.mozilla.org/show_bug.cgi?id=595688 bug 595688] for more details on that.
 |Notes=The property is a SVG property not specified in any CSS standard yet. However, user agents including Gecko and WebKit browsers let you apply this property to HTML and XML content on Windows, Mac OS X and Linux via CSS.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/
+|Status=W3C Last Call Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Font, CSS Attributes, Text
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, Graphics, SVG}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -73,14 +94,4 @@ On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed opt
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, CSS Attributes, Text
-}}
-{{Topics|CSS, Graphics, SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
