@@ -1,8 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=- Needs spec reference
-- Is the compatibility note relevant to Safari as well (up until which version, if any?)?
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -37,10 +36,10 @@ q:after  { content: close-quote }
 }}{{Single Example
 |Language=HTML
 |Description=The HTML for the example above.
-|Code=<p>
+|Code=<nowiki><p>
   <q>When I die, I'm donating my <q>body</q> to science fiction.</q>
   <em> ~ Stephen Wright</em>
-</p>
+</p></nowiki>
 |LiveURL=
 }}
 }}
@@ -55,17 +54,6 @@ q:after  { content: close-quote }
 |URL=http://www.w3.org/TR/CSS21/generate.html#quotes
 |Status=W3C Recommendation
 |Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Version=37 and earlier
-|Note=Supports the nonstandard single string syntax (<code>quotes: 'red'</code>).
 }}
 }}
 {{See_Also_Section
@@ -84,4 +72,15 @@ q:after  { content: close-quote }
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows={{Compatibility Notes Row
+|Browser=Chrome
+|Version=37 and earlier
+|Note=Supports the nonstandard single string syntax (<code>quotes: 'red'</code>).
+}}
 }}
