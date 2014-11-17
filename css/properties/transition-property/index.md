@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -31,6 +31,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/*
   * This example only applies "transition-" prefixed css
   *  properties to those listed in "transition-property" css
@@ -52,13 +53,33 @@ div:hover{
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The version of this property using a vendor prefix, '''-ms-transition-property''', has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 |Import_Notes====Standards information===
 *[http://www.w3.org/TR/css3-transitions/#transition-property-property CSS Transitions Module Level 3], Section 2.1
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transitions
+|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Topic_clusters=Transitions
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -120,15 +141,4 @@ The version of this property using a vendor prefix, '''-ms-transition-property''
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Transitions
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
