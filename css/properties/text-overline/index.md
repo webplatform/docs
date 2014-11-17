@@ -45,11 +45,10 @@ It can also have the values of initial or inherit.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=Produces a single, solid overline.
+|Description=Produces a single, solid, blue overline.
 |Code=p {
-   text-overline: solid;
+   text-overline: solid blue;
 }
-
 |LiveURL=
 }}
 }}
