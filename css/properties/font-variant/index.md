@@ -1,7 +1,7 @@
 {{Page_Title|font-variant}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Outdated
 }}
@@ -42,10 +42,13 @@
   font-size: 300%;
   font-variant: small-caps;	
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=In ([http://www.w3.org/TR/css3-fonts/#propdef-font-variant CSS Fonts Module Level 3, W3C Working Draft 11 December 2012]), this property is extended. However, no browser seems to support these changes yet.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -57,7 +60,21 @@
 |Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
 |URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Font, Fonts
+|Manual_links=
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -87,15 +104,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts
-|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
