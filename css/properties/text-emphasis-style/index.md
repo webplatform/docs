@@ -1,10 +1,10 @@
 {{Page_Title|text-emphasis-style}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>text-emphasis-style</code> property applies special emphasis marks to an element's text.}}
 {{CSS Property
@@ -49,6 +49,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=p {
   /*text-emphasis-style: shape;*/
   text-emphasis-style: dot;		
@@ -56,15 +57,38 @@
 |LiveURL=http://code.webplatform.org/gist/6133332
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p {
   /*text-emphasis-style: <string>;*/
   text-emphasis-style: "^";		
 }
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Decoration Module Level 3
+|URL=http://www.w3.org/TR/css-text-decor-3/
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -89,12 +113,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
