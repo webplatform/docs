@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The <code>font-size-adjust</code> property adjusts the font-size of the fallback fonts defined with [[css/properties/font-family|font-family]], so that the [[x-height]] is the same no matter what font is used. This preserves the readability of the text when fallback happens.}}
+{{Summary_Section|The <code>font-size-adjust</code> property adjusts the font-size of the fallback fonts defined with [[css/properties/font-family|font-family]], so that the '''x-height''' is the same no matter what font is used. This preserves the readability of the text when fallback happens.}}
 {{CSS Property
 |Initial value=none
 |Applies to=All elements
@@ -44,8 +44,10 @@
 	&lt;/td&gt;  
   &lt;/tr&gt;
 &lt;/table&gt;
+|LiveURL=
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=.demoblock {
 	width: 33%;
 }
@@ -66,9 +68,11 @@ p.adjust {
 	font-family: hoge, "Times New Roman", serif;
 	font-size-adjust: 0.58;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=In script types that distinguish between uppercase and lowercase letters, such as the Latin script used for English, the height of the lowercase letters relative to the height of the uppercase letters impacts readability at smaller type sizes. This relation is called the '''aspect value''', which is calculated by dividing a font's '''[[x_height|x-height]]''' by the font's size.
 
 The '''font-size-adjust''' property preserves the readability of text when the first specified font is not available and a fallback or replacement font is used. It adjusts the [[css/properties/font-size|font-size]] so the '''[[x_height|x-height]]''' of the fallback or replacement is similar to the '''[[x_height|x-height]]''' of the font it's replacing. 
@@ -84,13 +88,35 @@ Where:
 * s = the font size
 
 As an abstract example, assume you specify a font-size-adjust value of 0.5, your fallback font's '''aspect value''' is .4, and the [[css/properties/font-size|font-size]] is 8px. The fallback font is rendered at 10px ((.5 /.4) * 8).
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#propdef-font-size-adjust
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=CSS Font, Fonts
+|Manual_links=
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust font-size-adjust]
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/properties/font-stretch|font-stretch]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -119,23 +145,4 @@ As an abstract example, assume you specify a font-size-adjust value of 0.5, your
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts
-|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust font-size-adjust]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/properties/font-stretch|font-stretch]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
