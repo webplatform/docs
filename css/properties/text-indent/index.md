@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=<length/percentage> hanging and <length/percentage> each-line currently an experimental feature in CSS Text Level 3 or just experimental, unclear
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Incomplete
 }}
@@ -92,6 +92,7 @@ window.addEventListener("load", initialize, false);
 {{Notes_Section
 |Usage=It is important to note that the keyword options ('''each-line''' and '''hanging''') are experimental features; exercise caution when using them, as there is no guarantee of cross-browser compatibility.
 |Notes=The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as '''br''' in HTML.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -105,6 +106,19 @@ window.addEventListener("load", initialize, false);
 |Status=Recommendation
 |Relevant_changes=Section 5.4.7
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -177,13 +191,4 @@ window.addEventListener("load", initialize, false);
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
