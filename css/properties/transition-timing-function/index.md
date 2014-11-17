@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Adapted from animation-timing-function page. Remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -60,6 +60,7 @@
 }}{{Single Example
 |Language=Other
 |Description=See how changing the timing value affects a sequence of two transitions
+|Code=
 |LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
 }}
 }}
@@ -70,9 +71,29 @@ listed by the [[css/properties/transition-property|'''transition-property''']]
 property. Excess values are ignored. If there are fewer timing values
 than transitions, they're recycled in order of declaration until their
 numbers match.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Transitions
+|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -138,15 +159,4 @@ numbers match.
 |Version=10.0
 |Note=The -ms- prefix property is deprecated and should not be used.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Transitions
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
