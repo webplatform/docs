@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -15,6 +15,7 @@
 |Computed value=normal or absolute length
 |Animatable=No
 |CSS object model property=letterSpacing
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=normal
 |Description=The spacing is the normal spacing for the current font.
@@ -36,6 +37,7 @@
 |LiveURL=http://code.webplatform.org/gist/5671141
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p {
     letter-spacing: normal;
 }
@@ -47,19 +49,40 @@ p.pos {
 p.neg {
     letter-spacing: -.1em;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=* Up to three different values can be specified, in the following order: optimum, minimum, maximum
 * If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
 |Notes=When specified as a positive '''length''' value, the '''letter-spacing''' attribute adds the specified value to the default spacing between characters within an element. A negative '''length''' value decreases the space between characters. Letter spacing can be influenced by justification.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Text Module Level 3
 |URL=http://www.w3.org/TR/css3-text/#letter-spacing
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Text
+|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -121,20 +144,4 @@ p.neg {
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-|Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
