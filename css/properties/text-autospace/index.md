@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|When non-ideographic characters (such as numbers) are presented alongside ideographic characters, many designers prefer to include spacing to separate it from the surrounding ideographs.  This property automates the creation of that space by introducing an in-line margin, the width of which corresponds to the width of existing ideographs.}}
 {{CSS Property
@@ -14,6 +14,7 @@
 |Media=visual
 |Computed value=specified value (except for initial and inherit)
 |Animatable=Yes
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=none
@@ -68,7 +69,31 @@ An ideograph is a character in an Asian writing system that represents a concept
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 9.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Text Module Level 3
+|URL=http://www.w3.org/TR/css3-text/
+|Status=W3C Last Call Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>[[css/cssom/styleSheet|styleSheet]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -97,21 +122,4 @@ An ideograph is a character in an Asian writing system that represents a concept
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/cssom/styleSheet|styleSheet]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
