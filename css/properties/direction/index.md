@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -37,6 +37,7 @@
 |LiveURL=http://code.webplatform.org/gist/5708516
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p {
 	width: 300px;
 	background-color: #cccccc;
@@ -49,25 +50,22 @@
 #bidi {
 	unicode-bidi: bidi-override;
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The property does not affect alphanumeric characters in Latin documents. These characters always render '''ltr'''.  However, the property does affect punctuation characters in Latin documents.
 The property pertains only to the directional flow of an element's content. It has no effect on properties such as [[css/properties/left|'''left''']] or [[css/properties/right|'''right''']], [[css/properties/margin-left|'''margin-left''']] or [[css/properties/margin-right|'''margin-right''']].  The '''margin-left''' property, for example, sets or retrieves the width of the margin on the left side of the document regardless of the value of the '''direction''' property.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Cascading Style Sheets Level 2 Revision 1
 |URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-direction
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
@@ -79,6 +77,8 @@ The property pertains only to the directional flow of an element's content. It h
 *<code>[[html/attributes/dir|dir]]</code>
 *<code>Conceptual</code>
 *<code>HTML Character Sets</code>
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -87,4 +87,11 @@ The property pertains only to the directional flow of an element's content. It h
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
