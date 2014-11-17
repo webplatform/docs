@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -52,6 +52,7 @@
 |Description=Use max-height with any CSS selector to apply it.
 |Code=/* Restrict all div elements to a max-height of 10px */
 div { max-height: 10px }
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=max-height property overrides the height of an element.
@@ -83,18 +84,39 @@ div { max-height: 10px }
 * [[css/properties/min-height|min-height]] overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
 * max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 * Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 (Section 10.7)
 |URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
 |URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
 |Status=Working Draft
 |Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Box Model
+|Manual_links=
+|External_links=* [http://www.w3.org/wiki/CSS/Properties/max-height W3C Wiki]
+* [http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx Internet Explorer Docs]
+* [https://developer.mozilla.org/en-US/docs/CSS/max-height Firefox Docs]
+* [https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height Safari Docs]
+*[http://caniuse.com/#feat=minmaxwh Can I Use]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -225,20 +247,4 @@ div { max-height: 10px }
 |Browser=Chrome/Safari
 |Note=Support intrinsic(max-content) & min-intrinsic(min-content)
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|External_links=* [http://www.w3.org/wiki/CSS/Properties/max-height W3C Wiki]
-* [http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx Internet Explorer Docs]
-* [https://developer.mozilla.org/en-US/docs/CSS/max-height Firefox Docs]
-* [https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height Safari Docs]
-*[http://caniuse.com/#feat=minmaxwh Can I Use]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
