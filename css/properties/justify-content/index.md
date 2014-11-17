@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -14,6 +14,8 @@
 |Media=visual
 |Computed value=specified value
 |Animatable=No
+|CSS object model property=
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=flex-start
 |Description=Flex items are packed toward the start of the line. The main-start margin edge of the first flex item on the line is placed flush with the main-start edge of the line, and each subsequent flex item is placed flush with the preceding item.
@@ -91,6 +93,7 @@
 |LiveURL=http://code.webplatform.org/gist/5842739
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;p&gt;justify-content: flex-start&lt;/p&gt;
 &lt;div class="container flex-start"&gt;
   &lt;div class="first-item"&gt;first-item&lt;/div&gt;
@@ -121,17 +124,36 @@
   &lt;div class="second-item"&gt;second-item&lt;/div&gt;
   &lt;div class="third-item"&gt;third-item&lt;/div&gt;
 &lt;/div&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=This property was named '''flex-pack''' in earlier drafts.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
 |URL=http://dev.w3.org/csswg/css-flexbox/#justify-content-property
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+|Manual_links=
+|External_links=Also, check out the following live demo sites:
+* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
+* [http://the-echoplex.net/flexyboxes Flexy Boxes]
+|Manual_sections=
+}}
+{{Topics|CSS, Flexbox}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -160,17 +182,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-|External_links=Also, check out the following live demo sites:
-* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
-* [http://the-echoplex.net/flexyboxes Flexy Boxes]
-}}
-{{Topics|CSS, Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
