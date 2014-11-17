@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, fix broken link
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -15,6 +15,7 @@
 |Computed value=see individual properties
 |Animatable=No
 |CSS object model property=<'text-overflow-mode'>
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=clip
 |Description=Default. Simply clips the content and does not display ellipsis for text-overflow.
@@ -44,6 +45,7 @@
 |LiveURL=http://dabblet.com/gist/4744956
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=.overflowed > p{
 	width: 10em;
 	height: 5em;
@@ -66,6 +68,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 This property only applies to text overflow in the inline direction (horizontal, in normal Western text).  Inline overflow occurs when the text in a line overflows the available width without a breaking opportunity. To force overflow to occur and ellipses to be applied, the author must apply the ''nowrap'' value to the [[css/properties/white-space|'''white-space''']] property on the element, or wrap the content in a &lt;NOBR&gt; tag. If there is no breaking opportunity (for example, the width is narrow or there is a long word that does not break well), then overflow may occur without ''nowrap'' being applied.
 This property on the element must be set to something other than ''visible'', the default, in order for ellipses to be rendered.  The best choice is to set [[css/properties/overflow|'''overflow''']] to  ''hidden''.  Setting '''overflow''' to ''scroll'' or ''auto'' will also work, but will show scrollbars.
@@ -76,6 +79,23 @@ This property offers an efficient alternative to building ellipses in Dynamic HT
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=http://dev.w3.org/csswg/css3-ui/#text-overflow
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -137,20 +157,4 @@ This property offers an efficient alternative to building ellipses in Dynamic HT
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=http://dev.w3.org/csswg/css3-ui/#text-overflow
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
