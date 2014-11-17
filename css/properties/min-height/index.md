@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -54,6 +54,7 @@ It overrides both the height & the max-height property if any them is specified 
 |Description=Use min-height with any CSS selector to apply it.
 |Code=/* Ensure all div elements are a min-height of 100px */
 div { min-height: 100px }
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=min-height property overrides the height of an element.
@@ -92,18 +93,44 @@ div { min-height: 100px }
 * min-height overrides [[css/properties/max-height|max-height]]. If min-height supplied is greater than max-height, max-height does not have an impact.
 * max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 * Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1 (Section 10.7)
 |URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
 |URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
 |Status=Working Draft
 |Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Box Model
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>Reference</code>
+*<code>[[html/attributes/height|height]]</code>
+*<code>Other Resources</code>
+*<code>Cascading Style Sheet Compatibility in Internet Explorer 7</code>
+*<code>CSS Enhancements in Internet Explorer 6</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -137,25 +164,4 @@ div { min-height: 100px }
 |Version=1
 |Note=Does not support min-height for positional elements. It was added in Safari 2.0.2 (416).
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[html/attributes/height|height]]</code>
-*<code>Other Resources</code>
-*<code>Cascading Style Sheet Compatibility in Internet Explorer 7</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
