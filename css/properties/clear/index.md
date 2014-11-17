@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -70,13 +70,13 @@
 }}{{Single Example
 |Language=HTML
 |Description=Moving a footer below all floated content above.
-|Code=<h1>Clearing Floats</h1>
+|Code=<nowiki><h1>Clearing Floats</h1>
 <!-- Note that it is a good practice to have your floated items precede the elements they are floated around. -->
 <div id="box"><code>float:left</code></div>
 <p>Paragraphs are typically <code>clear: none;</code> by default, and are frequently used in conjuction with a floated image. In this example,
 pretend the black box labeled <code>float:left;</code> is an image floated left. </p>
 <p><a href="javascript:void()" id="toggleClear">Toggle the clear settings on the footer</a></p>
-<footer id="footer">This is a footer.</footer>
+<footer id="footer">This is a footer.</footer></nowiki>
 |LiveURL=http://code.webplatform.org/gist/6072801
 }}
 }}
