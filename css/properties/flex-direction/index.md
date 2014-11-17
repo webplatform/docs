@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -15,6 +15,7 @@
 |Computed value=specified value
 |Animatable=No
 |CSS object model property=flexDirection
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=row
 |Description=The flex container's main axis has the same orientation as the inline axis of the current [[css/properties/writing-mode|writing mode]]. The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current [[css/properties/writing-mode|writing mode]].
@@ -82,14 +83,30 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The reverse values do not reverse box ordering; like ‘writing-mode’ and ‘direction’, they only change the direction of flow. Painting order, speech order, and sequential navigation orders are not affected.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
 |URL=http://www.w3.org/TR/css3-flexbox/#flex-direction-property
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS, Flexbox}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -99,14 +116,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-}}
-{{Topics|CSS, Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
