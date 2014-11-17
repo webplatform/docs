@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 }}
@@ -29,12 +29,12 @@
 |Examples={{Single Example
 |Language=CSS
 |Description=The following examples use the '''padding-top''' property to change the padding of the elements.
-|Code=TD { padding-top: 20%; }
+|Code=td { padding-top: 20%; }
 |LiveURL=http://code.webplatform.org/gist/6948436
 }}{{Single Example
 |Language=CSS
 |Description=
-|Code=TD { padding-top: 30px; }
+|Code=td { padding-top: 30px; }
 |LiveURL=http://code.webplatform.org/gist/6948429
 }}
 }}
