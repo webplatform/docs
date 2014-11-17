@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -16,6 +16,7 @@
 |Computed value=On elements, always computers to normal.
 |Animatable=Yes
 |CSS object model property=content
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=none
 |Description=Pseudo element is not generated.
@@ -128,14 +129,34 @@ blockquote:after {
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=* CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Generated content, automatic numbering and lists
 |URL=http://www.w3.org/TR/CSS21/generate.html#propdef-content
 |Status=Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Generated and Replaced Content, Multi-Column
+|Manual_links=* [[css/properties/counter-increment|counter-increment]]
+* [[css/properties/counter-reset|counter-reset]]
+* [[css/selectors/pseudo-elements/::before|::before]]
+* [[css/selectors/pseudo-elements/::after|::after]]
+|External_links=* CSS-Tricks: CSS Content [http://css-tricks.com/css-content/]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -147,20 +168,4 @@ blockquote:after {
 |Version=8
 |Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Generated and Replaced Content, Multi-Column
-|Manual_links=* [[css/properties/counter-increment|counter-increment]]
-* [[css/properties/counter-reset|counter-reset]]
-* [[css/selectors/pseudo-elements/::before|::before]]
-* [[css/selectors/pseudo-elements/::after|::after]]
-|External_links=* CSS-Tricks: CSS Content [http://css-tricks.com/css-content/]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
