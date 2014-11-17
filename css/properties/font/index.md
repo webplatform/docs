@@ -1,7 +1,7 @@
 {{Page_Title|font}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Complete compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -15,6 +15,7 @@
 |Computed value=See the individual properties
 |Animatable=Yes
 |CSS object model property=font
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=font-weight font-style font-variant font-size/line-height font-family
 |Description=<code>font</code> can take up to six separate parts in its value, which set six different longhand property values. The options are as follows:
@@ -71,16 +72,37 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=*The '''font-style''', '''font-variant''', and '''font-weight''' values may appear in any order before '''font-size'''. However, the '''font-size''', '''line-height''', and '''font-family''' properties must appear in the order listed. Setting the '''font''' property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only '''font-family''' may have more than one value. 
 If the string does not contain a value for a component property, that property is set to its default, regardless of prior settings for that component property.
 * Read https://developer.mozilla.org/en-US/docs/Web/CSS/font for more information on Firefox's additional proprietary system font settings.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fonts Module Level 3
 |URL=http://www.w3.org/TR/css3-fonts/#font-prop
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Fonts
+|Manual_links=
+|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font font @ MDN]
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[dom/defaultSelected|defaults]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -96,21 +118,4 @@ If the string does not contain a value for a component property, that property i
 |Version=9 and later
 |Note=Does not support the '''rem''' unit (it is supported for the separate properties).
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Fonts
-|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font font @ MDN]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
