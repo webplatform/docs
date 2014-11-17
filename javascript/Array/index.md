@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Unreviewed Import
 }}
@@ -31,7 +32,7 @@ Arrays are a useful kind of object for many reasons. For example, because the ke
 }}{{JS Syntax Format
 |Format=new Array([ element0 [, element1 [, ...[, elementN ]]]])
 }}{{JS Syntax Format
-|Format=new Array([ len ])
+|Format=new Array([ length ])
 }}
 |Values={{JS Syntax Parameter
 |Name=element0,...,elementN
@@ -127,10 +128,13 @@ var dorm = [[1,1], [1,2], [1,3], [1,4], [1,5],
 </pre>
 
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
+|Notes=
+|Import_Notes=
 }}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
 |External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript, by Mozilla Developer Network]
 * [http://eloquentjavascript.net/ Eloquent JavaScript: A Modern Introduction to Programming, by Marijn Haverbeke]
 * [http://tddjs.com/ Test-Driven JavaScript Development]
