@@ -1,9 +1,7 @@
 {{Page_Title|CSS variables}}
 {{Flags
-|State=Almost Ready
-|Editorial notes={{Editorial/Move_Candidate
-| Currently future tech.  Only in experimental stages.
-}}
+|State=Ready to Use
+|Editorial notes=Move candidate? Currently future tech. Experimental.
 |Checked_Out=No
 |High-level issues=Move Candidate
 }}
@@ -110,14 +108,20 @@ h1 { color: var(head-color); }
 
 While syntactically correct, "20px" is not a valid value for the <code>color</code> property, so the <code>h1</code> rule will be discarded.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
 |Desktop_rows={{Compatibility Table Desktop Row
+|Feature=
 |Chrome_supported=Unknown
 |Chrome_version=
 |Chrome_prefixed_supported=Yes
+|Chrome_prefixed_version=
 |Firefox_supported=No
 |Firefox_version=
 |Firefox_prefixed_supported=No
@@ -136,6 +140,7 @@ While syntactically correct, "20px" is not a valid value for the <code>color</co
 |Safari_prefixed_version=
 }}
 |Mobile_rows={{Compatibility Table Mobile Row
+|Feature=
 |Android_supported=No
 |Android_version=
 |Android_prefixed_supported=No
@@ -171,11 +176,14 @@ While syntactically correct, "20px" is not a valid value for the <code>color</co
 }}
 |Notes_rows={{Compatibility Notes Row
 |Browser=Chrome
+|Version=
 |Note=Needs to turn the "Enable CSS variables" flag in about:flags
 }}
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=[http://dev.w3.org/csswg/css-variables/ W3C CSS Cascading Variables Module Level 1 spec]
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
