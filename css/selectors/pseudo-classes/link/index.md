@@ -1,7 +1,7 @@
 {{Page_Title|&#58;link}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Needs Review
 |Content=Compatibility Incomplete, Examples Best Practices
@@ -22,10 +22,12 @@ The two states are mutually exclusive.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=CSS
 |Description=The following style rule uses the ''':link''' pseudo-class to set the default [[css/properties/color|'''color''']] attribute of a link in a document.
 |Code=&lt;style&gt;
     A:link { color:#FF0000 }
 &lt;/style&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -34,21 +36,38 @@ The default value of the ''':link''' pseudo-class is browser-specific. The time 
 |Notes=<blockquote>'''Note:''' It is possible for style sheet authors to abuse the :link and :visited pseudo-classes to determine which sites a user has visited without the user's consent. </blockquote>
 
 UAs may therefore treat all links as unvisited links, or implement other measures to preserve the user's privacy while rendering visited and unvisited links differently.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS 2.1
 |URL=http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=Selectors Level 3
 |URL=http://www.w3.org/TR/css3-selectors/#link
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=Selectors Level 4
 |URL=http://dev.w3.org/csswg/selectors4/#link
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -81,15 +100,4 @@ UAs may therefore treat all links as unvisited links, or implement other measure
 |Version=3.0
 |Note=Microsoft Internet Explorer 3.0 applies the value of the ''':link''' pseudo-class to the [[css/selectors/pseudo-classes/:visited|''':visited''']] pseudo-class.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors, Visual Effects
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
