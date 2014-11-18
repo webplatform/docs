@@ -1,14 +1,14 @@
 {{Page_Title|::region}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Applies CSS styles to portions of content as it appears when flowing within a specified set of ''regions''.}}
 {{CSS_Selector
-|Content=The basic syntax is as follows:
+|Content====Basic syntax===
 
  @region <region_selector> {
      <content_selector> {
@@ -55,6 +55,7 @@ div.region:first-of-type {
 /* associate content with CSS regions */
 article.content { flow-into: main; }
 div.region { flow-from: main; }
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -81,26 +82,23 @@ Use the [[css/cssom/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interface to a
 * [[css/properties/box-shadow|'''box-shadow''']]
 * [[css/properties/box-decoration-break|'''box-decoration-break''']]
 * [[css/properties/width|'''width''']]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Regions Module Level 3
 |URL=http://dev.w3.org/csswg/css3-regions/
+|Status=W3C Editor's Draft
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Regions
+|Manual_links=
 |External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
 * Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
 * Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
 * [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
+|Manual_sections=
 }}
 {{Topics|CSS-Regions}}
 {{External_Attribution
@@ -108,4 +106,11 @@ Use the [[css/cssom/CSSRegionStyleRule|'''CSSRegionStyleRule''']] interface to a
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
