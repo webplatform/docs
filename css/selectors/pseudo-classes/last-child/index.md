@@ -1,7 +1,7 @@
 {{Page_Title|:last-child}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -9,11 +9,14 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The <code>:last-child</code> pseudo-class represents the last child element of its parent.}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=/*We add some red color to the second list item*/
 
 li:last-child {
@@ -22,13 +25,16 @@ color: red;
 |LiveURL=http://code.webplatform.org/gist/0b959135eaa76a5de965
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=<ul>
 	<li>I'm not red!</li>
 	<li>I'm red!</li>
 </ul>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The ''':last-child''' pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that can't be selected using simple selectors or combinators.
 |Import_Notes====Syntax===
@@ -41,17 +47,16 @@ selector
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.6.5.7
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>Reference</code>
 *<code>[[css/selectors/pseudo-classes/:root|:root]]</code>
@@ -72,4 +77,11 @@ selector
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
