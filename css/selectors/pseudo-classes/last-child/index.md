@@ -26,10 +26,10 @@ color: red;
 }}{{Single Example
 |Language=HTML
 |Description=
-|Code=<ul>
+|Code=<nowiki><ul>
 	<li>I'm not red!</li>
 	<li>I'm red!</li>
-</ul>
+</ul></nowiki>
 |LiveURL=
 }}
 }}
