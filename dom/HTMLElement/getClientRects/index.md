@@ -75,10 +75,10 @@ begins again starting with the first line.
 &lt;/div&gt;
 &lt;div style{{=}}"position:absolute; left:5; top:400;
 z-index:-1; background-color:yellow; display:none"
-ID{{=}}"idYellow"&gt;&lt;/DIV&gt;
+ID{{=}}"idYellow"&gt;&lt;/div&gt;
 &lt;div style{{=}}"position:absolute; left:5; top:400;
 z-index:-1; background-color:beige; display:none"
-ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
+ID{{=}}"idBeige"&gt;&lt;/div&gt;
 &lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
