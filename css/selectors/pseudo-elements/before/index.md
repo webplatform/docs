@@ -1,24 +1,29 @@
 {{Page_Title|&#58;&#58;before}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|<code>::before</code> creates a pseudo-element, which allows you to insert content onto a page from CSS before the selected element(s). The end result isn't actually in the DOM, but it appears on the page as if it is. The pseudo-element is inline by default.}}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=p::before {
   content: 'Hello!';
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''::before''' and [[:css/selectors/pseudo-elements/::after|'''::after''']] pseudo-elements specify the location of content before and after an element in the document tree. The [[css/properties/content|'''content''']] attribute, in conjunction with these pseudo-elements, specifies what is inserted.
 The generated content interacts with other boxes as if they were real elements inserted just inside their associated element. The content box of the associated element expands to include the generated content, if necessary.
@@ -30,7 +35,26 @@ Beginning with Windows Internet Explorer 9, the '''::before''' pseudo-element r
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.12.3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 Specification
+|URL=http://www.w3.org/TR/CSS2/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/properties/content|content]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -92,17 +116,4 @@ Beginning with Windows Internet Explorer 9, the '''::before''' pseudo-element r
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Elements, Selectors
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/properties/content|content]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
