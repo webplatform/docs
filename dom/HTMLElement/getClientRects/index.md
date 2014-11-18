@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=compatibility, some clean-up (e.g. examples should use lowercase tag names) shorter summary, move extra content into notes/usage
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -28,8 +28,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to highlight text lines in an object.
-|Code=&lt;HEAD&gt;
-&lt;SCRIPT&gt;
+|Code=&lt;head&gt;
+&lt;script&gt;
 var rcts;
 var keyCount{{=}}0;
 function Highlight(obj) {            
@@ -62,30 +62,30 @@ function Highlight(obj) {
     }
     keyCount++;
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY ID{{=}}"idBody"&gt;
-&lt;DIV ID{{=}}"oID_1" onclick{{=}}"Highlight(this)"
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body id{{=}}"idBody"&gt;
+&lt;div id{{=}}"oID_1" onclick{{=}}"Highlight(this)"
     onkeydown{{=}}"Highlight(this)"&gt;
 A large block of text should go here. Click this
 block of text multiple times to see each line
 highlight with every click of the mouse button.
 Once each line has been highlighted, the process
 begins again starting with the first line.
-&lt;/DIV&gt;
-&lt;DIV STYLE{{=}}"position:absolute; left:5; top:400;
+&lt;/div&gt;
+&lt;div style{{=}}"position:absolute; left:5; top:400;
 z-index:-1; background-color:yellow; display:none"
 ID{{=}}"idYellow"&gt;&lt;/DIV&gt;
-&lt;DIV STYLE{{=}}"position:absolute; left:5; top:400;
+&lt;div style{{=}}"position:absolute; left:5; top:400;
 z-index:-1; background-color:beige; display:none"
 ID{{=}}"idBeige"&gt;&lt;/DIV&gt;
-&lt;/BODY&gt;
+&lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the [[css/cssom/ClientRect|'''ClientRect''']] collection with the '''getClientRects''' and [[dom/HTMLElement/getBoundingClientRect|'''getBoundingClientRect''']] methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
-|Code=&lt;HEAD&gt;
-&lt;SCRIPT&gt;
+|Code=&lt;head&gt;
+&lt;script&gt;
 var timid {{=}} -1;
 var timoID_2 {{=}} -1;
 var nLine;
@@ -140,18 +140,18 @@ function End() {
         timoID_2 {{=}} -1;
 	}
 }
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
-&lt;BODY ID{{=}}"bodyid" onload{{=}}"LoadDone()"
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body id{{=}}"bodyid" onload{{=}}"LoadDone()"
     onresize{{=}}"End();LoadDone();" onunload{{=}}"End()"&gt;
-&lt;P STYLE{{=}}"text-align:center"&gt;
-&lt;B&gt;The quick brown fox jumps over the lazy dog.&lt;/B&gt;
-&lt;/P&gt;
-&lt;DIV ID{{=}}"obj" STYLE{{=}}"position:absolute"&gt;
-&lt;IMG ID{{=}}"im" SRC{{=}}"/workshop/graphics/dot.png"
-    BORDER{{=}}0 HEIGHT{{=}}16 WIDTH{{=}}16&gt;
-&lt;/DIV&gt;
-&lt;/BODY&gt;
+&lt;p style{{=}}"text-align:center"&gt;
+&lt;b&gt;The quick brown fox jumps over the lazy dog.&lt;/b&gt;
+&lt;/p&gt;
+&lt;div id{{=}}"obj" style{{=}}"position:absolute"&gt;
+&lt;img id{{=}}"im" src{{=}}"/workshop/graphics/dot.png"
+    border{{=}}0 height{{=}}16 width{{=}}16&gt;
+&lt;/div&gt;
+&lt;/body&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm
 }}
 }}
