@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Example needs to better explain orphans in relation to widows-example listed may have been over-edited from its original source. Remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Examples Needed
@@ -20,6 +20,7 @@ It can have a number value or it can inherit the values from the parent element.
 |Media=visual
 |Computed value=As specified
 |Animatable=No
+|CSS object model property=
 |CSS percentages=N/A
 |Values={{CSS Property Value
 |Data Type=integer
@@ -33,34 +34,58 @@ It can have a number value or it can inherit the values from the parent element.
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Description=The following style rule ensures that at least three lines
-of a paragraph appear at the bottom and top of each printed document.
+|Description=The following style rule ensures that at least three lines of a paragraph appear at the top (''widows'') and bottom (''orphans'') of each printed page.
 |Code=@media print {
     p {
         widows: 3;
         orphans: 3;
     }
 }
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''widows''' property takes precedence over [[css/properties/orphans|'''orphans''']].
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Fragmentation Module Level 3
 |URL=http://www.w3.org/TR/css3-break/#widows-orphans
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Multi-column Layout Module
 |URL=http://dev.w3.org/csswg/css-multicol/#filling-columns
 |Status=W3C Candidate Reccomendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=CSS Level 2 (Revision 1)
 |URL=http://www.w3.org/TR/CSS2/page.html#break-inside
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Paged Media
+|Manual_links=
+|External_links=http://xhtml.com/en/css/reference/widows/
+|Manual_sections====Related pages ===
+*<code>[[css/properties/orphans|orphans]]</code>
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -93,22 +118,4 @@ The '''widows''' property takes precedence over [[css/properties/orphans|'''orph
 |Version=8
 |Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Paged Media
-|External_links=http://xhtml.com/en/css/reference/widows/
-|Manual_sections====Related pages ===
-*<code>[[css/properties/orphans|orphans]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
