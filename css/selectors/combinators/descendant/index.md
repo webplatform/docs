@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -24,6 +24,7 @@ For performance considerations, take care to not over-qualify selectors. For ins
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Descendant combinators were called contextual selectors in Cascading Style Sheets, Level 1 (CSS1).
 
 To skip over a generation of elements and pass styles to descendants beyond child elements, combine the Universal (*) Selector with the Descendant Combinator. For example, the following selector matches any '''p''' elements that are not direct descendants (grandchildren or later) of a '''div''' element.
@@ -38,7 +39,25 @@ To skip over a generation of elements and pass styles to descendants beyond chil
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 Specification
+|URL=http://www.w3.org/TR/CSS2/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -67,15 +86,4 @@ To skip over a generation of elements and pass styles to descendants beyond chil
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Combinators, Selectors
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
