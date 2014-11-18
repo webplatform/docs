@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Under the example section, first example 
-<style>
-  ms-writing-mode lr-tb... would be clearer if it states that syntax supported by legacy IE, not old syntax since the -ms is listed as option in IE 5 at the bottom.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Incomplete
 }}
@@ -39,10 +37,12 @@
 |LiveURL=http://code.webplatform.org/gist/5833192
 }}{{Single Example
 |Language=CSS
+|Description=
 |Code=p {
 	width: 100%;
 	-webkit-writing-mode: vertical-rl;
 }
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Sets the writing mode, including a fallback for the previous version of the spec, supported by IE.
@@ -62,6 +62,7 @@ writing-mode: vertical-rl;
 /* vertical and to progress from left to right */
 writing-mode: vertical-lr;
 -ms-writing-mode: tb-lr;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Complete example, including HTML.
@@ -124,13 +125,32 @@ writing-mode: vertical-lr;
 |LiveURL=http://code.webplatform.org/gist/5860978
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Writing Modes Module Level 3
 |URL=http://www.w3.org/TR/css3-writing-modes/#writing-mode
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=* [[css/properties/direction|direction]]
+* [[css/properties/unicode-bidi|unicode-bidi]]
+|External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -173,17 +193,4 @@ writing-mode: vertical-lr;
 |Browser=WebKit
 |Note=Currently requires the -webkit- prefix
 }}
-}}
-{{See_Also_Section
-|Manual_links=* [[css/properties/direction|direction]]
-* [[css/properties/unicode-bidi|unicode-bidi]]
-|External_links=* [http://generatedcontent.org/post/45384206019/writing-modes Vertical text with CSS 3 Writing Modes]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
