@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -22,6 +22,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 A child combinator is a "greater-than sign" (&gt;) character that separates two simple selectors. Whitespace is not significant. A selector of the form "E&gt;F" matches when element F is a direct descendant of element E.
 '''Note'''  Requires Windows Internet Explorer 7 or later.
@@ -36,7 +37,25 @@ A child combinator is a "greater-than sign" (&gt;) character that separates two 
 *[http://www.w3.org/TR/CSS21/selector.html#child-selectors CSS 2.1], Section 5.6
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Level 2 Specification
+|URL=http://www.w3.org/TR/CSS2/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/aa358819%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -61,15 +80,4 @@ A child combinator is a "greater-than sign" (&gt;) character that separates two 
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Combinators, Selectors
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/aa358819%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
