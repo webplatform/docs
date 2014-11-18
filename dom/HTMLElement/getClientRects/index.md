@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The returned value is a collection of [[css/cssom/ClientRect|ClientRect]] objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right and bottom properties describing the border box, in pixels, with the top-left relative to the top-left of the viewport. For tables with captions, the caption is included even though it's outside the border box of the table.}}
+{{Summary_Section|A collection of [[css/cssom/ClientRect|ClientRect]] objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=dom/HTMLElement
