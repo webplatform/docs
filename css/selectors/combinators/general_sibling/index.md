@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -16,6 +16,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
+|Description=
 |Code=p ~ span {
 	color: red;
 }
@@ -23,6 +24,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The general sibling combinator is a "tilde" (~) character that separates two simple selectors. Whitespace is not significant.
 A selector of the form "E~F" matches element F when it follows sibling element E in the document tree, ignoring non-element nodes (such as text nodes and comments). Element E and F must share the same parent but E does not necessarily precede F directly. To match the first child of the parent, use the [[css/selectors/pseudo-classes/:first-child|''':first-child''']] pseudo-class.
@@ -38,17 +40,17 @@ A selector of the form "E~F" matches element F when it follows sibling element E
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}199783 Selectors Level 3], Section 6.3
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
-|Topic_clusters=Combinators, Selectors
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|CSS}}
 {{External_Attribution
@@ -57,4 +59,11 @@ A selector of the form "E~F" matches element F when it follows sibling element E
 |MDN_link=https://developer.mozilla.org/en-US/docs/CSS/General_sibling_selectors
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
