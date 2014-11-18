@@ -1,7 +1,7 @@
 {{Page_Title|&#58;focus}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Remove topic cluster flags
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
