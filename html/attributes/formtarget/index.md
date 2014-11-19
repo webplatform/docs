@@ -1,14 +1,13 @@
-{{Page_Title|formtarget}}
+{{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Compatibility table; link examples to our code.webplatform.org playground; fix see also
-
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |Content=Compatibility Incomplete
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form.}}
+{{Summary_Section|Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
@@ -18,16 +17,39 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<form action="submit.php">
   Input field: <input type="text" name="inputfield">
   <input type="submit" value="Submit">
   <input type="submit" formtarget="_blank" value="Submit to a new window">
 </form>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 Forms
+|URL=http://www.w3.org/TR/html5/forms.html
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -35,12 +57,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
