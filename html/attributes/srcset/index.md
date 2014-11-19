@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Compatibility information
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -56,13 +56,28 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 }}
 {{Notes_Section
 |Usage=When using '''srcset''' with the '''w''' descriptor you must also include the '''[[html/attributes/sizes|sizes]]''' attribute.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C: The srcset Attribute
+|Name=HTML5 APIs
 |URL=http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/
 |Status=Editor’s Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -79,14 +94,4 @@ The '''srcset''' attribute can also take a comma separated list of URL's for eac
 |Browser=Opera
 |Version=21
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries, Responsive Web Design
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
