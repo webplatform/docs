@@ -19,7 +19,7 @@
 |Description=
 |Code=<nowiki><!doctype html>
 <title>HTML Style Attribute Usage</title>
-<p style="background-color: blue; color: white;">This will be white text with a blue background if all goes well! (Not in the doc page, check out the live demo.)</p></nowiki>
+<p style="background-color: blue; color: white;">This will be white text with a blue background.</p></nowiki>
 |LiveURL=http://result.dabblet.com/gist/11015343/6a6bb418f06ead5f7d21245426820c7df47dc228
 }}
 }}
