@@ -1,12 +1,17 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Examples & compatibility info
+|State=Not Ready
+|Editorial notes=Deprecated; deletion candidate. See
+https://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo
+
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.}}
+{{Summary_Section|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
+
+'''Deprecated -- do not use'''
+}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLContentElement
 |Property_applies_to=html/elements/content
@@ -16,9 +21,26 @@
 |Not_required=No
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=Web Components
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -47,14 +69,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
