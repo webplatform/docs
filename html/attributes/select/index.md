@@ -42,7 +42,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses CSS selectors to select specific content from a shadow root.
-|Code=<div style="background: purple; padding: 1em;">
+|Code=<nowiki><div style="background: purple; padding: 1em;">
   <div style="color: red;">
     <content select=".first"></content>
   </div>
@@ -52,7 +52,7 @@
   <div style="color: blue;">
     <content select=".email"></content>
   </div>
-</div>
+</div></nowiki>
 |LiveURL=
 }}
 }}
