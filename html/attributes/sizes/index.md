@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Compatibility info
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The '''sizes''' attribute is an extension of the [[html/elements/img|image element]]. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with '''[[html/attributes/srcset|scrset]]'''}}
+{{Summary_Section|The '''sizes''' attribute is an extension of the [[html/elements/img|image element]]. It provides additional image related information to the browser to help decide the most appropriate image to load based on the viewport. Most commonly used for delivering the best image for responsive images. It can only be used in conjunction with '''[[html/attributes/srcset|srcset]]'''}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLImageElement
 |Property_applies_to=dom/HTMLImageElement
@@ -39,9 +39,27 @@ Lengths can be declared using fixed widths (pixels) or relative units ('''vw''' 
 |Usage='''sizes''' attribute is used along side '''[[html/attributes/srcset|scrset]]'''.
 |Notes=It is recommended that the final sizes value is 
    sizes="[first sizes], [second to last sizes], 100vw"
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5 APIs
+|URL=http://www.w3.org/html/wg/drafts/html/master/embedded-content.html
+|Status=W3C Editor's draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -49,12 +67,4 @@ Lengths can be declared using fixed widths (pixels) or relative units ('''vw''' 
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
