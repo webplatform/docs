@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Summary is not enough.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies the width of certain content elements in pixels.}}
+{{Summary_Section|Specifies the width, in pixels, of certain content elements.}}
 {{Markup_Attribute
 |Applies_to=[[html/elements/img|HTMLImgElement]]
 |Property_applies_to=dom/HTMLElement
@@ -20,23 +20,28 @@ Width values must be non-negative integers.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
 |LiveURL=http://code.webplatform.org/gist/7283238
 }}
 }}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
 }}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=HTML4 Specification
+|URL=http://www.w3.org/TR/html401/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -45,4 +50,11 @@ Width values must be non-negative integers.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
