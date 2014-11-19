@@ -1,20 +1,22 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Address minor bugs in comments; Need to cross-link to other relevant content
-
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Used to associate the [[html/elements/menu|menu element]] in the DOM to the given element as its context menu.}}
 {{Markup_Attribute
+|Applies_to=html/elements/menu
+|Property_applies_to=
 |Content=The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a [[html/elements/menu|menu]] element contained within the DOM which has a type of context.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<!doctype html>
 <title>Demo for contextmenu attribute</title>
 &lt;!-- Setting the context menu for the image to be imageMenu. -->
@@ -61,7 +63,9 @@ var increaseItem = document.getElementById('increaseImageSize'),
 }}
 }}
 {{Notes_Section
-|Usage=Warning, this only works in Firefox currently. (Untested in IE and Safari.)
+|Usage=This feature may only work in Firefox currently. (Untested in IE and Safari.)
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
@@ -71,18 +75,22 @@ var increaseItem = document.getElementById('increaseImageSize'),
 |Relevant_changes=Initial specification of the attribute
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|HTML, JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
