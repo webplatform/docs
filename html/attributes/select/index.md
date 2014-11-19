@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Examples & compatibility info
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -39,11 +39,48 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses CSS selectors to select specific content from a shadow root.
+|Code=<div style="background: purple; padding: 1em;">
+  <div style="color: red;">
+    <content select=".first"></content>
+  </div>
+  <div style="color: yellow;">
+    <content select="div"></content>
+  </div>
+  <div style="color: blue;">
+    <content select=".email"></content>
+  </div>
+</div>
+|LiveURL=
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Shadow DOM
+|URL=http://www.w3.org/TR/2012/WD-shadow-dom-20120522/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML, Shadow DOM}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=HTML5Rocks
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -72,14 +109,4 @@
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
