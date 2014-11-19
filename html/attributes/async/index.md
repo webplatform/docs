@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Finished. Needs approval.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Proposed Recommendation}}
@@ -139,7 +139,6 @@ document.body.appendChild(script);
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML, Javascript, Performance, Web Components
 |Manual_links=* [[html/attributes/defer|defer attribute]]
 |External_links=
 |Manual_sections====Related pages (MSDN)===
