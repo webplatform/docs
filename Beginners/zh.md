@@ -41,6 +41,7 @@ Emacs这样的终端程序。它们确实是非常强
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
 ** Windows
 ***[http://notepad-plus-plus.org/ Notepad++]
+***[http://dcloud.io/ Hbulider]
 ** OS X
 ***[https://github.com/textmate/textmate Textmate]
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
