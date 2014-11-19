@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Fix applies to & compatibility info
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets an inline style for the element.}}
 {{Markup_Attribute
+|Applies_to=dom/HTMLElement
 |Property_applies_to=dom/HTMLElement
 |Content=This attribute is used to set styling in the form of [http://docs.webplatform.org/wiki/guides/getting_started_with_css#Defining_style_rules CSS rules] to an element.
 }}
@@ -15,9 +16,10 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Code=<!doctype html>
+|Description=
+|Code=<nowiki><!doctype html>
 <title>HTML Style Attribute Usage</title>
-<p style="background-color: blue; color: white;">This will be white text with a blue background if all goes well! (Not in the doc page, check out the live demo.)</p>
+<p style="background-color: blue; color: white;">This will be white text with a blue background if all goes well! (Not in the doc page, check out the live demo.)</p></nowiki>
 |LiveURL=http://result.dabblet.com/gist/11015343/6a6bb418f06ead5f7d21245426820c7df47dc228
 }}
 }}
@@ -25,9 +27,27 @@
 |Usage=While this is perfectly valid, it is *highly* recommended by the community at large that you not use inline styles. Instead it is much better to simply target the element you want in your CSS and apply rules in there.
 |Notes====Remarks===
 This attribute is not accessible through scripting. To access styles through scripting, use the [[css/cssom/style|'''style''']] object.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML4 Specification
+|URL=http://www.w3.org/TR/html401/present/styles.html
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -89,12 +109,4 @@ This attribute is not accessible through scripting. To access styles through scr
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
