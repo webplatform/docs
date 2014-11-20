@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add Category, Parent and Children information.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
@@ -37,19 +37,39 @@ When '''article''' elements are nested, the inner article should be related to t
  &lt;p&gt;...&lt;/p&gt;
  &lt;footer&gt;Article Footer&lt;/footer&gt;
 &lt;/article&gt;
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/the-article-element.html#the-article-element
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML Standard
 |URL=http://whatwg.org/html/#the-article-element
 |Status=Standard
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=[[html/elements/nav|nav]] - The HTML navigation element is often used as a child element of the article tag.
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -115,16 +135,4 @@ When '''article''' elements are nested, the inner article should be related to t
 |Version=9
 |Note=The '''article''' element is only supported for webpages displayed in IE9 Standards mode. Internet Explorer 9 does not natively support the '''time''' element, which is intended to provide the publication date of the article element.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure
-|Manual_links=[[html/elements/nav|nav]] - The HTML navigation element is often used as a child element of the article tag.
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
