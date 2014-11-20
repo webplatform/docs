@@ -10,15 +10,15 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLMeterElement
+|DOM_interface=dom/html/elements
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/phrasingContent|Phrasing content]], but may not contain any <code>&lt;meter&gt;</code> elements itself.</td>
+<td style{{=}}"vertical-align: top; padding-top: 10px">Phrasing content, but may not contain any <code>&lt;meter&gt;</code> elements itself.</td>
 </tr>
 <tr>
 <th id="permitted-parents">Permitted&#160;parents</th>
-<td>Any element that can contain [[html/concepts/phrasingContent|phrasing content]].</td>
+<td>Any element that can contain phrasing content.</td>
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
@@ -36,22 +36,22 @@ The content of the '''meter''' element should represent the set min/max/value at
 This element supports the HTML5 [[html/global_attributes|global attributes]].
 
 <dl>
-    <dt id="attribute-value">[[html/attributes/value|value]]</dt>
+    <dt id="attribute-value">value</dt>
     <dd>The current value of the meter.  If there is no value specified, or if the value is incorrectly formatted, it defaults to 0.  This value must be between the [[#attribute-min|min]] and [[#attribute-max|max]] values of the element.  If not, it will default to the closest available value within the ranges.</dd>
 
-    <dt id="attribute-optimum">[[html/attributes/optimum|optimum]]</dt>
+    <dt id="attribute-optimum">optimum</dt>
     <dd>The optimum, or goal value of the meter.  For example, on a test score, this would be 100.  Or, on a fundraiser, this may be a monetary value.  This must be below the [[#attribute-max|max]] value and above the [[#attribute-min|min]] value.</dd>
 
-    <dt id="attribute-min">[[html/attributes/min|min]]</dt>
+    <dt id="attribute-min">min</dt>
     <dd>The minimum value of the meter.  This must be less than the [[#attribute-max|max]] attribute value.  If this attribute is not present, it defaults to 0.</dd>
 
-    <dt id="attribute-max">[[html/attributes/max|max]]</dt>
+    <dt id="attribute-max">max</dt>
     <dd>The maximum value of the meter.  This must be greater than the [[#attribute-min|min]] attribute value. If this attribute is not present, it defaults to 1.</dd>
 
-    <dt id="attribute-low">[[html/attributes/low|low]]</dt>
+    <dt id="attribute-low">low</dt>
     <dd>The low value is what is considered a low range for the meter.  In the example of a fundraiser, it may be near the starting value.  This must be greater than the [[#attribute-min|min]] and less than the [[#attribute-max|max]] and [[#attribute-high|high]] values.  If unspecified, it defaults to 0.</dd>
 
-    <dt id="attribute-high">[[html/attributes/high|high]]</dt>
+    <dt id="attribute-high">high</dt>
     <dd>The high value is what is considered a high range for the meter.  In the example of a fundraiser, it may be near the goal value.  This must be less than the [[#attribute-max|max]] and greater than the [[#attribute-min|min]] and [[#attribute-low|low]] values.  If unspecified, it defaults to 1.</dd>
 </dl>
 }}
@@ -116,7 +116,6 @@ The title attribute may be used to specify a unit.
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |Manual_links=* [[html/elements/progress|HTML5 progress element]]
 |External_links=
 |Manual_sections=
