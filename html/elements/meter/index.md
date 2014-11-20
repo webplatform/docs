@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
-|DOM_interface=dom/html/elements
+|DOM_interface=html/elements
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
