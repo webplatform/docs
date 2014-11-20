@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
@@ -10,15 +10,15 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;progress&gt;</code> element represents the completion progress of a task.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLProgressElement
+|DOM_interface=html/elements
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/phrasingContent|Phrasing content]], but may not contain any <code>&lt;progress&gt;</code> elements itself.</td>
+<td style{{=}}"vertical-align: top; padding-top: 10px">Phrasing content, but may not contain any <code>&lt;progress&gt;</code> elements itself.</td>
 </tr>
 <tr>
 <th id="permitted-parents">Permitted&#160;parents</th>
-<td>Any element that can contain [[html/concepts/phrasingContent|phrasing content]].</td>
+<td>Any element that can contain phrasing content.</td>
 </tr>
 <tr>
 <th id="tag-omission">Tag&#160;omission</th>
@@ -26,7 +26,7 @@
 </tr>
 </table>
 
-The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[meter|meter]] element is available for such use cases.
+The HTML <code>&lt;progress&gt;</code> element is a number in the range zero to a maximum, giving the fraction of work that has so far been completed. The progress element is not the correct element to use for something that is just a gauge, as opposed to task progress. For instance, indicating disk space usage using progress would be inappropriate. Instead, the [[html/elements/meter|meter]] element is available for such use cases.
 
 The content of the '''progress''' element should represent the set min/max/value attributes in human readable form. This will be picked up by assistive technologies as well as act as a fallback for browsers not supporting the element.
 
@@ -35,10 +35,10 @@ This element supports the HTML5 [[html/global_attributes|global attributes]].
 
 
 <dl>
-    <dt id="attribute-value">[[html/attributes/value|value]]</dt>
+    <dt id="attribute-value">value</dt>
     <dd>How much of the task has been completed. If [[#attribute-max|max]] is not set, this should be a value between 0 and 1, if [[#attribute-max|max]] is set, this should be a value between 0 and [[#attribute-max|max]].</dd>
 
-    <dt id="attribute-max">[[html/attributes/max|max]]</dt>
+    <dt id="attribute-max">max</dt>
     <dd>How much work the task requires in total. This is optional, if it's not set then [[#attribute-value|value]] is a percentage.</dd>
 </dl>
 }}
