@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Specifies one or more classnames for an element, usually used to point to a class in a style sheet.}}
+{{Summary_Section|Specifies one or more classes for an element, usually used to point to a class in a style sheet.}}
 {{Markup_Attribute
 |Applies_to=dom/HTMLElement
 |Property_applies_to=dom/HTMLElement
@@ -18,7 +18,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the className attribute to apply one or more styles to an HTML element.
+|Description=This example uses the class attribute to apply one or more styles to an HTML element.
 |Code=&lt;!doctype html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -62,7 +62,7 @@ When two or more selectors pertain to an element, a style defined later takes pr
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML5 
+|Name=HTML5
 |URL=http://www.w3.org/TR/html5/
 |Status=W3C Recommendation
 |Relevant_changes=
