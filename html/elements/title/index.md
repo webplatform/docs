@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -60,7 +60,6 @@ There are rare cases where the title is allowed to be omitted. This is the case 
 }}
 }}
 {{See_Also_Section
-|Topic_clusters=HTML
 |Manual_links=
 |External_links=
 |Manual_sections=
