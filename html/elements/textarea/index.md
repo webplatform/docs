@@ -23,7 +23,7 @@ A text area can hold an unlimited number of characters, and the text renders in 
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the <code>textarea</code> element to set the cascading style sheets (CSS) [[css/properties/overflow|'''overflow''']] attribute to <code>hidden</code> to remove the scroll bars from the <code>textarea</code>.
-|Code=&lt;textarea style{{=}}"overflow:hidden" id{{=}}txtComments&gt;
+|Code=&lt;textarea style{{=}}"overflow:hidden" id{{=}}"txtComments"&gt;
    The patient is in stable condition after suffering an attack of 
    the insatiable munchies.
 &lt;/textarea&gt;
