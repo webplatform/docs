@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add Category, Parent, Children and Compatibility information
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -11,6 +11,7 @@
 {{Summary_Section|The '''audio''' element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -22,9 +23,26 @@
 |LiveURL=http://code.webplatform.org/gist/7282145
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|Audio, HTML, Media}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/audio
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -352,18 +370,4 @@
 |Version=All
 |Note=Cannot play more than one audio file at the same time.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_sections====Related pages (MSDN)===
-*<code>Audio object</code>
-*<code>How to use HTML5 to Add an Audio Player to your Webpage</code>
-}}
-{{Topics|Audio, HTML, Media}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/audio
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
