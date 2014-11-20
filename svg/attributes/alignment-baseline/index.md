@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|"alignment-baseline" specifies how an inline-level element( the element does not influence the extended block-progression dimension of the line) is aligned with respect to its parent.}}
+{{Summary_Section|Specifies how an element is aligned with respect to its parent; that is, specifies which baseline of the element is to be aligned with the corresponding baseline of the parent. Defaults to the baseline with the same name as the computed value of the alignment-baseline property.}}
 {{Markup_Attribute
 |Applies_to=svg/attributes
 |Property_applies_to=dom/HTMLElement
@@ -17,7 +17,15 @@ Value:	baseline
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=Other
+|Description=Using 'middle' for both alignment-baseline and text-anchor is convenient for positioning text centered upon a spot regardless of size and length.
+|Code=<text x="80" y="30" font-size="20" 
+  text-anchor="middle" alignment-baseline="middle">
+    Right in the middle!
+</text>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
