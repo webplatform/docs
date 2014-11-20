@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add Category and Compatibility information. Modify Parent and Children information.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -47,6 +47,7 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
     &lt;p&gt;A &lt;a href="http://www.example.org/deep/some-file.html"&gt;relative link&lt;/a&gt;.&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=The example shows that '''base''' only affects elements following it
@@ -61,6 +62,7 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
     http://example.com/my-other-style.css
   --&gt;
 &lt;/head&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=The example shows how multiple '''base''' occurrences are collapsed and ignored
@@ -76,40 +78,41 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
     &lt;base href="http://example.com/" target="_self"&gt;    
   --&gt;
 &lt;/head&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=* Relative URLs within <code>&lt;base&gt;</code> don't work in every browser, resolving a relative base URL was introduced in Firefox 4 and Internet Explorer 10.
 * <code>&lt;base&gt;</code> only affects elements following it's declaration.
 * multiple <code>&lt;base&gt;</code> declarations are illegal, only the ''first'' [[html/attributes/href|<code>href</code>]] and [[html/attributes/target|<code>target</code>]] are used, the rest is discarded. Internet Explorer ignores all <code>&lt;base&gt;</code> instances after the first.
 
 '''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 4.01 Specification
 |URL=http://www.w3.org/TR/html401/struct/links.html#h-12.4
 |Status=W3C Recommendation
+|Relevant_changes=
 }}{{Related Specification
 |Name=HTML5
 |URL=http://www.w3.org/TR/html5/the-base-element.html#the-base-element
 |Status=W3C Working Draft
+|Relevant_changes=
 }}{{Related Specification
 |Name=WHATWG
 |URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#the-base-element
 |Status=Living Standard
+|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/base Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx Microsoft Developer Network]
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -117,4 +120,11 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
