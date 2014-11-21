@@ -186,7 +186,7 @@ will still have to be in the form <code>&lt;p class="classname"&gt;</code>, but 
 
 == CSS shorthand ==
  
-Another thing you will come across regularly CSS shorthand. It is possible to combine several related CSS properties together into one property 
+Another thing you will come across regularly in CSS is shorthand. It is possible to combine several related CSS properties together into one property 
 to save time and effort. In this section we will look at the available types of shorthand.
 For more information, also see the [[guides/css_shorthand|CSS shorthand guide]] tutorial.
  
