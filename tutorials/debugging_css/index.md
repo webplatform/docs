@@ -22,7 +22,7 @@ Methods for debugging CSS are essential, since CSS errors will not output any er
 ==Avoiding problems in the first place==
 
 ===Cross browser Idiosyncrasies===
-As mentioned in previous tutorials Web Browsers come with inbuilt CSS. This default CSS may differ between browsers and hence when viewing a site, unless the site CSS cancels out the browser's CSS there is a chance that the page is displayed differently across browsers, which most of ten than not it is undesirable.
+As mentioned in previous tutorials Web Browsers come with inbuilt CSS. This default CSS may differ between browsers and hence when viewing a site, unless the site CSS cancels out the browser's CSS there is a chance that the page is displayed differently across browsers, which most often than not it is undesirable.
 
 This problem is avoided by normalizing the browser. This is done by using a set of CSS rules to cancel the web browser default CSS before applying custom CSS. There exist a couple of CSS normalizing files on the net freely available.
 
