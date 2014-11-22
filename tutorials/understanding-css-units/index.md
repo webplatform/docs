@@ -75,7 +75,7 @@ This unit is often easier to use than the ‘em’ unit because it is not affect
 {{!}}-
 {{!}}vh
 {{!}}1vh is 1% of the height of the viewport. ‘vh’ stands for ‘viewport height’.
-{{!}}Useful to size boxes that adapt to different viewport widths. For example, may be used to set a maximum width on an image so that it does not exceed the viewport dimensions.
+{{!}}Useful to size boxes that adapt to different viewport heights. For example, may be used to set a maximum height on an image so that it does not exceed the viewport dimensions.
 {{!}}-
 {{!}}vmin
 {{!}}Equal to the smaller of ‘vw’ or ‘vh’
