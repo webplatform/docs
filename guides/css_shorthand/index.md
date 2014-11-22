@@ -38,7 +38,7 @@ or even:
 border-left-style: solid;
 border-left-color: black;</syntaxhighlight>
 
-You will very rarely want to go this granular; you will probably use simply <code>border</code> or <code>border-left/right-top-bottom</code> in most cases. The more granular options will likely be used only if you want to override an earlier border declaration.
+You will very rarely want to go this granular; you will probably use simply <code>border</code> or <code>border-left/-right/-top/-bottom</code> in most cases. The more granular options will likely be used only if you want to override an earlier border declaration.
 
 == Margin, padding, outline ==
 
