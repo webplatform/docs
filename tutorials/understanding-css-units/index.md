@@ -112,7 +112,7 @@ Scalable Vector Graphics (SVG) does the same and has a concept of [http://www.w3
 
 In all these cases, objects’ positions and dimensions eventually resolve to a single unit which can then be mapped to a number of device pixels and scaled as desired e.g. when the user zooms the content.
 
-Before we dive deeper into CSS ‘px’ unit, we will not that scalable formats such as SVG are very effective way to achieve resolution independence, or responsiveness, for your image assets. 
+Before we dive deeper into CSS ‘px’ unit, we will note that scalable formats such as SVG are very effective way to achieve resolution independence, or responsiveness, for your image assets. 
 
 '''Note :''' Icon fonts are another recent popular practice as of 2013 e.g. see http://css-tricks.com/html-for-icon-font-usage/, or http://nimbupani.com/markup-free-icon-fonts-with-unicode-range.html. And then there are very clever OpenType hacks like [https://www.scribbletone.com/typefaces/ff-chartwell Chartwell]  or [http://symbolset.com/ Symbolset]. These are part of the scalable arsenal today.
 
