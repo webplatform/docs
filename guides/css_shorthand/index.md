@@ -79,7 +79,7 @@ You could specify all of this using the following line:
 
 <syntaxhighlight lang="css">font: bold italic small-caps 1.5em/200% Georgia, "Times New Roman", serif;</syntaxhighlight>
 
-Note that it doesn't really matter about the order of many of these, although you should make sure that <code>font-size</code>/<code>line-height</code> and <code>font-family</code> come in the positions shown, plus both <code>font-size</code> and <code>font-family</code> should be specified. If not, this shorthand may not work in some browsers.
+Note that it doesn't really matter about the order of many of these, although you should make sure that <code>font-size</code>/<code>line-height</code> and <code>font-family</code> come in the positions shown above; in addition, <code>font-size</code> and <code>font-family</code> should be specified. If not, this shorthand may not work in some browsers.
 
 Note also that if <code>font-weight</code>, <code>font-style</code> or <code>font-variant</code> are not specified, their values default to <code>normal</code>.
 
