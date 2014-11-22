@@ -106,7 +106,7 @@ This is especially important when the size and pixel density of output devices v
 
 === Scalable Content ===
 
-To be resolution independent, a system must able to scale content based on rendering conditions. Postscript and PDF are examples of technologies based on the concept of units that can then be scaled as needed to accommodate the available display resolution. Both use the ‘point’ unit and define it as being 1/72th of an inch. 
+To be resolution independent, a system must able to scale content based on rendering conditions. Postscript and PDF are examples of technologies based on the concept of units that can then be scaled as needed to accommodate the available display resolution. Both use the ‘point’ unit and define it as being 1/72nd of an inch. 
 
 Scalable Vector Graphics (SVG) does the same and has a concept of [http://www.w3.org/TR/SVG/coords.html#SVGInitialUserCoordinateSystem user unit] that all other units ultimately derive from; CSS defines CSS pixels, the unit all others resolve to (an SVG user unit is the same as a CSS ‘px’).
 
