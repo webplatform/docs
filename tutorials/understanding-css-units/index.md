@@ -67,7 +67,7 @@ Several other CSS unit types support layout adaptation. The following table enum
 {{!}}rem
 {{!}}1 rem is the computed value of the font-size property for the document’s root element.
 This unit is often easier to use than the ‘em’ unit because it is not affected by inheritance as ‘em’ units are.
-{{!}}For example,  given a root element font-size of 20px, setting a 0.5em font-size on <li> elements would resolve to 10px for first-level &lt;li&gt; but second-level &lt;li&lt; would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px &lt;li&gt; elements no matter their nesting level.
+{{!}}For example,  given a root element font-size of 20px, setting a 0.5em font-size on &lt;li&gt; elements would resolve to 10px for first-level &lt;li&gt; but second-level &lt;li&gt; would have a 5px font-size. Setting the font-size to 0.5rem would result in 10px &lt;li&gt; elements no matter their nesting level.
 {{!}}-
 {{!}}vw
 {{!}}1vw is 1% of the width of the viewport. ‘vw’ stands for ‘viewport width’.
