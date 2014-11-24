@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the first text track cue (in text track cue order) with text track cue identifier ''id''. Returns null if none of the cues have the given identifier or if the argument is the empty string.}}
+{{Summary_Section|Returns the first text track cue object (in text track cue order) with text track cue identifier matching ''id''. Returns null if no cue has the given identifier or if the "id" argument is the empty string.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -25,7 +25,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTrack = document.getElementById("entrack").track; // get text track from track element
+var myCues = myTrack.cues;   // get list of cues
+// get a specific TextTrackCue by ID
+var myCueObj = myCues.getCueById("CID3");
+//. . .</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
