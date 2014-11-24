@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTrack = document.getElementById("entrack").track; // get text track from track element
+var myCues = myTrack.cues;   // get list of cues
+for (var i = 0; i < myCues.length; i++) {
+// set cue position properties to ordinal positions
+myCues[i].position = i;
+}
+//. . .</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
