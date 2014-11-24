@@ -22,7 +22,8 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The HTML nodes replace the span element that is the first child of the div.
-|Code=<script type="text/javascript">
+|Code=<nowiki><head>
+<script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function () {  // don't run this until all DOM content is loaded 
       var track = document.getElementById("track1");
       track.addEventListener("cuechange", function () {
@@ -43,8 +44,7 @@
     </video>
     <div id="display">
       <span></span>
-    </div>
-
+    </div></nowiki>
 |LiveURL=
 }}
 }}
