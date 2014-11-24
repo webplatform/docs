@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,25 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Given a video element with the ID "myVideo", this example looks at the time ranges to determine if the entire video has been loaded.
+|Code=var v = document.GetElementById("myVideo");
+
+var buf = v.buffered;
+
+var numRanges = buf.length;
+
+if (buf.length == 1) {
+  // only one range
+  if (buf.start(0) == 0 && buf.end(0) == v.duration) {
+    // The one range starts at the beginning and ends at
+    // the end of the video, so the whole thing is loaded
+    var videoLoaded = true;
+  }
+}
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -43,8 +61,8 @@
 {{Topics|API, Audio, Video}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges.length
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
 }}
