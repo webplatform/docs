@@ -27,7 +27,7 @@
 var myTrack = document.getElementById("entrack").track; // get text track from track element
 var myCues = myTrack.cues;   // get list of cues
 for (var i = 0; i < myCues.length; i++) {
-// report each text track's unparsed text
+// report each cue's unparsed text
 alert("Cue " + i + " text: " + myCues[i].text);
 }
 //. . .</nowiki>
