@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,36 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Get track example</title>
+</head>
+<body>
+    <h1>Get track example</h1>
+    <video id="video1" controls>
+        <source src="http://ie.microsoft.com/testdrive/Videos/BehindIE9ModernWebStandards/Video.mp4">
+        <track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+    </video>
+    <p>
+        <button id="mybutton">Show dispatch type</button>
+    </p>
+    <div style="display:block; overflow:auto; height:200px; width:650px;" id="display"></div>
+
+    <script>
+      document.getElementById("mybutton").addEventListener("click", function () {
+        var myTrack = document.getElementById("entrack").track; // get text track from track element
+        var myType = myTrack.inBandMetadataTrackDispatchType;   // get dispatch type
+        document.getElementById("display").innerHTML = myType;
+     }, false);
+    </script>
+</body>
+</html>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
