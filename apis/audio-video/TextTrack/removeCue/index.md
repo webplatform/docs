@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -25,7 +25,48 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<nowiki><!DOCTYPE html >
+<html >
+  <head>
+    <title>Remove Cue example</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body>
+
+<video id="video1" controls muted autoplay>
+    <source src="video.mp4">
+    HTML5 Video not supported 
+</video>
+
+ <script type="text/javascript">
+    var video = document.getElementById("video1");
+    var beginTime, endTime, message; 
+    var newTextTrack = video.addTextTrack("captions", "sample");
+    newTextTrack.mode = newTextTrack.SHOWING; // set track to display
+    // create some cues and add them to the new track 
+    for(var i=0;i<10;i++){
+        beginTime =  i * 5 ;
+        endTime = ( (i * 5) +  5);
+        message =  "This is number " + i; 
+        newTextTrack.addCue(new TextTrackCue(beginTime, endTime, message));
+    }
+    //  Watch for cue change events
+    newTextTrack.addEventListener("cuechange", function () {
+            // get current cue, and remove it if it's number 2
+            var currentCue = newTextTrack.activeCues[0];             
+            if (currentCue.text == "This is number 2") {
+                newTextTrack.removeCue(currentCue)
+            }            
+        },false);
+     
+  </script>
+</body>
+</html></nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
