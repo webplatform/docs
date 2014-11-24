@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The text track cue identifier.}}
+{{Summary_Section|Gets or sets a text track cue identifier.}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrackCue
 |Read_only=No
@@ -20,7 +20,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTrack = document.getElementById("entrack").track; // get text track from track element
+var myCues = myTrack.cues;   // get list of cues
+for (var i = 0; i < myCues.length; i++) {
+// set all cue IDs
+myCues[i].id = "CID" + i); //CID0, CID1, etc.
+}
+//. . .</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
