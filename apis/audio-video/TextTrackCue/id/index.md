@@ -28,7 +28,7 @@ var myTrack = document.getElementById("entrack").track; // get text track from t
 var myCues = myTrack.cues;   // get list of cues
 for (var i = 0; i < myCues.length; i++) {
 // set all cue IDs
-myCues[i].id = "CID" + i); //CID0, CID1, etc.
+myCues[i].id = "CID" + i; //CID0, CID1, etc.
 }
 //. . .</nowiki>
 |LiveURL=
