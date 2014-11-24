@@ -23,7 +23,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=
-|Code=<!DOCTYPE HTML>
+|Code=<nowiki><!DOCTYPE HTML>
 <html>
 <head>
     <title>Get track example</title>
@@ -47,7 +47,7 @@
      }, false);
     </script>
 </body>
-</html>
+</html></nowiki>
 |LiveURL=
 }}
 }}
