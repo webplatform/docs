@@ -48,7 +48,8 @@
       <track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
     </video>
     <p><button onclick="getCues();">Show tracks</button></p>
-    <div style="display:block; overflow:auto; height:200px; width:auto"  id="display"></div></nowiki>
+    <div style="display:block; overflow:auto; height:200px; width:auto"  id="display"></div>
+</body></nowiki>
 |LiveURL=
 }}
 }}
