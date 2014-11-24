@@ -1,7 +1,7 @@
 {{Page_Title|ApplicationCache}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Add example code.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,6 +9,7 @@
 {{API_Name}}
 {{Summary_Section|The '''Application Cache''' (AppCache) lets web-based applications run offline. Developers can specify resources for the browser to cache, making them available to the application even if no connection can be made to the server. These resources load and work correctly even if users click the refresh button when they are offline.}}
 {{API_Object
+|Subclass_of=
 |Overview=An application cache provides the following benefits:
 
 * Offline browsing: users can navigate a site or use a web application although they are offline
@@ -16,7 +17,7 @@
 * Reduced server load: the browser only downloads resources that have changed from the server.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -75,13 +76,33 @@ Also, web resources can be specified to only be loaded from the network. This is
 The manifest file implicitly includes itself as a page to be cached. It also needs to have the same domain of origin as the page that contains it.
 |Notes==== Limitations ===
 The [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html specification] states that browsers "should consider applying constraints on disk usage". [http://www.browserscope.org/user/tests/table/agt1YS1wcm9maWxlcnINCxIEVGVzdBjwwK0RDA?v=3&layout=simple The disk usage constraints vary across browsers.]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C ApplicationCache Specification
 |URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=*[http://alistapart.com/article/application-cache-is-a-douchebag Application Cache is a Douchebag]
+*[http://www.html5rocks.com/en/tutorials/appcache/beginner/ HTML5Rocks - A Beginner's Guide to Using the Application Cache]
+*[http://www.webdirections.org/blog/get-offline/ Taking your web sites and apps offline with the HTML5 appcache]
+*[http://dev.opera.com/articles/view/offline-applications-html5-appcache/ Running your web applications offline with HTML5 AppCache]
+*[http://appcachefacts.info/ appcachefacts.info]
+*[http://manifest-validator.com Cache Manifest Validator]
+|Manual_sections=
+}}
+{{Topics|Appcache, API}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -145,20 +166,4 @@ The [http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html sp
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|External_links=*[http://alistapart.com/article/application-cache-is-a-douchebag Application Cache is a Douchebag]
-*[http://www.html5rocks.com/en/tutorials/appcache/beginner/ HTML5Rocks - A Beginner's Guide to Using the Application Cache]
-*[http://www.webdirections.org/blog/get-offline/ Taking your web sites and apps offline with the HTML5 appcache]
-*[http://dev.opera.com/articles/view/offline-applications-html5-appcache/ Running your web applications offline with HTML5 AppCache]
-*[http://appcachefacts.info/ appcachefacts.info]
-*[http://manifest-validator.com Cache Manifest Validator]
-}}
-{{Topics|Appcache, API}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Using_the_application_cache
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
 }}
