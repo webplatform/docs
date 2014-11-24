@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,15 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTrack = document.getElementById("entrack").track; // get track from track element
+//. . .</nowiki>
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
