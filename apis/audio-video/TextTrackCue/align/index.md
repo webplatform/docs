@@ -29,6 +29,7 @@ var myCues = myTrack.cues;   // get list of cues
         for (var i = 0; i < myCues.length; i++) {
         // set cue alignments
         myCues[i].align = "left");
+}
 //. . .
 |LiveURL=
 }}
