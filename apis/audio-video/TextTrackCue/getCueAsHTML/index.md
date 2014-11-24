@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -19,7 +19,34 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=The HTML nodes replace the span element that is the first child of the div.
+|Code=<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {  // don't run this until all DOM content is loaded 
+      var track = document.getElementById("track1");
+      track.addEventListener("cuechange", function () {
+        var myTrack = this.track;             // track element is "this" 
+        var myCues = myTrack.activeCues;      // activeCues is an array of current cues.                                                    
+        if (myCues.length > 0) {
+          var disp = document.getElementById("display");                  
+          disp.replaceChild((myCues[0].getCueAsHTML()), disp.firstChild); 
+        }
+      }, false);
+    }, false);      
+    </script>
+  </head>
+  <body>
+    <video id="video1" controls>
+      <source src="video.mp4"  >
+      <track id='track1' label='English captions' src="entrack.vtt" kind='subtitles' srclang='en' default >    
+    </video>
+    <div id="display">
+      <span></span>
+    </div>
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
