@@ -28,7 +28,7 @@ var myTrack = document.getElementById("entrack").track; // get text track from t
 var myCues = myTrack.cues;   // get list of cues
 for (var i = 0; i < myCues.length; i++) {
 // report each text track cue size
-alert("Cue " + i + "size: " + myCues[i].size);
+alert("Cue " + i + " size: " + myCues[i].size);
 }
 //. . .</nowiki>
 |LiveURL=
