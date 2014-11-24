@@ -1,7 +1,7 @@
 {{Page_Title|track}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTrack = document.getElementById("entrack").track; // get text track from track element
+var myCues = myTrack.cues;   // get list of cues
+// return the first cue's text track object (in this case, identical to myTrack above)
+var theTrack = myCues[0].track;
+//. . .</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
