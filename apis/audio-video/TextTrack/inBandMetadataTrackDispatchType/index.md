@@ -8,7 +8,9 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Returns the text track in-band metadata track dispatch type string.}}
+{{Summary_Section|Returns the text track in-band metadata track dispatch type string.
+This is a string extracted from the media resource specifically for in-band metadata tracks, to enable such tracks to be dispatched to different scripts in the document.
+}}
 {{API_Object_Property
 |Property_applies_to=apis/audio-video/TextTrack
 |Read_only=Yes
