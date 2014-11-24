@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>//. . .
+var myTextTrackList = document.getElementById("entrack").textTracks; 
+// report how many text tracks are in the list
+alert(myTextTrackList.length);
+//. . .</nowiki>
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
