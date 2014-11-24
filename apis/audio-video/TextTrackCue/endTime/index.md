@@ -22,7 +22,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example add start times, end times, and captions to a track. 
+|Description=This example adds start times, end times, and captions to a track.
 |Code=<nowiki><!DOCTYPE html >
 
 <html >
