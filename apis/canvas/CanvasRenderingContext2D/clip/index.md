@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -20,7 +20,27 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example clips a region from a canvas, then draws a rectangle on the canvas, only part of which can be seen due to the clip.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Draw an open rectangle
+ctx.rect(50, 20, 200, 120);
+ctx.stroke();
+// Clip the rectangle from the canvas
+ctx.clip();
+// Draw filled rectangle in the upper left corner of the canvas after clip
+ctx.fillStyle = "green";
+ctx.fillRect(0, 0, 150, 100);
+// Only the part of the filled rectangle that falls inside the clipped area is visible
+</script> 
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
