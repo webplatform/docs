@@ -26,19 +26,18 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
 <p>. . .</p>
 <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
 // Draw an open rectangle
-ctx.rect(50, 20, 200, 120);
-ctx.stroke();
+ctxt.rect(50, 20, 200, 120);
+ctxt.stroke();
 // Clip the rectangle from the canvas
-ctx.clip();
+ctxt.clip();
 // Draw filled rectangle in the upper left corner of the canvas after clip
-ctx.fillStyle = "green";
-ctx.fillRect(0, 0, 150, 100);
+ctxt.fillStyle = "green";
+ctxt.fillRect(0, 0, 150, 100);
 // Only the part of the filled rectangle that falls inside the clipped area is visible
-</script> 
-
+</script>
 |LiveURL=
 }}
 }}
