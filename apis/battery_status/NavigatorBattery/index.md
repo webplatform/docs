@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Last Call Working Draft}}
 {{API_Name}}
 {{Summary_Section|The NavigatorBattery interface is exposed on the Navigator object.}}
 {{API_Object
@@ -34,7 +34,12 @@ navigator.battery.addEventListener('levelchange', function () {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Battery Status API
+|URL=http://www.w3.org/TR/battery-status/
+|Status=W3C Last Call Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
