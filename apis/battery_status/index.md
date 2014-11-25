@@ -1,7 +1,7 @@
 {{Page_Title|Battery Status API}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
