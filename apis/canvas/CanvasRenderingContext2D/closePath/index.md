@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Marks the last subpath as closed, creates a new subpath whose first point is the same as the previous subpath's first point, and then adds the new subpath to the path. If the object's path has no subpaths, this method does nothing.}}
+{{Summary_Section|Marks the last subpath as closed, creates a new subpath whose first point is the same as the previous subpath's last point, and then adds the new subpath to the path, returning to the first subpath's first point (closing the shape). If the object's path has no subpaths, this method does nothing.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
@@ -24,7 +24,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Notes_Section
 |Usage=
-|Notes=If the last subpath had more than one point in its list of points, then this is equivalent to adding a straight line connecting the last point back to the first point, thus "closing" the shape, and then repeating the last (possibly implied) ''moveTo()'' call.
+|Notes=If the last subpath has more than one point in its list of points, then this is equivalent to adding a straight line connecting the last point back to the first point, thus closing the shape, and then repeating the last (possibly implied) ''moveTo()'' call.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
