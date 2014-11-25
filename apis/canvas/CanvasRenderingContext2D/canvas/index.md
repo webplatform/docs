@@ -12,7 +12,7 @@
 |Property_applies_to=apis/canvas/CanvasRenderingContext2D
 |Read_only=Yes
 |Example_object_name=CanvasRenderingContext2D
-|Return_value_name=
+|Return_value_name=result
 |Javascript_data_type=Object
 |Return_value_description=
 |Example_value_name=
