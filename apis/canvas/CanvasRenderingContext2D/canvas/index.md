@@ -22,18 +22,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=This example gets the '''id''' of the canvas object for which the 2D context was created.
-|Code=<canvas id="myCanvas" width="300" height="150"
-style="border:1px solid black;">
-</canvas>
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid black;"></canvas>
 <p>. . .</p>
 <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.fillStyle = "#0000ff";
-ctx.fillRect(10,10,150,75);
-alert(ctx.canvas.id); // returns "myCanvas"
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.fillStyle = "#0000ff";
+ctxt.fillRect(10,10,150,75);
+alert(ctxt.canvas.id); // returns "myCanvas"
 </script>
-
 |LiveURL=
 }}
 }}
