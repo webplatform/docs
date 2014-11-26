@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Removed from spec; deletion candidate.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Draw a focus ring of the appropriate style along the intended path, and sets result to ''false''.}}
+{{Summary_Section|Draw a focus ring of the appropriate style along the intended path, and sets result to ''false''.
+
+'''Removed from spec; deletion candidate.'''
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
