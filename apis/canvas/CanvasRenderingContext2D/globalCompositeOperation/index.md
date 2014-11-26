@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -32,7 +32,28 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example draws two pairs of overlapping rectangles using different globalCompositionOperation values. In the example, the first rectangle of each pair (green) is the ''destination''; the second rectangle of each pair (yellow) is the ''source''. Thus in the first '''source-over''' pair, yellow overlays green; in the second '''destination-over''' pair, green overlays yellow.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.fillStyle = "green";
+ctxt.fillRect(20, 30, 80, 50);
+ctxt.fillStyle = "yellow";	
+ctxt.globalCompositeOperation = "source-over";
+ctxt.fillRect(50, 60, 80, 50);	
+
+ctxt.fillStyle = "green";
+ctxt.fillRect(150, 30, 80, 50);
+ctxt.fillStyle = "yellow";	
+ctxt.globalCompositeOperation = "destination-over";
+ctxt.fillRect(180, 60, 80, 50);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -42,8 +63,8 @@ Values are case-sensitive. If you set an unsupported or unrecognized value, ''gl
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
