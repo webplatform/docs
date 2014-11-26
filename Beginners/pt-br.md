@@ -4,7 +4,7 @@
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Summary_Section|Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos as ferramentas e provemos links para artigos explicando.}}
+{{Summary_Section|Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..}}
 {{Basic Page}}
 ==Resumo==
 Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
