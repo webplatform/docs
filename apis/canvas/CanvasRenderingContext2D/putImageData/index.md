@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -81,35 +81,19 @@ This method can return one of these values.
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=In this example, the contents of a canvas get inverted and will be put back on that canvas via putImageData.
-|Code=// Get the canvas element and its context
-var el = document.getElementById('canvas');
-var ctx = el.getContext('2d');
-
-// Draw something on the canvas
-ctx.fillStyle = '#ffffff';
-ctx.fillRect(0,0,200,200);
-ctx.fillStyle = '#524221';
-ctx.fillRect(25,25,50,50);
-ctx.fillStyle = '#000000';
-ctx.fillRect(125,125,50,50);
-
-// Get the imageData of the canvas
-var imageData = ctx.getImageData(0,0,200,200);
-
-// Process the imageData, go through all the pixels which are group in blocks of four values per pixel (r,g,b,a)
-for(var i = 0; i < imageData.data.length; i += 4) {	
-	
-	//Take each value an invert it		
-	imageData.data[i] = 255 - imageData.data[i];		
-	imageData.data[i+1] = 255 - imageData.data[i+1];		
-	imageData.data[i+2] = 255 - imageData.data[i+2];	
-}   		
-
-// Take the modified imageData and put them back on the canvas
-ctx.putImageData(imageData,0,0);
-|LiveURL=http://code.webplatform.org/gist/f17eb7cffca6a0ece72d
+|Language=HTML
+|Description=This example draws a solid color filled rectangle, then uses getImageData to retrieve part of the rectangle, and then uses putImageData to place that retrieved data elsewhere on the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.fillStyle = "magenta";
+ctxt.fillRect(10, 10, 75, 75);
+var imgdata = ctxt.getImageData(10, 10, 30, 30);
+ctxt.putImageData(imgdata, 100, 55);
+</script>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -119,8 +103,8 @@ ctx.putImageData(imageData,0,0);
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
