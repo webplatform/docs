@@ -2,20 +2,22 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents the tab order of an element.}}
 {{Markup_Attribute
+|Applies_to=
 |Property_applies_to=dom/HTMLElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the '''tabIndex''' property to specify the tab order for three text fields. In addition, the Submit button is removed by specifying a negative value.
 |Code=&lt;input type{{=}}"text" tabindex{{=}}"1"&gt; 
 &lt;input type{{=}}"text"&gt;
@@ -23,6 +25,7 @@
 &lt;input type{{=}}"submit" tabindex{{=}}"-1"&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex1.htm
 }}{{Single Example
+|Language=
 |Description=This example uses the '''tabIndex''' property to assign a tab order to an unordered list. To cycle through the list's tab order, the user presses the TAB key. Since the list items can have focus, the focus rectangle surrounds each item the user selects.
 |Code=&lt;ul&gt;
 	&lt;li&gt;Item 1 (no tab)&lt;/li&gt;
@@ -40,6 +43,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The '''tabIndex''' value determines the tab order as follows:
 #Objects with a positive '''tabIndex''' are selected in increasing ''p'' order and in source order to resolve duplicates.
@@ -65,14 +69,9 @@ Elements that receive focus can fire the [[dom/events/blur|'''onblur''']] and [[
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[html/elements/a|a]]</code>
 *<code>abbr</code>
@@ -164,4 +163,11 @@ Elements that receive focus can fire the [[dom/events/blur|'''onblur''']] and [[
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
