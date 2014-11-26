@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -43,16 +43,17 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=Set a fillStyle and fill a rectancle with that fillStyle.
-|Code=// Get the canvas element and its context
-var el = document.getElementById('canvas');
-var ctx = el.getContext('2d');
-
-// Set a fillStyle and fill a rectangle based on that fillStyle
-ctx.fillStyle = '#789789';
-ctx.fillRect(25,25,50,50);
-|LiveURL=http://code.webplatform.org/gist/1f00ea4356ed71816571
+|Language=HTML
+|Description=This example sets a solid color fill style, then draws and fills a rectangle on the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.fillStyle = "orange";
+ctxt.fillRect(20, 20, 50, 120);
+</script> 
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -62,8 +63,8 @@ ctx.fillRect(25,25,50,50);
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
