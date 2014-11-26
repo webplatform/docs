@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -54,7 +54,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example creates a radial gradient, fading from yellow to red, and then places a rectangle filled with the gradient onto the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+var grdt = ctxt.createRadialGradient(150, 75, 10, 100, 50, 150);
+grdt.addColorStop(0, "yellow");
+grdt.addColorStop(1, "red");
+ctxt.fillStyle = grdt;
+ctxt.fillRect(10, 10, 275, 125);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
