@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Gets the line dash properties for the stroke.}}
+{{Summary_Section|Gets the line dash properties for the stroke, as an array.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/canvas/CanvasRenderingContext2D
