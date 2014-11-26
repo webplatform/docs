@@ -52,8 +52,7 @@ for (var i = 0; i < imgdata.data.length; i += 4) {
     imgdata.data[i+3] = 128;
 }
 ctxt.putImageData(imgdata, 10, 10);
-</script> 
-
+</script>
 |LiveURL=
 }}
 }}
@@ -66,8 +65,8 @@ This method is never called with all three arguments.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
