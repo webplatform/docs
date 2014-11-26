@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Experimental, subject to change or removal; deletion candidate.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.}}
+{{Summary_Section|Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.
+
+'''Experimental, subject to change or removal; deletion candidate.'''
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
