@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -26,7 +26,21 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example creates a 30 x 100 rectangle on the canvas, sets a solid color fill style, and fills the rectangle.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.rect(20, 20, 50, 120);
+ctxt.fillStyle = "cyan";
+ctxt.fill();
+</script> 
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -35,8 +49,8 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
