@@ -1,9 +1,10 @@
 {{Page_Title|Desenvolvimento web para inciantes}}
 {{Flags
 |State=Unreviewed
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Summary_Section}}
+{{Summary_Section|Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos as ferramentas e provemos links para artigos explicando.}}
 {{Basic Page}}
 ==Resumo==
 Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
@@ -71,7 +72,11 @@ Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a noss
 ==Técnicas aplicadas==
 
 * [[tutorials/creating basic navigation menus|Criando menus de navegação]]
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
