@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -42,7 +42,22 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example creates a diagonal (upper left to lower right) gradient, fading from red to yellow, and then places a rectangle filled with the gradient onto the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+var grdt = ctxt.createLinearGradient(0, 0, 150, 150);
+grdt.addColorStop(0, "red");
+grdt.addColorStop(1, "yellow");
+ctxt.fillStyle = grdt;
+ctxt.fillRect(20, 20, 150, 100);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
