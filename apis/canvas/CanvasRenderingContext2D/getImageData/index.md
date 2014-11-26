@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
@@ -45,21 +45,19 @@ A ''CanvasImageData'' object with pixel information from the canvas within the s
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=JavaScript
-|Description=In this example we will get the imageData of a canvas element.
-|Code=// Get the canvas element and its context
-var el = document.getElementById('canvas');
-var ctx = el.getContext('2d');
-
-// Draw something on the canvas
-ctx.fillStyle = '#213567';
-ctx.fillRect(25,25,50,50);
-
-// Get the imageData of the canvas starting from 0,0 to 50,50
-var imageData = ctx.getImageData(0,0,50,50);
-
-console.log(imageData);
-|LiveURL=http://code.webplatform.org/gist/fba1414a36da2a4766f3
+|Language=HTML
+|Description=This example draws a solid color filled rectangle, then uses getImageData to retrieve part of the rectangle, and then uses putImageData to place that retrieved data elsewhere on the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.fillStyle = "magenta";
+ctxt.fillRect(10, 10, 75, 75);
+var imgdata = ctxt.getImageData(10, 10, 30, 30);
+ctxt.putImageData(imgdata, 100, 55);
+</script> 
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -69,8 +67,8 @@ console.log(imageData);
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
