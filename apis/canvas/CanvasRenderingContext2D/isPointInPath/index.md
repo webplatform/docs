@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -44,7 +44,20 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example simply tests whether a given point is in the current path (the previously defined rectangle) and alerts ''true'' or ''false''.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.rect(20, 20, 150, 100);
+alert(ctxt.isPointInPath(30,50));
+</script> 
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -53,8 +66,8 @@ This method can return one of these values.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
