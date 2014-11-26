@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -94,7 +94,20 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses the most straightforward syntax, simply drawing an existing page image onto the canvas.
+|Code=<img id="clock" src="clock.jpg" width="200" height="100" style="visibility:hidden"/>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+var image = document.getElementById("clock");
+ctxt.drawImage(image, 10, 10);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
