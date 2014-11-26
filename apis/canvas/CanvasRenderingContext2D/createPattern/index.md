@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -38,7 +38,23 @@ The pattern object to use as a ''fill style'' together with a ''CanvasRenderingC
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example uses an image in the page (repeated in both directions) as a pattern, then places a rectangle filled with that pattern onto the canvas.
+|Code=<img id="qmark" src="qmark.png" width="16px" height="16px" style="visibility:hidden"/>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+var image=document.getElementById("qmark");
+var patn=ctxt.createPattern(image,"repeat");
+ctxt.rect(0,0,150,100);
+ctxt.fillStyle=patn;
+ctxt.fill();
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
