@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,7 +19,23 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example sets line dash parameters and draws a dashed line across the canvas, using an offset of 3px. The effect of the offset is difficult to see without comparing to the un-offset version. lineDashOffset is often used to achieve simple animation, as in the so-called "marching ants" line effect.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+. . .
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.setLineDash([10, 15]);
+ctxt.beginPath();
+ctxt.lineDashOffset = 3;
+ctxt.moveTo(0,75);
+ctxt.lineTo(300, 75);
+ctxt.stroke();
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -28,8 +44,8 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
+|Name=W3C HTML Canvas 2D Context
+|URL=http://www.w3.org/TR/2dcontext/
 |Status=W3C Candidate Recommendation
 |Relevant_changes=
 }}
