@@ -264,17 +264,26 @@ Anything before the question mark is the condition, the value immediately after 
  
 Another common situation in JavaScript is providing a preset value for a variable if it is not defined, like so:
  
-<pre>if(v){
+<pre>if( v ){ 
   var x = v;
 } else {
   var x = 10;
 }</pre>
- 
-The shortcut notation for this is the double pipe which is the <code>OR</code> operator:
+
+This is NOT a good way of doing it, because if <code>v</code> happens to equal 0 - which is a case where <code>v</code> is defined, then <code>x</code> will be assigned <code>10</code>, instead of <code>0</code>.
+The shortcut notation that will use the the double pipe which is the <code>OR</code> operator won't do either:
  
 <pre>var x = v
 |10;</pre>
- 
+
+This way of doing it will again fail in the event <code>v</code> equal <code>0</code>.
+
+The best, safe, and short way to handle the situation of providing a preset value for a variable if it is not defined, is simply to use the trinary interrogation mark <code>?</code> operator:
+
+<pre>var x = v != null ? v : 10</pre>
+
+The <code>?</code> operator is a short hand for a <code>if ... else ... </code> condition that is tested, here against <code>null</code> , which guards against v having the value <code>undefined</code> as well. It should be noted that if <code>v</code> operator has the empty chain character <code>''</code> operator assigned, then it will be assigned to <code>x</code> as well.
+
 This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
  
 This is a general programming best practice — making sure that you create functions that fulfill one job at a time makes it easy for other developers to debug and change your code without having to scan through all the code to work out what code block performs what function.
