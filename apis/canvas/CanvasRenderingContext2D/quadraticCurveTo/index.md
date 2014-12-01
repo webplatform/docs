@@ -56,6 +56,7 @@ ctxt.beginPath();
 ctxt.moveTo(50,50);
 ctxt.quadraticCurveTo(50,100,200,50);
 ctxt.stroke();
+</script>
 |LiveURL=
 }}
 }}
