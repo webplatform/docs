@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -56,7 +56,23 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can=document.getElementById("myCanvas");
+var ctxt=can.getContext("2d");
+ctxt.fillStyle="blue";
+ctxt.fillRect(0, 0, 250, 100)
+//setTransform and redraw in a different color
+ctxt.setTransform(1, 0.5, -0.5, 1, 30, 10);
+ctxt.fillStyle="yellow";
+ctxt.fillRect(0, 0, 250, 100);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
