@@ -38,7 +38,7 @@ ctxt.moveTo(150,0);
 ctxt.lineTo(150,150);
 ctxt.stroke();
 //set the font
-ctxt.font="16px Times"; 
+ctxt.font="16px Arial"; 
 //show effect of textAlign values
 ctxt.textAlign="start"; 
 ctxt.fillText("START",150,40); 
