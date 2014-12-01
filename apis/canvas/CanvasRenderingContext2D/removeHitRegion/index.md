@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -24,7 +24,32 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can = document.getElementById( "myCanvas" );
+var ctxt = can.getContext( "2d" );
+ctxt.fillStyle = "lime";
+ctxt.beginPath( );
+ctxt.rect( 10, 10, 100, 100 );
+ctxt.fill( );
+try {
+    ctxt.addHitRegion( {"id": "limeRectangle" } );
+} catch( e ) {
+    alert( "your browser does not support hit regions" );
+}
+try {
+    ctxt.removeHitRegion( {"id": "limeRectangle" } );
+} catch( e ) {
+    alert( "your browser does not support hit regions" );
+}
+</script>  
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
