@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,7 +19,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can=document.getElementById("myCanvas");
+var ctxt=can.getContext("2d");
+ctxt.strokeStyle="green";
+ctxt.strokeRect(20,30,150,75);
+</script> 
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
