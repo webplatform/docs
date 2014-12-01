@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -24,7 +24,35 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can=document.getElementById("myCanvas");
+var ctxt=can.getContext("2d");
+//draw a vertical line down the middle of the canvas
+ctxt.strokeStyle="green";
+ctxt.moveTo(150,0);
+ctxt.lineTo(150,150);
+ctxt.stroke();
+//set the font
+ctxt.font="16px Times"; 
+//show effect of textAlign values
+ctxt.textAlign="start"; 
+ctxt.fillText("START",150,40); 
+ctxt.textAlign="end"; 
+ctxt.fillText("END",150,60); 
+ctxt.textAlign="left"; 
+ctxt.fillText("LEFT",150,80);
+ctxt.textAlign="right"; 
+ctxt.fillText("RIGHT",150,100);
+ctxt.textAlign="center"; 
+ctxt.fillText("CENTER",150,120); 
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
