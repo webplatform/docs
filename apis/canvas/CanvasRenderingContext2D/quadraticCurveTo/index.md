@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -44,7 +44,20 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can=document.getElementById("myCanvas");
+var ctxt=can.getContext("2d");
+ctxt.beginPath();
+ctxt.moveTo(50,50);
+ctxt.quadraticCurveTo(50,100,200,50);
+ctxt.stroke();
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
