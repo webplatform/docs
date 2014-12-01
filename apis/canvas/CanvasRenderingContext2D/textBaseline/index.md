@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -25,7 +25,35 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="400" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>  
+var can=document.getElementById("myCanvas");
+var ctxt=can.getContext("2d");
+//draw a horizontal line across the canvas
+ctxt.strokeStyle="green";
+ctxt.moveTo(0,75);
+ctxt.lineTo(400,75);
+ctxt.stroke();
+//set the font
+ctxt.font="16px Arial"
+//show words on the line with different textBaseline values
+ctxt.textBaseline="top"; 
+ctxt.fillText("TOP",5,75); 
+ctxt.textBaseline="bottom"; 
+ctxt.fillText("BOTTOM",50,75); 
+ctxt.textBaseline="middle"; 
+ctxt.fillText("MIDDLE",120,75); 
+ctxt.textBaseline="alphabetic"; 
+ctxt.fillText("ALPHABETIC",190,75); 
+ctxt.textBaseline="hanging"; 
+ctxt.fillText("HANGING",290,75);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
