@@ -1,7 +1,7 @@
 {{Page_Title|height}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,7 +19,26 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example creates an ImageData object and reports its height, then draws the ImageData onto the canvas.
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+var imgdata = ctxt.createImageData(150, 100);
+alert(imgdata.height); // 100
+for (var i = 0; i < imgdata.data.length; i += 4) {
+  imgdata.data[i+0] = 255;
+  imgdata.data[i+1] = 255;
+  imgdata.data[i+2] = 0;
+  imgdata.data[i+3] = 128;
+}
+ctxt.putImageData(imgdata, 10, 10);
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
