@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -24,7 +24,23 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=<canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
+<p>. . .</p>
+<script>
+var can = document.getElementById("myCanvas");
+var ctxt = can.getContext("2d");
+ctxt.font = "24px Arial";
+var txt = "Hello world!"
+ctxt.fillText(txt, 10, 75);
+var mets = ctxt.measureText(txt);
+alert("measureText: " + mets);
+//Returns a TextMetrics object
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=Use measureText on the canvas context. An example can be found on the main object page [[apis/canvas/TextMetrics|TextMetrics]]
