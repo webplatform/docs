@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object.}}
+{{Summary_Section|Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object, a fixed-length binary data buffer.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -28,7 +28,18 @@ S_OK
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var reader = new FileReader();
+
+reader.onload = function(e) {
+  var arrayBuffer = reader.result;
+}
+
+reader.readAsArrayBuffer(file);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
