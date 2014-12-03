@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntry.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.}}
+{{Summary_Section|Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.
+
+'''Non-standard; deletion candidate.'''
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
