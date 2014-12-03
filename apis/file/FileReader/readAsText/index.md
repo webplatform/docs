@@ -1,7 +1,7 @@
 {{Page_Title|readAsText}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,8 +19,8 @@
 |Index=1
 |Name=encoding
 |Data type=any
-|Description=
-|Optional=No
+|Description=Defaults to UTF-8.
+|Optional=Yes
 }}
 |Method_applies_to=apis/file/FileReader
 |Example_object_name=FileReader
@@ -34,7 +34,18 @@ S_OK
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var reader = new FileReader();
+
+reader.onload = function(e) {
+  var text = reader.result;
+}
+
+reader.readAsText(file);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
