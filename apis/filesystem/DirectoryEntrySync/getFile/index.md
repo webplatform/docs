@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate. See http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntrySync.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Creates or looks up a file.}}
+{{Summary_Section|Creates or looks up a file.
+
+'''Non-standard; deletion candidate.'''
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
