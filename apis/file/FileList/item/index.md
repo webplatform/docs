@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -28,7 +28,24 @@ S_OK
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=This example lets you select one or more files, then uses the filelist length to report each filelist item's name and last modified date/time.
+|Code=<input type="file" multiple id="myfileinput"><br/>
+<input type="button" value="Show file names and last modified dates" onclick="shownd()">
+<p>. . .</p>
+<script>
+function shownd() {
+  var fileinp = document.getElementById("myfileinput");
+  var filelist = fileinp.files;
+  alert(filelist.length);
+  for (var i = 0; i < filelist.length; i++) {
+    alert(filelist.item(i).name + " was last modified: " + filelist.item(i).lastModifiedDate);
+  }
+}
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
