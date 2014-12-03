@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -38,7 +38,21 @@ If you specify a value for start that is larger than the size of the source Blob
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates a text blob object, reports its size, splits the blob object in half, reports that size, then closes the blob object.
+|Code=<script>
+//create blob
+var blobj = new Blob(["I scream, you scream, we <b>all</b> scream for ice cream!"], { "type" : "text/xml" });
+alert("Blob size: " + blobj.size);
+//slice blob in half, starting at beginning
+var blobjfirsthalf = blobj.slice(0, Math.round(blobj.size/2));
+alert("Blob first half size: " + blobjfirsthalf.size);      
+//close blob
+blobj.close();
+</script>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
