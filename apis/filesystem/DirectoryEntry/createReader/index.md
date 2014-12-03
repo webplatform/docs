@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntry.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a new DirectoryReader to read Entries from this Directory.}}
+{{Summary_Section|Creates a new DirectoryReader to read Entries from this Directory.
+
+'''Non-standard; deletion candidate.'''
+}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/filesystem/DirectoryEntry
