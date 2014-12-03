@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Not Ready
+|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntry.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This interface lets a user list files and directories in a directory.}}
+{{Summary_Section|This interface lets a user list files and directories in a directory.
+
+'''Non-standard; deletion candidate.'''
+}}
 {{API_Object
 |Subclass_of=
 |Overview=
