@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Non-standard; deletion candidate. See http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntrySync.
+|Editorial notes=Non-standard; deletion candidate. Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntry.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
