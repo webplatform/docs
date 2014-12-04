@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntry.
+|Editorial notes=Non-standard; deletion candidate. See [http://www.w3.org/TR/file-system-api/].
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
