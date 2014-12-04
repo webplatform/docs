@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|This interface represents a directory on a file system.
 
-'''Non-standard; deletion candidate.'''
+Non-standard; deletion candidate. See [http://www.w3.org/TR/file-system-api/].
 }}
 {{API_Object
 |Subclass_of=
