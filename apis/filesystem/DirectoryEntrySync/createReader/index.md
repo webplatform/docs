@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Non-standard; deletion candidate. See http://dev.w3.org/2009/dap/file-system/pub/FileSystem/ and https://developer.mozilla.org/en-US/docs/Web/API/DirectoryEntrySync.
+|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Creates a new DirectoryReaderSync to read EntrySyncs from this DirectorySync.
 
-'''Non-standard; deletion candidate.'''
+'''Non-standard; deletion candidate. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
 }}
 {{API_Object_Method
 |Parameters=
