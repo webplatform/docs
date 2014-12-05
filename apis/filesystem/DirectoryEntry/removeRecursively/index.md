@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/.
+|State=Out of Date
+|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Deletes a directory and all of its contents, if any. In the event of an error [e.g. trying to delete a directory that contains a file that cannot be removed], some of the contents of the directory may be deleted. It is an error to attempt to delete the root directory of a filesystem.
 
-'''Non-standard; deletion candidate. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
+'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
 }}
 {{API_Object_Method
 |Parameters={{Method Parameter
