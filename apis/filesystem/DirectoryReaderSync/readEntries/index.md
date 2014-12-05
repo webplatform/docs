@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Non-standard; deletion candidate. See http://www.w3.org/TR/file-system-api/.
+|State=Out of Date
+|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Read the next block of entries from this directory.
 
-'''Non-standard; deletion candidate. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
+'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
 }}
 {{API_Object_Method
 |Parameters=
