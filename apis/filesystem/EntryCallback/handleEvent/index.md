@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Out of Date
+|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Used to supply an Entry as a response to a user query.}}
+{{Summary_Section|Used to supply an Entry as a response to a user query.
+
+'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
+}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=
