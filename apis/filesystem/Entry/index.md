@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Out of Date
+|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.}}
+{{Summary_Section|An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.
+
+'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
+}}
 {{API_Object
 |Subclass_of=
 |Overview=
