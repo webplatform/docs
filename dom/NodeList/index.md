@@ -13,7 +13,7 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Code=var list = document.getElementsByClassName('highlighted');
-for(var i=0; i<list.lengthl i++){
+for(var i=0; i<list.length; i++){
     var item = list[i];
 }
 }}
