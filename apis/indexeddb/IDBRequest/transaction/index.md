@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|Editorial notes=Needs example, spec reference
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|The transaction for the request. This property can be null for certain requests, such as for request returned from IDBFactory.open (You're just connecting to a database, so there is no transaction to return).}}
 {{API_Object_Property
