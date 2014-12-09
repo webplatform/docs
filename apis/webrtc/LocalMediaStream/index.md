@@ -1,23 +1,40 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs spec reference, fix broken link
+|Editorial notes=Needs spec reference
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The LocalMediaStream object is the MediaStream object returned from the call to [[dom/methods/getUserMedia|getUserMedia()]]. It has all the properties and events of the MediaStream object and the stop method.}}
+{{Summary_Section|The LocalMediaStream object is the MediaStream object returned from the call to [[dom/Navigator/getUserMedia]]. It has all the properties and events of the MediaStream object and the stop method.}}
 {{API_Object
 |Subclass_of=apis/webrtc/MediaStream
+|Overview=
 }}
 {{Examples_Section
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, WebRTC}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -79,12 +96,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
