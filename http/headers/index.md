@@ -196,11 +196,11 @@ If the response is identifying another resource, use the Link header with a URI 
 |-
 | [[http/headers/Content-Script-Type|Content-Script-Type]]
 | 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| [http://www.w3.org/TR/html401/interact/scripts.html#h-18.2.2 HTML 4.01 Section 18.2.2]
 |-
 | [[http/headers/Content-Style-Type|Content-Style-Type]]
 | 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| [http://www.w3.org/TR/html401/present/styles.html#h-14.2.1 HTML 4.01 Section 14.2.1]
 |-
 | [[http/headers/Content-Type|Content-Type]]
 | The media type of the attached entity-body
@@ -232,7 +232,7 @@ If the response is identifying another resource, use the Link header with a URI 
 |-
 | [[http/headers/Default-Style|Default-Style]]
 | 
-| [http://tools.ietf.org/html/rfc4229 RFC4229]
+| [http://www.w3.org/TR/html401/present/styles.html#h-14.3.2 HTML 4.01 Section 14.3.2]
 |-
 | [[http/headers/Delta-Base|Delta-Base]]
 | The entity tag of the base instance against which the delta applies
