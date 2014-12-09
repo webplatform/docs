@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|Editorial notes=Needs example, spec reference
 |Checked_Out=No
 |High-level issues=Stub, Missing Relevant Sections, Needs Review
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|The event handler for the error event.}}
 {{API_Object_Property
