@@ -25,9 +25,12 @@
 |Description=The Gamepad API provides a function, [[dom/Navigator/getGamepads|Navigator.getGamepads]], that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
 |Code=window.addEventListener("gamepadconnected", function(e) {
   var gp = navigator.getGamepads()[e.gamepad.index];
-  console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
-    gp.index, gp.id,
-    gp.buttons.length, gp.axes.length);
+  console.log("Gamepad connected.");
+  console.log("Gamepad index:", gp.index);
+  console.log("Gamepad id:", gp.id);
+  console.log("Gamepad buttons:", gp.buttons.length);
+  console.log("Gamepad axes:", gp.axes.length);
+  console.log("Gamepad last updated:", gp.timestamp);
 });
 |LiveURL=
 }}
