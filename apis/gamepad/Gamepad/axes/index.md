@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Array of values for all axes of the gamepad.}}
+{{Summary_Section|Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).}}
 {{API_Object_Property
 |Property_applies_to=apis/gamepad/Gamepad
 |Read_only=Yes
@@ -20,7 +20,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The Gamepad API provides a function, [[dom/Navigator/getGamepads|Navigator.getGamepads]], that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
+|Code=window.addEventListener("gamepadconnected", function(e) {
+  var gp = navigator.getGamepads()[e.gamepad.index];
+  console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
+    gp.index, gp.id,
+    gp.buttons.length, gp.axes.length);
+});
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -43,7 +53,8 @@
 {{Topics|API, Gamepad}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad
 |MSDN_link=
 |HTML5Rocks_link=
 }}
