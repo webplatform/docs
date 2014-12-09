@@ -1,13 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Out of Date
+|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|This interface is the callback used to obtain a File.}}
+{{Summary_Section|This interface is the callback used to obtain a File.
+
+'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
+}}
 {{API_Object
 |Subclass_of=
 |Overview=
