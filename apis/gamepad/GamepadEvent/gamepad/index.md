@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
@@ -20,7 +20,20 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The Gamepad API provides a function, [[dom/Navigator/getGamepads|Navigator.getGamepads]], that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
+|Code=window.addEventListener("gamepadconnected", function(e) {
+  var gp = navigator.getGamepads()[e.gamepad.index];
+  console.log("Gamepad connected.");
+  console.log("Gamepad index:", gp.index);
+  console.log("Gamepad id:", gp.id);
+  console.log("Gamepad buttons:", gp.buttons.length);
+  console.log("Gamepad axes:", gp.axes.length);
+  console.log("Gamepad last updated:", gp.timestamp);
+});
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -43,7 +56,8 @@
 {{Topics|API, Gamepad}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad
 |MSDN_link=
 |HTML5Rocks_link=
 }}
