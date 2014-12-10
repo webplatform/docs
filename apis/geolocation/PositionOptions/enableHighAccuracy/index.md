@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A request from the application to receive the best possible results.}}
+{{Summary_Section|A request from the application to receive the best possible location results. The intended purpose of this attribute is to allow applications to inform the implementation that they do not require high accuracy geolocation fixes so the implementation can avoid using geolocation providers that consume a significant amount of power (e.g., GPS).}}
 {{API_Object_Property
 |Property_applies_to=apis/geolocation/PositionOptions
 |Read_only=No
@@ -19,7 +19,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=//Request the best possible geolocation fix
+PositionOptions.enableHighAccuracy = true;
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +37,7 @@
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
