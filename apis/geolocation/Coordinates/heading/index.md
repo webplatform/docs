@@ -25,9 +25,8 @@
 |Code=if (position.coords.heading > 87 && position.coords.heading < 93) {
    // moving within 5 degrees of due east
    } else {
-   // moving elsewhere
+   // not moving east
    }
-
 |LiveURL=
 }}
 }}
