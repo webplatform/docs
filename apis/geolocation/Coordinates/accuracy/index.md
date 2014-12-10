@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Denotes the accuracy level of the ''latitude'' and ''longitude'' coordinates. It is specified in meters and must be supported by all implementations. The value of this attribute must be a non-negative real number.}}
 {{API_Object_Property
@@ -19,7 +19,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=//Assuming the variable accuracy_threshold has been set
+if (position.coords.accuracy < accuracy_threshold) {
+   // The position is relatively accurate.
+   } else {
+   // The position is potentially inaccurate.
+   }
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +40,7 @@
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
