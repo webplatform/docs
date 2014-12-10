@@ -5,7 +5,7 @@
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.}}
 {{API_Object_Method
@@ -87,7 +87,7 @@ Windows Internet Explorer 9.  This property is supported only for webpages disp
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
