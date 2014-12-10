@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.}}
 {{API_Object_Property
@@ -19,7 +19,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var poscoords = position.coords;
+//Coordinates properties are now available
+alert(poscoords.altitude);
+alert(poscoords.heading);
+//etc.
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +40,7 @@
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
