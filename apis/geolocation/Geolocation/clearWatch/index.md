@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Stops a specific watch process.}}
 {{API_Object_Method
@@ -26,7 +26,15 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=geoLoc = navigator.geolocation;
+watchID = geoLoc.watchPosition(successCallback, errorHandler, options);
+geoLoc.clearWatch(watchID);
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -37,7 +45,7 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
