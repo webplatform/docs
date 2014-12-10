@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading < 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the ''speed'' attribute is 0), then the value of this attribute must be NaN.}}
 {{API_Object_Property
@@ -19,7 +19,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=if (position.coords.heading > 87 && position.coords.heading < 93) {
+   // moving within 5 degrees of due east
+   } else {
+   // moving elsewhere
+   }
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +40,7 @@
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
