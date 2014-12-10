@@ -1,10 +1,10 @@
 {{Page_Title|ImageCapture}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Specifies the takePhoto() and getFrame() methods, and corresponding camera settings for use with [[apis/media_capture_and_streams/MediaStream|MediaStreams]].}}
 {{API_Object
@@ -21,7 +21,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Mediastream Image Capture
+|URL=http://w3c.github.io/mediacapture-image/
+|Status=W3C Editor's draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Mobile
