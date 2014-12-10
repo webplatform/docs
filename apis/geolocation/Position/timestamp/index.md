@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Represents the time when the Position object was acquired, represented as a ''DOMTimeStamp''.}}
 {{API_Object_Property
@@ -19,7 +19,17 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=//Assuming the variable fresh_threshold has been set
+if (position.timestamp < fresh_threshold) {
+   // The position is relatively recent.
+   } else {
+   // The position is potentially outdated.
+   }
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +40,7 @@
 |Specifications={{Related Specification
 |Name=W3C Geolocation Specification
 |URL=http://dev.w3.org/geo/api/spec-source.html
-|Status=W3C Proposed Recommendation
+|Status=W3C Editor's Draft
 |Relevant_changes=
 }}
 }}
