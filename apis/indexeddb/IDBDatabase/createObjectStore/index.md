@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside an "versionchange" transaction.}}
+{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -58,12 +58,15 @@ try {
 * This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
 * If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
 * If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C Proposed Recommendation
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
