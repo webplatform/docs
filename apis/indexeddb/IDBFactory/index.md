@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property, which   provides access to the IndexedDB features supported by the browser and/or device.}}
+{{Summary_Section|The object type for the [[apis/indexeddb/indexedDB|indexedDB]] property, which provides access to the IndexedDB features supported by the browser and/or device.}}
 {{API_Object
 |Subclass_of=
 |Overview=
@@ -48,7 +48,12 @@ Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedD
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
@@ -63,6 +68,12 @@ Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedD
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+}
+
+
+
+
+
 
 
 
@@ -127,4 +138,4 @@ Use the [[apis/indexeddb/indexedDB|'''indexedDB''']] property to access IndexedD
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows={{Compatibility Notes Row}}
-}}
+}}}
