@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|The open method is used to open an IndexedDB database.}}
 {{API_Object_Method
@@ -71,11 +71,15 @@ dbOpenRequest.onerror = function(e){
 {{Notes_Section
 |Usage=var openRequest = window.indexedDB.open("databaseName", 1);
 |Notes=The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1.
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/IndexedDB/#widl-IDBFactory-open-IDBOpenDBRequest-DOMString-name-unsigned-long-long-version Indexed Database API - open Method]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
