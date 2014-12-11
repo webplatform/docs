@@ -1,16 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|The method compares two specified keys. 
-The method returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second.
-}}
+{{Summary_Section|This method compares two specified keys. Returns 1 if the first key is greater than the second, -1 if the first is less than the second, and 0 if the first is equal to the second.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -47,12 +45,15 @@ console.log( "Comparison results: " + result );
 {{Notes_Section
 |Usage=
 |Notes=
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
