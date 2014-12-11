@@ -1,12 +1,12 @@
 {{Page_Title|Indexed Database API}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=Yes
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|IndexedDB is a client side storage API that persists data in a user's browser. It is a transactional, non-relational storage mechanism that saves key-value pairs in Object Stores and allows searching data using indexes.}}
 {{API_Listing}}
@@ -16,7 +16,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=IndexedDB enables you to store large amounts of data in a reliable and structured way. If you are building web applications that need to work offline the API can be useful to store, group, iterate, search, and filter JavaScript objects. 
+|Usage=IndexedDB enables you to store large amounts of data in a reliable and structured way. If you are building web applications that need to work offline the API can be useful to store, group, iterate, search, and filter JavaScript objects.
 |Notes=The IndexedDB specification supports an Asynchronous API on the window object and a Synchronous API for Webworkers. 
 
 An IndexedDB database is made up of Object Stores. Object stores can be created and JavaScript objects of any shape can be stored inside of them. Every object can have different properties, just because they are in the same Object Store it doesn't mean that they need to have the same structure. The only requirement is that the object has properties that match any explicit Keys or Indexes that you have set up on the Object store. 
