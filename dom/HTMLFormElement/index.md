@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Represents an HTML <form></form> element}}
 {{API_Object
 |Subclass_of=dom/HTMLElement
 |Overview=
