@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|Adds a record to the specified object store.}}
 {{API_Object_Method
@@ -72,14 +72,13 @@ dbOpenRequest.onsuccess = function(event){
 *The key parameter was provided but does not contain a valid key.
 |Notes====Remarks===
 This method can throw the following [[dom/DOMException|'''DOMException''']]
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Structured Cloning Algorithm
-|URL=http://www.w3.org/TR/html5/common-dom-interfaces.html#safe-passing-of-structured-data
-|Status=W3C Working Draft
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
 |Relevant_changes=
 }}
 }}
