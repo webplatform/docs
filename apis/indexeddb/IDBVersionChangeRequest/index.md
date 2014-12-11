@@ -1,14 +1,16 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Out of Date
+|Editorial notes=Deprecated; no longer in spec
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Deprecated. Previously used to change the version of the database.}}
+{{Summary_Section|'''Deprecated; no longer in spec.''' 
+Used to change the version of the database.
+}}
 {{API_Object
 |Subclass_of=
 |Overview=
@@ -22,15 +24,15 @@
 |Notes====Remarks===
 The '''IDBVersionChangeRequest''' object was returned by the [[apis/indexedDB/methods/setVersion|'''setVersion''']] method, as specified by an early draft of the [http://go.microsoft.com/fwlink/p/?LinkID{{=}}224519 Indexed Database specification].  The object and method were removed from later drafts of the specification and are no longer supported.
 To create object stores, indexes, and other IndexedDB objects, use the '''version''' parameter of the [[apis/indexedDB/methods/open|'''open''']] method of the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to  generate an [[apis/indexedDB/events/onupgradeneeded|'''onupgradeneeded''']] event.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-
-
-===Members===
-The '''IDBVersionChangeRequest''' object does not define any members.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
