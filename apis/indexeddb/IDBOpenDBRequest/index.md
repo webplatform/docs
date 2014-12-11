@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
 {{Summary_Section|Provides access to the result of a request to open a database.}}
 {{API_Object
@@ -21,12 +21,15 @@
 |Usage=
 |Notes====Remarks===
 The '''IDBOpenDBRequest''' object is returned by operations that affect database, such [[apis/indexeddb/IDBFactory/open|'''open''']] and [[apis/indexeddb/IDBFactory/deleteDatabase|'''deleteDatabase''']].
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
