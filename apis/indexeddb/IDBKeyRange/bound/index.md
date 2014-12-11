@@ -1,14 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Proposed Recommendation}}
 {{API_Name}}
-{{Summary_Section|Creates and returns a new key range with lower set to lower, lowerOpen set to lowerOpen, upper set to upper and upperOpen set to upperOpen.}}
+{{Summary_Section|Creates and returns a new key range with lower set to ''lower'', lowerOpen set to ''lowerOpen'', upper set to ''upper'' and upperOpen set to ''upperOpen''.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -56,12 +56,15 @@ var cursor = store.openCursor(range);
 {{Notes_Section
 |Usage=Raises a DOMException when either the lower or upper parameters were not passed a valid key or the lower key is greater than the upper key or the lower key and upper key match and either of the bounds are open.
 |Notes=
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=W3C IndexedDB Specification
+|URL=http://www.w3.org/TR/IndexedDB/
+|Status=W3C Proposed Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
