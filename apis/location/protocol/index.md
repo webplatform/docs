@@ -1,10 +1,10 @@
 {{Page_Title|window.location.protocol}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Sets or retrieves the protocol portion of a URL.
 The protocol the current document was accessed via (everything preceding the "//").
@@ -22,7 +22,19 @@ For example, <code>http://example.org/</code> would return the protocol <code>ht
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example assumes your document has a div element with id 'hostDiv', like this.
+|Code=// Get the protocol from window.location
+var hostpr = window.location.protocol;
+
+// Get a div element with id 'hostDiv'
+var container = document.getElementById('hostDiv');
+
+// Fill in the div element with the host protocol
+container.innerHTML = hostpr;
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -30,7 +42,12 @@ For example, <code>http://example.org/</code> would return the protocol <code>ht
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
