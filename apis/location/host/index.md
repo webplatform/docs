@@ -1,10 +1,10 @@
 {{Page_Title|window.location.host}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The host property contains the host part of the the current document URL, (hostname:port).}}
 {{API_Object_Property
@@ -40,7 +40,12 @@ container.innerHTML = host;
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
