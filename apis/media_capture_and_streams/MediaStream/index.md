@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
@@ -21,7 +21,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Capture and Streams
+|URL=http://www.w3.org/TR/mediacapture-streams/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
