@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Appends the specified media segment to the SourceBuffer.}}
 {{API_Object_Method
@@ -70,7 +70,12 @@ videoSource.removeEventListener("update", updateFunct);
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Source Extensions
+|URL=http://www.w3.org/TR/media-source/
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multimedia
