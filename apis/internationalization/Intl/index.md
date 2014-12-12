@@ -31,7 +31,7 @@
 |Specifications={{Related Specification
 |Name=Internationalization Overview
 |URL=http://www.w3.org/standards/webdesign/i18n
-|Status=
+|Status=W3C Standard
 |Relevant_changes=
 }}{{Related Specification
 |Name=Internationalization Tag Sets
