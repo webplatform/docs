@@ -1,19 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Intl object serves as a namespace for the i18n API.
-
-The Intl object is a standard built-in object that is the initial value of the Intl property of the global object.
-
-It is not possible to use the Intl object as a constructor with the new operator.
-
-It is not possible to invoke the Intl object as a function.
-}}
+{{Summary_Section|The '''Intl''' object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the ''Intl'' property of the global object. It is not possible to use the '''Intl''' object as a constructor with the ''new'' operator. It is not possible to invoke the '''Intl''' object as a function.}}
 {{API_Object
 |Subclass_of=
 |Overview=
@@ -35,7 +28,17 @@ It is not possible to invoke the Intl object as a function.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Internationalization Overview
+|URL=http://www.w3.org/standards/webdesign/i18n
+|Status=
+|Relevant_changes=
+}}{{Related Specification
+|Name=Internationalization Tag Sets
+|URL=http://www.w3.org/TR/its20/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
