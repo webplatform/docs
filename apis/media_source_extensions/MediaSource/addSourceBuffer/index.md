@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.}}
 {{API_Object_Method
@@ -72,7 +72,12 @@ QUOTA_EXCEEDED_ERR  If the mediaSource can't handle any more SourceBuffer object
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Source Extensions
+|URL=http://www.w3.org/TR/media-source/
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
