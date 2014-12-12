@@ -1,10 +1,10 @@
 {{Page_Title|window.location.assign}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
 {{Summary_Section|Navigate to a new page.}}
 {{API_Object_Method
@@ -12,7 +12,7 @@
 |Index=0
 |Name=url
 |Data type=String
-|Description=The new url to navigate to.
+|Description=The new URL to navigate to.
 |Optional=No
 }}
 |Method_applies_to=apis/location
@@ -41,7 +41,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
