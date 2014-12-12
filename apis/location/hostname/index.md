@@ -1,10 +1,10 @@
 {{Page_Title|window.location.hostname}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.}}
 {{API_Object_Property
@@ -20,7 +20,19 @@ For example, <code>http://example.org/</code> would return the hostname <code>ex
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example assumes your document has a div element with id 'hostDiv', like this.
+|Code=// Get the hostname from window.location
+var hostnm = window.location.hostname;
+
+// Get a div element with id 'hostDiv'
+var container = document.getElementById('hostDiv');
+
+// Fill in the div element with the hostname
+container.innerHTML = hostnm;
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -28,7 +40,12 @@ For example, <code>http://example.org/</code> would return the hostname <code>ex
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
