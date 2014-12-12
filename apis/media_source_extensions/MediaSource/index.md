@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=Yes
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
@@ -53,7 +53,12 @@ function setupVideo() {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Source Extensions
+|URL=http://www.w3.org/TR/media-source/
+|Status=W3C Candidate Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Multimedia
