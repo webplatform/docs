@@ -1,10 +1,10 @@
 {{Page_Title|window.location.search}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|The search property contains the query string portion of the current url.}}
 {{API_Object_Property
@@ -20,7 +20,19 @@ For example, <code>http://example.org/?page=1&mode=b#foo</code> would return the
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following example assumes your document has a div element with id 'hostDiv', like this.
+|Code=// Get the query string from window.location
+var hostqs = window.location.search;
+
+// Get a div element with id 'hostDiv'
+var container = document.getElementById('hostDiv');
+
+// Fill in the div element with the query string
+container.innerHTML = hostqs;
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -28,7 +40,12 @@ For example, <code>http://example.org/?page=1&mode=b#foo</code> would return the
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
