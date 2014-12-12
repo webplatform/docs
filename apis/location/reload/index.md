@@ -1,10 +1,10 @@
 {{Page_Title|window.location.reload}}
 {{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Refresh/reload the current page, optionally forcing a re-download of the content.}}
 {{API_Object_Method
@@ -23,7 +23,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=//force the page to reload/refresh
+window.location.reload();
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -31,7 +38,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Window Object 1.0
+|URL=http://www.w3.org/TR/Window/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
