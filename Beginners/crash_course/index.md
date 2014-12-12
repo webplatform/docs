@@ -1,7 +1,9 @@
 {{Page_Title|Part 2: A crash course in website code}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=(Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)
+|State=Ready to Use
+|Editorial notes=(Note1: Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)
+
+(Note2: I'm making it Ready to Use. Note1 still needs to be processed.)
 
 There are plenty of notes and idea but all incomplete.
 
