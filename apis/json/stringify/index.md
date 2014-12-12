@@ -1,10 +1,10 @@
 {{Page_Title|JSON.stringify}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Export a JavaScript object to a JSON string.}}
 {{API_Object_Method
@@ -40,7 +40,12 @@ JSON.stringify({
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=JSON-LD 1.0
+|URL=http://www.w3.org/TR/json-ld/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
