@@ -1,4 +1,4 @@
-{{Page_Title|Web разработка для начинающих (RUS)}}
+{{Page_Title|Web Development for Beginners}}
 {{Flags
 |State=Ready to Use
 |Editorial notes=
