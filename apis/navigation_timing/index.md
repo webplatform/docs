@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|An interface for web applications to access timing information related to navigation and elements.}}
 {{API_Listing}}
@@ -15,7 +15,7 @@
 |List_all_subpages=No
 }}
 {{Notes_Section
-|Usage=
+|Usage=See [http://www.w3.org/TR/navigation-timing-2/ Navigation Timing 2 Specification].
 |Notes=
 |Import_Notes=
 }}
