@@ -23,8 +23,7 @@
 |Language=JavaScript
 |Description=
 |Code=<nowiki>var perftime = performance.timing;
-var timeatt5 = perftime.domInteractive;
-document.write("DOM interactive: " + timeatt5 + "<br />");</nowiki>
+document.write("domInteractive: " + perftime.domInteractive + "<br />");</nowiki>
 |LiveURL=
 }}
 }}
