@@ -1,11 +1,11 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the user agent fires the DOMContentLoaded event at the Document.}}
 {{API_Object_Property
@@ -19,7 +19,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var perftime = performance.timing;
+var timeatt4 = perftime.domContentLoadedEventStart;
+document.write("DOM content load start: " + timeatt4 + "<br />");
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -28,9 +35,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|Name=W3C Navigation Timing Specification 2
+|URL=http://www.w3.org/TR/navigation-timing-2/
+|Status=W3C Working Draft
 |Relevant_changes=
 }}
 }}
