@@ -1,34 +1,57 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=possible example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|Mixed}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent receives the last byte of the current document from the server, relevant application caches or from local resources, or immediately before the transport connection is closed, whichever comes first.}}
 {{API_Object_Property
 |Property_applies_to=apis/navigation timing/PerformanceTiming
 |Read_only=Yes
 |Example_object_name=PerformanceTiming
+|Return_value_name=
 |Javascript_data_type=unsigned long
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>var perftime = performance.timing;
+document.write("responseEnd: " + perftime.responseEnd + "<br />");</nowiki>
+|LiveURL=
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Navigation Timing Specification
-|URL=http://www.w3.org/TR/navigation-timing/
-|Status=W3C Recommendation
-}}{{Related Specification
 |Name=Navigation Timing 2
 |URL=http://www.w3.org/TR/navigation-timing-2/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Navigation Timing}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -90,13 +113,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Navigation Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
