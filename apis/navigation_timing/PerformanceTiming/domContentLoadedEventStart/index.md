@@ -22,9 +22,9 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=
-|Code=var perftime = performance.timing;
+|Code=<nowiki>var perftime = performance.timing;
 var timeatt4 = perftime.domContentLoadedEventStart;
-document.write("DOM content load start: " + timeatt4 + "<br />");
+document.write("DOM content load start: " + timeatt4 + "<br />");</nowiki>
 |LiveURL=
 }}
 }}
