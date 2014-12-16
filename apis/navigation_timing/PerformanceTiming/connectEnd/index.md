@@ -23,26 +23,7 @@
 |Language=JavaScript
 |Description=
 |Code=<nowiki>var perftime = performance.timing;
-document.write("connectEnd: " + perftime.connectEnd + "<br />");
-document.write("connectStart: " + perftime.connectStart + "<br />");
-document.write("domainLookupEnd: " + perftime.domainLookupEnd + "<br />");
-document.write("domainLookupStart: " + perftime.domainLookupStart + "<br />");
-document.write("domComplete: " + perftime.domComplete + "<br />");
-document.write("domContentLoadedEventStart: " + perftime.domContentLoadedEventStart + "<br />");
-document.write("domInteractive: " + perftime.domInteractive + "<br />");
-document.write("domLoading: " + perftime.domLoading + "<br />");
-document.write("fetchStart: " + perftime.fetchStart + "<br />");
-document.write("loadEventEnd: " + perftime.loadEventEnd + "<br />");
-document.write("loadEventStart: " + perftime.loadEventStart + "<br />");
-document.write("navigationStart: " + perftime.navigationStart + "<br />");
-document.write("redirectEnd: " + perftime.redirectEnd + "<br />");
-document.write("redirectStart: " + perftime.redirectStart + "<br />");
-document.write("requestStart: " + perftime.requestStart + "<br />");
-document.write("responseEnd: " + perftime.responseEnd + "<br />");
-document.write("responseStart: " + perftime.responseStart + "<br />");
-document.write("secureConnectionStart: " + perftime.secureConnectionStart + "<br />");
-document.write("unloadEventEnd: " + perftime.unloadEventEnd + "<br />");
-document.write("unloadEventStart: " + perftime.unloadEventStart + "<br />");</nowiki>
+document.write("connectEnd: " + perftime.connectEnd + "<br />");</nowiki>
 |LiveURL=
 }}
 }}
