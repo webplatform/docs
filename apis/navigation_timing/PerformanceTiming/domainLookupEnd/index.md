@@ -20,7 +20,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=JavaScript
 |Description=
 |Code=var perftime = performance.timing;
 var timeatt1 = perftime.domainLookupStart;
