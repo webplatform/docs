@@ -22,12 +22,12 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=
-|Code=var perftime = performance.timing;
+|Code=<nowiki>var perftime = performance.timing;
 var timeatt1 = perftime.domainLookupStart;
 document.write("Lookup start: " + timeatt1 + "<br />");
 var timeatt2 = perftime.domainLookupEnd;
 document.write("Lookup end: " + timeatt2 + "<br />");
-document.write("Lookup time: " + (parseInt(timeatt2) - parseInt(timeatt1)) + "<br />");
+document.write("Lookup time: " + (parseInt(timeatt2) - parseInt(timeatt1)) + "<br />");</nowiki>
 |LiveURL=
 }}
 }}
