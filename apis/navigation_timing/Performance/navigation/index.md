@@ -1,13 +1,13 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|This attribute is defined by the '''PerformanceNavigation''' interface.}}
+{{Summary_Section|Represents the navigation information related to the browsing context. This attribute is defined by the '''PerformanceNavigation''' interface.}}
 {{API_Object_Property
 |Property_applies_to=apis/navigation_timing/Performance
 |Read_only=Yes
@@ -19,7 +19,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var perfnav = performance.navigation;
+alert(perfnav); // "[object PerformanceNavigation]"
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -28,9 +35,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Navigation Timing Specification
-|URL=http://w3c-test.org/webperf/specs/NavigationTiming/
-|Status=W3C Editor's Draft
+|Name=W3c Navigation Timing Specification
+|URL=http://www.w3.org/TR/navigation-timing/
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
