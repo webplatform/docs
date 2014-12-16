@@ -1,38 +1,59 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Possible example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
-{{Standardization_Status|Mixed}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately before the user agent starts requesting the current document from the server, or from relevant application caches or from local resources. If the transport connection fails after a request is sent and the user agent reopens a connection and resends the request, returns the corresponding values of the new request.}}
 {{API_Object_Property
 |Property_applies_to=apis/navigation timing/PerformanceTiming
 |Read_only=Yes
 |Example_object_name=PerformanceTiming
+|Return_value_name=
 |Javascript_data_type=unsigned long
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<nowiki>var perftime = performance.timing;
+document.write("requestStart: " + perftime.requestStart + "<br />");</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The PerformanceTiming interface does not include an attribute to represent the completion of sending the request, e.g., requestEnd.
 *Completion of sending the request from the user agent does not always indicate the corresponding completion time in the network transport, which brings most of the benefit of having such an attribute.
 *Some user agents have high cost to determine the actual completion time of sending the request due to the HTTP layer encapsulation.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Navigation Timing Specification
-|URL=http://www.w3.org/TR/navigation-timing/
-|Status=W3C Recommendation
-}}{{Related Specification
 |Name=Navigation Timing 2
 |URL=http://www.w3.org/TR/navigation-timing-2/
 |Status=W3C Working Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Navigation Timing}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -94,13 +115,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Navigation Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
