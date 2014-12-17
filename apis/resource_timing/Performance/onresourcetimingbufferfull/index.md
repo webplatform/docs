@@ -21,9 +21,9 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=This example uses setResourceTimingBufferSize to set an initial buffer size. It then uses onresourcetimingbufferfull to detect when the buffer is full, and executes a function that uses clearResourceTimings to clear the buffer.
-|Code=var buffsize = 100;
-setResourceTimingBufferSize(buffsize);
+|Description=This example uses clearResourceTimings and setResourceTimingBufferSize to set an initial buffer size. It then uses onresourcetimingbufferfull to detect when the buffer is full, and executes a function that uses clearResourceTimings to clear the buffer.
+|Code=performance.clearResourceTimings();
+setResourceTimingBufferSize(100);
 
 function buffFull() {
   performance.clearResourceTimings();
