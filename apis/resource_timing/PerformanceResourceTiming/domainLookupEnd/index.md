@@ -1,42 +1,53 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=possible example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 |Content=Compatibility Incomplete
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Returns the time immediately after the user agent finishes the domain name lookup for the resource.}}
 {{API_Object_Property
 |Property_applies_to=apis/resource_timing/PerformanceResourceTiming
 |Read_only=Yes
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
 |Return_value_description=DOMHighResTimeStamp
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example assumes an HTML page containing a resource such as
+<img src="https://www.webplatform.org/logo/logo-with-text.png" />
+|Code=var resources = window.performance.getEntriesByType('resource');
+alert("domainLookupEnd: " + resources[0].domainLookupEnd);
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=If a page is retrieved from an application cache, '''domainLookupEnd''' will have the same value as '''fetchStart'''.
 The value reported by the '''domainLookupEnd''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-domainlookupend
+|URL=http://www.w3.org/TR/resource-timing/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
-{{See_Also_Section}}
 {{Topics|API, Resource Timing}}
 {{External_Attribution
 |Is_CC-BY-SA=No
@@ -44,4 +55,11 @@ The value reported by the '''domainLookupEnd''' property represents the number o
 |MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
