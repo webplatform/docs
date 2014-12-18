@@ -25,7 +25,7 @@
 |Description=This example assumes an HTML page containing a resource such as
 <img src="https://www.webplatform.org/logo/logo-with-text.png" />
 |Code=var resources = window.performance.getEntriesByType('resource');
-alert("domainLookupStart: " + resources[0]domainLookupStart.);
+alert("domainLookupStart: " + resources[0].domainLookupStart);
 |LiveURL=
 }}
 }}
