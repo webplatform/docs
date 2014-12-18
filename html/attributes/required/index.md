@@ -2,7 +2,6 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-
 |Checked_Out=No
 |High-level issues=Unreviewed Import
 |Content=Compatibility Incomplete
@@ -13,6 +12,7 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/input|HTMLInputElement]]
 |Property_applies_to=dom/HTMLElement
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -20,18 +20,39 @@
 |Language=HTML
 |Description=A required input field
 |Code=Username: <input type="text" name="username" required>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The attribute can be set on text, text area, URL, email, select, checkbox, or radio button elements. It is a Boolean attribute and needs to be specified only on an element. When users hover the mouse over a required field, they’ll see a tool tip stating that it is a required field.
 The following example shows the validation attribute on a text input field.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.3.6
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-required-attribute
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (MSDN)===
+*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
+*<code>[[dom/HTMLSelectElement|HTMLSelectElement]]</code>
+*<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -97,18 +118,4 @@ The following example shows the validation attribute on a text input field.
 |Version=5.1+
 |Note=Partial support in Safari refers to lack of notice when form with required fields is attempted to be submitted.
 }}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[dom/HTMLSelectElement|HTMLSelectElement]]</code>
-*<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
