@@ -20,7 +20,14 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example assumes an HTML page containing a resource such as
+<img src="https://www.webplatform.org/logo/logo-with-text.png" />
+|Code=var resources = window.performance.getEntriesByType('resource');
+alert("fetchStart: " + resources[0].fetchStart);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
