@@ -39,7 +39,7 @@ The value reported by the '''domainLookupStart''' property represents the number
 |Specifications={{Related Specification
 |Name=W3C Resource Timing Specification
 |URL=http://www.w3.org/TR/resource-timing/
-|Status=W3C Candidate Recommendation
+|Status=W3C Working Draft
 |Relevant_changes=
 }}
 }}
