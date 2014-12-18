@@ -1,1 +1,0 @@
-#REDIRECT [[apis/navigation timing/PerformanceTiming/domContentLoadedEventEnd]]
