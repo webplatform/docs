@@ -22,7 +22,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=
+|Description=This example assumes an HTML page containing a resource such as
+<img src="https://www.webplatform.org/logo/logo-with-text.png" />
 |Code=var resources = window.performance.getEntriesByType('resource');
 alert("connectEnd: " + resources[0].connectEnd);
 |LiveURL=
