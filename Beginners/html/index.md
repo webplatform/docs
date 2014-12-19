@@ -16,76 +16,83 @@
 {{Basic Page}}
 {{:Beginners/Submenu}}
 
-== An HTML Document with Details About Each Component ==
+== Structuring Essentials ==
 
-Ever wondered the meaning of the building blocks of a webpage? Here’s a breakdown of the main components.
+If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a webpage also has lots of code running behind (or sitting idle) behind the screen.
+
+Each webpage out there on the Internet is a document. Most web documents are written using HTML, a basic markup language that we've talked about earlier.
+
+Implementing HTML skilfully is an art. You have to take care of being logical (like using a <tt>header</tt> tag for a header and not your website footer!). That's why learning to structure with best HTML practices is necessary.
+
+In this article, we're going to analyze the anatomy of an HTML document.
+
+An HTML document is essentially divided into two parts: the <tt>head</tt> and the <tt>body</tt>. The <tt>head</tt> holds important metadata about the webpage, while the body holds all the content, including all text, images, colors, and the entire screen real estate. And these two parts are enclosed inside the most senior, all-encompassing <tt>html</tt> tag, that tells the browser something like "Here starts the HTML markup. Get ready."
 
 === An Example Document in a Web Browser ===
 
 [[File:Beginners_example_html_file.png|upright|A web browser window with Hello world in red]]
 
-=== An Example Document Code ===
+== The Code ==
 
-You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it directly in a web browser — no web server needed!
+You can copy and paste this code in a new file (e.g. <tt>index.html</tt>) and open it directly in a web browser to test it live!
 
 You should see only a white page with a big "Hello world" written in red like the image above.
 
 <syntaxHighlight lang="html5">
-<!DOCTYPE html><!-- This tag is an HTML Comment -->
-<!-- ^ The DOCTYPE tag tells the browser what version 
-       of HTML it's dealing with; there are others and  
-       we want to make sure that there's no confusion. -->
-<html lang="en"><!-- We open with the html tag; the  
-       language part is optional. 
-
-       While some say it's for text encoding
-       purposes (i.e. unexpected characters), it is not for that. It's for
-       accessibility adaptive technology to know which language it should
-       adapt to while reading.
-
-       As for the text encoding, see below at "meta charset" -->
- <head><!-- Required part of every HTML document, this is  
-       where we add internal information (i.e. metadata) about  
-       the current HTML page -->
-   <meta charset="utf-8"><!-- This is a way, in HTML, to  
-                              tell the browser that we are writing text in UTF-8  
-                              so we can write Greek, Russian, English, French 
-                              and many others in one page.
-
-                              This is one of the two way to handle which set of letters
-                              to display the text. The web server handles this, but the
-                              meta charset is also helpful.
-                              
-                              In essence those two make sure the content doesn't look 
-                              like gobbledy gook when someone in Korea opens your document
-                              in a browser that defaults to Korean -->
-   <title>Example Page</title><!-- REQUIRED. This is what gets  
-                                   displayed on the web browser tab or window -->
-	<link rel="stylesheet" href="style1.css" type="text/css" media="screen">
-        <!-- ^ Will call another file, called "style1.css" that   
-               is right beside the current document. Why this    
-               syntax? The "type" is similar to the previous meta charset,    
-               it specifies the web browser to read the file as CSS. While    
-               we, humans, think that ".css" is telling, computers doesn’t    
-               need extension (this is an old story), but instead use what    
-               we call headers to tell what type of file it is.
-
-               The media attribute in the link tag tells us to WHEN to apply    
-               the stylesheet. This is what we commonly refer to as a media query.
-               The first use of media queries was to deal with how a webpage
-               would look like once printed (back in 200x) but now it's much more complete
-               to help us target screen resolutions and other aspects like screen orientation.  -->
-<style>h1 { color: red; }  /* This is a CSS comment. Inside an HTML document that has
-                              an embedded CSS part inside <style> tags, we use CSS comments. */
-</style><!-- ^ Instead of using a link tag, we can also add
-               CSS directly in a document -->
- </head><!-- Closing the head. -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8"></meta>
+   <title>Example Page</title>
+   <link rel="stylesheet" href="style1.css" type="text/css"></link>
+   <style> h1 {
+                  color: red;
+               }
+</style>
+ </head>
  <body>
-   <h1>Hello world</h1><!-- Because of the previous style tag, if you look at this
-                            webpage in a browser, the Hello world should be red -->
+   <h1>Hello world</h1>
  </body>
 </html>
 </syntaxHighlight>
+
+== The Components Elaborated ==
+
+* In HTML code, a comment begins with "<!--" and ends with "-->". ''<!--this is a comment-->.''
+
+* The <!DOCTYPE html> comment declaration isn't parsed in the main code. It's used for the browser's ease. It tells the browser what version of HTML it's dealing with; there are others and we want to make sure that there's no confusion. The latest HTML5 version needs only "html" for its identification, not something people had the delight of in early days.
+
+* We open any document with the <tt>html</tt> tag. The "lang" part, that enables assistive devices and accessibility technologies to adapt to the language early without going through a scan, is optional but recommended.
+
+* The <tt>head</tt> includes all the important metadata needed for the perfect display of the webpage as intended by the coder. It can include many types of declarations, but we're using only the basic and most needed ones.
+
+** The metadata <tt>charset</tt> stands for character set. It defines the encoding of the webpage. UTF-8 is the universally-accepted and widest character set that includes characters of almost all popular languages of the world. If you're writing UTF-8 encoded Korean text and the webpage is encoded in UTF-8 too, then no matter what computer opens the webpage, it will display the font typeface exactly as it should appear. Although there are other encoding methods too, but apparently there are no reasons to choose them over UTF-8 for general purposes.
+
+** <tt>title</tt> part is by far the most important piece of metadata. The text enclosed inside <tt>title</tt> tags is the webpage's title and is displayed on the tab, window, and page information.
+
+** The <tt>link</tt> tag is used to anchor together other documents or files that are needed for intended execution of the document. Here, we're linking an CSS file (which is clear from the declarations ''rel=stylesheet'' and ''type=text/css''). The <tt>href</tt> attribute just tells the browser the path or location of the CSS file.
+
+** Although we're already attaching an CSS file, but it's also possible to include (generally document-specific) style rules within the same HTML document. A <tt>style</tt> tag inside the <tt>head</tt> achieves this effect. Note that it's CSS code now, so we have to use CSS comments (and all other CSS conventions too). A CSS comment is like a programming language's comments. ''/* this is a CSS comment! */
+
+* The <tt>body</tt> part holds the main content. You'll find a <tt>h1</tt> level heading and some text inside it.
+
+* Finally, remember to close all tags! Modern browsers might face less frenzy but missing closing tags in older browsers like Internet Explorer 8 and earlier cause a havoc.
+
+== The Working ==
+
+The HTML document works with the power of its tags. The tags work in sync to achieve the intended effect and structure. The CSS rules, attached either via a separate document, embedded rules within the HTML document's <tt>head</tt> or by inline rules (not shown), add the style to the document.
+
+The browser downloads and reads the HTML document line-by-line from top-to-bottom and renders the needed structure that makes more sense than the code. In essence, it converts code into logical user interface, though not very graphical.
+
+Hopefully, you now understand the basic of HTML: structuring with various available tags. Indeed, there are many tags to explore. Most tags have additional attributes and a way of placement. From the HTML itself, you can serve different styles to different screens (two sets of styles to two separate devices like a portrait iPad and a landscape big monitor!), arrange your content with proper structure, and much, much more.
+
+=== Going Over to Styles ===
+
+We've created an CSS rule that translates as follows: "The h1 heading should have a red color."
+
+By default, everything is black. Here, we're overriding the default. CSS is, frankly, all about overriding the defaults. Of course, there are more defaults already set in your browser, like the font size, positioning, heights and widths, backgrounds, borders, margins, shadows, the list goes on. That all is fully customisable in a very simple way from writing good CSS rules.
+
+And that takes us to our next topic: Styling our content with CSS!
 {{Notes_Section
 |Usage=
 |Notes=
