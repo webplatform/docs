@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns a DOMHighResTimeStamp value. If the object is a mark, the value is always 0 (zero). If the object is a measure, it contains the time elapsed between the two marks.}}
+{{Summary_Section|Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).}}
 {{API_Object_Property
 |Property_applies_to=apis/user_timing/PerformanceMark
 |Read_only=No
