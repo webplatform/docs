@@ -18,7 +18,7 @@
 
 == Structuring Essentials ==
 
-If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a webpage also has lots of code running behind (or sitting idle) behind the screen.
+If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a webpage also has lots of code running (or sitting idle) behind the screen.
 
 Each webpage out there on the Internet is a document. Most web documents are written using HTML, a basic markup language that we've talked about earlier.
 
@@ -47,8 +47,8 @@ You should see only a white page with a big "Hello world" written in red like th
    <link rel="stylesheet" href="style1.css" type="text/css"></link>
    <style> h1 {
                   color: red;
-               }
-</style>
+              }
+   </style>
  </head>
  <body>
    <h1>Hello world</h1>
@@ -58,21 +58,21 @@ You should see only a white page with a big "Hello world" written in red like th
 
 == The Components Elaborated ==
 
-* In HTML code, a comment begins with "<!--" and ends with "-->". ''<!--this is a comment-->.''
+* In HTML code, a comment begins with "<nowiki><!--</nowiki>" and ends with "<nowiki>--></nowiki>". ''<nowiki><!--this is a comment--></nowiki>.''
 
-* The <!DOCTYPE html> comment declaration isn't parsed in the main code. It's used for the browser's ease. It tells the browser what version of HTML it's dealing with; there are others and we want to make sure that there's no confusion. The latest HTML5 version needs only "html" for its identification, not something people had the delight of in early days.
+* The <tt><nowiki><!DOCTYPE html></nowiki></tt> comment declaration isn't parsed in the main code. It's used for the browser's ease. It tells the browser what version of HTML it's dealing with; there are others and we want to make sure that there's no confusion. The latest HTML5 version needs only "html" for its identification, not something people had the delight of in earlier times.
 
-* We open any document with the <tt>html</tt> tag. The "lang" part, that enables assistive devices and accessibility technologies to adapt to the language early without going through a scan, is optional but recommended.
+* We open any document with the <tt>html</tt> tag. The "<tt>lang</tt>" part, that enables assistive devices and accessibility technologies to adapt to the language early without going through a scan, is optional but recommended.
 
 * The <tt>head</tt> includes all the important metadata needed for the perfect display of the webpage as intended by the coder. It can include many types of declarations, but we're using only the basic and most needed ones.
 
-** The metadata <tt>charset</tt> stands for character set. It defines the encoding of the webpage. UTF-8 is the universally-accepted and widest character set that includes characters of almost all popular languages of the world. If you're writing UTF-8 encoded Korean text and the webpage is encoded in UTF-8 too, then no matter what computer opens the webpage, it will display the font typeface exactly as it should appear. Although there are other encoding methods too, but apparently there are no reasons to choose them over UTF-8 for general purposes.
+   * The metadata <tt>charset</tt> stands for character set. It defines the encoding of the webpage. UTF-8 is the universally-accepted and widest character set that includes characters of almost all popular languages of the world. If you're writing UTF-8 encoded Korean text and the webpage is encoded in UTF-8 too, then no matter what computer opens the webpage, it will display the font typeface exactly as it should appear. Although there are other encoding methods too, but apparently there are no reasons to choose them over UTF-8 for general purposes.
 
-** <tt>title</tt> part is by far the most important piece of metadata. The text enclosed inside <tt>title</tt> tags is the webpage's title and is displayed on the tab, window, and page information.
+   * <tt>title</tt> part is by far the most important piece of metadata. The text enclosed inside <tt>title</tt> tags is the webpage's title and is displayed on the tab, window, and page information.
 
-** The <tt>link</tt> tag is used to anchor together other documents or files that are needed for intended execution of the document. Here, we're linking an CSS file (which is clear from the declarations ''rel=stylesheet'' and ''type=text/css''). The <tt>href</tt> attribute just tells the browser the path or location of the CSS file.
+   * The <tt>link</tt> tag is used to anchor together other documents or files that are needed for intended execution of the document. Here, we're linking an CSS file (which is clear from the declarations <tt><nowiki>rel=stylesheet</nowiki></tt> and <tt><nowiki>type=text/css</nowiki></tt>). The <tt>href</tt> attribute just tells the browser the path or location of the CSS file.
 
-** Although we're already attaching an CSS file, but it's also possible to include (generally document-specific) style rules within the same HTML document. A <tt>style</tt> tag inside the <tt>head</tt> achieves this effect. Note that it's CSS code now, so we have to use CSS comments (and all other CSS conventions too). A CSS comment is like a programming language's comments. ''/* this is a CSS comment! */
+   * Although we're already attaching an CSS file, but it's also possible to include (generally document-specific) style rules within the same HTML document. A <tt>style</tt> tag inside the <tt>head</tt> achieves this effect. Note that it's CSS code now, so we have to use CSS comments (and all other CSS conventions too). A CSS comment is like a programming language's comments. ''/* this is a CSS comment! */
 
 * The <tt>body</tt> part holds the main content. You'll find a <tt>h1</tt> level heading and some text inside it.
 
