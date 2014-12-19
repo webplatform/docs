@@ -50,6 +50,7 @@ Thank you for your co operation.
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
 ** Windows
+***[http://www.codelobster.com/ Codelobster]
 ***[http://notepad-plus-plus.org/ Notepad++]
 ***[https://atom.io/ Atom] <!-- Atom is now available prebuilt on Windows 7 & 8. -->
 ** Mac
