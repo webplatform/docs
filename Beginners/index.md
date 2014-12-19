@@ -15,13 +15,13 @@
 In this section, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
 * The newest browsers you are able to install. — You do not need all of them in the same time, a recent one will do!
-** All Platforms
+** Windows/Mac OS/Linux/Android (or others)
 ***[https://www.google.com/chrome Google Chrome]
 ***[http://www.mozilla.org/firefox Mozilla Firefox]
 ***[http://www.opera.com Opera]
-** Windows
+** Windows/Windows Phone
 ***[http://microsoft.com/ie Microsoft Internet Explorer]
-** Mac OS
+** Mac OS/iOS
 ***[http://www.apple.com/safari/ Apple Safari].
 
 * ''Optional'', a bleeding edge version of the browser — useful if you want to test very recent techniques
