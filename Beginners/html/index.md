@@ -1,6 +1,6 @@
 {{Page_Title|Part 4: Structuring our content with HTML}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=Quoting David Hertz original proposal:
 
 * Add more example in the body section:
