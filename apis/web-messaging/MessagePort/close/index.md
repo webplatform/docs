@@ -11,7 +11,7 @@
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web-messaging/MessagePort
-|Example_object_name=
+|Example_object_name=MessagePort
 |Return_value_name=
 |Javascript_data_type=void
 |Return_value_description=
@@ -24,7 +24,6 @@
 |Code=var msgChannel = new MessageChannel();
 msgChannel.port1.postMessage('Hello world');
 msgChannel.port1.close();
-
 |LiveURL=
 }}
 }}
