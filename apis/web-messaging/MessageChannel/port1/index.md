@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Returns the first MessagePort object.}}
+{{Summary_Section|Returns the first MessagePort object of the MessageChannel.}}
 {{API_Object_Property
 |Property_applies_to=apis/web-messaging/MessageChannel
 |Read_only=Yes
