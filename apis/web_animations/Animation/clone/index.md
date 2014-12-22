@@ -1,33 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a copy of this Animation 
-
-
-The following procedure is used when cloning the animation. 
-
-Let source be the Animation object to clone, that is, this object.
-
-Let cloned timing be a new AnimationTimingInput object whose members are assigned the value of the attribute with the same name on source.timing.
-
-The AnimationEffect is cloned depending on the type of source.effect as follows,
-
-If source.effect is an Animation object,
-Let cloned effect be the result of calling source.effect.clone().
-
-If source.effect is an EffectCallback object,
-Let cloned effect be source.effect.
-
-Otherwise,
-Let cloned effect be null.
-Return a new Animation object created by calling the Animation constructor with parameters Animation(source.target, cloned effect, cloned timing).
-
-}}
+{{Summary_Section|Creates a copy of an Animation object.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web animations/Animation
@@ -38,7 +17,17 @@ Return a new Animation object created by calling the Animation constructor with 
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates an instance of the AnimationPlayer that animates an object horizontally and vertically using computed values, and runs for 1500ms (1.5 seconds), and then creates a copy of the player for later use.
+|Code=var player = snowFlake.animate([
+  {transform: 'translate(' + snowLeft + 'px, -100%)'},
+  {transform: 'translate(' + snowLeft + 'px, ' + window.innerHeight + 'px)'}
+], 1500);
+var player2 = player.clone();
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -46,7 +35,12 @@ Return a new Animation object created by calling the Animation constructor with 
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Web Animations 1.0
+|URL=http://www.w3.org/TR/web-animations/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
@@ -56,7 +50,8 @@ Return a new Animation object created by calling the Animation constructor with 
 {{Topics|Web Animations}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|Sources=HTML5Rocks
 |MDN_link=
 |MSDN_link=
-|HTML5Rocks_link=
+|HTML5Rocks_link=http://updates.html5rocks.com/2014/05/Web-Animations---element-animate-is-now-in-Chrome-36
 }}
