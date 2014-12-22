@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -17,23 +17,50 @@
 }}
 |Method_applies_to=apis/web-storage/Storage
 |Example_object_name=object
+|Return_value_name=
 |Javascript_data_type=String
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates a new localStorage item (a timestamp) and sets it with a unique key, then executes a function, then retrieves the item's name by its key index (0 in this case, as it is the first key) and reports its value.
+|Code=window.localStorage.setItem('timestamp', (new Date()).getTime());
+doSomethingElse();
+startTimeKey = window.localStorage.key(0);
+startTime = window.localStorage.getItem(startTimeKey);
+alert("The doSomethingElse function was called at: " + startTime);
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The returned key can be any string, including the empty string.
 The order of keys may change when items are added to the collection.
 This method will throw an "Invalid Argument" exception if ''index'' is out of range.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Storage Specification
 |URL=http://dev.w3.org/html5/webstorage
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|Webstorage}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -95,13 +122,4 @@ This method will throw an "Invalid Argument" exception if ''index'' is out of ra
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Webstorage}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
