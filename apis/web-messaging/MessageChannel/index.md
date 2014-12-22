@@ -1,28 +1,54 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
 {{Summary_Section|Creates a connection (two "entangled" ports) to enable independent pieces of code (running in different browsing contexts) to communicate directly.}}
-{{API_Object}}
+{{API_Object
+|Subclass_of=
+|Overview=
+}}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var msgChannel = new MessageChannel();
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=When you create a new '''MessageChannel''' object, it has two connected '''MessagePort''' objects ('''port1''' and '''port2'''). One of the ports is sent to another window or frame, and messages can be sent and received without the repeated origin checking that is needed when using '''window.postMessage'''. Validation of the origin of a port and messages need only be done when a port is sent to windows other than the one that created them.  '''MessagePort''' simplifies the messaging process by sending and receiving messages through two (and only those two) connected ports.
+
 Messages are posted between the ports using '''postMessage'''. As the ports will only accept messages between the connected ports, no further validation is required once the connection is established. '''MessageChannel''' enables asynchronous communication between '''IFrameElements''', cross-domain windows, or same page communications.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Messaging Specification
 |URL=http://www.w3.org/TR/webmessaging/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Web Messaging}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -84,13 +110,4 @@ Messages are posted between the ports using '''postMessage'''. As the ports will
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Web Messaging}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
