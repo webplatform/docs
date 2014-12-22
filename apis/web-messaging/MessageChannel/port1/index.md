@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -11,21 +11,47 @@
 {{API_Object_Property
 |Property_applies_to=apis/web-messaging/MessageChannel
 |Read_only=Yes
+|Example_object_name=
+|Return_value_name=
+|Javascript_data_type=
 |Return_value_description=MessagePort
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates a new message channel and uses one of the ports to send a message, which will be received by the other port.
+|Code=var msgChannel = new MessageChannel();
+msgChannel.port1.postMessage('Hello world');
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=Communication channels in this mechanism are implemented as two-way pipes, with a port at each end. Messages sent in one port are delivered at the other port, and vice versa. Messages are asynchronous, and delivered as DOM events.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Messaging Specification
 |URL=http://www.w3.org/TR/webmessaging/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Web Messaging}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -87,13 +113,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Web Messaging}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
