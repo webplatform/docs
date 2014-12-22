@@ -38,9 +38,9 @@ If you look in a typical magazine you’ll see images illustrating the articles,
  
 Although floating was intended for use with any elements, designers most commmonly use it to achieve multi-column layouts without having to abuse table markup.
  
-== Some boring theory ==
+== How It Works ==
  
-In order to explain how floating works, you need to peek under the bonnet and look at how a web browser renders an HTML/CSS document. Don’t worry, I’ll be brief.
+In order to explain how floating works, you need to peek under the hood and look at how a web browser renders an HTML/CSS document. Don’t worry, I’ll be brief.
  
 Each visible HTML element generates a box which is then rendered. If you’re viewing the document on a computer screen or a mobile phone, the boxes are rendered on the display. If you’re printing the document, the boxes are rendered on paper. If you’re using a screen reader, the content of the boxes is rendered aurally, as speech.
  
