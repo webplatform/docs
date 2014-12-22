@@ -1,32 +1,58 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|Begins dispatching messages received on the port.}}
+{{Summary_Section|Begins dispatching messages received on the port. See Notes.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/web-messaging/MessagePort
+|Example_object_name=MessagePort
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates a new message channel and uses one of the ports to send a message, which will be received by the other port, and then explicitly starts sending the message.
+|Code=var msgChannel = new MessageChannel();
+msgChannel.port1.postMessage('Hello world');
+msgChannel.port1.start();
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The '''start''' method is called implicitly by when an  event handler function is assigned to the '''onmessage''' property.
 In Internet Explorer 10, the start method is also called implicitly when a message event is registered using the '''addEventListener''' method.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Messaging Specification
 |URL=http://www.w3.org/TR/webmessaging/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Web Messaging}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -88,13 +114,4 @@ In Internet Explorer 10, the start method is also called implicitly when a mess
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Web Messaging}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
