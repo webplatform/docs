@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Objects that may be the target of an [[apis/web_animations/Animation|'''Animation''']] implement the Animatable interface.}}
 {{API_Object
@@ -37,9 +37,9 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=Web Animations  Editor’s Draft
-|URL=http://w3c.github.io/web-animations/
-|Status=
+|Name=Web Animations 1.0
+|URL=http://www.w3.org/TR/web-animations/
+|Status=W3C Working Draft
 |Relevant_changes=
 }}
 }}
