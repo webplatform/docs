@@ -24,7 +24,7 @@ Throws a ''DataCloneError'' if ''transfer'' array contains duplicate objects or 
 |Optional=Yes
 }}
 |Method_applies_to=apis/web-messaging/MessagePort
-|Example_object_name=
+|Example_object_name=MessagePort
 |Return_value_name=
 |Javascript_data_type=void
 |Return_value_description=
