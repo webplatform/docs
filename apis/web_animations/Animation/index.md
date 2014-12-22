@@ -1,10 +1,10 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=
 |Checked_Out=Yes
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Animations are represented by the Animation interface.}}
 {{API_Object
@@ -12,7 +12,7 @@
 |Overview=
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -21,7 +21,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Web Animations 1.0
+|URL=http://www.w3.org/TR/web-animations/
+|Status=W3C Working Draft
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
