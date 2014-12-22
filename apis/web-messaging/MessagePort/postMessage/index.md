@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -24,21 +24,46 @@ Throws a ''DataCloneError'' if ''transfer'' array contains duplicate objects or 
 |Optional=Yes
 }}
 |Method_applies_to=apis/web-messaging/MessagePort
+|Example_object_name=
+|Return_value_name=
 |Javascript_data_type=void
+|Return_value_description=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=This example creates a new message channel and uses one of the ports to send a message, which will be received by the other port.
+|Code=var msgChannel = new MessageChannel();
+msgChannel.port1.postMessage('Hello world');
+|LiveURL=
+}}
 }}
 {{Notes_Section
+|Usage=
 |Notes=When you create a new '''MessageChannel''' object, it has two connected '''MessagePort''' objects that can only send and receive messages between them.  If the ''ports'' parameter is supplied but contains errors, an '''InvalidStateError''' exception is thrown. Sending a message containing an un-supported object (such as a function), a '''DataCloneError''' exception is thrown.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Messaging Specification
 |URL=http://www.w3.org/TR/webmessaging/
 |Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, Web Messaging}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,13 +125,4 @@ Throws a ''DataCloneError'' if ''transfer'' array contains duplicate objects or 
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Web Messaging}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
 }}
