@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Copies the current frequency data into the passed unsigned byte array. If the array has fewer elements than the [[apis/webaudio/AnalyserNode/frequencyBinCount|frequencyBinCount]], the excess elements are dropped.}}
+{{Summary_Section|Copies the current frequency data into the passed unsigned byte array. If the array has fewer elements than the [[apis/webaudio/AnalyserNode/frequencyBinCount|frequencyBinCount]], the excess elements will be dropped.}}
 {{API_Object_Method
 |Parameters={{Method Parameter
 |Index=0
@@ -32,7 +32,7 @@ var analyser = audioCtx.createAnalyser();
 // Uint8Array should be the same length as the frequencyBinCount 
 var dataArray = new Uint8Array(analyser.frequencyBinCount);
 // fill the Uint8Array with data returned from getByteFrequencyData()
-analyser.getByteFrequencyData(myDataArray); 
+analyser.getByteFrequencyData(myDataArray);
 |LiveURL=
 }}
 }}
