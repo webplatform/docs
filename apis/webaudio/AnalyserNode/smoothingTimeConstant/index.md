@@ -1,30 +1,57 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|A value from 0 to 1 where 0 represents no time averaging with the last analysis frame.}}
+{{Summary_Section|A value from 0 to 1 representing the averaging constant with the last analysis frame. Default is 0.8.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AnalyserNode
 |Read_only=No
 |Example_object_name=AnalyserNode
+|Return_value_name=
 |Javascript_data_type=Number
+|Return_value_description=
+|Example_value_name=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var audioCtx = new AudioContext();
+var analyser = audioCtx.createAnalyser();
+analyser.smoothingTimeConstant = 1;
+|LiveURL=
 }}
-{{Notes_Section}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
+|Name=Web Audio API
+|URL=http://webaudio.github.io/web-audio-api/
 |Status=W3C Editor's Draft
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|API, WebAudio}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=Yes
@@ -32,12 +59,4 @@
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
