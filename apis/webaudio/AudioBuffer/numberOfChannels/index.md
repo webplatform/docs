@@ -23,7 +23,7 @@
 |Language=JavaScript
 |Description=
 |Code=var myArrayBuffer = audioCtx.createBuffer(2, frameCount, audioCtx.sampleRate);
-myArrayBuffer.numberOfChannels;
+var nc = myArrayBuffer.numberOfChannels;
 |LiveURL=
 }}
 }}
