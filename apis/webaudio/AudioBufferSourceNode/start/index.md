@@ -39,12 +39,14 @@
 |Examples={{Single Example
 |Language=JavaScript
 |Description=Play the entire sound from the beginning.
-|Code=source.start();
+|Code=var source = audioCtx.createBufferSource();
+source.start();
 |LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Play, after a 1 second delay, starting at second 3, the next 10 seconds of the sound (seconds 3 through 12).
-|Code=source.start(1,3,10);
+|Code=var source = audioCtx.createBufferSource();
+source.start(1,3,10);
 |LiveURL=
 }}
 }}
