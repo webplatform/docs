@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. This must be a power of two in the range 32-2048. Defaults to 2048.}}
+{{Summary_Section|The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.}}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AnalyserNode
 |Read_only=Yes
@@ -35,8 +35,8 @@ analyser.fftSize = 2048;
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
+|Name=Web Audio API
+|URL=http://webaudio.github.io/web-audio-api/
 |Status=W3C Editor's Draft
 |Relevant_changes=
 }}
