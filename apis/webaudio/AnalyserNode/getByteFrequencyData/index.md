@@ -29,8 +29,10 @@
 |Description=
 |Code=var audioCtx = new AudioContext();
 var analyser = audioCtx.createAnalyser();
-var dataArray = new Uint8Array(analyser.frequencyBinCount); // Uint8Array should be the same length as the frequencyBinCount 
-analyser.getByteFrequencyData(myDataArray); // fill the Uint8Array with data returned from getByteFrequencyData()
+// Uint8Array should be the same length as the frequencyBinCount 
+var dataArray = new Uint8Array(analyser.frequencyBinCount);
+// fill the Uint8Array with data returned from getByteFrequencyData()
+analyser.getByteFrequencyData(myDataArray); 
 |LiveURL=
 }}
 }}
