@@ -49,7 +49,7 @@ audioCtx.decodeAudioData(audioData, function(buffer) { ... };);
 }}
 {{Notes_Section
 |Usage=
-|Notes=The older callback-based system is still in the spec for legacy reasons and is currently supported across browsers that support the Web Audio API is to be superceded by the newer promise-based syntax, which is in the latest spec, but not yet supported by any browser.
+|Notes=The older callback-based system is still in the spec for legacy reasons and is currently supported across browsers that support the Web Audio API. It is to be superceded by the newer promise-based syntax, which is in the latest spec, but not yet supported by any browser.
 
 See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].
 |Import_Notes=
