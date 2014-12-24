@@ -20,7 +20,7 @@
 |Example_object_name=AudioContext
 |Return_value_name=
 |Javascript_data_type=
-|Return_value_description=
+|Return_value_description=DelayNode
 }}
 {{Examples_Section
 |Not_required=No
