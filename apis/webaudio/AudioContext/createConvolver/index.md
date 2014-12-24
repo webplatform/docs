@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a [[apis/webaudio/ConvolverNode|ConvolverNode]].}}
+{{Summary_Section|Creates a [[apis/webaudio/ConvolverNode|ConvolverNode]], commonly used to add reverb to audio.}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
