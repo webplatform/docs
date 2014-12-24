@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Editor's Draft}}
 {{API_Name}}
-{{Summary_Section|Creates a [[apis/webaudio/PannerNode|PannerNode]].}}
+{{Summary_Section|Creates a [[apis/webaudio/PannerNode|PannerNode]], used to spatialize an incoming audio stream in 3D space..}}
 {{API_Object_Method
 |Parameters=
 |Method_applies_to=apis/webaudio/AudioContext
