@@ -3,7 +3,7 @@
 |State=Almost Ready
 |Editorial notes=Truncate content that is duplicate.
 
-Take a look at content in scratch space in https://docs.webplatform.org/wiki/TEST:beginners 
+Look at scratchpad https://docs.webplatform.org/wiki/TEST:beginners 
 
 Also, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web
 |Checked_Out=No
