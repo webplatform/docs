@@ -19,7 +19,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=<syntaxhighlight lang="javascript">
+socket.onclose = function(event) {
+  var wasClean = event.wasClean;
+};
+</syntaxhighlight>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
