@@ -3,7 +3,6 @@
 |State=Almost Ready
 |Editorial notes=Needs example
 |Checked_Out=No
-|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -19,7 +18,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=// receive data sent from the server
+ajaxRequest.onreadystatechange = function(){
+	if(ajaxRequest.readyState == 4){
+		var responseText = ajaxRequest.responseText;
+	}
+}
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
