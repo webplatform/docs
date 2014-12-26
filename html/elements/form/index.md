@@ -11,55 +11,55 @@
 |DOM_interface=dom/HTMLFormElement
 |Content====Common Attributes===
 
-{|
+{{{!}}
 ! Name
 ! Value
 ! Purpose
 ! Example
 ! Validity
-|-
-| [[html/attributes/accept-charset|'''accept-charset''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/action |'''action''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/autocomplete|'''autocomplete''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/method|'''method''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/name|'''name''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/novalidate|'''novalidate''']]
-|
-|
-|
-|
-|-
-| [[html/attributes/target|'''target''']]
-|
-|
-|
-|
-|}
+{{!}}-
+{{!}} [[html/attributes/accept-charset|'''accept-charset''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/action |'''action''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/autocomplete|'''autocomplete''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/method|'''method''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/name|'''name''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/novalidate|'''novalidate''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}-
+{{!}} [[html/attributes/target|'''target''']]
+{{!}}
+{{!}}
+{{!}}
+{{!}}
+{{!}}}
 }}
 {{Examples_Section
 |Not_required=No
