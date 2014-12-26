@@ -3,24 +3,68 @@
 |State=In Progress
 |Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
 |Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The '''form''' element (&lt;form&gt;) defines an HTML form for user input, subsequently to be submitted to a website or service.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFormElement
-|Content=Internationalization topics related to the <code>form</code> element:
-* [http://www.w3.org/International/techniques/authoring-html#formencoding Handling encoding issues in forms]
-* [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls]
-* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
-* [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
-* [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
+|Content====Common Attributes===
+
+{|
+! Name
+! Value
+! Purpose
+! Example
+! Validity
+|-
+| [[html/attributes/accept-charset|'''accept-charset''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/action |'''action''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/autocomplete|'''autocomplete''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/method|'''method''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/name|'''name''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/novalidate|'''novalidate''']]
+|
+|
+|
+|
+|-
+| [[html/attributes/target|'''target''']]
+|
+|
+|
+|
+|}
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=This example uses the '''form''' element to create a basic form containing a text entry box for the user's name and a select control for choosing a favorite ice cream flavor. When the user clicks the '''Submit''' button, the form sends the data to the URL listed in the [[html/attributes/action|'''action''']] attribute. The value of the [[html/attributes/method|'''method''']] attribute determines how to send the data to the server.
 |Code=&lt;html&gt;
     &lt;form action{{=}}"http://example.microsoft.com/sample.asp" method{{=}}"post"&gt;
@@ -34,9 +78,11 @@
         &lt;p&gt;&lt;input type{{=}}"submit"/&gt;&lt;/p&gt;
     &lt;/form&gt;
 &lt;/html&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. Data submitted through a form using the HTTP protocol is not encrypted and can be read and possibly tampered with in transmission. The Secure Hypertext Transfer Protocol (HTTPS) can provide more secure data transmission. You should review the Security Considerations: Dynamic HTML before continuing.
 Forms enable client-side users to submit data to a server in a standardized format. The creator of a '''form''' designs it to collect the required data using a variety of controls, such as '''input''' or '''select'''. Users viewing the '''form''' fill in the data and then click the '''Submit''' button to send the data to the server. A script on the server then processes the data.
@@ -44,12 +90,7 @@ Each control element's [[html/attributes/name (frames)|'''name''']] attribute mu
 When the focus is on a control in a form and the user presses ESC, the value of the control reverts to the last value. The form resets if the user presses ESC again.
 If the form includes only one text box and the user presses ENTER, the [[dom/events/submit|'''onsubmit''']] event fires. If the form has an '''input type{{=}}submit''' element, it will appear as a button with a dark border, which indicates the user can press ENTER to submit the form.
 Windows Internet Explorer 8 and later. The value of the [[html/attributes/action|'''action''']] attribute depends on the current document compatibility mode.  In addition, the '''form object''' now supports [[html/attributes/enctype|'''enctype''']] as a DOM attribute.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 17.3
-
-
-===HTML information===
+|Import_Notes====HTML information===
 {| class="wikitable"
 |-
 !Closing Tag
@@ -824,18 +865,31 @@ This property is not supported for Metro style apps using JavaScript.
 |Retrieves the element's unique number.
 |}
  
+
+===Internationalization conserns===
+Internationalization topics related to the <code>form</code> element:
+* [http://www.w3.org/International/techniques/authoring-html#formencoding Handling encoding issues in forms]
+* [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls]
+* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
+* [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
+* [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=HTML5
+|URL=http://www.w3.org/TR/html5/forms.html#the-form-element
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.3
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[http://msdn.microsoft.com/en-us/library/ms971057.aspx 1,001 Ways to Get Input from Web Users]</code>
 }}
@@ -847,6 +901,16 @@ This property is not supported for Metro style apps using JavaScript.
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
 }}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+
+
+
 }
 
 
