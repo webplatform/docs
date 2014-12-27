@@ -23,7 +23,12 @@
 }}
 {{Notes_Section
 |Usage=
-|Notes=
+|Notes=// The following example uses the XML DOM to display the response body
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/books.xml", false);
+xhr.send();
+console.log(xhr.responseXML.xml);
 |Import_Notes=
 }}
 {{Related_Specifications_Section
