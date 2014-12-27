@@ -19,7 +19,19 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=// The following script checks the status to determine if the request was successful
+
+oReq.open("GET", "http://localhost/test.xml", false);
+oReq.send()
+if (oReq.statusText == "OK")
+   console.log(oReq.responseText);
+else
+   console.log(oReq.statusText);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
