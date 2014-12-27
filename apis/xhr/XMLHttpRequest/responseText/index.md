@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
+|State=Ready to Use
 |Editorial notes=Needs example
 |Checked_Out=No
 }}
@@ -22,12 +22,12 @@
 |Language=JavaScript
 |Description=
 |Code=// receive data sent from the server
-ajaxRequest.onreadystatechange = function(){
-	if(ajaxRequest.readyState == 4){
-		var responseText = ajaxRequest.responseText;
+
+xhr.onreadystatechange = function(){
+	if(xhr.readyState == 4){
+		var responseText = xhr.responseText;
 	}
 }
-
 |LiveURL=
 }}
 }}
