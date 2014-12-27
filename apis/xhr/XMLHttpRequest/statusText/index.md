@@ -23,13 +23,13 @@
 |Language=JavaScript
 |Description=
 |Code=// The following script checks the status to determine if the request was successful
-
-oReq.open("GET", "http://localhost/test.xml", false);
-oReq.send()
-if (oReq.statusText == "OK")
-   console.log(oReq.responseText);
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/test.xml", false);
+xhr.send()
+if (xhr.statusText == "OK")
+   console.log(xhr.responseText);
 else
-   console.log(oReq.statusText);
+   console.log(xhr.statusText);
 |LiveURL=
 }}
 }}
