@@ -19,16 +19,21 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=// The following example uses the XML DOM to display the response body
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=// The following example uses the XML DOM to display the response body
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost/books.xml", false);
 xhr.send();
 console.log(xhr.responseXML.xml);
+|LiveURL=
+}}
+}}
+{{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes=
 }}
 {{Related_Specifications_Section
