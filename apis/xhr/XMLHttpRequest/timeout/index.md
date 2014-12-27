@@ -19,7 +19,18 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=// The following example sets the timeout property
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/books.xml", true);
+xhr.timeout = 10000;
+xhr.ontimeout = timeoutFired;
+xhr.send(null);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
