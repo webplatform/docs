@@ -81,8 +81,6 @@ Read [[concepts/internet and web/the web standards model|The web standards model
 
 Just to get you introduced to these languages, we've added descriptions and examples of them below. Enjoy!
 
-== What are the languages of the Web like? ==
-
 <p>'''HyperText Markup Language (HTML)''': This language is used to manufacture and outline '''the content''' of your webpage. It gives your webpage a title and content like regular text, styled text such as bold or italics, paragraphs, lists, tables, and more. It also gives your webpages links to other webpages and allows for embedding of images (by specifying URLs or local directories). HTML is made of '''elements''' specified by '''tags''', like <code>&lt;div&gt;</code> and <code>&lt;p&gt;</code> and these elements have '''attributes''' that can change the elements and be used by CSS or JavaScript. A webpage can be simply HTML, but such a webpage would be rather plain and probably unattractive, so the languages of CSS and JavaScript are used.</p>
 
 <p>[INSERT IMAGE OF HTML ELEMENTS AND WHAT THEY CREATE ON THE RENDERED PAGE, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE OR WALL JUST SHOWING THE BARE ROOF AND BRICKWORK] </p>
@@ -100,7 +98,7 @@ results in the following:
 <p id = "thisIsAnAttribute">It was a dark and stormy night. Somewhere, an owl hooted.</p>
 </div>
 
-<p>'''Cascading Style Sheets (CSS)''': This language is used to style and position the HTML content. It gives your webpage a clean look and more professionalism and a better user interface along with it: It can be used to center your elements, give them background, give them color, putting them into place, and making them how they should be. Note that CSS '''rules''' or styles can only be applied on an HTML element, by "selecting" them via '''selectors''', so if there's no HTML element, CSS cannot work.</p>
+'''Cascading Style Sheets (CSS)''': This language is used to style and position the HTML content. It gives your webpage a clean look and more professionalism and a better user interface along with it: It can be used to center your elements, give them background, give them color, putting them into place, and making them how they should be. Note that CSS '''rules''' or styles can only be applied on an HTML element, by "selecting" them via '''selectors''', so if there's no HTML element, CSS cannot work.
 
 <p>[INSERT IMAGE OF CSS AND HTML BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT, SOMETHING LIKE I'VE SHOWN BELOW. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE HOUSE NOW DECORATED WITH PAINT AND NICE COLOURED TILES?] </p>
 
@@ -122,7 +120,7 @@ This results in the following:
 
 <p style="margin-bottom:50px;">Note that there are three parts of a CSS rule. First, we use the selector to select a specific element (<code>h1</code>). We then specify arguments. The properties, or attributes are needed to tell the browser what exactly is being manipulated (<code>color</code>) and finally the value of that property is specified (<code>blue</code>). As with other programming languages, the arguments part is placed within curly braces (<code>{these}</code>) and each argument is terminated by a semi-colon (<code>;</code>).</p>
 
-<p>'''JavaScript''': This language is used to add dynamic functionality to your webpage. It provides the majority of the interactions in webpages, aside from simple things like text-boxes (that are from HTML). JavaScript leads to things happening to the webpage when things are clicked or a key is pressed. JavaScript is a scripting language that is <i>very</i> powerful and actually makes webpages a bit dangerous, so be careful with it! Even though JavaScript was originally for the web, JavaScript is actually used in lots of things other than it, but this course will focus on its application to the web.</p>
+'''JavaScript''': This language is used to add dynamic functionality to your webpage. It provides the majority of the interactions in webpages, aside from simple things like text-boxes (that are from HTML). JavaScript leads to things happening to the webpage when things are clicked or a key is pressed. JavaScript is a scripting language that is <i>very</i> powerful and actually makes webpages a bit dangerous, so be careful with it! Even though JavaScript was originally for the web, JavaScript is actually used in lots of things other than it, but this course will focus on its application to the web.
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?]</p>
 
