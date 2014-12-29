@@ -12,24 +12,33 @@ Also, maybe get in touch with CommonCraft and ask to embed their video about the
 {{Basic Page}}
 {{:Beginners/Submenu}}
 
-==Who is this for?==
+== Course Introduction ==
 
-Our beginner’s guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
+=== Who is this for? ===
+
+Our beginner’s guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web design and development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
 
 This particular course's approach is different from most other web development introductory courses because it tries to give you important background information of how the web works. Most web development courses avoid this, because they're not actually interested in telling you how the bricks are made: They just want you to start building the house. Although a time-saving exercise, we think that you should know the basics of how the web works if you're going to be a web developer.
 
-Also, this course is for front-end web developers. That means we teach you how the front, or client side of the web works, not the processing, or back, side. We teach you how to create web pages with languages like HTML, CSS, and JavaScript (which we'll explain later). This course is not for back-end web developers, which are developers that host web servers (which we'll also explain later).
+Also, this course is for front-end web developers. That means we teach you how the front, or client side of the web works, not the processing, or back, side. We teach you how to create webpages with languages like HTML, CSS, and JavaScript (which we'll explain later). This course is not for back-end web developers, who are responsible for hosting web servers (which we'll also explain later).
 
 If any term is hard to understand, kindly refer to the [[Beginners/glossary|glossary for beginners]]. Happy reading!
 
-== What is the Internet and the web, and how do they work? ==
+=== What it will teach, and what it won't ===
 
-The Internet is a global network of networks of computers that connects computers from all around the world to each other. The World Wide Web is a virtually interconnected spiderweb-like nexus (and thus the name) of information connected to each other by '''links'''. In short, the World Wide Web is a part of the Internet. There are other services under the Internet too, like emails, fax, FTP, microblogging, instant messaging, etc.. The links point to other websites and the Internet is used to get there. Most computers in the network merely consume information from other places (also know as '''clients'''), whereas others can consume information from other places and send information to other computers that ask for it ('''servers''').
+This course will teach you enough about web design and front-end development that you'll be free to explore on your own and experiment with the technologies that make the web work. In short, you'll be confident and comfortable with the usage and coding of web technologies like HTML, CSS, and JavaScript. Further, it will make you familiar with the structuring, planning, and testing of websites, offline or online.
 
+This course won't teach you about back-end processing and server-side scripting. Also, this course specifically won't go in much details of other interesting and efficient web technologies like SVGs, accessibility best practices, or JavaScript APIs. For learning them, you'll have to visit our [[Main_Page|main page]].
+
+== What is the web? ==
+
+The Internet is a global network of networks of computers that connects computers from all around the world. The World Wide Web, or web, is a virtually interconnected spiderweb-like nexus (and thus the name) of information connected to each other by '''links'''. In short, the World Wide Web is a part of the Internet. There are other services under the Internet too, like emails, fax, FTP, microblogging, instant messaging, etc..
+
+The links point to other websites and the Internet is used to get there. Most computers in the network merely consume information from other places (also know as '''clients'''), whereas others can consume information from other places and send information to other computers that ask for it ('''servers''').
 
 The main components which the web depends on are:
 
-* '''Web Clients''': Computers that get information from web servers. The most common form of web clients are web browsers which have a good user interface and do not require technical information to use. Browsers make the web open. Nowadays, a client can be a smartphone application, a tablet browser, a built-in Android surfer for a television, a reputed web browser on a laptop, and so on.
+* '''Web Clients''': Computers that get information from web servers. The most common form of web clients are web browsers which have a good user interface and do not require technical information to use. Browsers make the web open. Nowadays, a client can be a smartphone application, a tablet browser, a built-in Android surfer for a television, a screen reader, a browser on a laptop, and so on.
 * '''Web Servers''': Computers that serve information to web clients on requests.
 * '''DNS''': Stands for "Domain Name System." A set of servers communicating together databases of Internet’s way to refer to another computer into human words. DNS turns a domain name like "en.wikipedia.org" into an IP address ("208.80.154.224:80" in this case), where the server is located.
 * '''Hypertext''': The text of the web, what web servers give to web clients. The text of the web includes many things and has changed over time, but there are two important aspects to the text of the web we shall mention below. You can read a Wikipedia article on hypertext [http://en.wikipedia.org/wiki/Hypertext here].
@@ -44,7 +53,23 @@ Read [[concepts/internet and web/how does the internet work|How does the Interne
 
 This may sound complicated, but most of this is done transparently, without you having to worry about it. As a beginning web developer, the part you have to worry about is the making of the actual chocolate: That is, the website's content. You don't need to worry about the packaging that is HTTP because web servers deal with that. You just need to make the chocolate because you're the chocolate maker, not the delivery van driver. Have fun!
 
-==What are websites made of?==
+== Why is the web such a good thing and why should you learn? ==
+
+The web is the future and the next human revolution. Soon, we'll see smart devices taking over our traditional world. Our televisions, phones, computers, and even other devices like refrigerators, cars, printers, gaming consoles, are going to be integrated seamlessly. The web is going to do that.
+
+Wearable technology, robotics, activity synchronization, fitness tracking, these realms cannot be fully explored without the presence of web. For starters, data fed into wearable technologies is web-first, your activity synchronization is already making your life easier with concepts like browser bookmarks, calendar, contacts, and email sync, etc.
+
+Under these conditions, the web is going to get very big. Desktops aren't the web. Desktops, laptops, smartphones, and tablets are the web. But, we never know what the web will be like. That's what makes web so good to learn and know about.
+
+== What is accessibility and why is it important ==
+
+Accessibility is the practice for designing the web for all, not just the visual browsers. There are many devices that aren't like the traditional pieces of software, like screen readers, Braille output, magnifiers, joysticks, etc. As Jennifer Robbins puts it, 
+
+<blockquote>Although intended for users with disabilities such as poor vision or limited mobility, the techniques and strategies developed for accessibility also benefit other users with less-than-optimum browsing experiences, such as handheld devices, or traditional browsers over slow modem connections or with the images and JavaScript turned off. Accessible sites are also more effectively indexed by search engines such as Google. The extra effort in making your site accessible is well worth the effort.</blockquote>
+
+It's common good practice and a human expression to make our websites accessible.
+
+== Bricks of websites: HTML, CSS, JavaScript ==
 
 Websites are generally documents. In fact, you can create a website from a simple text editor. However, these documents use special markup for different elements, and one can further enhance their looks by styling those elements. For now, you don't have to worry about the style part.
 
@@ -56,7 +81,7 @@ Read [[concepts/internet and web/the web standards model|The web standards model
 
 Just to get you introduced to these languages, we've added descriptions and examples of them below. Enjoy!
 
-==What are the languages of the Web like?==
+== What are the languages of the Web like? ==
 
 <p>'''HyperText Markup Language (HTML)''': This language is used to manufacture and outline '''the content''' of your webpage. It gives your webpage a title and content like regular text, styled text such as bold or italics, paragraphs, lists, tables, and more. It also gives your webpages links to other webpages and allows for embedding of images (by specifying URLs or local directories). HTML is made of '''elements''' specified by '''tags''', like <code>&lt;div&gt;</code> and <code>&lt;p&gt;</code> and these elements have '''attributes''' that can change the elements and be used by CSS or JavaScript. A webpage can be simply HTML, but such a webpage would be rather plain and probably unattractive, so the languages of CSS and JavaScript are used.</p>
 
@@ -101,7 +126,7 @@ This results in the following:
 
 <p>[INSERT IMAGE OF CSS AND HTML AND JAVASCRIPT BEING ADDED TOGETHER TO PRODUCE SOME STYLED TEXT WITH SOME FUNCTIONALITY, LIKE A POPUP WINDOW OVER THE TOP OF THE PARAGRAPH SHOWING HOW MANY CHARACTERS THE PARAGRAPH CONTAINS. ALSO INCLUDE HOUSE IMAGE THAT BUILDS ON THE LAST ONE, SHOWING THE DECORATED HOUSE WITH SOME COOL FUNCTIONALITY ADDED. HOW ABOUT A SATELLITE DISH ON THE ROOF, AND A WALL MOUNTED TV SEEN THROUGH THE WINDOW?]</p>
 
-Because JavaScript is so dangerous, the wiki editor doesn't allow any JavaScript code in the wiki article, so we can't demonstrate it to you. However, think about you clicking the above paragraph and then new text replacing the old text. That's what the following JavaScript code does:
+Because JavaScript is pretty dangerous, the wiki editor doesn't allow any JavaScript code in the wiki article, so we can't demonstrate it to you. However, think about you clicking the above paragraph and then new text replacing the old text. That's what the following JavaScript code does:
 
 <pre>var paragraph = document.getElementById("thisIsAnAttribute");
 paragraph.onclick = function() {
