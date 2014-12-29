@@ -40,7 +40,7 @@ oscillator.disconnect();
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=W3C Web Audio API
-|URL=httpshttp://webaudio.github.io/web-audio-api///dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
+|URL=http://webaudio.github.io/web-audio-api/
 |Status=W3C Editor's Draft
 |Relevant_changes=
 }}
