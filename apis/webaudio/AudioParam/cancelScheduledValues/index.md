@@ -28,7 +28,7 @@
 |Language=JavaScript
 |Description=
 |Code=var gainNode = audioCtx.createGain();
-gainNode.gain.cancelScheduledValues(audioCtx.currentTime);
+gainNode.gain.cancelScheduledValues(audioCtx.currentTime); //"gain" is the AudioParam
 |LiveURL=
 }}
 }}
