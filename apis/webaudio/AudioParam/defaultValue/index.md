@@ -23,7 +23,7 @@
 |Language=JavaScript
 |Description=
 |Code=var gainNode = audioCtx.createGain();
-var gainDefault = gainNode.gain.defaultValue; //"gain" is the AudioParam
+var gainDefault = gainNode.gain.defaultValue; //'gain' is the AudioParam
 |LiveURL=
 }}
 }}
