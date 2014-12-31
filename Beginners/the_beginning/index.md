@@ -59,7 +59,9 @@ The web is the future and the next human revolution. Soon, we'll see smart devic
 
 Wearable technology, robotics, activity synchronization, fitness tracking, these realms cannot be fully explored without the presence of web. For starters, data fed into wearable technologies is web-first, your activity synchronization is already making your life easier with concepts like browser bookmarks, calendar, contacts, and email sync, etc.
 
-Under these conditions, the web is going to get very big. Desktops aren't the web. Desktops, laptops, smartphones, and tablets are the web. But, we never know what the web will be like. That's what makes web so good to learn and know about.
+Under these conditions, the web is going to get very big. Desktops aren't the web. Desktops, laptops, smartphones, and tablets are the web. But, we never know what the web will be like. That's what makes web so good to learn and know about. This picture by Brad Frost in [http://bradfrost.com/blog/post/this-is-the-web/ one of his articles] sums it up pretty well:
+
+[[File:webfuture.png]]
 
 == What is accessibility and why is it important ==
 
