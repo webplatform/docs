@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.
 
-'''Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/].'''
+'''Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''
 }}
 {{API_Object_Property
 |Property_applies_to=apis/webaudio/AudioParam
