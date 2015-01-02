@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Combines two or more arrays.}}
@@ -14,7 +15,9 @@
 |Description=Additional items to add to the end of array1.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -29,6 +32,7 @@
  
  //Output: 
  1, 2, 3, "dog", 42, "cat"
+|LiveURL=
 }}
 }}
 {{Remarks_Section
@@ -41,10 +45,16 @@ Elements of source arrays are copied to the resulting array as follows:
 * If an object is copied from any of the arrays being concatenated to the new array, the object reference continues to point to the same object. A change in either the new array or the original array will result in a change to the other.
 * If a number or string value is added to the new array, only the value is copied. Changing the value in one array does not affect the value in the other.
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Specification===
 [http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.4 15.4.4.4 Array.prototype.concat ( [ string1 [ , string2 [ , … ] ] ] )]
 ECMAScript® Language Specification
