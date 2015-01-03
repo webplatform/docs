@@ -49,13 +49,12 @@ Thank you for your co operation.
 ***[http://brackets.io Brackets]
 ***[http://www.lighttable.com LightTable]
 ***[http://bluefish.openoffice.nl/index.html Bluefish]
+***[https://atom.io/ Atom] <!-- Prebuilt versions of Atom are available for OS X 10.8 or later, Windows 7 & 8, RedHat Linux, and Ubuntu Linux. -->
 ** Windows
 ***[http://www.codelobster.com/ Codelobster]
 ***[http://notepad-plus-plus.org/ Notepad++]
-***[https://atom.io/ Atom] <!-- Atom is now available prebuilt on Windows 7 & 8. -->
 ** Mac
 ***[http://www.barebones.com/products/textwrangler/ TextWrangler]
-***[https://atom.io/ Atom] <!-- MIT Licence; Prebuilt versions of Atom are currently only available for OS X (10.8 or later). If you would like to build from source on Windows, Linux, or OS X -->
 ** Linux
 ***[http://www.geany.org/ Geany]
 ***[https://wiki.gnome.org/Apps/Gedit gedit]
