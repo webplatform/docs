@@ -1,4 +1,5 @@
 {{Page_Title|The HTML <head>}}
+{{Languages|guides/the_html_head}}
 {{Flags
 |State=Ready to Use
 |Editorial notes=
@@ -284,4 +285,3 @@ web page section further in the next tutorial, [[guides/more_about_the_html_head
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Languages|guides/the_html_head}}
