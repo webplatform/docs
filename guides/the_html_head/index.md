@@ -265,13 +265,6 @@ web page section further in the next tutorial, [[guides/more_about_the_html_head
 |Notes=
 |Import_Notes=
 }}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Manual_links=
 |External_links=
