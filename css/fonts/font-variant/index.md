@@ -32,8 +32,8 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=A simple example to show the effect achieved when small-caps are applied to a text paragraph.
-|Code=<p>I think WebPlatform rocks.</p>
+|Description=A simple example to show the effect achieved when small-caps are applied to a text paragraph
+|Code=<p>I think WebPlatform rocks</p>
 |LiveURL=http://code.webplatform.org/gist/5716625
 }}{{Single Example
 |Language=CSS
