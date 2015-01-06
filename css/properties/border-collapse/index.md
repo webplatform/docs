@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|Border-collapse can be used for collapsing the borders between table cells.}}
+{{Summary_Section|Border-collapse can be used for collapsing the borders between table cells}}
 {{CSS Property
 |Initial value=separate
 |Applies to=Table and inline-table elements
