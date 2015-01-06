@@ -8,7 +8,7 @@ Look at scratchpad https://docs.webplatform.org/wiki/TEST:beginners
 Also, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web
 |Checked_Out=No
 }}
-{{Summary_Section|The very first part of our beginner's material gives you some important background on how everything works, and gets you set up and ready to go with website building.}}
+{{Summary_Section|The very first part of our beginner's material gives you some important background on how website works in what we commonly call "front end" layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.}}
 {{Basic Page}}
 {{:Beginners/Submenu}}
 
