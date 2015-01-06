@@ -115,7 +115,7 @@ Now roll your sleeves up and get ready to learn. [[tutorials|Browse our full lis
 
 * [[tutorials/creating basic navigation menus|Creating navigation menus]]
 {{Notes_Section
-|Usage=testing
+|Usage=
 |Notes=
 |Import_Notes=
 }}
