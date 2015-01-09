@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -11,10 +12,11 @@
 {{Event
 |Event_applies_to=dom/MouseEvent
 |Synchronous=No
-|Bubbles=Yes
+|Bubbles=No
 |Target=dom/Element
 |Cancelable=Yes
 |Default_action=none
+|Content=
 |Interface=dom/MouseEvent
 }}
 {{Examples_Section
@@ -107,7 +109,11 @@ There are no standards that apply here.
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
