@@ -64,7 +64,10 @@ An IndexedDB database is unique for our domain. So if we set up a database only 
 |Import_Notes=
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=Tutorials and Walkthroughs:
+* [http://hacks.mozilla.org/2012/02/storing-images-and-files-in-indexeddb/ MDN: Storing images and files in IndexedDB ]
+* [http://www.html5rocks.com/en/tutorials/indexeddb/todo/ HTML5 Rocks: A simple TODO list using HTML5 IndexedDB ]
+* [http://msdn.microsoft.com/en-us/library/ie/jj154908(v=vs.85).aspx MSDN: How to create a tag cloud using IndexedDB ]
 |External_links=* [http://www.w3.org/TR/IndexedDB/ W3C IndexedDB Specification]
 |Manual_sections==== Library ===
 
