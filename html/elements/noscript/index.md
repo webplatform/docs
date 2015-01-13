@@ -11,8 +11,7 @@
 {{Summary_Section|The HTML NoScript Element (<noscript>) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The ''noscript'' element should not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
-
+|Content=The ''noscript'' element content will not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
 
 ===HTML information===
 {{{!}} class="wikitable"
