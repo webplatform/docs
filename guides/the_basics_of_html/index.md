@@ -112,7 +112,7 @@ Nearly any element can contain nested elements, although
 there are exceptions: some elements do not contain either text or nested elements, 
 for example <code>img</code>.
  
-An element within another element is also referred to as a "child" element. So in the above example, <code>abbr</code> is a child of 
+An element within another element is also referred to as a "child" element. So in the below example, <code>abbr</code> is a child of 
 <code>h1</code>, which is itself a child of <code>header</code>. Conversely, the <code>header</code> element
 would be referred to as the "parent" of the <code>h1</code> element, which is the parent of <code>abbr</code>. 
 This parent/child concept is important, as it forms the basis of CSS (Cascading Stylesheet Specification) and is heavily used in JavaScript.
