@@ -1,30 +1,19 @@
 {{Page_Title|Conceptos de diseño web}}
+{{languages}}
 {{Flags
 |State=Not Ready
 |Editorial notes=
 |Checked_Out=No
 }}
-{{API_Name}}
 {{Summary_Section}}
 {{Concept_Page
 |Content=
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
+{{Basic Page}}
 {{Notes_Section
 |Usage=
 |Notes=
 |Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
