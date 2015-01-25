@@ -1,4 +1,5 @@
 {{Page_Title|Web Design concepts}}
+{{Languages}}
 {{Flags
 |State=In Progress
 |Editorial notes=The summary content on this page is complete but it is not known by this contributor whether the original author feels the links to content provided are complete.  I have not reviewed them for completeness.
