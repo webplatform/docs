@@ -1,21 +1,15 @@
-{{Page_Title|Conceptos de diseño web}}
-{{languages}}
+{{Page_Title|Web Design concepts}}
+{{Languages}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=
 |Checked_Out=No
+|High-level issues=Needs Review
 }}
-{{Summary_Section}}
-{{Concept_Page
-|Content=
-}}
+{{Summary_Section|...}}
 {{Basic Page}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics}}
+{{Notes_Section}}
+{{Topics|Design, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
