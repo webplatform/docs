@@ -1,7 +1,7 @@
 {{Page_Title|Conceptos de diseño web}}
 {{Flags
 |State=Not Ready
-|Editorial notes=
+|Editorial notes=Created stub to illustrate how to make a translation page.
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
