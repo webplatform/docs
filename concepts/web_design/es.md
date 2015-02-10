@@ -13,7 +13,7 @@
 |Notes=
 |Import_Notes=
 }}
-{{Topics|Design, Usability}}
+{{Topics|Design}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
