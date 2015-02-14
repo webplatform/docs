@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,7 +19,30 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=Progress events exist for both download and upload transfers. The upload events are fired on the XMLHttpRequest.upload object, as shown below:
+|Code=function transferComplete(evt) {
+  alert("The transfer is complete.");
+}
+
+function transferFailed(evt) {
+  alert("An error occurred while transferring the file.");
+}
+
+function transferCanceled(evt) {
+  alert("The transfer has been canceled by the user.");
+}
+
+var xhr= new XMLHttpRequest();
+
+xhr.upload.addEventListener("load", transferComplete, false);
+xhr.upload.addEventListener("error", transferFailed, false);
+xhr.upload.addEventListener("abort", transferCanceled, false);
+
+xhr.open();
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
