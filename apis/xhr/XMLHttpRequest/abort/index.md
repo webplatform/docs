@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -18,7 +18,43 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=function request() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "http://localhost/test.xml", true);
+    xhr.onreadystatechange = handler;
+    xhr.send();
+    return xhr;
+}
+
+document.getElementById('submit').addEventListener('click', function () {
+    var xhr = request(),
+        submit = this,
+        cancel = document.getElementById('cancel');
+    
+    function detach() {
+        submit.removeEventListener('click', canceling, false);
+        cancel.removeEventListener('click', canceling, false);
+    }
+    
+    function canceling() {
+        detach();
+        xhr.abort();
+    }
+    
+    // detach any remaining handlers after XHR finishes
+    xhr.addEventListener('load', detach, false);
+    
+    // cancel if "Submit" is clicked again before XHR finishes
+    submit.addEventListener('click', canceling, false);
+    
+    // cancel if "Cancel" is clicked
+    cancel.addEventListener('click', canceling, false);
+}, false);
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
