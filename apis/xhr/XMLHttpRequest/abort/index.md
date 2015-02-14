@@ -24,7 +24,6 @@
 |Code=function request() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "http://localhost/test.xml", true);
-    xhr.onreadystatechange = handler;
     xhr.send();
     return xhr;
 }
