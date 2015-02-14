@@ -21,7 +21,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=JavaScript
-|Description=Progress events exist for both download and upload transfers. The upload events are fired on the XMLHttpRequest.upload object, as shown below:
+|Description=
 |Code=function transferComplete(evt) {
   alert("The transfer is complete.");
 }
