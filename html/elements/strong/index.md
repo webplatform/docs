@@ -28,7 +28,22 @@ If you are looking to emphasize a word or phrase, the [[html/elements/em|'''em''
 If you want to bold text, but the text is not important, you should use the CSS rule [[css/properties/font-weight|'''font-weight: bold''']] on the appropriate element enclosing the text.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-strong-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-STRONG
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
