@@ -147,20 +147,20 @@ Does tapping on a '''button''' give it the focus?:
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.5
-|Status=Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-button-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=HTML5
+}}{{Related_Specification
+|Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-button-element
-|Status=W3C Candidate Recommendation
+|Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related Specification
-|Name=WhatWG HTML Living Standard
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-button-element
-|Status=Living Standard
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
