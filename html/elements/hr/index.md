@@ -32,15 +32,21 @@ As a replaced element, the '''hr''' will be automatically closed by browsers, bu
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 15.3
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html-markup/hr.html
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-hr-element
 |Status=W3C Working Draft
-|Relevant_changes=Semantic meaning to “paragraph-level thematic break”.
-}}{{Related Specification
-|Name=HTML 4.01 Specification
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/present/graphics.html#edef-HR
 |Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
