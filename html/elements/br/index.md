@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The line break element, '''br''', forces the current line of text to end and the text that follows it will being on a new line.}}
 {{Markup_Element
-|DOM_interface=[[dom/HTMLBRElement]]
+|DOM_interface=dom/HTMLBRElement
 |Content=The '''br''' element forcibly breaks (ends) the current line of text, without starting a new paragraph.
 
 '''br''' elements must be used only for line breaks that are actually part of the content, as in poems or addresses, but must not be used for separating thematic groups in a paragraph. For that you should use the [[html/elements/p|'''paragraph''' element]].
@@ -33,14 +33,21 @@ As a replaced element, the '''br''' will be automatically closed by browsers, bu
 |Notes=No closing tag is needed.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html
-|Status=W3C Candidate Recommendation
-}}{{Related Specification
-|Name=HTML 4.01 Specification
-|URL=http://www.w3.org/TR/html401/struct/text.html#h-9.3.2.1
-|Status=Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-br-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-BR
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
