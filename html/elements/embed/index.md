@@ -67,10 +67,16 @@ The height of the embedded content, in CSS pixels.
 The width of the embedded content, in CSS pixels.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5 specification
-|URL=http://www.w3.org/html/wg/drafts/html/CR/
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/embedded-content.html#the-embed-element
 |Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
