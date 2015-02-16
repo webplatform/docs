@@ -60,7 +60,7 @@ An img is always in one of the following states:
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
