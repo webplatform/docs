@@ -28,7 +28,22 @@ If you are looking to mark up programming code, the [[html/elements/code|'''code
 If you are looking to indicate user input (e.g. from a keyboard), the [[html/elements/kbd|'''kbd''']] element is more appropriate.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-samp-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-SAMP
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
