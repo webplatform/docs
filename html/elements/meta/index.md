@@ -190,7 +190,7 @@ The '''meta''' object has these properties.
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/document-metadata.html#the-meta-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
