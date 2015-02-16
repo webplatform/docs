@@ -11,7 +11,7 @@
 A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[html/elements/dd|'''dd''']] (definition) elements. Several consecutive [[html/elements/dt|'''dt''']] are attributed to the [[html/elements/dd|'''dd''']] element that immediately follows the group.
 }}
 {{Markup_Element
-|DOM_interface=dom/HTMLDDElement
+|DOM_interface=dom/HTMLElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -76,14 +76,21 @@ The '''dd''' object has these properties.
 |Retrieves the number of immediate child nodes of the current element or a zero if the element does not contain any child nodes_ [[dom/traversal/properties/childElementCount|'''childElementCount''']] does not return all child nodes, only child nodes that are [[dom/properties/nodeType|'''nodeType''']] {{=}}1, or element nodes.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
-|Status=W3C Recommendation
-}}{{Related Specification
+|Specifications={{Related_Specification
 |Name=HTML 5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dd-element
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dd-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DD
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
