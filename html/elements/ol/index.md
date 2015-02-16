@@ -72,7 +72,7 @@ The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute sets the l
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/grouping-content.html#the-ol-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
