@@ -54,7 +54,7 @@ There are rare cases where the title is allowed to be omitted. This is the case 
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/document-metadata.html#the-title-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
