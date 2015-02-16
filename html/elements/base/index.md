@@ -91,20 +91,20 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01 Specification
-|URL=http://www.w3.org/TR/html401/struct/links.html#h-12.4
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-base-element.html#the-base-element
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/document-metadata.html#the-base-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#the-base-element
-|Status=Living Standard
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/links.html#edef-BASE
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
