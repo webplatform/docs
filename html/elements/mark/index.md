@@ -58,7 +58,17 @@ When used in the main prose of a document, the '''mark''' element indicates a pa
 Windows Internet Explorer 9.  The '''mark''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-mark-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
