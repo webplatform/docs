@@ -17,9 +17,15 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=
-|Description=This example uses the '''address''' element to make text appear in italic type.
-|Code=<!-- This is just a snippet, not a full page. -->
-&lt;address&gt;This text will be in italic type.&lt;/address&gt;
+|Description=A page at the W3C Web site might include the following contact information
+|Code=  &lt;address>
+    &lt;p>&lt;a href="http://www.w3.org/Consortium/contact-mit">MIT&lt;/a>&lt;/p>
+  &lt;/address>
+|LiveURL=
+}}{{Single Example
+|Language=
+|Description=Example of information that would be incorrect if placed inside an address element
+|Code=<div>Last Modified: 1999/12/24 23:37:50</div>
 |LiveURL=
 }}
 }}
