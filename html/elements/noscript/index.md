@@ -46,15 +46,15 @@ For full functionality of this site it is necessary to enable JavaScript. Here a
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5, section 4.3.2
-|URL=http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element
-|Status=W3C Candidate Recommendation 31 July 2014
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/scripting-1.html#the-noscript-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01, section 18.3.1
-|URL=http://www.w3.org/TR/html401/interact/scripts.html#h-18.3.1
-|Status=W3C Recommendation 24 December 1999
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
