@@ -123,6 +123,11 @@ Not all form control descendants of a disabled '''fieldset''' are properly disab
 |URL=http://www.w3.org/TR/html5/forms.html#the-fieldset-element
 |Status=W3C Recommendation
 |Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-FIELDSET
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
