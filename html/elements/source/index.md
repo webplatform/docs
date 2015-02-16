@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|Allows developer to specify multiple alternative media resources for media elements, such as <code><video></code> and <code><audio></code>. It does not represent anything on its own, and is used with <code>src</code> attribute to specify the URL.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLSourceElement
 }}
 {{Examples_Section
 |Not_required=No
@@ -272,7 +272,17 @@ The '''source''' object has these properties.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/embedded-content.html#the-source-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
