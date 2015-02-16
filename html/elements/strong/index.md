@@ -35,7 +35,7 @@ If you want to bold text, but the text is not important, you should use the CSS 
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-strong-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
