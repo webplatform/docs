@@ -48,7 +48,22 @@ If the [[html/attributes/title|'''title''' attribute]] of the '''dfn''' element 
 |Notes=If given an [[html/attributes/id|'''id''' attribute]], a '''dfn''' may serve as a reference for other elements on the page by anchoring to the '''dfn''' (see Example 3).
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-dfn-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-DFN
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
