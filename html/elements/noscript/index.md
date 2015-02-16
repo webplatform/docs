@@ -56,6 +56,11 @@ For full functionality of this site it is necessary to enable JavaScript. Here a
 |URL=http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element
 |Status=W3C Recommendation
 |Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/scripts.html#edef-NOSCRIPT
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
