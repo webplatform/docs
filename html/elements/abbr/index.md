@@ -26,6 +26,16 @@ A '''abbr''' element may optionally have a [[html/attributes/title|'''title''' a
 United States is located in Washington, 
 &lt;abbr title="District of Columbia">D.C.&lt;/abbr>.&lt;/p>
 |LiveURL=http://code.webplatform.org/gist/939206
+}}{{Single Example
+|Language=HTML
+|Description=Linking an abbreviation to its definition
+|Code=<p>
+The <dfn id="HTML">Hyper Text Markup Language</dfn>
+(<abbr title="HyperText Markup Language">HTML</abbr>) is the publishing language of the World Wide Web.
+</p>
+<p>The first version of <a href="#HTML"><abbr title="Hyper Text Markup Language">HTML</abbr></a>
+ was described by Tim Berners-Lee in late 1991.</p>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -37,9 +47,22 @@ United States is located in Washington,
 
 In the first two instances, it would make sense to include an expansion of the abbreviation in a '''title''' attribute.
 |Notes=If you use the same abbreviation multiple times in a  document, you might consider using a '''title''' to expand the first instance (perhaps wrapping it in a [[html/elements/dfn|'''dfn''' element]] to mark it as the defining instance) and then leave the '''title''' attribute off of the additional instances. This may provide a better reading experience for assistive technologies, but it should be noted that the instances without '''title''' attributes will not provide the expanded text as each '''abbr''' is independent (expansions are not shared among identical '''abbr'' elements).
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -47,12 +70,4 @@ In the first two instances, it would make sense to include an expansion of the a
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
