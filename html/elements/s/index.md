@@ -34,16 +34,21 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-s-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/present/graphics.html#edef-S
 |Status=W3C Recommendation
-|Relevant_changes=deprecated
-}}{{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-s-element
-|Status=W3C Editor's Draft
-|Relevant_changes=reappeared
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
