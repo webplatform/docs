@@ -47,14 +47,11 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 |Usage=The '''menu''' and [[html/elements/ul|'''ul''']] both represent an unordered list of items. They differ in the way that the [[html/elements/ul|'''ul''']] element only contains items to display while the '''menu''' element contains interactive items, to act on.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/
-|Status=Deprecated
-}}{{Related Specification
-|Name=DOM HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html
-|Status=Redifined
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/interactive-elements.html#the-menu-element
+|Status=W3C Working Draft
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
