@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLHeaderElement
+|DOM_interface=dom/HTMLElement
 }}
 {{Examples_Section
 |Not_required=No
@@ -238,7 +238,17 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}}
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/sections.html#the-header-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
