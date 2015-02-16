@@ -551,18 +551,21 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}}
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.6
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML5
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-option-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-option-element
-|Status=Last Call Working Draft
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element
-|Status=Living Standard
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-OPTION
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
