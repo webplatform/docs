@@ -40,7 +40,7 @@ When representing HTML code within a '''code''' element, remember to encode the 
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
