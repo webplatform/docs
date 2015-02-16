@@ -88,7 +88,7 @@ You can also use flash as a fallback for when the browser does not support any o
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-video-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
