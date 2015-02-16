@@ -47,10 +47,16 @@
 * There must not be more than one <code>&lt;main&gt;</code>  element in a document, and it must not be a descendent of an <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>, or <code>&lt;nav&gt;</code>  element.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1 Nightly
-|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element
-|Status=Editor's Draft
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-main-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
