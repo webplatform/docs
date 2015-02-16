@@ -38,7 +38,7 @@
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/grouping-content.html#the-p-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
