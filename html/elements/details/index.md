@@ -9,11 +9,26 @@
 {{Summary_Section|The details element represents a disclosure widget from which the user can obtain additional information or controls.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDataElement
-|Content=
+|Content=== Attributes ==
+
+===open===
+If the <code>open</code> attribute is set on the <code>details</code> tag, it will be open when it's rendered.
+
+== Browser support ==
+The <details> tag is currently only supported in Chrome and in Safari on Mac.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=
+|Code=&lt;details open="open">
+	&lt;p>Foo&lt;/p>
+	&lt;p>Bar&lt;/p>
+	&lt;p>Peter&lt;/p>
+&lt;/details>
+|LiveURL=http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -21,7 +36,7 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html51/interactive-elements.html#the-details-element
 |Status=W3C Working Draft
