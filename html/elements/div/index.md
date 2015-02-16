@@ -807,19 +807,21 @@ This property is not supported for Metro style apps using JavaScript.
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=WHATWG HTML Living Standard
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/grouping-content.html#the-div-element
-|Status=Living standard
-}}{{Related Specification
-|Name=HTML 4.01 Specification
-|URL=http://www.w3.org/TR/html401/struct/global.html#h-7.5.4
-|Status=Recommendation
-}}{{Related Specification
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-div-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-div-element
-|Status=Candidate Recommendation
-|Relevant_changes=The align attribute is obsolete.
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/global.html#edef-DIV
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
