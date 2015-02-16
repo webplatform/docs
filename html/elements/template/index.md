@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|Templates allow you to declare fragments of markup which are parsed as HTML, go unused at page load, but can be instantiated later on at runtime.}}
 {{Markup_Element
-|DOM_interface=html/elements/template
+|DOM_interface=dom/HTMLTemplateElement
 |Content=The content of a <code><template></code> element is a hidden portion of the DOM and does not render on page load: scripts don't run, text or images don't display, audio doesn't play, and so forth. Neither are the child nodes of the <code><template></code> accessible with the JavaScript <code>getElementbyId()</code> or <code>querySelector()</code> methods.
 
 Templates can be placed anywhere inside of the <code><head></code>, <code><body></code>, and <code><frameset></code> elements; It can also be used as a child of a <code>&lt;table&gt;</code> or a <code><select></code> element.
@@ -85,7 +85,17 @@ template {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/scripting-1.html#the-template-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/scripting-1.html#the-template-element
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Web Components
