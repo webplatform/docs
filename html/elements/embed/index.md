@@ -74,7 +74,7 @@ The width of the embedded content, in CSS pixels.
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-embed-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
