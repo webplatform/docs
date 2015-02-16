@@ -34,7 +34,7 @@ Creative works include a book, a paper, an essay, a poem, a score, a song, a scr
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-cite-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
