@@ -58,11 +58,16 @@ Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML4 Specification
-|URL=http://www.w3.org/TR/html401/cover.html
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-textarea-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-textarea-element
 |Status=W3C Recommendation
-|Relevant_changes=Section 17.7
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
