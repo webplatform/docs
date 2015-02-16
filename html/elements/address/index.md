@@ -11,21 +11,23 @@
 {{Summary_Section|The '''address''' element (&lt;address&gt;) encloses contact information of the owner or the author of the document or the article.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=
+|Content=* The address element must not be used to represent arbitrary addresses, unless those addresses are in fact the relevant contact information.
+* The address element must not contain information other than contact information.
+* Typically, the address element would be included along with other information in a footer element.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=
 |Description=A page at the W3C Web site might include the following contact information
-|Code=  &lt;address>
+|Code=&lt;address>
     &lt;p>&lt;a href="http://www.w3.org/Consortium/contact-mit">MIT&lt;/a>&lt;/p>
-  &lt;/address>
+&lt;/address>
 |LiveURL=
 }}{{Single Example
 |Language=
 |Description=Example of information that would be incorrect if placed inside an address element
-|Code=<div>Last Modified: 1999/12/24 23:37:50</div>
+|Code=&lt;div>Last Modified: 1999/12/24 23:37:50&lt;/div>
 |LiveURL=
 }}
 }}
