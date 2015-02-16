@@ -29,10 +29,21 @@ the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/q>&lt;/p>
 For longer quotes, please use the [[html/elements/blockquote|'''blockquote''']] element.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-cite-element
-|Status=W3C Editor's Draft
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-q-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-Q
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
