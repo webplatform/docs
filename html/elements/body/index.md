@@ -126,7 +126,7 @@ The following attributes are obsolete, and should not be used by authors: <code>
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/sections.html#the-body-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
