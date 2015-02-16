@@ -169,10 +169,16 @@ be cowed by the possibility.&lt;/blockquote&gt;
 *Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the '''cite''' and '''blockquote''' elements for this purpose.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 - 4.3 Sections
-|URL=http://www.w3.org/TR/html5/sections.html
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
