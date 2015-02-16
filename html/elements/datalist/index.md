@@ -49,10 +49,16 @@
 |Import_Notes= 
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-datalist-element.html#the-datalist-element
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-datalist-element
 |Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-datalist-element
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
