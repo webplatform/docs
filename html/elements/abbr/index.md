@@ -29,12 +29,12 @@ United States is located in Washington,
 }}{{Single Example
 |Language=HTML
 |Description=Linking an abbreviation to its definition
-|Code=<p>
-The <dfn id="HTML">Hyper Text Markup Language</dfn>
-(<abbr title="HyperText Markup Language">HTML</abbr>) is the publishing language of the World Wide Web.
-</p>
-<p>The first version of <a href="#HTML"><abbr title="Hyper Text Markup Language">HTML</abbr></a>
- was described by Tim Berners-Lee in late 1991.</p>
+|Code=&lt;p>
+The &lt;dfn id="HTML">Hyper Text Markup Language</dfn>
+(&lt;abbr title="HyperText Markup Language">HTML&lt;/abbr>) is the publishing language of the World Wide Web.
+&lt;/p>
+&lt;p>The first version of &lt;a href="#HTML">&lt;abbr title="Hyper Text Markup Language">HTML&lt;/abbr>&lt;/a>
+ was described by Tim Berners-Lee in late 1991.&lt;/p>
 |LiveURL=
 }}
 }}
