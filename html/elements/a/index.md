@@ -177,20 +177,20 @@ Does tapping on an anchor give it the focus?
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/2012/CR-html5-20121217/text-level-semantics.html#the-a-element
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-a-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html4/struct/links.html#edef-A
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG Living Standard
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-a-element
-|Status=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/links.html#edef-A
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
