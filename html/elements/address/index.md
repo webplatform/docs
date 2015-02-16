@@ -61,7 +61,22 @@ Gecko (Firefox) user agent default style -
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/sections.html#the-address-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/global.html#edef-ADDRESS
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Manual_links=
