@@ -39,7 +39,7 @@ As a replaced element, the '''hr''' will be automatically closed by browsers, bu
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/grouping-content.html#the-hr-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
