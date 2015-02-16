@@ -49,10 +49,21 @@ The default value of the [[css/properties/display|'''display''']] property for t
 *[http://www.w3.org/TR/html5/grouping-content.html#the-li-element HTML5 Specification]
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 Specification
-|URL=http://www.w3.org/TR/html5/grouping-content.html#the-li-element
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-li-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-LI
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
