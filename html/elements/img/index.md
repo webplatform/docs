@@ -53,18 +53,21 @@ An img is always in one of the following states:
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 2.0
-|URL=http://www.w3.org/MarkUp/html-spec/html-spec_5.html#SEC5.10
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/embedded-content.html#the-img-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
 |Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element
-|Status=W3C Candidate Recommendation
-}}{{Related Specification
-|Name=srcset
-|URL=http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/
-|Status=W3C Editor’s Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/objects.html#edef-IMG
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
