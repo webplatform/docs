@@ -33,14 +33,21 @@ When the '''kbd''' element contains a [[html/elements/samp|'''samp''' element]],
 When the '''kbd''' element is nested inside another '''kbd''' element, it represents an actual key or other single unit of input as appropriate for the input mechanism (see Example 2).
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-kbd-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-KBD
 |Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
-|Status=W3C Candidate Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
