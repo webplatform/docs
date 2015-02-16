@@ -91,7 +91,7 @@ The '''section''' element is not a generic container element. Authors are encour
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/sections.html#the-section-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
