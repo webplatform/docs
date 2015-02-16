@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <output> element represents the result of a calculation.}}
 {{Markup_Element
-|DOM_interface=HTMLOutputElement
+|DOM_interface=dom/HTMLOutputElement
 |Content=The HTML <output> element represents the result of a calculation.
 }}
 {{Examples_Section
@@ -24,7 +24,17 @@
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-output-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-output-element
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
