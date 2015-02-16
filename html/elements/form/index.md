@@ -875,14 +875,19 @@ Internationalization topics related to the <code>form</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-form-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-form-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related Specification
+}}{{Related_Specification
 |Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#h-17.3
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-FORM
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
