@@ -279,7 +279,7 @@ The '''source''' object has these properties.
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-source-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
