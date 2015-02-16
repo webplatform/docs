@@ -86,10 +86,20 @@ Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-input-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-input-element
-|Status=W3C Candidate Recommendation
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
