@@ -119,12 +119,17 @@ The following attributes are obsolete, and should not be used by authors: <code>
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-body-element.html
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/sections.html#the-body-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/global.html#edef-BODY
 |Status=W3C Recommendation
