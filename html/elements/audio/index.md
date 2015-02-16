@@ -29,8 +29,13 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/embedded-content.html#the-audio-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
 |URL=http://www.w3.org/TR/html5/
 |Status=W3C Recommendation
 |Relevant_changes=
