@@ -63,11 +63,21 @@ The [[html/elements/table|'''table''']] object and its associated elements have 
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML4 Specification
-|URL=http://www.w3.org/TR/html401/
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/tabular-data.html#the-thead-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/tabular-data.html#the-thead-element
 |Status=W3C Recommendation
-|Relevant_changes=Section 11.2.3
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-THEAD
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
