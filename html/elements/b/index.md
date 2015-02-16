@@ -40,10 +40,21 @@ Internationalization topics related to the '''b''' element:
 |Notes=As the '''b''' element has no inherent meaning, you should not use it to convey meaning; there is probably a more appropriate element for that. Headings should use the '''h1''' to '''h6''' elements, stress emphasis should use the '''em''' element, importance should be denoted with the '''strong''' element, and contextually-important/highlighted text should use the '''mark''' element.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 - 4.6 Text-level Semantics
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/present/graphics.html#edef-B
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
