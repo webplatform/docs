@@ -11,7 +11,7 @@
 A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[html/elements/dd|'''dd''']] (definition) elements. Several consecutive [[html/elements/dt|'''dt''']] are attributed to the [[html/elements/dd|'''dd''']] element that immediately follows the group.
 }}
 {{Markup_Element
-|DOM_interface=dom/HTMLDTElement
+|DOM_interface=dom/HTMLElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -71,14 +71,21 @@ A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[htm
 While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this element, most browsers currently use [[dom/HTMLElement|HTMLElement]] instead.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
-|Status=W3C Recommendation
-}}{{Related Specification
+|Specifications={{Related_Specification
 |Name=HTML 5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dt-element
-|Status=W3C Editor's Draft
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dt-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DT
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
