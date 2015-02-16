@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;progress&gt;</code> element represents the completion progress of a task.}}
 {{Markup_Element
-|DOM_interface=html/elements
+|DOM_interface=dom/HTMLProgressElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -82,15 +82,15 @@ progress::-webkit-progress-value {
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-progress-element
-|Status=Editor's Draft
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-progress-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element
-|Status=Living Standard
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-progress-element
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
