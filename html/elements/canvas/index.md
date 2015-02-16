@@ -9,7 +9,7 @@
 {{API_Name}}
 {{Summary_Section|The '''canvas''' element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly. The canvas element is one of the most important elements introduced in HTML5.}}
 {{Markup_Element
-|DOM_interface=HTMLCanvasElement
+|DOM_interface=dom/HTMLCanvasElement
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,7 +23,17 @@
 |Usage=The [[apis/canvas|canvas api]] is a useful resource for working with the canvas element.
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/scripting-1.html#the-canvas-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/scripting-1.html#the-canvas-element
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
