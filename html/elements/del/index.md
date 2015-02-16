@@ -51,14 +51,21 @@ While [[html/elements/s|'''s''']] and '''del''' appear to perform the same funct
 For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cite''']] attribute depends on the current document compatibility mode.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/edits.html#the-del-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-del
 |Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/edits.html#the-del-element
-|Status=W3C Editor's Draft
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
