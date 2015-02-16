@@ -62,7 +62,7 @@ For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cit
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/edits.html#the-ins-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
