@@ -547,7 +547,7 @@ This property is not supported for Metro style apps using JavaScript.
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/tabular-data.html#the-colgroup-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
