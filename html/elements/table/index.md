@@ -47,7 +47,7 @@ Tables are also often used for laying out web pages, but this is a bad practice 
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/tabular-data.html#the-table-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
