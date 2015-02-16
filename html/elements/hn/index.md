@@ -75,7 +75,7 @@ The '''hn''' object has these properties.
 {{Related_Specifications_Section
 |Specifications={{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
