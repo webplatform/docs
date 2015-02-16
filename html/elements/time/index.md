@@ -33,7 +33,7 @@ More in the [https://developer.mozilla.org/en-US/docs/HTML/HTML_Elements/time ti
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-time-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
