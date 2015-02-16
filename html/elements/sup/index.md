@@ -711,8 +711,13 @@ This property is not supported for Metro style apps using JavaScript.
 }}
 {{Related_Specifications_Section
 |Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-sub-and-sup-elements
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-sub-and-sup-elements
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
