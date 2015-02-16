@@ -79,15 +79,21 @@ margin-bottom: 16px;
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#h-10.3
-|Status=W3C Recommendation
-}}{{Related Specification
+|Specifications={{Related_Specification
 |Name=HTML 5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-dl-element
-|Status=W3C Editor's Draft
-|Relevant_changes=In HTML5, definition list has been changed to description list
+|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dl-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DL
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
