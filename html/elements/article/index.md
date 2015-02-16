@@ -46,15 +46,15 @@ When '''article''' elements are nested, the inner article should be related to t
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/the-article-element.html#the-article-element
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/sections.html#the-article-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=HTML Standard
-|URL=http://whatwg.org/html/#the-article-element
-|Status=Standard
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
