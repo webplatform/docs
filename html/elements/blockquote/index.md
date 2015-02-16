@@ -179,6 +179,11 @@ be cowed by the possibility.&lt;/blockquote&gt;
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element
 |Status=W3C Recommendation
 |Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
