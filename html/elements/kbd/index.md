@@ -40,7 +40,7 @@ When the '''kbd''' element is nested inside another '''kbd''' element, it repres
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-kbd-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}{{Related_Specification
