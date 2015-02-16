@@ -41,10 +41,16 @@
 '''Note'''  Some devices and applications (such as screen readers) might use the '''nav''' element as a way to determine what content on the document to initially skip or provide on request.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/the-nav-element.html#the-nav-element
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/sections.html#the-nav-element
 |Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
