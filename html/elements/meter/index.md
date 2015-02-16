@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;meter&gt;</code> element represents a value within a specified range.  This value can be any real number.}}
 {{Markup_Element
-|DOM_interface=html/elements
+|DOM_interface=dom/HTMLMeterElement
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -103,15 +103,15 @@ The title attribute may be used to specify a unit.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5.1
-|URL=http://www.w3.org/html/wg/drafts/html/master/forms.html#the-meter-element
-|Status=Editor's Draft
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-meter-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element
-|Status=Living Standard
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-meter-element
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
