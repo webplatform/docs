@@ -11,7 +11,9 @@
 {{Summary_Section|The '''h1''' through '''h6''' elements define levels of headings within a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLHeadingElement
-|Content====HTML information===
+|Content=These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
+
+===HTML information===
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
@@ -25,6 +27,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- 
     The H1 element applies a
     level-1 heading syle to the
@@ -46,6 +49,7 @@
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Use H1 through H6 to specify different sizes and styles of headings.
 |Import_Notes====Standards information===
@@ -70,6 +74,20 @@ The '''hn''' object has these properties.
 }}
 {{Related_Specifications_Section
 |Specifications=
+}}
+{{See_Also_Section
+|Topic_clusters=HTML
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Heading_Elements
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -131,15 +149,7 @@ The '''hn''' object has these properties.
 }}
 |Notes_rows=
 }}
-{{See_Also_Section
-|Topic_clusters=HTML
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Heading_Elements
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+
+
 }
