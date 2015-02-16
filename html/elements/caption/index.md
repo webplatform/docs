@@ -52,10 +52,21 @@ A caption can introduce context for a table, making it significantly easier to u
 When a table element is the only content in a figure element other than the '''figcaption''', the caption element should be omitted in favor of the [http://docs.webplatform.org/wiki/html/elements/figcaption figcaption].
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 - 4.9 Tabular Data
-|URL=http://www.w3.org/TR/html5/tabular-data.html#the-caption-element
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/tabular-data.html#the-caption-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-CAPTION
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
