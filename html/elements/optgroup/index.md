@@ -256,6 +256,11 @@ The '''optGroup''' object has these properties.
 |URL=http://www.w3.org/TR/html5/forms.html#the-optgroup-element
 |Status=W3C Recommendation
 |Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 4.01
+|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-OPTGROUP
+|Status=W3C Recommendation
+|Relevant_changes=
 }}
 }}
 {{Compatibility_Section
