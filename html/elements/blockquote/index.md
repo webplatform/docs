@@ -176,7 +176,7 @@ be cowed by the possibility.&lt;/blockquote&gt;
 |Relevant_changes=
 }}{{Related_Specification
 |Name=HTML 5
-|URL=http://www.w3.org/TR/html5/
+|URL=http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
