@@ -15,7 +15,7 @@ This element is used to specify subtitles, caption files or other files containi
 <code>Track</code> is new to HTML5 and is not yet supported in any major browser.
 }}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/HTMLTrackElement
 }}
 {{Examples_Section
 |Not_required=No
@@ -69,7 +69,17 @@ The '''track''' object has these properties.
  
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/embedded-content.html#the-track-element
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{Compatibility_Section
 |Not_required=No
