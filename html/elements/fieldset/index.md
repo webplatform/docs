@@ -113,16 +113,16 @@ Not all form control descendants of a disabled '''fieldset''' are properly disab
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/forms.html#the-fieldset-element
-|Status=W3C Candidate Recommendation
+|Specifications={{Related_Specification
+|Name=HTML 5.1
+|URL=http://www.w3.org/TR/html51/forms.html#the-fieldset-element
+|Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01 Specification
-|URL=http://www.w3.org/TR/html401/
+}}{{Related_Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html5/forms.html#the-fieldset-element
 |Status=W3C Recommendation
-|Relevant_changes=New attributes: disabled, form, name
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
