@@ -8,7 +8,7 @@
 {{API_Name}}
 {{Summary_Section|The details element represents a disclosure widget from which the user can obtain additional information or controls.}}
 {{Markup_Element
-|DOM_interface=dom/HTMLDataElement
+|DOM_interface=dom/HTMLDetailsElement
 |Content=== Attributes ==
 
 ===open===
@@ -36,8 +36,8 @@ The <details> tag is currently only supported in Chrome and in Safari on Mac.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5
+|Specifications={{Related_Specification
+|Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/interactive-elements.html#the-details-element
 |Status=W3C Working Draft
 |Relevant_changes=
