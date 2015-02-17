@@ -35,7 +35,7 @@ function verifyEmail(evt) {
 // the emlcfm.validity.customError is true;
   } else {
     // input is valid -- reset the error state, has to be an empty string
-    emlcfm.setCustomValidity("");
+    <pre>emlcfm.setCustomValidity('');</pre>
 // the emlcfm.validity.customError is false;
   }
 }
