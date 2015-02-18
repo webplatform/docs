@@ -8,6 +8,8 @@
 {{API_Name}}
 {{Summary_Section|Annotates content with some machine-readable value.}}
 {{Markup_Element
+|DOM_interface=dom/HTMLDataElement
+|Content=
 |Categories={{Markup_Element_Category|name=Flow content
 }}{{Markup_Element_Category|name=Phrasing content
 }}{{Markup_Element_Category|name=Palpable content
@@ -21,13 +23,16 @@
 |Tag_omissions=Neither tag is omissible
 |ARIA_roles=Any role value
 |ARIA_states=Global aria-* attributes, Any aria-* attributes applicable to the allowed roles
-|DOM_interface=dom/HTMLDataElement
 |CSS_display=
-|Content=
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=Give an alternate representation of a value for humans, but embed the machine readable as an annotation.
+|Code=<data value="9">Nine</data>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
@@ -35,12 +40,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-data-element
 |Status=W3C Recommendation
