@@ -32,6 +32,11 @@
 |Description=Give an alternate representation of a value for humans, but embed the machine readable as an annotation.
 |Code=<code>&lt;data value="9"&gt;Nine&lt;/data&gt;</code>
 |LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Represent an inventory item within a document, and hide within the markup the inventory code.
+|Code=<code>&lt;data value="UPC:022014640201"&gt;North Coast Organic Apple Cider&lt;/data&gt;</code>
+|LiveURL=
 }}
 }}
 {{Notes_Section
