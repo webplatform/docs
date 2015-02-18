@@ -30,7 +30,7 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=Give an alternate representation of a value for humans, but embed the machine readable as an annotation.
-|Code=<data value="9">Nine</data>
+|Code=<code>&lt;data value="9"&gt;Nine&lt;/data&gt;
 |LiveURL=
 }}
 }}
