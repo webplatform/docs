@@ -5,7 +5,7 @@
 |Checked_Out=No
 }}
 {{Standardization_Status}}
-{{API_Name|dom/HTMLElement}}
+{{API_Name}}
 {{Summary_Section}}
 {{API_Object
 |Subclass_of=
@@ -22,9 +22,14 @@
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=HTML 5.1 A vocabulary and associated APIs for HTML and XHTML
+|Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element
-|Status=
+|Status=W3C Working Draft
+|Relevant_changes=
+}}{{Related Specification
+|Name=HTML 5
+|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element
+|Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
@@ -33,7 +38,7 @@
 |External_links=
 |Manual_sections=
 }}
-{{Topics}}
+{{Topics|DOM}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |MDN_link=
