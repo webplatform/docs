@@ -4,11 +4,11 @@
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|The HTMLDataElement is a DOM interface specific to handle what’s stored in <code>&lt;data&gt;</code> tags and inherits from  [[dom/HTMLElement|HTMLElement]] DOM object.}}
 {{API_Object
-|Subclass_of=
+|Subclass_of=dom/HTMLElement, dom/Element, dom/Node
 |Overview=
 }}
 {{Examples_Section
