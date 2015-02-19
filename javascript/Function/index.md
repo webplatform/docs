@@ -1,6 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Creates a new function.}}
@@ -22,9 +23,15 @@
 |Name=body
 |Required=Optional
 |Description=A string that contains the block of JavaScript code to be executed when the function is called.
+}}{{JS Syntax Parameter
+|Name=parameters
+|Required=Optional
+|Description=Parameters are the named arguments in the function declaration's arguments list. Parameters must be valid identifiers. If there is more than one, parameters are separated by commas.
 }}
 }}
-{{JS_Return_Value}}
+{{JS_Return_Value
+|Description=
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -43,15 +50,19 @@
 
 //In either case, you call the function with a line of code similar to this:
  add(2, 3);
+|LiveURL=
 }}
 }}
 {{Remarks_Section
 |Remarks=The function is a basic data type in JavaScript. Syntax 1 creates a function value that JavaScript converts into a Function object when necessary. JavaScript converts Function objects created by Syntax 2 into function values at the time the function is called.
 
 Syntax 1 is the standard way to create new functions in JavaScript. Syntax 2 is an alternative form used to create function objects explicitly.
-
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{JS Object Listing}}
 '''Note''' -- When you call a function, make sure that you always include the parentheses and any required arguments. Calling a function without parentheses causes the function itself to be returned, instead of the return value of the function.
 ==Properties==
@@ -64,6 +75,8 @@ Syntax 1 is the standard way to create new functions in JavaScript. Syntax 2 is 
 |Manual_links=* [[javascript/statements/function{{!}}function Statement]]
 * [[javascript/operators/new{{!}}new Operator]]
 * [[javascript/statements/var{{!}}var Statement]]
+|External_links=
+|Manual_sections=
 }}
 {{JS Topics
 |JS Page Type=JS Basic
