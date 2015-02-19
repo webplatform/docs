@@ -11,12 +11,14 @@
 {{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Content=The '''header''' element represents introductory content for its nearest ancestor sectioning content ([[html/elements/article|article]] [[html/elements/aside|aside]] [[html/elements/nav|nav]] [[html/elements/section|section]]) or sectioning root element ([[html/elements/blockquote|blockquote]] [[html/elements/body|body]] [[html/elements/articfieldsetle|fieldset]] [[html/elements/figure|figure]] [[html/elements/artitdle|td]]).
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Windows Internet Explorer 9.  The '''header''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 A '''header''' element can contain the section's heading (an '''h1-h6''' element or an '''hgroup''' element) but this is not required. The '''header''' element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
@@ -238,17 +240,40 @@ This property is not supported for Metro style apps using JavaScript.
 {{!}}}
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-header-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-header-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=http://www.w3.org/TR/html-markup/header.html
+|Manual_sections====Related pages (MSDN)===
+*<code>Reference</code>
+*<code>article</code>
+*<code>aside</code>
+*<code>figcaption</code>
+*<code>figure</code>
+*<code>footer</code>
+*<code>hgroup</code>
+*<code>mark</code>
+*<code>nav</code>
+*<code>section</code>
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -310,26 +335,4 @@ This property is not supported for Metro style apps using JavaScript.
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|External_links=http://www.w3.org/TR/html-markup/header.html
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>article</code>
-*<code>aside</code>
-*<code>figcaption</code>
-*<code>figure</code>
-*<code>footer</code>
-*<code>hgroup</code>
-*<code>mark</code>
-*<code>nav</code>
-*<code>section</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
