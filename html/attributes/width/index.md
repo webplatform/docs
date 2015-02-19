@@ -10,9 +10,9 @@
 {{Markup_Attribute
 |Applies_to=[[html/elements/img|HTMLImgElement]]
 |Property_applies_to=dom/HTMLElement
-|Content=The '''width''' attribute specifies the visual width of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], and [[html/elements/input/type/image|input[type="image"]]] in pixels.
+|Content=The '''width''' attribute specifies the visual width of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], [[html/elements/canvas|canvas]], and [[html/elements/input/type/image|input[type="image"]]] in pixels.
 
-If a width attribute is set, but no height, the image will scale to preserve its original aspect ratio. If both the width and height are zero, the element should not be intended to be visible by the user.
+By default, elements will not preserve aspect ratio when width attribute is set, without a height attribute. If a width attribute is set, but no height, an image will scale to preserve its original aspect ratio. If both the width and height are zero, the element should not be intended to be visible by the user.
 
 Width values must be non-negative integers.
 }}
@@ -20,9 +20,14 @@ Width values must be non-negative integers.
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=
+|Description=<img> with width attribute.
 |Code=<img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
 |LiveURL=http://code.webplatform.org/gist/7283238
+}}{{Single Example
+|Language=HTML
+|Description=<canvas> with width attribute
+|Code=<canvas width="200" height="200"></canvas>
+|LiveURL=https://code.webplatform.org/gist/dbe042fac0e620a8f2b4
 }}
 }}
 {{Notes_Section
