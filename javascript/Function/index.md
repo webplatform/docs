@@ -20,13 +20,13 @@
 |Required=Optional
 |Description=A list of arguments the function accepts.
 }}{{JS Syntax Parameter
-|Name=body
-|Required=Optional
-|Description=A string that contains the block of JavaScript code to be executed when the function is called.
-}}{{JS Syntax Parameter
 |Name=parameters
 |Required=Optional
 |Description=Parameters are the named arguments in the function declaration's arguments list. Parameters must be valid identifiers. If there is more than one, parameters are separated by commas.
+}}{{JS Syntax Parameter
+|Name=body
+|Required=Optional
+|Description=A string that contains the block of JavaScript code to be executed when the function is called.
 }}
 }}
 {{JS_Return_Value
