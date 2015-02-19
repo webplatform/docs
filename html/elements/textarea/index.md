@@ -32,6 +32,43 @@ A text area can hold an unlimited number of characters, and the text renders in 
 }}
 {{Notes_Section
 |Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
+
+== HTML Attributes ==
+; Global attributes<nowiki>:</nowiki> accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
+: See [[html/global attributes|global attributes]].
+
+; <code>autofocus</code> = boolean
+: Allows the author to indicate that a control is to be focused as soon as the page is loaded
+
+; <code>cols</code> = non-negative integer
+: specifies the expected maximum number of characters per line. by default, it is 20.
+
+; <code>disabled</code> = boolean
+: If present, make the control non-interactive and to prevent its value from being submitted.
+
+; <code>form</code> = the ID of a form element in the element's owner
+: Associate the textarea element with its form owner.<br />By default, the textarea element is associated with its nearest ancestor form element.
+
+; <code>name</code> = unique name
+: Represents the element's name.
+
+; <code>placeholder</code> = sample value or a brief description of the expected format
+: Represents a hint (a word or short phrase) intended to aid the user with data entry.<br />The placeholder attribute should not be used as an alternative to a label.
+
+; <code>readonly</code> = boolean
+: Control whether the text can be edited by the user or not.
+
+; <code>required</code> = boolean
+: When specified, the user will be required to enter a value before submitting the form.
+
+; <code>rows</code> = valid non-negative integer
+: Specifies the number of lines to show. by defult, it is 2.
+
+; <code>wrap</code> = "soft"/ "hard":
+:;soft
+::The Soft state indicates that the text in the textarea is not to be wrapped when it is submitted (though it can still be wrapped in the rendering).
+:;hard
+::The Hard state indicates that the text in the textarea is to have newlines added by the user agent so that the text is wrapped when it is submitted.<br />If the element's wrap attribute is in the Hard state, the cols attribute must be specified.
 |Notes====Remarks===
 The default font is fixed pitch.
 
@@ -40,11 +77,7 @@ Firefox for Android, by default, sets a <code>[[css/properties/background-image|
 Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled [[html/elements/textarea|<code>textarea</code>]] elements. Other major browsers don't currently share this particular default style.
 
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
-|Import_Notes====Standards information===
-*[http://www.w3.org/TR/html401/interact/forms.html#h-17.7 HTML 4.01 Specification, Section 17.7]
-
-
-===HTML information===
+|Import_Notes====HTML information===
 {{{!}} class="wikitable"
 {{!}}-
 !Closing Tag
@@ -58,17 +91,17 @@ Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-textarea-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-textarea-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#edef-TEXTAREA
 |Status=W3C Recommendation
