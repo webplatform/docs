@@ -11,6 +11,8 @@
 {{Summary_Section|Defines a hyperlink, a destination of hyperlink, or both.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAnchorElement
+|Tag_omissions=required
+|CSS_display=inline
 |Content====Description===
 
 The <code>a</code> element defines a hyperlink to any content, which could be an external site, another page on the same site, a section within the same page, an image, or a local file.
@@ -164,30 +166,21 @@ Does tapping on an anchor give it the focus?
 {{!}}???
 {{!}}Only when it has a [[html/attributes/tabIndex|<code>tabindex</code>]]
 {{!}}}
-|Import_Notes====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}inline
-{{!}}}
-
+|Import_Notes=
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-a-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/links.html#edef-A
 |Status=W3C Recommendation
