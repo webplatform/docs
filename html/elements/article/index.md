@@ -6,7 +6,7 @@
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''article''' element (&lt;article&gt;) defines a self-contained composition within a page.}}
 {{Markup_Element
