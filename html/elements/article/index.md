@@ -11,18 +11,19 @@
 {{Summary_Section|The '''article''' element (&lt;article&gt;) defines a self-contained composition within a page.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content="Article" is an element, first introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An '''article''' element might represent a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
-When '''article''' elements are nested, the inner article should be related to the contents of the outer article. For example, a blog entry on a site that accepts user-submitted comments might represent the comments as '''article''' elements nested within the '''article''' element for the blog entry.
+|Tag_omissions=required
+|CSS_display=block
+|Content="Article" is an element, first introduced in HTML5, for the purpose of relieving "div" fatigue and overuse. An '''article''' element might represent content like a:
 
-===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
+* forum post
+* magazine or newspaper article
+* blog entry
+* user-submitted comment
+* interactive widget or gadget
+
+or any other independent item of content.
+
+When '''article''' elements are nested, the inner article should be related to the contents of the outer article. For example, a blog entry on a site that accepts user-submitted comments might represent the comments as '''article''' elements nested within the '''article''' element for the blog entry.
 }}
 {{Examples_Section
 |Not_required=No
@@ -46,12 +47,12 @@ When '''article''' elements are nested, the inner article should be related to t
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-article-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-article-element
 |Status=W3C Recommendation
@@ -60,7 +61,7 @@ When '''article''' elements are nested, the inner article should be related to t
 }}
 {{See_Also_Section
 |Manual_links=[[html/elements/nav|nav]] - The HTML navigation element is often used as a child element of the article tag.
-|External_links=
+|External_links=* http://www.w3.org/TR/html-markup/article.html#article
 |Manual_sections=
 }}
 {{Topics|HTML}}
