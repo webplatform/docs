@@ -8,10 +8,12 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''thead''' element  (&lt;thead&gt;) identifies header rows at the top of a table, usually containing column labels.  It may contain one or more rows of &lt;th&gt; or &lt;td&gt; cells.  If it only contains a single row the child &lt;tr&gt; tag may be omitted.|The <code>thead</code> tag is used to group header content in an HTML table_ Generally with have th tags with attribute of scope="col"
+{{Summary_Section|The '''thead''' element  (&lt;thead&gt;) identifies header rows at the top of a table, usually containing column labels.  It may contain one or more rows of &lt;th&gt; or &lt;td&gt; cells.|The <code>thead</code> tag is used to group header content in an HTML table_ Generally with have th tags with attribute of scope="col"
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLTableSectionElement
+|Tag_omissions=A tbody or tfoot element will close the thead element
+|CSS_display=table-header-group
 |Content=
 }}
 {{Examples_Section
@@ -63,17 +65,17 @@ The [[html/elements/table|'''table''']] object and its associated elements have 
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/tabular-data.html#the-thead-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/tabular-data.html#the-thead-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/tables.html#edef-THEAD
 |Status=W3C Recommendation
