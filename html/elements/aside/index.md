@@ -11,15 +11,16 @@
 {{Summary_Section|The '''aside''' element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
+|Tag_omissions=required
+|CSS_display=block
+|Content=The aside element may be used for:
+
+*pull quotes
+*sidebars
+*advertising
+*groups of nav elements
+
+Or any other content that is considered separate from the main content of the page.
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,12 +42,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-aside-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-aside-element
 |Status=W3C Recommendation
