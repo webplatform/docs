@@ -12,6 +12,8 @@ A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[htm
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Tag_omissions=A '''dt''' element's end tag may be omitted if the '''dt''' element is immediately followed by another '''dt''' element or a '''dd''' element.
+|CSS_display=block
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -20,10 +22,6 @@ A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[htm
 <tr>
 <th id="permitted-parents">Permitted&#160;parents</th>
 <td>[[html/elements/dl|dl]].</td>
-</tr>
-<tr>
-<th id="tag-omission">Tag&#160;omission</th>
-<td>A '''dt''' element's end tag may be omitted if the '''dt''' element is immediately followed by another '''dt''' element or a '''dd''' element.</td>
 </tr>
 </table>
 }}
@@ -63,48 +61,40 @@ A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[htm
 |Language=CSS
 |Description=Typical browser default CSS properties for the '''dt''' element.
 |Code=display: block;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes=The [[html/elements/dt|dt]] element itself, when used in a [[html/elements/dl|dl]] element, does not indicate that its contents are a term being defined, but this can be indicated using the [[html/elements/dfn|dfn]] element.
 
 While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this element, most browsers currently use [[dom/HTMLElement|HTMLElement]] instead.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/grouping-content.html#the-dt-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-dt-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DT
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_links=* [[html/elements/dir|<code>dir</code>]]
-* [[html/elements/menu|<code>menu</code>]]
-* [[html/elements/ol|<code>ol</code>]]
-* [[html/elements/ul|<code>ul</code>]]
-* [[html/elements/li|<code>li</code>]]
-* [[html/elements/dd|<code>dd</code>]]
+|Manual_links=* [[html/elements/dd|<code>dd</code>]]
 * [[html/elements/dl|<code>dl</code>]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dt Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535243%28v=vs.85%29.aspx Microsoft Developer Network]
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -113,4 +103,11 @@ While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this 
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
