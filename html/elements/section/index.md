@@ -10,18 +10,9 @@
 {{Summary_Section|Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
-
-
-A section  is a thematic grouping of content, typically with a heading. Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A website's home page could be split into sections for an introduction, news items, and contact information.
+|Tag_omissions=Required
+|CSS_display=block
+|Content=A section  is a thematic grouping of content, typically with a heading. Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A website's home page could be split into sections for an introduction, news items, and contact information.
 The '''section''' element is not a generic container element. Authors are encouraged to use the '''div''' element for styling purposes or when an element is needed as a convenience for scripting. The '''section''' element is appropriate only if the element's contents would be listed explicitly in the document's outline.
 }}
 {{Examples_Section
@@ -84,12 +75,12 @@ The '''section''' element is not a generic container element. Authors are encour
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-section-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-section-element
 |Status=W3C Recommendation
