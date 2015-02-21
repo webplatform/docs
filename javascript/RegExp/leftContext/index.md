@@ -25,9 +25,9 @@
  
     // Print the output.
     var s = "" 
-    s += ": " + RegExp. + "&lt;br /&gt;";
-    s += ": " + RegExp. + "&lt;br /&gt;";
-    s += ": " + RegExp. + "&lt;br /&gt;";
+    s += "$1: " + RegExp.$1 + "&lt;br /&gt;";
+    s += "$2: " + RegExp.$2 + "&lt;br /&gt;";
+    s += "$3: " + RegExp.$3 + "&lt;br /&gt;";
     s += "input: " + RegExp.input + "&lt;br /&gt;";
     s += "lastMatch: " + RegExp.lastMatch + "&lt;br /&gt;";
     s += "leftContext: " + RegExp.leftContext + "&lt;br /&gt;";
