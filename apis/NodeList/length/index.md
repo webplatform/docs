@@ -21,15 +21,15 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=
-|Code=<!-- Three divs -->
-<ul>
-	<li class="fruit">Apple</li>
-	<li class="fruit">Banana</li>
-	<li class="fruit">Cherry</li>
-</ul>
-<div id="fruit"></div>
+|Code=&lt;!-- Three divs -->
+&lt;ul>
+	&lt;li class="fruit">Apple&lt;/li>
+	&li class="fruit">Banana&lt;/li>
+	&lt;li class="fruit">Cherry&lt;/li>
+&lt;/ul>
+&lt;div id="fruit">&lt;/div>
 
-<script>
+&lt;script>
 	// Query the DOM for the nodes with the class 'fruit'
 	var fruitNodes = document.querySelectorAll('.fruit');
 	
@@ -40,7 +40,7 @@
 	document.getElementById('fruit').innerHTML = 'Number of fruit nodes: ' + fruitNodeCount;
 
 // Number of fruit nodes: 3
-</script>
+&lt;/script>
 |LiveURL=http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8
 }}
 }}
