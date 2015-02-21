@@ -24,7 +24,7 @@
 |Code=&lt;!-- Three divs -->
 &lt;ul>
 	&lt;li class="fruit">Apple&lt;/li>
-	&li class="fruit">Banana&lt;/li>
+	&li;class="fruit">Banana&lt;/li>
 	&lt;li class="fruit">Cherry&lt;/li>
 &lt;/ul>
 &lt;div id="fruit">&lt;/div>
