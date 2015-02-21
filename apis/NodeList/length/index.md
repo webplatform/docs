@@ -19,8 +19,9 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
-|Description=<!-- Three divs -->
+|Language=HTML
+|Description=
+|Code=<!-- Three divs -->
 <ul>
 	<li class="fruit">Apple</li>
 	<li class="fruit">Banana</li>
@@ -37,8 +38,9 @@
 	
 	// Displaying the value in the DOM
 	document.getElementById('fruit').innerHTML = 'Number of fruit nodes: ' + fruitNodeCount;
+
+// Number of fruit nodes: 3
 </script>
-|Code=
 |LiveURL=http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8
 }}
 }}
