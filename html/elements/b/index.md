@@ -6,10 +6,14 @@
 }}
 {{Standardization_Status|W3C Candidate Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''b''' element was originally used to tell the browser to make the enclosed text bold. While the '''b''' element is widely supported in browsers, its use is not recommended for this purpose since CSS can be used to achieve the same effect on a more semantically-appropriate element. In HTML5, '''b''' has been re-purposed to signify text this is offset in some way, but is of no greater significance than the surrounding text.}}
+{{Summary_Section|The '''b''' element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=The '''b''' element should be used as a last resort when no other element is more appropriate as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter [[html/elements/span|'''span''' element]]).
+|Tag_omissions=
+|CSS_display=
+|Content=It was originally used to tell the browser to make the enclosed text bold. While the '''b''' element is widely supported in browsers, its use is not recommended for this purpose since CSS can be used to achieve the same effect on a more semantically-appropriate element. In HTML5, '''b''' has been re-purposed to signify text this is offset in some way, but is of no greater significance than the surrounding text.
+
+The '''b''' element should be used as a last resort when no other element is more appropriate, as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter [[html/elements/span|'''span''' element]]). For visually similar elements that do provide semantic meaning, consider [[html/elements/strong|strong]], [[html/elements/dfn|dfn]], [[html/elements/hn|h1-h6]], or [[html/elements/abbr|abbr]].
 }}
 {{Examples_Section
 |Not_required=No
@@ -38,24 +42,38 @@ Internationalization topics related to the '''b''' element:
 
 * [[http://www.w3.org/International/techniques/authoring-html#bandi|Using b and i tags]]
 |Notes=As the '''b''' element has no inherent meaning, you should not use it to convey meaning; there is probably a more appropriate element for that. Headings should use the '''h1''' to '''h6''' elements, stress emphasis should use the '''em''' element, importance should be denoted with the '''strong''' element, and contextually-important/highlighted text should use the '''mark''' element.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-b-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/present/graphics.html#edef-B
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=HTML, Text
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML, XHTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -79,14 +97,4 @@ Internationalization topics related to the '''b''' element:
 }}
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Text
-}}
-{{Topics|HTML, XHTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
