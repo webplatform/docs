@@ -27,6 +27,16 @@
 * <code>loop</code> = "loop" or "" (empty string) or empty<br />Instructs the UA to seek back to the start of the audio stream upon reaching the end.
 * <code>mediagroup</code> = string<br />Instructs the UA to link multiple videos and/or audio streams together.
 * <code>src</code> = URL potentially surrounded by spaces<br />The URL for the audio stream.
+
+
+== Accessibility ==
+
+Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([http://www.w3.org/TR/WCAG20/#perceivable WCAG 2.0 - Principle 1: Perceivable]). This includes providing alternatives for time-based media [http://www.w3.org/TR/WCAG20/#media-equiv Guideline 1.2].
+
+
+== Formats and Codecs ==
+
+The specification does not require a specific audio codec to be supported by all user agents. Using both Ogg/Vorbis and MP4/AAC seems to cover most user-agents, however. See the [http://en.wikipedia.org/wiki/Html5_audio#Audio_format_support Audio format support on Wikipedia].
 }}
 {{Examples_Section
 |Not_required=No
@@ -57,7 +67,7 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=* [http://wiki.xiph.org/Html5 HTML5 and Xiph codecs]
 |External_links=
 |Manual_sections=
 }}
