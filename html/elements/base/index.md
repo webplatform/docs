@@ -32,9 +32,9 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 
 == HTML Attributes ==
 
-*<code>href</code> = valid URL potentially surrounded by spaces<br />A base element, if it has an href attribute, must come before any other elements in the tree that have attributes defined as taking URLs, except the html element (its manifest attribute isn't affected by base elements). [[#Example_A|[Example A]]]
+*<code>href</code> = URI, potentially surrounded by spaces<br />A base element, if it has an href attribute, must come before any other elements in the tree that have attributes defined as taking URLs, except the html element (its manifest attribute isn't affected by base elements). [[#Example_A|[Example A]]]
 
-*<code>target</code> = valid browsing context name or keyword ( _blank, _self, _parent, or _top)<br />The value of the target attribute is used as the default when hyperlinks and forms in the Document cause navigation.
+*<code>target</code> = browsing context name or keyword ( _blank, _self, _parent, or _top)<br />The value of the target attribute is used as the default when hyperlinks and forms in the Document cause navigation.
 }}
 {{Examples_Section
 |Not_required=No
