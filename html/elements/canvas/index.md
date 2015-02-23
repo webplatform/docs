@@ -7,33 +7,53 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The '''canvas''' element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly. The canvas element is one of the most important elements introduced in HTML5.}}
+{{Summary_Section|The '''canvas''' element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the [[apis/canvas|associated canvas API]].}}
 {{Markup_Element
 |DOM_interface=dom/HTMLCanvasElement
+|Tag_omissions=
+|CSS_display=
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<!-- create a canvas with 800px width and 600px height -->
 <canvas width="800" height="600"></canvas>
+|LiveURL=
 }}
 }}
 {{Notes_Section
 |Usage=The [[apis/canvas|canvas api]] is a useful resource for working with the canvas element.
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/scripting-1.html#the-canvas-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/scripting-1.html#the-canvas-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Canvas
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|Canvas, HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -100,14 +120,4 @@
 |Version=9+
 |Note=Hardware accelerated
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Canvas
-}}
-{{Topics|Canvas, HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
