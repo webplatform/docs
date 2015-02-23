@@ -6,9 +6,11 @@
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''base''' element is used to specify a document's base URL and base target that is used for resolving relative URLs within the document.}}
+{{Summary_Section|The '''base''' element is used to specify a document's base URL and base target that is used for resolving URI references (relative URLs) within the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBaseElement
+|Tag_omissions=No end tag (self-closing)
+|CSS_display=none
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -18,10 +20,6 @@
 <th id="permitted-parents">Permitted&#160;parents</th>
 <td>Only permitted to occur once within [[html/elements/head|<code>&lt;head&gt;</code>]].</td>
 </tr>
-<tr>
-<th id="tag-omission">Tag&#160;omission</th>
-<td>A <code>&lt;base&gt;</code> element must not have an end tag.</td>
-</tr>
 </table>
 
 A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>http://example.org/some/example.html</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [[dom/Location|<code>location</code>]] object) is used as the base URL for resolving relative URLs. The <code>&lt;base&gt;</code> element allows you to override this default with the [[html/attributes/href|<code>href</code>]] attribute.
@@ -29,6 +27,14 @@ A relative URL (<var>some/example.html</var>) needs to be transformed to a fully
 Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and forms ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
 
 If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], it may help to specify <code>&lt;base target="_parent"&gt;</code> in order to open the links within the iframe in the scope parent document. If <var>_parent</var> or <var>_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>_self</var>.
+
+
+
+== HTML Attributes ==
+
+*<code>href</code> = valid URL potentially surrounded by spaces<br />A base element, if it has an href attribute, must come before any other elements in the tree that have attributes defined as taking URLs, except the html element (its manifest attribute isn't affected by base elements). [[#Example_A|[Example A]]]
+
+*<code>target</code> = valid browsing context name or keyword ( _blank, _self, _parent, or _top)<br />The value of the target attribute is used as the default when hyperlinks and forms in the Document cause navigation.
 }}
 {{Examples_Section
 |Not_required=No
@@ -91,17 +97,17 @@ If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], 
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/document-metadata.html#the-base-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/document-metadata.html#the-base-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/links.html#edef-BASE
 |Status=W3C Recommendation
