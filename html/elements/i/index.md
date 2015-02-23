@@ -9,6 +9,9 @@
 {{Summary_Section|The '''i''' element indicates that the contained text is in an alternate voice, mood, or language from the surrounding text.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Tag_omissions=
+|CSS_display=
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
@@ -18,12 +21,14 @@
 |Code=&lt;p>The car wouldn't start yesterday 
 no matter what I did, but today it works 
 just fine. &lt;i>Go figure!&lt;/i>&lt;/p>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''I''' element to indicate the transition to an alternate language. Note that the [html/attributes/lang|'''lang''' attribute] is used to indicate the language being used
 |Code=&lt;p>HTML has that certain 
 &lt;i lang="fr" title="I don’t know what">je ne 
 sais quoi&lt;/i>&lt;/p>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -32,39 +37,36 @@ sais quoi&lt;/i>&lt;/p>
 
 If you are looking to emphasize a word or phrase, the [[html/elements/em|'''em''' element]] would be a better choice.
 
-If you wish to italicize the name of a creative work (e.g. a magazine, book, or film title), use the [html/elements/cite|'''cite''' element]] instead.
+If you wish to italicize the name of a creative work (e.g. a magazine, book, or film title), use the [[html/elements/cite|'''cite''' element]] instead.
 
 Internationalization topics related to the '''i''' element:
 
 * [http://www.w3.org/International/techniques/authoring-html#bandi Using b and i tags]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-i-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-i-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/present/graphics.html#edef-I
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=HTML, Text
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|HTML, XHTML}}
 {{External_Attribution
@@ -73,4 +75,11 @@ Internationalization topics related to the '''i''' element:
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
