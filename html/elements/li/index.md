@@ -9,6 +9,14 @@
 {{Summary_Section|The '''li''' element represents one list item.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLLIElement
+|Tag_omissions=
+|CSS_display=
+|Content=Its parent element may be [[html/elements/ol|ol]], [[html/elements/ul|ul]], or [[html/elements/menu|menu]].
+
+
+== HTML Attributes ==
+
+* <code>value</code> = valid integer<br />Specifies the ordinal value of the list item.<br />The value attribute can be used when the parent element in only a ol element. [[#Example_B|[Example B]]]
 }}
 {{Examples_Section
 |Not_required=No
@@ -23,6 +31,7 @@
      &lt;li>Entertainment</li>
      &lt;li>Science</li>
 &lt;/ul>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''li''' element to create individual items in an ordered list.
@@ -31,14 +40,17 @@
      &lt;li>Second</li>
      &lt;li>Third</li>
 &lt;/ol>
+|LiveURL=
 }}{{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the '''li''' element.
 |Code=display: list-item;
 margin-left: 40px;
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
 When the '''li''' element is absolutely positioned with CSS, the list item marker is not rendered.
@@ -49,29 +61,22 @@ The default value of the [[css/properties/display|'''display''']] property for t
 *[http://www.w3.org/TR/html5/grouping-content.html#the-li-element HTML5 Specification]
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/grouping-content.html#the-li-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-li-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/lists.html#edef-LI
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [[html/elements/dir|<code>dir</code>]]
@@ -80,6 +85,8 @@ The default value of the [[css/properties/display|'''display''']] property for t
 * [[html/elements/ul|<code>ul</code>]]
 * [[html/elements/dd|<code>dd</code>]]
 * [[html/elements/dt|<code>dt</code>]]
+|External_links=
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -88,4 +95,11 @@ The default value of the [[css/properties/display|'''display''']] property for t
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
