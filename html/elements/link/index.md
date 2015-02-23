@@ -20,7 +20,7 @@
 |Examples={{Single Example
 |Language=
 |Description=This example uses the '''link''' element to apply an external style sheet, called styles.css, to the page.
-|Code=&lt;link rel{{=}}stylesheet href{{=}}"styles.css" type{{=}}"text/css"&gt;
+|Code=&lt;link rel{{=}}stylesheet href{{=}}"styles.css" type{{=}}"text/css"/&gt;
 |LiveURL=
 }}
 }}
