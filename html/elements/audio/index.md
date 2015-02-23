@@ -11,7 +11,22 @@
 {{Summary_Section|The '''audio''' element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
-|Content=
+|Tag_omissions=
+|CSS_display=
+|Content=Extensive documentation on manipulating the element may be found on the [[dom/HTMLAudioElement|HTMLAudioElement]] page.
+
+
+== HTML Attributes ==
+
+* <code>autoplay</code> =  "autoplay" or "" (empty string) or empty<br />Instructs the UA to automatically begin playback of the audio stream as soon as it can do so without stopping.
+* <code>preload</code> = "none" or "metadata" or "auto" or "" (empty string) or empty <br />Represents a hint to the UA about whether optimistic downloading of the audio stream itself or its metadata is considered worthwhile. 
+** "none": Hints to the UA that the user is not expected to need the video, or that minimizing unnecessary traffic is desirable.
+** "metadata": Hints to the UA that the user is not expected to need the audio stream, but that fetching its metadata (duration and so on) is desirable.
+** "auto": Hints to the UA that optimistically downloading the entire audio stream is considered desirable.<br />Specifying the empty string is equivalent to specifying the value "auto". 
+* <code>controls</code> = "controls" or "" (empty string) or empty<br />Instructs the UA to expose a user interface for controlling playback of the audio stream.
+* <code>loop</code> = "loop" or "" (empty string) or empty<br />Instructs the UA to seek back to the start of the audio stream upon reaching the end.
+* <code>mediagroup</code> = string<br />Instructs the UA to link multiple videos and/or audio streams together.
+* <code>src</code> = URL potentially surrounded by spaces<br />The URL for the audio stream.
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,12 +44,12 @@
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-audio-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element
 |Status=W3C Recommendation
