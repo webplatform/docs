@@ -11,6 +11,8 @@
 {{Summary_Section|The '''blockquote''' element indicates an extended quotation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
+|Tag_omissions=
+|CSS_display=
 |Content====Introduction===
 The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a [[html/elements/footer|'''footer''']] or [[html/elements/cite|'''cite''']] element, and optionally with in-line changes such as annotations and abbreviations.
 
@@ -21,20 +23,27 @@ Content inside a '''blockquote''' other than citations and in-line changes must 
 If the cite attribute is present, it must be a valid URL potentially surrounded by spaces. To obtain the corresponding citation link, the value of the attribute must be resolved relative to the element. User agents may allow users to follow such citation links, but they are primarily intended for private use (e.g. by server-side scripts collecting statistics about a site's use of quotations), not for readers.
 
 The cite IDL attribute must reflect the element's cite content attribute.
+
+== HTML Attributes ==
+
+* <code>cite</code> =  valid URL potentially surrounded by spaces<br />Specifies the address in the quotation source. [[#Example_B|[Example B]]]
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
 &lt;p&gt;He said,
 &lt;blockquote cite="http://www.example.com"&gt;"Hi there!"&lt;/blockquote&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=The '''blockquote''' element represents content that is quoted from another source, optionally with a citation which must be within a '''footer''' or '''cite''' element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
 |Code=&lt;blockquote&gt;
  &lt;p&gt;[Fred] then said he liked [...] fish.&lt;/p&gt;
 &lt;/blockquote&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Quotation marks may be used to delineate between quoted text and annotations within a '''blockquote'''.
@@ -55,6 +64,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/footer&gt;
  &lt;/figure&gt;
 &lt;!-- Note: In the example above, the citation is contained within the footer of a figure element, this groups and associates the information about the quote with the quote. The figcaption element was not used in this case as a container for the citation, as it is not a caption. --&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Attribution for the quotation may be be placed inside the '''blockquote''' element, but must be within a '''cite''' element for in-text attributions or within a '''footer''' element.
@@ -65,16 +75,20 @@ The cite IDL attribute must reflect the element's cite content attribute.
  possible gods, you will understand why I dismiss yours.&lt;/p&gt;
  &lt;footer&gt;— &lt;cite&gt;Stephen Roberts&lt;/cite&gt;&lt;/footer&gt;
  &lt;/blockquote&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included. --&gt;
 &lt;blockquote&gt;
  The people recognize themselves in their commodities; they find their 
  soul in their automobile, hi-fi set, split-level home, kitchen equipment. 
  — &lt;cite&gt;&lt;a href="http://en.wikipedia.org/wiki/Herbert_Marcuse"&gt;Herbert Marcuse&lt;/a&gt;&lt;/cite&gt;
  &lt;/blockquote&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). --&gt;
 &lt;blockquote&gt;
   &lt;p&gt;... she said she would not sign any deposition containing the word "amorous" instead of "advances". For her the difference was of crucial significance, and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.&lt;/p&gt;
@@ -85,13 +99,16 @@ The cite IDL attribute must reflect the element's cite content attribute.
   &lt;/footer&gt;
 &lt;/blockquote&gt;
 &lt;!-- Note: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a '''blockquote''' to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism). --&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: --&gt;
 &lt;blockquote&gt;
   &lt;p&gt;My favorite book is &lt;cite class="from-source"&gt;At Swim-Two-Birds&lt;/cite&gt;&lt;/p&gt;
   &lt;footer&gt;- &lt;cite&gt;Mike[tm]Smith&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=The other examples below show other ways of showing attribution.
@@ -102,16 +119,20 @@ The cite IDL attribute must reflect the element's cite content attribute.
  &lt;/blockquote&gt;
  &lt;figcaption&gt;&lt;cite&gt;Carl Sagan&lt;/cite&gt;, in "&lt;cite&gt;Wonder and Skepticism&lt;/cite&gt;", from the &lt;cite&gt;Skeptical Enquirer&lt;/cite&gt; Volume 19, Issue 1 (January-February 1995)&lt;/figcaption&gt;
 &lt;/figure&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- This next example shows the use of cite alongside blockquote: --&gt;
 &lt;p&gt;His next piece was the aptly named &lt;cite&gt;Sonnet 130&lt;/cite&gt;:&lt;/p&gt;
 &lt;blockquote cite="http://quotes.example.org/s/sonnet130.html"&gt;
   &lt;p&gt;My mistress' eyes are nothing like the sun,&lt;br&gt;
   Coral is far more red, than her lips red,&lt;br&gt;
   ...
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- This example shows how a forum post could use blockquote to show what post a user is replying to. The article element is used for each post, to mark up the threading. --&gt;
 &lt;article&gt;
  &lt;h1&gt;&lt;a href="http://bacon.example.com/?blog=109431"&gt;Bacon on a crowbar&lt;/a&gt;&lt;/h1&gt;
@@ -150,8 +171,10 @@ The cite IDL attribute must reflect the element's cite content attribute.
   &lt;/article&gt;
  &lt;/article&gt;
 &lt;/article&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
+|Description=
 |Code=&lt;!-- This example shows the use of a blockquote for short snippets, demonstrating that one does not have to use p elements inside blockquote elements: --&gt;
 &lt;p&gt;He began his list of "lessons" with the following:&lt;/p&gt;
 &lt;blockquote&gt;One should never assume that his side of 
@@ -162,29 +185,47 @@ be conceded to have merits.&lt;/blockquote&gt;
 of breakdown in negotiations at any given moment and not 
 be cowed by the possibility.&lt;/blockquote&gt;
 &lt;p&gt;We shall now discuss these points...
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 *Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the '''cite''' and '''blockquote''' elements for this purpose.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections====Related pages (internal)===
+*<code>[[html/elements/q|q]]</code>
+*<code>[[html/elements/cite|cite]]</code>
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN, MSDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -246,17 +287,4 @@ be cowed by the possibility.&lt;/blockquote&gt;
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (internal)===
-*<code>[[html/elements/q|q]]</code>
-*<code>[[html/elements/cite|cite]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
 }}
