@@ -13,6 +13,10 @@
 |Tag_omissions=
 |CSS_display=
 |Content=
+== HTML Attributes ==
+
+* <code>height</code> =  non-negative integer<br />The height of the canvas, in CSS pixels.
+* <code>width</code> = non-negative integer<br />The width of the canvas, in CSS pixels.
 }}
 {{Examples_Section
 |Not_required=No
