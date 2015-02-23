@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub MSDN import.
+|Editorial notes=Add attribute info, document list of link relations
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -18,7 +18,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=HTML
 |Description=This example uses the '''link''' element to apply an external style sheet, called styles.css, to the page.
 |Code=&lt;link rel{{=}}stylesheet href{{=}}"styles.css" type{{=}}"text/css"/&gt;
 |LiveURL=
@@ -54,6 +54,11 @@ The IANA maintains a registry of valid link relations at their [http://www.iana.
 |Name=RFC 5988: Web Linking
 |URL=https://tools.ietf.org/html/rfc5988
 |Status=Standards Track
+|Relevant_changes=
+}}{{Related Specification
+|Name=Subresource Integrity
+|URL=http://www.w3.org/TR/SRI/
+|Status=W3C Working Draft
 |Relevant_changes=
 }}
 }}
