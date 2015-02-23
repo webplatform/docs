@@ -55,10 +55,7 @@ margin-left: 40px;
 The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
 When the '''li''' element is absolutely positioned with CSS, the list item marker is not rendered.
 The default value of the [[css/properties/display|'''display''']] property for this element is '''list-item'''.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
-*[http://www.w3.org/TR/html5/grouping-content.html#the-li-element HTML5 Specification]
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
