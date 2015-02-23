@@ -15,7 +15,9 @@
 |CSS_display=none
 |Content=The ''noscript'' element content will not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
 
- 
+The ''noscript'' element is not permitted in XML modes.
+
+If you need to display a message to non-scripting user-agents, consider a "loading" message that gets removed by scripting.
 }}
 {{Examples_Section
 |Not_required=No
