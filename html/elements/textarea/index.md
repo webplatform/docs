@@ -14,6 +14,8 @@ A text area can hold an unlimited number of characters, and the text renders in 
 }}
 {{Markup_Element
 |DOM_interface=dom/HTMLTextAreaElement
+|Tag_omissions=Closing tag required
+|CSS_display=inline-block
 |Content=Internationalization topics related to the <code>a</code> element:
 * [http://localhost/International/techniques/authoring-html#blocks  Setting direction on block elements]
 * [http://localhost/International/techniques/authoring-html#formdir Managing text direction in form controls]
@@ -77,18 +79,9 @@ Firefox for Android, by default, sets a <code>[[css/properties/background-image|
 Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled [[html/elements/textarea|<code>textarea</code>]] elements. Other major browsers don't currently share this particular default style.
 
 '''Security Warning:  '''Using this object incorrectly can compromise the security of your application. When submitting text through <code>textarea</code> over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as  letters and numbers) and ignore the rest.
-|Import_Notes====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}inline
-{{!}}}
-
-
- 
+|Import_Notes====Default CSS===
+ white-space: pre-wrap;
+ text-indent: initial;
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
