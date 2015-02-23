@@ -11,18 +11,9 @@
 {{Summary_Section|The '''body''' element (&lt;body&gt;) represents the main content of the document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBodyElement
-|Content==== HTML information ===
-
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}not required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
-
-You can access the <code><body></code> element from script through the document object.
+|Tag_omissions=Start and end are omissible in some cases
+|CSS_display=block
+|Content=You can access the <code><body></code> element from script through the document object.
 
 The window object for the <code><body></code> element can host event handlers for the <code>onblur</code>, <code>onfocus</code>, <code>onload</code>, or <code>onunload</code> events.
 
@@ -119,17 +110,17 @@ The following attributes are obsolete, and should not be used by authors: <code>
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-body-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-body-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/global.html#edef-BODY
 |Status=W3C Recommendation
