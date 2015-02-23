@@ -11,18 +11,9 @@
 {{Summary_Section|The HTML NoScript Element (<noscript>) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Tag_omissions=Closing tag required
+|CSS_display=none
 |Content=The ''noscript'' element content will not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
-
-===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}inline
-{{!}}}
-
 
  
 }}
@@ -46,17 +37,17 @@ For full functionality of this site it is necessary to enable JavaScript. Here a
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/scripting-1.html#the-noscript-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/scripts.html#edef-NOSCRIPT
 |Status=W3C Recommendation
