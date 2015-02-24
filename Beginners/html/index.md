@@ -18,11 +18,11 @@
 
 == Structuring Essentials ==
 
-If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a webpage also has lots of code running (or sitting idle) behind the screen.
+If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a web page also has lots of code running (or sitting idle) behind the screen.
 
-Each webpage out there on the Internet is a document. Most web documents are written using HTML, a basic markup language that we've talked about earlier.
+Every web page out there on the Internet can be seen as a document. Most web documents are written in a way so that we can distinguish images, paragraphs, titles, and so on. HTML provides a syntax that allows to make those distinctions with tags that we open and close (e.g. <code>&lt;strong&gt;bold text&lt;/strong&gt;) that we call "markup".
 
-Implementing HTML skilfully is an art. You have to take care of being logical (like using a <tt>header</tt> tag for a header and not your website footer!). That's why learning to structure with best HTML practices is necessary.
+Writing structured and re-usable HTML is an art. You have to take care of being logical (like using a <tt>header</tt> tag for a header and not your website footer!). That's why learning to structure with best HTML practices is necessary.
 
 In this article, we're going to analyze the anatomy of an HTML document.
 
