@@ -20,7 +20,7 @@
 
 If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a web page also has lots of code running (or sitting idle) behind the screen.
 
-Every web page out there on the Internet can be seen as a document. Most web documents are written in a way so that we can distinguish images, paragraphs, titles, and so on. HTML provides a syntax that allows to make those distinctions with tags that we open and close (e.g. <code>&lt;strong&gt;bold text&lt;/strong&gt;) that we call "markup".
+Every web page out there on the Internet can be seen as a document. Most web documents are written in a way so that we can distinguish images, paragraphs, titles, and so on. HTML provides a syntax that allows to make those distinctions with tags that we open and close (e.g. <code>&lt;strong&gt;bold text&lt;/strong&gt;</code>) that we refer to as "markup". Because it gives a structure to the document.
 
 Writing structured and re-usable HTML is an art. You have to take care of being logical (like using a <tt>header</tt> tag for a header and not your website footer!). That's why learning to structure with best HTML practices is necessary.
 
