@@ -3,16 +3,14 @@
 |State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defines superscript text. Superscript text appears half a character above the baseline.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Tag_omissions=
-|CSS_display=
+|Tag_omissions=Closing tag required
+|CSS_display=inline
 |Content=This element must be used only to mark up typographical conventions with specific meanings. For the purely visual formatting of content to your liking, use CSS.
 }}
 {{Examples_Section
@@ -48,10 +46,9 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=* [[html/elements/sub]]
 |External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>sub</code>
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
