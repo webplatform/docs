@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Add description/notes, compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defines superscript text. Superscript text appears half a character above the baseline.}}
 {{Markup_Element
