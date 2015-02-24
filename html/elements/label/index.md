@@ -15,8 +15,8 @@
 |CSS_display=inline
 |Content=The content of the label provides the caption for the input. The input can be specified in one of two ways:
 
-1. The input can be identified by the "for" attribute
-2. The input can be a child element of the label
+# The input can be identified by the "for" attribute
+# The input can be a child element of the label
 
 User agents will often focus the cursor on the input element after clicking the associated label.
 
