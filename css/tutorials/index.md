@@ -56,7 +56,7 @@
 * [[tutorials/optimizing css|Optimizing CSS]]
 * [[tutorials/state in css|State in CSS]]
 
-==CSS transforms and animation==
+==CSS transforms and animations==
 
 * [[tutorials/css transforms|Manipulating content with CSS3 transforms]]
 * [[tutorials/css transitions|Dynamic visual effects with CSS3 transitions]]
