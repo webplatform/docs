@@ -9,7 +9,17 @@
 {{Summary_Section|The '''code''' element specifies a fragment of computer code.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content=Content within a '''code''' element is used to indicate a selection of text that is computer programming code.
+|Tag_omissions=Closing tag required
+|CSS_display=
+|Content=Content within a '''code''' element is used to indicate a selection of text that is computer programming code, for instance:
+
+* Filename
+* Element name
+* Function call
+* Database query
+* Input prompt
+
+Or any string that a computer will parse.
 }}
 {{Examples_Section
 |Not_required=No
@@ -17,11 +27,13 @@
 |Language=HTML
 |Description=This is a simple example of the '''code''' element to display a CSS snippet.
 |Code=&lt;p>Now let’s set the color to red: &lt;code>color: #f00;&lt;/code>.&lt;/p>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This is another take on the example above, but includes a '''class''' to indicate the type of code being written.
 |Code=&lt;p>Now let’s set the color to red: 
 &lt;code class="language-css">color: #f00;&lt;/code>.&lt;/p>
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -31,34 +43,30 @@ Often, authors will use a '''class''' attribute to indicate the language being u
 |Notes=While the '''code''' element is often visually-presented in a monospace font like the '''pre''' element, unlike '''pre''' white space (spaces, tabs, etc.) inside a '''code''' element is **not preserved**.
 
 When representing HTML code within a '''code''' element, remember to encode the reserved characters &lt; and &gt; with their HTML entity equivalents (&amp;lt; and &amp;gt;, respectively).
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-code-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-CODE
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=HTML, Text
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>samp</code>
 }}
@@ -69,4 +77,11 @@ When representing HTML code within a '''code''' element, remember to encode the 
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
