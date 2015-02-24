@@ -1,19 +1,19 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Add description/notes, compatibility.
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Defines subscript text. Subscript text appears half a character below the baseline.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
 |CSS_display=inline
-|Content=
+|Content=This element must be used only to mark up typographical conventions with specific meanings. For the purely visual formatting of content to your liking, use CSS.
 }}
 {{Examples_Section
 |Not_required=No
@@ -48,7 +48,7 @@
 }}
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=* [[html/elements/sup]]
 |External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>sup</code>
