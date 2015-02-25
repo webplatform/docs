@@ -1,6 +1,6 @@
 {{Page_Title|¿Cómo funciona el Internet?}}
 {{Flags
-|State=
+|State=Unreviewed
 |Editorial notes=
 |Checked_Out=No
 }}
