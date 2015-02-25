@@ -64,6 +64,7 @@
 }}
 {{See_Also_Section
 |Topic_clusters=Flexbox
+Codrops_link=[http://tympanus.net/codrops/css_reference/flexbox/]
 }}
 {{Topics|DOM}}
 {{External_Attribution
