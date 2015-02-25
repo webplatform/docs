@@ -2,6 +2,10 @@
 {{Flags
 |State=Ready to Use
 |Editorial notes=Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics
+
+There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
+
+Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
 |Checked_Out=No
 }}
 {{Summary_Section|Accessibility is making the Web work for people with a diverse range of abilities. Accessibility is essential for developers and organizations that want to create high quality websites and web tools, and not exclude people from using their products and services. Accessibility is vital to enable people with disabilities to participate equally on the Web. It is a legal requirement in some cases, and a best practice in all cases.}}
@@ -138,9 +142,7 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 *[https://webaccessibility.withgoogle.com Introduction to Web Accessibility by Google]
 {{Notes_Section
 |Usage=
-|Notes=There should be an explanation of what ARIA *is* which is not clear from this page nor the link.  Even to a professional web developer.  Wikpedia article ([http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]) was much clearer and better written as an introduction.
-
-Should be overhauled: there are entire books and careers dedicated to Accessibility: what are the web programming techniques? How to make documents accessible? What disabilities are there and how does that affect e-accessibility? There are also a ton of resources out there that aid accessibility, either through audits or through web navigation.
+|Notes=
 |Import_Notes=
 }}
 {{Topics|Accessibility, ARIA, Design, UI, Usability}}
