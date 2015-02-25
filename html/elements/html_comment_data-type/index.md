@@ -1,62 +1,46 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Merge with [[html/elements/comment]] (and move out of html/elements, since comments are not elements.
+|Editorial notes=There is no such thing as a "comment" element. Comments are a part of the HTML syntax. This page should be moved out of the html/elements tree.
 |Checked_Out=No
 |High-level issues=Merge Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Comments in HTML delimit parts of the source document that are not rendered by the browser.}}
+{{Summary_Section|A syntactical production: The comment syntax indicates text within a document that is not displayed on the rendered page in the browser.
+A comment starts with <code>&lt;!--</code> and ends with <code>--&gt;</code>.
+}}
 {{Markup_Element
-|DOM_interface=dom/HTMLElement
+|DOM_interface=dom/Comment
+|Tag_omissions=
+|CSS_display=
+|Content=Comments can contain other HTML elements. Comments do not nest.
+Start and end tags are required.
+
+In XML mode, comments must not start or end with a dash, and must not contain two consecutive dashes.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=
 |Description=The following is an example of an '''HTML Comment'''.
 |Code=&lt;!-- This text will not appear in the browser window. --&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
-|Notes====Remarks===
-Comments can contain other HTML elements. Comments do not nest.
-Start and end tags are required.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 3.2.4
-
-
-===Members===
-The '''HTML Comment''' object has these types of members:
-*[#properties Properties]
-
-
-====Properties====
-The '''HTML Comment''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/text|'''text''']]
-|Retrieves or sets the text of the object as a string.
-|}
- 
+|Usage=
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>comment</code>
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -65,4 +49,11 @@ The '''HTML Comment''' object has these properties.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
