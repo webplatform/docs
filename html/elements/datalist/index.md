@@ -11,24 +11,16 @@
 {{Summary_Section|The '''datalist''' element (&lt;datalist&gt;) represents a set of [[html/elements/option|&lt;option&gt;]] elements that represent predefined options for other controls. It may be associated with an [[html/elements/input|&lt;input&gt;]] element by adding a list attribute to the input element.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLDataListElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}none
-{{!}}}
-
-
-===Properties===
+|Tag_omissions=Closing tag required
+|CSS_display=none
+|Content=
+=== Attributes ===
 {{{!}} class="wikitable"
 {{!}}-
 !Property
-{{!}}[[dom/properties/options (dom/options|'''options''']]
+{{!}}Description
 {{!}}-
-!Description
+{{!}}[[dom/properties/options (dom/options|'''options''']]
 {{!}}A collection of '''option''' objects that represent possible selections for a '''datalist''' element.
 {{!}}}
 }}
@@ -36,6 +28,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<input type="text" name="locations" list="places">
 <datalist id="places">
      <option>Amman, Jordan</option>
@@ -43,23 +36,40 @@
      <option>Paris, France</option>
      <option>Vienna, Austria</option>
 </datalist>
+|LiveURL=
 }}
 }}
 {{Notes_Section
+|Usage=
+|Notes=
 |Import_Notes= 
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-datalist-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-datalist-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=HTML
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -121,15 +131,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
