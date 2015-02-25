@@ -30,9 +30,29 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
-|Description=
-|Code=
+|Language=CSS
+|Description=An example of border-collapse 'collapse' and 'seperate' table borders are red, cell borders are blue
+|Code=/**
+ * @author	Vivienne van Velzen
+ * @see		http://code.webplatform.org/gist/6948189
+ */
+
+table {
+	border-color: #F00;
+	border-collapse: seperate; /* default */
+}
+td {
+	border-color: #00F;
+}
+table.collapse {
+	border-collapse: collapse;
+}
+p {
+	margin: 15px 0 3px 0;
+}
+td p {
+	margin: 3px;
+}
 |LiveURL=http://code.webplatform.org/gist/6948189
 }}
 }}
