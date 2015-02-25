@@ -4,6 +4,7 @@
 |Editorial notes=
 |Checked_Out=No
 }}
+{{Languages}}
 {{API_Name}}
 {{Summary_Section|Muy pocas veces te ofrecen una mirada tras bastidores a los engranajes y maquinarias de la acción. Hoy es tu día de suerte. En este artículo te daremos acceso detrás del escenario a una de las tecnologías más famosas, una con la cual ya debes estar familiarizado: el World Wide Web.
 
