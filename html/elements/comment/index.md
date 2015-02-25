@@ -1,1 +1,0 @@
-#REDIRECT [[html/elements/html_comment_data-type]]
