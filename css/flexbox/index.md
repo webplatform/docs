@@ -48,11 +48,12 @@
 {{!}}[[css/properties/flex-wrap|'''flex-wrap''']]
 {{!}}Gets or sets a value that specifies whether and in which direction child elements wrap onto multiple lines or columns  based on the space available in the object.
 {{!}}}
- == See Also ==
-*[http://tympanus.net/codrops/css_reference/flexbox/ Codrops CSS Reference - article by Sara Soueidan on flexbox]
- 
  
 }}
+
+ == See Also ==
+*[http://tympanus.net/codrops/css_reference/flexbox/ Codrops CSS Reference - article by Sara Soueidan on flexbox]
+ 
 {{Related_Specifications_Section
 |Specifications=
 }}
