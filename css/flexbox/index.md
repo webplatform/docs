@@ -50,9 +50,6 @@
 {{!}}}
  
 }}
-
- == See Also ==
-*[http://tympanus.net/codrops/css_reference/flexbox/ Codrops CSS Reference - article by Sara Soueidan on flexbox]
  
 {{Related_Specifications_Section
 |Specifications=
@@ -66,6 +63,7 @@
 }}
 {{See_Also_Section
 |External_links=
+*[http://tympanus.net/codrops/css_reference/flexbox/ Codrops CSS Reference - article by Sara Soueidan on flexbox]
 |Topic_clusters=Flexbox
 }}
 {{Topics|DOM}}
