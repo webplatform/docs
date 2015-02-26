@@ -21,12 +21,9 @@
 |Notes=
 |Import_Notes=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{Compatibility
+|topic=css
+|feature=flex
 }}
 {{See_Also_Section
 |Manual_links=
@@ -39,8 +36,4 @@
 |MDN_link=
 |MSDN_link=
 |HTML5Rocks_link=
-}}
-{{Compatibility
-|topic=css
-|feature=flex
 }}
