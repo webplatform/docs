@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use <code>&lt;code&gt;</code> or <code>&lt;pre&gt;</code> instead.}}
+{{Summary_Section|(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use [[html/elements/code|<code>code</code>]] or [[html/elements/pre|<code>pre</code>]] instead.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=required
@@ -30,16 +30,15 @@ HTML elements within an '''XMP''' element render as text, not as HTML-formatted 
 {{See_Also_Section
 |Manual_links=== Use instead ==
 * [[html/elements/code|<code>code</code>]]
-* [[html/elements/tt|<code>tt</code>]]
+* [[html/elements/pre|<code>pre</code>]]
 |External_links=
 |Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|Sources=MSDN
 |MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|MSDN_link=
 |HTML5Rocks_link=
 }}
 {{Compatibility_Section
