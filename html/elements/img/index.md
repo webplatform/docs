@@ -77,7 +77,7 @@ When a picture has been sliced into smaller image files that are then displayed 
 
 *In the following example, a picture representing a company logo for W3C has been split into two pieces, the first containing the letters "W3" and the second with the word "C". The alternative text ("W3C") is all in the first image.
 <pre>
-<h1><img src="logo1.png" alt="W3C"><img src="logo2.png" alt=""></h1>
+<h1><img src="logo1.png" alt="W3C"><img src="logo2.png" alt=""/></h1>
 </pre>
 
 ==== A group of images that form a single larger picture with links ====
@@ -87,7 +87,7 @@ However, if an image is indeed sliced and any of the components of the sliced pi
 <pre>
 <p>
   <a href="?go=left" ><img src="fsm-left.png"  alt="Left side. "></a>
-  <img src="fsm-middle.png" alt="">
+  <img src="fsm-middle.png" alt=""/>
   <a href="?go=right"><img src="fsm-right.png" alt="Right side."></a>
 </p>
 </pre>
@@ -103,7 +103,7 @@ How to provide alternative text for an image that is a key part of the content d
 <img src="sales.gif"
      title="Sales graph"
      alt="From 1998 to 2005, sales increased by the following percentages
-     with each year: 624%, 75%, 138%, 40%, 35%, 9%, 21%">
+     with each year: 624%, 75%, 138%, 40%, 35%, 9%, 21%"/>
 </pre>
 
 *Images that defy a complete description<br />In certain cases, the nature of the image might be such that providing thorough alternative text is impractical. For example, the image could be indistinct, or could be a complex fractal, or could be a detailed topographical map.<br />In these cases, the alt attribute must contain some suitable alternative text, but it may be somewhat brief.
@@ -133,8 +133,6 @@ In such cases, the width and height attributes should both be set to zero.
 
 ==== An image in an e-mail or private document intended for a specific person who is known to be able to view images ====
 When an image is included in a private communication (such as an HTML e-mail) aimed at a specific person who is known to be able to view images, the alt attribute may be omitted. However, even in such cases it is strongly recommended that alternative text be included (as appropriate according to the kind of image involved, as described in the above entries), so that the e-mail is still usable should the user use a mail client that does not support images, or should the document be forwarded on to other users whose abilities might not include easily seeing images.
-
-
 }}
 {{Examples_Section
 |Not_required=No
@@ -165,7 +163,7 @@ When an image is included in a private communication (such as an HTML e-mail) ai
 </nowiki>
 |LiveURL=
 }}{{Single Example
-|Language=
+|Language=HTML
 |Description=In the following example we have a flowchart in image form, with text in the alt attribute rephrasing the flowchart in prose form. (The alt-text is a replacement for the image, not a description of the image.)
 |Code=<nowiki>
 <p>In the common case, the data handled by the tokenization stage
