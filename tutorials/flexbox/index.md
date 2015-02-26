@@ -10,7 +10,7 @@
 |URL=
 |Published=
 }}
-{{Summary_Section|'''[[css/properties/flex|flex]]''', also known as "flexbox", is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used '''[[css/properties/float|float]]''' for.}}
+{{Summary_Section|'''[[css/properties/flex|flex]]''', also known as "flexbox", is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used "block" layout’s '''[[css/properties/float|float]]''' property for.}}
 {{Tutorial
 |Next_page=
 |Prev_page=
