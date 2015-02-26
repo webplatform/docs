@@ -1,22 +1,26 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Deletion Candidate
+|State=Ready to Use
+|Editorial notes=Deletion Candidate: Obsolete
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use &lt;code&gt;&lt;code&gt;&lt;/code&gt; or &lt;code&gt;&lt;pre&gt;&lt;/code&gt;.}}
+{{Summary_Section|(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use &lt;code&gt;&lt;code&gt;&lt;/code&gt; or &lt;code&gt;&lt;pre&gt;&lt;/code&gt;.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Tag_omissions=
+|CSS_display=
+|Content=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
+|Usage=
 |Notes====Remarks===
 Use of this element is no longer recommended. Use the '''PRE''' or '''SAMP''' element instead.
 HTML elements within an '''XMP''' element render as text, not as HTML-formatted elements.
@@ -251,14 +255,9 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
+|Manual_links=
+|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>tt</code>
 }}
@@ -269,4 +268,11 @@ This property is not supported for Metro style apps using JavaScript.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
