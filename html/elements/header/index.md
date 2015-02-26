@@ -8,10 +8,14 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section.}}
+{{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
+|Tag_omissions=Closing tag required
+|CSS_display=block
 |Content=The '''header''' element represents introductory content for its nearest ancestor sectioning content ([[html/elements/article|article]] [[html/elements/aside|aside]] [[html/elements/nav|nav]] [[html/elements/section|section]]) or sectioning root element ([[html/elements/blockquote|blockquote]] [[html/elements/body|body]] [[html/elements/articfieldsetle|fieldset]] [[html/elements/figure|figure]] [[html/elements/artitdle|td]]).
+
+A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup element), but this is not required. The header element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
 }}
 {{Examples_Section
 |Not_required=No
