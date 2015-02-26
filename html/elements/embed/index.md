@@ -1,25 +1,33 @@
 {{Page_Title|EMBED}}
 {{Flags
 |State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information. Delete Interface structure section.
+|Editorial notes=Add history of the element
+Add Category, Parent, Children and Compatibility information.
 |Checked_Out=Yes
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete, Examples Needed, Examples Best Practices
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The HTML &lt;embed&gt; Element represents an integration point for an external content- typically, non-HTML content such as an application or some other type of interactive content which involves use of a third-party plugin as a handler (rather than being natively supported by the UA).
-The &lt;embed&gt; element is new in HTML5. The embed element is a void element. It means that embed element must have a start tag but must not have an end tag.
-}}
+{{Summary_Section|The HTML &lt;embed&gt; Element represents an integration point for an external content- typically, non-HTML content such as an application or some other type of interactive content which involves use of a third-party plugin as a handler (rather than being natively supported by the UA).}}
 {{Markup_Element
 |DOM_interface=dom/HTMLEmbedElement
-|Content=interface HTMLEmbedElement : HTMLElement {
-           attribute DOMString src;
-           attribute DOMString type;
-           attribute DOMString width;
-           attribute DOMString height;
-  legacycaller any (any... arguments);
-};
+|Tag_omissions=No closing tag (self-closing)
+|CSS_display=inline-block
+|Content=
+== Accessibility ==
+Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([http://www.w3.org/TR/WCAG20/#perceivable WCAG 2.0 - Principle 1: Perceivable]). This includes providing alternatives for time-based media [http://www.w3.org/TR/WCAG20/#media-equiv Guideline 1.2].
+
+
+== HTML Attributes ==
+*<code>src</code> = URL potentially surrounded by spaces<br />gives the address of the resource being embedded.
+*<code>type</code> = MIME type<br />Specifies the type of the resource.
+*<code>width</code> = non-negative integer<br />Give the width of the visual content of the element, in CSS pixels.
+*<code>height</code> = non-negative integer<br />Give the height of the visual content of the element, in CSS pixels.
+
+== History ==
+
+While only being formalized as of HTML5, the tag has been informally supported among some user-agents as far back as Netscape Navigator 2.0 [http://lists.w3.org/Archives/Public/www-talk/1995SepOct/0045.html]
 }}
 {{Examples_Section
 |Not_required=No
@@ -27,14 +35,17 @@ The &lt;embed&gt; element is new in HTML5. The embed element is a void element. 
 |Language=HTML
 |Description=The following use of the '''EMBED''' element mimics the behavior of the '''BGSOUND''' tag.
 |Code=&lt;EMBED type{{=}}"audio/x-midi" src{{=}}"BackInTheSaddle.mid" hidden{{=}}"true"&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Way to embed a resource that requires a proprietary plugin, like Flash.If the user does not have the plugin (for example if the plugin vendor doesn't support the user's platform), then the user will be unable to use the resource.
 |Code=&lt;Embed src="catgame.swf"&gt;
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=To pass the plugin a parameter "quality" with the value "high", an attribute can be specified:
 |Code=&lt;Embed src="catgame.swf" quality="high"&gt;
+|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -54,40 +65,26 @@ global attributes,& src ,& type, & height, & width, & Any other attribute that h
 
 Permitted parent elements
 Any element that can contain phrasing elements
-|Import_Notes=ⓘglobal attributes
-Any attributes permitted globally.
-src = non-empty URL potentially surrounded by spaces
-The address of the content being embedded.
-ⓘ type = MIME type
-The MIME type of the plugin to instantiate.
-A string that identifies a valid MIME media type as defined in [RFC 2046].
-ⓘ height = non-negative integer
-The height of the embedded content, in CSS pixels.
-ⓘ width = non-negative integer
-The width of the embedded content, in CSS pixels.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-embed-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-embed-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=HTML, Multimedia, Video
+|Manual_links=
+|External_links=
+|Manual_sections=
 }}
 {{Topics|Audio, HTML, Media, Video}}
 {{External_Attribution
@@ -96,4 +93,11 @@ The width of the embedded content, in CSS pixels.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
