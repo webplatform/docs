@@ -1,7 +1,8 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Ready to Use
 |Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
+Might be useful for historical reference on the subject of document metadata.
 |Checked_Out=No
 }}
 {{Standardization_Status|Deprecated}}
@@ -11,7 +12,9 @@
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=
 |CSS_display=
-|Content=For a history and description of this element, see [http://www.the-pope.com/nextid.html Working NEXTID Tag Element Example] by Griff Ruby.
+|Content=An obsolete element from ancient editions of HTML, specifying document metadata about which link ids have already been used, so they would not be re-used even if deleted in the future. More generic metadata mechanisms exist today.
+
+For a history and description of this element, see [http://www.the-pope.com/nextid.html Working NEXTID Tag Element Example] by Griff Ruby.
 }}
 {{Examples_Section
 |Not_required=Yes
