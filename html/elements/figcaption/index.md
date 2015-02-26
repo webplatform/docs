@@ -1,13 +1,14 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
+|State=Almost Ready
 |Editorial notes=Examples need "try it" link.
 Add Category, Parent, Children and Compatibility information.
+Write something for main content.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''figcaption''' (&lt;figcaption&gt;) defines a caption or legend for a figure element.
 This element is new in HTML5.
