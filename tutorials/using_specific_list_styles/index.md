@@ -49,7 +49,7 @@ The result might look like this:
 [[File:csslists1.png]]
 
 ''Figure 1. Open and closed (circle and disc) list item bullets.''
-
+You can also use [:nth-child] pseudo-class with the same result.
 ===Ordered lists===
 
 In an ''ordered'' list, each list item is marked differently to show its position in the sequence.
