@@ -1,6 +1,6 @@
 {{Page_Title}}
 {{Flags
-|State=Ready to Use
+|State=Out of Date
 |Editorial notes=Deletion Candidate: Obsolete
 |Checked_Out=No
 }}
@@ -14,7 +14,7 @@
 |Content=The element is defined as a RAWTEXT element, and has special handling by a text/html parser for legacy reasons.
 }}
 {{Examples_Section
-|Not_required=No
+|Not_required=Yes
 |Examples=
 }}
 {{Notes_Section
@@ -28,10 +28,11 @@ HTML elements within an '''XMP''' element render as text, not as HTML-formatted 
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=== Use instead ==
+* [[html/elements/code|<code>code</code>]]
+* [[html/elements/tt|<code>tt</code>]]
 |External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>tt</code>
+|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
