@@ -19,7 +19,58 @@ A header element is intended to usually contain the section's heading (an h1–h
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=HTML
+|Description=The following snippet shows how the element can be used to mark up a specification's header
+|Code=<nowiki>
+<header>
+ <hgroup>
+  <h1>Scalable Vector Graphics (SVG) 1.2</h1>
+  <h2>W3C Working Draft 27 October 2004</h2>
+ </hgroup>
+ <dl>
+  <dt>This version:</dt>
+  <dd><a href="http://www.w3.org/TR/2004/WD-SVG12-20041027/">http://www.w3.org/TR/2004/WD-SVG12-20041027/</a></dd>
+  <dt>Previous version:</dt>
+  <dd><a href="http://www.w3.org/TR/2004/WD-SVG12-20040510/">http://www.w3.org/TR/2004/WD-SVG12-20040510/</a></dd>
+  <dt>Latest version of SVG 1.2:</dt>
+  <dd><a href="http://www.w3.org/TR/SVG12/">http://www.w3.org/TR/SVG12/</a></dd>
+  <dt>Latest SVG Recommendation:</dt>
+  <dd><a href="http://www.w3.org/TR/SVG/">http://www.w3.org/TR/SVG/</a></dd>
+  <dt>Editor:</dt>
+  <dd>Dean Jackson, W3C, <a href="mailto:dean@w3.org">dean@w3.org</a></dd>
+  <dt>Authors:</dt>
+  <dd>See <a href="#authors">Author List</a></dd>
+ </dl>
+ <p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notic ...
+</header>
+</nowiki>
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=In this example, the page has a page heading given by the h1 element, and two subsections whose headings are given by h2 elements. The content after the header element is still part of the last subsection started in the header element, because the header element doesn't take part in the outline algorithm
+|Code=<nowiki>
+<body>
+ <header>
+  <h1>Little Green Guys With Guns</h1>
+  <nav>
+   <ul>
+    <li><a href="/games">Games</a>
+    <li><a href="/forum">Forum</a>
+    <li><a href="/download">Download</a>
+   </ul>
+  </nav>
+  <h2>Important News</h2> <!-- this starts a second subsection -->
+  <!-- this is part of the subsection entitled "Important News" -->
+  <p>To play today's games you will need to update your client.</p>
+  <h2>Games</h2> <!-- this starts a third subsection -->
+ </header>
+ <p>You have three active games:</p>
+ <!-- this is still part of the subsection entitled "Games" -->
+ ...
+</nowiki>
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
