@@ -1,21 +1,43 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Needs information on codec support. Add more example.
+|Editorial notes=Rewrite main content
+
+Needs information on codec support. Add more examples.
 |Checked_Out=No
 |Content=Incomplete, Examples Needed
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The <code>video</code> tag allows a developer to embed a video in a document. It is new to HTML5. Different browsers have various format support}}
+{{Summary_Section|The <code>video</code> tag represents an embedded video}}
 {{Markup_Element
 |DOM_interface=dom/HTMLVideoElement
-|Content=== Native video playback without plugins ==
-Browsers that support HTML5 video will play the media without the need for external plugins. We no longer need to have Flash installed in order to play video on browsers that support HTML5 video. 
+|Tag_omissions=Closing tag required
+|CSS_display=inline
+|Content=== HTML Attributes ==
+
+* <code>autoplay</code> =  "autoplay" or "" (empty string) or empty<br />Instructs the UA to automatically begin playback of the video as soon as it can do so without stopping.
+* <code>preload</code> = "none" or "metadata" or "auto" or "" (empty string) or empty <br />Represents a hint to the UA about whether optimistic downloading of the video itself or its metadata is considered worthwhile.
+** "none": Hints to the UA that the user is not expected to need the video, or that minimizing unnecessary traffic is desirable.
+** "metadata": Hints to the UA that the user is not expected to need the video, but that fetching its metadata (dimensions, first frame, track list, duration, and so on) is desirable.
+** "auto": Hints to the UA that optimistically downloading the entire video is considered desirable.<br />Specifying the empty string is equivalent to specifying the value "auto". 
+* <code>controls</code> = "controls" or "" (empty string) or empty<br />Instructs the UA to expose a user interface for controlling playback of the video.
+* <code>loop</code> = "loop" or "" (empty string) or empty<br />Instructs the UA to seek back to the start of the video upon reaching the end.
+* <code>poster</code> = URL potentially surrounded by spaces<br />The address of an image file for the UA to show while no video data is available.
+* <code>height</code> = non-negative integer<br />The height of the video, in CSS pixels.
+* <code>width</code> = non-negative integer<br />The width of the video, in CSS pixels.
+* <code>muted</code> = "muted" or "" (empty string) or empty<br />Represents the default state of the audio channel of the video, potentially overriding user preferences.
+* <code>mediagroup</code> = string<br />Instructs the UA to link multiple videos and/or audio streams together.
+* <code>src</code> = URL potentially surrounded by spaces<br />The URL for the video.
+
+
+== Native video playback without plugins ==
+
+Browsers that support HTML5 video will play the media without the need for external plugins
 
 The video formats is made up by a <code>video stream</code> + <code>audio stream.</code>
 
-The three main formats for HTML5 video are: MP4, WebM and OGG Vorbis. 
+The three common formats for HTML5 video are: MP4, WebM and OGG Vorbis. 
 
 <pre>
 .mp4 = H.264 + AAC
@@ -35,7 +57,7 @@ The attributes (controls, preload, loop) go inside <code><video></code> tag to c
 
 == What about old browsers? ==
 
-There are several techniques to ensure that people will be able to access the content we've created. I will cover two of them in this article: Chrome Frame and Flash Fallback
+There are several techniques to ensure that people will be able to access the content we've created. Two of them are covered here: Chrome Frame and Flash Fallback
 
 
 ===Chrome Frame===
@@ -48,50 +70,91 @@ You can also use flash as a fallback for when the browser does not support any o
 
 <syntaxhighlight lang="html5" highlight="5-7">
 <video width="320" height="240" controls="controls" preload="none">
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  <source src="movie.webm" type="video/webm">
+  <source src="movie.mp4" type="video/mp4"/>
+  <source src="movie.ogg" type="video/ogg"/>
+  <source src="movie.webm" type="video/webm"/>
   <object data="movie.mp4" width="320" height="240">
-    <embed src="movie.swf" width="320" height="240">
+    <embed src="movie.swf" width="320" height="240"/>
   </object> 
 </video>
 </syntaxhighlight>
+
+
+
+== Accessibility ==
+
+Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([http://www.w3.org/TR/WCAG20/#perceivable WCAG 2.0 - Principle 1: Perceivable]). This includes providing alternatives for time-based media [http://www.w3.org/TR/WCAG20/#media-equiv Guideline 1.2].
+
+Work in still in progress proper technical support in HTML5.
+
+== Formats and Codecs ==
+
+The HTML5 specification does not require a video codec to be supported by all user agents. Thus, one need to provide alternate sources to ensure proper user experience in the existing user agents. Using Ogg/Theora/Vorbis and MP4/H.264/AAC seems to cover most of the cases out there (if not all). However, Ogg/Theora/Vorbis is being replaced in favor of WebM nowadays. See the wikipedia [http://en.wikipedia.org/wiki/Open_video#Table browser support table].
+
+== Streaming ==
+
+The HTML5 specification does not specify a particular streaming method. It is expected that HTTP 1.1 progressive streaming is at least supported. Adaptive/live streaming may be supported as a UA extension. For an example, see the [http://developer.apple.com/iphone/library/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/StreamingMediaGuide.pdf HTTP Live Streaming Overview] from Apple.
+
+== Digital Rights Management ==
+
+The HTML5 specification does not specify a particular digital rights management (DRM) method. It is expected that videos with no DRM are at least supported. DRM may be supported as a UA extension.
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=Desired video file should be within src attribute. As a best practice you should also include the controls attribute to show playback and volume controls
-|Code=<video src="video.webm" controls="controls"></video>
+|Code=<nowiki>
+<video src="video.webm" controls="controls"></video>
+</nowiki>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=HTML5 Video Tag can support different encodings
-|Code=<video>
+|Code=<nowiki>
+<video>
             <source src="video.mp4" type="video/mp4" />
             <source src="video.webm" type="video/webm" />
             <source src="video.ogg" type="video/ogg" />
             Your browser does not support the <code>video</code> element. 
             You can download it <a href="video.webm">here</a>.
 </video>
+</nowiki>
 |LiveURL=http://code.webplatform.org/gist/5314736
 }}
 }}
 {{Notes_Section
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.6
+|Usage=
+|Notes=
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-video-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-video-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Video
+|Manual_links=
+|External_links=* [[http://diveintohtml5.info/video.html| Video Chapter]] from Dive into HTML5
+|Manual_sections=
+}}
+{{Topics|HTML, Video}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MDN_link=
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -338,17 +401,4 @@ You can also use flash as a fallback for when the browser does not support any o
 |Browser=Firefox
 |Note=Last versions of Firefox support MPEG-4/H.264 on Windows Vista, Windows 7, Windows 8, Linux, last versions of Android, and soon everywhere [https://blog.mozilla.org/blog/2013/10/30/video-interoperability-on-the-web-gets-a-boost-from-ciscos-h-264-codec/]
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Video
-|External_links=* [[http://diveintohtml5.info/video.html| Video Chapter]] from Dive into HTML5
-* [[http://www.elstel.org/html5video/FlashVersusHtml5Video.html.en#ffmpeg Videos for the Web with HTML5 - an Introduction]] convert videos into HTML5 format using ffmpeg or a GUI-frontend
-}}
-{{Topics|HTML, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
