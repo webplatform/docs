@@ -1,12 +1,12 @@
 {{Page_Title}}
 {{Flags
-|State=Not Ready
-|Editorial notes=Add attribute info, document list of link relations
+|State=Almost Ready
+|Editorial notes=Discussion on semantics of hyperlinks
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Enables the current document to establish links to external documents.}}
 {{Markup_Element
