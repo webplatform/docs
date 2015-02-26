@@ -2,6 +2,7 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Add summary, notes, compatibility.
+Add information about alternatives for producing word breaks, including Unicode zero-width spaces.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
