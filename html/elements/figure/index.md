@@ -14,7 +14,7 @@ Add Category, Parent, Children and Compatibility information.
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
 |CSS_display=block
-|Content=
+|Content=A figure can be given a caption with the [[html/elements/figcaption|figcaption]] element.
 }}
 {{Examples_Section
 |Not_required=No
@@ -60,7 +60,7 @@ Windows Internet Explorer 9.  The '''figure''' element is only supported for we
 }}
 }}
 {{See_Also_Section
-|Manual_links=
+|Manual_links=* [[html/elements/figcaption|figcaption]]
 |External_links=
 |Manual_sections=
 }}
