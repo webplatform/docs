@@ -13,25 +13,25 @@
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
 |CSS_display=ruby
-|Content=Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.<br />In Japanese, this form of typography is also known as <i>furigana</i>.
+|Content=Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.
+
+In Japanese, this form of typography is also known as <i>furigana</i>.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''RUBY''' element to specify the first string of text as the base, and the '''RT''' element to specify the second string of text as the ruby.
-|Code=&lt;RUBY&gt;
+|Code=&lt;ruby&gt;
    Base Text
    &lt;RT&gt;Ruby Text
-&lt;/RUBY&gt;
+&lt;/ruby&gt;
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ruby.htm
 }}{{Single Example
 |Language=HTML
 |Description=In this example, each ideograph in the Japanese text <i>漢字</i> is annotated with its reading in <i>hiragana</i>.
 |Code=<nowiki>
-<pre lang="ja">
-<p>...<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>...</p>
-</pre>
+<p lang="ja">...<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>...</p>
 </nowiki>
 |LiveURL=
 }}
