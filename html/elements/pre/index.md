@@ -34,16 +34,27 @@ The author should consider accessibility, when use the pre element. This is beca
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=HTML
 |Description=This example uses the '''PRE''' element to format text so that it renders exactly as it is typed.
-|Code=&lt;PRE&gt;
+|Code=&lt;pre&gt;
 This text is formatted
    exactly
       as
          it
       is
    typed.
-&lt;/PRE&gt;
+&lt;/pre&gt;
+|LiveURL=
+}}{{Single Example
+|Language=HTML
+|Description=Example of pre-formatted computer code inside a &lt;code&gt; tag
+|Code=<nowiki>
+&lt;pre&gt;
+  &lt;code&gt;
+  process.run();
+  &lt;/code&gt;
+&lt;/pre&gt;
+</nowiki>
 |LiveURL=
 }}
 }}
