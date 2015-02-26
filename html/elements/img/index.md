@@ -133,6 +133,10 @@ In such cases, the width and height attributes should both be set to zero.
 
 ==== An image in an e-mail or private document intended for a specific person who is known to be able to view images ====
 When an image is included in a private communication (such as an HTML e-mail) aimed at a specific person who is known to be able to view images, the alt attribute may be omitted. However, even in such cases it is strongly recommended that alternative text be included (as appropriate according to the kind of image involved, as described in the above entries), so that the e-mail is still usable should the user use a mail client that does not support images, or should the document be forwarded on to other users whose abilities might not include easily seeing images.
+
+== History ==
+
+The '''img''' tag was proposed and implemented around 1993: [http://1997.webhistory.org/www.lists/www-talk.1993q1/0182.html]
 }}
 {{Examples_Section
 |Not_required=No
