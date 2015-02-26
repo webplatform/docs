@@ -1,25 +1,22 @@
-{{Page_Title|Using Flexible Boxes for Layout}}
+{{Page_Title|Using flex for page layout}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Deletion candidate; temporary page used for test
+|Editorial notes=
 |Checked_Out=No
-|High-level issues=Stub, Deletion Candidate
+|High-level issues=Stub
 }}
 {{Byline}}
-{{Summary_Section|Flexible Boxes}}
+{{Summary_Section|'''flex''', or the Flexbox, is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used '''float''' for.}}
 {{Tutorial
-|Content=This is some sample content.
+|Content=
 }}
 {{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{Compatibility
+|topic=css
+|feature=flex
 }}
 {{See_Also_Section
-|Topic_clusters=Flexbox
+|Topic_clusters=Flex
 }}
 {{Topics|CSS}}
 {{External_Attribution
