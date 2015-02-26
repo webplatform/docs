@@ -1,40 +1,66 @@
 {{Page_Title}}
 {{Flags
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
+|State=Almost Ready
+|Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The HTML <output> element represents the result of a calculation.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLOutputElement
+|Tag_omissions=Closing tag required
+|CSS_display=inline
 |Content=The HTML <output> element represents the result of a calculation.
+
+== Attributes ==
+*<code>for</code> = unordered set of unique space-separated tokens<br />Allows an explicit relationship to be made between the result of a calculation and the elements that represent the values that went into the calculation or that otherwise influenced the calculation.<br />This attribute must have the value of an ID of an element in the same Document.
+*<code>form</code> = the ID of a form element in the element's owner<br />Associate the output element with its form owner.<br />By default, the output element is associated with its nearest ancestor form element.
+*<code>name</code> = unique name<br />Represents the element's name.
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
+|Description=
 |Code=<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
     <input type="range" name="b" value="50" /> +
     <input type="number" name="a" value="10" /> =
     <output name="result"></output>
 </form>
+|LiveURL=
 }}
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-output-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-output-element
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -96,12 +122,4 @@
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
