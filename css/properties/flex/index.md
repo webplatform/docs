@@ -1,6 +1,7 @@
 {{Page_Title|flex}}
 {{Flags
 |State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -15,6 +16,7 @@
 |Computed value=See individual properties
 |Animatable=Yes
 |CSS object model property=flex
+|CSS percentages=
 |Values={{CSS Property Value
 |Data Type=<[[css/properties/flex-grow|flex-grow]]> <[[css/properties/flex-shrink|flex-shrink]]> <[[css/properties/flex-basis|flex-basis]]>
 |Description=The shorthand value of this property includes the following values:
@@ -152,13 +154,32 @@
 ** '''flex-grow''' value when omitted: '''1'''
 ** '''flex-basis''' value when omitted: '''0'''
 * When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, '''&nbsp;&nbsp;0''' will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in '''0%'''.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=CSS Flexible Box Layout Module
 |URL=http://dev.w3.org/csswg/css-flexbox/#flex
 |Status=Candidate Recommendation
+|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Flexbox
+|Manual_links=
+|External_links=Also, check out the following live demo sites:
+* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
+* [http://the-echoplex.net/flexyboxes Flexy Boxes]
+* http://tympanus.net/codrops/css_reference/flexbox/
+|Manual_sections=
+}}
+{{Topics|Flexbox}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MDN
+|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_flexible_boxes
+|MSDN_link=
+|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -224,18 +245,4 @@
 |Version=18, 19
 |Note=Firefox supports only single-line flexbox. To activate flexbox support, for Firefox 18 and 19, the user has to change the about:config preference "layout.css.flexbox.enabled" to true.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-|External_links=Also, check out the following live demo sites:
-* [http://demo.agektmr.com/flexbox/ Flexbox Playground]
-* [http://the-echoplex.net/flexyboxes Flexy Boxes]
-}}
-{{Topics|Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_flexible_boxes
-|MSDN_link=
-|HTML5Rocks_link=
 }}
