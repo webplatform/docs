@@ -167,7 +167,7 @@
 {{See_Also_Section
 |Topic_clusters=Flexbox
 |Manual_links=
-|External_links=Also, check out the following live demo sites:
+|External_links=Also, check out the following live demo sites and article about flexbox:
 * [http://demo.agektmr.com/flexbox/ Flexbox Playground]
 * [http://the-echoplex.net/flexyboxes Flexy Boxes]
 * http://tympanus.net/codrops/css_reference/flexbox/
