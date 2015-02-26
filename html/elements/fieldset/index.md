@@ -11,16 +11,16 @@
 {{Summary_Section|The '''fieldset''' element is used to group related fields within a form.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFieldSetElement
-|Content=The ''fieldset'' element represents a set of form controls. Optionally grouped under a common name with an additional '''legend''' element.
+|Tag_omissions=Closing tag required
+|CSS_display=block
+|Content=The ''fieldset'' element represents a set of form controls. Optionally given a name with a child '''legend''' element.
 
 === attributes ===
 
 '''NOTE''': Those attributes are considered valid since HTML5
 
 ; disabled : If this Boolean attribute is set, the form controls that are its descendants, except descendants of its first optional '''legend''' element, are disabled, i.e., not editable. They won't receive any browsing events, like mouse clicks or focus-related ones. Often browsers display such controls as gray.
-
 ; form : This attribute has the value of the id attribute of the '''form''' element its related to. Its default value is the id of the nearest &lt;form> element it is a descendant of.
-
 ; name : The name associated with the group. This is for use in the <code>form.elements</code> API.
 }}
 {{Examples_Section
@@ -113,17 +113,17 @@ Not all form control descendants of a disabled '''fieldset''' are properly disab
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-fieldset-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-fieldset-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#edef-FIELDSET
 |Status=W3C Recommendation
