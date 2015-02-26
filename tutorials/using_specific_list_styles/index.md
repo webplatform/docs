@@ -181,7 +181,7 @@ You can also use counters in more complex ways—for example, to number sections
 ''Figure 4. Unordered list items and numbered paragraphs.''
 </li>
 
-It is also important to mention that styled lists are often used as menus because of semantics. For that people use css properties like list-style: none, display: inline-block or block etc.
+It is also important to mention for this tutorial that styled lists are often used as menus because of semantics. For that people use css properties like list-style: none, display: inline-block or block etc + pseudo-classes like ::before and ::after and other custom styles for these items to look beautiful.
 }}
 {{Notes_Section
 |Usage=
