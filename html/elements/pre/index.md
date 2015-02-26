@@ -2,7 +2,7 @@
 {{Flags
 |State=Almost Ready
 |Editorial notes=HTML information must be modified. Add compatibility.
-How is whitespace/escaping handled when a <code> tag is inside a <pre> tag?
+How is whitespace/escaping handled when a 'code' tag is inside a 'pre' tag?
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
