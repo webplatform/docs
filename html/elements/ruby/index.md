@@ -22,10 +22,12 @@ In Japanese, this form of typography is also known as <i>furigana</i>.
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''RUBY''' element to specify the first string of text as the base, and the '''RT''' element to specify the second string of text as the ruby.
-|Code=&lt;ruby&gt;
-   Base Text
-   &lt;RT&gt;Ruby Text
-&lt;/ruby&gt;
+|Code=<nowiki>
+<ruby>
+  <rb>Base Text</rb>
+  <rt>Ruby Text</rt>
+</ruby>
+</nowiki>
 |LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ruby.htm
 }}{{Single Example
 |Language=HTML
