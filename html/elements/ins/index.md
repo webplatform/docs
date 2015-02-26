@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Add Compatibility 
+|Editorial notes=Add Compatibility
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -9,6 +9,8 @@
 {{Summary_Section|The '''ins''' element represents a range of text that has been inserted (added) into a document.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLModElement
+|Tag_omissions=
+|CSS_display=
 |Content==== Attributes ===
 
 <p>Besides the [[html/global_attributes|global attributes]] the following attributes are supported:</p>
@@ -33,6 +35,7 @@
 was written. &lt;ins datetime{{=}}"1997-10-01T12:15:30-05:00"&gt;This 
 text was inserted on 1 October 1997 at 12:15pm in
 the Eastern time zone.&lt;/ins>&lt;/p>
+|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses '''ins''' and '''del''' elements to explain changes in a document
@@ -53,37 +56,34 @@ If you want to underline text, but it is not an insertion, you should use the CS
 If you are looking to emphasize a word or phrase, the [[html/elements/em|'''em''' element]] would be a better choice.
 
 For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cite''']] attribute depends on the current document compatibility mode.
+|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/edits.html#the-ins-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/edits.html#the-ins-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-ins
 |Status=W3C Recommendation
 |Relevant_changes=
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=HTML, Text
+|Manual_links=* [[html/elements/ins|ins]]
+* [[html/elements/del|del]]
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/ins Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535842%28v=vs.85%29.aspx Microsoft Developer Network]
 * http://www.w3.org/TR/html-markup/ins.html#ins
+|Manual_sections=
 }}
 {{Topics|HTML, XHTML}}
 {{External_Attribution
@@ -92,4 +92,11 @@ For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cit
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
