@@ -40,17 +40,20 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 <ul>
 <li>Ms. Olsen attends middle school, and particularly likes her literature class. She has attention deficit hyperactivity disorder (ADHD) and dyslexia, and the combination leads to substantial difficulty in reading.</li>
-   <li>Ms. Laitinen is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet. She is blind and, like many other people who are blind, she does not read braille.<!-- @@ this will probably change -- update here when update in the linked document --></li>
+   <li>Ms. Laitinen is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet. She is blind and, like many other people who are blind, she does not read braille.</li>
    <li>Mr. Yunus is 85 years old and started to use the Web several years ago to stay in touch with family and friends, and to read about art history. He has reduced vision, hand tremor, and mild short-term memory loss due to ageing.</li>
    </ul>
-<p>More details on how these and others use the Web are in [http://www.w3.org/WAI/intro/people-use-web/stories Stories of Web Users].</p>
 
-<p>People have a diverse range of abilities that impact how they use the Web. Some people have temporary impairments, some have age-related impairments, some have disabilities from birth, some develop disabilities from injuries or health conditions, and some have multiple disabilities. Some people's abilities change based on fatigue, inflammation, medication, etc. To learn about the diversity of abilities, and about the types of web accessibility barriers that people commonly encounter from poorly designed websites and web tools, see [http://www.w3.org/WAI/intro/people-use-web/diversity Diversity of Web Users].</p>
-<p>People with disabilities access and navigate the Web in different ways. Sometimes people configure standard software and hardware according to their needs, and sometimes people use specialized software or hardware that help them perform certain tasks. To learn about the techniques and tools that people with disabilities use to interact with the Web, such as browser settings, text-to-speech, voice recognition, see [http://www.w3.org/WAI/intro/people-use-web/browsing Diversity in Web Use].<!-- @@ this page title will probably change -- update here when update in the linked document --></p>
+More details on how these and others use the Web are in [http://www.w3.org/WAI/intro/people-use-web/stories Stories of Web Users].
+
+
+People have a diverse range of abilities that impact how they use the Web. Some people have temporary impairments, some have age-related impairments, some have disabilities from birth, some develop disabilities from injuries or health conditions, and some have multiple disabilities. Some people's abilities change based on fatigue, inflammation, medication, etc. To learn about the diversity of abilities, and about the types of web accessibility barriers that people commonly encounter from poorly designed websites and web tools, see [http://www.w3.org/WAI/intro/people-use-web/diversity Diversity of Web Users].
+
+People with disabilities access and navigate the Web in different ways. Sometimes people configure standard software and hardware according to their needs, and sometimes people use specialized software or hardware that help them perform certain tasks. To learn about the techniques and tools that people with disabilities use to interact with the Web, such as browser settings, text-to-speech, voice recognition, see [http://www.w3.org/WAI/intro/people-use-web/browsing Diversity in Web Use].
 
 ==Accessibility requirements==
 
-<p>In order for people with disabilities to be able to use the Web, there are certain things that websites and web tools need to do. These accessibility requirements fulfill four underlying principles:</p>
+In order for people with disabilities to be able to use the Web, there are certain things that websites and web tools need to do. These accessibility requirements fulfill four underlying principles:
 
 <ol>
 <li><strong>Perceivable</strong> information and user interface.<br />Accessibility requirements include: providing text alternative for images, providing captions or transcripts for video and audio, and providing sufficient color contrast between text and background.</li>
@@ -65,12 +68,13 @@ However, when websites, web technologies, or web tools are badly designed, they 
 
 ==ARIA==
 
-<p>
+
 "WAI-ARIA describes how to add semantics and other metadata to HTML content in order to make user interface controls and dynamic content more accessible. For example, with WAI-ARIA it is possible to identify a list of links as a navigation menu and to state whether it is expanded or collapsed." 
 For further information please refer to [http://en.wikipedia.org/wiki/WAI-ARIA WAI-ARIA]
-</p>
-<p>ARIA provides the ability to specify visual information to [http://en.wikipedia.org/wiki/Computer_accessibility accessability software]. The software can then inform the impaired user about the purpose of elements on the page and what "state" they are in.</p> 
-<p>For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].</p>
+
+ARIA provides the ability to specify visual information to [http://en.wikipedia.org/wiki/Computer_accessibility accessability software]. The software can then inform the impaired user about the purpose of elements on the page and what "state" they are in.
+
+For an introduction to Rich Internet Application accessibility challenges and solutions, see [http://www.w3.org/TR/wai-aria-primer/ WAI-ARIA 1.0 Primer].
 
 ===Learning Materials===
 
@@ -84,13 +88,14 @@ The accessibility principles apply to the components introduced below. It is ess
 
 ===Web Content===
 
-<p>Content is the information in a web page or web <strong>application</strong>, including: natural information such as text, images, and sounds; code or markup that defines structure, presentation, interaction, etc. Content requirements are covered in Web Content Accessibility Guidelines (<strong>WCAG</strong>).</p>
+Content is the information in a web page or web <strong>application</strong>, including: natural information such as text, images, and sounds; code or markup that defines structure, presentation, interaction, etc. Content requirements are covered in Web Content Accessibility Guidelines ('''WCAG''').
 
-<p>The WCAG documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see the <strong>[http://www.w3.org/WAI/intro/wcag.php WCAG Overview]</strong>.</p>
+The '''WCAG''' documents explain how to make web content (including web applications) more accessible to people with disabilities. To learn more about how WCAG is structured and about the supporting documents that provide practical advice for meeting accessibility requirements, see [http://www.w3.org/WAI/intro/wcag.php the '''WCAG Overview'''].
 
 ===Tools===
 
 The tools that we use to create and use web content can help or hinder web accessibility.
+
 <ul>
    <li><strong>Authoring tools</strong> are software and services that are used to create and edit websites; for example, content management systems (CMS), HTML editors, websites that let users add content (such as social media), and other tools. Tools should support people in making their web content accessible, and the tools should be accessible so that people with disabilities can use them. This is covered in Authoring Tool Accessibility Guidelines, see <strong>[http://www.w3.org/WAI/intro/atag.php ATAG Overview]</strong>.</li>
    <li><strong>Evaluation tools</strong> help check if websites meet standards. (Relevant information is in [http://www.w3.org/WAI/eval/selectingtools.html Selecting Web Accessibility Evaluation Tools].) </li>
@@ -100,13 +105,13 @@ The tools that we use to create and use web content can help or hinder web acces
 
 ===People - web content creators and web users===
 
-<p>In addition to web content and tools, people are an important component of web accessibility.</p>
+In addition to web content and tools, people are an important component of web accessibility.
 
-<p><strong>People who create content</strong> need to understand and implement accessibility. This includes developers, designers, authors, managers, etc., anyone who is involved with developing content (including applications), authoring tools, evaluation tools, browsers and other user agents.</p>
+'''People who create content''' need to understand and implement accessibility. This includes developers, designers, authors, managers, etc., anyone who is involved with developing content (including applications), authoring tools, evaluation tools, browsers and other user agents.
 
-<p><strong>People who use the Web</strong> have different knowledge, experiences, and skill levels that affect accessibility; for example, how well a person knows how to use assistive technologies or adaptive strategies, and if they can get tools to meet their needs.</p>
+'''People who use the Web''' have different knowledge, experiences, and skill levels that affect accessibility; for example, how well a person knows how to use assistive technologies or adaptive strategies, and if they can get tools to meet their needs.
 
-<p>For more information on these web content, tools, and people components, see the [http://www.w3.org/WAI/presentations/components/Overview.php &quot;Components of Web Accessibility&quot; Presentation] or [http://www.w3.org/WAI/intro/components.php Essential Components of Web Accessibility].</p>
+For more information on these web content, tools, and people components, see the [http://www.w3.org/WAI/presentations/components/Overview.php &quot;Components of Web Accessibility&quot; Presentation] or [http://www.w3.org/WAI/intro/components.php Essential Components of Web Accessibility].
 
 ==Business case==
 
@@ -136,7 +141,7 @@ The W3C Web Accessibility Initiative (WAI) brings together people from industry,
 
 * [http://www.w3.org/WAI/EO/wiki/Web_Accessibility_Basics This page originally available at W3C WAI]
 * [http://www.w3.org/WAI/GL/wiki/Techniques/HTML5 Improving accessibility using HTML5 features]
-* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features] -- please a little explanation of what ARIA *is*
+* [http://www.w3.org/WAI/GL/wiki/Techniques/ARIA Improving accessibility using ARIA features]
 * [http://www.w3.org/TR/WCAG20-TECHS/ HTML and CSS techniques for passing WCAG conformance criteria]
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Making Accessible Windows Store apps using JavaScript and HTML]
 *[https://webaccessibility.withgoogle.com Introduction to Web Accessibility by Google]
