@@ -6,7 +6,7 @@
 |High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The ruby element allows one or more spans of phrasing content to be marked with ruby annotations. Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.}}
 {{Markup_Element
@@ -14,7 +14,6 @@
 |Tag_omissions=Closing tag required
 |CSS_display=ruby
 |Content=Ruby annotations are short runs of text presented alongside base text, primarily used in East Asian typography as a guide for pronunciation or to include other annotations.<br />In Japanese, this form of typography is also known as <i>furigana</i>.
-
 }}
 {{Examples_Section
 |Not_required=No
