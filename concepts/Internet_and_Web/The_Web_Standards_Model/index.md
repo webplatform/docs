@@ -86,7 +86,7 @@ Cascading Style Sheets gives you fine control over the formatting and layout of 
 <syntaxhighlight lang="css">p {
    line-height: 2;
    color: green;
- }</syntaxhighlight>
+}</syntaxhighlight>
 
 Now any content enclosed within <code>&lt;p&gt;&lt;/p&gt;</code> tags will have double the line height, and be colored green.
  
@@ -107,9 +107,9 @@ The example I present below is a references page, which you could use to cite re
 === index.html ===
  
 <syntaxhighlight lang="html5"><!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"/>
   <title>References</title>
   <style type="text/css">
     @import url("styles.css");
