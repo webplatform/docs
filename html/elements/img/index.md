@@ -22,14 +22,15 @@ The &lt;img&gt; element can be nested in an [[html/elements/a|&lt;a&gt;]] elemen
 Alternatives to the &lt;img&gt; element include setting the background-image property of an element.
 
 ===Attributes===
-*[http://docs.webplatform.org/wiki/html/attributes/alt alt]
-*[http://docs.webplatform.org/wiki/html/attributes/src_(input,_img) src]
-*[http://docs.webplatform.org/wiki/html/attributes/srcset srcset]
-*[http://docs.webplatform.org/wiki/html/attributes/sizes sizes]
-*[http://docs.webplatform.org/wiki/html/attributes/useMap usemap]
-*[http://docs.webplatform.org/wiki/html/attributes/isMap ismap]
-*[http://docs.webplatform.org/wiki/html/attributes/width_(img,_input_elements) width]
-*[http://docs.webplatform.org/wiki/html/attributes/height height]
+; [[html/attributes/alt|alt] : Description of image contents
+; [[html/attributes/longdesc|longdesc] : Link to description of image contents
+; [[html/attributes/src_(input,_img)|src] : Link to image contents
+; [[html/attributes/srcset|srcset]
+; [[html/attributes/sizes|sizes] : Specify alternate resolutions of the image
+; [[html/attributes/useMap|usemap]
+; [[html/attributes/isMap|ismap] : Create a special kind of link
+; [[html/attributes/width_(img,_input_elements)|width]
+; [[html/attributes/height|height] : define image dimensions
 
 ===States===
 An img is always in one of the following states:
