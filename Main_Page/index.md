@@ -140,7 +140,7 @@ In the future, Web Platform Docs will include even more content for you to explo
 
 == Contribute to Web Platform Docs ==
 
-We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Editors_Guide|Editor's Guide]].
+We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Contributors_Guide|Contributor’s Guide]].
 
 * To file bugs on webplatform, use the [http://project.webplatform.org Project Management page]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
 * If you have a question about webplatform.org, please [[WPD:FAQ|look for an answer in the FAQ first]].
