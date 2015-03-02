@@ -3,7 +3,6 @@
 |State=Ready to Use
 |Editorial notes=
 |Checked_Out=No
-|Content=Errors
 }}
 {{Byline
 |Name=
@@ -55,11 +54,11 @@ As forms are the main tool for data input in web applications, and as the data w
 to create an input element with more capabilities, to collect the data with more semantics and better definition, and to allow for easier, more 
 effective validation and error management.
  
-=== &lt;input type="number"&gt; ===
+=== &lt;input type="number"/&gt; ===
  
 The first new input type we'll discuss is <code>type="number"</code>:
  
-<syntaxhighlight lang="html5"><input type="number" ... ></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="number"/></syntaxhighlight>
  
 This input type creates a special kind of input field for number entry &mdash; in most supporting browsers this appears as a text entry field with 
 a "spinner" control, which allows you to increment and decrement its value.
@@ -68,12 +67,12 @@ a "spinner" control, which allows you to increment and decrement its value.
  
 ''Figure 2: A <code>number</code> input type.''
 
-=== &lt;input type="range"&gt; ===
+=== &lt;input type="range"/&gt; ===
  
 Creating a slider control to allow you to choose among a range of values used to be a complicated, semantically dubious proposition, 
 but with HTML5 it is easy &mdash; you just use the <code>range</code> input type:
  
-<syntaxhighlight lang="html5"><input type="range" ... ></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="range"/></syntaxhighlight>
  
 [[Image:html5formfig3.png|A range input type]]
  
@@ -84,18 +83,18 @@ provide these through other means; for instance, to display the current value, w
 with some JavaScript to update its display whenever the user interacts with the form:
  
 <syntaxhighlight lang="html5"><form oninput="output.value = weight.value">
-    <input type="range" id="weight">
+    <input type="range" id="weight"/>
     <output id="output"></output>
 </form></syntaxhighlight>
 
-=== &lt;input type="date"&gt; and other date/time controls ===
+=== &lt;input type="date"/&gt; and other date/time controls ===
  
 HTML5 has a number of different input types for creating complicated date/time pickers, like the kind of you see featured on most
 flight/train booking sites. These used to be created using unsemantic kludges, so it is great that we now have standardized, easy ways 
 to do this. For example:
  
-<syntaxhighlight lang="html5"><input type="date" ... >
-<input type="time" ... ></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="date"/>
+<input type="time"/></syntaxhighlight>
  
 Respectively, these create a fully functioning date picker, and a text input containing a separator for hours, minutes, and seconds 
 (depending on the <code>step</code> attribute specified) that only allows you to input a time value.
@@ -110,7 +109,7 @@ But it doesn't end here &mdash; there are a number of other related input types 
 * <code>month</code>: allows you to choose a month, stored internally as a number between 1-12, although different browsers may provide you with more elaborate choosing mechanisms, like a scrolling list of the month names.
 * <code>week</code>: allows you to choose a week, stored internally in the format 2010-W37 (week 37 of the year 2010), and chosen using a similar datepicker to the ones we have seen already.
 
-=== &lt;input type="color"&gt; ===
+=== &lt;input type="color"/&gt; ===
  
 This input type brings up a color picker. Opera's implementation allows the user to pick from a selection of colors, enter hexadecimal values 
 directly in a text field, or invoke the operating system's native color picker.
@@ -119,7 +118,7 @@ directly in a text field, or invoke the operating system's native color picker.
 
 ''Figure 5: a <code>color</code> input, and the native color pickers on Windows and OS X.''
 
-=== <input type="search"> ===
+=== <input type="search"/> ===
  
 This input type is arguably nothing more than a differently-styled text input. Browsers are meant to style these inputs the same way as any 
 OS-specific search functionality. Beyond this purely aesthetic consideration, though, it's still important to note that marking up search fields 
@@ -137,20 +136,20 @@ users to choose from. But what if we wanted to create a list that allowed users 
 type in their own? That used to require a lot of fiddly scripting, but now you can simply use the <code>list</code> attribute to connect an ordinary 
 input to a list of options, defined inside a <code>&lt;datalist&gt;</code> element.
 
-<syntaxhighlight lang="html5"><input type="text" list="mydata" ... >
+<syntaxhighlight lang="html5"><input type="text" list="mydata"/>
 <datalist id="mydata">
-    <option label="Mr" value="Mister">
-    <option label="Mrs" value="Mistress">
-    <option label="Ms" value="Miss">
+    <option label="Mr" value="Mister"/>
+    <option label="Mrs" value="Mistress"/>
+    <option label="Ms" value="Miss"/>
 </datalist></syntaxhighlight>
  
 [[Image:html5formfig7.png|Creating an input element with preset options using datalist]]
  
 ''Figure 7: Creating an input element with suggestions using <code>datalist</code>.''
 
-=== &lt;input type="tel"&gt;, &lt;input type="email"&gt; and &lt;input type="url"&gt; ===
+=== &lt;input type="tel"/&gt;, &lt;input type="email"/&gt; and &lt;input type="url"/&gt; ===
  
-As their names imply, these new input types relate to telephone numbers, email addresses, and URLs. Browsers will render these as normal text inputs, 
+As their names imply, these new input types relate to telephone numbers, email addresses, and URLs (here including URIs and IRIs). Browsers will render these as normal text inputs, 
 but explicitly stating what kind of text we're expecting in these fields plays an important role in client-side form validation. Additionally, on
 certain mobile devices the browser will switch from its regular text entry on-screen keyboard to the more context-relevant variants. Again, it's
 conceivable that in the future browsers will take further advantage of these explicitly marked-up inputs to offer additional functionality, such as
@@ -168,7 +167,7 @@ expected type of information we want the user to enter &mdash; which disappears 
 focus. While this used to require some JavaScript (clearing the contents of the form field on focus and resetting it to the default text if the user 
 left the field without entering anything), we can now simply use the <code>placeholder</code> attribute:
  
-<syntaxhighlight lang="html5"><input type="text"... placeholder="John Doe"></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="text" placeholder="John Doe"/></syntaxhighlight>
  
 [[Image:html5formfig8.png|A text input with placeholder text]]
  
@@ -179,7 +178,7 @@ left the field without entering anything), we can now simply use the <code>place
 Another common feature that previously had to rely on scripting is having a form field automatically focused when a page is loaded. This can now be 
 achieved very simply with the <code>autofocus</code> attribute:
  
-<syntaxhighlight lang="html5"><input type="text" autofocus ... ></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="text" autofocus=""/></syntaxhighlight>
  
 Keep in mind that you shouldn't have more than one <code>autofocus</code> form control on a single page. You should also use this sort of 
 functionality with caution, especially in situations where a form represents the main area of interest in a page. A search page is a good example 
@@ -194,7 +193,7 @@ travel booking form you could limit the datepicker to only allow the user to sel
 and <code>max</code> are actually necessary to define what values are returned when the form is submitted. The code is pretty simple and 
 self-explanatory:
  
-<syntaxhighlight lang="html5"><input type="number" ... min="1" max="10"></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="number" min="1" max="10"/></syntaxhighlight>
  
 === step ===
  
@@ -202,7 +201,7 @@ The <code>step</code> attribute can be used with a numerical input value to dict
 For example, you might want users to enter a particular time, but only in 30 minute increments. In this case, we can use the <code>step</code> 
 attribute, keeping in mind that for <code>time</code> inputs the value of the attribute is in seconds:
  
-<syntaxhighlight lang="html5"><input type="time" ... step="1800"></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="time" step="1800"/></syntaxhighlight>
  
 == New output mechanisms ==
  
@@ -217,7 +216,7 @@ pushing some text into in a random <code>span</code> or <code>div</code>). To ma
 <code>&lt;output&gt;</code> relates to, we can (in a similar way to <code>&lt;label&gt;</code>) pass a list of <code>ID</code>s in the element's 
 optional <code>for</code> attribute.
  
-<syntaxhighlight lang="html5"><input type="range" id="rangeexample" ... >
+<syntaxhighlight lang="html5"><input type="range" id="rangeexample"/>
 <output onforminput="value=rangeexample.value" for="rangeexample"></output></syntaxhighlight>
  
 === &lt;progress&gt; and &lt;meter&gt; ===
@@ -247,7 +246,7 @@ One of the most common aspects of form validation is the enforcement of required
 pieces of information have been entered. This can now simply be achieved by adding the <code>required</code> attribute to an <code>input</code>, 
 <code>select</code> or <code>textarea</code> element.
  
-<syntaxhighlight lang="html5"><input type="text" ... required></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="text" required=""/></syntaxhighlight>
  
 [[Image:html5formfig10.png|Opera's client-side validation in action, showing an error for a required field that was left empty]]
 
@@ -269,7 +268,7 @@ For other text entry fields that nonetheless need to follow a certain structure 
 specific sequence of lowercase letters and numbers), authors can use the <code>pattern</code> attribute to specify their own custom regular 
 expression.
  
-<syntaxhighlight lang="html5"><input type="text" ... pattern="[a-z]{3}[0-9]{3}"></syntaxhighlight>
+<syntaxhighlight lang="html5"><input type="text" pattern="[a-z]{3}[0-9]{3}"/></syntaxhighlight>
 
 == Browser support ==
  
