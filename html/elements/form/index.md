@@ -66,20 +66,20 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
+|Language=HTML
 |Description=This example uses the '''form''' element to create a basic form containing a text entry box for the user's name and a select control for choosing a favorite ice cream flavor. When the user clicks the '''Submit''' button, the form sends the data to the URL listed in the [[html/attributes/action|'''action''']] attribute. The value of the [[html/attributes/method|'''method''']] attribute determines how to send the data to the server.
-|Code=&lt;html&gt;
-    &lt;form action{{=}}"http://example.microsoft.com/sample.asp" method{{=}}"post"&gt;
-        Enter your name: &lt;input name{{=}}"FName"/&gt;&lt;br/&gt;
+|Code=<nowiki>
+    <form action="http://example.microsoft.com/sample.asp" method="post">
+        Enter your name: <input name="FName"/><br/>
         Favorite Ice Cream Flavor:
-        &lt;select name{{=}}"Flavor"&gt;
-            &lt;option value{{=}}"Chocolate"&gt;Chocolate&lt;/option&gt;
-            &lt;option value{{=}}"Strawberry"&gt;Strawberry&lt;/option&gt;
-            &lt;option value{{=}}"Vanilla" selected="selected"&gt;Vanilla&lt;/option&gt;
-        &lt;/select&gt;
-        &lt;p&gt;&lt;input type{{=}}"submit"/&gt;&lt;/p&gt;
-    &lt;/form&gt;
-&lt;/html&gt;
+        <select name="Flavor">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Vanilla" selected="selected">Vanilla</option>
+        </select>
+        <p><input type="submit"/></p>
+    </form>
+</nowiki>
 |LiveURL=
 }}
 }}
@@ -90,7 +90,7 @@
 Forms enable client-side users to submit data to a server in a standardized format. The creator of a '''form''' designs it to collect the required data using a variety of controls, such as '''input''' or '''select'''. Users viewing the '''form''' fill in the data and then click the '''Submit''' button to send the data to the server. A script on the server then processes the data.
 Each control element's [[html/attributes/name (frames)|'''name''']] attribute must be defined if the data is to be submitted with the form. An element in a form can be referenced by the '''name''' property or the [[html/attributes/id|'''id''']] property, or through the [[dom/properties/elements|'''elements''']] collection.
 When the focus is on a control in a form and the user presses ESC, the value of the control reverts to the last value. The form resets if the user presses ESC again.
-If the form includes only one text box and the user presses ENTER, the [[dom/events/submit|'''onsubmit''']] event fires. If the form has an '''input type{{=}}submit''' element, it will appear as a button with a dark border, which indicates the user can press ENTER to submit the form.
+If the form includes only one text box and the user presses ENTER, the [[dom/events/submit|'''onsubmit''']] event fires. If the form has an '''input type="submit"''' element, it will appear as a button with a dark border, which indicates the user can press ENTER to submit the form.
 Windows Internet Explorer 8 and later. The value of the [[html/attributes/action|'''action''']] attribute depends on the current document compatibility mode.  In addition, the '''form object''' now supports [[html/attributes/enctype|'''enctype''']] as a DOM attribute.
 |Import_Notes=
 }}
