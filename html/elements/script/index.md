@@ -9,6 +9,8 @@
 {{Summary_Section|The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
+|Tag_omissions=
+|CSS_display=
 |Content====Standards information===
 *[http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-81598695 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5.
 *[http://www.w3.org/TR/html401/interact/scripts.html#h-18.2.1 HTML 4.01 Specification], Section 18.2.1.
@@ -27,7 +29,7 @@ The '''script''' object has these properties.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
-{{!}}Sets or retrieves the MIME type for the script, the default is <code>text/javascript</code>. You can't use the charset attribute with this attribute.
+{{!}}Sets or retrieves the MIME type for the script. Required in HTML 4, defaults to <code>text/javascript</code> in HTML 5. For JavaScript, this should always be set to  <code>application/javascript</code> since [https://tools.ietf.org/html/rfc4329 RFC4329].
 {{!}}Yes
 {{!}}-
 {{!}}[[html/attributes/charset{{!}}'''charset''']]
@@ -39,11 +41,11 @@ The '''script''' object has these properties.
 {{!}}Yes
 {{!}}-  
 {{!}}[[html/attributes/defer{{!}}'''defer''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously and executed synchronously.
+{{!}}Specifies that script should be executed after the document has been parsed.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/async{{!}}'''async''']]
-{{!}}Sets or retrieves the whether or not the script will be loaded asynchronously and executed asynchronously.
+{{!}}Specifies that the script should be executed asynchronously, as soon as it becomes available.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/crossorigin{{!}}'''crossorigin''']]
@@ -56,14 +58,14 @@ The '''script''' object has these properties.
 |Examples={{Single Example
 |Language=HTML
 |Description=Loading an external script.
-|Code=&lt;script src=&quot;http://example.com/Script/Url/here.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+|Code=<nowiki><script src="http://example.com/Script/Url/here.js" type="application/javascript"></script></nowiki>
 |LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=Writing an inline script.
-|Code=&lt;script type=&quot;text/javascript&quot;&gt;
+|Code=<nowiki><script type="application/javascript">
   //Do stuff...
-&lt;/script&gt;
+</script></nowiki>
 |LiveURL=
 }}
 }}
@@ -73,17 +75,17 @@ The '''script''' object has these properties.
 |Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/scripting-1.html#the-script-element
 |Status=W3C Working Draft
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/scripting-1.html#the-script-element
 |Status=W3C Recommendation
 |Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/scripts.html#edef-SCRIPT
 |Status=W3C Recommendation
