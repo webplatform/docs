@@ -4,20 +4,16 @@
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLScriptElement
-|Tag_omissions=
-|CSS_display=
-|Content====Standards information===
-*[http://www.w3.org/TR/DOM-Level-2-HTML/html#ID-81598695 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5.
-*[http://www.w3.org/TR/html401/interact/scripts.html#h-18.2.1 HTML 4.01 Specification], Section 18.2.1.
-*[http://www.w3.org/TR/html5/scripting-1.html HTML 5 Specification], Section 4.3.
+|Tag_omissions=Closing tag required
+|CSS_display=none
+|Content=
+===Attributes===
 
-===Properties===
-The '''script''' object has these properties.
 {{{!}} class="wikitable"
 {{!}}-
 !Property
@@ -25,11 +21,11 @@ The '''script''' object has these properties.
 !Used with inline scripts
 {{!}}-
 {{!}}[[html/attributes/src (script){{!}}'''src''']]
-{{!}}Retrieves the URL to an external file that contains the source code or data.
+{{!}}The URL to an external file that contains the source code or data.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/type (script element){{!}}'''type''']]
-{{!}}Sets or retrieves the MIME type for the script. Required in HTML 4, defaults to <code>text/javascript</code> in HTML 5. For JavaScript, this should always be set to  <code>application/javascript</code> since [https://tools.ietf.org/html/rfc4329 RFC4329].
+{{!}}The MIME type for the script. Required in HTML 4, defaults to <code>text/javascript</code> in HTML 5. For JavaScript, this should always be set to  <code>application/javascript</code> since [https://tools.ietf.org/html/rfc4329 RFC4329].
 {{!}}Yes
 {{!}}-
 {{!}}[[html/attributes/charset{{!}}'''charset''']]
@@ -37,7 +33,7 @@ The '''script''' object has these properties.
 {{!}}No
 {{!}}-  
 {{!}}[[html/attributes/language{{!}}'''language''']]
-{{!}}Sets or retrieves the programming language for the associated scripting engine. Depracated, use type instead.
+{{!}}The programming language for the associated scripting engine. Depracated, use type instead.
 {{!}}Yes
 {{!}}-  
 {{!}}[[html/attributes/defer{{!}}'''defer''']]
@@ -49,7 +45,7 @@ The '''script''' object has these properties.
 {{!}}No
 {{!}}-
 {{!}}[[html/attributes/crossorigin{{!}}'''crossorigin''']]
-{{!}}Sets or retrieves the whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
+{{!}}Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
 {{!}}No
 {{!}}}
 }}
