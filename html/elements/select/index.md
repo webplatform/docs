@@ -11,11 +11,24 @@
 {{Summary_Section|The <code>select</code> element is used to create a drop-down list. Used with <code>option</code> tags inside the <code>select</code> element to define the available options in the list.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLSelectElement
-|Tag_omissions=
-|CSS_display=
-|Content=Internationalization topics related to the <code>select</code> element:
+|Tag_omissions=Closing tag required
+|CSS_display=inline
+|Content=
+== Attributes ==
+*<code>autofocus</code> = boolean<br />Allows the author to indicate that a control is to be focused as soon as the page is loaded
+*<code>disabled</code> = boolean<br />If present, make the control non-interactive and to prevent its value from being submitted.
+*<code>form</code> = the ID of a form element in the element's owner<br />Associate the select element with its form owner.<br />By default, the select element is associated with its nearest ancestor form element.
+*<code>multiple</code> = boolean<br />If the attribute is present, then the select element represents a control for selecting zero or more options from the list of options. [[#Example_B|[Example B]]]
+*<code>name</code> = unique name<br />Represents the element's name.
+*<code>required</code> = boolean<br />When specified, the user will be required to select a value before submitting the form.
+*<code>size</code> = valid non-negative intege<br />Gives the number of options to show to the user.<br />If the multiple attribute is present, then the size attribute's default value is 4. If the multiple attribute is absent, then the size attribute's default value is 1.
+
+== Internationalization ==
+
+Internationalization topics related to the <code>select</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#linkloc Linking to localized content]
 * [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls] (specifically sorting of select options)
+
 }}
 {{Examples_Section
 |Not_required=No
