@@ -13,8 +13,7 @@
 |DOM_interface=dom/HTMLSelectElement
 |Tag_omissions=Closing tag required
 |CSS_display=inline
-|Content=
-== Attributes ==
+|Content=== Attributes ==
 *<code>autofocus</code> = boolean<br />Allows the author to indicate that a control is to be focused as soon as the page is loaded
 *<code>disabled</code> = boolean<br />If present, make the control non-interactive and to prevent its value from being submitted.
 *<code>form</code> = the ID of a form element in the element's owner<br />Associate the select element with its form owner.<br />By default, the select element is associated with its nearest ancestor form element.
@@ -28,27 +27,26 @@
 Internationalization topics related to the <code>select</code> element:
 * [http://www.w3.org/International/techniques/authoring-html#linkloc Linking to localized content]
 * [http://www.w3.org/International/techniques/authoring-html#formcontrols Working with form controls] (specifically sorting of select options)
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''SELECT''' element to create a drop-down list box.
-|Code=&lt;select name{{=}}"Cats" size{{=}}"1"&gt;
-&lt;option value{{=}}"1"&gt;Calico
-&lt;option value{{=}}"2"&gt;Tortie
-&lt;option value{{=}}"3" selected&gt;Siamese
-&lt;/select&gt;
+|Code=<nowiki><select name="Cats" size="1">
+<option value="1">Calico</option>
+<option value="2">Tortie</option>
+<option value="3" selected>Siamese</option>
+</select></nowiki>
 |LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/HTMLElement/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
-|Code=&lt;select id{{=}}"select-element" name{{=}}"cars" size{{=}}"3" multiple&gt;
-&lt;option value{{=}}"1" selected&gt;BMW
-&lt;option value{{=}}"2"&gt;Porsche
-&lt;option value{{=}}"3" selected&gt;Mercedes
-&lt;/select&gt;
+|Code=<nowiki><select id="select-element" name="cars" size="3" multiple="">
+<option value="1" selected="">BMW</option>
+<option value="2">Porsche</option>
+<option value="3" selected>Mercedes</option>
+</select></nowiki>
 |LiveURL=
 }}{{Single Example
 |Language=JavaScript
