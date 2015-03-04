@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -54,7 +54,22 @@ If not specified, the default is true.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=The following script demonstrates how to create and use the XMLHttpRequest object. For best client-side performance, the request is asynchronous and uses an onreadystatechange event handler to process the data returned by the call. 
+|Code=function handler() {
+  if (xhr.readyState === 4 /* complete */) {
+    if (xhr.status === 200) {
+            console.log(xhr.responseText);
+        }
+    }
+}
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/test.xml", true);
+xhr.onreadystatechange = handler;
+xhr.send();
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
