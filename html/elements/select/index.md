@@ -34,18 +34,18 @@ Internationalization topics related to the <code>select</code> element:
 |Language=HTML
 |Description=This example uses the '''SELECT''' element to create a drop-down list box.
 |Code=<nowiki><select name="Cats" size="1">
-<option value="1">Calico</option>
-<option value="2">Tortie</option>
-<option value="3" selected>Siamese</option>
+  <option value="1">Calico</option>
+  <option value="2">Tortie</option>
+  <option value="3" selected="">Siamese</option>
 </select></nowiki>
 |LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the '''select''' element to create a multi-select list box by setting the [[html/attributes/size (control)|'''SIZE''']] and [[html/attributes/multiple|'''MULTIPLE''']] attributes. To retrieve the selected options for a multi-select list box, iterate through the [[dom/HTMLElement/options|'''options''']] collection and check to see where [[html/attributes/selected|'''SELECTED''']] is set to '''true'''.
 |Code=<nowiki><select id="select-element" name="cars" size="3" multiple="">
-<option value="1" selected="">BMW</option>
-<option value="2">Porsche</option>
-<option value="3" selected>Mercedes</option>
+  <option value="1" selected="">BMW</option>
+  <option value="2">Porsche</option>
+  <option value="3" selected="">Mercedes</option>
 </select></nowiki>
 |LiveURL=
 }}{{Single Example
