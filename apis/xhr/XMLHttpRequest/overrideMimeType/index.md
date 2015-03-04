@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -18,7 +18,24 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=function handler() {
+  if (xhr.readyState === 4 /* complete */) {
+    if (xhr.status === 200) {
+            console.log(xhr.responseText);
+        }
+    }
+}
+
+var xhr = new XMLHttpRequest();
+xhr.overrideMimeType("text/xml");  
+xhr.open("GET", "http://localhost/test.xml", true);
+xhr.onreadystatechange = handler;
+xhr.send();
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
