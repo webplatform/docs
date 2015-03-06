@@ -1,9 +1,8 @@
 {{Page_Title|JavaScript libraries}}
 {{Flags
 |State=Not Ready
+|Editorial notes=
 |Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections
-|Content=Not Neutral, Examples Best Practices
 }}
 {{Summary_Section|Introduction to JavaScript libraries}}
 {{Basic Page}}
@@ -29,19 +28,19 @@ These various libraries provide pre-written JavaScript code which makes common o
 
 == Getting started ==
 
-The most commonly used libraries have rich communities and forums where you can get help on getting started with that particular library. JavaScript libraries are often downloaded from the library developer site. Many library developers provide both a development and production versions of their libraries. The development versions contain non-minified code which often include comments and hints whereas the production versions often are minified and compressed for to be used upon live site use.
+The most commonly used libraries have rich communities and forums where you can find help to get started with that particular library. JavaScript libraries are often downloaded from the library developer site. Many library developers provide both development and production versions of their libraries. The development versions contain non-minified code which often include comments and hints whereas the production versions often are minified and compressed for live site use.
 
-Optionally, many libraries are available from content delivery networks such as [https://developers.google.com/speed/libraries Google Hosted Libraries], [http://cdnjs.com/ cdnjs] and [http://www.asp.net/ajaxlibrary/cdn.ashx Microsoft Ajax Content Delivery Network].
+Optionally, many libraries are available from [http://en.wikipedia.org/wiki/Content_delivery_network content delivery networks (CDN)] such as [http://cdnjs.com/ cdnjs], [https://developers.google.com/speed/libraries Google Hosted Libraries], [http://jsdelivr.com/ jsDelivr] and [http://www.asp.net/ajaxlibrary/cdn.ashx Microsoft Ajax Content Delivery Network]. You can find more of these and comparisons between them at [http://www.cdnperf.com cdnperf].
 
 === Usage ===
 
-To include a library in your application you simply add a <code>&lt;script&gt;</code> element to your <code>&lt;head&gt;</code> element with the <code>src</code> attribute referencing the URL or path to the library's source. Below, you see two examples on how to load the jQuery library, one from Google Hosted Libraries and one from a local path.
+To include a library in your application you simply add a <code>&lt;script&gt;</code> element to your <code>&lt;head&gt;</code> element with the <code>src</code> attribute referencing the URL or path to the library's source. Below, you see two examples on how to load the jQuery library, one from jsDelivr and one from a local path.
 
 ==== Examples ====
 
-From CDN (Google Hosted Libraries):
+From CDN (jsDelivr):
 <syntaxhighlight lang="html5">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
 </syntaxhighlight>
 
 From a local path:
@@ -60,7 +59,7 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 |-
 |[http://ajile.net ajile]
 | Modules
-|ajile is an open-source client-side module that provides JavaScript with an API for runtime namespacing, dependency management and on-demand loading and insertion of cross-domain, local, and inline JavaScript.
+|ajile is an open-source that enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline JavaScript within browsers.
 |-
 |[http://angularjs.org AngularJS]
 | Framework
@@ -118,7 +117,11 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 | JS/CSS Framework
 |YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. The YUI Project is a two-way open-source project managed by the YUI engineering team at Yahoo!.
 |}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
