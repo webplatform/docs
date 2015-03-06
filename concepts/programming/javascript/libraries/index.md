@@ -59,7 +59,7 @@ This list showcases JavaScript libraries. They're sorted alphabetically. If you 
 |-
 |[http://ajile.net ajile]
 | Modules
-|ajile is an open-source module that enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline JavaScript within browsers.
+|ajile is an open-source browser module that enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline scripts.
 |-
 |[http://angularjs.org AngularJS]
 | Framework
