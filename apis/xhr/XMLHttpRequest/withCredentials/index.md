@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+|State=Ready to Use
+|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Review
 }}
@@ -19,7 +19,16 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Description=
+|Code=var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://updates.html5rocks.com", true);
+xhr.withCredentials = true;
+xhr.send();
+
+|LiveURL=
+}}
 }}
 {{Notes_Section
 |Usage=
