@@ -47,6 +47,11 @@ container.innerHTML = hostpr;
 |URL=http://www.w3.org/TR/Window/
 |Status=W3C Working Draft
 |Relevant_changes=
+}}{{Related Specification
+|Name=URL
+|URL=http://www.w3.org/TR/url/#concept-url
+|Status=W3C Working Draft
+|Relevant_changes=
 }}
 }}
 {{See_Also_Section
