@@ -1,4 +1,4 @@
-{{Page_Title|CSS Selectors}}
+{{Page_Title|:in-range}}
 {{Flags
 |State=Ready to Use
 |Checked_Out=No
@@ -37,6 +37,7 @@ Selectors may range from simple element names to rich contextual representations
 *<code>[[:css/selectors/pseudo-classes/:hover|:hover]]</code>
 *<code>[[:css/selectors/pseudo-classes/:active|:active]]</code>
 *<code>[[:css/selectors/pseudo-classes/:focus|:focus]]</code>
+*<code>[[:css/selectors/pseudo-classes/:focus|:in-range]]</code>
 
 ==== The target pseudo-class ====
 *[[css/selectors/pseudo-classes/:target|<code>:target</code>]]
@@ -147,7 +148,4 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
