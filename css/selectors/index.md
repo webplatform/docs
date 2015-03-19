@@ -37,7 +37,7 @@ Selectors may range from simple element names to rich contextual representations
 *<code>[[:css/selectors/pseudo-classes/:hover|:hover]]</code>
 *<code>[[:css/selectors/pseudo-classes/:active|:active]]</code>
 *<code>[[:css/selectors/pseudo-classes/:focus|:focus]]</code>
-*<code>[[:css/selectors/pseudo-classes/:focus|:in-range]]</code>
+*<code>[[:css/selectors/pseudo-classes/:in-range|:in-range]]</code>
 
 ==== The target pseudo-class ====
 *[[css/selectors/pseudo-classes/:target|<code>:target</code>]]
