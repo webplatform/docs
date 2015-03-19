@@ -11,7 +11,34 @@ This pseudo-class only applies to elements that have a range limitations, such a
 
 Use the :out-of-range selector to select all elements with a value that is outside a specified range.
 
-Example
+SYNTAX
+
+:in-range {
+    css declarations;
+}
+
+EXAMPLE
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+input {
+    border: 1px solid black;
+}
+input:in-range {
+    background-color: rgba(0, 255, 0, 0.25);
+}
+input:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+}
+input:in-range + label::after {
+    content:' OK';
+}
+input:out-of-range + label::after {
+    content:'out of range!';
+}
 
 
 Note: This pseudo-class is not currently supported in Internet Explorer.
