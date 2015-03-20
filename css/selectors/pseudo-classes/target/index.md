@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|:target}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Merge with [[CSS/Selectors/pseudo-classes/:target]]
