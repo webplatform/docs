@@ -25,11 +25,8 @@ li {
 input {
     border: 1px solid black;
 }
- 	+	
 input:in-range {
- 	+	
     background-color: rgba(0, 255, 0, 0.25);
- 	+	
 }
 input:out-of-range {
     background-color: rgba(255, 0, 0, 0.25);
