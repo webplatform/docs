@@ -40,7 +40,11 @@ input:out-of-range + label::after {
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Selectors Level 4
+|URL=http://dev.w3.org/csswg/selectors-4/#range-pseudos
+|Status=W3C Editor's Draft
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Classes, Selectors
