@@ -20,6 +20,7 @@ Deprecated in HTML4, redefined in HTML5. In HTML5 it is used to express "an unar
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example uses the '''u''' element to identify a word in a sentence, without any particular semantics.
 |Code=We would like to call your attention to the second "the" in "The quick brown fox jumped over &lt;u&gt;the&lt;/u&gt; lazy dog."
 }}
