@@ -13,6 +13,10 @@
 |Not_required=No
 |Examples=
 }}
+{{Compatibility
+|feature=pseudo-in-range
+|topic=css
+}}
 {{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
