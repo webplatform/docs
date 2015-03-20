@@ -18,7 +18,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=The following examples show how to create a table row in HTML and script.
+|Description=This example uses the '''TR''' element with the [[html/elements/table|'''TABLE''']], '''TD''', and '''TR''' elements to create a table with two rows.
 |Code=<nowiki><table>
 <tbody>
 <tr>
@@ -29,7 +29,6 @@
 </tr>
 </tbody>
 </table></nowiki>
-|LiveURL=This example uses the '''TR''' element with the [[html/elements/table|'''TABLE''']], '''TD''', and '''TR''' elements to create a table with two rows.
 }}{{Single Example
 |Language=HTML
 |Description=This example uses the table object model to dynamically add two rows and two cells to a table when the user clicks a button.
