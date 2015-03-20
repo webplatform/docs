@@ -1,7 +1,6 @@
 {{Page_Title|ul – unordered list}}
 {{Flags
-|State=In Progress
-|Editorial notes=Add more example
+|State=Ready to Use
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -9,6 +8,8 @@
 {{Summary_Section|The '''ul''' element is used to define an '''unordered list'''. The element encloses one or more '''list items''', enclosed in [[html/elements/li|'''li''']] elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLUListElement
+|Tag_omissions=Closing tag required
+|CSS_display=block
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -36,10 +37,29 @@ The '''unordered list''', represented by the '''ul''' element, is most often use
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''ul''' element to create a bulleted list.
-|Code=&lt;ul&gt;
-&lt;li&gt;This is the first bulleted item in the list.&lt;/li&gt;
-&lt;li&gt;And this is the second bulleted item in the list.&lt;/li&gt;
-&lt;/ul&gt;
+|Code=<nowiki><ul>
+  <li>Alice</li>
+  <li>Bob</li>
+  <li>Carol</li>
+</ul></nowiki>
+}}{{Single Example
+|Language=HTML
+|Description=Example with nested lists
+|Code=<nowiki><ul>
+  <li>Alice <ul>
+    <li>Red</li>
+    <li>Green</li>
+  </ul>
+  </li>
+  <li>Bob <ul>
+    <li>Green</li>
+    <li>Cyan</li>
+  </ul></li>
+  <li>Carol <ul>
+    <li>Magenta</li>
+    <li>Yellow</li>
+  </ul></li>
+</ul></nowiki>
 }}{{Single Example
 |Language=CSS
 |Description=Typical browser default CSS properties for the '''ul''' element.
@@ -53,34 +73,21 @@ margin-bottom: 16px;
 |Notes====Remarks===
 The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute sets the list type for all ensuing lists unless a different type value is set.
 The '''ul''' element inherits its [[css/properties/line-height|'''line-height''']] from the height of the [[css/properties/font|'''font''']] attribute for the '''body'''. For example, if the [[css/properties/font-size|'''font-size''']] attribute for the '''body''' is larger than the '''font-size''' attribute for the '''ul''' element, the list items in the '''ul''' are spaced according to the '''font-size''' of the '''body'''.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 10.2
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/grouping-content.html#the-ul-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-ul-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/lists.html#edef-UL
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [[html/elements/dir|<code>dir</code>]]
@@ -95,7 +102,12 @@ The '''ul''' element inherits its [[css/properties/line-height|'''line-height'''
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
