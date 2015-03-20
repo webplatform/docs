@@ -9,13 +9,13 @@
 {{CSS_Selector
 |Content=The :in-range CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
 {{Compatibility
 |feature=pseudo-in-range
 |topic=css
+}}
+{{Examples_Section
+|Not_required=No
+|Examples=
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
