@@ -9,10 +9,6 @@
 {{CSS_Selector
 |Content=The <code>:in-range</code> CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
 }}
-{{Compatibility
-|feature=pseudo-in-range
-|topic=css
-}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -39,6 +35,7 @@ input:out-of-range + label::after {
     content:'out of range!';
 }
 </code>
+|LiveURL=http://code.webplatform.org/gist/73a791bbe2cd884f6b2e
 }}
 }}
 {{Notes_Section}}
@@ -51,4 +48,8 @@ input:out-of-range + label::after {
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+}}
+{{Compatibility
+|feature=pseudo-in-range
+|topic=css
 }}
