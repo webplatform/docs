@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", appendCar, false);
     </select>
   </label>
   <p><input type=submit value="▶ Play">
-</form></optgroup>
+</form></optgroup></nowiki>
 }}
 }}
 {{Notes_Section
