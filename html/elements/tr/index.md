@@ -63,7 +63,7 @@ function createRows(){
    oCell2_2.innerHTML="<b>Cell 2.2!</b>";		
 }
 </script>
-<buttononclick="createRows()">Create Rows</button>
+<button onclick="createRows()">Create Rows</button>
 <table id="oTable"></table></nowiki>
 }}
 }}
