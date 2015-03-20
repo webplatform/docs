@@ -1,20 +1,28 @@
 {{Page_Title}}
 {{Flags
-|State=In Progress
+|State=Not Ready
 |Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
+Add history information.
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|This element defines parameters for plugins invoked by object elements.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLParamElement
+|Tag_omissions=No closing tag (self-closing)
+|CSS_display=none
+|Content=== Attributes ==
+
+*<code>name</code> = name of the parameter<br />Gives the name of the parameter.<br />This attribute must be present.
+*<code>value</code> = value of the parameter<br />Gives the value of the parameter.<br />This attribute must be present.
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=This example displays the Internet Explorer Data Binding component's [[dom/properties/outerdom/outerHTML|'''outerHTML''']] so you can view the properties assigned by the '''PARAM''' elements.  You can perform this check to gather information when debugging an '''OBJECT''' element's properties.  You cannot edit the object's '''outerHTML''' property without reintializing the '''outerHTML''' object.
 |Code=// The OBJECT CLASSID below is for the 
 // Microsoft Internet Explorer Data Binding component
@@ -42,6 +50,32 @@ Show Object outerHTML&lt;/BUTTON&gt;&lt;BR/&gt;
 &lt;PARAM NAME{{=}}"DataURL" VALUE{{=}}"DataBinding.csv"&gt;
 &lt;PARAM NAME{{=}}"ReadyState" VALUE{{=}}"4"&gt;
 &lt;/OBJECT&gt;
+}}{{Single Example
+|Language=HTML
+|Description=The following example shows how the param element can be used to pass a parameter to a plugin, in this case the O3D plugin
+|Code=<nowiki>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+   <title>O3D Utah Teapot</title>
+  </head>
+  <body>
+   <p>
+    <object type="application/vnd.o3d.auto">
+     <param name="o3d_features" value="FloatingPointTextures">
+     <img src="o3d-teapot.png"
+          title="3D Utah Teapot illustration rendered using O3D."
+          alt="When O3D renders the Utah Teapot, it appears as a squat
+          teapot with a shiny metallic finish on which the
+          surroundings are reflected, with a faint shadow caused by
+          the lighting.">
+     <p>To see the teapot actually rendered by O3D on your
+     computer, please download and install the <a href="http://code.google.com/apis/o3d/docs/gettingstarted.html#install">O3D plugin</a>.</p>
+    </object>
+    <script src="o3d-teapot.js"></script>
+   </p>
+  </body>
+</html></nowiki>
 }}
 }}
 {{Notes_Section
@@ -49,138 +83,28 @@ Show Object outerHTML&lt;/BUTTON&gt;&lt;BR/&gt;
 The '''PARAM''' element is valid within the '''APPLET''', '''EMBED''', and '''OBJECT''' elements.
 '''Note'''  Properties set by a '''PARAM''' element cannot be altered by changing the '''PARAM''' object.
 After the '''APPLET''', '''EMBED''', or '''OBJECT''' element is instantiated, the property set by the '''PARAM''' element cannot be changed with the '''param''' object.  To change the object's properties, use the script properties exposed by the object.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 13.3.2
-
-
-===HTML information===
-{| class="wikitable"
-|-
-!Closing Tag
-|forbidden
-|-
-!CSS Display
-|
-|}
-
-===Members===
-The '''param''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
-
-
-====Events====
-The '''param''' object has these events.
-{| class="wikitable"
-|-
-!Event
-!Description
-|-
-|[[dom/events/abort|'''onabort''']]
-|Fires when the user aborts the download.
-|-
-|[[dom/events/change|'''onchange''']]
-|Fires when the contents of the object or selection have changed.
-|-
-|[[dom/events/error|'''onerror''']]
-|Fires when an error occurs during object loading.
-|-
-|[[dom/events/input|'''oninput''']]
-|Occurs when the text content of an element is changed through the user interface.
-|-
-|[[dom/events/load|'''onload''']]
-|Fires immediately after the client loads the object.
-|-
-|[[dom/events/reset|'''onreset''']]
-|Fires when the user resets a form.
-|-
-|[[dom/events/selectstart|'''onselect''']]
-|Fires when the current selection changes.
-|}
- 
-
-====Methods====
-The '''param''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[dom/methods/getAttributeNodeNS|'''getAttributeNodeNS''']]
-|Gets an [[dom/attributes|'''attribute''']] object that matches the specified namespace and name.
-|-
-|[[dom/methods/getAttributeNS|'''getAttributeNS''']]
-|Gets the value of the specified attribute within the specified namespace.
-|-
-|[[dom/methods/getElementsByClassName|'''getElementsByClassName''']]
-|Gets a collection of objects that are based on the value of the [[dom/properties/className|'''CLASS''']] attribute.
-|-
-|[[dom/methods/getElementsByTagNameNS|'''getElementsByTagNameNS''']]
-|Gets a collection of objects that are based on the specified element names within a specified namespace.
-|-
-|[[dom/methods/hasAttributeNS|'''hasAttributeNS''']]
-|Determines whether an attribute that has the specified namespace and name exists.
-|-
-|[[dom/methods/matchesSelector|'''msMatchesSelector''']]
-|Determines whether an object matches the specified selector.
-|-
-|[[dom/methods/removeAttributeNS|'''removeAttributeNS''']]
-|Removes the specified attribute from the object.
-|-
-|[[dom/methods/setAttributeNodeNS|'''setAttributeNodeNS''']]
-|Sets an [[dom/attributes|'''attribute''']] object as part of the object.
-|-
-|[[dom/methods/setAttributeNS|'''setAttributeNS''']]
-|Sets the value of the specified attribute within the specified namespace.
-|}
- 
-
-====Properties====
-The '''param''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[dom/properties/constructor|'''constructor''']]
-|Returns a reference to the constructor of an object.
-|-
-|[[html/attributes/dataFld|'''dataFld''']]
-|Sets or retrieves a field of a given data source, as specified by the [[html/attributes/dataSrc|'''dataSrc''']] property, to bind to the specified object.
-|-
-|[[html/attributes/name param element)|'''name''']]
-|Sets or retrieves the name of an input parameter for an element.
-|-
-|[[html/attributes/type  (param element)|'''type''']]
-|Sets or retrieves the content type of the resource designated by the [[html/attributes/value (param element)|'''value''']] attribute.
-|-
-|[[html/attributes/value (param element)|'''value''']]
-|Sets or retrieves the value of an input parameter for an element.
-|-
-|[[html/attributes/valueType|'''valueType''']]
-|Sets or retrieves the data type of the [[html/attributes/value (param element)|'''value''']] attribute.
-|}
- 
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-param-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-param-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/objects.html#edef-PARAM
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
+}}
+{{See_Also_Section}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -188,13 +112,4 @@ The '''param''' object has these properties.
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
