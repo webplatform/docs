@@ -1,15 +1,21 @@
 {{Page_Title|q – quote}}
 {{Flags
-|State=In Progress
+|State=Almost Ready
 |Editorial notes=Add description/notes, compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Editor's Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name|q}}
 {{Summary_Section|The '''q''' element represents some phrasing content quoted from another source.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
+|Tag_omissions=required
+|CSS_display=inline
 |Content=Do not use quote characters (<code>'</code>, <code>"</code>, <code>``</code>, etc) when using the '''q''' element. If used with the [[html/elements/cite]] element, the cite must contain a valid url.
+
+== Attributes ==
+
+* <code>cite</code> =  valid URL potentially surrounded by spaces<br />Specifies the address in the quotation source. [[#Example_B|[Example B]]]
 }}
 {{Examples_Section
 |Not_required=No
@@ -29,29 +35,19 @@ the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/q>&lt;/p>
 For longer quotes, please use the [[html/elements/blockquote|'''blockquote''']] element.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-q-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-Q
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [[html/elements/cite|<code>cite</code>]]
@@ -61,7 +57,12 @@ For longer quotes, please use the [[html/elements/blockquote|'''blockquote''']] 
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
