@@ -1,1 +1,1 @@
-#REDIRECT css/selectors/pseudo-classes
+#REDIRECT [[css/selectors/pseudo-classes]]
