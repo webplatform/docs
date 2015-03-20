@@ -31,7 +31,7 @@ Selectors may range from simple element names to rich contextual representations
 *[[css/selectors/id_selector|<code>#idname</code>]]
 
 === Pseudo-classes ===
-==== [[css/selectors/pseudo-classes/Dynamic_pseudo-classes|Dynamic pseudo-classes]] ====
+==== [[css/selectors/pseudo-classes|Dynamic pseudo-classes]] ====
 *<code>[[:css/selectors/pseudo-classes/:link|:link]]</code>
 *<code>[[:css/selectors/pseudo-classes/:visited|:visited]]</code>
 *<code>[[:css/selectors/pseudo-classes/:hover|:hover]]</code>
@@ -147,7 +147,4 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
