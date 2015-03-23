@@ -28,7 +28,7 @@ var re = new RegExp("ab+c");
 <p>When the search for a match requires something more than a direct match, such as finding one or more b's, or finding white space, the pattern includes special characters. For example, the pattern <code>/ab*c/</code> matches any character combination in which a single 'a' is followed by zero or more 'b's (<code>*</code> means 0 or more occurrences of the preceding item) and then immediately followed by 'c'. In the string "cbbabbbbcdebc," the pattern matches the substring 'abbbbc'.</p>
 <p>The following table provides a complete list and description of the special characters that can be used in regular expressions.</p>
 
-{| class="fullwidth-table"
+{| 
 |+ Table 4.1 Special characters in regular expressions.
 |-
 !  scope="col" | Character
