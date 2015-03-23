@@ -16,7 +16,7 @@ HTTP was one of the first protocols developed as part of Web starting in late 19
 * [[http/methods|List of HTTP methods]]
 * [[http/response status codes|List of HTTP status codes]]
 * HTTP the protocol: The entity-body and transfer control, what are resources
-* [[http/layered requests|Layered requests]] with proxies and gateways
+* [[/concepts/Internet and Web/how browsers work#The_browser.27s_high_level_structure|Layered requests]] with proxies and gateways
 * [[http/requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
 * [[http/resource metadata|Resource metadata]]: Link, Last-Modified, Content-Type, Allow, etc
 * [[http/caching|Caching]] and conditional requests
@@ -45,6 +45,7 @@ An example HTTP request will look like:
  
 
 To which the server might reply:
+
 
  HTTP/1.1 200 OK
  Date: Thu, 17 Jul 2014 15:08:35 GMT
@@ -98,6 +99,4 @@ HTTP follows a number of patterns to give it well-defined functionality for the 
 |Is_CC-BY-SA=No
 |Sources=MDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTTP
-|MSDN_link=
-|HTML5Rocks_link=
 }}
