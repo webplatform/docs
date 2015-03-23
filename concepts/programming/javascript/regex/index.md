@@ -27,247 +27,180 @@ var re = new RegExp("ab+c");
 <h3 id="Using_Special_Characters">Using Special Characters</h3>
 <p>When the search for a match requires something more than a direct match, such as finding one or more b's, or finding white space, the pattern includes special characters. For example, the pattern <code>/ab*c/</code> matches any character combination in which a single 'a' is followed by zero or more 'b's (<code>*</code> means 0 or more occurrences of the preceding item) and then immediately followed by 'c'. In the string "cbbabbbbcdebc," the pattern matches the substring 'abbbbc'.</p>
 <p>The following table provides a complete list and description of the special characters that can be used in regular expressions.</p>
-<table class="fullwidth-table">
-  <caption style="text-align: left">
-    Table 4.1 Special characters in regular expressions.</caption>
-  <thead>
-    <tr>
-      <th scope="col">Character</th>
-      <th scope="col">Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><div id="special-backslash" name="special-backslash"><code>\</code></div></td>
-      <td>Either of the following:
-        <ul>
-          <li>For characters that are usually treated literally, indicates that the next character is special and not to be interpreted literally.</li>
-          <li style="list-style-type: none;">For example, <code>/b/ </code> matches the character 'b'. By placing a backslash in front of b, that is by using <code>/\b/</code>, the character becomes special to mean match a word boundary.</li>
-          <li>For characters that are usually treated specially, indicates that the next character is not special and should be interpreted literally.</li>
-          <li style="list-style-type: none;">For example, <code>*</code> is a special character that means 0 or more occurrences of the preceding item should be matched; for example, <code>/a*/</code> means match 0 or more a's. To match <code>*</code> literally, precede it with a backslash; for example, <code>/a\*/</code> matches 'a*'.</li>
-          <li style="list-style-type: none;">Also do not forget to escape \ itself while using the new RegExp("pattern") notation since \ is also an escape character in strings.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-caret" name="special-caret"><code>^</code></div></td>
-      <td>
-        <p>Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.</p>
-        <p>For example, <code>/^A/</code> does not match the 'A' in "an A", but does match the 'A' in "An E".</p>
-        <p><br />
-          This character means 'not' when it appears as the first character in a character set pattern.</p>
-        <p>For example, <code>/[^A-Za-z\s]/</code> matches any character that is not a letter or whitespace, and so would match the '3' in "I have 3 sisters".</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-dollar" name="special-dollar"><code>$</code></div></td>
-      <td>
-        <p>Matches end of input. If the multiline flag is set to true, also matches immediately before a line break character.</p>
-        <p>For example, <code>/t$/</code> does not match the 't' in "eater", but does match it in "eat".</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-asterisk" name="special-asterisk"><code>*</code></div></td>
-      <td>
-        <p>Matches the preceding character 0 or more times.</p>
-        <p>For example, <code>/bo*/</code> matches 'boooo' in "A ghost booooed" and 'b' in "A bird warbled", but nothing in "A goat grunted".</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-plus" name="special-plus"><code>+</code></div></td>
-      <td>
-        <p>Matches the preceding character 1 or more times. Equivalent to {1,}.</p>
-        <p>For example, <code>/a+/</code> matches the 'a' in "candy" and all the a's in "caaaaaaandy".</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-questionmark" name="special-questionmark"><code>?</code></div></td>
-      <td>
-        <p>Matches the preceding character 0 or 1 time. Equivalent to {0,1}.</p>
-        <p>For example, <code>/e?le?/</code> matches the 'el' in "angel" and the 'le' in "angle" and also the 'l' in "oslo".</p>
-        <p>If used immediately after any of the quantifiers <code>*</code>, <code>+</code>, <code>?</code>, or <code>{}</code>, makes the quantifier non-greedy (matching the minimum number of times), as opposed to the default, which is greedy (matching the maximum number of times). For example, using /\d+/ non-global match "123abc" return "123", if using /\d+?/, only "1" will be matched.</p>
-        <p>Also used in lookahead assertions, described under x(?=y) and x(?!y) in this table.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-dot" name="special-dot"><code>.</code></div></td>
-      <td>
-        <p>(The decimal point) matches any single character except the newline character.</p>
-        <p>For example, <code>/.n/</code> matches 'an' and 'on' in "nay, an apple is on the tree", but not 'nay'.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-capturing-parentheses" name="special-capturing-parentheses"><code>(x)</code></div></td>
-      <td>
-        <p>Matches 'x' and remembers the match. These are called capturing parentheses.</p>
-        <p>For example, <code>/(foo)/</code> matches and remembers 'foo' in "foo bar." The matched substring can be recalled from the resulting array's elements <code>[1]</code>, ..., <code>[n]</code>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-non-capturing-parentheses" name="special-non-capturing-parentheses"><code>(?:x)</code></div></td>
-      <td>Matches 'x' but does not remember the match. These are called non-capturing parentheses. The matched substring can not be recalled from the resulting array's elements <code>[1]</code>, ..., <code>[n]</code>.</td>
-    </tr>
-    <tr>
-      <td><div id="special-lookahead" name="special-lookahead"><code>x(?=y)</code></div></td>
-      <td>
-        <p>Matches 'x' only if 'x' is followed by 'y'. This is called a lookahead.</p>
-        <p>For example, <code>/Jack(?=Sprat)/</code> matches 'Jack' only if it is followed by 'Sprat'. <code>/Jack(?=Sprat{{!}}Frost)/</code> matches 'Jack' only if it is followed by 'Sprat' or 'Frost'. However, neither 'Sprat' nor 'Frost' is part of the match results.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-negated-look-ahead" name="special-negated-look-ahead"><code>x(?!y)</code></div></td>
-      <td>
-        <p>Matches 'x' only if 'x' is not followed by 'y'. This is called a negated lookahead.</p>
-        <p>For example, <code>/\d+(?!\.)/</code> matches a number only if it is not followed by a decimal point. The regular expression <code>/\d+(?!\.)/.exec("3.141")</code> matches '141' but not '3.141'.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-or" name="special-or"><code>x{{!}}y</code></div></td>
-      <td>
-        <p>Matches either 'x' or 'y'.</p>
-        <p>For example, <code>/green{{!}}red/</code> matches 'green' in "green apple" and 'red' in "red apple."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-quantifier" name="special-quantifier"><code>{n}</code></div></td>
-      <td>
-        <p>Where <code>n</code> is a positive integer. Matches exactly <code>n</code> occurrences of the preceding character.</p>
-        <p>For example, <code>/a{2}/</code> doesn't match the 'a' in "candy," but it matches all of the a's in "caandy," and the first two a's in "caaandy."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-quantifier-range" name="special-quantifier-range"><code>{n,m}</code></div></td>
-      <td>
-        <p>Where <code>n</code> and <code>m</code> are positive integers. Matches at least <code>n</code> and at most <code>m</code> occurrences of the preceding character. When either <code>n</code> or <code>m</code> is zero, it can be omitted.</p>
-        <p>For example, <code>/a{1,3}/</code> matches nothing in "cndy", the 'a' in "candy," the first two a's in "caandy," and the first three a's in "caaaaaaandy" Notice that when matching "caaaaaaandy", the match is "aaa", even though the original string had more a's in it.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-character-set" name="special-character-set"><code>[xyz]</code></div></td>
-      <td>
-        <p>A character set. Matches any one of the enclosed characters. You can specify a range of characters by using a hyphen. Special characters (such as the dot (<code>.</code>) and the asterisk (<code>*</code>)) do not have any special meaning inside a character set. They need not be escaped. Escape sequences also work.</p>
-        <p>For example, <code>[abcd]</code> is the same as <span style="font-family: monospace;">[</span><code>a-d]</code>. They match the 'b' in "brisket" and the 'c' in "city". <code>/[a-z.]+/</code> and <code>/[\w.]+/</code> both match everything in "test.i.ng".</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-negated-character-set" name="special-negated-character-set"><code>[^xyz]</code></div></td>
-      <td>
-        <p>A negated or complemented character set. That is, it matches anything that is not enclosed in the brackets. You can specify a range of characters by using a hyphen. Everything that works in the normal character set also works here.</p>
-        <p>For example, <code>[^abc]</code> is the same as <code>[^a-c]</code>. They initially match 'r' in "brisket" and 'h' in "chop."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-backspace" name="special-backspace"><code>[\b]</code></div></td>
-      <td>Matches a backspace (U+0008). (Not to be confused with <code>\b</code>.)</td>
-    </tr>
-    <tr>
-      <td><div id="special-word-boundary" name="special-word-boundary"><code>\b</code></div></td>
-      <td>
-        <p>Matches a word boundary. A word boundary matches the position where a word character is not followed or preceeded by another word-character. Note that a matched word boundary is not included in the match. In other words, the length of a matched word boundary is zero. (Not to be confused with <code>[\b]</code>.)</p>
-        <p>Examples:<br />
-          <code>/\bmoo/</code> matches the 'moo' in "moon" ;<br />
-          <code>/oo\b/</code> does not match the 'oo' in "moon", because 'oo' is followed by 'n' which is a word character;<br />
-          <code>/oon\b/</code> matches the 'oon' in "moon", because 'oon' is the end of the string, thus not followed by a word character;<br />
-          <code>/\w\b\w/</code> will never match anything, because a word character can never be followed by both a non-word and a word character.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-non-word-boundary" name="special-non-word-boundary"><code>\B</code></div></td>
-      <td>
-        <p>Matches a non-word boundary. This matches a position where the previous and next character are of the same type: Either both must be words, or both must be non-words. The beginning and end of a string are considered non-words.</p>
-        <p>For example, <code>/\B../</code> matches 'oo' in "noonday" (, and <code>/y\B./</code> matches 'ye' in "possibly yesterday."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-control" name="special-control"><code>\c<em>X</em></code></div></td>
-      <td>
-        <p>Where <em>X</em> is a character ranging from A to Z. Matches a control character in a string.</p>
-        <p>For example, <code>/\cM/</code> matches control-M (U+000D) in a string.</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-digit" name="special-digit"><code>\d</code></div></td>
-      <td>
-        <p>Matches a digit character. Equivalent to <code>[0-9]</code>.</p>
-        <p>For example, <code>/\d/</code> or <code>/[0-9]/</code> matches '2' in "B2 is the suite number."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-non-digit" name="special-non-digit"><code>\D</code></div></td>
-      <td>
-        <p>Matches any non-digit character. Equivalent to <code>[^0-9]</code>.</p>
-        <p>For example, <code>/\D/</code> or <code>/[^0-9]/</code> matches 'B' in "B2 is the suite number."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-form-feed" name="special-form-feed"><code>\f</code></div></td>
-      <td>Matches a form feed (U+000C).</td>
-    </tr>
-    <tr>
-      <td><div id="special-line-feed" name="special-line-feed"><code>\n</code></div></td>
-      <td>Matches a line feed (U+000A).</td>
-    </tr>
-    <tr>
-      <td><div id="special-carriage-return" name="special-carriage-return"><code>\r</code></div></td>
-      <td>Matches a carriage return (U+000D).</td>
-    </tr>
-    <tr>
-      <td><div id="special-white-space" name="special-white-space"><code>\s</code></div></td>
-      <td>
-        <p>Matches a single white space character, including space, tab, form feed, line feed. Equivalent to <code>[ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.</p>
-        <p>For example, <code>/\s\w*/</code> matches ' bar' in "foo bar."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-non-white-space" name="special-non-white-space"><code>\S</code></div></td>
-      <td>
-        <p>Matches a single character other than white space. Equivalent to <code>[^ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.</p>
-        <p>For example, <code>/\S\w*/</code> matches 'foo' in "foo bar."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-tab" name="special-tab"><code>\t</code></div></td>
-      <td>Matches a tab (U+0009).</td>
-    </tr>
-    <tr>
-      <td><div id="special-vertical-tab" name="special-vertical-tab"><code>\v</code></div></td>
-      <td>Matches a vertical tab (U+000B).</td>
-    </tr>
-    <tr>
-      <td><div id="special-word" name="special-word"><code>\w</code></div></td>
-      <td>
-        <p>Matches any alphanumeric character including the underscore. Equivalent to <code>[A-Za-z0-9_]</code>.</p>
-        <p>For example, <code>/\w/</code> matches 'a' in "apple," '5' in "$5.28," and '3' in "3D."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-non-word" name="special-non-word"><code>\W</code></div></td>
-      <td>
-        <p>Matches any non-word character. Equivalent to <code>[^A-Za-z0-9_]</code>.</p>
-        <p>For example, <code>/\W/</code> or <code>/[^A-Za-z0-9_]/</code> matches '%' in "50%."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-backreference" name="special-backreference"><code>\<em>n</em></code></div></td>
-      <td>
-        <p>Where <em>n</em> is a positive integer. A back reference to the last substring matching the <em>n</em> parenthetical in the regular expression (counting left parentheses).</p>
-        <p>For example, <code>/apple(,)\sorange\1/</code> matches 'apple, orange,' in "apple, orange, cherry, peach."</p>
-      </td>
-    </tr>
-    <tr>
-      <td><div id="special-null" name="special-null"><code>\0</code></div></td>
-      <td>Matches a NULL (U+0000) character. Do not follow this with another digit, because <code>\0&lt;digits&gt;</code> is an octal escape sequence.</td>
-    </tr>
-    <tr>
-      <td><div id="special-hex-escape" name="special-hex-escape"><code>\xhh</code></div></td>
-      <td>Matches the character with the code hh (two hexadecimal digits)</td>
-    </tr>
-    <tr>
-      <td><div id="special-unicode-escape" name="special-unicode-escape"><code>\uhhhh</code></div></td>
-      <td>Matches the character with the code hhhh (four hexadecimal digits).</td>
-    </tr>
-  </tbody>
-</table>
+
+{|
+|+ Table 4.1 Special characters in regular expressions.
+|-
+!  scope="col" | Character
+!  style="text-align:left;" scope="col" | Meaning
+|-
+! scope="row"  id="special-backslash" name="special-backslash" | <code>\</code>
+| Either of the following:
+* For characters that are usually treated literally, indicates that the next character is special and not to be interpreted literally.
+*; <code>/b/</code>: matches the character "''b''". By placing a backslash in front of ''b'', that is by using <code>/\b/</code>, the character becomes special to mean match a word boundary.
+* For characters that are usually treated specially, indicates that the next character is not special and should be interpreted literally.
+*; <code>*</code>: is a special character that means 0 or more occurrences of the preceding item should be matched; for example, <code>/a*/</code> means match 0 or more a's. To match <code>*</code> literally, precede it with a backslash; for example, <code>/a\*/</code> matches 'a*'.
+*; Also: do not forget to escape \ itself while using the <code>new RegExp("pattern")</code> notation since <code>\</code> is also an escape character in strings.
+|-
+! scope="row" id="special-caret" name="special-caret" |<code>^</code>
+| * Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.
+* For example;
+*; <code>/^A/</code>: does not match the 'A' in "an A", but does match the 'A' in "An E". This character means 'not' when it appears as the first character in a character set pattern.
+*; <code>/[^A-Za-z\s]/</code>: matches any character that is not a letter or whitespace, and so would match the '3' in "I have 3 sisters".
+|-
+! scope="row" id="special-dollar" name="special-dollar" | <code>$</code>
+| * Matches end of input. If the multiline flag is set to true, also matches immediately before a line break character.
+* For example;
+*; <code>/t$/</code>: does not match the 't' in "eater", but does match it in "eat".
+|-
+! scope="row"  id="special-asterisk" name="special-asterisk" | <code>*</code>
+| * Matches the preceding character 0 or more times.
+* For example;
+*; <code>/bo*/</code>: matches 'boooo' in "A ghost booooed" and "''b''" in "A bird warbled", but nothing in "A goat grunted".
+|-
+! scope="row"  id="special-plus" name="special-plus" | <code>+</code>
+| *  Matches the preceding character 1 or more times. Equivalent to <code><nowiki>{1,}</nowiki></code>
+* For example;
+*; <code>/a+/</code>: matches the 'a' in "candy" and all the a's in "caaaaaaandy".
+|-
+! scope="row" id="special-questionmark" name="special-questionmark" | <code>?</code>
+| * Matches the preceding character 0 or 1 time. Equivalent to {0,1}.
+* For example;
+*; <code>/e?le?/</code>: matches the 'el' in "angel" and the 'le' in "angle" and also the 'l' in "oslo".
+*; : If used immediately after any of the quantifiers <code>*</code>, <code>+</code>, <code>?</code>, or <code>{}</code>, makes the quantifier non-greedy (matching the minimum number of times), as opposed to the default, which is greedy (matching the maximum number of times). 
+*; <code>/\d+/</code> non-global: match "123abc" return "123", if using /\d+?/, only "1" will be matched.
+* Also used in lookahead assertions, described under x(?=y) and x(?!y) in this table.</p>
+|-
+! scope="row" id="special-dot" name="special-dot" | <code>.</code>
+|  * (The decimal point) matches any single character except the newline character.
+* For example;
+*; <code>/.n/</code>: matches 'an' and 'on' in "nay, an apple is on the tree", but not 'nay'.
+|-
+! scope="row" id="special-capturing-parentheses" name="special-capturing-parentheses" | <code>(x)</code>
+| * Matches 'x' and remembers the match. These are called capturing parentheses.
+* For example;
+*; <code>/(foo)/</code>: matches and remembers 'foo' in "foo bar." The matched substring can be recalled from the resulting array's elements <code>[1]</code>, ..., <code>[n]</code>.
+|-
+! scope="row" id="special-non-capturing-parentheses" name="special-non-capturing-parentheses" | <code>(?:x)</code>
+| *  Matches 'x' but does not remember the match. These are called non-capturing parentheses. The matched substring can not be recalled from the resulting array's elements <code>[1]</code>, ..., <code>[n]</code>
+|-
+! scope="row" id="special-lookahead" name="special-lookahead" | <code>x(?=y)</code>
+| *  Matches 'x' only if 'x' is followed by 'y'. This is called a lookahead.
+* For example;
+*; <code>/Jack(?=Sprat)/</code>: matches 'Jack' only if it is followed by 'Sprat'. <code>/Jack(?=Sprat{{!}}Frost)/</code> matches 'Jack' only if it is followed by 'Sprat' or 'Frost'. However, neither 'Sprat' nor 'Frost' is part of the match results.
+|-
+! scope="row" id="special-negated-look-ahead" name="special-negated-look-ahead" | <code>x(?!y)</code>
+| * Matches 'x' only if 'x' is not followed by 'y'. This is called a negated lookahead.
+* For example;
+*; <code>/\d+(?!\.)/</code>: matches a number only if it is not followed by a decimal point. The regular expression <code>/\d+(?!\.)/.exec("3.141")</code> matches '<code>141</code>' but not '<code>3.141</code>'.
+|-
+! scope="row" id="special-or" name="special-or" | <code>x{{!}}y</code>
+| * Matches either 'x' or 'y'.
+* For example;
+*; <code>/green{{!}}red/</code>: matches 'green' in "green apple" and 'red' in "red apple."
+|-
+! scope="row" id="special-quantifier" name="special-quantifier" | <code>{n}</code>
+| * Where <code>n</code> is a positive integer. Matches exactly <code>n</code> occurrences of the preceding character.
+* For example;
+*; <code>/a{2}/</code>: doesn't match the 'a' in "candy," but it matches all of the a's in "caandy," and the first two a's in "caaandy."
+|-
+! scope="row" id="special-quantifier-range" name="special-quantifier-range" | <code>{n,m}</code>
+| * Where <code>n</code> and <code>m</code> are positive integers. Matches at least <code>n</code> and at most <code>m</code> occurrences of the preceding character. When either <code>n</code> or <code>m</code> is zero, it can be omitted.
+* For example;
+*; <code>/a{1,3}/</code>: matches nothing in "cndy", the 'a' in "candy," the first two a's in "caandy," and the first three a's in "caaaaaaandy" Notice that when matching "caaaaaaandy", the match is "aaa", even though the original string had more a's in it.
+|-
+! scope="row" id="special-character-set" name="special-character-set" | <code>[xyz]</code>
+| * A character set. Matches any one of the enclosed characters. You can specify a range of characters by using a hyphen. Special characters (such as the dot (<code>.</code>) and the asterisk (<code>*</code>)) do not have any special meaning inside a character set. They need not be escaped. Escape sequences also work.
+* For example;
+*; <code><nowiki>[abcd]</nowiki></code>: is the same as <code><nowiki>[a-d]</nowiki></code>. They match the 'b' in "brisket" and the 'c' in "city". <code><nowiki>/[a-z.]+/</nowiki></code> and <code><nowiki>/[\w.]+/</nowiki></code> both match everything in "<code>test.i.ng</code>".
+|-
+! scope="row" id="special-negated-character-set" name="special-negated-character-set" | <code>[^xyz]</code> 
+| *  A negated or complemented character set. That is, it matches anything that is not enclosed in the brackets. You can specify a range of characters by using a hyphen. Everything that works in the normal character set also works here.
+* For example;
+*; <code>[^abc]</code>: is the same as <code>[^a-c]</code>. They initially match 'r' in "brisket" and 'h' in "chop."
+|-
+! scope="row"  id="special-backspace" name="special-backspace" | <code>[\b]</code> 
+| *  Matches a backspace <code>(U+0008)</code>. (Not to be confused with <code>\b</code>.) 
+|-
+! scope="row"  id="special-word-boundary" name="special-word-boundary" | <code>\b</code> 
+| *  Matches a word boundary. A word boundary matches the position where a word character is not followed or preceeded by another word-character. Note that a matched word boundary is not included in the match. In other words, the length of a matched word boundary is zero. (Not to be confused with <code>[\b]</code>.)
+* For example;
+*;  <code>/\bmoo/</code>: matches the 'moo' in "moon"
+*;  <code>/oo\b/</code>: does not match the 'oo' in "moon", because 'oo' is followed by 'n' which is a word character;
+*;  <code>/oon\b/</code>: matches the 'oon' in "moon", because 'oon' is the end of the string, thus not followed by a word character;
+*;  <code>/\w\b\w/</code>: will never match anything, because a word character can never be followed by both a non-word and a word character.
+|-
+! scope="row" id="special-non-word-boundary" name="special-non-word-boundary"" | <code>\B</code> 
+| *  Matches a non-word boundary. This matches a position where the previous and next character are of the same type: Either both must be words, or both must be non-words. The beginning and end of a string are considered non-words.
+* For example;
+*; <code>/\B../</code>: matches 'oo' in "noonday" 
+*; <code>/y\B./</code>: matches 'ye' in "possibly yesterday."
+|-
+! scope="row"  id="special-control" name="special-control" | <code>\c<em>X</em></code> 
+| *  Where <em>X</em> is a character ranging from A to Z. Matches a control character in a string.
+* For example;
+*; <code>/\cM/</code>: matches control-M (U+000D) in a string.
+|-
+! scope="row"  id="special-digit" name="special-digit" | <code>\d</code> 
+| *  Matches a digit character. Equivalent to <code>[0-9]</code>.
+* For example;
+*; <code>/\d/</code> or <code>/[0-9]/</code>: matches '2' in "B2 is the suite number."
+|-
+! scope="row"  id="special-non-digit" name="special-non-digit" | <code>\D</code> 
+| *  Matches any non-digit character. Equivalent to <code>[^0-9]</code>.
+* For example;
+*; <code>/\D/</code> or <code>/[^0-9]/</code>: matches 'B' in "B2 is the suite number."
+|-
+! scope="row"  id="special-form-feed" name="special-form-feed" | <code>\f</code> 
+| *  Matches a form feed <code>(U+000C)</code>.
+|-
+! scope="row"  id="special-line-feed" name="special-line-feed" | <code>\n</code> 
+| *  Matches a line feed <code>(U+000A)</code>.
+|-
+! scope="row"  id="special-carriage-return" name="special-carriage-return" | <code>\r</code> 
+| *  Matches a carriage return (U+000D).
+|-
+! scope="row"  id="special-white-space" name="special-white-space" | <code>\s</code> 
+| *  Matches a single white space character, including space, tab, form feed, line feed. Equivalent to <code>[ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.
+* For example;
+*; <code>/\s\w*/</code>: matches ' bar' in "foo bar."
+|-
+! scope="row"  id="special-non-white-space" name="special-non-white-space" | <code>\S</code> 
+| *  Matches a single character other than white space. Equivalent to <code>[^ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.
+* For example;
+*; <code>/\S\w*/</code>: matches 'foo' in "foo bar."
+|-
+! scope="row"  id="special-tab" name="special-tab" | <code>\t</code> 
+| *  Matches a tab <code>(U+0009)</code>.
+|-
+! scope="row"  id="special-vertical-tab" name="special-vertical-tab" | <code>\v</code> 
+| *  Matches a vertical tab <code>(U+000B)</code>. 
+|-
+! scope="row"  id="special-word" name="special-word" | <code>\w</code> 
+| *  Matches any alphanumeric character including the underscore. Equivalent to <code>[A-Za-z0-9_]</code>.
+* For example;
+*; <code>/\w/</code>: matches 'a' in "apple," '5' in "$5.28," and '3' in "3D."
+|-
+! scope="row" id="special-non-word" name="special-non-word" | <code>\W</code> 
+| *  Matches any non-word character. Equivalent to <code>[^A-Za-z0-9_]</code>.
+* For example;
+*; <code>/\W/</code> or <code>/[^A-Za-z0-9_]/</code>: matches '%' in "50%."
+|-
+! scope="row"  id="special-backreference" name="special-backreference" | <code>\<em>n</em></code> 
+| *  Where <em>n</em> is a positive integer. A back reference to the last substring matching the <em>n</em> parenthetical in the regular expression (counting left parentheses).
+* For example;
+*; <code>/apple(,)\sorange\1/</code>: matches 'apple, orange,' in "apple, orange, cherry, peach." 
+|-
+! scope="row"  id="special-null" name="special-null" | <code>\0</code> 
+| *  Matches a NULL (U+0000) character. Do not follow this with another digit, because <code>\0&lt;digits&gt;</code> is an octal escape sequence.
+|-
+! scope="row"  id="special-hex-escape" name="special-hex-escape" | <code>\xhh</code> 
+| *  Matches the character with the code hh (two hexadecimal digits)
+|-
+! scope="row"  id="special-unicode-escape" name="special-unicode-escape" | <code>\uhhhh</code> 
+| *  Matches the character with the code hhhh (four hexadecimal digits).
+|}
+
 <h3 id="Using_Parentheses">Using Parentheses</h3>
 <p>Parentheses around any part of the regular expression pattern cause that part of the matched substring to be remembered. Once remembered, the substring can be recalled for other use, as described in [[#Using_Parenthesized_Substring_Matches|Using Parenthesized Substring Matches]].</p>
 <p>For example, the pattern <code>/Chapter (\d+)\.\d*/</code> illustrates additional escaped and special characters and indicates that part of the pattern should be remembered. It matches precisely the characters 'Chapter ' followed by one or more numeric characters (<code>\d</code> means any numeric character and <code>+</code> means 1 or more times), followed by a decimal point (which in itself is a special character; preceding the decimal point with \ means the pattern must look for the literal character '.'), followed by any numeric character 0 or more times (<code>\d</code> means numeric character, <code>*</code> means 0 or more times). In addition, parentheses are used to remember the first matched numeric characters.</p>
