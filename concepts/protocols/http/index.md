@@ -16,7 +16,7 @@ HTTP was one of the first protocols developed as part of Web starting in late 19
 * [[http/methods|List of HTTP methods]]
 * [[http/response status codes|List of HTTP status codes]]
 * HTTP the protocol: The entity-body and transfer control, what are resources
-* [[/concepts/Internet and Web/how browsers work#The_browser.27s_high_level_structure|Layered requests]] with proxies and gateways
+* [[/concepts/Internet and Web/how browsers work#The browser's high level structure|Layered requests]] with proxies and gateways
 * [[http/requesting resources|Requesting resources]]: GET, HEAD, OPTIONS
 * [[http/resource metadata|Resource metadata]]: Link, Last-Modified, Content-Type, Allow, etc
 * [[http/caching|Caching]] and conditional requests
