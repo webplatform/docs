@@ -28,7 +28,7 @@ var re = new RegExp("ab+c");
 <p>When the search for a match requires something more than a direct match, such as finding one or more b's, or finding white space, the pattern includes special characters. For example, the pattern <code>/ab*c/</code> matches any character combination in which a single 'a' is followed by zero or more 'b's (<code>*</code> means 0 or more occurrences of the preceding item) and then immediately followed by 'c'. In the string "cbbabbbbcdebc," the pattern matches the substring 'abbbbc'.</p>
 <p>The following table provides a complete list and description of the special characters that can be used in regular expressions.</p>
 
-{|
+{| class="standard-table"
 |+ Table 4.1 Special characters in regular expressions.
 |-
 !  scope="col" | Character
@@ -43,7 +43,7 @@ var re = new RegExp("ab+c");
 *; Also: do not forget to escape \ itself while using the <code>new RegExp("pattern")</code> notation since <code>\</code> is also an escape character in strings.
 |-
 ! scope="row" id="special-caret" name="special-caret" |<code>^</code>
-| * Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.
+|* Matches beginning of input. If the multiline flag is set to true, also matches immediately after a line break character.
 * For example;
 *; <code>/^A/</code>: does not match the 'A' in "an A", but does match the 'A' in "An E". This character means 'not' when it appears as the first character in a character set pattern.
 *; <code>/[^A-Za-z\s]/</code>: matches any character that is not a letter or whitespace, and so would match the '3' in "I have 3 sisters".
