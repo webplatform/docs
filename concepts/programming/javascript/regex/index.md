@@ -189,7 +189,8 @@ var re = new RegExp("ab+c");
 *; <code>/\s\w*/</code>: matches ' bar' in "foo bar."
 |-
 ! scope="row"  id="special-non-white-space" name="special-non-white-space" | <code>\S</code> 
-| *  Matches a single character other than white space. Equivalent to <code>[^ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.
+|
+*  Matches a single character other than white space. Equivalent to <code>[^ \f\n\r\t\v​\u00A0\u1680​\u180e\u2000​\u2001\u2002​\u2003\u2004​\u2005\u2006​\u2007\u2008​\u2009\u200a​\u2028\u2029​\u2028\u2029​\u202f\u205f​\u3000]</code>.
 * For example;
 *; <code>/\S\w*/</code>: matches 'foo' in "foo bar."
 |-
