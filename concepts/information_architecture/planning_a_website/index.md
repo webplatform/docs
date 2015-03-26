@@ -37,7 +37,6 @@ Some tools to help wireframe are:
 * [http://www.flairbuilder.com/ FlairBuilder](Window, Mac - Paid)
 * [http://www.hotgloo.com/ HotGloo](WEB - Paid)
 * [http://iphonemockup.lkmc.ch/ iPhone Mockup](WEB - Free)
-*[http://creately.com/ Creately](Windows, Mac, Linux, Web - Freemium)
 
 
 ===Designing your site===
@@ -90,12 +89,23 @@ Launching is half the process though. You need to fix the problems that will for
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section}}
+{{Notes_Section
+|Usage=
+|Notes=
+|Import_Notes=
+}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section}}
+{{See_Also_Section
+|Manual_links=
+|External_links=
+|Manual_sections=
+}}
 {{Topics|Accessibility, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
