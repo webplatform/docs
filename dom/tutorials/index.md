@@ -351,6 +351,63 @@ So far we have seen how to manipulate html tags that have already been declared 
 | Replace an element or child node
 |- 
 |}
+
+* '''createElement()'''
+
+Syntax for this method is as follows:
+
+<syntaxhighlight="javascript">
+Variable = element.createElement("element name");
+</syntaxhighlight>
+
+<syntaxhighlight="javascript">
+var newimg = document.createElement("img");
+</syntaxhighlight>
+
+This will just create an image element. To display an image we must first set its attributes.
+
+<syntaxhighlight="javascript">
+var newimg = document.createElement("img");
+newimg.setAttribute("src", "abc.jpg");
+</syntaxhighlight>
+
+* '''removeChild()'''
+
+Syntax for this method is as follows:
+
+<syntaxhighlight="javascript">
+element.node.removeChild(node);
+</syntaxhighlight>
+
+<syntaxhighlight="javascript">
+document.getElementsByTagName.removeChild(newimg);
+</syntaxhighlight>
+
+* '''appendChild()'''
+
+Syntax for this method is as follows: 
+
+<syntaxhighlight="javascript">
+element.node.appendChild(node);
+</syntaxhighlight>
+
+<syntaxhighlight="javascript">
+document.getElementsByTagName("p")[0].appendChild(newimg);
+</syntaxhighlight>
+
+* '''replaceChild()'''
+
+The Syntax for this method is as follows: 
+
+<syntaxhighlight="javascript">
+oldnode.replaceChild(newnode,oldnode);
+</syntaxhighlight>
+
+
+
+
+
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
