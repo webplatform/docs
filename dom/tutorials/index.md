@@ -152,7 +152,7 @@ function changeSize(size){
 | Used to remove an attribute from an element
 |}
 
-* '''getAttribute'''
+* '''getAttribute()'''
 
 Syntax for this method is as follows:
 
@@ -165,6 +165,38 @@ Variable = element.node.getAttribute("attribute name", "attribute value");
 
 var x = document.getElementsByTagName("p")[0].getAttribute("align");
 </syntaxhighlight>
+
+* '''setAttribute()'''
+
+Syntax for this method is as follows:
+
+<syntaxhighlight lang="javascript">
+
+element.node.setAttribute("attribute name", "attribute value");
+</syntaxhighlight>
+
+<syntaxhighlight lang="javascript">
+
+document.getElementsByTagName("p")[0].setAttribute("align","right");
+</syntaxhighlight>
+
+This method is often used with event handlers like onclick() or onmouseover() to change an aspect of a website based on user input.
+
+* '''removeAttribute()'''
+
+Syntax for this method is as follows:
+
+<syntaxhighlight lang="javascript">
+
+element.node.removeAttribute("attribute name");
+</syntaxhighlight>
+
+<syntaxhighlight lang="javascript">
+
+document.getElementsByTagName("p")[0].removeAttribute("align");
+</syntaxhighlight>
+
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
