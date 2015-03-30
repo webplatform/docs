@@ -30,7 +30,9 @@ Look at the following code :
 </syntaxhighlight>
 
 The DOM tree structure for this code would be something like this :
---- DOM_1.svg-- (Dont have permission to upload images yet) :(
+
+[[Image:DOM 1.SVG|DOM tree structure]]
+
 
 The DOM follows a hierarchical structure.
 
@@ -195,8 +197,6 @@ element.node.removeAttribute("attribute name");
 
 document.getElementsByTagName("p")[0].removeAttribute("align");
 </syntaxhighlight>
-
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
