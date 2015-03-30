@@ -400,14 +400,8 @@ document.getElementsByTagName("p")[0].appendChild(newimg);
 The Syntax for this method is as follows: 
 
 <syntaxhighlight lang ="javascript">
-oldnode.replaceChild(newnode,oldnode);
+node.replaceChild(newnode,oldnode);
 </syntaxhighlight>
-
-
-
-
-
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
