@@ -274,15 +274,17 @@ Let's look at this piece of code:
 </html>
 </syntaxhighlight>
 
+If we add this script to the HTML code: 
+
 <syntaxhighlight lang="javascript">
 document.getElementsByTagName("h1")[0].previousSibling.data="I am now the main heading";
 </syntaxhighlight>
 
-This will add the line before the h1 tag, Similartly the other commands behave as described. 
+It will appear in a line before the h1 tag, Similarly the other commands behave as described. 
 
 For the firstChild and a lastChild node properties,, sometimes when there is only one child in a node, in which case it is considered as the firstChild and the lastChild of that node.
 
-What exactly is a child? It would probably be easier to explain in example form:
+It would probably be easier to explain in example form:
 <syntaxhighlight lang="html5">
 <html>
 <head>
@@ -310,8 +312,8 @@ document.getElementsByTagName("p")[2].lastChild.data="cake";
        <p>first<em>Second</em>Third<em>Fourth</em>last</p>
        <p>First<em>Second</em>Last</p>
        <p>First and Last</p> 
-	   <input type="button" value="click" onclick="firstc()">
-           <input type="button" value="click" onclick="lastc()">
+	   <input type="button" value="First" onclick="firstc()">
+           <input type="button" value="Last" onclick="lastc()">
        
 </body>
 </html>
