@@ -223,6 +223,32 @@ document.getElementsByTagName("font")[0].removeAttribute("size");
 </syntaxhighlight>
 
 In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
+
+==Adding and Deleting Elements==
+
+So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
+
+
+{| class="wikitable"
+|-
+! Method Name
+! Description
+|-
+| createElement()
+| Used to create an element
+|-
+| removeChild()
+| Remove the selected child node or element.
+|- 
+| appendChild()
+| Add an HTML element or child
+|- 
+| replaceChild()
+| Add an HTML element or child
+|- 
+|}
+
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
