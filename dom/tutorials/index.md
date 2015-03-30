@@ -77,17 +77,17 @@ Look at the following code:
 
 </syntaxhighlight>
 
-This code is designed to change the CSS of the first <p> tag in the example. If we wanted to modify the CSS of the second p tag, you will need to change the p[0] to p[1]. The third p tag would then be p[2] and so on. This is because, in Javascript we start counting from 0.  This method sounds awfully inconvenient, especially if we have a HTML document with hundreds of tags.  So instead, let’s use a different method.
+This code is designed to change the CSS of the first <code>p</code> tag in the example. If we wanted to modify the CSS of the second p tag, you will need to change the p[0] to p[1]. The third p tag would then be p[2] and so on. This is because, in Javascript we start counting from 0.  This method sounds awfully inconvenient, especially if we have a HTML document with hundreds of tags.  So instead, let’s use a different method.
 
 ==The getElementById() method==
 
-This is the most common method used to access HTML elements by using their id. In the following example we are modifying the font size of the text in the <p> tag with the id “demo”.
+This is the most common method used to access HTML elements by using their id. In the following example we are modifying the font size of the text in the <code>p</code> tag with the id “demo”.
 
 
 <syntaxhighlight lang="html5">
 <html>
 <head>
-<title>Specify CSS style</title>
+<title>Using getElementById Method</title>
 <script type="text/javascript">
 function changeFontSize(size){
  document.getElementById("demo").style.fontSize = size;
@@ -100,7 +100,7 @@ function changeFontSize(size){
  <input type="button" value="big" onclick="changeFontSize('140%');">
  </p>
  
- <p id="demo">Paragraph 2</p>
+ <p id="demo">This is a random sentence</p>
  </body>
  </html>
 
