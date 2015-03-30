@@ -31,7 +31,7 @@ Look at the following code :
 
 The DOM tree structure for this code would be something like this :
 
-[[Image:DOM 1.SVG|DOM tree structure]]
+[[Image:DOM_1.SVG|DOM tree structure]]
 
 
 The DOM follows a hierarchical structure.
