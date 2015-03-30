@@ -151,6 +151,20 @@ function changeSize(size){
 | removeAttribute()
 | Used to remove an attribute from an element
 |}
+
+*getAttribute
+
+Syntax for this method is as follows:
+
+<syntaxhighlight lang="javascript">
+
+Variable = element.node.getAttribute("attribute name", "attribute value");
+</syntaxhighlight>
+
+<syntaxhighlight lang="javascript">
+
+var x = document.getElementsByTagName("p")[0].getAttribute("align");
+</syntaxhighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
