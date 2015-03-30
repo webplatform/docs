@@ -147,7 +147,7 @@ function changeSize(size){
 |-
 | setAttribute()
 | Used to assign an attribute to an element
-| 
+|- 
 | removeAttribute()
 | Used to remove an attribute from an element
 |}
