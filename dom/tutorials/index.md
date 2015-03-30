@@ -438,6 +438,20 @@ document.getElementById("container").removeChild(olddata);
 </html>
 
 </syntaxhighlight>
+
+Ask yourself a few questions:
+
+* What is happening in the create() function?
+* What is happening in the destroy() function?
+* In the destroy() function, what happens if you replace :
+<syntaxhighlight lang="javascript">
+var olddata=document.getElementById("container").lastChild;
+</syntaxhighlight>
+with
+<syntaxhighlight lang="javascript">
+var olddata=document.getElementById("container").lastChild;
+</syntaxhighlight>
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
