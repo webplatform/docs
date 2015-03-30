@@ -134,6 +134,23 @@ function changeSize(size){
  </body>
  </html>
 </syntaxhighlight>
+
+==Modifying Attributes Methods==
+
+{| class="wikitable"
+|-
+! Method Name
+! Description
+|-
+| getAttribute()
+| Used to retrieve an attribute value
+|-
+| setAttribute()
+| Used to assign an attribute to an element
+| 
+| removeAttribute()
+| Used to remove an attribute from an element
+|}
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
