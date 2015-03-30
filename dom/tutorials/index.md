@@ -238,17 +238,52 @@ So far we have seen how to manipulate html tags that have already been declared 
 | Used to create an element
 |-
 | removeChild()
-| Remove the selected child node or element.
+| Remove the selected element or child node.
 |- 
 | appendChild()
-| Add an HTML element or child
+| Add an element or child node.
 |- 
 | replaceChild()
-| Add an HTML element or child
+| Replace an element or child node
 |- 
 |}
 
+Before we get started on this part, let's understand the node interface. Every node has a firstChild and a lastChild, sometimes when there is only one child in a node, in which case it is considered as the firstChild and the lastChild of that node.
 
+What exactly is a child? It would probably be easier to explain in example form:
+<syntaxhighlight lang="html5">
+<html>
+<head>
+<title>First Child, Last Chold</title>
+</head>
+
+<script type="text/javascript">
+function firstc(){
+document.getElementsByTagName("p")[0].firstChild.data="Pie";
+document.getElementsByTagName("p")[1].firstChild.data="Pie";
+document.getElementsByTagName("p")[2].firstChild.data="Pie";
+
+}
+
+function lastc(){
+document.getElementsByTagName("p")[0].lastChild.data="cake";
+document.getElementsByTagName("p")[1].lastChild.data="cake";
+document.getElementsByTagName("p")[2].lastChild.data="cake";
+
+}
+</script>
+
+<body>
+       
+       <p>first<em>Second</em>Third<em>Fourth</em>last</p>
+       <p>First<em>Second</em>Last</p>
+       <p>First and Last</p> 
+	   <input type="button" value="click" onclick="firstc()">
+           <input type="button" value="click" onclick="lastc()">
+       
+</body>
+</html>
+</syntaxhighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
