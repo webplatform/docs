@@ -411,11 +411,14 @@ All right, lets look at these methods in action.
 <head>
 	       
 <script type="text/javascript">
+
+
 function create(){
 
 var createstuff = document.createElement("p");
 createstuff.innerHTML="Stuff";
 document.getElementById("container").appendChild(createstuff);
+i++;
 
 }
 
@@ -431,9 +434,12 @@ document.getElementById("container").removeChild(olddata);
 		
 </head>
 <body>
-      <input type="button" value="create" onclick="create()">
-      <input type="button" value="destroy" onclick="destroy()">
+      <input type="button" value="Psst over here" onmouseover="create();" onmouseout="destroy();">
+	  
       <p id="container"></p> 
+	 
+
+
 </body>
 </html>
 
