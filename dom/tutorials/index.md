@@ -106,6 +106,34 @@ function changeFontSize(size){
 
 
 </syntaxhighlight>
+
+
+==The getElementsByClassName() method==
+
+Similar to the getElementById() method, this method is used to select a whole class.
+
+<syntaxhighlight lang="html5">
+<html>
+<head>
+<title>Using the getElementsByClassName method</title>
+<script type="text/javascript">
+function changeFontSize(size){
+ document.getElementsByClassName("demo").style.fontSize = size;
+ </script>
+</head>
+ <body>
+ <p>fontsize :
+ <input type="button" value="small" onclick="changeFontSize('60%');">
+<input type="button" value="normal" onclick="changeFontSize('100%');">
+ <input type="button" value="big" onclick="changeFontSize('140%');">
+ </p>
+ 
+ <p class="demo">This is a random sentence</p>
+<p class="demo">This is also another random sentence</p>
+<div class="demo">Since this is a class, you can use it multiple times across different tags</div>
+ </body>
+ </html>
+<syntaxhighlight lang="html5">
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
