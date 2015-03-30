@@ -133,7 +133,7 @@ function changeFontSize(size){
 <div class="demo">Since this is a class, you can use it multiple times across different tags</div>
  </body>
  </html>
-<syntaxhighlight lang="html5">
+</syntaxhighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
