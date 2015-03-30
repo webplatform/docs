@@ -418,7 +418,7 @@ function create(){
 var createstuff = document.createElement("p");
 createstuff.innerHTML="Stuff";
 document.getElementById("container").appendChild(createstuff);
-i++;
+
 
 }
 
