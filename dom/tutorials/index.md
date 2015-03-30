@@ -21,12 +21,12 @@ Look at the following code :
 <syntaxhighlight lang="html5">
 <html>
 <head>
-             <title>DOM</title>
+          <title>DOM</title>
 </head>
 <body>
-             <h1>My Heading</h1>
-             <p>Hello World!</p>
-             <p>This is DOM</p>
+         <h1>My Heading</h1>
+          <p>Hello World!</p>
+          <p>This is DOM</p>
 </body>
 </html>
 </syntaxhighlight>
