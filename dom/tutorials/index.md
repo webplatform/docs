@@ -152,7 +152,7 @@ function changeSize(size){
 | Used to remove an attribute from an element
 |}
 
-* getAttribute
+* '''getAttribute'''
 
 Syntax for this method is as follows:
 
