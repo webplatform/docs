@@ -65,17 +65,20 @@ Look at the following code:
 <html>
 <head>
 <title>Specify CSS style</title>
-<script type="text/javascript">
- function changeSize(){
- document.getElementsByTagName("p")[0].style.fontSize = "140%"; 
- document.getElementsByTagName("p")[1].style.fontSize = "160%";
-}
-</script>
+
+  <script type="text/javascript">
+    function changeSize(){
+    document.getElementsByTagName("p")[0].style.fontSize = "140%"; 
+    document.getElementsByTagName("p")[1].style.fontSize = "160%";
+   }
+  </script>
  </head>
+
  <body>
- <input type="button" value="Click" onclick="changeSize();">
-<p>Paragraph 1</p>
-<p>Paragraph 2</p>
+   <input type="button" value="Click" onclick="changeSize();">
+  <p>Paragraph 1</p>
+  <p>Paragraph 2</p>
+
 </body>
  </html>
 
@@ -92,19 +95,21 @@ This is the most common method used to access HTML elements by using their id. I
 <html>
 <head>
 <title>Using getElementById Method</title>
-<script type="text/javascript">
-function changeSize(size){
- document.getElementById("demo").style.fontSize = size;
- </script>
+  <script type="text/javascript">
+   function changeSize(size){
+    document.getElementById("demo").style.fontSize = size;
+   </script>
 </head>
  <body>
- <p>fontsize :
- <input type="button" value="small" onclick="changeSize('60%');">
-<input type="button" value="normal" onclick="changeSize('100%');">
- <input type="button" value="big" onclick="changeSize('140%');">
- </p>
+
+   <p>fontsize :
+   <input type="button" value="small" onclick="changeSize('60%');">
+   <input type="button" value="normal" onclick="changeSize('100%');">
+   <input type="button" value="big" onclick="changeSize('140%');">
+   </p>
  
- <p id="demo">This is a random sentence</p>
+   <p id="demo">This is a random sentence</p>
+
  </body>
  </html>
 
@@ -120,21 +125,24 @@ Similar to the getElementById() method, this method is used to select a whole cl
 <html>
 <head>
 <title>Using the getElementsByClassName method</title>
-<script type="text/javascript">
-function changeSize(size){
- document.getElementsByClassName("demo").style.fontSize = size;
- </script>
+  <script type="text/javascript">
+    function changeSize(size){
+    document.getElementsByClassName("demo").style.fontSize = size;
+  </script>
 </head>
+
  <body>
- <p>fontsize :
- <input type="button" value="small" onclick="changeSize('60%');">
-<input type="button" value="normal" onclick="changeSize('100%');">
- <input type="button" value="big" onclick="changeSize('140%');">
- </p>
+
+   <p>fontsize :
+   <input type="button" value="small" onclick="changeSize('60%');">
+   <input type="button" value="normal" onclick="changeSize('100%');">
+   <input type="button" value="big" onclick="changeSize('140%');">
+   </p>
  
- <p class="demo">This is a random sentence</p>
-<p class="demo">This is also another random sentence</p>
-<div class="demo">Since this is a class, you can use it multiple times across different tags</div>
+   <p class="demo">This is a random sentence</p>
+   <p class="demo">This is also another random sentence</p>
+   <div class="demo">Since this is a class, you can use it multiple times across different tags</div>
+
  </body>
  </html>
 </syntaxhighlight>
@@ -205,18 +213,20 @@ Let's look at a quick example of these attributes in action:
 <syntaxhighlight lang="html5">
 <html>
 <head> 
-<title>Setting and removing attributes</title>
-<script type="text/javascript">
-function onmousefont(){
-document.getElementsByTagName("font")[0].setAttribute("size","7");
-}
-function offmousefont(){
-document.getElementsByTagName("font")[0].removeAttribute("size");
-}
+  <title>Setting and removing attributes</title>
+
+  <script type="text/javascript">
+   function onmousefont(){
+    document.getElementsByTagName("font")[0].setAttribute("size","7"); 
+   }
+   function offmousefont(){
+    document.getElementsByTagName("font")[0].removeAttribute("size");
+   }
 </script>
+
 </head>
 <body>
-<font onmouseover="onmousefont();" onmouseout="offmousefont();">Mouse over me! </font>
+   <font onmouseover="onmousefont();" onmouseout="offmousefont();">Mouse over me! </font>
 </body>
 </html>
 
