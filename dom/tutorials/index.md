@@ -62,14 +62,14 @@ Look at the following code:
 <head>
 <title>Specify CSS style</title>
 <script type="text/javascript">
- function changecolor(){
- document.getElementsByTagName("p")[0].style.background = "silver"; 
- document.getElementsByTagName("p")[0].style.color = "green";
+ function changeSize(){
+ document.getElementsByTagName("p")[0].style.fontSize = "140%"; 
+ document.getElementsByTagName("p")[1].style.fontSize = "160%";
 }
 </script>
  </head>
  <body>
- <input type="button" value="Click" onclick="changecolor();">
+ <input type="button" value="Click" onclick="changeSize();">
 <p>Paragraph 1</p>
 <p>Paragraph 2</p>
 </body>
@@ -89,15 +89,15 @@ This is the most common method used to access HTML elements by using their id. I
 <head>
 <title>Using getElementById Method</title>
 <script type="text/javascript">
-function changeFontSize(size){
+function changeSize(size){
  document.getElementById("demo").style.fontSize = size;
  </script>
 </head>
  <body>
  <p>fontsize :
- <input type="button" value="small" onclick="changeFontSize('60%');">
-<input type="button" value="normal" onclick="changeFontSize('100%');">
- <input type="button" value="big" onclick="changeFontSize('140%');">
+ <input type="button" value="small" onclick="changeSize('60%');">
+<input type="button" value="normal" onclick="changeSize('100%');">
+ <input type="button" value="big" onclick="changeSize('140%');">
  </p>
  
  <p id="demo">This is a random sentence</p>
@@ -117,15 +117,15 @@ Similar to the getElementById() method, this method is used to select a whole cl
 <head>
 <title>Using the getElementsByClassName method</title>
 <script type="text/javascript">
-function changeFontSize(size){
+function changeSize(size){
  document.getElementsByClassName("demo").style.fontSize = size;
  </script>
 </head>
  <body>
  <p>fontsize :
- <input type="button" value="small" onclick="changeFontSize('60%');">
-<input type="button" value="normal" onclick="changeFontSize('100%');">
- <input type="button" value="big" onclick="changeFontSize('140%');">
+ <input type="button" value="small" onclick="changeSize('60%');">
+<input type="button" value="normal" onclick="changeSize('100%');">
+ <input type="button" value="big" onclick="changeSize('140%');">
  </p>
  
  <p class="demo">This is a random sentence</p>
