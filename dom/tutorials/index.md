@@ -224,31 +224,63 @@ document.getElementsByTagName("font")[0].removeAttribute("size");
 
 In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
 
-==Adding and Deleting Elements==
-
-So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
-
+== Node Interface==
 
 {| class="wikitable"
 |-
-! Method Name
+! Node Property
 ! Description
 |-
-| createElement()
-| Used to create an element
+| nodeType
+| Shows the node type
 |-
-| removeChild()
-| Remove the selected element or child node.
+| parentNode
+| Access the parent node
 |- 
-| appendChild()
-| Add an element or child node.
+| childNodes
+| List of all the child nodes
 |- 
-| replaceChild()
-| Replace an element or child node
+| firstChild
+| Selects the first child of the node
+|- 
+| lastChild
+| Selects the last child of this node
+|- 
+| previousSibling
+| Selects the node just before the current node
+|- 
+| nextSibling
+| Selects the node just after the current node
+|- 
+| attributes
+| Lists all the attributes in case of an element node
 |- 
 |}
 
-Before we get started on this part, let's understand the node interface. Every node has a firstChild and a lastChild, sometimes when there is only one child in a node, in which case it is considered as the firstChild and the lastChild of that node.
+Before we get started on this part, let's understand the node interface. In DOM every single piece of data can be viewed as a node. 
+
+Let's look at this piece of code: 
+
+<syntaxhighlight lang="html5">
+<html>
+<head>
+          <title>DOM</title>
+</head>
+<body>
+         <h1>My Heading</h1>
+          <p>Hello World!</p>
+          <p>This is DOM</p>
+</body>
+</html>
+</syntaxhighlight>
+
+<syntaxhighlight lang="javascript">
+document.getElementsByTagName("h1")[0].previousSibling.data="I am now the main heading";
+</syntaxhighlight>
+
+This will add the line before the h1 tag, Similartly the other commands behave as described. 
+
+For the firstChild and a lastChild node properties,, sometimes when there is only one child in a node, in which case it is considered as the firstChild and the lastChild of that node.
 
 What exactly is a child? It would probably be easier to explain in example form:
 <syntaxhighlight lang="html5">
@@ -284,6 +316,30 @@ document.getElementsByTagName("p")[2].lastChild.data="cake";
 </body>
 </html>
 </syntaxhighlight>
+
+==Adding and Deleting Elements ==
+
+So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
+
+{| class="wikitable"
+|-
+! Method Name
+! Description
+|-
+| createElement()
+| Used to create an element
+|-
+| removeChild()
+| Remove the selected element or child node.
+|- 
+| appendChild()
+| Add an element or child node.
+|- 
+| replaceChild()
+| Replace an element or child node
+|- 
+|}
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
