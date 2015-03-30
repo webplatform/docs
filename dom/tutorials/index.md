@@ -38,9 +38,9 @@ The DOM tree structure for this code would be something like this :
 
 The DOM follows a hierarchical structure.
 
-In the example, the <code>body</code> tag is the parent node of the <code>h1</code> and <code>p</code> tags because they are described inside the <code>body</code> tag. Similarly the <code>html</code> tag is the parent node of the <code>body</code> tag.
+In the example, the <code>body</code> tag is the parent node of the <code>h1</code> and <code>p</code> tags because they are described inside the <code>body</code> tag. Similarly the <code>html</code> tag is the''' parent node''' of the <code>body</code> tag.
 
-The <code>p</code> tags and the <code>h1</code> tags have a common parent in the <code>body</code> tag. When this happens the tags are called sibling nodes.
+The <code>p</code> tags and the <code>h1</code> tags have a common parent in the <code>body</code> tag. When this happens the tags are called '''sibling nodes'''.
 
 All the nodes located under a certain node are descendant nodes, and a node located
 on the top of the parent nodes is an ancestor node.
@@ -199,6 +199,30 @@ element.node.removeAttribute("attribute name");
 
 document.getElementsByTagName("p")[0].removeAttribute("align");
 </syntaxhighlight>
+
+Let's look at a quick example of these attributes in action:
+
+<syntaxhighlight lang="html5">
+<html>
+<head> 
+<title>Setting and removing attributes</title>
+<script type="text/javascript">
+function onmousefont(){
+document.getElementsByTagName("font")[0].setAttribute("size","7");
+}
+function offmousefont(){
+document.getElementsByTagName("font")[0].removeAttribute("size");
+}
+</script>
+</head>
+<body>
+<font onmouseover="onmousefont();" onmouseout="offmousefont();">Mouse over me! </font>
+</body>
+</html>
+
+</syntaxhighlight>
+
+In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
