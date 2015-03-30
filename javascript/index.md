@@ -1,7 +1,6 @@
 {{Page_Title|JavaScript}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|JavaScript is the scripting language of the Web, enabling us to implement all kinds of powerful dynamic features.
@@ -43,16 +42,10 @@ To contribute to other JavaScript-related technologies such as HTML5, [http://jq
 
 
 {{See_Also_Section}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
-|HTML5Rocks_link=
 }}
