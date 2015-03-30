@@ -34,13 +34,12 @@ The DOM tree structure for this code would be something like this :
 
 The DOM follows a hierarchical structure.
 
-In the example, the <body> tag is the parent node of the <code>h1</code> and <code>p</code> tags because they are described inside the <code>body</code> tag. Similarly the <code>html</code> tag is the parent node of the <code>body</code> tag.
+In the example, the <code>body</code> tag is the parent node of the <code>h1</code> and <code>p</code> tags because they are described inside the <code>body</code> tag. Similarly the <code>html</code> tag is the parent node of the <code>body</code> tag.
 
 The <code>p</code> tags and the <code>h1</code> tags have a common parent in the <code>body</code> tag. When this happens the tags are called sibling nodes.
 
 All the nodes located under a certain node are descendant nodes, and a node located
 on the top of the parent nodes is an ancestor node.
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
