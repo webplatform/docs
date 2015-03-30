@@ -339,7 +339,6 @@ So far we have seen how to manipulate html tags that have already been declared 
 | Replace an element or child node
 |- 
 |}
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
