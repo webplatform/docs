@@ -356,17 +356,17 @@ So far we have seen how to manipulate html tags that have already been declared 
 
 Syntax for this method is as follows:
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 Variable = element.createElement("element name");
 </syntaxhighlight>
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 var newimg = document.createElement("img");
 </syntaxhighlight>
 
 This will just create an image element. To display an image we must first set its attributes.
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 var newimg = document.createElement("img");
 newimg.setAttribute("src", "abc.jpg");
 </syntaxhighlight>
@@ -375,11 +375,11 @@ newimg.setAttribute("src", "abc.jpg");
 
 Syntax for this method is as follows:
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang="javascript">
 element.node.removeChild(node);
 </syntaxhighlight>
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 document.getElementsByTagName.removeChild(newimg);
 </syntaxhighlight>
 
@@ -387,11 +387,11 @@ document.getElementsByTagName.removeChild(newimg);
 
 Syntax for this method is as follows: 
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 element.node.appendChild(node);
 </syntaxhighlight>
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 document.getElementsByTagName("p")[0].appendChild(newimg);
 </syntaxhighlight>
 
@@ -399,7 +399,7 @@ document.getElementsByTagName("p")[0].appendChild(newimg);
 
 The Syntax for this method is as follows: 
 
-<syntaxhighlight="javascript">
+<syntaxhighlight lang ="javascript">
 oldnode.replaceChild(newnode,oldnode);
 </syntaxhighlight>
 
