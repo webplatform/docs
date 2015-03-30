@@ -83,7 +83,6 @@ As another example, look at the following media query:
 |-
 | @media not screen and (color), print and (color)
 |}
-
 It is evaluated like this:
 
 {|
@@ -104,8 +103,7 @@ The ''only'' keyword prevents older browsers that do not support media queries w
 == Media features ==
 *[[css/media queries/any-hover|any-hover]]
 *[[css/media queries/any-pointer|any-pointer]]
-*[[css/media queries/aspect-ratio|aspect-ratio]]
-*[[css/media queries/color|color]]
+*[[css/media queries/aspect-ratio|aspect-ratio]*[[css/media queries/color|color]]
 *[[css/media queries/color-index|color-index]]
 *[[css/media queries/device-aspect-ratio|device-aspect-ratio]]
 *[[css/media queries/device-height|device-height]]
