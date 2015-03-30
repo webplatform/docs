@@ -8,9 +8,9 @@
 {{Basic Page}}
 ==Introduction to Document Object Model==
 
-DOM is an interface to interact with the contents of a webpage. All elements in a webpage can be described in a Document Object Model (DOM). What this means is that every HTML document can be represented as a tree of “objects”.  This object model is used with JavaScript to create dynamic HTML.  In a DOM, all the HTML elements of a webpage like tags, attributes, comments and content are divided into the units called “Nodes”.
+DOM is an interface to interact with the contents of a webpage. All elements in a webpage can be described in a Document Object Model (DOM). What this means is that every HTML document can be represented as a tree of “objects”.  This object model is commonly used with JavaScript to create dynamic HTML.  In a DOM, all the HTML elements of a webpage like tags, attributes, comments and content are divided into the units called “Nodes”.
 
-For example, html tags are called “element nodes” and attributes of a tag are called “attribute nodes”, similarly text data are called “text nodes” and comments are called “comments nodes” and so on.
+For example, tags are called “element nodes” and attributes of a tag are called “attribute nodes”, similarly text data are called “text nodes” and comments are called “comments nodes” and so on.
 
 
 
@@ -30,7 +30,7 @@ Look at the following code :
 </syntaxhighlight>
 
 The DOM tree structure for this code would be something like this :
---- DOM_1.svg-- (Dont have permission to upload images yet
+--- DOM_1.svg-- (Dont have permission to upload images yet) :(
 
 The DOM follows a hierarchical structure.
 
