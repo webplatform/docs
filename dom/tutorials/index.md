@@ -402,6 +402,42 @@ The Syntax for this method is as follows:
 <syntaxhighlight lang ="javascript">
 node.replaceChild(newnode,oldnode);
 </syntaxhighlight>
+
+All right, lets look at these methods in action.
+
+<syntaxhighlight lang="html5">
+
+<html>
+<head>
+	       
+<script type="text/javascript">
+function create(){
+
+var createstuff = document.createElement("p");
+createstuff.innerHTML="Stuff";
+document.getElementById("container").appendChild(createstuff);
+
+}
+
+function destroy(){
+
+var olddata=document.getElementById("container").lastChild;
+document.getElementById("container").removeChild(olddata);
+
+}
+</script>
+
+        <title>Javascript2_lesson11</title>
+		
+</head>
+<body>
+      <input type="button" value="create" onclick="create()">
+      <input type="button" value="destroy" onclick="destroy()">
+      <p id="container"></p> 
+</body>
+</html>
+
+</syntaxhighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
