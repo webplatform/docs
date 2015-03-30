@@ -449,9 +449,8 @@ var olddata=document.getElementById("container").lastChild;
 </syntaxhighlight>
 with
 <syntaxhighlight lang="javascript">
-var olddata=document.getElementById("container").lastChild;
+var olddata=document.getElementById("container").firstChild;
 </syntaxhighlight>
-
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
