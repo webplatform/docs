@@ -460,7 +460,7 @@ var olddata=document.getElementById("container").firstChild;
 
 Now let's look at an example for replaceChild():
 
-<syntaxhighlight="html5">
+<syntaxhighlight lang="html5">
 
 <html>
 <head>
