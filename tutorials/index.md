@@ -13,6 +13,7 @@
 * [[css/tutorials|CSS]]
 * [[javascript|JavaScript]]
 * [[svg/tutorials|SVG]]
+* [[dom/tutorials| DOM]]
 
 ==Topical tutorials==
 * [[tutorials/audio|Audio]]
@@ -27,6 +28,7 @@
 * [[tutorials/tools|Tools]]
 * [[tutorials/typography|Typography]]
 * [[tutorials/webcomponents|Web components]]
+
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
