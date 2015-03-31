@@ -1,7 +1,6 @@
-{{Page_Title|Learn the latest in web technologies.}}
+{{Page_Title|Learn the latest in web technologies}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 }}
 {{Summary_Section|Tutorials are hands-on lessons about implementing web technology.}}
@@ -28,16 +27,8 @@
 * [[tutorials/tools|Tools]]
 * [[tutorials/typography|Typography]]
 * [[tutorials/webcomponents|Web components]]
-
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
