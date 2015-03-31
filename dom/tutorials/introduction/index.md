@@ -36,3 +36,5 @@ The <code>p</code> tags and the <code>h1</code> tags have a common parent in the
 
 All the nodes located under a certain node are descendant nodes, and a node located
 on the top of the parent nodes is an ancestor node.
+
+[[dom/tutorials/getelementsmethod |Next Tutorial: getElements Method]]
