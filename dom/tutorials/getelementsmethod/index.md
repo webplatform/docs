@@ -99,3 +99,5 @@ Similar to the getElementById() method, this method is used to select a whole cl
  </body>
  </html>
 </syntaxhighlight>
+
+[[dom/tutorials/attribute methods  |Next Tutorial: Attribute Methods]]
