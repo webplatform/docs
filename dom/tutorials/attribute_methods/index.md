@@ -84,3 +84,5 @@ Let's look at a quick example of these attributes in action:
 </syntaxhighlight>
 
 In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
+
+[[dom/tutorials/node interface ‎   |Next Tutorial: Node Interface]]
