@@ -457,6 +457,39 @@ with
 <syntaxhighlight lang="javascript">
 var olddata=document.getElementById("container").firstChild;
 </syntaxhighlight>
+
+Now let's look at an example for replaceChild():
+
+<syntaxhighlight="html5">
+
+<html>
+<head>
+<title>replaceChild</title>
+<script type="text/javascript">
+function replaceit(){
+
+var theoriginal = document.getElementById('ori');
+
+var thereplacement = document.createElement('p');
+
+thereplacement.appendChild(document.createTextNode('Replacement Text'));
+
+theoriginal.replaceChild(thereplacement, theoriginal.lastChild);
+
+}
+</script>
+</head>
+
+<body>
+
+
+<p id="ori">Original Text</p>
+<input type="button" value="click" onclick="replaceit()">
+
+
+</body>
+</html>
+</syntaxhighlight>
 {{Notes_Section}}
 {{Topics}}
 {{External_Attribution
