@@ -92,3 +92,5 @@ document.getElementsByTagName("p")[2].lastChild.data="cake";
 </body>
 </html>
 </syntaxhighlight>
+
+[[dom/tutorials/adding and deleting elements| Next Tutorial: Adding and Deleting Elements]]
