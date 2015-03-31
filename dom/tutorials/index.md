@@ -1,6 +1,6 @@
 {{Page_Title|Document Object Model tutorials}}
 {{Flags
-|State=Not Ready
+|State=In Progress
 |Editorial notes=No content; deletion candidate
 |Checked_Out=Yes
 }}
