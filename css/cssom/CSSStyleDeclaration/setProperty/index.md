@@ -9,7 +9,7 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|Sets a property, value, and priority within a CSS style declaration.}}
-{{API_Object_Method
+{{API_O'''bj'''ect_Method
 |Parameters={{Method Parameter
 |Index=0
 |Name=name
