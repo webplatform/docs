@@ -1,5 +1,6 @@
 {{Page_Title}}
 {{Flags
+|Checked_Out=No
 |High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Editor's Draft}}
@@ -29,7 +30,26 @@ This method can return one of these values.
 }}
 {{Examples_Section
 |Not_required=No
-|Examples=
+|Examples={{Single Example
+|Language=JavaScript
+|Code=var applicationCache = window.applicationCache;
+
+ 
+
+applicationCache.update();  // Attempt to update the user's cache.
+
+if (applicationCache.status == window.applicationCache.UPDATEREADY) {
+
+    applicationCache.swapCache();  // The fetch was successful, swap to the new cache.
+
+        if (confirm('A new version of this site is available. Do you want to load it?')) {
+
+            window.location.reload();
+
+        }
+
+}
+}}
 }}
 {{Notes_Section
 |Notes=Use this method and check the [[apis/appcache/properties/status|status]] before using [[apis/appcache/methods/swapCache|swapCache]].
@@ -45,6 +65,13 @@ The '''update'''  method is provided for convenience, but is not necessary for b
 |Status=W3C Editor's Draft
 }}
 }}
+{{See_Also_Section}}
+{{Topics|Appcache, API}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables={{Imported Compatibility Table
@@ -53,13 +80,4 @@ The '''update'''  method is provided for convenience, but is not necessary for b
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Appcache, API}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
 }}
