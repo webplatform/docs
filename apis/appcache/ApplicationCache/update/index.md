@@ -40,7 +40,7 @@ applicationCache.update();  // Attempt to update the user's cache.
 
 if (applicationCache.status == window.applicationCache.UPDATEREADY) {
 
-    applicationCache.swapCache();  // The fetch was successful, swap to the new cache.
+    applicationCache.swapCache();  // The fetch was successful, switch to the new cache.
 
         if (confirm('A new version of this site is available. Do you want to load it?')) {
 
