@@ -17,23 +17,22 @@ Look at the following code:
 <syntaxhighlight lang="html5">
 <html>
 <head>
-<title>Specify CSS style</title>
-
+  <title>Specify CSS style</title>
   <script type="text/javascript">
     function changeSize(){
-    document.getElementsByTagName("p")[0].style.fontSize = "140%"; 
-    document.getElementsByTagName("p")[1].style.fontSize = "160%";
-   }
+      document.getElementsByTagName("p")[0].style.fontSize = "140%"; 
+      document.getElementsByTagName("p")[1].style.fontSize = "160%";
+    }
   </script>
- </head>
+</head>
 
- <body>
-   <input type="button" value="Click" onclick="changeSize();">
+<body>
+  <input type="button" value="Click" onclick="changeSize();">
   <p>Paragraph 1</p>
   <p>Paragraph 2</p>
 
 </body>
- </html>
+</html>
 
 </syntaxhighlight>
 
@@ -43,32 +42,30 @@ This code is designed to change the CSS of the first <code>p</code> tag in the e
 
 This is the most common method used to access HTML elements by using their id. In the following example we are modifying the font size of the text in the <code>p</code> tag with the id '''demo'''.
 
-
 <syntaxhighlight lang="html5">
 <html>
 <head>
-<title>Using getElementById Method</title>
+  <title>Using getElementById Method</title>
   <script type="text/javascript">
-   function changeSize(size){
-    document.getElementById("demo").style.fontSize = size;
-   </script>
+    function changeSize(size){
+      document.getElementById("demo").style.fontSize = size;
+    }
+  </script>
 </head>
- <body>
 
-   <p>fontsize :
-   <input type="button" value="small" onclick="changeSize('60%');">
-   <input type="button" value="normal" onclick="changeSize('100%');">
-   <input type="button" value="big" onclick="changeSize('140%');">
-   </p>
+<body>
+  <p>fontsize :
+    <input type="button" value="small" onclick="changeSize('60%');">
+    <input type="button" value="normal" onclick="changeSize('100%');">
+    <input type="button" value="big" onclick="changeSize('140%');">
+  </p>
  
-   <p id="demo">This is a random sentence</p>
+  <p id="demo">This is a random sentence</p>
 
- </body>
- </html>
-
+</body>
+</html>
 
 </syntaxhighlight>
-
 
 ==The getElementsByClassName() method==
 
@@ -77,27 +74,28 @@ Similar to the getElementById() method, this method is used to select a whole cl
 <syntaxhighlight lang="html5">
 <html>
 <head>
-<title>Using the getElementsByClassName method</title>
+  <title>Using the getElementsByClassName method</title>
   <script type="text/javascript">
     function changeSize(size){
-    document.getElementsByClassName("demo").style.fontSize = size;
+      document.getElementsByClassName("demo").style.fontSize = size;
+    }
   </script>
 </head>
 
- <body>
-
-   <p>fontsize :
-   <input type="button" value="small" onclick="changeSize('60%');">
-   <input type="button" value="normal" onclick="changeSize('100%');">
-   <input type="button" value="big" onclick="changeSize('140%');">
-   </p>
+<body>
+  <p>fontsize :
+    <input type="button" value="small" onclick="changeSize('60%');">
+    <input type="button" value="normal" onclick="changeSize('100%');">
+    <input type="button" value="big" onclick="changeSize('140%');">
+  </p>
  
-   <p class="demo">This is a random sentence</p>
-   <p class="demo">This is also another random sentence</p>
-   <div class="demo">Since this is a class, you can use it multiple times across different tags</div>
+  <p class="demo">This is a random sentence</p>
+  <p class="demo">This is also another random sentence</p>
+  <div class="demo">Since this is a class, you can use it multiple times across different tags</div>
 
- </body>
- </html>
+</body>
+</html>
+
 </syntaxhighlight>
 
 [[dom/tutorials/attribute methods  |Next Tutorial: Attribute Methods]]
