@@ -2,9 +2,9 @@
 {{Flags
 |State=Unreviewed
 |Editorial notes=Make sure that all child element pages are ready before setting a status
-|Checked_Out=No
+|Checked_Out=Yes
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
 {{API_Listing|Query=[[Category:Markup_Elements]][[Category:HTML]]
@@ -12,26 +12,16 @@
 |List_all_subpages=No
 }}
 {{Concept_Listing
-|Query=
-|Use_page_title=No
+|Use_page_title=Yes
 |List_all_subpages=No
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
+|Topic_clusters=HTML
 }}
 {{Topics|DOM, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 This is the list of HTML and related Elements from the past to the present.
 
