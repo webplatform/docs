@@ -1,4 +1,4 @@
-{{Page_Title|dialog}}
+{{Page_Title|HTML Elements}}
 {{Flags
 |State=Unreviewed
 |Editorial notes=Make sure that all child element pages are ready before setting a status
