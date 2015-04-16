@@ -21,7 +21,7 @@
 
 == Content Inventory Generation ==
 
-On large website, generating such list manually could takes months or even years, luckily there are tools available to make this process automated, such as :
+On large websites, generating such a list manually could take a long time. Luckily there are tools available to automate this process, such as:
 
 * [https://www.google.com/webmasters/tools/home Google Webmasters Tools]
 * [https://www.google.com/analytics/web/ Google Analytics]
@@ -34,23 +34,12 @@ It is important for the Content Inventory to reflect the relationships and hiera
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|Design, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
