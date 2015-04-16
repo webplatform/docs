@@ -3,8 +3,6 @@
 |State=In Progress
 |Editorial notes=Add more example
 |Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
@@ -76,7 +74,6 @@ HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an ima
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- Link to an external website. -->
 <a href="http://www.example.com">Example website</a>
 
@@ -108,7 +105,6 @@ HTML enclosed by the <code>&lt;a>&lt;/a></code> tags is typically text or an ima
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes====Remarks===
 For creating an anchor in the page, the [[html/attributes/name|'''name''']] attribute is obsolete and should be replaced by [[html/attributes/id|'''id''']] attribute.
 
@@ -166,39 +162,30 @@ Does tapping on an anchor give it the focus?
 {{!}}???
 {{!}}Only when it has a [[html/attributes/tabIndex|<code>tabindex</code>]]
 {{!}}}
-|Import_Notes=
- 
+|Import_Notes= 
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-a-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-a-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/links.html#edef-A
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/a
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
