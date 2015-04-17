@@ -106,7 +106,7 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
-|Name=CSS 2.1 (Section 10.7)
+|Name=CSS 2.1 (Section 10.4)
 |URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-widths
 |Status=W3C Recommendation
 }}{{Related Specification
@@ -115,6 +115,21 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 |Status=Working Draft
 |Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Box Model
+|Manual_sections====Related pages (MSDN)===
+*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
+*<code>[[css/cssom/currentStyle|currentStyle]]</code>
+*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
+*<code>[[css/cssom/style|style]]</code>
+*<code>Cascading Style Sheet Compatibility in Internet Explorer 7</code>
+}}
+{{Topics|CSS}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -178,21 +193,4 @@ This property is enabled only under the strict [[html/elements/!DOCTYPE|!DOCTYPE
 |Safari_mobile_prefixed_version=
 }}
 |Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Cascading Style Sheet Compatibility in Internet Explorer 7</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
