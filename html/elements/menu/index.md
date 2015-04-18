@@ -17,8 +17,8 @@ The '''menu''' element has partial support in Firefox only for the context form.
  
 * ''label'' - Text for the label to display for the menu item.
 * ''type'' - How the menu should be displayed to the user. Possible values are:
-    * ''context'' - Display a series of entries triggered by another element. Like a dropdown for example.
-    * ''list'' - Default. The name could change to ''toolbar'' in HTML 5.1. Displays menu items that are always within view.
+** ''context'' - Display a series of entries triggered by another element. Like a dropdown for example.
+** ''list'' - Default. The name could change to ''toolbar'' in HTML 5.1. Displays menu items that are always within view.
  
 The '''menu''' element also accepts [[html/global_attributes | global attributes]] and [[html/event_attributes | event attributes]].
 }}
