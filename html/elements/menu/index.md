@@ -9,14 +9,17 @@
 {{Summary_Section|The '''menu''' element represents information as a list of items or commands.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLMenuElement
-|Content=The menu element is used to define a list as a menu of commands. The menu element has two specific attributes as well as can accept global and event attributes in HTML.
-
-The '''menu''' element is currently unsupported by major browsers.
-
+|Content=The menu element is used to define a list as a menu of commands. It can have event and global attributes in addition to two of its own.
+ 
+The '''menu''' element has partial support in Firefox only for the context form.
+ 
 ===Attributes===
-
-The '''menu''' element will specifically accept the '''label''' attribute whose value is ''text'' and the '''type''' attribute whose value can be ''context'', ''toolbar'', or ''list''. ''list'' is the default value.
-
+ 
+* ''label'' - Text for the label to display for the menu item.
+* ''type'' - How the menu should be displayed to the user. Possible values are:
+    * ''context'' - Display a series of entries triggered by another element. Like a dropdown for example.
+    * ''list'' - Default. The name could change to ''toolbar'' in HTML 5.1. Displays menu items that are always within view.
+ 
 The '''menu''' element also accepts [[html/global_attributes | global attributes]] and [[html/event_attributes | event attributes]].
 }}
 {{Examples_Section
@@ -47,19 +50,11 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 |Usage=The '''menu''' and [[html/elements/ul|'''ul''']] both represent an unordered list of items. They differ in the way that the [[html/elements/ul|'''ul''']] element only contains items to display while the '''menu''' element contains interactive items, to act on.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/interactive-elements.html#the-menu-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Manual_links=* [[html/elements/dir|<code>dir</code>]]
@@ -74,7 +69,12 @@ The '''menu''' element also accepts [[html/global_attributes | global attributes
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
