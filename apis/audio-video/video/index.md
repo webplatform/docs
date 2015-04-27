@@ -8,17 +8,15 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|HTML Video element allows creator of a HTML document or view of a Web Application to embed a video for display when a user visits the view or opens HTML document in a web browser.}}
 {{API_Object
 |Subclass_of=dom/HTMLMediaElement
-|Overview=
 }}
 {{Examples_Section
 |Not_required=No
 |Examples=
 }}
 {{Notes_Section
-|Usage=
 |Notes====Remarks===
 Beginning with Internet Explorer 9, any audio or video content needs  the correct mime type set on the server, or the files won't play. Internet Explorer 9 supports MP3 audio, and  MP4 audio and video. WebM audio and video files can be supported by installing the WebM components from [http://go.microsoft.com/fwlink/p/?LinkID{{=}}218894 The WebM project]. The following table shows the required settings for your web server to host these files correctly.
 {{{!}} class="wikitable"
@@ -50,14 +48,11 @@ Beginning with Internet Explorer 9, any audio or video content needs  the corre
  
 |Import_Notes====Standards information===
 *[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.6
-
 }}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=
-|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>HTMLVideoElement</code>
 }}
@@ -65,9 +60,7 @@ Beginning with Internet Explorer 9, any audio or video content needs  the corre
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
