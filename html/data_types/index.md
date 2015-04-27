@@ -8,13 +8,12 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Data types are a way of configuring how a HTML element ( “HTML tag” ) should look or behave on a HTML document or a view in a Web Application. The data types are existing attributes associated with a HTML element. The attributes that don’t have predefined data types are used by CSS stylesheets and for further enhancements through Javascript logic.}}
 {{API_Listing|Query=[[Category:HTML]][[Category:Data Type]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
 {{Concept_Listing
-|Query=
 |Use_page_title=No
 |List_all_subpages=No
 }}
@@ -24,18 +23,19 @@
 # Colors (basic ones are "red", "blue", etc...)
 # Lengths
 # Links and relationships
-|Notes=
-|Import_Notes=
+
+<syntaxhighlight lang="html">
+
+<!-- <element attribute=“data type” attribute="data type"> </element> -->
+
+<a href="http://docs.webplatform.org" target="_blank" >HTML Element A LInk</a>
+
+</syntaxhighlight>
 }}
 {{See_Also_Section
 |Manual_links=* [http://www.w3.org/TR/html4/types.html HTML 4.01 Specification, attributes section]
-|External_links=
-|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
