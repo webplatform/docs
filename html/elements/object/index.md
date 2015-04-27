@@ -15,9 +15,9 @@
 |CSS_display=inline
 |Content=Examples of external resources:
 
-** Flash contents
-** Java applet
-** HTML resource
+* Flash contents
+* Java applet
+* HTML resource
 
 == Accessibility ==
 Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([http://www.w3.org/TR/WCAG20/#perceivable WCAG 2.0 - Principle 1: Perceivable]). This includes providing alternatives for time-based media [http://www.w3.org/TR/WCAG20/#media-equiv Guideline 1.2].
