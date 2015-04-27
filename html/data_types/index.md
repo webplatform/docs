@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|Data types are a way of configuring how a HTML element ( “HTML tag” ) should look or behave on a HTML document or a view in a Web Application. The data types are existing attributes associated with a HTML element. The attributes that don’t have predefined data types are used by CSS stylesheets and for further enhancements through Javascript logic.}}
+{{Summary_Section|Data types are a way of configuring how a HTML element ( “HTML tag” ) should look or behave on a HTML document or a view in a Web Application. The data types are existing attributes associated with a HTML element. The "id" and "class" attribute doesn't have predefined data types and is used by CSS stylesheets or for further enhancements through Javascript logic.}}
 {{API_Listing|Query=[[Category:HTML]][[Category:Data Type]]
 |Use_page_title=No
 |List_all_subpages=No
@@ -27,9 +27,9 @@
 
 <source lang="html4strict">
 
-<!-- <element attribute=“data type” attribute="data type"> </element> -->
+<!-- <element attribute="data type" attribute="data type"  attribute=“data type” attribute="data type"> </element> -->
 
-<a href="http://docs.webplatform.org" target="_blank" >HTML Element hyperlink</a>
+<a href="http://docs.webplatform.org" target="_blank"  class="linkStyle" id="linkAnchorOrUniqueStyle" >HTML Element hyperlink</a>
 
 </source>
 }}
