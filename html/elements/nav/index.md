@@ -3,22 +3,14 @@
 |State=In Progress
 |Editorial notes=Add Category, Parent and Children information. Complete Compatibility table.
 |Checked_Out=No
-|Content=Incomplete, Compatibility Incomplete
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|The HTML Navigation Element (<nav>) represents a section of a page that links to other pages or to parts within the page: a section with navigation links}}
+{{Summary_Section|The HTML Navigation Element (<nav>) represents a section of navigation links: a page that links to other pages, or to parts within the page}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
+|Tag_omissions=required
+|CSS_display=block
 }}
 {{Examples_Section
 |Not_required=No
@@ -41,17 +33,24 @@
 '''Note'''  Some devices and applications (such as screen readers) might use the '''nav''' element as a way to determine what content on the document to initially skip or provide on request.
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-nav-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-nav-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
+}}
+{{See_Also_Section
+|Topic_clusters=Document Structure
+}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -117,15 +116,4 @@
 |Version=9
 |Note=The '''nav''' element is only supported for webpages displayed in IE9 Standards mode.
 }}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
