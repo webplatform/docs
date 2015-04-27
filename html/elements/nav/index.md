@@ -4,7 +4,7 @@
 |Editorial notes=Add Category, Parent and Children information. Complete Compatibility table.
 |Checked_Out=No
 }}
-{{Standardization_Status|W3C Working Draft}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The HTML Navigation Element (<nav>) represents a section of navigation links: a page that links to other pages, or to parts within the page}}
 {{Markup_Element
@@ -17,14 +17,14 @@
 |Examples={{Single Example
 |Language=HTML
 |Description=The following example uses the '''nav''' element to indicate that a list contains site navigation links.
-|Code=&lt;nav&gt;
- &lt;h1&gt;Site Navigation&lt;/h1&gt;
- &lt;ul&gt;
-  &lt;li&gt;&lt;a href{{=}}"index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href{{=}}"gallery.html"&gt;Photo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href{{=}}"news.html"&gt;Updates&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
+|Code=<nowiki><nav>
+ <h1>Site Navigation</h1>
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Photo</a></li>
+  <li><a href="news.html">Updates</a></li>
+ </ul>
+</nav></nowiki>
 }}
 }}
 {{Notes_Section
