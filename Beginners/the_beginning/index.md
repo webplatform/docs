@@ -47,7 +47,7 @@ The main components which the web depends on are:
 
 [INSERT IMAGE OF TOWN AND CITY CONNECTED BY ROAD, WITH DELIVERY VAN GOING ALONG ROAD TOWARDS TOWN. I'D LIKE IT TO EXPRESS SOMETHING LIKE THE FOLLOWING]
 
-Imagine the web as being like a series of towns and cities connected by roads. One town (the client, a regular web user) wants to get a supply of chocolate (website) from the awesome chocolate maker in the city, so the town's mayor (web browser) writes a letter (web request written in HTTP) to send to the chocolate maker in the city. The town's mayor has the name of the business of the chocolate maker (domain name), but doesn't actually know the address, so they gives it to the postman, and the postman takes it there (DNS uses the domain name and sends the request to the right IP address using the Internet). The chocolate maker is happy to give the town some of its chocolate supply, so it sends a delivery van full over right away (the hypertext of the website, web response packaged in HTTP), travelling by the main road (the Internet). Once it gets to the town, the mayor distributes the chocolate to all her townsfolk (displays the web page), and everyone is happy.
+Imagine the web as being like a series of towns and cities connected by roads. One town (the client, a regular web user) wants to get a supply of chocolate (website) from the awesome chocolate maker in the city, so the town's mayor (web browser) writes a letter (web request written in HTTP) to send to the chocolate maker in the city. The town's mayor has the name of the business of the chocolate maker (domain name), but doesn't actually know the address, so they give it to the postman, and the postman takes it there (DNS uses the domain name and sends the request to the right IP address using the Internet). The chocolate maker is happy to give the town some of its chocolate supply, so it sends a delivery van full over right away (the hypertext of the website, web response packaged in HTTP), travelling by the main road (the Internet). Once it gets to the town, the mayor distributes the chocolate to all her townsfolk (displays the web page), and everyone is happy.
 
 Read [[concepts/internet and web/how does the internet work|How does the Internet work?]] for more information.
 
@@ -134,15 +134,8 @@ paragraph.onclick = function() {
 };</pre>
 
 Finally, you now understand the building blocks of the mighty web. Interestingly, a major part of the battle is won already! We will expand on these languages in this course and get you started coding in the next article itself!
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
