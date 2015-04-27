@@ -24,13 +24,13 @@
 # Lengths
 # Links and relationships
 
-<syntaxhighlight lang="html">
+<source lang="HTML4">
 
 <!-- <element attribute=“data type” attribute="data type"> </element> -->
 
 <a href="http://docs.webplatform.org" target="_blank" >HTML Element A LInk</a>
 
-</syntaxhighlight>
+</source>
 }}
 {{See_Also_Section
 |Manual_links=* [http://www.w3.org/TR/html4/types.html HTML 4.01 Specification, attributes section]
