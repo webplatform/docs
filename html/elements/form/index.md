@@ -4,56 +4,36 @@
 |Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The '''form''' element (&lt;form&gt;) defines an HTML form for user input, subsequently to be submitted to a website or service.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLFormElement
 |Tag_omissions=Closing tag required
 |CSS_display=block
-|Content====Common Attributes===
+|Content=== Attributes ==
+*<code>accept-charset</code> = list of character-encoding names<br />gives the character encodings that are to be used for the submission.
 
-{{{!}}
-! Name
-! Value
-! Purpose
-! Validity
-{{!}}-
-{{!}} [[html/attributes/accept-charset|'''accept-charset''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/action |'''action''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/autocomplete|'''autocomplete''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/method|'''method''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/name|'''name''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/novalidate|'''novalidate''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}-
-{{!}} [[html/attributes/target|'''target''']]
-{{!}}
-{{!}}
-{{!}}
-{{!}}}
+*<code>action</code> = valid URL potentially surrounded by spaces<br />Specify the form-submission action for the element.
+
+*<code>autocomplete</code> = on/ off<br />Specifies whether the element represents a form for which by default a UA is meant to store the values entered into its input elements by the user (so that the UA can pre-fill the form later).
+**on<br />The on state indicates that the value is not particularly sensitive and the user can expect to be able to rely on his user agent to remember values he has entered for that control.
+**off<br />The off state indicates either that the control's input data is particularly sensitive (for example the activation code for a nuclear weapon); or that it is a value that will never be reused (for example a one-time-key for a bank login) and the user will therefore have to explicitly enter the data each time, instead of being able to rely on the UA to prefill the value for him; or that the document provides its own autocomplete mechanism and does not want the user agent to provide autocompletion values.
+
+*<code>enctype</code> = application/x-www-form-urlencoded / multipart/form-data / text/plain<br />Specfy a MIME type with which a UA is meant to associate this element for form submission.<br />The missing value default for these attributes is the application/x-www-form-urlencoded state.
+**application/x-www-form-urlencoded
+**multipart/form-data
+**text/plain
+
+*<code>method</code> = get/ post<br />Specify the HTTP method with which a UA is meant to associate this element for form submission.<br />The missing value default for this attributes is the GET state.
+**get<br />Indicating the HTTP GET method.
+**post<br />Indicating the HTTP POST method.
+
+*<code>name</code> = string<br />Gives the name of the input element.
+
+*<code>novalidate</code> = boolean<br />If present, they indicate that the form is not to be validated during submission.
+
+*<code>target</code> = valid browsing context names or keywords<br />Specfy a browsing context name or keyword that represents the target of the control.
 }}
 {{Examples_Section
 |Not_required=No
