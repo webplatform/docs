@@ -1,16 +1,17 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The HTML <code>&lt;progress&gt;</code> element represents the completion progress of a task.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLProgressElement
+|Tag_omissions=required
+|CSS_display=inline
 |Content=<table class{{=}}"wikitable">
 <tr>
 <th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
@@ -56,7 +57,7 @@ This element supports the HTML5 [[html/global_attributes|global attributes]].
 |LiveURL=http://code.webplatform.org/gist/6365520
 }}{{Single Example
 |Language=CSS
-|Description=Styling options for the progress bar
+|Description=Styling options for the progress bar (vendor-specific)
 |Code=progress {
   -webkit-appearance: none;
 }
@@ -78,34 +79,26 @@ progress::-webkit-progress-value {
 }}
 {{Notes_Section
 |Usage=When the [[#attribute-value|value attribute]] is omitted, the <code>&lt;progress&gt;</code> element becomes indeterminate, that is, it shows activity but not how much progress has actually been made.
-|Notes=
-|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-progress-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-progress-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Manual_links=* [[html/elements/meter|HTML5 meter element]]
-|External_links=
-|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
