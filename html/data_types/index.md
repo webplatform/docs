@@ -24,11 +24,12 @@
 # Lengths
 # Links and relationships
 
-<source lang="HTML4">
+
+<source lang="html4strict">
 
 <!-- <element attribute=“data type” attribute="data type"> </element> -->
 
-<a href="http://docs.webplatform.org" target="_blank" >HTML Element A LInk</a>
+<a href="http://docs.webplatform.org" target="_blank" >HTML Element hyperlink</a>
 
 </source>
 }}
