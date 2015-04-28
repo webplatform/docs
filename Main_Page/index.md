@@ -138,20 +138,24 @@ Web Platform Docs is still in alpha, but you can already find lots of valuable c
 
 In the future, Web Platform Docs will include even more content for you to explore: live code examples, educators' resources and much more. To get there faster, we’d like to invite you to join us, and contribute your knowledge.
 
+
 == Contribute to Web Platform Docs ==
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [[WPD:Contributors_Guide|Contributor’s Guide]].
 
-* To file bugs on webplatform, use the [http://project.webplatform.org Project Management page]. Read our [http://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
-* If you have a question about webplatform.org, please [[WPD:FAQ|look for an answer in the FAQ first]].
+* To file bugs on WebPlatform, use the [https://project.webplatform.org Project Management page]. Read our [https://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page] for more information.
+* If you have a question about ''webplatform.org'', please [[WPD:FAQ|look for an answer in the FAQ first]].
+
 
 == Stay in touch ==
 
-* Chat with other editors in IRC: we're on irc.freenode.org, the #webplatform channel.
+* Chat with other editors in IRC: we're on irc.freenode.org, the ''#webplatform'' channel
 * Read our [https://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
 * Remix our [https://www.webplatform.org/logo logo] and link back to our site
 * Come to our [[WPD:Community/Community_Events|Events]] like Doc Sprints.
 
+
 ==Site Policies==
+
 The content on the Web Platform Docs wiki is available under a [[Template:CC-by-3.0|Creative Commons Attribution (CC-BY) license]], except where otherwise noted. For more details on our site policies, see our [[WPD:Copyright|copyright]] and  [[WPD:Privacy|privacy]] policies, as well as our general [[WPD:Policy|policy page]].
