@@ -22,9 +22,9 @@
 |Language=HTML
 |Code=<nowiki><video controls="controls">
  <source src="http://media.w3.org/2010/05/sintel/trailer.mp4"
-         type='video/mp4; codecs="avc1, mp4a">
+         type='video/mp4; codecs="avc1, mp4a"/>
  <source src="http://media.w3.org/2010/05/sintel/trailer.ogv"
-         type='video/ogg; codecs="theora, vorbis">
+         type='video/ogg; codecs="theora, vorbis"/>
  <p>Your user agent does not support the HTML5 Video element.</p>
 </video></nowiki>
 |LiveURL=http://test.w3.org/html/examples/elements/source/source01.html
