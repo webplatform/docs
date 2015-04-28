@@ -148,9 +148,9 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 == Stay in touch ==
 
 * Chat with other editors in IRC: we're on irc.freenode.org, the #webplatform channel.
-* Read our [http://blog.webplatform.org/ blog]
+* Read our [https://blog.webplatform.org/ blog]
 * Follow us as [https://twitter.com/webplatform @WebPlatform] on Twitter
-* Remix our [http://webplatform.org/logo logo] and link back to our site
+* Remix our [https://www.webplatform.org/logo logo] and link back to our site
 * Come to our [[WPD:Community/Community_Events|Events]] like Doc Sprints.
 
 ==Site Policies==
