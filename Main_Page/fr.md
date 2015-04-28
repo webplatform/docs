@@ -143,10 +143,10 @@ Nous serions ravis de compter sur votre aide pour améliorer Web Platform Docs. 
 
 ==Rester en contact==
 
-* Discuter avec d'autres rédacteurs sur <abbr>IRC</abbr>: nous sommes sur irc.freenode.org, sur le canal #webplatform
-* Lire notre [http://blog.webplatform.org/ blog]
+* Discuter avec d'autres rédacteurs sur <abbr>IRC</abbr>: nous sommes sur irc.freenode.org, sur le canal '''#webplatform'''
+* Lire notre [https://blog.webplatform.org/ blog]
 * Suivre [https://twitter.com/webplatform @WebPlatform] sur Twitter
-* Remixer notre [http://webplatform.org/logo logo] et faire un lien vers notre site
+* Remixer notre [https://www.webplatform.org/logo logo] et faire un lien vers notre site
 * Venir à nos [[WPD:Community/Community_Events|événements]] comme Doc Sprints
 
 ==Politique du site==
