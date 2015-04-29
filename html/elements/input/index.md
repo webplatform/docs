@@ -2,26 +2,19 @@
 {{Flags
 |State=In Progress
 |Editorial notes=Add Category, Parent, Children and Compatibility information.
+Is <code>size="20,5"</code> valid?
 |Checked_Out=No
 |Content=Broken Links, Compatibility Incomplete
 }}
-{{Standardization_Status|W3C Candidate Recommendation}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
-{{Summary_Section|The '''input''' element (&lt;input&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the <code>type</code> attribute.}}
+{{Summary_Section|The '''input''' element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the <code>type</code> attribute.}}
 {{Markup_Element
 |DOM_interface=dom/HTMLInputElement
-|Content====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}The input element is a void element. An input element must have a start tag but must not have an end tag
-{{!}}-
-!CSS Display
-{{!}}inline
-{{!}}-
-!HTML Element Categories
-{{!}}flow phrasing interactive
-{{!}}}
+|Tag_omissions=No closing tag (self-closing)
+|CSS_display=inline
+|Content=<!-- HTML Element Categories: flow phrasing interactive
+-->
 
 The input element behavior varies depending on the value of its [[html/elements/input/type|type]] attribute:
 * [[html/elements/input/type/button|type=button]]
@@ -59,19 +52,19 @@ Internationalization topics related to the <code>input</code> element:
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''input''' element to create different types of input controls.
-|Code=<form action="http://example.org/survey" method=post>
+|Code=<form action="http://example.org/survey" method="post">
 <p>Name</p>
-<br><input name="control1" type="text" value="Your Name">
-<P>Password</P>
-<br><input type="password" name="control2">
+<br/><input name="control1" type="text" value="Your Name"/>
+<p>Password</p>
+<br><input type="password" name="control2"/>
 <p>Color</p>
-<br><input type="radio" name="control3" value="0" checked>Red
-<input type="radio" name="control3" value="1">Green
-<input type="radio" name="control3" value="2">Blue
+<br><input type="radio" name="control3" value="0" checked="checked"/>Red
+<input type="radio" name="control3" value="1"/>Green
+<input type="radio" name="control3" value="2"/>Blue
 <p>Comments</p>
-<br><input type="TEXT" name="control4" size="20,5" maxlength="250">
+<br/><input type="text" name="control4" size="20,5" maxlength="250"/>
 <p><input name="control5" type=checkbox checked>Send receipt</p>
-<p><input type="submit" value="OK"><input type="reset" value="reset"></p>
+<p><input type="submit" value="OK"/><input type="reset" value="reset"/></p>
 </form>
 |LiveURL=http://code.webplatform.org/gist/6364130
 }}
@@ -83,39 +76,31 @@ Internationalization topics related to the <code>input</code> element:
 Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state and (if applicable) dynamic checkedness] of an '''input''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature; this works even when the <code>autocomplete</code> attribute would normally not apply to the '''input''' by virtue of its <code>type</code>. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla bug #654072].
 
 Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled textual '''input''' elements. Other major browsers don't currently share this particular default style.
-|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-input-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-input-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=HTML
-|Manual_links=
 |External_links=http://www.w3.org/TR/html-markup/input.html#input
-|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
