@@ -52,7 +52,7 @@ Internationalization topics related to the <code>input</code> element:
 |Examples={{Single Example
 |Language=HTML
 |Description=This example uses the '''input''' element to create different types of input controls.
-|Code=<form action="http://example.org/survey" method="post">
+|Code=<nowiki><form action="http://example.org/survey" method="post">
 <p>Name</p>
 <br/><input name="control1" type="text" value="Your Name"/>
 <p>Password</p>
@@ -65,7 +65,7 @@ Internationalization topics related to the <code>input</code> element:
 <br/><input type="text" name="control4" size="20,5" maxlength="250"/>
 <p><input name="control5" type=checkbox checked>Send receipt</p>
 <p><input type="submit" value="OK"/><input type="reset" value="reset"/></p>
-</form>
+</form></nowiki>
 |LiveURL=http://code.webplatform.org/gist/6364130
 }}
 }}
