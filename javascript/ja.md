@@ -39,3 +39,8 @@ ECMAScript言語の標準化は、ECMAのTC39グループが行っています�
 HTML5や[http://jquery.com/ jQuery]等のサードパーティのライブラリ・フレームワークといったその他のJavaScript関連テクノロジーに協力したいのなら、ワーキンググループやコアチーム、開発者を探してみてください。
 
 {{See_Also_Section}}
+{{Notes_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+}}
