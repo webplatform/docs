@@ -1,6 +1,6 @@
 {{Page_Title|JavaScript}}
 {{Flags
-|State=Ready to Use
+|State=Unreviewed
 |Checked_Out=Yes
 }}
 {{Summary_Section|JavaScriptは、Webで使われているスクリプト言語で、動きのある仕組みを思う存分に実装できます。
