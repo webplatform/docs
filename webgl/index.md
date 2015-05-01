@@ -76,7 +76,7 @@ Not all browsers support WebGL yet. To test whether your browser supports WebGL 
 <th>iOS Safari</th>
 <th>Opera Mini</th>
 <th>Android Browser</th>
-<th>BlackBerry Browser</th>
+<th>Chrome for Android</th>
 </tr>
 
 <tr>
@@ -86,14 +86,14 @@ Not all browsers support WebGL yet. To test whether your browser supports WebGL 
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
+<td>Yes</td>
 <td>No</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
 </tr>
 </table>
 
-[http://caniuse.com/#feat=webgl Source: Can I Use, Oct 8. 2012]
+[http://caniuse.com/#feat=webgl Source: Can I Use, May 1. 2015]
 
 === OS, GPU and Driver Support ===
 
@@ -126,7 +126,4 @@ The criteria for support differ from browser to browser. The details of support 
 {{Topics|API}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
