@@ -49,7 +49,7 @@
 
 * [[concepts/internet and web/the history of the web/ja|Webの歴史]]
 * [[concepts/internet and web/how does the internet work/ja|インターネットのしくみ]]
-* [[concepts/internet and web/the web standards model/ja|Web 標準のモデル — HTML, CSS and JavaScript]]
+* [[concepts/internet and web/the web standards model/ja|Web 標準のモデル — HTMLとCSS、JavaScript]]
 * [[tutorials/getting your content online/ja|コンテンツを公開する]]
 * [[concepts/accessibility/ja|アクセシビリティ]]
 
