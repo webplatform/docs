@@ -1,7 +1,7 @@
 {{Page_Title|インターネットはどうなっている?}}
 {{Flags
 |State=Unreviewed
-|Checked_Out=Yes
+|Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|時々舞台裏に回って、動作の陰に隠れた歯車やファンベルト見るようにうながされることがありませんか。今日あなたはラッキーです。この文書は、あなたがよくご存じのホットなテクノロジーの舞台裏に案内します。それは World Wide Web! ミュージック、スタート!
