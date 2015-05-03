@@ -22,7 +22,6 @@
 |Content={{Languages}}
 
 {{Concept_Page
-|Content=== How do computers communicate via the Internet? ==
 |Content=== コンピュータはどうやってインターネットでコミュニケーションをとっているのか? ==
 
 コンピュータにとって、物事が複雑にならなかったのは幸いでした。World Wide Webが世に出た時、ほとんどのページは同じ言語で書かれました。それがHTMLです。HTMLはHTTPという共通のプロトコルを介してやりとりされました。HTTPは共通のインターネット言語(いくつかあり)で、例えば、Windowsマシンも最新の素晴らしいLinux(これこそドレミ!)が動作するマシンとハーモニーを奏でられます。HTTPを解釈しHTMLを描画するのに固有なソフトウェアであるwebブラウザを使えば、電話やPDA、ゲーム機といった色々なコンピュータを使って、どこでもHTMLで書かれたwebページを読めます。
