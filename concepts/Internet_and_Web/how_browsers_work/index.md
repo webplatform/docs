@@ -1,20 +1,15 @@
 {{Page_Title|How browsers work: behind the scenes of modern web browsers}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 |High-level issues=Data Not Semantic
 |Content=Cleanup
 }}
 {{Byline
-|Name=
-|URL=
 |Published=Aug. 5, 2011
 }}
 {{Summary_Section|This document gives an overview of the "internal browser operations and justifications behind development best practices."}}
 {{Tutorial
-|Next_page=
-|Prev_page=
 |Content=By Tali Garsiel & Paul Irish
 
 ==Preface==
@@ -532,7 +527,7 @@ This means a ruleset is a selector or optionally number of selectors separated b
 
 ====Webkit CSS parser====
 
-Webkit uses [#parser_generators Flex and Bison] parser generators to create parsers automatically from the CSS grammar files. As you recall from the parser introduction, Bison creates a bottom up shift-reduce parser. Firefox uses a top down parser written manually. In both cases each CSS file is parsed into a StyleSheet object, each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other object corresponding to CSS grammar.
+Webkit uses [[#parser_generators|Flex and Bison]] parser generators to create parsers automatically from the CSS grammar files. As you recall from the parser introduction, Bison creates a bottom up shift-reduce parser. Firefox uses a top down parser written manually. In both cases each CSS file is parsed into a StyleSheet object, each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other object corresponding to CSS grammar.
 
 [[Image:image023.png.pagespeed.ce.uVfINk36yE.png|Figure 12: parsing CSS]]
 
@@ -565,7 +560,7 @@ Firefox calls the elements in the render tree "frames". Webkit uses the term ren
    RenderLayer* containgLayer; //the containing z-index layer
  }
 
-Each renderer represents a rectangular area usually corresponding to the node's CSS box, as described by the CSS2 spec. It contains geometric information like width, height and position. The box type is affected by the "display" style attribute that is relevant for the node (see the [#style_computation style computation] section). Here is Webkit code for deciding what type of renderer should be created for a DOM node, according to the display attribute.
+Each renderer represents a rectangular area usually corresponding to the node's CSS box, as described by the CSS2 spec. It contains geometric information like width, height and position. The box type is affected by the "display" style attribute that is relevant for the node (see the [[#style_computation|/style computation]] section). Here is Webkit code for deciding what type of renderer should be created for a DOM node, according to the display attribute.
  
  RenderObject* RenderObject::createObject(Node* node, RenderStyle* style)
  {
@@ -611,7 +606,7 @@ The "Viewport" is the initial containing block. In Webkit it will be the "Render
 
 =====The flow of constructing the tree=====
 
-In Firefox, the presentation is registered as a listener for DOM updates. The presentation delegates frame creation to the <code>FrameConstructor</code> and the constructor resolves style (see [#style style computation]) and creates a frame.
+In Firefox, the presentation is registered as a listener for DOM updates. The presentation delegates frame creation to the <code>FrameConstructor</code> and the constructor resolves style (see [[#style|style computation]]) and creates a frame.
 
 In Webkit the process of resolving the style and creating a renderer is called "attachment". Every DOM node has an "attach" method. Attachment is synchronous, node insertion to the DOM tree calls the new node "attach" method.
 
@@ -804,7 +799,7 @@ A declaration for a style property can appear in several style sheets, and sever
 # Author important declarations
 # User important declarations
 
-The browser declarations are least important and the user overrides the author only if the declaration was marked as important. Declarations with the same order will be sorted by [#Specificity specificity] and then the order they are specified. The HTML visual attributes are translated to matching CSS declarations . They are treated as author rules with low priority.
+The browser declarations are least important and the user overrides the author only if the declaration was marked as important. Declarations with the same order will be sorted by [[#Specificity|specificity]] and then the order they are specified. The HTML visual attributes are translated to matching CSS declarations . They are treated as author rules with low priority.
 
 =====Specificity=====
 
@@ -851,7 +846,7 @@ Webkit uses a flag that marks if all top level style sheets (including @imports)
 
 When the renderer is created and added to the tree, it does not have a position and size. Calculating these values is called layout or reflow.
 
-<nowiki> HTML uses a flow based layout model, meaning that most of the time it is possible to compute the geometry in a single pass. Elements later ``in the flow'' typically do not affect the geometry of elements that are earlier ``in the flow'', so layout can proceed left-to-right, top-to-bottom through the document. There are exceptions - for example, HTML tables may require more than one pass (</nowiki>[#3_5 3.5]).
+<nowiki> HTML uses a flow based layout model, meaning that most of the time it is possible to compute the geometry in a single pass. Elements later ``in the flow'' typically do not affect the geometry of elements that are earlier ``in the flow'', so layout can proceed left-to-right, top-to-bottom through the document. There are exceptions - for example, HTML tables may require more than one pass (</nowiki>[[#3_5|3.5]]).
 
 The coordinate system is relative to the root frame. Top and left coordinates are used.
 
@@ -931,7 +926,7 @@ Like layout, painting can also be global - the entire tree is painted - or incre
 
 ====The painting order====
 
-[http://www.w3.org/TR/CSS21/zindex.html CSS2 defines the order of the painting process]. This is actually the order in which the elements are stacked in the [#stackingcontext stacking contexts]. This order affects painting since the stacks are painted from back to front. The stacking order of a block renderer is:
+[http://www.w3.org/TR/CSS21/zindex.html CSS2 defines the order of the painting process]. This is actually the order in which the elements are stacked in the [[#stackingcontext|stacking contexts]]. This order affects painting since the stacks are painted from back to front. The stacking order of a block renderer is:
 
 # background color
 # background image
@@ -1114,11 +1109,7 @@ Although the red div precedes the green one in the markup, and would have been p
 ## Firefox. https://developer.mozilla.org/en/Build_Documentation
 ## Webkit. http://webkit.org/building/build.html
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -1126,16 +1117,10 @@ Although the red div precedes the green one in the markup, and would have been p
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/tutorials/internals/howbrowserswork/
 }}
