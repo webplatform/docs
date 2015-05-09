@@ -2,7 +2,7 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=No content; deletion candidate
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section}}
