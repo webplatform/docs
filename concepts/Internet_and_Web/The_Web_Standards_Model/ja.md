@@ -1,16 +1,12 @@
 {{Page_Title|Web標準モデル HTMLとCSS、JavaScript}}
 {{Flags
-|State=Ready to Use
-|Editorial notes=
+|State=Unreviewed
 |Checked_Out=No
 }}
 {{API_Name}}
 {{Summary_Section|[[concepts/internet_and_web/How_does_the_Internet_Work]]の続きです。 [[html|HTML]]と [[css|CSS]]、[http://www.w3.org/community/webed/wiki/What_can_you_do_with_JavaScript JavaScript]
 が取り入れられました。それではもう少し掘り下げて、この3つがwebサイトを作る際に何をしてどのように連携するのか、それぞれを見ていくことにしましょう。
 }}
-
-{{Languages}}
-
 {{Concept_Page
 |Content=== 分けた理由は? ==
 
@@ -22,7 +18,6 @@ web標準について質問されるもので、一番多いのがこれです�
 最後に、スクリーン・リーダーは、画像に組み込まれたテキストにはアクセスできず、JavaScriptを使ったものでも間違えてしまうことがあります。大事なコンテンツは誰にでも利用できるようにする、ということが大切です。
 # 「デバイス・コンパチビリティ」: HTMLやXHTMLが、デザインする情報がないシンプルなマークアップなら、ばらばらな属性(例えば、スクリーンサイズ)をもったデバイスたちでも、代わりとなるスタイルシートを適用するだけで再フォーマットできます。こうするのに方法はいくつかあります(この点については ([[http://dev.opera.com/articles/mobile/ mobile articles on dev.opera.com]] を参照してください)。CSSにも様々な体裁を整えるメソッドと、メディアタイプのためにスタイルシートを指定できるようになっています(例えば、スクリーンで見る、印刷する、モバイルデバイスで見る)。
 # 「Webクローラと検索エンジン」: 多分 Googleや他の検索エンジンが見つけやすいページを望んでいるのではないでしょうか。検索エンジンは「クローラ」という特殊なソフトウェアでページを読み回っています。クローラがページのコンテンツを見つけるのに支障が出たり、見出しを見出しとして定義していない等してしまい、何が重要なのかの判断を間違えてしまうと、恐らく適切な検索結果のランキングがおかしなことになってしまうでしょう。
-# '''It’s just good practice''':  This is a bit of a “because I said so” reason, but talk to any professional standards-aware web developer or designer, and they’ll tell you that separating content, style, and behaviour is the best way to develop a web application.
 #「よいものはよい」:  「俺が言ったんだから」的な理由ぽいです。しかし、プロで標準にあかるい開発者やデザイナーと話すと、コンテンツとデザイン、動作を分けることはwebアプリケーションの開発にとってベストだと言うでしょう。
 
 == マークアップ、ページの基本 ==
@@ -36,14 +31,12 @@ HTMLとXHTMLはマークアップ言語で、属性(オプションのものも�
 
 Figure 1: (X)HTML の構造
 
-With that in mind, just what is the difference between HTML and XHTML?
 その点を考慮すると、HTMLとXHTMLの違いはどこにあるのでしょうか?
 
 === XHTMLとは? ===
 
 HTMLはもっとも古いweb言語で、webで見られる一番ありきたりなものです。厳しいシンタックスのルールと比べると、多少はルールが緩くなっています。それとは対照的に、XHTMLはXMLの語彙をもってHTMLを改善したものです。XMLは独自のマークアップ言語で、シンタックスのルールが厳しくなっています。XHTMLとHTMLの違いは、実際それほど大きいものではありません。あなたが将来、どこか癖のあるスタイルを持ったコーディング・ガイドラインを持ったどこかのwebチームで活動することになる場合を除けば。もしHTML5を使うのなら(このコースではそうしていきますが)、HTMLやXHTMLのシンタックスが使えます。
 
-(Source: [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model])
 HTMLとXHTMLのシンタックス上の主な違い。
 (引用元: [http://www.w3.org/community/webed/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript The web standards model])
 
@@ -267,16 +260,11 @@ HTMLとCSS、JavaScriptには何も神秘的な点はありません。単にweb
 |Not_required=Yes
 |Examples=
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
 {{See_Also_Section
-|Manual_links=
 |External_links=[http://www.codecademy.com/tracks/web Introduction to HTML & CSS] - a practical course on the free e-Learning platform [http://www.codecademy.com Codecademy].
 |Manual_sections==== 練習問題 ===
 
@@ -291,7 +279,5 @@ HTMLとCSS、JavaScriptには何も神秘的な点はありません。単にweb
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
+{{Languages}}
