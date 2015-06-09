@@ -3,12 +3,14 @@
 |State=Unreviewed
 |Checked_Out=No
 }}
-{{API_Name}}
 {{Summary_Section|アクセシビリティは、能力が様々な人々がWebを活用できるようにすることです。アクセシビリティは、質の高いwebサイトやツールを望み、自分たちの製品やサービスから人々を締め出したくない開発者や組織にとって、とても重要なことです。アクセシビリティは、障害を持った人々でも等しくWebに参加できるようにするのに不可欠です。法的必要条件になっている場合もありますが、どんな場合でも推奨事項です。}}
+{{Basic Page}}
+{{API_Name}}
+
 {{Concept_Page
 |Content={{Languages}}
 
-{{Basic Page}}
+
 <p>このページではwebアクセシビリティを概説します。さらに情報を得るためにリーソスへのリンクも示します。まずこのページを通読してから、元に戻ってさらに知るためにリンク先を参照することをお勧めします。
 
 == Webは皆のもの ==
@@ -23,7 +25,7 @@ Webがこの目標を達成した時、聴覚や運動、視覚、認知能力�
 
 === webアクセシビリティとは? ===
 
-<p>Webアクセシビリティとは、障害を持った人々がWebを利用できることを意味します。さらに具体的に言うと、障害を持った人々が、気付いて、理解し、操作して、Webとやり取りできることを指します。そして、Webに貢献できるようになるでしょう。<strong>なぜ</strong>：webアクセシビリティが問題になるのか <strong>何が</strong>：webアクセシビリティなのか <strong>どうやって</strong>：webサイトやwebツールを利用しやすくするのか、については、まず　[[concepts/accessibility/writing_for_an_accessible_web|Writing for an Accessible Web]] と [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C]　を見てください。</p>
+Webアクセシビリティとは、障害を持った人々がWebを利用できることを意味します。さらに具体的に言うと、障害を持った人々が、気付いて、理解し、操作して、Webとやり取りできることを指します。そして、Webに貢献できるようになるでしょう。<strong>なぜ</strong>：webアクセシビリティが問題になるのか <strong>何が</strong>：webアクセシビリティなのか <strong>どうやって</strong>：webサイトやwebツールを利用しやすくするのか、については、まず　[[concepts/accessibility/writing_for_an_accessible_web|Writing for an Accessible Web]] と [http://www.w3.org/standards/webdesign/accessibility Accessibility - W3C]　を見てください。</p>
 
 <p>Webアクセシビリティは、Webにアクセスするのに差し障りがある障害全てを対象とします。そこには、聴覚や認知、神経、身体、発話、視覚に障害を持った人々が含まれます。アクセシビリティには、老化に伴う障害を持った人々も対象になっています。</p>
 
@@ -145,18 +147,9 @@ W3CのWeb Accessibility Initiative (WAI)は、世界各国の産業界や障害�
 * [http://www.w3.org/TR/WCAG20-TECHS/ HTML and CSS techniques for passing WCAG conformance criteria]
 * [http://msdn.microsoft.com/en-us/library/windows/apps/hh452681.aspx Making Accessible Windows Store apps using JavaScript and HTML]
 *[https://webaccessibility.withgoogle.com Introduction to Web Accessibility by Google]
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics|Accessibility, ARIA, Design, UI, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+
+
 }}
 {{Examples_Section
 |Not_required=Yes
@@ -168,6 +161,11 @@ W3CのWeb Accessibility Initiative (WAI)は、世界各国の産業界や障害�
 }}
 {{See_Also_Section}}
 {{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+}}
+{{Notes_Section}}
+{{Topics|Accessibility, ARIA, Design, UI, Usability}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 }}
