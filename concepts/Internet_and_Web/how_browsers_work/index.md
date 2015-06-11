@@ -1,7 +1,7 @@
 {{Page_Title|How browsers work: behind the scenes of modern web browsers}}
 {{Flags
-|State=Ready to Use
-|Checked_Out=No
+|State=In Progress
+|Checked_Out=Yes
 |High-level issues=Data Not Semantic
 |Content=Cleanup
 }}
