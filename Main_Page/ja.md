@@ -15,7 +15,7 @@ Web Platform Docsはコミュニティベースのサイトです。目標は、
 <div class="image icon-beginners"></div>
 
 <div class="inner">
-<h3>[[beginners | 初心者向けガイド]]</h3>
+<h3>[[beginners/ja | 初心者向けガイド]]</h3>
 
 <p>初めてwebを開発する方向けの初心者用資料</p>
 </div>
@@ -39,7 +39,7 @@ Web Platform Docsはコミュニティベースのサイトです。目標は、
 <div class="image icon-html"></div>
 
 <div class="inner">
-<h3>[[html|HTML]]</h3>
+<h3>[[html/ja|HTML]]</h3>
 
 <p>webのマークアップ言語についての考え方やリファレンス、チュートリアル</p>
 </div>
@@ -78,7 +78,7 @@ Web Platform Docsはコミュニティベースのサイトです。目標は、
 <div class="image icon-js"></div>
 
 <div class="inner">
-<h3>[[javascript|JavaScript]]</h3>
+<h3>[[javascript/ja|JavaScript]]</h3>
 
 <p>webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む</p>
 </div>
