@@ -1,3 +1,5 @@
+{{Page_Title|HTML}}
+
 == Summary==
 
 Hypertext Markup Language (HTML)はwebページの作成のために開発されたマークアップ言語です。[http://www.w3.org World Wide Web Consortium（W3C）]が[http://www.w3.org/standards/techs/html HTMLの標準]を策定しています。
