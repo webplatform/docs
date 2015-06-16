@@ -1,9 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
-|High-level issues=Needs Review
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
@@ -28,14 +26,12 @@ Templates can be placed anywhere inside of the <code><head></code>, <code><body>
 </tr>
 </table>
 </syntaxhighlight>
-|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=To use a template, you need to activate it. Otherwise its content will not render. The simplest way to do this is by creating a deep copy of its <code>.content </code>using <code>cloneNode()</code>. The <code>.content</code> property is read-only and references a <code>DocumentFragment</code> containing the guts of a template.
 |Code=var t = document.querySelector('#mytemplate');
 t.content.querySelector('img').src = 'logo.png'; // Populate the src at runtime.
 document.body.appendChild(t.content.cloneNode(true));
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description====Shadow DOM example===
@@ -57,7 +53,6 @@ But the more interesting use of the <code>&lt;template&gt;</code> tag is in conc
 
 <div id="nameTag"></div>
 </syntaxhighlight>
-|LiveURL=
 }}{{Single Example
 |Language=JavaScript
 |Description=Now all you have to do to stamp out the element is run your template through the ShadowRoot.
@@ -66,7 +61,6 @@ var template = document.querySelector('#nameTagTemplate');
 document.querySelector('#nameTag').textContent = 'Shellie';
 shadow.appendChild(template.content);
 template.remove();
-|LiveURL=
 }}
 }}
 {{Notes_Section
@@ -82,34 +76,27 @@ template {
 |Notes=* If you're using [https://code.google.com/p/modpagespeed/ modpagespeed], be careful of this [http://code.google.com/p/modpagespeed/issues/detail?id=625 bug]. Templates that define inline <code><style scoped></code>, many be moved to the <code>head</code> with PageSpeed's CSS rewriting rules.
 * There's no way to "prerender" a template, meaning you cannot preload assets, process JS, download initial CSS, etc. That goes for both server and client. The only time a template renders is when it goes live.
 * Be careful with nested templates. They don't behave as you might expect, and nested templates must be activated separately.
-|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/scripting-1.html#the-template-element
+|URL=http://www.w3.org/TR/html51/semantics.html#the-template-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/scripting-1.html#the-template-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=Web Components
-|Manual_links=
 |External_links=* [http://www.html5rocks.com/en/tutorials/webcomponents/template/ HTML's New Template Tag]
 * [http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/ Shadow DOM 101]
-|Manual_sections=
 }}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
 |HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/webcomponents/template/
 }}
 {{Compatibility_Section
