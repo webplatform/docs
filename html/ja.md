@@ -102,7 +102,7 @@ HTMLは私たちがWorld Wide Web（WWW）にコンテンツを構築するた�
 
 ==HTML技術に貢献するには==
 
-HTMLはこれまでCERNやIETF、W3Cなどの複数の組織が主導して開発してきました。開発の場として主に[http://www.w3.org/html/wg/lists/ HTML Working Group Mailing Lists]が用いられています。新しい機能の提案やフィードバックの報告する場として、よく機能しています。ニュースやより一般的な情報については[http://www.w3.org/html/ W3C HTMLのホームページ]で調べるとよいでしょう。
+HTMLはこれまでCERNやIETF、W3Cなどの複数の組織が主導して開発してきました。開発の場として主に[http://www.w3.org/html/wg/lists/ HTML Working Group Mailing Lists]が用いられています。新しい機能の提案やフィードバックをしたいのなら、手始めにここが良いでしょう。ニュースやより一般的な情報については[http://www.w3.org/html/ W3C HTMLのホームページ]で調べてください。
 
 W3Cは現在[http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist Media Accessibility Checklist]でレビューコメントを求めています。
 
