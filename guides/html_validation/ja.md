@@ -8,7 +8,7 @@
 {{Summary_Section|この文書では検証の概要を紹介し、HTMLを検証するW3Cバリデータの使い方を説明します。}}
 {{Guide
 |Content={{Flags
-|State=Ready to Use
+|State=
 |Editorial notes=
 |Checked_Out=No
 }}
