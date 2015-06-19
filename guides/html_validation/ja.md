@@ -7,12 +7,7 @@
 {{Byline}}
 {{Summary_Section|この文書では検証の概要を紹介し、HTMLを検証するW3Cバリデータの使い方を説明します。}}
 {{Guide
-|Content={{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Byline
+|Content={{Byline
 |Name=
 |URL=
 |Published=
