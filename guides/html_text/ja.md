@@ -1,11 +1,10 @@
 {{Page_Title|HTMLのテキスト}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub page, needs translation of content
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|この文章では、HTMLでテキストコンテンツをマークアップする時に一番よく使用する要素について扱います。}}
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
