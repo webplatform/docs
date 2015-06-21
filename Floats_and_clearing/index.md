@@ -2,7 +2,7 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Move contents in [[tutorials/floats_and_clearing]] and make one. This is a tutorial, shouldn’t stay in root of the wiki.
-|Checked_Out=No
+|Checked_Out=Yes
 |High-level issues=Merge Candidate
 }}
 {{Byline}}
@@ -24,9 +24,6 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 == Introduction ==
  
