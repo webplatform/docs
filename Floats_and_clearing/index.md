@@ -2,11 +2,10 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=Move contents in [[tutorials/floats_and_clearing]] and make one. This is a tutorial, shouldn’t stay in root of the wiki.
-|Checked_Out=Yes
-|High-level issues=Merge Candidate
+|Checked_Out=No
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|The CSS float property define a state of an element where it is taken out from the normal flow and placed either to the left or right of its container element, allowing inline elements to wrap around it.  The CSS clear property define an element state where floating elements are not allowed to float on one (left/right) or both the sides.}}
 {{Tutorial
 |Content={{Editorial/Merge_Candidate
 |Other=[[tutorials/floats_and_clearing]]
