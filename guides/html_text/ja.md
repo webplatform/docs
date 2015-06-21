@@ -4,7 +4,7 @@
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|この文章では、HTMLでテキストコンテンツをマークアップする時に一番よく使用する要素について扱います。}}
+{{Summary_Section|この文書では、HTMLでテキストコンテンツをマークアップする時に一番よく使用する要素について扱います。}}
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
