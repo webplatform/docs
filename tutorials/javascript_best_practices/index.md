@@ -284,7 +284,9 @@ The best, safe, and short way to handle the situation of providing a preset valu
 
 The <code>?</code> operator is a short hand for a <code>if ... else ... </code> condition that is tested, here against <code>null</code> , which guards against v having the value <code>undefined</code> as well. It should be noted that if <code>v</code> operator has the empty chain character <code>''</code> operator assigned, then it will be assigned to <code>x</code> as well.
 
-This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_== Modularize — one function per task ==
+This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_.
+
+== Modularize — one function per task ==
  
 This is a general programming best practice — making sure that you create functions that fulfill one job at a time makes it easy for other developers to debug and change your code without having to scan through all the code to work out what code block performs what function.
  
@@ -676,7 +678,4 @@ JavaScript development has mutated from a fringe knowledge area to an absolute n
 {{Topics|JavaScript}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
