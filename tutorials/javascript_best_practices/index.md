@@ -274,7 +274,7 @@ This is NOT a good way of doing it, because if <code>v</code> happens to equal 0
 The shortcut notation that will use the the double pipe which is the <code>OR</code> operator won't do either:
  
 <pre>var x = v
-|10;</pre>
+&#124;10;</pre>
 
 This way of doing it will again fail in the event <code>v</code> equal <code>0</code>.
 
@@ -622,7 +622,7 @@ function ajax(url){
   request.onreadystatechange = function(){
     if(request.readyState == 4){
       if(request.status){ 
-        if(request.status === 200 || request.status === 304){
+        if(request.status === 200 &#124;&#124; request.status === 304){
           if(url === 'template.html'){
             setupPlayer(request.responseText);
           }
