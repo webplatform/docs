@@ -284,7 +284,7 @@ The best, safe, and short way to handle the situation of providing a preset valu
 
 The <code>?</code> operator is a short hand for a <code>if ... else ... </code> condition that is tested, here against <code>null</code> , which guards against v having the value <code>undefined</code> as well. It should be noted that if <code>v</code> operator has the empty chain character <code>''</code> operator assigned, then it will be assigned to <code>x</code> as well.
 
-This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that_.
+This will automatically give <code>x</code> a value of <code>10</code> if <code>v</code> is not defined — simple as that.
 
 == Modularize — one function per task ==
  
