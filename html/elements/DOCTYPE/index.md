@@ -7,7 +7,8 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].}}
+{{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].
+{{Languages|html/elements/!DOCTYPE}}}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
