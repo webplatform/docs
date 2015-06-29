@@ -1,4 +1,4 @@
-{{Page_Title|!DOCTYPE(文書型宣言)}}
+{{Page_Title|!DOCTYPE}}
 {{Flags
 |State=In Progress
 |Checked_Out=No
