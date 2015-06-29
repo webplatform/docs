@@ -8,7 +8,8 @@
 {{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section|'''文書型宣言（DOCTYPE宣言）'''とはSGMLやXML文書を文書型定義(DTD)（HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。シリアライズされたフォームの中では、特定の構文に準拠したマークアップの短い文字列として現れます。<!DOCTYPE> を書かないとQuirksモード(互換モード)で表示されます。
-{{Languages}}}}
+{{Languages}}
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -27,7 +28,6 @@
 |Description=HTML4.01のTransitional DTDでは
 |Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 }}
-と記述されます。
 }}
 {{Notes_Section
 |Usage=htmlファイルの始まりの部分に <syntaxhighlight lang="HTML5">
@@ -45,13 +45,6 @@ DTDがマークアップ言語用のルールを定義しているため、ブ�
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Deprecated, HTML
 |Manual_links=html/quirksmode
@@ -59,7 +52,15 @@ DTDがマークアップ言語用のルールを定義しているため、ブ�
 {{Topics|DOCTYPE, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
+
+
+
+と記述されます。
