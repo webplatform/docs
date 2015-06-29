@@ -8,8 +8,7 @@
 {{Standardization_Status|N/A}}
 {{API_Name}}
 {{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].
-{{Languages|html/elements/!DOCTYPE}}
-}}
+{{Languages|html/elements/!DOCTYPE}}}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
@@ -44,6 +43,13 @@ In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was 
 {{Related_Specifications_Section
 |Specifications=
 }}
+{{Compatibility_Section
+|Not_required=Yes
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
+}}
 {{See_Also_Section
 |Topic_clusters=Deprecated, HTML
 |Manual_links=html/quirksmode
@@ -51,11 +57,7 @@ In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was 
 {{Topics|DOCTYPE, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+|MDN_link=
+|MSDN_link=
+|HTML5Rocks_link=
 }}
