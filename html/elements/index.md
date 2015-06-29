@@ -7,7 +7,7 @@
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
 {{Summary_Section|Index page for HTML elements.}}
-{{API_Listing|Query=[[Category:Markup_Elements]][[Category:HTML]]
+{{API_Listing|Query=[[Category:Markup_Elements]][[Category:HTML]][[Path::!~*/ja]]
 |Use_page_title=No
 |List_all_subpages=No
 }}
