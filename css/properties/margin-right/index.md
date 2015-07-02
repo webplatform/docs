@@ -98,9 +98,7 @@ Negative margins are supported, except for top and bottom margins on inline obje
 }}
 {{See_Also_Section
 |Topic_clusters=Box Model
-|Manual_sections={{Languages}}
-
-===Related pages (MSDN)===
+|Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
 *<code>[[css/cssom/currentStyle|currentStyle]]</code>
 *<code>[[dom/defaultSelected|defaults]]</code>
