@@ -14,7 +14,7 @@
 |DOM_interface=dom/HTMLElement
 |Content=<code><acronym></code>要素は「段落」レベルにおけるフレージング・コンテンツの一つであり、「ブロック」レベルの要素ではありません。
 
-HTML5では'''<code>[[html/elements/abbr/ja|<abbr>]]</code>''' 要素が<acronym>と同等の役割を持っています。
+HTML5では'''<code>[[html/elements/abbr/ja|abbr]]</code>''' 要素が<acronym>と同等の役割を持っています。
 }}
 {{Examples_Section
 |Not_required=Yes
