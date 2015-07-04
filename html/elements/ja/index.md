@@ -11,13 +11,16 @@
 |Use_page_title=No
 |List_all_subpages=No
 }}
-{{Concept_Listing
-|Use_page_title=Yes
-|List_all_subpages=No
-}}
 {{Notes_Section}}
-{{See_Also_Section
-|Topic_clusters=HTML
+== See also ==
+{{#ask:[[Topic_Cluster::HTML]][[Path::~*/ja]]
+|?Page Title
+|format=template
+|limit=50
+|link=none
+|headers=hide
+|searchlabel=See more pages...
+|template=See_Also_Item
 }}
 {{Topics|DOM, HTML}}
 {{External_Attribution
