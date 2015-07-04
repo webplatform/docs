@@ -18,21 +18,16 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Language=
 |Description=W3Cのサイトでは以下の様な連絡先情報を記載しています。
 |Code=&lt;address>
     &lt;p>&lt;a href="http://www.w3.org/Consortium/contact-mit">MIT&lt;/a>&lt;/p>
 &lt;/address>
-|LiveURL=
 }}{{Single Example
-|Language=
 |Description=<address>要素の中に以下のような情報（最終更新日時など）を入れるのは正しくありません。
 |Code=&lt;div>Last Modified: 1999/12/24 23:37:50&lt;/div>
-|LiveURL=
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes=WebKit（safariや古いAndroid系）やTrident（Internet Explorer）では以下のようにデフォルトでスタイルが設定されています。
 <pre>address {
 	display:block;
@@ -61,35 +56,26 @@ Gecko(Firefox)では以下のように設定されています。
  
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-address-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-address-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/global.html#edef-ADDRESS
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
