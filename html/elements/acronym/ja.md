@@ -6,7 +6,7 @@
 }}
 {{Standardization_Status|Deprecated}}
 {{API_Name}}
-{{Summary_Section|HTML5では[[html/elements/abbr/ja|<abbr>]]が追加されており、この要素は'''非推奨'''となっています。今後はもう使うべきではありません。
+{{Summary_Section|HTML5では[[html/elements/abbr/ja|abbr]]が追加されており、この要素は'''非推奨'''となっています。今後はもう使うべきではありません。
 
 <code><acronym></code>要素は、NATO(North Atlantic Treaty Organization)、レーダー（RAdio Detection And Ranging）、インターポール（the International Criminal Police Organization）などのような頭字語を表します。
 }}
