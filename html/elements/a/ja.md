@@ -184,13 +184,14 @@ URIはhttpやmailto、fileなどのプロトコルを指定します。
 }}
 {{See_Also_Section}}
 {{Topics|HTML}}
-{{Feature=a}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/a
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
+{{Feature=a}}
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
