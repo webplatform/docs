@@ -27,7 +27,7 @@ Hypertext Markup Language (HTML)はwebページの作成のために開発され
     <div class="image icon-html"></div>
     
     <div class="inner">
-    <h3>[[html/elements|要素]]</h3>
+    <h3>[[html/elements/ja|要素]]</h3>
     
     <p>HTMLで利用可能な要素(element)についてのリファレンスガイドです。</p>
     </div>
