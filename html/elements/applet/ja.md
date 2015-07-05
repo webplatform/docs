@@ -38,6 +38,13 @@ My Java applet goes here!
 |Relevant_changes=Feature marked as obsolete
 }}
 }}
+{{See_Also_Section}}
+{{Topics|HTML}}
+{{External_Attribution
+|Is_CC-BY-SA=No
+|Sources=MSDN
+|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -48,13 +55,4 @@ My Java applet goes here!
 |Version=8+
 |Note=Windows Internet Explorer 8 and later. The value of the [[html/attributes/codeBase|'''codeBase''']] attribute depends on the current document compatibility mode.
 }}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
