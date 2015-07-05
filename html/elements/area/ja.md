@@ -97,45 +97,34 @@
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes====備考===
 *<area>要素は1つの<map>要素に何個でも指定することができます。
 *[[html/attributes/coords/ja|'''coords''']]属性のフォーマットは[[html/attributes/shape/ja|'''shape''']]属性の値に依存します。
 *IE8以上（標準モード）において、<img>要素や<map>要素でヒントのポップアップを指定している場合、[[html/attributes/alt/ja|'''alt''']]属性より[[html/attributes/title/ja|'''title''']]属性を使うべきでしょう。また、[[html/attributes/href/ja|'''href''']]属性の値は現在のドキュメント互換モードに依存します。
 *この要素は画面上に描画されません。
 *この要素は終了タグ(</area>)が要りません。
-|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-area-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-area-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/objects.html#edef-AREA
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
