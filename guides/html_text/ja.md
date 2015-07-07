@@ -1,6 +1,6 @@
 {{Page_Title|HTMLのテキスト}}
 {{Flags
-|State=Not Ready
+|State=Unreviewed
 |Checked_Out=No
 }}
 {{Byline}}
