@@ -1,7 +1,6 @@
 {{Page_Title|audio}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
 |Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
@@ -11,8 +10,6 @@
 {{Summary_Section|'''<audio>'''は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
-|Tag_omissions=
-|CSS_display=
 |Content=より詳細な説明は[[dom/HTMLAudioElement/ja|HTMLAudioElement]]を参照してください。
 
 
@@ -37,7 +34,7 @@
 
 == フォーマットとコーデック ==
 
-一部のコーデックについて、すべてのブラウザでサポートされているわけではありません。しかしOgg/VorbisとMP4/AACはほとんどのブラウザでサポートされています。詳細は[https://ja.wikipedia.org/wiki/HTML5%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA#.E5.AF.BE.E5.BF.9C.E9.9F.B3.E5.A3.B0.E3.82.B3.E3.83.BC.E3.83.87.E3.83.83.E3.82.AF 対応音声コーデック(Wikipedia)]を参照してください。 
+一部のコーデックについて、すべてのブラウザでサポートされているわけではありません。しかしOgg/VorbisとMP4/AACはほとんどのブラウザでサポートされています。詳細は[https://ja.wikipedia.org/wiki/HTML5%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA#.E5.AF.BE.E5.BF.9C.E9.9F.B3.E5.A3.B0.E3.82.B3.E3.83.BC.E3.83.87.E3.83.83.E3.82.AF 対応音声コーデック(Wikipedia)]を参照してください。
 }}
 {{Examples_Section
 |Not_required=No
@@ -49,28 +46,20 @@
 |LiveURL=http://code.webplatform.org/gist/7282145
 }}
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/embedded-content.html#the-audio-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Manual_links=* [http://wiki.xiph.org/Html5 HTML5 and Xiph codecs]
-|External_links=
-|Manual_sections=
 }}
 {{Topics|Audio, HTML, Media}}
 {{External_Attribution
@@ -78,7 +67,6 @@
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/audio
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
