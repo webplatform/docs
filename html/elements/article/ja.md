@@ -1,7 +1,6 @@
 {{Page_Title|article}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 |High-level issues=Missing Relevant Sections
 |Content=Incomplete, Compatibility Incomplete
@@ -9,7 +8,6 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|'''&lt;article&gt;'''はページ内で単独で完結する構成要素を定義します。}}
-{{Languages}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=required
@@ -39,40 +37,38 @@
  &lt;p&gt;...&lt;/p&gt;
  &lt;footer&gt;フッター&lt;/footer&gt;
 &lt;/article&gt;
-|LiveURL=
 }}
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-article-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-article-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Manual_links=[[html/elements/nav/ja|nav]] - <article>タグの子要素としてよく用いられます。
 |External_links=* http://www.w3.org/TR/html-markup/article.html#article
-|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
+{{Languages}}
+
+
+
+
+
+
+
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
