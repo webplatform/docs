@@ -9,6 +9,7 @@
 {{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|'''&lt;article&gt;'''はページ内で単独で完結する構成要素を定義します。}}
+{{Languages}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=required
