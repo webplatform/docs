@@ -9,8 +9,6 @@
 {{Summary_Section|'''&lt;b>'''要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
-|Tag_omissions=
-|CSS_display=
 |Content=&lt;b>要素は通常、ブラウザ上でテキストを太字で表示するのに使われます。多くのブラウザで広くサポートされていますが、CSSでより意味的に適切な要素で全く同じ効果を表現できるため、太字にするという目的のために'''&lt;b>'''要素を使用するのは推奨されていません。HTML5では、'''&lt;b>'''要素の意味が再定義され、他のテキストと区別するために使われるようになりました。周囲のテキストよりも重要であるという意味はもうありません。
 
 &lt;b>要素は他に適切な要素がない場合の最終手段として使うようにしてください。そのテキストがスタイル的に重要だと示されている以外の意味はありません（[[html/elements/span/ja|'''span''' 要素]]の省略形とい言ってもいいでしょう）。意味があり、似たような効果をもたらす要素として、[[html/elements/strong/ja|strong]]、[[html/elements/dfn/ja|dfn]]、[[html/elements/hn/ja|h1-h6]]、[[html/elements/abbr/ja|abbr]].があります。
@@ -39,38 +37,28 @@
 
 * [[http://www.w3.org/International/techniques/authoring-html#bandi|Using b and i tags]]
 |Notes='''&lt;b>'''要素は意味を持たないため、自分で意味を持たせて使ってはいけません。もっと適切な要素があるはずです。見出しには'''&lt;h1>'''～'''&lt;h6>'''要素を、アクセントを付けたい場合は'''&lt;em>'''要素を、重要性を示すには'''&lt;strong>'''要素を、文脈上重要/強調したいテキストには'''&lt;mark>'''要素を使うべきでしょう。
-|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-b-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/present/graphics.html#edef-B
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=HTML, Text
-|Manual_links=
-|External_links=
-|Manual_sections=
 }}
 {{Topics|HTML, XHTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
