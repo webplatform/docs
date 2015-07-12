@@ -1,7 +1,6 @@
 {{Page_Title|base}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
@@ -53,7 +52,6 @@
     &lt;p&gt;&lt;a href="http://www.example.org/deep/some-file.html"&gt;関連リンク&lt;/a&gt;&lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=こちらの例では'''base'''要素より下に書かれている要素のみが影響を受けています。
@@ -68,7 +66,6 @@
     のように解釈されます。
   --&gt;
 &lt;/head&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=こちらの例では複数の'''base'''要素を記述していますが、無視されています。
@@ -84,49 +81,38 @@
     &lt;base href="http://example.com/" target="_self"&gt;    
   --&gt;
 &lt;/head&gt;
-|LiveURL=
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes=* Firefox 4とInternet Explorer 10は<code>&lt;base&gt;</code>要素に相対URLを指定することができます。これにより相対URLで相対URLを解釈することができます<br/>（訳注:その他のブラウザも対応しているようです）。
 * <code>&lt;base&gt;</code>はそれよりも下で記述した要素に対してのみ有効です。
 * 複数の<code>&lt;base&gt;</code>を宣言するのは不正で、それぞれ最初の[[html/attributes/href/ja|<code>href</code>]]と[[html/attributes/target/ja|<code>target</code>]]のみが使用され、残りは破棄されます。Internet Explorer一番最初に書かれた<code>&lt;base&gt;</code>しか読んでくれません。
 
 '''注''' インラインSVGで使われる<code>fill="url(#element-id)"</code>のような参照は<code>&lt;base&gt;</code>を使ったドキュメントでは問題になります。<code>url(#element-id)</code>で正しいURLが取得されますが、CSS セレクターでは正しく認識されません。
 最新のFirefox とChrome ではその影響を非常に受けやすくなっています。
-|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/document-metadata.html#the-base-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/document-metadata.html#the-base-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/links.html#edef-BASE
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
-|Manual_links=
 |External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/base Mozilla Developer Network]
 * [http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx Microsoft Developer Network]
-|Manual_sections=
 }}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
