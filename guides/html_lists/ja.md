@@ -1,11 +1,10 @@
 {{Page_Title|HTMLのリスト}}
 {{Flags
 |State=Not Ready
-|Editorial notes=needs translation
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。}}
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
