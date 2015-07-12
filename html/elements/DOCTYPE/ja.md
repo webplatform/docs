@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|N/A}}
 {{API_Name}}
-{{Summary_Section|'''文書型宣言（DOCTYPE宣言）'''とはSGMLやXML文書を文書型定義(DTD)（HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。シリアライズされたフォームの中では、特定の構文に準拠したマークアップの短い文字列として現れます。<!DOCTYPE> を書かないとQuirksモード(互換モード)で表示されます。}}
+{{Summary_Section|'''文書型宣言（DOCTYPE宣言）'''とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。<!DOCTYPE>を書かないとQuirksモード(互換モード)で表示されます。}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 }}
