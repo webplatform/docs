@@ -48,7 +48,7 @@ The values <code>left</code>, <code>center</code>, and <code>right</code> are va
 |LiveURL=http://code.webplatform.org/gist/6983020
 }}{{Single Example
 |Language=CSS
-|Code=/* 20px X offset, 25px Y offset, 30px Z offset */
+|Code=/* 20px Y offset, 25px X offset, 30px Z offset */
 #mytranselem {
     transform-origin: 20px 25px 30px;
 }
@@ -78,13 +78,6 @@ If the <code>transform-origin</code> property is not set, the transform begins i
 |Status=W3C Working Draft
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
@@ -96,7 +89,12 @@ If the <code>transform-origin</code> property is not set, the transform begins i
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
