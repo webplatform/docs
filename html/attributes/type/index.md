@@ -20,70 +20,55 @@ The type attribute specifies the type of an &lt;input&gt; element to display. Th
 
 The default type for an &lt;input&gt; element is: text. The attribute is not required, but it is recommended to include the attribute to prevent misunderstandings.
 
-An input element with a type attribute whose value is "button" represents a button with no default behavior.
+An input element with a type attribute whose value is:
 
-An input element with a type attribute whose value is "checkbox" represents a state or option that can be toggled.
-
-An input element with a type attribute whose value is "color" provides a widget for selecting a color value.
-
-An input element with a type attribute whose value is "date" represents a widget for specifying a date value (year, month, day), with no time zone or time information.
-
-An input element with a type attribute whose value is "datetime" represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) based on UTC time zone.
-
-An input element with a type attribute whose value is "datetime-local" represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information.
-
-An input element with a type attribute whose value is "email" represents a field for entering an e-mail address.
-
-An input element with a type attribute whose value is "file" represents a widget for specifying a file.
-
-An input element with a type attribute whose value is "hidden" represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.
-
-An input element with a type attribute whose value is "image" represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data.
-
-An input element with a type attribute whose value is "month" represents a widget for entering a month value.
-
-An input element with a type attribute whose value is "number" represents a widget for entering a number.
-
-An input element with a type attribute whose value is "password" represents a one-line plain-text edit control for entering a password, which renders input text in such a way as to hide the characters (e.g., a series of asterisks).
-
-An input element with a type attribute whose value is "radio" represents a radio button control.
-
-An input element with a type attribute whose value is "range" represents a field for setting a number value that falls in a given range.
-
-An input element with a type attribute whose value is "reset" represents a form button that resets the form to default values.
-
-An input element with a type attribute whose value is "search" represents an input text field that is used for search queries.
-
-An input element with a type attribute whose value is "submit" represents a form button that submits the form data to the server.
-
-An input element with a type attribute whose value is "tel" represents an input field intended for entering a telephone number; does not enforce any syntax.
-
-An input element with a type attribute whose value is "text" represents a one-line plain text edit control for the input element’s value.
-
-An input element with a type attribute whose value is "radio" represents an input field for entering a specific time value.
-
-An input element with a type attribute whose value is "url" represents an input field for entering a single, absolute URL value.
-
-An input element with a type attribute whose value is "week" represents an input field for entering a value that represents a specific week.
+*  '''"button"''': represents a button with no default behavior
+*  '''"checkbox"''': represents a state or option that can be toggled
+*  '''"checkbox"''': represents a state or option that can be toggled
+*  '''"color"''': provides a widget for selecting a color value
+*  '''"date"''': represents a widget for specifying a date value (year, month, day), with no time zone or time information
+*  '''"datetime"''': represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) based on UTC time zone
+*  '''"datetime-local"''': represents a widget for setting a date-time value (year, month, day, hours, minutes, seconds, milliseconds) with no time zone information
+*  '''"email"''': represents a field for entering an e-mail address
+*  '''"file"''': represents a widget for specifying a file
+*  '''"hidden"''': represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically
+*  '''"image"''': represents an image. The user can either use the image as a button to submit the form, or select a coordinate of the image to be submitted with the form data
+*  '''"month"''': represents a widget for entering a month value
+*  '''"number"''': represents a widget for entering a number
+*  '''"password"''': represents a one-line plain-text edit control for entering a password, which renders input text in such a way as to hide the characters (e.g., a series of asterisks)
+*  '''"radio"''': represents a radio button control
+*  '''"range"''': represents a field for setting a number value that falls in a given range
+*  '''"reset"''': represents a form button that resets the form to default values
+*  '''"search"''': represents an input text field that is used for search queries
+*  '''"submit"''': represents a form button that submits the form data to the server
+*  '''"tel"''': represents an input field intended for entering a telephone number; does not enforce any syntax
+*  '''"text"''': represents a one-line plain text edit control for the input element’s value
+*  '''"radio"''': represents an input field for entering a specific time value
+*  '''"url"''': represents an input field for entering a single, absolute URL value
+*  '''"week"''': represents an input field for entering a value that represents a specific week
 
 
 === &lt;ol&gt; ===
+
 For &lt;ol&gt; elements the type attribute is used to specify the kind of marker to use in the list.<br />
 As default the list will be marked with decimal numbers (1, 2, 3, ...).
 
-Possible attribute values are the following:<br />
-"1" for decimal numbers (1, 2, 3, ...)<br />
-"a" for lowercase, alphabetically ordered list (a, b, c, ...)<br />
-"A" for uppercase, alphabetically ordered list (A, B, C, ...)<br />
-"i" for lowercase, roman numbered list (i, ii, iii, iv, ...)<br />
-"I" for uppercase, roman numbered list (I, II, III, IV, ...)
+Possible attribute values are the following:
+* "1": for decimal numbers (1, 2, 3, ...)
+* "a": for lowercase, alphabetically ordered list (a, b, c, ...)
+* "A": for uppercase, alphabetically ordered list (A, B, C, ...)
+* "i": for lowercase, roman numbered list (i, ii, iii, iv, ...)
+* "I": for uppercase, roman numbered list (I, II, III, IV, ...)
+
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
 |Description=Type attributes used in a form.
-|Code=<form>
+|Code=
+<code>
+<form>
     Text: <input type="text" name="textInput"> <br/>
      <br/>	
     Color: <input type="color" value="#ff0000" name="colorInput"/> <br/>
@@ -113,6 +98,7 @@ Possible attribute values are the following:<br />
     <br />
     Submit: <input type="submit" value="Submit"> <br/>
 </form>
+</code>
 }}{{Single Example
 |Language=HTML
 |Description=Type attribute for lowercase, roman numbering used in an ordered list.
