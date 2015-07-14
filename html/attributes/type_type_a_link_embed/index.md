@@ -27,8 +27,8 @@ In Microsoft Internet Explorer 6, This property now applies to the [[html/eleme
 This property applies to the [[html/elements/a|'''a''']], '''link''', and '''script''' objects.
 |Import_Notes====Syntax===
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 12.2
+*[http://www.w3.org/tr/rec-dom-level-1/ Document Object Model (DOM) Level 1 Specification], Section 2.5.5
+*[http://www.w3.org/TR/html401/ HTML 4.01 Specification], Section 12.2
 }}
 {{Related_Specifications_Section
 |Specifications=
