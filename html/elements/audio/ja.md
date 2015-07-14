@@ -10,7 +10,7 @@
 {{Summary_Section|'''<audio>'''は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。}}
 {{Markup_Element
 |DOM_interface=dom/HTMLAudioElement
-|Content=より詳細な説明は[[dom/HTMLAudioElement/ja|HTMLAudioElement]]を参照してください。
+|Content=より詳細な説明は[[dom/HTMLAudioElement|HTMLAudioElement]]を参照してください。
 
 
 == HTML属性==
