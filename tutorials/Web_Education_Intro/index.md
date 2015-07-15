@@ -206,7 +206,7 @@ IMPORTANT: Please don't pollute these pages with random stuff - if you just want
 ** [[Japanese international project]]
 ** [[fa/|Persian language international project]]
 ** [[Es/|Spanish international project]]
-** [[Turkish international project]]
+** [[tutorials/Web_Education_Intro/tr|Turkish international project]]
 
 
 
