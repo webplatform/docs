@@ -10,7 +10,8 @@
 {{API_Name}}
 {{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.}}
 {{CSS_Selector
-|Content=If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
+|Content=
+If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
 
 The pseudo-class <code>:lang(C)</code> represents an element that is in language <code>C</code>. Whether an element is represented by a <code>:lang()</code> selector is based solely on the element's language value (normalized to BCP 47 syntax if necessary) being equal to the identifier <code>C</code>, or beginning with the identifier <code>C</code> immediately followed by "<code>-</code>" (U+002D). The matching of <code>C</code> against the element's language value is performed case-insensitively. The identifier C does not have to be a valid language name.
 
@@ -18,8 +19,19 @@ The pseudo-class <code>:lang(C)</code> represents an element that is in language
 
 <blockquote>'''Note:''' It is [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#lang-pseudo recommended]] that documents and protocols indicate language using codes from BCP 47 [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#BCP47 BCP47]] or its successor, and by means of "<code>xml:lang</code>" attributes in the case of XML-based documents [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#XML10 XML10]]. See "[http://www.w3.org/International/questions/qa-lang-2or3.htmlFAQ: Two-letter or three-letter language codes.]" </blockquote>
 
-Internationalization topics related to <code>:lang</code>:
-* [http://www.w3.org/International/techniques/authoring-html#langstyle Styling by language]
+
+The value of ''C'' should be a language code that is  indicated by [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages].
+
+If ''C'' is empty or invalid, the selector will have no effect.
+
+===Syntax===
+  <code>
+  selector:lang(C) { /* ... */ }
+  </code>
+===Parameters===
+;''selector'':A CSS simple selector
+;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
+
 }}
 {{Examples_Section
 |Not_required=No
@@ -57,7 +69,7 @@ Internationalization topics related to <code>:lang</code>:
   &lt;/html&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The difference between <code>:lang(C)</code> and the ‘
+|Description=How to declare a full HTML document body language
 |Code=
   &lt;body lang=fr&gt;
     &lt;p&gt;Je suis français.&lt;/p&gt;
@@ -70,23 +82,10 @@ Internationalization topics related to <code>:lang</code>:
   html:lang(de)
   :lang(fr-be) > q
   :lang(de) > q
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The set rules are applied when the value of ''C'' matches (or is a hyphen-separated substring of) the element's language value. The value of ''C'' should be a language code that is  indicated by [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages].
-If ''C'' is empty or invalid, the selector will have no effect.
-This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode or higher. For more information, see Defining Document 
-
-Compatibility.
-In Internet Explorer 10, the ''':lang(C)''' pseudo-class accepts a comma-separated list of language codes. However, because this behavior is based on an early draft of the World Wide Web Consortium (W3C)'s [http://dev.w3.org/csswg/selectors-4/#lang-pseudo Selectors Level 4] specification, you must add the "-ms-" vendor prefix to the pseudo-class to enable this functionality. In effect, the pseudo-class becomes ''':-ms-lang(C)'''. Following is an example of its usage:
- <code>
-  html:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
-   direction: rtl;
- }
- </code>
-In this example, the selector will match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes). This example is equivalent to the following, which is the only way in which to achieve this functionality in versions of Windows Internet Explorer prior to Internet Explorer 10:
- <code>
+}}{{Single Example
+|Language=CSS
+|Description=Match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes) that are known to have text orientation from '''right to left''' (see the "rtl" value at the ''direction'' property).
+|Code=
   html:lang(ar),
   html:lang(dv),
   html:lang(fa),
@@ -102,23 +101,25 @@ In this example, the selector will match all of the listed language codes (and a
   html:lang(qps-plocm) {
      direction: rtl;
   }
-  </code>
+}}
+}}
+{{Notes_Section
+|Notes=
 |Import_Notes=
-===Syntax===
-  <code>
-  selector:lang(C) { /* ... */ }
-  </code>
-===Parameters===
-;''selector'':A CSS simple selector
-;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
-===Standards information===
-*[http://www.w3.org/TR/CSS2/ CSS 2.1], Section 5.11.4
 }}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=CSS 2.1
+|URL=http://www.w3.org/TR/CSS2/selector.html#lang
+|Status=W3C Recommendation
+|Relevant_changes=
+}}
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Classes, Selectors
+|External_links=
+* Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
+* [http://www.w3.org/International/techniques/authoring-html#langstyle Styling by language]
 }}
 {{Topics|CSS}}
 {{External_Attribution
