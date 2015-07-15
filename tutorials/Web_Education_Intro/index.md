@@ -18,36 +18,36 @@ Many of the links below currently point to the [http://dev.opera.com dev.opera] 
 
 # [[concepts/Internet_and_Web/The_History_of_the_Web|The history of the Internet and the web, and the evolution of web standards]]
 #* [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-he/ Hebrew translation] | [http://dev.opera.com/articles/view/2-az-internet-es-a-web-tortenete/ Hungarian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-it/ Italian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m1/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud1/index.html Spanish translation]
-# [[How does the Internet work]]?
+# [[concepts/Internet_and_Web/How_does_the_Internet_Work]]?
 #* [http://dev.opera.com/articles/view/3-hogyan-mukodik-az-internet/ Hungarian translation] | [http://dev.opera.com/articles/view/3-how-does-the-internet-work-ja/ Japanese translation]| [http://mosaic.uoc.edu/ac/le/ca/m1/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud2/index.html Spanish translation]
-# [[The web standards model - HTML CSS and JavaScript]]
+# [[concepts/Internet_and_Web/The_Web_Standards_Model]]
 #* [http://dev.opera.com/articles/view/4-a-webes-szabvanyok-modellje/ Hungarian translation] | [http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a-ja/ Japanese translation]| [http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud3/index.html Spanish translation]
 
 == Web Design Concepts ==
 
 This section won't go into any code or markup details, and will act as an introduction to the design process before you start to create any graphics or code, as well as concepts of web design such as IA, navigation, usability etc.
 
-# [[information_architecture/Planning_out_a_website|Information Architecture - planning out a website]]
+# [[tutorials/information_architecture/Planning_out_a_website]]
 #* [http://dev.opera.com/articles/view/6-informacios-architektura-egy-website-t/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud1/index.html Spanish translation]
-# [[What_does_a_good_web_page_need|What does a good web page need?]]
+# [[concepts/ux/what_does_a_good_web_page_need|What does a good web page need?]]
 #* [http://dev.opera.com/articles/view/7-mi-kell-egy-jo-weblaphoz/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud2/index.html Spanish translation]
 # [[Colour_theory|Colour Theory]]
 #* [http://dev.opera.com/articles/view/8-a-szinek-elmelete/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud3/index.html Spanish translation]
-# [[Building up a site wireframe]]
+# [[tutorials/Building_up_a_site_wireframe|Building up a site wireframe]]
 #* [http://dev.opera.com/articles/view/9-egy-site-keretenek-felepitese/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud4/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud4/index.html Spanish translation] 
-# [[Colour schemes and design mockups]]
+# [[tutorials/Colour_schemes_and_design_mockups|Colour schemes and design mockups]]
 #* [http://dev.opera.com/articles/view/10-szinsemak-es-designtervek/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud5/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud5/index.html Spanish translation]
-# [[Typography on the Web]]
+# [[tutorials/Typography_on_the_Web|Typography on the Web]]
 #* [http://dev.opera.com/articles/view/11-tipografia-a-weben/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud6/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud6/index.html Spanish translation]
 
 == HTML beginnings ==
 
-# [[The basics of HTML]]
+# [[guides/the_basics_of_html|The basics of HTML]]
 #* [http://dev.opera.com/articles/view/12-a-html-alapjai/ Hungarian translation] | [http://dev.opera.com/articles/view/12-the-basics-of-html-ja/ Japanese translation]
-# [[Doctypes and markup styles]]
-# [[The_HTML_head_element|The HTML &lt;head&gt; element]]
+# [[guides/doctypes_and_markup_styles|Doctypes and markup styles]]
+# [[tutorials/The_HTML_head_element|The HTML &lt;head&gt; element]]
 #* [http://dev.opera.com/articles/view/13-a-html-head-eleme/ Hungarian translation] | [http://dev.opera.com/articles/view/13-the-html-head-element-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m3/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m3/ud1/index.html Spanish translation]
-# [[More about the document head|More about the document &lt;head&gt;]]
+# [[tutorials/More_about_the_document_head|More about the document &lt;head&gt;]]
 
 == The HTML body ==
 
