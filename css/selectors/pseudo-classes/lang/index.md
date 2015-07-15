@@ -30,16 +30,16 @@ Internationalization topics related to <code>:lang</code>:
   &lt;!DOCTYPE html&gt;
   &lt;html&gt;
   &lt;head&gt;
-  &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=8"/&gt;
   &lt;title&gt;:lang pseudo-class&lt;/title&gt;
-  &lt;style type{{=}}"text/css"&gt;
+  &lt;style type="text/css"&gt;
   p:lang(en) {
 	color: green;
   }
   &lt;/style&gt;
   &lt;/head&gt;
   &lt;body&gt;
-  &lt;div class{{=}}"body"&gt;
+  &lt;div class=body&gt;
 	
 	&lt;h1&gt;:lang(C) Sample&lt;/h1&gt;
 	
@@ -57,23 +57,19 @@ Internationalization topics related to <code>:lang</code>:
   &lt;/html&gt;
 }}{{Single Example
 |Language=HTML
-|Description=The difference between <code>:lang(C)</code> and the ‘<code>
+|Description=The difference between <code>:lang(C)</code> and the ‘
 |Code=
-<code>
   &lt;body lang=fr&gt;
     &lt;p&gt;Je suis français.&lt;/p&gt;
   &lt;/body&gt;
-</code>
 }}{{Single Example
 |Language=CSS
 |Description=The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
 |Code=
-<code>
   html:lang(fr-be)
   html:lang(de)
   :lang(fr-be) > q
   :lang(de) > q
-</code>
 }}
 }}
 {{Notes_Section
@@ -84,18 +80,34 @@ This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mo
 
 Compatibility.
 In Internet Explorer 10, the ''':lang(C)''' pseudo-class accepts a comma-separated list of language codes. However, because this behavior is based on an early draft of the World Wide Web Consortium (W3C)'s [http://dev.w3.org/csswg/selectors-4/#lang-pseudo Selectors Level 4] specification, you must add the "-ms-" vendor prefix to the pseudo-class to enable this functionality. In effect, the pseudo-class becomes ''':-ms-lang(C)'''. Following is an example of its usage:
- <code>html:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
+ <code>
+  html:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
    direction: rtl;
  }
  </code>
 In this example, the selector will match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes). This example is equivalent to the following, which is the only way in which to achieve this functionality in versions of Windows Internet Explorer prior to Internet Explorer 10:
- <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
-   direction: rtl;
- }</code>
-|Import_Notes====Syntax===
-<code>
-selector:lang(C) { /* ... */ }
-</code>
+ <code>
+  html:lang(ar),
+  html:lang(dv),
+  html:lang(fa),
+  html:lang(he),
+  html:lang(ku-Arab),
+  html:lang(pa-Arab),
+  html:lang(prs),
+  html:lang(ps),
+  html:lang(sd-Arab),
+  html:lang(syr),
+  html:lang(ug),
+  html:lang(ur),
+  html:lang(qps-plocm) {
+     direction: rtl;
+  }
+  </code>
+|Import_Notes=
+===Syntax===
+  <code>
+  selector:lang(C) { /* ... */ }
+  </code>
 ===Parameters===
 ;''selector'':A CSS simple selector
 ;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
