@@ -1,20 +1,14 @@
 {{Page_Title|Accessibility basics}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=1 "Todo": citation. Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility
+|Editorial notes=Consider merging with http://docs.webplatform.org/wiki/concepts/accessibility and http://docs.webplatform.org/wiki/Accessibility_basics
 |Checked_Out=No
 |High-level issues=Copyright Issue
 |Content=Outdated
 }}
-{{Byline
-|Name=
-|URL=
-|Published=
-}}
+{{Byline}}
 {{Summary_Section|When you create a website, accessibility, making the website usable by everyone, regardless of their ability or disability, should always be a central concern. In this article I’ll look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.}}
 {{Tutorial
-|Next_page=
-|Prev_page=
 |Content===Introduction==
 
 Before I look specifically at accessibility on the web, let’s start by looking at accessibility in general terms. After all, accessibility isn't just a concern associated with websites, it is potentially a concern with every service, object or technology you’ll come across in life.
@@ -300,11 +294,7 @@ Accessibility is an important topic for both economic and social reasons. It is 
 *Use the internet to research how you would make a technology like Flash or Silverlight accessible and write a comparison between making them accessible, and how you make HTML accessible.
 *Explain how you would design an interaction on a web page to be accessible. Create the step by step instructions for creating a tree control (you don’t actually have to make it).
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -312,15 +302,8 @@ Accessibility is an important topic for both economic and social reasons. It is 
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
