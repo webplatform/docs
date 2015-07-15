@@ -1,14 +1,14 @@
-= Introduction to the Web Standards Curriculum =
-
+{{Page_Title|Introduction to the Web Standards Curriculum}}
+{{Flags}}
 {{Languages}}
-
-== Introduction ==
-
+{{Summary_Section|
 What follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.
+}}
+== Please note ==
 
-Note: This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/#toc Introductory material], written by Chris Mills. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
+This material was originally published as part of the Opera Web Standards Curriculum, available as [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/#toc Introductory material], written by Chris Mills. Like the original, it is published under the [http://creativecommons.org/licenses/by-nc-sa/2.5/ Creative Commons Attribution, Non Commercial - Share Alike 2.5] license.
 
-Note #2: Many of the links below currently point to the [http://dev.opera.com dev.opera] versions, but we'll change these over to the W3C versions as we add more to the site. We are very happy to add these to the W3C pages, for a wider readership and more maintenance help.
+Many of the links below currently point to the [http://dev.opera.com dev.opera] versions, but we'll change these over to the W3C versions as we add more to the site. We are very happy to add these to the W3C pages, for a wider readership and more maintenance help.
 
 == The beginning ==
 
@@ -16,7 +16,7 @@ Note #2: Many of the links below currently point to the [http://dev.opera.com de
 
 == Introduction to the world of web standards ==
 
-# [[The history of the Web|The history of the Internet and the web, and the evolution of web standards]]
+# [[concepts/Internet_and_Web/The_History_of_the_Web|The history of the Internet and the web, and the evolution of web standards]]
 #* [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-he/ Hebrew translation] | [http://dev.opera.com/articles/view/2-az-internet-es-a-web-tortenete/ Hungarian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-it/ Italian translation] | [http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/m1/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud1/index.html Spanish translation]
 # [[How does the Internet work]]?
 #* [http://dev.opera.com/articles/view/3-hogyan-mukodik-az-internet/ Hungarian translation] | [http://dev.opera.com/articles/view/3-how-does-the-internet-work-ja/ Japanese translation]| [http://mosaic.uoc.edu/ac/le/ca/m1/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m1/ud2/index.html Spanish translation]
