@@ -17,20 +17,20 @@
 |Not_required=No
 |Examples={{Single Example
 |Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
-|Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
-&lt;title&gt;:lang pseudo-class&lt;/title&gt;
-&lt;style type{{=}}"text/css"&gt;
-p:lang(en) {
+|Code=
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
+  &lt;title&gt;:lang pseudo-class&lt;/title&gt;
+  &lt;style type{{=}}"text/css"&gt;
+  p:lang(en) {
 	color: green;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class{{=}}"body"&gt;
+  }
+  &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;div class{{=}}"body"&gt;
 	
 	&lt;h1&gt;:lang(C) Sample&lt;/h1&gt;
 	
@@ -43,9 +43,9 @@ p:lang(en) {
 	&lt;div lang{{=}}"en-us"&gt;This div's language is set to "en-us", but this page's :lang 
 	    pseudo-class only applies to paragraphs, so it doesn't turn green.&lt;/div&gt;
 		
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  &lt;/div&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
 }}
 }}
 {{Notes_Section
