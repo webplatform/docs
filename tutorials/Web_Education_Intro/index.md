@@ -185,5 +185,5 @@ Each page in this section includes teaching notes, examples, slidedecks and othe
 * International projects
 ** [[tutorials/Web_Education_Intro/tr|Turkish international project]]
 
-
-{{Topics:Tutorials}}
+[[Category:Tutorials]]
+{{Topics}}
