@@ -49,7 +49,9 @@ p:lang(en) {
 |Notes====Remarks===
 The set rules are applied when the value of ''C'' matches (or is a hyphen-separated substring of) the element's language value. The value of ''C'' should be a language code that is  indicated by [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages].
 If ''C'' is empty or invalid, the selector will have no effect.
-This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode or higher. For more information, see Defining Document Compatibility.
+This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode or higher. For more information, see Defining Document 
+
+Compatibility.
 In Internet Explorer 10, the ''':lang(C)''' pseudo-class accepts a comma-separated list of language codes. However, because this behavior is based on an early draft of the World Wide Web Consortium (W3C)'s [http://dev.w3.org/csswg/selectors-4/#lang-pseudo Selectors Level 4] specification, you must add the "-ms-" vendor prefix to the pseudo-class to enable this functionality. In effect, the pseudo-class becomes ''':-ms-lang(C)'''. Following is an example of its usage:
  <code>html:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
    direction: rtl;
@@ -59,10 +61,11 @@ In this example, the selector will match all of the listed language codes (and a
  <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
    direction: rtl;
  }</code>
-|Import_Notes====Syntax===
-<code>'
-selector
-''''':lang(C)'''(''C'') {...}</code>
+|Import_Notes=
+===Syntax===
+<code>
+selector:lang(C) { /* ... */ }
+</code>
 ===Parameters===
 ;''selector'':A CSS simple selector
 ;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
@@ -81,10 +84,6 @@ selector
 |Sources=MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
+{{Compatibility
+|feature=pseudo-lang
 }}
