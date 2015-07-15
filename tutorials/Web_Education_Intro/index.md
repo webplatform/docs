@@ -141,13 +141,6 @@ This section won't go into any code or markup details, and will act as an introd
 * [[The web standards curriculum glossary]]
 * [[Optimizing content for different browsers: the RIGHT way]]
 
-== Proposed Updates and Additions to Web Standards Curriculum ==
-
-* [[WSC_proposed_updates|Web standards curriculum on W3C Wiki: plan for updates 2011]]
-
-[[Category:Tutorials]]
-[[Category:WSC]]
-
 = References =
 
 * [[html|HTML]]
@@ -186,33 +179,11 @@ This section won't go into any code or markup details, and will act as an introd
 
 Each page in this section includes teaching notes, examples, slidedecks and other materials for teachers to use for hands-on teaching of the curriculum structures outlined in the [[#Curriculum_structures|Curriculum structures]] section.
 
-* [[HTML Basics and Web Standards Concepts teaching materials]] (learning competency included in [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1])
+* [[Beginners]] (learning competency included in [http://www.w3.org/community/webed/wiki/Interact/Web_Design_1 Web Design 1])
 
-= Project activities =
 
-This section houses a record of all activities being undertaken in past, present or future by the Web Education Community Group, split into projects.
-
-IMPORTANT: Please don't pollute these pages with random stuff - if you just want to doodle or record random thoughts, put it in the [[ Ideas Playground ]].
-
-* [[Learning material]]
-* [[Curriculum]]
-* [[Outreach]]
-* [[Training and certification]]
-* [[Membership and policy]]
 * International projects
-** [[Croatian international project]]
-** [[French international project]]
-** [[it/Italian international project]]
-** [[Japanese international project]]
-** [[fa/|Persian language international project]]
-** [[Es/|Spanish international project]]
 ** [[tutorials/Web_Education_Intro/tr|Turkish international project]]
 
 
-
-Other available resources are as follows:
-
-* [[ WEST | Web Education Supplementary Toolkit ]]
-* [[ Web Education community group style guide ]]
-* [[How to write an article]]
-* [[How to review an article]]
+{{Topics:Tutorials}}
