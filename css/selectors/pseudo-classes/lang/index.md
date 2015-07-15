@@ -33,6 +33,9 @@ If ''C'' is empty or invalid, the selector will have no effect.
 ;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
 
 }}
+{{Compatibility
+|feature=pseudo-lang
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -126,7 +129,4 @@ If ''C'' is empty or invalid, the selector will have no effect.
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility
-|feature=pseudo-lang
 }}
