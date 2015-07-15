@@ -60,8 +60,9 @@ In this example, the selector will match all of the listed language codes (and a
  <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
    direction: rtl;
  }</code>
-|Import_Notes====Syntax===
-<code><strong/>''
+|Import_Notes=
+===Syntax===
+<code>'
 selector
 ''''':lang(C)'''(''C'') {...}</code>
 ===Parameters===
