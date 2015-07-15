@@ -11,7 +11,6 @@
 {{Compatibility
 |feature=pseudo-lang
 }}
-{{Summary_Section}}
 {{CSS_Selector}}
 {{Examples_Section
 |Not_required=No
