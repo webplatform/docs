@@ -74,8 +74,8 @@ If ''C'' is empty or invalid, the selector will have no effect.
 |Language=HTML
 |Description=How to declare a full HTML document body language
 |Code=
-  &lt;body lang=fr&gt;
-    &lt;p&gt;Je suis français.&lt;/p&gt;
+  &lt;body&gt;
+    &lt;p&gt;This text is written in english, but &lt;span lang=fr&gt;cette section ci est écrite en français&lt;/span&gt;.&lt;/p&gt;
   &lt;/body&gt;
 }}{{Single Example
 |Language=CSS
