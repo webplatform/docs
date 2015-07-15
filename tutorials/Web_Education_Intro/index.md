@@ -1,3 +1,5 @@
+{{Languages}}
+
 Welcome to the Web Education Community Group Wiki! This page contains resources to help you teach or learn modern web development:
 
 * The first section — [http://www.w3.org/community/webed/wiki/Main_Page#Web_Standards_Curriculum_table_of_contents The web standards curriculum] — is a series of tutorial articles covering web design and development high level concepts, and essential technologies such as HTML, CSS and JavaScript. This is ideal for beginners wanting to learn the art of web design, or teachers looking for accurate material to use as the basis of teaching material.
