@@ -1,4 +1,4 @@
-{{Page_Title|:lang(c)}}
+{{Page_Title|&#58;lang(c)}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Needs title, summary, spec reference, standardization status, remove topic cluster flags
@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element.
+{{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element.}}
 {{Compatibility
 |feature=pseudo-lang
 }}
