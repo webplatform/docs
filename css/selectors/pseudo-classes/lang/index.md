@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|:lang(c)}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Needs title, summary, spec reference, standardization status, remove topic cluster flags
