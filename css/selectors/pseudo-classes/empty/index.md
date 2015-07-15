@@ -1,4 +1,4 @@
-{{Page_Title}}
+{{Page_Title|&#58;empty}}
 {{Flags
 |State=Not Ready
 |Editorial notes=Needs title, summary, example, spec reference, remove topic cluster flags
