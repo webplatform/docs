@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element.}}
+{{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.}}
 {{Compatibility
 |feature=pseudo-lang
 }}
