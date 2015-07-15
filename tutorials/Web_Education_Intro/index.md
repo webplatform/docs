@@ -1,15 +1,6 @@
+= Introduction to the Web Standards Curriculum =
+
 {{Languages}}
-
-Welcome to the Web Education Community Group Wiki! This page contains resources to help you teach or learn modern web development:
-
-* The first section — [http://www.w3.org/community/webed/wiki/Main_Page#Web_Standards_Curriculum_table_of_contents The web standards curriculum] — is a series of tutorial articles covering web design and development high level concepts, and essential technologies such as HTML, CSS and JavaScript. This is ideal for beginners wanting to learn the art of web design, or teachers looking for accurate material to use as the basis of teaching material.
-* The second section — [http://www.w3.org/community/webed/wiki/Main_Page#References References] — is designed for looking up HTML and CSS language features.
-* The third section — [http://www.w3.org/community/webed/wiki/Main_Page#Curriculum_structures Curriculum structures] — is a complete set of web design-related curricula for teachers to use to put together courses, which includes sample assignments, example questions, reading lists, assessment criteria, and more.
-
-Note: This is not a finalised site, but a development site for our material — it will be placed on a dedicated publishing platform in coming months, and a lot more material will be added. If you would like to contribute, please join the [http://www.w3.org/community/webed/ Web Education Community Group]!
-
-
-= Web Standards Curriculum table of contents =
 
 == Introduction ==
 
@@ -21,7 +12,6 @@ Note #2: Many of the links below currently point to the [http://dev.opera.com de
 
 == The beginning ==
 
-[[Introduction to the Web Standards Curriculum]]
 * [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-he/ Hebrew translation] | [http://dev.opera.com/articles/view/1-bevezeto-a-webes-szabvanyokba/ Hungarian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-it/ Italian translation] | [http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-ja/ Japanese translation] | [http://mosaic.uoc.edu/ac/le/ca/ Catalan translation] | [http://www.w3.org/community/webed/wiki/Es/Introducción_al_currículo_de_estándares_web Spanish translation]
 
 == Introduction to the world of web standards ==
