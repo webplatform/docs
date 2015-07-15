@@ -26,7 +26,8 @@ Internationalization topics related to <code>:lang</code>:
 |Examples={{Single Example
 |Language=HTML
 |Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
-|Code=&lt;!DOCTYPE html&gt;
+|Code=
+  &lt;!DOCTYPE html&gt;
   &lt;html&gt;
   &lt;head&gt;
   &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
