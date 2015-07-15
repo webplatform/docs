@@ -9,12 +9,8 @@
 {{Standardization_Status}}
 {{API_Name}}
 {{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.}}
-{{Compatibility
-|feature=pseudo-lang
-}}
 {{CSS_Selector
-|Content=
-If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
+|Content=If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
 
 The pseudo-class <code>:lang(C)</code> represents an element that is in language <code>C</code>. Whether an element is represented by a <code>:lang()</code> selector is based solely on the element's language value (normalized to BCP 47 syntax if necessary) being equal to the identifier <code>C</code>, or beginning with the identifier <code>C</code> immediately followed by "<code>-</code>" (U+002D). The matching of <code>C</code> against the element's language value is performed case-insensitively. The identifier C does not have to be a valid language name.
 
@@ -24,14 +20,13 @@ The pseudo-class <code>:lang(C)</code> represents an element that is in language
 
 Internationalization topics related to <code>:lang</code>:
 * [http://www.w3.org/International/techniques/authoring-html#langstyle Styling by language]
-
 }}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
+|Language=HTML
 |Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
-|Code=
-  &lt;!DOCTYPE html&gt;
+|Code=&lt;!DOCTYPE html&gt;
   &lt;html&gt;
   &lt;head&gt;
   &lt;meta http-equiv{{=}}"X-UA-Compatible" content{{=}}"IE{{=}}8" /&gt;
@@ -60,16 +55,15 @@ Internationalization topics related to <code>:lang</code>:
   &lt;/body&gt;
   &lt;/html&gt;
 }}{{Single Example
-|Description=The difference between <code>:lang(C)</code> and the ‘<code>|=</code>’ operator is that the ‘<code>|=</code>’ operator only performs a comparison against a given attribute on the element, while the <code>:lang(C)</code> pseudo-class uses the UAs knowledge of the document's semantics to perform the comparison.
-In this HTML example, only the BODY matches <code>[lang|=fr]</code> (because it has a LANG attribute) but both the BODY and the P match <code>:lang(fr)</code> (because both are in French). The P does not match the <code>[lang|=fr]</code> because it does not have a LANG attribute.
-|Code=
-  &lt;body lang=fr&gt;
+|Language=HTML
+|Description=The difference between <code>:lang(C)</code> and the ‘<code>
+|Code=&lt;body lang=fr&gt;
     &lt;p&gt;Je suis français.&lt;/p&gt;
   &lt;/body&gt;
 }}{{Single Example
+|Language=CSS
 |Description=The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
-|Code=
-  html:lang(fr-be)
+|Code=html:lang(fr-be)
   html:lang(de)
   :lang(fr-be) > q
   :lang(de) > q
@@ -91,8 +85,7 @@ In this example, the selector will match all of the listed language codes (and a
  <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
    direction: rtl;
  }</code>
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>
 selector:lang(C) { /* ... */ }
 </code>
@@ -113,4 +106,7 @@ selector:lang(C) { /* ... */ }
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
+}}
+{{Compatibility
+|feature=pseudo-lang
 }}
