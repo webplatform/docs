@@ -12,7 +12,20 @@
 {{Compatibility
 |feature=pseudo-lang
 }}
-{{CSS_Selector}}
+{{CSS_Selector
+|Content=
+If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
+
+The pseudo-class <code>:lang(C)</code> represents an element that is in language <code>C</code>. Whether an element is represented by a <code>:lang()</code> selector is based solely on the element's language value (normalized to BCP 47 syntax if necessary) being equal to the identifier <code>C</code>, or beginning with the identifier <code>C</code> immediately followed by "<code>-</code>" (U+002D). The matching of <code>C</code> against the element's language value is performed case-insensitively. The identifier C does not have to be a valid language name.
+
+<code>C</code> must be a valid CSS [http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier identifier] [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21]] and must not be empty. (Otherwise, the selector is invalid.)
+
+<blockquote>'''Note:''' It is [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#lang-pseudo recommended]] that documents and protocols indicate language using codes from BCP 47 [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#BCP47 BCP47]] or its successor, and by means of "<code>xml:lang</code>" attributes in the case of XML-based documents [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#XML10 XML10]]. See "[http://www.w3.org/International/questions/qa-lang-2or3.htmlFAQ: Two-letter or three-letter language codes.]" </blockquote>
+
+Internationalization topics related to <code>:lang</code>:
+* [http://www.w3.org/International/techniques/authoring-html#langstyle Styling by language]
+
+}}
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
@@ -46,6 +59,20 @@
   &lt;/div&gt;
   &lt;/body&gt;
   &lt;/html&gt;
+}}{{Single Example
+|Description=The difference between <code>:lang(C)</code> and the ‘<code>|=</code>’ operator is that the ‘<code>|=</code>’ operator only performs a comparison against a given attribute on the element, while the <code>:lang(C)</code> pseudo-class uses the UAs knowledge of the document's semantics to perform the comparison.
+In this HTML example, only the BODY matches <code>[lang|=fr]</code> (because it has a LANG attribute) but both the BODY and the P match <code>:lang(fr)</code> (because both are in French). The P does not match the <code>[lang|=fr]</code> because it does not have a LANG attribute.
+|Code=
+  &lt;body lang=fr&gt;
+    &lt;p&gt;Je suis français.&lt;/p&gt;
+  &lt;/body&gt;
+}}{{Single Example
+|Description=The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
+|Code=
+  html:lang(fr-be)
+  html:lang(de)
+  :lang(fr-be) > q
+  :lang(de) > q
 }}
 }}
 {{Notes_Section
