@@ -13,8 +13,7 @@
 {{Examples_Section
 |Not_required=No
 |Examples={{Single Example
-|Description=
-The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
+|Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
 |Code=&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
 &lt;html&gt;
@@ -48,10 +47,10 @@ p:lang(en) {
 }}
 {{Notes_Section
 |Notes====Remarks===
-The set rules are applied when the value of ''C'' matches (or is a hyphen-separated substring of) the element's language value. The value of ''C'' should be a language code that is  indicated by [http://go.microsoft.com/fwlink/p/?linkid{{=}}203658 RFC3066: Tags for the Identification of Languages].
+The set rules are applied when the value of ''C'' matches (or is a hyphen-separated substring of) the element's language value. The value of ''C'' should be a language code that is  indicated by [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages].
 If ''C'' is empty or invalid, the selector will have no effect.
 This pseudo-class requires that Windows Internet Explorer be in IE8 Standards mode or higher. For more information, see Defining Document Compatibility.
-In Internet Explorer 10, the ''':lang(C)''' pseudo-class accepts a comma-separated list of language codes. However, because this behavior is based on an early draft of the World Wide Web Consortium (W3C)'s [http://go.microsoft.com/fwlink/p/?LinkId{{=}}252782 Selectors Level 4] specification, you must add the "-ms-" vendor prefix to the pseudo-class to enable this functionality. In effect, the pseudo-class becomes ''':-ms-lang(C)'''. Following is an example of its usage:
+In Internet Explorer 10, the ''':lang(C)''' pseudo-class accepts a comma-separated list of language codes. However, because this behavior is based on an early draft of the World Wide Web Consortium (W3C)'s [http://dev.w3.org/csswg/selectors-4/#lang-pseudo Selectors Level 4] specification, you must add the "-ms-" vendor prefix to the pseudo-class to enable this functionality. In effect, the pseudo-class becomes ''':-ms-lang(C)'''. Following is an example of its usage:
  <code>html:-ms-lang(ar, dv, fa, he, ku-Arab, pa-Arab, prs, ps, sd-Arab, syr, ug, ur, qps-plocm) {
    direction: rtl;
  }
@@ -60,26 +59,18 @@ In this example, the selector will match all of the listed language codes (and a
  <code>html:lang(ar), html:lang(dv), html:lang(fa), html:lang(he), html:lang(ku-Arab), html:lang(pa-Arab), html:lang(prs), html:lang(ps), html:lang(sd-Arab), html:lang(syr), html:lang(ug), html:lang(ur), html:lang(qps-plocm) {
    direction: rtl;
  }</code>
-|Import_Notes=
-===Syntax===
+|Import_Notes====Syntax===
 <code>'
 selector
 ''''':lang(C)'''(''C'') {...}</code>
 ===Parameters===
 ;''selector'':A CSS simple selector
-;''C'':Language code as specified in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203658 RFC3066: Tags for the Identification of Languages]
+;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
 ===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.11.4
+*[http://www.w3.org/TR/CSS2/ CSS 2.1], Section 5.11.4
 }}
 {{Related_Specifications_Section
 |Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
 }}
 {{See_Also_Section
 |Topic_clusters=Pseudo-Classes, Selectors
@@ -88,7 +79,12 @@ selector
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
