@@ -1,1 +1,1 @@
-#REDIRECT [[concepts/Internet and Web/how does the internet work]]
+#REDIRECT [[concepts/Internet and Web/How does the Internet Work]]
