@@ -4,7 +4,7 @@
 |Editorial notes=
 |Checked_Out=No
 }}
-{{Languages}}
+{{Languages|concepts/Internet_and_Web/How_does_the_Internet_Work}}
 {{API_Name}}
 {{Summary_Section|Every so often, you get offered a behind-the-scenes look at the cogs and fan belts behind the action. Today is your lucky day. In this article we will usher you behind the scenes of one of the hottest technologies that you might already be familiar with: the World Wide Web. Cue theme music.
  
