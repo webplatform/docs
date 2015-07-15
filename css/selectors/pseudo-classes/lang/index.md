@@ -8,6 +8,9 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
+{{Compatibility
+|feature=pseudo-lang
+}}
 {{Summary_Section}}
 {{CSS_Selector}}
 {{Examples_Section
@@ -83,7 +86,4 @@ selector:lang(C) { /* ... */ }
 |Is_CC-BY-SA=No
 |Sources=MSDN
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility
-|feature=pseudo-lang
 }}
