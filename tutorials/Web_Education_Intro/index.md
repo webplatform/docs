@@ -31,7 +31,7 @@ This section won't go into any code or markup details, and will act as an introd
 #* [http://dev.opera.com/articles/view/6-informacios-architektura-egy-website-t/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud1/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud1/index.html Spanish translation]
 # [[concepts/ux/what_does_a_good_web_page_need|What does a good web page need?]]
 #* [http://dev.opera.com/articles/view/7-mi-kell-egy-jo-weblaphoz/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud2/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud2/index.html Spanish translation]
-# [[Colour_theory|Colour Theory]]
+# [[tutorials/Colour theory|Colour Theory]]
 #* [http://dev.opera.com/articles/view/8-a-szinek-elmelete/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud3/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud3/index.html Spanish translation]
 # [[tutorials/Building_up_a_site_wireframe|Building up a site wireframe]]
 #* [http://dev.opera.com/articles/view/9-egy-site-keretenek-felepitese/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m2/ud4/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m2/ud4/index.html Spanish translation] 
