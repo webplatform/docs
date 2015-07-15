@@ -58,16 +58,22 @@ Internationalization topics related to <code>:lang</code>:
 }}{{Single Example
 |Language=HTML
 |Description=The difference between <code>:lang(C)</code> and the ‘<code>
-|Code=&lt;body lang=fr&gt;
+|Code=
+<code>
+  &lt;body lang=fr&gt;
     &lt;p&gt;Je suis français.&lt;/p&gt;
   &lt;/body&gt;
+</code>
 }}{{Single Example
 |Language=CSS
 |Description=The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
-|Code=html:lang(fr-be)
+|Code=
+<code>
+  html:lang(fr-be)
   html:lang(de)
   :lang(fr-be) > q
   :lang(de) > q
+</code>
 }}
 }}
 {{Notes_Section
