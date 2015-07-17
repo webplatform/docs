@@ -30,7 +30,7 @@ Note #2: Many of the links below currently point to the [http://dev.opera.com de
 == Web Tasarımının Konsepti ==
 
 Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi bir grafik hazırlamadan ve kod yazmadan önce tasarım sürecine ve IA, gezinim, kullanılabilirlik gibi web tasarımı konseptlerine giriş yapılmaktadır. 
-# [[Information Architecture - planning out a web site|Information Architecture - planning out a web site]]
+# [[tutorials/information architecture/Planning out a website|Information Architecture - planning out a web site]]
 # [[What_does_a_good_web_page_need|What does a good web page need?]]
 # [[Colour_theory|Colour Theory]]
 # [[Building up a site wireframe]]
