@@ -6,7 +6,7 @@
 {{Byline}}
 {{Summary_Section|Between SVG, Canvas, WebGL, and CSS3 3D features, you're sure to amaze your users with stunning visuals natively rendered in the browser. This page lists tutorial articles for various visual features.}}
 {{Tutorial
-|Content=
+|Content=* [[tutorials/20thing_pageflip|Case study: page flip effect from 20thingsilearned.com]]
 * [[tutorials/3d_css|3D and CSS]]
 * [[tutorials/basic shapes|Basic shapes]]
 * [[tutorials/canvas/canvas tutorial|Introduction to Canvas]]
