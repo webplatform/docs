@@ -1,6 +1,6 @@
 == Introduction ==
  
-The [http://www.w3.org/wiki/HTML_forms_-_the_basics HTML forms article] introduced you to the basics of form creation and styling. This article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] carries on where that left off, providing more details about form elements and styles, and how forms are included in real-world Web application designs.
+The [[guides/html forms basics|HTML forms basics]] article introduced you to the basics of form creation and styling. This article of the [http://www.w3.org/wiki/Web_Standards_Curriculum Web Standards Curriculum] carries on where that left off, providing more details about form elements and styles, and how forms are included in real-world Web application designs.
  
 Note that the [http://dev.opera.com/articles/view/34-styling-forms/styling_forms_code.zip sample code is all available for download] so you can play with it on your local machine. In addition, there are links to the examples files running live at appropriate points during the article.
 
@@ -38,7 +38,7 @@ One common requirement among commercial projects is near-exact rendering of the 
  
 Contact forms that allow site visitors to send e-mail directly to an inbox are very common, for obvious reasons: they’re accessible to anyone with an active e-mail address, and easy to filter into a dedicated mail folder.
  
-The markup used in the previous [http://www.w3.org/wiki/HTML_forms_-_the_basics forms article] uses such a form, which has been extensively embellished:
+The markup used in the previous [[guides/html forms basics|forms article]] uses such a form, which has been extensively embellished:
  
 === Markup ===
  
