@@ -7,7 +7,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/removestream|removestream]] event for when [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]] is called to remove a [[apis/webrtc/MediaStream|MediaStream]] object on the remote peer.}}
+{{Summary_Section|Handles the [[apis/webrtc/RTCPeerConnection/removeStream|removeStream]] event for when [[apis/webrtc/RTCPeerConnection/setRemoteDescription|setRemoteDescription()]] is called to remove a [[apis/webrtc/MediaStream|MediaStream]] object on the remote peer.}}
 {{API_Object_Property
 |Property_applies_to=apis/webrtc/RTCPeerConnection
 |Read_only=No
