@@ -51,7 +51,7 @@ Bu bölümde herhangi bir kod yada işaretleme detayı verilmemektedir, herhangi
 # [[Images in HTML]]
 # [[HTML_links_-_lets_build_a_web|HTML links — let's build a web!]]
 # [[HTML tables]]
-# [[HTML forms - the basics]]
+# [[guides/html forms basics|HTML forms - the basics]]
 # [[tutorials/html5 form features|HTML5 form additions]]
 # [[HTML structural elements]]
 # [[Lesser - known semantic elements]]
