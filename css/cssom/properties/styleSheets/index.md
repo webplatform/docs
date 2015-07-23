@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status|W3C Working Draft}}
 {{API_Name}}
-{{Summary_Section}}
+{{Summary_Section|Get a list of Style sheets applied to the current document as an ordered collection.}}
 {{API_Object_Property
 |Property_applies_to=css/cssom/properties
 |Read_only=No
