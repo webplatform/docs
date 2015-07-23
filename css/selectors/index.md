@@ -1,7 +1,6 @@
 {{Page_Title|CSS Selectors}}
 {{Flags
 |State=Ready to Use
-|Checked_Out=No
 }}
 {{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
@@ -132,18 +131,22 @@ h1, h2..foo, h3 { font-family: sans-serif }
 </syntaxhighlight>
 because the above selector (h1, h2..foo, h3) is entirely invalid and the entire style rule is dropped. (When the selectors are not grouped, only the rule for h2..foo is dropped.)
 
-
-== See also ==
-*[http://www.w3.org/TR/css3-selectors/ Selectors Level 3 Specification]
+{{See_Also_Section
+|Manual_sections=
 *[[tutorials/using_selectors|Using Selectors Tutorial]]
 *[[css/tutorials|CSS Educational Materials for Beginners]]
 *[[css/properties|CSS Properties Reference]]
-
-[[Category:CSS]]
-
-
+}}
 {{Special:PrefixIndex/css/selectors/}}
 {{Notes_Section}}
+{{Related_Specifications_Section
+|Specifications={{Related Specification
+|Name=Selectors Level 3
+|URL=http://www.w3.org/TR/css3-selectors/
+|Status=Recommendation
+}}
+}}
+[[Category:CSS]]
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
