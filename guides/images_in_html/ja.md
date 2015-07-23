@@ -4,7 +4,7 @@
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section}}
+{{Summary_Section|この文書では、<code>&lt;img&gt;</code> タグを使って、HTMLドキュメントでの画像の利用について紹介します。}}
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
