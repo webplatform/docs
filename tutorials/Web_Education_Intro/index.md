@@ -61,7 +61,7 @@ This section won't go into any code or markup details, and will act as an introd
 #* [http://dev.opera.com/articles/view/18-html-hivatkozasok/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud4/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud4/index.html Spanish translation]
 # [[HTML tables]]
 #* [http://dev.opera.com/articles/view/19-html-tablazatok/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud5/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud5/index.html Spanish translation]
-# [[guides/html_forms_basics|HTML forms - the basics]]
+# [[guides/html forms basics|HTML forms - the basics]]
 #* [http://dev.opera.com/articles/view/20-html-urlapok/ Hungarian translation] | [http://mosaic.uoc.edu/ac/le/ca/m4/ud6/index.html Catalan translation] | [http://mosaic.uoc.edu/ac/le/es/m4/ud6/index.html Spanish translation]
 # [[tutorials/html5 form features|HTML5 form additions]]
 # [[HTML structural elements]]
