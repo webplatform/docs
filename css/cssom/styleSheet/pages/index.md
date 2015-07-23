@@ -10,7 +10,7 @@
 {{API_Name}}
 {{Summary_Section}}
 {{API_Object_Property
-|Property_applies_to=css/cssom/styleSheets
+|Property_applies_to=css/cssom/styleSheet
 |Read_only=No
 |Example_object_name=
 |Return_value_name=
@@ -35,7 +35,7 @@ Although this collection is represented in the Cascading Style Sheets (CSS) obje
 |Manual_links=
 |External_links=
 |Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/properties/styleSheets|styleSheets]]</code>
+*<code>[[css/cssom/properties/styleSheet|styleSheet]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
