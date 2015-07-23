@@ -38,7 +38,7 @@
 *<code>[[css/cssom/CSSImportRule|CSSImportRule]]</code>
 *<code>Reference</code>
 *<code>[[css/cssom/CSSImportRule/href|href]]</code>
-*<code>[[css/cssom/properties/styleSheet|styleSheet]]</code>
+*<code>[[css/cssom/properties/styleSheets|styleSheets]]</code>
 }}
 {{Topics|DOM}}
 {{External_Attribution
