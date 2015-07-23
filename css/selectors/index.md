@@ -137,8 +137,6 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 *[[css/tutorials|CSS Educational Materials for Beginners]]
 *[[css/properties|CSS Properties Reference]]
 }}
-{{Special:PrefixIndex/css/selectors/}}
-{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Selectors Level 3
