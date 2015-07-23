@@ -1,8 +1,7 @@
 {{Page_Title|画像の表示}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Stub page, needs translation of content
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -16,10 +15,7 @@
 |Notes_rows=
 }}
 {{See_Also_Section}}
-{{Topics}}
+{{Topics|CSS, HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
