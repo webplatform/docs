@@ -133,9 +133,13 @@ because the above selector (h1, h2..foo, h3) is entirely invalid and the entire 
 
 {{See_Also_Section
 |Manual_sections=
+===Related topics===
 *[[tutorials/using_selectors|Using Selectors Tutorial]]
 *[[css/tutorials|CSS Educational Materials for Beginners]]
 *[[css/properties|CSS Properties Reference]]
+
+===Selector list===
+{{Special:PrefixIndex/css/selectors/}}
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
