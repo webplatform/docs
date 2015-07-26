@@ -26,21 +26,6 @@
 |Method_applies_to=apis/webrtc/RTCPeerConnection
 |Example_object_name=peerConnection
 }}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section}}
 {{Topics|API, WebRTC}}
 {{External_Attribution
