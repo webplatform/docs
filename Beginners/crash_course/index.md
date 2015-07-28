@@ -99,7 +99,7 @@ So, in essence, the code becomes like this:
 }
 </syntaxHighlight>
 
-As you can easily understand, we styled the important class and also the ''#alphaParticle". What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
+As you can easily understand, we styled the important class and also the ''#alphaParticle''. What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
 
 == An HTML document ==
 
@@ -276,15 +276,8 @@ Whenever you feel like looking at your website, just open a web browser and inpu
 Whenever you need to make changes, do so in your local <tt>index.html</tt> file and re-upload it to the server via your FTP client. You'll be surprised to see that all that code has turned into plain text!
 
 However, note that what you'll be currently seeing is an example of basic markup. There's much more to web design. Do you like the content, styling, and behavior of this website? You can make one like this too! Just follow with us through the chapters.
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
