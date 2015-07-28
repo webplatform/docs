@@ -92,7 +92,10 @@ Used to describe fonts in which every glyph takes up the same space, like in com
 Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other. The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web. 
 
 === Padding === 
-The space between the substance of an element and the edge of the box that surrounds it. RGB Literally, red, green and blue.  For our purposes a hexadecimal notation that provides levels for each of the colors red green and blue. 
+The space between the substance of an element and the edge of the box that surrounds it.
+
+=== RGB ===
+Literally, red, green and blue.  For our purposes a hexadecimal notation that provides levels for each of the colors red green and blue. 
 
 === Sans-serif === 
 "Sans"; meaning without in french, describes fonts that doesn’t have serifs, the small projecting features at the ends of character strokes. Modern convention holds that sans-serif fonts are preferred over serif fonts for online text, while serif fonts are preferred for print. Serif Term used to describe fonts with small small projecting features at the ends of character strokes. 
@@ -139,7 +142,4 @@ Also called "Shim" is a piece of code that we can add to a web page to support a
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
