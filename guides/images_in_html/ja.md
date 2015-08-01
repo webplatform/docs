@@ -79,7 +79,7 @@ webでの画像の欠点は、誰しもが画像を見られる訳ではない�
 
 === <code>title</code> 属性を使って「あればそれに越したことはない」情報を追加する ===
 
-<code>alt</code> 属性には、画像が利用できない時に表示されるべきテキストを入れます。<code>alt</code> 属性内の情報は、画像がうまくロードされた時には表示されてはいけません。Internet Explorer はこの点が間違っていて、マウスポインタを画像に重ねるとツールチップとして表示します <ref>訳注：Internet Explorer 8からは、ツールチップを表示しません。詳しくは、 [[https://msdn.microsoft.com/en-us/library/cc288472.aspx|「What's New in Internet Explorer 8」の「Accessibility and ARIA」]] を参照してください。 </ref>。残念ながら、作成者の多くはこれがデフォルトだと見なして、画像についての追加情報を <code>alt</code> 属性に入れてしまっています。こうはしないでください。画像についての追加情報を加えたいなら、代わりに <code>title</code>  属性を使ってください。
+<code>alt</code> 属性には、画像が利用できない時に表示されるべきテキストを入れます。<code>alt</code> 属性内の情報は、画像がうまくロードされた時には表示されてはいけません。Internet Explorer はこの点が間違っていて、マウスポインタを画像に重ねるとツールチップとして表示します <ref>訳注：Internet Explorer 8からは、ツールチップを表示しません。詳しくは、 [[https://msdn.microsoft.com/en-us/library/cc288472.aspx#access  「What's New in Internet Explorer 8」の「Accessibility and ARIA」]] を参照してください。 </ref>。残念ながら、作成者の多くはこれがデフォルトだと見なして、画像についての追加情報を <code>alt</code> 属性に入れてしまっています。こうはしないでください。画像についての追加情報を加えたいなら、代わりに <code>title</code>  属性を使ってください。
 
 たいていのブラウザは、<code>&lt;img&gt;</code> 要素の <code>title</code> 属性の値をマウスカーソルが重なった時に、ツールチップとして表示します(Figure 2参照)。これで訪問者はさらに画像について知りやすくなりますが、訪問者すべてがマウスを使うという前提はとれません。 <code>title</code> 属性はとても役に立ちますが、極めて重要な情報を示す確かな手段ではありません。それよりむしろ、画像の雰囲気や文脈での意味といった、本質的ではない情報を示すのに適した方法です。
 
@@ -102,7 +102,7 @@ webでの画像の欠点は、誰しもが画像を見られる訳ではない�
 
 ''Figure 2: <code>title</code> 属性は、多くのブラウザでツールチップとして表示される''
 
-=== <code>longdesc</code> を使って、複雑な画像の代わりを用意する  <ref> <code>longdesc</code> 属性は、ブラウザやスクリーンリーダーで実装があまり進んでいないようです。詳しくは [[http://waic.jp/docs/jis2010-as-understanding/201406/H45.html | アクセシビリティ・サポーテッド（AS）情報：H45 ]] を参照してください。 </ref> ===
+=== <code>longdesc</code> を使って、複雑な画像の代わりを用意する  <ref> <code>longdesc</code> 属性は、ブラウザやスクリーンリーダーで実装があまり進んでいないようです。詳しくは [[http://waic.jp/docs/jis2010-as-understanding/201406/H45.html アクセシビリティ・サポーテッド（AS）情報：H45 ]] を参照してください。 </ref> ===
 
 図表や図形のように、画像がとても複雑な場合、<code>longdesc</code> 属性を使ってかなり長い説明を提供できます。そうすることで、スクリーンリーダーを使っている方や画像を切ってブラウジングしている方も、画像が伝える情報を利用できるようになります。
 
