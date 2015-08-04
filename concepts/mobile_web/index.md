@@ -15,10 +15,18 @@
 [[tutorials/mobile_mobifying|"Mobifying" your HTML5 site]] - Real examples showing how to support mobile with HTML5 features.
 
 == List of all mobile web related articles ==
-{{Concept_Listing
-|Query=[[Category:Mobile]]
-|Use_page_title=Yes
-|List_all_subpages=No
+{{#ask:[[Category:Mobile]]
+|?#
+|?Page Title
+|?Summary
+|format=template
+|limit=500
+|link=none
+|headers=show
+|searchlabel=See more pages...
+|template=Summary_Table_Body
+|introtemplate=Summary_Table_Header_Pages
+|outrotemplate=Summary_Table_Footer
 }}
 }}
 {{Examples_Section
