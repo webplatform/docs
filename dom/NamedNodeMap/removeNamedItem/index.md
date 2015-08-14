@@ -57,34 +57,6 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 |Relevant_changes=Section 1.4
 }}
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=6
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section}}
 {{Topics|DOM}}
 {{External_Attribution
