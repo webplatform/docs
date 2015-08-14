@@ -53,10 +53,3 @@ navigator.battery.addEventListener('levelchange', function () {
 |MSDN_link=
 |HTML5Rocks_link=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
