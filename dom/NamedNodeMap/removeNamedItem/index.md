@@ -13,7 +13,7 @@
 |Name=name
 |Data type=String
 |Description=The name of an [[dom/HTMLElement|'''attribute''']] to remove.
-|Optional=Yes
+|Optional=No
 }}
 |Method_applies_to=dom/NamedNodeMap
 |Example_object_name=attributes
