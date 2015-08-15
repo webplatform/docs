@@ -13,7 +13,7 @@
 |Name=name
 |Data type=String
 |Description=The name of an [[dom/HTMLElement|'''attribute''']] to remove.
-|Optional=No
+|Optional=Yes
 }}
 |Method_applies_to=dom/NamedNodeMap
 |Example_object_name=attributes
@@ -64,5 +64,4 @@ Click this DIV and the tooltip will be deactivated.&lt;/div&gt;
 |Sources=MDN, MSDN
 |MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap NamedNodeMap]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
