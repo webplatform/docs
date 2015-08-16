@@ -1,7 +1,6 @@
 {{Page_Title|body}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 |High-level issues=Data Not Semantic, Unreviewed Import
 |Content=Cleanup
@@ -102,44 +101,30 @@
 |Language=JavaScript
 |Description=この例では、javascriptで<code><body></code>を取得します。
 |Code=<syntaxhighlight lang="javascript">var oBody = document.body;</syntaxhighlight>
-|LiveURL=
 }}
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/sections.html#the-body-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/sections.html#the-body-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/global.html#edef-BODY
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
