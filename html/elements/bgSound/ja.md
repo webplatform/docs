@@ -8,7 +8,8 @@
 {{Standardization_Status|Non-Standard}}
 {{API_Name}}
 {{Summary_Section|'''bgsound'''はユーザがそのページにいる間、音楽ファイルを再生させるための要素です。
-この要素を使用せず、代わりに[[html/elements/audio/ja|audio]]要素を使用してください。}}
+この要素を使用せず、代わりに[[html/elements/audio/ja|audio]]要素を使用してください。
+}}
 {{Markup_Element
 |DOM_interface=dom/HTMLBGSoundElement
 }}
@@ -354,13 +355,6 @@ This property is not supported for Metro style apps using JavaScript.
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
 {{See_Also_Section
 |Topic_clusters=Audio
 }}
@@ -368,7 +362,12 @@ This property is not supported for Metro style apps using JavaScript.
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
+}}
+{{Compatibility_Section
+|Not_required=No
+|Imported_tables=
+|Desktop_rows=
+|Mobile_rows=
+|Notes_rows=
 }}
