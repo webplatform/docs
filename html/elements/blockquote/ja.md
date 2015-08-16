@@ -11,8 +11,6 @@
 {{Summary_Section|'''blockquote'''要素は拡張された引用を表します。}}
 {{Markup_Element
 |DOM_interface=dom/HTMLQuoteElement
-|Tag_omissions=
-|CSS_display=
 |Content====導入===
 '''blockquote'''要素は別のソースから引用したコンテンツであることを示します。追加で[[html/elements/footer/ja|'''footer''']]や[[html/elements/cite/ja|'''cite''']]要素で引用元を記載したり、注釈や省略のような変更なども一緒に示すことがあります。
 
@@ -32,20 +30,17 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- この例は引用をインデントさせて目立たせるためにblockquote要素を使用しています。: --&gt;
 &lt;p&gt;
 &lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
 &lt;p&gt;彼は
 &lt;blockquote cite="http://www.example.com"&gt;"やあ、皆さん!"&lt;/blockquote&gt;と言いました。
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description='''blockquote'''要素は別のソースから引用したコンテンツであることを示します。追加で'''footer'''や'''cite'''要素で引用元を記載したり、注釈や省略のような変更なども一緒に示すことがあります。例えば、英語では慣例的に省略を示す場合、角括弧を使用します。"フレッドはクラッカーを食べた。そして彼はリンゴと魚が好きだと言った。"という文章を考えましょう。これは以下のように引用されます。
 |Code=&lt;blockquote&gt;
  &lt;p&gt;[フレッド]は[...]魚が好きだといった。&lt;/p&gt;
 &lt;/blockquote&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description='''blockquote'''の中で、引用されたテキストと注釈とを明確に区別するために引用符が使われます。
@@ -65,7 +60,6 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
  &lt;/footer&gt;
  &lt;/figure&gt;
 &lt;!-- 注: 上記の例では、引用元はfigure要素内のfooter要素に含まれており、引用とともに引用についての情報を関連付けています。今回のケースでは、キャプションではなく、引用元を含んでいるため、figcaption要素は使っていません。 --&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=引用の帰属は'''blockquote'''要素の中に記述してあれば良いですが、'''cite'''要素か'''footer'''要素に記述すべきです
@@ -76,20 +70,16 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
  なぜ私があなた方を拒絶するか理解できるだろう。&lt;/p&gt;
  &lt;footer&gt;— &lt;cite&gt;ステファン・ロバート&lt;/cite&gt;&lt;/footer&gt;
  &lt;/blockquote&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!--  ここでは引用したテキストの最終行の&lt;cite&gt;要素に帰属を記述しています。著者のリンクも含まれていることに注意してください。 --&gt;
 &lt;blockquote&gt;
  人々は、その産物から自分自身を認識する。
  自動車やhi-fi装置、乱平面住宅、台所用品などに自身の魂を見出す。
  — &lt;cite&gt;&lt;a href="https://ja.wikipedia.org/wiki/ヘルベルト・マルクーゼ"&gt;ヘルベルト・マルクーゼ&lt;/a&gt;&lt;/cite&gt;
  &lt;/blockquote&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- ここでは引用文のあとのフッターで帰属と参照元のメタデータをMicrodata構文で記述しています。（※RDFA Liteでマークアップするのと同義です。） --&gt;
 &lt;blockquote&gt;
   &lt;p&gt;... 彼女は”口説く”の代わりに"恋する"という言葉が使われている供述書には一切署名をしなかった。その違いは彼女にとって極めて重要な意味があった。それは彼女の元夫がいつも口説文句をささやいているのに、本心では恋をしたことなど一度もなかった、という離婚理由にある。&lt;/p&gt;
@@ -100,16 +90,13 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
   &lt;/footer&gt;
 &lt;/blockquote&gt;
 &lt;!-- 注: 引用元から引用してきた要素をマークアップする方法として正しい方法というものはありません。引用元について記述するために'''blockquote'''の中にフッターやcite要素が含まれる場合、例えばclass属性を使って仕組みを拡張し、メタデータと共に引用元の起源を注釈するという --&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- この例では、引用元をcite要素に記述し、class属性を使って注釈しています。 --&gt;
 &lt;blockquote&gt;
   &lt;p&gt;私のお気に入りの本は&lt;cite class="from-source"&gt;スウィム・トゥ・バーズ亭にて&lt;/cite&gt;です。&lt;/p&gt;
   &lt;footer&gt;- &lt;cite&gt;Mike[tm]Smith&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
 |Description=以下の例は帰属を違った方法で記しています。
@@ -120,20 +107,16 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
  &lt;/blockquote&gt;
  &lt;figcaption&gt;&lt;cite&gt;カール・セーガン&lt;/cite&gt;&lt;cite&gt;懐疑的な尋問者&lt;/cite&gt; 19巻1号(1995年1-2月)より"&lt;cite&gt;神秘と懐疑論&lt;/cite&gt;"&lt;/figcaption&gt;
 &lt;/figure&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- 次の例は引用文と一緒に引用元を記しています。--&gt;
 &lt;p&gt;次の作品はふさわしく&lt;cite&gt;ソネット130&lt;/cite&gt;と名付けられました。:&lt;/p&gt;
 &lt;blockquote cite="http://quotes.example.org/s/sonnet130.html"&gt;
   &lt;p&gt;我が恋人の目に太陽の輝きはない、&lt;br&gt;
   彼女の唇より珊瑚のほうがずっと赤い、&lt;br&gt;
   ...
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- この例ではあるユーザがフォーラムの投稿に返信する際の例です。article要素は投稿ごとに使われ、スレッドをマークアップしています。 --&gt;
 &lt;article&gt;
  &lt;h1&gt;&lt;a href="http://bacon.example.com/?blog=109431"&gt;Bacon on a crowbar&lt;/a&gt;&lt;/h1&gt;
@@ -172,10 +155,8 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
   &lt;/article&gt;
  &lt;/article&gt;
 &lt;/article&gt;
-|LiveURL=
 }}{{Single Example
 |Language=HTML
-|Description=
 |Code=&lt;!-- この例ではp要素をblockquote要素に入れずにごく短い引用文を記述しています。 --&gt;
 &lt;p&gt;彼は以下のように”レッスン”を始めた。&lt;/p&gt;
 &lt;blockquote&gt;メリットを得られるように譲歩することはもちろん、
@@ -184,36 +165,28 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 &lt;blockquote&gt;最後に、どこかで交渉が崩壊する脅威に対して準備し、
 可能性を盾に脅されないこと。&lt;/blockquote&gt;
 &lt;p&gt;今回はこれらの点について議論していこう...
-|LiveURL=
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes====備考===
 *後のセクションで、会話の表し方の例が示されるかもしれませんが、'''cite'''と'''blockquote'''はそのような目的にはふさわしくありません。
-|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
-|Manual_links=
-|External_links=
 |Manual_sections====Related pages (internal)===
 *<code>[[html/elements/q|q]]</code>
 *<code>[[html/elements/cite|cite]]</code>
@@ -224,7 +197,6 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 |Sources=MDN, MSDN
 |MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote
 |MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
