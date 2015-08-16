@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|'''bdo'''要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）)}
+{{Summary_Section|'''bdo'''要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
