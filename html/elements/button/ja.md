@@ -96,7 +96,6 @@
 ボタンには簡単な説明文をボタン内に記載するべきです。ボタンの中のテキストが空だとｍユーザはそのボタンがどんな動きをするのかわからなくなってしまいます。
 
 サブミットボタンを装飾するときは<button>要素を使うよりもtype属性に<code>submit</code>を指定した[[html/elements/input/ja|'''input''']]要素のほうが簡単に実装することができます。
-
 |Notes=type属性のデフォルト値は<code>type</code>であるため、特に他の<code>type</code>を使用する必要がない場合は、<code>type</code>を省略することができます。過去のブラウザでは<code>type</code>の値がそれぞれ違いました。
 
 Android用のFirefoxではデフォルトで<code>[[css/properties/background-image/ja|background-image]]</code>がセットされており、すべての'''button'''にグラデーションがついていました。
@@ -150,32 +149,26 @@ buttonをクリックしたときフォーカスされますか？
 {{!}} ???
 {{!}} Yes
 {{!}}}
-|Import_Notes=
 }}
 {{Related_Specifications_Section
-|Specifications={{Related_Specification
+|Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/forms.html#the-button-element
 |Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/forms.html#the-button-element
 |Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
+}}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
 |Topic_clusters=Document Structure, HTML
 |Manual_links=* [[html/elements/input/type/button|'''input type="button"''']]
 * [[html/elements/input/type/submit|'''input type="submit"''']]
-|External_links=
-|Manual_sections=
 }}
 {{Topics|HTML, UI}}
 {{External_Attribution
@@ -183,7 +176,6 @@ buttonをクリックしたときフォーカスされますか？
 |Sources=MDN, MSDN
 |MDN_link=[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button <button> on MDN]
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
