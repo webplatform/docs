@@ -31,8 +31,6 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 |Examples={{Single Example
 |Language=HTML
 |Code=&lt;!-- この例は引用をインデントさせて目立たせるためにblockquote要素を使用しています。: --&gt;
-&lt;p&gt;
-&lt;!-- This example uses the blockquote element to set off a quotation that renders as indented text: --&gt;
 &lt;p&gt;彼は
 &lt;blockquote cite="http://www.example.com"&gt;"やあ、皆さん!"&lt;/blockquote&gt;と言いました。
 }}{{Single Example
@@ -48,7 +46,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 &lt;figure&gt;
  &lt;blockquote&gt;
  "かの怪物、習慣というものは、感覚を食い尽くし、
-  悪魔のように振舞う。"<abbr title="et cetera">などなど</abbr>（ここはFirst Folioの文章ではありません） 
+  悪魔のように振舞うが、"<abbr title="et cetera">などなど</abbr>（ここはFirst Folioの文章ではありません） 
  "なんという堕落だろう！
   結婚のとき手に手をとって、
   高潔な愛をもって誓ったこのわしを無みし、
@@ -62,7 +60,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 &lt;!-- 注: 上記の例では、引用元はfigure要素内のfooter要素に含まれており、引用とともに引用についての情報を関連付けています。今回のケースでは、キャプションではなく、引用元を含んでいるため、figcaption要素は使っていません。 --&gt;
 }}{{Single Example
 |Language=HTML
-|Description=引用の帰属は'''blockquote'''要素の中に記述してあれば良いですが、'''cite'''要素か'''footer'''要素に記述すべきです
+|Description=引用の帰属は'''blockquote'''要素に記述しても良いですが、'''cite'''要素か'''footer'''要素に記述すべきです
 |Code=&lt;!-- 例えば、ここでは引用したテキストのあとのfooterに帰属を記載し、帰属と引用物の関係を明確にしています。 --&gt;
 &lt;blockquote&gt;
  &lt;p&gt;我々は無神論者である、ということを私は強く主張する。 私の信ずる神は
@@ -99,7 +97,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 &lt;/blockquote&gt;
 }}{{Single Example
 |Language=HTML
-|Description=以下の例は帰属を違った方法で記しています。
+|Description=以下の例は上記と異なる方法で帰属を記しています。
 |Code=&lt;!-- ここではfigure要素とキャプションをつなぐためにblockquote要素を使用しています。 --&gt;
 &lt;figure&gt;
  &lt;blockquote&gt;
