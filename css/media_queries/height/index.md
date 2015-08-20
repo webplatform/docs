@@ -4,12 +4,11 @@
 |Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The media feature describes the height of the output device's rendering surface, such as the viewport height or the height of the page box.}}
 {{CSS_Media_Feature
-|Content=
-Just as the [[css/media_queries/width|width media query]] reports the layout viewport's width, the height media query reports its height. It tells you how many CSS pixels are available vertically for showing content, which is occasionally useful if you need to figure out if an item will be shown "above the fold."
+|Content=Just as the [[css/media_queries/width|width media query]] reports the layout viewport's width, the height media query reports its height. It tells you how many CSS pixels are available vertically for showing content, which is occasionally useful if you need to figure out if an item will be shown "above the fold."
 
 Although the layout viewport width (and thus the media query) is equal to the width of the html element, this does *not* hold for height. Frequently, the html element's height is a lot larger than the layout viewpot height. The height media query's value is usually the width media query value divided by the screen's aspect ratio.
 
@@ -43,28 +42,16 @@ The third media query describes all viewports with a height not bigger than 699 
 @media screen and ( min-height: 700px ) { … }
 
 @media screen and ( max-height: 699px ) { … }
-|LiveURL=
 }}
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
 |Specifications=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
