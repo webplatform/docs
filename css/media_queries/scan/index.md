@@ -23,6 +23,10 @@ It can be useful if you want to adjust font type that are known to not be visibl
 |Name=Media Queries Level 4
 |URL=http://www.w3.org/TR/2014/WD-mediaqueries-4-20140605/
 |Status=Working Draft
+}}{{Related Specification
+|Name=Media Queries
+|URL=http://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/
+|Status=Recommendation
 }}
 }}
 {{See_Also_Section
