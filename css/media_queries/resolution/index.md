@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=In Progress
-|Editorial notes=Add description, specifications, compatibility.
+|Editorial notes=Add description, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
