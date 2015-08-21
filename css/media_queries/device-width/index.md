@@ -4,7 +4,7 @@
 |Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.}}
 {{CSS_Media_Feature
@@ -36,28 +36,24 @@ The third media query describes all devices with a screen width not wider than 1
 @media screen and ( min-device-width: 1024px ) { … }
 
 @media screen and ( max-device-width: 1023px ) { … }
-|LiveURL=
 }}
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Queries Level 4
+|URL=http://www.w3.org/TR/mediaqueries-4/
+|Status=Working Draft
+}}{{Related Specification
+|Name=Media Queries
+|URL=http://www.w3.org/TR/mediaqueries-4/
+|Status=Recommendation
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
 }}
+{{See_Also_Section}}
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
