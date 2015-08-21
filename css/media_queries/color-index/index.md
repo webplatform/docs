@@ -16,11 +16,11 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Media Queries Level 4
-|URL=http://www.w3.org/TR/2014/WD-mediaqueries-4-20140605/
+|URL=http://www.w3.org/TR/mediaqueries-4/
 |Status=Working Draft
 }}{{Related Specification
 |Name=Media Queries
-|URL=http://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/
+|URL=http://www.w3.org/TR/css3-mediaqueries/
 |Status=Recommendation
 }}
 }}
