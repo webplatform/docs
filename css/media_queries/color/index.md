@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
+|Editorial notes=Add summery, values, syntax, example, description, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Recommendation}}
