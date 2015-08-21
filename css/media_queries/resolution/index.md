@@ -4,7 +4,7 @@
 |Editorial notes=Add description, specifications, compatibility.
 |Checked_Out=No
 }}
-{{Standardization_Status}}
+{{Standardization_Status|W3C Recommendation}}
 {{API_Name}}
 {{Summary_Section|The media feature describes the resolution (pixel-density) of the output device. The resolution can be specified in dpi (dots per inch), dppx (dots per pixel) or dpcm (dots per centimeter).}}
 {{CSS_Media_Feature
@@ -32,7 +32,20 @@ The second example describes a device with a screen that has a pixel-density of 
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Queries Level 4
+|URL=http://www.w3.org/TR/mediaqueries-4/
+|Status=Working Draft
+}}{{Related Specification
+|Name=Media Queries
+|URL=http://www.w3.org/TR/css3-mediaqueries/
+|Status=Recommendation
+}}
+}}
+{{See_Also_Section}}
+{{Topics}}
+{{External_Attribution
+|Is_CC-BY-SA=No
 }}
 {{Compatibility_Section
 |Not_required=No
@@ -40,12 +53,4 @@ The second example describes a device with a screen that has a pixel-density of 
 |Desktop_rows=
 |Mobile_rows=
 |Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
