@@ -10,7 +10,7 @@
 {{CSS_Media_Feature
 |Content=Just as the [[css/media_queries/width|width media query]] reports the layout viewport's width, the height media query reports its height. It tells you how many CSS pixels are available vertically for showing content, which is occasionally useful if you need to figure out if an item will be shown "above the fold."
 
-Although the layout viewport width (and thus the media query) is equal to the width of the html element, this does *not* hold for height. Frequently, the html element's height is a lot larger than the layout viewpot height. The height media query's value is usually the width media query value divided by the screen's aspect ratio.
+Although the layout viewport width (and thus the media query) is equal to the width of the html element, this does *not* hold for height. Frequently, the html element's height is a lot larger than the layout viewport height. The height media query's value is usually the width media query value divided by the screen's aspect ratio.
 
 The height media query is always equal to document.documentElement.clientHeight.
 
