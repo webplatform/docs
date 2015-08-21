@@ -16,7 +16,7 @@
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=Media Queries Level 4
-|URL=http://www.w3.org/TR/2014/WD-mediaqueries-4-20140605/
+|URL=http://www.w3.org/TR/mediaqueries-4/
 |Status=Working Draft
 }}
 }}
