@@ -1,7 +1,7 @@
 {{Page_Title}}
 {{Flags
 |State=Not Ready
-|Editorial notes=Add values, syntax, description, specifications, compatibility.
+|Editorial notes=Add values, syntax, description, compatibility.
 |Checked_Out=No
 }}
 {{Standardization_Status|W3C Working Draft}}
