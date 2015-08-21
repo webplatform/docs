@@ -146,11 +146,9 @@ In the android folder you will find the following directories:
 * Ripple Emulator http://ripple.tinyhippos.com/
 * PhoneGap Blog http://phonegap.com/blog
 * Intel OTC https://01.org/projects/cordova
+* Mobile App Development Company http://www.socialcubix.com/mobile-app-development
 }}
 {{Topics|Developer Tools}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
