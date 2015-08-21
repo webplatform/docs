@@ -46,7 +46,15 @@ The third media query describes all viewports with a height not bigger than 699 
 }}
 {{Notes_Section}}
 {{Related_Specifications_Section
-|Specifications=
+|Specifications={{Related Specification
+|Name=Media Queries Level 4
+|URL=http://www.w3.org/TR/mediaqueries-4/
+|Status=Working Draft
+}}{{Related Specification
+|Name=Media Queries
+|URL=http://www.w3.org/TR/css3-mediaqueries/
+|Status=Recommendation
+}}
 }}
 {{See_Also_Section}}
 {{Topics}}
