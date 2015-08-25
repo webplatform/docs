@@ -19,7 +19,8 @@ The width media query is always, in all browsers, equal to document.documentElem
 |Not_required=No
 |Examples={{Single Example
 |Language=CSS
-|Code=@media (width:400px){
+|Code=
+@media (width:400px){
    /*This code will only be run if the width of the viewport is exactly 400px*/
 }
 @media (min-width:400px){
@@ -28,6 +29,10 @@ The width media query is always, in all browsers, equal to document.documentElem
 @media (max-width:400px){
    /*This code will only be run if the width of the viewport is at most 400px*/
 }
+@media screen and (min-width: 400px) and (max-width: 700px){
+  /* ... */
+}
+
 }}
 }}
 {{Notes_Section}}
@@ -54,7 +59,3 @@ The width media query is always, in all browsers, equal to document.documentElem
 |Mobile_rows=
 |Notes_rows=
 }}
-
-
-
-@media screen and (min-width: 400px) and (max-width: 700px) { … }
