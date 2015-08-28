@@ -1,14 +1,9 @@
 {{Page_Title|The Basics of HTML}}
 {{Flags
 |State=Ready to Use
-|Editorial notes=
 |Checked_Out=No
 }}
-{{Byline
-|Name=
-|URL=
-|Published=
-}}
+{{Byline}}
 {{Summary_Section|In this article, you will learn the basics of HTML and gain some insight into the structure and content of an HTML
 document.
 }}
@@ -84,7 +79,7 @@ It also lets validation software know what version of HTML to validate your code
  
 Next, you can see the opening tag of the <code>&lt;html&gt;</code> element. This
 is a wrapper around the entire document. The closing <code>&lt;/html&gt;</code> tag is the last thing in any HTML document. 
-The <code>html</code> element should always have a <code>lang</code> attribute. This specifies the primary language for the page. For example, <code>en</code> means "English", <code>fr</code> means "French". There are tools available to help you find the right language tag, such as Richard Ishida's [http://rishida.net/utils/subtags/ Language Subtag Lookup tool].
+The <code>html</code> element should always have a <code>lang</code> attribute. This specifies the primary language for the page. For example, <code>en</code> means "English", <code>fr</code> means "French". There are tools available to help you find the right language tag, such as Richard Ishida's [http://r12a.github.io/apps/subtags/ Language Subtag Lookup tool].
  
 Inside the <code>html</code> element, there is the <code>[[html/elements/head|head]]</code> element. This is a
 wrapper that contains other information about the document such as internal or external styles and scripts. This is described in more detail in 
@@ -224,11 +219,7 @@ If you use the UTF-8 character encoding you can represent any character (other t
 
 For more information about working with character escapes, see [http://www.w3.org/International/questions/qa-escapes Using character escapes in markup and CSS].
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=Yes
 |Imported_tables=
@@ -236,17 +227,10 @@ For more information about working with character escapes, see [http://www.w3.or
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|HTML}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
 {{Languages|guides/the_basics_of_html}}
 
