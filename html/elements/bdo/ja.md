@@ -8,7 +8,7 @@
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|'''bdo'''要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）}}
+{{Summary_Section|'''bdo'''要素によって、ページ上のテキスト表記の方向を指定できます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
@@ -21,7 +21,7 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=ここではテキストを正しく読める向きに表示するために'''bdo'''要素を使います。
+|Description=この例では、'''bdo'''要素を使いテキストを正しく読める向きに表示します。
 
 以下のテキストには英語のように左から右に書いた文字列とヘブライ語のように右から左に書いた文字列が含まれています。
 
@@ -35,7 +35,7 @@
 }}
 {{Notes_Section
 |Notes====備考===
-Unicodeの双方向アルゴリズムでは文字列はもともと埋め込まれていた方向に自動的に変換されますが、'''bdo'''要素ではテキストの表示方向を制御することができます。
+'''bdo'''要素によって、テキストの表示方向を制御できます。Unicodeの双方向アルゴリズムは、文字列をもともと埋め込まれていた方向に自動的に変換します。
 
 例えば、英語文書は基本的に左から右(ltr)に書かれます。
 しかし、右から左(rtl)に書かれる言語を含む文節がドキュメント内にある場合、双方向アルゴリズムを用いて方向を変換しなければいけません。
