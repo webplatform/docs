@@ -406,7 +406,7 @@ You can select the first letter inside a given element using the following rule:
  
 <syntaxhighlight lang="css">p:first-letter {
   font-weight: bold;
-  font-size: 300%
+  font-size: 300%;
   background-color: red;
 }</syntaxhighlight>
  
