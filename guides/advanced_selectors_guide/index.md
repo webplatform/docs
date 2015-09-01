@@ -4,11 +4,7 @@
 |Editorial notes=Need to remove compatibility table.
 |Checked_Out=No
 }}
-{{Byline
-|Name=
-|URL=
-|Published=
-}}
+{{Byline}}
 {{Summary_Section|This guide gives a detailed explanation of most of the advanced CSS selectors available.}}
 {{Guide
 |Content=== Introduction ==
@@ -396,7 +392,7 @@ article:last-child { ... }</syntaxhighlight>
 
 There are a few others to consider:
 
-* <code>only-child</code>: Selects an element only if it is the only child of its parent. The selector  <code>article:only-child</code> wouldn't select anything in our example above, because there is more than one <code>&lt;article&gt;</code> child.
+* <code>only-child</code>: Selects an element only if it is the only child of its parent. The selector  <code>article:only-child</code> wouldn't select anything in our example above, because there is more than one element child.
 * <code>only-of-type</code>: Selects an element only if it is the only sibling of its type inside the parent element. So <code>blockquote:only-of-type</code> would select the <code>&lt;blockquote&gt;</code> in the above example because it is the only one of its type that exists.
 * <code>empty</code>: selects an element only if it has no children whatsoever (including text nodes). For example <code>div:empty</code> would select <code>&lt;div&gt;&lt;/div&gt;</code>, but not <code>&lt;div&gt;1&lt;/div&gt;</code> or <code>&lt;div&gt;&lt;p&gt;Hi!&lt;/p&gt;&lt;/div&gt;</code>
  
@@ -791,11 +787,7 @@ These selectors are not supported in IE 7 or below. Also note that you shouldn't
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, eg <code>a::after { ... }</code>, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility, and we would advise that you stick with this syntax for the time being.
 }}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
+{{Notes_Section}}
 {{Compatibility_Section
 |Not_required=No
 |Imported_tables=
@@ -803,15 +795,8 @@ Please note that the new CSS3 way of writing pseudo-elements is to use a double 
 |Mobile_rows=
 |Notes_rows=
 }}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
+{{See_Also_Section}}
 {{Topics|CSS}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
