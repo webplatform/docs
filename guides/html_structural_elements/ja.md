@@ -4,7 +4,7 @@
 |Checked_Out=Yes
 }}
 {{Byline}}
-{{Summary_Section|この文書では、HTMLで利用できるコンテンツを構造化したりグループ化したりする要素を見ていきます。<code>&lt;div&gt;</code> のような以前からお気に入りのものから、HTML5で新しく追加された <code>&lt;article&gt;</code> と <code>&lt;aside&gt;</code> といったものまでを扱います。}}
+{{Summary_Section|この文書では、HTMLで利用できるコンテンツを構造化したりグループ化したりする要素を見ていきます。<code>&lt;div&gt;</code> のような以前からお気に入りのものから、HTML5で新しく追加された <code>&lt;article&gt;</code> や <code>&lt;aside&gt;</code> といったものまでを扱います。}}
 {{Guide}}
 {{Notes_Section}}
 {{Compatibility_Section
