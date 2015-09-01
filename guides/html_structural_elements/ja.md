@@ -2,7 +2,7 @@
 {{Flags
 |State=Not Ready
 |Editorial notes=needs translation
-|Checked_Out=No
+|Checked_Out=Yes
 }}
 {{Byline}}
 {{Summary_Section}}
@@ -19,7 +19,4 @@
 {{Topics}}
 {{External_Attribution
 |Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
 }}
