@@ -30,7 +30,7 @@ Note that the order of characters of input (in other words the order of characte
 }}
 {{Notes_Section
 |Notes====Remarks===
-Without the BDO tag, the expectation is broken because of the Unicode bidirectional algorithm applied implicitly. While the Arabic alphabets are given inherent right-to-left attribute and the English alphabet left-to-right attribute, symbols such as a hyphen are given neutral attribute. During the process of the bidirectional algorithm, the neutral ones are treated as either right-to-left or left-to-right depending on the context. BDO tag forces the context to be strong right-to-left or left-to-right, ignoring the inherent directionality.
+Without the BDO tag, the expectation is broken because of the Unicode bidirectional algorithm applied implicitly. While the Arabic alphabets are given inherent right-to-left attribute and the English alphabet left-to-right attribute, symbols such as a hyphen are given neutral attribute. During the process of the bidirectional algorithm, the neutral ones are treated as either right-to-left or left-to-right depending on the context. Thus a mixture of text containing bidirectional and neutral elements may result in unwanted presentation. Use BDO tag to force the context to be strong right-to-left or left-to-right, overwriting the inherent directionality.
 
 This element is available in HTML and script as of Microsoft Internet Explorer 5.
 }}
