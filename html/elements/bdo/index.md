@@ -3,12 +3,10 @@
 |State=In Progress
 |Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
 |Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
 }}
 {{Standardization_Status}}
 {{API_Name}}
-{{Summary_Section|The '''bdo''' element (&lt;bdo&gt;) allows you to specify the direction in which text is to be rendered on the page. ("BDO" stands for Bi-Directional Override.)}}
+{{Summary_Section|The '''bdo''' element (&lt;bdo&gt;) forces a string to be displayed in order specified by the DIR attribute. ("BDO" stands for Bi-Directional Override.)}}
 {{Markup_Element
 |DOM_interface=dom/HTMLElement
 |Tag_omissions=Closing tag required
@@ -21,47 +19,37 @@
 |Not_required=No
 |Examples={{Single Example
 |Language=HTML
-|Description=This example uses the '''BDO''' element to correct the reading order of a block of text.
+|Description=This example uses the '''BDO''' element to enforce a left-to-right reading order on a block of text.
 
-The following string includes text written in the left-to-right order of the English language and the right-to-left order of Hebrew: This fragment is in English, WERBEH NI SI TNEMGARF SIHT.
+The following string includes a product code containing one Arabic alphabet followed by ASCII digits, which, on the whole, is expected to be displayed with the alphabet part on the left, and the number part on the right, just like BT-12345.
 
-Assume that the right-to-left text (WERBEH NI SI TNEMGARF SIHT.) already has been inverted, so that it displays in the correct direction. If you subsequently apply the Unicode bidirectional to the text, the text inverts a second time and incorrectly displays as left-to-right instead of right-to-left.
-|Code=&lt;BDO DIR{{=}}"ltr"&gt;This fragment is in English, 
-    WERBEH NI SI TNEMGARF SIHT.&lt;/BDO&gt;
-|LiveURL=The solution is to override the bidirectional algorithm and put the block of text in the correct reading order inside a '''BDO''' element whose [[html/attributes/dir|'''DIR''']] attribute is set to '''ltr'''.
+Note that the order of characters of input (in other words the order of characters that is stored on disk or read from disk) is the same for the product numbers in both languages, i.e. B, HYPHEN, T, N, HYPHEN, 1, 2, 3, 4, 5 for English, and BAH, HYPHEN, NUN, HYPHEN, 1, 2, 3, 4, 5 for Arabic.
+|Code=Our product N-T-12345 will be shipped as &lt;BDO DIR{{=}}"ltr"&gt;ن-ت-12345&lt;/BDO&gt; in Egypt.
+|LiveURL=The solution is to override the bidirectional attribute and force the order in the block of text inside a '''BDO''' element whose [[html/attributes/dir|'''DIR''']] attribute is set to '''ltr'''.
 }}
 }}
 {{Notes_Section
-|Usage=
 |Notes====Remarks===
-The '''BDO''' element can be used to control the reading order of a block of text.
-The Unicode bidirectional algorithm automatically reverses embedded character sequences according to their inherent direction. For example, the base direction of an English document is left-to-right (ltr). If portions of a paragraph within this document contain a language with the right-to-left (rtl) reading order, you can reverse the direction of that language by applying the bidirectional algorithm.
-The bidirectional algorithm and the [[html/attributes/dir|'''DIR''']] attribute generally suffice for embedded direction changes. However, incorrect presentations can occur when you expose formatted text to the bidirectional algorithm. For example, a paragraph containing English and Hebrew that is formatted for e-mail could be incorrectly inverted by the bidirectional algorithm. Because the reading order of the Hebrew text was inverted once for the e-mail, exposing it to the bidirectional algorithm would invert the words a second time.
-The '''BDO''' element turns off the algorithm and controls the reading order. The [[html/attributes/dir|'''DIR''']] attribute is required when you use the '''BDO''' element.
+Without the BDO tag, the expectation is broken because of the Unicode bidirectional algorithm applied implicitly. While the Arabic alphabets are given inherent right-to-left attribute and the English alphabet left-to-right attribute, symbols such as a hyphen are given neutral attribute. During the process of the bidirectional algorithm, the neutral ones are treated as either right-to-left or left-to-right depending on the context. BDO tag forces the context to be strong right-to-left or left-to-right, ignoring the inherent directionality.
+
 This element is available in HTML and script as of Microsoft Internet Explorer 5.
-|Import_Notes=
 }}
 {{Related_Specifications_Section
 |Specifications={{Related Specification
 |Name=HTML 5.1
 |URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-bdo-element
 |Status=W3C Working Draft
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 5
 |URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-bdo-element
 |Status=W3C Recommendation
-|Relevant_changes=
 }}{{Related Specification
 |Name=HTML 4.01
 |URL=http://www.w3.org/TR/html401/struct/dirlang.html#edef-BDO
 |Status=W3C Recommendation
-|Relevant_changes=
 }}
 }}
 {{See_Also_Section
-|Manual_links=
-|External_links=
 |Manual_sections====Related pages (MSDN)===
 *<code>[[css/properties/direction|direction]]</code>
 }}
@@ -69,9 +57,7 @@ This element is available in HTML and script as of Microsoft Internet Explorer 
 {{External_Attribution
 |Is_CC-BY-SA=No
 |Sources=MSDN
-|MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
 }}
 {{Compatibility_Section
 |Not_required=No
