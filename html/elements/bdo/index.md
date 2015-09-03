@@ -21,9 +21,9 @@
 |Language=HTML
 |Description=This example uses the '''BDO''' element to enforce a left-to-right reading order on a block of text.
 
-The following string includes a product code containing one Arabic alphabet followed by ASCII digits, which, on the whole, is expected to be displayed with the alphabet part on the left, and the number part on the right, just like BT-12345.
+The following string includes a product code containing one Arabic alphabet followed by ASCII digits, which, on the whole, is expected to be displayed with the alphabet part on the left, and the number part on the right, just like N-T-12345.
 
-Note that the order of characters of input (in other words the order of characters that is stored on disk or read from disk) is the same for the product numbers in both languages, i.e. B, HYPHEN, T, N, HYPHEN, 1, 2, 3, 4, 5 for English, and BAH, HYPHEN, NUN, HYPHEN, 1, 2, 3, 4, 5 for Arabic.
+Note that the order of characters of input (in other words the order of characters that is stored on disk or read from disk) is the same for the product numbers in both languages, i.e. N, HYPHEN, T, HYPHEN, 1, 2, 3, 4, 5 for English, and NUN, HYPHEN, TA, HYPHEN, 1, 2, 3, 4, 5 for Arabic.
 |Code=Our product N-T-12345 will be shipped as &lt;BDO DIR{{=}}"ltr"&gt;ن-ت-12345&lt;/BDO&gt; in Egypt.
 |LiveURL=The solution is to override the bidirectional attribute and force the order in the block of text inside a '''BDO''' element whose [[html/attributes/dir|'''DIR''']] attribute is set to '''ltr'''.
 }}
