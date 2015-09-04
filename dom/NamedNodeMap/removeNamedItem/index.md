@@ -30,7 +30,7 @@ var attribute = attributes.removeNamedItem(/* see parameter list */);
 
 ### name
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of an [**attribute**](/dom/HTMLElement) to remove.
@@ -46,7 +46,6 @@ The removed attribute.
 The following example shows how to use this method to remove an [**attribute**](/dom/HTMLElement) from an element.
 
 ``` {.html}
-<!doctype html>
 <html>
  <head>
 <title>removeNamedItem example</title>

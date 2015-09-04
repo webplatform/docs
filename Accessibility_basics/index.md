@@ -1,5 +1,5 @@
 ---
-title: ccessibility basics
+title: Accessibility basics
 tags:
   - Tutorials
   - Accessibility

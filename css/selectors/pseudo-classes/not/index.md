@@ -5,6 +5,9 @@ tags:
 uri: 'css/selectors/pseudo-classes/:not'
 
 ---
+
+# :not
+
 The negation pseudo-class, `:not(X)`, is a functional notation taking a [selector](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#simple-selectors-dfn%7Csimple) (excluding the negation pseudo-class itself) as an argument. It represents an element that is not represented by its argument.
 
 Negations may not be nested; `:not(:not(...))` is invalid. Note also that since pseudo-elements are not simple selectors, they are not a valid argument to `:not()`.
