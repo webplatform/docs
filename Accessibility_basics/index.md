@@ -139,10 +139,12 @@ The one disability group that a text alternative can’t necessarily support is 
  
 How should you implement text alternatives on your site? The first step is to identify things that aren’t already text. In HTML there are only so many things that aren’t already text. Images are the most obvious ones. Here is an example of an accessible use of an image:
  
-<pre><code>&lt;p&gt;An interesting piece of art is Michelangelo’s “God creates Adam”
-&lt;img src="images/adam.jpg" alt="A painting of a man reaching up to touch God’s hand
-reaching down. It is cracked with age." longdesc="adam.html"&gt;.&lt;/p&gt;</code>
-</pre>
+<syntaxHighlight lang="html">
+<p>An interesting piece of art is Michelangelo’s “God creates Adam” 
+<img src="images/adam.jpg" 
+          alt="A painting of a man reaching up to touch God’s hand reaching down. It is cracked with age." 
+          longdesc="adam.html" />.</p>
+</syntaxHighlight>
  
 The image in this example is an integral part of the content. The <code>alt</code> attribute contains a short description of the image for people (or search engines) that might not be able to see the image correctly. The <code>longdesc</code> attribute allows you to link to an HTML page containing a full description of the image. This is generally only used to describe complex images that are used as central content. It also suffer from poor support in browsers. Most of the time you will only use the <code>alt</code> attribute.
  
@@ -174,7 +176,8 @@ As soon as tabs are used as part of an interaction more complex than allowing th
     &lt;p id="cats"&gt;Some information about cats.&lt;/p&gt;
     &lt;p id="fish"&gt;Some information about fish.&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;
+</pre>
  
 In this example the <code>selected</code> class would be used to specify which tab needs to show the “tab to the front” graphic, for example check out the “Articles” tab at the top of this page which uses this method.
  
