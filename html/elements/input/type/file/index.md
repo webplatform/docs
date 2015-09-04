@@ -15,75 +15,43 @@
 }}
 {{Examples_Section
 |Not_required=No
-|Examples={{Single Example
-|Language=
+|Examples={{Single_Example
+|Language=HTML
 |Description=The following example lets the user choose one or more files, and then displays the choices.  The files list can also be used to upload to a website.
-
-<span codelanguage{{=}}"HTML"><table>
-<tr>
-<th>HTML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;!DOCTYPE html&gt;
+|Code=
+&lt;!DOCTYPE html&gt;
 &lt;html &gt;
 &lt;head&gt;
 &lt;title&gt;Files property test&lt;/title&gt; 
-&lt;script type{{=}}"text/javascript"&gt;
-function getFiles() {
-// Get input element
-myFileList {{=}} document.getElementById("myfiles");
-// loop through files property, using length to get number of files chosen
-for (var i {{=}} 0; i &lt; myFileList.files.length; i++) {
-// display them in the div
-document.getElementById("display").innerHTML +{{=}} "&lt;br/&gt;" + myFileList.files[i].name ;
-}
-}
+&lt;script type="text/javascript"&gt;
+  function getFiles() {
+    // Get input element
+    myFileList = document.getElementById("myfiles");
+    // loop through files property, using length to get number of files chosen
+    for (var i = 0; i &lt; myFileList.files.length; i++) {
+        // display them in the div
+        document.getElementById("display").innerHTML += "&lt;br/&gt;" + myFileList.files[i].name ;
+    }
+  }
 &lt;/script&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;label&gt;Use &lt;strong&gt;shift&lt;/strong&gt; or &lt;strong&gt;ctrl&lt;/strong&gt; click to pick a few files: 
-&lt;input type{{=}}"file" multiple id{{=}}"myfiles" onchange{{=}}"getFiles();" /&gt;&lt;/label&gt;
-
-&lt;div id{{=}}"display"&gt;&lt;/div&gt;
+&lt;input type="file" multiple id="myfiles" onchange="getFiles();" /&gt;&lt;/label&gt;
+&lt;div id="display"&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-</pre>
-</td>
-</tr>
-</table></span>
-
-The following examples use the '''INPUT type{{=}}file''' element to upload a file to a server. The first example requires Microsoft Posting Acceptor, which can be used with IIS or Personal Web Server.
-|Code=&lt;form name{{=}}"oForm"
-   action{{=}}"repost.asp"
-   enctype{{=}}"multipart/form-data"
-   method{{=}}"post"&gt;
-&lt;input type{{=}}"file" name{{=}}"oFile1"/&gt;
-&lt;input type{{=}}"submit" value{{=}}"Upload File"&gt;
-&lt;/form&gt;
-|LiveURL=This example uses HTML code to submit a file selected by the user to Cpshost.dll, which is installed with Posting Acceptor.
 }}{{Single Example
-|Language=
-|Description=This example shows the Active Server Page (ASP) content of Repost.asp. Notice that the properties of the uploaded file are accessible from the submitted form.
-|Code=&lt;%@ LANGUAGE {{=}} JScript %&gt;
-&lt;%
-   Response.buffer{{=}}true;
-%&gt;
-&lt;html&gt;
-&lt;title&gt;Repost Example&lt;/title&gt;
-&lt;body&gt;
-&lt;h1&gt;Upload Status&lt;/h1&gt;
-&lt;p&gt; 
-Destination: &lt;b&gt;&lt;% Response.Write(Server.HTMLEncode(Request.Form("TargetURL"))) %&gt;&lt;/b&gt; 
-&lt;/p&gt; 
-&lt;% 
-   Response.write("&lt;P&gt;Name: " + Server.HTMLEncode(Request.Form("FileName")) + "&lt;/P&gt;"); 
-   Response.write("&lt;P&gt;Size: " + Server.HTMLEncode(Request.Form("FileSize")) + "&lt;/P&gt;"); 
-   Response.write("&lt;P&gt;Path: " + Server.HTMLEncode(Request.Form("FilePath")) + "&lt;/P&gt;"); 
-%&gt; 
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=
+|Language=HTML
+|Description=use the input file type to upload a file to a server
+|Code=
+&lt;form name="oForm"
+   action="/endpoint"
+   enctype="multipart/form-data"
+   method="post"&gt;
+&lt;input type="file" name="oFile1"/&gt;
+&lt;input type="submit" value="Upload File"&gt;
+&lt;/form&gt;
 }}
 }}
 {{Notes_Section
@@ -777,16 +745,7 @@ This property is not supported for Metro style apps using JavaScript.
 |[[html/attributes/width  (img, input elements)|'''width''']]
 |Sets or retrieves the calculated width of the object.
 |}
- 
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>input</code>
+  
 }}
 {{Topics|HTML}}
 {{External_Attribution
@@ -795,69 +754,4 @@ This property is not supported for Metro style apps using JavaScript.
 |MDN_link=
 |MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
 |HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=3.02
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=1.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=iOS6
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Google Chrome
-|Version=21+
-|Note='files' IDL attribute is writable.
-}}
 }}
