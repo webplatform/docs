@@ -1,0 +1,20 @@
+#
+# In case the git history gives out a name you don’t want to use
+# or isn't the right email-address. Please adjust it here.
+#
+# If you are OK to give your legitimate e-mail address, add it below.
+#
+# Format:
+#
+#     Proper Name <proper.name@example.org> CommitName Tofix <Ctofix@docs.webplatform.org>
+#
+# Alternately, you can claim your edits to your GitHub account by adding the docs.webplatform.org
+# alias in your GitHub account settings.
+#
+# ref: http://git-scm.com/docs/git-shortlog
+#
+Chris Mills <cmills@w3.org> Chris Mills <Cmills@docs.webplatform.org>
+Doug Schepers <schepers@w3.org> Doug Schepers <Shepazu@docs.webplatform.org>
+Janet Swisher <jswisher@mozilla.com> Janet Swisher <Jswisher@docs.webplatform.org>
+Lea Verou <lea@w3.org> Lea Verou <Lea@docs.webplatform.org>
+Renoir Boulanger <renoir@w3.org> Renoir Boulanger <Renoirb@docs.webplatform.org>
